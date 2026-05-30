@@ -73,7 +73,7 @@ function parseText(text: string): React.ReactNode[] {
 
 export default function DialogueSection({ lines }: { lines: DialogueLine[] }) {
   // Unique speakers in order of first appearance
-  const speakers = [...new Map(lines.map((l) => [l.speaker, l])).entries()].map(
+  const speakers = Array.from(new Map(lines.map((l) => [l.speaker, l])).entries()).map(
     ([speaker, l]) => ({ speaker, color: l.speakerColor, avatar: l.speakerAvatar })
   );
 
