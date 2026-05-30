@@ -43,7 +43,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   const goToTab = (i: number) => {
     if (i < 0 || i >= TABS.length) return;
     setActiveTab(i);
-    setVisitedTabs((prev) => new Set([...prev, i]));
+    setVisitedTabs((prev) => new Set(Array.from(prev).concat(i)));
   };
 
   const handleMatchingComplete = useCallback((score: number, total: number) => {
