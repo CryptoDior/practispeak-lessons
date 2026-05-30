@@ -84,6 +84,7 @@ export default function DialogueSection({ lines }: { lines: DialogueLine[] }) {
         {speakers.map(({ speaker, color, avatar }) => (
           <div key={speaker} className="flex flex-col items-center gap-1.5">
             {avatar ? (
+              // eslint-disable-next-line @next/next/no-img-element
               <img src={avatar} alt={speaker} className="w-12 h-12 rounded-full object-cover" />
             ) : (
               <div className={`w-12 h-12 rounded-full flex items-center justify-center text-base font-extrabold ${avatarColors[color]}`}>
@@ -110,6 +111,7 @@ export default function DialogueSection({ lines }: { lines: DialogueLine[] }) {
             } ${i < lines.length - 1 ? 'border-b border-gray-50' : ''}`}
           >
             {line.speakerAvatar ? (
+              // eslint-disable-next-line @next/next/no-img-element
               <img src={line.speakerAvatar} alt={line.speaker} className="w-8 h-8 rounded-full object-cover flex-shrink-0 mt-0.5" />
             ) : (
               <div
