@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-blue: #066EF5;
+  --brand-bg: #F0F4FF;
+}
+
+body {
+  background-color: #F0F4FF;
+  font-family: var(--font-nunito), 'Nunito', sans-serif;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Smooth transitions for exercise feedback */
+.exercise-option {
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+/* Fill-in-the-blank wrong-answer shake */
+@keyframes shake {
+  0%,  100% { transform: translateX(0); }
+  15%        { transform: translateX(-5px); }
+  30%        { transform: translateX(5px); }
+  45%        { transform: translateX(-5px); }
+  60%        { transform: translateX(5px); }
+  75%        { transform: translateX(-3px); }
+  90%        { transform: translateX(3px); }
+}
+.animate-shake {
+  animation: shake 0.55s ease-in-out;
+}
