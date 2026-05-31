@@ -1,5 +1,5 @@
 export type Level = 'A1-A2' | 'B1-B2' | 'C1-C2';
-export type PartOfSpeech = 'noun' | 'verb' | 'adjective' | 'adverb' | 'phrasal verb' | 'abbreviation';
+export type PartOfSpeech = 'noun' | 'verb' | 'adjective' | 'adverb' | 'phrasal verb' | 'abbreviation' | 'exclamation' | 'phrase' | 'preposition' | 'pronoun' | 'conjunction';
 export type SpeakerColor = 'purple' | 'green' | 'orange' | 'blue' | 'red';
 
 export interface VocabWord {
@@ -67,6 +67,7 @@ export interface Lesson {
    * If omitted or the file is missing, a blue gradient placeholder is shown.
    */
   heroImage?: string;
+  dialogueSubtitle?: string;
   vocabulary: VocabWord[];
   phrasalVerbs: PhrasalVerb[];
   videos: LessonVideo[];

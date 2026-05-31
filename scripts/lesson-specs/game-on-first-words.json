@@ -7,6 +7,11 @@
   "heroImagePrompt": "Two friends sitting side by side in a dark gaming room, glowing screens illuminating their focused faces, controllers in hand, cinematic wide shot, dramatic blue and orange lighting",
   "imageStyle": "photorealistic cinematic still, movie trailer aesthetic, dramatic moody lighting, shallow depth of field, film grain texture, highly realistic people, high production value, widescreen composition, not stock photography",
 
+  "avatars": {
+    "Alex": "Close-up portrait headshot of a young male gamer named Alex, late teens, friendly confident smile, wearing a gaming headset around his neck, dark gaming room background with subtle RGB lighting",
+    "Sam": "Close-up portrait headshot of a young female gamer named Sam, late teens, bright curious expression, casual style, dark gaming room background with subtle screen glow"
+  },
+
   "vocabulary": [
     {
       "word": "player",

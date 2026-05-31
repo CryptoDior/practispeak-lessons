@@ -237,14 +237,36 @@ ${dialogueEntries}
 
 fs.writeFileSync(path.join(LESSONS_DIR, `${lessonSlug}.ts`), lessonFile);
 
-// ── 6. Remind to add lesson to index ─────────────────────────────────────────
-console.log(`
-⚠️  Don't forget to add the lesson to data/lessons/index.ts:
-   import { ${spec.exportName} } from './${lessonSlug}';
-   // then add ${spec.exportName} to the lessons array
-`);
+// ── 6. Add lesson to index automatically ─────────────────────────────────────
+log('Adding lesson to index...');
+const indexPath = path.join(LESSONS_DIR, 'index.ts');
+let indexContent = fs.readFileSync(indexPath, 'utf8');
+if (!indexContent.includes(`from './${lessonSlug}'`)) {
+  indexContent = indexContent
+    .replace(
+      /^(import .* from '\.\/[^']+';)(\s*\n)(\/\*\*)/m,
+      `$1\nimport { ${spec.exportName} } from './${lessonSlug}';\n$3`
+    )
+    .replace(
+      /(export const lessons: Lesson\[\] = \[)([\s\S]*?)(\];)/,
+      (_, open, middle, close) => `${open}${middle}  ${spec.exportName},\n${close}`
+    );
+  fs.writeFileSync(indexPath, indexContent);
+  info(`Added ${spec.exportName} to lessons index`);
+} else {
+  info('Lesson already in index');
+}
 
-// ── 7. Git commit and push ────────────────────────────────────────────────────
+// ── 7. Build check before pushing ────────────────────────────────────────────
+log('Running build check...');
+try {
+  execSync('npm run build', { stdio: 'inherit' });
+} catch (e) {
+  console.error('\n❌ Build failed — fix the errors above before pushing.\n');
+  process.exit(1);
+}
+
+// ── 8. Git commit and push ────────────────────────────────────────────────────
 log('Committing and pushing to GitHub...');
 execSync('git add -A', { stdio: 'inherit' });
 execSync(`git commit -m "Add lesson: ${spec.title}"`, { stdio: 'inherit' });

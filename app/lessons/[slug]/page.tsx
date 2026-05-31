@@ -197,7 +197,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         <section className={activeTab === 3 ? 'block' : 'hidden'}>
           <SectionHeader
             title="Dialogue"
-            subtitle="Zara, Jax, and Maya coordinate during a game match"
+            subtitle={lesson.dialogueSubtitle || 'Read the dialogue and hover the blue words for definitions'}
           />
           <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
             <DialogueSection lines={lesson.dialogue} />
