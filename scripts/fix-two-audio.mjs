@@ -29,7 +29,6 @@ async function gen(text, file) {
   });
 }
 
-await gen('Press A to jump over the wall!', 'public/audio/jump-example.mp3');
 await gen('Run to the exit before the timer ends!', 'public/audio/run-example.mp3');
 
 execSync('git add -A', { stdio: 'inherit' });
