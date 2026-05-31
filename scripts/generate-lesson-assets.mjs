@@ -66,13 +66,14 @@ async function generateImage(prompt, outputPath, style = '') {
   fs.writeFileSync(outputPath, Buffer.from(imageCall.result, 'base64'));
 }
 
-async function generateAudio(text, voiceId, outputPath) {
-  info(`Generating audio: ${path.basename(outputPath)}`);
+async function generateAudio(text, voiceId, outputPath, speed = 1.0) {
+  info(`Generating audio: ${path.basename(outputPath)}${speed !== 1.0 ? ` (speed: ${speed})` : ''}`);
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
       text,
       model_id: 'eleven_turbo_v2_5',
       voice_settings: { stability: 0.5, similarity_boost: 0.75 },
+      speed,
     });
     const req = https.request({
       hostname: 'api.elevenlabs.io',
@@ -148,7 +149,7 @@ for (const word of spec.vocabulary) {
   );
 
   await generateAudio(word.word, VOICES.narrator, path.join(AUDIO_DIR, `${slug}.mp3`));
-  await generateAudio(word.example, VOICES.narrator, path.join(AUDIO_DIR, `${slug}-example.mp3`));
+  await generateAudio(word.example, VOICES.narrator, path.join(AUDIO_DIR, `${slug}-example.mp3`), 0.75);
 }
 
 // ── 3. Phrasal verb images & audio ────────────────────────────────────────────
@@ -163,7 +164,7 @@ for (const verb of spec.phrasalVerbs) {
   );
 
   await generateAudio(verb.phrase, VOICES.narrator, path.join(AUDIO_DIR, `${slug}.mp3`));
-  await generateAudio(verb.example, VOICES.narrator, path.join(AUDIO_DIR, `${slug}-example.mp3`));
+  await generateAudio(verb.example, VOICES.narrator, path.join(AUDIO_DIR, `${slug}-example.mp3`), 0.75);
 }
 
 // ── 4. Generate lesson data file ──────────────────────────────────────────────
