@@ -1,0 +1,45 @@
+{
+  "exportName": "exampleLesson",
+  "title": "Your Lesson Title",
+  "subtitle": "A short tagline for the lesson",
+  "level": "B1-B2",
+  "description": "A short description of what students will learn.",
+  "heroImagePrompt": "Extra detail for the hero image if needed",
+
+  "vocabulary": [
+    {
+      "word": "example",
+      "partOfSpeech": "noun",
+      "definition": "Definition of the word.",
+      "example": "A sentence using the word in context.",
+      "imagePrompt": "Optional: extra detail for image generation"
+    }
+  ],
+
+  "phrasalVerbs": [
+    {
+      "phrase": "example phrase",
+      "definition": "What the phrase means.",
+      "example": "A sentence using the phrase.",
+      "imagePrompt": "Optional: extra detail for image generation"
+    }
+  ],
+
+  "dialogue": [
+    {
+      "speaker": "Zara",
+      "speakerColor": "purple",
+      "text": "Hello [[teammate:a person on your team]]!"
+    },
+    {
+      "speaker": "Jax",
+      "speakerColor": "green",
+      "text": "Let's go!"
+    }
+  ],
+
+  "videos": [],
+  "matchingExercise": [],
+  "fillBlankExercise": [],
+  "multipleChoiceExercise": []
+}
