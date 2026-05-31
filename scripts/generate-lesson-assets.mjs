@@ -30,14 +30,16 @@ if (!ELEVENLABS_KEY) throw new Error('Missing ELEVENLABS_API_KEY in environment'
 
 const openai = new OpenAI({ apiKey: OPENAI_KEY });
 
-// ElevenLabs voice IDs — change these to your preferred voices
+// ElevenLabs voice IDs — American Conversational voices
 const VOICES = {
-  narrator: 'EXAVITQu4vr4xnSDxMaL', // Bella — vocabulary words & examples
-  Zara:     'EXAVITQu4vr4xnSDxMaL', // Bella — female character
-  Jax:      'TxGEqnHWrfWFTfGW9XjX', // Josh  — male character
-  Maya:     'MF3mGyEYCl7XYWbV9V6O', // Elli  — female character
-  Alex:     'TxGEqnHWrfWFTfGW9XjX', // Josh  — male character
-  Sam:      'EXAVITQu4vr4xnSDxMaL', // Bella — female character
+  narrator: 'iP95p4xoKVk53GoZ742B', // Chris  — American male conversational (vocabulary)
+  Zara:     'cgSgspJ2msm6clMCkdW9', // Jessica — American female conversational
+  Jax:      'iP95p4xoKVk53GoZ742B', // Chris   — American male conversational
+  Maya:     'cgSgspJ2msm6clMCkdW9', // Jessica — American female conversational
+  Alex:     'iP95p4xoKVk53GoZ742B', // Chris   — American male conversational
+  Sam:      'cgSgspJ2msm6clMCkdW9', // Jessica — American female conversational
+  Coach:    'iP95p4xoKVk53GoZ742B', // Chris   — American male conversational
+  Player:   'cgSgspJ2msm6clMCkdW9', // Jessica — American female conversational
 };
 
 const ROOT = path.resolve('.');
@@ -54,16 +56,14 @@ function info(msg) { console.log(`   ${msg}`); }
 async function generateImage(prompt, outputPath, style = '') {
   const fullPrompt = style ? `${prompt}. Style: ${style}` : prompt;
   info(`Generating image: ${path.basename(outputPath)}`);
-  const response = await openai.images.generate({
-    model: 'gpt-image-1',
-    prompt: fullPrompt,
-    n: 1,
-    size: '1024x1024',
-    quality: 'medium',
+  const response = await openai.responses.create({
+    model: 'gpt-4o',
+    input: fullPrompt,
+    tools: [{ type: 'image_generation', model: 'gpt-image-1', size: '1024x1024', quality: 'medium' }],
   });
-  const imageBase64 = response.data[0].b64_json;
-  if (!imageBase64) throw new Error(`No image result for: ${prompt}`);
-  fs.writeFileSync(outputPath, Buffer.from(imageBase64, 'base64'));
+  const imageCall = response.output.find(o => o.type === 'image_generation_call');
+  if (!imageCall?.result) throw new Error(`No image result for: ${prompt}`);
+  fs.writeFileSync(outputPath, Buffer.from(imageCall.result, 'base64'));
 }
 
 async function generateAudio(text, voiceId, outputPath) {
@@ -71,7 +71,7 @@ async function generateAudio(text, voiceId, outputPath) {
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
       text,
-      model_id: 'eleven_multilingual_v2',
+      model_id: 'eleven_multilingual_v3',
       voice_settings: { stability: 0.5, similarity_boost: 0.75 },
     });
     const req = https.request({

@@ -52,17 +52,14 @@ for (const speaker of speakers) {
 
   console.log(`   Generating avatar: ${speaker.toLowerCase()}-icon.png`);
 
-  const response = await openai.images.generate({
-    model: 'gpt-image-1',
-    prompt: fullPrompt,
-    n: 1,
-    size: '1024x1024',
-    quality: 'medium',
+  const response = await openai.responses.create({
+    model: 'gpt-4o',
+    input: fullPrompt,
+    tools: [{ type: 'image_generation', model: 'gpt-image-1', size: '1024x1024', quality: 'medium' }],
   });
-
-  const imageBase64 = response.data[0].b64_json;
-  if (!imageBase64) throw new Error(`No image result for ${speaker}`);
-  fs.writeFileSync(outputPath, Buffer.from(imageBase64, 'base64'));
+  const imageCall = response.output.find(o => o.type === 'image_generation_call');
+  if (!imageCall?.result) throw new Error(`No image result for ${speaker}`);
+  fs.writeFileSync(outputPath, Buffer.from(imageCall.result, 'base64'));
   console.log(`   ✅ Saved ${speaker.toLowerCase()}-icon.png`);
 }
 

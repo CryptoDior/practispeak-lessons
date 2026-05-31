@@ -1,0 +1,261 @@
+{
+  "exportName": "actionVerbsMoveYourCharacter",
+  "title": "Action Verbs — Move Your Character",
+  "subtitle": "Master the verbs that control your character in gaming",
+  "level": "A1-A2",
+  "description": "Master the verbs that control your character using imperatives — the language of gaming commands.",
+  "heroImagePrompt": "A character sprinting through a massive open-world city at golden hour, buildings and streets stretching into the distance, motion blur, epic scale, GTA 6 style",
+  "imageStyle": "ultra-realistic open-world video game graphics, GTA 6 aesthetic, photorealistic characters and environments, cinematic lighting, next-gen game engine quality, detailed textures, dynamic shadows, no text or HUD overlays",
+  "dialogueSubtitle": "Coach guides Player through an in-game tutorial",
+
+  "avatars": {
+    "Coach": "Photorealistic close-up portrait of a confident male gaming coach in his 30s, wearing a headset, urban street background, GTA 6 style graphics, dramatic lighting",
+    "Player": "Photorealistic close-up portrait of a young female gamer in her early 20s, focused expression, casual gaming setup background, GTA 6 style graphics, dramatic lighting"
+  },
+
+  "vocabulary": [
+    {
+      "word": "jump",
+      "partOfSpeech": "verb",
+      "definition": "To leap upward or over something.",
+      "example": "Press A to jump over the wall!",
+      "imagePrompt": "A photorealistic game character mid-air leaping over a tall concrete wall in an urban environment, dynamic action pose, motion blur"
+    },
+    {
+      "word": "run",
+      "partOfSpeech": "verb",
+      "definition": "To move your character quickly.",
+      "example": "Run to the exit before the timer ends!",
+      "imagePrompt": "A photorealistic character sprinting at full speed down a city street, motion blur on legs, urgent movement, open-world urban environment"
+    },
+    {
+      "word": "shoot",
+      "partOfSpeech": "verb",
+      "definition": "To fire a weapon at an enemy or target.",
+      "example": "Press R2 to shoot the enemy.",
+      "imagePrompt": "A photorealistic character aiming a weapon at an enemy in a dramatic urban standoff, muzzle flash, realistic lighting, intense moment"
+    },
+    {
+      "word": "dodge",
+      "partOfSpeech": "verb",
+      "definition": "To quickly move out of the way of an attack.",
+      "example": "Dodge left! The boss is attacking!",
+      "imagePrompt": "A photorealistic character diving sideways to avoid an explosion or attack, dust and debris flying, extreme action shot, open-world environment"
+    },
+    {
+      "word": "crouch",
+      "partOfSpeech": "verb",
+      "definition": "To lower your character's body to hide or avoid hits.",
+      "example": "Crouch behind the wall to stay safe.",
+      "imagePrompt": "A photorealistic character crouching low behind a concrete barrier in a city alley, tense atmosphere, dramatic shadows, tactical gameplay moment"
+    },
+    {
+      "word": "collect",
+      "partOfSpeech": "verb",
+      "definition": "To pick up items, coins, or power-ups.",
+      "example": "Collect all the gold coins on this level.",
+      "imagePrompt": "A photorealistic character reaching down to pick up glowing coins or a power-up in an open world environment, golden light emanating from items"
+    },
+    {
+      "word": "attack",
+      "partOfSpeech": "verb",
+      "definition": "To hit, strike, or fight against an enemy.",
+      "example": "Attack the boss when his shield is down!",
+      "imagePrompt": "A photorealistic character delivering a powerful strike to a boss enemy in an epic battle scene, impact effects, dramatic lighting, intense combat"
+    },
+    {
+      "word": "defend",
+      "partOfSpeech": "verb",
+      "definition": "To protect yourself or your team from damage.",
+      "example": "Defend the base — enemies are coming!",
+      "imagePrompt": "A photorealistic character standing guard at a base entry point blocking an enemy advance, defensive stance, tense atmosphere, urban warfare setting"
+    },
+    {
+      "word": "climb",
+      "partOfSpeech": "verb",
+      "definition": "To move upward on a wall, ladder, or surface.",
+      "example": "Climb the ladder to reach the next level.",
+      "imagePrompt": "A photorealistic character climbing a metal ladder on the side of a tall building, cityscape visible below, dramatic height, golden hour lighting"
+    },
+    {
+      "word": "press",
+      "partOfSpeech": "verb",
+      "definition": "To push a button on the controller or keyboard.",
+      "example": "Press X to interact with the NPC.",
+      "imagePrompt": "Cinematic close-up of a thumb pressing a glowing controller button, dramatic lighting, dark background, photorealistic detail, game UI prompt visible"
+    },
+    {
+      "word": "move",
+      "partOfSpeech": "verb",
+      "definition": "To change the position of your character.",
+      "example": "Move forward — there's a health pack ahead!",
+      "imagePrompt": "A photorealistic character advancing forward through an open-world street with a glowing health pack visible ahead, dynamic forward motion, cinematic framing"
+    },
+    {
+      "word": "escape",
+      "partOfSpeech": "verb",
+      "definition": "To get away from an enemy or dangerous area.",
+      "example": "Escape through the back door before it closes!",
+      "imagePrompt": "A photorealistic character sprinting toward a closing back door with enemies in pursuit, dramatic tension, motion blur, urgent escape scene"
+    }
+  ],
+
+  "phrasalVerbs": [
+    {
+      "phrase": "press button to action",
+      "definition": "The most common game tutorial phrase. Tells you which button to press.",
+      "example": "Press A to jump. Press B to attack.",
+      "imagePrompt": "Photorealistic hands holding a game controller with glowing button prompts floating above it, tutorial UI style, dramatic lighting"
+    },
+    {
+      "phrase": "watch out",
+      "definition": "Used to warn someone about danger coming towards them.",
+      "example": "Watch out! There's an enemy behind you!",
+      "imagePrompt": "A photorealistic character turning around in alarm as an enemy approaches from behind in an urban environment, dramatic warning moment, tense atmosphere"
+    },
+    {
+      "phrase": "dont stop moving",
+      "definition": "A negative imperative — tells someone to keep moving continuously.",
+      "example": "Don't stop moving or they will catch you!",
+      "imagePrompt": "A photorealistic character running at full speed being chased through city streets, urgency and speed, pursuers visible behind, cinematic action shot"
+    },
+    {
+      "phrase": "attack from behind",
+      "definition": "Gives a teammate a tactical instruction for how to fight.",
+      "example": "Sneak around and attack from behind for extra damage.",
+      "imagePrompt": "A photorealistic character sneaking up behind an unaware enemy in a dark alley, stealth attack moment, dramatic shadows, tactical gameplay"
+    },
+    {
+      "phrase": "follow me",
+      "definition": "Tells a teammate to move with you in the same direction.",
+      "example": "Follow me! I know the way to the boss room.",
+      "imagePrompt": "A photorealistic character gesturing forward to a teammate to follow through an open-world environment, leadership moment, cinematic wide shot"
+    },
+    {
+      "phrase": "climb up to the next level",
+      "definition": "Tells the player to move upward to progress in the game.",
+      "example": "Climb up to the next level to find the key.",
+      "imagePrompt": "A photorealistic character looking up at a tall structure they need to climb in an open-world setting, sense of scale and height, dramatic upward angle"
+    }
+  ],
+
+  "dialogue": [
+    {
+      "speaker": "Coach",
+      "speakerColor": "blue",
+      "text": "OK everyone, tutorial time! [[press:to push a button on the controller]] the A button to start."
+    },
+    {
+      "speaker": "Player",
+      "speakerColor": "orange",
+      "text": "Done! Now what do I do?"
+    },
+    {
+      "speaker": "Coach",
+      "speakerColor": "blue",
+      "text": "[[jump:to leap upward or over something]] over that wall — press and hold A!"
+    },
+    {
+      "speaker": "Player",
+      "speakerColor": "orange",
+      "text": "I jumped! But now there are enemies everywhere!"
+    },
+    {
+      "speaker": "Coach",
+      "speakerColor": "blue",
+      "text": "[[dodge:to quickly move out of the way of an attack]] left, then [[crouch:to lower your body to hide or avoid hits]] behind the big rock. Quickly!"
+    },
+    {
+      "speaker": "Player",
+      "speakerColor": "orange",
+      "text": "OK — I dodged! I'm crouching. Now can I [[attack:to hit, strike, or fight against an enemy]]?"
+    },
+    {
+      "speaker": "Coach",
+      "speakerColor": "blue",
+      "text": "Not yet! First [[collect:to pick up items, coins, or power-ups]] the power-up on your right. It will make you stronger."
+    },
+    {
+      "speaker": "Player",
+      "speakerColor": "orange",
+      "text": "Got it! Power-up collected. My HP is full now!"
+    },
+    {
+      "speaker": "Coach",
+      "speakerColor": "blue",
+      "text": "Good. Now [[run:to move your character quickly]] forward and [[attack:to hit, strike, or fight against an enemy]] the enemy. Don't stop!"
+    },
+    {
+      "speaker": "Player",
+      "speakerColor": "orange",
+      "text": "I'm running! I attacked — the enemy is down! Do I need to [[escape:to get away from an enemy or dangerous area]] now?"
+    },
+    {
+      "speaker": "Coach",
+      "speakerColor": "blue",
+      "text": "No — [[climb:to move upward on a wall, ladder, or surface]] the ladder on the left. The exit is at the top. Move fast!"
+    },
+    {
+      "speaker": "Player",
+      "speakerColor": "orange",
+      "text": "I'm climbing! I can see the exit! Follow me, Coach — I'll [[defend:to protect yourself or your team from damage]] the top!"
+    }
+  ],
+
+  "videos": [],
+
+  "matchingExercise": [
+    { "word": "JUMP", "definition": "To leap over something" },
+    { "word": "DODGE", "definition": "To quickly move away from an attack" },
+    { "word": "CROUCH", "definition": "To lower your body to hide" },
+    { "word": "SHOOT", "definition": "To fire a weapon" },
+    { "word": "COLLECT", "definition": "To pick up items or coins" },
+    { "word": "ESCAPE", "definition": "To get away from danger" },
+    { "word": "CLIMB", "definition": "To move upward on a surface" },
+    { "word": "DEFEND", "definition": "To protect yourself from damage" }
+  ],
+
+  "fillBlankExercise": [
+    { "before": "", "after": "A to start the game.", "answer": "press" },
+    { "before": "", "after": "over the wall before the timer runs out!", "answer": "jump" },
+    { "before": "", "after": "all the gold coins to unlock the next door.", "answer": "collect" },
+    { "before": "", "after": "behind the crate — the enemy can't see you there!", "answer": "crouch" },
+    { "before": "", "after": "the ladder to reach the top floor.", "answer": "climb" },
+    { "before": "Don't stand still!", "after": "to the safe zone now!", "answer": "run" },
+    { "before": "", "after": "left — there's a rocket coming straight at you!", "answer": "dodge" },
+    { "before": "Your team is under attack!", "after": "the base immediately!", "answer": "defend" }
+  ],
+
+  "multipleChoiceExercise": [
+    {
+      "question": "What does Coach tell the player to do first?",
+      "options": ["Jump over a wall.", "Press the A button to start.", "Collect a power-up.", "Run to the exit."],
+      "correctIndex": 1
+    },
+    {
+      "question": "Why does Coach tell the player to collect the power-up?",
+      "options": ["It opens the exit door.", "It gives extra coins.", "It will make the player stronger.", "It unlocks a new weapon."],
+      "correctIndex": 2
+    },
+    {
+      "question": "What two things does Coach tell the player to do with the enemy?",
+      "options": ["Dodge and escape.", "Crouch and defend.", "Run forward and attack.", "Climb and shoot."],
+      "correctIndex": 2
+    },
+    {
+      "question": "Where is the exit?",
+      "options": ["Behind the big rock.", "At the top of the ladder.", "Through the back door.", "Near the power-up."],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does the player say they will do at the top?",
+      "options": ["Collect more coins.", "Escape through the door.", "Defend the top.", "Press a button."],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which instruction is a NEGATIVE imperative in the dialogue?",
+      "options": ["Follow me!", "Don't stop!", "Climb the ladder.", "Press A to start."],
+      "correctIndex": 1
+    }
+  ]
+}
