@@ -177,7 +177,7 @@ export const gameOnFirstWords: Lesson = {
       speaker: 'Alex',
       speakerColor: 'blue',
       speakerAvatar: '/images/alex-icon.png',
-      text: 'Ha! OK — I have my [[controller:the device you hold in your hands to play]] ready now. Let's go!',
+      text: "Ha! OK — I have my [[controller:the device you hold in your hands to play]] ready now. Let's go!",
     },
     {
       speaker: 'Sam',
@@ -189,7 +189,7 @@ export const gameOnFirstWords: Lesson = {
       speaker: 'Alex',
       speakerColor: 'blue',
       speakerAvatar: '/images/alex-icon.png',
-      text: 'Yes! But please don't [[quit:to leave or exit the game completely]] this time! And don't [[pause:to stop the game for a moment]] for ten minutes!',
+      text: "Yes! But please don't [[quit:to leave or exit the game completely]] this time! And don't [[pause:to stop the game for a moment]] for ten minutes!",
     },
     {
       speaker: 'Sam',

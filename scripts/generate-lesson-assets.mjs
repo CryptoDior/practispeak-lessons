@@ -169,13 +169,18 @@ for (const verb of spec.phrasalVerbs) {
 // ── 4. Generate lesson data file ──────────────────────────────────────────────
 log('Writing lesson data file...');
 
+// Use double quotes if string contains apostrophes, otherwise single quotes
+function q(str) {
+  return str.includes("'") ? `"${str}"` : `'${str}'`;
+}
+
 const vocabEntries = spec.vocabulary.map(w => {
   const slug = slugify(w.word);
   return `    {
       word: '${w.word.toUpperCase()}',
       partOfSpeech: '${w.partOfSpeech}',
-      definition: '${w.definition}',
-      example: '${w.example}',
+      definition: ${q(w.definition)},
+      example: ${q(w.example)},
       imageSlug: '/images/${slug}.png',
     }`;
 }).join(',\n');
@@ -184,8 +189,8 @@ const phrasalEntries = spec.phrasalVerbs.map(v => {
   const slug = slugify(v.phrase);
   return `    {
       phrase: '${v.phrase.toUpperCase()}',
-      definition: '${v.definition}',
-      example: '${v.example}',
+      definition: ${q(v.definition)},
+      example: ${q(v.example)},
       imageSlug: '/images/${slug}.png',
     }`;
 }).join(',\n');
@@ -196,7 +201,7 @@ const dialogueEntries = spec.dialogue.map(l => {
       speaker: '${l.speaker}',
       speakerColor: '${l.speakerColor}',
       speakerAvatar: '/images/${avatarSlug}-icon.png',
-      text: '${l.text}',
+      text: ${q(l.text)},
     }`;
 }).join(',\n');
 
