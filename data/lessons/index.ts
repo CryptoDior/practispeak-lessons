@@ -1,5 +1,6 @@
 import { Lesson } from '@/types/lesson';
 import { teamCommunication } from './team-communication';
+import { gameOnFirstWords } from './game-on-first-words';
 
 /**
  * Add new lessons here by importing the lesson file and adding it to this array.
@@ -7,8 +8,7 @@ import { teamCommunication } from './team-communication';
  */
 export const lessons: Lesson[] = [
   teamCommunication,
-  // Add new lessons below this line:
-  // myNewLesson,
+  gameOnFirstWords,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
