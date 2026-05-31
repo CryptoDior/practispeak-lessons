@@ -67,13 +67,15 @@ async function generateImage(prompt, outputPath, style = '') {
 }
 
 async function generateAudio(text, voiceId, outputPath, speed = 1.0) {
-  info(`Generating audio: ${path.basename(outputPath)}${speed !== 1.0 ? ` (speed: ${speed})` : ''}`);
+  info(`Generating audio: ${path.basename(outputPath)}${speed !== 1.0 ? ` (${speed}x)` : ''}`);
+  const finalText = speed !== 1.0
+    ? `<speak><prosody rate="${Math.round(speed * 100)}%">${text}</prosody></speak>`
+    : text;
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
-      text,
+      text: finalText,
       model_id: 'eleven_turbo_v2_5',
       voice_settings: { stability: 0.5, similarity_boost: 0.75 },
-      speed,
     });
     const req = https.request({
       hostname: 'api.elevenlabs.io',
