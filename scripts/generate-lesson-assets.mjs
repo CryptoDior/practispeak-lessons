@@ -129,42 +129,18 @@ console.log(`   Vocab words:   ${spec.vocabulary.length}`);
 console.log(`   Phrasal verbs: ${spec.phrasalVerbs.length}`);
 console.log(`   Dialogue lines: ${spec.dialogue.length}`);
 
-const imageStyle = spec.imageStyle || '';
-
-// ── 1. Hero image ─────────────────────────────────────────────────────────────
-log('Generating hero image...');
-await generateImage(
-  `A cinematic hero image for an English language lesson called "${spec.title}". ${spec.heroImagePrompt || ''}. No text or subtitles in the image.`,
-  path.join(IMAGES_DIR, `${lessonSlug}-hero.png`),
-  imageStyle
-);
-
-// ── 2. Vocabulary images & audio ──────────────────────────────────────────────
-log('Generating vocabulary images and audio...');
+// ── 1. Vocabulary audio ───────────────────────────────────────────────────────
+log('Generating vocabulary audio...');
 for (const word of spec.vocabulary) {
   const slug = slugify(word.word);
-
-  await generateImage(
-    `${word.imagePrompt || `A scene representing the word "${word.word}" in a gaming context: ${word.definition}`}. No text or subtitles in the image.`,
-    path.join(IMAGES_DIR, `${slug}.png`),
-    imageStyle
-  );
-
   await generateAudio(word.word, VOICES.narrator, path.join(AUDIO_DIR, `${slug}.mp3`));
   await generateAudio(word.example, VOICES.narrator, path.join(AUDIO_DIR, `${slug}-example.mp3`), 0.75);
 }
 
-// ── 3. Phrasal verb images & audio ────────────────────────────────────────────
-log('Generating phrasal verb images and audio...');
+// ── 2. Phrasal verb audio ─────────────────────────────────────────────────────
+log('Generating phrasal verb audio...');
 for (const verb of spec.phrasalVerbs) {
   const slug = slugify(verb.phrase);
-
-  await generateImage(
-    `${verb.imagePrompt || `A scene representing the phrase "${verb.phrase}" in a gaming context: ${verb.definition}`}. No text or subtitles in the image.`,
-    path.join(IMAGES_DIR, `${slug}.png`),
-    imageStyle
-  );
-
   await generateAudio(verb.phrase, VOICES.narrator, path.join(AUDIO_DIR, `${slug}.mp3`));
   await generateAudio(verb.example, VOICES.narrator, path.join(AUDIO_DIR, `${slug}-example.mp3`), 0.75);
 }
