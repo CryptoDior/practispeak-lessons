@@ -1,0 +1,7 @@
+{
+  "title": "Your Lesson Title Here",
+  "subtitle": "One line describing what students will learn",
+  "level": "A1-A2",
+  "topic": "Describe the topic clearly. Tell Claude what vocabulary to focus on and the gaming context. Example: 'Basic gaming interface words — words that appear on game screens like player, score, level, pause, quit, settings, controller, menu, HP. Keep definitions very simple for beginners.'",
+  "speakers": ["Alex", "Sam"]
+}
