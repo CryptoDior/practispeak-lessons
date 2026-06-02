@@ -114,6 +114,8 @@ export interface Lesson {
   subtitle: string;
   level: Level;
   description: string;
+  /** If set, the lesson card links directly to this URL instead of /lessons/[slug] */
+  externalUrl?: string;
   /**
    * Optional hero image shown in the lesson header.
    * Path relative to /public, e.g. '/images/team-communication-hero.jpg'

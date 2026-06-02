@@ -50,7 +50,7 @@ export default function Home() {
             {lessons.map((lesson) => (
               <Link
                 key={lesson.slug}
-                href={`/lessons/${lesson.slug}`}
+                href={lesson.externalUrl ?? `/lessons/${lesson.slug}`}
                 className="group bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.07)] p-6 hover:shadow-[0_6px_28px_rgba(6,110,245,0.14)] hover:-translate-y-0.5 transition-all duration-200 block"
               >
                 <div className="mb-3">
@@ -64,11 +64,17 @@ export default function Home() {
                 </p>
 
                 <div className="flex gap-3 text-xs text-gray-400 font-semibold mb-5">
-                  <span>{lesson.vocabulary.length} words</span>
-                  <span>·</span>
-                  <span>{lesson.phrasalVerbs.length} phrasal verbs</span>
-                  <span>·</span>
-                  <span>3 exercises</span>
+                  {lesson.externalUrl ? (
+                    <span>8 phrases · 3 exercises · Speaking</span>
+                  ) : (
+                    <>
+                      <span>{lesson.vocabulary.length} words</span>
+                      <span>·</span>
+                      <span>{lesson.phrasalVerbs.length} phrasal verbs</span>
+                      <span>·</span>
+                      <span>3 exercises</span>
+                    </>
+                  )}
                 </div>
 
                 <div className="flex items-center gap-1 text-sm font-extrabold text-[#066EF5]">
