@@ -132,7 +132,8 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 .chat-feed{display:grid;gap:12px}
 .chat-line{display:flex;gap:10px;align-items:flex-start;max-width:680px}
 .chat-line.r{flex-direction:row-reverse;margin-left:auto}
-.chat-av-lg{width:36px;height:36px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800}
+.chat-av-lg{width:36px;height:36px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;overflow:hidden}
+.chat-av-lg img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}
 .chat-bubble{padding:11px 15px;border-radius:14px;max-width:520px;font-size:14px;line-height:1.6}
 .chat-line:not(.r) .chat-bubble{background:var(--white);border:1px solid var(--border);border-top-left-radius:4px}
 .chat-line.r .chat-bubble{background:var(--blue-light);border:1px solid var(--blue-mid);border-top-right-radius:4px}
@@ -580,9 +581,9 @@ const PHRASES = [
 ];
 
 const CHARS = {
-  Mike: {color:'#2563eb', bg:'#eff4ff', side:'l'},
-  Alex: {color:'#7c3aed', bg:'#f5f3ff', side:'r'},
-  Judy: {color:'#0d9488', bg:'#f0fdfa', side:'l'},
+  Mike: {color:'#2563eb', bg:'#eff4ff', side:'l', icon:'images/mike-icon.png'},
+  Alex: {color:'#7c3aed', bg:'#f5f3ff', side:'r', icon:'images/alex-icon.png'},
+  Judy: {color:'#0d9488', bg:'#f0fdfa', side:'l', icon:'images/judy-icon.png'},
 };
 
 const SCENARIOS = [
@@ -827,7 +828,7 @@ function renderInAction(){
       const isR=c.side==='r';
       const bubbleCls=l.name==='Judy'?'chat-bubble teal':'chat-bubble';
       return `<div class="chat-line ${isR?'r':''}">
-        <div class="chat-av-lg" style="background:${c.bg};color:${c.color}">${l.name[0]}</div>
+        <div class="chat-av-lg" style="background:${c.bg};color:${c.color}"><img src="${c.icon}" alt="${l.name}" onerror="this.style.display='none';this.parentElement.textContent='${l.name[0]}'"></div>
         <div class="${bubbleCls}">
           <div class="chat-name">${l.name}</div>
           <div>${l.text}</div>
@@ -878,7 +879,7 @@ function renderContext(){
   const cr=document.getElementById('contextCharRow');
   charNames.forEach(n=>{
     const c=CHARS[n];
-    cr.innerHTML+=`<div class="char-pill"><div class="char-av" style="background:${c.bg};color:${c.color}">${n[0]}</div>${n}</div>`;
+    cr.innerHTML+=`<div class="char-pill"><div class="char-av" style="background:${c.bg};color:${c.color};overflow:hidden"><img src="${c.icon}" alt="${n}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;display:block" onerror="this.style.display='none';this.parentElement.textContent='${n[0]}'"></div>${n}</div>`;
   });
   const feed=document.getElementById('contextFeed');
   CONTEXT_LINES.forEach(l=>{
@@ -886,7 +887,7 @@ function renderContext(){
     const isR=c.side==='r';
     const bubbleCls=l.name==='Judy'?'chat-bubble teal':'chat-bubble';
     feed.innerHTML+=`<div class="chat-line ${isR?'r':''}">
-      <div class="chat-av-lg" style="background:${c.bg};color:${c.color}">${l.name[0]}</div>
+      <div class="chat-av-lg" style="background:${c.bg};color:${c.color}"><img src="${c.icon}" alt="${l.name}" onerror="this.style.display='none';this.parentElement.textContent='${l.name[0]}'"></div>
       <div class="${bubbleCls}">
         <div class="chat-name">${l.name}</div>
         <div>${l.text}</div>
