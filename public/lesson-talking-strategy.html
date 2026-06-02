@@ -774,10 +774,32 @@ function audioHTML(label, src){
     <div class="ap-dur">0:03</div>
   </div>`;
 }
-function toggleAudio(el){
-  const was=el.classList.contains('playing');
-  document.querySelectorAll('.audio-player.playing').forEach(p=>{p.classList.remove('playing');p.querySelector('.ap-btn').textContent='▶';});
-  if(!was){el.classList.add('playing');el.querySelector('.ap-btn').textContent='■';}
+let currentAudio = null;
+let currentPlayer = null;
+function toggleAudio(el, src){
+  // Stop any currently playing audio
+  if(currentAudio){
+    currentAudio.pause();
+    currentAudio.currentTime = 0;
+  }
+  if(currentPlayer){
+    currentPlayer.classList.remove('playing');
+    currentPlayer.querySelector('.ap-btn').textContent='▶';
+  }
+  // If clicking the same player, just stop
+  if(currentPlayer === el){ currentAudio=null; currentPlayer=null; return; }
+  // Play new audio
+  const audio = new Audio(src);
+  audio.play().catch(()=>{});
+  audio.onended = () => {
+    el.classList.remove('playing');
+    el.querySelector('.ap-btn').textContent='▶';
+    currentAudio=null; currentPlayer=null;
+  };
+  el.classList.add('playing');
+  el.querySelector('.ap-btn').textContent='■';
+  currentAudio = audio;
+  currentPlayer = el;
 }
 
 // ─────────────────────────────────────
