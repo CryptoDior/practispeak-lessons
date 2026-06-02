@@ -9,6 +9,10 @@ export interface VocabWord {
   example: string;
   /** Matches /public/images/[imageSlug].jpg and /public/audio/[imageSlug].mp3 */
   imageSlug: string;
+  /** Optional origin / etymology note shown on the card */
+  etymologyNote?: string;
+  /** Optional second example (noun use, register note, etc.) */
+  secondExample?: string;
 }
 
 export interface PhrasalVerb {
@@ -74,6 +78,26 @@ export interface GrammarFocus {
   negativeExamples: GrammarExample[];
 }
 
+export interface RegisterEntry {
+  context: string;   // e.g. "Discord / gaming chat"
+  register: string;  // e.g. "Informal"
+  example: string;   // e.g. "Bro they nerfed my main again 😭"
+}
+
+export interface ReadingPassage {
+  title: string;
+  context: string;           // scene-setting sentence
+  text: string;              // passage — wrap key terms in [[term]] for highlighting
+  highlightTerms: string[];  // terms to highlight in the passage
+  questions: string[];       // open comprehension questions
+}
+
+export interface ProductionPrompt {
+  icon: string;    // emoji
+  label: string;   // e.g. "A"
+  prompt: string;  // the writing task
+}
+
 export interface LessonVideo {
   title: string;
   /** YouTube video ID, or "PLACEHOLDER_N" for a coming-soon placeholder */
@@ -94,6 +118,11 @@ export interface Lesson {
    */
   heroImage?: string;
   grammarFocus?: GrammarFocus;
+  tabLabels?: [string, string, string, string, string]; // override default tab names
+  registerAwareness?: RegisterEntry[];
+  registerTraps?: string[];    // tip/warning strings shown below the table
+  readingPassage?: ReadingPassage;
+  productionPrompts?: ProductionPrompt[];
   dialogueSubtitle?: string;
   vocabulary: VocabWord[];
   phrasalVerbs: PhrasalVerb[];

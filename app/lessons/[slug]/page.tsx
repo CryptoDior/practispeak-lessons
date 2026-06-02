@@ -13,8 +13,10 @@ import FillBlankExercise from '@/components/exercises/FillBlankExercise';
 import MultipleChoiceExercise from '@/components/exercises/MultipleChoiceExercise';
 import CompletionScreen from '@/components/CompletionScreen';
 import GrammarFocusSection from '@/components/GrammarFocusSection';
+import RegisterSection from '@/components/RegisterSection';
+import ReadingPassageSection from '@/components/ReadingPassageSection';
 
-const TABS = ['Vocabulary', 'Phrasal Verbs', 'Videos', 'Dialogue', 'Exercises'] as const;
+const DEFAULT_TABS = ['Vocabulary', 'Phrasal Verbs', 'Videos', 'Dialogue', 'Exercises'] as const;
 
 interface ExerciseScore {
   score: number;
@@ -34,6 +36,7 @@ export default function LessonPage({ params }: { params: { slug: string } }) {
 }
 
 function LessonContent({ lesson }: { lesson: Lesson }) {
+  const TABS = lesson.tabLabels ?? DEFAULT_TABS;
   const [activeTab, setActiveTab] = useState(0);
   const [visitedTabs, setVisitedTabs] = useState<Set<number>>(new Set([0]));
   const [scores, setScores] = useState<Scores>({});
@@ -174,11 +177,11 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           )}
         </section>
 
-        {/* Phrasal Verbs */}
+        {/* Tab 1 — Phrasal Verbs / Related Terms */}
         <section className={activeTab === 1 ? 'block' : 'hidden'}>
           <SectionHeader
-            title="Phrasal Verbs"
-            subtitle={`${lesson.phrasalVerbs.length} gaming phrasal verbs and their meanings`}
+            title={TABS[1]}
+            subtitle={`${lesson.phrasalVerbs.length} ${TABS[1].toLowerCase()} and their meanings`}
           />
           <div className="flex flex-col gap-6">
             {lesson.phrasalVerbs.map((verb, i) => (
@@ -187,25 +190,49 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           </div>
         </section>
 
-        {/* Videos */}
+        {/* Tab 2 — Videos / Register */}
         <section className={activeTab === 2 ? 'block' : 'hidden'}>
-          <SectionHeader title="Videos" subtitle="Watch these terms used in context" />
-          <div className="grid gap-6 md:grid-cols-2">
-            {lesson.videos.map((video, i) => (
-              <VideoCard key={i} video={video} />
-            ))}
-          </div>
+          {lesson.registerAwareness ? (
+            <>
+              <SectionHeader title={TABS[2]} subtitle="How these words change across different contexts" />
+              <RegisterSection entries={lesson.registerAwareness} traps={lesson.registerTraps} />
+            </>
+          ) : (
+            <>
+              <SectionHeader title="Videos" subtitle="Watch these terms used in context" />
+              <div className="grid gap-6 md:grid-cols-2">
+                {lesson.videos.map((video, i) => (
+                  <VideoCard key={i} video={video} />
+                ))}
+              </div>
+            </>
+          )}
         </section>
 
-        {/* Dialogue */}
+        {/* Tab 3 — Dialogue / In Context */}
         <section className={activeTab === 3 ? 'block' : 'hidden'}>
-          <SectionHeader
-            title="Dialogue"
-            subtitle={lesson.dialogueSubtitle || 'Read the dialogue and hover the blue words for definitions'}
-          />
-          <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
-            <DialogueSection lines={lesson.dialogue} />
-          </div>
+          {lesson.readingPassage ? (
+            <>
+              <SectionHeader
+                title={TABS[3]}
+                subtitle="Read the passage — highlighted words are from this lesson"
+              />
+              <ReadingPassageSection
+                passage={lesson.readingPassage}
+                prompts={lesson.productionPrompts}
+              />
+            </>
+          ) : (
+            <>
+              <SectionHeader
+                title="Dialogue"
+                subtitle={lesson.dialogueSubtitle || 'Read the dialogue and hover the blue words for definitions'}
+              />
+              <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
+                <DialogueSection lines={lesson.dialogue} />
+              </div>
+            </>
+          )}
         </section>
 
         {/* Exercises */}
