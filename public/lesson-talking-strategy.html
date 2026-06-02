@@ -8,27 +8,17 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#f0f2f8;
-  --white:#fff;
-  --border:#e2e5f0;
-  --text:#0d1117;
-  --text2:#5a6070;
-  --text3:#9aa0b4;
-  --blue:#2563eb;
-  --blue-light:#eff4ff;
-  --blue-mid:#dbe8ff;
-  --green:#10b981;
-  --green-light:#ecfdf5;
-  --red:#ef4444;
-  --red-light:#fef2f2;
-  --yellow:#f59e0b;
-  --yellow-light:#fffbeb;
+  --bg:#f0f2f8;--white:#fff;--border:#e2e5f0;--text:#0d1117;--text2:#5a6070;--text3:#9aa0b4;
+  --blue:#2563eb;--blue-light:#eff4ff;--blue-mid:#dbe8ff;
+  --green:#10b981;--green-light:#ecfdf5;
+  --red:#ef4444;--red-light:#fef2f2;
+  --yellow:#f59e0b;--yellow-light:#fffbeb;
+  --purple:#7c3aed;--purple-light:#f5f3ff;--purple-mid:#ede9fe;
+  --teal:#0d9488;--teal-light:#f0fdfa;
+  --orange:#d97706;--orange-light:#fffbeb;
   --shadow-sm:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
-  --shadow:0 4px 16px rgba(0,0,0,.08);
-  --shadow-lg:0 8px 30px rgba(0,0,0,.11);
-  --r:16px;
-  --r-sm:10px;
-  --font:'Inter',-apple-system,sans-serif;
+  --shadow:0 4px 16px rgba(0,0,0,.08);--shadow-lg:0 8px 30px rgba(0,0,0,.11);
+  --r:16px;--r-sm:10px;--font:'Inter',-apple-system,sans-serif;
 }
 body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:100vh;font-size:15px;line-height:1.6}
 
@@ -43,17 +33,21 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 .hero-wrap{background:var(--white);border-bottom:1px solid var(--border)}
 .hero{max-width:1100px;margin:0 auto;padding:40px 40px 0;display:flex;align-items:center;gap:40px;min-height:240px}
 .hero-left{flex:1;min-width:0;padding-bottom:40px}
-.hero-badge{display:inline-block;background:var(--bg);color:var(--text2);border:1px solid var(--border);font-size:12px;font-weight:600;padding:4px 12px;border-radius:20px;margin-bottom:14px}
-.hero-title{font-size:clamp(26px,4vw,42px);font-weight:900;letter-spacing:-1px;line-height:1.15;margin-bottom:10px;color:var(--text)}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;margin-bottom:14px}
+.badge-pill{background:var(--bg);color:var(--text2);border:1px solid var(--border);font-size:12px;font-weight:600;padding:4px 12px;border-radius:20px}
+.badge-pill.blue{background:var(--blue-light);color:var(--blue);border-color:var(--blue-mid)}
+.hero-title{font-size:clamp(28px,4vw,46px);font-weight:900;letter-spacing:-1.5px;line-height:1.1;margin-bottom:10px;color:var(--text)}
 .hero-sub{font-size:15px;color:var(--text2);margin-bottom:24px;max-width:480px}
 .hero-progress{display:flex;align-items:center;gap:12px}
 .hero-prog-track{flex:1;height:8px;background:var(--bg);border-radius:4px;overflow:hidden;max-width:320px}
 .hero-prog-fill{height:100%;background:var(--blue);border-radius:4px;transition:width .5s ease}
 .hero-prog-label{font-size:13px;font-weight:700;color:var(--blue)}
 .hero-right{flex-shrink:0;width:420px;align-self:flex-end}
-.hero-img-wrap{width:100%;height:220px;border-radius:var(--r) var(--r) 0 0;overflow:hidden;background:linear-gradient(135deg,#1e2540,#2d3a6e)}
+.hero-img-wrap{width:100%;height:220px;border-radius:var(--r) var(--r) 0 0;overflow:hidden}
 .hero-img-wrap img{width:100%;height:100%;object-fit:cover;display:block}
-.hero-img-placeholder{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:56px;letter-spacing:6px;background:linear-gradient(135deg,#1e2540 0%,#2d3a6e 60%,#1a3a50 100%)}
+.hero-img-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:linear-gradient(135deg,#1e2540 0%,#2d3a6e 60%,#1a3a50 100%)}
+.hero-img-ph .ph-emojis{font-size:52px;letter-spacing:8px}
+.hero-img-ph .ph-text{font-size:12px;font-weight:700;color:rgba(255,255,255,.5);letter-spacing:.12em;text-transform:uppercase}
 
 /* ── TABS ── */
 .tabs-wrap{background:var(--white);border-bottom:1px solid var(--border);position:sticky;top:60px;z-index:100}
@@ -68,32 +62,30 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 .section{display:none}
 .section.active{display:block;animation:fadeUp .2s ease}
 @keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-
-/* ── SECTION HEADER ── */
 .sec-header{display:flex;align-items:center;gap:8px;margin-bottom:28px}
 .sec-dot{width:10px;height:10px;border-radius:50%;background:var(--blue);flex-shrink:0}
 .sec-label{font-size:14px;color:var(--text2)}
 
-/* ── VOCAB / PHRASE CARD ── */
-.word-list{display:grid;gap:20px}
-.word-card{background:var(--white);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--border);display:grid;grid-template-columns:1fr 1fr;min-height:300px;transition:box-shadow .2s}
-.word-card:hover{box-shadow:var(--shadow)}
-.word-card.flip{direction:rtl}
-.word-card.flip>*{direction:ltr}
-.wc-img{overflow:hidden;background:#e8eaf0;position:relative}
-.wc-img img{width:100%;height:100%;object-fit:cover;display:block}
-.wc-img-ph{width:100%;height:100%;min-height:280px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,#eef0f8,#dde0f0);color:#8890b0}
-.wc-img-ph .ph-icon{font-size:48px;opacity:.5}
-.wc-img-ph .ph-word{font-size:14px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;opacity:.6}
-.wc-body{padding:32px 36px;display:flex;flex-direction:column;justify-content:center;gap:0}
-.wc-num{font-size:13px;font-weight:700;color:var(--blue);margin-bottom:8px;letter-spacing:.02em}
-.wc-title-row{display:flex;align-items:baseline;gap:10px;margin-bottom:4px;flex-wrap:wrap}
-.wc-word{font-size:32px;font-weight:900;letter-spacing:-1px;color:var(--text);line-height:1.1}
-.wc-type{font-size:12px;font-weight:600;color:var(--text2);background:var(--bg);border:1px solid var(--border);padding:3px 10px;border-radius:20px;white-space:nowrap}
-.wc-def{font-size:16px;color:var(--text);line-height:1.6;margin:12px 0 18px}
-.wc-ex-label{font-size:10px;font-weight:700;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
-.wc-ex{font-size:14px;color:var(--text2);font-style:italic;line-height:1.6;margin-bottom:20px}
-.wc-audio{display:flex;flex-direction:column;gap:8px;margin-top:auto}
+/* ── PHRASE CARDS ── */
+.phrase-list{display:grid;gap:20px}
+.phrase-card{background:var(--white);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--border);display:grid;grid-template-columns:1fr 1fr;min-height:280px;transition:box-shadow .2s}
+.phrase-card:hover{box-shadow:var(--shadow)}
+.phrase-card.flip{direction:rtl}
+.phrase-card.flip>*{direction:ltr}
+.pc-img{overflow:hidden;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;min-height:260px}
+.pc-img img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0}
+.pc-img-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:20px}
+.pc-img-ph .ph-icon{font-size:52px;line-height:1}
+.pc-img-ph .ph-num{font-size:11px;font-weight:700;letter-spacing:.1em;opacity:.5;text-transform:uppercase}
+.pc-img-ph .ph-phrase{font-size:15px;font-weight:800;letter-spacing:-.3px;text-align:center;line-height:1.3}
+.pc-body{padding:28px 32px;display:flex;flex-direction:column;justify-content:center;gap:0}
+.pc-num{font-size:12px;font-weight:700;color:var(--blue);margin-bottom:6px;letter-spacing:.04em}
+.pc-phrase{font-size:clamp(16px,2.2vw,24px);font-weight:900;letter-spacing:-.5px;color:var(--text);line-height:1.2;margin-bottom:8px}
+.pc-type{display:inline-block;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:14px;letter-spacing:.03em}
+.pc-def{font-size:14px;color:var(--text);line-height:1.65;margin-bottom:14px}
+.pc-ex-label{font-size:10px;font-weight:700;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;margin-bottom:5px}
+.pc-ex{font-size:13px;color:var(--text2);font-style:italic;line-height:1.6;margin-bottom:18px}
+.pc-audio{display:flex;flex-direction:column;gap:8px;margin-top:auto}
 .audio-player{display:flex;align-items:center;gap:10px;background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);padding:8px 12px;cursor:pointer;transition:all .15s;user-select:none}
 .audio-player:hover{border-color:var(--blue);background:var(--blue-light)}
 .audio-player.playing{border-color:var(--blue);background:var(--blue-light)}
@@ -107,42 +99,110 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 @keyframes wave{from{transform:scaleY(.3)}to{transform:scaleY(1)}}
 .ap-dur{font-size:11px;color:var(--text3);font-weight:500;white-space:nowrap}
 
-/* ── DIALOGUE ── */
-.char-row{display:flex;gap:8px;margin-bottom:28px;flex-wrap:wrap}
+/* ── GRAMMAR BOX ── */
+.grammar-box{background:var(--blue-light);border:1px solid var(--blue-mid);border-radius:var(--r);padding:24px 28px;margin-top:32px}
+.grammar-title{font-size:11px;font-weight:700;color:var(--blue);letter-spacing:.1em;text-transform:uppercase;margin-bottom:14px}
+.modal-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.modal-pill{padding:5px 14px;border-radius:20px;font-size:13px;font-weight:700;color:#fff}
+.mp-should{background:#1d4ed8}
+.mp-could{background:#059669}
+.mp-might{background:#d97706}
+.mp-can{background:#7c3aed}
+.grammar-rules{display:grid;gap:10px}
+.g-rule{font-size:13px;color:var(--text2);line-height:1.65}
+.g-rule strong{color:var(--text)}
+.g-example{display:inline-block;background:var(--white);border-radius:var(--r-sm);padding:6px 14px;font-size:13px;color:var(--blue);font-weight:600;margin-top:6px}
+.g-note{background:rgba(37,99,235,.08);border-radius:var(--r-sm);padding:10px 14px;font-size:13px;color:var(--blue);font-weight:500;margin-top:4px}
+
+/* ── IN ACTION ── */
+.scenario-tabs{display:flex;gap:8px;margin-bottom:24px;flex-wrap:wrap}
+.sc-tab{padding:8px 16px;border-radius:var(--r-sm);border:1.5px solid var(--border);font-size:13px;font-weight:600;cursor:pointer;background:var(--white);color:var(--text2);transition:all .15s;font-family:var(--font)}
+.sc-tab:hover{border-color:var(--blue);color:var(--blue)}
+.sc-tab.active{border-color:var(--blue);background:var(--blue);color:#fff}
+.scenario-panel{display:none}
+.scenario-panel.active{display:block;animation:fadeUp .2s ease}
+.scenario-hd{font-size:10px;font-weight:700;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px}
+.scenario-title{font-size:20px;font-weight:800;letter-spacing:-.4px;margin-bottom:3px}
+.scenario-games{font-size:13px;color:var(--text3);margin-bottom:20px}
+
+/* ── CHAT ── */
+.char-row{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
 .char-pill{display:flex;align-items:center;gap:8px;padding:7px 14px;border:1.5px solid var(--border);border-radius:30px;font-size:13px;font-weight:600;background:var(--white);color:var(--text2)}
 .char-av{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;flex-shrink:0}
-.chat-feed{display:grid;gap:14px}
-.chat-line{display:flex;gap:12px;align-items:flex-start;max-width:700px}
+.chat-feed{display:grid;gap:12px}
+.chat-line{display:flex;gap:10px;align-items:flex-start;max-width:680px}
 .chat-line.r{flex-direction:row-reverse;margin-left:auto}
-.chat-av{width:36px;height:36px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800}
-.chat-bubble{padding:12px 16px;border-radius:14px;max-width:540px;font-size:14px;line-height:1.6}
+.chat-av-lg{width:36px;height:36px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800}
+.chat-bubble{padding:11px 15px;border-radius:14px;max-width:520px;font-size:14px;line-height:1.6}
 .chat-line:not(.r) .chat-bubble{background:var(--white);border:1px solid var(--border);border-top-left-radius:4px}
 .chat-line.r .chat-bubble{background:var(--blue-light);border:1px solid var(--blue-mid);border-top-right-radius:4px}
-.chat-name{font-size:10px;font-weight:700;color:var(--text3);margin-bottom:3px;letter-spacing:.06em;text-transform:uppercase}
+.chat-bubble.teal{background:var(--teal-light);border:1px solid #99f6e4}
+.chat-name{font-size:10px;font-weight:700;color:var(--text3);margin-bottom:2px;letter-spacing:.06em;text-transform:uppercase}
 .chat-line.r .chat-name{text-align:right}
 .hw{background:#fef9c3;color:#92620a;border-radius:3px;padding:1px 4px;font-weight:600}
 .tip-box{margin-top:20px;padding:14px 18px;background:var(--yellow-light);border-left:3px solid var(--yellow);border-radius:var(--r-sm);font-size:13px;color:var(--text2)}
 .tip-box strong{color:var(--text)}
+
+/* ── REGISTER TABLE ── */
+.reg-card{background:var(--white);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-sm)}
+.reg-table{width:100%;border-collapse:collapse;font-size:14px}
+.reg-table th{text-align:left;font-size:11px;font-weight:700;color:var(--text3);letter-spacing:.07em;text-transform:uppercase;padding:12px 20px;border-bottom:2px solid var(--border);background:var(--bg)}
+.reg-table td{padding:16px 20px;border-bottom:1px solid var(--border);vertical-align:top;line-height:1.55}
+.reg-table tr:last-child td{border-bottom:none}
+.reg-table td:first-child{font-weight:600;font-size:13px;color:var(--text);white-space:nowrap}
+.reg-tag{display:inline-block;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;letter-spacing:.03em;white-space:nowrap}
+.reg-tag.informal{background:var(--orange-light);color:var(--orange);border:1px solid #fed7aa}
+.reg-tag.neutral{background:#f1f5f9;color:#475569;border:1px solid #cbd5e1}
+.reg-tag.formal{background:var(--blue-light);color:var(--blue);border:1px solid var(--blue-mid)}
+.reg-table td:last-child{font-style:italic;color:var(--text2);font-size:13px}
+.reg-notes{margin-top:16px;display:grid;gap:8px}
+.reg-note{display:flex;gap:10px;font-size:13px;color:var(--text2);line-height:1.55;padding:12px 16px;background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm)}
+.reg-note-icon{color:var(--blue);font-weight:700;flex-shrink:0}
+
+/* ── SPEAKING ── */
+.speaking-intro{font-size:14px;color:var(--text2);margin-bottom:24px;line-height:1.65}
+.scenario-cards{display:grid;gap:16px;margin-bottom:28px}
+.sc-card{background:var(--white);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-sm)}
+.sc-card-header{display:flex;align-items:center;gap:16px;padding:20px 24px;cursor:pointer;transition:background .15s}
+.sc-card-header:hover{background:var(--bg)}
+.sc-letter-box{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:22px;flex-shrink:0}
+.sc-card-title{font-size:15px;font-weight:700;margin-bottom:3px}
+.sc-card-sub{font-size:13px;color:var(--text2)}
+.sc-chevron{margin-left:auto;color:var(--text3);font-size:18px;transition:transform .2s}
+.sc-card-header.open .sc-chevron{transform:rotate(180deg)}
+.sc-card-body{padding:0 24px 20px;font-size:14px;color:var(--text);line-height:1.7;display:none;border-top:1px solid var(--border)}
+.sc-card-body.open{display:block;animation:fadeUp .2s ease}
+.sc-card-body p{margin-top:14px}
+.speaking-tips{background:var(--blue-light);border:1px solid var(--blue-mid);border-radius:var(--r);padding:22px 26px}
+.speaking-tips-title{font-size:11px;font-weight:700;color:var(--blue);letter-spacing:.1em;text-transform:uppercase;margin-bottom:14px}
+.tips-grid{display:grid;gap:10px}
+.tip-row{display:flex;gap:10px;font-size:13px;color:var(--text2);line-height:1.6}
+.tip-arrow{color:var(--blue);font-weight:800;flex-shrink:0;margin-top:2px}
 
 /* ── EXERCISES ── */
 .ex-step{display:none}
 .ex-step.active{display:block;animation:fadeUp .2s ease}
 .ex-meta{font-size:11px;font-weight:700;color:var(--text3);letter-spacing:.07em;margin-bottom:6px}
 .ex-title{font-size:22px;font-weight:800;margin-bottom:4px;letter-spacing:-.4px}
-.ex-sub{font-size:14px;color:var(--text2);margin-bottom:6px}
-.ex-progress{font-size:13px;font-weight:600;color:var(--blue);margin-bottom:24px}
+.ex-sub{font-size:14px;color:var(--text2);margin-bottom:20px}
+.ex-progress{font-size:13px;font-weight:600;color:var(--blue);margin-bottom:20px}
+.ex-nav{display:flex;justify-content:space-between;margin-top:28px;gap:10px}
+
+/* Matching */
 .match-hint{font-size:13px;color:var(--text2);background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);padding:12px 16px;margin-bottom:20px}
 .match-cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .match-col-hd{font-size:11px;font-weight:700;color:var(--text3);letter-spacing:.07em;margin-bottom:10px}
 .match-items{display:grid;gap:8px}
-.m-item{padding:12px 16px;background:var(--white);border:2px solid var(--border);border-radius:var(--r-sm);font-size:14px;cursor:pointer;transition:all .15s;user-select:none}
+.m-item{padding:12px 16px;background:var(--white);border:2px solid var(--border);border-radius:var(--r-sm);font-size:13px;cursor:pointer;transition:all .15s;user-select:none;line-height:1.4}
 .m-item:hover:not(.locked){border-color:var(--blue);color:var(--blue)}
 .m-item.sel{border-color:var(--blue);background:var(--blue-light);color:var(--blue);font-weight:600}
 .m-item.ok{border-color:var(--green);background:var(--green-light);color:#065f46;font-weight:600;cursor:default}
 .m-item.bad{border-color:var(--red);background:var(--red-light);color:var(--red);animation:shake .35s ease}
 .m-item.locked{cursor:default}
-.m-left .m-item{font-weight:700;font-size:13px}
+.m-left .m-item{font-weight:700}
 @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+
+/* FITB */
 .fitb-hint{font-size:13px;color:var(--text2);background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);padding:12px 16px;margin-bottom:20px}
 .word-bank{display:flex;flex-wrap:wrap;gap:8px;padding:16px 18px;background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);margin-bottom:20px}
 .wb-hd{font-size:10px;font-weight:700;color:var(--text3);letter-spacing:.08em;width:100%;margin-bottom:4px}
@@ -151,14 +211,16 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 .chip.active{border-color:var(--blue);background:var(--blue);color:#fff}
 .chip.used{opacity:.3;pointer-events:none;text-decoration:line-through}
 .fitb-list{display:grid;gap:10px}
-.fitb-row{background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);padding:16px 20px;font-size:15px;line-height:2;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.fitb-row{background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);padding:16px 20px;font-size:14px;line-height:2;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
 .fitb-n{font-size:12px;font-weight:700;color:var(--text3);min-width:20px}
-.blank{display:inline-flex;align-items:center;justify-content:center;min-width:110px;height:34px;border:2px dashed var(--border);border-radius:var(--r-sm);font-size:13px;font-weight:600;color:var(--text3);cursor:pointer;transition:all .15s;padding:0 10px;background:var(--bg)}
+.blank{display:inline-flex;align-items:center;justify-content:center;min-width:160px;height:34px;border:2px dashed var(--border);border-radius:var(--r-sm);font-size:13px;font-weight:600;color:var(--text3);cursor:pointer;transition:all .15s;padding:0 12px;background:var(--bg)}
 .blank:hover:not(.ok){border-color:var(--blue);color:var(--blue)}
 .blank.filled{border-style:solid;border-color:var(--blue);background:var(--blue-light);color:var(--blue)}
 .blank.ok{border-color:var(--green);background:var(--green-light);color:#065f46;cursor:default}
 .blank.bad{border-color:var(--red);background:var(--red-light);color:var(--red);animation:shake .35s ease}
 .ex-actions{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+
+/* Comprehension */
 .comp-ref{background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);padding:14px 18px;font-size:13px;color:var(--text2);margin-bottom:24px}
 .comp-ref strong{color:var(--text)}
 .comp-list{display:grid;gap:16px}
@@ -177,6 +239,31 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 .comp-fb.show{display:block}
 .comp-fb.ok{background:var(--green-light);color:#065f46}
 .comp-fb.bad{background:var(--red-light);color:#991b1b}
+
+/* Corrections exercise */
+.corr-list{display:grid;gap:14px}
+.corr-card{background:var(--white);border:1px solid var(--border);border-radius:var(--r);padding:22px 24px}
+.corr-n{font-size:11px;font-weight:700;color:var(--text3);letter-spacing:.07em;text-transform:uppercase;margin-bottom:8px}
+.corr-sent{font-size:16px;color:var(--text);font-style:italic;line-height:1.5;margin-bottom:16px;font-weight:500}
+.corr-btns{display:flex;gap:8px;flex-wrap:wrap}
+.corr-btn{padding:8px 20px;border-radius:var(--r-sm);border:1.5px solid var(--border);font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;font-family:var(--font);background:var(--white);color:var(--text2)}
+.corr-btn:hover:not(:disabled){border-color:var(--blue);color:var(--blue);background:var(--blue-light)}
+.corr-btn.right{border-color:var(--green)!important;background:var(--green-light)!important;color:#065f46!important}
+.corr-btn.wrong{border-color:var(--red)!important;background:var(--red-light)!important;color:var(--red)!important}
+.corr-btn:disabled{cursor:default}
+.corr-fb{margin-top:12px;font-size:13px;padding:10px 14px;border-radius:var(--r-sm);display:none;line-height:1.55}
+.corr-fb.show{display:block}
+.corr-fb.ok{background:var(--green-light);color:#065f46}
+.corr-fb.fix{background:var(--red-light);color:#991b1b}
+
+/* Discussion questions */
+.disc-section-hd{font-size:11px;font-weight:700;color:var(--text3);letter-spacing:.08em;text-transform:uppercase;margin-bottom:14px}
+.disc-list{display:grid;gap:10px}
+.disc-item{background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);padding:16px 20px;display:flex;gap:14px;align-items:flex-start}
+.disc-num{font-size:13px;font-weight:700;color:var(--blue);min-width:24px;flex-shrink:0;padding-top:2px}
+.disc-q{font-size:14px;color:var(--text);line-height:1.6}
+
+/* Result & Final */
 .result-box{background:var(--white);border:1px solid var(--border);border-radius:var(--r);padding:28px;text-align:center;margin-top:24px;display:none}
 .result-box.show{display:block;animation:fadeUp .3s ease}
 .result-emoji{font-size:40px;margin-bottom:10px}
@@ -191,14 +278,16 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 .final-stars{font-size:28px;letter-spacing:4px;margin-bottom:24px}
 .final-next{background:rgba(255,255,255,.15);border-radius:var(--r-sm);padding:14px 20px;font-size:14px}
 .final-next strong{display:block;font-size:16px;margin-top:4px}
+
+/* Buttons */
 .btn{display:inline-flex;align-items:center;gap:6px;padding:11px 22px;border-radius:var(--r-sm);border:none;font-size:14px;font-weight:600;cursor:pointer;transition:all .2s;font-family:var(--font)}
 .btn-blue{background:var(--blue);color:#fff}
 .btn-blue:hover{background:#1d4ed8;box-shadow:0 4px 14px rgba(37,99,235,.35)}
 .btn-outline{background:var(--white);color:var(--text2);border:1.5px solid var(--border)}
 .btn-outline:hover{border-color:var(--blue);color:var(--blue)}
 .btn:disabled{opacity:.4;pointer-events:none}
-.ex-nav{display:flex;justify-content:space-between;margin-top:28px;gap:10px}
 
+/* Mobile */
 @media(max-width:700px){
   .nav{padding:0 16px}
   .hero{flex-direction:column;padding:24px 16px 0;gap:20px}
@@ -206,12 +295,13 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
   .hero-img-wrap{height:160px;border-radius:var(--r)}
   .main{padding:24px 16px 60px}
   .tabs{padding:0 16px}
-  .word-card{grid-template-columns:1fr;min-height:auto}
-  .word-card.flip{direction:ltr}
-  .wc-img{min-height:200px}
-  .wc-body{padding:22px 20px}
-  .wc-word{font-size:24px}
+  .phrase-card{grid-template-columns:1fr;min-height:auto}
+  .phrase-card.flip{direction:ltr}
+  .pc-img{min-height:180px}
+  .pc-body{padding:20px 20px}
+  .pc-phrase{font-size:18px}
   .match-cols{grid-template-columns:1fr}
+  .reg-table td:first-child{white-space:normal}
 }
 </style>
 </head>
@@ -228,7 +318,10 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 <div class="hero-wrap">
   <div class="hero">
     <div class="hero-left">
-      <div class="hero-badge">B1–B2</div>
+      <div class="hero-badge">
+        <span class="badge-pill blue">B1–B2</span>
+        <span class="badge-pill">FPS &amp; Battle Royale</span>
+      </div>
       <h1 class="hero-title">Talking Strategy</h1>
       <p class="hero-sub">The phrases competitive players use to plan, warn, and win — in English.</p>
       <div class="hero-progress">
@@ -240,7 +333,10 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
       <div class="hero-img-wrap">
         <img src="images/talking-strategy-hero.jpg" alt="Talking Strategy"
           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="hero-img-placeholder" style="display:none">🎯 🗺️ ⚔️</div>
+        <div class="hero-img-ph" style="display:none">
+          <div class="ph-emojis">🎯 🗺️ ⚔️</div>
+          <div class="ph-text">Talking Strategy</div>
+        </div>
       </div>
     </div>
   </div>
@@ -249,9 +345,11 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 <!-- TABS -->
 <div class="tabs-wrap">
   <div class="tabs" id="tabBar">
-    <button class="tab active" data-tab="vocab">Vocabulary</button>
-    <button class="tab" data-tab="phrases">Useful Phrases</button>
-    <button class="tab" data-tab="dialogue">Dialogue</button>
+    <button class="tab active" data-tab="phrases">Phrases</button>
+    <button class="tab" data-tab="inaction">In Action</button>
+    <button class="tab" data-tab="register">Register</button>
+    <button class="tab" data-tab="context">In Context</button>
+    <button class="tab" data-tab="speaking">Speaking</button>
     <button class="tab" data-tab="exercises">Exercises</button>
   </div>
 </div>
@@ -259,59 +357,134 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 <!-- MAIN -->
 <div class="main">
 
-  <!-- ════════ VOCABULARY ════════ -->
-  <div class="section active" id="tab-vocab">
+  <!-- ════════ PHRASES ════════ -->
+  <div class="section active" id="tab-phrases">
     <div class="sec-header">
       <div class="sec-dot"></div>
-      <span class="sec-label" id="vocabCountLabel">12 key words for this lesson</span>
+      <span class="sec-label">8 strategy phrases for this lesson</span>
     </div>
-    <div class="word-list" id="vocabList"></div>
+    <div class="phrase-list" id="phraseList"></div>
+
+    <!-- Grammar Box -->
+    <div class="grammar-box">
+      <div class="grammar-title">⚡ Quick Grammar Reminder</div>
+      <div class="modal-row">
+        <span class="modal-pill mp-should">should = strong advice</span>
+        <span class="modal-pill mp-could">could = softer suggestion</span>
+        <span class="modal-pill mp-might">might = uncertain warning</span>
+        <span class="modal-pill mp-can">can / can't = ability or ruling out</span>
+      </div>
+      <div class="grammar-rules">
+        <div class="g-rule">Modal verbs (<strong>should / could / might / can</strong>) go <strong>before the main verb</strong> and show how strong or certain your idea is.</div>
+        <div class="g-rule"><strong>If-sentences:</strong> If + <em>present tense</em>, will/won't + action
+          <div class="g-example">→ "If we push now, we'll catch them."</div>
+        </div>
+        <div class="g-note">⚠ The if-part is always present tense — never <em>"if we will push."</em></div>
+      </div>
+    </div>
   </div>
 
-  <!-- ════════ USEFUL PHRASES ════════ -->
-  <div class="section" id="tab-phrases">
+  <!-- ════════ IN ACTION ════════ -->
+  <div class="section" id="tab-inaction">
+    <div class="sec-header">
+      <div class="sec-dot" style="background:var(--purple)"></div>
+      <span class="sec-label">See the phrases in real gaming conversations</span>
+    </div>
+    <div class="scenario-tabs">
+      <button class="sc-tab active" onclick="showScenario(0,this)">🎯 Round Planning</button>
+      <button class="sc-tab" onclick="showScenario(1,this)">🌀 Zone Closing</button>
+      <button class="sc-tab" onclick="showScenario(2,this)">📋 Post-Round Debrief</button>
+    </div>
+    <div id="scenarioPanels"></div>
+    <div class="tip-box" style="margin-top:24px">💡 <strong>Notice:</strong> Each highlighted phrase shows a different level of certainty or strength. Can you feel the difference between <em>might</em>, <em>should</em>, and <em>can't</em>?</div>
+  </div>
+
+  <!-- ════════ REGISTER ════════ -->
+  <div class="section" id="tab-register">
+    <div class="sec-header">
+      <div class="sec-dot" style="background:var(--teal)"></div>
+      <span class="sec-label">How the same phrases change across different gaming contexts</span>
+    </div>
+    <div class="reg-card">
+      <table class="reg-table">
+        <thead>
+          <tr>
+            <th>Context</th>
+            <th>Register</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody id="regTableBody"></tbody>
+      </table>
+    </div>
+    <div class="reg-notes" id="regNotes"></div>
+  </div>
+
+  <!-- ════════ IN CONTEXT ════════ -->
+  <div class="section" id="tab-context">
     <div class="sec-header">
       <div class="sec-dot" style="background:var(--green)"></div>
-      <span class="sec-label">6 useful phrases for this lesson</span>
+      <span class="sec-label">Ranked Match Comms — Final Three Rounds</span>
     </div>
-    <div class="word-list" id="phrasesList"></div>
+    <div class="char-row" id="contextCharRow"></div>
+    <div class="chat-feed" id="contextFeed"></div>
+    <div class="tip-box" style="margin-top:20px;margin-bottom:32px">💡 <strong>Study tip:</strong> Every highlighted phrase comes from the Phrases tab. Can you spot all 8 being used naturally?</div>
+
+    <!-- Comprehension -->
+    <div class="sec-header" style="margin-top:8px">
+      <div class="sec-dot" style="background:var(--orange)"></div>
+      <span class="sec-label">Comprehension Questions — answer before moving to Exercises</span>
+    </div>
+    <div class="comp-ref"><strong>Context:</strong> Mike, Judy, and Alex are in the final three rounds of a ranked match, planning their moves under pressure.</div>
+    <div class="comp-list" id="compList"></div>
+    <div class="ex-actions" style="margin-top:24px">
+      <button class="btn btn-blue" onclick="submitComp()">Submit All Answers</button>
+    </div>
+    <div class="result-box" id="compResult">
+      <div class="result-emoji" id="compEmoji"></div>
+      <div class="result-score" id="compScore"></div>
+      <div class="result-title" id="compTitle"></div>
+      <div class="result-msg" id="compMsg"></div>
+    </div>
   </div>
 
-  <!-- ════════ DIALOGUE ════════ -->
-  <div class="section" id="tab-dialogue">
+  <!-- ════════ SPEAKING ════════ -->
+  <div class="section" id="tab-speaking">
     <div class="sec-header">
-      <div class="sec-dot" style="background:#8b5cf6"></div>
-      <span class="sec-label">Kai and Mia plan their approach during a competitive match</span>
+      <div class="sec-dot" style="background:var(--orange)"></div>
+      <span class="sec-label">Choose a scenario and practise with a partner. Use at least 4 phrases.</span>
     </div>
-    <div class="char-row" id="charRow"></div>
-    <div class="chat-feed" id="chatFeed"></div>
-    <div class="tip-box">💡 <strong>Study tip:</strong> The highlighted words appear in the Vocabulary section. Can you find all 12 words in the dialogue?</div>
+    <div class="scenario-cards" id="speakingCards"></div>
+    <div class="speaking-tips">
+      <div class="speaking-tips-title">💬 How to sound natural</div>
+      <div class="tips-grid" id="speakingTips"></div>
+    </div>
   </div>
 
   <!-- ════════ EXERCISES ════════ -->
   <div class="section" id="tab-exercises">
-    <p style="font-size:14px;color:var(--text2);margin-bottom:28px">Complete all three exercises to see your final score</p>
+    <p style="font-size:14px;color:var(--text2);margin-bottom:28px">Complete all three exercises to finish the lesson</p>
 
     <!-- EX 1: Matching -->
     <div class="ex-step active" id="ex-1">
       <div class="ex-meta">EXERCISE 1 OF 3</div>
-      <div class="ex-title">Matching</div>
-      <div class="ex-sub">Click a word, then click its correct definition.</div>
-      <div class="ex-progress" id="matchProg">0/8 matched</div>
-      <div class="match-hint">👆 Click a word on the left, then its definition on the right.</div>
+      <div class="ex-title">Match the Phrase to Its Job</div>
+      <div class="ex-sub">Click a phrase on the left, then click the correct job description on the right.</div>
+      <div class="ex-progress" id="matchProg">0/6 matched</div>
+      <div class="match-hint">👆 Click a phrase, then click its function.</div>
       <div class="match-cols">
         <div>
-          <div class="match-col-hd">Words</div>
+          <div class="match-col-hd">Phrase</div>
           <div class="match-items m-left" id="matchLeft"></div>
         </div>
         <div>
-          <div class="match-col-hd">Definitions</div>
+          <div class="match-col-hd">Its Job</div>
           <div class="match-items" id="matchRight"></div>
         </div>
       </div>
       <div class="result-box" id="matchResult">
         <div class="result-emoji">🏆</div>
-        <div class="result-title">All matched! Great teamwork!</div>
+        <div class="result-title">All matched! You know your phrases!</div>
       </div>
       <div class="ex-nav">
         <button class="btn btn-outline" disabled>← Previous</button>
@@ -319,13 +492,13 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
       </div>
     </div>
 
-    <!-- EX 2: Fill in blanks -->
+    <!-- EX 2: FITB -->
     <div class="ex-step" id="ex-2">
       <div class="ex-meta">EXERCISE 2 OF 3</div>
-      <div class="ex-title">Fill in the Blanks</div>
-      <div class="ex-sub">Choose the correct word from the bank to complete each sentence.</div>
-      <div class="fitb-hint">👆 Click a word from the Word Bank, then click the blank. Click a filled blank to return the word.</div>
-      <div class="word-bank" id="wordBank"><div class="wb-hd">WORD BANK</div></div>
+      <div class="ex-title">Complete the Sentence</div>
+      <div class="ex-sub">Choose the correct phrase from the bank for each blank.</div>
+      <div class="fitb-hint">👆 Click a phrase from the Word Bank, then click the blank. Click a filled blank to return the phrase.</div>
+      <div class="word-bank" id="wordBank"><div class="wb-hd">PHRASE BANK</div></div>
       <div class="fitb-list" id="fitbList"></div>
       <div class="ex-actions">
         <button class="btn btn-blue" onclick="checkFITB()">Check Answers</button>
@@ -343,28 +516,28 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
       </div>
     </div>
 
-    <!-- EX 3: Comprehension -->
+    <!-- EX 3: Correct/Incorrect -->
     <div class="ex-step" id="ex-3">
       <div class="ex-meta">EXERCISE 3 OF 3</div>
-      <div class="ex-title">Dialogue Comprehension</div>
-      <div class="ex-sub">Answer questions about the dialogue. Re-read it in the Dialogue tab if needed.</div>
-      <div class="comp-ref"><strong>Remember:</strong> Kai and Mia are talking during a competitive match, planning their moves together.</div>
-      <div class="comp-list" id="compList"></div>
-      <div class="ex-actions" style="margin-top:24px">
-        <button class="btn btn-blue" onclick="submitComp()">Submit All Answers</button>
+      <div class="ex-title">Correct or Incorrect?</div>
+      <div class="ex-sub">Identify the error in each sentence — or confirm it's already correct.</div>
+      <div class="corr-list" id="corrList"></div>
+      <div class="result-box" id="corrResult">
+        <div class="result-emoji" id="corrEmoji"></div>
+        <div class="result-score" id="corrScore"></div>
+        <div class="result-title" id="corrTitle"></div>
+        <div class="result-msg" id="corrMsg"></div>
       </div>
-      <div class="result-box" id="compResult">
-        <div class="result-emoji" id="compEmoji"></div>
-        <div class="result-score" id="compScore"></div>
-        <div class="result-title" id="compTitle"></div>
-        <div class="result-msg" id="compMsg"></div>
+      <div class="tip-box" style="margin-top:24px">
+        💡 <strong>Discussion Questions</strong> — Talk about these with your partner or teacher:
       </div>
+      <div class="disc-list" id="discList" style="margin-top:16px"></div>
       <div class="final-banner" id="finalBanner">
         <h2>Lesson Complete! 🎉</h2>
-        <p>Talking Strategy · B1 · Lesson 5</p>
+        <p>Talking Strategy · B1–B2 · FPS &amp; Battle Royale</p>
         <div class="final-xp" id="finalXP">0 XP</div>
         <div class="final-stars" id="finalStars">☆☆☆</div>
-        <div class="final-next">Next lesson<strong>B1 · Lesson 6 — Trash Talk &amp; Respect: What to Say (and What NOT to Say) →</strong></div>
+        <div class="final-next">Next lesson<strong>B1–B2 · Trash Talk &amp; Respect: What to Say (and What NOT to Say) →</strong></div>
       </div>
       <div class="ex-nav">
         <button class="btn btn-outline" onclick="goEx(2)">← Previous</button>
@@ -379,101 +552,183 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 // DATA
 // ─────────────────────────────────────
 
-const VOCAB = [
-  {word:'FLANK',     type:'verb',   img:'flank',     def:'To attack the enemy from the side instead of from the front.',                        ex:'"Let\'s flank them on the left — they won\'t expect it."'},
-  {word:'ROTATE',    type:'verb',   img:'rotate',    def:'To move quickly from one area of the map to another to help your team.',               ex:'"They are pushing B site. Everyone rotate now!"'},
-  {word:'ENGAGE',    type:'verb',   img:'engage',    def:'To start a fight with the enemy.',                                                     ex:'"Wait for my signal before you engage. Don\'t go early."'},
-  {word:'RETREAT',   type:'verb',   img:'retreat',   def:'To move back to a safer position to avoid danger.',                                    ex:'"We lost two players. We need to retreat and regroup."'},
-  {word:'COVER',     type:'noun',   img:'cover',     def:'A safe position or object that protects you from enemy attacks.',                      ex:'"Get behind cover — the sniper can see you from there!"'},
-  {word:'CALLOUT',   type:'noun',   img:'callout',   def:'A short voice message that tells your team where the enemy is.',                      ex:'"Good callout! Now we know exactly where they are hiding."'},
-  {word:'PRESSURE',  type:'verb',   img:'pressure',  def:'To force the enemy to react or move by threatening them continuously.',                ex:'"Keep pressuring the left side so they cannot rotate."'},
-  {word:'CLUTCH',    type:'noun',   img:'clutch',    def:'A moment when one player wins a round alone, usually against multiple enemies.',       ex:'"That was an incredible clutch! He killed three players by himself."'},
-  {word:'PUSH',      type:'verb',   img:'push',      def:'To advance aggressively toward the enemy to take control of an area.',                 ex:'"Push now while they are reloading — this is our chance!"'},
-  {word:'HOLD',      type:'verb',   img:'hold',      def:'To stay in position and defend an area without moving forward.',                       ex:'"Hold this position. Do not move until they come to us."'},
-  {word:'SPLIT',     type:'verb',   img:'split',     def:'To divide your team into two groups to attack from different directions.',              ex:'"Let\'s split — two go left, three go right. Confuse them."'},
-  {word:'EXECUTE',   type:'verb',   img:'execute',   def:'To carry out a planned strategy quickly and together as a team.',                      ex:'"Three, two, one — execute! Go, go, go!"'},
-];
-
 const PHRASES = [
-  {phrase:'Fall back!',                 type:'Command',     img:'fall-back',    def:'A command to tell your team to retreat immediately to a safe area.',                  ex:'"Fall back! There are too many of them — we can\'t win this fight."'},
-  {phrase:'Watch your flank!',          type:'Warning',     img:'watch-flank',  def:'A warning to tell a teammate that enemies may be coming from the side.',              ex:'"Watch your flank! I saw two of them go around the corner."'},
-  {phrase:'I\'ve got you covered.',     type:'Statement',   img:'got-covered',  def:'Tells your teammate that you are protecting them so they can move or act safely.',   ex:'"Run to the next wall — I\'ve got you covered from here."'},
-  {phrase:'Push together on three.',    type:'Command',     img:'push-together',def:'Tells the team to advance at exactly the same moment. Always count to three first.', ex:'"Ready? Push together on three. One, two, three — go!"'},
-  {phrase:'We need to rotate now.',     type:'Statement',   img:'rotate-now',   def:'Tells the team to change position immediately because the situation has changed.',    ex:'"They abandoned A site. We need to rotate now — fast!"'},
-  {phrase:'Good callout!',              type:'Praise',      img:'good-callout', def:'Used to praise a teammate who gave useful information about the enemy\'s location.', ex:'"Good callout! Because of that we knew exactly where to look."'},
+  {num:'01', phrase:'YOU SHOULD…',                 type:'Giving Advice',             icon:'💡', bg:'#eff4ff', color:'#2563eb',
+   def:'Use this when you want to suggest the best action to a teammate. Strong but not aggressive — the most natural way to give in-game advice.',
+   ex:'"You should hold that angle — don\'t peek until they push."'},
+  {num:'02', phrase:'WE COULD…',                   type:'Suggesting an Option',       icon:'🤔', bg:'#f5f3ff', color:'#7c3aed',
+   def:'Softer than \'we should\' — opens up a possibility without committing. Good for inviting discussion rather than giving orders.',
+   ex:'"We could split up — one pushes A, one waits at B and watches mid."'},
+  {num:'03', phrase:'THEY MIGHT…',                 type:'Warning about a Possibility',icon:'⚠️', bg:'#fffbeb', color:'#d97706',
+   def:'Use this when you suspect something but aren\'t certain. Puts teammates on alert without causing panic.',
+   ex:'"They might be camping the corner — don\'t rush in, check first."'},
+  {num:'04', phrase:'I CAN COVER…',                type:'Stating Your Ability',       icon:'🛡️', bg:'#f0fdfa', color:'#0d9488',
+   def:'Lets the team know what you\'re able to do right now. You\'re taking responsibility for a task so teammates can focus elsewhere.',
+   ex:'"I can cover mid — you take the left flank and I\'ll hold here."'},
+  {num:'05', phrase:'WE CAN\'T…',                  type:'Ruling Something Out',       icon:'🚫', bg:'#fef2f2', color:'#ef4444',
+   def:'Closes off a bad option quickly. Direct and essential in clutch moments — redirect the team fast.',
+   ex:'"We can\'t win a 1v3 — fall back, reset, and play for the next round."'},
+  {num:'06', phrase:'IF WE PUSH NOW, WE\'LL…',    type:'Planning Ahead',             icon:'⚔️', bg:'#eff4ff', color:'#2563eb',
+   def:'Links an action to a result. Shows the logic: do this, and this will happen. Great for rallying the team to act.',
+   ex:'"If we push now, we\'ll catch them reloading — they just had a big fight."'},
+  {num:'07', phrase:'IF YOU DON\'T ROTATE, WE\'LL…',type:'Consequence / Warning',   icon:'🔄', bg:'#fffbeb', color:'#d97706',
+   def:'Warns about the result of inaction. Urgent but not rude — explaining the consequence, not blaming anyone.',
+   ex:'"If you don\'t rotate now, we\'ll lose the zone — we\'re already low on time."'},
+  {num:'08', phrase:'WHAT IF WE…?',                type:'Opening a New Idea',         icon:'💭', bg:'#f5f3ff', color:'#7c3aed',
+   def:'Throws a new plan into the mix. An invitation, not a command — opens up discussion and gets the team thinking.',
+   ex:'"What if we bait them into A and flank from B while they rotate?"'},
 ];
 
-const DIALOGUE = [
-  {name:'Kai', side:'l', color:'#2563eb', bg:'#eff4ff',
-   text:'OK team, they are playing the right side. Let\'s <span class="hw">split</span> — Mia and I go left, you three take the right.'},
-  {name:'Mia', side:'r', color:'#7c3aed', bg:'#f5f3ff',
-   text:'Copy that. I\'ll <span class="hw">flank</span> from behind the building. Give me ten seconds.'},
-  {name:'Kai', side:'l', color:'#2563eb', bg:'#eff4ff',
-   text:'Go. I\'ve got you covered. The rest of you — <span class="hw">hold</span> your positions until Mia is in place.'},
-  {name:'Mia', side:'r', color:'#7c3aed', bg:'#f5f3ff',
-   text:'<span class="hw">Callout</span> — two enemies behind the blue wall, one on the roof. Don\'t <span class="hw">engage</span> the roof yet.'},
-  {name:'Kai', side:'l', color:'#2563eb', bg:'#eff4ff',
-   text:'Good callout! OK — <span class="hw">push</span> together on three. One, two, three — go!'},
-  {name:'Mia', side:'r', color:'#7c3aed', bg:'#f5f3ff',
-   text:'They\'re <span class="hw">rotating</span>! Fall back, fall back — get behind <span class="hw">cover</span>!'},
-  {name:'Kai', side:'l', color:'#2563eb', bg:'#eff4ff',
-   text:'<span class="hw">Retreat</span> to the stairs! We need to regroup. They are putting so much <span class="hw">pressure</span> on us.'},
-  {name:'Mia', side:'r', color:'#7c3aed', bg:'#f5f3ff',
-   text:'I\'m alone on the left — three enemies. I\'ll try to <span class="hw">clutch</span> this!'},
-  {name:'Kai', side:'l', color:'#2563eb', bg:'#eff4ff',
-   text:'Let\'s go! Now — everyone <span class="hw">execute</span> the plan! Push from both sides at the same time!'},
-  {name:'Mia', side:'r', color:'#7c3aed', bg:'#f5f3ff',
-   text:'We got them! Yes! That was a perfect <span class="hw">execute</span>. Well played, everyone.'},
+const CHARS = {
+  Mike: {color:'#2563eb', bg:'#eff4ff', side:'l'},
+  Alex: {color:'#7c3aed', bg:'#f5f3ff', side:'r'},
+  Judy: {color:'#0d9488', bg:'#f0fdfa', side:'l'},
+};
+
+const SCENARIOS = [
+  {
+    label:'FPS — ROUND PLANNING',
+    title:'Round Planning',
+    games:'CS2 / VALORANT',
+    lines:[
+      {name:'Mike', text:'<span class="hw">They might</span> be stacking B — we\'ve been going there every round.'},
+      {name:'Alex', text:'<span class="hw">What if we</span> fake A and see if they rotate? <span class="hw">If they move, we\'ll</span> have B open.'},
+      {name:'Judy', text:'<span class="hw">I can cover</span> mid while you two fake. Just call it when you want me to push.'},
+      {name:'Mike', text:'<span class="hw">If we push now, we\'ll</span> catch them mid-rotate — go!'},
+    ]
+  },
+  {
+    label:'BATTLE ROYALE — ZONE CLOSING',
+    title:'Zone Closing',
+    games:'Fortnite / PUBG',
+    lines:[
+      {name:'Mike', text:'Zone\'s closing fast. <span class="hw">We can\'t</span> stay here — we\'ll take damage in 20 seconds.'},
+      {name:'Judy', text:'<span class="hw">We could</span> move along the ridge — there\'s cover the whole way.'},
+      {name:'Mike', text:'<span class="hw">If you don\'t rotate now, we\'ll</span> be running in the open when they spot us.'},
+      {name:'Alex', text:'OK — <span class="hw">you should</span> go first. I\'ll lay down cover fire from the rocks.'},
+    ]
+  },
+  {
+    label:'POST-ROUND DEBRIEF',
+    title:'Reviewing What Went Wrong',
+    games:'Post-game discussion',
+    lines:[
+      {name:'Mike', text:'We lost because we went in without info. <span class="hw">We should</span> have waited for the smoke.'},
+      {name:'Judy', text:'Yeah, <span class="hw">we could</span> have split the team — sent two and held one back as cover.'},
+      {name:'Alex', text:'Next round <span class="hw">they might</span> expect that again. <span class="hw">What if we</span> go B instead?'},
+    ]
+  },
+];
+
+const REG_ROWS = [
+  {ctx:'In-game voice comms',    tag:'Informal / Fast',      ex:'"You should push — they\'re reloading right now, go go go!"'},
+  {ctx:'Post-game team chat',    tag:'Neutral',              ex:'"We should have rotated earlier. If we\'d moved at the zone start, we\'d have had high ground."'},
+  {ctx:'Twitch / YouTube',       tag:'Informal / Entertaining',ex:'"Chat, should I push or wait? They might be baiting — what if we just go for it?"'},
+  {ctx:'Esports analysis',       tag:'Neutral / Formal',     ex:'"Team A could have rotated B, but if they push mid, they\'ll expose the flank."'},
+  {ctx:'Coaching debrief',       tag:'Formal / Structured',  ex:'"You should consider the risk-reward. If they rotate too early, we\'ll concede map control."'},
+];
+
+const REG_TAG_CLASS = {
+  'Informal / Fast':'informal','Informal / Entertaining':'informal',
+  'Neutral':'neutral','Neutral / Formal':'neutral',
+  'Formal / Structured':'formal',
+};
+
+const REG_NOTES = [
+  'These phrases work in all gaming contexts — live callouts, post-game chat, content creation.',
+  '\'Should\' and \'could\' are softer than commands. Teammates respond better to suggestions than orders.',
+  'Avoid \'You must push\' to a teammate — sounds aggressive in English. Save \'must\' for urgent situations.',
+];
+
+const CONTEXT_LINES = [
+  {name:'Mike', text:'<span class="hw">They might</span> rush through smoke — stay sharp and don\'t pre-fire.'},
+  {name:'Judy', text:'<span class="hw">I can cover</span> the doorway if you take the window. Call it when you need me to push.'},
+  {name:'Alex', text:'<span class="hw">What if we</span> bait them into B and hit A from behind? They won\'t expect it after last round.'},
+  {name:'Mike', text:'Good call. <span class="hw">We could</span> have you push A main and force a reaction — see if they rotate.'},
+  {name:'Judy', text:'<span class="hw">If we push now, we\'ll</span> catch them mid-rotation. They won\'t have time to set up. Let\'s go.'},
+  {name:'Alex', text:'<span class="hw">You should</span> save your ult for the plant — don\'t waste it on this entry.'},
+  {name:'Judy', text:'<span class="hw">If you don\'t use it now, we\'ll</span> struggle to retake if something goes wrong.'},
+  {name:'Mike', text:'<span class="hw">We can\'t</span> afford to lose this round — it\'s our last buy. Stay focused and play it clean.'},
+];
+
+const COMP = [
+  {q:'Who comes up with the flank idea, and what phrase do they use?',
+   opts:['A) Mike — \'They might\' hints the enemy is exposed','B) Judy — \'If we push now, we\'ll\' proposes the timing','C) Alex — \'What if we\' opens up a new plan','D) Alex — \'You should\' tells Judy to flank'],
+   ans:2,
+   ok:'✓ Correct! Alex says "What if we bait them into B and hit A from behind?" — a classic new-idea invitation.',
+   bad:'✗ Look at Alex\'s first message: "What if we bait them into B…" — that\'s the flank idea, using \'What if we\'. Answer: C.'},
+  {q:'Judy says "If we push now, we\'ll catch them mid-rotation." What is she predicting?',
+   opts:['A) That the enemy will rotate to B when the squad pushes A','B) That the enemy are moving between positions and won\'t be set up to defend','C) That the enemy will be reloading after their last fight','D) That the team needs to move before the timer runs out'],
+   ans:1,
+   ok:'✓ Correct! "Mid-rotation" means the enemy are moving between areas — not yet set up to defend.',
+   bad:'✗ "Catch them mid-rotation" means catching them while they\'re moving between positions. Answer: B.'},
+  {q:'Two phrases warn about a consequence. What makes them different from giving advice?',
+   opts:['A) They use \'should\' and \'could\' — the strongest advice words','B) They show what will happen if someone doesn\'t act — not what they should do','C) They are used after a mistake has already happened','D) They\'re only used when a player is frustrated'],
+   ans:1,
+   ok:'✓ Correct! "If you don\'t use it now, we\'ll struggle…" and "We can\'t afford…" both point to a consequence, not a recommendation.',
+   bad:'✗ These sentences warn about results of inaction — "if you don\'t… we\'ll…" That\'s a consequence, not advice. Answer: B.'},
+  {q:'Mike says "They might rush." Why might instead of will?',
+   opts:['A) \'Might\' is more polite — Mike doesn\'t want to sound too direct','B) \'Will\' can only be used for your own team\'s actions','C) Mike isn\'t certain — he\'s flagging a possibility, not making a definite prediction','D) Mike uses \'might\' to stop his teammates panicking'],
+   ans:2,
+   ok:'✓ Correct! Mike suspects it but doesn\'t know for sure — \'might\' signals uncertainty without causing panic.',
+   bad:'✗ Mike uses \'might\' because he\'s not certain what the enemy will do. It\'s a warning about a possibility. Answer: C.'},
+];
+
+const SPEAKING_SCENARIOS = [
+  {letter:'A', title:'The Clutch Call', icon:'🎯', bg:'#eff4ff', color:'#2563eb',
+   body:'Your teammate is the last player alive — 1v2, full health, rifle, 40 seconds left. You\'re spectating. Give them live advice as it unfolds. What should they do? What might the enemy try? What can\'t they afford to do?'},
+  {letter:'B', title:'Round Zero', icon:'🗺️', bg:'#f5f3ff', color:'#7c3aed',
+   body:'It\'s the first round. Your squad has 20 seconds before the match starts. Agree on a plan: where do you go, what\'s the backup, who covers what? Open with "What if we…?" and build from there.'},
+  {letter:'C', title:'Post-Game Breakdown', icon:'📋', bg:'#f0fdfa', color:'#0d9488',
+   body:'You just lost a match you should have won. Talk through two key moments — what happened, what you should have done differently, what you\'ll change next time. Use at least one if-sentence.'},
+];
+
+const SPEAKING_TIPS = [
+  'Start with the situation before giving advice — sounds more natural: "They\'re rotating, so you should hold here."',
+  'Use "What if we…?" when you want to try a new idea — it invites your partner to react.',
+  'Chain phrases: "You should push now — if we push, we\'ll catch them off-guard."',
+  'If you\'re stuck, describe what\'s happening first — the right phrase will come naturally.',
 ];
 
 const MATCH = [
-  {word:'FLANK',    def:'To attack from the side'},
-  {word:'ROTATE',   def:'To move quickly to a new area'},
-  {word:'CLUTCH',   def:'Winning alone against many enemies'},
-  {word:'ENGAGE',   def:'To start a fight with the enemy'},
-  {word:'COVER',    def:'A safe position that protects you'},
-  {word:'PRESSURE', def:'To force the enemy to react'},
-  {word:'EXECUTE',  def:'To carry out a plan together'},
-  {word:'SPLIT',    def:'To divide into two groups'},
+  {phrase:'"You should hold that angle."',        job:'Giving advice to a teammate'},
+  {phrase:'"We could split up here."',            job:'Suggesting a possibility'},
+  {phrase:'"They might be camping."',             job:'Warning about a possibility'},
+  {phrase:'"I can cover mid."',                   job:'Saying what you\'re able to do'},
+  {phrase:'"If we push now, we\'ll catch them."', job:'Planning ahead with a consequence'},
+  {phrase:'"We can\'t win this 2v4."',            job:'Ruling out a bad option'},
 ];
 
 const FITB = [
-  {id:'f1', before:'We need to ',       blank:'rotate',   after:' — they are attacking the other side of the map.'},
-  {id:'f2', before:'Don\'t ',           blank:'engage',   after:' them yet. Wait for my signal.'},
-  {id:'f3', before:'Get behind ',       blank:'cover',    after:' — the sniper can see you from that window!'},
-  {id:'f4', before:'Let\'s ',           blank:'split',    after:' — two go left, three go right.'},
-  {id:'f5', before:'Everyone ',         blank:'push',     after:' together now while they are reloading!'},
-  {id:'f6', before:'That was an incredible ', blank:'clutch', after:'! He won that round alone.'},
-  {id:'f7', before:'',                  blank:'Retreat',  after:'! We are losing too many players here.'},
-  {id:'f8', before:'On my signal — ',   blank:'execute',  after:'! Go, go, go!'},
+  {id:'f1', before:'', blank:'We can\'t',            bankId:'we-cant',     after:' rush them — there are five players left and we only have pistols.',    hint:'rule it out'},
+  {id:'f2', before:'', blank:'We could',             bankId:'we-could',    after:' use the smoke to block their sightline and push from the side.',        hint:'suggest an option'},
+  {id:'f3', before:'', blank:'I can cover',          bankId:'i-can-cover', after:' the window — you push the door and I\'ll back you up from here.',       hint:'state your ability'},
+  {id:'f4', before:'', blank:'If we rotate now, we\'ll', bankId:'if-rotate', after:' catch them before they set up — zone is barely open yet.',            hint:'plan ahead'},
+  {id:'f5', before:'', blank:'They might',           bankId:'they-might',  after:' be waiting at the exit — slow down and check before you go in.',        hint:'warn about a possibility'},
 ];
-const BANK_WORDS = ['rotate','engage','cover','split','push','clutch','Retreat','execute'];
 
-const COMP = [
-  {q:'Why does Kai tell the team to split?',
-   opts:['A) Because they want to rest.','B) Because the enemies are playing on the right side.','C) Because Mia is lost on the map.','D) Because they have too many players.'],
-   ans:1, ok:'✓ Correct! Kai says the enemies are on the right side, so the team splits to attack from both sides.',
-   bad:'✗ Look at Kai\'s first message. He says "they are playing the right side" — so the team splits. The answer is B.'},
-  {q:'What is Mia\'s job during the flanking move?',
-   opts:['A) She holds the centre position.','B) She retreats to the stairs.','C) She attacks from behind the building.','D) She gives a callout from the roof.'],
-   ans:2, ok:'✓ Correct! Mia says she will flank from behind the building.',
-   bad:'✗ Mia says "I\'ll flank from behind the building" — the answer is C.'},
-  {q:'What information does Mia\'s callout give?',
-   opts:['A) The score and the time remaining.','B) Where to find the health packs.','C) Two enemies behind the blue wall and one on the roof.','D) That the enemies have retreated.'],
-   ans:2, ok:'✓ Correct! Mia spots two enemies behind the blue wall and one on the roof.',
-   bad:'✗ Read Mia\'s callout carefully: "two enemies behind the blue wall, one on the roof" — the answer is C.'},
-  {q:'Why do they need to fall back and retreat?',
-   opts:['A) Kai tells them to execute the plan.','B) The enemies have rotated and are putting pressure on them.','C) They have won the round.','D) Mia has lost her controller.'],
-   ans:1, ok:'✓ Correct! The enemies rotate and put pressure on them, so they need to retreat.',
-   bad:'✗ Mia says "They\'re rotating!" and Kai mentions the enemy pressure — the answer is B.'},
-  {q:'What does Mia decide to do when she is left alone against three enemies?',
-   opts:['A) She retreats immediately.','B) She asks Kai for help.','C) She tries to clutch the situation.','D) She quits the game.'],
-   ans:2, ok:'✓ Correct! Mia says "I\'ll try to clutch this!" — she will try to win alone.',
-   bad:'✗ Mia says "I\'ll try to clutch this!" — the answer is C.'},
-  {q:'How does the round end?',
-   opts:['A) They lose and retreat to the base.','B) Kai is eliminated by the enemy.','C) They win by executing the plan from both sides.','D) The match is a draw.'],
-   ans:2, ok:'✓ Correct! Mia says "We got them!" and calls it a perfect execute.',
-   bad:'✗ Mia celebrates: "We got them! That was a perfect execute." — the answer is C.'},
+const BANK = [
+  {id:'we-cant',   label:'We can\'t'},
+  {id:'we-could',  label:'We could'},
+  {id:'i-can-cover',label:'I can cover'},
+  {id:'if-rotate', label:'If we rotate now, we\'ll'},
+  {id:'they-might',label:'They might'},
+];
+
+const CORRECTIONS = [
+  {sent:'"You should to push now — they\'re rotating."',         isOk:false, fix:'Remove \'to\' — modal verbs don\'t use \'to\'. ✓ Say: "You should push now."'},
+  {sent:'"We could split up and hit both sites."',               isOk:true,  fix:null},
+  {sent:'"If we will push now, we\'ll catch them reloading."',   isOk:false, fix:'The if-clause needs present tense — no \'will\'. ✓ Say: "If we push now, we\'ll catch them reloading."'},
+  {sent:'"They might be hiding in the building — don\'t rush."', isOk:true,  fix:null},
+  {sent:'"We can\'t winning this fight — fall back now."',       isOk:false, fix:'\'Can\'t\' needs a base verb, not -ing. ✓ Say: "We can\'t win this fight."'},
+];
+
+const DISC_QS = [
+  'Do you ever give teammates advice in English during games? What do you usually say — and does anything feel difficult to express?',
+  'Which of the 8 phrases feels the most natural to you? Which do you think you\'ll find hardest to use — and why?',
+  'Think of a time you won or lost a match because of communication — or the lack of it. What was said? What should have been different?',
+  'Does your communication style change with friends vs. strangers vs. ranked matches? How does the language change?',
+  'Many players say gaming improved their English. Is that true for you? What specific words or phrases has gaming taught you?',
 ];
 
 // ─────────────────────────────────────
@@ -484,14 +739,14 @@ const MAX_XP = 100;
 function addXP(n){
   xp = Math.min(MAX_XP, xp+n);
   const p = Math.round(xp/MAX_XP*100);
-  document.getElementById('progFill').style.width = p+'%';
-  document.getElementById('progLabel').textContent = p+'%';
+  document.getElementById('progFill').style.width=p+'%';
+  document.getElementById('progLabel').textContent=p+'%';
 }
 
 // ─────────────────────────────────────
 // TABS
 // ─────────────────────────────────────
-const XP_READ = {vocab:5,phrases:5,dialogue:10};
+const XP_READ = {phrases:5,inaction:5,register:5,context:10,speaking:5};
 const tabsSeen = {};
 document.getElementById('tabBar').addEventListener('click', e => {
   const btn = e.target.closest('.tab'); if(!btn) return;
@@ -505,237 +760,151 @@ document.getElementById('tabBar').addEventListener('click', e => {
 });
 
 // ─────────────────────────────────────
-// AUDIO PLAYER HELPER
+// AUDIO HELPER
 // ─────────────────────────────────────
-function waveformBars(n=20){
-  const heights=[3,5,8,12,16,20,24,20,28,24,18,28,22,16,24,20,14,10,6,4];
-  return Array.from({length:n},(_,i)=>`<div class="ap-bar" style="height:${heights[i%heights.length]}px;--d:${(.3+Math.random()*.4).toFixed(2)}s"></div>`).join('');
+function waveBars(n=18){
+  const h=[3,5,8,12,16,20,24,20,28,24,18,28,22,16,20,14,10,6];
+  return Array.from({length:n},(_,i)=>`<div class="ap-bar" style="height:${h[i%h.length]}px;--d:${(.3+Math.random()*.4).toFixed(2)}s"></div>`).join('');
 }
-function audioPlayerHTML(label, audioSrc){
-  return `
-  <div class="audio-player" onclick="toggleAudio(this,'${audioSrc}')">
+function audioHTML(label, src){
+  return `<div class="audio-player" onclick="toggleAudio(this,'${src}')">
     <div class="ap-btn">▶</div>
-    <div class="ap-info">
-      <div class="ap-label">${label}</div>
-      <div class="ap-wave">${waveformBars()}</div>
-    </div>
+    <div class="ap-info"><div class="ap-label">${label}</div><div class="ap-wave">${waveBars()}</div></div>
     <div class="ap-dur">0:03</div>
   </div>`;
 }
-function toggleAudio(el, src){
-  const wasPlaying = el.classList.contains('playing');
+function toggleAudio(el){
+  const was=el.classList.contains('playing');
   document.querySelectorAll('.audio-player.playing').forEach(p=>{p.classList.remove('playing');p.querySelector('.ap-btn').textContent='▶';});
-  if(!wasPlaying){ el.classList.add('playing'); el.querySelector('.ap-btn').textContent='■'; }
-}
-
-// ─────────────────────────────────────
-// RENDER VOCAB
-// ─────────────────────────────────────
-function renderVocab(){
-  const list = document.getElementById('vocabList');
-  VOCAB.forEach((v,i)=>{
-    const flip = i%2===1 ? 'flip' : '';
-    const slug = v.img;
-    list.innerHTML += `
-    <div class="word-card ${flip}">
-      <div class="wc-img">
-        <img src="images/${slug}.jpg" alt="${v.word}"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="wc-img-ph" style="display:none">
-          <div class="ph-icon">🖼</div>
-          <div class="ph-word">${v.word}</div>
-        </div>
-      </div>
-      <div class="wc-body">
-        <div class="wc-num">${String(i+1).padStart(2,'0')}</div>
-        <div class="wc-title-row">
-          <span class="wc-word">${v.word}</span>
-          <span class="wc-type">${v.type}</span>
-        </div>
-        <div class="wc-def">${v.def}</div>
-        <div class="wc-ex-label">Example</div>
-        <div class="wc-ex">${v.ex}</div>
-        <div class="wc-audio">
-          ${audioPlayerHTML('Listen to word','audio/'+slug+'-word.mp3')}
-          ${audioPlayerHTML('Listen to example','audio/'+slug+'-example.mp3')}
-        </div>
-      </div>
-    </div>`;
-  });
+  if(!was){el.classList.add('playing');el.querySelector('.ap-btn').textContent='■';}
 }
 
 // ─────────────────────────────────────
 // RENDER PHRASES
 // ─────────────────────────────────────
 function renderPhrases(){
-  const list = document.getElementById('phrasesList');
+  const list=document.getElementById('phraseList');
   PHRASES.forEach((p,i)=>{
-    const flip = i%2===1 ? 'flip' : '';
-    const slug = p.img;
-    list.innerHTML += `
-    <div class="word-card ${flip}">
-      <div class="wc-img">
+    const flip=i%2===1?'flip':'';
+    const slug='strat-'+p.num;
+    list.innerHTML+=`
+    <div class="phrase-card ${flip}">
+      <div class="pc-img">
         <img src="images/${slug}.jpg" alt="${p.phrase}"
           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="wc-img-ph" style="display:none">
-          <div class="ph-icon">🖼</div>
-          <div class="ph-word">${p.phrase}</div>
+        <div class="pc-img-ph" style="background:${p.bg};display:none">
+          <div class="ph-icon">${p.icon}</div>
+          <div class="ph-num">${p.num}</div>
+          <div class="ph-phrase" style="color:${p.color}">${p.phrase}</div>
         </div>
       </div>
-      <div class="wc-body">
-        <div class="wc-num">${String(i+1).padStart(2,'0')}</div>
-        <div class="wc-title-row">
-          <span class="wc-word" style="font-size:22px">${p.phrase}</span>
-          <span class="wc-type">useful phrase · ${p.type}</span>
-        </div>
-        <div class="wc-def">${p.def}</div>
-        <div class="wc-ex-label">Example</div>
-        <div class="wc-ex">${p.ex}</div>
-        <div class="wc-audio">
-          ${audioPlayerHTML('Listen to phrase','audio/'+slug+'-phrase.mp3')}
-          ${audioPlayerHTML('Listen to example','audio/'+slug+'-example.mp3')}
+      <div class="pc-body">
+        <div class="pc-num">${p.num}</div>
+        <div class="pc-phrase">${p.phrase}</div>
+        <div class="pc-type" style="background:${p.bg};color:${p.color}">${p.type}</div>
+        <div class="pc-def">${p.def}</div>
+        <div class="pc-ex-label">Example</div>
+        <div class="pc-ex">${p.ex}</div>
+        <div class="pc-audio">
+          ${audioHTML('Listen to phrase','audio/'+slug+'-phrase.mp3')}
+          ${audioHTML('Listen to example','audio/'+slug+'-example.mp3')}
         </div>
       </div>
     </div>`;
   });
+  // set placeholders visible (img will try to load then show ph on error)
+  // Force placeholders since no images exist yet
+  setTimeout(()=>{
+    document.querySelectorAll('.pc-img img').forEach(img=>{
+      if(!img.complete||img.naturalWidth===0){
+        img.style.display='none';
+        const ph=img.nextElementSibling;
+        if(ph) ph.style.display='flex';
+      }
+    });
+  }, 200);
 }
 
 // ─────────────────────────────────────
-// RENDER DIALOGUE
+// RENDER IN ACTION
 // ─────────────────────────────────────
-function renderDialogue(){
-  const cr = document.getElementById('charRow');
-  [{n:'Kai',c:'#2563eb',bg:'#eff4ff'},{n:'Mia',c:'#7c3aed',bg:'#f5f3ff'}].forEach(ch=>{
-    cr.innerHTML+=`<div class="char-pill"><div class="char-av" style="background:${ch.bg};color:${ch.c}">${ch.n[0]}</div>${ch.n}</div>`;
-  });
-  const feed = document.getElementById('chatFeed');
-  DIALOGUE.forEach(line=>{
-    const isR = line.side==='r';
-    feed.innerHTML+=`
-    <div class="chat-line ${isR?'r':''}">
-      <div class="chat-av" style="background:${line.bg};color:${line.color}">${line.name[0]}</div>
-      <div class="chat-bubble">
-        <div class="chat-name">${line.name}</div>
-        <div>${line.text}</div>
-      </div>
+function renderInAction(){
+  const container=document.getElementById('scenarioPanels');
+  SCENARIOS.forEach((sc,si)=>{
+    const charNames=[...new Set(sc.lines.map(l=>l.name))];
+    const pillsHTML=charNames.map(n=>`<div class="char-pill"><div class="char-av" style="background:${CHARS[n].bg};color:${CHARS[n].color}">${n[0]}</div>${n}</div>`).join('');
+    const linesHTML=sc.lines.map(l=>{
+      const c=CHARS[l.name];
+      const isR=c.side==='r';
+      const bubbleCls=l.name==='Judy'?'chat-bubble teal':'chat-bubble';
+      return `<div class="chat-line ${isR?'r':''}">
+        <div class="chat-av-lg" style="background:${c.bg};color:${c.color}">${l.name[0]}</div>
+        <div class="${bubbleCls}">
+          <div class="chat-name">${l.name}</div>
+          <div>${l.text}</div>
+        </div>
+      </div>`;
+    }).join('');
+    container.innerHTML+=`
+    <div class="scenario-panel ${si===0?'active':''}" id="sc-panel-${si}">
+      <div class="scenario-hd">${sc.label}</div>
+      <div class="scenario-title">${sc.title}</div>
+      <div class="scenario-games">${sc.games}</div>
+      <div class="char-row">${pillsHTML}</div>
+      <div class="chat-feed">${linesHTML}</div>
     </div>`;
   });
 }
-
-// ─────────────────────────────────────
-// MATCHING
-// ─────────────────────────────────────
-let mLS=null,mRS=null,mDone=0;
-function renderMatch(){
-  const L=document.getElementById('matchLeft'), R=document.getElementById('matchRight');
-  const rShuf=[...MATCH].sort(()=>Math.random()-.5);
-  MATCH.forEach((p,i)=>{
-    const el=document.createElement('div'); el.className='m-item';
-    el.textContent=(i+1)+'  '+p.word; el.dataset.key=p.word;
-    el.onclick=()=>doMatch(el,'l'); L.appendChild(el);
-  });
-  rShuf.forEach(p=>{
-    const el=document.createElement('div'); el.className='m-item';
-    el.textContent=p.def; el.dataset.key=p.word;
-    el.onclick=()=>doMatch(el,'r'); R.appendChild(el);
-  });
-}
-function doMatch(el,side){
-  if(el.classList.contains('ok')||el.classList.contains('locked')) return;
-  if(side==='l'){if(mLS) mLS.classList.remove('sel'); mLS=el; el.classList.add('sel');}
-  else{if(mRS) mRS.classList.remove('sel'); mRS=el; el.classList.add('sel');}
-  if(mLS&&mRS){
-    if(mLS.dataset.key===mRS.dataset.key){
-      [mLS,mRS].forEach(e=>{e.classList.remove('sel');e.classList.add('ok','locked');});
-      mDone++; addXP(2);
-      document.getElementById('matchProg').textContent=mDone+'/'+MATCH.length+' matched';
-      mLS=null;mRS=null;
-      if(mDone===MATCH.length){document.getElementById('matchResult').classList.add('show');addXP(5);}
-    } else {
-      const a=mLS,b=mRS;
-      [a,b].forEach(e=>e.classList.add('bad'));
-      setTimeout(()=>{[a,b].forEach(e=>e.classList.remove('sel','bad'));},450);
-      mLS=null;mRS=null;
-    }
-  }
+function showScenario(i,btn){
+  document.querySelectorAll('.scenario-panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.sc-tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('sc-panel-'+i).classList.add('active');
+  btn.classList.add('active');
 }
 
 // ─────────────────────────────────────
-// FILL IN BLANKS
+// RENDER REGISTER
 // ─────────────────────────────────────
-let activeChip=null, fitbState={};
-function renderFITB(){
-  const bank=document.getElementById('wordBank');
-  BANK_WORDS.forEach(w=>{
-    const c=document.createElement('div'); c.className='chip'; c.id='chip-'+w; c.textContent=w;
-    c.onclick=()=>pickChip(w); bank.appendChild(c);
+function renderRegister(){
+  const tbody=document.getElementById('regTableBody');
+  REG_ROWS.forEach(r=>{
+    const cls=REG_TAG_CLASS[r.tag]||'neutral';
+    tbody.innerHTML+=`<tr>
+      <td>${r.ctx}</td>
+      <td><span class="reg-tag ${cls}">${r.tag}</span></td>
+      <td>${r.ex}</td>
+    </tr>`;
   });
-  const list=document.getElementById('fitbList');
-  FITB.forEach((f,i)=>{
-    const row=document.createElement('div'); row.className='fitb-row';
-    row.innerHTML=`<span class="fitb-n">${i+1}.</span>${f.before}<span class="blank" id="bl-${f.id}" onclick="fillBlank('${f.id}')">click here</span>${f.after}`;
-    list.appendChild(row);
+  const notes=document.getElementById('regNotes');
+  REG_NOTES.forEach(n=>{
+    notes.innerHTML+=`<div class="reg-note"><span class="reg-note-icon">→</span><span>${n}</span></div>`;
   });
-}
-function pickChip(w){
-  if(document.getElementById('chip-'+w).classList.contains('used')) return;
-  if(activeChip===w){activeChip=null;document.getElementById('chip-'+w).classList.remove('active');return;}
-  if(activeChip){document.getElementById('chip-'+activeChip)?.classList.remove('active');}
-  activeChip=w; document.getElementById('chip-'+w).classList.add('active');
-}
-function fillBlank(id){
-  const bl=document.getElementById('bl-'+id);
-  if(bl.classList.contains('ok')) return;
-  if(fitbState[id]){
-    document.getElementById('chip-'+fitbState[id])?.classList.remove('used');
-    delete fitbState[id]; bl.textContent='click here'; bl.className='blank'; return;
-  }
-  if(!activeChip) return;
-  fitbState[id]=activeChip; bl.textContent=activeChip; bl.classList.add('filled');
-  document.getElementById('chip-'+activeChip)?.classList.add('used');
-  document.getElementById('chip-'+activeChip)?.classList.remove('active');
-  activeChip=null;
-}
-function checkFITB(){
-  let ok=0;
-  FITB.forEach(f=>{
-    const bl=document.getElementById('bl-'+f.id);
-    if(!fitbState[f.id]) return;
-    if(fitbState[f.id].toLowerCase()===f.blank.toLowerCase()){bl.classList.add('ok');bl.classList.remove('bad','filled');ok++;}
-    else{bl.classList.add('bad');bl.classList.remove('ok','filled');}
-  });
-  const tot=FITB.length, box=document.getElementById('fitbResult'); box.classList.add('show');
-  if(ok===tot){
-    document.getElementById('fitbEmoji').textContent='🌟';
-    document.getElementById('fitbScore').textContent=ok+'/'+tot;
-    document.getElementById('fitbTitle').textContent='Perfect score!';
-    document.getElementById('fitbMsg').textContent='Excellent! You know all the strategy vocabulary.';
-    addXP(25);
-  } else if(ok>=Math.ceil(tot/2)){
-    document.getElementById('fitbEmoji').textContent='👍';
-    document.getElementById('fitbScore').textContent=ok+'/'+tot;
-    document.getElementById('fitbTitle').textContent='Good job!';
-    document.getElementById('fitbMsg').textContent='Review the wrong answers and try again for a perfect score.';
-    addXP(ok*2);
-  } else {
-    document.getElementById('fitbEmoji').textContent='📖';
-    document.getElementById('fitbScore').textContent=ok+'/'+tot;
-    document.getElementById('fitbTitle').textContent='Keep practising!';
-    document.getElementById('fitbMsg').textContent='Go back to the Vocabulary tab, review the words, then try again.';
-  }
-}
-function resetFITB(){
-  fitbState={}; activeChip=null;
-  FITB.forEach(f=>{const b=document.getElementById('bl-'+f.id);b.textContent='click here';b.className='blank';});
-  BANK_WORDS.forEach(w=>{const c=document.getElementById('chip-'+w);if(c){c.classList.remove('used','active');}});
-  document.getElementById('fitbResult').classList.remove('show');
 }
 
 // ─────────────────────────────────────
-// COMPREHENSION
+// RENDER IN CONTEXT
 // ─────────────────────────────────────
-let compAns={};
-function renderComp(){
+function renderContext(){
+  const charNames=[...new Set(CONTEXT_LINES.map(l=>l.name))];
+  const cr=document.getElementById('contextCharRow');
+  charNames.forEach(n=>{
+    const c=CHARS[n];
+    cr.innerHTML+=`<div class="char-pill"><div class="char-av" style="background:${c.bg};color:${c.color}">${n[0]}</div>${n}</div>`;
+  });
+  const feed=document.getElementById('contextFeed');
+  CONTEXT_LINES.forEach(l=>{
+    const c=CHARS[l.name];
+    const isR=c.side==='r';
+    const bubbleCls=l.name==='Judy'?'chat-bubble teal':'chat-bubble';
+    feed.innerHTML+=`<div class="chat-line ${isR?'r':''}">
+      <div class="chat-av-lg" style="background:${c.bg};color:${c.color}">${l.name[0]}</div>
+      <div class="${bubbleCls}">
+        <div class="chat-name">${l.name}</div>
+        <div>${l.text}</div>
+      </div>
+    </div>`;
+  });
+  // Comprehension
   const list=document.getElementById('compList');
   COMP.forEach((q,qi)=>{
     const card=document.createElement('div'); card.className='comp-card';
@@ -746,6 +915,7 @@ function renderComp(){
     list.appendChild(card);
   });
 }
+let compAns={};
 function pickComp(qi,oi){
   if(document.getElementById('co-'+qi+'-'+COMP[qi].ans)?.classList.contains('ok')) return;
   COMP[qi].opts.forEach((_,i)=>document.getElementById('co-'+qi+'-'+i)?.classList.remove('chosen'));
@@ -765,27 +935,255 @@ function submitComp(){
     else if(chosen===q.ans){document.getElementById('co-'+qi+'-'+chosen).classList.add('ok');fb.textContent=q.ok;fb.className='comp-fb show ok';ok++;}
     else{document.getElementById('co-'+qi+'-'+chosen).classList.add('bad');fb.textContent=q.bad;fb.className='comp-fb show bad';}
   });
-  const tot=COMP.length, pct=Math.round(ok/tot*100);
-  const box=document.getElementById('compResult'); box.classList.add('show');
+  const tot=COMP.length; const box=document.getElementById('compResult'); box.classList.add('show');
   if(ok===tot){
     document.getElementById('compEmoji').textContent='🏆';
     document.getElementById('compScore').textContent=ok+'/'+tot;
-    document.getElementById('compTitle').textContent='Excellent! Perfect strategy mind!';
-    document.getElementById('compMsg').textContent='You understood every play. You read the dialogue like a pro analyst!';
-    addXP(30); showFinal();
-  } else if(pct>=50){
+    document.getElementById('compTitle').textContent='Excellent comprehension!';
+    document.getElementById('compMsg').textContent='You read the dialogue closely and understood every play.';
+    addXP(20);
+  } else if(ok>=2){
     document.getElementById('compEmoji').textContent='👍';
     document.getElementById('compScore').textContent=ok+'/'+tot;
     document.getElementById('compTitle').textContent='Good work!';
-    document.getElementById('compMsg').textContent='Re-read the dialogue and check your wrong answers above.';
-    addXP(ok*3);
+    document.getElementById('compMsg').textContent='Re-read the dialogue and review your wrong answers above.';
+    addXP(ok*4);
   } else {
     document.getElementById('compEmoji').textContent='📖';
     document.getElementById('compScore').textContent=ok+'/'+tot;
     document.getElementById('compTitle').textContent='Keep trying!';
-    document.getElementById('compMsg').textContent='Go to the Dialogue tab, read it again carefully, then try once more.';
+    document.getElementById('compMsg').textContent='Go back to the dialogue, read it carefully, then try again.';
   }
 }
+
+// ─────────────────────────────────────
+// RENDER SPEAKING
+// ─────────────────────────────────────
+function renderSpeaking(){
+  const cards=document.getElementById('speakingCards');
+  SPEAKING_SCENARIOS.forEach((sc,i)=>{
+    cards.innerHTML+=`
+    <div class="sc-card">
+      <div class="sc-card-header" id="sc-hd-${i}" onclick="toggleScCard(${i})">
+        <div class="sc-letter-box" style="background:${sc.bg};color:${sc.color}">${sc.letter}</div>
+        <div>
+          <div class="sc-card-title">${sc.icon} Option ${sc.letter} — ${sc.title}</div>
+          <div class="sc-card-sub">Click to read the scenario</div>
+        </div>
+        <span class="sc-chevron">▾</span>
+      </div>
+      <div class="sc-card-body" id="sc-body-${i}">
+        <p>${sc.body}</p>
+      </div>
+    </div>`;
+  });
+  const tipsEl=document.getElementById('speakingTips');
+  SPEAKING_TIPS.forEach(t=>{
+    tipsEl.innerHTML+=`<div class="tip-row"><span class="tip-arrow">→</span><span>${t}</span></div>`;
+  });
+}
+function toggleScCard(i){
+  const hd=document.getElementById('sc-hd-'+i);
+  const body=document.getElementById('sc-body-'+i);
+  hd.classList.toggle('open');
+  body.classList.toggle('open');
+}
+
+// ─────────────────────────────────────
+// MATCHING
+// ─────────────────────────────────────
+let mLS=null,mRS=null,mDone=0;
+function renderMatch(){
+  const L=document.getElementById('matchLeft'), R=document.getElementById('matchRight');
+  const rShuf=[...MATCH].sort(()=>Math.random()-.5);
+  MATCH.forEach((p,i)=>{
+    const el=document.createElement('div'); el.className='m-item';
+    el.textContent=p.phrase; el.dataset.key=p.phrase;
+    el.onclick=()=>doMatch(el,'l'); L.appendChild(el);
+  });
+  rShuf.forEach(p=>{
+    const el=document.createElement('div'); el.className='m-item';
+    el.textContent=p.job; el.dataset.key=p.phrase;
+    el.onclick=()=>doMatch(el,'r'); R.appendChild(el);
+  });
+}
+function doMatch(el,side){
+  if(el.classList.contains('ok')||el.classList.contains('locked')) return;
+  if(side==='l'){if(mLS) mLS.classList.remove('sel'); mLS=el; el.classList.add('sel');}
+  else{if(mRS) mRS.classList.remove('sel'); mRS=el; el.classList.add('sel');}
+  if(mLS&&mRS){
+    if(mLS.dataset.key===mRS.dataset.key){
+      [mLS,mRS].forEach(e=>{e.classList.remove('sel');e.classList.add('ok','locked');});
+      mDone++; addXP(2);
+      document.getElementById('matchProg').textContent=mDone+'/'+MATCH.length+' matched';
+      mLS=null;mRS=null;
+      if(mDone===MATCH.length){document.getElementById('matchResult').classList.add('show');addXP(4);}
+    } else {
+      const a=mLS,b=mRS;
+      [a,b].forEach(e=>e.classList.add('bad'));
+      setTimeout(()=>{[a,b].forEach(e=>e.classList.remove('sel','bad'));},450);
+      mLS=null;mRS=null;
+    }
+  }
+}
+
+// ─────────────────────────────────────
+// FITB
+// ─────────────────────────────────────
+let activeChip=null, fitbState={};
+function renderFITB(){
+  const bank=document.getElementById('wordBank');
+  BANK.forEach(w=>{
+    const c=document.createElement('div'); c.className='chip'; c.id='chip-'+w.id; c.textContent=w.label;
+    c.onclick=()=>pickChip(w.id); bank.appendChild(c);
+  });
+  const list=document.getElementById('fitbList');
+  FITB.forEach((f,i)=>{
+    const row=document.createElement('div'); row.className='fitb-row';
+    row.innerHTML=`<span class="fitb-n">${i+1}.</span><span class="blank" id="bl-${f.id}" onclick="fillBlank('${f.id}')">click here</span>${f.after} <span style="font-size:12px;color:var(--text3);font-style:italic">(${f.hint})</span>`;
+    list.appendChild(row);
+  });
+}
+function pickChip(id){
+  const el=document.getElementById('chip-'+id);
+  if(el.classList.contains('used')) return;
+  if(activeChip===id){activeChip=null;el.classList.remove('active');return;}
+  if(activeChip){document.getElementById('chip-'+activeChip)?.classList.remove('active');}
+  activeChip=id; el.classList.add('active');
+}
+function fillBlank(fid){
+  const bl=document.getElementById('bl-'+fid);
+  if(bl.classList.contains('ok')) return;
+  if(fitbState[fid]){
+    document.getElementById('chip-'+fitbState[fid])?.classList.remove('used');
+    delete fitbState[fid]; bl.textContent='click here'; bl.className='blank'; return;
+  }
+  if(!activeChip) return;
+  const chipLabel=document.getElementById('chip-'+activeChip).textContent;
+  fitbState[fid]=activeChip; bl.textContent=chipLabel; bl.classList.add('filled');
+  document.getElementById('chip-'+activeChip)?.classList.add('used');
+  document.getElementById('chip-'+activeChip)?.classList.remove('active');
+  activeChip=null;
+}
+function checkFITB(){
+  let ok=0;
+  FITB.forEach(f=>{
+    const bl=document.getElementById('bl-'+f.id);
+    if(!fitbState[f.id]) return;
+    if(fitbState[f.id]===f.bankId){bl.classList.add('ok');bl.classList.remove('bad','filled');ok++;}
+    else{bl.classList.add('bad');bl.classList.remove('ok','filled');}
+  });
+  const tot=FITB.length, box=document.getElementById('fitbResult'); box.classList.add('show');
+  if(ok===tot){
+    document.getElementById('fitbEmoji').textContent='🌟';
+    document.getElementById('fitbScore').textContent=ok+'/'+tot;
+    document.getElementById('fitbTitle').textContent='Perfect score!';
+    document.getElementById('fitbMsg').textContent='Excellent — you matched every phrase to the right context.';
+    addXP(25);
+  } else if(ok>=3){
+    document.getElementById('fitbEmoji').textContent='👍';
+    document.getElementById('fitbScore').textContent=ok+'/'+tot;
+    document.getElementById('fitbTitle').textContent='Good job!';
+    document.getElementById('fitbMsg').textContent='Review the wrong answers and try once more for a perfect score.';
+    addXP(ok*3);
+  } else {
+    document.getElementById('fitbEmoji').textContent='📖';
+    document.getElementById('fitbScore').textContent=ok+'/'+tot;
+    document.getElementById('fitbTitle').textContent='Keep practising!';
+    document.getElementById('fitbMsg').textContent='Go back to the Phrases tab, review each one, then try again.';
+  }
+}
+function resetFITB(){
+  fitbState={}; activeChip=null;
+  FITB.forEach(f=>{const b=document.getElementById('bl-'+f.id);b.textContent='click here';b.className='blank';});
+  BANK.forEach(w=>{const c=document.getElementById('chip-'+w.id);if(c)c.classList.remove('used','active');});
+  document.getElementById('fitbResult').classList.remove('show');
+}
+
+// ─────────────────────────────────────
+// CORRECTIONS EXERCISE
+// ─────────────────────────────────────
+let corrScore=0, corrDone=0;
+function renderCorrections(){
+  const list=document.getElementById('corrList');
+  CORRECTIONS.forEach((c,i)=>{
+    const card=document.createElement('div'); card.className='corr-card';
+    card.innerHTML=`
+      <div class="corr-n">SENTENCE ${i+1} OF ${CORRECTIONS.length}</div>
+      <div class="corr-sent">${c.sent}</div>
+      <div class="corr-btns">
+        <button class="corr-btn" id="corr-ok-${i}" onclick="answerCorr(${i},true)">✓ Correct</button>
+        <button class="corr-btn" id="corr-err-${i}" onclick="answerCorr(${i},false)">✗ Has an Error</button>
+      </div>
+      <div class="corr-fb" id="corr-fb-${i}"></div>`;
+    list.appendChild(card);
+  });
+}
+function answerCorr(i, userSaysOk){
+  const item=CORRECTIONS[i];
+  const userRight=(userSaysOk===item.isOk);
+  document.getElementById('corr-ok-'+i).disabled=true;
+  document.getElementById('corr-err-'+i).disabled=true;
+  // Style the clicked button
+  const clickedId=userSaysOk?'corr-ok-'+i:'corr-err-'+i;
+  const otherClickedId=userSaysOk?'corr-err-'+i:'corr-ok-'+i;
+  document.getElementById(clickedId).classList.add(userRight?'right':'wrong');
+  // Show the correct answer on the other button if wrong
+  if(!userRight) document.getElementById(otherClickedId).classList.add('right');
+  // Feedback
+  const fb=document.getElementById('corr-fb-'+i);
+  if(userRight){
+    if(item.isOk){
+      fb.textContent='✓ Correct! This sentence is grammatically right — well spotted.';
+    } else {
+      fb.textContent='✓ Well spotted! '+item.fix;
+    }
+    fb.className='corr-fb show ok';
+    corrScore++; addXP(2);
+  } else {
+    if(item.isOk){
+      fb.textContent='✗ This sentence is actually correct — no error here. All good!';
+    } else {
+      fb.textContent='✗ There is an error here. '+item.fix;
+    }
+    fb.className='corr-fb show fix';
+  }
+  corrDone++;
+  if(corrDone===CORRECTIONS.length){
+    const box=document.getElementById('corrResult'); box.classList.add('show');
+    document.getElementById('corrScore').textContent=corrScore+'/'+CORRECTIONS.length;
+    if(corrScore===CORRECTIONS.length){
+      document.getElementById('corrEmoji').textContent='🌟';
+      document.getElementById('corrTitle').textContent='Perfect! Grammar awareness on point.';
+      document.getElementById('corrMsg').textContent='You caught every error and every correct sentence.';
+      addXP(14); showFinal();
+    } else if(corrScore>=3){
+      document.getElementById('corrEmoji').textContent='👍';
+      document.getElementById('corrTitle').textContent='Good work!';
+      document.getElementById('corrMsg').textContent='Check the Quick Grammar Reminder in the Phrases tab to review.';
+      addXP(corrScore*2); showFinal();
+    } else {
+      document.getElementById('corrEmoji').textContent='📖';
+      document.getElementById('corrTitle').textContent='Keep practising!';
+      document.getElementById('corrMsg').textContent='Review the grammar rules in the Phrases tab — modal verb patterns take practice!';
+      showFinal();
+    }
+  }
+}
+
+// ─────────────────────────────────────
+// DISCUSSION QUESTIONS
+// ─────────────────────────────────────
+function renderDiscussion(){
+  const list=document.getElementById('discList');
+  DISC_QS.forEach((q,i)=>{
+    list.innerHTML+=`<div class="disc-item"><span class="disc-num">${i+1}</span><span class="disc-q">${q}</span></div>`;
+  });
+}
+
+// ─────────────────────────────────────
+// FINAL BANNER
+// ─────────────────────────────────────
 function showFinal(){
   const b=document.getElementById('finalBanner'); b.classList.add('show');
   document.getElementById('finalXP').textContent=xp+' / '+MAX_XP+' XP';
@@ -805,7 +1203,15 @@ function goEx(n){
 // ─────────────────────────────────────
 // INIT
 // ─────────────────────────────────────
-renderVocab(); renderPhrases(); renderDialogue(); renderMatch(); renderFITB(); renderComp();
+renderPhrases();
+renderInAction();
+renderRegister();
+renderContext();
+renderSpeaking();
+renderMatch();
+renderFITB();
+renderCorrections();
+renderDiscussion();
 </script>
 </body>
 </html>
