@@ -12,6 +12,7 @@ import MatchingExercise from '@/components/exercises/MatchingExercise';
 import FillBlankExercise from '@/components/exercises/FillBlankExercise';
 import MultipleChoiceExercise from '@/components/exercises/MultipleChoiceExercise';
 import CompletionScreen from '@/components/CompletionScreen';
+import GrammarFocusSection from '@/components/GrammarFocusSection';
 
 const TABS = ['Vocabulary', 'Phrasal Verbs', 'Videos', 'Dialogue', 'Exercises'] as const;
 
@@ -168,6 +169,9 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
               <VocabCard key={word.word} word={word} index={i} />
             ))}
           </div>
+          {lesson.grammarFocus && (
+            <GrammarFocusSection grammar={lesson.grammarFocus} />
+          )}
         </section>
 
         {/* Phrasal Verbs */}

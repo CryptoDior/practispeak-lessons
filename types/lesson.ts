@@ -48,6 +48,22 @@ export interface MultipleChoiceItem {
   correctIndex: number;
 }
 
+export interface GrammarExample {
+  sentence: string;  // e.g. "The warrior is strong."
+  note: string;      // e.g. "(warrior = big physical power)"
+}
+
+export interface GrammarFocus {
+  focusTitle: string;        // e.g. "Focus: \"is\" and \"isn't\" + adjective"
+  description: string;       // explanation of the grammar rule
+  positivePattern: string;   // e.g. "Subject + IS + adjective"
+  positiveExample: string;   // e.g. "\"The dragon IS big.\""
+  negativePattern: string;   // e.g. "Subject + ISN'T + adjective"
+  negativeExample: string;   // e.g. "\"The elf ISN'T slow.\""
+  positiveExamples: GrammarExample[];
+  negativeExamples: GrammarExample[];
+}
+
 export interface LessonVideo {
   title: string;
   /** YouTube video ID, or "PLACEHOLDER_N" for a coming-soon placeholder */
@@ -67,6 +83,7 @@ export interface Lesson {
    * If omitted or the file is missing, a blue gradient placeholder is shown.
    */
   heroImage?: string;
+  grammarFocus?: GrammarFocus;
   dialogueSubtitle?: string;
   vocabulary: VocabWord[];
   phrasalVerbs: PhrasalVerb[];

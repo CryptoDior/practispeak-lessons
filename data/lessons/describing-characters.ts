@@ -1,5 +1,6 @@
 import { Lesson } from '@/types/lesson';
 
+
 export const describingCharacters: Lesson = {
   slug: 'describing-characters',
   title: 'Describing Characters',
@@ -7,6 +8,24 @@ export const describingCharacters: Lesson = {
   level: 'A1-A2',
   description: "Learn 12 adjectives to describe game characters and use is / isn't to talk about them.",
   heroImage: '/images/describing-characters-hero.png',
+
+  grammarFocus: {
+    focusTitle: 'Focus: "is" and "isn\'t" + adjective',
+    description: 'Use is (positive) or isn\'t / is not (negative) + an adjective to describe a character.',
+    positivePattern: 'Subject + IS + adjective',
+    positiveExample: '"The dragon IS big."',
+    negativePattern: 'Subject + ISN\'T + adjective',
+    negativeExample: '"The elf ISN\'T slow."',
+    positiveExamples: [
+      { sentence: 'The warrior is strong.', note: '(warrior = big physical power)' },
+      { sentence: 'The boss is very scary.', note: '(boss = frightening and dangerous)' },
+      { sentence: 'My character is fast.', note: '(my character = moves quickly)' },
+    ],
+    negativeExamples: [
+      { sentence: "The fairy isn't big.", note: '(fairy = small, not large)' },
+      { sentence: "He isn't slow — he is fast!", note: '(contrast: not slow, actually fast)' },
+    ],
+  },
 
   vocabulary: [
     {
