@@ -131,6 +131,7 @@ export const gamingJargonDeepDive: Lesson = {
     title: 'Forum Post — In Context',
     context: 'Read this gaming forum post and identify all key terms.',
     text: "Hot take: this patch is the worst in two years. They nerfed Viper into the ground — her damage is completely useless now. Meanwhile, Sova got another buff even though he was already OP. He's been S-tier on every meta tier list for six months. If this is where the meta is heading, I'm switching my main.",
+    audioSrc: '/audio/gaming-jargon-forum-post.mp3',
     highlightTerms: ['patch', 'nerfed', 'buff', 'OP', 'meta', 'tier list', 'main'],
     questions: [
       'Is the writer happy or unhappy? What is their main complaint?',

@@ -90,6 +90,7 @@ export interface ReadingPassage {
   text: string;              // passage — wrap key terms in [[term]] for highlighting
   highlightTerms: string[];  // terms to highlight in the passage
   questions: string[];       // open comprehension questions
+  audioSrc?: string;         // path to audio file, e.g. '/audio/forum-post.mp3'
 }
 
 export interface ProductionPrompt {

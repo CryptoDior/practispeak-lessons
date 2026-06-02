@@ -2,6 +2,52 @@
 import { useState } from 'react';
 import { ReadingPassage, ProductionPrompt } from '@/types/lesson';
 
+const WAVEFORM = [4, 7, 12, 8, 14, 6, 10, 16, 9, 13, 5, 11, 8, 14, 7, 10, 5, 12, 8, 6];
+
+function PassagePlayer({ src }: { src: string }) {
+  const [playing, setPlaying] = useState(false);
+  const [audio] = useState(() => typeof window !== 'undefined' ? new Audio(src) : null);
+
+  const toggle = () => {
+    if (!audio) return;
+    if (playing) {
+      audio.pause();
+      audio.currentTime = 0;
+      setPlaying(false);
+    } else {
+      setPlaying(true);
+      audio.onended = () => setPlaying(false);
+      audio.onerror = () => setPlaying(false);
+      audio.play().catch(() => setPlaying(false));
+    }
+  };
+
+  return (
+    <button
+      onClick={toggle}
+      className="flex items-center gap-3 group bg-[#EEF3FF] hover:bg-blue-100 transition-colors rounded-xl px-4 py-2.5 w-full"
+    >
+      <div className="w-8 h-8 rounded-full bg-[#066EF5] flex items-center justify-center flex-shrink-0 shadow-sm group-hover:bg-blue-600 group-active:scale-95 transition-all">
+        <span className="text-white text-[10px] leading-none" style={{ marginLeft: playing ? 0 : '1px' }}>
+          {playing ? '⏸' : '▶'}
+        </span>
+      </div>
+      <div className="flex items-center gap-[2px] flex-shrink-0">
+        {WAVEFORM.map((h, i) => (
+          <div
+            key={i}
+            className={`w-[2px] rounded-full transition-colors duration-300 ${playing ? 'bg-[#066EF5]' : 'bg-blue-200'}`}
+            style={{ height: `${h}px` }}
+          />
+        ))}
+      </div>
+      <span className="text-[13px] font-semibold text-[#066EF5] whitespace-nowrap">
+        {playing ? 'Pause' : 'Listen to passage'}
+      </span>
+    </button>
+  );
+}
+
 function highlightText(text: string, terms: string[]) {
   if (!terms.length) return text;
   const escaped = terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
@@ -43,9 +89,12 @@ export default function ReadingPassageSection({
           </div>
 
           {/* Passage */}
-          <blockquote className="text-gray-700 text-[15px] leading-relaxed italic border-l-4 border-[#066EF5] pl-4 bg-gray-50 rounded-r-xl py-4 pr-4">
+          <blockquote className="text-gray-700 text-[15px] leading-relaxed italic border-l-4 border-[#066EF5] pl-4 bg-gray-50 rounded-r-xl py-4 pr-4 mb-4">
             {highlightText(passage.text, passage.highlightTerms)}
           </blockquote>
+
+          {/* Audio player */}
+          {passage.audioSrc && <PassagePlayer src={passage.audioSrc} />}
         </div>
       </div>
 
