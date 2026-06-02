@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Practispeak | Talking Strategy</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f0f2f8;
+  --white:#fff;
+  --border:#e2e5f0;
+  --text:#0d1117;
+  --text2:#5a6070;
+  --text3:#9aa0b4;
+  --blue:#2563eb;
+  --blue-light:#eff4ff;
+  --blue-mid:#dbe8ff;
+  --green:#10b981;
+  --green-light:#ecfdf5;
+  --red:#ef4444;
+  --red-light:#fef2f2;
+  --yellow:#f59e0b;
+  --yellow-light:#fffbeb;
+  --shadow-sm:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
+  --shadow:0 4px 16px rgba(0,0,0,.08);
+  --shadow-lg:0 8px 30px rgba(0,0,0,.11);
+  --r:16px;
+  --r-sm:10px;
+  --font:'Inter',-apple-system,sans-serif;
+}
+body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:100vh;font-size:15px;line-height:1.6}
+
+/* ── NAV ── */
+.nav{background:var(--white);border-bottom:1px solid var(--border);padding:0 40px;height:60px;display:flex;align-items:center;gap:10px;position:sticky;top:0;z-index:200}
+.nav-logo-box{width:34px;height:34px;background:var(--blue);border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:16px;flex-shrink:0}
+.nav-name{font-weight:700;font-size:16px;color:var(--text)}
+.nav-back{margin-left:auto;font-size:14px;font-weight:500;color:var(--blue);text-decoration:none;display:flex;align-items:center;gap:6px}
+.nav-back:hover{text-decoration:underline}
+
+/* ── HERO ── */
+.hero-wrap{background:var(--white);border-bottom:1px solid var(--border)}
+.hero{max-width:1100px;margin:0 auto;padding:40px 40px 0;display:flex;align-items:center;gap:40px;min-height:240px}
+.hero-left{flex:1;min-width:0;padding-bottom:40px}
+.hero-badge{display:inline-block;background:var(--bg);color:var(--text2);border:1px solid var(--border);font-size:12px;font-weight:600;padding:4px 12px;border-radius:20px;margin-bottom:14px}
+.hero-title{font-size:clamp(26px,4vw,42px);font-weight:900;letter-spacing:-1px;line-height:1.15;margin-bottom:10px;color:var(--text)}
+.hero-sub{font-size:15px;color:var(--text2);margin-bottom:24px;max-width:480px}
+.hero-progress{display:flex;align-items:center;gap:12px}
+.hero-prog-track{flex:1;height:8px;background:var(--bg);border-radius:4px;overflow:hidden;max-width:320px}
+.hero-prog-fill{height:100%;background:var(--blue);border-radius:4px;transition:width .5s ease}
+.hero-prog-label{font-size:13px;font-weight:700;color:var(--blue)}
+.hero-right{flex-shrink:0;width:420px;align-self:flex-end}
+.hero-img-wrap{width:100%;height:220px;border-radius:var(--r) var(--r) 0 0;overflow:hidden;background:linear-gradient(135deg,#1e2540,#2d3a6e)}
+.hero-img-wrap img{width:100%;height:100%;object-fit:cover;display:block}
+.hero-img-placeholder{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:56px;letter-spacing:6px;background:linear-gradient(135deg,#1e2540 0%,#2d3a6e 60%,#1a3a50 100%)}
+
+/* ── TABS ── */
+.tabs-wrap{background:var(--white);border-bottom:1px solid var(--border);position:sticky;top:60px;z-index:100}
+.tabs{max-width:1100px;margin:0 auto;padding:0 40px;display:flex;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{padding:16px 20px;font-size:14px;font-weight:600;color:var(--text3);cursor:pointer;border:none;background:none;border-bottom:2.5px solid transparent;white-space:nowrap;transition:all .2s;font-family:var(--font)}
+.tab:hover{color:var(--text2)}
+.tab.active{color:var(--blue);border-bottom-color:var(--blue)}
+
+/* ── CONTENT ── */
+.main{max-width:1100px;margin:0 auto;padding:40px 40px 100px}
+.section{display:none}
+.section.active{display:block;animation:fadeUp .2s ease}
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+/* ── SECTION HEADER ── */
+.sec-header{display:flex;align-items:center;gap:8px;margin-bottom:28px}
+.sec-dot{width:10px;height:10px;border-radius:50%;background:var(--blue);flex-shrink:0}
+.sec-label{font-size:14px;color:var(--text2)}
+
+/* ── VOCAB / PHRASE CARD ── */
+.word-list{display:grid;gap:20px}
+.word-card{background:var(--white);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-sm);border:1px solid var(--border);display:grid;grid-template-columns:1fr 1fr;min-height:300px;transition:box-shadow .2s}
+.word-card:hover{box-shadow:var(--shadow)}
+.word-card.flip{direction:rtl}
+.word-card.flip>*{direction:ltr}
+.wc-img{overflow:hidden;background:#e8eaf0;position:relative}
+.wc-img img{width:100%;height:100%;object-fit:cover;display:block}
+.wc-img-ph{width:100%;height:100%;min-height:280px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,#eef0f8,#dde0f0);color:#8890b0}
+.wc-img-ph .ph-icon{font-size:48px;opacity:.5}
+.wc-img-ph .ph-word{font-size:14px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;opacity:.6}
+.wc-body{padding:32px 36px;display:flex;flex-direction:column;justify-content:center;gap:0}
+.wc-num{font-size:13px;font-weight:700;color:var(--blue);margin-bottom:8px;letter-spacing:.02em}
+.wc-title-row{display:flex;align-items:baseline;gap:10px;margin-bottom:4px;flex-wrap:wrap}
+.wc-word{font-size:32px;font-weight:900;letter-spacing:-1px;color:var(--text);line-height:1.1}
+.wc-type{font-size:12px;font-weight:600;color:var(--text2);background:var(--bg);border:1px solid var(--border);padding:3px 10px;border-radius:20px;white-space:nowrap}
+.wc-def{font-size:16px;color:var(--text);line-height:1.6;margin:12px 0 18px}
+.wc-ex-label{font-size:10px;font-weight:700;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+.wc-ex{font-size:14px;color:var(--text2);font-style:italic;line-height:1.6;margin-bottom:20px}
+.wc-audio{display:flex;flex-direction:column;gap:8px;margin-top:auto}
+.audio-player{display:flex;align-items:center;gap:10px;background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);padding:8px 12px;cursor:pointer;transition:all .15s;user-select:none}
+.audio-player:hover{border-color:var(--blue);background:var(--blue-light)}
+.audio-player.playing{border-color:var(--blue);background:var(--blue-light)}
+.ap-btn{width:32px;height:32px;border-radius:50%;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:11px;transition:transform .15s}
+.audio-player:hover .ap-btn{transform:scale(1.08)}
+.ap-info{flex:1;min-width:0}
+.ap-label{font-size:12px;font-weight:600;color:var(--text2);margin-bottom:3px}
+.ap-wave{display:flex;align-items:center;gap:2px;height:16px}
+.ap-bar{width:3px;border-radius:2px;background:var(--blue-mid);flex-shrink:0}
+.audio-player.playing .ap-bar{background:var(--blue);animation:wave var(--d,.4s) ease-in-out infinite alternate}
+@keyframes wave{from{transform:scaleY(.3)}to{transform:scaleY(1)}}
+.ap-dur{font-size:11px;color:var(--text3);font-weight:500;white-space:nowrap}
+
+/* ── DIALOGUE ── */
+.char-row{display:flex;gap:8px;margin-bottom:28px;flex-wrap:wrap}
+.char-pill{display:flex;align-items:center;gap:8px;padding:7px 14px;border:1.5px solid var(--border);border-radius:30px;font-size:13px;font-weight:600;background:var(--white);color:var(--text2)}
+.char-av{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;flex-shrink:0}
+.chat-feed{display:grid;gap:14px}
+.chat-line{display:flex;gap:12px;align-items:flex-start;max-width:700px}
+.chat-line.r{flex-direction:row-reverse;margin-left:auto}
+.chat-av{width:36px;height:36px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800}
+.chat-bubble{padding:12px 16px;border-radius:14px;max-width:540px;font-size:14px;line-height:1.6}
+.chat-line:not(.r) .chat-bubble{background:var(--white);border:1px solid var(--border);border-top-left-radius:4px}
+.chat-line.r .chat-bubble{background:var(--blue-light);border:1px solid var(--blue-mid);border-top-right-radius:4px}
+.chat-name{font-size:10px;font-weight:700;color:var(--text3);margin-bottom:3px;letter-spacing:.06em;text-transform:uppercase}
+.chat-line.r .chat-name{text-align:right}
+.hw{background:#fef9c3;color:#92620a;border-radius:3px;padding:1px 4px;font-weight:600}
+.tip-box{margin-top:20px;padding:14px 18px;background:var(--yellow-light);border-left:3px solid var(--yellow);border-radius:var(--r-sm);font-size:13px;color:var(--text2)}
+.tip-box strong{color:var(--text)}
+
+/* ── EXERCISES ── */
+.ex-step{display:none}
+.ex-step.active{display:block;animation:fadeUp .2s ease}
+.ex-meta{font-size:11px;font-weight:700;color:var(--text3);letter-spacing:.07em;margin-bottom:6px}
+.ex-title{font-size:22px;font-weight:800;margin-bottom:4px;letter-spacing:-.4px}
+.ex-sub{font-size:14px;color:var(--text2);margin-bottom:6px}
+.ex-progress{font-size:13px;font-weight:600;color:var(--blue);margin-bottom:24px}
+.match-hint{font-size:13px;color:var(--text2);background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);padding:12px 16px;margin-bottom:20px}
+.match-cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.match-col-hd{font-size:11px;font-weight:700;color:var(--text3);letter-spacing:.07em;margin-bottom:10px}
+.match-items{display:grid;gap:8px}
+.m-item{padding:12px 16px;background:var(--white);border:2px solid var(--border);border-radius:var(--r-sm);font-size:14px;cursor:pointer;transition:all .15s;user-select:none}
+.m-item:hover:not(.locked){border-color:var(--blue);color:var(--blue)}
+.m-item.sel{border-color:var(--blue);background:var(--blue-light);color:var(--blue);font-weight:600}
+.m-item.ok{border-color:var(--green);background:var(--green-light);color:#065f46;font-weight:600;cursor:default}
+.m-item.bad{border-color:var(--red);background:var(--red-light);color:var(--red);animation:shake .35s ease}
+.m-item.locked{cursor:default}
+.m-left .m-item{font-weight:700;font-size:13px}
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.fitb-hint{font-size:13px;color:var(--text2);background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);padding:12px 16px;margin-bottom:20px}
+.word-bank{display:flex;flex-wrap:wrap;gap:8px;padding:16px 18px;background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);margin-bottom:20px}
+.wb-hd{font-size:10px;font-weight:700;color:var(--text3);letter-spacing:.08em;width:100%;margin-bottom:4px}
+.chip{padding:6px 14px;background:var(--bg);border:1.5px solid var(--border);border-radius:20px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;user-select:none;color:var(--text)}
+.chip:hover:not(.used){border-color:var(--blue);color:var(--blue);background:var(--blue-light)}
+.chip.active{border-color:var(--blue);background:var(--blue);color:#fff}
+.chip.used{opacity:.3;pointer-events:none;text-decoration:line-through}
+.fitb-list{display:grid;gap:10px}
+.fitb-row{background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);padding:16px 20px;font-size:15px;line-height:2;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.fitb-n{font-size:12px;font-weight:700;color:var(--text3);min-width:20px}
+.blank{display:inline-flex;align-items:center;justify-content:center;min-width:110px;height:34px;border:2px dashed var(--border);border-radius:var(--r-sm);font-size:13px;font-weight:600;color:var(--text3);cursor:pointer;transition:all .15s;padding:0 10px;background:var(--bg)}
+.blank:hover:not(.ok){border-color:var(--blue);color:var(--blue)}
+.blank.filled{border-style:solid;border-color:var(--blue);background:var(--blue-light);color:var(--blue)}
+.blank.ok{border-color:var(--green);background:var(--green-light);color:#065f46;cursor:default}
+.blank.bad{border-color:var(--red);background:var(--red-light);color:var(--red);animation:shake .35s ease}
+.ex-actions{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+.comp-ref{background:var(--white);border:1px solid var(--border);border-radius:var(--r-sm);padding:14px 18px;font-size:13px;color:var(--text2);margin-bottom:24px}
+.comp-ref strong{color:var(--text)}
+.comp-list{display:grid;gap:16px}
+.comp-card{background:var(--white);border:1px solid var(--border);border-radius:var(--r);padding:22px 24px}
+.comp-qn{font-size:10px;font-weight:700;color:var(--text3);letter-spacing:.07em;margin-bottom:6px}
+.comp-qt{font-size:16px;font-weight:700;margin-bottom:14px;line-height:1.4}
+.comp-opts{display:grid;gap:8px}
+.comp-opt{padding:11px 16px;border:1.5px solid var(--border);border-radius:var(--r-sm);font-size:14px;cursor:pointer;transition:all .15s}
+.comp-opt:hover:not(.locked){border-color:var(--blue);color:var(--blue)}
+.comp-opt.chosen{border-color:var(--blue);background:var(--blue-light);color:var(--blue)}
+.comp-opt.ok{border-color:var(--green);background:var(--green-light);color:#065f46;font-weight:600;pointer-events:none}
+.comp-opt.bad{border-color:var(--red);background:var(--red-light);color:var(--red);pointer-events:none;animation:shake .35s ease}
+.comp-opt.reveal{border-color:var(--green);background:var(--green-light);color:#065f46;pointer-events:none;opacity:.7}
+.comp-opt.locked{pointer-events:none}
+.comp-fb{margin-top:10px;font-size:13px;padding:10px 14px;border-radius:var(--r-sm);display:none;line-height:1.5}
+.comp-fb.show{display:block}
+.comp-fb.ok{background:var(--green-light);color:#065f46}
+.comp-fb.bad{background:var(--red-light);color:#991b1b}
+.result-box{background:var(--white);border:1px solid var(--border);border-radius:var(--r);padding:28px;text-align:center;margin-top:24px;display:none}
+.result-box.show{display:block;animation:fadeUp .3s ease}
+.result-emoji{font-size:40px;margin-bottom:10px}
+.result-score{font-size:38px;font-weight:900;color:var(--blue);margin-bottom:4px;letter-spacing:-1px}
+.result-title{font-size:18px;font-weight:700;margin-bottom:6px}
+.result-msg{font-size:14px;color:var(--text2)}
+.final-banner{background:linear-gradient(135deg,#1d4ed8,#3b82f6);color:#fff;border-radius:var(--r);padding:36px;text-align:center;margin-top:28px;display:none}
+.final-banner.show{display:block;animation:fadeUp .4s ease}
+.final-banner h2{font-size:26px;font-weight:900;margin-bottom:8px;letter-spacing:-.5px}
+.final-banner p{font-size:15px;opacity:.85;margin-bottom:20px}
+.final-xp{font-size:48px;font-weight:900;margin-bottom:6px;letter-spacing:-2px}
+.final-stars{font-size:28px;letter-spacing:4px;margin-bottom:24px}
+.final-next{background:rgba(255,255,255,.15);border-radius:var(--r-sm);padding:14px 20px;font-size:14px}
+.final-next strong{display:block;font-size:16px;margin-top:4px}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:11px 22px;border-radius:var(--r-sm);border:none;font-size:14px;font-weight:600;cursor:pointer;transition:all .2s;font-family:var(--font)}
+.btn-blue{background:var(--blue);color:#fff}
+.btn-blue:hover{background:#1d4ed8;box-shadow:0 4px 14px rgba(37,99,235,.35)}
+.btn-outline{background:var(--white);color:var(--text2);border:1.5px solid var(--border)}
+.btn-outline:hover{border-color:var(--blue);color:var(--blue)}
+.btn:disabled{opacity:.4;pointer-events:none}
+.ex-nav{display:flex;justify-content:space-between;margin-top:28px;gap:10px}
+
+@media(max-width:700px){
+  .nav{padding:0 16px}
+  .hero{flex-direction:column;padding:24px 16px 0;gap:20px}
+  .hero-right{width:100%}
+  .hero-img-wrap{height:160px;border-radius:var(--r)}
+  .main{padding:24px 16px 60px}
+  .tabs{padding:0 16px}
+  .word-card{grid-template-columns:1fr;min-height:auto}
+  .word-card.flip{direction:ltr}
+  .wc-img{min-height:200px}
+  .wc-body{padding:22px 20px}
+  .wc-word{font-size:24px}
+  .match-cols{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-logo-box">P</div>
+  <span class="nav-name">Practispeak</span>
+  <a class="nav-back" href="#">← All Lessons</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero-wrap">
+  <div class="hero">
+    <div class="hero-left">
+      <div class="hero-badge">B1–B2</div>
+      <h1 class="hero-title">Talking Strategy</h1>
+      <p class="hero-sub">The phrases competitive players use to plan, warn, and win — in English.</p>
+      <div class="hero-progress">
+        <div class="hero-prog-track"><div class="hero-prog-fill" id="progFill" style="width:0%"></div></div>
+        <span class="hero-prog-label" id="progLabel">0%</span>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-img-wrap">
+        <img src="images/talking-strategy-hero.jpg" alt="Talking Strategy"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="hero-img-placeholder" style="display:none">🎯 🗺️ ⚔️</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TABS -->
+<div class="tabs-wrap">
+  <div class="tabs" id="tabBar">
+    <button class="tab active" data-tab="vocab">Vocabulary</button>
+    <button class="tab" data-tab="phrases">Useful Phrases</button>
+    <button class="tab" data-tab="dialogue">Dialogue</button>
+    <button class="tab" data-tab="exercises">Exercises</button>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- ════════ VOCABULARY ════════ -->
+  <div class="section active" id="tab-vocab">
+    <div class="sec-header">
+      <div class="sec-dot"></div>
+      <span class="sec-label" id="vocabCountLabel">12 key words for this lesson</span>
+    </div>
+    <div class="word-list" id="vocabList"></div>
+  </div>
+
+  <!-- ════════ USEFUL PHRASES ════════ -->
+  <div class="section" id="tab-phrases">
+    <div class="sec-header">
+      <div class="sec-dot" style="background:var(--green)"></div>
+      <span class="sec-label">6 useful phrases for this lesson</span>
+    </div>
+    <div class="word-list" id="phrasesList"></div>
+  </div>
+
+  <!-- ════════ DIALOGUE ════════ -->
+  <div class="section" id="tab-dialogue">
+    <div class="sec-header">
+      <div class="sec-dot" style="background:#8b5cf6"></div>
+      <span class="sec-label">Kai and Mia plan their approach during a competitive match</span>
+    </div>
+    <div class="char-row" id="charRow"></div>
+    <div class="chat-feed" id="chatFeed"></div>
+    <div class="tip-box">💡 <strong>Study tip:</strong> The highlighted words appear in the Vocabulary section. Can you find all 12 words in the dialogue?</div>
+  </div>
+
+  <!-- ════════ EXERCISES ════════ -->
+  <div class="section" id="tab-exercises">
+    <p style="font-size:14px;color:var(--text2);margin-bottom:28px">Complete all three exercises to see your final score</p>
+
+    <!-- EX 1: Matching -->
+    <div class="ex-step active" id="ex-1">
+      <div class="ex-meta">EXERCISE 1 OF 3</div>
+      <div class="ex-title">Matching</div>
+      <div class="ex-sub">Click a word, then click its correct definition.</div>
+      <div class="ex-progress" id="matchProg">0/8 matched</div>
+      <div class="match-hint">👆 Click a word on the left, then its definition on the right.</div>
+      <div class="match-cols">
+        <div>
+          <div class="match-col-hd">Words</div>
+          <div class="match-items m-left" id="matchLeft"></div>
+        </div>
+        <div>
+          <div class="match-col-hd">Definitions</div>
+          <div class="match-items" id="matchRight"></div>
+        </div>
+      </div>
+      <div class="result-box" id="matchResult">
+        <div class="result-emoji">🏆</div>
+        <div class="result-title">All matched! Great teamwork!</div>
+      </div>
+      <div class="ex-nav">
+        <button class="btn btn-outline" disabled>← Previous</button>
+        <button class="btn btn-blue" onclick="goEx(2)">Next →</button>
+      </div>
+    </div>
+
+    <!-- EX 2: Fill in blanks -->
+    <div class="ex-step" id="ex-2">
+      <div class="ex-meta">EXERCISE 2 OF 3</div>
+      <div class="ex-title">Fill in the Blanks</div>
+      <div class="ex-sub">Choose the correct word from the bank to complete each sentence.</div>
+      <div class="fitb-hint">👆 Click a word from the Word Bank, then click the blank. Click a filled blank to return the word.</div>
+      <div class="word-bank" id="wordBank"><div class="wb-hd">WORD BANK</div></div>
+      <div class="fitb-list" id="fitbList"></div>
+      <div class="ex-actions">
+        <button class="btn btn-blue" onclick="checkFITB()">Check Answers</button>
+        <button class="btn btn-outline" onclick="resetFITB()">Reset</button>
+      </div>
+      <div class="result-box" id="fitbResult">
+        <div class="result-emoji" id="fitbEmoji"></div>
+        <div class="result-score" id="fitbScore"></div>
+        <div class="result-title" id="fitbTitle"></div>
+        <div class="result-msg" id="fitbMsg"></div>
+      </div>
+      <div class="ex-nav">
+        <button class="btn btn-outline" onclick="goEx(1)">← Previous</button>
+        <button class="btn btn-blue" onclick="goEx(3)">Next →</button>
+      </div>
+    </div>
+
+    <!-- EX 3: Comprehension -->
+    <div class="ex-step" id="ex-3">
+      <div class="ex-meta">EXERCISE 3 OF 3</div>
+      <div class="ex-title">Dialogue Comprehension</div>
+      <div class="ex-sub">Answer questions about the dialogue. Re-read it in the Dialogue tab if needed.</div>
+      <div class="comp-ref"><strong>Remember:</strong> Kai and Mia are talking during a competitive match, planning their moves together.</div>
+      <div class="comp-list" id="compList"></div>
+      <div class="ex-actions" style="margin-top:24px">
+        <button class="btn btn-blue" onclick="submitComp()">Submit All Answers</button>
+      </div>
+      <div class="result-box" id="compResult">
+        <div class="result-emoji" id="compEmoji"></div>
+        <div class="result-score" id="compScore"></div>
+        <div class="result-title" id="compTitle"></div>
+        <div class="result-msg" id="compMsg"></div>
+      </div>
+      <div class="final-banner" id="finalBanner">
+        <h2>Lesson Complete! 🎉</h2>
+        <p>Talking Strategy · B1 · Lesson 5</p>
+        <div class="final-xp" id="finalXP">0 XP</div>
+        <div class="final-stars" id="finalStars">☆☆☆</div>
+        <div class="final-next">Next lesson<strong>B1 · Lesson 6 — Trash Talk &amp; Respect: What to Say (and What NOT to Say) →</strong></div>
+      </div>
+      <div class="ex-nav">
+        <button class="btn btn-outline" onclick="goEx(2)">← Previous</button>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /main -->
+
+<script>
+// ─────────────────────────────────────
+// DATA
+// ─────────────────────────────────────
+
+const VOCAB = [
+  {word:'FLANK',     type:'verb',   img:'flank',     def:'To attack the enemy from the side instead of from the front.',                        ex:'"Let\'s flank them on the left — they won\'t expect it."'},
+  {word:'ROTATE',    type:'verb',   img:'rotate',    def:'To move quickly from one area of the map to another to help your team.',               ex:'"They are pushing B site. Everyone rotate now!"'},
+  {word:'ENGAGE',    type:'verb',   img:'engage',    def:'To start a fight with the enemy.',                                                     ex:'"Wait for my signal before you engage. Don\'t go early."'},
+  {word:'RETREAT',   type:'verb',   img:'retreat',   def:'To move back to a safer position to avoid danger.',                                    ex:'"We lost two players. We need to retreat and regroup."'},
+  {word:'COVER',     type:'noun',   img:'cover',     def:'A safe position or object that protects you from enemy attacks.',                      ex:'"Get behind cover — the sniper can see you from there!"'},
+  {word:'CALLOUT',   type:'noun',   img:'callout',   def:'A short voice message that tells your team where the enemy is.',                      ex:'"Good callout! Now we know exactly where they are hiding."'},
+  {word:'PRESSURE',  type:'verb',   img:'pressure',  def:'To force the enemy to react or move by threatening them continuously.',                ex:'"Keep pressuring the left side so they cannot rotate."'},
+  {word:'CLUTCH',    type:'noun',   img:'clutch',    def:'A moment when one player wins a round alone, usually against multiple enemies.',       ex:'"That was an incredible clutch! He killed three players by himself."'},
+  {word:'PUSH',      type:'verb',   img:'push',      def:'To advance aggressively toward the enemy to take control of an area.',                 ex:'"Push now while they are reloading — this is our chance!"'},
+  {word:'HOLD',      type:'verb',   img:'hold',      def:'To stay in position and defend an area without moving forward.',                       ex:'"Hold this position. Do not move until they come to us."'},
+  {word:'SPLIT',     type:'verb',   img:'split',     def:'To divide your team into two groups to attack from different directions.',              ex:'"Let\'s split — two go left, three go right. Confuse them."'},
+  {word:'EXECUTE',   type:'verb',   img:'execute',   def:'To carry out a planned strategy quickly and together as a team.',                      ex:'"Three, two, one — execute! Go, go, go!"'},
+];
+
+const PHRASES = [
+  {phrase:'Fall back!',                 type:'Command',     img:'fall-back',    def:'A command to tell your team to retreat immediately to a safe area.',                  ex:'"Fall back! There are too many of them — we can\'t win this fight."'},
+  {phrase:'Watch your flank!',          type:'Warning',     img:'watch-flank',  def:'A warning to tell a teammate that enemies may be coming from the side.',              ex:'"Watch your flank! I saw two of them go around the corner."'},
+  {phrase:'I\'ve got you covered.',     type:'Statement',   img:'got-covered',  def:'Tells your teammate that you are protecting them so they can move or act safely.',   ex:'"Run to the next wall — I\'ve got you covered from here."'},
+  {phrase:'Push together on three.',    type:'Command',     img:'push-together',def:'Tells the team to advance at exactly the same moment. Always count to three first.', ex:'"Ready? Push together on three. One, two, three — go!"'},
+  {phrase:'We need to rotate now.',     type:'Statement',   img:'rotate-now',   def:'Tells the team to change position immediately because the situation has changed.',    ex:'"They abandoned A site. We need to rotate now — fast!"'},
+  {phrase:'Good callout!',              type:'Praise',      img:'good-callout', def:'Used to praise a teammate who gave useful information about the enemy\'s location.', ex:'"Good callout! Because of that we knew exactly where to look."'},
+];
+
+const DIALOGUE = [
+  {name:'Kai', side:'l', color:'#2563eb', bg:'#eff4ff',
+   text:'OK team, they are playing the right side. Let\'s <span class="hw">split</span> — Mia and I go left, you three take the right.'},
+  {name:'Mia', side:'r', color:'#7c3aed', bg:'#f5f3ff',
+   text:'Copy that. I\'ll <span class="hw">flank</span> from behind the building. Give me ten seconds.'},
+  {name:'Kai', side:'l', color:'#2563eb', bg:'#eff4ff',
+   text:'Go. I\'ve got you covered. The rest of you — <span class="hw">hold</span> your positions until Mia is in place.'},
+  {name:'Mia', side:'r', color:'#7c3aed', bg:'#f5f3ff',
+   text:'<span class="hw">Callout</span> — two enemies behind the blue wall, one on the roof. Don\'t <span class="hw">engage</span> the roof yet.'},
+  {name:'Kai', side:'l', color:'#2563eb', bg:'#eff4ff',
+   text:'Good callout! OK — <span class="hw">push</span> together on three. One, two, three — go!'},
+  {name:'Mia', side:'r', color:'#7c3aed', bg:'#f5f3ff',
+   text:'They\'re <span class="hw">rotating</span>! Fall back, fall back — get behind <span class="hw">cover</span>!'},
+  {name:'Kai', side:'l', color:'#2563eb', bg:'#eff4ff',
+   text:'<span class="hw">Retreat</span> to the stairs! We need to regroup. They are putting so much <span class="hw">pressure</span> on us.'},
+  {name:'Mia', side:'r', color:'#7c3aed', bg:'#f5f3ff',
+   text:'I\'m alone on the left — three enemies. I\'ll try to <span class="hw">clutch</span> this!'},
+  {name:'Kai', side:'l', color:'#2563eb', bg:'#eff4ff',
+   text:'Let\'s go! Now — everyone <span class="hw">execute</span> the plan! Push from both sides at the same time!'},
+  {name:'Mia', side:'r', color:'#7c3aed', bg:'#f5f3ff',
+   text:'We got them! Yes! That was a perfect <span class="hw">execute</span>. Well played, everyone.'},
+];
+
+const MATCH = [
+  {word:'FLANK',    def:'To attack from the side'},
+  {word:'ROTATE',   def:'To move quickly to a new area'},
+  {word:'CLUTCH',   def:'Winning alone against many enemies'},
+  {word:'ENGAGE',   def:'To start a fight with the enemy'},
+  {word:'COVER',    def:'A safe position that protects you'},
+  {word:'PRESSURE', def:'To force the enemy to react'},
+  {word:'EXECUTE',  def:'To carry out a plan together'},
+  {word:'SPLIT',    def:'To divide into two groups'},
+];
+
+const FITB = [
+  {id:'f1', before:'We need to ',       blank:'rotate',   after:' — they are attacking the other side of the map.'},
+  {id:'f2', before:'Don\'t ',           blank:'engage',   after:' them yet. Wait for my signal.'},
+  {id:'f3', before:'Get behind ',       blank:'cover',    after:' — the sniper can see you from that window!'},
+  {id:'f4', before:'Let\'s ',           blank:'split',    after:' — two go left, three go right.'},
+  {id:'f5', before:'Everyone ',         blank:'push',     after:' together now while they are reloading!'},
+  {id:'f6', before:'That was an incredible ', blank:'clutch', after:'! He won that round alone.'},
+  {id:'f7', before:'',                  blank:'Retreat',  after:'! We are losing too many players here.'},
+  {id:'f8', before:'On my signal — ',   blank:'execute',  after:'! Go, go, go!'},
+];
+const BANK_WORDS = ['rotate','engage','cover','split','push','clutch','Retreat','execute'];
+
+const COMP = [
+  {q:'Why does Kai tell the team to split?',
+   opts:['A) Because they want to rest.','B) Because the enemies are playing on the right side.','C) Because Mia is lost on the map.','D) Because they have too many players.'],
+   ans:1, ok:'✓ Correct! Kai says the enemies are on the right side, so the team splits to attack from both sides.',
+   bad:'✗ Look at Kai\'s first message. He says "they are playing the right side" — so the team splits. The answer is B.'},
+  {q:'What is Mia\'s job during the flanking move?',
+   opts:['A) She holds the centre position.','B) She retreats to the stairs.','C) She attacks from behind the building.','D) She gives a callout from the roof.'],
+   ans:2, ok:'✓ Correct! Mia says she will flank from behind the building.',
+   bad:'✗ Mia says "I\'ll flank from behind the building" — the answer is C.'},
+  {q:'What information does Mia\'s callout give?',
+   opts:['A) The score and the time remaining.','B) Where to find the health packs.','C) Two enemies behind the blue wall and one on the roof.','D) That the enemies have retreated.'],
+   ans:2, ok:'✓ Correct! Mia spots two enemies behind the blue wall and one on the roof.',
+   bad:'✗ Read Mia\'s callout carefully: "two enemies behind the blue wall, one on the roof" — the answer is C.'},
+  {q:'Why do they need to fall back and retreat?',
+   opts:['A) Kai tells them to execute the plan.','B) The enemies have rotated and are putting pressure on them.','C) They have won the round.','D) Mia has lost her controller.'],
+   ans:1, ok:'✓ Correct! The enemies rotate and put pressure on them, so they need to retreat.',
+   bad:'✗ Mia says "They\'re rotating!" and Kai mentions the enemy pressure — the answer is B.'},
+  {q:'What does Mia decide to do when she is left alone against three enemies?',
+   opts:['A) She retreats immediately.','B) She asks Kai for help.','C) She tries to clutch the situation.','D) She quits the game.'],
+   ans:2, ok:'✓ Correct! Mia says "I\'ll try to clutch this!" — she will try to win alone.',
+   bad:'✗ Mia says "I\'ll try to clutch this!" — the answer is C.'},
+  {q:'How does the round end?',
+   opts:['A) They lose and retreat to the base.','B) Kai is eliminated by the enemy.','C) They win by executing the plan from both sides.','D) The match is a draw.'],
+   ans:2, ok:'✓ Correct! Mia says "We got them!" and calls it a perfect execute.',
+   bad:'✗ Mia celebrates: "We got them! That was a perfect execute." — the answer is C.'},
+];
+
+// ─────────────────────────────────────
+// XP / PROGRESS
+// ─────────────────────────────────────
+let xp = 0;
+const MAX_XP = 100;
+function addXP(n){
+  xp = Math.min(MAX_XP, xp+n);
+  const p = Math.round(xp/MAX_XP*100);
+  document.getElementById('progFill').style.width = p+'%';
+  document.getElementById('progLabel').textContent = p+'%';
+}
+
+// ─────────────────────────────────────
+// TABS
+// ─────────────────────────────────────
+const XP_READ = {vocab:5,phrases:5,dialogue:10};
+const tabsSeen = {};
+document.getElementById('tabBar').addEventListener('click', e => {
+  const btn = e.target.closest('.tab'); if(!btn) return;
+  const id = btn.dataset.tab;
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('tab-'+id).classList.add('active');
+  if(!tabsSeen[id] && XP_READ[id]){ tabsSeen[id]=true; addXP(XP_READ[id]); }
+  window.scrollTo({top:0,behavior:'smooth'});
+});
+
+// ─────────────────────────────────────
+// AUDIO PLAYER HELPER
+// ─────────────────────────────────────
+function waveformBars(n=20){
+  const heights=[3,5,8,12,16,20,24,20,28,24,18,28,22,16,24,20,14,10,6,4];
+  return Array.from({length:n},(_,i)=>`<div class="ap-bar" style="height:${heights[i%heights.length]}px;--d:${(.3+Math.random()*.4).toFixed(2)}s"></div>`).join('');
+}
+function audioPlayerHTML(label, audioSrc){
+  return `
+  <div class="audio-player" onclick="toggleAudio(this,'${audioSrc}')">
+    <div class="ap-btn">▶</div>
+    <div class="ap-info">
+      <div class="ap-label">${label}</div>
+      <div class="ap-wave">${waveformBars()}</div>
+    </div>
+    <div class="ap-dur">0:03</div>
+  </div>`;
+}
+function toggleAudio(el, src){
+  const wasPlaying = el.classList.contains('playing');
+  document.querySelectorAll('.audio-player.playing').forEach(p=>{p.classList.remove('playing');p.querySelector('.ap-btn').textContent='▶';});
+  if(!wasPlaying){ el.classList.add('playing'); el.querySelector('.ap-btn').textContent='■'; }
+}
+
+// ─────────────────────────────────────
+// RENDER VOCAB
+// ─────────────────────────────────────
+function renderVocab(){
+  const list = document.getElementById('vocabList');
+  VOCAB.forEach((v,i)=>{
+    const flip = i%2===1 ? 'flip' : '';
+    const slug = v.img;
+    list.innerHTML += `
+    <div class="word-card ${flip}">
+      <div class="wc-img">
+        <img src="images/${slug}.jpg" alt="${v.word}"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="wc-img-ph" style="display:none">
+          <div class="ph-icon">🖼</div>
+          <div class="ph-word">${v.word}</div>
+        </div>
+      </div>
+      <div class="wc-body">
+        <div class="wc-num">${String(i+1).padStart(2,'0')}</div>
+        <div class="wc-title-row">
+          <span class="wc-word">${v.word}</span>
+          <span class="wc-type">${v.type}</span>
+        </div>
+        <div class="wc-def">${v.def}</div>
+        <div class="wc-ex-label">Example</div>
+        <div class="wc-ex">${v.ex}</div>
+        <div class="wc-audio">
+          ${audioPlayerHTML('Listen to word','audio/'+slug+'-word.mp3')}
+          ${audioPlayerHTML('Listen to example','audio/'+slug+'-example.mp3')}
+        </div>
+      </div>
+    </div>`;
+  });
+}
+
+// ─────────────────────────────────────
+// RENDER PHRASES
+// ─────────────────────────────────────
+function renderPhrases(){
+  const list = document.getElementById('phrasesList');
+  PHRASES.forEach((p,i)=>{
+    const flip = i%2===1 ? 'flip' : '';
+    const slug = p.img;
+    list.innerHTML += `
+    <div class="word-card ${flip}">
+      <div class="wc-img">
+        <img src="images/${slug}.jpg" alt="${p.phrase}"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="wc-img-ph" style="display:none">
+          <div class="ph-icon">🖼</div>
+          <div class="ph-word">${p.phrase}</div>
+        </div>
+      </div>
+      <div class="wc-body">
+        <div class="wc-num">${String(i+1).padStart(2,'0')}</div>
+        <div class="wc-title-row">
+          <span class="wc-word" style="font-size:22px">${p.phrase}</span>
+          <span class="wc-type">useful phrase · ${p.type}</span>
+        </div>
+        <div class="wc-def">${p.def}</div>
+        <div class="wc-ex-label">Example</div>
+        <div class="wc-ex">${p.ex}</div>
+        <div class="wc-audio">
+          ${audioPlayerHTML('Listen to phrase','audio/'+slug+'-phrase.mp3')}
+          ${audioPlayerHTML('Listen to example','audio/'+slug+'-example.mp3')}
+        </div>
+      </div>
+    </div>`;
+  });
+}
+
+// ─────────────────────────────────────
+// RENDER DIALOGUE
+// ─────────────────────────────────────
+function renderDialogue(){
+  const cr = document.getElementById('charRow');
+  [{n:'Kai',c:'#2563eb',bg:'#eff4ff'},{n:'Mia',c:'#7c3aed',bg:'#f5f3ff'}].forEach(ch=>{
+    cr.innerHTML+=`<div class="char-pill"><div class="char-av" style="background:${ch.bg};color:${ch.c}">${ch.n[0]}</div>${ch.n}</div>`;
+  });
+  const feed = document.getElementById('chatFeed');
+  DIALOGUE.forEach(line=>{
+    const isR = line.side==='r';
+    feed.innerHTML+=`
+    <div class="chat-line ${isR?'r':''}">
+      <div class="chat-av" style="background:${line.bg};color:${line.color}">${line.name[0]}</div>
+      <div class="chat-bubble">
+        <div class="chat-name">${line.name}</div>
+        <div>${line.text}</div>
+      </div>
+    </div>`;
+  });
+}
+
+// ─────────────────────────────────────
+// MATCHING
+// ─────────────────────────────────────
+let mLS=null,mRS=null,mDone=0;
+function renderMatch(){
+  const L=document.getElementById('matchLeft'), R=document.getElementById('matchRight');
+  const rShuf=[...MATCH].sort(()=>Math.random()-.5);
+  MATCH.forEach((p,i)=>{
+    const el=document.createElement('div'); el.className='m-item';
+    el.textContent=(i+1)+'  '+p.word; el.dataset.key=p.word;
+    el.onclick=()=>doMatch(el,'l'); L.appendChild(el);
+  });
+  rShuf.forEach(p=>{
+    const el=document.createElement('div'); el.className='m-item';
+    el.textContent=p.def; el.dataset.key=p.word;
+    el.onclick=()=>doMatch(el,'r'); R.appendChild(el);
+  });
+}
+function doMatch(el,side){
+  if(el.classList.contains('ok')||el.classList.contains('locked')) return;
+  if(side==='l'){if(mLS) mLS.classList.remove('sel'); mLS=el; el.classList.add('sel');}
+  else{if(mRS) mRS.classList.remove('sel'); mRS=el; el.classList.add('sel');}
+  if(mLS&&mRS){
+    if(mLS.dataset.key===mRS.dataset.key){
+      [mLS,mRS].forEach(e=>{e.classList.remove('sel');e.classList.add('ok','locked');});
+      mDone++; addXP(2);
+      document.getElementById('matchProg').textContent=mDone+'/'+MATCH.length+' matched';
+      mLS=null;mRS=null;
+      if(mDone===MATCH.length){document.getElementById('matchResult').classList.add('show');addXP(5);}
+    } else {
+      const a=mLS,b=mRS;
+      [a,b].forEach(e=>e.classList.add('bad'));
+      setTimeout(()=>{[a,b].forEach(e=>e.classList.remove('sel','bad'));},450);
+      mLS=null;mRS=null;
+    }
+  }
+}
+
+// ─────────────────────────────────────
+// FILL IN BLANKS
+// ─────────────────────────────────────
+let activeChip=null, fitbState={};
+function renderFITB(){
+  const bank=document.getElementById('wordBank');
+  BANK_WORDS.forEach(w=>{
+    const c=document.createElement('div'); c.className='chip'; c.id='chip-'+w; c.textContent=w;
+    c.onclick=()=>pickChip(w); bank.appendChild(c);
+  });
+  const list=document.getElementById('fitbList');
+  FITB.forEach((f,i)=>{
+    const row=document.createElement('div'); row.className='fitb-row';
+    row.innerHTML=`<span class="fitb-n">${i+1}.</span>${f.before}<span class="blank" id="bl-${f.id}" onclick="fillBlank('${f.id}')">click here</span>${f.after}`;
+    list.appendChild(row);
+  });
+}
+function pickChip(w){
+  if(document.getElementById('chip-'+w).classList.contains('used')) return;
+  if(activeChip===w){activeChip=null;document.getElementById('chip-'+w).classList.remove('active');return;}
+  if(activeChip){document.getElementById('chip-'+activeChip)?.classList.remove('active');}
+  activeChip=w; document.getElementById('chip-'+w).classList.add('active');
+}
+function fillBlank(id){
+  const bl=document.getElementById('bl-'+id);
+  if(bl.classList.contains('ok')) return;
+  if(fitbState[id]){
+    document.getElementById('chip-'+fitbState[id])?.classList.remove('used');
+    delete fitbState[id]; bl.textContent='click here'; bl.className='blank'; return;
+  }
+  if(!activeChip) return;
+  fitbState[id]=activeChip; bl.textContent=activeChip; bl.classList.add('filled');
+  document.getElementById('chip-'+activeChip)?.classList.add('used');
+  document.getElementById('chip-'+activeChip)?.classList.remove('active');
+  activeChip=null;
+}
+function checkFITB(){
+  let ok=0;
+  FITB.forEach(f=>{
+    const bl=document.getElementById('bl-'+f.id);
+    if(!fitbState[f.id]) return;
+    if(fitbState[f.id].toLowerCase()===f.blank.toLowerCase()){bl.classList.add('ok');bl.classList.remove('bad','filled');ok++;}
+    else{bl.classList.add('bad');bl.classList.remove('ok','filled');}
+  });
+  const tot=FITB.length, box=document.getElementById('fitbResult'); box.classList.add('show');
+  if(ok===tot){
+    document.getElementById('fitbEmoji').textContent='🌟';
+    document.getElementById('fitbScore').textContent=ok+'/'+tot;
+    document.getElementById('fitbTitle').textContent='Perfect score!';
+    document.getElementById('fitbMsg').textContent='Excellent! You know all the strategy vocabulary.';
+    addXP(25);
+  } else if(ok>=Math.ceil(tot/2)){
+    document.getElementById('fitbEmoji').textContent='👍';
+    document.getElementById('fitbScore').textContent=ok+'/'+tot;
+    document.getElementById('fitbTitle').textContent='Good job!';
+    document.getElementById('fitbMsg').textContent='Review the wrong answers and try again for a perfect score.';
+    addXP(ok*2);
+  } else {
+    document.getElementById('fitbEmoji').textContent='📖';
+    document.getElementById('fitbScore').textContent=ok+'/'+tot;
+    document.getElementById('fitbTitle').textContent='Keep practising!';
+    document.getElementById('fitbMsg').textContent='Go back to the Vocabulary tab, review the words, then try again.';
+  }
+}
+function resetFITB(){
+  fitbState={}; activeChip=null;
+  FITB.forEach(f=>{const b=document.getElementById('bl-'+f.id);b.textContent='click here';b.className='blank';});
+  BANK_WORDS.forEach(w=>{const c=document.getElementById('chip-'+w);if(c){c.classList.remove('used','active');}});
+  document.getElementById('fitbResult').classList.remove('show');
+}
+
+// ─────────────────────────────────────
+// COMPREHENSION
+// ─────────────────────────────────────
+let compAns={};
+function renderComp(){
+  const list=document.getElementById('compList');
+  COMP.forEach((q,qi)=>{
+    const card=document.createElement('div'); card.className='comp-card';
+    card.innerHTML=`<div class="comp-qn">QUESTION ${qi+1} OF ${COMP.length}</div>
+      <div class="comp-qt">${q.q}</div>
+      <div class="comp-opts">${q.opts.map((o,oi)=>`<div class="comp-opt" id="co-${qi}-${oi}" onclick="pickComp(${qi},${oi})">${o}</div>`).join('')}</div>
+      <div class="comp-fb" id="cf-${qi}"></div>`;
+    list.appendChild(card);
+  });
+}
+function pickComp(qi,oi){
+  if(document.getElementById('co-'+qi+'-'+COMP[qi].ans)?.classList.contains('ok')) return;
+  COMP[qi].opts.forEach((_,i)=>document.getElementById('co-'+qi+'-'+i)?.classList.remove('chosen'));
+  document.getElementById('co-'+qi+'-'+oi)?.classList.add('chosen');
+  compAns[qi]=oi;
+}
+function submitComp(){
+  let ok=0;
+  COMP.forEach((q,qi)=>{
+    const chosen=compAns[qi], fb=document.getElementById('cf-'+qi);
+    q.opts.forEach((_,i)=>{
+      const o=document.getElementById('co-'+qi+'-'+i); if(!o) return;
+      o.classList.remove('chosen'); o.classList.add('locked');
+      if(i===q.ans) o.classList.add('reveal');
+    });
+    if(chosen===undefined){fb.textContent='⚠ You did not answer this question.';fb.className='comp-fb show bad';}
+    else if(chosen===q.ans){document.getElementById('co-'+qi+'-'+chosen).classList.add('ok');fb.textContent=q.ok;fb.className='comp-fb show ok';ok++;}
+    else{document.getElementById('co-'+qi+'-'+chosen).classList.add('bad');fb.textContent=q.bad;fb.className='comp-fb show bad';}
+  });
+  const tot=COMP.length, pct=Math.round(ok/tot*100);
+  const box=document.getElementById('compResult'); box.classList.add('show');
+  if(ok===tot){
+    document.getElementById('compEmoji').textContent='🏆';
+    document.getElementById('compScore').textContent=ok+'/'+tot;
+    document.getElementById('compTitle').textContent='Excellent! Perfect strategy mind!';
+    document.getElementById('compMsg').textContent='You understood every play. You read the dialogue like a pro analyst!';
+    addXP(30); showFinal();
+  } else if(pct>=50){
+    document.getElementById('compEmoji').textContent='👍';
+    document.getElementById('compScore').textContent=ok+'/'+tot;
+    document.getElementById('compTitle').textContent='Good work!';
+    document.getElementById('compMsg').textContent='Re-read the dialogue and check your wrong answers above.';
+    addXP(ok*3);
+  } else {
+    document.getElementById('compEmoji').textContent='📖';
+    document.getElementById('compScore').textContent=ok+'/'+tot;
+    document.getElementById('compTitle').textContent='Keep trying!';
+    document.getElementById('compMsg').textContent='Go to the Dialogue tab, read it again carefully, then try once more.';
+  }
+}
+function showFinal(){
+  const b=document.getElementById('finalBanner'); b.classList.add('show');
+  document.getElementById('finalXP').textContent=xp+' / '+MAX_XP+' XP';
+  document.getElementById('finalStars').textContent=xp>=80?'★★★':xp>=50?'★★☆':'★☆☆';
+  b.scrollIntoView({behavior:'smooth',block:'center'});
+}
+
+// ─────────────────────────────────────
+// EXERCISE NAV
+// ─────────────────────────────────────
+function goEx(n){
+  document.querySelectorAll('.ex-step').forEach(s=>s.classList.remove('active'));
+  document.getElementById('ex-'+n).classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+// ─────────────────────────────────────
+// INIT
+// ─────────────────────────────────────
+renderVocab(); renderPhrases(); renderDialogue(); renderMatch(); renderFITB(); renderComp();
+</script>
+</body>
+</html>
