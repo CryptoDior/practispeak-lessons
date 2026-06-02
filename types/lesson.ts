@@ -56,10 +56,20 @@ export interface GrammarExample {
 export interface GrammarFocus {
   focusTitle: string;        // e.g. "Focus: \"is\" and \"isn't\" + adjective"
   description: string;       // explanation of the grammar rule
-  positivePattern: string;   // e.g. "Subject + IS + adjective"
-  positiveExample: string;   // e.g. "\"The dragon IS big.\""
-  negativePattern: string;   // e.g. "Subject + ISN'T + adjective"
-  negativeExample: string;   // e.g. "\"The elf ISN'T slow.\""
+
+  // Style A — two pattern rows (positive ✓ / negative ✗)
+  positivePattern?: string;   // e.g. "Subject + IS + adjective"
+  positiveExample?: string;   // e.g. "\"The dragon IS big.\""
+  negativePattern?: string;   // e.g. "Subject + ISN'T + adjective"
+  negativeExample?: string;   // e.g. "\"The elf ISN'T slow.\""
+
+  // Style B — single pattern row with slash examples
+  singlePattern?: string;        // e.g. "VERB + (object)"
+  singlePatternExample?: string; // e.g. "\"Jump!\" / \"Shoot the enemy!\""
+
+  // Shared
+  negativeSubtitle?: string;     // e.g. "(Don't + verb)"
+  arrowStyle?: boolean;          // show examples as "sentence → note" instead of parentheses
   positiveExamples: GrammarExample[];
   negativeExamples: GrammarExample[];
 }

@@ -8,6 +8,24 @@ export const actionVerbsMoveYourCharacter: Lesson = {
   description: 'Master the verbs that control your character using imperatives — the language of gaming commands.',
   heroImage: '/images/action-verbs-move-your-character-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Grammar Focus: Imperatives',
+    description: 'An imperative is a command. Use the BASE VERB with no subject.',
+    singlePattern: 'VERB + (object)',
+    singlePatternExample: '"Jump!"  /  "Shoot the enemy!"',
+    arrowStyle: true,
+    negativeSubtitle: '(Don\'t + verb)',
+    positiveExamples: [
+      { sentence: 'Jump!',              note: 'Tell someone to leap.' },
+      { sentence: 'Run to the exit!',   note: 'Tell someone to move fast to a place.' },
+      { sentence: 'Collect the coins.', note: 'Tell someone to pick up items.' },
+    ],
+    negativeExamples: [
+      { sentence: "Don't stop!",        note: 'Tell someone NOT to stop.' },
+      { sentence: "Don't shoot here.",  note: 'Tell someone NOT to fire.' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'JUMP',
