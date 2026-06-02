@@ -21,6 +21,8 @@ export interface PhrasalVerb {
   example: string;
   /** Matches /public/images/[imageSlug].jpg and /public/audio/[imageSlug].mp3 */
   imageSlug: string;
+  /** Override the label pill. Defaults to "phrasal verb". Set to '' to hide it. */
+  tag?: string;
 }
 
 export interface DialogueLine {

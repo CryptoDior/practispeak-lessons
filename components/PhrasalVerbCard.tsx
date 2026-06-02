@@ -87,9 +87,11 @@ export default function PhrasalVerbCard({ verb, index }: { verb: PhrasalVerb; in
           <h3 className="text-3xl lg:text-4xl font-extrabold text-black tracking-tight leading-none">
             {verb.phrase}
           </h3>
-          <span className="text-[11px] font-bold text-[#066EF5] bg-blue-50 border border-blue-100 px-3 py-1 rounded-full uppercase tracking-wide">
-            phrasal verb
-          </span>
+          {verb.tag !== '' && (
+            <span className="text-[11px] font-bold text-[#066EF5] bg-blue-50 border border-blue-100 px-3 py-1 rounded-full uppercase tracking-wide">
+              {verb.tag ?? 'phrasal verb'}
+            </span>
+          )}
         </div>
 
         <p className="text-gray-600 text-[15px] leading-relaxed mb-6">

@@ -71,24 +71,28 @@ export const gamingJargonDeepDive: Lesson = {
       definition: 'A game update released by developers that can nerf, buff, or fix things.',
       example: 'After the patch, the meta completely changed.',
       imageSlug: '/images/patch.png',
+      tag: '',
     },
     {
       phrase: 'BROKEN',
       definition: 'Hyperbolically overpowered — so strong it feels like a bug or design error.',
       example: 'This combo is broken — needs to be nerfed immediately.',
       imageSlug: '/images/broken.png',
+      tag: '',
     },
     {
       phrase: 'MAIN',
       definition: 'Your primary character in a game. Also used as a verb — to main a character.',
       example: 'I main Sova, but he just got nerfed.',
       imageSlug: '/images/main.png',
+      tag: '',
     },
     {
       phrase: 'TIER LIST',
       definition: 'A community ranking of characters or strategies from S-tier (best) to D-tier (worst).',
       example: 'She jumped to S-tier after the buff.',
       imageSlug: '/images/tier-list.png',
+      tag: 'phrasal verb',
     },
   ],
 
