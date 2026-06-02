@@ -822,7 +822,7 @@ function renderInAction(){
   const container=document.getElementById('scenarioPanels');
   SCENARIOS.forEach((sc,si)=>{
     const charNames=[...new Set(sc.lines.map(l=>l.name))];
-    const pillsHTML=charNames.map(n=>`<div class="char-pill"><div class="char-av" style="background:${CHARS[n].bg};color:${CHARS[n].color}">${n[0]}</div>${n}</div>`).join('');
+    const pillsHTML=charNames.map(n=>`<div class="char-pill"><div class="char-av" style="background:${CHARS[n].bg};color:${CHARS[n].color};overflow:hidden"><img src="${CHARS[n].icon}" alt="${n}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;display:block" onerror="this.style.display='none';this.parentElement.textContent='${n[0]}'"></div>${n}</div>`).join('');
     const linesHTML=sc.lines.map(l=>{
       const c=CHARS[l.name];
       const isR=c.side==='r';
