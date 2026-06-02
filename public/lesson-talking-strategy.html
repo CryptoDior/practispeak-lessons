@@ -771,7 +771,6 @@ function audioHTML(label, src){
   return `<div class="audio-player" onclick="toggleAudio(this,'${src}')">
     <div class="ap-btn">▶</div>
     <div class="ap-info"><div class="ap-label">${label}</div><div class="ap-wave">${waveBars()}</div></div>
-    <div class="ap-dur">0:03</div>
   </div>`;
 }
 let currentAudio = null;
