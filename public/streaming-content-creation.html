@@ -76,14 +76,20 @@
     .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
     .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
     .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
-    .listen-btns { display: flex; flex-direction: column; gap: 8px; }
-    .listen-btn { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
-    .listen-btn:hover .play-icon { background: var(--blue-dk); }
-    .play-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
-    .play-icon svg { fill: white; width: 12px; height: 12px; }
+    .audio-player { display: flex; align-items: center; gap: 10px; margin-top: 4px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn { background: var(--blue-dk); }
+    .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
     .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
-    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; }
-    .wave span:nth-child(1){height:4px} .wave span:nth-child(2){height:8px} .wave span:nth-child(3){height:14px} .wave span:nth-child(4){height:10px} .wave span:nth-child(5){height:6px} .wave span:nth-child(6){height:12px} .wave span:nth-child(7){height:8px} .wave span:nth-child(8){height:5px} .wave span:nth-child(9){height:9px} .wave span:nth-child(10){height:4px}
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s}    .wave span:nth-child(2){height:8px;animation-delay:.1s}
+    .wave span:nth-child(3){height:14px;animation-delay:.2s}  .wave span:nth-child(4){height:10px;animation-delay:.05s}
+    .wave span:nth-child(5){height:6px;animation-delay:.15s}  .wave span:nth-child(6){height:12px;animation-delay:.25s}
+    .wave span:nth-child(7){height:8px;animation-delay:.1s}   .wave span:nth-child(8){height:5px;animation-delay:.2s}
+    .wave span:nth-child(9){height:9px;animation-delay:.05s}  .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
 
     /* GRAMMAR NOTE */
     .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
@@ -298,13 +304,11 @@
         <p class="phrase-def">Use this to share your growth journey with your audience. It sounds authentic and relatable — viewers connect with creators who show progress, not just highlights.</p>
         <div class="phrase-example-label">Example</div>
         <p class="phrase-example">"I've been working on improving my aim for about three weeks — you can actually see the difference in my stats today."</p>
-        <div class="listen-btns">
-          <button class="listen-btn" onclick="speak(`I've been working on improving my aim for about three weeks — you can actually see the difference in my stats today.`)">
-            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
-            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-            Listen to example
-          </button>
-        </div>
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-01-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
       </div>
     </div>
 
@@ -318,13 +322,11 @@
         <p class="phrase-def">Walk your audience through your thinking in real time. It makes the stream more engaging because viewers feel like they're part of the decision, not just watching it.</p>
         <div class="phrase-example-label">Example</div>
         <p class="phrase-example">"What I'm trying to do is bait them out of the building and force a 1v1 in the open — patience is the whole play here."</p>
-        <div class="listen-btns">
-          <button class="listen-btn" onclick="speak(`What I'm trying to do is bait them out of the building and force a 1v1 in the open — patience is the whole play here.`)">
-            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
-            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-            Listen to example
-          </button>
-        </div>
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-02-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
       </div>
     </div>
 
@@ -338,13 +340,11 @@
         <p class="phrase-def">Give new viewers context about who you are and how long you've been doing this. Essential for channel bios, introductions, and any time a new viewer asks "how long have you been doing this?"</p>
         <div class="phrase-example-label">Example</div>
         <p class="phrase-example">"I've been streaming for about eight months — started with ten viewers and now we've got this amazing community."</p>
-        <div class="listen-btns">
-          <button class="listen-btn" onclick="speak(`I've been streaming for about eight months — started with ten viewers and now we've got this amazing community.`)">
-            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
-            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-            Listen to example
-          </button>
-        </div>
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-03-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
       </div>
     </div>
 
@@ -358,13 +358,11 @@
         <p class="phrase-def">Tell new viewers what your channel is really about — the vibe, the niche, the people. More personal than just naming your game. Works perfectly in bios and first-time introductions.</p>
         <div class="phrase-example-label">Example</div>
         <p class="phrase-example">"I'm trying to build a community around chill competitive gaming — people who take the game seriously but keep the energy positive."</p>
-        <div class="listen-btns">
-          <button class="listen-btn" onclick="speak(`I'm trying to build a community around chill competitive gaming — people who take the game seriously but keep the energy positive.`)">
-            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
-            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-            Listen to example
-          </button>
-        </div>
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-04-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
       </div>
     </div>
 
@@ -378,13 +376,11 @@
         <p class="phrase-def">The most natural way to ask for a follow, sub, or like. It connects the action to something the viewer is already feeling — so it sounds genuine, not desperate. Used constantly by successful streamers.</p>
         <div class="phrase-example-label">Example</div>
         <p class="phrase-example">"If you're enjoying the stream, make sure to drop a follow — it genuinely makes a difference and I read every single one."</p>
-        <div class="listen-btns">
-          <button class="listen-btn" onclick="speak(`If you're enjoying the stream, make sure to drop a follow — it genuinely makes a difference and I read every single one.`)">
-            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
-            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-            Listen to example
-          </button>
-        </div>
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-05-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
       </div>
     </div>
 
@@ -398,13 +394,11 @@
         <p class="phrase-def">Share insight with your audience about the game, the meta, or your own improvement. It sounds thoughtful and considered — a step up from just saying "I think." Great for keeping viewers engaged and thinking.</p>
         <div class="phrase-example-label">Example</div>
         <p class="phrase-example">"One thing I've noticed is that most players panic in the final circle — staying calm is honestly the biggest competitive advantage."</p>
-        <div class="listen-btns">
-          <button class="listen-btn" onclick="speak(`One thing I've noticed is that most players panic in the final circle — staying calm is honestly the biggest competitive advantage.`)">
-            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
-            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-            Listen to example
-          </button>
-        </div>
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-06-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
       </div>
     </div>
 
@@ -418,13 +412,11 @@
         <p class="phrase-def">Be transparent with your audience about your decisions, your content choices, or your strategy. Honesty builds trust on stream — and this phrase signals you're about to be real with them.</p>
         <div class="phrase-example-label">Example</div>
         <p class="phrase-example">"The reason I'm doing this is because I want to prove you can rank up without playing meta — skill over patch notes."</p>
-        <div class="listen-btns">
-          <button class="listen-btn" onclick="speak(`The reason I'm doing this is because I want to prove you can rank up without playing meta — skill over patch notes.`)">
-            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
-            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-            Listen to example
-          </button>
-        </div>
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-07-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
       </div>
     </div>
 
@@ -438,13 +430,11 @@
         <p class="phrase-def">Use this when something complex is on screen and new viewers need context. It shows you're audience-aware — one of the most important skills for any streamer. Never assume everyone knows what's going on.</p>
         <div class="phrase-example-label">Example</div>
         <p class="phrase-example">"Let me quickly explain what's happening — we've been sieging this base for 20 minutes and they keep rotating to the same corner."</p>
-        <div class="listen-btns">
-          <button class="listen-btn" onclick="speak(`Let me quickly explain what's happening — we've been sieging this base for 20 minutes and they keep rotating to the same corner.`)">
-            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
-            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-            Listen to example
-          </button>
-        </div>
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-08-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
       </div>
     </div>
 
@@ -936,14 +926,20 @@
     document.getElementById('progressPct').textContent = pct + '%';
   }
 
-  // ── TTS ──
-  function speak(text) {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = 'en-US'; u.rate = 0.92;
-      window.speechSynthesis.speak(u);
+  // ── AUDIO ──
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
     }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
   }
 
   // ── MC ──
