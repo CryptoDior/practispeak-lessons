@@ -1,0 +1,268 @@
+{
+  "exportName": "iAmAPlayer",
+  "title": "I Am a Player",
+  "subtitle": "Simple present and self-introduction for gamers",
+  "level": "A1-A2",
+  "description": "Learn how to introduce yourself in a game lobby — your username, platform, playstyle, and favourite game — using simple present.",
+  "heroImagePrompt": "Two young gamers meeting for the first time in a game lobby, character selection screen glowing behind them, one waving hello, warm welcoming atmosphere, cinematic wide shot, dramatic blue and purple lighting",
+  "imageStyle": "photorealistic cinematic still, movie trailer aesthetic, dramatic moody lighting, shallow depth of field, film grain texture, highly realistic people, high production value, widescreen composition, not stock photography",
+
+  "avatars": {
+    "Alex": "Close-up portrait headshot of a young male gamer named Alex, late teens, friendly confident smile, wearing a gaming headset around his neck, dark gaming room background with subtle RGB lighting",
+    "Kai": "Close-up portrait headshot of a young male gamer named Kai, mid-teens, bright enthusiastic expression, hoodie, dark gaming room background with subtle screen glow, excited new-player energy"
+  },
+
+  "grammarFocus": {
+    "focusTitle": "Focus: Simple Present — I am / I play / I like",
+    "description": "Use simple present to talk about facts, habits, and things that are always true — like who you are and how you play.",
+    "positivePattern": "Subject + am/is/are + noun/adjective",
+    "positiveExample": "\"I am a casual player.\"",
+    "negativePattern": "Subject + don't/doesn't + verb",
+    "negativeExample": "\"I don't play ranked matches.\"",
+    "positiveExamples": [
+      { "sentence": "I am Bronze rank.", "note": "(fact about me right now)" },
+      { "sentence": "I play on PC.", "note": "(habit — always true)" },
+      { "sentence": "My main is the warrior.", "note": "(fact about my character)" }
+    ],
+    "negativeExamples": [
+      { "sentence": "I am not competitive.", "note": "(I'm casual)" },
+      { "sentence": "I don't play solo.", "note": "(I play with a squad)" }
+    ]
+  },
+
+  "vocabulary": [
+    {
+      "word": "username",
+      "partOfSpeech": "noun",
+      "definition": "The name you choose for your account in a game.",
+      "example": "My username is DragonSlayer99. What is your username?",
+      "imagePrompt": "Cinematic close-up of a game profile screen showing a glowing username being typed letter by letter, dramatic blue interface light, dark background, shallow depth of field"
+    },
+    {
+      "word": "rank",
+      "partOfSpeech": "noun",
+      "definition": "A title or number that shows how skilled you are.",
+      "example": "I am Silver rank. I want to reach Gold next season.",
+      "imagePrompt": "A glowing silver rank badge on a game screen surrounded by dramatic metallic light, dark background, other rank badges visible but dimmer, cinematic close-up"
+    },
+    {
+      "word": "main",
+      "partOfSpeech": "noun",
+      "definition": "The character you play most often.",
+      "example": "My main is the warrior. I play him in every match.",
+      "imagePrompt": "A single character portrait glowing brightly on a game selection screen, all other characters slightly dimmed, a hand pointing at it with pride, dramatic choice moment, cinematic shot"
+    },
+    {
+      "word": "solo",
+      "partOfSpeech": "adverb",
+      "definition": "Playing alone, without a team.",
+      "example": "I usually play solo because my friends are offline.",
+      "imagePrompt": "A lone gamer sitting in a dark room with a single glowing screen, empty chairs around them, moody blue atmospheric light, cinematic solitary atmosphere"
+    },
+    {
+      "word": "squad",
+      "partOfSpeech": "noun",
+      "definition": "A group of players who play together as a team.",
+      "example": "I play with my squad every weekend. We are four players.",
+      "imagePrompt": "Four gamers at separate setups all connected on the same match, each screen showing the same game, team energy, dramatic lighting, cinematic wide shot"
+    },
+    {
+      "word": "platform",
+      "partOfSpeech": "noun",
+      "definition": "The device you use to play — PC, console, or mobile.",
+      "example": "I play on PC. What is your platform?",
+      "imagePrompt": "Three gaming devices side by side — a glowing PC monitor, a console with controller, and a smartphone — dramatically lit against a dark background, cinematic product shot"
+    },
+    {
+      "word": "casual",
+      "partOfSpeech": "adjective",
+      "definition": "Playing for fun, not to compete seriously.",
+      "example": "I am a casual player. I play to relax after school.",
+      "imagePrompt": "A teenager lying on a couch with a controller, smiling and relaxed, warm soft lighting, no stress, cinematic chill gaming atmosphere, comfortable home environment"
+    },
+    {
+      "word": "competitive",
+      "partOfSpeech": "adjective",
+      "definition": "Playing seriously to win and improve your rank.",
+      "example": "He is a competitive player. He practises for two hours every day.",
+      "imagePrompt": "An intense focused gamer leaning close to the screen, hands gripping the mouse tightly, ranked match visible on screen, dramatic sharp lighting, serious determined expression, cinematic tension"
+    },
+    {
+      "word": "favourite",
+      "partOfSpeech": "adjective",
+      "definition": "The one you like the most.",
+      "example": "My favourite game is this one. I play it every day.",
+      "imagePrompt": "A gamer pointing excitedly at a game on screen with a huge smile, golden warm lighting, triumphant moment of pure enthusiasm, cinematic wide shot"
+    },
+    {
+      "word": "hours",
+      "partOfSpeech": "noun",
+      "definition": "The amount of time you have spent playing a game.",
+      "example": "I have 500 hours in this game. I know every map.",
+      "imagePrompt": "A game stats screen showing 500 hours played in large glowing numbers, dark cinematic environment, dramatic close-up, sense of dedication and time invested"
+    },
+    {
+      "word": "region",
+      "partOfSpeech": "noun",
+      "definition": "The part of the world where your game server is.",
+      "example": "I play in the Asia region. My connection is very good.",
+      "imagePrompt": "A world map on a game server selection screen, one region glowing and highlighted while others are dim, dramatic blue cartographic lighting, cinematic close-up"
+    },
+    {
+      "word": "lobby",
+      "partOfSpeech": "noun",
+      "definition": "The waiting room where players meet before a match.",
+      "example": "I am in the lobby. The match starts in 30 seconds.",
+      "imagePrompt": "A game pre-match lobby screen glowing with player names, avatars, and a countdown timer, dramatic anticipation energy, cinematic wide shot of screen in dark room"
+    }
+  ],
+
+  "phrasalVerbs": [
+    {
+      "phrase": "my name is",
+      "definition": "Use this to introduce yourself — say your username or real name.",
+      "example": "Hi! My name is Kai. Nice to meet you!",
+      "imagePrompt": "Two gamers meeting for the first time in a game lobby, one waving to introduce themselves, warm friendly lighting, handshake energy, cinematic dramatic shot"
+    },
+    {
+      "phrase": "i play on",
+      "definition": "Use this to say which platform or game you play.",
+      "example": "I play on PC. Do you play on console or mobile?",
+      "imagePrompt": "A gamer gesturing proudly toward their gaming PC setup, dramatic side lighting, dark background, sense of pride in their platform, cinematic wide angle shot"
+    },
+    {
+      "phrase": "i mainly play",
+      "definition": "Use this to say which game or character you play most often.",
+      "example": "I mainly play battle royale. I love the last-player-standing format.",
+      "imagePrompt": "A player watching their favourite character on screen doing a victory pose, looking with pride and loyalty, dramatic lighting, cinematic medium shot"
+    },
+    {
+      "phrase": "nice to meet you",
+      "definition": "A polite phrase to say when you meet someone for the first time.",
+      "example": "Nice to meet you! Do you want to play together sometime?",
+      "imagePrompt": "Two gamers giving each other a thumbs up through their screens, warm friendly lighting, connection across distance, cinematic shot"
+    },
+    {
+      "phrase": "i am a casual player",
+      "definition": "Use this to say you play for fun and don't take rank seriously.",
+      "example": "I am a casual player. I don't worry about my rank — just fun!",
+      "imagePrompt": "Relaxed gamer laughing at the screen, leaning back in chair, no tension or stress, bright warm room, casual happy atmosphere, cinematic wide shot"
+    },
+    {
+      "phrase": "how long have you been playing",
+      "definition": "Ask this to find out how much experience someone has.",
+      "example": "How long have you been playing? I started two months ago.",
+      "imagePrompt": "Two gamers in friendly conversation, one holding up two fingers to show months, discussion about gaming experience, cinematic dramatic lighting"
+    }
+  ],
+
+  "dialogue": [
+    {
+      "speaker": "Alex",
+      "speakerColor": "blue",
+      "text": "Hey! Welcome to the [[lobby:the waiting area before a match]]. What's your [[username:the name you choose for your account]]?"
+    },
+    {
+      "speaker": "Kai",
+      "speakerColor": "green",
+      "text": "Hi! My name is Kai — username KaiStorm22. Nice to meet you! Are you [[casual:playing for fun]] or [[competitive:playing seriously to win]]?"
+    },
+    {
+      "speaker": "Alex",
+      "speakerColor": "blue",
+      "text": "Mostly casual, but I play ranked sometimes. What's your [[rank:a title showing how skilled you are]]?"
+    },
+    {
+      "speaker": "Kai",
+      "speakerColor": "green",
+      "text": "I'm Bronze. I'm new — only 50 [[hours:time spent playing]] so far. What [[platform:the device you play on]] are you on?"
+    },
+    {
+      "speaker": "Alex",
+      "speakerColor": "blue",
+      "text": "PC. I mainly play in the Asia [[region:the part of the world where your server is]]."
+    },
+    {
+      "speaker": "Kai",
+      "speakerColor": "green",
+      "text": "Same! PC, Asia region. Do you play [[solo:alone, without a team]] or with a [[squad:a group who play together]]?"
+    },
+    {
+      "speaker": "Alex",
+      "speakerColor": "blue",
+      "text": "Both! Solo in the morning, squad on weekends. Who is your [[main:the character you play most]]?"
+    },
+    {
+      "speaker": "Kai",
+      "speakerColor": "green",
+      "text": "The ranger. She is my [[favourite:the one I like the most]] — fast and good from long range. Want to play together?"
+    },
+    {
+      "speaker": "Alex",
+      "speakerColor": "blue",
+      "text": "For sure! The match starts in 30 seconds. Good luck, Kai!"
+    },
+    {
+      "speaker": "Kai",
+      "speakerColor": "green",
+      "text": "You too! Let's win this one!"
+    }
+  ],
+
+  "videos": [],
+
+  "matchingExercise": [
+    { "word": "USERNAME", "definition": "Your chosen name in the game" },
+    { "word": "RANK",     "definition": "A title showing your skill level" },
+    { "word": "MAIN",     "definition": "The character you play most" },
+    { "word": "SOLO",     "definition": "Playing alone, without a team" },
+    { "word": "SQUAD",    "definition": "A group who play together" },
+    { "word": "PLATFORM", "definition": "The device you play on" },
+    { "word": "CASUAL",   "definition": "Playing for fun, not to compete" },
+    { "word": "LOBBY",    "definition": "The waiting area before a match" }
+  ],
+
+  "fillBlankExercise": [
+    { "before": "My",           "after": "is KaiStorm22. What is yours?",              "answer": "username" },
+    { "before": "I play on",    "after": "— it's my favourite platform.",               "answer": "pc" },
+    { "before": "I am a",       "after": "player. I play just for fun.",               "answer": "casual" },
+    { "before": "My",           "after": "is the ranger. I play her every match.",     "answer": "main" },
+    { "before": "I play in the Asia", "after": ". My connection is very fast.",         "answer": "region" },
+    { "before": "I have 500",   "after": "in this game. I know every map.",            "answer": "hours" },
+    { "before": "We are a",     "after": "of four — we play together every weekend.",  "answer": "squad" },
+    { "before": "Everyone is in the", "after": ". The match starts in 10 seconds.",    "answer": "lobby" }
+  ],
+
+  "multipleChoiceExercise": [
+    {
+      "question": "What is Kai's username?",
+      "options": ["DragonSlayer99", "KaiStorm22", "Alex22", "BronzeKai"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What rank is Kai?",
+      "options": ["Silver", "Gold", "Bronze", "Platinum"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What platform does Alex play on?",
+      "options": ["Console", "Mobile", "PC", "Both PC and console"],
+      "correctIndex": 2
+    },
+    {
+      "question": "How does Alex usually play — solo or with a squad?",
+      "options": ["Always solo", "Always with a squad", "Solo in the morning, squad on weekends", "Only in ranked matches"],
+      "correctIndex": 2
+    },
+    {
+      "question": "Who is Kai's main character?",
+      "options": ["The warrior", "The mage", "The tank", "The ranger"],
+      "correctIndex": 3
+    },
+    {
+      "question": "How many hours has Kai played so far?",
+      "options": ["500 hours", "200 hours", "50 hours", "1,000 hours"],
+      "correctIndex": 2
+    }
+  ]
+}

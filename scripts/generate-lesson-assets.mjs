@@ -39,6 +39,7 @@ const VOICES = {
   Alex:     'iP95p4xoKVk53GoZ742B', // Chris   — American male conversational
   Sam:      'cgSgspJ2msm6clMCkdW9', // Jessica — American female conversational
   Coach:    'iP95p4xoKVk53GoZ742B', // Chris   — American male conversational
+  Kai:      'iP95p4xoKVk53GoZ742B', // Chris   — American male conversational
   Player:   'cgSgspJ2msm6clMCkdW9', // Jessica — American female conversational
 };
 
