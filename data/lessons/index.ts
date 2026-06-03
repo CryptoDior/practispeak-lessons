@@ -7,6 +7,7 @@ import { gamingJargonDeepDive } from './gaming-jargon-deep-dive';
 import { talkingStrategy } from './talking-strategy';
 import { streamingContentCreation } from './streaming-content-creation';
 import { iAmAPlayer } from './i-am-a-player';
+import { gameGenres } from './game-genres';
 /**
  * Add new lessons here by importing the lesson file and adding it to this array.
  * The lesson page routing and home page listing are automatic.
@@ -20,6 +21,7 @@ export const lessons: Lesson[] = [
   talkingStrategy,
   streamingContentCreation,
   iAmAPlayer,
+  gameGenres,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
