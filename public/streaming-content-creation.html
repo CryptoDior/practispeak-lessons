@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | Streaming &amp; Content Creation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #eef2ff;
+      --white:    #ffffff;
+      --blue:     #2563eb;
+      --blue-lt:  #eff6ff;
+      --blue-bd:  #bfdbfe;
+      --blue-dk:  #1d4ed8;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+
+    /* NAV */
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+    .nav-back:hover { color: var(--text); }
+
+    /* HERO */
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg, #c7d2fe, #a5b4fc); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; }
+
+    /* TABS */
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 20px; font-size: 14px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+
+    /* CONTENT */
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+    /* PHRASE CARDS */
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 24px; font-weight: 800; line-height: 1.2; margin-bottom: 8px; letter-spacing: -.01em; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 14px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+    .listen-btns { display: flex; flex-direction: column; gap: 8px; }
+    .listen-btn { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .listen-btn:hover .play-icon { background: var(--blue-dk); }
+    .play-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .play-icon svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; }
+    .wave span:nth-child(1){height:4px} .wave span:nth-child(2){height:8px} .wave span:nth-child(3){height:14px} .wave span:nth-child(4){height:10px} .wave span:nth-child(5){height:6px} .wave span:nth-child(6){height:12px} .wave span:nth-child(7){height:8px} .wave span:nth-child(8){height:5px} .wave span:nth-child(9){height:9px} .wave span:nth-child(10){height:4px}
+
+    /* GRAMMAR NOTE */
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+
+    /* IN ACTION */
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 20px; }
+    .stream-platform { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: .06em; }
+    .badge-twitch { background: #f3e8ff; color: #7c3aed; }
+    .badge-youtube { background: #fff1f2; color: #e11d48; }
+    .badge-tiktok { background: #f0fdf4; color: #059669; }
+    .stream-title { font-size: 13px; font-weight: 700; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+    .stream-text { font-size: 14px; line-height: 1.8; }
+    .stream-text .hl { color: var(--blue); font-weight: 600; }
+    .inaction-note { background: var(--blue-lt); border: 1px solid var(--blue-bd); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--blue-dk); margin-top: 14px; }
+
+    /* BIO BLOCK */
+    .bio-block { background: var(--bg); border: 1.5px dashed var(--blue-bd); border-radius: 12px; padding: 16px 20px; font-size: 13px; line-height: 1.7; margin-top: 12px; }
+    .bio-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 8px; }
+
+    /* REGISTER */
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); padding: 12px 20px; text-align: left; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 14px 20px; font-size: 14px; border-bottom: 1px solid var(--border); line-height: 1.5; vertical-align: top; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-tag { display: inline-block; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
+    .tag-informal { background: #fef3c7; color: #92400e; }
+    .tag-neutral  { background: #f0f9ff; color: #0369a1; }
+    .tag-formal   { background: #f5f3ff; color: #5b21b6; }
+    .tip-list { display: flex; flex-direction: column; gap: 10px; }
+    .tip { display: flex; align-items: flex-start; gap: 12px; padding: 14px 18px; border-radius: 10px; font-size: 14px; line-height: 1.5; }
+    .tip.red   { background: var(--red-bg);   color: #881337; }
+    .tip.green { background: var(--green-bg); color: #14532d; }
+    .tip.blue  { background: var(--blue-lt);  color: var(--blue-dk); }
+    .tip-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+
+    /* IN CONTEXT */
+    .transcript-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .transcript-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 16px; }
+    .stream-passage { font-size: 14px; line-height: 2; }
+    mark { background: #dbeafe; color: var(--blue-dk); padding: 1px 3px; border-radius: 4px; font-weight: 600; }
+    .questions-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .questions-card h3 { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+    .questions-card .q-intro { font-size: 13px; color: var(--muted); margin-bottom: 24px; }
+    .mc-question { margin-bottom: 28px; }
+    .mc-q-text { font-size: 14px; font-weight: 600; margin-bottom: 12px; line-height: 1.5; }
+    .mc-q-text em { font-style: italic; color: var(--blue-dk); }
+    .mc-options { display: flex; flex-direction: column; gap: 8px; }
+    .mc-option { display: flex; align-items: flex-start; gap: 10px; padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; cursor: pointer; font-size: 13px; line-height: 1.5; transition: all .15s; background: var(--white); }
+    .mc-option:hover { border-color: var(--blue); background: var(--blue-lt); }
+    .mc-option.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .mc-option.correct  { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .mc-option.wrong    { border-color: var(--red);   background: var(--red-bg);   cursor: default; }
+    .mc-option.dim      { opacity: .45; cursor: default; }
+    .mc-letter { width: 22px; height: 22px; border-radius: 50%; background: var(--bg); border: 1.5px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; color: var(--muted); }
+    .mc-option.selected .mc-letter { background: var(--blue); border-color: var(--blue); color: white; }
+    .mc-option.correct .mc-letter  { background: var(--green); border-color: var(--green); color: white; }
+    .mc-option.wrong .mc-letter    { background: var(--red);   border-color: var(--red);   color: white; }
+    .mc-explain { margin-top: 8px; padding: 10px 14px; border-radius: 8px; font-size: 12px; line-height: 1.5; display: none; }
+    .mc-explain.show { display: block; }
+    .mc-explain.good { background: var(--green-bg); color: #14532d; }
+    .mc-explain.bad  { background: var(--red-bg);   color: #881337; }
+    .mc-check-btn { margin-top: 6px; padding: 7px 18px; background: var(--blue); color: white; border: none; border-radius: 8px; font-family: 'Inter',sans-serif; font-size: 13px; font-weight: 600; cursor: pointer; transition: background .15s; }
+    .mc-check-btn:hover { background: var(--blue-dk); }
+    .mc-check-btn:disabled { background: var(--border); color: var(--muted); cursor: default; }
+
+    /* SPEAKING */
+    .speaking-intro { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px 28px; margin-bottom: 24px; font-size: 14px; color: var(--muted); line-height: 1.7; }
+    .speaking-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+    .speaking-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; }
+    .speaking-card-label { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .speaking-card-icon { font-size: 20px; }
+    .speaking-card-tag { font-size: 11px; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: .07em; }
+    .speaking-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+    .speaking-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .bio-scaffold { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px 28px; margin-top: 8px; }
+    .bio-scaffold h4 { font-size: 14px; font-weight: 700; margin-bottom: 16px; }
+    .scaffold-row { display: flex; gap: 12px; margin-bottom: 14px; align-items: flex-start; }
+    .scaffold-num { width: 24px; height: 24px; border-radius: 50%; background: var(--blue); color: white; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+    .scaffold-text { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .scaffold-text strong { color: var(--text); }
+    .speaking-tips { background: var(--blue-lt); border: 1px solid var(--blue-bd); border-radius: var(--radius); padding: 20px 24px; margin-top: 24px; }
+    .speaking-tips h4 { font-size: 13px; font-weight: 700; color: var(--blue-dk); margin-bottom: 10px; }
+    .speaking-tips ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+    .speaking-tips li { font-size: 13px; color: var(--blue-dk); display: flex; align-items: flex-start; gap: 8px; }
+    .speaking-tips li::before { content: "→"; flex-shrink: 0; }
+
+    /* EXERCISES */
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .match-col-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; cursor: pointer; margin-bottom: 8px; transition: all .15s; user-select: none; line-height: 1.4; }
+    .match-item:hover { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); color: var(--blue-dk); font-weight: 600; }
+    .match-item.correct  { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .match-item.wrong    { border-color: var(--red);   background: var(--red-bg);   color: #881337; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--muted); margin-bottom: 16px; }
+    .word-bank { background: var(--bg); border: 1.5px dashed var(--blue-bd); border-radius: 12px; padding: 14px 18px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; transition: all .15s; user-select: none; }
+    .chip:hover { background: var(--blue-lt); border-color: var(--blue); }
+    .chip.used { opacity: .35; pointer-events: none; text-decoration: line-through; }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 170px; padding: 5px 12px; border: 1.5px solid var(--border); border-radius: 8px; background: var(--white); font-size: 13px; color: var(--blue-dk); font-weight: 500; cursor: pointer; transition: all .15s; vertical-align: middle; margin: 0 2px; }
+    .fill-slot.active { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(37,99,235,.12); }
+    .fill-slot.filled { background: var(--blue-lt); border-color: var(--blue-bd); }
+    .fill-slot.correct { background: var(--green-bg); border-color: var(--green); color: #14532d; cursor: default; }
+    .fill-slot.wrong   { background: var(--red-bg);   border-color: var(--red);   color: #881337; }
+    .fill-slot .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; }
+    .fill-slot .slot-clear { margin-left: 6px; font-size: 10px; color: var(--muted); background: none; border: none; cursor: pointer; padding: 0; line-height: 1; }
+    .fill-slot .slot-clear:hover { color: var(--red); }
+    .fill-item { margin-bottom: 18px; font-size: 14px; line-height: 2.2; }
+    .fill-hint { font-size: 12px; color: var(--muted); font-style: italic; margin-left: 4px; }
+    .fill-feedback { font-size: 12px; margin-left: 6px; font-weight: 600; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong   { color: var(--red); }
+    .error-item { border: 1.5px solid var(--border); border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; font-size: 14px; }
+    .error-sentence { font-style: italic; margin-bottom: 10px; }
+    .error-btns { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .error-btn { padding: 6px 14px; border-radius: 8px; border: 1.5px solid var(--border); background: none; font-family: 'Inter',sans-serif; font-size: 12px; font-weight: 600; cursor: pointer; transition: all .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .error-btn.wrong-ans   { border-color: var(--red);   background: var(--red-bg);   color: #881337; cursor: default; }
+    .error-feedback { font-size: 12px; margin-top: 8px; padding: 8px 12px; border-radius: 8px; display: none; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #881337; }
+    .check-btn { margin-top: 20px; padding: 10px 24px; background: var(--blue); color: white; border: none; border-radius: 10px; font-family: 'Inter',sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: background .15s; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 8px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; padding: 16px 0; border-bottom: 1px solid var(--border); font-size: 14px; line-height: 1.6; }
+    .disc-item:last-child { border-bottom: none; padding-bottom: 0; }
+    .disc-num { width: 30px; height: 30px; background: var(--bg); border: 1.5px solid var(--blue-bd); color: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; flex-shrink: 0; }
+    .lesson-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--border); }
+    .lesson-nav-btn { padding: 11px 24px; border-radius: 10px; font-family: 'Inter',sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: all .15s; display: flex; align-items: center; gap: 8px; }
+    .btn-prev { background: var(--white); border: 1.5px solid var(--border); color: var(--text); }
+    .btn-prev:hover { border-color: var(--blue); color: var(--blue); }
+    .btn-next { background: var(--blue); border: 1.5px solid var(--blue); color: white; }
+    .btn-next:hover { background: var(--blue-dk); border-color: var(--blue-dk); }
+    .btn-prev:disabled, .btn-next:disabled { opacity: .4; cursor: default; pointer-events: none; }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; padding: 24px 16px 0; }
+      .hero-img { display: none; }
+      .content { padding: 24px 16px 60px; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .phrase-img { min-height: 180px; }
+      .grammar-cols { grid-template-columns: 1fr; }
+      .speaking-cards { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-logo"><div class="nav-logo-icon">P</div>Practispeak</div>
+  <a href="#" class="nav-back">← All Lessons</a>
+</nav>
+
+<div class="hero">
+  <div>
+    <div class="hero-badge">B1-B2</div>
+    <h1>Streaming &amp; Content Creation</h1>
+    <p class="hero-sub">The phrases creators use to connect with their audience — live and on camera</p>
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <span class="progress-pct" id="progressPct">0%</span>
+    </div>
+  </div>
+  <div class="hero-img">🎙️</div>
+</div>
+
+<div class="tab-nav-wrap">
+  <div class="tab-nav">
+    <button class="tab-btn active" data-tab="phrases">Phrases</button>
+    <button class="tab-btn" data-tab="inaction">In Action</button>
+    <button class="tab-btn" data-tab="register">Register</button>
+    <button class="tab-btn" data-tab="incontext">In Context</button>
+    <button class="tab-btn" data-tab="speaking">Speaking</button>
+    <button class="tab-btn" data-tab="exercises">Exercises</button>
+  </div>
+</div>
+
+<div class="content">
+
+  <!-- ── PHRASES ── -->
+  <section class="section active" id="tab-phrases">
+    <div class="section-title">Phrases</div>
+    <div class="section-sub">8 phrases every creator needs for talking to their audience</div>
+
+    <!-- 01 -->
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e293b,#0f172a)">📈</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">"I've been working on improving…"</div>
+        <span class="phrase-tag">Talking About Progress</span>
+        <p class="phrase-def">Use this to share your growth journey with your audience. It sounds authentic and relatable — viewers connect with creators who show progress, not just highlights.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I've been working on improving my aim for about three weeks — you can actually see the difference in my stats today."</p>
+        <div class="listen-btns">
+          <button class="listen-btn" onclick="speak(`I've been working on improving my aim for about three weeks — you can actually see the difference in my stats today.`)">
+            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            Listen to example
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 02 -->
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1a0f2c,#2d1b69)">🧠</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">"What I'm trying to do is…"</div>
+        <span class="phrase-tag">Explaining Strategy or Plan</span>
+        <p class="phrase-def">Walk your audience through your thinking in real time. It makes the stream more engaging because viewers feel like they're part of the decision, not just watching it.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"What I'm trying to do is bait them out of the building and force a 1v1 in the open — patience is the whole play here."</p>
+        <div class="listen-btns">
+          <button class="listen-btn" onclick="speak(`What I'm trying to do is bait them out of the building and force a 1v1 in the open — patience is the whole play here.`)">
+            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            Listen to example
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 03 -->
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0f2c1e,#1a3a2c)">📅</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">"I've been streaming for about…"</div>
+        <span class="phrase-tag">Describing Experience / Journey</span>
+        <p class="phrase-def">Give new viewers context about who you are and how long you've been doing this. Essential for channel bios, introductions, and any time a new viewer asks "how long have you been doing this?"</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I've been streaming for about eight months — started with ten viewers and now we've got this amazing community."</p>
+        <div class="listen-btns">
+          <button class="listen-btn" onclick="speak(`I've been streaming for about eight months — started with ten viewers and now we've got this amazing community.`)">
+            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            Listen to example
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 04 -->
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0a1a2c,#0f2c3a)">🫂</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">"I'm trying to build a community around…"</div>
+        <span class="phrase-tag">Explaining Channel Identity</span>
+        <p class="phrase-def">Tell new viewers what your channel is really about — the vibe, the niche, the people. More personal than just naming your game. Works perfectly in bios and first-time introductions.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I'm trying to build a community around chill competitive gaming — people who take the game seriously but keep the energy positive."</p>
+        <div class="listen-btns">
+          <button class="listen-btn" onclick="speak(`I'm trying to build a community around chill competitive gaming — people who take the game seriously but keep the energy positive.`)">
+            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            Listen to example
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 05 -->
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#2c1a0a,#1a0f05)">🔔</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">"If you're enjoying the stream, make sure to…"</div>
+        <span class="phrase-tag">Call to Action</span>
+        <p class="phrase-def">The most natural way to ask for a follow, sub, or like. It connects the action to something the viewer is already feeling — so it sounds genuine, not desperate. Used constantly by successful streamers.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"If you're enjoying the stream, make sure to drop a follow — it genuinely makes a difference and I read every single one."</p>
+        <div class="listen-btns">
+          <button class="listen-btn" onclick="speak(`If you're enjoying the stream, make sure to drop a follow — it genuinely makes a difference and I read every single one.`)">
+            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            Listen to example
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 06 -->
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1a2c1a,#0f1a0f)">👁️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">"One thing I've noticed is that…"</div>
+        <span class="phrase-tag">Sharing an Observation</span>
+        <p class="phrase-def">Share insight with your audience about the game, the meta, or your own improvement. It sounds thoughtful and considered — a step up from just saying "I think." Great for keeping viewers engaged and thinking.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"One thing I've noticed is that most players panic in the final circle — staying calm is honestly the biggest competitive advantage."</p>
+        <div class="listen-btns">
+          <button class="listen-btn" onclick="speak(`One thing I've noticed is that most players panic in the final circle — staying calm is honestly the biggest competitive advantage.`)">
+            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            Listen to example
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 07 -->
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1a1a2e,#0f0f1a)">💬</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">"The reason I'm doing this is because…"</div>
+        <span class="phrase-tag">Giving Reasons &amp; Explanations</span>
+        <p class="phrase-def">Be transparent with your audience about your decisions, your content choices, or your strategy. Honesty builds trust on stream — and this phrase signals you're about to be real with them.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The reason I'm doing this is because I want to prove you can rank up without playing meta — skill over patch notes."</p>
+        <div class="listen-btns">
+          <button class="listen-btn" onclick="speak(`The reason I'm doing this is because I want to prove you can rank up without playing meta — skill over patch notes.`)">
+            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            Listen to example
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 08 -->
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#2c1a1a,#1a0f0f)">🎙️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">"Let me quickly explain what's happening…"</div>
+        <span class="phrase-tag">Helping the Audience Follow</span>
+        <p class="phrase-def">Use this when something complex is on screen and new viewers need context. It shows you're audience-aware — one of the most important skills for any streamer. Never assume everyone knows what's going on.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Let me quickly explain what's happening — we've been sieging this base for 20 minutes and they keep rotating to the same corner."</p>
+        <div class="listen-btns">
+          <button class="listen-btn" onclick="speak(`Let me quickly explain what's happening — we've been sieging this base for 20 minutes and they keep rotating to the same corner.`)">
+            <div class="play-icon"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+            <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            Listen to example
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- GRAMMAR NOTE -->
+    <div class="grammar-note">
+      <h3>💡 Quick Grammar Reminder</h3>
+      <p>The phrases in this lesson use two closely related structures. You don't need to memorise rules — just notice the pattern and how it feels.</p>
+      <div class="grammar-cols">
+        <div class="grammar-col">
+          <h4>Present Continuous — happening right now</h4>
+          <div class="grammar-row">Pattern: <code>I'm + verb-ing</code></div>
+          <div class="grammar-row"><code>"What I'm trying to do is…"</code> → right now, in this moment</div>
+          <div class="grammar-row"><code>"I'm trying to build a community…"</code> → an ongoing current project</div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Also used for repeated habits: <em>"I'm streaming every Tuesday."</em></div>
+        </div>
+        <div class="grammar-col">
+          <h4>Present Perfect Continuous — started then, still now</h4>
+          <div class="grammar-row">Pattern: <code>I've been + verb-ing</code></div>
+          <div class="grammar-row"><code>"I've been streaming for 8 months"</code> → started 8 months ago, still ongoing</div>
+          <div class="grammar-row"><code>"I've been working on improving…"</code> → a journey that's still in progress</div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">The key: <em>"I'm streaming"</em> = this moment. <em>"I've been streaming"</em> = a longer ongoing story.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" disabled>← Previous</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('inaction')">In Action →</button>
+    </div>
+  </section>
+
+  <!-- ── IN ACTION ── -->
+  <section class="section" id="tab-inaction">
+    <div class="section-title">In Action</div>
+    <div class="section-sub">How the phrases appear across different platforms and formats</div>
+
+    <div class="stream-card">
+      <div class="stream-platform">
+        <span class="platform-badge badge-twitch">Twitch</span>
+        <span class="stream-title">Live Commentary — Talking to Chat</span>
+      </div>
+      <p class="stream-text">
+        "Hey, welcome to the stream everyone — and welcome to anyone who's new. <span class="hl">Let me quickly explain what's happening</span> — I'm in a ranked game, final four squads, and I'm the last one alive on my team. No pressure. <span class="hl">What I'm trying to do is</span> hold this building until the zone forces them in. <span class="hl">One thing I've noticed is that</span> aggressive players always push too early here — so I'm just going to be patient and make them come to me. <span class="hl">The reason I'm doing this is because</span> I've been grinding this strategy all week and today is the test. And hey — <span class="hl">if you're enjoying the stream, make sure to</span> hit that follow button. It means the world."
+      </p>
+      <div class="inaction-note">Notice how the streamer uses phrases to <strong>narrate, explain strategy, share reasoning, and call to action</strong> — all in one natural monologue. This is the core skill of streaming in English.</div>
+    </div>
+
+    <div class="stream-card">
+      <div class="stream-platform">
+        <span class="platform-badge badge-youtube">YouTube</span>
+        <span class="stream-title">Channel Introduction — First 30 Seconds</span>
+      </div>
+      <p class="stream-text">
+        "Hey, what's up — if you're new here, welcome. <span class="hl">I've been streaming for about</span> a year now, mostly competitive FPS and the occasional ranked grind. <span class="hl">I'm trying to build a community around</span> honest, analytical gameplay — less hype, more learning. <span class="hl">I've been working on improving</span> my content quality over the last few months, and I think you'll notice the difference. <span class="hl">The reason I'm doing this is because</span> I genuinely believe you can learn something from every match — win or lose. If that sounds like your vibe, subscribe and let's go."
+      </p>
+      <div class="inaction-note">YouTube intros need to establish identity fast. This intro uses 5 of the 8 phrases in under 30 seconds — each one building a picture of who the creator is.</div>
+    </div>
+
+    <div class="stream-card">
+      <div class="stream-platform">
+        <span class="platform-badge badge-tiktok">TikTok / Shorts</span>
+        <span class="stream-title">Short-Form Video Caption + Spoken Hook</span>
+      </div>
+      <div class="bio-label" style="margin-bottom:8px">Caption</div>
+      <div class="bio-block">
+        "POV: <span class="hl">I've been working on improving</span> my reaction time for 30 days. <span class="hl">One thing I've noticed is that</span> consistency beats grinding every time. 🎮 <span class="hl">If you're enjoying this content, make sure to</span> follow for the full series."
+      </div>
+      <div class="bio-label" style="margin-top:16px;margin-bottom:8px">Spoken hook (first 3 seconds)</div>
+      <div class="bio-block">
+        "<span class="hl">Let me quickly explain what's happening</span> — I haven't touched ranked in two weeks, and I'm about to find out if the break actually helped."
+      </div>
+      <div class="inaction-note">TikTok moves fast — the hook is everything. <strong>"Let me quickly explain"</strong> creates instant curiosity. <strong>"One thing I've noticed"</strong> sets up a shareable insight. These phrases work across formats.</div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('phrases')">← Phrases</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('register')">Register →</button>
+    </div>
+  </section>
+
+  <!-- ── REGISTER ── -->
+  <section class="section" id="tab-register">
+    <div class="section-title">Register</div>
+    <div class="section-sub">How the same ideas sound across different creator contexts</div>
+
+    <div class="register-table">
+      <table>
+        <thead>
+          <tr><th>Context</th><th>Register</th><th>Example</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Live stream commentary</strong><br><span style="font-size:12px;color:var(--muted)">Twitch, YouTube Live</span></td>
+            <td><span class="register-tag tag-informal">Informal / Spontaneous</span></td>
+            <td><em>"Let me quickly explain what's happening — they just third-partied us and it's chaos, honestly."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Channel bio / About section</strong><br><span style="font-size:12px;color:var(--muted)">Twitch bio, YouTube About</span></td>
+            <td><span class="register-tag tag-neutral">Neutral / Personal</span></td>
+            <td><em>"I've been streaming for about a year. I'm trying to build a community around competitive FPS and honest gameplay improvement."</em></td>
+          </tr>
+          <tr>
+            <td><strong>TikTok / Shorts caption</strong><br><span style="font-size:12px;color:var(--muted)">Short-form social content</span></td>
+            <td><span class="register-tag tag-informal">Informal / Punchy</span></td>
+            <td><em>"One thing I've noticed is that nobody talks about THIS. 👀 If you're enjoying this, make sure to follow."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Community post / Discord</strong><br><span style="font-size:12px;color:var(--muted)">Creator updates, announcements</span></td>
+            <td><span class="register-tag tag-neutral">Neutral / Conversational</span></td>
+            <td><em>"I've been working on improving the stream quality — new mic, better lighting. The reason I'm doing this is because you all deserve better."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Brand pitch / Media kit</strong><br><span style="font-size:12px;color:var(--muted)">Sponsorship emails, press kits</span></td>
+            <td><span class="register-tag tag-formal">Formal / Professional</span></td>
+            <td><em>"I have been creating content for approximately twelve months and am currently focused on developing an engaged community within the competitive gaming space."</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tip-list">
+      <div class="tip green">
+        <span class="tip-icon">✅</span>
+        <span>All 8 phrases work naturally in live streaming. They sound conversational — which is exactly what you want when talking to an audience in real time.</span>
+      </div>
+      <div class="tip blue">
+        <span class="tip-icon">💡</span>
+        <span><strong>"I've been…" phrases are perfect for bios.</strong> They show your journey without sounding like a CV. <em>"I've been streaming for 8 months"</em> is warmer and more personal than <em>"I have 8 months of streaming experience."</em></span>
+      </div>
+      <div class="tip red">
+        <span class="tip-icon">❌</span>
+        <span>In formal writing (brand pitches, sponsorship emails), avoid casual contractions and shorthand. <em>"I've been working on improving"</em> → <em>"I have been developing"</em> sounds more professional.</span>
+      </div>
+      <div class="tip blue">
+        <span class="tip-icon">🌍</span>
+        <span><strong>"One thing I've noticed is that…"</strong> is a great phrase for non-native speakers because it frames your opinion softly — it invites the audience to think, rather than telling them what to believe.</span>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('inaction')">← In Action</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('incontext')">In Context →</button>
+    </div>
+  </section>
+
+  <!-- ── IN CONTEXT ── -->
+  <section class="section" id="tab-incontext">
+    <div class="section-title">In Context</div>
+    <div class="section-sub">Read the passage — highlighted phrases are from this lesson</div>
+
+    <div class="transcript-card">
+      <div class="transcript-title">Live Stream Monologue — Ranked Match, Third Attempt</div>
+      <p class="stream-passage">
+        "Alright, welcome back everyone — and welcome to anyone who's new here. <mark>Let me quickly explain what's happening</mark> — I'm on my third attempt at this boss fight and it's honestly been brutal. I keep making the same mistake. <mark>I've been working on improving</mark> my positioning for the last few weeks, and today is kind of the real test of that. <mark>What I'm trying to do is</mark> stay mobile and avoid getting cornered — that's been my main weakness. <mark>One thing I've noticed is that</mark> most players rush in too early on this fight, which is exactly what gets them killed. So I'm going to be patient, read the patterns, and wait for the opening. <mark>The reason I'm doing this is because</mark> I want to show you that you don't need the best gear or the highest level to win — you just need the right approach. <mark>I've been streaming for about</mark> six months now, and content like this — breaking down the game, not just playing it — is exactly why I started. <mark>I'm trying to build a community around</mark> that kind of thoughtful gameplay. And if you're new — <mark>if you're enjoying the stream, make sure to</mark> hit that follow button. Every single one makes a difference. Alright. Here we go."
+      </p>
+    </div>
+
+    <div class="questions-card">
+      <h3>Comprehension Questions</h3>
+      <p class="q-intro">Think about <em>why</em> the streamer uses each phrase, not just what it means.</p>
+
+      <!-- Q1 -->
+      <div class="mc-question" id="mc1">
+        <div class="mc-q-text">1. The streamer opens with <em>"Let me quickly explain what's happening."</em> What does using this phrase tell us about good streaming practice?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(1,'A')"><div class="mc-letter">A</div>Good streamers always apologise to their audience when something goes wrong</div>
+          <div class="mc-option" onclick="pickMC(1,'B')"><div class="mc-letter">B</div>Streamers use this phrase to fill time while the game loads or buffers</div>
+          <div class="mc-option" onclick="pickMC(1,'C')"><div class="mc-letter">C</div>Good streamers are audience-aware — they give context so both new and returning viewers can follow along</div>
+          <div class="mc-option" onclick="pickMC(1,'D')"><div class="mc-letter">D</div>This phrase signals that something unexpected happened and the streamer needs to explain it</div>
+        </div>
+        <div class="mc-explain" id="mc1-exp"></div>
+        <button class="mc-check-btn" id="mc1-btn" onclick="checkMC(1)" disabled>Check</button>
+      </div>
+
+      <!-- Q2 -->
+      <div class="mc-question" id="mc2">
+        <div class="mc-q-text">2. The streamer says <em>"I've been working on improving my positioning for the last few weeks."</em> Why use <em>"I've been working on"</em> instead of <em>"I worked on"</em>?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(2,'A')"><div class="mc-letter">A</div><em>"I've been working on"</em> is more polite and sounds less confident to the audience</div>
+          <div class="mc-option" onclick="pickMC(2,'B')"><div class="mc-letter">B</div><em>"I worked on"</em> would be incorrect grammar in this context</div>
+          <div class="mc-option" onclick="pickMC(2,'C')"><div class="mc-letter">C</div><em>"I've been working on"</em> shows the improvement is an ongoing journey — it connects the past effort to the present moment on stream</div>
+          <div class="mc-option" onclick="pickMC(2,'D')"><div class="mc-letter">D</div><em>"I've been working on"</em> is only used when you haven't finished something yet</div>
+        </div>
+        <div class="mc-explain" id="mc2-exp"></div>
+        <button class="mc-check-btn" id="mc2-btn" onclick="checkMC(2)" disabled>Check</button>
+      </div>
+
+      <!-- Q3 -->
+      <div class="mc-question" id="mc3">
+        <div class="mc-q-text">3. The streamer uses <em>"One thing I've noticed is that…"</em> rather than just saying <em>"Most players rush in too early."</em> What's the difference?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(3,'A')"><div class="mc-letter">A</div>It's a longer phrase, so the audience has more time to read the subtitles</div>
+          <div class="mc-option" onclick="pickMC(3,'B')"><div class="mc-letter">B</div>It frames the insight as personal experience and observation — it feels like sharing, not lecturing</div>
+          <div class="mc-option" onclick="pickMC(3,'C')"><div class="mc-letter">C</div>It tells the audience the streamer has done formal research on the topic</div>
+          <div class="mc-option" onclick="pickMC(3,'D')"><div class="mc-letter">D</div>It signals to the audience that the streamer is about to give advice they must follow</div>
+        </div>
+        <div class="mc-explain" id="mc3-exp"></div>
+        <button class="mc-check-btn" id="mc3-btn" onclick="checkMC(3)" disabled>Check</button>
+      </div>
+
+      <!-- Q4 -->
+      <div class="mc-question" id="mc4">
+        <div class="mc-q-text">4. The call to action is <em>"If you're enjoying the stream, make sure to hit that follow button."</em> Why is this more effective than just saying <em>"Follow me"</em>?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(4,'A')"><div class="mc-letter">A</div>It's longer, so the algorithm picks it up as more engaging content</div>
+          <div class="mc-option" onclick="pickMC(4,'B')"><div class="mc-letter">B</div><em>"Follow me"</em> is considered rude on most streaming platforms</div>
+          <div class="mc-option" onclick="pickMC(4,'C')"><div class="mc-letter">C</div>The if-structure links the action to how the viewer already feels — it sounds natural and earned, not like a demand</div>
+          <div class="mc-option" onclick="pickMC(4,'D')"><div class="mc-letter">D</div>The conditional makes it optional, which means fewer people feel pressured to follow</div>
+        </div>
+        <div class="mc-explain" id="mc4-exp"></div>
+        <button class="mc-check-btn" id="mc4-btn" onclick="checkMC(4)" disabled>Check</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('register')">← Register</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('speaking')">Speaking →</button>
+    </div>
+  </section>
+
+  <!-- ── SPEAKING ── -->
+  <section class="section" id="tab-speaking">
+    <div class="section-title">Speaking</div>
+    <div class="section-sub">Choose a scenario — talk, pitch, or write and present</div>
+
+    <div class="speaking-intro">
+      Pick one option below. You have <strong>3–4 minutes</strong> to prepare and speak. Try to use at least <strong>4 phrases</strong> from the lesson naturally. Don't read from the list — just talk.
+    </div>
+
+    <div class="speaking-cards">
+      <div class="speaking-card">
+        <div class="speaking-card-label">
+          <span class="speaking-card-icon">🔴</span>
+          <span class="speaking-card-tag">Option A</span>
+        </div>
+        <h3>You're Going Live</h3>
+        <p>It's your first stream of the week. Introduce yourself to the room — who you are, what you play, what you're going to do today. Imagine there are 50 people watching who've never seen you before.</p>
+      </div>
+      <div class="speaking-card">
+        <div class="speaking-card-label">
+          <span class="speaking-card-icon">🎯</span>
+          <span class="speaking-card-tag">Option B</span>
+        </div>
+        <h3>Pitch Your Channel</h3>
+        <p>A potential viewer asks: <em>"What's your channel about? Why should I follow you?"</em> You have 60 seconds to explain who you are, what makes your content different, and why they should stick around.</p>
+      </div>
+      <div class="speaking-card">
+        <div class="speaking-card-label">
+          <span class="speaking-card-icon">✍️</span>
+          <span class="speaking-card-tag">Option C</span>
+        </div>
+        <h3>Write &amp; Read Your Bio</h3>
+        <p>Write a 3–4 sentence Twitch or YouTube bio using the scaffold below. Then read it aloud to your partner — they give feedback on whether it sounds natural and engaging.</p>
+      </div>
+    </div>
+
+    <div class="bio-scaffold">
+      <h4>✍️ Bio Scaffold — Option C</h4>
+      <div class="scaffold-row">
+        <div class="scaffold-num">1</div>
+        <div class="scaffold-text"><strong>Who you are + what you play/create</strong> — one sentence introducing your channel identity.<br><em>e.g. "I'm [name] and I'm trying to build a community around [niche/game/vibe]."</em></div>
+      </div>
+      <div class="scaffold-row">
+        <div class="scaffold-num">2</div>
+        <div class="scaffold-text"><strong>Your experience / journey</strong> — how long you've been doing this.<br><em>e.g. "I've been streaming for about [time] — [one thing that's changed or improved]."</em></div>
+      </div>
+      <div class="scaffold-row">
+        <div class="scaffold-num">3</div>
+        <div class="scaffold-text"><strong>What you're working on / your mission</strong> — what makes you different.<br><em>e.g. "The reason I'm doing this is because [honest reason]. One thing I've noticed is that [insight about your niche]."</em></div>
+      </div>
+      <div class="scaffold-row">
+        <div class="scaffold-num">4</div>
+        <div class="scaffold-text"><strong>Call to action</strong> — invite them in.<br><em>e.g. "If you're enjoying [type of content], make sure to [follow/subscribe] — [personal touch]."</em></div>
+      </div>
+    </div>
+
+    <div class="speaking-tips">
+      <h4>Useful reminders while you speak</h4>
+      <ul>
+        <li>Start with <em>"Let me quickly explain…"</em> any time you're switching topic or a new viewer might be lost.</li>
+        <li>Use <em>"What I'm trying to do is…"</em> to think out loud — it makes silence feel intentional, not awkward.</li>
+        <li><em>"One thing I've noticed is that…"</em> is perfect when you want to share an opinion without sounding like you're lecturing.</li>
+        <li>Always connect your call to action to the viewer's experience: <em>"If you're enjoying this…"</em> — not just <em>"please follow."</em></li>
+      </ul>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('incontext')">← In Context</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('exercises')">Exercises →</button>
+    </div>
+  </section>
+
+  <!-- ── EXERCISES ── -->
+  <section class="section" id="tab-exercises">
+    <div class="section-title">Exercises</div>
+    <div class="section-sub">Complete all three exercises, then discuss the questions</div>
+
+    <!-- EX 1 — MATCHING -->
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 1</div>
+      <h3>Match the Phrase to Its Job</h3>
+      <p class="ex-desc">Click a phrase on the left, then click the matching job on the right.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Phrases</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">"I've been working on improving my aim."</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">"What I'm trying to do is stay patient."</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">"The reason I'm doing this is because I want to prove a point."</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">"If you're enjoying the stream, make sure to subscribe."</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">"Let me quickly explain what's happening."</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">"One thing I've noticed is that aggressive players always lose late game."</div>
+        </div>
+        <div>
+          <div class="match-col-label">Jobs</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">Giving a natural call to action</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">Talking about progress over time</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">Sharing an observation or insight</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">Explaining your strategy or plan</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">Helping the audience follow along</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">Being transparent about your reasons</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EX 2 — WORD BANK -->
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 2</div>
+      <h3>Complete the Sentence</h3>
+      <p class="ex-desc">Click a phrase from the bank, then click the blank where it belongs.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Phrase bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="I've been streaming for about" onclick="selectChip(this)">I've been streaming for about</div>
+          <div class="chip" data-phrase="What I'm trying to do is" onclick="selectChip(this)">What I'm trying to do is</div>
+          <div class="chip" data-phrase="One thing I've noticed is that" onclick="selectChip(this)">One thing I've noticed is that</div>
+          <div class="chip" data-phrase="The reason I'm doing this is because" onclick="selectChip(this)">The reason I'm doing this is because</div>
+          <div class="chip" data-phrase="I'm trying to build a community around" onclick="selectChip(this)">I'm trying to build a community around</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">1.</span>
+        <span class="fill-slot" id="fs1" data-answer="One thing I've noticed is that" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+        new viewers always drop in right when everything goes wrong.
+        <em class="fill-hint">(share an observation)</em>
+        <span class="fill-feedback" id="fb1"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">2.</span>
+        <span class="fill-slot" id="fs2" data-answer="What I'm trying to do is" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+        finish the ranked grind before the season resets — three more wins.
+        <em class="fill-hint">(explain your plan)</em>
+        <span class="fill-feedback" id="fb2"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">3.</span>
+        <span class="fill-slot" id="fs3" data-answer="I've been streaming for about" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+        six months — mostly FPS, a bit of story-mode content on weekends.
+        <em class="fill-hint">(describe your experience)</em>
+        <span class="fill-feedback" id="fb3"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">4.</span>
+        <span class="fill-slot" id="fs4" data-answer="The reason I'm doing this is because" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+        I want to show that you can climb ranked without playing meta.
+        <em class="fill-hint">(give your reason)</em>
+        <span class="fill-feedback" id="fb4"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">5.</span>
+        <span class="fill-slot" id="fs5" data-answer="I'm trying to build a community around" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+        honest, improvement-focused gaming — no toxic energy, just growth.
+        <em class="fill-hint">(describe your channel identity)</em>
+        <span class="fill-feedback" id="fb5"></span>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Answers</button>
+    </div>
+
+    <!-- EX 3 — SPOT THE ERROR -->
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 3</div>
+      <h3>Correct or Incorrect?</h3>
+      <p class="ex-desc">Is each sentence correct? If not, can you spot the error?</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"I've been working on to improve my positioning for three weeks."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(1,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"What I'm trying to do is read their rotations and punish the gap."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(2,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"I've been stream for about a year now on Twitch."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(3,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"One thing I've noticed is that the community gets more engaged when I explain my thinking out loud."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(4,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"The reason I'm doing this is because I wanting to grow a real audience, not just view counts."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(5,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <!-- DISCUSSION QUESTIONS -->
+    <div class="disc-card">
+      <h3>🗣 Discussion Questions</h3>
+      <div class="disc-item">
+        <div class="disc-num">1</div>
+        <span>Do you watch streamers or creators in English? What kinds of phrases do they use most — and are there any you've picked up naturally without realising?</span>
+      </div>
+      <div class="disc-item">
+        <div class="disc-num">2</div>
+        <span>Which of the 8 phrases would feel most natural if you were streaming right now? Which would feel hardest to say — and why?</span>
+      </div>
+      <div class="disc-item">
+        <div class="disc-num">3</div>
+        <span>Many successful streamers are very open about their progress and failures on stream. Do you think this is a good strategy? What are the advantages and risks?</span>
+      </div>
+      <div class="disc-item">
+        <div class="disc-num">4</div>
+        <span>What makes a great streaming or YouTube bio? What do you think a new viewer needs to know about a creator in the first 30 seconds?</span>
+      </div>
+      <div class="disc-item">
+        <div class="disc-num">5</div>
+        <span>If you were going to start a channel or stream in English, what would it be about? Use at least 3 phrases from the lesson to describe your idea.</span>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('speaking')">← Speaking</button>
+      <button class="lesson-nav-btn btn-next" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  // ── TABS ──
+  const tabs = ['phrases','inaction','register','incontext','speaking','exercises'];
+  const completedTabs = new Set();
+
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  // ── TTS ──
+  function speak(text) {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'en-US'; u.rate = 0.92;
+      window.speechSynthesis.speak(u);
+    }
+  }
+
+  // ── MC ──
+  const mcAnswers = { 1:'C', 2:'C', 3:'B', 4:'C' };
+  const mcExplain = {
+    1: {
+      C: { good:true,  msg:"Correct! Good streamers always think about their audience — especially new viewers who have no context. Opening with this phrase makes the stream accessible to everyone, not just regulars." },
+      A: { good:false, msg:"Not quite. The phrase isn't about apology — it's about giving context. The streamer isn't apologising for anything here, just bringing the audience up to speed." },
+      B: { good:false, msg:"Close, but not quite. While it does take a moment to say, the purpose is to give the audience context — not to fill dead air while waiting for something." },
+      D: { good:false, msg:"This could be part of it, but it's broader than that. The phrase works in any situation — not just when something unexpected has happened." }
+    },
+    2: {
+      C: { good:true,  msg:"Correct! 'I've been working on' (present perfect continuous) connects a past effort to the present moment. It tells viewers this is an ongoing journey — today's stream is the latest chapter, not a one-off." },
+      A: { good:false, msg:"'I've been working on' isn't about politeness or confidence — it's about time. It tells the audience this effort started in the past and is still happening now." },
+      B: { good:false, msg:"'I worked on' isn't incorrect — but it changes the meaning. 'I worked on it' suggests it's finished. 'I've been working on it' keeps the journey open and ongoing." },
+      D: { good:false, msg:"Not exactly. 'I've been working on' can be used even when you have finished, to emphasise the journey. The key meaning is past-to-present continuity, not incompleteness." }
+    },
+    3: {
+      B: { good:true,  msg:"Correct! 'One thing I've noticed' frames the observation as personal experience — the streamer is sharing what they've seen, not telling the audience what to think. It's the difference between teaching and talking with someone." },
+      A: { good:false, msg:"Length has nothing to do with it. The difference is in the framing — personal observation vs. statement of fact." },
+      C: { good:false, msg:"'I've noticed' doesn't signal formal research at all — it's the opposite. It signals personal, first-hand observation, which is more relatable than citing studies." },
+      D: { good:false, msg:"It doesn't signal a command — it's softer than that. The phrase invites the audience to consider the observation, not follow an instruction." }
+    },
+    4: {
+      C: { good:true,  msg:"Correct! The if-structure earns the call to action — it says 'if you're already enjoying this, here's a way to show it.' That feels natural and generous. 'Follow me' is a command with no connection to the viewer's experience." },
+      A: { good:false, msg:"Algorithm behaviour isn't what makes the phrase effective from a language perspective. The power is in how it connects to the viewer's existing feeling." },
+      B: { good:false, msg:"'Follow me' isn't rude — it's just blunt. The if-version is more natural and considerate, but it's not about rules of etiquette." },
+      D: { good:false, msg:"Making it optional actually increases trust — but that's a side effect, not the main reason. The real power is connecting the action to what the viewer is already feeling." }
+    }
+  };
+  const mcSelected = {};
+  function pickMC(q, letter) {
+    const block = document.getElementById('mc' + q);
+    if (block.dataset.answered) return;
+    mcSelected[q] = letter;
+    block.querySelectorAll('.mc-option').forEach((opt, i) => {
+      opt.classList.toggle('selected', ['A','B','C','D'][i] === letter);
+    });
+    document.getElementById('mc' + q + '-btn').disabled = false;
+  }
+  function checkMC(q) {
+    const block = document.getElementById('mc' + q);
+    if (block.dataset.answered) return;
+    block.dataset.answered = '1';
+    const chosen = mcSelected[q], correct = mcAnswers[q];
+    block.querySelectorAll('.mc-option').forEach((opt, i) => {
+      const l = ['A','B','C','D'][i];
+      opt.classList.remove('selected');
+      if (l === correct) opt.classList.add('correct');
+      else if (l === chosen && chosen !== correct) opt.classList.add('wrong');
+      else opt.classList.add('dim');
+    });
+    const exp = document.getElementById('mc' + q + '-exp');
+    const info = mcExplain[q][chosen] || mcExplain[q][correct];
+    exp.innerHTML = info.msg;
+    exp.className = 'mc-explain show ' + (info.good ? 'good' : 'bad');
+    document.getElementById('mc' + q + '-btn').disabled = true;
+  }
+
+  // ── MATCHING ──
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++;
+        document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  // ── WORD BANK ──
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el;
+    el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+      return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  // ── SPOT THE ERROR ──
+  const errorAnswers = { 1:true, 2:false, 3:true, 4:false, 5:true };
+  const errorExplanations = {
+    1: { fix:true,  msg:'Error: after "I\'ve been working on", use the -ing form directly. Say: <strong>"I\'ve been working on improving my positioning."</strong> — not "to improve".' },
+    2: { fix:false, msg:'Correct! "What I\'m trying to do is read their rotations" is natural and grammatically right.' },
+    3: { fix:true,  msg:'Error: "I\'ve been" needs a verb-ing form. Say: <strong>"I\'ve been streaming for about a year."</strong> — not "I\'ve been stream".' },
+    4: { fix:false, msg:'Correct! A natural and well-structured observation phrase.' },
+    5: { fix:true,  msg:'Error: "I wanting" is incorrect. After "because", use the base form or present simple. Say: <strong>"The reason I\'m doing this is because I want to grow a real audience."</strong>' },
+  };
+  function checkError(num, userSaysError) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userSaysError && userSaysError !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>
