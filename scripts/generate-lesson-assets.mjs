@@ -30,18 +30,34 @@ if (!ELEVENLABS_KEY) throw new Error('Missing ELEVENLABS_API_KEY in environment'
 
 const openai = new OpenAI({ apiKey: OPENAI_KEY });
 
-// ElevenLabs voice IDs — American Conversational voices
+// ElevenLabs voice IDs — full voice roster (always rotate, always speed 0.75)
 const VOICES = {
-  narrator: 'iP95p4xoKVk53GoZ742B', // Chris  — American male conversational (vocabulary)
-  Zara:     'cgSgspJ2msm6clMCkdW9', // Jessica — American female conversational
-  Jax:      'iP95p4xoKVk53GoZ742B', // Chris   — American male conversational
-  Maya:     'cgSgspJ2msm6clMCkdW9', // Jessica — American female conversational
-  Alex:     'iP95p4xoKVk53GoZ742B', // Chris   — American male conversational
-  Sam:      'cgSgspJ2msm6clMCkdW9', // Jessica — American female conversational
-  Coach:    'iP95p4xoKVk53GoZ742B', // Chris   — American male conversational
-  Kai:      'iP95p4xoKVk53GoZ742B', // Chris   — American male conversational
-  Player:   'cgSgspJ2msm6clMCkdW9', // Jessica — American female conversational
+  // Character voices
+  Alex:   'EkK5I93UQWFDigLMpZcX', // JM Husk  — male casual
+  Sam:    'l4Coq6695JDX9xtLqXDE', // Lauren   — female empathetic
+  Kai:    '1SM7GgM6IMuvQlz2BwM3', // Mark     — male
+  Maya:   'aMSt68OGf4xUZAnLpTU8', // Juniper  — female
+  Zara:   'bGz4A6rl9U05wqaE3qt1', // Sally    — female
+  Jax:    'uHoisgHFfUYZ3FULxcdM', // Shannon  — male
+  Coach:  'JBFqnCBsd6RMkjVDRZzb', // George   — male
+  Player: 'Tfv2PGiTliSQ4XSXrJmA', // female general
 };
+
+// Rotation pool for vocab & phrases — alternates male/female across words
+const ROTATION_POOL = [
+  'n8kTUi6dVrplENT9Un56', // male narrator
+  'vCZXQeSML7qJRTiADoTW', // female narrator
+  'EkK5I93UQWFDigLMpZcX', // JM Husk — male
+  'l4Coq6695JDX9xtLqXDE', // Lauren  — female
+  '1SM7GgM6IMuvQlz2BwM3', // Mark    — male
+  'aMSt68OGf4xUZAnLpTU8', // Juniper — female
+  'uHoisgHFfUYZ3FULxcdM', // Shannon — male
+  'bGz4A6rl9U05wqaE3qt1', // Sally   — female
+  'JBFqnCBsd6RMkjVDRZzb', // George  — male
+  'Tfv2PGiTliSQ4XSXrJmA', // female general
+];
+let _rotIdx = 0;
+function nextVoice() { return ROTATION_POOL[_rotIdx++ % ROTATION_POOL.length]; }
 
 const ROOT = path.resolve('.');
 const IMAGES_DIR = path.join(ROOT, 'public', 'images');
@@ -134,16 +150,18 @@ console.log(`   Dialogue lines: ${spec.dialogue.length}`);
 log('Generating vocabulary audio...');
 for (const word of spec.vocabulary) {
   const slug = slugify(word.word);
-  await generateAudio(word.word, VOICES.narrator, path.join(AUDIO_DIR, `${slug}.mp3`));
-  await generateAudio(word.example, VOICES.narrator, path.join(AUDIO_DIR, `${slug}-example.mp3`), 0.75);
+  const voice = nextVoice();
+  await generateAudio(word.word, voice, path.join(AUDIO_DIR, `${slug}.mp3`), 0.75);
+  await generateAudio(word.example, voice, path.join(AUDIO_DIR, `${slug}-example.mp3`), 0.75);
 }
 
 // ── 2. Phrasal verb audio ─────────────────────────────────────────────────────
 log('Generating phrasal verb audio...');
 for (const verb of spec.phrasalVerbs) {
   const slug = slugify(verb.phrase);
-  await generateAudio(verb.phrase, VOICES.narrator, path.join(AUDIO_DIR, `${slug}.mp3`));
-  await generateAudio(verb.example, VOICES.narrator, path.join(AUDIO_DIR, `${slug}-example.mp3`), 0.75);
+  const voice = nextVoice();
+  await generateAudio(verb.phrase, voice, path.join(AUDIO_DIR, `${slug}.mp3`), 0.75);
+  await generateAudio(verb.example, voice, path.join(AUDIO_DIR, `${slug}-example.mp3`), 0.75);
 }
 
 // ── 4. Generate lesson data file ──────────────────────────────────────────────
