@@ -103,6 +103,9 @@
 
     /* IN ACTION */
     .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 20px; }
+    .inaction-img { width: 100%; aspect-ratio: 16/9; background: var(--bg); border: 1.5px dashed var(--border); border-radius: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 20px; gap: 8px; color: var(--muted); font-size: 13px; }
+    .inaction-img svg { width: 36px; height: 36px; opacity: .35; }
+    .inaction-audio { display: flex; align-items: center; gap: 10px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
     .stream-platform { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; }
     .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: .06em; }
     .badge-twitch { background: #f3e8ff; color: #7c3aed; }
@@ -472,6 +475,10 @@
     <div class="section-sub">How the phrases appear across different platforms and formats</div>
 
     <div class="stream-card">
+      <div class="inaction-img">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        Image placeholder — 16:9
+      </div>
       <div class="stream-platform">
         <span class="platform-badge badge-twitch">Twitch</span>
         <span class="stream-title">Live Commentary — Talking to Chat</span>
@@ -480,9 +487,20 @@
         "Hey, welcome to the stream everyone — and welcome to anyone who's new. <span class="hl">Let me quickly explain what's happening</span> — I'm in a ranked game, final four squads, and I'm the last one alive on my team. No pressure. <span class="hl">What I'm trying to do is</span> hold this building until the zone forces them in. <span class="hl">One thing I've noticed is that</span> aggressive players always push too early here — so I'm just going to be patient and make them come to me. <span class="hl">The reason I'm doing this is because</span> I've been grinding this strategy all week and today is the test. And hey — <span class="hl">if you're enjoying the stream, make sure to</span> hit that follow button. It means the world."
       </p>
       <div class="inaction-note">Notice how the streamer uses phrases to <strong>narrate, explain strategy, share reasoning, and call to action</strong> — all in one natural monologue. This is the core skill of streaming in English.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-inaction-01.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to paragraph
+        </button>
+      </div>
     </div>
 
     <div class="stream-card">
+      <div class="inaction-img">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        Image placeholder — 16:9
+      </div>
       <div class="stream-platform">
         <span class="platform-badge badge-youtube">YouTube</span>
         <span class="stream-title">Channel Introduction — First 30 Seconds</span>
@@ -491,9 +509,20 @@
         "Hey, what's up — if you're new here, welcome. <span class="hl">I've been streaming for about</span> a year now, mostly competitive FPS and the occasional ranked grind. <span class="hl">I'm trying to build a community around</span> honest, analytical gameplay — less hype, more learning. <span class="hl">I've been working on improving</span> my content quality over the last few months, and I think you'll notice the difference. <span class="hl">The reason I'm doing this is because</span> I genuinely believe you can learn something from every match — win or lose. If that sounds like your vibe, subscribe and let's go."
       </p>
       <div class="inaction-note">YouTube intros need to establish identity fast. This intro uses 5 of the 8 phrases in under 30 seconds — each one building a picture of who the creator is.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-inaction-02.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to paragraph
+        </button>
+      </div>
     </div>
 
     <div class="stream-card">
+      <div class="inaction-img">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        Image placeholder — 16:9
+      </div>
       <div class="stream-platform">
         <span class="platform-badge badge-tiktok">TikTok / Shorts</span>
         <span class="stream-title">Short-Form Video Caption + Spoken Hook</span>
@@ -507,6 +536,13 @@
         "<span class="hl">Let me quickly explain what's happening</span> — I haven't touched ranked in two weeks, and I'm about to find out if the break actually helped."
       </div>
       <div class="inaction-note">TikTok moves fast — the hook is everything. <strong>"Let me quickly explain"</strong> creates instant curiosity. <strong>"One thing I've noticed"</strong> sets up a shareable insight. These phrases work across formats.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-inaction-03.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to paragraph
+        </button>
+      </div>
     </div>
 
     <div class="lesson-nav">
