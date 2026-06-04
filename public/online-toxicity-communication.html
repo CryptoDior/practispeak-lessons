@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | Online Toxicity &amp; Communication</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #f0fdf4;
+      --white:    #ffffff;
+      --blue:     #16a34a;
+      --blue-lt:  #f0fdf4;
+      --blue-bd:  #bbf7d0;
+      --blue-dk:  #15803d;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+
+    /* NAV */
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+    .nav-back:hover { color: var(--text); }
+
+    /* HERO */
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg, #bbf7d0, #86efac); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; overflow: hidden; }
+    .hero-img img { width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius); }
+
+    /* TABS */
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 20px; font-size: 14px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+
+    /* CONTENT */
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+    /* PHRASE CARDS */
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; }
+    .phrase-img img { width: 100%; height: 100%; object-fit: cover; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 22px; font-weight: 800; line-height: 1.2; margin-bottom: 8px; letter-spacing: -.01em; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 14px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+
+    /* AUDIO PLAYER */
+    .audio-player { display: flex; align-items: center; gap: 10px; margin-top: 4px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn { background: var(--blue-dk); }
+    .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s}    .wave span:nth-child(2){height:8px;animation-delay:.1s}
+    .wave span:nth-child(3){height:14px;animation-delay:.2s}  .wave span:nth-child(4){height:10px;animation-delay:.05s}
+    .wave span:nth-child(5){height:6px;animation-delay:.15s}  .wave span:nth-child(6){height:12px;animation-delay:.25s}
+    .wave span:nth-child(7){height:8px;animation-delay:.1s}   .wave span:nth-child(8){height:5px;animation-delay:.2s}
+    .wave span:nth-child(9){height:9px;animation-delay:.05s}  .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
+
+    /* GRAMMAR NOTE */
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+    .grammar-examples { margin-top: 20px; }
+    .grammar-examples h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 12px; }
+    .grammar-example-list { display: flex; flex-direction: column; gap: 8px; }
+    .grammar-example-item { background: var(--bg); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; }
+    .grammar-example-item em { color: var(--blue-dk); font-style: italic; }
+    .grammar-example-item span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .grammar-warn { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin-top: 16px; line-height: 1.6; }
+
+    /* IN ACTION */
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 20px; }
+    .inaction-img { width: 100%; max-height: 240px; aspect-ratio: 16/9; background: var(--bg); border: 1.5px dashed var(--border); border-radius: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 20px; gap: 8px; color: var(--muted); font-size: 13px; }
+    .inaction-img svg { width: 36px; height: 36px; opacity: .35; }
+    .inaction-img img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
+    .inaction-audio { display: flex; align-items: center; gap: 10px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
+    .stream-platform { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: .06em; }
+    .badge-discord { background: #ede9fe; color: #5b21b6; }
+    .badge-reddit  { background: #fff1f2; color: #e11d48; }
+    .badge-twitch  { background: #f3e8ff; color: #7c3aed; }
+    .stream-title { font-size: 13px; font-weight: 700; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+    .stream-text { font-size: 14px; line-height: 1.8; }
+    .stream-text .hl { color: var(--blue); font-weight: 600; }
+    .inaction-note { background: var(--blue-lt); border: 1px solid var(--blue-bd); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--blue-dk); margin-top: 14px; }
+
+    /* REGISTER */
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); padding: 12px 20px; text-align: left; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 14px 20px; font-size: 14px; border-bottom: 1px solid var(--border); line-height: 1.5; vertical-align: top; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-tag { display: inline-block; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
+    .tag-informal { background: #fef3c7; color: #92400e; }
+    .tag-neutral  { background: #f0f9ff; color: #0369a1; }
+    .tag-formal   { background: #f5f3ff; color: #5b21b6; }
+    .tip-list { display: flex; flex-direction: column; gap: 10px; }
+    .tip { display: flex; align-items: flex-start; gap: 12px; padding: 14px 18px; border-radius: 10px; font-size: 14px; line-height: 1.5; }
+    .tip.red   { background: var(--red-bg);   color: #881337; }
+    .tip.green { background: var(--green-bg); color: #14532d; }
+    .tip.blue  { background: var(--blue-lt);  color: var(--blue-dk); }
+    .tip.amber { background: #fffbeb; color: #78350f; }
+    .tip-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+
+    /* IN CONTEXT */
+    .transcript-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .transcript-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 16px; }
+    .stream-passage { font-size: 14px; line-height: 2; }
+    mark { background: #dcfce7; color: var(--blue-dk); padding: 1px 3px; border-radius: 4px; font-weight: 600; }
+    .questions-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .questions-card h3 { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+    .questions-card .q-intro { font-size: 13px; color: var(--muted); margin-bottom: 24px; }
+    .mc-question { margin-bottom: 28px; }
+    .mc-q-text { font-size: 14px; font-weight: 600; margin-bottom: 12px; line-height: 1.5; }
+    .mc-q-text em { font-style: italic; color: var(--blue-dk); }
+    .mc-options { display: flex; flex-direction: column; gap: 8px; }
+    .mc-option { display: flex; align-items: flex-start; gap: 10px; padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; cursor: pointer; font-size: 13px; line-height: 1.5; transition: all .15s; background: var(--white); }
+    .mc-option:hover { border-color: var(--blue); background: var(--blue-lt); }
+    .mc-option.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .mc-option.correct  { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .mc-option.wrong    { border-color: var(--red);   background: var(--red-bg);   cursor: default; }
+    .mc-option.dim      { opacity: .45; cursor: default; }
+    .mc-letter { width: 22px; height: 22px; border-radius: 50%; background: var(--bg); border: 1.5px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; color: var(--muted); }
+    .mc-option.selected .mc-letter { background: var(--blue); border-color: var(--blue); color: white; }
+    .mc-option.correct .mc-letter  { background: var(--green); border-color: var(--green); color: white; }
+    .mc-option.wrong .mc-letter    { background: var(--red);   border-color: var(--red);   color: white; }
+    .mc-explain { margin-top: 8px; padding: 10px 14px; border-radius: 8px; font-size: 12px; line-height: 1.5; display: none; }
+    .mc-explain.show { display: block; }
+    .mc-explain.good { background: var(--green-bg); color: #14532d; }
+    .mc-explain.bad  { background: var(--red-bg);   color: #881337; }
+    .mc-check-btn { margin-top: 6px; padding: 7px 18px; background: var(--blue); color: white; border: none; border-radius: 8px; font-family: 'Inter',sans-serif; font-size: 13px; font-weight: 600; cursor: pointer; transition: background .15s; }
+    .mc-check-btn:hover { background: var(--blue-dk); }
+    .mc-check-btn:disabled { background: var(--border); color: var(--muted); cursor: default; }
+
+    /* SPEAKING */
+    .speaking-intro { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px 28px; margin-bottom: 24px; font-size: 14px; color: var(--muted); line-height: 1.7; }
+    .speaking-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+    .speaking-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; }
+    .speaking-card-label { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .speaking-card-icon { font-size: 20px; }
+    .speaking-card-tag { font-size: 11px; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: .07em; }
+    .speaking-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+    .speaking-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .speaking-tips { background: var(--blue-lt); border: 1px solid var(--blue-bd); border-radius: var(--radius); padding: 20px 24px; margin-top: 24px; }
+    .speaking-tips h4 { font-size: 13px; font-weight: 700; color: var(--blue-dk); margin-bottom: 10px; }
+    .speaking-tips ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+    .speaking-tips li { font-size: 13px; color: var(--blue-dk); display: flex; align-items: flex-start; gap: 8px; }
+    .speaking-tips li::before { content: "→"; flex-shrink: 0; }
+
+    /* EXERCISES */
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .match-col-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; cursor: pointer; margin-bottom: 8px; transition: all .15s; user-select: none; line-height: 1.4; }
+    .match-item:hover { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); color: var(--blue-dk); font-weight: 600; }
+    .match-item.correct  { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .match-item.wrong    { border-color: var(--red);   background: var(--red-bg);   color: #881337; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--muted); margin-bottom: 16px; }
+    .word-bank { background: var(--bg); border: 1.5px dashed var(--blue-bd); border-radius: 12px; padding: 14px 18px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; transition: all .15s; user-select: none; }
+    .chip:hover { background: var(--blue-lt); border-color: var(--blue); }
+    .chip.used { opacity: .35; pointer-events: none; text-decoration: line-through; }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 190px; padding: 5px 12px; border: 1.5px solid var(--border); border-radius: 8px; background: var(--white); font-size: 13px; color: var(--blue-dk); font-weight: 500; cursor: pointer; transition: all .15s; vertical-align: middle; margin: 0 2px; }
+    .fill-slot.active { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(22,163,74,.12); }
+    .fill-slot.filled { background: var(--blue-lt); border-color: var(--blue-bd); }
+    .fill-slot.correct { background: var(--green-bg); border-color: var(--green); color: #14532d; cursor: default; }
+    .fill-slot.wrong   { background: var(--red-bg);   border-color: var(--red);   color: #881337; }
+    .fill-slot .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; }
+    .fill-slot .slot-clear { margin-left: 6px; font-size: 10px; color: var(--muted); background: none; border: none; cursor: pointer; padding: 0; line-height: 1; }
+    .fill-slot .slot-clear:hover { color: var(--red); }
+    .fill-item { margin-bottom: 18px; font-size: 14px; line-height: 2.2; }
+    .fill-hint { font-size: 12px; color: var(--muted); font-style: italic; margin-left: 4px; }
+    .fill-feedback { font-size: 12px; margin-left: 6px; font-weight: 600; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong   { color: var(--red); }
+    .error-item { border: 1.5px solid var(--border); border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; font-size: 14px; }
+    .error-sentence { font-style: italic; margin-bottom: 10px; }
+    .error-btns { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .error-btn { padding: 6px 14px; border-radius: 8px; border: 1.5px solid var(--border); background: none; font-family: 'Inter',sans-serif; font-size: 12px; font-weight: 600; cursor: pointer; transition: all .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .error-btn.wrong-ans   { border-color: var(--red);   background: var(--red-bg);   color: #881337; cursor: default; }
+    .error-feedback { font-size: 12px; margin-top: 8px; padding: 8px 12px; border-radius: 8px; display: none; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #881337; }
+    .check-btn { margin-top: 20px; padding: 10px 24px; background: var(--blue); color: white; border: none; border-radius: 10px; font-family: 'Inter',sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: background .15s; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 8px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; padding: 16px 0; border-bottom: 1px solid var(--border); font-size: 14px; line-height: 1.6; }
+    .disc-item:last-child { border-bottom: none; padding-bottom: 0; }
+    .disc-num { width: 30px; height: 30px; background: var(--bg); border: 1.5px solid var(--blue-bd); color: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; flex-shrink: 0; }
+    .lesson-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--border); }
+    .lesson-nav-btn { padding: 11px 24px; border-radius: 10px; font-family: 'Inter',sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: all .15s; display: flex; align-items: center; gap: 8px; }
+    .btn-prev { background: var(--white); border: 1.5px solid var(--border); color: var(--text); }
+    .btn-prev:hover { border-color: var(--blue); color: var(--blue); }
+    .btn-next { background: var(--blue); border: 1.5px solid var(--blue); color: white; }
+    .btn-next:hover { background: var(--blue-dk); border-color: var(--blue-dk); }
+    .btn-prev:disabled, .btn-next:disabled { opacity: .4; cursor: default; pointer-events: none; }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; padding: 24px 16px 0; }
+      .hero-img { display: none; }
+      .content { padding: 24px 16px 60px; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .phrase-img { min-height: 180px; }
+      .grammar-cols { grid-template-columns: 1fr; }
+      .speaking-cards { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-logo"><div class="nav-logo-icon">P</div>Practispeak</div>
+  <a href="/" class="nav-back">← All Lessons</a>
+</nav>
+
+<div class="hero">
+  <div>
+    <div class="hero-badge">B1-B2</div>
+    <h1>Online Toxicity &amp; Communication</h1>
+    <p class="hero-sub">Handle conflict, argue your point, and keep the game positive — in real English</p>
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <span class="progress-pct" id="progressPct">0%</span>
+    </div>
+  </div>
+  <div class="hero-img">🛡️</div>
+</div>
+
+<div class="tab-nav-wrap">
+  <div class="tab-nav">
+    <button class="tab-btn active" data-tab="phrases">Phrases</button>
+    <button class="tab-btn" data-tab="inaction">In Action</button>
+    <button class="tab-btn" data-tab="register">Register</button>
+    <button class="tab-btn" data-tab="incontext">In Context</button>
+    <button class="tab-btn" data-tab="speaking">Speaking</button>
+    <button class="tab-btn" data-tab="exercises">Exercises</button>
+  </div>
+</div>
+
+<div class="content">
+
+  <!-- ── PHRASES ── -->
+  <section class="section active" id="tab-phrases">
+    <div class="section-title">Phrases</div>
+    <div class="section-sub">8 phrases for handling conflict, making arguments, and keeping it positive</div>
+
+    <!-- 01 -->
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#166534)">🧑‍💼</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">"If I were you, I would…"</div>
+        <span class="phrase-tag">Giving Advice</span>
+        <p class="phrase-def">Use this to give advice in a gentle, hypothetical way — you're imagining yourself in their position. It softens the suggestion so it doesn't sound like a command, even in a heated gaming moment.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"If I were you, I would just mute them and focus on the game — arguing in chat never helps anyone."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/toxicity-01-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
+      </div>
+    </div>
+
+    <!-- 02 -->
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e3a5f,#1e40af)">💡</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">"It would help if…"</div>
+        <span class="phrase-tag">Making a Suggestion</span>
+        <p class="phrase-def">A diplomatic way to say what could improve a situation — without pointing blame at one person. The second conditional makes it feel like an observation rather than a demand. Useful when the whole team needs to change something.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"It would help if everyone used voice chat — we keep missing callouts because nobody is communicating."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/toxicity-02-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
+      </div>
+    </div>
+
+    <!-- 03 -->
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#431407,#7c2d12)">🔄</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">"What if we just…"</div>
+        <span class="phrase-tag">Redirecting the Conversation</span>
+        <p class="phrase-def">Use this to propose an alternative and shift focus away from the conflict. It's a de-escalation tool — you're not telling anyone they're wrong, you're simply pointing toward something more productive.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"What if we just reset and focus on the next round instead of blaming each other for that loss?"</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/toxicity-03-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
+      </div>
+    </div>
+
+    <!-- 04 -->
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1c1917,#292524)">🤝</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">"I understand where you're coming from, but…"</div>
+        <span class="phrase-tag">Acknowledging &amp; Countering</span>
+        <p class="phrase-def">The foundation of respectful debate — acknowledge someone's point before you disagree. It shows you listened, even when you don't agree. This phrase immediately lowers the temperature in any argument.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I understand where you're coming from, but muting is better than reporting here — they didn't actually break any rules."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/toxicity-04-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
+      </div>
+    </div>
+
+    <!-- 05 -->
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0c4a6e,#075985)">🗣️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">"In my opinion, the real issue is…"</div>
+        <span class="phrase-tag">Stating Your View</span>
+        <p class="phrase-def">Introduces your argument clearly and signals you're sharing a personal view — not stating a fact. The word "real" adds emphasis without aggression. Essential in any debate about gaming culture, bans, or team behaviour.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"In my opinion, the real issue is that toxic behaviour goes unchallenged — people stay silent and it gets worse."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/toxicity-05-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
+      </div>
+    </div>
+
+    <!-- 06 -->
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#701a75)">🔍</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">"The problem with that is…"</div>
+        <span class="phrase-tag">Challenging an Argument</span>
+        <p class="phrase-def">Use this to find a flaw in someone else's argument. It sounds direct but not aggressive — you're criticising the idea, not the person. A key debate skill that works in gaming communities, forums, and voice chat.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The problem with that is you can't just ban every player who tilts — half the ranked lobby would be gone."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/toxicity-06-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
+      </div>
+    </div>
+
+    <!-- 07 -->
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0f172a,#1e293b)">⚖️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">"I'd rather… than…"</div>
+        <span class="phrase-tag">Expressing Preference</span>
+        <p class="phrase-def">Compares two options and makes your choice clear. Strong in debates because it shows you've considered both sides before deciding. In gaming, it's often used to explain a play style or stance on toxicity.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I'd rather lose with a respectful team than win with toxic players — the experience matters more than the rank."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/toxicity-07-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
+      </div>
+    </div>
+
+    <!-- 08 -->
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#172554,#1e3a8a)">🌐</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">"If everyone did that, …would…"</div>
+        <span class="phrase-tag">Making a Hypothetical</span>
+        <p class="phrase-def">Use the second conditional to imagine what would happen if a behaviour became widespread. Powerful in debates because it shows the bigger picture — moving from one person's actions to the impact on the whole community.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"If everyone flamed their teammates after a mistake, ranked would be unplayable — nobody would want to solo queue."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/toxicity-08-example.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to example
+        </button>
+      </div>
+    </div>
+
+    <!-- GRAMMAR NOTE -->
+    <div class="grammar-note">
+      <h3>💡 Grammar Focus — The Second Conditional</h3>
+      <p>The second conditional is about <strong>hypothetical situations</strong> — things that are imaginary, unlikely, or not currently true. It's NOT about the past, even though it uses past tense verbs. This is one of the most common points of confusion.</p>
+      <div class="grammar-cols">
+        <div class="grammar-col">
+          <h4>The Pattern</h4>
+          <div class="grammar-row">Structure: <code>If + past simple, would + infinitive</code></div>
+          <div class="grammar-row"><code>"If I were you, I would mute them."</code></div>
+          <div class="grammar-row"><code>"If everyone communicated, ranked would be better."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">The IF clause sets up the imaginary condition. The WOULD clause gives the imaginary result.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>"Were" vs "Was" — the rule</h4>
+          <div class="grammar-row">Formally: use <code>were</code> for ALL subjects in second conditionals.</div>
+          <div class="grammar-row">✓ <code>"If I were in your position…"</code></div>
+          <div class="grammar-row">✓ <code>"If she were less toxic…"</code></div>
+          <div class="grammar-row">✓ <code>"If it were that simple…"</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">"Was" is common in casual speech, but "were" is always safe.</div>
+        </div>
+      </div>
+
+      <div class="grammar-examples">
+        <h4>More gaming examples — study the pattern</h4>
+        <div class="grammar-example-list">
+          <div class="grammar-example-item"><em>"If toxic players were banned faster, the community would grow."</em> <span>→ imaginary improvement to the system</span></div>
+          <div class="grammar-example-item"><em>"If I were a pro player, I would practise comms before mechanics."</em> <span>→ imagining a different version of yourself</span></div>
+          <div class="grammar-example-item"><em>"If the matchmaking were better, games wouldn't feel so unbalanced."</em> <span>→ criticising a system hypothetically</span></div>
+          <div class="grammar-example-item"><em>"If nobody reported toxic behaviour, things would get much worse."</em> <span>→ making a community argument</span></div>
+          <div class="grammar-example-item"><em>"If you weren't so focused on rank, you would enjoy the game more."</em> <span>→ giving honest advice to a friend</span></div>
+          <div class="grammar-example-item"><em>"If the developers listened to players, ranked would be completely different."</em> <span>→ a hypothetical about game design</span></div>
+          <div class="grammar-example-item"><em>"It would be a much better game if people used voice chat properly."</em> <span>→ reversed order (result first, condition second — both are correct)</span></div>
+        </div>
+      </div>
+
+      <div class="grammar-warn">
+        ⚠️ <strong>Don't confuse with the first conditional.</strong> First conditional = real possibility: <em>"If you report them, they will get banned."</em> — this could actually happen. Second conditional = hypothetical: <em>"If you reported everyone who tilted, the servers would be empty."</em> — this is imaginary, to make a point.
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" disabled>← Previous</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('inaction')">In Action →</button>
+    </div>
+  </section>
+
+  <!-- ── IN ACTION ── -->
+  <section class="section" id="tab-inaction">
+    <div class="section-title">In Action</div>
+    <div class="section-sub">How the phrases appear across different gaming contexts</div>
+
+    <!-- DISCORD -->
+    <div class="stream-card">
+      <div class="inaction-img">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        Image placeholder — 16:9
+      </div>
+      <div class="stream-platform">
+        <span class="platform-badge badge-discord">Discord</span>
+        <span class="stream-title">Post-Match Team Discussion</span>
+      </div>
+      <p class="stream-text">
+        "Look, I get that we're all frustrated right now. <span class="hl">In my opinion, the real issue is</span> that we stop communicating the moment we start losing — and that's when things get toxic. <span class="hl">If I were you</span>, I wouldn't point fingers at one player. <span class="hl">It would help if</span> we talked about what went wrong strategically instead of personally. <span class="hl">What if we just</span> took five minutes, reset, and talked about the next game like a proper team? <span class="hl">I'd rather</span> lose five games with good comms <span class="hl">than</span> win one with everyone flaming each other."
+      </p>
+      <div class="inaction-note">Notice how the speaker uses multiple phrases in sequence to build an argument — acknowledging frustration first, then redirecting, then stating a clear preference. This is how respectful leadership sounds in practice.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/toxicity-inaction-01.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to paragraph
+        </button>
+      </div>
+    </div>
+
+    <!-- REDDIT -->
+    <div class="stream-card">
+      <div class="inaction-img">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        Image placeholder — 16:9
+      </div>
+      <div class="stream-platform">
+        <span class="platform-badge badge-reddit">Reddit</span>
+        <span class="stream-title">Community Debate — Should Toxic Players Be Permanently Banned?</span>
+      </div>
+      <p class="stream-text">
+        "I've seen this argument a hundred times and I always have the same response. <span class="hl">I understand where you're coming from</span> — permanent bans feel like the right answer when someone ruins your game. <span class="hl">But the problem with that is</span> defining 'toxic' is incredibly subjective. One player's intense competitiveness is another player's harassment. <span class="hl">In my opinion, the real issue is</span> not the players themselves — it's the lack of clear, enforced community standards. <span class="hl">If everyone who got frustrated were banned</span>, the ranked lobbies <span class="hl">would</span> be empty within a week. Better systems, not harsher bans — that's the actual solution."
+      </p>
+      <div class="inaction-note">Reddit-style debate uses longer sentences and more formal language than Discord chat. Notice how the writer uses <strong>"I understand where you're coming from, but…"</strong> to appear fair before delivering a counter-argument — a classic debate move.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/toxicity-inaction-02.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to paragraph
+        </button>
+      </div>
+    </div>
+
+    <!-- TWITCH -->
+    <div class="stream-card">
+      <div class="inaction-img">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        Image placeholder — 16:9
+      </div>
+      <div class="stream-platform">
+        <span class="platform-badge badge-twitch">Twitch</span>
+        <span class="stream-title">Live — Streamer Responding to Toxic Chat</span>
+      </div>
+      <p class="stream-text">
+        "Okay, I see what's happening in chat right now. To the person saying I played badly — <span class="hl">I understand where you're coming from</span>, I made a mistake, I know. But <span class="hl">the problem with that kind of comment is</span> it doesn't help me or anyone watching learn anything. <span class="hl">If I were you</span>, I'd save that energy for something constructive. <span class="hl">What if we just</span> talked about what the better play was? I'm genuinely interested. Because <span class="hl">if everyone in this chat made it a toxic space</span>, it <span class="hl">would</span> just become another stream nobody wants to be in. And I don't want that — this community is better than that."
+      </p>
+      <div class="inaction-note">Streamers handle toxicity live, in real time, in front of an audience. Notice how this streamer uses the phrases to stay calm, acknowledge the comment, redirect constructively, and make a community appeal — all without sounding defensive.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/toxicity-inaction-03.mp3')">
+          <div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div>
+          <div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          Listen to paragraph
+        </button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('phrases')">← Phrases</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('register')">Register →</button>
+    </div>
+  </section>
+
+  <!-- ── REGISTER ── -->
+  <section class="section" id="tab-register">
+    <div class="section-title">Register</div>
+    <div class="section-sub">How the same idea sounds across different contexts and levels of formality</div>
+
+    <div class="register-table">
+      <table>
+        <thead>
+          <tr><th>Context</th><th>Register</th><th>Example</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>In-game chat (mid-match)</strong><br><span style="font-size:12px;color:var(--muted)">Instant reaction, high emotion</span></td>
+            <td><span class="register-tag tag-informal">Informal / Raw</span></td>
+            <td><em>"bro just mute them wtf why are you still arguing"</em></td>
+          </tr>
+          <tr>
+            <td><strong>Voice chat (team debrief)</strong><br><span style="font-size:12px;color:var(--muted)">Post-match, still emotional</span></td>
+            <td><span class="register-tag tag-informal">Informal / Direct</span></td>
+            <td><em>"Look, if I were you I'd just let it go — it would help if we focused on what we can actually control."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Discord server (team channel)</strong><br><span style="font-size:12px;color:var(--muted)">Written, more considered</span></td>
+            <td><span class="register-tag tag-neutral">Neutral / Constructive</span></td>
+            <td><em>"I understand where you're coming from, but in my opinion the real issue is how we communicate under pressure."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Gaming forum / Reddit</strong><br><span style="font-size:12px;color:var(--muted)">Public debate, wider audience</span></td>
+            <td><span class="register-tag tag-neutral">Neutral / Analytical</span></td>
+            <td><em>"The problem with permanent bans is the lack of clear standards. If the system were more transparent, enforcement would be fairer."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Formal report / Complaint</strong><br><span style="font-size:12px;color:var(--muted)">Platform support, official channel</span></td>
+            <td><span class="register-tag tag-formal">Formal / Professional</span></td>
+            <td><em>"I would like to report repeated harassment in my match history. The behaviour described would constitute a violation of community guidelines."</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tip-list">
+      <div class="tip green">
+        <span class="tip-icon">✅</span>
+        <span>All 8 phrases work in voice chat and written discussion. They're conversational enough to sound natural when speaking, but structured enough for a forum argument.</span>
+      </div>
+      <div class="tip blue">
+        <span class="tip-icon">💡</span>
+        <span><strong>"I understand where you're coming from, but…"</strong> is your most powerful tool in any debate. It disarms the other person before you counter — they feel heard, so they're more open to listening back.</span>
+      </div>
+      <div class="tip red">
+        <span class="tip-icon">❌</span>
+        <span>In a formal report or complaint, avoid second conditionals — they sound too hypothetical. Use <em>"would constitute"</em> or <em>"the behaviour described"</em> rather than <em>"if they did this, it would be wrong."</em></span>
+      </div>
+      <div class="tip amber">
+        <span class="tip-icon">⚠️</span>
+        <span><strong>Tone matters more than vocabulary.</strong> "The problem with that is…" sounds analytical in a Reddit thread but can sound aggressive in a mid-match voice call. Read the room before using challenging phrases.</span>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('inaction')">← In Action</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('incontext')">In Context →</button>
+    </div>
+  </section>
+
+  <!-- ── IN CONTEXT ── -->
+  <section class="section" id="tab-incontext">
+    <div class="section-title">In Context</div>
+    <div class="section-sub">Read the debate thread — highlighted phrases are from this lesson</div>
+
+    <div class="transcript-card">
+      <div class="transcript-title">Reddit Thread — "Toxic players ruined my ranked experience. What's the solution?"</div>
+      <p class="stream-passage">
+        <strong>Original post:</strong> "I've had three games in a row where a teammate flamed everyone from minute one. The developers do nothing. I'm done."<br><br>
+        <strong>Reply 1 (Top comment):</strong> "<mark>I understand where you're coming from</mark> — three bad games in a row is genuinely exhausting. <mark>But the problem with that</mark> framing is that it puts all the responsibility on the developers. They can only do so much. <mark>In my opinion, the real issue is</mark> that players don't use the tools they already have — mute, block, report. <mark>If I were you</mark>, I would build a habit of muting on the first sign of trouble. It completely changes the experience."<br><br>
+        <strong>Reply 2:</strong> "<mark>I understand where you're coming from</mark> too, and both of you make fair points. <mark>What if we just</mark> acknowledged that it's a systemic problem AND an individual one? <mark>It would help if</mark> developers made the report system more visible after matches — most players don't even know how to use it properly. <mark>If everyone who experienced toxicity actually reported it</mark>, the data <mark>would</mark> force the developers to act."<br><br>
+        <strong>Reply 3:</strong> "Hard disagree with bans being the answer. <mark>If you banned every player who tilted</mark>, the ranked queues <mark>would be</mark> empty in a week. <mark>I'd rather</mark> see better matchmaking and mental health resources in-game <mark>than</mark> another wave of vague bans that hit the wrong people."
+      </p>
+    </div>
+
+    <div class="questions-card">
+      <h3>Comprehension Questions</h3>
+      <p class="q-intro">Think about <em>why</em> each phrase is used — not just what it means.</p>
+
+      <!-- Q1 -->
+      <div class="mc-question" id="mc1">
+        <div class="mc-q-text">1. Reply 1 opens with <em>"I understand where you're coming from."</em> Why does the writer use this phrase before disagreeing?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(1,'A')"><div class="mc-letter">A</div>To show that they agree with the original poster completely</div>
+          <div class="mc-option" onclick="pickMC(1,'B')"><div class="mc-letter">B</div>To lower defensiveness — the poster feels heard before the counter-argument lands</div>
+          <div class="mc-option" onclick="pickMC(1,'C')"><div class="mc-letter">C</div>Because the phrase is required at the start of every debate reply</div>
+          <div class="mc-option" onclick="pickMC(1,'D')"><div class="mc-letter">D</div>To say that the original poster's experience is unusual and rare</div>
+        </div>
+        <div class="mc-explain" id="mc1-exp"></div>
+        <button class="mc-check-btn" id="mc1-btn" onclick="checkMC(1)" disabled>Check</button>
+      </div>
+
+      <!-- Q2 -->
+      <div class="mc-question" id="mc2">
+        <div class="mc-q-text">2. Reply 2 says <em>"What if we just acknowledged that it's a systemic problem AND an individual one?"</em> What is this phrase doing in the debate?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(2,'A')"><div class="mc-letter">A</div>Ending the debate by declaring both sides wrong</div>
+          <div class="mc-option" onclick="pickMC(2,'B')"><div class="mc-letter">B</div>Agreeing with Reply 1 and ignoring the original poster</div>
+          <div class="mc-option" onclick="pickMC(2,'C')"><div class="mc-letter">C</div>Bridging the two sides — finding a middle ground without dismissing either argument</div>
+          <div class="mc-option" onclick="pickMC(2,'D')"><div class="mc-letter">D</div>Asking a genuine question about game design</div>
+        </div>
+        <div class="mc-explain" id="mc2-exp"></div>
+        <button class="mc-check-btn" id="mc2-btn" onclick="checkMC(2)" disabled>Check</button>
+      </div>
+
+      <!-- Q3 -->
+      <div class="mc-question" id="mc3">
+        <div class="mc-q-text">3. Reply 2 uses <em>"If everyone who experienced toxicity actually reported it, the data would force the developers to act."</em> Why is this second conditional, not first conditional?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(3,'A')"><div class="mc-letter">A</div>Because it happened in the past</div>
+          <div class="mc-option" onclick="pickMC(3,'B')"><div class="mc-letter">B</div>Because the writer believes everyone reporting is unlikely — it's a hypothetical to make a point</div>
+          <div class="mc-option" onclick="pickMC(3,'C')"><div class="mc-letter">C</div>Because "would" is more polite than "will"</div>
+          <div class="mc-option" onclick="pickMC(3,'D')"><div class="mc-letter">D</div>Because the writer is giving advice to one person</div>
+        </div>
+        <div class="mc-explain" id="mc3-exp"></div>
+        <button class="mc-check-btn" id="mc3-btn" onclick="checkMC(3)" disabled>Check</button>
+      </div>
+
+      <!-- Q4 -->
+      <div class="mc-question" id="mc4">
+        <div class="mc-q-text">4. Reply 3 says <em>"I'd rather see better matchmaking and mental health resources than another wave of vague bans."</em> What makes this phrase effective in a debate?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(4,'A')"><div class="mc-letter">A</div>It uses strong insults to make the other side look wrong</div>
+          <div class="mc-option" onclick="pickMC(4,'B')"><div class="mc-letter">B</div>It avoids giving a clear opinion so nobody can disagree</div>
+          <div class="mc-option" onclick="pickMC(4,'C')"><div class="mc-letter">C</div>It presents a clear alternative — showing the writer has thought about both options before choosing one</div>
+          <div class="mc-option" onclick="pickMC(4,'D')"><div class="mc-letter">D</div>It changes the topic to avoid the main argument</div>
+        </div>
+        <div class="mc-explain" id="mc4-exp"></div>
+        <button class="mc-check-btn" id="mc4-btn" onclick="checkMC(4)" disabled>Check</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('register')">← Register</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('speaking')">Speaking →</button>
+    </div>
+  </section>
+
+  <!-- ── SPEAKING ── -->
+  <section class="section" id="tab-speaking">
+    <div class="section-title">Speaking</div>
+    <div class="section-sub">Choose a scenario — speak, debate, or write and present</div>
+
+    <div class="speaking-intro">
+      Pick one option below. You have <strong>3–4 minutes</strong> to prepare and speak or write. Try to use at least <strong>4 phrases</strong> from the lesson naturally — including at least <strong>one second conditional</strong>. Don't read from the list — just think and talk.
+    </div>
+
+    <div class="speaking-cards">
+      <div class="speaking-card">
+        <div class="speaking-card-label">
+          <span class="speaking-card-icon">🎙️</span>
+          <span class="speaking-card-tag">Option A</span>
+        </div>
+        <h3>Calm the Team</h3>
+        <p>After a bad ranked loss, one teammate is blaming everyone. You're the team captain. Speak for 60–90 seconds — de-escalate the situation, redirect the team, and set the tone for the next game. Use the phrases naturally.</p>
+      </div>
+      <div class="speaking-card">
+        <div class="speaking-card-label">
+          <span class="speaking-card-icon">⚖️</span>
+          <span class="speaking-card-tag">Option B</span>
+        </div>
+        <h3>Debate: Permanent Bans</h3>
+        <p>Your partner argues: <em>"Toxic players should be permanently banned after three reports."</em> Disagree and build a counter-argument using at least three phrases from the lesson. Then swap — your partner counters your position.</p>
+      </div>
+      <div class="speaking-card">
+        <div class="speaking-card-label">
+          <span class="speaking-card-icon">✍️</span>
+          <span class="speaking-card-tag">Option C</span>
+        </div>
+        <h3>Write a Reply</h3>
+        <p>Someone in your team's Discord writes: <em>"If you don't carry, you deserve to get flamed."</em> Write a 4–5 sentence reply using the scaffold below. Then read it aloud to your partner.</p>
+      </div>
+    </div>
+
+    <div style="background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px 28px;margin-top:8px;">
+      <h4 style="font-size:14px;font-weight:700;margin-bottom:16px;">✍️ Reply Scaffold — Option C</h4>
+      <div style="display:flex;gap:12px;margin-bottom:14px;align-items:flex-start;">
+        <div style="width:24px;height:24px;border-radius:50%;background:var(--blue);color:white;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;margin-top:1px;">1</div>
+        <div style="font-size:13px;color:var(--muted);line-height:1.6;"><strong style="color:var(--text);">Acknowledge their frustration</strong> — show you understand why they feel that way.<br><em>e.g. "I understand where you're coming from — losing feels awful when…"</em></div>
+      </div>
+      <div style="display:flex;gap:12px;margin-bottom:14px;align-items:flex-start;">
+        <div style="width:24px;height:24px;border-radius:50%;background:var(--blue);color:white;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;margin-top:1px;">2</div>
+        <div style="font-size:13px;color:var(--muted);line-height:1.6;"><strong style="color:var(--text);">Challenge the argument</strong> — find one flaw in their logic.<br><em>e.g. "The problem with that is…"</em></div>
+      </div>
+      <div style="display:flex;gap:12px;margin-bottom:14px;align-items:flex-start;">
+        <div style="width:24px;height:24px;border-radius:50%;background:var(--blue);color:white;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;margin-top:1px;">3</div>
+        <div style="font-size:13px;color:var(--muted);line-height:1.6;"><strong style="color:var(--text);">Use a second conditional</strong> — imagine what the community would look like if everyone thought this way.<br><em>e.g. "If everyone flamed teammates who struggled, the game would…"</em></div>
+      </div>
+      <div style="display:flex;gap:12px;align-items:flex-start;">
+        <div style="width:24px;height:24px;border-radius:50%;background:var(--blue);color:white;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;margin-top:1px;">4</div>
+        <div style="font-size:13px;color:var(--muted);line-height:1.6;"><strong style="color:var(--text);">State your preference</strong> — close with what you'd rather see.<br><em>e.g. "I'd rather… than…"</em></div>
+      </div>
+    </div>
+
+    <div class="speaking-tips">
+      <h4>Useful reminders while you speak or write</h4>
+      <ul>
+        <li>Always acknowledge before you counter — it makes your argument stronger, not weaker.</li>
+        <li>Use <em>"In my opinion, the real issue is…"</em> when you want to reframe the whole debate around your point.</li>
+        <li>Second conditionals signal that you've thought beyond the immediate situation — use them when making bigger-picture arguments.</li>
+        <li><em>"I'd rather… than…"</em> is powerful because it shows you considered both options before choosing. It sounds balanced and confident at the same time.</li>
+      </ul>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('incontext')">← In Context</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('exercises')">Exercises →</button>
+    </div>
+  </section>
+
+  <!-- ── EXERCISES ── -->
+  <section class="section" id="tab-exercises">
+    <div class="section-title">Exercises</div>
+    <div class="section-sub">Complete all three exercises, then discuss the questions</div>
+
+    <!-- EX 1 — MATCHING -->
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 1</div>
+      <h3>Match the Phrase to Its Function</h3>
+      <p class="ex-desc">Click a phrase on the left, then click the matching function on the right.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Phrases</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">"If I were you, I would just mute them."</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">"I understand where you're coming from, but…"</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">"In my opinion, the real issue is…"</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">"The problem with that is…"</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">"I'd rather lose with respect than win with toxicity."</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">"If everyone did that, ranked would be unplayable."</div>
+        </div>
+        <div>
+          <div class="match-col-label">Functions</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">Introducing your main argument</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">Giving hypothetical advice</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">Comparing options and stating a preference</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">Acknowledging before countering</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">Making a community-scale hypothetical</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">Finding a flaw in an argument</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EX 2 — WORD BANK -->
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 2</div>
+      <h3>Complete the Sentence</h3>
+      <p class="ex-desc">Click a phrase from the bank, then click the blank where it belongs.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Phrase bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="It would help if" onclick="selectChip(this)">It would help if</div>
+          <div class="chip" data-phrase="What if we just" onclick="selectChip(this)">What if we just</div>
+          <div class="chip" data-phrase="The problem with that is" onclick="selectChip(this)">The problem with that is</div>
+          <div class="chip" data-phrase="I'd rather" onclick="selectChip(this)">I'd rather</div>
+          <div class="chip" data-phrase="If everyone communicated better" onclick="selectChip(this)">If everyone communicated better</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">1.</span>
+        <span class="fill-slot" id="fs1" data-answer="It would help if" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+        players reported toxic behaviour instead of just muting.
+        <em class="fill-hint">(diplomatic suggestion)</em>
+        <span class="fill-feedback" id="fb1"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">2.</span>
+        <span class="fill-slot" id="fs2" data-answer="What if we just" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+        agreed on a no-flame rule at the start of every session?
+        <em class="fill-hint">(proposing an alternative)</em>
+        <span class="fill-feedback" id="fb2"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">3.</span>
+        <span class="fill-slot" id="fs3" data-answer="The problem with that is" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+        you can't punish someone for being frustrated — only for their actions.
+        <em class="fill-hint">(finding a flaw)</em>
+        <span class="fill-feedback" id="fb3"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">4.</span>
+        <span class="fill-slot" id="fs4" data-answer="I'd rather" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+        take a break and come back fresh than keep playing on tilt.
+        <em class="fill-hint">(expressing preference)</em>
+        <span class="fill-feedback" id="fb4"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">5.</span>
+        <span class="fill-slot" id="fs5" data-answer="If everyone communicated better" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+        , ranked would feel completely different.
+        <em class="fill-hint">(second conditional hypothesis)</em>
+        <span class="fill-feedback" id="fb5"></span>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Answers</button>
+    </div>
+
+    <!-- EX 3 — SPOT THE ERROR -->
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 3</div>
+      <h3>Correct or Incorrect?</h3>
+      <p class="ex-desc">Each sentence may have a second conditional error. Is it correct or not?</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"If I was you, I would just ignore the comment."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(1,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"If everyone will report toxic players, the game would improve."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(2,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"If the matchmaking were better, games would feel more balanced."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(3,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"I'd rather to lose with good teammates than win with toxic ones."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(4,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"If toxic behaviour went unchallenged, the whole community would suffer."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(5,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <!-- DISCUSSION -->
+    <div class="disc-card">
+      <h3>🗣 Discussion Questions</h3>
+      <div class="disc-item">
+        <div class="disc-num">1</div>
+        <span>Have you ever experienced toxic behaviour in a game? How did you respond — and looking back, what would you do differently?</span>
+      </div>
+      <div class="disc-item">
+        <div class="disc-num">2</div>
+        <span>Some players argue that toxicity is just part of competitive gaming. Do you agree? Use at least two phrases from the lesson in your answer.</span>
+      </div>
+      <div class="disc-item">
+        <div class="disc-num">3</div>
+        <span>If you could redesign one part of a game's reporting or communication system, what would you change — and why?</span>
+      </div>
+      <div class="disc-item">
+        <div class="disc-num">4</div>
+        <span>Think about the Reddit debate in the In Context section. Which reply made the strongest argument? What made it effective?</span>
+      </div>
+      <div class="disc-item">
+        <div class="disc-num">5</div>
+        <span>Is it the community's responsibility or the developers' responsibility to fix toxicity in gaming? Build an argument using the second conditional and at least three phrases from this lesson.</span>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('speaking')">← Speaking</button>
+      <button class="lesson-nav-btn btn-next" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  // ── TABS ──
+  const tabs = ['phrases','inaction','register','incontext','speaking','exercises'];
+  const completedTabs = new Set();
+
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  // ── AUDIO ──
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
+    }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
+  }
+
+  // ── MC ──
+  const mcAnswers = { 1:'B', 2:'C', 3:'B', 4:'C' };
+  const mcExplain = {
+    1: {
+      B: { good:true,  msg:"Correct! This is the 'acknowledge first' technique. By validating the poster's feelings before disagreeing, the writer makes their counter-argument much easier to receive. The reader doesn't feel dismissed." },
+      A: { good:false, msg:"Not quite — the writer immediately goes on to disagree with the original poster's framing. Acknowledging is NOT the same as agreeing." },
+      C: { good:false, msg:"It's not a rule — it's a strategic choice. The writer uses it deliberately to seem fair and make the counter-argument land more effectively." },
+      D: { good:false, msg:"The phrase doesn't comment on whether the experience is common or rare. It simply validates the emotional reality before moving on." }
+    },
+    2: {
+      C: { good:true,  msg:"Correct! Reply 2 is playing mediator — finding a third position that incorporates both Reply 1 and the original post. 'What if we just…' is ideal for proposing a bridge between two sides." },
+      A: { good:false, msg:"The writer doesn't end the debate or declare anyone wrong — they offer a synthesis that tries to include everyone." },
+      B: { good:false, msg:"Reply 2 explicitly says 'both of you make fair points' — it's building on Reply 1, not ignoring the original poster." },
+      D: { good:false, msg:"It's not a genuine question — it's a rhetorical move to propose a middle-ground position. The answer to 'what if we acknowledged' is implied: yes, we should." }
+    },
+    3: {
+      B: { good:true,  msg:"Correct! The writer knows that 'everyone who experienced toxicity' reporting is not realistic — most players don't report. It's a hypothetical used to make a point about data and developer accountability, not a real expectation." },
+      A: { good:false, msg:"Second conditionals don't refer to the past — they refer to hypothetical present or general situations. This is about an imagined current reality." },
+      C: { good:false, msg:"'Would' vs 'will' is about hypothetical vs real, not politeness. First conditional uses 'will' for things likely to happen." },
+      D: { good:false, msg:"'If I were you' is advice to one person. This conditional addresses everyone collectively — a community-scale hypothesis." }
+    },
+    4: {
+      C: { good:true,  msg:"Correct! 'I'd rather X than Y' forces the writer to name both options clearly. It signals they've weighed both sides, which makes their preference sound reasoned rather than reactionary — a strong debate technique." },
+      A: { good:false, msg:"The phrase contains no insults — it's one of the most measured phrases in the lesson. It's effective precisely because it stays civil." },
+      B: { good:false, msg:"'I'd rather' is one of the clearest opinion phrases in English — it states a preference directly. There's no ambiguity about the writer's position." },
+      D: { good:false, msg:"The writer is still addressing the same topic — they're just proposing an alternative path rather than accepting or rejecting the original argument." }
+    }
+  };
+  const mcSelected = {};
+  function pickMC(q, letter) {
+    const block = document.getElementById('mc' + q);
+    if (block.dataset.answered) return;
+    mcSelected[q] = letter;
+    block.querySelectorAll('.mc-option').forEach((opt, i) => {
+      opt.classList.toggle('selected', ['A','B','C','D'][i] === letter);
+    });
+    document.getElementById('mc' + q + '-btn').disabled = false;
+  }
+  function checkMC(q) {
+    const block = document.getElementById('mc' + q);
+    if (block.dataset.answered) return;
+    block.dataset.answered = '1';
+    const chosen = mcSelected[q], correct = mcAnswers[q];
+    block.querySelectorAll('.mc-option').forEach((opt, i) => {
+      const l = ['A','B','C','D'][i];
+      opt.classList.remove('selected');
+      if (l === correct) opt.classList.add('correct');
+      else if (l === chosen && chosen !== correct) opt.classList.add('wrong');
+      else opt.classList.add('dim');
+    });
+    const exp = document.getElementById('mc' + q + '-exp');
+    const info = mcExplain[q][chosen] || mcExplain[q][correct];
+    exp.innerHTML = info.msg;
+    exp.className = 'mc-explain show ' + (info.good ? 'good' : 'bad');
+    document.getElementById('mc' + q + '-btn').disabled = true;
+  }
+
+  // ── MATCHING ──
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++;
+        document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  // ── WORD BANK ──
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el;
+    el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+      return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  // ── SPOT THE ERROR ──
+  const errorAnswers = { 1:true, 2:true, 3:false, 4:true, 5:false };
+  const errorExplanations = {
+    1: { fix:true,  msg:'Technically acceptable in casual speech, but in formal/written English the correct form is <strong>"If I were you"</strong> — not "was". Second conditionals prefer "were" for all subjects.' },
+    2: { fix:true,  msg:'Error: "will" is wrong in the IF clause of a second conditional. Use the past simple: <strong>"If everyone reported toxic players, the game would improve."</strong>' },
+    3: { fix:false, msg:'Correct! "If the matchmaking were better, games would feel more balanced." — perfect second conditional with "were" used correctly.' },
+    4: { fix:true,  msg:'Error: "I\'d rather" is followed directly by the infinitive WITHOUT "to". Say: <strong>"I\'d rather lose with good teammates than win with toxic ones."</strong>' },
+    5: { fix:false, msg:'Correct! "If toxic behaviour went unchallenged, the whole community would suffer." — clean second conditional, past simple in the IF clause, would + infinitive in the result.' },
+  };
+  function checkError(num, userSaysError) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userSaysError && userSaysError !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>
