@@ -1,0 +1,328 @@
+import { Lesson } from '@/types/lesson';
+
+export const ggBasicGamingChat: Lesson = {
+  slug: 'gg-basic-gaming-chat',
+  title: 'GG — Basic Gaming Chat',
+  subtitle: 'Gaming shorthand and how to say it in real spoken English',
+  level: 'A1-A2',
+  description: "Learn the most common gaming chat abbreviations — what they mean, how to use them in text, and how to say the same thing in spoken English.",
+  heroImage: '/images/gg-basic-gaming-chat-hero.png',
+
+  registerAwareness: [
+    {
+      context: 'Text chat (in-game)',
+      register: 'Shorthand',
+      example: 'gg wp! gl hf everyone in the next one',
+    },
+    {
+      context: 'Voice chat (speaking)',
+      register: 'Full English',
+      example: 'Good game! Well played. Good luck, have fun in the next one.',
+    },
+    {
+      context: 'After a win',
+      register: 'Friendly',
+      example: 'ggwp — they were really strong. Nice one on that last play!',
+    },
+    {
+      context: 'After a loss',
+      register: 'Respectful',
+      example: "Good game. We'll get them next time — good luck everyone.",
+    },
+  ],
+
+  registerTraps: [
+    'EZ and EZ clap are often seen as disrespectful — avoid them in competitive lobbies.',
+    'GG alone is friendly. GG EZ together is rude — it implies the opponent was too easy to beat.',
+    'In voice chat, always use full English — abbreviations sound strange when spoken aloud.',
+  ],
+
+  vocabulary: [
+    {
+      word: 'GG',
+      partOfSpeech: 'abbreviation',
+      definition: 'Said at the end of a match to show respect and sportsmanship.',
+      example: 'GG everyone — that was a really close match. Well played!',
+      etymologyNote: 'GG = Good game',
+      imageSlug: '/images/gg.png',
+    },
+    {
+      word: 'WP',
+      partOfSpeech: 'abbreviation',
+      definition: 'A compliment for a good move, play, or performance.',
+      example: 'WP on that last kill — I did not see that coming at all.',
+      etymologyNote: 'WP = Well played',
+      imageSlug: '/images/wp.png',
+    },
+    {
+      word: 'GJ',
+      partOfSpeech: 'abbreviation',
+      definition: 'Quick praise for a teammate who did something well.',
+      example: 'GJ on the clutch revive — you saved the whole team!',
+      etymologyNote: 'GJ = Good job',
+      imageSlug: '/images/gj.png',
+    },
+    {
+      word: 'AFK',
+      partOfSpeech: 'abbreviation',
+      definition: 'Used when a player is not at their device and not responding.',
+      example: 'Sorry — I was AFK for two minutes. Did I miss anything important?',
+      etymologyNote: 'AFK = Away from keyboard',
+      imageSlug: '/images/afk.png',
+    },
+    {
+      word: 'BRB',
+      partOfSpeech: 'abbreviation',
+      definition: 'Used to say you are leaving for a short time but will return soon.',
+      example: 'BRB — I need to grab some water. Start without me if the queue pops.',
+      etymologyNote: 'BRB = Be right back',
+      imageSlug: '/images/brb.png',
+    },
+    {
+      word: 'GL HF',
+      partOfSpeech: 'abbreviation',
+      definition: 'A friendly phrase typed at the start of a match as a sign of respect.',
+      example: 'GL HF to everyone in the lobby — may the best team win!',
+      etymologyNote: 'GL HF = Good luck, have fun',
+      imageSlug: '/images/gl-hf.png',
+    },
+    {
+      word: 'NVM',
+      partOfSpeech: 'abbreviation',
+      definition: 'Used to cancel what you just said, or to say something is not important.',
+      example: 'NVM — I found the item myself. Thanks anyway!',
+      etymologyNote: 'NVM = Never mind',
+      imageSlug: '/images/nvm.png',
+    },
+    {
+      word: 'EZ',
+      partOfSpeech: 'abbreviation',
+      definition: "Means the match was not difficult. Can be seen as disrespectful to the losing team — use carefully.",
+      example: 'That last round was NOT EZ — they almost had us in the final circle.',
+      etymologyNote: 'EZ = Easy',
+      imageSlug: '/images/ez.png',
+    },
+    {
+      word: 'OMG',
+      partOfSpeech: 'abbreviation',
+      definition: 'Expresses strong surprise, shock, or excitement in the moment.',
+      example: 'OMG — did you see that shot? That was incredible!',
+      etymologyNote: 'OMG = Oh my god / Oh my goodness',
+      imageSlug: '/images/omg.png',
+    },
+    {
+      word: 'LFG',
+      partOfSpeech: 'abbreviation',
+      definition: 'Used when you want to find other players to join your team or party.',
+      example: 'LFG for ranked — need two more players. Mic required!',
+      etymologyNote: 'LFG = Looking for group',
+      imageSlug: '/images/lfg.png',
+    },
+    {
+      word: 'GGWP',
+      partOfSpeech: 'abbreviation',
+      definition: 'A stronger, more respectful version of GG — shows genuine appreciation for the match.',
+      example: 'GGWP — that was one of the best matches I have played all season.',
+      etymologyNote: 'GGWP = Good game, well played',
+      imageSlug: '/images/ggwp.png',
+    },
+    {
+      word: 'TY',
+      partOfSpeech: 'abbreviation',
+      definition: 'A quick way to thank a teammate or opponent in chat.',
+      example: 'TY for the revive — I owe you one!',
+      etymologyNote: 'TY = Thank you',
+      imageSlug: '/images/ty.png',
+    },
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'GOOD GAME',
+      definition: 'The spoken version of GG — use this in voice chat or when talking about a match.',
+      example: 'Good game everyone — that last round was incredibly close.',
+      tag: 'spoken form',
+      imageSlug: '/images/good-game.png',
+    },
+    {
+      phrase: 'WELL PLAYED',
+      definition: 'The spoken version of WP — sounds more genuine and respectful than the abbreviation.',
+      example: 'Well played on that clutch moment — you carried the whole team.',
+      tag: 'spoken form',
+      imageSlug: '/images/well-played.png',
+    },
+    {
+      phrase: 'BE RIGHT BACK',
+      definition: 'The spoken version of BRB — always say this in voice chat before you go AFK.',
+      example: "Be right back — I need to answer the door. Give me 60 seconds.",
+      tag: 'spoken form',
+      imageSlug: '/images/be-right-back.png',
+    },
+    {
+      phrase: 'GOOD LUCK, HAVE FUN',
+      definition: 'The spoken version of GL HF — a respectful way to start any match.',
+      example: 'Good luck, have fun everyone — let the best player win!',
+      tag: 'spoken form',
+      imageSlug: '/images/good-luck-have-fun.png',
+    },
+    {
+      phrase: 'NICE ONE',
+      definition: 'A common spoken phrase to praise a teammate — the voice chat version of GJ.',
+      example: "Nice one! That snipe from across the map was unbelievable.",
+      tag: 'spoken form',
+      imageSlug: '/images/nice-one.png',
+    },
+    {
+      phrase: 'LOOKING FOR GROUP',
+      definition: 'The spoken version of LFG — use this when asking people to join your team.',
+      example: "I'm looking for group — anyone want to run ranked together tonight?",
+      tag: 'spoken form',
+      imageSlug: '/images/looking-for-group.png',
+    },
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Alex',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/alex-icon.png',
+      text: "[[GG:Good game]] everyone! [[WP:Well played]] — that was so close at the end.",
+    },
+    {
+      speaker: 'Sam',
+      speakerColor: 'green',
+      speakerAvatar: '/images/sam-icon.png',
+      text: "[[GGWP:Good game, well played]]! [[GJ:Good job]] on those last two kills, Alex. You clutched it!",
+    },
+    {
+      speaker: 'Alex',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/alex-icon.png',
+      text: "[[TY:Thank you]]! I almost lost it. Their team was NOT [[EZ:easy]] at all — they were really good.",
+    },
+    {
+      speaker: 'Sam',
+      speakerColor: 'green',
+      speakerAvatar: '/images/sam-icon.png',
+      text: "Agreed. [[BRB:Be right back]] — I need water. [[AFK:Away from keyboard]] for two minutes.",
+    },
+    {
+      speaker: 'Alex',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/alex-icon.png',
+      text: "No problem. [[LFG:Looking for group]] — anyone want to queue again? Need one more player.",
+    },
+    {
+      speaker: 'Sam',
+      speakerColor: 'green',
+      speakerAvatar: '/images/sam-icon.png',
+      text: "[[OMG:Oh my goodness]] yes! I'm back. Let's go again. [[GL HF:Good luck, have fun]] to us!",
+    },
+    {
+      speaker: 'Alex',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/alex-icon.png',
+      text: "Ha! Good luck, have fun! One tip — in voice chat, always say the full words. Say 'be right back', not 'BRB'. It sounds much more natural.",
+    },
+    {
+      speaker: 'Sam',
+      speakerColor: 'green',
+      speakerAvatar: '/images/sam-icon.png',
+      text: "Good point. And never say EZ at the end — it is rude. Always say 'good game' — win or lose.",
+    },
+    {
+      speaker: 'Alex',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/alex-icon.png',
+      text: "Exactly. [[GG:Good game]] in text. 'Good game, well played' out loud. Same meaning — different style.",
+    },
+    {
+      speaker: 'Sam',
+      speakerColor: 'green',
+      speakerAvatar: '/images/sam-icon.png',
+      text: "[[NVM:Never mind]] the last loss — next match we win. Ready? [[GL HF:Good luck, have fun]]!",
+    },
+  ],
+
+  matchingExercise: [
+    { word: 'GG',   definition: 'Good game' },
+    { word: 'AFK',  definition: 'Away from keyboard' },
+    { word: 'BRB',  definition: 'Be right back' },
+    { word: 'WP',   definition: 'Well played' },
+    { word: 'LFG',  definition: 'Looking for group' },
+    { word: 'NVM',  definition: 'Never mind' },
+    { word: 'TY',   definition: 'Thank you' },
+    { word: 'GGWP', definition: 'Good game, well played' },
+  ],
+
+  fillBlankExercise: [
+    { before: '',    after: "— that match was incredible. You all played so well.",     answer: 'gg' },
+    { before: '',    after: 'for two minutes — I need to get my headset.',              answer: 'brb' },
+    { before: '',    after: '! I cannot believe you made that shot from so far away.',  answer: 'omg' },
+    { before: '',    after: 'to everyone in the lobby — let the best team win!',        answer: 'gl hf' },
+    { before: 'I was', after: '— sorry I missed the call. What happened?',             answer: 'afk' },
+    { before: '',    after: 'for ranked — need two players with mic.',                  answer: 'lfg' },
+    { before: '',    after: 'for the heal — I would have died without you!',            answer: 'ty' },
+    { before: 'That round was NOT', after: '— they were the hardest team we faced.',   answer: 'ez' },
+  ],
+
+  multipleChoiceExercise: [
+    {
+      question: "Alex says 'their team was NOT EZ at all.' What does this mean?",
+      options: [
+        'The other team was very easy to beat',
+        'The other team was very difficult and skilled',
+        'The other team was away from keyboard',
+        'The other team typed EZ in chat',
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Why does Sam go AFK during the conversation?",
+      options: [
+        'To find a new group to play with',
+        'To send a message to the enemy team',
+        'To get some water',
+        'To fix a connection problem',
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "What is Alex's advice about using abbreviations in voice chat?",
+      options: [
+        'Use as many abbreviations as possible — it sounds more like a gamer',
+        'Only use GG and WP — the others are too difficult',
+        'Always say the full words out loud — abbreviations sound unnatural when spoken',
+        'Never use any gaming words in voice chat',
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "Which abbreviation should you AVOID saying after winning a match?",
+      options: ['GG', 'GGWP', 'EZ', 'WP'],
+      correctIndex: 2,
+    },
+    {
+      question: "Sam types 'GL HF' before the next match. What is the full spoken version?",
+      options: [
+        'Good luck, have fun',
+        'Good game, well played',
+        'Looking for group',
+        'Never mind, have fun',
+      ],
+      correctIndex: 0,
+    },
+    {
+      question: "What does Alex say is the difference between 'GG' in text and 'good game' out loud?",
+      options: [
+        'They have completely different meanings',
+        'GG is rude but good game is polite',
+        'Same meaning — different style',
+        'Good game is only used after losing',
+      ],
+      correctIndex: 2,
+    },
+  ],
+};
