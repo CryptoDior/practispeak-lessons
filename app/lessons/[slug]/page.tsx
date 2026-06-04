@@ -166,6 +166,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           <SectionHeader
             title="Vocabulary"
             subtitle={`${lesson.vocabulary.length} key words for this lesson`}
+            instruction={lesson.vocabulary.some(w => w.partOfSpeech === 'abbreviation') ? 'Listen to the audio for the full abbreviation' : undefined}
           />
           <div className="flex flex-col gap-6">
             {lesson.vocabulary.map((word, i) => (
@@ -398,11 +399,12 @@ function SiteHeader() {
   );
 }
 
-function SectionHeader({ title, subtitle }: { title: string; subtitle: string }) {
+function SectionHeader({ title, subtitle, instruction }: { title: string; subtitle: string; instruction?: string }) {
   return (
     <div className="mb-6">
       <h2 className="text-2xl font-extrabold text-gray-900 mb-1">{title}</h2>
       <p className="text-gray-400 text-sm font-semibold">{subtitle}</p>
+      {instruction && <p className="text-blue-500 text-sm font-medium mt-1">{instruction}</p>}
     </div>
   );
 }
