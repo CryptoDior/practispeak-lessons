@@ -8,6 +8,7 @@ import { talkingStrategy } from './talking-strategy';
 import { streamingContentCreation } from './streaming-content-creation';
 import { iAmAPlayer } from './i-am-a-player';
 import { gameGenres } from './game-genres';
+import { inventory } from './inventory';
 /**
  * Add new lessons here by importing the lesson file and adding it to this array.
  * The lesson page routing and home page listing are automatic.
@@ -22,6 +23,7 @@ export const lessons: Lesson[] = [
   streamingContentCreation,
   iAmAPlayer,
   gameGenres,
+  inventory,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
