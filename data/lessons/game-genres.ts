@@ -121,7 +121,7 @@ export const gameGenres: Lesson = {
       imageSlug: '/images/my-favourite-genre-is.png',
     },
     {
-      phrase: 'I'M NOT A BIG FAN OF',
+      phrase: "I'M NOT A BIG FAN OF",
       definition: "A polite way to say you don't really enjoy something.",
       example: "I'm not a big fan of horror games — they are too scary for me!",
       imageSlug: '/images/im-not-a-big-fan-of.png',
