@@ -193,6 +193,15 @@
 
     /* EXERCISES */
     .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    /* VOCABULARY GRID */
+    .vocab-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 36px; }
+    .vocab-card { background: var(--white); border-radius: 12px; box-shadow: var(--shadow); padding: 18px 20px; display: flex; flex-direction: column; gap: 6px; }
+    .vocab-word { font-size: 16px; font-weight: 800; letter-spacing: -.01em; }
+    .vocab-pos { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); background: var(--blue-lt); border: 1px solid var(--blue-bd); border-radius: 20px; padding: 2px 8px; width: fit-content; }
+    .vocab-def { font-size: 12px; color: var(--muted); line-height: 1.5; }
+    .vocab-example { font-size: 12px; font-style: italic; color: var(--text); line-height: 1.5; border-top: 1px solid var(--border); padding-top: 8px; margin-top: 2px; }
+    @media (max-width: 768px) { .vocab-grid { grid-template-columns: 1fr 1fr; } }
+
     .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
     .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
     .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
@@ -284,7 +293,8 @@
 
 <div class="tab-nav-wrap">
   <div class="tab-nav">
-    <button class="tab-btn active" data-tab="phrases">Phrases</button>
+    <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+    <button class="tab-btn" data-tab="phrases">Phrases</button>
     <button class="tab-btn" data-tab="inaction">In Action</button>
     <button class="tab-btn" data-tab="register">Register</button>
     <button class="tab-btn" data-tab="incontext">In Context</button>
@@ -295,8 +305,70 @@
 
 <div class="content">
 
+  <!-- ── VOCABULARY ── -->
+  <section class="section active" id="tab-vocabulary">
+    <div class="section-title">Vocabulary</div>
+    <div class="section-sub">8 key words for understanding and discussing online toxicity</div>
+
+    <div class="vocab-grid">
+      <div class="vocab-card">
+        <div class="vocab-word">TOXIC</div>
+        <div class="vocab-pos">adjective</div>
+        <div class="vocab-def">Behaviour that is deliberately harmful, negative, or damaging to others in a community.</div>
+        <div class="vocab-example">"The atmosphere in that lobby was completely toxic — insults every round."</div>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">FLAME</div>
+        <div class="vocab-pos">verb</div>
+        <div class="vocab-def">To aggressively insult or attack another player, usually in text or voice chat.</div>
+        <div class="vocab-example">"He started flaming his own teammate after one bad round."</div>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">TILT</div>
+        <div class="vocab-pos">verb / noun</div>
+        <div class="vocab-def">To become emotionally frustrated, causing you to play worse and react negatively.</div>
+        <div class="vocab-example">"She went on full tilt after the third loss and started blaming everyone."</div>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">GRIEF</div>
+        <div class="vocab-pos">verb</div>
+        <div class="vocab-def">To deliberately sabotage or ruin another player's experience for your own amusement.</div>
+        <div class="vocab-example">"He was griefing the lobby — blocking doors and stealing his own team's loot."</div>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">MUTE</div>
+        <div class="vocab-pos">verb</div>
+        <div class="vocab-def">To silence a player so their voice or messages no longer reach you.</div>
+        <div class="vocab-example">"I muted him immediately — life is too short for that."</div>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">REPORT</div>
+        <div class="vocab-pos">verb</div>
+        <div class="vocab-def">To formally flag a player's behaviour to the platform's moderators or developers.</div>
+        <div class="vocab-example">"Report and move on — don't waste energy arguing in chat."</div>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">SPORTSMANSHIP</div>
+        <div class="vocab-pos">noun</div>
+        <div class="vocab-def">Respectful, fair behaviour toward opponents and teammates — win or lose.</div>
+        <div class="vocab-example">"Typing 'gg' at the end regardless of the result is basic sportsmanship."</div>
+      </div>
+      <div class="vocab-card">
+        <div class="vocab-word">DE-ESCALATE</div>
+        <div class="vocab-pos">verb</div>
+        <div class="vocab-def">To reduce tension and make a conflict less heated before it gets worse.</div>
+        <div class="vocab-example">"The team captain stepped in to de-escalate before things got out of hand."</div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" disabled>← Previous</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('phrases')">Phrases →</button>
+    </div>
+  </section>
+
   <!-- ── PHRASES ── -->
-  <section class="section active" id="tab-phrases">
+  <section class="section" id="tab-phrases">
     <div class="section-title">Phrases</div>
     <div class="section-sub">8 phrases for handling conflict, making arguments, and keeping it positive</div>
 
@@ -485,7 +557,7 @@
     </div>
 
     <div class="lesson-nav">
-      <button class="lesson-nav-btn btn-prev" disabled>← Previous</button>
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('vocabulary')">← Vocabulary</button>
       <button class="lesson-nav-btn btn-next" onclick="goToTab('inaction')">In Action →</button>
     </div>
   </section>
@@ -960,7 +1032,7 @@
 
 <script>
   // ── TABS ──
-  const tabs = ['phrases','inaction','register','incontext','speaking','exercises'];
+  const tabs = ['vocabulary','phrases','inaction','register','incontext','speaking','exercises'];
   const completedTabs = new Set();
 
   function goToTab(id) {
