@@ -28,6 +28,18 @@ const ROTATION = [
 let rotIdx = 0;
 const nextVoice = () => ROTATION[rotIdx++ % ROTATION.length];
 
+// ── Vocabulary words + examples ───────────────────────────────────────────────
+const vocabulary = [
+  { slug: 'toxicity-vocab-01', word: 'Toxic',          example: "The atmosphere in that lobby was completely toxic — insults every single round." },
+  { slug: 'toxicity-vocab-02', word: 'Flame',          example: "He started flaming his own teammate after one bad round — completely unnecessary." },
+  { slug: 'toxicity-vocab-03', word: 'Tilt',           example: "She went on full tilt after the third loss — started making risky plays and blaming everyone around her." },
+  { slug: 'toxicity-vocab-04', word: 'Grief',          example: "He was griefing the whole lobby — blocking doors and stealing loot from his own teammates." },
+  { slug: 'toxicity-vocab-05', word: 'Mute',           example: "I muted him immediately after the first comment — life is too short for that kind of negativity." },
+  { slug: 'toxicity-vocab-06', word: 'Report',         example: "Report and move on — don't waste energy arguing. Let the system handle it." },
+  { slug: 'toxicity-vocab-07', word: 'Sportsmanship',  example: "Typing GG at the end — regardless of the result — is basic sportsmanship. It costs nothing." },
+  { slug: 'toxicity-vocab-08', word: 'De-escalate',    example: "The team captain stepped in to de-escalate before the argument got completely out of hand." },
+];
+
 // ── Phrase example sentences ───────────────────────────────────────────────────
 const phraseExamples = [
   { slug: 'toxicity-01', text: "If I were you, I would just mute them and focus on the game — arguing in chat never helps anyone." },
@@ -92,9 +104,18 @@ const delay = ms => new Promise(r => setTimeout(r, ms));
 
 (async () => {
   console.log('\n🎙️  Online Toxicity & Communication — Audio Generation');
-  console.log(`   ${phraseExamples.length} phrase examples + ${inActionParagraphs.length} in-action paragraphs = ${phraseExamples.length + inActionParagraphs.length} files\n`);
+  console.log(`   ${vocabulary.length} vocab × 2 + ${phraseExamples.length} phrase examples + ${inActionParagraphs.length} in-action paragraphs\n`);
 
-  console.log('── Phrase Examples ──');
+  console.log('── Vocabulary ──');
+  for (const { slug, word, example } of vocabulary) {
+    const voice = nextVoice();
+    await generateAudio(word,    voice, path.join(AUDIO_DIR, `${slug}.mp3`));
+    await delay(400);
+    await generateAudio(example, voice, path.join(AUDIO_DIR, `${slug}-example.mp3`));
+    await delay(400);
+  }
+
+  console.log('\n── Phrase Examples ──');
   for (const { slug, text } of phraseExamples) {
     const voice = nextVoice();
     await generateAudio(text, voice, path.join(AUDIO_DIR, `${slug}-example.mp3`));
@@ -109,7 +130,7 @@ const delay = ms => new Promise(r => setTimeout(r, ms));
   }
 
   console.log('\n✅ Done! Now run:');
-  console.log('   git add public/online-toxicity-communication.html data/lessons/online-toxicity-communication.ts data/lessons/index.ts scripts/generate-toxicity-audio.mjs public/audio/toxicity-*.mp3');
+  console.log('   git add public/online-toxicity-communication.html data/lessons/online-toxicity-communication.ts data/lessons/index.ts scripts/generate-toxicity-audio.mjs public/audio/toxicity-vocab-*.mp3 public/audio/toxicity-*.mp3');
   console.log('   git commit -m "Add Online Toxicity & Communication lesson"');
   console.log('   git push origin main');
 })();
