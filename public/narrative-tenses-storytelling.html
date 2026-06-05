@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | Narrative Tenses — Storytelling</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #eef2ff;
+      --white:    #ffffff;
+      --blue:     #2563eb;
+      --blue-lt:  #eff6ff;
+      --blue-bd:  #bfdbfe;
+      --blue-dk:  #1d4ed8;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); }
+    .nav-back:hover { color: var(--text); }
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg, #c7d2fe, #a5b4fc); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; overflow: hidden; }
+    .hero-img img { width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius); }
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 20px; font-size: 14px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; overflow: hidden; }
+    .phrase-img img { width: 100%; height: 100%; object-fit: cover; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 22px; font-weight: 800; line-height: 1.25; margin-bottom: 8px; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 14px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+    .listen-col { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+    .audio-player { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn, .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s} .wave span:nth-child(2){height:8px;animation-delay:.1s} .wave span:nth-child(3){height:14px;animation-delay:.2s} .wave span:nth-child(4){height:10px;animation-delay:.05s} .wave span:nth-child(5){height:6px;animation-delay:.15s} .wave span:nth-child(6){height:12px;animation-delay:.25s} .wave span:nth-child(7){height:8px;animation-delay:.1s} .wave span:nth-child(8){height:5px;animation-delay:.2s} .wave span:nth-child(9){height:9px;animation-delay:.05s} .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+    .grammar-examples { margin-top: 20px; }
+    .grammar-examples h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 12px; }
+    .grammar-example-list { display: flex; flex-direction: column; gap: 8px; }
+    .grammar-example-item { background: var(--bg); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; }
+    .grammar-example-item em { color: var(--blue-dk); font-style: italic; }
+    .grammar-example-item span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .grammar-warn { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin-top: 16px; line-height: 1.6; }
+    .tense-table { width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 13px; }
+    .tense-table th { background: var(--blue); color: white; padding: 10px 14px; text-align: left; font-weight: 700; }
+    .tense-table td { padding: 10px 14px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.5; }
+    .tense-table tr:last-child td { border-bottom: none; }
+    .tense-table tr:nth-child(even) td { background: var(--bg); }
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 20px; }
+    .inaction-img { width: 100%; max-height: 240px; aspect-ratio: 16/9; background: var(--bg); border: 1.5px dashed var(--border); border-radius: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 20px; gap: 8px; color: var(--muted); font-size: 13px; }
+    .inaction-img svg { width: 36px; height: 36px; opacity: .35; }
+    .inaction-img img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
+    .inaction-audio { display: flex; align-items: center; gap: 10px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
+    .stream-platform { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: .06em; }
+    .badge-twitch  { background: #f3e8ff; color: #7c3aed; }
+    .badge-youtube { background: #fff1f2; color: #e11d48; }
+    .badge-discord { background: #ede9fe; color: #5b21b6; }
+    .stream-title { font-size: 13px; font-weight: 700; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+    .stream-text { font-size: 14px; line-height: 1.8; }
+    .stream-text .hl { color: var(--blue); font-weight: 600; }
+    .inaction-note { background: var(--blue-lt); border: 1px solid var(--blue-bd); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--blue-dk); margin-top: 14px; }
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); padding: 12px 20px; text-align: left; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 14px 20px; font-size: 14px; border-bottom: 1px solid var(--border); line-height: 1.5; vertical-align: top; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-tag { display: inline-block; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
+    .tag-informal { background: #fef3c7; color: #92400e; }
+    .tag-neutral  { background: #f0f9ff; color: #0369a1; }
+    .tag-formal   { background: #f5f3ff; color: #5b21b6; }
+    .tip-list { display: flex; flex-direction: column; gap: 10px; }
+    .tip { display: flex; align-items: flex-start; gap: 12px; padding: 14px 18px; border-radius: 10px; font-size: 14px; line-height: 1.5; }
+    .tip.red   { background: var(--red-bg);   color: #881337; }
+    .tip.green { background: var(--green-bg); color: #14532d; }
+    .tip.blue  { background: var(--blue-lt);  color: var(--blue-dk); }
+    .tip.amber { background: #fffbeb; color: #78350f; }
+    .tip-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+    .transcript-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .transcript-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 16px; }
+    .stream-passage { font-size: 14px; line-height: 2; }
+    mark { background: #dbeafe; color: var(--blue-dk); padding: 1px 3px; border-radius: 4px; font-weight: 600; }
+    .questions-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .questions-card h3 { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+    .questions-card .q-intro { font-size: 13px; color: var(--muted); margin-bottom: 24px; }
+    .mc-question { margin-bottom: 28px; }
+    .mc-q-text { font-size: 14px; font-weight: 600; margin-bottom: 12px; line-height: 1.5; }
+    .mc-q-text em { font-style: italic; color: var(--blue-dk); }
+    .mc-options { display: flex; flex-direction: column; gap: 8px; }
+    .mc-option { display: flex; align-items: flex-start; gap: 10px; padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; cursor: pointer; font-size: 13px; line-height: 1.5; transition: all .15s; background: var(--white); }
+    .mc-option:hover { border-color: var(--blue); background: var(--blue-lt); }
+    .mc-option.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .mc-option.correct  { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .mc-option.wrong    { border-color: var(--red);   background: var(--red-bg);   cursor: default; }
+    .mc-option.dim      { opacity: .45; cursor: default; }
+    .mc-letter { width: 22px; height: 22px; border-radius: 50%; background: var(--bg); border: 1.5px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; color: var(--muted); }
+    .mc-option.selected .mc-letter { background: var(--blue); border-color: var(--blue); color: white; }
+    .mc-option.correct .mc-letter  { background: var(--green); border-color: var(--green); color: white; }
+    .mc-option.wrong .mc-letter    { background: var(--red);   border-color: var(--red);   color: white; }
+    .mc-explain { margin-top: 8px; padding: 10px 14px; border-radius: 8px; font-size: 12px; line-height: 1.5; display: none; }
+    .mc-explain.show { display: block; }
+    .mc-explain.good { background: var(--green-bg); color: #14532d; }
+    .mc-explain.bad  { background: var(--red-bg);   color: #881337; }
+    .mc-check-btn { margin-top: 6px; padding: 7px 18px; background: var(--blue); color: white; border: none; border-radius: 8px; font-family: 'Inter',sans-serif; font-size: 13px; font-weight: 600; cursor: pointer; }
+    .mc-check-btn:hover { background: var(--blue-dk); }
+    .mc-check-btn:disabled { background: var(--border); color: var(--muted); cursor: default; }
+    .speaking-intro { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px 28px; margin-bottom: 24px; font-size: 14px; color: var(--muted); line-height: 1.7; }
+    .speaking-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+    .speaking-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; }
+    .speaking-card-label { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .speaking-card-icon { font-size: 20px; }
+    .speaking-card-tag { font-size: 11px; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: .07em; }
+    .speaking-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+    .speaking-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .speaking-tips { background: var(--blue-lt); border: 1px solid var(--blue-bd); border-radius: var(--radius); padding: 20px 24px; margin-top: 24px; }
+    .speaking-tips h4 { font-size: 13px; font-weight: 700; color: var(--blue-dk); margin-bottom: 10px; }
+    .speaking-tips ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+    .speaking-tips li { font-size: 13px; color: var(--blue-dk); display: flex; align-items: flex-start; gap: 8px; }
+    .speaking-tips li::before { content: "→"; flex-shrink: 0; }
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .match-col-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; cursor: pointer; margin-bottom: 8px; transition: all .15s; user-select: none; line-height: 1.4; }
+    .match-item:hover { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); color: var(--blue-dk); font-weight: 600; }
+    .match-item.correct  { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .match-item.wrong    { border-color: var(--red);   background: var(--red-bg);   color: #881337; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--muted); margin-bottom: 16px; }
+    .word-bank { background: var(--bg); border: 1.5px dashed var(--blue-bd); border-radius: 12px; padding: 14px 18px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; transition: all .15s; user-select: none; }
+    .chip:hover { background: var(--blue-lt); border-color: var(--blue); }
+    .chip.used { opacity: .35; pointer-events: none; text-decoration: line-through; }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 180px; padding: 5px 12px; border: 1.5px solid var(--border); border-radius: 8px; background: var(--white); font-size: 13px; color: var(--blue-dk); font-weight: 500; cursor: pointer; transition: all .15s; vertical-align: middle; margin: 0 2px; }
+    .fill-slot.active { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(37,99,235,.12); }
+    .fill-slot.filled { background: var(--blue-lt); border-color: var(--blue-bd); }
+    .fill-slot.correct { background: var(--green-bg); border-color: var(--green); color: #14532d; cursor: default; }
+    .fill-slot.wrong   { background: var(--red-bg);   border-color: var(--red);   color: #881337; }
+    .fill-slot .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; }
+    .fill-slot .slot-clear { margin-left: 6px; font-size: 10px; color: var(--muted); background: none; border: none; cursor: pointer; padding: 0; }
+    .fill-slot .slot-clear:hover { color: var(--red); }
+    .fill-item { margin-bottom: 18px; font-size: 14px; line-height: 2.2; }
+    .fill-hint { font-size: 12px; color: var(--muted); font-style: italic; margin-left: 4px; }
+    .fill-feedback { font-size: 12px; margin-left: 6px; font-weight: 600; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong   { color: var(--red); }
+    .error-item { border: 1.5px solid var(--border); border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; font-size: 14px; }
+    .error-sentence { font-style: italic; margin-bottom: 10px; }
+    .error-btns { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .error-btn { padding: 6px 14px; border-radius: 8px; border: 1.5px solid var(--border); background: none; font-family: 'Inter',sans-serif; font-size: 12px; font-weight: 600; cursor: pointer; transition: all .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .error-btn.wrong-ans   { border-color: var(--red);   background: var(--red-bg);   color: #881337; cursor: default; }
+    .error-feedback { font-size: 12px; margin-top: 8px; padding: 8px 12px; border-radius: 8px; display: none; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #881337; }
+    .check-btn { margin-top: 20px; padding: 10px 24px; background: var(--blue); color: white; border: none; border-radius: 10px; font-family: 'Inter',sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 8px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; padding: 16px 0; border-bottom: 1px solid var(--border); font-size: 14px; line-height: 1.6; }
+    .disc-item:last-child { border-bottom: none; padding-bottom: 0; }
+    .disc-num { width: 30px; height: 30px; background: var(--bg); border: 1.5px solid var(--blue-bd); color: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; flex-shrink: 0; }
+    .lesson-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--border); }
+    .lesson-nav-btn { padding: 11px 24px; border-radius: 10px; font-family: 'Inter',sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: all .15s; display: flex; align-items: center; gap: 8px; }
+    .btn-prev { background: var(--white); border: 1.5px solid var(--border); color: var(--text); }
+    .btn-prev:hover { border-color: var(--blue); color: var(--blue); }
+    .btn-next { background: var(--blue); border: 1.5px solid var(--blue); color: white; }
+    .btn-next:hover { background: var(--blue-dk); border-color: var(--blue-dk); }
+    .btn-prev:disabled, .btn-next:disabled { opacity: .4; cursor: default; pointer-events: none; }
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; padding: 24px 16px 0; }
+      .hero-img { display: none; }
+      .content { padding: 24px 16px 60px; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .phrase-img { min-height: 180px; }
+      .grammar-3col { grid-template-columns: 1fr; }
+      .speaking-cards { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-logo"><div class="nav-logo-icon">P</div>Practispeak</div>
+  <a href="/" class="nav-back">← All Lessons</a>
+</nav>
+
+<div class="hero">
+  <div>
+    <div class="hero-badge">B1-B2</div>
+    <h1>Narrative Tenses — Storytelling</h1>
+    <p class="hero-sub">Tell epic gaming stories using past simple, past continuous, and past perfect</p>
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <span class="progress-pct" id="progressPct">0%</span>
+    </div>
+  </div>
+  <div class="hero-img">📖</div>
+</div>
+
+<div class="tab-nav-wrap">
+  <div class="tab-nav">
+    <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+    <button class="tab-btn" data-tab="phrases">Phrases</button>
+    <button class="tab-btn" data-tab="inaction">In Action</button>
+    <button class="tab-btn" data-tab="register">Register</button>
+    <button class="tab-btn" data-tab="incontext">In Context</button>
+    <button class="tab-btn" data-tab="speaking">Speaking</button>
+    <button class="tab-btn" data-tab="exercises">Exercises</button>
+  </div>
+</div>
+
+<div class="content">
+
+  <!-- ── VOCABULARY ── -->
+  <section class="section active" id="tab-vocabulary">
+    <div class="section-title">Vocabulary</div>
+    <div class="section-sub">8 words for telling epic gaming stories</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7c2d12,#b45309)">🎯</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">COMEBACK</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">A recovery from a losing or disadvantaged position to win — one of the most exciting narratives in competitive gaming.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"We were down three rounds with no economy — the comeback we pulled off was the greatest I had ever been part of."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#312e81)">🕵️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">AMBUSH</div>
+        <span class="phrase-tag">Noun / Verb</span>
+        <p class="phrase-def">A surprise attack from a hidden position — the attacker had been waiting while the victim had no idea what was coming.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I was running through the corridor when they ambushed us from both sides — we had walked right into their trap."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0c4a6e,#075985)">🏅</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">OUTPLAY</div>
+        <span class="phrase-tag">Verb</span>
+        <p class="phrase-def">To defeat an opponent through superior skill, decision-making, or positioning — not luck. The heart of every great gaming story.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"They outplayed us completely in the final round — every decision they made was a step ahead of what we expected."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#166534)">🌊</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">MOMENTUM</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">The build-up of energy or advantage that carries a team forward — losing momentum often marks the turning point of a match story.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"We had all the momentum going into the final round — and then one mistake shattered it completely."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-04.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#701a75)">⭐</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">HIGHLIGHT</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">A particularly impressive, exciting, or memorable moment in a game — the kind of moment that gets clipped, shared, and retold.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"That snipe was the highlight of the entire tournament — people were still talking about it two weeks later."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-05.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#172554,#1e3a8a)">🎙️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">NARRATE</div>
+        <span class="phrase-tag">Verb</span>
+        <p class="phrase-def">To tell the story of what happened — describing events in sequence, giving context, and bringing the listener into the moment.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"He narrated the entire match from memory — every rotation, every mistake, every moment that changed the outcome."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-06.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#115e59)">🔀</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">TURNING POINT</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">The critical moment in a match where the direction of the game begins to change — every great story has one.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The turning point was when they lost their captain — after that, their whole strategy fell apart."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-07.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1c1917,#292524)">🔮</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">ANTICIPATE</div>
+        <span class="phrase-tag">Verb</span>
+        <p class="phrase-def">To predict or expect what is about to happen before it does — anticipating the enemy's move is the difference between a highlight and an obituary.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I had anticipated their push — I was already in position before they even crossed the door."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-08.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/narrative-vocab-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" disabled>← Previous</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('phrases')">Phrases →</button>
+    </div>
+  </section>
+
+  <!-- ── PHRASES ── -->
+  <section class="section" id="tab-phrases">
+    <div class="section-title">Phrases</div>
+    <div class="section-sub">8 phrases for building a narrative — opening, sequencing, backgrounding, and reflecting</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#312e81)">🕯️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">"It all started when…"</div>
+        <span class="phrase-tag">Opening a Story — Past Simple</span>
+        <p class="phrase-def">The classic story opener — it signals you're about to go back to the beginning and take the listener through what happened step by step. Creates immediate engagement.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"It all started when we queued into a lobby we almost didn't join — the match that changed everything for our team."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/narrative-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7c2d12,#b45309)">⚡</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">"I was just about to… when…"</div>
+        <span class="phrase-tag">Interrupted Action — Past Continuous</span>
+        <p class="phrase-def">Sets up an action that was in progress — then something interrupts it. This is one of the most powerful narrative structures: it builds suspense right before the key moment lands.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I was just about to push through the door when the explosion went off — three of us went down instantly."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/narrative-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0c4a6e,#075985)">🔀</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">"While they were…, we were…"</div>
+        <span class="phrase-tag">Parallel Actions — Past Continuous</span>
+        <p class="phrase-def">Shows two things happening at the same time — crucial for explaining how a trap was set, how a strategy unfolded, or why both sides were caught off guard simultaneously.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"While they were pushing the left flank, we were quietly setting up the ambush on the right — they never saw it coming."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/narrative-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#115e59)">⚡</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">"As soon as I…"</div>
+        <span class="phrase-tag">Sequencing Events — Past Simple</span>
+        <p class="phrase-def">Connects two actions where one immediately triggers the other — essential for building pace in a story. Creates the feeling of rapid, decisive events in sequence.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"As soon as I heard the footsteps, I swapped to my secondary and held the angle — it was pure instinct."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/narrative-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#166534)">⏳</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">"By the time we got there,…"</div>
+        <span class="phrase-tag">Prior Completion — Past Perfect</span>
+        <p class="phrase-def">Shows that something had already happened before another event. Essential for explaining the situation that greeted you when you arrived — the damage was already done.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"By the time we got there, they had already taken the objective and fortified every entry point — we had nothing to work with."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/narrative-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#172554,#1e3a8a)">✅</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">"We had already…"</div>
+        <span class="phrase-tag">Completed Before the Main Event — Past Perfect</span>
+        <p class="phrase-def">Explains what your team had done in preparation — before the key moment of the story happened. Shows foresight, planning, or unfortunately, a mistake made too early.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"We had already used our only revive — so when the last player went down, there was nothing left to do."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/narrative-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#701a75)">💥</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">"That's when everything changed."</div>
+        <span class="phrase-tag">Pivoting the Narrative</span>
+        <p class="phrase-def">The single most powerful sentence in storytelling — it marks the turning point where everything before leads to everything after. Use it to split your story in two: before and after.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"We were down to one player, no resources, one second on the clock. That's when everything changed."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/narrative-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1c1917,#292524)">🔍</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">"Looking back, I should have…"</div>
+        <span class="phrase-tag">Reflecting on Decisions — Past Modal</span>
+        <p class="phrase-def">Steps outside the story to reflect — you're no longer in the moment, you're analysing it. The past modal "should have" shows what the better decision would have been. Honest, relatable, and powerful.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Looking back, I should have held my position instead of pushing — I had all the information I needed to make the right call."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/narrative-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <!-- GRAMMAR NOTE -->
+    <div class="grammar-note">
+      <h3>💡 Grammar Focus — The Three Narrative Tenses</h3>
+      <p>Stories use three past tenses working together. Each one has a specific job. Using only one tense makes a story flat — mixing all three makes it vivid, layered, and professional.</p>
+
+      <div class="grammar-3col">
+        <div class="grammar-col">
+          <h4>Past Simple — the spine</h4>
+          <div class="grammar-row">Form: <code>verb + -ed / irregular</code></div>
+          <div class="grammar-row">Job: completed actions in sequence</div>
+          <div class="grammar-row"><code>"I pushed in. I took the shot. We won."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">This is the main timeline of your story — events listed in order.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>Past Continuous — the backdrop</h4>
+          <div class="grammar-row">Form: <code>was/were + verb-ing</code></div>
+          <div class="grammar-row">Job: background actions / interruptions</div>
+          <div class="grammar-row"><code>"I was holding the angle when they pushed."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Sets the scene. The action that was already in progress when something happened.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>Past Perfect — the backstory</h4>
+          <div class="grammar-row">Form: <code>had + past participle</code></div>
+          <div class="grammar-row">Job: what happened BEFORE the main story</div>
+          <div class="grammar-row"><code>"They had already taken the objective."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Goes further back in time. The past before the past.</div>
+        </div>
+      </div>
+
+      <div class="grammar-examples">
+        <h4>Gaming examples — all three tenses together</h4>
+        <div class="grammar-example-list">
+          <div class="grammar-example-item"><em>"I was watching the minimap (past cont.) when I noticed (past simple) that they had flanked us (past perfect) from behind."</em> <span>→ three tenses, one sentence</span></div>
+          <div class="grammar-example-item"><em>"While they were pushing the objective (past cont.), we had already set up the ambush (past perfect). As soon as they entered (past simple), we opened fire."</em> <span>→ full narrative sequence</span></div>
+          <div class="grammar-example-item"><em>"I was lining up the shot (past cont.) when my teammate called out (past simple) that two enemies had passed behind us (past perfect)."</em> <span>→ interruption + backstory</span></div>
+          <div class="grammar-example-item"><em>"By the time I got back from AFK (past simple), they had scored three times (past perfect) and we were already losing (past cont.) the momentum."</em> <span>→ arrival + what had happened + ongoing state</span></div>
+          <div class="grammar-example-item"><em>"It all started (past simple) when we were grinding ranked (past cont.) and I realised (past simple) I had seen (past perfect) this pattern before."</em> <span>→ opening a story with all three</span></div>
+          <div class="grammar-example-item"><em>"Looking back, I should have rotated earlier (past modal) — while I was sitting in position (past cont.), they had secured (past perfect) every advantage they needed."</em> <span>→ reflection with tense contrast</span></div>
+        </div>
+      </div>
+
+      <div class="grammar-warn">
+        ⚠️ <strong>The most common mistake:</strong> using past simple for everything. <em>"I was in position. The enemy came. I shot. I missed. We lost."</em> — this is technically correct but reads like a list, not a story. Mix the tenses to show what was already happening, what happened next, and what had already occurred before that moment.
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('vocabulary')">← Vocabulary</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('inaction')">In Action →</button>
+    </div>
+  </section>
+
+  <!-- ── IN ACTION ── -->
+  <section class="section" id="tab-inaction">
+    <div class="section-title">In Action</div>
+    <div class="section-sub">How narrative tenses appear across different gaming storytelling contexts</div>
+
+    <div class="stream-card">
+      <div class="inaction-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Image placeholder — 16:9</div>
+      <div class="stream-platform"><span class="platform-badge badge-twitch">Twitch</span><span class="stream-title">Streamer Retelling a Clutch Moment</span></div>
+      <p class="stream-text">
+        "Okay so let me tell you what happened, because chat missed it. <span class="hl">It all started when</span> I rotated to the wrong building — I had misread the zone and put myself in a terrible position. <span class="hl">While they were pushing from the north</span>, I was completely alone with no cover and two squads closing in. <span class="hl">I was just about to</span> call it and take the loss when I remembered the balcony I had seen two minutes earlier. <span class="hl">As soon as I got up there</span>, I could see everything. I dropped three before they even knew where I was. <span class="hl">By the time the last squad arrived</span>, I had already reset and was waiting. <span class="hl">That's when everything changed.</span>"
+      </p>
+      <div class="inaction-note">Notice how the streamer uses past continuous to set the scene ("while they were pushing"), past perfect to explain prior context ("I had misread the zone"), and past simple to deliver each action in sequence. The mix creates energy and keeps the listener hooked.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/narrative-inaction-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to paragraph</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Image placeholder — 16:9</div>
+      <div class="stream-platform"><span class="platform-badge badge-youtube">YouTube</span><span class="stream-title">Highlight Reel Narration</span></div>
+      <p class="stream-text">
+        "This clip is from the most insane comeback we have ever pulled off. <span class="hl">We had already</span> lost the first two rounds and our economy was completely destroyed — we had nothing. <span class="hl">While the other team was celebrating</span> in the lobby, we were rebuilding our strategy from scratch. Every single player bought the cheapest weapon available. <span class="hl">By the time round three started</span>, they had forgotten we were even a threat. <span class="hl">As soon as the round began</span>, we executed the play we had rehearsed a hundred times in practice. They never anticipated it. <span class="hl">Looking back</span>, I think we should have played that aggressive style from the beginning — but sometimes you need to hit rock bottom before you find what actually works."
+      </p>
+      <div class="inaction-note">YouTube narration is more structured than live commentary — the storyteller can build up slowly, use past perfect to explain the backstory, and reflect at the end. Notice how <strong>"Looking back"</strong> signals the shift from storytelling to analysis.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/narrative-inaction-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to paragraph</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Image placeholder — 16:9</div>
+      <div class="stream-platform"><span class="platform-badge badge-discord">Discord</span><span class="stream-title">Teammate Retelling the Final Round</span></div>
+      <p class="stream-text">
+        "Bro, you were AFK for the best part. So basically — <span class="hl">while you were gone</span>, we were holding a 4v5 for three rounds straight. <span class="hl">We had already</span> used every advantage we had just to stay in the game. <span class="hl">It all started going wrong when</span> we lost the third player — after that it was basically survival mode. <span class="hl">I was just about to</span> call a retreat when Kai held a one-versus-three from that corner — you know the one. <span class="hl">As soon as he got the first kill</span>, the momentum completely shifted. <span class="hl">By the time you came back</span>, we had won two of the three rounds you missed. <span class="hl">Looking back</span>, I still don't know how we pulled that off."
+      </p>
+      <div class="inaction-note">Discord storytelling is the most casual — contractions, informal address ("bro"), and a mix of all three tenses without the listener ever noticing. Great storytelling feels natural even when it's grammatically complex.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/narrative-inaction-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to paragraph</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('phrases')">← Phrases</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('register')">Register →</button>
+    </div>
+  </section>
+
+  <!-- ── REGISTER ── -->
+  <section class="section" id="tab-register">
+    <div class="section-title">Register</div>
+    <div class="section-sub">How storytelling style shifts across different gaming contexts</div>
+
+    <div class="register-table">
+      <table>
+        <thead><tr><th>Context</th><th>Register</th><th>Narrative Style</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>Live stream (in the moment)</strong><br><span style="font-size:12px;color:var(--muted)">Twitch, YouTube Live</span></td>
+            <td><span class="register-tag tag-informal">Informal / Spontaneous</span></td>
+            <td><em>"Okay so — I was literally just about to die and then — wait, chat, let me explain from the start."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Post-game voice chat</strong><br><span style="font-size:12px;color:var(--muted)">Discord, party chat</span></td>
+            <td><span class="register-tag tag-informal">Informal / Energetic</span></td>
+            <td><em>"Bro, while you were away we were holding a 4v5. By the time you came back we'd already won two rounds."</em></td>
+          </tr>
+          <tr>
+            <td><strong>YouTube highlight narration</strong><br><span style="font-size:12px;color:var(--muted)">Edited video, scripted</span></td>
+            <td><span class="register-tag tag-neutral">Neutral / Structured</span></td>
+            <td><em>"It all started when we entered the lobby without a clear strategy. We had already lost two rounds by the time the turning point arrived."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Match review / coaching session</strong><br><span style="font-size:12px;color:var(--muted)">Analytical, educational</span></td>
+            <td><span class="register-tag tag-neutral">Formal / Analytical</span></td>
+            <td><em>"At this point in the round, the team was rotating to B while the opponents had already secured A. As soon as the rotation began, the advantage was lost."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Esports journalism</strong><br><span style="font-size:12px;color:var(--muted)">Written article, match report</span></td>
+            <td><span class="register-tag tag-formal">Formal / Professional</span></td>
+            <td><em>"The turning point arrived in round twelve. While the defending team was repositioning, the attackers had already identified the gap and executed a coordinated ambush."</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tip-list">
+      <div class="tip green"><span class="tip-icon">✅</span><span>All 8 phrases work across every context — from casual Discord stories to formal match reports. What changes is the vocabulary and speed, not the tense structures themselves.</span></div>
+      <div class="tip blue"><span class="tip-icon">💡</span><span><strong>"That's when everything changed"</strong> works in every register — it's equally powerful in a casual Discord retell and in professional esports journalism. It's one of the most universal storytelling pivots in English.</span></div>
+      <div class="tip amber"><span class="tip-icon">⚠️</span><span>In formal match reports, contract <strong>"we'd"</strong> to <strong>"we had"</strong> and <strong>"they'd"</strong> to <strong>"they had"</strong>. Contractions with past perfect are fine in speech but look informal in written analysis.</span></div>
+      <div class="tip red"><span class="tip-icon">❌</span><span>Don't use present tense to tell past stories — <em>"So I go in and I shoot and then he kills me"</em> is common in spoken English but sounds awkward in written form. In writing, always commit to the past narrative tenses.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('inaction')">← In Action</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('incontext')">In Context →</button>
+    </div>
+  </section>
+
+  <!-- ── IN CONTEXT ── -->
+  <section class="section" id="tab-incontext">
+    <div class="section-title">In Context</div>
+    <div class="section-sub">Read the match story — highlighted phrases are from this lesson</div>
+
+    <div class="transcript-card">
+      <div class="transcript-title">Match Debrief — "The Round We Almost Threw"</div>
+      <p class="stream-passage">
+        "<mark>It all started when</mark> we made the decision to split our team — two players pushing A, three holding B. Nobody had called it out clearly, so there was already confusion before the round even began.<br><br>
+        <mark>While the A-side players were pushing forward</mark>, the B-side was getting picked off one by one. We had no idea. <mark>By the time we heard the callout</mark>, two of our teammates had already been eliminated and one was holding on by a thread. <mark>We had already committed</mark> to the push — there was no way back.<br><br>
+        <mark>I was just about to call a full retreat</mark> when the last remaining player on B pulled off something I had never seen before. <mark>As soon as she flanked right</mark>, the opponents reacted — and that single movement exposed their entire backline. <mark>That's when everything changed.</mark><br><br>
+        We won that round. We won the match. <mark>Looking back, I should have</mark> made the callout at the start — the split strategy was right, but the communication was wrong. We got lucky. Great teams don't rely on luck. They rely on clarity."
+      </p>
+    </div>
+
+    <div class="questions-card">
+      <h3>Comprehension Questions</h3>
+      <p class="q-intro">Think about <em>why</em> each tense is used — not just what it means.</p>
+
+      <div class="mc-question" id="mc1">
+        <div class="mc-q-text">1. <em>"While the A-side players were pushing forward, the B-side was getting picked off."</em> Why are both verbs in past continuous?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(1,'A')"><div class="mc-letter">A</div>Because both things happened a long time ago</div>
+          <div class="mc-option" onclick="pickMC(1,'B')"><div class="mc-letter">B</div>Because both actions were ongoing at the same time — past continuous shows two parallel background events happening simultaneously</div>
+          <div class="mc-option" onclick="pickMC(1,'C')"><div class="mc-letter">C</div>Because neither action was completed successfully</div>
+          <div class="mc-option" onclick="pickMC(1,'D')"><div class="mc-letter">D</div>Because past continuous is more polite than past simple</div>
+        </div>
+        <div class="mc-explain" id="mc1-exp"></div>
+        <button class="mc-check-btn" id="mc1-btn" onclick="checkMC(1)" disabled>Check</button>
+      </div>
+
+      <div class="mc-question" id="mc2">
+        <div class="mc-q-text">2. <em>"By the time we heard the callout, two players had already been eliminated."</em> Why is "had been eliminated" in past perfect?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(2,'A')"><div class="mc-letter">A</div>Because it was a very dramatic event</div>
+          <div class="mc-option" onclick="pickMC(2,'B')"><div class="mc-letter">B</div>Because the eliminations happened BEFORE the team heard the callout — past perfect shows the earlier event in a sequence</div>
+          <div class="mc-option" onclick="pickMC(2,'C')"><div class="mc-letter">C</div>Because the players were not on the team's side</div>
+          <div class="mc-option" onclick="pickMC(2,'D')"><div class="mc-letter">D</div>Because "had been" is more formal than "were"</div>
+        </div>
+        <div class="mc-explain" id="mc2-exp"></div>
+        <button class="mc-check-btn" id="mc2-btn" onclick="checkMC(2)" disabled>Check</button>
+      </div>
+
+      <div class="mc-question" id="mc3">
+        <div class="mc-q-text">3. <em>"I was just about to call a full retreat when the last player pulled off something remarkable."</em> What does the past continuous + past simple structure create here?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(3,'A')"><div class="mc-letter">A</div>It shows that both actions were equally important</div>
+          <div class="mc-option" onclick="pickMC(3,'B')"><div class="mc-letter">B</div>It creates suspense — the ongoing action ("was about to") is interrupted at the last possible moment by the sudden past simple event</div>
+          <div class="mc-option" onclick="pickMC(3,'C')"><div class="mc-letter">C</div>It shows the narrator was not paying attention</div>
+          <div class="mc-option" onclick="pickMC(3,'D')"><div class="mc-letter">D</div>It signals that the retreat did eventually happen later</div>
+        </div>
+        <div class="mc-explain" id="mc3-exp"></div>
+        <button class="mc-check-btn" id="mc3-btn" onclick="checkMC(3)" disabled>Check</button>
+      </div>
+
+      <div class="mc-question" id="mc4">
+        <div class="mc-q-text">4. The narrator ends with <em>"Looking back, I should have made the callout at the start."</em> What does this shift in language tell us?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(4,'A')"><div class="mc-letter">A</div>The narrator is angry at the team and is blaming them</div>
+          <div class="mc-option" onclick="pickMC(4,'B')"><div class="mc-letter">B</div>The narrator is no longer telling the story — they have stepped outside it to reflect and analyse what went wrong with honest self-criticism</div>
+          <div class="mc-option" onclick="pickMC(4,'C')"><div class="mc-letter">C</div>The narrator is suggesting the team should replay the match</div>
+          <div class="mc-option" onclick="pickMC(4,'D')"><div class="mc-letter">D</div>The narrator forgot what they were going to say and changed topic</div>
+        </div>
+        <div class="mc-explain" id="mc4-exp"></div>
+        <button class="mc-check-btn" id="mc4-btn" onclick="checkMC(4)" disabled>Check</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('register')">← Register</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('speaking')">Speaking →</button>
+    </div>
+  </section>
+
+  <!-- ── SPEAKING ── -->
+  <section class="section" id="tab-speaking">
+    <div class="section-title">Speaking</div>
+    <div class="section-sub">Choose a scenario — tell your story, debate, or narrate live</div>
+
+    <div class="speaking-intro">
+      Pick one option. You have <strong>3–4 minutes</strong> to prepare and speak. Use at least <strong>4 phrases</strong> from the lesson — and make sure you use <strong>all three narrative tenses</strong> at least once each. Don't narrate in a list — build a real story.
+    </div>
+
+    <div class="speaking-cards">
+      <div class="speaking-card">
+        <div class="speaking-card-label"><span class="speaking-card-icon">🎮</span><span class="speaking-card-tag">Option A</span></div>
+        <h3>Tell Your Story</h3>
+        <p>Recount your best — or worst — gaming moment. Use all three narrative tenses naturally. Your partner listens and asks two follow-up questions when you finish. Then swap.</p>
+      </div>
+      <div class="speaking-card">
+        <div class="speaking-card-label"><span class="speaking-card-icon">⚖️</span><span class="speaking-card-tag">Option B</span></div>
+        <h3>Debate: Highlights vs Consistency</h3>
+        <p>Your partner argues: <em>"A player's highlight reel matters more than their consistency."</em> Disagree — build a counter-argument using storytelling examples and at least three phrases from this lesson. Then swap sides.</p>
+      </div>
+      <div class="speaking-card">
+        <div class="speaking-card-label"><span class="speaking-card-icon">🎙️</span><span class="speaking-card-tag">Option C</span></div>
+        <h3>Commentary Replay</h3>
+        <p>You are watching back a clip of your own match. Narrate what you see — what was happening before the key moment, what you were doing wrong, what changed, and what you should have done differently. Use all three tenses and end with "looking back."</p>
+      </div>
+    </div>
+
+    <div class="speaking-tips">
+      <h4>Useful reminders while you speak</h4>
+      <ul>
+        <li>Start with past simple to set the scene quickly — then use past continuous to slow down and describe what was happening in the background.</li>
+        <li>Use past perfect to drop in the backstory: what had already happened before the moment you're describing.</li>
+        <li><em>"That's when everything changed"</em> is your pivot — everything before it is build-up, everything after is resolution.</li>
+        <li>End with reflection: <em>"Looking back, I should have…"</em> shows maturity and self-awareness — in gaming and in English.</li>
+      </ul>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('incontext')">← In Context</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('exercises')">Exercises →</button>
+    </div>
+  </section>
+
+  <!-- ── EXERCISES ── -->
+  <section class="section" id="tab-exercises">
+    <div class="section-title">Exercises</div>
+    <div class="section-sub">Complete all three exercises, then discuss the questions</div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 1</div>
+      <h3>Match the Tense to Its Job</h3>
+      <p class="ex-desc">Click a sentence on the left, then match it to what that tense is doing on the right.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Sentences</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">"I pushed in and took the shot."</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">"I was holding the angle when they rushed."</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">"They had already taken the objective."</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">"While we were pushing A, they were flanking B."</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">"By the time I arrived, the round had ended."</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">"Looking back, I should have waited."</div>
+        </div>
+        <div>
+          <div class="match-col-label">What the tense is doing</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">Showing what happened before the main story moment</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">Listing completed actions in sequence</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">Stepping outside the story to reflect</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">Describing an ongoing action that gets interrupted</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">Showing two simultaneous background actions</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">Showing prior completion before arrival</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 2</div>
+      <h3>Complete the Story</h3>
+      <p class="ex-desc">Click a phrase from the bank, then click the blank where it belongs.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Phrase bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="It all started when" onclick="selectChip(this)">It all started when</div>
+          <div class="chip" data-phrase="While they were pushing" onclick="selectChip(this)">While they were pushing</div>
+          <div class="chip" data-phrase="We had already" onclick="selectChip(this)">We had already</div>
+          <div class="chip" data-phrase="As soon as I" onclick="selectChip(this)">As soon as I</div>
+          <div class="chip" data-phrase="Looking back, I should have" onclick="selectChip(this)">Looking back, I should have</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">1.</span>
+        <span class="fill-slot" id="fs1" data-answer="It all started when" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+        our captain made the call to go aggressive in the final round.
+        <em class="fill-hint">(opening the story)</em>
+        <span class="fill-feedback" id="fb1"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">2.</span>
+        <span class="fill-slot" id="fs2" data-answer="While they were pushing" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+        from the front, we set up the ambush on their flank.
+        <em class="fill-hint">(two things at once)</em>
+        <span class="fill-feedback" id="fb2"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">3.</span>
+        <span class="fill-slot" id="fs3" data-answer="We had already" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+        used every resource we had — there was nothing left to fall back on.
+        <em class="fill-hint">(before the main moment)</em>
+        <span class="fill-feedback" id="fb3"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">4.</span>
+        <span class="fill-slot" id="fs4" data-answer="As soon as I" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+        spotted the opening, I called the push and the team followed instantly.
+        <em class="fill-hint">(one thing triggers another)</em>
+        <span class="fill-feedback" id="fb4"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">5.</span>
+        <span class="fill-slot" id="fs5" data-answer="Looking back, I should have" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+        held my position instead of pushing — the timing was completely wrong.
+        <em class="fill-hint">(reflecting on a mistake)</em>
+        <span class="fill-feedback" id="fb5"></span>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Answers</button>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 3</div>
+      <h3>Correct or Incorrect?</h3>
+      <p class="ex-desc">Is the narrative tense used correctly in each sentence?</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"I was pushing through the door when I heard the explosion."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(1,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"By the time we arrived, they already took the objective."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(2,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"While we were setting up the ambush, they were rotating to our position."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(3,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"It all started when we had decided to split the team."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(4,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"Looking back, I should have called the retreat earlier."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(5,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <div class="disc-card">
+      <h3>🗣 Discussion Questions</h3>
+      <div class="disc-item"><div class="disc-num">1</div><span>What is the most memorable gaming story you have ever told or heard? What made it compelling — the events, the tenses, or the way it was told?</span></div>
+      <div class="disc-item"><div class="disc-num">2</div><span>Think of a match you played recently. Retell it using all three narrative tenses. Your partner must identify which tense you used in each sentence.</span></div>
+      <div class="disc-item"><div class="disc-num">3</div><span>Why do you think past simple alone makes a story boring? Give an example by retelling a moment in past simple only — then retell it using all three tenses. What changes?</span></div>
+      <div class="disc-item"><div class="disc-num">4</div><span>Are highlights more important than consistency in competitive gaming? Use the storytelling phrases from this lesson to build your argument.</span></div>
+      <div class="disc-item"><div class="disc-num">5</div><span>"Looking back, I should have…" — finish this sentence about a real decision you made in a game. Then explain what the turning point was and what you would do differently.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('speaking')">← Speaking</button>
+      <button class="lesson-nav-btn btn-next" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  const tabs = ['vocabulary','phrases','inaction','register','incontext','speaking','exercises'];
+  const completedTabs = new Set();
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause(); currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
+    }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
+  }
+
+  const mcAnswers = { 1:'B', 2:'B', 3:'B', 4:'B' };
+  const mcExplain = {
+    1: {
+      B: { good:true,  msg:"Correct! Past continuous shows two actions that were happening simultaneously in the background — neither had finished yet, both were in progress at the same moment. This is the key function of 'while + past continuous.'" },
+      A: { good:false, msg:"The time something happened doesn't determine which tense you use — the relationship between the actions does." },
+      C: { good:false, msg:"Whether or not the actions succeeded is not what determines the tense. The past continuous here shows simultaneous ongoing actions, regardless of outcome." },
+      D: { good:false, msg:"Tense choice in English is about meaning and timing, not politeness." }
+    },
+    2: {
+      B: { good:true,  msg:"Correct! 'Had been eliminated' is past perfect because the eliminations happened BEFORE the moment the team heard the callout. Past perfect always reaches back to an earlier point in a past timeline." },
+      A: { good:false, msg:"Drama doesn't determine tense choice — the sequence of events does. Past perfect shows what happened first." },
+      C: { good:false, msg:"The tense doesn't tell us whose side they were on — it tells us when the elimination happened relative to the callout." },
+      D: { good:false, msg:"Formality isn't the reason here — 'had been' is used because the eliminations occurred before the central moment being described." }
+    },
+    3: {
+      B: { good:true,  msg:"Correct! 'Was just about to + past simple' is the classic interrupted action structure. The past continuous ('was about to') builds tension by describing an ongoing intention — then the past simple verb ('pulled off') interrupts it at the last moment. Maximum dramatic effect." },
+      A: { good:false, msg:"The two actions are not equal — one is ongoing and about to be stopped, the other is the sudden event that changes everything." },
+      C: { good:false, msg:"There's no suggestion the narrator wasn't paying attention — the structure is deliberately chosen for narrative impact." },
+      D: { good:false, msg:"The retreat did NOT happen — that's exactly the point. The past continuous was about to lead to a retreat, but the past simple event ('pulled off') interrupted and prevented it." }
+    },
+    4: {
+      B: { good:true,  msg:"Correct! 'Looking back, I should have' is a reflection phrase — the narrator steps outside the story to evaluate it from the present. It's no longer narrating events; it's analysing them. The shift from past narrative tenses to 'should have' signals this move from storytelling to self-assessment." },
+      A: { good:false, msg:"There's no anger or blame toward others — 'I should have' is self-criticism, which is actually the opposite of blame." },
+      C: { good:false, msg:"The phrase is not about replaying the match — it's about understanding what the better decision would have been." },
+      D: { good:false, msg:"This is a deliberate and meaningful shift in tone, not a loss of thread. It closes the story with insight." }
+    }
+  };
+  const mcSelected = {};
+  function pickMC(q, letter) {
+    const block = document.getElementById('mc' + q);
+    if (block.dataset.answered) return;
+    mcSelected[q] = letter;
+    block.querySelectorAll('.mc-option').forEach((opt, i) => { opt.classList.toggle('selected', ['A','B','C','D'][i] === letter); });
+    document.getElementById('mc' + q + '-btn').disabled = false;
+  }
+  function checkMC(q) {
+    const block = document.getElementById('mc' + q);
+    if (block.dataset.answered) return;
+    block.dataset.answered = '1';
+    const chosen = mcSelected[q], correct = mcAnswers[q];
+    block.querySelectorAll('.mc-option').forEach((opt, i) => {
+      const l = ['A','B','C','D'][i];
+      opt.classList.remove('selected');
+      if (l === correct) opt.classList.add('correct');
+      else if (l === chosen && chosen !== correct) opt.classList.add('wrong');
+      else opt.classList.add('dim');
+    });
+    const exp = document.getElementById('mc' + q + '-exp');
+    const info = mcExplain[q][chosen] || mcExplain[q][correct];
+    exp.innerHTML = info.msg;
+    exp.className = 'mc-explain show ' + (info.good ? 'good' : 'bad');
+    document.getElementById('mc' + q + '-btn').disabled = true;
+  }
+
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++; document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el; el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = ''; return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  const errorAnswers = { 1:false, 2:true, 3:false, 4:true, 5:false };
+  const errorExplanations = {
+    1: { fix:false, msg:'Correct! "I was pushing through the door" (past continuous) sets up the interrupted background action, and "I heard the explosion" (past simple) is the sudden event that interrupted it. Classic narrative structure.' },
+    2: { fix:true,  msg:'Error: "they already took" should be <strong>"they had already taken"</strong>. After "by the time," the completed prior action needs past perfect to show it happened before the arrival.' },
+    3: { fix:false, msg:'Correct! "While we were setting up" and "they were rotating" — both past continuous, both simultaneous background actions. Perfect use of parallel past continuous.' },
+    4: { fix:true,  msg:'Error: "It all started when we had decided" — past perfect is wrong here. "It all started when" opens the main timeline, so you need past simple: <strong>"It all started when we decided to split the team."</strong> Past perfect would imply the decision happened before the story even began.' },
+    5: { fix:false, msg:'Correct! "Looking back, I should have called" — perfect use of past modal for reflection. "Should have + past participle" is exactly right for analysing a past decision from the present perspective.' },
+  };
+  function checkError(num, userSaysError) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userSaysError && userSaysError !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>
