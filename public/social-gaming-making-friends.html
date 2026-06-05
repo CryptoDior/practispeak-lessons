@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | Social Gaming — Making Friends</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #eef2ff;
+      --white:    #ffffff;
+      --blue:     #2563eb;
+      --blue-lt:  #eff6ff;
+      --blue-bd:  #bfdbfe;
+      --blue-dk:  #1d4ed8;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); }
+    .nav-back:hover { color: var(--text); }
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg, #7c2d12, #b45309); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; overflow: hidden; }
+    .hero-img img { width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius); }
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 20px; font-size: 14px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; overflow: hidden; }
+    .phrase-img img { width: 100%; height: 100%; object-fit: cover; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 22px; font-weight: 800; line-height: 1.25; margin-bottom: 8px; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 14px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+    .listen-col { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+    .audio-player { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn, .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s} .wave span:nth-child(2){height:8px;animation-delay:.1s} .wave span:nth-child(3){height:14px;animation-delay:.2s} .wave span:nth-child(4){height:10px;animation-delay:.05s} .wave span:nth-child(5){height:6px;animation-delay:.15s} .wave span:nth-child(6){height:12px;animation-delay:.25s} .wave span:nth-child(7){height:8px;animation-delay:.1s} .wave span:nth-child(8){height:5px;animation-delay:.2s} .wave span:nth-child(9){height:9px;animation-delay:.05s} .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+    .grammar-examples { margin-top: 20px; }
+    .grammar-examples h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 12px; }
+    .grammar-example-list { display: flex; flex-direction: column; gap: 8px; }
+    .grammar-example-item { background: var(--bg); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; }
+    .grammar-example-item em { color: var(--blue-dk); font-style: italic; }
+    .grammar-example-item span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .grammar-warn { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin-top: 16px; line-height: 1.6; }
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 28px; }
+    .inaction-img { background: linear-gradient(135deg,#1e1b4b,#312e81); height: 180px; display: flex; align-items: center; justify-content: center; color: #a5b4fc; }
+    .inaction-img svg { width: 48px; height: 48px; }
+    .stream-platform { display: flex; align-items: center; gap: 10px; padding: 18px 24px 8px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: .06em; text-transform: uppercase; }
+    .badge-ingame { background: #dcfce7; color: #15803d; }
+    .badge-discord { background: #ede9fe; color: #6d28d9; }
+    .badge-reddit { background: #fff7ed; color: #c2410c; }
+    .stream-title { font-size: 14px; font-weight: 700; color: var(--text); }
+    .stream-text { padding: 0 24px 16px; font-size: 14px; line-height: 1.8; color: var(--text); }
+    .hl { background: #dbeafe; color: #1e40af; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .inaction-note { margin: 0 24px 16px; background: var(--bg); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .inaction-audio { padding: 0 24px 24px; }
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); text-align: left; padding: 12px 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 16px 20px; font-size: 13px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.6; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-table td em { color: var(--blue-dk); }
+    .register-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 20px; letter-spacing: .04em; }
+    .tag-informal { background: #fef9c3; color: #854d0e; }
+    .tag-neutral { background: var(--blue-lt); color: var(--blue-dk); }
+    .tag-formal { background: #f0fdf4; color: #15803d; }
+    .tip-list { display: flex; flex-direction: column; gap: 12px; }
+    .tip { display: flex; gap: 12px; align-items: flex-start; background: var(--white); border-radius: 12px; padding: 14px 18px; box-shadow: var(--shadow); font-size: 13px; line-height: 1.6; }
+    .tip.green { border-left: 4px solid var(--green); }
+    .tip.blue { border-left: 4px solid var(--blue); }
+    .tip.amber { border-left: 4px solid #f59e0b; }
+    .tip.red { border-left: 4px solid var(--red); }
+    .tip-icon { font-size: 16px; flex-shrink: 0; }
+    .transcript-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 28px; }
+    .transcript-title { font-size: 16px; font-weight: 700; margin-bottom: 18px; color: var(--text); }
+    .stream-passage { font-size: 14px; line-height: 1.9; color: var(--text); }
+    .stream-passage mark { background: #dbeafe; color: #1e40af; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .questions-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .questions-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+    .q-intro { font-size: 14px; color: var(--muted); margin-bottom: 28px; }
+    .mc-question { margin-bottom: 32px; }
+    .mc-q-text { font-size: 14px; font-weight: 600; margin-bottom: 14px; line-height: 1.6; }
+    .mc-options { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+    .mc-option { display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; cursor: pointer; font-size: 13px; line-height: 1.6; transition: border-color .15s, background .15s; }
+    .mc-option:hover { border-color: var(--blue-bd); background: var(--blue-lt); }
+    .mc-option.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .mc-option.correct { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .mc-option.wrong { border-color: var(--red); background: var(--red-bg); cursor: default; }
+    .mc-option.dim { opacity: .45; cursor: default; }
+    .mc-letter { width: 24px; height: 24px; border-radius: 50%; background: var(--border); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+    .mc-explain { display: none; font-size: 13px; padding: 12px 16px; border-radius: 10px; margin-bottom: 12px; line-height: 1.6; }
+    .mc-explain.show { display: block; }
+    .mc-explain.good { background: var(--green-bg); color: #14532d; border: 1px solid #bbf7d0; }
+    .mc-explain.bad  { background: var(--red-bg);   color: #9f1239; border: 1px solid #fecdd3; }
+    .mc-check-btn { background: var(--blue); color: #fff; border: none; border-radius: 8px; padding: 8px 20px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; }
+    .mc-check-btn:disabled { background: var(--border); color: var(--muted); cursor: not-allowed; }
+    .speaking-intro { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px 28px; margin-bottom: 24px; font-size: 14px; line-height: 1.7; color: var(--text); }
+    .speaking-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+    .speaking-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; }
+    .speaking-card-label { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .speaking-card-icon { font-size: 20px; }
+    .speaking-card-tag { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); }
+    .speaking-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+    .speaking-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .speaking-tips { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px 28px; }
+    .speaking-tips h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 12px; }
+    .speaking-tips ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .speaking-tips li { font-size: 13px; color: var(--muted); line-height: 1.6; padding-left: 16px; position: relative; }
+    .speaking-tips li::before { content: '→'; position: absolute; left: 0; color: var(--blue); }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 40px; }
+    .lesson-nav-btn { background: var(--white); border: 1.5px solid var(--border); border-radius: 10px; padding: 10px 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; color: var(--text); transition: border-color .15s, color .15s; }
+    .lesson-nav-btn:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); }
+    .lesson-nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--blue); margin-bottom: 16px; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .match-col-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; line-height: 1.5; cursor: pointer; margin-bottom: 8px; transition: border-color .15s, background .15s; }
+    .match-item:hover { border-color: var(--blue-bd); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.correct { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .match-item.wrong { border-color: var(--red); background: var(--red-bg); }
+    .word-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; transition: background .15s; }
+    .chip:hover { background: var(--blue-lt); }
+    .chip.used { opacity: .3; cursor: not-allowed; }
+    .fill-item { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; font-size: 14px; line-height: 1.6; padding: 12px 0; border-bottom: 1px solid var(--border); }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 140px; height: 32px; border: 1.5px dashed var(--blue-bd); border-radius: 8px; padding: 0 10px; cursor: pointer; font-size: 13px; font-weight: 500; color: var(--blue-dk); background: var(--blue-lt); transition: border-color .15s; }
+    .fill-slot.filled { border-style: solid; border-color: var(--blue); }
+    .fill-slot.correct { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .fill-slot.wrong { border-color: var(--red); background: var(--red-bg); color: #9f1239; }
+    .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; font-weight: 400; }
+    .slot-clear { background: none; border: none; cursor: pointer; font-size: 11px; color: var(--muted); margin-left: 6px; }
+    .fill-hint { font-size: 12px; color: var(--muted); font-style: italic; }
+    .fill-feedback { font-size: 14px; font-weight: 700; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong { color: var(--red); }
+    .check-btn { background: var(--blue); color: #fff; border: none; border-radius: 10px; padding: 10px 24px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; margin-top: 8px; transition: background .15s; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .error-item { background: var(--bg); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
+    .error-sentence { font-size: 14px; font-style: italic; margin-bottom: 12px; line-height: 1.6; }
+    .error-btns { display: flex; gap: 10px; margin-bottom: 10px; }
+    .error-btn { padding: 8px 18px; border: 1.5px solid var(--border); border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; background: var(--white); font-family: 'Inter', sans-serif; transition: border-color .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; }
+    .error-btn.wrong-ans  { border-color: var(--red);   background: var(--red-bg);   color: #9f1239; }
+    .error-feedback { display: none; font-size: 13px; padding: 10px 14px; border-radius: 8px; line-height: 1.6; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; border: 1px solid #bbf7d0; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #9f1239; border: 1px solid #fecdd3; }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 16px; font-size: 14px; line-height: 1.6; }
+    .disc-num { width: 28px; height: 28px; background: var(--blue); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-img { display: none; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .grammar-3col { grid-template-columns: 1fr; }
+      .speaking-cards { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+      .tab-nav { overflow-x: auto; }
+      .content { padding: 24px 16px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <div class="nav-logo-icon">P</div>
+      <span>Practispeak</span>
+    </div>
+    <a class="nav-back" href="/">← All Lessons</a>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <div class="hero-badge">B1–B2</div>
+      <h1>Social Gaming — Making Friends</h1>
+      <p class="hero-sub">The idioms and invitations that turn randoms into squadmates</p>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+        <span class="progress-pct" id="progressPct">0%</span>
+      </div>
+    </div>
+    <div class="hero-img">🤝</div>
+  </div>
+
+  <div class="tab-nav-wrap">
+    <div class="tab-nav">
+      <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+      <button class="tab-btn" data-tab="phrases">Phrases</button>
+      <button class="tab-btn" data-tab="inaction">In Action</button>
+      <button class="tab-btn" data-tab="register">Register</button>
+      <button class="tab-btn" data-tab="incontext">In Context</button>
+      <button class="tab-btn" data-tab="speaking">Speaking</button>
+      <button class="tab-btn" data-tab="exercises">Exercises</button>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <!-- ── VOCABULARY ── -->
+  <section class="section active" id="tab-vocabulary">
+    <div class="section-title">Vocabulary</div>
+    <div class="section-sub">8 words for building real connections while gaming</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7c2d12,#b45309)">🤝</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">HIT IT OFF</div>
+        <span class="phrase-tag">Phrasal Verb</span>
+        <p class="phrase-def">To immediately get along well with someone — a natural, instant connection that feels effortless from the very first interaction.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"We hit it off the second we started playing — by round three we were already making plans to queue again."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#312e81)">📨</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">REACH OUT</div>
+        <span class="phrase-tag">Phrasal Verb</span>
+        <p class="phrase-def">To make the first move and contact someone — sending a message, adding them, or starting a conversation you might otherwise have left unstarted.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"After the match I decided to reach out — I had never messaged a random player before, but something told me it was worth it."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#701a75)">✨</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">VIBE</div>
+        <span class="phrase-tag">Noun / Verb</span>
+        <p class="phrase-def">The natural feeling or atmosphere between people — as a verb, to vibe with someone means to get along naturally and comfortably without effort.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The vibe between us was just right from the start — no tension, no ego, just good communication and good games."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#166534)">👥</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">SQUAD</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">Your close gaming friend group — the people you regularly queue with, trust in ranked, and hang out with even when you're not playing.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I built my squad slowly — one player at a time — and now I can't imagine ranked without them."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-04.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#115e59)">🔗</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">LINK UP</div>
+        <span class="phrase-tag">Phrasal Verb</span>
+        <p class="phrase-def">To meet or connect with someone to play together — the moment the friendship moves from "random match" to "planned session."</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"We linked up for the first time on a Friday night and ended up playing until four in the morning."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-05.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#78350f,#92400e)">🎮</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">HANG OUT</div>
+        <span class="phrase-tag">Phrasal Verb</span>
+        <p class="phrase-def">To spend relaxed, unstructured time with someone — in gaming, this often means chilling in voice chat, watching streams together, or just being present without an agenda.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"We started hanging out in voice chat even on nights we weren't playing — that's when I knew this was more than just a gaming group."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-06.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#172554,#1e3a8a)">⚡</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">CLICK</div>
+        <span class="phrase-tag">Verb</span>
+        <p class="phrase-def">To naturally and instantly get along with someone — when two players click, the communication feels easy, the humour matches, and the friendship builds itself.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"We clicked straight away — same humour, same playstyle, same attitude. It doesn't happen often, but when it does, you know."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-07.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1c1917,#292524)">🛡️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">WINGMAN</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">Your most reliable partner — the one who always covers your flank, backs up your calls, and has your back whether you're winning or losing.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"He's been my wingman through every ranked season — always there, always covering the flank, always has my back."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-08.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/social-vocab-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" disabled>← Previous</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('phrases')">Phrases →</button>
+    </div>
+  </section>
+
+  <!-- ── PHRASES ── -->
+  <section class="section" id="tab-phrases">
+    <div class="section-title">Phrases</div>
+    <div class="section-sub">8 phrases for making friends, extending invitations, and building a squad</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#115e59)">🎯</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">"Want to hop in?"</div>
+        <span class="phrase-tag">Casual Invitation</span>
+        <p class="phrase-def">The most natural gaming invitation — direct, low-pressure, and easy to say yes or no to. "Hop in" implies it's easy, instant, and no big deal if they can't.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"We're about to start a ranked match — want to hop in? We've got room for one more."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/social-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#312e81)">🌱</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">"We should run some games sometime."</div>
+        <span class="phrase-tag">Low-Pressure Invite</span>
+        <p class="phrase-def">"Sometime" makes this invitation easy to accept — it's open, flexible, and signals genuine interest without creating pressure to commit to a specific time. Perfect for a first approach.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"You played really well today — we should run some games sometime, no pressure."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/social-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7c2d12,#b45309)">📲</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">"Hit me up if you want to play."</div>
+        <span class="phrase-tag">Open Invitation</span>
+        <p class="phrase-def">Puts the decision in their hands — you're expressing interest and availability without chasing. "Hit me up" is casual, friendly, and used across gaming and social English.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I'm usually on after 8 — hit me up if you want to play and we'll squad up."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/social-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#166534)">💬</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">"We really hit it off last session."</div>
+        <span class="phrase-tag">Describing Connection</span>
+        <p class="phrase-def">Names the chemistry — if you say this, you're telling someone directly that you felt the connection too. It's a warm, honest observation that opens the door to doing it again.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I don't usually add randoms but we really hit it off last session — you in for tonight?"</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/social-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#701a75)">🙌</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">"You'd fit right in with our squad."</div>
+        <span class="phrase-tag">Including Someone</span>
+        <p class="phrase-def">One of the warmest things you can say — "fit right in" means they belong without needing to change anything. It's an invitation and a compliment at the same time.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Honestly, the way you communicate and rotate — you'd fit right in with our squad."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/social-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0c4a6e,#075985)">🔗</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">"I'll add you — we should link up."</div>
+        <span class="phrase-tag">Making It Happen</span>
+        <p class="phrase-def">Turns intention into action — "I'll add you" does something immediately, and "we should link up" follows with a clear next step. The fastest way to move from a good game to a real connection.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"That was a great game — I'll add you, we should link up again this weekend."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/social-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#172554,#1e3a8a)">🚪</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">"No pressure, but we're always looking for good players."</div>
+        <span class="phrase-tag">Soft Recruitment</span>
+        <p class="phrase-def">"No pressure" does the heavy lifting here — it signals that this is an invitation, not a demand. The compliment ("good players") follows immediately, making this one of the most effective ways to recruit a new squadmate.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"No pressure, but we're always looking for good players — the squad runs every Friday night."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/social-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1c1917,#292524)">💡</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">"I feel like we just click."</div>
+        <span class="phrase-tag">Naming the Friendship</span>
+        <p class="phrase-def">Naming a connection out loud makes it real. This phrase is honest, direct, and rare — most people feel it but never say it. Using it builds real friendship faster than any invitation.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"It's rare to find someone who actually communicates online — I feel like we just click, you know?"</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/social-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <!-- GRAMMAR NOTE -->
+    <div class="grammar-note">
+      <h3>💡 Grammar Focus — Making Invitations</h3>
+      <p>English has three levels of invitation strength. All three appear in gaming — the trick is matching the level to the moment. Using a strong invitation too early can feel pushy; using a weak one when you're already close can feel cold.</p>
+
+      <div class="grammar-3col">
+        <div class="grammar-col">
+          <h4>Direct — action now</h4>
+          <div class="grammar-row">Form: <code>Want to + verb?</code></div>
+          <div class="grammar-row">Signal: immediate, clear, easy to answer</div>
+          <div class="grammar-row"><code>"Want to hop in?" / "I'll add you."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Use mid-game or when you already have a connection. Fast, casual, and natural.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>Soft — no pressure</h4>
+          <div class="grammar-row">Form: <code>We should + verb + sometime</code></div>
+          <div class="grammar-row">Signal: genuine interest, low stakes</div>
+          <div class="grammar-row"><code>"We should run some games sometime."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">"Sometime" removes the pressure to commit immediately — it signals interest without forcing a decision.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>Inclusive — you belong here</h4>
+          <div class="grammar-row">Form: <code>You'd + fit / feel + right in</code></div>
+          <div class="grammar-row">Signal: compliment + invitation combined</div>
+          <div class="grammar-row"><code>"You'd fit right in with our squad."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">The warmest form — it tells someone they already belong before they've even said yes.</div>
+        </div>
+      </div>
+
+      <div class="grammar-examples">
+        <h4>Gaming invitations — all three levels in context</h4>
+        <div class="grammar-example-list">
+          <div class="grammar-example-item"><em>"Want to hop in? We've got room for one more."</em> <span>→ direct, immediate, in-game</span></div>
+          <div class="grammar-example-item"><em>"Hit me up if you want to play — no rush."</em> <span>→ open invitation, decision is theirs</span></div>
+          <div class="grammar-example-item"><em>"We should run some games sometime — I play most evenings."</em> <span>→ soft, flexible, no pressure</span></div>
+          <div class="grammar-example-item"><em>"No pressure, but you'd fit right in with our squad."</em> <span>→ combining soft + inclusive</span></div>
+          <div class="grammar-example-item"><em>"I'll add you — we really hit it off and I'd love to link up again."</em> <span>→ naming the connection + immediate action</span></div>
+          <div class="grammar-example-item"><em>"I feel like we just click — want to hop in for another match?"</em> <span>→ naming the friendship + direct follow-up</span></div>
+        </div>
+      </div>
+
+      <div class="grammar-warn">
+        ⚠️ <strong>The most common mistake:</strong> using formal invitation language in gaming. <em>"Would you like to join our gaming session this evening?"</em> is grammatically correct but sounds unnatural and stiff — like you're inviting someone to a business meeting. In gaming English, keep invitations casual: <em>"Want to hop in?"</em> or <em>"Hit me up"</em> are always more natural than formal alternatives.
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('vocabulary')">← Vocabulary</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('inaction')">In Action →</button>
+    </div>
+  </section>
+
+  <!-- ── IN ACTION ── -->
+  <section class="section" id="tab-inaction">
+    <div class="section-title">In Action</div>
+    <div class="section-sub">How social gaming language sounds across different real-world contexts</div>
+
+    <div class="stream-card">
+      <div class="inaction-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 18.5a6.5 6.5 0 100-13 6.5 6.5 0 000 13z"/><path d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-ingame">In-Game Voice</span><span class="stream-title">End of Match — Making the Move</span></div>
+      <p class="stream-text">
+        "GG man, that last round was actually insane. Hey — quick question — you play ranked at all? Because honestly, the way you were calling out the rotations, we've been looking for someone like that. No pressure or anything, but — <span class="hl">want to hop in</span> with us next match? We've got room for one more. I'll add you now. <span class="hl">Hit me up</span> whenever you're on — we run most evenings. I feel like we'd just <span class="hl">click</span> as a full squad, you know what I mean? The <span class="hl">vibes</span> were right tonight."
+      </p>
+      <div class="inaction-note">Notice how the speaker uses a direct invitation ("want to hop in?"), an open invitation ("hit me up"), and a connection statement ("feel like we'd just click") — all within a few sentences. This is how natural gaming friendships start: fast, casual, and genuine.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/social-inaction-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to paragraph</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037 13.794 13.794 0 00-.607 1.246 18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.246.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-discord">Discord DM</span><span class="stream-title">Reaching Out After a Good Game</span></div>
+      <p class="stream-text">
+        "Hey! Sorry to <span class="hl">reach out</span> out of nowhere — we played together last night in that overtime match and I just wanted to say GG properly. You were genuinely great to play with — we really <span class="hl">hit it off</span> and it's honestly rare to find someone who calls out, doesn't tilt, and actually has fun with it. Our <span class="hl">squad</span> runs every Friday and Saturday night. No pressure at all, but if you ever want to <span class="hl">link up</span>, we'd love to have you. <span class="hl">You'd fit right in</span> — our vibe is really chill. Just let me know!"
+      </p>
+      <div class="inaction-note">Discord DMs are warmer and more personal than voice chat — the sender has time to explain themselves, compliment the player, and make the invitation feel genuine. Notice the "sorry to reach out out of nowhere" opener — it acknowledges that the message might be unexpected and immediately makes it feel safe to respond.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/social-inaction-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to paragraph</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-reddit">Reddit LFG</span><span class="stream-title">Looking for Group — Written Post</span></div>
+      <p class="stream-text">
+        "[LFG] PC — Ranked — Looking for chill players who actually communicate.<br><br>
+        We're a small <span class="hl">squad</span> of three who've been playing together for about six months. We're not necessarily looking for the best mechanical players — we're looking for people we genuinely <span class="hl">click</span> with. If you call out, don't tilt, and want to <span class="hl">hang out</span> and improve together, please <span class="hl">reach out</span>. We run games every weekend and a couple of weeknights. <span class="hl">Hit me up</span> in the comments or DM. Positive <span class="hl">vibes</span> only — <span class="hl">no pressure</span>, just good games with people who actually give a damn about the team."
+      </p>
+      <div class="inaction-note">Written LFG posts use a slightly more structured register than voice or DMs — but the vocabulary stays casual and authentic. Notice how "no pressure" works even in writing: it signals that the poster is friendly and approachable, not intense or demanding. The entire post uses lesson vocabulary naturally without sounding forced.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/social-inaction-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to paragraph</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('phrases')">← Phrases</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('register')">Register →</button>
+    </div>
+  </section>
+
+  <!-- ── REGISTER ── -->
+  <section class="section" id="tab-register">
+    <div class="section-title">Register</div>
+    <div class="section-sub">How social gaming language shifts across different contexts</div>
+
+    <div class="register-table">
+      <table>
+        <thead><tr><th>Context</th><th>Register</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>In-game voice (mid-match)</strong><br><span style="font-size:12px;color:var(--muted)">Fast, spontaneous</span></td>
+            <td><span class="register-tag tag-informal">Informal / Fast</span></td>
+            <td><em>"Want to hop in? Quick — we need one more."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Post-game voice chat</strong><br><span style="font-size:12px;color:var(--muted)">Relaxed, winding down</span></td>
+            <td><span class="register-tag tag-informal">Informal / Warm</span></td>
+            <td><em>"GG — hit me up sometime, we should run some games and link up properly."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Discord DM</strong><br><span style="font-size:12px;color:var(--muted)">Personal, thoughtful</span></td>
+            <td><span class="register-tag tag-informal">Informal / Friendly</span></td>
+            <td><em>"Hey, sorry to reach out — you'd fit right in with our squad. No pressure at all."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Reddit LFG post</strong><br><span style="font-size:12px;color:var(--muted)">Semi-public, descriptive</span></td>
+            <td><span class="register-tag tag-neutral">Neutral / Structured</span></td>
+            <td><em>"Looking for players we genuinely click with. Hit me up if the vibe sounds right."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Esports team tryout</strong><br><span style="font-size:12px;color:var(--muted)">Professional, selective</span></td>
+            <td><span class="register-tag tag-formal">Semi-Formal</span></td>
+            <td><em>"We'd love to have you trial with the squad this weekend — reach out if you're interested."</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tip-list">
+      <div class="tip green"><span class="tip-icon">✅</span><span>All 8 vocabulary words and phrases work naturally in casual gaming contexts — that's their home. The more casual the setting, the more natural they feel.</span></div>
+      <div class="tip blue"><span class="tip-icon">💡</span><span><strong>"No pressure"</strong> is the single most powerful phrase for low-stakes invitations in English. It signals genuine friendliness — you're making an offer, not a demand. Use it in any context where the invitation might feel high-stakes.</span></div>
+      <div class="tip amber"><span class="tip-icon">⚠️</span><span>In formal esports contexts (team tryouts, professional contacts), replace <strong>"hit me up"</strong> with <strong>"feel free to reach out"</strong> and <strong>"link up"</strong> with <strong>"schedule a session."</strong> Keep the warmth, raise the register slightly.</span></div>
+      <div class="tip red"><span class="tip-icon">❌</span><span>Don't use overly formal invitations in gaming — <em>"Would you be so kind as to join our gaming session this evening?"</em> is grammatically correct but sounds unnatural in any gaming context. Even in esports tryouts, <em>"we'd love to have you"</em> beats formal phrasing every time.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('inaction')">← In Action</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('incontext')">In Context →</button>
+    </div>
+  </section>
+
+  <!-- ── IN CONTEXT ── -->
+  <section class="section" id="tab-incontext">
+    <div class="section-title">In Context</div>
+    <div class="section-sub">Read the story — highlighted phrases are from this lesson</div>
+
+    <div class="transcript-card">
+      <div class="transcript-title">The Squad I Never Expected</div>
+      <p class="stream-passage">
+        I almost didn't log on that Tuesday. I was tired, I had already told myself one more match and then bed — and then a notification came in: "Looking for one more — <mark>want to hop in?</mark>" I hit accept without thinking.<br><br>
+        The first round, nobody said a word. Then someone called out a rotation I had been thinking about myself — and we <mark>hit it off</mark> immediately. By the end of the match we were laughing like we had known each other for years.<br><br>
+        After the game, one of them <mark>reached out</mark> on Discord: "Hey — you played great. <mark>We should run some games sometime</mark> — no pressure." I remember reading that message three times. It was such a low-key, comfortable way to make a new friend.<br><br>
+        That was eight months ago. Now they are <mark>my squad</mark>. We <mark>link up</mark> every Friday, <mark>hang out</mark> in voice chat even when we are not playing, and I have a <mark>wingman</mark> for every ranked session I have played since. I feel like we just <mark>click</mark> — in games and outside them.<br><br>
+        I almost said no that Tuesday. <mark>You'd fit right in</mark> — that is what they told me after the third game. The squad I never expected turned out to be the best gaming decision I ever made.
+      </p>
+    </div>
+
+    <div class="questions-card">
+      <h3>Comprehension Questions</h3>
+      <p class="q-intro">Think about <em>why</em> each phrase was chosen — not just what it means.</p>
+
+      <div class="mc-question" id="mc1">
+        <div class="mc-q-text">1. <em>"We hit it off immediately."</em> What does this phrase tell us about how the connection happened?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(1,'A')"><div class="mc-letter">A</div>They had played together many times before and already knew each other</div>
+          <div class="mc-option" onclick="pickMC(1,'B')"><div class="mc-letter">B</div>The connection was instant and natural — it happened without effort from the very first interaction</div>
+          <div class="mc-option" onclick="pickMC(1,'C')"><div class="mc-letter">C</div>They had a disagreement at first but eventually got along</div>
+          <div class="mc-option" onclick="pickMC(1,'D')"><div class="mc-letter">D</div>One player was much better than the other and impressed them</div>
+        </div>
+        <div class="mc-explain" id="mc1-exp"></div>
+        <button class="mc-check-btn" id="mc1-btn" onclick="checkMC(1)" disabled>Check</button>
+      </div>
+
+      <div class="mc-question" id="mc2">
+        <div class="mc-q-text">2. The Discord message says <em>"we should run some games sometime — no pressure."</em> Why is "no pressure" important in this invitation?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(2,'A')"><div class="mc-letter">A</div>It means the sender does not actually want the narrator to join</div>
+          <div class="mc-option" onclick="pickMC(2,'B')"><div class="mc-letter">B</div>It is a formal phrase required when messaging strangers on Discord</div>
+          <div class="mc-option" onclick="pickMC(2,'C')"><div class="mc-letter">C</div>It makes the invitation low-stakes and easy to say yes or no to — the sender is being friendly, not pushy</div>
+          <div class="mc-option" onclick="pickMC(2,'D')"><div class="mc-letter">D</div>It signals that the games will not be ranked or competitive</div>
+        </div>
+        <div class="mc-explain" id="mc2-exp"></div>
+        <button class="mc-check-btn" id="mc2-btn" onclick="checkMC(2)" disabled>Check</button>
+      </div>
+
+      <div class="mc-question" id="mc3">
+        <div class="mc-q-text">3. The narrator says <em>"one of them reached out on Discord."</em> What does "reach out" tell us about who made the first move?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(3,'A')"><div class="mc-letter">A</div>The squadmate took the initiative — they chose to contact the narrator first rather than waiting</div>
+          <div class="mc-option" onclick="pickMC(3,'B')"><div class="mc-letter">B</div>The narrator sent the message and is describing it from the other person's perspective</div>
+          <div class="mc-option" onclick="pickMC(3,'C')"><div class="mc-letter">C</div>Both players reached out at the same time by accident</div>
+          <div class="mc-option" onclick="pickMC(3,'D')"><div class="mc-letter">D</div>The message was sent automatically by the game platform</div>
+        </div>
+        <div class="mc-explain" id="mc3-exp"></div>
+        <button class="mc-check-btn" id="mc3-btn" onclick="checkMC(3)" disabled>Check</button>
+      </div>
+
+      <div class="mc-question" id="mc4">
+        <div class="mc-q-text">4. The narrator ends: <em>"I almost said no that Tuesday."</em> Why does this detail matter to the story?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(4,'A')"><div class="mc-letter">A</div>It shows that the narrator regrets logging on that evening</div>
+          <div class="mc-option" onclick="pickMC(4,'B')"><div class="mc-letter">B</div>It shows that the best connections can come from small, almost-missed moments — saying yes to one invitation changed everything</div>
+          <div class="mc-option" onclick="pickMC(4,'C')"><div class="mc-letter">C</div>It is a warning that Tuesday nights are not a good time to play</div>
+          <div class="mc-option" onclick="pickMC(4,'D')"><div class="mc-letter">D</div>It shows that the narrator is usually very confident and decisive</div>
+        </div>
+        <div class="mc-explain" id="mc4-exp"></div>
+        <button class="mc-check-btn" id="mc4-btn" onclick="checkMC(4)" disabled>Check</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('register')">← Register</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('speaking')">Speaking →</button>
+    </div>
+  </section>
+
+  <!-- ── SPEAKING ── -->
+  <section class="section" id="tab-speaking">
+    <div class="section-title">Speaking</div>
+    <div class="section-sub">Choose a scenario — tell your story, role-play, or debate</div>
+
+    <div class="speaking-intro">
+      Pick one option. You have <strong>3–4 minutes</strong> to prepare and speak. Use at least <strong>4 vocabulary words</strong> and <strong>4 phrases</strong> from the lesson. The best social English sounds effortless — aim for natural, not perfect.
+    </div>
+
+    <div class="speaking-cards">
+      <div class="speaking-card">
+        <div class="speaking-card-label"><span class="speaking-card-icon">🎮</span><span class="speaking-card-tag">Option A</span></div>
+        <h3>Tell Your Story</h3>
+        <p>Describe how you made a gaming friend — or imagine the perfect first meeting with a player you'd want in your squad. How did it start? What made you click? Did you reach out, or did they? Your partner listens and asks two follow-up questions. Then swap.</p>
+      </div>
+      <div class="speaking-card">
+        <div class="speaking-card-label"><span class="speaking-card-icon">🤝</span><span class="speaking-card-tag">Option B</span></div>
+        <h3>The Invitation</h3>
+        <p>Role-play: you've just had a great game with a random player. Extend an invitation to join your squad using at least 4 phrases naturally. Your partner can accept, decline politely, or ask questions. Then swap — your partner invites, you respond.</p>
+      </div>
+      <div class="speaking-card">
+        <div class="speaking-card-label"><span class="speaking-card-icon">⚖️</span><span class="speaking-card-tag">Option C</span></div>
+        <h3>Debate: Online vs IRL</h3>
+        <p>Your partner argues: <em>"Online gaming friends aren't real friends — you don't actually know them."</em> Disagree. Build your counter-argument using vocabulary and examples from this lesson. Then swap sides.</p>
+      </div>
+    </div>
+
+    <div class="speaking-tips">
+      <h4>Useful reminders while you speak</h4>
+      <ul>
+        <li>Mirror how gaming invitations actually sound — <em>"Want to hop in?"</em> is always more natural than <em>"Would you like to join us?"</em></li>
+        <li>Use <em>"no pressure"</em> to keep invitations comfortable — it signals you're being genuine, not pushy, and makes it easy for the other person to say yes or no.</li>
+        <li><em>"I feel like we just click"</em> works best as a closer, not an opener — build up to it rather than leading with it.</li>
+        <li>When declining an invitation, use <em>"maybe another time"</em> or <em>"hit me up next weekend"</em> — these keep the door open without committing.</li>
+      </ul>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('incontext')">← In Context</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('exercises')">Exercises →</button>
+    </div>
+  </section>
+
+  <!-- ── EXERCISES ── -->
+  <section class="section" id="tab-exercises">
+    <div class="section-title">Exercises</div>
+    <div class="section-sub">Complete all three exercises, then discuss the questions</div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 1</div>
+      <h3>Match the Idiom to Its Meaning</h3>
+      <p class="ex-desc">Click a phrase on the left, then match it to its meaning on the right.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Phrases</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">"We really hit it off — it felt like I'd known them for years."</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">"I decided to reach out after that crazy match."</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">"Let's link up this Friday for ranked."</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">"You'd fit right in — the squad's really chill."</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">"He's been my wingman for every ranked season."</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">"I feel like we just click — you know what I mean?"</div>
+        </div>
+        <div>
+          <div class="match-col-label">Meanings</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">Connect and play together</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">Immediately get along with someone</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">Naturally understand each other without effort</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">Make the first move to contact someone</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">The reliable partner who always has your back</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">Feel immediately comfortable and welcome in a group</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 2</div>
+      <h3>Complete the Invitation</h3>
+      <p class="ex-desc">Click a phrase from the bank, then click the blank where it belongs.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Phrase bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="hit it off" onclick="selectChip(this)">hit it off</div>
+          <div class="chip" data-phrase="link up" onclick="selectChip(this)">link up</div>
+          <div class="chip" data-phrase="Hit me up" onclick="selectChip(this)">Hit me up</div>
+          <div class="chip" data-phrase="fit right in" onclick="selectChip(this)">fit right in</div>
+          <div class="chip" data-phrase="reach out" onclick="selectChip(this)">reach out</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">1.</span>
+        We <span class="fill-slot" id="fs1" data-answer="hit it off" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+        last session — I've never vibed that well with a random.
+        <em class="fill-hint">(immediate connection)</em>
+        <span class="fill-feedback" id="fb1"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">2.</span>
+        I'll add you — we should <span class="fill-slot" id="fs2" data-answer="link up" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+        this weekend.
+        <em class="fill-hint">(make it happen)</em>
+        <span class="fill-feedback" id="fb2"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">3.</span>
+        <span class="fill-slot" id="fs3" data-answer="Hit me up" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+        if you ever want to queue — I'm on most evenings.
+        <em class="fill-hint">(open invitation)</em>
+        <span class="fill-feedback" id="fb3"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">4.</span>
+        No pressure, but you'd <span class="fill-slot" id="fs4" data-answer="fit right in" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+        with our squad.
+        <em class="fill-hint">(you belong here)</em>
+        <span class="fill-feedback" id="fb4"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">5.</span>
+        I decided to <span class="fill-slot" id="fs5" data-answer="reach out" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+        after seeing your clips — you're exactly who we're looking for.
+        <em class="fill-hint">(make first contact)</em>
+        <span class="fill-feedback" id="fb5"></span>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Answers</button>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 3</div>
+      <h3>Correct or Incorrect?</h3>
+      <p class="ex-desc">Is the vocabulary or phrase used correctly in each sentence?</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"Want to hop in? We've got room for one more."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(1,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"We're always looking for players to click us."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(2,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"Hit me up if you want to link up this weekend."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(3,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"I feel like we just vibe — our playstyles match perfectly."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(4,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"I decided to reach out her after the match — she'd fit right in."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(5,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <div class="disc-card">
+      <h3>🗣 Discussion Questions</h3>
+      <div class="disc-item"><div class="disc-num">1</div><span>What makes someone easy to "hit it off" with while gaming? Is it different from how you connect with people in real life?</span></div>
+      <div class="disc-item"><div class="disc-num">2</div><span>Have you ever "reached out" to a random player after a good match? What happened — or what stopped you from doing it?</span></div>
+      <div class="disc-item"><div class="disc-num">3</div><span>Think about your own squad or a close gaming group. How did those friendships start? Was there a specific moment where you knew you "clicked"?</span></div>
+      <div class="disc-item"><div class="disc-num">4</div><span>"No pressure, but…" — why do you think this phrase is so effective at making people feel comfortable with an invitation? Can you think of other situations where it would work well?</span></div>
+      <div class="disc-item"><div class="disc-num">5</div><span>Do you think gaming friendships can be as meaningful as friendships made in person? Use vocabulary and phrases from this lesson to argue your point.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('speaking')">← Speaking</button>
+      <button class="lesson-nav-btn btn-next" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+  </div>
+
+<script>
+  const tabs = ['vocabulary','phrases','inaction','register','incontext','speaking','exercises'];
+  const completedTabs = new Set();
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause(); currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
+    }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
+  }
+
+  const mcAnswers = { 1:'B', 2:'C', 3:'A', 4:'B' };
+  const mcExplain = {
+    1: {
+      B: { good:true,  msg:"Correct! 'Hit it off' describes an instant, natural connection — the kind that feels effortless from the very first interaction. 'Immediately' reinforces that it required no time or effort at all." },
+      A: { good:false, msg:"'Hit it off' describes a first-time natural connection — it implies they had NOT met before and got along instantly." },
+      C: { good:false, msg:"'Hit it off' has no suggestion of a disagreement — it's entirely positive and describes ease of connection, not conflict." },
+      D: { good:false, msg:"'Hit it off' is about interpersonal connection and compatibility, not skill level or being impressed by someone's performance." }
+    },
+    2: {
+      A: { good:false, msg:"'No pressure' is the opposite — it signals the sender genuinely wants the recipient to feel free to respond or not. It makes the invitation more sincere, not less." },
+      B: { good:false, msg:"'No pressure' is not a formal phrase — it's casual and warm. There's no rule about using it when messaging strangers; it's simply a way of being kind." },
+      C: { good:true,  msg:"Correct! 'No pressure' is a social signal that removes obligation from the invitation. It tells the recipient: 'I genuinely want you to join, but I also completely respect if you don't.' This makes it much easier to say yes." },
+      D: { good:false, msg:"'No pressure' has nothing to do with ranked versus casual play — it's about the social stakes of the invitation, not the game type." }
+    },
+    3: {
+      A: { good:true,  msg:"Correct! 'Reached out' always means initiating contact — making the first move. By saying 'one of them reached out,' the narrator makes clear that the squadmate chose to take the initiative and send the message first." },
+      B: { good:false, msg:"'Reached out' always implies the subject initiated — 'one of them reached out' means they sent it, not the narrator." },
+      C: { good:false, msg:"If both had contacted each other at the same time, you would say they both reached out — but the sentence specifies 'one of them,' making it clear it was one-directional." },
+      D: { good:false, msg:"'Reached out' is a deliberate action by a person — it cannot refer to an automatic system notification." }
+    },
+    4: {
+      A: { good:false, msg:"The narrator clearly does not regret it — the story ends positively. This detail is about the fragility of the moment, not regret." },
+      B: { good:true,  msg:"Correct! 'I almost said no' highlights how close the narrator came to missing the whole experience. It gives the story its emotional weight — the best connections can come from the smallest decisions, and this one almost didn't happen." },
+      C: { good:false, msg:"There's no suggestion that Tuesday is a bad time to play — the detail is about how close the narrator came to not logging on, not about the day of the week." },
+      D: { good:false, msg:"'Almost said no' implies hesitation and uncertainty — the opposite of confidence and decisiveness." }
+    }
+  };
+  const mcSelected = {};
+  function pickMC(q, letter) {
+    const block = document.getElementById('mc' + q);
+    if (block.dataset.answered) return;
+    mcSelected[q] = letter;
+    block.querySelectorAll('.mc-option').forEach((opt, i) => { opt.classList.toggle('selected', ['A','B','C','D'][i] === letter); });
+    document.getElementById('mc' + q + '-btn').disabled = false;
+  }
+  function checkMC(q) {
+    const block = document.getElementById('mc' + q);
+    if (block.dataset.answered) return;
+    block.dataset.answered = '1';
+    const chosen = mcSelected[q], correct = mcAnswers[q];
+    block.querySelectorAll('.mc-option').forEach((opt, i) => {
+      const l = ['A','B','C','D'][i];
+      opt.classList.remove('selected');
+      if (l === correct) opt.classList.add('correct');
+      else if (l === chosen && chosen !== correct) opt.classList.add('wrong');
+      else opt.classList.add('dim');
+    });
+    const exp = document.getElementById('mc' + q + '-exp');
+    const info = mcExplain[q][chosen] || mcExplain[q][correct];
+    exp.innerHTML = info.msg;
+    exp.className = 'mc-explain show ' + (info.good ? 'good' : 'bad');
+    document.getElementById('mc' + q + '-btn').disabled = true;
+  }
+
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++; document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el; el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = ''; return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  const errorAnswers = { 1:false, 2:true, 3:false, 4:false, 5:true };
+  const errorExplanations = {
+    1: { fix:false, msg:"Correct! 'Want to hop in?' is a natural, direct gaming invitation — casual, clear, and easy to answer. Exactly right." },
+    2: { fix:true,  msg:"Error: 'click' is intransitive — you click <em>with</em> someone, not 'click' someone. The correct form is: <strong>'looking for players to click <em>with</em> us.'</strong>" },
+    3: { fix:false, msg:"Correct! 'Hit me up' and 'link up' work perfectly together — an open invitation paired with a casual plan. Exactly how gaming friends make plans." },
+    4: { fix:false, msg:"Correct! 'Vibe' works naturally as a verb — 'we just vibe' means we get along naturally without effort. The sentence is grammatically and idiomatically correct." },
+    5: { fix:true,  msg:"Error: 'reach out' needs the preposition 'to' — you reach out <em>to</em> someone. The correct form is: <strong>'I decided to reach out <em>to</em> her after the match.'</strong>" },
+  };
+  function checkError(num, userAnswer) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userAnswer && userAnswer !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>

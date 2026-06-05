@@ -14,6 +14,7 @@ import { questionsWhatWhoWhere } from './questions-what-who-where';
 import { onlineToxicityCommunication } from './online-toxicity-communication';
 import { esportsCompetitiveGaming } from './esports-competitive-gaming';
 import { narrativeTensesStorytelling } from './narrative-tenses-storytelling';
+import { socialGamingMakingFriends } from './social-gaming-making-friends';
 /**
  * Add new lessons here by importing the lesson file and adding it to this array.
  * The lesson page routing and home page listing are automatic.
@@ -34,6 +35,9 @@ export const lessons: Lesson[] = [
   onlineToxicityCommunication,
   esportsCompetitiveGaming,
   narrativeTensesStorytelling,
+  socialGamingMakingFriends,
 ];
 
-export 
+export function getLessonBySlug(slug: string): Lesson | undefined {
+  return lessons.find((l) => l.slug === slug);
+}
