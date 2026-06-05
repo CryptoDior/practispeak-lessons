@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | Tech Talk — Lag & Troubleshooting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #eef2ff;
+      --white:    #ffffff;
+      --blue:     #2563eb;
+      --blue-lt:  #eff6ff;
+      --blue-bd:  #bfdbfe;
+      --blue-dk:  #1d4ed8;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); }
+    .nav-back:hover { color: var(--text); }
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg,#1e293b,#334155); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; }
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 20px; font-size: 14px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 22px; font-weight: 800; line-height: 1.25; margin-bottom: 8px; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 14px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+    .listen-col { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+    .audio-player { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn, .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s} .wave span:nth-child(2){height:8px;animation-delay:.1s} .wave span:nth-child(3){height:14px;animation-delay:.2s} .wave span:nth-child(4){height:10px;animation-delay:.05s} .wave span:nth-child(5){height:6px;animation-delay:.15s} .wave span:nth-child(6){height:12px;animation-delay:.25s} .wave span:nth-child(7){height:8px;animation-delay:.1s} .wave span:nth-child(8){height:5px;animation-delay:.2s} .wave span:nth-child(9){height:9px;animation-delay:.05s} .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+    .grammar-examples { margin-top: 20px; }
+    .grammar-examples h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 12px; }
+    .grammar-example-list { display: flex; flex-direction: column; gap: 8px; }
+    .grammar-example-item { background: var(--bg); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; }
+    .grammar-example-item em { color: var(--blue-dk); font-style: italic; }
+    .grammar-example-item span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .grammar-warn { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin-top: 16px; line-height: 1.6; }
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 28px; }
+    .inaction-img { background: linear-gradient(135deg,#1e293b,#334155); height: 180px; display: flex; align-items: center; justify-content: center; color: #94a3b8; }
+    .inaction-img svg { width: 48px; height: 48px; }
+    .stream-platform { display: flex; align-items: center; gap: 10px; padding: 18px 24px 8px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: .06em; text-transform: uppercase; }
+    .badge-discord { background: #ede9fe; color: #6d28d9; }
+    .badge-forum  { background: var(--blue-lt); color: var(--blue-dk); }
+    .badge-stream { background: #fce7f3; color: #9d174d; }
+    .stream-title { font-size: 14px; font-weight: 700; color: var(--text); }
+    .stream-text { padding: 0 24px 16px; font-size: 14px; line-height: 1.8; color: var(--text); }
+    .hl { background: #dbeafe; color: #1e40af; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .inaction-note { margin: 0 24px 16px; background: var(--bg); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .inaction-audio { padding: 0 24px 24px; }
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); text-align: left; padding: 12px 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 16px 20px; font-size: 13px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.6; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-table td em { color: var(--blue-dk); }
+    .register-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 20px; letter-spacing: .04em; }
+    .tag-informal { background: #fef9c3; color: #854d0e; }
+    .tag-neutral { background: var(--blue-lt); color: var(--blue-dk); }
+    .tag-formal { background: #f0fdf4; color: #15803d; }
+    .tip-list { display: flex; flex-direction: column; gap: 12px; }
+    .tip { display: flex; gap: 12px; align-items: flex-start; background: var(--white); border-radius: 12px; padding: 14px 18px; box-shadow: var(--shadow); font-size: 13px; line-height: 1.6; }
+    .tip.green { border-left: 4px solid var(--green); }
+    .tip.blue { border-left: 4px solid var(--blue); }
+    .tip.amber { border-left: 4px solid #f59e0b; }
+    .tip.red { border-left: 4px solid var(--red); }
+    .tip-icon { font-size: 16px; flex-shrink: 0; }
+    .transcript-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 28px; }
+    .transcript-title { font-size: 16px; font-weight: 700; margin-bottom: 18px; color: var(--text); }
+    .stream-passage { font-size: 14px; line-height: 1.9; color: var(--text); }
+    .stream-passage mark { background: #dbeafe; color: #1e40af; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .questions-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .questions-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+    .q-intro { font-size: 14px; color: var(--muted); margin-bottom: 28px; }
+    .mc-question { margin-bottom: 32px; }
+    .mc-q-text { font-size: 14px; font-weight: 600; margin-bottom: 14px; line-height: 1.6; }
+    .mc-options { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+    .mc-option { display: flex; align-items: flex-start; gap: 12px; padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; cursor: pointer; font-size: 13px; line-height: 1.6; transition: border-color .15s, background .15s; }
+    .mc-option:hover { border-color: var(--blue-bd); background: var(--blue-lt); }
+    .mc-option.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .mc-option.correct { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .mc-option.wrong { border-color: var(--red); background: var(--red-bg); cursor: default; }
+    .mc-option.dim { opacity: .45; cursor: default; }
+    .mc-letter { width: 24px; height: 24px; border-radius: 50%; background: var(--border); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+    .mc-explain { display: none; font-size: 13px; padding: 12px 16px; border-radius: 10px; margin-bottom: 12px; line-height: 1.6; }
+    .mc-explain.show { display: block; }
+    .mc-explain.good { background: var(--green-bg); color: #14532d; border: 1px solid #bbf7d0; }
+    .mc-explain.bad  { background: var(--red-bg);   color: #9f1239; border: 1px solid #fecdd3; }
+    .mc-check-btn { background: var(--blue); color: #fff; border: none; border-radius: 8px; padding: 8px 20px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; }
+    .mc-check-btn:disabled { background: var(--border); color: var(--muted); cursor: not-allowed; }
+    .speaking-intro { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px 28px; margin-bottom: 24px; font-size: 14px; line-height: 1.7; }
+    .speaking-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+    .speaking-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; }
+    .speaking-card-label { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .speaking-card-icon { font-size: 20px; }
+    .speaking-card-tag { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); }
+    .speaking-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+    .speaking-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .speaking-tips { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px 28px; }
+    .speaking-tips h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 12px; }
+    .speaking-tips ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .speaking-tips li { font-size: 13px; color: var(--muted); line-height: 1.6; padding-left: 16px; position: relative; }
+    .speaking-tips li::before { content: '→'; position: absolute; left: 0; color: var(--blue); }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 40px; }
+    .lesson-nav-btn { background: var(--white); border: 1.5px solid var(--border); border-radius: 10px; padding: 10px 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; color: var(--text); transition: border-color .15s, color .15s; }
+    .lesson-nav-btn:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); }
+    .lesson-nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--blue); margin-bottom: 16px; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .match-col-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; line-height: 1.5; cursor: pointer; margin-bottom: 8px; transition: border-color .15s, background .15s; }
+    .match-item:hover { border-color: var(--blue-bd); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.correct { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .match-item.wrong { border-color: var(--red); background: var(--red-bg); }
+    .word-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; transition: background .15s; }
+    .chip:hover { background: var(--blue-lt); }
+    .chip.used { opacity: .3; cursor: not-allowed; }
+    .fill-item { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; font-size: 14px; line-height: 1.6; padding: 12px 0; border-bottom: 1px solid var(--border); }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 160px; height: 32px; border: 1.5px dashed var(--blue-bd); border-radius: 8px; padding: 0 10px; cursor: pointer; font-size: 13px; font-weight: 500; color: var(--blue-dk); background: var(--blue-lt); transition: border-color .15s; }
+    .fill-slot.filled { border-style: solid; border-color: var(--blue); }
+    .fill-slot.correct { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .fill-slot.wrong { border-color: var(--red); background: var(--red-bg); color: #9f1239; }
+    .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; font-weight: 400; }
+    .slot-clear { background: none; border: none; cursor: pointer; font-size: 11px; color: var(--muted); margin-left: 6px; }
+    .fill-hint { font-size: 12px; color: var(--muted); font-style: italic; }
+    .fill-feedback { font-size: 14px; font-weight: 700; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong { color: var(--red); }
+    .check-btn { background: var(--blue); color: #fff; border: none; border-radius: 10px; padding: 10px 24px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; margin-top: 8px; transition: background .15s; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .error-item { background: var(--bg); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
+    .error-sentence { font-size: 14px; font-style: italic; margin-bottom: 12px; line-height: 1.6; }
+    .error-btns { display: flex; gap: 10px; margin-bottom: 10px; }
+    .error-btn { padding: 8px 18px; border: 1.5px solid var(--border); border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; background: var(--white); font-family: 'Inter', sans-serif; transition: border-color .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; }
+    .error-btn.wrong-ans  { border-color: var(--red);   background: var(--red-bg);   color: #9f1239; }
+    .error-feedback { display: none; font-size: 13px; padding: 10px 14px; border-radius: 8px; line-height: 1.6; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; border: 1px solid #bbf7d0; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #9f1239; border: 1px solid #fecdd3; }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 16px; font-size: 14px; line-height: 1.6; }
+    .disc-num { width: 28px; height: 28px; background: var(--blue); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-img { display: none; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .grammar-3col { grid-template-columns: 1fr; }
+      .speaking-cards { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+      .tab-nav { overflow-x: auto; }
+      .content { padding: 24px 16px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <div class="nav-logo-icon">P</div>
+      <span>Practispeak</span>
+    </div>
+    <a class="nav-back" href="/">← All Lessons</a>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <div class="hero-badge">B1–B2</div>
+      <h1>Tech Talk — Lag & Troubleshooting</h1>
+      <p class="hero-sub">The cause/effect language you need to diagnose, explain, and fix gaming tech problems</p>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+        <span class="progress-pct" id="progressPct">0%</span>
+      </div>
+    </div>
+    <div class="hero-img">🔧</div>
+  </div>
+
+  <div class="tab-nav-wrap">
+    <div class="tab-nav">
+      <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+      <button class="tab-btn" data-tab="phrases">Phrases</button>
+      <button class="tab-btn" data-tab="inaction">In Action</button>
+      <button class="tab-btn" data-tab="register">Register</button>
+      <button class="tab-btn" data-tab="incontext">In Context</button>
+      <button class="tab-btn" data-tab="speaking">Speaking</button>
+      <button class="tab-btn" data-tab="exercises">Exercises</button>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <!-- ── VOCABULARY ── -->
+  <section class="section active" id="tab-vocabulary">
+    <div class="section-title">Vocabulary</div>
+    <div class="section-sub">8 words for talking about tech problems — and the causes behind them</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7f1d1d,#991b1b)">🐌</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">LAG</div>
+        <span class="phrase-tag">Noun / Verb</span>
+        <p class="phrase-def">A delay between your input and what happens on screen — the most common and most frustrating tech problem in gaming. To lag is to experience this delay.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The lag was so bad I couldn't even move — my character was frozen on screen while the game continued without me."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e3a8a,#1d4ed8)">📡</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">PING</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">The time it takes for data to travel from your device to the game server and back — measured in milliseconds. Low ping is good. High ping causes lag.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"My ping jumped to 400 milliseconds and I instantly started rubber-banding across the map — completely unplayable."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#78350f,#92400e)">📦</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">PACKET LOSS</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">When chunks of data (packets) fail to reach their destination — causing stuttering, rubber-banding, and sudden disconnections. Often worse than high ping.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Packet loss was the real problem — every few seconds a chunk of data disappeared and my character stuttered across the map."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#115e59)">📶</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">BANDWIDTH</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">How much data your connection can carry at once — like the width of a pipe. When bandwidth is maxed out, everything slows down.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"My bandwidth was maxed out because my roommate was streaming 4K video — that's what was causing all the lag."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-04.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#701a75)">⏱️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">LATENCY</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">The technical term for delay in a network connection — the time between an action and its response. High latency = lag. Used more formally than "ping" or "lag."</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"High latency in a first-person shooter is a death sentence — by the time your shot registers, the enemy has already moved."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-05.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#451a03,#78350f)">🍾</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">BOTTLENECK</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">A single slow component that limits everything else's performance — even if the rest of your setup is fast, the bottleneck brings it all down.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The bottleneck wasn't my internet — it was my old router on the floor. Everything else was fast, but the router killed the connection."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-06.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e293b,#334155)">🚦</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">THROTTLE</div>
+        <span class="phrase-tag">Verb</span>
+        <p class="phrase-def">To deliberately limit speed or performance — ISPs throttle gaming traffic during peak hours; routers throttle themselves when overheating to prevent damage.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"My ISP was throttling my connection during peak hours — that's why my ping was fine in the morning but awful every evening."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-07.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#166534)">🔧</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">TROUBLESHOOT</div>
+        <span class="phrase-tag">Verb</span>
+        <p class="phrase-def">To identify and fix problems systematically — testing one possible cause at a time until you find what's actually wrong. The opposite of guessing.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I spent two hours troubleshooting before I found it — a single background app was using all my upload bandwidth."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-08.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/tech-vocab-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" disabled>← Previous</button>
+      <button class="lesson-nav-btn" onclick="goToTab('phrases')">Phrases →</button>
+    </div>
+  </section>
+
+  <!-- ── PHRASES ── -->
+  <section class="section" id="tab-phrases">
+    <div class="section-title">Phrases</div>
+    <div class="section-sub">8 cause/effect phrases for diagnosing and explaining tech problems</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7f1d1d,#991b1b)">🔎</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">"My connection keeps dropping because…"</div>
+        <span class="phrase-tag">Direct Cause — because</span>
+        <p class="phrase-def">"Because" introduces a cause directly — everything after it explains why something happened. The simplest and most natural way to state a cause in English.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"My connection keeps dropping because my router is overheating — it throttles itself and loses signal every twenty minutes."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/tech-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e3a8a,#1d4ed8)">💡</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">"That's what's causing the lag."</div>
+        <span class="phrase-tag">Naming the Cause</span>
+        <p class="phrase-def">The most satisfying sentence in any troubleshooting conversation — it signals you've found the answer. Use it only when you've actually identified the source of the problem.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"You've got six devices on the same WiFi — that's what's causing the lag. Plug in with ethernet and it'll disappear."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/tech-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#115e59)">⛓️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">"High ping leads to rubber-banding."</div>
+        <span class="phrase-tag">Cause → Effect (leads to)</span>
+        <p class="phrase-def">"Leads to" moves from a cause directly to its consequence — it's slightly more formal than "causes" and works well for explaining chains of technical problems.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"High ping leads to rubber-banding — your client thinks you're in one position, but the server says you're somewhere completely different."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/tech-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#701a75)">🤔</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">"It could be down to your ISP throttling you."</div>
+        <span class="phrase-tag">Casual Attribution</span>
+        <p class="phrase-def">"Down to" casually attributes blame or cause to something — it's British English that's spread through gaming culture. "It's down to X" means "X is responsible for this."</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Your speeds look fine at 9am but tank at 8pm every night — it could be down to your ISP throttling you during peak hours."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/tech-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#78350f,#92400e)">🔁</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">"The lag spikes whenever someone else uses the WiFi."</div>
+        <span class="phrase-tag">Conditional Pattern — whenever</span>
+        <p class="phrase-def">"Whenever" identifies a repeated trigger — every time X happens, Y follows. It's one of the most useful patterns for explaining intermittent tech problems.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The lag spikes whenever someone else uses the WiFi — that's a bandwidth problem, not a server problem."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/tech-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#312e81)">➡️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">"As a result, I'm getting packet loss."</div>
+        <span class="phrase-tag">Effect Language — as a result</span>
+        <p class="phrase-def">"As a result" introduces a consequence — everything before it was the cause, everything after is the effect. More formal than "so" and clearer than "then."</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"My router is too far from my room, and as a result I'm getting packet loss every few minutes — the signal just isn't strong enough."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/tech-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#166534)">🛠️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">"It's probably your bandwidth — try closing background apps."</div>
+        <span class="phrase-tag">Diagnosis + Fix</span>
+        <p class="phrase-def">The natural structure of a troubleshooting suggestion: state the likely cause, then immediately offer a fix. "Probably" keeps it honest — you're diagnosing, not guaranteeing.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"It's probably your bandwidth — try closing background apps and check if anything is downloading in the background."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/tech-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1c1917,#292524)">📈</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">"Ever since I switched servers, my ping dropped significantly."</div>
+        <span class="phrase-tag">Temporal Cause/Effect — ever since</span>
+        <p class="phrase-def">"Ever since" marks a point in the past where a change happened — and confirms the effect has continued from that moment to now. It shows cause and ongoing consequence at once.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Ever since I switched to the EU servers, my ping dropped from 180 to 28 — I should have done it months ago."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/tech-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <!-- GRAMMAR NOTE -->
+    <div class="grammar-note">
+      <h3>💡 Grammar Focus — Cause/Effect Language</h3>
+      <p>Every tech problem has a cause and an effect. English has three ways to express this relationship — knowing which to use makes the difference between sounding vague and sounding precise.</p>
+
+      <div class="grammar-3col">
+        <div class="grammar-col">
+          <h4>Direct — cause moves to effect</h4>
+          <div class="grammar-row">Pattern: <code>X causes / leads to / results in Y</code></div>
+          <div class="grammar-row">Signal: you state the cause, then the consequence</div>
+          <div class="grammar-row"><code>"High ping leads to rubber-banding."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Use when you can clearly name both the cause and the effect in one sentence.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>Attribution — naming what's responsible</h4>
+          <div class="grammar-row">Pattern: <code>Y is caused by / stems from / is down to X</code></div>
+          <div class="grammar-row">Signal: you start with the effect, then reveal the cause</div>
+          <div class="grammar-row"><code>"It could be down to your ISP."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Use when diagnosing — you know the effect (lag) and are pointing to the likely cause.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>Conditional — trigger and consequence</h4>
+          <div class="grammar-row">Pattern: <code>Whenever / If / Ever since X, Y</code></div>
+          <div class="grammar-row">Signal: a recurring trigger or a moment of change</div>
+          <div class="grammar-row"><code>"Whenever someone else uses WiFi, it lags."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Use for intermittent or repeating problems — "whenever" identifies the pattern, "ever since" marks the turning point.</div>
+        </div>
+      </div>
+
+      <div class="grammar-examples">
+        <h4>Gaming tech — cause/effect chains in action</h4>
+        <div class="grammar-example-list">
+          <div class="grammar-example-item"><em>"My ISP is throttling my connection during peak hours, which leads to high latency, which results in rubber-banding."</em> <span>→ full chain: cause → effect → effect</span></div>
+          <div class="grammar-example-item"><em>"Whenever I'm on WiFi, my packet loss goes up — as a result, I disconnect every few rounds."</em> <span>→ conditional trigger + result</span></div>
+          <div class="grammar-example-item"><em>"The bottleneck was my old router. That's what was causing all the lag — not the server, not the game."</em> <span>→ attribution after investigation</span></div>
+          <div class="grammar-example-item"><em>"Ever since I switched to ethernet, my ping dropped from 120 to 18 and I've had zero packet loss."</em> <span>→ temporal cause with ongoing effect</span></div>
+          <div class="grammar-example-item"><em>"It could be down to bandwidth — six devices streaming will max out any router."</em> <span>→ casual diagnosis with explanation</span></div>
+        </div>
+      </div>
+
+      <div class="grammar-warn">
+        ⚠️ <strong>Watch "because" vs "because of":</strong> "because" introduces a full clause — <em>"I'm lagging because my bandwidth is maxed out."</em> "Because of" introduces a noun or noun phrase — <em>"I'm lagging because of my bandwidth."</em> You cannot say <em>"I'm lagging because of my bandwidth is maxed out"</em> — that mixes both forms incorrectly.
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('vocabulary')">← Vocabulary</button>
+      <button class="lesson-nav-btn" onclick="goToTab('inaction')">In Action →</button>
+    </div>
+  </section>
+
+  <!-- ── IN ACTION ── -->
+  <section class="section" id="tab-inaction">
+    <div class="section-title">In Action</div>
+    <div class="section-sub">How cause/effect language sounds across different gaming tech contexts</div>
+
+    <div class="stream-card">
+      <div class="inaction-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037 13.794 13.794 0 00-.607 1.246 18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.246.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-discord">Discord Voice</span><span class="stream-title">Diagnosing Lag Mid-Game</span></div>
+      <p class="stream-text">
+        "Bro, are you rubber-banding? You just teleported across the map. — Yeah sorry, <span class="hl">my connection keeps dropping because</span> my flatmate started streaming something on Netflix. He's killing all the bandwidth. — <span class="hl">That's what's causing the lag</span> then. Tell him to pause it or use ethernet. — I've got three other devices on the same router too. — Okay that's definitely it. <span class="hl">Whenever you overload the WiFi like that</span>, everyone's ping goes up. <span class="hl">As a result</span> you're basically unplayable right now. Plug in with ethernet and let's <span class="hl">troubleshoot</span> this properly."
+      </p>
+      <div class="inaction-note">Notice how the conversation moves from observation ("you're rubber-banding") to cause identification ("that's what's causing the lag") to pattern explanation ("whenever you overload the WiFi") to consequence ("as a result you're unplayable") to solution. This is the natural structure of any tech troubleshooting conversation.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/tech-inaction-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to paragraph</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-forum">Tech Forum</span><span class="stream-title">Structured Troubleshooting Post</span></div>
+      <p class="stream-text">
+        "Post: High ping every evening — suspected ISP throttling. I play on wired ethernet with a 200 megabit plan. My ping in the morning is consistently 18 to 22 milliseconds. However, every evening between 7pm and 11pm, it spikes to 150 to 200 milliseconds, <span class="hl">leading to</span> rubber-banding and occasional disconnects. <span class="hl">The issue stems from</span> somewhere between my router and the game servers — my local bandwidth tests show full speed, so the <span class="hl">bottleneck</span> is not in my home network. <span class="hl">It could be down to</span> my ISP <span class="hl">throttling</span> gaming traffic during peak hours. <span class="hl">As a result</span>, ranked play in the evening is close to impossible. Has anyone successfully <span class="hl">troubleshot</span> this and confirmed ISP throttling?"
+      </p>
+      <div class="inaction-note">Forum posts use more formal cause/effect language than voice chat — "the issue stems from," "leading to," and "as a result" all appear here. Notice how the writer systematically eliminates possible causes (local bandwidth is fine) before pointing to the likely culprit (ISP throttling). This is structured troubleshooting in writing.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/tech-inaction-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to paragraph</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-stream">Live Stream</span><span class="stream-title">Chat Diagnosing the Streamer's Lag</span></div>
+      <p class="stream-text">
+        "The streamer is confused — they are on wired ethernet, their download speed is 500 megabits, and yet the game is stuttering every few seconds. Chat has already figured it out. Several viewers point out that streaming and gaming simultaneously splits the upload <span class="hl">bandwidth</span> — <span class="hl">as a result</span>, the game server is not receiving data fast enough. Others suggest the <span class="hl">lag</span> could be <span class="hl">down to</span> ISP <span class="hl">throttling</span>, which becomes more aggressive during peak evening hours. One viewer explains it clearly: <span class="hl">whenever</span> you are encoding a live stream and playing a competitive game at the same time, your upload is the <span class="hl">bottleneck</span>. The streamer closes the stream encoding software, tests the ping — it drops from 180 milliseconds to 24. <span class="hl">That is what was causing the lag.</span> A single process, using all the upload bandwidth."
+      </p>
+      <div class="inaction-note">Stream chat troubleshooting is collaborative and fast — multiple viewers offer different hypotheses simultaneously. Notice that the cause/effect language still appears naturally, even in this casual context. "That is what was causing the lag" lands as a satisfying conclusion regardless of register.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/tech-inaction-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to paragraph</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('phrases')">← Phrases</button>
+      <button class="lesson-nav-btn" onclick="goToTab('register')">Register →</button>
+    </div>
+  </section>
+
+  <!-- ── REGISTER ── -->
+  <section class="section" id="tab-register">
+    <div class="section-title">Register</div>
+    <div class="section-sub">How tech language and cause/effect phrasing shift across contexts</div>
+
+    <div class="register-table">
+      <table>
+        <thead><tr><th>Context</th><th>Register</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>Discord voice (mid-game)</strong><br><span style="font-size:12px;color:var(--muted)">Fast, spontaneous</span></td>
+            <td><span class="register-tag tag-informal">Informal / Fast</span></td>
+            <td><em>"Bro your WiFi is cooked — that's what's causing the lag. Plug in."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Post-game diagnosis</strong><br><span style="font-size:12px;color:var(--muted)">Relaxed, analytical</span></td>
+            <td><span class="register-tag tag-informal">Informal / Analytical</span></td>
+            <td><em>"It's probably your bandwidth — whenever your roommate streams, your ping spikes. As a result you're unplayable."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Tech forum post</strong><br><span style="font-size:12px;color:var(--muted)">Written, structured</span></td>
+            <td><span class="register-tag tag-neutral">Neutral / Structured</span></td>
+            <td><em>"The issue appears to stem from ISP throttling during peak hours. As a result, latency spikes significantly between 7pm and 11pm."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Support ticket</strong><br><span style="font-size:12px;color:var(--muted)">Formal, precise</span></td>
+            <td><span class="register-tag tag-formal">Formal / Technical</span></td>
+            <td><em>"Upon investigation, the latency issues appear to be caused by packet loss at the router level, resulting in disconnections during peak usage."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Esports tech team</strong><br><span style="font-size:12px;color:var(--muted)">Professional, precise</span></td>
+            <td><span class="register-tag tag-formal">Formal / Professional</span></td>
+            <td><em>"The bottleneck was identified as insufficient upload bandwidth, leading to inconsistent packet delivery and elevated latency across all nodes."</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tip-list">
+      <div class="tip green"><span class="tip-icon">✅</span><span>"Leads to," "stems from," and "as a result" work across every register — from casual Discord chat to formal support tickets. They're the most versatile cause/effect phrases in the lesson.</span></div>
+      <div class="tip blue"><span class="tip-icon">💡</span><span><strong>"That's what's causing the lag"</strong> is register-neutral — it sounds natural in a Discord voice call and equally satisfying in a written post-mortem. Use it whenever you've confirmed the source of a problem.</span></div>
+      <div class="tip amber"><span class="tip-icon">⚠️</span><span>Watch "because" vs "because of" — <strong>"because"</strong> needs a full clause after it (<em>"because my bandwidth is maxed out"</em>), while <strong>"because of"</strong> needs a noun or phrase (<em>"because of high latency"</em>). Mixing them is one of the most common errors at B1-B2 level.</span></div>
+      <div class="tip red"><span class="tip-icon">❌</span><span>Don't use "due to" as a standalone opener in informal contexts — <em>"Due to lag, I lost"</em> is technically correct but sounds overly formal for Discord. In casual gaming, use "because of" or "it's down to" instead.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('inaction')">← In Action</button>
+      <button class="lesson-nav-btn" onclick="goToTab('incontext')">In Context →</button>
+    </div>
+  </section>
+
+  <!-- ── IN CONTEXT ── -->
+  <section class="section" id="tab-incontext">
+    <div class="section-title">In Context</div>
+    <div class="section-sub">Read the story — highlighted phrases are from this lesson</div>
+
+    <div class="transcript-card">
+      <div class="transcript-title">Why I Lag and What I Did About It</div>
+      <p class="stream-passage">
+        For six months I blamed my ISP. Every evening at around 8pm, my ping would spike from 25 to 180 milliseconds, <mark>leading to</mark> rubber-banding and dropped connections in ranked matches. I was convinced the problem was out of my control.<br><br>
+        Then I actually started to <mark>troubleshoot</mark>.<br><br>
+        The first thing I checked was my <mark>bandwidth</mark>. I had five devices connected to the same WiFi at the time — two phones, a laptop, a smart TV that was auto-updating, and my gaming PC. <mark>As a result</mark>, my connection was being split five ways during peak evening hours. That was part of it, but not all of it.<br><br>
+        The real discovery was the router itself. It was three years old, positioned on the floor behind a sofa, and it was overheating every evening after hours of use. Overheating causes routers to <mark>throttle</mark> their own performance — the device deliberately slows down to protect itself. <mark>That's what was causing the lag.</mark> Not my ISP. Not the game servers. My three-year-old router on the floor.<br><br>
+        I moved the router, plugged in with ethernet, and closed every background app. <mark>Ever since I made those changes</mark>, my <mark>ping</mark> has been stable at 22 milliseconds. The lag is gone.<br><br>
+        <mark>It could have been down to</mark> a hundred different things. But the fix took twenty minutes once I actually looked for the cause.
+      </p>
+    </div>
+
+    <div class="questions-card">
+      <h3>Comprehension Questions</h3>
+      <p class="q-intro">Think about <em>why</em> each cause/effect phrase was chosen — not just what it means.</p>
+
+      <div class="mc-question" id="mc1">
+        <div class="mc-q-text">1. <em>"High ping leading to rubber-banding."</em> What does "leading to" tell us about the relationship between these two things?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(1,'A')"><div class="mc-letter">A</div>They happen independently with no connection between them</div>
+          <div class="mc-option" onclick="pickMC(1,'B')"><div class="mc-letter">B</div>High ping is the cause and rubber-banding is the direct effect — "leads to" always moves from cause to consequence</div>
+          <div class="mc-option" onclick="pickMC(1,'C')"><div class="mc-letter">C</div>Rubber-banding is what causes the high ping</div>
+          <div class="mc-option" onclick="pickMC(1,'D')"><div class="mc-letter">D</div>They are two words that mean the same thing</div>
+        </div>
+        <div class="mc-explain" id="mc1-exp"></div>
+        <button class="mc-check-btn" id="mc1-btn" onclick="checkMC(1)" disabled>Check</button>
+      </div>
+
+      <div class="mc-question" id="mc2">
+        <div class="mc-q-text">2. The narrator says <em>"That's what was causing the lag."</em> What had they actually discovered?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(2,'A')"><div class="mc-letter">A</div>Their ISP was throttling the connection during peak hours</div>
+          <div class="mc-option" onclick="pickMC(2,'B')"><div class="mc-letter">B</div>They had too many devices on WiFi</div>
+          <div class="mc-option" onclick="pickMC(2,'C')"><div class="mc-letter">C</div>Their overheating router was throttling its own performance to protect itself from damage</div>
+          <div class="mc-option" onclick="pickMC(2,'D')"><div class="mc-letter">D</div>Their bandwidth plan was too small for gaming</div>
+        </div>
+        <div class="mc-explain" id="mc2-exp"></div>
+        <button class="mc-check-btn" id="mc2-btn" onclick="checkMC(2)" disabled>Check</button>
+      </div>
+
+      <div class="mc-question" id="mc3">
+        <div class="mc-q-text">3. <em>"As a result, my connection was being split five ways."</em> What is the cause and what is the effect?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(3,'A')"><div class="mc-letter">A</div>Effect: five devices connected. Cause: the split connection — the split caused the devices to connect</div>
+          <div class="mc-option" onclick="pickMC(3,'B')"><div class="mc-letter">B</div>Cause: five devices connected. Effect: the connection being split — "as a result" always introduces the consequence</div>
+          <div class="mc-option" onclick="pickMC(3,'C')"><div class="mc-letter">C</div>Both the devices and the split connection are causes of the same problem</div>
+          <div class="mc-option" onclick="pickMC(3,'D')"><div class="mc-letter">D</div>"As a result" signals uncertainty — the narrator is not sure what caused the split</div>
+        </div>
+        <div class="mc-explain" id="mc3-exp"></div>
+        <button class="mc-check-btn" id="mc3-btn" onclick="checkMC(3)" disabled>Check</button>
+      </div>
+
+      <div class="mc-question" id="mc4">
+        <div class="mc-q-text">4. <em>"Ever since I made those changes, my ping has been stable."</em> What does "ever since" tell us about time?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(4,'A')"><div class="mc-letter">A</div>The improvement started at a specific moment in the past and has continued without interruption to the present</div>
+          <div class="mc-option" onclick="pickMC(4,'B')"><div class="mc-letter">B</div>The changes were temporary and the ping might get worse again</div>
+          <div class="mc-option" onclick="pickMC(4,'C')"><div class="mc-letter">C</div>The changes happened very recently — "ever since" implies something just happened</div>
+          <div class="mc-option" onclick="pickMC(4,'D')"><div class="mc-letter">D</div>The narrator regrets not making the changes earlier</div>
+        </div>
+        <div class="mc-explain" id="mc4-exp"></div>
+        <button class="mc-check-btn" id="mc4-btn" onclick="checkMC(4)" disabled>Check</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('register')">← Register</button>
+      <button class="lesson-nav-btn" onclick="goToTab('speaking')">Speaking →</button>
+    </div>
+  </section>
+
+  <!-- ── SPEAKING ── -->
+  <section class="section" id="tab-speaking">
+    <div class="section-title">Speaking</div>
+    <div class="section-sub">Choose a scenario — diagnose, explain, or debate</div>
+
+    <div class="speaking-intro">
+      Pick one option. You have <strong>3–4 minutes</strong> to prepare and speak. Use at least <strong>4 vocabulary words</strong> and <strong>4 cause/effect phrases</strong> from the lesson. The goal is to sound like someone who actually understands the problem — not just someone who knows the words.
+    </div>
+
+    <div class="speaking-cards">
+      <div class="speaking-card">
+        <div class="speaking-card-label"><span class="speaking-card-icon">🔎</span><span class="speaking-card-tag">Option A</span></div>
+        <h3>Tech Support</h3>
+        <p>One player describes a lag problem in detail. The other asks follow-up questions to diagnose the cause. Use cause/effect language throughout — "whenever," "that's what's causing it," "it could be down to." Then swap roles.</p>
+      </div>
+      <div class="speaking-card">
+        <div class="speaking-card-label"><span class="speaking-card-icon">⛓️</span><span class="speaking-card-tag">Option B</span></div>
+        <h3>The Chain Reaction</h3>
+        <p>Describe a tech problem where one cause led to multiple effects — ISP throttling → high latency → rubber-banding → disconnects. Use at least 5 different cause/effect phrases to map the full chain. Your partner tracks which phrases you use.</p>
+      </div>
+      <div class="speaking-card">
+        <div class="speaking-card-label"><span class="speaking-card-icon">⚖️</span><span class="speaking-card-tag">Option C</span></div>
+        <h3>Debate: WiFi vs Ethernet</h3>
+        <p>Your partner argues WiFi is good enough for competitive gaming. Disagree — use cause/effect language to explain exactly why ethernet is better. Then swap sides.</p>
+      </div>
+    </div>
+
+    <div class="speaking-tips">
+      <h4>Useful reminders while you speak</h4>
+      <ul>
+        <li>Start with the symptom ("I'm getting lag / packet loss"), then work backwards to the cause — this mirrors how real troubleshooting works.</li>
+        <li>Use "whenever" for intermittent problems — it shows you've noticed a pattern, not just a one-off event.</li>
+        <li>"That's what's causing it" is your conclusion phrase — don't use it until you've actually identified the problem.</li>
+        <li>Separate cause and effect clearly — if both are blurred together, your explanation will confuse instead of inform.</li>
+      </ul>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('incontext')">← In Context</button>
+      <button class="lesson-nav-btn" onclick="goToTab('exercises')">Exercises →</button>
+    </div>
+  </section>
+
+  <!-- ── EXERCISES ── -->
+  <section class="section" id="tab-exercises">
+    <div class="section-title">Exercises</div>
+    <div class="section-sub">Complete all three exercises, then discuss the questions</div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 1</div>
+      <h3>Match the Phrase to Its Function</h3>
+      <p class="ex-desc">Click a phrase on the left, then match it to what it's doing on the right.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Phrases</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">"That's what's causing the lag."</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">"High ping leads to rubber-banding."</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">"It could be down to your ISP."</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">"My connection drops because my router overheats."</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">"As a result, I'm getting packet loss."</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">"Ever since I switched servers, my ping dropped."</div>
+        </div>
+        <div>
+          <div class="match-col-label">What it's doing</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">Moving from cause to effect with "leads to"</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">Introducing a consequence with "as a result"</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">Identifying the confirmed source of a problem</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">Giving a direct reason with "because"</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">Marking a past change with an ongoing present effect</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">Casually attributing blame with "down to"</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 2</div>
+      <h3>Complete the Troubleshooting Conversation</h3>
+      <p class="ex-desc">Click a phrase from the bank, then click the blank where it belongs.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Phrase bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="because of" onclick="selectChip(this)">because of</div>
+          <div class="chip" data-phrase="leads to" onclick="selectChip(this)">leads to</div>
+          <div class="chip" data-phrase="As a result" onclick="selectChip(this)">As a result</div>
+          <div class="chip" data-phrase="That's what's causing" onclick="selectChip(this)">That's what's causing</div>
+          <div class="chip" data-phrase="Ever since" onclick="selectChip(this)">Ever since</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">1.</span>
+        My ping spikes every evening —
+        <span class="fill-slot" id="fs1" data-answer="because of" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+        my ISP throttling during peak hours.
+        <em class="fill-hint">(noun phrase follows)</em>
+        <span class="fill-feedback" id="fb1"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">2.</span>
+        High latency
+        <span class="fill-slot" id="fs2" data-answer="leads to" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+        delayed inputs and rubber-banding.
+        <em class="fill-hint">(cause → effect)</em>
+        <span class="fill-feedback" id="fb2"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">3.</span>
+        I switched to ethernet.
+        <span class="fill-slot" id="fs3" data-answer="As a result" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+        , my packet loss completely disappeared.
+        <em class="fill-hint">(consequence follows)</em>
+        <span class="fill-feedback" id="fb3"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">4.</span>
+        You've got six apps open in the background —
+        <span class="fill-slot" id="fs4" data-answer="That's what's causing" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+        the lag.
+        <em class="fill-hint">(confirmed source)</em>
+        <span class="fill-feedback" id="fb4"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">5.</span>
+        <span class="fill-slot" id="fs5" data-answer="Ever since" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+        I moved my router, my connection has been completely stable.
+        <em class="fill-hint">(past change, ongoing effect)</em>
+        <span class="fill-feedback" id="fb5"></span>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Answers</button>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 3</div>
+      <h3>Correct or Incorrect?</h3>
+      <p class="ex-desc">Is the cause/effect language used correctly in each sentence?</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"High ping leads to rubber-banding — it's a direct cause and effect."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(1,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"As a result of my ISP throttling me, my ping spikes every evening."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(2,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"My lag is because of I have too many devices on WiFi."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(3,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"Ever since I upgraded my router, my connection has been stable."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(4,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"Packet loss stems from of poor signal strength."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(5,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <div class="disc-card">
+      <h3>🗣 Discussion Questions</h3>
+      <div class="disc-item"><div class="disc-num">1</div><span>Think about the last time you experienced lag. Using phrases from this lesson, explain what caused it and what effect it had on your game.</span></div>
+      <div class="disc-item"><div class="disc-num">2</div><span>Why does "it could be down to your ISP" sound more natural in gaming than "the issue may be attributable to your internet service provider"? What does this tell you about register?</span></div>
+      <div class="disc-item"><div class="disc-num">3</div><span>Have you ever successfully troubleshot a tech problem? Walk your partner through what you discovered, using cause/effect language throughout.</span></div>
+      <div class="disc-item"><div class="disc-num">4</div><span>"That's what's causing the lag" — why is naming the cause important in troubleshooting? What happens when you try to fix an effect without finding the actual cause?</span></div>
+      <div class="disc-item"><div class="disc-num">5</div><span>ISPs sometimes throttle gaming traffic during peak hours. Use as many cause/effect phrases as possible to explain the full chain — throttling → high latency → rubber-banding → disconnects.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('speaking')">← Speaking</button>
+      <button class="lesson-nav-btn" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+  </div>
+
+<script>
+  const tabs = ['vocabulary','phrases','inaction','register','incontext','speaking','exercises'];
+  const completedTabs = new Set();
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause(); currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
+    }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
+  }
+
+  const mcAnswers = { 1:'B', 2:'C', 3:'B', 4:'A' };
+  const mcExplain = {
+    1: {
+      B: { good:true,  msg:"Correct! 'Leads to' is a direct cause-to-effect connector — the subject (high ping) is the cause, and what follows (rubber-banding) is the consequence. It always moves in one direction: cause → effect." },
+      A: { good:false, msg:"'Leads to' specifically signals a causal relationship — it would not be used if two things simply happened at the same time without any connection." },
+      C: { good:false, msg:"'Leads to' always moves from cause to effect. High ping leads to rubber-banding — not the other way around. The direction is fixed." },
+      D: { good:false, msg:"Lag and rubber-banding are different phenomena — one is a timing delay, the other is its visible effect on your character's movement. 'Leads to' shows sequence, not equivalence." }
+    },
+    2: {
+      A: { good:false, msg:"The narrator actually ruled out ISP throttling — bandwidth tests showed full speed. They kept investigating rather than stopping at the obvious guess." },
+      B: { good:false, msg:"The five devices were part of the problem, but the narrator says 'that was part of it, but not all of it' — they kept digging for the main cause." },
+      C: { good:true,  msg:"Correct! The router was overheating after hours of use, and as a built-in protection mechanism, it was throttling its own performance. This was the main cause — not the ISP, not the devices." },
+      D: { good:false, msg:"The narrator never mentions their bandwidth plan being too small — the fix was physical: moving the router, using ethernet, and closing background apps. No upgrade needed." }
+    },
+    3: {
+      A: { good:false, msg:"'As a result' always introduces an effect, never a cause. The split connection is the consequence — the five devices are what caused it, not the other way around." },
+      B: { good:true,  msg:"Correct! Five devices connected = the cause. Connection split five ways = the effect. 'As a result' is positioned between cause and consequence, always pointing toward the outcome." },
+      C: { good:false, msg:"'As a result' marks a single-direction relationship — something caused something else. It doesn't describe two things that are both causes of the same problem." },
+      D: { good:false, msg:"'As a result' is a confident statement of consequence — there is no uncertainty here. For uncertainty, you would use 'possibly' or 'it could be.'" }
+    },
+    4: {
+      A: { good:true,  msg:"Correct! 'Ever since + past moment' creates a clear timeline: the changes happened at one point, and from that moment forward, the effect (stable ping) has continued. It's a cause in the past with an ongoing present consequence." },
+      B: { good:false, msg:"'Ever since' implies stability and continuation from a past moment — it suggests the pattern has held, not that it might change. It carries a confident, confirming tone." },
+      C: { good:false, msg:"'Ever since' specifically implies enough time has passed to confirm the pattern. It wouldn't be used if something just happened moments ago." },
+      D: { good:false, msg:"The narrator sounds satisfied with the outcome — the tone is positive and conclusive, not regretful. 'Ever since' here closes the story with relief, not regret." }
+    }
+  };
+  const mcSelected = {};
+  function pickMC(q, letter) {
+    const block = document.getElementById('mc' + q);
+    if (block.dataset.answered) return;
+    mcSelected[q] = letter;
+    block.querySelectorAll('.mc-option').forEach((opt, i) => { opt.classList.toggle('selected', ['A','B','C','D'][i] === letter); });
+    document.getElementById('mc' + q + '-btn').disabled = false;
+  }
+  function checkMC(q) {
+    const block = document.getElementById('mc' + q);
+    if (block.dataset.answered) return;
+    block.dataset.answered = '1';
+    const chosen = mcSelected[q], correct = mcAnswers[q];
+    block.querySelectorAll('.mc-option').forEach((opt, i) => {
+      const l = ['A','B','C','D'][i];
+      opt.classList.remove('selected');
+      if (l === correct) opt.classList.add('correct');
+      else if (l === chosen && chosen !== correct) opt.classList.add('wrong');
+      else opt.classList.add('dim');
+    });
+    const exp = document.getElementById('mc' + q + '-exp');
+    const info = mcExplain[q][chosen] || mcExplain[q][correct];
+    exp.innerHTML = info.msg;
+    exp.className = 'mc-explain show ' + (info.good ? 'good' : 'bad');
+    document.getElementById('mc' + q + '-btn').disabled = true;
+  }
+
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++; document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el; el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = ''; return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  const errorAnswers = { 1:false, 2:false, 3:true, 4:false, 5:true };
+  const errorExplanations = {
+    1: { fix:false, msg:"Correct! 'Leads to' moves cleanly from cause (high ping) to effect (rubber-banding). The sentence is grammatically and idiomatically right." },
+    2: { fix:false, msg:"Correct! 'As a result of + noun phrase' is a perfectly formed effect clause. The ISP throttling is the cause; the ping spikes are the consequence." },
+    3: { fix:true,  msg:"Error: 'because of' must be followed by a noun or noun phrase — not a full clause with a subject and verb. Correct options: <strong>'My lag is because I have too many devices'</strong> (remove 'of') OR <strong>'My lag is because of having too many devices'</strong> (keep 'of', use gerund)." },
+    4: { fix:false, msg:"Correct! 'Ever since + past event, present result' — the upgrade is the past cause, stability is the ongoing effect. Exactly right." },
+    5: { fix:true,  msg:"Error: 'stems from' already contains the preposition 'from' — adding 'of' after it is redundant and incorrect. The correct form is: <strong>'Packet loss stems from poor signal strength.'</strong>" },
+  };
+  function checkError(num, userAnswer) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userAnswer && userAnswer !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>
