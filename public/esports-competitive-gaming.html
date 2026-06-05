@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | Esports &amp; Competitive Gaming</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #eef2ff;
+      --white:    #ffffff;
+      --blue:     #2563eb;
+      --blue-lt:  #eff6ff;
+      --blue-bd:  #bfdbfe;
+      --blue-dk:  #1d4ed8;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+
+    /* NAV */
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+    .nav-back:hover { color: var(--text); }
+
+    /* HERO */
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg, #c7d2fe, #a5b4fc); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; overflow: hidden; }
+    .hero-img img { width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius); }
+
+    /* TABS */
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 20px; font-size: 14px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+
+    /* CONTENT */
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+    /* PHRASE / VOCAB CARDS */
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; overflow: hidden; }
+    .phrase-img img { width: 100%; height: 100%; object-fit: cover; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 24px; font-weight: 800; line-height: 1.2; margin-bottom: 8px; letter-spacing: -.01em; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 14px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+    .listen-col { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+
+    /* AUDIO PLAYER */
+    .audio-player { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn { background: var(--blue-dk); }
+    .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s}    .wave span:nth-child(2){height:8px;animation-delay:.1s}
+    .wave span:nth-child(3){height:14px;animation-delay:.2s}  .wave span:nth-child(4){height:10px;animation-delay:.05s}
+    .wave span:nth-child(5){height:6px;animation-delay:.15s}  .wave span:nth-child(6){height:12px;animation-delay:.25s}
+    .wave span:nth-child(7){height:8px;animation-delay:.1s}   .wave span:nth-child(8){height:5px;animation-delay:.2s}
+    .wave span:nth-child(9){height:9px;animation-delay:.05s}  .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
+
+    /* GRAMMAR NOTE */
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+    .grammar-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-examples { margin-top: 20px; }
+    .grammar-examples h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 12px; }
+    .grammar-example-list { display: flex; flex-direction: column; gap: 8px; }
+    .grammar-example-item { background: var(--bg); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; }
+    .grammar-example-item em { color: var(--blue-dk); font-style: italic; }
+    .grammar-example-item span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .grammar-warn { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin-top: 16px; line-height: 1.6; }
+
+    /* IN ACTION */
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 20px; }
+    .inaction-img { width: 100%; max-height: 240px; aspect-ratio: 16/9; background: var(--bg); border: 1.5px dashed var(--border); border-radius: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 20px; gap: 8px; color: var(--muted); font-size: 13px; }
+    .inaction-img svg { width: 36px; height: 36px; opacity: .35; }
+    .inaction-img img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
+    .inaction-audio { display: flex; align-items: center; gap: 10px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
+    .stream-platform { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: .06em; }
+    .badge-espn    { background: #fef2f2; color: #b91c1c; }
+    .badge-reddit  { background: #fff1f2; color: #e11d48; }
+    .badge-casting { background: #f3e8ff; color: #7c3aed; }
+    .stream-title { font-size: 13px; font-weight: 700; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+    .stream-text { font-size: 14px; line-height: 1.8; }
+    .stream-text .hl { color: var(--blue); font-weight: 600; }
+    .inaction-note { background: var(--blue-lt); border: 1px solid var(--blue-bd); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--blue-dk); margin-top: 14px; }
+
+    /* REGISTER */
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); padding: 12px 20px; text-align: left; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 14px 20px; font-size: 14px; border-bottom: 1px solid var(--border); line-height: 1.5; vertical-align: top; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-tag { display: inline-block; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
+    .tag-informal { background: #fef3c7; color: #92400e; }
+    .tag-neutral  { background: #f0f9ff; color: #0369a1; }
+    .tag-formal   { background: #f5f3ff; color: #5b21b6; }
+    .tip-list { display: flex; flex-direction: column; gap: 10px; }
+    .tip { display: flex; align-items: flex-start; gap: 12px; padding: 14px 18px; border-radius: 10px; font-size: 14px; line-height: 1.5; }
+    .tip.red   { background: var(--red-bg);   color: #881337; }
+    .tip.green { background: var(--green-bg); color: #14532d; }
+    .tip.blue  { background: var(--blue-lt);  color: var(--blue-dk); }
+    .tip.amber { background: #fffbeb; color: #78350f; }
+    .tip-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+
+    /* IN CONTEXT */
+    .transcript-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .transcript-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 16px; }
+    .stream-passage { font-size: 14px; line-height: 2; }
+    mark { background: #dbeafe; color: var(--blue-dk); padding: 1px 3px; border-radius: 4px; font-weight: 600; }
+    .questions-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .questions-card h3 { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+    .questions-card .q-intro { font-size: 13px; color: var(--muted); margin-bottom: 24px; }
+    .mc-question { margin-bottom: 28px; }
+    .mc-q-text { font-size: 14px; font-weight: 600; margin-bottom: 12px; line-height: 1.5; }
+    .mc-q-text em { font-style: italic; color: var(--blue-dk); }
+    .mc-options { display: flex; flex-direction: column; gap: 8px; }
+    .mc-option { display: flex; align-items: flex-start; gap: 10px; padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; cursor: pointer; font-size: 13px; line-height: 1.5; transition: all .15s; background: var(--white); }
+    .mc-option:hover { border-color: var(--blue); background: var(--blue-lt); }
+    .mc-option.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .mc-option.correct  { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .mc-option.wrong    { border-color: var(--red);   background: var(--red-bg);   cursor: default; }
+    .mc-option.dim      { opacity: .45; cursor: default; }
+    .mc-letter { width: 22px; height: 22px; border-radius: 50%; background: var(--bg); border: 1.5px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; color: var(--muted); }
+    .mc-option.selected .mc-letter { background: var(--blue); border-color: var(--blue); color: white; }
+    .mc-option.correct .mc-letter  { background: var(--green); border-color: var(--green); color: white; }
+    .mc-option.wrong .mc-letter    { background: var(--red);   border-color: var(--red);   color: white; }
+    .mc-explain { margin-top: 8px; padding: 10px 14px; border-radius: 8px; font-size: 12px; line-height: 1.5; display: none; }
+    .mc-explain.show { display: block; }
+    .mc-explain.good { background: var(--green-bg); color: #14532d; }
+    .mc-explain.bad  { background: var(--red-bg);   color: #881337; }
+    .mc-check-btn { margin-top: 6px; padding: 7px 18px; background: var(--blue); color: white; border: none; border-radius: 8px; font-family: 'Inter',sans-serif; font-size: 13px; font-weight: 600; cursor: pointer; transition: background .15s; }
+    .mc-check-btn:hover { background: var(--blue-dk); }
+    .mc-check-btn:disabled { background: var(--border); color: var(--muted); cursor: default; }
+
+    /* SPEAKING */
+    .speaking-intro { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px 28px; margin-bottom: 24px; font-size: 14px; color: var(--muted); line-height: 1.7; }
+    .speaking-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+    .speaking-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; }
+    .speaking-card-label { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .speaking-card-icon { font-size: 20px; }
+    .speaking-card-tag { font-size: 11px; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: .07em; }
+    .speaking-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+    .speaking-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .speaking-tips { background: var(--blue-lt); border: 1px solid var(--blue-bd); border-radius: var(--radius); padding: 20px 24px; margin-top: 24px; }
+    .speaking-tips h4 { font-size: 13px; font-weight: 700; color: var(--blue-dk); margin-bottom: 10px; }
+    .speaking-tips ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+    .speaking-tips li { font-size: 13px; color: var(--blue-dk); display: flex; align-items: flex-start; gap: 8px; }
+    .speaking-tips li::before { content: "→"; flex-shrink: 0; }
+
+    /* EXERCISES */
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .match-col-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; cursor: pointer; margin-bottom: 8px; transition: all .15s; user-select: none; line-height: 1.4; }
+    .match-item:hover { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); color: var(--blue-dk); font-weight: 600; }
+    .match-item.correct  { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .match-item.wrong    { border-color: var(--red);   background: var(--red-bg);   color: #881337; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--muted); margin-bottom: 16px; }
+    .word-bank { background: var(--bg); border: 1.5px dashed var(--blue-bd); border-radius: 12px; padding: 14px 18px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; transition: all .15s; user-select: none; }
+    .chip:hover { background: var(--blue-lt); border-color: var(--blue); }
+    .chip.used { opacity: .35; pointer-events: none; text-decoration: line-through; }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 180px; padding: 5px 12px; border: 1.5px solid var(--border); border-radius: 8px; background: var(--white); font-size: 13px; color: var(--blue-dk); font-weight: 500; cursor: pointer; transition: all .15s; vertical-align: middle; margin: 0 2px; }
+    .fill-slot.active { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(37,99,235,.12); }
+    .fill-slot.filled { background: var(--blue-lt); border-color: var(--blue-bd); }
+    .fill-slot.correct { background: var(--green-bg); border-color: var(--green); color: #14532d; cursor: default; }
+    .fill-slot.wrong   { background: var(--red-bg);   border-color: var(--red);   color: #881337; }
+    .fill-slot .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; }
+    .fill-slot .slot-clear { margin-left: 6px; font-size: 10px; color: var(--muted); background: none; border: none; cursor: pointer; padding: 0; line-height: 1; }
+    .fill-slot .slot-clear:hover { color: var(--red); }
+    .fill-item { margin-bottom: 18px; font-size: 14px; line-height: 2.2; }
+    .fill-hint { font-size: 12px; color: var(--muted); font-style: italic; margin-left: 4px; }
+    .fill-feedback { font-size: 12px; margin-left: 6px; font-weight: 600; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong   { color: var(--red); }
+    .error-item { border: 1.5px solid var(--border); border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; font-size: 14px; }
+    .error-sentence { font-style: italic; margin-bottom: 10px; }
+    .error-btns { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .error-btn { padding: 6px 14px; border-radius: 8px; border: 1.5px solid var(--border); background: none; font-family: 'Inter',sans-serif; font-size: 12px; font-weight: 600; cursor: pointer; transition: all .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .error-btn.wrong-ans   { border-color: var(--red);   background: var(--red-bg);   color: #881337; cursor: default; }
+    .error-feedback { font-size: 12px; margin-top: 8px; padding: 8px 12px; border-radius: 8px; display: none; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #881337; }
+    .check-btn { margin-top: 20px; padding: 10px 24px; background: var(--blue); color: white; border: none; border-radius: 10px; font-family: 'Inter',sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: background .15s; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 8px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; padding: 16px 0; border-bottom: 1px solid var(--border); font-size: 14px; line-height: 1.6; }
+    .disc-item:last-child { border-bottom: none; padding-bottom: 0; }
+    .disc-num { width: 30px; height: 30px; background: var(--bg); border: 1.5px solid var(--blue-bd); color: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; flex-shrink: 0; }
+    .lesson-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--border); }
+    .lesson-nav-btn { padding: 11px 24px; border-radius: 10px; font-family: 'Inter',sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: all .15s; display: flex; align-items: center; gap: 8px; }
+    .btn-prev { background: var(--white); border: 1.5px solid var(--border); color: var(--text); }
+    .btn-prev:hover { border-color: var(--blue); color: var(--blue); }
+    .btn-next { background: var(--blue); border: 1.5px solid var(--blue); color: white; }
+    .btn-next:hover { background: var(--blue-dk); border-color: var(--blue-dk); }
+    .btn-prev:disabled, .btn-next:disabled { opacity: .4; cursor: default; pointer-events: none; }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; padding: 24px 16px 0; }
+      .hero-img { display: none; }
+      .content { padding: 24px 16px 60px; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .phrase-img { min-height: 180px; }
+      .grammar-cols,.grammar-3col { grid-template-columns: 1fr; }
+      .speaking-cards { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-logo"><div class="nav-logo-icon">P</div>Practispeak</div>
+  <a href="/" class="nav-back">← All Lessons</a>
+</nav>
+
+<div class="hero">
+  <div>
+    <div class="hero-badge">B1-B2</div>
+    <h1>Esports &amp; Competitive Gaming</h1>
+    <p class="hero-sub">Read the news, follow the scene, and talk about the game like a professional</p>
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <span class="progress-pct" id="progressPct">0%</span>
+    </div>
+  </div>
+  <div class="hero-img">🏆</div>
+</div>
+
+<div class="tab-nav-wrap">
+  <div class="tab-nav">
+    <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+    <button class="tab-btn" data-tab="phrases">Phrases</button>
+    <button class="tab-btn" data-tab="inaction">In Action</button>
+    <button class="tab-btn" data-tab="register">Register</button>
+    <button class="tab-btn" data-tab="incontext">In Context</button>
+    <button class="tab-btn" data-tab="speaking">Speaking</button>
+    <button class="tab-btn" data-tab="exercises">Exercises</button>
+  </div>
+</div>
+
+<div class="content">
+
+  <!-- ── VOCABULARY ── -->
+  <section class="section active" id="tab-vocabulary">
+    <div class="section-title">Vocabulary</div>
+    <div class="section-sub">8 key words from the world of esports and competitive gaming</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#312e81)">🏆</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">TOURNAMENT</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">A large organised competition in which many teams or players compete over multiple rounds to determine a champion.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The tournament was held in front of 20,000 fans — the largest crowd in the game's history."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0c4a6e,#075985)">🌱</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">SEEDED</div>
+        <span class="phrase-tag">Adjective</span>
+        <p class="phrase-def">Ranked and placed in a competition bracket based on past performance — the best teams are seeded to avoid meeting each other early.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"They were seeded first going into the championship — everyone expected them to make the final."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7f1d1d,#991b1b)">🚫</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">DISQUALIFIED</div>
+        <span class="phrase-tag">Adjective</span>
+        <p class="phrase-def">Officially removed from a competition for breaking rules — the team or player loses all results from that event.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The team was disqualified after a player was found using unauthorised software during the match."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#166534)">💰</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">SPONSOR</div>
+        <span class="phrase-tag">Noun / Verb</span>
+        <p class="phrase-def">A company that provides financial or material support to a team or player in exchange for brand promotion and visibility.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The team was sponsored by three major brands — their jerseys were covered in logos."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-04.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#172554,#1e3a8a)">📡</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">BROADCAST</div>
+        <span class="phrase-tag">Verb / Noun</span>
+        <p class="phrase-def">To transmit a live event to an audience via TV, streaming platform, or online channel — esports events are broadcast globally.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The final was broadcast live to over 2 million viewers across three different streaming platforms."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-05.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#701a75)">📋</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">ROSTER</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">The official list of players who are part of a competitive team — changes to the roster are major news in the esports world.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Three players were released from the roster before the season — the rebuild was complete."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-06.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#115e59)">🧠</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">META</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">The most effective strategies, characters, or tactics in the current competitive environment — what the best players are using right now.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The meta was completely shifted by the latest patch — three characters were removed from every pro team's lineup."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-07.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1c1917,#292524)">🔧</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">PATCH</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-def">An official software update released by developers that changes game balance, fixes bugs, or adjusts the competitive meta.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The patch was released two days before the tournament — teams had almost no time to adjust their strategies."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-08.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-vocab-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" disabled>← Previous</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('phrases')">Phrases →</button>
+    </div>
+  </section>
+
+  <!-- ── PHRASES ── -->
+  <section class="section" id="tab-phrases">
+    <div class="section-title">Phrases</div>
+    <div class="section-sub">8 phrases for reading esports news and reporting with passive voice</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#312e81)">📰</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">"It was announced that…"</div>
+        <span class="phrase-tag">Reporting News</span>
+        <p class="phrase-def">Opens a news report without naming who made the announcement. The passive voice keeps the focus on the news itself, not the source — standard in professional journalism and esports reporting.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"It was announced that the world championship would be held in Seoul for the second year in a row."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/esports-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7f1d1d,#991b1b)">⚖️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">"The player was banned for…"</div>
+        <span class="phrase-tag">Reporting a Punishment</span>
+        <p class="phrase-def">Reports a disciplinary action using the passive voice. The focus is on the player and the reason — not on who issued the ban. This structure is used in every esports news story involving rule violations.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The player was banned for six months after testing positive for a prohibited substance during the tournament."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/esports-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0c4a6e,#075985)">🎯</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">"The match was decided by…"</div>
+        <span class="phrase-tag">Describing an Outcome</span>
+        <p class="phrase-def">Describes how a match ended using passive voice. Puts the outcome and cause first — essential for match reports and post-event analysis where the key factor matters more than who did what.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The match was decided by a single mistake in the final round — a missed shot that cost the team everything."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/esports-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#115e59)">🔍</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">"It is believed that…"</div>
+        <span class="phrase-tag">Hedging in News</span>
+        <p class="phrase-def">Used when a journalist reports information that is not yet confirmed. The passive voice distances the writer from the claim — they're reporting what others think, not stating it as fact. Critical for responsible reporting.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"It is believed that the star player's contract was not renewed, though neither side has confirmed this officially."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/esports-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#166534)">✍️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">"The team has been signed by…"</div>
+        <span class="phrase-tag">Transfer News</span>
+        <p class="phrase-def">Reports a player or team signing using the present perfect passive. The focus is on the team being signed — not on the organisation doing the signing. Used in every transfer announcement across esports.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The team has been signed by one of the largest esports organisations in North America in a multi-year deal."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/esports-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#172554,#1e3a8a)">🔧</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">"The patch was introduced to…"</div>
+        <span class="phrase-tag">Explaining Changes</span>
+        <p class="phrase-def">Explains why a game update was made, using passive voice to put the focus on the patch and its purpose — not on the developers who made it. Standard in game analysis and esports journalism.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The patch was introduced to address the dominant strategy that had made the last three tournaments predictable and repetitive."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/esports-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#701a75)">📎</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">"According to reports…"</div>
+        <span class="phrase-tag">Citing a Source</span>
+        <p class="phrase-def">Attributes information to an unnamed or general source — giving credibility to the claim without needing to identify a specific person. Common in breaking news and transfers where sources are confidential.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"According to reports, the organisation has been in negotiations with three international players for the past month."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/esports-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#78350f,#92400e)">📅</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">"The tournament is expected to…"</div>
+        <span class="phrase-tag">Future Passive</span>
+        <p class="phrase-def">Reports anticipated future events without stating them as certain facts. The passive form sounds objective and journalistic — this is how upcoming events, prize pools, and schedules are discussed in esports media.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The tournament is expected to attract over a million live viewers and offer a prize pool of five million dollars."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/esports-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <!-- GRAMMAR NOTE -->
+    <div class="grammar-note">
+      <h3>💡 Grammar Focus — The Passive Voice</h3>
+      <p>The passive voice puts the <strong>action or result</strong> at the front of the sentence — not the person doing it. This is why news and journalism use it constantly: sometimes the subject is unknown, unimportant, or deliberately withheld.</p>
+
+      <div class="grammar-3col">
+        <div class="grammar-col">
+          <h4>Present Passive</h4>
+          <div class="grammar-row">Pattern: <code>is / are + past participle</code></div>
+          <div class="grammar-row"><code>"The player is suspended."</code></div>
+          <div class="grammar-row"><code>"Teams are seeded by ranking."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Used for current states and ongoing situations.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>Past Passive</h4>
+          <div class="grammar-row">Pattern: <code>was / were + past participle</code></div>
+          <div class="grammar-row"><code>"The player was banned."</code></div>
+          <div class="grammar-row"><code>"The match was decided in overtime."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Used to report completed events — the backbone of match reports.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>Perfect Passive</h4>
+          <div class="grammar-row">Pattern: <code>has / have been + past participle</code></div>
+          <div class="grammar-row"><code>"The team has been signed."</code></div>
+          <div class="grammar-row"><code>"Three players have been released."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Used for recent news — something just happened, still relevant now.</div>
+        </div>
+      </div>
+
+      <div class="grammar-examples">
+        <h4>Active → Passive — gaming examples</h4>
+        <div class="grammar-example-list">
+          <div class="grammar-example-item">Active: <em>"The organisation signed the player."</em> → Passive: <em>"The player was signed by the organisation."</em> <span>→ focus shifts to the player</span></div>
+          <div class="grammar-example-item">Active: <em>"Developers released a major patch."</em> → Passive: <em>"A major patch was released."</em> <span>→ who released it doesn't matter</span></div>
+          <div class="grammar-example-item">Active: <em>"The judges disqualified the team."</em> → Passive: <em>"The team was disqualified."</em> <span>→ focus on the consequence, not the judges</span></div>
+          <div class="grammar-example-item">Active: <em>"Three sponsors dropped the player."</em> → Passive: <em>"The player was dropped by three sponsors."</em> <span>→ passive emphasises the player's loss</span></div>
+          <div class="grammar-example-item">Active: <em>"Nobody has confirmed the rumour."</em> → Passive: <em>"The rumour has not been confirmed."</em> <span>→ objective, journalistic tone</span></div>
+          <div class="grammar-example-item">Active: <em>"People expect the tournament to break viewership records."</em> → Passive: <em>"The tournament is expected to break viewership records."</em> <span>→ sounds authoritative without naming who expects it</span></div>
+          <div class="grammar-example-item">Active: <em>"They broadcast the final to 5 million viewers."</em> → Passive: <em>"The final was broadcast to 5 million viewers."</em> <span>→ the audience size is the headline, not who broadcast it</span></div>
+        </div>
+      </div>
+
+      <div class="grammar-warn">
+        ⚠️ <strong>Why does passive voice dominate esports news?</strong> Three reasons: (1) the action is more important than who did it, (2) the source is confidential or unknown, (3) it sounds more formal and objective. When you read esports articles, look for passive structures — you'll find them in almost every paragraph.
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('vocabulary')">← Vocabulary</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('inaction')">In Action →</button>
+    </div>
+  </section>
+
+  <!-- ── IN ACTION ── -->
+  <section class="section" id="tab-inaction">
+    <div class="section-title">In Action</div>
+    <div class="section-sub">How the phrases appear across different esports media formats</div>
+
+    <div class="stream-card">
+      <div class="inaction-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Image placeholder — 16:9</div>
+      <div class="stream-platform">
+        <span class="platform-badge badge-espn">Esports News</span>
+        <span class="stream-title">Breaking News Article — Transfer Season</span>
+      </div>
+      <p class="stream-text">
+        "<span class="hl">It was announced that</span> one of the most decorated rosters in the game's history would be disbanded at the end of the season. <span class="hl">According to reports</span>, contract negotiations had broken down over salary disputes that began three months ago. <span class="hl">It is believed that</span> the star player will be free to sign with any organisation from January. <span class="hl">The team has been signed by</span> a new sponsor in the meantime, though the future of the competitive lineup remains unclear. <span class="hl">The tournament</span> next month <span class="hl">is expected to</span> be the squad's final appearance together."
+      </p>
+      <div class="inaction-note">Notice how the entire article is written in passive voice — the journalist never says "we think" or "they told us." Passive voice makes news sound official and objective, even when the information comes from anonymous sources.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/esports-inaction-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to paragraph</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Image placeholder — 16:9</div>
+      <div class="stream-platform">
+        <span class="platform-badge badge-reddit">Reddit</span>
+        <span class="stream-title">Community Post — Post-Match Analysis</span>
+      </div>
+      <p class="stream-text">
+        "People keep asking what went wrong in the final. Here's the honest breakdown: <span class="hl">the match was decided by</span> a single draft decision in game three — they picked into a losing composition and never recovered. <span class="hl">The patch was introduced to</span> weaken exactly the style of play they relied on, and they hadn't adapted their strategy at all. <span class="hl">The player was banned</span> from the last qualifier, so this was their first major event without him. The roster showed gaps. It's that simple. They <span class="hl">were seeded</span> first, and nobody expects to lose to a team ranked eighth. But that's esports."
+      </p>
+      <div class="inaction-note">Reddit analysis uses passive voice more loosely — mixing it with active sentences for rhythm. Notice how passive structures still carry the key analytical points: the draft decision, the patch change, the ban. Active sentences handle opinion and colour.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/esports-inaction-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to paragraph</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Image placeholder — 16:9</div>
+      <div class="stream-platform">
+        <span class="platform-badge badge-casting">Live Commentary</span>
+        <span class="stream-title">Tournament Caster — Final Round</span>
+      </div>
+      <p class="stream-text">
+        "And we are moments away from the end of this incredible final. This <span class="hl">tournament was expected to</span> be close — nobody predicted it would come down to the wire like this. The position has been taken, the objective has been secured, and the crowd here is on their feet. <span class="hl">According to</span> the analysts, this was the play all along — they had prepared this exact rotation in practice. The title is about to <span class="hl">be claimed</span> — and the trophy will be lifted by the team that was told, before the season started, that they had no chance."
+      </p>
+      <div class="inaction-note">Live casters use passive voice to build drama — "the position has been taken", "the title is about to be claimed." It slows the pace and creates tension. Compare this to how quickly active sentences land in contrast: notice every passive sets up an active punch.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/esports-inaction-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to paragraph</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('phrases')">← Phrases</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('register')">Register →</button>
+    </div>
+  </section>
+
+  <!-- ── REGISTER ── -->
+  <section class="section" id="tab-register">
+    <div class="section-title">Register</div>
+    <div class="section-sub">How passive voice shifts across different esports writing contexts</div>
+
+    <div class="register-table">
+      <table>
+        <thead><tr><th>Context</th><th>Register</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>Live commentary</strong><br><span style="font-size:12px;color:var(--muted)">Twitch, YouTube, TV broadcast</span></td>
+            <td><span class="register-tag tag-informal">Informal / Dramatic</span></td>
+            <td><em>"It's been taken! The objective's been secured! The crowd can't believe it!"</em></td>
+          </tr>
+          <tr>
+            <td><strong>Reddit / Community posts</strong><br><span style="font-size:12px;color:var(--muted)">Forums, fan analysis</span></td>
+            <td><span class="register-tag tag-informal">Neutral / Analytical</span></td>
+            <td><em>"The match was decided by the draft. The patch was introduced to stop exactly this — they just didn't adapt."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Esports news article</strong><br><span style="font-size:12px;color:var(--muted)">ESPN, Dot Esports, The Loadout</span></td>
+            <td><span class="register-tag tag-neutral">Formal / Journalistic</span></td>
+            <td><em>"It was announced that the player has been signed. It is believed that the deal is worth a seven-figure sum."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Official press release</strong><br><span style="font-size:12px;color:var(--muted)">Team statements, developer updates</span></td>
+            <td><span class="register-tag tag-formal">Formal / Institutional</span></td>
+            <td><em>"The player has been released from their contract following a mutual agreement between all parties involved."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Social media (X / Twitter)</strong><br><span style="font-size:12px;color:var(--muted)">Announcements, reactions</span></td>
+            <td><span class="register-tag tag-informal">Informal / Punchy</span></td>
+            <td><em>"Roster dropped. Three players released. Season over. More to follow."</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tip-list">
+      <div class="tip green">
+        <span class="tip-icon">✅</span>
+        <span>All 8 phrases work naturally in written esports journalism. They sound professional and objective — exactly the tone that separates real reporting from fan opinion.</span>
+      </div>
+      <div class="tip blue">
+        <span class="tip-icon">💡</span>
+        <span><strong>"It is believed that…"</strong> and <strong>"According to reports…"</strong> are your most important hedging tools. Use them when you don't have confirmed facts — they protect you from stating something unverified as truth.</span>
+      </div>
+      <div class="tip amber">
+        <span class="tip-icon">⚠️</span>
+        <span>On social media, passive voice is often compressed to the point of omitting "to be": <em>"Player dropped"</em> instead of <em>"The player was dropped."</em> This is acceptable on Twitter but would look unprofessional in a formal article.</span>
+      </div>
+      <div class="tip red">
+        <span class="tip-icon">❌</span>
+        <span>Don't overuse passive voice in live commentary — it slows the energy. Active sentences like <em>"He hits it!"</em> land faster and harder. Passive works best for setup and context; active delivers the punch.</span>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('inaction')">← In Action</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('incontext')">In Context →</button>
+    </div>
+  </section>
+
+  <!-- ── IN CONTEXT ── -->
+  <section class="section" id="tab-incontext">
+    <div class="section-title">In Context</div>
+    <div class="section-sub">Read the article — highlighted phrases are from this lesson</div>
+
+    <div class="transcript-card">
+      <div class="transcript-title">Esports Weekly — "Storm Rising: The Unexpected Champions of the Season"</div>
+      <p class="stream-passage">
+        <mark>It was announced that</mark> Storm Rising had qualified for the World Championship after defeating the defending champions in a five-game series that left the esports world in disbelief. The team, which <mark>was seeded</mark> eighth going into the playoff bracket, overcame odds of more than twenty to one to reach the final.<br><br>
+        <mark>According to reports</mark>, the team's preparation had been exceptional — they had studied the opponent's patterns for six weeks before the event. <mark>The patch was introduced to</mark> reduce the dominance of high-damage compositions, and Storm Rising were one of the few teams that had fully adapted their roster strategy to the new meta. <mark>The match was decided by</mark> a coordinated rotation in round four that the opponents had clearly not anticipated.<br><br>
+        <mark>It is believed that</mark> several top organisations have already reached out to the team's management following the victory. <mark>The team has been signed by</mark> a new equipment sponsor effective immediately. <mark>The tournament</mark> final replay <mark>is expected to</mark> be among the most-watched esports broadcasts of the year, with the organisation's social media following having grown by 300 percent in the 48 hours since the match ended.
+      </p>
+    </div>
+
+    <div class="questions-card">
+      <h3>Comprehension Questions</h3>
+      <p class="q-intro">Think about <em>why</em> each passive structure is used — not just what it means.</p>
+
+      <div class="mc-question" id="mc1">
+        <div class="mc-q-text">1. The article opens with <em>"It was announced that Storm Rising had qualified."</em> Why is this passive rather than <em>"Storm Rising announced that they qualified"</em>?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(1,'A')"><div class="mc-letter">A</div>Because Storm Rising didn't make the announcement themselves</div>
+          <div class="mc-option" onclick="pickMC(1,'B')"><div class="mc-letter">B</div>Because passive voice always sounds more exciting in sports reporting</div>
+          <div class="mc-option" onclick="pickMC(1,'C')"><div class="mc-letter">C</div>Because the news itself is the focus — who made the announcement is less important than the fact that it happened</div>
+          <div class="mc-option" onclick="pickMC(1,'D')"><div class="mc-letter">D</div>Because the journalist didn't know who the team was</div>
+        </div>
+        <div class="mc-explain" id="mc1-exp"></div>
+        <button class="mc-check-btn" id="mc1-btn" onclick="checkMC(1)" disabled>Check</button>
+      </div>
+
+      <div class="mc-question" id="mc2">
+        <div class="mc-q-text">2. <em>"The patch was introduced to reduce the dominance of high-damage compositions."</em> What does this passive structure emphasise?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(2,'A')"><div class="mc-letter">A</div>That the developers made a mistake and are apologising</div>
+          <div class="mc-option" onclick="pickMC(2,'B')"><div class="mc-letter">B</div>The purpose of the patch — not who made it or when</div>
+          <div class="mc-option" onclick="pickMC(2,'C')"><div class="mc-letter">C</div>That the patch was unexpected and surprised everyone</div>
+          <div class="mc-option" onclick="pickMC(2,'D')"><div class="mc-letter">D</div>That the patch was introduced by Storm Rising's coaching team</div>
+        </div>
+        <div class="mc-explain" id="mc2-exp"></div>
+        <button class="mc-check-btn" id="mc2-btn" onclick="checkMC(2)" disabled>Check</button>
+      </div>
+
+      <div class="mc-question" id="mc3">
+        <div class="mc-q-text">3. <em>"It is believed that several top organisations have already reached out."</em> Why does the journalist use "it is believed" instead of "we know"?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(3,'A')"><div class="mc-letter">A</div>Because the journalist personally believes this but cannot prove it</div>
+          <div class="mc-option" onclick="pickMC(3,'B')"><div class="mc-letter">B</div>To sound more polite toward the organisations involved</div>
+          <div class="mc-option" onclick="pickMC(3,'C')"><div class="mc-letter">C</div>Because the information is unconfirmed — the passive hedge separates reporting from stating fact</div>
+          <div class="mc-option" onclick="pickMC(3,'D')"><div class="mc-letter">D</div>Because "we know" cannot be used in news articles</div>
+        </div>
+        <div class="mc-explain" id="mc3-exp"></div>
+        <button class="mc-check-btn" id="mc3-btn" onclick="checkMC(3)" disabled>Check</button>
+      </div>
+
+      <div class="mc-question" id="mc4">
+        <div class="mc-q-text">4. <em>"The team has been signed by a new equipment sponsor."</em> Why present perfect passive rather than past passive ("was signed")?</div>
+        <div class="mc-options">
+          <div class="mc-option" onclick="pickMC(4,'A')"><div class="mc-letter">A</div>Because the signing happened a long time ago and is now complete</div>
+          <div class="mc-option" onclick="pickMC(4,'B')"><div class="mc-letter">B</div>Because present perfect links a recent event to the current moment — the signing just happened and is still relevant now</div>
+          <div class="mc-option" onclick="pickMC(4,'C')"><div class="mc-letter">C</div>Because "was signed" is grammatically incorrect in this context</div>
+          <div class="mc-option" onclick="pickMC(4,'D')"><div class="mc-letter">D</div>Because present perfect always sounds more formal than past simple</div>
+        </div>
+        <div class="mc-explain" id="mc4-exp"></div>
+        <button class="mc-check-btn" id="mc4-btn" onclick="checkMC(4)" disabled>Check</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('register')">← Register</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('speaking')">Speaking →</button>
+    </div>
+  </section>
+
+  <!-- ── SPEAKING ── -->
+  <section class="section" id="tab-speaking">
+    <div class="section-title">Speaking</div>
+    <div class="section-sub">Choose a scenario — debate, cast, or hold a press conference</div>
+
+    <div class="speaking-intro">
+      Pick one option below. You have <strong>3–4 minutes</strong> to prepare and speak. Try to use at least <strong>4 phrases</strong> from the lesson — including at least <strong>two passive structures</strong>. Don't read from the list — just think and talk.
+    </div>
+
+    <div class="speaking-cards">
+      <div class="speaking-card">
+        <div class="speaking-card-label"><span class="speaking-card-icon">⚖️</span><span class="speaking-card-tag">Option A</span></div>
+        <h3>Debate: Is Esports a Real Sport?</h3>
+        <p>Your partner argues the opposite position. Build a clear argument using evidence, passive voice structures, and at least three phrases from the lesson. Then swap sides — argue the other position with equal conviction.</p>
+      </div>
+      <div class="speaking-card">
+        <div class="speaking-card-label"><span class="speaking-card-icon">🎙️</span><span class="speaking-card-tag">Option B</span></div>
+        <h3>Live Commentator</h3>
+        <p>You are casting the final minute of a championship match. Describe what is happening — who has the objective, what decisions are being made, what is at stake. Use passive voice to build tension and active sentences to deliver the big moments.</p>
+      </div>
+      <div class="speaking-card">
+        <div class="speaking-card-label"><span class="speaking-card-icon">🏢</span><span class="speaking-card-tag">Option C</span></div>
+        <h3>Press Conference</h3>
+        <p>You are a team manager. Three players have been released. A sponsor has dropped the team. Your partner plays a journalist asking difficult questions. Explain what happened — using passive voice to sound professional and measured under pressure.</p>
+      </div>
+    </div>
+
+    <div class="speaking-tips">
+      <h4>Useful reminders while you speak</h4>
+      <ul>
+        <li>Use passive voice when the <em>action</em> or <em>outcome</em> matters more than who did it — this is the key instinct to develop.</li>
+        <li>In the debate, <em>"It is believed that…"</em> and <em>"According to reports…"</em> make your arguments sound sourced and credible rather than personal opinion.</li>
+        <li>In the press conference, <em>"The player was released"</em> is far more professional than <em>"We fired him."</em> Passive voice manages difficult news without pointing blame.</li>
+        <li>In commentary, mix passive (for setup and context) with sharp active sentences (for the moment of action). The contrast creates energy.</li>
+      </ul>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('incontext')">← In Context</button>
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('exercises')">Exercises →</button>
+    </div>
+  </section>
+
+  <!-- ── EXERCISES ── -->
+  <section class="section" id="tab-exercises">
+    <div class="section-title">Exercises</div>
+    <div class="section-sub">Complete all three exercises, then discuss the questions</div>
+
+    <!-- EX 1 — MATCHING -->
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 1</div>
+      <h3>Match Active to Passive</h3>
+      <p class="ex-desc">Click a sentence on the left, then match it to its passive version on the right.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Active sentences</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">"The organisation signed the player last week."</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">"Developers released the patch yesterday."</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">"The judges disqualified the team from the event."</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">"People expect the final to break viewing records."</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">"Everyone knows the roster is changing."</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">"A missed shot decided the whole match."</div>
+        </div>
+        <div>
+          <div class="match-col-label">Passive versions</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">"The final is expected to break viewing records."</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">"The whole match was decided by a missed shot."</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">"The player was signed by the organisation last week."</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">"The team was disqualified from the event."</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">"It is known that the roster is changing."</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">"The patch was released yesterday."</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EX 2 — WORD BANK -->
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 2</div>
+      <h3>Complete the News Report</h3>
+      <p class="ex-desc">Click a phrase from the bank, then click the blank where it belongs.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Phrase bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="It was announced that" onclick="selectChip(this)">It was announced that</div>
+          <div class="chip" data-phrase="According to reports" onclick="selectChip(this)">According to reports</div>
+          <div class="chip" data-phrase="The patch was introduced to" onclick="selectChip(this)">The patch was introduced to</div>
+          <div class="chip" data-phrase="The team has been signed by" onclick="selectChip(this)">The team has been signed by</div>
+          <div class="chip" data-phrase="It is believed that" onclick="selectChip(this)">It is believed that</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">1.</span>
+        <span class="fill-slot" id="fs1" data-answer="It was announced that" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+        the prize pool had doubled from last year's event.
+        <em class="fill-hint">(opening a news story)</em>
+        <span class="fill-feedback" id="fb1"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">2.</span>
+        <span class="fill-slot" id="fs2" data-answer="According to reports" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+        , the player had been in talks with two organisations before making a decision.
+        <em class="fill-hint">(citing an unnamed source)</em>
+        <span class="fill-feedback" id="fb2"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">3.</span>
+        <span class="fill-slot" id="fs3" data-answer="The patch was introduced to" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+        slow down the dominant aggressive meta that had made matches predictable.
+        <em class="fill-hint">(explaining a game update)</em>
+        <span class="fill-feedback" id="fb3"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">4.</span>
+        <span class="fill-slot" id="fs4" data-answer="The team has been signed by" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+        a global brand as part of a new two-year sponsorship agreement.
+        <em class="fill-hint">(transfer / signing news)</em>
+        <span class="fill-feedback" id="fb4"></span>
+      </div>
+      <div class="fill-item">
+        <span style="font-weight:600;color:var(--muted);margin-right:6px">5.</span>
+        <span class="fill-slot" id="fs5" data-answer="It is believed that" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+        the coaching staff will also be replaced before next season begins.
+        <em class="fill-hint">(hedging — not confirmed)</em>
+        <span class="fill-feedback" id="fb5"></span>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Answers</button>
+    </div>
+
+    <!-- EX 3 — SPOT THE ERROR -->
+    <div class="exercise-block">
+      <div class="exercise-num">Exercise 3</div>
+      <h3>Correct or Incorrect?</h3>
+      <p class="ex-desc">Is each passive structure correct? If not, what's the error?</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"The player was ban for cheating during the qualifier."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(1,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"The final was broadcast live to more than three million viewers."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(2,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"It is believed that the roster will be announced next week."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,true)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(3,false)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"The team has been sign by the organisation yesterday."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(4,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"The tournament is expected attracting record viewership this year."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,false)">✅ Correct</button>
+          <button class="error-btn" onclick="checkError(5,true)">❌ Has an error</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <!-- DISCUSSION -->
+    <div class="disc-card">
+      <h3>🗣 Discussion Questions</h3>
+      <div class="disc-item"><div class="disc-num">1</div><span>Do you follow any esports teams or tournaments? What makes competitive gaming exciting to watch — or not?</span></div>
+      <div class="disc-item"><div class="disc-num">2</div><span>Is esports a real sport? Build your argument using at least three phrases from the lesson and two passive voice structures.</span></div>
+      <div class="disc-item"><div class="disc-num">3</div><span>Why do you think news journalists use passive voice so often? What would change if they always used active voice instead?</span></div>
+      <div class="disc-item"><div class="disc-num">4</div><span>A star player has just been banned for cheating. You are the team manager. How do you announce this to the public? What language would you use — and why?</span></div>
+      <div class="disc-item"><div class="disc-num">5</div><span>Think about the In Context article. What would the article sound like if every passive sentence was rewritten as active? Try converting two sentences and discuss what changes.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn btn-prev" onclick="goToTab('speaking')">← Speaking</button>
+      <button class="lesson-nav-btn btn-next" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  const tabs = ['vocabulary','phrases','inaction','register','incontext','speaking','exercises'];
+  const completedTabs = new Set();
+
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  // ── AUDIO ──
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause(); currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
+    }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
+  }
+
+  // ── MC ──
+  const mcAnswers = { 1:'C', 2:'B', 3:'C', 4:'B' };
+  const mcExplain = {
+    1: {
+      C: { good:true,  msg:"Correct! Passive voice is used here because the news itself — the qualification — is what matters. The identity of who made the official announcement (the league, the tournament organisers) is secondary to the fact that it happened." },
+      A: { good:false, msg:"Storm Rising absolutely could have made the announcement, but that's not the reason for the passive. The passive is chosen to centre the news event, not to suggest they didn't speak." },
+      B: { good:false, msg:"Passive voice doesn't inherently make things more exciting — in fact, it often slows the pace. It's chosen here for journalistic objectivity, not drama." },
+      D: { good:false, msg:"The journalist clearly knows who the team is — they're the entire subject of the article! The passive is about focus, not knowledge." }
+    },
+    2: {
+      B: { good:true,  msg:"Correct! 'The patch was introduced to reduce…' centres the purpose of the update. Who made it (the developers) is obvious and unimportant to this sentence — what matters is why it was made and what effect it had on the competitive meta." },
+      A: { good:false, msg:"There's no apology implied here. The passive is simply used to focus on the patch's function, not to suggest anyone was wrong." },
+      C: { good:false, msg:"Nothing in this sentence suggests the patch was unexpected. The passive is about focus — purpose over actor — not about surprise." },
+      D: { good:false, msg:"Teams don't create patches — developers do. The passive is used because 'the developers' is obvious and less interesting than the patch's effect on the game." }
+    },
+    3: {
+      C: { good:true,  msg:"Correct! 'It is believed that' is a journalistic hedge — it reports information circulating in the industry without the journalist personally vouching for it. It's responsible reporting: present the claim, signal its uncertainty, protect yourself from stating unconfirmed facts as truth." },
+      A: { good:false, msg:"It's not about the journalist's personal belief — it's a formal passive hedge that creates distance between the journalist and the unverified claim." },
+      B: { good:false, msg:"There's no politeness function here — it's about precision and journalistic responsibility, not courtesy toward the organisations." },
+      D: { good:false, msg:"'We know' absolutely can appear in journalism, but in a very different context — for well-established facts. Here, the information is unconfirmed, so hedging is necessary." }
+    },
+    4: {
+      B: { good:true,  msg:"Correct! Present perfect ('has been signed') connects a recent event to the present moment — it just happened and is still relevant. Past simple ('was signed') would suggest it's old news, completed and filed away. In breaking news, present perfect is the go-to tense for fresh developments." },
+      A: { good:false, msg:"If the signing had happened long ago, past simple would be more natural. Present perfect is specifically used for recent events with current relevance." },
+      C: { good:false, msg:"'Was signed' is grammatically correct — it just carries different meaning. Past simple signals completion; present perfect signals recency and ongoing relevance." },
+      D: { good:false, msg:"Formality isn't the distinction here — both tenses are formal. The difference is purely about timing and relevance to the present moment." }
+    }
+  };
+  const mcSelected = {};
+  function pickMC(q, letter) {
+    const block = document.getElementById('mc' + q);
+    if (block.dataset.answered) return;
+    mcSelected[q] = letter;
+    block.querySelectorAll('.mc-option').forEach((opt, i) => {
+      opt.classList.toggle('selected', ['A','B','C','D'][i] === letter);
+    });
+    document.getElementById('mc' + q + '-btn').disabled = false;
+  }
+  function checkMC(q) {
+    const block = document.getElementById('mc' + q);
+    if (block.dataset.answered) return;
+    block.dataset.answered = '1';
+    const chosen = mcSelected[q], correct = mcAnswers[q];
+    block.querySelectorAll('.mc-option').forEach((opt, i) => {
+      const l = ['A','B','C','D'][i];
+      opt.classList.remove('selected');
+      if (l === correct) opt.classList.add('correct');
+      else if (l === chosen && chosen !== correct) opt.classList.add('wrong');
+      else opt.classList.add('dim');
+    });
+    const exp = document.getElementById('mc' + q + '-exp');
+    const info = mcExplain[q][chosen] || mcExplain[q][correct];
+    exp.innerHTML = info.msg;
+    exp.className = 'mc-explain show ' + (info.good ? 'good' : 'bad');
+    document.getElementById('mc' + q + '-btn').disabled = true;
+  }
+
+  // ── MATCHING ──
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++; document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  // ── WORD BANK ──
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el; el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+      return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  // ── SPOT THE ERROR ──
+  const errorAnswers = { 1:true, 2:false, 3:false, 4:true, 5:true };
+  const errorExplanations = {
+    1: { fix:true,  msg:'Error: "ban" should be the past participle "banned". Passive voice requires: was/were + past participle. Say: <strong>"The player was banned for cheating."</strong>' },
+    2: { fix:false, msg:'Correct! "was broadcast" is the correct past passive form. Note: "broadcast" is both the base and past participle form — no "-ed" needed.' },
+    3: { fix:false, msg:'Correct! "It is believed that" is a perfect present passive hedge. "will be announced" is also correct — future passive with "will be + past participle."' },
+    4: { fix:true,  msg:'Two errors: (1) "sign" should be "signed" — present perfect passive needs the past participle. (2) "yesterday" conflicts with present perfect — use "was signed yesterday" instead. Correct: <strong>"The team was signed by the organisation yesterday."</strong>' },
+    5: { fix:true,  msg:'Error: "expected attracting" is wrong. After "is expected to", use the infinitive: <strong>"The tournament is expected to attract record viewership this year."</strong>' },
+  };
+  function checkError(num, userSaysError) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userSaysError && userSaysError !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>
