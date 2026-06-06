@@ -21,26 +21,26 @@ const VOICES = {
 
 // ── VOCAB (word + example, same voice, rotating M/F) ────────────────────────
 const VOCAB = [
-  { slug: 'gaming-identity-vocab-01', voice: 'male_narrator',   word: 'identity',        example: "Gaming has become a central part of my identity — not merely a hobby, but a lens through which I understand competition, creativity, and community." },
-  { slug: 'gaming-identity-vocab-02', voice: 'female_narrator', word: 'subculture',       example: "What began as a subculture confined to arcades and basements has evolved into one of the most economically and culturally significant spaces of the 21st century." },
-  { slug: 'gaming-identity-vocab-03', voice: 'jm_husk',         word: 'discourse',        example: "The discourse around gaming has shifted dramatically — where once it was dominated by moral panic, it is now shaped by questions of art, culture, and representation." },
-  { slug: 'gaming-identity-vocab-04', voice: 'lauren',          word: 'stigma',           example: "The stigma once attached to gaming — that it was antisocial, childish, or a waste of time — has eroded significantly, though it has not disappeared entirely." },
-  { slug: 'gaming-identity-vocab-05', voice: 'mark',            word: 'representation',   example: "Questions of representation in gaming — who the protagonists are, whose stories are told — have become central to debates about the industry's cultural responsibility." },
-  { slug: 'gaming-identity-vocab-06', voice: 'juniper',         word: 'legitimacy',       example: "The legitimacy of gaming as an art form is no longer seriously disputed; the question now is who holds the authority to define what good gaming looks like." },
-  { slug: 'gaming-identity-vocab-07', voice: 'shannon',         word: 'commodify',        example: "Critics argue that mainstream success has commodified gaming culture — turning countercultural practices into branded lifestyle products aimed at the widest possible audience." },
-  { slug: 'gaming-identity-vocab-08', voice: 'sally',           word: 'nuance',           example: "Any serious discussion of gaming culture requires nuance — the experience of a professional esports athlete and a casual mobile player are not culturally interchangeable." },
+  { slug: 'gaming-identity-vocab-01', voice: 'male_narrator',   word: 'identity',        example: "Gaming's a huge part of my identity now — it's not just something I do for fun, it's kind of who I am." },
+  { slug: 'gaming-identity-vocab-02', voice: 'female_narrator', word: 'subculture',       example: "Gaming used to be this little subculture — just a bunch of people in arcades and basements. Now it's everywhere." },
+  { slug: 'gaming-identity-vocab-03', voice: 'jm_husk',         word: 'discourse',        example: "The discourse around gaming has really changed — people used to panic about it, but now they actually talk about it as art and culture." },
+  { slug: 'gaming-identity-vocab-04', voice: 'lauren',          word: 'stigma',           example: "There's still a bit of stigma around gaming — like people assuming it's childish or a waste of time — but it's way less than it used to be." },
+  { slug: 'gaming-identity-vocab-05', voice: 'mark',            word: 'representation',   example: "People care a lot more about representation in games now — like who the main characters are and whose stories actually get told." },
+  { slug: 'gaming-identity-vocab-06', voice: 'juniper',         word: 'legitimacy',       example: "Nobody really questions gaming's legitimacy as an art form anymore — the bigger question is who gets to decide what counts as 'good.'" },
+  { slug: 'gaming-identity-vocab-07', voice: 'shannon',         word: 'commodify',        example: "Some people think big companies have commodified gaming culture — basically slapping a logo on it and selling it back to us." },
+  { slug: 'gaming-identity-vocab-08', voice: 'sally',           word: 'nuance',           example: "You really need some nuance when you talk about gaming culture — a pro esports player and someone who plays Candy Crush on the bus live pretty different lives." },
 ];
 
 // ── LANGUAGE FOCUS EXAMPLES (example sentence only) ──────────────────────────
 const PHRASES = [
-  { slug: 'gaming-identity-01-example', voice: 'george',       text: "It could be argued that gaming's cultural ascent has not so much resolved the question of gaming identity as it has displaced it." },
-  { slug: 'gaming-identity-02-example', voice: 'female_gen',   text: "There is a tendency for mainstream discourse to commodify gaming culture, reducing complex subcultural identities to marketable aesthetics." },
-  { slug: 'gaming-identity-03-example', voice: 'jm_husk',      text: "To some extent, this suggests that the stigma attached to gaming has shifted rather than disappeared — relocated onto specific genres or communities within the medium." },
-  { slug: 'gaming-identity-04-example', voice: 'lauren',       text: "One might question whether the term 'gamer' still carries the same identity-forming weight it once did, given how broadly it is now applied." },
-  { slug: 'gaming-identity-05-example', voice: 'mark',         text: "The evidence would seem to indicate that gaming identity is increasingly generational — more fluid and less fixed than earlier subcultural formations suggested." },
-  { slug: 'gaming-identity-06-example', voice: 'juniper',      text: "This raises the question of whether gaming culture can retain any meaningful subcultural identity once it becomes the dominant cultural mainstream." },
-  { slug: 'gaming-identity-07-example', voice: 'shannon',      text: "While it is true that gaming has achieved unprecedented mainstream visibility, one must also consider the degree to which this visibility has been shaped by commercial rather than cultural priorities." },
-  { slug: 'gaming-identity-08-example', voice: 'sally',        text: "I would tentatively suggest that gaming's cultural legitimacy is now less in question than its cultural direction — the debate has moved from whether gaming matters to what it should stand for." },
+  { slug: 'gaming-identity-01-example', voice: 'george',       text: "It could be argued that gaming becoming so popular hasn't really answered the identity question — it's just changed what we're arguing about." },
+  { slug: 'gaming-identity-02-example', voice: 'female_gen',   text: "There is a tendency for big brands to commodify gaming culture — turning what used to feel personal into something they can just sell." },
+  { slug: 'gaming-identity-03-example', voice: 'jm_husk',      text: "To some extent, this suggests that the stigma around gaming hasn't disappeared — it's just moved onto certain types of games or certain communities." },
+  { slug: 'gaming-identity-04-example', voice: 'lauren',       text: "One might question whether calling yourself a 'gamer' even means as much these days, since pretty much everyone plays games now." },
+  { slug: 'gaming-identity-05-example', voice: 'mark',         text: "The evidence would seem to indicate that younger gamers feel a lot more relaxed about their gamer identity than older generations did." },
+  { slug: 'gaming-identity-06-example', voice: 'juniper',      text: "This raises the question of whether gaming can still feel like its own thing now that pretty much everyone's doing it." },
+  { slug: 'gaming-identity-07-example', voice: 'shannon',      text: "While it is true that gaming is more visible than ever, one must also consider how much of that is just companies chasing money rather than caring about the culture." },
+  { slug: 'gaming-identity-08-example', voice: 'sally',        text: "I would tentatively suggest that the real debate isn't whether gaming matters anymore — it's about where the culture goes from here." },
 ];
 
 // ── IN USE PARAGRAPHS ────────────────────────────────────────────────────────
@@ -48,17 +48,17 @@ const INACTION = [
   {
     slug: 'gaming-identity-inaction-01',
     voice: 'male_narrator',
-    text: "It could be argued that no cultural shift in recent decades has been as underanalysed as gaming's transition from stigmatised subculture to mainstream cultural phenomenon. There is a tendency for media discourse to frame this shift as an uncomplicated victory — a once-marginalised community finally receiving the recognition it deserved. To some extent, this framing has merit. The legitimacy of gaming as a cultural form is no longer seriously contested. However, one must also consider what has been lost in the process. As gaming has been commodified — its aesthetics absorbed into fashion, its language into advertising — the question of identity becomes increasingly complex. I would tentatively suggest that the most significant challenge facing gaming culture today is not external stigma, but internal fragmentation: the difficulty of maintaining any coherent subcultural identity in a medium now consumed by billions.",
+    text: "It could be argued that gaming's move from the margins to the mainstream is one of the biggest culture shifts of our time — and one we barely stop to think about. There is a tendency to tell this story as a simple win: an outsider group finally gets the respect it deserved. To some extent, that's true — gaming's legitimacy as an art form is barely questioned anymore. But something else is going on too. As gaming gets commodified — turned into fashion lines, ad campaigns, branded merch — the question of identity gets messier. I would tentatively suggest that the real challenge facing gaming culture today isn't outside stigma — it's holding onto any shared identity at all, now that billions of people play.",
   },
   {
     slug: 'gaming-identity-inaction-02',
     voice: 'female_narrator',
-    text: "I think what's interesting — and I would tentatively suggest this is underappreciated — is that gaming identity has never been singular. There is a tendency, particularly in mainstream coverage, to speak of gamers as though they constitute a homogeneous group. But the discourse within gaming communities tells a very different story. To some extent, the legitimacy debates of the past decade have obscured a more fundamental question: representation. Who is centred in gaming culture? Whose experience is treated as the default? This raises the question of whether we are witnessing genuine cultural expansion, or simply the commodification of one particular vision of what gaming is supposed to look like.",
+    text: "I think what's interesting — and I would tentatively suggest people don't talk about this enough — is that there's never really been just one 'gamer identity.' There is a tendency, especially in the news, to talk about gamers like they're all the same. But the discourse inside gaming communities tells a very different story. To some extent, all the talk about whether gaming 'counts' as legitimate has actually distracted from a bigger question: representation. Whose stories get told? Who gets to be the hero? This raises the question of whether gaming culture is really growing — or just getting repackaged and sold as one narrow version of itself, which is its own kind of commodification.",
   },
   {
     slug: 'gaming-identity-inaction-03',
     voice: 'jm_husk',
-    text: "Gaming culture didn't become legitimate. It got bought. The subculture had its aesthetics extracted, packaged, and sold back to us by the same mainstream that spent decades dismissing it. What we're calling legitimacy is just commodification with better PR. The stigma didn't disappear — it shifted onto whoever is inconvenient to the brand. And most people are too busy celebrating the mainstream moment to notice what was lost.",
+    text: "Gaming culture didn't become legitimate. It got bought. The subculture had its style ripped out, repackaged, and sold back to us by the same people who spent years calling it a waste of time. What we're calling 'legitimacy' is just commodification with better PR. The stigma didn't go away — it just moved onto whoever's inconvenient for the brand right now. And most people are too busy celebrating to notice what got lost.",
   },
 ];
 
