@@ -150,20 +150,6 @@
     .aq-question { font-size: 14px; font-weight: 600; line-height: 1.6; margin-bottom: 8px; }
     .aq-prompt { font-size: 13px; color: var(--muted); line-height: 1.6; font-style: italic; }
 
-    /* Seminar */
-    .seminar-intro { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px 28px; margin-bottom: 24px; font-size: 14px; line-height: 1.7; }
-    .seminar-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
-    .seminar-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; border-top: 4px solid var(--blue); }
-    .seminar-card-label { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
-    .seminar-card-icon { font-size: 20px; }
-    .seminar-card-tag { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); }
-    .seminar-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
-    .seminar-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
-    .seminar-scaffold { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px 28px; }
-    .seminar-scaffold h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 12px; }
-    .seminar-scaffold ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-    .seminar-scaffold li { font-size: 13px; color: var(--muted); line-height: 1.6; padding-left: 16px; position: relative; }
-    .seminar-scaffold li::before { content: '→'; position: absolute; left: 0; color: var(--blue); }
     .lang-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-top: 16px; }
     .lang-bank h5 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
     .lang-chips { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -231,7 +217,6 @@
       .phrase-card { grid-template-columns: 1fr; }
       .phrase-card.flip { direction: ltr; }
       .grammar-3col { grid-template-columns: 1fr; }
-      .seminar-cards { grid-template-columns: 1fr; }
       .match-grid { grid-template-columns: 1fr; }
       .tab-nav { overflow-x: auto; }
       .content { padding: 24px 16px 60px; }
@@ -269,7 +254,6 @@
       <button class="tab-btn" data-tab="inuse">In Use</button>
       <button class="tab-btn" data-tab="register">Register & Stance</button>
       <button class="tab-btn" data-tab="reading">Blog Corner</button>
-      <button class="tab-btn" data-tab="seminar">Seminar</button>
       <button class="tab-btn" data-tab="analysis">Analysis Tasks</button>
     </div>
   </div>
@@ -715,63 +699,6 @@
 
     <div class="lesson-nav">
       <button class="lesson-nav-btn" onclick="goToTab('register')">← Register & Stance</button>
-      <button class="lesson-nav-btn" onclick="goToTab('seminar')">Seminar →</button>
-    </div>
-  </section>
-
-  <!-- ── SEMINAR ── -->
-  <section class="section" id="tab-seminar">
-    <div class="section-title">Seminar</div>
-    <div class="section-sub">Three structured discussion tasks — preparation time matters</div>
-
-    <div class="seminar-intro">
-      Take <strong>5 minutes</strong> to prepare before each task. Use at least <strong>4 vocabulary words</strong> and <strong>4 hedging devices</strong> from the lesson. Your partner's role is to track which devices you use — and to challenge any unhedged claim they hear.
-    </div>
-
-    <div class="seminar-cards">
-      <div class="seminar-card">
-        <div class="seminar-card-label"><span class="seminar-card-icon">📣</span><span class="seminar-card-tag">Task A</span></div>
-        <h3>Prepared Statement</h3>
-        <p>Argue — in 3 minutes — that gaming's mainstream success has been culturally <em>beneficial</em> or culturally <em>harmful</em>. Your partner evaluates the quality and appropriateness of your hedging, then responds with a counter-argument using the same devices.</p>
-      </div>
-      <div class="seminar-card">
-        <div class="seminar-card-label"><span class="seminar-card-icon">🎭</span><span class="seminar-card-tag">Task B</span></div>
-        <h3>Panel Discussion</h3>
-        <p>Four roles: the academic, the old-school gamer, the mainstream newcomer, the industry spokesperson. Each defends their perspective on gaming's cultural identity for 2 minutes. The group must use at least one hedging device when challenging each other's positions.</p>
-      </div>
-      <div class="seminar-card">
-        <div class="seminar-card-label"><span class="seminar-card-icon">⚖️</span><span class="seminar-card-tag">Task C</span></div>
-        <h3>Devil's Advocate</h3>
-        <p>Pick an opinion you disagree with from the blog post in Blog Corner (e.g. "companies have commodified gaming culture"). Argue *for* it for 2 minutes, using hedging language to soften your claims. Your partner picks the weakest point in your argument — and you defend it using "While it is true that…, one must also consider…"</p>
-      </div>
-    </div>
-
-    <div class="seminar-scaffold">
-      <h4>Handy phrases for the discussion</h4>
-      <ul>
-        <li>Soften your opening claim with a hedge first — don't just state an opinion as fact.</li>
-        <li>Use "this raises the question of…" to bring up a new angle without answering it yet — it keeps the group talking.</li>
-        <li>"While it is true that…, one must also consider…" is a great way to agree with part of an idea before pushing back.</li>
-        <li>Try ending your turn with a question instead of a conclusion — it feels more like a conversation than a lecture.</li>
-        <li>Push back on someone gently with "one might question whether…" instead of "I disagree" — it keeps things friendly.</li>
-      </ul>
-      <div class="lang-bank">
-        <h5>Quick reference — hedging phrases</h5>
-        <div class="lang-chips">
-          <div class="lang-chip">It could be argued that…</div>
-          <div class="lang-chip">There is a tendency for…</div>
-          <div class="lang-chip">To some extent, this suggests…</div>
-          <div class="lang-chip">One might question whether…</div>
-          <div class="lang-chip">The evidence would seem to indicate…</div>
-          <div class="lang-chip">This raises the question of…</div>
-          <div class="lang-chip">While it is true that…, one must also consider…</div>
-          <div class="lang-chip">I would tentatively suggest that…</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="lesson-nav">
-      <button class="lesson-nav-btn" onclick="goToTab('reading')">← Blog Corner</button>
       <button class="lesson-nav-btn" onclick="goToTab('analysis')">Analysis Tasks →</button>
     </div>
   </section>
@@ -932,7 +859,7 @@
     </div>
 
     <div class="lesson-nav">
-      <button class="lesson-nav-btn" onclick="goToTab('seminar')">← Seminar</button>
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">← Blog Corner</button>
       <button class="lesson-nav-btn" disabled>Lesson Complete ✓</button>
     </div>
   </section>
@@ -940,7 +867,7 @@
   </div>
 
 <script>
-  const tabs = ['vocabulary','langfocus','inuse','register','reading','seminar','analysis'];
+  const tabs = ['vocabulary','langfocus','inuse','register','reading','analysis'];
   const completedTabs = new Set();
   function goToTab(id) {
     const current = document.querySelector('.tab-btn.active');
