@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Vocabulary: Etymology, Collocations & Register</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f7f8fb;
+  --card: #ffffff;
+  --blue: #2563eb;
+  --blue-dk: #1d4ed8;
+  --blue-lt: #dbeafe;
+  --text: #1e293b;
+  --muted: #64748b;
+  --green: #16a34a;
+  --green-lt: #dcfce7;
+  --red: #dc2626;
+  --red-lt: #fee2e2;
+  --amber: #d97706;
+  --amber-lt: #fef3c7;
+  --purple: #7c3aed;
+  --purple-lt: #ede9fe;
+  --border: #e2e8f0;
+  --radius: 16px;
+  --shadow: 0 4px 24px rgba(15, 23, 42, 0.06);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+.navbar {
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.navbar-brand { font-weight: 800; font-size: 18px; color: var(--blue); }
+.navbar-back { font-size: 14px; color: var(--muted); text-decoration: none; }
+.hero {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 24px 16px;
+}
+.hero-badge {
+  display: inline-block;
+  background: var(--blue-lt);
+  color: var(--blue-dk);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+.hero h1 { font-size: 32px; font-weight: 800; margin-bottom: 8px; }
+.hero-sub { color: var(--muted); font-size: 16px; max-width: 640px; }
+.hero-level {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 600;
+}
+.progress-wrap { margin-top: 20px; max-width: 480px; }
+.progress-track { background: var(--border); border-radius: 999px; height: 8px; overflow: hidden; }
+.progress-fill { background: var(--blue); height: 100%; border-radius: 999px; width: 0%; transition: width 0.4s ease; }
+.progress-label { font-size: 12px; color: var(--muted); margin-top: 6px; font-weight: 600; }
+
+.tab-nav-wrap {
+  position: sticky;
+  top: 61px;
+  background: var(--bg);
+  z-index: 40;
+  padding: 8px 0 16px;
+}
+.lesson-nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.lesson-nav::-webkit-scrollbar { display: none; }
+.nav-btn {
+  flex: 0 0 auto;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+.nav-btn.active { background: var(--blue); border-color: var(--blue); color: white; }
+.nav-btn.done::after { content: " ✓"; }
+
+.tab-content { max-width: 1000px; margin: 0 auto; padding: 8px 24px 80px; display: none; }
+.tab-content.active { display: block; }
+.tab-intro { color: var(--muted); font-size: 15px; margin-bottom: 24px; max-width: 680px; }
+.tab-intro strong { color: var(--text); }
+
+/* Phrase / vocab cards */
+.phrase-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+  margin-bottom: 18px;
+  display: grid;
+  grid-template-columns: 72px 1fr 96px;
+  gap: 20px;
+  align-items: start;
+}
+.phrase-card.flip { grid-template-columns: 96px 1fr 72px; }
+.phrase-card.flip .phrase-img { order: 1; }
+.phrase-card.flip .phrase-body { order: 2; }
+.phrase-card.flip .listen-col { order: 3; }
+.phrase-img {
+  width: 72px; height: 72px;
+  border-radius: 14px;
+  background: var(--blue-lt);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 32px;
+}
+.phrase-num {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--blue);
+  background: var(--blue-lt);
+  border-radius: 6px;
+  padding: 2px 8px;
+  margin-bottom: 8px;
+}
+.phrase-word { font-size: 21px; font-weight: 800; letter-spacing: 0.3px; }
+.phrase-tag {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px 11px;
+  margin: 6px 8px 6px 0;
+}
+.phrase-etymology {
+  font-size: 13.5px;
+  color: var(--muted);
+  background: var(--purple-lt);
+  border-left: 3px solid var(--purple);
+  border-radius: 0 8px 8px 0;
+  padding: 8px 12px;
+  margin: 10px 0;
+}
+.phrase-etymology strong { color: var(--purple); font-weight: 700; }
+.phrase-collocations { font-size: 13.5px; color: var(--muted); margin: 8px 0; }
+.phrase-collocations strong { color: var(--text); }
+.phrase-collocations code {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px 7px;
+  font-size: 13px;
+  font-family: 'SF Mono', Consolas, monospace;
+  color: var(--blue-dk);
+}
+.phrase-def { font-size: 15px; margin-top: 8px; }
+.phrase-def em { color: var(--muted); font-style: italic; }
+.phrase-example-label { font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 14px; }
+.phrase-example { font-size: 14.5px; color: var(--text); background: var(--bg); border-radius: 10px; padding: 10px 14px; margin-top: 6px; }
+.listen-col { display: flex; flex-direction: column; gap: 8px; align-items: center; }
+.audio-player {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--card);
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px;
+  transition: all 0.15s ease;
+}
+.audio-player:hover { background: var(--blue-lt); border-color: var(--blue); }
+.audio-player.playing { background: var(--blue); border-color: var(--blue); color: white; }
+.audio-player-label { font-size: 10px; color: var(--muted); font-weight: 600; text-align: center; }
+
+/* Grammar note box */
+.grammar-note {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px;
+  margin-top: 28px;
+}
+.grammar-note h3 { font-size: 19px; margin-bottom: 14px; }
+.grammar-3col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 18px 0;
+}
+.grammar-col {
+  background: var(--bg);
+  border-radius: 12px;
+  padding: 16px;
+}
+.grammar-col h4 { font-size: 14px; color: var(--blue-dk); margin-bottom: 10px; }
+.grammar-row { font-size: 13.5px; margin-bottom: 8px; }
+.grammar-row code {
+  display: inline-block;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px 7px;
+  font-family: 'SF Mono', Consolas, monospace;
+  font-size: 12.5px;
+  color: var(--blue-dk);
+  margin-bottom: 2px;
+}
+.grammar-row span { display: block; color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+.grammar-examples { margin: 16px 0; padding-left: 0; list-style: none; }
+.grammar-examples li { font-size: 14px; margin-bottom: 8px; padding-left: 22px; position: relative; }
+.grammar-examples li::before { content: "→"; position: absolute; left: 0; color: var(--blue); font-weight: 700; }
+.grammar-warn {
+  background: var(--amber-lt);
+  border-left: 4px solid var(--amber);
+  border-radius: 0 10px 10px 0;
+  padding: 14px 18px;
+  font-size: 14px;
+  margin-top: 16px;
+}
+.grammar-warn strong { color: var(--amber); }
+
+/* In Use / stream cards */
+.stream-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 26px;
+  margin-bottom: 22px;
+}
+.stream-head { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
+.inaction-img {
+  width: 52px; height: 52px;
+  border-radius: 12px;
+  background: var(--blue-lt);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px;
+}
+.stream-platform { font-size: 16px; font-weight: 700; }
+.platform-badge {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 3px 12px;
+  margin-top: 4px;
+}
+.badge-chat { background: var(--purple-lt); color: var(--purple); }
+.badge-stream { background: var(--blue-lt); color: var(--blue-dk); }
+.badge-news { background: var(--green-lt); color: #166534; }
+.stream-text { font-size: 15px; line-height: 1.75; }
+.stream-text .hl {
+  background: linear-gradient(180deg, transparent 60%, var(--blue-lt) 60%);
+  font-weight: 700;
+  padding: 0 1px;
+}
+.inaction-note {
+  font-size: 13.5px;
+  color: var(--muted);
+  background: var(--bg);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-top: 16px;
+}
+.inaction-note strong { color: var(--text); }
+.inaction-audio {
+  margin-top: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: 999px;
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.inaction-audio:hover { background: var(--blue-lt); border-color: var(--blue); }
+
+/* Register table */
+.register-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  margin-bottom: 28px;
+}
+.register-table th, .register-table td {
+  text-align: left;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  vertical-align: top;
+}
+.register-table th { background: var(--bg); font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted); }
+.register-table tr:last-child td { border-bottom: none; }
+.register-tag {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 3px 12px;
+}
+.tag-slang   { background: var(--purple-lt); color: var(--purple); }
+.tag-casual  { background: var(--blue-lt); color: var(--blue-dk); }
+.tag-mixed   { background: var(--amber-lt); color: var(--amber); }
+.tag-neutral { background: #e0f2fe; color: #075985; }
+.tag-formal  { background: var(--green-lt); color: #166534; }
+.register-table td em { color: var(--muted); font-style: italic; }
+
+.tip-list { display: flex; flex-direction: column; gap: 12px; }
+.tip { border-radius: 12px; padding: 16px 20px; font-size: 14px; border-left: 4px solid; }
+.tip.tip-green  { background: var(--green-lt); border-color: var(--green); }
+.tip.tip-blue   { background: var(--blue-lt); border-color: var(--blue); }
+.tip.tip-amber  { background: var(--amber-lt); border-color: var(--amber); }
+.tip.tip-red    { background: var(--red-lt); border-color: var(--red); }
+.tip strong { display: block; margin-bottom: 4px; }
+
+/* Word bank + reading */
+.word-bank {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px 24px;
+  margin-bottom: 22px;
+}
+.word-bank h4 { font-size: 14px; margin-bottom: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.bank-chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip {
+  background: var(--blue-lt);
+  color: var(--blue-dk);
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 999px;
+  padding: 8px 18px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.15s ease;
+}
+.chip:hover { border-color: var(--blue); }
+.chip.used { opacity: 0.35; cursor: default; }
+.reading-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px;
+}
+.reading-card h3 { font-size: 19px; margin-bottom: 4px; }
+.reading-byline { font-size: 13px; color: var(--muted); margin-bottom: 18px; }
+.reading-card p { font-size: 15.5px; margin-bottom: 16px; }
+.fill-slot {
+  display: inline-block;
+  min-width: 92px;
+  text-align: center;
+  border-bottom: 2px solid var(--blue);
+  font-weight: 700;
+  color: var(--blue-dk);
+  padding: 1px 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.fill-slot.empty { background: var(--bg); color: var(--muted); font-weight: 600; }
+.fill-slot.correct { background: var(--green-lt); color: #166534; border-color: var(--green); }
+.fill-slot.incorrect { background: var(--red-lt); color: #991b1b; border-color: var(--red); }
+.check-btn {
+  margin-top: 8px;
+  background: var(--blue);
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 26px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.check-btn:hover { background: var(--blue-dk); }
+.fill-feedback { margin-top: 14px; font-size: 14px; font-weight: 600; }
+.fill-feedback.good { color: var(--green); }
+.fill-feedback.bad { color: var(--amber); }
+
+/* Exercises */
+.exercise-block {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.exercise-block h3 { font-size: 19px; margin-bottom: 6px; }
+.exercise-sub { color: var(--muted); font-size: 14px; margin-bottom: 20px; }
+.match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 24px; }
+.match-item {
+  background: var(--bg);
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  padding: 13px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.match-item:hover { border-color: var(--blue); }
+.match-item.selected { border-color: var(--blue); background: var(--blue-lt); }
+.match-item.correct { border-color: var(--green); background: var(--green-lt); }
+.match-item.incorrect { border-color: var(--red); background: var(--red-lt); }
+@media (max-width: 720px) { .match-grid { grid-template-columns: 1fr; } .grammar-3col { grid-template-columns: 1fr; } .phrase-card { grid-template-columns: 56px 1fr 80px; } }
+
+.fill-item { margin-bottom: 18px; }
+.fill-item .casual-line { font-size: 14px; color: var(--muted); margin-bottom: 6px; }
+.fill-item .casual-line strong { color: var(--text); }
+.fill-item .neutral-line { font-size: 15px; }
+
+.error-item {
+  background: var(--bg);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 14px;
+}
+.error-item p { font-size: 14.5px; margin-bottom: 10px; }
+.error-btn {
+  border: 2px solid var(--border);
+  background: var(--card);
+  border-radius: 999px;
+  padding: 7px 18px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 8px;
+}
+.error-btn:hover { border-color: var(--blue); }
+.error-btn.correct { border-color: var(--green); background: var(--green-lt); color: #166534; }
+.error-btn.incorrect { border-color: var(--red); background: var(--red-lt); color: #991b1b; }
+.error-explain { font-size: 13.5px; color: var(--muted); margin-top: 10px; display: none; }
+.error-explain.show { display: block; }
+
+.disc-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px;
+}
+.disc-card h3 { font-size: 19px; margin-bottom: 16px; }
+.disc-item {
+  font-size: 14.5px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+.disc-item:last-child { border-bottom: none; }
+.disc-item strong { color: var(--blue-dk); }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="navbar-brand">PractiSpeak</div>
+  <a href="/" class="navbar-back">← Back to lessons</a>
+</div>
+
+<div class="hero">
+  <span class="hero-badge">C1–C2 Advanced</span>
+  <h1>Advanced Vocabulary: Etymology, Collocations & Register</h1>
+  <p class="hero-sub">Where gaming slang really comes from, which words it naturally pairs with, and how to shift your English between casual chat and formal writing.</p>
+  <div class="hero-level">🎮 Theme: online gaming &nbsp;·&nbsp; 🔤 Focus: word origins, word partnerships, and tone</div>
+  <div class="progress-wrap">
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="progress-label" id="progressLabel">0 of 6 sections complete</div>
+  </div>
+</div>
+
+<div class="tab-nav-wrap">
+  <div class="lesson-nav" id="lessonNav">
+    <button class="nav-btn" data-tab="vocabulary">1. Vocabulary</button>
+    <button class="nav-btn" data-tab="langfocus">2. Language Focus</button>
+    <button class="nav-btn" data-tab="inuse">3. In Use</button>
+    <button class="nav-btn" data-tab="register">4. Register & Stance</button>
+    <button class="nav-btn" data-tab="reading">5. Forum Corner</button>
+    <button class="nav-btn" data-tab="analysis">6. Analysis Tasks</button>
+  </div>
+</div>
+
+<!-- ============ TAB 1: VOCABULARY ============ -->
+<div class="tab-content" id="tab-vocabulary">
+  <p class="tab-intro">Eight words straight out of online gaming slang — but the real point of this section isn't the words themselves. It's <strong>where they came from</strong> (etymology) and <strong>which other words they like to travel with</strong> (collocations). Learning a word's story and its usual companions is what makes your vocabulary sound natural instead of just "correct."</p>
+
+  <div class="phrase-card">
+    <div class="phrase-img">⛏️</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Word 1</span>
+      <div class="phrase-word">GRIND <span class="phrase-tag">verb / noun</span></div>
+      <div class="phrase-etymology"><strong>Etymology:</strong> From the old idea of grinding grain between two stones — slow, repetitive, physically tiring work. Gamers borrowed the image directly: doing the same task over and over to slowly wear down a goal, just like grain wears down between stones.</div>
+      <div class="phrase-collocations"><strong>Common collocations:</strong> <code>grind for loot</code> · <code>grind out a win</code> · <code>the daily grind</code> · <code>grind through levels</code></div>
+      <div class="phrase-def">Doing something repetitive and often kind of boring in order to slowly reach a goal — usually levels, gear, or rank. <em>Ex: I've been grinding this game for weeks just to unlock one outfit.</em></div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"I'm not even sure the reward's worth it anymore — I've just been grinding for so long it's become a habit."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-01.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Word</span>
+      <button class="audio-player" data-src="/audio/advanced-vocab-01-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card flip">
+    <div class="phrase-img">☣️</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Word 2</span>
+      <div class="phrase-word">TOXIC <span class="phrase-tag">adjective</span></div>
+      <div class="phrase-etymology"><strong>Etymology:</strong> Comes from the Greek word for "poison" — originally a purely medical or chemical term. Over the last couple of decades, English speakers stretched it to describe people and environments that "poison" the mood for everyone around them, and gaming communities picked it up fast.</div>
+      <div class="phrase-collocations"><strong>Common collocations:</strong> <code>toxic behavior</code> · <code>toxic teammate</code> · <code>toxic chat</code> · <code>go toxic</code></div>
+      <div class="phrase-def">Behaving in a way that ruins the experience for everyone else — usually through insults, blame, or just being unpleasant on purpose. <em>Ex: He went full toxic the second we lost a single round.</em></div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"It's wild how one toxic player can completely change the mood of an entire match."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-02.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Word</span>
+      <button class="audio-player" data-src="/audio/advanced-vocab-02-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card">
+    <div class="phrase-img">🔄</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Word 3</span>
+      <div class="phrase-word">META <span class="phrase-tag">noun</span></div>
+      <div class="phrase-etymology"><strong>Etymology:</strong> Short for "metagame" — literally "the game about the game." It started as a way to talk about strategy decisions made outside of any single match, and gamers eventually shortened it to just "meta," using it to mean "whatever's considered the best way to play right now."</div>
+      <div class="phrase-collocations"><strong>Common collocations:</strong> <code>shift in the meta</code> · <code>follow the meta</code> · <code>meta pick</code> · <code>break the meta</code></div>
+      <div class="phrase-def">The current "best practice" in a game — the strategies, characters, or builds that most players agree are strongest at any given time. <em>Ex: That character wasn't even part of the meta a month ago — now everyone's playing them.</em></div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"Honestly, the meta changes so often these days that it's hard to keep up unless you're watching pro matches every week."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-03.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Word</span>
+      <button class="audio-player" data-src="/audio/advanced-vocab-03-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card flip">
+    <div class="phrase-img">⏱️</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Word 4</span>
+      <div class="phrase-word">CLUTCH <span class="phrase-tag">adjective / noun</span></div>
+      <div class="phrase-etymology"><strong>Etymology:</strong> Goes back to the literal "clutch" — gripping something tightly so it doesn't slip away. By the mid-1900s, English speakers in sports were already using "clutch" for someone who performs at exactly the moment a win could slip away. Gaming simply carried that meaning straight over.</div>
+      <div class="phrase-collocations"><strong>Common collocations:</strong> <code>clutch performance</code> · <code>clutch play</code> · <code>go clutch</code> · <code>clutch moment</code></div>
+      <div class="phrase-def">Performing brilliantly at the exact moment when the pressure is highest and the outcome still hangs in the balance. <em>Ex: That last-second save was so clutch — the whole chat went silent for a second.</em></div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"She's the kind of player who barely says a word all match and then goes completely clutch right when you need her to."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-04.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Word</span>
+      <button class="audio-player" data-src="/audio/advanced-vocab-04-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card">
+    <div class="phrase-img">📉</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Word 5</span>
+      <div class="phrase-word">NERF <span class="phrase-tag">verb / noun</span></div>
+      <div class="phrase-etymology"><strong>Etymology:</strong> Comes from the toy brand Nerf, famous for foam weapons that look powerful but can't actually hurt anyone. Online gamers started joking that when developers weakened a character or weapon, they'd basically "Nerfed" it — turned a real threat into a soft foam version of itself. The joke stuck so well it became a verb.</div>
+      <div class="phrase-collocations"><strong>Common collocations:</strong> <code>get nerfed</code> · <code>overdue nerf</code> · <code>nerf into the ground</code> · <code>need a nerf</code></div>
+      <div class="phrase-def">To intentionally make something weaker in a game update — usually because it was considered too strong. <em>Ex: They finally nerfed that weapon after months of people complaining.</em></div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"I get why they nerfed it, but did they really have to nerf it into the ground? Nobody's even using it now."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-05.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Word</span>
+      <button class="audio-player" data-src="/audio/advanced-vocab-05-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card flip">
+    <div class="phrase-img">🕵️</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Word 6</span>
+      <div class="phrase-word">SMURF <span class="phrase-tag">noun / verb</span></div>
+      <div class="phrase-etymology"><strong>Etymology:</strong> Nobody fully agrees on this one — and that's actually part of the fun of etymology. The most common story traces it to a 1990s strategy game where two top players started using accounts named after Smurf characters to hide their skill level from opponents. The disguise became so well known that the word itself came to mean the trick, not just the cartoon.</div>
+      <div class="phrase-collocations"><strong>Common collocations:</strong> <code>obvious smurf</code> · <code>smurf account</code> · <code>be smurfing</code> · <code>spot a smurf</code></div>
+      <div class="phrase-def">A skilled player using a low-level or secondary account to play against much weaker opponents. <em>Ex: That "beginner" was clearly a smurf — way too clean for someone supposedly new.</em></div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"You can usually tell within the first two minutes whether someone's a smurf — the way they move just gives it away."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-06.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Word</span>
+      <button class="audio-player" data-src="/audio/advanced-vocab-06-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card">
+    <div class="phrase-img">🎯</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Word 7</span>
+      <div class="phrase-word">THROW <span class="phrase-tag">verb / noun</span></div>
+      <div class="phrase-etymology"><strong>Etymology:</strong> An old sports word — "throwing a match" originally described athletes deliberately losing on purpose, often tied to gambling scandals. Gamers kept the phrase but mostly dropped the idea of doing it on purpose: now a "throw" usually just means losing a winnable game through your own avoidable mistakes.</div>
+      <div class="phrase-collocations"><strong>Common collocations:</strong> <code>hard throw</code> · <code>throw the game</code> · <code>throw a lead</code> · <code>that's a throw</code></div>
+      <div class="phrase-def">Losing a match — usually one you were clearly winning — because of your own careless mistakes. <em>Ex: We were up by so much, and then we just threw it in the last two minutes.</em></div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"Honestly, that wasn't bad luck — that was a hard throw, and we all know exactly which play caused it."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-07.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Word</span>
+      <button class="audio-player" data-src="/audio/advanced-vocab-07-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card flip">
+    <div class="phrase-img">🧂</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Word 8</span>
+      <div class="phrase-word">SALTY <span class="phrase-tag">adjective</span></div>
+      <div class="phrase-etymology"><strong>Etymology:</strong> One theory traces this all the way back to old sailors' slang, where "salty" described someone bitter and worn down by hard experience at sea. The word drifted into general American slang meaning "bitter" or "annoyed," and gamers — always quick to grab a vivid word — adopted it for that very specific feeling right after a frustrating loss.</div>
+      <div class="phrase-collocations"><strong>Common collocations:</strong> <code>salty comments</code> · <code>get salty</code> · <code>so much salt</code> · <code>a little salty</code></div>
+      <div class="phrase-def">Feeling bitter, annoyed, or short-tempered — usually right after losing or being treated unfairly. <em>Ex: I'm not even mad, just a little salty we lost that one by literally one point.</em></div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"I closed the chat the second the salty comments started — nobody needs that energy after a loss."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-08.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Word</span>
+      <button class="audio-player" data-src="/audio/advanced-vocab-08-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ TAB 2: LANGUAGE FOCUS ============ -->
+<div class="tab-content" id="tab-langfocus">
+  <p class="tab-intro">Knowing a word's meaning only gets you halfway there. The other half is knowing <strong>which words it naturally travels with</strong> — its collocations. Native speakers don't build phrases from scratch each time; they reach for chunks they've heard a thousand times. This section breaks down eight of those chunks so you can start reaching for them too.</p>
+
+  <div class="phrase-card">
+    <div class="phrase-img">🔗</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Chunk 1</span>
+      <div class="phrase-word">GRIND OUT A WIN <span class="phrase-tag">verb + particle + noun</span></div>
+      <div class="phrase-def">When you barely manage to win — not a clean, easy victory, more like you fought for every single inch of it. Notice how naturally "grind" pairs with "out" here, and how "win" feels so much more at home than something like "victory" or "triumph," which would sound far too formal for a gaming chat.</div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"We didn't play our best by any means, but we grinded out a win in the end — and honestly, I'll take it."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-collocation-01-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card">
+    <div class="phrase-img">🔗</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Chunk 2</span>
+      <div class="phrase-word">TOXIC BEHAVIOR <span class="phrase-tag">adjective + noun</span></div>
+      <div class="phrase-def">The single most common way "toxic" pairs up in gaming conversations. You'll almost never hear someone say "toxic conduct" or "toxic action" in casual chat — "behavior" is simply the word that's stuck to it.</div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"The mods ended up banning him for toxic behavior — he spent the whole match trash-talking everyone on the team."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-collocation-02-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card">
+    <div class="phrase-img">🔗</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Chunk 3</span>
+      <div class="phrase-word">A SHIFT IN THE META <span class="phrase-tag">noun + preposition + noun</span></div>
+      <div class="phrase-def">When an update changes what counts as the "best" way to play. "Shift" naturally pairs with "in" here — saying "a shift of the meta" or "a meta shift change" would immediately sound a little off to a native speaker, even if the meaning still comes through.</div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"That last patch caused such a huge shift in the meta — half the strategies people relied on don't even work anymore."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-collocation-03-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card">
+    <div class="phrase-img">🔗</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Chunk 4</span>
+      <div class="phrase-word">CLUTCH PERFORMANCE <span class="phrase-tag">adjective + noun</span></div>
+      <div class="phrase-def">High praise for someone who delivered exactly when it counted. You could also say "clutch play" or "clutch moment" — but "clutch performance" usually points at someone's overall showing across a match, rather than just one isolated highlight.</div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"Everyone's still talking about her clutch performance in the finals last weekend — she barely missed a single read."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-collocation-04-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card">
+    <div class="phrase-img">🔗</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Chunk 5</span>
+      <div class="phrase-word">AN OVERDUE NERF <span class="phrase-tag">adjective + noun</span></div>
+      <div class="phrase-def">A change that weakens something which, in most players' eyes, should have happened ages ago. "Overdue" is doing a lot of the emotional work in this pairing — it signals "we've all been complaining about this for months."</div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"That weapon finally got an overdue nerf — the community's been begging the devs to look at it for what feels like forever."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-collocation-05-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card">
+    <div class="phrase-img">🔗</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Chunk 6</span>
+      <div class="phrase-word">AN OBVIOUS SMURF <span class="phrase-tag">adjective + noun</span></div>
+      <div class="phrase-def">Someone whose skill so clearly doesn't match their account level that everyone in the lobby can tell right away. "Obvious" and "smurf" show up together so often that native speakers barely register they're using a fixed pairing.</div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"That 'brand new player' was such an obvious smurf — the way they were positioning themselves gave it away in seconds."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-collocation-06-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card">
+    <div class="phrase-img">🔗</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Chunk 7</span>
+      <div class="phrase-word">A HARD THROW <span class="phrase-tag">adjective + noun</span></div>
+      <div class="phrase-def">A loss so avoidable, so completely the team's own doing, that "hard" gets tacked on for emphasis. It's often set against a "soft throw" — a smaller, more forgivable slip-up that doesn't sting nearly as much.</div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"Losing from a twenty-point lead? That's not just a throw — that's a hard throw, and we all know it."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-collocation-07-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="phrase-card">
+    <div class="phrase-img">🔗</div>
+    <div class="phrase-body">
+      <span class="phrase-num">Chunk 8</span>
+      <div class="phrase-word">SALTY COMMENTS <span class="phrase-tag">adjective + noun</span></div>
+      <div class="phrase-def">The bitter little messages people fire off in chat the second they lose. "Salty" tends to show up alongside "comments," "messages," or sometimes stands completely on its own as a noun — as in "there was so much salt in that chat tonight."</div>
+      <div class="phrase-example-label">Hear it in a sentence</div>
+      <div class="phrase-example">"I muted the chat the moment the salty comments started rolling in — it's just not worth reading after a rough loss."</div>
+    </div>
+    <div class="listen-col">
+      <button class="audio-player" data-src="/audio/advanced-vocab-collocation-08-example.mp3" onclick="playAudio(this, this.dataset.src)">▶</button>
+      <span class="audio-player-label">Example</span>
+    </div>
+  </div>
+
+  <div class="grammar-note">
+    <h3>💡 Language Focus — Why Collocations Matter</h3>
+    <p style="font-size:14.5px; color:var(--muted);">Every language has thousands of word-pairings that "just sound right" to a native speaker — not because of any grammar rule, but because that's simply how people have always said it. Here are three patterns worth noticing in gaming slang specifically.</p>
+    <div class="grammar-3col">
+      <div class="grammar-col">
+        <h4>Verb + Noun chunks</h4>
+        <div class="grammar-row"><code>grind for loot</code><span>An action locked onto its usual target — swap "loot" for "prizes" and it instantly feels slightly off.</span></div>
+        <div class="grammar-row"><code>throw the game</code><span>"Throw" almost always grabs "the game" or "the match" as its partner.</span></div>
+        <div class="grammar-row"><code>follow the meta</code><span>You "follow" a meta the way you'd follow a trend — not "obey" or "use" it.</span></div>
+      </div>
+      <div class="grammar-col">
+        <h4>Adjective + Noun chunks</h4>
+        <div class="grammar-row"><code>toxic behavior</code><span>A quality fused so tightly to its noun that the two feel like a single unit.</span></div>
+        <div class="grammar-row"><code>clutch performance</code><span>"Clutch" almost never modifies anything except people's plays or showings.</span></div>
+        <div class="grammar-row"><code>overdue nerf</code><span>"Overdue" carries a built-in sense of community frustration here.</span></div>
+      </div>
+      <div class="grammar-col">
+        <h4>Fixed gaming expressions</h4>
+        <div class="grammar-row"><code>get nerfed</code><span>A whole ready-made block — gamers don't build this phrase fresh each time, they just reach for it.</span></div>
+        <div class="grammar-row"><code>go clutch</code><span>"Go" + adjective is its own little pattern — compare "go toxic," "go quiet," "go off."</span></div>
+        <div class="grammar-row"><code>in the meta</code><span>You're always physically "in" the meta, never "on" or "at" it.</span></div>
+      </div>
+    </div>
+    <p style="font-size:14px; font-weight:700; margin-top:6px;">Natural pairing vs. "almost right":</p>
+    <ul class="grammar-examples">
+      <li><strong>"toxic behavior"</strong> ✓ — vs. "toxic conduct," which is technically fine but sounds far too stiff for gaming chat.</li>
+      <li><strong>"grind for loot"</strong> ✓ — vs. "grind toward loot," which is grammatically possible but just isn't how people actually say it.</li>
+      <li><strong>"a shift in the meta"</strong> ✓ — vs. "the meta's shift," which communicates the same idea but isn't the chunk gamers reach for.</li>
+      <li><strong>"obvious smurf"</strong> ✓ — vs. "clear smurf," which isn't wrong exactly, just noticeably less common.</li>
+    </ul>
+    <div class="grammar-warn"><strong>Why this matters:</strong> Collocations aren't really about "right" and "wrong" — they're about what sounds natural to someone who grew up hearing the language every day. You can be 100% grammatically correct and still sound a little "off" if you haven't picked up the word-partnerships native speakers reach for without even thinking. That's exactly why advanced learners study collocations directly, instead of just memorizing words one at a time.</div>
+  </div>
+</div>
+
+<!-- ============ TAB 3: IN USE ============ -->
+<div class="tab-content" id="tab-inuse">
+  <p class="tab-intro">The same idea can sound completely different depending on where you encounter it. Here's the same general topic — a big balance update shaking up competitive play — moving through three very different rooms: a group chat, a stream broadcast, and a gaming news article. Watch how the vocabulary, sentence length, and overall "voice" shift each time.</p>
+
+  <div class="stream-card">
+    <div class="stream-head">
+      <div class="inaction-img">💬</div>
+      <div>
+        <div class="stream-platform">Group Chat — Right After a Rough Match</div>
+        <span class="platform-badge badge-chat">Casual / Slang-heavy</span>
+      </div>
+    </div>
+    <div class="stream-text">ngl that was rough lol. we had it WON and then just <span class="hl">threw</span> it in like the last 30 seconds 💀 and don't even get me started on that <span class="hl">smurf</span> on their team — bro was clearly not actually new lol. one of our own guys got so <span class="hl">toxic</span> about it too, just blaming everyone instead of focusing back up. anyway i'm a little <span class="hl">salty</span> ngl but we'll get the next one fr. gonna go <span class="hl">grind</span> some ranked to cool off lol</div>
+    <div class="inaction-note"><strong>Notice:</strong> lowercase, abbreviations ("ngl," "fr"), emojis doing emotional work, and slang words used without any explanation — because everyone in the chat already shares that vocabulary.</div>
+    <button class="inaction-audio" onclick="playAudio(this, '/audio/advanced-vocab-inuse-01.mp3')">▶ Listen to this excerpt</button>
+  </div>
+
+  <div class="stream-card">
+    <div class="stream-head">
+      <div class="inaction-img">🎙️</div>
+      <div>
+        <div class="stream-platform">Live Commentary — Grand Finals Broadcast</div>
+        <span class="platform-badge badge-stream">Casual-spoken / Energetic</span>
+      </div>
+    </div>
+    <div class="stream-text">Okay chat, this is looking SO <span class="hl">clutch</span> right now — if they manage to pull this off, it's honestly going to be one of the best comebacks I've called all year. And remember that account everyone was debating earlier? Yeah — turns out it really was a <span class="hl">smurf</span>, total game-changer for how this match has gone. Honestly, the <span class="hl">meta</span> has shifted so much since that last patch that half of these picks wouldn't have even worked a month ago.</div>
+    <div class="inaction-note"><strong>Notice:</strong> still informal and full of slang, but the sentences are longer and more complete — this is spoken to a wide audience, not typed to friends who already know the inside jokes.</div>
+    <button class="inaction-audio" onclick="playAudio(this, '/audio/advanced-vocab-inuse-02.mp3')">▶ Listen to this excerpt</button>
+  </div>
+
+  <div class="stream-card">
+    <div class="stream-head">
+      <div class="inaction-img">📰</div>
+      <div>
+        <div class="stream-platform">Gaming News — "Patch 4.2 Shakes Up the Competitive Scene"</div>
+        <span class="platform-badge badge-news">Neutral / Written</span>
+      </div>
+    </div>
+    <div class="stream-text">The latest update has triggered what many are now calling the biggest <span class="hl">shift in the meta</span> this year. Several previously dominant characters received significant <span class="hl">nerfs</span>, while a number of underused options saw welcome buffs — a change long considered <span class="hl">overdue</span> by much of the community. Early matches suggest these adjustments have already begun reshaping which strategies competitive teams view as viable, and analysts expect the rankings to look noticeably different by the end of the month.</div>
+    <div class="inaction-note"><strong>Notice:</strong> the slang is mostly gone, replaced with neutral, accessible phrasing that a reader outside the gaming world could still follow — yet the underlying ideas are exactly the same as the chat above.</div>
+    <button class="inaction-audio" onclick="playAudio(this, '/audio/advanced-vocab-inuse-03.mp3')">▶ Listen to this excerpt</button>
+  </div>
+</div>
+
+<!-- ============ TAB 4: REGISTER & STANCE ============ -->
+<div class="tab-content" id="tab-register">
+  <p class="tab-intro">"Register" just means how formal or informal your language is for a given setting. The trick isn't picking one register and sticking with it forever — it's learning to <strong>read the room</strong> and shift smoothly between them. Here's roughly how the same gaming ideas tend to travel across five different settings.</p>
+
+  <table class="register-table">
+    <tr><th>Setting</th><th>Typical language</th><th>What it might sound like</th></tr>
+    <tr>
+      <td><span class="register-tag tag-slang">Slang-heavy</span><br>Group chats / Discord</td>
+      <td>Lowercase, abbreviations, slang used without explanation, emojis carrying tone</td>
+      <td><em>"lol that was such a hard throw, ggs tho 💀"</em></td>
+    </tr>
+    <tr>
+      <td><span class="register-tag tag-casual">Casual / spoken</span><br>Stream commentary</td>
+      <td>Informal but spoken to a wide audience — energetic, slang allowed, fuller sentences</td>
+      <td><em>"That's about as clutch as it gets, chat — I am not okay right now!"</em></td>
+    </tr>
+    <tr>
+      <td><span class="register-tag tag-mixed">Mixed</span><br>Gaming forums / community posts</td>
+      <td>Slang is welcome, but posts tend to use complete sentences and a bit more explanation for newcomers</td>
+      <td><em>"Pretty sure that account was a smurf — way too clean for someone supposedly new to the game."</em></td>
+    </tr>
+    <tr>
+      <td><span class="register-tag tag-neutral">Neutral</span><br>Gaming journalism / reviews</td>
+      <td>Accessible to outsiders, slang is often explained or swapped for plain English</td>
+      <td><em>"What players refer to as 'the meta' essentially describes the strategies considered strongest at any given time."</em></td>
+    </tr>
+    <tr>
+      <td><span class="register-tag tag-formal">Formal</span><br>Official patch notes / dev statements</td>
+      <td>Precise, neutral, no slang at all — every change is described in exact, measurable terms</td>
+      <td><em>"We have reduced this weapon's damage output by 15% to address ongoing community feedback regarding its overall power level."</em></td>
+    </tr>
+  </table>
+
+  <div class="tip-list">
+    <div class="tip tip-green"><strong>Slang isn't "incorrect" English.</strong> It's just the right tool for certain rooms. The same player who types "that was such a hard throw lol" in Discord might write "the team failed to capitalize on an early lead" in a forum write-up the next morning. Both are completely correct — they're just dressed for different occasions.</div>
+    <div class="tip tip-blue"><strong>Same fact, different outfits.</strong> Notice how the idea "they made the weapon weaker" gets reworded depending on the setting: "they nerfed it" (casual), "the weapon received a balance adjustment" (neutral), "damage output has been reduced by 15%" (formal). It's the same news, three completely different costumes.</div>
+    <div class="tip tip-amber"><strong>Too formal can feel just as "off" as too casual.</strong> If your teammates are joking around in lowercase and you suddenly reply with "I believe our strategic approach requires reconsideration," you probably won't get praised for your vocabulary — you'll just get teased for sounding like a corporate memo.</div>
+    <div class="tip tip-red"><strong>Watch out for mixing registers mid-sentence.</strong> Something like "I would tentatively suggest that bro is being straight-up toxic" pulls in two directions at once. Pick a lane — either keep the whole sentence casual, or keep the whole thing more neutral, but try not to do both at the same time.</div>
+  </div>
+</div>
+
+<!-- ============ TAB 5: FORUM CORNER (READING) ============ -->
+<div class="tab-content" id="tab-reading">
+  <p class="tab-intro">Here's a real-style forum post written by a player recounting last night's ranked match. Click a word from the bank, then click an empty blank to drop it in — you can click a filled blank again to take the word back out.</p>
+
+  <div class="word-bank">
+    <h4>Word bank</h4>
+    <div class="bank-chips" id="blogBankChips"></div>
+  </div>
+
+  <div class="reading-card">
+    <h3>"Why Last Night's Match Lives in My Head Rent-Free"</h3>
+    <div class="reading-byline">— posted to r/RankedStories by a player still recovering emotionally</div>
+    <p>So we'd been <span class="fill-slot empty" id="fs6" data-answer="grinding" onclick="placeOrClear('fs6')"></span> ranked basically all weekend trying to hit our goal before the season ends, and last night's match might honestly be the wildest one I've played all year. Our team was up by a mile — like, an embarrassing amount — and then somehow we just <span class="fill-slot empty" id="fs7" data-answer="threw" onclick="placeOrClear('fs7')"></span> basically the entire lead in about four minutes. I genuinely still don't know how it happened.</p>
+    <p>To make it worse, there was this one player on the enemy team who was so clearly a <span class="fill-slot empty" id="fs8" data-answer="smurf" onclick="placeOrClear('fs8')"></span> — the way they played just didn't match their rank at all, not even close. And one of our own teammates got so <span class="fill-slot empty" id="fs9" data-answer="toxic" onclick="placeOrClear('fs9')"></span> about the whole thing, blaming literally everyone in chat instead of just refocusing on the next round. Like — we get it, you're upset, but maybe just mute and breathe for a second?</p>
+    <p>Anyway — somehow, against all odds, our support pulled off the most <span class="fill-slot empty" id="fs10" data-answer="clutch" onclick="placeOrClear('fs10')"></span> play I think I've seen all season, and we actually ended up winning. I'm pretty sure the new patch <span class="fill-slot empty" id="fs11" data-answer="nerfed" onclick="placeOrClear('fs11')"></span> one of their best picks too, which definitely helped shift the <span class="fill-slot empty" id="fs12" data-answer="meta" onclick="placeOrClear('fs12')"></span> in our favor right at the perfect moment. I'm still a little <span class="fill-slot empty" id="fs13" data-answer="salty" onclick="placeOrClear('fs13')"></span> about almost losing that one, not gonna lie — but hey, a win's a win.</p>
+    <button class="check-btn" onclick="checkBlogFill()">Check answers</button>
+    <div class="fill-feedback" id="blogFeedback"></div>
+  </div>
+</div>
+
+<!-- ============ TAB 6: ANALYSIS TASKS ============ -->
+<div class="tab-content" id="tab-analysis">
+
+  <div class="exercise-block">
+    <h3>Task 1 — Match the Slang to What It Really Means</h3>
+    <p class="exercise-sub">Click a sentence on the left, then click the meaning on the right that matches it.</p>
+    <div class="match-grid">
+      <div class="match-item" data-type="phrase" data-id="1" onclick="selectMatch('phrase','1')">"He's been smurfing in ranked all week — it's honestly kind of unfair."</div>
+      <div class="match-item" data-type="phrase" data-id="2" onclick="selectMatch('phrase','2')">"That was such a hard throw — we were SO close to winning that one."</div>
+      <div class="match-item" data-type="phrase" data-id="3" onclick="selectMatch('phrase','3')">"The new patch finally nerfed that ridiculously overpowered weapon."</div>
+      <div class="match-item" data-type="phrase" data-id="4" onclick="selectMatch('phrase','4')">"She's always so clutch right when the team needs her most."</div>
+      <div class="match-item" data-type="phrase" data-id="5" onclick="selectMatch('phrase','5')">"Ugh, half the lobby went salty the second they started losing."</div>
+      <div class="match-item" data-type="phrase" data-id="6" onclick="selectMatch('phrase','6')">"Come on, don't be so toxic — it's literally just a casual match."</div>
+
+      <div class="match-item" data-type="def" data-id="1" onclick="selectMatch('def','1')">Using a secondary account to dominate much weaker, less experienced players</div>
+      <div class="match-item" data-type="def" data-id="2" onclick="selectMatch('def','2')">Losing a match you were clearly winning, because of your own avoidable mistakes</div>
+      <div class="match-item" data-type="def" data-id="3" onclick="selectMatch('def','3')">Made deliberately less powerful, usually because it felt unfair or unbalanced</div>
+      <div class="match-item" data-type="def" data-id="4" onclick="selectMatch('def','4')">Performs especially well at exactly the moments that matter the most</div>
+      <div class="match-item" data-type="def" data-id="5" onclick="selectMatch('def','5')">Became bitter and short-tempered right after a frustrating loss</div>
+      <div class="match-item" data-type="def" data-id="6" onclick="selectMatch('def','6')">Behaving in a way that ruins the experience for everyone else around you</div>
+    </div>
+  </div>
+
+  <div class="exercise-block">
+    <h3>Task 2 — Shift the Register</h3>
+    <p class="exercise-sub">Each casual line gets a more neutral rewrite — but it's missing a phrase. Click the correct phrase from the bank below to complete it.</p>
+    <div class="word-bank" style="box-shadow:none; border:1px solid var(--border); margin-bottom:18px;">
+      <h4>Phrase bank</h4>
+      <div class="bank-chips" id="bankChips"></div>
+    </div>
+    <div class="fill-item">
+      <div class="casual-line">Casual: <strong>"Bro hard-threw that game, ngl."</strong></div>
+      <div class="neutral-line">Neutral rewrite: "To be honest, our teammate <span class="fill-slot empty" id="fs1" data-answer="made a costly mistake in the final moments" onclick="placeOrClear('fs1')"></span>."</div>
+    </div>
+    <div class="fill-item">
+      <div class="casual-line">Casual: <strong>"They nerfed that gun into the ground lol."</strong></div>
+      <div class="neutral-line">Neutral rewrite: "That weapon <span class="fill-slot empty" id="fs2" data-answer="received a significant reduction in power" onclick="placeOrClear('fs2')"></span> in the recent update.</div>
+    </div>
+    <div class="fill-item">
+      <div class="casual-line">Casual: <strong>"She went SO clutch in that last round."</strong></div>
+      <div class="neutral-line">Neutral rewrite: "She <span class="fill-slot empty" id="fs3" data-answer="performed exceptionally well under pressure" onclick="placeOrClear('fs3')"></span> during the final round.</div>
+    </div>
+    <div class="fill-item">
+      <div class="casual-line">Casual: <strong>"Dude was being so toxic the whole match."</strong></div>
+      <div class="neutral-line">Neutral rewrite: "One player <span class="fill-slot empty" id="fs4" data-answer="displayed unsportsmanlike conduct" onclick="placeOrClear('fs4')"></span> throughout the match.</div>
+    </div>
+    <div class="fill-item">
+      <div class="casual-line">Casual: <strong>"That 'new player' was definitely smurfing."</strong></div>
+      <div class="neutral-line">Neutral rewrite: "That account <span class="fill-slot empty" id="fs5" data-answer="was likely an experienced player using a lower-level account" onclick="placeOrClear('fs5')"></span>.</div>
+    </div>
+    <button class="check-btn" onclick="checkWordBank()">Check answers</button>
+    <div class="fill-feedback" id="wordBankFeedback"></div>
+  </div>
+
+  <div class="exercise-block">
+    <h3>Task 3 — Spot the Collocation Clash</h3>
+    <p class="exercise-sub">For each pair, decide whether the bolded phrase is the natural collocation, or whether it's an "almost right" combination that would sound a little off to a native speaker. Click your answer to see the explanation.</p>
+
+    <div class="error-item">
+      <p>1. "He's been on such an <strong>obvious smurf</strong> streak lately."</p>
+      <button class="error-btn" onclick="checkError(1, 'natural')">Natural collocation</button>
+      <button class="error-btn" onclick="checkError(1, 'off')">Sounds a little off</button>
+      <div class="error-explain" id="explain1"></div>
+    </div>
+    <div class="error-item">
+      <p>2. "Everyone agrees that nerf was completely <strong>overdue</strong>."</p>
+      <button class="error-btn" onclick="checkError(2, 'natural')">Natural collocation</button>
+      <button class="error-btn" onclick="checkError(2, 'off')">Sounds a little off</button>
+      <div class="error-explain" id="explain2"></div>
+    </div>
+    <div class="error-item">
+      <p>3. "I can't believe they let that <strong>toxic conduct</strong> slide in chat."</p>
+      <button class="error-btn" onclick="checkError(3, 'natural')">Natural collocation</button>
+      <button class="error-btn" onclick="checkError(3, 'off')">Sounds a little off</button>
+      <div class="error-explain" id="explain3"></div>
+    </div>
+    <div class="error-item">
+      <p>4. "We've been <strong>grinding for loot</strong> all week and still nothing."</p>
+      <button class="error-btn" onclick="checkError(4, 'natural')">Natural collocation</button>
+      <button class="error-btn" onclick="checkError(4, 'off')">Sounds a little off</button>
+      <div class="error-explain" id="explain4"></div>
+    </div>
+    <div class="error-item">
+      <p>5. "There's been a noticeable <strong>shift of the meta</strong> since the new patch."</p>
+      <button class="error-btn" onclick="checkError(5, 'natural')">Natural collocation</button>
+      <button class="error-btn" onclick="checkError(5, 'off')">Sounds a little off</button>
+      <div class="error-explain" id="explain5"></div>
+    </div>
+  </div>
+
+  <div class="disc-card">
+    <h3>🗣 Further Discussion</h3>
+    <div class="disc-item"><strong>1.</strong> Slang moves fast — words that felt fresh in gaming chat five years ago can already feel dated today. Can you think of any slang (gaming or otherwise, in English or your own language) that already feels a little "old" to you?</div>
+    <div class="disc-item"><strong>2.</strong> Etymology can be genuinely surprising — who would guess that "salty" might trace back to old sailors, or that "nerf" comes from a foam toy brand? Pick one word from this lesson and guess where you think it came from before checking the explanation again.</div>
+    <div class="disc-item"><strong>3.</strong> Do you think it's useful for English learners to study slang like "clutch" or "toxic," or is it better to focus on more "standard" vocabulary first? What's the case for each side?</div>
+    <div class="disc-item"><strong>4.</strong> Think of a community you're part of — gaming or otherwise. What slang or expressions would a complete outsider not understand? How would you explain one of them to someone brand new?</div>
+    <div class="disc-item"><strong>5.</strong> Using at least three words or phrases from this lesson, describe a memorable moment from a game (or any activity) you've taken part in — and try to match your register to how you'd actually talk about it with friends.</div>
+  </div>
+</div>
+
+<script>
+const tabs = ['vocabulary', 'langfocus', 'inuse', 'register', 'reading', 'analysis'];
+const completedTabs = new Set();
+let currentTab = 'vocabulary';
+
+function updateProgress() {
+  const pct = Math.round((completedTabs.size / tabs.length) * 100);
+  document.getElementById('progressFill').style.width = pct + '%';
+  document.getElementById('progressLabel').textContent = `${completedTabs.size} of ${tabs.length} sections complete`;
+}
+
+function goToTab(id) {
+  completedTabs.add(currentTab);
+  currentTab = id;
+  tabs.forEach(t => {
+    document.getElementById('tab-' + t).classList.toggle('active', t === id);
+  });
+  document.querySelectorAll('.nav-btn').forEach(btn => {
+    const t = btn.dataset.tab;
+    btn.classList.toggle('active', t === id);
+    btn.classList.toggle('done', completedTabs.has(t) && t !== id);
+  });
+  updateProgress();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+document.querySelectorAll('.nav-btn').forEach(btn => {
+  btn.addEventListener('click', () => goToTab(btn.dataset.tab));
+});
+goToTab('vocabulary');
+completedTabs.clear();
+updateProgress();
+document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('done'));
+
+let currentAudio = null;
+let currentBtn = null;
+function playAudio(btn, src) {
+  if (currentAudio) {
+    currentAudio.pause();
+    if (currentBtn) currentBtn.classList.remove('playing');
+  }
+  if (currentBtn === btn && currentAudio && !currentAudio.paused) {
+    currentAudio = null;
+    currentBtn = null;
+    return;
+  }
+  const audio = new Audio(src);
+  currentAudio = audio;
+  currentBtn = btn;
+  btn.classList.add('playing');
+  audio.play().catch(() => {});
+  audio.onended = () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; };
+}
+
+// ── Matching exercise ──
+let selectedPhrase = null;
+let selectedDef = null;
+const matchResolved = new Set();
+function selectMatch(type, id) {
+  const key = type + id;
+  if (matchResolved.has('phrase' + id) ) return;
+  const el = document.querySelector(`.match-item[data-type="${type}"][data-id="${id}"]`);
+  if (type === 'phrase') {
+    if (selectedPhrase) selectedPhrase.classList.remove('selected');
+    selectedPhrase = el;
+    el.classList.add('selected');
+  } else {
+    if (selectedDef) selectedDef.classList.remove('selected');
+    selectedDef = el;
+    el.classList.add('selected');
+  }
+  if (selectedPhrase && selectedDef) {
+    const pId = selectedPhrase.dataset.id;
+    const dId = selectedDef.dataset.id;
+    if (pId === dId) {
+      selectedPhrase.classList.remove('selected');
+      selectedDef.classList.remove('selected');
+      selectedPhrase.classList.add('correct');
+      selectedDef.classList.add('correct');
+      matchResolved.add('phrase' + pId);
+      matchResolved.add('def' + dId);
+    } else {
+      selectedPhrase.classList.add('incorrect');
+      selectedDef.classList.add('incorrect');
+      setTimeout(() => {
+        selectedPhrase.classList.remove('selected', 'incorrect');
+        selectedDef.classList.remove('selected', 'incorrect');
+      }, 700);
+    }
+    selectedPhrase = null;
+    selectedDef = null;
+  }
+}
+
+// ── Word bank fill (Forum Corner reading) ──
+const blogBank = [
+  { phrase: 'grinding', used: false },
+  { phrase: 'threw', used: false },
+  { phrase: 'smurf', used: false },
+  { phrase: 'toxic', used: false },
+  { phrase: 'clutch', used: false },
+  { phrase: 'nerfed', used: false },
+  { phrase: 'meta', used: false },
+  { phrase: 'salty', used: false },
+];
+function renderChips(bank, containerId) {
+  const c = document.getElementById(containerId);
+  c.innerHTML = '';
+  bank.forEach((item, i) => {
+    const chip = document.createElement('span');
+    chip.className = 'chip' + (item.used ? ' used' : '');
+    chip.textContent = item.phrase;
+    chip.dataset.phrase = item.phrase;
+    chip.dataset.index = i;
+    if (!item.used) chip.onclick = () => selectChip(chip, bank, containerId);
+    c.appendChild(chip);
+  });
+}
+let activeChip = null;
+let activeBank = null;
+let activeContainer = null;
+function selectChip(chip, bank, containerId) {
+  if (activeChip) activeChip.style.outline = '';
+  activeChip = chip;
+  activeBank = bank;
+  activeContainer = containerId;
+  chip.style.outline = '2px solid var(--blue-dk)';
+}
+function placeOrClear(slotId) {
+  const slot = document.getElementById(slotId);
+  if (slot.classList.contains('correct') || slot.classList.contains('incorrect')) return;
+  if (slot.textContent.trim() !== '') {
+    // clear it
+    const word = slot.textContent.trim();
+    slot.textContent = '';
+    slot.classList.add('empty');
+    if (activeBank) {
+      const item = activeBank.find(b => b.phrase === word);
+      if (item) { item.used = false; renderChips(activeBank, activeContainer); }
+    } else {
+      [blogBank, hedgeBank].forEach((bank, idx) => {
+        const item = bank.find(b => b.phrase === word);
+        if (item) { item.used = false; renderChips(bank, idx === 0 ? 'blogBankChips' : 'bankChips'); }
+      });
+    }
+    return;
+  }
+  if (!activeChip) return;
+  slot.textContent = activeChip.dataset.phrase;
+  slot.classList.remove('empty');
+  const item = activeBank.find(b => b.phrase === activeChip.dataset.phrase);
+  if (item) item.used = true;
+  renderChips(activeBank, activeContainer);
+  activeChip = null;
+  activeBank = null;
+  activeContainer = null;
+}
+function checkBlogFill() {
+  const ids = ['fs6','fs7','fs8','fs9','fs10','fs11','fs12','fs13'];
+  let correct = 0;
+  ids.forEach(id => {
+    const slot = document.getElementById(id);
+    const ans = slot.dataset.answer;
+    const val = slot.textContent.trim();
+    slot.classList.remove('correct', 'incorrect', 'empty');
+    if (val === ans) { slot.classList.add('correct'); correct++; }
+    else slot.classList.add('incorrect');
+  });
+  const fb = document.getElementById('blogFeedback');
+  if (correct === ids.length) {
+    fb.textContent = `Nice work — all ${ids.length} correct! That's a solid grip on this set of words.`;
+    fb.className = 'fill-feedback good';
+  } else {
+    fb.textContent = `${correct} of ${ids.length} correct. Clear a wrong blank by clicking it again, then try a different word from the bank.`;
+    fb.className = 'fill-feedback bad';
+  }
+}
+
+// ── Hedge / register-shift word bank (Task 2) ──
+const hedgeBank = [
+  { phrase: 'made a costly mistake in the final moments', used: false },
+  { phrase: 'received a significant reduction in power', used: false },
+  { phrase: 'performed exceptionally well under pressure', used: false },
+  { phrase: 'displayed unsportsmanlike conduct', used: false },
+  { phrase: 'was likely an experienced player using a lower-level account', used: false },
+];
+function checkWordBank() {
+  const ids = ['fs1','fs2','fs3','fs4','fs5'];
+  let correct = 0;
+  ids.forEach(id => {
+    const slot = document.getElementById(id);
+    const ans = slot.dataset.answer;
+    const val = slot.textContent.trim();
+    slot.classList.remove('correct', 'incorrect', 'empty');
+    if (val === ans) { slot.classList.add('correct'); correct++; }
+    else slot.classList.add('incorrect');
+  });
+  const fb = document.getElementById('wordBankFeedback');
+  if (correct === ids.length) {
+    fb.textContent = `All ${ids.length} correct — you've got a real feel for shifting register smoothly.`;
+    fb.className = 'fill-feedback good';
+  } else {
+    fb.textContent = `${correct} of ${ids.length} correct. Clear a wrong blank by clicking it again, then try a different phrase.`;
+    fb.className = 'fill-feedback bad';
+  }
+}
+renderChips(blogBank, 'blogBankChips');
+renderChips(hedgeBank, 'bankChips');
+
+// ── Collocation clash exercise ──
+const errorAnswers = { 1: 'natural', 2: 'natural', 3: 'off', 4: 'natural', 5: 'off' };
+const errorExplanations = {
+  1: "Natural ✓ — \"obvious smurf\" is one of the most common adjective + noun pairings in this whole topic; native speakers reach for it instantly.",
+  2: "Natural ✓ — \"overdue\" practically belongs to \"nerf\" at this point; it carries that built-in sense of community frustration.",
+  3: "Sounds a little off — \"toxic conduct\" is grammatically fine, but in casual gaming chat, \"toxic behavior\" is overwhelmingly the pairing people actually reach for. \"Conduct\" feels imported from a much more formal register.",
+  4: "Natural ✓ — \"grinding for loot\" is a textbook verb + noun chunk; swapping in \"prizes\" or \"rewards\" would already feel a little less natural.",
+  5: "Sounds a little off — \"a shift in the meta\" is the chunk gamers actually use; \"shift of the meta\" communicates the same idea but isn't the natural collocation native speakers reach for.",
+};
+function checkError(num, userAnswer) {
+  const correctAnswer = errorAnswers[num];
+  const buttons = document.querySelectorAll(`.error-item:nth-of-type(${num}) .error-btn`);
+  buttons.forEach(b => b.classList.remove('correct', 'incorrect'));
+  const isRight = userAnswer === correctAnswer;
+  event.target.classList.add(isRight ? 'correct' : 'incorrect');
+  if (!isRight) {
+    buttons.forEach(b => {
+      if ((correctAnswer === 'natural' && b.textContent.includes('Natural')) ||
+          (correctAnswer === 'off' && b.textContent.includes('off'))) {
+        b.classList.add('correct');
+      }
+    });
+  }
+  const ex = document.getElementById('explain' + num);
+  ex.textContent = errorExplanations[num];
+  ex.classList.add('show');
+}
+</script>
+
+</body>
+</html>
