@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | Gaming Culture & Identity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #f0f4ff;
+      --white:    #ffffff;
+      --blue:     #4f46e5;
+      --blue-lt:  #eef2ff;
+      --blue-bd:  #c7d2fe;
+      --blue-dk:  #4338ca;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --amber:    #d97706;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); }
+    .nav-back:hover { color: var(--text); }
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero-level { font-size: 11px; background: var(--blue); color: white; border-radius: 10px; padding: 1px 7px; font-weight: 700; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg,#312e81,#4f46e5); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; }
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 18px; font-size: 13px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+    /* Vocab cards */
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 22px; font-weight: 800; line-height: 1.25; margin-bottom: 8px; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-collocations { font-size: 12px; color: var(--muted); margin-bottom: 12px; line-height: 1.5; }
+    .phrase-collocations strong { color: var(--blue-dk); }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+    .listen-col { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+    .audio-player { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn, .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s} .wave span:nth-child(2){height:8px;animation-delay:.1s} .wave span:nth-child(3){height:14px;animation-delay:.2s} .wave span:nth-child(4){height:10px;animation-delay:.05s} .wave span:nth-child(5){height:6px;animation-delay:.15s} .wave span:nth-child(6){height:12px;animation-delay:.25s} .wave span:nth-child(7){height:8px;animation-delay:.1s} .wave span:nth-child(8){height:5px;animation-delay:.2s} .wave span:nth-child(9){height:9px;animation-delay:.05s} .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
+
+    /* Grammar/language note */
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+    .grammar-examples { margin-top: 20px; }
+    .grammar-examples h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 12px; }
+    .grammar-example-list { display: flex; flex-direction: column; gap: 8px; }
+    .grammar-example-item { background: var(--bg); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; }
+    .grammar-example-item em { color: var(--blue-dk); font-style: italic; }
+    .grammar-example-item span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .grammar-warn { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin-top: 16px; line-height: 1.6; }
+
+    /* In Use */
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 28px; }
+    .inaction-img { height: 160px; display: flex; align-items: center; justify-content: center; color: #a5b4fc; }
+    .inaction-img svg { width: 48px; height: 48px; }
+    .stream-platform { display: flex; align-items: center; gap: 10px; padding: 18px 24px 8px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: .06em; text-transform: uppercase; }
+    .badge-academic { background: var(--blue-lt); color: var(--blue-dk); }
+    .badge-panel { background: #f0fdf4; color: #15803d; }
+    .badge-social { background: #fff7ed; color: #c2410c; }
+    .stream-title { font-size: 14px; font-weight: 700; color: var(--text); }
+    .stream-text { padding: 0 24px 16px; font-size: 14px; line-height: 1.9; color: var(--text); }
+    .hl { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .inaction-note { margin: 0 24px 16px; background: var(--bg); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .inaction-audio { padding: 0 24px 24px; }
+
+    /* Register */
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); text-align: left; padding: 12px 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 16px 20px; font-size: 13px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.6; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-table td em { color: var(--blue-dk); }
+    .register-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 20px; letter-spacing: .04em; }
+    .tag-high { background: #ede9fe; color: #5b21b6; }
+    .tag-med { background: var(--blue-lt); color: var(--blue-dk); }
+    .tag-low { background: #fef9c3; color: #854d0e; }
+    .tag-none { background: #fee2e2; color: #991b1b; }
+    .tip-list { display: flex; flex-direction: column; gap: 12px; }
+    .tip { display: flex; gap: 12px; align-items: flex-start; background: var(--white); border-radius: 12px; padding: 14px 18px; box-shadow: var(--shadow); font-size: 13px; line-height: 1.6; }
+    .tip.green { border-left: 4px solid var(--green); }
+    .tip.blue { border-left: 4px solid var(--blue); }
+    .tip.amber { border-left: 4px solid #f59e0b; }
+    .tip.red { border-left: 4px solid var(--red); }
+    .tip-icon { font-size: 16px; flex-shrink: 0; }
+
+    /* Critical Reading */
+    .reading-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 36px 40px; margin-bottom: 28px; }
+    .reading-title { font-size: 20px; font-weight: 800; margin-bottom: 6px; }
+    .reading-byline { font-size: 13px; color: var(--muted); margin-bottom: 28px; font-style: italic; }
+    .reading-body { font-size: 15px; line-height: 1.9; color: var(--text); }
+    .reading-body p { margin-bottom: 20px; }
+    .reading-body p:last-child { margin-bottom: 0; }
+    .reading-body mark { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .analysis-questions { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .analysis-questions h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+    .aq-intro { font-size: 14px; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
+    .aq-item { margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+    .aq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .aq-num { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; background: var(--blue); color: white; border-radius: 50%; font-size: 12px; font-weight: 700; margin-right: 10px; flex-shrink: 0; vertical-align: middle; }
+    .aq-question { font-size: 14px; font-weight: 600; line-height: 1.6; margin-bottom: 8px; }
+    .aq-prompt { font-size: 13px; color: var(--muted); line-height: 1.6; font-style: italic; }
+
+    /* Seminar */
+    .seminar-intro { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px 28px; margin-bottom: 24px; font-size: 14px; line-height: 1.7; }
+    .seminar-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+    .seminar-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; border-top: 4px solid var(--blue); }
+    .seminar-card-label { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .seminar-card-icon { font-size: 20px; }
+    .seminar-card-tag { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); }
+    .seminar-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+    .seminar-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .seminar-scaffold { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px 28px; }
+    .seminar-scaffold h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 12px; }
+    .seminar-scaffold ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .seminar-scaffold li { font-size: 13px; color: var(--muted); line-height: 1.6; padding-left: 16px; position: relative; }
+    .seminar-scaffold li::before { content: '→'; position: absolute; left: 0; color: var(--blue); }
+    .lang-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-top: 16px; }
+    .lang-bank h5 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .lang-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .lang-chip { padding: 5px 12px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 12px; font-weight: 500; color: var(--blue-dk); font-style: italic; }
+
+    /* Nav */
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 40px; }
+    .lesson-nav-btn { background: var(--white); border: 1.5px solid var(--border); border-radius: 10px; padding: 10px 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; color: var(--text); transition: border-color .15s, color .15s; }
+    .lesson-nav-btn:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); }
+    .lesson-nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+
+    /* Exercises */
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--blue); margin-bottom: 16px; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .match-col-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; line-height: 1.5; cursor: pointer; margin-bottom: 8px; transition: border-color .15s, background .15s; }
+    .match-item:hover { border-color: var(--blue-bd); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.correct { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .match-item.wrong { border-color: var(--red); background: var(--red-bg); }
+    .word-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; font-style: italic; transition: background .15s; }
+    .chip:hover { background: var(--blue-lt); }
+    .chip.used { opacity: .3; cursor: not-allowed; }
+    .fill-item { margin-bottom: 20px; padding: 16px 20px; background: var(--bg); border-radius: 12px; font-size: 14px; line-height: 1.7; }
+    .fill-item .original { font-size: 13px; color: var(--muted); margin-bottom: 10px; font-style: italic; }
+    .fill-item .original strong { color: var(--text); font-style: normal; }
+    .fill-rewrite { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 180px; height: 34px; border: 1.5px dashed var(--blue-bd); border-radius: 8px; padding: 0 10px; cursor: pointer; font-size: 13px; font-weight: 500; color: var(--blue-dk); background: var(--white); transition: border-color .15s; font-style: italic; }
+    .fill-slot.filled { border-style: solid; border-color: var(--blue); }
+    .fill-slot.correct { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .fill-slot.wrong { border-color: var(--red); background: var(--red-bg); color: #9f1239; }
+    .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; font-weight: 400; }
+    .slot-clear { background: none; border: none; cursor: pointer; font-size: 11px; color: var(--muted); margin-left: 6px; }
+    .fill-feedback { font-size: 14px; font-weight: 700; margin-left: 8px; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong { color: var(--red); }
+    .check-btn { background: var(--blue); color: #fff; border: none; border-radius: 10px; padding: 10px 24px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; margin-top: 8px; transition: background .15s; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .error-item { background: var(--bg); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
+    .error-sentence { font-size: 14px; font-style: italic; margin-bottom: 12px; line-height: 1.7; }
+    .error-btns { display: flex; gap: 10px; margin-bottom: 10px; }
+    .error-btn { padding: 8px 18px; border: 1.5px solid var(--border); border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; background: var(--white); font-family: 'Inter', sans-serif; transition: border-color .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; }
+    .error-btn.wrong-ans  { border-color: var(--red);   background: var(--red-bg);   color: #9f1239; }
+    .error-feedback { display: none; font-size: 13px; padding: 10px 14px; border-radius: 8px; line-height: 1.6; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; border: 1px solid #bbf7d0; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #9f1239; border: 1px solid #fecdd3; }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 16px; font-size: 14px; line-height: 1.6; }
+    .disc-num { width: 28px; height: 28px; background: var(--blue); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-img { display: none; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .grammar-3col { grid-template-columns: 1fr; }
+      .seminar-cards { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+      .tab-nav { overflow-x: auto; }
+      .content { padding: 24px 16px 60px; }
+      .reading-card { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <div class="nav-logo-icon">P</div>
+      <span>Practispeak</span>
+    </div>
+    <a class="nav-back" href="/">← All Lessons</a>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <div class="hero-badge"><span class="hero-level">C1–C2</span> Advanced</div>
+      <h1>Gaming Culture & Identity</h1>
+      <p class="hero-sub">Hedging, seminar discussion language, and the vocabulary of cultural analysis</p>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+        <span class="progress-pct" id="progressPct">0%</span>
+      </div>
+    </div>
+    <div class="hero-img">🎭</div>
+  </div>
+
+  <div class="tab-nav-wrap">
+    <div class="tab-nav">
+      <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+      <button class="tab-btn" data-tab="langfocus">Language Focus</button>
+      <button class="tab-btn" data-tab="inuse">In Use</button>
+      <button class="tab-btn" data-tab="register">Register & Stance</button>
+      <button class="tab-btn" data-tab="reading">Critical Reading</button>
+      <button class="tab-btn" data-tab="seminar">Seminar</button>
+      <button class="tab-btn" data-tab="analysis">Analysis Tasks</button>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <!-- ── VOCABULARY ── -->
+  <section class="section active" id="tab-vocabulary">
+    <div class="section-title">Vocabulary</div>
+    <div class="section-sub">8 terms for discussing gaming culture, identity, and representation at an advanced level</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)">🧠</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">IDENTITY</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> cultural identity · collective identity · identity formation · sense of identity · contested identity</p>
+        <p class="phrase-def">The characteristics, values, and group memberships that define who a person is — not fixed or singular, but shaped and reshaped through experience, community, and cultural participation.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Gaming has become a central part of my identity — not merely a hobby, but a lens through which I understand competition, creativity, and community."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#3730a3)">🌐</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">SUBCULTURE</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> gaming subculture · subculture formation · countercultural · mainstream vs subculture · subcultural identity</p>
+        <p class="phrase-def">A cultural group within a larger society that shares its own distinctive values, practices, and forms of communication — often defined partly in contrast to the mainstream.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"What began as a subculture confined to arcades and basements has evolved into one of the most economically and culturally significant spaces of the 21st century."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#0f766e)">💬</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">DISCOURSE</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> cultural discourse · public discourse · dominant discourse · shift in discourse · discourse around X</p>
+        <p class="phrase-def">The shared language, vocabulary, and communication practices of a specific community — more than vocabulary, discourse reflects and reinforces the power structures, values, and assumptions of a group.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The discourse around gaming has shifted dramatically — where once it was dominated by moral panic, it is now shaped by questions of art, culture, and representation."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7f1d1d,#991b1b)">⚖️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">STIGMA</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> social stigma · attached/associated stigma · carry a stigma · stigmatised · erode/challenge stigma</p>
+        <p class="phrase-def">A powerful social mark of disgrace or disapproval attached to a group, practice, or identity — often rooted in misunderstanding, prejudice, or cultural anxiety rather than evidence.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The stigma once attached to gaming — that it was antisocial, childish, or a waste of time — has eroded significantly, though it has not disappeared entirely."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-04.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#166534)">🎬</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">REPRESENTATION</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> media representation · diverse representation · question of representation · under-representation · misrepresentation</p>
+        <p class="phrase-def">How a group, identity, or idea is portrayed in media, culture, and public discourse — who tells the story, and whose experience is centred, normalised, or marginalised.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Questions of representation in gaming — who the protagonists are, whose stories are told — have become central to debates about the industry's cultural responsibility."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-05.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#7e22ce)">🏛️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">LEGITIMACY</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> cultural legitimacy · claim legitimacy · legitimacy of X · afford/deny legitimacy · contested legitimacy</p>
+        <p class="phrase-def">The quality of being recognised as valid, credible, or worthy of serious attention — in cultural contexts, legitimacy is often contested, politically charged, and unevenly distributed.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The legitimacy of gaming as an art form is no longer seriously disputed; the question now is who holds the authority to define what good gaming looks like."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-06.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#78350f,#b45309)">💰</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">COMMODIFY</div>
+        <span class="phrase-tag">Verb</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> commodify culture · commodification of X · commodified identity · commercial commodification · resist commodification</p>
+        <p class="phrase-def">To transform something — a culture, an identity, a subversive practice — into a product for commercial exploitation, often stripping it of its original meaning or authenticity in the process.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Critics argue that mainstream success has commodified gaming culture — turning countercultural practices into branded lifestyle products aimed at the widest possible audience."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-07.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e293b,#334155)">🔬</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">NUANCE</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> subtle nuance · lack of nuance · require/demand nuance · nuanced argument · fail to capture nuance</p>
+        <p class="phrase-def">A subtle but significant difference in meaning, tone, or perspective — the detail that resists oversimplification. Advanced academic thinking requires nuance; so does C1-C2 English.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Any serious discussion of gaming culture requires nuance — the experience of a professional esports athlete and a casual mobile player are not culturally interchangeable."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-08.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-vocab-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" disabled>← Previous</button>
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">Language Focus →</button>
+    </div>
+  </section>
+
+  <!-- ── LANGUAGE FOCUS ── -->
+  <section class="section" id="tab-langfocus">
+    <div class="section-title">Language Focus</div>
+    <div class="section-sub">8 hedging and discourse devices for seminar discussion and academic writing</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)">🎓</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">"It could be argued that…"</div>
+        <span class="phrase-tag">Classic Academic Hedge</span>
+        <p class="phrase-def">Creates distance between the speaker and the claim — signals that this is one possible interpretation among several, rather than an established fact. Invites dialogue rather than closing it down.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"It could be argued that gaming's cultural ascent has not so much resolved the question of gaming identity as it has displaced it."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#3730a3)">📊</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">"There is a tendency for…"</div>
+        <span class="phrase-tag">Hedged Generalisation</span>
+        <p class="phrase-def">Signals a pattern without overstating it as universal — safer and more accurate than "always" or "all." Shows you're aware of the complexity of your claim without abandoning it.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"There is a tendency for mainstream discourse to commodify gaming culture, reducing complex subcultural identities to marketable aesthetics."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#0f766e)">⚖️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">"To some extent, this suggests…"</div>
+        <span class="phrase-tag">Partial Claim</span>
+        <p class="phrase-def">Acknowledges the evidence while resisting a fully committed conclusion — shows intellectual honesty. "To some extent" is one of the most nuanced hedging phrases in English.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"To some extent, this suggests that the stigma attached to gaming has shifted rather than disappeared — relocated onto specific genres or communities within the medium."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7f1d1d,#b91c1c)">❓</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">"One might question whether…"</div>
+        <span class="phrase-tag">Polite Academic Challenge</span>
+        <p class="phrase-def">Raises doubt or challenges an assumption without direct confrontation — the impersonal "one" creates academic distance. Invites reconsideration rather than issuing a correction.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"One might question whether the term 'gamer' still carries the same identity-forming weight it once did, given how broadly it is now applied."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#15803d)">🔭</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">"The evidence would seem to indicate…"</div>
+        <span class="phrase-tag">Cautious Claim</span>
+        <p class="phrase-def">"Would seem" creates double hedging — two layers of epistemic caution. Appropriate when evidence exists but remains incomplete or open to multiple interpretations.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The evidence would seem to indicate that gaming identity is increasingly generational — more fluid and less fixed than earlier subcultural formations suggested."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#7e22ce)">🚪</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">"This raises the question of…"</div>
+        <span class="phrase-tag">Discussion Opener</span>
+        <p class="phrase-def">Introduces a new angle or complication without pre-answering it — keeps the conversation open. Essential in seminars for signalling that a topic deserves deeper exploration.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"This raises the question of whether gaming culture can retain any meaningful subcultural identity once it becomes the dominant cultural mainstream."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#78350f,#b45309)">↔️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">"While it is true that…, one must also consider…"</div>
+        <span class="phrase-tag">Concession + Counter-Argument</span>
+        <p class="phrase-def">The most sophisticated hedging structure — acknowledges the opposing position before pivoting. Shows intellectual generosity and strengthens your own argument by addressing the best objection to it.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"While it is true that gaming has achieved unprecedented mainstream visibility, one must also consider the degree to which this visibility has been shaped by commercial rather than cultural priorities."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e293b,#334155)">🕊️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">"I would tentatively suggest that…"</div>
+        <span class="phrase-tag">Personal Position with Epistemic Humility</span>
+        <p class="phrase-def">Puts forward a personal position while signalling it is offered provisionally — not as a final word, but as a contribution to ongoing discussion. Maximum academic modesty.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I would tentatively suggest that gaming's cultural legitimacy is now less in question than its cultural direction — the debate has moved from whether gaming matters to what it should stand for."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <!-- GRAMMAR NOTE -->
+    <div class="grammar-note">
+      <h3>💡 Language Focus — Hedging as a Pragmatic Tool</h3>
+      <p>In academic and seminar English, hedging is not weakness — it is precision. Strong academic voices hedge carefully because they understand the difference between what evidence shows, what can be inferred, and what remains genuinely uncertain. Hedging signals intellectual honesty and invites dialogue.</p>
+
+      <div class="grammar-3col">
+        <div class="grammar-col">
+          <h4>Modal hedges</h4>
+          <div class="grammar-row">Form: <code>might / could / would + verb</code></div>
+          <div class="grammar-row">Signal: possibility, not certainty</div>
+          <div class="grammar-row"><code>"This could represent a shift."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">The softest hedge — appropriate when evidence is suggestive but not conclusive.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>Adverbial hedges</h4>
+          <div class="grammar-row">Form: <code>arguably / seemingly / tentatively / apparently</code></div>
+          <div class="grammar-row">Signal: the claim is debatable or provisional</div>
+          <div class="grammar-row"><code>"Gaming has arguably become…"</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Single-word hedges that modify the entire claim — efficient and widely used in academic prose.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>Distancing phrases</h4>
+          <div class="grammar-row">Form: <code>it could be argued / one might suggest / there is a tendency</code></div>
+          <div class="grammar-row">Signal: this is one reading among several</div>
+          <div class="grammar-row"><code>"It could be argued that…"</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">The most powerful hedges — they step back from the claim entirely, inviting the reader to evaluate rather than simply accept.</div>
+        </div>
+      </div>
+
+      <div class="grammar-examples">
+        <h4>Hedging in context — same claim, different levels of epistemic commitment</h4>
+        <div class="grammar-example-list">
+          <div class="grammar-example-item"><em>"Gaming is the defining cultural phenomenon of the 21st century."</em> <span>→ unhedged — likely to be dismissed as overstatement</span></div>
+          <div class="grammar-example-item"><em>"Gaming has arguably become one of the defining cultural phenomena of the 21st century."</em> <span>→ adverbial hedge — more credible, still clear</span></div>
+          <div class="grammar-example-item"><em>"It could be argued that gaming represents one of the defining cultural formations of the early 21st century."</em> <span>→ distancing phrase — invites engagement rather than demanding agreement</span></div>
+          <div class="grammar-example-item"><em>"While it is true that gaming has achieved cultural prominence, one must also consider whether this prominence has been accompanied by genuine critical engagement."</em> <span>→ concession + counter — shows sophisticated handling of complexity</span></div>
+        </div>
+      </div>
+
+      <div class="grammar-warn">
+        ⚠️ <strong>Over-hedging undermines rather than strengthens.</strong> "It might possibly be tentatively suggested that gaming could perhaps be considered somewhat significant" — the accumulated hedges leave nothing behind. Each sentence needs one primary hedging device, deployed for a clear purpose. Hedging is a precision instrument, not a defensive shield.
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('vocabulary')">← Vocabulary</button>
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">In Use →</button>
+    </div>
+  </section>
+
+  <!-- ── IN USE ── -->
+  <section class="section" id="tab-inuse">
+    <div class="section-title">In Use</div>
+    <div class="section-sub">How hedging and cultural vocabulary operate across academic, panel, and public contexts</div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-academic">Academic Essay</span><span class="stream-title">Excerpt — Cultural Analysis of Gaming Identity</span></div>
+      <p class="stream-text">
+        "<span class="hl">It could be argued</span> that no cultural shift in recent decades has been as underanalysed as gaming's transition from stigmatised subculture to mainstream cultural phenomenon. <span class="hl">There is a tendency</span> for media discourse to frame this shift as an uncomplicated victory — a once-marginalised community finally receiving the recognition it deserved. <span class="hl">To some extent</span>, this framing has merit. The <span class="hl">legitimacy</span> of gaming as a cultural form is no longer seriously contested. However, one must also consider what has been lost in the process. As gaming has been <span class="hl">commodified</span> — its aesthetics absorbed into fashion, its language into advertising — the question of <span class="hl">identity</span> becomes increasingly complex. <span class="hl">I would tentatively suggest</span> that the most significant challenge facing gaming culture today is not external <span class="hl">stigma</span>, but internal fragmentation: the difficulty of maintaining any coherent subcultural identity in a medium now consumed by billions."
+      </p>
+      <div class="inaction-note">Academic writing uses distancing phrases consistently ("it could be argued," "one must also consider") and never makes unhedged absolute claims. Notice also the density of vocabulary — each key term (legitimacy, commodified, identity, stigma) carries specific analytical weight rather than being used loosely.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-inaction-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#14532d,#166534)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-panel">Panel Discussion</span><span class="stream-title">Podcast — "Is Gaming a Cultural Identity?"</span></div>
+      <p class="stream-text">
+        "I think what's interesting — and <span class="hl">I would tentatively suggest</span> this is underappreciated — is that gaming identity has never been singular. <span class="hl">There is a tendency</span>, particularly in mainstream coverage, to speak of 'gamers' as though they constitute a homogeneous group. But the <span class="hl">discourse</span> within gaming communities tells a very different story. <span class="hl">To some extent</span>, the legitimacy debates of the past decade have obscured a more fundamental question: <span class="hl">representation</span>. Who is centred in gaming culture? Whose experience is treated as the default? <span class="hl">This raises the question</span> of whether we are witnessing genuine cultural expansion, or simply the <span class="hl">commodification</span> of one particular vision of what gaming is supposed to look like."
+      </p>
+      <div class="inaction-note">Panel discussion allows slightly more personal framing ("I think," "I would tentatively suggest") than a formal essay, but the vocabulary and hedging devices remain sophisticated. Notice how the speaker uses "this raises the question of" to open a new thread without answering it — a classic seminar move that invites the panel to respond.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-inaction-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#7f1d1d,#b91c1c)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-social">Public / Social Media</span><span class="stream-title">Thread — Direct, Minimal Hedging</span></div>
+      <p class="stream-text">
+        "Gaming culture didn't become legitimate. It got bought. The subculture had its aesthetics extracted, packaged, and sold back to us by the same mainstream that spent decades dismissing it. What we're calling 'legitimacy' is just commodification with better PR. The stigma didn't disappear — it shifted onto whoever is inconvenient to the brand. And most people are too busy celebrating the mainstream moment to notice what was lost."
+      </p>
+      <div class="inaction-note">This is the same argument — but with no hedging at all. Compare: "gaming culture didn't become legitimate" vs "it could be argued that gaming's cultural ascent has displaced rather than resolved the question of identity." Both express scepticism about mainstream legitimacy — but the unhedged version makes a direct, polarising claim while the hedged version invites analysis. Neither is wrong in its context — register determines which is appropriate.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-identity-inaction-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">← Language Focus</button>
+      <button class="lesson-nav-btn" onclick="goToTab('register')">Register & Stance →</button>
+    </div>
+  </section>
+
+  <!-- ── REGISTER & STANCE ── -->
+  <section class="section" id="tab-register">
+    <div class="section-title">Register & Stance</div>
+    <div class="section-sub">How hedging level and vocabulary shift across contexts — and what that signals about your position</div>
+
+    <div class="register-table">
+      <table>
+        <thead><tr><th>Context</th><th>Hedging Level</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>Academic essay</strong><br><span style="font-size:12px;color:var(--muted)">Formal written analysis</span></td>
+            <td><span class="register-tag tag-high">High — essential</span></td>
+            <td><em>"It could be argued that gaming's mainstreaming has displaced rather than resolved the question of subcultural identity."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Seminar contribution</strong><br><span style="font-size:12px;color:var(--muted)">Spoken, collaborative</span></td>
+            <td><span class="register-tag tag-high">High — shows respect</span></td>
+            <td><em>"One might question whether the binary of subculture versus mainstream is still a useful analytical frame here."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Panel / podcast discussion</strong><br><span style="font-size:12px;color:var(--muted)">Semi-formal, discursive</span></td>
+            <td><span class="register-tag tag-med">Moderate — conversational</span></td>
+            <td><em>"I would tentatively suggest that the more interesting question now is not legitimacy but representation."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Journalistic feature</strong><br><span style="font-size:12px;color:var(--muted)">Neutral, accessible</span></td>
+            <td><span class="register-tag tag-low">Low-moderate</span></td>
+            <td><em>"Gaming's identity crisis — if it can be called that — is less about external acceptance than internal fragmentation."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Social media / public debate</strong><br><span style="font-size:12px;color:var(--muted)">Informal, direct</span></td>
+            <td><span class="register-tag tag-none">Minimal / None</span></td>
+            <td><em>"Gaming culture didn't become legitimate. It got bought."</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tip-list">
+      <div class="tip green"><span class="tip-icon">✅</span><span>In academic and seminar English, hedging signals intellectual rigour — not uncertainty or weakness. The strongest academic voices hedge the most carefully, because they understand exactly where the evidence stops and interpretation begins.</span></div>
+      <div class="tip blue"><span class="tip-icon">💡</span><span>Hedging invites dialogue. An unhedged claim like <strong>"gaming is the most important cultural form of our era"</strong> demands agreement or confrontation. <strong>"It could be argued that gaming represents one of the defining cultural formations of the 21st century"</strong> opens a conversation.</span></div>
+      <div class="tip amber"><span class="tip-icon">⚠️</span><span>Over-hedging is a real problem at C1-C2 level. <em>"It might possibly be tentatively suggested that gaming could perhaps be considered somewhat culturally significant"</em> — the accumulated hedges leave nothing meaningful behind. One well-chosen device per claim is enough.</span></div>
+      <div class="tip red"><span class="tip-icon">❌</span><span>Don't confuse hedging with vagueness. Hedging is precise and intentional — you choose a specific device for a specific reason. Vagueness is simply being unclear about what you mean. <em>"Gaming is kind of important in a way"</em> is vague, not hedged.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">← In Use</button>
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">Critical Reading →</button>
+    </div>
+  </section>
+
+  <!-- ── CRITICAL READING ── -->
+  <section class="section" id="tab-reading">
+    <div class="section-title">Critical Reading</div>
+    <div class="section-sub">Read the essay — then work through the analytical questions with a partner</div>
+
+    <div class="reading-card">
+      <div class="reading-title">From Basement to Mainstream: Gaming's Identity Crisis</div>
+      <div class="reading-byline">An analytical essay on cultural identity, legitimacy, and what gets lost in translation</div>
+      <div class="reading-body">
+        <p>For much of its history, gaming occupied a peculiar position in the cultural imagination — simultaneously everywhere and nowhere. By the early 2000s, gaming was already one of the world's largest entertainment industries, yet it remained stubbornly peripheral in cultural prestige. The <mark>discourse</mark> surrounding it was dominated not by its achievements but by its alleged dangers: addiction, violence, social isolation. The <mark>identity</mark> of the 'gamer' carried a heavy <mark>stigma</mark> — a figure who was, in the cultural shorthand of the era, young, male, and fundamentally retreated from the real world.</p>
+
+        <p>What followed over the subsequent two decades represents one of the more striking shifts in contemporary cultural history. Gaming did not simply become more popular — it became legitimate. Academic institutions began offering degrees in game design and game studies. Museums mounted exhibitions on gaming's aesthetic and historical significance. Mainstream cultural figures began positioning themselves as gamers. The <mark>subculture</mark> had, it appeared, arrived.</p>
+
+        <p>Yet <mark>legitimacy</mark> is rarely uncomplicated. <mark>It could be argued</mark> that gaming's cultural ascent has not so much resolved the question of gaming <mark>identity</mark> as it has displaced it. Where once the challenge was external — combating <mark>stigma</mark>, asserting the value of the medium — the challenge is now internal. What does it mean to identify as a gamer when the term encompasses everything from a retiree playing mobile puzzle games to a professional esports athlete competing before millions? The <mark>discourse</mark> that once unified a subculture has fragmented across communities whose interests, aesthetics, and values often bear little resemblance to one another.</p>
+
+        <p><mark>There is a tendency</mark> in discussions of this shift to frame it as an unambiguous triumph — a formerly marginalised community receiving the recognition it always deserved. <mark>To some extent</mark>, this reading has merit. The legitimacy afforded to gaming has opened doors that were previously closed: to diversity in <mark>representation</mark>, to serious critical engagement, to the acknowledgement of gaming as a site of genuine artistic ambition. These are not trivial gains.</p>
+
+        <p><mark>One must also consider</mark>, however, the degree to which gaming's mainstreaming has been inseparable from its <mark>commodification</mark>. The aesthetics of gaming subculture — its language, its visual identity, its competitive structures — have been absorbed into broader commercial culture in ways that have altered their meaning. What was once countercultural has become a lifestyle brand. <mark>This raises the question</mark> of whether the gaming <mark>subculture</mark> retains any meaningful capacity for the kind of identity formation it once offered: a community defined as much by its difference from the mainstream as by its internal practices.</p>
+
+        <p>There is no clean answer here, and it would be a mistake to suggest otherwise. Gaming identity has never been monolithic, and <mark>nuance</mark> requires us to resist the temptation to read its history as a simple narrative of either triumph or loss. What seems clear is that the most interesting questions about gaming culture are no longer about whether it matters, but about what it stands for — and who gets to decide.</p>
+      </div>
+    </div>
+
+    <div class="analysis-questions">
+      <h3>Analytical Questions</h3>
+      <p class="aq-intro">These questions are for discussion with a partner or tutor. There are no single correct answers — the goal is to develop and defend a position using evidence from the text and language from the lesson.</p>
+
+      <div class="aq-item">
+        <div class="aq-question"><span class="aq-num">1</span> The writer argues that gaming's mainstreaming has "displaced rather than resolved" the question of gaming identity. What does this distinction mean? Do you find the argument convincing — and if not, what would you argue instead?</div>
+        <p class="aq-prompt">Look at paragraphs 3 and 5. Consider what "displaced" implies about the nature of the problem — and whether "resolved" would have been a stronger or weaker conclusion for the writer to draw.</p>
+      </div>
+
+      <div class="aq-item">
+        <div class="aq-question"><span class="aq-num">2</span> Identify two hedging phrases used in the essay. For each, explain: (a) which hedging device it uses, (b) what type it is, and (c) what the writer achieves pragmatically by hedging at that specific moment.</div>
+        <p class="aq-prompt">Consider what would change if the hedge were removed — would the claim be stronger, weaker, or simply different in kind? Use the language from the Language Focus tab to frame your analysis.</p>
+      </div>
+
+      <div class="aq-item">
+        <div class="aq-question"><span class="aq-num">3</span> The final paragraph ends with a question: "who gets to decide?" Why does the writer choose to close with an open question rather than a conclusion? What does this choice tell you about their stance on the issue?</div>
+        <p class="aq-prompt">Consider the rhetorical effect of ending on a question versus a statement. Is this a strength or a weakness in the argument? Does it constitute hedging, or something else entirely?</p>
+      </div>
+
+      <div class="aq-item">
+        <div class="aq-question"><span class="aq-num">4</span> The essay presents gaming's cultural ascent as neither a clear triumph nor a clear loss. Using evidence from the text, evaluate whether the writer successfully maintains this balance — or whether their argument leans in one direction despite claiming neutrality.</div>
+        <p class="aq-prompt">Look at where vocabulary choices — "commodified," "absorbed," "lifestyle brand" — may reveal a stance that the hedging devices attempt to conceal. Is the writer's claimed neutrality genuine?</p>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('register')">← Register & Stance</button>
+      <button class="lesson-nav-btn" onclick="goToTab('seminar')">Seminar →</button>
+    </div>
+  </section>
+
+  <!-- ── SEMINAR ── -->
+  <section class="section" id="tab-seminar">
+    <div class="section-title">Seminar</div>
+    <div class="section-sub">Three structured discussion tasks — preparation time matters</div>
+
+    <div class="seminar-intro">
+      Take <strong>5 minutes</strong> to prepare before each task. Use at least <strong>4 vocabulary words</strong> and <strong>4 hedging devices</strong> from the lesson. Your partner's role is to track which devices you use — and to challenge any unhedged claim they hear.
+    </div>
+
+    <div class="seminar-cards">
+      <div class="seminar-card">
+        <div class="seminar-card-label"><span class="seminar-card-icon">📣</span><span class="seminar-card-tag">Task A</span></div>
+        <h3>Prepared Statement</h3>
+        <p>Argue — in 3 minutes — that gaming's mainstream success has been culturally <em>beneficial</em> or culturally <em>harmful</em>. Your partner evaluates the quality and appropriateness of your hedging, then responds with a counter-argument using the same devices.</p>
+      </div>
+      <div class="seminar-card">
+        <div class="seminar-card-label"><span class="seminar-card-icon">🎭</span><span class="seminar-card-tag">Task B</span></div>
+        <h3>Panel Discussion</h3>
+        <p>Four roles: the academic, the old-school gamer, the mainstream newcomer, the industry spokesperson. Each defends their perspective on gaming's cultural identity for 2 minutes. The group must use at least one hedging device when challenging each other's positions.</p>
+      </div>
+      <div class="seminar-card">
+        <div class="seminar-card-label"><span class="seminar-card-icon">⚖️</span><span class="seminar-card-tag">Task C</span></div>
+        <h3>Devil's Advocate</h3>
+        <p>Take the position you most disagree with from the Critical Reading essay. Defend it for 2 minutes using hedging language. Your partner must identify the moment your argument is weakest — and you must defend that point using a concession + counter-argument structure.</p>
+      </div>
+    </div>
+
+    <div class="seminar-scaffold">
+      <h4>Language scaffolding for seminar contributions</h4>
+      <ul>
+        <li>Open with a framing hedge before making your main claim — never lead with an unqualified assertion.</li>
+        <li>Use "this raises the question of" when you want to open a new thread without pre-answering it — it invites the group to respond.</li>
+        <li>"While it is true that…, one must also consider…" is the most effective structure for acknowledging opposition without conceding ground.</li>
+        <li>End contributions with an open question rather than a conclusion — it signals collaborative rather than competitive intent.</li>
+        <li>Challenge others with "one might question whether" rather than direct contradiction — the impersonal form softens confrontation without losing precision.</li>
+      </ul>
+      <div class="lang-bank">
+        <h5>Quick reference — hedging phrases</h5>
+        <div class="lang-chips">
+          <div class="lang-chip">It could be argued that…</div>
+          <div class="lang-chip">There is a tendency for…</div>
+          <div class="lang-chip">To some extent, this suggests…</div>
+          <div class="lang-chip">One might question whether…</div>
+          <div class="lang-chip">The evidence would seem to indicate…</div>
+          <div class="lang-chip">This raises the question of…</div>
+          <div class="lang-chip">While it is true that…, one must also consider…</div>
+          <div class="lang-chip">I would tentatively suggest that…</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">← Critical Reading</button>
+      <button class="lesson-nav-btn" onclick="goToTab('analysis')">Analysis Tasks →</button>
+    </div>
+  </section>
+
+  <!-- ── ANALYSIS TASKS ── -->
+  <section class="section" id="tab-analysis">
+    <div class="section-title">Analysis Tasks</div>
+    <div class="section-sub">Identify, rewrite, and evaluate — three analytical exercises</div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 1</div>
+      <h3>Match the Device to Its Function</h3>
+      <p class="ex-desc">Click a hedging phrase on the left, then match it to what it achieves pragmatically on the right.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Hedging phrases</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">"It could be argued that gaming identity has fragmented."</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">"There is a tendency for media to oversimplify gaming culture."</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">"To some extent, the stigma has shifted rather than disappeared."</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">"One might question whether 'gamer' still means anything distinct."</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">"The evidence would seem to indicate a generational shift."</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">"I would tentatively suggest the debate has moved on."</div>
+        </div>
+        <div>
+          <div class="match-col-label">Pragmatic function</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">Hedged generalisation — signals a pattern without claiming it is universal</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">Cautious claim — evidence supports but does not fully prove the point</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">Classic distancing hedge — one reading among several, invites dialogue</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">Polite academic challenge — raises doubt without direct confrontation</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">Personal position with maximum epistemic humility</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">Partial claim — acknowledges the evidence while resisting a full commitment</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 2</div>
+      <h3>Rewrite as Academic English</h3>
+      <p class="ex-desc">Each sentence below makes a direct, unhedged claim. Click a hedge from the bank, then click the blank to complete the academically appropriate version.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Hedging bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="It could be argued that" onclick="selectChip(this)">It could be argued that</div>
+          <div class="chip" data-phrase="There is a tendency for" onclick="selectChip(this)">There is a tendency for</div>
+          <div class="chip" data-phrase="To some extent" onclick="selectChip(this)">To some extent</div>
+          <div class="chip" data-phrase="The evidence would seem to indicate" onclick="selectChip(this)">The evidence would seem to indicate</div>
+          <div class="chip" data-phrase="One might question whether" onclick="selectChip(this)">One might question whether</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Direct claim:</strong> "Gaming is now more culturally significant than cinema."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs1" data-answer="It could be argued that" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+          gaming has achieved comparable cultural reach to cinema in certain demographics.
+          <span class="fill-feedback" id="fb1"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Direct claim:</strong> "Media always misrepresents gaming culture."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs2" data-answer="There is a tendency for" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+          mainstream media to misrepresent gaming culture — though notable counterexamples exist.
+          <span class="fill-feedback" id="fb2"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Direct claim:</strong> "Gaming culture has completely lost its subcultural identity."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs3" data-answer="To some extent" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+          , gaming has lost some of its subcultural distinctiveness in recent years — though significant pockets of countercultural identity remain.
+          <span class="fill-feedback" id="fb3"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Direct claim:</strong> "Research proves gaming improves cognitive performance."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs4" data-answer="The evidence would seem to indicate" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+          that regular gaming is associated with certain cognitive benefits — though causality remains complex and context-dependent.
+          <span class="fill-feedback" id="fb4"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Direct claim:</strong> "The term 'gamer' still means the same thing it did in 2005."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs5" data-answer="One might question whether" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+          the term 'gamer' retains the same identity-forming meaning it once carried, given how dramatically the medium's audience has expanded.
+          <span class="fill-feedback" id="fb5"></span>
+        </div>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Rewrites</button>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 3</div>
+      <h3>Evaluate the Hedging</h3>
+      <p class="ex-desc">Is the hedging in each sentence appropriate, or does it contain an error? Consider grammar, redundancy, and pragmatic appropriateness.</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"It could be argued that gaming is arguably the most important cultural phenomenon of the 21st century."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(1,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"The evidence would seem to indicate that gaming communities have become considerably more diverse over the past decade."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(2,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"While it is true that gaming has been commodified, one must also consider this is bad."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(3,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"I would tentatively suggest that representation in gaming has improved significantly over the past decade."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(4,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"To some extent, gaming identity might possibly perhaps be considered somewhat fragmented."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(5,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <div class="disc-card">
+      <h3>🗣 Further Discussion</h3>
+      <div class="disc-item"><div class="disc-num">1</div><span>The essay argues that gaming's mainstreaming has "displaced rather than resolved" the question of subcultural identity. Do you agree? What would it look like for gaming identity to be genuinely "resolved" rather than merely displaced?</span></div>
+      <div class="disc-item"><div class="disc-num">2</div><span>In seminar contexts, hedging signals respect for intellectual complexity. In social media contexts, hedging can signal weakness or evasiveness. What does this tell us about the relationship between language, power, and context?</span></div>
+      <div class="disc-item"><div class="disc-num">3</div><span>The essay mentions that "nuance requires us to resist the temptation to read [gaming's] history as a simple narrative of either triumph or loss." Is nuance always a virtue in cultural analysis — or does it sometimes obscure the need for clear moral or political judgement?</span></div>
+      <div class="disc-item"><div class="disc-num">4</div><span>If gaming's subculture has been commodified — its aesthetics absorbed, its identity packaged — does it still have the capacity to be a genuine site of identity formation? Or is that now the role of something else entirely?</span></div>
+      <div class="disc-item"><div class="disc-num">5</div><span>Consider your own relationship to gaming identity. Using the vocabulary and hedging devices from this lesson, make a 3-minute prepared statement about where you position yourself in relation to the arguments in the essay.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('seminar')">← Seminar</button>
+      <button class="lesson-nav-btn" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+  </div>
+
+<script>
+  const tabs = ['vocabulary','langfocus','inuse','register','reading','seminar','analysis'];
+  const completedTabs = new Set();
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause(); currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
+    }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
+  }
+
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++; document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el; el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = ''; return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  const errorAnswers = { 1:true, 2:false, 3:true, 4:false, 5:true };
+  const errorExplanations = {
+    1: { fix:true,  msg:"Problem: redundant hedging. 'It could be argued' and 'arguably' both hedge the same claim — using both is grammatically awkward and reads as insecure rather than precise. Remove one: <strong>'It could be argued that gaming is the most important cultural phenomenon…'</strong> or <strong>'Gaming is arguably the most important cultural phenomenon…'</strong>" },
+    2: { fix:false, msg:"Appropriate. 'The evidence would seem to indicate' is correct double hedging — the claim is evidence-based but the interpretation remains open. The adverb 'considerably' adds precision without removing the hedge. Well-formed." },
+    3: { fix:true,  msg:"Problem: the concession structure is correct, but the follow-up is too direct and informal. 'One must also consider this is bad' collapses into unhedged judgement after a sophisticated opening. A better follow-up: <strong>'one must also consider the implications of commodification for the authenticity of subcultural identity.'</strong>" },
+    4: { fix:false, msg:"Appropriate. 'I would tentatively suggest' correctly hedges a personal position — 'tentatively' signals the claim is provisional, and 'significantly' still carries analytical weight without overstating. This is exactly the right device for a personal contribution in a seminar." },
+    5: { fix:true,  msg:"Problem: over-hedging. 'To some extent' + 'might possibly' + 'perhaps' + 'considered' + 'somewhat' — five hedging elements in one sentence. The accumulated hedges leave nothing meaningful behind. One device is enough: <strong>'To some extent, gaming identity could be considered fragmented.'</strong>" },
+  };
+  function checkError(num, userAnswer) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userAnswer && userAnswer !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>

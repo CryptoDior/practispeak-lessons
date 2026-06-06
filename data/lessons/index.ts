@@ -16,6 +16,7 @@ import { esportsCompetitiveGaming } from './esports-competitive-gaming';
 import { narrativeTensesStorytelling } from './narrative-tenses-storytelling';
 import { socialGamingMakingFriends } from './social-gaming-making-friends';
 import { techTalkLagTroubleshooting } from './tech-talk-lag-troubleshooting';
+import { gamingCultureIdentity } from './gaming-culture-identity';
 /**
  * Add new lessons here by importing the lesson file and adding it to this array.
  * The lesson page routing and home page listing are automatic.
@@ -38,6 +39,7 @@ export const lessons: Lesson[] = [
   narrativeTensesStorytelling,
   socialGamingMakingFriends,
   techTalkLagTroubleshooting,
+  gamingCultureIdentity,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
