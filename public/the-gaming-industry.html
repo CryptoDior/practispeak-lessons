@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | The Gaming Industry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #f0f4ff;
+      --white:    #ffffff;
+      --blue:     #4f46e5;
+      --blue-lt:  #eef2ff;
+      --blue-bd:  #c7d2fe;
+      --blue-dk:  #4338ca;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --amber:    #d97706;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); }
+    .nav-back:hover { color: var(--text); }
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero-level { font-size: 11px; background: var(--blue); color: white; border-radius: 10px; padding: 1px 7px; font-weight: 700; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg,#312e81,#4f46e5); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; }
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 18px; font-size: 13px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+    /* Vocab cards */
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 22px; font-weight: 800; line-height: 1.25; margin-bottom: 8px; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-collocations { font-size: 12px; color: var(--muted); margin-bottom: 12px; line-height: 1.5; }
+    .phrase-collocations strong { color: var(--blue-dk); }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+    .listen-col { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+    .audio-player { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn, .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s} .wave span:nth-child(2){height:8px;animation-delay:.1s} .wave span:nth-child(3){height:14px;animation-delay:.2s} .wave span:nth-child(4){height:10px;animation-delay:.05s} .wave span:nth-child(5){height:6px;animation-delay:.15s} .wave span:nth-child(6){height:12px;animation-delay:.25s} .wave span:nth-child(7){height:8px;animation-delay:.1s} .wave span:nth-child(8){height:5px;animation-delay:.2s} .wave span:nth-child(9){height:9px;animation-delay:.05s} .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
+
+    /* Grammar/language note */
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+    .grammar-examples { margin-top: 20px; }
+    .grammar-examples h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 12px; }
+    .grammar-example-list { display: flex; flex-direction: column; gap: 8px; }
+    .grammar-example-item { background: var(--bg); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; }
+    .grammar-example-item em { color: var(--blue-dk); font-style: italic; }
+    .grammar-example-item span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .grammar-warn { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin-top: 16px; line-height: 1.6; }
+
+    /* In Use */
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 28px; }
+    .inaction-img { height: 160px; display: flex; align-items: center; justify-content: center; color: #a5b4fc; }
+    .inaction-img svg { width: 48px; height: 48px; }
+    .stream-platform { display: flex; align-items: center; gap: 10px; padding: 18px 24px 8px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: .06em; text-transform: uppercase; }
+    .badge-academic { background: var(--blue-lt); color: var(--blue-dk); }
+    .badge-panel { background: #f0fdf4; color: #15803d; }
+    .badge-social { background: #fff7ed; color: #c2410c; }
+    .stream-title { font-size: 14px; font-weight: 700; color: var(--text); }
+    .stream-text { padding: 0 24px 16px; font-size: 14px; line-height: 1.9; color: var(--text); }
+    .hl { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .inaction-note { margin: 0 24px 16px; background: var(--bg); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .inaction-audio { padding: 0 24px 24px; }
+
+    /* Register */
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); text-align: left; padding: 12px 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 16px 20px; font-size: 13px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.6; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-table td em { color: var(--blue-dk); }
+    .register-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 20px; letter-spacing: .04em; }
+    .tag-high { background: #ede9fe; color: #5b21b6; }
+    .tag-med { background: var(--blue-lt); color: var(--blue-dk); }
+    .tag-low { background: #fef9c3; color: #854d0e; }
+    .tag-none { background: #fee2e2; color: #991b1b; }
+    .tip-list { display: flex; flex-direction: column; gap: 12px; }
+    .tip { display: flex; gap: 12px; align-items: flex-start; background: var(--white); border-radius: 12px; padding: 14px 18px; box-shadow: var(--shadow); font-size: 13px; line-height: 1.6; }
+    .tip.green { border-left: 4px solid var(--green); }
+    .tip.blue { border-left: 4px solid var(--blue); }
+    .tip.amber { border-left: 4px solid #f59e0b; }
+    .tip.red { border-left: 4px solid var(--red); }
+    .tip-icon { font-size: 16px; flex-shrink: 0; }
+
+    /* Critical Reading */
+    .reading-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 36px 40px; margin-bottom: 28px; }
+    .reading-title { font-size: 20px; font-weight: 800; margin-bottom: 6px; }
+    .reading-byline { font-size: 13px; color: var(--muted); margin-bottom: 28px; font-style: italic; }
+    .reading-body { font-size: 15px; line-height: 1.9; color: var(--text); }
+    .reading-body p { margin-bottom: 20px; }
+    .reading-body p:last-child { margin-bottom: 0; }
+    .reading-body mark { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .analysis-questions { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .analysis-questions h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+    .aq-intro { font-size: 14px; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
+    .aq-item { margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+    .aq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .aq-num { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; background: var(--blue); color: white; border-radius: 50%; font-size: 12px; font-weight: 700; margin-right: 10px; flex-shrink: 0; vertical-align: middle; }
+    .aq-question { font-size: 14px; font-weight: 600; line-height: 1.6; margin-bottom: 8px; }
+    .aq-prompt { font-size: 13px; color: var(--muted); line-height: 1.6; font-style: italic; }
+
+    .lang-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-top: 16px; }
+    .lang-bank h5 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .lang-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .lang-chip { padding: 5px 12px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 12px; font-weight: 500; color: var(--blue-dk); font-style: italic; }
+
+    /* Nav */
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 40px; }
+    .lesson-nav-btn { background: var(--white); border: 1.5px solid var(--border); border-radius: 10px; padding: 10px 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; color: var(--text); transition: border-color .15s, color .15s; }
+    .lesson-nav-btn:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); }
+    .lesson-nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+
+    /* Exercises */
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--blue); margin-bottom: 16px; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .match-col-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; line-height: 1.5; cursor: pointer; margin-bottom: 8px; transition: border-color .15s, background .15s; }
+    .match-item:hover { border-color: var(--blue-bd); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.correct { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .match-item.wrong { border-color: var(--red); background: var(--red-bg); }
+    .word-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; font-style: italic; transition: background .15s; }
+    .chip:hover { background: var(--blue-lt); }
+    .chip.used { opacity: .3; cursor: not-allowed; }
+    .fill-item { margin-bottom: 20px; padding: 16px 20px; background: var(--bg); border-radius: 12px; font-size: 14px; line-height: 1.7; }
+    .fill-item .original { font-size: 13px; color: var(--muted); margin-bottom: 10px; font-style: italic; }
+    .fill-item .original strong { color: var(--text); font-style: normal; }
+    .fill-rewrite { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 180px; height: 34px; border: 1.5px dashed var(--blue-bd); border-radius: 8px; padding: 0 10px; cursor: pointer; font-size: 13px; font-weight: 500; color: var(--blue-dk); background: var(--white); transition: border-color .15s; font-style: italic; }
+    .fill-slot.filled { border-style: solid; border-color: var(--blue); }
+    .fill-slot.correct { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .fill-slot.wrong { border-color: var(--red); background: var(--red-bg); color: #9f1239; }
+    .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; font-weight: 400; }
+    .slot-clear { background: none; border: none; cursor: pointer; font-size: 11px; color: var(--muted); margin-left: 6px; }
+    .fill-feedback { font-size: 14px; font-weight: 700; margin-left: 8px; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong { color: var(--red); }
+    .check-btn { background: var(--blue); color: #fff; border: none; border-radius: 10px; padding: 10px 24px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; margin-top: 8px; transition: background .15s; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .error-item { background: var(--bg); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
+    .error-sentence { font-size: 14px; font-style: italic; margin-bottom: 12px; line-height: 1.7; }
+    .error-btns { display: flex; gap: 10px; margin-bottom: 10px; }
+    .error-btn { padding: 8px 18px; border: 1.5px solid var(--border); border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; background: var(--white); font-family: 'Inter', sans-serif; transition: border-color .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; }
+    .error-btn.wrong-ans  { border-color: var(--red);   background: var(--red-bg);   color: #9f1239; }
+    .error-feedback { display: none; font-size: 13px; padding: 10px 14px; border-radius: 8px; line-height: 1.6; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; border: 1px solid #bbf7d0; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #9f1239; border: 1px solid #fecdd3; }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 16px; font-size: 14px; line-height: 1.6; }
+    .disc-num { width: 28px; height: 28px; background: var(--blue); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-img { display: none; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .grammar-3col { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+      .tab-nav { overflow-x: auto; }
+      .content { padding: 24px 16px 60px; }
+      .reading-card { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <div class="nav-logo-icon">P</div>
+      <span>Practispeak</span>
+    </div>
+    <a class="nav-back" href="/">← All Lessons</a>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <div class="hero-badge"><span class="hero-level">C1–C2</span> Advanced</div>
+      <h1>The Gaming Industry</h1>
+      <p class="hero-sub">The business behind the games — monetization, crunch, consolidation, and the language used to talk about all of it</p>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+        <span class="progress-pct" id="progressPct">0%</span>
+      </div>
+    </div>
+    <div class="hero-img">🏢</div>
+  </div>
+
+  <div class="tab-nav-wrap">
+    <div class="tab-nav">
+      <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+      <button class="tab-btn" data-tab="langfocus">Language Focus</button>
+      <button class="tab-btn" data-tab="inuse">In Use</button>
+      <button class="tab-btn" data-tab="register">Register & Stance</button>
+      <button class="tab-btn" data-tab="reading">Forum Corner</button>
+      <button class="tab-btn" data-tab="analysis">Analysis Tasks</button>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <!-- ── VOCABULARY ── -->
+  <section class="section active" id="tab-vocabulary">
+    <div class="section-title">Vocabulary</div>
+    <div class="section-sub">8 terms for talking about the business side of gaming — money, labor, and the language of the industry</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#166534)">💰</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">MONETIZE</div>
+        <span class="phrase-tag">Verb</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> monetize the player base · aggressive monetization · monetization strategy · ways to monetize · monetized through ads</p>
+        <p class="phrase-def">To find a way to make money from something you've built — usually by adding purchases, ads, or subscriptions directly into how it works. <em>Ex: A free app might monetize by showing ads between levels or selling extra lives.</em></p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"It's becoming harder to find a mobile game that hasn't been monetized through ads, loot boxes, or some kind of subscription model."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7c2d12,#9a3412)">⏳</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">CRUNCH</div>
+        <span class="phrase-tag">Noun / Verb</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> brutal crunch · crunch culture · crunch period · go into crunch · months of crunch</p>
+        <p class="phrase-def">An intense stretch of overtime — sometimes weeks or months long — that teams go through right before a game has to ship. <em>Ex: Some studios still expect staff to work nights and weekends during crunch, even though it's been criticized for years.</em></p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"By the final month of crunch, half the team was sleeping at the office just to hit the release date."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e293b,#334155)">🏢</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">CONSOLIDATION</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> industry consolidation · wave of consolidation · market consolidation · ongoing consolidation · consolidation of power</p>
+        <p class="phrase-def">A trend where smaller companies get bought up or merged into bigger ones, until just a handful of giants end up running most of the show. <em>Ex: Consolidation is part of why so many studios you used to think of as independent now belong to the same parent company.</em></p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Consolidation in the industry means a handful of publishers now control most of the big franchises we grew up with."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)">🔄</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">LIVE-SERVICE</div>
+        <span class="phrase-tag">Adjective</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> live-service model · live-service game · live-service title · shift to live-service · live-service economy</p>
+        <p class="phrase-def">Describes a game that's designed to keep changing after launch — new seasons, new content, new things to buy — instead of being finished and left alone. <em>Ex: A live-service game might look totally different a year after release, with new characters, maps, or events added regularly.</em></p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"They redesigned the entire game as a live-service title, which means it'll keep getting new content — and new ways to spend money — for years."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-04.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7f1d1d,#991b1b)">🌊</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">BACKLASH</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> swift backlash · public backlash · spark backlash · face backlash · backlash online</p>
+        <p class="phrase-def">A sudden wave of public anger or criticism, usually after a decision that a lot of people feel went too far. <em>Ex: A pricing change can spark so much backlash that a company ends up reversing it within a day.</em></p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The backlash was so intense that the studio had to walk back the changes within forty-eight hours of launch."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-05.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0f172a,#334155)">📉</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">LAYOFFS</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> mass layoffs · round of layoffs · announce layoffs · hit by layoffs · layoffs across the studio</p>
+        <p class="phrase-def">Job cuts that happen when a company decides to shrink its workforce — often after a merger, a disappointing launch, or pressure to save money. <em>Ex: Layoffs can hit a studio even after one of its games becomes a huge hit, which a lot of people find hard to understand.</em></p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Another round of layoffs hit the studio last week, just months after the game shipped to record sales."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-06.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#0f766e)">🎬</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">FRANCHISE</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> beloved franchise · franchise fatigue · long-running franchise · reboot a franchise · franchise installment</p>
+        <p class="phrase-def">A series of games that share characters, settings, or a brand — valuable to a company because fans keep coming back for more. <em>Ex: A successful franchise can spin off into movies, merchandise, and spreadsheets full of profit projections.</em></p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The franchise has been rebooted so many times that newer fans barely recognize the characters from the original games."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-07.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#78350f,#b45309)">🚪</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">EARLY ACCESS</div>
+        <span class="phrase-tag">Noun</span>
+        <p class="phrase-collocations"><strong>Collocations:</strong> launch in early access · early access release · buy into early access · early access period · leave early access</p>
+        <p class="phrase-def">A system where players can buy and play a game before it's finished — sometimes helping fund development and shape the final version through feedback. <em>Ex: Some games stay in early access for years, slowly adding features as the small team behind them keeps working.</em></p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"I bought it in early access last year, and honestly, it's barely changed since then."</p>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-08.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" disabled>← Previous</button>
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">Language Focus →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-langfocus">
+    <div class="section-title">Language Focus</div>
+    <div class="section-sub">8 phrases for recognizing — and naming — the language companies use to soften difficult news</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)">🫥</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 1</div>
+        <div class="phrase-word">"It was decided that…"</div>
+        <span class="phrase-tag">Passive Decision-Maker Removal</span>
+        <p class="phrase-def">Hides exactly who made a call. The decision exists, but nobody seems to have actually made it — which is often the point.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"It was decided that the project would be discontinued, with resources reallocated to other priorities."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-langfocus-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#3730a3)">🌫️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 2</div>
+        <div class="phrase-word">"Certain roles have been impacted…"</div>
+        <span class="phrase-tag">Euphemistic Impact Phrase</span>
+        <p class="phrase-def">A softened way of saying "people lost their jobs" without saying it directly — "impacted" does a lot of quiet work here.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"As part of this transition, certain roles across the studio have been impacted."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-langfocus-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#0f766e)">🔭</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 3</div>
+        <div class="phrase-word">"Going forward, our focus will be…"</div>
+        <span class="phrase-tag">Forward-Looking Pivot</span>
+        <p class="phrase-def">Steers attention away from whatever just went wrong and toward a brighter-sounding plan — a classic move right after bad news.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Going forward, our focus will be on delivering experiences that resonate with our most engaged communities."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-langfocus-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7f1d1d,#b91c1c)">👂</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 4</div>
+        <div class="phrase-word">"We hear you, and we're listening…"</div>
+        <span class="phrase-tag">Acknowledgment Without Commitment</span>
+        <p class="phrase-def">Sounds responsive without promising anything specific — useful for calming people down while buying time to figure out what to actually do.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"We hear you, and we're listening — your feedback on the new pricing model has been invaluable."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-langfocus-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#14532d,#15803d)">⚖️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 5</div>
+        <div class="phrase-word">"The decision was not made lightly…"</div>
+        <span class="phrase-tag">Gravity Signal</span>
+        <p class="phrase-def">Adds emotional weight to an announcement — suggesting real struggle behind the scenes — even when the outcome for the people affected doesn't change at all.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"The decision was not made lightly, and we recognize the impact this will have on those affected."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-langfocus-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#7e22ce)">🎯</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 6</div>
+        <div class="phrase-word">"Let's call this what it actually is…"</div>
+        <span class="phrase-tag">Direct Reframe (Critical Register)</span>
+        <p class="phrase-def">The opposite move — a critic or journalist stripping away the soft corporate phrasing and naming the situation in plain terms.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Let's call this what it actually is — a company posting record profits while cutting hundreds of jobs."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-langfocus-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#78350f,#b45309)">❓</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 7</div>
+        <div class="phrase-word">"Who, exactly, made this call?"</div>
+        <span class="phrase-tag">Accountability Question</span>
+        <p class="phrase-def">Pushes back directly against vague, passive phrasing by demanding a name and a reason — the question corporate language is usually designed to dodge.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"Who, exactly, made this call, and why weren't the people affected told before the press release went out?"</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-langfocus-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e293b,#334155)">🔍</div>
+      <div class="phrase-body">
+        <div class="phrase-num">0 8</div>
+        <div class="phrase-word">"Read between the lines…"</div>
+        <span class="phrase-tag">Decoding Cue</span>
+        <p class="phrase-def">Signals that the literal wording of a statement isn't the whole story — and invites the listener to work out what's really being said.</p>
+        <div class="phrase-example-label">Example</div>
+        <p class="phrase-example">"If you read between the lines of that statement, what they're really saying is that more cuts are coming."</p>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-langfocus-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <!-- GRAMMAR NOTE -->
+    <div class="grammar-note">
+      <h3>💡 Language Focus — Passive Voice & the Language of Corporate Distance</h3>
+      <p>When companies have difficult news to share — job cuts, cancelled projects, price hikes — they often reach for language that spreads responsibility thin, or removes it completely. Passive voice, vague nouns, and forward-looking pivots all do the same job: they let an announcement sound calm and official, without anyone having to say "we did this, and here's why."</p>
+
+      <div class="grammar-3col">
+        <div class="grammar-col">
+          <h4>Active voice</h4>
+          <div class="grammar-row">Form: <code>subject + verb + object</code></div>
+          <div class="grammar-row">Signal: names who did what</div>
+          <div class="grammar-row"><code>"The company laid off 200 people."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Direct and clear — assigns responsibility plainly, which is exactly why it's rare in official statements about bad news.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>Passive voice</h4>
+          <div class="grammar-row">Form: <code>object + be + past participle (+ by…)</code></div>
+          <div class="grammar-row">Signal: softens or removes the actor</div>
+          <div class="grammar-row"><code>"200 roles were eliminated."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">Standard in official announcements — sounds neutral and procedural, and quietly drops the question of who decided.</div>
+        </div>
+        <div class="grammar-col">
+          <h4>Nominalization</h4>
+          <div class="grammar-row">Form: <code>turning a verb into an abstract noun</code></div>
+          <div class="grammar-row">Signal: maximum distance from the action</div>
+          <div class="grammar-row"><code>"A workforce reduction was announced."</code></div>
+          <div class="grammar-row" style="margin-top:8px;color:var(--muted);font-size:12px;">The action becomes a "thing" that simply occurred — with no clear actor and, often, no clear scale either.</div>
+        </div>
+      </div>
+
+      <div class="grammar-examples">
+        <h4>Same news, increasing distance — watch what disappears at each step</h4>
+        <div class="grammar-example-list">
+          <div class="grammar-example-item"><em>"The company laid off 200 employees this week."</em> <span>→ active — names the actor and the action plainly</span></div>
+          <div class="grammar-example-item"><em>"200 employees were laid off this week."</em> <span>→ passive — the actor disappears, but the action is still named</span></div>
+          <div class="grammar-example-item"><em>"It was announced this week that 200 positions would be eliminated."</em> <span>→ passive + impersonal subject — adds another layer ("announced" by whom?)</span></div>
+          <div class="grammar-example-item"><em>"This week's announcement confirmed a workforce reduction affecting approximately 200 roles."</em> <span>→ full nominalization — "layoffs" becomes an abstract "reduction," and the announcement itself becomes the subject</span></div>
+        </div>
+      </div>
+
+      <div class="grammar-warn">
+        ⚠️ <strong>Overusing passive and impersonal language doesn't just sound formal — it can sound evasive.</strong> When every sentence hides who did what, readers and critics tend to notice, and the gap between what's said and what's clearly meant becomes the story itself.
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('vocabulary')">← Vocabulary</button>
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">In Use →</button>
+    </div>
+  </section>
+
+  <!-- ── IN USE ── -->
+  <section class="section" id="tab-inuse">
+    <div class="section-title">In Use</div>
+    <div class="section-sub">See how the same industry vocabulary sounds in a casual group chat, an industry podcast, and a piece of business journalism</div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-social">Group Chat</span><span class="stream-title">Friends texting about gaming news</span></div>
+      <p class="stream-text">
+        "ok so apparently the studio that made that game just announced ANOTHER round of <span class="hl">layoffs</span>?? like the game did so well too, i don't get it. feels like every month it's a different studio getting hit. also did you see the new <span class="hl">monetization</span> in that other game? it's so aggressive now, i genuinely can't open a menu without something trying to sell me a bundle. honestly i think we're hitting real <span class="hl">franchise</span> fatigue at this point, like how many remasters do we actually need lol"
+      </p>
+      <div class="inaction-note">Notice how casually these huge industry topics get dropped into ordinary chat — "ANOTHER round of layoffs," "franchise fatigue" — without any explanation. In informal speech, people often assume the listener already shares the background knowledge, so the vocabulary itself does double duty as both information and shorthand for a shared frustration.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-inuse-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#134e4a,#0f766e)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0-11a3 3 0 003-3V5a3 3 0 00-6 0v3a3 3 0 003 3z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-panel">Panel Discussion</span><span class="stream-title">Podcast — "Who Actually Owns Gaming Now?"</span></div>
+      <p class="stream-text">
+        "What's interesting about this latest wave of <span class="hl">consolidation</span> is that it's reshaping how games even get made. When three or four publishers control most of the big franchises, you start to see a much narrower range of <span class="hl">live-service</span> titles getting greenlit, because that's where the predictable, long-term revenue is. The risk, of course, is that the kind of <span class="hl">crunch</span> culture we've criticized for years just gets baked even deeper into the system, because now there's even more pressure to hit quarterly numbers."
+      </p>
+      <div class="inaction-note">This speaker links three big ideas — consolidation, live-service models, and crunch — into a single chain of cause and effect. That's a very C1-C2 move: rather than listing problems, they're explaining how one industry trend quietly produces another.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-inuse-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#78350f,#b45309)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10l6 6v8a2 2 0 01-2 2z"/><path d="M9 13h6m-6 4h6m-6-8h2"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-academic">Trade Press</span><span class="stream-title">"Inside the Early Access Gamble" — industry news feature</span></div>
+      <p class="stream-text">
+        "The studio's decision to launch its flagship title in <span class="hl">early access</span> has drawn a mixed response from critics and players alike. While some have praised the transparency of an iterative development process shaped by community feedback, others argue that the move simply shifts the burden of testing — and the cost of <span class="hl">crunch</span> — onto the people least equipped to absorb it. The <span class="hl">backlash</span> following last month's price announcement suggests that audiences are growing increasingly skeptical of how the industry frames these decisions."
+      </p>
+      <div class="inaction-note">Notice the more formal, even-handed tone here — "has drawn a mixed response," "others argue" — typical of trade journalism that wants to sound balanced while still raising a pointed criticism. Compare this measured framing with the directness of the group chat above.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-industry-inuse-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">← Language Focus</button>
+      <button class="lesson-nav-btn" onclick="goToTab('register')">Register & Stance →</button>
+    </div>
+  </section>
+
+  <!-- ── REGISTER & STANCE ── -->
+  <section class="section" id="tab-register">
+    <div class="section-title">Register & Stance</div>
+    <div class="section-sub">How the same piece of industry news gets reframed — from maximum distance to zero distance — depending on who's speaking and why</div>
+
+    <div class="register-table">
+      <table>
+        <thead><tr><th>Context</th><th>Distance Level</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>Corporate press release</strong><br><span style="font-size:12px;color:var(--muted)">Official company statement</span></td>
+            <td><span class="register-tag tag-high">High — maximal distance</span></td>
+            <td><em>"It was decided that a number of roles would be impacted as part of a broader organizational realignment."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Industry analyst report</strong><br><span style="font-size:12px;color:var(--muted)">Formal written analysis</span></td>
+            <td><span class="register-tag tag-high">High — measured</span></td>
+            <td><em>"The reduction in headcount reflects a wider trend toward consolidation across the sector."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Trade journalism</strong><br><span style="font-size:12px;color:var(--muted)">Neutral, accessible</span></td>
+            <td><span class="register-tag tag-med">Moderate — balanced</span></td>
+            <td><em>"The studio confirmed plans to cut roughly 200 positions, citing the need to 'streamline operations.'"</em></td>
+          </tr>
+          <tr>
+            <td><strong>Podcast commentary</strong><br><span style="font-size:12px;color:var(--muted)">Semi-formal, discursive</span></td>
+            <td><span class="register-tag tag-low">Low — direct but careful</span></td>
+            <td><em>"They're basically laying people off right after a record quarter — and calling it a 'realignment.'"</em></td>
+          </tr>
+          <tr>
+            <td><strong>Social media / public debate</strong><br><span style="font-size:12px;color:var(--muted)">Informal, direct</span></td>
+            <td><span class="register-tag tag-none">Minimal / None — blunt</span></td>
+            <td><em>"Another studio just fired 200 people the same week they bragged about record profits."</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tip-list">
+      <div class="tip green"><span class="tip-icon">✅</span><span>Distance isn't dishonesty by default. A press release that says "roles were affected" instead of naming individuals isn't necessarily hiding anything — it's following a convention. The skill is learning to read past the convention to what's actually being said.</span></div>
+      <div class="tip blue"><span class="tip-icon">💡</span><span>Notice how the same fact — people lost their jobs — gets reframed at every step: "impacted," "reduction in headcount," "cut positions," "laying people off," "fired." Each version signals something about who's speaking and how they want you to feel about it.</span></div>
+      <div class="tip amber"><span class="tip-icon">⚠️</span><span>Watch for stacked distancing devices in the same sentence — passive voice <em>plus</em> nominalization <em>plus</em> vague quantifiers ("certain changes were made to certain roles affecting a number of people"). When distance piles up like that, audiences often read it as evasive rather than professional.</span></div>
+      <div class="tip red"><span class="tip-icon">❌</span><span>Don't assume "formal" always means "passive" or "vague." A formal analyst report can be direct and specific ("Publisher X cut 12% of its workforce") — formality is about register and precision, not about hiding the subject of the sentence.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">← In Use</button>
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">Forum Corner →</button>
+    </div>
+  </section>
+
+  <!-- ── CRITICAL READING ── -->
+  <section class="section" id="tab-reading">
+    <div class="section-title">Forum Corner</div>
+    <div class="section-sub">Read a forum post and click words from the bank to fill in the gaps</div>
+
+    <div class="word-bank">
+      <div class="word-bank-label">Word bank</div>
+      <div class="bank-chips" id="blogBankChips">
+        <div class="chip" data-phrase="franchise" onclick="selectChip(this)">franchise</div>
+        <div class="chip" data-phrase="monetize" onclick="selectChip(this)">monetize</div>
+        <div class="chip" data-phrase="live-service" onclick="selectChip(this)">live-service</div>
+        <div class="chip" data-phrase="crunch" onclick="selectChip(this)">crunch</div>
+        <div class="chip" data-phrase="layoffs" onclick="selectChip(this)">layoffs</div>
+        <div class="chip" data-phrase="consolidation" onclick="selectChip(this)">consolidation</div>
+        <div class="chip" data-phrase="backlash" onclick="selectChip(this)">backlash</div>
+        <div class="chip" data-phrase="early access" onclick="selectChip(this)">early access</div>
+      </div>
+    </div>
+
+    <div class="reading-card">
+      <div class="reading-title">Why I Stopped Pre-Ordering Anything From Big Studios</div>
+      <div class="reading-byline">— posted to r/GamingDiscourse by someone who's been burned one too many times — fill in the blanks with words from the bank above, then check your answers</div>
+      <div class="reading-body">
+        <p>I used to pre-order everything from the big studios — the new <span class="fill-slot" id="fs6" data-answer="franchise" onclick="placeOrClear('fs6')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb6"></span> entry, day one, no questions asked. But somewhere along the way I started noticing the same pattern over and over: a game ships, and within weeks it's been redesigned around new ways to <span class="fill-slot" id="fs7" data-answer="monetize" onclick="placeOrClear('fs7')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb7"></span> every little thing, like the actual game was just the delivery system for the store.</p>
+
+        <p>Then there's the <span class="fill-slot" id="fs8" data-answer="live-service" onclick="placeOrClear('fs8')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb8"></span> problem. Studios promise these games will keep getting content "for years," which sounds great until you realize what it actually means: the team behind it is now stuck in permanent <span class="fill-slot" id="fs9" data-answer="crunch" onclick="placeOrClear('fs9')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb9"></span>, pushing out updates on a schedule that never really ends. And every few months you read about another round of <span class="fill-slot" id="fs10" data-answer="layoffs" onclick="placeOrClear('fs10')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb10"></span> at the very same company that just told investors everything was going great.</p>
+
+        <p>Honestly, I think a lot of this comes down to <span class="fill-slot" id="fs11" data-answer="consolidation" onclick="placeOrClear('fs11')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb11"></span> — when a handful of publishers own most of the franchises you grew up with, there's less reason for any of them to actually listen once the <span class="fill-slot" id="fs12" data-answer="backlash" onclick="placeOrClear('fs12')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb12"></span> starts. These days, if I buy anything at all, it's something small and independent in <span class="fill-slot" id="fs13" data-answer="early access" onclick="placeOrClear('fs13')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb13"></span>, where I can actually see what I'm paying for before the marketing machine kicks in.</p>
+      </div>
+    </div>
+
+    <button class="check-btn" onclick="checkBlogFill()">Check answers</button>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('register')">← Register & Stance</button>
+      <button class="lesson-nav-btn" onclick="goToTab('analysis')">Analysis Tasks →</button>
+    </div>
+  </section>
+
+  <!-- ── ANALYSIS TASKS ── -->
+  <section class="section" id="tab-analysis">
+    <div class="section-title">Analysis Tasks</div>
+    <div class="section-sub">Identify, rewrite, and evaluate — three analytical exercises</div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 1</div>
+      <h3>Match the Term to Its Definition</h3>
+      <p class="ex-desc">Click a term on the left, then find the definition on the right that matches it.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Industry terms</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">crunch</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">consolidation</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">backlash</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">layoffs</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">live-service</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">monetization</div>
+        </div>
+        <div>
+          <div class="match-col-label">Definitions</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">The dismissal of a number of employees, often for business or financial reasons</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">An intense, extended period of overtime work used to meet a release deadline</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">The practice of turning a product or its features into ongoing sources of income</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">The process by which fewer, larger companies come to control most of an industry</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">A game model designed to keep generating new content — and revenue — long after release</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">A strong collective reaction of anger or criticism against a decision or product</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 2</div>
+      <h3>Shift the Register</h3>
+      <p class="ex-desc">Each sentence below is something you might say to a friend. Pick a more neutral, professional phrase from the bank, then click the blank to turn it into something you'd read in a news report.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Neutral-register bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="announced a significant round of layoffs" onclick="selectChip(this)">announced a significant round of layoffs</div>
+          <div class="chip" data-phrase="was released in an unfinished state" onclick="selectChip(this)">was released in an unfinished state</div>
+          <div class="chip" data-phrase="drew criticism for its aggressive monetization" onclick="selectChip(this)">drew criticism for its aggressive monetization</div>
+          <div class="chip" data-phrase="reflects a wider trend of industry consolidation" onclick="selectChip(this)">reflects a wider trend of industry consolidation</div>
+          <div class="chip" data-phrase="is going through an intense crunch period" onclick="selectChip(this)">is going through an intense crunch period</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Casual version:</strong> "Yeah, the studio just fired like 300 people out of nowhere."</div>
+        <div class="fill-rewrite">
+          The studio
+          <span class="fill-slot" id="fs1" data-answer="announced a significant round of layoffs" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+          last week, citing restructuring.
+          <span class="fill-feedback" id="fb1"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Casual version:</strong> "Bro that game was so broken at launch, it was basically not done."</div>
+        <div class="fill-rewrite">
+          The game
+          <span class="fill-slot" id="fs2" data-answer="was released in an unfinished state" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+          , according to many early reviews.
+          <span class="fill-feedback" id="fb2"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Casual version:</strong> "Everyone's mad because the game is just trying to nickel-and-dime you for everything."</div>
+        <div class="fill-rewrite">
+          The title
+          <span class="fill-slot" id="fs3" data-answer="drew criticism for its aggressive monetization" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+          shortly after release.
+          <span class="fill-feedback" id="fb3"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Casual version:</strong> "It feels like the same five companies own basically everything now."</div>
+        <div class="fill-rewrite">
+          This
+          <span class="fill-slot" id="fs4" data-answer="reflects a wider trend of industry consolidation" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+          that analysts have tracked for years.
+          <span class="fill-feedback" id="fb4"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Casual version:</strong> "The dev team has basically been living at the office trying to ship this thing."</div>
+        <div class="fill-rewrite">
+          Sources say the studio
+          <span class="fill-slot" id="fs5" data-answer="is going through an intense crunch period" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+          ahead of launch.
+          <span class="fill-feedback" id="fb5"></span>
+        </div>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Rewrites</button>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 3</div>
+      <h3>Spot the Issue</h3>
+      <p class="ex-desc">Is the phrasing in each statement appropriate, or does it cross the line into evasive corporate-speak? Consider clarity, accountability, and how a reasonable reader would react.</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"Mistakes were made, and we are committed to doing better going forward."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(1,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"The studio confirmed that approximately 200 positions would be eliminated as part of a broader restructuring plan."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(2,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"It has come to our attention that certain decisions may have impacted certain individuals in certain ways."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(3,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"Following a review of the studio's release schedule, leadership decided to delay the game by six months."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(4,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"Changes were implemented that resulted in outcomes some may perceive as challenging."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(5,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <div class="disc-card">
+      <h3>🗣 Further Discussion</h3>
+      <div class="disc-item"><div class="disc-num">1</div><span>Crunch culture has been criticized publicly for years, yet it keeps coming back whenever a big release date approaches. Why do you think it persists — and who would actually need to change for it to stop?</span></div>
+      <div class="disc-item"><div class="disc-num">2</div><span>Online backlash can force a studio to reverse a decision within days. Is that kind of fast, collective pressure generally a healthy check on companies — or does it sometimes go further than the situation calls for?</span></div>
+      <div class="disc-item"><div class="disc-num">3</div><span>Early access lets players shape a game before it's finished, but it also means paying for something incomplete. Where do you personally draw the line between "exciting collaboration" and "unfinished product"?</span></div>
+      <div class="disc-item"><div class="disc-num">4</div><span>If you ran a studio that had to lay off part of its team, how would you announce it? What would you want to say plainly, and where — if anywhere — do you think some softening language is genuinely fair to use?</span></div>
+      <div class="disc-item"><div class="disc-num">5</div><span>As fewer companies come to own more of the industry, what do you think gets lost — and is there anything about consolidation that could actually be good for players?</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">← Forum Corner</button>
+      <button class="lesson-nav-btn" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+  </div>
+
+<script>
+  const tabs = ['vocabulary','langfocus','inuse','register','reading','analysis'];
+  const completedTabs = new Set();
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause(); currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
+    }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
+  }
+
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++; document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el; el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = ''; return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+  function checkBlogFill() {
+    [6,7,8,9,10,11,12,13].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  const errorAnswers = { 1:true, 2:false, 3:true, 4:false, 5:true };
+  const errorExplanations = {
+    1: { fix:true,  msg:"Problem: classic evasive passive. 'Mistakes were made' names no one, commits to nothing concrete, and lets the speaker avoid saying who decided what. A more accountable version: <strong>'We made decisions that hurt people, and we're changing how we make them.'</strong>" },
+    2: { fix:false, msg:"Appropriate. The passive here foregrounds the information that matters most — the number of roles and the broader plan — without hiding it behind vague language. It names a specific figure and a specific cause. Clear and well-formed." },
+    3: { fix:true,  msg:"Problem: triple vagueness. 'Certain decisions,' 'certain individuals,' and 'certain ways' stack three impersonal hedges in one sentence, leaving the reader with no real information at all. A clearer version: <strong>'We made staffing decisions that affected around 80 people in our support team.'</strong>" },
+    4: { fix:false, msg:"Appropriate. This sentence is direct and specific — it names who made the decision (leadership), what happened (a delay), and roughly why (a schedule review). Formal doesn't have to mean evasive, and this is a good model of formal-but-clear." },
+    5: { fix:true,  msg:"Problem: maximal distance. 'Changes were implemented' hides the actor and the action, and 'outcomes some may perceive as challenging' goes out of its way to avoid saying what actually happened. Stripped of the padding, it likely just means: <strong>'We made changes that hurt some people, and we know it.'</strong>" },
+  };
+  function checkError(num, userAnswer) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userAnswer && userAnswer !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>

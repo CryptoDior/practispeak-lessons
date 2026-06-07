@@ -18,6 +18,7 @@ import { socialGamingMakingFriends } from './social-gaming-making-friends';
 import { techTalkLagTroubleshooting } from './tech-talk-lag-troubleshooting';
 import { gamingCultureIdentity } from './gaming-culture-identity';
 import { advancedVocabularyEtymologyCollocations } from './advanced-vocabulary-etymology-collocations';
+import { theGamingIndustry } from './the-gaming-industry';
 /**
  * Add new lessons here by importing the lesson file and adding it to this array.
  * The lesson page routing and home page listing are automatic.
@@ -42,6 +43,7 @@ export const lessons: Lesson[] = [
   techTalkLagTroubleshooting,
   gamingCultureIdentity,
   advancedVocabularyEtymologyCollocations,
+  theGamingIndustry,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
