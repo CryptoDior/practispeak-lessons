@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | Esports as a Profession</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #f0f4ff;
+      --white:    #ffffff;
+      --blue:     #4f46e5;
+      --blue-lt:  #eef2ff;
+      --blue-bd:  #c7d2fe;
+      --blue-dk:  #4338ca;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --amber:    #d97706;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); }
+    .nav-back:hover { color: var(--text); }
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero-level { font-size: 11px; background: var(--blue); color: white; border-radius: 10px; padding: 1px 7px; font-weight: 700; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg,#312e81,#4f46e5); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; }
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 18px; font-size: 13px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+    /* Vocab cards */
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 22px; font-weight: 800; line-height: 1.25; margin-bottom: 8px; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-collocations { font-size: 12px; color: var(--muted); margin-bottom: 12px; line-height: 1.5; }
+    .phrase-collocations strong { color: var(--blue-dk); }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+    .listen-col { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+    .audio-player { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn, .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s} .wave span:nth-child(2){height:8px;animation-delay:.1s} .wave span:nth-child(3){height:14px;animation-delay:.2s} .wave span:nth-child(4){height:10px;animation-delay:.05s} .wave span:nth-child(5){height:6px;animation-delay:.15s} .wave span:nth-child(6){height:12px;animation-delay:.25s} .wave span:nth-child(7){height:8px;animation-delay:.1s} .wave span:nth-child(8){height:5px;animation-delay:.2s} .wave span:nth-child(9){height:9px;animation-delay:.05s} .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
+
+    /* Grammar/language note */
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+    .grammar-examples { margin-top: 20px; }
+    .grammar-examples h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 12px; }
+    .grammar-example-list { display: flex; flex-direction: column; gap: 8px; }
+    .grammar-example-item { background: var(--bg); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; }
+    .grammar-example-item em { color: var(--blue-dk); font-style: italic; }
+    .grammar-example-item span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .grammar-warn { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin-top: 16px; line-height: 1.6; }
+
+    /* In Use */
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 28px; }
+    .inaction-img { height: 160px; display: flex; align-items: center; justify-content: center; color: #a5b4fc; }
+    .inaction-img svg { width: 48px; height: 48px; }
+    .stream-platform { display: flex; align-items: center; gap: 10px; padding: 18px 24px 8px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: .06em; text-transform: uppercase; }
+    .badge-academic { background: var(--blue-lt); color: var(--blue-dk); }
+    .badge-panel { background: #f0fdf4; color: #15803d; }
+    .badge-social { background: #fff7ed; color: #c2410c; }
+    .stream-title { font-size: 14px; font-weight: 700; color: var(--text); }
+    .stream-text { padding: 0 24px 16px; font-size: 14px; line-height: 1.9; color: var(--text); }
+    .hl { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .inaction-note { margin: 0 24px 16px; background: var(--bg); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .inaction-audio { padding: 0 24px 24px; }
+
+    /* Register */
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); text-align: left; padding: 12px 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 16px 20px; font-size: 13px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.6; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-table td em { color: var(--blue-dk); }
+    .register-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 20px; letter-spacing: .04em; }
+    .tag-high { background: #ede9fe; color: #5b21b6; }
+    .tag-med { background: var(--blue-lt); color: var(--blue-dk); }
+    .tag-low { background: #fef9c3; color: #854d0e; }
+    .tag-none { background: #fee2e2; color: #991b1b; }
+    .tip-list { display: flex; flex-direction: column; gap: 12px; }
+    .tip { display: flex; gap: 12px; align-items: flex-start; background: var(--white); border-radius: 12px; padding: 14px 18px; box-shadow: var(--shadow); font-size: 13px; line-height: 1.6; }
+    .tip.green { border-left: 4px solid var(--green); }
+    .tip.blue { border-left: 4px solid var(--blue); }
+    .tip.amber { border-left: 4px solid #f59e0b; }
+    .tip.red { border-left: 4px solid var(--red); }
+    .tip-icon { font-size: 16px; flex-shrink: 0; }
+
+    /* Critical Reading */
+    .reading-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 36px 40px; margin-bottom: 28px; }
+    .reading-title { font-size: 20px; font-weight: 800; margin-bottom: 6px; }
+    .reading-byline { font-size: 13px; color: var(--muted); margin-bottom: 28px; font-style: italic; }
+    .reading-body { font-size: 15px; line-height: 1.9; color: var(--text); }
+    .reading-body p { margin-bottom: 20px; }
+    .reading-body p:last-child { margin-bottom: 0; }
+    .reading-body mark { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .analysis-questions { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .analysis-questions h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+    .aq-intro { font-size: 14px; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
+    .aq-item { margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+    .aq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .aq-num { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; background: var(--blue); color: white; border-radius: 50%; font-size: 12px; font-weight: 700; margin-right: 10px; flex-shrink: 0; vertical-align: middle; }
+    .aq-question { font-size: 14px; font-weight: 600; line-height: 1.6; margin-bottom: 8px; }
+    .aq-prompt { font-size: 13px; color: var(--muted); line-height: 1.6; font-style: italic; }
+
+    .lang-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-top: 16px; }
+    .lang-bank h5 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .lang-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .lang-chip { padding: 5px 12px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 12px; font-weight: 500; color: var(--blue-dk); font-style: italic; }
+
+    /* Nav */
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 40px; }
+    .lesson-nav-btn { background: var(--white); border: 1.5px solid var(--border); border-radius: 10px; padding: 10px 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; color: var(--text); transition: border-color .15s, color .15s; }
+    .lesson-nav-btn:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); }
+    .lesson-nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+
+    /* Exercises */
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--blue); margin-bottom: 16px; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .match-col-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; line-height: 1.5; cursor: pointer; margin-bottom: 8px; transition: border-color .15s, background .15s; }
+    .match-item:hover { border-color: var(--blue-bd); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.correct { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .match-item.wrong { border-color: var(--red); background: var(--red-bg); }
+    .word-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; font-style: italic; transition: background .15s; }
+    .chip:hover { background: var(--blue-lt); }
+    .chip.used { opacity: .3; cursor: not-allowed; }
+    .fill-item { margin-bottom: 20px; padding: 16px 20px; background: var(--bg); border-radius: 12px; font-size: 14px; line-height: 1.7; }
+    .fill-item .original { font-size: 13px; color: var(--muted); margin-bottom: 10px; font-style: italic; }
+    .fill-item .original strong { color: var(--text); font-style: normal; }
+    .fill-rewrite { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 180px; height: 34px; border: 1.5px dashed var(--blue-bd); border-radius: 8px; padding: 0 10px; cursor: pointer; font-size: 13px; font-weight: 500; color: var(--blue-dk); background: var(--white); transition: border-color .15s; font-style: italic; }
+    .fill-slot.filled { border-style: solid; border-color: var(--blue); }
+    .fill-slot.correct { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .fill-slot.wrong { border-color: var(--red); background: var(--red-bg); color: #9f1239; }
+    .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; font-weight: 400; }
+    .slot-clear { background: none; border: none; cursor: pointer; font-size: 11px; color: var(--muted); margin-left: 6px; }
+    .fill-feedback { font-size: 14px; font-weight: 700; margin-left: 8px; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong { color: var(--red); }
+    .check-btn { background: var(--blue); color: #fff; border: none; border-radius: 10px; padding: 10px 24px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; margin-top: 8px; transition: background .15s; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .error-item { background: var(--bg); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
+    .error-sentence { font-size: 14px; font-style: italic; margin-bottom: 12px; line-height: 1.7; }
+    .error-btns { display: flex; gap: 10px; margin-bottom: 10px; }
+    .error-btn { padding: 8px 18px; border: 1.5px solid var(--border); border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; background: var(--white); font-family: 'Inter', sans-serif; transition: border-color .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; }
+    .error-btn.wrong-ans  { border-color: var(--red);   background: var(--red-bg);   color: #9f1239; }
+    .error-feedback { display: none; font-size: 13px; padding: 10px 14px; border-radius: 8px; line-height: 1.6; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; border: 1px solid #bbf7d0; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #9f1239; border: 1px solid #fecdd3; }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 16px; font-size: 14px; line-height: 1.6; }
+    .disc-num { width: 28px; height: 28px; background: var(--blue); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-img { display: none; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .grammar-3col { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+      .tab-nav { overflow-x: auto; }
+      .content { padding: 24px 16px 60px; }
+      .reading-card { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <div class="nav-logo-icon">P</div>
+      <span>Practispeak</span>
+    </div>
+    <a class="nav-back" href="/">← All Lessons</a>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <div class="hero-badge"><span class="hero-level">C1–C2</span> Advanced</div>
+      <h1>Esports as a Profession</h1>
+      <p class="hero-sub">Conditionals — real, hypothetical, and formal — and the vocabulary of careers built on a controller</p>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+        <span class="progress-pct" id="progressPct">0%</span>
+      </div>
+    </div>
+    <div class="hero-img">🎮</div>
+  </div>
+
+  <div class="tab-nav-wrap">
+    <div class="tab-nav">
+      <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+      <button class="tab-btn" data-tab="langfocus">Language Focus</button>
+      <button class="tab-btn" data-tab="inuse">In Use</button>
+      <button class="tab-btn" data-tab="register">Register & Stance</button>
+      <button class="tab-btn" data-tab="reading">Forum Corner</button>
+      <button class="tab-btn" data-tab="analysis">Analysis Tasks</button>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <!-- ── VOCABULARY ── -->
+  <section class="section active" id="tab-vocabulary">
+    <div class="section-title">Vocabulary</div>
+    <div class="section-sub">8 words for talking about what it actually takes to build — and survive — a career in competitive gaming</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#422006,#a16207)">💵</div>
+      <div class="phrase-body">
+        <div class="phrase-num">01</div>
+        <div class="phrase-word">lucrative</div>
+        <div class="phrase-tag">adjective · producing a lot of money</div>
+        <div class="phrase-collocations">often paired with: <em>lucrative deal, lucrative career, lucrative sponsorship</em></div>
+        <div class="phrase-def">Describes something that brings in a lot of money — often used about jobs, deals, or opportunities that look appealing mainly because of the income involved. <em>Ex: A handful of streamers turn their channel into a surprisingly lucrative business.</em></div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"Top-tier esports can be genuinely lucrative — but only for the small fraction of players who ever make it that far."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7f1d1d,#b91c1c)">🪫</div>
+      <div class="phrase-body">
+        <div class="phrase-num">02</div>
+        <div class="phrase-word">burnout</div>
+        <div class="phrase-tag">noun · complete exhaustion from prolonged stress</div>
+        <div class="phrase-collocations">often paired with: <em>hit burnout, suffer from burnout, recover from burnout</em></div>
+        <div class="phrase-def">A state of total physical and mental exhaustion that builds up slowly after a long period of pressure or overwork — to the point where you can barely function, let alone perform. <em>Ex: After months of back-to-back tournaments, burnout finally caught up with him.</em></div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"After three years of ten-hour scrim days, she said the burnout crept up on her so slowly she didn't notice it until she couldn't get out of bed."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e3a5f,#1d4ed8)">⏳</div>
+      <div class="phrase-body">
+        <div class="phrase-num">03</div>
+        <div class="phrase-word">longevity</div>
+        <div class="phrase-tag">noun · the ability to last a long time</div>
+        <div class="phrase-collocations">often paired with: <em>career longevity, longevity in the scene, focus on longevity</em></div>
+        <div class="phrase-def">How long something — especially a career — manages to last, especially when that's seen as difficult or unusual to achieve. <em>Ex: Few players talk about longevity, because so few of them get to experience it.</em></div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"Coaches talk a lot about mechanical skill, but almost nobody talks about longevity — how to still be playing, and enjoying it, five years from now."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#0d9488)">🎓</div>
+      <div class="phrase-body">
+        <div class="phrase-num">04</div>
+        <div class="phrase-word">scholarship</div>
+        <div class="phrase-tag">noun · funding awarded based on merit</div>
+        <div class="phrase-collocations">often paired with: <em>full scholarship, turn down a scholarship, esports scholarship program</em></div>
+        <div class="phrase-def">Money given to someone — often by a university — to help pay for their education, usually awarded because of their academic record, talent, or (increasingly) their gaming skill. <em>Ex: More universities now offer scholarships specifically for competitive gamers.</em></div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"She turned down a full scholarship to chase a roster spot, and to this day she still isn't sure she made the right call."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-04.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)">🤝</div>
+      <div class="phrase-body">
+        <div class="phrase-num">05</div>
+        <div class="phrase-word">sponsorship</div>
+        <div class="phrase-tag">noun · financial support in exchange for promotion</div>
+        <div class="phrase-collocations">often paired with: <em>landed a sponsorship, sponsorship deal, lose a sponsorship</em></div>
+        <div class="phrase-def">An arrangement where a company provides money or products to a player or team, usually in return for the player promoting that brand to their audience. <em>Ex: The team's jerseys are covered in logos from their sponsorship deals.</em></div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"The team's entire travel budget depends on a single sponsorship deal that's up for renewal next month."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-05.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#451a03,#c2410c)">🐶</div>
+      <div class="phrase-body">
+        <div class="phrase-num">06</div>
+        <div class="phrase-word">underdog</div>
+        <div class="phrase-tag">noun · a competitor expected to lose</div>
+        <div class="phrase-collocations">often paired with: <em>the underdog story, root for the underdog, come from behind as an underdog</em></div>
+        <div class="phrase-def">A person or team that almost everyone expects to lose, usually because they're less experienced, less funded, or simply less well-known than the competition. <em>Ex: The whole arena was rooting for the underdog by the final round.</em></div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"Nobody expected the underdog squad to even make it out of groups, let alone walk away with the trophy."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-06.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e293b,#475569)">📋</div>
+      <div class="phrase-body">
+        <div class="phrase-num">07</div>
+        <div class="phrase-word">roster</div>
+        <div class="phrase-tag">noun · the official list of team members</div>
+        <div class="phrase-collocations">often paired with: <em>roster change, starting roster, make the roster</em></div>
+        <div class="phrase-def">The official list of players who make up a team at a given time — who's in, who's out, and who's actually allowed to compete. <em>Ex: The org confirmed its starting roster just hours before the opening match.</em></div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"The org announced a complete roster overhaul this morning, and three players found out about it on social media before anyone called them directly."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-07.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#6366f1)">🌊</div>
+      <div class="phrase-body">
+        <div class="phrase-num">08</div>
+        <div class="phrase-word">washed-up</div>
+        <div class="phrase-tag">adjective · informal · no longer successful, past one's prime</div>
+        <div class="phrase-collocations">often paired with: <em>called washed-up, feel washed-up, written off as washed-up</em></div>
+        <div class="phrase-def">An informal — and often unkind — way of describing someone who used to be successful but is now seen as finished, especially when that label gets handed out far too early. <em>Ex: It feels brutal to call someone "washed-up" before they've even turned twenty-five.</em></div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"Fans can be brutal — one bad season and suddenly people are calling a twenty-three-year-old 'washed-up.'"</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-08.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" disabled>← Previous</button>
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">Language Focus →</button>
+    </div>
+  </section>
+
+  <!-- ── LANGUAGE FOCUS ── -->
+  <section class="section" id="tab-langfocus">
+    <div class="section-title">Language Focus</div>
+    <div class="section-sub">8 conditional patterns for talking about real possibilities, hypotheticals, regrets, and the formal register that drops "if" altogether</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0c4a6e,#0369a1)">📐</div>
+      <div class="phrase-body">
+        <div class="phrase-num">01</div>
+        <div class="phrase-word">"If + present, + present"</div>
+        <div class="phrase-tag">Zero Conditional — General Truths</div>
+        <div class="phrase-def">Used for things that are generally or always true — cause and effect that doesn't depend on any particular situation. Both halves stay in the present tense, and "if" can usually be swapped for "when" without changing the meaning.</div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"If a player loses focus mid-match, the whole team usually pays for it."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-langfocus-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#365314,#4d7c0f)">🎯</div>
+      <div class="phrase-body">
+        <div class="phrase-num">02</div>
+        <div class="phrase-word">"If + present, will + base verb"</div>
+        <div class="phrase-tag">First Conditional — Real Future Possibility</div>
+        <div class="phrase-def">Used for things that are genuinely likely to happen — a real condition with a real, specific result in the future. This is the conditional you reach for when you're talking about something that could very plausibly occur, not just imagining it.</div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"If she signs with that organization, she'll be relocating to Seoul by spring."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-langfocus-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#581c87,#9333ea)">🌀</div>
+      <div class="phrase-body">
+        <div class="phrase-num">03</div>
+        <div class="phrase-word">"If + past simple, would + base verb"</div>
+        <div class="phrase-tag">Second Conditional — Present Hypothetical</div>
+        <div class="phrase-def">Used for situations that are unreal, unlikely, or purely imagined right now — not because they happened in the past, but because they aren't true in the present. Often used to give advice, share an opinion, or imagine a different version of the present. Note the formal "were" instead of "was."</div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"If I were coaching this team, I'd spend less time drilling mechanics and more time teaching them how to actually talk to each other."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-langfocus-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7c2d12,#c2410c)">⏪</div>
+      <div class="phrase-body">
+        <div class="phrase-num">04</div>
+        <div class="phrase-word">"If + past perfect, would have + past participle"</div>
+        <div class="phrase-tag">Third Conditional — Past Hypothetical / Regret</div>
+        <div class="phrase-def">Used to imagine a different past — something that didn't happen, and can't be changed now. Often carries a sense of regret, relief, or reflection, and pairs naturally with softer modals like "might have" or "could have" when the speaker wants to sound less certain.</div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"If he hadn't dropped out at seventeen, he might never have ended up on a pro roster at all."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-langfocus-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#0f766e)">🔗</div>
+      <div class="phrase-body">
+        <div class="phrase-num">05</div>
+        <div class="phrase-word">"If + past perfect, would + base verb"</div>
+        <div class="phrase-tag">Mixed Conditional — Past Cause, Present Result</div>
+        <div class="phrase-def">Used to connect something that didn't happen (or did happen) in the past to a real situation in the present — perfect for life stories, profiles, and reflections, where someone's past choices are still shaping who they are right now.</div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"If she hadn't put in those years of unglamorous practice, she wouldn't be standing on that stage tonight."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-langfocus-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e293b,#334155)">🎩</div>
+      <div class="phrase-body">
+        <div class="phrase-num">06</div>
+        <div class="phrase-word">"Were ... to / Should ... / Had ..."</div>
+        <div class="phrase-tag">Inverted Conditional — Formal Register</div>
+        <div class="phrase-def">A more formal way of building a conditional that drops "if" entirely and inverts the subject and verb instead. Common in writing, official statements, news reports, and high-stakes spoken contexts — it instantly makes a sentence sound more serious and considered.</div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"Were the sponsorship deal to fall through, the entire roster's future would suddenly be in question."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-langfocus-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7f1d1d,#b91c1c)">🚫</div>
+      <div class="phrase-body">
+        <div class="phrase-num">07</div>
+        <div class="phrase-word">"Unless ..."</div>
+        <div class="phrase-tag">Negative Conditional</div>
+        <div class="phrase-def">A way of saying "if ... not," usually to highlight the one thing that needs to happen to avoid an outcome. It tends to sound a little more urgent or dramatic than a plain negative "if" sentence — useful for warnings, predictions, and rallying calls.</div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"Unless something changes soon, half this roster will be looking for new teams by the end of the season."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-langfocus-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)">✅</div>
+      <div class="phrase-body">
+        <div class="phrase-num">08</div>
+        <div class="phrase-word">"Provided that / As long as ..."</div>
+        <div class="phrase-tag">Conditional of Assurance</div>
+        <div class="phrase-def">Used to set out a clear condition that, once it's met, more or less guarantees a result. It sounds a notch more formal and confident than a plain "if," which is why it shows up so often in contracts, agreements, and reassurances.</div>
+        <div class="phrase-example-label">Example</div>
+        <div class="phrase-example">"Provided that the team keeps performing at this level, the contract will almost certainly be renewed."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/esports-profession-langfocus-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="grammar-note">
+      <h3>💡 Language Focus — Conditionals: Real, Hypothetical, and Formal</h3>
+      <p>English conditionals aren't really one structure — they're a whole family of them, and the differences matter. Some describe things that are likely to happen. Others imagine situations that never will. And some exist mainly to make a sentence sound more careful, more serious, or more official. Here's a closer look at three patterns that come up constantly when people talk about careers, choices, and "what if."</p>
+      <div class="grammar-3col">
+        <div class="grammar-col">
+          <h4>Hypothetical / Unreal</h4>
+          <p><strong>Form:</strong> If + past simple, would + base verb</p>
+          <p><strong>Signal:</strong> present or future situations that aren't true</p>
+          <p><code>If I were him, I'd take the offer.</code></p>
+          <p class="g-muted">Use "were" (not "was") for "I/he/she/it" in careful or formal speech — it's a small detail that signals real fluency.</p>
+        </div>
+        <div class="grammar-col">
+          <h4>Past Regret</h4>
+          <p><strong>Form:</strong> If + past perfect, would have + past participle</p>
+          <p><strong>Signal:</strong> things that didn't happen and can't be undone</p>
+          <p><code>If they'd trained harder, they might have qualified.</code></p>
+          <p class="g-muted">Swapping in "might have" or "could have" softens the claim — useful when you're speculating rather than stating something with certainty.</p>
+        </div>
+        <div class="grammar-col">
+          <h4>Formal / Inverted</h4>
+          <p><strong>Form:</strong> Were / Had / Should + subject ...</p>
+          <p><strong>Signal:</strong> writing, official statements, high-stakes speech</p>
+          <p><code>Should the deal collapse, we'll need a backup plan.</code></p>
+          <p class="g-muted">Dropping "if" and inverting the subject and verb is one of the fastest ways to raise the formality of a sentence.</p>
+        </div>
+      </div>
+      <div class="grammar-examples">
+        <h4>Watch the escalation — same topic, four different conditional moods:</h4>
+        <ul class="grammar-example-list">
+          <li>"If you practice every day, you improve." <span class="g-tag">zero — general truth</span></li>
+          <li>"If you get the offer, you'll probably take it." <span class="g-tag">first — real possibility</span></li>
+          <li>"If I were your age, I'd think twice before dropping out for a roster spot." <span class="g-tag">second — hypothetical advice</span></li>
+          <li>"If you'd asked me five years ago whether any of this would be a real career, I'd have said you were dreaming — and I'd have been completely wrong." <span class="g-tag">mixed/third — reflecting on the present</span></li>
+        </ul>
+      </div>
+      <div class="grammar-warn">
+        <strong>Watch the mismatch:</strong> "If I would have known, I would have trained harder" sounds completely natural in casual speech — but in writing or formal contexts, the expected form is <strong>"If I had known, I would have trained harder."</strong> Doubling "would" in the if-clause is one of the most common conditional slips, even among advanced speakers — worth listening for in your own speech.
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('vocabulary')">← Vocabulary</button>
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">In Use →</button>
+    </div>
+  </section>
+
+  <!-- ── IN USE ── -->
+  <section class="section" id="tab-inuse">
+    <div class="section-title">In Use</div>
+    <div class="section-sub">The same conditionals and career vocabulary, in three very different registers</div>
+
+    <div class="stream-card">
+      <div class="stream-head"><span class="badge badge-academic">Sports psychology piece</span></div>
+      <p class="stream-text">If a young athlete <span class="hl">trains</span> intensively for ten years, their body eventually shows it — and the same pattern holds for competitive gaming. <span class="hl">If players continue treating</span> ten-hour scrim days as the baseline, <span class="hl">burnout</span> will keep cutting careers short well before they need to end. The <span class="hl">longevity</span> question isn't really about talent. It's about whether anyone in the organization is paying attention to a person, and not just to a roster spot.</p>
+      <div class="inaction-note">Notice the zero conditional ("if players continue ... burnout will keep cutting") used to state what the writer treats as a general, ongoing pattern — not a one-off prediction.</div>
+      <button class="audio-player inaction-audio" onclick="playAudio(this,'audio/esports-profession-inuse-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to full passage</button>
+    </div>
+
+    <div class="stream-card">
+      <div class="stream-head"><span class="badge badge-panel">Roundtable — "Going Pro vs. Going to College"</span></div>
+      <p class="stream-text">Honestly, <span class="hl">if I'd been offered</span> a full <span class="hl">scholarship</span> at eighteen, I don't know if I'd have turned it down the way she did — and I think that's exactly the conversation we don't have enough. If you make it, sure, the <span class="hl">sponsorship</span> money can be <span class="hl">lucrative</span>. But <span class="hl">were that one offer to fall through</span>, or were one bad year to happen at the wrong moment, you're suddenly twenty-two with no roster, no degree, and a resume that says "professional <span class="hl">underdog</span>" and not much else.</p>
+      <div class="inaction-note">Notice how the speaker shifts from a third-conditional reflection on their own past ("if I'd been offered") into a formal inverted conditional ("were that one offer to fall through") — raising the seriousness right as the stakes in the sentence increase.</div>
+      <button class="audio-player inaction-audio" onclick="playAudio(this,'audio/esports-profession-inuse-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to full passage</button>
+    </div>
+
+    <div class="stream-card">
+      <div class="stream-head"><span class="badge badge-social">Thread — A Former Pro Looks Back</span></div>
+      <p class="stream-text">people keep asking if i regret leaving the team and tbh? <span class="hl">if you'd told</span> seventeen-year-old me i'd be '<span class="hl">washed-up</span>' by twenty-three i would have laughed in your face. but here we are. <span class="hl">unless something actually changes</span> about how these orgs treat players, this is just going to keep happening to the next kid, and the kid after that.</p>
+      <div class="inaction-note">Notice how the same third-conditional structure ("if you'd told ... I would have laughed") lands completely differently here than in the panel discussion above — lowercase, no punctuation polish, but emotionally direct in a way the formal register can't quite manage.</div>
+      <button class="audio-player inaction-audio" onclick="playAudio(this,'audio/esports-profession-inuse-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to full passage</button>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">← Language Focus</button>
+      <button class="lesson-nav-btn" onclick="goToTab('register')">Register & Stance →</button>
+    </div>
+  </section>
+
+  <!-- ── REGISTER & STANCE ── -->
+  <section class="section" id="tab-register">
+    <div class="section-title">Register & Stance</div>
+    <div class="section-sub">Conditionals can sound careful and official, or loose and conversational — the structure you choose shifts the whole register</div>
+
+    <table class="register-table">
+      <tr><th>Context</th><th>Typical conditional move</th><th>Formality</th></tr>
+      <tr>
+        <td>Academic sports-psych paper</td>
+        <td>"Were performance anxiety left unaddressed, retention rates would likely decline further."</td>
+        <td><span class="register-tag tag-high">Inverted / Formal</span></td>
+      </tr>
+      <tr>
+        <td>Org press statement</td>
+        <td>"Should the partnership be renewed, the roster will remain unchanged through next season."</td>
+        <td><span class="register-tag tag-high">Inverted / Formal</span></td>
+      </tr>
+      <tr>
+        <td>Trade journalism / esports news</td>
+        <td>"If the rumors are accurate, this could be the biggest roster shake-up of the year."</td>
+        <td><span class="register-tag tag-med">Standard "If"</span></td>
+      </tr>
+      <tr>
+        <td>Podcast / panel discussion</td>
+        <td>"If I'm honest, I think half these guys will be burned out by twenty-five."</td>
+        <td><span class="register-tag tag-low">Conversational</span></td>
+      </tr>
+      <tr>
+        <td>Social media / fan chat</td>
+        <td>"if they don't win this one i'm done watching forever lol"</td>
+        <td><span class="register-tag tag-none">Informal / Unpunctuated</span></td>
+      </tr>
+    </table>
+
+    <div class="tip-list">
+      <div class="tip tip-green"><strong>Reach for inversion when the stakes rise.</strong> "Were X to happen" / "Should Y occur" instantly raises the formality of a sentence — save these for writing or genuinely high-stakes speech, where they land with real weight.</div>
+      <div class="tip tip-blue"><strong>Mixed conditionals connect a person's past to their present.</strong> They're one of the most useful structures for profiles, interviews, and reflections — anywhere you need to show how someone's choices are still shaping who they are now.</div>
+      <div class="tip tip-amber"><strong>"If I would have" is common — but considered nonstandard in writing.</strong> You'll hear it constantly in casual speech. In essays, articles, or anything more formal, "if I had" is the form readers expect.</div>
+      <div class="tip tip-red"><strong>Don't blur zero and first conditionals.</strong> "If a player loses focus, the team loses too" describes a pattern. "If she signs, she'll move to Seoul" predicts one specific event. Mixing them up changes whether you sound like you're describing a rule or guessing at the future.</div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">← In Use</button>
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">Forum Corner →</button>
+    </div>
+  </section>
+
+  <!-- ── FORUM CORNER ── -->
+  <section class="section" id="tab-reading">
+    <div class="section-title">Forum Corner</div>
+    <div class="section-sub">Read the post, then fill in the blanks using the word bank below</div>
+
+    <div class="word-bank">
+      <div class="word-bank-label">Word bank</div>
+      <div class="bank-chips">
+        <div class="chip">lucrative</div>
+        <div class="chip">scholarship</div>
+        <div class="chip">roster</div>
+        <div class="chip">burnout</div>
+        <div class="chip">sponsorship</div>
+        <div class="chip">underdog</div>
+        <div class="chip">longevity</div>
+        <div class="chip">washed-up</div>
+      </div>
+    </div>
+
+    <div class="reading-card">
+      <h3>Why I Walked Away From Pro Play at Twenty-Two</h3>
+      <p class="byline">— posted to r/esportscareers by a former competitive player</p>
+      <p>People assume I quit because I wasn't good enough, or because the money wasn't <span class="fill-slot" id="fs6" data-answer="lucrative" onclick="placeOrClear('fs6')"><span class="slot-placeholder">click to fill</span></span> enough to be worth it. Honestly? It was never about the money. I'd turned down a <span class="fill-slot" id="fs7" data-answer="scholarship" onclick="placeOrClear('fs7')"><span class="slot-placeholder">click to fill</span></span> at eighteen because I was so sure this was going to be my whole life. And for a while, it kind of was.</p>
+      <p>Then the org changed our <span class="fill-slot" id="fs8" data-answer="roster" onclick="placeOrClear('fs8')"><span class="slot-placeholder">click to fill</span></span> twice in one year, and I went from starting every match to barely getting scrim time. Somewhere in there, the <span class="fill-slot" id="fs9" data-answer="burnout" onclick="placeOrClear('fs9')"><span class="slot-placeholder">click to fill</span></span> just... arrived. Not gradually. It felt like waking up one morning and realizing I hadn't actually wanted to log in for months.</p>
+      <p>I keep seeing comments calling guys my age "<span class="fill-slot" id="fs10" data-answer="washed-up" onclick="placeOrClear('fs10')"><span class="slot-placeholder">click to fill</span></span>," like we had some kind of obligation to keep going forever. Nobody warns you that <span class="fill-slot" id="fs11" data-answer="longevity" onclick="placeOrClear('fs11')"><span class="slot-placeholder">click to fill</span></span> in this scene basically isn't a thing — that the "veteran" players are usually twenty-four. I lost a major <span class="fill-slot" id="fs12" data-answer="sponsorship" onclick="placeOrClear('fs12')"><span class="slot-placeholder">click to fill</span></span> the same week I quit, and somehow that was the easiest part to let go of. If you'd told the kid who walked into his first LAN as a total <span class="fill-slot" id="fs13" data-answer="underdog" onclick="placeOrClear('fs13')"><span class="slot-placeholder">click to fill</span></span> that it would end like this, I don't think he would have believed you. I'm not even sure I regret it. I just wish someone had told me what the back half of this would actually look like.</p>
+      <button class="check-btn" onclick="checkBlogFill()">Check Answers</button>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('register')">← Register & Stance</button>
+      <button class="lesson-nav-btn" onclick="goToTab('analysis')">Analysis Tasks →</button>
+    </div>
+  </section>
+
+  <!-- ── ANALYSIS TASKS ── -->
+  <section class="section" id="tab-analysis">
+    <div class="section-title">Analysis Tasks</div>
+    <div class="section-sub">Identify, build, and evaluate — three analytical exercises</div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 1</div>
+      <h3>Match the Term to Its Definition</h3>
+      <p class="ex-desc">Click a term on the left, then find the definition on the right that matches it.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Career terms</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">lucrative</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">burnout</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">longevity</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">scholarship</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">underdog</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">roster</div>
+        </div>
+        <div>
+          <div class="match-col-label">Definitions</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">Money awarded to help pay for education, often based on talent or merit</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">Producing a large amount of money</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">The official list of players who make up a team</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">Total physical and mental exhaustion built up over a long period of stress</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">A competitor that almost everyone expects to lose</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">The ability of something — especially a career — to last a long time</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 2</div>
+      <h3>Build the Conditional</h3>
+      <p class="ex-desc">Each sentence below is missing its conditional connector. Pick the right phrase from the bank, then click the blank to complete the thought.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Conditional bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="If" onclick="selectChip(this)">If</div>
+          <div class="chip" data-phrase="Unless" onclick="selectChip(this)">Unless</div>
+          <div class="chip" data-phrase="Provided that" onclick="selectChip(this)">Provided that</div>
+          <div class="chip" data-phrase="Were the org to" onclick="selectChip(this)">Were the org to</div>
+          <div class="chip" data-phrase="Had she" onclick="selectChip(this)">Had she</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Complete it:</strong> "___ a player keeps grinding without ever resting, the burnout eventually shows up in their results."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs1" data-answer="If" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+          a player keeps grinding without ever resting, the burnout eventually shows up in their results. <span class="g-tag">zero conditional — general truth</span>
+          <span class="fill-feedback" id="fb1"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Complete it:</strong> "___ something changes about how these contracts are written, players will keep losing this fight."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs2" data-answer="Unless" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+          something changes about how these contracts are written, players will keep losing this fight. <span class="g-tag">negative conditional</span>
+          <span class="fill-feedback" id="fb2"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Complete it:</strong> "___ the new sponsor keeps backing the team, the roster will likely stay together through next year."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs3" data-answer="Provided that" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+          the new sponsor keeps backing the team, the roster will likely stay together through next year. <span class="g-tag">conditional of assurance</span>
+          <span class="fill-feedback" id="fb3"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Complete it:</strong> "___ relocate the whole team overseas, at least two players say they'd walk away rather than go."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs4" data-answer="Were the org to" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+          relocate the whole team overseas, at least two players say they'd walk away rather than go. <span class="g-tag">inverted / formal conditional</span>
+          <span class="fill-feedback" id="fb4"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Complete it:</strong> "___ taken that scholarship instead, she might be coaching a college team right now rather than searching for sponsors."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs5" data-answer="Had she" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+          taken that scholarship instead, she might be coaching a college team right now rather than searching for sponsors. <span class="g-tag">inverted third conditional</span>
+          <span class="fill-feedback" id="fb5"></span>
+        </div>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Answers</button>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 3</div>
+      <h3>Spot the Issue</h3>
+      <p class="ex-desc">Is each conditional sentence well-formed, or does something go wrong with the structure, the tense match, or the way it's used? Read carefully — some "issues" are actually intentional style choices.</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"If I would have known how short these careers really are, I would have saved more of my signing bonus."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(1,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"If the team makes playoffs this year, the org will probably extend everyone's contracts."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(2,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"Were the sponsorship to disappear tomorrow, most of this roster would be looking for new teams within the month."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(3,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"If she was a better communicator, the team would have won that series, no question."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(4,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"Unless something changes, unless the org steps in, unless somebody actually says something — this whole roster is finished."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(5,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <div class="disc-card">
+      <h3>🗣 Further Discussion</h3>
+      <div class="disc-item"><div class="disc-num">1</div><span>If you had to choose between a guaranteed scholarship to study something you love and a risky shot at going pro in esports, which would you take — and why?</span></div>
+      <div class="disc-item"><div class="disc-num">2</div><span>Many pro players retire by their mid-twenties. Do you think that's a structural problem with the industry, or just the nature of any high-performance career?</span></div>
+      <div class="disc-item"><div class="disc-num">3</div><span>Sponsorship money has turned esports into a genuinely lucrative path for a small number of players. Does that change how you think about gaming as "just a hobby"?</span></div>
+      <div class="disc-item"><div class="disc-num">4</div><span>If you were designing a support system for young esports athletes, what would you prioritize — and what current gaps would you try to fix first?</span></div>
+      <div class="disc-item"><div class="disc-num">5</div><span>Is it fair to call someone an "underdog" once they've already proven themselves at the highest level? Where do you think that label stops applying?</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">← Forum Corner</button>
+      <button class="lesson-nav-btn" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+  </div>
+
+<script>
+  const tabs = ['vocabulary','langfocus','inuse','register','reading','analysis'];
+  const completedTabs = new Set();
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause(); currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
+    }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
+  }
+
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++; document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el; el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = ''; return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+  function checkBlogFill() {
+    [6,7,8,9,10,11,12,13].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  const errorAnswers = { 1:true, 2:false, 3:false, 4:true, 5:false };
+  const errorExplanations = {
+    1: { fix:true,  msg:"Problem: doubled 'would' in the if-clause. 'If I would have known' is extremely common in casual speech, but the standard form — especially in writing — is <strong>'If I had known, I would have saved more of my signing bonus.'</strong> Keep 'would' in the result clause only." },
+    2: { fix:false, msg:"Appropriate. A clean, well-formed first conditional: a real, plausible future condition ('makes playoffs') paired with a likely result ('will probably extend'). Nothing to fix here." },
+    3: { fix:false, msg:"Appropriate. This is a well-built inverted conditional — 'Were the sponsorship to disappear' sets up the hypothetical formally, and 'would be looking' follows the pattern correctly. A strong model of the formal register in action." },
+    4: { fix:true,  msg:"Problem: tense mismatch between the two halves. 'If she was a better communicator' (present hypothetical) doesn't pair naturally with 'would have won' (past result). Two fixes both work: <strong>'If she were a better communicator, the team would win'</strong> (second conditional, both about now), or <strong>'If she had been a better communicator, the team would have won'</strong> (third conditional, both about the past)." },
+    5: { fix:false, msg:"Appropriate — and not actually an error. Repeating 'unless' three times is a deliberate rhetorical device, not a structural mistake: it builds urgency and emphasis, the way a speech or an impassioned post often does. The structure itself is sound each time it appears." },
+  };
+  function checkError(num, userAnswer) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userAnswer && userAnswer !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>
