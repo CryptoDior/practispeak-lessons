@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | Gaming Ethics & Society</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #f0f4ff;
+      --white:    #ffffff;
+      --blue:     #4f46e5;
+      --blue-lt:  #eef2ff;
+      --blue-bd:  #c7d2fe;
+      --blue-dk:  #4338ca;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --amber:    #d97706;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); }
+    .nav-back:hover { color: var(--text); }
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero-level { font-size: 11px; background: var(--blue); color: white; border-radius: 10px; padding: 1px 7px; font-weight: 700; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg,#312e81,#4f46e5); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; }
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 18px; font-size: 13px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+    /* Vocab cards */
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 22px; font-weight: 800; line-height: 1.25; margin-bottom: 8px; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-collocations { font-size: 12px; color: var(--muted); margin-bottom: 12px; line-height: 1.5; }
+    .phrase-collocations strong { color: var(--blue-dk); }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+    .listen-col { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+    .audio-player { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn, .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s} .wave span:nth-child(2){height:8px;animation-delay:.1s} .wave span:nth-child(3){height:14px;animation-delay:.2s} .wave span:nth-child(4){height:10px;animation-delay:.05s} .wave span:nth-child(5){height:6px;animation-delay:.15s} .wave span:nth-child(6){height:12px;animation-delay:.25s} .wave span:nth-child(7){height:8px;animation-delay:.1s} .wave span:nth-child(8){height:5px;animation-delay:.2s} .wave span:nth-child(9){height:9px;animation-delay:.05s} .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
+
+    /* Grammar/language note */
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+    .grammar-examples { margin-top: 20px; }
+    .grammar-examples h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 12px; }
+    .grammar-example-list { display: flex; flex-direction: column; gap: 8px; }
+    .grammar-example-item { background: var(--bg); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; }
+    .grammar-example-item em { color: var(--blue-dk); font-style: italic; }
+    .grammar-example-item span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .grammar-warn { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin-top: 16px; line-height: 1.6; }
+
+    /* In Use */
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 28px; }
+    .inaction-img { height: 160px; display: flex; align-items: center; justify-content: center; color: #a5b4fc; }
+    .inaction-img svg { width: 48px; height: 48px; }
+    .stream-platform { display: flex; align-items: center; gap: 10px; padding: 18px 24px 8px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: .06em; text-transform: uppercase; }
+    .badge-academic { background: var(--blue-lt); color: var(--blue-dk); }
+    .badge-panel { background: #f0fdf4; color: #15803d; }
+    .badge-social { background: #fff7ed; color: #c2410c; }
+    .stream-title { font-size: 14px; font-weight: 700; color: var(--text); }
+    .stream-text { padding: 0 24px 16px; font-size: 14px; line-height: 1.9; color: var(--text); }
+    .hl { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .inaction-note { margin: 0 24px 16px; background: var(--bg); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .inaction-audio { padding: 0 24px 24px; }
+
+    /* Register */
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); text-align: left; padding: 12px 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 16px 20px; font-size: 13px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.6; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-table td em { color: var(--blue-dk); }
+    .register-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 20px; letter-spacing: .04em; }
+    .tag-high { background: #ede9fe; color: #5b21b6; }
+    .tag-med { background: var(--blue-lt); color: var(--blue-dk); }
+    .tag-low { background: #fef9c3; color: #854d0e; }
+    .tag-none { background: #fee2e2; color: #991b1b; }
+    .tip-list { display: flex; flex-direction: column; gap: 12px; }
+    .tip { display: flex; gap: 12px; align-items: flex-start; background: var(--white); border-radius: 12px; padding: 14px 18px; box-shadow: var(--shadow); font-size: 13px; line-height: 1.6; }
+    .tip.green { border-left: 4px solid var(--green); }
+    .tip.blue { border-left: 4px solid var(--blue); }
+    .tip.amber { border-left: 4px solid #f59e0b; }
+    .tip.red { border-left: 4px solid var(--red); }
+    .tip-icon { font-size: 16px; flex-shrink: 0; }
+
+    /* Critical Reading */
+    .reading-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 36px 40px; margin-bottom: 28px; }
+    .reading-title { font-size: 20px; font-weight: 800; margin-bottom: 6px; }
+    .reading-byline { font-size: 13px; color: var(--muted); margin-bottom: 28px; font-style: italic; }
+    .reading-body { font-size: 15px; line-height: 1.9; color: var(--text); }
+    .reading-body p { margin-bottom: 20px; }
+    .reading-body p:last-child { margin-bottom: 0; }
+    .reading-body mark { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .analysis-questions { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .analysis-questions h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+    .aq-intro { font-size: 14px; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
+    .aq-item { margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+    .aq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .aq-num { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; background: var(--blue); color: white; border-radius: 50%; font-size: 12px; font-weight: 700; margin-right: 10px; flex-shrink: 0; vertical-align: middle; }
+    .aq-question { font-size: 14px; font-weight: 600; line-height: 1.6; margin-bottom: 8px; }
+    .aq-prompt { font-size: 13px; color: var(--muted); line-height: 1.6; font-style: italic; }
+
+    .lang-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-top: 16px; }
+    .lang-bank h5 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .lang-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .lang-chip { padding: 5px 12px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 12px; font-weight: 500; color: var(--blue-dk); font-style: italic; }
+
+    /* Nav */
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 40px; }
+    .lesson-nav-btn { background: var(--white); border: 1.5px solid var(--border); border-radius: 10px; padding: 10px 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; color: var(--text); transition: border-color .15s, color .15s; }
+    .lesson-nav-btn:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); }
+    .lesson-nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+
+    /* Exercises */
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--blue); margin-bottom: 16px; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .match-col-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; line-height: 1.5; cursor: pointer; margin-bottom: 8px; transition: border-color .15s, background .15s; }
+    .match-item:hover { border-color: var(--blue-bd); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.correct { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .match-item.wrong { border-color: var(--red); background: var(--red-bg); }
+    .word-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; font-style: italic; transition: background .15s; }
+    .chip:hover { background: var(--blue-lt); }
+    .chip.used { opacity: .3; cursor: not-allowed; }
+    .fill-item { margin-bottom: 20px; padding: 16px 20px; background: var(--bg); border-radius: 12px; font-size: 14px; line-height: 1.7; }
+    .fill-item .original { font-size: 13px; color: var(--muted); margin-bottom: 10px; font-style: italic; }
+    .fill-item .original strong { color: var(--text); font-style: normal; }
+    .fill-rewrite { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 180px; height: 34px; border: 1.5px dashed var(--blue-bd); border-radius: 8px; padding: 0 10px; cursor: pointer; font-size: 13px; font-weight: 500; color: var(--blue-dk); background: var(--white); transition: border-color .15s; font-style: italic; }
+    .fill-slot.filled { border-style: solid; border-color: var(--blue); }
+    .fill-slot.correct { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .fill-slot.wrong { border-color: var(--red); background: var(--red-bg); color: #9f1239; }
+    .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; font-weight: 400; }
+    .slot-clear { background: none; border: none; cursor: pointer; font-size: 11px; color: var(--muted); margin-left: 6px; }
+    .fill-feedback { font-size: 14px; font-weight: 700; margin-left: 8px; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong { color: var(--red); }
+    .check-btn { background: var(--blue); color: #fff; border: none; border-radius: 10px; padding: 10px 24px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; margin-top: 8px; transition: background .15s; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .error-item { background: var(--bg); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
+    .error-sentence { font-size: 14px; font-style: italic; margin-bottom: 12px; line-height: 1.7; }
+    .error-btns { display: flex; gap: 10px; margin-bottom: 10px; }
+    .error-btn { padding: 8px 18px; border: 1.5px solid var(--border); border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; background: var(--white); font-family: 'Inter', sans-serif; transition: border-color .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; }
+    .error-btn.wrong-ans  { border-color: var(--red);   background: var(--red-bg);   color: #9f1239; }
+    .error-feedback { display: none; font-size: 13px; padding: 10px 14px; border-radius: 8px; line-height: 1.6; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; border: 1px solid #bbf7d0; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #9f1239; border: 1px solid #fecdd3; }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 16px; font-size: 14px; line-height: 1.6; }
+    .disc-num { width: 28px; height: 28px; background: var(--blue); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-img { display: none; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .grammar-3col { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+      .tab-nav { overflow-x: auto; }
+      .content { padding: 24px 16px 60px; }
+      .reading-card { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <div class="nav-logo-icon">P</div>
+      <span>Practispeak</span>
+    </div>
+    <a class="nav-back" href="/">← All Lessons</a>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <div class="hero-badge"><span class="hero-level">C1–C2</span> Advanced</div>
+      <h1>Gaming Ethics & Society</h1>
+      <p class="hero-sub">Vocabulary for ethical debate, the language of concession & counter-argument, and how stance shifts across registers</p>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+        <span class="progress-pct" id="progressPct">0%</span>
+      </div>
+    </div>
+    <div class="hero-img">⚖️</div>
+  </div>
+
+  <div class="tab-nav-wrap">
+    <div class="tab-nav">
+      <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+      <button class="tab-btn" data-tab="langfocus">Language Focus</button>
+      <button class="tab-btn" data-tab="inuse">In Use</button>
+      <button class="tab-btn" data-tab="register">Register & Stance</button>
+      <button class="tab-btn" data-tab="reading">Forum Corner</button>
+      <button class="tab-btn" data-tab="analysis">Analysis Tasks</button>
+    </div>
+  </div>
+
+  <div class="content">
+
+
+
+  <!-- ── VOCABULARY ── -->
+  <section class="section active" id="tab-vocabulary">
+    <div class="section-title">Vocabulary</div>
+    <div class="section-sub">8 words for talking precisely about the ethical and social debates that follow gaming everywhere it goes</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#451a03,#92400e)">💸</div>
+      <div class="phrase-num">01</div>
+      <div class="phrase-word">exploitative</div>
+      <div class="phrase-tag">adjective · designed to take unfair advantage</div>
+      <div class="phrase-collocations">often paired with: <em>exploitative system, exploitative pricing, exploitative practices</em></div>
+      <div class="phrase-def">Describes something built to take unfair advantage of people — usually for profit, and usually by leaning on a weakness rather than offering real value. <em>Ex: Critics say the loot box system is deliberately exploitative.</em></div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"Critics say the game's loot box system is deliberately exploitative, designed to target players who struggle to stop spending."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#3730a3)">🌫️</div>
+      <div class="phrase-num">02</div>
+      <div class="phrase-word">desensitize</div>
+      <div class="phrase-tag">verb · to dull a response through repetition</div>
+      <div class="phrase-collocations">often paired with: <em>desensitize someone to, become desensitized, gradually desensitize</em></div>
+      <div class="phrase-def">To gradually make someone respond less strongly to something — usually because they've been exposed to it so often that it stops feeling unusual or shocking. <em>Ex: Years of exposure can desensitize players to things that should still feel serious.</em></div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"Some researchers worry that years of exposure to graphic violence in games can gradually desensitize players to real-world harm — though the evidence is far from settled."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0c4a6e,#0369a1)">🧾</div>
+      <div class="phrase-num">03</div>
+      <div class="phrase-word">accountability</div>
+      <div class="phrase-tag">noun · being answerable for your actions</div>
+      <div class="phrase-collocations">often paired with: <em>call for accountability, lack of accountability, hold someone accountable</em></div>
+      <div class="phrase-def">Being responsible for your decisions and actions, in a way that means you can genuinely be questioned — and held to account — for them, not just praised when things go well. <em>Ex: The bigger question is usually about accountability — who actually signs off on these decisions?</em></div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"When a major studio's monetization practices spark a public outcry, the bigger question is usually about accountability — who actually signs off on these decisions?"</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#365314,#4d7c0f)">🌈</div>
+      <div class="phrase-num">04</div>
+      <div class="phrase-word">inclusivity</div>
+      <div class="phrase-tag">noun · the practice of leaving no one out</div>
+      <div class="phrase-collocations">often paired with: <em>praised for its inclusivity, a step toward inclusivity, genuine inclusivity</em></div>
+      <div class="phrase-def">The practice — and the result — of actively making sure people who might otherwise be left out feel genuinely included, represented, and considered, rather than added as an afterthought. <em>Ex: The character creator was praised for its inclusivity.</em></div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"The studio's character creator was praised for its inclusivity, letting players build avatars that actually looked like them."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-04.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)">🛡️</div>
+      <div class="phrase-num">05</div>
+      <div class="phrase-word">moderation</div>
+      <div class="phrase-tag">noun · managing content and behavior</div>
+      <div class="phrase-collocations">often paired with: <em>content moderation, moderation team, struggle with moderation</em></div>
+      <div class="phrase-def">The ongoing work of reviewing, managing, and sometimes removing content or behavior in a community, so that it stays within whatever rules that space has set for itself. <em>Ex: Running a community of two million players means moderation has basically become its own department.</em></div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"Running a community of two million players means moderation has basically become its own full-time department."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-05.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7f1d1d,#b91c1c)">⚡</div>
+      <div class="phrase-num">06</div>
+      <div class="phrase-word">polarizing</div>
+      <div class="phrase-tag">adjective · splitting opinion sharply</div>
+      <div class="phrase-collocations">often paired with: <em>a polarizing topic, polarizing figure, deeply polarizing</em></div>
+      <div class="phrase-def">Describes something that causes people to split clearly into two opposing camps, with very little common ground left in the middle — strong reactions in both directions, and not much in between. <em>Ex: Few topics in gaming are as polarizing as banning players for toxic behavior.</em></div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"Few topics in gaming are as polarizing as whether competitive titles should ban players for toxic behavior."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-06.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e293b,#334155)">🤐</div>
+      <div class="phrase-num">07</div>
+      <div class="phrase-word">complicit</div>
+      <div class="phrase-tag">adjective · involved by staying silent</div>
+      <div class="phrase-collocations">often paired with: <em>feel complicit, complicit in, make someone complicit</em></div>
+      <div class="phrase-def">Describes someone who's involved in something wrong — not necessarily by doing it themselves, but by knowing about it, benefiting from it, or staying quiet when they could have spoken up. <em>Ex: Staying quiet about a studio's labor practices makes you complicit in them.</em></div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"Some players argue that simply staying quiet about a studio's labor practices makes you complicit in them."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-07.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#0f766e)">🔬</div>
+      <div class="phrase-num">08</div>
+      <div class="phrase-word">scrutiny</div>
+      <div class="phrase-tag">noun · close, critical examination</div>
+      <div class="phrase-collocations">often paired with: <em>come under scrutiny, intense scrutiny, withstand scrutiny</em></div>
+      <div class="phrase-def">Close, careful — and often critical — examination of something, usually because people suspect there's more going on beneath the surface than what's being shown. <em>Ex: The company's hiring practices came under intense scrutiny.</em></div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"After the leak, the company's hiring practices came under intense scrutiny from both the press and its own employees."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-08.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to word</button>
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" disabled>← Previous</button>
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">Language Focus →</button>
+    </div>
+  </section>
+
+  <!-- ── LANGUAGE FOCUS ── -->
+  <section class="section" id="tab-langfocus">
+    <div class="section-title">Language Focus</div>
+    <div class="section-sub">8 phrases for conceding a point — and then making yours anyway, without sounding like you backed down</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)">🤝</div>
+      <div class="phrase-num">01</div>
+      <div class="phrase-word">"While it's true that X, Y"</div>
+      <div class="phrase-tag">Concession Opener</div>
+      <div class="phrase-def">Grants the other side a real point right at the start of the sentence — then pivots straight into the point you actually want to make. Short, clean, and very common in spoken argument.</div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"While it's true that loot boxes can fund years of free updates, that doesn't make it okay to design them like slot machines."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-langfocus-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e1b4b,#3730a3)">🫴</div>
+      <div class="phrase-num">02</div>
+      <div class="phrase-word">"Even granting that…"</div>
+      <div class="phrase-tag">Strong Concession</div>
+      <div class="phrase-def">Goes further than a quick "while it's true" — it signals that you've genuinely considered the strongest version of the other side's case, and you're still standing by your point. Use it when the opposing argument actually has weight.</div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"Even granting that moderation at scale is genuinely difficult, that's not really an excuse for how slowly some studios respond to harassment reports."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-langfocus-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#134e4a,#0f766e)">🔄</div>
+      <div class="phrase-num">03</div>
+      <div class="phrase-word">"That said, …"</div>
+      <div class="phrase-tag">Pivot Signal</div>
+      <div class="phrase-def">A short, conversational way to turn from one idea toward its limits or its other side. It works on its own sentence — you don't even need to repeat what came before, the listener already knows a "but" is coming.</div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"The new accessibility settings are a real step forward. That said, plenty of players are still waiting for basic features other studios added years ago."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-langfocus-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#7c2d12,#9a3412)">⚖️</div>
+      <div class="phrase-num">04</div>
+      <div class="phrase-word">"It would be unfair to deny that…, but…"</div>
+      <div class="phrase-tag">Fair Acknowledgment</div>
+      <div class="phrase-def">A formal, balanced way of saying "I won't pretend this point is wrong" before adding your own. It signals that you're trying to be fair to both sides — which often makes your own point land harder, not softer.</div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"It would be unfair to deny that representation in games has improved a lot — but it would be just as unfair to pretend the work is finished."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-langfocus-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#4a044e,#7e22ce)">🤏</div>
+      <div class="phrase-num">05</div>
+      <div class="phrase-word">"Although X has a point about Y, Z"</div>
+      <div class="phrase-tag">Partial Agreement</div>
+      <div class="phrase-def">Agrees with one specific piece of someone's argument — not the whole thing — and then redirects to what you think the real issue actually is. Precise, and harder to argue with than a flat "you're wrong."</div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"Although critics have a point about how repetitive these systems can feel, the bigger issue is how aggressively they're marketed to kids."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-langfocus-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#0f172a,#334155)">🎯</div>
+      <div class="phrase-num">06</div>
+      <div class="phrase-word">"No one disputes that…, the real question is…"</div>
+      <div class="phrase-tag">Reframing the Debate</div>
+      <div class="phrase-def">Skips the argument entirely by agreeing on the basic fact — and then moves the whole conversation toward the question you actually want people to think about. A favorite move in panels and debates.</div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"No one really disputes that crunch happens — the real question is why studios keep treating it like a surprise every single time."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-langfocus-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#3f0a0a,#7f1d1d)">😈</div>
+      <div class="phrase-num">07</div>
+      <div class="phrase-word">"To play devil's advocate for a moment, …"</div>
+      <div class="phrase-tag">Devil's-Advocate Framing</div>
+      <div class="phrase-def">Signals that you're about to argue a position you may not personally hold — usually to test an idea or open up a discussion, not to start a fight. It buys you room to say something provocative without it being read as your final stance.</div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"To play devil's advocate for a moment, maybe a five-year-old game doesn't owe anyone a modern accessibility overhaul."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-langfocus-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background:linear-gradient(135deg,#1e293b,#475569)">🏁</div>
+      <div class="phrase-num">08</div>
+      <div class="phrase-word">"At the end of the day, …"</div>
+      <div class="phrase-tag">Bottom-Line Signal</div>
+      <div class="phrase-def">Tells the listener you're about to wrap things up with the point that matters most to you — cutting through everything that came before. A natural way to close an argument without sounding like you're repeating yourself.</div>
+      <div class="phrase-example-label">Example</div>
+      <div class="phrase-example">"At the end of the day, players will keep voting with their wallets, whatever the official statements happen to say."</div>
+      <div class="listen-col">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-langfocus-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to example</button>
+      </div>
+    </div>
+
+    <div class="grammar-note">
+      <h3>💡 Language Focus — Concession & Counter-Argument</h3>
+      <p>In real debate — online, in interviews, in everyday conversation — the strongest arguments rarely just attack the other side. They briefly admit what's true about it, and then carefully steer the conversation toward the point that actually matters. This "yes, and also…" structure is called <strong>concession and counter-argument</strong>, and getting it right is one of the clearest signs of advanced, persuasive English.</p>
+
+      <div class="grammar-3col">
+        <div class="grammar-col">
+          <div class="grammar-col-label">Soft Concession</div>
+          <div class="g-row"><span class="g-key">Form</span><span>"While it's true that X, Y"</span></div>
+          <div class="g-row"><span class="g-key">Signal</span><span>Briefly nods to the other view, then pivots fast — keeps the concession short on purpose.</span></div>
+          <code>While it's true that the system is optional, most players still feel pressured to use it.</code>
+          <div class="g-muted">Good for everyday conversation — concedes just enough to look fair without losing momentum.</div>
+        </div>
+        <div class="grammar-col">
+          <div class="grammar-col-label">Strong Concession</div>
+          <div class="g-row"><span class="g-key">Form</span><span>"Even granting that X, Y" / "It would be unfair to deny that X, but Y"</span></div>
+          <div class="g-row"><span class="g-key">Signal</span><span>Grants real ground — shows you've genuinely sat with the other side's strongest point.</span></div>
+          <code>Even granting that the studio apologized quickly, the damage to player trust was already done.</code>
+          <div class="g-muted">Save this for points that genuinely deserve it — over-conceding on weak arguments can make you sound unsure of your own.</div>
+        </div>
+        <div class="grammar-col">
+          <div class="grammar-col-label">Reframing / Closing</div>
+          <div class="g-row"><span class="g-key">Form</span><span>"No one disputes that X, the real question is Y" / "At the end of the day, X"</span></div>
+          <div class="g-row"><span class="g-key">Signal</span><span>Doesn't argue with the other side at all — just changes what the conversation is actually about.</span></div>
+          <code>No one disputes that crunch produces great games sometimes — the real question is whether it has to.</code>
+          <div class="g-muted">A strong way to close a paragraph: it sounds generous, but it quietly puts your question at the center.</div>
+        </div>
+      </div>
+
+      <div class="grammar-examples">
+        <div class="grammar-examples-label">Watch the moves stack — same topic (loot boxes), increasingly layered arguments:</div>
+        <div class="grammar-example-list">
+          <div class="grammar-example-item"><em>"Loot boxes are predatory and should be banned."</em> <span>→ a bare assertion — confident, but easy for anyone to dismiss as one-sided</span></div>
+          <div class="grammar-example-item"><em>"While it's true that loot boxes help fund free content, that doesn't make their design any less manipulative."</em> <span>→ soft concession — grants the funding argument, then pivots to the actual concern</span></div>
+          <div class="grammar-example-item"><em>"Even granting that plenty of adults enjoy these systems without any issue, the real concern is how aggressively they're aimed at younger, more vulnerable players."</em> <span>→ strong concession — grants a genuinely meaningful point before reframing toward who's actually at risk</span></div>
+          <div class="grammar-example-item"><em>"It would be unfair to deny that some studios have scaled these systems back. That said, no one disputes that the underlying model is still built around making people spend more than they planned to — and that's the part that actually needs to change."</em> <span>→ full layered move — stacks several concession and counter devices into one connected, fair-sounding, and still pointed argument</span></div>
+        </div>
+      </div>
+
+      <div class="grammar-warn">
+        ⚠️ <strong>A concession you don't actually mean sounds worse than no concession at all.</strong> If you say "while it's true that X" and then spend the rest of the paragraph acting like X doesn't matter, people notice the gap — and trust the rest of what you say a little less because of it.
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('vocabulary')">← Vocabulary</button>
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">In Use →</button>
+    </div>
+  </section>
+
+  <!-- ── IN USE ── -->
+  <section class="section" id="tab-inuse">
+    <div class="section-title">In Use</div>
+    <div class="section-sub">See how the same vocabulary and concession devices sound in an op-ed, a panel discussion, and a direct social media post</div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#451a03,#92400e)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10l6 6v8a2 2 0 01-2 2z"/><path d="M9 13h6m-6 4h6m-6-8h2"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-academic">Op-Ed / Opinion Column</span><span class="stream-title">"Are We Done Pretending Loot Boxes Are Just Cosmetic?"</span></div>
+      <p class="stream-text">
+        "It would be unfair to deny that many players genuinely enjoy these systems without any trouble. <span class="hl">Even granting</span> that, the broader pattern is hard to ignore: mechanics modeled closely on gambling, marketed to audiences that include children, sitting largely outside the kind of <span class="hl">scrutiny</span> applied to actual gambling products. While it's true that regulation is slow and inconsistent across regions, that's exactly why the conversation about <span class="hl">accountability</span> keeps resurfacing. Calling a system '<span class="hl">exploitative</span>' isn't an attack on the people who enjoy it — it's a question about who designed it, and why."
+      </p>
+      <div class="inaction-note">Notice how this writer concedes a real point right at the top — "it would be unfair to deny" — before building toward the word "exploitative." That's not an accident: opening with fairness makes the harder claim that follows much more difficult to wave away.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-inuse-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-panel">Panel Discussion</span><span class="stream-title">Roundtable — "Who Gets to Decide What's Toxic?"</span></div>
+      <p class="stream-text">
+        "I think the part that doesn't get talked about enough is just how <span class="hl">polarizing</span> the word 'toxic' has become. No one disputes that harassment is a real problem — the real question is who gets to draw that line, and how consistently it actually gets enforced. <span class="hl">To play devil's advocate for a moment</span>: if <span class="hl">moderation</span> decisions feel arbitrary, doesn't that just push people toward platforms with none at all? At the end of the day, staying silent about how these calls get made probably makes all of us a little <span class="hl">complicit</span> in whichever version wins."
+      </p>
+      <div class="inaction-note">Listen for how this speaker uses "to play devil's advocate for a moment" to float an uncomfortable idea without fully owning it — a useful way to open up a discussion rather than just stating an opinion and waiting for a reaction.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-inuse-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#7f1d1d,#b91c1c)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-social">Public / Social Media</span><span class="stream-title">Thread — Direct, Minimal Concession</span></div>
+      <p class="stream-text">
+        "Seeing a character creator that actually lets you build someone who looks like you shouldn't be a big deal in 2026 — but it still is, because so few studios bother. People love to say '<span class="hl">inclusivity</span>' is just a marketing buzzword. Cool, then why does it still feel like an afterthought in most AAA games? This isn't about ticking boxes. It's about whether the people making these games have ever actually had to think about anyone but themselves."
+      </p>
+      <div class="inaction-note">Compare this with the op-ed up top: same general frustration, almost no concession at all. Notice how the directness changes the feel completely — this reads as a personal challenge, not an analysis. Neither approach is "wrong"; they just suit very different spaces.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/gaming-ethics-inuse-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">← Language Focus</button>
+      <button class="lesson-nav-btn" onclick="goToTab('register')">Register & Stance →</button>
+    </div>
+  </section>
+
+  <!-- ── REGISTER & STANCE ── -->
+  <section class="section" id="tab-register">
+    <div class="section-title">Register & Stance</div>
+    <div class="section-sub">How concession and directness shift across contexts — and what that signals about where you stand</div>
+
+    <div class="register-table">
+      <table>
+        <thead><tr><th>Context</th><th>Concession Style</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>Academic ethics paper</strong><br><span style="font-size:12px;color:var(--muted)">Formal written analysis</span></td>
+            <td><span class="register-tag tag-high">Heavy — fully balanced</span></td>
+            <td><em>"While it would be reductive to frame monetization purely as exploitation, it would be equally naïve to treat it as ethically neutral."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Industry op-ed</strong><br><span style="font-size:12px;color:var(--muted)">Argumentative, considered</span></td>
+            <td><span class="register-tag tag-high">High — acknowledges, then pivots</span></td>
+            <td><em>"It would be unfair to deny that these systems fund years of free content — but that doesn't settle the ethical question."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Trade journalism</strong><br><span style="font-size:12px;color:var(--muted)">Neutral, accessible</span></td>
+            <td><span class="register-tag tag-med">Moderate — brief nod, quick pivot</span></td>
+            <td><em>"Some defend the model as standard industry practice. Critics, however, point to a pattern that looks a lot like targeted persuasion."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Podcast debate</strong><br><span style="font-size:12px;color:var(--muted)">Semi-formal, discursive</span></td>
+            <td><span class="register-tag tag-low">Low — concedes briefly, argues directly</span></td>
+            <td><em>"Sure, plenty of people spend on this stuff and have a great time. That doesn't mean the system was designed with their best interests in mind."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Social media / public debate</strong><br><span style="font-size:12px;color:var(--muted)">Informal, direct</span></td>
+            <td><span class="register-tag tag-none">Minimal — states the conclusion</span></td>
+            <td><em>"Call it whatever you want. It's still designed to get people to spend more than they meant to."</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tip-list">
+      <div class="tip green"><span class="tip-icon">✅</span><span>A well-placed concession can make your argument stronger, not weaker — it shows you've actually engaged with the other side, which makes your conclusion much harder to dismiss.</span></div>
+      <div class="tip blue"><span class="tip-icon">💡</span><span>Concession phrases ("while it's true that…", "even granting that…") do real work: they buy you credibility before you make the point you actually care about. Think of them as setting the table before serving the main point.</span></div>
+      <div class="tip amber"><span class="tip-icon">⚠️</span><span>Don't let the concession take over the sentence. If you spend three clauses agreeing with the other side and one clause making your own point, most listeners will remember the agreement — not your point.</span></div>
+      <div class="tip red"><span class="tip-icon">❌</span><span>A concession isn't the same as backing down. "While it's true that X, Y" should still land firmly on Y — if your sentence quietly drops the counter-point, you haven't conceded gracefully, you've just changed your mind.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">← In Use</button>
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">Forum Corner →</button>
+    </div>
+  </section>
+
+  <!-- ── CRITICAL READING ── -->
+  <section class="section" id="tab-reading">
+    <div class="section-title">Forum Corner</div>
+    <div class="section-sub">Read a forum post and click words from the bank to fill in the gaps</div>
+
+    <div class="word-bank">
+      <div class="word-bank-label">Word bank</div>
+      <div class="bank-chips" id="blogBankChips">
+        <div class="chip" data-phrase="exploitative" onclick="selectChip(this)">exploitative</div>
+        <div class="chip" data-phrase="desensitize" onclick="selectChip(this)">desensitize</div>
+        <div class="chip" data-phrase="accountability" onclick="selectChip(this)">accountability</div>
+        <div class="chip" data-phrase="inclusivity" onclick="selectChip(this)">inclusivity</div>
+        <div class="chip" data-phrase="moderation" onclick="selectChip(this)">moderation</div>
+        <div class="chip" data-phrase="polarizing" onclick="selectChip(this)">polarizing</div>
+        <div class="chip" data-phrase="complicit" onclick="selectChip(this)">complicit</div>
+        <div class="chip" data-phrase="scrutiny" onclick="selectChip(this)">scrutiny</div>
+      </div>
+    </div>
+
+    <div class="reading-card">
+      <div class="reading-title">Why I Finally Said Something in Our Discord</div>
+      <div class="reading-byline">— posted to r/GamingDiscourse by a long-time mod who almost didn't hit send — fill in the blanks with words from the bank above, then check your answers</div>
+      <div class="reading-body">
+        <p>I've modded the same Discord for about four years now, and lately it feels like every week brings a new fight about something. Half the server thinks the new event is just <span class="fill-slot" id="fs6" data-answer="exploitative" onclick="placeOrClear('fs6')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb6"></span> — designed to squeeze a few more dollars out of people who already spend too much. The other half says that's just how gaming works now, and that repeated exposure can <span class="fill-slot" id="fs7" data-answer="desensitize" onclick="placeOrClear('fs7')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb7"></span> people to things that used to feel like a much bigger deal.</p>
+
+        <p>What actually pushed me to finally say something wasn't the event itself — it was watching how <span class="fill-slot" id="fs8" data-answer="polarizing" onclick="placeOrClear('fs8')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb8"></span> the conversation got. Within an hour, two groups had basically stopped listening to each other completely, and a few people were getting harassed just for picking a side. As a mod, <span class="fill-slot" id="fs9" data-answer="moderation" onclick="placeOrClear('fs9')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb9"></span> usually means stepping in on individual messages, but this felt bigger than that — like the whole server needed someone to actually take <span class="fill-slot" id="fs10" data-answer="accountability" onclick="placeOrClear('fs10')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb10"></span> for how the conversation was being run.</p>
+
+        <p>So I posted something. Not a huge speech — just that staying quiet while people got piled on made me feel <span class="fill-slot" id="fs11" data-answer="complicit" onclick="placeOrClear('fs11')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb11"></span> in it, even if I hadn't said a single harsh word myself. I also said we needed to do better on <span class="fill-slot" id="fs12" data-answer="inclusivity" onclick="placeOrClear('fs12')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb12"></span>, because some of the people getting hit hardest were the ones who already felt like outsiders here. Within a day, the post was getting way more <span class="fill-slot" id="fs13" data-answer="scrutiny" onclick="placeOrClear('fs13')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb13"></span> than I expected — but for the first time in months, people actually started talking to each other instead of past each other.</p>
+      </div>
+    </div>
+
+    <button class="check-btn" onclick="checkBlogFill()">Check answers</button>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('register')">← Register & Stance</button>
+      <button class="lesson-nav-btn" onclick="goToTab('analysis')">Analysis Tasks →</button>
+    </div>
+  </section>
+
+  <!-- ── ANALYSIS TASKS ── -->
+  <section class="section" id="tab-analysis">
+    <div class="section-title">Analysis Tasks</div>
+    <div class="section-sub">Identify, rewrite, and evaluate — three analytical exercises</div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 1</div>
+      <h3>Match the Term to Its Definition</h3>
+      <p class="ex-desc">Click a term on the left, then find the definition on the right that matches it.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Ethics & society terms</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">exploitative</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">accountability</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">desensitize</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">moderation</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">polarizing</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">scrutiny</div>
+        </div>
+        <div>
+          <div class="match-col-label">Definitions</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">To gradually reduce someone's emotional response to something through repeated exposure</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">Close, often critical, examination of something</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">Designed to take unfair advantage of someone, often for profit</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">The ongoing work of reviewing and managing content or behavior in a community</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">Being answerable for one's actions or decisions, especially to those affected by them</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">Causing people to split sharply into strongly opposing positions</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 2</div>
+      <h3>Add the Concession</h3>
+      <p class="ex-desc">Each "original" statement below sounds one-sided. Pick a concession phrase from the bank, then click the blank to turn it into something more balanced — and harder to dismiss.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Concession bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="While it's true that" onclick="selectChip(this)">While it's true that</div>
+          <div class="chip" data-phrase="Even granting that" onclick="selectChip(this)">Even granting that</div>
+          <div class="chip" data-phrase="It would be unfair to deny that" onclick="selectChip(this)">It would be unfair to deny that</div>
+          <div class="chip" data-phrase="No one disputes that" onclick="selectChip(this)">No one disputes that</div>
+          <div class="chip" data-phrase="To play devil's advocate for a moment" onclick="selectChip(this)">To play devil's advocate for a moment</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>One-sided version:</strong> "Loot boxes are just predatory. End of discussion."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs1" data-answer="While it's true that" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+          some players enjoy these systems without any issues, the broader design still raises real ethical questions.
+          <span class="fill-feedback" id="fb1"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>One-sided version:</strong> "Nobody who plays competitive games cares about toxicity until it happens to them."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs2" data-answer="Even granting that" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+          reactions to toxicity often depend on personal experience, that doesn't make the underlying problem any less real.
+          <span class="fill-feedback" id="fb2"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>One-sided version:</strong> "Representation in games has gotten so much better — people need to stop complaining."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs3" data-answer="It would be unfair to deny that" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+          representation has improved significantly — but it would be just as unfair to pretend there's nothing left to fix.
+          <span class="fill-feedback" id="fb3"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>One-sided version:</strong> "Crunch happens. It's just part of making games. Get over it."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs4" data-answer="No one disputes that" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+          crunch happens — the real question is whether studios are willing to plan around it instead of normalizing it.
+          <span class="fill-feedback" id="fb4"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>One-sided version:</strong> "Every single 'controversial' design choice is secretly a grand ethical statement."</div>
+        <div class="fill-rewrite">
+          <span class="fill-slot" id="fs5" data-answer="To play devil's advocate for a moment" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+          , maybe not every disputed design choice is that deep — sometimes a feature is just a feature.
+          <span class="fill-feedback" id="fb5"></span>
+        </div>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Rewrites</button>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 3</div>
+      <h3>Spot the Issue</h3>
+      <p class="ex-desc">Is the concession-and-counter move in each statement well-formed, or does it run into a problem? Consider whether the concession is genuine, proportionate, and actually leads somewhere.</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"While it's true that harassment is a serious problem, people really do need to grow thicker skin and stop taking everything so personally."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(1,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"Even granting that no system will ever be perfect, the gap between what this platform promises and what it actually delivers is hard to ignore."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(2,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"It would be unfair to deny that the studio apologized — it would be unfair to deny that they apologized, and also unfair to deny that the apology came out, and unfair to deny that people read it."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(3,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"No one disputes that the new system is more transparent than the last one. The real question is whether 'more transparent' is actually the same thing as 'fair.'"</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(4,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"To play devil's advocate for a moment — and I want to be clear that I completely agree with everything you just said — maybe there's another perspective worth considering."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(5,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <div class="disc-card">
+      <h3>🗣 Further Discussion</h3>
+      <div class="disc-item"><div class="disc-num">1</div><span>Some countries have started regulating loot boxes like gambling, while others haven't touched the issue at all. Do you think games with randomized paid rewards should be regulated the same way as gambling — or is that comparison going too far?</span></div>
+      <div class="disc-item"><div class="disc-num">2</div><span>Who do you think should actually be deciding what counts as "toxic" in online gaming spaces — the platforms themselves, independent organizations, governments, or the communities? What are the risks of each option?</span></div>
+      <div class="disc-item"><div class="disc-num">3</div><span>It's easy to say representation in games has "gotten better." What would convincing evidence of real progress actually look like to you, versus changes that feel more like marketing?</span></div>
+      <div class="disc-item"><div class="disc-num">4</div><span>Where do you personally draw the line between protecting free expression in online spaces and reducing real harm to the people in them? Is it even possible to satisfy both at once?</span></div>
+      <div class="disc-item"><div class="disc-num">5</div><span>If you found out a game you loved was funded partly through systems you considered ethically questionable, would that change how you played it — or how you talked about it with others? Why or why not?</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">← Forum Corner</button>
+      <button class="lesson-nav-btn" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+  </div>
+
+<script>
+  const tabs = ['vocabulary','langfocus','inuse','register','reading','analysis'];
+  const completedTabs = new Set();
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause(); currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
+    }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
+  }
+
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++; document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el; el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = ''; return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+  function checkBlogFill() {
+    [6,7,8,9,10,11,12,13].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  const errorAnswers = { 1:true, 2:false, 3:true, 4:false, 5:true };
+  const errorExplanations = {
+    1: { fix:true,  msg:"Problem: concession-cancellation. The speaker concedes that harassment is 'a serious problem,' then immediately erases that concession by telling the people affected to 'grow thicker skin.' A genuine concession should lead somewhere — not get wiped out by the very next clause. A more honest version: <strong>'While it's true that harassment is a serious problem, the harder question is why so little changes when people report it.'</strong>" },
+    2: { fix:false, msg:"Appropriate. The concession is genuine — no system will ever be perfect — and the counter-point that follows is specific and proportionate: a real gap between promise and delivery. The move builds toward something instead of canceling itself out." },
+    3: { fix:true,  msg:"Problem: empty repetition. The same concession phrase is repeated three times in slightly different words without ever pivoting to an actual counter-argument. A concession exists to set up a 'but' — here, the 'but' never arrives. A tighter version: <strong>'It would be unfair to deny that the studio apologized — but an apology isn't the same thing as a plan.'</strong>" },
+    4: { fix:false, msg:"Appropriate. This is a clean, well-proportioned move: a one-line concession ('more transparent than the last one') followed by a sharp, focused question that reframes the whole debate ('transparent' vs. 'fair'). It concedes a fact without conceding the argument." },
+    5: { fix:true,  msg:"Problem: self-canceling setup. 'To play devil's advocate' signals that an opposing view is coming — but then the speaker immediately says they 'completely agree with everything,' which contradicts the entire premise. The listener is left unsure what's actually being argued. Better to commit either to agreement or to the alternative view, not announce both at once." },
+  };
+  function checkError(num, userAnswer) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userAnswer && userAnswer !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>
