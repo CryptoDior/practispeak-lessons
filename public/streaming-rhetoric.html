@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | Streaming & Rhetoric</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #f0f4ff;
+      --white:    #ffffff;
+      --blue:     #4f46e5;
+      --blue-lt:  #eef2ff;
+      --blue-bd:  #c7d2fe;
+      --blue-dk:  #4338ca;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --amber:    #d97706;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); }
+    .nav-back:hover { color: var(--text); }
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero-level { font-size: 11px; background: var(--blue); color: white; border-radius: 10px; padding: 1px 7px; font-weight: 700; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg,#312e81,#4f46e5); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; }
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 18px; font-size: 13px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+    /* Vocab cards */
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 22px; font-weight: 800; line-height: 1.25; margin-bottom: 8px; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-collocations { font-size: 12px; color: var(--muted); margin-bottom: 12px; line-height: 1.5; }
+    .phrase-collocations strong { color: var(--blue-dk); }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+    .listen-col { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+    .audio-player { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn, .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s} .wave span:nth-child(2){height:8px;animation-delay:.1s} .wave span:nth-child(3){height:14px;animation-delay:.2s} .wave span:nth-child(4){height:10px;animation-delay:.05s} .wave span:nth-child(5){height:6px;animation-delay:.15s} .wave span:nth-child(6){height:12px;animation-delay:.25s} .wave span:nth-child(7){height:8px;animation-delay:.1s} .wave span:nth-child(8){height:5px;animation-delay:.2s} .wave span:nth-child(9){height:9px;animation-delay:.05s} .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
+
+    /* Grammar/language note */
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+    .grammar-examples { margin-top: 20px; }
+    .grammar-examples h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 12px; }
+    .grammar-example-list { display: flex; flex-direction: column; gap: 8px; }
+    .grammar-example-item { background: var(--bg); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; }
+    .grammar-example-item em { color: var(--blue-dk); font-style: italic; }
+    .grammar-example-item span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .grammar-warn { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin-top: 16px; line-height: 1.6; }
+
+    /* In Use */
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 28px; }
+    .inaction-img { height: 160px; display: flex; align-items: center; justify-content: center; color: #a5b4fc; }
+    .inaction-img svg { width: 48px; height: 48px; }
+    .stream-platform { display: flex; align-items: center; gap: 10px; padding: 18px 24px 8px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: .06em; text-transform: uppercase; }
+    .badge-academic { background: var(--blue-lt); color: var(--blue-dk); }
+    .badge-panel { background: #f0fdf4; color: #15803d; }
+    .badge-social { background: #fff7ed; color: #c2410c; }
+    .stream-title { font-size: 14px; font-weight: 700; color: var(--text); }
+    .stream-text { padding: 0 24px 16px; font-size: 14px; line-height: 1.9; color: var(--text); }
+    .hl { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .inaction-note { margin: 0 24px 16px; background: var(--bg); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .inaction-audio { padding: 0 24px 24px; }
+
+    /* Register */
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); text-align: left; padding: 12px 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 16px 20px; font-size: 13px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.6; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-table td em { color: var(--blue-dk); }
+    .register-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 20px; letter-spacing: .04em; }
+    .tag-high { background: #ede9fe; color: #5b21b6; }
+    .tag-med { background: var(--blue-lt); color: var(--blue-dk); }
+    .tag-low { background: #fef9c3; color: #854d0e; }
+    .tag-none { background: #fee2e2; color: #991b1b; }
+    .tip-list { display: flex; flex-direction: column; gap: 12px; }
+    .tip { display: flex; gap: 12px; align-items: flex-start; background: var(--white); border-radius: 12px; padding: 14px 18px; box-shadow: var(--shadow); font-size: 13px; line-height: 1.6; }
+    .tip.green { border-left: 4px solid var(--green); }
+    .tip.blue { border-left: 4px solid var(--blue); }
+    .tip.amber { border-left: 4px solid #f59e0b; }
+    .tip.red { border-left: 4px solid var(--red); }
+    .tip-icon { font-size: 16px; flex-shrink: 0; }
+
+    /* Critical Reading */
+    .reading-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 36px 40px; margin-bottom: 28px; }
+    .reading-title { font-size: 20px; font-weight: 800; margin-bottom: 6px; }
+    .reading-byline { font-size: 13px; color: var(--muted); margin-bottom: 28px; font-style: italic; }
+    .reading-body { font-size: 15px; line-height: 1.9; color: var(--text); }
+    .reading-body p { margin-bottom: 20px; }
+    .reading-body p:last-child { margin-bottom: 0; }
+    .reading-body mark { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .analysis-questions { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .analysis-questions h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+    .aq-intro { font-size: 14px; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
+    .aq-item { margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+    .aq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .aq-num { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; background: var(--blue); color: white; border-radius: 50%; font-size: 12px; font-weight: 700; margin-right: 10px; flex-shrink: 0; vertical-align: middle; }
+    .aq-question { font-size: 14px; font-weight: 600; line-height: 1.6; margin-bottom: 8px; }
+    .aq-prompt { font-size: 13px; color: var(--muted); line-height: 1.6; font-style: italic; }
+
+    .lang-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-top: 16px; }
+    .lang-bank h5 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .lang-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .lang-chip { padding: 5px 12px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 12px; font-weight: 500; color: var(--blue-dk); font-style: italic; }
+
+    /* Nav */
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 40px; }
+    .lesson-nav-btn { background: var(--white); border: 1.5px solid var(--border); border-radius: 10px; padding: 10px 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; color: var(--text); transition: border-color .15s, color .15s; }
+    .lesson-nav-btn:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); }
+    .lesson-nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+
+    /* Exercises */
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--blue); margin-bottom: 16px; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .match-col-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; line-height: 1.5; cursor: pointer; margin-bottom: 8px; transition: border-color .15s, background .15s; }
+    .match-item:hover { border-color: var(--blue-bd); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.correct { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .match-item.wrong { border-color: var(--red); background: var(--red-bg); }
+    .word-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; font-style: italic; transition: background .15s; }
+    .chip:hover { background: var(--blue-lt); }
+    .chip.used { opacity: .3; cursor: not-allowed; }
+    .fill-item { margin-bottom: 20px; padding: 16px 20px; background: var(--bg); border-radius: 12px; font-size: 14px; line-height: 1.7; }
+    .fill-item .original { font-size: 13px; color: var(--muted); margin-bottom: 10px; font-style: italic; }
+    .fill-item .original strong { color: var(--text); font-style: normal; }
+    .fill-rewrite { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 180px; height: 34px; border: 1.5px dashed var(--blue-bd); border-radius: 8px; padding: 0 10px; cursor: pointer; font-size: 13px; font-weight: 500; color: var(--blue-dk); background: var(--white); transition: border-color .15s; font-style: italic; }
+    .fill-slot.filled { border-style: solid; border-color: var(--blue); }
+    .fill-slot.correct { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .fill-slot.wrong { border-color: var(--red); background: var(--red-bg); color: #9f1239; }
+    .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; font-weight: 400; }
+    .slot-clear { background: none; border: none; cursor: pointer; font-size: 11px; color: var(--muted); margin-left: 6px; }
+    .fill-feedback { font-size: 14px; font-weight: 700; margin-left: 8px; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong { color: var(--red); }
+    .check-btn { background: var(--blue); color: #fff; border: none; border-radius: 10px; padding: 10px 24px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; margin-top: 8px; transition: background .15s; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .error-item { background: var(--bg); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
+    .error-sentence { font-size: 14px; font-style: italic; margin-bottom: 12px; line-height: 1.7; }
+    .error-btns { display: flex; gap: 10px; margin-bottom: 10px; }
+    .error-btn { padding: 8px 18px; border: 1.5px solid var(--border); border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; background: var(--white); font-family: 'Inter', sans-serif; transition: border-color .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; }
+    .error-btn.wrong-ans  { border-color: var(--red);   background: var(--red-bg);   color: #9f1239; }
+    .error-feedback { display: none; font-size: 13px; padding: 10px 14px; border-radius: 8px; line-height: 1.6; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; border: 1px solid #bbf7d0; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #9f1239; border: 1px solid #fecdd3; }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 16px; font-size: 14px; line-height: 1.6; }
+    .disc-num { width: 28px; height: 28px; background: var(--blue); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-img { display: none; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .grammar-3col { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+      .tab-nav { overflow-x: auto; }
+      .content { padding: 24px 16px 60px; }
+      .reading-card { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <div class="nav-logo-icon">P</div>
+      <span>Practispeak</span>
+    </div>
+    <a class="nav-back" href="/">← All Lessons</a>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <div class="hero-badge"><span class="hero-level">C1–C2</span> Advanced</div>
+      <h1>Streaming & Rhetoric</h1>
+      <p class="hero-sub">The hooks, the threes, and the &quot;I almost didn&#39;t post this&quot; — how creators talk an audience into staying</p>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+        <span class="progress-pct" id="progressPct">0%</span>
+      </div>
+    </div>
+    <div class="hero-img">📣</div>
+  </div>
+
+  <div class="tab-nav-wrap">
+    <div class="tab-nav">
+      <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+      <button class="tab-btn" data-tab="langfocus">Language Focus</button>
+      <button class="tab-btn" data-tab="inuse">In Use</button>
+      <button class="tab-btn" data-tab="register">Register & Stance</button>
+      <button class="tab-btn" data-tab="reading">Forum Corner</button>
+      <button class="tab-btn" data-tab="analysis">Analysis Tasks</button>
+    </div>
+  </div>
+
+
+
+  <div class="content">
+
+  <section class="section active" id="tab-vocabulary">
+    <div class="section-title">Vocabulary</div>
+    <div class="section-sub">8 words for talking about how creators build, hold, and cash in on an audience</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e1b4b,#6366f1);">📈</div>
+      <div class="phrase-body">
+        <div class="phrase-num">01</div>
+        <div class="phrase-word">engagement</div>
+        <div class="phrase-tag">NOUN · HOW ACTIVELY AN AUDIENCE INTERACTS WITH SOMETHING — COMMENTS, REACTIONS, WATCH TIME</div>
+        <div class="phrase-collocations">often paired with: <em>drive engagement, an engagement spike, low engagement</em></div>
+        <div class="phrase-def">It's the difference between people simply seeing your content and people actually doing something with it — and it's the number every platform quietly optimizes for. <em>Ex: The algorithm doesn't really care if people loved the stream — it cares whether they engaged with it, and for how long.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"The algorithm doesn't really care if people loved the stream — it cares whether they engaged with it, and for how long."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#134e4a,#0d9488);">🎭</div>
+      <div class="phrase-body">
+        <div class="phrase-num">02</div>
+        <div class="phrase-word">persona</div>
+        <div class="phrase-tag">NOUN · THE PUBLIC CHARACTER YOU PERFORM ON CAMERA, WHICH MAY OR MAY NOT MATCH WHO YOU ARE OFF IT</div>
+        <div class="phrase-collocations">often paired with: <em>build a persona, an on-stream persona, drop the persona</em></div>
+        <div class="phrase-def">It's the version of you that exists specifically for an audience — sometimes close to the real thing, sometimes a much louder, faster, funnier exaggeration of it. <em>Ex: Off camera, she's quiet and a little awkward — her on-stream persona is loud, fast-talking, and never runs out of things to say.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Off camera, she's quiet and a little awkward — her on-stream persona is loud, fast-talking, and never runs out of things to say."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#451a03,#c2410c);">💎</div>
+      <div class="phrase-body">
+        <div class="phrase-num">03</div>
+        <div class="phrase-word">authenticity</div>
+        <div class="phrase-tag">NOUN · THE SENSE THAT SOMEONE IS BEING GENUINE RATHER THAN SIMPLY PERFORMING FOR AN AUDIENCE</div>
+        <div class="phrase-collocations">often paired with: <em>question someone's authenticity, feel authentic, a sense of authenticity</em></div>
+        <div class="phrase-def">It's the quality audiences are constantly trying to detect — and the one creators are constantly, sometimes a little too visibly, trying to project. <em>Ex: Audiences can usually tell the difference between authenticity and a performance of authenticity — and they tend to reward the real thing, eventually.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Audiences can usually tell the difference between authenticity and a performance of authenticity — and they tend to reward the real thing, eventually."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#312e81,#4f46e5);">🪝</div>
+      <div class="phrase-body">
+        <div class="phrase-num">04</div>
+        <div class="phrase-word">hook</div>
+        <div class="phrase-tag">NOUN · AN OPENING MOMENT DESIGNED TO GRAB ATTENTION BEFORE SOMEONE SCROLLS PAST</div>
+        <div class="phrase-collocations">often paired with: <em>land a hook, open with a hook, a strong hook</em></div>
+        <div class="phrase-def">You don't get long to convince someone to keep watching — a hook is the few seconds of work that buys you the rest of the video. <em>Ex: You've got about three seconds to land a hook before most people swipe away to the next thing.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"You've got about three seconds to land a hook before most people swipe away to the next thing."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-04.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#7f1d1d,#b91c1c);">📢</div>
+      <div class="phrase-body">
+        <div class="phrase-num">05</div>
+        <div class="phrase-word">callout</div>
+        <div class="phrase-tag">NOUN · A PUBLIC STATEMENT NAMING AND CRITICIZING SOMEONE, USUALLY TO AN AUDIENCE THAT'S ALREADY WATCHING</div>
+        <div class="phrase-collocations">often paired with: <em>post a callout, a callout video, the callout blew up</em></div>
+        <div class="phrase-def">It's a public accusation made in front of an audience rather than in private — which tends to spread fast and leave very little room to respond calmly. <em>Ex: The callout went up at midnight and had two hundred thousand views by morning — long before anyone involved had a chance to respond.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"The callout went up at midnight and had two hundred thousand views by morning — long before anyone involved had a chance to respond."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-05.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#422006,#a16207);">⚡</div>
+      <div class="phrase-body">
+        <div class="phrase-num">06</div>
+        <div class="phrase-word">clout</div>
+        <div class="phrase-tag">NOUN (INFORMAL) · INFLUENCE OR STATUS, ESPECIALLY THE KIND THAT COMES FROM BEING WIDELY KNOWN ONLINE</div>
+        <div class="phrase-collocations">often paired with: <em>chase clout, clout-chasing, gain clout</em></div>
+        <div class="phrase-def">It's social currency — the sense that being seen, talked about, or argued with online is worth something in itself, regardless of whether the attention is positive. <em>Ex: Half the arguments in that community aren't really about the issue — they're about who gets to walk away with more clout.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Half the arguments in that community aren't really about the issue — they're about who gets to walk away with more clout."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-06.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e3a5f,#1d4ed8);">🔀</div>
+      <div class="phrase-body">
+        <div class="phrase-num">07</div>
+        <div class="phrase-word">pivot</div>
+        <div class="phrase-tag">VERB / NOUN · TO SUDDENLY CHANGE DIRECTION OR STRATEGY, OFTEN IN RESPONSE TO WHAT IS OR ISN'T WORKING</div>
+        <div class="phrase-collocations">often paired with: <em>pivot to, a content pivot, pivot the channel</em></div>
+        <div class="phrase-def">It's the moment a creator stops doing the thing that used to work and starts doing something else entirely — sometimes by choice, sometimes because the numbers left them no other option. <em>Ex: When the gaming content stopped performing, the whole channel pivoted to cooking videos almost overnight — and somehow it worked.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"When the gaming content stopped performing, the whole channel pivoted to cooking videos almost overnight — and somehow it worked."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-07.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e293b,#475569);">💰</div>
+      <div class="phrase-body">
+        <div class="phrase-num">08</div>
+        <div class="phrase-word">monetize</div>
+        <div class="phrase-tag">VERB · TO TURN AN AUDIENCE, A SKILL, OR A PIECE OF CONTENT INTO A SOURCE OF INCOME</div>
+        <div class="phrase-collocations">often paired with: <em>monetize a channel, ways to monetize, monetization eligibility</em></div>
+        <div class="phrase-def">It's the step where an audience stops being just an audience and starts being, at least partly, a source of income — through ads, subscriptions, sponsorships, or merch. <em>Ex: It took her two years of streaming for free before she had enough of an audience to seriously think about monetizing it.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"It took her two years of streaming for free before she had enough of an audience to seriously think about monetizing it."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-08.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" disabled>← Previous</button>
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">Language Focus →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-langfocus">
+    <div class="section-title">Language Focus</div>
+    <div class="section-sub">8 rhetorical devices creators reach for — and what they sound like in the wild</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#312e81,#6366f1);">❓</div>
+      <div class="phrase-body">
+        <div class="phrase-num">01</div>
+        <div class="phrase-word">rhetorical question</div>
+        <div class="phrase-tag">A QUESTION ASKED FOR EFFECT RATHER THAN TO GET AN ANSWER — IT INVITES THE LISTENER TO AGREE BEFORE THEY'VE REALLY THOUGHT ABOUT IT</div>
+        <div class="phrase-collocations">often built with: <em>"Who doesn't...", "Haven't you ever...", "Why do we...?"</em></div>
+        <div class="phrase-def">It does the listener's thinking for them — by the time they register it as a question, they've usually already nodded along to the answer it implies. <em>Ex: "Who doesn't want to feel like they're part of something bigger than themselves?" — nobody's meant to actually answer that. You're just supposed to feel it.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Who doesn't want to feel like they're part of something bigger than themselves?"</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-langfocus-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#134e4a,#14b8a6);">3️⃣</div>
+      <div class="phrase-body">
+        <div class="phrase-num">02</div>
+        <div class="phrase-word">tricolon (rule of three)</div>
+        <div class="phrase-tag">GROUPING THREE WORDS, PHRASES, OR IDEAS TOGETHER — SOMETHING ABOUT THREES JUST SOUNDS COMPLETE TO THE EAR</div>
+        <div class="phrase-collocations">often built with: <em>verb, verb, and verb / "no X, no Y, just Z"</em></div>
+        <div class="phrase-def">Two items sound like a list; three sound like a rule — which is exactly why slogans, mottos, and stream taglines lean on this shape so heavily. <em>Ex: "Show up, speak up, and never apologize for taking up space" — say it in twos and it just sounds like an unfinished thought.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Show up, speak up, and never apologize for taking up space."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-langfocus-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#451a03,#ea580c);">🔁</div>
+      <div class="phrase-body">
+        <div class="phrase-num">03</div>
+        <div class="phrase-word">anaphora</div>
+        <div class="phrase-tag">REPEATING THE SAME WORD OR PHRASE AT THE START OF SUCCESSIVE CLAUSES, BUILDING MOMENTUM WITH EACH REPETITION</div>
+        <div class="phrase-collocations">often built with: <em>"We didn't have... We didn't have... We didn't even have..."</em></div>
+        <div class="phrase-def">It turns a list of plain facts into something closer to a drumbeat — each repetition raises the emotional stakes a little before the final clause breaks the pattern and lands the point. <em>Ex: "We didn't have a studio. We didn't have a budget. We didn't even have a plan — we just had an audience who showed up anyway."</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"We didn't have a studio. We didn't have a budget. We didn't even have a plan — we just had an audience who showed up anyway."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-langfocus-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#7f1d1d,#dc2626);">🎈</div>
+      <div class="phrase-body">
+        <div class="phrase-num">04</div>
+        <div class="phrase-word">hyperbole</div>
+        <div class="phrase-tag">DELIBERATE, OBVIOUS EXAGGERATION — NOBODY IS SUPPOSED TO TAKE IT LITERALLY, BUT EVERYONE IS SUPPOSED TO FEEL THE ENTHUSIASM BEHIND IT</div>
+        <div class="phrase-collocations">often built with: <em>"the single greatest...", "literally changed my life", "best thing ever"</em></div>
+        <div class="phrase-def">It trades precision for impact — and in a feed full of careful, hedged claims, a confident exaggeration is often the thing that actually gets noticed. <em>Ex: "This is, without a doubt, the single greatest community on the entire internet" — technically unprovable, emotionally unmissable.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"This is, without a doubt, the single greatest community on the entire internet."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-langfocus-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e3a5f,#2563eb);">👉</div>
+      <div class="phrase-body">
+        <div class="phrase-num">05</div>
+        <div class="phrase-word">direct address</div>
+        <div class="phrase-tag">SPEAKING TO ONE IMAGINED VIEWER USING "YOU," AS IF THE WHOLE AUDIENCE ISN'T WATCHING AT THE SAME TIME</div>
+        <div class="phrase-collocations">often built with: <em>"you — yes, you...", "if you're watching this..."</em></div>
+        <div class="phrase-def">A crowd doesn't feel singled out, but a "you" does — which is exactly why creators reach for it the moment they want a stranger to feel personally chosen. <em>Ex: "You — yes, you, scrolling past at one in the morning — you're exactly the person this was made for."</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"You — yes, you, scrolling past at one in the morning — you're exactly the person this was made for."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-langfocus-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#422006,#ca8a04);">🏛️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">06</div>
+        <div class="phrase-word">ethos (appeal to credibility)</div>
+        <div class="phrase-tag">PERSUADING BY ESTABLISHING THAT YOU'RE QUALIFIED, EXPERIENCED, OR TRUSTWORTHY ENOUGH TO BE BELIEVED</div>
+        <div class="phrase-collocations">often built with: <em>"I've been doing this for...", "after X years of...", "speaking from experience..."</em></div>
+        <div class="phrase-def">Before anyone accepts your conclusion, they usually want a reason to trust the person making it — and a quick résumé of survived setbacks does that more efficiently than any argument could. <em>Ex: "I've been doing this for six years, through three platform changes and two algorithm collapses, so when I say this works, I mean it."</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"I've been doing this for six years, through three platform changes and two algorithm collapses, so when I say this works, I mean it."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-langfocus-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#581c87,#9333ea);">💗</div>
+      <div class="phrase-body">
+        <div class="phrase-num">07</div>
+        <div class="phrase-word">pathos (appeal to emotion)</div>
+        <div class="phrase-tag">PERSUADING BY MAKING SOMEONE FEEL SOMETHING — SYMPATHY, NOSTALGIA, HOPE — RATHER THAN BY ARGUING A POINT OUTRIGHT</div>
+        <div class="phrase-collocations">often built with: <em>"I think about the person who...", "imagine how it feels to..."</em></div>
+        <div class="phrase-def">A feeling, once it lands, tends to do the convincing that an argument never quite manages — which is why so many appeals skip the logic and go straight for the heart. <em>Ex: "I think about the kid watching this alone in their room, feeling like nobody understands them — and that's exactly who I'm doing this for."</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"I think about the kid watching this alone in their room, feeling like nobody understands them — and that's exactly who I'm doing this for."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-langfocus-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e293b,#64748b);">🙃</div>
+      <div class="phrase-body">
+        <div class="phrase-num">08</div>
+        <div class="phrase-word">strategic self-deprecation</div>
+        <div class="phrase-tag">PUTTING YOURSELF DOWN ON PURPOSE, IN A WAY CALCULATED TO MAKE YOU SEEM MORE LIKEABLE, RELATABLE, OR LESS THREATENING</div>
+        <div class="phrase-collocations">often built with: <em>"I'm not even that good at...", "honestly, I have no idea what I'm doing"</em></div>
+        <div class="phrase-def">A small, well-placed admission of weakness often does more for someone's likability than any boast could — it invites the audience to feel like they're laughing along, not being sold to. <em>Ex: "I'm not even that good at the game, honestly — I think people just like watching me lose with a smile on my face."</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"I'm not even that good at the game, honestly — I think people just like watching me lose with a smile on my face."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-langfocus-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('vocabulary')">← Vocabulary</button>
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">In Use →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-inuse">
+    <div class="section-title">In Use</div>
+    <div class="section-sub">See the same rhetorical moves shift register — from a media-studies lecture, to a creator panel, to a comments section at midnight</div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422A12.083 12.083 0 0119 16.5c0 1-1 2-1 2H6s-1-1-1-2a12.083 12.083 0 01.84-5.922L12 14z"/><path d="M12 14v7"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-academic">Lecture / Media Studies</span><span class="stream-title">On the Architecture of Online Persuasion</span></div>
+      <p class="stream-text">
+        "Contemporary streaming culture runs on a small, recognizable set of rhetorical moves, repeated so often that audiences barely register them as persuasion at all. A creator opens with a <span class="hl">hook</span> calculated to survive the first three seconds of a scroll, builds momentum through <span class="hl">anaphora</span> and the <span class="hl">rule of three</span>, then closes the loop with a <span class="hl">direct appeal</span> to the very audience it has just spent several minutes constructing. None of this makes the appeal insincere — but it does mean that what looks like spontaneous connection is, more often than not, a carefully rehearsed structure wearing the costume of authenticity."
+      </p>
+      <div class="inaction-note">Notice the cool, observational distance here — "runs on," "is, more often than not" — the lecture register names the technique without ever stepping into it. The goal is to describe persuasion, not perform it.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-inuse-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#134e4a,#0d9488)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 12h8m-8 4h5m-9 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v14l4-4z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-panel">Creator Panel</span><span class="stream-title">Panel — "Charisma Isn't Magic, It's a Toolkit"</span></div>
+      <p class="stream-text">
+        "Honestly, the biggest thing people get wrong is thinking charisma is something you either have or you don't. It's not — it's a set of tools, and you can absolutely learn them. <span class="hl">Repetition in threes</span>. <span class="hl">Speaking directly to one imagined viewer</span> instead of a faceless crowd. Telling a true story about yourself before you ever ask anyone for anything — that's just <span class="hl">ethos</span>, building trust before you make the ask. None of that is manipulation, in my opinion — it's just knowing how to be heard in a room full of people shouting."
+      </p>
+      <div class="inaction-note">This speaker names the techniques almost like a recipe — "repetition in threes," "speaking directly to one imagined viewer" — confident, conversational, a little defensive about the word "manipulation" before anyone's even used it.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-inuse-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#7f1d1d,#b91c1c)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-social">Comments Section</span><span class="stream-title">Thread — "the 'i almost didn't post this' bit, every single time"</span></div>
+      <p class="stream-text">
+        "ok but has anyone else noticed every single streamer says some version of '<span class="hl">i almost didn't post this</span>' right before the thing that obviously took them three weeks to plan?? like we see you. the '<span class="hl">i'm just a small creator</span>' bit hits different when you've got 400k followers lol. not even mad about it, it clearly works, just funny how predictable it's gotten"
+      </p>
+      <div class="inaction-note">Compare this to the panel above — same underlying move (strategic self-deprecation, manufactured spontaneity) but named here with a wink rather than a label. The audience has learned the trick well enough to perform their own commentary on it.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/streaming-rhetoric-inuse-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">← Language Focus</button>
+      <button class="lesson-nav-btn" onclick="goToTab('register')">Register & Stance →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-register">
+    <div class="section-title">Register & Stance</div>
+    <div class="section-sub">How persuasive language shifts shape across contexts — from the careful hedge of a lecture to the bluntness of a comment thread</div>
+
+    <div class="register-table">
+      <table>
+        <thead><tr><th>Context</th><th>Typical Stance</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>Media studies lecture</strong><br><span style="font-size:12px;color:var(--muted)">Formal, analytical, observational</span></td>
+            <td><span class="register-tag tag-high">Highly formal</span></td>
+            <td><em>"The appeal functions, in effect, as a carefully rehearsed structure wearing the costume of spontaneity."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Industry interview / press</strong><br><span style="font-size:12px;color:var(--muted)">Reflective, semi-formal account</span></td>
+            <td><span class="register-tag tag-high">Highly formal</span></td>
+            <td><em>"We found that opening on a direct question consistently held attention longer than opening on a statement."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Creator panel / podcast</strong><br><span style="font-size:12px;color:var(--muted)">Conversational, confident, a little defensive</span></td>
+            <td><span class="register-tag tag-med">Semi-formal</span></td>
+            <td><em>"It's not magic — it's a toolkit, and honestly, anyone can learn to use it."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Stream chat / live commentary</strong><br><span style="font-size:12px;color:var(--muted)">Informal, immediate, performative</span></td>
+            <td><span class="register-tag tag-med">Semi-formal</span></td>
+            <td><em>"okay THAT was the hook of the century, no notes"</em></td>
+          </tr>
+          <tr>
+            <td><strong>Comments / forum thread</strong><br><span style="font-size:12px;color:var(--muted)">Informal, blunt, often a little mocking</span></td>
+            <td><span class="register-tag tag-none">Informal / emotional</span></td>
+            <td><em>"the 'i almost didn't post this' bit again?? we SEE you bro"</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tip-list">
+      <div class="tip green"><span class="tip-icon">✅</span><span>Naming a rhetorical device isn't the same as condemning it — a lecture can describe a hook with total neutrality, while a comment thread might call the exact same move "manipulative" in the very next sentence. The device is constant; the stance toward it is what shifts.</span></div>
+      <div class="tip blue"><span class="tip-icon">💡</span><span>Watch how creators often name their own techniques out loud — "that's just ethos, basically" — which does two things at once: it signals media literacy <em>and</em> quietly defends the move from criticism before anyone else can raise it.</span></div>
+      <div class="tip amber"><span class="tip-icon">⚠️</span><span>"Authentic" and "performed" aren't opposites in this world — they're often the same thing, viewed from different distances. A lecture register tends to hold both possibilities open at once; a comment thread usually picks one and runs with it.</span></div>
+      <div class="tip red"><span class="tip-icon">❌</span><span>Don't mistake a confident tone for a strong argument. Hyperbole and direct address can make a claim <em>feel</em> true long before anyone has actually checked whether it <em>is</em> — which is precisely the gap careful listening is meant to close.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">← In Use</button>
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">Forum Corner →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-reading">
+    <div class="section-title">Forum Corner</div>
+    <div class="section-sub">Read a creator's blog post about how their channel actually grew, and click words from the bank to fill in the gaps</div>
+
+    <div class="word-bank">
+      <div class="word-bank-label">Word bank</div>
+      <div class="bank-chips" id="blogBankChips">
+        <div class="chip" data-phrase="engagement" onclick="selectChip(this)">engagement</div>
+        <div class="chip" data-phrase="persona" onclick="selectChip(this)">persona</div>
+        <div class="chip" data-phrase="authenticity" onclick="selectChip(this)">authenticity</div>
+        <div class="chip" data-phrase="hook" onclick="selectChip(this)">hook</div>
+        <div class="chip" data-phrase="callout" onclick="selectChip(this)">callout</div>
+        <div class="chip" data-phrase="clout" onclick="selectChip(this)">clout</div>
+        <div class="chip" data-phrase="pivot" onclick="selectChip(this)">pivot</div>
+        <div class="chip" data-phrase="monetize" onclick="selectChip(this)">monetize</div>
+      </div>
+    </div>
+
+    <div class="reading-card">
+      <div class="reading-title">How I Actually Grew This Channel (the Boring Truth)</div>
+      <div class="reading-byline">A short creator blog post — fill in the blanks with words from the bank above, then check your answers</div>
+      <div class="reading-body">
+        <p>For the first year, almost nobody watched. I obsessed over the <span class="fill-slot" id="fs6" data-answer="hook" onclick="placeOrClear('fs6')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb6"></span> — the first three seconds — convinced that was the only thing standing between me and an audience. It helped a little, but not nearly as much as I thought it would.</p>
+
+        <p>What actually changed things was a quiet <span class="fill-slot" id="fs7" data-answer="pivot" onclick="placeOrClear('fs7')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb7"></span>. I'd been making generic gaming clips because that's what everyone else was doing, and one day I just stopped, and started making videos about the weird side conversations that happen mid-game instead. That's when <span class="fill-slot" id="fs8" data-answer="engagement" onclick="placeOrClear('fs8')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb8"></span> really started climbing — not views exactly, more like comments, the kind where people actually talk to each other in the replies.</p>
+
+        <p>I also had to work out what my on-camera <span class="fill-slot" id="fs9" data-answer="persona" onclick="placeOrClear('fs9')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb9"></span> even was. I'm louder and faster on stream than I am in real life, and for a long time that felt fake. Eventually I realized the gap mattered less than I'd worried — what mattered more was <span class="fill-slot" id="fs10" data-answer="authenticity" onclick="placeOrClear('fs10')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb10"></span>, and that's not quite the same thing as never performing. It's more about whether the performance still feels like you underneath it.</p>
+
+        <p>I went through one ugly <span class="fill-slot" id="fs11" data-answer="callout" onclick="placeOrClear('fs11')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb11"></span> early on, too — somebody made a video about something I'd said two years before, and for about a week it felt like the whole internet was talking about me, for all the wrong reasons. Good lesson in how fast <span class="fill-slot" id="fs12" data-answer="clout" onclick="placeOrClear('fs12')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb12"></span> can turn into something you never actually asked for. These days the channel can finally <span class="fill-slot" id="fs13" data-answer="monetize" onclick="placeOrClear('fs13')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb13"></span> — sponsorships mostly, plus a small membership thing — but that took about three years of doing it for free first.</p>
+      </div>
+    </div>
+
+    <button class="check-btn" onclick="checkBlogFill()">Check answers</button>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('register')">← Register & Stance</button>
+      <button class="lesson-nav-btn" onclick="goToTab('analysis')">Analysis Tasks →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-analysis">
+    <div class="section-title">Analysis Tasks</div>
+    <div class="section-sub">Identify, name, and evaluate — three exercises in rhetorical technique</div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 1</div>
+      <h3>Match the Line to What It's Doing</h3>
+      <p class="ex-desc">Click a line on the left, then find the description on the right that matches what it's actually doing to the listener.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Lines from creators</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">"Who doesn't want to feel like they're part of something bigger than themselves?"</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">"Show up, speak up, and never apologize for taking up space."</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">"We didn't have a studio. We didn't have a budget. We didn't even have a plan."</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">"This is, without a doubt, the single greatest community on the entire internet."</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">"You — yes, you, scrolling past at one in the morning — this was made for you."</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">"I'm not even that good at the game, honestly — people just like watching me lose."</div>
+        </div>
+        <div>
+          <div class="match-col-label">What it's doing</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">Trades precision for impact through deliberate, obvious exaggeration</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">Persuades by inviting agreement before the listener has really thought it through</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">Builds likability by admitting a small weakness on purpose</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">Uses a memorable three-part rhythm to make a simple message feel like a rule</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">Makes one stranger in a crowd feel personally and individually chosen</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">Builds momentum by repeating the same opening across several clauses</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 2</div>
+      <h3>Name the Device</h3>
+      <p class="ex-desc">Each quote below relies on one rhetorical device in particular. Pick the matching name from the bank, then click the blank to complete the analysis.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Device bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="rhetorical question" onclick="selectChip(this)">rhetorical question</div>
+          <div class="chip" data-phrase="anaphora" onclick="selectChip(this)">anaphora</div>
+          <div class="chip" data-phrase="hyperbole" onclick="selectChip(this)">hyperbole</div>
+          <div class="chip" data-phrase="direct address" onclick="selectChip(this)">direct address</div>
+          <div class="chip" data-phrase="tricolon" onclick="selectChip(this)">tricolon</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Quote:</strong> "Who else has felt personally victimized by a Monday-morning patch?"</div>
+        <div class="fill-rewrite">
+          This line works mainly through
+          <span class="fill-slot" id="fs1" data-answer="rhetorical question" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+          — nobody is actually expected to answer it out loud.
+          <span class="fill-feedback" id="fb1"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Quote:</strong> "We didn't have an audience. We didn't have a budget. We didn't have a clue."</div>
+        <div class="fill-rewrite">
+          The repeated opening across all three clauses is a clear case of
+          <span class="fill-slot" id="fs2" data-answer="anaphora" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+          , building momentum with each repetition.
+          <span class="fill-feedback" id="fb2"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Quote:</strong> "This is hands-down the funniest, smartest, most talented community in existence."</div>
+        <div class="fill-rewrite">
+          Nobody could actually prove a claim like that — which is exactly the point of
+          <span class="fill-slot" id="fs3" data-answer="hyperbole" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+          .
+          <span class="fill-feedback" id="fb3"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Quote:</strong> "You. Yes, you, reading this right now. I made this for you."</div>
+        <div class="fill-rewrite">
+          Singling out one imagined "you" out of a whole audience is the textbook move of
+          <span class="fill-slot" id="fs4" data-answer="direct address" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+          .
+          <span class="fill-feedback" id="fb4"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Quote:</strong> "Like, share, and tell me your thoughts down below."</div>
+        <div class="fill-rewrite">
+          Three short instructions stacked together like this is a clean example of a
+          <span class="fill-slot" id="fs5" data-answer="tricolon" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+          — the same call-to-action in twos would sound oddly unfinished.
+          <span class="fill-feedback" id="fb5"></span>
+        </div>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Answers</button>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 3</div>
+      <h3>Evaluate the Technique</h3>
+      <p class="ex-desc">Is the rhetorical move in each line used well, or does it have a problem? Consider overuse, register clashes, and whether the appeal feels earned or manipulative.</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"I've streamed for six years, survived three platform changes, and I still don't have all the answers — but here's what's worked for me."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(1,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"Literally everyone who's ever met me says this is the single best thing that has ever happened in the history of content creation."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(2,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"Who doesn't love free stuff? Who doesn't love giveaways? Who doesn't love watching me open boxes for forty-five minutes straight?"</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(3,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"I'm just a small creator trying my best — anyway, here's the merch link, the affiliate code, and the link to my course."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(4,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"You've been here since the very beginning, and that means more to me than any number ever could."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(5,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <div class="disc-card">
+      <h3>🗣 Further Discussion</h3>
+      <div class="disc-item"><div class="disc-num">1</div><span>Creators often name their own techniques out loud — "that's just ethos, basically." Does saying the quiet part out loud make the technique feel more honest, or is it just a cleverer version of the same persuasion?</span></div>
+      <div class="disc-item"><div class="disc-num">2</div><span>Is there a meaningful difference between a politician using anaphora in a speech and a streamer using it in a sponsored segment? Or is rhetoric just rhetoric, regardless of who's reaching for it?</span></div>
+      <div class="disc-item"><div class="disc-num">3</div><span>"I almost didn't post this" has become such a recognizable line that audiences openly joke about it — and creators keep using it anyway. What does it mean for a persuasive technique to keep working even after everyone can see it coming?</span></div>
+      <div class="disc-item"><div class="disc-num">4</div><span>Strategic self-deprecation only works if it doesn't look strategic. Can you think of an example — from streaming or anywhere else — where you could feel the gears turning behind someone's "aw, it's nothing"?</span></div>
+      <div class="disc-item"><div class="disc-num">5</div><span>Pick a creator you actually enjoy watching. Which of the devices from this lesson do they lean on most — and does naming the technique change how it feels to watch them use it?</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">← Forum Corner</button>
+      <button class="lesson-nav-btn" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+  </div>
+
+<script>
+  const tabs = ['vocabulary','langfocus','inuse','register','reading','analysis'];
+  const completedTabs = new Set();
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause(); currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
+    }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
+  }
+
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++; document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el; el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = ''; return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+  function checkBlogFill() {
+    [6,7,8,9,10,11,12,13].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  const errorAnswers = { 1:false, 2:true, 3:true, 4:true, 5:false };
+  const errorExplanations = {
+    1: { fix:false, msg:"Appropriate. The appeal to credibility (six years, three platform changes) is balanced immediately by a small admission of uncertainty — which keeps ethos from tipping over into arrogance. Confidence and humility, working together." },
+    2: { fix:true,  msg:"Problem: hyperbole stacked on hyperbole. 'Literally everyone' plus 'single best thing... in the history of' piles exaggeration on top of exaggeration until the claim collapses under its own weight and starts to sound like parody rather than enthusiasm." },
+    3: { fix:true,  msg:"Problem: an overused device stops working. Three rhetorical questions in a row, all making essentially the same point, reads less like persuasion and more like filler — the rhythm becomes the message instead of supporting one." },
+    4: { fix:true,  msg:"Problem: a register clash between sincerity and sales. The self-deprecating opener ('just a small creator trying my best') is undercut immediately by a hard pivot into a list of commercial links — which makes the humility look like a setup rather than something genuine." },
+    5: { fix:false, msg:"Appropriate. Direct address does real work here — singling out the audience and naming what they mean, with nothing being sold in the same breath. The device is in service of connection, not a pitch wearing connection's clothes." },
+  };
+  function checkError(num, userAnswer) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userAnswer && userAnswer !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>
