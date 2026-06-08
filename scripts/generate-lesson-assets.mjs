@@ -175,7 +175,7 @@ function q(str) {
 const vocabEntries = spec.vocabulary.map(w => {
   const slug = slugify(w.word);
   return `    {
-      word: '${w.word.toUpperCase()}',
+      word: ${q(w.word.toUpperCase())},
       partOfSpeech: '${w.partOfSpeech}',
       definition: ${q(w.definition)},
       example: ${q(w.example)},
@@ -186,7 +186,7 @@ const vocabEntries = spec.vocabulary.map(w => {
 const phrasalEntries = spec.phrasalVerbs.map(v => {
   const slug = slugify(v.phrase);
   return `    {
-      phrase: '${v.phrase.toUpperCase()}',
+      phrase: ${q(v.phrase.toUpperCase())},
       definition: ${q(v.definition)},
       example: ${q(v.example)},
       imageSlug: '/images/${slug}.png',
@@ -207,10 +207,10 @@ const lessonFile = `import { Lesson } from '@/types/lesson';
 
 export const ${spec.exportName}: Lesson = {
   slug: '${lessonSlug}',
-  title: '${spec.title}',
-  subtitle: '${spec.subtitle}',
-  level: '${spec.level}',
-  description: '${spec.description}',
+  title: ${q(spec.title)},
+  subtitle: ${q(spec.subtitle)},
+  level: ${q(spec.level)},
+  description: ${q(spec.description)},
   heroImage: '/images/${lessonSlug}-hero.png',
 
   vocabulary: [
