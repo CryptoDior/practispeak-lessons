@@ -25,6 +25,7 @@ import { gameDesignLanguage } from './game-design-language';
 import { streamingRhetoric } from './streaming-rhetoric';
 import { languageInGamingCommunities } from './language-in-gaming-communities';
 import { salesVocabularyBasics } from './sales-vocabulary-basics';
+import { introducingYourselfSalesperson } from './introducing-yourself-salesperson';
 /**
  * Add new lessons here by importing the lesson file and adding it to this array.
  * The lesson page routing and home page listing are automatic.
@@ -56,6 +57,7 @@ export const lessons: Lesson[] = [
   streamingRhetoric,
   languageInGamingCommunities,
   salesVocabularyBasics,
+  introducingYourselfSalesperson,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
