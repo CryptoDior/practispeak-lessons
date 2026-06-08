@@ -62,7 +62,7 @@ export const introducingYourselfSalesperson: Lesson = {
       word: 'COLLEAGUE',
       partOfSpeech: 'noun',
       definition: 'A person you work with.',
-      example: "I'd like you to meet my colleague, Sam — she leads our team.",
+      example: "I'd like you to meet my colleague, Carlos — he leads our team.",
       imageSlug: '/images/colleague.png',
     }
   ],
@@ -101,7 +101,7 @@ export const introducingYourselfSalesperson: Lesson = {
     {
       phrase: 'LET ME INTRODUCE YOU TO',
       definition: 'Help two people meet each other by introducing them.',
-      example: 'Let me introduce you to my colleague, Sam — she leads our team.',
+      example: 'Let me introduce you to my colleague, Carlos — he leads our team.',
       imageSlug: '/images/let-me-introduce-you-to.png',
     }
   ],
@@ -149,7 +149,7 @@ export const introducingYourselfSalesperson: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: '/images/riley-icon.png',
-      text: 'Perfect timing, then. Let me [[introduce:to tell someone your name and a little about yourself when you meet]] you to my [[colleague:a person you work with]], Sam — she leads our team and knows the software inside and out.',
+      text: 'Perfect timing, then. Let me [[introduce:to tell someone your name and a little about yourself when you meet]] you to my [[colleague:a person you work with]], Carlos — he leads our team and knows the software inside and out.',
     },
     {
       speaker: 'Dana',
@@ -161,10 +161,10 @@ export const introducingYourselfSalesperson: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: '/images/riley-icon.png',
-      text: 'Sam, this is Dana — she runs a marketing agency and might be a great fit for Brightline.',
+      text: 'Carlos, this is Dana — she runs a marketing agency and might be a great fit for Brightline.',
     },
     {
-      speaker: 'Sam',
+      speaker: 'Carlos',
       speakerColor: 'blue',
       speakerAvatar: '/images/sam-icon.png',
       text: "It's great to [[meet:to see and talk with someone for the first time]] you, Dana. I'd love to hear more about your team and what you're looking for.",
@@ -250,12 +250,12 @@ export const introducingYourselfSalesperson: Lesson = {
     },
     {
         "before": "Let me",
-        "after": "you to my colleague, Sam.",
+        "after": "you to my colleague, Carlos.",
         "answer": "introduce"
     },
     {
         "before": "I'd like you to meet my",
-        "after": ", Sam.",
+        "after": ", Carlos.",
         "answer": "colleague"
     }
 ],
@@ -305,7 +305,7 @@ export const introducingYourselfSalesperson: Lesson = {
         "options": [
             "A customer",
             "Riley's manager",
-            "Riley's colleague, Sam",
+            "Riley's colleague, Carlos",
             "Riley's friend from college"
         ],
         "correctIndex": 2
@@ -321,7 +321,7 @@ export const introducingYourselfSalesperson: Lesson = {
         "correctIndex": 1
     },
     {
-        "question": "What does Sam want to do after meeting Dana?",
+        "question": "What does Carlos want to do after meeting Dana?",
         "options": [
             "Reschedule for another day",
             "Hear more about Dana's team and what she needs",
