@@ -23,6 +23,7 @@ import { gamingEthicsSociety } from './gaming-ethics-society';
 import { esportsAsAProfession } from './esports-as-a-profession';
 import { gameDesignLanguage } from './game-design-language';
 import { streamingRhetoric } from './streaming-rhetoric';
+import { languageInGamingCommunities } from './language-in-gaming-communities';
 /**
  * Add new lessons here by importing the lesson file and adding it to this array.
  * The lesson page routing and home page listing are automatic.
@@ -52,6 +53,7 @@ export const lessons: Lesson[] = [
   esportsAsAProfession,
   gameDesignLanguage,
   streamingRhetoric,
+  languageInGamingCommunities,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {

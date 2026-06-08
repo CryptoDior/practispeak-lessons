@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | Language in Gaming Communities</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #f0f4ff;
+      --white:    #ffffff;
+      --blue:     #4f46e5;
+      --blue-lt:  #eef2ff;
+      --blue-bd:  #c7d2fe;
+      --blue-dk:  #4338ca;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --amber:    #d97706;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); }
+    .nav-back:hover { color: var(--text); }
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero-level { font-size: 11px; background: var(--blue); color: white; border-radius: 10px; padding: 1px 7px; font-weight: 700; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg,#312e81,#4f46e5); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; }
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 18px; font-size: 13px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+    /* Vocab cards */
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 22px; font-weight: 800; line-height: 1.25; margin-bottom: 8px; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-collocations { font-size: 12px; color: var(--muted); margin-bottom: 12px; line-height: 1.5; }
+    .phrase-collocations strong { color: var(--blue-dk); }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+    .listen-col { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+    .audio-player { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn, .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s} .wave span:nth-child(2){height:8px;animation-delay:.1s} .wave span:nth-child(3){height:14px;animation-delay:.2s} .wave span:nth-child(4){height:10px;animation-delay:.05s} .wave span:nth-child(5){height:6px;animation-delay:.15s} .wave span:nth-child(6){height:12px;animation-delay:.25s} .wave span:nth-child(7){height:8px;animation-delay:.1s} .wave span:nth-child(8){height:5px;animation-delay:.2s} .wave span:nth-child(9){height:9px;animation-delay:.05s} .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
+
+    /* Grammar/language note */
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+    .grammar-examples { margin-top: 20px; }
+    .grammar-examples h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 12px; }
+    .grammar-example-list { display: flex; flex-direction: column; gap: 8px; }
+    .grammar-example-item { background: var(--bg); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; }
+    .grammar-example-item em { color: var(--blue-dk); font-style: italic; }
+    .grammar-example-item span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .grammar-warn { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin-top: 16px; line-height: 1.6; }
+
+    /* In Use */
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 28px; }
+    .inaction-img { height: 160px; display: flex; align-items: center; justify-content: center; color: #a5b4fc; }
+    .inaction-img svg { width: 48px; height: 48px; }
+    .stream-platform { display: flex; align-items: center; gap: 10px; padding: 18px 24px 8px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: .06em; text-transform: uppercase; }
+    .badge-academic { background: var(--blue-lt); color: var(--blue-dk); }
+    .badge-panel { background: #f0fdf4; color: #15803d; }
+    .badge-social { background: #fff7ed; color: #c2410c; }
+    .stream-title { font-size: 14px; font-weight: 700; color: var(--text); }
+    .stream-text { padding: 0 24px 16px; font-size: 14px; line-height: 1.9; color: var(--text); }
+    .hl { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .inaction-note { margin: 0 24px 16px; background: var(--bg); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .inaction-audio { padding: 0 24px 24px; }
+
+    /* Register */
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); text-align: left; padding: 12px 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 16px 20px; font-size: 13px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.6; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-table td em { color: var(--blue-dk); }
+    .register-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 20px; letter-spacing: .04em; }
+    .tag-high { background: #ede9fe; color: #5b21b6; }
+    .tag-med { background: var(--blue-lt); color: var(--blue-dk); }
+    .tag-low { background: #fef9c3; color: #854d0e; }
+    .tag-none { background: #fee2e2; color: #991b1b; }
+    .tip-list { display: flex; flex-direction: column; gap: 12px; }
+    .tip { display: flex; gap: 12px; align-items: flex-start; background: var(--white); border-radius: 12px; padding: 14px 18px; box-shadow: var(--shadow); font-size: 13px; line-height: 1.6; }
+    .tip.green { border-left: 4px solid var(--green); }
+    .tip.blue { border-left: 4px solid var(--blue); }
+    .tip.amber { border-left: 4px solid #f59e0b; }
+    .tip.red { border-left: 4px solid var(--red); }
+    .tip-icon { font-size: 16px; flex-shrink: 0; }
+
+    /* Critical Reading */
+    .reading-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 36px 40px; margin-bottom: 28px; }
+    .reading-title { font-size: 20px; font-weight: 800; margin-bottom: 6px; }
+    .reading-byline { font-size: 13px; color: var(--muted); margin-bottom: 28px; font-style: italic; }
+    .reading-body { font-size: 15px; line-height: 1.9; color: var(--text); }
+    .reading-body p { margin-bottom: 20px; }
+    .reading-body p:last-child { margin-bottom: 0; }
+    .reading-body mark { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .analysis-questions { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .analysis-questions h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+    .aq-intro { font-size: 14px; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
+    .aq-item { margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+    .aq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .aq-num { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; background: var(--blue); color: white; border-radius: 50%; font-size: 12px; font-weight: 700; margin-right: 10px; flex-shrink: 0; vertical-align: middle; }
+    .aq-question { font-size: 14px; font-weight: 600; line-height: 1.6; margin-bottom: 8px; }
+    .aq-prompt { font-size: 13px; color: var(--muted); line-height: 1.6; font-style: italic; }
+
+    .lang-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-top: 16px; }
+    .lang-bank h5 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .lang-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .lang-chip { padding: 5px 12px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 12px; font-weight: 500; color: var(--blue-dk); font-style: italic; }
+
+    /* Nav */
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 40px; }
+    .lesson-nav-btn { background: var(--white); border: 1.5px solid var(--border); border-radius: 10px; padding: 10px 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; color: var(--text); transition: border-color .15s, color .15s; }
+    .lesson-nav-btn:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); }
+    .lesson-nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+
+    /* Exercises */
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--blue); margin-bottom: 16px; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .match-col-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; line-height: 1.5; cursor: pointer; margin-bottom: 8px; transition: border-color .15s, background .15s; }
+    .match-item:hover { border-color: var(--blue-bd); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.correct { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .match-item.wrong { border-color: var(--red); background: var(--red-bg); }
+    .word-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; font-style: italic; transition: background .15s; }
+    .chip:hover { background: var(--blue-lt); }
+    .chip.used { opacity: .3; cursor: not-allowed; }
+    .fill-item { margin-bottom: 20px; padding: 16px 20px; background: var(--bg); border-radius: 12px; font-size: 14px; line-height: 1.7; }
+    .fill-item .original { font-size: 13px; color: var(--muted); margin-bottom: 10px; font-style: italic; }
+    .fill-item .original strong { color: var(--text); font-style: normal; }
+    .fill-rewrite { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 180px; height: 34px; border: 1.5px dashed var(--blue-bd); border-radius: 8px; padding: 0 10px; cursor: pointer; font-size: 13px; font-weight: 500; color: var(--blue-dk); background: var(--white); transition: border-color .15s; font-style: italic; }
+    .fill-slot.filled { border-style: solid; border-color: var(--blue); }
+    .fill-slot.correct { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .fill-slot.wrong { border-color: var(--red); background: var(--red-bg); color: #9f1239; }
+    .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; font-weight: 400; }
+    .slot-clear { background: none; border: none; cursor: pointer; font-size: 11px; color: var(--muted); margin-left: 6px; }
+    .fill-feedback { font-size: 14px; font-weight: 700; margin-left: 8px; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong { color: var(--red); }
+    .check-btn { background: var(--blue); color: #fff; border: none; border-radius: 10px; padding: 10px 24px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; margin-top: 8px; transition: background .15s; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .error-item { background: var(--bg); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
+    .error-sentence { font-size: 14px; font-style: italic; margin-bottom: 12px; line-height: 1.7; }
+    .error-btns { display: flex; gap: 10px; margin-bottom: 10px; }
+    .error-btn { padding: 8px 18px; border: 1.5px solid var(--border); border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; background: var(--white); font-family: 'Inter', sans-serif; transition: border-color .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; }
+    .error-btn.wrong-ans  { border-color: var(--red);   background: var(--red-bg);   color: #9f1239; }
+    .error-feedback { display: none; font-size: 13px; padding: 10px 14px; border-radius: 8px; line-height: 1.6; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; border: 1px solid #bbf7d0; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #9f1239; border: 1px solid #fecdd3; }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 16px; font-size: 14px; line-height: 1.6; }
+    .disc-num { width: 28px; height: 28px; background: var(--blue); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-img { display: none; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .grammar-3col { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+      .tab-nav { overflow-x: auto; }
+      .content { padding: 24px 16px 60px; }
+      .reading-card { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <div class="nav-logo-icon">P</div>
+      <span>Practispeak</span>
+    </div>
+    <a class="nav-back" href="/">← All Lessons</a>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <div class="hero-badge"><span class="hero-level">C1–C2</span> Advanced</div>
+      <h1>Language in Gaming Communities</h1>
+      <p class="hero-sub">How a server full of strangers turns into &quot;us&quot; — through slang, shorthand, in-jokes, and the small words that quietly sort who belongs</p>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+        <span class="progress-pct" id="progressPct">0%</span>
+      </div>
+    </div>
+    <div class="hero-img">🗨️</div>
+  </div>
+
+  <div class="tab-nav-wrap">
+    <div class="tab-nav">
+      <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+      <button class="tab-btn" data-tab="langfocus">Language Focus</button>
+      <button class="tab-btn" data-tab="inuse">In Use</button>
+      <button class="tab-btn" data-tab="register">Register & Stance</button>
+      <button class="tab-btn" data-tab="reading">Forum Corner</button>
+      <button class="tab-btn" data-tab="analysis">Analysis Tasks</button>
+    </div>
+  </div>
+
+
+
+  <div class="content">
+
+  <section class="section active" id="tab-vocabulary">
+    <div class="section-title">Vocabulary</div>
+    <div class="section-sub">8 words for talking about how communities build their own sense of "us" through language</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e1b4b,#6366f1);">🗯️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">01</div>
+        <div class="phrase-word">vernacular</div>
+        <div class="phrase-tag">NOUN · THE INFORMAL, EVERYDAY LANGUAGE THAT BELONGS TO A PARTICULAR GROUP OR PLACE</div>
+        <div class="phrase-collocations">often paired with: <em>local vernacular, pick up the vernacular, slip into the vernacular</em></div>
+        <div class="phrase-def">It's the version of a language that actually gets spoken day to day inside a group — looser, faster, and full of shortcuts that would baffle anyone standing just outside it.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Half the fun of joining a new server is just figuring out the vernacular — what people actually mean when they say 'gg ez' or 'this is rigged.'"</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#134e4a,#0d9488);">🔑</div>
+      <div class="phrase-body">
+        <div class="phrase-num">02</div>
+        <div class="phrase-word">shibboleth</div>
+        <div class="phrase-tag">NOUN · A WORD OR PHRASE WHOSE PRONUNCIATION OR USE IMMEDIATELY SIGNALS WHETHER SOMEONE BELONGS TO A GROUP</div>
+        <div class="phrase-collocations">often paired with: <em>act as a shibboleth, a kind of shibboleth, a linguistic shibboleth</em></div>
+        <div class="phrase-def">It's a small linguistic test that nobody designed on purpose — say the word the "right" way, and people quietly recognize you as one of their own; say it the "wrong" way, and the gap shows immediately.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Saying 'pwned' instead of 'owned' used to be a kind of shibboleth — say it right and people knew you'd been around since the early days."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#451a03,#c2410c);">🚧</div>
+      <div class="phrase-body">
+        <div class="phrase-num">03</div>
+        <div class="phrase-word">gatekeeping</div>
+        <div class="phrase-tag">NOUN · DECIDING, OFTEN UNOFFICIALLY AND UNKINDLY, WHO COUNTS AS A "REAL" MEMBER OF A GROUP</div>
+        <div class="phrase-collocations">often paired with: <em>pure gatekeeping, accuse someone of gatekeeping, fandom gatekeeping</em></div>
+        <div class="phrase-def">It's drawing an invisible line around a community and deciding, often loudly, who's allowed to stand inside it — usually based on tests that have very little to do with how much someone actually cares.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"There's a fine line between having standards and just gatekeeping — telling someone they're not a 'real' fan because they came in through the movie instead of the books."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#312e81,#4f46e5);">😄</div>
+      <div class="phrase-body">
+        <div class="phrase-num">04</div>
+        <div class="phrase-word">in-joke</div>
+        <div class="phrase-tag">NOUN · A JOKE THAT ONLY MAKES SENSE TO PEOPLE WHO ARE ALREADY PART OF A PARTICULAR GROUP</div>
+        <div class="phrase-collocations">often paired with: <em>a running in-joke, get the in-joke, an in-joke that's gone too far</em></div>
+        <div class="phrase-def">It's a joke that does double duty — it's funny, sure, but mostly it works as a quiet little signal that says "you had to be there," which is exactly what makes it feel so warm from the inside and so confusing from the outside.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Half the comments under that clip make no sense unless you already know the in-joke — and honestly, that's kind of the point."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-04.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#7f1d1d,#b91c1c);">🔀</div>
+      <div class="phrase-body">
+        <div class="phrase-num">05</div>
+        <div class="phrase-word">code-switch</div>
+        <div class="phrase-tag">VERB · TO SHIFT BETWEEN DIFFERENT WAYS OF SPEAKING DEPENDING ON WHO YOU'RE TALKING TO</div>
+        <div class="phrase-collocations">often paired with: <em>code-switch between, code-switch effortlessly, learn to code-switch</em></div>
+        <div class="phrase-def">It's the small, often unconscious adjustment people make as they move between different audiences — speaking one way with colleagues, another way with old friends, and a completely different way again the moment they're back in their favorite server.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"She code-switches without even noticing it now — technical and precise in the team chat, then completely unhinged the second she's in the meme channel."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-05.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#422006,#a16207);">📖</div>
+      <div class="phrase-body">
+        <div class="phrase-num">06</div>
+        <div class="phrase-word">lexicon</div>
+        <div class="phrase-tag">NOUN · THE PARTICULAR STOCK OF WORDS AND EXPRESSIONS THAT BELONG TO A GROUP, FIELD, OR PERSON</div>
+        <div class="phrase-collocations">often paired with: <em>build a lexicon, enter the lexicon, a shared lexicon</em></div>
+        <div class="phrase-def">It's the working vocabulary a group quietly assembles over time — partly borrowed, partly invented, and entirely its own — until newcomers realize they're going to need a small glossary just to follow a conversation.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Every guild seems to develop its own little lexicon within a few weeks — words that would mean absolutely nothing to anyone outside it."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-06.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e293b,#475569);">🐶</div>
+      <div class="phrase-body">
+        <div class="phrase-num">07</div>
+        <div class="phrase-word">dog-whistle</div>
+        <div class="phrase-tag">NOUN · A PHRASE THAT SOUNDS ORDINARY TO MOST PEOPLE BUT CARRIES A SHARPER, CODED MEANING TO A SPECIFIC AUDIENCE</div>
+        <div class="phrase-collocations">often paired with: <em>a coded dog-whistle, recognize the dog-whistle, dismiss it as a dog-whistle</em></div>
+        <div class="phrase-def">It's language built to do two jobs at once — innocent enough to slide past most listeners unnoticed, while landing, fully intended, on the small audience that already knows exactly what's really being said.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"What sounded like an innocent joke to most people was actually a dog-whistle — a phrase the in-group recognized instantly, and everyone else just scrolled past."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-07.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#581c87,#9333ea);">🙄</div>
+      <div class="phrase-body">
+        <div class="phrase-num">08</div>
+        <div class="phrase-word">normie</div>
+        <div class="phrase-tag">NOUN (INFORMAL, OFTEN DISMISSIVE) · SOMEONE SEEN AS TOO ORDINARY OR MAINSTREAM TO REALLY BELONG TO A NICHE COMMUNITY</div>
+        <div class="phrase-collocations">often paired with: <em>call someone a normie, normie behavior, "very normie of you"</em></div>
+        <div class="phrase-def">It's a label a community sometimes reaches for to mark the distance between "us" and "everyone else" — half-joking, occasionally a little sharper than it sounds, and always revealing more about the group doing the labeling than about the person being labeled.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"He says it jokingly, but there's always a little edge to it when he calls someone a normie for not knowing the lore."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-08.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" disabled>← Previous</button>
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">Language Focus →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-langfocus">
+    <div class="section-title">Language Focus: Modal Verbs of Deduction & Speculation</div>
+    <div class="section-sub">The quiet art of guessing out loud — how confident you sound depends entirely on which modal you reach for</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e1b4b,#6366f1);">💯</div>
+      <div class="phrase-body">
+        <div class="phrase-num">01</div>
+        <div class="phrase-word">must be</div>
+        <div class="phrase-tag">MODAL OF DEDUCTION (PRESENT) · A CONFIDENT CONCLUSION BASED ON THE EVIDENCE IN FRONT OF YOU</div>
+        <div class="phrase-collocations">often paired with: <em>must be joking, must be a smurf, that must be exhausting</em></div>
+        <div class="phrase-def">It's the modal you reach for when the evidence basically leaves you no other option — not a wild guess, but the conclusion that simply makes the most sense of everything you're seeing.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"They must be a smurf — nobody plays like that in their first week."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-langfocus-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#134e4a,#0d9488);">🚫</div>
+      <div class="phrase-body">
+        <div class="phrase-num">02</div>
+        <div class="phrase-word">can't have been</div>
+        <div class="phrase-tag">MODAL OF DEDUCTION (PAST, NEGATIVE) · CONFIDENTLY RULING SOMETHING OUT ABOUT THE PAST</div>
+        <div class="phrase-collocations">often paired with: <em>can't have been easy, can't have been their first time, can't have been a coincidence</em></div>
+        <div class="phrase-def">It's the mirror image of "must have been" — the moment you look back at something and decide, with real confidence, that it simply could not have happened the way it first appeared to.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"That can't have been their first time in this raid; they knew exactly where to stand."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-langfocus-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#451a03,#c2410c);">🤷</div>
+      <div class="phrase-body">
+        <div class="phrase-num">03</div>
+        <div class="phrase-word">might just be</div>
+        <div class="phrase-tag">MODAL OF SPECULATION · A SOFT, LOW-COMMITMENT GUESS THAT LEAVES PLENTY OF ROOM TO BE WRONG</div>
+        <div class="phrase-collocations">often paired with: <em>might just be tired, might just be nerves, might just be a fluke</em></div>
+        <div class="phrase-def">It's the gentlest way to float a possibility — not a claim, barely even a guess, just a small "here's one thing it could be" offered without much weight behind it at all.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"She might just be having an off night — I wouldn't read too much into one bad game."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-langfocus-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#312e81,#4f46e5);">🔇</div>
+      <div class="phrase-body">
+        <div class="phrase-num">04</div>
+        <div class="phrase-word">may have</div>
+        <div class="phrase-tag">MODAL OF SPECULATION (PAST) · A FAIR, EVEN-HANDED GUESS ABOUT WHAT POSSIBLY HAPPENED</div>
+        <div class="phrase-collocations">often paired with: <em>may have missed it, may have muted the chat, may have misread the situation</em></div>
+        <div class="phrase-def">It's the modal of giving someone the benefit of the doubt — naming a possible explanation for what they did, without ever pretending you actually know what really went on in their head.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"He may have muted the chat the second it started getting toxic, to be fair to him."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-langfocus-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#7f1d1d,#b91c1c);">😤</div>
+      <div class="phrase-body">
+        <div class="phrase-num">05</div>
+        <div class="phrase-word">should have been</div>
+        <div class="phrase-tag">MODAL OF EXPECTATION (UNMET) · POINTING OUT THE GAP BETWEEN WHAT WAS EXPECTED AND WHAT ACTUALLY HAPPENED</div>
+        <div class="phrase-collocations">often paired with: <em>should have been easy, should have been over by now, should have been more careful</em></div>
+        <div class="phrase-def">It's the phrase that quietly carries a little disappointment inside it — naming the outcome that, by any reasonable measure, really ought to have happened, and didn't.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Honestly, this should have been an easy win for a team that's been practicing for months."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-langfocus-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#422006,#a16207);">🔮</div>
+      <div class="phrase-body">
+        <div class="phrase-num">06</div>
+        <div class="phrase-word">would have seen</div>
+        <div class="phrase-tag">MODAL OF HYPOTHETICAL DEDUCTION (PAST) · WHAT WOULD CLEARLY HAVE BEEN OBVIOUS TO SOMEONE IN THE RIGHT POSITION</div>
+        <div class="phrase-collocations">often paired with: <em>would have seen it coming, would have known better, would have noticed</em></div>
+        <div class="phrase-def">It's the modal for pointing backward at a missed signal — laying out, with a little hindsight, exactly what someone in the right position would surely have picked up on, if only they'd been paying attention.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Anyone who'd actually read the patch notes would have seen that nerf coming a mile away."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-langfocus-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e293b,#475569);">😂</div>
+      <div class="phrase-body">
+        <div class="phrase-num">07</div>
+        <div class="phrase-word">can't help but</div>
+        <div class="phrase-tag">EXPRESSION OF INVOLUNTARY REACTION · SOMETHING YOU DO ALMOST AUTOMATICALLY, WHETHER YOU MEAN TO OR NOT</div>
+        <div class="phrase-collocations">often paired with: <em>can't help but laugh, can't help but wonder, can't help but notice</em></div>
+        <div class="phrase-def">It's the phrase for the reaction that just slips out — the laugh, the eye-roll, the little gasp — happening on its own, faster than you could ever decide whether to hold it back.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"I can't help but laugh every time someone tries that strategy — it never, ever works."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-langfocus-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#581c87,#9333ea);">👀</div>
+      <div class="phrase-body">
+        <div class="phrase-num">08</div>
+        <div class="phrase-word">seem to</div>
+        <div class="phrase-tag">VERB OF IMPRESSION · DESCRIBING HOW SOMETHING APPEARS, WHILE QUIETLY LEAVING ROOM FOR DOUBT</div>
+        <div class="phrase-collocations">often paired with: <em>seem to know, seem to enjoy, seem to think</em></div>
+        <div class="phrase-def">It's a softening verb — a way of describing your impression of something while gently signaling that it's only an impression, and that you're leaving the door open in case the full picture turns out to be different.</div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"They seem to know everyone in the server already, which is a little intimidating for a newcomer."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-langfocus-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('vocabulary')">← Vocabulary</button>
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">In Use →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-inuse">
+    <div class="section-title">In Use</div>
+    <div class="section-sub">Watch the same ideas about belonging and language shift register — from a sociolinguistics lecture, to a community-manager panel, to a server chat at 1am</div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#1e1b4b,#6366f1)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422A12.083 12.083 0 0119 16.5c0 1-1 2-1 2H6s-1-1-1-2a12.083 12.083 0 01.84-5.922L12 14z"/><path d="M12 14v7"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-academic">Lecture / Sociolinguistics</span><span class="stream-title">On the Construction of In-Group Identity</span></div>
+      <p class="stream-text">
+        "Online gaming communities offer a remarkably compact case study in how groups construct linguistic identity. Within weeks, a new server develops its own <span class="hl">vernacular</span> — abbreviations, in-jokes, half-borrowed slang — and that vernacular quickly hardens into something closer to a <span class="hl">shibboleth</span>: a small, almost invisible test that separates those who belong from those who merely visit. What looks, from the outside, like nonsense or noise is, on closer inspection, an entire social architecture, built and maintained largely through word choice alone."
+      </p>
+      <div class="inaction-note">Notice the careful, observational distance — "offers a case study," "on closer inspection." The lecture register names the mechanism without ever stepping inside it; the speaker studies belonging from a comfortable arm's length.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-inuse-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#134e4a,#0d9488)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l1.586-1.586z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-panel">Community Manager Panel</span><span class="stream-title">Panel — "How to Read a Server's Health"</span></div>
+      <p class="stream-text">
+        "Honestly, you can tell how healthy a community is just by listening to how people talk to newcomers. In the good servers, someone will gently translate the <span class="hl">lexicon</span> for you — 'oh, when they say that, they just mean...' — and you feel welcomed in. In the rough ones, it's pure <span class="hl">gatekeeping</span>: somebody <span class="hl">must be</span> testing you, asking questions they already know the answer to, just waiting for you to slip up so they can dismiss you as a <span class="hl">normie</span>. Same words, completely different intentions underneath them."
+      </p>
+      <div class="inaction-note">A confident, conversational register — "honestly," "you can tell" — that mixes a real observation with a small live deduction ("somebody must be testing you") right in the middle of explaining the pattern. The speaker performs the very habit of reading a room that they're describing.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-inuse-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#581c87,#9333ea)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-social">Server Chat</span><span class="stream-title">Thread — "two months in and still lost"</span></div>
+      <p class="stream-text">
+        "ok genuine question — how long was everyone else lurking before they actually felt like they could post in this server without getting roasted?? i've been here like two months and i STILL can't tell which jokes are <span class="hl">in-jokes</span> and which ones are just. things people say. someone explain the whole 'goblin mode' thing to me i feel like i missed some kind of orientation lol"
+      </p>
+      <div class="inaction-note">Compare this to the lecture above — the exact same experience (decoding a group's vernacular from the outside) but lived from the inside, in real time, with no analytical distance at all. Capitals, run-on questions, and "lol" do the emotional work that "on closer inspection" did up there.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/language-in-gaming-communities-inuse-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">← Language Focus</button>
+      <button class="lesson-nav-btn" onclick="goToTab('register')">Register & Stance →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-register">
+    <div class="section-title">Register & Stance</div>
+    <div class="section-sub">How speculation changes shape across contexts — from the careful hedge of a lecture to the blunt certainty of a chat message at midnight</div>
+
+    <div class="register-table">
+      <table>
+        <thead><tr><th>Context</th><th>Typical Stance</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>Sociolinguistics lecture</strong><br><span style="font-size:12px;color:var(--muted)">Formal, analytical, hedged</span></td>
+            <td><span class="register-tag tag-high">Highly formal</span></td>
+            <td><em>"This pattern would, in most cases, be best understood as a marker of group identity rather than mere shorthand."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Community guidelines post</strong><br><span style="font-size:12px;color:var(--muted)">Careful, official, even-handed</span></td>
+            <td><span class="register-tag tag-high">Highly formal</span></td>
+            <td><em>"Such language may be perceived as exclusionary, even when no harm is intended by the person using it."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Community manager panel</strong><br><span style="font-size:12px;color:var(--muted)">Conversational, confident, a little blunt</span></td>
+            <td><span class="register-tag tag-med">Semi-formal</span></td>
+            <td><em>"Honestly, you can usually tell within five minutes whether a server's gatekeeping or just having fun."</em></td>
+          </tr>
+          <tr>
+            <td><strong>In-server voice chat</strong><br><span style="font-size:12px;color:var(--muted)">Informal, quick, often joking</span></td>
+            <td><span class="register-tag tag-med">Semi-formal</span></td>
+            <td><em>"Wait, they must be new — nobody who's been here a week says 'good game' unironically."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Comments / forum thread</strong><br><span style="font-size:12px;color:var(--muted)">Informal, blunt, fast and certain</span></td>
+            <td><span class="register-tag tag-none">Informal / emotional</span></td>
+            <td><em>"ok that HAS to be a bot, there's no way a real person types that fast"</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tip-list">
+      <div class="tip green"><span class="tip-icon">✅</span><span>The same guess can be dressed in very different clothes depending on where it's made — "this would, in most cases, suggest..." in a lecture and "ok that HAS to be a bot" in a comment thread are doing the exact same job of speculating, just at opposite ends of the confidence dial.</span></div>
+      <div class="tip blue"><span class="tip-icon">💡</span><span>Watch how formal registers tend to soften their guesses — "may be perceived as," "would, in most cases" — while informal ones often do the opposite, reaching for "must," "has to be," and "no way" to make a guess sound like a verdict.</span></div>
+      <div class="tip amber"><span class="tip-icon">⚠️</span><span>"Confident-sounding" and "correct" aren't the same thing. A chat message that says someone "must be smurfing" carries exactly the same evidential weight as a lecture that hedges with "this would suggest" — the certainty is just dialed up for effect.</span></div>
+      <div class="tip red"><span class="tip-icon">❌</span><span>Don't let a blunt modal fool you into thinking the speaker actually knows more than they do. "Has to be," "no way," and "100% must be" often just mean "I'm fairly sure" said loudly — translating them down a register can be a useful gut-check.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">← In Use</button>
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">Forum Corner →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-reading">
+    <div class="section-title">Forum Corner</div>
+    <div class="section-sub">Read a forum post about settling into a new server, and click words from the bank to fill in the gaps</div>
+
+    <div class="word-bank">
+      <div class="word-bank-label">Word bank</div>
+      <div class="bank-chips" id="blogBankChips">
+        <div class="chip" data-phrase="vernacular" onclick="selectChip(this)">vernacular</div>
+        <div class="chip" data-phrase="gatekeeping" onclick="selectChip(this)">gatekeeping</div>
+        <div class="chip" data-phrase="lexicon" onclick="selectChip(this)">lexicon</div>
+        <div class="chip" data-phrase="in-joke" onclick="selectChip(this)">in-joke</div>
+        <div class="chip" data-phrase="code-switch" onclick="selectChip(this)">code-switch</div>
+        <div class="chip" data-phrase="shibboleth" onclick="selectChip(this)">shibboleth</div>
+        <div class="chip" data-phrase="dog-whistle" onclick="selectChip(this)">dog-whistle</div>
+        <div class="chip" data-phrase="normie" onclick="selectChip(this)">normie</div>
+      </div>
+    </div>
+
+    <div class="reading-card">
+      <div class="reading-title">Two Months In: What Nobody Tells You About Joining a New Server</div>
+      <div class="reading-byline">A short forum post — fill in the blanks with words from the bank above, then check your answers</div>
+      <div class="reading-body">
+        <p>When I first joined, I genuinely thought I was bad at the game. Turns out I was actually just bad at the <span class="fill-slot" id="fs6" data-answer="vernacular" onclick="placeOrClear('fs6')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb6"></span> — half the callouts in voice chat made no sense to me, and everyone else seemed to understand them instantly, like they'd all gone to the same school I'd somehow missed.</p>
+
+        <p>The first week felt like a wall of pure <span class="fill-slot" id="fs7" data-answer="gatekeeping" onclick="placeOrClear('fs7')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb7"></span>. Someone would ask me a question I clearly didn't know the answer to, then sigh like I'd failed some test I never knew I was taking. It took me a while to realize that wasn't actually about me at all — it was just how that particular person treated anyone new.</p>
+
+        <p>What helped more than anything was finding one person willing to quietly walk me through the <span class="fill-slot" id="fs8" data-answer="lexicon" onclick="placeOrClear('fs8')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb8"></span> — what "ratio'd" meant, why everyone kept typing "F," that sort of thing. Within a week I went from confused outsider to laughing at an <span class="fill-slot" id="fs9" data-answer="in-joke" onclick="placeOrClear('fs9')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb9"></span> for the first time, and it honestly felt like a small personal victory.</p>
+
+        <p>I've also noticed I <span class="fill-slot" id="fs10" data-answer="code-switch" onclick="placeOrClear('fs10')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb10"></span> without even trying now — I talk one way in this server and a completely different way with my actual friends, and it took me a minute to even notice I was doing it. There's apparently one phrase that works as a kind of <span class="fill-slot" id="fs11" data-answer="shibboleth" onclick="placeOrClear('fs11')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb11"></span> here too — say it the way the regulars do, and people relax around you almost instantly.</p>
+
+        <p>The one thing I'd warn newcomers about: every so often someone drops what sounds like an offhand joke that's actually a <span class="fill-slot" id="fs12" data-answer="dog-whistle" onclick="placeOrClear('fs12')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb12"></span> aimed at a much smaller, much less friendly audience — and most people in the server won't even clock it. And yes, I did get called a <span class="fill-slot" id="fs13" data-answer="normie" onclick="placeOrClear('fs13')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb13"></span> exactly once, on day three, and I'm choosing to wear it as a badge of honor.</p>
+      </div>
+    </div>
+
+    <button class="check-btn" onclick="checkBlogFill()">Check answers</button>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('register')">← Register & Stance</button>
+      <button class="lesson-nav-btn" onclick="goToTab('analysis')">Analysis Tasks →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-analysis">
+    <div class="section-title">Analysis Tasks</div>
+    <div class="section-sub">Identify, name, and evaluate — three exercises in the language of guessing out loud</div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 1</div>
+      <h3>Match the Line to What It's Doing</h3>
+      <p class="ex-desc">Click a line on the left, then find the description on the right that matches what the speaker is actually doing when they say it.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Lines from players</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">"They must be smurfing — there's no way someone hits diamond in their first ten games."</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">"She can't have meant it like that — she's never been rude to anyone before."</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">"He might just be nervous — it's his first scrim with the team."</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">"Honestly, this patch should have fixed that bug weeks ago."</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">"Anyone who'd played the beta would have seen this nerf coming."</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">"They seem to know the whole roster already — must've been lurking for a while."</div>
+        </div>
+        <div>
+          <div class="match-col-label">What it's doing</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">Offers a gentle, low-stakes guess that leaves plenty of room to be wrong</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">Draws a confident conclusion because the alternative barely seems possible</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">Looks back with hindsight at a signal that, in retrospect, was easy to miss</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">Rules out a past explanation with real confidence, based on what's already known</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">Softens an impression while still venturing a guess about what's really going on</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">Points out the gap between what was reasonably expected and what actually happened</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 2</div>
+      <h3>Name the Move</h3>
+      <p class="ex-desc">Each quote below relies on one particular kind of modal speculation. Pick the matching name from the bank, then click the blank to complete the analysis.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Move bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="confident deduction" onclick="selectChip(this)">confident deduction</div>
+          <div class="chip" data-phrase="ruling out the past" onclick="selectChip(this)">ruling out the past</div>
+          <div class="chip" data-phrase="soft speculation" onclick="selectChip(this)">soft speculation</div>
+          <div class="chip" data-phrase="unmet expectation" onclick="selectChip(this)">unmet expectation</div>
+          <div class="chip" data-phrase="hindsight judgment" onclick="selectChip(this)">hindsight judgment</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Quote:</strong> "They must be using a script — nobody reacts that fast."</div>
+        <div class="fill-rewrite">
+          This line is a clear case of
+          <span class="fill-slot" id="fs1" data-answer="confident deduction" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+          — the evidence leaves the speaker with what feels like only one reasonable conclusion.
+          <span class="fill-feedback" id="fb1"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Quote:</strong> "That can't have been a fair match — the teams were wildly unbalanced."</div>
+        <div class="fill-rewrite">
+          The speaker is
+          <span class="fill-slot" id="fs2" data-answer="ruling out the past" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+          , confidently dismissing one possible reading of what already happened.
+          <span class="fill-feedback" id="fb2"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Quote:</strong> "She might just be testing out a new build, who knows."</div>
+        <div class="fill-rewrite">
+          This is a textbook example of
+          <span class="fill-slot" id="fs3" data-answer="soft speculation" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+          — a guess offered so lightly it barely commits to anything at all.
+          <span class="fill-feedback" id="fb3"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Quote:</strong> "This update should have gone so much more smoothly than it did."</div>
+        <div class="fill-rewrite">
+          Naming the gap between what was reasonable to expect and what actually occurred is
+          <span class="fill-slot" id="fs4" data-answer="unmet expectation" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+          in action.
+          <span class="fill-feedback" id="fb4"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Quote:</strong> "Looking back, we would have spotted the leak a mile away."</div>
+        <div class="fill-rewrite">
+          This is
+          <span class="fill-slot" id="fs5" data-answer="hindsight judgment" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+          — confidently naming, after the fact, what should have been obvious all along.
+          <span class="fill-feedback" id="fb5"></span>
+        </div>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Answers</button>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 3</div>
+      <h3>Evaluate the Hedge</h3>
+      <p class="ex-desc">Is the level of confidence in each line well-judged for the situation, or does it have a problem? Consider over-hedging, overconfidence, and whether the guess is doing fair work.</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"I think they might possibly perhaps be a smurf, maybe, I'm not totally sure though."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(1,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"They must be cheating — I just know it, end of discussion."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(2,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"He may have just had a bad connection — that happens to everyone sometimes."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(3,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"This obviously, definitely, 100% should have been patched on day one, no excuses."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(4,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"Looking back, I probably should have asked what they meant before assuming the worst."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(5,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <div class="disc-card">
+      <h3>🗣 Further Discussion</h3>
+      <div class="disc-item"><div class="disc-num">1</div><span>Every community seems to develop its own shibboleths — small words or habits that quietly sort "us" from "them." Can you think of one from a group you belong to, and how someone new would ever learn it?</span></div>
+      <div class="disc-item"><div class="disc-num">2</div><span>Is gatekeeping ever actually useful — a way of protecting something a community has built — or is it always, in the end, just exclusion wearing a more respectable name?</span></div>
+      <div class="disc-item"><div class="disc-num">3</div><span>Notice how often people reach for "must be" instead of "might be" when they're talking about strangers online. What does that small choice of modal verb reveal about how much benefit of the doubt we extend to people we've never met?</span></div>
+      <div class="disc-item"><div class="disc-num">4</div><span>Code-switching between a server's vernacular and "normal" speech happens almost automatically for a lot of people. Have you ever caught yourself doing it — and did it feel natural, or oddly like translating?</span></div>
+      <div class="disc-item"><div class="disc-num">5</div><span>"Normie" can be affectionate, dismissive, or somewhere in between depending on tone and context. How much do you think a single label like that can shape whether someone feels welcome in a space — or quietly decides to leave it?</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">← Forum Corner</button>
+      <button class="lesson-nav-btn" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+  </div>
+
+<script>
+  const tabs = ['vocabulary','langfocus','inuse','register','reading','analysis'];
+  const completedTabs = new Set();
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause(); currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
+    }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
+  }
+
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++; document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el; el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = ''; return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+  function checkBlogFill() {
+    [6,7,8,9,10,11,12,13].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  const errorAnswers = { 1:true, 2:true, 3:false, 4:true, 5:false };
+  const errorExplanations = {
+    1: { fix:true,  msg:"Problem: over-hedging. Stacking 'might,' 'possibly,' 'perhaps,' and 'maybe' on top of each other doesn't make the guess more careful — it just buries it, until the listener can't tell whether the speaker thinks anything at all." },
+    2: { fix:true,  msg:"Problem: overconfidence dressed up as deduction. 'Must be' already signals a fairly strong conclusion — adding 'I just know it, end of discussion' turns a reasonable guess into something that shuts the conversation down rather than inviting anyone to weigh in." },
+    3: { fix:false, msg:"Appropriate. 'May have' is a fair, even-handed way to offer a possible explanation — it gives the other person the benefit of the doubt without pretending to know what actually happened." },
+    4: { fix:true,  msg:"Problem: certainty markers piled on certainty markers. 'Obviously, definitely, 100%' all do the same job as 'should have been' — saying it four times in a row doesn't make the claim four times as true, just four times as loud." },
+    5: { fix:false, msg:"Appropriate. A measured 'probably should have' paired with genuine self-reflection is exactly the kind of hedge that makes a hindsight judgment land as thoughtful rather than accusatory — aimed inward instead of outward." },
+  };
+  function checkError(num, userAnswer) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userAnswer && userAnswer !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>
