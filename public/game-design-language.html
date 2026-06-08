@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practispeak | Game Design Language</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #f0f4ff;
+      --white:    #ffffff;
+      --blue:     #4f46e5;
+      --blue-lt:  #eef2ff;
+      --blue-bd:  #c7d2fe;
+      --blue-dk:  #4338ca;
+      --text:     #1e293b;
+      --muted:    #64748b;
+      --border:   #e2e8f0;
+      --red-bg:   #fff1f2;
+      --red:      #e11d48;
+      --green-bg: #f0fdf4;
+      --green:    #16a34a;
+      --amber:    #d97706;
+      --radius:   16px;
+      --shadow:   0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    .nav { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 15px; }
+    .nav-back { font-size: 14px; color: var(--muted); }
+    .nav-back:hover { color: var(--text); }
+    .hero { background: var(--bg); padding: 48px 32px 0; max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--blue-bd); color: var(--blue); background: var(--blue-lt); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
+    .hero-level { font-size: 11px; background: var(--blue); color: white; border-radius: 10px; padding: 1px 7px; font-weight: 700; }
+    .hero h1 { font-size: 36px; font-weight: 800; line-height: 1.2; margin-bottom: 10px; }
+    .hero-sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+    .progress-wrap { display: flex; align-items: center; gap: 12px; }
+    .progress-bar { flex: 1; max-width: 320px; height: 8px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--blue); border-radius: 99px; width: 0%; transition: width .4s ease; }
+    .progress-pct { font-size: 13px; font-weight: 600; color: var(--blue); }
+    .hero-img { width: 220px; height: 160px; background: linear-gradient(135deg,#312e81,#4f46e5); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 64px; }
+    .tab-nav-wrap { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 60px; z-index: 99; margin-top: 32px; }
+    .tab-nav { max-width: 1100px; margin: 0 auto; padding: 0 32px; display: flex; }
+    .tab-btn { padding: 14px 18px; font-size: 13px; font-weight: 500; color: var(--muted); border: none; background: none; cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px; display: flex; align-items: center; gap: 6px; transition: color .15s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); font-weight: 600; border-bottom-color: var(--blue); }
+    .tab-btn .check { color: var(--blue); font-size: 12px; }
+    .content { max-width: 1100px; margin: 0 auto; padding: 40px 32px 80px; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .section-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+    /* Vocab cards */
+    .phrase-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 24px; }
+    .phrase-card.flip { direction: rtl; }
+    .phrase-card.flip > * { direction: ltr; }
+    .phrase-img { min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 72px; }
+    .phrase-body { padding: 32px 36px; display: flex; flex-direction: column; justify-content: center; }
+    .phrase-num { font-size: 13px; font-weight: 700; color: var(--blue); margin-bottom: 6px; letter-spacing: .05em; }
+    .phrase-word { font-size: 22px; font-weight: 800; line-height: 1.25; margin-bottom: 8px; }
+    .phrase-tag { display: inline-block; border: 1.5px solid var(--blue-bd); color: var(--blue-dk); background: var(--blue-lt); font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 20px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: .05em; }
+    .phrase-collocations { font-size: 12px; color: var(--muted); margin-bottom: 12px; line-height: 1.5; }
+    .phrase-collocations strong { color: var(--blue-dk); }
+    .phrase-def { color: var(--text); font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
+    .phrase-example-label { font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+    .phrase-example { font-style: italic; color: var(--text); font-size: 14px; margin-bottom: 18px; line-height: 1.6; }
+    .listen-col { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+    .audio-player { display: flex; align-items: center; gap: 10px; background: none; border: none; cursor: pointer; padding: 0; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); }
+    .audio-player:hover .ap-btn, .audio-player.playing .ap-btn { background: var(--blue-dk); }
+    .ap-btn { width: 32px; height: 32px; background: var(--blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background .15s; }
+    .ap-btn svg { fill: white; width: 12px; height: 12px; }
+    .wave { display: flex; align-items: center; gap: 2px; height: 16px; }
+    .wave span { display: block; width: 3px; background: var(--border); border-radius: 2px; transition: background .15s; }
+    .audio-player.playing .wave span { background: var(--blue); animation: wavebar .6s ease-in-out infinite alternate; }
+    .wave span:nth-child(1){height:4px;animation-delay:0s} .wave span:nth-child(2){height:8px;animation-delay:.1s} .wave span:nth-child(3){height:14px;animation-delay:.2s} .wave span:nth-child(4){height:10px;animation-delay:.05s} .wave span:nth-child(5){height:6px;animation-delay:.15s} .wave span:nth-child(6){height:12px;animation-delay:.25s} .wave span:nth-child(7){height:8px;animation-delay:.1s} .wave span:nth-child(8){height:5px;animation-delay:.2s} .wave span:nth-child(9){height:9px;animation-delay:.05s} .wave span:nth-child(10){height:4px;animation-delay:.15s}
+    @keyframes wavebar { from { transform: scaleY(0.4); } to { transform: scaleY(1.2); } }
+
+    /* Grammar/language note */
+    .grammar-note { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-top: 16px; border-left: 4px solid var(--blue); }
+    .grammar-note h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+    .grammar-note p { font-size: 14px; color: var(--muted); margin-bottom: 16px; line-height: 1.7; }
+    .grammar-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .grammar-col { background: var(--bg); border-radius: 10px; padding: 16px 20px; }
+    .grammar-col h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 10px; }
+    .grammar-row { font-size: 13px; margin-bottom: 7px; line-height: 1.5; color: var(--text); }
+    .grammar-row code { font-family: 'Inter', sans-serif; font-style: italic; color: var(--blue-dk); }
+    .grammar-examples { margin-top: 20px; }
+    .grammar-examples h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--blue); margin-bottom: 12px; }
+    .grammar-example-list { display: flex; flex-direction: column; gap: 8px; }
+    .grammar-example-item { background: var(--bg); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; }
+    .grammar-example-item em { color: var(--blue-dk); font-style: italic; }
+    .grammar-example-item span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .grammar-warn { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin-top: 16px; line-height: 1.6; }
+
+    /* In Use */
+    .stream-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 28px; }
+    .inaction-img { height: 160px; display: flex; align-items: center; justify-content: center; color: #a5b4fc; }
+    .inaction-img svg { width: 48px; height: 48px; }
+    .stream-platform { display: flex; align-items: center; gap: 10px; padding: 18px 24px 8px; }
+    .platform-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: .06em; text-transform: uppercase; }
+    .badge-academic { background: var(--blue-lt); color: var(--blue-dk); }
+    .badge-panel { background: #f0fdf4; color: #15803d; }
+    .badge-social { background: #fff7ed; color: #c2410c; }
+    .stream-title { font-size: 14px; font-weight: 700; color: var(--text); }
+    .stream-text { padding: 0 24px 16px; font-size: 14px; line-height: 1.9; color: var(--text); }
+    .hl { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .inaction-note { margin: 0 24px 16px; background: var(--bg); border-radius: 10px; padding: 12px 16px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .inaction-audio { padding: 0 24px 24px; }
+
+    /* Register */
+    .register-table { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; }
+    .register-table table { width: 100%; border-collapse: collapse; }
+    .register-table th { background: var(--bg); text-align: left; padding: 12px 20px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .register-table td { padding: 16px 20px; font-size: 13px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.6; }
+    .register-table tr:last-child td { border-bottom: none; }
+    .register-table td em { color: var(--blue-dk); }
+    .register-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 20px; letter-spacing: .04em; }
+    .tag-high { background: #ede9fe; color: #5b21b6; }
+    .tag-med { background: var(--blue-lt); color: var(--blue-dk); }
+    .tag-low { background: #fef9c3; color: #854d0e; }
+    .tag-none { background: #fee2e2; color: #991b1b; }
+    .tip-list { display: flex; flex-direction: column; gap: 12px; }
+    .tip { display: flex; gap: 12px; align-items: flex-start; background: var(--white); border-radius: 12px; padding: 14px 18px; box-shadow: var(--shadow); font-size: 13px; line-height: 1.6; }
+    .tip.green { border-left: 4px solid var(--green); }
+    .tip.blue { border-left: 4px solid var(--blue); }
+    .tip.amber { border-left: 4px solid #f59e0b; }
+    .tip.red { border-left: 4px solid var(--red); }
+    .tip-icon { font-size: 16px; flex-shrink: 0; }
+
+    /* Critical Reading */
+    .reading-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 36px 40px; margin-bottom: 28px; }
+    .reading-title { font-size: 20px; font-weight: 800; margin-bottom: 6px; }
+    .reading-byline { font-size: 13px; color: var(--muted); margin-bottom: 28px; font-style: italic; }
+    .reading-body { font-size: 15px; line-height: 1.9; color: var(--text); }
+    .reading-body p { margin-bottom: 20px; }
+    .reading-body p:last-child { margin-bottom: 0; }
+    .reading-body mark { background: #e0e7ff; color: #3730a3; padding: 1px 4px; border-radius: 4px; font-weight: 600; }
+    .analysis-questions { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .analysis-questions h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+    .aq-intro { font-size: 14px; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
+    .aq-item { margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+    .aq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .aq-num { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; background: var(--blue); color: white; border-radius: 50%; font-size: 12px; font-weight: 700; margin-right: 10px; flex-shrink: 0; vertical-align: middle; }
+    .aq-question { font-size: 14px; font-weight: 600; line-height: 1.6; margin-bottom: 8px; }
+    .aq-prompt { font-size: 13px; color: var(--muted); line-height: 1.6; font-style: italic; }
+
+    .lang-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-top: 16px; }
+    .lang-bank h5 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .lang-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .lang-chip { padding: 5px 12px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 12px; font-weight: 500; color: var(--blue-dk); font-style: italic; }
+
+    /* Nav */
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 40px; }
+    .lesson-nav-btn { background: var(--white); border: 1.5px solid var(--border); border-radius: 10px; padding: 10px 22px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; color: var(--text); transition: border-color .15s, color .15s; }
+    .lesson-nav-btn:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); }
+    .lesson-nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+
+    /* Exercises */
+    .exercise-block { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; margin-bottom: 24px; }
+    .exercise-num { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue); margin-bottom: 4px; }
+    .exercise-block h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
+    .exercise-block p.ex-desc { font-size: 14px; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+    .match-score { font-size: 13px; font-weight: 600; color: var(--blue); margin-bottom: 16px; }
+    .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .match-col-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .match-item { padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 10px; font-size: 13px; line-height: 1.5; cursor: pointer; margin-bottom: 8px; transition: border-color .15s, background .15s; }
+    .match-item:hover { border-color: var(--blue-bd); background: var(--blue-lt); }
+    .match-item.selected { border-color: var(--blue); background: var(--blue-lt); }
+    .match-item.correct { border-color: var(--green); background: var(--green-bg); cursor: default; }
+    .match-item.wrong { border-color: var(--red); background: var(--red-bg); }
+    .word-bank { background: var(--bg); border-radius: 10px; padding: 16px 20px; margin-bottom: 20px; }
+    .word-bank-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin-bottom: 10px; }
+    .bank-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 6px 14px; background: var(--white); border: 1.5px solid var(--blue-bd); border-radius: 20px; font-size: 13px; font-weight: 500; color: var(--blue-dk); cursor: pointer; font-style: italic; transition: background .15s; }
+    .chip:hover { background: var(--blue-lt); }
+    .chip.used { opacity: .3; cursor: not-allowed; }
+    .fill-item { margin-bottom: 20px; padding: 16px 20px; background: var(--bg); border-radius: 12px; font-size: 14px; line-height: 1.7; }
+    .fill-item .original { font-size: 13px; color: var(--muted); margin-bottom: 10px; font-style: italic; }
+    .fill-item .original strong { color: var(--text); font-style: normal; }
+    .fill-rewrite { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+    .fill-slot { display: inline-flex; align-items: center; min-width: 180px; height: 34px; border: 1.5px dashed var(--blue-bd); border-radius: 8px; padding: 0 10px; cursor: pointer; font-size: 13px; font-weight: 500; color: var(--blue-dk); background: var(--white); transition: border-color .15s; font-style: italic; }
+    .fill-slot.filled { border-style: solid; border-color: var(--blue); }
+    .fill-slot.correct { border-color: var(--green); background: var(--green-bg); color: #14532d; cursor: default; }
+    .fill-slot.wrong { border-color: var(--red); background: var(--red-bg); color: #9f1239; }
+    .slot-placeholder { color: var(--muted); font-style: italic; font-size: 12px; font-weight: 400; }
+    .slot-clear { background: none; border: none; cursor: pointer; font-size: 11px; color: var(--muted); margin-left: 6px; }
+    .fill-feedback { font-size: 14px; font-weight: 700; margin-left: 8px; }
+    .fill-feedback.correct { color: var(--green); }
+    .fill-feedback.wrong { color: var(--red); }
+    .check-btn { background: var(--blue); color: #fff; border: none; border-radius: 10px; padding: 10px 24px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; margin-top: 8px; transition: background .15s; }
+    .check-btn:hover { background: var(--blue-dk); }
+    .error-item { background: var(--bg); border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; }
+    .error-sentence { font-size: 14px; font-style: italic; margin-bottom: 12px; line-height: 1.7; }
+    .error-btns { display: flex; gap: 10px; margin-bottom: 10px; }
+    .error-btn { padding: 8px 18px; border: 1.5px solid var(--border); border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; background: var(--white); font-family: 'Inter', sans-serif; transition: border-color .15s; }
+    .error-btn:hover { border-color: var(--blue); }
+    .error-btn.correct-ans { border-color: var(--green); background: var(--green-bg); color: #14532d; }
+    .error-btn.wrong-ans  { border-color: var(--red);   background: var(--red-bg);   color: #9f1239; }
+    .error-feedback { display: none; font-size: 13px; padding: 10px 14px; border-radius: 8px; line-height: 1.6; }
+    .error-feedback.show { display: block; }
+    .error-feedback.good { background: var(--green-bg); color: #14532d; border: 1px solid #bbf7d0; }
+    .error-feedback.fix  { background: var(--red-bg);   color: #9f1239; border: 1px solid #fecdd3; }
+    .disc-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 32px; }
+    .disc-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; }
+    .disc-item { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 16px; font-size: 14px; line-height: 1.6; }
+    .disc-num { width: 28px; height: 28px; background: var(--blue); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-img { display: none; }
+      .phrase-card { grid-template-columns: 1fr; }
+      .phrase-card.flip { direction: ltr; }
+      .grammar-3col { grid-template-columns: 1fr; }
+      .match-grid { grid-template-columns: 1fr; }
+      .tab-nav { overflow-x: auto; }
+      .content { padding: 24px 16px 60px; }
+      .reading-card { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <div class="nav-logo-icon">P</div>
+      <span>Practispeak</span>
+    </div>
+    <a class="nav-back" href="/">← All Lessons</a>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <div class="hero-badge"><span class="hero-level">C1–C2</span> Advanced</div>
+      <h1>Game Design Language</h1>
+      <p class="hero-sub">Passive voice — formal, technical, and informal — and the vocabulary of how games actually get made</p>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+        <span class="progress-pct" id="progressPct">0%</span>
+      </div>
+    </div>
+    <div class="hero-img">🛠️</div>
+  </div>
+
+  <div class="tab-nav-wrap">
+    <div class="tab-nav">
+      <button class="tab-btn active" data-tab="vocabulary">Vocabulary</button>
+      <button class="tab-btn" data-tab="langfocus">Language Focus</button>
+      <button class="tab-btn" data-tab="inuse">In Use</button>
+      <button class="tab-btn" data-tab="register">Register & Stance</button>
+      <button class="tab-btn" data-tab="reading">Forum Corner</button>
+      <button class="tab-btn" data-tab="analysis">Analysis Tasks</button>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <section class="section active" id="tab-vocabulary">
+    <div class="section-title">Vocabulary</div>
+    <div class="section-sub">8 words for talking about how games actually come together — and fall apart</div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e1b4b,#6366f1);">🔁</div>
+      <div class="phrase-body">
+        <div class="phrase-num">01</div>
+        <div class="phrase-word">iteration</div>
+        <div class="phrase-tag">NOUN · A REPEATED CYCLE OF TESTING AND IMPROVING SOMETHING</div>
+        <div class="phrase-collocations">often paired with: <em>go through iteration, an early iteration, rapid iteration</em></div>
+        <div class="phrase-def">Designers rarely get something right on the first try — they build a version, see how it feels, change it, and repeat. <em>Ex: Each new iteration of the boss fight got a little less frustrating and a little more interesting.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Each new iteration of the boss fight got a little less frustrating and a little more interesting."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#134e4a,#0d9488);">🎮</div>
+      <div class="phrase-body">
+        <div class="phrase-num">02</div>
+        <div class="phrase-word">playtesting</div>
+        <div class="phrase-tag">NOUN / GERUND · HAVING REAL PLAYERS TRY A GAME SO YOU CAN WATCH WHAT HAPPENS</div>
+        <div class="phrase-collocations">often paired with: <em>a round of playtesting, internal playtesting, playtesting feedback</em></div>
+        <div class="phrase-def">You can debate a design choice in a meeting for hours, or you can just watch a stranger try to use it for ten minutes. <em>Ex: Three weeks of playtesting told us more about the difficulty curve than three months of internal debate ever could.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Three weeks of playtesting told us more about the difficulty curve than three months of internal debate ever could."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#451a03,#c2410c);">⚙️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">03</div>
+        <div class="phrase-word">mechanic</div>
+        <div class="phrase-tag">NOUN · A CORE RULE OR SYSTEM THAT DEFINES HOW THE GAME IS PLAYED</div>
+        <div class="phrase-collocations">often paired with: <em>a core mechanic, a broken mechanic, a signature mechanic</em></div>
+        <div class="phrase-def">It's the actual thing the player does over and over — jumping, aiming, crafting, sneaking — the building block everything else gets stacked on top of. <em>Ex: The grappling-hook mechanic sounded great on paper, but it broke half the level geometry the moment players got their hands on it.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"The grappling-hook mechanic sounded great on paper, but it broke half the level geometry the moment players got their hands on it."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#312e81,#4f46e5);">⏱️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">04</div>
+        <div class="phrase-word">pacing</div>
+        <div class="phrase-tag">NOUN · THE RHYTHM OF A GAME — HOW IT SPEEDS UP, SLOWS DOWN, AND GIVES YOU ROOM TO BREATHE</div>
+        <div class="phrase-collocations">often paired with: <em>uneven pacing, the pacing drags, tight pacing</em></div>
+        <div class="phrase-def">It's not about any single moment — it's about how those moments are spaced out, and whether the game knows when to slow down. <em>Ex: Good pacing is invisible — you only really notice it when a game gets it wrong.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Good pacing is invisible — you only really notice it when a game gets it wrong."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-04.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e3a5f,#1d4ed8);">🧪</div>
+      <div class="phrase-body">
+        <div class="phrase-num">05</div>
+        <div class="phrase-word">prototype</div>
+        <div class="phrase-tag">NOUN · A ROUGH, EARLY VERSION BUILT TO TEST WHETHER AN IDEA ACTUALLY WORKS</div>
+        <div class="phrase-collocations">often paired with: <em>a rough prototype, build a prototype, prototype stage</em></div>
+        <div class="phrase-def">It's not meant to look good — it's meant to answer one question fast: is this idea actually fun, or does it just sound fun? <em>Ex: The first prototype was held together with placeholder art and a bit of hope, but the core idea was already there.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"The first prototype was held together with placeholder art and a bit of hope, but the core idea was already there."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-05.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#7f1d1d,#b91c1c);">📐</div>
+      <div class="phrase-body">
+        <div class="phrase-num">06</div>
+        <div class="phrase-word">scope</div>
+        <div class="phrase-tag">NOUN · THE PLANNED SIZE AND RANGE OF A PROJECT — WHAT IT WILL AND WON'T INCLUDE</div>
+        <div class="phrase-collocations">often paired with: <em>cut from the scope, scope creep, the scope of the project</em></div>
+        <div class="phrase-def">It's the line between "everything we'd love to make" and "everything we can actually finish" — and that line moves more often than anyone would like. <em>Ex: Cutting two biomes from the scope was painful, but it's the reason the game actually shipped.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Cutting two biomes from the scope was painful, but it's the reason the game actually shipped."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-06.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#422006,#a16207);">✨</div>
+      <div class="phrase-body">
+        <div class="phrase-num">07</div>
+        <div class="phrase-word">polish</div>
+        <div class="phrase-tag">NOUN · THE FINAL ROUND OF SMALL FIXES THAT MAKE SOMETHING FEEL FINISHED</div>
+        <div class="phrase-collocations">often paired with: <em>add polish, lacks polish, a polish pass</em></div>
+        <div class="phrase-def">It's everything that happens after the game already "works" — the small touches that make the difference between functional and genuinely satisfying. <em>Ex: Polish is the last ten percent of the work that somehow takes up ninety percent of the time.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Polish is the last ten percent of the work that somehow takes up ninety percent of the time."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-07.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e293b,#475569);">⚖️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">08</div>
+        <div class="phrase-word">balancing</div>
+        <div class="phrase-tag">NOUN / GERUND · ADJUSTING NUMBERS AND RULES SO NOTHING IS TOO STRONG OR TOO WEAK</div>
+        <div class="phrase-collocations">often paired with: <em>a balancing pass, balancing patch, constantly balancing</em></div>
+        <div class="phrase-def">It's the never-ending job of making sure no single strategy, weapon, or character quietly takes over the entire game. <em>Ex: Balancing a competitive shooter never really ends — it just slows down enough to ship.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Balancing a competitive shooter never really ends — it just slows down enough to ship."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-08.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Word</button>
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" disabled>← Previous</button>
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">Language Focus →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-langfocus">
+    <div class="section-title">Language Focus — The Passive Voice</div>
+    <div class="section-sub">From the cool precision of a design document to the shrug of "it got nerfed" — the passive shows up everywhere in how games get talked about</div>
+
+    <div class="grammar-note">
+      <div class="grammar-note-title">Why the passive voice matters here</div>
+      <p>The passive voice (<em>be</em> + past participle, or <em>get</em> + past participle in informal speech) lets you talk about an action without naming — or while de-emphasizing — who did it. That makes it the natural register for game design talk: design documents describe systems and rules, not the individual who happened to type them; forum posts complain about what "got nerfed" without needing to name a developer; and formal specs use modal passives ("must be approved") to state requirements as if they were simply facts about the world. Below are eight forms, moving from the most formal technical register to the loosest, most conversational one.</p>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e1b4b,#6366f1);">📋</div>
+      <div class="phrase-body">
+        <div class="phrase-num">01</div>
+        <div class="phrase-word">Simple present passive</div>
+        <div class="phrase-tag">FORM: AM/IS/ARE + PAST PARTICIPLE · USED FOR STATING HOW A SYSTEM WORKS, AS A GENERAL FACT</div>
+        <div class="phrase-collocations">typical contexts: <em>design documents, technical specs, rulebooks</em></div>
+        <div class="phrase-def">This is the voice of a spec sheet — it describes a system as if it simply exists, independent of whoever built it. <em>Ex: Damage values are calculated from a base stat plus a small random variance.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Damage values are calculated from a base stat plus a small random variance."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-langfocus-01-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#134e4a,#0d9488);">🗂️</div>
+      <div class="phrase-body">
+        <div class="phrase-num">02</div>
+        <div class="phrase-word">Simple past passive</div>
+        <div class="phrase-tag">FORM: WAS/WERE + PAST PARTICIPLE · USED FOR REPORTING A COMPLETED DECISION OR EVENT</div>
+        <div class="phrase-collocations">typical contexts: <em>postmortems, retrospectives, dev diaries</em></div>
+        <div class="phrase-def">Useful when the decision matters more than who made it — common when a studio is explaining what happened to a project, after the fact. <em>Ex: The original ending was scrapped two months before launch.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"The original ending was scrapped two months before launch."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-langfocus-02-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#451a03,#c2410c);">🔒</div>
+      <div class="phrase-body">
+        <div class="phrase-num">03</div>
+        <div class="phrase-word">Modal passive</div>
+        <div class="phrase-tag">FORM: MODAL (MUST/SHOULD/CAN) + BE + PAST PARTICIPLE · USED FOR STATING RULES, REQUIREMENTS, OR PERMISSIONS</div>
+        <div class="phrase-collocations">typical contexts: <em>style guides, sign-off processes, certification requirements</em></div>
+        <div class="phrase-def">This form states a requirement as if it were simply a property of the process — it sounds less like a personal demand and more like an immovable rule. <em>Ex: Any change to core combat numbers must be approved by the systems lead before it reaches a build.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"Any change to core combat numbers must be approved by the systems lead before it reaches a build."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-langfocus-03-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#312e81,#4f46e5);">🔄</div>
+      <div class="phrase-body">
+        <div class="phrase-num">04</div>
+        <div class="phrase-word">Present perfect passive</div>
+        <div class="phrase-tag">FORM: HAVE/HAS BEEN + PAST PARTICIPLE · USED FOR AN ACTION REPEATED OR CONTINUING UP TO NOW</div>
+        <div class="phrase-collocations">typical contexts: <em>status updates, progress notes, ongoing-issue trackers</em></div>
+        <div class="phrase-def">This form signals that something has happened more than once, with effects that are still being felt — a useful way to express ongoing frustration without naming names. <em>Ex: The tutorial has been rewritten four times, and it's still not quite right.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"The tutorial has been rewritten four times, and it's still not quite right."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-langfocus-04-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e3a5f,#1d4ed8);">👤</div>
+      <div class="phrase-body">
+        <div class="phrase-num">05</div>
+        <div class="phrase-word">Passive + by-phrase</div>
+        <div class="phrase-tag">FORM: BE + PAST PARTICIPLE + BY + AGENT · USED WHEN THE AGENT IS SURPRISING, IMPRESSIVE, OR WORTH NAMING</div>
+        <div class="phrase-collocations">typical contexts: <em>credits, dev-team spotlights, "did you know" trivia</em></div>
+        <div class="phrase-def">Normally the passive hides the agent — but adding "by X" puts a spotlight on them, often for dramatic or admiring effect. <em>Ex: The entire enemy-AI system was redesigned by a single programmer over one unusually quiet summer.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"The entire enemy-AI system was redesigned by a single programmer over one unusually quiet summer."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-langfocus-05-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#7f1d1d,#b91c1c);">💢</div>
+      <div class="phrase-body">
+        <div class="phrase-num">06</div>
+        <div class="phrase-word">Get-passive (informal)</div>
+        <div class="phrase-tag">FORM: GET + PAST PARTICIPLE · USED IN CASUAL SPEECH, OFTEN FOR THINGS THAT FEEL SUDDEN, UNFAIR, OR ANNOYING</div>
+        <div class="phrase-collocations">typical contexts: <em>patch-note complaints, forum rants, voice chat</em></div>
+        <div class="phrase-def">Swap "be" for "get" and the sentence instantly sounds more emotional and informal — this is the passive of patch notes and frustrated forum threads. <em>Ex: The dash ability got nerfed so hard in the last patch that nobody even bothers unlocking it anymore.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"The dash ability got nerfed so hard in the last patch that nobody even bothers unlocking it anymore."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-langfocus-06-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#422006,#a16207);">📝</div>
+      <div class="phrase-body">
+        <div class="phrase-num">07</div>
+        <div class="phrase-word">Passive infinitive ("is to be")</div>
+        <div class="phrase-tag">FORM: IS/ARE + TO BE + PAST PARTICIPLE · USED FOR FORMAL INSTRUCTIONS OR PLANNED FUTURE ACTIONS</div>
+        <div class="phrase-collocations">typical contexts: <em>internal memos, formal design specs, project charters</em></div>
+        <div class="phrase-def">This is about as formal and impersonal as English instructions get — it reads like a rule written into a document rather than a request from a person. <em>Ex: This value is to be adjusted only after a full balancing pass, not before.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"This value is to be adjusted only after a full balancing pass, not before."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-langfocus-07-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="phrase-card flip">
+      <div class="phrase-img" style="background: linear-gradient(135deg,#1e293b,#475569);">💬</div>
+      <div class="phrase-body">
+        <div class="phrase-num">08</div>
+        <div class="phrase-word">It + passive reporting verb</div>
+        <div class="phrase-tag">FORM: IT IS + PAST PARTICIPLE (BELIEVED/SAID/REPORTED) + THAT-CLAUSE · USED FOR DISTANCING YOURSELF FROM A CLAIM</div>
+        <div class="phrase-collocations">typical contexts: <em>community speculation, journalism, cautious reporting</em></div>
+        <div class="phrase-def">This structure lets you repeat a claim without committing to it personally — useful for community rumor, speculation, and careful reporting alike. <em>Ex: It is widely believed that the game's difficulty spike was a deliberate choice, though the designers have never confirmed it.</em></div>
+        <div class="phrase-example-label">EXAMPLE</div>
+        <div class="phrase-example">"It is widely believed that the game's difficulty spike was a deliberate choice, though the designers have never confirmed it."</div>
+        <div class="listen-col">
+          <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-langfocus-08-example.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Example</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('vocabulary')">← Vocabulary</button>
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">In Use →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-inuse">
+    <div class="section-title">In Use</div>
+    <div class="section-sub">See the same passive forms shift register — from a studio postmortem, to a dev panel, to a forum thread at 2am</div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#312e81,#4f46e5)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-academic">Studio Postmortem / Design Notes</span><span class="stream-title">On Iteration, Scope, and the Unseen Work of Making a Game</span></div>
+      <p class="stream-text">
+        "In most professional studios, a mechanic <span class="hl">is rarely designed</span> once and shipped as-is. It <span class="hl">is iterated on, playtested, and quietly reshaped</span> dozens of times before a single player ever sees it. Early prototypes <span class="hl">are deliberately kept</span> rough, since polish at this stage <span class="hl">is generally considered</span> a waste of scarce time. What looks, from the outside, like one confident decision is usually just the visible tip of a much longer process — one in which most of the actual work <span class="hl">is never seen</span> by anyone outside the team."
+      </p>
+      <div class="inaction-note">Notice how often the passive shows up here without ever naming a person — "is iterated on," "are deliberately kept," "is never seen." That's not an accident: this register exists to describe a process, not to hand out credit or blame for it.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-inuse-01.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#14532d,#166534)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-panel">Dev Roundtable</span><span class="stream-title">Panel — "What Nobody Tells You About Shipping a Game"</span></div>
+      <p class="stream-text">
+        "Honestly, scope is the thing nobody wants to talk about until it's already too late. On our last project, two entire systems <span class="hl">were quietly cut</span> about eight months in, and the whole back half of the schedule <span class="hl">was rebuilt</span> around whatever was left. And balancing <span class="hl">gets treated</span> like a pure math problem, but it really isn't — a number can be completely correct on a spreadsheet and still feel awful to actually play against."
+      </p>
+      <div class="inaction-note">This speaker drifts between registers — "were quietly cut" and "was rebuilt" sound almost like a postmortem, but "gets treated" slides into the more conversational get-passive right as the tone turns a little more frustrated.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-inuse-02.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="stream-card">
+      <div class="inaction-img" style="background:linear-gradient(135deg,#7f1d1d,#b91c1c)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg></div>
+      <div class="stream-platform"><span class="platform-badge badge-social">Public / Social Media</span><span class="stream-title">Thread — Finally, the Grapple Got Fixed</span></div>
+      <p class="stream-text">
+        "ok so the grapple mechanic finally <span class="hl">got reworked</span> and??? it's actually fun now. like genuinely fun, not 'fun if you squint and ignore the bugs' fun. apparently it <span class="hl">was rebuilt</span> almost completely from scratch <span class="hl">by like two people on the team</span>. wild that something this small took THIS many patches to get right but hey, we got there in the end i guess"
+      </p>
+      <div class="inaction-note">Compare "got reworked" here with "is iterated on" in the first passage — same basic idea (something changed), completely different feel. "Get" passives carry an emotional charge that the cooler "be" passives are built to avoid.</div>
+      <div class="inaction-audio">
+        <button class="audio-player" onclick="playAudio(this,'audio/game-design-language-inuse-03.mp3')"><div class="ap-btn"><svg viewBox="0 0 10 12"><polygon points="0,0 10,6 0,12"/></svg></div><div class="wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>Listen to extract</button>
+      </div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('langfocus')">← Language Focus</button>
+      <button class="lesson-nav-btn" onclick="goToTab('register')">Register & Stance →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-register">
+    <div class="section-title">Register & Stance</div>
+    <div class="section-sub">How the passive shifts shape across contexts — from the cool authority of a spec to the heat of a forum complaint</div>
+
+    <div class="register-table">
+      <table>
+        <thead><tr><th>Context</th><th>Typical Form</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>Design document / spec</strong><br><span style="font-size:12px;color:var(--muted)">Formal, written, rule-stating</span></td>
+            <td><span class="register-tag tag-high">Highly formal</span></td>
+            <td><em>"Damage values are calculated from a base stat plus a small random variance."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Studio postmortem</strong><br><span style="font-size:12px;color:var(--muted)">Reflective, written account</span></td>
+            <td><span class="register-tag tag-high">Highly formal</span></td>
+            <td><em>"The original ending was scrapped two months before launch."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Internal memo / style guide</strong><br><span style="font-size:12px;color:var(--muted)">Formal instructions, sign-off rules</span></td>
+            <td><span class="register-tag tag-high">Highly formal</span></td>
+            <td><em>"Any change to core combat numbers must be approved by the systems lead."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Status update / dev diary</strong><br><span style="font-size:12px;color:var(--muted)">Semi-formal, ongoing progress</span></td>
+            <td><span class="register-tag tag-med">Semi-formal</span></td>
+            <td><em>"The tutorial has been rewritten four times, and it's still not quite right."</em></td>
+          </tr>
+          <tr>
+            <td><strong>Forum post / patch-note rant</strong><br><span style="font-size:12px;color:var(--muted)">Informal, emotionally charged</span></td>
+            <td><span class="register-tag tag-none">Informal / emotional</span></td>
+            <td><em>"The dash ability got nerfed so hard in the last patch."</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tip-list">
+      <div class="tip green"><span class="tip-icon">✅</span><span>The passive isn't about hiding the truth — it's about choosing what the sentence is really about. "Damage values are calculated…" puts the system in the spotlight, which is exactly where a spec wants your attention to land.</span></div>
+      <div class="tip blue"><span class="tip-icon">💡</span><span>Swapping "be" for "get" instantly shifts the mood. <strong>"The ability was adjusted in the last patch"</strong> sounds neutral, almost clinical; <strong>"The ability got adjusted in the last patch"</strong> feels a little more personal — maybe even a little annoyed. Same event, different emotional temperature.</span></div>
+      <div class="tip amber"><span class="tip-icon">⚠️</span><span>Don't let the passive collapse into a wall of vague responsibility. "Mistakes were made" is the textbook example of a passive that hides exactly the information the listener actually wants — who, and why. Reach for the by-phrase when the agent genuinely matters to your point.</span></div>
+      <div class="tip red"><span class="tip-icon">❌</span><span>Watch out for stacked modals and tangled passives — <em>"this is going to be being adjusted by whoever ends up being assigned to it"</em> buries the actual point under its own grammar. One clear passive form, chosen on purpose, beats three piled on top of each other.</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('inuse')">← In Use</button>
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">Forum Corner →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-reading">
+    <div class="section-title">Forum Corner</div>
+    <div class="section-sub">Read a dev-blog post about a long patch cycle and click words from the bank to fill in the gaps</div>
+
+    <div class="word-bank">
+      <div class="word-bank-label">Word bank</div>
+      <div class="bank-chips" id="blogBankChips">
+        <div class="chip" data-phrase="scope" onclick="selectChip(this)">scope</div>
+        <div class="chip" data-phrase="prototype" onclick="selectChip(this)">prototype</div>
+        <div class="chip" data-phrase="mechanic" onclick="selectChip(this)">mechanic</div>
+        <div class="chip" data-phrase="playtesting" onclick="selectChip(this)">playtesting</div>
+        <div class="chip" data-phrase="pacing" onclick="selectChip(this)">pacing</div>
+        <div class="chip" data-phrase="balancing" onclick="selectChip(this)">balancing</div>
+        <div class="chip" data-phrase="iteration" onclick="selectChip(this)">iteration</div>
+        <div class="chip" data-phrase="polish" onclick="selectChip(this)">polish</div>
+      </div>
+    </div>
+
+    <div class="reading-card">
+      <div class="reading-title">Why This Patch Took Six Months</div>
+      <div class="reading-byline">A short dev-blog post — fill in the blanks with words from the bank above, then check your answers</div>
+      <div class="reading-body">
+        <p>When we started this patch, the <span class="fill-slot" id="fs6" data-answer="scope" onclick="placeOrClear('fs6')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb6"></span> was honestly a lot bigger than what you're playing right now. We had a whole new traversal system planned, but after the first rough <span class="fill-slot" id="fs7" data-answer="prototype" onclick="placeOrClear('fs7')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb7"></span>, it was obvious the core <span class="fill-slot" id="fs8" data-answer="mechanic" onclick="placeOrClear('fs8')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb8"></span> just wasn't fun yet — it needed a lot more work before it could carry an entire patch.</p>
+
+        <p>So we spent most of the six months on <span class="fill-slot" id="fs9" data-answer="playtesting" onclick="placeOrClear('fs9')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb9"></span>. Every two weeks, a fresh group of players sat down with the build, and every two weeks we learned something we hadn't expected — usually about <span class="fill-slot" id="fs10" data-answer="pacing" onclick="placeOrClear('fs10')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb10"></span>. A fight that felt perfectly tense to us dragged on forever for someone seeing it for the first time.</p>
+
+        <p>The last few weeks were just <span class="fill-slot" id="fs11" data-answer="balancing" onclick="placeOrClear('fs11')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb11"></span> — going line by line through every number until nothing felt overpowered or useless. Then came one final round of <span class="fill-slot" id="fs12" data-answer="iteration" onclick="placeOrClear('fs12')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb12"></span> on the small stuff: footstep sounds, hit reactions, menu transitions. That's <span class="fill-slot" id="fs13" data-answer="polish" onclick="placeOrClear('fs13')"><span class="slot-placeholder">click to fill</span></span><span class="fill-feedback" id="fb13"></span>, and it's always the part that takes longer than anyone expects.</p>
+      </div>
+    </div>
+
+    <button class="check-btn" onclick="checkBlogFill()">Check answers</button>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('register')">← Register & Stance</button>
+      <button class="lesson-nav-btn" onclick="goToTab('analysis')">Analysis Tasks →</button>
+    </div>
+  </section>
+
+  <section class="section" id="tab-analysis">
+    <div class="section-title">Analysis Tasks</div>
+    <div class="section-sub">Identify, transform, and evaluate — three exercises in the passive voice</div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 1</div>
+      <h3>Match the Passive Form to What It Does</h3>
+      <p class="ex-desc">Click a sentence on the left, then find the description on the right that matches what its passive form is actually doing.</p>
+      <div class="match-score" id="matchScore">0 / 6 matched</div>
+      <div class="match-grid">
+        <div>
+          <div class="match-col-label">Passive sentences</div>
+          <div class="match-item" id="mp1" data-id="1" onclick="selectMatch('phrase','1')">"Damage values are calculated from a base stat plus a small random variance."</div>
+          <div class="match-item" id="mp2" data-id="2" onclick="selectMatch('phrase','2')">"The original ending was scrapped two months before launch."</div>
+          <div class="match-item" id="mp3" data-id="3" onclick="selectMatch('phrase','3')">"Any change to core combat numbers must be approved by the systems lead."</div>
+          <div class="match-item" id="mp4" data-id="4" onclick="selectMatch('phrase','4')">"The tutorial has been rewritten four times, and it's still not quite right."</div>
+          <div class="match-item" id="mp5" data-id="5" onclick="selectMatch('phrase','5')">"The dash ability got nerfed so hard in the last patch."</div>
+          <div class="match-item" id="mp6" data-id="6" onclick="selectMatch('phrase','6')">"It is widely believed that the difficulty spike was a deliberate choice."</div>
+        </div>
+        <div>
+          <div class="match-col-label">What it's doing</div>
+          <div class="match-item" id="md4" data-id="4" onclick="selectMatch('def','4')">Signals something has happened more than once, with effects still felt right now</div>
+          <div class="match-item" id="md1" data-id="1" onclick="selectMatch('def','1')">States how a system works, as if it were simply a fact about the world</div>
+          <div class="match-item" id="md6" data-id="6" onclick="selectMatch('def','6')">Repeats a claim while keeping a careful distance from it personally</div>
+          <div class="match-item" id="md2" data-id="2" onclick="selectMatch('def','2')">Reports a finished decision without naming who actually made the call</div>
+          <div class="match-item" id="md5" data-id="5" onclick="selectMatch('def','5')">Makes the change sound sudden, unfair, or worth complaining about</div>
+          <div class="match-item" id="md3" data-id="3" onclick="selectMatch('def','3')">States a requirement as though it were simply a rule of the process</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 2</div>
+      <h3>Turn It Into the Passive</h3>
+      <p class="ex-desc">Each sentence below names the agent directly. Pick the matching passive verb phrase from the bank, then click the blank to shift the spotlight onto the system instead.</p>
+      <div class="word-bank">
+        <div class="word-bank-label">Passive-form bank</div>
+        <div class="bank-chips" id="bankChips">
+          <div class="chip" data-phrase="are calculated" onclick="selectChip(this)">are calculated</div>
+          <div class="chip" data-phrase="was scrapped" onclick="selectChip(this)">was scrapped</div>
+          <div class="chip" data-phrase="must be approved" onclick="selectChip(this)">must be approved</div>
+          <div class="chip" data-phrase="has been rewritten" onclick="selectChip(this)">has been rewritten</div>
+          <div class="chip" data-phrase="got nerfed" onclick="selectChip(this)">got nerfed</div>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Active:</strong> "The team calculates damage values from a base stat plus a small random variance."</div>
+        <div class="fill-rewrite">
+          Damage values
+          <span class="fill-slot" id="fs1" data-answer="are calculated" onclick="placeOrClear('fs1')"><span class="slot-placeholder">click to fill</span></span>
+          from a base stat plus a small random variance.
+          <span class="fill-feedback" id="fb1"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Active:</strong> "The studio scrapped the original ending two months before launch."</div>
+        <div class="fill-rewrite">
+          The original ending
+          <span class="fill-slot" id="fs2" data-answer="was scrapped" onclick="placeOrClear('fs2')"><span class="slot-placeholder">click to fill</span></span>
+          two months before launch.
+          <span class="fill-feedback" id="fb2"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Active:</strong> "The systems lead must approve any change to core combat numbers."</div>
+        <div class="fill-rewrite">
+          Any change to core combat numbers
+          <span class="fill-slot" id="fs3" data-answer="must be approved" onclick="placeOrClear('fs3')"><span class="slot-placeholder">click to fill</span></span>
+          by the systems lead before it reaches a build.
+          <span class="fill-feedback" id="fb3"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Active:</strong> "The team has rewritten the tutorial four times."</div>
+        <div class="fill-rewrite">
+          The tutorial
+          <span class="fill-slot" id="fs4" data-answer="has been rewritten" onclick="placeOrClear('fs4')"><span class="slot-placeholder">click to fill</span></span>
+          four times, and it's still not quite right.
+          <span class="fill-feedback" id="fb4"></span>
+        </div>
+      </div>
+
+      <div class="fill-item">
+        <div class="original"><strong>Active:</strong> "They nerfed the dash ability so hard in the last patch."</div>
+        <div class="fill-rewrite">
+          The dash ability
+          <span class="fill-slot" id="fs5" data-answer="got nerfed" onclick="placeOrClear('fs5')"><span class="slot-placeholder">click to fill</span></span>
+          so hard in the last patch that nobody even bothers unlocking it anymore.
+          <span class="fill-feedback" id="fb5"></span>
+        </div>
+      </div>
+
+      <button class="check-btn" onclick="checkWordBank()">Check Rewrites</button>
+    </div>
+
+    <div class="exercise-block">
+      <div class="exercise-num">Analysis Task 3</div>
+      <h3>Evaluate the Passive</h3>
+      <p class="ex-desc">Is the passive voice in each sentence used well, or does it contain a problem? Consider redundancy, register clashes, and whether the agent should actually be named.</p>
+
+      <div class="error-item" id="ei1">
+        <div class="error-sentence">"The boss fight was iterated on and was improved by the team that did the iterating."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(1,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(1,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef1"></div>
+      </div>
+
+      <div class="error-item" id="ei2">
+        <div class="error-sentence">"It is widely believed that the difficulty spike was a deliberate choice, though the designers have never confirmed it."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(2,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(2,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef2"></div>
+      </div>
+
+      <div class="error-item" id="ei3">
+        <div class="error-sentence">"This value is to be adjusted by whoever feels like it, whenever they want."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(3,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(3,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef3"></div>
+      </div>
+
+      <div class="error-item" id="ei4">
+        <div class="error-sentence">"The dash ability got nerfed pretty hard last patch — half the playerbase is still annoyed about it."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(4,true)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(4,false)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef4"></div>
+      </div>
+
+      <div class="error-item" id="ei5">
+        <div class="error-sentence">"The entire combat system was redesigned, was rebalanced, and was polished by basically everyone on the team, by all accounts, more or less."</div>
+        <div class="error-btns">
+          <button class="error-btn" onclick="checkError(5,false)">✅ Appropriate</button>
+          <button class="error-btn" onclick="checkError(5,true)">❌ Has a problem</button>
+        </div>
+        <div class="error-feedback" id="ef5"></div>
+      </div>
+    </div>
+
+    <div class="disc-card">
+      <h3>🗣 Further Discussion</h3>
+      <div class="disc-item"><div class="disc-num">1</div><span>Design documents lean heavily on the passive — "damage is calculated," "this value is to be adjusted." Does writing this way actually make a system feel more objective, or does it just hide the human decisions sitting behind it?</span></div>
+      <div class="disc-item"><div class="disc-num">2</div><span>On forums, players say things like "it got nerfed" or "it got cut" without ever naming the person who made that call. Why do you think people talk this way — and is it fair to the people who actually did the work?</span></div>
+      <div class="disc-item"><div class="disc-num">3</div><span>"This value is to be adjusted only after a full balancing pass" and "they nerfed it again, smh" can describe the exact same event. What does choosing one phrasing over the other tell you about the speaker's relationship to what happened?</span></div>
+      <div class="disc-item"><div class="disc-num">4</div><span>"It is widely believed that…" lets you repeat a claim without ever saying you believe it. Is that a useful kind of honesty about your own uncertainty — or a way of avoiding responsibility for an opinion?</span></div>
+      <div class="disc-item"><div class="disc-num">5</div><span>Think of a recent change to a game you play — a patch, an update, something removed or reworked. Describe it twice: once the way a design document might (a formal "be" passive), and once the way you'd actually vent about it to a friend (an informal "got" passive). What changes besides the grammar?</span></div>
+    </div>
+
+    <div class="lesson-nav">
+      <button class="lesson-nav-btn" onclick="goToTab('reading')">← Forum Corner</button>
+      <button class="lesson-nav-btn" disabled>Lesson Complete ✓</button>
+    </div>
+  </section>
+
+  </div>
+
+<script>
+  const tabs = ['vocabulary','langfocus','inuse','register','reading','analysis'];
+  const completedTabs = new Set();
+  function goToTab(id) {
+    const current = document.querySelector('.tab-btn.active');
+    if (current) completedTabs.add(current.dataset.tab);
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      if (b.dataset.tab === id) b.classList.add('active');
+      if (completedTabs.has(b.dataset.tab) && !b.querySelector('.check'))
+        b.innerHTML = '<span class="check">✓</span> ' + b.textContent.replace('✓','').trim();
+    });
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress();
+  }
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.addEventListener('click', () => goToTab(btn.dataset.tab)));
+  function updateProgress() {
+    const pct = Math.round((completedTabs.size / tabs.length) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent = pct + '%';
+  }
+
+  let currentAudio = null, currentBtn = null;
+  function playAudio(btn, src) {
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause(); currentAudio.currentTime = 0;
+      if (currentBtn) currentBtn.classList.remove('playing');
+      if (currentBtn === btn) { currentAudio = null; currentBtn = null; return; }
+    }
+    const audio = new Audio(src);
+    currentAudio = audio; currentBtn = btn;
+    btn.classList.add('playing');
+    audio.play();
+    audio.addEventListener('ended', () => { btn.classList.remove('playing'); currentAudio = null; currentBtn = null; });
+  }
+
+  let selectedPhrase = null, selectedDef = null, matchCount = 0;
+  function selectMatch(type, id) {
+    const el = document.getElementById((type==='phrase'?'mp':'md') + id);
+    if (el.classList.contains('correct')) return;
+    if (type==='phrase') {
+      document.querySelectorAll('[id^="mp"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedPhrase = id;
+    } else {
+      document.querySelectorAll('[id^="md"]').forEach(e => { if (!e.classList.contains('correct')) e.classList.remove('selected'); });
+      el.classList.add('selected'); selectedDef = id;
+    }
+    if (selectedPhrase && selectedDef) {
+      const pe = document.getElementById('mp'+selectedPhrase), de = document.getElementById('md'+selectedDef);
+      if (selectedPhrase === selectedDef) {
+        pe.classList.remove('selected'); pe.classList.add('correct');
+        de.classList.remove('selected'); de.classList.add('correct');
+        matchCount++; document.getElementById('matchScore').textContent = matchCount + ' / 6 matched';
+      } else {
+        pe.classList.add('wrong'); de.classList.add('wrong');
+        setTimeout(() => { pe.classList.remove('wrong','selected'); de.classList.remove('wrong','selected'); }, 600);
+      }
+      selectedPhrase = null; selectedDef = null;
+    }
+  }
+
+  let selectedChip = null;
+  function selectChip(el) {
+    if (el.classList.contains('used')) return;
+    document.querySelectorAll('.chip').forEach(c => c.style.outline = '');
+    if (selectedChip === el) { selectedChip = null; return; }
+    selectedChip = el; el.style.outline = '2px solid var(--blue)';
+  }
+  function placeOrClear(slotId) {
+    const slot = document.getElementById(slotId);
+    if (slot.classList.contains('correct')) return;
+    if (slot.classList.contains('filled') && !selectedChip) {
+      const phrase = slot.dataset.current;
+      slot.innerHTML = '<span class="slot-placeholder">click to fill</span>';
+      slot.classList.remove('filled','wrong'); slot.dataset.current = '';
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === phrase) c.classList.remove('used'); });
+      document.getElementById('fb' + slotId.replace('fs','')).textContent = ''; return;
+    }
+    if (!selectedChip) return;
+    if (slot.dataset.current) {
+      const old = slot.dataset.current;
+      document.querySelectorAll('.chip').forEach(c => { if (c.dataset.phrase === old) c.classList.remove('used'); });
+    }
+    const phrase = selectedChip.dataset.phrase;
+    slot.innerHTML = phrase + ' <button class="slot-clear" onclick="placeOrClear(\'' + slotId + '\');event.stopPropagation()">✕</button>';
+    slot.classList.add('filled'); slot.classList.remove('wrong'); slot.dataset.current = phrase;
+    document.getElementById('fb' + slotId.replace('fs','')).textContent = '';
+    selectedChip.classList.add('used'); selectedChip.style.outline = ''; selectedChip = null;
+  }
+  function checkWordBank() {
+    [1,2,3,4,5].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+  function checkBlogFill() {
+    [6,7,8,9,10,11,12,13].forEach(i => {
+      const slot = document.getElementById('fs'+i), fb = document.getElementById('fb'+i);
+      if (!slot.dataset.current) { fb.textContent = ''; return; }
+      const ok = slot.dataset.current === slot.dataset.answer;
+      slot.classList.remove('filled','wrong','correct'); slot.classList.add(ok ? 'correct' : 'wrong');
+      fb.className = 'fill-feedback ' + (ok ? 'correct' : 'wrong');
+      fb.textContent = ok ? '✓' : '✗';
+    });
+  }
+
+  const errorAnswers = { 1:true, 2:false, 3:true, 4:false, 5:true };
+  const errorExplanations = {
+    1: { fix:true,  msg:"Problem: redundant agent-naming. 'was iterated on... was improved by the team that did the iterating' names the same agent twice in an awkwardly circular way — which defeats the whole point of choosing the passive. Simplify to: <strong>'The boss fight was iterated on and improved over several months.'</strong>" },
+    2: { fix:false, msg:"Appropriate. 'It is widely believed that…' correctly distances the speaker from a claim while still being honest that it's a community belief, not a confirmed fact — and naming who could confirm it. Well-formed and well-judged." },
+    3: { fix:true,  msg:"Problem: register clash. 'is to be adjusted' is one of the most formal passive forms in English — the language of an official spec — but 'by whoever feels like it, whenever they want' is loose and conversational. The two halves don't belong in the same sentence. Formal version: <strong>'This value is to be adjusted only by the systems lead, following a full balancing pass.'</strong>" },
+    4: { fix:false, msg:"Appropriate. The get-passive fits naturally here — 'got nerfed' carries exactly the slightly-aggrieved, informal tone the rest of the sentence has. This is precisely the register 'got' passives were made for." },
+    5: { fix:true,  msg:"Problem: over-stacking. Three separate passive verb phrases plus two vague hedging tags ('by all accounts,' 'more or less') pile on top of each other until the sentence loses all its weight. Trim to one clear claim: <strong>'The entire combat system was redesigned, rebalanced, and polished by the whole team.'</strong>" },
+  };
+  function checkError(num, userAnswer) {
+    const correct = errorAnswers[num];
+    const info = errorExplanations[num];
+    const btns = document.querySelectorAll('#ei' + num + ' .error-btn');
+    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => {
+      const bSaysError = b.textContent.includes('❌');
+      if (bSaysError === correct) b.classList.add('correct-ans');
+      else if (bSaysError === userAnswer && userAnswer !== correct) b.classList.add('wrong-ans');
+    });
+    const fb = document.getElementById('ef' + num);
+    fb.innerHTML = info.msg;
+    fb.className = 'error-feedback show ' + (info.fix ? 'fix' : 'good');
+  }
+</script>
+</body>
+</html>
