@@ -15,6 +15,7 @@ import CompletionScreen from '@/components/CompletionScreen';
 import GrammarFocusSection from '@/components/GrammarFocusSection';
 import RegisterSection from '@/components/RegisterSection';
 import ReadingPassageSection from '@/components/ReadingPassageSection';
+import GroupActivitiesSection from '@/components/GroupActivitiesSection';
 
 const DEFAULT_TABS = ['Vocabulary', 'Phrasal Verbs', 'Videos', 'Dialogue', 'Exercises'] as const;
 
@@ -36,7 +37,10 @@ export default function LessonPage({ params }: { params: { slug: string } }) {
 }
 
 function LessonContent({ lesson }: { lesson: Lesson }) {
-  const TABS = lesson.tabLabels ?? DEFAULT_TABS;
+  const baseTabs = lesson.tabLabels ?? DEFAULT_TABS;
+  const TABS = lesson.groupActivities
+    ? ([...baseTabs, 'Group Activities'] as const)
+    : baseTabs;
   const [activeTab, setActiveTab] = useState(0);
   const [visitedTabs, setVisitedTabs] = useState<Set<number>>(new Set([0]));
   const [scores, setScores] = useState<Scores>({});
@@ -291,6 +295,17 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
             )}
           </div>
         </section>
+
+        {/* Group Activities */}
+        {lesson.groupActivities && (
+          <section className={activeTab === 5 ? 'block' : 'hidden'}>
+            <SectionHeader
+              title="Group Activities"
+              subtitle="Role-play scenarios and discussion questions for group classes"
+            />
+            <GroupActivitiesSection activities={lesson.groupActivities} />
+          </section>
+        )}
 
         {/* Prev / Next */}
         <div className="flex justify-between mt-10 pt-6 border-t border-blue-100">
