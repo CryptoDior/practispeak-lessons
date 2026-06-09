@@ -108,27 +108,52 @@ export interface LessonVideo {
   description?: string;
 }
 
-export interface RolePlayScenario {
-  /** e.g. "Service", "Physical Product", "Digital Product" */
+export interface ChooseResponseItem {
+  /** The customer's line shown to students */
+  customerLine: string;
+  /** Exactly 3 options — A, B, C */
+  options: string[];
+  /** 0-based index of the correct option */
+  correctIndex: number;
+  /** Explanation of why the correct answer works and why the others don't */
+  explanation: string;
+}
+
+export interface CustomerProfileItem {
+  name: string;
+  description: string;
+  /** Must match a ProductOptionItem.key */
+  matchKey: string;
+}
+
+export interface ProductOptionItem {
+  key: string;
   label: string;
-  /** Short scene-setting sentence shown to students */
-  context: string;
-  /** Step-by-step guidance prompts to keep the conversation going */
-  guidance: string[];
-  /** Vocab words from the lesson students should try to use */
-  vocabToUse: string[];
-  /** Phrases from the lesson students should try to use */
-  phrasesToUse: string[];
+  description: string;
+}
+
+export interface FinishLineItem {
+  /** The customer's line */
+  customerLine: string;
+  /** The start of the salesperson's response — cut off mid-sentence */
+  salespersonStart: string;
+  /** One possible completion shown after groups compare answers */
+  suggestedCompletion?: string;
 }
 
 export interface GroupActivities {
-  rolePlay: {
+  chooseResponse: {
     instructions: string;
-    scenarios: RolePlayScenario[];
+    items: ChooseResponseItem[];
   };
-  discussion: {
+  profileMatch: {
     instructions: string;
-    questions: string[];
+    profiles: CustomerProfileItem[];
+    options: ProductOptionItem[];
+  };
+  finishTheLine: {
+    instructions: string;
+    items: FinishLineItem[];
   };
 }
 
