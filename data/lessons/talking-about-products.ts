@@ -341,4 +341,65 @@ export const talkingAboutProducts: Lesson = {
         "correctIndex": 1
     }
 ],
+  groupActivities: {
+    rolePlay: {
+      instructions: "Work in pairs. One student is the salesperson, the other is the potential customer. Use the vocabulary and phrases from this lesson to describe products and respond to questions. Try to keep talking for 3–5 minutes, then swap roles.",
+      scenarios: [
+        {
+          label: "Service",
+          context: "You work for a digital marketing agency. A potential customer runs a small e-commerce business and wants to grow their online presence. Describe your agency's services using adjectives and product nouns.",
+          guidance: [
+            "Salesperson: Open by walking the customer through what your agency offers",
+            "Customer: Ask what makes the service popular and what the main features are",
+            "Salesperson: Describe two or three key features using adjectives like 'useful' and 'new'",
+            "Customer: Ask about the quality of results — mention they've had bad experiences before",
+            "Salesperson: Reassure them about quality and mention a new feature your agency just launched",
+            "Customer: Ask if the service is cheap enough for a small business",
+            "Salesperson: Explain the pricing and why your brand offers the best value",
+          ],
+          vocabToUse: ["feature", "quality", "design", "brand", "cheap", "new", "popular", "useful"],
+          phrasesToUse: ["ONE OF THE BEST FEATURES IS", "CUSTOMERS REALLY LIKE", "WHAT MAKES IT DIFFERENT IS", "I'D RECOMMEND"],
+        },
+        {
+          label: "Physical Product",
+          context: "You work for a company that makes ergonomic office chairs. Your potential customer is an office manager looking to upgrade the chairs in their workspace. Describe your product using adjectives and nouns from this lesson.",
+          guidance: [
+            "Salesperson: Introduce your product and explain what makes it stand out",
+            "Customer: Ask which model is the most popular and what its best features are",
+            "Salesperson: Describe the design and key features — use adjectives to make it sound appealing",
+            "Customer: Ask about quality — they want something that will last",
+            "Salesperson: Talk about quality and mention a new model that just launched",
+            "Customer: Ask if it is cheap compared to other brands on the market",
+            "Salesperson: Compare your brand to others and make a recommendation",
+          ],
+          vocabToUse: ["feature", "quality", "design", "brand", "cheap", "new", "popular", "useful"],
+          phrasesToUse: ["ONE OF THE BEST FEATURES IS", "IT COMES WITH", "COMPARED TO OTHER OPTIONS", "CUSTOMERS REALLY LIKE", "I'D RECOMMEND"],
+        },
+        {
+          label: "Digital Product",
+          context: "You work for a company that sells project management software. Your potential customer manages a team of 10 people and currently uses spreadsheets to track work. Describe your product's features and benefits.",
+          guidance: [
+            "Salesperson: Walk the customer through what the software does and what makes the design easy to use",
+            "Customer: Ask what the most useful features are for a small team",
+            "Salesperson: Highlight two or three features — mention which one is most popular with customers",
+            "Customer: Ask whether the software is new or if it has been on the market for a while",
+            "Salesperson: Explain the product history and mention a new feature recently added",
+            "Customer: Ask if it is cheap compared to other tools they have looked at",
+            "Salesperson: Compare your brand to competitors and make a recommendation based on their needs",
+          ],
+          vocabToUse: ["feature", "quality", "design", "brand", "cheap", "new", "popular", "useful"],
+          phrasesToUse: ["ONE OF THE BEST FEATURES IS", "IT COMES WITH", "WHAT MAKES IT DIFFERENT IS", "COMPARED TO OTHER OPTIONS", "I'D RECOMMEND"],
+        },
+      ],
+    },
+    discussion: {
+      instructions: "Discuss these questions with your group. Try to use vocabulary and phrases from this lesson. Give reasons for your answers and listen to your classmates' opinions.",
+      questions: [
+        "In the dialogue, Dana says the design is what she notices first. How important is design when you choose a product or service for your business? Can good design make up for other weaknesses?",
+        "Riley says the product has become popular because it is clean and easy to learn. Why do you think ease of use is especially important for software or digital tools?",
+        "Dana asks 'Is it cheap enough for a team our size?' Do you think price or quality is more important when a business is choosing a new product? Why?",
+        "Think about a product or service your company uses. How would you describe it using adjectives like the ones in this lesson? What are its best features and what could be improved?",
+      ],
+    },
+  },
 };

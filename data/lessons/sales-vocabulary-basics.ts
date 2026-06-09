@@ -341,4 +341,65 @@ export const salesVocabularyBasics: Lesson = {
         "correctIndex": 1
     }
 ],
+  groupActivities: {
+    rolePlay: {
+      instructions: "Work in pairs. One student is the salesperson, the other is the potential customer. Use the vocabulary and phrases from this lesson in your conversation. Try to keep talking for 3–5 minutes, then swap roles.",
+      scenarios: [
+        {
+          label: "Service",
+          context: "You work for a professional office cleaning company. Your potential customer manages a busy co-working space and is looking for a reliable cleaning service that fits their budget.",
+          guidance: [
+            "Salesperson: Greet the customer and introduce your company and what you sell",
+            "Customer: Ask what the service includes and how much it costs",
+            "Salesperson: Explain your main service and give the price",
+            "Customer: Say the price seems high — ask if they can do anything about it",
+            "Salesperson: Offer a discount and explain the deal they would get",
+            "Customer: Ask what happens next if they want to move forward",
+            "Salesperson: Close by explaining the next step to buy",
+          ],
+          vocabToUse: ["product", "price", "customer", "buy", "sell", "discount", "budget", "deal"],
+          phrasesToUse: ["WHAT'S YOUR BUDGET", "WE CAN OFFER YOU A DISCOUNT", "I'LL SEND YOU A QUOTE", "I'LL FOLLOW UP NEXT WEEK"],
+        },
+        {
+          label: "Physical Product",
+          context: "You work for a company that sells branded office supplies (notebooks, pens, desk organisers) to businesses in bulk. Your potential customer is an office manager at a medium-sized company that orders stationery every quarter.",
+          guidance: [
+            "Salesperson: Introduce yourself and your product range",
+            "Customer: Ask about the most popular products and their prices",
+            "Salesperson: Describe your best-selling product and mention the price",
+            "Customer: Ask whether the price is negotiable — mention their budget is limited",
+            "Salesperson: Offer a discount for bulk orders and explain the deal",
+            "Customer: Ask how they can buy and when they would receive the order",
+            "Salesperson: Explain the buying process and offer to follow up",
+          ],
+          vocabToUse: ["product", "price", "customer", "buy", "sell", "discount", "budget", "deal"],
+          phrasesToUse: ["WHAT DOES YOUR COMPANY DO", "WHAT'S YOUR BUDGET", "WE CAN OFFER YOU A DISCOUNT", "I'LL SEND YOU A QUOTE"],
+        },
+        {
+          label: "Digital Product",
+          context: "You work for a software company that sells a project management tool to small businesses. Your potential customer runs a small marketing agency and has never used project management software before.",
+          guidance: [
+            "Salesperson: Introduce your product and explain what it does",
+            "Customer: Ask what makes it different from free tools — and what the price is",
+            "Salesperson: Explain the value, mention the price, and offer to show how it works",
+            "Customer: Say their budget is tight — ask if there are cheaper options",
+            "Salesperson: Offer a discount or a starter plan that fits their budget",
+            "Customer: Ask what kind of deal they would get if they buy today",
+            "Salesperson: Close with the deal details and a clear next step",
+          ],
+          vocabToUse: ["product", "price", "customer", "buy", "sell", "discount", "budget", "deal"],
+          phrasesToUse: ["CAN I SHOW YOU HOW IT WORKS", "WHAT'S YOUR BUDGET", "WE CAN OFFER YOU A DISCOUNT", "I'LL FOLLOW UP NEXT WEEK"],
+        },
+      ],
+    },
+    discussion: {
+      instructions: "Discuss these questions with your group. Try to use vocabulary and phrases from this lesson. Give reasons for your answers and listen to your classmates' opinions.",
+      questions: [
+        "In the dialogue, Sam offers Riley's customers a 20% discount. Do you think discounts are always a good idea, or can they hurt a brand? Why?",
+        "Sam says the secret to selling is: 'Know your product, listen to what the customer needs, and a good deal follows naturally.' Do you agree? What else do you think is important?",
+        "Riley asks about the customer's budget before recommending a plan. Why is it important to understand a customer's budget before talking about price?",
+        "Think about a product or service you use at work. How would you describe it to someone who has never heard of it? What would you say is its best feature?",
+      ],
+    },
+  },
 };

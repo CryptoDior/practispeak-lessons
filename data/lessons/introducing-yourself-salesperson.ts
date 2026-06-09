@@ -341,4 +341,65 @@ export const introducingYourselfSalesperson: Lesson = {
         "correctIndex": 2
     }
 ],
+  groupActivities: {
+    rolePlay: {
+      instructions: "Work in pairs. One student is the salesperson, the other is the new contact. Use the vocabulary and phrases from this lesson in your conversation. Try to keep talking for 3–5 minutes, then swap roles.",
+      scenarios: [
+        {
+          label: "Service",
+          context: "You work for a B2B consulting firm that helps companies improve their internal processes. You are at an industry conference and meet someone who works in operations at a growing company.",
+          guidance: [
+            "Salesperson: Start the conversation naturally — ask what brings them to the event",
+            "Contact: Answer and ask what the salesperson does",
+            "Salesperson: Explain your job and introduce your company",
+            "Contact: Show interest — ask more about the team and how the service works",
+            "Salesperson: Describe your role on the team and what makes your company different",
+            "Contact: Mention a challenge they are facing that your service might help with",
+            "Salesperson: Close by introducing a colleague and suggesting staying in touch",
+          ],
+          vocabToUse: ["contact", "company", "job", "team", "work", "meet", "introduce", "colleague"],
+          phrasesToUse: ["WHAT BRINGS YOU HERE TODAY", "I WORK FOR", "I'M ON THE SALES TEAM", "LET ME INTRODUCE YOU TO", "I'D LOVE TO STAY IN TOUCH"],
+        },
+        {
+          label: "Physical Product",
+          context: "You work for an office supply company that sells ergonomic furniture and equipment to businesses. You are at a trade show and meet someone who manages a large open-plan office.",
+          guidance: [
+            "Salesperson: Greet the contact and ask what brings them to the trade show",
+            "Contact: Explain they are looking for new suppliers — ask what the salesperson sells",
+            "Salesperson: Introduce your company and explain what you sell",
+            "Contact: Ask about the team and who makes decisions about orders",
+            "Salesperson: Explain your role and introduce a colleague who handles B2B accounts",
+            "Contact: Ask how they can stay in touch after the event",
+            "Salesperson: Exchange details and suggest a follow-up meeting",
+          ],
+          vocabToUse: ["contact", "company", "job", "team", "work", "meet", "introduce", "colleague"],
+          phrasesToUse: ["WHAT BRINGS YOU HERE TODAY", "I WORK FOR", "WHAT DO YOU DO", "LET ME INTRODUCE YOU TO", "I'D LOVE TO STAY IN TOUCH"],
+        },
+        {
+          label: "Digital Product",
+          context: "You work for a SaaS company that sells HR management software to mid-sized businesses. You are at a networking event and meet someone who works in HR at a company that is growing fast.",
+          guidance: [
+            "Salesperson: Start the conversation — ask what brings them to the event",
+            "Contact: Explain their role and ask what the salesperson does",
+            "Salesperson: Introduce yourself, your company, and your job on the sales team",
+            "Contact: Ask what makes the software different — mention a problem they are trying to solve",
+            "Salesperson: Explain how your product helps and how their team would use it",
+            "Contact: Ask who else on the salesperson's team they should meet",
+            "Salesperson: Introduce a technical colleague and suggest staying in touch",
+          ],
+          vocabToUse: ["contact", "company", "job", "team", "work", "meet", "introduce", "colleague"],
+          phrasesToUse: ["WHAT BRINGS YOU HERE TODAY", "I WORK FOR", "I'M ON THE SALES TEAM", "LET ME INTRODUCE YOU TO", "I'D LOVE TO STAY IN TOUCH"],
+        },
+      ],
+    },
+    discussion: {
+      instructions: "Discuss these questions with your group. Try to use vocabulary and phrases from this lesson. Give reasons for your answers and listen to your classmates' opinions.",
+      questions: [
+        "In the dialogue, Riley asks 'What brings you here today?' instead of jumping straight into a sales pitch. Why do you think starting a conversation this way is more effective?",
+        "Riley introduces Dana to a colleague, Carlos, who 'knows the software inside and out.' Why is it useful for a salesperson to involve a colleague in a conversation with a new contact?",
+        "Dana says she is 'always looking to make new contacts in the industry.' How important is networking in your industry? What is the best way to make a good first impression?",
+        "Think about the last time you met someone new in a professional setting. How did you introduce yourself? Is there anything you would do differently now?",
+      ],
+    },
+  },
 };

@@ -108,6 +108,30 @@ export interface LessonVideo {
   description?: string;
 }
 
+export interface RolePlayScenario {
+  /** e.g. "Service", "Physical Product", "Digital Product" */
+  label: string;
+  /** Short scene-setting sentence shown to students */
+  context: string;
+  /** Step-by-step guidance prompts to keep the conversation going */
+  guidance: string[];
+  /** Vocab words from the lesson students should try to use */
+  vocabToUse: string[];
+  /** Phrases from the lesson students should try to use */
+  phrasesToUse: string[];
+}
+
+export interface GroupActivities {
+  rolePlay: {
+    instructions: string;
+    scenarios: RolePlayScenario[];
+  };
+  discussion: {
+    instructions: string;
+    questions: string[];
+  };
+}
+
 export interface Lesson {
   slug: string;
   title: string;
@@ -136,4 +160,6 @@ export interface Lesson {
   matchingExercise: MatchPair[];
   fillBlankExercise: FillBlankItem[];
   multipleChoiceExercise: MultipleChoiceItem[];
+  /** Optional group activities — role-play scenarios + discussion questions. Skip for 1-on-1 lessons. */
+  groupActivities?: GroupActivities;
 }
