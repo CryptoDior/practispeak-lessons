@@ -141,7 +141,23 @@ function ProfileMatchActivity({
 }: {
   data: GroupActivities['profileMatch'];
 }) {
-  const [revealed, setRevealed] = useState(false);
+  // selections[i] = index into data.options chosen for profile i, or null
+  const [selections, setSelections] = useState<(number | null)[]>(
+    () => data.profiles.map(() => null)
+  );
+  const [checked, setChecked] = useState(false);
+
+  const allSelected = selections.every((s) => s !== null);
+
+  const handleSelect = (profileIdx: number, optionIdx: number) => {
+    if (checked) return;
+    setSelections((prev) => prev.map((s, i) => (i === profileIdx ? optionIdx : s)));
+  };
+
+  const handleReset = () => {
+    setSelections(data.profiles.map(() => null));
+    setChecked(false);
+  };
 
   return (
     <div>
@@ -152,60 +168,24 @@ function ProfileMatchActivity({
         instructions={data.instructions}
       />
 
-      <div className="grid md:grid-cols-2 gap-6 mb-5">
-        {/* Profiles */}
-        <div className="flex flex-col gap-3">
-          <p className="text-xs font-extrabold text-gray-400 uppercase tracking-widest px-1">
-            Customers
-          </p>
-          {data.profiles.map((profile, i) => {
-            const matchedOption = revealed
-              ? data.options.find((o) => o.key === profile.matchKey)
-              : null;
-            return (
-              <div
-                key={i}
-                className="bg-white rounded-[16px] shadow-[0_2px_12px_rgba(6,110,245,0.06)] px-5 py-4"
-              >
-                <div className="flex items-center gap-2 mb-1.5">
-                  <span className="w-7 h-7 bg-[#066EF5] text-white rounded-full flex items-center justify-center text-xs font-extrabold flex-shrink-0">
-                    {i + 1}
-                  </span>
-                  <p className="font-extrabold text-gray-900 text-sm">{profile.name}</p>
-                </div>
-                <p className="text-xs text-gray-500 font-semibold leading-relaxed pl-9">
-                  {profile.description}
-                </p>
-                {matchedOption && (
-                  <div className="mt-2 ml-9 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-50 border border-emerald-100">
-                    <span className="text-emerald-500 text-xs">✓</span>
-                    <span className="text-xs font-extrabold text-emerald-700">
-                      {matchedOption.label}
-                    </span>
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
-
-        {/* Options */}
-        <div className="flex flex-col gap-3">
-          <p className="text-xs font-extrabold text-gray-400 uppercase tracking-widest px-1">
-            Plans / Options
-          </p>
+      {/* Plans reference row */}
+      <div className="flex flex-col gap-2 mb-6">
+        <p className="text-xs font-extrabold text-gray-400 uppercase tracking-widest px-1">
+          Plans / Options
+        </p>
+        <div className="grid md:grid-cols-3 gap-3">
           {data.options.map((option, i) => (
             <div
               key={i}
-              className="bg-white rounded-[16px] shadow-[0_2px_12px_rgba(6,110,245,0.06)] px-5 py-4"
+              className="bg-white rounded-[14px] shadow-[0_2px_10px_rgba(6,110,245,0.06)] px-4 py-3"
             >
-              <div className="flex items-center gap-2 mb-1.5">
-                <span className="w-7 h-7 bg-[#EEF3FF] text-[#066EF5] rounded-full flex items-center justify-center text-xs font-extrabold flex-shrink-0">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="w-6 h-6 bg-[#EEF3FF] text-[#066EF5] rounded-full flex items-center justify-center text-xs font-extrabold flex-shrink-0">
                   {String.fromCharCode(65 + i)}
                 </span>
-                <p className="font-extrabold text-gray-900 text-sm">{option.label}</p>
+                <p className="font-extrabold text-gray-900 text-xs">{option.label}</p>
               </div>
-              <p className="text-xs text-gray-500 font-semibold leading-relaxed pl-9">
+              <p className="text-xs text-gray-400 font-semibold leading-relaxed pl-8">
                 {option.description}
               </p>
             </div>
@@ -213,20 +193,90 @@ function ProfileMatchActivity({
         </div>
       </div>
 
+      {/* Profile cards with A/B/C selectors */}
+      <div className="flex flex-col gap-4 mb-5">
+        <p className="text-xs font-extrabold text-gray-400 uppercase tracking-widest px-1">
+          Customers — which plan fits each one?
+        </p>
+        {data.profiles.map((profile, pi) => {
+          const selected = selections[pi];
+          const correctOptionIdx = data.options.findIndex((o) => o.key === profile.matchKey);
+          const isCorrect = checked && selected === correctOptionIdx;
+          const isWrong = checked && selected !== null && selected !== correctOptionIdx;
+
+          return (
+            <div
+              key={pi}
+              className={`bg-white rounded-[16px] shadow-[0_2px_12px_rgba(6,110,245,0.06)] px-5 py-4 border-2 transition-all ${
+                isCorrect
+                  ? 'border-emerald-200'
+                  : isWrong
+                  ? 'border-red-200'
+                  : 'border-transparent'
+              }`}
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-1.5">
+                    <span className="w-7 h-7 bg-[#066EF5] text-white rounded-full flex items-center justify-center text-xs font-extrabold flex-shrink-0">
+                      {pi + 1}
+                    </span>
+                    <p className="font-extrabold text-gray-900 text-sm">{profile.name}</p>
+                    {isCorrect && <span className="text-emerald-500 font-extrabold text-base">✓</span>}
+                    {isWrong && <span className="text-red-400 font-extrabold text-base">✗</span>}
+                  </div>
+                  <p className="text-xs text-gray-500 font-semibold leading-relaxed pl-9">
+                    {profile.description}
+                  </p>
+                  {isWrong && (
+                    <p className="text-xs font-bold text-emerald-600 pl-9 mt-1.5">
+                      Correct answer: {String.fromCharCode(65 + correctOptionIdx)} — {data.options[correctOptionIdx].label}
+                    </p>
+                  )}
+                </div>
+
+                {/* A / B / C selector */}
+                <div className="flex gap-1.5 flex-shrink-0 mt-1">
+                  {data.options.map((_, oi) => {
+                    const isSelected = selected === oi;
+                    let btnStyle = 'border border-gray-200 bg-gray-50 text-gray-500 hover:border-[#066EF5] hover:text-[#066EF5]';
+                    if (isSelected && !checked) btnStyle = 'border border-[#066EF5] bg-[#066EF5] text-white';
+                    if (isSelected && isCorrect) btnStyle = 'border border-emerald-400 bg-emerald-50 text-emerald-700';
+                    if (isSelected && isWrong) btnStyle = 'border border-red-300 bg-red-50 text-red-600';
+                    if (!isSelected && checked && oi === correctOptionIdx) btnStyle = 'border border-emerald-300 bg-emerald-50 text-emerald-600';
+                    return (
+                      <button
+                        key={oi}
+                        disabled={checked}
+                        onClick={() => handleSelect(pi, oi)}
+                        className={`w-8 h-8 rounded-lg text-xs font-extrabold transition-all disabled:cursor-default ${btnStyle}`}
+                      >
+                        {String.fromCharCode(65 + oi)}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
       <div className="text-center">
-        {!revealed ? (
+        {!checked ? (
           <button
-            onClick={() => setRevealed(true)}
-            className="px-6 py-2.5 bg-[#066EF5] text-white font-extrabold text-sm rounded-xl hover:bg-blue-600 transition-all shadow-sm"
+            disabled={!allSelected}
+            onClick={() => setChecked(true)}
+            className="px-6 py-2.5 bg-[#066EF5] text-white font-extrabold text-sm rounded-xl hover:bg-blue-600 transition-all shadow-sm disabled:opacity-40 disabled:cursor-not-allowed"
           >
-            Reveal Matches
+            Check Matches
           </button>
         ) : (
           <button
-            onClick={() => setRevealed(false)}
+            onClick={handleReset}
             className="text-xs text-[#066EF5] font-bold hover:underline"
           >
-            Hide Matches
+            Try Again
           </button>
         )}
       </div>
@@ -288,7 +338,7 @@ function FinishLineCard({
         <div className="bg-gray-50 border border-gray-100 rounded-[14px] rounded-tl-sm px-4 py-3 max-w-[85%]">
           <p className="text-xs font-extrabold text-gray-400 mb-1">Salesperson</p>
           <p className="text-sm font-semibold text-gray-800">
-            &ldquo;{item.salespersonStart}{' '}
+            &ldquo;{item.salespersonStart}{" "}
             <span className="text-gray-300 italic">&hellip;&rdquo;</span>
           </p>
         </div>
