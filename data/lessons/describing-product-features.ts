@@ -1,0 +1,453 @@
+import { Lesson } from '@/types/lesson';
+
+export const describingProductFeatures: Lesson = {
+  slug: 'describing-product-features',
+  title: 'Describing Product Features',
+  subtitle: 'How to explain what a product has and what it comes with',
+  level: 'A1-A2',
+  description: "Learn the simple phrases sales professionals use to describe product features — 'It has…', 'It comes with…', 'It lets you…' — so you can tell customers exactly what they get when they buy.",
+  heroImage: '/images/describing-product-features-hero.png',
+
+  vocabulary: [
+    {
+      word: 'STORAGE',
+      partOfSpeech: 'noun',
+      definition: 'Space where data or files are kept.',
+      example: "It comes with 50GB of cloud storage for your team's files.",
+      imageSlug: '/images/storage.png',
+    },
+    {
+      word: 'ACCESS',
+      partOfSpeech: 'noun',
+      definition: 'The ability to use or see something.',
+      example: 'The trial gives you full access to all features for 14 days.',
+      imageSlug: '/images/access.png',
+    },
+    {
+      word: 'SUPPORT',
+      partOfSpeech: 'noun',
+      definition: 'Help given to users when something goes wrong.',
+      example: 'It comes with 24/7 support by email and live chat.',
+      imageSlug: '/images/support.png',
+    },
+    {
+      word: 'REPORT',
+      partOfSpeech: 'noun',
+      definition: 'A document or summary that shows data or results.',
+      example: 'It lets you download a detailed report at the end of each month.',
+      imageSlug: '/images/report.png',
+    },
+    {
+      word: 'UPDATE',
+      partOfSpeech: 'noun',
+      definition: 'A new version of software that fixes problems or adds features.',
+      example: 'It has automatic updates, so you never have to do it yourself.',
+      imageSlug: '/images/update.png',
+    },
+    {
+      word: 'DASHBOARD',
+      partOfSpeech: 'noun',
+      definition: 'A screen that shows the most important information in one place.',
+      example: 'It has a dashboard where you can see everything your team is working on.',
+      imageSlug: '/images/dashboard.png',
+    },
+    {
+      word: 'TRIAL',
+      partOfSpeech: 'noun',
+      definition: 'A free period where you can test a product before you buy it.',
+      example: 'It comes with a free 14-day trial — no credit card needed.',
+      imageSlug: '/images/trial.png',
+    },
+    {
+      word: 'LIMIT',
+      partOfSpeech: 'noun',
+      definition: 'The maximum amount allowed.',
+      example: 'There is no limit on the number of projects you can create.',
+      imageSlug: '/images/limit.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'IT HAS',
+      definition: 'Use this to describe a feature that is part of a product.',
+      example: 'It has a mobile app so your team can check in from anywhere.',
+      imageSlug: '/images/it-has.png',
+    },
+    {
+      phrase: 'IT COMES WITH',
+      definition: 'Tell a customer what is included when they buy a product.',
+      example: 'It comes with 24/7 support and a free 14-day trial.',
+      imageSlug: '/images/it-comes-with.png',
+    },
+    {
+      phrase: 'IT LETS YOU',
+      definition: 'Describe what the product allows a customer to do.',
+      example: 'It lets you customize your dashboard and choose which reports to see.',
+      imageSlug: '/images/it-lets-you.png',
+    },
+    {
+      phrase: 'YOU GET',
+      definition: 'Tell a customer what they will receive or have access to.',
+      example: 'On the Growth Plan, you get full access to reporting and customer tracking.',
+      imageSlug: '/images/you-get.png',
+    },
+    {
+      phrase: 'THERE IS NO LIMIT ON',
+      definition: 'Tell a customer that something is unlimited.',
+      example: 'There is no limit on the number of users you can add to your account.',
+      imageSlug: '/images/there-is-no-limit-on.png',
+    },
+    {
+      phrase: 'IT INCLUDES',
+      definition: 'Describe what is part of the product or plan.',
+      example: 'Every plan includes automatic updates and cloud storage.',
+      imageSlug: '/images/it-includes.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Let me walk you through what Brightline includes, Dana. It has a real-time [[dashboard:a screen that shows the most important information in one place]] so you can see what your team is working on at any time.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: "That's exactly what we need. Does it come with [[storage:space where data or files are kept]] for our files?",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Yes — it comes with 50GB of cloud storage on the Growth Plan. There's no [[limit:the maximum amount allowed]] on the number of projects you can create.",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Good to know. What about [[support:help given to users when something goes wrong]]? If something goes wrong, what do we get?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'It comes with 24/7 email support and a live chat option. You also get [[access:the ability to use or see something]] to our full knowledge base.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: "Is there a [[trial:a free period where you can test a product before you buy it]]? I'd like to test it before we commit.",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Of course — it comes with a free 14-day trial. No credit card needed.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'And does it have automatic [[update:a new version of software that fixes problems or adds features]]s, or do we manage that ourselves?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'It has automatic updates — you never have to think about it. And it lets you download a detailed [[report:a document or summary that shows data or results]] for your team every month.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Can we customize the dashboard?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Yes — it lets you choose which reports and information you want to see. Most customers say it's the feature they use the most.",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'That sounds perfect. I think this is the right fit for our team.',
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "STORAGE",
+        "definition": "Space where data or files are kept"
+    },
+    {
+        "word": "ACCESS",
+        "definition": "The ability to use or see something"
+    },
+    {
+        "word": "SUPPORT",
+        "definition": "Help given to users when something goes wrong"
+    },
+    {
+        "word": "REPORT",
+        "definition": "A document or summary that shows data or results"
+    },
+    {
+        "word": "UPDATE",
+        "definition": "A new version of software that fixes problems or adds features"
+    },
+    {
+        "word": "DASHBOARD",
+        "definition": "A screen that shows the most important information in one place"
+    },
+    {
+        "word": "TRIAL",
+        "definition": "A free period where you can test a product before you buy"
+    },
+    {
+        "word": "LIMIT",
+        "definition": "The maximum amount allowed"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "It comes with 50GB of cloud",
+        "after": "for your team's files.",
+        "answer": "storage"
+    },
+    {
+        "before": "The trial gives you full",
+        "after": "to all features for 14 days.",
+        "answer": "access"
+    },
+    {
+        "before": "It comes with 24/7 customer",
+        "after": "by email and live chat.",
+        "answer": "support"
+    },
+    {
+        "before": "It lets you download a detailed",
+        "after": "for your team every month.",
+        "answer": "report"
+    },
+    {
+        "before": "It has automatic",
+        "after": "so you never have to do it yourself.",
+        "answer": "update"
+    },
+    {
+        "before": "It has a",
+        "after": "where you can see everything your team is working on.",
+        "answer": "dashboard"
+    },
+    {
+        "before": "It comes with a free 14-day",
+        "after": "— no credit card needed.",
+        "answer": "trial"
+    },
+    {
+        "before": "There is no",
+        "after": "on the number of projects you can create.",
+        "answer": "limit"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "What does Riley use to describe what is included with the plan?",
+        "options": [
+            "It has and It comes with",
+            "Buy now and get",
+            "Features include",
+            "We offer"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "How much cloud storage does the Growth Plan include?",
+        "options": [
+            "10GB",
+            "100GB",
+            "50GB",
+            "Unlimited"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What kind of support does Brightline come with?",
+        "options": [
+            "Phone support only",
+            "Weekly check-ins",
+            "24/7 email support and live chat",
+            "A support forum"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "How long is the free trial?",
+        "options": [
+            "7 days",
+            "30 days",
+            "1 month",
+            "14 days"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "What does Riley say about updates?",
+        "options": [
+            "You download them manually",
+            "It has automatic updates",
+            "Updates are released once a year",
+            "Updates cost extra"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Riley say the dashboard lets Dana do?",
+        "options": [
+            "Pay for the plan",
+            "See the team's progress in real time",
+            "Choose which reports and information to see",
+            "Send messages to customers"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the phrase Riley uses to describe a feature Dana can use?",
+        "options": [
+            "It allows you",
+            "It provides",
+            "It lets you",
+            "You are able to"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does Dana want to do before committing to the plan?",
+        "options": [
+            "Talk to her team",
+            "See a demo",
+            "Test it with a free trial",
+            "Compare other brands"
+        ],
+        "correctIndex": 2
+    }
+],
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Work in groups. Read the customer's line, then discuss which response (A, B, or C) is best. Choose your answer together, then click to see if you were right — and why.",
+        "items": [
+            {
+                "customerLine": "What does the plan actually include?",
+                "options": [
+                    "It has a lot of features — probably more than you need.",
+                    "It comes with project tracking, team reporting, and 50GB of cloud storage — plus 24/7 support.",
+                    "I'll send you the full list of features by email."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It answers directly with specific, useful details. A is vague and almost sounds negative. C delays the conversation when you can give a great answer right now."
+            },
+            {
+                "customerLine": "Does it have a mobile app?",
+                "options": [
+                    "I'm not sure — let me check and get back to you.",
+                    "Most people use it on a computer, to be honest.",
+                    "Yes — it has a mobile app that lets you check your team's progress from anywhere."
+                ],
+                "correctIndex": 2,
+                "explanation": "C is correct. It confirms the feature and immediately explains why it is useful. A shows a lack of product knowledge, which loses trust. B doesn't answer the question at all."
+            },
+            {
+                "customerLine": "Is there a free trial?",
+                "options": [
+                    "It comes with a free 14-day trial — full access, no credit card needed.",
+                    "We have a trial, but it has some limitations.",
+                    "You can see a demo, but there isn't a full trial."
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. It gives a clear, positive answer with the two key details that matter most — full access and no credit card. B creates doubt. C is incorrect — the trial exists — and gives the customer a reason not to try."
+            },
+            {
+                "customerLine": "I'm worried we'll run out of storage space.",
+                "options": [
+                    "Most companies don't use that much storage, so it shouldn't be a problem.",
+                    "You can always upgrade your plan if you need more later.",
+                    "That's a fair concern. How much storage does your team currently use? I can tell you exactly which plan covers you."
+                ],
+                "correctIndex": 2,
+                "explanation": "C is correct. It takes the concern seriously and asks a smart question to find the right answer. A dismisses the concern without any data. B is passive — it doesn't reassure the customer or help them make a decision."
+            }
+        ]
+    },
+    "profileMatch": {
+        "instructions": "Read the three customer profiles. As a group, match each customer to the plan that best fits their needs. Try to use phrases like 'It comes with…' and 'It has…' to explain your choices. Click 'Check Matches' to see if you were right.",
+        "profiles": [
+            {
+                "name": "Felix",
+                "description": "Felix manages a 4-person design studio. He needs basic project tracking and a place to store shared files. He has a tight budget and does not need advanced features or a lot of support.",
+                "matchKey": "starter"
+            },
+            {
+                "name": "Mia",
+                "description": "Mia is a sales manager at a growing 22-person company. She needs deal tracking, monthly reports for her team, and reliable customer support. She wants access for the whole team.",
+                "matchKey": "growth"
+            },
+            {
+                "name": "Alex",
+                "description": "Alex is the CTO at a 300-person logistics company. He needs a solution with custom integrations, unlimited storage, and a dedicated account manager. Budget is flexible.",
+                "matchKey": "enterprise"
+            }
+        ],
+        "options": [
+            {
+                "key": "starter",
+                "label": "Starter Plan — $49/month",
+                "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+            },
+            {
+                "key": "growth",
+                "label": "Growth Plan — $149/month",
+                "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+            },
+            {
+                "key": "enterprise",
+                "label": "Enterprise Plan — Custom pricing",
+                "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The salesperson's line has been cut off. As a group, discuss how you would finish it. Try to use 'It has…', 'It comes with…', or 'It lets you…'. There is no single correct answer — compare your ideas, then click to see one possible answer.",
+        "items": [
+            {
+                "customerLine": "Can you tell me what's included in the plan?",
+                "salespersonStart": "Of course — it comes with",
+                "suggestedCompletion": "project tracking, team reporting, and 50GB of cloud storage. You also get 24/7 support and a free 14-day trial to start."
+            },
+            {
+                "customerLine": "Is there a limit on how many projects we can track?",
+                "salespersonStart": "On the Growth Plan, there is no limit on",
+                "suggestedCompletion": "the number of projects you can create. You can also add as many team members as you need — up to 25 users."
+            },
+            {
+                "customerLine": "We need to check things from our phones when we're not at our desks.",
+                "salespersonStart": "That's not a problem — it has",
+                "suggestedCompletion": "a mobile app that lets you check your team's progress, approve tasks, and get notifications from anywhere."
+            },
+            {
+                "customerLine": "Does it come with any training for our team?",
+                "salespersonStart": "Yes — it comes with",
+                "suggestedCompletion": "onboarding support and step-by-step tutorials for your whole team. Most teams are up and running within a few days, even the ones who are not very technical."
+            }
+        ]
+    }
+},
+};
