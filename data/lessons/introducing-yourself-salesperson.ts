@@ -342,64 +342,112 @@ export const introducingYourselfSalesperson: Lesson = {
     }
 ],
   groupActivities: {
-    rolePlay: {
-      instructions: "Work in pairs. One student is the salesperson, the other is the new contact. Use the vocabulary and phrases from this lesson in your conversation. Try to keep talking for 3–5 minutes, then swap roles.",
-      scenarios: [
-        {
-          label: "Service",
-          context: "You work for a B2B consulting firm that helps companies improve their internal processes. You are at an industry conference and meet someone who works in operations at a growing company.",
-          guidance: [
-            "Salesperson: Start the conversation naturally — ask what brings them to the event",
-            "Contact: Answer and ask what the salesperson does",
-            "Salesperson: Explain your job and introduce your company",
-            "Contact: Show interest — ask more about the team and how the service works",
-            "Salesperson: Describe your role on the team and what makes your company different",
-            "Contact: Mention a challenge they are facing that your service might help with",
-            "Salesperson: Close by introducing a colleague and suggesting staying in touch",
-          ],
-          vocabToUse: ["contact", "company", "job", "team", "work", "meet", "introduce", "colleague"],
-          phrasesToUse: ["WHAT BRINGS YOU HERE TODAY", "I WORK FOR", "I'M ON THE SALES TEAM", "LET ME INTRODUCE YOU TO", "I'D LOVE TO STAY IN TOUCH"],
-        },
-        {
-          label: "Physical Product",
-          context: "You work for an office supply company that sells ergonomic furniture and equipment to businesses. You are at a trade show and meet someone who manages a large open-plan office.",
-          guidance: [
-            "Salesperson: Greet the contact and ask what brings them to the trade show",
-            "Contact: Explain they are looking for new suppliers — ask what the salesperson sells",
-            "Salesperson: Introduce your company and explain what you sell",
-            "Contact: Ask about the team and who makes decisions about orders",
-            "Salesperson: Explain your role and introduce a colleague who handles B2B accounts",
-            "Contact: Ask how they can stay in touch after the event",
-            "Salesperson: Exchange details and suggest a follow-up meeting",
-          ],
-          vocabToUse: ["contact", "company", "job", "team", "work", "meet", "introduce", "colleague"],
-          phrasesToUse: ["WHAT BRINGS YOU HERE TODAY", "I WORK FOR", "WHAT DO YOU DO", "LET ME INTRODUCE YOU TO", "I'D LOVE TO STAY IN TOUCH"],
-        },
-        {
-          label: "Digital Product",
-          context: "You work for a SaaS company that sells HR management software to mid-sized businesses. You are at a networking event and meet someone who works in HR at a company that is growing fast.",
-          guidance: [
-            "Salesperson: Start the conversation — ask what brings them to the event",
-            "Contact: Explain their role and ask what the salesperson does",
-            "Salesperson: Introduce yourself, your company, and your job on the sales team",
-            "Contact: Ask what makes the software different — mention a problem they are trying to solve",
-            "Salesperson: Explain how your product helps and how their team would use it",
-            "Contact: Ask who else on the salesperson's team they should meet",
-            "Salesperson: Introduce a technical colleague and suggest staying in touch",
-          ],
-          vocabToUse: ["contact", "company", "job", "team", "work", "meet", "introduce", "colleague"],
-          phrasesToUse: ["WHAT BRINGS YOU HERE TODAY", "I WORK FOR", "I'M ON THE SALES TEAM", "LET ME INTRODUCE YOU TO", "I'D LOVE TO STAY IN TOUCH"],
-        },
-      ],
+    "chooseResponse": {
+        "instructions": "Work in groups. Read the customer's line, then discuss which response (A, B, or C) is best. Choose your answer together, then click to see if you were right — and why.",
+        "items": [
+            {
+                "customerLine": "What do you do?",
+                "options": [
+                    "I'm in sales.",
+                    "I work for Brightline — I'm on the sales team and I help new customers get started.",
+                    "I have a very interesting job at a software company."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It gives your company name, your role, and what you do for customers — all in one natural sentence. A is too vague. C is a bit awkward and does not tell them anything useful about who you are or what you offer."
+            },
+            {
+                "customerLine": "I don't think we've met before.",
+                "options": [
+                    "You're right — I'm Riley, I work for Brightline. Great to meet you.",
+                    "I know, I'm quite new to these events.",
+                    "Let me give you my business card and you can check us out online."
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. It confirms the introduction naturally, gives your name and company, and keeps the conversation warm. B misses the chance to introduce yourself. C skips the personal introduction and sends the customer away."
+            },
+            {
+                "customerLine": "I'd love to know more, but I have to go — I'm late for a session.",
+                "options": [
+                    "Can we talk now? It will only take a minute.",
+                    "No worries — let me quickly tell you about our best product.",
+                    "Of course — I'd love to stay in touch. Can I get your contact details?"
+                ],
+                "correctIndex": 2,
+                "explanation": "C is correct. It respects the customer's time and keeps the relationship going without any pressure. A pushes on when the customer has already said they need to leave. B ignores what they said and tries to pitch anyway."
+            },
+            {
+                "customerLine": "Do you have someone who can explain the technical side?",
+                "options": [
+                    "I can probably answer most of your technical questions.",
+                    "Let me introduce you to my colleague Carlos — he knows the technical details inside and out.",
+                    "I will send you some technical documentation later today."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. Introducing a specialist builds trust and keeps the conversation moving forward right now. A might put you in a difficult position if you cannot answer. C delays the conversation and loses the momentum of the in-person meeting."
+            }
+        ]
     },
-    discussion: {
-      instructions: "Discuss these questions with your group. Try to use vocabulary and phrases from this lesson. Give reasons for your answers and listen to your classmates' opinions.",
-      questions: [
-        "In the dialogue, Riley asks 'What brings you here today?' instead of jumping straight into a sales pitch. Why do you think starting a conversation this way is more effective?",
-        "Riley introduces Dana to a colleague, Carlos, who 'knows the software inside and out.' Why is it useful for a salesperson to involve a colleague in a conversation with a new contact?",
-        "Dana says she is 'always looking to make new contacts in the industry.' How important is networking in your industry? What is the best way to make a good first impression?",
-        "Think about the last time you met someone new in a professional setting. How did you introduce yourself? Is there anything you would do differently now?",
-      ],
+    "profileMatch": {
+        "instructions": "You met these three contacts at a networking event. As a group, match each contact to the Brightline plan that best fits what they told you. Be ready to explain your choices. Click 'Reveal Matches' to check.",
+        "profiles": [
+            {
+                "name": "Zara",
+                "description": "You met Zara at the event. She runs a small 3-person design studio. She mentioned she has a limited budget but needs a simple way to organise work and track what her team is doing.",
+                "matchKey": "starter"
+            },
+            {
+                "name": "Ben",
+                "description": "You met Ben at a conference. He manages a sales team of 20 people. He said his main challenge is tracking deals and staying in contact with customers after the first meeting.",
+                "matchKey": "growth"
+            },
+            {
+                "name": "Priya",
+                "description": "You met Priya at an industry event. She is the IT director at a large company with over 300 employees. She needs a tool that connects with their existing systems and has dedicated support.",
+                "matchKey": "enterprise"
+            }
+        ],
+        "options": [
+            {
+                "key": "starter",
+                "label": "Starter Plan — $49/month",
+                "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+            },
+            {
+                "key": "growth",
+                "label": "Growth Plan — $149/month",
+                "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+            },
+            {
+                "key": "enterprise",
+                "label": "Enterprise Plan — Custom pricing",
+                "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+            }
+        ]
     },
-  },
+    "finishTheLine": {
+        "instructions": "The salesperson's line has been cut off. As a group, discuss how you would finish it. Try to use vocabulary from this lesson. There is no single correct answer — compare your ideas, then click to see one possible answer.",
+        "items": [
+            {
+                "customerLine": "What brings you to this event?",
+                "salespersonStart": "I'm here to meet new contacts and introduce",
+                "suggestedCompletion": "our software to companies that might find it useful. It's always great to meet people in the industry. What about you — what brings you here today?"
+            },
+            {
+                "customerLine": "How big is your team?",
+                "salespersonStart": "There are about 15 of us — I work on the sales team, but let me",
+                "suggestedCompletion": "introduce you to my colleague Carlos. He handles the technical side and can answer any detailed questions you have."
+            },
+            {
+                "customerLine": "I'm not sure I'm the right person to talk to about this.",
+                "salespersonStart": "That's fine — could you tell me who on your team",
+                "suggestedCompletion": "makes decisions about software tools? I'd love to arrange a short meeting with them — and I'd be happy to copy you in."
+            },
+            {
+                "customerLine": "We already work with a company similar to yours.",
+                "salespersonStart": "That's great to hear — it's always good to",
+                "suggestedCompletion": "meet people who are already thinking about this kind of tool. I'd love to hear how it's going for you and whether there's anything you wish it did differently."
+            }
+        ]
+    }
+},
 };

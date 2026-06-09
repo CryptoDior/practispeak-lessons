@@ -342,64 +342,112 @@ export const talkingAboutProducts: Lesson = {
     }
 ],
   groupActivities: {
-    rolePlay: {
-      instructions: "Work in pairs. One student is the salesperson, the other is the potential customer. Use the vocabulary and phrases from this lesson to describe products and respond to questions. Try to keep talking for 3–5 minutes, then swap roles.",
-      scenarios: [
-        {
-          label: "Service",
-          context: "You work for a digital marketing agency. A potential customer runs a small e-commerce business and wants to grow their online presence. Describe your agency's services using adjectives and product nouns.",
-          guidance: [
-            "Salesperson: Open by walking the customer through what your agency offers",
-            "Customer: Ask what makes the service popular and what the main features are",
-            "Salesperson: Describe two or three key features using adjectives like 'useful' and 'new'",
-            "Customer: Ask about the quality of results — mention they've had bad experiences before",
-            "Salesperson: Reassure them about quality and mention a new feature your agency just launched",
-            "Customer: Ask if the service is cheap enough for a small business",
-            "Salesperson: Explain the pricing and why your brand offers the best value",
-          ],
-          vocabToUse: ["feature", "quality", "design", "brand", "cheap", "new", "popular", "useful"],
-          phrasesToUse: ["ONE OF THE BEST FEATURES IS", "CUSTOMERS REALLY LIKE", "WHAT MAKES IT DIFFERENT IS", "I'D RECOMMEND"],
-        },
-        {
-          label: "Physical Product",
-          context: "You work for a company that makes ergonomic office chairs. Your potential customer is an office manager looking to upgrade the chairs in their workspace. Describe your product using adjectives and nouns from this lesson.",
-          guidance: [
-            "Salesperson: Introduce your product and explain what makes it stand out",
-            "Customer: Ask which model is the most popular and what its best features are",
-            "Salesperson: Describe the design and key features — use adjectives to make it sound appealing",
-            "Customer: Ask about quality — they want something that will last",
-            "Salesperson: Talk about quality and mention a new model that just launched",
-            "Customer: Ask if it is cheap compared to other brands on the market",
-            "Salesperson: Compare your brand to others and make a recommendation",
-          ],
-          vocabToUse: ["feature", "quality", "design", "brand", "cheap", "new", "popular", "useful"],
-          phrasesToUse: ["ONE OF THE BEST FEATURES IS", "IT COMES WITH", "COMPARED TO OTHER OPTIONS", "CUSTOMERS REALLY LIKE", "I'D RECOMMEND"],
-        },
-        {
-          label: "Digital Product",
-          context: "You work for a company that sells project management software. Your potential customer manages a team of 10 people and currently uses spreadsheets to track work. Describe your product's features and benefits.",
-          guidance: [
-            "Salesperson: Walk the customer through what the software does and what makes the design easy to use",
-            "Customer: Ask what the most useful features are for a small team",
-            "Salesperson: Highlight two or three features — mention which one is most popular with customers",
-            "Customer: Ask whether the software is new or if it has been on the market for a while",
-            "Salesperson: Explain the product history and mention a new feature recently added",
-            "Customer: Ask if it is cheap compared to other tools they have looked at",
-            "Salesperson: Compare your brand to competitors and make a recommendation based on their needs",
-          ],
-          vocabToUse: ["feature", "quality", "design", "brand", "cheap", "new", "popular", "useful"],
-          phrasesToUse: ["ONE OF THE BEST FEATURES IS", "IT COMES WITH", "WHAT MAKES IT DIFFERENT IS", "COMPARED TO OTHER OPTIONS", "I'D RECOMMEND"],
-        },
-      ],
+    "chooseResponse": {
+        "instructions": "Work in groups. Read the customer's line, then discuss which response (A, B, or C) is best. Choose your answer together, then click to see if you were right — and why.",
+        "items": [
+            {
+                "customerLine": "What's the most popular option?",
+                "options": [
+                    "They're all popular — it really depends on what you need.",
+                    "Our Growth Plan is the most popular with small agencies — it has all the features most teams use every day.",
+                    "I'd have to check our latest sales figures to be sure."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It answers confidently and gives a specific reason why that option is popular. A avoids the question. C sounds unsure, which will make the customer less confident in you and your product."
+            },
+            {
+                "customerLine": "How is your brand different from the competition?",
+                "options": [
+                    "We're basically the same as the others, but cheaper.",
+                    "I'm not really sure how we compare to other brands.",
+                    "We're a well-known brand, but what makes us different is the design — it's the easiest tool in its category to learn."
+                ],
+                "correctIndex": 2,
+                "explanation": "C is correct. It leads with brand strength and follows with a concrete, specific differentiator. A undersells the product and sounds unprofessional. B shows a lack of product knowledge that will lose the customer's confidence."
+            },
+            {
+                "customerLine": "Is this a new product or has it been around a while?",
+                "options": [
+                    "We've been on the market for five years and just launched a new feature last month — so it's proven but always improving.",
+                    "It's quite new, so there might be a few small issues still.",
+                    "I think it's been around for a while — I'd have to check."
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. It combines reliability (five years on the market) with freshness (new feature just launched). B creates unnecessary doubt. C sounds unprepared."
+            },
+            {
+                "customerLine": "Why should I pay more when cheaper options exist?",
+                "options": [
+                    "Honestly, the cheaper options are not very good.",
+                    "The quality of our support and the design are what make the difference — customers really like how much time it saves them.",
+                    "We can probably match the price if you need us to."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It justifies the price with specific, customer-focused benefits. A criticises competitors, which looks unprofessional. C jumps straight to a discount before explaining any value, which weakens your position."
+            }
+        ]
     },
-    discussion: {
-      instructions: "Discuss these questions with your group. Try to use vocabulary and phrases from this lesson. Give reasons for your answers and listen to your classmates' opinions.",
-      questions: [
-        "In the dialogue, Dana says the design is what she notices first. How important is design when you choose a product or service for your business? Can good design make up for other weaknesses?",
-        "Riley says the product has become popular because it is clean and easy to learn. Why do you think ease of use is especially important for software or digital tools?",
-        "Dana asks 'Is it cheap enough for a team our size?' Do you think price or quality is more important when a business is choosing a new product? Why?",
-        "Think about a product or service your company uses. How would you describe it using adjectives like the ones in this lesson? What are its best features and what could be improved?",
-      ],
+    "profileMatch": {
+        "instructions": "Read the three customer profiles. As a group, match each customer to the plan that best fits their needs. Be ready to explain your choices using words from this lesson — like 'feature', 'quality', and 'fit'. Click 'Reveal Matches' to check.",
+        "profiles": [
+            {
+                "name": "Leo",
+                "description": "Leo runs a 4-person photography studio. He is on a tight budget and just needs a simple, useful tool to organise jobs and track payments. He does not need advanced features.",
+                "matchKey": "starter"
+            },
+            {
+                "name": "Nina",
+                "description": "Nina manages a team of 18 at a digital marketing agency. She wants a tool with strong reporting features and good quality customer support. Her team needs to track client work and deals.",
+                "matchKey": "growth"
+            },
+            {
+                "name": "Marcus",
+                "description": "Marcus is the COO of a 400-person logistics company. He needs a solution with a custom design, advanced integrations, and a dedicated account manager. Budget is not the main concern.",
+                "matchKey": "enterprise"
+            }
+        ],
+        "options": [
+            {
+                "key": "starter",
+                "label": "Starter Plan — $49/month",
+                "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+            },
+            {
+                "key": "growth",
+                "label": "Growth Plan — $149/month",
+                "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+            },
+            {
+                "key": "enterprise",
+                "label": "Enterprise Plan — Custom pricing",
+                "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+            }
+        ]
     },
-  },
+    "finishTheLine": {
+        "instructions": "The salesperson's line has been cut off. As a group, discuss how you would finish it. Try to use vocabulary from this lesson. There is no single correct answer — compare your ideas, then click to see one possible answer.",
+        "items": [
+            {
+                "customerLine": "We've been using the same tool for years — I want something more modern.",
+                "salespersonStart": "That's a great time to upgrade. One of our most popular new features is",
+                "suggestedCompletion": "a real-time dashboard that shows exactly what your team is working on. The design is completely updated — most customers say it feels much faster to use."
+            },
+            {
+                "customerLine": "Is the quality really as good as you say?",
+                "salespersonStart": "That's a fair question. Customers really like",
+                "suggestedCompletion": "the quality of our support team — most questions are answered within the hour. We also have a 30-day trial, so you can see for yourself before you commit."
+            },
+            {
+                "customerLine": "I'm worried it might be too complicated for my team.",
+                "salespersonStart": "I understand — the design is actually what most people mention first. It's",
+                "suggestedCompletion": "built to be clean and easy to learn. Most teams are up and running within a day, even the ones who are not very technical."
+            },
+            {
+                "customerLine": "What makes your brand stand out from the others?",
+                "salespersonStart": "What makes us different is that we focus on",
+                "suggestedCompletion": "combining useful features with a design that is genuinely easy to learn. A lot of tools make you choose between powerful and simple — we think you should have both."
+            }
+        ]
+    }
+},
 };

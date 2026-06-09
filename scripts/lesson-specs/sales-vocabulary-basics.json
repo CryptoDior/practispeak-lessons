@@ -5,7 +5,6 @@
   "level": "A1-A2",
   "description": "Learn eight everyday words sales and marketing professionals use at work — product, price, customer, buy, sell, discount, budget, and deal — as a new sales rep settles into the job.",
   "dialogueSubtitle": "Sam (sales manager) shows new sales rep Riley the basics of the job",
-
   "vocabulary": [
     {
       "word": "product",
@@ -56,7 +55,6 @@
       "example": "We closed three new deals with marketing agencies this month."
     }
   ],
-
   "phrasalVerbs": [
     {
       "phrase": "WHAT DOES YOUR COMPANY DO",
@@ -89,7 +87,6 @@
       "example": "No problem — I'll follow up next week to see what you decide."
     }
   ],
-
   "dialogue": [
     {
       "speaker": "Sam",
@@ -152,132 +149,271 @@
       "text": "I think I'm ready. Let's go close some deals!"
     }
   ],
-
   "videos": [],
-
   "matchingExercise": [
-    { "word": "PRODUCT", "definition": "A thing or service a company makes or sells" },
-    { "word": "PRICE", "definition": "How much money something costs" },
-    { "word": "CUSTOMER", "definition": "A person or company that buys something from a business" },
-    { "word": "BUY", "definition": "To get something by paying money" },
-    { "word": "SELL", "definition": "To give something to someone for money" },
-    { "word": "DISCOUNT", "definition": "A lower price than usual" },
-    { "word": "BUDGET", "definition": "The amount of money a person or company has to spend" },
-    { "word": "DEAL", "definition": "An agreement to buy, sell, or do something" }
+    {
+      "word": "PRODUCT",
+      "definition": "A thing or service a company makes or sells"
+    },
+    {
+      "word": "PRICE",
+      "definition": "How much money something costs"
+    },
+    {
+      "word": "CUSTOMER",
+      "definition": "A person or company that buys something from a business"
+    },
+    {
+      "word": "BUY",
+      "definition": "To get something by paying money"
+    },
+    {
+      "word": "SELL",
+      "definition": "To give something to someone for money"
+    },
+    {
+      "word": "DISCOUNT",
+      "definition": "A lower price than usual"
+    },
+    {
+      "word": "BUDGET",
+      "definition": "The amount of money a person or company has to spend"
+    },
+    {
+      "word": "DEAL",
+      "definition": "An agreement to buy, sell, or do something"
+    }
   ],
-
   "fillBlankExercise": [
-    { "before": "Our new app helps small businesses manage projects — it's our best-selling", "after": ".", "answer": "product" },
-    { "before": "Could you tell me the", "after": "of the premium plan?", "answer": "price" },
-    { "before": "We just signed a new", "after": "— a marketing agency based in Toronto.", "answer": "customer" },
-    { "before": "They've decided to", "after": "the annual plan instead of paying monthly.", "answer": "buy" },
-    { "before": "Our team", "after": "software to small and medium-sized businesses.", "answer": "sell" },
-    { "before": "If you sign up this quarter, you'll get a 20%", "after": ".", "answer": "discount" },
-    { "before": "Before I recommend a plan, I always ask what their", "after": "looks like.", "answer": "budget" },
-    { "before": "We closed three new", "after": "with marketing agencies this month.", "answer": "deal" }
+    {
+      "before": "Our new app helps small businesses manage projects — it's our best-selling",
+      "after": ".",
+      "answer": "product"
+    },
+    {
+      "before": "Could you tell me the",
+      "after": "of the premium plan?",
+      "answer": "price"
+    },
+    {
+      "before": "We just signed a new",
+      "after": "— a marketing agency based in Toronto.",
+      "answer": "customer"
+    },
+    {
+      "before": "They've decided to",
+      "after": "the annual plan instead of paying monthly.",
+      "answer": "buy"
+    },
+    {
+      "before": "Our team",
+      "after": "software to small and medium-sized businesses.",
+      "answer": "sell"
+    },
+    {
+      "before": "If you sign up this quarter, you'll get a 20%",
+      "after": ".",
+      "answer": "discount"
+    },
+    {
+      "before": "Before I recommend a plan, I always ask what their",
+      "after": "looks like.",
+      "answer": "budget"
+    },
+    {
+      "before": "We closed three new",
+      "after": "with marketing agencies this month.",
+      "answer": "deal"
+    }
   ],
-
   "multipleChoiceExercise": [
     {
       "question": "What does Sam and Riley's company sell?",
-      "options": ["Office furniture", "Software and cloud tools for businesses", "Clothes and accessories", "Food and drinks"],
+      "options": [
+        "Office furniture",
+        "Software and cloud tools for businesses",
+        "Clothes and accessories",
+        "Food and drinks"
+      ],
       "correctIndex": 1
     },
     {
       "question": "What is Riley's job at the company?",
-      "options": ["To fix bugs in the software", "To manage the accounts department", "To show customers why the product is right for them", "To design the company logo"],
+      "options": [
+        "To fix bugs in the software",
+        "To manage the accounts department",
+        "To show customers why the product is right for them",
+        "To design the company logo"
+      ],
       "correctIndex": 2
     },
     {
       "question": "How much does the pro plan cost before the discount?",
-      "options": ["$49 a month", "$199 a month", "$239 a month", "$299 a month"],
+      "options": [
+        "$49 a month",
+        "$199 a month",
+        "$239 a month",
+        "$299 a month"
+      ],
       "correctIndex": 3
     },
     {
       "question": "What discount is the company offering new customers this quarter?",
-      "options": ["10% off", "15% off", "20% off", "25% off"],
+      "options": [
+        "10% off",
+        "15% off",
+        "20% off",
+        "25% off"
+      ],
       "correctIndex": 2
     },
     {
       "question": "About how much would a customer pay for the pro plan with the discount?",
-      "options": ["$199 a month", "$239 a month", "$259 a month", "$279 a month"],
+      "options": [
+        "$199 a month",
+        "$239 a month",
+        "$259 a month",
+        "$279 a month"
+      ],
       "correctIndex": 1
     },
     {
       "question": "According to Sam, what's the secret to selling more?",
-      "options": ["Talking about the price first", "Knowing your product and listening to the customer's needs", "Offering the biggest discount possible", "Sending lots of emails"],
+      "options": [
+        "Talking about the price first",
+        "Knowing your product and listening to the customer's needs",
+        "Offering the biggest discount possible",
+        "Sending lots of emails"
+      ],
       "correctIndex": 1
     },
     {
       "question": "What does Sam suggest Riley ask about before recommending a plan?",
-      "options": ["The customer's favorite color", "The customer's budget", "The customer's office address", "The customer's age"],
+      "options": [
+        "The customer's favorite color",
+        "The customer's budget",
+        "The customer's office address",
+        "The customer's age"
+      ],
       "correctIndex": 1
     },
     {
       "question": "According to Sam, what naturally follows when you know your product and listen to the customer?",
-      "options": ["A complaint", "A good deal", "A refund", "A delay"],
+      "options": [
+        "A complaint",
+        "A good deal",
+        "A refund",
+        "A delay"
+      ],
       "correctIndex": 1
     }
   ],
-
   "groupActivities": {
-    "rolePlay": {
-      "instructions": "Work in pairs. One student is the salesperson, the other is the potential customer. Use the vocabulary and phrases from this lesson in your conversation. Try to keep talking for 3–5 minutes, then swap roles.",
-      "scenarios": [
+    "chooseResponse": {
+      "instructions": "Work in groups. Read the customer's line, then discuss which response (A, B, or C) is best. Choose your answer together, then click to see if you were right — and why.",
+      "items": [
         {
-          "label": "Service",
-          "context": "You work for a professional office cleaning company. Your potential customer manages a busy co-working space and is looking for a reliable cleaning service that fits their budget.",
-          "guidance": [
-            "Salesperson: Greet the customer and introduce your company and what you sell",
-            "Customer: Ask what the service includes and how much it costs",
-            "Salesperson: Explain your main service and give the price",
-            "Customer: Say the price seems high — ask if they can do anything about it",
-            "Salesperson: Offer a discount and explain the deal they would get",
-            "Customer: Ask what happens next if they want to move forward",
-            "Salesperson: Close by explaining the next step to buy"
+          "customerLine": "How much does it cost?",
+          "options": [
+            "It's expensive, but it's worth every penny.",
+            "The price depends on what you need. What's your budget?",
+            "We have lots of different products — I'll send you our full catalogue."
           ],
-          "vocabToUse": ["product", "price", "customer", "buy", "sell", "discount", "budget", "deal"],
-          "phrasesToUse": ["WHAT'S YOUR BUDGET", "WE CAN OFFER YOU A DISCOUNT", "I'LL SEND YOU A QUOTE", "I'LL FOLLOW UP NEXT WEEK"]
+          "correctIndex": 1,
+          "explanation": "B is correct. Asking about budget before quoting a price shows you want to find the right fit. A sounds dismissive. C avoids the question and sends the customer away."
         },
         {
-          "label": "Physical Product",
-          "context": "You work for a company that sells branded office supplies (notebooks, pens, desk organisers) to businesses in bulk. Your potential customer is an office manager at a medium-sized company that orders stationery every quarter.",
-          "guidance": [
-            "Salesperson: Introduce yourself and your product range",
-            "Customer: Ask about the most popular products and their prices",
-            "Salesperson: Describe your best-selling product and mention the price",
-            "Customer: Ask whether the price is negotiable — mention their budget is limited",
-            "Salesperson: Offer a discount for bulk orders and explain the deal",
-            "Customer: Ask how they can buy and when they would receive the order",
-            "Salesperson: Explain the buying process and offer to follow up"
+          "customerLine": "Can you give me a discount?",
+          "options": [
+            "No, our prices are fixed.",
+            "How much of a discount are you looking for?",
+            "If you sign up this month, we can offer you a 20% discount."
           ],
-          "vocabToUse": ["product", "price", "customer", "buy", "sell", "discount", "budget", "deal"],
-          "phrasesToUse": ["WHAT DOES YOUR COMPANY DO", "WHAT'S YOUR BUDGET", "WE CAN OFFER YOU A DISCOUNT", "I'LL SEND YOU A QUOTE"]
+          "correctIndex": 2,
+          "explanation": "C is correct. It offers a discount with a clear condition, which is professional and creates urgency. A shuts the conversation down. B gives the customer too much control over the price before you have established the product's value."
         },
         {
-          "label": "Digital Product",
-          "context": "You work for a software company that sells a project management tool to small businesses. Your potential customer runs a small marketing agency and has never used project management software before.",
-          "guidance": [
-            "Salesperson: Introduce your product and explain what it does",
-            "Customer: Ask what makes it different from free tools — and what the price is",
-            "Salesperson: Explain the value, mention the price, and offer to show how it works",
-            "Customer: Say their budget is tight — ask if there are cheaper options",
-            "Salesperson: Offer a discount or a starter plan that fits their budget",
-            "Customer: Ask what kind of deal they would get if they buy today",
-            "Salesperson: Close with the deal details and a clear next step"
+          "customerLine": "I need to think about it.",
+          "options": [
+            "Of course — I'll follow up next week to see what you decide.",
+            "Are you sure? This is a really great deal.",
+            "OK, no problem. Let me know when you're ready."
           ],
-          "vocabToUse": ["product", "price", "customer", "buy", "sell", "discount", "budget", "deal"],
-          "phrasesToUse": ["CAN I SHOW YOU HOW IT WORKS", "WHAT'S YOUR BUDGET", "WE CAN OFFER YOU A DISCOUNT", "I'LL FOLLOW UP NEXT WEEK"]
+          "correctIndex": 0,
+          "explanation": "A is correct. It keeps the conversation alive with a specific next step. B is pushy and could damage the relationship. C is polite but too passive — there is no clear plan to continue."
+        },
+        {
+          "customerLine": "What exactly does your company sell?",
+          "options": [
+            "We sell lots of different things — it depends on what you need.",
+            "Check our website — everything is listed there.",
+            "We sell software to businesses. Can I show you how it works?"
+          ],
+          "correctIndex": 2,
+          "explanation": "C is correct. It gives a clear, confident answer and immediately offers the next step. A is too vague. B sends the customer away instead of keeping them engaged."
         }
       ]
     },
-    "discussion": {
-      "instructions": "Discuss these questions with your group. Try to use vocabulary and phrases from this lesson. Give reasons for your answers and listen to your classmates' opinions.",
-      "questions": [
-        "In the dialogue, Sam offers Riley's customers a 20% discount. Do you think discounts are always a good idea, or can they hurt a brand? Why?",
-        "Sam says the secret to selling is: 'Know your product, listen to what the customer needs, and a good deal follows naturally.' Do you agree? What else do you think is important?",
-        "Riley asks about the customer's budget before recommending a plan. Why is it important to understand a customer's budget before talking about price?",
-        "Think about a product or service you use at work. How would you describe it to someone who has never heard of it? What would you say is its best feature?"
+    "profileMatch": {
+      "instructions": "Read the three customer profiles. As a group, match each customer to the plan that best fits their needs. Be ready to explain your choices using words from this lesson. Click 'Reveal Matches' to check.",
+      "profiles": [
+        {
+          "name": "Kenji",
+          "description": "Kenji runs a 2-person freelance design studio. He has a very small budget and just needs a simple way to track projects and invoice his customers.",
+          "matchKey": "starter"
+        },
+        {
+          "name": "Amara",
+          "description": "Amara manages a team of 15 at a growing marketing agency. She wants to track deals, manage customer relationships, and see reports on what her team is selling.",
+          "matchKey": "growth"
+        },
+        {
+          "name": "David",
+          "description": "David is IT director at a 200-person company. He needs a fully custom solution that connects with their existing systems and comes with a dedicated support team.",
+          "matchKey": "enterprise"
+        }
+      ],
+      "options": [
+        {
+          "key": "starter",
+          "label": "Starter Plan — $49/month",
+          "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+        },
+        {
+          "key": "growth",
+          "label": "Growth Plan — $149/month",
+          "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+        },
+        {
+          "key": "enterprise",
+          "label": "Enterprise Plan — Custom pricing",
+          "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The salesperson's line has been cut off. As a group, discuss how you would finish it. Try to use vocabulary from this lesson. There is no single correct answer — compare your ideas, then click to see one possible answer.",
+      "items": [
+        {
+          "customerLine": "This seems too expensive for us.",
+          "salespersonStart": "I understand — what's your budget, and I can see if",
+          "suggestedCompletion": "there is a plan that works for you. We also have a discount available if you sign up this month."
+        },
+        {
+          "customerLine": "We are not ready to buy right now.",
+          "salespersonStart": "That is completely fine. I will follow up next week",
+          "suggestedCompletion": "to see how things are going. There is no pressure — I just want to make sure you have everything you need to decide."
+        },
+        {
+          "customerLine": "Do you offer a trial before we commit?",
+          "salespersonStart": "Yes — let me show you how it works first, so you can",
+          "suggestedCompletion": "see if it is the right fit for your team before you decide to buy."
+        },
+        {
+          "customerLine": "We already use another product for this.",
+          "salespersonStart": "That is good to know. Can I ask what you like about it, and what",
+          "suggestedCompletion": "you would change if you could? That helps me understand if we would be a better fit for you."
+        }
       ]
     }
   }

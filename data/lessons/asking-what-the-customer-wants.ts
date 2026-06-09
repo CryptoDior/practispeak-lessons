@@ -342,108 +342,111 @@ export const askingWhatTheCustomerWants: Lesson = {
     }
 ],
   groupActivities: {
-    "rolePlay": {
-        "instructions": "Work in pairs. One student is the salesperson, the other is the potential customer. The salesperson's job is to ask questions and understand the customer's needs before making any recommendation. Try to keep talking for 3–5 minutes, then swap roles.",
-        "scenarios": [
+    "chooseResponse": {
+        "instructions": "Work in groups. Read the customer's line, then discuss which response (A, B, or C) is best. Choose your answer together, then click to see if you were right — and why.",
+        "items": [
             {
-                "label": "Service",
-                "context": "You work for a managed IT support company. Your potential customer is an operations manager at a 30-person logistics company. They are having problems with their current IT setup but aren't sure exactly what they need.",
-                "guidance": [
-                    "Salesperson: Open by asking what they are looking for in an IT support provider",
-                    "Customer: Describe the main problem — systems are slow and the team loses work when things crash",
-                    "Salesperson: Ask what their top priority is — fixing reliability, cutting downtime, or reducing IT costs",
-                    "Customer: Say reliability is the priority but budget is also a concern",
-                    "Salesperson: Ask if they have tried any solutions before and what did not work",
-                    "Customer: Explain they tried a freelancer but it was not reliable enough",
-                    "Salesperson: Based on what you have heard, recommend the right option and explain why it is a good fit"
+                "customerLine": "I'm not sure what I need — we have a few different problems.",
+                "options": [
+                    "Don't worry — I'll just recommend our most popular plan.",
+                    "That's a great place to start. What would you say is the biggest problem right now?",
+                    "I'll send you information about all our options and you can decide."
                 ],
-                "vocabToUse": [
-                    "recommend",
-                    "problem",
-                    "priority",
-                    "goal",
-                    "fit",
-                    "option",
-                    "need",
-                    "solution"
-                ],
-                "phrasesToUse": [
-                    "WHAT ARE YOU LOOKING FOR",
-                    "WHAT'S YOUR MAIN PRIORITY",
-                    "HAVE YOU TRIED ANYTHING BEFORE",
-                    "BASED ON WHAT YOU'VE TOLD ME",
-                    "WOULD THAT WORK FOR YOU"
-                ]
+                "correctIndex": 1,
+                "explanation": "B is correct. Asking for the biggest problem narrows the focus, which is exactly how good needs discovery works. A skips the discovery entirely and recommends without understanding. C delays the conversation instead of helping right now."
             },
             {
-                "label": "Physical Product",
-                "context": "You work for a company that sells commercial coffee machines to offices and hospitality businesses. Your potential customer manages a busy hotel that is looking to upgrade their breakfast service equipment.",
-                "guidance": [
-                    "Salesperson: Start by asking what they are looking for in a new coffee machine",
-                    "Customer: Explain the problem — the current machine breaks down often and guests complain",
-                    "Salesperson: Ask what the main priority is — reliability, speed, or the quality of the coffee",
-                    "Customer: Say reliability is the goal — they cannot have the machine break during peak hours",
-                    "Salesperson: Ask how many guests they serve and what their budget looks like",
-                    "Customer: Give the numbers and ask what options are available at that price",
-                    "Salesperson: Recommend the best fit based on what they have told you and explain the solution"
+                "customerLine": "What would you recommend for a team our size?",
+                "options": [
+                    "Before I recommend anything, can I ask — what's your main priority right now?",
+                    "I recommend the Growth Plan — most companies your size choose that one.",
+                    "It depends. What's your budget?"
                 ],
-                "vocabToUse": [
-                    "recommend",
-                    "problem",
-                    "priority",
-                    "goal",
-                    "fit",
-                    "option",
-                    "need",
-                    "solution"
-                ],
-                "phrasesToUse": [
-                    "WHAT ARE YOU LOOKING FOR",
-                    "WHAT'S YOUR MAIN PRIORITY",
-                    "WHAT WOULD MAKE THIS A SUCCESS FOR YOU",
-                    "BASED ON WHAT YOU'VE TOLD ME",
-                    "WOULD THAT WORK FOR YOU"
-                ]
+                "correctIndex": 0,
+                "explanation": "A is correct. Asking about priority before recommending shows you want the right fit, not just a quick sale. B recommends without understanding the customer's specific needs or goals. C is on the right track but asking about budget before priority skips an important step."
             },
             {
-                "label": "Digital Product",
-                "context": "You work for a company that sells CRM software to sales teams. Your potential customer is a sales manager at a growing e-commerce company. Their team is struggling to keep track of leads and follow-ups.",
-                "guidance": [
-                    "Salesperson: Ask what they are looking for in a CRM tool",
-                    "Customer: Describe the problem — leads are falling through the cracks and follow-ups are missed",
-                    "Salesperson: Ask what the main priority is — better tracking, automation, or team visibility",
-                    "Customer: Say their goal is to make sure no lead is forgotten and follow-ups happen on time",
-                    "Salesperson: Ask if they have tried any CRM tools before and what did not work",
-                    "Customer: Say they tried a spreadsheet system but it became too messy as the team grew",
-                    "Salesperson: Based on what you have heard, recommend an option that fits their needs and explain the solution"
+                "customerLine": "We tried something similar before and it didn't work out.",
+                "options": [
+                    "Oh, that's a shame. Our product is a lot better than most.",
+                    "I'm sorry to hear that. What didn't work — was it the features, the fit with your team, or something else?",
+                    "Most tools have that problem. Ours is different, I promise."
                 ],
-                "vocabToUse": [
-                    "recommend",
-                    "problem",
-                    "priority",
-                    "goal",
-                    "fit",
-                    "option",
-                    "need",
-                    "solution"
+                "correctIndex": 1,
+                "explanation": "B is correct. It shows empathy and asks a specific follow-up to understand what went wrong — which is valuable information for finding the right solution. A is dismissive. C is vague and sounds like an empty promise."
+            },
+            {
+                "customerLine": "We already have a solution for that.",
+                "options": [
+                    "Then maybe our product isn't what you're looking for.",
+                    "Are you sure? Our solution is probably a better fit.",
+                    "Great — is it meeting all your needs, or is there something it doesn't do that you'd love to have?"
                 ],
-                "phrasesToUse": [
-                    "WHAT ARE YOU LOOKING FOR",
-                    "WHAT'S YOUR MAIN PRIORITY",
-                    "HAVE YOU TRIED ANYTHING BEFORE",
-                    "BASED ON WHAT YOU'VE TOLD ME",
-                    "WOULD THAT WORK FOR YOU"
-                ]
+                "correctIndex": 2,
+                "explanation": "C is correct. It acknowledges their current solution and gently opens the door to an unmet need. A gives up far too early. B sounds argumentative and dismissive of what the customer already has."
             }
         ]
     },
-    "discussion": {
-        "instructions": "Discuss these questions with your group. Try to use vocabulary and phrases from this lesson. Give reasons for your answers and listen to your classmates' opinions.",
-        "questions": [
-            "Riley asks about Dana's priority before making any recommendation. Why is this important? How do you find out what a customer's real priorities are in your industry?",
-            "Riley reframes Dana's frustration ('we waste hours every week') as a goal ('better visibility into what your team is working on'). Why might turning a problem into a goal be a useful technique when talking to customers?",
-            "Dana says simplicity is 'non-negotiable.' Have you ever had a customer reject a solution because it was too complicated or not the right fit? What did you do?",
-            "Think about a time you had to ask questions to understand what someone needed — a customer, a colleague, or a manager. What questions worked best? What would you ask differently now?"
+    "profileMatch": {
+        "instructions": "Read the three customer profiles. As a group, match each customer to the plan that best fits their needs. Use words like 'goal', 'priority', and 'fit' to explain your choices. Click 'Reveal Matches' to check.",
+        "profiles": [
+            {
+                "name": "Omar",
+                "description": "Omar is a team lead at a growing startup with 8 people. His main problem is that there is no system for tracking tasks. His priority is getting organised quickly, and his budget is limited.",
+                "matchKey": "starter"
+            },
+            {
+                "name": "Sarah",
+                "description": "Sarah is an operations manager at a mid-sized company with 30 employees. Her goal is to improve how the sales team manages customer relationships and tracks deals. She needs reporting tools.",
+                "matchKey": "growth"
+            },
+            {
+                "name": "James",
+                "description": "James is the COO at a large company with 500 employees. He needs a solution that connects with their existing HR and finance systems. He has a dedicated IT team and a large budget.",
+                "matchKey": "enterprise"
+            }
+        ],
+        "options": [
+            {
+                "key": "starter",
+                "label": "Starter Plan — $49/month",
+                "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+            },
+            {
+                "key": "growth",
+                "label": "Growth Plan — $149/month",
+                "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+            },
+            {
+                "key": "enterprise",
+                "label": "Enterprise Plan — Custom pricing",
+                "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The salesperson's line has been cut off. As a group, discuss how you would finish it. Try to use vocabulary from this lesson. There is no single correct answer — compare your ideas, then click to see one possible answer.",
+        "items": [
+            {
+                "customerLine": "I'm not sure which option is the right fit for us.",
+                "salespersonStart": "I understand — before I recommend anything, can I ask what",
+                "suggestedCompletion": "your main goal is right now? Once I know that, I can point you to the option that is the best fit for your team."
+            },
+            {
+                "customerLine": "We have been trying to solve this problem for months.",
+                "salespersonStart": "I can imagine how frustrating that is. What solutions have you",
+                "suggestedCompletion": "tried so far? That helps me understand what has not worked, so I do not recommend the same thing again."
+            },
+            {
+                "customerLine": "My team is resistant to trying new tools.",
+                "salespersonStart": "That is a really common challenge. The good news is that",
+                "suggestedCompletion": "our tool is designed to be easy to learn — most teams feel confident using it within a few days, even the ones who were unsure at first."
+            },
+            {
+                "customerLine": "Can you just tell me which plan to go with?",
+                "salespersonStart": "I want to make sure I give you the right recommendation. The most important thing is your",
+                "suggestedCompletion": "main priority — is it saving time, cutting costs, or making it easier for your team to work together? That will tell me exactly which option is the right fit."
+            }
         ]
     }
 },
