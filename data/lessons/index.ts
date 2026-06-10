@@ -36,6 +36,7 @@ import { givingSimpleAnswers } from './giving-simple-answers';
 import { colorsSizesAndTypes } from './colors-sizes-and-types';
 import { theSalesProcess } from './the-sales-process';
 import { salesCallStructure } from './sales-call-structure';
+import { buildingRapport } from './building-rapport';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -75,6 +76,7 @@ export const lessons: Lesson[] = [
   colorsSizesAndTypes,
   theSalesProcess,
   salesCallStructure,
+  buildingRapport,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
