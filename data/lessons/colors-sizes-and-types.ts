@@ -1,0 +1,453 @@
+import { Lesson } from '@/types/lesson';
+
+export const colorsSizesAndTypes: Lesson = {
+  slug: 'colors-sizes-and-types',
+  title: 'Talking About Colors, Sizes, and Types',
+  subtitle: 'How to describe products clearly using adjectives and nouns',
+  level: 'A1-A2',
+  description: "Learn to describe products, plans, and features using adjective + noun combinations — 'a live dashboard', 'a flexible contract', 'a detailed report' — so customers instantly understand what you are offering.",
+  heroImage: '/images/colors-sizes-and-types-hero.png',
+
+  vocabulary: [
+    {
+      word: 'DETAILED',
+      partOfSpeech: 'adjective',
+      definition: 'Containing a lot of information; thorough and complete.',
+      example: 'I can send you a detailed report showing how your team is performing each week.',
+      imageSlug: '/images/detailed.png',
+    },
+    {
+      word: 'FLEXIBLE',
+      partOfSpeech: 'adjective',
+      definition: 'Easy to change or adapt to different needs.',
+      example: 'It is a flexible contract — you can switch from monthly to annual at any time.',
+      imageSlug: '/images/flexible.png',
+    },
+    {
+      word: 'CUSTOM',
+      partOfSpeech: 'adjective',
+      definition: "Made or adjusted to match a specific person or company's exact needs.",
+      example: 'The Enterprise Plan is a custom solution — we build it around your workflow.',
+      imageSlug: '/images/custom.png',
+    },
+    {
+      word: 'AUTOMATED',
+      partOfSpeech: 'adjective',
+      definition: 'Done automatically by the system, without any manual work.',
+      example: 'You can set up an automated report that goes to your manager every Monday morning.',
+      imageSlug: '/images/automated.png',
+    },
+    {
+      word: 'LIVE',
+      partOfSpeech: 'adjective',
+      definition: 'Happening or updating in real time; showing the most current information.',
+      example: 'The live dashboard shows your deal pipeline as it changes throughout the day.',
+      imageSlug: '/images/live.png',
+    },
+    {
+      word: 'BUILT-IN',
+      partOfSpeech: 'adjective',
+      definition: 'Already included as part of the product; no extra setup or cost needed.',
+      example: 'There are built-in connections to the most common business tools — no setup needed.',
+      imageSlug: '/images/built-in.png',
+    },
+    {
+      word: 'LIMITED',
+      partOfSpeech: 'adjective',
+      definition: 'Restricted; not complete or available in full.',
+      example: 'The Starter Plan has a limited number of users — up to five in total.',
+      imageSlug: '/images/limited.png',
+    },
+    {
+      word: 'SCHEDULED',
+      partOfSpeech: 'adjective',
+      definition: 'Set to happen automatically at a fixed time or on a regular basis.',
+      example: 'A scheduled report goes out every Friday so your team starts the weekend with the latest numbers.',
+      imageSlug: '/images/scheduled.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'A LIVE DASHBOARD',
+      definition: 'A screen that shows real-time information and updates automatically.',
+      example: 'You get a live dashboard — you can see every deal and every customer in one place, right now.',
+      imageSlug: '/images/a-live-dashboard.png',
+    },
+    {
+      phrase: 'A DETAILED REPORT',
+      definition: 'A thorough document or summary with full information and data.',
+      example: 'I can show you a detailed report — it breaks down performance by team member, by week, and by deal size.',
+      imageSlug: '/images/a-detailed-report.png',
+    },
+    {
+      phrase: 'A FLEXIBLE CONTRACT',
+      definition: "An agreement that can be changed or adapted to fit the customer's needs.",
+      example: 'It is a flexible contract — monthly or annual, and you can change at any time.',
+      imageSlug: '/images/a-flexible-contract.png',
+    },
+    {
+      phrase: 'A CUSTOM SOLUTION',
+      definition: "A product or service built specifically around a customer's exact requirements.",
+      example: 'For larger teams, we offer a custom solution — it is built around your exact workflow and tools.',
+      imageSlug: '/images/a-custom-solution.png',
+    },
+    {
+      phrase: 'A BUILT-IN FEATURE',
+      definition: 'A function that is already included in the product with no extra setup.',
+      example: 'The integration with your email tool is a built-in feature — it connects automatically when you sign up.',
+      imageSlug: '/images/a-built-in-feature.png',
+    },
+    {
+      phrase: 'AN AUTOMATED REPORT',
+      definition: 'A report the system creates and sends on its own, on a schedule you set.',
+      example: 'You can set up an automated report — choose the day and time, and it goes out without you doing anything.',
+      imageSlug: '/images/an-automated-report.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Riley, I need to present Brightline to my manager next week. Can you describe the key features so I can explain them clearly?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Of course. The first thing most managers want to see is the [[live:happening or updating in real time; showing the most current information]] dashboard. It shows your full deal pipeline as it updates throughout the day — no manual refresh needed.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Good. What about reports? My manager will ask about that.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'You have two options. A [[detailed:containing a lot of information; thorough and complete]] report you can build yourself, or an [[automated:done automatically by the system, without any manual work]] report that goes out every week on a day you choose.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'I like the automated option. Is it easy to set up?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Very easy — it is a [[built-in:already included as part of the product; no extra setup or cost needed]] feature. You just pick the day and time, and the system handles the rest. There is also a [[scheduled:set to happen automatically at a fixed time or on a regular basis]] summary for your whole team every Friday.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'And the contract? My manager will want to know if it is [[flexible:easy to change or adapt to different needs]].',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Yes — it is a flexible contract. You can start monthly and move to annual when you are ready. No penalties for switching.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: "What if we grow and need a [[custom:made or adjusted to match a specific person or company's exact needs]] setup later?",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Then you move to the Enterprise Plan — it is a custom solution. We build it around your team's exact workflow. The [[limited:restricted; not complete or available in full]] features on the standard plans disappear and you get everything you need.",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'That covers everything. I think I can explain this to my manager now.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'I can also send you a short written summary — a detailed overview with the key adjectives and numbers — so you have something to share in the meeting.',
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "DETAILED",
+        "definition": "Containing a lot of information; thorough and complete"
+    },
+    {
+        "word": "FLEXIBLE",
+        "definition": "Easy to change or adapt to different needs"
+    },
+    {
+        "word": "CUSTOM",
+        "definition": "Made or adjusted to match a specific company's exact needs"
+    },
+    {
+        "word": "AUTOMATED",
+        "definition": "Done automatically by the system, without any manual work"
+    },
+    {
+        "word": "LIVE",
+        "definition": "Happening or updating in real time"
+    },
+    {
+        "word": "BUILT-IN",
+        "definition": "Already included as part of the product; no extra setup needed"
+    },
+    {
+        "word": "LIMITED",
+        "definition": "Restricted; not complete or available in full"
+    },
+    {
+        "word": "SCHEDULED",
+        "definition": "Set to happen automatically at a fixed time or regularly"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "You get a",
+        "after": "dashboard that shows all your deals updating in real time.",
+        "answer": "live"
+    },
+    {
+        "before": "I can send you a",
+        "after": "report — it includes all the key numbers broken down by team member.",
+        "answer": "detailed"
+    },
+    {
+        "before": "It is a",
+        "after": "contract — you can switch from monthly to annual at any time.",
+        "answer": "flexible"
+    },
+    {
+        "before": "We can build you a",
+        "after": "solution around your exact workflow and tools.",
+        "answer": "custom"
+    },
+    {
+        "before": "The email integration is a",
+        "after": "feature — it connects automatically when you sign up.",
+        "answer": "built-in"
+    },
+    {
+        "before": "You can set up an",
+        "after": "report that goes to your team every Monday morning.",
+        "answer": "automated"
+    },
+    {
+        "before": "The Starter Plan has a",
+        "after": "number of users — up to five in total.",
+        "answer": "limited"
+    },
+    {
+        "before": "A",
+        "after": "summary goes out every Friday so your team has the latest numbers.",
+        "answer": "scheduled"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "Why does Dana want Riley to describe the features?",
+        "options": [
+            "She is having a problem with the dashboard",
+            "She needs to present Brightline to her manager next week",
+            "She wants to upgrade her plan",
+            "She is writing a review of the product"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the live dashboard show?",
+        "options": [
+            "A weekly summary of completed deals",
+            "The full deal pipeline as it updates throughout the day",
+            "A list of all customer contact details",
+            "The team's scheduled tasks for the week"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What are the two reporting options Riley describes?",
+        "options": [
+            "A basic report and a premium report",
+            "A printed report and a digital report",
+            "A detailed report you build yourself, and an automated report that goes out weekly",
+            "A live report and a historical report"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does 'built-in' mean in the context of the automated report?",
+        "options": [
+            "It costs extra to set up",
+            "It is already included — no extra setup needed",
+            "It requires a developer to configure",
+            "It is only available on the Enterprise Plan"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does the scheduled Friday summary do?",
+        "options": [
+            "It reminds the team about upcoming meetings",
+            "It shows the week's sales numbers to the whole team",
+            "It sends invoices to customers automatically",
+            "It backs up all the team's data"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Riley say about the contract?",
+        "options": [
+            "It is a 12-month fixed contract",
+            "It is a flexible contract — you can start monthly and move to annual any time",
+            "It requires a minimum 3-month commitment",
+            "Monthly and annual plans have different features"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What happens on the Enterprise Plan compared to the standard plans?",
+        "options": [
+            "You get a live dashboard instead of a static one",
+            "The limited features on standard plans disappear and you get a custom solution",
+            "You pay monthly instead of annually",
+            "You get a dedicated team of developers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Riley offer to send Dana at the end?",
+        "options": [
+            "A contract for her to sign",
+            "A link to the pricing page",
+            "A detailed written overview to share in the meeting",
+            "A recorded video demo"
+        ],
+        "correctIndex": 2
+    }
+],
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Work in groups. Read the customer's question, then decide which response (A, B, or C) is best. Look for the response that uses clear adjective + noun combinations. Click to check your answer and read why.",
+        "items": [
+            {
+                "customerLine": "What kind of reports do you offer?",
+                "options": [
+                    "You can get reports — there are different types available depending on your plan.",
+                    "We have three types: a live dashboard that updates in real time, an automated weekly summary, and a detailed custom report you can build yourself.",
+                    "The reports are very good — our customers use them every week."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It uses three specific adjective + noun combinations (live dashboard, automated summary, detailed custom report) to give a clear, concrete answer. A is vague — 'different types' means nothing without detail. C doesn't answer the question at all."
+            },
+            {
+                "customerLine": "Is the contract flexible?",
+                "options": [
+                    "That is a great question — let me look into the contract details for you.",
+                    "The contract is fine — most customers are happy with it.",
+                    "Yes — it is a flexible contract. You can start on a monthly plan with no commitment and move to an annual plan when you are ready."
+                ],
+                "correctIndex": 2,
+                "explanation": "C is correct. It uses the key adjective + noun directly ('flexible contract', 'monthly plan', 'annual plan') and gives the customer a clear picture of their options. A avoids the question. B is vague and doesn't give the customer anything to act on."
+            },
+            {
+                "customerLine": "Does it come with any built-in integrations?",
+                "options": [
+                    "Yes — there are built-in connections to the most common business tools. No setup needed — they connect automatically when you sign up.",
+                    "Yes, integrations are available — you can find the full list on our website.",
+                    "It depends on which plan you are on — some integrations require a paid add-on."
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. It uses 'built-in connections' clearly, confirms there is no extra setup, and explains how it works. B answers yes but sends the customer to do their own research. C starts with a limitation before giving the positive answer — 'built-in' means no extra cost, so say that first."
+            },
+            {
+                "customerLine": "Can you describe the difference between the basic plan and the custom solution?",
+                "options": [
+                    "The basic plan has limited features — good for small teams. The custom solution is built around your exact workflow — it removes the limited options and replaces them with a fully flexible setup.",
+                    "The basic plan is cheaper and the custom solution is more expensive but better.",
+                    "It really depends on your team size and what you need — can I ask a few questions first?"
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. It uses five adjective + noun combinations (basic plan, limited features, small teams, custom solution, flexible setup) to paint a clear contrast. B gives no useful information beyond price. C avoids a question you can answer directly and well."
+            }
+        ]
+    },
+    "profileMatch": {
+        "instructions": "Riley needs to choose the right type of demo for each customer. Read the three profiles and decide which demo format fits each person best. Use phrases from this lesson to explain your choices. Click 'Check Matches' when you agree.",
+        "profiles": [
+            {
+                "name": "Tom",
+                "description": "Tom is a sales director with a packed schedule. He doesn't have time for a live call right now, but he's interested. He wants to watch something on his own time and share it with his team before making a decision.",
+                "matchKey": "recorded"
+            },
+            {
+                "name": "Yuki",
+                "description": "Yuki is a technical lead with specific questions about how Brightline connects with their existing software. She needs real-time answers and wants to see the built-in integrations working live.",
+                "matchKey": "live"
+            },
+            {
+                "name": "Carlos",
+                "description": "Carlos needs to present Brightline to his board of directors. He doesn't need to see it in action — he needs a clear, detailed written summary with all the key facts, features, and pricing that he can share in a formal meeting.",
+                "matchKey": "written"
+            }
+        ],
+        "options": [
+            {
+                "key": "recorded",
+                "label": "A recorded video demo",
+                "description": "A short, pre-made walkthrough of the product that the customer can watch at any time. Good for busy contacts who want to evaluate on their own schedule and share with their team."
+            },
+            {
+                "key": "live",
+                "label": "A live demo call",
+                "description": "A real-time walkthrough with a product specialist who can answer questions, show specific features, and demonstrate built-in integrations in action. Good for technical contacts with detailed questions."
+            },
+            {
+                "key": "written",
+                "label": "A detailed written overview",
+                "description": "A clear, structured document with all the key product information, adjective + noun descriptions, feature lists, and pricing. Good for formal decision-makers who need to present the product to others."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The salesperson's line has been cut off. As a group, finish it using adjective + noun combinations from this lesson — like 'a live dashboard', 'a flexible contract', 'an automated report'. There is no single correct answer — compare your ideas, then click to see one possible answer.",
+        "items": [
+            {
+                "customerLine": "What kind of reporting do you offer?",
+                "salespersonStart": "We have two main types:",
+                "suggestedCompletion": "a live dashboard that updates in real time so you can see your pipeline at any moment, and an automated weekly report that goes to your whole team on a schedule you set. If you need more, I can also build you a detailed custom report."
+            },
+            {
+                "customerLine": "Is the contract flexible?",
+                "salespersonStart": "Yes — it is a flexible contract.",
+                "suggestedCompletion": "You can start on a monthly plan with no commitment and upgrade to an annual plan whenever you are ready. There are no penalties for switching and no long-term lock-in on the monthly option."
+            },
+            {
+                "customerLine": "What is included in the Enterprise Plan?",
+                "salespersonStart": "The Enterprise Plan is a custom solution —",
+                "suggestedCompletion": "we build it around your exact workflow. You get a live dashboard, automated reports, built-in integrations with your existing tools, and a flexible contract. There are no limited features — you get everything, configured to match your team."
+            },
+            {
+                "customerLine": "Can I get a summary to share with my manager?",
+                "salespersonStart": "Of course — I can send you a detailed written overview.",
+                "suggestedCompletion": "It covers the live dashboard, the automated reporting options, the built-in integrations, and the flexible contract terms. Everything your manager needs to make a decision, in one clear document."
+            }
+        ]
+    }
+},
+};
