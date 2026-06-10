@@ -1,0 +1,364 @@
+{
+  "exportName": "givingSimpleAnswers",
+  "title": "Giving Simple Answers",
+  "subtitle": "How to give clear yes and no answers — and what to say when the answer is no",
+  "level": "A1-A2",
+  "description": "Learn to answer customer questions directly and confidently — 'Yes, we have it.', 'No, sorry.', 'Unfortunately not, but…' — without being vague or leaving the customer waiting.",
+  "dialogueSubtitle": "Dana calls Riley with a list of yes/no questions before she decides to upgrade her plan",
+  "vocabulary": [
+    {
+      "word": "unfortunately",
+      "partOfSpeech": "adverb",
+      "definition": "Used to introduce disappointing or negative news in a polite way.",
+      "example": "Unfortunately, phone support is not included in the Growth Plan."
+    },
+    {
+      "word": "alternative",
+      "partOfSpeech": "noun",
+      "definition": "A different option that is available when what you want is not possible.",
+      "example": "We don't have a single-user plan, but let me offer you an alternative."
+    },
+    {
+      "word": "include",
+      "partOfSpeech": "verb",
+      "definition": "To have something as part of a plan, package, or offer.",
+      "example": "Yes, live chat support is included in the Growth Plan."
+    },
+    {
+      "word": "correct",
+      "partOfSpeech": "adjective",
+      "definition": "Right; exactly as stated; accurate.",
+      "example": "That is correct — the annual rate works out at $124 a month."
+    },
+    {
+      "word": "exactly",
+      "partOfSpeech": "adverb",
+      "definition": "Used to agree completely or confirm something is 100% right.",
+      "example": "Yes, exactly — you can upgrade from Starter to Growth at any time."
+    },
+    {
+      "word": "apologise",
+      "partOfSpeech": "verb",
+      "definition": "To say you are sorry for something that is disappointing or inconvenient.",
+      "example": "I apologise — that feature is not available on the Starter Plan."
+    },
+    {
+      "word": "standard",
+      "partOfSpeech": "adjective",
+      "definition": "Included as a normal part of something, without needing to add or pay extra.",
+      "example": "Data export is a standard feature on all plans — you don't need to request it."
+    },
+    {
+      "word": "request",
+      "partOfSpeech": "noun",
+      "definition": "A polite or formal question asking for something specific.",
+      "example": "That is a common request — most customers ask about this before they upgrade."
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "YES WE HAVE IT",
+      "definition": "Confirm directly that a product, feature, or option is available.",
+      "example": "A mobile-friendly version? Yes, we have it — it works on any device."
+    },
+    {
+      "phrase": "NO SORRY",
+      "definition": "A direct but polite way to say something is not possible or not available.",
+      "example": "A single-user plan? No, sorry — our plans start at five users."
+    },
+    {
+      "phrase": "THAT IS CORRECT",
+      "definition": "Confirm that what the customer said is exactly right.",
+      "example": "The annual rate is $124 a month — that is correct."
+    },
+    {
+      "phrase": "UNFORTUNATELY NOT",
+      "definition": "A polite way to give a negative answer, softer than a plain 'no'.",
+      "example": "Phone support on the Growth Plan? Unfortunately not — that is only on Enterprise."
+    },
+    {
+      "phrase": "YES THAT IS INCLUDED",
+      "definition": "Confirm that something is part of the plan or offer.",
+      "example": "Live chat? Yes, that is included in the Growth Plan and above."
+    },
+    {
+      "phrase": "LET ME OFFER YOU",
+      "definition": "Introduce an alternative when you cannot give the customer what they asked for.",
+      "example": "We don't have a free plan, but let me offer you a 14-day free trial instead."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Hi Riley. I have a few quick questions before I decide to upgrade. Does the Growth Plan [[include:to have something as part of a plan, package, or offer]] live reporting?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Yes, we have it. The Growth Plan includes a full reporting dashboard — you can track deals, team performance, and customer activity all in one place."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Is live chat support included too?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Yes, that is [[correct:right; exactly as stated; accurate]] — live chat is [[standard:included as a normal part of something, without needing to add or pay extra]] on the Growth Plan. Email support is available on all plans."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "What about phone support? Is that included?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "I [[apologise:to say you are sorry for something that is disappointing or inconvenient]] — [[unfortunately:used to introduce disappointing or negative news in a polite way]] not on the Growth Plan. Phone support is only available on the Enterprise Plan. Let me offer you the live chat as an [[alternative:a different option that is available when what you want is not possible]] — most customers find it just as fast."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Understood. Can I export my data if I cancel?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Yes, [[exactly:used to agree completely or confirm something is 100% right]] — data export is a standard feature on all plans. It's yours, so you can take it with you any time."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Last [[request:a polite or formal question asking for something specific]] — do you have a plan for just two users? We're a small team."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "No, sorry — our plans start at five users. But let me offer you the Starter Plan at $49 a month. It covers up to five users, so you have room to grow and the price stays the same."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "That sounds fine actually. Can I upgrade to Growth later if I need to?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Yes, we have it — you can upgrade at any time with no fee. Your data moves with you automatically."
+    }
+  ],
+  "videos": [],
+  "matchingExercise": [
+    { "word": "UNFORTUNATELY", "definition": "Used to introduce disappointing or negative news politely" },
+    { "word": "ALTERNATIVE", "definition": "A different option when what you want is not possible" },
+    { "word": "INCLUDE", "definition": "To have something as part of a plan, package, or offer" },
+    { "word": "CORRECT", "definition": "Right; exactly as stated; accurate" },
+    { "word": "EXACTLY", "definition": "Used to agree completely or confirm something is 100% right" },
+    { "word": "APOLOGISE", "definition": "To say you are sorry for something disappointing or inconvenient" },
+    { "word": "STANDARD", "definition": "Included as a normal part of something, without extra cost" },
+    { "word": "REQUEST", "definition": "A polite or formal question asking for something specific" }
+  ],
+  "fillBlankExercise": [
+    { "before": "", "after": ", phone support is not included in the Growth Plan.", "answer": "Unfortunately" },
+    { "before": "We don't have that plan, but let me offer you an", "after": ".", "answer": "alternative" },
+    { "before": "Yes, live chat support is", "after": "in the Growth Plan.", "answer": "included" },
+    { "before": "The annual rate is $124 a month — that is", "after": ".", "answer": "correct" },
+    { "before": "Yes,", "after": "— you can upgrade at any time with no fee.", "answer": "exactly" },
+    { "before": "I", "after": "— that feature is not available on the Starter Plan.", "answer": "apologise" },
+    { "before": "Data export is a", "after": "feature on all plans — you don't need to request it.", "answer": "standard" },
+    { "before": "That is a common", "after": "— most customers ask about this before they upgrade.", "answer": "request" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "Why is Dana calling Riley?",
+      "options": [
+        "She wants to cancel her account",
+        "She wants to ask questions before deciding to upgrade",
+        "She has a problem with her dashboard",
+        "She needs help with billing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Does the Growth Plan include live reporting?",
+      "options": [
+        "No — reporting is only on the Enterprise Plan",
+        "Yes — it includes a full reporting dashboard",
+        "Yes — but only for teams of 10 or more",
+        "It depends on which add-on you choose"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Is live chat support included in the Growth Plan?",
+      "options": [
+        "No — only email support is included",
+        "Yes — but only during business hours",
+        "Yes — it is standard on the Growth Plan",
+        "It is available as a paid add-on"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does Riley say about phone support?",
+      "options": [
+        "It is included in all plans",
+        "It is available for an extra fee",
+        "Unfortunately it is not included in the Growth Plan — only on Enterprise",
+        "It is available Monday to Friday only"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What alternative does Riley offer instead of phone support?",
+      "options": [
+        "A dedicated account manager",
+        "A weekly check-in call",
+        "Email support",
+        "Live chat"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Is data export available if Dana cancels?",
+      "options": [
+        "No — data is deleted after cancellation",
+        "Yes — it is a standard feature on all plans",
+        "Yes — but only on the Enterprise Plan",
+        "It is available for 30 days after cancellation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Does Brightline have a plan for just two users?",
+      "options": [
+        "Yes — there is a two-user plan at $29 a month",
+        "Yes — the Starter Plan works for any team size",
+        "No, sorry — plans start at five users",
+        "No — the minimum is ten users"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Can Dana upgrade from Starter to Growth later?",
+      "options": [
+        "No — you have to choose your plan when you sign up",
+        "Yes — but there is a fee to upgrade",
+        "Yes — you can upgrade at any time with no fee",
+        "Only at the end of the billing cycle"
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in groups. Read the customer's question, then decide which response (A, B, or C) is best. Discuss your reasoning, then click to check — and read why.",
+      "items": [
+        {
+          "customerLine": "Does the plan include unlimited storage?",
+          "options": [
+            "I'm not sure — let me check the details and get back to you.",
+            "Unfortunately not — storage is limited to 100GB on the Growth Plan. But let me offer you the Enterprise Plan as an alternative — it includes unlimited storage.",
+            "Yes, I think so — most of our plans include a lot of storage."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It gives a direct no, explains the actual limit, and immediately offers an alternative. A delays the answer when you already know it. C is vague and inaccurate — never guess when you know the facts."
+        },
+        {
+          "customerLine": "Is live chat support included in the monthly price?",
+          "options": [
+            "Yes, that is correct — live chat is included in the Growth Plan and above.",
+            "Yes, we have it — but I would have to check exactly which plans include it.",
+            "Support is included, but I am not sure in what form."
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. It says yes clearly, confirms it with 'that is correct', and adds the key detail about which plans. B answers yes but sounds uncertain when you should know the answer. C is too vague to be useful."
+        },
+        {
+          "customerLine": "Can I cancel at any time?",
+          "options": [
+            "I would have to check our cancellation policy before I can say for sure.",
+            "It depends on whether you pay monthly or annually.",
+            "Yes — monthly plans can be cancelled at any time. Annual plans run until the end of the billing year, so let me explain how that works."
+          ],
+          "correctIndex": 2,
+          "explanation": "C is correct. It leads with yes, then gives the honest full picture with the nuance about monthly vs annual. A sounds uncertain when you should know your own policy. B starts with the limitation instead of the yes — the customer hears a negative first."
+        },
+        {
+          "customerLine": "Do you have a plan for just one user?",
+          "options": [
+            "Unfortunately not — our plans start at five users. But let me offer you the Starter Plan as the closest option — it is $49 a month and gives you room to grow at the same price.",
+            "No, sorry — we only do team plans.",
+            "I would have to look into that for you."
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. It gives a direct no, explains the minimum, and immediately turns it into a helpful next step. B just says no without offering anything else — the conversation stops there. C delays when you could answer now."
+        }
+      ]
+    },
+    "profileMatch": {
+      "instructions": "Read the three customer situations. As a group, decide what type of answer each one will get — a clear yes, a clear no with an alternative, or a yes with conditions. Use phrases from this lesson to explain your choices. Click 'Check Matches' when you agree.",
+      "profiles": [
+        {
+          "name": "Tom asks: 'Is there a free trial?'",
+          "description": "Tom is evaluating Brightline and asks directly whether a free trial exists. The answer is simple and positive — there is a 14-day trial available to all new customers, no payment needed.",
+          "matchKey": "yes"
+        },
+        {
+          "name": "Yuki asks: 'Do you have a single-user plan?'",
+          "description": "Yuki works alone and wants the most basic option. Unfortunately, all Brightline plans start at five users. There is no single-user plan — but there is a good next step to offer.",
+          "matchKey": "no"
+        },
+        {
+          "name": "Carlos asks: 'Can I cancel at any time?'",
+          "description": "Carlos wants to know about cancellation before he commits. Monthly customers can cancel any time, but annual customers are billed for the full year. The answer is yes — but it depends.",
+          "matchKey": "yesbut"
+        }
+      ],
+      "options": [
+        {
+          "key": "yes",
+          "label": "Yes, we have it",
+          "description": "A clear, direct yes. The answer is positive and straightforward — no conditions, no limitations to explain. Lead with yes and add the key detail."
+        },
+        {
+          "key": "no",
+          "label": "No, sorry — but here is an alternative",
+          "description": "A direct no, followed immediately by the best alternative. Don't just say no and stop — offer the next best option so the conversation keeps moving."
+        },
+        {
+          "key": "yesbut",
+          "label": "Yes, but…",
+          "description": "The answer is yes, but there are conditions the customer needs to know. Lead with yes, then explain the nuance honestly so the customer isn't surprised later."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The salesperson's line has been cut off. As a group, discuss how you would finish it. Try to use phrases from this lesson — like 'Yes, that is included', 'Unfortunately not', or 'Let me offer you…'. There is no single correct answer — compare your ideas, then click to see one possible answer.",
+      "items": [
+        {
+          "customerLine": "Does the Growth Plan include live reporting?",
+          "salespersonStart": "Yes, we have it —",
+          "suggestedCompletion": "you get a full reporting dashboard with the Growth Plan. You can track deals, team performance, and customer activity all in one place. It updates in real time."
+        },
+        {
+          "customerLine": "Is there a plan for just one person?",
+          "salespersonStart": "Unfortunately not — our plans",
+          "suggestedCompletion": "start at five users. But let me offer you the Starter Plan at $49 a month — it is our most affordable option and gives you room to add more people as your team grows."
+        },
+        {
+          "customerLine": "Can I upgrade from Starter to Growth later?",
+          "salespersonStart": "Yes, exactly — you can upgrade",
+          "suggestedCompletion": "at any time with no fee. Your data and settings move with you automatically, so there is no setup work. Most customers upgrade when their team grows past five people."
+        },
+        {
+          "customerLine": "Do you have a mobile app?",
+          "salespersonStart": "I apologise — we don't have a mobile app yet.",
+          "suggestedCompletion": "But let me offer you an alternative — our website works well on phones and tablets. Most customers use it that way with no issues. We are working on a native app and I can let you know when it is ready."
+        }
+      ]
+    }
+  }
+}
