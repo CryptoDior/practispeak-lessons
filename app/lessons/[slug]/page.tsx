@@ -37,7 +37,10 @@ export default function LessonPage({ params }: { params: { slug: string } }) {
 }
 
 function LessonContent({ lesson }: { lesson: Lesson }) {
-  const baseTabs = lesson.tabLabels ?? DEFAULT_TABS;
+  const rawBase = lesson.tabLabels ?? DEFAULT_TABS;
+  const baseTabs = rawBase.map((t) =>
+    t === 'Videos' && lesson.registerAwareness ? 'Register' : t
+  );
   const TABS = lesson.groupActivities
     ? ([...baseTabs, 'Group Activities'] as const)
     : baseTabs;
