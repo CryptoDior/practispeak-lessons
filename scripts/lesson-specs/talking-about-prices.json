@@ -1,0 +1,319 @@
+{
+  "exportName": "talkingAboutPrices",
+  "title": "Talking About Prices",
+  "subtitle": "How to discuss costs, currency, and payment with confidence",
+  "level": "A1-A2",
+  "description": "Learn the words and phrases sales professionals use to talk about prices — 'It costs…', 'The rate is…', 'I can send you a quote' — so you can discuss money clearly and confidently with any customer.",
+  "dialogueSubtitle": "Riley explains Brightline's pricing to Dana before she makes a decision",
+  "vocabulary": [
+    {
+      "word": "cost",
+      "partOfSpeech": "verb",
+      "definition": "To have a particular price.",
+      "example": "The Growth Plan costs $149 a month."
+    },
+    {
+      "word": "fee",
+      "partOfSpeech": "noun",
+      "definition": "Money you pay for a specific service, often a one-time charge.",
+      "example": "There is no setup fee — you only pay the monthly rate."
+    },
+    {
+      "word": "rate",
+      "partOfSpeech": "noun",
+      "definition": "A fixed amount charged for something, usually per unit or time period.",
+      "example": "If you pay annually, the monthly rate works out lower."
+    },
+    {
+      "word": "annual",
+      "partOfSpeech": "adjective",
+      "definition": "Happening or paid once a year.",
+      "example": "The annual plan saves you about $300 compared to paying monthly."
+    },
+    {
+      "word": "invoice",
+      "partOfSpeech": "noun",
+      "definition": "A document that shows how much a customer owes for a service.",
+      "example": "We send an invoice at the start of each billing period."
+    },
+    {
+      "word": "quote",
+      "partOfSpeech": "noun",
+      "definition": "A written estimate showing the price of a product or service.",
+      "example": "I can send you a quote today with a full breakdown of costs."
+    },
+    {
+      "word": "currency",
+      "partOfSpeech": "noun",
+      "definition": "The type of money used in a particular country.",
+      "example": "We bill in US dollars, but the invoice can show the amount in your currency."
+    },
+    {
+      "word": "saving",
+      "partOfSpeech": "noun",
+      "definition": "Money you do not have to spend; the difference between two prices.",
+      "example": "Switching to annual billing gives you a saving of over $300 a year."
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "IT COSTS",
+      "definition": "Give the price of something directly and simply.",
+      "example": "The Starter Plan costs $49 a month — it's our most affordable option."
+    },
+    {
+      "phrase": "THE RATE IS",
+      "definition": "State the price per unit or time period.",
+      "example": "If you pay annually, the monthly rate is $124 instead of $149."
+    },
+    {
+      "phrase": "IT WORKS OUT AT",
+      "definition": "Explain the effective price after a discount or different billing period.",
+      "example": "Annual billing works out at about $124 a month — a saving of $25."
+    },
+    {
+      "phrase": "WE CHARGE",
+      "definition": "Tell someone how you bill for a product or service.",
+      "example": "We charge monthly by default, but you can switch to annual any time."
+    },
+    {
+      "phrase": "I CAN SEND YOU A QUOTE",
+      "definition": "Offer to provide a written price estimate for the customer.",
+      "example": "I can send you a quote today with a full breakdown in your currency."
+    },
+    {
+      "phrase": "THERE IS NO",
+      "definition": "Tell a customer that a cost or restriction does not exist.",
+      "example": "There is no setup fee and there is no contract — you can cancel any time."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Let me walk you through how our pricing works, Dana. The Starter Plan [[cost:to have a particular price]]s $49 a month."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "And what does the Growth Plan cost?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "The Growth Plan is $149 a month. But if you pay [[annual:happening or paid once a year]]ly, the [[rate:a fixed amount charged for something, usually per unit or time period]] works out at about $124 a month."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "That's a decent [[saving:money you do not have to spend; the difference between two prices]]. Is there a setup [[fee:money you pay for a specific service, often a one-time charge]]?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "No — there is no setup fee and no contract. The price you see is what you pay."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "How do you charge — monthly or annually?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "We charge monthly by default, but you can switch to annual billing at any time. We send an [[invoice:a document that shows how much a customer owes for a service]] at the start of each month."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Can I get a [[quote:a written estimate showing the price of a product or service]] in writing before we decide?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Of course. I can send you a quote today. Which [[currency:the type of money used in a particular country]] would you prefer — dollars or euros?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Euros would be easier for our accounts team."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "No problem at all. I'll send a quote in euros within the hour."
+    }
+  ],
+  "videos": [],
+  "matchingExercise": [
+    { "word": "COST", "definition": "To have a particular price" },
+    { "word": "FEE", "definition": "Money you pay for a specific service, often a one-time charge" },
+    { "word": "RATE", "definition": "A fixed amount charged for something, usually per unit or time period" },
+    { "word": "ANNUAL", "definition": "Happening or paid once a year" },
+    { "word": "INVOICE", "definition": "A document that shows how much a customer owes for a service" },
+    { "word": "QUOTE", "definition": "A written estimate showing the price of a product or service" },
+    { "word": "CURRENCY", "definition": "The type of money used in a particular country" },
+    { "word": "SAVING", "definition": "Money you do not have to spend; the difference between two prices" }
+  ],
+  "fillBlankExercise": [
+    { "before": "The Growth Plan", "after": "$149 a month.", "answer": "cost" },
+    { "before": "There is no setup", "after": "— you only pay the monthly rate.", "answer": "fee" },
+    { "before": "If you pay annually, the monthly", "after": "works out at $124.", "answer": "rate" },
+    { "before": "The", "after": "plan saves you about $300 compared to monthly billing.", "answer": "annual" },
+    { "before": "We send an", "after": "at the start of each billing period.", "answer": "invoice" },
+    { "before": "I can send you a", "after": "today with a full breakdown of costs.", "answer": "quote" },
+    { "before": "We bill in US dollars, but we can show the price in your", "after": ".", "answer": "currency" },
+    { "before": "Annual billing gives you a", "after": "of over $300 a year.", "answer": "saving" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "How much does the Growth Plan cost per month?",
+      "options": ["$49", "$99", "$149", "$199"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What is the monthly rate on the annual billing plan?",
+      "options": ["$99", "$124", "$149", "$119"],
+      "correctIndex": 1
+    },
+    {
+      "question": "Is there a setup fee for Brightline?",
+      "options": ["Yes, a one-time fee of $99", "Yes, it depends on the plan", "No, there is no setup fee", "Only on the Enterprise Plan"],
+      "correctIndex": 2
+    },
+    {
+      "question": "How does Brightline charge by default?",
+      "options": ["Annually", "Every quarter", "Monthly", "Weekly"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does Riley offer to send Dana?",
+      "options": ["A product brochure", "A quote in her currency", "A free sample", "A contract"],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which currency does Dana prefer for the invoice?",
+      "options": ["US dollars", "British pounds", "Euros", "Swiss francs"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What phrase does Riley use to explain the annual price?",
+      "options": ["It costs", "It works out at", "The price is", "We charge"],
+      "correctIndex": 1
+    },
+    {
+      "question": "When does Brightline send the invoice?",
+      "options": ["At the end of each month", "At the start of each month", "Every quarter", "Once a year"],
+      "correctIndex": 1
+    }
+  ],
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in groups. Read the customer's line, then discuss which response (A, B, or C) is best. Choose your answer together, then click to see if you were right — and why.",
+      "items": [
+        {
+          "customerLine": "How much does it cost?",
+          "options": [
+            "It depends on a lot of different factors.",
+            "The Growth Plan costs $149 a month. On annual billing, the rate works out at $124 — that's a saving of $25 a month.",
+            "I'll send you a quote and you can see the prices there."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It gives the price clearly and immediately shows the annual saving — which shows value. A is vague and unhelpful. C delays the answer when you can give the price right now."
+        },
+        {
+          "customerLine": "Is there a setup fee?",
+          "options": [
+            "No — the price you see is all you pay. There are no hidden fees.",
+            "There might be a small fee depending on your plan.",
+            "Let me check what the current fee structure is and get back to you."
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. It gives a clear, confident answer and adds the reassurance that there are no hidden costs — which customers care about. B creates doubt. C sounds unprepared for a very basic question."
+        },
+        {
+          "customerLine": "Can we pay monthly instead of annually?",
+          "options": [
+            "Annual billing is better — you save more money that way.",
+            "Monthly billing costs more, so most customers choose annual.",
+            "Of course — we charge monthly by default, so that is no problem at all."
+          ],
+          "correctIndex": 2,
+          "explanation": "C is correct. It confirms what the customer wants clearly and without pushback. A ignores the customer's preference and pushes for something else. B leads with a negative and may feel like pressure."
+        },
+        {
+          "customerLine": "Can I get the price in euros instead of dollars?",
+          "options": [
+            "We only bill in US dollars, I'm afraid.",
+            "I'll have to check with our finance team and get back to you.",
+            "Of course — I can send you a quote in euros. It's easy to adjust the currency on the invoice."
+          ],
+          "correctIndex": 2,
+          "explanation": "C is correct. It says yes immediately and explains how — which is exactly what the customer wants to hear. A says no when it is not necessary. B creates an unnecessary delay for a simple request."
+        }
+      ]
+    },
+    "profileMatch": {
+      "instructions": "Read the three customer profiles. As a group, match each customer to the plan that best fits their budget and needs. Try to use 'It costs…' and 'The rate is…' to explain your choices. Click 'Check Matches' to see if you were right.",
+      "profiles": [
+        {
+          "name": "Felix",
+          "description": "Felix runs a 4-person design studio. His monthly budget for software is very small. He needs basic project tracking but does not need reporting or customer management tools.",
+          "matchKey": "starter"
+        },
+        {
+          "name": "Mia",
+          "description": "Mia manages a sales team of 20. She has a reasonable budget and needs deal tracking, monthly reports, and 24/7 support. She wants to pay monthly for now.",
+          "matchKey": "growth"
+        },
+        {
+          "name": "Alex",
+          "description": "Alex is the CTO at a large company with 300 employees. Budget is flexible, and he needs a fully customised solution with dedicated support and a fixed annual rate.",
+          "matchKey": "enterprise"
+        }
+      ],
+      "options": [
+        {
+          "key": "starter",
+          "label": "Starter Plan — $49/month",
+          "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+        },
+        {
+          "key": "growth",
+          "label": "Growth Plan — $149/month",
+          "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+        },
+        {
+          "key": "enterprise",
+          "label": "Enterprise Plan — Custom pricing",
+          "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The salesperson's line has been cut off. As a group, discuss how you would finish it. Try to use 'It costs…', 'The rate is…', or 'It works out at…'. There is no single correct answer — compare your ideas, then click to see one possible answer.",
+      "items": [
+        {
+          "customerLine": "That seems like a lot to pay every month.",
+          "salespersonStart": "I understand. If you switch to annual billing, it works out at",
+          "suggestedCompletion": "about $124 a month — that is a saving of over $300 a year. A lot of customers find that makes the decision much easier."
+        },
+        {
+          "customerLine": "What exactly do I get for that price?",
+          "salespersonStart": "At $149 a month, you get",
+          "suggestedCompletion": "deal tracking, customer management, and reporting for up to 25 users. That also includes 24/7 support and a free 14-day trial to start."
+        },
+        {
+          "customerLine": "We need to get internal approval before we commit to any cost.",
+          "salespersonStart": "That is completely fine. I can send you a formal quote today so you have",
+          "suggestedCompletion": "everything you need for the approval process — the price, what is included, the payment options, and the currency you prefer."
+        },
+        {
+          "customerLine": "Is the price the same for all team sizes?",
+          "salespersonStart": "The rate is the same regardless of how many users you have, as long as",
+          "suggestedCompletion": "you are within the plan limit. The Growth Plan covers up to 25 users, so it actually works out cheaper per person as your team grows."
+        }
+      ]
+    }
+  }
+}
