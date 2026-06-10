@@ -108,6 +108,41 @@ export const theSalesProcess: Lesson = {
 
   videos: [],
 
+  registerAwareness: [
+    {
+      context: 'Internal Slack / Teams',
+      register: 'Informal',
+      example: 'Just got off a call with that lead from the webinar — she\'s qualified. Pitching her Thursday, fingers crossed we can close by end of month.',
+    },
+    {
+      context: 'Phone call with prospect',
+      register: 'Conversational',
+      example: '\'I\'d love to set up a quick call — just to understand your situation a bit better and see if there\'s a good fit. No pressure at all.\'',
+    },
+    {
+      context: 'Follow-up email',
+      register: 'Formal / Written',
+      example: '\'Further to our conversation last Thursday, I wanted to follow up on the proposal and check whether you have any outstanding questions before making your decision.\'',
+    },
+    {
+      context: 'CRM / pipeline note',
+      register: 'Neutral / Structured',
+      example: 'Status: Prospect. Stage: Post-pitch. Proposal sent 04/06. Next action: Follow up re outstanding questions. Target close: 30/06.',
+    },
+    {
+      context: 'In-person pitch / boardroom',
+      register: 'Formal / Professional',
+      example: '\'What I\'d like to do today is walk you through how we\'ve helped companies like yours close the gap between lead generation and revenue — and why our approach is different.\'',
+    },
+  ],
+
+  registerTraps: [
+    '❌ Never use internal pipeline language with prospects: "We\'re trying to close you this month" → sounds transactional and makes the customer feel like a target, not a partner.',
+    '✅ Match your register to the channel: a Slack update to your manager and an email to a CFO about the same deal need completely different language — same facts, different voice.',
+    '🔁 \'Close\' is internal vocabulary: with colleagues you say "we\'re closing it this week" — with prospects, say "I\'d love to move forward together" or "shall we get started?" Same action, very different feel.',
+    '💡 B2B tip: words like \'pipeline\', \'nurture\', and \'qualify\' are your internal process language. Prospects want to hear about their problems and goals — not your sales methodology.',
+  ],
+
   dialogue: [
     {
       speaker: 'Riley',
