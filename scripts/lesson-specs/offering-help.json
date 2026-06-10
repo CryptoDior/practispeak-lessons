@@ -1,0 +1,364 @@
+{
+  "exportName": "offeringHelp",
+  "title": "Offering Help",
+  "subtitle": "How to offer assistance and respond to customer concerns",
+  "level": "A1-A2",
+  "description": "Learn the phrases sales professionals use to offer help, respond to concerns, and keep the conversation moving — 'Can I help you?', 'Do you need help with…?', 'Don't hesitate to contact me.'",
+  "dialogueSubtitle": "Riley follows up with Dana after her first week on the Brightline trial",
+  "vocabulary": [
+    {
+      "word": "assist",
+      "partOfSpeech": "verb",
+      "definition": "To help someone with a task or problem.",
+      "example": "Is there anything else I can assist you with before we finish the call?"
+    },
+    {
+      "word": "available",
+      "partOfSpeech": "adjective",
+      "definition": "Free and ready to help; not currently busy.",
+      "example": "I'm available this afternoon if you'd like to go through it together."
+    },
+    {
+      "word": "concern",
+      "partOfSpeech": "noun",
+      "definition": "A worry or question someone wants to discuss.",
+      "example": "Do you have any concerns about the setup that I can help with?"
+    },
+    {
+      "word": "arrange",
+      "partOfSpeech": "verb",
+      "definition": "To plan or set up something in advance.",
+      "example": "I can arrange a call with our onboarding team for later today."
+    },
+    {
+      "word": "hesitate",
+      "partOfSpeech": "verb",
+      "definition": "To pause before doing something, often because you are unsure.",
+      "example": "Please don't hesitate to contact me if anything is urgent."
+    },
+    {
+      "word": "connect",
+      "partOfSpeech": "verb",
+      "definition": "To put someone in touch with another person who can help.",
+      "example": "Let me connect you with Carlos — he handles all new customer setups."
+    },
+    {
+      "word": "clarify",
+      "partOfSpeech": "verb",
+      "definition": "To explain something so it is easier to understand.",
+      "example": "Can I clarify how the billing works? I want to make sure it is clear."
+    },
+    {
+      "word": "urgent",
+      "partOfSpeech": "adjective",
+      "definition": "Needing attention quickly; cannot wait.",
+      "example": "If anything is urgent, please contact me directly and I will respond the same day."
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "CAN I HELP YOU",
+      "definition": "The standard opening phrase to offer help at the start of a conversation.",
+      "example": "Hi Dana — can I help you with anything today?"
+    },
+    {
+      "phrase": "DO YOU NEED HELP WITH",
+      "definition": "Ask if someone needs assistance with a specific task or problem.",
+      "example": "Do you need help with setting up the dashboard for your team?"
+    },
+    {
+      "phrase": "HOW CAN I ASSIST YOU",
+      "definition": "A slightly more formal way to offer help.",
+      "example": "How can I assist you today — is it about the billing or the setup?"
+    },
+    {
+      "phrase": "LET ME KNOW IF",
+      "definition": "Invite someone to contact you if a situation changes or if they need anything.",
+      "example": "Let me know if you have any questions after the call — I'm happy to help."
+    },
+    {
+      "phrase": "DONT HESITATE TO",
+      "definition": "Encourage someone to ask for help without worrying about bothering you.",
+      "example": "Don't hesitate to call me if anything comes up — that's what I'm here for."
+    },
+    {
+      "phrase": "IS THERE ANYTHING ELSE",
+      "definition": "Check if a customer needs more help before ending a conversation.",
+      "example": "Is there anything else I can help you with before we finish?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Hi Dana — it's Riley from Brightline. Can I help you with anything? I wanted to check in after your first week on the trial."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Perfect timing, actually. I have a few [[concern:a worry or question someone wants to discuss]]s about the dashboard setup."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Of course — I'm [[available:free and ready to help; not currently busy]] right now if you'd like to go through it together. Or I can [[arrange:to plan or set up something in advance]] a call with our onboarding team."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "A call with your team would be great. Can you [[connect:to put someone in touch with another person who can help]] me with someone today?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Absolutely. Let me connect you with Carlos — he handles all new customer setups. Do you need help with anything else before I do?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Yes, actually. Can you [[clarify:to explain something so it is easier to understand]] how the annual billing works? I wasn't sure I understood it correctly."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Of course. If you pay annually, the monthly rate works out at $124 instead of $149 — a saving of $25 a month. Does that help?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Yes, that's much clearer. Thank you."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Great. And please don't [[hesitate:to pause before doing something, often because you are unsure]] to contact me directly if anything is [[urgent:needing attention quickly; cannot wait]]. I'm here to help."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "I will. I really appreciate it."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Is there anything else I can [[assist:to help someone with a task or problem]] you with before I connect you to Carlos?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "No, I think that covers everything for now."
+    }
+  ],
+  "videos": [],
+  "matchingExercise": [
+    { "word": "ASSIST", "definition": "To help someone with a task or problem" },
+    { "word": "AVAILABLE", "definition": "Free and ready to help; not currently busy" },
+    { "word": "CONCERN", "definition": "A worry or question someone wants to discuss" },
+    { "word": "ARRANGE", "definition": "To plan or set up something in advance" },
+    { "word": "HESITATE", "definition": "To pause before doing something, often because you are unsure" },
+    { "word": "CONNECT", "definition": "To put someone in touch with another person who can help" },
+    { "word": "CLARIFY", "definition": "To explain something so it is easier to understand" },
+    { "word": "URGENT", "definition": "Needing attention quickly; cannot wait" }
+  ],
+  "fillBlankExercise": [
+    { "before": "Is there anything else I can", "after": "you with before we finish?", "answer": "assist" },
+    { "before": "I'm", "after": "this afternoon if you'd like to go through it together.", "answer": "available" },
+    { "before": "Do you have any", "after": "about the setup that I can help with?", "answer": "concern" },
+    { "before": "I can", "after": "a call with our onboarding team for later today.", "answer": "arrange" },
+    { "before": "Please don't", "after": "to contact me if anything comes up.", "answer": "hesitate" },
+    { "before": "Let me", "after": "you with Carlos — he handles new customer setups.", "answer": "connect" },
+    { "before": "Can I", "after": "how the billing works? I want to make sure it is clear.", "answer": "clarify" },
+    { "before": "If anything is", "after": ", please contact me directly and I will respond the same day.", "answer": "urgent" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "Why does Riley call Dana?",
+      "options": [
+        "To sell her a new plan",
+        "To check in and offer help after her first week on the trial",
+        "To ask for a review",
+        "To discuss the annual billing rate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does Dana have concerns about?",
+      "options": [
+        "The price of the plan",
+        "The mobile app",
+        "The dashboard setup",
+        "The number of users"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What two options does Riley offer Dana?",
+      "options": [
+        "A free upgrade or a refund",
+        "Going through it together now or arranging a call with the onboarding team",
+        "A video tutorial or a written guide",
+        "A call today or an email tomorrow"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Who does Riley offer to connect Dana with?",
+      "options": [
+        "Riley's manager",
+        "The finance team",
+        "Carlos from the onboarding team",
+        "A technical specialist"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does Dana ask Riley to clarify?",
+      "options": [
+        "The refund policy",
+        "How the annual billing works",
+        "What features are included",
+        "How to export reports"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does Riley say about annual billing?",
+      "options": [
+        "It costs $149 a month",
+        "It is the only payment option",
+        "It works out at $124 a month — a saving of $25",
+        "It requires a 12-month contract"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which phrase does Riley use to encourage Dana to ask for help?",
+      "options": [
+        "Feel free to ask",
+        "Don't hesitate to contact me",
+        "Let me know when you're ready",
+        "You can always email us"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "How does Riley end the conversation?",
+      "options": [
+        "By asking Dana to sign a contract",
+        "By sending Dana an invoice",
+        "By asking if there is anything else before connecting her to Carlos",
+        "By scheduling a follow-up call"
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in groups. Read the customer's line, then discuss which response (A, B, or C) is best. Choose your answer together, then click to see if you were right — and why.",
+      "items": [
+        {
+          "customerLine": "I'm not sure how to get started.",
+          "options": [
+            "Don't worry — most people find it easy once they start.",
+            "Check the help section on our website — everything is explained there.",
+            "Let me know what you need and I can assist you directly, or I can arrange a call with our onboarding team."
+          ],
+          "correctIndex": 2,
+          "explanation": "C is correct. It offers two clear, personal options and shows you are ready to help right now. A is dismissive and doesn't actually help. B sends the customer away instead of offering direct support."
+        },
+        {
+          "customerLine": "I have a question about the invoice I received.",
+          "options": [
+            "Can you send it to me and I will clarify it for you right away?",
+            "Invoices are handled by our finance team — I will have to pass you on.",
+            "What is the question? I will try my best to answer it."
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. It offers direct, personal help and a clear next step. B is unnecessarily bureaucratic — most invoice questions can be handled without passing the customer elsewhere. C sounds hesitant before you have even started."
+        },
+        {
+          "customerLine": "There might be a problem with my account.",
+          "options": [
+            "That shouldn't happen — are you sure you're doing it correctly?",
+            "I'm sorry to hear that. Can you tell me more? I can help or connect you with our support team right now.",
+            "You can submit a support ticket and someone will get back to you within 48 hours."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It shows empathy, asks for more information, and offers a direct path to help. A is condescending and will upset the customer. C is the slowest possible solution and feels impersonal."
+        },
+        {
+          "customerLine": "I'm busy right now — can we talk later?",
+          "options": [
+            "Sure — just let me know when you are free.",
+            "Of course. I'm available this afternoon or tomorrow morning — which works better for you?",
+            "No problem — I'll try to call you again next week."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It offers two specific options right away, which makes it easy for the customer to say yes. A is too vague — the customer has to do all the work. C assumes a timeline without asking and may be too far away."
+        }
+      ]
+    },
+    "profileMatch": {
+      "instructions": "Read the three customer profiles. As a group, match each customer to the plan that best fits their situation. Think about what kind of help and support each person needs. Click 'Check Matches' to see if you were right.",
+      "profiles": [
+        {
+          "name": "Felix",
+          "description": "Felix runs a 4-person studio. He set up the tool himself with no help and just needs basic support if something goes wrong. Budget is tight and he doesn't need a dedicated contact.",
+          "matchKey": "starter"
+        },
+        {
+          "name": "Mia",
+          "description": "Mia manages a team of 20. She has a few concerns about the setup and wants regular help from a support team. She needs someone available to assist with onboarding her whole team.",
+          "matchKey": "growth"
+        },
+        {
+          "name": "Alex",
+          "description": "Alex is the CTO of a large company. He needs a dedicated account manager who is always available, can clarify technical questions quickly, and can arrange urgent calls at short notice.",
+          "matchKey": "enterprise"
+        }
+      ],
+      "options": [
+        {
+          "key": "starter",
+          "label": "Starter Plan — $49/month",
+          "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+        },
+        {
+          "key": "growth",
+          "label": "Growth Plan — $149/month",
+          "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+        },
+        {
+          "key": "enterprise",
+          "label": "Enterprise Plan — Custom pricing",
+          "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The salesperson's line has been cut off. As a group, discuss how you would finish it. Try to use phrases from this lesson like 'Don't hesitate to…', 'I can arrange…', or 'Let me connect you with…'. There is no single correct answer — compare your ideas, then click to see one possible answer.",
+      "items": [
+        {
+          "customerLine": "I'm not sure which plan is right for us.",
+          "salespersonStart": "Don't hesitate to",
+          "suggestedCompletion": "ask — that is exactly what I am here for. Can I ask a few quick questions so I can point you to the right option? It will only take a minute."
+        },
+        {
+          "customerLine": "We had a problem with the setup yesterday.",
+          "salespersonStart": "I am sorry to hear that. Let me connect you with",
+          "suggestedCompletion": "Carlos from our support team right now — he handles all setup issues and can help you get started today. Is that urgent or can it wait until this afternoon?"
+        },
+        {
+          "customerLine": "I don't really understand how the pricing works.",
+          "salespersonStart": "Of course — let me clarify that for you. The Growth Plan",
+          "suggestedCompletion": "costs $149 a month, or $124 a month if you pay annually. There are no setup fees and no contract, so you can cancel any time."
+        },
+        {
+          "customerLine": "Is it possible to get some help this week?",
+          "salespersonStart": "Absolutely — I am available",
+          "suggestedCompletion": "tomorrow afternoon or any time on Thursday. Which works better for you? I can also arrange a call with our onboarding team if you would prefer that."
+        }
+      ]
+    }
+  }
+}

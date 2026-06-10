@@ -30,6 +30,7 @@ import { talkingAboutProducts } from './talking-about-products';
 import { askingWhatTheCustomerWants } from './asking-what-the-customer-wants';
 import { describingProductFeatures } from './describing-product-features';
 import { talkingAboutPrices } from './talking-about-prices';
+import { offeringHelp } from './offering-help';
 /**
  * Add new lessons here by importing the lesson file and adding it to this array.
  * The lesson page routing and home page listing are automatic.
@@ -66,6 +67,7 @@ export const lessons: Lesson[] = [
   askingWhatTheCustomerWants,
   describingProductFeatures,
   talkingAboutPrices,
+  offeringHelp,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
