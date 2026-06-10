@@ -34,10 +34,8 @@ import { offeringHelp } from './offering-help';
 import { simpleCustomerQuestions } from './simple-customer-questions';
 import { givingSimpleAnswers } from './giving-simple-answers';
 import { colorsSizesAndTypes } from './colors-sizes-and-types';
-/**
- * Add new lessons here by importing the lesson file and adding it to this array.
- * The lesson page routing and home page listing are automatic.
- */
+import { theSalesProcess } from './the-sales-process';
+
 export const lessons: Lesson[] = [
   teamCommunication,
   gameOnFirstWords,
@@ -74,8 +72,8 @@ export const lessons: Lesson[] = [
   simpleCustomerQuestions,
   givingSimpleAnswers,
   colorsSizesAndTypes,
+  theSalesProcess,
 ];
-
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
 }
