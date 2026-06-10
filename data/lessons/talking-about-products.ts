@@ -388,39 +388,39 @@ export const talkingAboutProducts: Lesson = {
         ]
     },
     "profileMatch": {
-        "instructions": "Read the three customer profiles. As a group, match each customer to the plan that best fits their needs. Be ready to explain your choices using words from this lesson — like 'feature', 'quality', and 'fit'. Click 'Reveal Matches' to check.",
+        "instructions": "Brightline has three products, not just one. Read the customer descriptions and decide which product fits each one best. Use phrases from this lesson — like 'It helps you…' and 'It is designed for…' — to explain your choices. Click 'Check Matches' when you agree.",
         "profiles": [
             {
-                "name": "Leo",
-                "description": "Leo runs a 4-person photography studio. He is on a tight budget and just needs a simple, useful tool to organise jobs and track payments. He does not need advanced features.",
-                "matchKey": "starter"
+                "name": 'Leo',
+                "description": "Leo runs a 4-person photography studio. He needs a simple way to track jobs and send invoices. He doesn't need reporting or team features — just a clean tool that does the basics well.",
+                "matchKey": 'tasks'
             },
             {
-                "name": "Nina",
-                "description": "Nina manages a team of 18 at a digital marketing agency. She wants a tool with strong reporting features and good quality customer support. Her team needs to track client work and deals.",
-                "matchKey": "growth"
+                "name": 'Nina',
+                "description": 'Nina manages a 20-person sales team. She needs to track deals, see how each rep is performing, and share weekly reports with her manager. She needs more than basic task management.',
+                "matchKey": 'crm'
             },
             {
-                "name": "Marcus",
-                "description": "Marcus is the COO of a 400-person logistics company. He needs a solution with a custom design, advanced integrations, and a dedicated account manager. Budget is not the main concern.",
-                "matchKey": "enterprise"
+                "name": 'Marcus',
+                "description": "Marcus is Head of Operations at a company with 200 staff across three offices. He needs the tool to connect with their existing HR and finance software. Off-the-shelf products don't fit — he needs something built to their exact workflow.",
+                "matchKey": 'custom'
             }
         ],
         "options": [
             {
-                "key": "starter",
-                "label": "Starter Plan — $49/month",
-                "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+                "key": 'tasks',
+                "label": 'Brightline Essentials',
+                "description": 'Project tracking, invoicing, and file sharing. Up to 5 users. Designed for small teams or freelancers who need a clean, simple tool without extra complexity.'
             },
             {
-                "key": "growth",
-                "label": "Growth Plan — $149/month",
-                "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+                "key": 'crm',
+                "label": 'Brightline Pro',
+                "description": 'Everything in Essentials plus deal tracking, customer management, and live reporting. Up to 30 users. Designed for growing teams that need to track performance and manage customer relationships.'
             },
             {
-                "key": "enterprise",
-                "label": "Enterprise Plan — Custom pricing",
-                "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+                "key": 'custom',
+                "label": 'Brightline Connect',
+                "description": 'Custom integrations with your existing tools, unlimited users, and a dedicated account team. Designed for large organisations that need a fully tailored solution.'
             }
         ]
     },

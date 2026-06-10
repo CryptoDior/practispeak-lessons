@@ -146,64 +146,160 @@
   ],
   "videos": [],
   "matchingExercise": [
-    { "word": "COST", "definition": "To have a particular price" },
-    { "word": "FEE", "definition": "Money you pay for a specific service, often a one-time charge" },
-    { "word": "RATE", "definition": "A fixed amount charged for something, usually per unit or time period" },
-    { "word": "ANNUAL", "definition": "Happening or paid once a year" },
-    { "word": "INVOICE", "definition": "A document that shows how much a customer owes for a service" },
-    { "word": "QUOTE", "definition": "A written estimate showing the price of a product or service" },
-    { "word": "CURRENCY", "definition": "The type of money used in a particular country" },
-    { "word": "SAVING", "definition": "Money you do not have to spend; the difference between two prices" }
+    {
+      "word": "COST",
+      "definition": "To have a particular price"
+    },
+    {
+      "word": "FEE",
+      "definition": "Money you pay for a specific service, often a one-time charge"
+    },
+    {
+      "word": "RATE",
+      "definition": "A fixed amount charged for something, usually per unit or time period"
+    },
+    {
+      "word": "ANNUAL",
+      "definition": "Happening or paid once a year"
+    },
+    {
+      "word": "INVOICE",
+      "definition": "A document that shows how much a customer owes for a service"
+    },
+    {
+      "word": "QUOTE",
+      "definition": "A written estimate showing the price of a product or service"
+    },
+    {
+      "word": "CURRENCY",
+      "definition": "The type of money used in a particular country"
+    },
+    {
+      "word": "SAVING",
+      "definition": "Money you do not have to spend; the difference between two prices"
+    }
   ],
   "fillBlankExercise": [
-    { "before": "The Growth Plan", "after": "$149 a month.", "answer": "cost" },
-    { "before": "There is no setup", "after": "— you only pay the monthly rate.", "answer": "fee" },
-    { "before": "If you pay annually, the monthly", "after": "works out at $124.", "answer": "rate" },
-    { "before": "The", "after": "plan saves you about $300 compared to monthly billing.", "answer": "annual" },
-    { "before": "We send an", "after": "at the start of each billing period.", "answer": "invoice" },
-    { "before": "I can send you a", "after": "today with a full breakdown of costs.", "answer": "quote" },
-    { "before": "We bill in US dollars, but we can show the price in your", "after": ".", "answer": "currency" },
-    { "before": "Annual billing gives you a", "after": "of over $300 a year.", "answer": "saving" }
+    {
+      "before": "The Growth Plan",
+      "after": "$149 a month.",
+      "answer": "cost"
+    },
+    {
+      "before": "There is no setup",
+      "after": "— you only pay the monthly rate.",
+      "answer": "fee"
+    },
+    {
+      "before": "If you pay annually, the monthly",
+      "after": "works out at $124.",
+      "answer": "rate"
+    },
+    {
+      "before": "The",
+      "after": "plan saves you about $300 compared to monthly billing.",
+      "answer": "annual"
+    },
+    {
+      "before": "We send an",
+      "after": "at the start of each billing period.",
+      "answer": "invoice"
+    },
+    {
+      "before": "I can send you a",
+      "after": "today with a full breakdown of costs.",
+      "answer": "quote"
+    },
+    {
+      "before": "We bill in US dollars, but we can show the price in your",
+      "after": ".",
+      "answer": "currency"
+    },
+    {
+      "before": "Annual billing gives you a",
+      "after": "of over $300 a year.",
+      "answer": "saving"
+    }
   ],
   "multipleChoiceExercise": [
     {
       "question": "How much does the Growth Plan cost per month?",
-      "options": ["$49", "$99", "$149", "$199"],
+      "options": [
+        "$49",
+        "$99",
+        "$149",
+        "$199"
+      ],
       "correctIndex": 2
     },
     {
       "question": "What is the monthly rate on the annual billing plan?",
-      "options": ["$99", "$124", "$149", "$119"],
+      "options": [
+        "$99",
+        "$124",
+        "$149",
+        "$119"
+      ],
       "correctIndex": 1
     },
     {
       "question": "Is there a setup fee for Brightline?",
-      "options": ["Yes, a one-time fee of $99", "Yes, it depends on the plan", "No, there is no setup fee", "Only on the Enterprise Plan"],
+      "options": [
+        "Yes, a one-time fee of $99",
+        "Yes, it depends on the plan",
+        "No, there is no setup fee",
+        "Only on the Enterprise Plan"
+      ],
       "correctIndex": 2
     },
     {
       "question": "How does Brightline charge by default?",
-      "options": ["Annually", "Every quarter", "Monthly", "Weekly"],
+      "options": [
+        "Annually",
+        "Every quarter",
+        "Monthly",
+        "Weekly"
+      ],
       "correctIndex": 2
     },
     {
       "question": "What does Riley offer to send Dana?",
-      "options": ["A product brochure", "A quote in her currency", "A free sample", "A contract"],
+      "options": [
+        "A product brochure",
+        "A quote in her currency",
+        "A free sample",
+        "A contract"
+      ],
       "correctIndex": 1
     },
     {
       "question": "Which currency does Dana prefer for the invoice?",
-      "options": ["US dollars", "British pounds", "Euros", "Swiss francs"],
+      "options": [
+        "US dollars",
+        "British pounds",
+        "Euros",
+        "Swiss francs"
+      ],
       "correctIndex": 2
     },
     {
       "question": "What phrase does Riley use to explain the annual price?",
-      "options": ["It costs", "It works out at", "The price is", "We charge"],
+      "options": [
+        "It costs",
+        "It works out at",
+        "The price is",
+        "We charge"
+      ],
       "correctIndex": 1
     },
     {
       "question": "When does Brightline send the invoice?",
-      "options": ["At the end of each month", "At the start of each month", "Every quarter", "Once a year"],
+      "options": [
+        "At the end of each month",
+        "At the start of each month",
+        "Every quarter",
+        "Once a year"
+      ],
       "correctIndex": 1
     }
   ],
@@ -254,39 +350,39 @@
       ]
     },
     "profileMatch": {
-      "instructions": "Read the three customer profiles. As a group, match each customer to the plan that best fits their budget and needs. Try to use 'It costs…' and 'The rate is…' to explain your choices. Click 'Check Matches' to see if you were right.",
+      "instructions": "Read each customer's situation. As a group, decide which billing arrangement fits them best — monthly, annual, or per-seat. Use phrases from this lesson like 'The rate is…' and 'It works out at…' to explain your thinking. Click 'Check Matches' when you agree.",
       "profiles": [
         {
           "name": "Felix",
-          "description": "Felix runs a 4-person design studio. His monthly budget for software is very small. He needs basic project tracking but does not need reporting or customer management tools.",
-          "matchKey": "starter"
+          "description": "Felix runs a small studio with fluctuating project volume. Some months he needs 5 seats, other months just 2. He wants to keep costs flexible and doesn't want to pay for seats he isn't using.",
+          "matchKey": "seat"
         },
         {
           "name": "Mia",
-          "description": "Mia manages a sales team of 20. She has a reasonable budget and needs deal tracking, monthly reports, and 24/7 support. She wants to pay monthly for now.",
-          "matchKey": "growth"
+          "description": "Mia's team size is stable and she's confident they'll use the tool all year. Her manager asked her to reduce the monthly invoice amount. She's happy to commit to a full year if it means a lower rate.",
+          "matchKey": "annual"
         },
         {
           "name": "Alex",
-          "description": "Alex is the CTO at a large company with 300 employees. Budget is flexible, and he needs a fully customised solution with dedicated support and a fixed annual rate.",
-          "matchKey": "enterprise"
+          "description": "Alex is testing Brightline before recommending it to his board. He doesn't want to sign a contract or commit to an annual fee until he is sure it works for his organisation. Budget approval will take time.",
+          "matchKey": "monthly"
         }
       ],
       "options": [
         {
-          "key": "starter",
-          "label": "Starter Plan — $49/month",
-          "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+          "key": "monthly",
+          "label": "Monthly billing — no contract",
+          "description": "Pay month by month with no commitment. The rate is $149 a month for up to 25 users. There is no annual contract and you can cancel any time. Best for teams that are still evaluating."
         },
         {
-          "key": "growth",
-          "label": "Growth Plan — $149/month",
-          "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+          "key": "annual",
+          "label": "Annual billing — discounted rate",
+          "description": "Pay for the full year upfront. It works out at $124 a month — a saving of $25 compared to monthly billing. Best for teams that are committed and want to reduce their monthly cost."
         },
         {
-          "key": "enterprise",
-          "label": "Enterprise Plan — Custom pricing",
-          "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+          "key": "seat",
+          "label": "Per-seat billing — flexible",
+          "description": "Pay only for active users each month. The rate is $19 per seat. Best for teams with variable headcount or seasonal projects where the number of active users changes month to month."
         }
       ]
     },

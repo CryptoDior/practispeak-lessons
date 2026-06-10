@@ -151,24 +151,80 @@
   ],
   "videos": [],
   "matchingExercise": [
-    { "word": "ASSIST", "definition": "To help someone with a task or problem" },
-    { "word": "AVAILABLE", "definition": "Free and ready to help; not currently busy" },
-    { "word": "CONCERN", "definition": "A worry or question someone wants to discuss" },
-    { "word": "ARRANGE", "definition": "To plan or set up something in advance" },
-    { "word": "HESITATE", "definition": "To pause before doing something, often because you are unsure" },
-    { "word": "CONNECT", "definition": "To put someone in touch with another person who can help" },
-    { "word": "CLARIFY", "definition": "To explain something so it is easier to understand" },
-    { "word": "URGENT", "definition": "Needing attention quickly; cannot wait" }
+    {
+      "word": "ASSIST",
+      "definition": "To help someone with a task or problem"
+    },
+    {
+      "word": "AVAILABLE",
+      "definition": "Free and ready to help; not currently busy"
+    },
+    {
+      "word": "CONCERN",
+      "definition": "A worry or question someone wants to discuss"
+    },
+    {
+      "word": "ARRANGE",
+      "definition": "To plan or set up something in advance"
+    },
+    {
+      "word": "HESITATE",
+      "definition": "To pause before doing something, often because you are unsure"
+    },
+    {
+      "word": "CONNECT",
+      "definition": "To put someone in touch with another person who can help"
+    },
+    {
+      "word": "CLARIFY",
+      "definition": "To explain something so it is easier to understand"
+    },
+    {
+      "word": "URGENT",
+      "definition": "Needing attention quickly; cannot wait"
+    }
   ],
   "fillBlankExercise": [
-    { "before": "Is there anything else I can", "after": "you with before we finish?", "answer": "assist" },
-    { "before": "I'm", "after": "this afternoon if you'd like to go through it together.", "answer": "available" },
-    { "before": "Do you have any", "after": "about the setup that I can help with?", "answer": "concern" },
-    { "before": "I can", "after": "a call with our onboarding team for later today.", "answer": "arrange" },
-    { "before": "Please don't", "after": "to contact me if anything comes up.", "answer": "hesitate" },
-    { "before": "Let me", "after": "you with Carlos — he handles new customer setups.", "answer": "connect" },
-    { "before": "Can I", "after": "how the billing works? I want to make sure it is clear.", "answer": "clarify" },
-    { "before": "If anything is", "after": ", please contact me directly and I will respond the same day.", "answer": "urgent" }
+    {
+      "before": "Is there anything else I can",
+      "after": "you with before we finish?",
+      "answer": "assist"
+    },
+    {
+      "before": "I'm",
+      "after": "this afternoon if you'd like to go through it together.",
+      "answer": "available"
+    },
+    {
+      "before": "Do you have any",
+      "after": "about the setup that I can help with?",
+      "answer": "concern"
+    },
+    {
+      "before": "I can",
+      "after": "a call with our onboarding team for later today.",
+      "answer": "arrange"
+    },
+    {
+      "before": "Please don't",
+      "after": "to contact me if anything comes up.",
+      "answer": "hesitate"
+    },
+    {
+      "before": "Let me",
+      "after": "you with Carlos — he handles new customer setups.",
+      "answer": "connect"
+    },
+    {
+      "before": "Can I",
+      "after": "how the billing works? I want to make sure it is clear.",
+      "answer": "clarify"
+    },
+    {
+      "before": "If anything is",
+      "after": ", please contact me directly and I will respond the same day.",
+      "answer": "urgent"
+    }
   ],
   "multipleChoiceExercise": [
     {
@@ -299,39 +355,39 @@
       ]
     },
     "profileMatch": {
-      "instructions": "Read the three customer profiles. As a group, match each customer to the plan that best fits their situation. Think about what kind of help and support each person needs. Click 'Check Matches' to see if you were right.",
+      "instructions": "Read each customer situation. As a group, decide which type of support is best for them — a self-service guide, an onboarding call, or a dedicated account manager. Use phrases from this lesson like 'I can arrange…' and 'Let me connect you with…' to explain your choices. Click 'Check Matches' when you agree.",
       "profiles": [
         {
           "name": "Felix",
-          "description": "Felix runs a 4-person studio. He set up the tool himself with no help and just needs basic support if something goes wrong. Budget is tight and he doesn't need a dedicated contact.",
-          "matchKey": "starter"
+          "description": "Felix set up the tool himself and just has a quick question about one feature. He's busy and doesn't want a meeting — he just wants a fast answer he can act on immediately.",
+          "matchKey": "guide"
         },
         {
           "name": "Mia",
-          "description": "Mia manages a team of 20. She has a few concerns about the setup and wants regular help from a support team. She needs someone available to assist with onboarding her whole team.",
-          "matchKey": "growth"
+          "description": "Mia's 20-person team is starting their trial next week. She needs someone to walk her team through the key features live and answer questions as they come up. A document won't be enough.",
+          "matchKey": "onboarding"
         },
         {
           "name": "Alex",
-          "description": "Alex is the CTO of a large company. He needs a dedicated account manager who is always available, can clarify technical questions quickly, and can arrange urgent calls at short notice.",
-          "matchKey": "enterprise"
+          "description": "Alex's company is running a critical operation on Brightline. When something is urgent, he needs to reach a real person immediately — not wait in a queue or search a help centre. He needs a direct line.",
+          "matchKey": "manager"
         }
       ],
       "options": [
         {
-          "key": "starter",
-          "label": "Starter Plan — $49/month",
-          "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+          "key": "guide",
+          "label": "Self-service guide",
+          "description": "A written step-by-step guide and short video walkthrough. Available 24/7 and covers the most common questions. Best for customers who are confident and just need a quick reference."
         },
         {
-          "key": "growth",
-          "label": "Growth Plan — $149/month",
-          "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+          "key": "onboarding",
+          "label": "Onboarding call",
+          "description": "A live 45-minute call with a Brightline specialist who walks the team through the platform and answers questions in real time. Best for teams who are new and want a structured start."
         },
         {
-          "key": "enterprise",
-          "label": "Enterprise Plan — Custom pricing",
-          "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+          "key": "manager",
+          "label": "Dedicated account manager",
+          "description": "A named contact who is always available by phone or message. They know the customer's setup, can arrange urgent calls at short notice, and handle any concerns directly. Best for large or critical accounts."
         }
       ]
     },

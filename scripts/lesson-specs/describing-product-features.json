@@ -151,64 +151,160 @@
   ],
   "videos": [],
   "matchingExercise": [
-    { "word": "STORAGE", "definition": "Space where data or files are kept" },
-    { "word": "ACCESS", "definition": "The ability to use or see something" },
-    { "word": "SUPPORT", "definition": "Help given to users when something goes wrong" },
-    { "word": "REPORT", "definition": "A document or summary that shows data or results" },
-    { "word": "UPDATE", "definition": "A new version of software that fixes problems or adds features" },
-    { "word": "DASHBOARD", "definition": "A screen that shows the most important information in one place" },
-    { "word": "TRIAL", "definition": "A free period where you can test a product before you buy" },
-    { "word": "LIMIT", "definition": "The maximum amount allowed" }
+    {
+      "word": "STORAGE",
+      "definition": "Space where data or files are kept"
+    },
+    {
+      "word": "ACCESS",
+      "definition": "The ability to use or see something"
+    },
+    {
+      "word": "SUPPORT",
+      "definition": "Help given to users when something goes wrong"
+    },
+    {
+      "word": "REPORT",
+      "definition": "A document or summary that shows data or results"
+    },
+    {
+      "word": "UPDATE",
+      "definition": "A new version of software that fixes problems or adds features"
+    },
+    {
+      "word": "DASHBOARD",
+      "definition": "A screen that shows the most important information in one place"
+    },
+    {
+      "word": "TRIAL",
+      "definition": "A free period where you can test a product before you buy"
+    },
+    {
+      "word": "LIMIT",
+      "definition": "The maximum amount allowed"
+    }
   ],
   "fillBlankExercise": [
-    { "before": "It comes with 50GB of cloud", "after": "for your team's files.", "answer": "storage" },
-    { "before": "The trial gives you full", "after": "to all features for 14 days.", "answer": "access" },
-    { "before": "It comes with 24/7 customer", "after": "by email and live chat.", "answer": "support" },
-    { "before": "It lets you download a detailed", "after": "for your team every month.", "answer": "report" },
-    { "before": "It has automatic", "after": "so you never have to do it yourself.", "answer": "update" },
-    { "before": "It has a", "after": "where you can see everything your team is working on.", "answer": "dashboard" },
-    { "before": "It comes with a free 14-day", "after": "— no credit card needed.", "answer": "trial" },
-    { "before": "There is no", "after": "on the number of projects you can create.", "answer": "limit" }
+    {
+      "before": "It comes with 50GB of cloud",
+      "after": "for your team's files.",
+      "answer": "storage"
+    },
+    {
+      "before": "The trial gives you full",
+      "after": "to all features for 14 days.",
+      "answer": "access"
+    },
+    {
+      "before": "It comes with 24/7 customer",
+      "after": "by email and live chat.",
+      "answer": "support"
+    },
+    {
+      "before": "It lets you download a detailed",
+      "after": "for your team every month.",
+      "answer": "report"
+    },
+    {
+      "before": "It has automatic",
+      "after": "so you never have to do it yourself.",
+      "answer": "update"
+    },
+    {
+      "before": "It has a",
+      "after": "where you can see everything your team is working on.",
+      "answer": "dashboard"
+    },
+    {
+      "before": "It comes with a free 14-day",
+      "after": "— no credit card needed.",
+      "answer": "trial"
+    },
+    {
+      "before": "There is no",
+      "after": "on the number of projects you can create.",
+      "answer": "limit"
+    }
   ],
   "multipleChoiceExercise": [
     {
       "question": "What does Riley use to describe what is included with the plan?",
-      "options": ["It has and It comes with", "Buy now and get", "Features include", "We offer"],
+      "options": [
+        "It has and It comes with",
+        "Buy now and get",
+        "Features include",
+        "We offer"
+      ],
       "correctIndex": 0
     },
     {
       "question": "How much cloud storage does the Growth Plan include?",
-      "options": ["10GB", "100GB", "50GB", "Unlimited"],
+      "options": [
+        "10GB",
+        "100GB",
+        "50GB",
+        "Unlimited"
+      ],
       "correctIndex": 2
     },
     {
       "question": "What kind of support does Brightline come with?",
-      "options": ["Phone support only", "Weekly check-ins", "24/7 email support and live chat", "A support forum"],
+      "options": [
+        "Phone support only",
+        "Weekly check-ins",
+        "24/7 email support and live chat",
+        "A support forum"
+      ],
       "correctIndex": 2
     },
     {
       "question": "How long is the free trial?",
-      "options": ["7 days", "30 days", "1 month", "14 days"],
+      "options": [
+        "7 days",
+        "30 days",
+        "1 month",
+        "14 days"
+      ],
       "correctIndex": 3
     },
     {
       "question": "What does Riley say about updates?",
-      "options": ["You download them manually", "It has automatic updates", "Updates are released once a year", "Updates cost extra"],
+      "options": [
+        "You download them manually",
+        "It has automatic updates",
+        "Updates are released once a year",
+        "Updates cost extra"
+      ],
       "correctIndex": 1
     },
     {
       "question": "What does Riley say the dashboard lets Dana do?",
-      "options": ["Pay for the plan", "See the team's progress in real time", "Choose which reports and information to see", "Send messages to customers"],
+      "options": [
+        "Pay for the plan",
+        "See the team's progress in real time",
+        "Choose which reports and information to see",
+        "Send messages to customers"
+      ],
       "correctIndex": 2
     },
     {
       "question": "What is the phrase Riley uses to describe a feature Dana can use?",
-      "options": ["It allows you", "It provides", "It lets you", "You are able to"],
+      "options": [
+        "It allows you",
+        "It provides",
+        "It lets you",
+        "You are able to"
+      ],
       "correctIndex": 2
     },
     {
       "question": "What does Dana want to do before committing to the plan?",
-      "options": ["Talk to her team", "See a demo", "Test it with a free trial", "Compare other brands"],
+      "options": [
+        "Talk to her team",
+        "See a demo",
+        "Test it with a free trial",
+        "Compare other brands"
+      ],
       "correctIndex": 2
     }
   ],
@@ -259,39 +355,39 @@
       ]
     },
     "profileMatch": {
-      "instructions": "Read the three customer profiles. As a group, match each customer to the plan that best fits their needs. Try to use phrases like 'It comes with…' and 'It has…' to explain your choices. Click 'Check Matches' to see if you were right.",
+      "instructions": "Read each customer profile. As a group, decide which set of features matters most to them — storage and access, reports and dashboards, or support and updates. Use phrases from this lesson like 'It comes with…' and 'It lets you…' to explain your choices. Click 'Check Matches' when you agree.",
       "profiles": [
         {
           "name": "Felix",
-          "description": "Felix manages a 4-person design studio. He needs basic project tracking and a place to store shared files. He has a tight budget and does not need advanced features or a lot of support.",
-          "matchKey": "starter"
+          "description": "Felix's team shares a lot of files between clients and contractors. His biggest concern is that everyone can access the latest version of a document at any time, from anywhere. He doesn't need complex reports.",
+          "matchKey": "storage"
         },
         {
           "name": "Mia",
-          "description": "Mia is a sales manager at a growing 22-person company. She needs deal tracking, monthly reports for her team, and reliable customer support. She wants access for the whole team.",
-          "matchKey": "growth"
+          "description": "Mia presents weekly performance data to the company's leadership team. She needs to pull together numbers from different sources and turn them into clear, visual summaries without spending hours on spreadsheets.",
+          "matchKey": "reports"
         },
         {
           "name": "Alex",
-          "description": "Alex is the CTO at a 300-person logistics company. He needs a solution with custom integrations, unlimited storage, and a dedicated account manager. Budget is flexible.",
-          "matchKey": "enterprise"
+          "description": "Alex's company runs a critical customer-facing operation. If the tool goes down or changes unexpectedly, it causes real problems. He needs guaranteed uptime, priority support, and advance notice of any updates.",
+          "matchKey": "support"
         }
       ],
       "options": [
         {
-          "key": "starter",
-          "label": "Starter Plan — $49/month",
-          "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+          "key": "storage",
+          "label": "Storage & access features",
+          "description": "Unlimited file storage, version history, and access from any device. It lets your whole team work from the same up-to-date files — no more emailing attachments back and forth."
         },
         {
-          "key": "growth",
-          "label": "Growth Plan — $149/month",
-          "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+          "key": "reports",
+          "label": "Reports & dashboard features",
+          "description": "Live dashboards, automated weekly reports, and data export. It comes with ready-made templates so you can go from raw data to a clear visual summary in minutes."
         },
         {
-          "key": "enterprise",
-          "label": "Enterprise Plan — Custom pricing",
-          "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+          "key": "support",
+          "label": "Support & update features",
+          "description": "Priority support line, a dedicated account manager, and advance notice of all updates. There is no limit on support requests, and response time is guaranteed within two hours."
         }
       ]
     },

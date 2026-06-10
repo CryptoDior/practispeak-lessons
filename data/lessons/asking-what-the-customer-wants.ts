@@ -388,39 +388,39 @@ export const askingWhatTheCustomerWants: Lesson = {
         ]
     },
     "profileMatch": {
-        "instructions": "Read the three customer profiles. As a group, match each customer to the plan that best fits their needs. Use words like 'goal', 'priority', and 'fit' to explain your choices. Click 'Reveal Matches' to check.",
+        "instructions": "Good discovery starts with the right type of question. Read each customer situation and decide which question approach is best — open and broad, problem-focused, or timeline-focused. Use phrases from this lesson to justify your choices. Click 'Check Matches' when you agree.",
         "profiles": [
             {
-                "name": "Omar",
-                "description": "Omar is a team lead at a growing startup with 8 people. His main problem is that there is no system for tracking tasks. His priority is getting organised quickly, and his budget is limited.",
-                "matchKey": "starter"
+                "name": 'Omar',
+                "description": "Omar is a marketing director who was referred to Brightline by a colleague. He hasn't thought much about the specific problems he wants to solve — he's just curious. He's open to the conversation.",
+                "matchKey": 'open'
             },
             {
-                "name": "Sarah",
-                "description": "Sarah is an operations manager at a mid-sized company with 30 employees. Her goal is to improve how the sales team manages customer relationships and tracks deals. She needs reporting tools.",
-                "matchKey": "growth"
+                "name": 'Sarah',
+                "description": "Sarah emailed to say her team 'keeps missing deadlines and losing track of client feedback.' She knows exactly what her pain is. She wants to feel understood before she hears about any product.",
+                "matchKey": 'problem'
             },
             {
-                "name": "James",
-                "description": "James is the COO at a large company with 500 employees. He needs a solution that connects with their existing HR and finance systems. He has a dedicated IT team and a large budget.",
-                "matchKey": "enterprise"
+                "name": 'James',
+                "description": "James mentioned that his company is switching tools 'before the end of Q3.' He has a deadline and needs to move quickly. He doesn't have time for a long discovery process.",
+                "matchKey": 'timeline'
             }
         ],
         "options": [
             {
-                "key": "starter",
-                "label": "Starter Plan — $49/month",
-                "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+                "key": 'open',
+                "label": 'Open, broad questions',
+                "description": "Start wide: 'Tell me about how your team currently works.' or 'What would better look like for you?' Good for contacts who are still exploring and haven't defined a problem yet."
             },
             {
-                "key": "growth",
-                "label": "Growth Plan — $149/month",
-                "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+                "key": 'problem',
+                "label": 'Problem-focused questions',
+                "description": "Go straight to the pain: 'What is the biggest challenge you are trying to fix?' or 'How is that affecting the team?' Good when the customer has already named a problem and wants to feel heard."
             },
             {
-                "key": "enterprise",
-                "label": "Enterprise Plan — Custom pricing",
-                "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+                "key": 'timeline',
+                "label": 'Timeline-focused questions',
+                "description": "Focus on urgency and next steps: 'When do you need this in place?' or 'What happens if you don't have a solution by then?' Good for contacts who are already decided and moving fast."
             }
         ]
     },

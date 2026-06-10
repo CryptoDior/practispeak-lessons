@@ -355,39 +355,39 @@
       ]
     },
     "profileMatch": {
-      "instructions": "You met these three contacts at a networking event. As a group, match each contact to the Brightline plan that best fits what they told you. Be ready to explain your choices. Click 'Reveal Matches' to check.",
+      "instructions": "You are Riley. You meet these three contacts in different situations. As a group, decide which introduction style fits each situation best. Use phrases from this lesson to explain your choices. Click 'Check Matches' when you agree.",
       "profiles": [
         {
-          "name": "Zara",
-          "description": "You met Zara at the event. She runs a small 3-person design studio. She mentioned she has a limited budget but needs a simple way to organise work and track what her team is doing.",
-          "matchKey": "starter"
+          "name": "At a networking event",
+          "description": "You are standing near the coffee table at a business conference. Someone makes eye contact and smiles. You have about 30 seconds before the next session starts.",
+          "matchKey": "quick"
         },
         {
-          "name": "Ben",
-          "description": "You met Ben at a conference. He manages a sales team of 20 people. He said his main challenge is tracking deals and staying in contact with customers after the first meeting.",
-          "matchKey": "growth"
+          "name": "On a scheduled video call",
+          "description": "A prospect booked a 30-minute intro call after downloading a Brightline guide. They know who you are and why you're talking. They came prepared.",
+          "matchKey": "product"
         },
         {
-          "name": "Priya",
-          "description": "You met Priya at an industry event. She is the IT director at a large company with over 300 employees. She needs a tool that connects with their existing systems and has dedicated support.",
-          "matchKey": "enterprise"
+          "name": "Cold outreach follow-up",
+          "description": "You sent a short LinkedIn message last week and the contact replied saying they're interested. They don't know much about Brightline yet. You're now calling them for the first time.",
+          "matchKey": "question"
         }
       ],
       "options": [
         {
-          "key": "starter",
-          "label": "Starter Plan — $49/month",
-          "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+          "key": "quick",
+          "label": "Quick social intro",
+          "description": "Keep it brief: your name, your company, and one sentence about what you do. Then ask a question to get them talking. Best when time is short and the mood is casual."
         },
         {
-          "key": "growth",
-          "label": "Growth Plan — $149/month",
-          "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+          "key": "product",
+          "label": "Product-led intro",
+          "description": "Start with context: who you are at Brightline and how you help customers like them. Move quickly into how the product could be relevant. Best when the contact already knows why they're there."
         },
         {
-          "key": "enterprise",
-          "label": "Enterprise Plan — Custom pricing",
-          "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+          "key": "question",
+          "label": "Question-first intro",
+          "description": "Introduce yourself briefly, then immediately ask an open question about their situation. Shows you are interested in them, not just talking about yourself. Best for cold or warm contacts who need to be engaged."
         }
       ]
     },

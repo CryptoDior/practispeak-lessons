@@ -388,39 +388,39 @@ export const salesVocabularyBasics: Lesson = {
         ]
     },
     "profileMatch": {
-        "instructions": "Read the three customer profiles. As a group, match each customer to the plan that best fits their needs. Be ready to explain your choices using words from this lesson. Click 'Reveal Matches' to check.",
+        "instructions": "Read the three customer descriptions. As a group, decide what the salesperson's best first step is with each one — send a product overview, schedule a discovery call, or offer a free trial. Use words from this lesson like 'value', 'benefit', and 'offer' to explain your choices. Click 'Check Matches' to see if you agree.",
         "profiles": [
             {
-                "name": "Kenji",
-                "description": "Kenji runs a 2-person freelance design studio. He has a very small budget and just needs a simple way to track projects and invoice his customers.",
-                "matchKey": "starter"
+                "name": 'Kenji',
+                "description": "Kenji saw a Brightline advert online and clicked through to the website. He hasn't contacted the company yet, but he spent ten minutes reading about the product. He's curious but hasn't made any decision.",
+                "matchKey": 'overview'
             },
             {
-                "name": "Amara",
-                "description": "Amara manages a team of 15 at a growing marketing agency. She wants to track deals, manage customer relationships, and see reports on what her team is selling.",
-                "matchKey": "growth"
+                "name": 'Amara',
+                "description": "Amara called in last week and said she needs a tool to help manage her 15-person sales team. She knows what she wants but isn't sure which product is right. She's ready to talk but hasn't seen a demo.",
+                "matchKey": 'call'
             },
             {
-                "name": "David",
-                "description": "David is IT director at a 200-person company. He needs a fully custom solution that connects with their existing systems and comes with a dedicated support team.",
-                "matchKey": "enterprise"
+                "name": 'David',
+                "description": 'David runs a 3-person design studio. He said the price looks good and the features sound useful. He wants to try it before he signs a contract. He just needs to see it working in practice.',
+                "matchKey": 'trial'
             }
         ],
         "options": [
             {
-                "key": "starter",
-                "label": "Starter Plan — $49/month",
-                "description": "Basic project tracking and invoicing. Up to 5 users. Best for small teams or freelancers who need a simple, low-cost tool."
+                "key": 'overview',
+                "label": 'Send a product overview',
+                "description": 'A short document or email that explains what the product does and what value it offers. Good for early-stage contacts who are still exploring.'
             },
             {
-                "key": "growth",
-                "label": "Growth Plan — $149/month",
-                "description": "Deal tracking, customer management, and reporting. Up to 25 users. Best for growing teams that need to manage relationships and track results."
+                "key": 'call',
+                "label": 'Schedule a discovery call',
+                "description": 'A short meeting to ask questions and understand what the customer needs. Good for contacts who are ready to talk but need more information before deciding.'
             },
             {
-                "key": "enterprise",
-                "label": "Enterprise Plan — Custom pricing",
-                "description": "Unlimited users, custom integrations, dedicated account manager. Best for large companies that need a fully tailored solution."
+                "key": 'trial',
+                "label": 'Offer a free trial',
+                "description": 'Give the customer access to the product so they can try it themselves. Good for contacts who are interested but want proof before signing a contract.'
             }
         ]
     },
