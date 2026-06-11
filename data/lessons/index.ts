@@ -40,6 +40,7 @@ import { buildingRapport } from './building-rapport';
 import { askingNeedsBasedQuestions } from './asking-needs-based-questions';
 import { identifyingCustomerPainPoints } from './identifying-customer-pain-points';
 import { presentingBenefitsVsFeatures } from './presenting-benefits-vs-features';
+import { makingPersuasiveRecommendations } from './making-persuasive-recommendations';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -83,6 +84,7 @@ export const lessons: Lesson[] = [
   askingNeedsBasedQuestions,
   identifyingCustomerPainPoints,
   presentingBenefitsVsFeatures,
+  makingPersuasiveRecommendations,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
