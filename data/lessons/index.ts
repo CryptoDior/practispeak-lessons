@@ -43,6 +43,7 @@ import { presentingBenefitsVsFeatures } from './presenting-benefits-vs-features'
 import { makingPersuasiveRecommendations } from './making-persuasive-recommendations';
 import { handlingBasicObjections } from './handling-basic-objections';
 import { talkingAboutValueNotPrice } from './talking-about-value-not-price';
+import { explainingPackagesAndPlans } from './explaining-packages-and-plans';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -89,6 +90,7 @@ export const lessons: Lesson[] = [
   makingPersuasiveRecommendations,
   handlingBasicObjections,
   talkingAboutValueNotPrice,
+  explainingPackagesAndPlans,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
