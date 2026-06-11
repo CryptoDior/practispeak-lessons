@@ -1,0 +1,402 @@
+{
+  "exportName": "handlingBasicObjections",
+  "title": "Handling Basic Objections",
+  "subtitle": "How to acknowledge, understand, and respond to a prospect's concerns without losing the conversation",
+  "level": "B1-B2",
+  "description": "Learn how to handle common sales objections with empathy and confidence — how to acknowledge a concern, find out what is really behind it, and respond in a way that keeps the conversation moving without dismissing what the prospect feels.",
+  "dialogueSubtitle": "Marcus raises several concerns before committing — Riley handles each one without becoming defensive",
+  "vocabulary": [
+    {
+      "word": "objection",
+      "partOfSpeech": "noun",
+      "definition": "A reason a prospect gives for not moving forward — a concern, doubt, or barrier that needs to be addressed before they can commit.",
+      "example": "An objection is not a rejection — it is a signal that the prospect is still engaged but needs something resolved before they feel ready to move."
+    },
+    {
+      "word": "concern",
+      "partOfSpeech": "noun",
+      "definition": "A worry or doubt that is preventing someone from making a decision — something that feels unresolved or risky to them.",
+      "example": "The most common concerns in B2B sales are price, timing, and risk — but the real concern is often something different beneath the surface."
+    },
+    {
+      "word": "validate",
+      "partOfSpeech": "verb",
+      "definition": "To acknowledge that a concern or objection is legitimate and understandable — not to agree with it, but to show you take it seriously.",
+      "example": "Validating an objection does not mean you are conceding the point — it means the prospect feels heard, which makes them far more open to your response."
+    },
+    {
+      "word": "reframe",
+      "partOfSpeech": "verb",
+      "definition": "To present an objection or situation from a different angle — showing it in a new light that reduces its impact or makes it easier to work with.",
+      "example": "When a prospect says 'it is too expensive', reframe the conversation around the cost of not solving the problem — not just the cost of the solution."
+    },
+    {
+      "word": "empathise",
+      "partOfSpeech": "verb",
+      "definition": "To show genuine understanding of how the prospect feels — not just what they are saying, but why it matters to them.",
+      "example": "Empathising with a concern is not the same as agreeing with it — it signals that you understand their world well enough to take their hesitation seriously."
+    },
+    {
+      "word": "stall",
+      "partOfSpeech": "noun",
+      "definition": "A delaying tactic — when a prospect gives a vague reason for not deciding, without saying no directly. Usually a sign that something else is unresolved.",
+      "example": "'We will think about it' is often a stall rather than a genuine objection — the real issue is usually that the value is not yet clear or the risk feels too high."
+    },
+    {
+      "word": "overcome",
+      "partOfSpeech": "verb",
+      "definition": "To successfully address an objection so that it is no longer a barrier — not by arguing, but by providing what the prospect needs to feel confident.",
+      "example": "You do not overcome an objection by talking louder or pushing harder — you overcome it by understanding what is really behind it and addressing that specific thing."
+    },
+    {
+      "word": "address",
+      "partOfSpeech": "verb",
+      "definition": "To deal with a concern directly and specifically — to give it the attention it deserves rather than deflecting or moving past it.",
+      "example": "When a prospect raises a concern, address it before moving on — skipping over it signals that you did not listen, or that you have no good answer."
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "I UNDERSTAND YOUR CONCERN",
+      "definition": "The core acknowledgment phrase — opens your response by showing the prospect that their worry has been heard and taken seriously, before you say anything else.",
+      "example": "I understand your concern about the timeline — that is a completely reasonable thing to raise at this stage. Can I share how other teams in a similar position have handled the rollout?"
+    },
+    {
+      "phrase": "CAN I ASK WHAT IS BEHIND THAT",
+      "definition": "Probe the objection before responding — find out what is really driving the concern so you can address the actual issue, not just the surface statement.",
+      "example": "When you say the timing is not right — can I ask what is behind that? I want to make sure I understand whether it is a capacity issue, a budget cycle, or something else."
+    },
+    {
+      "phrase": "THAT IS A FAIR POINT",
+      "definition": "Validate the objection without fully conceding — acknowledges the legitimacy of what the prospect has said while keeping the door open for your response.",
+      "example": "That is a fair point — the price is higher than some alternatives. What I would say is that the comparison only makes sense if the alternatives actually solve the same problem."
+    },
+    {
+      "phrase": "WHAT I HEAR YOU SAYING IS",
+      "definition": "Reflect back the objection in your own words — confirms you have understood it correctly and gives the prospect a chance to clarify before you respond.",
+      "example": "What I hear you saying is that the value is clear but the timing feels wrong given everything else the team has on right now. Is that a fair summary?"
+    },
+    {
+      "phrase": "LET ME ADDRESS THAT DIRECTLY",
+      "definition": "Signal that you are going to tackle the concern head-on — builds confidence that you are not going to deflect or dodge the difficult question.",
+      "example": "Let me address that directly — yes, there is an implementation period, and yes, it requires some time from the team. Here is what that actually looks like in practice."
+    },
+    {
+      "phrase": "WHAT WOULD IT TAKE",
+      "definition": "Turn a stall or soft no into actionable information — asks the prospect to define what would need to be true for them to move forward.",
+      "example": "I hear you — what would it take for this to feel like the right move? I want to understand what is still unresolved so I can either address it or tell you honestly if I cannot."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "So — based on everything we have covered, does this feel like the right direction for the team?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "blue",
+      "text": "Honestly, yes — but I have a few [[concern:a worry or doubt that is preventing someone from making a decision]]s I want to raise before we go any further."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Please — I would rather hear them now than after. What is on your mind?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "blue",
+      "text": "First — the price. It is higher than I was expecting for the pipeline plan."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "I understand your [[concern:a worry or doubt that is preventing someone from making a decision]] — price is always a fair thing to raise. That is a fair point and I am not going to pretend it is cheap. Can I ask what is behind it — is it the absolute number, or is it more about being able to justify it internally?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "blue",
+      "text": "Mainly the internal justification. I would need to show the board why this makes sense."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "What I hear you saying is that the value is clear to you, but you need to [[address:to deal with a concern directly and specifically]] it for the people who have not been in this conversation. Is that right?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "blue",
+      "text": "Exactly. I need to [[validate:to acknowledge that a concern is legitimate]] their concerns too, not just my own."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Let me address that directly — we have a one-page business case template I can customise for you, built around the numbers you gave me. Two to three deals a month at your deal size — that becomes very easy to justify. What is the second concern?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "blue",
+      "text": "Timing. Q4 is always chaotic — I am not sure this is the right moment to [[overcome:to successfully address an objection so it is no longer a barrier]] the internal resistance and launch something new."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "I [[empathise:to show genuine understanding of how the prospect feels]] with that — Q4 is genuinely difficult for this kind of change. Let me [[reframe:to present something from a different angle to reduce its impact]] it slightly: you are currently losing deals every month because of this problem. A two-week setup now recovers some of those Q4 deals. Waiting until January means another quarter of the same [[stall:a delaying tactic when a prospect gives a vague reason without deciding]]. Does that change how the timing feels?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "blue",
+      "text": "It does — when you put it that way. What would it take to get started quickly without it feeling like a big disruption?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "That is exactly the right question — and I think you will like the answer."
+    }
+  ],
+  "videos": [],
+  "registerAwareness": [
+    {
+      "context": "Live call objection — price",
+      "register": "Conversational / Professional",
+      "example": "'I understand your concern — price is always worth raising. That is a fair point. Can I ask what is behind it — is it the number itself, or is it more about justifying it internally? Because those are two very different conversations.'"
+    },
+    {
+      "context": "Written response to a price objection by email",
+      "register": "Formal / Written",
+      "example": "'Thank you for raising the pricing concern — I want to address it directly. Based on the figures we discussed (two to three deals per month at your average deal size), the ROI becomes clear within the first quarter. I have attached a brief business case that may help with internal sign-off.'"
+    },
+    {
+      "context": "Friendly follow-up after a stall",
+      "register": "Friendly / Direct",
+      "example": "'Hey Marcus — I know you said you needed to think about it. I just wanted to check in properly rather than just send a chase email. What is actually behind the hesitation? I would rather know than guess.'"
+    },
+    {
+      "context": "Enterprise meeting with the board",
+      "register": "Formal / Professional",
+      "example": "'I understand the board's concern about implementation risk — let me address that directly. Our average onboarding time for a team of this size is eleven days, and we assign a dedicated implementation manager for the first thirty days. I can share reference customers of similar scale if that would be helpful.'"
+    },
+    {
+      "context": "Internal notes on objections raised",
+      "register": "Neutral / Structured",
+      "example": "Objections raised: (1) price — board justification needed, not budget. Sending business case template. (2) Q4 timing — addressed with cost-of-delay argument, responded positively. (3) implementation risk — not raised directly but likely underlying. Prepare case studies for next call."
+    }
+  ],
+  "registerTraps": [
+    "❌ Responding to an objection before you have fully understood it is one of the most common mistakes in sales — ask what is behind it first. You might be addressing the wrong concern entirely.",
+    "✅ 'I understand your concern' only works if what follows shows you actually do. Saying it and then immediately contradicting the concern signals the opposite of empathy.",
+    "🔁 A stall ('let us think about it', 'not right now') is not an objection — it usually means something is still unresolved. Ask 'what would it take?' to find out what is really going on.",
+    "💡 The goal of objection handling is not to win the argument — it is to find out what the prospect needs to feel confident. Address that specific thing, not a general version of the objection."
+  ],
+  "matchingExercise": [
+    { "word": "OBJECTION", "definition": "A reason a prospect gives for not moving forward — a concern that needs to be addressed" },
+    { "word": "CONCERN", "definition": "A worry or doubt that is preventing someone from making a decision" },
+    { "word": "VALIDATE", "definition": "To acknowledge that a concern is legitimate — not to agree, but to show you take it seriously" },
+    { "word": "REFRAME", "definition": "To present something from a different angle to reduce its impact" },
+    { "word": "EMPATHISE", "definition": "To show genuine understanding of how the prospect feels" },
+    { "word": "STALL", "definition": "A delaying tactic — a vague reason for not deciding, usually hiding something unresolved" },
+    { "word": "OVERCOME", "definition": "To successfully address an objection so it is no longer a barrier" },
+    { "word": "ADDRESS", "definition": "To deal with a concern directly and specifically — not deflect or skip past it" }
+  ],
+  "fillBlankExercise": [
+    { "before": "An", "after": "is not a rejection — it is a signal that the prospect is still engaged but needs something resolved.", "answer": "objection" },
+    { "before": "The most common", "after": "s in B2B sales are price, timing, and risk — but the real one is often something different beneath the surface.", "answer": "concern" },
+    { "before": "", "after": "ing an objection does not mean you are conceding — it means the prospect feels heard, which makes them more open to your response.", "answer": "Validating" },
+    { "before": "When a prospect says 'it is too expensive',", "after": "the conversation around the cost of not solving the problem.", "answer": "reframe" },
+    { "before": "", "after": "ing with a concern is not the same as agreeing — it signals you understand their world well enough to take their hesitation seriously.", "answer": "Empathising" },
+    { "before": "'We will think about it' is often a", "after": "— the real issue is usually that the value is not yet clear or the risk feels too high.", "answer": "stall" },
+    { "before": "You do not", "after": "an objection by pushing harder — you do it by understanding what is really behind it.", "answer": "overcome" },
+    { "before": "When a prospect raises a concern,", "after": "it before moving on — skipping over it signals you did not listen.", "answer": "address" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "What is the first thing Riley does when Marcus raises his price concern?",
+      "options": [
+        "She explains why Brightline is worth the price",
+        "She offers a discount",
+        "She acknowledges the concern and asks what is behind it — is it the number or the internal justification?",
+        "She moves the conversation to the next topic"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does Riley mean when she says 'what I hear you saying is'?",
+      "options": [
+        "She is repeating Marcus's words back to him to confirm she understood the objection correctly",
+        "She is summarising the whole conversation so far",
+        "She is challenging whether Marcus's concern is valid",
+        "She is preparing to move to the next slide in her demo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "How does Riley handle Marcus's timing objection about Q4?",
+      "options": [
+        "She agrees and suggests waiting until Q1",
+        "She reframes it — pointing out that the cost of waiting is losing deals every month",
+        "She offers a shorter contract to reduce the risk",
+        "She asks Marcus to speak to other customers about how they handled the timing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is a 'stall' in a sales context?",
+      "options": [
+        "When a deal is stuck because of a pricing dispute",
+        "When a prospect gives a vague delaying reason without saying yes or no directly",
+        "When a salesperson takes too long to respond to an objection",
+        "When a contract negotiation goes on for more than a month"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does Riley offer to help Marcus justify the price to the board?",
+      "options": [
+        "A free trial period",
+        "A reference call with another customer",
+        "A customised one-page business case built around the deal loss numbers Marcus shared",
+        "A discounted enterprise rate"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "According to the Register Traps, what is wrong with 'I understand your concern' followed by an immediate contradiction?",
+      "options": [
+        "It is grammatically incorrect to use 'understand' with 'concern'",
+        "It signals the opposite of empathy — it shows you said the words but did not actually mean them",
+        "It is too informal for a B2B sales conversation",
+        "It gives the prospect permission to raise more objections"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is the purpose of 'what would it take' as a phrase?",
+      "options": [
+        "To find out the prospect's budget",
+        "To challenge whether their objection is reasonable",
+        "To turn a stall or vague no into specific, actionable information about what is unresolved",
+        "To ask the prospect to make a final decision"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What is the key difference between validating an objection and conceding it?",
+      "options": [
+        "There is no difference — validating an objection means you agree with it",
+        "Validating acknowledges the concern as legitimate without agreeing; conceding means you accept it as a reason not to proceed",
+        "Conceding is more professional in formal enterprise settings",
+        "Validating is only appropriate for price objections"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in groups. A prospect has raised an objection. Choose the response that handles it most effectively — acknowledges the concern, probes where needed, and keeps the conversation moving. Discuss before clicking.",
+      "items": [
+        {
+          "customerLine": "Prospect says: 'Your price is just too high compared to what we are paying now.'",
+          "options": [
+            "Say: 'I understand your concern — let me address that directly. Can I ask what is behind it? Is it the absolute cost, or is it more about being able to justify the difference internally?'",
+            "Say: 'I understand, but our product is genuinely better — the extra cost reflects the extra value you get.'",
+            "Say: 'We do offer a discount for annual contracts — would that help?'"
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. It acknowledges the concern, then probes before responding — because 'too expensive' can mean very different things. B jumps to a defence of the price without understanding what the real concern is. C offers a discount immediately, which signals that the price was inflated to begin with and sets a bad precedent for the negotiation."
+        },
+        {
+          "customerLine": "Prospect says: 'We are actually already using a competitor's tool.'",
+          "options": [
+            "Say: 'That is a fair point. Can I ask what is behind the decision to look at alternatives — is there something the current tool is not doing for you?'",
+            "Say: 'That is fine — a lot of our customers came from that tool. Ours is better.'",
+            "Say: 'I understand — in that case, maybe now is not the right time for us to speak.'"
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. The fact that they are already talking to you means something is not quite right with the current tool — find out what. That is the real conversation. B makes a direct comparison claim before you understand the situation, which can come across as arrogant. C exits the conversation too early — the prospect is clearly open to alternatives or they would not be on the call."
+        },
+        {
+          "customerLine": "Prospect says: 'We had a bad experience with a similar tool two years ago and the team still talks about it.'",
+          "options": [
+            "Say: 'I empathise with that — a failed rollout is genuinely painful and the trust damage lasts a long time. Can I ask what went wrong? I want to understand whether the problem was the tool, the implementation, or something else — because that changes how I would approach this with you.'",
+            "Say: 'I understand your concern — but our tool is different. We have much better onboarding support.'",
+            "Say: 'That is a fair point. Would it help to speak to some of our existing customers?'"
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. It empathises genuinely with the experience, then probes the root cause — because how you handle this depends entirely on what went wrong. If the last tool failed because of poor adoption, that is a different conversation than if it failed because of a technical mismatch. B claims differentiation before understanding the problem. C jumps to social proof — useful later, but premature before the real concern has been explored."
+        },
+        {
+          "customerLine": "Prospect says: 'I need to run this by my manager before we can make any decision.'",
+          "options": [
+            "Say: 'Of course — what would be most helpful: should I put together a brief summary you could share, or would it make sense to include your manager in a short call?'",
+            "Say: 'I understand — who is your manager? Can I reach out to them directly?'",
+            "Say: 'Of course. What is the best timeline for that conversation? I want to make sure we keep the momentum going.'"
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. It accepts the need gracefully and immediately offers to help move it forward — two clear options, both of which keep you involved. B asks to go around the prospect to reach their manager directly, which will damage the relationship and trust. C accepts the delay and asks about timing, which is passive — it leaves the next step entirely in the prospect's hands."
+        }
+      ]
+    },
+    "profileMatch": {
+      "instructions": "Read the three objections. As a group, match each one to the handling approach that fits best. Think about what is really behind each objection before deciding. Click 'Check Matches' when you agree.",
+      "profiles": [
+        {
+          "name": "Objection 1",
+          "description": "'We would love to move forward, but honestly the timing just is not right — we are in the middle of a big project and the team does not have bandwidth for anything new until at least February.'",
+          "matchKey": "reframe"
+        },
+        {
+          "name": "Objection 2",
+          "description": "'I like what I am hearing, but I am going to be honest — I have heard similar things from two other vendors this month and I am not sure I believe the ROI numbers are real.'",
+          "matchKey": "validate-evidence"
+        },
+        {
+          "name": "Objection 3",
+          "description": "'Look, we will think about it and come back to you. We are just not ready to make a decision right now.'",
+          "matchKey": "what-would-it-take"
+        }
+      ],
+      "options": [
+        {
+          "key": "reframe",
+          "label": "Reframe the cost of waiting",
+          "description": "The prospect is using timing as a reason to delay — but delay has a cost too. Reframe the conversation: 'I understand the bandwidth concern. What I would ask is — what is the cost of waiting another quarter? If the problem is still active, the delay has a price.' Then help them see whether a low-disruption start is possible."
+        },
+        {
+          "key": "validate-evidence",
+          "label": "Validate and provide evidence",
+          "description": "That is a fair point — healthy scepticism about ROI claims is reasonable. Address it directly: 'I would rather earn your trust than ask you to take my word for it. Let me share a case study from a team of similar size with the actual numbers, and let us look at what the calculation would look like based on your specific situation.'"
+        },
+        {
+          "key": "what-would-it-take",
+          "label": "Ask what would it take",
+          "description": "'I hear you — and I want to respect that. Before we leave it there, can I ask: what would it take for this to feel like the right move? I want to understand what is still unresolved — either so I can address it, or so I can tell you honestly if I cannot.'"
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The salesperson has started handling an objection — but the line has been cut off. Finish it using phrases and vocabulary from this lesson. Compare your versions, then click to see a suggested answer.",
+      "items": [
+        {
+          "customerLine": "Prospect: 'It is just not the right time for us to take this on.'",
+          "salespersonStart": "I understand your concern — can I ask",
+          "suggestedCompletion": "what is behind the timing? I want to make sure I understand whether it is a capacity issue with the team right now, or something in the budget cycle. Because those are two different conversations, and I want to make sure I am addressing the right one."
+        },
+        {
+          "customerLine": "Prospect: 'The price is higher than what we budgeted for.'",
+          "salespersonStart": "That is a fair point — let me address that directly.",
+          "suggestedCompletion": "The price reflects the full pipeline visibility and automation — but I want to check: is the issue the budget itself, or is it more that you need to justify the difference to someone internally? Because if it is the latter, I can help you build that case using the numbers you gave me."
+        },
+        {
+          "customerLine": "Prospect: 'I am just not sure the team will adopt it — we have tried this kind of thing before.'",
+          "salespersonStart": "I empathise with that — what I hear you saying is",
+          "suggestedCompletion": "that the risk is not really about the tool, it is about whether people will actually use it. Is that right? Because that changes how I would approach the rollout conversation. The tools that fail usually fail at adoption, not at the product level — and that is something we handle very deliberately in the onboarding."
+        },
+        {
+          "customerLine": "Prospect gives a vague 'we will think about it' with no specific reason.",
+          "salespersonStart": "I completely respect that — before we leave it there,",
+          "suggestedCompletion": "what would it take for this to feel like the right move? I want to understand what is still unresolved — either so I can address it properly, or so I can tell you honestly if there is something I cannot help with. I would rather know now than in six weeks."
+        }
+      ]
+    }
+  }
+}
