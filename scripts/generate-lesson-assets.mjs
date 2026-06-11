@@ -241,11 +241,16 @@ log('Adding lesson to index...');
 const indexPath = path.join(LESSONS_DIR, 'index.ts');
 let indexContent = fs.readFileSync(indexPath, 'utf8');
 if (!indexContent.includes(`from './${lessonSlug}'`)) {
+  // Insert import after the last import line
+  const lastImportMatch = [...indexContent.matchAll(/^import .* from '\.\/[^']+';/gm)];
+  if (lastImportMatch.length > 0) {
+    const lastImport = lastImportMatch[lastImportMatch.length - 1];
+    const insertPos = lastImport.index + lastImport[0].length;
+    indexContent = indexContent.slice(0, insertPos) +
+      `\nimport { ${spec.exportName} } from './${lessonSlug}';` +
+      indexContent.slice(insertPos);
+  }
   indexContent = indexContent
-    .replace(
-      /^(import .* from '\.\/[^']+';)(\s*\n)(\/\*\*)/m,
-      `$1\nimport { ${spec.exportName} } from './${lessonSlug}';\n$3`
-    )
     .replace(
       /(export const lessons: Lesson\[\] = \[)([\s\S]*?)(\];)/,
       (_, open, middle, close) => `${open}${middle}  ${spec.exportName},\n${close}`
