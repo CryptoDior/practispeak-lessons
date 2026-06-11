@@ -179,24 +179,80 @@
     "💡 Strong positioning is exclusive, not inclusive — if your positioning works for every type of company, it works for none of them. The clearer you are about who it is NOT for, the more convincing it is for the people it IS for."
   ],
   "matchingExercise": [
-    { "word": "FRAMING", "definition": "The angle you choose when presenting information — it shapes how people react even when the facts are the same" },
-    { "word": "POSITIONING", "definition": "Defining what you do and who it is for clearly enough that the right people immediately get why it matters" },
-    { "word": "NARRATIVE", "definition": "The story or thread connecting problem, solution, and outcome — what makes a pitch memorable" },
-    { "word": "ANCHOR", "definition": "A reference point introduced early that shapes how everything following is evaluated" },
-    { "word": "IMPLICATION", "definition": "A meaning or consequence you suggest without stating directly — what the listener understands beyond the words" },
-    { "word": "CONTRAST", "definition": "Placing two things side by side so the difference between them becomes obvious and one feels like the clear choice" },
-    { "word": "CREDIBILITY", "definition": "The trust and authority that makes people believe what you say — built through accuracy and honesty" },
-    { "word": "CONCEDE", "definition": "To acknowledge a point that works against you — a counterintuitive move that builds trust" }
+    {
+      "word": "FRAMING",
+      "definition": "The angle you choose when presenting information — it shapes how people react even when the facts are the same"
+    },
+    {
+      "word": "POSITIONING",
+      "definition": "Defining what you do and who it is for clearly enough that the right people immediately get why it matters"
+    },
+    {
+      "word": "NARRATIVE",
+      "definition": "The story or thread connecting problem, solution, and outcome — what makes a pitch memorable"
+    },
+    {
+      "word": "ANCHOR",
+      "definition": "A reference point introduced early that shapes how everything following is evaluated"
+    },
+    {
+      "word": "IMPLICATION",
+      "definition": "A meaning or consequence you suggest without stating directly — what the listener understands beyond the words"
+    },
+    {
+      "word": "CONTRAST",
+      "definition": "Placing two things side by side so the difference between them becomes obvious and one feels like the clear choice"
+    },
+    {
+      "word": "CREDIBILITY",
+      "definition": "The trust and authority that makes people believe what you say — built through accuracy and honesty"
+    },
+    {
+      "word": "CONCEDE",
+      "definition": "To acknowledge a point that works against you — a counterintuitive move that builds trust"
+    }
   ],
   "fillBlankExercise": [
-    { "before": "Saying 'this costs £5,000/month' versus 'this recovers £40,000 in pipeline for £5,000' are both true — but the", "after": "changes how the number lands.", "answer": "framing" },
-    { "before": "Strong", "after": "makes a specific claim about who the product is built for — so the right person hears it and thinks 'that is exactly us'.", "answer": "positioning" },
-    { "before": "A pitch with a clear", "after": "— problem, change, outcome — is remembered long after the slide deck is forgotten.", "answer": "narrative" },
-    { "before": "If you mention the cost of a problem before the price of your solution, the solution feels smaller. That is an", "after": ".", "answer": "anchor" },
-    { "before": "Asking 'how long have you been managing this without a proper system?' does not say the situation is a problem — but the", "after": "is clear.", "answer": "implication" },
-    { "before": "'You spend fifteen hours a week on something this does in twenty minutes' is not an argument — it is a", "after": ". The conclusion makes itself.", "answer": "contrast" },
-    { "before": "One honest admission ('this is not the right fit if you have five reps') does more for your", "after": "than ten strong claims.", "answer": "credibility" },
-    { "before": "If a prospect says your onboarding takes longer than a competitor's and they are right,", "after": "it immediately — then explain what you get in return for that time.", "answer": "concede" }
+    {
+      "before": "Saying 'this costs £5,000/month' versus 'this recovers £40,000 in pipeline for £5,000' are both true — but the",
+      "after": "changes how the number lands.",
+      "answer": "framing"
+    },
+    {
+      "before": "Strong",
+      "after": "makes a specific claim about who the product is built for — so the right person hears it and thinks 'that is exactly us'.",
+      "answer": "positioning"
+    },
+    {
+      "before": "A pitch with a clear",
+      "after": "— problem, change, outcome — is remembered long after the slide deck is forgotten.",
+      "answer": "narrative"
+    },
+    {
+      "before": "If you mention the cost of a problem before the price of your solution, the solution feels smaller. That is an",
+      "after": ".",
+      "answer": "anchor"
+    },
+    {
+      "before": "Asking 'how long have you been managing this without a proper system?' does not say the situation is a problem — but the",
+      "after": "is clear.",
+      "answer": "implication"
+    },
+    {
+      "before": "'You spend fifteen hours a week on something this does in twenty minutes' is not an argument — it is a",
+      "after": ". The conclusion makes itself.",
+      "answer": "contrast"
+    },
+    {
+      "before": "One honest admission ('this is not the right fit if you have five reps') does more for your",
+      "after": "than ten strong claims.",
+      "answer": "credibility"
+    },
+    {
+      "before": "If a prospect says your onboarding takes longer than a competitor's and they are right,",
+      "after": "it immediately — then explain what you get in return for that time.",
+      "answer": "concede"
+    }
   ],
   "multipleChoiceExercise": [
     {
@@ -388,5 +444,51 @@
         }
       ]
     }
+  },
+  "pitchCorner": {
+    "title": "Follow-Up Email: After the First Meeting",
+    "context": "Riley is writing to the CFO and VP Sales the morning after their meeting — using everything she knows about framing, credibility, and contrast",
+    "passage": [
+      {
+        "before": "Subject: The number we discussed — and what I would like you to do with it\n\nDear Sarah and Marcus,\n\nThank you for your time yesterday. I want to follow up with the",
+        "after": "I used to open our conversation, because I want to make sure it lands the same way in writing as it did in the room.",
+        "answer": "framing"
+      },
+      {
+        "before": "The £250,000 figure is not an estimate — it is a calculation based on the pipeline data Marcus shared. I am using it as an",
+        "after": "because the question I want you to hold in mind is not 'what does Brightline cost?' but 'what is the current situation costing us every quarter?'",
+        "answer": "anchor"
+      },
+      {
+        "before": "That is a deliberate choice on my part. The",
+        "after": "of those two numbers — £36,000 a year versus £250,000 a year — makes the decision straightforward, provided the £250,000 figure is accurate. I believe it is.",
+        "answer": "contrast"
+      },
+      {
+        "before": "I also want to address something Sarah raised: whether the ROI claim holds up under scrutiny. This is a fair challenge, and I want to build",
+        "after": "with you by being direct about it rather than defending a number.",
+        "answer": "credibility"
+      },
+      {
+        "before": "The 60% recovery rate is an average across our customer base. It is not a guarantee. What varies is adoption, and adoption depends on how the rollout is managed. I am prepared to",
+        "after": "that openly — and to show you exactly how the three reference customers I mentioned managed theirs.",
+        "answer": "concede"
+      },
+      {
+        "before": "The",
+        "after": "I want to leave you with is this: you are not evaluating a tool. You are evaluating whether your current approach to pipeline management is still appropriate for the volume and complexity of deals you are running.",
+        "answer": "narrative"
+      },
+      {
+        "before": "I believe the answer is that it is not — and that the",
+        "after": "of 'we have a process' and 'our process is costing us six figures a year in recoverable deals' need to sit side by side in the same conversation.",
+        "answer": "implication"
+      },
+      {
+        "before": "Our",
+        "after": "is simple: we are not a data tool and we are not a CRM replacement. We are the layer between your data and the moment a manager needs to step in. If that is the problem you have — and I believe it is — then the fit is clear.\n\nI would welcome a second conversation this week.\n\nBest,\nRiley",
+        "answer": "positioning"
+      }
+    ]
   }
 }

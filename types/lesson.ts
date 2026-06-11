@@ -141,6 +141,24 @@ export interface FinishLineItem {
   suggestedCompletion?: string;
 }
 
+export interface PitchCornerSegment {
+  /** Text before the blank (may be empty string) */
+  before: string;
+  /** Text after the blank */
+  after: string;
+  /** The correct answer word */
+  answer: string;
+}
+
+export interface PitchCorner {
+  /** Heading shown above the passage, e.g. "Follow-Up Email" or "Presentation Opening" */
+  title: string;
+  /** One-line context, e.g. "Riley is writing to the CFO after their first meeting" */
+  context: string;
+  /** The pitch passage broken into segments around blanks */
+  passage: PitchCornerSegment[];
+}
+
 export interface GroupActivities {
   chooseResponse: {
     instructions: string;
@@ -185,6 +203,8 @@ export interface Lesson {
   matchingExercise: MatchPair[];
   fillBlankExercise: FillBlankItem[];
   multipleChoiceExercise: MultipleChoiceItem[];
+  /** Optional pitch/email/presentation fill-in-the-blank passage. Sales English only. */
+  pitchCorner?: PitchCorner;
   /** Optional group activities — role-play scenarios + discussion questions. Skip for 1-on-1 lessons. */
   groupActivities?: GroupActivities;
 }

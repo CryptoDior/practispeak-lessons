@@ -335,6 +335,52 @@ export const advancedPersuasiveLanguage: Lesson = {
         "correctIndex": 2
     }
 ],
+  pitchCorner: {
+    "title": "Follow-Up Email: After the First Meeting",
+    "context": "Riley is writing to the CFO and VP Sales the morning after their meeting — using everything she knows about framing, credibility, and contrast",
+    "passage": [
+        {
+            "before": "Subject: The number we discussed — and what I would like you to do with it\n\nDear Sarah and Marcus,\n\nThank you for your time yesterday. I want to follow up with the",
+            "after": "I used to open our conversation, because I want to make sure it lands the same way in writing as it did in the room.",
+            "answer": "framing"
+        },
+        {
+            "before": "The £250,000 figure is not an estimate — it is a calculation based on the pipeline data Marcus shared. I am using it as an",
+            "after": "because the question I want you to hold in mind is not 'what does Brightline cost?' but 'what is the current situation costing us every quarter?'",
+            "answer": "anchor"
+        },
+        {
+            "before": "That is a deliberate choice on my part. The",
+            "after": "of those two numbers — £36,000 a year versus £250,000 a year — makes the decision straightforward, provided the £250,000 figure is accurate. I believe it is.",
+            "answer": "contrast"
+        },
+        {
+            "before": "I also want to address something Sarah raised: whether the ROI claim holds up under scrutiny. This is a fair challenge, and I want to build",
+            "after": "with you by being direct about it rather than defending a number.",
+            "answer": "credibility"
+        },
+        {
+            "before": "The 60% recovery rate is an average across our customer base. It is not a guarantee. What varies is adoption, and adoption depends on how the rollout is managed. I am prepared to",
+            "after": "that openly — and to show you exactly how the three reference customers I mentioned managed theirs.",
+            "answer": "concede"
+        },
+        {
+            "before": "The",
+            "after": "I want to leave you with is this: you are not evaluating a tool. You are evaluating whether your current approach to pipeline management is still appropriate for the volume and complexity of deals you are running.",
+            "answer": "narrative"
+        },
+        {
+            "before": "I believe the answer is that it is not — and that the",
+            "after": "of 'we have a process' and 'our process is costing us six figures a year in recoverable deals' need to sit side by side in the same conversation.",
+            "answer": "implication"
+        },
+        {
+            "before": "Our",
+            "after": "is simple: we are not a data tool and we are not a CRM replacement. We are the layer between your data and the moment a manager needs to step in. If that is the problem you have — and I believe it is — then the fit is clear.\n\nI would welcome a second conversation this week.\n\nBest,\nRiley",
+            "answer": "positioning"
+        }
+    ]
+},
   groupActivities: {
     "chooseResponse": {
         "instructions": "Work in groups. Each situation involves a high-stakes persuasion decision. Choose the response that uses framing, positioning, or influence most effectively. Discuss the reasoning — the technique matters as much as the answer.",
