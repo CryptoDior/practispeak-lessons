@@ -108,6 +108,41 @@ export const buildingRapport: Lesson = {
 
   videos: [],
 
+  registerAwareness: [
+    {
+      context: 'First cold call opening',
+      register: 'Conversational / Warm',
+      example: "'Hi Emma — thanks for picking up. Quick genuine question before we get into it: how's the week treating you? I know Q4 is always full-on.'",
+    },
+    {
+      context: 'Follow-up call after a meeting',
+      register: 'Warm / Personal',
+      example: "'James — good to hear from you again. How did the rest of that conference go? I thought the panel you were on sounded really interesting based on what you described.'",
+    },
+    {
+      context: 'LinkedIn message before a call',
+      register: 'Friendly / Written',
+      example: "'Hi Emma — really enjoyed your post about scaling the team this year. It resonated with a lot of what I hear from customers at your stage. Looking forward to our call on Thursday.'",
+    },
+    {
+      context: 'First in-person meeting',
+      register: 'Professional / Warm',
+      example: "'Emma — great to finally meet you in person. It's good to put a face to the name after all our back-and-forth. Can I get you a coffee before we sit down?'",
+    },
+    {
+      context: 'Internal CRM note on rapport',
+      register: 'Neutral / Structured',
+      example: 'Strong rapport built. Referenced product launch, team growth x2 this year, mutual contact at TechSummit. Responds well to personal connection. Do NOT rush to pitch — let her lead the pace.',
+    },
+  ],
+
+  registerTraps: [
+    "❌ Scripted small talk is worse than no small talk — 'How are you today?' on a cold call reads as a delay tactic, not genuine interest. Ask about something specific you actually found out.",
+    "✅ The best rapport comes from research — one specific reference ('I saw you spoke at TechSummit last month') is worth ten generic warm-up questions and signals you took the time to prepare.",
+    "🔁 Know when to stop — a prospect who gives short answers to small talk is signalling they want to get to business. Reciprocate their energy and transition quickly rather than pushing the small talk further.",
+    "💡 Rapport is built across multiple calls, not just the first one — referencing something specific from a previous conversation at the start of the next call is one of the most powerful things you can do.",
+  ],
+
   dialogue: [
     {
       speaker: 'Riley',
