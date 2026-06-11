@@ -381,6 +381,81 @@ export const advancedPersuasiveLanguage: Lesson = {
         }
     ]
 },
+  dealClinic: {
+    "context": "A follow-up call, two days after Riley's first meeting with Marcus (VP Sales) and Sarah (CFO). Marcus seemed interested but non-committal. Riley is calling to re-engage. Evaluate each highlighted move — is it effective or not?",
+    "transcript": [
+        {
+            "speaker": "Marcus",
+            "speakerColor": "blue",
+            "text": "Riley, thanks for calling back. I have to say, we are still on the fence. Sarah has concerns about the ROI and I am not sure the timing is right."
+        },
+        {
+            "speaker": "Riley",
+            "speakerColor": "orange",
+            "text": "I appreciate you being direct about that, Marcus. Before I respond to either concern, I want to share something. Since we spoke on Tuesday, one of your direct competitors — I cannot name them, but they are in the same vertical — has signed a twelve-month contract with us. I thought you should know, because the window for being the first mover in your space is closing.",
+            "verdict": {
+                "isGood": true,
+                "explanation": "Strong move. This uses implication rather than pressure — Riley does not say 'you are falling behind', she lets Marcus draw that conclusion. The competitor signal creates urgency without sounding desperate. Naming the vertical without naming the company is also credible — it is specific enough to be believable."
+            }
+        },
+        {
+            "speaker": "Marcus",
+            "speakerColor": "blue",
+            "text": "That is interesting. But Sarah's concern is real — she wants to see harder evidence that the 60% recovery rate applies to a business like ours."
+        },
+        {
+            "speaker": "Riley",
+            "speakerColor": "orange",
+            "text": "I completely understand. And honestly, I think we should just go ahead — the numbers are solid and I really believe this is the right fit for your team. You will not regret it.",
+            "verdict": {
+                "isGood": false,
+                "explanation": "Weak move. Riley collapses under the first objection and responds with reassurance instead of evidence. Saying 'you will not regret it' is a sales cliche that does the opposite of building credibility — it sounds like pressure. The CFO raised a specific concern about evidence, and Riley ignored it. The right move here was to address the methodology directly or offer the reference customers she mentioned in the first meeting."
+            }
+        },
+        {
+            "speaker": "Marcus",
+            "speakerColor": "blue",
+            "text": "Right... but Sarah is going to need more than that."
+        },
+        {
+            "speaker": "Riley",
+            "speakerColor": "orange",
+            "text": "You are right — and I should not have glossed over that. Let me be direct: I can connect Sarah with two CFOs from companies at your scale, with similar deal volumes, who can speak to the exact recovery numbers they saw in the first ninety days. She can ask them anything. That is a different kind of evidence than a case study — it is a conversation with someone who has already made this decision.",
+            "verdict": {
+                "isGood": true,
+                "explanation": "Good recovery. Riley acknowledges she sidestepped the question ('I should not have glossed over that') — this is a concession that rebuilds credibility. Offering CFO-to-CFO reference calls is also a strong positioning move: it matches Sarah's level and removes the filter of a sales pitch. The contrast between a case study and a direct conversation is well-drawn."
+            }
+        },
+        {
+            "speaker": "Marcus",
+            "speakerColor": "blue",
+            "text": "OK, that would help. What about the contract length? We are not ready to commit to twelve months right now."
+        },
+        {
+            "speaker": "Riley",
+            "speakerColor": "orange",
+            "text": "I can do six months and I will throw in a 15% discount to make it easier. We really want to work with you.",
+            "verdict": {
+                "isGood": false,
+                "explanation": "Weak move. Riley discounts immediately without understanding what the contract length objection is actually about — is it cash flow? Budget cycle? Risk? By jumping to a discount, she signals that the price was always negotiable (which undermines the positioning from the first meeting) and that she is anxious to close. A stronger move would be to ask what is driving the hesitation around commitment length before offering anything."
+            }
+        },
+        {
+            "speaker": "Marcus",
+            "speakerColor": "blue",
+            "text": "Hmm. It is more about our budget cycle than the price itself, actually. Our annual budget locks in September."
+        },
+        {
+            "speaker": "Riley",
+            "speakerColor": "orange",
+            "text": "That is useful to know — and it changes what I want to offer. The way I see it, the question is not whether you buy now or in September. The question is whether you want to enter your September budget cycle having already validated the ROI, or having to make the case for a tool you have never tested. A ninety-day pilot at reduced commitment gets you the evidence Sarah needs before the budget locks. That is a stronger position for you internally than waiting.",
+            "verdict": {
+                "isGood": true,
+                "explanation": "Strong close. Riley reframes the objection entirely — from 'timing problem' to 'strategic opportunity'. The contrast she draws (entering the budget cycle with evidence vs. without it) makes the pilot feel like the obvious move, not a compromise. She also uses 'the way I see it' correctly — introducing her frame explicitly rather than asserting it as fact. This is advanced framing: she is not persuading Marcus, she is giving him the language to persuade Sarah."
+            }
+        }
+    ]
+},
   groupActivities: {
     "chooseResponse": {
         "instructions": "Work in groups. Each situation involves a high-stakes persuasion decision. Choose the response that uses framing, positioning, or influence most effectively. Discuss the reasoning — the technique matters as much as the answer.",

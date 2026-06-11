@@ -159,6 +159,26 @@ export interface PitchCorner {
   passage: PitchCornerSegment[];
 }
 
+export interface DealClinicLine {
+  speaker: string;
+  speakerColor: SpeakerColor;
+  text: string;
+  /**
+   * If present, this is a salesperson move that students evaluate.
+   * isGood: the correct verdict. explanation: shown after student guesses.
+   */
+  verdict?: {
+    isGood: boolean;
+    explanation: string;
+  };
+}
+
+export interface DealClinic {
+  /** Scene-setting shown above the transcript */
+  context: string;
+  transcript: DealClinicLine[];
+}
+
 export interface GroupActivities {
   chooseResponse: {
     instructions: string;
@@ -205,6 +225,8 @@ export interface Lesson {
   multipleChoiceExercise: MultipleChoiceItem[];
   /** Optional pitch/email/presentation fill-in-the-blank passage. Sales English only. */
   pitchCorner?: PitchCorner;
+  /** Optional deal clinic — students evaluate good vs. weak sales moves. C1-C2 only. */
+  dealClinic?: DealClinic;
   /** Optional group activities — role-play scenarios + discussion questions. Skip for 1-on-1 lessons. */
   groupActivities?: GroupActivities;
 }

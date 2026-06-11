@@ -230,7 +230,8 @@ ${dialogueEntries}
   matchingExercise: ${JSON.stringify(spec.matchingExercise || [], null, 4)},
   fillBlankExercise: ${JSON.stringify(spec.fillBlankExercise || [], null, 4)},
   multipleChoiceExercise: ${JSON.stringify(spec.multipleChoiceExercise || [], null, 4)},${spec.pitchCorner ? `
-  pitchCorner: ${JSON.stringify(spec.pitchCorner, null, 4)},` : ''}${spec.groupActivities ? `
+  pitchCorner: ${JSON.stringify(spec.pitchCorner, null, 4)},` : ''}${spec.dealClinic ? `
+  dealClinic: ${JSON.stringify(spec.dealClinic, null, 4)},` : ''}${spec.groupActivities ? `
   groupActivities: ${JSON.stringify(spec.groupActivities, null, 4)},` : ''}
 };
 `;

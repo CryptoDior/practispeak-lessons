@@ -17,6 +17,7 @@ import RegisterSection from '@/components/RegisterSection';
 import ReadingPassageSection from '@/components/ReadingPassageSection';
 import GroupActivitiesSection from '@/components/GroupActivitiesSection';
 import PitchCornerSection from '@/components/exercises/PitchCornerSection';
+import DealClinicSection from '@/components/DealClinicSection';
 
 const DEFAULT_TABS = ['Vocabulary', 'Phrasal Verbs', 'Videos', 'Dialogue', 'Exercises'] as const;
 
@@ -43,9 +44,10 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   const baseTabs = rawBase.map((t) =>
     t === 'Videos' && lesson.registerAwareness ? 'Register' : t
   );
+  const withDealClinic = lesson.dealClinic ? [...baseTabs, 'Deal Clinic'] : baseTabs;
   const TABS = lesson.groupActivities
-    ? ([...baseTabs, 'Group Activities'] as const)
-    : baseTabs;
+    ? ([...withDealClinic, 'Group Activities'] as const)
+    : withDealClinic;
   const [activeTab, setActiveTab] = useState(0);
   const [visitedTabs, setVisitedTabs] = useState<Set<number>>(new Set([0]));
   const [scores, setScores] = useState<Scores>({});
@@ -326,9 +328,20 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           </div>
         </section>
 
+        {/* Deal Clinic */}
+        {lesson.dealClinic && (
+          <section className={activeTab === TABS.indexOf('Deal Clinic') ? 'block' : 'hidden'}>
+            <SectionHeader
+              title="Deal Clinic"
+              subtitle="Read the conversation — judge each highlighted move: Good or Weak?"
+            />
+            <DealClinicSection dealClinic={lesson.dealClinic} />
+          </section>
+        )}
+
         {/* Group Activities */}
         {lesson.groupActivities && (
-          <section className={activeTab === 5 ? 'block' : 'hidden'}>
+          <section className={activeTab === TABS.indexOf('Group Activities') ? 'block' : 'hidden'}>
             <SectionHeader
               title="Group Activities"
               subtitle="Role-play scenarios and discussion questions for group classes"
