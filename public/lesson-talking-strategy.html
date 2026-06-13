@@ -346,7 +346,8 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 <!-- TABS -->
 <div class="tabs-wrap">
   <div class="tabs" id="tabBar">
-    <button class="tab active" data-tab="phrases">Phrases</button>
+    <button class="tab active" data-tab="vocabulary">Vocabulary</button>
+    <button class="tab" data-tab="phrases">Phrases</button>
     <button class="tab" data-tab="inaction">In Action</button>
     <button class="tab" data-tab="register">Register</button>
     <button class="tab" data-tab="context">In Context</button>
@@ -358,8 +359,156 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:1
 <!-- MAIN -->
 <div class="main">
 
+  <!-- ════════ VOCABULARY ════════ -->
+  <div class="section active" id="tab-vocabulary">
+    <div class="sec-header">
+      <div class="sec-dot"></div>
+      <span class="sec-label">8 key words for talking strategy</span>
+    </div>
+
+    <!-- callout -->
+    <div class="phrase-card" style="margin-bottom:20px">
+      <div class="pc-img"><img src="images/callout.png" alt="callout" onerror="this.parentElement.innerHTML='<div class=pc-img-ph><div class=ph-icon>📢</div><div class=pc-phrase>CALLOUT</div></div>'"></div>
+      <div class="pc-body">
+        <div class="pc-num">01</div>
+        <div class="pc-phrase">CALLOUT</div>
+        <div class="pc-type" style="background:#eff6ff;color:#1d4ed8">NOUN / VERB</div>
+        <div class="pc-def">Information you say out loud to tell your team where an enemy is — the name of the location, the number of enemies, and what they are doing. Good callouts win rounds.</div>
+        <div class="pc-ex-label">EXAMPLE</div>
+        <div class="pc-ex">"Two enemies at B site — one pushing from short, one holding the corner."</div>
+        <div class="pc-audio">
+          <div class="audio-player" onclick="toggleAudio(this,'audio/callout.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Word</div><div class="ap-wave"></div></div></div>
+          <div class="audio-player" onclick="toggleAudio(this,'audio/callout-example.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Example</div><div class="ap-wave"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- strategy -->
+    <div class="phrase-card flip" style="margin-bottom:20px">
+      <div class="pc-img"><img src="images/strategy.png" alt="strategy" onerror="this.parentElement.innerHTML='<div class=pc-img-ph><div class=ph-icon>🧠</div><div class=pc-phrase>STRATEGY</div></div>'"></div>
+      <div class="pc-body">
+        <div class="pc-num">02</div>
+        <div class="pc-phrase">STRATEGY</div>
+        <div class="pc-type" style="background:#eff6ff;color:#1d4ed8">NOUN</div>
+        <div class="pc-def">The overall plan for how your team is going to win — not one action, but the approach that connects all your decisions together. Teams without a strategy react. Teams with one act.</div>
+        <div class="pc-ex-label">EXAMPLE</div>
+        <div class="pc-ex">"Our strategy is to take mid control first — everything else depends on that."</div>
+        <div class="pc-audio">
+          <div class="audio-player" onclick="toggleAudio(this,'audio/strategy.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Word</div><div class="ap-wave"></div></div></div>
+          <div class="audio-player" onclick="toggleAudio(this,'audio/strategy-example.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Example</div><div class="ap-wave"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- uncover -->
+    <div class="phrase-card" style="margin-bottom:20px">
+      <div class="pc-img"><div class="pc-img-ph"><div class="ph-icon">🔍</div><div class="pc-phrase">UNCOVER</div></div></div>
+      <div class="pc-body">
+        <div class="pc-num">03</div>
+        <div class="pc-phrase">UNCOVER</div>
+        <div class="pc-type" style="background:#eff6ff;color:#1d4ed8">VERB</div>
+        <div class="pc-def">To find out where the enemy is — by forcing them to reveal themselves, using information from a teammate, or creating pressure that makes them move. Uncovering positions is the first step in most strategies.</div>
+        <div class="pc-ex-label">EXAMPLE</div>
+        <div class="pc-ex">"Throw a smoke so we can uncover who is holding that angle — I need to know before we push."</div>
+        <div class="pc-audio">
+          <div class="audio-player" onclick="toggleAudio(this,'audio/uncover.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Word</div><div class="ap-wave"></div></div></div>
+          <div class="audio-player" onclick="toggleAudio(this,'audio/uncover-example.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Example</div><div class="ap-wave"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- anchor -->
+    <div class="phrase-card flip" style="margin-bottom:20px">
+      <div class="pc-img"><div class="pc-img-ph"><div class="ph-icon">⚓</div><div class="pc-phrase">ANCHOR</div></div></div>
+      <div class="pc-body">
+        <div class="pc-num">04</div>
+        <div class="pc-phrase">ANCHOR</div>
+        <div class="pc-type" style="background:#eff6ff;color:#1d4ed8">VERB / NOUN</div>
+        <div class="pc-def">To hold a fixed position and control an area while your team moves elsewhere. The anchor player stays, keeps the enemy occupied, and makes space for teammates to work. Without an anchor, defences collapse.</div>
+        <div class="pc-ex-label">EXAMPLE</div>
+        <div class="pc-ex">"You anchor B — keep them busy and tell me if they rotate. We will take A while they are focused on you."</div>
+        <div class="pc-audio">
+          <div class="audio-player" onclick="toggleAudio(this,'audio/anchor.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Word</div><div class="ap-wave"></div></div></div>
+          <div class="audio-player" onclick="toggleAudio(this,'audio/anchor-example.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Example</div><div class="ap-wave"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- coordinate -->
+    <div class="phrase-card" style="margin-bottom:20px">
+      <div class="pc-img"><img src="images/coordinate.png" alt="coordinate" onerror="this.parentElement.innerHTML='<div class=pc-img-ph><div class=ph-icon>🤝</div><div class=pc-phrase>COORDINATE</div></div>'"></div>
+      <div class="pc-body">
+        <div class="pc-num">05</div>
+        <div class="pc-phrase">COORDINATE</div>
+        <div class="pc-type" style="background:#eff6ff;color:#1d4ed8">VERB</div>
+        <div class="pc-def">To organise teammates so that multiple people act together at exactly the right moment. A coordinated push hits from two sides at once. An uncoordinated one arrives one player at a time — and loses.</div>
+        <div class="pc-ex-label">EXAMPLE</div>
+        <div class="pc-ex">"We need to coordinate — on my count, you push from the left and I will come from the right."</div>
+        <div class="pc-audio">
+          <div class="audio-player" onclick="toggleAudio(this,'audio/coordinate.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Word</div><div class="ap-wave"></div></div></div>
+          <div class="audio-player" onclick="toggleAudio(this,'audio/coordinate-example.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Example</div><div class="ap-wave"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- flank -->
+    <div class="phrase-card flip" style="margin-bottom:20px">
+      <div class="pc-img"><img src="images/flank.png" alt="flank" onerror="this.parentElement.innerHTML='<div class=pc-img-ph><div class=ph-icon>🎯</div><div class=pc-phrase>FLANK</div></div>'"></div>
+      <div class="pc-body">
+        <div class="pc-num">06</div>
+        <div class="pc-phrase">FLANK</div>
+        <div class="pc-type" style="background:#eff6ff;color:#1d4ed8">VERB / NOUN</div>
+        <div class="pc-def">To attack from the side or from behind — hitting enemies who are facing a different direction. A flank creates confusion, forces enemies to split their attention, and often results in fast, clean eliminations.</div>
+        <div class="pc-ex-label">EXAMPLE</div>
+        <div class="pc-ex">"Keep them distracted at the front — I am going around to flank. They will not expect it."</div>
+        <div class="pc-audio">
+          <div class="audio-player" onclick="toggleAudio(this,'audio/flank.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Word</div><div class="ap-wave"></div></div></div>
+          <div class="audio-player" onclick="toggleAudio(this,'audio/flank-example.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Example</div><div class="ap-wave"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- push-forward -->
+    <div class="phrase-card" style="margin-bottom:20px">
+      <div class="pc-img"><img src="images/push-forward.png" alt="push forward" onerror="this.parentElement.innerHTML='<div class=pc-img-ph><div class=ph-icon>⚡</div><div class=pc-phrase>PUSH FORWARD</div></div>'"></div>
+      <div class="pc-body">
+        <div class="pc-num">07</div>
+        <div class="pc-phrase">PUSH FORWARD</div>
+        <div class="pc-type" style="background:#eff6ff;color:#1d4ed8">PHRASAL VERB</div>
+        <div class="pc-def">To advance aggressively toward the enemy — taking space, applying pressure, and forcing them to react. Knowing when to push forward (and when not to) is one of the most important timing decisions in any game.</div>
+        <div class="pc-ex-label">EXAMPLE</div>
+        <div class="pc-ex">"Now — push forward while they are reloading. We have a three-second window."</div>
+        <div class="pc-audio">
+          <div class="audio-player" onclick="toggleAudio(this,'audio/push-forward.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Word</div><div class="ap-wave"></div></div></div>
+          <div class="audio-player" onclick="toggleAudio(this,'audio/push-forward-example.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Example</div><div class="ap-wave"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- rotate -->
+    <div class="phrase-card flip" style="margin-bottom:20px">
+      <div class="pc-img"><img src="images/rotate.png" alt="rotate" onerror="this.parentElement.innerHTML='<div class=pc-img-ph><div class=ph-icon>🔄</div><div class=pc-phrase>ROTATE</div></div>'"></div>
+      <div class="pc-body">
+        <div class="pc-num">08</div>
+        <div class="pc-phrase">ROTATE</div>
+        <div class="pc-type" style="background:#eff6ff;color:#1d4ed8">VERB</div>
+        <div class="pc-def">To move quickly from one area of the map to another in response to new information — usually to reinforce a teammate, cut off an enemy, or reposition before it is too late. Good rotations save rounds.</div>
+        <div class="pc-ex-label">EXAMPLE</div>
+        <div class="pc-ex">"A site is clear — rotate to B now. They are planting."</div>
+        <div class="pc-audio">
+          <div class="audio-player" onclick="toggleAudio(this,'audio/rotate.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Word</div><div class="ap-wave"></div></div></div>
+          <div class="audio-player" onclick="toggleAudio(this,'audio/rotate-example.mp3')"><div class="ap-btn">▶</div><div class="ap-info"><div class="ap-label">Example</div><div class="ap-wave"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;justify-content:flex-end;margin-top:8px">
+      <button class="lesson-nav-btn btn-next" onclick="goToTab('phrases')">Phrases →</button>
+    </div>
+  </div>
+
   <!-- ════════ PHRASES ════════ -->
-  <div class="section active" id="tab-phrases">
+  <div class="section" id="tab-phrases">
     <div class="sec-header">
       <div class="sec-dot"></div>
       <span class="sec-label">8 strategy phrases for this lesson</span>
@@ -747,7 +896,18 @@ function addXP(n){
 // ─────────────────────────────────────
 // TABS
 // ─────────────────────────────────────
-const XP_READ = {phrases:5,inaction:5,register:5,context:10,speaking:5};
+// Populate wave bars in any pre-rendered audio players
+document.querySelectorAll('.ap-wave').forEach(el => { if(!el.innerHTML.trim()) el.innerHTML = waveBars(); });
+const XP_READ = {vocabulary:5,phrases:5,inaction:5,register:5,context:10,speaking:5};
+function goToTab(id){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+  const btn=document.querySelector(`.tab[data-tab="${id}"]`);
+  if(btn) btn.classList.add('active');
+  const sec=document.getElementById('tab-'+id);
+  if(sec) sec.classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
 const tabsSeen = {};
 document.getElementById('tabBar').addEventListener('click', e => {
   const btn = e.target.closest('.tab'); if(!btn) return;
