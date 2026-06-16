@@ -1,0 +1,519 @@
+{
+  "exportName": "complexObjectionHandling",
+  "title": "Complex Objection Handling",
+  "subtitle": "When the answer is 'not yet' — language for budget, timing, authority, and trust objections",
+  "level": "C1-C2",
+  "description": "Every serious sales conversation hits at least one of four objections: budget, timing, authority, or trust. This lesson teaches the language for each — how to validate without surrendering, reframe without dismissing, and probe without pressuring. The goal is not to overcome objections — it is to understand them well enough to resolve them.",
+  "dialogueSubtitle": "Riley's second meeting with Marcus — the initial pitch went well, but now the real objections surface",
+  "vocabulary": [
+    {
+      "word": "reframe",
+      "partOfSpeech": "verb",
+      "definition": "To present the same situation from a different angle, changing how it is perceived without changing the facts. Reframing is not spin — it is helping the prospect see what they already know from a more useful perspective.",
+      "example": "Marcus said the cost was too high. Riley reframed it: not as a cost, but as the price of not fixing a problem that was already costing him far more. The number did not change — what changed was the context around it."
+    },
+    {
+      "word": "validate",
+      "partOfSpeech": "verb",
+      "definition": "To explicitly acknowledge that a concern is real and understandable before addressing it. Skipping validation makes objections worse — the prospect feels dismissed and digs in deeper.",
+      "example": "Riley did not argue with Marcus when he said the timing was wrong. She validated it first: 'That makes complete sense given where you are in the quarter.' Only then did she ask what would need to change for the timing to work."
+    },
+    {
+      "word": "defer",
+      "partOfSpeech": "verb",
+      "definition": "To delay a decision or postpone an action to a later point. In sales, a prospect who defers may have a genuine timing constraint — or may be using timing as a polite way to say no. Distinguishing between the two is one of the most important skills in objection handling.",
+      "example": "Marcus deferred twice in the same meeting — first on budget, then on timing. Riley's job was to find out whether he was genuinely waiting for the right moment or whether he had already decided and was being polite about it."
+    },
+    {
+      "word": "constraint",
+      "partOfSpeech": "noun",
+      "definition": "A real limitation — financial, structural, or time-based — that restricts what a prospect can do. Understanding whether a constraint is fixed or flexible is the first step in responding to almost any objection.",
+      "example": "The budget constraint Marcus described was real — but it was a constraint on the current quarter, not on the year. Riley asked about the annual cycle and discovered that the budget she needed would be available in six weeks."
+    },
+    {
+      "word": "preempt",
+      "partOfSpeech": "verb",
+      "definition": "To address an objection before the prospect raises it — removing it from the conversation before it becomes a barrier. Experienced salespeople preempt the objections they know are coming rather than waiting to be ambushed by them.",
+      "example": "Riley knew the trust objection was coming — the industry had been burned by failed implementations before. She preempted it in her opening: 'I want to address something before we get to the proposal, because I know it is on your mind.'"
+    },
+    {
+      "word": "commitment",
+      "partOfSpeech": "noun",
+      "definition": "The level of investment — financial, time, or reputational — that a prospect is being asked to make. Many objections are not about the specific objection raised but about the commitment feeling too large or too risky for where the relationship currently is.",
+      "example": "Marcus's hesitation was not really about money. It was about commitment — he was being asked to sign a twelve-month contract with a company he had only met twice. Riley proposed a pilot, which reduced the commitment to something he could defend internally."
+    },
+    {
+      "word": "scepticism",
+      "partOfSpeech": "noun",
+      "definition": "Doubt about whether something is true, effective, or worth trusting. Trust objections are fundamentally rooted in scepticism — often built up by previous experiences with other vendors or with the category itself.",
+      "example": "Marcus's scepticism was earned: his last two vendors had made similar promises and delivered disappointing results. Riley did not try to talk him out of the scepticism — she acknowledged it, used it to ask better questions, and offered to prove her claims on his own data."
+    },
+    {
+      "word": "escalate",
+      "partOfSpeech": "verb",
+      "definition": "To involve a more senior person in a decision — either from the prospect's side (a decision-maker who needs to approve) or from your own side (a senior stakeholder who adds credibility). Authority objections often require a structured escalation to move forward.",
+      "example": "When Marcus said he would need to bring this to his CEO, Riley did not see it as a setback. She asked who else would be in that conversation and offered to help Marcus prepare for it — turning the escalation into a collaborative next step rather than a delay."
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "I HEAR THAT — AND",
+      "definition": "Validate the objection in full, then pivot — without using 'but', which signals that what came before did not count. 'And' keeps both things true at the same time.",
+      "example": "I hear that the budget is not there for this quarter — and I want to make sure that when Q1 opens up, you have everything you need to make the case internally. Can we use this time to build that?'"
+    },
+    {
+      "phrase": "HELP ME UNDERSTAND WHAT'S BEHIND THAT",
+      "definition": "A probe that goes beneath the surface objection — because the stated reason and the real reason are often different. Used when you suspect the objection is a proxy for something deeper.",
+      "example": "'Help me understand what's behind the timing concern — is it that Q4 is genuinely the wrong moment, or is there something about the proposal itself that is making you want to wait?'"
+    },
+    {
+      "phrase": "IF THAT WEREN'T AN ISSUE",
+      "definition": "A conditional test — removes the stated objection hypothetically to discover whether it is the real barrier or a proxy for something else. If removing the issue does not change the answer, the real objection is elsewhere.",
+      "example": "'If the budget were not an issue right now — if you had the money approved and ready — would this be the right decision for your team?' If the answer is no, the real conversation is just beginning."
+    },
+    {
+      "phrase": "WHO ELSE NEEDS TO BE PART OF THIS",
+      "definition": "The clean way to surface an authority gap without embarrassing the person you are speaking to. Frames the question as a process question, not a challenge to their decision-making power.",
+      "example": "'Who else needs to be part of this conversation before we move to next steps? I want to make sure the right people have everything they need.'"
+    },
+    {
+      "phrase": "WHAT WOULD NEED TO CHANGE",
+      "definition": "A forward-looking probe for timing objections — asks what conditions would need to be different for this to make sense. Moves the conversation from 'not now' to 'what would make now possible.'",
+      "example": "'What would need to change between now and Q1 for this to be the right moment? I want to understand what you are waiting for — so I can either help create those conditions or adjust what I am proposing.'"
+    },
+    {
+      "phrase": "THE COST OF NOT ACTING IS",
+      "definition": "Reframes a budget or timing objection by making the price of inaction visible. More effective than defending the cost of acting — because the prospect already knows what they are being asked to spend.",
+      "example": "'The cost of not acting on this before year-end is roughly the same as the contract value — you lose twelve months of compounding efficiency gains and your competitor, who started in January, gains six months on you. I want to make sure that trade-off is visible.'"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Riley, I appreciated the first meeting — but I have to be honest with you. I have three concerns and I want to put them on the table before we go any further."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "I am glad you are saying it directly. That is exactly the conversation I want to have. Go ahead."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "First — budget. We have a [[constraint:a real limitation that restricts what a prospect can do]] in Q4. The number you gave me is not something I can approve right now. Second — timing. My team is in the middle of a product launch and they cannot take on anything new until January. Third — and this is the hard one — we have been burned before. A vendor made us very similar promises eighteen months ago and the results were not there."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "I hear that — and I want to address all three properly. But before I do, can I ask — if those three things were not on the table, would this be the right decision for your team?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Honestly? Probably yes. The problem you described in the last meeting is real. We are losing selling time to workflow friction and we know it."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "That is helpful. Let me take each one. On budget — I hear that Q4 is locked. Can I ask when your Q1 cycle opens? Because what I want to do between now and then is help you build the internal case so that when the budget is available, the decision is already made."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Q1 opens in February. But I cannot [[defer:to delay a decision to a later point]] this forever — my team keeps asking me what we are doing about the workflow problem."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Understood. On timing — what would need to change between now and January for your team to be able to give this the attention it needs? I am not trying to [[preempt:to address a concern before it becomes a barrier]] the launch — I want to understand what the window actually looks like."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "If the launch is done by mid-January, we would have capacity. But I also need my CFO involved in anything at this contract value — so who else needs to be part of this is really her."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Good. I want to help you prepare for that conversation, not just hand you a deck and hope. Can you tell me what her biggest concern is likely to be? That tells me what to build into the proposal."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Her biggest concern is always [[commitment:the level of investment being asked of someone]] — she does not like twelve-month contracts with companies we have not worked with before. The [[scepticism:doubt about whether something is true or worth trusting]] runs deep after the last vendor situation."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "That is the most useful thing you have told me today. Here is what I am going to propose: a thirty-day paid pilot at a fraction of the annual cost. Your CFO does not commit to twelve months. She commits to thirty days and a real result. If we hit the baseline number, the annual conversation becomes straightforward. If we do not, there is no contract."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "That I could take to her. What does the pilot look like in practice?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Day one to five: we [[reframe:to present the same situation from a different angle]] your current workflow data so you can see the baseline. Day six to thirty: the tool runs in parallel with your existing process. By day thirty, you have a real efficiency number on your own data — not a projection. The cost of not acting on that number will be visible in a way it is not right now."
+    }
+  ],
+  "videos": [],
+  "registerAwareness": [
+    {
+      "context": "Responding to a budget objection in a live meeting",
+      "register": "Formal / Calm",
+      "example": "'I hear that — and I am not going to push back on a Q4 budget constraint, because that is a real thing. What I want to do is make sure that when Q1 opens, the decision is already made and we are not starting the conversation from scratch. Can we use the next few weeks to build that case together?'"
+    },
+    {
+      "context": "Handling a timing objection over email",
+      "register": "Formal / Written",
+      "example": "'Thank you for being direct about the timeline. I completely understand that Q4 is the wrong moment to take on something new. What I'd like to propose is a short working session in January — before your team is back at full capacity — so that when the window opens, you are not evaluating from zero. Would a thirty-minute call in the second week of January work?'"
+    },
+    {
+      "context": "Surfacing an authority gap without embarrassing the prospect",
+      "register": "Formal / Diplomatic",
+      "example": "'Before we get to next steps, I want to make sure I understand the decision process. Who else needs to be part of this conversation — and what do they need to see to feel confident? I want to build the proposal around what matters to them, not just what we have covered here.'"
+    },
+    {
+      "context": "Addressing a trust objection directly",
+      "register": "Formal / Direct",
+      "example": "'I want to address the trust piece directly, because I know it is in the room even if it is hard to say. You have been burned before — and I cannot undo that. What I can do is change the structure of what I am asking you to commit to, so that the risk sits with us, not with you. That is why I am proposing a thirty-day pilot rather than asking you to sign twelve months with a company you have only spoken to twice.'"
+    },
+    {
+      "context": "Preempting a trust objection before it is raised",
+      "register": "Formal / Confident",
+      "example": "'Before we get into the proposal, I want to address something I know is on your mind — because it would be on mine. Your sector has seen a lot of vendors promise workflow improvement and underdeliver. I am not going to tell you we are different — I am going to show you, on your own data, within thirty days. If I cannot hit the number, there is no contract.'"
+    }
+  ],
+  "registerTraps": [
+    "❌ The most common mistake with objections is arguing. 'But the ROI clearly shows...' or 'I understand, but...' signals that you heard the objection and immediately started countering it. Validation — genuinely hearing and acknowledging the concern — has to come before anything else. Without it, everything you say after sounds like a sales response, not a conversation.",
+    "✅ 'I hear that — and' is the structural fix for 'I understand, but.' The word 'and' keeps both things true simultaneously. The objection is real AND you have something worth saying. 'But' cancels the first part — which is exactly why prospects feel unheard.",
+    "🔁 Budget objections are rarely purely about money. They are usually about confidence, timing, or internal politics. Before you defend the price, probe what is behind the budget concern — because solving the wrong problem is worse than not solving it at all.",
+    "💡 When an authority objection surfaces, the wrong move is to go over someone's head without their involvement. The right move is to help the person you are speaking to prepare for the internal conversation — which makes them your ally in the escalation, not a gatekeeper you are trying to bypass."
+  ],
+  "matchingExercise": [
+    { "word": "REFRAME", "definition": "To present the same situation from a different angle, changing how it is perceived without changing the facts" },
+    { "word": "VALIDATE", "definition": "To explicitly acknowledge that a concern is real and understandable before addressing it" },
+    { "word": "DEFER", "definition": "To delay a decision — and in sales, the challenge is distinguishing a genuine delay from a polite no" },
+    { "word": "CONSTRAINT", "definition": "A real limitation — financial, structural, or time-based — that restricts what a prospect can do" },
+    { "word": "PREEMPT", "definition": "To address an objection before the prospect raises it, removing it as a barrier before it appears" },
+    { "word": "COMMITMENT", "definition": "The level of investment a prospect is being asked to make — and the thing many objections are actually about" },
+    { "word": "SCEPTICISM", "definition": "Doubt about whether something is true, effective, or worth trusting — the root of most trust objections" },
+    { "word": "ESCALATE", "definition": "To involve a more senior person in a decision — necessary when the person you are speaking to cannot approve it alone" }
+  ],
+  "fillBlankExercise": [
+    { "before": "Marcus said the cost was too high. Riley", "after": "it: not a cost, but the price of leaving a problem unsolved that was already costing him more than the contract value.", "answer": "reframed" },
+    { "before": "Riley did not argue when Marcus said the timing was wrong. She", "after": "it first — 'That makes sense given where you are in the quarter' — and only then asked what would need to change.", "answer": "validated" },
+    { "before": "Marcus", "after": "twice in the meeting — first on budget, then on timing. Riley had to figure out whether both delays were genuine or whether the second one was a way to avoid saying no.", "answer": "deferred" },
+    { "before": "The budget", "after": "Marcus described was real — but it was a quarterly one, not an annual one. The money Riley needed would be available in six weeks.", "answer": "constraint" },
+    { "before": "Riley knew the trust objection was coming, so she", "after": "it: 'Before we get to the proposal, I want to address something I know is on your mind — because it would be on mine.'", "answer": "preempted" },
+    { "before": "Marcus's hesitation was not about the price. It was about", "after": "— he was being asked to sign twelve months with a company he had only met twice. A pilot reduced the commitment to something he could defend internally.", "answer": "commitment" },
+    { "before": "Marcus's", "after": "was earned: two previous vendors had made similar promises and underdelivered. Riley acknowledged it and offered to prove her claims on his own data rather than arguing against it.", "answer": "scepticism" },
+    { "before": "When Marcus said the CFO needed to be involved, Riley did not see it as a setback. She asked what the CFO's concerns would be and offered to help Marcus prepare for the", "after": "— turning it into a collaborative next step.", "answer": "escalation" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "Why does Riley ask 'if those three things were not on the table, would this be the right decision?' before addressing any of the objections?",
+      "options": [
+        "To show Marcus that his objections are not valid",
+        "To test whether the objections are the real barriers or proxies for something deeper — if removing them still doesn't produce a yes, the real conversation hasn't started yet",
+        "To make Marcus feel good before delivering difficult news",
+        "To move faster through the meeting by resolving all objections at once"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is the difference between 'I understand, but' and 'I hear that — and' in practice?",
+      "options": [
+        "They mean the same thing — it is just a politeness difference",
+        "'But' signals that you heard the objection before dismissing it; 'and' keeps both the objection and your response true simultaneously — the prospect feels heard rather than countered",
+        "'And' is more formal and therefore more appropriate in C-suite conversations",
+        "'I hear that' is used for trust objections; 'I understand' is used for budget objections"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "When Marcus reveals his CFO needs to be involved, what is Riley's strategic response — and why?",
+      "options": [
+        "She asks to schedule a separate meeting directly with the CFO — going around Marcus to the real decision-maker",
+        "She asks what the CFO's concerns are likely to be and offers to help Marcus prepare for the conversation — making Marcus an ally in the escalation rather than a gatekeeper to bypass",
+        "She sends a proposal document that Marcus can forward to the CFO without further involvement",
+        "She explains that the CFO will be reassured by the ROI data in the proposal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Why does Riley propose a thirty-day pilot rather than defending the annual contract?",
+      "options": [
+        "Because the pilot is cheaper and therefore easier to approve",
+        "Because she cannot offer the annual contract until the pilot is complete",
+        "Because the real objection is commitment and scepticism — the pilot reduces both by putting the risk on Riley's side and giving Marcus real data before any long-term decision",
+        "Because thirty days is enough time to generate a full ROI report for the CFO"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does 'preempting an objection' mean — and why is it more effective than waiting for the objection to surface?",
+      "options": [
+        "Listing all possible objections at the start of the meeting so the prospect cannot raise them later",
+        "Addressing a known concern before the prospect raises it — which prevents it from becoming a formal barrier and signals that you understand their world well enough to anticipate what they are thinking",
+        "Preparing counter-arguments in advance so you can respond faster when objections come up",
+        "Asking the prospect at the start of the meeting what their objections will be"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "When Riley says 'the cost of not acting is visible in a way it is not right now,' what is she doing?",
+      "options": [
+        "Threatening Marcus with consequences if he does not sign",
+        "Reframing the conversation from the price of acting to the price of inaction — which is more persuasive because the prospect already knows what they are being asked to spend, but may not have calculated what staying still costs them",
+        "Using the pilot data to calculate an ROI for Marcus",
+        "Telling Marcus that his competitor has already made this decision"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "According to the lesson, why should you probe budget objections rather than immediately defending the price?",
+      "options": [
+        "Because defending the price is not allowed in a formal sales process",
+        "Because budget objections are often proxies for confidence, timing, or internal politics — solving a price problem when the real issue is trust or commitment means solving the wrong problem",
+        "Because most budget objections disappear if you wait long enough without responding",
+        "Because lowering the price is always more effective than defending it"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does 'what would need to change' accomplish in a timing objection — compared to simply accepting that the timing is wrong?",
+      "options": [
+        "It moves the conversation forward by identifying the specific conditions that would make 'not now' become 'now' — turning a closed door into a conditional one",
+        "It signals that you are not willing to accept a timing objection as a final answer",
+        "It is a polite way of asking the prospect to reconsider their decision",
+        "It gives the salesperson time to prepare a better proposal for a future meeting"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "pitchCorner": {
+    "title": "Objection Response Email",
+    "context": "Marcus sends Riley an email after the meeting summarising his three concerns. Riley needs to respond to all three in a single, clear email — validating each one before addressing it",
+    "passage": [
+      {
+        "before": "Dear Marcus,\n\nThank you for being direct in our meeting — that kind of honesty makes the conversation much more useful for both of us.\n\nI want to respond to each of your three concerns properly.\n\nOn budget: I completely understand that Q4 presents a real",
+        "after": ". I am not asking you to work around it. What I would like to do between now and February is make sure the internal case is already built when Q1 opens — so that the decision does not have to start from scratch under time pressure.",
+        "answer": "constraint"
+      },
+      {
+        "before": "On timing: I hear that your team is fully committed to the product launch. I want to",
+        "after": "that concern rather than argue with it. The question I would ask is: what would need to change between now and mid-January for the right window to exist? I can adjust the implementation timeline to fit around the launch — but I need to understand what 'the right moment' looks like for you.",
+        "answer": "validate"
+      },
+      {
+        "before": "On trust: I want to address the",
+        "after": "directly, because I think it is the most important of the three. You have been let down by vendors making similar promises, and I cannot undo that. What I can do is remove the commitment risk entirely — which is why I am proposing a thirty-day pilot rather than asking you to sign twelve months.",
+        "answer": "scepticism"
+      },
+      {
+        "before": "The pilot is structured so that the risk sits with us: if we do not hit the baseline number on your own data, there is no contract to",
+        "after": ". I am not asking you to trust a promise. I am asking you to evaluate a result.",
+        "answer": "escalate"
+      },
+      {
+        "before": "Finally — you mentioned that your CFO needs to be involved in anything at this value. I would welcome that conversation. Could you tell me what her primary concern is likely to be? I want to build the proposal around what matters to her, not just",
+        "after": "the objections I have already heard.",
+        "answer": "preempt"
+      },
+      {
+        "before": "I will close with this: I understand there are real reasons to wait. But I want to make sure the",
+        "after": "of not acting is also visible — because twelve months from now, the efficiency gap between your team and a competitor who started in January will be harder to close than it looks today.\n\nWould a thirty-minute call this week work to align on next steps?\n\nRiley",
+        "answer": "cost"
+      }
+    ]
+  },
+  "dealClinic": {
+    "context": "Marcus has just said: 'We've been through this before — a vendor made us very similar promises and it didn't work out.' Watch how two salespeople handle the same trust objection differently.",
+    "transcript": [
+      {
+        "speaker": "Marcus",
+        "speakerColor": "purple",
+        "text": "Honestly, I've heard this pitch before. A vendor came in eighteen months ago with almost identical language — efficiency gains, ROI within ninety days — and none of it materialised. My team lost six months and we're still recovering from the disruption."
+      },
+      {
+        "speaker": "Salesperson A",
+        "speakerColor": "red",
+        "text": "I completely understand your concern, but I think we're actually quite different from most vendors in this space. Our implementation process is much more structured, and our case studies show an average 8x ROI within twelve months. I'd love to show you some examples from companies very similar to yours — I think once you see the data, you'll feel a lot more confident."
+      },
+      {
+        "speaker": "Verdict",
+        "speakerColor": "purple",
+        "text": "Salesperson A — Response to trust objection",
+        "verdict": {
+          "isGood": false,
+          "explanation": "Weak. Salesperson A says 'I understand' and then immediately pivots to selling — which signals they did not actually hear the objection. 'I think we're actually quite different' is a claim Marcus has no reason to believe, especially given his recent experience. Offering case studies from 'similar companies' is the same move the previous vendor almost certainly made. The response defends the product instead of addressing the scepticism — which makes the scepticism deeper, not smaller."
+        }
+      },
+      {
+        "speaker": "Salesperson B",
+        "speakerColor": "orange",
+        "text": "I appreciate you telling me that — and I want to sit with it for a moment rather than jump to a rebuttal, because that experience is real and it matters. Can I ask: when it didn't work out, what was the main failure point? Was it the product, the implementation, the adoption, or something else?"
+      },
+      {
+        "speaker": "Verdict",
+        "speakerColor": "purple",
+        "text": "Salesperson B — Response to trust objection",
+        "verdict": {
+          "isGood": true,
+          "explanation": "Strong. Salesperson B validates before doing anything else — 'I want to sit with it rather than jump to a rebuttal' signals that this is not a standard objection-handling script. Asking what the specific failure point was is intelligent: it separates Marcus's scepticism about this specific product from a general scepticism about the category. It also gives Salesperson B real information they can use — and it makes Marcus feel that his experience is being taken seriously, not brushed aside."
+        }
+      },
+      {
+        "speaker": "Marcus",
+        "speakerColor": "purple",
+        "text": "Honestly, the product itself was fine. The problem was that it needed constant manual input from our ops team to generate reports, and they didn't have the bandwidth. After three months, adoption dropped and the whole thing just stopped being used."
+      },
+      {
+        "speaker": "Salesperson A",
+        "speakerColor": "red",
+        "text": "That's actually a great point — our reporting is fully automated, so your ops team wouldn't need to do any of that. This is one of the areas where I think we'd be meaningfully different. Can I show you how the reporting module works?"
+      },
+      {
+        "speaker": "Verdict",
+        "speakerColor": "purple",
+        "text": "Salesperson A — Follow-up move",
+        "verdict": {
+          "isGood": false,
+          "explanation": "Weak. Salesperson A immediately uses Marcus's information to pivot into a feature demo — which turns a trust conversation into a product walkthrough. Marcus shared something personal and revealing; he deserved a response that acknowledged the operational cost of that failure before jumping to 'look at our reporting module.' The move feels opportunistic rather than empathetic, and it reinforces the impression that Salesperson A is following a script."
+        }
+      },
+      {
+        "speaker": "Salesperson B",
+        "speakerColor": "orange",
+        "text": "That's a very specific and important thing to know. So the failure was not the vendor's promise — it was the implementation design. Your ops team became the bottleneck, adoption dropped, and you lost the value before it could compound. Is that right?"
+      },
+      {
+        "speaker": "Marcus",
+        "speakerColor": "purple",
+        "text": "Exactly. And I'm not willing to put my team through that again."
+      },
+      {
+        "speaker": "Salesperson B",
+        "speakerColor": "orange",
+        "text": "I would not ask you to. Here is what I want to propose instead: a thirty-day pilot designed specifically around zero ops burden. No manual reporting, no configuration work from your team. If we cannot deliver the baseline number without touching your ops team, there is no contract. The commitment sits with us, not with you.",
+        "verdict": {
+          "isGood": true,
+          "explanation": "Strong close. Salesperson B has done three things correctly: validated the scepticism, diagnosed the specific failure (ops burden), and reframed the proposal to directly address that failure rather than defending the original pitch. The thirty-day pilot with zero ops burden is a direct response to exactly what Marcus described — not a generic risk-reduction offer. 'The commitment sits with us, not with you' is precise language that shifts the locus of risk in a way Marcus can hear and evaluate."
+        }
+      }
+    ]
+  },
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in pairs. For each objection, choose the response that best demonstrates complex objection handling. Discuss why before clicking.",
+      "items": [
+        {
+          "customerLine": "The VP of Sales says: 'This isn't a good time. We're in the middle of a big internal restructuring and I can't add anything new right now.'",
+          "options": [
+            "Say: 'I completely understand — when do you think the restructuring will be finished? I'll follow up then.'",
+            "Say: 'That makes complete sense — restructuring takes everything. Help me understand what's behind the timing: is it that your team doesn't have capacity, or is there something about the proposal that feels like added complexity right now? I want to make sure what I bring back in January is built around your situation, not a generic follow-up.'",
+            "Say: 'I hear you — but the cost of waiting is significant. Your competitor started with us in Q3 and they're already seeing results.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. A defers without probing — which means you come back to the same conversation in three months without knowing any more than you do now. C uses competitive pressure before the prospect is ready, which feels pushy when the timing objection is genuine. B validates the restructuring, then probes whether the barrier is capacity or complexity — two very different problems that need different solutions."
+        },
+        {
+          "customerLine": "A CFO says: 'The numbers look interesting, but this isn't in our budget for this year.'",
+          "options": [
+            "Say: 'I understand. Let me know when your next budgeting cycle opens and we can revisit.'",
+            "Say: 'If the budget were not an issue right now — if you had it approved and ready — would this be the right decision for the business?' Then pause and wait for the answer.",
+            "Say: 'We actually have a payment plan option that spreads the cost over twelve months, which might make it easier to fit within the current budget.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. A defers entirely and loses momentum. C jumps to a payment solution before understanding whether the budget is the real issue. B uses the conditional test — 'if the budget were not an issue' — to find out whether budget is the actual barrier or a proxy for something else. If the CFO says 'yes, we'd do it,' the conversation is about funding, not decision. If they say 'well, there are other concerns too,' the real objection is now visible."
+        },
+        {
+          "customerLine": "A prospect says: 'I like what you're proposing, but I'll need to run this by my leadership team before we can move forward.'",
+          "options": [
+            "Say: 'Of course — please share the proposal with them and let me know what they think.'",
+            "Say: 'Who else needs to be part of this conversation — and what do they need to see to feel confident? I want to build the right material for that meeting, not just send something generic.'",
+            "Say: 'Would it be possible to set up a call directly with your leadership team? It might be easier if I can answer their questions in real time.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. A hands over control entirely — the prospect now has to sell on your behalf without your help, which almost always goes worse than the original conversation. C is a reasonable move but can feel like you are going around the prospect, which damages the relationship. B keeps the prospect involved, positions them as the ally in the escalation, and gives you specific intelligence about what leadership cares about."
+        },
+        {
+          "customerLine": "A long-term prospect says: 'We've been talking for three months. I'm just not sure this is the right fit for us.'",
+          "options": [
+            "Say: 'I hear that — and I want to be direct with you: what would need to be true for this to feel like the right fit? Because I would rather know now than keep having conversations that are not moving toward a decision.'",
+            "Say: 'I understand. Can I send you some additional case studies and customer testimonials that might help clarify the value?'",
+            "Say: 'We have invested a lot of time in this together — I would hate for that to go to waste. What would it take to get to a yes?'"
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. After three months, the prospect has already seen the case studies — B is offering more of the same thing that has not worked. C is emotionally pressuring the prospect by invoking time invested, which rarely works and damages trust. A is direct and respectful: it validates the concern, acknowledges the impasse, and asks the only question that actually matters — what would need to be different?"
+        }
+      ]
+    },
+    "profileMatch": {
+      "instructions": "Match each prospect statement to the objection type it most closely represents. Discuss whether the surface objection might be masking a deeper one before clicking.",
+      "profiles": [
+        {
+          "name": "Prospect 1",
+          "description": "A VP of Marketing says: 'We love the product but we're entering our quiet period from November to January — our team just doesn't have the headspace for implementation right now. Can we revisit in Q1?'",
+          "matchKey": "timing"
+        },
+        {
+          "name": "Prospect 2",
+          "description": "A Head of Sales says: 'This all sounds great. The thing is, a decision at this value really needs sign-off from our General Manager — I can't approve it on my own. Let me talk to her and come back to you.'",
+          "matchKey": "authority"
+        },
+        {
+          "name": "Prospect 3",
+          "description": "A CFO says: 'We had a vendor eighteen months ago who promised similar results. The implementation was fine but the adoption never happened and we ended up not renewing. I'm not sure we want to go through that again.'",
+          "matchKey": "trust"
+        }
+      ],
+      "options": [
+        {
+          "key": "timing",
+          "label": "Timing objection",
+          "description": "Probe: 'What would need to change between now and Q1 for this to feel like the right moment?' — and find out whether the quiet period is the real barrier or whether it is also covering a budget or commitment concern. If the timing is genuine, use the window to prepare the internal case so Q1 starts from a decision, not from another evaluation."
+        },
+        {
+          "key": "authority",
+          "label": "Authority objection",
+          "description": "Probe: 'Who else needs to be part of this — and what does your General Manager need to see to feel confident?' The key is to make the Head of Sales your ally in the escalation rather than the gatekeeper between you and the real decision-maker. Help them prepare, not just forward a proposal."
+        },
+        {
+          "key": "trust",
+          "label": "Trust objection",
+          "description": "Probe: 'When the adoption didn't happen — was that a product issue, an implementation issue, or a bandwidth issue on your team's side?' Separating the type of failure is critical: it tells you whether the scepticism is about the category, the previous vendor, or the internal conditions. Then redesign the proposal to directly address the specific failure point."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The salesperson has started responding to a complex objection — finish the line using language from this lesson. Compare your completions before clicking for the suggested answer.",
+      "items": [
+        {
+          "customerLine": "A prospect says: 'We just don't have the budget for this right now.'",
+          "salespersonStart": "I hear that — and",
+          "suggestedCompletion": "I am not going to push back on a real budget constraint, because that does not help either of us. What I want to understand is: if the budget were available — if Q1 gave you what you need — would this be the right decision for the business? Because that tells me whether we are solving a budget problem or a different problem."
+        },
+        {
+          "customerLine": "A prospect says: 'We've tried things like this before and they didn't work.'",
+          "salespersonStart": "I want to sit with that rather than jump straight to a rebuttal —",
+          "suggestedCompletion": "because that experience is real and it matters. Can I ask: when it didn't work, what was the main failure point? Was it the product, the implementation, or the adoption? Because the answer changes what I should be proposing to you."
+        },
+        {
+          "customerLine": "A prospect says: 'I need to check with my CEO before we can move forward.'",
+          "salespersonStart": "Of course — and I want to help you prepare for that conversation, not just hand you a proposal to forward.",
+          "suggestedCompletion": "What is your CEO's biggest concern likely to be? Is it the commitment level, the ROI timeline, or something about the implementation risk? If I know what she needs to see, I can build the right material for that meeting rather than something generic."
+        },
+        {
+          "customerLine": "A prospect says: 'Now just isn't the right time.'",
+          "salespersonStart": "That makes complete sense — and I am not going to argue with the timing.",
+          "suggestedCompletion": "Can I ask what would need to change for the timing to be right? I want to understand whether we are waiting for a specific event, a budget cycle, or a capacity window — because each of those has a different implication for what I should do between now and then."
+        }
+      ]
+    }
+  }
+}
