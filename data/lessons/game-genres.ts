@@ -35,7 +35,7 @@ export const gameGenres: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A game type where you plan your moves carefully to beat the enemy.',
       example: 'Strategy games are more difficult than action games — you have to think a lot.',
-      imageSlug: '/images/strategy.png',
+      imageSlug: '/images/game-genres-strategy.png',
     },
     {
       word: 'HORROR',
@@ -84,7 +84,7 @@ export const gameGenres: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Liked and played by many people.',
       example: 'Battle royale is the most popular genre right now — everyone plays it.',
-      imageSlug: '/images/popular.png',
+      imageSlug: '/images/game-genres-popular.png',
     },
     {
       word: 'PREFER',

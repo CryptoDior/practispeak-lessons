@@ -56,7 +56,7 @@ export const talkingAboutProducts: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Liked or used by a lot of people.',
       example: 'The mobile app has become really popular with our customers.',
-      imageSlug: '/images/popular.png',
+      imageSlug: '/images/talking-about-products-popular.png',
     },
     {
       word: 'USEFUL',

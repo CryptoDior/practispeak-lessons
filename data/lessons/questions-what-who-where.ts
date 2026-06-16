@@ -103,7 +103,7 @@ export const questionsWhatWhoWhere: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The number of points, kills, or wins a player or team has.',
       example: 'What is the score? Are we winning or losing right now?',
-      imageSlug: '/images/score.png',
+      imageSlug: '/images/questions-what-who-where-score.png',
     },
     {
       word: 'ROUND',

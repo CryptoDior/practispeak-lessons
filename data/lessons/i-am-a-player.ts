@@ -28,7 +28,7 @@ export const iAmAPlayer: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The character you play most often.',
       example: 'My main is the warrior. I play him in every match.',
-      imageSlug: '/images/main.png',
+      imageSlug: '/images/i-am-a-player-main.png',
     },
     {
       word: 'SOLO',

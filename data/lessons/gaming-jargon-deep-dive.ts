@@ -84,7 +84,7 @@ export const gamingJargonDeepDive: Lesson = {
       phrase: 'MAIN',
       definition: 'Your primary character in a game. Also used as a verb — to main a character.',
       example: 'I main Sova, but he just got nerfed.',
-      imageSlug: '/images/main.png',
+      imageSlug: '/images/gaming-jargon-deep-dive-main.png',
       tag: '',
     },
     {

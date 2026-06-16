@@ -28,7 +28,7 @@ export const explainingPackagesAndPlans: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To move to a higher tier or plan — to switch to a package that includes more features, users, or capacity.',
       example: 'You could start with Standard and upgrade to Premium once the team has adopted the core tool and you are ready for the advanced reporting layer.',
-      imageSlug: '/images/upgrade.png',
+      imageSlug: '/images/explaining-packages-and-plans-upgrade.png',
     },
     {
       word: 'SCALABLE',

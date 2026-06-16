@@ -91,7 +91,7 @@ export const inventory: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To improve an item to make it more powerful or effective.',
       example: 'I need 50 iron to upgrade my armour to level three — do you have any?',
-      imageSlug: '/images/upgrade.png',
+      imageSlug: '/images/inventory-upgrade.png',
     },
   ],
 

@@ -28,7 +28,7 @@ export const gameOnFirstWords: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The total number of points you have.',
       example: 'My score is 2,500 points. I am winning!',
-      imageSlug: '/images/score.png',
+      imageSlug: '/images/game-on-first-words-score.png',
     },
     {
       word: 'LEVEL',

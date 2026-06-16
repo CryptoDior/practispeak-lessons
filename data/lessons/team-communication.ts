@@ -42,7 +42,7 @@ export const teamCommunication: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A plan designed to achieve a goal, especially winning a game.',
       example: 'Our strategy was to split into two groups and attack from different angles.',
-      imageSlug: '/images/strategy.png',
+      imageSlug: '/images/team-communication-strategy.png',
     },
     {
       word: 'RESPAWN',
