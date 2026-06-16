@@ -108,6 +108,41 @@ export const complexObjectionHandling: Lesson = {
 
   videos: [],
 
+  registerAwareness: [
+    {
+      context: 'Responding to a budget objection in a live meeting',
+      register: 'Formal / Calm',
+      example: "'I hear that — and I am not going to push back on a Q4 budget constraint, because that is a real thing. What I want to do is make sure that when Q1 opens, the decision is already made and we are not starting the conversation from scratch. Can we use the next few weeks to build that case together?'",
+    },
+    {
+      context: 'Handling a timing objection over email',
+      register: 'Formal / Written',
+      example: "'Thank you for being direct about the timeline. I completely understand that Q4 is the wrong moment to take on something new. What I\\'d like to propose is a short working session in January — before your team is back at full capacity — so that when the window opens, you are not evaluating from zero. Would a thirty-minute call in the second week of January work?'",
+    },
+    {
+      context: 'Surfacing an authority gap without embarrassing the prospect',
+      register: 'Formal / Diplomatic',
+      example: "'Before we get to next steps, I want to make sure I understand the decision process. Who else needs to be part of this conversation — and what do they need to see to feel confident? I want to build the proposal around what matters to them, not just what we have covered here.'",
+    },
+    {
+      context: 'Addressing a trust objection directly',
+      register: 'Formal / Direct',
+      example: "'I want to address the trust piece directly, because I know it is in the room even if it is hard to say. You have been burned before — and I cannot undo that. What I can do is change the structure of what I am asking you to commit to, so that the risk sits with us, not with you. That is why I am proposing a thirty-day pilot rather than asking you to sign twelve months with a company you have only spoken to twice.'",
+    },
+    {
+      context: 'Preempting a trust objection before it is raised',
+      register: 'Formal / Confident',
+      example: "'Before we get into the proposal, I want to address something I know is on your mind — because it would be on mine. Your sector has seen a lot of vendors promise workflow improvement and underdeliver. I am not going to tell you we are different — I am going to show you, on your own data, within thirty days. If I cannot hit the number, there is no contract.'",
+    },
+  ],
+
+  registerTraps: [
+    "❌ The most common mistake with objections is arguing. 'But the ROI clearly shows...' or 'I understand, but...' signals that you heard the objection and immediately started countering it. Validation — genuinely hearing and acknowledging the concern — has to come before anything else. Without it, everything you say after sounds like a sales response, not a conversation.",
+    "✅ 'I hear that — and' is the structural fix for 'I understand, but.' The word 'and' keeps both things true simultaneously. The objection is real AND you have something worth saying. 'But' cancels the first part — which is exactly why prospects feel unheard.",
+    "🔁 Budget objections are rarely purely about money. They are usually about confidence, timing, or internal politics. Before you defend the price, probe what is behind the budget concern — because solving the wrong problem is worse than not solving it at all.",
+    "💡 When an authority objection surfaces, the wrong move is to go over someone's head without their involvement. The right move is to help the person you are speaking to prepare for the internal conversation — which makes them your ally in the escalation, not a gatekeeper you are trying to bypass.",
+  ],
+
   dialogue: [
     {
       speaker: 'Marcus',
