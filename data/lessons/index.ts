@@ -59,6 +59,7 @@ import { takingASimpleOrder } from './taking-a-simple-order';
 import { confirmingCustomerDetails } from './confirming-customer-details';
 import { basicSalesPhoneCall } from './basic-sales-phone-call';
 import { simpleProductComparison } from './simple-product-comparison';
+import { talkingAboutDelivery } from './talking-about-delivery';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -121,6 +122,7 @@ export const lessons: Lesson[] = [
   confirmingCustomerDetails,
   basicSalesPhoneCall,
   simpleProductComparison,
+  talkingAboutDelivery,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
