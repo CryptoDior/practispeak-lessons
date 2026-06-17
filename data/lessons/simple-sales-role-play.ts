@@ -1,0 +1,492 @@
+import { Lesson } from '@/types/lesson';
+
+export const simpleSalesRolePlay: Lesson = {
+  slug: 'simple-sales-role-play',
+  title: 'Simple Sales Role-Play',
+  subtitle: 'How to run a complete sales conversation — greeting, product, price, and close',
+  level: 'A1-A2',
+  description: 'This is your capstone lesson. You have learned how to greet a customer, explain a product, compare options, take an order, confirm details, and say thank you. Now you put it all together. This lesson walks you through a complete sales conversation from the first word to the final yes — so you can feel confident doing it in real life.',
+  heroImage: '/images/simple-sales-role-play-hero.png',
+
+  vocabulary: [
+    {
+      word: 'GREET',
+      partOfSpeech: 'verb',
+      definition: 'To welcome someone at the start of a conversation. A professional greeting includes your name, your company, and a check that you have the right person.',
+      example: 'Riley called a new customer and started with a clear greeting: Good morning — my name is Riley from Practispeak Solutions. Am I speaking with Marcus Oliveira?',
+      imageSlug: '/images/greet.png',
+    },
+    {
+      word: 'INTRODUCE',
+      partOfSpeech: 'verb',
+      definition: 'To present yourself or a product for the first time. After greeting, you introduce the reason for your call and the product you want to talk about.',
+      example: 'Riley said: Let me introduce our Standard Plan — it is designed for sales teams of ten to twenty people and includes reporting tools, priority support, and unlimited storage.',
+      imageSlug: '/images/introduce.png',
+    },
+    {
+      word: 'HIGHLIGHT',
+      partOfSpeech: 'verb',
+      definition: "To point out the most important or attractive feature of a product. When you highlight something, you draw the customer's attention to the part that matters most to them.",
+      example: 'Riley said: I want to highlight the reporting feature — your manager will love it. It gives you real-time data on every deal in your pipeline, automatically.',
+      imageSlug: '/images/highlight.png',
+    },
+    {
+      word: 'OBJECTION',
+      partOfSpeech: 'noun',
+      definition: 'A reason a customer gives for not buying yet — for example, the price is too high or they need more time. Objections are normal — a good salesperson listens and responds calmly.',
+      example: 'Marcus said: It sounds good, but can I think about it? Riley recognised it as an objection and said: Of course. Let me give you a quick summary of everything first.',
+      imageSlug: '/images/objection.png',
+    },
+    {
+      word: 'STRUCTURE',
+      partOfSpeech: 'noun',
+      definition: 'The order of steps in a process. A sales call has a clear structure: greeting → product → price → close. Following the structure makes you sound organised and professional.',
+      example: 'Before the call, Riley thought about the structure: start with a warm greeting, introduce the product, explain the price clearly, and finish with a confident close.',
+      imageSlug: '/images/structure.png',
+    },
+    {
+      word: 'CONFIDENT',
+      partOfSpeech: 'adjective',
+      definition: 'Feeling sure of yourself and your message. A confident salesperson speaks clearly, answers questions directly, and does not apologise for the price.',
+      example: 'Marcus asked about the price. Riley answered confidently: The price is $35 per user per month. For your team of fifteen, that is $525. It is one of the best values in the market.',
+      imageSlug: '/images/confident.png',
+    },
+    {
+      word: 'SUMMARY',
+      partOfSpeech: 'noun',
+      definition: 'A short statement that repeats the most important points. Always give a summary before you close — it reminds the customer what they are getting and removes any last doubts.',
+      example: 'Before Marcus gave his final answer, Riley said: Let me give you a quick summary — the Standard Plan, fifteen users, $35 per month, with 10% off for the first three months. Does that sound right?',
+      imageSlug: '/images/summary.png',
+    },
+    {
+      word: 'CLOSE',
+      partOfSpeech: 'verb',
+      definition: 'To complete a sale — the moment the customer says yes. The close comes after you have answered all questions and given a summary. A simple, direct question is always best.',
+      example: "Riley had answered every question. She gave the summary and then closed the sale: Wonderful — would you like to go ahead? Marcus said: Yes — let's do it.",
+      imageSlug: '/images/close.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'GOOD MORNING — MY NAME IS [NAME] FROM [COMPANY]',
+      definition: 'The standard opening for a professional sales call. Say your full name and company clearly — never assume the customer knows who you are.',
+      example: 'Riley started the call: Good morning — my name is Riley from Practispeak Solutions. Am I speaking with Marcus Oliveira? That single sentence told Marcus exactly who was calling and where they worked.',
+      imageSlug: '/images/good-morning--my-name-is-name-from-company.png',
+    },
+    {
+      phrase: 'I WOULD LIKE TO TELL YOU ABOUT [PRODUCT]',
+      definition: "The phrase that moves you from the greeting to the product. 'Tell you about' is the natural way to introduce a product — 'say you about' is a common mistake.",
+      example: 'Riley confirmed she had the right person. She then said: I would like to tell you about our Standard Plan — it is designed for sales teams of ten to twenty people and I think it is perfect for your team.',
+      imageSlug: '/images/i-would-like-to-tell-you-about-product.png',
+    },
+    {
+      phrase: 'THE PRICE IS [AMOUNT] PER [USER / MONTH]',
+      definition: "A direct, confident way to state the price. Do not apologise for it or say 'unfortunately'. State it clearly, then immediately connect it to the customer's situation.",
+      example: 'Marcus asked how much the plan cost. Riley said: The price is $35 per user per month. For your team of fifteen, your total would be $525 per month — less than $3 per person per day.',
+      imageSlug: '/images/the-price-is-amount-per-user--month.png',
+    },
+    {
+      phrase: 'LET ME GIVE YOU A QUICK SUMMARY',
+      definition: 'Say this before you ask for the close. It repeats the key details — product, users, price, offer — so the customer can confirm everything is right before they say yes.',
+      example: 'Marcus said he was almost ready to decide. Riley said: Let me give you a quick summary first — the Standard Plan, fifteen users, $35 per month, with 10% off for three months. Does that sound right?',
+      imageSlug: '/images/let-me-give-you-a-quick-summary.png',
+    },
+    {
+      phrase: 'WHAT IS YOUR MAIN CONCERN?',
+      definition: 'Use this when a customer gives an objection or says they need more time. It shows you are listening and want to understand — not just push them to say yes.',
+      example: 'Marcus said he needed to think about it. Riley did not panic. She said: Of course — what is your main concern? Is it the price, the features, or something else? I am happy to help.',
+      imageSlug: '/images/what-is-your-main-concern.png',
+    },
+    {
+      phrase: 'WOULD YOU LIKE TO GO AHEAD?',
+      definition: 'The closing question — simple, direct, and confident. After the summary, this is all you need to say. Do not over-explain. Ask the question and wait for the answer.',
+      example: "Riley finished the summary and paused. Then she asked: So — would you like to go ahead? Marcus smiled and said: Yes — let's do it. I am ready to start.",
+      imageSlug: '/images/would-you-like-to-go-ahead.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Good morning. My name is Riley from Practispeak Solutions. Am I speaking with Marcus Oliveira?',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Yes, speaking. Good morning, Riley.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Hi Marcus! Is now a good time to talk for a few minutes?',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Yes — go ahead.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'I would like to tell you about our Standard Plan. It is designed for sales teams of ten to twenty people — I think it is perfect for your team.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'What does it [[highlight:to point out the most important feature of a product]]? What are the main features?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'It includes reporting tools, priority support, and unlimited storage. The main feature I want to highlight is the reporting — your manager will love it.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'That sounds interesting. And what is the price?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'The price is $35 per user per month. For your team of fifteen, your total would be $525. And we are currently offering 10% off for new customers.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: '10% off — that is a good offer. But I have one [[objection:a reason a customer gives for not buying yet]] — can I think about it first?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Of course. What is your main concern? I want to make sure I have answered everything.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'I just want to [[confirm:to check and agree that something is correct]] the price. $525 per month, with 10% off for three months — is that right?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Exactly right. Let me give you a quick [[summary:a short statement that repeats the most important points]] — Standard Plan, fifteen users, $35 per month, 10% off for the first three months.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Yes, that is [[confident:feeling sure of yourself and your message — Riley sounds confident]] and clear. I like it.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Wonderful. So — would you like to go ahead?',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "Yes — let's do it. I am ready to [[close:to complete a sale — the moment the customer says yes]].",
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "greet",
+        "definition": "to welcome someone at the start of a conversation"
+    },
+    {
+        "word": "introduce",
+        "definition": "to present yourself or a product for the first time"
+    },
+    {
+        "word": "highlight",
+        "definition": "to point out the most important feature of a product"
+    },
+    {
+        "word": "objection",
+        "definition": "a reason a customer gives for not buying yet"
+    },
+    {
+        "word": "structure",
+        "definition": "the order of steps in a process"
+    },
+    {
+        "word": "confident",
+        "definition": "feeling sure of yourself and your message"
+    },
+    {
+        "word": "summary",
+        "definition": "a short statement that repeats the most important points"
+    },
+    {
+        "word": "close",
+        "definition": "to complete a sale — the moment the customer says yes"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "Good morning. My name is Riley from Practispeak Solutions. Am I ",
+        "after": " with Marcus Oliveira?",
+        "answer": "speaking"
+    },
+    {
+        "before": "I would like to ",
+        "after": " you about our Standard Plan — it is perfect for your team.",
+        "answer": "tell"
+    },
+    {
+        "before": "I want to ",
+        "after": " the reporting tools — your manager will love them.",
+        "answer": "highlight"
+    },
+    {
+        "before": "Let me give you a quick ",
+        "after": " — Standard Plan, fifteen users, $35 per month.",
+        "answer": "summary"
+    },
+    {
+        "before": "What is your main ",
+        "after": "? I want to make sure I have answered everything.",
+        "answer": "concern"
+    },
+    {
+        "before": "Would you like to go ",
+        "after": "?",
+        "answer": "ahead"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "What is the price of the Standard Plan per user?",
+        "options": [
+            "$25 per month",
+            "$35 per month",
+            "$50 per month"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What discount is Riley offering?",
+        "options": [
+            "5% off",
+            "10% off for the first three months",
+            "20% off for new customers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Riley do before asking Marcus to close?",
+        "options": [
+            "She sends the invoice",
+            "She asks about his manager",
+            "She gives a quick summary"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does Marcus say when Riley asks 'Would you like to go ahead?'",
+        "options": [
+            "I need to think about it",
+            "Yes — let's do it",
+            "Can you call me next week?"
+        ],
+        "correctIndex": 1
+    }
+],
+  warmUp: {
+    "questions": [
+        "Imagine you are a salesperson for one minute. What would you say first when you meet a new customer?",
+        "Think about all the lessons in this course. Which part of a sales conversation do you find most difficult — the greeting, the product, the price, or the close?",
+        "In your experience, what makes a salesperson feel trustworthy and professional? What makes them feel pushy or uncomfortable?"
+    ]
+},
+  completeSentenceExercise: {
+    "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
+    "items": [
+        {
+            "sentence": "Good morning — my name is Riley _____ Practispeak Solutions.",
+            "options": [
+                "at",
+                "with",
+                "from"
+            ],
+            "correctIndex": 2,
+            "explanation": "'From' is the correct preposition for introducing yourself on a call — 'my name is [name] from [company]'. 'At' and 'with' are not used in this structure. This is the standard professional opening for any business call."
+        },
+        {
+            "sentence": "I would like to _____ you about our Standard Plan.",
+            "options": [
+                "say",
+                "speak",
+                "tell"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Tell' is used when you give information to a specific person — 'tell you about the plan', 'tell the customer the price'. 'Say' is used without a direct object person — 'I would like to say something'. 'Speak' is for conversations, not introducing information."
+        },
+        {
+            "sentence": "The price is $35 per user _____ month.",
+            "options": [
+                "each",
+                "per",
+                "every"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Per' is the standard professional word in pricing — 'per user', 'per month', 'per unit'. 'Each month' and 'every month' are also correct in general English, but 'per month' is the fixed pricing phrase used in B2B sales conversations."
+        },
+        {
+            "sentence": "We are offering 10% _____ for new customers.",
+            "options": [
+                "of",
+                "down",
+                "off"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Off' means a reduction in price — '10% off' means the price is 10% lower. 'Of' is a preposition that shows belonging — a very different meaning. 'Down' is not used with percentages in this way. In sales, always say '% off', never '% of'."
+        },
+        {
+            "sentence": "Would you like to go _____?",
+            "options": [
+                "ahead",
+                "forward",
+                "now"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Go ahead' is the fixed phrase that means 'proceed' or 'say yes'. 'Would you like to go ahead?' is the standard closing question in English sales. 'Go forward' is not used this way. 'Go now' changes the meaning entirely."
+        },
+        {
+            "sentence": "Would you like _____ go ahead?",
+            "options": [
+                "going",
+                "to go",
+                "for going"
+            ],
+            "correctIndex": 1,
+            "explanation": "After 'would like', always use 'to' + the base verb — never '-ing'. Say 'would you like to go ahead?', 'would you like to start?', 'would you like to see the plan?'. This is the same rule as 'want to go', 'need to check', 'decide to buy'."
+        }
+    ]
+},
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Read what the customer says. Choose the best response from the three options.",
+        "items": [
+            {
+                "customerLine": "Hello?",
+                "options": [
+                    "Hi — do you want to buy our Standard Plan today?",
+                    "Good morning — my name is Riley from Practispeak Solutions. Am I speaking with Marcus?",
+                    "Hi, how are you? I am calling because I want to talk to you about something."
+                ],
+                "correctIndex": 1,
+                "explanation": "Option B follows the correct structure: greeting + your name + your company + confirm the right person. Option A skips the greeting entirely and jumps straight to selling — this feels aggressive. Option C is too casual and vague — a customer hearing this does not know who is calling or why."
+            },
+            {
+                "customerLine": "How much does the plan cost?",
+                "options": [
+                    "It is quite affordable — it depends on your team size.",
+                    "The price is $35 per user per month. For your team of fifteen, your total would be $525.",
+                    "It depends on what you need — let me send you some information."
+                ],
+                "correctIndex": 1,
+                "explanation": "Option B gives the price directly and personalises it immediately for the customer — this shows you were listening and you know their situation. Option A avoids the question with a vague word. Option C is evasive — a customer who asks for a price deserves a direct answer, not a delay."
+            },
+            {
+                "customerLine": "Okay, I think I am ready to go ahead.",
+                "options": [
+                    "Are you sure? Take your time — there is no rush.",
+                    "Let me give you a quick summary first — Standard Plan, fifteen users, $35 per month, 10% off for three months. Shall I confirm your order?",
+                    "Great — I will send you the contract right now."
+                ],
+                "correctIndex": 1,
+                "explanation": "Option B does the professional thing: summarise before closing to make sure everyone agrees on the details, then confirm. Option A introduces unnecessary doubt when the customer is already ready to say yes. Option C moves too fast without confirming the details — always summarise first."
+            }
+        ]
+    },
+    "spotTheMistake": {
+        "instructions": "Read the conversation. Three lines have a mistake. Can you find them?",
+        "dialogue": [
+            {
+                "speaker": "Alex",
+                "text": "Good morning. My name is Alex from TechSales. Am I speaking with Sam?"
+            },
+            {
+                "speaker": "Sam",
+                "text": "Yes, speaking. Hi Alex."
+            },
+            {
+                "speaker": "Alex",
+                "text": "I would like to say you about our new Standard Plan."
+            },
+            {
+                "speaker": "Sam",
+                "text": "What is the price?"
+            },
+            {
+                "speaker": "Alex",
+                "text": "The price is $40 per user. We are also offering 10% of for new customers."
+            },
+            {
+                "speaker": "Alex",
+                "text": "Would you like going ahead?"
+            }
+        ],
+        "mistakes": [
+            {
+                "lineIndex": 2,
+                "incorrectText": "say you",
+                "correction": "tell you",
+                "explanation": "'Tell' is used when you give information to a specific person — 'I would like to tell you about our plan'. 'Say' is not followed by a person as an indirect object — you cannot 'say someone'. Always say 'tell you', 'tell them', 'tell the customer'."
+            },
+            {
+                "lineIndex": 4,
+                "incorrectText": "10% of",
+                "correction": "10% off",
+                "explanation": "'Off' means a reduction in price — '10% off' means the customer pays 10% less. 'Of' is a preposition that shows belonging, like 'a team of fifteen'. They sound very similar but mean completely different things. In sales, always say '% off'."
+            },
+            {
+                "lineIndex": 5,
+                "incorrectText": "going",
+                "correction": "to go",
+                "explanation": "After 'would like', always use 'to' + the base verb — never '-ing'. The correct question is 'Would you like to go ahead?' This is the same rule as 'want to buy', 'need to check', 'decide to start'. 'Would you like going' is not correct in English."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The salesperson starts a sentence. Work with your partner to finish it naturally.",
+        "items": [
+            {
+                "customerLine": "Hello?",
+                "salespersonStart": "Good morning — my name is Riley from Practispeak Solutions. Am I speaking...",
+                "suggestedCompletion": "with Marcus Oliveira? Is now a good time to talk for a few minutes? I would like to tell you about our Standard Plan."
+            },
+            {
+                "customerLine": "What does the plan include and how much does it cost?",
+                "salespersonStart": "Great question. It includes reporting tools, priority support, and unlimited storage. The price is...",
+                "suggestedCompletion": "$35 per user per month. For your team of fifteen, that is $525. And we are offering 10% off for the first three months for new customers."
+            },
+            {
+                "customerLine": "It sounds good. Let me think about it.",
+                "salespersonStart": "Of course. Let me give you a quick summary first —",
+                "suggestedCompletion": "Standard Plan, fifteen users, $35 per month, 10% off for three months. Does everything sound right? Would you like to go ahead?"
+            }
+        ]
+    }
+},
+};
