@@ -327,7 +327,7 @@ function SpotTheMistakeActivity({
               <div key={i} className={`flex items-end gap-3 ${isCustomer ? 'flex-row-reverse' : ''}`}>
 
                 {/* Avatar placeholder */}
-                <div className={`w-10 h-10 rounded-full flex-shrink-0 flex items-center justify-center font-extrabold text-sm shadow-sm ${
+                <div className={`w-14 h-14 rounded-full flex-shrink-0 flex items-center justify-center font-extrabold text-lg shadow-sm ${
                   isCustomer
                     ? 'bg-[#066EF5] text-white'
                     : 'bg-gray-100 text-gray-500'
