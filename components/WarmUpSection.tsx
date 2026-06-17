@@ -14,7 +14,7 @@ export default function WarmUpSection({ warmUp, onStart, heroImage }: Props) {
     <div className="max-w-2xl mx-auto">
 
       {/* 1:1 image placeholder */}
-      <div className="aspect-square w-full rounded-[24px] overflow-hidden mb-8 bg-gradient-to-br from-[#D6E4FF] to-[#B8CEFF]">
+      <div className="w-48 h-48 mx-auto rounded-[24px] overflow-hidden mb-8 bg-gradient-to-br from-[#D6E4FF] to-[#B8CEFF]">
         {heroImage ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={heroImage} alt="" className="w-full h-full object-cover" />
