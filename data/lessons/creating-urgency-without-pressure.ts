@@ -1,0 +1,572 @@
+import { Lesson } from '@/types/lesson';
+
+export const creatingUrgencyWithoutPressure: Lesson = {
+  slug: 'creating-urgency-without-pressure',
+  title: 'Creating Urgency Without Pressure',
+  subtitle: 'The risk of waiting is… — how to make the cost of inaction visible without manufactured deadlines',
+  level: 'C1-C2',
+  description: "Artificial urgency destroys trust. 'This offer expires Friday' or 'my manager needs an answer today' are tactics prospects recognise and resent. Genuine urgency is different — it lives in the prospect's situation, not the salesperson's quota, and it names the real cost of waiting rather than inventing one. This lesson teaches the language for creating urgency that is credible, specific, and owned by the prospect — because the most powerful version of urgency is the one they feel themselves.",
+  heroImage: '/images/creating-urgency-without-pressure-hero.png',
+
+  vocabulary: [
+    {
+      word: 'URGENCY',
+      partOfSpeech: 'noun',
+      definition: "The quality of requiring prompt attention or action. In sales, genuine urgency is rooted in the prospect's situation — what changes, costs more, or becomes harder the longer the decision is delayed. The difference between real urgency and manufactured pressure is whether the consequence of waiting belongs to the prospect or to the seller.",
+      example: "Riley did not create urgency by inventing a deadline. She created it by making the cost of waiting specific: every month Marcus delayed, three more reps were operating on a broken process, and the gap between his team and his competitor's was compounding. The urgency was already in his numbers — she just made it visible.",
+      imageSlug: '/images/urgency.png',
+    },
+    {
+      word: 'INACTION',
+      partOfSpeech: 'noun',
+      definition: 'The state of not making a decision or taking a step forward. In B2B sales, inaction is rarely neutral — it carries a cost that accumulates over time. Making the cost of inaction specific and visible is what separates genuine urgency from pressure tactics.',
+      example: "Marcus had not decided to stay with the status quo — he had simply not decided to change it. Riley's job was to help him see that inaction was itself a decision, and that decision had a price: twelve months of compounding inefficiency, a competitor gaining ground, and an ops lead whose frustration was approaching the point of departure.",
+      imageSlug: '/images/inaction.png',
+    },
+    {
+      word: 'MOMENTUM',
+      partOfSpeech: 'noun',
+      definition: "The energy and direction a conversation, project, or decision process carries. Momentum is fragile — delays kill it, and restarting a stalled conversation requires significantly more effort than continuing one that is already moving. In sales, one of the real costs of 'let's revisit in Q1' is the loss of everything both sides built toward the decision.",
+      example: 'Riley and Marcus had spent three meetings reaching the point where the case was clear and the internal support was there. A deferral to Q1 would not pause that progress — it would reset it. New quarter, new priorities, new reasons to delay. Riley named the cost of losing momentum before Marcus had a chance to treat it as a free option.',
+      imageSlug: '/images/momentum.png',
+    },
+    {
+      word: 'COMPOUND',
+      partOfSpeech: 'verb',
+      definition: 'To increase or accumulate over time at an accelerating rate — making something larger, worse, or more expensive the longer it is left unaddressed. Problems that compound are more urgent than problems that stay constant, because the cost of waiting grows rather than holding steady.',
+      example: 'Every quarter Marcus delayed, the efficiency gap between his team and the competitor who had started in January compounded. The first month of delay cost him one month of results. The third month of delay cost him three months of compounding advantage — the numbers were not linear.',
+      imageSlug: '/images/compound.png',
+    },
+    {
+      word: 'DEFERRAL',
+      partOfSpeech: 'noun',
+      definition: "The act of postponing a decision or action to a later point. A deferral is not the same as a rejection — but it is not cost-free either. Naming the specific cost of a deferral is the key move in creating urgency without pressure: not 'you must decide now' but 'here is what changes if you decide in February instead of today.'",
+      example: "Marcus's default was deferral — not because he did not see the value, but because a decision required effort and the status quo required none. Riley did not argue against the deferral. She priced it: three months of deferral at two hours per rep per day, across twenty-two reps, was roughly four hundred hours of selling time lost to a problem she could fix in six weeks.",
+      imageSlug: '/images/deferral.png',
+    },
+    {
+      word: 'CATALYST',
+      partOfSpeech: 'noun',
+      definition: 'An event or condition that triggers or accelerates a change. In sales, tying urgency to a real external catalyst — a competitor move, a budget cycle reset, a regulatory deadline, a leadership change — makes it credible and prospect-owned rather than seller-manufactured. The best catalysts are things the prospect already knows about.',
+      example: "The catalyst Riley used was Marcus's own Q3 review: his CEO had flagged sales process efficiency as a strategic priority for the year, and Q1 budgets were being set in six weeks. Riley did not invent the catalyst — she named the one that already existed and connected it to the decision on the table.",
+      imageSlug: '/images/catalyst.png',
+    },
+    {
+      word: 'ERODE',
+      partOfSpeech: 'verb',
+      definition: 'To gradually diminish or wear away over time — often without a visible moment of loss. Competitive advantages erode. Market positions erode. The internal support for a decision can erode if a project stalls long enough for stakeholders to lose interest or shift priorities. Things that erode are more urgent than things that simply wait.',
+      example: 'Riley warned Marcus about something that did not feel like a crisis but was: the goodwill she had built with his CFO over three conversations would erode if the project went quiet for a quarter. By the time the conversation restarted, the relationship would need rebuilding and the case would need re-presenting. That was not a hypothetical — it was a pattern she had seen before.',
+      imageSlug: '/images/erode.png',
+    },
+    {
+      word: 'PROACTIVE',
+      partOfSpeech: 'adjective',
+      definition: 'Acting in anticipation of a future problem or opportunity rather than reacting after the fact. The language of urgency without pressure is fundamentally proactive — it helps the prospect act before the cost is undeniable rather than after it has already been paid.',
+      example: 'Riley reframed the decision as proactive rather than reactive. Marcus did not have a crisis — yet. But the companies that were six months ahead of him had once been in the same position. They had made a proactive decision before the problem became urgent enough to be obvious. That was the choice on the table.',
+      imageSlug: '/images/proactive.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'THE RISK OF WAITING IS',
+      definition: "The core urgency phrase — names the specific cost of inaction without inventing a deadline or applying pressure. What follows must be concrete, prospect-specific, and true. Generic versions ('you'll fall behind competitors') have no effect. Specific versions ('your competitor who started this in January will have six months of compounding advantage by Q2') create genuine urgency.",
+      example: "'The risk of waiting until Q1 is not that the product will be unavailable — it is that your competitor who started this in January will have six months of embedded process and compounding efficiency gains before your team starts day one. That gap is not impossible to close. But it grows every month.'",
+      imageSlug: '/images/the-risk-of-waiting-is.png',
+    },
+    {
+      phrase: 'EVERY MONTH THIS IS UNRESOLVED',
+      definition: 'A compounding frame that makes the cost of delay accumulate visibly. Works by translating the abstract cost of inaction into a running total the prospect can calculate. Most effective when followed by a specific number — hours, dollars, clients, or percentage points.',
+      example: "'Every month this is unresolved, your team is spending roughly forty hours per rep on manual processes that this system handles automatically. That is 880 hours across the team — per month. By Q1, you will have spent the equivalent of five full-time months of selling time on something that is already fixed for your competitor.'",
+      imageSlug: '/images/every-month-this-is-unresolved.png',
+    },
+    {
+      phrase: 'WHAT CHANGES IF YOU WAIT UNTIL',
+      definition: 'A question that forces the prospect to evaluate the deferral explicitly — to name what they think will be different in Q1 or after the next board meeting. Often reveals that the prospect has not actually thought through what changes, and that the conditions for the decision are already present.',
+      example: "'What changes if you wait until February? I want to understand what you are waiting for — because if the answer is that the budget opens, we can work around that now. If the answer is that the team will have more capacity, I want to check that assumption against what Q1 actually looks like for your ops team.'",
+      imageSlug: '/images/what-changes-if-you-wait-until.png',
+    },
+    {
+      phrase: 'YOUR COMPETITOR STARTED THIS IN',
+      definition: "A market-reality frame that positions the prospect relative to what others in their space are already doing. Effective only when true and specific — 'two of the companies in your sector started this in Q3' is credible; 'everyone is doing this' is not.",
+      example: "'I can tell you that two of the companies in your sector — one of which you have mentioned as a benchmark — started this in Q3. They are now three months into what takes most teams six to eight months to fully embed. By the time you start in Q1, they will have a quarter-head start that is very difficult to close quickly.'",
+      imageSlug: '/images/your-competitor-started-this-in.png',
+    },
+    {
+      phrase: 'BY THE TIME YOU ARE READY TO ACT',
+      definition: 'A forward-looking consequence frame — paints a specific picture of what the landscape looks like if the decision is delayed until the prospect feels completely comfortable. Used to make the future cost visible without threatening or pressuring.',
+      example: "'By the time you are ready to act in Q2, the onboarding backlog that is currently three accounts will be six. Your two new reps will have spent a full quarter in a process that is already broken. And the internal case you would need to make to your CFO will be harder — not because the product changed, but because the urgency will feel less fresh.'",
+      imageSlug: '/images/by-the-time-you-are-ready-to-act.png',
+    },
+    {
+      phrase: 'I AM NOT TRYING TO RUSH YOU — BUT',
+      definition: "A frame that explicitly separates the salesperson's position from pressure tactics, then names a genuine cost of waiting. The phrase works by acknowledging that the prospect has the right to move at their own pace, while making the cost of that pace visible. The 'but' must be followed by something specific — not a vague warning.",
+      example: "'I am not trying to rush you — but I want to make sure the decision is made with full information about what waiting costs. The risk of getting to Q2 and starting from zero is not a sales concern — it is a business one. And I would rather name it now than have you discover it in April.'",
+      imageSlug: '/images/i-am-not-trying-to-rush-you--but.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Look, Riley — I like what you are proposing. But we are not in a crisis. The team is managing. I do not feel a strong reason to move on this before Q1.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'I hear that — and I am not going to manufacture a deadline that does not exist. But I do want to name something, because I think the [[inaction:the state of not making a decision]] has a price that is not visible right now. Can I share what I see from the outside?',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Go ahead.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Every month this is unresolved, your team is spending roughly 40 hours per rep on manual processes. Across 22 reps, that is 880 hours — per month. By Q1, you will have spent the equivalent of five full selling months on something that is already fixed for your competitor who started this in Q3.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Which competitor?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'I cannot name them, but I can tell you that two companies in your sector started this in Q3. They are three months into a process that typically takes six to eight months to fully [[compound:to increase or accumulate at an accelerating rate]]. By the time you start in Q1, the gap is not one quarter — it is closer to two.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Okay. But we have been in similar positions before and caught up. I am not sure the [[urgency:the quality of requiring prompt action]] is as real as you are making it sound.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'That is a fair challenge. Let me be specific about the [[catalyst:an event that triggers or accelerates a change]]: your CEO flagged sales process efficiency as a strategic priority in the Q3 review. Q1 budgets are being set in six weeks. If this does not go into the budget conversation now, it waits another full cycle — and by then your ops lead, who has been asking for this for a year, may have made her own decision about how long to wait.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'You know about the ops lead situation?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'You mentioned it in our second meeting. I am not trying to use it as pressure — I am using it because it is real. The internal support you have right now will [[erode:to gradually diminish over time]] if this goes quiet for a quarter. Stakeholders who were engaged in October will be focused on other things in February. That [[momentum:the energy a decision process carries]] does not pause — it dissipates.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'So what are you suggesting — that we rush a decision we are not ready for?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "No. I am suggesting that the [[deferral:the act of postponing a decision]] is not free, and I want to make sure you are pricing it correctly before you make it. The risk of waiting is not that the product changes. It is that your team spends three more months in a process that is already breaking, your competitor's advantage compounds, and the budget window closes before the conversation is complete.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'What would you need from me to move this into the Q1 budget conversation?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Thirty minutes with you and your CFO before the budget cycle closes — three weeks from now. I am not asking for a decision today. I am asking for the chance to make the case while the window is still open and the people who need to hear it are still engaged. That is the [[proactive:acting in anticipation of a future problem]] move. Everything else becomes reactive.',
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "URGENCY",
+        "definition": "The quality of requiring prompt action — genuine urgency lives in the prospect's situation, not the salesperson's quota"
+    },
+    {
+        "word": "INACTION",
+        "definition": "Not making a decision — rarely neutral in B2B sales, because it carries a cost that accumulates over time"
+    },
+    {
+        "word": "MOMENTUM",
+        "definition": "The energy a decision process carries — fragile, easily lost to delays, and costly to rebuild once it dissipates"
+    },
+    {
+        "word": "COMPOUND",
+        "definition": "To increase at an accelerating rate over time — problems that compound are more urgent than problems that stay constant"
+    },
+    {
+        "word": "DEFERRAL",
+        "definition": "Postponing a decision — not the same as a rejection, but never free; naming its cost is the key move in genuine urgency"
+    },
+    {
+        "word": "CATALYST",
+        "definition": "A real event or condition that triggers change — tying urgency to one makes it credible and prospect-owned rather than seller-manufactured"
+    },
+    {
+        "word": "ERODE",
+        "definition": "To gradually diminish over time — the fate of internal support, competitive advantage, and goodwill when a project goes quiet"
+    },
+    {
+        "word": "PROACTIVE",
+        "definition": "Acting before a problem becomes undeniable — the framing that separates genuine urgency from reactive firefighting"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "Riley did not create",
+        "after": "by inventing a deadline. She created it by making the cost of waiting specific: every month Marcus delayed, three more reps were operating on a broken process and the competitive gap was compounding.",
+        "answer": "urgency"
+    },
+    {
+        "before": "Marcus had not decided to stay with the status quo — he had simply not decided to change it. Riley's job was to show him that",
+        "after": "was itself a decision, and that decision had a price.",
+        "answer": "inaction"
+    },
+    {
+        "before": "A deferral to Q1 would not pause progress — it would reset it. Riley named the cost of losing",
+        "after": "before Marcus had a chance to treat it as a free option.",
+        "answer": "momentum"
+    },
+    {
+        "before": "Every month Marcus delayed, the efficiency gap between his team and his competitor's",
+        "after": "ed. The first month of delay cost him one month of results. By the third month, the cost was not linear — it was accumulating.",
+        "answer": "compound"
+    },
+    {
+        "before": "Riley did not argue against the",
+        "after": ". She priced it: three months at 880 hours per month was the equivalent of five full selling months lost to a problem she could fix in six weeks.",
+        "answer": "deferral"
+    },
+    {
+        "before": "The",
+        "after": "Riley used was Marcus's own Q3 review: his CEO had flagged sales process efficiency as a strategic priority, and Q1 budgets were being set in six weeks. She did not invent it — she named the one that already existed.",
+        "answer": "catalyst"
+    },
+    {
+        "before": "The goodwill Riley had built with Marcus's CFO over three conversations would",
+        "after": "if the project went quiet for a quarter. By the time the conversation restarted, the relationship would need rebuilding and the case would need re-presenting.",
+        "answer": "erode"
+    },
+    {
+        "before": "Riley reframed the decision as",
+        "after": "rather than reactive. Marcus did not have a crisis yet — but the companies that were six months ahead of him had once been in exactly his position and had made a decision before the problem became undeniable.",
+        "answer": "proactive"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "Riley says 'I am not going to manufacture a deadline that does not exist.' Why does she say this before naming the cost of waiting?",
+        "options": [
+            "Because she does not have a real deadline to offer and wants to be transparent",
+            "Because explicitly separating herself from pressure tactics earns her the right to name genuine urgency — the prospect is more likely to hear the cost of inaction when they know it is not a sales tactic",
+            "Because her company's policy prohibits deadline-based selling",
+            "Because Marcus has already said he does not respond well to deadline pressure"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Riley says Marcus's deferral is 'the equivalent of five full selling months lost.' What technique is she using?",
+        "options": [
+            "She is exaggerating the cost to make the urgency feel more significant than it is",
+            "She is translating the abstract cost of inaction into a specific, calculable number the prospect can evaluate — making the deferral feel concrete rather than theoretical",
+            "She is quoting a statistic from her company's research about sales process inefficiency",
+            "She is using the 'every month' frame to create a sense of running loss that builds pressure over time"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "When Marcus says 'I am not sure the urgency is as real as you are making it sound,' what does Riley do next?",
+        "options": [
+            "She backs down and agrees that Q1 is a reasonable timeline",
+            "She introduces a real, specific catalyst — the CEO's Q3 comment about process efficiency and the six-week budget window — rather than defending her previous argument",
+            "She tells Marcus about a competitor who made the same mistake and lost market share as a result",
+            "She offers a discount to make the decision easier before the end of the quarter"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why does Riley mention the ops lead when talking about urgency?",
+        "options": [
+            "To create personal pressure on Marcus by implying that his team is unhappy with his leadership",
+            "Because Marcus mentioned it in a previous meeting — it is a real internal catalyst that belongs to the prospect's situation, not something Riley invented",
+            "To suggest that the ops lead should be included in the next meeting as a decision-maker",
+            "To demonstrate that she has been paying attention to details Marcus shared earlier"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Riley mean when she says the momentum 'does not pause — it dissipates'?",
+        "options": [
+            "That the project timeline will need to be restarted from the beginning if Marcus waits until Q1",
+            "That a deferral does not simply delay progress — it actively loses the internal support, stakeholder engagement, and shared understanding that both sides built toward the decision, which cannot be easily recovered",
+            "That Riley will not be able to hold the current pricing if the deal moves to Q1",
+            "That the technology landscape will change significantly between now and Q1, making the solution less relevant"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Marcus asks 'so what are you suggesting — that we rush a decision we are not ready for?' How does this question reveal a misunderstanding — and how does Riley correct it?",
+        "options": [
+            "Marcus thinks Riley is telling him the product will be unavailable after a certain date — Riley clarifies that the product will always be available",
+            "Marcus has interpreted genuine urgency as pressure to decide before he has enough information — Riley corrects this by clarifying that she is not asking for a decision today, but for the conversation to stay in the budget window",
+            "Marcus thinks the urgency is about Riley's quota, not his situation — Riley confirms that she does have a quota and explains why that is relevant",
+            "Marcus does not understand the cost-of-inaction argument Riley has made — Riley simplifies it into a single number he can evaluate"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What makes the phrase 'the risk of waiting is' more effective than 'you need to decide before the end of the month'?",
+        "options": [
+            "It is more polite and therefore easier for the prospect to hear without feeling defensive",
+            "It locates the consequence of delay in the prospect's situation rather than in the seller's needs — which makes the urgency credible, specific, and something the prospect can evaluate for themselves",
+            "It is shorter and easier to remember than a deadline-based phrase",
+            "It avoids the legal implications of making promises about availability or pricing"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Riley closes by asking for 'thirty minutes with you and your CFO before the budget cycle closes.' Why is this a more effective close than asking for a decision?",
+        "options": [
+            "Because asking for a meeting is less threatening than asking for a decision and is therefore more likely to succeed",
+            "Because it is a low-commitment, specific next step that keeps the deal inside the budget window without requiring a full decision — it is proactive without being pressuring",
+            "Because Riley needs to meet the CFO to understand what objections she will raise at the approval stage",
+            "Because the decision cannot legally be made without the CFO's signature, so the meeting is a necessary procedural step"
+        ],
+        "correctIndex": 1
+    }
+],
+  pitchCorner: {
+    "title": "Re-engagement Email: The Cost of Waiting",
+    "context": "Marcus has gone quiet after their last meeting. Riley sends a follow-up email — not a check-in, but a specific, structured case for why the timing matters. She avoids invented deadlines and instead names three real costs of delay",
+    "passage": [
+        {
+            "before": "Dear Marcus,\n\nI wanted to reach out before the end of the month — not because I have a deadline for you, but because there is a real window closing that I think deserves a direct conversation.\n\nI know you mentioned that you are not in a rush, and I respect that. But I want to make sure the",
+            "after": "of waiting is priced correctly before you make the decision to defer — because I do not think all three costs are fully visible right now.",
+            "answer": "risk"
+        },
+        {
+            "before": "The first cost is operational. Every month this is unresolved, your team is spending roughly 880 hours on a process that is already fixed for two companies in your sector. Those hours",
+            "after": "— the gap is not linear. By Q2, you will not be one quarter behind; you will be closer to two.",
+            "answer": "compound"
+        },
+        {
+            "before": "The second cost is the budget window. Your Q1 cycle closes in three weeks. If this does not go into that conversation, the next",
+            "after": "for the decision is Q2 — which means a full extra quarter of the operational cost above, and a significantly harder internal case to make once the urgency is less fresh.",
+            "answer": "catalyst"
+        },
+        {
+            "before": "The third cost is",
+            "after": ". The internal support you have built — your ops lead, the two senior reps who were part of the pilot conversation — will not hold indefinitely. Stakeholders who are engaged now will be focused on other things in February. The case will need rebuilding, and that takes time neither of us has budgeted for.",
+            "answer": "momentum"
+        },
+        {
+            "before": "I am not writing this to apply pressure. I am writing it because I think the",
+            "after": "of 'not in a rush' is real and specific, and you deserve to see it clearly before you decide. The companies that are ahead of you in this sector did not act because they had a crisis. They acted before one arrived.",
+            "answer": "deferral"
+        },
+        {
+            "before": "That is the",
+            "after": "choice — and it is still available to you. Would a thirty-minute call this week work to talk through the budget conversation before the window closes?\n\nRiley",
+            "answer": "proactive"
+        }
+    ]
+},
+  dealClinic: {
+    "context": "Marcus says: 'We like what you're proposing but we're comfortable waiting until Q1 — there's no real urgency for us right now.' Watch how two salespeople respond.",
+    "transcript": [
+        {
+            "speaker": "Marcus",
+            "speakerColor": "purple",
+            "text": "Look, we like the proposal — but we're not in a crisis. The team is managing fine, and Q1 feels like a more natural time to start something new. I don't see the urgency."
+        },
+        {
+            "speaker": "Salesperson A",
+            "speakerColor": "red",
+            "text": "I completely understand — and I don't want to pressure you. I do want to mention that we have a promotional pricing structure that is only available until the end of this month, so if you were thinking about moving forward, now would be the right time to lock that in. I can also check with my manager to see if there is any flexibility on extending it slightly."
+        },
+        {
+            "speaker": "Verdict",
+            "speakerColor": "purple",
+            "text": "Salesperson A — Response to 'no urgency'",
+            "verdict": {
+                "isGood": false,
+                "explanation": "Weak. This is exactly the kind of manufactured urgency the lesson warns against. The 'promotional pricing' deadline is a classic artificial pressure tactic — and Marcus, as an experienced B2B buyer, will recognise it immediately. 'Let me check with my manager' signals that the deadline is not real and can be extended on request, which destroys any urgency effect and damages credibility. The response says nothing about Marcus's situation, the cost of waiting, or any real consequence of the decision. It is entirely about the seller's needs, not the buyer's."
+            }
+        },
+        {
+            "speaker": "Salesperson B",
+            "speakerColor": "orange",
+            "text": "I hear that — and I am not going to invent a deadline that does not exist. But I do want to name something before you make the decision to wait, because I think the cost of the deferral is not fully visible right now. Can I share three specific things that change if this moves to Q1?"
+        },
+        {
+            "speaker": "Verdict",
+            "speakerColor": "purple",
+            "text": "Salesperson B — Response to 'no urgency'",
+            "verdict": {
+                "isGood": true,
+                "explanation": "Strong opening. Salesperson B explicitly separates themselves from the approach Marcus is expecting — 'I am not going to invent a deadline' is a direct contrast to what most salespeople do at this moment. Asking permission to name three costs ('can I share three specific things') is a structured, low-pressure frame that signals the response will be concrete and worth hearing. Marcus has said he doesn't see the urgency — Salesperson B is about to show it to him, not argue that it exists."
+            }
+        },
+        {
+            "speaker": "Salesperson B",
+            "speakerColor": "orange",
+            "text": "First: every month this is unresolved, your team is spending approximately 880 hours on manual processes that are already automated for two companies in your sector. Those hours compound — by Q1, you will not be one quarter behind, you will be closer to two. Second: your Q1 budget cycle closes in six weeks. If this does not go into that conversation now, the next window is Q2. Third: the internal support you have built — your ops lead, the senior reps who were in the pilot conversation — will not hold indefinitely. Momentum dissipates. By February, the case needs rebuilding."
+        },
+        {
+            "speaker": "Marcus",
+            "speakerColor": "purple",
+            "text": "The momentum point is the one that concerns me most, actually. We've had projects stall before and they never quite recovered."
+        },
+        {
+            "speaker": "Salesperson A",
+            "speakerColor": "red",
+            "text": "Exactly — that's a really common pattern. What I'd suggest is that we set a specific Q1 start date right now, put it in writing, and make sure both sides are committed to that timeline. That way the momentum is preserved even if we don't start immediately."
+        },
+        {
+            "speaker": "Verdict",
+            "speakerColor": "purple",
+            "text": "Salesperson A — Follow-up move",
+            "verdict": {
+                "isGood": false,
+                "explanation": "Weak. Marcus has revealed something important — a genuine concern about momentum based on real past experience. Salesperson A ignores the emotional weight of that admission and immediately pivots to a logistical solution (a Q1 start date in writing). This misses the moment. Marcus is not looking for a calendar commitment — he is expressing anxiety about a pattern he has seen before. The right response is to stay in that concern and explore it, not to solve it with a scheduling action."
+            }
+        },
+        {
+            "speaker": "Salesperson B",
+            "speakerColor": "orange",
+            "text": "That pattern — a project builds momentum, then goes quiet for a quarter and never quite comes back — is one of the most common ways decisions like this fail. The people who were engaged move on to other priorities. The internal case has to be remade. The window that felt open in October feels much smaller in February. I am not trying to scare you with that — I am naming it because you already know it is true, and because the way to avoid it is to keep the conversation inside the budget cycle rather than deferring it past the window. What would it take to get thirty minutes with your CFO before the cycle closes?",
+            "verdict": {
+                "isGood": true,
+                "explanation": "Strong close. Salesperson B validates Marcus's concern by confirming the pattern is real and naming exactly why it happens — people move on, the case has to be remade, the window narrows. 'I am not trying to scare you with that — I am naming it because you already know it is true' is precise and respectful: it positions Salesperson B as someone who is giving Marcus information he deserves, not applying pressure. The close — 'what would it take to get thirty minutes with your CFO before the cycle closes' — is a specific, low-commitment ask that keeps the deal inside the budget window without demanding a decision."
+            }
+        }
+    ]
+},
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Work in pairs. For each scenario, choose the response that creates genuine urgency without manufactured pressure. Discuss your reasoning before clicking.",
+        "items": [
+            {
+                "customerLine": "A prospect says: 'We'll probably move on this in Q2 — no real rush.'",
+                "options": [
+                    "Say: 'I understand. I'll reach out in Q2 and we can pick it up from there.'",
+                    "Say: 'Before you make that decision, I want to make sure the cost of the deferral is visible. What changes between now and Q2 that makes it the right moment? Because some of the conditions that are in your favour right now — the internal support, the budget window, the competitive position — may look different by then.'",
+                    "Say: 'I should mention that our current pricing is only guaranteed until the end of this quarter — after that, I can't commit to holding these numbers.'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. A accepts the deferral without naming any cost. C invents a pricing deadline, which is manufactured urgency and will be recognised as such. B asks the one question that genuine urgency requires: what are you actually waiting for? And names the three specific things — internal support, budget window, competitive position — that may erode while the decision waits."
+            },
+            {
+                "customerLine": "A prospect says: 'We've been evaluating for three months and need more time.'",
+                "options": [
+                    "Say: 'Three months is a significant investment of time from both sides. What specifically would more time give you that the last three months haven't? I want to make sure we are not waiting for something that is already available.'",
+                    "Say: 'I understand. Take all the time you need — this is an important decision and I want you to feel confident.'",
+                    "Say: 'We've both invested a lot in this evaluation. I would hate for that effort to go to waste — can we at least agree on a decision date so neither of us is left waiting?'"
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. After three months of evaluation, 'more time' is rarely about information — it is usually about confidence, internal alignment, or avoidance. The question 'what would more time give you that the last three months haven't?' is direct and respectful, and it often reveals that the conditions for a decision are already present. B accepts the delay without examination. C invokes invested effort as emotional pressure, which is a form of manufactured urgency."
+            },
+            {
+                "customerLine": "A prospect says: 'We are going to wait until we see how the market develops before making a commitment.'",
+                "options": [
+                    "Say: 'What is the specific market development you are waiting for? Because some of the companies that waited for market clarity in this space found that by the time it arrived, the companies that had moved early had already established a position that was very difficult to challenge.'",
+                    "Say: 'I understand the caution — it is a sensible approach. I'll check back in once the market picture is clearer.'",
+                    "Say: 'The market is actually developing faster than most people expect — I can share some research that suggests the window for early-mover advantage is narrower than it looks.'"
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. 'Waiting for market clarity' is often an indefinite deferral — the market rarely provides a clear signal that the time is right. The question names this pattern directly and introduces the idea of opportunity cost: by the time the clarity arrives, the early movers have an established position. B accepts the deferral entirely. C introduces research that sounds like a sales tactic rather than a genuine observation about the prospect's specific situation."
+            },
+            {
+                "customerLine": "A prospect says: 'We had a similar project stall last year. I am worried about the same thing happening here.'",
+                "options": [
+                    "Say: 'I completely understand — that is a very real risk and I would not want to underestimate it. Can you tell me what caused the stall last year? Because the pattern you are describing is usually about one of three things: internal alignment, executive sponsorship, or timing relative to the budget cycle. If I know which one it was, I can tell you whether we have the same conditions here.'",
+                    "Say: 'That is a common concern, but I think with the right implementation plan we can avoid the same outcome. Our onboarding process is specifically designed to prevent project stalls.'",
+                    "Say: 'I hear you — which is exactly why we should move quickly, before the momentum we have built starts to fade.'"
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. This prospect is not raising an objection — they are expressing a genuine fear based on real experience. The right response is to take it seriously, probe what caused the previous stall, and assess whether the same conditions are present. That gives the salesperson real information and the prospect a reason to believe the outcome will be different. B dismisses the concern with a product claim. C uses the concern itself as urgency pressure, which is manipulative and will be felt as such."
+            }
+        ]
+    },
+    "profileMatch": {
+        "instructions": "Match each urgency situation to the most appropriate framing. Discuss before clicking.",
+        "profiles": [
+            {
+                "name": "Situation 1",
+                "description": "A prospect is comfortable with the status quo and says 'the team is managing fine.' There is no crisis, but the cost of inaction is real and accumulating.",
+                "matchKey": "cost-of-inaction"
+            },
+            {
+                "name": "Situation 2",
+                "description": "A prospect wants to wait until Q2. The Q1 budget cycle closes in four weeks, and if the decision is not in the budget conversation now, the next opportunity is genuinely six months away.",
+                "matchKey": "window-closing"
+            },
+            {
+                "name": "Situation 3",
+                "description": "A prospect is hesitating. You know that two direct competitors started this process in Q3 and are now three months ahead in implementation.",
+                "matchKey": "competitive-position"
+            }
+        ],
+        "options": [
+            {
+                "key": "cost-of-inaction",
+                "label": "Make the cost of inaction specific",
+                "description": "'Every month this is unresolved, your team is spending 880 hours on a process that is already fixed for your competitors. By Q1, that is five full selling months of time spent on a problem that could be resolved in six weeks.' The status quo is not free — show the price with a specific number."
+            },
+            {
+                "key": "window-closing",
+                "label": "Name the real window",
+                "description": "'I want to be direct about the budget cycle — it closes in four weeks. If this does not go into that conversation, the next window is Q2, which means an additional quarter of the operational cost and a harder internal case to make once the urgency is less fresh.' This is a real deadline, not a manufactured one — name it without apology."
+            },
+            {
+                "key": "competitive-position",
+                "label": "Use competitor reality as a catalyst",
+                "description": "'I can tell you that two companies in your sector started this in Q3. They are three months into a process that typically takes six to eight months to fully embed. By the time you start in Q1, the gap is not one quarter — it is closer to two.' True, specific, and prospect-owned — they are the ones benchmarking against those companies."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "Complete each urgency response using language from this lesson. Compare your completions before clicking for the suggested answer.",
+        "items": [
+            {
+                "customerLine": "A prospect says: 'We're not in a crisis — we can wait until Q1.'",
+                "salespersonStart": "I hear that — and I am not going to manufacture a deadline that does not exist. But I want to make sure the risk of waiting is",
+                "suggestedCompletion": "visible before you make the decision. Every month this is unresolved, your team is spending roughly 880 hours on a process that is already fixed for two companies in your sector. By Q1, that is not one quarter behind — it is closer to two, because the gap compounds."
+            },
+            {
+                "customerLine": "A prospect has gone quiet after a strong meeting three weeks ago.",
+                "salespersonStart": "I wanted to reach out before the budget cycle closes — not because I have a deadline to offer, but because there are three specific things that change",
+                "suggestedCompletion": "if this decision moves past the Q1 window. The operational cost compounds another quarter. The internal momentum you have built dissipates. And the budget conversation happens without this in it — which means the next opportunity is Q2, not Q1. I would rather name those costs now than let them arrive by surprise."
+            },
+            {
+                "customerLine": "A prospect says: 'What changes if we wait until Q1?'",
+                "salespersonStart": "Three things. First, the 880 hours per month your team is spending on this process will have run for another quarter — compounding, not holding steady. Second, the budget window closes in six weeks and",
+                "suggestedCompletion": "if the decision is not in that conversation, the next catalyst is Q2. Third, the internal support you have built — your ops lead, the senior reps who were part of the pilot — will not hold indefinitely. Momentum does not pause. It dissipates. By February, the case needs rebuilding from a colder start."
+            },
+            {
+                "customerLine": "A prospect says: 'I don't feel any urgency on this.'",
+                "salespersonStart": "I am not surprised — because when the status quo is manageable, urgency is hard to feel. But manageable is not the same as free.",
+                "suggestedCompletion": "The risk of waiting is not that the product changes or that I will not be here in Q1. It is that the problem that is currently manageable keeps compounding, your competitor's advantage deepens, and the budget window closes before the conversation is complete. Those are the costs of 'manageable.' You may decide they are worth paying — I just want to make sure they are visible before you do."
+            }
+        ]
+    }
+},
+};
