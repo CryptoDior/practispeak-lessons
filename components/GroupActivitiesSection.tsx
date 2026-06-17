@@ -299,6 +299,13 @@ function SpotTheMistakeActivity({
 }) {
   const [revealed, setRevealed] = useState(false);
 
+  // First speaker = salesperson (left), second unique speaker = customer (right)
+  const speakerOrder: string[] = [];
+  data.dialogue.forEach((line) => {
+    if (!speakerOrder.includes(line.speaker)) speakerOrder.push(line.speaker);
+  });
+  const salesperson = speakerOrder[0];
+
   return (
     <div>
       <ActivityHeader
@@ -310,16 +317,27 @@ function SpotTheMistakeActivity({
 
       {/* Dialogue */}
       <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] px-6 py-5 mb-5">
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-4">
           {data.dialogue.map((line, i) => {
             const mistake = revealed
               ? data.mistakes.find((m) => m.lineIndex === i)
               : undefined;
-            const isCustomer = line.speaker === 'Customer';
+            const isCustomer = line.speaker !== salesperson;
             return (
-              <div key={i} className={`flex ${isCustomer ? 'justify-end' : 'justify-start'}`}>
+              <div key={i} className={`flex items-end gap-3 ${isCustomer ? 'flex-row-reverse' : ''}`}>
+
+                {/* Avatar placeholder */}
+                <div className={`w-10 h-10 rounded-full flex-shrink-0 flex items-center justify-center font-extrabold text-sm shadow-sm ${
+                  isCustomer
+                    ? 'bg-[#066EF5] text-white'
+                    : 'bg-gray-100 text-gray-500'
+                }`}>
+                  {line.speaker[0].toUpperCase()}
+                </div>
+
+                {/* Bubble */}
                 <div
-                  className={`rounded-[14px] px-4 py-3 max-w-[85%] ${
+                  className={`rounded-[14px] px-4 py-3 max-w-[75%] ${
                     isCustomer
                       ? 'bg-[#F0F4FF] rounded-tr-sm'
                       : 'bg-gray-50 border border-gray-100 rounded-tl-sm'

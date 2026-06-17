@@ -100,16 +100,16 @@ export default function VocabCard({ word, index }: { word: VocabWord; index: num
         </div>
 
         {/* Definition */}
-        <p className="text-gray-600 text-[15px] leading-relaxed mb-6">
+        <p className="text-gray-600 text-base leading-relaxed mb-6">
           {word.definition}
         </p>
 
         {/* Example */}
         <div className="mb-8">
-          <span className="block text-[10px] font-extrabold tracking-[0.2em] text-gray-300 uppercase mb-2">
+          <span className="block text-xs font-extrabold tracking-[0.2em] text-gray-500 uppercase mb-2">
             Example
           </span>
-          <p className="text-gray-500 text-[15px] italic leading-relaxed">
+          <p className="text-gray-600 text-base italic leading-relaxed">
             &ldquo;{word.example}&rdquo;
           </p>
         </div>
