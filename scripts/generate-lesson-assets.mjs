@@ -127,11 +127,16 @@ function slugify(word) {
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 
-const lessonSlug = process.argv[2];
+const args = process.argv.slice(2);
+const lessonSlug = args.find(a => !a.startsWith('--'));
+const skipAudio  = args.includes('--no-audio');
+
 if (!lessonSlug) {
-  console.error('Usage: node scripts/generate-lesson-assets.mjs <lesson-slug>');
+  console.error('Usage: node scripts/generate-lesson-assets.mjs <lesson-slug> [--no-audio]');
   process.exit(1);
 }
+
+if (skipAudio) console.log('\n⏭️  --no-audio flag set — skipping ElevenLabs generation');
 
 const specPath = path.join(SPECS_DIR, `${lessonSlug}.json`);
 if (!fs.existsSync(specPath)) {
@@ -147,29 +152,37 @@ console.log(`   Phrasal verbs: ${spec.phrasalVerbs.length}`);
 console.log(`   Dialogue lines: ${spec.dialogue.length}`);
 
 // ── 1. Vocabulary audio ───────────────────────────────────────────────────────
-log('Generating vocabulary audio...');
-for (const word of spec.vocabulary) {
-  const slug = slugify(word.word);
-  const voice = nextVoice();
-  const wordPath    = path.join(AUDIO_DIR, `${slug}.mp3`);
-  const examplePath = path.join(AUDIO_DIR, `${slug}-example.mp3`);
-  if (!fs.existsSync(wordPath))    await generateAudio(word.word,    voice, wordPath,    0.75);
-  else info(`Skipping (exists): ${slug}.mp3`);
-  if (!fs.existsSync(examplePath)) await generateAudio(word.example, voice, examplePath, 0.75);
-  else info(`Skipping (exists): ${slug}-example.mp3`);
+if (skipAudio) {
+  log('Skipping vocabulary audio (--no-audio)');
+} else {
+  log('Generating vocabulary audio...');
+  for (const word of spec.vocabulary) {
+    const slug = slugify(word.word);
+    const voice = nextVoice();
+    const wordPath    = path.join(AUDIO_DIR, `${slug}.mp3`);
+    const examplePath = path.join(AUDIO_DIR, `${slug}-example.mp3`);
+    if (!fs.existsSync(wordPath))    await generateAudio(word.word,    voice, wordPath,    0.75);
+    else info(`Skipping (exists): ${slug}.mp3`);
+    if (!fs.existsSync(examplePath)) await generateAudio(word.example, voice, examplePath, 0.75);
+    else info(`Skipping (exists): ${slug}-example.mp3`);
+  }
 }
 
 // ── 2. Phrasal verb audio ─────────────────────────────────────────────────────
-log('Generating phrasal verb audio...');
-for (const verb of spec.phrasalVerbs) {
-  const slug = slugify(verb.phrase);
-  const voice = nextVoice();
-  const phrasePath  = path.join(AUDIO_DIR, `${slug}.mp3`);
-  const examplePath = path.join(AUDIO_DIR, `${slug}-example.mp3`);
-  if (!fs.existsSync(phrasePath))  await generateAudio(verb.phrase,   voice, phrasePath,  0.75);
-  else info(`Skipping (exists): ${slug}.mp3`);
-  if (!fs.existsSync(examplePath)) await generateAudio(verb.example,  voice, examplePath, 0.75);
-  else info(`Skipping (exists): ${slug}-example.mp3`);
+if (skipAudio) {
+  log('Skipping phrasal verb audio (--no-audio)');
+} else {
+  log('Generating phrasal verb audio...');
+  for (const verb of spec.phrasalVerbs) {
+    const slug = slugify(verb.phrase);
+    const voice = nextVoice();
+    const phrasePath  = path.join(AUDIO_DIR, `${slug}.mp3`);
+    const examplePath = path.join(AUDIO_DIR, `${slug}-example.mp3`);
+    if (!fs.existsSync(phrasePath))  await generateAudio(verb.phrase,   voice, phrasePath,  0.75);
+    else info(`Skipping (exists): ${slug}.mp3`);
+    if (!fs.existsSync(examplePath)) await generateAudio(verb.example,  voice, examplePath, 0.75);
+    else info(`Skipping (exists): ${slug}-example.mp3`);
+  }
 }
 
 // ── 4. Generate lesson data file ──────────────────────────────────────────────
