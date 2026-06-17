@@ -21,7 +21,7 @@ import PitchCornerSection from '@/components/exercises/PitchCornerSection';
 import CompleteSentenceSection from '@/components/exercises/CompleteSentenceSection';
 import DealClinicSection from '@/components/DealClinicSection';
 
-const DEFAULT_TABS = ['Vocabulary', 'Phrasal Verbs', 'Videos', 'Dialogue', 'Exercises'] as const;
+const DEFAULT_TABS = ['Vocabulary', 'Phrases', 'Videos', 'Dialogue', 'Exercises'] as const;
 
 interface ExerciseScore {
   score: number;
