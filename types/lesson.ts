@@ -179,15 +179,32 @@ export interface DealClinic {
   transcript: DealClinicLine[];
 }
 
+export interface SpotTheMistakeLine {
+  speaker: string;
+  text: string;
+}
+
+export interface SpotTheMistakeItem {
+  lineIndex: number;
+  incorrectText: string;
+  correction: string;
+  explanation: string;
+}
+
 export interface GroupActivities {
   chooseResponse: {
     instructions: string;
     items: ChooseResponseItem[];
   };
-  profileMatch: {
+  profileMatch?: {
     instructions: string;
     profiles: CustomerProfileItem[];
     options: ProductOptionItem[];
+  };
+  spotTheMistake?: {
+    instructions: string;
+    dialogue: SpotTheMistakeLine[];
+    mistakes: SpotTheMistakeItem[];
   };
   finishTheLine: {
     instructions: string;

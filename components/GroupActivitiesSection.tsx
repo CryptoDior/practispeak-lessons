@@ -8,7 +8,11 @@ export default function GroupActivitiesSection({ activities }: { activities: Gro
   return (
     <div className="space-y-12">
       <ChooseResponseActivity data={activities.chooseResponse} />
-      <ProfileMatchActivity data={activities.profileMatch} />
+      {activities.spotTheMistake
+        ? <SpotTheMistakeActivity data={activities.spotTheMistake} />
+        : activities.profileMatch
+        ? <ProfileMatchActivity data={activities.profileMatch} />
+        : null}
       <FinishTheLineActivity data={activities.finishTheLine} />
     </div>
   );
@@ -143,7 +147,7 @@ function ProfileMatchActivity({
 }) {
   // selections[i] = index into data.options chosen for profile i, or null
   const [selections, setSelections] = useState<(number | null)[]>(
-    () => data.profiles.map(() => null)
+    () => data?.profiles.map(() => null) ?? []
   );
   const [checked, setChecked] = useState(false);
 
@@ -153,6 +157,8 @@ function ProfileMatchActivity({
     if (checked) return;
     setSelections((prev) => prev.map((s, i) => (i === profileIdx ? optionIdx : s)));
   };
+
+  if (!data) return null;
 
   const handleReset = () => {
     setSelections(data.profiles.map(() => null));
@@ -280,6 +286,112 @@ function ProfileMatchActivity({
           </button>
         )}
       </div>
+    </div>
+  );
+}
+
+/* ── 2b. Spot the Mistake ────────────────────────────────────────────────── */
+
+function SpotTheMistakeActivity({
+  data,
+}: {
+  data: NonNullable<GroupActivities['spotTheMistake']>;
+}) {
+  const [revealed, setRevealed] = useState(false);
+
+  return (
+    <div>
+      <ActivityHeader
+        number={2}
+        emoji="🔍"
+        title="Spot the Mistake"
+        instructions={data.instructions}
+      />
+
+      {/* Dialogue */}
+      <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] px-6 py-5 mb-5">
+        <div className="flex flex-col gap-3">
+          {data.dialogue.map((line, i) => {
+            const mistake = revealed
+              ? data.mistakes.find((m) => m.lineIndex === i)
+              : undefined;
+            const isCustomer = line.speaker === 'Customer';
+            return (
+              <div key={i} className={`flex ${isCustomer ? 'justify-end' : 'justify-start'}`}>
+                <div
+                  className={`rounded-[14px] px-4 py-3 max-w-[85%] ${
+                    isCustomer
+                      ? 'bg-[#F0F4FF] rounded-tr-sm'
+                      : 'bg-gray-50 border border-gray-100 rounded-tl-sm'
+                  }`}
+                >
+                  <p className={`text-xs font-extrabold mb-1 ${isCustomer ? 'text-[#066EF5]' : 'text-gray-400'}`}>
+                    {line.speaker}
+                  </p>
+                  {mistake ? (
+                    <p className="text-sm font-semibold text-gray-800">
+                      {line.text.replace(
+                        mistake.incorrectText,
+                        `<mark>${mistake.incorrectText}</mark>`
+                      ).split(/(<mark>.*?<\/mark>)/g).map((part, j) =>
+                        part.startsWith('<mark>') ? (
+                          <span key={j} className="bg-red-100 text-red-700 rounded px-1 line-through">
+                            {mistake.incorrectText}
+                          </span>
+                        ) : (
+                          <span key={j}>{part}</span>
+                        )
+                      )}
+                    </p>
+                  ) : (
+                    <p className="text-sm font-semibold text-gray-800">{line.text}</p>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Reveal / mistakes */}
+      {!revealed ? (
+        <div className="text-center">
+          <button
+            onClick={() => setRevealed(true)}
+            className="px-6 py-2.5 bg-[#066EF5] text-white font-extrabold text-sm rounded-xl hover:bg-blue-600 transition-all shadow-sm"
+          >
+            Show the 3 Mistakes
+          </button>
+        </div>
+      ) : (
+        <div className="flex flex-col gap-3">
+          {data.mistakes.map((m, i) => (
+            <div key={i} className="bg-white rounded-[16px] shadow-[0_2px_10px_rgba(6,110,245,0.06)] px-5 py-4">
+              <div className="flex items-start gap-3 mb-2">
+                <span className="w-6 h-6 bg-red-100 text-red-600 rounded-full flex items-center justify-center text-xs font-extrabold flex-shrink-0 mt-0.5">
+                  {i + 1}
+                </span>
+                <div className="flex-1">
+                  <div className="flex flex-wrap items-center gap-2 mb-1.5">
+                    <span className="text-sm font-semibold text-red-600 line-through">&ldquo;{m.incorrectText}&rdquo;</span>
+                    <span className="text-gray-400 font-bold">→</span>
+                    <span className="text-sm font-extrabold text-emerald-700">&ldquo;{m.correction}&rdquo;</span>
+                  </div>
+                  <p className="text-xs text-gray-500 font-semibold leading-relaxed">{m.explanation}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+          <div className="text-center mt-1">
+            <button
+              onClick={() => setRevealed(false)}
+              className="text-xs text-[#066EF5] font-bold hover:underline"
+            >
+              Hide mistakes
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
