@@ -65,7 +65,7 @@ function ChooseResponseCard({
             <p className="text-xs font-extrabold text-gray-400 uppercase tracking-widest mb-1.5">
               Customer says
             </p>
-            <p className="text-sm font-semibold text-gray-800 leading-relaxed italic">
+            <p className="text-base font-semibold text-gray-800 leading-relaxed italic">
               &ldquo;{item.customerLine}&rdquo;
             </p>
           </div>
@@ -94,7 +94,7 @@ function ChooseResponseCard({
               key={i}
               disabled={revealed}
               onClick={() => setSelected(i)}
-              className={`w-full text-left rounded-xl px-4 py-3 text-sm font-semibold transition-all flex items-start gap-3 ${style} disabled:cursor-default`}
+              className={`w-full text-left rounded-xl px-4 py-3 text-base font-semibold transition-all flex items-start gap-3 ${style} disabled:cursor-default`}
             >
               <span className="flex-shrink-0 w-5 h-5 rounded-full border border-current flex items-center justify-center text-xs font-extrabold mt-0.5">
                 {LABELS[i]}
@@ -329,7 +329,7 @@ function SpotTheMistakeActivity({
                     {line.speaker}
                   </p>
                   {mistake ? (
-                    <p className="text-sm font-semibold text-gray-800">
+                    <p className="text-base font-semibold text-gray-800">
                       {line.text.replace(
                         mistake.incorrectText,
                         `<mark>${mistake.incorrectText}</mark>`
@@ -344,7 +344,7 @@ function SpotTheMistakeActivity({
                       )}
                     </p>
                   ) : (
-                    <p className="text-sm font-semibold text-gray-800">{line.text}</p>
+                    <p className="text-base font-semibold text-gray-800">{line.text}</p>
                   )}
                 </div>
               </div>
@@ -373,11 +373,11 @@ function SpotTheMistakeActivity({
                 </span>
                 <div className="flex-1">
                   <div className="flex flex-wrap items-center gap-2 mb-1.5">
-                    <span className="text-sm font-semibold text-red-600 line-through">&ldquo;{m.incorrectText}&rdquo;</span>
+                    <span className="text-base font-semibold text-red-600 line-through">&ldquo;{m.incorrectText}&rdquo;</span>
                     <span className="text-gray-400 font-bold">→</span>
-                    <span className="text-sm font-extrabold text-emerald-700">&ldquo;{m.correction}&rdquo;</span>
+                    <span className="text-base font-extrabold text-emerald-700">&ldquo;{m.correction}&rdquo;</span>
                   </div>
-                  <p className="text-xs text-gray-500 font-semibold leading-relaxed">{m.explanation}</p>
+                  <p className="text-sm text-gray-500 font-semibold leading-relaxed">{m.explanation}</p>
                 </div>
               </div>
             </div>
@@ -441,7 +441,7 @@ function FinishLineCard({
       <div className="flex justify-end mb-3">
         <div className="bg-[#F0F4FF] rounded-[14px] rounded-tr-sm px-4 py-3 max-w-[85%]">
           <p className="text-xs font-extrabold text-[#066EF5] mb-1">Customer</p>
-          <p className="text-sm font-semibold text-gray-800">&ldquo;{item.customerLine}&rdquo;</p>
+          <p className="text-base font-semibold text-gray-800">&ldquo;{item.customerLine}&rdquo;</p>
         </div>
       </div>
 
@@ -449,7 +449,7 @@ function FinishLineCard({
       <div className="flex justify-start mb-3">
         <div className="bg-gray-50 border border-gray-100 rounded-[14px] rounded-tl-sm px-4 py-3 max-w-[85%]">
           <p className="text-xs font-extrabold text-gray-400 mb-1">Salesperson</p>
-          <p className="text-sm font-semibold text-gray-800">
+          <p className="text-base font-semibold text-gray-800">
             &ldquo;{item.salespersonStart}{" "}
             <span className="text-gray-600 italic">&hellip;&rdquo;</span>
           </p>
@@ -467,7 +467,7 @@ function FinishLineCard({
               Show one possible answer →
             </button>
           ) : (
-            <div className="text-left bg-amber-50 border border-amber-100 rounded-xl px-4 py-3 text-sm text-amber-800 font-semibold leading-relaxed">
+            <div className="text-left bg-amber-50 border border-amber-100 rounded-xl px-4 py-3 text-base text-amber-800 font-semibold leading-relaxed">
               <span className="font-extrabold">One possible answer: </span>
               &ldquo;&hellip;{item.suggestedCompletion}&rdquo;
               <button
@@ -507,7 +507,7 @@ function ActivityHeader({
           {emoji} {title}
         </h3>
       </div>
-      <p className="text-sm text-gray-400 font-semibold ml-12 leading-relaxed">
+      <p className="text-base text-gray-500 font-semibold ml-12 leading-relaxed">
         {instructions}
       </p>
     </div>
