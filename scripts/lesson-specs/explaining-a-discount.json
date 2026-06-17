@@ -1,0 +1,339 @@
+{
+  "exportName": "explainingADiscount",
+  "title": "Explaining a Discount",
+  "subtitle": "How to explain a price reduction clearly and confidently in English",
+  "level": "A1-A2",
+  "description": "A good salesperson does not just give a lower price — they explain it well. This lesson teaches simple, clear language for talking about discounts: how to say how much something costs after a reduction, how much the customer saves, and how long the offer is available.",
+  "dialogueSubtitle": "Riley explains a special discount to Marcus — and helps him understand exactly what he saves",
+
+  "vocabulary": [
+    {
+      "word": "discount",
+      "partOfSpeech": "noun",
+      "definition": "A reduction in the price of something. When you give a discount, you charge less than the normal price.",
+      "example": "Marcus said the price was too high, so Riley offered a discount. She said: We can give you a 20% discount — that saves you $100 every month."
+    },
+    {
+      "word": "percent",
+      "partOfSpeech": "noun",
+      "definition": "One part in every hundred. We use percent to show how big a discount is. The symbol is %.",
+      "example": "Riley told Marcus: The plan is 20 percent off this month. That means you pay 20% less than the original price."
+    },
+    {
+      "word": "save",
+      "partOfSpeech": "verb",
+      "definition": "To keep money by paying less than normal. When there is a discount, the customer saves money.",
+      "example": "Riley explained the value clearly: You save $100 every month with this plan. That is $1,200 every year."
+    },
+    {
+      "word": "deal",
+      "partOfSpeech": "noun",
+      "definition": "A good offer where you pay less money than usual. A deal is something the customer benefits from.",
+      "example": "Riley introduced the promotion with confidence: We are running a special deal this month — the best price we have offered all year."
+    },
+    {
+      "word": "original",
+      "partOfSpeech": "adjective",
+      "definition": "The first or normal price, before any discount or change.",
+      "example": "Riley made the saving clear by comparing prices: The original price is $500 per month. With the discount, you only pay $400."
+    },
+    {
+      "word": "limited",
+      "partOfSpeech": "adjective",
+      "definition": "Not available for a long time. A limited offer has an end date — the customer cannot wait forever.",
+      "example": "Riley created urgency without pressure: This is a limited offer. We can only hold this price until the end of the month."
+    },
+    {
+      "word": "offer",
+      "partOfSpeech": "noun",
+      "definition": "A special price or opportunity available for a short period of time.",
+      "example": "The sales manager approved a special offer for new customers: Sign up before Friday and get the first month free."
+    },
+    {
+      "word": "valid",
+      "partOfSpeech": "adjective",
+      "definition": "Still active and usable. A discount or offer is valid until a certain date — after that date, it is gone.",
+      "example": "Marcus asked how long the price would last. Riley said: This price is valid until the 31st. After that, it goes back to normal."
+    }
+  ],
+
+  "phrasalVerbs": [
+    {
+      "phrase": "It is 20% off",
+      "definition": "The standard way to state a discount. 'Off' means the price is lower than normal. You can replace 20% with any number.",
+      "example": "A customer asked about the price. Riley said: Good news — it is 20% off this month. That is the lowest price we have had all year."
+    },
+    {
+      "phrase": "You save [amount]",
+      "definition": "Tell the customer exactly how much money they save. This makes the discount feel real and personal — not just a number.",
+      "example": "Marcus was not sure if the discount was big enough. Riley said: You save $100 every month — that is $1,200 a year. That is real money."
+    },
+    {
+      "phrase": "The original price is",
+      "definition": "Use this to show the comparison between the normal price and the discounted price. It helps the customer see the value.",
+      "example": "Riley wanted Marcus to see the saving clearly: The original price is $500 per month. With your discount, you pay $400. That is a real reduction."
+    },
+    {
+      "phrase": "This is a limited offer",
+      "definition": "Tell the customer the offer will not last. It creates urgency — but say it calmly, not as pressure.",
+      "example": "Marcus said he needed more time. Riley responded: Of course, take your time — but I want you to know this is a limited offer. It ends on Friday."
+    },
+    {
+      "phrase": "We are running a special deal",
+      "definition": "A natural way to introduce a discount in conversation. Use it at the start to get the customer interested.",
+      "example": "The customer did not know about any promotion. Riley said: Actually, we are running a special deal this month — let me tell you about it."
+    },
+    {
+      "phrase": "This price is valid until",
+      "definition": "Use this to give the customer a clear deadline. Always follow it with a specific date so they know exactly when the offer ends.",
+      "example": "Marcus asked how long he had to decide. Riley said: This price is valid until the 30th of this month — so you have about two weeks."
+    }
+  ],
+
+  "videos": [],
+
+  "dialogue": [
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Riley, I really like the Standard Plan. But the price is a little high for us right now."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "I understand, Marcus. Actually, we are running a special [[deal:a good offer where you pay less money than usual]] this month."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Really? What kind of deal?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "The Standard Plan is 20% off right now. That is a good [[discount:a reduction in the price of something]] for you."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Okay. What is the original price?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "The [[original:the first or normal price, before any discount]] price is $500 per month. With the discount, you pay $400."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "So how much do I save?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "You [[save:to keep money by paying less than normal]] $100 every month. That is $1,200 every year."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "That is a lot of money. Is this a limited offer?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Yes, this is a [[limited:not available for a long time]] offer. This price is [[valid:still active and usable]] until the end of the month."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "I need to talk to my manager first. Can you send me the details?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Of course. I will send you an email with all the information today."
+    }
+  ],
+
+  "matchingExercise": [
+    { "word": "discount",  "definition": "a reduction in the price of something" },
+    { "word": "percent",   "definition": "one part in every hundred, shown with %" },
+    { "word": "save",      "definition": "to keep money by paying less than normal" },
+    { "word": "deal",      "definition": "a good offer where you pay less money than usual" },
+    { "word": "original",  "definition": "the first or normal price, before any discount" },
+    { "word": "limited",   "definition": "not available for a long time — it has an end date" },
+    { "word": "offer",     "definition": "a special price available for a short period of time" },
+    { "word": "valid",     "definition": "still active and usable until a certain date" }
+  ],
+
+  "fillBlankExercise": [
+    { "before": "We are running a special ", "after": " this month — the best price of the year.", "answer": "deal" },
+    { "before": "You ", "after": " $100 every month with this plan.", "answer": "save" },
+    { "before": "The ", "after": " price is $500, but with the discount you pay $400.", "answer": "original" },
+    { "before": "This is a ", "after": " offer — it ends at the end of the month.", "answer": "limited" },
+    { "before": "We can give you a 20% ", "after": " on the Standard Plan.", "answer": "discount" },
+    { "before": "This price is ", "after": " until the 30th of this month.", "answer": "valid" }
+  ],
+
+  "multipleChoiceExercise": [
+    {
+      "question": "What is the original price of the Standard Plan?",
+      "options": ["$400 per month", "$500 per month", "$1,200 per year"],
+      "correctIndex": 1
+    },
+    {
+      "question": "How much does Marcus save every month with the discount?",
+      "options": ["$50", "$400", "$100"],
+      "correctIndex": 2
+    },
+    {
+      "question": "When does the special offer end?",
+      "options": ["At the end of the month", "Next year", "In two days"],
+      "correctIndex": 0
+    },
+    {
+      "question": "What does Marcus want to do before he decides?",
+      "options": ["Read the email", "Talk to his manager", "Call the sales team"],
+      "correctIndex": 1
+    }
+  ],
+
+  "warmUp": {
+    "questions": [
+      "In your work, have you ever given or received a discount? What was the situation?",
+      "Do you think discounts help close a deal, or can they make a product look less valuable?",
+      "What information does a customer need when you explain a discount? What is most important to say first?"
+    ]
+  },
+
+  "completeSentenceExercise": {
+    "instructions": "Choose the correct word to complete each sentence. Only one answer is correct.",
+    "items": [
+      {
+        "sentence": "The Standard Plan is 20% _____ this month.",
+        "options": ["on", "off", "from"],
+        "correctIndex": 1,
+        "explanation": "We say '20% off' to show a price reduction. 'Off' means the price is lower than normal. 'On' and 'from' are not used this way."
+      },
+      {
+        "sentence": "You _____ $100 every month with this discount.",
+        "options": ["spend", "pay", "save"],
+        "correctIndex": 2,
+        "explanation": "'Save' means you keep money because the price is lower. 'Spend' and 'pay' mean you give money — the opposite of what we mean here."
+      },
+      {
+        "sentence": "The _____ price is $500. With the discount, you pay $400.",
+        "options": ["new", "original", "final"],
+        "correctIndex": 1,
+        "explanation": "'Original' means the normal price before the discount. 'New' suggests a recent change. 'Final' usually means there are no more changes."
+      },
+      {
+        "sentence": "This is a _____ offer — it ends on Friday.",
+        "options": ["limited", "short", "small"],
+        "correctIndex": 0,
+        "explanation": "'Limited' is the standard word for an offer that has an end date. 'Short' describes time, not an offer. 'Small' describes size."
+      },
+      {
+        "sentence": "We are running a special _____ this month.",
+        "options": ["price", "deal", "percent"],
+        "correctIndex": 1,
+        "explanation": "'Deal' is the natural word here — 'running a special deal' is a common sales phrase. 'Price' and 'percent' do not fit this sentence pattern."
+      },
+      {
+        "sentence": "This price is _____ until the end of the month.",
+        "options": ["ready", "open", "valid"],
+        "correctIndex": 2,
+        "explanation": "'Valid' means the price is still active and usable until that date. 'Ready' and 'open' are not used this way for prices or offers."
+      }
+    ]
+  },
+
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Read what the customer says. Choose the best response from the three options.",
+      "items": [
+        {
+          "customerLine": "Is there any discount available right now?",
+          "options": [
+            "Yes, the plan is 20% off this month — it is our best current offer.",
+            "The original price is $500 per month.",
+            "I can send you an email with the details."
+          ],
+          "correctIndex": 0,
+          "explanation": "Option A answers the question directly and clearly states the discount. Option B gives a price but does not answer whether there is a discount. Option C avoids the question completely."
+        },
+        {
+          "customerLine": "How much money do I save with this discount?",
+          "options": [
+            "This is a limited offer, so you should decide soon.",
+            "The discount is 20% this month.",
+            "You save $100 every month — that is $1,200 every year."
+          ],
+          "correctIndex": 2,
+          "explanation": "Option C gives the customer a specific, personal answer — the exact amount saved. Option A talks about urgency but does not answer the question. Option B repeats the percentage, which the customer may already know."
+        },
+        {
+          "customerLine": "When does this special price end?",
+          "options": [
+            "We are running a special deal this month.",
+            "This price is valid until the end of the month.",
+            "The original price is $500 per month."
+          ],
+          "correctIndex": 1,
+          "explanation": "Option B answers the question with a clear deadline. Option A introduces the deal but does not say when it ends. Option C is about the original price, not the deadline."
+        }
+      ]
+    },
+    "spotTheMistake": {
+      "instructions": "Read the conversation. Three lines have a mistake. Can you find them?",
+      "dialogue": [
+        { "speaker": "Sam",  "text": "We have a great deal this month on the Business Plan." },
+        { "speaker": "Alex", "text": "Really? How much is the discount?" },
+        { "speaker": "Sam",  "text": "It is 20% on right now." },
+        { "speaker": "Alex", "text": "Good. And how much do I save?" },
+        { "speaker": "Sam",  "text": "You spend $100 every month with this plan." },
+        { "speaker": "Sam",  "text": "And remember, this price is valid from the end of the month." }
+      ],
+      "mistakes": [
+        {
+          "lineIndex": 2,
+          "incorrectText": "on",
+          "correction": "off",
+          "explanation": "We say '20% off', not '20% on'. 'Off' shows the price is lower. 'On' does not have this meaning in English."
+        },
+        {
+          "lineIndex": 4,
+          "incorrectText": "spend",
+          "correction": "save",
+          "explanation": "A discount means you keep more money, so you 'save' — not 'spend'. 'Spend' means you give money. 'Save' means you keep it."
+        },
+        {
+          "lineIndex": 5,
+          "incorrectText": "from",
+          "correction": "until",
+          "explanation": "We say 'valid until' a date, not 'valid from'. 'Until' tells the customer when the offer ends. 'From' suggests when it starts."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The salesperson starts a sentence. Work with your partner to finish it naturally.",
+      "items": [
+        {
+          "customerLine": "Is there a discount on this plan?",
+          "salespersonStart": "Yes — it is 20%...",
+          "suggestedCompletion": "off this month. You save $100 every month, which is $1,200 a year."
+        },
+        {
+          "customerLine": "How long is this offer available?",
+          "salespersonStart": "This price is valid...",
+          "suggestedCompletion": "until the end of the month. So you have about two weeks to decide."
+        },
+        {
+          "customerLine": "What was the normal price before the discount?",
+          "salespersonStart": "The original...",
+          "suggestedCompletion": "price was $500 per month. With the discount, you pay $400 — a saving of $100 every month."
+        }
+      ]
+    }
+  }
+}

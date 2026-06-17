@@ -451,7 +451,7 @@ function FinishLineCard({
           <p className="text-xs font-extrabold text-gray-400 mb-1">Salesperson</p>
           <p className="text-sm font-semibold text-gray-800">
             &ldquo;{item.salespersonStart}{" "}
-            <span className="text-gray-300 italic">&hellip;&rdquo;</span>
+            <span className="text-gray-600 italic">&hellip;&rdquo;</span>
           </p>
         </div>
       </div>
