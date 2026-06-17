@@ -52,6 +52,7 @@ import { negotiatingPriceProfessionally } from './negotiating-price-professional
 import { storytellingInSales } from './storytelling-in-sales';
 import { creatingUrgencyWithoutPressure } from './creating-urgency-without-pressure';
 import { handlingDifficultCustomers } from './handling-difficult-customers';
+import { sellingToDifferentDecisionMakers } from './selling-to-different-decision-makers';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -107,6 +108,7 @@ export const lessons: Lesson[] = [
   storytellingInSales,
   creatingUrgencyWithoutPressure,
   handlingDifficultCustomers,
+  sellingToDifferentDecisionMakers,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
