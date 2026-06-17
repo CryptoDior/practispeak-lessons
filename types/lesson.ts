@@ -179,6 +179,18 @@ export interface DealClinic {
   transcript: DealClinicLine[];
 }
 
+export interface CompleteSentenceItem {
+  sentence: string;   // use _____ to mark the blank
+  options: string[];  // exactly 3 options
+  correctIndex: number;
+  explanation: string;
+}
+
+export interface CompleteSentenceExercise {
+  instructions: string;
+  items: CompleteSentenceItem[];
+}
+
 export interface SpotTheMistakeLine {
   speaker: string;
   text: string;
@@ -242,6 +254,8 @@ export interface Lesson {
   multipleChoiceExercise: MultipleChoiceItem[];
   /** Optional pitch/email/presentation fill-in-the-blank passage. Sales English only. */
   pitchCorner?: PitchCorner;
+  /** Optional complete-the-sentence exercise — 6 gap-fill items with 3 options each. A1-A2 only. */
+  completeSentenceExercise?: CompleteSentenceExercise;
   /** Optional deal clinic — students evaluate good vs. weak sales moves. C1-C2 only. */
   dealClinic?: DealClinic;
   /** Optional group activities — role-play scenarios + discussion questions. Skip for 1-on-1 lessons. */

@@ -161,14 +161,38 @@
   ],
   "videos": [],
   "matchingExercise": [
-    { "word": "RECOMMEND", "definition": "To say that something is a good choice for someone — giving your professional opinion, not just showing options" },
-    { "word": "SUGGEST", "definition": "To give someone an idea or option to think about — softer than recommend, more like opening a door" },
-    { "word": "OPTION", "definition": "One of the things you can choose from — when there are several plans or products, each one is this" },
-    { "word": "SUITABLE", "definition": "Right for what someone needs — not too much, not too little, a good fit for the situation" },
-    { "word": "PERFECT", "definition": "Exactly right — not just good, but the best possible match for this customer" },
-    { "word": "MATCH", "definition": "To fit with what someone needs — when a product is right for a customer, it does this" },
-    { "word": "IDEAL", "definition": "The best possible choice for a specific situation — used when you explain why something is the right fit" },
-    { "word": "CHOICE", "definition": "The decision you make when you pick one thing from several options — also used to say someone decided well" }
+    {
+      "word": "RECOMMEND",
+      "definition": "To say that something is a good choice for someone — giving your professional opinion, not just showing options"
+    },
+    {
+      "word": "SUGGEST",
+      "definition": "To give someone an idea or option to think about — softer than recommend, more like opening a door"
+    },
+    {
+      "word": "OPTION",
+      "definition": "One of the things you can choose from — when there are several plans or products, each one is this"
+    },
+    {
+      "word": "SUITABLE",
+      "definition": "Right for what someone needs — not too much, not too little, a good fit for the situation"
+    },
+    {
+      "word": "PERFECT",
+      "definition": "Exactly right — not just good, but the best possible match for this customer"
+    },
+    {
+      "word": "MATCH",
+      "definition": "To fit with what someone needs — when a product is right for a customer, it does this"
+    },
+    {
+      "word": "IDEAL",
+      "definition": "The best possible choice for a specific situation — used when you explain why something is the right fit"
+    },
+    {
+      "word": "CHOICE",
+      "definition": "The decision you make when you pick one thing from several options — also used to say someone decided well"
+    }
   ],
   "fillBlankExercise": [
     {
@@ -294,27 +318,6 @@
       "correctIndex": 1
     }
   ],
-  "pitchCorner": {
-    "title": "Follow-Up Email",
-    "context": "After speaking with Marcus, Riley sends him a short email with her recommendation. Read the email and fill in the missing words.",
-    "passage": [
-      {
-        "before": "Hi Marcus,\n\nThank you for our conversation today. It was great to learn more about your team.\n\nBased on what you told me, I",
-        "after": "the Standard Plan for your team. It has automatic reporting, which will save you time every week.",
-        "answer": "recommend"
-      },
-      {
-        "before": "I think this plan is a great",
-        "after": "for a team of five people with your budget. It covers everything you need without paying for features you will not use.",
-        "answer": "match"
-      },
-      {
-        "before": "Most of our customers in your situation choose this plan — and I think it is the",
-        "after": "option for where you are right now.\n\nLet me know if you have any questions. I am happy to help!\n\nBest wishes,\nRiley",
-        "answer": "ideal"
-      }
-    ]
-  },
   "groupActivities": {
     "chooseResponse": {
       "instructions": "Work in pairs. Read each customer message and choose the best response. Talk about why before you click.",
@@ -354,12 +357,30 @@
     "spotTheMistake": {
       "instructions": "Read this conversation. There are 3 mistakes. Find them and correct them. Work in pairs.",
       "dialogue": [
-        { "speaker": "Customer", "text": "Hi. I need help choosing a plan. We are a team of eight people." },
-        { "speaker": "Salesperson", "text": "No problem! Can I ask — what is your price?" },
-        { "speaker": "Customer", "text": "Around three hundred euros a month." },
-        { "speaker": "Salesperson", "text": "Okay. Based on what I told you, I recommend the Standard Plan. It works well for teams of your size." },
-        { "speaker": "Customer", "text": "Is it inside my budget?" },
-        { "speaker": "Salesperson", "text": "Yes — it is two hundred and fifty euros. I think it is a perfect match for your needs. Most of our products in your situation choose this plan." }
+        {
+          "speaker": "Customer",
+          "text": "Hi. I need help choosing a plan. We are a team of eight people."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "No problem! Can I ask — what is your price?"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Around three hundred euros a month."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "Okay. Based on what I told you, I recommend the Standard Plan. It works well for teams of your size."
+        },
+        {
+          "speaker": "Customer",
+          "text": "Is it inside my budget?"
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "Yes — it is two hundred and fifty euros. I think it is a perfect match for your needs. Most of our products in your situation choose this plan."
+        }
       ],
       "mistakes": [
         {
@@ -402,5 +423,70 @@
         }
       ]
     }
+  },
+  "completeSentenceExercise": {
+    "instructions": "Choose the correct answer to complete each sentence. Then read the sentence aloud.",
+    "items": [
+      {
+        "sentence": "I _____ the Standard Plan for your team — it has everything you need.",
+        "options": [
+          "match",
+          "recommend",
+          "suggest"
+        ],
+        "correctIndex": 1,
+        "explanation": "Recommend is the most direct and professional word when you give your clear opinion on the best choice. Suggest is softer — you are offering an idea. Match describes a product fitting someone's needs, not a person giving advice."
+      },
+      {
+        "sentence": "This plan is a good _____ for your needs — it has all the features you asked about.",
+        "options": [
+          "match",
+          "choice",
+          "option"
+        ],
+        "correctIndex": 0,
+        "explanation": "Match means the plan fits what the customer needs. Choice is a decision you make. Option is one thing you can choose from. Here, match is the most natural word — it connects the product directly to the customer's specific needs."
+      },
+      {
+        "sentence": "Have you _____ about the Premium Plan? It has more features for a similar price.",
+        "options": [
+          "think",
+          "thought",
+          "thinking"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct phrase is 'Have you thought about'. This is the present perfect tense: have + past participle (thought). Think and thinking are not correct here because the verb have requires the past participle."
+      },
+      {
+        "sentence": "Based on what you _____ me, the Standard Plan is the right choice for you.",
+        "options": [
+          "say",
+          "tell",
+          "told"
+        ],
+        "correctIndex": 2,
+        "explanation": "Told is the past tense of tell. We use it to refer to something the customer said earlier in the conversation. The phrase is always 'based on what you told me' — not 'say' (present) or 'tell' (infinitive)."
+      },
+      {
+        "sentence": "The Basic Plan does not have automatic reports — it is not _____ for your needs.",
+        "options": [
+          "suitable",
+          "ideal",
+          "option"
+        ],
+        "correctIndex": 0,
+        "explanation": "Suitable means right for the situation. It is an adjective and fits perfectly here. Ideal also works as an adjective, but suitable is the most natural word when something does NOT fit. Option is a noun, not an adjective — you cannot say 'it is not option'."
+      },
+      {
+        "sentence": "That is a great _____! I think you made the right decision.",
+        "options": [
+          "choose",
+          "choosing",
+          "choice"
+        ],
+        "correctIndex": 2,
+        "explanation": "Choice is a noun — the word that follows 'a great _____'. Choose is a verb (I choose) and choosing is a verb form (I am choosing). Only a noun can follow 'a great', so choice is the correct answer."
+      }
+    ]
   }
 }

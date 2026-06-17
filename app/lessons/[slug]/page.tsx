@@ -17,6 +17,7 @@ import RegisterSection from '@/components/RegisterSection';
 import ReadingPassageSection from '@/components/ReadingPassageSection';
 import GroupActivitiesSection from '@/components/GroupActivitiesSection';
 import PitchCornerSection from '@/components/exercises/PitchCornerSection';
+import CompleteSentenceSection from '@/components/exercises/CompleteSentenceSection';
 import DealClinicSection from '@/components/DealClinicSection';
 
 const DEFAULT_TABS = ['Vocabulary', 'Phrasal Verbs', 'Videos', 'Dialogue', 'Exercises'] as const;
@@ -28,6 +29,7 @@ interface ExerciseScore {
 
 interface Scores {
   pitchCorner?: ExerciseScore;
+  completeSentence?: ExerciseScore;
   matching?: ExerciseScore;
   fillBlank?: ExerciseScore;
   multipleChoice?: ExerciseScore;
@@ -52,7 +54,9 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   const [visitedTabs, setVisitedTabs] = useState<Set<number>>(new Set([0]));
   const [scores, setScores] = useState<Scores>({});
   const hasPitchCorner = !!lesson.pitchCorner;
+  const hasCompleteSentence = !!lesson.completeSentenceExercise;
   const [pitchCornerDone, setPitchCornerDone] = useState(false);
+  const [completeSentenceDone, setCompleteSentenceDone] = useState(false);
   const [showFillBlank, setShowFillBlank] = useState(false);
   const [showMultipleChoice, setShowMultipleChoice] = useState(false);
   const [showCompletion, setShowCompletion] = useState(false);
@@ -66,6 +70,11 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   const handlePitchCornerComplete = useCallback((score: number, total: number) => {
     setScores((prev) => ({ ...prev, pitchCorner: { score, total } }));
     setPitchCornerDone(true);
+  }, []);
+
+  const handleCompleteSentenceComplete = useCallback((score: number, total: number) => {
+    setScores((prev) => ({ ...prev, completeSentence: { score, total } }));
+    setCompleteSentenceDone(true);
   }, []);
 
   const handleMatchingComplete = useCallback((score: number, total: number) => {
@@ -83,7 +92,8 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   }, []);
 
   const allDone = !!(scores.matching && scores.fillBlank && scores.multipleChoice) &&
-    (!hasPitchCorner || !!scores.pitchCorner);
+    (!hasPitchCorner || !!scores.pitchCorner) &&
+    (!hasCompleteSentence || completeSentenceDone);
   const progress = showCompletion
     ? 100
     : Math.round((visitedTabs.size / TABS.length) * 100);
@@ -96,6 +106,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           lessonTitle={lesson.title}
           scores={[
             ...(scores.pitchCorner ? [{ label: 'Pitch Corner', score: scores.pitchCorner.score, total: scores.pitchCorner.total }] : []),
+            ...(scores.completeSentence ? [{ label: 'Complete the Sentence', score: scores.completeSentence.score, total: scores.completeSentence.total }] : []),
             { label: 'Matching Exercise', score: scores.matching.score, total: scores.matching.total },
             { label: 'Fill in the Blank', score: scores.fillBlank.score, total: scores.fillBlank.total },
             { label: 'Multiple Choice', score: scores.multipleChoice.score, total: scores.multipleChoice.total },
@@ -264,7 +275,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           />
           <div className="space-y-6">
 
-            {/* Pitch Corner — shown first when lesson has one; Matching unlocks after */}
+            {/* Pitch Corner — shown first when lesson has one */}
             {lesson.pitchCorner && (
               <ExerciseCard
                 number={1}
@@ -278,15 +289,29 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
               </ExerciseCard>
             )}
 
-            {(!hasPitchCorner || pitchCornerDone) && (
-            <ExerciseCard number={hasPitchCorner ? 2 : 1} title="Matching" description="Click a word, then click its correct definition.">
+            {/* Complete the Sentence — shown first when lesson has one */}
+            {lesson.completeSentenceExercise && (
+              <ExerciseCard
+                number={1}
+                title="Complete the Sentence"
+                description="Choose the correct answer to complete each sentence."
+              >
+                <CompleteSentenceSection
+                  exercise={lesson.completeSentenceExercise}
+                  onComplete={handleCompleteSentenceComplete}
+                />
+              </ExerciseCard>
+            )}
+
+            {(!hasPitchCorner && !hasCompleteSentence || pitchCornerDone || completeSentenceDone) && (
+            <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 2 : 1} title="Matching" description="Click a word, then click its correct definition.">
               <MatchingExercise pairs={lesson.matchingExercise} onComplete={handleMatchingComplete} />
             </ExerciseCard>
             )}
 
             {showFillBlank && (
               <ExerciseCard
-                number={hasPitchCorner ? 3 : 2}
+                number={hasPitchCorner || hasCompleteSentence ? 3 : 2}
                 title="Fill in the Blank"
                 description="Drag the correct words from the word bank to complete each sentence."
               >
@@ -299,7 +324,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
 
             {showMultipleChoice && (
               <ExerciseCard
-                number={hasPitchCorner ? 4 : 3}
+                number={hasPitchCorner || hasCompleteSentence ? 4 : 3}
                 title="Multiple Choice"
                 description="Choose the best answer for each question about the dialogue."
               >
