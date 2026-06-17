@@ -250,7 +250,8 @@ ${dialogueEntries}
 
   matchingExercise: ${JSON.stringify(spec.matchingExercise || [], null, 4)},
   fillBlankExercise: ${JSON.stringify(spec.fillBlankExercise || [], null, 4)},
-  multipleChoiceExercise: ${JSON.stringify(spec.multipleChoiceExercise || [], null, 4)},${spec.pitchCorner ? `
+  multipleChoiceExercise: ${JSON.stringify(spec.multipleChoiceExercise || [], null, 4)},${spec.warmUp ? `
+  warmUp: ${JSON.stringify(spec.warmUp, null, 4)},` : ''}${spec.pitchCorner ? `
   pitchCorner: ${JSON.stringify(spec.pitchCorner, null, 4)},` : ''}${spec.completeSentenceExercise ? `
   completeSentenceExercise: ${JSON.stringify(spec.completeSentenceExercise, null, 4)},` : ''}${spec.dealClinic ? `
   dealClinic: ${JSON.stringify(spec.dealClinic, null, 4)},` : ''}${spec.groupActivities ? `

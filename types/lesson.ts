@@ -179,6 +179,10 @@ export interface DealClinic {
   transcript: DealClinicLine[];
 }
 
+export interface WarmUp {
+  questions: string[];
+}
+
 export interface CompleteSentenceItem {
   sentence: string;   // use _____ to mark the blank
   options: string[];  // exactly 3 options
@@ -252,6 +256,8 @@ export interface Lesson {
   matchingExercise: MatchPair[];
   fillBlankExercise: FillBlankItem[];
   multipleChoiceExercise: MultipleChoiceItem[];
+  /** Optional warm-up discussion questions shown before vocabulary. */
+  warmUp?: WarmUp;
   /** Optional pitch/email/presentation fill-in-the-blank passage. Sales English only. */
   pitchCorner?: PitchCorner;
   /** Optional complete-the-sentence exercise — 6 gap-fill items with 3 options each. A1-A2 only. */

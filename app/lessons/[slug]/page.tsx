@@ -16,6 +16,7 @@ import GrammarFocusSection from '@/components/GrammarFocusSection';
 import RegisterSection from '@/components/RegisterSection';
 import ReadingPassageSection from '@/components/ReadingPassageSection';
 import GroupActivitiesSection from '@/components/GroupActivitiesSection';
+import WarmUpSection from '@/components/WarmUpSection';
 import PitchCornerSection from '@/components/exercises/PitchCornerSection';
 import CompleteSentenceSection from '@/components/exercises/CompleteSentenceSection';
 import DealClinicSection from '@/components/DealClinicSection';
@@ -46,10 +47,12 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   const baseTabs = rawBase.map((t) =>
     t === 'Videos' && lesson.registerAwareness ? 'Register' : t
   );
-  const withDealClinic = lesson.dealClinic ? [...baseTabs, 'Deal Clinic'] : baseTabs;
+  const withWarmUp = lesson.warmUp ? ['Warm Up', ...baseTabs] : baseTabs;
+  const withDealClinic = lesson.dealClinic ? [...withWarmUp, 'Deal Clinic'] : withWarmUp;
   const TABS = lesson.groupActivities
     ? ([...withDealClinic, 'Group Activities'] as const)
     : withDealClinic;
+  const wo = lesson.warmUp ? 1 : 0; // warmUp offset — shifts all hard-coded tab indices
   const [activeTab, setActiveTab] = useState(0);
   const [visitedTabs, setVisitedTabs] = useState<Set<number>>(new Set([0]));
   const [scores, setScores] = useState<Scores>({});
@@ -192,8 +195,18 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
       {/* ── All sections ── */}
       <main className="max-w-5xl mx-auto px-4 py-8">
 
+        {/* Warm Up — only when lesson has warmUp */}
+        {lesson.warmUp && (
+          <section className={activeTab === 0 ? 'block' : 'hidden'}>
+            <WarmUpSection
+              warmUp={lesson.warmUp}
+              onStart={() => goToTab(1)}
+            />
+          </section>
+        )}
+
         {/* Vocabulary */}
-        <section className={activeTab === 0 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo ? 'block' : 'hidden'}>
           <SectionHeader
             title="Vocabulary"
             subtitle={`${lesson.vocabulary.length} key words for this lesson`}
@@ -209,11 +222,11 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           )}
         </section>
 
-        {/* Tab 1 — Phrasal Verbs / Related Terms */}
-        <section className={activeTab === 1 ? 'block' : 'hidden'}>
+        {/* Tab 1+wo — Phrasal Verbs / Related Terms */}
+        <section className={activeTab === wo + 1 ? 'block' : 'hidden'}>
           <SectionHeader
-            title={TABS[1]}
-            subtitle={`${lesson.phrasalVerbs.length} ${TABS[1].toLowerCase()} and their meanings`}
+            title={TABS[wo + 1]}
+            subtitle={`${lesson.phrasalVerbs.length} ${TABS[wo + 1].toLowerCase()} and their meanings`}
           />
           <div className="flex flex-col gap-6">
             {lesson.phrasalVerbs.map((verb, i) => (
@@ -222,11 +235,11 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           </div>
         </section>
 
-        {/* Tab 2 — Videos / Register */}
-        <section className={activeTab === 2 ? 'block' : 'hidden'}>
+        {/* Tab 2+wo — Videos / Register */}
+        <section className={activeTab === wo + 2 ? 'block' : 'hidden'}>
           {lesson.registerAwareness ? (
             <>
-              <SectionHeader title={TABS[2]} subtitle="How these words change across different contexts" />
+              <SectionHeader title={TABS[wo + 2]} subtitle="How these words change across different contexts" />
               <RegisterSection entries={lesson.registerAwareness} traps={lesson.registerTraps} />
             </>
           ) : (
@@ -241,12 +254,12 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           )}
         </section>
 
-        {/* Tab 3 — Dialogue / In Context */}
-        <section className={activeTab === 3 ? 'block' : 'hidden'}>
+        {/* Tab 3+wo — Dialogue / In Context */}
+        <section className={activeTab === wo + 3 ? 'block' : 'hidden'}>
           {lesson.readingPassage ? (
             <>
               <SectionHeader
-                title={TABS[3]}
+                title={TABS[wo + 3]}
                 subtitle="Read the passage — highlighted words are from this lesson"
               />
               <ReadingPassageSection
@@ -268,7 +281,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         </section>
 
         {/* Exercises */}
-        <section className={activeTab === 4 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + 4 ? 'block' : 'hidden'}>
           <SectionHeader
             title="Exercises"
             subtitle="Complete all three exercises to see your final score"

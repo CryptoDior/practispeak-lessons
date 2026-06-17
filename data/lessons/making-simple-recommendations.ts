@@ -353,6 +353,13 @@ export const makingSimpleRecommendations: Lesson = {
         "correctIndex": 1
     }
 ],
+  warmUp: {
+    "questions": [
+        "When you buy something — like a phone or a laptop — do you prefer to choose yourself, or do you like it when someone makes a recommendation for you? Why?",
+        "What makes a recommendation feel helpful? What makes it feel pushy?",
+        "Think of a time when someone recommended something to you at work. What did they say? Did you follow their advice?"
+    ]
+},
   completeSentenceExercise: {
     "instructions": "Choose the correct answer to complete each sentence. Then read the sentence aloud.",
     "items": [
