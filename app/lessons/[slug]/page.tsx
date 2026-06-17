@@ -200,6 +200,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           <section className={activeTab === 0 ? 'block' : 'hidden'}>
             <WarmUpSection
               warmUp={lesson.warmUp}
+              heroImage={lesson.heroImage}
               onStart={() => goToTab(1)}
             />
           </section>

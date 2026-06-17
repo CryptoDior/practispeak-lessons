@@ -6,15 +6,28 @@ const ICONS = ['💬', '🤔', '💡'];
 interface Props {
   warmUp: WarmUp;
   onStart: () => void;
+  heroImage?: string;
 }
 
-export default function WarmUpSection({ warmUp, onStart }: Props) {
+export default function WarmUpSection({ warmUp, onStart, heroImage }: Props) {
   return (
     <div className="max-w-2xl mx-auto">
+
+      {/* 1:1 image placeholder */}
+      <div className="aspect-square w-full rounded-[24px] overflow-hidden mb-8 bg-gradient-to-br from-[#D6E4FF] to-[#B8CEFF]">
+        {heroImage ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={heroImage} alt="" className="w-full h-full object-cover" />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center">
+            <span className="text-[#066EF5] opacity-20 font-extrabold" style={{ fontSize: 'clamp(80px, 20vw, 160px)' }}>
+              ?
+            </span>
+          </div>
+        )}
+      </div>
+
       <div className="text-center mb-10">
-        <div className="w-14 h-14 bg-[#EEF3FF] rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
-          🌅
-        </div>
         <h2 className="text-2xl font-extrabold text-gray-900 mb-2">Warm Up</h2>
         <p className="text-sm font-semibold text-gray-400">
           Discuss these questions with your partner before you start the lesson.
