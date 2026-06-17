@@ -456,16 +456,22 @@ function FinishLineCard({
       </div>
 
       {/* Customer line */}
-      <div className="flex justify-end mb-3">
-        <div className="bg-[#F0F4FF] rounded-[14px] rounded-tr-sm px-4 py-3 max-w-[85%]">
+      <div className="flex items-end justify-end gap-3 mb-3">
+        <div className="bg-[#F0F4FF] rounded-[14px] rounded-tr-sm px-4 py-3 max-w-[75%]">
           <p className="text-xs font-extrabold text-[#066EF5] mb-1">Customer</p>
           <p className="text-base font-semibold text-gray-800">&ldquo;{item.customerLine}&rdquo;</p>
+        </div>
+        <div className="w-14 h-14 rounded-full flex-shrink-0 flex items-center justify-center font-extrabold text-lg shadow-sm bg-[#066EF5] text-white">
+          C
         </div>
       </div>
 
       {/* Salesperson start */}
-      <div className="flex justify-start mb-3">
-        <div className="bg-gray-50 border border-gray-100 rounded-[14px] rounded-tl-sm px-4 py-3 max-w-[85%]">
+      <div className="flex items-end justify-start gap-3 mb-3">
+        <div className="w-14 h-14 rounded-full flex-shrink-0 flex items-center justify-center font-extrabold text-lg shadow-sm bg-gray-100 text-gray-500">
+          S
+        </div>
+        <div className="bg-gray-50 border border-gray-100 rounded-[14px] rounded-tl-sm px-4 py-3 max-w-[75%]">
           <p className="text-xs font-extrabold text-gray-400 mb-1">Salesperson</p>
           <p className="text-base font-semibold text-gray-800">
             &ldquo;{item.salespersonStart}{" "}
