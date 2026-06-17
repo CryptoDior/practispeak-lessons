@@ -1,0 +1,486 @@
+import { Lesson } from '@/types/lesson';
+
+export const confirmingCustomerDetails: Lesson = {
+  slug: 'confirming-customer-details',
+  title: 'Confirming Customer Details',
+  subtitle: "How to ask for, repeat, and confirm a customer's name, email, and phone number",
+  level: 'A1-A2',
+  description: 'Every customer relationship starts with getting the details right. This lesson teaches the simple, professional language you need to ask for a name, email address, and phone number — and how to read them back to make sure everything is correct before you save it.',
+  heroImage: '/images/confirming-customer-details-hero.png',
+
+  vocabulary: [
+    {
+      word: 'DETAILS',
+      partOfSpeech: 'noun',
+      definition: 'Information about a person or order — for example, their name, email address, and phone number. In sales, you always confirm the details before you create an account.',
+      example: 'Riley said: Before I set up your account, I need to confirm a few details. Could you give me your full name, email, and phone number?',
+      imageSlug: '/images/details.png',
+    },
+    {
+      word: 'SPELL',
+      partOfSpeech: 'verb',
+      definition: 'To say or write the letters of a word one by one. You ask a customer to spell their name when you want to write it correctly.',
+      example: 'Marcus said his last name was Oliveira. Riley said: Could you spell that for me? Marcus said: O-L-I-V-E-I-R-A.',
+      imageSlug: '/images/spell.png',
+    },
+    {
+      word: 'CORRECT',
+      partOfSpeech: 'adjective',
+      definition: 'Right and without any mistakes. After you repeat the details back, you ask: Is that correct?',
+      example: 'Riley read the email back to Marcus and asked: Is that correct? Marcus checked and said: Yes, that is correct — you have it right.',
+      imageSlug: '/images/correct.png',
+    },
+    {
+      word: 'REPEAT',
+      partOfSpeech: 'verb',
+      definition: 'To say something again. You ask a customer to repeat a detail when you did not hear it clearly or want to double-check.',
+      example: 'Riley did not hear the phone number clearly. She said: Could you repeat that for me? I want to make sure I have the right number.',
+      imageSlug: '/images/repeat.png',
+    },
+    {
+      word: 'REGISTERED',
+      partOfSpeech: 'adjective',
+      definition: "Officially recorded in a system. A registered email is the one linked to a customer's account — it is the one they use to log in.",
+      example: 'Riley asked: Is this your registered email? Marcus said: Yes — that is the one I use for everything. My login and my invoices all go there.',
+      imageSlug: '/images/registered.png',
+    },
+    {
+      word: 'UPDATE',
+      partOfSpeech: 'verb',
+      definition: 'To change information in a system to make it correct and current. When a customer gives you new details, you update their profile.',
+      example: 'Marcus gave Riley his new phone number. Riley said: Thank you — I will update that in our system right now. You will see the change in your account.',
+      imageSlug: '/images/update.png',
+    },
+    {
+      word: 'CONTACT',
+      partOfSpeech: 'noun',
+      definition: 'Information used to reach someone — such as their email address or phone number. In B2B sales, you always collect contact details for every new customer.',
+      example: 'Riley said: I need your contact details before I can create the account. Can I get your email and phone number?',
+      imageSlug: '/images/contact.png',
+    },
+    {
+      word: 'DOUBLE-CHECK',
+      partOfSpeech: 'verb',
+      definition: 'To check something a second time to make sure it is right. It is always good to double-check details before saving them.',
+      example: 'Riley finished writing the email address and said: Let me double-check that — marcus.oliveira@techcorp.com. Is that right?',
+      imageSlug: '/images/double-check.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'COULD YOU SPELL THAT FOR ME?',
+      definition: 'Ask this when you need to write a name, email, or word correctly — letter by letter. It is professional and shows you care about accuracy.',
+      example: 'Marcus gave his last name. Riley said: Could you spell that for me? I want to make sure I write every letter correctly in the system.',
+      imageSlug: '/images/could-you-spell-that-for-me.png',
+    },
+    {
+      phrase: 'LET ME READ THAT BACK TO YOU',
+      definition: "Use this before you ask 'Is that correct?' You repeat the details out loud so the customer can hear them and catch any mistakes.",
+      example: 'Riley said: Let me read that back to you — marcus.oliveira@techcorp.com, plus 44 7911 123456. Is everything correct?',
+      imageSlug: '/images/let-me-read-that-back-to-you.png',
+    },
+    {
+      phrase: 'IS THAT CORRECT?',
+      definition: 'A simple, direct question to confirm that the information you have is right. Always ask this after you read the details back.',
+      example: 'Riley repeated the email address and asked: Is that correct? Marcus listened and said: Yes, that is correct. You have it exactly right.',
+      imageSlug: '/images/is-that-correct.png',
+    },
+    {
+      phrase: 'WHAT IS THE BEST EMAIL TO REACH YOU?',
+      definition: "A professional way to ask for an email address. 'Best email' shows you understand the customer may have more than one.",
+      example: 'Riley asked: What is the best email to reach you? Marcus said: Use my work email — marcus.oliveira@techcorp.com. That is the one I check every day.',
+      imageSlug: '/images/what-is-the-best-email-to-reach-you.png',
+    },
+    {
+      phrase: 'COULD I TAKE YOUR PHONE NUMBER?',
+      definition: "A polite, standard way to ask for a phone number. 'Could I take' is softer than 'Give me' and sounds more professional.",
+      example: 'Riley had the name and email. She said: Could I take your phone number as well? I want to have a way to call you if there is ever an issue.',
+      imageSlug: '/images/could-i-take-your-phone-number.png',
+    },
+    {
+      phrase: 'I WILL UPDATE THAT IN OUR SYSTEM',
+      definition: 'Say this after the customer confirms their details. It tells them you have saved the information and everything is official.',
+      example: 'Marcus confirmed everything was correct. Riley said: Perfect — I will update that in our system now. You will receive a confirmation email within a few minutes.',
+      imageSlug: '/images/i-will-update-that-in-our-system.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Marcus, before I set up your account, I need to confirm a few [[details:information about a person — like name, email, and phone number]]. Is that okay?',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Of course. Go ahead.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Could I take your full name, please?',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'It is Marcus Oliveira.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Could you [[spell:to say the letters of a word one by one]] that for me? The last name.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Sure — O-L-I-V-E-I-R-A.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Got it, thank you. And what is the best email to reach you?',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'It is marcus.oliveira@techcorp.com.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Let me read that back to you — marcus.oliveira@techcorp.com. Is that [[correct:right and without any mistakes]]?',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Yes, that is correct.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Perfect. And could I take your phone number?',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Yes — it is plus 44 7911 123456.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Let me [[double-check:to check something a second time to make sure it is right]] — plus 44 7911 123456. Is that right?',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Yes, perfect.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Great. I will [[update:to change information in a system to make it correct]] that in our system now. You are all set, Marcus.',
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "details",
+        "definition": "information about a person, like name, email, and phone number"
+    },
+    {
+        "word": "spell",
+        "definition": "to say the letters of a word one by one"
+    },
+    {
+        "word": "correct",
+        "definition": "right and without any mistakes"
+    },
+    {
+        "word": "repeat",
+        "definition": "to say something again to check it is right"
+    },
+    {
+        "word": "registered",
+        "definition": "officially recorded in a system"
+    },
+    {
+        "word": "update",
+        "definition": "to change information in a system to make it current"
+    },
+    {
+        "word": "contact",
+        "definition": "information used to reach someone, like email or phone"
+    },
+    {
+        "word": "double-check",
+        "definition": "to check something a second time to be sure"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "Before I set up your account, I need to confirm a few ",
+        "after": " — name, email, and phone number.",
+        "answer": "details"
+    },
+    {
+        "before": "Could you ",
+        "after": " your last name for me? I want to write every letter correctly.",
+        "answer": "spell"
+    },
+    {
+        "before": "Let me read that back to you. Is that ",
+        "after": "?",
+        "answer": "correct"
+    },
+    {
+        "before": "Could you ",
+        "after": " your phone number? I did not hear it clearly.",
+        "answer": "repeat"
+    },
+    {
+        "before": "Is this your ",
+        "after": " email — the one linked to your account?",
+        "answer": "registered"
+    },
+    {
+        "before": "Thank you. I will ",
+        "after": " that in our system right now.",
+        "answer": "update"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "What is Marcus's last name?",
+        "options": [
+            "Martinez",
+            "Oliveira",
+            "Fernandez"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Riley read back to Marcus?",
+        "options": [
+            "His phone number",
+            "His email address",
+            "His company name"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why does Riley ask Marcus to spell his last name?",
+        "options": [
+            "Because she does not know him",
+            "To write every letter correctly in the system",
+            "Because it is a very long name"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Riley do at the end of the dialogue?",
+        "options": [
+            "She sends Marcus an invoice",
+            "She calls Marcus's manager",
+            "She updates the details in the system"
+        ],
+        "correctIndex": 2
+    }
+],
+  warmUp: {
+    "questions": [
+        "When you sign up for a new service at work, what information do they usually ask for? Name, email, phone number?",
+        "Have you ever had a problem because someone wrote your name or email incorrectly? What happened?",
+        "Is it easy to spell your name in English? How do you usually help people spell it correctly?"
+    ]
+},
+  completeSentenceExercise: {
+    "instructions": "Choose the correct word to complete each sentence. Only one answer is correct.",
+    "items": [
+        {
+            "sentence": "Could you _____ your last name for me?",
+            "options": [
+                "say",
+                "spell",
+                "write"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Spell' means to give each letter one by one — exactly what you need to write a name correctly. 'Say' just means to speak. 'Write' is something the customer cannot do for you over the phone."
+        },
+        {
+            "sentence": "Let me read that _____ to you — is everything correct?",
+            "options": [
+                "again",
+                "back",
+                "over"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Read that back' is the fixed phrase — it means repeating information you just received so the other person can confirm it. 'Again' and 'over' do not work in this phrase."
+        },
+        {
+            "sentence": "Is this your _____ email — the one linked to your account?",
+            "options": [
+                "main",
+                "work",
+                "registered"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Registered' means officially recorded in the system. It is the specific word for the email connected to an account. 'Main' and 'work' are too informal for this context."
+        },
+        {
+            "sentence": "I will _____ that in our system right now.",
+            "options": [
+                "change",
+                "refresh",
+                "update"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Update' is the correct professional word for adding or changing information in a system. 'Refresh' means reloading a page. 'Change' is too general."
+        },
+        {
+            "sentence": "Could you _____ your phone number? I did not hear it clearly.",
+            "options": [
+                "repeat",
+                "say",
+                "give"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Repeat' means to say something again so you can check it. It is the most natural and professional word here. 'Say' and 'give' do not imply you want to confirm — just hear it once."
+        },
+        {
+            "sentence": "Before I set up your account, I need to confirm a few _____.",
+            "options": [
+                "facts",
+                "details",
+                "things"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Details' is the correct word for specific information like name, email, and phone number. 'Facts' is for general information. 'Things' is too informal for a professional conversation."
+        }
+    ]
+},
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Read what the customer says. Choose the best response from the three options.",
+        "items": [
+            {
+                "customerLine": "My last name is Johansson.",
+                "options": [
+                    "Could you spell that for me? I want to write every letter correctly.",
+                    "Thank you, I have it.",
+                    "Is that your registered name?"
+                ],
+                "correctIndex": 0,
+                "explanation": "Option A is the right move — an unusual or unfamiliar name should always be spelled out to avoid mistakes. Option B assumes you heard it correctly without checking. Option C is irrelevant at this point."
+            },
+            {
+                "customerLine": "My email is thomas.johansson@globalcorp.com.",
+                "options": [
+                    "Is that your registered email?",
+                    "Let me read that back to you — thomas.johansson@globalcorp.com. Is that correct?",
+                    "Could I take your phone number?"
+                ],
+                "correctIndex": 1,
+                "explanation": "Option B is correct — always read the email back to confirm it before saving. An incorrect email means the customer will never receive anything. Option A skips the confirmation step. Option C moves on too quickly."
+            },
+            {
+                "customerLine": "Yes, all the details are correct.",
+                "options": [
+                    "Could you spell that again?",
+                    "Let me double-check the email.",
+                    "I will update that in our system now."
+                ],
+                "correctIndex": 2,
+                "explanation": "Option C is the right closing step — the customer has confirmed everything, so you save it and tell them. Option A goes backwards — you already confirmed. Option B repeats a step that is already done."
+            }
+        ]
+    },
+    "spotTheMistake": {
+        "instructions": "Read the conversation. Three lines have a mistake. Can you find them?",
+        "dialogue": [
+            {
+                "speaker": "Alex",
+                "text": "Hi. I need to confirm a few details before I set up your account."
+            },
+            {
+                "speaker": "Sam",
+                "text": "Sure. My last name is Wilson."
+            },
+            {
+                "speaker": "Alex",
+                "text": "Could you say your last name for me? Letter by letter."
+            },
+            {
+                "speaker": "Sam",
+                "text": "W-I-L-S-O-N. And my email is sam.wilson@company.com."
+            },
+            {
+                "speaker": "Alex",
+                "text": "Let me read that front to you — sam.wilson@company.com. Is that correct?"
+            },
+            {
+                "speaker": "Alex",
+                "text": "Great. I will refresh that in our system now."
+            }
+        ],
+        "mistakes": [
+            {
+                "lineIndex": 2,
+                "incorrectText": "say",
+                "correction": "spell",
+                "explanation": "The correct phrase is 'Could you spell that for me?' — not 'say'. 'Spell' means to give each letter one by one. 'Say' just means to speak, which does not help you write the name correctly."
+            },
+            {
+                "lineIndex": 4,
+                "incorrectText": "front",
+                "correction": "back",
+                "explanation": "The phrase is 'read that back to you' — not 'front'. 'Reading back' means repeating the information you just received so the customer can check it is correct."
+            },
+            {
+                "lineIndex": 5,
+                "incorrectText": "refresh",
+                "correction": "update",
+                "explanation": "'Update' is the correct word for saving new information in a system. 'Refresh' means reloading a page — it has a completely different meaning and would confuse the customer."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The salesperson starts a sentence. Work with your partner to finish it naturally.",
+        "items": [
+            {
+                "customerLine": "My last name is Kowalski.",
+                "salespersonStart": "Could you spell...",
+                "suggestedCompletion": "that for me? I want to write every letter correctly in our system."
+            },
+            {
+                "customerLine": "My email is anna.kowalski@eurocorp.com.",
+                "salespersonStart": "Let me read that back — anna.kowalski@eurocorp.com. Is...",
+                "suggestedCompletion": "that correct? I want to make sure I have the right address before I save it."
+            },
+            {
+                "customerLine": "Yes, everything looks right.",
+                "salespersonStart": "Perfect. I will update...",
+                "suggestedCompletion": "that in our system now. You are all set — you will receive a confirmation email shortly."
+            }
+        ]
+    }
+},
+};
