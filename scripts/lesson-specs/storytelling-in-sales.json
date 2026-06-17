@@ -1,0 +1,514 @@
+{
+  "exportName": "storytellingInSales",
+  "title": "Storytelling in Sales",
+  "subtitle": "Problem → tension → solution → outcome: the structure that makes prospects listen",
+  "level": "C1-C2",
+  "description": "Data persuades the analytical brain. Stories persuade the decision-making brain. The most effective salespeople do not just describe what their product does — they tell a story about someone who had the problem the prospect has right now, what happened when it went unresolved, the moment things changed, and what life looked like after. This lesson teaches the four-part story structure and the language to deliver it naturally in meetings, emails, and objection-handling conversations.",
+  "dialogueSubtitle": "Riley tells Marcus a customer story — and uses it to make the case without ever asking him to imagine anything",
+  "vocabulary": [
+    {
+      "word": "narrative",
+      "partOfSpeech": "noun",
+      "definition": "A structured account that moves through a beginning, middle, and end. In sales, a narrative is more persuasive than presenting facts in isolation — because it gives the listener a way to locate themselves in the story and imagine the outcome for their own situation.",
+      "example": "Riley did not list the product features. She built a narrative: a specific company, a real problem, a moment of change, and a measurable result. By the end, Marcus had not been sold to — he had been shown what was possible."
+    },
+    {
+      "word": "tension",
+      "partOfSpeech": "noun",
+      "definition": "The sense of risk, urgency, or unresolved conflict that makes a story worth hearing. Without tension, there is no reason for the listener to care about the outcome. Tension in a sales story comes from showing what was at stake if the problem was not solved.",
+      "example": "Riley did not rush past the problem. She held the tension: the team was losing two hours per rep per day, the quarter-end was approaching, and the VP of Sales was asking for answers. That pressure made the solution feel necessary, not optional."
+    },
+    {
+      "word": "stakes",
+      "partOfSpeech": "noun",
+      "definition": "What was at risk if the problem remained unresolved — the cost of inaction in human, financial, or strategic terms. High stakes are what make tension feel real. A story without visible stakes is a description of a problem, not a story about one.",
+      "example": "The stakes in Riley's story were specific: the company was about to lose its third enterprise client in a row to a competitor with faster response times. That detail made the problem impossible to ignore — because Marcus recognised the same pressure in his own business."
+    },
+    {
+      "word": "turning point",
+      "partOfSpeech": "noun",
+      "definition": "The moment in a story where something changes — the decision, discovery, or intervention that shifts the trajectory from problem toward resolution. In a sales story, the turning point is usually when the solution enters, but it should feel like a story moment, not a product pitch.",
+      "example": "Riley described the turning point not as 'they implemented our software' but as 'the week their ops lead stopped spending Fridays building manual reports and started spending them coaching the team.' That shift — from describing a feature to naming a moment — made Marcus lean forward."
+    },
+    {
+      "word": "resolution",
+      "partOfSpeech": "noun",
+      "definition": "The point in a story where the tension is released and the outcome becomes clear. A strong resolution is specific and measurable — it shows what changed in terms the listener can evaluate. A vague resolution ('things got better') is almost as ineffective as having no resolution at all.",
+      "example": "Riley's resolution was precise: twelve weeks after implementation, the team's average response time dropped from four hours to forty minutes, and the client retention rate recovered by 18 percentage points. The resolution gave Marcus something concrete to take to his CFO."
+    },
+    {
+      "word": "protagonist",
+      "partOfSpeech": "noun",
+      "definition": "The central character in a story — in sales, usually a customer or user whose experience the prospect can identify with. For a sales story to land, the prospect must be able to see themselves in the protagonist. A protagonist who is too different from your audience makes the story feel irrelevant.",
+      "example": "Riley chose her protagonist carefully: a VP of Sales at a B2B software company with 25 reps, a fast-growth mandate, and a workflow problem that was invisible to the C-suite. Marcus had 22 reps. The similarity was not an accident."
+    },
+    {
+      "word": "vivid",
+      "partOfSpeech": "adjective",
+      "definition": "Producing strong, clear mental images through specific details — names, numbers, moments, and sensory descriptions — rather than generalisations. Vivid storytelling makes abstract value concrete. The more specific a detail, the more real the story feels, even to someone who was not there.",
+      "example": "Riley did not say 'the team was overwhelmed.' She said 'by Thursday afternoon, the support queue had 340 open tickets and the team lead had stopped answering Slack messages.' The specific number and the specific behaviour made the scene visible — which made it believable."
+    },
+    {
+      "word": "resonance",
+      "partOfSpeech": "noun",
+      "definition": "The quality of connecting deeply with someone's own experience — the feeling that a story is describing something the listener recognises, not just something that happened to someone else. A story has resonance when the prospect says — out loud or internally — 'that is exactly what is happening to us.'",
+      "example": "Halfway through Riley's story, Marcus stopped taking notes. He was no longer evaluating the story — he was inside it. That moment of resonance — where the protagonist's situation became his situation — was worth more than any slide in the deck."
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "LET ME TELL YOU ABOUT A CUSTOMER WHO",
+      "definition": "The opening line that signals a story is coming. It shifts the register from pitch to conversation, invites the prospect to listen rather than evaluate, and positions what follows as evidence rather than assertion.",
+      "example": "'Let me tell you about a customer who had almost exactly the situation you are describing — because I think the way it resolved is relevant to the conversation we are having today.'"
+    },
+    {
+      "phrase": "THE PROBLEM WAS",
+      "definition": "The line that sets up the problem clearly and specifically — not as a category ('they had an efficiency issue') but as a concrete, named situation. The more specific the problem, the more the prospect recognises it.",
+      "example": "'The problem was that every time a new enterprise client onboarded, the same three people had to drop everything for two weeks. It was not a capacity problem — it was a process problem that looked like a capacity problem, and no one had separated the two.'"
+    },
+    {
+      "phrase": "WHAT MADE IT WORSE WAS",
+      "definition": "The tension escalator — a second detail that deepens the urgency of the problem before the solution arrives. Used to hold the tension longer, which makes the turning point feel more earned when it comes.",
+      "example": "'What made it worse was that the board had just approved headcount for three new enterprise sales reps — which meant the onboarding problem was about to get significantly larger before anyone had fixed it.'"
+    },
+    {
+      "phrase": "THE TURNING POINT WAS WHEN",
+      "definition": "The phrase that introduces the solution or intervention — but as a story moment, not a product feature. The turning point should describe a change in what someone was able to do, not a change in what software they were using.",
+      "example": "'The turning point was when the ops lead ran the first automated onboarding sequence and realised she had been doing manually in two weeks what the system did in four hours. That was the moment the conversation with leadership changed.'"
+    },
+    {
+      "phrase": "THREE MONTHS LATER",
+      "definition": "A time marker that creates narrative distance between the problem and the outcome, making the resolution feel earned rather than immediate. Can be adapted — 'six weeks later', 'by the end of Q3' — but always puts the outcome at a credible remove from the intervention.",
+      "example": "'Three months later, the average onboarding time had dropped from fourteen days to three. The three new sales reps the board had approved were fully supported. And the ops lead was spending her Fridays on process improvement instead of manual configuration.'"
+    },
+    {
+      "phrase": "WHAT THAT MEANT FOR THEM WAS",
+      "definition": "The translation layer — converts the outcome from a metric into a business impact the prospect can evaluate. Not 'the product worked' but 'what that meant in practice was that they stopped losing enterprise clients to a competitor with a faster response time.'",
+      "example": "'What that meant for them was that they closed Q4 as their best quarter in three years — not because the market changed, but because the team finally had the headroom to do the work they had been hired to do.'"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "I understand the product — but honestly, I am still not sure it solves our specific situation. We have tried workflow tools before and they never quite fit."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "I hear that. Let me tell you about a customer who said almost exactly the same thing in our first meeting — because I think what happened next is more relevant to you than anything in our product deck."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Go ahead."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Her name was Sofia — VP of Sales at a B2B software company, 22 reps, fast-growth mandate. The [[problem:the specific, concrete situation the protagonist was facing]] was that every new enterprise client required the same three people to drop everything for two weeks. It looked like a capacity issue. It was actually a process issue — but no one had separated the two."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "That sounds familiar. We have the same three people on every new account."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Exactly. And what made it worse was that the board had just approved three new enterprise reps — which meant the problem was about to get larger before anyone fixed it. The [[stakes:what was at risk if the problem went unresolved]] were real: if the onboarding time did not come down, the new hires would be generating pipeline the team could not support."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "That is our situation right now. We hired two new reps in January and the same three people are already stretched."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "So Sofia was at the same point. The [[tension:the urgency or risk that makes the problem feel real]] was building — Q2 pipeline was strong, but delivery capacity was not. The turning point was when her ops lead ran the first automated onboarding sequence and realised what she had been doing manually in two weeks, the system completed in four hours."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Was the transition difficult? That is always where these things break down for us."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "The first two weeks were uncomfortable — I will not pretend otherwise. That is the honest part of the [[narrative:the structured story that moves a prospect from recognition to decision]]. But the discomfort was in learning the system, not in the system itself. By week three, the ops lead had rebuilt one process on her own without our help."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "And the outcome? What actually changed?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Three months later, average onboarding time dropped from fourteen days to three. What that meant for Sofia was that the two new reps she had hired were fully supported, Q3 became their strongest quarter in two years, and the ops lead — for the first time — had time to build the process documentation the team had needed for eighteen months."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "The ops lead part is the one that gets me. Ours has been saying the same thing for a year."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "That [[resonance:the moment when a prospect recognises their own situation in the story]] — when you hear the same words your own team has been saying — is usually the signal. Not that the product is right. That the problem is real and resolved. The question is just whether the resolution is the right shape for your team."
+    }
+  ],
+  "videos": [],
+  "registerAwareness": [
+    {
+      "context": "Opening a customer story in a meeting",
+      "register": "Formal / Conversational",
+      "example": "'Before we get into the proposal, I want to share something — because I think it is more useful than another slide. Let me tell you about a customer who was in almost exactly your position eight months ago. Same team size, same growth pressure, same concern about whether something like this would actually fit.'"
+    },
+    {
+      "context": "Sending a customer story by email",
+      "register": "Formal / Written",
+      "example": "'Following our conversation, I wanted to share a customer story rather than more product information — because I think the situation maps closely to what you described. The short version: a VP of Sales with 22 reps, a broken onboarding process, and three months to fix it before Q3. The outcome is worth reading. I've kept it to two paragraphs.'"
+    },
+    {
+      "context": "Using story to handle a trust objection",
+      "register": "Formal / Direct",
+      "example": "'You mentioned that you have tried tools like this before and they didn't land. I hear that — and I want to respond to it with something more useful than a counter-argument. Let me tell you what happened with a customer who said exactly the same thing in our first meeting, because the way it played out is relevant to the specific concern you are raising.'"
+    },
+    {
+      "context": "Closing a story with a connecting question",
+      "register": "Formal / Exploratory",
+      "example": "'That is Sofia's story. The reason I told it is that three moments in it sound like things you have said today — the same three people, the same new hires not being supported, the same ops lead who has been saying the same thing for a year. Where does your situation feel closest to hers?'"
+    },
+    {
+      "context": "Adapting the story for a CFO audience",
+      "register": "Formal / Commercial",
+      "example": "'The version of this story that matters for your CFO is the resolution: fourteen days to three days average onboarding time, two new reps fully supported within one quarter, and an ops function that stopped being a bottleneck. The investment was recovered in six weeks. I can put those numbers in the format she needs.'"
+    }
+  ],
+  "registerTraps": [
+    "❌ The most common storytelling mistake in sales is skipping the tension. Salespeople often rush from problem to solution because they are worried about spending time on the negative. But without tension — without the stakes being visible — there is no reason for the prospect to care about the outcome. Hold the tension longer than feels comfortable.",
+    "✅ Specificity is credibility. 'A customer had efficiency problems and saw great results' is not a story — it is a claim. 'Sofia's team was spending fourteen days on every enterprise onboarding and it dropped to three months after implementation' is a story. The number, the name, the detail — these are what make a story believable.",
+    "🔁 The connecting question at the end of a customer story is as important as the story itself. 'Where does your situation feel closest to theirs?' or 'Does any of that sound familiar?' turns a monologue into a conversation — and often surfaces the real concern the prospect has been holding back.",
+    "💡 Adapt the protagonist to your audience. A CFO needs a story with financial stakes and a measurable resolution. A VP of Sales needs a story about team performance and pipeline capacity. A Head of Ops needs a story about process and headcount. Same outcome, different protagonist, different emphasis — choose the version that makes the prospect say 'that is us.'"
+  ],
+  "matchingExercise": [
+    { "word": "NARRATIVE", "definition": "A structured account with a beginning, middle, and end — more persuasive than facts alone because it gives the listener a way to locate themselves in the story" },
+    { "word": "TENSION", "definition": "The sense of risk or unresolved conflict that makes a story worth hearing — without it, the prospect has no reason to care about the outcome" },
+    { "word": "STAKES", "definition": "What was at risk if the problem went unresolved — the detail that makes tension feel real rather than theoretical" },
+    { "word": "TURNING POINT", "definition": "The moment something changes — in a sales story, usually when the solution enters, described as a human moment rather than a product feature" },
+    { "word": "RESOLUTION", "definition": "The point where tension is released and the outcome is clear — strong resolutions are specific and measurable, not vague" },
+    { "word": "PROTAGONIST", "definition": "The central character — in sales, a customer the prospect can identify with; if they cannot see themselves in the protagonist, the story does not land" },
+    { "word": "VIVID", "definition": "Using specific names, numbers, and moments to produce clear mental images — the opposite of generalisations" },
+    { "word": "RESONANCE", "definition": "The quality of connecting deeply with someone's own experience — the moment the prospect says 'that is exactly what is happening to us'" }
+  ],
+  "fillBlankExercise": [
+    { "before": "Riley built a", "after": "rather than listing features: a specific company, a named problem, a moment of change, and a measurable result. By the end, Marcus had not been sold to — he had been shown what was possible.", "answer": "narrative" },
+    { "before": "Riley held the", "after": "longer than felt comfortable. The team was losing two hours per rep per day, the quarter-end was approaching, and the VP of Sales was asking for answers. That pressure made the solution feel necessary, not optional.", "answer": "tension" },
+    { "before": "The", "after": "were specific: the company was about to lose its third enterprise client in a row. That detail made the problem impossible to ignore — because Marcus recognised the same pressure in his own business.", "answer": "stakes" },
+    { "before": "The", "after": "was when the ops lead ran the first automated sequence and realised that what she had been doing manually in two weeks, the system completed in four hours. Riley described it as a human moment — not a software implementation.", "answer": "turning point" },
+    { "before": "Riley's", "after": "was precise: twelve weeks later, average response time dropped from four hours to forty minutes. She gave Marcus something concrete to take to his CFO — not a projection, but a result.", "answer": "resolution" },
+    { "before": "Riley chose her", "after": "carefully: a VP of Sales with 22 reps and a fast-growth mandate. Marcus had 22 reps. The similarity was not an accident — it was the detail that made the story feel relevant rather than generic.", "answer": "protagonist" },
+    { "before": "Riley did not say 'the team was overwhelmed.' She said 'by Thursday afternoon, the support queue had 340 open tickets and the team lead had stopped answering Slack messages.' That", "after": "detail made the scene visible — and visible made it believable.", "answer": "vivid" },
+    { "before": "Halfway through the story, Marcus stopped taking notes. That moment of", "after": "— where the protagonist's situation became his situation — was worth more than any slide in the deck.", "answer": "resonance" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "Why does Riley begin with a customer story rather than responding directly to Marcus's concern about the product?",
+      "options": [
+        "Because she does not have a direct answer to his concern and is buying time",
+        "Because a customer story provides evidence through experience rather than assertion — it lets Marcus evaluate whether the situation maps to his own, without feeling like he is being sold to",
+        "Because customer stories are required in her company's sales process at this stage",
+        "Because Marcus responds better to informal conversation than to product information"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Riley says 'what made it worse was that the board had just approved three new enterprise reps.' What function does this detail serve in the story?",
+      "options": [
+        "It provides context about the company's growth strategy for Marcus to evaluate",
+        "It escalates the tension — the problem was about to get larger before anyone fixed it, which raises the stakes and makes the turning point feel more necessary",
+        "It establishes that the customer was a similar size to Marcus's company",
+        "It introduces the decision-maker who would later approve the solution"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Why does Riley describe the turning point as 'the moment the ops lead realised what she had done manually in two weeks, the system completed in four hours' rather than saying 'they implemented our software'?",
+      "options": [
+        "Because the technical implementation details are not relevant to Marcus",
+        "Because describing the turning point as a human moment — a realisation, a shift in what someone could do — is more emotionally engaging and memorable than describing a software event",
+        "Because 'implemented our software' implies a longer timeline than actually occurred",
+        "Because the ops lead, not the VP of Sales, was the primary decision-maker"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Marcus says 'the ops lead part is the one that gets me — ours has been saying the same thing for a year.' What has happened at this point in the story?",
+      "options": [
+        "Marcus has decided to buy the product",
+        "Marcus has recognised his own situation in the protagonist's story — this is the moment of resonance that the story was designed to create",
+        "Marcus is objecting to the timeline Riley described",
+        "Marcus is asking for more evidence before he can evaluate the story"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does Riley mean when she says 'the question is just whether the resolution is the right shape for your team'?",
+      "options": [
+        "She is asking whether Marcus's team is large enough to use the product effectively",
+        "She is closing the story by transitioning from the customer's experience to Marcus's specific situation — moving from 'this happened' to 'what does this mean for you'",
+        "She is suggesting that the product may need to be customised before it will work for Marcus",
+        "She is signalling that the story is over and the meeting should move to next steps"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "According to the lesson, why is it a mistake to skip the tension in a sales story?",
+      "options": [
+        "Because prospects expect a full narrative structure and will notice if it is missing",
+        "Because without tension — without visible stakes — there is no reason for the prospect to care about the outcome; the solution only feels necessary if the problem feels urgent",
+        "Because skipping tension makes the story feel too short to be credible",
+        "Because tension is where the protagonist is introduced, and without it the prospect does not know who to identify with"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Riley says Sofia had '22 reps' and Marcus has '22 reps.' Why is this specific detail in the story?",
+      "options": [
+        "To demonstrate that Riley has done her research on Marcus's company",
+        "To make the story vivid and specific — but also to make the protagonist close enough to Marcus's situation that the story feels directly relevant rather than loosely analogous",
+        "Because the product is designed specifically for teams of 22 reps",
+        "To establish that the case study is from a direct competitor of Marcus's company"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is the purpose of the phrase 'what that meant for them was' in a sales story?",
+      "options": [
+        "It signals that the story is ending and the pitch is about to begin",
+        "It translates the outcome from a metric into a business impact — converting 'the product worked' into 'what changed in practice', which is what the prospect can evaluate and defend internally",
+        "It introduces a second customer story that reinforces the first one",
+        "It is a way to check whether the prospect is still engaged before delivering the resolution"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "pitchCorner": {
+    "title": "Customer Story Email",
+    "context": "Riley is following up after a meeting where Marcus expressed doubt about whether the product fits his situation. Instead of sending more product information, she sends a customer story — structured to map directly onto what Marcus described",
+    "passage": [
+      {
+        "before": "Dear Marcus,\n\nThank you for being direct in our meeting about your concerns — it helped me understand what you actually need to hear, which is not more product information.\n\nI want to share a customer story instead, because I think the",
+        "after": "maps closely enough to your situation that it is worth two minutes of your time. I have kept it short.",
+        "answer": "narrative"
+      },
+      {
+        "before": "Sofia was VP of Sales at a B2B software company — 22 reps, fast-growth mandate, and a broken enterprise onboarding process. The",
+        "after": "were real: the board had just approved three new sales hires, and the existing onboarding process could not support the current volume, let alone the incoming one. The team was already stretched. Adding headcount without fixing the process would make things significantly worse.",
+        "answer": "stakes"
+      },
+      {
+        "before": "The",
+        "after": "was in week two of the pilot, when Sofia's ops lead ran the first automated onboarding sequence and realised that what she had been doing manually over fourteen days, the system completed in four hours. That was not a product discovery — it was the moment the internal conversation changed.",
+        "answer": "turning point"
+      },
+      {
+        "before": "Three months later, average onboarding time had dropped from fourteen days to three. The",
+        "after": "was not dramatic — the team did not double in size or close a transformational deal. What changed was simpler and more significant: the ops lead had her Fridays back, the two new reps were fully supported from day one, and the VP of Sales stopped spending Monday mornings in firefighting meetings.",
+        "answer": "resolution"
+      },
+      {
+        "before": "I chose this story because the",
+        "after": "— the person at the centre of it — is close enough to your situation that I think you will recognise the moments that matter. Same team size, same pressure, same concern about whether a new system would actually fit rather than add complexity.",
+        "answer": "protagonist"
+      },
+      {
+        "before": "The reason I am sending this rather than a case study PDF is that I think the",
+        "after": "— the feeling that this is describing something you already know — is more useful than a metrics slide. Does any of it sound familiar? If so, I think it is worth a thirty-minute call to talk about what the resolution would look like for your team specifically.\n\nRiley",
+        "answer": "resonance"
+      }
+    ]
+  },
+  "dealClinic": {
+    "context": "Marcus has expressed scepticism: 'I understand what you are saying, but I've heard similar pitches before.' Watch how two salespeople respond.",
+    "transcript": [
+      {
+        "speaker": "Marcus",
+        "speakerColor": "purple",
+        "text": "Look, I understand the value proposition — but honestly, every vendor we have spoken to says something similar. I'm not sure how this is different."
+      },
+      {
+        "speaker": "Salesperson A",
+        "speakerColor": "red",
+        "text": "I completely understand that concern. What makes us different is that our platform is specifically built for B2B sales teams — we have deep integrations with the tools you already use, our onboarding is managed end-to-end by our team, and our average customer sees a 40% improvement in process efficiency within 90 days. We also have a dedicated customer success team that is with you for the entire contract period."
+      },
+      {
+        "speaker": "Verdict",
+        "speakerColor": "purple",
+        "text": "Salesperson A — Response to scepticism",
+        "verdict": {
+          "isGood": false,
+          "explanation": "Weak. Salesperson A's response is exactly what Marcus said he has already heard — a list of differentiators that every vendor in this category claims. 'Deep integrations', 'managed end-to-end', 'dedicated customer success' — these are features, not evidence. The 40% efficiency claim is precisely the kind of assertion Marcus is sceptical of. The response does nothing to address the underlying concern: Marcus has heard promises before and does not know whether to believe this one."
+        }
+      },
+      {
+        "speaker": "Salesperson B",
+        "speakerColor": "orange",
+        "text": "I hear that — and I am not going to try to argue my way out of it with a list of differentiators, because that is exactly what every other vendor has done. Let me tell you about a customer who said the same thing in our first meeting. Her name was Sofia. She had 22 reps, a broken onboarding process, and she had been through two workflow tools in eighteen months that had not delivered."
+      },
+      {
+        "speaker": "Verdict",
+        "speakerColor": "purple",
+        "text": "Salesperson B — Response to scepticism",
+        "verdict": {
+          "isGood": true,
+          "explanation": "Strong opening. Salesperson B explicitly names what they are NOT going to do — argue with differentiators — which signals self-awareness and separates them from the vendors Marcus is comparing them to. Beginning the story with 'her name was Sofia' and two specific facts (22 reps, two failed tools) creates immediate specificity. The detail about previous failed tools mirrors Marcus's implied experience, which starts building resonance before the story has even developed."
+        }
+      },
+      {
+        "speaker": "Salesperson B",
+        "speakerColor": "orange",
+        "text": "What made Sofia's situation worse was that the board had just approved three new hires — which meant the broken process was about to handle significantly more volume before anyone had fixed it. The turning point was not the implementation. It was the moment her ops lead realised she had been spending fourteen days doing something the system did in four hours. That was the week the internal conversation changed."
+      },
+      {
+        "speaker": "Marcus",
+        "speakerColor": "purple",
+        "text": "The ops lead detail — that's the part that sounds familiar. Our ops lead has been saying the same thing for about a year."
+      },
+      {
+        "speaker": "Salesperson A",
+        "speakerColor": "red",
+        "text": "That's really common — it's one of the things we hear most often. Our onboarding process is specifically designed to reduce that burden from day one, so your ops lead would be in a much better position very quickly. Can I show you what the onboarding timeline looks like?"
+      },
+      {
+        "speaker": "Verdict",
+        "speakerColor": "purple",
+        "text": "Salesperson A — Follow-up move",
+        "verdict": {
+          "isGood": false,
+          "explanation": "Weak. Marcus has just had a moment of resonance — he recognised his own situation in the story detail. Salesperson A responds by pivoting immediately to the onboarding process. This breaks the connection Marcus was making between the story and his own experience. The right move at this moment is to stay in the story — to complete the resolution and then ask Marcus what he recognised in it. Moving to a product walkthrough too early wastes the most valuable moment in the conversation."
+        }
+      },
+      {
+        "speaker": "Salesperson B",
+        "speakerColor": "orange",
+        "text": "Three months after the turning point, Sofia's average onboarding time was three days instead of fourteen. What that meant for her was that the three new hires were fully supported, and her ops lead — for the first time in two years — had time to do the process work the team actually needed. The reason I told you that story is that you have said three things today that Sofia said in our first meeting. Where does your situation feel closest to hers?",
+        "verdict": {
+          "isGood": true,
+          "explanation": "Strong close. Salesperson B completes the resolution with a specific, measurable outcome and then immediately translates it into business impact ('what that meant for her'). Crucially, they close the story with a connecting question — 'where does your situation feel closest to hers?' — which invites Marcus to do the mapping himself rather than being told that the situations are similar. This question turns a monologue into a conversation and surfaces the specific concern Marcus is actually holding. It also earns the right to continue the sales conversation without feeling pushy."
+        }
+      }
+    ]
+  },
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in pairs. For each situation, choose the response that best uses sales storytelling technique. Discuss your reasoning before clicking.",
+      "items": [
+        {
+          "customerLine": "A prospect says: 'Can you give me some examples of results other customers have seen?'",
+          "options": [
+            "Say: 'Of course — our average customer sees a 35% improvement in process efficiency within the first quarter, and our NPS score is 72, which is among the highest in our category.'",
+            "Say: 'I'd rather give you one story than a list of statistics — because I think a story tells you something a percentage can't. Let me tell you about a customer who was in a similar situation to the one you described earlier in this meeting.'",
+            "Say: 'I can send you our full case study library after this meeting — we have over 40 documented customer outcomes across different industries and team sizes.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. A gives statistics, which are easy to forget and easy to claim. C defers to a library of documents the prospect will probably not read. B offers a specific, relevant story — which is more memorable, more persuasive, and invites the prospect to find resonance with their own situation. The phrase 'tells you something a percentage can't' also reframes why a story is being told, which signals confidence and intentionality."
+        },
+        {
+          "customerLine": "You are mid-story and the prospect says: 'Okay, I get the picture — what was the solution?'",
+          "options": [
+            "Skip to the turning point immediately and describe the product features that solved the problem.",
+            "Pause and acknowledge the question: 'I'll get there in a moment — I want to make sure the stakes are clear first, because the solution only makes sense once you can feel how stuck they were.' Then complete the tension before moving on.",
+            "Jump straight to the resolution: 'Three months later, they had cut onboarding time from fourteen days to three.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. The prospect is trying to shortcut to the answer — which is natural. But skipping the tension means the turning point and resolution land with less impact. A good storyteller acknowledges the impatience, names why the tension matters, and earns the right to continue. A jumps to features, which breaks the story structure. C jumps to the resolution without the turning point, which makes the outcome feel asserted rather than earned."
+        },
+        {
+          "customerLine": "A prospect has just heard your customer story and says: 'That's interesting. I can see the similarity.'",
+          "options": [
+            "Say: 'Great — so I think it's clear that what we did for Sofia, we can do for you. Can we talk about next steps?'",
+            "Say: 'Where does your situation feel closest to hers? I want to make sure I understand the specific part that resonates — because that tells me where to focus the proposal.'",
+            "Say: 'I'm glad that lands. We have several other stories from similar companies if you'd like to hear more evidence before making a decision.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. 'I can see the similarity' is a signal of resonance — the prospect has made a connection between the story and their own situation. The connecting question 'where does your situation feel closest to hers?' turns that connection into a conversation and surfaces the specific detail the prospect identified with. A moves too fast to next steps before understanding what resonated. C offers more stories, which dilutes the impact of the first one and delays the conversation."
+        },
+        {
+          "customerLine": "A CFO joins the meeting unexpectedly and asks: 'Can you summarise what you do and why we should care?'",
+          "options": [
+            "Start from the beginning of your full sales story — problem, tension, turning point, resolution.",
+            "Adapt the story for a CFO audience: 'Let me give you the version that matters for your role. A VP of Sales in a similar business cut onboarding time from fourteen days to three — which meant two new reps were productive in their first month instead of their third, and the investment was recovered in six weeks. Happy to go deeper on any of those numbers.'",
+            "Say: 'Riley has been walking us through the product — I'll let her continue the presentation and we can address your questions at the end.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. A CFO who walks in unexpectedly does not have the context for the full story and does not want it. They want the commercial version: what changed, how fast, and what it cost relative to what it returned. B adapts the story to the audience — keeping the specific details (fourteen days to three, two reps, six weeks) but reframing them in financial terms. A delivers the full story to someone without context. C surrenders the room."
+        }
+      ]
+    },
+    "profileMatch": {
+      "instructions": "Match each sales story challenge to the technique that resolves it. Discuss before clicking.",
+      "profiles": [
+        {
+          "name": "Challenge 1",
+          "description": "You have told a strong customer story, but the prospect seems interested in the story rather than connecting it to their own situation. They are listening but not saying 'that sounds like us.'",
+          "matchKey": "connecting-question"
+        },
+        {
+          "name": "Challenge 2",
+          "description": "You are telling a story and you notice the prospect seems unmoved by the problem section. The problem feels abstract — they are not leaning in.",
+          "matchKey": "add-stakes"
+        },
+        {
+          "name": "Challenge 3",
+          "description": "The prospect asks for the story to be shortened. You have two minutes to deliver the essential structure.",
+          "matchKey": "compress-to-four"
+        }
+      ],
+      "options": [
+        {
+          "key": "connecting-question",
+          "label": "Ask the connecting question",
+          "description": "End the story with 'where does your situation feel closest to theirs?' — this forces the prospect to do the mapping themselves and surfaces the specific detail they recognised. Without this question, the story is an anecdote. With it, it becomes a mirror."
+        },
+        {
+          "key": "add-stakes",
+          "label": "Add the stakes",
+          "description": "The problem feels abstract because the cost of not solving it is not visible. Add a specific consequence: what happened — or nearly happened — because the problem went unresolved. Stakes make tension real. Without them, the problem is just a situation."
+        },
+        {
+          "key": "compress-to-four",
+          "label": "Compress to the four-part structure",
+          "description": "One sentence each: the problem ('they had X'), the stakes ('the risk was Y'), the turning point ('everything changed when Z'), the resolution ('three months later, A'). Four sentences, the full arc. Then the connecting question."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The salesperson has started a story — finish the line using language from this lesson. Compare your completions before clicking for the suggested answer.",
+      "items": [
+        {
+          "customerLine": "A prospect says: 'I'm not sure this applies to our situation.'",
+          "salespersonStart": "Let me tell you about a customer who said exactly the same thing —",
+          "suggestedCompletion": "because I think what happened in the first three months is more relevant to your situation than anything I could say to argue the point. Her name was Sofia. Same team size, same concern, same previous experience with tools that didn't quite fit."
+        },
+        {
+          "customerLine": "You are building the tension in a story and want to add a second layer of urgency.",
+          "salespersonStart": "And what made it worse was",
+          "suggestedCompletion": "that the board had just approved three new sales hires — which meant the process that was already broken was about to handle significantly more volume. The problem was not going to wait for a solution to arrive."
+        },
+        {
+          "customerLine": "You have just described the turning point in a story and want to move to the resolution.",
+          "salespersonStart": "Three months later,",
+          "suggestedCompletion": "the average onboarding time had dropped from fourteen days to three. What that meant for the team was not dramatic — no record-breaking quarter, no sudden doubling of headcount. What changed was simpler and more significant: the ops lead had her Fridays back, and the VP of Sales stopped starting every Monday in a firefighting meeting."
+        },
+        {
+          "customerLine": "You have finished a customer story and the prospect says 'interesting.' You want to create the connecting moment.",
+          "salespersonStart": "The reason I told you that story is that you have said three things today that Sofia said in our first meeting.",
+          "suggestedCompletion": "Where does your situation feel closest to hers? I want to understand the specific part that resonates — because that tells me where the proposal needs to focus."
+        }
+      ]
+    }
+  }
+}

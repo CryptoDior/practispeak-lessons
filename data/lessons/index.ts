@@ -49,6 +49,7 @@ import { consultativeSelling } from './consultative-selling';
 import { executiveLevelSalesConversations } from './executive-level-sales-conversations';
 import { complexObjectionHandling } from './complex-objection-handling';
 import { negotiatingPriceProfessionally } from './negotiating-price-professionally';
+import { storytellingInSales } from './storytelling-in-sales';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -101,6 +102,7 @@ export const lessons: Lesson[] = [
   executiveLevelSalesConversations,
   complexObjectionHandling,
   negotiatingPriceProfessionally,
+  storytellingInSales,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
