@@ -1,0 +1,348 @@
+{
+  "exportName": "takingASimpleOrder",
+  "title": "Taking a Simple Order",
+  "subtitle": "How to ask for quantity, confirm details, and process an order in clear English",
+  "level": "A1-A2",
+  "description": "Taking an order is one of the most common moments in sales. This lesson teaches you the simple, direct language you need: how to ask how many a customer wants, how to check availability, confirm the total, and close the order professionally.",
+  "dialogueSubtitle": "Marcus is ready to buy — Riley takes his order step by step",
+
+  "vocabulary": [
+    {
+      "word": "order",
+      "partOfSpeech": "noun",
+      "definition": "A request to buy a specific product or service. When a customer places an order, they confirm they want to buy.",
+      "example": "Marcus called Riley and said: I want to place an order for fifteen units of the Standard Plan. Riley said: Perfect — I will process your order now."
+    },
+    {
+      "word": "quantity",
+      "partOfSpeech": "noun",
+      "definition": "The number or amount of something. In sales, quantity means how many units or items the customer wants to buy.",
+      "example": "Riley asked Marcus: What quantity do you need? Marcus said: We need fifteen — one for each person on the team."
+    },
+    {
+      "word": "confirm",
+      "partOfSpeech": "verb",
+      "definition": "To say yes and make something certain. When you confirm an order, both sides agree on the details.",
+      "example": "Riley checked all the details and said: Shall I confirm your order? Marcus said: Yes — fifteen units, delivery on Friday."
+    },
+    {
+      "word": "unit",
+      "partOfSpeech": "noun",
+      "definition": "One single item in an order. When companies buy software or products, they often count in units.",
+      "example": "Marcus said: We have fifteen people on our team, so we need fifteen units. Riley said: Fifteen units — I will check if they are all available."
+    },
+    {
+      "word": "available",
+      "partOfSpeech": "adjective",
+      "definition": "Ready to buy or use right now. If a product is available, the customer can order it today.",
+      "example": "Marcus asked if the plan was ready. Riley said: Let me check — yes, fifteen units are available. We can deliver them by Friday."
+    },
+    {
+      "word": "delivery",
+      "partOfSpeech": "noun",
+      "definition": "The process of sending products to the customer after they order. In B2B sales, delivery can also mean when software access is set up.",
+      "example": "Marcus asked: When can you deliver? Riley said: When would you like delivery? We can have everything ready by the end of the week."
+    },
+    {
+      "word": "total",
+      "partOfSpeech": "noun",
+      "definition": "The final amount — the full price after counting all units. We say 'your total comes to' when we give the final price.",
+      "example": "Riley confirmed the price clearly: Your total comes to $750 for fifteen units. That is $50 per unit per month."
+    },
+    {
+      "word": "process",
+      "partOfSpeech": "verb",
+      "definition": "To handle or complete something officially. When you process an order, you start preparing it and send a confirmation.",
+      "example": "Marcus said he was ready. Riley said: I will process that for you now — you will receive a confirmation email in a few minutes."
+    }
+  ],
+
+  "phrasalVerbs": [
+    {
+      "phrase": "How many would you like?",
+      "definition": "The key question for taking an order. Use 'many' — not 'much' — because you are counting individual units. Always ask this before confirming any details.",
+      "example": "Marcus said he wanted to buy the Standard Plan. Riley responded: Great — how many would you like? We need to know the quantity before we can process anything."
+    },
+    {
+      "phrase": "Let me check if that is available",
+      "definition": "A professional way to verify that you have the product in stock before confirming. It shows you are careful and organised — never promise what you have not checked.",
+      "example": "Marcus asked for twenty units. Riley said: Let me check if that is available. She looked at the system and said: Yes — twenty units are ready for you."
+    },
+    {
+      "phrase": "Shall I confirm your order?",
+      "definition": "Use this when all the details are agreed. It is a polite, professional way to close the conversation and move to the next step.",
+      "example": "Riley had the quantity, the price, and the delivery date. She said: Shall I confirm your order? Marcus said: Yes, go ahead."
+    },
+    {
+      "phrase": "When would you like delivery?",
+      "definition": "Ask this after you confirm the quantity and availability. It shows you are organised and ready to complete the order.",
+      "example": "Marcus confirmed fifteen units. Riley then asked: When would you like delivery? Marcus said: We need it by the end of next week."
+    },
+    {
+      "phrase": "Your total comes to",
+      "definition": "Use this to state the final price. Always say 'your total comes to' — not 'the price is' or 'it costs'. It sounds professional and clear.",
+      "example": "Riley confirmed the order details and said: Your total comes to $750 for fifteen units. That is the final price, including everything."
+    },
+    {
+      "phrase": "I will process that for you now",
+      "definition": "Say this to close the order professionally. It tells the customer that the work is starting and they will hear back soon.",
+      "example": "Marcus confirmed everything. Riley said: Perfect — I will process that for you now. You will receive a confirmation email within a few minutes."
+    }
+  ],
+
+  "videos": [],
+
+  "dialogue": [
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Hi Riley. We are ready. We want to buy the Standard Plan for our whole team."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "That is great news, Marcus! How many [[unit:one single item in an order]]s would you like?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "We need it for fifteen people. So fifteen units."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Fifteen units — perfect. Let me check if that is [[available:ready to buy or use right now]]."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Good news — fifteen units are available. We can move forward."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Great. And when can you send everything?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "When would you like [[delivery:the process of sending products to the customer]]?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "We need it by the end of next week if possible."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "That is no problem. Your [[total:the final amount — the full price after counting all units]] comes to $750 for fifteen units."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Okay. $750 — that works for us."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Shall I [[confirm:to say yes and make something certain]] your order?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Yes, please. Go ahead."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Perfect. I will [[process:to handle or complete something officially]] that for you now. You will receive a confirmation email in a few minutes."
+    }
+  ],
+
+  "matchingExercise": [
+    { "word": "order",    "definition": "a request to buy a specific product or service" },
+    { "word": "quantity", "definition": "the number or amount of something" },
+    { "word": "confirm",  "definition": "to say yes and make something certain" },
+    { "word": "unit",     "definition": "one single item in an order" },
+    { "word": "available","definition": "ready to buy or use right now" },
+    { "word": "delivery", "definition": "the process of sending products to the customer" },
+    { "word": "total",    "definition": "the final amount — the full price after counting all units" },
+    { "word": "process",  "definition": "to handle or complete an order officially" }
+  ],
+
+  "fillBlankExercise": [
+    { "before": "How many ", "after": "s would you like? We need to know the number.", "answer": "unit" },
+    { "before": "Let me check if that is ", "after": ". I will look at the system now.", "answer": "available" },
+    { "before": "Your ", "after": " comes to $750 for fifteen units.", "answer": "total" },
+    { "before": "I will ", "after": " that for you now and send a confirmation email.", "answer": "process" },
+    { "before": "Shall I ", "after": " your order? Everything looks correct.", "answer": "confirm" },
+    { "before": "When would you like ", "after": "? We can send everything by Friday.", "answer": "delivery" }
+  ],
+
+  "multipleChoiceExercise": [
+    {
+      "question": "How many units does Marcus order?",
+      "options": ["Ten units", "Fifteen units", "Twenty units"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is the total price for Marcus's order?",
+      "options": ["$500", "$1,200", "$750"],
+      "correctIndex": 2
+    },
+    {
+      "question": "When does Marcus need delivery?",
+      "options": ["Today", "End of next week", "Next month"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does Riley do at the end of the dialogue?",
+      "options": [
+        "She asks for payment",
+        "She processes the order and sends a confirmation email",
+        "She calls Marcus's manager"
+      ],
+      "correctIndex": 1
+    }
+  ],
+
+  "warmUp": {
+    "questions": [
+      "Have you ever placed an order at work — for example, software, supplies, or equipment? How did you do it?",
+      "When you order something for your team, what information does the supplier usually ask for?",
+      "What can go wrong when taking or placing an order? How do you avoid mistakes?"
+    ]
+  },
+
+  "completeSentenceExercise": {
+    "instructions": "Choose the correct word to complete each sentence. Only one answer is correct.",
+    "items": [
+      {
+        "sentence": "How _____ units would you like?",
+        "options": ["much", "many", "more"],
+        "correctIndex": 1,
+        "explanation": "Use 'many' for things you can count, like units, people, or items. 'Much' is for things you cannot count, like time or water."
+      },
+      {
+        "sentence": "Let me check if that is _____.",
+        "options": ["available", "open", "free"],
+        "correctIndex": 0,
+        "explanation": "'Available' means ready to buy or use. 'Free' means it costs nothing — a very different meaning. 'Open' does not work for products."
+      },
+      {
+        "sentence": "Your total _____ to $750 for fifteen units.",
+        "options": ["adds", "comes", "goes"],
+        "correctIndex": 1,
+        "explanation": "'Your total comes to' is the fixed phrase we use in sales. 'Adds' and 'goes' are not used this way."
+      },
+      {
+        "sentence": "When would you like _____?",
+        "options": ["shipping", "delivery", "sending"],
+        "correctIndex": 1,
+        "explanation": "'Delivery' is the standard business word for when and how products arrive. 'Shipping' is also used but 'delivery' is more common in B2B conversations."
+      },
+      {
+        "sentence": "Shall I _____ your order?",
+        "options": ["check", "confirm", "make"],
+        "correctIndex": 1,
+        "explanation": "'Confirm' means to make something official and certain. 'Check' means to look at something — it does not close the order. 'Make' is too informal."
+      },
+      {
+        "sentence": "I will _____ that for you now.",
+        "options": ["handle", "do", "process"],
+        "correctIndex": 2,
+        "explanation": "'Process' is the professional word for completing an order officially. 'Handle' and 'do' are too casual for this context."
+      }
+    ]
+  },
+
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Read what the customer says. Choose the best response from the three options.",
+      "items": [
+        {
+          "customerLine": "We need fifty units. Do you have them in stock?",
+          "options": [
+            "How many would you like?",
+            "Let me check if that is available — I will confirm in a moment.",
+            "Your total comes to $2,500."
+          ],
+          "correctIndex": 1,
+          "explanation": "Option B responds to the question by checking availability — exactly what the customer asked. Option A asks for quantity the customer already gave. Option C jumps to pricing before confirming stock."
+        },
+        {
+          "customerLine": "Okay, we are ready to place the order.",
+          "options": [
+            "Let me check if that is available.",
+            "How many would you like?",
+            "Shall I confirm your order?"
+          ],
+          "correctIndex": 2,
+          "explanation": "Option C is the right next step — the customer is ready, so you confirm the order. Option A checks availability, which should have been done earlier. Option B asks for quantity, which the customer has already given."
+        },
+        {
+          "customerLine": "What is the total price for thirty units?",
+          "options": [
+            "Your total comes to $1,500.",
+            "Shall I confirm your order?",
+            "When would you like delivery?"
+          ],
+          "correctIndex": 0,
+          "explanation": "Option A answers the question directly with the final price. Option B moves to confirmation before answering the pricing question. Option C asks about delivery — too early before the customer knows the price."
+        }
+      ]
+    },
+    "spotTheMistake": {
+      "instructions": "Read the conversation. Three lines have a mistake. Can you find them?",
+      "dialogue": [
+        { "speaker": "Sam",  "text": "Hi. We need some units of the Standard Plan." },
+        { "speaker": "Alex", "text": "How much would you like?" },
+        { "speaker": "Sam",  "text": "Twenty units. Are they free right now?" },
+        { "speaker": "Alex", "text": "Yes, twenty units are available. When would you like delivery?" },
+        { "speaker": "Sam",  "text": "By Friday please." },
+        { "speaker": "Alex", "text": "Your price comes to $1,000 for twenty units." }
+      ],
+      "mistakes": [
+        {
+          "lineIndex": 1,
+          "incorrectText": "much",
+          "correction": "many",
+          "explanation": "Use 'many' for countable things like units, people, or items. 'Much' is for things you cannot count, like time or money."
+        },
+        {
+          "lineIndex": 2,
+          "incorrectText": "free",
+          "correction": "available",
+          "explanation": "'Available' means ready to buy or use. 'Free' means it costs nothing — a very different meaning that would confuse the customer."
+        },
+        {
+          "lineIndex": 5,
+          "incorrectText": "price",
+          "correction": "total",
+          "explanation": "The correct phrase is 'your total comes to'. 'Price' is not wrong in general, but 'total' is the professional sales phrase used when giving a final amount."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The salesperson starts a sentence. Work with your partner to finish it naturally.",
+      "items": [
+        {
+          "customerLine": "We need it for twenty people on our team.",
+          "salespersonStart": "Twenty units — let me check if...",
+          "suggestedCompletion": "that is available. Yes, we have twenty units ready. When would you like delivery?"
+        },
+        {
+          "customerLine": "Can we get everything by the end of next week?",
+          "salespersonStart": "When would you like...",
+          "suggestedCompletion": "delivery exactly? If you confirm today, we can have everything ready by Thursday."
+        },
+        {
+          "customerLine": "Okay, the total sounds good. Let's go ahead.",
+          "salespersonStart": "Shall I confirm...",
+          "suggestedCompletion": "your order? Fifteen units, delivery by Friday, total $750. I will process that for you now."
+        }
+      ]
+    }
+  }
+}
