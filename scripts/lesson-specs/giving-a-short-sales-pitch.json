@@ -1,0 +1,366 @@
+{
+  "exportName": "givingAShortSalesPitch",
+  "title": "Giving a Short Sales Pitch",
+  "subtitle": "How to structure a compelling pitch using problem → solution → benefit → action",
+  "level": "B1-B2",
+  "description": "You have 60 seconds. Maybe less. A short sales pitch is not a summary of your product — it is a story that starts with the customer's world and ends with a reason to act now. This lesson teaches you the four-step structure that turns a vague product description into a focused, memorable pitch that makes customers want to hear more.",
+  "dialogueSubtitle": "Riley has five minutes before Marcus's next meeting — she delivers a complete pitch and gets a demo",
+
+  "vocabulary": [
+    {
+      "word": "pitch",
+      "partOfSpeech": "noun",
+      "definition": "A short, persuasive presentation of a product or idea designed to convince someone to buy, invest, or take the next step. A good pitch is structured, concise, and focused on the listener.",
+      "example": "Riley knew Marcus was busy, so she kept her pitch tight: 90 seconds, one clear problem, one solution, two key numbers, and a specific next step. By the end, Marcus was asking for a demo."
+    },
+    {
+      "word": "pain point",
+      "partOfSpeech": "noun",
+      "definition": "A specific problem or frustration a customer experiences regularly. The best pitches start here — when the customer hears their own problem described back to them, they stop thinking and start listening.",
+      "example": "Riley did not start with her product. She started with the pain point: Does your team spend more time on admin and reporting than on actually selling? That one question changed the whole conversation."
+    },
+    {
+      "word": "proposition",
+      "partOfSpeech": "noun",
+      "definition": "A statement that offers something for consideration. A value proposition explains precisely why your product is worth buying — what it delivers, for whom, and why it is better than the alternative.",
+      "example": "Riley's value proposition was simple and clear: We give mid-size sales teams real-time data, automated reporting, and one platform for everything — so they can spend less time on admin and more time closing deals."
+    },
+    {
+      "word": "compelling",
+      "partOfSpeech": "adjective",
+      "definition": "Persuasive, convincing, and hard to ignore. A compelling pitch makes the customer feel that saying no would mean missing out on something genuinely valuable.",
+      "example": "Marcus listened to the pitch and said: That is a compelling case. Riley knew she had structured it well — the numbers were clear, the problem was real, and the next step was easy to say yes to."
+    },
+    {
+      "word": "concise",
+      "partOfSpeech": "adjective",
+      "definition": "Brief and clear, with no unnecessary words or information. A concise pitch respects the customer's time — it says everything that matters and nothing that does not.",
+      "example": "Riley's rule was simple: if she could not explain the benefit in one sentence, she did not understand it well enough. She kept every pitch concise — never more than 90 seconds before a question."
+    },
+    {
+      "word": "resonate",
+      "partOfSpeech": "verb",
+      "definition": "To have a strong, lasting effect on someone — to feel deeply relevant and true to their situation. When a pitch resonates, the customer feels understood, not sold to.",
+      "example": "Riley described the pain point and Marcus said: That describes us perfectly. Riley knew the pitch was resonating — she had used his language, his problem, his world."
+    },
+    {
+      "word": "articulate",
+      "partOfSpeech": "verb",
+      "definition": "To express an idea clearly and effectively so the other person can understand it immediately. If you cannot articulate the benefit in one sentence, the customer will not understand it either.",
+      "example": "Marcus asked: What does the benefit actually look like in practice? Riley articulated it simply: Your team spends 30% less time on reports and closes 20% more deals in the first quarter. That is what the data shows."
+    },
+    {
+      "word": "prospect",
+      "partOfSpeech": "noun",
+      "definition": "A potential customer who has not yet bought from you. Every prospect has a problem you can solve — your pitch is the tool you use to make that connection clear.",
+      "example": "Riley looked at Marcus as a prospect with real potential — he had the right team size, the right pain point, and the budget. A well-structured pitch was all it would take to move him to the next stage."
+    }
+  ],
+
+  "phrasalVerbs": [
+    {
+      "phrase": "I know that many teams like yours struggle with...",
+      "definition": "The ideal opening line for a pitch — it names the pain point before you mention your product. When a customer hears their own problem, they immediately pay attention.",
+      "example": "Riley did not start with her product features. She said: I know that many sales teams like yours struggle with manual reporting and disconnected tools. Does that sound familiar? Marcus nodded immediately."
+    },
+    {
+      "phrase": "That is exactly what [product] is designed to solve",
+      "definition": "The bridge between the problem and the solution. It tells the customer that your product is not a generic tool — it was built specifically for the problem they just confirmed they have.",
+      "example": "Marcus confirmed the pain point was real. Riley said: That is exactly what our platform is designed to solve. We built it specifically for teams who are losing selling time to admin and reporting."
+    },
+    {
+      "phrase": "The result is...",
+      "definition": "The phrase that introduces the benefit — the measurable outcome the customer will experience. Always follow it with a specific number, time frame, or concrete change.",
+      "example": "Riley moved from solution to benefit with one phrase: The result is a team that spends 30% less time on admin and closes 20% more deals in the first quarter. Those are not projections — those are our customer averages."
+    },
+    {
+      "phrase": "In just [time], you could...",
+      "definition": "A benefit phrase with built-in urgency. The time frame makes the outcome feel real and achievable — it moves the benefit from abstract to concrete.",
+      "example": "Riley said: In just 90 days, you could be running automated reports, tracking your full pipeline in real time, and giving your team back hours every week. That is what our onboarding timeline delivers."
+    },
+    {
+      "phrase": "Would it make sense to...",
+      "definition": "A soft, non-pressuring close. It invites the customer to agree to a next step by framing it as a logical decision — not a commitment. Customers who say yes feel in control.",
+      "example": "Riley finished the pitch and said: Would it make sense to set up a 30-minute demo this week so you can see the platform working with your own data? Marcus said: Yes — let's do that."
+    },
+    {
+      "phrase": "What tends to happen without [solution] is...",
+      "definition": "A phrase for reinforcing the pain point before the solution. It paints a picture of the cost of inaction — which is often more persuasive than describing the product itself.",
+      "example": "Riley said: What tends to happen without a centralised platform is that your team spends two to three hours every week just pulling data from different tools and building reports manually. That is time that should be in front of customers."
+    }
+  ],
+
+  "videos": [],
+
+  "dialogue": [
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Riley, I only have about five minutes before my next meeting. What exactly does Practispeak Solutions do?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Five minutes is all I need. Let me ask you one question first — does your sales team spend more time on admin and reporting than on actually selling?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Honestly, yes. It is a constant complaint from the team."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "That is exactly the [[pain point:a specific problem or frustration a customer experiences]] our platform is designed to solve. I know that many teams like yours struggle with manual reporting, disconnected tools, and data they cannot act on quickly."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "That describes us perfectly, unfortunately."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Our platform connects all your sales tools in one place, automates your reporting, and gives your team real-time data. What tends to happen without it is that your team spends hours every week just building reports instead of building relationships."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "What does the actual benefit look like in practice?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "In just 90 days, our average customer sees a 30% reduction in admin time and a 20% increase in deals closed. The result is a team that is faster, more [[concise:brief and clear, with no unnecessary effort or waste]] in their workflow, and significantly more effective."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Those are strong numbers. How long does implementation actually take?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Most teams are fully set up within two weeks. We handle the entire onboarding — your team just shows up and starts using it. There is no technical project for your side to manage."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "And the cost?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "$35 per user per month. For a team your size, that typically pays for itself within the first quarter — when you [[articulate:to express something clearly and effectively]] the ROI, it is straightforward."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "That is a [[compelling:persuasive and convincing — hard to ignore]] case, Riley. I was not expecting such a clear [[proposition:a statement that explains why your product is worth buying]]."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "I am glad it [[resonate:to have a strong, lasting effect — to feel deeply relevant to someone's situation]]d. Would it make sense to schedule a 30-minute demo this week so you can see it working with your own data?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Yes — let's do that. I want the team to see it too."
+    }
+  ],
+
+  "matchingExercise": [
+    { "word": "pitch",       "definition": "a short, persuasive presentation designed to convince someone to act" },
+    { "word": "pain point",  "definition": "a specific problem or frustration a customer experiences regularly" },
+    { "word": "proposition", "definition": "a statement that explains why your product is worth buying" },
+    { "word": "compelling",  "definition": "persuasive and convincing — hard to ignore" },
+    { "word": "concise",     "definition": "brief and clear, with no unnecessary words" },
+    { "word": "resonate",    "definition": "to have a strong effect on someone — to feel deeply relevant to their situation" },
+    { "word": "articulate",  "definition": "to express an idea clearly so the other person understands it immediately" },
+    { "word": "prospect",    "definition": "a potential customer who has not yet bought from you" }
+  ],
+
+  "fillBlankExercise": [
+    { "before": "A good sales ", "after": " always starts with the customer's world — not your product.", "answer": "pitch" },
+    { "before": "Your message needs to ", "after": " with the customer — they should feel that you truly understand their situation.", "answer": "resonate" },
+    { "before": "Keep your pitch ", "after": " — you have about 60 seconds before attention starts to drift.", "answer": "concise" },
+    { "before": "Every ", "after": " has a problem you can solve — your job is to find it and name it clearly.", "answer": "prospect" },
+    { "before": "Can you ", "after": " the main benefit in one sentence? If you cannot, the customer will not understand it either.", "answer": "articulate" },
+    { "before": "The result was a ", "after": " case — the customer asked for a demo before Riley had even finished talking.", "answer": "compelling" }
+  ],
+
+  "multipleChoiceExercise": [
+    {
+      "question": "What is the first step in Riley's pitch structure?",
+      "options": [
+        "Presenting the solution",
+        "Naming the customer's pain point",
+        "Asking for the sale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What result does Riley say her platform delivers in 90 days?",
+      "options": [
+        "50% reduction in reporting time",
+        "30% more customers and 20% lower costs",
+        "30% reduction in admin time and 20% increase in deals closed"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "How long does Riley say implementation takes?",
+      "options": ["One month", "Two weeks", "Three months"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What action does Riley propose at the end of the pitch?",
+      "options": [
+        "Signing a contract today",
+        "A follow-up call next month",
+        "A 30-minute demo this week"
+      ],
+      "correctIndex": 2
+    }
+  ],
+
+  "warmUp": {
+    "questions": [
+      "Have you ever had to pitch an idea, product, or project to someone in 60 seconds or less? How did it go?",
+      "When you listen to a sales pitch, what makes it feel relevant and worth your time? What makes you tune out?",
+      "Think of a problem you deal with regularly at work. If someone offered to solve it today, what would you need to hear to say yes?"
+    ]
+  },
+
+  "completeSentenceExercise": {
+    "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
+    "items": [
+      {
+        "sentence": "I know that many teams like yours _____ with manual reporting and disconnected tools.",
+        "options": ["deal", "struggle", "fight"],
+        "correctIndex": 1,
+        "explanation": "'Struggle with' is the natural, professional phrase for describing a persistent problem — it implies effort and frustration over time, which is exactly what a pain point is. 'Deal with' is more neutral and does not carry the same emotional weight. 'Fight with' is informal and implies conflict rather than difficulty."
+      },
+      {
+        "sentence": "That is exactly _____ our platform is designed to solve.",
+        "options": ["what", "which", "that"],
+        "correctIndex": 0,
+        "explanation": "'What' is the correct relative pronoun here — 'that is exactly what our platform solves' introduces the thing that was mentioned (the pain point). 'Which' is used for non-defining relative clauses and needs a clear noun to refer back to. 'That' cannot start a noun clause in this position."
+      },
+      {
+        "sentence": "_____ tends to happen without a centralised platform is that reporting takes three times as long.",
+        "options": ["That", "It", "What"],
+        "correctIndex": 2,
+        "explanation": "'What tends to happen is...' is the correct structure — 'what' introduces the subject clause. 'That tends to happen' is grammatically possible but changes the meaning. 'It tends to happen' works in a different sentence structure but not with 'is that' following it directly."
+      },
+      {
+        "sentence": "The result _____ a team that spends less time on admin and more time closing deals.",
+        "options": ["are", "is", "were"],
+        "correctIndex": 1,
+        "explanation": "'The result is' — 'result' is singular, so it takes 'is'. This error often happens because the sentence continues with a list, which makes the verb feel plural. The subject is still 'the result' — singular. Always match the verb to the subject, not to what follows it."
+      },
+      {
+        "sentence": "Would it make _____ to schedule a 30-minute demo this week?",
+        "options": ["reason", "sense", "time"],
+        "correctIndex": 1,
+        "explanation": "'Would it make sense to...' is the fixed phrase for a soft, professional close. It frames the next step as a logical decision rather than a sales push. 'Make reason' and 'make time' are not correct in this structure — 'make sense' is the only natural phrase here."
+      },
+      {
+        "sentence": "Keep the pitch _____ — no more than 90 seconds before you ask a question.",
+        "options": ["shortly", "concisely", "short"],
+        "correctIndex": 2,
+        "explanation": "'Keep it short' uses the adjective 'short' because it describes the object 'it' (the pitch). After verbs like 'keep', 'make', and 'find' followed by an object, always use an adjective — not an adverb. 'Shortly' means 'in a short time', not 'brief'. 'Concisely' is an adverb and does not work here."
+      }
+    ]
+  },
+
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Read what the customer says. Choose the best response from the three options.",
+      "items": [
+        {
+          "customerLine": "I only have two minutes. What does your company do?",
+          "options": [
+            "We are a leading sales technology company with over 200 enterprise clients across twelve countries.",
+            "I will be concise. Does your sales team spend more time on admin than on selling? That is the problem we solve — and in 90 days, our customers close 20% more deals.",
+            "We have a range of products and services — it really depends on what you are looking for. Can I ask you a few questions first?"
+          ],
+          "correctIndex": 1,
+          "explanation": "Option B opens immediately with a problem question, uses the customer's limited time wisely, and delivers the core benefit in two sentences — a textbook short pitch. Option A leads with company credentials that no one asked for and does not address the customer's world. Option C stalls by asking questions when the customer has already said they have two minutes — you need to deliver value first."
+        },
+        {
+          "customerLine": "That sounds interesting. But what is actually in it for my team?",
+          "options": [
+            "It is a very popular platform — over 500 companies currently use it globally.",
+            "Your team would spend 30% less time on admin and close 20% more deals in the first quarter. Less reporting, more selling — that is what it means for them every single day.",
+            "It really depends on how your team uses the platform and what your current setup looks like."
+          ],
+          "correctIndex": 1,
+          "explanation": "Option B articulates the benefit in concrete, personal terms — it directly answers 'what is in it for my team?' with numbers and a simple before-and-after picture. Option A talks about other companies, which tells the customer nothing about their own situation. Option C avoids the question and signals a lack of confidence in the product's value."
+        },
+        {
+          "customerLine": "I am interested, but I need some time to think about it.",
+          "options": [
+            "Of course — take all the time you need. Call me when you are ready to move forward.",
+            "I understand. Would it make sense to schedule a 30-minute demo this week? You can see the platform working with your own data — that usually makes the decision much clearer.",
+            "No problem. Shall I send you some information and a brochure by email?"
+          ],
+          "correctIndex": 1,
+          "explanation": "Option B proposes a specific, low-commitment next step that moves the conversation forward without pressuring the customer — a demo is far more persuasive than more thinking time. Option A is too passive — giving the customer unlimited time to think often means you never hear from them again. Option C sends information into a void — an email brochure rarely converts a hesitant prospect."
+        }
+      ]
+    },
+    "spotTheMistake": {
+      "instructions": "Read the conversation. Three lines have a mistake. Can you find them?",
+      "dialogue": [
+        { "speaker": "Alex", "text": "Hi Sam. I know you are busy — can I give you a quick pitch?" },
+        { "speaker": "Sam",  "text": "Sure, but keep it shortly." },
+        { "speaker": "Alex", "text": "Most sales teams struggle with same pain point — reporting takes too long and tools are disconnected." },
+        { "speaker": "Sam",  "text": "Yes, that really resonates. That describes our team perfectly." },
+        { "speaker": "Alex", "text": "Our platform solves this. The result are a 30% reduction in admin time and a 20% increase in deals closed." },
+        { "speaker": "Sam",  "text": "That is compelling. Can we set up a demo?" }
+      ],
+      "mistakes": [
+        {
+          "lineIndex": 1,
+          "incorrectText": "shortly",
+          "correction": "short",
+          "explanation": "'Keep it short' uses the adjective 'short' because it describes the object 'it' (the pitch). After 'keep', 'make', or 'find' followed by an object, you always use an adjective — not an adverb. 'Shortly' is an adverb meaning 'in a short time', as in 'I will call you shortly'. It does not mean 'brief'."
+        },
+        {
+          "lineIndex": 2,
+          "incorrectText": "struggle with same",
+          "correction": "struggle with the same",
+          "explanation": "'The same' always requires the definite article 'the' — you never say 'same problem' or 'with same issue'. It is always 'the same pain point', 'the same challenge', 'the same situation'. Missing 'the' before 'same' is one of the most common article errors for non-native speakers."
+        },
+        {
+          "lineIndex": 4,
+          "incorrectText": "result are",
+          "correction": "result is",
+          "explanation": "'Result' is singular, so it takes 'is' — not 'are'. This error often happens because the sentence continues with a list ('a 30% reduction and a 20% increase'), which makes the verb feel plural. The rule is simple: match the verb to the subject ('result'), not to what comes after it."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The salesperson starts a sentence. Work with your partner to finish it naturally.",
+      "items": [
+        {
+          "customerLine": "What exactly does your platform do?",
+          "salespersonStart": "Let me start with a question. Does your sales team spend more time on admin than on selling? Because I know that many teams like yours struggle with...",
+          "suggestedCompletion": "manual reporting, disconnected tools, and data they cannot act on quickly. Our platform solves all three — and in 90 days, our average customer sees a 30% drop in admin time and closes 20% more deals."
+        },
+        {
+          "customerLine": "The solution sounds good, but what is the measurable benefit?",
+          "salespersonStart": "Great question. The result is a team that spends less time on reports and more time in front of customers. In just 90 days...",
+          "suggestedCompletion": "our average customer closes 20% more deals. That is not a projection — it is the average across our current customers. I can share the data if you would like."
+        },
+        {
+          "customerLine": "You have made a strong case. What would the next step look like?",
+          "salespersonStart": "Would it make sense to schedule a 30-minute demo this week...",
+          "suggestedCompletion": "so you can see the platform working with your own data? I can have something set up by Thursday — does that work for you?"
+        }
+      ]
+    }
+  }
+}
