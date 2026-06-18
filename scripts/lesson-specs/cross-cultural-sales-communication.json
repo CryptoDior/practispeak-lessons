@@ -1,0 +1,389 @@
+{
+  "exportName": "crossCulturalSalesCommunication",
+  "title": "Cross-Cultural Sales Communication",
+  "subtitle": "How to adapt your tone, directness, politeness strategies, and expectations to communicate effectively across cultural contexts",
+  "level": "C1-C2",
+  "description": "Selling across cultures is one of the most sophisticated skills in professional English. The same message, delivered in the same words, can land as confident in one culture and arrogant in another — as helpful in one context and intrusive in another. Effective cross-cultural communicators understand that tone, directness, politeness, and expectations are not universal — they are shaped by cultural norms that govern when to speak, how explicitly to disagree, what 'yes' actually means, and what pace of decision-making signals seriousness. This lesson teaches you the language and awareness to adapt your communication style without losing your credibility or your message.",
+  "dialogueSubtitle": "Riley adapts her communication style for Marcus, whose organisation operates with a consensus-based, relationship-first decision-making culture — navigating tone, pace, and expectation management throughout",
+
+  "vocabulary": [
+    {
+      "word": "tone",
+      "partOfSpeech": "noun",
+      "definition": "The overall impression conveyed by the language, pace, register, and delivery of a message — independent of its literal content. Tone can be warm, formal, assertive, deferential, or collaborative. In cross-cultural communication, the same content delivered in a different tone can produce entirely different responses. Tone is what the listener feels, not just what is said.",
+      "example": "Riley adjusted her tone deliberately: With a German client, she might say: 'The proposal has three significant weaknesses you should address before submitting.' With a Japanese client, she would frame the same observation as: 'I wonder if there might be areas we could strengthen together before moving forward.' Same message — entirely different tone."
+    },
+    {
+      "word": "directness",
+      "partOfSpeech": "noun",
+      "definition": "The degree to which a communicator states their meaning explicitly rather than implying it through context, hedging, or indirect phrasing. High-directness cultures (Germany, Netherlands, Israel) value explicit, unambiguous communication. Low-directness cultures (Japan, South Korea, many Arab cultures) rely more on context, relationship, and implication. Neither is superior — but mismatch creates misunderstanding.",
+      "example": "Marcus reflected on a difficult meeting: Our German partners told us directly that the proposal was inadequate — we found it jarring. Riley replied: Directness is not rudeness in that cultural context — it is actually a form of respect. They are telling you exactly what they think so you can fix it. The same feedback from a Japanese partner might arrive as a very long silence and a request to 'consider further'."
+    },
+    {
+      "word": "politeness strategies",
+      "partOfSpeech": "phrase",
+      "definition": "The linguistic tools used to maintain rapport, protect the listener's face, and avoid threatening the social relationship. Common strategies include: hedging ('I might be wrong, but...'), softening ('Would it be possible to...'), indirectness ('Some people might feel that...'), and positive face ('That's a really important point'). Different cultures rely on different strategies.",
+      "example": "Riley explained the concept: When I say 'I might be wrong, but the timeline seems ambitious' — that hedge is not dishonesty. It's a politeness strategy. It protects your face and mine by leaving room for you to disagree without either of us losing credibility. In a low-context culture, a colleague might say: 'The timeline is unrealistic.' Same content. Very different social effect."
+    },
+    {
+      "word": "high-context",
+      "partOfSpeech": "adjective",
+      "definition": "Describing a communication style where meaning is conveyed largely through context, relationship, history, and implication — rather than explicit words. In a high-context culture, what is not said is often as important as what is. Silence, hesitation, vagueness, and indirect phrasing all carry meaning that a low-context communicator might miss entirely.",
+      "example": "Riley briefed her team before a call with their Korean partners: In a high-context communication environment, if they say 'we will need to discuss this internally', that almost certainly means there are concerns — possibly serious ones. It is not a neutral statement. A low-context communicator would hear 'they just need to talk it over.' A high-context communicator hears 'they are not happy but they cannot say so directly.'"
+    },
+    {
+      "word": "low-context",
+      "partOfSpeech": "adjective",
+      "definition": "Describing a communication style where meaning is conveyed primarily through explicit, literal words — with little reliance on shared context or implication. In a low-context culture, saying what you mean directly is a professional virtue. Indirectness is often read as evasiveness or lack of confidence. Germany, the Netherlands, Scandinavia, and Australia are typically considered low-context.",
+      "example": "Riley said: Our Dutch partners sent feedback that simply read: 'Section 2 is incorrect, Section 4 is missing key data, and the pricing model has not been explained.' In our culture, that might feel harsh. In theirs, it is simply accurate and efficient — a low-context communication style where clarity is the primary value."
+    },
+    {
+      "word": "face",
+      "partOfSpeech": "noun",
+      "definition": "The social value and reputation a person claims and maintains in interactions with others. 'Saving face' means avoiding public embarrassment or contradiction. 'Losing face' means suffering a public challenge to one's credibility or status. In many high-context cultures, protecting the other person's face is a primary communication obligation — which is why disagreement is expressed indirectly.",
+      "example": "Riley understood that the silence from their Japanese partner following her proposal was a face-saving response: They cannot say 'no' directly because that would cause both parties to lose face. What I need to do is create a way for them to express their concern without either of us being embarrassed. I'll send an email saying I'd welcome any thoughts on how we might strengthen the proposal — that gives them a face-saving channel."
+    },
+    {
+      "word": "register",
+      "partOfSpeech": "noun",
+      "definition": "The level of formality in language — ranging from formal (written contracts, legal documents, presentations to senior leaders) to semi-formal (most professional email communication) to informal (Slack messages, internal team conversations). Register choices signal respect, familiarity, and power relations. Misreading the expected register is one of the most common cross-cultural communication errors.",
+      "example": "Riley adjusted her register immediately when she realised the error: I had opened the email with 'Hi Yuki' — which is how I write to colleagues I know well. The reply came back as 'Dear Ms. Riley' with full formal salutation. That's a signal. I replied as 'Dear Ms. Nakamura' and shifted my entire register to formal for the rest of the relationship. Register mismatch communicates carelessness, not friendliness."
+    },
+    {
+      "word": "expectation management",
+      "partOfSpeech": "phrase",
+      "definition": "The practice of proactively communicating what will and will not happen, what the timeline looks like, and what success means — before misalignment has a chance to develop. Particularly critical across cultural boundaries, where assumptions about timelines, decision-making speed, communication frequency, and what a 'commitment' means can differ significantly.",
+      "example": "Riley said: The most damaging cross-cultural sales relationships are not caused by bad products or bad intentions — they're caused by different expectations that were never surfaced and aligned. If I promise 'quick implementation' and you expect two weeks but I mean two months, we have a trust problem that no amount of goodwill will fix. I'd rather over-communicate expectations early and lose a deal than under-communicate and lose a customer."
+    }
+  ],
+
+  "phrasalVerbs": [
+    {
+      "phrase": "I want to make sure I'm approaching this in a way that works for you",
+      "definition": "The opening phrase for signalling cross-cultural awareness and inviting the other party to shape the communication style. It relinquishes control of the format while retaining control of the content — which is exactly the right balance in an unfamiliar cultural context.",
+      "example": "Riley opened the call: Before we dive in — I want to make sure I'm approaching this in a way that works for you. I know that in some organisations, decisions like this involve a more extended internal process than I typically work with. I want to align with how you operate, not push you toward how I usually work."
+    },
+    {
+      "phrase": "I may be more direct than you're used to — please let me know if you'd prefer a different approach",
+      "definition": "A pre-emptive tone disclosure — it names your own communication style before the other person has to react to it. This is particularly effective when you know or suspect your style is more direct than the other party's cultural norm. It creates a safety valve for the conversation.",
+      "example": "Riley said to the new client: I should mention — I tend to communicate quite directly, which not everyone is used to. If I say something that lands harder than intended, please tell me and I'll adjust. My directness is not a sign of disrespect — it's just how I work most efficiently. And I'm genuinely happy to adapt if a different approach would be more comfortable."
+    },
+    {
+      "phrase": "I want to make sure we're aligned on expectations before we move forward",
+      "definition": "The expectation management phrase — used to proactively surface and agree on what will happen before starting, rather than discovering misalignment after the fact. In cross-cultural contexts, this phrase is particularly valuable because different cultures have profoundly different default assumptions about timelines, deliverables, and what a commitment means.",
+      "example": "Riley said: Before we proceed — I want to make sure we're aligned on expectations. When I say 'implementation begins within two weeks of contract signature', I mean the onboarding team will contact you within five working days and we'll have the first configuration session within ten. I want to make sure that matches what you're expecting."
+    },
+    {
+      "phrase": "In my experience working with organisations in [context], I've found that...",
+      "definition": "The phrase for sharing cultural observation without making a claim about the other person specifically. It attributes the insight to your own experience — which makes it non-presumptuous — and opens a conversation rather than asserting a conclusion about how the other party operates.",
+      "example": "Riley said: In my experience working with organisations that operate with a more consensus-based decision-making process, I've found that the most useful thing I can do is make sure each stakeholder has the information they need to evaluate the proposal on their own terms — rather than trying to build a single case that everyone reads the same way. Is that something that would be useful here?"
+    },
+    {
+      "phrase": "What I heard you say was X — did I understand that correctly?",
+      "definition": "The cross-cultural clarification phrase — used to move from high-context to low-context understanding by reflecting back what was said and explicitly checking comprehension. Particularly important after a response that was indirect, hedged, or ambiguous — where the literal meaning and the intended meaning may differ.",
+      "example": "Marcus said: 'There are some aspects of the proposal that our regional director may have views on.' Riley reflected back: What I heard you say is that the regional director has concerns — did I understand that correctly? That direct clarification surfaced the real message, which was that the director had already expressed reservations informally."
+    },
+    {
+      "phrase": "I notice we may have different views on the timeline — could you help me understand your thinking?",
+      "definition": "The phrase for surfacing a pace or expectation mismatch without framing it as a conflict. 'I notice' is observational rather than accusatory. 'Could you help me understand' is Socratic — it invites the other party to explain rather than forcing them to defend. This phrase keeps the conversation collaborative even when there is a real difference.",
+      "example": "Riley said: I notice we may have different views on how quickly to proceed — you've mentioned 'a few months of evaluation' and I've been thinking in terms of weeks. Could you help me understand your timeline thinking? Is it driven by the internal process, the budget cycle, or a concern about the implementation itself?"
+    }
+  ],
+
+  "videos": [],
+
+  "dialogue": [
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Marcus, before we get into the detail — I want to make sure I'm approaching this in a way that works for you and your organisation. I know we've moved at a fairly direct pace so far, and I want to check in on whether that's comfortable."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "I appreciate you asking. To be honest — in our organisation, decisions of this scale involve multiple stakeholders and a significant amount of internal consultation before any [[commitment:a formal or informal agreement to proceed — the meaning and weight of a 'commitment' varies significantly across cultural contexts]] can be made. I want to be transparent about that."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "I'm very glad you told me. I don't want to create pressure that doesn't align with how your organisation works. Can I ask — at this stage in the process, who else would typically be involved in a decision of this scale?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Our procurement team, two divisional heads, and ultimately our regional director. This is not a decision one person makes independently."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Understood — and that's a mark of a well-governed organisation. Rather than framing this as a sales process, what would be most useful for me to prepare to support that internal conversation? I want each stakeholder to have what they need in a format that works for them."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "A detailed written proposal would be most helpful. Something each stakeholder can read independently and assess in their own time. The [[tone:the overall impression conveyed by the language — warm, formal, assertive, or deferential]] needs to be formal — this will be read by people who don't know you at all."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Of course. I'll adjust the [[register:the level of formality in language — formal, semi-formal, or informal — that signals respect and professionalism]] accordingly — the proposal will be formal throughout, with no assumptions of prior familiarity. Could I also ask — you mentioned the regional director. Are they typically involved at the beginning of an evaluation, or closer to the final decision?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Closer to the decision. But their concerns would need to be anticipated in the materials — they cannot be addressed in the moment."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "What I heard you say is that the proposal needs to answer the regional director's concerns before they've been asked — did I understand that correctly?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Yes. They focus primarily on risk — implementation risk and what happens if the partnership does not perform as expected."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "That's very useful — and I want to manage [[expectation management:the practice of proactively communicating what will and will not happen, to prevent misalignment before it develops]] s on exactly that point, right now. Let me tell you what the implementation process looks like, what we commit to contractually, and what the remediation process is if targets are not met. I'd rather have that conversation fully and openly now."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "I appreciate that approach very much. In our experience, many vendors make strong promises during the sales process. The concern is always about what happens after the contract is signed."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "That concern is completely legitimate — and it's one I take seriously. In my experience working with organisations that operate with a more rigorous evaluation process, I've found that the vendors who build lasting partnerships are the ones who are equally [[directness:the degree to which meaning is stated explicitly versus implied through context or hedging]] direct about their limitations as they are about their strengths."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "So let me say this plainly: every commitment I make today, I'm prepared to put in the contract — including the performance benchmarks and the process if we fall short. There should be no gap between what you read in the proposal and what you experience in the relationship."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "That is reassuring. I notice we may have different views on timeline, however — I would expect the internal review to take some weeks, perhaps longer."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "I notice that too — and I want to make sure we're aligned on [[expectation:a belief about what will happen — often the source of cross-cultural misalignment when not surfaced and agreed explicitly]]s before we move forward. Could you help me understand your timeline thinking — is it driven by the internal approval process, the budget cycle, or the evaluation itself? That will help me plan the right level of support throughout."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "The internal approval process, primarily. We have a quarterly review in eight weeks — if the proposal is strong, that would be the natural decision point."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Eight weeks is very workable. I'll have the proposal to you within three working days — which gives your team five weeks to review before the quarterly meeting. And if at any stage any stakeholder has questions, I'm available in whatever format works best — written, a call, or a formal presentation if that would help the process."
+    }
+  ],
+
+  "matchingExercise": [
+    { "word": "tone",                   "definition": "the overall impression conveyed by language and delivery — what the listener feels, not just what is said" },
+    { "word": "directness",             "definition": "the degree to which meaning is stated explicitly versus implied through context and hedging" },
+    { "word": "politeness strategies",  "definition": "linguistic tools used to maintain rapport and protect the other person's face — hedging, softening, indirectness" },
+    { "word": "high-context",           "definition": "a communication style where meaning is conveyed through context, relationship, and implication rather than explicit words" },
+    { "word": "low-context",            "definition": "a communication style where meaning is conveyed primarily through explicit, literal words" },
+    { "word": "face",                   "definition": "the social value and reputation a person maintains in interactions — 'losing face' means suffering a public challenge to credibility" },
+    { "word": "register",               "definition": "the level of formality in language — from formal to informal — that signals respect and the nature of the relationship" },
+    { "word": "expectation management", "definition": "proactively communicating what will and will not happen to prevent misalignment before it develops" }
+  ],
+
+  "fillBlankExercise": [
+    { "before": "I want to make sure I'm approaching this in a way that ", "after": " for you — I know your decision process involves multiple stakeholders.", "answer": "works" },
+    { "before": "What I ", "after": " you say was that the regional director has concerns — did I understand that correctly?", "answer": "heard" },
+    { "before": "In my experience working with organisations in this context, I've ", "after": " that the most useful preparation is a detailed written proposal each stakeholder can evaluate independently.", "answer": "found" },
+    { "before": "I want to make sure we're aligned on ", "after": "s before we move forward — particularly around the implementation timeline.", "answer": "expectation" },
+    { "before": "I notice we may have different views on the timeline — could you help me ", "after": " your thinking?", "answer": "understand" },
+    { "before": "Every commitment I make today, I'm prepared to put in the contract — there should be no gap between the proposal and the ", "after": ".", "answer": "reality" }
+  ],
+
+  "multipleChoiceExercise": [
+    {
+      "question": "What does Marcus say is the primary concern his regional director will focus on?",
+      "options": [
+        "Commercial terms and pricing",
+        "Strategic fit with the existing technology stack",
+        "Implementation risk and what happens if performance targets are not met"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "How does Riley respond to Marcus's concern that vendors often don't deliver what they promise?",
+      "options": [
+        "By citing independent reviews and case studies",
+        "By offering every commitment in writing, including performance benchmarks and remediation process",
+        "By offering a money-back guarantee for the first six months"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What adjustment does Riley commit to making for the written proposal?",
+      "options": [
+        "Shortening it to a two-page executive summary",
+        "Including video walkthroughs for each stakeholder",
+        "Making it fully formal in register, with no assumptions of prior familiarity"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "When Marcus mentions an eight-week timeline, what is Riley's response?",
+      "options": [
+        "She asks if there is any way to accelerate the process",
+        "She says eight weeks is workable and offers the proposal within three working days",
+        "She explains that their onboarding cohort closes before the eight-week mark"
+      ],
+      "correctIndex": 1
+    }
+  ],
+
+  "warmUp": {
+    "questions": [
+      "Have you ever had a miscommunication with someone from a different country or culture at work — not because of language, but because of different expectations about how to communicate? What happened, and what did you learn?",
+      "Think about your own communication style — would you describe yourself as more direct or more indirect? How aware are you of adapting it depending on who you're talking to?",
+      "In your experience, which matters more in a professional relationship: being completely honest even when it's uncomfortable, or maintaining harmony even if it means being less than fully direct? Does your answer change depending on the culture or context?"
+    ]
+  },
+
+  "completeSentenceExercise": {
+    "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
+    "items": [
+      {
+        "sentence": "The most effective cross-cultural communicators are those who can read the indirect cues in a conversation and _____ accordingly.",
+        "options": ["responds", "respond", "are responding"],
+        "correctIndex": 1,
+        "explanation": "The subject of the relative clause is 'those' — a plural pronoun referring to multiple people. The verb in the relative clause must agree with 'those': 'those who... respond' (plural). 'Responds' is the third-person singular form, which agrees with a singular subject like 'he', 'she', or 'it' — not with 'those'. 'Are responding' (present continuous) is grammatically possible but implies a temporary action in progress, whereas present simple ('respond') is correct for describing a general professional ability."
+      },
+      {
+        "sentence": "In a high-context culture, a direct refusal is rarely given — hesitation and vagueness should never be _____ disinterest when they may signal deep consideration.",
+        "options": ["misinterpreted like", "misinterpreted as", "misinterpreted for"],
+        "correctIndex": 1,
+        "explanation": "'Misinterpreted as' is the correct collocation — 'as' introduces the incorrect interpretation being attributed to the behaviour. 'Interpret as', 'regard as', 'describe as', 'misread as' — all of these verbs of classification and interpretation take 'as', not 'like' or 'for'. 'Like' is used for comparison ('she communicates like a native speaker'), not for classification. 'For' is used in other collocations ('mistaken for', 'taken for') but not with 'misinterpreted'."
+      },
+      {
+        "sentence": "Managing expectations across cultural boundaries proactively is one of the most effective ways _____ misalignment before it becomes a serious problem.",
+        "options": ["to preventing", "of preventing", "to prevent"],
+        "correctIndex": 2,
+        "explanation": "'Ways to prevent' is correct — 'ways to [verb]' uses an infinitive. 'Ways of preventing' (with a gerund) is also correct and equally standard. However, 'ways to preventing' mixes the infinitive marker 'to' with the gerund '-ing', creating a hybrid that is not grammatical in English. You must choose one: 'ways to prevent' (infinitive) OR 'ways of preventing' (gerund). Both are acceptable; the hybrid form is not."
+      },
+      {
+        "sentence": "When adapting your register to a new cultural context, _____ typically signals a shift toward greater formality and respect.",
+        "options": [
+          "addressing someone by their title and surname",
+          "using their first name to establish warmth",
+          "keeping messages short and direct"
+        ],
+        "correctIndex": 0,
+        "explanation": "Formal register in most professional cultures is signalled by title + surname ('Dear Ms. Nakamura', 'Dear Dr. Chen') rather than first-name address. Using first names signals intimacy and familiarity — which can be read as presumptuous when the relationship has not yet established that level of closeness. Short, direct messages may reflect a low-context style but do not in themselves signal formality. Title + surname is the clearest and most universal marker of formal register in written professional communication."
+      },
+      {
+        "sentence": "A high-context communicator receiving a vague, non-committal response has probably received _____, even if the literal words suggest otherwise.",
+        "options": ["a qualified yes", "an indirect no", "a request for more information"],
+        "correctIndex": 1,
+        "explanation": "In high-context communication cultures, a direct refusal is rarely given because it causes both parties to lose face. Instead, refusal is typically signalled through vagueness, hedging, excessive qualification, sudden interest in 'consulting further', or a noticeably long silence. A skilled cross-cultural communicator reads these signals as an indirect no — not as uncertainty or a neutral response. This requires cultural literacy: the literal words say 'we'll consider it', but the subtext says 'we are not going to proceed'."
+      },
+      {
+        "sentence": "Riley realised she had misread the register when her client replied with a full formal salutation after Riley had opened _____ 'Hi Yuki'.",
+        "options": ["with", "by", "as"],
+        "correctIndex": 0,
+        "explanation": "'Open with [phrase/approach]' is the correct construction — 'with' introduces the means or content used to open the communication. 'She opened with a question', 'they opened with a formal greeting', 'I opened with a summary'. 'Open by' is also possible but introduces an action ('she opened by introducing herself'), not the content itself. 'Open as' does not fit this context. 'With' is the correct preposition when the object is a direct quote, phrase, or greeting used to begin the message."
+      }
+    ]
+  },
+
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Read what the client says. Choose the best response from the three options.",
+      "items": [
+        {
+          "customerLine": "We will need to discuss this internally and come back to you. There are some aspects that require further consideration.",
+          "options": [
+            "Of course — please take the time you need. I'll follow up in a week.",
+            "What I'm hearing is that there may be specific concerns that haven't been raised yet — is that a fair reading? If so, I'd much rather hear them directly so I can address them, rather than have them remain unspoken. Is there a way we could have that conversation?",
+            "I understand. Could you give me a rough timeline for when you expect to have an answer?"
+          ],
+          "correctIndex": 1,
+          "explanation": "In a high-context communication environment, 'there are aspects that require further consideration' is very likely signalling a concern rather than a neutral procedural statement. Option B reads this signal correctly and creates a face-saving channel for the concern to be expressed — it names the possibility of unspoken concerns without forcing the client to confirm them directly. Option A is too passive — it accepts the vagueness and loses the opportunity. Option C asks for a timeline without addressing the concern, which doesn't move the conversation forward."
+        },
+        {
+          "customerLine": "I appreciate your directness, but in our culture, we typically move more carefully before making decisions of this scale.",
+          "options": [
+            "Of course — I completely respect that. I may have been moving faster than is comfortable, and I apologise if that created any pressure. Could you help me understand what a comfortable pace looks like for your organisation, so I can align my approach accordingly?",
+            "I understand — but I'd gently note that our current pricing is only available until the end of the quarter, so there is some timing sensitivity on our side.",
+            "That makes complete sense. In my experience, organisations that take more time to evaluate tend to make better decisions — so I think this approach will serve you well."
+          ],
+          "correctIndex": 0,
+          "explanation": "Option A is the best response — it acknowledges the feedback, takes responsibility without being defensive, and then asks an open question that gives the client control over defining the process. This is precisely the right response to a direct piece of cultural feedback. Option B introduces urgency immediately after being told the client doesn't appreciate pressure — which is culturally tone-deaf. Option C is patronising ('organisations that take more time make better decisions') — it validates the client's position in a way that sounds like approval from a superior, not a peer."
+        },
+        {
+          "customerLine": "Your proposal is good. We will present it to the regional director at the quarterly review in eight weeks.",
+          "options": [
+            "Wonderful — I look forward to hearing the outcome. Please let me know if there's anything else you need from us before then.",
+            "Thank you. I want to make sure we're aligned on what happens in those eight weeks. Would it be useful for me to prepare a separate briefing document specifically addressing the regional director's typical concerns around implementation risk? I'd rather anticipate their questions than leave them unanswered.",
+            "Eight weeks is a long time — is there any possibility of accelerating the timeline if the regional director could review it sooner?"
+          ],
+          "correctIndex": 1,
+          "explanation": "Option B demonstrates genuine commercial intelligence — it uses the eight-week window proactively to reduce risk rather than simply waiting. Preparing a director-specific briefing that pre-empts known concerns ('implementation risk') shows that Riley listened carefully earlier in the conversation and is now acting on it. This is expectation management and relationship-building in one move. Option A is too passive — it creates no forward momentum and leaves everything to chance. Option C applies pressure after explicitly being told the organisation moves carefully — which would damage the relationship."
+        }
+      ]
+    },
+    "spotTheMistake": {
+      "instructions": "Read the cross-cultural sales conversation. Three lines have a mistake. Can you find them?",
+      "dialogue": [
+        { "speaker": "Riley", "text": "When adapting your communication style to different cultural contexts, it is important to avoid making presumptions about how someone will behave based solely on their nationality." },
+        { "speaker": "Marcus", "text": "Agreed. In high-context cultures, a direct refusal is rarely expressed — disagreement is signalled through hesitation, vagueness, or a sudden need to consult further." },
+        { "speaker": "Riley", "text": "The most effective cross-cultural communicators are those who can read these indirect cues and responds accordingly — without making the other party feel exposed." },
+        { "speaker": "Marcus", "text": "Exactly. And when you're uncertain whether a commitment has been made, it's worth reflecting back what you heard and asking for confirmation." },
+        { "speaker": "Riley", "text": "Right. Silence during a negotiation should never be misinterpreted like discomfort — in many high-context cultures it signals deep consideration." },
+        { "speaker": "Riley", "text": "Proactively managing expectations is one of the most effective ways to preventing cultural misalignment from becoming a trust issue." }
+      ],
+      "mistakes": [
+        {
+          "lineIndex": 2,
+          "incorrectText": "responds",
+          "correction": "respond",
+          "explanation": "The subject of the relative clause is 'those' — a plural pronoun. The verb in the relative clause must agree with 'those' (plural), so 'respond' is required — not 'responds', which is the third-person singular form used with 'he', 'she', or 'it'. The structure is: 'those who [plural verb]'. 'Those who respond', 'those who lead', 'those who understand' — always plural. 'Responds' would agree with a singular: 'a person who responds', 'someone who responds'."
+        },
+        {
+          "lineIndex": 4,
+          "incorrectText": "misinterpreted like",
+          "correction": "misinterpreted as",
+          "explanation": "'As' is the correct preposition with 'misinterpreted' — it introduces the identity or category being incorrectly assigned. 'Interpret as', 'regard as', 'describe as', 'misread as', 'misinterpreted as' — all verbs of classification take 'as'. 'Like' introduces a comparison: 'she communicates like a diplomat'. 'Like' cannot replace 'as' when introducing a classification or identity. 'Silence was misinterpreted as weakness' (it was wrongly labelled as weakness) versus 'he spoke like a diplomat' (comparison, not classification)."
+        },
+        {
+          "lineIndex": 5,
+          "incorrectText": "ways to preventing",
+          "correction": "ways to prevent",
+          "explanation": "'Ways to prevent' uses the infinitive — 'to' + base verb. 'Ways of preventing' uses the gerund — 'of' + '-ing' verb. Both are correct. 'Ways to preventing' is neither — it mixes the infinitive marker 'to' with the gerund '-ing', producing a hybrid that is ungrammatical. Choose one structure: 'ways to prevent' OR 'ways of preventing'. The error often arises because learners associate 'to' with gerunds in other constructions ('I'm looking forward to hearing from you'), but after 'ways', the preposition is 'of', not 'to', when using the gerund form."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The salesperson starts a sentence. Work with your partner to finish it naturally, demonstrating cross-cultural awareness and sophisticated communication.",
+      "items": [
+        {
+          "customerLine": "We found your last meeting quite direct — some members of our team were not entirely comfortable with the pace.",
+          "salespersonStart": "I really appreciate you telling me that directly — it takes confidence to give that kind of feedback and I'm grateful for it.",
+          "suggestedCompletion": "I can see that I moved at a pace that didn't align with how your organisation typically works, and I should have asked earlier rather than assumed. Going forward — could you help me understand what a more comfortable rhythm looks like? I'd rather adapt to how you work than have you spend energy managing the pace of the relationship."
+        },
+        {
+          "customerLine": "The proposal is under review. There are some aspects that we are still considering carefully.",
+          "salespersonStart": "Thank you for letting me know. I want to make sure I'm reading that correctly —",
+          "suggestedCompletion": "when you say there are aspects still being considered, I want to check: are there specific concerns that I might be able to address directly? I'd rather we discuss them openly now than have them remain unresolved as the review progresses. If there's a more comfortable way for those concerns to be surfaced — in writing, through a separate call, or in whatever format works best — I'm happy to accommodate that."
+        },
+        {
+          "customerLine": "In our organisation, we don't typically make decisions of this scale without significant internal discussion. It could take several months.",
+          "salespersonStart": "I completely respect that process — and I want to support it rather than work against it.",
+          "suggestedCompletion": "Could I ask: what would be most useful for me to prepare for each stage of the internal review? I'd rather invest time now in giving your stakeholders exactly what they need — in the right format and at the right level of detail — than send a single proposal and hope it works for everyone. If it would help, I could prepare separate materials for the procurement team, the divisional heads, and the regional director — each addressing their likely priorities."
+        }
+      ]
+    }
+  }
+}
