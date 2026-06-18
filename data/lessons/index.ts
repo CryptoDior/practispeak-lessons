@@ -78,6 +78,7 @@ import { dataDrivenSalesLanguage } from './data-driven-sales-language';
 import { strategicQuestioning } from './strategic-questioning';
 import { crossCulturalSalesCommunication } from './cross-cultural-sales-communication';
 import { highTicketSalesLanguage } from './high-ticket-sales-language';
+import { b2bSalesVocabulary } from './b2b-sales-vocabulary';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -159,6 +160,7 @@ export const lessons: Lesson[] = [
   strategicQuestioning,
   crossCulturalSalesCommunication,
   highTicketSalesLanguage,
+  b2bSalesVocabulary,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
