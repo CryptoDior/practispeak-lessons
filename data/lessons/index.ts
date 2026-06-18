@@ -77,6 +77,7 @@ import { pitchingToInvestorsOrPartners } from './pitching-to-investors-or-partne
 import { dataDrivenSalesLanguage } from './data-driven-sales-language';
 import { strategicQuestioning } from './strategic-questioning';
 import { crossCulturalSalesCommunication } from './cross-cultural-sales-communication';
+import { highTicketSalesLanguage } from './high-ticket-sales-language';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -157,6 +158,7 @@ export const lessons: Lesson[] = [
   dataDrivenSalesLanguage,
   strategicQuestioning,
   crossCulturalSalesCommunication,
+  highTicketSalesLanguage,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
