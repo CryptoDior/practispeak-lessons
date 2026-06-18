@@ -1,0 +1,504 @@
+import { Lesson } from '@/types/lesson';
+
+export const closingComplexDeals: Lesson = {
+  slug: 'closing-complex-deals',
+  title: 'Closing Complex Deals',
+  subtitle: 'The language of commitment, mutual action plans, and decision timelines — how to close multi-stakeholder enterprise deals without losing them to process',
+  level: 'C1-C2',
+  description: "Complex deals do not close with a single question. They close through a series of incremental commitments — each conversation securing a specific agreement, a named next step, and a shared understanding of what happens next and by whom. The most common reason enterprise deals stall is not that the buyer decided not to buy — it's that the deal lost momentum in the space between meetings. No agreed next step, no clear timeline, no champion keeping it moving internally. This lesson teaches the language of complex deal closure: how to build a mutual action plan, surface blockers before they become fatal, identify and activate the internal champion, and drive the deal through every internal approval gate to a signed contract.",
+  heroImage: '/images/closing-complex-deals-hero.png',
+
+  vocabulary: [
+    {
+      word: 'COMMITMENT',
+      partOfSpeech: 'noun',
+      definition: "In complex deals, a commitment is a specific, time-bound agreement to take a defined action — not a general expression of interest. 'We're interested in moving forward' is not a commitment. 'I will submit the proposal to procurement by Friday' is a commitment. Securing incremental commitments — small, specific agreements that build progressively toward contract — is the core discipline of complex deal management.",
+      example: "Riley made the distinction explicit: Before we close today's meeting, I want to agree on a specific commitment from both sides — not a general intention, but a named action with a named owner and a date. My commitment is to send the mutual action plan by end of tomorrow. What is yours? — because 'we'll look at it this week' is the kind of commitment that turns into a three-week delay.",
+      imageSlug: '/images/commitment.png',
+    },
+    {
+      word: 'NEXT STEPS',
+      partOfSpeech: 'phrase',
+      definition: 'The specific, named actions agreed at the end of every sales conversation — who does what, and by when. The absence of agreed next steps is the single most common cause of deal stall in complex B2B sales. A good set of next steps includes: the specific action, the named person responsible, and the exact date by which it will be completed.',
+      example: "Riley said: Before we finish — I want to make sure we have named next steps from today's conversation, not just a general plan to proceed. My experience is that 'we'll be in touch' is where deals go to die. So: you introduce me to Sarah by end of today, I send the mutual action plan by tomorrow morning, and we schedule a three-way check-in for Monday at 10 a.m. Can we confirm all three now?",
+      imageSlug: '/images/next-steps.png',
+    },
+    {
+      word: 'DECISION TIMELINE',
+      partOfSpeech: 'phrase',
+      definition: 'The sequence of events, approvals, and milestones that must occur before a complex purchase can be finalised — including internal reviews, sign-off stages, board presentations, and legal processes. Understanding the full decision timeline — and mapping it explicitly — is the first step in managing a complex close. Without it, both parties are working to unstated and potentially conflicting assumptions about when and how the deal will close.',
+      example: "Riley said: Let's make the decision timeline explicit — not as a pressure tool, but because both our teams need to plan around it. Walk me through every step that has to happen on your side from today to signed contract. Once we have the full picture, I can map our side against it and identify where the pinch points are likely to be.",
+      imageSlug: '/images/decision-timeline.png',
+    },
+    {
+      word: 'CHAMPION',
+      partOfSpeech: 'noun',
+      definition: "An internal advocate within the buyer's organisation who actively supports the vendor's solution and helps navigate internal decision-making on the vendor's behalf. A champion is distinct from a sponsor — a sponsor has authority; a champion has access and willingness to advocate. The most effective complex deal closures rely on an internal champion who has visibility across all approval stages and can surface issues before they become blockers.",
+      example: "Riley asked directly: Who inside your organisation is the champion for this deal — the person who, when I'm not in the room, is making the case for why this is the right decision? That person doesn't have to be the most senior stakeholder — they just need visibility, credibility, and a genuine belief in the value of the solution. Because without a champion, deals at this level tend to get deprioritised the moment something else competes for internal attention.",
+      imageSlug: '/images/champion.png',
+    },
+    {
+      word: 'MUTUAL ACTION PLAN',
+      partOfSpeech: 'phrase',
+      definition: 'A shared document — agreed by both buyer and seller — that maps every step required from both sides to close the deal, with a named owner and a specific date assigned to each action. A mutual action plan (MAP) is one of the most effective tools in complex deal management: it creates shared accountability, surfaces gaps in the process, and provides a visual reference that both teams can refer to independently.',
+      example: "Riley proposed the MAP: Can I suggest we formalise this as a mutual action plan — a shared document that maps every step from today to signed contract, with a named owner and a specific date for each action? I'll draft it on my side and send it to you by end of tomorrow. Once you've reviewed and added your team's actions, it becomes the reference document for both teams. Nothing moves without it being in the plan, and anything that falls behind is immediately visible.",
+      imageSlug: '/images/mutual-action-plan.png',
+    },
+    {
+      word: 'BLOCKER',
+      partOfSpeech: 'noun',
+      definition: "Any factor — technical, commercial, organisational, or political — that is preventing a deal from advancing. Blockers can be explicit (a stakeholder with an unresolved objection) or hidden (an internal policy the vendor doesn't know about, a competing initiative, a stakeholder who has not been engaged). Surfacing blockers early — through direct questioning — is significantly more effective than discovering them when the deal has already stalled.",
+      example: "Riley asked with deliberate directness: I want to ask a question you might find unusual: what are the blockers we haven't discussed yet? Not the concerns we've addressed — I'm thinking about the things that might be creating hesitation internally that haven't surfaced in our conversations. In my experience, there is almost always at least one. I'd rather know now than find out six weeks from now when the timeline has slipped.",
+      imageSlug: '/images/blocker.png',
+    },
+    {
+      word: 'ACCELERATOR',
+      partOfSpeech: 'noun',
+      definition: 'An external factor or internal motivation that could cause a decision to be made faster than the standard process would suggest — a competitor win that creates urgency, a budget deadline, a strategic initiative that the solution directly supports, or an executive mandate. Identifying accelerators helps a salesperson understand what factors might compress the decision timeline — and allows them to reference those factors without manufacturing false urgency.',
+      example: "Riley asked: Is there anything that could accelerate the decision — something on your side that would make moving faster genuinely valuable for your organisation? Not from my perspective — I understand you have a process to follow. But sometimes there's a factor like a competitor who has already moved, a platform that's going end-of-life, or a strategic initiative where the timing matters. If something like that exists, I'd like to know, so we can factor it into the plan.",
+      imageSlug: '/images/accelerator.png',
+    },
+    {
+      word: 'SIGN-OFF GATE',
+      partOfSpeech: 'phrase',
+      definition: "A mandatory approval checkpoint in a buyer's internal process that must be cleared before the deal can advance to the next stage. Complex enterprise deals typically have multiple sign-off gates: procurement approval, IT security clearance, legal review, and C-suite or board sign-off. Missing or bypassing a sign-off gate is one of the most common deal-killing errors — often caused by the vendor not knowing the gate exists until the deal is already through it.",
+      example: "Riley mapped the gates explicitly: Based on what you've described, I can see four sign-off gates between today and signed contract: procurement approval, IT security clearance, legal review, and CFO sign-off before the board. Are those the only four — or are there gates in the process I haven't accounted for? Because the timeline we've built depends on those four being the complete picture.",
+      imageSlug: '/images/sign-off-gate.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'WHAT DOES THE DECISION-MAKING PROCESS LOOK LIKE FROM HERE?',
+      definition: 'The phrase for mapping the full internal approval process at the point where a deal is close to advancing. It opens the conversation about every step that must happen before the contract can be signed — without creating pressure or implying a specific timeline. The answer typically reveals sign-off gates, stakeholders, and process requirements that the vendor did not previously know about.',
+      example: "Riley said after Marcus confirmed they were 'close': Before we talk about timing, I want to make sure I understand the decision-making process completely. What does the decision-making process look like from here — every step, every approval, every person who needs to be involved before this can be signed? I'd rather build a realistic timeline than an optimistic one that slips.",
+      imageSlug: '/images/what-does-the-decision-making-process-look-like-from-here.png',
+    },
+    {
+      phrase: 'CAN WE AGREE ON A MUTUAL ACTION PLAN — MAPPING EVERY STEP ON BOTH SIDES?',
+      definition: "The phrase for proposing a mutual action plan as the mechanism for managing the close. Framing it as 'both sides' is deliberate — it signals that the seller is not imposing a process but proposing a shared accountability structure. The MAP typically becomes the reference document that both teams check against independently.",
+      example: "Riley proposed: Can we agree on a mutual action plan that maps every step from today to contract — with a named owner and a specific date for each action? I'll draft my side and send it to you by end of tomorrow. Once you've added your team's steps, we have a shared reference that makes the timeline visible and keeps both sides accountable.",
+      imageSlug: '/images/can-we-agree-on-a-mutual-action-plan--mapping-every-step-on-both-sides.png',
+    },
+    {
+      phrase: 'WHAT WOULD NEED TO HAPPEN FOR US TO HAVE A SIGNED CONTRACT BY [DATE]?',
+      definition: "The phrase for working backwards from a target close date to identify every action, approval, and milestone that must occur before that date. It is a collaborative question — it does not set the deadline, it asks the buyer to help identify what the deadline requires. This makes the buyer a partner in mapping the timeline rather than a subject of the seller's urgency.",
+      example: "Riley asked: The board meeting is six weeks away — and that feels like our natural anchor point. What would need to happen for us to have a signed contract by the Thursday before that meeting? I want to map every single step between now and that date, assign owners, and build in enough buffer that a one-week delay in any stage doesn't kill the timeline.",
+      imageSlug: '/images/what-would-need-to-happen-for-us-to-have-a-signed-contract-by-date.png',
+    },
+    {
+      phrase: 'WHO DO WE NEED TO BRING ALONG INTERNALLY ON YOUR SIDE BEFORE THIS CAN MOVE FORWARD?',
+      definition: "The phrase for stakeholder mapping at the close — identifying any internal parties who have not yet been fully engaged and whose absence could block the deal at a later stage. 'Bring along' implies inclusion and alignment rather than pressure — it is collaborative language that invites the buyer to name their own internal blockers.",
+      example: "Riley said: I want to make sure we're not surprised by a stakeholder who hasn't been part of the conversation. Who do we need to bring along internally on your side before this can move forward — and what do they each need to be confident about? If there's a sceptic in the room, it's better to know now and address their concern directly.",
+      imageSlug: '/images/who-do-we-need-to-bring-along-internally-on-your-side-before-this-can-move-forward.png',
+    },
+    {
+      phrase: 'I WANT TO MAKE SURE WE HAVE A NAMED NEXT STEP FROM TODAY — NOT JUST A PLAN TO PROCEED',
+      definition: 'The phrase for ensuring that every sales conversation ends with a specific, committed next action — not a vague intention. The distinction between a plan to proceed and a named next step is the difference between momentum and stall. A named next step includes a specific action, a named person, and a specific date.',
+      example: 'Riley said as the call was wrapping up: Before we close — I want to make sure we have a named next step from today, not just a plan to proceed. The specific actions: you introduce me to Sarah today, I send the mutual action plan by end of tomorrow, and we schedule the three-way check-in for Monday at 10. Does that work, or do we need to adjust any of the three?',
+      imageSlug: '/images/i-want-to-make-sure-we-have-a-named-next-step-from-today--not-just-a-plan-to-proceed.png',
+    },
+    {
+      phrase: 'IS THERE A BUDGET CYCLE OR BOARD APPROVAL PROCESS WE SHOULD BE PLANNING AROUND?',
+      definition: 'The phrase for identifying external drivers that constrain or accelerate the decision timeline — particularly budget cycles, board meeting dates, or contract expiry dates that create natural urgency. These are legitimate urgency drivers that the seller can reference without manufacturing false pressure.',
+      example: "Riley asked early in the closing conversation: Is there a budget cycle or board approval process we should be planning around? Not because I'm trying to create urgency from my side — but because these timelines often have real consequences if they're missed. If there's a quarterly board meeting where this would be presented, or a budget that needs to be committed before year-end, that shapes the entire plan.",
+      imageSlug: '/images/is-there-a-budget-cycle-or-board-approval-process-we-should-be-planning-around.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "Riley, I'll be honest — we're close, but this is a complex internal process. I'm not confident we can meet the timeline you'd be hoping for.",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "I appreciate you saying that directly — and I don't want to create pressure that works against us. Can I suggest we start somewhere different: rather than working toward my timeline, let's map out what your internal process actually requires and build the plan from that.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "That's a reasonable approach. Where do you want to start?",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'What does the [[decision timeline:the sequence of events, approvals, and milestones that must occur before a purchase can be finalised]] look like from here — every step, every approval, every [[sign-off gate:a mandatory approval checkpoint that must be cleared before the deal can advance to the next stage]] that has to be cleared before we can get to a signed contract?',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'The proposal goes to procurement this week. Procurement typically takes two weeks to evaluate. Then legal review — which can vary. Then CFO sign-off. And finally, the board reviews all contracts above £500,000 at the quarterly meeting.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'When is the next board meeting?',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Six weeks from today.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "That's our anchor. Working backwards: six weeks to board. CFO sign-off needs to happen the week before, so that's week five. Legal needs to be complete before the CFO sees it — if legal takes two weeks, we need to start legal review in week three. That means procurement needs to clear us and issue the contract by the end of week two. If we submit to procurement today, that timeline is achievable — but there is no buffer. Can we make the procurement submission today a firm [[commitment:a specific, time-bound agreement to take a defined action — not a general expression of interest]]?",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "Yes — I can submit to procurement today. That's a firm commitment.",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Good. Now — can we agree on a [[mutual action plan:a shared document mapping every step required from both sides to close the deal, with a named owner and date for each action]]? I'll draft the steps on our side — implementation readiness, legal turnaround, and commercial terms — and send it to you by end of tomorrow. You add your team's steps, and it becomes the shared reference that both teams work from.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "That's a very structured approach. I like it — it will help my team stay aligned internally as well.",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "That's exactly why it works. Now — one more question, and it's one I ask on every deal at this stage: what are the [[blocker:any factor — technical, commercial, organisational, or political — preventing a deal from advancing]]s we haven't discussed yet? Not the concerns we've already addressed — the things that might be creating hesitation internally that haven't surfaced in our conversations.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "Honestly — our IT security team hasn't fully reviewed the data residency requirements. That could surface as a concern during the vendor assessment.",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Then let's address it before it becomes a blocker. Can I send our security documentation directly to your IT team this week — our GDPR compliance certificate, data flow diagram, and pen-test results from Q1? If there are residency concerns, I'd rather surface them now than in week two of procurement. Who should I copy on that email?",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Copy Sarah — our Head of Operations. She manages the procurement relationship and has a direct line to both IT security and the CFO.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Sarah sounds like the [[champion:an internal advocate who actively supports the solution and can navigate internal decision-making on the vendor's behalf]] I was about to ask you to identify. Would you be comfortable introducing me to her directly? Having a relationship with the person who has visibility across all approval stages is what keeps deals moving between our conversations.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "I'll introduce you by email today.",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Perfect. Let's confirm the [[next steps:the specific, named actions agreed at the end of a sales conversation — who does what, and by when]] before we close: you submit to procurement and introduce me to Sarah today; I send the security documentation to Sarah and the mutual action plan to you by end of tomorrow; and we schedule a three-way check-in for Monday with Sarah included. All confirmed?",
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "commitment",
+        "definition": "a specific, time-bound agreement to take a defined action — not a general expression of interest"
+    },
+    {
+        "word": "next steps",
+        "definition": "specific named actions agreed at the end of a sales conversation — who does what and by when"
+    },
+    {
+        "word": "decision timeline",
+        "definition": "the sequence of approvals and milestones that must occur before a complex purchase can be finalised"
+    },
+    {
+        "word": "champion",
+        "definition": "an internal advocate within the buyer's organisation who actively navigates internal decision-making on the vendor's behalf"
+    },
+    {
+        "word": "mutual action plan",
+        "definition": "a shared document mapping every step from both sides to close a deal, with a named owner and date for each action"
+    },
+    {
+        "word": "blocker",
+        "definition": "any factor — technical, commercial, or organisational — that is preventing a deal from advancing"
+    },
+    {
+        "word": "accelerator",
+        "definition": "an external factor or internal motivation that could cause a decision to be made faster than the standard process would suggest"
+    },
+    {
+        "word": "sign-off gate",
+        "definition": "a mandatory internal approval checkpoint that must be cleared before a deal can advance to the next stage"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "Before we close today's conversation, I want to make sure we have a named ",
+        "after": " step from both sides — not just a general plan to proceed, but a specific action, a specific person, and a specific date.",
+        "answer": "next"
+    },
+    {
+        "before": "Working backwards from the board meeting: six weeks to the board, meaning we need CFO sign-off by week five, legal review complete by week four, and ",
+        "after": " submission today.",
+        "answer": "procurement"
+    },
+    {
+        "before": "A mutual ",
+        "after": " plan maps every step from today to signed contract — with a named owner and a date assigned to each action on both sides.",
+        "answer": "action"
+    },
+    {
+        "before": "Sarah, as Head of Operations, is exactly the internal ",
+        "after": " we need — someone with visibility across procurement, IT security, and the CFO's office who can keep the deal moving between our conversations.",
+        "answer": "champion"
+    },
+    {
+        "before": "I want to surface any ",
+        "after": "s now — not in week three of the procurement process when they become critical path issues.",
+        "answer": "blocker"
+    },
+    {
+        "before": "Is there a budget cycle or board approval process we should be planning ",
+        "after": "? Not to create pressure — but to make sure the plan we build is realistic for your organisation.",
+        "answer": "around"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "What does Riley propose instead of working toward her preferred timeline?",
+        "options": [
+            "She asks Marcus to compress his internal process to meet the original deadline",
+            "She maps Marcus's full internal process and builds the plan backwards from that",
+            "She offers a flexible start date that allows more time for the procurement phase"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What blocker does Marcus identify that hasn't been discussed before?",
+        "options": [
+            "The CFO has concerns about the ROI model",
+            "IT security hasn't fully reviewed the data residency requirements",
+            "Procurement needs three competitive quotes before issuing a contract"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why does Riley ask Marcus to introduce her to Sarah?",
+        "options": [
+            "Because Sarah has the authority to sign the contract without board approval",
+            "Because Sarah has visibility across procurement, IT security, and the CFO — and can keep the deal moving between conversations",
+            "Because Sarah is the only person who can submit the mutual action plan to the procurement committee"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What are the three named next steps Riley confirms at the end of the call?",
+        "options": [
+            "Marcus submits to procurement and introduces Sarah today; Riley sends security documentation and the mutual action plan tomorrow; they schedule a Monday three-way check-in with Sarah",
+            "Marcus introduces Sarah today; Riley sends the proposal tomorrow; they schedule a legal review call for next week",
+            "Marcus confirms CFO approval; Riley sends the contract; they schedule a board presentation date"
+        ],
+        "correctIndex": 0
+    }
+],
+  warmUp: {
+    "questions": [
+        "Think about a time you were trying to get agreement on something complex — at work, with a group, or in your personal life. What made it difficult? Was it the process, the people, or the timeline?",
+        "Have you ever been involved in a decision that seemed close to finalised but then stalled for weeks or months? Looking back, what actually caused the delay — and could it have been prevented?",
+        "In your organisation, how are large decisions typically made — by one person, by a team, or by a formal committee process? What are the advantages and risks of each approach?"
+    ]
+},
+  completeSentenceExercise: {
+    "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
+    "items": [
+        {
+            "sentence": "We agreed _____ both parties would submit their sections of the mutual action plan by end of Friday — with no extensions unless agreed by both sides.",
+            "options": [
+                "on that",
+                "that",
+                "about"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Agree that' is the correct construction when 'agree' is followed by a 'that' clause stating what was agreed. 'We agreed that both parties would submit...' — 'that' introduces the content of the agreement as a noun clause. 'Agree on that' is grammatically possible only when 'that' is a demonstrative pronoun referring to a specific previously mentioned item ('I agree on that' meaning 'I agree on that specific point'). But when a full 'that' clause follows — 'that both parties would...' — the preposition 'on' is not used. 'Agree about' is used for a topic of agreement, not the terms: 'we agreed about the approach' (topic) versus 'we agreed that the approach would be X' (specific terms)."
+        },
+        {
+            "sentence": "The signed contract should reach procurement _____ the board meeting — allow at least one week for internal transmission and administrative processing.",
+            "options": [
+                "prior of",
+                "prior to",
+                "prior for"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Prior to' is the fixed formal prepositional phrase meaning 'before'. It always takes 'to': 'prior to the meeting', 'prior to the board review', 'prior to contract signature'. 'Prior of' is non-standard — 'prior' as an adjective takes 'to', not 'of'. 'Prior for' is also non-standard in this construction. 'Prior to' is commonly used in formal business and legal writing as a more formal alternative to 'before': 'prior to the deadline', 'prior to the assessment', 'prior to legal review'. Note that 'prior to' is slightly more formal than 'before' and is typically reserved for written or professional contexts."
+        },
+        {
+            "sentence": "A _____ contract beginning in January gives both teams a full year of implementation before the first renewal review.",
+            "options": [
+                "two-years",
+                "two year",
+                "two-year"
+            ],
+            "correctIndex": 2,
+            "explanation": "When a number and a unit of time are used together as a compound modifier before a noun, the unit is singular and hyphenated: 'a two-year contract', 'a three-month pilot', 'a six-week review period'. 'Two-years contract' is wrong for two reasons: (1) the plural 'years' cannot be used in a compound modifier (the rule is always singular: 'year', not 'years'), and (2) the hyphen is required to link the compound. 'Two year contract' (no hyphen) is also incorrect in formal written English — compound modifiers before nouns require a hyphen. Other examples: 'a five-year partnership', 'a 12-month SLA', 'a 90-day payment term'."
+        },
+        {
+            "sentence": "It is critical that the champion _____ visibility across all internal approval stages — not just the business evaluation, but procurement, IT security, and legal as well.",
+            "options": [
+                "has",
+                "have",
+                "will have"
+            ],
+            "correctIndex": 1,
+            "explanation": "After 'it is critical/essential/important/imperative that', formal English requires the subjunctive mood — the base form of the verb, identical to the bare infinitive. 'It is critical that the champion have visibility' — not 'has' (indicative) or 'will have' (future). The subjunctive base form for 'have' is 'have' regardless of subject: 'it is critical that she have', 'it is essential that the team have', 'it is important that every stakeholder have'. This is the same rule as 'it is essential that the process be complete', 'it is important that the contract be reviewed'. The subjunctive is a formal register feature — less common in informal speech, but standard in professional written English."
+        },
+        {
+            "sentence": "Working backwards _____ the board meeting date, every step — procurement, legal, and CFO sign-off — must be completed within a six-week window.",
+            "options": [
+                "of",
+                "from",
+                "against"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Work backwards from' is the fixed idiomatic phrase for reverse-planning from a target date or goal to identify what must happen to reach it. It always takes 'from': 'working backwards from the deadline', 'working backwards from the contract date', 'working backwards from the Q3 close target'. 'Working backwards of' is non-standard. 'Working backwards against' suggests opposition or comparison rather than a starting point for reverse-planning. This is a high-value phrase in complex deal and project management language — both the idiom and the preposition should be treated as a fixed collocation."
+        },
+        {
+            "sentence": "The mutual action plan assigns a named owner and a specific deadline to _____ action required from either side — nothing is left as a general responsibility.",
+            "options": [
+                "all of",
+                "each",
+                "every"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Every action' is correct here — 'every' is used with a singular countable noun to mean 'each individual one without exception'. 'Every action required' stresses the completeness and individual accountability of the plan — no action is left unassigned. 'Each action' is also grammatically correct and nearly synonymous, but 'every' has a stronger sense of exhaustive completeness — 'not a single action excluded'. 'All of action' is non-standard — 'all of' requires a plural noun or a noun with a determiner: 'all of the actions', 'all of our commitments'. Without 'the', 'all of action' is ungrammatical. The choice between 'every' and 'each' is subtle: 'every' treats the group as a whole with no exceptions; 'each' treats items individually in sequence."
+        }
+    ]
+},
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Read what the buyer says. Choose the best response from the three options.",
+        "items": [
+            {
+                "customerLine": "We're close — but our internal process is complex and I'm not sure when we'll be able to make a final decision.",
+                "options": [
+                    "I understand — take all the time you need. The most important thing is that you feel confident when you do make the decision.",
+                    "Let's make the process explicit so we can manage it together. Can you walk me through every step that has to happen before a decision can be made — every approval, every sign-off gate, every person who needs to be aligned? Once we have the full map, I can build a realistic plan on our side and we can identify the pinch points before they cause delays.",
+                    "Is there anything I can do to speed up the internal process? I'm happy to provide whatever additional information might help."
+                ],
+                "correctIndex": 1,
+                "explanation": "Option B is the most effective response — it treats process visibility as the primary tool for managing complexity, and it invites the buyer to map their own internal process rather than guessing from the outside. The goal is to surface every step, every approval, and every potential delay before they become critical. Option A is supportive but completely passive — it cedes all control of the timeline to the buyer and provides no momentum. Option C offers help but doesn't drive any concrete action — 'whatever additional information might help' is too vague to advance the deal."
+            },
+            {
+                "customerLine": "I think there are still some concerns internally that haven't been fully resolved. I'm not sure how to characterise them.",
+                "options": [
+                    "That's understandable — let me know when you have more clarity on what those concerns are and I'll address them then.",
+                    "I want to surface those concerns now rather than wait for them to become blockers. Can I ask directly: which stakeholders still have reservations, what specifically concerns them, and what would they need to see to feel confident? I'd rather address a difficult concern today than lose the deal in six weeks to something we could have resolved.",
+                    "I'm sure those concerns will resolve as your team gets more familiar with our solution — is there any additional material I can send that might help?"
+                ],
+                "correctIndex": 1,
+                "explanation": "Option B is the right response — it treats unresolved concerns as blockers to be named and addressed, not as vague hesitation to be waited out. Specifically asking which stakeholders, what concerns, and what resolution looks like is the most direct and effective way to surface and address hidden blockers. Option A waits for the buyer to have clarity — which may never come, and which leaves the blocker unaddressed. Option C assumes the concern is informational rather than substantive, which is rarely the right assumption when a buyer uses vague language like 'some concerns that haven't been resolved'."
+            },
+            {
+                "customerLine": "We'll be in touch when we have news on the internal process.",
+                "options": [
+                    "Perfect — I'll follow up in a couple of weeks if I haven't heard from you.",
+                    "Before we close — I want to make sure we have a named next step from today, not just a plan to stay in touch. Can we agree on something specific: you'll update me by a particular date, I'll have a specific action completed by a particular date, and we have a call scheduled for a specific time? 'We'll be in touch' is the most common place deals lose momentum — I'd rather we prevent that now.",
+                    "Of course — I'll send you a summary of our conversation in the meantime, so you have everything you need to brief your internal stakeholders."
+                ],
+                "correctIndex": 1,
+                "explanation": "Option B directly addresses the most common cause of complex deal stall — the absence of a specific agreed next step. 'We'll be in touch' is explicitly named as a risk, and the response drives a specific, time-bound commitment on both sides. This is the most important close technique in complex deal management: never end a conversation without a named next step. Option A accepts 'we'll be in touch' and proposes to follow up in two weeks — this gives the deal two weeks to lose momentum and the buyer two weeks to be pulled into other priorities. Option C sends a summary but doesn't secure a commitment — helpful administratively, but doesn't address the core problem."
+            }
+        ]
+    },
+    "spotTheMistake": {
+        "instructions": "Read the complex deal closing conversation. Three lines have a mistake. Can you find them?",
+        "dialogue": [
+            {
+                "speaker": "Riley",
+                "text": "Working backwards from the board meeting date, procurement needs to clear us by week two and legal review needs to start by week three — the timeline is tight but achievable."
+            },
+            {
+                "speaker": "Marcus",
+                "text": "That makes sense. We agreed on that both parties would submit their sections of the mutual action plan by end of Friday."
+            },
+            {
+                "speaker": "Riley",
+                "text": "Good. Now — who is the internal champion who can keep this moving through procurement and legal, prior of the board meeting?"
+            },
+            {
+                "speaker": "Marcus",
+                "text": "That would be Sarah. She has visibility across procurement, IT security, and the CFO's office."
+            },
+            {
+                "speaker": "Riley",
+                "text": "Perfect. I'd also like to propose a three-years contract starting in January — that gives both teams a full implementation cycle before the first renewal review."
+            },
+            {
+                "speaker": "Marcus",
+                "text": "A three-year contract works well for us — I'll include that in the board summary."
+            }
+        ],
+        "mistakes": [
+            {
+                "lineIndex": 1,
+                "incorrectText": "We agreed on that both parties would",
+                "correction": "We agreed that both parties would",
+                "explanation": "'Agree that' is the correct construction when followed by a full 'that' clause specifying what was agreed. 'We agreed that both parties would submit...' — the word 'that' introduces the content of the agreement as a noun clause, and no preposition is needed between 'agreed' and 'that'. 'Agreed on that' is only correct when 'that' is a demonstrative pronoun referring to a previously mentioned item: 'I agree on that point' or 'we agreed on that'. But when a full clause follows — 'that both parties would do X' — no preposition is used. This is a common error in formal business communication, where speakers try to combine 'agreed on' (used with noun phrases) with 'that' clauses (which take no preposition)."
+            },
+            {
+                "lineIndex": 2,
+                "incorrectText": "prior of the board meeting",
+                "correction": "prior to the board meeting",
+                "explanation": "'Prior to' is the fixed formal prepositional phrase meaning 'before a specific event or date'. It always takes 'to' — never 'of'. 'Prior to the board meeting', 'prior to the contract signing', 'prior to the deadline'. 'Prior of' is non-standard in English — it does not exist as a standard prepositional phrase. This error is very common in formal writing, particularly among speakers whose first language uses a different preposition in this construction. When in doubt, 'prior to' can always be replaced by 'before' without loss of meaning — 'before the board meeting' is correct and completely natural."
+            },
+            {
+                "lineIndex": 4,
+                "incorrectText": "a three-years contract",
+                "correction": "a three-year contract",
+                "explanation": "In compound modifiers before a noun, the unit of time is always singular and hyphenated: 'a three-year contract', not 'a three-years contract'. The rule: when a numeral and a noun form a compound adjective modifying another noun, the noun in the compound takes the singular form and the compound is hyphenated. Examples: 'a two-year pilot', 'a six-month SLA', 'a 90-day payment term', 'a twelve-month subscription'. Without the hyphen, the construction is ambiguous — 'three year contract' could be read as 'three' modifying nothing and 'year contract' as a compound. With the hyphen, 'three-year' is clearly a single compound modifier. Both the singular form and the hyphen are required."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The salesperson starts a sentence. Work with your partner to finish it naturally using sophisticated complex-deal closing language.",
+        "items": [
+            {
+                "customerLine": "We're still close — I think we'll make a decision by end of next month.",
+                "salespersonStart": "I want to make sure we have something more specific than that — not to pressure you, but because 'end of next month' is where deals lose four weeks to vagueness.",
+                "suggestedCompletion": "Can we build the decision timeline right now — every step from today to signed contract, with a specific date and a specific owner for each one? If the end of next month is the target, we need to know which steps have to happen this week, which happen next week, and where the dependencies are. A general target date and a mapped timeline are very different things — and the second one is what keeps a deal on schedule."
+            },
+            {
+                "customerLine": "I'm worried the IT security review might come back with concerns we can't resolve quickly.",
+                "salespersonStart": "Then let's pull the IT security review forward — today, not in week three of procurement when it becomes a blocker.",
+                "suggestedCompletion": "Can you connect me with your IT security lead this week? I'll send them our full security pack before the formal vendor assessment begins — data flow diagram, GDPR compliance certificate, pen-test results, and our data residency documentation. In my experience, most IT security concerns come from incomplete information rather than genuine incompatibility. If there is a genuine incompatibility, I'd rather know now and address it on our side than discover it six weeks into the procurement process."
+            },
+            {
+                "customerLine": "What happens if we miss the board date? Can we just catch the next one?",
+                "salespersonStart": "Technically yes — but I want to be transparent about what that means in practice.",
+                "suggestedCompletion": "The next board meeting is three months away. That's three additional months before your team can access the platform, three months of potential competitor gain, and three months of current-platform costs that could have been reduced. I'm not raising that as a pressure argument — I'm raising it because you should make the decision with the full cost of delay in front of you. If the six-week timeline is genuinely too tight, let's redesign the plan. But if it's achievable with the right effort, the cost of missing the board date is worth knowing."
+            }
+        ]
+    }
+},
+};
