@@ -75,6 +75,7 @@ import { closingTheSaleNaturally } from './closing-the-sale-naturally';
 import { crmAndSalesAdminVocabulary } from './crm-and-sales-admin-vocabulary';
 import { pitchingToInvestorsOrPartners } from './pitching-to-investors-or-partners';
 import { dataDrivenSalesLanguage } from './data-driven-sales-language';
+import { strategicQuestioning } from './strategic-questioning';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -153,6 +154,7 @@ export const lessons: Lesson[] = [
   crmAndSalesAdminVocabulary,
   pitchingToInvestorsOrPartners,
   dataDrivenSalesLanguage,
+  strategicQuestioning,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
