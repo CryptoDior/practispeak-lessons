@@ -63,6 +63,7 @@ import { talkingAboutDelivery } from './talking-about-delivery';
 import { paymentVocabulary } from './payment-vocabulary';
 import { thankingTheCustomer } from './thanking-the-customer';
 import { simpleSalesRolePlay } from './simple-sales-role-play';
+import { comparingProductsOrServices } from './comparing-products-or-services';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -129,6 +130,7 @@ export const lessons: Lesson[] = [
   paymentVocabulary,
   thankingTheCustomer,
   simpleSalesRolePlay,
+  comparingProductsOrServices,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
