@@ -82,6 +82,7 @@ import { b2bSalesVocabulary } from './b2b-sales-vocabulary';
 import { closingComplexDeals } from './closing-complex-deals';
 import { advancedFollowUpStrategy } from './advanced-follow-up-strategy';
 import { presentingProposals } from './presenting-proposals';
+import { salesLeadershipCommunication } from './sales-leadership-communication';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -167,6 +168,7 @@ export const lessons: Lesson[] = [
   closingComplexDeals,
   advancedFollowUpStrategy,
   presentingProposals,
+  salesLeadershipCommunication,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
