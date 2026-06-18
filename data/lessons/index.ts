@@ -73,6 +73,7 @@ import { talkingAboutCustomerSuccessStories } from './talking-about-customer-suc
 import { negotiatingPolitely } from './negotiating-politely';
 import { closingTheSaleNaturally } from './closing-the-sale-naturally';
 import { crmAndSalesAdminVocabulary } from './crm-and-sales-admin-vocabulary';
+import { pitchingToInvestorsOrPartners } from './pitching-to-investors-or-partners';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -149,6 +150,7 @@ export const lessons: Lesson[] = [
   negotiatingPolitely,
   closingTheSaleNaturally,
   crmAndSalesAdminVocabulary,
+  pitchingToInvestorsOrPartners,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
