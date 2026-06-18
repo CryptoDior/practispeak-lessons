@@ -1,0 +1,363 @@
+{
+  "exportName": "talkingAboutCustomerSuccessStories",
+  "title": "Talking About Customer Success Stories",
+  "subtitle": "How to share a compelling case study using past tense + results to build trust and reduce risk for the buyer",
+  "level": "B1-B2",
+  "description": "Nothing sells like proof. When a prospect can see that a company similar to theirs solved the same problem and got measurable results, the risk of buying drops significantly. This lesson teaches you how to tell a customer success story in English — using the past tense accurately to describe the situation, the challenge, the solution, and the result. You will also learn how to introduce data, quote a customer, and connect the story directly to the prospect's own situation.",
+  "dialogueSubtitle": "Marcus asks Riley for a real-world example — Riley shares a detailed customer success story to demonstrate measurable ROI",
+
+  "vocabulary": [
+    {
+      "word": "case study",
+      "partOfSpeech": "noun",
+      "definition": "A detailed account of how a specific customer used your product or service to solve a problem and achieve measurable results. Case studies are one of the most powerful sales tools because they replace abstract claims with real evidence.",
+      "example": "Riley said: I'd like to share a case study with you — a mid-size SaaS team of 18 salespeople who faced exactly the same reporting challenge you described. Would it be useful to walk you through what they did and the results they achieved?"
+    },
+    {
+      "word": "implement",
+      "partOfSpeech": "verb",
+      "definition": "To put a plan, system, or product into practical use within an organisation. When talking about results, use the past simple: 'After they implemented the platform...' or 'Once the system was implemented...'",
+      "example": "Riley explained: After they implemented our platform, the sales team went from spending 12 hours a week on manual reporting to under two hours. The change happened within the first 30 days of going live."
+    },
+    {
+      "word": "outcome",
+      "partOfSpeech": "noun",
+      "definition": "The result or effect of something — what actually happened as a direct result of a decision or action. 'Outcome' is more formal and specific than 'result' — it implies a direct link between the action and the consequence.",
+      "example": "Marcus asked: What was the actual outcome for the business? Riley replied: The outcome was clear — the team recovered 10 hours a week of selling time, and their pipeline accuracy improved significantly in the first quarter."
+    },
+    {
+      "word": "measurable",
+      "partOfSpeech": "adjective",
+      "definition": "Able to be quantified or assessed with data. 'Measurable results' are results you can prove with specific numbers — percentages, hours saved, revenue gained, time reduced. Measurable results are far more persuasive than vague claims.",
+      "example": "Riley said: What made this case study compelling for the board was that every result was measurable — not 'they got better at selling' but 'they closed 28% more deals in the first 90 days'. Numbers build credibility."
+    },
+    {
+      "word": "ROI",
+      "partOfSpeech": "abbreviation",
+      "definition": "Return on investment — the financial benefit gained relative to the cost. When a customer says 'the platform paid for itself in the first quarter', they are describing strong ROI. Buyers at B2B companies almost always need to justify ROI to get approval.",
+      "example": "Marcus asked: How do we justify the cost internally? Riley replied: The ROI is very clear for a team your size — based on the time savings alone, most of our customers see the platform pay for itself within the first quarter. I can show you the calculation."
+    },
+    {
+      "word": "testimonial",
+      "partOfSpeech": "noun",
+      "definition": "A statement from a satisfied customer describing their positive experience with a product. A testimonial is a direct quote — 'their CRO told us it was the best investment they had made in two years.' A testimonial is more personal than a statistic.",
+      "example": "Riley said: I'd like to share a testimonial from their Chief Revenue Officer — she told us it was the best investment they had made in two years. I can send you the full written quote if you'd like to include it in your internal business case."
+    },
+    {
+      "word": "retention",
+      "partOfSpeech": "noun",
+      "definition": "The ability to keep customers, employees, or clients over time. In a sales context, 'customer retention' is a key metric — it shows that your product delivers ongoing value, not just a short-term fix. High retention means satisfied long-term customers.",
+      "example": "Riley said: One result that surprised the team was the impact on customer retention. Because their managers had better pipeline visibility, they were able to spot at-risk accounts earlier — and their renewal rate increased by 12% in the following year."
+    },
+    {
+      "word": "transformation",
+      "partOfSpeech": "noun",
+      "definition": "A significant change in the way something works or operates. A strong success story describes a transformation — not just a marginal improvement, but a fundamental shift in how the team or business operates. 'Transformation' signals that the change was deep and lasting.",
+      "example": "Riley concluded: What our best case studies show is not just improvement — it's transformation. The team's relationship with data changed entirely. Instead of spending time collecting it, they started using it to make decisions. That's the shift we aim for."
+    }
+  ],
+
+  "phrasalVerbs": [
+    {
+      "phrase": "One of our customers was facing...",
+      "definition": "The standard opener for a B2B success story. Past continuous ('was facing') sets the scene — it describes the situation before the solution arrived. This creates the context that makes the result meaningful.",
+      "example": "Riley opened the case study: One of our customers — a 20-person SaaS sales team — was facing a problem that will sound very familiar. They had four tools that didn't talk to each other, and their managers had no real-time view of the pipeline."
+    },
+    {
+      "phrase": "After implementing our solution, they were able to...",
+      "definition": "The transition from problem to result. 'Were able to' is stronger than 'could' in a results context — it implies that something that was previously impossible became possible. Past simple + past simple tells a clear story.",
+      "example": "Riley said: After implementing the platform, they were able to reduce reporting time from 12 hours a week to under two hours — and that time went directly back into selling."
+    },
+    {
+      "phrase": "Within [time], they saw a [percentage] improvement in...",
+      "definition": "The standard formula for presenting a quantified result in a case study. 'Within' is the key preposition — it emphasises speed. 'Saw' is the standard verb for experiencing a change: 'they saw a 28% increase', 'they saw a significant reduction'.",
+      "example": "Riley said: Within the first 90 days, they saw a 28% increase in deals closed and a 35% improvement in manager satisfaction scores. Both were independently measured using their existing reporting tools."
+    },
+    {
+      "phrase": "What this meant for their business was...",
+      "definition": "A phrase that connects a specific result to business impact. After stating a number, always explain what it means — numbers alone don't always translate. This phrase bridges the result and the business value.",
+      "example": "Riley continued: They saved 10 hours of admin time per rep per week. What this meant for their business was an extra 200 selling hours per month across the team — without hiring anyone new. That was the number that got the board's attention."
+    },
+    {
+      "phrase": "Their manager told us that...",
+      "definition": "The standard phrase for introducing a testimonial or direct quote from a customer. It adds a human voice to the case study — making it feel real, not just like a marketing claim. Always attribute the testimonial to a role, not a name, for confidentiality.",
+      "example": "Riley said: Their Chief Revenue Officer told us that it was the best investment they had made in two years — not just in terms of ROI, but in terms of how it changed the culture of the sales team around data and accountability."
+    },
+    {
+      "phrase": "That's exactly the kind of result we aim to deliver for every customer we work with",
+      "definition": "The closing phrase for a case study — it brings the story back to the prospect. It implies a promise: we have done this before, we can do it for you. 'We work with' (present tense) is correct — it refers to the general, ongoing relationship.",
+      "example": "Riley finished the case study: 28% more deals closed in 90 days, 10 hours of admin time recovered per rep per week, and a CRO who called it the best investment of the year. That's exactly the kind of result we aim to deliver for every customer we work with — and that's what I believe we can deliver for your team."
+    }
+  ],
+
+  "videos": [],
+
+  "dialogue": [
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Riley, before we go further — I want to understand the real-world impact. Can you share an example of how this has worked for a company similar to ours?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Absolutely — this is exactly the right question to ask. I have a [[case study:a detailed account of how a specific customer used your product to achieve results]] that I think will resonate strongly. One of our customers — a mid-size SaaS sales team of around eighteen people — was facing exactly the same challenge you described."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "What was their main problem?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Their sales team was spending nearly twelve hours a week on manual reporting. They had four separate tools that didn't talk to each other, and their managers had no real-time visibility into the pipeline. Sound familiar?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Very familiar. What did they do?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "After [[implement:to put a system or product into practical use within an organisation]]ing our platform, they were able to reduce that reporting time to under two hours a week. Within the first 90 days, they saw a 28% increase in deals closed and a 35% improvement in manager satisfaction scores."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Those are impressive numbers. How long did it take to get set up?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "They were fully live within ten days. The onboarding team handled everything. The only thing their IT team needed to do was grant us access to Salesforce — which took about an hour."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "And what did those results actually mean for the business? What was the financial [[outcome:the result or effect of something — directly linked to the action taken]]?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "What it meant for their business was a very clear [[ROI:return on investment — the financial benefit gained relative to the cost]]. The platform paid for itself within the first quarter. And their Chief Revenue Officer told us it was the best investment they had made in two years."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "That's a strong [[testimonial:a statement from a satisfied customer describing their experience]]. Is that kind of result typical, or was it an exceptional case?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "It's consistently what we see. Not every customer hits exactly the same percentages — but the pattern of [[measurable:able to be quantified with specific data and numbers]] improvement in admin time and deal velocity is something we see across the board. I can share three or four other case studies at different company sizes if it would help."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Yes — and one that was closer to our size would be particularly useful. We have about 25 salespeople."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "Perfect — I have a case study from a team of 22 that I'll send this afternoon. Their results were similar, and their manager gave a detailed written testimonial about the [[transformation:a significant, lasting change in how something works]]. I can also share the ROI calculator so you can model what the numbers would look like for your team specifically."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "That would be very useful for building the internal business case. My CFO will want to see the numbers before giving approval."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "text": "I'll send everything this afternoon — the case study, the ROI calculator, and a one-page summary you can share directly with your CFO. That's exactly the kind of result we aim to deliver for every customer we work with — and I'm confident we can deliver it for your team."
+    }
+  ],
+
+  "matchingExercise": [
+    { "word": "case study",    "definition": "a detailed account of how a customer used your product to solve a problem and achieve results" },
+    { "word": "implement",    "definition": "to put a plan, system, or product into practical use within an organisation" },
+    { "word": "outcome",      "definition": "the result or effect of something — directly linked to the action taken" },
+    { "word": "measurable",   "definition": "able to be quantified and assessed with specific data and numbers" },
+    { "word": "ROI",          "definition": "return on investment — the financial benefit gained relative to the cost" },
+    { "word": "testimonial",  "definition": "a statement from a satisfied customer describing their positive experience" },
+    { "word": "retention",    "definition": "the ability to keep customers, employees, or clients over time" },
+    { "word": "transformation", "definition": "a significant, lasting change in the way something works or operates" }
+  ],
+
+  "fillBlankExercise": [
+    { "before": "After ", "after": " our platform, they were able to reduce reporting time from twelve hours to under two hours per week.", "answer": "implementing" },
+    { "before": "Within the first 90 days, they ", "after": " a 28% increase in deals closed.", "answer": "saw" },
+    { "before": "What this ", "after": " for their business was a significant ROI — the platform paid for itself within the first quarter.", "answer": "meant" },
+    { "before": "Their Chief Revenue Officer told us it was the best ", "after": " they had made in two years.", "answer": "investment" },
+    { "before": "Every result in the case study was ", "after": " — not a vague improvement but a specific, data-backed number.", "answer": "measurable" },
+    { "before": "That's exactly the kind of result we aim to deliver for every customer we ", "after": " with.", "answer": "work" }
+  ],
+
+  "multipleChoiceExercise": [
+    {
+      "question": "How many hours per week was the customer's team spending on manual reporting before implementing the platform?",
+      "options": ["Six hours", "Twelve hours", "Twenty hours"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What percentage increase in deals closed did the customer see within the first 90 days?",
+      "options": ["20%", "35%", "28%"],
+      "correctIndex": 2
+    },
+    {
+      "question": "How long did it take for the customer to go fully live on the platform?",
+      "options": ["Ten days", "One month", "Three months"],
+      "correctIndex": 0
+    },
+    {
+      "question": "What does Riley offer to send Marcus this afternoon?",
+      "options": [
+        "A proposal and a price list",
+        "A case study, an ROI calculator, and a one-page summary for the CFO",
+        "A contract and an onboarding plan"
+      ],
+      "correctIndex": 1
+    }
+  ],
+
+  "warmUp": {
+    "questions": [
+      "When a salesperson tells you what their product has done for other companies, how much does it influence your decision? What makes a success story believable — or not?",
+      "Have you ever shared a positive experience with a product or supplier with a colleague or manager? What made you recommend it?",
+      "Think about a challenge your team or company faced in the past. How did you solve it? What was the result — and could you measure it with a number?"
+    ]
+  },
+
+  "completeSentenceExercise": {
+    "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
+    "items": [
+      {
+        "sentence": "After _____ the platform, they were able to reduce admin time significantly.",
+        "options": ["implement", "implementing", "implemented"],
+        "correctIndex": 1,
+        "explanation": "After a preposition like 'after', always use the '-ing' form. 'After implementing' is correct. 'After implement' and 'after implemented' are both wrong. This rule applies to all prepositions: 'before joining', 'since switching', 'by reducing'. The pattern is: preposition + verb-ing."
+      },
+      {
+        "sentence": "Within the first 90 days, they _____ a 28% increase in deals closed.",
+        "options": ["see", "saw", "have seen"],
+        "correctIndex": 1,
+        "explanation": "'Saw' (past simple) is correct for a completed result at a specific point in the past — the 90-day period is over, so we use simple past. 'See' is present tense — wrong for a finished event. 'Have seen' (present perfect) is used when the result is still relevant and ongoing, not for a specific time period like '90 days'."
+      },
+      {
+        "sentence": "One of our customers _____ a challenge very similar to yours.",
+        "options": ["was facing", "faced", "is facing"],
+        "correctIndex": 0,
+        "explanation": "'Was facing' (past continuous) is the natural choice for setting the scene in a case study — it describes the ongoing situation before the solution arrived. 'Faced' (past simple) is also possible but sounds more abrupt. 'Is facing' (present) would mean the problem is unsolved — which contradicts the success story. Past continuous is the storytelling tense: 'They were struggling, they were losing time, they were looking for a solution.'"
+      },
+      {
+        "sentence": "What this _____ for their business was a very clear ROI within the first quarter.",
+        "options": ["means", "meant", "has meant"],
+        "correctIndex": 1,
+        "explanation": "'Meant' (past simple) is correct because we are telling a completed story — the result happened in the past. 'Means' (present) would suggest the situation is still current. 'Has meant' (present perfect) is possible but would connect the past result to the present more directly — 'meant' is cleaner for a closed case study narrative."
+      },
+      {
+        "sentence": "Their manager told us it was the best _____ they had made in two years.",
+        "options": ["invest", "investing", "investment"],
+        "correctIndex": 2,
+        "explanation": "'Investment' is the noun form needed here — after 'the best', you need a noun. 'Invest' is a verb ('to invest money'). 'Investing' is a gerund, which can sometimes follow 'the best' but doesn't sound natural here. 'Investment' is the correct choice: 'the best investment', 'the best decision', 'the best move'."
+      },
+      {
+        "sentence": "That's exactly the kind of result we aim to deliver for every customer we _____ with.",
+        "options": ["worked", "are working", "work"],
+        "correctIndex": 2,
+        "explanation": "'Work' (present simple) is correct because this sentence expresses a general, ongoing truth — it is the company's standard practice, not a one-time past event. 'Worked' (past) would mean you no longer do this. 'Are working' (present continuous) suggests a temporary activity. For general truths and ongoing business practices, always use present simple."
+      }
+    ]
+  },
+
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Read what the customer says. Choose the best response from the three options.",
+      "items": [
+        {
+          "customerLine": "Can you show me that this has actually worked for companies like ours — not just in theory?",
+          "options": [
+            "Our product has been proven across many industries and companies of all sizes.",
+            "I have a case study I'd like to walk you through — a 20-person SaaS sales team that was facing exactly the same challenge. After implementing the platform, they saw a 28% increase in deals closed within 90 days. Would that be useful to go through?",
+            "Yes — we have lots of satisfied customers. I can send you a list of references if you like."
+          ],
+          "correctIndex": 1,
+          "explanation": "Option B is specific, structured, and directly parallels the prospect's situation — 'exactly the same challenge'. It gives a concrete number (28%) and a specific timeframe (90 days), which makes it credible. Option A is a vague claim with no evidence. Option C defers the conversation with a promise to send something later, which loses momentum and doesn't answer the question right now."
+        },
+        {
+          "customerLine": "These numbers are impressive — but how do we know our team would get similar results?",
+          "options": [
+            "Every team is different, so we can't make any guarantees about specific results.",
+            "That's a fair question. Not every customer hits the same percentages, but the pattern of improvement — less admin time and more deals closed — is consistent across teams of your size. I can also run a tailored ROI model for your specific team numbers if that would help.",
+            "Most companies that try the platform see results within the first month — so you should too."
+          ],
+          "correctIndex": 1,
+          "explanation": "Option B is honest and precise — it acknowledges variation without undermining credibility, then offers something concrete (a tailored ROI model) to move the conversation forward. Option A is too negative — it withdraws all confidence and invites the prospect to say no. Option C is overconfident and unsupported — promising that 'you should too' without knowing the prospect's situation damages trust."
+        },
+        {
+          "customerLine": "My CFO is going to ask about the financial return before approving this. How do we justify the cost?",
+          "options": [
+            "I'll send you a detailed proposal that covers everything, including the cost.",
+            "The ROI for a team your size is very clear — based on time savings alone, most customers see the platform pay for itself in the first quarter. I'll send you our ROI calculator this afternoon so you can model the exact numbers for your team. Would it also help if I sent a one-page summary written specifically for a CFO audience?",
+            "Most CFOs understand the value of investing in sales tools — I'm sure yours will approve it once they see the platform."
+          ],
+          "correctIndex": 1,
+          "explanation": "Option B directly addresses the CFO's decision-making need by offering a specific tool (the ROI calculator) and tailored content (a CFO-facing summary). This is a practical, professional response that moves the deal forward. Option A is too vague and doesn't acknowledge the ROI question. Option C is presumptuous and dismissive of the CFO's decision-making role — never assume approval is inevitable."
+        }
+      ]
+    },
+    "spotTheMistake": {
+      "instructions": "Read the conversation. Three lines have a mistake. Can you find them?",
+      "dialogue": [
+        { "speaker": "Riley", "text": "One of our customers faced a challenge very similar than yours." },
+        { "speaker": "Marcus", "text": "What was the main problem they were dealing with?" },
+        { "speaker": "Riley", "text": "After they implemented the platform, they were able to reduce reporting time by 30%." },
+        { "speaker": "Marcus", "text": "That sounds impressive. How quickly did the results come?" },
+        { "speaker": "Riley", "text": "Within 90 days. Their manager said it was the most valuable invest they had made in two years." },
+        { "speaker": "Riley", "text": "That's exactly the kind of result we aim to deliver for every customer we worked with." }
+      ],
+      "mistakes": [
+        {
+          "lineIndex": 0,
+          "incorrectText": "similar than",
+          "correction": "similar to",
+          "explanation": "'Similar' is always followed by 'to', never 'than'. 'Similar than' is a very common error — possibly because 'more than' and 'better than' use 'than'. But 'similar' is an adjective of likeness, not a comparative. Always: 'similar to yours', 'similar to what we've seen before', 'similar to the challenge they faced'. Remember: different from / similar to."
+        },
+        {
+          "lineIndex": 4,
+          "incorrectText": "invest",
+          "correction": "investment",
+          "explanation": "'Invest' is a verb — 'to invest money in something'. 'Investment' is the noun. After 'the most valuable', you need a noun: 'the most valuable investment', 'the most valuable decision', 'the most valuable asset'. 'The most valuable invest' is not grammatically possible. The noun form is always used after 'a/an', 'the', or adjectives like 'best', 'most valuable', 'important'."
+        },
+        {
+          "lineIndex": 5,
+          "incorrectText": "we worked with",
+          "correction": "we work with",
+          "explanation": "'We work with' (present simple) is correct because this is a general, ongoing company practice — not something that happened in the past and has now stopped. 'We worked with' (past simple) implies the company no longer works with customers, which is clearly wrong. For general truths, habits, and ongoing practices, use present simple: 'we work with', 'we aim for', 'we deliver'."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The salesperson starts a sentence. Work with your partner to finish it naturally.",
+      "items": [
+        {
+          "customerLine": "Can you give me a real example of how this has worked for another company?",
+          "salespersonStart": "Of course — one of our customers was facing exactly the same challenge you described...",
+          "suggestedCompletion": "They had four tools that didn't connect, and their managers had no real-time view of the pipeline. After implementing our platform, they reduced admin time by 30% and saw a 28% increase in deals closed — all within the first 90 days."
+        },
+        {
+          "customerLine": "Those are strong numbers. But what did it actually mean for the business financially?",
+          "salespersonStart": "What it meant for their business was very clear —",
+          "suggestedCompletion": "the platform paid for itself within the first quarter. Based on the time savings alone — 10 hours per rep per week recovered — their ROI was significant. Their CRO told us it was the best investment they'd made in two years."
+        },
+        {
+          "customerLine": "How can we convince our CFO that this is worth the budget?",
+          "salespersonStart": "I'd like to send you two things this afternoon —",
+          "suggestedCompletion": "a case study from a team of 22 salespeople with similar numbers to yours, and our ROI calculator so you can model the exact return for your team. I can also put together a one-page summary written specifically for a CFO audience, with the financials front and centre."
+        }
+      ]
+    }
+  }
+}
