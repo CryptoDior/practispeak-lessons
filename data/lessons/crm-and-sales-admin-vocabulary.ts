@@ -13,14 +13,14 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       word: 'LEAD',
       partOfSpeech: 'noun',
       definition: 'A potential customer who has shown some level of interest but has not yet been qualified as a genuine sales prospect. Leads become prospects once they have been assessed for budget, authority, need, and timeline. Not every lead becomes a deal.',
-      example: "Jordan asked: How many new leads did you generate this week? Riley replied: I added 12 leads to the CRM — six from inbound enquiries and six from my own outreach. I've already qualified eight of them as genuine prospects with real budget and a clear need.",
+      example: "James asked: How many new leads did you generate this week? Riley replied: I added 12 leads to the CRM — six from inbound enquiries and six from my own outreach. I've already qualified eight of them as genuine prospects with real budget and a clear need.",
       imageSlug: '/images/lead.png',
     },
     {
       word: 'PIPELINE',
       partOfSpeech: 'noun',
       definition: "The total collection of deals a salesperson or team is currently working on, at various stages of the sales process. A healthy pipeline has deals at multiple stages — not all about to close. You are always 'in' a pipeline, never 'on' one.",
-      example: "Jordan reviewed Riley's pipeline for the quarter: You have nine active deals in your pipeline right now — three at proposal stage, two in negotiation, and four still at initial contact. That's a well-distributed pipeline. Make sure the early-stage ones don't stall.",
+      example: "James reviewed Riley's pipeline for the quarter: You have nine active deals in your pipeline right now — three at proposal stage, two in negotiation, and four still at initial contact. That's a well-distributed pipeline. Make sure the early-stage ones don't stall.",
       imageSlug: '/images/pipeline.png',
     },
     {
@@ -34,14 +34,14 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       word: 'NOTE',
       partOfSpeech: 'noun',
       definition: 'A record of what was discussed, agreed, or decided in a customer interaction — logged in the CRM after every call, meeting, or email. Good notes mean any colleague can pick up a deal without needing to call you. Log notes the same day, every time.',
-      example: "Jordan said: Your notes on the Brightfield account are excellent — I can see exactly what was discussed on Tuesday, what was agreed on the commercial terms, and what the next step is. That's the standard I want from every account in the CRM.",
+      example: "James said: Your notes on the Brightfield account are excellent — I can see exactly what was discussed on Tuesday, what was agreed on the commercial terms, and what the next step is. That's the standard I want from every account in the CRM.",
       imageSlug: '/images/note.png',
     },
     {
       word: 'STATUS',
       partOfSpeech: 'noun',
       definition: "The current stage or condition of a deal or lead in the pipeline. Common statuses: 'initial contact', 'qualified', 'proposal sent', 'negotiating', 'closed won', 'closed lost'. Always keep statuses accurate and up to date — they drive your manager's forecasting.",
-      example: "Jordan asked: What's the current status of the Brightfield deal? Riley replied: It's at 'negotiation' — I sent a revised proposal yesterday and Marcus is waiting for internal finance approval. I've set the close date to Friday and marked it as 90% probability.",
+      example: "James asked: What's the current status of the Brightfield deal? Riley replied: It's at 'negotiation' — I sent a revised proposal yesterday and Marcus is waiting for internal finance approval. I've set the close date to Friday and marked it as 90% probability.",
       imageSlug: '/images/status.png',
     },
     {
@@ -55,14 +55,14 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       word: 'LOG',
       partOfSpeech: 'verb',
       definition: "To record an activity, conversation, or interaction in the CRM. 'Log a call', 'log a note', 'log a meeting' — logging keeps the CRM accurate and means the whole team has a shared picture of every customer relationship.",
-      example: 'Jordan said: I want every call logged the same day it happens — not the next morning. Riley agreed: I already do that — I log every call, every email, and every meeting the same day. The note includes a summary, the agreed next step, and the follow-up date.',
+      example: 'James said: I want every call logged the same day it happens — not the next morning. Riley agreed: I already do that — I log every call, every email, and every meeting the same day. The note includes a summary, the agreed next step, and the follow-up date.',
       imageSlug: '/images/log.png',
     },
     {
       word: 'FORECAST',
       partOfSpeech: 'noun',
       definition: 'An estimate of expected revenue based on the deals currently in the pipeline and their probability of closing. Forecasting is a core part of pipeline reviews — managers use it to plan team targets, resources, and business decisions.',
-      example: "Jordan asked: What's your forecast for this quarter? Riley replied: I have four deals I'm confident will close — total value around $80,000. I've also marked two more as 'likely' for next quarter. The overall pipeline is in good shape for hitting target.",
+      example: "James asked: What's your forecast for this quarter? Riley replied: I have four deals I'm confident will close — total value around $80,000. I've also marked two more as 'likely' for next quarter. The overall pipeline is in good shape for hitting target.",
       imageSlug: '/images/forecast.png',
     }
   ],
@@ -71,7 +71,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
     {
       phrase: "WHAT'S THE STATUS OF...?",
       definition: 'The standard question in a pipeline review for asking about a specific deal or lead. Always follow with the deal name or customer name. The answer should give stage, recent activity, and next step.',
-      example: "Jordan asked: What's the status of the Brightfield deal? Riley replied: It's at negotiation stage — I sent a revised proposal yesterday, Marcus is getting internal approval, and I've set a follow-up call for Friday. Close probability is 90%.",
+      example: "James asked: What's the status of the Brightfield deal? Riley replied: It's at negotiation stage — I sent a revised proposal yesterday, Marcus is getting internal approval, and I've set a follow-up call for Friday. Close probability is 90%.",
       imageSlug: '/images/whats-the-status-of.png',
     },
     {
@@ -95,13 +95,13 @@ export const crmAndSalesAdminVocabulary: Lesson = {
     {
       phrase: 'ANYONE SHOULD BE ABLE TO PICK UP THE DEAL WITHOUT CALLING ME',
       definition: 'The goal of good CRM notes — if your notes are complete, any colleague can continue a deal in your absence. This phrase is often used by managers to set the standard for CRM hygiene.',
-      example: "Jordan said: The standard I want from every account in this team is simple — your notes should be so complete that anyone should be able to pick up the deal without calling you. If I can't understand the deal from the CRM alone, the notes aren't good enough.",
+      example: "James said: The standard I want from every account in this team is simple — your notes should be so complete that anyone should be able to pick up the deal without calling you. If I can't understand the deal from the CRM alone, the notes aren't good enough.",
       imageSlug: '/images/anyone-should-be-able-to-pick-up-the-deal-without-calling-me.png',
     },
     {
       phrase: 'WHAT DOES YOUR FORECAST LOOK LIKE FOR THIS QUARTER?',
       definition: "The standard pipeline review question about expected revenue. The answer should include the number of deals expected to close, their total value, and the salesperson's confidence level.",
-      example: "Jordan asked: What does your forecast look like for this quarter? Riley said: Four deals I'm confident will close — around $80,000 total. The biggest is Brightfield at $28,000. I'm on track to hit my quarterly target if those four come through.",
+      example: "James asked: What does your forecast look like for this quarter? Riley said: Four deals I'm confident will close — around $80,000 total. The biggest is Brightfield at $28,000. I'm on track to hit my quarterly target if those four come through.",
       imageSlug: '/images/what-does-your-forecast-look-like-for-this-quarter.png',
     }
   ],
@@ -110,9 +110,9 @@ export const crmAndSalesAdminVocabulary: Lesson = {
 
   dialogue: [
     {
-      speaker: 'Jordan',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/jordan-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: "Riley, let's go through your [[pipeline:the total collection of deals currently being worked on, at various stages of the sales process]] for this week's review. How many new [[lead:a potential customer who has shown interest but has not yet been qualified]]s did you add this week?",
     },
     {
@@ -122,9 +122,9 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       text: "I [[log:to record an activity or interaction in the CRM]]ged 12 new leads — six from inbound enquiries and six from my own outreach. I've already qualified eight of them as genuine prospects.",
     },
     {
-      speaker: 'Jordan',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/jordan-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: 'Good. How did you [[qualify:to assess whether a lead meets criteria for budget, authority, need, and timeline]] them?',
     },
     {
@@ -134,9 +134,9 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       text: "I used the BANT framework — budget, authority, need, and timeline. The four I didn't qualify didn't have clear budget authority. There's no point keeping them in the pipeline if they can't approve a purchase.",
     },
     {
-      speaker: 'Jordan',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/jordan-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: 'Exactly right — qualify early and keep the pipeline clean. How many active [[deal:a specific sales opportunity with a named customer, at a specific stage in the pipeline]]s do you have right now?',
     },
     {
@@ -146,9 +146,9 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       text: 'I have nine deals in my pipeline at different stages. Three are at proposal sent, two are in negotiation, and four are still at initial contact.',
     },
     {
-      speaker: 'Jordan',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/jordan-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: "What's the [[status:the current stage or condition of a deal — e.g., proposal sent, negotiating, closed won]] of the Brightfield deal — the one with Marcus?",
     },
     {
@@ -158,9 +158,9 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       text: "That one is moving well. He's in the negotiation stage — I sent a revised proposal yesterday and he's getting internal finance approval this week. I logged a [[note:a record of what was discussed or agreed in a customer interaction, logged in the CRM]] after our call on Tuesday with all the details — agreed terms, next step, and follow-up date.",
     },
     {
-      speaker: 'Jordan',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/jordan-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: "Good. And that's exactly the standard I want — your notes should be complete enough that anyone should be able to pick up the deal without calling you. If I open the CRM and can't understand the deal from what's logged, the notes aren't good enough.",
     },
     {
@@ -170,9 +170,9 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       text: "Understood. I log every call, every email, and every meeting the same day — including the agreed next step and the follow-up date. It's already a habit.",
     },
     {
-      speaker: 'Jordan',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/jordan-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: 'Perfect. What does your [[forecast:an estimate of expected revenue based on pipeline deals and their probability of closing]] look like for this quarter?',
     },
     {
@@ -182,9 +182,9 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       text: "I have four deals I'm confident will close this quarter — total value around $80,000. The Brightfield deal is the biggest at $28,000. I've marked all four as 90% probability in the CRM.",
     },
     {
-      speaker: 'Jordan',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/jordan-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: 'And the other five deals in your pipeline?',
     },
     {
@@ -194,9 +194,9 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       text: "Two of them are likely to close next quarter — I've marked them as 'likely' and set a Q4 close date. The other three are still early stage — I've set them to 'in progress' and booked follow-up calls for next month.",
     },
     {
-      speaker: 'Jordan',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/jordan-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: "That's a well-managed pipeline. One thing to flag — whenever commercial terms change during a negotiation, update the deal value in the CRM immediately. If Marcus negotiated the rate down, the deal value needs to reflect that the same day.",
     },
     {
@@ -293,7 +293,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
         "correctIndex": 2
     },
     {
-        "question": "What standard does Jordan set for CRM notes?",
+        "question": "What standard does James set for CRM notes?",
         "options": [
             "Notes should be logged within 24 hours of a call",
             "Notes should be complete enough that anyone can pick up the deal without calling Riley",
@@ -302,7 +302,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
         "correctIndex": 1
     },
     {
-        "question": "What does Jordan remind Riley to update immediately when negotiating?",
+        "question": "What does James remind Riley to update immediately when negotiating?",
         "options": [
             "The close date and contact name",
             "The deal value whenever commercial terms change",
@@ -423,7 +423,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
         "instructions": "Read the conversation. Three lines have a mistake. Can you find them?",
         "dialogue": [
             {
-                "speaker": "Jordan",
+                "speaker": "James",
                 "text": "How many new leads did you add to the CRM this week?"
             },
             {
@@ -431,7 +431,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
                 "text": "I logged 12 leads — six from inbound and six from my own outreach."
             },
             {
-                "speaker": "Jordan",
+                "speaker": "James",
                 "text": "Good. What's the status of the Brightfield deal?"
             },
             {
