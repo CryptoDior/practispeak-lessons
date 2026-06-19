@@ -117,6 +117,7 @@ import { reviewTheMarketingMix } from './review-the-marketing-mix';
 import { a2FinalProjectMiniCampaign } from './a2-final-project-mini-campaign';
 import { advertisingMedia } from './advertising-media';
 import { makingAnOffer } from './making-an-offer';
+import { planningAProductLaunch } from './planning-a-product-launch';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -237,6 +238,7 @@ export const lessons: Lesson[] = [
   a2FinalProjectMiniCampaign,
   advertisingMedia,
   makingAnOffer,
+  planningAProductLaunch,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
