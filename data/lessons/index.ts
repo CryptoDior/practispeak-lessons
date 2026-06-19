@@ -104,6 +104,7 @@ import { customerFeedback } from './customer-feedback';
 import { competitiveLandscape } from './competitive-landscape';
 import { brandValues } from './brand-values';
 import { goodBetterBest } from './good-better-best';
+import { whatDoYouLike } from './what-do-you-like';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -211,6 +212,7 @@ export const lessons: Lesson[] = [
   competitiveLandscape,
   brandValues,
   goodBetterBest,
+  whatDoYouLike,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
