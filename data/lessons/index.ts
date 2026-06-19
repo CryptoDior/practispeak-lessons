@@ -106,6 +106,7 @@ import { brandValues } from './brand-values';
 import { goodBetterBest } from './good-better-best';
 import { whatDoYouLike } from './what-do-you-like';
 import { socialMediaBasics } from './social-media-basics';
+import { emailsInMarketing } from './emails-in-marketing';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -215,6 +216,7 @@ export const lessons: Lesson[] = [
   goodBetterBest,
   whatDoYouLike,
   socialMediaBasics,
+  emailsInMarketing,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);

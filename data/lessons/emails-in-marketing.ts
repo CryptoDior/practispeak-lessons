@@ -1,0 +1,522 @@
+import { Lesson } from '@/types/lesson';
+
+export const emailsInMarketing: Lesson = {
+  slug: 'emails-in-marketing',
+  title: 'Emails in Marketing',
+  subtitle: 'Simple language for writing and responding to professional marketing emails',
+  level: 'A1-A2',
+  description: 'Email is one of the most common tools in B2B marketing. In this lesson, you will learn the basic words and phrases you need to write clear, professional marketing emails — from the opening greeting to the sign-off.',
+  heroImage: '/images/emails-in-marketing-hero.png',
+
+  vocabulary: [
+    {
+      word: 'SUBJECT LINE',
+      partOfSpeech: 'noun',
+      definition: 'The title of an email that the reader sees before they open it. A good subject line makes people want to open the email.',
+      example: 'Riley spent ten minutes on the subject line because she knew it would decide whether the client opens the email or deletes it.',
+      imageSlug: '/images/subject-line.png',
+    },
+    {
+      word: 'GREETING',
+      partOfSpeech: 'noun',
+      definition: "The first line of an email where you say hello to the reader. For example: 'Dear Mr Brown' or 'Hi Sarah'.",
+      example: "Dana used 'Dear' as her greeting because she had never met the client before and wanted to be formal.",
+      imageSlug: '/images/greeting.png',
+    },
+    {
+      word: 'INTRODUCTION',
+      partOfSpeech: 'noun',
+      definition: 'The first paragraph of an email where you say who you are and why you are writing.',
+      example: 'Keep your introduction short — say who you are and your reason for writing in two or three sentences.',
+      imageSlug: '/images/introduction.png',
+    },
+    {
+      word: 'ATTACH',
+      partOfSpeech: 'verb',
+      definition: 'To add a file — like a document, PDF, or image — to an email so the reader can download it.',
+      example: 'I will attach our brochure to the email so the client can read more about our services.',
+      imageSlug: '/images/attach.png',
+    },
+    {
+      word: 'REPLY',
+      partOfSpeech: 'verb',
+      definition: 'To send a response to an email that someone sent you.',
+      example: 'The client did not reply to our first email, so Riley sent a short follow-up message the next week.',
+      imageSlug: '/images/reply.png',
+    },
+    {
+      word: 'CALL TO ACTION',
+      partOfSpeech: 'phrase',
+      definition: "A sentence near the end of an email that tells the reader what to do next — for example: 'Book a free call' or 'Reply to this email'.",
+      example: 'Every marketing email needs a clear call to action — without it, the reader does not know what step to take.',
+      imageSlug: '/images/call-to-action.png',
+    },
+    {
+      word: 'SIGN-OFF',
+      partOfSpeech: 'noun',
+      definition: "The closing words at the end of an email before your name. For example: 'Best regards' or 'Kind regards'.",
+      example: "Riley used 'Best regards' as her sign-off because it sounds professional but not too formal.",
+      imageSlug: '/images/sign-off.png',
+    },
+    {
+      word: 'FOLLOW-UP',
+      partOfSpeech: 'noun',
+      definition: 'A second email or message you send after the first one, usually because the person did not reply.',
+      example: 'If the client does not reply in five days, send a follow-up — keep it short and friendly.',
+      imageSlug: '/images/follow-up.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'REACH OUT TO [SOMEONE]',
+      definition: 'To contact someone — usually by email or phone — to start a conversation or offer help.',
+      example: 'I am reaching out to introduce our agency and see if we can help with your marketing.',
+      imageSlug: '/images/reach-out-to-someone.png',
+    },
+    {
+      phrase: 'FOLLOW UP WITH [SOMEONE]',
+      definition: 'To contact someone again after an earlier message or meeting, usually to get a response.',
+      example: 'If you do not hear back in a week, follow up with a short email — remind them who you are.',
+      imageSlug: '/images/follow-up-with-someone.png',
+    },
+    {
+      phrase: 'GET BACK TO [SOMEONE]',
+      definition: 'To reply to someone after a delay — often used when someone has been waiting for an answer.',
+      example: 'Thank you for your email — I will get back to you by the end of the week with more details.',
+      imageSlug: '/images/get-back-to-someone.png',
+    },
+    {
+      phrase: 'LOOK FORWARD TO [SOMETHING]',
+      definition: 'To feel positive about something that is going to happen. Used in formal emails to end on a polite note.',
+      example: 'I look forward to hearing from you and hope we can arrange a call next week.',
+      imageSlug: '/images/look-forward-to-something.png',
+    },
+    {
+      phrase: 'ATTACH [FILE] TO AN EMAIL',
+      definition: 'To add a document or file to an email before you send it.',
+      example: 'I have attached our company brochure to this email — please take a look when you have a moment.',
+      imageSlug: '/images/attach-file-to-an-email.png',
+    },
+    {
+      phrase: 'WRITE BACK',
+      definition: "To reply to a message. More informal than 'reply' — used in less formal email conversations.",
+      example: 'Please write back if you have any questions about the proposal — I am happy to explain more.',
+      imageSlug: '/images/write-back.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Riley, I need to write a marketing email to a new company. I do not know them yet. How should I start?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Start with the [[subject line:the title of an email that the reader sees before they open it]]. It is the most important part — if it is not interesting, they will not open the email.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'What makes a good subject line?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Keep it short — under ten words. Make it clear and useful. For example: 'How we helped a B2B company get 30% more leads'.",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: "Okay. And what about the [[greeting:the first line of an email where you say hello]]? Should I write 'Dear' or 'Hi'?",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "If you do not know them, use 'Dear' — it is more formal. Then use their first name: 'Dear Sarah' — not 'Dear Sir or Madam'.",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Good. Then I write my [[introduction:the first paragraph where you say who you are and why you are writing]]?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Yes — two or three sentences. Say who you are, how you found them, and why you are writing. Keep it short.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Should I [[attach:to add a file to an email]] the brochure?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Yes, attach the brochure. But do not make the email too long. End with a clear [[call to action:a sentence that tells the reader what to do next]] — like 'Would you like to book a quick call?'",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'And if they do not [[reply:to send a response to an email]]?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Send a [[follow-up:a second email sent after the first one]] after five days. Keep it very short — just two or three lines. Use a friendly [[sign-off:the closing words at the end of an email before your name]] like 'Best regards'.",
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "SUBJECT LINE",
+        "definition": "The title of an email that the reader sees before they open it"
+    },
+    {
+        "word": "GREETING",
+        "definition": "The first line of an email where you say hello to the reader"
+    },
+    {
+        "word": "INTRODUCTION",
+        "definition": "The first paragraph where you say who you are and why you are writing"
+    },
+    {
+        "word": "ATTACH",
+        "definition": "To add a file to an email so the reader can download it"
+    },
+    {
+        "word": "REPLY",
+        "definition": "To send a response to an email that someone sent you"
+    },
+    {
+        "word": "CALL TO ACTION",
+        "definition": "A sentence that tells the reader what to do next"
+    },
+    {
+        "word": "SIGN-OFF",
+        "definition": "The closing words at the end of an email before your name"
+    },
+    {
+        "word": "FOLLOW-UP",
+        "definition": "A second email you send because the person did not reply to the first one"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "Riley spent ten minutes on the",
+        "after": "because it decides whether the client opens the email or deletes it.",
+        "answer": "subject line"
+    },
+    {
+        "before": "Dana used 'Dear Sarah' as her",
+        "after": "because she had never met the client before.",
+        "answer": "greeting"
+    },
+    {
+        "before": "Keep your",
+        "after": "short — say who you are and your reason for writing in two or three sentences.",
+        "answer": "introduction"
+    },
+    {
+        "before": "I will",
+        "after": "our brochure to the email so the client can read more about our services.",
+        "answer": "attach"
+    },
+    {
+        "before": "The client did not",
+        "after": "to our first email, so Riley sent a follow-up the next week.",
+        "answer": "reply"
+    },
+    {
+        "before": "Every marketing email needs a clear",
+        "after": "— without one, the reader does not know what to do next.",
+        "answer": "call to action"
+    },
+    {
+        "before": "Riley used 'Best regards' as her",
+        "after": "because it sounds professional but not too formal.",
+        "answer": "sign-off"
+    },
+    {
+        "before": "If the client does not reply in five days, send a",
+        "after": "— keep it short and friendly.",
+        "answer": "follow-up"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "You are writing an email to a potential client you have never met. Which greeting should you use?",
+        "options": [
+            "Hey! Just checking in.",
+            "Dear Sarah — using their first name is professional but personal.",
+            "To whom it may concern",
+            "Hi there!"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "The client did not reply to your email five days ago. What should you do?",
+        "options": [
+            "Wait — maybe they will reply later.",
+            "Send a follow-up email. Keep it short and friendly — just two or three lines.",
+            "Call them immediately and ask why they did not reply.",
+            "Send the same email again."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the most important part of a marketing email?",
+        "options": [
+            "The sign-off — it leaves a strong final impression.",
+            "The attachment — people always open files.",
+            "The subject line — if it is not interesting, people will not open the email.",
+            "The introduction — it is the first thing people read inside the email."
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Which sign-off is best for a formal marketing email to someone you do not know?",
+        "options": [
+            "Cheers!",
+            "See you soon",
+            "Best regards",
+            "TTYL (Talk to you later)"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What should a good call to action do?",
+        "options": [
+            "Explain who you are and why you are writing.",
+            "Tell the reader what to do next — for example: 'Reply to this email' or 'Book a free call'.",
+            "List all the services your company offers.",
+            "Thank the reader for their time."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "You want to send your company brochure to a client. What do you do?",
+        "options": [
+            "Copy and paste the brochure text into the email.",
+            "Attach the PDF to the email and mention it in the body of the email.",
+            "Send the brochure in a separate email.",
+            "Ask them to visit your website to find the brochure."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How long should the introduction of a cold marketing email be?",
+        "options": [
+            "At least three paragraphs — you need to explain everything.",
+            "One or two sentences — just enough to say who you are and why you are writing.",
+            "There is no introduction — go straight to the offer.",
+            "One full page — the more detail, the better."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "A client writes back and says: 'Interesting — can you tell me more?' What should you do?",
+        "options": [
+            "Attach your full pricing document immediately.",
+            "Reply quickly, answer their question, and suggest a call or meeting to talk in more detail.",
+            "Wait a few days so you do not seem too eager.",
+            "Send them your entire company presentation."
+        ],
+        "correctIndex": 1
+    }
+],
+  warmUp: {
+    "questions": [
+        "Do you write emails in English at work? What kinds of things do you write about?",
+        "What is the difference between a formal email and an informal email? Can you give an example?",
+        "Have you ever received a marketing email that made you want to find out more? What did it say?"
+    ]
+},
+  completeSentenceExercise: {
+    "instructions": "Choose the correct word or phrase to complete each sentence. Then read the sentence aloud.",
+    "items": [
+        {
+            "sentence": "Keep your _____ short — under ten words — so it is easy to read in a busy inbox.",
+            "options": [
+                "subject line",
+                "greeting",
+                "sign-off"
+            ],
+            "correctIndex": 0,
+            "explanation": "Subject line is the title of the email — the part people see before they open it. Greeting is the hello at the start. Sign-off is the ending. The subject line must be short and interesting because it decides if someone opens the email."
+        },
+        {
+            "sentence": "I will _____ our company brochure to this email — please take a look when you have a moment.",
+            "options": [
+                "reply",
+                "attach",
+                "follow up"
+            ],
+            "correctIndex": 1,
+            "explanation": "Attach means to add a file to an email. Reply means to send a response. Follow up means to contact someone again after an earlier message. Attach is correct — you are adding a file (the brochure) to the email."
+        },
+        {
+            "sentence": "Every good marketing email needs a clear _____ — the reader must know what to do next.",
+            "options": [
+                "greeting",
+                "follow-up",
+                "call to action"
+            ],
+            "correctIndex": 2,
+            "explanation": "Call to action is a sentence that tells the reader what to do next. Greeting is how you say hello. Follow-up is a second email. The call to action is what turns a good email into one that gets results."
+        },
+        {
+            "sentence": "If the client does not reply in five days, send a short _____ to remind them of your email.",
+            "options": [
+                "subject line",
+                "follow-up",
+                "introduction"
+            ],
+            "correctIndex": 1,
+            "explanation": "Follow-up is a second email sent because the first one did not get a reply. Subject line is the title of the email. Introduction is the opening paragraph. Always follow up — most clients need a second message before they reply."
+        },
+        {
+            "sentence": "I am _____ to your email about the proposal — I have some questions for you.",
+            "options": [
+                "attaching",
+                "replying",
+                "reaching out"
+            ],
+            "correctIndex": 1,
+            "explanation": "Replying means sending a response to an email. Attaching means adding a file. Reaching out means making first contact. Replying is correct because you are responding to an email you received."
+        },
+        {
+            "sentence": "Dana used 'Best regards' as her _____ — it sounds professional but not too formal.",
+            "options": [
+                "sign-off",
+                "greeting",
+                "call to action"
+            ],
+            "correctIndex": 0,
+            "explanation": "Sign-off is the closing phrase before your name — like 'Best regards' or 'Kind regards'. Greeting is the opening hello. Call to action is the instruction at the end. The sign-off leaves a final professional impression."
+        }
+    ]
+},
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Work in pairs. Read each situation and choose the best response. Talk about why before you click.",
+        "items": [
+            {
+                "customerLine": "A potential client replies to your email: 'Thanks for reaching out. What services do you offer exactly?'",
+                "options": [
+                    "Reply with your full price list and all 12 services you offer — give them everything they need to decide.",
+                    "Reply with a short summary of your two or three most relevant services for their industry, and suggest a quick call to find out more about their needs.",
+                    "Wait two days before replying so you look professional and not too eager."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. Sending too much information at once can overwhelm the client. A short, relevant summary plus a call suggestion keeps the conversation going. A sends too much information. C — waiting two days will make you look unresponsive, not professional."
+            },
+            {
+                "customerLine": "You sent a marketing email one week ago and heard nothing. What do you do?",
+                "options": [
+                    "Do nothing — if they were interested, they would have replied.",
+                    "Send a follow-up email. Keep it very short — two or three lines. Say who you are, remind them of your first email, and ask if they had a chance to read it.",
+                    "Call them and ask why they did not reply to your email."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. A short, polite follow-up is standard practice in B2B marketing. Most clients need two or three touches before they reply. A gives up too early. C — calling to ask why they did not reply is too aggressive and will make a bad first impression."
+            },
+            {
+                "customerLine": "A new client asks: 'Is there anything you can send me to learn more about your agency?'",
+                "options": [
+                    "Say: Our website has all the information — just go to www.example.com.",
+                    "Say: Of course — I will attach our company brochure and a case study that is relevant to your industry. Let me know if you have any questions after reading.",
+                    "Say: I will send you our full proposal with pricing. I will need three to four days to prepare it."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. Attaching a brochure and a relevant case study gives the client what they asked for in a useful, personalised way. A sends them away from the conversation — you lose the personal connection. C jumps to a full proposal before you understand their needs."
+            }
+        ]
+    },
+    "spotTheMistake": {
+        "instructions": "Read this marketing email. There are 3 mistakes. Find them and correct them. Work in pairs.",
+        "dialogue": [
+            {
+                "speaker": "Subject",
+                "text": "Our marketing services"
+            },
+            {
+                "speaker": "Greeting",
+                "text": "To whom it may concern,"
+            },
+            {
+                "speaker": "Body",
+                "text": "I am writing to introduce our agency, MarketBridge. We help B2B companies grow their marketing and generate more leads."
+            },
+            {
+                "speaker": "Body",
+                "text": "I have attach our brochure to this email. Please take a look when you have a moment."
+            },
+            {
+                "speaker": "Body",
+                "text": "If you are interested, please let us know."
+            },
+            {
+                "speaker": "Sign-off",
+                "text": "Best regards, Dana"
+            }
+        ],
+        "mistakes": [
+            {
+                "lineIndex": 0,
+                "incorrectText": "Our marketing services",
+                "correction": "How we helped a B2B company get 30% more leads",
+                "explanation": "The subject line 'Our marketing services' is too generic — it tells the reader nothing interesting. A strong subject line gives a specific benefit or result. For example: 'How we helped a B2B company get 30% more leads'. This makes the reader want to open the email."
+            },
+            {
+                "lineIndex": 1,
+                "incorrectText": "To whom it may concern,",
+                "correction": "Dear [First Name],",
+                "explanation": "'To whom it may concern' is very old-fashioned and impersonal. In modern B2B email, always use the person's first name if you have it — for example: 'Dear Sarah,' or 'Hi Sarah,'. It makes the email feel personal and shows you did your research."
+            },
+            {
+                "lineIndex": 3,
+                "incorrectText": "I have attach",
+                "correction": "I have attached",
+                "explanation": "'I have attach' is a grammar mistake. The correct form is 'I have attached' — this uses the present perfect tense (have + past participle). The past participle of 'attach' is 'attached', not 'attach'."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "Finish the salesperson's line. Use language from this lesson. Then compare with a partner.",
+        "items": [
+            {
+                "customerLine": "Client: Your email looks interesting. Can you tell me a bit more about what you do?",
+                "salespersonStart": "Of course — I would be happy to. We help B2B companies",
+                "suggestedCompletion": "grow their marketing, generate leads, and reach the right audience. I have attached a short brochure to this email with more details. Would it be useful to arrange a 20-minute call this week? I can answer any questions you have and learn more about your goals."
+            },
+            {
+                "customerLine": "Client: I received your email but I have been very busy. Can you send it again?",
+                "salespersonStart": "No problem at all — I completely understand.",
+                "suggestedCompletion": "I have attached the brochure again below. The key thing I wanted to share is how we helped a company in your industry increase their leads by 30% in three months. Would you be open to a quick call next week to talk about whether we could do something similar for you?"
+            },
+            {
+                "customerLine": "Client: We are not sure if we need a marketing agency right now.",
+                "salespersonStart": "I understand — it is a big decision.",
+                "suggestedCompletion": "There is no pressure at all. I would love to have a short call just to learn more about your goals. Sometimes after one conversation, people realise where the gaps are — and sometimes they decide they do not need us yet. Either way, it is a useful 20 minutes. Would that work for you?"
+            }
+        ]
+    }
+},
+};
