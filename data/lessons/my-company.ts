@@ -3,66 +3,66 @@ import { Lesson } from '@/types/lesson';
 export const myCompany: Lesson = {
   slug: 'my-company',
   title: 'My Company',
-  subtitle: 'How to describe your organisation in a marketing context',
+  subtitle: 'How to talk about your company in a marketing context',
   level: 'A1-A2',
-  description: 'Learn the words and phrases marketers use to describe their company — where it is based, how it is organised, and what sector it works in.',
+  description: 'Learn simple words and phrases to say where your company is, how big it is, and what kind of work it does.',
   heroImage: '/images/my-company-hero.png',
 
   vocabulary: [
     {
       word: 'DEPARTMENT',
       partOfSpeech: 'noun',
-      definition: 'A section of a company that has a specific job or area of work.',
-      example: 'The marketing department is responsible for all campaigns and brand communications.',
+      definition: 'A part of a company. Each part has a different job.',
+      example: 'I work in the marketing department. We look after all the campaigns.',
       imageSlug: '/images/department.png',
     },
     {
       word: 'OFFICE',
       partOfSpeech: 'noun',
-      definition: 'A place where people work, usually at desks.',
-      example: 'Our office is in central London, close to the train station.',
+      definition: 'A place where people work.',
+      example: 'Our office is in Manchester city centre.',
       imageSlug: '/images/office.png',
     },
     {
       word: 'HEADQUARTERS',
       partOfSpeech: 'noun',
-      definition: 'The main office where a company is based and managed from.',
-      example: 'Our headquarters is in Manchester, but we have teams in other cities too.',
+      definition: 'The main office of a company.',
+      example: 'Our headquarters is in Manchester. That is where the main team works.',
       imageSlug: '/images/headquarters.png',
     },
     {
       word: 'GLOBAL',
       partOfSpeech: 'adjective',
-      definition: 'Working in or covering many countries around the world.',
-      example: 'Brightline is a global company with clients in over 30 countries.',
+      definition: 'In or for many countries.',
+      example: 'Brightline is a global company. It has clients in many countries.',
       imageSlug: '/images/global.png',
     },
     {
       word: 'LOCAL',
       partOfSpeech: 'adjective',
-      definition: 'In or near a specific place or area, not far away.',
-      example: 'We started as a local business in Manchester before expanding nationally.',
+      definition: 'In or near one place or area — not far away.',
+      example: 'We started as a local company in Manchester.',
       imageSlug: '/images/local.png',
     },
     {
       word: 'SECTOR',
       partOfSpeech: 'noun',
-      definition: 'The area of business or industry that a company works in.',
-      example: 'Brightline works in the technology sector, serving marketing and sales teams.',
+      definition: 'The type of work a company does. For example: technology, food, or health.',
+      example: 'Brightline works in the technology sector.',
       imageSlug: '/images/sector.png',
     },
     {
       word: 'STAFF',
       partOfSpeech: 'noun',
       definition: 'The people who work for a company.',
-      example: 'We have around 200 staff across all our offices.',
+      example: 'We have about 250 staff in our company.',
       imageSlug: '/images/staff.png',
     },
     {
       word: 'LOCATION',
       partOfSpeech: 'noun',
-      definition: 'A specific place where a company or office is based.',
-      example: 'Our main location is in Manchester, with a second office in London.',
+      definition: 'The place where a company or office is.',
+      example: 'Our main location is in Manchester.',
       imageSlug: '/images/location.png',
     }
   ],
@@ -70,38 +70,38 @@ export const myCompany: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'WE ARE BASED IN',
-      definition: 'Say where your company is located.',
-      example: 'We are based in Manchester, but we work with clients across the UK.',
+      definition: 'Say where your company is.',
+      example: 'We are based in Manchester, but we work with clients all over the UK.',
       imageSlug: '/images/we-are-based-in.png',
     },
     {
       phrase: 'OUR HEAD OFFICE IS IN',
       definition: 'Say where the main office is.',
-      example: "Our head office is in Manchester — that's where most of the senior team works.",
+      example: 'Our head office is in Manchester — that is where most of the team works.',
       imageSlug: '/images/our-head-office-is-in.png',
     },
     {
       phrase: 'WE HAVE OFFICES IN',
-      definition: 'Say which cities or countries your company has locations in.',
+      definition: 'Say which cities or countries your company has offices in.',
       example: 'We have offices in London, Berlin, and Singapore.',
       imageSlug: '/images/we-have-offices-in.png',
     },
     {
       phrase: 'I WORK IN THE [X] DEPARTMENT',
-      definition: 'Say which department or team you belong to.',
-      example: 'I work in the marketing department — we handle all campaigns and brand content.',
+      definition: 'Say which part of the company you work in.',
+      example: 'I work in the marketing department — we look after all campaigns and content.',
       imageSlug: '/images/i-work-in-the-x-department.png',
     },
     {
       phrase: 'WE ARE A GLOBAL COMPANY',
-      definition: 'Say that your company works internationally, across many countries.',
-      example: 'We are a global company, so our campaigns need to work in many different markets.',
+      definition: 'Say that your company works in many countries.',
+      example: 'We are a global company — our clients are in many different countries.',
       imageSlug: '/images/we-are-a-global-company.png',
     },
     {
       phrase: 'WE WORK IN THE [X] SECTOR',
-      definition: 'Say which industry or area of business your company operates in.',
-      example: 'We work in the technology sector, specifically in marketing software.',
+      definition: 'Say what type of work your company does.',
+      example: 'We work in the technology sector — we make software for marketing teams.',
       imageSlug: '/images/we-work-in-the-x-sector.png',
     }
   ],
@@ -113,13 +113,13 @@ export const myCompany: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: '/images/dana-icon.png',
-      text: 'Thanks for making time for this call, Riley. Can you tell me a bit about Brightline?',
+      text: 'Thanks for the call, Riley. Can you tell me a bit about Brightline?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: '/images/riley-icon.png',
-      text: "Of course. We are [[based in:say where your company is located]] Manchester — that's where our [[headquarters:the main office where a company is based and managed from]] is.",
+      text: 'Of course. We are based in Manchester — that is where our [[headquarters:the main office of a company]] is.',
     },
     {
       speaker: 'Dana',
@@ -131,88 +131,88 @@ export const myCompany: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: '/images/riley-icon.png',
-      text: "Yes — we have [[offices:a place where people work, usually at desks]] in London and Berlin as well. We started as a [[local:in or near a specific place or area]] business, but we've grown a lot.",
+      text: 'Yes — we have [[offices:places where people work]] in London and Berlin too. We started as a [[local:in or near one place or area]] company, but we have grown a lot.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: '/images/dana-icon.png',
-      text: "So you're more of a global company now?",
+      text: 'So you are more of a global company now?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: '/images/riley-icon.png',
-      text: "We're getting there — we now have clients in over 20 countries, so yes, we're becoming more [[global:working in or covering many countries around the world]].",
+      text: 'Yes — we now have clients in over 20 countries, so we are becoming more [[global:in or for many countries]].',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: '/images/dana-icon.png',
-      text: 'What [[sector:the area of business or industry that a company works in]] do you work in?',
+      text: 'What [[sector:the type of work a company does]] do you work in?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: '/images/riley-icon.png',
-      text: "We're in the technology sector — specifically marketing software. Our product is used by marketing and sales [[department:a section of a company that has a specific job or area of work]]s all over the world.",
+      text: 'We are in the technology sector. Our product is used by marketing [[department:a part of a company — each part has a different job]]s all over the world.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: '/images/dana-icon.png',
-      text: 'How many people work at Brightline?',
+      text: 'How many people work there?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: '/images/riley-icon.png',
-      text: 'We have around 250 [[staff:the people who work for a company]] in total across all our locations. I work in the marketing department — about 20 of us.',
+      text: 'We have about 250 [[staff:the people who work for a company]] in total. I work in the marketing department — about 20 of us.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: '/images/dana-icon.png',
-      text: "That's a decent size. And your main [[location:a specific place where a company or office is based]] is still Manchester?",
+      text: 'And your main [[location:the place where a company or office is]] is still Manchester?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: '/images/riley-icon.png',
-      text: "That's right — our head office is in Manchester. That's where the leadership team is based.",
+      text: "That's right. Our head office is in Manchester. That is where the main team works.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: '/images/dana-icon.png',
-      text: "Great — it's helpful to understand the structure. I think there's a real fit here for what we're looking for.",
+      text: "Great — it's good to know more about the company. I think this could be a good fit for us.",
     }
   ],
 
   matchingExercise: [
     {
         "word": "DEPARTMENT",
-        "definition": "A section of a company that has a specific job or area of work"
+        "definition": "A part of a company — each part has a different job"
     },
     {
         "word": "OFFICE",
-        "definition": "A place where people work, usually at desks"
+        "definition": "A place where people work"
     },
     {
         "word": "HEADQUARTERS",
-        "definition": "The main office where a company is based and managed from"
+        "definition": "The main office of a company"
     },
     {
         "word": "GLOBAL",
-        "definition": "Working in or covering many countries around the world"
+        "definition": "In or for many countries"
     },
     {
         "word": "LOCAL",
-        "definition": "In or near a specific place or area, not far away"
+        "definition": "In or near one place or area — not far away"
     },
     {
         "word": "SECTOR",
-        "definition": "The area of business or industry that a company works in"
+        "definition": "The type of work a company does"
     },
     {
         "word": "STAFF",
@@ -220,48 +220,48 @@ export const myCompany: Lesson = {
     },
     {
         "word": "LOCATION",
-        "definition": "A specific place where a company or office is based"
+        "definition": "The place where a company or office is"
     }
 ],
   fillBlankExercise: [
     {
-        "before": "The marketing",
-        "after": "is responsible for all campaigns and brand communications.",
+        "before": "I work in the marketing",
+        "after": ". We look after all the campaigns.",
         "answer": "department"
     },
     {
         "before": "Our",
-        "after": "is in central London, close to the train station.",
+        "after": "is in Manchester city centre.",
         "answer": "office"
     },
     {
         "before": "Our",
-        "after": "is in Manchester, but we have teams in other cities too.",
+        "after": "is in Manchester. That is where the main team works.",
         "answer": "headquarters"
     },
     {
         "before": "Brightline is a",
-        "after": "company with clients in over 30 countries.",
+        "after": "company. It has clients in many countries.",
         "answer": "global"
     },
     {
         "before": "We started as a",
-        "after": "business in Manchester before expanding nationally.",
+        "after": "company in Manchester.",
         "answer": "local"
     },
     {
         "before": "Brightline works in the technology",
-        "after": ", serving marketing and sales teams.",
+        "after": ".",
         "answer": "sector"
     },
     {
-        "before": "We have around 200",
-        "after": "across all our offices.",
+        "before": "We have about 250",
+        "after": "in our company.",
         "answer": "staff"
     },
     {
         "before": "Our main",
-        "after": "is in Manchester, with a second office in London.",
+        "after": "is in Manchester.",
         "answer": "location"
     }
 ],
@@ -289,8 +289,8 @@ export const myCompany: Lesson = {
     {
         "question": "What sector does Brightline work in?",
         "options": [
-            "Finance",
-            "Healthcare",
+            "Food",
+            "Health",
             "Technology",
             "Retail"
         ],
@@ -299,10 +299,10 @@ export const myCompany: Lesson = {
     {
         "question": "How many staff does Brightline have in total?",
         "options": [
-            "Around 20",
-            "Around 100",
-            "Around 250",
-            "Around 1,000"
+            "About 20",
+            "About 100",
+            "About 250",
+            "About 1,000"
         ],
         "correctIndex": 2
     },
@@ -337,121 +337,121 @@ export const myCompany: Lesson = {
         "correctIndex": 1
     },
     {
-        "question": "How did Brightline start out?",
+        "question": "How did Brightline start?",
         "options": [
-            "As a global tech company",
+            "As a big global company",
             "As a local business in Manchester",
             "As a marketing agency in London",
-            "As a joint venture with a US company"
+            "As a US company"
         ],
         "correctIndex": 1
     }
 ],
   groupActivities: {
     "chooseResponse": {
-        "instructions": "Work in groups. Read the other person's question, then discuss which response (A, B, or C) is best. Choose your answer together, then click to see if you were right — and why.",
+        "instructions": "Work in groups. Read the question. Talk about which answer (A, B, or C) is best. Choose together, then click to check.",
         "items": [
             {
                 "customerLine": "Where is your company based?",
                 "options": [
                     "We have an office.",
-                    "We are based in Manchester — that's where our head office is, though we also have offices in London and Berlin.",
-                    "We are in the north of England somewhere."
+                    "We are based in Manchester — that is where our head office is. We also have offices in London and Berlin.",
+                    "We are somewhere in the north of England."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It gives the city, confirms it's the head office, and mentions other locations — all in a natural, confident sentence. A says almost nothing. C is vague and sounds uncertain, which does not make a good impression."
+                "explanation": "B is correct. It says the city, says it is the head office, and tells them about other offices too. A says almost nothing. C is not clear and does not sound confident."
             },
             {
                 "customerLine": "Is your company big?",
                 "options": [
                     "Yes, we are quite big.",
-                    "We have around 250 staff across three offices — we've grown a lot over the last few years.",
+                    "We have about 250 staff across three offices — we have grown a lot in the last few years.",
                     "I think so. We have many people."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It gives a specific number and adds context about the company's growth. A is too vague to be useful. C also lacks specific information and sounds unconfident — not a great look when you're trying to build trust with a contact."
+                "explanation": "B is correct. It gives a number and says the company has grown. A is not helpful — it does not give any information. C also does not give enough information and does not sound sure."
             },
             {
                 "customerLine": "Do you only work in the UK?",
                 "options": [
-                    "No, we are a global company — we have clients in over 20 countries and offices in Berlin and Singapore.",
-                    "We have some clients in other countries too.",
+                    "No — we are a global company. We have clients in over 20 countries and offices in Berlin too.",
+                    "We have some clients in other countries.",
                     "It depends on the project."
                 ],
                 "correctIndex": 0,
-                "explanation": "A is correct. It directly answers the question, uses the word 'global', and backs it up with specific facts. B is weak and gives no detail. C completely dodges the question, which could make the contact think you are unsure or hiding something."
+                "explanation": "A is correct. It says 'global', gives a number, and says where the offices are. B does not give enough information. C does not answer the question — it sounds like you do not know."
             },
             {
-                "customerLine": "What does your marketing department actually do?",
+                "customerLine": "What does your marketing department do?",
                 "options": [
-                    "We do many things in the department.",
-                    "The marketing department handles everything to do with campaigns, brand content, and how we communicate with our market.",
-                    "We are in charge of the company's marketing."
+                    "We do many things.",
+                    "The marketing department looks after all our campaigns, content, and how we talk to our clients.",
+                    "We are in charge of marketing for the company."
                 ],
                 "correctIndex": 1,
-                "explanation": "B is correct. It gives a clear and specific answer — campaigns, brand content, communications. A is vague and unhelpful. C says the same thing as the question in different words, which gives the listener no new information."
+                "explanation": "B is correct. It gives clear examples — campaigns, content, and client communication. A says nothing useful. C just says the same thing as the question in different words."
             }
         ]
     },
     "profileMatch": {
-        "instructions": "You are Riley. Three people ask about Brightline. As a group, decide which description style fits each situation best. Use phrases from this lesson to explain your choices. Click 'Check Matches' when you agree.",
+        "instructions": "You are Riley. Three people ask about Brightline. As a group, talk about which way to answer fits each situation. Use phrases from this lesson. Click 'Check Matches' when you agree.",
         "profiles": [
             {
-                "name": "A quick LinkedIn message reply",
-                "description": "Someone has replied to your LinkedIn post asking what Brightline does. You have 2-3 sentences to reply before they lose interest.",
+                "name": "A quick LinkedIn reply",
+                "description": "Someone replied to your LinkedIn post and asked what Brightline does. You have 2 or 3 sentences.",
                 "matchKey": "short"
             },
             {
-                "name": "A first discovery call",
-                "description": "A marketing director at a retail company is on a 30-minute call with you. They want to understand the company before you talk about the product.",
+                "name": "A first call",
+                "description": "A marketing manager is on a 30-minute call with you. They want to know about the company before you talk about the product.",
                 "matchKey": "structured"
             },
             {
-                "name": "A casual introduction at an event",
-                "description": "You are talking to someone at a networking event who has just asked 'so what does Brightline do exactly?' You have about a minute.",
+                "name": "A casual chat at an event",
+                "description": "You are talking to someone at an event. They ask 'so what does Brightline do?' You have about one minute.",
                 "matchKey": "story"
             }
         ],
         "options": [
             {
                 "key": "short",
-                "label": "Short and direct",
-                "description": "One sentence on what the company does, one on where you're based. No extra detail. Best when you need to be quick and clear — long messages lose people."
+                "label": "Short and simple",
+                "description": "One sentence about what the company does. One sentence about where it is based. No extra information. Best when you need to be quick."
             },
             {
                 "key": "structured",
-                "label": "Structured overview",
-                "description": "Cover sector, size, locations, and departments in a logical order. Give the listener a clear picture of the company before moving to the product. Best when you have time and the person wants context."
+                "label": "Step by step",
+                "description": "Talk about the sector, size, offices, and departments one by one. Give the person a clear picture of the company. Best when you have time and the person wants to know more."
             },
             {
                 "key": "story",
-                "label": "Brief company story",
-                "description": "Start with where the company started, say how it has grown, and end with where it is now. Makes the company feel real and relatable. Best for casual conversations where a formal structure would feel stiff."
+                "label": "A short story",
+                "description": "Start with where the company started. Say how it has grown. End with where it is now. Best for a casual chat where a list of facts would feel too formal."
             }
         ]
     },
     "finishTheLine": {
-        "instructions": "The marketer's line has been cut off. As a group, discuss how you would finish it. Try to use vocabulary from this lesson. There is no single correct answer — compare your ideas, then click to see one possible answer.",
+        "instructions": "The marketer's line is not finished. As a group, talk about how you would finish it. Use words from this lesson. There is no one right answer — share your ideas, then click to see one example.",
         "items": [
             {
-                "customerLine": "Where exactly is your company based?",
+                "customerLine": "Where exactly is your company?",
                 "salespersonStart": "Our headquarters is in Manchester, but we also have",
-                "suggestedCompletion": "offices in London and Berlin. Most of the leadership team works from Manchester, but our client-facing teams are spread across all three locations."
+                "suggestedCompletion": "offices in London and Berlin. Most of the main team is in Manchester, but we have people working across all three locations."
             },
             {
-                "customerLine": "How is the company organised?",
-                "salespersonStart": "We have several departments — I work in marketing, but there's also",
-                "suggestedCompletion": "a sales department, a product team, and a customer success team. Each department has its own focus, but we work closely together on big campaigns and product launches."
+                "customerLine": "How is the company set up?",
+                "salespersonStart": "We have a few departments — I work in marketing, but there is also",
+                "suggestedCompletion": "a sales team, a product team, and a team that looks after our clients. Each department has its own job, but we work together on big campaigns."
             },
             {
-                "customerLine": "Is this a local company or do you work internationally?",
-                "salespersonStart": "We started as a local business in Manchester, but we've grown into",
-                "suggestedCompletion": "a global company with clients in over 20 countries. We still have strong roots in the UK, but our product is used by teams all over the world."
+                "customerLine": "Is this a local company or do you work in other countries?",
+                "salespersonStart": "We started as a local business in Manchester, but now we are",
+                "suggestedCompletion": "a global company with clients in over 20 countries. We still have our roots in the UK, but our product is used by teams all over the world."
             },
             {
                 "customerLine": "How many people work there?",
-                "salespersonStart": "We have around 250 staff in total — about 20 of us are in the marketing",
-                "suggestedCompletion": "department. We've grown quickly over the last few years, especially as we've opened more offices internationally."
+                "salespersonStart": "We have about 250 staff in total — about 20 of us are in the marketing",
+                "suggestedCompletion": "department. We have grown a lot in the last few years, and we now have staff in three countries."
             }
         ]
     }
