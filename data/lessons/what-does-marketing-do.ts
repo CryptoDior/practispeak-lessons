@@ -1,0 +1,459 @@
+import { Lesson } from '@/types/lesson';
+
+export const whatDoesMarketingDo: Lesson = {
+  slug: 'what-does-marketing-do',
+  title: 'What Does Marketing Do?',
+  subtitle: 'Simple words for what a marketing team does every day',
+  level: 'A1-A2',
+  description: 'Learn the basic words for marketing activities and how to say simply what your team does.',
+  heroImage: '/images/what-does-marketing-do-hero.png',
+
+  vocabulary: [
+    {
+      word: 'PROMOTE',
+      partOfSpeech: 'verb',
+      definition: 'To tell people about a product or brand and help them like it.',
+      example: 'We promote our products on social media and at events.',
+      imageSlug: '/images/promote.png',
+    },
+    {
+      word: 'ADVERTISE',
+      partOfSpeech: 'verb',
+      definition: 'To pay to show information about a product to many people.',
+      example: 'We advertise on Google and social media to reach more people.',
+      imageSlug: '/images/advertise.png',
+    },
+    {
+      word: 'SELL',
+      partOfSpeech: 'verb',
+      definition: 'To give something to someone for money.',
+      example: 'Our goal is to help the sales team sell more products this month.',
+      imageSlug: '/images/sell.png',
+    },
+    {
+      word: 'LAUNCH',
+      partOfSpeech: 'verb',
+      definition: 'To start something new — like a product or campaign — for the first time.',
+      example: 'We will launch the new product in March.',
+      imageSlug: '/images/launch.png',
+    },
+    {
+      word: 'COMMUNICATE',
+      partOfSpeech: 'verb',
+      definition: 'To share information with other people.',
+      example: 'Marketing helps the company communicate with its clients and the public.',
+      imageSlug: '/images/communicate.png',
+    },
+    {
+      word: 'SHARE',
+      partOfSpeech: 'verb',
+      definition: 'To send or show something to other people.',
+      example: 'We share news about the brand on social media every week.',
+      imageSlug: '/images/share.png',
+    },
+    {
+      word: 'REACH',
+      partOfSpeech: 'verb',
+      definition: 'To get to or connect with a group of people.',
+      example: 'Our last campaign reached 10,000 people online.',
+      imageSlug: '/images/reach.png',
+    },
+    {
+      word: 'CREATE',
+      partOfSpeech: 'verb',
+      definition: 'To make something new.',
+      example: 'We create content for our website and social media every week.',
+      imageSlug: '/images/create.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'GET THE WORD OUT',
+      definition: 'Tell many people about something — a product, event, or brand.',
+      example: 'Our job is to get the word out about the new product before it launches.',
+      imageSlug: '/images/get-the-word-out.png',
+    },
+    {
+      phrase: 'REACH OUT TO',
+      definition: 'Contact a person or group of people to talk or share information.',
+      example: 'We reach out to clients by email to tell them about new products.',
+      imageSlug: '/images/reach-out-to.png',
+    },
+    {
+      phrase: 'COME UP WITH',
+      definition: 'Think of a new idea.',
+      example: 'The team came up with a great idea for the next campaign.',
+      imageSlug: '/images/come-up-with.png',
+    },
+    {
+      phrase: 'PUT TOGETHER',
+      definition: 'Make or organise something, like a plan or a piece of content.',
+      example: 'Riley put together a short video to promote the new product.',
+      imageSlug: '/images/put-together.png',
+    },
+    {
+      phrase: 'ROLL OUT',
+      definition: 'Start to use or share something with a lot of people.',
+      example: 'We will roll out the new campaign next week.',
+      imageSlug: '/images/roll-out.png',
+    },
+    {
+      phrase: 'FOLLOW UP',
+      definition: 'Contact someone again after a first conversation or message.',
+      example: 'After the event, we follow up with new contacts by email.',
+      imageSlug: '/images/follow-up.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Riley, can you tell me — what does the marketing team actually do every day?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Sure! Our main job is to [[promote:to tell people about a product or brand and help them like it]] Brightline — to help people know who we are and what we do.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'How do you do that?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'We [[create:to make something new]] content every week — things like blog posts, videos, and social media posts. We also [[advertise:to pay to show information about a product to many people]] on Google and social media.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'How many people do you try to [[reach:to get to or connect with a group of people]]?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Our last campaign reached about 50,000 people online. We try to reach more people every month.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Do you also help to [[sell:to give something to someone for money]] the product?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Yes — we work closely with the sales team. Our job is to bring people in and help them understand the product. The sales team then does the selling.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'And when you [[launch:to start something new for the first time]] a new product — what does marketing do?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'We plan everything ahead of time — the content, the ads, the emails. We want to [[communicate:to share information with other people]] the news clearly to all our clients.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Do you [[share:to send or show something to other people]] the news on social media too?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Yes — social media is a big part of how we launch. We share posts, short videos, and sometimes do a live event online.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'It sounds like the marketing team does a lot. I had no idea how much work goes into it.',
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "PROMOTE",
+        "definition": "To tell people about a product or brand and help them like it"
+    },
+    {
+        "word": "ADVERTISE",
+        "definition": "To pay to show information about a product to many people"
+    },
+    {
+        "word": "SELL",
+        "definition": "To give something to someone for money"
+    },
+    {
+        "word": "LAUNCH",
+        "definition": "To start something new — like a product or campaign — for the first time"
+    },
+    {
+        "word": "COMMUNICATE",
+        "definition": "To share information with other people"
+    },
+    {
+        "word": "SHARE",
+        "definition": "To send or show something to other people"
+    },
+    {
+        "word": "REACH",
+        "definition": "To get to or connect with a group of people"
+    },
+    {
+        "word": "CREATE",
+        "definition": "To make something new"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "We",
+        "after": "our products on social media and at events.",
+        "answer": "promote"
+    },
+    {
+        "before": "We",
+        "after": "on Google and social media to reach more people.",
+        "answer": "advertise"
+    },
+    {
+        "before": "Our goal is to help the sales team",
+        "after": "more products this month.",
+        "answer": "sell"
+    },
+    {
+        "before": "We will",
+        "after": "the new product in March.",
+        "answer": "launch"
+    },
+    {
+        "before": "Marketing helps the company",
+        "after": "with its clients and the public.",
+        "answer": "communicate"
+    },
+    {
+        "before": "We",
+        "after": "news about the brand on social media every week.",
+        "answer": "share"
+    },
+    {
+        "before": "Our last campaign",
+        "after": "10,000 people online.",
+        "answer": "reached"
+    },
+    {
+        "before": "We",
+        "after": "content for our website and social media every week.",
+        "answer": "create"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "What is the main job of the marketing team?",
+        "options": [
+            "To sell the product directly",
+            "To promote Brightline and help people know who they are",
+            "To look after the company's money",
+            "To hire new staff"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What type of content does Riley's team create?",
+        "options": [
+            "Training videos and job ads",
+            "Blog posts, videos, and social media posts",
+            "Product manuals and price lists",
+            "Sales contracts and reports"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Where does Brightline advertise?",
+        "options": [
+            "On TV and radio",
+            "In newspapers and magazines",
+            "On Google and social media",
+            "At trade shows only"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "How many people did Riley's last campaign reach?",
+        "options": [
+            "5,000",
+            "10,000",
+            "50,000",
+            "100,000"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Who does the actual selling of the product?",
+        "options": [
+            "The marketing team",
+            "The director",
+            "The agency",
+            "The sales team"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "What does marketing do when a new product launches?",
+        "options": [
+            "They make the product",
+            "They plan content, ads, and emails ahead of time",
+            "They do the sales calls",
+            "They set the price"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does Brightline share news about a product launch?",
+        "options": [
+            "By post and phone only",
+            "By posts, short videos, and sometimes a live event online",
+            "By print ads in magazines",
+            "By telling clients in person"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Dana think at the end of the conversation?",
+        "options": [
+            "That marketing is an easy job",
+            "That the marketing team does not do very much",
+            "That there is a lot of work in marketing",
+            "That the sales team does more work than marketing"
+        ],
+        "correctIndex": 2
+    }
+],
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Work in groups. Read the question. Talk about which answer (A, B, or C) is best. Choose together, then click to check.",
+        "items": [
+            {
+                "customerLine": "What does your marketing team actually do?",
+                "options": [
+                    "We do a lot of different things.",
+                    "We promote the brand, create content, advertise on Google and social media, and help launch new products.",
+                    "We work with the sales team."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It gives four clear examples of what the team does. A is too vague. C only says one thing and it is about another team, not marketing."
+            },
+            {
+                "customerLine": "How do you reach new clients?",
+                "options": [
+                    "We try many different ways.",
+                    "We advertise on Google and social media, and we create content that helps people find us online. We also reach out by email after events.",
+                    "We have a good system for that."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It names real channels — Google, social media, email — and says how each one works. A gives no information. C sounds good but says nothing useful."
+            },
+            {
+                "customerLine": "Are you launching any new products soon?",
+                "options": [
+                    "Yes — we are launching a new plan in March. We are already creating content and planning the ads.",
+                    "Yes, we have a launch coming up.",
+                    "We always have new things in the pipeline."
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. It says when the launch is and what the team is already doing to prepare. B is too short and gives no detail. C sounds vague and does not really answer the question."
+            },
+            {
+                "customerLine": "How does marketing help the sales team?",
+                "options": [
+                    "We help them a lot.",
+                    "Marketing brings people in and helps them understand the product. Then the sales team takes over and does the selling.",
+                    "We work closely with them."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It explains the two steps clearly — marketing brings people in, sales closes the deal. A and C say very little and do not explain how marketing actually helps."
+            }
+        ]
+    },
+    "profileMatch": {
+        "instructions": "You are Riley. Three people ask about what marketing does. As a group, talk about which way to explain it fits each situation best. Click 'Check Matches' when you agree.",
+        "profiles": [
+            {
+                "name": "A new team member from another department",
+                "description": "A new person from the finance team asks what marketing does. They have never worked near a marketing team before.",
+                "matchKey": "simple"
+            },
+            {
+                "name": "A client asking before they sign a contract",
+                "description": "A client wants to know how Brightline's marketing team will promote their brand if they become a client.",
+                "matchKey": "specific"
+            },
+            {
+                "name": "A contact at a networking event",
+                "description": "Someone at an event asks what marketing does. They work in a different industry. You have about 30 seconds.",
+                "matchKey": "short"
+            }
+        ],
+        "options": [
+            {
+                "key": "simple",
+                "label": "Clear and simple",
+                "description": "Explain the basics — promote, advertise, create content, communicate. Use simple words and give one or two examples. Best for someone who does not know much about marketing."
+            },
+            {
+                "key": "specific",
+                "label": "What we do for you",
+                "description": "Explain what the marketing team will do for the client specifically — which channels, what kind of content, and how they will communicate. Best when the person needs to know exactly what they are buying."
+            },
+            {
+                "key": "short",
+                "label": "One clear sentence",
+                "description": "Say what marketing does in one sentence — for example, 'We help companies tell people about their products.' Best when you do not have much time."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The marketer's line is not finished. As a group, talk about how you would finish it. Use words from this lesson. There is no one right answer — share your ideas, then click to see one example.",
+        "items": [
+            {
+                "customerLine": "What do you do in marketing?",
+                "salespersonStart": "My job is to promote the brand and help people know about our products. Day to day, I",
+                "suggestedCompletion": "create content for social media, help plan campaigns, and communicate with our clients by email. We also advertise online to reach new people."
+            },
+            {
+                "customerLine": "How do you launch a new product?",
+                "salespersonStart": "We start planning a few weeks before the launch. We create content, set up ads, and",
+                "suggestedCompletion": "communicate the news to our clients by email. Then on launch day, we share posts and videos on social media to reach as many people as possible."
+            },
+            {
+                "customerLine": "How does marketing help sales?",
+                "salespersonStart": "Marketing's job is to promote the product and reach the right people. We create content and advertise so that",
+                "suggestedCompletion": "people come to us already interested. Then the sales team talks to them and helps them buy. Marketing brings people in — sales closes the deal."
+            },
+            {
+                "customerLine": "What kind of content do you create?",
+                "salespersonStart": "We create a lot of different things — blog posts, short videos, social media posts, and emails. Our goal is to",
+                "suggestedCompletion": "communicate clearly and help people understand what we offer. We try to share something new every week so people always see us online."
+            }
+        ]
+    }
+},
+};
