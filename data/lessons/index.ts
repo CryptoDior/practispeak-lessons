@@ -103,6 +103,7 @@ import { understandingData } from './understanding-data';
 import { customerFeedback } from './customer-feedback';
 import { competitiveLandscape } from './competitive-landscape';
 import { brandValues } from './brand-values';
+import { goodBetterBest } from './good-better-best';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -209,6 +210,7 @@ export const lessons: Lesson[] = [
   customerFeedback,
   competitiveLandscape,
   brandValues,
+  goodBetterBest,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);

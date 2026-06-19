@@ -1,0 +1,391 @@
+{
+  "exportName": "whatDoYouLike",
+  "title": "What Do You Like?",
+  "subtitle": "How to talk about preferences and ask customers what they want",
+  "level": "A1-A2",
+  "description": "Knowing what a customer likes or dislikes is the first step to helping them. This lesson teaches simple, natural phrases for talking about preferences — both for asking customers and for expressing your own opinions about products and marketing.",
+  "dialogueSubtitle": "Riley asks Dana about her preferences for a new marketing campaign",
+  "warmUp": {
+    "questions": [
+      "When you buy something new, what do you look for first — price, quality, or design? Why?",
+      "Do you prefer to make your own decisions, or do you like asking for a recommendation? Why?",
+      "Think about a marketing tool or product you really like. What do you like most about it?"
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "prefer",
+      "partOfSpeech": "verb",
+      "definition": "To like one thing more than another. When you prefer something, you choose it over the other option.",
+      "example": "Dana prefers email marketing over social media — she finds it easier to track results."
+    },
+    {
+      "word": "like",
+      "partOfSpeech": "verb",
+      "definition": "To find something good or enjoyable. A simple, everyday word for a positive feeling about something.",
+      "example": "I like the design of this ad — it is clean, simple, and easy to read."
+    },
+    {
+      "word": "dislike",
+      "partOfSpeech": "verb",
+      "definition": "To not like something. The opposite of like.",
+      "example": "Dana dislikes ads that are too long — she says people stop reading after five seconds."
+    },
+    {
+      "word": "favourite",
+      "partOfSpeech": "adjective",
+      "definition": "The one you like most of all — better than everything else in that group.",
+      "example": "My favourite marketing channel is LinkedIn — I get the best results from it."
+    },
+    {
+      "word": "popular",
+      "partOfSpeech": "adjective",
+      "definition": "Liked or used by many people.",
+      "example": "Short videos are very popular right now — they get more views than any other type of content."
+    },
+    {
+      "word": "opinion",
+      "partOfSpeech": "noun",
+      "definition": "What you think about something — your personal view.",
+      "example": "In my opinion, social media is the best channel for reaching new customers quickly."
+    },
+    {
+      "word": "interest",
+      "partOfSpeech": "noun",
+      "definition": "Something a person likes or wants to know more about.",
+      "example": "We create content that matches the interests of our target audience."
+    },
+    {
+      "word": "enjoy",
+      "partOfSpeech": "verb",
+      "definition": "To get pleasure from something — to have a good experience doing or using it.",
+      "example": "Our clients enjoy the weekly email report — they say it saves them hours of work."
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "I PREFER [X]",
+      "definition": "A simple, direct way to say you like one thing more than another.",
+      "example": "I prefer short videos — they are easier to make and they get better results."
+    },
+    {
+      "phrase": "WHICH DO YOU PREFER",
+      "definition": "A question to ask a customer which option they like more.",
+      "example": "Which do you prefer — a formal email or a friendly, conversational one? I want to match your style."
+    },
+    {
+      "phrase": "I AM NOT KEEN ON",
+      "definition": "A polite way to say you do not like something. Less strong than 'I dislike'.",
+      "example": "I am not keen on pop-up ads — I think they annoy customers more than they help."
+    },
+    {
+      "phrase": "IN MY OPINION",
+      "definition": "A phrase used before you say what you think. It shows you are giving a personal view.",
+      "example": "In my opinion, LinkedIn is the best platform for B2B marketing — the audience is more professional."
+    },
+    {
+      "phrase": "WHAT DO YOU THINK OF",
+      "definition": "A question to ask someone's opinion about something specific.",
+      "example": "What do you think of the new logo? I want to know if it works for your audience."
+    },
+    {
+      "phrase": "WHAT DO YOU LOOK FOR",
+      "definition": "A question to ask what is most important to someone when they choose something.",
+      "example": "What do you look for in a marketing tool — ease of use, reporting, or price?"
+    }
+  ],
+  "videos": [],
+  "dialogue": [
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Dana, I want to ask you a few questions before we plan the next campaign. What do you [[like:to find something good or enjoyable]] most about your current marketing?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "I like the email reports. They are clear and they save me a lot of time."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Good to know. And is there anything you [[dislike:to not like something]]?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "I am not keen on the social media ads. I feel like they do not reach the right people."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "That is useful feedback. Which channel do you [[prefer:to like one thing more than another]] — email or social media?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "I prefer email. In my [[opinion:what you think about something — your personal view]], the results are easier to track."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "I agree — email is very [[popular:liked or used by many people]] with B2B companies. What do you look for in a good email campaign?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "A clear message, a strong subject line, and a call to action at the end. Those are my [[favourite:the one you like most of all]] things to see in a good email."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "What do you think of short video content? It is very popular right now."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "I like the idea, but I am not sure it matches our audience's [[interest:something a person likes or wants to know more about]]s."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Fair point. Let us focus on email for now and test one short video next month. Do you [[enjoy:to get pleasure from something]] trying new content formats?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "I do — as long as we can measure the results. I do not like doing things if we cannot see if they work."
+    }
+  ],
+  "matchingExercise": [
+    { "word": "PREFER", "definition": "To like one thing more than another — to choose it over the other option" },
+    { "word": "LIKE", "definition": "To find something good or enjoyable — a simple positive feeling about something" },
+    { "word": "DISLIKE", "definition": "To not like something — the opposite of like" },
+    { "word": "FAVOURITE", "definition": "The one you like most of all — better than everything else in that group" },
+    { "word": "POPULAR", "definition": "Liked or used by many people" },
+    { "word": "OPINION", "definition": "What you think about something — your personal view" },
+    { "word": "INTEREST", "definition": "Something a person likes or wants to know more about" },
+    { "word": "ENJOY", "definition": "To get pleasure from something — to have a good experience doing or using it" }
+  ],
+  "fillBlankExercise": [
+    { "before": "Dana", "after": "email marketing over social media — she finds it easier to track results.", "answer": "prefers" },
+    { "before": "I", "after": "the design of this ad — it is clean, simple, and easy to read.", "answer": "like" },
+    { "before": "Dana", "after": "s ads that are too long — she says people stop reading after five seconds.", "answer": "dislike" },
+    { "before": "My", "after": "marketing channel is LinkedIn — I get the best results from it.", "answer": "favourite" },
+    { "before": "Short videos are very", "after": "right now — they get more views than any other content type.", "answer": "popular" },
+    { "before": "In my", "after": ", social media is the best channel for reaching new customers.", "answer": "opinion" },
+    { "before": "We create content that matches the", "after": "s of our target audience.", "answer": "interest" },
+    { "before": "Our clients", "after": "the weekly email report — they say it saves them hours of work.", "answer": "enjoy" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "A client says they do not like pop-up ads. How do you respond professionally?",
+      "options": [
+        "Say: Pop-up ads are actually very effective. You should try them.",
+        "Say: I understand — many clients feel the same. Let us look at other options that might work better for your audience.",
+        "Say: Okay, we will not use any ads then.",
+        "Say: Pop-up ads are not popular, so we do not use them either."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "You want to ask a client about their preferred marketing channel. What do you say?",
+      "options": [
+        "Say: What channel do you use?",
+        "Say: Which channel do you prefer — email, social media, or something else?",
+        "Say: Most people prefer email. Do you agree?",
+        "Say: What channel is popular with your clients?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is the difference between 'like' and 'prefer'?",
+      "options": [
+        "They are the same. You can always use them in the same way.",
+        "Like means you enjoy something. Prefer means you like one thing more than another — you are choosing between two options.",
+        "Like is informal. Prefer is always formal.",
+        "Prefer is stronger than like — it means you love something."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "A client says: I am not keen on video content. What does this mean?",
+      "options": [
+        "The client hates video content.",
+        "The client does not know about video content.",
+        "The client does not like video content, but it is polite — not very strong.",
+        "The client prefers video content to other types."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "You want to give your personal view on the best marketing channel. What phrase do you use first?",
+      "options": [
+        "I think maybe…",
+        "In my opinion…",
+        "Most people say…",
+        "It is well known that…"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "A client says: I like clear emails with a strong subject line. What do you do next?",
+      "options": [
+        "Say: That is good — most clients like that too.",
+        "Note this down and use it to design the email campaign — match the content to what the client said they like.",
+        "Ask: Do you prefer short or long emails?",
+        "Say: In my opinion, the subject line is the most important part of an email."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which sentence is correct?",
+      "options": [
+        "I am preferring email over social media.",
+        "I prefer email over social media.",
+        "I am prefer email to social media.",
+        "I prefer more email than social media."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does 'popular' mean in a marketing context?",
+      "options": [
+        "Expensive and high quality",
+        "New and not yet tested",
+        "Liked or used by many people",
+        "Only used by big companies"
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "completeSentenceExercise": {
+    "instructions": "Choose the correct word to complete each sentence. Then read the sentence aloud.",
+    "items": [
+      {
+        "sentence": "I _____ email marketing — it gives me the best results.",
+        "options": ["prefer", "preferred", "preferring"],
+        "correctIndex": 0,
+        "explanation": "Use the simple present form prefer for habits and general preferences. Preferred is the past tense. Preferring is the continuous form and needs a helper verb (I am preferring) — which is not used for preferences in English."
+      },
+      {
+        "sentence": "What do you _____ in a good email campaign — a strong subject line, a clear message, or a call to action?",
+        "options": ["look at", "look for", "look into"],
+        "correctIndex": 1,
+        "explanation": "Look for means to search for or want something specific. Look at means to view something. Look into means to investigate. The correct phrase when asking what someone wants or values is: What do you look for?"
+      },
+      {
+        "sentence": "I am not _____ pop-up ads — I think they annoy customers.",
+        "options": ["keen on", "keen about", "keen of"],
+        "correctIndex": 0,
+        "explanation": "The correct phrase is not keen on. This is a fixed expression. Do not say keen about or keen of — those are not used in this context."
+      },
+      {
+        "sentence": "In my _____, LinkedIn is the best platform for B2B marketing.",
+        "options": ["opinion", "idea", "thought"],
+        "correctIndex": 0,
+        "explanation": "The fixed phrase is 'in my opinion'. Idea and thought are possible words but the standard phrase used in English to introduce a personal view is always 'in my opinion'."
+      },
+      {
+        "sentence": "Short videos are very _____ right now — they get more views than any other format.",
+        "options": ["favourite", "popular", "liked"],
+        "correctIndex": 1,
+        "explanation": "Popular means liked or used by many people — it describes a general trend. Favourite means the one you personally like most. Liked is a past participle and does not work as an adjective here."
+      },
+      {
+        "sentence": "What do you _____ of the new ad design? I want your honest feedback.",
+        "options": ["think", "know", "feel about"],
+        "correctIndex": 0,
+        "explanation": "The phrase is 'What do you think of?' — used to ask for someone's opinion. Know is not used here. Feel about is possible in casual speech but think of is the standard phrase."
+      }
+    ]
+  },
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in pairs. Read each customer message and choose the best response. Talk about why before you click.",
+      "items": [
+        {
+          "customerLine": "Customer says: I do not really like social media marketing. It feels like too much work.",
+          "options": [
+            "Say: I understand. Which channel do you prefer? If you prefer email, we can build a campaign around that — it gives great results for B2B companies.",
+            "Say: Social media is very popular. You should try it.",
+            "Say: Okay, we will not do social media then."
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. It acknowledges the preference, asks a follow-up question, and offers an alternative. This keeps the conversation going and shows you are listening. B ignores what the client said. C closes the conversation without helping."
+        },
+        {
+          "customerLine": "Customer says: I am not sure which design I prefer — the blue one or the green one.",
+          "options": [
+            "Say: The blue one is better. Most people prefer it.",
+            "Say: What do you think of each one? Does one feel more like your brand? Which colour do your customers prefer?",
+            "Say: In my opinion, green is more popular right now."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It asks the client questions to help them decide — and connects to what matters most (their brand and their customers). A makes the decision for the client without knowing anything. C gives a personal opinion when the client needs to make their own choice."
+        },
+        {
+          "customerLine": "Customer says: My favourite part of the campaign was the email series. I really enjoyed it.",
+          "options": [
+            "Say: Good — email is popular.",
+            "Say: That is great to hear! What did you enjoy most about it — the subject lines, the design, or the content? I want to make the next one even better.",
+            "Say: In my opinion, the social media part was better."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It builds on the positive feedback, asks a specific follow-up, and shows you want to improve. A says nothing useful. C dismisses the client's favourite part with a personal opinion — which is not helpful."
+        }
+      ]
+    },
+    "spotTheMistake": {
+      "instructions": "Read this conversation. There are 3 mistakes. Find them and correct them. Work in pairs.",
+      "dialogue": [
+        { "speaker": "Salesperson", "text": "Which do you prefer — email or social media?" },
+        { "speaker": "Customer", "text": "I am preferring email. I find social media too slow." },
+        { "speaker": "Salesperson", "text": "Okay. What do you look at in a good email campaign?" },
+        { "speaker": "Customer", "text": "A strong subject line and a clear message. Those are my favourite things." },
+        { "speaker": "Salesperson", "text": "Great. On my opinion, email is the best channel for B2B marketing." },
+        { "speaker": "Customer", "text": "I agree. Can we start with an email campaign?" }
+      ],
+      "mistakes": [
+        {
+          "lineIndex": 1,
+          "incorrectText": "I am preferring email.",
+          "correction": "I prefer email.",
+          "explanation": "Prefer is a state verb — it describes a general feeling, not an action happening right now. In English, state verbs are not used in the continuous form. Never say 'I am preferring'. Always say: I prefer."
+        },
+        {
+          "lineIndex": 2,
+          "incorrectText": "What do you look at in a good email campaign?",
+          "correction": "What do you look for in a good email campaign?",
+          "explanation": "Look for means to search for or want something. Look at means to view or observe something. When you ask what someone wants in a product or campaign, use: What do you look for?"
+        },
+        {
+          "lineIndex": 4,
+          "incorrectText": "On my opinion",
+          "correction": "In my opinion",
+          "explanation": "The fixed phrase is 'in my opinion' — not 'on my opinion'. This is a set expression in English. Always use in, not on."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "Finish the salesperson's line using language from this lesson. Then compare with a partner.",
+      "items": [
+        {
+          "customerLine": "Customer: I prefer simple, clear content. I do not like anything too complicated.",
+          "salespersonStart": "That is very helpful to know. In my opinion,",
+          "suggestedCompletion": "simple content always works best — it is easier to read and people respond to it more. Let us build the campaign around that. What do you look for in a good social media post?"
+        },
+        {
+          "customerLine": "Customer: I am not keen on videos. I find them hard to produce.",
+          "salespersonStart": "I understand completely. Which format do you prefer —",
+          "suggestedCompletion": "email, social media posts, or written articles? We can build the whole campaign around what you enjoy creating most. The best content is always the type you feel comfortable with."
+        },
+        {
+          "customerLine": "Customer: What do you think is the most popular type of content right now?",
+          "salespersonStart": "In my opinion,",
+          "suggestedCompletion": "short videos are the most popular right now — they get the most views and the most engagement on every platform. But popular does not always mean right for your audience. What are your customers' main interests? That is what should guide the decision."
+        }
+      ]
+    }
+  }
+}
