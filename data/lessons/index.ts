@@ -111,6 +111,7 @@ import { atATradeFair } from './at-a-trade-fair';
 import { thisIsOurNewProduct } from './this-is-our-new-product';
 import { howMuchDoesItCost } from './how-much-does-it-cost';
 import { whereDoYouSell } from './where-do-you-sell';
+import { reviewTalkingAboutMyWork } from './review-talking-about-my-work';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -225,6 +226,7 @@ export const lessons: Lesson[] = [
   thisIsOurNewProduct,
   howMuchDoesItCost,
   whereDoYouSell,
+  reviewTalkingAboutMyWork,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
