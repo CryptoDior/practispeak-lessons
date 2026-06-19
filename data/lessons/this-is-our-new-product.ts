@@ -1,0 +1,522 @@
+import { Lesson } from '@/types/lesson';
+
+export const thisIsOurNewProduct: Lesson = {
+  slug: 'this-is-our-new-product',
+  title: 'This Is Our New Product',
+  subtitle: 'Simple language for announcing and introducing a new product in English',
+  level: 'A1-A2',
+  description: 'When a company launches a new product, they need to announce it clearly and confidently. This lesson gives you the vocabulary and phrases to talk about new products — whether you are writing an announcement, speaking at an event, or introducing something to a client.',
+  heroImage: '/images/this-is-our-new-product-hero.png',
+
+  vocabulary: [
+    {
+      word: 'LAUNCH',
+      partOfSpeech: 'noun',
+      definition: 'The moment when a new product, service, or campaign is officially introduced to the public for the first time.',
+      example: 'The launch of our new reporting tool was a big success — we got fifty sign-ups in the first week.',
+      imageSlug: '/images/launch.png',
+    },
+    {
+      word: 'RELEASE',
+      partOfSpeech: 'noun',
+      definition: 'When a product or update becomes available to customers. Similar to launch, but often used for software or updates.',
+      example: 'We announced the release of our new dashboard last Tuesday — clients can now access it from their accounts.',
+      imageSlug: '/images/release.png',
+    },
+    {
+      word: 'REVEAL',
+      partOfSpeech: 'verb',
+      definition: 'To show or tell people about something for the first time — often used for exciting announcements.',
+      example: "At the conference, Riley revealed the name of the agency's new service package for the first time.",
+      imageSlug: '/images/reveal.png',
+    },
+    {
+      word: 'ANNOUNCE',
+      partOfSpeech: 'verb',
+      definition: 'To tell people something officially and publicly — a formal way to share important news.',
+      example: 'We are excited to announce the launch of our new social media management service.',
+      imageSlug: '/images/announce.png',
+    },
+    {
+      word: 'NEW',
+      partOfSpeech: 'adjective',
+      definition: 'Something that did not exist before, or that someone is seeing or hearing about for the first time.',
+      example: 'Our new service is designed for companies that want to grow on LinkedIn without doing the work themselves.',
+      imageSlug: '/images/new.png',
+    },
+    {
+      word: 'FEATURE',
+      partOfSpeech: 'noun',
+      definition: 'A specific thing that a product can do — one of its abilities or benefits.',
+      example: 'The best feature of our platform is the weekly performance report — clients love seeing their results every Monday.',
+      imageSlug: '/images/feature.png',
+    },
+    {
+      word: 'AVAILABLE',
+      partOfSpeech: 'adjective',
+      definition: 'Ready to use, buy, or access. When something is available, customers can get it now.',
+      example: 'Our new service is available from the first of July — you can sign up on our website today.',
+      imageSlug: '/images/available.png',
+    },
+    {
+      word: 'BENEFIT',
+      partOfSpeech: 'noun',
+      definition: 'The positive result or advantage that a product gives the customer — what they gain from using it.',
+      example: 'The main benefit of our tool is that it saves marketing teams around five hours of work every week.',
+      imageSlug: '/images/benefit.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'ROLL OUT [SOMETHING]',
+      definition: 'To introduce a new product, service, or change — often gradually, starting with a small group first.',
+      example: 'We are rolling out our new service to existing clients first, then we will open it to everyone in September.',
+      imageSlug: '/images/roll-out-something.png',
+    },
+    {
+      phrase: 'SIGN UP FOR [SOMETHING]',
+      definition: 'To register or put your name down to use a product or service.',
+      example: 'Over two hundred people signed up for early access to our new tool in the first three days.',
+      imageSlug: '/images/sign-up-for-something.png',
+    },
+    {
+      phrase: 'COME WITH [SOMETHING]',
+      definition: 'To include something — used to describe what is included in a product or package.',
+      example: 'Every plan comes with a dedicated account manager and a monthly performance report.',
+      imageSlug: '/images/come-with-something.png',
+    },
+    {
+      phrase: 'BRING OUT [SOMETHING]',
+      definition: 'To produce and launch something new — used for products, services, and content.',
+      example: 'We are bringing out a new version of our platform next month with three major new features.',
+      imageSlug: '/images/bring-out-something.png',
+    },
+    {
+      phrase: 'FIND OUT MORE',
+      definition: 'To learn or discover more information about something. Common in marketing calls to action.',
+      example: 'Visit our website to find out more about the new service and see our pricing plans.',
+      imageSlug: '/images/find-out-more.png',
+    },
+    {
+      phrase: 'GET ACCESS TO [SOMETHING]',
+      definition: 'To be able to use something — a product, platform, or service.',
+      example: 'When you sign up, you get immediate access to all features, including the premium reporting dashboard.',
+      imageSlug: '/images/get-access-to-something.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Riley, we need to write a short [[announce:to tell people something officially and publicly]] ment for our new service. Where do we start?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Let us think about the key message first. What is the [[new:something that did not exist before]] service, and who is it for?',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'It is a fully managed LinkedIn service. We write the posts, manage the comments, and send a monthly report. It is for busy marketing managers.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Good. So the announcement needs to explain the main [[benefit:the positive result a product gives the customer]] — what does the client get from it?',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'They save time, they look professional on LinkedIn, and they can see their results every month. The best [[feature:a specific thing a product can do]] is the monthly report.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Perfect. So we say: 'We are excited to [[announce:to tell people officially and publicly]] the [[launch:the moment when something is introduced for the first time]] of our new fully managed LinkedIn service.'",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'I like that. Then we explain what it includes — it [[come with:to include]] a content calendar, weekly posts, and a monthly report.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'And when is it [[available:ready to use or buy]]?',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'From the first of July. We are going to [[roll out]] to existing clients first, then open it to everyone.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Good. End with a call to action — something like: 'Sign up for early access on our website today.'",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: "And we can say: 'Visit our website to find out more and see our plans.' I think we have a great announcement.",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Exactly. Short, clear, and exciting. Let us [[reveal:to show something for the first time]] it to the team first and get their feedback before we send it.',
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "LAUNCH",
+        "definition": "The moment when a new product or service is officially introduced to the public for the first time"
+    },
+    {
+        "word": "RELEASE",
+        "definition": "When a product or update becomes available to customers — often used for software"
+    },
+    {
+        "word": "REVEAL",
+        "definition": "To show or tell people about something for the first time — used for exciting announcements"
+    },
+    {
+        "word": "ANNOUNCE",
+        "definition": "To tell people something officially and publicly — a formal way to share important news"
+    },
+    {
+        "word": "FEATURE",
+        "definition": "A specific thing that a product can do — one of its abilities or benefits"
+    },
+    {
+        "word": "AVAILABLE",
+        "definition": "Ready to use, buy, or access — customers can get it now"
+    },
+    {
+        "word": "BENEFIT",
+        "definition": "The positive result or advantage that a product gives the customer"
+    },
+    {
+        "word": "NEW",
+        "definition": "Something that did not exist before, or that someone is seeing or hearing about for the first time"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "The",
+        "after": "of our new reporting tool was a big success — we got fifty sign-ups in the first week.",
+        "answer": "launch"
+    },
+    {
+        "before": "We announced the",
+        "after": "of our new dashboard last Tuesday — clients can now access it from their accounts.",
+        "answer": "release"
+    },
+    {
+        "before": "At the conference, Riley",
+        "after": "ed the name of the agency's new service for the first time.",
+        "answer": "reveal"
+    },
+    {
+        "before": "We are excited to",
+        "after": "the launch of our new social media management service.",
+        "answer": "announce"
+    },
+    {
+        "before": "The best",
+        "after": "of our platform is the weekly performance report — clients love seeing their results every Monday.",
+        "answer": "feature"
+    },
+    {
+        "before": "Our new service is",
+        "after": "from the first of July — you can sign up on our website today.",
+        "answer": "available"
+    },
+    {
+        "before": "The main",
+        "after": "of our tool is that it saves marketing teams around five hours of work every week.",
+        "answer": "benefit"
+    },
+    {
+        "before": "Our",
+        "after": "service is designed for companies that want to grow on LinkedIn without doing the work themselves.",
+        "answer": "new"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "You are writing a product launch announcement. What is the most important thing to include?",
+        "options": [
+            "The history of your company and how you started.",
+            "A clear explanation of what the product is, who it is for, and what they gain from it.",
+            "A long list of all the technical features and specifications.",
+            "The names of everyone who worked on the product."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "A client asks: 'What is the main benefit of this new service?' What does 'benefit' mean?",
+        "options": [
+            "The price of the service",
+            "The positive result or advantage that the customer gets from using the product",
+            "A list of features included in the service",
+            "The name of the service"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "When is the best time to send a product launch announcement?",
+        "options": [
+            "After the product has been available for several months.",
+            "The day before the product launches — give people time to prepare and sign up.",
+            "Only when clients ask about the new product.",
+            "At the end of the year so everything is included in one message."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "You want to say that your new service includes a monthly report. Which phrase is correct?",
+        "options": [
+            "The service has a monthly report.",
+            "Every plan comes with a monthly report.",
+            "The monthly report is one option.",
+            "A monthly report is possible."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does 'roll out' mean in a product launch context?",
+        "options": [
+            "To cancel a product because it is not working",
+            "To introduce a new product or service — often gradually to a small group first",
+            "To reduce the price of a product to attract more customers",
+            "To send a press release about the product"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "A client says: 'Is the new service available now?' What does 'available' mean?",
+        "options": [
+            "It is being tested and is not ready yet.",
+            "It can be bought or used right now.",
+            "It is only for certain clients.",
+            "It has been replaced by a newer version."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the difference between 'launch' and 'release'?",
+        "options": [
+            "They mean exactly the same thing — you can always use them interchangeably.",
+            "Launch is the official introduction of something new to the public. Release is similar but often used for software updates or new versions of existing products.",
+            "Launch is for physical products. Release is for services only.",
+            "Launch is formal. Release is informal."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Which ending is best for a product launch announcement?",
+        "options": [
+            "Thank you for reading our announcement.",
+            "Please contact us if you have any questions.",
+            "Visit our website to find out more and sign up for early access today.",
+            "We hope you are interested in our new product."
+        ],
+        "correctIndex": 2
+    }
+],
+  warmUp: {
+    "questions": [
+        "Think of a product launch you remember — from a company you like or one you have seen in the news. What made it memorable?",
+        "Have you ever had to announce or introduce something new at work? How did you do it?",
+        "What information does a customer need when a company launches something new? What questions do they usually have?"
+    ]
+},
+  completeSentenceExercise: {
+    "instructions": "Choose the correct word to complete each sentence. Then read the sentence aloud.",
+    "items": [
+        {
+            "sentence": "We are excited to _____ the launch of our new fully managed LinkedIn service.",
+            "options": [
+                "reveal",
+                "announce",
+                "release"
+            ],
+            "correctIndex": 1,
+            "explanation": "Announce means to tell people something officially and publicly. Reveal means to show something for the first time — often more dramatic. Release is when something becomes available. Announce is the standard formal word for sharing important news with your audience."
+        },
+        {
+            "sentence": "The main _____ of our new service is that it saves marketing teams five hours of work every week.",
+            "options": [
+                "feature",
+                "launch",
+                "benefit"
+            ],
+            "correctIndex": 2,
+            "explanation": "Benefit is the positive result or advantage the customer gets. Feature is a specific thing the product can do. Launch is the moment when a product is introduced. The benefit focuses on what the customer gains — this is the most persuasive part of any product announcement."
+        },
+        {
+            "sentence": "Every plan _____ a dedicated account manager and a monthly performance report.",
+            "options": [
+                "comes with",
+                "finds out",
+                "signs up for"
+            ],
+            "correctIndex": 0,
+            "explanation": "Comes with means to include something as part of a product or package. Finds out means to discover information. Signs up for means to register for something. Comes with is the natural phrase for describing what is included in a plan or service."
+        },
+        {
+            "sentence": "Our new service is _____ from the first of July — you can book your spot on our website today.",
+            "options": [
+                "new",
+                "released",
+                "available"
+            ],
+            "correctIndex": 2,
+            "explanation": "Available means ready to use or buy right now. New means something that did not exist before. Released is the past tense of release — but here you need an adjective to describe the service. Available is the correct adjective for saying something can be accessed."
+        },
+        {
+            "sentence": "We are _____ the new service to existing clients first, then opening it to everyone in September.",
+            "options": [
+                "rolling out",
+                "signing up",
+                "bringing in"
+            ],
+            "correctIndex": 0,
+            "explanation": "Rolling out means to introduce something — often gradually, starting with a smaller group. Signing up means to register for something. Bringing in usually means hiring someone or introducing something into a process. Rolling out is the standard phrase for a phased product launch."
+        },
+        {
+            "sentence": "At the conference, Riley _____ the name of the agency's new service for the first time.",
+            "options": [
+                "announced",
+                "revealed",
+                "released"
+            ],
+            "correctIndex": 1,
+            "explanation": "Revealed means to show or tell people about something for the first time — it has an element of surprise or excitement. Announced means to tell people officially. Released means to make something available. Revealed is the best word here because it describes something being shown publicly for the very first time — a dramatic moment."
+        }
+    ]
+},
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Work in pairs. Read each situation and choose the best response. Talk about why before you click.",
+        "items": [
+            {
+                "customerLine": "Client: 'I heard you have a new service. What is it?'",
+                "options": [
+                    "Say: 'Yes — it is our new LinkedIn management service. We write all your posts, manage your comments, and send you a monthly report. It is designed for busy marketing managers who want to grow on LinkedIn without doing all the work themselves. Shall I tell you more about how it works?'",
+                    "Say: 'Yes, we have a new service. You can read about it on our website.'",
+                    "Say: 'Yes — it is called LinkedIn Pro Max Premium Elite. It has fourteen different features and three pricing tiers. Would you like a full breakdown?'"
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. It explains the service clearly, says who it is for, and ends with an open question to continue the conversation. B sends the client away — you miss the opportunity to explain. C gives too much information too soon and sounds overwhelming."
+            },
+            {
+                "customerLine": "Client: 'Why should I choose your new service instead of doing it myself?'",
+                "options": [
+                    "Say: 'Because our service is much better than doing it yourself.'",
+                    "Say: 'Most of our clients tried to manage LinkedIn themselves first. The problem is it takes around five hours a week just for content — and results are inconsistent. Our service handles everything so your team can focus on other priorities. The average client saves three to four hours a week.'",
+                    "Say: 'It is cheaper in the long run — trust me.'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It acknowledges what the client might already be doing, explains the real problem (time and inconsistency), and gives a concrete benefit (three to four hours saved). A and C make claims without any specific evidence or reasoning."
+            },
+            {
+                "customerLine": "Client: 'When can I start? I want to launch our LinkedIn presence as soon as possible.'",
+                "options": [
+                    "Say: 'We are not sure when we can start — let us check and get back to you.'",
+                    "Say: 'We need at least three months to prepare before we can start your account.'",
+                    "Say: 'Our new service is available from the first of July. If you sign up this week, you will be one of our first clients. We usually book a discovery session within five days of sign-up — I can check our availability now if you like.'"
+                ],
+                "correctIndex": 2,
+                "explanation": "C is correct. It gives a clear availability date, creates a sense of priority ('one of our first clients'), and offers a concrete next step. A sounds uncertain — not confidence-building. B gives an unnecessary delay that will make the client look elsewhere."
+            }
+        ]
+    },
+    "spotTheMistake": {
+        "instructions": "Read this product announcement. There are 3 mistakes. Find them and correct them. Work in pairs.",
+        "dialogue": [
+            {
+                "speaker": "Announcement",
+                "text": "We are excited to announce the launching of our new LinkedIn management service."
+            },
+            {
+                "speaker": "Announcement",
+                "text": "Our new service is design for busy marketing managers who want to grow on LinkedIn."
+            },
+            {
+                "speaker": "Announcement",
+                "text": "Every plan comes with a content calendar, weekly posts, and a monthly report."
+            },
+            {
+                "speaker": "Announcement",
+                "text": "The main benefit is that you save time — most clients save between three and five hours a week."
+            },
+            {
+                "speaker": "Announcement",
+                "text": "The service will be available from the first of July."
+            },
+            {
+                "speaker": "Announcement",
+                "text": "Sign up today to get a access to our early adopter pricing."
+            }
+        ],
+        "mistakes": [
+            {
+                "lineIndex": 0,
+                "incorrectText": "the launching of",
+                "correction": "the launch of",
+                "explanation": "The correct noun form is 'launch', not 'launching'. We announce the launch of a product — not the 'launching'. 'Launching' is the verb form (gerund), but as a noun in this sentence, 'launch' is correct."
+            },
+            {
+                "lineIndex": 1,
+                "incorrectText": "is design for",
+                "correction": "is designed for",
+                "explanation": "'Design' is the base verb. The correct form here is 'is designed for' — this uses the passive voice (is + past participle). The past participle of 'design' is 'designed'. Never use the base verb after 'is' in a passive sentence."
+            },
+            {
+                "lineIndex": 5,
+                "incorrectText": "get a access",
+                "correction": "get access",
+                "explanation": "The article 'a' is not used before 'access' because 'access' is an uncountable noun — it has no plural form. Say: 'get access to our pricing' not 'get a access'. This is a very common article mistake in English."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "Finish the salesperson's line. Use language from this lesson. Then compare with a partner.",
+        "items": [
+            {
+                "customerLine": "Client: 'What is new about this service compared to what you offered before?'",
+                "salespersonStart": "Great question. The biggest difference is",
+                "suggestedCompletion": "that this is a fully managed service — we handle everything. Before, we offered consulting and advice. Now, we do the actual work: writing the posts, managing the comments, and sending a monthly report. The main benefit is that you get a consistent LinkedIn presence without spending any time on it yourself."
+            },
+            {
+                "customerLine": "Client: 'Can you tell me the key features of the new service?'",
+                "salespersonStart": "Of course. The service comes with three main things.",
+                "suggestedCompletion": "First, a monthly content calendar — we plan all your posts in advance and you approve them. Second, weekly posts on LinkedIn — we write and publish everything. And third, a monthly performance report so you can see how your page is growing. Every plan also includes a dedicated account manager who you can contact any time."
+            },
+            {
+                "customerLine": "Client: 'We are interested, but we want to wait until the service is fully launched and tested.'",
+                "salespersonStart": "I completely understand — and that is a reasonable approach.",
+                "suggestedCompletion": "What I can offer is early access — you would be one of our first clients, which means you get a lower price and direct access to our team during the rollout. We have already been testing this with three pilot clients and the results have been very positive. Would it be useful to talk to one of them?"
+            }
+        ]
+    }
+},
+};
