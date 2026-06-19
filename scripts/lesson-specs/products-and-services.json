@@ -1,142 +1,142 @@
 {
   "exportName": "productsAndServices",
   "title": "Products and Services",
-  "subtitle": "How to name and describe what your company offers",
+  "subtitle": "How to say what your company offers",
   "level": "A1-A2",
-  "description": "Learn the words and phrases marketers use to describe their company's products and services — what they are, what they do, and why they are useful.",
-  "dialogueSubtitle": "Riley walks Dana through what Brightline offers during a product overview call",
+  "description": "Learn simple words and phrases to talk about your company's products and services — what they are, what they do, and why they are useful.",
+  "dialogueSubtitle": "Riley tells Dana what Brightline offers on a product call",
   "vocabulary": [
     {
       "word": "product",
       "partOfSpeech": "noun",
-      "definition": "Something a company makes and sells.",
-      "example": "Our main product is a marketing platform for small and medium-sized businesses."
+      "definition": "A thing that a company makes and sells.",
+      "example": "Our main product is a tool for marketing teams."
     },
     {
       "word": "service",
       "partOfSpeech": "noun",
-      "definition": "Work done for a customer — not a physical thing, but help or support.",
-      "example": "We also offer a support service to help clients set up and use the platform."
+      "definition": "Help or work that a company gives to a customer. It is not a physical thing.",
+      "example": "We also offer a service to help clients use our product."
     },
     {
       "word": "feature",
       "partOfSpeech": "noun",
-      "definition": "A part or quality of a product that makes it useful or attractive.",
-      "example": "One of the best features is the dashboard — you can see all your campaigns in one place."
+      "definition": "A part of a product that makes it good or useful.",
+      "example": "One good feature is the dashboard. You can see all your work in one place."
     },
     {
       "word": "quality",
       "partOfSpeech": "noun",
-      "definition": "How good or well-made something is.",
-      "example": "Clients choose us because of the quality of the reports the platform produces."
+      "definition": "How good something is.",
+      "example": "Our clients love the quality of our reports."
     },
     {
       "word": "price",
       "partOfSpeech": "noun",
       "definition": "How much something costs.",
-      "example": "The price starts at £99 a month for the basic plan."
+      "example": "The price is £99 a month for the basic plan."
     },
     {
       "word": "offer",
       "partOfSpeech": "verb",
-      "definition": "To give someone the chance to have or use something.",
-      "example": "We offer three different plans depending on the size of the team."
+      "definition": "To say that someone can have or use something.",
+      "example": "We offer three plans for different team sizes."
     },
     {
       "word": "range",
       "partOfSpeech": "noun",
-      "definition": "A set of different products or services from one company.",
-      "example": "We have a range of plans to suit different budgets and team sizes."
+      "definition": "A group of different things from one company.",
+      "example": "We have a range of plans. You can choose the right one for your team."
     },
     {
       "word": "solution",
       "partOfSpeech": "noun",
-      "definition": "A product or service that solves a specific problem for a customer.",
-      "example": "Our platform is a solution for teams who spend too much time switching between tools."
+      "definition": "A product or service that helps with a problem.",
+      "example": "Our platform is a good solution for small teams."
     }
   ],
   "phrasalVerbs": [
     {
       "phrase": "WE OFFER",
-      "definition": "Tell someone what your company provides.",
-      "example": "We offer a marketing platform and a set of support services to go with it."
+      "definition": "Say what your company gives or sells to customers.",
+      "example": "We offer a marketing platform and a support service to go with it."
     },
     {
       "phrase": "OUR MAIN PRODUCT IS",
-      "definition": "Say which product is most important or most used.",
-      "example": "Our main product is the Brightline platform — it helps teams manage all their marketing in one place."
+      "definition": "Say which product is the most important one.",
+      "example": "Our main product is the Brightline platform — it helps teams look after all their marketing in one place."
     },
     {
       "phrase": "ONE OF THE KEY FEATURES IS",
-      "definition": "Highlight an important or useful part of your product.",
-      "example": "One of the key features is the automated reporting — it saves teams hours every week."
+      "definition": "Talk about an important or useful part of your product.",
+      "example": "One of the key features is the reports — they save teams a lot of time."
     },
     {
       "phrase": "IT IS GOOD VALUE FOR",
-      "definition": "Say that something is worth its price.",
-      "example": "Most clients tell us it is good value for the time it saves their team."
+      "definition": "Say that something is worth the money.",
+      "example": "Most clients say it is good value for the time it saves their team."
     },
     {
       "phrase": "WE HAVE A RANGE OF",
-      "definition": "Say that your company provides several different options.",
-      "example": "We have a range of plans — from a starter option for small teams to an enterprise plan for large organisations."
+      "definition": "Say that your company has many different options.",
+      "example": "We have a range of plans — from a small starter plan to a big plan for large teams."
     },
     {
       "phrase": "THE PRICE STARTS AT",
-      "definition": "Tell someone the lowest price for your product or service.",
-      "example": "The price starts at £99 a month, but most teams move to the mid-tier plan pretty quickly."
+      "definition": "Say the lowest price for your product or service.",
+      "example": "The price starts at £99 a month. Most teams move to a bigger plan later."
     }
   ],
   "dialogue": [
     {
       "speaker": "Dana",
       "speakerColor": "blue",
-      "text": "So, what does Brightline actually [[offer:to give someone the chance to have or use something]]?"
+      "text": "So, what does Brightline [[offer:to say that someone can have or use something]]?"
     },
     {
       "speaker": "Riley",
       "speakerColor": "orange",
-      "text": "Our main [[product:something a company makes and sells]] is a marketing platform — it helps teams plan, run, and track their campaigns in one place."
+      "text": "Our main [[product:a thing that a company makes and sells]] is a marketing platform. It helps teams plan, run, and track their campaigns in one place."
     },
     {
       "speaker": "Dana",
       "speakerColor": "blue",
-      "text": "Do you also offer any services, or is it just the software?"
+      "text": "Do you also offer services, or is it just the software?"
     },
     {
       "speaker": "Riley",
       "speakerColor": "orange",
-      "text": "We offer both. The platform is the core product, but we also provide an onboarding [[service:work done for a customer — not a physical thing, but help or support]] and ongoing support."
+      "text": "We offer both. The platform is the main product, but we also have a [[service:help or work that a company gives to a customer]] to help new clients get started."
     },
     {
       "speaker": "Dana",
       "speakerColor": "blue",
-      "text": "What are the main [[feature:a part or quality of a product that makes it useful or attractive]]s?"
+      "text": "What are the main [[feature:a part of a product that makes it good or useful]]s?"
     },
     {
       "speaker": "Riley",
       "speakerColor": "orange",
-      "text": "One of the key features is the campaign dashboard — you can see everything in one place. Another is the automated reporting, which saves a lot of time."
+      "text": "One of the key features is the campaign dashboard — you can see everything in one place. You can also get reports without doing any extra work."
     },
     {
       "speaker": "Dana",
       "speakerColor": "blue",
-      "text": "That does sound useful. What about [[quality:how good or well-made something is]] — how does it compare to other tools?"
+      "text": "That sounds useful. What about [[quality:how good something is]] — is it better than other tools?"
     },
     {
       "speaker": "Riley",
       "speakerColor": "orange",
-      "text": "Our clients consistently tell us the quality of the data and reports is better than what they used before. We invest a lot in that."
+      "text": "Our clients always tell us the quality of the data and reports is better than what they used before."
     },
     {
       "speaker": "Dana",
       "speakerColor": "blue",
-      "text": "And what's the [[price:how much something costs]]?"
+      "text": "And what is the [[price:how much something costs]]?"
     },
     {
       "speaker": "Riley",
       "speakerColor": "orange",
-      "text": "The price starts at £99 a month. We have a [[range:a set of different products or services from one company]] of plans depending on your team size and the features you need."
+      "text": "The price starts at £99 a month. We have a [[range:a group of different things from one company]] of plans for different team sizes."
     },
     {
       "speaker": "Dana",
@@ -146,7 +146,7 @@
     {
       "speaker": "Riley",
       "speakerColor": "orange",
-      "text": "Most smaller teams tell us it's a great [[solution:a product or service that solves a specific problem for a customer]] for the price — especially once they stop paying for three or four separate tools."
+      "text": "Yes — most small teams say it is a great [[solution:a product or service that helps with a problem]] for the price. They stop paying for three or four other tools."
     },
     {
       "speaker": "Dana",
@@ -156,44 +156,44 @@
   ],
   "videos": [],
   "matchingExercise": [
-    { "word": "PRODUCT", "definition": "Something a company makes and sells" },
-    { "word": "SERVICE", "definition": "Work done for a customer — not a physical thing, but help or support" },
-    { "word": "FEATURE", "definition": "A part or quality of a product that makes it useful or attractive" },
-    { "word": "QUALITY", "definition": "How good or well-made something is" },
+    { "word": "PRODUCT", "definition": "A thing that a company makes and sells" },
+    { "word": "SERVICE", "definition": "Help or work that a company gives to a customer — not a physical thing" },
+    { "word": "FEATURE", "definition": "A part of a product that makes it good or useful" },
+    { "word": "QUALITY", "definition": "How good something is" },
     { "word": "PRICE", "definition": "How much something costs" },
-    { "word": "OFFER", "definition": "To give someone the chance to have or use something" },
-    { "word": "RANGE", "definition": "A set of different products or services from one company" },
-    { "word": "SOLUTION", "definition": "A product or service that solves a specific problem for a customer" }
+    { "word": "OFFER", "definition": "To say that someone can have or use something" },
+    { "word": "RANGE", "definition": "A group of different things from one company" },
+    { "word": "SOLUTION", "definition": "A product or service that helps with a problem" }
   ],
   "fillBlankExercise": [
-    { "before": "Our main", "after": "is a marketing platform for small and medium-sized businesses.", "answer": "product" },
-    { "before": "We also offer a support", "after": "to help clients set up and use the platform.", "answer": "service" },
-    { "before": "One of the best", "after": "s is the dashboard — you can see all your campaigns in one place.", "answer": "feature" },
-    { "before": "Clients choose us because of the", "after": "of the reports the platform produces.", "answer": "quality" },
-    { "before": "The", "after": "starts at £99 a month for the basic plan.", "answer": "price" },
-    { "before": "We", "after": "three different plans depending on the size of the team.", "answer": "offer" },
-    { "before": "We have a", "after": "of plans to suit different budgets and team sizes.", "answer": "range" },
-    { "before": "Our platform is a", "after": "for teams who spend too much time switching between tools.", "answer": "solution" }
+    { "before": "Our main", "after": "is a tool for marketing teams.", "answer": "product" },
+    { "before": "We also offer a", "after": "to help clients use our product.", "answer": "service" },
+    { "before": "One good", "after": "is the dashboard. You can see all your work in one place.", "answer": "feature" },
+    { "before": "Our clients love the", "after": "of our reports.", "answer": "quality" },
+    { "before": "The", "after": "is £99 a month for the basic plan.", "answer": "price" },
+    { "before": "We", "after": "three plans for different team sizes.", "answer": "offer" },
+    { "before": "We have a", "after": "of plans. You can choose the right one for your team.", "answer": "range" },
+    { "before": "Our platform is a good", "after": "for small teams.", "answer": "solution" }
   ],
   "multipleChoiceExercise": [
     {
       "question": "What is Brightline's main product?",
-      "options": ["A social media app", "A marketing platform", "A customer service tool", "An email newsletter tool"],
+      "options": ["A social media app", "A marketing platform", "A customer service tool", "An email tool"],
       "correctIndex": 1
     },
     {
       "question": "What does the campaign dashboard let you do?",
-      "options": ["Send emails automatically", "Design logos", "See all your campaigns in one place", "Hire marketing staff"],
+      "options": ["Send emails", "Make logos", "See all your campaigns in one place", "Hire marketing staff"],
       "correctIndex": 2
     },
     {
-      "question": "What service does Brightline offer alongside the platform?",
-      "options": ["Graphic design", "Onboarding and ongoing support", "TV advertising", "Market research"],
+      "question": "What service does Brightline offer?",
+      "options": ["Graphic design", "Help to get started with the product", "TV advertising", "Market research"],
       "correctIndex": 1
     },
     {
       "question": "What do clients say about the quality of Brightline's reports?",
-      "options": ["They are too detailed", "They are hard to understand", "They are better than what they used before", "They are good but expensive"],
+      "options": ["They are too detailed", "They are hard to read", "They are better than what they used before", "They are good but expensive"],
       "correctIndex": 2
     },
     {
@@ -202,126 +202,126 @@
       "correctIndex": 1
     },
     {
-      "question": "Why do smaller teams say Brightline is good value?",
-      "options": ["Because it is free to use", "Because it replaces three or four separate tools they were paying for", "Because it comes with a free trial", "Because the price goes down after six months"],
+      "question": "Why do small teams say Brightline is good value?",
+      "options": ["Because it is free", "Because it replaces three or four other tools", "Because it has a free trial", "Because the price goes down after six months"],
       "correctIndex": 1
     },
     {
       "question": "What does Dana ask Riley to send after the call?",
-      "options": ["A product demo video", "A list of client references", "A summary of the plans", "A price discount offer"],
+      "options": ["A product video", "A list of clients", "A summary of the plans", "A discount offer"],
       "correctIndex": 2
     },
     {
-      "question": "What does Brightline offer to help new clients get started?",
-      "options": ["A free upgrade", "A dedicated account manager", "An onboarding service", "A printed user guide"],
+      "question": "What does Brightline offer to help new clients?",
+      "options": ["A free upgrade", "A dedicated account manager", "A service to help them get started", "A printed guide"],
       "correctIndex": 2
     }
   ],
   "groupActivities": {
     "chooseResponse": {
-      "instructions": "Work in groups. Read the client's question, then discuss which response (A, B, or C) is best. Choose your answer together, then click to see if you were right — and why.",
+      "instructions": "Work in groups. Read the client's question. Talk about which answer (A, B, or C) is best. Choose together, then click to check.",
       "items": [
         {
-          "customerLine": "What does your company actually sell?",
+          "customerLine": "What does your company sell?",
           "options": [
             "We sell software.",
             "Our main product is a marketing platform — it helps teams plan, run, and track all their campaigns in one place.",
             "We have many products and services for different kinds of companies."
           ],
           "correctIndex": 1,
-          "explanation": "B is correct. It names the product clearly and says what it does for the customer — that's the key. A is too short and gives no detail. C sounds vague and avoids the question, which makes it harder for the client to understand what you actually do."
+          "explanation": "B is correct. It names the product and says what it does for the client. A does not say enough. C does not tell the person what you actually sell."
         },
         {
           "customerLine": "What makes your product different?",
           "options": [
             "We are the best on the market.",
-            "One of the key features is the campaign dashboard — it puts everything in one place so teams stop switching between tools.",
+            "One of the key features is the campaign dashboard — it puts everything in one place so teams do not need to use many different tools.",
             "It has many good features that clients really like."
           ],
           "correctIndex": 1,
-          "explanation": "B is correct. It names a specific feature and links it to a real problem it solves — that's what makes a product stand out. A is a claim with no evidence. C is vague and tells the client nothing concrete about what makes the product useful."
+          "explanation": "B is correct. It names a feature and says what problem it solves. A makes a big claim but does not say why. C is too general — it does not tell the client anything useful."
         },
         {
           "customerLine": "How much does it cost?",
           "options": [
             "It depends on a lot of things.",
-            "The price starts at £99 a month — we have a range of plans depending on your team size and the features you need.",
-            "It's very affordable compared to other tools."
+            "The price starts at £99 a month — we have a range of plans for different team sizes.",
+            "It is very low cost compared to other tools."
           ],
           "correctIndex": 1,
-          "explanation": "B is correct. It gives a specific starting price and explains that different plans are available — it answers the question and opens the door to a deeper conversation. A avoids the question entirely. C makes a claim without giving any actual number, which clients find frustrating."
+          "explanation": "B is correct. It gives a real number and says that different plans are available. A does not answer the question. C makes a claim but does not give a price — clients find this frustrating."
         },
         {
           "customerLine": "We already use a few different marketing tools. Would this replace them?",
           "options": [
             "Yes, you should stop using your other tools.",
-            "It might — our platform brings everything into one place, which most clients find saves time and money compared to paying for several separate tools.",
-            "It's hard to say without knowing more."
+            "It might — our platform brings everything into one place. Most clients say it saves them time and money because they stop paying for many tools.",
+            "It is hard to say without knowing more."
           ],
           "correctIndex": 1,
-          "explanation": "B is correct. It frames the product as a solution without being pushy — and it connects to a real benefit the client cares about. A is too direct and could feel like you're dismissing the tools they already trust. C is weak and unhelpful — it puts the work back on the client."
+          "explanation": "B is correct. It talks about a real benefit without being pushy. A is too direct and could make the client feel bad about their current tools. C does not help the client and puts the work back on them."
         }
       ]
     },
     "profileMatch": {
-      "instructions": "Three clients ask about Brightline's products. As a group, decide which description approach fits each situation best. Use phrases from this lesson to explain your choices. Click 'Check Matches' when you agree.",
+      "instructions": "Three clients ask about Brightline's products. As a group, talk about which way to answer fits each situation. Use phrases from this lesson. Click 'Check Matches' when you agree.",
       "profiles": [
         {
           "name": "A new contact at a trade show",
-          "description": "Someone stops at your stand and asks what Brightline does. They are curious but in a hurry. You have about 30 seconds.",
+          "description": "Someone stops at your stand and asks what Brightline does. They are interested but in a hurry. You have about 30 seconds.",
           "matchKey": "hook"
         },
         {
-          "name": "A client on a product demo call",
-          "description": "A marketing manager has booked a 45-minute call to see the platform. They want to understand the features and pricing before making a decision.",
+          "name": "A client on a product call",
+          "description": "A marketing manager booked a 45-minute call to see the platform. They want to know about the features and the price before they decide.",
           "matchKey": "detail"
         },
         {
-          "name": "A client comparing tools",
-          "description": "A prospect says they are also looking at two other platforms. They want to know why Brightline is different.",
+          "name": "A client looking at other tools",
+          "description": "A client says they are also looking at two other platforms. They want to know why Brightline is different.",
           "matchKey": "compare"
         }
       ],
       "options": [
         {
           "key": "hook",
-          "label": "One-line product hook",
-          "description": "Describe the main product in one sentence — what it is and what problem it solves. End with a question to find out if it's relevant to them. Best when time is short and you need to grab attention quickly."
+          "label": "One short sentence",
+          "description": "Say what the product is and what problem it solves — in one sentence. Then ask a question. Best when you do not have much time."
         },
         {
           "key": "detail",
-          "label": "Feature and pricing walkthrough",
-          "description": "Take the client through the key features, explain what each one does, and finish with the range of plans and pricing. Best when the client is ready to evaluate the product seriously."
+          "label": "Features and price",
+          "description": "Show the key features, say what each one does, and then talk about the plans and price. Best when the client is ready to look at the product carefully."
         },
         {
           "key": "compare",
-          "label": "Solution-led comparison",
-          "description": "Focus on what makes the product different — its quality, the problem it solves, and why clients switch to it. Use specific benefits instead of general claims. Best when the client is comparing options and needs a reason to choose you."
+          "label": "Why choose us",
+          "description": "Talk about what makes the product different — the quality, the problem it solves, and why clients move to it. Use real examples. Best when the client is looking at other options."
         }
       ]
     },
     "finishTheLine": {
-      "instructions": "The marketer's line has been cut off. As a group, discuss how you would finish it. Try to use vocabulary from this lesson. There is no single correct answer — compare your ideas, then click to see one possible answer.",
+      "instructions": "The marketer's line is not finished. As a group, talk about how you would finish it. Use words from this lesson. There is no one right answer — share your ideas, then click to see one example.",
       "items": [
         {
-          "customerLine": "Can you describe what the platform does?",
+          "customerLine": "Can you tell me what the platform does?",
           "salespersonStart": "Of course — our main product is a marketing platform that helps teams",
-          "suggestedCompletion": "plan, run, and track all their campaigns in one place. Instead of switching between five different tools, you have everything — scheduling, reporting, and analytics — in a single dashboard."
+          "suggestedCompletion": "plan, run, and track all their campaigns in one place. You do not need to use five different tools — everything is in one dashboard."
         },
         {
-          "customerLine": "What's the most popular feature?",
-          "salespersonStart": "Most clients say it's the automated reporting — one of the key features is that it",
-          "suggestedCompletion": "generates a full campaign report at the end of each week without anyone having to do it manually. That alone saves most teams two to three hours every week."
+          "customerLine": "What is the most popular feature?",
+          "salespersonStart": "Most clients say it is the reports — one of the key features is that it",
+          "suggestedCompletion": "makes a full report at the end of each week. You do not have to do it yourself. That saves most teams two or three hours every week."
         },
         {
           "customerLine": "Is it expensive?",
-          "salespersonStart": "The price starts at £99 a month, and most clients tell us it's good value for",
-          "suggestedCompletion": "the time it saves — especially if they were previously paying for three or four separate tools. We also have a range of plans, so you only pay for what you actually need."
+          "salespersonStart": "The price starts at £99 a month. Most clients say it is good value for",
+          "suggestedCompletion": "the time it saves — especially if they were paying for three or four tools before. We also have a range of plans, so you only pay for what you need."
         },
         {
-          "customerLine": "We're a small team. Is this the right solution for us?",
-          "salespersonStart": "Absolutely — we have a range of plans designed for smaller teams, and the starter plan offers all the",
-          "suggestedCompletion": "core features you'd need to manage your campaigns and track your results. A lot of our clients start small and then upgrade as their team grows."
+          "customerLine": "We are a small team. Is this the right solution for us?",
+          "salespersonStart": "Yes — we have plans for small teams, and the starter plan gives you all the",
+          "suggestedCompletion": "main features you need to look after your campaigns and see your results. Many clients start with the small plan and move up as their team grows."
         }
       ]
     }
