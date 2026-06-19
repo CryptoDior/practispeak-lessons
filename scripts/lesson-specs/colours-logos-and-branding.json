@@ -1,0 +1,324 @@
+{
+  "exportName": "coloursLogosAndBranding",
+  "title": "Colours, Logos and Branding",
+  "subtitle": "How to talk about the look of a brand",
+  "level": "A1-A2",
+  "description": "Learn simple words to talk about how a brand looks — its colours, logo, and style — and why it matters for marketing.",
+  "dialogueSubtitle": "Riley shows Dana the Brightline brand and explains the choices",
+  "vocabulary": [
+    {
+      "word": "logo",
+      "partOfSpeech": "noun",
+      "definition": "A small picture or symbol that stands for a company or brand.",
+      "example": "The Brightline logo is a blue circle with the company name."
+    },
+    {
+      "word": "colour",
+      "partOfSpeech": "noun",
+      "definition": "What you see when light hits something. For example: red, blue, or green.",
+      "example": "We use blue and white as our main colours."
+    },
+    {
+      "word": "design",
+      "partOfSpeech": "noun",
+      "definition": "The way something looks — its colours, shapes, and style.",
+      "example": "The design of our website uses clean lines and bright colours."
+    },
+    {
+      "word": "brand",
+      "partOfSpeech": "noun",
+      "definition": "The name and look of a company or product.",
+      "example": "A strong brand helps people remember who you are."
+    },
+    {
+      "word": "image",
+      "partOfSpeech": "noun",
+      "definition": "A picture or photo.",
+      "example": "We use strong images on our website to show what the brand looks like."
+    },
+    {
+      "word": "font",
+      "partOfSpeech": "noun",
+      "definition": "The style of writing used in text.",
+      "example": "We use the same font on all our marketing materials so everything looks the same."
+    },
+    {
+      "word": "style",
+      "partOfSpeech": "noun",
+      "definition": "The way something looks or feels.",
+      "example": "Our brand style is clean and modern."
+    },
+    {
+      "word": "identity",
+      "partOfSpeech": "noun",
+      "definition": "The look and feel that makes a brand easy to know.",
+      "example": "A strong brand identity helps people remember who you are and what you stand for."
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "STAND FOR",
+      "definition": "Say what a symbol, colour, or logo means for a brand.",
+      "example": "Our blue colour stands for trust and calm."
+    },
+    {
+      "phrase": "STAND OUT",
+      "definition": "Be easy to see and remember — different from others.",
+      "example": "Our logo is simple so it stands out on any background."
+    },
+    {
+      "phrase": "FIT WITH",
+      "definition": "Look or feel right together.",
+      "example": "We use colours and fonts that fit with the style of the brand."
+    },
+    {
+      "phrase": "LOOK LIKE",
+      "definition": "Say how something appears to people.",
+      "example": "The website should look like the rest of our brand — clean, blue, and modern."
+    },
+    {
+      "phrase": "COME ACROSS AS",
+      "definition": "The feeling or idea that people get when they see your brand.",
+      "example": "We want the brand to come across as friendly and easy to trust."
+    },
+    {
+      "phrase": "BUILD A BRAND",
+      "definition": "Create a strong look and name that people know and remember.",
+      "example": "It takes time to build a brand, but it is worth it."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Dana, let me show you the Brightline [[brand:the name and look of a company or product]]. We just updated it last year."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "I like the [[logo:a small picture or symbol that stands for a company or brand]]. It is simple and easy to remember."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Thank you — we wanted something that stands out. The [[design:the way something looks — its colours, shapes, and style]] is clean and modern. Simple always works best."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Why did you choose blue as your main [[colour:what you see when light hits something]]?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Blue stands for trust and calm — and that is what we want our brand to come across as. It fits with our [[style:the way something looks or feels]] too."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "And what about the [[font:the style of writing used in text]]?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "We use the same font on everything — the website, emails, leaflets. It keeps the brand identity consistent and easy to know."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "What about [[image:a picture or photo]]s? How do you choose them?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "We only use images that look like our brand — clean, bright, and with real people. No stock photos that look too old or too formal."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "How long did it take to build a strong brand [[identity:the look and feel that makes a brand easy to know]]?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "About two years! We tried a lot of different things before we found what worked. But it is worth it — people now know who we are straight away."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "I need to work on the identity for my agency. Maybe I can take some ideas from Brightline!"
+    }
+  ],
+  "videos": [],
+  "matchingExercise": [
+    { "word": "LOGO", "definition": "A small picture or symbol that stands for a company or brand" },
+    { "word": "COLOUR", "definition": "What you see when light hits something — for example: red, blue, or green" },
+    { "word": "DESIGN", "definition": "The way something looks — its colours, shapes, and style" },
+    { "word": "BRAND", "definition": "The name and look of a company or product" },
+    { "word": "IMAGE", "definition": "A picture or photo" },
+    { "word": "FONT", "definition": "The style of writing used in text" },
+    { "word": "STYLE", "definition": "The way something looks or feels" },
+    { "word": "IDENTITY", "definition": "The look and feel that makes a brand easy to know" }
+  ],
+  "fillBlankExercise": [
+    { "before": "The Brightline", "after": "is a blue circle with the company name.", "answer": "logo" },
+    { "before": "We use blue and white as our main", "after": "s.", "answer": "colour" },
+    { "before": "The", "after": "of our website uses clean lines and bright colours.", "answer": "design" },
+    { "before": "A strong", "after": "helps people remember who you are.", "answer": "brand" },
+    { "before": "We use strong", "after": "s on our website to show what the brand looks like.", "answer": "image" },
+    { "before": "We use the same", "after": "on all our marketing materials.", "answer": "font" },
+    { "before": "Our brand", "after": "is clean and modern.", "answer": "style" },
+    { "before": "A strong brand", "after": "helps people remember who you are.", "answer": "identity" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "What does the Brightline logo look like?",
+      "options": ["A green triangle with the company name", "A blue circle with the company name", "A red square with the company name", "A black line with the company name"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What are Brightline's main colours?",
+      "options": ["Red and black", "Green and white", "Blue and white", "Orange and grey"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does the colour blue stand for in Brightline's brand?",
+      "options": ["Energy and excitement", "Trust and calm", "Fun and creativity", "Power and strength"],
+      "correctIndex": 1
+    },
+    {
+      "question": "How does Brightline keep its brand consistent?",
+      "options": ["By using a different font for each channel", "By using the same font on everything", "By changing the logo each year", "By using many different colours"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What kind of images does Brightline use?",
+      "options": ["Old-style formal photos", "Images with no people", "Clean, bright images with real people", "Black and white only"],
+      "correctIndex": 2
+    },
+    {
+      "question": "How long did it take Brightline to build a strong brand identity?",
+      "options": ["Six months", "One year", "Two years", "Five years"],
+      "correctIndex": 2
+    },
+    {
+      "question": "How does Brightline want its brand to come across?",
+      "options": ["Powerful and serious", "Formal and professional", "Friendly and easy to trust", "Exciting and fun"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does Dana want to do after the conversation?",
+      "options": ["Copy Brightline's logo", "Change her company name", "Work on the brand identity for her agency", "Ask Brightline to do her branding"],
+      "correctIndex": 2
+    }
+  ],
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in groups. Read the question. Talk about which answer (A, B, or C) is best. Choose together, then click to check.",
+      "items": [
+        {
+          "customerLine": "Why is your logo so simple?",
+          "options": [
+            "We like simple things.",
+            "We wanted it to be easy to remember and to stand out on any background. Simple logos work best — people can see them clearly on a screen, a card, or a poster.",
+            "Simple logos are cheaper to make."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It gives a real reason — easy to remember, stands out — and says where it needs to work. A gives no reason. C sounds like money was the only reason, which is not a good message for a brand."
+        },
+        {
+          "customerLine": "Why did you choose those colours?",
+          "options": [
+            "We liked the way they look together.",
+            "Blue stands for trust and calm — those are the feelings we want people to have when they see our brand. White keeps it clean and easy to read.",
+            "Colours are mostly personal choice in branding."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It says what each colour means and connects it to the brand. A sounds like it was just a personal choice. C gives no real reason and makes colour choices sound unimportant."
+        },
+        {
+          "customerLine": "How do you keep your brand looking the same everywhere?",
+          "options": [
+            "We try to use the same things as much as possible.",
+            "We use the same logo, colours, font, and style on everything — the website, emails, leaflets, and social media. It keeps the brand identity clear and easy to know.",
+            "We have guidelines but people do not always follow them."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It names what is kept the same — logo, colours, font, style — and says where it appears. A is too vague. C sounds like the brand is not consistent, which is not a good message."
+        },
+        {
+          "customerLine": "Does branding really matter for a small company?",
+          "options": [
+            "Yes — a strong brand identity helps people remember who you are, even if you are small. It makes you look more professional and easy to trust.",
+            "It helps, but it is not the most important thing.",
+            "Big companies need it more than small ones."
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. It says clearly that branding matters and gives two good reasons — people remember you and you look more professional. B sounds unsure. C says small companies do not need good branding, which is not true."
+        }
+      ]
+    },
+    "profileMatch": {
+      "instructions": "You are Riley. Three companies want help with their brand. As a group, talk about which part of branding to focus on first for each company. Click 'Check Matches' when you agree.",
+      "profiles": [
+        {
+          "name": "A new company with no brand yet",
+          "description": "A new small business just started. They have a name but no logo, no colours, and no style. They do not know where to start.",
+          "matchKey": "logo"
+        },
+        {
+          "name": "A company with a good logo but inconsistent look",
+          "description": "A company has a logo they like, but their website, emails, and social media all look different. Clients find it hard to know it is the same company.",
+          "matchKey": "consistency"
+        },
+        {
+          "name": "A company with a strong visual brand but a bad image",
+          "description": "A company has a great logo and colours, but the photos they use on their website and social media are old and formal. It does not fit with their style.",
+          "matchKey": "images"
+        }
+      ],
+      "options": [
+        {
+          "key": "logo",
+          "label": "Start with the logo",
+          "description": "Design a simple logo first — one that is easy to remember and stands out. The logo will become the base for all other brand choices, like colours and fonts."
+        },
+        {
+          "key": "consistency",
+          "label": "Make it consistent",
+          "description": "Use the same logo, colours, and font on everything — website, emails, and social media. A consistent brand identity helps people know it is the same company everywhere."
+        },
+        {
+          "key": "images",
+          "label": "Update the images",
+          "description": "Choose new photos that fit with the brand style — clean, bright, and with real people. Images are often the first thing people see, so they need to look right."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The marketer's line is not finished. As a group, talk about how you would finish it. Use words from this lesson. There is no one right answer — share your ideas, then click to see one example.",
+      "items": [
+        {
+          "customerLine": "Why does branding matter in marketing?",
+          "salespersonStart": "Branding matters because it helps people remember you. A strong brand",
+          "suggestedCompletion": "identity — your logo, colours, and style — makes your company easy to know. When people see your design, they should know straight away who you are."
+        },
+        {
+          "customerLine": "How do you choose colours for a brand?",
+          "salespersonStart": "Think about what feeling you want people to have when they see your brand. Each colour",
+          "suggestedCompletion": "stands for something different. Blue stands for trust. Green stands for nature or health. Red stands for energy. Choose colours that fit with what your brand is about."
+        },
+        {
+          "customerLine": "What makes a good logo?",
+          "salespersonStart": "A good logo is simple and easy to remember. It should",
+          "suggestedCompletion": "stand out and look good on any background — a website, a business card, or a poster. The best logos are ones that people see once and remember for a long time."
+        },
+        {
+          "customerLine": "How long does it take to build a strong brand identity?",
+          "salespersonStart": "It takes time — usually at least one or two years. You have to try different things and",
+          "suggestedCompletion": "see what people like. The key is to keep the design consistent — use the same logo, font, and colours everywhere so people start to know and trust the brand."
+        }
+      ]
+    }
+  }
+}
