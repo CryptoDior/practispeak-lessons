@@ -93,6 +93,16 @@ import { ourCustomers } from './our-customers';
 import { onlineAndOfflineMarketing } from './online-and-offline-marketing';
 import { aSimpleMarketingPlan } from './a-simple-marketing-plan';
 import { coloursLogosAndBranding } from './colours-logos-and-branding';
+import { marketingThenAndNow } from './marketing-then-and-now';
+import { ourTargetMarket } from './our-target-market';
+import { theFourPs } from './the-4-ps';
+import { runningACampaign } from './running-a-campaign';
+import { writingBetterEmails } from './writing-better-emails';
+import { socialMediaStrategy } from './social-media-strategy';
+import { understandingData } from './understanding-data';
+import { customerFeedback } from './customer-feedback';
+import { competitiveLandscape } from './competitive-landscape';
+import { brandValues } from './brand-values';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -189,6 +199,16 @@ export const lessons: Lesson[] = [
   onlineAndOfflineMarketing,
   aSimpleMarketingPlan,
   coloursLogosAndBranding,
+  marketingThenAndNow,
+  ourTargetMarket,
+  theFourPs,
+  runningACampaign,
+  writingBetterEmails,
+  socialMediaStrategy,
+  understandingData,
+  customerFeedback,
+  competitiveLandscape,
+  brandValues,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);

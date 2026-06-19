@@ -1,0 +1,465 @@
+import { Lesson } from '@/types/lesson';
+
+export const socialMediaStrategy: Lesson = {
+  slug: 'social-media-strategy',
+  title: 'Social Media Strategy',
+  subtitle: "How to plan and talk about your company's presence on social media",
+  level: 'A2',
+  description: 'Learn the key words for social media marketing — how to describe your strategy, measure results, and talk about content, reach, and engagement.',
+  heroImage: '/images/social-media-strategy-hero.png',
+
+  vocabulary: [
+    {
+      word: 'ENGAGEMENT',
+      partOfSpeech: 'noun',
+      definition: 'The number of people who interact with your content — for example: likes, comments, and shares.',
+      example: 'Our engagement rate went up by 30% after we started posting video content on LinkedIn.',
+      imageSlug: '/images/engagement.png',
+    },
+    {
+      word: 'REACH',
+      partOfSpeech: 'noun',
+      definition: 'The number of different people who see your content.',
+      example: 'Our reach on Instagram doubled after we used more relevant hashtags.',
+      imageSlug: '/images/reach.png',
+    },
+    {
+      word: 'IMPRESSION',
+      partOfSpeech: 'noun',
+      definition: 'The number of times your content is shown — including when the same person sees it more than once.',
+      example: 'We had 50,000 impressions on our last LinkedIn post, but only 3,000 of those were unique people.',
+      imageSlug: '/images/impression.png',
+    },
+    {
+      word: 'HASHTAG',
+      partOfSpeech: 'noun',
+      definition: 'A word or phrase with a # symbol, used on social media to group content by topic.',
+      example: 'We use three to five hashtags on each post to help more people find our content.',
+      imageSlug: '/images/hashtag.png',
+    },
+    {
+      word: 'INFLUENCER',
+      partOfSpeech: 'noun',
+      definition: 'A person who has a large following on social media and can promote a product or brand to their audience.',
+      example: 'We worked with an influencer in the B2B marketing space — her audience is exactly our target market.',
+      imageSlug: '/images/influencer.png',
+    },
+    {
+      word: 'CONTENT',
+      partOfSpeech: 'noun',
+      definition: 'Anything you post on social media — a photo, video, article, or text.',
+      example: 'We post a mix of content — tips, case studies, behind-the-scenes posts, and product updates.',
+      imageSlug: '/images/content.png',
+    },
+    {
+      word: 'PLATFORM',
+      partOfSpeech: 'noun',
+      definition: 'A social media app or website — for example: LinkedIn, Instagram, or TikTok.',
+      example: 'LinkedIn is our main platform because our target audience is marketing professionals.',
+      imageSlug: '/images/platform.png',
+    },
+    {
+      word: 'ANALYTICS',
+      partOfSpeech: 'noun',
+      definition: 'Data and numbers that show how your social media content is performing.',
+      example: 'We check our analytics every Monday to see which posts performed best last week.',
+      imageSlug: '/images/analytics.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'BUILD AN AUDIENCE',
+      definition: 'Grow a group of followers who regularly see and interact with your content.',
+      example: 'We built an audience of 8,000 followers on LinkedIn over two years by posting consistently.',
+      imageSlug: '/images/build-an-audience.png',
+    },
+    {
+      phrase: 'POST CONSISTENTLY',
+      definition: 'Share content on a regular schedule — not just when you feel like it.',
+      example: 'The key to social media growth is to post consistently — three times a week, every week.',
+      imageSlug: '/images/post-consistently.png',
+    },
+    {
+      phrase: 'DRIVE ENGAGEMENT',
+      definition: 'Create content that makes people want to like, comment, or share.',
+      example: 'Questions and polls drive more engagement than simple product posts.',
+      imageSlug: '/images/drive-engagement.png',
+    },
+    {
+      phrase: 'GO VIRAL',
+      definition: 'Spread very quickly across social media — seen by a very large number of people in a short time.',
+      example: 'One of our LinkedIn posts went viral last year — it got 200,000 impressions in three days.',
+      imageSlug: '/images/go-viral.png',
+    },
+    {
+      phrase: 'BOOST A POST',
+      definition: 'Pay to show a social media post to more people beyond your existing followers.',
+      example: 'We boosted the post on LinkedIn to reach marketing managers who do not follow us yet.',
+      imageSlug: '/images/boost-a-post.png',
+    },
+    {
+      phrase: 'TRACK PERFORMANCE',
+      definition: 'Monitor the analytics to see how well your content is doing.',
+      example: 'We track performance every week — reach, engagement, and clicks are the three key numbers.',
+      imageSlug: '/images/track-performance.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: "Riley, can you walk me through Brightline's social media strategy? I want to build a better one for my agency.",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Of course. First, we decided which [[platform:a social media app or website]] to focus on. For us, LinkedIn is the main one because our audience is marketing professionals.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'And how do you decide what [[content:anything you post — a photo, video, article, or text]] to post?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'We post a mix — tips, case studies, behind-the-scenes, and product updates. The key is to post consistently. If you stop for two weeks, your [[reach:the number of different people who see your content]] drops quickly.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'What is the difference between reach and [[impression:the number of times your content is shown]]s?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Reach is how many different people see your post. Impressions include every time the post is shown — so if the same person sees it three times, that counts as three impressions but only one person in reach.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'And [[engagement:the number of people who interact with your content — likes, comments, and shares]]? Is that more important than reach?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'I think so. A post can have high reach but low engagement — which means people saw it but did not care. Engagement shows that your content is actually interesting to your audience.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Do you use [[hashtag:a word with a # symbol used to group content by topic]]s?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Yes — three to five per post. More than that looks spammy on LinkedIn. We choose hashtags that our target audience follows.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Have you worked with an [[influencer:a person with a large following who can promote your brand]]?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Yes — once. A B2B marketing influencer shared one of our posts. It reached a completely new audience. We look at our [[analytics:data and numbers that show how your content is performing]] every Monday to track what is working.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'This is very helpful. I think I need to focus on LinkedIn and post more consistently.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'That is the biggest thing. Consistency builds an audience. Start with two posts a week and track the performance. You will start to see what your audience responds to.',
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "ENGAGEMENT",
+        "definition": "The number of people who interact with your content — likes, comments, and shares"
+    },
+    {
+        "word": "REACH",
+        "definition": "The number of different people who see your content"
+    },
+    {
+        "word": "IMPRESSION",
+        "definition": "The number of times your content is shown — including repeat views by the same person"
+    },
+    {
+        "word": "HASHTAG",
+        "definition": "A word or phrase with a # symbol, used to group content by topic"
+    },
+    {
+        "word": "INFLUENCER",
+        "definition": "A person with a large following who can promote a product or brand"
+    },
+    {
+        "word": "CONTENT",
+        "definition": "Anything you post on social media — a photo, video, article, or text"
+    },
+    {
+        "word": "PLATFORM",
+        "definition": "A social media app or website — for example: LinkedIn, Instagram, or TikTok"
+    },
+    {
+        "word": "ANALYTICS",
+        "definition": "Data and numbers that show how your social media content is performing"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "Our",
+        "after": "rate went up by 30% after we started posting video content.",
+        "answer": "engagement"
+    },
+    {
+        "before": "Our",
+        "after": "on Instagram doubled after we used more relevant hashtags.",
+        "answer": "reach"
+    },
+    {
+        "before": "We had 50,000",
+        "after": "s on our last post, but only 3,000 unique people.",
+        "answer": "impression"
+    },
+    {
+        "before": "We use three to five",
+        "after": "s on each post to help more people find our content.",
+        "answer": "hashtag"
+    },
+    {
+        "before": "We worked with an",
+        "after": "in the B2B marketing space.",
+        "answer": "influencer"
+    },
+    {
+        "before": "We post a mix of",
+        "after": "— tips, case studies, and product updates.",
+        "answer": "content"
+    },
+    {
+        "before": "LinkedIn is our main",
+        "after": "because our audience is marketing professionals.",
+        "answer": "platform"
+    },
+    {
+        "before": "We check our",
+        "after": "every Monday to see which posts performed best.",
+        "answer": "analytics"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "Why does Brightline focus on LinkedIn as its main platform?",
+        "options": [
+            "Because it is free to use",
+            "Because their audience is marketing professionals",
+            "Because it has the most users",
+            "Because it is the easiest to manage"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the difference between reach and impressions?",
+        "options": [
+            "There is no difference",
+            "Reach includes repeat views; impressions only count unique viewers",
+            "Reach counts different people; impressions count every time the post is shown including repeats",
+            "Impressions only count paid views"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Why does Riley say engagement is more important than reach?",
+        "options": [
+            "Because reach is harder to measure",
+            "Because engagement shows people actually found the content interesting",
+            "Because reach is only for paid posts",
+            "Because engagement costs less money"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How many hashtags does Brightline use per post on LinkedIn?",
+        "options": [
+            "Ten or more",
+            "One or two",
+            "Three to five",
+            "None — they find hashtags ineffective"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What happened when an influencer shared Brightline's post?",
+        "options": [
+            "Nothing changed",
+            "It reached a completely new audience",
+            "The company got complaints",
+            "It increased their email subscribers only"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "When does Brightline check its analytics?",
+        "options": [
+            "Every day",
+            "Every Monday",
+            "At the end of each month",
+            "Only after big campaigns"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Riley say is the biggest thing for growing on social media?",
+        "options": [
+            "Using more hashtags",
+            "Paying for ads",
+            "Posting consistently",
+            "Working with influencers"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does Riley recommend Dana do to start with?",
+        "options": [
+            "Post ten times a week",
+            "Focus on Instagram and TikTok",
+            "Post two times a week and track performance",
+            "Hire an influencer straight away"
+        ],
+        "correctIndex": 2
+    }
+],
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Work in groups. Read the question or comment. Talk about which response (A, B, or C) is best. Choose together, then click to check.",
+        "items": [
+            {
+                "customerLine": "Which social media platform should we use?",
+                "options": [
+                    "All of them — you need to be everywhere.",
+                    "It depends on your audience. For B2B marketing, LinkedIn is the strongest platform — that is where your target audience spends their professional time.",
+                    "Facebook is the biggest, so you should start there."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. Platform choice should be based on where your audience is — not which platform is biggest or easiest. For a B2B marketing audience, LinkedIn is the right answer."
+            },
+            {
+                "customerLine": "Our posts get lots of views but very few likes or comments. Is that okay?",
+                "options": [
+                    "Yes — views are the most important thing.",
+                    "That is good reach but low engagement. It means people are seeing the content but it is not making them want to interact. Try asking a question or sharing a strong opinion — that drives engagement.",
+                    "It means the algorithm does not like your content."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It explains the problem clearly — high reach, low engagement — and gives a practical tip. A ignores the engagement issue. C blames the algorithm without giving any useful advice."
+            },
+            {
+                "customerLine": "Should we use hashtags on LinkedIn?",
+                "options": [
+                    "Yes — use as many as possible so more people find you.",
+                    "Yes, but keep it to three to five relevant hashtags. More than that looks spammy on LinkedIn. Choose ones that your target audience actually follows.",
+                    "No — hashtags are for Instagram, not LinkedIn."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It gives a specific, practical answer — three to five, and make sure they are relevant. A gives the wrong advice. C is incorrect — hashtags work on LinkedIn too."
+            },
+            {
+                "customerLine": "How do we know if our social media strategy is working?",
+                "options": [
+                    "We check the analytics — reach, engagement, and clicks — every week. We look at which posts performed best and do more of what works.",
+                    "We look at how many followers we have.",
+                    "If people are talking about us, it is working."
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. It names the specific metrics to track and explains what you do with the data. B only looks at one metric. C is too vague and hard to measure."
+            }
+        ]
+    },
+    "profileMatch": {
+        "instructions": "You are Riley. Three companies want to improve their social media. As a group, decide what each company should focus on first. Click 'Check Matches' when you agree.",
+        "profiles": [
+            {
+                "name": "A company with good content but almost no followers",
+                "description": "A B2B software company posts great content three times a week, but they only have 200 followers. Almost nobody sees their posts.",
+                "matchKey": "reach"
+            },
+            {
+                "name": "A company with many followers but no interaction",
+                "description": "A company has 5,000 followers on LinkedIn. Their posts get many views but almost no likes, comments, or shares.",
+                "matchKey": "engagement"
+            },
+            {
+                "name": "A company that posts whenever they feel like it",
+                "description": "A marketing agency posts sometimes — two posts in one week, then nothing for three weeks. Their follower count is not growing.",
+                "matchKey": "consistency"
+            }
+        ],
+        "options": [
+            {
+                "key": "reach",
+                "label": "Increase reach",
+                "description": "Try boosting posts to reach people who do not follow you yet, use relevant hashtags, and consider working with an influencer in your space to introduce the brand to a new audience."
+            },
+            {
+                "key": "engagement",
+                "label": "Drive engagement",
+                "description": "Change the type of content you post — ask questions, share strong opinions, or post polls. Content that makes people think or react will drive more likes, comments, and shares."
+            },
+            {
+                "key": "consistency",
+                "label": "Post consistently",
+                "description": "Set a schedule — for example, two posts per week — and stick to it. Consistency is the most important thing for growing an audience. Posting once and then disappearing kills momentum."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The marketer's line is not finished. As a group, discuss how you would finish it. Use vocabulary from this lesson. There is no single correct answer — compare your ideas, then click to see one example.",
+        "items": [
+            {
+                "customerLine": "What is your social media strategy?",
+                "salespersonStart": "Our main platform is LinkedIn. We post three times a week — a mix of tips, case studies, and behind-the-scenes content. We track our analytics every Monday and look at",
+                "suggestedCompletion": "reach, engagement, and clicks. We also boost the best-performing posts to increase our reach beyond our current followers."
+            },
+            {
+                "customerLine": "How do you choose what to post?",
+                "salespersonStart": "We look at our analytics to see what type of content gets the most engagement. Posts that ask a question or share an opinion always perform well. We post a mix of",
+                "suggestedCompletion": "educational content, like tips and how-to posts, and more personal content, like behind-the-scenes or team updates. The variety keeps the audience interested."
+            },
+            {
+                "customerLine": "Have you ever worked with an influencer?",
+                "salespersonStart": "Yes — once. We identified a B2B marketing influencer whose audience matched our target market. She shared a post about our product and",
+                "suggestedCompletion": "our reach doubled that week. We saw a big increase in new followers and website visits. It was a low-cost way to reach a new audience very quickly."
+            },
+            {
+                "customerLine": "What does a good social media strategy look like?",
+                "salespersonStart": "A good strategy starts with choosing the right platform for your audience. Then you decide how often to post and what type of content to create. You track the",
+                "suggestedCompletion": "analytics regularly — reach, impressions, and engagement — and adjust based on what is working. Consistency is the most important part. Without it, your audience does not grow."
+            }
+        ]
+    }
+},
+};

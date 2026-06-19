@@ -1,0 +1,459 @@
+import { Lesson } from '@/types/lesson';
+
+export const theFourPs: Lesson = {
+  slug: 'the-4-ps',
+  title: 'The 4 Ps',
+  subtitle: 'Product, Price, Place, and Promotion — the four pillars of marketing',
+  level: 'A2',
+  description: 'Learn the key words behind the 4 Ps marketing model — how companies decide what to sell, what to charge, where to sell it, and how to promote it.',
+  heroImage: '/images/the-4-ps-hero.png',
+
+  vocabulary: [
+    {
+      word: 'POSITIONING',
+      partOfSpeech: 'noun',
+      definition: 'How a company decides where its product sits in the market — and how it wants people to see it compared to other products.',
+      example: "Brightline's positioning is as a smart, easy-to-use tool for busy marketing teams.",
+      imageSlug: '/images/positioning.png',
+    },
+    {
+      word: 'DISTRIBUTION',
+      partOfSpeech: 'noun',
+      definition: 'The way a product gets to the customer — for example, online, in a shop, or through a partner.',
+      example: 'Our distribution is online only — customers sign up and download the product from our website.',
+      imageSlug: '/images/distribution.png',
+    },
+    {
+      word: 'RETAIL',
+      partOfSpeech: 'noun',
+      definition: 'Selling a product directly to customers, usually in a shop or online store.',
+      example: 'Some software companies sell through retail stores, but most use online distribution now.',
+      imageSlug: '/images/retail.png',
+    },
+    {
+      word: 'MARKUP',
+      partOfSpeech: 'noun',
+      definition: 'The extra amount added to the cost price to make a profit.',
+      example: 'We keep our markup low so the price is fair for small teams.',
+      imageSlug: '/images/markup.png',
+    },
+    {
+      word: 'VALUE',
+      partOfSpeech: 'noun',
+      definition: 'How useful or important something is to a customer, compared to what they pay.',
+      example: 'Our customers say the product gives them great value — it saves them hours every week.',
+      imageSlug: '/images/value.png',
+    },
+    {
+      word: 'PROMOTION',
+      partOfSpeech: 'noun',
+      definition: 'The activities used to tell people about a product and persuade them to buy it.',
+      example: 'Our promotion plan includes social media ads, email campaigns, and a referral programme.',
+      imageSlug: '/images/promotion.png',
+    },
+    {
+      word: 'PRICING',
+      partOfSpeech: 'noun',
+      definition: 'The process of deciding what to charge for a product or service.',
+      example: 'Good pricing means the customer feels they are getting value and the company still makes a profit.',
+      imageSlug: '/images/pricing.png',
+    },
+    {
+      word: 'PROPOSITION',
+      partOfSpeech: 'noun',
+      definition: 'What a company offers — the reason a customer should choose them over someone else.',
+      example: 'Our value proposition is clear: save time, get better results, pay less than you would for two separate tools.',
+      imageSlug: '/images/proposition.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'POSITION [X] AS',
+      definition: 'Decide and communicate how you want people to see your product.',
+      example: 'We position Brightline as the most practical tool for marketing teams that work fast.',
+      imageSlug: '/images/position-x-as.png',
+    },
+    {
+      phrase: 'PRICED AT',
+      definition: 'Say what a product costs.',
+      example: 'The Pro plan is priced at $49 per month — good value for a team of five.',
+      imageSlug: '/images/priced-at.png',
+    },
+    {
+      phrase: 'SOLD THROUGH',
+      definition: 'Say where or how a product is distributed to customers.',
+      example: 'Our product is sold through our website and through two partner agencies.',
+      imageSlug: '/images/sold-through.png',
+    },
+    {
+      phrase: 'STAND OUT FROM',
+      definition: 'Be different or better than other products in the market.',
+      example: 'We stand out from competitors because our product is easier to set up and use.',
+      imageSlug: '/images/stand-out-from.png',
+    },
+    {
+      phrase: 'MAKE THE CASE FOR',
+      definition: 'Explain clearly why something is a good choice.',
+      example: 'Our sales team makes the case for switching by showing how much time the product saves.',
+      imageSlug: '/images/make-the-case-for.png',
+    },
+    {
+      phrase: 'ADD VALUE',
+      definition: 'Give the customer something extra that makes the product worth more.',
+      example: 'We add value by offering free onboarding and a dedicated customer support team.',
+      imageSlug: '/images/add-value.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Riley, can you explain the 4 Ps to me? I hear it a lot but I want to understand how it works in practice.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Of course. The first P is Product. That is about what you sell and your [[positioning:how a company decides where its product sits in the market — and how it wants people to see it]]. For Brightline, we position the product as a smart, easy-to-use tool for busy marketing teams.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'So positioning is about how people see you, not just what you sell?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Exactly. The second P is Price. This is [[pricing:the process of deciding what to charge for a product or service]] — and it connects to [[value:how useful or important something is to a customer, compared to what they pay]]. Our customers feel they get great value because the product saves them hours every week.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'And what about [[markup:the extra amount added to the cost price to make a profit]]? How do you set that?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'We keep the markup reasonable. Our goal is for the price to feel fair — not too cheap, not too expensive. We want customers to see the [[proposition:what a company offers — the reason a customer should choose them]] clearly.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'What is the third P — Place?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Yes — Place is about [[distribution:the way a product gets to the customer]]. We do not use [[retail:selling a product directly to customers in a shop or online store]]. Our product is sold entirely online through our website and two partner agencies.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'And the fourth P is Promotion?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'That is right. [[Promotion:the activities used to tell people about a product and persuade them to buy it]] covers everything we do to get the word out — social media, email campaigns, events, and our referral programme.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'So all four Ps need to work together?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Exactly. If the product is great but the price is wrong, people will not buy. If the price is right but the promotion is weak, people will not even know about it. All four Ps need to add value and work as one.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'This really helps. I am going to look at the 4 Ps for my agency.',
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "POSITIONING",
+        "definition": "How a company decides where its product sits in the market and how people see it"
+    },
+    {
+        "word": "DISTRIBUTION",
+        "definition": "The way a product gets to the customer"
+    },
+    {
+        "word": "RETAIL",
+        "definition": "Selling a product directly to customers, usually in a shop or online store"
+    },
+    {
+        "word": "MARKUP",
+        "definition": "The extra amount added to the cost price to make a profit"
+    },
+    {
+        "word": "VALUE",
+        "definition": "How useful or important something is to a customer, compared to what they pay"
+    },
+    {
+        "word": "PROMOTION",
+        "definition": "The activities used to tell people about a product and persuade them to buy it"
+    },
+    {
+        "word": "PRICING",
+        "definition": "The process of deciding what to charge for a product or service"
+    },
+    {
+        "word": "PROPOSITION",
+        "definition": "What a company offers — the reason a customer should choose them over someone else"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "Brightline's",
+        "after": "is as a smart, easy-to-use tool for busy marketing teams.",
+        "answer": "positioning"
+    },
+    {
+        "before": "Our",
+        "after": "is online only — customers sign up from our website.",
+        "answer": "distribution"
+    },
+    {
+        "before": "Some companies sell through",
+        "after": "stores, but most use online distribution now.",
+        "answer": "retail"
+    },
+    {
+        "before": "We keep our",
+        "after": "low so the price is fair for small teams.",
+        "answer": "markup"
+    },
+    {
+        "before": "Our customers say the product gives them great",
+        "after": "— it saves them hours every week.",
+        "answer": "value"
+    },
+    {
+        "before": "Our",
+        "after": "plan includes social media ads, email campaigns, and a referral programme.",
+        "answer": "promotion"
+    },
+    {
+        "before": "Good",
+        "after": "means the customer feels they are getting value and the company still makes a profit.",
+        "answer": "pricing"
+    },
+    {
+        "before": "Our value",
+        "after": "is: save time, get better results, pay less.",
+        "answer": "proposition"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "What does the first P — Product — cover?",
+        "options": [
+            "How much you charge",
+            "How you distribute it",
+            "What you sell and how you position it",
+            "How you promote it"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "How does Brightline position its product?",
+        "options": [
+            "As the cheapest tool in the market",
+            "As a smart, easy-to-use tool for busy marketing teams",
+            "As the most powerful enterprise software",
+            "As a premium luxury product"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does markup mean?",
+        "options": [
+            "The total price of a product",
+            "The extra amount added to the cost price to make a profit",
+            "A type of promotion",
+            "The cost of distributing a product"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "How does Brightline distribute its product?",
+        "options": [
+            "Through retail stores",
+            "Through TV advertising",
+            "Online, through its website and two partner agencies",
+            "Through direct mail"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does the fourth P — Promotion — include?",
+        "options": [
+            "Pricing strategy and markup",
+            "Product design and positioning",
+            "Social media, email campaigns, events, and referrals",
+            "Distribution channels and retail"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does Riley say about the 4 Ps working together?",
+        "options": [
+            "Promotion is the most important P",
+            "Price is the only thing that matters",
+            "All four Ps need to add value and work as one",
+            "You only need two or three Ps for a small company"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is a value proposition?",
+        "options": [
+            "The total cost of a product",
+            "The reason a customer should choose you over someone else",
+            "A type of distribution channel",
+            "A promotion discount"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Riley say happens if promotion is weak?",
+        "options": [
+            "People will not like the product",
+            "People will not even know about it",
+            "The price will go up",
+            "The distribution will fail"
+        ],
+        "correctIndex": 1
+    }
+],
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Work in groups. Read the question or comment. Talk about which response (A, B, or C) is best. Choose together, then click to check.",
+        "items": [
+            {
+                "customerLine": "How is your product different from the others on the market?",
+                "options": [
+                    "We think our product is very good.",
+                    "Our positioning is as the easiest tool for marketing teams that work fast. We stand out because you can set it up in one day — most competitors take a week.",
+                    "There are many products but ours is better."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It states the positioning clearly and gives a specific reason — set-up time. A and C are vague and give no useful information to a customer."
+            },
+            {
+                "customerLine": "Your price seems high. Can you justify it?",
+                "options": [
+                    "Our price is very competitive in the market.",
+                    "I understand. But think about the value — our product saves marketing managers around five hours a week. At your hourly rate, the product pays for itself within the first month.",
+                    "We can offer a discount if you need one."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It connects price to value — time saved and return on investment. A says nothing useful. C jumps to a discount before making the value case, which is a weak position."
+            },
+            {
+                "customerLine": "Where can I buy your product?",
+                "options": [
+                    "Online, on our website — you can sign up in five minutes and start using it the same day. We also work through two partner agencies if you prefer a guided onboarding.",
+                    "You can find it in our store.",
+                    "We are available in several places."
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. It explains the distribution clearly — website and partner agencies — and adds a benefit (start the same day). B is too vague. C says even less."
+            },
+            {
+                "customerLine": "How do you tell people about the product?",
+                "options": [
+                    "We advertise.",
+                    "Our promotion includes LinkedIn ads, a weekly email to our client list, events, and a referral programme where existing clients get a discount for bringing in new ones.",
+                    "We use social media and other things."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It names all the promotion channels and even explains how the referral programme works. A and C are too vague."
+            }
+        ]
+    },
+    "profileMatch": {
+        "instructions": "You are Riley. Look at three companies. As a group, decide which of the 4 Ps each company needs to work on most. Click 'Check Matches' when you agree.",
+        "profiles": [
+            {
+                "name": "A company with a great product that nobody knows about",
+                "description": "A software company has an excellent product and fair pricing, but very few people in the market know it exists. Their website gets almost no visits.",
+                "matchKey": "promotion"
+            },
+            {
+                "name": "A company with high prices and lots of complaints",
+                "description": "Customers like the product but many say it is too expensive for what they get. The company is losing clients to cheaper alternatives.",
+                "matchKey": "pricing"
+            },
+            {
+                "name": "A company that sells through shops but wants to grow online",
+                "description": "A company currently sells its product through retail stores only. Many potential customers live in cities where there are no stores nearby.",
+                "matchKey": "distribution"
+            }
+        ],
+        "options": [
+            {
+                "key": "promotion",
+                "label": "Promotion",
+                "description": "The company needs to invest in getting the word out — social media, ads, PR, or a referral programme. A great product is no use if nobody knows it exists."
+            },
+            {
+                "key": "pricing",
+                "label": "Price",
+                "description": "The company needs to review its pricing — either lower the price, add more value, or communicate the value proposition more clearly so customers understand why it is worth the cost."
+            },
+            {
+                "key": "distribution",
+                "label": "Place / Distribution",
+                "description": "The company needs to change or expand how it gets the product to customers — for example, adding online sales to reach people who cannot visit a store."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The marketer's line is not finished. As a group, discuss how you would finish it. Use vocabulary from this lesson. There is no single correct answer — compare your ideas, then click to see one example.",
+        "items": [
+            {
+                "customerLine": "Can you explain the 4 Ps quickly?",
+                "salespersonStart": "Of course. The 4 Ps are Product, Price, Place, and Promotion. Product is about what you sell and your positioning. Price is about pricing and value. Place is about",
+                "suggestedCompletion": "distribution — how the product gets to the customer. And Promotion is everything you do to tell people about it. All four need to work together."
+            },
+            {
+                "customerLine": "Why is your product priced higher than your competitors?",
+                "salespersonStart": "Because the value is higher. Our product saves your team around five hours a week. When you think about what those hours cost you,",
+                "suggestedCompletion": "the markup is very fair. Most customers find the product pays for itself in the first month. And we include free onboarding and support — which competitors charge extra for."
+            },
+            {
+                "customerLine": "Do you sell through any partners?",
+                "salespersonStart": "Yes — our main distribution is through our website, but we also work with two partner agencies. If you prefer",
+                "suggestedCompletion": "a guided setup and onboarding, a partner agency is a great option. They know the product well and can help your team get started faster."
+            },
+            {
+                "customerLine": "What is your value proposition exactly?",
+                "salespersonStart": "Our value proposition is simple: save time, get better campaign results, and pay less than you would for two separate tools. We position Brightline as",
+                "suggestedCompletion": "the most practical marketing tool for busy teams — one that is easy to set up, easy to use, and gives you clear data every day."
+            }
+        ]
+    }
+},
+};
