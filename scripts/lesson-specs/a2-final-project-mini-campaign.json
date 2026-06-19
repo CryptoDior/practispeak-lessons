@@ -1,0 +1,391 @@
+{
+  "exportName": "a2FinalProjectMiniCampaign",
+  "title": "A2 Final Project: Mini Campaign",
+  "subtitle": "Capstone — use everything you have learned to plan and present a real marketing campaign",
+  "level": "A2",
+  "description": "This is your A2 final project. You will use all the vocabulary and language from your A2 lessons — advertising, offers, launches, meetings, content, digital marketing, events, measurement, and strategy — to plan and present a short marketing campaign. This is your chance to show how far your professional English has come.",
+  "dialogueSubtitle": "Riley and Dana present a mini campaign to a client — using the full A2 vocabulary set",
+  "warmUp": {
+    "questions": [
+      "Think about a marketing campaign you have seen recently — online, at an event, or in your inbox. What made it work? What vocabulary from your A2 lessons can you use to describe it?",
+      "If you had to present a marketing campaign in English to a client right now, what three things would you explain first — and what vocabulary would you use?",
+      "In your work, do you plan campaigns, contribute to them, or just observe them? What part of the campaign process do you find most challenging to discuss in English?"
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "objective",
+      "partOfSpeech": "noun",
+      "definition": "What you want to achieve with the campaign — the specific, measurable goal that defines success.",
+      "example": "Our objective for this campaign is clear: generate fifty qualified leads in sixty days and achieve an ROI of at least 400%."
+    },
+    {
+      "word": "target audience",
+      "partOfSpeech": "noun",
+      "definition": "The specific group of people or companies you want to reach with your campaign — defined by industry, role, company size, or other criteria.",
+      "example": "Our target audience is B2B marketing managers at technology companies with between fifty and five hundred employees in the DACH region."
+    },
+    {
+      "word": "message",
+      "partOfSpeech": "noun",
+      "definition": "The core idea you want the audience to remember — usually one clear statement about who you are, what you do, and why it matters.",
+      "example": "The campaign message is simple: MarketBridge helps B2B tech companies fill their pipeline with LinkedIn — without wasting budget on channels that do not convert."
+    },
+    {
+      "word": "timeline",
+      "partOfSpeech": "noun",
+      "definition": "The schedule for the campaign — what happens when, from the first activity to the final review.",
+      "example": "The campaign timeline is twelve weeks: two weeks to set up, eight weeks of active promotion, and two weeks for analysis and the final review."
+    },
+    {
+      "word": "deliverable",
+      "partOfSpeech": "noun",
+      "definition": "A specific thing you will produce and hand over — a report, a campaign, a video, a set of ads, or any other defined output.",
+      "example": "The deliverables for this campaign are: five LinkedIn posts per week, three email newsletters, one case study, and a monthly performance report."
+    },
+    {
+      "word": "conversion",
+      "partOfSpeech": "noun",
+      "definition": "When a prospect takes a specific action you wanted them to take — clicking a link, booking a call, or becoming a customer.",
+      "example": "Our landing page had a 12% conversion rate — for every hundred visitors, twelve booked a discovery call. That is well above the industry average of 3–5%."
+    },
+    {
+      "word": "brief",
+      "partOfSpeech": "noun",
+      "definition": "A written summary of a project — what it is for, who it is for, what needs to be produced, and when it is needed.",
+      "example": "Before we start any campaign, I send the client a one-page brief to confirm the objective, target audience, message, and budget — no surprises later."
+    },
+    {
+      "word": "presentation",
+      "partOfSpeech": "noun",
+      "definition": "A structured explanation of an idea, plan, or result — usually delivered in a meeting, sometimes with slides.",
+      "example": "The final project presentation should cover your campaign objective, target audience, channel mix, key messages, timeline, and how you will measure success."
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "PRESENT [SOMETHING] TO [SOMEONE]",
+      "definition": "To explain a plan, idea, or result to an audience — clearly, confidently, and in a structured way.",
+      "example": "We presented the mini campaign to the client last Thursday — objective, message, channels, timeline, and KPIs — and they approved it on the spot."
+    },
+    {
+      "phrase": "PULL TOGETHER [A PLAN]",
+      "definition": "To gather all the elements of a plan and organise them into a coherent whole — bringing different parts together.",
+      "example": "Can you pull together a one-page campaign plan by Friday? Objective, audience, channels, message, and key deliverables — just the essentials."
+    },
+    {
+      "phrase": "BUILD TOWARDS [A GOAL]",
+      "definition": "To work progressively towards a result — each activity connecting to and supporting the main objective.",
+      "example": "Every piece of content we create should build towards the same goal: getting qualified prospects to book a discovery call."
+    },
+    {
+      "phrase": "SIGN OFF ON [SOMETHING]",
+      "definition": "To formally approve something — to say that it is correct, ready to proceed, and has your official agreement.",
+      "example": "Before we launch, we need the client to sign off on the creative assets, the email copy, and the campaign timeline."
+    },
+    {
+      "phrase": "WRAP UP [A CAMPAIGN]",
+      "definition": "To finish and close a campaign — completing the final activities, compiling the results, and preparing the review.",
+      "example": "We wrap up every campaign with a one-hour debrief: what worked, what did not, the ROI, and what we will do differently next time."
+    },
+    {
+      "phrase": "HAND OVER [SOMETHING]",
+      "definition": "To give a finished deliverable to the person or team who will receive it.",
+      "example": "We hand over the campaign report within five working days of the final activity — it includes every KPI, the ROI calculation, and our recommendation for the next quarter."
+    }
+  ],
+  "videos": [],
+  "dialogue": [
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Marcus, thank you for joining us. Today Riley and I are going to [[present:explain a plan or result to an audience]] the mini campaign we have put together for TechFlow's Q4 launch."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Let me start with the [[objective:what you want to achieve — the specific measurable goal]]. By the end of Q4, we want to generate seventy-five qualified leads and achieve an [[ROI:Return on Investment — financial return relative to spend]] of at least 500%. Everything in this campaign [[builds towards:works progressively towards]] that one goal."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Clear. And who is the [[target audience:the specific group of people you want to reach]]?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "B2B operations directors and CFOs at manufacturing companies with one hundred to one thousand employees — specifically in Germany, Austria, and Switzerland. That is where TechFlow's strongest [[conversion:when a prospect takes a specific action you want]] data comes from."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Our core [[message:the key idea you want the audience to remember]] is: 'TechFlow reduces operational costs by 30% in the first year — guaranteed.' Simple, specific, and quantified. That is the message across every channel."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "I like it. What is the [[channel mix:the combination of channels used to reach the audience]] and the [[timeline:the schedule from first activity to final review]]?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Three channels over twelve weeks. LinkedIn sponsored posts and content for awareness — weeks one to twelve. Email nurturing for [[conversion:when a prospect takes a specific action]] — weeks three to twelve. And one flagship webinar in week eight to generate high-intent leads who are close to buying."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "The key [[deliverables:specific things we will produce and hand over]] are: twenty LinkedIn posts, four email newsletters, one case study featuring a current TechFlow client, and a live webinar with sixty-minute Q&A. We will [[hand over:give a finished item to the person who receives it]] the monthly performance report on the first Monday of each month."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "And you mentioned a webinar. Is that in the [[brief:written summary of a project with objectives, deliverables and deadlines]] we agreed?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "It was listed as optional in the original [[brief:the written summary of the project]]. We are recommending it because TechFlow's deal size means [[conversion:prospects taking action to buy]] happens in conversations — not just clicks. The webinar creates that conversation at scale. But we need you to [[sign off on:formally approve]] it before we book the platform and promote it."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "I am happy with that. The [[presentation:a structured explanation of a plan or result]] is very clear. When can we [[wrap up:finish and close]] the planning phase and go live?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "If you [[sign off on:formally approve]] the plan today, we can go live on the 1st of October — exactly on [[timeline:the schedule from first activity to final review]]. I will [[pull together:gather and organise all elements into a coherent whole]] the final campaign doc and share it with you by end of day. All we need now is your approval."
+    }
+  ],
+  "matchingExercise": [
+    { "word": "OBJECTIVE", "definition": "What you want to achieve — the specific measurable goal that defines success" },
+    { "word": "TARGET AUDIENCE", "definition": "The specific group of people or companies you want to reach with your campaign" },
+    { "word": "MESSAGE", "definition": "The core idea you want the audience to remember — usually one clear, specific statement" },
+    { "word": "TIMELINE", "definition": "The schedule for the campaign — what happens when, from first activity to final review" },
+    { "word": "DELIVERABLE", "definition": "A specific thing you will produce and hand over — a report, a video, a set of ads, or other output" },
+    { "word": "CONVERSION", "definition": "When a prospect takes a specific action you wanted — clicking, booking a call, or becoming a customer" },
+    { "word": "BRIEF", "definition": "A written summary of a project — objective, audience, deliverables, and deadlines" },
+    { "word": "PRESENTATION", "definition": "A structured explanation of an idea, plan, or result — usually delivered in a meeting" }
+  ],
+  "fillBlankExercise": [
+    { "before": "Our", "after": "for this campaign is clear: generate fifty qualified leads in sixty days.", "answer": "objective" },
+    { "before": "Our", "after": "is B2B marketing managers at technology companies with fifty to five hundred employees.", "answer": "target audience" },
+    { "before": "The campaign", "after": "is simple: MarketBridge helps B2B companies fill their pipeline with LinkedIn.", "answer": "message" },
+    { "before": "The campaign", "after": "is twelve weeks: two to set up, eight active, and two for analysis.", "answer": "timeline" },
+    { "before": "The", "after": "for this campaign include five LinkedIn posts per week, three email newsletters, and a case study.", "answer": "deliverables" },
+    { "before": "Our landing page had a 12%", "after": "rate — twelve out of every hundred visitors booked a call.", "answer": "conversion" },
+    { "before": "Before we start any campaign, I send the client a one-page", "after": "to confirm the objective, audience, message, and budget.", "answer": "brief" },
+    { "before": "The final project", "after": "should cover your objective, audience, channel mix, messages, timeline, and how you will measure success.", "answer": "presentation" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "A client says: 'What is the objective of this campaign?' What is the best answer?",
+      "options": [
+        "To do as much marketing as possible across every available channel.",
+        "To generate seventy-five qualified leads and achieve an ROI of at least 500% by the end of Q4 — everything we do connects to those two numbers.",
+        "To make the brand more famous and improve the company image.",
+        "To spend the marketing budget efficiently before the end of the financial year."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Why is it important to define the target audience before planning the campaign?",
+      "options": [
+        "Because the platform algorithm needs the audience data before you can run ads.",
+        "Because every decision — channels, message, format, tone — should be made based on who you are trying to reach. An undefined audience leads to a generic campaign that resonates with no one.",
+        "Because the brief template has a required field for audience and the client will ask.",
+        "Because the legal team requires audience documentation before approving the budget."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What makes a campaign message effective?",
+      "options": [
+        "Long, detailed messaging that covers every benefit of the product or service.",
+        "One clear, specific, and memorable statement — ideally with a number or concrete result — that speaks directly to the target audience's biggest challenge or goal.",
+        "Creative language and surprising ideas that make the audience stop and think.",
+        "A message that is different from what competitors are saying, even if it is not directly relevant to the audience."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "A client says: 'Do we need a webinar? It seems like a lot of work.' What is the best response?",
+      "options": [
+        "Say: 'You are right — it is too much work. Let us skip it and focus on LinkedIn and email only.'",
+        "Say: 'It is worth the effort because your average deal size means decisions happen in conversations, not clicks. A sixty-minute webinar reaches sixty qualified prospects at once — that is sixty one-to-one conversations in a single hour. The ROI on a webinar is typically much higher than an equivalent LinkedIn spend.'",
+        "Say: 'All our clients do webinars — it is just part of the standard campaign package we offer.'",
+        "Say: 'You do not have to decide now — let us discuss it in the next review meeting.'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does it mean to 'sign off on' a deliverable?",
+      "options": [
+        "To add your name and title to a document before it is published.",
+        "To formally approve it — to say that it is correct, ready to proceed, and has your agreement. Nothing goes live until the client has signed off.",
+        "To confirm that you received the document in your email.",
+        "To reject a deliverable and ask for changes."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is a conversion rate and why does it matter?",
+      "options": [
+        "The percentage of your budget you convert into campaign activities.",
+        "The percentage of people who take the action you wanted — for example, 12% of landing page visitors book a call. It tells you how effective your campaign is at turning interest into action — a higher rate means less spend per lead.",
+        "The speed at which prospects move from awareness to purchase.",
+        "The percentage of your audience that has heard of your brand."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "When should you 'wrap up' a campaign?",
+      "options": [
+        "When the client asks you to stop.",
+        "After all planned activities are complete — you compile results, calculate ROI, prepare the final report, and run a debrief to identify what worked and what to do differently next time.",
+        "At the end of every calendar month, regardless of where the campaign is in its timeline.",
+        "As soon as you hit your lead target, even if there is time remaining in the timeline."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "You are presenting a mini campaign to a client. What structure should your presentation follow?",
+      "options": [
+        "Start with the budget, then explain the creative, and finish with the objective.",
+        "Start with the objective, then the target audience and message, followed by the channel mix and timeline, the key deliverables, and finally how you will measure success and ROI.",
+        "Start with the creative assets and visual examples — clients respond best to what they can see.",
+        "Start with previous client results to build credibility, then explain what you want to do this time."
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "completeSentenceExercise": {
+    "instructions": "Choose the correct word or phrase to complete each sentence. Then read the sentence aloud as if you are presenting to a client.",
+    "items": [
+      {
+        "sentence": "Our _____ for this campaign is to generate seventy-five qualified leads and achieve an ROI of 500% by the end of Q4.",
+        "options": ["message", "objective", "brief"],
+        "correctIndex": 1,
+        "explanation": "Objective is the specific, measurable goal that defines success. Message is what you want the audience to remember. Brief is the written project summary. Objective answers 'What are we trying to achieve?' — it is always the starting point of a campaign presentation because everything else must connect to it."
+      },
+      {
+        "sentence": "Our _____ is simple: TechFlow reduces operational costs by 30% in the first year — guaranteed.",
+        "options": ["objective", "timeline", "message"],
+        "correctIndex": 2,
+        "explanation": "Message is the core idea you want the audience to remember. Objective is the goal you are trying to achieve. Timeline is the schedule. A strong message is specific, memorable, and client-focused — it answers 'Why should I care?' It is different from the objective, which is internal and about what you want. The message is what the audience hears."
+      },
+      {
+        "sentence": "Before anything goes live, we need you to _____ the creative assets, the email copy, and the campaign timeline.",
+        "options": ["wrap up", "sign off on", "hand over"],
+        "correctIndex": 1,
+        "explanation": "Sign off on means to formally approve something — it is ready to proceed with your agreement. Wrap up means to finish and close. Hand over means to give something to the person who will receive it. 'Sign off on' is a critical phrase in client relationships — it protects both the agency and the client by creating a clear approval record before anything is published."
+      },
+      {
+        "sentence": "We will _____ the campaign report within five working days of the final activity.",
+        "options": ["hand over", "pull together", "build towards"],
+        "correctIndex": 0,
+        "explanation": "Hand over means to give a finished deliverable to the person or team who will receive it. Pull together means to organise elements into a plan. Build towards means to work progressively towards a goal. 'Hand over the report' is the standard phrase — you are transferring ownership of a completed deliverable. 'Pull together' is used in the planning phase, not delivery."
+      },
+      {
+        "sentence": "Our landing page had a 12% _____ rate — twelve out of every hundred visitors booked a discovery call.",
+        "options": ["conversion", "timeline", "objective"],
+        "correctIndex": 0,
+        "explanation": "Conversion is when a prospect takes a specific action you wanted. Timeline is the schedule. Objective is the goal. A conversion rate measures how effectively your campaign turns interest into action. 12% is excellent — the industry average for B2B landing pages is 2–5%. When presenting results, always include the conversion rate alongside the number of leads to show efficiency."
+      },
+      {
+        "sentence": "If you approve today, we will _____ the final campaign document and share it with you by end of day.",
+        "options": ["sign off on", "pull together", "wrap up"],
+        "correctIndex": 1,
+        "explanation": "Pull together means to gather and organise all elements into a coherent whole. Sign off on means to approve something. Wrap up means to finish and close a campaign. 'Pull together a document' is a natural, conversational phrase for organising and finalising a plan. Use it when describing the next step — it sounds proactive and organised without being overly formal."
+      }
+    ]
+  },
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in pairs. Read each client message and choose the best response. Talk about why before you click.",
+      "items": [
+        {
+          "customerLine": "Client: 'I have approved the plan. What happens next and when will we start seeing results?'",
+          "options": [
+            "Say: 'Great — we will start immediately. You should see leads coming in within a week or two.'",
+            "Say: 'Thank you. Here is exactly what happens next. This week: we finalise the creative assets and brief the design team on the case study. Next week: we go live on LinkedIn and launch the first email. Week three: the second email goes out and we review early data. Realistically, you will see your first qualified leads in weeks three to five — B2B LinkedIn takes a few cycles to optimise. By week eight, when the webinar runs, the pipeline should be filling well. I will send you a progress update every Monday morning so you always know where we are.'",
+            "Say: 'Now that the plan is approved, just sit back and let us handle everything. We will update you when there is news.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It gives a clear week-by-week plan, sets realistic expectations about timing (weeks 3–5 for first leads), and commits to regular updates. A overpromises and under-specifies. C is too passive and gives the client nothing to hold the agency accountable to — regular communication is essential in B2B campaign management."
+        },
+        {
+          "customerLine": "Client: 'We are halfway through the campaign and the conversion rate is only 4%. Is that normal?'",
+          "options": [
+            "Say: 'Four percent is below our target. I think the campaign is not working and we should stop it and try something different.'",
+            "Say: 'Thank you for flagging it — let us look at the data together. A 4% conversion rate at the halfway point is actually within a normal range for B2B LinkedIn — industry average is 2–5%, so we are not below industry standard. However, we set a target of 8%, so there is room to improve. I want to look at three things: the subject line on the emails, the call-to-action on the landing page, and whether we are targeting the right job titles. Can we do a thirty-minute review call this week to go through the data and agree the adjustments?'",
+            "Say: 'Four percent is fine — the industry average is 3–5%, so we are doing well. No need to change anything.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It contextualises the number (within industry standard), acknowledges the gap versus target, identifies specific areas to investigate, and proposes a concrete next step. A panics unnecessarily. C accepts average performance without attempting to improve — a good agency always pushes to close the gap between actual and target."
+        },
+        {
+          "customerLine": "Client: 'The campaign is finished. Can you send the final report and then let us know what you recommend for Q1?'",
+          "options": [
+            "Say: 'Of course. I will hand over the final report by Friday. It will include all KPIs, the ROI calculation, the top three insights from the campaign, and my full recommendation for Q1 — including what we should scale up, what we should change, and what the objective and channel mix should be for the next quarter. Can we book a thirty-minute call for next week to walk through it together?'",
+            "Say: 'We will send the report when it is ready. It might take a few weeks — there is a lot of data to process.'",
+            "Say: 'The report will be with you soon. For Q1, I would suggest we do the same campaign again — if it worked, why change it?'"
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. It commits to a specific deadline, explains what the report will contain, previews the Q1 recommendation, and offers a call to present the findings. B is vague and slow. C assumes last quarter's approach is right for Q1 without reviewing what the data says — a data-driven agency always bases Q1 recommendations on what it learned from Q4."
+        }
+      ]
+    },
+    "spotTheMistake": {
+      "instructions": "Read this campaign presentation script. There are 3 grammar mistakes. Find them and correct them. Then practise reading the corrected version aloud with a partner.",
+      "dialogue": [
+        { "speaker": "Presenter", "text": "Good morning, Marcus. Today I will to present the Q4 mini campaign for TechFlow." },
+        { "speaker": "Presenter", "text": "Our objective is to generate seventy-five qualified leads and achieve an ROI of 500% by the end of Q4." },
+        { "speaker": "Presenter", "text": "The target audience are B2B operations directors and CFOs at manufacturing companies in the DACH region." },
+        { "speaker": "Presenter", "text": "Our campaign message is: TechFlow reduces operational costs by 30% in the first year — guarantee." },
+        { "speaker": "Presenter", "text": "The channel mix is LinkedIn for awareness, email for nurturing, and one flagship webinar in week eight." },
+        { "speaker": "Presenter", "text": "If you sign off on the plan today, we will go live on the 1st of October — exactly on timeline." }
+      ],
+      "mistakes": [
+        {
+          "lineIndex": 0,
+          "incorrectText": "I will to present",
+          "correction": "I will present",
+          "explanation": "'Will' is a modal verb. In English, modal verbs are always followed by the infinitive WITHOUT 'to'. Say: 'I will present', 'I will call', 'I will send'. Never say 'will to'. This is one of the most common errors with modal verbs — other examples: 'we can present' (not 'we can to present'), 'they should review' (not 'they should to review')."
+        },
+        {
+          "lineIndex": 2,
+          "incorrectText": "The target audience are",
+          "correction": "The target audience is",
+          "explanation": "'Target audience' is treated as a singular collective noun in business English — it refers to one group, even though it is made up of many people. Use a singular verb: 'The target audience is', 'The audience is', 'The team is'. Compare: 'The members of the audience are' — here 'members' is plural, so you use 'are'. When you say 'target audience', you are talking about the category, not the individual people."
+        },
+        {
+          "lineIndex": 3,
+          "incorrectText": "guarantee",
+          "correction": "guaranteed",
+          "explanation": "In the sentence 'TechFlow reduces operational costs by 30% — guaranteed', 'guaranteed' is used as an adjective modifying the promise. It must be in the past participle/adjective form. 'Guarantee' is the noun or base verb. Compare: 'We guarantee the result' (verb) vs 'The result is guaranteed' (adjective) vs 'a money-back guarantee' (noun). In campaign slogans, 'guaranteed' is the standard business English form."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "Use the sentence starters below to give your own mini campaign presentation. Use vocabulary from all your A2 lessons. Practise twice — first with notes, then without.",
+      "items": [
+        {
+          "customerLine": "Client: 'You have two minutes. Tell me about this campaign.'",
+          "salespersonStart": "Our objective is clear.",
+          "suggestedCompletion": "We want to generate seventy-five qualified leads for TechFlow by the end of Q4 and achieve an ROI of at least 500%. Our target audience is B2B operations directors and CFOs at manufacturing companies in Germany, Austria, and Switzerland — the region where TechFlow converts best. The campaign message is simple: TechFlow reduces operational costs by 30% in the first year, guaranteed. We will reach this audience across three channels: LinkedIn sponsored posts and content for awareness, email nurturing to move prospects through the funnel, and one flagship webinar in week eight to create high-intent conversations. The campaign runs for twelve weeks. Every deliverable is tracked against KPIs and you receive a progress report every Monday. Does that overview make sense? Shall I go deeper on any part?"
+        },
+        {
+          "customerLine": "Client: 'Walk me through the budget and why you chose these channels.'",
+          "salespersonStart": "The budget is split across three channels — and every allocation is connected to the data.",
+          "suggestedCompletion": "LinkedIn takes 50% of the budget — it is where your target audience is most active and it has the highest conversion rate for B2B lead generation in the DACH region. Email takes 30% — it has the highest ROI of any B2B channel and it allows us to nurture the prospects LinkedIn brings in. The webinar takes the remaining 20% — one event, but it puts sixty qualified prospects in a live conversation with TechFlow at the same time. We chose these three because TechFlow's pipeline data shows that decisions happen in conversations, not in clicks. This channel mix is designed to build awareness, move prospects through the funnel, and create the conversations that close. If one channel underperforms at the midpoint review, we will reallocate the budget in real time."
+        },
+        {
+          "customerLine": "Client: 'The campaign is finished. What did we achieve and what do you recommend for Q1?'",
+          "salespersonStart": "I am pleased to report that the campaign exceeded its objectives.",
+          "suggestedCompletion": "We generated eighty-three qualified leads against a target of seventy-five — 110% of our target. The campaign ROI was 620%, well above the 500% objective. The webinar was the standout activity — forty-eight attendees, twelve discovery calls booked on the day, and three converted to proposals within two weeks. The email sequence had a 31% open rate and a 14% conversion rate on the landing page. For Q1, my recommendation is to scale up three things: increase the LinkedIn budget by 30% to build on the momentum, run the webinar quarterly instead of once, and add a referral campaign — your existing clients are your strongest asset and we have not activated them yet. I will pull together a full Q1 brief and share it by next Friday. Can we book a review call for Thursday to go through the data together?"
+        }
+      ]
+    }
+  }
+}

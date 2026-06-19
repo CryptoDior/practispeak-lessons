@@ -1,0 +1,393 @@
+{
+  "exportName": "inAMarketingMeeting",
+  "title": "In a Marketing Meeting",
+  "subtitle": "Meeting language basics — how to participate, propose, and agree in English",
+  "level": "A2",
+  "description": "Marketing meetings happen every day — briefings, campaign reviews, planning sessions. This lesson gives you the vocabulary and phrases to participate confidently: how to propose an idea, agree with a colleague, follow an agenda, and make sure everyone leaves knowing what happens next.",
+  "dialogueSubtitle": "Riley runs a weekly marketing meeting with Dana to review the campaign and agree next steps",
+  "warmUp": {
+    "questions": [
+      "How often do you have marketing meetings at work? What is usually on the agenda?",
+      "What makes a meeting productive versus a waste of time? What do good meeting facilitators do differently?",
+      "Have you ever had to participate in a meeting in English? What was the hardest part — understanding others, or making yourself understood?"
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "agenda",
+      "partOfSpeech": "noun",
+      "definition": "A list of topics or items to discuss during a meeting — shared in advance so everyone knows what to expect.",
+      "example": "Riley sent the agenda to the team the evening before the meeting — it had four items: campaign review, new brief, budget update, and next steps."
+    },
+    {
+      "word": "action point",
+      "partOfSpeech": "noun",
+      "definition": "A specific task that someone agrees to complete after a meeting — with a clear owner and deadline.",
+      "example": "At the end of the meeting, Dana wrote down all the action points — she had two: update the content calendar and send the brief to the client."
+    },
+    {
+      "word": "minutes",
+      "partOfSpeech": "noun",
+      "definition": "A written record of what was discussed and decided in a meeting — including action points and who is responsible.",
+      "example": "Riley asked Dana to take the minutes so that everyone could review what was agreed and what needs to happen next."
+    },
+    {
+      "word": "propose",
+      "partOfSpeech": "verb",
+      "definition": "To formally suggest an idea or course of action in a meeting — to put something forward for the group to consider.",
+      "example": "Riley proposed moving the launch date by one week to give the team more time to prepare the teaser content."
+    },
+    {
+      "word": "agree",
+      "partOfSpeech": "verb",
+      "definition": "To have the same opinion as someone, or to say yes to a suggestion or plan.",
+      "example": "The whole team agreed that LinkedIn would be the primary channel for the Q3 campaign."
+    },
+    {
+      "word": "update",
+      "partOfSpeech": "noun",
+      "definition": "A short report on the current status of a project or task — shared in a meeting to keep everyone informed.",
+      "example": "Dana gave a quick update on the campaign results — reach was up 40% and leads had doubled compared to last month."
+    },
+    {
+      "word": "brief",
+      "partOfSpeech": "noun",
+      "definition": "A document or short explanation that gives a creative team the key information they need to do a piece of work.",
+      "example": "Riley wrote the brief for the new campaign — it included the target audience, the key message, the channels, and the deadline."
+    },
+    {
+      "word": "follow-up",
+      "partOfSpeech": "noun",
+      "definition": "An action taken after a meeting to complete what was agreed — or a second meeting to check on progress.",
+      "example": "Dana sent a follow-up email after the meeting with all the action points, owners, and deadlines — so nothing was forgotten."
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "TAKE THE MINUTES",
+      "definition": "To write down what is discussed and decided during a meeting — so there is a record for everyone.",
+      "example": "Can you take the minutes today? I want to make sure we have a clear record of what we agreed."
+    },
+    {
+      "phrase": "MOVE ON TO [THE NEXT POINT]",
+      "definition": "To finish discussing one topic and start discussing the next one on the agenda.",
+      "example": "Okay — I think we have covered the campaign results. Let us move on to the next point: the new client brief."
+    },
+    {
+      "phrase": "WRAP UP",
+      "definition": "To finish a meeting or a discussion — to bring it to a close.",
+      "example": "Let us wrap up — we only have five minutes left. Can we quickly go through the action points?"
+    },
+    {
+      "phrase": "FOLLOW UP ON [SOMETHING]",
+      "definition": "To check on the progress of something that was agreed or discussed in a previous meeting.",
+      "example": "I will follow up on the client brief next Tuesday — by then Dana should have the first draft ready."
+    },
+    {
+      "phrase": "BRING [SOMETHING] UP",
+      "definition": "To mention or introduce a topic in a meeting — to raise something for the group to discuss.",
+      "example": "Riley brought up the budget issue early in the meeting — she wanted everyone to know before they started planning."
+    },
+    {
+      "phrase": "AGREE ON [SOMETHING]",
+      "definition": "To reach a shared decision about something — when a group comes to the same conclusion.",
+      "example": "We need to agree on the launch date before we can finalise the timeline — everything depends on that date."
+    }
+  ],
+  "videos": [],
+  "dialogue": [
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Okay — let us get started. Dana, did everyone receive the [[agenda:a list of topics to discuss in a meeting]]?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Yes — I sent it last night. Four items: campaign [[update:a short report on the current status]], new [[brief:a document giving a team the key information to do their work]], budget, and next steps."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Perfect. Can you also [[take the minutes]] today? I want a written record of everything we [[agree:to have the same opinion or say yes to a plan]] on."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Of course. I will send the [[minutes:a written record of what was discussed and decided]] to everyone after the meeting."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Great. First item — campaign [[update:short report on current status]]. Dana, how are the LinkedIn results?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Reach is up forty percent. Leads have doubled. The sponsored posts are performing better than the organic content."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Excellent. I want to [[propose:to formally suggest an idea]] increasing the sponsored post budget by €500 next month. Does everyone [[agree:to say yes to a suggestion]]?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "I [[agree:to say yes to a plan]] — the data supports it. Can we [[bring up]] the creative [[brief:a document with key information for a creative team]] now? The designer is waiting for it."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Yes — let us [[move on to]] item two. The new [[brief:a document giving a team the information to do their work]] is for the Q4 campaign. I have a draft — I [[propose:to formally suggest]] we review it together and finalise it today."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Agreed. One [[action point:a specific task someone agrees to complete]] for me: send the approved brief to the designer by Friday."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Good. And I will [[follow up on]] the client approval by Thursday. Let us [[wrap up]] — can you summarise the [[action point:specific tasks agreed after the meeting]] s?"
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Sure. Dana: send brief to designer by Friday. Riley: client approval by Thursday. I will send the [[minutes:written record of what was discussed]] and a [[follow-up:an action or message after a meeting]] email within the hour."
+    }
+  ],
+  "matchingExercise": [
+    { "word": "AGENDA", "definition": "A list of topics to discuss in a meeting — shared in advance so everyone knows what to expect" },
+    { "word": "ACTION POINT", "definition": "A specific task someone agrees to complete after a meeting — with a clear owner and deadline" },
+    { "word": "MINUTES", "definition": "A written record of what was discussed and decided in a meeting" },
+    { "word": "PROPOSE", "definition": "To formally suggest an idea or course of action in a meeting" },
+    { "word": "AGREE", "definition": "To have the same opinion as someone, or to say yes to a suggestion or plan" },
+    { "word": "UPDATE", "definition": "A short report on the current status of a project — shared to keep everyone informed" },
+    { "word": "BRIEF", "definition": "A document giving a creative team the key information they need to do a piece of work" },
+    { "word": "FOLLOW-UP", "definition": "An action taken after a meeting to complete what was agreed — or a message checking on progress" }
+  ],
+  "fillBlankExercise": [
+    { "before": "Riley sent the", "after": "to the team the evening before — it had four items to discuss.", "answer": "agenda" },
+    { "before": "At the end of the meeting, Dana wrote down all the", "after": "s — she had two tasks with deadlines.", "answer": "action point" },
+    { "before": "Riley asked Dana to take the", "after": "so everyone could review what was agreed after the meeting.", "answer": "minutes" },
+    { "before": "Riley", "after": "d moving the launch date by one week to give the team more time to prepare.", "answer": "propose" },
+    { "before": "The whole team", "after": "d that LinkedIn would be the primary channel for the Q3 campaign.", "answer": "agree" },
+    { "before": "Dana gave a quick", "after": "on the campaign — reach was up 40% and leads had doubled.", "answer": "update" },
+    { "before": "Riley wrote the", "after": "for the new campaign — it included the audience, key message, channels, and deadline.", "answer": "brief" },
+    { "before": "Dana sent a", "after": "email after the meeting with all the action points, owners, and deadlines.", "answer": "follow-up" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "A meeting is about to start. You notice there is no agenda. What should you do?",
+      "options": [
+        "Start the meeting anyway — agendas are not necessary.",
+        "Ask the organiser to share an agenda — even a quick list of topics helps everyone prepare and keeps the meeting focused.",
+        "Leave the meeting and ask for it to be rescheduled.",
+        "Wait and see what topics come up — it will be fine."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "At the end of a meeting, the team has agreed on several tasks. What should you create?",
+      "options": [
+        "A new agenda for the next meeting.",
+        "A list of action points — with the owner's name and deadline for each task.",
+        "A summary of everything that was discussed in detail.",
+        "A follow-up email to all stakeholders."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "You want to suggest a new idea in a meeting without being too direct. What do you say?",
+      "options": [
+        "Say: 'We should do this. It is the best option.'",
+        "Say: 'I want to propose something — what if we increased the sponsored post budget? The data from last month suggests it would drive more leads.'",
+        "Say: 'Has anyone thought about doing something different?'",
+        "Say: 'I think the current plan is wrong — we need to change everything.'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "The meeting has covered everything on the agenda. How do you end it professionally?",
+      "options": [
+        "Say: 'Okay, we are done. See you next time.'",
+        "Say: 'Let us wrap up — can we quickly confirm the action points and who is responsible for each one before we finish?'",
+        "Say: 'I need to go now — can someone send me a summary later?'",
+        "Say: 'Good meeting everyone — I think that went well.'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is the difference between 'propose' and 'agree'?",
+      "options": [
+        "They mean the same thing — both involve making a decision.",
+        "Propose is when you put forward an idea for others to consider. Agree is when you say yes to an idea that has been proposed.",
+        "Propose is more formal than agree.",
+        "Propose is used at the start of a meeting. Agree is used at the end."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Someone says: 'Can we follow up on this next week?' What do they mean?",
+      "options": [
+        "They want to cancel the current discussion and start again.",
+        "They want to check on the progress of this topic in the next meeting — not resolve it now.",
+        "They want to send an email about this topic now.",
+        "They think the topic is not important enough to discuss."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What information should a good brief always include?",
+      "options": [
+        "The price of the campaign and the total budget only.",
+        "The target audience, the key message, the channels, the deadline, and what success looks like.",
+        "The names of all the people working on the project.",
+        "A list of everything the creative team should NOT do."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "After a meeting, you want to make sure everyone remembers what was agreed. What do you send?",
+      "options": [
+        "A new agenda for the next meeting.",
+        "The original presentation from the meeting.",
+        "A follow-up email with the minutes and action points — including owner and deadline for each task.",
+        "A message asking everyone if they have any questions."
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "completeSentenceExercise": {
+    "instructions": "Choose the correct word to complete each sentence. Then read the sentence aloud.",
+    "items": [
+      {
+        "sentence": "Let us _____ — can we quickly go through the action points before we finish?",
+        "options": ["bring up", "wrap up", "follow up"],
+        "correctIndex": 1,
+        "explanation": "Wrap up means to finish a meeting or discussion and bring it to a close. Bring up means to introduce a new topic. Follow up means to check on progress after a meeting. 'Let us wrap up' is the natural phrase for ending a meeting professionally."
+      },
+      {
+        "sentence": "Riley _____ increasing the sponsored post budget — the team agreed it was a good idea.",
+        "options": ["agreed", "proposed", "updated"],
+        "correctIndex": 1,
+        "explanation": "Proposed means to formally suggest an idea or action in a meeting. Agreed means to say yes to a suggestion. Updated means to give a short report on current status. Riley put the idea forward (proposed) — the team said yes (agreed)."
+      },
+      {
+        "sentence": "Dana will send the _____ after the meeting — a written record of everything we discussed and decided.",
+        "options": ["agenda", "brief", "minutes"],
+        "correctIndex": 2,
+        "explanation": "Minutes are the written record of what was discussed and decided. Agenda is the list of topics shared before the meeting. Brief is a document for creative teams. The minutes are written during or after the meeting — they capture the decisions and action points."
+      },
+      {
+        "sentence": "Before we start, I want to _____ the budget issue — it will affect everything else we discuss today.",
+        "options": ["agree on", "bring up", "move on to"],
+        "correctIndex": 1,
+        "explanation": "Bring up means to mention or introduce a topic in a meeting. Agree on means to reach a shared decision. Move on to means to go to the next topic. Bringing up the budget issue means raising it so everyone can discuss it before making other decisions."
+      },
+      {
+        "sentence": "Dana's _____ for this week is to send the approved brief to the designer by Friday.",
+        "options": ["follow-up", "action point", "update"],
+        "correctIndex": 1,
+        "explanation": "Action point is a specific task someone agrees to complete after a meeting — with a clear owner and deadline. Follow-up is a message or action checking on progress. Update is a status report. An action point is concrete and assigned — it is what a person commits to doing."
+      },
+      {
+        "sentence": "We need to _____ the launch date before we can finalise the timeline — everything else depends on it.",
+        "options": ["propose", "bring up", "agree on"],
+        "correctIndex": 2,
+        "explanation": "Agree on means to reach a shared decision — when the whole group comes to the same conclusion. Propose means to suggest something. Bring up means to raise a topic. Agreeing on the date means everyone has decided and committed — it is the foundation for all other planning."
+      }
+    ]
+  },
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in pairs. Read each meeting situation and choose the best response. Talk about why before you click.",
+      "items": [
+        {
+          "customerLine": "Colleague in meeting: 'I am not sure we should increase the budget — what if the results do not improve?'",
+          "options": [
+            "Say: 'The budget is increasing — this is already decided. Let us move on.'",
+            "Say: 'That is a fair concern. The data from last month shows that every extra €100 in sponsored posts generated approximately three new leads. Based on that, increasing by €500 should give us around fifteen more leads. Does that help make the case?'",
+            "Say: 'I disagree — we should trust the data and just do it.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It validates the concern, then responds with data-driven reasoning. This is how good meeting participants handle objections — they do not dismiss or override, they explain. A shuts down the conversation. C is dismissive without providing any reason."
+        },
+        {
+          "customerLine": "A new team member: 'What should I do with the action points from the meeting?'",
+          "options": [
+            "Say: 'Action points are just suggestions — do them when you can.'",
+            "Say: 'Each action point has an owner and a deadline. Your job is to complete your action points by the agreed date and update the team if anything changes. If you are not sure what your action points are, check the minutes — Dana will send them within the hour.'",
+            "Say: 'Action points will be covered in your training. No need to worry about them now.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It explains what action points are, what the expectation is, and where to find the information. A implies action points are optional, which is wrong. C deflects the question instead of helping."
+        },
+        {
+          "customerLine": "Meeting organiser: 'We have ten minutes left and we have not covered the last two agenda items.'",
+          "options": [
+            "Say: 'Let us keep going and finish the meeting whenever we finish — there is no rush.'",
+            "Say: 'I suggest we quickly agree on which item is most urgent and cover that now. The other one can be moved to a follow-up meeting or handled by email. Which is more time-sensitive?'",
+            "Say: 'We should cancel the other items — if they were important, we would have covered them by now.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It proposes a practical solution — prioritise one item, defer the other — and asks a focused question to move things forward. A ignores the time constraint. C is too dismissive of the remaining items."
+        }
+      ]
+    },
+    "spotTheMistake": {
+      "instructions": "Read this meeting follow-up email. There are 3 mistakes. Find them and correct them. Work in pairs.",
+      "dialogue": [
+        { "speaker": "Subject", "text": "Follow-up: Weekly Marketing Meeting — Action Points" },
+        { "speaker": "Body", "text": "Hi team," },
+        { "speaker": "Body", "text": "Thank you for attended today's meeting. Please find below a summary of what we agreed." },
+        { "speaker": "Body", "text": "Action Points:" },
+        { "speaker": "Body", "text": "1. Dana — Send the approved brief to the designer until Friday." },
+        { "speaker": "Body", "text": "2. Riley — Follow up on the client approval by Thursday." },
+        { "speaker": "Body", "text": "Please let me know if you have any questions or if I have missed anything on the minutes." },
+        { "speaker": "Sign-off", "text": "Best regards, Dana" }
+      ],
+      "mistakes": [
+        {
+          "lineIndex": 2,
+          "incorrectText": "Thank you for attended",
+          "correction": "Thank you for attending",
+          "explanation": "'Thank you for' is always followed by a gerund (verb + -ing). Say: 'thank you for attending', 'thank you for joining', 'thank you for your time'. Using the past tense 'attended' after 'for' is a common mistake — the gerund (-ing form) is always required here."
+        },
+        {
+          "lineIndex": 4,
+          "incorrectText": "Send the approved brief to the designer until Friday",
+          "correction": "Send the approved brief to the designer by Friday",
+          "explanation": "'Until' means continuously up to a point in time (e.g., 'I will wait until Friday'). 'By' means no later than a deadline (e.g., 'send it by Friday'). For deadlines and action points, always use 'by' — not 'until'."
+        },
+        {
+          "lineIndex": 6,
+          "incorrectText": "if I have missed anything on the minutes",
+          "correction": "if I have missed anything in the minutes",
+          "explanation": "The correct preposition is 'in the minutes' — not 'on the minutes'. You are referring to content contained within the written document. Use 'in' for written records, documents, and lists: 'in the minutes', 'in the brief', 'in the agenda'."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "Finish the line using language from this lesson. Then compare with a partner.",
+      "items": [
+        {
+          "customerLine": "New colleague: 'I find it hard to participate in English meetings. I understand but I do not know how to add something.'",
+          "salespersonStart": "That is very common — here are a few phrases that will help.",
+          "suggestedCompletion": "To propose something, say: 'I would like to propose...' or 'Can I suggest something?' To agree, say: 'I agree' or 'That makes sense' or 'I think that is the right approach.' To ask a question without interrupting, say: 'Can I just add something quickly?' or 'Before we move on, can I raise one point?' These short phrases give you a way in without needing a long sentence."
+        },
+        {
+          "customerLine": "Manager: 'Our meetings always run over time and nobody knows what they are supposed to do afterwards. What can we improve?'",
+          "salespersonStart": "Two things will make the biggest difference.",
+          "suggestedCompletion": "First, always send an agenda before the meeting — even a short list of three or four items. This keeps the discussion focused and gives everyone a time limit per topic. Second, end every meeting with a clear list of action points — who does what, by when. Send the minutes within one hour of the meeting ending. If people know there will always be action points at the end, they pay more attention during the meeting."
+        },
+        {
+          "customerLine": "Client: 'We had a meeting about your proposal but I was not there. Can you send me a summary?'",
+          "salespersonStart": "Of course — I will send you the minutes from the meeting.",
+          "suggestedCompletion": "The main points we agreed on were: to start with a six-month plan, to focus on LinkedIn sponsored posts and email, and to set the first review meeting for week four. There were also two action points — one for my team and one for yours. I will include all of that in the follow-up email. Is there anything specific you would like me to clarify or that you want to discuss before we finalise?"
+        }
+      ]
+    }
+  }
+}
