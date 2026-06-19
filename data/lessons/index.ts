@@ -84,6 +84,7 @@ import { advancedFollowUpStrategy } from './advanced-follow-up-strategy';
 import { presentingProposals } from './presenting-proposals';
 import { salesLeadershipCommunication } from './sales-leadership-communication';
 import { helloIWorkInMarketing } from './hello-i-work-in-marketing';
+import { myCompany } from './my-company';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -171,6 +172,7 @@ export const lessons: Lesson[] = [
   presentingProposals,
   salesLeadershipCommunication,
   helloIWorkInMarketing,
+  myCompany,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
