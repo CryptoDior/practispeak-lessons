@@ -1,0 +1,465 @@
+import { Lesson } from '@/types/lesson';
+
+export const theMarketingTeam: Lesson = {
+  slug: 'the-marketing-team',
+  title: 'The Marketing Team',
+  subtitle: 'How to talk about roles and people on a marketing team',
+  level: 'A1-A2',
+  description: 'Learn the words for jobs and roles on a marketing team and how to say simply what each person does.',
+  heroImage: '/images/the-marketing-team-hero.png',
+
+  vocabulary: [
+    {
+      word: 'MANAGER',
+      partOfSpeech: 'noun',
+      definition: 'A person who is in charge of a team or part of a company.',
+      example: 'The marketing manager looks after the whole marketing team.',
+      imageSlug: '/images/manager.png',
+    },
+    {
+      word: 'DIRECTOR',
+      partOfSpeech: 'noun',
+      definition: 'A person with a senior job who makes big decisions for the company.',
+      example: 'The marketing director is in charge of all marketing at Brightline.',
+      imageSlug: '/images/director.png',
+    },
+    {
+      word: 'EXECUTIVE',
+      partOfSpeech: 'noun',
+      definition: 'A person who works in marketing and helps plan and run campaigns.',
+      example: 'The marketing executive helps plan campaigns for the brand.',
+      imageSlug: '/images/executive.png',
+    },
+    {
+      word: 'INTERN',
+      partOfSpeech: 'noun',
+      definition: 'A student or new worker who works at a company for a short time to learn.',
+      example: 'Our intern is helping us with social media this month.',
+      imageSlug: '/images/intern.png',
+    },
+    {
+      word: 'AGENCY',
+      partOfSpeech: 'noun',
+      definition: 'A company that helps other companies with their marketing.',
+      example: 'We work with an agency for our online advertising.',
+      imageSlug: '/images/agency.png',
+    },
+    {
+      word: 'ASSISTANT',
+      partOfSpeech: 'noun',
+      definition: 'A person who helps someone else with their work.',
+      example: 'The marketing assistant helps the team with day-to-day tasks.',
+      imageSlug: '/images/assistant.png',
+    },
+    {
+      word: 'HEAD',
+      partOfSpeech: 'noun',
+      definition: 'The person in charge of a department or team.',
+      example: 'Sam is the head of marketing — everyone in the team reports to her.',
+      imageSlug: '/images/head.png',
+    },
+    {
+      word: 'COLLEAGUE',
+      partOfSpeech: 'noun',
+      definition: 'A person you work with.',
+      example: "My colleague Carlos looks after the company's social media.",
+      imageSlug: '/images/colleague.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'IN CHARGE OF',
+      definition: 'Say that someone is responsible for a team or area of work.',
+      example: 'The marketing manager is in charge of all campaigns and content.',
+      imageSlug: '/images/in-charge-of.png',
+    },
+    {
+      phrase: 'REPORTS TO',
+      definition: "Say who someone's manager is.",
+      example: 'The marketing executive reports to the marketing manager.',
+      imageSlug: '/images/reports-to.png',
+    },
+    {
+      phrase: 'LOOKS AFTER',
+      definition: 'Say that someone is responsible for something.',
+      example: 'My colleague looks after our social media accounts.',
+      imageSlug: '/images/looks-after.png',
+    },
+    {
+      phrase: 'WORKS WITH',
+      definition: 'Say that a person or team works together with someone else.',
+      example: 'Our team works with an agency for our paid advertising.',
+      imageSlug: '/images/works-with.png',
+    },
+    {
+      phrase: 'IS RESPONSIBLE FOR',
+      definition: 'Say what area of work a person owns or manages.',
+      example: 'The director is responsible for the whole marketing department.',
+      imageSlug: '/images/is-responsible-for.png',
+    },
+    {
+      phrase: 'DAY TO DAY',
+      definition: 'The normal work that someone does every day.',
+      example: 'My day to day work is writing content and looking after social media.',
+      imageSlug: '/images/day-to-day.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Can you tell me a bit about your team, Riley?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Of course. At the top we have Sarah — she is the marketing [[director:a person with a senior job who makes big decisions for the company]]. She is in charge of the whole department.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'And who is below her?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'That is James — our marketing [[manager:a person who is in charge of a team or part of a company]]. He looks after the day to day work and all the campaigns.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'And where do you fit in the team?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'I am a marketing [[executive:a person who works in marketing and helps plan and run campaigns]]. I report to James. I help plan campaigns and write content.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Is there anyone else on the team?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Yes — we have a marketing [[assistant:a person who helps someone else with their work]], Leo. He helps with day to day tasks like emails and reports.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'What about an [[intern:a student or new worker who works at a company for a short time to learn]]?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Yes! We have an intern this month — she is helping my [[colleague:a person you work with]] Carlos with social media.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Do you work with an [[agency:a company that helps other companies with their marketing]] too?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'We do — we work with an agency for our paid ads. They report to James and work closely with the team.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'It sounds like a well-organised team. Who is the [[head:the person in charge of a department or team]] of the whole department?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'That is Sarah — the director. Everyone reports to her in the end.',
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "MANAGER",
+        "definition": "A person who is in charge of a team or part of a company"
+    },
+    {
+        "word": "DIRECTOR",
+        "definition": "A person with a senior job who makes big decisions for the company"
+    },
+    {
+        "word": "EXECUTIVE",
+        "definition": "A person who works in marketing and helps plan and run campaigns"
+    },
+    {
+        "word": "INTERN",
+        "definition": "A student or new worker who works at a company for a short time to learn"
+    },
+    {
+        "word": "AGENCY",
+        "definition": "A company that helps other companies with their marketing"
+    },
+    {
+        "word": "ASSISTANT",
+        "definition": "A person who helps someone else with their work"
+    },
+    {
+        "word": "HEAD",
+        "definition": "The person in charge of a department or team"
+    },
+    {
+        "word": "COLLEAGUE",
+        "definition": "A person you work with"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "The marketing",
+        "after": "looks after the whole marketing team.",
+        "answer": "manager"
+    },
+    {
+        "before": "The marketing",
+        "after": "is in charge of all marketing at Brightline.",
+        "answer": "director"
+    },
+    {
+        "before": "The marketing",
+        "after": "helps plan campaigns for the brand.",
+        "answer": "executive"
+    },
+    {
+        "before": "Our",
+        "after": "is helping us with social media this month.",
+        "answer": "intern"
+    },
+    {
+        "before": "We work with an",
+        "after": "for our online advertising.",
+        "answer": "agency"
+    },
+    {
+        "before": "The marketing",
+        "after": "helps the team with day-to-day tasks.",
+        "answer": "assistant"
+    },
+    {
+        "before": "Sam is the",
+        "after": "of marketing — everyone in the team reports to her.",
+        "answer": "head"
+    },
+    {
+        "before": "My",
+        "after": "Carlos looks after the company's social media.",
+        "answer": "colleague"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "Who is at the top of the Brightline marketing team?",
+        "options": [
+            "James the manager",
+            "Riley the executive",
+            "Leo the assistant",
+            "Sarah the director"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "What does James do?",
+        "options": [
+            "He is the director",
+            "He looks after day to day work and all the campaigns",
+            "He helps with emails and reports",
+            "He works with the agency"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is Riley's job title?",
+        "options": [
+            "Marketing manager",
+            "Marketing director",
+            "Marketing executive",
+            "Marketing assistant"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Who does Riley report to?",
+        "options": [
+            "Sarah",
+            "James",
+            "Leo",
+            "Carlos"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Leo do?",
+        "options": [
+            "He plans campaigns",
+            "He looks after social media",
+            "He helps with day to day tasks like emails and reports",
+            "He works with the agency"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What is the intern helping with?",
+        "options": [
+            "Writing reports",
+            "Planning campaigns",
+            "Social media",
+            "Paid advertising"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "What does the agency help with?",
+        "options": [
+            "Content writing",
+            "Paid advertising",
+            "Email campaigns",
+            "Hiring staff"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Who does everyone in the department report to in the end?",
+        "options": [
+            "James",
+            "Riley",
+            "Leo",
+            "Sarah"
+        ],
+        "correctIndex": 3
+    }
+],
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Work in groups. Read the question. Talk about which answer (A, B, or C) is best. Choose together, then click to check.",
+        "items": [
+            {
+                "customerLine": "Who is in charge of your marketing team?",
+                "options": [
+                    "We have a director.",
+                    "Our marketing director, Sarah, is in charge of the whole department. Everyone reports to her.",
+                    "There are many people in charge."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It gives the name, the job title, and says clearly that everyone reports to her. A does not say who the director is. C is not clear and does not give any useful information."
+            },
+            {
+                "customerLine": "What do you do in your team?",
+                "options": [
+                    "I help with many things.",
+                    "I am a marketing executive. I help plan campaigns and write content. I report to the marketing manager.",
+                    "I work in marketing."
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It gives your job title, what you do, and who you report to — a clear picture of your role. A is too vague. C says almost nothing useful."
+            },
+            {
+                "customerLine": "Do you have an intern on the team?",
+                "options": [
+                    "Yes — she is helping my colleague Carlos with social media this month.",
+                    "Yes, we sometimes have interns.",
+                    "I'm not sure — I think so."
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. It says yes, says what the intern is doing, and says who she is working with. B says very little and sounds unsure. C sounds like you do not know your own team."
+            },
+            {
+                "customerLine": "Do you use an agency or do you do everything in-house?",
+                "options": [
+                    "Both — our team looks after content and campaigns, and we work with an agency for our paid advertising.",
+                    "We use an agency.",
+                    "It depends on the project."
+                ],
+                "correctIndex": 0,
+                "explanation": "A is correct. It says what the team does and what the agency does — a clear answer that shows you know how the team works. B says too little. C avoids giving a real answer."
+            }
+        ]
+    },
+    "profileMatch": {
+        "instructions": "You are Riley. Three people ask about your team. As a group, talk about which way to describe the team fits each situation best. Click 'Check Matches' when you agree.",
+        "profiles": [
+            {
+                "name": "A new client on a first call",
+                "description": "A client wants to know who they will be working with. They want to know the main people and what each person does.",
+                "matchKey": "roles"
+            },
+            {
+                "name": "A new intern starting this week",
+                "description": "A new intern has just joined the team. They want to understand how the team is set up and who to go to for different things.",
+                "matchKey": "structure"
+            },
+            {
+                "name": "A contact at a networking event",
+                "description": "Someone at an event asks how big your team is. They are curious but not a client. You have about 30 seconds.",
+                "matchKey": "simple"
+            }
+        ],
+        "options": [
+            {
+                "key": "roles",
+                "label": "Name and role",
+                "description": "Say the name and job title of each key person, and one sentence about what they do. Best when a client needs to know who to contact and why."
+            },
+            {
+                "key": "structure",
+                "label": "Top to bottom",
+                "description": "Start at the top — the director — and go down through the team one by one. Say who reports to who. Best when someone new needs to understand how the team is set up."
+            },
+            {
+                "key": "simple",
+                "label": "One short answer",
+                "description": "Say the team size and one or two things about what the team does. No names or job titles needed. Best for a quick, casual conversation."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The marketer's line is not finished. As a group, talk about how you would finish it. Use words from this lesson. There is no one right answer — share your ideas, then click to see one example.",
+        "items": [
+            {
+                "customerLine": "Can you describe your team structure?",
+                "salespersonStart": "Of course — at the top we have Sarah, the marketing director. She is in charge of the whole department.",
+                "suggestedCompletion": "Below her is James, the marketing manager. He looks after the day to day work. Then there is me — I am an executive — and Leo, our assistant. We also have an intern and we work with an agency for paid advertising."
+            },
+            {
+                "customerLine": "Who would I contact if I have a question about the campaign?",
+                "salespersonStart": "For most questions, you can come to me — I am the executive working on your account. But if it is a big",
+                "suggestedCompletion": "decision, James is the marketing manager and he is in charge of all campaigns. He reports to Sarah, the director, for anything at a senior level."
+            },
+            {
+                "customerLine": "Does your team do all the work, or do you use outside help?",
+                "salespersonStart": "We do most things in-house — the team looks after content, campaigns, and social media. But we also work with an",
+                "suggestedCompletion": "agency for our paid advertising. They work closely with James and report to him on all the ad campaigns."
+            },
+            {
+                "customerLine": "What does a marketing executive actually do?",
+                "salespersonStart": "A marketing executive helps plan and run campaigns. Day to day, you might be",
+                "suggestedCompletion": "writing content, setting up ads, or looking at data to see how a campaign is going. You report to the marketing manager and work closely with the rest of the team."
+            }
+        ]
+    }
+},
+};
