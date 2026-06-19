@@ -1,5 +1,5 @@
 export type Level = 'A1' | 'A1-A2' | 'A2' | 'B1-B2' | 'C1-C2';
-export type PartOfSpeech = 'noun' | 'verb' | 'adjective' | 'adverb' | 'phrasal verb' | 'abbreviation' | 'exclamation' | 'phrase' | 'preposition' | 'pronoun' | 'conjunction';
+export type PartOfSpeech = 'noun' | 'verb' | 'noun / verb' | 'adjective' | 'adverb' | 'phrasal verb' | 'abbreviation' | 'exclamation' | 'phrase' | 'preposition' | 'pronoun' | 'conjunction';
 export type SpeakerColor = 'purple' | 'green' | 'orange' | 'blue' | 'red';
 
 export interface VocabWord {
