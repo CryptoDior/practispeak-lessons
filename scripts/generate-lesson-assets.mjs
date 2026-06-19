@@ -25,10 +25,7 @@ import OpenAI from 'openai';
 const OPENAI_KEY = process.env.OPENAI_API_KEY;
 const ELEVENLABS_KEY = process.env.ELEVENLABS_API_KEY;
 
-if (!OPENAI_KEY) throw new Error('Missing OPENAI_API_KEY in environment');
-if (!ELEVENLABS_KEY) throw new Error('Missing ELEVENLABS_API_KEY in environment');
-
-const openai = new OpenAI({ apiKey: OPENAI_KEY });
+const openai = OPENAI_KEY ? new OpenAI({ apiKey: OPENAI_KEY }) : null;
 
 // ElevenLabs voice IDs — full voice roster (always rotate, always speed 0.75)
 const VOICES = {
@@ -130,13 +127,18 @@ function slugify(word) {
 const args = process.argv.slice(2);
 const lessonSlug = args.find(a => !a.startsWith('--'));
 const skipAudio  = args.includes('--no-audio');
+const skipImages = args.includes('--no-images');
 
 if (!lessonSlug) {
-  console.error('Usage: node scripts/generate-lesson-assets.mjs <lesson-slug> [--no-audio]');
+  console.error('Usage: node scripts/generate-lesson-assets.mjs <lesson-slug> [--no-audio] [--no-images]');
   process.exit(1);
 }
 
-if (skipAudio) console.log('\n⏭️  --no-audio flag set — skipping ElevenLabs generation');
+if (!skipImages && !OPENAI_KEY) throw new Error('Missing OPENAI_API_KEY in environment (or use --no-images to skip image generation)');
+if (!skipAudio  && !ELEVENLABS_KEY) throw new Error('Missing ELEVENLABS_API_KEY in environment (or use --no-audio to skip audio generation)');
+
+if (skipAudio)  console.log('\n⏭️  --no-audio flag set — skipping ElevenLabs generation');
+if (skipImages) console.log('\n⏭️  --no-images flag set — skipping image generation');
 
 const specPath = path.join(SPECS_DIR, `${lessonSlug}.json`);
 if (!fs.existsSync(specPath)) {

@@ -1,0 +1,324 @@
+{
+  "exportName": "ourTargetMarket",
+  "title": "Our Target Market",
+  "subtitle": "How to describe your customers and who you are trying to reach",
+  "level": "A2",
+  "description": "Learn the words marketers use to describe customer groups — their age, income, lifestyle, and what they care about.",
+  "dialogueSubtitle": "Riley explains Brightline's target market to Dana in a planning meeting",
+  "vocabulary": [
+    {
+      "word": "demographic",
+      "partOfSpeech": "noun",
+      "definition": "A fact about a group of people, such as their age, gender, or income.",
+      "example": "Our key demographic is professionals aged 25 to 45 who work in marketing or sales."
+    },
+    {
+      "word": "age group",
+      "partOfSpeech": "noun",
+      "definition": "A range of ages that people belong to. For example: 18-24 or 35-50.",
+      "example": "Our main age group is 30 to 45 — they are experienced but still open to new tools."
+    },
+    {
+      "word": "gender",
+      "partOfSpeech": "noun",
+      "definition": "Whether someone is male, female, or another identity.",
+      "example": "Our product is used equally by all genders — we do not target one more than another."
+    },
+    {
+      "word": "income",
+      "partOfSpeech": "noun",
+      "definition": "The money a person earns from their job.",
+      "example": "We target people with a mid-to-high income who have a budget for marketing tools."
+    },
+    {
+      "word": "lifestyle",
+      "partOfSpeech": "noun",
+      "definition": "The way a person lives — what they do, what they buy, and what they care about.",
+      "example": "Our customers have a busy lifestyle — they want tools that save them time."
+    },
+    {
+      "word": "profile",
+      "partOfSpeech": "noun",
+      "definition": "A description of a typical customer — who they are and what they need.",
+      "example": "We create a customer profile so the whole team understands who we are talking to."
+    },
+    {
+      "word": "interest",
+      "partOfSpeech": "noun",
+      "definition": "Something a person likes or cares about.",
+      "example": "Our target customers have an interest in marketing, technology, and business growth."
+    },
+    {
+      "word": "behaviour",
+      "partOfSpeech": "noun",
+      "definition": "The way a person acts or what they do — for example, how they shop or use the internet.",
+      "example": "We look at customer behaviour to understand when and how they use our product."
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "TARGET [X]",
+      "definition": "Decide to focus your marketing on a specific group of people.",
+      "example": "We target marketing managers at small and medium-sized companies."
+    },
+    {
+      "phrase": "APPEAL TO",
+      "definition": "Be interesting or attractive to a group of people.",
+      "example": "Our product appeals to people who manage large amounts of data every day."
+    },
+    {
+      "phrase": "NARROW DOWN",
+      "definition": "Make a large group smaller by choosing the most important part.",
+      "example": "We narrowed down our target market to companies with 10 to 100 employees."
+    },
+    {
+      "phrase": "SPEAK TO",
+      "definition": "Say that your message or product is right for a certain group.",
+      "example": "This campaign speaks to busy professionals who do not have time to manage five tools."
+    },
+    {
+      "phrase": "FIT THE PROFILE",
+      "definition": "Match the description of your typical customer.",
+      "example": "Dana fits the profile of our ideal client — small agency, growth-focused, marketing-savvy."
+    },
+    {
+      "phrase": "BASED ON",
+      "definition": "Using something as the reason or starting point for a decision.",
+      "example": "We choose our channels based on the behaviour and interests of our target market."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Riley, how does Brightline describe its target market? I am curious to know more."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "We start with the [[demographic:a fact about a group of people, such as their age, gender, or income]]. Our main customer is a marketing manager or business owner — usually between 30 and 45."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "So your main [[age group:a range of ages that people belong to]] is 30 to 45?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Yes — they are experienced enough to have a budget, but still open to new tools and ideas. We also look at [[income:the money a person earns from their job]] — we target people with a mid-to-high income."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Do you focus on a specific [[gender:whether someone is male, female, or another identity]]?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "No — our product is used equally by all genders. We focus more on job role and [[lifestyle:the way a person lives — what they do, what they buy, and what they care about]]. Our customers are busy people who want to save time."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "What are their main [[interest:something a person likes or cares about]]s?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Marketing, technology, and business growth. We look at [[behaviour:the way a person acts — for example, how they shop or use the internet]] too — our best customers are the ones who check their data every day."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Do you have a customer [[profile:a description of a typical customer — who they are and what they need]]?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Yes — we call her 'Marketing Maya'. She is 35, runs a small team, loves data, and is always looking for a better way to manage campaigns."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Ha — that sounds a lot like me!"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "You fit the profile perfectly, Dana. That is exactly why I thought Brightline would be a great fit for your agency."
+    }
+  ],
+  "videos": [],
+  "matchingExercise": [
+    { "word": "DEMOGRAPHIC", "definition": "A fact about a group of people, such as their age, gender, or income" },
+    { "word": "AGE GROUP", "definition": "A range of ages that people belong to" },
+    { "word": "GENDER", "definition": "Whether someone is male, female, or another identity" },
+    { "word": "INCOME", "definition": "The money a person earns from their job" },
+    { "word": "LIFESTYLE", "definition": "The way a person lives — what they do, what they buy, and what they care about" },
+    { "word": "PROFILE", "definition": "A description of a typical customer — who they are and what they need" },
+    { "word": "INTEREST", "definition": "Something a person likes or cares about" },
+    { "word": "BEHAVIOUR", "definition": "The way a person acts — for example, how they shop or use the internet" }
+  ],
+  "fillBlankExercise": [
+    { "before": "Our key", "after": "is professionals aged 25 to 45 who work in marketing or sales.", "answer": "demographic" },
+    { "before": "Our main", "after": "is 30 to 45 — they are experienced but still open to new tools.", "answer": "age group" },
+    { "before": "Our product is used equally by all", "after": "s.", "answer": "gender" },
+    { "before": "We target people with a mid-to-high", "after": "who have a budget for marketing tools.", "answer": "income" },
+    { "before": "Our customers have a busy", "after": "— they want tools that save them time.", "answer": "lifestyle" },
+    { "before": "We create a customer", "after": "so the whole team understands who we are talking to.", "answer": "profile" },
+    { "before": "Our target customers have an", "after": "in marketing, technology, and business growth.", "answer": "interest" },
+    { "before": "We look at customer", "after": "to understand when and how they use our product.", "answer": "behaviour" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "What is Brightline's main target demographic?",
+      "options": ["Students aged 18-24", "Marketing managers and business owners aged 30-45", "Retired professionals aged 55+", "Graduates starting their first job"],
+      "correctIndex": 1
+    },
+    {
+      "question": "Why does Brightline target the 30-45 age group?",
+      "options": ["Because they use social media the most", "Because they are the biggest group online", "Because they are experienced and have a budget, but are still open to new tools", "Because they are harder to reach with digital ads"],
+      "correctIndex": 2
+    },
+    {
+      "question": "Does Brightline target a specific gender?",
+      "options": ["Yes — mainly men", "Yes — mainly women", "No — it targets equally across all genders", "It depends on the campaign"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What income level does Brightline target?",
+      "options": ["Low income", "Mid-to-high income", "Very high income only", "Any income level"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What lifestyle do Brightline's customers have?",
+      "options": ["A relaxed lifestyle with lots of free time", "A creative lifestyle focused on design", "A busy lifestyle where they want to save time", "A traditional lifestyle that avoids technology"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What interests do Brightline's target customers have?",
+      "options": ["Sports and travel", "Marketing, technology, and business growth", "Art, fashion, and culture", "Cooking and home design"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is the name of Brightline's customer profile?",
+      "options": ["Business Beth", "Marketing Maya", "Digital Diana", "Campaign Claire"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does Riley say about Dana at the end?",
+      "options": ["She does not fit the profile", "She is too small a company for Brightline", "She fits the profile perfectly", "She should think about it more"],
+      "correctIndex": 2
+    }
+  ],
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in groups. Read the question or comment. Talk about which response (A, B, or C) is best. Choose together, then click to check.",
+      "items": [
+        {
+          "customerLine": "Who is your target market?",
+          "options": [
+            "We target small and medium-sized businesses.",
+            "Our main target is marketing managers and business owners aged 30 to 45, with a mid-to-high income, who have a busy lifestyle and want to save time on their campaigns.",
+            "We work with anyone who is interested in our product."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It gives the job role, age group, income level, and the lifestyle reason — a complete, clear answer. A says too little. C sounds like you have no specific target, which is not good marketing."
+        },
+        {
+          "customerLine": "Do you target men or women?",
+          "options": [
+            "Mainly men, because most marketing managers are men.",
+            "We do not focus on gender — our product is used equally by all genders. We focus more on job role, income, and lifestyle.",
+            "It depends on the campaign."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It gives a clear answer — gender is not the focus — and says what you do focus on instead. A makes an assumption that is not true. C avoids giving a real answer."
+        },
+        {
+          "customerLine": "How do you know who to target?",
+          "options": [
+            "We look at who buys our product most often.",
+            "We build a customer profile based on demographics like age and income, but also on behaviour and interests. We then look at which customers get the most value from the product.",
+            "We target everyone and see who responds."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It explains the method clearly — customer profile, demographics, behaviour, interests, and value. A is too simple. C sounds like there is no real targeting at all."
+        },
+        {
+          "customerLine": "What does your ideal customer look like?",
+          "options": [
+            "We call her 'Marketing Maya'. She is 35, runs a small marketing team, loves data, and is always looking for a better way to manage campaigns.",
+            "Our ideal customer is a professional who is interested in marketing.",
+            "We have many types of ideal customer."
+          ],
+          "correctIndex": 0,
+          "explanation": "A is correct. It gives a specific, vivid profile — name, age, role, behaviour, and motivation. This is exactly how a good customer profile is described. B is too vague. C avoids giving a clear picture."
+        }
+      ]
+    },
+    "profileMatch": {
+      "instructions": "You are Riley. Look at three potential customers. As a group, decide which ones fit Brightline's target profile best. Use vocabulary from this lesson to explain your choices. Click 'Check Matches' when you agree.",
+      "profiles": [
+        {
+          "name": "Alex, 38 — Marketing Manager",
+          "description": "Alex manages a team of four people at a tech company. He has a good income and checks his campaign data every morning. He uses three different marketing tools and finds it frustrating.",
+          "matchKey": "perfect"
+        },
+        {
+          "name": "Priya, 22 — Marketing Assistant",
+          "description": "Priya just started her first job in marketing. She is enthusiastic but does not have a budget to spend on tools. She uses free platforms and learns on the job.",
+          "matchKey": "notyet"
+        },
+        {
+          "name": "Tom, 50 — Business Owner",
+          "description": "Tom owns a small business but does not manage marketing himself. He has a good income but is not interested in technology tools. He prefers to work with agencies.",
+          "matchKey": "notright"
+        }
+      ],
+      "options": [
+        {
+          "key": "perfect",
+          "label": "Fits the profile",
+          "description": "This person matches the demographic, lifestyle, behaviour, and interests of Brightline's ideal customer. They have the budget and the motivation to use the product."
+        },
+        {
+          "key": "notyet",
+          "label": "Not yet — wrong age group or income",
+          "description": "This person is interested in marketing but does not have the income or the budget to buy a paid tool right now. They might be a good customer in the future."
+        },
+        {
+          "key": "notright",
+          "label": "Not the right fit",
+          "description": "This person does not match the profile — they have a different lifestyle, they are not interested in marketing tools, or they prefer a different way of working. Not a good target for this product."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The marketer's line is not finished. As a group, discuss how you would finish it. Use vocabulary from this lesson. There is no single correct answer — compare your ideas, then click to see one example.",
+      "items": [
+        {
+          "customerLine": "How would you describe your ideal customer?",
+          "salespersonStart": "Our ideal customer is a marketing manager or business owner, aged 30 to 45. They have a busy lifestyle and a mid-to-high income.",
+          "suggestedCompletion": "They are interested in technology and business growth, and they want to save time by managing everything in one place. We call this person 'Marketing Maya' — she is our customer profile."
+        },
+        {
+          "customerLine": "How do you decide which age group to target?",
+          "salespersonStart": "We look at which age group gets the most value from our product. The 30-45 age group is our main focus because",
+          "suggestedCompletion": "they have the experience to know what they need and the income to pay for a good tool. Younger customers often do not have the budget yet, and older customers may be less interested in new technology."
+        },
+        {
+          "customerLine": "Do you look at customer behaviour when planning a campaign?",
+          "salespersonStart": "Yes — behaviour is one of the most important things we look at. We want to know when our customers use the product, how often they check their data, and",
+          "suggestedCompletion": "what actions they take before they decide to buy. That behaviour tells us when and where to reach them with our marketing."
+        },
+        {
+          "customerLine": "Why is it important to have a customer profile?",
+          "salespersonStart": "A customer profile helps the whole team understand who they are talking to. Without it,",
+          "suggestedCompletion": "different people on the team will have different ideas about who the customer is — and the message will not be clear or consistent. A good profile helps everyone speak to the same person."
+        }
+      ]
+    }
+  }
+}

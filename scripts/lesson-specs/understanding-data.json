@@ -1,0 +1,329 @@
+{
+  "exportName": "understandingData",
+  "title": "Understanding Data",
+  "subtitle": "How to read and talk about marketing numbers and results",
+  "level": "A2",
+  "description": "Learn the key words for reading and discussing marketing data — how to describe trends, explain changes, and present results clearly.",
+  "dialogueSubtitle": "Riley presents last month's campaign data to Dana in a review meeting",
+  "vocabulary": [
+    {
+      "word": "increase",
+      "partOfSpeech": "noun / verb",
+      "definition": "A rise in a number — going up.",
+      "example": "There was a 20% increase in website visits after the campaign launched."
+    },
+    {
+      "word": "decrease",
+      "partOfSpeech": "noun / verb",
+      "definition": "A fall in a number — going down.",
+      "example": "We saw a decrease in the cost per click after we changed the ad copy."
+    },
+    {
+      "word": "trend",
+      "partOfSpeech": "noun",
+      "definition": "A general direction that numbers are moving — for example, growing over time or falling.",
+      "example": "The trend is positive — website traffic has been growing every month for six months."
+    },
+    {
+      "word": "peak",
+      "partOfSpeech": "noun",
+      "definition": "The highest point that a number reaches.",
+      "example": "The campaign peak was in week two — that is when we got the most sign-ups."
+    },
+    {
+      "word": "average",
+      "partOfSpeech": "noun",
+      "definition": "A typical number — calculated by adding all the numbers and dividing by how many there are.",
+      "example": "The average number of new sign-ups per week this month was 45."
+    },
+    {
+      "word": "conversion rate",
+      "partOfSpeech": "noun",
+      "definition": "The percentage of people who take an action — for example: the percentage of website visitors who sign up.",
+      "example": "Our conversion rate on the landing page is 8% — eight out of every 100 visitors sign up."
+    },
+    {
+      "word": "benchmark",
+      "partOfSpeech": "noun",
+      "definition": "A standard number used to compare your results — often the industry average or your own past results.",
+      "example": "The industry benchmark for email open rates is around 20%. We are at 28%, which is above average."
+    },
+    {
+      "word": "metric",
+      "partOfSpeech": "noun",
+      "definition": "A specific measurement used to track performance — for example: clicks, sign-ups, or revenue.",
+      "example": "The three key metrics we track are sign-ups, cost per sign-up, and conversion rate."
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "WENT UP / WENT DOWN",
+      "definition": "Simple ways to say that a number increased or decreased.",
+      "example": "Traffic went up by 15% in week two. The bounce rate went down after we improved the page."
+    },
+    {
+      "phrase": "COMPARE TO",
+      "definition": "Look at one number next to another to understand the difference.",
+      "example": "Compared to last month, sign-ups increased by 30%."
+    },
+    {
+      "phrase": "ABOVE / BELOW AVERAGE",
+      "definition": "Higher or lower than the typical number.",
+      "example": "Our email open rate is above the industry average — that means our subject lines are working."
+    },
+    {
+      "phrase": "FLATTEN OUT",
+      "definition": "Stop going up or down and stay at the same level.",
+      "example": "Traffic grew fast in weeks one and two, then flattened out in weeks three and four."
+    },
+    {
+      "phrase": "REACH A PEAK",
+      "definition": "Hit the highest point.",
+      "example": "Engagement reached a peak on Wednesday — that is our best day to post."
+    },
+    {
+      "phrase": "BREAK DOWN THE DATA",
+      "definition": "Look at the numbers in detail, separating them into smaller parts.",
+      "example": "Let me break down the data by channel so we can see which one performed best."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Dana, let me walk you through the data from last month's campaign. We hit our goal — 600 new sign-ups in four weeks."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "That is great! What does the [[trend:a general direction that numbers are moving]] look like across the four weeks?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "The numbers showed a strong [[increase:a rise in a number]] in week one and two. We reached the [[peak:the highest point]] in week two with 210 sign-ups. Then it flattened out in weeks three and four."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Why was week two the [[peak]]?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "That is when the email campaign went out. It drove a lot of traffic to the landing page. The [[conversion rate:the percentage of visitors who take an action — for example, sign up]] on that page was 11% in week two."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Is 11% a good [[conversion rate]]? What is the [[benchmark:a standard number used to compare your results]]?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "The industry [[benchmark]] for landing pages is around 5 to 8%. So 11% is well above [[average:a typical number]]. We were happy with that."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "Was there anything that showed a [[decrease:a fall in a number]]?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Yes — the cost per click on our LinkedIn ads went up in weeks three and four. The [[metric:a specific measurement used to track performance]] we track most closely is cost per sign-up, and that stayed within budget, so it was okay."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "What are your three main metrics?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Sign-ups, cost per sign-up, and conversion rate. If those three are good, we know the campaign is working. We compare to the benchmark and to the same period last year."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "text": "I need to start tracking data like this. Right now I am just looking at follower counts."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Follower counts are vanity metrics — they look good but do not tell you if the campaign is actually working. Focus on the metrics that connect to your business goals."
+    }
+  ],
+  "videos": [],
+  "matchingExercise": [
+    { "word": "INCREASE", "definition": "A rise in a number — going up" },
+    { "word": "DECREASE", "definition": "A fall in a number — going down" },
+    { "word": "TREND", "definition": "A general direction that numbers are moving over time" },
+    { "word": "PEAK", "definition": "The highest point that a number reaches" },
+    { "word": "AVERAGE", "definition": "A typical number — calculated by adding all figures and dividing by the total count" },
+    { "word": "CONVERSION RATE", "definition": "The percentage of people who take an action — for example, sign up after visiting a page" },
+    { "word": "BENCHMARK", "definition": "A standard number used to compare your results — often the industry average" },
+    { "word": "METRIC", "definition": "A specific measurement used to track performance" }
+  ],
+  "fillBlankExercise": [
+    { "before": "There was a 20%", "after": "in website visits after the campaign launched.", "answer": "increase" },
+    { "before": "We saw a", "after": "in the cost per click after we changed the ad copy.", "answer": "decrease" },
+    { "before": "The", "after": "is positive — website traffic has been growing every month.", "answer": "trend" },
+    { "before": "The campaign", "after": "was in week two — that is when we got the most sign-ups.", "answer": "peak" },
+    { "before": "The", "after": "number of new sign-ups per week this month was 45.", "answer": "average" },
+    { "before": "Our", "after": "on the landing page is 8% — eight out of every 100 visitors sign up.", "answer": "conversion rate" },
+    { "before": "The industry", "after": "for email open rates is around 20%.", "answer": "benchmark" },
+    { "before": "The three key", "after": "s we track are sign-ups, cost per sign-up, and conversion rate.", "answer": "metric" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "How many sign-ups did Brightline get in week two?",
+      "options": ["45", "100", "210", "600"],
+      "correctIndex": 2
+    },
+    {
+      "question": "Why was week two the peak of the campaign?",
+      "options": ["Because it was the first week", "Because they ran a special discount", "Because the email campaign went out and drove traffic to the landing page", "Because LinkedIn ads were cheapest that week"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What is the industry benchmark for landing page conversion rates?",
+      "options": ["1 to 2%", "5 to 8%", "11 to 15%", "20 to 25%"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What happened to the cost per click on LinkedIn in weeks three and four?",
+      "options": ["It went down", "It stayed the same", "It went up", "It reached a peak"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What are Brightline's three key metrics?",
+      "options": ["Followers, views, and impressions", "Sign-ups, cost per sign-up, and conversion rate", "Reach, engagement, and hashtag performance", "Traffic, bounce rate, and average session time"],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does Riley call 'vanity metrics'?",
+      "options": ["Sign-ups and conversion rates", "Email open rates", "Follower counts — they look good but do not show if the campaign is working", "Cost per click data"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does it mean when numbers 'flatten out'?",
+      "options": ["They drop sharply", "They reach their peak", "They stop going up or down and stay at the same level", "They go below the benchmark"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does Riley compare results to?",
+      "options": ["Their competitors only", "The benchmark and the same period last year", "Social media follower counts", "The team's personal goals"],
+      "correctIndex": 1
+    }
+  ],
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in groups. Read the question or comment. Talk about which response (A, B, or C) is best. Choose together, then click to check.",
+      "items": [
+        {
+          "customerLine": "How did the campaign perform?",
+          "options": [
+            "It went well — we hit our goal.",
+            "The campaign performed well. We hit 600 sign-ups in four weeks — above our target. The peak was in week two, driven by the email campaign. Cost per sign-up stayed within budget.",
+            "The numbers were good."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It gives specific data — total sign-ups, the peak week, what drove it, and the cost. A and C say almost nothing and give the other person no useful information."
+        },
+        {
+          "customerLine": "Is a conversion rate of 11% good?",
+          "options": [
+            "Yes, that is very good.",
+            "Yes — the industry benchmark for landing page conversion rates is 5 to 8%. At 11%, we are well above average. That tells us the page messaging and design are working.",
+            "It depends on the industry."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It uses the benchmark to put the number in context and explains what it means. A gives no context. C avoids the question."
+        },
+        {
+          "customerLine": "Why did results flatten out in weeks three and four?",
+          "options": [
+            "Because we had a bad week.",
+            "That is normal for a four-week campaign. The biggest impact usually comes in weeks one and two when the campaign is new. By weeks three and four, the audience has seen it and the novelty effect decreases.",
+            "We do not know yet — we are still looking at the data."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It gives a real explanation — the novelty effect — and puts the flat period in context. A is vague and negative. C sounds like you have not done your review."
+        },
+        {
+          "customerLine": "What metrics should we be tracking?",
+          "options": [
+            "We should track everything.",
+            "Focus on the metrics that connect to your goal. For sign-ups, track cost per sign-up and conversion rate. For awareness, track reach and impressions. Tracking everything at once makes it hard to know what actually matters.",
+            "Follower count is the most important one."
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It recommends metrics based on the goal and explains why tracking everything at once is not helpful. A gives no direction. C focuses on a vanity metric."
+        }
+      ]
+    },
+    "profileMatch": {
+      "instructions": "You are Riley. Three marketing teams share their data. As a group, decide what each team should do next based on what the numbers show. Click 'Check Matches' when you agree.",
+      "profiles": [
+        {
+          "name": "A team with high traffic but very few sign-ups",
+          "description": "A team is getting 10,000 website visits a month from their campaigns. But only 0.5% of visitors sign up. Their cost per sign-up is very high.",
+          "matchKey": "conversion"
+        },
+        {
+          "name": "A team that is below the industry benchmark on email open rates",
+          "description": "A company sends weekly emails to 5,000 contacts. Only 12% open them. The industry benchmark is 20%. The content is good, but something is not working.",
+          "matchKey": "subjectlines"
+        },
+        {
+          "name": "A team with flat results for six months",
+          "description": "A team has had the same number of sign-ups every month for six months — no increase and no decrease. They are not hitting their growth targets.",
+          "matchKey": "strategy"
+        }
+      ],
+      "options": [
+        {
+          "key": "conversion",
+          "label": "Fix the conversion rate",
+          "description": "The traffic is there but people are not signing up. Review the landing page — is the message clear? Is there a strong call to action? Try A/B testing different versions to improve the conversion rate."
+        },
+        {
+          "key": "subjectlines",
+          "label": "Improve the subject lines",
+          "description": "A 12% open rate is well below the benchmark of 20%. The most likely problem is the subject line — it is the only thing the reader sees before they decide to open. Test more specific, value-focused subject lines."
+        },
+        {
+          "key": "strategy",
+          "label": "Change the strategy",
+          "description": "Flat results for six months mean the current approach is not growing. Try a new channel, a different type of content, or a campaign targeting a new audience segment. Do not keep doing the same thing and expect different results."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The marketer's line is not finished. As a group, discuss how you would finish it. Use vocabulary from this lesson. There is no single correct answer — compare your ideas, then click to see one example.",
+      "items": [
+        {
+          "customerLine": "Can you give me a summary of last month's results?",
+          "salespersonStart": "Of course. The trend was positive across the month. We saw a strong increase in the first two weeks, with the peak in week two — 210 sign-ups. After that, the numbers flattened out. Overall, we",
+          "suggestedCompletion": "hit our target of 600 sign-ups. Our conversion rate was 11%, which is well above the industry benchmark of 5 to 8%. Cost per sign-up stayed within budget."
+        },
+        {
+          "customerLine": "How do you compare your results to other companies?",
+          "salespersonStart": "We use benchmarks. For email, the industry average open rate is around 20%. For landing pages, the average conversion rate is 5 to 8%. We compare our own",
+          "suggestedCompletion": "metrics to these benchmarks every month. If we are above average, we know we are doing well. If we are below, we look at what to change."
+        },
+        {
+          "customerLine": "What does it mean if our conversion rate has decreased?",
+          "salespersonStart": "A decrease in conversion rate usually means something changed — either the quality of the traffic went down, or the landing page stopped working as well as before. The first thing to do is",
+          "suggestedCompletion": "break down the data by channel. Look at which source of traffic had the biggest drop. Then check if the landing page copy or design has changed recently."
+        },
+        {
+          "customerLine": "What are the most important metrics to track for a campaign?",
+          "salespersonStart": "Focus on the metrics that connect directly to your goal. If your goal is sign-ups, track cost per sign-up and conversion rate. If your goal is awareness, track reach and impressions. The key is to",
+          "suggestedCompletion": "choose three to five key metrics before the campaign starts — and compare them to the benchmark and to your last campaign. That way you can see clearly if you are improving."
+        }
+      ]
+    }
+  }
+}
