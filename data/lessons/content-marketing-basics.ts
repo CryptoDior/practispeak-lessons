@@ -1,0 +1,522 @@
+import { Lesson } from '@/types/lesson';
+
+export const contentMarketingBasics: Lesson = {
+  slug: 'content-marketing-basics',
+  title: 'Content Marketing Basics',
+  subtitle: 'What content marketing is — and how to talk about it clearly in English',
+  level: 'A2',
+  description: 'Content marketing is at the heart of most B2B strategies today. Instead of advertising at people, you give them something valuable — a useful article, an insightful video, or a compelling story. This lesson gives you the vocabulary to talk about content types, formats, and the principles behind effective content marketing.',
+  heroImage: '/images/content-marketing-basics-hero.png',
+
+  vocabulary: [
+    {
+      word: 'BLOG',
+      partOfSpeech: 'noun',
+      definition: 'A regularly updated page on a website where articles are published — used to share information, insights, or opinions.',
+      example: 'We publish two blog posts per week — one thought leadership piece and one practical how-to guide for our target audience.',
+      imageSlug: '/images/blog.png',
+    },
+    {
+      word: 'ARTICLE',
+      partOfSpeech: 'noun',
+      definition: 'A written piece of content — longer and more structured than a social media post — that explores a topic in depth.',
+      example: 'Riley wrote an article about LinkedIn strategy that was shared 200 times — it brought in 15 new leads in one week.',
+      imageSlug: '/images/article.png',
+    },
+    {
+      word: 'INFOGRAPHIC',
+      partOfSpeech: 'noun',
+      definition: 'A visual piece of content that presents information or data in a graphic format — easy to read and share.',
+      example: 'We turned our annual survey data into an infographic — it was much more engaging than a written report and got three times more shares.',
+      imageSlug: '/images/infographic.png',
+    },
+    {
+      word: 'STORYTELLING',
+      partOfSpeech: 'noun',
+      definition: 'The technique of sharing information through a narrative or story — used to make content more memorable and emotional.',
+      example: "The most effective B2B content uses storytelling — instead of listing features, it shows a real client's journey from problem to solution.",
+      imageSlug: '/images/storytelling.png',
+    },
+    {
+      word: 'FORMAT',
+      partOfSpeech: 'noun',
+      definition: 'The type or structure of content — for example, a video, a podcast, a written article, or an infographic.',
+      example: 'We tested different formats with the same audience — video performed best on LinkedIn, while long-form articles worked better in email.',
+      imageSlug: '/images/format.png',
+    },
+    {
+      word: 'AUDIENCE',
+      partOfSpeech: 'noun',
+      definition: 'The specific group of people you are creating content for — defined by their job, industry, challenges, and interests.',
+      example: 'All our content is created with one audience in mind — marketing managers at B2B technology companies with 50 to 500 employees.',
+      imageSlug: '/images/audience.png',
+    },
+    {
+      word: 'VALUE',
+      partOfSpeech: 'noun',
+      definition: 'The usefulness or benefit that content gives the reader — good content teaches, inspires, or solves a problem.',
+      example: 'Every piece of content we publish must offer real value — if it does not help the reader, we do not publish it.',
+      imageSlug: '/images/value.png',
+    },
+    {
+      word: 'DISTRIBUTE',
+      partOfSpeech: 'verb',
+      definition: 'To share or spread content across different channels — making sure the right audience sees it.',
+      example: 'We create one strong article per week and distribute it across LinkedIn, email, and our blog — the same content reaching people in three places.',
+      imageSlug: '/images/distribute.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'PUBLISH CONTENT',
+      definition: 'To make a piece of content live — to post it on a website, social media platform, or other channel.',
+      example: 'We publish new content on LinkedIn every Tuesday and Thursday — consistency is more important than frequency.',
+      imageSlug: '/images/publish-content.png',
+    },
+    {
+      phrase: 'DRIVE TRAFFIC',
+      definition: 'To bring visitors to your website or landing page — often through content shared on social media or in emails.',
+      example: 'A well-written article drives traffic back to your website — especially if it answers a question your audience is already searching for.',
+      imageSlug: '/images/drive-traffic.png',
+    },
+    {
+      phrase: 'BUILD TRUST',
+      definition: 'To develop a positive, reliable reputation with your audience over time — content marketing builds trust by consistently offering value.',
+      example: 'Publishing useful, honest content every week builds trust with your audience — they start to see you as an expert, not just a vendor.',
+      imageSlug: '/images/build-trust.png',
+    },
+    {
+      phrase: 'REPURPOSE [CONTENT]',
+      definition: 'To take one piece of content and adapt it into a different format — making it work harder across more channels.',
+      example: 'We repurpose every blog article — we turn it into a LinkedIn post, a short video, and three social media quotes. One idea, four pieces of content.',
+      imageSlug: '/images/repurpose-content.png',
+    },
+    {
+      phrase: 'CALL TO ACTION',
+      definition: "A phrase or button that tells the reader what to do next — for example, 'Read the full article', 'Download our guide', or 'Book a call'.",
+      example: 'Every piece of content needs a call to action — otherwise the reader finishes it and moves on without taking any next step.',
+      imageSlug: '/images/call-to-action.png',
+    },
+    {
+      phrase: 'ENGAGE WITH [CONTENT]',
+      definition: 'To interact with a piece of content — by liking, sharing, commenting, or clicking through to read more.',
+      example: 'Our audience engages most with content that asks a question or shares a surprising statistic — it gives them a reason to comment.',
+      imageSlug: '/images/engage-with-content.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Riley, I keep hearing about content marketing. How is it different from normal advertising?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Great question. Traditional advertising says 'buy our product'. Content marketing gives your [[audience:the specific group you are creating content for]] something useful first — an [[article:a written piece exploring a topic in depth]], a video, an [[infographic:visual content presenting information in graphic form]] — and builds trust over time.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'So it is about giving [[value:the usefulness or benefit content gives the reader]] before selling?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Exactly. If every piece of content you publish teaches your [[audience:the specific group you create content for]] something, they start to see you as an expert. That trust is what eventually turns them into clients.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'What [[format:the type or structure of content]] s work best for B2B? We are not sure whether to do video or written content.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Both work — it depends on where your [[audience:the group you create content for]] spends their time. On LinkedIn, video and short posts perform very well. For email, a longer [[article:a written piece exploring a topic]] or a useful guide tends to get more engagement.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'What about a [[blog:a regularly updated page where articles are published]]? Should we have one?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Yes — a [[blog:a regularly updated page on your website]] is excellent for SEO and for [[distribute:to share content across different channels]] ing your ideas. You write one article and then [[distribute:to spread content across channels]] it on LinkedIn, in your email newsletter, and on the blog.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'What makes content marketing work? We tried a newsletter last year and nobody read it.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Two things usually explain that. First, [[value:what the content gives the reader]] — was the content genuinely useful to your reader, or was it mostly about your company? Second, [[storytelling:sharing information through a story or narrative]] — the best content tells a story, not just a list of facts.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'How do we know if our content is working? How do we measure it?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'We track shares, clicks, and leads generated. A good [[article:written content exploring a topic]] drives traffic to your website. A good [[infographic:visual content in graphic format]] gets shared widely. And good [[storytelling:the technique of sharing information through narrative]] gets comments — people respond when they feel something.',
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "BLOG",
+        "definition": "A regularly updated page on a website where articles are published — used to share insights or opinions"
+    },
+    {
+        "word": "ARTICLE",
+        "definition": "A written piece of content — longer than a social post — that explores a topic in depth"
+    },
+    {
+        "word": "INFOGRAPHIC",
+        "definition": "A visual piece of content that presents information or data in a graphic format — easy to share"
+    },
+    {
+        "word": "STORYTELLING",
+        "definition": "Sharing information through a narrative or story — makes content more memorable and emotional"
+    },
+    {
+        "word": "FORMAT",
+        "definition": "The type or structure of content — for example, a video, podcast, article, or infographic"
+    },
+    {
+        "word": "AUDIENCE",
+        "definition": "The specific group of people you are creating content for — defined by their job and challenges"
+    },
+    {
+        "word": "VALUE",
+        "definition": "The usefulness or benefit that content gives the reader — it must teach, inspire, or solve a problem"
+    },
+    {
+        "word": "DISTRIBUTE",
+        "definition": "To share content across different channels — making sure the right audience sees it"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "We publish two",
+        "after": "posts per week — one thought leadership piece and one practical how-to guide.",
+        "answer": "blog"
+    },
+    {
+        "before": "Riley wrote an",
+        "after": "about LinkedIn strategy that was shared 200 times and brought in 15 new leads.",
+        "answer": "article"
+    },
+    {
+        "before": "We turned our survey data into an",
+        "after": "— it got three times more shares than the written report.",
+        "answer": "infographic"
+    },
+    {
+        "before": "The best B2B content uses",
+        "after": "— it shows a real client's journey from problem to solution.",
+        "answer": "storytelling"
+    },
+    {
+        "before": "We tested different",
+        "after": "s — video worked best on LinkedIn, long-form articles worked better in email.",
+        "answer": "format"
+    },
+    {
+        "before": "All our content is created with one",
+        "after": "in mind — marketing managers at B2B technology companies.",
+        "answer": "audience"
+    },
+    {
+        "before": "Every piece of content must offer real",
+        "after": "— if it does not help the reader, we do not publish it.",
+        "answer": "value"
+    },
+    {
+        "before": "We create one strong article per week and",
+        "after": "it across LinkedIn, email, and our blog.",
+        "answer": "distribute"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "A client asks: 'What is the difference between content marketing and advertising?' What is the best answer?",
+        "options": [
+            "There is no real difference — both are designed to sell something.",
+            "Advertising pushes a message at people. Content marketing gives people something useful first — an article, a video, a guide — and builds trust before selling.",
+            "Content marketing is cheaper than advertising.",
+            "Advertising is for consumer brands. Content marketing is only for B2B companies."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "You have one well-researched article about LinkedIn strategy. What do you do with it to get maximum reach?",
+        "options": [
+            "Publish it once on the blog and wait for people to find it.",
+            "Repurpose it — turn it into a LinkedIn post, a short video, and three social media quotes. Distribute it via email too.",
+            "Keep it for the next campaign — save it for when you need content.",
+            "Share it privately with existing clients so they get exclusive access."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What makes storytelling effective in B2B content marketing?",
+        "options": [
+            "It makes content longer — longer content always performs better.",
+            "It makes content more memorable and emotional — instead of listing features, it shows a real journey from problem to solution.",
+            "It allows you to include more technical details about your product.",
+            "It makes content easier to translate into other languages."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "A client's newsletter is getting very low open rates. What do you suggest?",
+        "options": [
+            "Send the newsletter more frequently — the audience needs reminding.",
+            "Check whether the content is genuinely useful to the reader. If it is mostly about your company, switch to content that teaches, solves a problem, or tells a story the audience cares about.",
+            "Change the subject line font to something bolder.",
+            "Move the newsletter to a different day of the week."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the best format for presenting complex data to a B2B audience on LinkedIn?",
+        "options": [
+            "A long written report with charts.",
+            "An infographic — it presents data visually, is easy to read quickly, and is more likely to be shared.",
+            "A podcast episode discussing the data.",
+            "A short text post with a link to the full report."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does it mean to 'build trust' through content marketing?",
+        "options": [
+            "To ask your clients to write positive reviews about your company.",
+            "To consistently publish useful, honest content so that your audience comes to see you as a reliable expert — not just a vendor trying to sell.",
+            "To share other companies' content rather than your own.",
+            "To guarantee results in your marketing content."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why does every piece of content need a call to action?",
+        "options": [
+            "Because social media algorithms reward content with clear CTAs.",
+            "Because without a clear next step, the reader finishes the content and moves on without taking any action — you lose the opportunity.",
+            "Because a call to action makes the content look more professional.",
+            "Because it tells the reader how much the content cost to produce."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary goal of content marketing?",
+        "options": [
+            "To replace the need for a sales team.",
+            "To build trust and authority with your target audience by consistently delivering value — so they choose you when they are ready to buy.",
+            "To generate immediate sales through every piece of content.",
+            "To drive traffic to your website without spending money on ads."
+        ],
+        "correctIndex": 1
+    }
+],
+  warmUp: {
+    "questions": [
+        "What types of content do you consume at work? Articles, videos, podcasts, newsletters? Which do you find most useful?",
+        "What is the difference between content marketing and traditional advertising? Can you give an example of each?",
+        "Have you ever created content for your company — a post, an article, or a video? What did you learn from the experience?"
+    ]
+},
+  completeSentenceExercise: {
+    "instructions": "Choose the correct word to complete each sentence. Then read the sentence aloud.",
+    "items": [
+        {
+            "sentence": "We _____ every blog article — we turn it into a LinkedIn post, a short video, and three social media quotes.",
+            "options": [
+                "distribute",
+                "repurpose",
+                "publish"
+            ],
+            "correctIndex": 1,
+            "explanation": "Repurpose means to take one piece of content and adapt it into different formats. Distribute means to share content across channels. Publish means to make content live. Repurposing is about transformation — the same idea becomes multiple formats. Distributing is about spreading what already exists."
+        },
+        {
+            "sentence": "The best B2B content uses _____ — it shows a real client's journey from problem to solution.",
+            "options": [
+                "infographic",
+                "blog",
+                "storytelling"
+            ],
+            "correctIndex": 2,
+            "explanation": "Storytelling is the technique of sharing information through a narrative or story. Infographic is a visual content format. Blog is a regularly updated page on a website. Storytelling is a technique, not a format — it is how you tell the story, not what channel you use."
+        },
+        {
+            "sentence": "We create one strong article per week and _____ it across LinkedIn, email, and our blog.",
+            "options": [
+                "publish",
+                "distribute",
+                "engage"
+            ],
+            "correctIndex": 1,
+            "explanation": "Distribute means to share content across different channels. Publish means to make one piece of content live. Engage means to interact with content. Distributing is the act of spreading the same piece across multiple channels — it maximises reach."
+        },
+        {
+            "sentence": "We publish two _____ posts per week — one thought leadership piece and one practical how-to guide.",
+            "options": [
+                "article",
+                "blog",
+                "format"
+            ],
+            "correctIndex": 1,
+            "explanation": "Blog posts are the articles published on a blog — a regularly updated page on a website. Article is a broader term for a written piece. Format is the type of content. 'Blog posts' is the specific term for content published on a blog platform."
+        },
+        {
+            "sentence": "Every piece of content we publish must offer real _____ — if it does not help the reader, we do not publish it.",
+            "options": [
+                "format",
+                "value",
+                "audience"
+            ],
+            "correctIndex": 1,
+            "explanation": "Value is the usefulness or benefit that content gives the reader. Format is the type or structure of content. Audience is the group of people the content is for. Value is the core principle of content marketing — content that does not help the reader has no purpose."
+        },
+        {
+            "sentence": "We turned our survey data into an _____ — it was much more engaging than a written report and got three times more shares.",
+            "options": [
+                "article",
+                "blog",
+                "infographic"
+            ],
+            "correctIndex": 2,
+            "explanation": "Infographic is a visual piece of content that presents information or data in a graphic format. Article is a written piece. Blog is a regularly updated website page. Infographics are ideal for data — they make complex numbers easy to understand and are highly shareable on social media."
+        }
+    ]
+},
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Work in pairs. Read each client message and choose the best response. Talk about why before you click.",
+        "items": [
+            {
+                "customerLine": "Client: 'We tried content marketing last year — we wrote articles but nobody read them. It does not work.'",
+                "options": [
+                    "Say: 'Content marketing definitely works — you just did it wrong.'",
+                    "Say: 'I hear that a lot. The most common reason content does not get read is that it is written for the company, not for the reader. Can I ask — what topics did you cover? And did you distribute the articles, or just publish them on the blog and wait for people to find them?'",
+                    "Say: 'Maybe content marketing is not right for your business. Let us try something else.'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It validates the frustration, diagnoses the likely problem (content about the company, not the reader), and asks smart questions before jumping to conclusions. A is dismissive. C gives up too quickly without understanding what went wrong."
+            },
+            {
+                "customerLine": "Client: 'We want to start a blog. How many posts do we need to publish per week?'",
+                "options": [
+                    "Say: 'You need to publish every day — the more content, the better your results.'",
+                    "Say: 'Consistency matters more than frequency. Two strong, genuinely useful articles per week will outperform five average ones. Start with one per week if that is what you can maintain, and build from there. Quality and consistency are the two most important things.'",
+                    "Say: 'One post per month is fine — most companies do not need to publish more than that.'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It directly addresses the real issue — consistency over volume — and gives a practical recommendation that fits the client's capacity. A sets an unrealistic expectation. C undersells the value of a more active blog."
+            },
+            {
+                "customerLine": "Client: 'We have a lot of data from our annual survey. How should we use it in our content strategy?'",
+                "options": [
+                    "Say: 'Publish the full report as a PDF and share it on your website.'",
+                    "Say: 'Survey data is a great content asset. I would suggest turning the key findings into an infographic for LinkedIn — data in visual form gets shared much more widely. Then write a detailed article that tells the story behind the numbers. You can repurpose both into a series of LinkedIn posts, each highlighting one key insight. One survey, multiple content formats.'",
+                    "Say: 'Keep the data private — it is more valuable as a lead magnet than as free content.'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It gives a complete strategy: infographic for reach, article for depth, repurposed posts for longevity. A only uses the data once in one format. C misunderstands the situation — the client wants to use the data in their content strategy, not keep it private."
+            }
+        ]
+    },
+    "spotTheMistake": {
+        "instructions": "Read this content strategy summary. There are 3 mistakes. Find them and correct them. Work in pairs.",
+        "dialogue": [
+            {
+                "speaker": "Strategy",
+                "text": "Content Marketing Plan — Q3 2026"
+            },
+            {
+                "speaker": "Strategy",
+                "text": "We will publish two blog posts per week. Each article will be wrote with the target audience in mind."
+            },
+            {
+                "speaker": "Strategy",
+                "text": "We will distribute every article across LinkedIn, email, and the blog."
+            },
+            {
+                "speaker": "Strategy",
+                "text": "We will also create one infographic per month based in our survey data."
+            },
+            {
+                "speaker": "Strategy",
+                "text": "All content will uses storytelling techniques — showing client journeys and real results."
+            },
+            {
+                "speaker": "Strategy",
+                "text": "Every piece of content will include a clear call to action to drive traffic to the website."
+            }
+        ],
+        "mistakes": [
+            {
+                "lineIndex": 1,
+                "incorrectText": "will be wrote",
+                "correction": "will be written",
+                "explanation": "The passive voice requires 'will be' + past participle. The past participle of 'write' is 'written', not 'wrote'. 'Wrote' is the simple past tense (I wrote it yesterday). In the passive voice, always use the past participle: 'will be written', 'was written', 'has been written'."
+            },
+            {
+                "lineIndex": 3,
+                "incorrectText": "based in our survey data",
+                "correction": "based on our survey data",
+                "explanation": "The correct phrase is 'based on' — not 'based in'. 'Based on' means derived from or using as a source. 'Based in' means located in (e.g., 'our team is based in London'). Say: 'based on our data', 'based on research', 'based on client feedback'."
+            },
+            {
+                "lineIndex": 4,
+                "incorrectText": "All content will uses",
+                "correction": "All content will use",
+                "explanation": "'Will' is a modal verb and is always followed by the base form of the verb — never add 's'. Say: 'will use', 'will include', 'will deliver'. Adding 's' after 'will' is a common mistake — modal verbs (will, can, should, must) never take the third-person 's'."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "Finish the salesperson's line using language from this lesson. Then compare with a partner.",
+        "items": [
+            {
+                "customerLine": "Client: 'We have a very technical product. How do we make content about it interesting?'",
+                "salespersonStart": "Technical products are actually great for content marketing — you just need to translate the complexity into something human.",
+                "suggestedCompletion": "The key is storytelling. Instead of explaining how the product works, show what life is like without it — and then what changes when a client uses it. For example: 'Before working with us, our client's team spent six hours a week on reporting. After three months, that dropped to thirty minutes.' That is a story — a before and after. Your audience will feel that immediately. Then you can add the technical detail for readers who want it."
+            },
+            {
+                "customerLine": "Client: 'We do not have time to create a lot of content. What is the minimum we need to do?'",
+                "salespersonStart": "If you have limited time, focus on one format and do it consistently.",
+                "suggestedCompletion": "I would suggest one strong LinkedIn article per week — around 500 words. Write it once, then repurpose it into three shorter LinkedIn posts for the rest of the week. That gives you four pieces of content from one hour of writing. Make sure every article answers a real question your audience has — not a question you want them to have, but one they are already asking. That is what drives traffic and builds trust."
+            },
+            {
+                "customerLine": "Client: 'How long does it take to see results from content marketing?'",
+                "salespersonStart": "Content marketing is a long-term strategy — I want to be honest about that.",
+                "suggestedCompletion": "Most clients start to see meaningful engagement in weeks two to four — likes, comments, and website traffic. Leads typically start appearing in months two to three. The compounding effect is what makes it powerful — each article stays on your website and on LinkedIn permanently, building authority over time. An article you write today may still be generating leads in two years. That is very different from paid advertising, which stops the moment you stop paying."
+            }
+        ]
+    }
+},
+};
