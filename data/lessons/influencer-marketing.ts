@@ -1,0 +1,447 @@
+import { Lesson } from '@/types/lesson';
+
+export const influencerMarketing: Lesson = {
+  slug: 'influencer-marketing',
+  title: 'Influencer Marketing',
+  subtitle: 'How to find, approach, and work with influencers — and pitch a partnership that makes sense for both sides',
+  level: 'B1-B2',
+  description: 'Influencer marketing is not just for consumer brands anymore. In B2B, working with the right industry voice can build credibility faster than almost any other channel. In this lesson you will learn the vocabulary for identifying and evaluating influencers, approaching them professionally, and pitching a partnership that works.',
+  heroImage: '/images/influencer-marketing-hero.png',
+
+  vocabulary: [
+    {
+      word: 'MICRO-INFLUENCER',
+      partOfSpeech: 'noun',
+      definition: 'An influencer with a smaller but highly engaged audience — typically 1,000 to 50,000 followers — who is trusted as an expert within a specific niche.',
+      example: 'In B2B, a micro-influencer with 8,000 followers in the manufacturing sector will outperform a generalist with 500,000. The audience is smaller but the trust is deeper and the fit is exact.',
+      imageSlug: '/images/micro-influencer.png',
+    },
+    {
+      word: 'REACH',
+      partOfSpeech: 'noun',
+      definition: 'The total number of people who could potentially see a piece of content — the size of the audience an influencer has access to.',
+      example: 'Reach tells you the ceiling of how many people might see the content — but it says nothing about whether those people are the right audience or whether they actually trust the influencer.',
+      imageSlug: '/images/reach.png',
+    },
+    {
+      word: 'AUTHENTICITY',
+      partOfSpeech: 'noun',
+      definition: 'The quality of being genuine — an influencer who truly uses and believes in what they recommend, rather than just taking a fee to promote it.',
+      example: 'Audiences can detect inauthenticity immediately — if an influencer recommends your product but has no real experience of it, the post will not convert and may actually damage the brand.',
+      imageSlug: '/images/authenticity.png',
+    },
+    {
+      word: 'ENDORSEMENT',
+      partOfSpeech: 'noun',
+      definition: 'A public statement of support or recommendation from an influencer or authority figure — they are putting their name behind your brand.',
+      example: "A genuine endorsement from a respected industry analyst is worth more than a paid post from a large influencer — because the audience trusts the analyst's judgement, not just their reach.",
+      imageSlug: '/images/endorsement.png',
+    },
+    {
+      word: 'UGC',
+      partOfSpeech: 'noun',
+      definition: 'User-Generated Content — content created by real users or customers about your brand, rather than by your marketing team. Highly trusted because it is not paid for.',
+      example: 'When clients post their own results from using TechFlow and tag us, that is UGC — and it converts better than any ad we create ourselves because it is completely unprompted.',
+      imageSlug: '/images/ugc.png',
+    },
+    {
+      word: 'ENGAGEMENT RATE',
+      partOfSpeech: 'noun',
+      definition: "The percentage of an influencer's audience who actively interact with their content — likes, comments, shares, and replies.",
+      example: 'An influencer with 50,000 followers and a 0.5% engagement rate is less valuable than one with 8,000 followers and a 6% engagement rate. The second audience is actively listening.',
+      imageSlug: '/images/engagement-rate.png',
+    },
+    {
+      word: 'PARTNERSHIP',
+      partOfSpeech: 'noun',
+      definition: 'A collaboration between your brand and an influencer — where both sides get something of value from working together.',
+      example: 'The best influencer partnerships feel like genuine collaborations, not transactions — the influencer is involved in the process, their voice comes through, and the audience can tell it is real.',
+      imageSlug: '/images/partnership.png',
+    },
+    {
+      word: 'NICHE',
+      partOfSpeech: 'noun',
+      definition: 'A very specific, focused area of interest or expertise — the topic an influencer is known for and trusted on.',
+      example: "The influencer's niche is operational efficiency in manufacturing — 9,000 followers, but every single one is in our exact target market. That is more valuable than 200,000 general business followers.",
+      imageSlug: '/images/niche.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'REACH OUT TO [AN INFLUENCER]',
+      definition: 'To make the first contact with an influencer — introducing your brand and proposing a potential partnership.',
+      example: 'Before you reach out, spend two weeks engaging with their content genuinely — comment thoughtfully, share their posts, respond to their questions. Cold outreach from a brand they have never heard of is almost always ignored.',
+      imageSlug: '/images/reach-out-to-an-influencer.png',
+    },
+    {
+      phrase: "ALIGN WITH [A BRAND'S VALUES]",
+      definition: 'To share the same beliefs, principles, and standards as the brand — essential before any influencer partnership can work.',
+      example: 'Check whether the influencer aligns with your brand values before you approach them. An influencer who takes every sponsorship regardless of fit will not be credible when they recommend you.',
+      imageSlug: '/images/align-with-a-brands-values.png',
+    },
+    {
+      phrase: 'PITCH [A PARTNERSHIP]',
+      definition: 'To propose a collaboration to an influencer — explaining what you are offering, what you are asking for, and why it is a good fit for both sides.',
+      example: "When you pitch a partnership, lead with what is in it for them — not what you want. 'Here is why this would be interesting content for your audience' lands better than 'here is our product and what we would like you to say about it'.",
+      imageSlug: '/images/pitch-a-partnership.png',
+    },
+    {
+      phrase: 'DISCLOSE [A PARTNERSHIP]',
+      definition: 'To publicly state that content is sponsored or paid for — a legal requirement in most markets and an ethical standard in influencer marketing.',
+      example: 'Always disclose the partnership — not just because it is required by law, but because audiences respect transparency and it actually increases trust rather than reducing it.',
+      imageSlug: '/images/disclose-a-partnership.png',
+    },
+    {
+      phrase: 'BUILD CREDIBILITY',
+      definition: 'To establish trust and authority through consistent, genuine, high-quality content or associations.',
+      example: 'A long-term partnership with two or three trusted voices in your industry builds credibility much faster than ten short-term sponsored posts with whoever is available.',
+      imageSlug: '/images/build-credibility.png',
+    },
+    {
+      phrase: 'CO-CREATE [CONTENT]',
+      definition: "To produce content together with an influencer — combining their knowledge and audience access with your brand's story.",
+      example: 'Co-creating a case study with the influencer — they write it in their own voice from their perspective — is far more powerful than briefing them to promote a PDF you already produced.',
+      imageSlug: '/images/co-create-content.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Marcus — I want to propose something slightly different for part of the Q4 budget. Instead of putting everything into LinkedIn ads, I want to test a micro-influencer campaign alongside it.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: '[[Micro-influencer:an influencer with a smaller but highly engaged, niche audience]]? I thought influencer marketing was for consumer brands — Instagram and TikTok.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'That is the common assumption — but in B2B it works differently. A [[micro-influencer:someone with 1,000 to 50,000 followers in a specific niche]] with 9,000 followers who are all operations directors in manufacturing is more valuable to TechFlow than a macro-influencer with 500,000 general business followers. The [[niche:a very specific area of interest or expertise]] is the whole point — not the [[reach:the total number of people who could see the content]].',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "How do you choose the right person? What do you look at beyond [[reach:the size of the influencer's audience]]?",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Three things. First: [[engagement rate:the percentage of the audience who actively interact with the content]]. I want to see at least 4% — that tells me the audience is actually listening, not just following. Second: audience profile — are they genuinely the right persona? And third: [[authenticity:the quality of being genuine — actually using and believing in what they recommend]]. Does this person only take partnerships that make sense for their audience, or do they promote everything? That tells you whether an [[endorsement:a public statement of recommendation]] from them will actually be trusted.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'And how do you approach them? Cold outreach?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Not immediately. First, we engage with their content for two to three weeks — comment genuinely, share relevant posts, respond to their questions. Then when we [[reach out to:make the first contact with]] them, we are not strangers. The pitch itself leads with their audience: 'We have a case study with data your followers have been asking about — would this be interesting content for them?' Not: 'we want to pay you to promote our product.'",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'What does the [[partnership:a collaboration where both sides get value]] actually look like in practice?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Two LinkedIn posts written in their own voice, [[co-creating:producing content together with the influencer]] the narrative with them rather than scripting it. One quote for our case study PDF. And the content needs to [[disclose:publicly state that it is sponsored or paid]] the partnership — a simple 'in partnership with TechFlow'. That transparency actually increases trust rather than reducing it.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'And what results do we expect? Can influencer marketing generate [[UGC:User-Generated Content — content created by real users rather than the brand]]?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "If the [[partnership:collaboration]] is genuine and the influencer's audience finds the case study useful, yes — followers will often share their own comments and experiences, which is [[UGC:unprompted content from real users]] in the best sense. We will track profile visits and case study downloads as the primary KPIs. But the bigger goal is [[building credibility:establishing trust and authority through genuine associations]] — one trusted voice recommending TechFlow to 9,000 relevant people does more for long-term pipeline than almost any ad we could run.",
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "MICRO-INFLUENCER",
+        "definition": "An influencer with a smaller but highly engaged, niche audience — typically 1,000 to 50,000 followers"
+    },
+    {
+        "word": "REACH",
+        "definition": "The total number of people who could potentially see a piece of content"
+    },
+    {
+        "word": "AUTHENTICITY",
+        "definition": "The quality of being genuine — truly using and believing in what you recommend"
+    },
+    {
+        "word": "ENDORSEMENT",
+        "definition": "A public statement of support or recommendation from an influencer or authority figure"
+    },
+    {
+        "word": "UGC",
+        "definition": "User-Generated Content — content created by real customers or users, not the marketing team"
+    },
+    {
+        "word": "ENGAGEMENT RATE",
+        "definition": "The percentage of an influencer's audience who actively interact with their content"
+    },
+    {
+        "word": "PARTNERSHIP",
+        "definition": "A collaboration between your brand and an influencer where both sides get value"
+    },
+    {
+        "word": "NICHE",
+        "definition": "A very specific, focused area of interest or expertise that an influencer is trusted on"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "In B2B, a",
+        "after": "with 8,000 followers in manufacturing will outperform a generalist with 500,000 — the audience is smaller but the trust is deeper.",
+        "answer": "micro-influencer"
+    },
+    {
+        "before": "The influencer's",
+        "after": "is operational efficiency in manufacturing — 9,000 followers, every single one in our exact target market.",
+        "answer": "niche"
+    },
+    {
+        "before": "",
+        "after": "tells you how many people might see the content, but says nothing about whether those people are the right audience.",
+        "answer": "Reach"
+    },
+    {
+        "before": "Audiences detect inauthenticity immediately — the influencer must have genuine",
+        "after": "when recommending the product, not just a fee.",
+        "answer": "authenticity"
+    },
+    {
+        "before": "A genuine",
+        "after": "from a respected industry analyst is worth more than a paid post from a large influencer.",
+        "answer": "endorsement"
+    },
+    {
+        "before": "When clients post their own results and tag us, that is",
+        "after": "— it converts better than any ad because it is completely unprompted.",
+        "answer": "UGC"
+    },
+    {
+        "before": "An influencer with 50,000 followers and a 0.5%",
+        "after": "is less valuable than one with 8,000 followers and 6%.",
+        "answer": "engagement rate"
+    },
+    {
+        "before": "The best influencer",
+        "after": "feels like a genuine collaboration — the influencer's voice comes through and the audience can tell it is real.",
+        "answer": "partnership"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "A client says: 'We want to work with the biggest influencer in our industry — they have 500,000 followers.' What should you check first?",
+        "options": [
+            "How much the influencer charges per post — larger audiences always command higher fees.",
+            "Whether the 500,000 followers are actually the target persona, what the engagement rate is, and whether the influencer's brand aligns with yours. Reach without relevance is expensive and ineffective in B2B. A micro-influencer with 10,000 exactly right followers will often deliver better results.",
+            "Whether the influencer has worked with competitors previously — that could be a conflict of interest.",
+            "How recently the influencer's follower count has grown — fast growth could indicate bought followers."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the difference between reach and engagement rate in influencer marketing?",
+        "options": [
+            "Reach is measured over 30 days. Engagement rate is measured per post.",
+            "Reach is the ceiling — how many people could theoretically see the content. Engagement rate is the reality — how many of those people actually interact with it. A high-reach, low-engagement influencer has a passive audience. A lower-reach, high-engagement influencer has an active, trusting one. For B2B, engagement rate matters more.",
+            "Reach applies to the influencer's total following. Engagement rate applies only to sponsored content.",
+            "They measure the same thing from different perspectives — reach for the brand, engagement for the influencer."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why is authenticity so important in influencer marketing?",
+        "options": [
+            "Authentic influencers charge less than those who promote many different brands.",
+            "Audiences are very good at detecting when an influencer does not genuinely use or believe in what they are promoting. An inauthentic endorsement will not convert and may actually reduce trust in both the influencer and the brand being promoted. In B2B, where the audience is highly informed and sceptical, authenticity is not optional.",
+            "Authentic influencers have better content quality and produce more engaging posts.",
+            "Authenticity is required by advertising standards — influencers must genuinely use the products they promote."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What should you lead with when pitching a partnership to an influencer?",
+        "options": [
+            "The fee or compensation you are offering — this is the most important factor in getting a positive response.",
+            "What is interesting or useful for their audience — not what you need from them. 'Your followers ask about operational efficiency benchmarks — we have the best data in the sector' is far more compelling than 'we want you to promote our platform'. Influencers value their audience relationship above all else.",
+            "Your brand credentials and client list — influencers want to know they are working with a reputable company.",
+            "The creative brief and the specific posts you want them to publish — clarity about deliverables from the start avoids misunderstandings."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why is disclosing a paid influencer partnership important — beyond legal compliance?",
+        "options": [
+            "Disclosure allows the influencer to charge a higher fee because the content is officially commercial.",
+            "Audiences increasingly expect and respect transparency — disclosed partnerships that are clearly genuine are trusted more, not less. Undisclosed partnerships that get exposed later damage both the influencer's credibility and the brand's reputation far more than any short-term transparency cost.",
+            "Disclosure is required for the content to be approved by the advertising platform for paid promotion.",
+            "It protects the brand legally if the influencer makes claims that turn out to be inaccurate."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is UGC and why is it so valuable in marketing?",
+        "options": [
+            "User-Generated Content is content produced by employees internally — it is valuable because it is more authentic than agency-produced content.",
+            "User-Generated Content is content created by real customers or users — unprompted and unsponsored. It is highly trusted because the audience knows it was not paid for. When a client posts their own results from using your product and tags your brand, that moment of genuine advocacy converts better than almost any paid creative.",
+            "UGC is content that is shared across multiple platforms by users — it is valuable because of its wide distribution.",
+            "UGC is a type of testimonial content that brands request from clients in exchange for a discount or incentive."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does 'co-creating content' with an influencer mean — and why is it better than giving them a brief?",
+        "options": [
+            "Co-creating means the influencer writes the content and your team edits it before publication.",
+            "Co-creating means sharing the story, data, and context with the influencer and letting them decide how to present it in their own voice. The result sounds genuine because it is — the influencer genuinely reacted to the content. A scripted post that the influencer did not write sounds like what it is: a paid promotion. Their audience can tell.",
+            "Co-creating means producing the content together in a workshop or recorded session.",
+            "Co-creating means the influencer contributes content to your brand's channels rather than their own."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "A client asks: 'How do we measure whether the influencer campaign worked?'",
+        "options": [
+            "Count the total number of likes and comments on the influencer's posts.",
+            "Track the metrics that connect to your specific campaign goal: for brand awareness, track profile visits, follower growth, and reach among the target persona. For lead generation, track case study downloads, link clicks, and inbound enquiries that mention the influencer or the content. And ask new leads how they first heard of you — word-of-mouth attribution is often invisible in tracking but shows up in those conversations.",
+            "Compare the influencer's follower count before and after the campaign to measure audience growth impact.",
+            "Measure the number of times your brand was mentioned or tagged in posts during the campaign period."
+        ],
+        "correctIndex": 1
+    }
+],
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Work in groups. Read each situation and choose the best response. Discuss why before clicking.",
+        "items": [
+            {
+                "customerLine": "Client: 'We want to approach the top three manufacturing influencers on LinkedIn and offer them €5,000 each to promote TechFlow next month.'",
+                "options": [
+                    "Say: 'Great — a high-profile campaign like that will build significant brand awareness quickly.'",
+                    "Say: 'That approach can work — but let me suggest a few things before we commit the budget. First, I want to check whether those three influencers align with TechFlow's values and whether their audience profile actually matches our persona. Second, I want to see their engagement rates — a large following with low engagement is expensive reach with limited impact. Third, the best influencer content is co-created over time, not delivered in a single sponsored post. A one-month campaign for €15,000 is a significant investment — let me propose a way to test it with one influencer first and prove the model before we commit to all three.'",
+                    "Say: 'Five thousand per influencer is too much — we can find micro-influencers who will work for product access or a smaller fee and deliver better results.'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It validates the direction while proposing a smarter approach — checking alignment, engagement, and suggesting a test before committing the full budget. A agrees without any evaluation. C focuses on cost rather than strategy and may miss the fact that the fee is reasonable if the influencer is the right fit."
+            },
+            {
+                "customerLine": "An influencer you approached replies: 'I am interested but I would need to keep the post completely unsponsored — my audience does not like branded content.'",
+                "options": [
+                    "Say: 'That is fine — we can keep it organic if that feels more natural for your audience.'",
+                    "Say: 'I completely understand the concern — and it speaks well of how much you protect your audience relationship. But I have to be honest: we cannot proceed without a disclosure. It is not just a legal requirement in most markets — it is also the right thing to do. What I have found is that an honest, transparent post — one where you clearly say this is a partnership but explain why you chose it — actually performs better than an unmarked one, because your audience respects that you only work with brands you genuinely believe in. Would you be open to that framing?'",
+                    "Say: 'That is not possible — we need the post to be disclosed as sponsored or we cannot proceed with the partnership.'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It is firm on the non-negotiable (disclosure is required) but explains the reasoning in a way that is respectful and reframes it as a positive. A agrees to something that is likely illegal and unethical. C is blunt and closes the door on a potentially good partnership without trying to find a solution."
+            },
+            {
+                "customerLine": "Client after the influencer campaign: 'The post got 800 likes but we only got 12 case study downloads. Was it worth it?'",
+                "options": [
+                    "Say: 'Twelve downloads from one post is actually quite good for a direct conversion from influencer content.'",
+                    "Say: 'Likes are a vanity metric — 12 case study downloads is what we should focus on. Let me check the full picture: how many people visited the TechFlow LinkedIn profile from the post? How many new followers did we gain from the influencer's audience? And did any of those 12 case study downloaders fit our persona? If 10 of the 12 are Operations Directors in manufacturing and 2 of them are now in a sales conversation, that is an excellent result for one post — because a new client from this channel is worth far more than the influencer fee. Give me the full data and I will model the ROI properly before we decide whether to continue or adjust.'",
+                    "Say: 'The likes tell us the content resonated — the downloads will come with more posts. Let us run it three more times.'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It reframes likes as the wrong metric, looks for the full picture beyond the immediate download number, and models the real ROI — which often makes 12 downloads look much more significant than it first appeared. A accepts 12 downloads without context. C bases the recommendation on likes, which tells you almost nothing about commercial value."
+            },
+            {
+                "customerLine": "A junior team member suggests: 'Let us ask our existing clients to post about TechFlow on LinkedIn. Is that influencer marketing?'",
+                "options": [
+                    "Say: 'Not really — influencer marketing requires working with professional content creators, not just clients.'",
+                    "Say: 'It is related — what you are describing is actually advocacy or UGC, which is often more powerful than paid influencer marketing. A client posting their genuine results unprompted is the most trusted form of content because the audience knows they have nothing to gain from it. We can encourage this — by asking clients to share their results, making it easy for them to do so, and engaging with every post they make about us. The difference from influencer marketing is that we are not briefing them on what to say or paying them — we are creating the conditions for genuine advocacy. That is actually the goal we are working towards with the influencer campaign: if those posts inspire existing clients to share their own results, the value multiplies.'",
+                    "Say: 'Yes — clients who post about us are acting as brand influencers. We should give them a discount in exchange for their posts.'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It clarifies the distinction between influencer marketing and UGC/advocacy, explains why the latter is often more powerful, and connects it back to the influencer strategy without dismissing the idea. A draws an arbitrary line that is not useful. C turns a genuine advocacy moment into a transactional exchange, which actually reduces its authenticity and therefore its value."
+            }
+        ]
+    },
+    "profileMatch": {
+        "instructions": "Read the three influencer options for TechFlow's Q4 campaign. Match each to the honest assessment of its value. Discuss as a group before clicking 'Check Matches'.",
+        "profiles": [
+            {
+                "name": "Option A: Sarah Chen",
+                "description": "LinkedIn influencer. 120,000 followers. Focus: general business leadership and productivity. Engagement rate: 0.8%. Promotes 4–5 sponsored products per month from various sectors. Fee: €8,000 per post. Audience demographics: 40% B2B, mixed industries, varied seniority.",
+                "matchKey": "wrong"
+            },
+            {
+                "name": "Option B: James Harlow",
+                "description": "LinkedIn content creator. 9,200 followers. Focus: operational efficiency and manufacturing process improvement. Engagement rate: 5.9%. Accepts 1–2 partnerships per quarter, only in his subject area. Fee: €1,800 per post. Audience: 78% Operations and Supply Chain roles, 65% manufacturing sector, primarily UK and DACH.",
+                "matchKey": "best"
+            },
+            {
+                "name": "Option C: Maya Torres",
+                "description": "LinkedIn influencer. 34,000 followers. Focus: B2B marketing and sales strategy. Engagement rate: 3.2%. Promotes a range of B2B tools and services. Fee: €4,500 per post. Audience: 60% marketing and sales professionals, 25% founder/CEO, 15% other.",
+                "matchKey": "partial"
+            }
+        ],
+        "options": [
+            {
+                "key": "best",
+                "label": "Best fit — recommended for Q4",
+                "description": "The audience is exactly TechFlow's target persona, the engagement rate is exceptional, and the influencer only takes selective partnerships — meaning their endorsement carries real credibility. Despite the smallest following, this option offers the highest relevance, the lowest cost, and the most authentic fit. This is the option to prioritise."
+            },
+            {
+                "key": "partial",
+                "label": "Partial fit — worth considering as secondary",
+                "description": "The audience includes some decision-makers but is primarily marketing and sales professionals — one step removed from TechFlow's target persona (Operations Directors). The engagement rate is reasonable and the following is meaningful. If the primary goal were brand awareness among B2B decision-makers broadly, this could complement Option B. But as the primary influencer choice for TechFlow's campaign, the audience mismatch is too significant."
+            },
+            {
+                "key": "wrong",
+                "label": "Wrong fit — high cost, low relevance",
+                "description": "Despite the largest following, this is the weakest option for TechFlow. The engagement rate is very low (0.8%), the audience is not the target persona, and the influencer takes multiple sponsorships each month — which reduces the credibility of any individual endorsement. €8,000 per post for a general business audience with low engagement is a poor investment compared to the alternatives."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The marketer has started pitching or explaining an influencer strategy. Finish the line clearly and practically. Use vocabulary from this lesson.",
+        "items": [
+            {
+                "customerLine": "Client: 'Why would we use micro-influencers instead of the biggest voices in the industry?'",
+                "salespersonStart": "In B2B, the size of the audience matters much less than the fit of the audience.",
+                "suggestedCompletion": "The biggest voice in manufacturing might have 200,000 followers — but if 80% of those followers are in sectors that are not relevant to TechFlow, you are paying for reach you cannot use. A micro-influencer with 9,000 followers who are all Operations Directors in manufacturing is talking to exactly your persona, in a context they trust, about topics they care about. The engagement rate on a niche micro-influencer is typically four to six times higher than a macro-influencer — which means more people actually read and act on the content. And because micro-influencers take fewer partnerships, their endorsement carries more weight. You are not buying attention — you are buying credibility with the right people."
+            },
+            {
+                "customerLine": "Client: 'How do we approach influencers? We do not have any existing relationship with them.'",
+                "salespersonStart": "The worst thing you can do is send a cold pitch the moment you identify someone.",
+                "suggestedCompletion": "Start by becoming a genuine presence in their content for two to three weeks. Comment thoughtfully on their posts — add something to the conversation rather than just saying 'great post'. Share their content when it is relevant to your audience. Respond to their questions. By the time you reach out, they will recognise your name. Then the pitch leads with their audience, not your product: 'I have been following your content on operational efficiency for several months — I have a case study with data I think your followers have been asking for, and I wanted to ask if you would be open to a short call to explore whether it would be interesting for them.' That approach respects them as a content creator first, not as an advertising channel."
+            },
+            {
+                "customerLine": "Client: 'The influencer wants to write the post entirely themselves without any input from us. Is that okay?'",
+                "salespersonStart": "That is actually ideal — and here is why.",
+                "suggestedCompletion": "The most effective influencer content sounds like the influencer, not like your marketing team. If they write it themselves in their own voice, their audience will read it as a genuine recommendation from someone they trust. If we brief them with specific language and approved messages, the post will read like a press release — and their audience will recognise that immediately and scroll past. What we should give them is the story and the data — the case study, the key numbers, and any context they need to represent TechFlow accurately. Then let them decide how to present it. Our one review point is to check for factual accuracy and to confirm the disclosure is in place. Everything else should be their voice, their style, their angle. That is what makes it worth more than an ad."
+            },
+            {
+                "customerLine": "Client: 'An influencer posted about us without any arrangement — just because they liked our product. What should we do?'",
+                "salespersonStart": "This is the best possible outcome in influencer marketing — and the right response is important.",
+                "suggestedCompletion": "First, engage with the post immediately — comment genuinely, share it to your own page, and thank them publicly. Second, reach out privately to say thank you and ask if they would be open to staying connected — not to ask for more posts, but to start building a relationship. Third, ask their permission to use the quote or post in your other marketing materials — case study, website, email. This is UGC in its purest form: completely unprompted, completely authentic, completely trusted by their audience. The way to get more of it is to make sure your clients get results worth talking about — and then make it easy for them to share those results. A simple 'we would love to hear how it went for you' in a follow-up email, combined with a direct link to your LinkedIn page, is often enough to prompt a post from a happy client."
+            }
+        ]
+    }
+},
+};
