@@ -111,8 +111,8 @@ export default function PhrasalVerbCard({ verb, index }: { verb: PhrasalVerb; in
           <div className="mb-6 space-y-4 border-t border-gray-100 pt-5">
             {verb.inAction && (
               <div>
-                <span className="inline-flex items-center gap-1.5 text-[11px] font-extrabold tracking-[0.18em] text-emerald-600 uppercase mb-1.5">
-                  <span className="text-emerald-500">✓</span> In Action
+                <span className="inline-flex items-center gap-1.5 text-xs font-extrabold tracking-widest text-emerald-600 uppercase mb-1.5">
+                  <span>&#10003;</span> In Action
                 </span>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   &ldquo;{verb.inAction}&rdquo;
@@ -121,16 +121,16 @@ export default function PhrasalVerbCard({ verb, index }: { verb: PhrasalVerb; in
             )}
             {verb.register && (
               <div>
-                <span className="inline-flex items-center gap-1.5 text-[11px] font-extrabold tracking-[0.18em] text-emerald-600 uppercase mb-1.5">
-                  <span className="text-emerald-500">✓</span> Register
+                <span className="inline-flex items-center gap-1.5 text-xs font-extrabold tracking-widest text-emerald-600 uppercase mb-1.5">
+                  <span>&#10003;</span> Register
                 </span>
                 <p className="text-gray-600 text-sm leading-relaxed">{verb.register}</p>
               </div>
             )}
             {verb.inContext && (
               <div>
-                <span className="inline-flex items-center gap-1.5 text-[11px] font-extrabold tracking-[0.18em] text-emerald-600 uppercase mb-1.5">
-                  <span className="text-emerald-500">✓</span> In Context
+                <span className="inline-flex items-center gap-1.5 text-xs font-extrabold tracking-widest text-emerald-600 uppercase mb-1.5">
+                  <span>&#10003;</span> In Context
                 </span>
                 <p className="text-gray-600 text-sm leading-relaxed">{verb.inContext}</p>
               </div>
