@@ -1,0 +1,448 @@
+{
+  "slug": "persuasive-marketing-writing",
+  "exportName": "persuasiveMarketingWriting",
+  "title": "Persuasive Marketing Writing",
+  "subtitle": "How to write copy that moves people — from a headline that stops the scroll to a CTA that gets the click",
+  "level": "B1-B2",
+  "description": "Most marketing writing fails not because the product is wrong, but because the words don't earn attention or build enough desire to act. Persuasive marketing writing is a learnable skill — it follows patterns, uses specific techniques, and can be tested and improved. This lesson teaches you the vocabulary of copywriting: CTAs, headlines, hooks, benefit-led language, and power words. Then it puts those skills to work in the real task of writing a high-converting landing page for a B2B product.",
+  "heroImage": "/images/persuasive-marketing-writing-hero.png",
+
+  "vocabulary": [
+    {
+      "word": "CTA",
+      "partOfSpeech": "noun",
+      "definition": "Call to Action — the specific instruction that tells the reader what to do next: 'Book a demo', 'Download the guide', 'Start your free trial'. A good CTA is clear, specific, and creates a sense of value or urgency. Weak CTAs ('Learn more', 'Click here') are vague and reduce conversion.",
+      "example": "Riley reviewed the landing page: The CTA at the bottom of this page says 'Submit'. That's the weakest possible call to action — it describes the mechanical action, not the value of taking it. Change it to 'Get your free audit'. Now the reader knows exactly what they're getting and it feels worth clicking.",
+      "imageSlug": "/images/cta.png"
+    },
+    {
+      "word": "HEADLINE",
+      "partOfSpeech": "noun",
+      "definition": "The first and most prominent line of copy — the line that must stop the reader and make them want to keep reading. A headline that fails means the rest of the copy is never read. The best headlines are specific, address a real need or fear, and promise a clear benefit or outcome.",
+      "example": "Dana rewrote the hero headline: 'Welcome to MarketBridge' is not a headline — it's a greeting. Nobody reads a landing page to be welcomed. Replace it with 'Cut your content approval time by 60%'. Now there's a specific, relevant, quantified benefit in the first line. That's a headline that makes someone read the next sentence.",
+      "imageSlug": "/images/headline.png"
+    },
+    {
+      "word": "HOOK",
+      "partOfSpeech": "noun",
+      "definition": "The opening element of a piece of copy that captures the reader's attention immediately. A hook can be a striking statistic, a question the reader can't ignore, a bold claim, or a short story. The hook's job is to make the reader feel that this piece of copy was written specifically for them.",
+      "example": "Marcus opened the email campaign draft: The current hook is 'Dear valued customer, we are pleased to share...' — that's not a hook, it's a reflex. Nobody is compelled by that. Try: '72% of B2B marketers say content approval is their biggest time sink. If you're one of them, keep reading.' Now you've selected the right reader and made them curious.",
+      "imageSlug": "/images/hook.png"
+    },
+    {
+      "word": "BENEFIT-LED",
+      "partOfSpeech": "adjective",
+      "definition": "Copy that leads with what the customer gains rather than what the product does. Feature-led copy describes the product ('our platform has 14 integrations'). Benefit-led copy describes the outcome for the customer ('connect every tool your team already uses in under five minutes'). Benefits answer 'so what?' — features rarely do.",
+      "example": "Riley challenged the brief: This copy is entirely feature-led — it lists everything the product does but never says why any of it matters to the reader. Let's rewrite it benefit-led: instead of 'AI-powered compliance checking', write 'catch every compliance issue before it reaches legal — automatically'. Same feature, completely different frame.",
+      "imageSlug": "/images/benefit-led.png"
+    },
+    {
+      "word": "POWER WORDS",
+      "partOfSpeech": "noun",
+      "definition": "Words and phrases that provoke a strong emotional or psychological response — increasing desire, urgency, credibility, or exclusivity. Common power words include: proven, guaranteed, exclusive, instant, effortless, eliminate, transform, discover, secret. Used carefully, they amplify impact; overused, they become noise.",
+      "example": "Dana briefed the copywriter: The copy needs more power words, but used with intention — not sprinkled randomly. 'Proven' before a statistic makes the claim feel more trustworthy. 'Effortless' next to a feature that removes manual work turns a spec into a feeling. Every power word should be earning its place on the page.",
+      "imageSlug": "/images/power-words.png"
+    },
+    {
+      "word": "ABOVE THE FOLD",
+      "partOfSpeech": "phrase",
+      "definition": "The section of a web page visible without scrolling — the first thing a visitor sees when the page loads. 'Above the fold' must earn the visitor's attention and give them a reason to scroll. If the headline, subheadline, and CTA above the fold don't immediately resonate, most visitors leave.",
+      "example": "Marcus reviewed the new landing page design: Everything above the fold needs to be doing serious work. Right now we have the headline, a paragraph of body copy, and an image. But the CTA button is too far down — visitors need to see it before they decide whether to scroll. Move the CTA above the fold and test the conversion impact.",
+      "imageSlug": "/images/above-the-fold.png"
+    },
+    {
+      "word": "CONVERSION COPY",
+      "partOfSpeech": "noun",
+      "definition": "Copy written specifically to persuade the reader to take a desired action — sign up, buy, book, download. Conversion copy is not about brand awareness or storytelling; it is focused entirely on removing the last objections between the reader and the action. Every word in conversion copy must justify its place.",
+      "example": "Riley explained the distinction: The awareness campaign copy we wrote last month was designed to build recognition and trust. The landing page we're writing now is conversion copy — it's talking to someone who is already interested and needs the last push to act. The audience, the tone, and the job of the words are completely different.",
+      "imageSlug": "/images/conversion-copy.png"
+    },
+    {
+      "word": "OBJECTION HANDLING",
+      "partOfSpeech": "noun",
+      "definition": "Copy that anticipates and addresses the reader's likely reasons for not taking action. Good conversion copy identifies the three or four most common objections — 'Is this too expensive?', 'Will it work for my size of company?', 'What if I don't have time to implement it?' — and addresses them directly on the page.",
+      "example": "Dana added a section to the landing page: I've added an objection handling block between the features and the CTA. It addresses the three questions our sales team hears most often: price, implementation time, and contract length. When someone is on the fence, this section does the job of a sales conversation — and it works at scale, 24 hours a day.",
+      "imageSlug": "/images/objection-handling.png"
+    }
+  ],
+
+  "phrasalVerbs": [
+    {
+      "phrase": "THE HEADLINE NEEDS TO STOP THE SCROLL",
+      "definition": "A phrase used in copy reviews and creative briefings to say that the headline must immediately capture enough attention that the reader pauses and reads on. 'Stop the scroll' refers to the behaviour of users scrolling through social media or email — a weak headline is passed over instantly.",
+      "example": "Riley briefed the copywriter: The first rule of this landing page is the headline needs to stop the scroll. We have a quarter of a second to earn attention. The current draft — 'Introducing MarketBridge 2.0' — tells me nothing about why I should care. I want a headline that speaks directly to the reader's pain, with a specific outcome promised.",
+      "imageSlug": "/images/the-headline-needs-to-stop-the-scroll.png"
+    },
+    {
+      "phrase": "LEAD WITH THE BENEFIT, NOT THE FEATURE",
+      "definition": "The core principle of benefit-led copywriting. In every sentence where you're tempted to describe what the product does, ask instead: 'What does this mean for the customer?' and lead with that. 'We have 14 integrations' is a feature. 'Connect every tool your team already uses' is the benefit.",
+      "example": "Marcus gave feedback on the first draft: Throughout this page, you're leading with the feature and burying the benefit. Flip it: instead of 'Real-time compliance alerts', write 'Never miss a compliance issue again — our alerts catch problems the moment they appear'. Same feature, but now the benefit is the first thing the reader sees.",
+      "imageSlug": "/images/lead-with-the-benefit-not-the-feature.png"
+    },
+    {
+      "phrase": "THE CTA NEEDS TO BE ABOVE THE FOLD",
+      "definition": "A phrase used in landing page reviews to say that the call to action must be visible without scrolling. If visitors have to scroll to find the CTA, many will not reach it — especially on mobile. This phrase often comes with a recommendation to add a secondary CTA at the top of the page.",
+      "example": "Dana reviewed the mobile design: On desktop, the CTA is fine. But on mobile, the image takes up the whole screen and the button is below the fold. On mobile, 60% of traffic never scrolls — so 60% of visitors never see the CTA. The CTA needs to be above the fold on every device. Redesign the mobile layout first.",
+      "imageSlug": "/images/the-cta-needs-to-be-above-the-fold.png"
+    },
+    {
+      "phrase": "THIS COPY ISN'T EARNING ITS PLACE",
+      "definition": "A phrase used in copy editing to say that a section, sentence, or word is not doing enough persuasive work to justify being on the page. In conversion copy, every word has a job. 'Isn't earning its place' means this copy is taking up space without moving the reader toward action.",
+      "example": "Riley edited the draft: This second paragraph — four sentences explaining the company history — isn't earning its place on a conversion page. The reader doesn't care who founded us in 2019. Cut it and replace it with the stat about implementation time. Conversion copy is not the place for biography.",
+      "imageSlug": "/images/this-copy-isnt-earning-its-place.png"
+    },
+    {
+      "phrase": "ADDRESS THE OBJECTION BEFORE THE READER RAISES IT",
+      "definition": "The principle behind objection handling copy — anticipating the reader's hesitations and resolving them proactively, before they close the tab. Good conversion copy reads the reader's mind: 'You might be thinking the implementation will take weeks. It won't — our average setup time is 48 hours.'",
+      "example": "Dana explained the FAQ section strategy: We know from sales calls that 'how long does implementation take?' is the most common hesitation. So we address the objection before the reader raises it — right above the final CTA. 'Set up in 48 hours, fully supported.' That sentence is doing the work of a sales call on the page.",
+      "imageSlug": "/images/address-the-objection-before-the-reader-raises-it.png"
+    },
+    {
+      "phrase": "WRITE TO ONE PERSON, NOT TO EVERYONE",
+      "definition": "A fundamental copywriting principle: effective conversion copy speaks directly and personally to a single ideal reader, using 'you' and specific details relevant to that person's situation. When copy tries to speak to everyone, it resonates with nobody.",
+      "example": "Marcus gave creative direction: The current draft feels like it was written for a committee, not a person. Use 'you' — not 'our clients', not 'businesses'. Write to one person: the Head of Marketing at a 50-person financial services firm who has a compliance team breathing down her neck and a content backlog that's three months long. Write to her.",
+      "imageSlug": "/images/write-to-one-person-not-to-everyone.png"
+    }
+  ],
+
+  "videos": [],
+
+  "dialogue": [
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "Right — let's review the landing page draft. I've read it twice and I have some significant feedback. The bones are good, but the copy isn't doing the job we need it to do."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "speakerAvatar": "/images/dana-icon.png",
+      "text": "I had the same feeling when I reviewed it. What's your main concern?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "The [[headline:the first and most prominent line of copy that must stop the reader and make them keep reading]]. Right now it says 'Welcome to MarketBridge'. That's not a headline — it's a greeting. The headline needs to stop the scroll. It needs to speak to the reader's problem in the first line."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "speakerAvatar": "/images/marcus-icon.png",
+      "text": "What would a better headline look like?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "Something like: 'Stop losing deals to slow content approvals'. Or: 'Your compliance team shouldn't be the reason your campaigns are late'. Those are [[benefit-led:copy that leads with what the customer gains rather than what the product does]] — they speak to a frustration this audience knows deeply."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "speakerAvatar": "/images/dana-icon.png",
+      "text": "I like the second one. It's specific and it feels personal. What about the [[hook:the opening element that captures attention and makes the reader feel this content was written for them]]? The page currently opens with three sentences about the company's history."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "speakerAvatar": "/images/marcus-icon.png",
+      "text": "Company history on a conversion page is a classic mistake. Nobody who lands on this page needs to know we were founded in 2019. They need to know we can solve their problem."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "Replace the history with a hook. Start with a statistic: '68% of marketing teams in regulated industries say content approval is their biggest bottleneck. MarketBridge cuts that time by 60%.' That's a [[hook:the opening that makes the reader feel this content was written specifically for them]] that selects exactly the right reader."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "speakerAvatar": "/images/dana-icon.png",
+      "text": "The features section also needs work. It's a bullet list of what the product does — it's not [[benefit-led]] at all. 'Real-time compliance alerts' doesn't mean anything emotional. What does it mean for the reader?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "Lead with the benefit, not the feature. 'Never miss a compliance issue again — our alerts catch problems the moment they appear.' Same feature, but now the benefit is in the first line and the feature is the proof behind it."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "speakerAvatar": "/images/marcus-icon.png",
+      "text": "What about [[objection handling:copy that anticipates and addresses the reader's likely reasons for not taking action]]? I don't see anything on the page that addresses the most common hesitations."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "speakerAvatar": "/images/dana-icon.png",
+      "text": "I'll add a section above the final CTA. From the sales team, the three most common objections are: implementation time, contract length, and whether it works for their tech stack. Address the objection before the reader raises it — 'Set up in 48 hours. Month-to-month contracts. Integrates with the tools you already use.'"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "That section is doing the work of a sales call on the page. Last thing — the [[CTA:Call to Action — the specific instruction telling the reader what to do next]]. 'Submit' has to go. What's the action and what's the reward?"
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "speakerAvatar": "/images/marcus-icon.png",
+      "text": "The action is requesting a personalised audit of their content process. The reward is a specific, actionable report they get in 48 hours."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "Then the CTA is: 'Get your free content audit — delivered in 48 hours'. And it needs to be [[above the fold:the section of a page visible without scrolling — the first thing a visitor sees]] on both desktop and mobile. If they have to scroll to find the button, half of them won't."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "speakerAvatar": "/images/dana-icon.png",
+      "text": "I'll have the rewrite ready by tomorrow morning. One headline with a specific outcome, a stat-led hook, benefit-led features, an objection section, and a strong CTA above the fold. Let's see what it does to conversion."
+    }
+  ],
+
+  "matchingExercise": [
+    { "word": "CTA", "definition": "the specific instruction that tells the reader what to do next — 'Book a demo', 'Get your free audit'" },
+    { "word": "headline", "definition": "the first and most prominent line of copy that must earn the reader's attention immediately" },
+    { "word": "hook", "definition": "the opening element that makes the reader feel this content was written specifically for them" },
+    { "word": "benefit-led", "definition": "copy that leads with what the customer gains rather than what the product does" },
+    { "word": "power words", "definition": "words that provoke a strong emotional or psychological response — proven, exclusive, effortless, instant" },
+    { "word": "above the fold", "definition": "the section of a web page visible without scrolling — the first thing a visitor sees" },
+    { "word": "conversion copy", "definition": "copy written specifically to persuade the reader to take a desired action" },
+    { "word": "objection handling", "definition": "copy that anticipates and addresses the reader's likely reasons for not taking action" }
+  ],
+
+  "fillBlankExercise": [
+    {
+      "before": "The headline needs to stop the ",
+      "after": " — we have a quarter of a second to earn the reader's attention.",
+      "answer": "scroll"
+    },
+    {
+      "before": "Lead with the ",
+      "after": ", not the feature — tell the reader what they gain before you explain what the product does.",
+      "answer": "benefit"
+    },
+    {
+      "before": "The CTA needs to be above the ",
+      "after": " — if visitors have to scroll to find the button, many of them won't reach it.",
+      "answer": "fold"
+    },
+    {
+      "before": "This company history paragraph isn't ",
+      "after": " its place on a conversion page — cut it and replace it with something that moves the reader toward action.",
+      "answer": "earning"
+    },
+    {
+      "before": "Address the ",
+      "after": " before the reader raises it — 'Set up in 48 hours, fully supported.'",
+      "answer": "objection"
+    },
+    {
+      "before": "Write to one ",
+      "after": ", not to everyone — use 'you' and speak directly to the person who has this exact problem.",
+      "answer": "person"
+    }
+  ],
+
+  "multipleChoiceExercise": [
+    {
+      "question": "What does Riley say is wrong with the current headline 'Welcome to MarketBridge'?",
+      "options": [
+        "It is too long and will be cut off on mobile screens",
+        "It is a greeting, not a headline — it doesn't speak to the reader's problem",
+        "It doesn't include the product name prominently enough"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What three things does Dana say should be addressed in the objection handling section?",
+      "options": [
+        "Pricing, team size requirements, and security compliance",
+        "Implementation time, contract length, and tech stack compatibility",
+        "Onboarding support, SLA guarantees, and refund policy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What replacement CTA does Riley propose instead of 'Submit'?",
+      "options": [
+        "'Book a free demo with our team'",
+        "'Start your free trial today'",
+        "'Get your free content audit — delivered in 48 hours'"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What hook does Riley suggest to replace the company history opening?",
+      "options": [
+        "A customer success story from a regulated industry client",
+        "A statistic about content approval bottlenecks in regulated industries",
+        "A question asking the reader if they're satisfied with their current tools"
+      ],
+      "correctIndex": 1
+    }
+  ],
+
+  "warmUp": {
+    "questions": [
+      "Think of the last time an email subject line or a social media headline made you stop and click. What was it about it that worked? Was it a question, a number, a surprise?",
+      "When you visit a landing page or read a marketing email, what makes you keep reading — and what makes you close the tab after five seconds?",
+      "Have you ever had to write a persuasive email at work — to your manager, to a client, to a colleague — to get them to do something or approve something? What techniques did you use, consciously or not?"
+    ]
+  },
+
+  "completeSentenceExercise": {
+    "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
+    "items": [
+      {
+        "sentence": "A headline that _____ to speak directly to the reader's problem will lose their attention immediately.",
+        "options": ["fails", "fail", "failing"],
+        "correctIndex": 0,
+        "explanation": "'Fails' is correct — the subject is 'a headline' (singular), so the third-person singular verb form is needed: 'fails'. 'Fail' (without -s) is the plural form, used with subjects like 'headlines fail' or 'campaigns fail'. 'Failing' is a present participle and cannot be the main verb of a relative clause without an auxiliary verb ('is failing'). This is a subject-verb agreement error: singular subjects take -s in present simple."
+      },
+      {
+        "sentence": "Instead of listing features, _____ with the benefit the customer will experience.",
+        "options": ["lead", "leading", "to lead"],
+        "correctIndex": 0,
+        "explanation": "'Lead' is the imperative form — the sentence is an instruction or recommendation. Imperative sentences use the base form of the verb with no subject: 'lead', 'write', 'focus', 'add'. 'Leading' is a present participle — it would need an auxiliary verb or subject ('start by leading'). 'To lead' is an infinitive — infinitives can appear in instruction-style writing ('to lead with the benefit, you must know the benefit') but the base form imperative is the most direct and natural form for instructions."
+      },
+      {
+        "sentence": "The CTA button _____ visible on the screen the moment the page loads — before the visitor needs to scroll.",
+        "options": ["must be", "must", "is must"],
+        "correctIndex": 0,
+        "explanation": "'Must be' is correct — 'must' is a modal verb and requires the base form of the next verb ('be'). 'Must be visible' = it is required to be visible. 'Must' alone cannot end the sentence here because the sentence needs a predicate (the thing that 'must' applies to). 'Is must' is ungrammatical — a modal verb cannot follow 'is' in this way. The structure is: subject + must + base verb (+ complement if needed): 'it must be', 'it must work', 'it must convert'."
+      },
+      {
+        "sentence": "Good conversion copy _____ the reader's objections before they have a chance to close the page.",
+        "options": ["addresses", "address", "is addressing"],
+        "correctIndex": 0,
+        "explanation": "'Addresses' is correct — the subject 'good conversion copy' is singular, requiring the third-person singular -s form in present simple. This sentence states a general truth or principle about how conversion copy works — so present simple is appropriate ('conversion copy addresses...', 'good writing engages...'). 'Address' (plural form) would be used with a plural subject: 'strong pages address'. 'Is addressing' (present continuous) describes a specific ongoing action, not a general principle."
+      },
+      {
+        "sentence": "The most effective landing pages are written _____ one specific reader in mind.",
+        "options": ["with", "for", "by"],
+        "correctIndex": 0,
+        "explanation": "'With' is correct in the phrase 'written with X in mind' — meaning 'while thinking about X', 'with X as the focus'. 'Written with one reader in mind' is a fixed expression in English. 'Written for one reader' is also possible but changes the meaning slightly (it means the writing is intended for that reader, not necessarily that the writer was thinking about that person). 'Written by one reader' would mean the reader is the author — completely different meaning. 'With X in mind' is the correct phrase for describing the intended audience or purpose during the writing process."
+      },
+      {
+        "sentence": "Power words are most effective when each one _____ a specific emotional or psychological purpose.",
+        "options": ["serves", "serve", "serving"],
+        "correctIndex": 0,
+        "explanation": "'Serves' is the correct form — the subject is 'each one', which is always singular in English. 'Each', 'each one', 'every', 'everyone', 'everything' all take singular verbs: 'each word serves', 'each one matters', 'every page needs'. 'Serve' (without -s) would be used with 'they' or 'words': 'they serve a purpose'. 'Serving' is a present participle that cannot be the main verb here without an auxiliary. Remember: 'each' and 'every' are always grammatically singular, regardless of how many items they refer to."
+      }
+    ]
+  },
+
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Read what the client or colleague says. Choose the best professional response.",
+      "items": [
+        {
+          "customerLine": "We've been told our landing page copy needs to be 'more persuasive'. Where do we start?",
+          "options": [
+            "Start with the CTA — if the button text is weak, the whole page suffers. Change 'Submit' to something that names the specific value the visitor gets. 'Get your free audit' or 'See your personalised demo'. Then work backwards from there.",
+            "Start by adding more testimonials. Social proof is the most persuasive element on any landing page.",
+            "Start by making the page shorter. Less text is always more persuasive."
+          ],
+          "correctIndex": 0,
+          "explanation": "Option A is the right answer because the CTA is the conversion point of the page — if it's weak, all the other copy is working toward a dead end. Starting there and working backwards is a practical and logical approach. It also gives a specific, actionable instruction the client can act on immediately. Option B may be part of the solution, but testimonials alone won't fix a page with a weak headline and a bad CTA — social proof amplifies good copy; it can't replace it. Option C is wrong — there is no correct universal page length; the right length is 'long enough to answer every objection and short enough to respect the reader's time'."
+        },
+        {
+          "customerLine": "Our copywriter wants to write in a creative, literary style. Is that a good approach for a B2B landing page?",
+          "options": [
+            "Absolutely — B2B buyers are humans too. A creative style will help you stand out from generic corporate copy.",
+            "Creative writing and conversion copy are different disciplines with different goals. On a B2B landing page, the job is to move a specific reader from interest to action. That requires clarity over creativity — specific benefits, concrete numbers, direct language, and a CTA that removes all uncertainty. A literary voice can help with tone, but it shouldn't come at the expense of clarity and specificity.",
+            "It depends on the brand. Some B2B brands use a creative voice successfully. You'd need to test both versions."
+          ],
+          "correctIndex": 1,
+          "explanation": "Option B is the best answer — it draws a clear, principled distinction between creative writing and conversion copy without dismissing creativity entirely. It explains what a B2B landing page is trying to do and why those goals require a specific approach. Option A is partially true (B2B buyers are humans) but doesn't address the real tension: creative writing often prioritises voice and style over clarity and directness, which is the wrong trade-off for a conversion page. Option C is too non-committal — while testing is good practice, a professional should be able to give a directional recommendation based on what the copy is trying to achieve."
+        },
+        {
+          "customerLine": "Is it really necessary to address objections on the landing page? That seems like a sales team job.",
+          "options": [
+            "You're right — objection handling belongs in the sales conversation. The landing page should focus on generating interest and getting the form filled.",
+            "Not necessarily. Short pages with fewer words often convert better.",
+            "Yes — and here's why. Most visitors to a landing page will never speak to a salesperson. If they have a hesitation and the page doesn't answer it, they leave. Objection handling copy does the work of a sales conversation at scale, 24 hours a day, for every visitor. The three or four most common objections from your sales team — 'how long does implementation take?', 'what's the contract length?' — should be answered directly on the page, right above the CTA."
+          ],
+          "correctIndex": 2,
+          "explanation": "Option C is the right answer — it explains the scale advantage of addressing objections on the page versus relying on sales conversations, names the specific location where objection handling works best (above the CTA), and gives concrete examples of the kinds of objections to address. Option A treats the landing page as an awareness or interest-generation tool, not a conversion tool — which misunderstands the purpose of a conversion landing page. Option B is a non-answer that deflects with a generalisation unrelated to the question asked."
+        }
+      ]
+    },
+    "spotTheMistake": {
+      "instructions": "Read the landing page copy review extract. Three lines have a grammar mistake. Can you find them?",
+      "dialogue": [
+        {
+          "speaker": "Riley",
+          "text": "The headline needs to speak directly to the reader's problem — not to describe the product in general terms."
+        },
+        {
+          "speaker": "Dana",
+          "text": "The hook in the first paragraph aren't specific enough — it could be describing any marketing platform on the market."
+        },
+        {
+          "speaker": "Riley",
+          "text": "Lead with the benefit, not the feature — 'real-time compliance alerts' is a feature, but 'never miss a compliance issue again' is the benefit."
+        },
+        {
+          "speaker": "Marcus",
+          "text": "Every word on a conversion page must earning its place — if a sentence doesn't move the reader toward action, it should be cut."
+        },
+        {
+          "speaker": "Dana",
+          "text": "The CTA button currently says 'Submit', which is the most weakest call to action possible — it describes the mechanic, not the value."
+        },
+        {
+          "speaker": "Riley",
+          "text": "Before we finalise, let's check that the CTA is visible above the fold on both desktop and mobile."
+        }
+      ],
+      "mistakes": [
+        {
+          "lineIndex": 1,
+          "incorrectText": "aren't",
+          "correction": "isn't",
+          "explanation": "The subject of this sentence is 'the hook' — singular. 'The hook isn't specific enough' is correct. 'Aren't' is the plural contraction (are not), used with plural subjects: 'the hooks aren't specific', 'the examples aren't clear'. A common error is to make the verb agree with 'first paragraph' (the nearest noun) instead of the true subject 'the hook'. Always identify the actual subject — not the object of a preposition or a nearby noun — before choosing the verb."
+        },
+        {
+          "lineIndex": 3,
+          "incorrectText": "must earning",
+          "correction": "must earn",
+          "explanation": "After modal verbs (must, should, will, would, can, could, shall, may, might), always use the base form of the verb — never '-ing'. 'Must earn' is correct. 'Must earning' combines a modal with a present participle, which is not a valid structure in English. The only exception is 'must be + -ing' (continuous): 'she must be running late'. But when 'must' expresses obligation or requirement, it is always followed by the base form: 'must work', 'must convert', 'must earn'."
+        },
+        {
+          "lineIndex": 4,
+          "incorrectText": "most weakest",
+          "correction": "weakest",
+          "explanation": "'Most weakest' is a double superlative — using both 'most' and '-est' at the same time, which is incorrect in English. Superlatives are formed in one of two ways, not both: for short adjectives (one or two syllables), add '-est': weak → weakest. For longer adjectives (three or more syllables), use 'most': effective → most effective. Never combine both forms: 'most weakest', 'most tallest', 'most biggest' are all wrong. The correct form here is simply 'the weakest'."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The copywriter starts a sentence in a copy review meeting. Work with your partner to finish it professionally.",
+      "items": [
+        {
+          "customerLine": "The client says the landing page feels 'too salesy'. How do we fix that without losing the conversion focus?",
+          "salespersonStart": "The 'too salesy' feeling usually comes from over-claiming and under-proving. The fix is not to write less persuasively — it's to...",
+          "suggestedCompletion": "replace claims with evidence. Instead of 'we're the best platform in the market', write 'rated #1 by G2 for three consecutive quarters'. Instead of 'our customers love us', write '94% of customers renew their contract after year one'. Every claim needs a proof point. When copy is specific and evidenced, it feels trustworthy, not pushy."
+        },
+        {
+          "customerLine": "We're not sure whether to write a short landing page or a long one. Which converts better?",
+          "salespersonStart": "There's no universal answer — it depends on the audience and where they are in the decision process. The general principle is...",
+          "suggestedCompletion": "a short page works best for low-commitment actions (sign up for a free trial, download a guide) where the decision is simple. A long page works better for high-commitment decisions (buy a £5,000 annual contract, request a custom enterprise demo) where the buyer needs to answer more questions before acting. The right length is: long enough to answer every objection and short enough to respect the reader's time. Test both if you're not sure — conversion rate will tell you."
+        },
+        {
+          "customerLine": "How do we write a CTA that doesn't feel pushy or aggressive?",
+          "salespersonStart": "A CTA feels pushy when it asks for more than the reader is ready to give. The fix is to match the CTA to the level of commitment the reader is ready to make. Instead of 'Buy now' for a first-touch prospect, try...",
+          "suggestedCompletion": "something that offers value before it asks for commitment: 'Get your free content audit', 'See a five-minute demo', 'Download the guide'. The reader takes an action and receives something useful in return. The CTA feels like an offer, not a demand. Once they've received value, the next CTA — booking a sales call, requesting a proposal — feels like a natural next step, not a push."
+        }
+      ]
+    }
+  }
+}

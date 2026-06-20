@@ -1,0 +1,442 @@
+{
+  "slug": "social-listening-and-reputation",
+  "exportName": "socialListeningAndReputation",
+  "title": "Social Listening and Reputation",
+  "subtitle": "How to monitor brand mentions, interpret what you hear, and write a reputation management plan that protects and builds the brand",
+  "level": "B1-B2",
+  "description": "Brands are talked about constantly — in reviews, social posts, news articles, forums, and comment sections — whether companies are listening or not. Social listening is the practice of monitoring these conversations in real time, understanding what they mean, and using them to make better marketing and communications decisions. This lesson teaches you the vocabulary of brand monitoring and online reputation management: sentiment analysis, share of voice, brand health, and alert systems. The core skill is writing a reputation management plan that your team can actually act on.",
+  "heroImage": "/images/social-listening-and-reputation-hero.png",
+
+  "vocabulary": [
+    {
+      "word": "SENTIMENT ANALYSIS",
+      "partOfSpeech": "noun",
+      "definition": "The automated process of classifying mentions and online conversations as positive, negative, or neutral. Sentiment analysis tools use natural language processing to evaluate the emotional tone of text. In brand monitoring, sentiment analysis tells you not just how often your brand is mentioned, but whether those mentions are helping or hurting you.",
+      "example": "Riley presented the monthly report: The sentiment analysis shows 62% of our mentions are positive, 24% neutral, and 14% negative. The negative spike happened in week three — it was driven by a single customer complaint that was amplified on Twitter. The complaint itself was resolved quickly, but the initial response time was too slow. That's the reputational risk we need to address in the plan.",
+      "imageSlug": "/images/sentiment-analysis.png"
+    },
+    {
+      "word": "SHARE OF VOICE",
+      "partOfSpeech": "noun",
+      "definition": "The percentage of total online conversations in your category that mention your brand — compared to competitors. A high share of voice means your brand is part of more conversations than competitors. Share of voice correlates with brand awareness and, over time, with market share. It is measured in a specific topic area or category, not the whole internet.",
+      "example": "Dana reported the competitive position: Our share of voice in the 'B2B marketing technology' conversation is currently 18%. Competitor A has 34%, Competitor B has 27%. We're in third place by a meaningful margin. The gap is not surprising — they have been publishing at three times our volume. Closing that gap is one of the reasons the content programme increase is in this budget.",
+      "imageSlug": "/images/share-of-voice.png"
+    },
+    {
+      "word": "BRAND HEALTH",
+      "partOfSpeech": "noun",
+      "definition": "An overall measure of how a brand is perceived — combining awareness, sentiment, trust, and advocacy into a single view. Brand health is not a single metric but a composite of several indicators. A brand with high awareness but low trust has poor brand health. A brand with lower awareness but very high advocacy scores can be healthier than it looks.",
+      "example": "Marcus reviewed the quarterly brand health dashboard: Awareness is up — more people know who we are. But trust is down 8 points following the data outage in September. And advocacy — people actively recommending us — is flat. High awareness with declining trust is a warning sign. Brand health overall is weakening, even if the top-line awareness numbers look positive.",
+      "imageSlug": "/images/brand-health.png"
+    },
+    {
+      "word": "MONITOR",
+      "partOfSpeech": "verb",
+      "definition": "To continuously observe and track brand mentions, competitor activity, or topic conversations across online channels. Social listening platforms monitor in real time — they scan news articles, social media, review sites, and forums for any mention of specified keywords. To monitor effectively, you need to define what you're listening for before you start.",
+      "example": "Riley set up the listening dashboard: We're monitoring six keyword clusters. The first is brand mentions — our name, common misspellings, and key product names. The second is competitor names. The third is the category conversation — terms like 'B2B marketing platform' and 'compliance software'. Monitoring all three gives us a complete picture of what's being said, by whom, and in what context.",
+      "imageSlug": "/images/monitor.png"
+    },
+    {
+      "word": "ALERT",
+      "partOfSpeech": "noun",
+      "definition": "An automated notification triggered when a specified condition is met in a social listening platform — for example, when a keyword volume spikes, when sentiment turns negative, or when a brand mention exceeds a reach threshold. Alerts allow marketing and communications teams to respond to developing situations in real time, before they escalate.",
+      "example": "Dana explained the alert system: We have three tiers of alert. A green alert is triggered when brand mentions spike by more than 50% above average — it might be good news or bad news. An amber alert is triggered when negative sentiment exceeds 25% of total mentions. A red alert fires when a single negative post reaches over 10,000 impressions. Red alerts go to the communications director within 15 minutes.",
+      "imageSlug": "/images/alert.png"
+    },
+    {
+      "word": "CRISIS COMMUNICATIONS",
+      "partOfSpeech": "noun",
+      "definition": "The structured approach to managing public communications during a reputational crisis — a product failure, a data breach, a public complaint that goes viral, or a media story. Crisis communications requires speed, honesty, and a clear chain of command. A slow or dishonest response consistently makes crises worse.",
+      "example": "Marcus had the difficult conversation: The data outage last September was a crisis communications failure. We took 18 hours to issue a public statement. In that time, the story was picked up by two tech news sites and 400 customers posted complaints on social media. By the time we responded, the narrative had already been set. The reputation management plan needs to cut the response time to two hours maximum.",
+      "imageSlug": "/images/crisis-communications.png"
+    },
+    {
+      "word": "EARNED MEDIA",
+      "partOfSpeech": "noun",
+      "definition": "Coverage or mentions generated by others — journalists, influencers, customers, or social media users — rather than paid for or owned by the brand. Earned media is generally more credible than paid advertising because it is not purchased. Positive earned media is a sign of strong brand health; negative earned media requires active reputation management.",
+      "example": "Riley distinguished the coverage types: The article in Marketing Week was earned media — they reached out to us after seeing our LinkedIn content, not because we paid them. That kind of third-party endorsement is far more valuable per impression than any paid ad we run. One positive article in a respected trade publication reaches the right audience with a level of credibility we can't buy.",
+      "imageSlug": "/images/earned-media.png"
+    },
+    {
+      "word": "NARRATIVE",
+      "partOfSpeech": "noun",
+      "definition": "The story or interpretation of events that takes hold in public conversation about a brand. In reputation management, 'controlling the narrative' means ensuring that the brand's own explanation of events reaches the audience before a negative interpretation becomes established. Once a narrative is set, it is very difficult to dislodge.",
+      "example": "Dana explained the communications principle: The reason we need a faster crisis response process is narrative control. When bad news breaks, the first credible explanation that reaches the audience tends to stick. If we wait 18 hours to respond, the media and social commentary write the narrative for us. We need to be first — with an honest, specific, and human response — before the narrative is shaped by others.",
+      "imageSlug": "/images/narrative.png"
+    }
+  ],
+
+  "phrasalVerbs": [
+    {
+      "phrase": "THE DATA SHOWS A SPIKE IN NEGATIVE MENTIONS",
+      "definition": "A standard phrase used in brand monitoring reports to flag a sudden increase in negative sentiment or volume. A 'spike' is a sharp, sudden rise in a metric. 'Negative mentions' are posts, articles, or comments that express criticism, frustration, or concern about the brand. Spikes require investigation — what caused them, how big is the reach, and is a response needed?",
+      "example": "Riley flagged the issue in the weekly report: The data shows a spike in negative mentions starting on Tuesday evening — volume jumped from 12 per hour to 140 per hour within two hours. The source is a single thread on Reddit that got heavily shared. The topic is customer support wait times. This has reached 85,000 impressions. We need to decide whether to respond publicly or address it through direct customer contact.",
+      "imageSlug": "/images/the-data-shows-a-spike-in-negative-mentions.png"
+    },
+    {
+      "phrase": "OUR SHARE OF VOICE IS GROWING / DECLINING",
+      "definition": "A phrase used in competitive monitoring reports to describe movement in the brand's proportion of the overall category conversation. 'Growing' means the brand is becoming more present in the conversation relative to competitors; 'declining' means competitors are gaining more conversational presence. Share of voice is a leading indicator of market position change.",
+      "example": "Dana reported on competitive standing: Our share of voice in the compliance software conversation has grown from 18% to 23% over the past quarter. That growth correlates directly with the increase in content output — we published 24 long-form pieces versus 8 in the previous quarter. Competitor B's share has declined by 5 points in the same period. We're gaining ground.",
+      "imageSlug": "/images/our-share-of-voice-is-growing-declining.png"
+    },
+    {
+      "phrase": "WE NEED TO GET AHEAD OF THIS STORY",
+      "definition": "A crisis communications phrase meaning that the brand must proactively communicate before a negative story or situation spreads beyond control. 'Getting ahead' of a story means issuing a statement, reaching out to media, or responding publicly before the narrative is shaped by others. Reactive crisis management is always harder than proactive communication.",
+      "example": "Marcus made the call: This is going to be a bigger story than we thought — there are already three journalists on social media asking questions about the outage. We need to get ahead of this story before it becomes a news item. I want a statement drafted in the next 30 minutes: what happened, what we've done to fix it, and what we're doing to prevent it in future. Honest, specific, and human.",
+      "imageSlug": "/images/we-need-to-get-ahead-of-this-story.png"
+    },
+    {
+      "phrase": "THE ALERT WAS TRIGGERED BY...",
+      "definition": "A phrase used when explaining the cause of an automated notification from a social listening platform. Used in incident reports and team briefings when walking through what happened and when. Always follow with: what was the source, what was the volume or reach, and what was the sentiment.",
+      "example": "Dana briefed the team: The amber alert was triggered by a 34% increase in negative mentions between 6 and 8pm on Wednesday. The source was a Twitter thread from a verified account with 180,000 followers. They shared a screenshot of a customer service response that was perceived as dismissive. By the time the alert fired, the post had already reached 55,000 impressions.",
+      "imageSlug": "/images/the-alert-was-triggered-by.png"
+    },
+    {
+      "phrase": "THE BRAND HEALTH SCORE IS TRENDING...",
+      "definition": "A phrase used in dashboard reporting to describe the direction of movement in brand health metrics — upward (positive trend) or downward (negative trend). 'Trending' means moving consistently in a direction over time, as opposed to a one-off spike. Brand health trends are more meaningful than individual data points.",
+      "example": "Riley presented the quarterly review: I want to flag that the brand health score is trending down for the third consecutive month — not dramatically, but consistently. Awareness is flat, trust is declining slowly, and advocacy has dropped. That pattern tells us something structural is happening, not just a one-off incident. I've highlighted three potential causes in the report and I'm recommending we prioritise trust-building activities in Q1.",
+      "imageSlug": "/images/the-brand-health-score-is-trending.png"
+    },
+    {
+      "phrase": "THE REPUTATION MANAGEMENT PLAN COVERS...",
+      "definition": "The phrase for introducing the scope of a reputation management document — what situations it covers, who is responsible, what response timelines apply, and what the escalation process looks like. Used in presentations to leadership or in team briefings when rolling out a new plan.",
+      "example": "Dana presented the plan: The reputation management plan covers four scenarios — a viral negative post, a media inquiry on a sensitive topic, a product or service failure, and a data or security incident. For each scenario, the plan defines who is the lead spokesperson, what the response timeline is, who approves the statement before it goes out, and which channels we respond on. Nobody should need to improvise in a crisis.",
+      "imageSlug": "/images/the-reputation-management-plan-covers.png"
+    }
+  ],
+
+  "videos": [],
+
+  "dialogue": [
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "Let's do the monthly brand monitoring review. I'll start with the numbers and then get into the reputation management plan, which I think is the more important conversation."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "speakerAvatar": "/images/marcus-icon.png",
+      "text": "How's the overall picture?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "Mixed. [[Share of voice:the percentage of total online conversations in a category that mention the brand]] is up — we've grown from 18% to 23% in the compliance software space. But the [[brand health:an overall measure of how a brand is perceived, combining awareness, sentiment, trust, and advocacy]] score is down for the third consecutive month. More people know who we are, but they trust us slightly less than they did six months ago."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "speakerAvatar": "/images/dana-icon.png",
+      "text": "The [[sentiment analysis:the automated process of classifying mentions as positive, negative, or neutral]] tells the same story. Positive mentions are up in volume — which reflects share of voice growth. But the ratio has shifted: negative sentiment was 9% in Q2, it's 14% now. The increase is driven almost entirely by customer support complaints."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "speakerAvatar": "/images/marcus-icon.png",
+      "text": "That tracks — we know support has been under strain. What I care about is: what was the worst moment this quarter in terms of reputational impact?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "The data shows a spike in negative mentions on the 14th. A verified Twitter account with 180,000 followers posted about a slow support response. By the time the [[alert:an automated notification triggered when a specified condition is met in a social listening platform]] fired — 35 minutes after the post — it had already reached 55,000 impressions."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "speakerAvatar": "/images/dana-icon.png",
+      "text": "And our response was two hours after that. By then, the [[narrative:the story or interpretation of events that takes hold in public conversation about a brand]] had already been shaped: 'MarketBridge doesn't respond to customers on social media'. That's the reputation damage — not the original complaint, but the slow response."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "speakerAvatar": "/images/marcus-icon.png",
+      "text": "Which is exactly why we needed a reputation management plan in Q2 and didn't have one. What does the plan you've drafted cover?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "The reputation management plan covers four scenarios: a viral negative post, a media inquiry on a sensitive topic, a product failure, and a data security incident. For each one, there's a defined response timeline, a named spokesperson, and a statement template. The 35-minute gap between alert and response drops to under five minutes with the new setup."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "speakerAvatar": "/images/dana-icon.png",
+      "text": "We've also upgraded the alert tiers. Green is a volume spike — investigate. Amber is negative sentiment above 25% — prepare a response. Red is a single post over 10,000 impressions with negative sentiment — publish a response within 30 minutes. The red alert goes directly to Marcus."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "speakerAvatar": "/images/marcus-icon.png",
+      "text": "Good. And [[earned media:coverage or mentions generated by others — journalists, influencers, customers — not paid for by the brand]] — how are we doing there?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "Positive earned media is up. The Marketing Week article drove 2,400 referral visits and 18 MQLs — all from a publication we didn't pay. That's the value of a strong editorial reputation. It's why the thought leadership content programme matters as much as the paid campaigns."
+    },
+    {
+      "speaker": "Dana",
+      "speakerColor": "blue",
+      "speakerAvatar": "/images/dana-icon.png",
+      "text": "The brand health score is trending down, but it's recoverable. Trust is the issue — and trust is rebuilt through consistent, honest communication over time. The reputation management plan helps prevent it from getting worse. The thought leadership programme is what will rebuild it."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "speakerAvatar": "/images/marcus-icon.png",
+      "text": "Let's circulate the reputation management plan to the leadership team this week. And the next time a red alert fires, we need to get ahead of the story in under 30 minutes. Not two hours."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "green",
+      "speakerAvatar": "/images/riley-icon.png",
+      "text": "Agreed. We're running a [[crisis communications:the structured approach to managing public communications during a reputational event]] simulation next week — I want every member of the team to practise the response process before the next real incident. The time to prepare is not during the crisis."
+    }
+  ],
+
+  "matchingExercise": [
+    { "word": "sentiment analysis", "definition": "the automated process of classifying online mentions as positive, negative, or neutral" },
+    { "word": "share of voice", "definition": "the percentage of total online conversations in a category that mention your brand — compared to competitors" },
+    { "word": "brand health", "definition": "a composite measure of brand perception — combining awareness, sentiment, trust, and advocacy" },
+    { "word": "monitor", "definition": "to continuously observe and track brand mentions and online conversations in real time" },
+    { "word": "alert", "definition": "an automated notification triggered when a specified condition is met in a social listening tool" },
+    { "word": "crisis communications", "definition": "the structured approach to managing public communications during a reputational event" },
+    { "word": "earned media", "definition": "coverage or mentions generated by others — journalists, customers, or influencers — not paid for by the brand" },
+    { "word": "narrative", "definition": "the story or interpretation of events that takes hold in public conversation about a brand" }
+  ],
+
+  "fillBlankExercise": [
+    {
+      "before": "The data shows a ",
+      "after": " in negative mentions — volume jumped from 12 to 140 per hour within two hours of the post going live.",
+      "answer": "spike"
+    },
+    {
+      "before": "Our share of voice is ",
+      "after": " — we've grown from 18% to 23% in the compliance software conversation this quarter.",
+      "answer": "growing"
+    },
+    {
+      "before": "We need to get ",
+      "after": " of this story before the media shapes the narrative — I want a statement drafted in 30 minutes.",
+      "answer": "ahead"
+    },
+    {
+      "before": "The amber alert was ",
+      "after": " by a 34% increase in negative mentions — the source was a viral Twitter thread from a verified account.",
+      "answer": "triggered"
+    },
+    {
+      "before": "The brand health score is ",
+      "after": " down for the third consecutive month — trust has declined while awareness has stayed flat.",
+      "answer": "trending"
+    },
+    {
+      "before": "The reputation management plan ",
+      "after": " four scenarios: a viral post, a media inquiry, a product failure, and a data security incident.",
+      "answer": "covers"
+    }
+  ],
+
+  "multipleChoiceExercise": [
+    {
+      "question": "What has happened to MarketBridge's share of voice and brand health score in the same period?",
+      "options": [
+        "Both share of voice and brand health have improved this quarter",
+        "Share of voice has grown to 23% but brand health is declining for the third consecutive month",
+        "Brand health is improving but share of voice has declined against competitors"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does Dana say was the real reputational damage from the Twitter incident on the 14th?",
+      "options": [
+        "The original complaint itself — which reached 55,000 people",
+        "The fact that the account had 180,000 followers and the post went viral",
+        "The slow response that allowed the narrative 'MarketBridge doesn't respond to customers' to take hold"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What are the three tiers of the new alert system?",
+      "options": [
+        "Low, medium, and high — each triggering a different level of internal escalation",
+        "Green (volume spike — investigate), amber (negative sentiment over 25% — prepare response), red (post over 10,000 impressions — respond within 30 minutes)",
+        "Blue (earned media spike), yellow (sentiment shift), red (crisis — respond immediately)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What activity does Riley say is key to rebuilding trust over time?",
+      "options": [
+        "Increasing paid media investment to improve brand visibility and awareness",
+        "Responding to every negative mention within 30 minutes across all channels",
+        "The thought leadership content programme — consistent, honest communication builds trust over time"
+      ],
+      "correctIndex": 2
+    }
+  ],
+
+  "warmUp": {
+    "questions": [
+      "Have you ever seen a brand handle a public complaint or crisis badly on social media? What did they do wrong — and what did it do to your perception of the brand?",
+      "Have you ever written a negative review about a company online? Did the company respond? If yes, did the response change how you felt about them?",
+      "If your company suddenly got a lot of attention online — positive or negative — who in your organisation should respond, and how quickly? Is there currently a plan for that?"
+    ]
+  },
+
+  "completeSentenceExercise": {
+    "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
+    "items": [
+      {
+        "sentence": "Sentiment analysis tools _____ each mention as positive, negative, or neutral using natural language processing.",
+        "options": ["classify", "classifies", "are classifying"],
+        "correctIndex": 0,
+        "explanation": "'Classify' is correct — the subject 'sentiment analysis tools' is plural, so the present simple verb takes the base form without -s. 'Classifies' (with -s) would be used with a singular subject: 'the tool classifies', 'the software classifies'. 'Are classifying' is present continuous — used for something happening right now or temporarily, not for describing what these tools generally do. When stating what technology or processes generally do, use present simple: 'tools classify', 'algorithms detect', 'platforms monitor'."
+      },
+      {
+        "sentence": "By the time the alert fired, the post _____ already reached 55,000 impressions.",
+        "options": ["had", "has", "was"],
+        "correctIndex": 0,
+        "explanation": "'Had' is correct — this sentence uses the past perfect ('had reached') to describe an action completed before another past event. 'By the time the alert fired [past simple], the post had already reached [past perfect]' — the post reaching 55,000 impressions happened before the alert was triggered. The past perfect marks the earlier of two past events. 'Has reached' is present perfect — used for past actions connected to now, not for past events before another past event. 'Was reached' is passive past — different meaning."
+      },
+      {
+        "sentence": "The reputation management plan needs _____ before the next crisis happens — not during it.",
+        "options": ["to be finalised", "finalising", "finalised"],
+        "correctIndex": 0,
+        "explanation": "'To be finalised' is the correct passive infinitive — 'needs to be finalised' means 'requires someone to finalise it'. When a thing (the plan) needs to receive an action (being finalised by someone), use 'need + to be + past participle'. Compare: 'the plan needs to be finalised' (passive — someone must finalise it) vs. 'we need to finalise the plan' (active — we are the ones doing it). 'Needs finalising' is also grammatically correct in British English (the -ing form after 'need' can express passive meaning) but 'needs to be finalised' is clearer and more formal."
+      },
+      {
+        "sentence": "A slow or dishonest response _____ makes reputational crises significantly worse.",
+        "options": ["consistently", "consistent", "consistency"],
+        "correctIndex": 0,
+        "explanation": "'Consistently' is the adverb — it modifies the verb 'makes' to describe how this outcome happens (reliably, in a regular pattern). 'Consistently makes worse' = reliably and repeatedly makes the situation worse. 'Consistent' is an adjective — it modifies nouns: 'a consistent pattern', 'a consistent message'. 'Consistency' is a noun — it names the quality: 'consistency in messaging'. When modifying a verb or describing how an action happens, always use the adverb form ending in '-ly'."
+      },
+      {
+        "sentence": "Share of voice _____ with brand awareness — as one grows, the other tends to follow.",
+        "options": ["correlates", "is correlated", "correlating"],
+        "correctIndex": 0,
+        "explanation": "'Correlates' is correct — this sentence states a general truth or principle about the relationship between two metrics. Present simple is used for facts, scientific or analytical relationships, and general truths: 'share of voice correlates with awareness', 'higher spend leads to more reach', 'sentiment affects trust'. 'Is correlated' (passive) is grammatically possible but less natural when expressing a general relationship without specifying an agent. 'Correlating' is a present participle and cannot be the main verb without an auxiliary."
+      },
+      {
+        "sentence": "Earned media is generally _____ credible than paid advertising because it is not purchased.",
+        "options": ["more", "most", "very"],
+        "correctIndex": 0,
+        "explanation": "'More' is correct — the sentence makes a comparison between two things (earned media and paid advertising), so a comparative adjective is needed: 'more credible than'. 'Most' is a superlative — used when comparing three or more items to find the one at the extreme: 'earned media is the most credible source'. 'Very' is an intensifier — it modifies an adjective without making a comparison: 'earned media is very credible'. But the sentence structure 'more credible than' requires the comparative 'more', not 'most' or 'very'."
+      }
+    ]
+  },
+
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Read what the client or colleague says. Choose the best professional response.",
+      "items": [
+        {
+          "customerLine": "A competitor has just published a story claiming our product has a security vulnerability. It's not true — but it's spreading fast. What do we do?",
+          "options": [
+            "We should respond immediately with a clear, factual statement — but only after we've verified internally that the vulnerability claim is genuinely false. The response should do three things: confirm we're aware of the claim, state clearly that we've investigated and found no evidence of the vulnerability, and invite anyone with specific concerns to contact our security team directly. Speed matters, but accuracy matters more. A correction issued two hours later is better than a denial issued in 15 minutes that turns out to be premature.",
+            "We should post immediately across all channels denying the claim. Speed is everything — every minute we don't respond, the story spreads.",
+            "We should contact the competitor directly and ask them to retract the claim before we respond publicly."
+          ],
+          "correctIndex": 0,
+          "explanation": "Option A is the right answer — it prioritises both speed and accuracy, explains what the response should contain (acknowledge, clarify, provide a path for further questions), and gives a realistic assessment of the time trade-off. This is how professional crisis communications works. Option B prioritises speed over accuracy — a premature denial that turns out to be wrong would be catastrophically damaging. Option C is a reasonable background action but not a substitute for a public response — the story is spreading regardless of what the competitor does privately."
+        },
+        {
+          "customerLine": "Our brand health score has been declining for three months. What's actually causing it, and what do we do?",
+          "options": [
+            "A declining brand health score over three months suggests a structural issue, not just bad luck. The first step is to break it down by component — is it awareness, trust, or advocacy that's driving the decline? If it's trust, look at customer service sentiment and any incidents in the last quarter. If it's advocacy, look at whether your most loyal customers are still actively recommending you. Once we know which component is weakest, we can target the recovery activity specifically.",
+            "We should increase paid advertising to raise awareness and improve sentiment. More visibility usually improves brand health.",
+            "Three months is a normal fluctuation period. I'd wait for another month of data before drawing conclusions."
+          ],
+          "correctIndex": 0,
+          "explanation": "Option A is the right answer — it diagnoses before prescribing, breaks brand health into its component parts (the correct analytical approach), and explains how the diagnosis should drive the response. This is how a skilled brand strategist thinks. Option B applies a generic solution (more paid advertising) without understanding the cause — which often leads to wasted spend. If trust is the issue, more awareness ads won't fix it. Option C is too passive — three consecutive months of decline is statistically significant and warrants investigation now, not a fourth month of data."
+        },
+        {
+          "customerLine": "We don't have budget for a social listening tool. Can we just manually check social media for mentions?",
+          "options": [
+            "Yes — manual monitoring is perfectly adequate. Most important mentions are on Twitter and LinkedIn, which you can check daily.",
+            "Manual monitoring can work for very small brands with low mention volume, but it has three significant limitations: it's reactive rather than real-time, it misses mentions on platforms and news sites you don't regularly check, and it doesn't give you the competitive data — share of voice, sentiment benchmarking — that's essential for strategic decisions. There are affordable or free tools — Google Alerts, Talkwalker Alerts — that give you real-time notifications at low cost. Even basic automated monitoring is substantially better than manual checking alone.",
+            "Without a social listening tool, you should focus exclusively on owned channels where you can control the conversation."
+          ],
+          "correctIndex": 1,
+          "explanation": "Option B is the right answer — it acknowledges the budget constraint honestly, explains the specific limitations of manual monitoring (reactive, incomplete, no competitive data), and offers a practical low-cost alternative. This is genuinely helpful advice. Option A underestimates the limitation — manual monitoring misses a huge volume of mentions, especially outside the most obvious platforms. Option C is unhelpful and incorrect — focusing only on owned channels doesn't prevent or help you respond to negative conversations happening elsewhere."
+        }
+      ]
+    },
+    "spotTheMistake": {
+      "instructions": "Read the reputation management report extract. Three lines have a grammar mistake. Can you find them?",
+      "dialogue": [
+        {
+          "speaker": "Riley",
+          "text": "The sentiment analysis shows that 62% of our mentions are positive, 24% are neutral, and 14% are negative — an improvement from last quarter."
+        },
+        {
+          "speaker": "Dana",
+          "text": "The brand health score have declined for the third consecutive month, driven primarily by a drop in the trust component."
+        },
+        {
+          "speaker": "Marcus",
+          "text": "We need to get ahead of this story — the journalists are already asking questions and the narrative is begin set without us."
+        },
+        {
+          "speaker": "Riley",
+          "text": "The amber alert was triggered by a 34% increase in negative mentions — the source was a single verified account with a large following."
+        },
+        {
+          "speaker": "Dana",
+          "text": "A crisis communications plan that is clear, practised and kept up to date is one of the most valuable assets a communications team can has."
+        },
+        {
+          "speaker": "Marcus",
+          "text": "Positive earned media from the Marketing Week article has generated more qualified traffic than our paid LinkedIn campaign this month."
+        }
+      ],
+      "mistakes": [
+        {
+          "lineIndex": 1,
+          "incorrectText": "have declined",
+          "correction": "has declined",
+          "explanation": "'The brand health score' is a singular subject — it takes 'has' in the present perfect, not 'have'. 'The brand health score has declined' is correct. 'Have' is used in the present perfect with plural subjects ('the scores have declined') or with I/you ('I have seen', 'you have noticed'). 'Has' is used with singular subjects and with he/she/it: 'the score has declined', 'the metric has changed', 'trust has fallen'. This is a subject-verb agreement error in the present perfect tense."
+        },
+        {
+          "lineIndex": 2,
+          "incorrectText": "the narrative is begin set",
+          "correction": "the narrative is being set",
+          "explanation": "'Being' is the correct present participle of 'be' used in the passive continuous: 'is being set'. The sentence means 'the narrative is currently in the process of being set by others' — a passive continuous structure: is + being + past participle. 'Begin' is a different verb entirely (to start). 'Is begin set' is not grammatical. The passive continuous pattern: is/are + being + past participle: 'is being shaped', 'is being written', 'is being set'."
+        },
+        {
+          "lineIndex": 4,
+          "incorrectText": "can has",
+          "correction": "can have",
+          "explanation": "After modal verbs (can, could, will, would, shall, should, may, might, must), always use the base form of the verb — never an inflected form. 'Can have' is correct: the base form of 'have' after the modal 'can'. 'Can has' uses the third-person singular present simple form 'has', which is only used with he/she/it as the main verb without a modal. When a modal verb is present, the following verb is always in its base form: 'can have', 'should be', 'must do', 'will know'."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The brand manager starts a sentence in a reputation review meeting. Work with your partner to finish it professionally.",
+      "items": [
+        {
+          "customerLine": "We've never had a crisis before. Do we really need a reputation management plan?",
+          "salespersonStart": "The time to write a crisis plan is before the crisis, not during it. When a negative story breaks, every decision has to be made under time pressure, with incomplete information, and in front of a public audience. The plan doesn't predict the future — it ensures that when something happens, the team knows...",
+          "suggestedCompletion": "who is the lead spokesperson, what the response timeline is, who approves the statement, and which channels we respond on. Without that, you're improvising in public — and improvised crisis communications is almost always slower, less consistent, and more likely to make the situation worse. The plan gives you a framework to act confidently under pressure. It's the one document you never want to need but can't afford not to have."
+        },
+        {
+          "customerLine": "A customer posted a very negative review on G2 and it's affecting our rating. How do we handle it?",
+          "salespersonStart": "Never ignore a negative review — even on a platform you don't control. The response is visible to every future prospect who reads the review. The right approach is...",
+          "suggestedCompletion": "respond publicly and promptly — acknowledge the specific problem they raised, apologise for the experience without being defensive, and offer to resolve it directly: 'We'd like to understand this better and make it right — please reach out to us at [contact]. Our team will prioritise your case.' That response does three things: it shows future readers you take feedback seriously, it gives the unhappy customer a path to resolution, and it demonstrates accountability. What you don't do: argue, make excuses, or ask them to remove the review publicly."
+        },
+        {
+          "customerLine": "Our share of voice is 18% versus a competitor at 34%. Is that a problem, and how do we close the gap?",
+          "salespersonStart": "The gap is significant but not unusual for a brand at our stage. Share of voice at 18% means we're part of the conversation — we're not invisible. But closing the gap to 25–28% within two quarters is achievable if we...",
+          "suggestedCompletion": "increase our content output strategically. The competitor's 34% is largely built on volume — they publish consistently and at scale. We don't need to match them piece for piece; we need to publish more frequently in the specific conversations our target buyers are having. I'd recommend targeting three to four high-value topic clusters where our expertise is strongest, and publishing at two to three times our current rate. In parallel, amplifying our best-performing content through paid distribution multiplies the share-of-voice impact of every piece we publish."
+        }
+      ]
+    }
+  }
+}
