@@ -1,0 +1,391 @@
+{
+  "exportName": "dataDrivenDecisions",
+  "title": "Data-Driven Decisions",
+  "subtitle": "How to read, talk about, and present marketing data so it drives action — not just reporting",
+  "level": "B1-B2",
+  "description": "Marketing data is only useful if it leads to better decisions. In this lesson you will learn the vocabulary for discussing analytics in a B2B marketing context — how to read a dashboard, identify insights, and present your findings to a client or stakeholder in a way that is clear, honest, and actionable.",
+  "dialogueSubtitle": "Riley presents the Q3 analytics findings to TechFlow's leadership team — turning data into clear strategic decisions",
+  "vocabulary": [
+    {
+      "word": "DASHBOARD",
+      "partOfSpeech": "noun",
+      "definition": "A visual summary of your most important marketing metrics in one place — giving you a quick overview of performance across channels.",
+      "example": "Every Monday morning I check the dashboard first — it tells me in two minutes whether we are on track or whether something needs attention before I read the detail."
+    },
+    {
+      "word": "INSIGHT",
+      "partOfSpeech": "noun",
+      "definition": "A specific, meaningful conclusion drawn from data — not just a number, but what the number means and what you should do about it.",
+      "example": "The data shows a 40% drop in LinkedIn engagement on Fridays. The insight is not 'engagement drops on Fridays' — the insight is 'do not publish thought leadership on Fridays; our audience is not in work mode'."
+    },
+    {
+      "word": "SEGMENT",
+      "partOfSpeech": "noun",
+      "definition": "A specific subset of your audience or data — grouped by shared characteristics to allow more targeted analysis and action.",
+      "example": "When we split the conversion data by segment — manufacturing versus logistics — the difference was dramatic. Manufacturing converts at 4.2x the rate of logistics. That changes our entire channel allocation."
+    },
+    {
+      "word": "COHORT",
+      "partOfSpeech": "noun",
+      "definition": "A group of users or contacts who share a common starting point — for example, everyone who signed up in Q1 or everyone who downloaded the case study in October.",
+      "example": "We track cohorts to understand retention: the October cohort — everyone who booked a discovery call after the webinar — had a 68% conversion to proposal rate. That is three times our historical average."
+    },
+    {
+      "word": "DATA POINT",
+      "partOfSpeech": "noun",
+      "definition": "A single piece of information in a dataset — meaningful only when seen in context alongside other data points.",
+      "example": "A single data point — like one month's low open rate — means very little on its own. Three consecutive months of declining open rate is a trend that requires action."
+    },
+    {
+      "word": "TREND",
+      "partOfSpeech": "noun",
+      "definition": "A consistent direction or pattern in data over time — either improving or declining — that tells you something is changing.",
+      "example": "The trend in LinkedIn organic reach is consistently up — 12% month on month for four months. That tells us the content strategy is working and we should invest more, not change course."
+    },
+    {
+      "word": "BENCHMARK",
+      "partOfSpeech": "noun",
+      "definition": "A reference standard used to evaluate performance — either an industry average, a competitor comparison, or your own historical best.",
+      "example": "Always present results against a benchmark — '3.8% click-through rate' is meaningless without context. '3.8% click-through rate, versus an industry benchmark of 2.5%' tells the client they are performing above average."
+    },
+    {
+      "word": "CONVERSION RATE",
+      "partOfSpeech": "noun",
+      "definition": "The percentage of people who took a specific desired action — clicked, downloaded, booked, or bought — out of everyone who had the opportunity to do so.",
+      "example": "Our landing page conversion rate is 11% — for every 100 people who visit the page, 11 book a call. That is strong. The question now is: are the right 100 people getting to the page?"
+    }
+  ],
+  "phrasalVerbs": [
+    {
+      "phrase": "PULL [THE DATA]",
+      "definition": "To retrieve and compile data from a platform or tool for review or presentation.",
+      "example": "Before the client meeting, pull the data from LinkedIn, HubSpot, and the email platform — I want everything in one view so we can see the full picture."
+    },
+    {
+      "phrase": "DRILL DOWN INTO [THE NUMBERS]",
+      "definition": "To go beyond the top-level data and look at the specific detail underneath — to find out what is driving the headline number.",
+      "example": "The overall conversion rate looks good — but when we drill down into the data by channel, we find that LinkedIn is converting at 12% and email is converting at 1.3%. That is where the real insight is."
+    },
+    {
+      "phrase": "FLAG [AN ISSUE]",
+      "definition": "To identify and bring attention to a problem or anomaly in the data — before it becomes a bigger issue.",
+      "example": "I want to flag something in the data before we move on: the cost per lead on paid search jumped 180% this month. That is not a seasonal change — something specific happened and we need to find out what."
+    },
+    {
+      "phrase": "TRACK [PERFORMANCE] OVER TIME",
+      "definition": "To monitor a metric consistently across multiple periods — to identify trends rather than reacting to individual data points.",
+      "example": "Track conversion rate over time, not just month to month — a single bad month means little, but four months of gradual decline tells you something structural has changed."
+    },
+    {
+      "phrase": "TAKE ACTION ON [AN INSIGHT]",
+      "definition": "To make a specific decision or change based on what the data revealed — the whole point of data analysis.",
+      "example": "The insight is clear — manufacturing clients convert at 4x the rate of logistics clients. The action is clear too: shift 70% of the campaign budget to manufacturing audiences from next month."
+    },
+    {
+      "phrase": "SET [A BASELINE]",
+      "definition": "To establish the starting point against which future performance will be measured.",
+      "example": "Month one is about setting a baseline — we are not expecting record results, we are establishing what normal looks like for TechFlow so we can measure improvement accurately from month two."
+    }
+  ],
+  "registerAwareness": [
+    {
+      "context": "Monthly analytics report — written for client",
+      "register": "Structured / Data-led",
+      "example": "'Q3 Marketing Analytics Summary — TechFlow. LinkedIn Sponsored: Impressions 41,200 (↑18% vs Q2); Click-through rate 2.8% (vs benchmark 1.9%); Cost per lead €127 (↓22% vs Q2). Email Campaign: Open rate 31% (vs benchmark 22%); Click-through rate 3.8% (vs target 6% — see note); Unsubscribe rate 0.3% (within acceptable range). Key insight: LinkedIn CPL is trending down significantly — evidence that audience targeting is improving. Email CTR remains below target — recommend A/B testing CTA on next send. Decision required: Approve reallocation of €2,000 from paid search to LinkedIn for October.'"
+    },
+    {
+      "context": "Presenting analytics findings verbally — client meeting",
+      "register": "Confident / Consultative",
+      "example": "'I want to show you the three numbers that matter most from Q3 — and then I want to talk about what they tell us to do in Q4. The LinkedIn cost per lead went down 22% — that means we are getting better at finding your exact persona. The email click-through rate went down from our target — that tells us the call to action is not matching where the audience is in their journey. And the conversion rate from case study download to discovery call went up 15% — which is the most important number in the report because it means the content is attracting better quality leads. Based on all three, here are the two decisions I am recommending for October.'"
+    },
+    {
+      "context": "Internal data review — marketing team standup",
+      "register": "Direct / Informal",
+      "example": "'Quick data check — three things from the dashboard this morning. LinkedIn is performing well, cost per lead down again, keep going. Email CTR is still low — Dana, let us do the A/B test on the CTA this week, I want to see results before the next campaign. One thing to flag: the website landing page bounce rate jumped 30% from last week. I do not know why yet — can someone look at whether there was a page change or a traffic source change? Let us reconvene at 4pm when we have more information.'"
+    },
+    {
+      "context": "LinkedIn post — sharing a data insight",
+      "register": "Conversational / Educational",
+      "example": "'Most B2B marketers look at the wrong number first. Open rate is vanity. Click-through rate is what tells you whether your message is actually landing. But neither of those is the number I look at first. I always start with cost per qualified lead — because that is the number that tells me whether marketing is contributing to commercial reality or just creating activity. If your cost per qualified lead is trending down month on month, the strategy is working. If it is going up, something needs to change — regardless of how good your open rate looks.'"
+    },
+    {
+      "context": "Email to a client explaining an unexpected data result",
+      "register": "Professional / Transparent",
+      "example": "'I wanted to flag something before our call on Thursday. The October email campaign open rate came in at 14% — significantly below our usual 30–32%. This is not a content issue. After investigating, I found that the email was incorrectly sent to a segment that had not opted in through a content download — the segmentation criteria were applied to the wrong list. This was an operational error on our side. I have corrected the segmentation for the November send and we are re-sending to the correct opted-in segment this week. I will include a detailed breakdown in the monthly report. Happy to discuss on Thursday.'"
+    }
+  ],
+  "registerTraps": [
+    "❌ Presenting data to a client without telling them what it means is not reporting — it is a data dump. Every number in a marketing report needs a sentence explaining the insight: what does this number tell us, and what should we do about it? Without that, a client will spend the meeting asking 'is this good or bad?' rather than making decisions.",
+    "✅ When a metric is below target, address it directly and proactively rather than burying it or minimising it. 'The click-through rate is below target — here is why, and here is the change I am making' builds far more trust with a client than presenting only the numbers that look good. Clients who trust you with bad news are clients who keep working with you.",
+    "🔁 'Trend' and 'data point' are not interchangeable. A single month of low performance is a data point — it might be an anomaly. Three months of low performance in the same direction is a trend — it tells you something structural has changed and requires action. Never make major strategy changes based on a single data point without first checking whether it is part of a pattern.",
+    "💡 The most useful thing you can do at the end of a marketing analytics presentation is tell the client exactly what you recommend they decide. 'Based on these three findings, I recommend we approve two changes for next month: A and B. Can we agree on those today?' A meeting that ends with a decision is more valuable than a meeting that ends with a discussion."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Marcus — I am going to walk you through the Q3 analytics in a slightly different way than usual. Instead of going through every number, I want to focus on the three key [[insight:a specific meaningful conclusion drawn from data — what the number means and what to do about it]] findings and what they tell us to do in Q4."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "That is exactly how I want to work through it. What does the [[dashboard:a visual summary of key marketing metrics in one place]] show overall?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "The [[dashboard:overview of performance]] shows a mixed picture — strong on LinkedIn, below target on email, and one number in the [[conversion rate:the percentage of people who took the desired action]] data that I want to discuss. Let me start with the good news."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "Go ahead."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "When we [[drill down into:look at the detail beneath the top-level data]] the LinkedIn performance by [[segment:a specific subset of your audience grouped by shared characteristics]], the insight is significant. Manufacturing companies — your core target — are converting at 4.2 times the rate of logistics companies. That single [[data point:a single piece of information in the dataset]] changes everything about Q4 allocation. We should be concentrating almost all budget on manufacturing."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "That is a big change. Is this a [[trend:a consistent direction in data over time]] or just one month?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "Three months of consistent data. I have been [[tracking:monitoring a metric consistently across multiple periods]] it since July and the pattern is clear. Against the industry [[benchmark:a reference standard used to evaluate performance]], manufacturing B2B companies in our sector convert at 2.1 times the average — our performance is well above that. This is a [[trend:consistent pattern over time]], not a single [[data point:one isolated number]]."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "What about the email campaign? I noticed the click-through rate is below target."
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "I want to [[flag:bring attention to an issue]] that directly — 3.8% versus a target of 6%. But before you react to that number, look at the [[cohort:a group who share a common starting point]] data. The contacts who downloaded the case study in September and then received the email converted to discovery calls at 68%. That [[data point:specific piece of information]] tells me the list quality is strong — the issue is the call to action, not the audience. I am recommending we A/B test two CTAs next month before I [[take action on:make a specific decision based on an insight]] the broader campaign."
+    },
+    {
+      "speaker": "Marcus",
+      "speakerColor": "purple",
+      "text": "What are the two decisions you need from me today?"
+    },
+    {
+      "speaker": "Riley",
+      "speakerColor": "orange",
+      "text": "First: approve shifting 70% of the paid budget to the manufacturing [[segment:specific subset of the audience]] only. Second: approve the A/B test on the email CTA. Both decisions are supported by three months of [[trend:consistent data direction]] data — and both have clear targets so we can measure whether they worked. We [[set a baseline:establish the starting measurement]] in Q3 — now Q4 is where we improve on it."
+    }
+  ],
+  "matchingExercise": [
+    { "word": "DASHBOARD", "definition": "A visual summary of your most important marketing metrics in one place" },
+    { "word": "INSIGHT", "definition": "A specific meaningful conclusion drawn from data — what the number means and what to do about it" },
+    { "word": "SEGMENT", "definition": "A specific subset of your audience or data, grouped by shared characteristics for more targeted analysis" },
+    { "word": "COHORT", "definition": "A group of users or contacts who share a common starting point — such as a signup date or a specific action" },
+    { "word": "DATA POINT", "definition": "A single piece of information in a dataset — meaningful only when seen in context" },
+    { "word": "TREND", "definition": "A consistent direction or pattern in data over time — either improving or declining" },
+    { "word": "BENCHMARK", "definition": "A reference standard used to evaluate performance — an industry average or historical comparison" },
+    { "word": "CONVERSION RATE", "definition": "The percentage of people who took a specific desired action out of everyone who had the opportunity" }
+  ],
+  "fillBlankExercise": [
+    { "before": "Every Monday I check the", "after": "first — it tells me in two minutes whether we are on track or whether something needs attention.", "answer": "dashboard" },
+    { "before": "The", "after": "is not 'engagement drops on Fridays' — it is 'do not publish thought leadership on Fridays; our audience is not in work mode'.", "answer": "insight" },
+    { "before": "When we split the conversion data by", "after": "— manufacturing versus logistics — manufacturing converts at 4.2 times the rate.", "answer": "segment" },
+    { "before": "We track", "after": "to understand retention: everyone who booked a call after the October webinar had a 68% conversion to proposal rate.", "answer": "cohorts" },
+    { "before": "A single", "after": "— like one month's low open rate — means little on its own. Three consecutive months of decline is a trend.", "answer": "data point" },
+    { "before": "The", "after": "in LinkedIn organic reach is consistently up — 12% month on month for four months. The content strategy is working.", "answer": "trend" },
+    { "before": "Always present results against a", "after": "— '3.8% click-through rate' is meaningless without knowing whether that is good or bad for your sector.", "answer": "benchmark" },
+    { "before": "Our landing page", "after": "is 11% — for every 100 visitors, 11 book a call. The question is whether the right 100 people are getting to the page.", "answer": "conversion rate" }
+  ],
+  "multipleChoiceExercise": [
+    {
+      "question": "A client looks at the monthly report and says: 'Our open rate dropped from 31% to 26% this month. The campaign is failing.' What is the most useful response?",
+      "options": [
+        "Say: 'You are right — let us pause the campaign and review the strategy.'",
+        "Say: 'A single month of lower open rate is a data point — not a trend. Let me check whether there is an obvious cause: did the subject line change, was the list different, or was it a different time of year? If next month is also low, then we have a pattern worth acting on. At 26%, you are still above the industry benchmark of 22%. I want to track this over three months before recommending any major changes.'",
+        "Say: 'Five percentage points is within the normal range of variation — nothing to be concerned about.'",
+        "Say: 'Let us try a different subject line next month and see if that brings the rate back up.'"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is the difference between a data point and an insight?",
+      "options": [
+        "A data point is from a digital channel. An insight comes from client feedback or qualitative research.",
+        "A data point is a raw number — it tells you what happened. An insight is the interpretation of that number — it tells you what it means and what you should do about it. '40% drop in LinkedIn engagement on Fridays' is a data point. 'Our audience is not in work mode on Fridays — do not publish thought leadership then' is the insight.",
+        "A data point appears in the raw data export. An insight appears in the dashboard summary.",
+        "Data points are useful for trend analysis. Insights are useful for client presentations."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Why is a benchmark essential when presenting marketing results to a client?",
+      "options": [
+        "Benchmarks show the client what the market average is so they can set realistic expectations for future campaigns.",
+        "Without a benchmark, a client cannot judge whether a result is good or bad. '3.8% click-through rate' could be excellent or poor depending on the industry and channel. A benchmark gives context — '3.8% versus an industry average of 2.5%' tells the client immediately that they are performing above average, which changes the entire conversation.",
+        "Benchmarks are required in formal marketing reports as part of industry standard practice.",
+        "They allow the client to compare their performance to specific competitors rather than an industry average."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does 'drilling down into the data' mean in practice?",
+      "options": [
+        "Spending more time analysing data before making any marketing decisions.",
+        "Going beyond the top-line metrics to look at the specific breakdown underneath — for example, splitting overall conversion rate by channel, by audience segment, or by content type to find where the performance difference is coming from. The headline number rarely tells you what to change. The breakdown does.",
+        "Extracting raw data from the analytics platform for detailed offline analysis.",
+        "Presenting data at a more technical level of detail for sophisticated clients."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "A cohort of prospects who attended the October webinar is converting at 68% compared to 22% for the overall list. What action does this insight suggest?",
+      "options": [
+        "Increase the frequency of email campaigns to the overall list to improve their conversion rate.",
+        "Prioritise the webinar as a lead generation channel — the prospects it produces are converting at three times the rate of other sources. Consider running a webinar every quarter, and investigate what is different about the audience that attends: are they more senior, more in the target persona, or further along in the buying journey?",
+        "Reduce budget from other channels and put everything into webinar production.",
+        "Contact the webinar cohort first and use them as reference clients for the next campaign."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is the most important thing to include at the end of a marketing analytics presentation?",
+      "options": [
+        "A full appendix of all the data behind the headline metrics in the report.",
+        "A clear recommendation of what should be decided or changed, with a specific ask: 'Based on these three findings, I recommend we approve X and Y for next month. Can we agree on those today?' A meeting that ends with a decision is more valuable than a meeting that ends with a discussion.",
+        "A comparison of this quarter's results to the same quarter in the previous year for context.",
+        "A forecast of expected results for the next quarter based on the current trajectory."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Why should you set a baseline at the start of a new marketing campaign?",
+      "options": [
+        "Setting a baseline allows the team to set realistic expectations for the client in the first month.",
+        "Without a baseline, you cannot measure improvement accurately. If you do not know where you started, you cannot demonstrate how far you have come — which makes it impossible to show ROI or justify continued investment. Month one is about establishing what normal looks like so that months two through six can show meaningful progress against it.",
+        "A baseline prevents the team from changing strategy in the first month before the data is meaningful.",
+        "It gives the client a fixed reference point to use when comparing to competitors in the same market."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "A campaign is generating good reach and engagement but the conversion rate to discovery calls is very low. Where should you look first?",
+      "options": [
+        "The creative assets — if engagement is high but conversion is low, the ad design is probably not compelling enough.",
+        "The gap between where the prospect is coming from and where you are sending them. High engagement with low conversion usually means the landing page or the offer is not matching the expectation set by the ad or content. Drill down into the journey: where are prospects dropping off? Are they clicking but not booking? Booking but not showing up? Each drop-off point tells you something specific about what needs to change.",
+        "The audience targeting — the people engaging are probably not the right decision-makers.",
+        "The channel — if this channel is not converting, it is the wrong channel for this campaign goal."
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "groupActivities": {
+    "chooseResponse": {
+      "instructions": "Work in groups. Read each situation and choose the best response. Discuss why before clicking.",
+      "items": [
+        {
+          "customerLine": "Client in the monthly analytics review: 'You have sent me a 12-page report but I do not know what any of it means for us. Can you just tell me if marketing is working?'",
+          "options": [
+            "Say: 'Let me walk you through the report page by page so you understand all the context behind each number.'",
+            "Say: 'Yes — and I should have led with this. The short answer: marketing is working. Here are the three numbers that prove it. Cost per qualified lead went down 22% — we are getting more efficient. The conversion rate from case study download to discovery call went up 15% — we are attracting better quality leads. And LinkedIn is generating eight times more leads per pound than paid search — which tells us where to put the budget. The detail in the report is there if you want it, but those three numbers are what you need to know. Shall I send you a one-page summary instead of the full report going forward?'",
+            "Say: 'Marketing is on track — I will simplify the report format for next month so it is easier to read.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It answers the question directly, gives three specific proof points, and offers a practical solution to the format problem. A gives the client more of what they just said was not working. C acknowledges the issue but does not actually answer the question the client asked."
+        },
+        {
+          "customerLine": "Client: 'Our website traffic is up 40% this month but we have not had any more enquiries. Why?'",
+          "options": [
+            "Say: 'Traffic and enquiries are separate metrics — a traffic increase does not always translate to more leads immediately.'",
+            "Say: 'That gap between traffic and enquiries is the most useful insight this month — and it tells us something specific. When traffic goes up but conversions do not move, the issue is almost never the traffic itself — it is what happens when people arrive at the site. Let me drill down into the data: which pages are the new visitors landing on? How long are they staying? Where are they dropping off? My hypothesis is that the traffic increase is coming from a source that does not match your persona — people who are interested in the content but not in the product. Let me check the source breakdown and come back to you by end of tomorrow with a diagnosis.'",
+            "Say: 'Let us add a more prominent contact form to the homepage — that should improve conversion from the increased traffic.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It identifies the traffic/conversion gap as the key insight, proposes a specific diagnostic approach, and gives the client a clear next step and timeline. A is accurate but unhelpful — it explains the problem without diagnosing it. C makes a change without understanding the cause — a more prominent form will not help if the wrong people are visiting the page."
+        },
+        {
+          "customerLine": "Client: 'I want to compare our results to our competitors. Can you get their marketing data?'",
+          "options": [
+            "Say: 'We can research their public metrics — follower counts, post frequency, and ad activity are all visible.'",
+            "Say: 'We can get a useful picture without needing their private data. I can benchmark you against published industry averages for your sector — that tells you whether you are above or below the market. I can also analyse their public LinkedIn activity: what content performs best for them, how frequently they post, what topics they cover. And I can track any changes in their paid ad spend through LinkedIn's ad transparency tool. What I cannot get is their internal conversion data or campaign results — but the public picture, combined with industry benchmarks, gives you a meaningful comparison. What specific questions are you trying to answer about the competition?'",
+            "Say: 'Competitor data is not something we can access — let us focus on our own performance metrics instead.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It gives an honest assessment of what is possible, explains three specific sources of competitive intelligence that are genuinely available, and ends with a diagnostic question. A agrees to a vague version of the request without explaining the limits. C shuts down the request completely without offering any alternative."
+        },
+        {
+          "customerLine": "Client: 'We have been running campaigns for three months. I want to make a major strategy change based on the results so far.'",
+          "options": [
+            "Say: 'Three months is enough data to make a major strategy change — let us review what the numbers say.'",
+            "Say: 'I want to make sure we are making this decision based on trends rather than early data points — because three months is enough for some decisions but not for others. The LinkedIn performance is trending strongly — we have three consistent months of improvement, which is enough to justify scaling up. But the email CTR has only been below target for one month — that is a data point, not a trend, and I would recommend one more round of A/B testing before changing the strategy around it. Tell me which part of the strategy you want to change and I can tell you whether the data is mature enough to support that decision confidently.'",
+            "Say: 'Let us wait six months before making any major changes — three months is not statistically significant.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "B is correct. It differentiates between decisions supported by trends and those based on single data points — which is exactly the right analytical framework. It also gives the client agency by asking which change they want to make. A agrees to any change without the analytical framework. C is too conservative — three months of trend data is meaningful for some decisions, even if not all."
+        }
+      ]
+    },
+    "profileMatch": {
+      "instructions": "Read the three analytics situations. Match each to the most appropriate action based on the data. Discuss as a group before clicking 'Check Matches'.",
+      "profiles": [
+        {
+          "name": "Situation A — TechFlow LinkedIn",
+          "description": "TechFlow's LinkedIn campaign data shows: manufacturing segment converting at 4.2x the rate of logistics; manufacturing segment cost per lead is €89 vs €342 for logistics; trend consistent over three months; current budget split is 50% manufacturing / 50% logistics.",
+          "matchKey": "reallocate"
+        },
+        {
+          "name": "Situation B — Email CTR",
+          "description": "Email campaign open rate is consistently strong at 31% — above the 22% benchmark. But click-through rate is 2.1%, well below the 6% target. This has been the pattern for two consecutive months. The email content is described by the client as 'relevant and well written'. The CTA is 'Book a Discovery Call'.",
+          "matchKey": "abtest"
+        },
+        {
+          "name": "Situation C — Website Conversion",
+          "description": "Website traffic has increased 40% this month thanks to a LinkedIn campaign. But the conversion rate from visitor to case study download has dropped from 8% to 3.2%. Bounce rate on the landing page increased by 45%. The page content has not changed.",
+          "matchKey": "diagnose"
+        }
+      ],
+      "options": [
+        {
+          "key": "reallocate",
+          "label": "Reallocate budget based on segment performance",
+          "description": "The data is clear and consistent over three months — manufacturing is converting at 4x the rate at a third of the cost. Shift the budget allocation from 50/50 to 80% manufacturing / 20% logistics immediately. This is exactly the kind of decision that data-driven marketing should produce. The insight is clear, the trend is established, and the action is obvious."
+        },
+        {
+          "key": "abtest",
+          "label": "A/B test the call to action on the next send",
+          "description": "High open rate with low click-through tells us the audience is interested but not compelled to act. The issue is almost certainly the CTA — 'Book a Discovery Call' is a high-commitment ask for someone who has just read an email. Test a softer alternative: 'Read the Case Study' or 'See the Results' — these require less commitment and may be more appropriate for where this audience is in the funnel. Run the test on the next send and use the data to set the new default CTA."
+        },
+        {
+          "key": "diagnose",
+          "label": "Diagnose the source of new traffic before changing the page",
+          "description": "A drop in conversion rate alongside a traffic increase usually means the new traffic does not match the page's target audience. Before changing the landing page, drill down into where the new traffic is coming from. Is it from the LinkedIn campaign? Which audience segment? Are those visitors the right persona or a broader audience that happened to see the content? Fix the traffic source before changing the page — changing a page that was working for an audience that does not match it will not solve the problem."
+        }
+      ]
+    },
+    "finishTheLine": {
+      "instructions": "The marketer has started presenting or interpreting data. Finish the line clearly and practically. Use vocabulary from this lesson.",
+      "items": [
+        {
+          "customerLine": "Client: 'The report has too many numbers. What are the three things I actually need to know?'",
+          "salespersonStart": "Absolutely — let me give you the three numbers that tell the whole story.",
+          "suggestedCompletion": "First: cost per qualified lead went down 22% from Q2 to Q3. That tells you we are getting more efficient — each month we spend less to find the same quality of lead. Second: the case study download to discovery call conversion rate went up 15%. That tells you the leads we are generating are higher quality — more of the people who read the case study are raising their hand for a conversation. Third: the manufacturing segment is converting at four times the rate of logistics at one third of the cost. That one insight changes the Q4 budget allocation completely. Everything else in the report is context. Those three numbers are the decisions."
+        },
+        {
+          "customerLine": "Client: 'How do I know if the campaign is working before we have enough data to see a clear trend?'",
+          "salespersonStart": "In the first month, you look at leading indicators rather than conversion data.",
+          "suggestedCompletion": "Leading indicators are signals that suggest future performance — before the pipeline data is mature enough to tell you. For LinkedIn, that means: are the right people seeing the content? Check the audience profile data — are the impressions landing on Operations Directors in manufacturing, or a broader irrelevant group? For email, are the open rates above benchmark? If yes, the list and subject lines are working. For the website, are people who visit the landing page staying long enough to read it? If bounce rate is above 70%, something is wrong with the page or the traffic source. These signals do not tell you whether you will hit your lead target — but they tell you whether the foundation is in place for the conversion data to improve. That is what we are setting the baseline for in month one."
+        },
+        {
+          "customerLine": "Client: 'Our email results look good on paper but we are not getting many sales-qualified leads from it. What does the data tell us?'",
+          "salespersonStart": "The gap between marketing metrics and sales-qualified leads is one of the most useful signals in the data.",
+          "suggestedCompletion": "Let me drill down into the cohort that converted from email to discovery call — and then from discovery call to sales-qualified. If the email is generating a high volume of calls but the sales team is qualifying very few of them, one of two things is happening. Either the email list contains the wrong audience — people who are interested in the content but not genuine buyers — or the calls are converting but the qualification criteria are too strict. The data I need to answer this is: what are the company sizes, sectors, and roles of the people who booked calls from email? If they match your persona, the problem is in the qualification process. If they do not match, the problem is in the segmentation. Let me pull that breakdown from HubSpot and we can look at it together."
+        },
+        {
+          "customerLine": "Client: 'I feel like we are generating a lot of data but not actually learning anything useful from it.'",
+          "salespersonStart": "That is one of the most common and honest problems in marketing analytics — and it usually comes down to one missing step.",
+          "suggestedCompletion": "The missing step is turning each data point into an insight and each insight into a decision. Data without insight is just reporting — you are describing what happened. Insight without action is just analysis — you understand what happened but nothing changes. The discipline we need to add is this: for every metric we track, we agree in advance what we will do if the number is above target and what we will do if it is below. That means when the data comes in, the decision is already mostly made. For example: if cost per lead goes above €200, we reduce the paid budget and shift it to organic. If conversion rate from email drops below 2%, we immediately A/B test the CTA. If we build those decision rules together, the monthly review becomes less about understanding the past and more about confirming the next action."
+        }
+      ]
+    }
+  }
+}
