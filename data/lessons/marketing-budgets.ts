@@ -1,0 +1,492 @@
+import { Lesson } from '@/types/lesson';
+
+export const marketingBudgets: Lesson = {
+  slug: 'marketing-budgets',
+  title: 'Marketing Budgets',
+  subtitle: 'How to plan, justify, and defend your marketing spend in a meeting — with language that makes finance and leadership take you seriously',
+  level: 'B1-B2',
+  description: "Getting budget approved is not just a numbers game — it is a communication skill. Finance teams and senior leadership don't just want to see where the money goes; they want to understand why each line item is there, what return it is expected to generate, and what the cost of not spending would be. This lesson teaches you the vocabulary of marketing budget management and the professional language to defend your spend confidently in meetings, reviews, and approval conversations.",
+  heroImage: '/images/marketing-budgets-hero.png',
+
+  vocabulary: [
+    {
+      word: 'ALLOCATION',
+      partOfSpeech: 'noun',
+      definition: 'How a total budget is divided and assigned to different activities, channels, or objectives. Budget allocation decisions determine marketing strategy in practice — where money goes is where attention goes. A well-justified allocation connects spend to expected outcomes, not just to historical patterns or internal politics.',
+      example: "Riley presented the Q4 plan: Our total budget allocation is £480,000. I'm recommending 45% to demand generation, 30% to brand awareness, 15% to product marketing, and 10% to events. Each allocation is tied to a specific objective and a measurable expected outcome — I can walk you through the rationale for each if you'd like.",
+      imageSlug: '/images/allocation.png',
+    },
+    {
+      word: 'ROI',
+      partOfSpeech: 'noun',
+      definition: 'Return on Investment — the revenue or value generated relative to the money spent. In marketing, ROI is often expressed as a ratio or percentage: an ROI of 300% means every £1 spent generated £3 in return. Marketing teams are increasingly expected to justify every significant spend decision with projected or historical ROI.',
+      example: "Marcus challenged the spend: The event sponsorship costs £40,000. What's the expected ROI? Riley came prepared: Based on last year's event, we generated 23 SQLs with an average deal value of £8,500. If we close at our historical rate, that's approximately £98,000 in pipeline from a £40,000 investment — an ROI of about 145%. That's one of our highest-returning activities.",
+      imageSlug: '/images/roi.png',
+    },
+    {
+      word: 'COST-PER-ACQUISITION',
+      partOfSpeech: 'noun',
+      definition: 'Also known as CPA — the average amount spent to acquire one new customer. Calculated by dividing total spend by the number of new customers gained. CPA is a critical metric for comparing channel efficiency and making budget allocation decisions. A channel with a low CPA is more efficient than one with a high CPA, all else being equal.',
+      example: "Dana compared the channels: Our cost-per-acquisition through paid LinkedIn is £340. Through content marketing, it's £190. The content channel is nearly half the cost to acquire a customer — but it's slower and harder to scale quickly. We should be investing more in content and less in paid, and accepting that the volume growth will come over a longer timeframe.",
+      imageSlug: '/images/cost-per-acquisition.png',
+    },
+    {
+      word: 'FORECAST',
+      partOfSpeech: 'noun',
+      definition: 'A projection of future revenue, pipeline, leads, or other outcomes based on planned spend and historical performance data. A marketing forecast is a commitment — not a guarantee, but a data-led expectation that leadership can plan around. A forecast should always include the assumptions it is built on.',
+      example: "Riley set out the forecast: Based on this budget, my forecast for Q4 is 180 MQLs, 65 SQLs, and approximately £420,000 in pipeline. That's based on our historical conversion rates and the channel mix I've proposed. The main risk to the forecast is if the paid channel underperforms — I've built in a 15% buffer for that scenario.",
+      imageSlug: '/images/forecast.png',
+    },
+    {
+      word: 'VARIANCE',
+      partOfSpeech: 'noun',
+      definition: 'The difference between a budgeted or forecasted number and the actual result. In budget reviews, variance is always analysed: a positive variance means you spent less than planned or generated more than expected; a negative variance means the opposite. Consistently large variances suggest the forecasting model needs improving.',
+      example: "Marcus opened the budget review: We have a £32,000 negative variance against the paid media forecast — we spent the budget but didn't generate the pipeline we projected. Riley explained: The variance was driven by a platform algorithm change in October. We've since shifted 40% of that spend to content, which is performing to plan. I'd expect the variance to close in Q1.",
+      imageSlug: '/images/variance.png',
+    },
+    {
+      word: 'HEADROOM',
+      partOfSpeech: 'noun',
+      definition: "The amount of budget remaining available to spend — the difference between the allocated budget and what has been committed or spent. 'We have headroom in the budget' means there is unspent capacity that can be directed to new activities or opportunities. 'No headroom' means the budget is fully committed.",
+      example: "Dana checked the budget tracker: We have £18,000 of headroom in the Q4 budget — it was ring-fenced for the trade event that got cancelled. I'd recommend redirecting it to the content amplification programme rather than returning it. If we return it now, we won't see it again until next year's planning cycle.",
+      imageSlug: '/images/headroom.png',
+    },
+    {
+      word: 'COST OF INACTION',
+      partOfSpeech: 'noun',
+      definition: 'The revenue, growth, or competitive position that is lost by not making a particular investment. A powerful framing in budget conversations — instead of justifying why you should spend, you quantify what it costs not to. The cost of inaction often exceeds the cost of the investment being requested.',
+      example: "Riley made the case: I'm asking for an additional £25,000 for the content programme. The cost of inaction is what matters here. Our main competitor is outpublishing us 3:1 on search-optimised content. At our current conversion rate, every piece of content they publish instead of us costs us approximately 8 qualified leads per quarter. Over a year, that's 32 leads — at our average deal value, that's £272,000 in missed pipeline.",
+      imageSlug: '/images/cost-of-inaction.png',
+    },
+    {
+      word: 'RING-FENCE',
+      partOfSpeech: 'verb',
+      definition: 'To set aside a specific portion of budget for a designated purpose, protecting it from being reallocated to other activities. Ring-fenced budget cannot be used for anything other than the purpose it was designated for. Used when a strategic activity needs protection from in-year budget cuts.',
+      example: "Marcus proposed the safeguard: I want to ring-fence £60,000 for the product launch campaign — regardless of what happens to the rest of the marketing budget through the year. If we let it compete in the general pool, it will get cut every time there's a difficult quarter. The launch is too important to risk that.",
+      imageSlug: '/images/ring-fence.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'THE BUDGET IS TIED TO SPECIFIC OUTCOMES',
+      definition: "A phrase used to demonstrate that spending is not arbitrary — each line item is connected to a measurable result. 'Tied to' means linked or connected. When budgets are tied to specific outcomes, it is easier to defend them and easier to evaluate whether the investment was worthwhile.",
+      example: "Riley addressed the CFO's concern: Every line in this budget is tied to a specific outcome. The £80,000 for content marketing is tied to organic lead generation — our target is 45 MQLs per quarter from that channel. The £40,000 for events is tied to pipeline generation — we expect at least £200,000 in pipeline from the two events we're sponsoring.",
+      imageSlug: '/images/the-budget-is-tied-to-specific-outcomes.png',
+    },
+    {
+      phrase: 'I CAN JUSTIFY EVERY LINE ITEM',
+      definition: "A phrase used to signal preparedness and confidence in a budget defence. 'Justify' means to provide a rationale that demonstrates the spend is appropriate and expected to generate returns. Used to preempt questions or signal to leadership that the budget has been built with rigour.",
+      example: "Marcus opened the budget review: Before we go line by line, I want to be clear: I can justify every line item in this budget with data. This isn't a budget built on hope or habit — every number has a rationale, a forecast, and a success metric attached. I'm happy to be challenged on any of it.",
+      imageSlug: '/images/i-can-justify-every-line-item.png',
+    },
+    {
+      phrase: "WHAT'S THE EXPECTED RETURN ON THIS SPEND?",
+      definition: "The question finance and senior leadership ask most often in budget conversations — and the question every marketer should be able to answer before they enter the room. 'Expected return' means the revenue, pipeline, or strategic value the investment is projected to generate. Always answer with a number and explain the assumption behind it.",
+      example: "The CFO asked the question Riley had prepared for: What's the expected return on this spend? Riley answered: The £120,000 demand generation budget has generated an average of £680,000 in pipeline over the past three quarters — a return of roughly 5.7x. Our forecast for Q4 is consistent with that average, assuming the media mix stays the same.",
+      imageSlug: '/images/whats-the-expected-return-on-this-spend.png',
+    },
+    {
+      phrase: "IF WE CUT THIS, HERE'S WHAT WE LOSE",
+      definition: 'The phrase for communicating the cost of inaction or the consequences of a budget cut. Used when leadership proposes reducing a budget line — instead of arguing for the spend, you reframe the conversation around what the company loses if the cut is made.',
+      example: "Dana defended the content budget: If we cut this, here's what we lose: 45 organic leads per quarter, or roughly 180 per year. At our average deal value and conversion rate, that's £1.1 million in pipeline that we'll have to replace through paid channels at three times the cost-per-acquisition. The cut saves £80,000 but costs us far more in lost efficiency.",
+      imageSlug: '/images/if-we-cut-this-heres-what-we-lose.png',
+    },
+    {
+      phrase: "WE'RE PROPOSING A REALLOCATION, NOT AN INCREASE",
+      definition: 'A phrase used when requesting a budget change that does not require additional total spend — you are moving money from one area to another. This framing removes the friction of asking for more money and instead shows that the team is making smart trade-offs within existing resources.',
+      example: "Riley made the proposal: I know the budget environment is tight and I'm not asking for more. We're proposing a reallocation, not an increase — we want to shift £30,000 from the trade event programme, which has underperformed, to the demand generation content programme, which is our most efficient channel by CPA. Same total budget, better expected return.",
+      imageSlug: '/images/were-proposing-a-reallocation-not-an-increase.png',
+    },
+    {
+      phrase: "LET'S LOOK AT THE NUMBERS TOGETHER",
+      definition: "A phrase for inviting leadership or finance teams into a collaborative review of the budget data — rather than presenting defensively. 'Looking at the numbers together' creates a shared analytical experience where questions are answered with data rather than argument. It signals confidence and transparency.",
+      example: "Marcus de-escalated the tension: Instead of going back and forth on assumptions, let's look at the numbers together. I'll walk you through the model — where each number comes from, what assumptions we've made, and where the risk lies. If you see something that doesn't make sense, tell me and we'll fix it. That's a more useful conversation than negotiating in the abstract.",
+      imageSlug: '/images/lets-look-at-the-numbers-together.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Thank you for making time. I want to walk you through the Q4 marketing budget — not just the numbers, but the rationale behind each major line. Every item in this budget is tied to a specific outcome.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "Good. Before we get into the details — what's the total ask and what's the headline [[forecast:a projection of future outcomes based on planned spend and historical data]]?",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Total budget: £480,000. Forecast: 180 MQLs, 65 SQLs, and approximately £420,000 in pipeline. That's based on our historical conversion rates and the channel mix I've proposed.",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: "What's the largest single [[allocation:how the total budget is divided and assigned to different activities]]?",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Demand generation at £216,000 — 45% of the total. Historically our highest-returning activity. Last quarter's demand gen budget generated a 5.7x [[ROI:Return on Investment — revenue generated relative to money spent]]. This quarter's target is consistent with that.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'What about the events line? £40,000 feels high for two events.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "I can justify every line item. Last year's event generated 23 SQLs at an average deal value of £8,500. That's £195,000 in pipeline from a £40,000 investment. Our [[cost-per-acquisition:the average amount spent to acquire one new customer, also called CPA]] through events is £1,740 — significantly lower than our paid media CPA of £3,200.",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: "What about the Q3 [[variance:the difference between budgeted and actual results]]? We overspent paid media by £32,000 and didn't hit the MQL target. How does that affect the Q4 plan?",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "The Q3 variance was driven by a platform algorithm change in October. We've already responded — we shifted 40% of the paid budget to content and email, which are lower [[cost-per-acquisition]] channels. The Q4 plan reflects that rebalancing.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Finance is asking whether we can cut the content budget by 20%. Where would we be if we made that cut?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "If we cut this, here's what we lose. Content is currently generating 45 organic MQLs per quarter at a CPA of £190 — our most efficient channel. A 20% cut reduces that to approximately 36 MQLs. We'd have to replace those 9 leads through paid at £3,200 each — which costs £28,800 to replace £16,000 of content spend. The cut makes the overall budget less efficient.",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: "What about the [[headroom:the amount of budget remaining available — the difference between allocated and committed spend]]? There's £18,000 left over from the cancelled trade event.",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "I've ring-fenced that for content amplification — paid distribution for the top-performing organic content. If we return it now, we won't see it again until next year. Investing it in content amplification is a better use given where Q4 sits in the funnel.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "What if finance still wants a cut? What's the smart place to trim?",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "We're proposing a reallocation, not a cut. If there's pressure to reduce the total, I'd suggest reducing the brand awareness spend by £15,000 — that's the line with the longest payback period — and redirecting it to demand gen where we have a proven 5.7x return. We don't lose pipeline; we just delay the brand work to Q1.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "That's a sensible trade-off. Let's look at the numbers together one more time and I'll confirm the allocation by end of day.",
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "allocation",
+        "definition": "how a total budget is divided and assigned to different activities, channels, or objectives"
+    },
+    {
+        "word": "ROI",
+        "definition": "Return on Investment — revenue or value generated relative to the money spent"
+    },
+    {
+        "word": "cost-per-acquisition",
+        "definition": "the average amount spent to acquire one new customer — used to compare channel efficiency"
+    },
+    {
+        "word": "forecast",
+        "definition": "a projection of future outcomes based on planned spend and historical performance data"
+    },
+    {
+        "word": "variance",
+        "definition": "the difference between a budgeted or forecasted number and the actual result"
+    },
+    {
+        "word": "headroom",
+        "definition": "the amount of budget remaining available — the difference between allocated and committed spend"
+    },
+    {
+        "word": "cost of inaction",
+        "definition": "the revenue or growth lost by not making a particular investment"
+    },
+    {
+        "word": "ring-fence",
+        "definition": "to set aside a portion of budget for a designated purpose, protecting it from reallocation"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "Every line in this budget is ",
+        "after": " specific outcomes — demand gen to pipeline, events to SQL generation, content to organic leads.",
+        "answer": "tied to"
+    },
+    {
+        "before": "I can ",
+        "after": " every line item — every number has a rationale, a forecast, and a success metric attached.",
+        "answer": "justify"
+    },
+    {
+        "before": "What's the expected ",
+        "after": " on this spend? The demand gen budget has generated a 5.7x return over the last three quarters.",
+        "answer": "return"
+    },
+    {
+        "before": "If we cut the content budget, here's what we ",
+        "after": ": 45 organic MQLs per quarter at our most efficient cost-per-acquisition rate.",
+        "answer": "lose"
+    },
+    {
+        "before": "We're proposing a ",
+        "after": ", not an increase — we want to move £30,000 from events to demand generation within the same total budget.",
+        "answer": "reallocation"
+    },
+    {
+        "before": "Let's look at the numbers ",
+        "after": " — I'll walk you through the model, and if you see something that doesn't make sense, tell me.",
+        "answer": "together"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "What ROI does Riley cite for last quarter's demand generation budget?",
+        "options": [
+            "3.2x return — £3.20 generated for every £1 spent",
+            "5.7x return — consistent with the Q4 forecast",
+            "8.5x return — the highest-returning channel in the portfolio"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What caused the Q3 variance in the paid media budget?",
+        "options": [
+            "The events were cancelled and the budget was not reallocated",
+            "A platform algorithm change in October that reduced paid media performance",
+            "The finance team reduced the paid budget mid-quarter"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why does Riley argue against the 20% content budget cut?",
+        "options": [
+            "Content is the hardest channel to restart once it has been cut",
+            "The 9 lost MQLs would cost £28,800 to replace through paid — more than the £16,000 saved",
+            "The content team has already committed to deliverables for Q4"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "If a total budget reduction is required, what does Riley propose?",
+        "options": [
+            "Reduce events budget by £15,000 and cut the content amplification programme",
+            "Return the £18,000 headroom from the cancelled event to finance",
+            "Reduce brand awareness spend by £15,000 and redirect it to demand generation"
+        ],
+        "correctIndex": 2
+    }
+],
+  warmUp: {
+    "questions": [
+        "Have you ever had to ask for budget approval at work — for a campaign, an event, a tool, or a hire? What was the hardest part of the conversation? What worked, and what didn't?",
+        "When you hear that the marketing budget has been cut, what's your instinct — which activities do you protect first and which would you cut? What does that tell you about what you value?",
+        "If you had to explain to a non-marketer why content marketing is worth investing in, what would you say? How would you put a number on its value?"
+    ]
+},
+  completeSentenceExercise: {
+    "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
+    "items": [
+        {
+            "sentence": "Every item in a well-built budget _____ tied to a specific, measurable outcome.",
+            "options": [
+                "should be",
+                "should",
+                "is should"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Should be' is correct — 'should' is a modal verb and must be followed by the base form of 'be' (not 'should is' or 'should are'). 'Should be tied to' means 'it is recommended / expected that every item is tied'. 'Should' alone cannot end the predicate here — it needs a following verb. 'Is should' is ungrammatical — a modal verb cannot follow a present tense auxiliary in this way. Structure: subject + should + base verb: 'should be', 'should include', 'should reflect'."
+        },
+        {
+            "sentence": "A cost-per-acquisition of £190 is significantly _____ than the paid media CPA of £3,200.",
+            "options": [
+                "lower",
+                "lowest",
+                "low"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Lower' is the comparative adjective — used to compare two things. 'Significantly lower than' compares the content CPA (£190) with the paid media CPA (£3,200). 'Lowest' is the superlative — used when comparing three or more items to identify the one at the extreme: 'our lowest CPA channel'. 'Low' is the base adjective — used without comparison ('the CPA is low'). When comparing two specific values, always use the comparative form (-er or 'more + adjective'): lower, higher, more efficient, more expensive."
+        },
+        {
+            "sentence": "If we _____ the content budget, we lose approximately 9 organic MQLs per quarter.",
+            "options": [
+                "cut",
+                "will cut",
+                "cutting"
+            ],
+            "correctIndex": 0,
+            "explanation": "In a first conditional (real, likely scenario), the if-clause uses present simple and the main clause uses 'will'. 'If we cut' (present simple in the if-clause) is correct. 'If we will cut' is the most common error — 'will' is not used in the if-clause of a first conditional in standard English. 'If we cutting' is ungrammatical — the if-clause needs a subject + main verb, not a participle. The structure: If + present simple, will + base verb."
+        },
+        {
+            "sentence": "The variance _____ driven by a platform algorithm change that affected performance in October.",
+            "options": [
+                "was",
+                "were",
+                "is"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Was' is correct — 'the variance' is singular and the sentence describes a completed past event. 'The variance was driven by' is past simple passive: the variance (subject) was (auxiliary) driven by (past participle) the algorithm change (agent). 'Were' is the plural past form: 'the results were driven by...' 'Is' (present simple) would be used to describe a current or ongoing situation, not a past event. When reporting what happened in a previous period, use simple past ('was', 'were')."
+        },
+        {
+            "sentence": "We should ring-fence the product launch budget _____ it competes with other priorities during a difficult quarter.",
+            "options": [
+                "so that it doesn't",
+                "so it won't",
+                "in case"
+            ],
+            "correctIndex": 2,
+            "explanation": "'In case' is the correct conjunction here — 'ring-fence it in case it competes' means 'as a precaution against the possibility that it might compete'. 'In case' introduces a precautionary action. 'So that it doesn't' would mean the ring-fencing is the direct prevention ('we ring-fence it so that it doesn't compete') — which is also grammatically possible, but changes the logical flow: 'so that' describes the intended result, while 'in case' describes the precaution. 'So it won't' is similar to 'so that' — it works but is less formal. In professional budget language, 'in case X happens' is the natural phrasing for precautionary financial decisions."
+        },
+        {
+            "sentence": "The cost of _____ investing in content now is £272,000 in missed pipeline over the next year.",
+            "options": [
+                "not",
+                "no",
+                "never"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Not' is correct — 'the cost of not investing' is the standard phrase for expressing the cost of inaction. 'Not + gerund' (not investing, not acting, not spending) is the grammatical form for negating a verbal noun in a prepositional phrase: 'the risk of not deciding', 'the benefit of not waiting'. 'No' is used as a determiner before a noun ('no investment', 'no plan') or as a standalone negative ('no'). 'Never' is an adverb of frequency ('we never invest in this') — it cannot be placed before a gerund in this structure."
+        }
+    ]
+},
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Read what the finance director or senior leader says. Choose the best professional response.",
+        "items": [
+            {
+                "customerLine": "Marketing feels like a cost centre, not a revenue driver. Why should we protect your budget when sales is where the revenue actually comes from?",
+                "options": [
+                    "Marketing and sales are different functions with different goals. It's not a fair comparison.",
+                    "I understand the perception, and I want to address it directly with data. Our demand generation activities last quarter generated £680,000 in pipeline — pipeline that the sales team then closed. Without the inbound leads from marketing, the sales team would have to source all their own pipeline cold. The CPA through inbound is £340 versus £1,800 for outbound. Marketing is already contributing to revenue — the question is whether we measure it correctly.",
+                    "We should absolutely be measured on revenue contribution. Let's set up a shared attribution model between marketing and sales so the contribution is visible."
+                ],
+                "correctIndex": 1,
+                "explanation": "Option B is the best answer — it takes the challenge seriously, doesn't get defensive, and responds immediately with specific data that directly addresses the claim. It reframes the conversation: the question is not 'is marketing valuable?' but 'are we measuring it correctly?' It also quantifies the cost advantage of inbound over outbound, which is a compelling financial argument. Option A is defensive and unhelpful — comparing functions is exactly what the questioner is doing, so declining the comparison doesn't answer it. Option C proposes a process change but doesn't address the immediate challenge with data — which is what the moment requires."
+            },
+            {
+                "customerLine": "We need to cut 20% from the marketing budget for the rest of the quarter. Where would you cut?",
+                "options": [
+                    "I'd need to go away and model it before I can answer that responsibly. Can I come back to you with an analysis tomorrow?",
+                    "Before I answer that, can I show you the cost-of-inaction for each major line? I want to make sure we're cutting in a way that minimises the revenue impact — not just the spend. If you're open to it, I have a model here that shows the pipeline impact of cutting each major line by 20%. The options with the lowest impact on pipeline are brand awareness and events. Demand generation and content are our highest-return channels — cutting those costs more in revenue than it saves in spend.",
+                    "20% is too much — it would be impossible to hit our pipeline targets with that level of cut."
+                ],
+                "correctIndex": 1,
+                "explanation": "Option B is the right answer — it doesn't refuse the request, but it immediately reframes the conversation around the right question: what does a cut cost in revenue terms? This is the 'cost of inaction' framework applied to budget cuts. By walking through the model, it turns a budget cut discussion into a trade-off discussion where the decision-maker can see the consequences clearly. Option A is too slow — asking for a day when the decision is urgent is unhelpful. Option C refuses the request with a claim ('impossible') rather than engaging constructively — this is likely to make the leader less sympathetic, not more."
+            },
+            {
+                "customerLine": "You forecast £420,000 in pipeline last quarter and delivered £290,000. That's a big gap. How can I trust the Q4 forecast?",
+                "options": [
+                    "The Q3 shortfall was caused by external factors that are now resolved. Q4 will be different.",
+                    "That's a fair challenge. Let me explain the Q3 gap and then show you what's changed. The shortfall was driven by the paid media algorithm change — we've addressed that by shifting spend to content and email, which are less exposed to platform risk. I've also built a 15% conservative buffer into the Q4 forecast and flagged the assumptions clearly. I won't tell you the forecast is guaranteed — no forecast is. But I can show you why I believe Q4 is more robust than Q3 was.",
+                    "The Q3 number was affected by seasonality. Marketing always underperforms in Q3. Q4 is historically our strongest quarter."
+                ],
+                "correctIndex": 1,
+                "explanation": "Option B is the right answer — it acknowledges the gap directly (no defensiveness), explains what caused it with specificity, explains what has changed, and is honest about the limitations of forecasting. This builds credibility far more than explaining it away. A leader who hears a clear explanation of what went wrong and a specific set of changes made in response is far more likely to trust the next forecast. Option A is vague ('external factors', 'will be different') without actually explaining what changed. Option C introduces seasonality as an explanation without data — it sounds like excuse-making."
+            }
+        ]
+    },
+    "spotTheMistake": {
+        "instructions": "Read the budget presentation extract. Three lines have a grammar mistake. Can you find them?",
+        "dialogue": [
+            {
+                "speaker": "Riley",
+                "text": "Every line in this budget is tied to a specific, measurable outcome — nothing has been included without a clear rationale."
+            },
+            {
+                "speaker": "Marcus",
+                "text": "The demand generation budget generated a return of 5.7 times in Q3, which is significantly more higher than the brand awareness channel."
+            },
+            {
+                "speaker": "Dana",
+                "text": "If we will cut the content budget, we lose approximately 45 organic MQLs per quarter — our most efficient source of leads."
+            },
+            {
+                "speaker": "Riley",
+                "text": "The Q3 variance was driven by a platform algorithm change that we've already addressed by rebalancing the channel mix."
+            },
+            {
+                "speaker": "Marcus",
+                "text": "We are proposing a reallocation — we want to move £30,000 from the events line to demand generation, which has a proved track record of higher return."
+            },
+            {
+                "speaker": "Dana",
+                "text": "Ring-fencing the product launch budget now protects it from being cut if the quarter becomes difficult."
+            }
+        ],
+        "mistakes": [
+            {
+                "lineIndex": 1,
+                "incorrectText": "more higher",
+                "correction": "higher",
+                "explanation": "'More higher' is a double comparative — using both 'more' and the '-er' suffix at the same time, which is incorrect. Comparatives are formed in one of two ways, not both: for short adjectives (one or two syllables), add '-er': high → higher, low → lower, fast → faster. For longer adjectives (three or more syllables), add 'more': significant → more significant, efficient → more efficient. Never combine both: 'more higher', 'more lower', 'more faster' are all wrong. The correct form here is simply 'significantly higher'."
+            },
+            {
+                "lineIndex": 2,
+                "incorrectText": "If we will cut",
+                "correction": "If we cut",
+                "explanation": "In a first conditional (real, likely scenario), the if-clause uses present simple — never 'will'. 'If we cut' is correct. 'If we will cut' is a very common error for learners whose first language uses a future form in conditional clauses. In English, the rule is fixed: in the if-clause, use present simple to refer to a future condition. The 'will' goes in the main clause: 'If we cut [present simple], we lose [present simple used for the consequence]' or 'If we cut, we will lose'. Never 'if + will'."
+            },
+            {
+                "lineIndex": 4,
+                "incorrectText": "a proved track record",
+                "correction": "a proven track record",
+                "explanation": "'Proven' is the adjective form used before a noun — 'a proven track record', 'a proven approach', 'a proven method'. 'Proved' is the past tense or past participle of the verb 'prove' used in verbal contexts: 'the method has been proved', 'she proved the point'. When used as an adjective before a noun (an attributive adjective), the correct form is 'proven'. This is a fixed collocation: 'a proven track record' is the standard business phrase. 'A proved track record' sounds unnatural and is rarely used in professional English."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The marketing director starts a sentence in a budget review. Work with your partner to finish it professionally.",
+        "items": [
+            {
+                "customerLine": "The CFO has asked all departments to cut 15%. What's your plan?",
+                "salespersonStart": "Before I propose cuts, I want to show you what 15% costs us in pipeline terms — because not all cuts are equal. The three options are...",
+                "suggestedCompletion": "cut brand awareness, which has the longest payback period and the least direct impact on Q4 pipeline — that's approximately £24,000 and minimal revenue risk; cut events, which are expensive and slower to convert — another £18,000 with manageable impact; or trim paid media by 10% and offset it by reallocating to content. My recommendation is option one followed by option two — we protect demand generation and content at all costs, because those two channels fund everything else."
+            },
+            {
+                "customerLine": "Why are we spending so much on content? It's hard to measure and it takes months to see results.",
+                "salespersonStart": "You're right that content has a longer payback than paid. But the measurement challenge is one we've solved — we track every piece of content from first touch to closed deal through the attribution model. Here's what the data shows...",
+                "suggestedCompletion": "content generates 45 MQLs per quarter at a cost-per-acquisition of £190 — our most efficient channel. For comparison, paid search generates leads at £3,200 each. Yes, content takes longer to build. But once it's built, it generates leads at a fraction of the cost indefinitely — paid stops the moment you turn it off. Content is an asset; paid is a cost. That's why we protect it."
+            },
+            {
+                "customerLine": "What happens if Q4 comes in below forecast again?",
+                "salespersonStart": "I want to be honest about the risks, not defensive about the forecast. There are three scenarios where Q4 could come in below plan...",
+                "suggestedCompletion": "First, if the paid media platform experiences another algorithm change — I've built a 15% buffer for this and have a contingency plan to shift spend to email. Second, if deal velocity slows down at the end of the quarter, which is a sales cycle risk rather than a marketing one. Third, if we don't publish the content programme on schedule — that's within our control and I'm holding the team to the calendar. If any of these happen, I'll flag it within the week and bring a revised forecast. I won't wait for the end-of-quarter review."
+            }
+        ]
+    }
+},
+};

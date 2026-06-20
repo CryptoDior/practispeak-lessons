@@ -140,6 +140,7 @@ import { advancedDataAnalytics } from './advanced-data-analytics';
 import { persuasiveMarketingWriting } from './persuasive-marketing-writing';
 import { negotiatingWithPartners } from './negotiating-with-partners';
 import { brandArchitecture } from './brand-architecture';
+import { marketingBudgets } from './marketing-budgets';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -283,6 +284,7 @@ export const lessons: Lesson[] = [
   persuasiveMarketingWriting,
   negotiatingWithPartners,
   brandArchitecture,
+  marketingBudgets,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
