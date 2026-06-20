@@ -1,0 +1,492 @@
+import { Lesson } from '@/types/lesson';
+
+export const integratedMarketingCommunications: Lesson = {
+  slug: 'integrated-marketing-communications',
+  title: 'Integrated Marketing Communications',
+  subtitle: 'How to align all your channels behind a single message — and write a clear IMC strategy outline that any team can execute',
+  level: 'B1-B2',
+  description: 'Great marketing falls apart when the email says one thing, the ad says another, and the sales team says something different again. Integrated Marketing Communications (IMC) is the discipline of aligning every channel behind a single, consistent message — so every touchpoint the customer encounters reinforces the same idea, in the same voice, toward the same goal. This lesson gives you the vocabulary and writing skills to plan, brief, and defend an IMC strategy in meetings and documents.',
+  heroImage: '/images/integrated-marketing-communications-hero.png',
+
+  vocabulary: [
+    {
+      word: 'IMC',
+      partOfSpeech: 'noun',
+      definition: 'Integrated Marketing Communications — the practice of coordinating all marketing channels and messages so they work together as a unified whole. In an IMC strategy, every channel (email, social, paid, PR, sales) delivers the same core message in ways appropriate to that channel. The goal is consistency and cumulative impact.',
+      example: 'Riley opened the strategy session: Before we assign channel owners and budgets, we need to agree on the IMC framework. Every piece of communication we create — from the LinkedIn posts to the sales deck to the follow-up email sequence — should feel like it comes from the same campaign, from the same brand, telling the same story.',
+      imageSlug: '/images/imc.png',
+    },
+    {
+      word: 'CONSISTENCY',
+      partOfSpeech: 'noun',
+      definition: 'The quality of delivering the same message, tone, and brand identity across all channels and all touchpoints. Consistency builds recognition and trust — customers who see the same message repeatedly and across multiple channels are more likely to remember it and believe it.',
+      example: 'Marcus reviewed the drafts: The problem here is consistency. The email is warm and conversational, the ad is formal and corporate, and the landing page sounds like a different brand entirely. A customer who touches all three of these in the same week will feel confused, not convinced. We need a unified voice.',
+      imageSlug: '/images/consistency.png',
+    },
+    {
+      word: 'MESSAGE ARCHITECTURE',
+      partOfSpeech: 'noun',
+      definition: 'The structured hierarchy of messages that make up a campaign — from the single core idea at the top, down to the supporting messages for each audience segment and channel. A message architecture ensures that even when different teams work on different channels, they are all building toward the same idea.',
+      example: "Dana built the message architecture for the launch: At the top is our core claim: 'The platform built for regulated industries.' Below that, we have three supporting messages — one for compliance teams, one for marketing teams, and one for the C-suite. Every piece of content maps to one of these four levels. Nothing goes out without a home in the architecture.",
+      imageSlug: '/images/message-architecture.png',
+    },
+    {
+      word: 'MEDIA MIX',
+      partOfSpeech: 'noun',
+      definition: 'The combination of channels and formats used to deliver a campaign. A media mix might include paid search, LinkedIn ads, email, PR, events, and content marketing. The right media mix depends on where the target audience spends time and which channels are most effective at each stage of the funnel.',
+      example: "Riley presented the recommended media mix: For this campaign, I'm proposing 40% paid LinkedIn for awareness, 30% email for nurturing, 20% content for organic reach, and 10% events for late-funnel conversion. The mix reflects where our target audience is and what moves them at each stage of the journey.",
+      imageSlug: '/images/media-mix.png',
+    },
+    {
+      word: 'SYNERGY',
+      partOfSpeech: 'noun',
+      definition: 'When channels working together produce a greater result than any single channel could alone. In IMC, synergy happens when a prospect sees the same message on LinkedIn, in an email, and in a retargeting ad — and the repeated exposure across different contexts makes the message land more powerfully than three independent, unrelated exposures.',
+      example: "Marcus explained the concept to the client: The reason we run LinkedIn, email, and content simultaneously is synergy. When a prospect sees your thought leadership article, then gets your email, then sees a retargeting ad — each one reinforces the other. The cumulative effect is far greater than any single channel running alone. That's why integration matters.",
+      imageSlug: '/images/synergy.png',
+    },
+    {
+      word: 'TOUCHPOINT',
+      partOfSpeech: 'noun',
+      definition: 'Any moment when a customer or prospect comes into contact with a brand — an ad, an email, a social post, a website visit, a sales call, or even a packaging experience. Mapping touchpoints helps marketers understand the full customer journey and identify where the message is consistent or where it breaks down.',
+      example: 'Dana mapped every touchpoint in the customer journey: From the first LinkedIn impression through to the post-sale onboarding email, there are eleven points where we communicate with the prospect or customer. We need to audit each one — does it say the same thing? Does it sound like the same brand? Are we reinforcing the core message or diluting it?',
+      imageSlug: '/images/touchpoint.png',
+    },
+    {
+      word: 'CHANNEL ALIGNMENT',
+      partOfSpeech: 'noun',
+      definition: 'The state of having all marketing channels working toward the same goal with the same message. Channel alignment requires coordination between teams — content, paid, email, social, sales — who often work separately. Without alignment, channels pull in different directions and the customer journey becomes fragmented.',
+      example: 'Riley flagged the problem in the review: We have a channel alignment issue. The paid team is pushing a product feature message, the email team is running a thought leadership sequence, and the sales team is leading with pricing. The prospect who goes through all three journeys simultaneously is getting three different stories. We need to align.',
+      imageSlug: '/images/channel-alignment.png',
+    },
+    {
+      word: 'CORE MESSAGE',
+      partOfSpeech: 'noun',
+      definition: 'The single central idea that a campaign or brand communicates — the one thing you want the audience to remember. A strong core message is specific, relevant, and differentiating. Every other message in the campaign should support and reinforce the core message, never contradict or dilute it.',
+      example: "Marcus challenged the team: Before we brief any channel, we need to agree on the core message. If I ask each of you right now what this campaign is about — what's the one thing? If we get three different answers, we're not ready to brief. The core message has to be something every team member can state in one sentence.",
+      imageSlug: '/images/core-message.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'ALL CHANNELS NEED TO PULL IN THE SAME DIRECTION',
+      definition: "An idiom used in IMC planning to say that every channel and every team must be working toward the same goal with the same message. 'Pull in the same direction' means align and coordinate. The opposite — channels pulling in different directions — creates a fragmented, confusing customer experience.",
+      example: "Riley opened the channel review: The reason we're losing at the bottom of the funnel is not the product — it's that all channels are not pulling in the same direction. Paid is driving traffic with one message, the landing page delivers a different one, and the follow-up email is from a completely different campaign. Let's fix that today.",
+      imageSlug: '/images/all-channels-need-to-pull-in-the-same-direction.png',
+    },
+    {
+      phrase: 'THE MESSAGE NEEDS TO COME THROUGH ON EVERY CHANNEL',
+      definition: "A phrase for checking whether the core campaign message is actually present and recognisable across all touchpoints. 'Comes through' means the message is clear and felt by the audience. Used in campaign reviews and creative briefings when assessing consistency.",
+      example: "Dana reviewed the channel audit: Our core message — 'built for regulated industries' — needs to come through on every channel. Right now it's clear in the ads and the homepage, but the email sequence doesn't mention it once, and the sales deck uses completely different language. Every touchpoint should say the same thing.",
+      imageSlug: '/images/the-message-needs-to-come-through-on-every-channel.png',
+    },
+    {
+      phrase: 'WE NEED TO BRIEF ALL CHANNEL OWNERS ON...',
+      definition: "The phrase used when communicating the core IMC strategy to the teams responsible for each channel. 'Brief' means to give a clear, structured explanation of what is needed and why. 'Channel owners' are the team members or agencies responsible for a specific channel (email, paid, content, etc.).",
+      example: "Marcus assigned the next steps: Once we've agreed on the message architecture, we need to brief all channel owners on the campaign theme, the tone of voice, the core message, and the audience for each channel. Nobody goes live until every channel owner has been briefed and confirmed alignment.",
+      imageSlug: '/images/we-need-to-brief-all-channel-owners-on.png',
+    },
+    {
+      phrase: 'EACH CHANNEL PLAYS A DIFFERENT ROLE IN THE JOURNEY',
+      definition: 'A phrase for explaining that integration does not mean every channel says exactly the same words — it means every channel plays its appropriate role while delivering the same core message. Awareness channels (social, PR) do a different job from conversion channels (email, retargeting), but all serve the same campaign.',
+      example: 'Riley explained the strategy to the client: Each channel plays a different role in the journey. LinkedIn builds awareness and authority. Email nurtures and educates. Retargeting ads bring back warm prospects and push toward decision. They all carry the same core message — but the depth and format adapt to what the customer needs at that stage.',
+      imageSlug: '/images/each-channel-plays-a-different-role-in-the-journey.png',
+    },
+    {
+      phrase: 'THE CUSTOMER EXPERIENCE NEEDS TO FEEL SEAMLESS',
+      definition: "A phrase describing the ideal outcome of a well-executed IMC strategy — that no matter which channel a customer enters through, the experience is consistent, coherent, and connected. 'Seamless' means there are no visible joins or inconsistencies between one channel and the next.",
+      example: 'Dana summarised the goal: Whether a prospect discovers us through a LinkedIn article, a Google ad, a word-of-mouth referral, or a trade event — the customer experience needs to feel seamless. Same brand, same voice, same promise. They should be unable to tell which channel they came from, because all of them feel like the same company.',
+      imageSlug: '/images/the-customer-experience-needs-to-feel-seamless.png',
+    },
+    {
+      phrase: 'THIS IS WHERE THE INTEGRATION BREAKS DOWN',
+      definition: "A diagnostic phrase used in audits and reviews to identify the specific point in the customer journey where channel alignment fails. 'Integration breaks down' means that at this touchpoint, the message, tone, or brand identity becomes inconsistent with the rest of the campaign.",
+      example: "Marcus pointed to the gap in the audit: This is where the integration breaks down — right at the transition from ad to landing page. The ad promises a free consultation. The landing page talks about a product demo. That's two different offers in two consecutive touchpoints. The prospect feels misled and bounces. We fix this here.",
+      imageSlug: '/images/this-is-where-the-integration-breaks-down.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Let's start the campaign planning session. Before we divide up the channels, I want us to agree on the IMC framework — because last campaign, every channel was doing something different and it showed in the results.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Agreed. What did the audit show?',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'The audit showed three different brand voices across five channels. The paid ads were formal and product-led. The email was casual and relationship-focused. The blog was thought leadership but with no clear connection to the campaign. There was no [[consistency:the quality of delivering the same message, tone, and brand identity across all channels]].',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "That's the problem. This quarter, we start with the [[core message:the single central idea that the campaign communicates — the one thing you want the audience to remember]] and work outward. Everything else adapts to its channel, but the core stays the same. What's the one sentence that describes what this campaign is about?",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "We're launching the new compliance feature. So the core message is: our platform makes compliance easy for marketing teams in regulated industries.",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Good. Now let's build the [[message architecture:the structured hierarchy of messages — from core idea at the top down to channel-specific supporting messages]] from that. At the top: compliance made easy. Below that, three supporting messages — one for the compliance officer, one for the marketing director, one for the CMO.",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'For the compliance officer: reduces audit risk and saves 6 hours a week. For the marketing director: approve campaigns faster without going back to legal. For the CMO: move faster than competitors without increasing regulatory exposure.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'That works. Now the [[media mix:the combination of channels and formats used to deliver a campaign]] — what are we running?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "I'm recommending LinkedIn for awareness, email for nurturing, a long-form content piece for organic and thought leadership, and retargeting for conversion. Each channel plays a different role in the journey — but all of them carry the core message.",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: "And the [[synergy:when channels working together produce a greater result than any single channel could produce alone]] effect is where we see the real return. A prospect who sees the LinkedIn article, gets the email, and then sees the retargeting ad is experiencing the same story from three angles. That's much more powerful than any one of those alone.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: "What I want to avoid is what happened last time — the transition from the ad to the landing page. The ad said one thing and the landing page said something else. That's where the integration broke down and people bounced.",
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "I've mapped all the [[touchpoint:any moment when a customer or prospect comes into contact with the brand]] transitions. Every ad links to a landing page with matching copy. Every email CTA goes to a page built for that specific email. No mismatch.",
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'And the channel alignment across teams — how do we keep everyone in sync? Last time the paid team and the email team were running completely different schedules.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'green',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "We brief all channel owners on the same day, with the same document. The brief includes the core message, the message architecture, the audience for each channel, and the campaign calendar. Nobody goes live without written confirmation that they've read and understood it.",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Good. And the customer experience needs to feel seamless — whether they find us through LinkedIn, a Google search, or a referral from a colleague. They should arrive at the same brand, the same promise, the same voice.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: "Agreed. Let's schedule the briefing for Monday. I'll have the message architecture document ready by Friday for your review.",
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "IMC",
+        "definition": "coordinating all marketing channels so they deliver a unified, consistent message"
+    },
+    {
+        "word": "consistency",
+        "definition": "delivering the same message, tone, and brand identity across all channels and touchpoints"
+    },
+    {
+        "word": "message architecture",
+        "definition": "the hierarchy of messages from core idea at the top down to channel-specific supporting messages"
+    },
+    {
+        "word": "media mix",
+        "definition": "the combination of channels and formats used to deliver a campaign"
+    },
+    {
+        "word": "synergy",
+        "definition": "when channels working together produce a greater result than any single channel alone"
+    },
+    {
+        "word": "touchpoint",
+        "definition": "any moment when a customer or prospect comes into contact with the brand"
+    },
+    {
+        "word": "channel alignment",
+        "definition": "the state of all marketing channels working toward the same goal with the same message"
+    },
+    {
+        "word": "core message",
+        "definition": "the single central idea that the campaign communicates — the one thing the audience should remember"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "All channels need to pull in the same ",
+        "after": " — every team should be working toward the same goal with the same message.",
+        "answer": "direction"
+    },
+    {
+        "before": "The core message needs to come ",
+        "after": " on every channel — from the first ad to the final onboarding email.",
+        "answer": "through"
+    },
+    {
+        "before": "We need to ",
+        "after": " all channel owners on the campaign theme, tone of voice, and core message before anyone goes live.",
+        "answer": "brief"
+    },
+    {
+        "before": "Each channel plays a different ",
+        "after": " in the journey — LinkedIn builds awareness, email nurtures, retargeting drives conversion.",
+        "answer": "role"
+    },
+    {
+        "before": "The customer experience needs to feel ",
+        "after": " — same brand, same voice, same promise at every touchpoint.",
+        "answer": "seamless"
+    },
+    {
+        "before": "This is where the integration ",
+        "after": " — the ad promises a free consultation but the landing page offers a product demo.",
+        "answer": "breaks down"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "What problem did the channel audit reveal from the previous campaign?",
+        "options": [
+            "The budget was split unevenly across channels",
+            "Three different brand voices across five channels with no consistency",
+            "The campaign ran for too short a time to build awareness"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the core message agreed for the new campaign?",
+        "options": [
+            "The fastest platform for marketing teams",
+            "Our platform makes compliance easy for marketing teams in regulated industries",
+            "Save time and reduce costs with integrated marketing tools"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does Riley say about how channel owners will be briefed?",
+        "options": [
+            "Each channel owner will receive a separate brief tailored to their channel",
+            "All channel owners will be briefed on the same day with the same document",
+            "Channel owners will be briefed after the campaign goes live"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What specific problem from the previous campaign does Marcus want to avoid?",
+        "options": [
+            "Running ads and email at the same time causing message fatigue",
+            "The transition from ad to landing page where the message was inconsistent",
+            "The paid team spending too much of the budget on awareness"
+        ],
+        "correctIndex": 1
+    }
+],
+  warmUp: {
+    "questions": [
+        "Think of a brand you see regularly on multiple platforms — social media, email, TV, or in stores. Do they always look and sound the same? What happens when they don't?",
+        "Have you ever clicked on an ad and arrived at a website that felt completely different from what the ad promised? How did that make you feel about the brand?",
+        "In your experience, when teams working on different channels (social, email, events) don't communicate well, what goes wrong? What would need to change to fix it?"
+    ]
+},
+  completeSentenceExercise: {
+    "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
+    "items": [
+        {
+            "sentence": "For an IMC strategy to work, all channels must _____ toward the same goal.",
+            "options": [
+                "pull",
+                "pulling",
+                "to pull"
+            ],
+            "correctIndex": 0,
+            "explanation": "After 'must', always use the base form of the verb — no '-ing', no 'to'. 'Must pull' is the correct modal + base verb structure. 'Must pulling' is incorrect because modal verbs cannot be followed by '-ing' directly. 'Must to pull' is also incorrect — 'must' does not take 'to' before the verb (unlike 'need to', 'want to', 'have to'). The rule: all modal verbs (must, should, will, would, can, could, shall, may, might) + base verb, always."
+        },
+        {
+            "sentence": "If a prospect sees your message on LinkedIn, in their inbox, and in a retargeting ad, the _____ effect amplifies each exposure.",
+            "options": [
+                "synergy",
+                "synergistic",
+                "synergise"
+            ],
+            "correctIndex": 0,
+            "explanation": "'Synergy' is the noun form needed here — it names the effect. 'The synergy effect' means 'the effect of channels working together'. 'Synergistic' is an adjective ('a synergistic approach', 'synergistic channels') — it cannot fill the article + noun slot here. 'Synergise' is a verb ('the channels synergise well') — verbs cannot follow 'the' directly. When the pattern is 'the ___ effect', the blank must be a noun or adjective, and here a noun is required."
+        },
+        {
+            "sentence": "The message architecture _____ every team to know exactly what to say and how to say it.",
+            "options": [
+                "allow",
+                "allows",
+                "allowing"
+            ],
+            "correctIndex": 1,
+            "explanation": "'Allows' is correct — 'the message architecture' is a singular subject, so the third-person singular verb 'allows' is needed. 'Allow' (without -s) is used with plural subjects: 'frameworks allow', 'these tools allow'. 'Allowing' is a present participle and cannot be the main verb of a sentence without an auxiliary: 'is allowing' would be present continuous. In present simple statements with a singular subject, always use the -s form of the verb."
+        },
+        {
+            "sentence": "Before going live, we need _____ all channel owners and confirming they understand the brief.",
+            "options": [
+                "briefing",
+                "to brief",
+                "brief"
+            ],
+            "correctIndex": 1,
+            "explanation": "'To brief' is correct — after 'need', use the infinitive with 'to'. 'We need to brief' follows the pattern: need + to + base verb. 'We need briefing' would mean 'we require someone to brief us' — a passive meaning, not what is intended. 'We need brief' is ungrammatical — 'need' as a main verb must be followed by 'to + verb' or a noun ('we need a brief'). The pattern for 'need' as a main verb: need + to + base verb."
+        },
+        {
+            "sentence": "A seamless customer experience means the prospect _____ tell which channel they came from.",
+            "options": [
+                "shouldn't be able to",
+                "can't",
+                "won't be able to"
+            ],
+            "correctIndex": 2,
+            "explanation": "'Won't be able to' is the best answer here — it describes a future outcome of good IMC work. 'The prospect won't be able to tell' means they will be unable to distinguish between channels because the experience is so consistent. 'Can't' (present simple) describes a current inability, not a designed-for future outcome. 'Shouldn't be able to' adds a normative judgment (they ought not to be able to) which is not quite right — the goal is that they simply won't, by design. For describing a planned result, 'won't be able to' is most precise."
+        },
+        {
+            "sentence": "The reason we audit touchpoints is _____ gaps where the message breaks down.",
+            "options": [
+                "identify",
+                "to identify",
+                "identifying"
+            ],
+            "correctIndex": 1,
+            "explanation": "'To identify' is correct — the phrase 'the reason we do X is to do Y' uses an infinitive of purpose. 'The reason we audit touchpoints is to identify gaps' explains the purpose of the action. 'Identifying' would need 'is' + a noun-like form: 'the reason is identifying gaps' is unusual and less natural. 'Identify' (base form without 'to') cannot follow 'is' here. When giving a reason using 'the reason... is', follow with 'to + base verb' or 'that + clause'."
+        }
+    ]
+},
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Read what the client or colleague says. Choose the best professional response.",
+        "items": [
+            {
+                "customerLine": "Each of our teams manages their own channel. Why do we need to integrate? It's worked fine so far.",
+                "options": [
+                    "Actually, it probably hasn't been working as well as you think. Siloed teams almost always underperform integrated ones.",
+                    "Integration becomes critical as the customer journey becomes more complex. When a prospect touches your brand across multiple channels before deciding, inconsistency creates doubt. If LinkedIn says one thing and your sales team says another, the prospect starts to wonder which version is true. Integration is what makes the whole greater than the sum of the parts.",
+                    "Integration is modern best practice. All leading brands have moved to integrated models, so it's important for you to do the same."
+                ],
+                "correctIndex": 1,
+                "explanation": "Option B is the right answer — it explains the business reason for integration from the customer's perspective (the prospect journey), names the specific risk of inconsistency (doubt), and explains the concept of synergy without using the jargon. It makes the case without dismissing the client's current approach. Option A is confrontational and assumes failure without evidence. Option C appeals to authority rather than logic — 'everyone is doing it' is not a strategic reason, and this kind of response rarely convinces a sceptical stakeholder."
+            },
+            {
+                "customerLine": "We can't get the email team and the social team to agree on the messaging. They always want to do different things.",
+                "options": [
+                    "The solution is to build a message architecture document that both teams sign off on before any content is created. When the core message, the supporting messages, and the tone of voice are agreed in writing, there's no room for interpretation. Each team adapts the agreed message to their channel — they don't create a new message.",
+                    "One team needs to be put in charge of all messaging. You need a single owner to avoid these conflicts.",
+                    "This is a very common problem. The best approach is regular cross-team meetings where both teams can align their plans week by week."
+                ],
+                "correctIndex": 0,
+                "explanation": "Option A solves the structural problem — it explains the tool (message architecture), the process (sign-off before creation), and the principle (adaptation, not invention). This is the professional IMC answer. Option B imposes a hierarchy that may not be appropriate and doesn't address the underlying messaging problem. Option C addresses the symptom (disagreement) through more meetings, but doesn't solve the root cause — the absence of a shared, agreed messaging framework."
+            },
+            {
+                "customerLine": "Our ad says 'Start your free trial today' but the landing page leads with a product demo request. Is that a problem?",
+                "options": [
+                    "Yes — that's a significant integration breakdown. The ad makes a specific promise (free trial) and the landing page delivers something different (demo request). The prospect feels misled. They clicked for a trial and arrived at a sales conversation. You should either align the landing page to the ad's offer or create a specific landing page for each ad variant.",
+                    "It might be a problem — it depends on conversion rate. If the page is converting well, the mismatch may not matter in practice.",
+                    "That's actually a good approach — it gives the prospect two options instead of one. More choice leads to more engagement."
+                ],
+                "correctIndex": 0,
+                "explanation": "Option A gives the correct diagnosis and two concrete solutions. The mismatch between ad promise and landing page delivery is one of the most common and costly integration failures — it increases bounce rate and destroys trust. Option B defers to conversion data to avoid taking a position, but the principle is clear regardless of current metrics — a mismatched journey is a problem even if the conversion rate looks acceptable, because it suppresses performance relative to what it could be. Option C mistakes complexity for choice — giving the prospect a different offer than promised is not 'more options', it's a broken promise."
+            }
+        ]
+    },
+    "spotTheMistake": {
+        "instructions": "Read the IMC strategy briefing extract. Three lines have a grammar mistake. Can you find them?",
+        "dialogue": [
+            {
+                "speaker": "Riley",
+                "text": "Before we launch, every channel owner must understand the core message and how it applies to their specific channel."
+            },
+            {
+                "speaker": "Marcus",
+                "text": "The message architecture consist of four levels — one core claim and three supporting messages for different audience segments."
+            },
+            {
+                "speaker": "Dana",
+                "text": "Each of the five channels are playing a different role in the customer journey, but all of them carry the same core message."
+            },
+            {
+                "speaker": "Riley",
+                "text": "We need to brief all channel owners before the campaign goes live — no exceptions."
+            },
+            {
+                "speaker": "Marcus",
+                "text": "The reason we integrate all channels is create synergy — repeated exposure across different contexts makes the message more powerful."
+            },
+            {
+                "speaker": "Dana",
+                "text": "If we get this right, the customer experience will feel seamless from first impression to final conversion."
+            }
+        ],
+        "mistakes": [
+            {
+                "lineIndex": 1,
+                "incorrectText": "consist",
+                "correction": "consists",
+                "explanation": "'The message architecture' is a singular subject, so the verb needs the third-person singular form: 'consists'. This is a subject-verb agreement error. In present simple, verbs with singular subjects (he/she/it/the architecture) take an -s: 'consists', 'includes', 'contains'. 'Consist' (without -s) is used with plural subjects: 'the levels consist of...', 'the messages consist of...'. Always identify the actual subject before choosing the verb form — don't be distracted by other nouns in the sentence."
+            },
+            {
+                "lineIndex": 2,
+                "incorrectText": "are playing",
+                "correction": "plays",
+                "explanation": "'Each of the five channels' has a singular subject — 'each'. 'Each' always takes a singular verb, even when followed by 'of + plural noun'. 'Each plays' is correct, not 'each are playing'. This is one of the most common subject-verb agreement errors in English. Compare: 'each of the teams is', 'each of the campaigns runs', 'each of the messages needs'. The plural noun after 'of' does not change the verb — 'each' is always singular."
+            },
+            {
+                "lineIndex": 4,
+                "incorrectText": "is create",
+                "correction": "is to create",
+                "explanation": "'The reason we do X is to do Y' requires the infinitive with 'to'. 'The reason we integrate is to create synergy' is the correct structure. 'Is create' is ungrammatical because a verb cannot directly follow another verb without 'to' (unless it's a modal). The standard structure for giving purpose: 'the reason [subject] [verb] is to + base verb'. Other examples: 'the reason we audit is to find gaps', 'the reason we brief early is to avoid confusion'."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The marketing strategist starts a sentence in a campaign planning meeting. Work with your partner to finish it professionally.",
+        "items": [
+            {
+                "customerLine": "Each team is telling me they don't need to know what the other channels are doing. How do we fix that?",
+                "salespersonStart": "The mindset needs to shift from 'my channel' to 'the customer's journey'. The way to fix it structurally is to...",
+                "suggestedCompletion": "create a shared campaign brief that every team signs off on before any content is produced. The brief should include the core message, the message architecture, the channel calendar, and what comes before and after each channel in the customer journey. When each team can see where they fit in the sequence, alignment becomes a professional responsibility, not just a nice-to-have."
+            },
+            {
+                "customerLine": "We have a limited budget. Should we do fewer channels really well, or spread across all of them?",
+                "salespersonStart": "Fewer channels done well will almost always outperform many channels done poorly. The key question when choosing your media mix is not 'how many channels' — it's...",
+                "suggestedCompletion": "'where is our audience, and what does each channel need to do in the journey?' For most B2B brands with a limited budget, I'd recommend two or three channels maximum — typically LinkedIn for awareness, email for nurturing, and one conversion channel. Do those three with a consistent message and proper integration before adding complexity."
+            },
+            {
+                "customerLine": "How do we know if our IMC strategy is actually working?",
+                "salespersonStart": "There are two things to measure. The first is performance — are conversion rates, engagement rates, and pipeline metrics improving? The second is consistency — and that one is often overlooked. To measure consistency, we...",
+                "suggestedCompletion": "run a touchpoint audit every quarter. We review every customer-facing communication across every channel and ask: does it say the same thing? Does it sound like the same brand? Does it reflect the current core message? If a customer went through every touchpoint in sequence, would they feel like they were dealing with one coherent company? The audit tells us where the integration is holding and where it's breaking down."
+            }
+        ]
+    }
+},
+};
