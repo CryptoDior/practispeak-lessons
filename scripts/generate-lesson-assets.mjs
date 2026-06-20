@@ -208,11 +208,16 @@ const vocabEntries = spec.vocabulary.map(w => {
 
 const phrasalEntries = spec.phrasalVerbs.map(v => {
   const slug = slugify(v.phrase);
+  const optionalFields = [
+    v.inAction  != null ? `      inAction: ${q(v.inAction)},`  : null,
+    v.register  != null ? `      register: ${q(v.register)},`  : null,
+    v.inContext != null ? `      inContext: ${q(v.inContext)},` : null,
+  ].filter(Boolean).join('\n');
   return `    {
       phrase: ${q(v.phrase.toUpperCase())},
       definition: ${q(v.definition)},
       example: ${q(v.example)},
-      imageSlug: '/images/${slug}.png',
+      imageSlug: '/images/${slug}.png',${optionalFields ? '\n' + optionalFields : ''}
     }`;
 }).join(',\n');
 
