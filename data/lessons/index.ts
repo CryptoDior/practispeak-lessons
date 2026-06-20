@@ -128,6 +128,7 @@ import { marketSegmentationInDepth } from './market-segmentation-in-depth';
 import { swotAnalysis } from './swot-analysis';
 import { digitalMarketingChannels } from './digital-marketing-channels';
 import { contentStrategy } from './content-strategy';
+import { emailMarketingCampaigns } from './email-marketing-campaigns';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -259,6 +260,7 @@ export const lessons: Lesson[] = [
   swotAnalysis,
   digitalMarketingChannels,
   contentStrategy,
+  emailMarketingCampaigns,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
