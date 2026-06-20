@@ -1,0 +1,453 @@
+import { Lesson } from '@/types/lesson';
+
+export const runningEffectiveMeetings: Lesson = {
+  slug: 'running-effective-meetings',
+  title: 'Running Effective Meetings',
+  subtitle: 'How to chair, contribute to, and follow up on marketing meetings in professional English',
+  level: 'B1-B2',
+  description: 'Marketing teams live in meetings — campaign reviews, client briefings, kick-offs, and strategy sessions. In this lesson you will learn the vocabulary for facilitating and contributing to meetings professionally: how to set an agenda, manage the discussion, summarise decisions, and follow up with clear action items that actually get done.',
+  heroImage: '/images/running-effective-meetings-hero.png',
+
+  vocabulary: [
+    {
+      word: 'AGENDA',
+      partOfSpeech: 'noun',
+      definition: 'A planned list of topics to be discussed in a meeting — shared in advance so everyone arrives prepared.',
+      example: 'I always send the agenda 24 hours before a client meeting. If people do not know what we are discussing, the meeting takes twice as long and half the decisions need revisiting the next day.',
+      imageSlug: '/images/agenda.png',
+    },
+    {
+      word: 'ACTION ITEM',
+      partOfSpeech: 'noun',
+      definition: 'A specific task that needs to be completed after the meeting — with a clear owner and a deadline.',
+      example: "Every meeting should end with action items, not just conclusions. 'We need to review the case study' is a conclusion. 'Dana will review the case study by Friday and share the revised version with the team' is an action item.",
+      imageSlug: '/images/action-item.png',
+    },
+    {
+      word: 'MINUTES',
+      partOfSpeech: 'noun',
+      definition: 'A written record of what was discussed and decided in a meeting — including action items, owners, and deadlines.',
+      example: 'I send the minutes within 24 hours of every client meeting — it confirms what was agreed, protects everyone if there is a misunderstanding later, and gives the action items a written record.',
+      imageSlug: '/images/minutes.png',
+    },
+    {
+      word: 'SUMMARISE',
+      partOfSpeech: 'verb',
+      definition: 'To give a brief, clear overview of what has been discussed or decided — capturing the key points without repeating everything.',
+      example: "Before moving to the next agenda item, always summarise what was agreed: 'So, to summarise — we are proceeding with the LinkedIn campaign, the budget is approved at €15,000, and Dana will have the brief ready by Thursday. Is that correct?'",
+      imageSlug: '/images/summarise.png',
+    },
+    {
+      word: 'FOLLOW-UP',
+      partOfSpeech: 'noun',
+      definition: 'Communication or action that happens after a meeting to check progress on what was agreed or to provide additional information.',
+      example: "I always send a follow-up email within 24 hours — action items, owners, deadlines, and the date of the next check-in. If there is no follow-up, the meeting's decisions tend to disappear.",
+      imageSlug: '/images/follow-up.png',
+    },
+    {
+      word: 'STANDING ITEM',
+      partOfSpeech: 'noun',
+      definition: 'A topic that appears on the agenda of every meeting — a regular update that happens each time the team meets.',
+      example: 'Our standing items at the start of every monthly review are: performance update, budget status, and any blockers. Everything else is added based on what needs to be discussed that month.',
+      imageSlug: '/images/standing-item.png',
+    },
+    {
+      word: 'DECISION POINT',
+      partOfSpeech: 'noun',
+      definition: 'A moment in a meeting where a specific choice needs to be made — and where the discussion should be directed towards reaching that decision.',
+      example: 'Agenda item three is a decision point — we need to agree on the Q4 channel allocation before the end of this meeting. Everything else on the agenda can be discussed and continued later, but this one has a deadline.',
+      imageSlug: '/images/decision-point.png',
+    },
+    {
+      word: 'PARKING LOT',
+      partOfSpeech: 'noun',
+      definition: 'A list of topics raised in a meeting that are important but off-agenda — to be addressed at a later time rather than disrupting the current discussion.',
+      example: 'That is a great point about the website redesign — let me put it in the parking lot for now and we will schedule a separate conversation for it next week. I do not want us to lose that idea but we cannot cover it today.',
+      imageSlug: '/images/parking-lot.png',
+    }
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: 'TAKE THE FLOOR',
+      definition: 'To have the opportunity to speak in a meeting — to lead the discussion on a particular topic.',
+      example: 'Dana — would you like to take the floor on the campaign results? You have the most detail on the LinkedIn data.',
+      imageSlug: '/images/take-the-floor.png',
+    },
+    {
+      phrase: 'BRING [SOMEONE] UP TO SPEED',
+      definition: 'To quickly brief someone on the relevant context they need to participate in a discussion.',
+      example: 'Marcus has just joined us — let me bring him up to speed on where we are. We have approved the Q4 budget, agreed the channel mix, and we are currently discussing the content calendar.',
+      imageSlug: '/images/bring-someone-up-to-speed.png',
+    },
+    {
+      phrase: 'WRAP UP [THE MEETING]',
+      definition: 'To bring a meeting to a close — usually by summarising decisions and confirming action items.',
+      example: 'We are almost out of time — let me wrap up with the three decisions we made and the four action items before we close.',
+      imageSlug: '/images/wrap-up-the-meeting.png',
+    },
+    {
+      phrase: 'STAY ON TRACK',
+      definition: 'To keep the meeting focused on the agenda and avoid going off-topic into unrelated discussions.',
+      example: 'I want to stay on track — we have a decision point at the end of this meeting that needs 20 minutes. Can we park the discussion about the website for now and come back to it?',
+      imageSlug: '/images/stay-on-track.png',
+    },
+    {
+      phrase: 'PICK UP [A TOPIC] OFFLINE',
+      definition: 'To continue a detailed or sensitive discussion outside the meeting — in a separate, smaller conversation.',
+      example: 'The budget disagreement between the two teams is going to take more time than we have. Can we pick it up offline this afternoon — just the three of us — and bring a joint proposal back to the group next week?',
+      imageSlug: '/images/pick-up-a-topic-offline.png',
+    },
+    {
+      phrase: 'CIRCLE BACK [TO SOMETHING]',
+      definition: 'To return to a topic later in the same meeting or in a future meeting.',
+      example: 'Let us circle back to the influencer strategy at the end — I want to make sure we have agreed the Q4 priorities first before we open a discussion that might take us in a different direction.',
+      imageSlug: '/images/circle-back-to-something.png',
+    }
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Good morning everyone — we have 90 minutes and a clear [[agenda:the planned list of topics to be discussed]]. The most important item is number two — the Q4 channel allocation — that is a [[decision point:a moment where a specific choice needs to be made]] and we need an answer today. Marcus, I know you have a board meeting on Friday and need to present this. Everything else can be followed up if we run short on time.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Appreciated. Let us make sure we get to that one.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Dana — would you like to [[take the floor:lead the discussion on a topic]] on the Q3 performance review? That is our first [[standing item:a topic that appears on the agenda of every meeting]].',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Of course. The headline: LinkedIn is performing significantly above [[benchmark:a reference standard for performance]], cost per lead is down 22%, and the manufacturing [[segment:a specific subset of the audience]] is converting at four times the rate of logistics. I will send the full detail in the [[minutes:written record of what was discussed and decided]] after the meeting — for now, the number everyone needs to know is that manufacturing leads cost us €89 each and convert at 4.2x. That is the foundation for the Q4 decision.',
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Before we move on — there is a question about the website redesign I wanted to raise. Is this the right time?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "It is important — let me put it in the [[parking lot:a list of topics raised but off-agenda, to be addressed later]] for now. I want to make sure we [[stay on track:keep the meeting focused on the agenda]] and get to the Q4 decision. I will add the website as item one on next week's agenda and we can give it proper time. Is that okay?",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'That works.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: "Good. The Q4 channel allocation [[decision point:moment requiring a specific choice]] — based on Dana's data, my recommendation is 80% manufacturing, 20% logistics, with the LinkedIn budget increasing to €10,000. We have three months of [[trend:a consistent direction in data over time]] data supporting this. Can we agree that today?",
+    },
+    {
+      speaker: 'Marcus',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/marcus-icon.png',
+      text: 'Yes — that is approved. I can take that to the board on Friday.',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'Excellent. Let me [[summarise:give a brief, clear overview of what was decided]] before we wrap up. Three decisions: Q4 channel allocation approved, LinkedIn budget at €10,000, influencer partnership with James Harlow confirmed. [[Action items:specific tasks with owners and deadlines]]: Dana — revised content calendar by Wednesday. Me — influencer brief by Friday. Marcus — board confirmation of budget by Tuesday. I will send the [[minutes:written record of the meeting]] and [[follow-up:communication after the meeting to confirm what was agreed]] email by end of today.',
+    },
+    {
+      speaker: 'Dana',
+      speakerColor: 'blue',
+      speakerAvatar: '/images/dana-icon.png',
+      text: 'Before we close — should we [[circle back:return to a topic]] to the influencer strategy now or is that in the [[minutes:meeting record]] for next time?',
+    },
+    {
+      speaker: 'Riley',
+      speakerColor: 'orange',
+      speakerAvatar: '/images/riley-icon.png',
+      text: 'It is confirmed — James Harlow, two posts, one video. The brief is the next step and I will [[pick up:continue a discussion outside the meeting]] the detail with Dana offline this afternoon. That is everything on the [[agenda:list of meeting topics]] — thank you both. Let me [[wrap up:bring the meeting to a close]] — next meeting is 5 November, same time.',
+    }
+  ],
+
+  matchingExercise: [
+    {
+        "word": "AGENDA",
+        "definition": "A planned list of topics to be discussed in a meeting — shared in advance so everyone arrives prepared"
+    },
+    {
+        "word": "ACTION ITEM",
+        "definition": "A specific task to be completed after the meeting — with a clear owner and a deadline"
+    },
+    {
+        "word": "MINUTES",
+        "definition": "A written record of what was discussed and decided in a meeting"
+    },
+    {
+        "word": "SUMMARISE",
+        "definition": "To give a brief, clear overview of what has been discussed or decided"
+    },
+    {
+        "word": "FOLLOW-UP",
+        "definition": "Communication or action after a meeting to confirm what was agreed and check on progress"
+    },
+    {
+        "word": "STANDING ITEM",
+        "definition": "A topic that appears on the agenda of every meeting — a regular recurring update"
+    },
+    {
+        "word": "DECISION POINT",
+        "definition": "A moment in a meeting where a specific choice needs to be made"
+    },
+    {
+        "word": "PARKING LOT",
+        "definition": "A list of off-agenda topics raised in a meeting — to be addressed at a later time"
+    }
+],
+  fillBlankExercise: [
+    {
+        "before": "I always send the",
+        "after": "24 hours before a client meeting — if people do not know what we are discussing, the meeting takes twice as long.",
+        "answer": "agenda"
+    },
+    {
+        "before": "'Dana will review the case study by Friday' is an",
+        "after": "— specific, with an owner and a deadline. 'We need to review the case study' is just a conclusion.",
+        "answer": "action item"
+    },
+    {
+        "before": "I send the",
+        "after": "within 24 hours of every client meeting — it confirms what was agreed and gives everyone a written record.",
+        "answer": "minutes"
+    },
+    {
+        "before": "Before moving to the next item, always",
+        "after": "what was agreed: 'So — we are proceeding with the campaign, the budget is approved, and Dana has the brief. Is that correct?'",
+        "answer": "summarise"
+    },
+    {
+        "before": "I always send a",
+        "after": "email within 24 hours — action items, owners, deadlines, and the date of the next check-in.",
+        "answer": "follow-up"
+    },
+    {
+        "before": "Our",
+        "after": "at the start of every monthly review are: performance update, budget status, and any blockers.",
+        "answer": "standing items"
+    },
+    {
+        "before": "Agenda item three is a",
+        "after": "— we need to agree on the Q4 channel allocation before the end of this meeting.",
+        "answer": "decision point"
+    },
+    {
+        "before": "Let me put the website redesign in the",
+        "after": "for now — I will add it to next week's agenda where we can give it proper time.",
+        "answer": "parking lot"
+    }
+],
+  multipleChoiceExercise: [
+    {
+        "question": "A meeting has been running for 60 minutes and the group is still discussing the first of three agenda items. What should the chair do?",
+        "options": [
+            "Let the discussion continue — all the points being raised are relevant and important.",
+            "Intervene: summarise what has been agreed on item one, note any unresolved points for follow-up, and move the group to item two. Explain that the most time-sensitive item — the decision point — needs 20 minutes and you must get there. Good chairs intervene before the meeting overruns, not after.",
+            "Ask the group to vote on whether to extend the meeting time or continue to the next item.",
+            "Skip item two and go directly to the decision point — item one was clearly the most complex discussion and the team needed the time."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the difference between minutes and action items?",
+        "options": [
+            "Minutes are written by the meeting chair. Action items are assigned by the most senior person in the room.",
+            "Minutes are the historical record of what was discussed — useful for reference and compliance. Action items are the forward-looking tasks that came out of the meeting — what needs to happen, who will do it, and by when. Both are important but they serve different purposes. A short email with clear action items is often more immediately useful than a full set of minutes.",
+            "Minutes are formal documents used in board meetings. Action items are used in informal team meetings.",
+            "Minutes include everything that was said. Action items include only the tasks that were agreed."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "A participant raises an important topic that is not on the agenda and begins an extended discussion. What should the chair do?",
+        "options": [
+            "Allow the discussion — if it is important, it is worth the time regardless of the agenda.",
+            "Acknowledge the importance of the topic, add it to the parking lot, and redirect the group back to the agenda. Explain that you will schedule specific time for that topic so it gets the attention it deserves rather than being handled in the last few minutes of another meeting. This respects both the topic and the agenda.",
+            "Ask the person who raised it to prepare a separate briefing document and present it at the next meeting.",
+            "Take a group vote on whether to discuss the new topic or continue with the agenda."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What makes an action item effective rather than just a conclusion?",
+        "options": [
+            "It should be written in formal language and included in the official meeting minutes.",
+            "It must have three things: a specific task (not a vague intention), a named owner (one person, not 'the team'), and a clear deadline. Without all three, it is a conclusion that may not lead to any action. 'Review the content strategy' is a conclusion. 'Dana will send a revised content strategy document to Marcus by Friday 15 October at 5pm' is an action item.",
+            "It should be agreed by all meeting participants before being confirmed as an action.",
+            "It should be sent by email rather than recorded in the minutes — email creates a clearer record of commitment."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Why is it important to send a follow-up email after a marketing meeting?",
+        "options": [
+            "It allows people who could not attend the meeting to stay informed about what was discussed.",
+            "It creates a written record that confirms what was agreed and gives action item owners a clear reference for their deadlines. Without a follow-up, the meeting's decisions exist only in people's memories — which leads to misunderstandings, missed deadlines, and the same topics being revisited in the next meeting. A brief follow-up email within 24 hours is one of the highest-value habits in professional meeting management.",
+            "It gives the chair an opportunity to add context or nuance to decisions that were made quickly in the meeting.",
+            "It allows participants to raise objections to decisions made in the meeting before they are implemented."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What does 'take the floor' mean in a meeting context?",
+        "options": [
+            "To formally request permission to speak by raising your hand or waiting to be called on.",
+            "To lead or present on a specific topic — to be the person who speaks first and guides the group through that agenda item. In a well-run meeting, the chair invites specific people to take the floor for topics they own: 'Dana — would you like to take the floor on the Q3 performance data?'",
+            "To physically stand up during a presentation to indicate authority and confidence.",
+            "To take ownership of a decision and commit to following up on it after the meeting."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "A client says at the end of a long meeting: 'I am not sure what we decided today.' What went wrong and what should the chair have done?",
+        "options": [
+            "The meeting was too long and covered too many topics — next time it should be shorter and more focused.",
+            "The chair did not summarise decisions clearly throughout the meeting and at the end. Whenever a decision was made, it should have been stated explicitly: 'So we have agreed X — is everyone clear on that?' And the last five minutes of any meeting should be a structured close: 'Here are the three decisions we made today and the four action items. Let me confirm each one before we end.' If the client is unsure what was decided, it means the meeting's outputs were not made explicit.",
+            "The client did not pay enough attention during the meeting and missed the key conclusions.",
+            "The meeting agenda was not specific enough — agenda items should be framed as questions to be answered rather than topics to be discussed."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is a 'standing item' in a regular marketing meeting — and why is it useful?",
+        "options": [
+            "An item that everyone stands up to present, which keeps the meeting energy high and prevents long-winded contributions.",
+            "A topic that is always on the agenda — like a performance update or budget review — because it needs regular attention at every meeting. Standing items ensure that critical, recurring information is never skipped in favour of more interesting new topics. They also allow the team to arrive prepared, knowing exactly what will always be discussed.",
+            "An item that was raised in a previous meeting and has not yet been resolved — it stands on the agenda until it is closed.",
+            "A topic that requires a decision from the most senior person in the room — they must stand behind the decision."
+        ],
+        "correctIndex": 1
+    }
+],
+  groupActivities: {
+    "chooseResponse": {
+        "instructions": "Work in groups. Read each situation and choose the best response. Discuss why before clicking.",
+        "items": [
+            {
+                "customerLine": "Midway through a marketing strategy meeting, a participant says: 'Before we move on — I think we should talk about completely redesigning the website. It is not working and we need to fix it.'",
+                "options": [
+                    "Say: 'You are right — that is important. Let us discuss it now while everyone is here.'",
+                    "Say: 'That is an important point and I do not want to lose it. Can I add it to the parking lot? It deserves a proper conversation with the right people and the right time — I will schedule a dedicated session for next week with you, the website team, and Marcus. Today I want to make sure we close the Q4 channel allocation decision before we run out of time. Is that okay?'",
+                    "Say: 'The website is not on today's agenda — please add it as an item for the next meeting.'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It acknowledges the importance of the topic, protects it by adding it to the parking lot, and commits to scheduling dedicated time — all while protecting the current meeting's agenda. A lets a significant off-agenda discussion take over the meeting. C is too blunt and dismisses the contribution without respecting the person who raised it."
+            },
+            {
+                "customerLine": "At the end of a meeting, the most senior client says: 'Right — I think we all know what we need to do. See you next month.'",
+                "options": [
+                    "Say: 'Yes — great meeting. I will be in touch if I have any questions.'",
+                    "Say: 'Before we close — can I take 90 seconds to confirm what we agreed and who is doing what? I want to make sure we all leave with the same understanding. [Summarises three decisions and four action items with owners and deadlines.] Does anyone need to change any of those? Great — I will send the follow-up email with all of this by end of today.'",
+                    "Say: 'I will write up my notes from the meeting and send them over this week for everyone to review.'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. A meeting that ends with 'we all know what we need to do' almost always produces different understandings in different people's heads. Closing with an explicit 90-second summary and confirmation prevents misunderstandings before they happen. A agrees to a vague close that will likely result in follow-up confusion. C commits to sending notes but without first confirming the decisions — the notes may reflect different interpretations."
+            },
+            {
+                "customerLine": "A team member in a marketing meeting keeps going into extensive detail on every point, making the meeting run significantly over time.",
+                "options": [
+                    "Say nothing — it is rude to interrupt and the detail they are sharing is relevant to the topic.",
+                    "Say: '[Name] — this is really useful detail. I am conscious of the time and I want to make sure we get to the decision point at the end of the meeting. Could you send the full breakdown as an appendix to the follow-up email? I want everyone to have access to it, but for now let us make sure the key recommendation lands and we move on. What is the single most important thing you want the group to take from this?'",
+                    "Say: 'We are running over time — can you wrap up in the next two minutes?'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It is respectful, gives the person an exit with their contribution protected (appendix to the follow-up), and refocuses them with a direct question that forces a summary. A lets the meeting run over without intervention — the chair's job is to manage time. C is too abrupt and may cause the person to feel cut off or embarrassed in front of the group."
+            },
+            {
+                "customerLine": "A client says after a monthly marketing review: 'Last month you said we would do X but it has not happened. Why not?'",
+                "options": [
+                    "Say: 'I apologise — things got busy. We will prioritise it this month.'",
+                    "Say: 'That is fair — and I want to be transparent about what happened. Let me check the action items from last month's minutes. [Checks.] The action was assigned to me with a deadline of the 15th. The brief that was needed to complete it did not arrive until the 21st — which is why it moved to this month. I should have flagged that delay to you as soon as it happened rather than waiting for today's review. I will send you the completed version by this Friday and in future I will notify you immediately if an action item is at risk of missing its deadline. Does that work?'",
+                    "Say: 'I do not have a record of that being agreed — can you check your notes from that meeting?'"
+                ],
+                "correctIndex": 1,
+                "explanation": "B is correct. It is honest, specific, and takes appropriate responsibility while also providing context — without being defensive. It references the written record (minutes), explains the specific cause, and commits to a clear fix plus a change in how delays are communicated. A is vague and does not explain what happened. C is defensive and puts the accountability back on the client, which damages the relationship."
+            }
+        ]
+    },
+    "profileMatch": {
+        "instructions": "Read the three meeting problems. Match each to the solution that addresses it most directly. Discuss as a group before clicking 'Check Matches'.",
+        "profiles": [
+            {
+                "name": "Meeting A — TechFlow Monthly Review",
+                "description": "The monthly review runs for 90 minutes. The first 60 minutes are always spent on detailed performance updates — everyone goes through their numbers in detail. By the time the team reaches the decision items, there are only 20 minutes left and decisions are rushed or deferred to the next meeting. Action items are often missed because there is no time to confirm them properly.",
+                "matchKey": "timeboxing"
+            },
+            {
+                "name": "Meeting B — Campaign Kick-off",
+                "description": "Campaign kick-off meetings at MarketBridge always feel energetic and productive. But one week later, team members often have different understandings of what was agreed — who is responsible for what, what the exact deadlines are, and what was decided versus what was still open. There is no written record sent after the meeting.",
+                "matchKey": "followup"
+            },
+            {
+                "name": "Meeting C — Strategy Planning Session",
+                "description": "The quarterly strategy session always goes off-topic. Good ideas are raised but never fully explored — they interrupt the main discussion and then get lost. Important strategic decisions get mixed in with operational details, and by the end the team is unsure what the meeting was actually about.",
+                "matchKey": "agenda"
+            }
+        ],
+        "options": [
+            {
+                "key": "timeboxing",
+                "label": "Timebox each agenda item",
+                "description": "Assign a specific time limit to each agenda item and share it in the agenda sent before the meeting. The performance update gets 20 minutes — not 60. When the timer expires, the chair summarises and moves on. Decision items should always have more time allocated than update items. If the performance update needs more time, it should be sent as a written report for people to read before the meeting — not presented live."
+            },
+            {
+                "key": "followup",
+                "label": "Implement a structured follow-up within 24 hours",
+                "description": "Within 24 hours of every kick-off meeting, send a follow-up email with four sections: decisions made, action items (each with a named owner and a specific deadline), parking lot items, and the date of the next check-in. The final five minutes of every kick-off should be used to read these out and get verbal confirmation from each action item owner before anyone leaves the room."
+            },
+            {
+                "key": "agenda",
+                "label": "Design the agenda with clear objectives and a parking lot",
+                "description": "Before the strategy session, send an agenda that states the objective of each item — not just the topic. Instead of 'Q4 strategy', write 'Q4 strategy — agree on three marketing priorities and approve the budget allocation'. Create a visible parking lot at the start of the meeting for ideas that come up but are off-agenda. At the end, review the parking lot and assign each item to a future meeting or a separate conversation."
+            }
+        ]
+    },
+    "finishTheLine": {
+        "instructions": "The meeting chair has started — finish the line clearly and professionally. Use vocabulary from this lesson.",
+        "items": [
+            {
+                "customerLine": "You are chairing a marketing kick-off meeting. You need to open it and set the agenda clearly.",
+                "salespersonStart": "Good morning everyone — thank you for making the time. Before we start, let me give you a quick overview of how I want to run today.",
+                "suggestedCompletion": "We have 90 minutes and four agenda items. Item two — the channel allocation — is a decision point: we need to leave today with a confirmed budget split and I know Marcus needs it for his board meeting on Friday. That item gets 25 minutes. Items one, three, and four are updates and discussions — if we run short on any of them, we will pick up the detail in the follow-up email or a separate call. I will be keeping us on track and moving us on when we need to. If anyone has an urgent item to add, tell me now and I will add it to the parking lot — we can decide together whether it replaces something on the agenda or gets a separate meeting. Ready? Let us start. Dana — will you take the floor on the Q3 performance review?"
+            },
+            {
+                "customerLine": "A client asks: 'Can you chair our monthly marketing meeting going forward? Our current meetings are unproductive.'",
+                "salespersonStart": "I would be happy to — and if you can share what is not working, I can tell you how I would approach it.",
+                "suggestedCompletion": "The most common reasons monthly marketing meetings are unproductive are: no agenda sent in advance, so people arrive unprepared; updates taking up too much time and decisions getting rushed or deferred; no written follow-up, so action items get forgotten; and off-topic discussions that take the meeting in different directions. Here is how I typically run a monthly review: I send the agenda and any pre-reading 24 hours before. The meeting opens with a standing item — performance update, max 20 minutes, pre-read rather than presented. The main body is decision points only — anything that can be an update goes in the written pre-read. We close with five minutes of action items confirmed out loud. I send the follow-up within 24 hours with decisions, action items, owners, and deadlines. Does that structure address what is not working currently?"
+            },
+            {
+                "customerLine": "At the end of a long meeting, you need to close it effectively with three decisions and four action items.",
+                "salespersonStart": "Before we close — I want to take 90 seconds to make sure we all leave with the same understanding.",
+                "suggestedCompletion": "Three decisions were made today. One: Q4 channel allocation — 80% manufacturing, 20% logistics — approved. Two: LinkedIn budget increased to €10,000 for Q4 — approved. Three: James Harlow influencer partnership — confirmed for two posts and one video in October. Four action items. One: Dana — revised content calendar sent to Marcus and me by Wednesday the 11th. Two: Riley — influencer brief and partnership terms sent to James by Friday the 13th. Three: Marcus — board confirmation of Q4 budget increase by close of play Tuesday. Four: Riley — minutes and follow-up email to all attendees by end of today. Can each action item owner confirm they are clear on their deadline? [Waits for confirmation.] Perfect. I will send the minutes within the hour. Next meeting is 5 November — same time. Thank you everyone."
+            },
+            {
+                "customerLine": "A team member missed the meeting and asks: 'Can you bring me up to speed on what was agreed?'",
+                "salespersonStart": "Of course — I will send you the full minutes and follow-up email, but let me give you the short version now.",
+                "suggestedCompletion": "Three decisions: Q4 channel allocation is now 80% manufacturing and 20% logistics — this was approved based on three months of data showing manufacturing converts at four times the rate. LinkedIn budget is going up to €10,000 for Q4. And the James Harlow influencer partnership is confirmed — two LinkedIn posts and one short video in October, with disclosure as required. Your action items: you have the revised content calendar due to me and Marcus by Wednesday — I need it before I brief James. Everything else is covered by Riley and Marcus. The one thing I want to flag is the website redesign discussion that came up — it is in the parking lot and I am scheduling a separate 30-minute call for next week specifically for that. I will include you on the invite because your input will be relevant. Any questions?"
+            }
+        ]
+    }
+},
+};
