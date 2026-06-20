@@ -6,7 +6,6 @@
   "level": "B1-B2",
   "description": "Getting budget approved is not just a numbers game — it is a communication skill. Finance teams and senior leadership don't just want to see where the money goes; they want to understand why each line item is there, what return it is expected to generate, and what the cost of not spending would be. This lesson teaches you the vocabulary of marketing budget management and the professional language to defend your spend confidently in meetings, reviews, and approval conversations.",
   "heroImage": "/images/marketing-budgets-hero.png",
-
   "vocabulary": [
     {
       "word": "ALLOCATION",
@@ -65,48 +64,63 @@
       "imageSlug": "/images/ring-fence.png"
     }
   ],
-
   "phrasalVerbs": [
     {
       "phrase": "THE BUDGET IS TIED TO SPECIFIC OUTCOMES",
       "definition": "A phrase used to demonstrate that spending is not arbitrary — each line item is connected to a measurable result. 'Tied to' means linked or connected. When budgets are tied to specific outcomes, it is easier to defend them and easier to evaluate whether the investment was worthwhile.",
       "example": "Riley addressed the CFO's concern: Every line in this budget is tied to a specific outcome. The £80,000 for content marketing is tied to organic lead generation — our target is 45 MQLs per quarter from that channel. The £40,000 for events is tied to pipeline generation — we expect at least £200,000 in pipeline from the two events we're sponsoring.",
-      "imageSlug": "/images/the-budget-is-tied-to-specific-outcomes.png"
+      "imageSlug": "/images/the-budget-is-tied-to-specific-outcomes.png",
+      "inAction": "Every line in this budget is tied to a specific outcome — we're not investing in awareness unless we can measure it against pipeline generation.",
+      "register": "Formal — used in budget presentations and financial discussions with senior stakeholders. Signals accountability and outcome-based thinking; shows the marketing team is managing spend like a business.",
+      "inContext": "Riley had spent three days building the budget before the CFO review. The budget is tied to specific outcomes, she said, opening the presentation. I haven't included anything we can't measure against a business result. Every channel has a projected return, and every projection is based on last year's actual performance — not an assumption."
     },
     {
       "phrase": "I CAN JUSTIFY EVERY LINE ITEM",
       "definition": "A phrase used to signal preparedness and confidence in a budget defence. 'Justify' means to provide a rationale that demonstrates the spend is appropriate and expected to generate returns. Used to preempt questions or signal to leadership that the budget has been built with rigour.",
       "example": "Marcus opened the budget review: Before we go line by line, I want to be clear: I can justify every line item in this budget with data. This isn't a budget built on hope or habit — every number has a rationale, a forecast, and a success metric attached. I'm happy to be challenged on any of it.",
-      "imageSlug": "/images/i-can-justify-every-line-item.png"
+      "imageSlug": "/images/i-can-justify-every-line-item.png",
+      "inAction": "This isn't a wish list — I can justify every line item in this budget against a measurable outcome or a named strategic priority.",
+      "register": "Neutral — used in budget defence meetings and stakeholder conversations. Signals confidence and preparation. A strong phrase to open with when you know your proposal will face scrutiny.",
+      "inContext": "The CFO had a reputation for cutting budgets at review. Marcus was prepared. I can justify every line item in this proposal, he said before the CFO had asked a single question. I've mapped each spend item to a specific KPI, and I have last quarter's data to show what happened when we didn't invest in these areas. The CFO sat back and listened."
     },
     {
       "phrase": "WHAT'S THE EXPECTED RETURN ON THIS SPEND?",
       "definition": "The question finance and senior leadership ask most often in budget conversations — and the question every marketer should be able to answer before they enter the room. 'Expected return' means the revenue, pipeline, or strategic value the investment is projected to generate. Always answer with a number and explain the assumption behind it.",
       "example": "The CFO asked the question Riley had prepared for: What's the expected return on this spend? Riley answered: The £120,000 demand generation budget has generated an average of £680,000 in pipeline over the past three quarters — a return of roughly 5.7x. Our forecast for Q4 is consistent with that average, assuming the media mix stays the same.",
-      "imageSlug": "/images/whats-the-expected-return-on-this-spend.png"
+      "imageSlug": "/images/whats-the-expected-return-on-this-spend.png",
+      "inAction": "Before we approve the event sponsorship, what's the expected return on this spend — is it measured in leads, pipeline, or brand awareness?",
+      "register": "Neutral — used by stakeholders, finance directors, and marketing directors to challenge budget proposals. Signals outcome-focused thinking; every spend item should have a ready answer to this question.",
+      "inContext": "Dana had learned to anticipate this question in every budget meeting. What's the expected return on this spend? the finance director asked, pointing to the PR line. That's a fair question, Dana said. PR has a longer attribution cycle than paid media, but in the two campaigns where we ran it last year, we saw a 23% increase in branded search in the following month. I can walk you through the methodology."
     },
     {
       "phrase": "IF WE CUT THIS, HERE'S WHAT WE LOSE",
       "definition": "The phrase for communicating the cost of inaction or the consequences of a budget cut. Used when leadership proposes reducing a budget line — instead of arguing for the spend, you reframe the conversation around what the company loses if the cut is made.",
       "example": "Dana defended the content budget: If we cut this, here's what we lose: 45 organic leads per quarter, or roughly 180 per year. At our average deal value and conversion rate, that's £1.1 million in pipeline that we'll have to replace through paid channels at three times the cost-per-acquisition. The cut saves £80,000 but costs us far more in lost efficiency.",
-      "imageSlug": "/images/if-we-cut-this-heres-what-we-lose.png"
+      "imageSlug": "/images/if-we-cut-this-heres-what-we-lose.png",
+      "inAction": "If we cut the content budget, here's what we lose: organic pipeline, inbound leads, and the SEO rankings we have spent 18 months building.",
+      "register": "Neutral — used in budget defence conversations. Direct and analytical. Reframes a proposed cut as a business risk rather than a financial saving, which shifts the frame of the discussion.",
+      "inContext": "Marcus had prepared for the worst-case scenario before the review. When the CFO suggested cutting the content budget by 50%, Marcus was ready. If we cut this, here's what we lose, he said calmly. He walked through three specific outcomes: the drop in organic pipeline, the increase in paid media costs needed to compensate, and the 12-month lag before organic traffic recovers. The CFO put down her pen."
     },
     {
       "phrase": "WE'RE PROPOSING A REALLOCATION, NOT AN INCREASE",
       "definition": "A phrase used when requesting a budget change that does not require additional total spend — you are moving money from one area to another. This framing removes the friction of asking for more money and instead shows that the team is making smart trade-offs within existing resources.",
       "example": "Riley made the proposal: I know the budget environment is tight and I'm not asking for more. We're proposing a reallocation, not an increase — we want to shift £30,000 from the trade event programme, which has underperformed, to the demand generation content programme, which is our most efficient channel by CPA. Same total budget, better expected return.",
-      "imageSlug": "/images/were-proposing-a-reallocation-not-an-increase.png"
+      "imageSlug": "/images/were-proposing-a-reallocation-not-an-increase.png",
+      "inAction": "We're proposing a reallocation, not an increase — we want to shift 20% from paid social into email nurturing, where the ROI is significantly stronger.",
+      "register": "Formal — used in budget discussions when you need to shift investment without asking for additional funding. Anticipates the stakeholder's first concern and addresses it immediately in the opening statement.",
+      "inContext": "Riley knew that asking for a budget increase in Q3 was unlikely to succeed. We're proposing a reallocation, not an increase, she opened. The total marketing budget stays exactly the same. But the data from the past six months shows that our highest-ROI channel — email nurturing — is currently receiving the smallest allocation. We want to fix that imbalance."
     },
     {
       "phrase": "LET'S LOOK AT THE NUMBERS TOGETHER",
       "definition": "A phrase for inviting leadership or finance teams into a collaborative review of the budget data — rather than presenting defensively. 'Looking at the numbers together' creates a shared analytical experience where questions are answered with data rather than argument. It signals confidence and transparency.",
       "example": "Marcus de-escalated the tension: Instead of going back and forth on assumptions, let's look at the numbers together. I'll walk you through the model — where each number comes from, what assumptions we've made, and where the risk lies. If you see something that doesn't make sense, tell me and we'll fix it. That's a more useful conversation than negotiating in the abstract.",
-      "imageSlug": "/images/lets-look-at-the-numbers-together.png"
+      "imageSlug": "/images/lets-look-at-the-numbers-together.png",
+      "inAction": "I know the budget proposal looks ambitious at first glance — let's look at the numbers together and I'll show you exactly where the ROI projections come from.",
+      "register": "Neutral — collaborative in tone, used to invite stakeholders into the data rather than defending from a distance. Reduces adversarial dynamics in budget reviews and signals transparency and confidence.",
+      "inContext": "The finance director had sent back the budget with a note saying the projections were 'optimistic'. Dana picked up the phone. Let's look at the numbers together, she said. I think there may be a methodology difference between how we're calculating return. Can we get 30 minutes this week? The meeting happened, the numbers were agreed, and the budget was approved."
     }
   ],
-
   "videos": [],
-
   "dialogue": [
     {
       "speaker": "Riley",
@@ -205,18 +219,40 @@
       "text": "That's a sensible trade-off. Let's look at the numbers together one more time and I'll confirm the allocation by end of day."
     }
   ],
-
   "matchingExercise": [
-    { "word": "allocation", "definition": "how a total budget is divided and assigned to different activities, channels, or objectives" },
-    { "word": "ROI", "definition": "Return on Investment — revenue or value generated relative to the money spent" },
-    { "word": "cost-per-acquisition", "definition": "the average amount spent to acquire one new customer — used to compare channel efficiency" },
-    { "word": "forecast", "definition": "a projection of future outcomes based on planned spend and historical performance data" },
-    { "word": "variance", "definition": "the difference between a budgeted or forecasted number and the actual result" },
-    { "word": "headroom", "definition": "the amount of budget remaining available — the difference between allocated and committed spend" },
-    { "word": "cost of inaction", "definition": "the revenue or growth lost by not making a particular investment" },
-    { "word": "ring-fence", "definition": "to set aside a portion of budget for a designated purpose, protecting it from reallocation" }
+    {
+      "word": "allocation",
+      "definition": "how a total budget is divided and assigned to different activities, channels, or objectives"
+    },
+    {
+      "word": "ROI",
+      "definition": "Return on Investment — revenue or value generated relative to the money spent"
+    },
+    {
+      "word": "cost-per-acquisition",
+      "definition": "the average amount spent to acquire one new customer — used to compare channel efficiency"
+    },
+    {
+      "word": "forecast",
+      "definition": "a projection of future outcomes based on planned spend and historical performance data"
+    },
+    {
+      "word": "variance",
+      "definition": "the difference between a budgeted or forecasted number and the actual result"
+    },
+    {
+      "word": "headroom",
+      "definition": "the amount of budget remaining available — the difference between allocated and committed spend"
+    },
+    {
+      "word": "cost of inaction",
+      "definition": "the revenue or growth lost by not making a particular investment"
+    },
+    {
+      "word": "ring-fence",
+      "definition": "to set aside a portion of budget for a designated purpose, protecting it from reallocation"
+    }
   ],
-
   "fillBlankExercise": [
     {
       "before": "Every line in this budget is ",
@@ -249,7 +285,6 @@
       "answer": "together"
     }
   ],
-
   "multipleChoiceExercise": [
     {
       "question": "What ROI does Riley cite for last quarter's demand generation budget?",
@@ -288,7 +323,6 @@
       "correctIndex": 2
     }
   ],
-
   "warmUp": {
     "questions": [
       "Have you ever had to ask for budget approval at work — for a campaign, an event, a tool, or a hire? What was the hardest part of the conversation? What worked, and what didn't?",
@@ -296,49 +330,71 @@
       "If you had to explain to a non-marketer why content marketing is worth investing in, what would you say? How would you put a number on its value?"
     ]
   },
-
   "completeSentenceExercise": {
     "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
     "items": [
       {
         "sentence": "Every item in a well-built budget _____ tied to a specific, measurable outcome.",
-        "options": ["should be", "should", "is should"],
+        "options": [
+          "should be",
+          "should",
+          "is should"
+        ],
         "correctIndex": 0,
         "explanation": "'Should be' is correct — 'should' is a modal verb and must be followed by the base form of 'be' (not 'should is' or 'should are'). 'Should be tied to' means 'it is recommended / expected that every item is tied'. 'Should' alone cannot end the predicate here — it needs a following verb. 'Is should' is ungrammatical — a modal verb cannot follow a present tense auxiliary in this way. Structure: subject + should + base verb: 'should be', 'should include', 'should reflect'."
       },
       {
         "sentence": "A cost-per-acquisition of £190 is significantly _____ than the paid media CPA of £3,200.",
-        "options": ["lower", "lowest", "low"],
+        "options": [
+          "lower",
+          "lowest",
+          "low"
+        ],
         "correctIndex": 0,
         "explanation": "'Lower' is the comparative adjective — used to compare two things. 'Significantly lower than' compares the content CPA (£190) with the paid media CPA (£3,200). 'Lowest' is the superlative — used when comparing three or more items to identify the one at the extreme: 'our lowest CPA channel'. 'Low' is the base adjective — used without comparison ('the CPA is low'). When comparing two specific values, always use the comparative form (-er or 'more + adjective'): lower, higher, more efficient, more expensive."
       },
       {
         "sentence": "If we _____ the content budget, we lose approximately 9 organic MQLs per quarter.",
-        "options": ["cut", "will cut", "cutting"],
+        "options": [
+          "cut",
+          "will cut",
+          "cutting"
+        ],
         "correctIndex": 0,
         "explanation": "In a first conditional (real, likely scenario), the if-clause uses present simple and the main clause uses 'will'. 'If we cut' (present simple in the if-clause) is correct. 'If we will cut' is the most common error — 'will' is not used in the if-clause of a first conditional in standard English. 'If we cutting' is ungrammatical — the if-clause needs a subject + main verb, not a participle. The structure: If + present simple, will + base verb."
       },
       {
         "sentence": "The variance _____ driven by a platform algorithm change that affected performance in October.",
-        "options": ["was", "were", "is"],
+        "options": [
+          "was",
+          "were",
+          "is"
+        ],
         "correctIndex": 0,
         "explanation": "'Was' is correct — 'the variance' is singular and the sentence describes a completed past event. 'The variance was driven by' is past simple passive: the variance (subject) was (auxiliary) driven by (past participle) the algorithm change (agent). 'Were' is the plural past form: 'the results were driven by...' 'Is' (present simple) would be used to describe a current or ongoing situation, not a past event. When reporting what happened in a previous period, use simple past ('was', 'were')."
       },
       {
         "sentence": "We should ring-fence the product launch budget _____ it competes with other priorities during a difficult quarter.",
-        "options": ["so that it doesn't", "so it won't", "in case"],
+        "options": [
+          "so that it doesn't",
+          "so it won't",
+          "in case"
+        ],
         "correctIndex": 2,
         "explanation": "'In case' is the correct conjunction here — 'ring-fence it in case it competes' means 'as a precaution against the possibility that it might compete'. 'In case' introduces a precautionary action. 'So that it doesn't' would mean the ring-fencing is the direct prevention ('we ring-fence it so that it doesn't compete') — which is also grammatically possible, but changes the logical flow: 'so that' describes the intended result, while 'in case' describes the precaution. 'So it won't' is similar to 'so that' — it works but is less formal. In professional budget language, 'in case X happens' is the natural phrasing for precautionary financial decisions."
       },
       {
         "sentence": "The cost of _____ investing in content now is £272,000 in missed pipeline over the next year.",
-        "options": ["not", "no", "never"],
+        "options": [
+          "not",
+          "no",
+          "never"
+        ],
         "correctIndex": 0,
         "explanation": "'Not' is correct — 'the cost of not investing' is the standard phrase for expressing the cost of inaction. 'Not + gerund' (not investing, not acting, not spending) is the grammatical form for negating a verbal noun in a prepositional phrase: 'the risk of not deciding', 'the benefit of not waiting'. 'No' is used as a determiner before a noun ('no investment', 'no plan') or as a standalone negative ('no'). 'Never' is an adverb of frequency ('we never invest in this') — it cannot be placed before a gerund in this structure."
       }
     ]
   },
-
   "groupActivities": {
     "chooseResponse": {
       "instructions": "Read what the finance director or senior leader says. Choose the best professional response.",

@@ -6,7 +6,6 @@
   "level": "B1-B2",
   "description": "Strategy without language is just a diagram on a whiteboard. This lesson teaches you the vocabulary and phrases you need to discuss strategic frameworks in meetings, presentations and written briefs — so you can explain what the BCG matrix tells you about your portfolio, argue for a blue ocean move, and position your brand on a map with confidence. The focus is practical: reading a Harvard Business Review-style excerpt, discussing what it means for your market, and writing a clear strategic recommendation.",
   "heroImage": "/images/marketing-strategy-deep-dive-hero.png",
-
   "vocabulary": [
     {
       "word": "BCG MATRIX",
@@ -65,48 +64,63 @@
       "imageSlug": "/images/market-penetration.png"
     }
   ],
-
   "phrasalVerbs": [
     {
       "phrase": "BASED ON THE FRAMEWORK, OUR RECOMMENDATION IS...",
       "definition": "The standard opener for presenting a strategic recommendation grounded in a model or analysis. Using 'based on the framework' signals that your view is structured and evidence-based, not just an opinion. Always name the framework before giving the recommendation.",
       "example": "Riley opened her presentation: Based on the BCG matrix framework, our recommendation is to increase investment in the analytics product — it's in high-growth territory and we have the product to compete. Meanwhile, we should harvest the legacy tool rather than continuing to develop it.",
-      "imageSlug": "/images/based-on-the-framework-our-recommendation-is.png"
+      "imageSlug": "/images/based-on-the-framework-our-recommendation-is.png",
+      "inAction": "Based on the Ansoff framework, our recommendation is to focus on market penetration before attempting any diversification.",
+      "register": "Formal — used in presentations, strategy briefs, and stakeholder meetings. Signals a structured, evidence-based recommendation rather than a personal opinion.",
+      "inContext": "Riley opened the board presentation with confidence. Based on the framework, our recommendation is to invest in the SME segment, she said. The BCG matrix and the Ansoff analysis point in the same direction — this is where we have the strongest competitive advantage."
     },
     {
       "phrase": "THE DATA SUGGESTS WE SHOULD...",
       "definition": "A phrase for presenting evidence-led strategy recommendations. 'Suggests' is softer than 'proves' or 'shows' — it is the right word when data points in a direction but does not make the decision for you. Professionals use 'the data suggests' to combine rigour with humility.",
       "example": "Marcus presented the market analysis: The data suggests we should prioritise the SME segment over enterprise for the next 12 months. Acquisition cost is lower, sales cycles are shorter, and our NPS in that segment is significantly higher. That's three separate data points pointing the same way.",
-      "imageSlug": "/images/the-data-suggests-we-should.png"
+      "imageSlug": "/images/the-data-suggests-we-should.png",
+      "inAction": "The data suggests we should reallocate 30% of the paid media budget to content marketing — the ROI is significantly higher.",
+      "register": "Neutral / Business English — 'suggests' is softer than 'proves' and is the professional choice when data points in a direction without being definitive. Appropriate in meetings, reports, and presentations.",
+      "inContext": "Marcus pulled up the analysis and walked the room through the numbers. The data suggests we should prioritise the enterprise segment this quarter, he said. Three separate metrics — pipeline velocity, deal size, and NPS — all point the same way. That's not a coincidence."
     },
     {
       "phrase": "THERE'S A CLEAR GAP IN THE MARKET FOR...",
       "definition": "The phrase used to identify white space — an unmet need or underserved customer segment. Used in positioning discussions and pitch decks. Always follow with specific evidence: who is not being served, and why you are uniquely placed to serve them.",
       "example": "Dana made her case: There's a clear gap in the market for a content agency that specialises in regulated industries — financial services, healthcare, legal. Most agencies avoid these sectors because of compliance complexity. That's exactly why it's an opportunity for us.",
-      "imageSlug": "/images/theres-a-clear-gap-in-the-market-for.png"
+      "imageSlug": "/images/theres-a-clear-gap-in-the-market-for.png",
+      "inAction": "There's a clear gap in the market for a platform that combines compliance management with marketing automation in a single tool.",
+      "register": "Neutral — used in pitches, strategy meetings, and competitive analysis presentations. Always follow with specific evidence to be credible; without evidence it sounds like wishful thinking.",
+      "inContext": "Dana had spent two weeks mapping the competitive landscape before the pitch. There's a clear gap in the market for a tool that serves regulated SMEs, she told the client. None of the current platforms do this well at scale — and that's exactly where your product fits."
     },
     {
       "phrase": "IF WE POSITION OURSELVES AS..., WE CAN OWN...",
       "definition": "The language of brand positioning — stating what you want to be known for and what market territory that would give you. Used in strategy meetings when defining or refreshing a brand's position. The phrase commits to a specific angle and shows the commercial outcome.",
       "example": "Riley outlined the strategy: If we position ourselves as the go-to agency for data-driven B2B content, we can own the space between management consultants and traditional content agencies. That's a valuable position and right now, nobody is clearly occupying it.",
-      "imageSlug": "/images/if-we-position-ourselves-as-we-can-own.png"
+      "imageSlug": "/images/if-we-position-ourselves-as-we-can-own.png",
+      "inAction": "If we position ourselves as the go-to agency for B2B SaaS content, we can own that niche before any competitor notices the opportunity.",
+      "register": "Formal / Strategic — used in brand strategy sessions and positioning workshops. Implies a deliberate, committed choice about market territory and what space the brand will claim.",
+      "inContext": "The strategy meeting had been going for two hours when Riley made her point. If we position ourselves as the platform for regulated industries, we can own that space, she said. Right now, nobody is clearly occupying it — and the window won't be open forever."
     },
     {
       "phrase": "THE RISK OF THIS APPROACH IS...",
       "definition": "A phrase for balancing a recommendation with honest risk analysis. Good strategists do not only present the opportunity — they also name what could go wrong. Using this phrase shows commercial maturity and builds credibility with stakeholders.",
       "example": "Marcus was direct: The risk of this approach is that we are entering a market where the three largest players have been operating for over a decade. We would be competing on their terms, not ours. That's not impossible, but we need to be honest about the time and investment required.",
-      "imageSlug": "/images/the-risk-of-this-approach-is.png"
+      "imageSlug": "/images/the-risk-of-this-approach-is.png",
+      "inAction": "The risk of this approach is that we commit resources to a niche before we have validated whether the total addressable market is large enough.",
+      "register": "Formal — used in risk analysis sections of strategy documents and in stakeholder Q&A. Shows commercial maturity; good strategists name risks without being asked.",
+      "inContext": "Marcus respected good strategy, but he never let enthusiasm skip past the downside. The risk of this approach is that we enter a market where the three largest players have been operating for a decade, he said. We need to be honest about the time and investment required to compete on their terms."
     },
     {
       "phrase": "THIS PLAYS TO OUR STRENGTHS IN...",
       "definition": "Used to show that a proposed strategy aligns with existing capabilities. 'Plays to our strengths' is a common idiom in strategy presentations — it means the move builds on what you already do well rather than forcing you into unfamiliar territory.",
       "example": "Dana made the case: Moving into the sustainability marketing space plays to our strengths in long-form content and stakeholder communications — those are exactly the skills ESG-focused clients need. We are not starting from zero; we are applying what we already do well to a new audience.",
-      "imageSlug": "/images/this-plays-to-our-strengths-in.png"
+      "imageSlug": "/images/this-plays-to-our-strengths-in.png",
+      "inAction": "This move plays to our strengths in data-led content — it's exactly what ESG-focused clients need and what we already do well.",
+      "register": "Neutral / Business English — a common strategy idiom meaning the plan builds on existing capabilities rather than requiring the team to develop entirely new skills. Used in meetings and written briefs.",
+      "inContext": "When the room seemed uncertain about the new direction, Dana made the case. This plays to our strengths in long-form content and stakeholder communications, she said. We're not starting from zero — we're applying what we already do well to an audience that genuinely values it."
     }
   ],
-
   "videos": [],
-
   "dialogue": [
     {
       "speaker": "Riley",
@@ -205,18 +219,40 @@
       "text": "Perfect. That's exactly what the board needs to see — a framework-led view with a clear recommendation and an honest risk assessment."
     }
   ],
-
   "matchingExercise": [
-    { "word": "BCG matrix", "definition": "a framework that plots products by market share and market growth to guide investment decisions" },
-    { "word": "Ansoff matrix", "definition": "a growth framework with four strategies: penetration, market development, product development, and diversification" },
-    { "word": "blue ocean", "definition": "a market space with little or no competition, created by making existing competitors irrelevant" },
-    { "word": "value proposition", "definition": "a clear statement of the benefit you offer, who it is for, and why you are better than the alternative" },
-    { "word": "positioning map", "definition": "a visual tool that plots brands on two axes to show where each sits relative to competitors" },
-    { "word": "competitive advantage", "definition": "something a company does better than competitors that is hard to copy and creates lasting value" },
-    { "word": "strategic fit", "definition": "how well a proposed strategy aligns with the company's existing strengths, resources, and goals" },
-    { "word": "market penetration", "definition": "the percentage of a target market using your product — also the Ansoff strategy of growing within an existing market" }
+    {
+      "word": "BCG matrix",
+      "definition": "a framework that plots products by market share and market growth to guide investment decisions"
+    },
+    {
+      "word": "Ansoff matrix",
+      "definition": "a growth framework with four strategies: penetration, market development, product development, and diversification"
+    },
+    {
+      "word": "blue ocean",
+      "definition": "a market space with little or no competition, created by making existing competitors irrelevant"
+    },
+    {
+      "word": "value proposition",
+      "definition": "a clear statement of the benefit you offer, who it is for, and why you are better than the alternative"
+    },
+    {
+      "word": "positioning map",
+      "definition": "a visual tool that plots brands on two axes to show where each sits relative to competitors"
+    },
+    {
+      "word": "competitive advantage",
+      "definition": "something a company does better than competitors that is hard to copy and creates lasting value"
+    },
+    {
+      "word": "strategic fit",
+      "definition": "how well a proposed strategy aligns with the company's existing strengths, resources, and goals"
+    },
+    {
+      "word": "market penetration",
+      "definition": "the percentage of a target market using your product — also the Ansoff strategy of growing within an existing market"
+    }
   ],
-
   "fillBlankExercise": [
     {
       "before": "Based on the framework, our ",
@@ -249,7 +285,6 @@
       "answer": "approach"
     }
   ],
-
   "multipleChoiceExercise": [
     {
       "question": "According to Riley's BCG analysis, what category is the enterprise platform in?",
@@ -288,7 +323,6 @@
       "correctIndex": 1
     }
   ],
-
   "warmUp": {
     "questions": [
       "Have you ever had to explain a business strategy to a colleague or manager? What framework or structure did you use — or did you have to figure it out as you went?",
@@ -296,49 +330,71 @@
       "When you hear the phrase 'blue ocean', what comes to mind? Can you think of a company that created a new market space instead of competing in an existing one?"
     ]
   },
-
   "completeSentenceExercise": {
     "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
     "items": [
       {
         "sentence": "The data _____ we should focus on the SME segment — acquisition cost is significantly lower.",
-        "options": ["suggest", "suggests", "suggested"],
+        "options": [
+          "suggest",
+          "suggests",
+          "suggested"
+        ],
         "correctIndex": 1,
         "explanation": "'Suggests' is correct because the subject 'the data' is treated as a singular noun in formal business English — even though 'data' is technically plural in Latin. In modern business writing, 'the data shows', 'the data suggests', 'the data tells us' are all standard. 'Suggest' (plural verb) is used when you write 'the data points suggest' or 'these findings suggest'. With 'the data' as a single unit, use the singular."
       },
       {
         "sentence": "If we _____ ourselves as the platform for regulated SMEs, we can own that space.",
-        "options": ["positioned", "position", "positioning"],
+        "options": [
+          "positioned",
+          "position",
+          "positioning"
+        ],
         "correctIndex": 1,
         "explanation": "After 'if' in a real conditional (something that could genuinely happen), use present simple — not past tense and not '-ing'. 'If we position' describes a real strategic option. 'If we positioned' is a hypothetical or unlikely scenario (second conditional). 'If we positioning' is never correct — 'if' must be followed by a subject and verb, not a participle. Present simple after 'if' = the condition is real and possible."
       },
       {
         "sentence": "This plays _____ our strengths in compliance-aware product design.",
-        "options": ["to", "at", "for"],
+        "options": [
+          "to",
+          "at",
+          "for"
+        ],
         "correctIndex": 0,
         "explanation": "'Play to' is the fixed phrasal verb — it means to make use of or benefit from a strength. 'Plays to our strengths' is a standard business idiom. 'Play at' means to do something casually or not seriously ('she's just playing at being a manager'). 'Play for' relates to time ('play for time') or stakes ('play for high stakes'). When discussing strategy and competitive advantages, always use 'plays to our strengths'."
       },
       {
         "sentence": "The BCG matrix helps us _____ where to invest, grow, or cut.",
-        "options": ["decide", "deciding", "decided"],
+        "options": [
+          "decide",
+          "deciding",
+          "decided"
+        ],
         "correctIndex": 0,
         "explanation": "After 'help', English uses the base form of the verb — without 'to' in informal and business English. 'Helps us decide' is the standard pattern. 'Helps us deciding' is incorrect — '-ing' cannot follow 'help + object'. 'Helps us decided' is not grammatically possible. Note: 'helps us to decide' (with 'to') is also correct, but 'helps us decide' is more natural in spoken and professional English."
       },
       {
         "sentence": "There's a clear gap in the market _____ a platform that serves regulated SMEs.",
-        "options": ["to", "for", "of"],
+        "options": [
+          "to",
+          "for",
+          "of"
+        ],
         "correctIndex": 1,
         "explanation": "'For' is the correct preposition in 'a gap in the market for X'. The structure means: a space or opportunity that X could fill. 'A gap for a platform' = a space that a platform could occupy. 'A gap to a platform' and 'a gap of a platform' are both incorrect — they don't form a meaningful phrase. 'For' is the standard preposition with 'gap' when identifying an unmet market need."
       },
       {
         "sentence": "We need _____ a framework-led recommendation before the board meeting on Thursday.",
-        "options": ["prepare", "to prepare", "preparing"],
+        "options": [
+          "prepare",
+          "to prepare",
+          "preparing"
+        ],
         "correctIndex": 1,
         "explanation": "After 'need', use 'to + base verb' — the full infinitive. 'We need to prepare' is correct. 'We need prepare' is wrong because 'need' as a main verb must be followed by the infinitive with 'to'. 'We need preparing' is also wrong — 'need + -ing' has a completely different meaning: 'the report needs preparing' means 'the report needs to be prepared' (passive meaning). When the subject is a person doing an action, always use 'need to + base verb'."
       }
     ]
   },
-
   "groupActivities": {
     "chooseResponse": {
       "instructions": "Read what the client or colleague says. Choose the best professional response.",

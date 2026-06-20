@@ -6,7 +6,6 @@
   "level": "B1-B2",
   "description": "Brands are talked about constantly — in reviews, social posts, news articles, forums, and comment sections — whether companies are listening or not. Social listening is the practice of monitoring these conversations in real time, understanding what they mean, and using them to make better marketing and communications decisions. This lesson teaches you the vocabulary of brand monitoring and online reputation management: sentiment analysis, share of voice, brand health, and alert systems. The core skill is writing a reputation management plan that your team can actually act on.",
   "heroImage": "/images/social-listening-and-reputation-hero.png",
-
   "vocabulary": [
     {
       "word": "SENTIMENT ANALYSIS",
@@ -65,48 +64,63 @@
       "imageSlug": "/images/narrative.png"
     }
   ],
-
   "phrasalVerbs": [
     {
       "phrase": "THE DATA SHOWS A SPIKE IN NEGATIVE MENTIONS",
       "definition": "A standard phrase used in brand monitoring reports to flag a sudden increase in negative sentiment or volume. A 'spike' is a sharp, sudden rise in a metric. 'Negative mentions' are posts, articles, or comments that express criticism, frustration, or concern about the brand. Spikes require investigation — what caused them, how big is the reach, and is a response needed?",
       "example": "Riley flagged the issue in the weekly report: The data shows a spike in negative mentions starting on Tuesday evening — volume jumped from 12 per hour to 140 per hour within two hours. The source is a single thread on Reddit that got heavily shared. The topic is customer support wait times. This has reached 85,000 impressions. We need to decide whether to respond publicly or address it through direct customer contact.",
-      "imageSlug": "/images/the-data-shows-a-spike-in-negative-mentions.png"
+      "imageSlug": "/images/the-data-shows-a-spike-in-negative-mentions.png",
+      "inAction": "The data shows a spike in negative mentions starting Tuesday morning — we need to identify the trigger before we respond publicly.",
+      "register": "Neutral / Technical — used in social listening reports and reputation management meetings. Direct and analytical; signals urgency without creating panic.",
+      "inContext": "Riley had been monitoring the dashboard when she called the meeting. The data shows a spike in negative mentions starting around 9am yesterday, she said. Most of them are linking to a customer review that went viral within our user community. Before we respond publicly, we need to understand the full picture — is this an isolated complaint or a pattern we've been missing?"
     },
     {
       "phrase": "OUR SHARE OF VOICE IS GROWING / DECLINING",
       "definition": "A phrase used in competitive monitoring reports to describe movement in the brand's proportion of the overall category conversation. 'Growing' means the brand is becoming more present in the conversation relative to competitors; 'declining' means competitors are gaining more conversational presence. Share of voice is a leading indicator of market position change.",
       "example": "Dana reported on competitive standing: Our share of voice in the compliance software conversation has grown from 18% to 23% over the past quarter. That growth correlates directly with the increase in content output — we published 24 long-form pieces versus 8 in the previous quarter. Competitor B's share has declined by 5 points in the same period. We're gaining ground.",
-      "imageSlug": "/images/our-share-of-voice-is-growing-declining.png"
+      "imageSlug": "/images/our-share-of-voice-is-growing-declining.png",
+      "inAction": "Our share of voice in the compliance software category is growing — we are now at 28% of category mentions, up from 17% six months ago.",
+      "register": "Neutral / Business English — used in competitive reporting and brand health reviews. 'Share of voice' is a standard marketing metric measuring what proportion of total category conversation a brand occupies.",
+      "inContext": "Marcus presented the competitive analysis at the quarterly review. Our share of voice is growing in the category — but so is our main competitor's, he said. We've gone from 17% to 28% over six months, which sounds strong. But they've moved from 12% to 31% in the same period. We're winning on absolute terms but losing on the relative measure that matters most."
     },
     {
       "phrase": "WE NEED TO GET AHEAD OF THIS STORY",
       "definition": "A crisis communications phrase meaning that the brand must proactively communicate before a negative story or situation spreads beyond control. 'Getting ahead' of a story means issuing a statement, reaching out to media, or responding publicly before the narrative is shaped by others. Reactive crisis management is always harder than proactive communication.",
       "example": "Marcus made the call: This is going to be a bigger story than we thought — there are already three journalists on social media asking questions about the outage. We need to get ahead of this story before it becomes a news item. I want a statement drafted in the next 30 minutes: what happened, what we've done to fix it, and what we're doing to prevent it in future. Honest, specific, and human.",
-      "imageSlug": "/images/we-need-to-get-ahead-of-this-story.png"
+      "imageSlug": "/images/we-need-to-get-ahead-of-this-story.png",
+      "inAction": "Before this complaint reaches the trade press, we need to get ahead of this story with a proactive statement and direct outreach to the affected customers.",
+      "register": "Informal / Professional — used in crisis communications and PR strategy discussions. 'Get ahead of the story' is a PR idiom meaning to control the narrative before others define it for you.",
+      "inContext": "Dana had seen this situation before. We need to get ahead of this story, she said in the emergency meeting. Right now it's contained to social media, but we've seen it reach trade press within 48 hours when brands stay silent. If we respond now — honestly and specifically — we shape how this is reported. If we wait, we lose control of the narrative entirely."
     },
     {
       "phrase": "THE ALERT WAS TRIGGERED BY...",
       "definition": "A phrase used when explaining the cause of an automated notification from a social listening platform. Used in incident reports and team briefings when walking through what happened and when. Always follow with: what was the source, what was the volume or reach, and what was the sentiment.",
       "example": "Dana briefed the team: The amber alert was triggered by a 34% increase in negative mentions between 6 and 8pm on Wednesday. The source was a Twitter thread from a verified account with 180,000 followers. They shared a screenshot of a customer service response that was perceived as dismissive. By the time the alert fired, the post had already reached 55,000 impressions.",
-      "imageSlug": "/images/the-alert-was-triggered-by.png"
+      "imageSlug": "/images/the-alert-was-triggered-by.png",
+      "inAction": "The alert was triggered by a 300% spike in brand mentions combined with the word 'breach' — the monitoring tool flagged it automatically within minutes.",
+      "register": "Technical / Professional — used in social listening reports and monitoring discussions. Signals automated detection and describes the specific condition or threshold that caused the alert to fire.",
+      "inContext": "Riley was in a client meeting when her phone buzzed with a notification. The alert was triggered by an unusual spike in negative sentiment around a product feature, she said after glancing at it. It looks like a known bug was mentioned in a popular forum. Let me pull up the monitoring dashboard so we can see the full spread of the conversation before we decide how to respond."
     },
     {
       "phrase": "THE BRAND HEALTH SCORE IS TRENDING...",
       "definition": "A phrase used in dashboard reporting to describe the direction of movement in brand health metrics — upward (positive trend) or downward (negative trend). 'Trending' means moving consistently in a direction over time, as opposed to a one-off spike. Brand health trends are more meaningful than individual data points.",
       "example": "Riley presented the quarterly review: I want to flag that the brand health score is trending down for the third consecutive month — not dramatically, but consistently. Awareness is flat, trust is declining slowly, and advocacy has dropped. That pattern tells us something structural is happening, not just a one-off incident. I've highlighted three potential causes in the report and I'm recommending we prioritise trust-building activities in Q1.",
-      "imageSlug": "/images/the-brand-health-score-is-trending.png"
+      "imageSlug": "/images/the-brand-health-score-is-trending.png",
+      "inAction": "The brand health score is trending upward this quarter — positive sentiment is at 74%, the highest level we have recorded since the product launched.",
+      "register": "Neutral — used in brand health reporting and reputation management reviews. 'Trending' implies direction over time; always follow with the specific direction, the metric, and the evidence behind the trend.",
+      "inContext": "Marcus opened the brand review with the good news first. The brand health score is trending in the right direction — for the third consecutive month, he said. Net sentiment is up 12 points, positive mentions have increased by 34%, and our association with 'trusted' and 'reliable' are both at record highs. The investment in thought leadership content is showing up clearly in the data."
     },
     {
       "phrase": "THE REPUTATION MANAGEMENT PLAN COVERS...",
       "definition": "The phrase for introducing the scope of a reputation management document — what situations it covers, who is responsible, what response timelines apply, and what the escalation process looks like. Used in presentations to leadership or in team briefings when rolling out a new plan.",
       "example": "Dana presented the plan: The reputation management plan covers four scenarios — a viral negative post, a media inquiry on a sensitive topic, a product or service failure, and a data or security incident. For each scenario, the plan defines who is the lead spokesperson, what the response timeline is, who approves the statement before it goes out, and which channels we respond on. Nobody should need to improvise in a crisis.",
-      "imageSlug": "/images/the-reputation-management-plan-covers.png"
+      "imageSlug": "/images/the-reputation-management-plan-covers.png",
+      "inAction": "The reputation management plan covers the first 24 hours of a crisis — who responds, on which channels, and with what level of internal approval required.",
+      "register": "Formal — used in crisis preparedness planning and agency briefs. Signals that a structured response protocol exists and is ready to be activated without delay when a crisis occurs.",
+      "inContext": "Dana presented the revised crisis communications framework to the board. The reputation management plan covers three scenarios: a data breach, a product failure, and a negative media story, she explained. For each one, there is a decision tree, pre-approved response templates, and designated spokespeople. The goal is that when something happens at 11pm on a Friday, the team knows exactly what to do without waiting for senior approval."
     }
   ],
-
   "videos": [],
-
   "dialogue": [
     {
       "speaker": "Riley",
@@ -199,18 +213,40 @@
       "text": "Agreed. We're running a [[crisis communications:the structured approach to managing public communications during a reputational event]] simulation next week — I want every member of the team to practise the response process before the next real incident. The time to prepare is not during the crisis."
     }
   ],
-
   "matchingExercise": [
-    { "word": "sentiment analysis", "definition": "the automated process of classifying online mentions as positive, negative, or neutral" },
-    { "word": "share of voice", "definition": "the percentage of total online conversations in a category that mention your brand — compared to competitors" },
-    { "word": "brand health", "definition": "a composite measure of brand perception — combining awareness, sentiment, trust, and advocacy" },
-    { "word": "monitor", "definition": "to continuously observe and track brand mentions and online conversations in real time" },
-    { "word": "alert", "definition": "an automated notification triggered when a specified condition is met in a social listening tool" },
-    { "word": "crisis communications", "definition": "the structured approach to managing public communications during a reputational event" },
-    { "word": "earned media", "definition": "coverage or mentions generated by others — journalists, customers, or influencers — not paid for by the brand" },
-    { "word": "narrative", "definition": "the story or interpretation of events that takes hold in public conversation about a brand" }
+    {
+      "word": "sentiment analysis",
+      "definition": "the automated process of classifying online mentions as positive, negative, or neutral"
+    },
+    {
+      "word": "share of voice",
+      "definition": "the percentage of total online conversations in a category that mention your brand — compared to competitors"
+    },
+    {
+      "word": "brand health",
+      "definition": "a composite measure of brand perception — combining awareness, sentiment, trust, and advocacy"
+    },
+    {
+      "word": "monitor",
+      "definition": "to continuously observe and track brand mentions and online conversations in real time"
+    },
+    {
+      "word": "alert",
+      "definition": "an automated notification triggered when a specified condition is met in a social listening tool"
+    },
+    {
+      "word": "crisis communications",
+      "definition": "the structured approach to managing public communications during a reputational event"
+    },
+    {
+      "word": "earned media",
+      "definition": "coverage or mentions generated by others — journalists, customers, or influencers — not paid for by the brand"
+    },
+    {
+      "word": "narrative",
+      "definition": "the story or interpretation of events that takes hold in public conversation about a brand"
+    }
   ],
-
   "fillBlankExercise": [
     {
       "before": "The data shows a ",
@@ -243,7 +279,6 @@
       "answer": "covers"
     }
   ],
-
   "multipleChoiceExercise": [
     {
       "question": "What has happened to MarketBridge's share of voice and brand health score in the same period?",
@@ -282,7 +317,6 @@
       "correctIndex": 2
     }
   ],
-
   "warmUp": {
     "questions": [
       "Have you ever seen a brand handle a public complaint or crisis badly on social media? What did they do wrong — and what did it do to your perception of the brand?",
@@ -290,49 +324,71 @@
       "If your company suddenly got a lot of attention online — positive or negative — who in your organisation should respond, and how quickly? Is there currently a plan for that?"
     ]
   },
-
   "completeSentenceExercise": {
     "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
     "items": [
       {
         "sentence": "Sentiment analysis tools _____ each mention as positive, negative, or neutral using natural language processing.",
-        "options": ["classify", "classifies", "are classifying"],
+        "options": [
+          "classify",
+          "classifies",
+          "are classifying"
+        ],
         "correctIndex": 0,
         "explanation": "'Classify' is correct — the subject 'sentiment analysis tools' is plural, so the present simple verb takes the base form without -s. 'Classifies' (with -s) would be used with a singular subject: 'the tool classifies', 'the software classifies'. 'Are classifying' is present continuous — used for something happening right now or temporarily, not for describing what these tools generally do. When stating what technology or processes generally do, use present simple: 'tools classify', 'algorithms detect', 'platforms monitor'."
       },
       {
         "sentence": "By the time the alert fired, the post _____ already reached 55,000 impressions.",
-        "options": ["had", "has", "was"],
+        "options": [
+          "had",
+          "has",
+          "was"
+        ],
         "correctIndex": 0,
         "explanation": "'Had' is correct — this sentence uses the past perfect ('had reached') to describe an action completed before another past event. 'By the time the alert fired [past simple], the post had already reached [past perfect]' — the post reaching 55,000 impressions happened before the alert was triggered. The past perfect marks the earlier of two past events. 'Has reached' is present perfect — used for past actions connected to now, not for past events before another past event. 'Was reached' is passive past — different meaning."
       },
       {
         "sentence": "The reputation management plan needs _____ before the next crisis happens — not during it.",
-        "options": ["to be finalised", "finalising", "finalised"],
+        "options": [
+          "to be finalised",
+          "finalising",
+          "finalised"
+        ],
         "correctIndex": 0,
         "explanation": "'To be finalised' is the correct passive infinitive — 'needs to be finalised' means 'requires someone to finalise it'. When a thing (the plan) needs to receive an action (being finalised by someone), use 'need + to be + past participle'. Compare: 'the plan needs to be finalised' (passive — someone must finalise it) vs. 'we need to finalise the plan' (active — we are the ones doing it). 'Needs finalising' is also grammatically correct in British English (the -ing form after 'need' can express passive meaning) but 'needs to be finalised' is clearer and more formal."
       },
       {
         "sentence": "A slow or dishonest response _____ makes reputational crises significantly worse.",
-        "options": ["consistently", "consistent", "consistency"],
+        "options": [
+          "consistently",
+          "consistent",
+          "consistency"
+        ],
         "correctIndex": 0,
         "explanation": "'Consistently' is the adverb — it modifies the verb 'makes' to describe how this outcome happens (reliably, in a regular pattern). 'Consistently makes worse' = reliably and repeatedly makes the situation worse. 'Consistent' is an adjective — it modifies nouns: 'a consistent pattern', 'a consistent message'. 'Consistency' is a noun — it names the quality: 'consistency in messaging'. When modifying a verb or describing how an action happens, always use the adverb form ending in '-ly'."
       },
       {
         "sentence": "Share of voice _____ with brand awareness — as one grows, the other tends to follow.",
-        "options": ["correlates", "is correlated", "correlating"],
+        "options": [
+          "correlates",
+          "is correlated",
+          "correlating"
+        ],
         "correctIndex": 0,
         "explanation": "'Correlates' is correct — this sentence states a general truth or principle about the relationship between two metrics. Present simple is used for facts, scientific or analytical relationships, and general truths: 'share of voice correlates with awareness', 'higher spend leads to more reach', 'sentiment affects trust'. 'Is correlated' (passive) is grammatically possible but less natural when expressing a general relationship without specifying an agent. 'Correlating' is a present participle and cannot be the main verb without an auxiliary."
       },
       {
         "sentence": "Earned media is generally _____ credible than paid advertising because it is not purchased.",
-        "options": ["more", "most", "very"],
+        "options": [
+          "more",
+          "most",
+          "very"
+        ],
         "correctIndex": 0,
         "explanation": "'More' is correct — the sentence makes a comparison between two things (earned media and paid advertising), so a comparative adjective is needed: 'more credible than'. 'Most' is a superlative — used when comparing three or more items to find the one at the extreme: 'earned media is the most credible source'. 'Very' is an intensifier — it modifies an adjective without making a comparison: 'earned media is very credible'. But the sentence structure 'more credible than' requires the comparative 'more', not 'most' or 'very'."
       }
     ]
   },
-
   "groupActivities": {
     "chooseResponse": {
       "instructions": "Read what the client or colleague says. Choose the best professional response.",

@@ -23,6 +23,12 @@ export interface PhrasalVerb {
   imageSlug: string;
   /** Override the label pill. Defaults to "phrasal verb". Set to '' to hide it. */
   tag?: string;
+  /** A sentence showing the phrase used naturally in context (In Action section) */
+  inAction?: string;
+  /** Formal / Neutral / Informal — with a brief usage note (Register section) */
+  register?: string;
+  /** A short passage or scenario embedding the phrase in a broader context (In Context section) */
+  inContext?: string;
 }
 
 export interface DialogueLine {

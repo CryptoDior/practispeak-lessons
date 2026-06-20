@@ -6,7 +6,6 @@
   "level": "B1-B2",
   "description": "People don't make decisions the way we think they do. They are influenced by cognitive biases, social signals, scarcity, and the way choices are framed — often without knowing it. Understanding consumer psychology gives marketers a powerful advantage: you can design campaigns that work with human behaviour instead of against it. This lesson teaches you the vocabulary and phrases to discuss psychological principles at work, analyse real campaigns, and brief creative teams with precision.",
   "heroImage": "/images/consumer-psychology-hero.png",
-
   "vocabulary": [
     {
       "word": "COGNITIVE BIAS",
@@ -65,48 +64,63 @@
       "imageSlug": "/images/reciprocity.png"
     }
   ],
-
   "phrasalVerbs": [
     {
       "phrase": "THIS CAMPAIGN LEVERAGES THE PRINCIPLE OF...",
       "definition": "The professional phrase for explaining that a campaign has been intentionally designed around a psychological principle. 'Leverages' means 'uses strategically to gain an advantage'. Using this phrase in a brief or presentation shows that creative decisions are grounded in evidence, not instinct.",
       "example": "Riley presented to the client: This campaign leverages the principle of social proof — every touchpoint shows real customer outcomes, real numbers, and real faces. We're not asking the prospect to trust us; we're showing them that hundreds of people like them already have.",
-      "imageSlug": "/images/this-campaign-leverages-the-principle-of.png"
+      "imageSlug": "/images/this-campaign-leverages-the-principle-of.png",
+      "inAction": "This campaign leverages the principle of reciprocity — we give away a genuinely useful guide before asking for anything in return.",
+      "register": "Formal / Business English — used in campaign briefs, presentations, and client reports. 'Leverages' signals strategic intent and shows that creative decisions are grounded in evidence, not instinct.",
+      "inContext": "Riley walked the client through the creative rationale. This campaign leverages the principle of social proof, she explained. Every touchpoint shows real customer results and real faces — we're not asking the prospect to trust us; we're showing them that hundreds of people like them already have."
     },
     {
       "phrase": "THE CUSTOMER'S DECISION IS DRIVEN BY...",
       "definition": "A phrase for explaining what psychological force is motivating or influencing the customer's behaviour. Used in briefs, post-campaign analysis, and client presentations. Replace 'driven by' with the specific principle: fear, scarcity, status, reciprocity, or loss aversion.",
       "example": "Marcus briefed the team: In this segment, the customer's decision is driven by fear of making the wrong choice — not desire for the best product. That means our messaging should focus on safety, trust signals, and risk reduction, not features and benefits.",
-      "imageSlug": "/images/the-customers-decision-is-driven-by.png"
+      "imageSlug": "/images/the-customers-decision-is-driven-by.png",
+      "inAction": "In this segment, the customer's decision is driven by fear of making a costly mistake — not by excitement about finding the best product.",
+      "register": "Neutral — standard phrase in campaign briefings and post-campaign analysis. Used when explaining what psychological force is motivating or influencing customer behaviour.",
+      "inContext": "Marcus had done his audience research before writing the brief. The customer's decision is driven by loss aversion, not aspiration, he told the team. That means our messaging needs to focus on risk reduction and trust signals — not features and innovation."
     },
     {
       "phrase": "WE'RE USING SCARCITY TO CREATE URGENCY",
       "definition": "A specific, commonly used phrase in campaign briefings and marketing reviews. 'Create urgency' means to give the customer a genuine reason to act now rather than later. 'Using scarcity' means the urgency comes from real or perceived limitation. This phrase is often used in conversion rate optimisation discussions.",
       "example": "Dana explained the offer mechanic: We're using scarcity to create urgency here — the early-bird price is only available for the first 100 sign-ups. Once we hit that number, the price goes up automatically. The scarcity is real, which is important — customers can tell when it's manufactured.",
-      "imageSlug": "/images/were-using-scarcity-to-create-urgency.png"
+      "imageSlug": "/images/were-using-scarcity-to-create-urgency.png",
+      "inAction": "We're using scarcity to create urgency — the early-bird rate is only available to the first 100 companies who sign up.",
+      "register": "Neutral — used in campaign review meetings and conversion rate optimisation discussions. Direct and clear in both verbal and written contexts.",
+      "inContext": "Dana walked through the offer mechanics with the team. We're using scarcity to create urgency in the final week of the campaign, she explained. The scarcity is real — once we hit 100 sign-ups, the price goes up automatically. Customers can tell when it's manufactured, so we never fake it."
     },
     {
       "phrase": "THE FRAMING IS DOING A LOT OF WORK HERE",
       "definition": "An informal but professional phrase used in creative reviews to say that the way a message is presented (the frame) is a major driver of its effectiveness — sometimes more than the message itself. Used when analysing why something works or recommending a rewrite.",
       "example": "Riley reviewed the A/B test results: The framing is doing a lot of work here. The winning ad doesn't have better features or a lower price — it just leads with what the customer loses by not acting rather than what they gain by joining. Same offer, completely different response. That's the framing effect in action.",
-      "imageSlug": "/images/the-framing-is-doing-a-lot-of-work-here.png"
+      "imageSlug": "/images/the-framing-is-doing-a-lot-of-work-here.png",
+      "inAction": "The framing is doing a lot of work here — the same £500 saving feels very different as 'Save £500' versus 'Don't lose £500 this month'.",
+      "register": "Informal / Professional — used in internal creative reviews and team discussions. Natural in a workshop or briefing but not formal enough for a client-facing report.",
+      "inContext": "They were reviewing the A/B test results when Riley pointed at the data. The framing is doing a lot of work here, she said. Both ads have the same offer and the same price — but the one that leads with loss outperformed by 22%. The copy didn't change; only the frame did."
     },
     {
       "phrase": "WE WANT TO PRIME THE CUSTOMER BEFORE...",
       "definition": "Used in campaign planning to describe the intentional preparation of a customer's mental state before they encounter an offer, landing page, or sales conversation. Priming discussions often focus on the sequence of touchpoints — what should the customer see or read first?",
       "example": "Marcus planned the email sequence: We want to prime the customer before they see the pricing page. That means the three emails before the offer email should focus entirely on the problem — make them feel the pain before we present the solution. By the time the offer lands, they're ready to say yes.",
-      "imageSlug": "/images/we-want-to-prime-the-customer-before.png"
+      "imageSlug": "/images/we-want-to-prime-the-customer-before.png",
+      "inAction": "We want to prime the customer before they see the pricing page — the three touchpoints before the offer must build trust, not sell.",
+      "register": "Neutral — used in campaign planning meetings when discussing the sequence of touchpoints. Implies deliberate design of the customer journey at every stage.",
+      "inContext": "Marcus outlined the email sequence on the whiteboard. We want to prime the customer before we make any ask, he said. That means the first three emails are purely about the problem — we make them feel the pain before we present the solution. By the time the offer lands, they're already in the right mindset."
     },
     {
       "phrase": "THE PSYCHOLOGICAL INSIGHT BEHIND THIS IS...",
       "definition": "A phrase for explaining the evidence or behavioural principle that informs a creative or strategic decision. Used in client presentations and internal briefs to show that the approach is grounded in research. Always follow with a specific named principle — 'the psychological insight behind this is reciprocity' not just 'psychology'.",
       "example": "Dana explained the free trial strategy: The psychological insight behind this is reciprocity. When a customer has spent two weeks using our tool and getting results from it, they feel a natural obligation to continue — it feels wrong to stop. That's why our free trial converts at 34%, well above the industry average.",
-      "imageSlug": "/images/the-psychological-insight-behind-this-is.png"
+      "imageSlug": "/images/the-psychological-insight-behind-this-is.png",
+      "inAction": "The psychological insight behind this is anchoring — when customers see the premium plan first, the standard plan instantly feels like better value.",
+      "register": "Formal — used in client presentations and strategy documents when explaining the evidence or behavioural principle behind a creative decision. Always name the specific principle, not just 'psychology'.",
+      "inContext": "The client had asked why the free trial converted so well. Dana took a moment before answering. The psychological insight behind this is reciprocity, she said. When a customer spends two weeks using your tool and getting real results, they feel a natural obligation to continue. It would feel wrong to stop. That's not an accident — it's how the trial is designed."
     }
   ],
-
   "videos": [],
-
   "dialogue": [
     {
       "speaker": "Riley",
@@ -205,18 +219,40 @@
       "text": "Great. If they understand why these techniques work, they'll brief us better next time."
     }
   ],
-
   "matchingExercise": [
-    { "word": "cognitive bias", "definition": "a systematic thinking pattern that causes people to make decisions that are not fully rational" },
-    { "word": "priming", "definition": "using an earlier stimulus to influence how a person responds to the next thing they encounter" },
-    { "word": "social proof", "definition": "the principle that people look to others' behaviour to guide their own decisions" },
-    { "word": "scarcity", "definition": "the principle that people place higher value on things that are rare or running out" },
-    { "word": "anchoring", "definition": "relying heavily on the first piece of information seen when making a subsequent decision" },
-    { "word": "loss aversion", "definition": "feeling the pain of losing something more strongly than the pleasure of gaining something of equal value" },
-    { "word": "framing effect", "definition": "when the same information presented differently produces a different response" },
-    { "word": "reciprocity", "definition": "the social norm that when someone gives us something, we feel obligated to give something back" }
+    {
+      "word": "cognitive bias",
+      "definition": "a systematic thinking pattern that causes people to make decisions that are not fully rational"
+    },
+    {
+      "word": "priming",
+      "definition": "using an earlier stimulus to influence how a person responds to the next thing they encounter"
+    },
+    {
+      "word": "social proof",
+      "definition": "the principle that people look to others' behaviour to guide their own decisions"
+    },
+    {
+      "word": "scarcity",
+      "definition": "the principle that people place higher value on things that are rare or running out"
+    },
+    {
+      "word": "anchoring",
+      "definition": "relying heavily on the first piece of information seen when making a subsequent decision"
+    },
+    {
+      "word": "loss aversion",
+      "definition": "feeling the pain of losing something more strongly than the pleasure of gaining something of equal value"
+    },
+    {
+      "word": "framing effect",
+      "definition": "when the same information presented differently produces a different response"
+    },
+    {
+      "word": "reciprocity",
+      "definition": "the social norm that when someone gives us something, we feel obligated to give something back"
+    }
   ],
-
   "fillBlankExercise": [
     {
       "before": "The campaign ",
@@ -249,7 +285,6 @@
       "answer": "insight"
     }
   ],
-
   "multipleChoiceExercise": [
     {
       "question": "According to Marcus, what was the biggest single factor behind the conversion lift in Q3?",
@@ -288,7 +323,6 @@
       "correctIndex": 1
     }
   ],
-
   "warmUp": {
     "questions": [
       "Think about the last time you bought something online. Was there anything on the page — a countdown timer, a review, a 'limited stock' message — that made you more likely to buy? Did it work?",
@@ -296,49 +330,71 @@
       "When you're trying to persuade someone at work — a manager, a client, a colleague — do you tend to focus on the benefits they'll gain or the problems they'll avoid? Which do you think works better?"
     ]
   },
-
   "completeSentenceExercise": {
     "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
     "items": [
       {
         "sentence": "People are wired _____ respond more strongly to loss than to gain.",
-        "options": ["to", "for", "at"],
+        "options": [
+          "to",
+          "for",
+          "at"
+        ],
         "correctIndex": 0,
         "explanation": "'Wired to' is the correct phrase — it means naturally designed or programmed to do something. 'Wired to respond' is a fixed collocation used in behavioural science and marketing writing. 'Wired for' exists but changes the meaning: 'wired for connection' means built to need connection, not to perform a specific action. 'Wired at' is not a standard phrase. When describing automatic human responses, use 'wired to + base verb'."
       },
       {
         "sentence": "The framing effect means that _____ you present information affects how people respond to it.",
-        "options": ["what", "how", "which"],
+        "options": [
+          "what",
+          "how",
+          "which"
+        ],
         "correctIndex": 1,
         "explanation": "'How' is correct — the sentence is about the manner in which information is presented, not what the information is. 'How you present' = the way / the method. 'What you present' would refer to the content of the information, not the style of presentation. 'Which you present' would need to refer to a specific item ('which report you present'). The framing effect is about manner, not content — so 'how' is the right choice."
       },
       {
         "sentence": "By showing the premium plan first, we _____ the customer's perception of the standard plan price.",
-        "options": ["affect", "are affecting", "affected"],
+        "options": [
+          "affect",
+          "are affecting",
+          "affected"
+        ],
         "correctIndex": 0,
         "explanation": "Present simple ('affect') is used here to describe a general principle or predictable outcome — something that happens reliably in this context. 'By doing X, we affect Y' is a standard structure for describing cause and effect in strategy and analysis writing. 'Are affecting' (present continuous) would describe an ongoing action happening right now. 'Affected' (past tense) would describe something that already happened. When stating how a technique generally works, use present simple."
       },
       {
         "sentence": "Social proof is _____ effective in B2B because customers are spending company money, not their own.",
-        "options": ["particular", "particularly", "particularly more"],
+        "options": [
+          "particular",
+          "particularly",
+          "particularly more"
+        ],
         "correctIndex": 1,
         "explanation": "'Particularly' is the correct adverb — it modifies the adjective 'effective'. 'Particularly effective' means 'especially effective in this specific context'. 'Particular' is an adjective and cannot modify another adjective ('particular effective' is ungrammatical). 'Particularly more effective' adds 'more' unnecessarily — the comparative is not needed here since no explicit comparison is being made. When intensifying an adjective, use the adverb form ending in '-ly'."
       },
       {
         "sentence": "The free trial works because of _____ — when customers receive value first, they feel a pull to give something back.",
-        "options": ["reciprocity", "reciprocal", "reciprocate"],
+        "options": [
+          "reciprocity",
+          "reciprocal",
+          "reciprocate"
+        ],
         "correctIndex": 0,
         "explanation": "'Reciprocity' is the noun form needed here — it names the principle. After 'because of', you need a noun or noun phrase: 'because of reciprocity', 'because of the free offer', 'because of trust'. 'Reciprocal' is an adjective ('a reciprocal arrangement'). 'Reciprocate' is a verb ('they reciprocate by buying'). When naming a psychological principle after 'because of', always use the noun form."
       },
       {
         "sentence": "We should _____ customers before they see the pricing page by building trust through free content first.",
-        "options": ["prime", "priming", "to prime"],
+        "options": [
+          "prime",
+          "priming",
+          "to prime"
+        ],
         "correctIndex": 0,
         "explanation": "After 'should', always use the base form of the verb — no '-ing', no 'to'. 'We should prime' is correct. 'We should priming' is incorrect because modal verbs (should, would, could, must, will, shall, may, might) are always followed by the base form. 'We should to prime' adds 'to' unnecessarily — unlike 'want to', 'need to', and 'plan to', modal verbs do NOT take 'to' before the main verb."
       }
     ]
   },
-
   "groupActivities": {
     "chooseResponse": {
       "instructions": "Read what the client or colleague says. Choose the best professional response.",

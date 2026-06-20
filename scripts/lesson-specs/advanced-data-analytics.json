@@ -6,7 +6,6 @@
   "level": "B1-B2",
   "description": "Data without language is just numbers on a screen. The ability to interpret data and communicate what it means — in a meeting, in a report, in a recommendation to a sceptical stakeholder — is one of the most valuable skills in modern marketing. This lesson teaches you the vocabulary of advanced analytics: from regression and LTV to predictive models and funnel analysis. More importantly, it teaches you how to talk about data with confidence, clarity, and the right level of caution.",
   "heroImage": "/images/advanced-data-analytics-hero.png",
-
   "vocabulary": [
     {
       "word": "REGRESSION",
@@ -65,48 +64,63 @@
       "imageSlug": "/images/attribution.png"
     }
   ],
-
   "phrasalVerbs": [
     {
       "phrase": "THE DATA POINTS TO...",
       "definition": "A phrase for introducing a data-led conclusion. 'The data points to' is more precise and honest than 'the data proves' or 'the data shows' — it acknowledges that data indicates a direction without claiming certainty. Used when presenting analytical findings to stakeholders.",
       "example": "Riley presented the quarterly review: The data points to a significant engagement drop-off at the third email in the sequence. Open rates fall from 42% to 18% between email two and email three. That's telling us the third email is either arriving too soon, or the content isn't relevant enough at that stage of the journey.",
-      "imageSlug": "/images/the-data-points-to.png"
+      "imageSlug": "/images/the-data-points-to.png",
+      "inAction": "The data points to a significant drop-off between the demo request and the first sales call — that's where we're losing the most qualified leads.",
+      "register": "Neutral — used in data review meetings and analytical presentations. Slightly more definitive than 'suggests'; use when the data is clear and consistent across multiple sources.",
+      "inContext": "Marcus had prepared the quarterly analysis with one clear finding. The data points to a content problem at the mid-funnel stage, he said. Prospects are engaging with the top-of-funnel content but then going quiet. We're not giving them a strong enough reason to take the next step."
     },
     {
       "phrase": "IF WE LOOK AT THE FUNNEL, WE CAN SEE...",
       "definition": "A standard presentation phrase for walking stakeholders through a funnel analysis. It signals that you are about to identify a specific stage, show what is happening there, and explain what it means. Used to make complex data visual and accessible in meetings.",
       "example": "Dana walked the client through the analysis: If we look at the funnel, we can see that the conversion rate at the demo stage is actually strong — 41%. But we're losing most of that in the 14 days after the demo. By day 14, over half of the warm prospects have gone cold. The problem is post-demo follow-up, not the demo itself.",
-      "imageSlug": "/images/if-we-look-at-the-funnel-we-can-see.png"
+      "imageSlug": "/images/if-we-look-at-the-funnel-we-can-see.png",
+      "inAction": "If we look at the funnel, we can see that 60% of the drop-off happens between the first email open and the landing page visit.",
+      "register": "Neutral — standard analytical phrase used in data review meetings and marketing performance reports. Invites the audience to examine the evidence together rather than just accepting a conclusion.",
+      "inContext": "Dana shared her screen and opened the funnel dashboard. If we look at the funnel, we can see something interesting happening at the demo stage, she said. The top of the funnel is healthy — traffic, clicks, leads. But there's a 70% drop between demo attendance and follow-up engagement. That's not a traffic problem; it's a nurturing problem."
     },
     {
       "phrase": "THE MODEL PREDICTS THAT...",
       "definition": "Used when presenting the output of a predictive analytics model. 'The model predicts' signals that the claim is based on statistical analysis of historical data, not personal judgment. Always follow with a confidence level or caveat — models are not guarantees.",
       "example": "Marcus presented the forecast: The model predicts that if we maintain current content investment for the next two quarters, organic pipeline will increase by 28%. That's based on the correlation we found between content output and inbound lead volume over the last 18 months. I'd treat that as directional — there's always uncertainty in any forward-looking model.",
-      "imageSlug": "/images/the-model-predicts-that.png"
+      "imageSlug": "/images/the-model-predicts-that.png",
+      "inAction": "The model predicts that leads scoring above 75 will convert at around 60% — which changes how the sales team should prioritise their time.",
+      "register": "Formal — used in presentations of predictive models and analytical findings. 'Predicts' implies statistical confidence, so only use it when the model has been properly trained and validated.",
+      "inContext": "Riley had trained the model on two years of closed-won data before presenting the findings. The model predicts that our Q4 pipeline will deliver £1.2M in closed revenue — but only if the top 40 leads are prioritised within the first week of the quarter, she told the sales director. Every week of delay reduces the conversion probability by approximately 8%."
     },
     {
       "phrase": "WE NEED TO ISOLATE THE VARIABLE",
       "definition": "A phrase used when trying to understand which specific factor caused a change in results. 'Isolate the variable' means separate one factor from all others so you can test whether it is the cause of the effect. Used in campaign analysis, A/B testing discussions, and budget reviews.",
       "example": "Riley flagged the interpretation problem: We changed three things at the same time last quarter — the ad creative, the audience targeting, and the landing page. Results improved, but we can't say which change drove the improvement. We need to isolate the variable before we scale anything. Run each one separately next quarter.",
-      "imageSlug": "/images/we-need-to-isolate-the-variable.png"
+      "imageSlug": "/images/we-need-to-isolate-the-variable.png",
+      "inAction": "Before we credit the email sequence with the conversion uplift, we need to isolate the variable — was it the subject line, the send time, or the offer itself?",
+      "register": "Neutral / Technical — used in data analysis discussions, A/B test reviews, and attribution meetings. Signals analytical rigour and caution about drawing premature conclusions.",
+      "inContext": "The team was excited about the improvement in conversion rate, but Marcus wanted to be careful. We need to isolate the variable before we draw any conclusions, he said. Three things changed in the same week: the email subject line, the landing page, and the CTA. We don't know which one drove the lift — and until we do, we can't reliably replicate it."
     },
     {
       "phrase": "BASED ON THE LTV DATA, WE SHOULD ALLOCATE...",
       "definition": "A phrase for connecting lifetime value analysis to budget allocation recommendations. LTV-led allocation means investing more heavily in acquiring and retaining high-value customer segments. This phrase frames budget decisions as data-led rather than based on historic spend patterns or gut feel.",
       "example": "Dana made the recommendation: Based on the LTV data, we should allocate 60% of our acquisition budget to the enterprise segment — even though they convert slower. Their average LTV is four times higher than SME, so the payback period is longer but the return is substantially better. The data justifies the front-loaded investment.",
-      "imageSlug": "/images/based-on-the-ltv-data-we-should-allocate.png"
+      "imageSlug": "/images/based-on-the-ltv-data-we-should-allocate.png",
+      "inAction": "Based on the LTV data, we should allocate significantly more budget to acquiring Segment A customers — their lifetime value is four times higher.",
+      "register": "Formal — used in budget planning meetings and data-driven allocation discussions. Shows that spend decisions are grounded in customer value, not just volume or cost per acquisition.",
+      "inContext": "Dana had built the LTV model over three months and the results were clear. Based on the LTV data, we should allocate 60% of acquisition budget to the enterprise segment, she told the CFO. The LTV difference is significant enough that we're actually underinvesting in our most valuable customer type — and that's a correctable mistake."
     },
     {
       "phrase": "THE VARIANCE TELLS US SOMETHING IS OFF",
       "definition": "A diagnostic phrase used when actual results deviate significantly from forecast. 'Something is off' means there is an error, assumption problem, or unexpected external factor causing the gap. This phrase opens a conversation about root cause — it signals awareness of the gap without assigning blame before investigating.",
       "example": "Marcus flagged the gap: Q3 pipeline came in 40% below forecast. The variance tells us something is off — either our model assumptions were wrong, market conditions shifted, or there's a data quality issue in the CRM. Before we change strategy, we need to understand which of those three is driving the gap.",
-      "imageSlug": "/images/the-variance-tells-us-something-is-off.png"
+      "imageSlug": "/images/the-variance-tells-us-something-is-off.png",
+      "inAction": "The variance in conversion rates between regions tells us something is off — there's too much inconsistency in the data for it to be explained by chance.",
+      "register": "Neutral / Technical — used in data review sessions. 'Variance' refers to the spread or inconsistency in data; 'something is off' is a conversational signal that a problem is worth investigating further.",
+      "inContext": "Riley was presenting the monthly performance review when she paused at one section of the dashboard. The variance tells us something is off here, she said. Email open rates are 30% in the UK and 11% in Germany — same campaign, same content, completely different result. There's something going on with the audience, the timing, or the translation, and we need to find out what."
     }
   ],
-
   "videos": [],
-
   "dialogue": [
     {
       "speaker": "Riley",
@@ -211,18 +225,40 @@
       "text": "I'll have the automation live within two weeks. Riley — I'd also recommend including the [[funnel analysis:the process of examining how prospects move through each stage of the marketing and sales funnel]] as a visual in the proposal. The board will want to see exactly where the money is going and what stage it's designed to impact."
     }
   ],
-
   "matchingExercise": [
-    { "word": "regression", "definition": "a statistical method used to understand the relationship between variables and identify what drives outcomes" },
-    { "word": "segmentation model", "definition": "a data-driven approach to dividing customers into groups based on shared characteristics" },
-    { "word": "predictive", "definition": "using historical data to forecast future behaviour or outcomes" },
-    { "word": "funnel analysis", "definition": "examining how prospects move through each stage of the journey to identify where drop-off is highest" },
-    { "word": "LTV", "definition": "Lifetime Value — the total revenue expected from a single customer over the entire relationship" },
-    { "word": "cohort", "definition": "a group of customers who share a common characteristic, typically when they first became customers" },
-    { "word": "variance", "definition": "the difference between expected results and actual results — or the spread of data around an average" },
-    { "word": "attribution", "definition": "the process of determining which marketing channels or touchpoints contributed to a conversion" }
+    {
+      "word": "regression",
+      "definition": "a statistical method used to understand the relationship between variables and identify what drives outcomes"
+    },
+    {
+      "word": "segmentation model",
+      "definition": "a data-driven approach to dividing customers into groups based on shared characteristics"
+    },
+    {
+      "word": "predictive",
+      "definition": "using historical data to forecast future behaviour or outcomes"
+    },
+    {
+      "word": "funnel analysis",
+      "definition": "examining how prospects move through each stage of the journey to identify where drop-off is highest"
+    },
+    {
+      "word": "LTV",
+      "definition": "Lifetime Value — the total revenue expected from a single customer over the entire relationship"
+    },
+    {
+      "word": "cohort",
+      "definition": "a group of customers who share a common characteristic, typically when they first became customers"
+    },
+    {
+      "word": "variance",
+      "definition": "the difference between expected results and actual results — or the spread of data around an average"
+    },
+    {
+      "word": "attribution",
+      "definition": "the process of determining which marketing channels or touchpoints contributed to a conversion"
+    }
   ],
-
   "fillBlankExercise": [
     {
       "before": "The data ",
@@ -255,7 +291,6 @@
       "answer": "variance"
     }
   ],
-
   "multipleChoiceExercise": [
     {
       "question": "What does Riley say caused the Q3 variance between forecast and actual?",
@@ -294,7 +329,6 @@
       "correctIndex": 2
     }
   ],
-
   "warmUp": {
     "questions": [
       "Have you ever had to present data to a manager or client who didn't have a technical background? What was the hardest part — understanding the data, or explaining it to someone else?",
@@ -302,49 +336,71 @@
       "Have you ever made a decision at work based on data that later turned out to be wrong or misleading? What happened, and what did you learn from it?"
     ]
   },
-
   "completeSentenceExercise": {
     "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
     "items": [
       {
         "sentence": "The regression analysis _____ that content and email account for 68% of the variance in revenue.",
-        "options": ["showed", "showing", "is showed"],
+        "options": [
+          "showed",
+          "showing",
+          "is showed"
+        ],
         "correctIndex": 0,
         "explanation": "'Showed' is the simple past tense — correct here because the analysis was completed in the past ('we ran a regression and it showed...').  'Showing' is a present participle — it would need an auxiliary verb: 'was showing' or 'is showing'. 'Is showed' is incorrect because 'show' forms its passive as 'is shown', not 'is showed'. When reporting the result of a completed analysis, use simple past: 'the analysis showed', 'the data revealed', 'the model indicated'."
       },
       {
         "sentence": "If we _____ the variable, we can identify which change actually drove the improvement.",
-        "options": ["isolate", "will isolate", "isolated"],
+        "options": [
+          "isolate",
+          "will isolate",
+          "isolated"
+        ],
         "correctIndex": 0,
         "explanation": "In a first conditional (real, possible condition), the if-clause uses present simple and the main clause uses 'will'. 'If we isolate' (present simple) is correct for the if-clause. 'If we will isolate' is a very common learner error — English does not use 'will' in the if-clause of a first conditional. 'If we isolated' would create a second conditional (hypothetical or unlikely situation). The structure is: If + present simple, will + base verb."
       },
       {
         "sentence": "LTV is one of the most important _____ in marketing because it tells you how much you can afford to spend on acquisition.",
-        "options": ["metric", "metrics", "metrically"],
+        "options": [
+          "metric",
+          "metrics",
+          "metrically"
+        ],
         "correctIndex": 1,
         "explanation": "'Metrics' is the plural noun needed here — 'one of the most important metrics' is the standard structure for superlatives with a plural group. The pattern is: 'one of the + superlative + plural noun'. 'One of the most important metric' (singular) is incorrect — the plural is required because 'one of' implies there are multiple items in the group. 'Metrically' is an adverb and cannot fill a noun position after an adjective."
       },
       {
         "sentence": "We need _____ the attribution model before we make any budget decisions based on last quarter's data.",
-        "options": ["to fix", "fixing", "fix"],
+        "options": [
+          "to fix",
+          "fixing",
+          "fix"
+        ],
         "correctIndex": 0,
         "explanation": "'To fix' is the infinitive form required after 'need' when the subject is a person performing an action. 'We need to fix' = we have a requirement to perform this action. 'We need fixing' would mean 'we require someone to fix us' — a passive meaning. 'We need fix' is grammatically incorrect — 'need' as a main verb must be followed by 'to + base verb' or a noun. Contrast with: 'the model needs fixing' (passive — the model needs to be fixed) versus 'we need to fix the model' (active — we are the ones doing the fixing)."
       },
       {
         "sentence": "The cohort analysis _____ us whether recent customers are retaining better than older ones.",
-        "options": ["tells", "says", "speaks"],
+        "options": [
+          "tells",
+          "says",
+          "speaks"
+        ],
         "correctIndex": 0,
         "explanation": "'Tells' is correct — 'tell' takes a person as its indirect object: 'tell us', 'tell me', 'tell the team'. 'Says' is used when the subject is a person or a text ('the report says', 'she says') — but 'say' doesn't take an indirect object as naturally in this context ('says us' is ungrammatical). 'Speaks' does not take an indirect object in this way. The distinction: 'say + that clause' ('the data says that...') and 'tell + person + that clause' ('the data tells us that...')."
       },
       {
         "sentence": "The model's prediction should be treated _____ directional rather than as a guarantee.",
-        "options": ["as", "like", "for"],
+        "options": [
+          "as",
+          "like",
+          "for"
+        ],
         "correctIndex": 0,
         "explanation": "'As' is the correct preposition in the phrase 'treat X as Y' — meaning 'consider X to be Y' or 'regard X in the way you would regard Y'. 'Treat the prediction as directional' = consider it to be directional, use it as a guide not a certainty. 'Treat X like Y' also exists but is slightly less formal and more comparative in feel. 'Treat X for Y' is not a standard phrase in this meaning. In formal business and analytical writing, 'treat as' is the preferred construction."
       }
     ]
   },
-
   "groupActivities": {
     "chooseResponse": {
       "instructions": "Read what the client or colleague says. Choose the best professional response.",

@@ -6,7 +6,6 @@
   "level": "B1-B2",
   "description": "Most marketing writing fails not because the product is wrong, but because the words don't earn attention or build enough desire to act. Persuasive marketing writing is a learnable skill — it follows patterns, uses specific techniques, and can be tested and improved. This lesson teaches you the vocabulary of copywriting: CTAs, headlines, hooks, benefit-led language, and power words. Then it puts those skills to work in the real task of writing a high-converting landing page for a B2B product.",
   "heroImage": "/images/persuasive-marketing-writing-hero.png",
-
   "vocabulary": [
     {
       "word": "CTA",
@@ -65,48 +64,63 @@
       "imageSlug": "/images/objection-handling.png"
     }
   ],
-
   "phrasalVerbs": [
     {
       "phrase": "THE HEADLINE NEEDS TO STOP THE SCROLL",
       "definition": "A phrase used in copy reviews and creative briefings to say that the headline must immediately capture enough attention that the reader pauses and reads on. 'Stop the scroll' refers to the behaviour of users scrolling through social media or email — a weak headline is passed over instantly.",
       "example": "Riley briefed the copywriter: The first rule of this landing page is the headline needs to stop the scroll. We have a quarter of a second to earn attention. The current draft — 'Introducing MarketBridge 2.0' — tells me nothing about why I should care. I want a headline that speaks directly to the reader's pain, with a specific outcome promised.",
-      "imageSlug": "/images/the-headline-needs-to-stop-the-scroll.png"
+      "imageSlug": "/images/the-headline-needs-to-stop-the-scroll.png",
+      "inAction": "A headline like 'Welcome to our platform' won't stop the scroll — you need something specific that speaks directly to the reader's most urgent problem.",
+      "register": "Informal / Professional — common in copywriting reviews and creative feedback sessions. Natural in a workshop or briefing but not appropriate for formal client-facing documents.",
+      "inContext": "Dana had been giving feedback on landing page copy for two hours when she came to the most important point. The headline needs to stop the scroll, she said. Right now it reads like a company description, not a promise. The reader has no reason to keep going. Lead with the outcome they'll get, not the name of the product."
     },
     {
       "phrase": "LEAD WITH THE BENEFIT, NOT THE FEATURE",
       "definition": "The core principle of benefit-led copywriting. In every sentence where you're tempted to describe what the product does, ask instead: 'What does this mean for the customer?' and lead with that. 'We have 14 integrations' is a feature. 'Connect every tool your team already uses' is the benefit.",
       "example": "Marcus gave feedback on the first draft: Throughout this page, you're leading with the feature and burying the benefit. Flip it: instead of 'Real-time compliance alerts', write 'Never miss a compliance issue again — our alerts catch problems the moment they appear'. Same feature, but now the benefit is the first thing the reader sees.",
-      "imageSlug": "/images/lead-with-the-benefit-not-the-feature.png"
+      "imageSlug": "/images/lead-with-the-benefit-not-the-feature.png",
+      "inAction": "Instead of 'AI-powered compliance checking', lead with the benefit: 'Catch every compliance issue before it reaches legal — automatically.'",
+      "register": "Neutral / Copywriting — a core principle of benefit-led writing. Used in creative briefs, copy reviews, and writing workshops. Applies equally to web copy, email, and ad copy.",
+      "inContext": "Marcus was reviewing the sales deck when he spotted the issue. Every slide leads with the feature, he said. Slide 3 says '14 native integrations.' Lead with the benefit: 'Connect every tool your team already uses in under five minutes.' Same fact, completely different impact on the reader."
     },
     {
       "phrase": "THE CTA NEEDS TO BE ABOVE THE FOLD",
       "definition": "A phrase used in landing page reviews to say that the call to action must be visible without scrolling. If visitors have to scroll to find the CTA, many will not reach it — especially on mobile. This phrase often comes with a recommendation to add a secondary CTA at the top of the page.",
       "example": "Dana reviewed the mobile design: On desktop, the CTA is fine. But on mobile, the image takes up the whole screen and the button is below the fold. On mobile, 60% of traffic never scrolls — so 60% of visitors never see the CTA. The CTA needs to be above the fold on every device. Redesign the mobile layout first.",
-      "imageSlug": "/images/the-cta-needs-to-be-above-the-fold.png"
+      "imageSlug": "/images/the-cta-needs-to-be-above-the-fold.png",
+      "inAction": "If visitors have to scroll to find the CTA, most of them won't — the CTA needs to be above the fold on every landing page version.",
+      "register": "Neutral / Technical — standard in conversion rate optimisation (CRO) discussions. 'Above the fold' is a well-established web design and copywriting term that any digital marketer should know.",
+      "inContext": "Riley was reviewing the new landing page design when she flagged the problem. The CTA needs to be above the fold, she said. Right now the button is below a 400-word product description. Most visitors decide whether to stay or leave in the first three seconds — by the time they'd reach that button, they're already gone."
     },
     {
       "phrase": "THIS COPY ISN'T EARNING ITS PLACE",
       "definition": "A phrase used in copy editing to say that a section, sentence, or word is not doing enough persuasive work to justify being on the page. In conversion copy, every word has a job. 'Isn't earning its place' means this copy is taking up space without moving the reader toward action.",
       "example": "Riley edited the draft: This second paragraph — four sentences explaining the company history — isn't earning its place on a conversion page. The reader doesn't care who founded us in 2019. Cut it and replace it with the stat about implementation time. Conversion copy is not the place for biography.",
-      "imageSlug": "/images/this-copy-isnt-earning-its-place.png"
+      "imageSlug": "/images/this-copy-isnt-earning-its-place.png",
+      "inAction": "The third paragraph describes the company history — this copy isn't earning its place on a page where every word needs to reduce hesitation or build desire.",
+      "register": "Informal / Professional — used in copy reviews and editorial feedback sessions. Direct but constructive; it means the writing isn't doing enough work to justify being on the page.",
+      "inContext": "Marcus had cut the first draft by 40% before sending it back. A lot of this copy isn't earning its place, he explained in his feedback note. The 'about us' section on a sales landing page should build credibility — not tell the company history. If a sentence isn't reducing hesitation, building desire, or driving action, it shouldn't be there."
     },
     {
       "phrase": "ADDRESS THE OBJECTION BEFORE THE READER RAISES IT",
       "definition": "The principle behind objection handling copy — anticipating the reader's hesitations and resolving them proactively, before they close the tab. Good conversion copy reads the reader's mind: 'You might be thinking the implementation will take weeks. It won't — our average setup time is 48 hours.'",
       "example": "Dana explained the FAQ section strategy: We know from sales calls that 'how long does implementation take?' is the most common hesitation. So we address the objection before the reader raises it — right above the final CTA. 'Set up in 48 hours, fully supported.' That sentence is doing the work of a sales call on the page.",
-      "imageSlug": "/images/address-the-objection-before-the-reader-raises-it.png"
+      "imageSlug": "/images/address-the-objection-before-the-reader-raises-it.png",
+      "inAction": "If prospects worry about implementation time, address the objection before the reader raises it: 'Fully live in 48 hours — no IT team required.'",
+      "register": "Neutral / Copywriting — a key principle of persuasive writing. Used in copy reviews and strategic writing discussions. Shows genuine audience empathy and preemptive credibility-building.",
+      "inContext": "Dana had done customer research before writing the landing page. The two biggest objections are cost and setup time, she told the team. So we address the objection before the reader raises it — right after the headline. By the time they reach the price, we've already answered the question they were about to ask."
     },
     {
       "phrase": "WRITE TO ONE PERSON, NOT TO EVERYONE",
       "definition": "A fundamental copywriting principle: effective conversion copy speaks directly and personally to a single ideal reader, using 'you' and specific details relevant to that person's situation. When copy tries to speak to everyone, it resonates with nobody.",
       "example": "Marcus gave creative direction: The current draft feels like it was written for a committee, not a person. Use 'you' — not 'our clients', not 'businesses'. Write to one person: the Head of Marketing at a 50-person financial services firm who has a compliance team breathing down her neck and a content backlog that's three months long. Write to her.",
-      "imageSlug": "/images/write-to-one-person-not-to-everyone.png"
+      "imageSlug": "/images/write-to-one-person-not-to-everyone.png",
+      "inAction": "When you write to everyone, nobody feels spoken to — write to one person, the specific professional who has exactly the problem your product solves.",
+      "register": "Neutral / Copywriting — a foundational principle used in briefings and writing workshops. Especially important for B2B copy where audience segments are distinct and each has different language, fears, and goals.",
+      "inContext": "Riley was running a copywriting workshop when she gave the advice that changed how the team wrote. Write to one person, not to everyone, she said. Before you write a single word, picture the specific person reading it — their job title, their biggest headache, what they're afraid of. Then write as if you're talking only to them. The more specific you are, the more people will feel understood."
     }
   ],
-
   "videos": [],
-
   "dialogue": [
     {
       "speaker": "Riley",
@@ -205,18 +219,40 @@
       "text": "I'll have the rewrite ready by tomorrow morning. One headline with a specific outcome, a stat-led hook, benefit-led features, an objection section, and a strong CTA above the fold. Let's see what it does to conversion."
     }
   ],
-
   "matchingExercise": [
-    { "word": "CTA", "definition": "the specific instruction that tells the reader what to do next — 'Book a demo', 'Get your free audit'" },
-    { "word": "headline", "definition": "the first and most prominent line of copy that must earn the reader's attention immediately" },
-    { "word": "hook", "definition": "the opening element that makes the reader feel this content was written specifically for them" },
-    { "word": "benefit-led", "definition": "copy that leads with what the customer gains rather than what the product does" },
-    { "word": "power words", "definition": "words that provoke a strong emotional or psychological response — proven, exclusive, effortless, instant" },
-    { "word": "above the fold", "definition": "the section of a web page visible without scrolling — the first thing a visitor sees" },
-    { "word": "conversion copy", "definition": "copy written specifically to persuade the reader to take a desired action" },
-    { "word": "objection handling", "definition": "copy that anticipates and addresses the reader's likely reasons for not taking action" }
+    {
+      "word": "CTA",
+      "definition": "the specific instruction that tells the reader what to do next — 'Book a demo', 'Get your free audit'"
+    },
+    {
+      "word": "headline",
+      "definition": "the first and most prominent line of copy that must earn the reader's attention immediately"
+    },
+    {
+      "word": "hook",
+      "definition": "the opening element that makes the reader feel this content was written specifically for them"
+    },
+    {
+      "word": "benefit-led",
+      "definition": "copy that leads with what the customer gains rather than what the product does"
+    },
+    {
+      "word": "power words",
+      "definition": "words that provoke a strong emotional or psychological response — proven, exclusive, effortless, instant"
+    },
+    {
+      "word": "above the fold",
+      "definition": "the section of a web page visible without scrolling — the first thing a visitor sees"
+    },
+    {
+      "word": "conversion copy",
+      "definition": "copy written specifically to persuade the reader to take a desired action"
+    },
+    {
+      "word": "objection handling",
+      "definition": "copy that anticipates and addresses the reader's likely reasons for not taking action"
+    }
   ],
-
   "fillBlankExercise": [
     {
       "before": "The headline needs to stop the ",
@@ -249,7 +285,6 @@
       "answer": "person"
     }
   ],
-
   "multipleChoiceExercise": [
     {
       "question": "What does Riley say is wrong with the current headline 'Welcome to MarketBridge'?",
@@ -288,7 +323,6 @@
       "correctIndex": 1
     }
   ],
-
   "warmUp": {
     "questions": [
       "Think of the last time an email subject line or a social media headline made you stop and click. What was it about it that worked? Was it a question, a number, a surprise?",
@@ -296,49 +330,71 @@
       "Have you ever had to write a persuasive email at work — to your manager, to a client, to a colleague — to get them to do something or approve something? What techniques did you use, consciously or not?"
     ]
   },
-
   "completeSentenceExercise": {
     "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
     "items": [
       {
         "sentence": "A headline that _____ to speak directly to the reader's problem will lose their attention immediately.",
-        "options": ["fails", "fail", "failing"],
+        "options": [
+          "fails",
+          "fail",
+          "failing"
+        ],
         "correctIndex": 0,
         "explanation": "'Fails' is correct — the subject is 'a headline' (singular), so the third-person singular verb form is needed: 'fails'. 'Fail' (without -s) is the plural form, used with subjects like 'headlines fail' or 'campaigns fail'. 'Failing' is a present participle and cannot be the main verb of a relative clause without an auxiliary verb ('is failing'). This is a subject-verb agreement error: singular subjects take -s in present simple."
       },
       {
         "sentence": "Instead of listing features, _____ with the benefit the customer will experience.",
-        "options": ["lead", "leading", "to lead"],
+        "options": [
+          "lead",
+          "leading",
+          "to lead"
+        ],
         "correctIndex": 0,
         "explanation": "'Lead' is the imperative form — the sentence is an instruction or recommendation. Imperative sentences use the base form of the verb with no subject: 'lead', 'write', 'focus', 'add'. 'Leading' is a present participle — it would need an auxiliary verb or subject ('start by leading'). 'To lead' is an infinitive — infinitives can appear in instruction-style writing ('to lead with the benefit, you must know the benefit') but the base form imperative is the most direct and natural form for instructions."
       },
       {
         "sentence": "The CTA button _____ visible on the screen the moment the page loads — before the visitor needs to scroll.",
-        "options": ["must be", "must", "is must"],
+        "options": [
+          "must be",
+          "must",
+          "is must"
+        ],
         "correctIndex": 0,
         "explanation": "'Must be' is correct — 'must' is a modal verb and requires the base form of the next verb ('be'). 'Must be visible' = it is required to be visible. 'Must' alone cannot end the sentence here because the sentence needs a predicate (the thing that 'must' applies to). 'Is must' is ungrammatical — a modal verb cannot follow 'is' in this way. The structure is: subject + must + base verb (+ complement if needed): 'it must be', 'it must work', 'it must convert'."
       },
       {
         "sentence": "Good conversion copy _____ the reader's objections before they have a chance to close the page.",
-        "options": ["addresses", "address", "is addressing"],
+        "options": [
+          "addresses",
+          "address",
+          "is addressing"
+        ],
         "correctIndex": 0,
         "explanation": "'Addresses' is correct — the subject 'good conversion copy' is singular, requiring the third-person singular -s form in present simple. This sentence states a general truth or principle about how conversion copy works — so present simple is appropriate ('conversion copy addresses...', 'good writing engages...'). 'Address' (plural form) would be used with a plural subject: 'strong pages address'. 'Is addressing' (present continuous) describes a specific ongoing action, not a general principle."
       },
       {
         "sentence": "The most effective landing pages are written _____ one specific reader in mind.",
-        "options": ["with", "for", "by"],
+        "options": [
+          "with",
+          "for",
+          "by"
+        ],
         "correctIndex": 0,
         "explanation": "'With' is correct in the phrase 'written with X in mind' — meaning 'while thinking about X', 'with X as the focus'. 'Written with one reader in mind' is a fixed expression in English. 'Written for one reader' is also possible but changes the meaning slightly (it means the writing is intended for that reader, not necessarily that the writer was thinking about that person). 'Written by one reader' would mean the reader is the author — completely different meaning. 'With X in mind' is the correct phrase for describing the intended audience or purpose during the writing process."
       },
       {
         "sentence": "Power words are most effective when each one _____ a specific emotional or psychological purpose.",
-        "options": ["serves", "serve", "serving"],
+        "options": [
+          "serves",
+          "serve",
+          "serving"
+        ],
         "correctIndex": 0,
         "explanation": "'Serves' is the correct form — the subject is 'each one', which is always singular in English. 'Each', 'each one', 'every', 'everyone', 'everything' all take singular verbs: 'each word serves', 'each one matters', 'every page needs'. 'Serve' (without -s) would be used with 'they' or 'words': 'they serve a purpose'. 'Serving' is a present participle that cannot be the main verb here without an auxiliary. Remember: 'each' and 'every' are always grammatically singular, regardless of how many items they refer to."
       }
     ]
   },
-
   "groupActivities": {
     "chooseResponse": {
       "instructions": "Read what the client or colleague says. Choose the best professional response.",

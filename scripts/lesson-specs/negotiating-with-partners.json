@@ -6,7 +6,6 @@
   "level": "B1-B2",
   "description": "Whether you're negotiating a media partnership, an agency retainer, a co-marketing agreement, or a vendor contract, the ability to use precise commercial language makes you a stronger and more confident negotiator. This lesson teaches you the key vocabulary and phrases of business negotiation — leverage, concessions, counter-offers, and mutual benefit — and puts them to work in a simulated partner negotiation role-play. The goal is not to win at any cost, but to reach a deal that both sides can commit to.",
   "heroImage": "/images/negotiating-with-partners-hero.png",
-
   "vocabulary": [
     {
       "word": "LEVERAGE",
@@ -65,48 +64,63 @@
       "imageSlug": "/images/deadlock.png"
     }
   ],
-
   "phrasalVerbs": [
     {
       "phrase": "I CAN MOVE ON THAT IF YOU CAN MOVE ON...",
       "definition": "The core phrase for trading concessions in a negotiation. 'Move on' means to be flexible or accept a change on a specific term. 'I can move on that if you can move on...' is a conditional concession — you're offering flexibility on one thing in exchange for flexibility on another. Never make a concession without this kind of condition.",
       "example": "Riley made the trade: I can move on the payment terms — we can do net-60 instead of net-30 if you can move on the contract length. Instead of 12 months, I need you to commit to 18. That way we both give something and both get something. That's the right structure for a trade.",
-      "imageSlug": "/images/i-can-move-on-that-if-you-can-move-on.png"
+      "imageSlug": "/images/i-can-move-on-that-if-you-can-move-on.png",
+      "inAction": "I can move on the delivery timeline if you can move on the payment terms — we need something to give on both sides.",
+      "register": "Neutral / Negotiation — signals willingness to trade concessions without giving anything away for free. Used in face-to-face or video negotiation; more direct than appropriate for formal written contracts.",
+      "inContext": "The negotiation had been going in circles for an hour when Riley decided to make a move. I can move on the exclusivity period if you can move on the minimum commitment, she said. It was a conditional offer — she wasn't giving anything away for free, but she was opening a path forward that both sides could take."
     },
     {
       "phrase": "LET'S FIND SOMETHING THAT WORKS FOR BOTH OF US",
       "definition": "A phrase for redirecting a negotiation toward mutual benefit when it has become adversarial or stuck. It signals that you are not trying to win at the other side's expense — you are looking for a deal that both parties can genuinely commit to. Used to de-escalate tension and refocus on shared interests.",
       "example": "Marcus de-escalated the conversation: I can see we're getting stuck on individual terms and losing sight of the bigger picture. Let's step back. We both want this partnership to work — it creates value for both organisations. Let's find something that works for both of us and stop treating this like a zero-sum game.",
-      "imageSlug": "/images/lets-find-something-that-works-for-both-of-us.png"
+      "imageSlug": "/images/lets-find-something-that-works-for-both-of-us.png",
+      "inAction": "We've been debating this contract clause for 20 minutes — let's find something that works for both of us and move the conversation forward.",
+      "register": "Neutral — collaborative in tone, used to reset a stalled negotiation. Appropriate in partnership and commercial negotiations where the long-term relationship matters as much as the immediate deal.",
+      "inContext": "Marcus could see that both sides were getting frustrated. Let's find something that works for both of us, he said, leaning forward. It wasn't a concession — it was a reframe. Instead of fighting over positions, he was inviting the other side to solve a shared problem. The room relaxed slightly and the conversation shifted."
     },
     {
       "phrase": "THAT'S NOT SOMETHING WE CAN AGREE TO, BUT WHAT WE COULD DO IS...",
       "definition": "A professional way to reject a specific term without walking away from the negotiation. Instead of a flat 'no', this phrase redirects immediately to an alternative. Used when the other party proposes something outside your acceptable range — you decline the specific ask but offer a path forward.",
       "example": "Dana responded to the pricing demand: A 20% price increase is not something we can agree to — it's outside our approved budget and changes the economics of the partnership. But what we could do is accept a 9% increase now, with a commitment to revisit in 12 months based on the performance data. That gives you more than you have today and gives us the certainty we need.",
-      "imageSlug": "/images/thats-not-something-we-can-agree-to-but-what-we-could-do-is.png"
+      "imageSlug": "/images/thats-not-something-we-can-agree-to-but-what-we-could-do-is.png",
+      "inAction": "That's not something we can agree to in this contract cycle, but what we could do is revisit the exclusivity clause at the 12-month review.",
+      "register": "Formal / Negotiation — a professional soft refusal followed immediately by a constructive alternative. Keeps the negotiation moving forward without shutting down the relationship or sounding dismissive.",
+      "inContext": "Dana had prepared her alternative before going into the meeting. When the partner asked for 90-day payment terms, she was ready. That's not something we can agree to, but what we could do is offer 60 days with an early payment discount built in, she said. The partner considered it for a moment, then nodded."
     },
     {
       "phrase": "WHAT WOULD NEED TO HAPPEN FOR YOU TO ACCEPT...",
       "definition": "A diagnostic question used to understand exactly what the other party needs in order to agree to your proposal. It shifts the focus from positions ('I want X') to interests ('what I actually need is Y'). The answer often reveals a way to meet their need without giving up what you need.",
       "example": "Riley asked: You've said the timeline is the main issue. What would need to happen for you to accept a six-month delivery timeline rather than three months? The answer told us exactly what they needed — an additional resource commitment from our side in month one. We agreed to that, and the timeline issue was resolved.",
-      "imageSlug": "/images/what-would-need-to-happen-for-you-to-accept.png"
+      "imageSlug": "/images/what-would-need-to-happen-for-you-to-accept.png",
+      "inAction": "What would need to happen for you to accept our standard payment terms — is it about cash flow timing or something else entirely?",
+      "register": "Neutral — an open-ended question used to understand the partner's underlying needs rather than their stated position. Builds insight and opens up possibilities that a direct counter-offer would miss.",
+      "inContext": "Marcus had a hunch the real issue wasn't the contract term itself. What would need to happen for you to accept our pricing structure? he asked. The question caught the partner off guard — they had expected pushback, not curiosity. What came next wasn't an objection; it was an explanation of a cash flow problem Marcus could actually help solve."
     },
     {
       "phrase": "I WANT TO BE TRANSPARENT ABOUT WHERE WE STAND",
       "definition": "A phrase used to introduce honest, direct information about your position, constraints, or priorities in a negotiation. Transparency, used strategically, builds trust and can accelerate deals — sharing your real constraints often invites the other party to share theirs, which opens up creative solutions.",
       "example": "Marcus opened the renegotiation: I want to be transparent about where we stand. Our budget for this partnership was set before the market shift and we simply can't absorb a 20% increase without reducing scope elsewhere. I'd rather be honest about that now than agree to something we'll struggle to honour. Can we work within these parameters?",
-      "imageSlug": "/images/i-want-to-be-transparent-about-where-we-stand.png"
+      "imageSlug": "/images/i-want-to-be-transparent-about-where-we-stand.png",
+      "inAction": "I want to be transparent about where we stand — we've had two other partners express interest in this slot, so we'll need a decision by Friday.",
+      "register": "Neutral / Semi-formal — signals honest, direct communication in a negotiation. Sets a tone of trust while establishing a fact the other party needs to know. Appropriate in both verbal and written contexts.",
+      "inContext": "Riley had decided honesty was the best approach. I want to be transparent about where we stand, she said. The budget we have for this partnership is fixed — we're not going to be able to go above it. But we have flexibility on the delivery timeline and the scope of what's included. Let's see if we can build something that works within those parameters."
     },
     {
       "phrase": "WE'RE AT OUR LIMIT ON THAT ONE",
       "definition": "A clear, direct phrase for signalling that you cannot move further on a specific term — you have reached your walk-away point on that variable. Used to stop a negotiation from continuing to press a term that you genuinely cannot move on, without necessarily ending the overall discussion.",
       "example": "Dana signalled the boundary: I want to keep this deal moving, but I need to be clear — on the exclusivity clause, we're at our limit. We cannot sign a deal that doesn't include category exclusivity for financial services. If that's a dealbreaker, we need to know now. But there may be other terms where we have more flexibility.",
-      "imageSlug": "/images/were-at-our-limit-on-that-one.png"
+      "imageSlug": "/images/were-at-our-limit-on-that-one.png",
+      "inAction": "We've moved significantly on the pricing already — we're at our limit on that one, but we can still talk about the service scope.",
+      "register": "Neutral / Informal — used to signal a firm boundary without sounding aggressive or closing the conversation. Direct and final in tone, but leaves room for the discussion to continue on other points.",
+      "inContext": "Marcus had given ground on three separate clauses before reaching the line he couldn't cross. We're at our limit on that one, he said calmly. He didn't apologise or explain at length — he said it once and moved on. But let's look at what else might address your concern. Is the pricing the real issue, or is it about what you get for that price?"
     }
   ],
-
   "videos": [],
-
   "dialogue": [
     {
       "speaker": "Riley",
@@ -205,18 +219,40 @@
       "text": "Sub-category exclusivity in retail banking, net-45 with the reporting add-on, 5% price increase over a 24-month contract. I can take that back to my team today. I think we're close."
     }
   ],
-
   "matchingExercise": [
-    { "word": "leverage", "definition": "anything that gives you an advantage in a negotiation — competing offers, volume, expertise, or timing" },
-    { "word": "concession", "definition": "something you give up in a negotiation to move the deal forward or secure something you value more" },
-    { "word": "counter-offer", "definition": "an offer made in response to the other party's proposal, modifying rather than accepting or rejecting terms" },
-    { "word": "mutual benefit", "definition": "an outcome that creates genuine value for both parties in a negotiation" },
-    { "word": "terms", "definition": "the specific conditions of an agreement — price, payment schedule, contract length, scope, exclusivity" },
-    { "word": "walk-away point", "definition": "the point at which a deal is no longer acceptable and you are prepared to end the negotiation" },
-    { "word": "anchor", "definition": "the first number or offer put on the table, which shapes the range of the whole negotiation" },
-    { "word": "deadlock", "definition": "a situation where neither party can agree and no progress is being made" }
+    {
+      "word": "leverage",
+      "definition": "anything that gives you an advantage in a negotiation — competing offers, volume, expertise, or timing"
+    },
+    {
+      "word": "concession",
+      "definition": "something you give up in a negotiation to move the deal forward or secure something you value more"
+    },
+    {
+      "word": "counter-offer",
+      "definition": "an offer made in response to the other party's proposal, modifying rather than accepting or rejecting terms"
+    },
+    {
+      "word": "mutual benefit",
+      "definition": "an outcome that creates genuine value for both parties in a negotiation"
+    },
+    {
+      "word": "terms",
+      "definition": "the specific conditions of an agreement — price, payment schedule, contract length, scope, exclusivity"
+    },
+    {
+      "word": "walk-away point",
+      "definition": "the point at which a deal is no longer acceptable and you are prepared to end the negotiation"
+    },
+    {
+      "word": "anchor",
+      "definition": "the first number or offer put on the table, which shapes the range of the whole negotiation"
+    },
+    {
+      "word": "deadlock",
+      "definition": "a situation where neither party can agree and no progress is being made"
+    }
   ],
-
   "fillBlankExercise": [
     {
       "before": "I can ",
@@ -249,7 +285,6 @@
       "answer": "mutual benefit"
     }
   ],
-
   "multipleChoiceExercise": [
     {
       "question": "What does Riley propose in exchange for accepting a 5% price increase instead of 12%?",
@@ -288,7 +323,6 @@
       "correctIndex": 1
     }
   ],
-
   "warmUp": {
     "questions": [
       "Have you ever negotiated something at work — a budget, a contract, a deadline, a job offer? How did you prepare for it, and how did it go?",
@@ -296,49 +330,71 @@
       "When someone says no to your proposal in a meeting, what do you usually do? Do you push back, offer an alternative, or move on? What do you think is the most effective approach?"
     ]
   },
-
   "completeSentenceExercise": {
     "instructions": "Choose the correct word or phrase to complete each sentence. Only one answer is correct.",
     "items": [
       {
         "sentence": "A skilled negotiator never makes a concession _____ — every concession should be conditional on receiving something in return.",
-        "options": ["unilaterally", "unilateral", "unilateralness"],
+        "options": [
+          "unilaterally",
+          "unilateral",
+          "unilateralness"
+        ],
         "correctIndex": 0,
         "explanation": "'Unilaterally' is the adverb form — it modifies the verb 'makes', describing how the concession is made. 'Never makes a concession unilaterally' = never acts on one side only, without a trade. 'Unilateral' is an adjective: 'a unilateral concession' (used before a noun). 'Unilateralness' is not a standard English word. When modifying a verb (how something is done), use the adverb form ending in '-ly': 'acts unilaterally', 'decides unilaterally', 'makes concessions unilaterally'."
       },
       {
         "sentence": "If the other party is not willing _____ on the price, we should propose a different variable — contract length or payment terms.",
-        "options": ["to move", "moving", "move"],
+        "options": [
+          "to move",
+          "moving",
+          "move"
+        ],
         "correctIndex": 0,
         "explanation": "After 'willing', the infinitive with 'to' is required: 'willing to move'. This is a fixed pattern — 'willing' as an adjective is always followed by 'to + base verb': 'willing to negotiate', 'willing to agree', 'willing to move'. 'Willing moving' is not grammatical. 'Willing move' misses the 'to'. Compare with other adjectives that follow the same pattern: 'able to', 'ready to', 'likely to', 'prepared to'."
       },
       {
         "sentence": "The party who _____ the first anchor in a negotiation often ends up closer to their preferred outcome.",
-        "options": ["sets", "set", "setting"],
+        "options": [
+          "sets",
+          "set",
+          "setting"
+        ],
         "correctIndex": 0,
         "explanation": "'Sets' is the correct third-person singular present simple form — the subject 'the party' is singular. 'The party who sets' defines which party we're talking about (the one who sets the anchor). 'Set' (without -s) would be the plural form ('parties who set') or the past tense ('the party who set the anchor yesterday'). 'Setting' is a present participle — it cannot be the main verb in a relative clause without an auxiliary ('the party who is setting'). In present simple relative clauses, singular subjects take -s."
       },
       {
         "sentence": "When a negotiation reaches deadlock, the best approach is _____ a new variable into the discussion.",
-        "options": ["to introduce", "introducing", "introduce"],
+        "options": [
+          "to introduce",
+          "introducing",
+          "introduce"
+        ],
         "correctIndex": 0,
         "explanation": "After 'the best approach is', the infinitive with 'to' is the most natural form in formal and professional English: 'the best approach is to introduce'. This is a predicate construction (subject + 'is' + complement): 'the best approach is to act', 'the solution is to reframe', 'the goal is to find'. 'Introducing' (gerund) is also grammatically possible ('the best approach is introducing a new variable') but is less common in formal business writing. 'Introduce' (base form without 'to') cannot follow 'is' in this structure."
       },
       {
         "sentence": "I'd like _____ where we stand before we discuss specific terms.",
-        "options": ["to be transparent about", "being transparent about", "transparent about"],
+        "options": [
+          "to be transparent about",
+          "being transparent about",
+          "transparent about"
+        ],
         "correctIndex": 0,
         "explanation": "'To be transparent about' is correct after 'I'd like' — the construction is 'would like + to + base verb'. 'I'd like to be transparent about where we stand' = I want to be honest about our position. 'I'd like being transparent' is not the standard pattern — 'would like' takes the infinitive with 'to', not the gerund ('-ing'). Compare: 'I like being transparent' (present habit — gerund) vs 'I'd like to be transparent' (specific wish now — infinitive). The distinction between 'like + -ing' (general preference) and 'would like + to' (specific desire) is a key grammar point."
       },
       {
         "sentence": "Without category exclusivity, the deal _____ make commercial sense for our stakeholders.",
-        "options": ["doesn't", "don't", "isn't"],
+        "options": [
+          "doesn't",
+          "don't",
+          "isn't"
+        ],
         "correctIndex": 0,
         "explanation": "'Doesn't' is correct — the subject 'the deal' is singular, and 'make' is the base form after the auxiliary 'does'. The negative of 'the deal makes sense' is 'the deal doesn't make sense'. 'Don't' (plural) would be used with a plural subject: 'the terms don't make sense'. 'Isn't make' is ungrammatical — 'isn't' is followed by a noun, adjective, or present participle, not a base verb. The structure for present simple negative: subject + doesn't/don't + base verb."
       }
     ]
   },
-
   "groupActivities": {
     "chooseResponse": {
       "instructions": "Read what the partner or colleague says. Choose the best professional response.",
