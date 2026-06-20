@@ -48,11 +48,32 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
     t === 'Videos' && lesson.registerAwareness ? 'Register' : t
   );
   const withWarmUp = lesson.warmUp ? ['Warm Up', ...baseTabs] : baseTabs;
-  const withDealClinic = lesson.dealClinic ? [...withWarmUp, 'Deal Clinic'] : withWarmUp;
+
+  // Detect phrasal verbs with In Action / Register / In Context content
+  const hasPhrasalDetails = lesson.phrasalVerbs.some(
+    (v) => v.inAction || v.register || v.inContext
+  );
+  // Insert the 3 phrasal tabs right after 'Phrases'
+  let withPhrasalTabs: string[];
+  if (hasPhrasalDetails) {
+    const phrasesIdx = withWarmUp.indexOf('Phrases');
+    withPhrasalTabs = [
+      ...withWarmUp.slice(0, phrasesIdx + 1),
+      'In Action', 'Register', 'In Context',
+      ...withWarmUp.slice(phrasesIdx + 1),
+    ];
+  } else {
+    withPhrasalTabs = [...withWarmUp];
+  }
+  // po = phrasal offset — tabs after Phrases shift by 3 when phrasal detail tabs are present
+  const po = hasPhrasalDetails ? 3 : 0;
+
+  const withDealClinic = lesson.dealClinic ? [...withPhrasalTabs, 'Deal Clinic'] : withPhrasalTabs;
   const TABS = lesson.groupActivities
     ? ([...withDealClinic, 'Group Activities'] as const)
     : withDealClinic;
-  const wo = lesson.warmUp ? 1 : 0; // warmUp offset — shifts all hard-coded tab indices
+
+  const wo = lesson.warmUp ? 1 : 0; // warmUp offset
   const [activeTab, setActiveTab] = useState(0);
   const [visitedTabs, setVisitedTabs] = useState<Set<number>>(new Set([0]));
   const [scores, setScores] = useState<Scores>({});
@@ -160,7 +181,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
               </div>
             </div>
 
-            {/* Hero image (hidden on small screens) */}
+            {/* Hero image */}
             <div className="hidden md:block flex-shrink-0">
               <LessonHeroImage src={lesson.heroImage} alt={lesson.title} />
             </div>
@@ -195,7 +216,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
       {/* ── All sections ── */}
       <main className="max-w-5xl mx-auto px-4 py-8">
 
-        {/* Warm Up — only when lesson has warmUp */}
+        {/* Warm Up */}
         {lesson.warmUp && (
           <section className={activeTab === 0 ? 'block' : 'hidden'}>
             <WarmUpSection
@@ -223,7 +244,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           )}
         </section>
 
-        {/* Tab 1+wo — Phrasal Verbs / Related Terms */}
+        {/* Phrases */}
         <section className={activeTab === wo + 1 ? 'block' : 'hidden'}>
           <SectionHeader
             title={TABS[wo + 1]}
@@ -236,11 +257,95 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           </div>
         </section>
 
-        {/* Tab 2+wo — Videos / Register */}
-        <section className={activeTab === wo + 2 ? 'block' : 'hidden'}>
+        {/* In Action — separate tab, only when phrasal details exist */}
+        {hasPhrasalDetails && (
+          <section className={activeTab === wo + 2 ? 'block' : 'hidden'}>
+            <SectionHeader
+              title="In Action"
+              subtitle="See how each phrase is used in a real workplace moment"
+            />
+            <div className="flex flex-col gap-5">
+              {lesson.phrasalVerbs.filter(v => v.inAction).map((verb, i) => (
+                <div
+                  key={verb.phrase}
+                  className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden"
+                >
+                  <div className="flex items-center gap-3 px-6 py-4 border-b border-gray-50">
+                    <span className="text-xs font-extrabold tracking-widest text-[#066EF5] uppercase">
+                      {String(i + 1).padStart(2, '0')}
+                    </span>
+                    <h3 className="font-extrabold text-gray-900 text-base">{verb.phrase}</h3>
+                  </div>
+                  <div className="px-6 py-5">
+                    <p className="text-gray-600 text-base leading-relaxed italic">
+                      &ldquo;{verb.inAction}&rdquo;
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Register — separate tab, only when phrasal details exist */}
+        {hasPhrasalDetails && (
+          <section className={activeTab === wo + 3 ? 'block' : 'hidden'}>
+            <SectionHeader
+              title="Register"
+              subtitle="Understand when and how to use each phrase — formal, neutral, or informal"
+            />
+            <div className="flex flex-col gap-5">
+              {lesson.phrasalVerbs.filter(v => v.register).map((verb, i) => (
+                <div
+                  key={verb.phrase}
+                  className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] p-6"
+                >
+                  <div className="flex items-center gap-3 mb-3">
+                    <span className="inline-flex items-center gap-1.5 text-xs font-extrabold tracking-widest text-emerald-600 uppercase">
+                      <span>&#10003;</span> Register
+                    </span>
+                    <h3 className="font-extrabold text-gray-900 text-base">{verb.phrase}</h3>
+                  </div>
+                  <p className="text-gray-600 text-sm leading-relaxed">{verb.register}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* In Context — separate tab, only when phrasal details exist */}
+        {hasPhrasalDetails && (
+          <section className={activeTab === wo + 4 ? 'block' : 'hidden'}>
+            <SectionHeader
+              title="In Context"
+              subtitle="Read the story — each phrase appears in a real situation"
+            />
+            <div className="flex flex-col gap-5">
+              {lesson.phrasalVerbs.filter(v => v.inContext).map((verb, i) => (
+                <div
+                  key={verb.phrase}
+                  className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden"
+                >
+                  <div className="flex items-center gap-3 px-6 py-4 border-b border-gray-50">
+                    <span className="text-xs font-extrabold tracking-widest text-emerald-600 uppercase">
+                      {String(i + 1).padStart(2, '0')}
+                    </span>
+                    <h3 className="font-extrabold text-gray-900 text-base">{verb.phrase}</h3>
+                  </div>
+                  <div className="px-6 py-5">
+                    <p className="text-gray-600 text-base leading-relaxed">{verb.inContext}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Videos / Register (vocab awareness) — index shifts by po */}
+        <section className={activeTab === wo + po + 2 ? 'block' : 'hidden'}>
           {lesson.registerAwareness ? (
             <>
-              <SectionHeader title={TABS[wo + 2]} subtitle="How these words change across different contexts" />
+              <SectionHeader title={TABS[wo + po + 2]} subtitle="How these words change across different contexts" />
               <RegisterSection entries={lesson.registerAwareness} traps={lesson.registerTraps} />
             </>
           ) : (
@@ -255,12 +360,12 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           )}
         </section>
 
-        {/* Tab 3+wo — Dialogue / In Context */}
-        <section className={activeTab === wo + 3 ? 'block' : 'hidden'}>
+        {/* Dialogue / In Context (reading passage) — index shifts by po */}
+        <section className={activeTab === wo + po + 3 ? 'block' : 'hidden'}>
           {lesson.readingPassage ? (
             <>
               <SectionHeader
-                title={TABS[wo + 3]}
+                title={TABS[wo + po + 3]}
                 subtitle="Read the passage — highlighted words are from this lesson"
               />
               <ReadingPassageSection
@@ -281,71 +386,41 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           )}
         </section>
 
-        {/* Exercises */}
-        <section className={activeTab === wo + 4 ? 'block' : 'hidden'}>
+        {/* Exercises — index shifts by po */}
+        <section className={activeTab === wo + po + 4 ? 'block' : 'hidden'}>
           <SectionHeader
             title="Exercises"
             subtitle="Complete all three exercises to see your final score"
           />
           <div className="space-y-6">
 
-            {/* Pitch Corner — shown first when lesson has one */}
             {lesson.pitchCorner && (
-              <ExerciseCard
-                number={1}
-                title="Pitch Corner"
-                description="Read the pitch — click or drag words from the bank to fill the gaps."
-              >
-                <PitchCornerSection
-                  pitchCorner={lesson.pitchCorner}
-                  onComplete={handlePitchCornerComplete}
-                />
+              <ExerciseCard number={1} title="Pitch Corner" description="Read the pitch — click or drag words from the bank to fill the gaps.">
+                <PitchCornerSection pitchCorner={lesson.pitchCorner} onComplete={handlePitchCornerComplete} />
               </ExerciseCard>
             )}
 
-            {/* Complete the Sentence — shown first when lesson has one */}
             {lesson.completeSentenceExercise && (
-              <ExerciseCard
-                number={1}
-                title="Complete the Sentence"
-                description="Choose the correct answer to complete each sentence."
-              >
-                <CompleteSentenceSection
-                  exercise={lesson.completeSentenceExercise}
-                  onComplete={handleCompleteSentenceComplete}
-                />
+              <ExerciseCard number={1} title="Complete the Sentence" description="Choose the correct answer to complete each sentence.">
+                <CompleteSentenceSection exercise={lesson.completeSentenceExercise} onComplete={handleCompleteSentenceComplete} />
               </ExerciseCard>
             )}
 
             {(!hasPitchCorner && !hasCompleteSentence || pitchCornerDone || completeSentenceDone) && (
-            <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 2 : 1} title="Matching" description="Click a word, then click its correct definition.">
-              <MatchingExercise pairs={lesson.matchingExercise} onComplete={handleMatchingComplete} />
-            </ExerciseCard>
+              <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 2 : 1} title="Matching" description="Click a word, then click its correct definition.">
+                <MatchingExercise pairs={lesson.matchingExercise} onComplete={handleMatchingComplete} />
+              </ExerciseCard>
             )}
 
             {showFillBlank && (
-              <ExerciseCard
-                number={hasPitchCorner || hasCompleteSentence ? 3 : 2}
-                title="Fill in the Blank"
-                description="Drag the correct words from the word bank to complete each sentence."
-              >
-                <FillBlankExercise
-                  items={lesson.fillBlankExercise}
-                  onComplete={handleFillBlankComplete}
-                />
+              <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 3 : 2} title="Fill in the Blank" description="Drag the correct words from the word bank to complete each sentence.">
+                <FillBlankExercise items={lesson.fillBlankExercise} onComplete={handleFillBlankComplete} />
               </ExerciseCard>
             )}
 
             {showMultipleChoice && (
-              <ExerciseCard
-                number={hasPitchCorner || hasCompleteSentence ? 4 : 3}
-                title="Multiple Choice"
-                description="Choose the best answer for each question about the dialogue."
-              >
-                <MultipleChoiceExercise
-                  items={lesson.multipleChoiceExercise}
-                  onComplete={handleMultipleChoiceComplete}
-                />
+              <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 4 : 3} title="Multiple Choice" description="Choose the best answer for each question about the dialogue.">
+                <MultipleChoiceExercise items={lesson.multipleChoiceExercise} onComplete={handleMultipleChoiceComplete} />
               </ExerciseCard>
             )}
 
@@ -370,10 +445,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         {/* Deal Clinic */}
         {lesson.dealClinic && (
           <section className={activeTab === TABS.indexOf('Deal Clinic') ? 'block' : 'hidden'}>
-            <SectionHeader
-              title="Deal Clinic"
-              subtitle="Read the conversation — judge each highlighted move: Good or Weak?"
-            />
+            <SectionHeader title="Deal Clinic" subtitle="Read the conversation — judge each highlighted move: Good or Weak?" />
             <DealClinicSection dealClinic={lesson.dealClinic} />
           </section>
         )}
@@ -381,10 +453,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         {/* Group Activities */}
         {lesson.groupActivities && (
           <section className={activeTab === TABS.indexOf('Group Activities') ? 'block' : 'hidden'}>
-            <SectionHeader
-              title="Group Activities"
-              subtitle="Role-play scenarios and discussion questions for group classes"
-            />
+            <SectionHeader title="Group Activities" subtitle="Role-play scenarios and discussion questions for group classes" />
             <GroupActivitiesSection activities={lesson.groupActivities} />
           </section>
         )}
@@ -418,7 +487,6 @@ function LessonHeroImage({ src, alt }: { src?: string; alt: string }) {
   const [imgReady, setImgReady] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
 
-  // Handle cached images: onLoad won't fire if the browser already has it
   useEffect(() => {
     if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) {
       setImgReady(true);
@@ -427,12 +495,9 @@ function LessonHeroImage({ src, alt }: { src?: string; alt: string }) {
 
   return (
     <div className="relative w-56 lg:w-64 aspect-[4/3] rounded-2xl overflow-hidden shadow-[0_4px_24px_rgba(6,110,245,0.15)] flex-shrink-0">
-      {/* Placeholder always sits beneath — visible whenever no real image is shown */}
       <div className="absolute inset-0">
         <HeroPlaceholder />
       </div>
-
-      {/* Real image fades in on top once loaded; stays invisible (and icon-free) on error */}
       {src && (
         // eslint-disable-next-line @next/next/no-img-element
         <img
@@ -455,23 +520,16 @@ function HeroPlaceholder() {
   return (
     <div className="w-full h-full bg-gradient-to-br from-[#D6E4FF] to-[#B8CEFF] flex items-center justify-center">
       <svg viewBox="0 0 96 60" width="96" height="60" fill="none" aria-hidden="true">
-        {/* Controller body */}
         <path d="M18 22 Q14 22 8 30 Q4 36 5 43 Q6 50 13 52 Q20 54 25 47 L34 42 L62 42 L71 47 Q76 54 83 52 Q90 50 91 43 Q92 36 88 30 Q82 22 78 22 L62 18 Q55 14 41 14 Q27 14 18 22Z"
               fill="#066EF5" fillOpacity="0.18" stroke="#066EF5" strokeOpacity="0.35" strokeWidth="1.5" strokeLinejoin="round"/>
-        {/* D-pad vertical */}
         <rect x="24" y="27" width="5" height="14" rx="2" fill="#066EF5" fillOpacity="0.3"/>
-        {/* D-pad horizontal */}
         <rect x="19.5" y="31.5" width="14" height="5" rx="2" fill="#066EF5" fillOpacity="0.3"/>
-        {/* Face buttons */}
         <circle cx="64" cy="29" r="3"   fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
         <circle cx="70" cy="34" r="3"   fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
         <circle cx="64" cy="39" r="3"   fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
         <circle cx="58" cy="34" r="3"   fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
-        {/* Left joystick */}
         <circle cx="38" cy="36" r="6"   fill="#066EF5" fillOpacity="0.15" stroke="#066EF5" strokeOpacity="0.3" strokeWidth="1.2"/>
-        {/* Right joystick */}
         <circle cx="54" cy="26" r="5"   fill="#066EF5" fillOpacity="0.12" stroke="#066EF5" strokeOpacity="0.25" strokeWidth="1.2"/>
-        {/* Center button */}
         <circle cx="47" cy="26" r="3"   fill="#066EF5" fillOpacity="0.25"/>
       </svg>
     </div>
