@@ -142,6 +142,7 @@ import { negotiatingWithPartners } from './negotiating-with-partners';
 import { brandArchitecture } from './brand-architecture';
 import { marketingBudgets } from './marketing-budgets';
 import { programmaticAdvertising } from './programmatic-advertising';
+import { socialListeningAndReputation } from './social-listening-and-reputation';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -287,6 +288,7 @@ export const lessons: Lesson[] = [
   brandArchitecture,
   marketingBudgets,
   programmaticAdvertising,
+  socialListeningAndReputation,
 ];
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
