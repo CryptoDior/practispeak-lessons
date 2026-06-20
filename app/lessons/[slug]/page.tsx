@@ -294,21 +294,46 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
               title="Register"
               subtitle="Understand when and how to use each phrase — formal, neutral, or informal"
             />
-            <div className="flex flex-col gap-5">
-              {lesson.phrasalVerbs.filter(v => v.register).map((verb, i) => (
-                <div
-                  key={verb.phrase}
-                  className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] p-6"
-                >
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="inline-flex items-center gap-1.5 text-xs font-extrabold tracking-widest text-emerald-600 uppercase">
-                      <span>&#10003;</span> Register
-                    </span>
-                    <h3 className="font-extrabold text-gray-900 text-base">{verb.phrase}</h3>
-                  </div>
-                  <p className="text-gray-600 text-sm leading-relaxed">{verb.register}</p>
-                </div>
-              ))}
+            <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
+              <table className="w-full border-collapse">
+                <thead>
+                  <tr className="bg-gray-50">
+                    <th className="text-left px-5 py-3 text-xs font-extrabold tracking-widest text-gray-400 uppercase border-b border-gray-100">Phrase</th>
+                    <th className="text-left px-5 py-3 text-xs font-extrabold tracking-widest text-gray-400 uppercase border-b border-gray-100">Register</th>
+                    <th className="text-left px-5 py-3 text-xs font-extrabold tracking-widest text-gray-400 uppercase border-b border-gray-100 hidden md:table-cell">Notes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {lesson.phrasalVerbs.filter(v => v.register).map((verb, i, arr) => {
+                    const dashIdx = verb.register!.indexOf(' — ');
+                    const badge = dashIdx !== -1 ? verb.register!.slice(0, dashIdx) : verb.register!;
+                    const notes = dashIdx !== -1 ? verb.register!.slice(dashIdx + 3) : '';
+                    const isLast = i === arr.length - 1;
+                    const lower = badge.toLowerCase();
+                    const badgeClass = lower.includes('formal') && !lower.includes('informal')
+                      ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
+                      : lower.includes('informal')
+                      ? 'bg-amber-50 text-amber-700 border border-amber-200'
+                      : lower.includes('technical') || lower.includes('professional')
+                      ? 'bg-purple-50 text-purple-700 border border-purple-200'
+                      : 'bg-blue-50 text-blue-700 border border-blue-200';
+                    return (
+                      <tr key={verb.phrase} className={isLast ? '' : 'border-b border-gray-100'}>
+                        <td className="px-5 py-4 align-top">
+                          <span className="font-extrabold text-gray-900 text-sm">{verb.phrase}</span>
+                          <p className="text-xs text-gray-400 mt-0.5 leading-relaxed hidden md:block">{verb.definition.slice(0, 60)}{verb.definition.length > 60 ? '…' : ''}</p>
+                        </td>
+                        <td className="px-5 py-4 align-top">
+                          <span className={`inline-block text-xs font-bold px-2.5 py-1 rounded-full whitespace-nowrap ${badgeClass}`}>
+                            {badge}
+                          </span>
+                        </td>
+                        <td className="px-5 py-4 align-top text-sm text-gray-500 leading-relaxed hidden md:table-cell">{notes}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
             </div>
           </section>
         )}
@@ -567,7 +592,7 @@ function SectionHeader({ title, subtitle, instruction }: { title: string; subtit
 function VideoCard({ video }: { video: LessonVideo }) {
   return (
     <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
-      <div className="aspect-video bg-gradient-to-br from-[#F0F4FF] to-blue-50 flex items-center justify-center">
+      <div className="aspect-video bg-gradient-to-br from-[#F0F4FF] to-blue-50 flex items-center">
         {video.youtubeId.startsWith('PLACEHOLDER') ? (
           <div className="text-center p-6">
             <div className="w-16 h-16 bg-[#066EF5]/10 border-2 border-[#066EF5]/20 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -622,5 +647,8 @@ function ExerciseCard({
         {children}
       </div>
     </div>
+  );
+}
+ </div>
   );
 }
