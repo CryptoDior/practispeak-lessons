@@ -348,7 +348,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                             </div>
                           </div>
                           {/* Full-width image */}
-                          <div className="relative bg-[#0f172a] w-full aspect-[16/9] flex items-center justify-center">
+                          <div className="relative bg-[#0f172a] w-full flex items-center justify-center" style={{ aspectRatio: ex.aspectRatio ?? '16/9' }}>
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img src={ex.imageSlug} alt={ex.brand} className="w-full h-full object-cover" onError={e => { (e.target as HTMLImageElement).style.display='none'; }} />
                             <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-500 pointer-events-none">
