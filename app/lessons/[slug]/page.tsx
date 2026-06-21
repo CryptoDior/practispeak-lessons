@@ -230,7 +230,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         {/* In Action — 3 scenario cards, each covering 2 phrasal verbs */}
         {hasPhrasalDetails && (
           <section className={activeTab === wo + 2 ? 'block' : 'hidden'}>
-            <SectionHeader title="In Action" subtitle="Hear how these phrases sound in real B2B situations" />
+            <SectionHeader title="In Action" subtitle="Hear how these phrases sound in real B2B situations" subtitleClass="text-gray-700 font-semibold" />
             <div className="flex flex-col gap-6">
               {[0, 1, 2].map((cardIdx) => {
                 const verbs = lesson.phrasalVerbs.filter(v => v.inAction).slice(cardIdx * 2, cardIdx * 2 + 2);
@@ -250,8 +250,10 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                 return (
                   <div key={cardIdx} className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
                     {/* Dark image header */}
-                    <div className="bg-[#0f172a] flex items-center justify-center py-10 text-slate-500">
+                    <div className="relative bg-[#0f172a] w-full" style={{ aspectRatio: "16/9" }}>
+                      <div className="absolute inset-0 flex items-center justify-center text-slate-500">
                       {meta.icon}
+                      </div>
                     </div>
                     {/* Badge + title */}
                     <div className="flex items-center gap-3 px-6 pt-5 pb-3">
@@ -262,7 +264,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                     <div className="px-6 pb-5 space-y-5">
                       {verbs.map(verb => (
                         <div key={verb.phrase}>
-                          <span className="text-xs font-extrabold tracking-widest text-gray-400 uppercase mb-1.5 block">{verb.phrase}</span>
+                          <span className="text-xs font-extrabold tracking-widest text-gray-600 uppercase mb-1.5 block">{verb.phrase}</span>
                           <p className="text-gray-600 text-base leading-relaxed italic">&ldquo;{verb.inAction}&rdquo;</p>
                         </div>
                       ))}
@@ -504,11 +506,11 @@ function SiteHeader() {
   );
 }
 
-function SectionHeader({ title, subtitle, instruction }: { title: string; subtitle: string; instruction?: string }) {
+function SectionHeader({ title, subtitle, instruction, subtitleClass }: { title: string; subtitle: string; instruction?: string; subtitleClass?: string }) {
   return (
     <div className="mb-6">
       <h2 className="text-2xl font-extrabold text-gray-900 mb-1">{title}</h2>
-      <p className="text-gray-400 text-sm font-semibold">{subtitle}</p>
+      <p className={`text-sm ${subtitleClass ?? "text-gray-400 font-semibold"}`}>{subtitle}</p>
       {instruction && <p className="text-blue-500 text-sm font-medium mt-1">{instruction}</p>}
     </div>
   );
