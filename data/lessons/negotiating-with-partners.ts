@@ -76,6 +76,11 @@ export const negotiatingWithPartners: Lesson = {
       inAction: 'I can move on the delivery timeline if you can move on the payment terms — we need something to give on both sides.',
       register: 'Neutral / Negotiation — signals willingness to trade concessions without giving anything away for free. Used in face-to-face or video negotiation; more direct than appropriate for formal written contracts.',
       inContext: "The negotiation had been going in circles for an hour when Riley decided to make a move. I can move on the exclusivity period if you can move on the minimum commitment, she said. It was a conditional offer — she wasn't giving anything away for free, but she was opening a path forward that both sides could take.",
+      visualExamples: [
+        { brand: 'Apex Media', context: 'Media buying agency — supplier negotiation call', imageSlug: '/images/visual-examples/nwp-p1-apex.png', caption: 'I can move on the contract length if you can move on the monthly volume commitment — we are happy to sign 12 months if you drop the minimum spend from £20k to £12k.', aspectRatio: '16/9' },
+        { brand: 'Relay', context: 'SaaS platform — reseller agreement meeting', imageSlug: '/images/visual-examples/nwp-p1-relay.png', caption: 'I can move on the margin if you can move on the exclusivity clause — we will give you 40% if you remove the requirement that we cannot sell direct in your region.', aspectRatio: '4/3' },
+        { brand: 'Bloom', context: 'Supplements brand — retailer negotiation', imageSlug: '/images/visual-examples/nwp-p1-bloom.png', caption: 'I can move on the payment terms if you can move on the listing fee — net 60 is fine if you waive the £5,000 placement charge.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: "LET'S FIND SOMETHING THAT WORKS FOR BOTH OF US",
@@ -85,6 +90,11 @@ export const negotiatingWithPartners: Lesson = {
       inAction: "We've been debating this contract clause for 20 minutes — let's find something that works for both of us and move the conversation forward.",
       register: 'Neutral — collaborative in tone, used to reset a stalled negotiation. Appropriate in partnership and commercial negotiations where the long-term relationship matters as much as the immediate deal.',
       inContext: "Marcus could see that both sides were getting frustrated. Let's find something that works for both of us, he said, leaning forward. It wasn't a concession — it was a reframe. Instead of fighting over positions, he was inviting the other side to solve a shared problem. The room relaxed slightly and the conversation shifted.",
+      visualExamples: [
+        { brand: 'Kite', context: 'Travel app — distribution partnership call', imageSlug: '/images/visual-examples/nwp-p2-kite.png', caption: 'Let us find something that works for both of us — we need brand visibility in your app, you need revenue share. There is a deal here, it is just about finding the structure.', aspectRatio: '16/9' },
+        { brand: 'Fieldwork', context: 'Research platform — agency partnership meeting', imageSlug: '/images/visual-examples/nwp-p2-fieldwork.png', caption: 'Let us find something that works for both of us — you need white-label rights, we need attribution. We can build both into the agreement if we are flexible on the revenue split.', aspectRatio: '4/3' },
+        { brand: 'Crestview', context: 'Financial firm — co-marketing agreement', imageSlug: '/images/visual-examples/nwp-p2-crestview.png', caption: 'Let us find something that works for both of us — your client base is perfect for our product and we can generate referral fees that offset your client acquisition costs.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: "THAT'S NOT SOMETHING WE CAN AGREE TO, BUT WHAT WE COULD DO IS...",
@@ -94,6 +104,11 @@ export const negotiatingWithPartners: Lesson = {
       inAction: "That's not something we can agree to in this contract cycle, but what we could do is revisit the exclusivity clause at the 12-month review.",
       register: 'Formal / Negotiation — a professional soft refusal followed immediately by a constructive alternative. Keeps the negotiation moving forward without shutting down the relationship or sounding dismissive.',
       inContext: "Dana had prepared her alternative before going into the meeting. When the partner asked for 90-day payment terms, she was ready. That's not something we can agree to, but what we could do is offer 60 days with an early payment discount built in, she said. The partner considered it for a moment, then nodded.",
+      visualExamples: [
+        { brand: 'Paragon', context: 'Creative agency — client scope negotiation', imageSlug: '/images/visual-examples/nwp-p3-paragon.png', caption: 'That is not something we can agree to, but what we could do is offer two revision rounds instead of unlimited — it protects our margin without taking anything off the creative quality.', aspectRatio: '16/9' },
+        { brand: 'Forge', context: 'Project management SaaS — enterprise deal', imageSlug: '/images/visual-examples/nwp-p3-forge.png', caption: 'That is not something we can agree to, but what we could do is include a dedicated CSM instead of the custom SLA — it costs less and delivers more value to your team.', aspectRatio: '4/3' },
+        { brand: 'Raft', context: 'Logistics SaaS — carrier partnership negotiation', imageSlug: '/images/visual-examples/nwp-p3-raft.png', caption: 'That is not something we can agree to, but what we could do is build in a rate review at 6 months instead of annually — gives you more flexibility without locking us into a loss-making structure.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'WHAT WOULD NEED TO HAPPEN FOR YOU TO ACCEPT...',
@@ -103,6 +118,11 @@ export const negotiatingWithPartners: Lesson = {
       inAction: 'What would need to happen for you to accept our standard payment terms — is it about cash flow timing or something else entirely?',
       register: "Neutral — an open-ended question used to understand the partner's underlying needs rather than their stated position. Builds insight and opens up possibilities that a direct counter-offer would miss.",
       inContext: "Marcus had a hunch the real issue wasn't the contract term itself. What would need to happen for you to accept our pricing structure? he asked. The question caught the partner off guard — they had expected pushback, not curiosity. What came next wasn't an objection; it was an explanation of a cash flow problem Marcus could actually help solve.",
+      visualExamples: [
+        { brand: 'Summit', context: 'Outdoor brand — retailer margin negotiation', imageSlug: '/images/visual-examples/nwp-p4-summit.png', caption: 'What would need to happen for you to accept 30% margin instead of 35%? We want to make this work — help us understand what is non-negotiable on your side.', aspectRatio: '16/9' },
+        { brand: 'Halo', context: 'Wellness brand — influencer deal negotiation', imageSlug: '/images/visual-examples/nwp-p4-halo.png', caption: 'What would need to happen for you to accept a 3-post deal instead of 5? We love working with you — if it is a content creation cost issue, we can look at providing more assets.', aspectRatio: '4/3' },
+        { brand: 'Scope Invest', context: 'Analytics SaaS — investor term sheet meeting', imageSlug: '/images/visual-examples/nwp-p4-scope-invest.png', caption: 'What would need to happen for you to accept a cap of 8x instead of 6x? We believe in the trajectory — tell us what would move the needle on the liquidation preference.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'I WANT TO BE TRANSPARENT ABOUT WHERE WE STAND',
@@ -112,6 +132,11 @@ export const negotiatingWithPartners: Lesson = {
       inAction: "I want to be transparent about where we stand — we've had two other partners express interest in this slot, so we'll need a decision by Friday.",
       register: 'Neutral / Semi-formal — signals honest, direct communication in a negotiation. Sets a tone of trust while establishing a fact the other party needs to know. Appropriate in both verbal and written contexts.',
       inContext: "Riley had decided honesty was the best approach. I want to be transparent about where we stand, she said. The budget we have for this partnership is fixed — we're not going to be able to go above it. But we have flexibility on the delivery timeline and the scope of what's included. Let's see if we can build something that works within those parameters.",
+      visualExamples: [
+        { brand: 'Carve', context: 'Fintech startup — partnership negotiation call', imageSlug: '/images/visual-examples/nwp-p5-carve.png', caption: 'I want to be transparent about where we stand — we have two other conversations in progress and a decision deadline on Friday. I would rather you knew that than felt pressured.', aspectRatio: '16/9' },
+        { brand: 'Opal', context: 'Sustainable fashion brand — supplier meeting', imageSlug: '/images/visual-examples/nwp-p5-opal.png', caption: 'I want to be transparent about where we stand — our Q4 budget has been cut by 30% and we need to renegotiate the production run. We want to keep the relationship but we need flexibility.', aspectRatio: '4/3' },
+        { brand: 'Atlas', context: 'Media platform — content licensing deal', imageSlug: '/images/visual-examples/nwp-p5-atlas.png', caption: 'I want to be transparent about where we stand — our legal team flagged two clauses we cannot sign in the current form. I want to resolve this before it becomes a bigger issue.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: "WE'RE AT OUR LIMIT ON THAT ONE",
@@ -121,6 +146,11 @@ export const negotiatingWithPartners: Lesson = {
       inAction: "We've moved significantly on the pricing already — we're at our limit on that one, but we can still talk about the service scope.",
       register: 'Neutral / Informal — used to signal a firm boundary without sounding aggressive or closing the conversation. Direct and final in tone, but leaves room for the discussion to continue on other points.',
       inContext: "Marcus had given ground on three separate clauses before reaching the line he couldn't cross. We're at our limit on that one, he said calmly. He didn't apologise or explain at length — he said it once and moved on. But let's look at what else might address your concern. Is the pricing the real issue, or is it about what you get for that price?",
+      visualExamples: [
+        { brand: 'Bloom Wild', context: 'Flower brand — packaging supplier deal', imageSlug: '/images/visual-examples/nwp-p6-bloom-wild.png', caption: 'We are at our limit on that one — we cannot go below £0.80 per unit without compromising the materials. If it is a budget issue, let us look at order volume instead.', aspectRatio: '16/9' },
+        { brand: 'Morrow', context: 'Luxury skincare — co-branding negotiation', imageSlug: '/images/visual-examples/nwp-p6-morrow.png', caption: 'We are at our limit on that one — the brand equity guidelines do not allow co-branding below a certain tier. That is not negotiable. But the distribution agreement has room to move.', aspectRatio: '4/3' },
+        { brand: 'Lens', context: 'SaaS platform — agency reseller deal', imageSlug: '/images/visual-examples/nwp-p6-lens.png', caption: 'We are at our limit on that one — 45% reseller margin is our floor and our ceiling. What we can do is offer co-funded marketing and priority support to sweeten the partnership.', aspectRatio: '1.91/1' },
+      ],
     }
   ],
 

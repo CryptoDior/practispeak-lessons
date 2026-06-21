@@ -76,6 +76,11 @@ export const integratedMarketingCommunications: Lesson = {
       inAction: "If email is saying one thing and LinkedIn ads are saying something different, all channels need to pull in the same direction — or we'll confuse the customer.",
       register: 'Neutral / Business English — a common IMC idiom. Informal enough for internal team meetings, professional enough for client strategy sessions.',
       inContext: "Riley had just finished auditing the campaign assets when she called the team together. All channels need to pull in the same direction, she said. Right now, the email sounds warm and the ad sounds corporate. A prospect who sees both in the same week won't feel like they're dealing with the same brand.",
+      visualExamples: [
+        { brand: 'Bloom Wild', context: 'Flower subscription brand — campaign brief', imageSlug: '/images/visual-examples/imc-p1-bloom-wild.png', caption: 'All channels need to pull in the same direction on gifting — email, social, and paid all use the same hero visual and copy line. Nothing breaks the experience.', aspectRatio: '16/9' },
+        { brand: 'Opal', context: 'Sustainable fashion brand — brand rollout deck', imageSlug: '/images/visual-examples/imc-p1-opal.png', caption: 'All channels need to pull in the same direction on the sustainability message — we cannot say ethical in OOH and then run fast-fashion pricing in PPC.', aspectRatio: '1.91/1' },
+        { brand: 'Trove', context: 'Secondhand marketplace — IMC plan document', imageSlug: '/images/visual-examples/imc-p1-trove.png', caption: 'All channels need to pull in the same direction for the autumn launch — if the podcast tone is playful and the email tone is corporate, we look like two different brands.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: 'THE MESSAGE NEEDS TO COME THROUGH ON EVERY CHANNEL',
@@ -85,6 +90,11 @@ export const integratedMarketingCommunications: Lesson = {
       inAction: "Whether it's a LinkedIn post, a follow-up email, or the sales deck, the core message needs to come through on every channel.",
       register: 'Neutral — used in campaign briefings, channel audits, and IMC planning sessions. Reinforces the principle of message consistency across all touchpoints.',
       inContext: "The campaign had been live for two weeks when Marcus noticed the inconsistency. The message needs to come through on every channel, he said in the review meeting. Our core claim about compliance is strong in the email — but it's completely absent from the paid ads and the landing page. Three different pages, three different stories.",
+      visualExamples: [
+        { brand: 'Hatch', context: 'Productivity app — creative brief', imageSlug: '/images/visual-examples/imc-p2-hatch.png', caption: 'The message needs to come through on every channel — do less, achieve more has to land whether someone sees a TikTok ad or reads a cold email. Same idea, adapted format.', aspectRatio: '16/9' },
+        { brand: 'Cedar', context: 'Mortgage platform — brand rollout', imageSlug: '/images/visual-examples/imc-p2-cedar.png', caption: 'The message needs to come through on every channel — for a first-time buyer, trust is everything. If Instagram feels casual and the website feels corporate, we lose it.', aspectRatio: '1.91/1' },
+        { brand: 'Fieldwork', context: 'B2B research platform — campaign brief', imageSlug: '/images/visual-examples/imc-p2-fieldwork.png', caption: 'The message needs to come through on every channel — decisions backed by real data is the through-line across LinkedIn ads, the sales deck, and every onboarding email.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: 'WE NEED TO BRIEF ALL CHANNEL OWNERS ON...',
@@ -94,6 +104,11 @@ export const integratedMarketingCommunications: Lesson = {
       inAction: 'Before we launch, we need to brief all channel owners on the tone of voice guidelines and the approved messaging framework.',
       register: 'Neutral — standard operational phrase used in campaign kickoffs and IMC planning meetings. Signals coordination and execution rather than creative direction.',
       inContext: 'Dana had the message architecture ready two weeks before launch. We need to brief all channel owners on the core message and how it translates for each format, she told Riley. The content team, the paid media team, and the sales team all need to be working from the same document before anyone publishes anything.',
+      visualExamples: [
+        { brand: 'Kite', context: 'Travel app — campaign kickoff deck', imageSlug: '/images/visual-examples/imc-p3-kite.png', caption: 'We need to brief all channel owners on the seasonal creative direction before assets go out — last quarter, paid and organic went live with different imagery on the same day.', aspectRatio: '16/9' },
+        { brand: 'Morrow', context: 'Luxury skincare brand — channel brief', imageSlug: '/images/visual-examples/imc-p3-morrow.png', caption: 'We need to brief all channel owners on the tone-of-voice update — our influencer content sounded completely different from our paid ads.', aspectRatio: '1.91/1' },
+        { brand: 'Carto', context: 'Mapping SaaS platform — team brief', imageSlug: '/images/visual-examples/imc-p3-carto.png', caption: 'We need to brief all channel owners on the product change before launch — if sales is pitching the old feature set while marketing promotes the new one, we lose credibility.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: 'EACH CHANNEL PLAYS A DIFFERENT ROLE IN THE JOURNEY',
@@ -103,6 +118,11 @@ export const integratedMarketingCommunications: Lesson = {
       inAction: 'LinkedIn plays a different role in the customer journey than email — LinkedIn builds awareness, email nurtures intent toward a decision.',
       register: "Neutral / Business English — used in media planning and IMC strategy discussions. Helps teams understand why integration doesn't mean identical content on every channel.",
       inContext: "The client had asked why they couldn't just post the same ad everywhere. Marcus took his time explaining. Each channel plays a different role in the journey, he said. LinkedIn introduces the idea, email deepens the relationship, retargeting recaptures attention, and the landing page closes the sale. You can't run the closing argument at the awareness stage.",
+      visualExamples: [
+        { brand: 'Folio', context: 'Personal finance app — channel strategy', imageSlug: '/images/visual-examples/imc-p4-folio.png', caption: 'Each channel plays a different role in the journey — TikTok builds awareness with young savers, email nurtures intent, and the app store page closes the conversion.', aspectRatio: '16/9' },
+        { brand: 'Petal', context: 'Women health app — IMC strategy', imageSlug: '/images/visual-examples/imc-p4-petal.png', caption: 'Each channel plays a different role in the journey — Instagram introduces the brand, YouTube educates the audience, and push notifications drive the daily habit.', aspectRatio: '1.91/1' },
+        { brand: 'Spire', context: 'B2B HR SaaS — buyer journey map', imageSlug: '/images/visual-examples/imc-p4-spire.png', caption: 'Each channel plays a different role in the journey — LinkedIn ads start the conversation, webinars build credibility, and the sales team closes. None of them work alone.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: 'THE CUSTOMER EXPERIENCE NEEDS TO FEEL SEAMLESS',
@@ -112,6 +132,11 @@ export const integratedMarketingCommunications: Lesson = {
       inAction: 'From the first ad impression to the onboarding email, the customer experience needs to feel seamless — as if every touchpoint comes from the same voice.',
       register: "Neutral / Business English — used in CX and IMC planning discussions. 'Seamless' is a standard professional word meaning smooth and consistent, without visible joins or friction between channels.",
       inContext: "Dana presented the customer journey map to the room. The customer experience needs to feel seamless from first touch to close, she said. Right now there's a visible gap between the ad and the landing page — different visual language, different tone. The customer arrives expecting one brand and finds another.",
+      visualExamples: [
+        { brand: 'Halo DTC', context: 'DTC wellness brand — UX audit document', imageSlug: '/images/visual-examples/imc-p5-halo-dtc.png', caption: 'The customer experience needs to feel seamless — if the Instagram ad is warm and aspirational but the checkout is clinical and cold, the drop-off rate tells you the story.', aspectRatio: '16/9' },
+        { brand: 'Grove', context: 'Eco cleaning products — omnichannel brief', imageSlug: '/images/visual-examples/imc-p5-grove.png', caption: 'The customer experience needs to feel seamless — we cannot promise a premium brand in the creative and then ship in plain brown boxes.', aspectRatio: '1.91/1' },
+        { brand: 'Bridge', context: 'Online bank — CX review document', imageSlug: '/images/visual-examples/imc-p5-bridge.png', caption: 'The customer experience needs to feel seamless across app, web, and in-branch — right now the visual language changes completely between touchpoints.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: 'THIS IS WHERE THE INTEGRATION BREAKS DOWN',
@@ -121,6 +146,11 @@ export const integratedMarketingCommunications: Lesson = {
       inAction: 'The handoff between the marketing team and the sales team is where the integration breaks down — the messaging resets completely at that point.',
       register: 'Neutral — used in campaign reviews, channel audits, and post-mortems. Direct and analytical, appropriate for internal team discussions about consistency failures.',
       inContext: "Riley had mapped the entire customer journey before pointing out the problem. This is where the integration breaks down, she said, highlighting the gap between the demo request and the sales follow-up email. Marketing has been saying one thing for eight weeks, and then the sales email introduces completely different language. The customer feels like they've switched brands.",
+      visualExamples: [
+        { brand: 'Kestrel', context: 'Food delivery app — post-campaign review', imageSlug: '/images/visual-examples/imc-p6-kestrel.png', caption: 'This is where the integration breaks down — the paid team ran a promotion the CRM team had not been briefed on. Lapsed users got a discount email after already paying full price.', aspectRatio: '16/9' },
+        { brand: 'Solstice', context: 'Energy brand — campaign audit', imageSlug: '/images/visual-examples/imc-p6-solstice.png', caption: 'This is where the integration breaks down — the brand campaign launched nationally before the regional sales team had the collateral. Prospects called in with no one ready to follow up.', aspectRatio: '1.91/1' },
+        { brand: 'Parcel', context: 'Logistics startup — retrospective slide', imageSlug: '/images/visual-examples/imc-p6-parcel.png', caption: 'This is where the integration breaks down — digital and OOH ran completely different taglines during the same campaign window. No one had signed off a single creative direction.', aspectRatio: '4/3' },
+      ],
     }
   ],
 

@@ -76,6 +76,11 @@ export const socialListeningAndReputation: Lesson = {
       inAction: 'The data shows a spike in negative mentions starting Tuesday morning — we need to identify the trigger before we respond publicly.',
       register: 'Neutral / Technical — used in social listening reports and reputation management meetings. Direct and analytical; signals urgency without creating panic.',
       inContext: "Riley had been monitoring the dashboard when she called the meeting. The data shows a spike in negative mentions starting around 9am yesterday, she said. Most of them are linking to a customer review that went viral within our user community. Before we respond publicly, we need to understand the full picture — is this an isolated complaint or a pattern we've been missing?",
+      visualExamples: [
+        { brand: 'Kestrel', context: 'Food brand — crisis monitoring report', imageSlug: '/images/visual-examples/slr-p1-kestrel.png', caption: 'The data shows a spike in negative mentions following the packaging change — 340 organic posts in 48 hours, mostly on Instagram, using the words plastic, disappointed, and why did you change it.', aspectRatio: '16/9' },
+        { brand: 'Bridge', context: 'Online bank — social monitoring report', imageSlug: '/images/visual-examples/slr-p1-bridge.png', caption: 'The data shows a spike in negative mentions around the app update — the new interface has a 2.3-star rating on the App Store and confusing is the most common word in 1-star reviews.', aspectRatio: '4/3' },
+        { brand: 'Halo', context: 'Wellness brand — reputation dashboard', imageSlug: '/images/visual-examples/slr-p1-halo.png', caption: 'The data shows a spike in negative mentions tied to an influencer post — one creator with 1.2 million followers tagged us in a negative review and generated 4,000 comment mentions in 12 hours.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'OUR SHARE OF VOICE IS GROWING / DECLINING',
@@ -85,6 +90,11 @@ export const socialListeningAndReputation: Lesson = {
       inAction: 'Our share of voice in the compliance software category is growing — we are now at 28% of category mentions, up from 17% six months ago.',
       register: "Neutral / Business English — used in competitive reporting and brand health reviews. 'Share of voice' is a standard marketing metric measuring what proportion of total category conversation a brand occupies.",
       inContext: "Marcus presented the competitive analysis at the quarterly review. Our share of voice is growing in the category — but so is our main competitor's, he said. We've gone from 17% to 28% over six months, which sounds strong. But they've moved from 12% to 31% in the same period. We're winning on absolute terms but losing on the relative measure that matters most.",
+      visualExamples: [
+        { brand: 'Bloom Wild', context: 'Flower subscription — competitor analysis', imageSlug: '/images/visual-examples/slr-p2-bloom-wild.png', caption: 'Our share of voice is growing in the gifting conversation — we have moved from 12% to 19% in six months while our main competitor has dropped from 34% to 28%. The content strategy is working.', aspectRatio: '16/9' },
+        { brand: 'Shield', context: 'Cybersecurity brand — market analysis report', imageSlug: '/images/visual-examples/slr-p2-shield.png', caption: 'Our share of voice is declining in the enterprise security conversation — we have been outposted by two competitors publishing thought leadership weekly. We are invisible in the content we should own.', aspectRatio: '4/3' },
+        { brand: 'Opal', context: 'Sustainable fashion — quarterly brand report', imageSlug: '/images/visual-examples/slr-p2-opal.png', caption: 'Our share of voice is growing in the sustainable fashion category — but the sentiment is mixed. Volume is up but 28% of our mentions are from critics, not advocates. We need to separate the two.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'WE NEED TO GET AHEAD OF THIS STORY',
@@ -94,6 +104,11 @@ export const socialListeningAndReputation: Lesson = {
       inAction: 'Before this complaint reaches the trade press, we need to get ahead of this story with a proactive statement and direct outreach to the affected customers.',
       register: "Informal / Professional — used in crisis communications and PR strategy discussions. 'Get ahead of the story' is a PR idiom meaning to control the narrative before others define it for you.",
       inContext: "Dana had seen this situation before. We need to get ahead of this story, she said in the emergency meeting. Right now it's contained to social media, but we've seen it reach trade press within 48 hours when brands stay silent. If we respond now — honestly and specifically — we shape how this is reported. If we wait, we lose control of the narrative entirely.",
+      visualExamples: [
+        { brand: 'Nova', context: 'Cybersecurity SaaS — PR crisis management', imageSlug: '/images/visual-examples/slr-p3-nova.png', caption: 'We need to get ahead of this story — a security researcher is about to publish a thread about a vulnerability we patched three months ago. We put out a statement before the thread goes live.', aspectRatio: '16/9' },
+        { brand: 'Kite', context: 'Travel app — crisis communications brief', imageSlug: '/images/visual-examples/slr-p3-kite.png', caption: 'We need to get ahead of this story — customers are posting about delayed refunds on Twitter. If we do not acknowledge it in the next two hours, the story will be written for us by someone with 50k followers.', aspectRatio: '4/3' },
+        { brand: 'Forge', context: 'Project management SaaS — reputation brief', imageSlug: '/images/visual-examples/slr-p3-forge.png', caption: 'We need to get ahead of this story — a former employee posted on LinkedIn about internal culture issues. Three journalists have already emailed our PR team. We need a holding statement in the next hour.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'THE ALERT WAS TRIGGERED BY...',
@@ -103,6 +118,11 @@ export const socialListeningAndReputation: Lesson = {
       inAction: "The alert was triggered by a 300% spike in brand mentions combined with the word 'breach' — the monitoring tool flagged it automatically within minutes.",
       register: 'Technical / Professional — used in social listening reports and monitoring discussions. Signals automated detection and describes the specific condition or threshold that caused the alert to fire.',
       inContext: 'Riley was in a client meeting when her phone buzzed with a notification. The alert was triggered by an unusual spike in negative sentiment around a product feature, she said after glancing at it. It looks like a known bug was mentioned in a popular forum. Let me pull up the monitoring dashboard so we can see the full spread of the conversation before we decide how to respond.',
+      visualExamples: [
+        { brand: 'Luma Health', context: 'Telehealth brand — monitoring alert report', imageSlug: '/images/visual-examples/slr-p4-luma.png', caption: 'The alert was triggered by a 400% spike in mentions containing data and privacy — turned out to be a false alarm from a viral meme, but the monitoring caught it in real time.', aspectRatio: '16/9' },
+        { brand: 'Morrow', context: 'Luxury skincare — social monitoring alert', imageSlug: '/images/visual-examples/slr-p4-morrow.png', caption: 'The alert was triggered by a coordinated negative campaign from a competitor affiliate network — 60 accounts posting the same talking points in a three-hour window. Pattern recognition caught it.', aspectRatio: '4/3' },
+        { brand: 'Orbit', context: 'Furniture brand — crisis response document', imageSlug: '/images/visual-examples/slr-p4-orbit.png', caption: 'The alert was triggered by a news article tagging our supply chain in a labour practices story — the keyword monitoring picked it up before any of our social media team had seen it.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'THE BRAND HEALTH SCORE IS TRENDING...',
@@ -112,6 +132,11 @@ export const socialListeningAndReputation: Lesson = {
       inAction: 'The brand health score is trending upward this quarter — positive sentiment is at 74%, the highest level we have recorded since the product launched.',
       register: "Neutral — used in brand health reporting and reputation management reviews. 'Trending' implies direction over time; always follow with the specific direction, the metric, and the evidence behind the trend.",
       inContext: "Marcus opened the brand review with the good news first. The brand health score is trending in the right direction — for the third consecutive month, he said. Net sentiment is up 12 points, positive mentions have increased by 34%, and our association with 'trusted' and 'reliable' are both at record highs. The investment in thought leadership content is showing up clearly in the data.",
+      visualExamples: [
+        { brand: 'Reef', context: 'Sports brand — brand health dashboard', imageSlug: '/images/visual-examples/slr-p5-reef.png', caption: 'The brand health score is trending up after the rebrand — aided awareness is at 61% vs 44% pre-launch, and purchase intent in the 25-34 segment has increased 12 points.', aspectRatio: '16/9' },
+        { brand: 'Carve', context: 'Fintech — quarterly brand health report', imageSlug: '/images/visual-examples/slr-p5-carve.png', caption: 'The brand health score is trending down in the SME segment — trust is the leading indicator and it has dropped 8 points since the pricing announcement in March.', aspectRatio: '4/3' },
+        { brand: 'Arc', context: 'Subscription box — NPS trend analysis', imageSlug: '/images/visual-examples/slr-p5-arc.png', caption: 'The brand health score is trending positively but NPS is lagging — customers feel good about the brand but are not recommending it. That is a word-of-mouth gap, not a brand awareness gap.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'THE REPUTATION MANAGEMENT PLAN COVERS...',
@@ -121,6 +146,11 @@ export const socialListeningAndReputation: Lesson = {
       inAction: 'The reputation management plan covers the first 24 hours of a crisis — who responds, on which channels, and with what level of internal approval required.',
       register: 'Formal — used in crisis preparedness planning and agency briefs. Signals that a structured response protocol exists and is ready to be activated without delay when a crisis occurs.',
       inContext: 'Dana presented the revised crisis communications framework to the board. The reputation management plan covers three scenarios: a data breach, a product failure, and a negative media story, she explained. For each one, there is a decision tree, pre-approved response templates, and designated spokespeople. The goal is that when something happens at 11pm on a Friday, the team knows exactly what to do without waiting for senior approval.',
+      visualExamples: [
+        { brand: 'Atlas', context: 'Media platform — crisis preparedness document', imageSlug: '/images/visual-examples/slr-p6-atlas.png', caption: 'The reputation management plan covers three scenarios: a data breach, a key person controversy, and a content moderation failure — each has a pre-approved statement template and stakeholder communication sequence.', aspectRatio: '16/9' },
+        { brand: 'Paragon', context: 'Creative agency — agency crisis plan', imageSlug: '/images/visual-examples/slr-p6-paragon.png', caption: 'The reputation management plan covers social media crises, client complaint escalations, and press enquiries — response SLAs are 30 minutes for social and 2 hours for press.', aspectRatio: '4/3' },
+        { brand: 'Bloom', context: 'DTC vitamins — brand risk document', imageSlug: '/images/visual-examples/slr-p6-bloom.png', caption: 'The reputation management plan covers product safety alerts, influencer partner controversies, and ingredient sourcing criticism — the most likely triggers for a DTC health brand.', aspectRatio: '1.91/1' },
+      ],
     }
   ],
 

@@ -76,6 +76,11 @@ export const marketingStrategyDeepDive: Lesson = {
       inAction: 'Based on the Ansoff framework, our recommendation is to focus on market penetration before attempting any diversification.',
       register: 'Formal — used in presentations, strategy briefs, and stakeholder meetings. Signals a structured, evidence-based recommendation rather than a personal opinion.',
       inContext: 'Riley opened the board presentation with confidence. Based on the framework, our recommendation is to invest in the SME segment, she said. The BCG matrix and the Ansoff analysis point in the same direction — this is where we have the strongest competitive advantage.',
+      visualExamples: [
+        { brand: 'Vanta', context: 'B2B SaaS security — strategy presentation deck', imageSlug: '/images/visual-examples/msd-p1-vanta.png', caption: 'Based on the framework, our recommendation is to lead with compliance automation — not security features. The buyer cares about audits, not architecture.', aspectRatio: '1.91/1' },
+        { brand: 'Rootly', context: 'Incident management SaaS — investor pitch deck', imageSlug: '/images/visual-examples/msd-p1-rootly.png', caption: 'Based on the framework, our recommendation is to enter through the DevOps buyer — not the CISO. That is where the budget decision actually starts.', aspectRatio: '16/9' },
+        { brand: 'Crestview', context: 'Wealth management firm — client proposal', imageSlug: '/images/visual-examples/msd-p1-crestview.png', caption: 'Based on the framework, our recommendation is a tax-first allocation strategy — not returns-first. That framing changes every conversation with a high-net-worth client.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: 'THE DATA SUGGESTS WE SHOULD...',
@@ -85,6 +90,11 @@ export const marketingStrategyDeepDive: Lesson = {
       inAction: 'The data suggests we should reallocate 30% of the paid media budget to content marketing — the ROI is significantly higher.',
       register: "Neutral / Business English — 'suggests' is softer than 'proves' and is the professional choice when data points in a direction without being definitive. Appropriate in meetings, reports, and presentations.",
       inContext: "Marcus pulled up the analysis and walked the room through the numbers. The data suggests we should prioritise the enterprise segment this quarter, he said. Three separate metrics — pipeline velocity, deal size, and NPS — all point the same way. That's not a coincidence.",
+      visualExamples: [
+        { brand: 'Orbit', context: 'DTC furniture brand — quarterly strategy review', imageSlug: '/images/visual-examples/msd-p2-orbit.png', caption: 'The data suggests we should pause paid social and double down on email — our email list converts at 6x the rate of cold Facebook traffic.', aspectRatio: '16/9' },
+        { brand: 'Flux', context: 'Digital agency — client strategy report', imageSlug: '/images/visual-examples/msd-p2-flux.png', caption: 'The data suggests we should reposition as premium — customers who pay more churn less, and our LTV for that segment is 3x higher.', aspectRatio: '1.91/1' },
+        { brand: 'Scope Labs', context: 'Analytics SaaS — board presentation', imageSlug: '/images/visual-examples/msd-p2-scope-labs.png', caption: 'The data suggests we should expand into mid-market before enterprise — our win rate there is 68% vs 31% upmarket.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: "THERE'S A CLEAR GAP IN THE MARKET FOR...",
@@ -94,6 +104,11 @@ export const marketingStrategyDeepDive: Lesson = {
       inAction: "There's a clear gap in the market for a platform that combines compliance management with marketing automation in a single tool.",
       register: 'Neutral — used in pitches, strategy meetings, and competitive analysis presentations. Always follow with specific evidence to be credible; without evidence it sounds like wishful thinking.',
       inContext: "Dana had spent two weeks mapping the competitive landscape before the pitch. There's a clear gap in the market for a tool that serves regulated SMEs, she told the client. None of the current platforms do this well at scale — and that's exactly where your product fits.",
+      visualExamples: [
+        { brand: 'Rootly Foods', context: 'Plant-based ready meal brand — pitch deck', imageSlug: '/images/visual-examples/msd-p3-rootly-foods.png', caption: 'There is a clear gap in the market for high-protein plant-based meals under £4 — every competitor is either premium or tasteless. We are building into the gap.', aspectRatio: '4/3' },
+        { brand: 'Pinnacle', context: 'Corporate wellness SaaS — go-to-market brief', imageSlug: '/images/visual-examples/msd-p3-pinnacle.png', caption: 'There is a clear gap in the market for mental health tools that integrate with HR systems — most solutions are standalone and no one has built the bridge.', aspectRatio: '16/9' },
+        { brand: 'Ember Clay', context: 'DTC home goods brand — market analysis', imageSlug: '/images/visual-examples/msd-p3-ember-clay.png', caption: 'There is a clear gap in the market for sustainable homeware at mid-market prices — eco options are either cheap and ugly or luxury and unaffordable.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'IF WE POSITION OURSELVES AS..., WE CAN OWN...',
@@ -103,6 +118,11 @@ export const marketingStrategyDeepDive: Lesson = {
       inAction: 'If we position ourselves as the go-to agency for B2B SaaS content, we can own that niche before any competitor notices the opportunity.',
       register: 'Formal / Strategic — used in brand strategy sessions and positioning workshops. Implies a deliberate, committed choice about market territory and what space the brand will claim.',
       inContext: "The strategy meeting had been going for two hours when Riley made her point. If we position ourselves as the platform for regulated industries, we can own that space, she said. Right now, nobody is clearly occupying it — and the window won't be open forever.",
+      visualExamples: [
+        { brand: 'Luma Health', context: 'Telehealth platform — brand positioning deck', imageSlug: '/images/visual-examples/msd-p4-luma.png', caption: 'If we position ourselves as the second-opinion brand, we can own the anxiety-to-action moment — patients who are worried but not yet diagnosed.', aspectRatio: '16/9' },
+        { brand: 'Carve', context: 'B2B fintech startup — pitch deck', imageSlug: '/images/visual-examples/msd-p4-carve.png', caption: 'If we position ourselves as the CFO intelligence layer, we can own the financial forecasting category before any of the big players move in.', aspectRatio: '4/3' },
+        { brand: 'Summit', context: 'Outdoor gear brand — strategy review', imageSlug: '/images/visual-examples/msd-p4-summit.png', caption: 'If we position ourselves as the brand for people who train for it, we can own the serious amateur space — above mass market, below pro.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'THE RISK OF THIS APPROACH IS...',
@@ -112,6 +132,11 @@ export const marketingStrategyDeepDive: Lesson = {
       inAction: 'The risk of this approach is that we commit resources to a niche before we have validated whether the total addressable market is large enough.',
       register: 'Formal — used in risk analysis sections of strategy documents and in stakeholder Q&A. Shows commercial maturity; good strategists name risks without being asked.',
       inContext: 'Marcus respected good strategy, but he never let enthusiasm skip past the downside. The risk of this approach is that we enter a market where the three largest players have been operating for a decade, he said. We need to be honest about the time and investment required to compete on their terms.',
+      visualExamples: [
+        { brand: 'Nova', context: 'Cybersecurity SaaS — risk assessment slide', imageSlug: '/images/visual-examples/msd-p5-nova.png', caption: 'The risk of this approach is commoditisation — if we compete on price, we train the market to see us as interchangeable. We would win deals and lose the brand.', aspectRatio: '16/9' },
+        { brand: 'Halo', context: 'DTC supplements brand — board update', imageSlug: '/images/visual-examples/msd-p5-halo.png', caption: 'The risk of this approach is channel dependency — 90% of our revenue runs through Amazon. One algorithm change and revenue falls off a cliff.', aspectRatio: '1.91/1' },
+        { brand: 'Keystone', context: 'Strategy consultancy — client brief', imageSlug: '/images/visual-examples/msd-p5-keystone.png', caption: 'The risk of this approach is moving too fast into new geographies before the home market is profitable — it splits focus and doubles burn rate.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: 'THIS PLAYS TO OUR STRENGTHS IN...',
@@ -121,6 +146,11 @@ export const marketingStrategyDeepDive: Lesson = {
       inAction: "This move plays to our strengths in data-led content — it's exactly what ESG-focused clients need and what we already do well.",
       register: 'Neutral / Business English — a common strategy idiom meaning the plan builds on existing capabilities rather than requiring the team to develop entirely new skills. Used in meetings and written briefs.',
       inContext: "When the room seemed uncertain about the new direction, Dana made the case. This plays to our strengths in long-form content and stakeholder communications, she said. We're not starting from zero — we're applying what we already do well to an audience that genuinely values it.",
+      visualExamples: [
+        { brand: 'Raft', context: 'Logistics SaaS — quarterly business review', imageSlug: '/images/visual-examples/msd-p6-raft.png', caption: 'This plays to our strengths in real-time data processing — no competitor can match our latency, and supply chain buyers know it.', aspectRatio: '16/9' },
+        { brand: 'Paragon Studio', context: 'Creative agency — new business pitch', imageSlug: '/images/visual-examples/msd-p6-paragon.png', caption: 'This plays to our strengths in brand strategy for founder-led businesses — that is a niche nobody else is owning with real methodology.', aspectRatio: '4/3' },
+        { brand: 'Crestview Advisory', context: 'Financial advisory firm — strategy presentation', imageSlug: '/images/visual-examples/msd-p6-crestview-adv.png', caption: 'This plays to our strengths in long-term relationship management — our NPS is 74 and most of our new business comes from client referrals.', aspectRatio: '1.91/1' },
+      ],
     }
   ],
 

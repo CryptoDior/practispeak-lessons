@@ -76,6 +76,11 @@ export const brandArchitecture: Lesson = {
       inAction: "In the consumer segment, the brand needs to do a different job — it's about aspiration and lifestyle, not technical specifications.",
       register: "Neutral / Business English — used in brand strategy meetings when discussing how a brand's role shifts across different markets, geographies, or audience segments.",
       inContext: 'The agency had been brought in to help with an international expansion. The brand needs to do a different job in this market, the consultant told the room. In the UK, your brand signals trust and reliability. In the US market, those same qualities read as conservative. The architecture needs to reflect that difference without losing the core identity.',
+      visualExamples: [
+        { brand: 'Halo Global', context: 'Wellness brand — international expansion deck', imageSlug: '/images/visual-examples/bra-p1-halo.png', caption: 'The brand needs to do a different job in this market — in the UK it is premium self-care, but in Southeast Asia it is aspirational and accessible. Same brand, completely different positioning brief.', aspectRatio: '16/9' },
+        { brand: 'Crestview', context: 'Financial firm — international brand review', imageSlug: '/images/visual-examples/bra-p1-crestview.png', caption: 'The brand needs to do a different job in this market — in wealth management it signals trust and exclusivity, but in the mass-market robo-advisor space it needs to feel approachable.', aspectRatio: '4/3' },
+        { brand: 'Summit', context: 'Outdoor gear brand — category expansion review', imageSlug: '/images/visual-examples/bra-p1-summit.png', caption: 'The brand needs to do a different job in this market — our adventure brand works for hardcore hikers, but entering the casual outdoors category means the visual language needs a complete reset.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'WE RISK DILUTING THE MASTER BRAND IF WE...',
@@ -85,6 +90,11 @@ export const brandArchitecture: Lesson = {
       inAction: 'We risk diluting the master brand if we extend into the budget segment without a clearly separated sub-brand to protect the premium positioning.',
       register: 'Formal — used in brand architecture reviews and strategic discussions about brand extensions. Signals a risk that needs to be carefully managed before any launch decision is made.',
       inContext: "Riley presented the brand risk analysis clearly. We risk diluting the master brand if we launch a low-cost product line under the same name, she said. Our premium positioning has taken years to build. One budget product, if it underperforms or attracts a different kind of customer, can reposition the entire brand in the market's mind — and that's very hard to reverse.",
+      visualExamples: [
+        { brand: 'Forge', context: 'Project management SaaS — product extension review', imageSlug: '/images/visual-examples/bra-p2-forge.png', caption: 'We risk diluting the master brand if we put our name on a standalone HR tool — Forge stands for developer productivity. HR buyers do not want a developer tool. We need a separate brand.', aspectRatio: '16/9' },
+        { brand: 'Bloom', context: 'DTC vitamins — acquisition review', imageSlug: '/images/visual-examples/bra-p2-bloom.png', caption: 'We risk diluting the master brand if we acquire a discount supplement line without separating it architecturally — our premium positioning is worth more than the revenue.', aspectRatio: '4/3' },
+        { brand: 'Reef', context: 'Sports brand — product range review', imageSlug: '/images/visual-examples/bra-p2-reef.png', caption: 'We risk diluting the master brand if we move into fashion — our credibility is built on performance. The moment we are in the streetwear aisle, we have lost the serious athlete.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'THE RECOMMENDED ARCHITECTURE IS...',
@@ -94,6 +104,11 @@ export const brandArchitecture: Lesson = {
       inAction: 'The recommended architecture is a branded house — one master brand with product-level descriptors rather than separate brand identities for each product.',
       register: 'Formal — used in brand strategy presentations and agency recommendations. Signals a structured, considered recommendation based on analysis of the portfolio, the market, and the business strategy.',
       inContext: 'Marcus concluded the presentation with a clear direction. The recommended architecture is a branded house, he told the client. One master brand, product descriptors below it. This approach consolidates your marketing investment and builds equity in a single place — which is especially important at your current stage of growth, when diluting resources across multiple brands would slow everything down.',
+      visualExamples: [
+        { brand: 'Luma Health', context: 'Health platform — brand strategy document', imageSlug: '/images/visual-examples/bra-p3-luma.png', caption: 'The recommended architecture is a house of brands — the parent company does not appear on consumer-facing products, allowing each health brand to own its niche without cross-contaminating audiences.', aspectRatio: '16/9' },
+        { brand: 'Paragon Group', context: 'Creative group — portfolio brand presentation', imageSlug: '/images/visual-examples/bra-p3-paragon.png', caption: 'The recommended architecture is endorsed brands — each studio carries its own name with a small A Paragon Company endorsement. It gives independence while leveraging group credibility.', aspectRatio: '4/3' },
+        { brand: 'Orbit', context: 'Furniture brand — sub-brand launch brief', imageSlug: '/images/visual-examples/bra-p3-orbit.png', caption: 'The recommended architecture is a branded house — one name, three product tiers differentiated by product naming and price point, not separate brand identities.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'EACH BRAND IN THE PORTFOLIO NEEDS A CLEAR ROLE',
@@ -103,6 +118,11 @@ export const brandArchitecture: Lesson = {
       inAction: 'If each brand in the portfolio is trying to be everything to everyone, none of them will stand out — each brand needs a clear role and a specific audience.',
       register: 'Neutral — used in portfolio brand reviews and brand architecture sessions. Emphasises the need for differentiation and role clarity within a company that manages multiple brands.',
       inContext: "Dana had mapped all seven brands against the customer journey before the workshop. The problem is clear, she said. Each brand in the portfolio is targeting the same customer with the same message. There's no differentiation, no handoff, and no logic to which brand goes where. We're spending marketing budget competing with ourselves, and customers are confused about which product is right for them.",
+      visualExamples: [
+        { brand: 'Grove Group', context: 'Consumer goods group — portfolio review', imageSlug: '/images/visual-examples/bra-p4-grove.png', caption: 'Each brand in the portfolio needs a clear role — Grove is mass-market eco, Heather is premium sustainable, and Leaf is value. Right now, Heather and Grove overlap on price and positioning.', aspectRatio: '16/9' },
+        { brand: 'Atlas Group', context: 'Media group — brand audit document', imageSlug: '/images/visual-examples/bra-p4-atlas.png', caption: 'Each brand in the portfolio needs a clear role — the podcast brand, the newsletter brand, and the events brand are all saying the same thing. We are competing with ourselves.', aspectRatio: '4/3' },
+        { brand: 'Kestrel Foods', context: 'Food group — architecture review', imageSlug: '/images/visual-examples/bra-p4-kestrel.png', caption: 'Each brand in the portfolio needs a clear role — if two brands are targeting the same consumer at the same price point, one needs to move or one needs to be retired.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'THE PARENT BRAND LENDS CREDIBILITY TO...',
@@ -112,6 +132,11 @@ export const brandArchitecture: Lesson = {
       inAction: 'The parent brand lends credibility to the new product launch — customers who already trust the main brand are more likely to try something new from the same company.',
       register: "Formal / Business English — used in brand extension and portfolio discussions. 'Lends credibility' is a standard phrase meaning one brand's established reputation supports another brand or product that is newer or less proven.",
       inContext: "The team was debating whether to launch the new product under a separate brand or connect it visibly to the parent. The parent brand lends credibility to anything we launch in this category, Riley said. It has 15 years of trust behind it. A new standalone brand would have to earn that from scratch — and we don't have the budget or the time. The halo effect is real; use it.",
+      visualExamples: [
+        { brand: 'Horizon Health', context: 'Health conglomerate — new product launch', imageSlug: '/images/visual-examples/bra-p5-horizon.png', caption: 'The parent brand lends credibility to the new supplement line — 30 years of pharmaceutical heritage gives instant permission to play in the OTC wellness space.', aspectRatio: '16/9' },
+        { brand: 'Carve Group', context: 'Fintech group — SME product launch', imageSlug: '/images/visual-examples/bra-p5-carve.png', caption: 'The parent brand lends credibility to the SME banking product — business owners already trust the parent name on mortgages, so there is no cold start problem.', aspectRatio: '4/3' },
+        { brand: 'Morrow Group', context: 'Beauty group — skincare line launch', imageSlug: '/images/visual-examples/bra-p5-morrow.png', caption: 'The parent brand lends credibility to the new skincare line — the fragrance house reputation transfers directly to a skincare audience because they share the same trust in ingredient quality.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'THIS EXTENSION STRETCHES THE BRAND TOO FAR',
@@ -121,6 +146,11 @@ export const brandArchitecture: Lesson = {
       inAction: 'Moving from professional software into consumer electronics — this extension stretches the brand too far and risks confusing our core B2B audience.',
       register: 'Neutral — used in brand extension reviews and portfolio planning. Signals a strategic risk when a brand moves into territory that does not align with its existing positioning, associations, or audience expectations.',
       inContext: "The client had been excited about the extension idea, but Dana had to be honest. This extension stretches the brand too far, she said. Your brand stands for precision and expertise in financial services. A consumer lifestyle product doesn't fit that positioning — and if it fails, it doesn't fail quietly. It changes how people think about the parent brand.",
+      visualExamples: [
+        { brand: 'PeakForm', context: 'Fitness app — hardware product review', imageSlug: '/images/visual-examples/bra-p6-peakform.png', caption: 'This extension stretches the brand too far — PeakForm is a software company. Launching a fitness tracker under the same name confuses the brand promise and dilutes the app premium perception.', aspectRatio: '16/9' },
+        { brand: 'Ember', context: 'Food brand — home appliances extension review', imageSlug: '/images/visual-examples/bra-p6-ember.png', caption: 'This extension stretches the brand too far — meal kits and kitchen equipment can coexist, but Ember brand equity is built on convenience, not technical appliances. The audience overlap is smaller than we think.', aspectRatio: '4/3' },
+        { brand: 'Hatch', context: 'Productivity app — co-working space review', imageSlug: '/images/visual-examples/bra-p6-hatch.png', caption: 'This extension stretches the brand too far — a digital productivity brand launching physical spaces requires a completely separate brand framework. The Hatch name would confuse more than it helps.', aspectRatio: '1.91/1' },
+      ],
     }
   ],
 

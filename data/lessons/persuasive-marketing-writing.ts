@@ -76,6 +76,11 @@ export const persuasiveMarketingWriting: Lesson = {
       inAction: "A headline like 'Welcome to our platform' won't stop the scroll — you need something specific that speaks directly to the reader's most urgent problem.",
       register: 'Informal / Professional — common in copywriting reviews and creative feedback sessions. Natural in a workshop or briefing but not appropriate for formal client-facing documents.',
       inContext: "Dana had been giving feedback on landing page copy for two hours when she came to the most important point. The headline needs to stop the scroll, she said. Right now it reads like a company description, not a promise. The reader has no reason to keep going. Lead with the outcome they'll get, not the name of the product.",
+      visualExamples: [
+        { brand: 'GlowLab', context: 'DTC beauty brand — Instagram ad creative brief', imageSlug: '/images/visual-examples/pmw-p1-glowlab.png', caption: 'The headline needs to stop the scroll — Real Results. Verified by Customers. stops someone mid-thumb because it names exactly what they are afraid to believe.', aspectRatio: '1/1' },
+        { brand: 'Noor', context: 'B2B SaaS — LinkedIn ad creative', imageSlug: '/images/visual-examples/pmw-p1-noor.png', caption: 'The headline needs to stop the scroll — Work in email. Lose everything that matters. is uncomfortable to read. That is the point. Discomfort stops the scroll, comfort does not.', aspectRatio: '1.91/1' },
+        { brand: 'Drift', context: 'Running shoes brand — Google display ad', imageSlug: '/images/visual-examples/pmw-p1-drift.png', caption: 'The headline needs to stop the scroll — Built for people who run before work is identity, not product. Identity always outperforms feature headlines on awareness campaigns.', aspectRatio: '3/1' },
+      ],
     },
     {
       phrase: 'LEAD WITH THE BENEFIT, NOT THE FEATURE',
@@ -85,6 +90,11 @@ export const persuasiveMarketingWriting: Lesson = {
       inAction: "Instead of 'AI-powered compliance checking', lead with the benefit: 'Catch every compliance issue before it reaches legal — automatically.'",
       register: 'Neutral / Copywriting — a core principle of benefit-led writing. Used in creative briefs, copy reviews, and writing workshops. Applies equally to web copy, email, and ad copy.',
       inContext: "Marcus was reviewing the sales deck when he spotted the issue. Every slide leads with the feature, he said. Slide 3 says '14 native integrations.' Lead with the benefit: 'Connect every tool your team already uses in under five minutes.' Same fact, completely different impact on the reader.",
+      visualExamples: [
+        { brand: 'Vault', context: 'Personal finance app — App Store listing', imageSlug: '/images/visual-examples/pmw-p2-vault.png', caption: 'Lead with the benefit, not the feature — the hero copy reads Finally, savings that work while you sleep, not Automated round-up technology. The feature is the how. The benefit is the why.', aspectRatio: '9/19.5' },
+        { brand: 'Shield', context: 'Cybersecurity SaaS — landing page', imageSlug: '/images/visual-examples/pmw-p2-shield.png', caption: 'Lead with the benefit, not the feature — Sleep at night knowing your data is safe converts 3x better than Enterprise-grade encryption. The buyer does not want the tech. They want the outcome.', aspectRatio: '16/9' },
+        { brand: 'Ritual Box', context: 'Wellness subscription — email campaign header', imageSlug: '/images/visual-examples/pmw-p2-ritual-box.png', caption: 'Lead with the benefit, not the feature — Your week, better sits above the fold. The ingredient list comes later. Nobody opens an email for the ingredients.', aspectRatio: '3/1' },
+      ],
     },
     {
       phrase: 'THE CTA NEEDS TO BE ABOVE THE FOLD',
@@ -94,6 +104,11 @@ export const persuasiveMarketingWriting: Lesson = {
       inAction: "If visitors have to scroll to find the CTA, most of them won't — the CTA needs to be above the fold on every landing page version.",
       register: "Neutral / Technical — standard in conversion rate optimisation (CRO) discussions. 'Above the fold' is a well-established web design and copywriting term that any digital marketer should know.",
       inContext: "Riley was reviewing the new landing page design when she flagged the problem. The CTA needs to be above the fold, she said. Right now the button is below a 400-word product description. Most visitors decide whether to stay or leave in the first three seconds — by the time they'd reach that button, they're already gone.",
+      visualExamples: [
+        { brand: 'Apex Academy', context: 'Online course — landing page', imageSlug: '/images/visual-examples/pmw-p3-apex.png', caption: 'The CTA needs to be above the fold — Join 3,400 marketers — enrol today sits at the top of the page with zero scrolling required. On mobile, that is the difference between a click and a bounce.', aspectRatio: '16/9' },
+        { brand: 'Archive', context: 'Fashion marketplace — product page', imageSlug: '/images/visual-examples/pmw-p3-archive.png', caption: 'The CTA needs to be above the fold — Claim your piece appears before any product description. On fashion sites, desire precedes detail. If they need to scroll to buy, they often do not.', aspectRatio: '4/5' },
+        { brand: 'Lumiere', context: 'Luxury skincare — DTC product page', imageSlug: '/images/visual-examples/pmw-p3-lumiere.png', caption: 'The CTA needs to be above the fold — Reserve Your Set sits next to the hero image on every product page. Luxury buyers do not want to hunt for the purchase button.', aspectRatio: '3/2' },
+      ],
     },
     {
       phrase: "THIS COPY ISN'T EARNING ITS PLACE",
@@ -103,6 +118,11 @@ export const persuasiveMarketingWriting: Lesson = {
       inAction: "The third paragraph describes the company history — this copy isn't earning its place on a page where every word needs to reduce hesitation or build desire.",
       register: "Informal / Professional — used in copy reviews and editorial feedback sessions. Direct but constructive; it means the writing isn't doing enough work to justify being on the page.",
       inContext: "Marcus had cut the first draft by 40% before sending it back. A lot of this copy isn't earning its place, he explained in his feedback note. The 'about us' section on a sales landing page should build credibility — not tell the company history. If a sentence isn't reducing hesitation, building desire, or driving action, it shouldn't be there.",
+      visualExamples: [
+        { brand: 'Ember Meals', context: 'Meal kit brand — Facebook ad creative', imageSlug: '/images/visual-examples/pmw-p4-ember.png', caption: 'This copy is not earning its place — the first 40 words describe the brand history, not the customer problem. Nobody reads a Facebook ad to learn about a founder journey.', aspectRatio: '4/5' },
+        { brand: 'Maison Brulee', context: 'Artisan candle brand — email campaign', imageSlug: '/images/visual-examples/pmw-p4-maison.png', caption: 'This copy is not earning its place — the subject line says New arrivals are here. That tells me nothing. These 3 candles sell out every time tells me why to open.', aspectRatio: '3/1' },
+        { brand: 'Forge', context: 'Project management SaaS — homepage', imageSlug: '/images/visual-examples/pmw-p4-forge.png', caption: 'This copy is not earning its place — the hero section spends three sentences on company values. The hero should answer: what is this, who is it for, why should I care.', aspectRatio: '16/9' },
+      ],
     },
     {
       phrase: 'ADDRESS THE OBJECTION BEFORE THE READER RAISES IT',
@@ -112,6 +132,11 @@ export const persuasiveMarketingWriting: Lesson = {
       inAction: "If prospects worry about implementation time, address the objection before the reader raises it: 'Fully live in 48 hours — no IT team required.'",
       register: 'Neutral / Copywriting — a key principle of persuasive writing. Used in copy reviews and strategic writing discussions. Shows genuine audience empathy and preemptive credibility-building.',
       inContext: "Dana had done customer research before writing the landing page. The two biggest objections are cost and setup time, she told the team. So we address the objection before the reader raises it — right after the headline. By the time they reach the price, we've already answered the question they were about to ask.",
+      visualExamples: [
+        { brand: 'Halo', context: 'Supplements brand — landing page', imageSlug: '/images/visual-examples/pmw-p5-halo.png', caption: 'Address the objection before the reader raises it — No subscription. Cancel any time. sits directly below the price. That one line removes the risk that stops hesitant buyers from clicking.', aspectRatio: '16/9' },
+        { brand: 'PeakForm', context: 'Fitness app — App Store listing page', imageSlug: '/images/visual-examples/pmw-p5-peakform.png', caption: 'Address the objection before the reader raises it — Free for 30 days. No card required. lives right next to the download button. The objection is always what if I do not like it. Answer it first.', aspectRatio: '9/19.5' },
+        { brand: 'Carto', context: 'Mapping SaaS — pricing page', imageSlug: '/images/visual-examples/pmw-p5-carto.png', caption: 'Address the objection before the reader raises it — No engineers needed. Set up in under an hour. is the headline above the plan comparison. The objection for SaaS is always complexity. Kill it early.', aspectRatio: '16/9' },
+      ],
     },
     {
       phrase: 'WRITE TO ONE PERSON, NOT TO EVERYONE',
@@ -121,6 +146,11 @@ export const persuasiveMarketingWriting: Lesson = {
       inAction: 'When you write to everyone, nobody feels spoken to — write to one person, the specific professional who has exactly the problem your product solves.',
       register: 'Neutral / Copywriting — a foundational principle used in briefings and writing workshops. Especially important for B2B copy where audience segments are distinct and each has different language, fears, and goals.',
       inContext: "Riley was running a copywriting workshop when she gave the advice that changed how the team wrote. Write to one person, not to everyone, she said. Before you write a single word, picture the specific person reading it — their job title, their biggest headache, what they're afraid of. Then write as if you're talking only to them. The more specific you are, the more people will feel understood.",
+      visualExamples: [
+        { brand: 'Scope', context: 'B2B analytics platform — email sequence', imageSlug: '/images/visual-examples/pmw-p6-scope.png', caption: 'Write to one person, not to everyone — You are probably sitting on data you are not using. Let me show you why. reads like a message to a colleague, not a broadcast. Open rate is 41%.', aspectRatio: '3/1' },
+        { brand: 'Serum No4', context: 'Prestige skincare — Instagram retargeting ad', imageSlug: '/images/visual-examples/pmw-p6-serum.png', caption: 'Write to one person, not to everyone — You have been looking at this for a while. Here is what real customers say. Personalised retargeting copy outperforms generic CTAs by 60%.', aspectRatio: '1/1' },
+        { brand: 'Meridian Studio', context: 'Brand photography service — email outreach', imageSlug: '/images/visual-examples/pmw-p6-meridian.png', caption: 'Write to one person, not to everyone — I looked at your website. Your brand deserves better photos than what you have. That directness gets a reply. Our professional photography service does not.', aspectRatio: '3/1' },
+      ],
     }
   ],
 

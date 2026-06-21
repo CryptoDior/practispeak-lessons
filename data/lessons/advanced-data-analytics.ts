@@ -76,6 +76,11 @@ export const advancedDataAnalytics: Lesson = {
       inAction: "The data points to a significant drop-off between the demo request and the first sales call — that's where we're losing the most qualified leads.",
       register: "Neutral — used in data review meetings and analytical presentations. Slightly more definitive than 'suggests'; use when the data is clear and consistent across multiple sources.",
       inContext: "Marcus had prepared the quarterly analysis with one clear finding. The data points to a content problem at the mid-funnel stage, he said. Prospects are engaging with the top-of-funnel content but then going quiet. We're not giving them a strong enough reason to take the next step.",
+      visualExamples: [
+        { brand: 'Scope', context: 'Analytics SaaS — weekly data review', imageSlug: '/images/visual-examples/ada-p1-scope.png', caption: 'The data points to a drop in activation on day 3 — users who do not complete the setup wizard by then have a 70% chance of churning before the end of the trial.', aspectRatio: '16/9' },
+        { brand: 'Orbit', context: 'DTC furniture brand — post-launch review', imageSlug: '/images/visual-examples/ada-p1-orbit.png', caption: 'The data points to a strong ROAS on Pinterest that we have been underinvesting in — it is our second-highest converting channel but gets 8% of our paid budget.', aspectRatio: '1.91/1' },
+        { brand: 'Pulse', context: 'Health-tech SaaS — data presentation', imageSlug: '/images/visual-examples/ada-p1-pulse.png', caption: 'The data points to a correlation between onboarding call completion and 12-month retention — customers who skip the call churn at 3x the rate.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: 'IF WE LOOK AT THE FUNNEL, WE CAN SEE...',
@@ -85,6 +90,11 @@ export const advancedDataAnalytics: Lesson = {
       inAction: 'If we look at the funnel, we can see that 60% of the drop-off happens between the first email open and the landing page visit.',
       register: 'Neutral — standard analytical phrase used in data review meetings and marketing performance reports. Invites the audience to examine the evidence together rather than just accepting a conclusion.',
       inContext: "Dana shared her screen and opened the funnel dashboard. If we look at the funnel, we can see something interesting happening at the demo stage, she said. The top of the funnel is healthy — traffic, clicks, leads. But there's a 70% drop between demo attendance and follow-up engagement. That's not a traffic problem; it's a nurturing problem.",
+      visualExamples: [
+        { brand: 'Flowstate', context: 'B2B SaaS — funnel review slide', imageSlug: '/images/visual-examples/ada-p2-flowstate.png', caption: 'If we look at the funnel, we can see the biggest drop is at the pricing page — 68% of users who reach it leave without converting. The page is doing something wrong.', aspectRatio: '16/9' },
+        { brand: 'Reef', context: 'E-commerce sports brand — analytics review', imageSlug: '/images/visual-examples/ada-p2-reef.png', caption: 'If we look at the funnel, we can see mobile users abandon at checkout at 2x the rate of desktop — the mobile payment flow needs to be rebuilt.', aspectRatio: '1.91/1' },
+        { brand: 'Atlas Media', context: 'Media platform — board presentation', imageSlug: '/images/visual-examples/ada-p2-atlas.png', caption: 'If we look at the funnel, we can see free trial to paid conversion is 9% — industry average is 22%. We are losing people somewhere in week two.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: 'THE MODEL PREDICTS THAT...',
@@ -94,6 +104,11 @@ export const advancedDataAnalytics: Lesson = {
       inAction: 'The model predicts that leads scoring above 75 will convert at around 60% — which changes how the sales team should prioritise their time.',
       register: "Formal — used in presentations of predictive models and analytical findings. 'Predicts' implies statistical confidence, so only use it when the model has been properly trained and validated.",
       inContext: 'Riley had trained the model on two years of closed-won data before presenting the findings. The model predicts that our Q4 pipeline will deliver £1.2M in closed revenue — but only if the top 40 leads are prioritised within the first week of the quarter, she told the sales director. Every week of delay reduces the conversion probability by approximately 8%.',
+      visualExamples: [
+        { brand: 'Arca', context: 'Predictive analytics startup — client report', imageSlug: '/images/visual-examples/ada-p3-arca.png', caption: 'The model predicts that Q4 revenue will be 18% below plan if we do not close the top three pipeline deals by end of October.', aspectRatio: '16/9' },
+        { brand: 'Crest', context: 'DTC coffee brand — demand forecasting', imageSlug: '/images/visual-examples/ada-p3-crest.png', caption: 'The model predicts that demand for the seasonal blend will outstrip supply by 40% — we need to increase the production run or manage expectations in the pre-launch campaign.', aspectRatio: '1.91/1' },
+        { brand: 'Lens', context: 'Market intelligence SaaS — investor update', imageSlug: '/images/visual-examples/ada-p3-lens.png', caption: 'The model predicts that churn will decrease by 12 points if we implement in-app guidance at the moment users hit a usage plateau.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: 'WE NEED TO ISOLATE THE VARIABLE',
@@ -103,6 +118,11 @@ export const advancedDataAnalytics: Lesson = {
       inAction: 'Before we credit the email sequence with the conversion uplift, we need to isolate the variable — was it the subject line, the send time, or the offer itself?',
       register: 'Neutral / Technical — used in data analysis discussions, A/B test reviews, and attribution meetings. Signals analytical rigour and caution about drawing premature conclusions.',
       inContext: "The team was excited about the improvement in conversion rate, but Marcus wanted to be careful. We need to isolate the variable before we draw any conclusions, he said. Three things changed in the same week: the email subject line, the landing page, and the CTA. We don't know which one drove the lift — and until we do, we can't reliably replicate it.",
+      visualExamples: [
+        { brand: 'Ember', context: 'Meal kit subscription — A/B test review', imageSlug: '/images/visual-examples/ada-p4-ember.png', caption: 'We need to isolate the variable — we changed the headline, the image, and the CTA in the same test, so we have no idea which one drove the 14% lift.', aspectRatio: '16/9' },
+        { brand: 'Tide', context: 'Fintech app — experiment debrief', imageSlug: '/images/visual-examples/ada-p4-tide.png', caption: 'We need to isolate the variable — the pricing test ran during a promotional period, so any conversion improvement could be noise from the sale, not evidence that the new price point works.', aspectRatio: '1.91/1' },
+        { brand: 'Relay', context: 'B2B comms platform — data review', imageSlug: '/images/visual-examples/ada-p4-relay.png', caption: 'We need to isolate the variable — onboarding emails and in-app nudges went out the same week, so we cannot attribute the activation spike to either channel.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: 'BASED ON THE LTV DATA, WE SHOULD ALLOCATE...',
@@ -112,6 +132,11 @@ export const advancedDataAnalytics: Lesson = {
       inAction: 'Based on the LTV data, we should allocate significantly more budget to acquiring Segment A customers — their lifetime value is four times higher.',
       register: 'Formal — used in budget planning meetings and data-driven allocation discussions. Shows that spend decisions are grounded in customer value, not just volume or cost per acquisition.',
       inContext: "Dana had built the LTV model over three months and the results were clear. Based on the LTV data, we should allocate 60% of acquisition budget to the enterprise segment, she told the CFO. The LTV difference is significant enough that we're actually underinvesting in our most valuable customer type — and that's a correctable mistake.",
+      visualExamples: [
+        { brand: 'Bloom Vitamins', context: 'DTC vitamin brand — budget planning', imageSlug: '/images/visual-examples/ada-p5-bloom.png', caption: 'Based on the LTV data, we should allocate 60% of our acquisition budget to the 35-44 female cohort — they have a 28-month average LTV vs 11 months for the 18-24 segment.', aspectRatio: '16/9' },
+        { brand: 'Folio', context: 'Personal finance app — channel review', imageSlug: '/images/visual-examples/ada-p5-folio.png', caption: 'Based on the LTV data, we should allocate more to referral — referred users have a 2.4x higher LTV and a 40% lower CAC than any paid channel.', aspectRatio: '1.91/1' },
+        { brand: 'Halo', context: 'Wellness subscription — quarterly planning', imageSlug: '/images/visual-examples/ada-p5-halo.png', caption: 'Based on the LTV data, we should allocate the retention budget to users in months 4 and 5 — that is when churn spikes, not at month 1 as we assumed.', aspectRatio: '4/3' },
+      ],
     },
     {
       phrase: 'THE VARIANCE TELLS US SOMETHING IS OFF',
@@ -121,6 +146,11 @@ export const advancedDataAnalytics: Lesson = {
       inAction: "The variance in conversion rates between regions tells us something is off — there's too much inconsistency in the data for it to be explained by chance.",
       register: "Neutral / Technical — used in data review sessions. 'Variance' refers to the spread or inconsistency in data; 'something is off' is a conversational signal that a problem is worth investigating further.",
       inContext: "Riley was presenting the monthly performance review when she paused at one section of the dashboard. The variance tells us something is off here, she said. Email open rates are 30% in the UK and 11% in Germany — same campaign, same content, completely different result. There's something going on with the audience, the timing, or the translation, and we need to find out what.",
+      visualExamples: [
+        { brand: 'Summit', context: 'Outdoor brand — performance review', imageSlug: '/images/visual-examples/ada-p6-summit.png', caption: 'The variance tells us something is off — our CPL jumped 34% month-on-month with no change in creative or budget. We need to investigate audience overlap.', aspectRatio: '16/9' },
+        { brand: 'Prism', context: 'B2B SaaS — sales performance review', imageSlug: '/images/visual-examples/ada-p6-prism.png', caption: 'The variance tells us something is off — win rates in the enterprise segment dropped from 32% to 19% in Q3. That is not a market problem. That is a pitch problem.', aspectRatio: '1.91/1' },
+        { brand: 'Arc', context: 'Subscription box brand — data debrief', imageSlug: '/images/visual-examples/ada-p6-arc.png', caption: 'The variance tells us something is off — our customer satisfaction score fell 8 points during a month when NPS stayed flat. The two metrics should move together.', aspectRatio: '4/3' },
+      ],
     }
   ],
 

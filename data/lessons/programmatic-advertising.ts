@@ -76,6 +76,11 @@ export const programmaticAdvertising: Lesson = {
       inAction: 'Once the targeting parameters are set, the DSP optimises the buying automatically — it adjusts bids in real time based on which placements are converting.',
       register: 'Technical / Professional — used in programmatic advertising discussions and media planning meetings. Appropriate for conversations with digital specialists, media teams, and technically informed clients.',
       inContext: "Dana was explaining the programmatic setup to a client who was new to the channel. You don't need to manage individual placements the way you would in a manual buy, she said. The DSP optimises the buying automatically — it learns which audience segments, times of day, and site placements are delivering the lowest cost per acquisition and shifts spend toward them in real time.",
+      visualExamples: [
+        { brand: 'Noor', context: 'B2B SaaS — programmatic campaign review', imageSlug: '/images/visual-examples/pro-p1-noor.png', caption: 'The DSP optimises the buying automatically — we set the KPI as cost-per-qualified-visit and let the algorithm find the highest-performing publisher mix within our brand safety parameters.', aspectRatio: '16/9' },
+        { brand: 'Shield', context: 'Cybersecurity brand — demand gen campaign report', imageSlug: '/images/visual-examples/pro-p1-shield.png', caption: 'The DSP optimises the buying automatically — once we uploaded the ICP lookalike audience and set the frequency cap, the platform shifted budget to the inventory with the highest intent signal.', aspectRatio: '4/3' },
+        { brand: 'Relay', context: 'B2B comms platform — programmatic brief', imageSlug: '/images/visual-examples/pro-p1-relay.png', caption: 'The DSP optimises the buying automatically — our manual PPC spend was 40% less efficient than the programmatic equivalent because we could not react to bid landscape changes in real time.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'WE SET A FLOOR PRICE TO FILTER OUT LOW-QUALITY INVENTORY',
@@ -85,6 +90,11 @@ export const programmaticAdvertising: Lesson = {
       inAction: 'We set a floor price to filter out low-quality inventory — if a placement costs less than £2 CPM, it is usually not worth the brand risk.',
       register: "Technical / Professional — used in programmatic strategy meetings and media plan discussions. 'Floor price' and 'low-quality inventory' are standard programmatic advertising terms.",
       inContext: "Marcus was reviewing the programmatic setup when he asked about brand safety. The biggest risk in open auction is appearing on sites we would never choose manually, the specialist explained. We set a floor price to filter out low-quality inventory — anything below our minimum CPM threshold gets excluded automatically. It's not a perfect filter, but it removes the lowest tier of risk.",
+      visualExamples: [
+        { brand: 'Atlas', context: 'Media brand — inventory quality review', imageSlug: '/images/visual-examples/pro-p2-atlas.png', caption: 'We set a floor price to filter out low-quality inventory — anything below a £3 CPM is usually parked domain traffic or made-for-advertising sites. The floor keeps us out of that ecosystem.', aspectRatio: '16/9' },
+        { brand: 'Luma Health', context: 'Telehealth brand — brand safety brief', imageSlug: '/images/visual-examples/pro-p2-luma.png', caption: 'We set a floor price to filter out low-quality inventory — for a health brand, appearing next to low-quality content is a reputational risk, not just a performance issue.', aspectRatio: '4/3' },
+        { brand: 'Orbit', context: 'Furniture brand — programmatic campaign setup', imageSlug: '/images/visual-examples/pro-p2-orbit.png', caption: 'We set a floor price to filter out low-quality inventory — cheap impressions drove down our CPM average but tanked viewability from 71% to 48%. The floor restored it.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'THE CAMPAIGN IS TARGETING BASED ON...',
@@ -94,6 +104,11 @@ export const programmaticAdvertising: Lesson = {
       inAction: 'The campaign is targeting based on intent signals — users who have recently searched for terms related to compliance software in the past 30 days.',
       register: 'Neutral — standard phrase in programmatic briefings and campaign reporting. Always follow with the specific audience criteria used so stakeholders understand the targeting logic.',
       inContext: "Riley walked the client through the audience strategy. The campaign is targeting based on a combination of firmographic data and behavioural signals, she explained. We're not just targeting job titles — we're targeting people with those job titles who have recently engaged with content about data security and compliance. That's a much more qualified audience than a demographic filter alone.",
+      visualExamples: [
+        { brand: 'Bloom', context: 'DTC vitamin brand — targeting brief', imageSlug: '/images/visual-examples/pro-p3-bloom.png', caption: 'The campaign is targeting based on health content consumption patterns — users who have read three or more nutrition articles in the past 30 days, across any publisher in the network.', aspectRatio: '16/9' },
+        { brand: 'Folio', context: 'Personal finance app — audience targeting brief', imageSlug: '/images/visual-examples/pro-p3-folio.png', caption: 'The campaign is targeting based on life event signals — users showing intent around new job searches, salary comparison content, and financial planning tools. That is our acquisition moment.', aspectRatio: '4/3' },
+        { brand: 'PeakForm', context: 'Fitness app — retargeting campaign setup', imageSlug: '/images/visual-examples/pro-p3-peakform.png', caption: 'The campaign is targeting based on CRM data match — we uploaded our email list, built a lookalike from the top-LTV segment, and suppressed existing subscribers to avoid wasted spend.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'THE THIRD-PARTY COOKIE IS BEING PHASED OUT',
@@ -103,6 +118,11 @@ export const programmaticAdvertising: Lesson = {
       inAction: 'As the third-party cookie is being phased out across major browsers, we are shifting our targeting strategy toward first-party data and contextual signals.',
       register: 'Technical / Industry — used in digital marketing strategy discussions about audience targeting and the future of programmatic. Well-established term that any digital marketer at B2 level should understand.',
       inContext: "The client had asked why they needed to invest in first-party data collection. Dana explained clearly. The third-party cookie is being phased out across most major browsers, she said. That means the way programmatic targeting has worked for the past decade is changing fundamentally. Companies that have built strong first-party data will have a significant competitive advantage over those that haven't.",
+      visualExamples: [
+        { brand: 'Hatch', context: 'Productivity app — cookie strategy update', imageSlug: '/images/visual-examples/pro-p4-hatch.png', caption: 'The third-party cookie is being phased out and we have not built a first-party data strategy yet — we have 14 months and no CRM that can carry the targeting weight.', aspectRatio: '16/9' },
+        { brand: 'Scope', context: 'Analytics SaaS — client briefing document', imageSlug: '/images/visual-examples/pro-p4-scope.png', caption: 'The third-party cookie is being phased out, which is why we have been building contextual targeting capabilities since 2022 — frequency capping and segmentation that do not rely on cross-site tracking.', aspectRatio: '4/3' },
+        { brand: 'Reef', context: 'Sports brand — media planning document', imageSlug: '/images/visual-examples/pro-p4-reef.png', caption: 'The third-party cookie is being phased out — we are shifting 30% of our programmatic budget to publisher direct deals where we can use first-party audience data instead.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'WE NEED TO SET A FREQUENCY CAP TO AVOID AD FATIGUE',
@@ -112,6 +132,11 @@ export const programmaticAdvertising: Lesson = {
       inAction: 'If the same person sees our ad 20 times in a week, we need to set a frequency cap to avoid ad fatigue — overexposure damages brand perception.',
       register: "Technical / Professional — used in programmatic campaign planning and optimisation meetings. 'Frequency cap' and 'ad fatigue' are standard terms in digital media buying and campaign management.",
       inContext: "Marcus noticed the campaign performance dropping in week three. The click-through rate is falling and our sentiment monitoring shows negative comments increasing, he reported. We need to set a frequency cap to avoid ad fatigue. The audience is seeing this too many times — what feels like strong reach to us feels like irritation to them, and they're starting to associate the brand with annoyance rather than relevance.",
+      visualExamples: [
+        { brand: 'Maison Brulee', context: 'Artisan candle brand — campaign brief', imageSlug: '/images/visual-examples/pro-p5-maison.png', caption: 'We need to set a frequency cap to avoid ad fatigue — this is a small niche audience and we are already seeing CPMs rise as we exhaust it. Three impressions per user per week is our ceiling.', aspectRatio: '16/9' },
+        { brand: 'Carto', context: 'Mapping SaaS — campaign debrief', imageSlug: '/images/visual-examples/pro-p5-carto.png', caption: 'We need to set a frequency cap to avoid ad fatigue — a brand sentiment survey showed 22% of respondents had seen our ad too many times. We were paying to irritate people.', aspectRatio: '4/3' },
+        { brand: 'Halo', context: 'Wellness brand — retargeting review', imageSlug: '/images/visual-examples/pro-p5-halo.png', caption: 'We need to set a frequency cap to avoid ad fatigue — users who see our retargeting ad more than five times convert at a lower rate than those who see it twice. The sweet spot is two to three.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'THE BRAND SAFETY SETTINGS EXCLUDE...',
@@ -121,6 +146,11 @@ export const programmaticAdvertising: Lesson = {
       inAction: 'The brand safety settings exclude news content covering conflict and political controversy — we do not want our ads appearing next to sensitive or divisive material.',
       register: "Technical / Professional — used in programmatic setup discussions and brand safety briefings. 'Brand safety settings' is a standard term in digital media buying that any programmatic practitioner should know.",
       inContext: 'Dana was briefing the new media partner on the account requirements. We have strict brand safety rules, she said. The brand safety settings exclude all content categorised as violence, political news, and adult material — and we have a custom exclusion list built from past campaigns where placements caused concerns. Our clients are in a regulated industry and their audiences are conservative. We cannot afford to appear in the wrong context.',
+      visualExamples: [
+        { brand: 'Nova', context: 'Cybersecurity SaaS — brand safety review', imageSlug: '/images/visual-examples/pro-p6-nova.png', caption: 'The brand safety settings exclude all news content by default — for a security brand, appearing next to a data breach headline looks like an endorsement. Exclusion lists are non-negotiable.', aspectRatio: '16/9' },
+        { brand: 'Lumiere', context: 'Luxury skincare — programmatic brand brief', imageSlug: '/images/visual-examples/pro-p6-lumiere.png', caption: 'The brand safety settings exclude user-generated content platforms and low-quality review sites — luxury cannot appear next to poor production quality without brand dilution.', aspectRatio: '4/3' },
+        { brand: 'Forge', context: 'Project management SaaS — compliance review', imageSlug: '/images/visual-examples/pro-p6-forge.png', caption: 'The brand safety settings exclude political content and sensitive categories — one incident in Q2 placed us next to a controversial news story and we received social media feedback within hours.', aspectRatio: '1.91/1' },
+      ],
     }
   ],
 

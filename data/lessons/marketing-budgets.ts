@@ -76,6 +76,11 @@ export const marketingBudgets: Lesson = {
       inAction: "Every line in this budget is tied to a specific outcome — we're not investing in awareness unless we can measure it against pipeline generation.",
       register: 'Formal — used in budget presentations and financial discussions with senior stakeholders. Signals accountability and outcome-based thinking; shows the marketing team is managing spend like a business.',
       inContext: "Riley had spent three days building the budget before the CFO review. The budget is tied to specific outcomes, she said, opening the presentation. I haven't included anything we can't measure against a business result. Every channel has a projected return, and every projection is based on last year's actual performance — not an assumption.",
+      visualExamples: [
+        { brand: 'Scope', context: 'Analytics SaaS — budget presentation deck', imageSlug: '/images/visual-examples/mbu-p1-scope.png', caption: 'The budget is tied to specific outcomes — £180k in paid acquisition is benchmarked against 420 qualified pipeline opportunities by end of Q3. If we hit 350, we review in September.', aspectRatio: '16/9' },
+        { brand: 'Opal', context: 'Sustainable fashion brand — annual budget', imageSlug: '/images/visual-examples/mbu-p1-opal.png', caption: 'The budget is tied to specific outcomes — every line item maps to a KPI. Brand awareness spend is benchmarked against aided recall scores, not impressions.', aspectRatio: '4/3' },
+        { brand: 'Atlas', context: 'Media platform — investor budget review', imageSlug: '/images/visual-examples/mbu-p1-atlas.png', caption: 'The budget is tied to specific outcomes — the content investment is tied to subscriber growth, not content volume. We are not paying for output; we are paying for audience.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: 'I CAN JUSTIFY EVERY LINE ITEM',
@@ -85,6 +90,11 @@ export const marketingBudgets: Lesson = {
       inAction: "This isn't a wish list — I can justify every line item in this budget against a measurable outcome or a named strategic priority.",
       register: 'Neutral — used in budget defence meetings and stakeholder conversations. Signals confidence and preparation. A strong phrase to open with when you know your proposal will face scrutiny.',
       inContext: "The CFO had a reputation for cutting budgets at review. Marcus was prepared. I can justify every line item in this proposal, he said before the CFO had asked a single question. I've mapped each spend item to a specific KPI, and I have last quarter's data to show what happened when we didn't invest in these areas. The CFO sat back and listened.",
+      visualExamples: [
+        { brand: 'Relay', context: 'B2B comms SaaS — CFO budget meeting', imageSlug: '/images/visual-examples/mbu-p2-relay.png', caption: 'I can justify every line item — the £45k agency retainer maps directly to three product launches this year. Remove it and those launches ship without a brand strategy.', aspectRatio: '16/9' },
+        { brand: 'Halo', context: 'Wellness brand — board budget review', imageSlug: '/images/visual-examples/mbu-p2-halo.png', caption: 'I can justify every line item — the influencer budget is tied to CPM benchmarks and past campaign ROAS. It is not a vanity spend; it is our most efficient acquisition channel.', aspectRatio: '4/3' },
+        { brand: 'Bloom', context: 'DTC vitamins — budget debrief presentation', imageSlug: '/images/visual-examples/mbu-p2-bloom.png', caption: 'I can justify every line item — we have tagged every spend category to a customer journey stage. This is not a marketing wish list; it is a revenue plan with costs attached.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: "WHAT'S THE EXPECTED RETURN ON THIS SPEND?",
@@ -94,6 +104,11 @@ export const marketingBudgets: Lesson = {
       inAction: "Before we approve the event sponsorship, what's the expected return on this spend — is it measured in leads, pipeline, or brand awareness?",
       register: 'Neutral — used by stakeholders, finance directors, and marketing directors to challenge budget proposals. Signals outcome-focused thinking; every spend item should have a ready answer to this question.',
       inContext: "Dana had learned to anticipate this question in every budget meeting. What's the expected return on this spend? the finance director asked, pointing to the PR line. That's a fair question, Dana said. PR has a longer attribution cycle than paid media, but in the two campaigns where we ran it last year, we saw a 23% increase in branded search in the following month. I can walk you through the methodology.",
+      visualExamples: [
+        { brand: 'Forge', context: 'Project management SaaS — budget approval meeting', imageSlug: '/images/visual-examples/mbu-p3-forge.png', caption: 'What is the expected return on this spend? The £60k event sponsorship should generate 80 enterprise leads at a 20% close rate — that is 16 deals at an average ACV of £18k.', aspectRatio: '16/9' },
+        { brand: 'Summit', context: 'Outdoor brand — co-marketing budget meeting', imageSlug: '/images/visual-examples/mbu-p3-summit.png', caption: 'What is the expected return on this spend? The co-marketing campaign with a trail running community of 200k should drive 3,000 new email subscribers at a CAC below our paid channel average.', aspectRatio: '4/3' },
+        { brand: 'Crestview', context: 'Financial firm — digital budget review', imageSlug: '/images/visual-examples/mbu-p3-crestview.png', caption: 'What is the expected return on this spend? The SEO investment takes 6 months to compound but builds an organic channel that reduces paid dependency by an estimated 35% by year two.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: "IF WE CUT THIS, HERE'S WHAT WE LOSE",
@@ -103,6 +118,11 @@ export const marketingBudgets: Lesson = {
       inAction: "If we cut the content budget, here's what we lose: organic pipeline, inbound leads, and the SEO rankings we have spent 18 months building.",
       register: 'Neutral — used in budget defence conversations. Direct and analytical. Reframes a proposed cut as a business risk rather than a financial saving, which shifts the frame of the discussion.',
       inContext: "Marcus had prepared for the worst-case scenario before the review. When the CFO suggested cutting the content budget by 50%, Marcus was ready. If we cut this, here's what we lose, he said calmly. He walked through three specific outcomes: the drop in organic pipeline, the increase in paid media costs needed to compensate, and the 12-month lag before organic traffic recovers. The CFO put down her pen.",
+      visualExamples: [
+        { brand: 'Kite', context: 'Travel app — budget cuts review meeting', imageSlug: '/images/visual-examples/mbu-p4-kite.png', caption: 'If we cut this, here is what we lose — removing the content budget saves £28k but eliminates the channel driving 40% of our organic sign-ups. The CAC from paid will more than make up the difference.', aspectRatio: '16/9' },
+        { brand: 'Paragon', context: 'Creative agency — cost review presentation', imageSlug: '/images/visual-examples/mbu-p4-paragon.png', caption: 'If we cut this, here is what we lose — the brand strategy retainer keeps us aligned across five accounts. Without it, each team runs its own interpretation and we lose consistency.', aspectRatio: '4/3' },
+        { brand: 'Morrow', context: 'Luxury skincare — efficiency review', imageSlug: '/images/visual-examples/mbu-p4-morrow.png', caption: 'If we cut this, here is what we lose — the photography budget is not just asset creation; it is the reason our conversion rate is 4.2% vs a category average of 1.8%.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: "WE'RE PROPOSING A REALLOCATION, NOT AN INCREASE",
@@ -112,6 +132,11 @@ export const marketingBudgets: Lesson = {
       inAction: "We're proposing a reallocation, not an increase — we want to shift 20% from paid social into email nurturing, where the ROI is significantly stronger.",
       register: "Formal — used in budget discussions when you need to shift investment without asking for additional funding. Anticipates the stakeholder's first concern and addresses it immediately in the opening statement.",
       inContext: "Riley knew that asking for a budget increase in Q3 was unlikely to succeed. We're proposing a reallocation, not an increase, she opened. The total marketing budget stays exactly the same. But the data from the past six months shows that our highest-ROI channel — email nurturing — is currently receiving the smallest allocation. We want to fix that imbalance.",
+      visualExamples: [
+        { brand: 'Bloom Wild', context: 'Flower brand — budget reallocation deck', imageSlug: '/images/visual-examples/mbu-p5-bloom-wild.png', caption: 'We are proposing a reallocation, not an increase — move £35k from print to paid social and we improve attribution visibility while targeting a younger gifting audience.', aspectRatio: '16/9' },
+        { brand: 'Nova', context: 'Cybersecurity SaaS — channel reallocation', imageSlug: '/images/visual-examples/mbu-p5-nova.png', caption: 'We are proposing a reallocation, not an increase — shift 25% of the events budget to LinkedIn demand gen. Same total spend, better measurability, and pipeline that does not disappear when conferences cancel.', aspectRatio: '4/3' },
+        { brand: 'Folio', context: 'Personal finance app — Q2 reallocation proposal', imageSlug: '/images/visual-examples/mbu-p5-folio.png', caption: 'We are proposing a reallocation, not an increase — move budget from the underperforming display channel into email nurture. The data supports it and total budget stays flat.', aspectRatio: '1.91/1' },
+      ],
     },
     {
       phrase: "LET'S LOOK AT THE NUMBERS TOGETHER",
@@ -121,6 +146,11 @@ export const marketingBudgets: Lesson = {
       inAction: "I know the budget proposal looks ambitious at first glance — let's look at the numbers together and I'll show you exactly where the ROI projections come from.",
       register: 'Neutral — collaborative in tone, used to invite stakeholders into the data rather than defending from a distance. Reduces adversarial dynamics in budget reviews and signals transparency and confidence.',
       inContext: "The finance director had sent back the budget with a note saying the projections were 'optimistic'. Dana picked up the phone. Let's look at the numbers together, she said. I think there may be a methodology difference between how we're calculating return. Can we get 30 minutes this week? The meeting happened, the numbers were agreed, and the budget was approved.",
+      visualExamples: [
+        { brand: 'Arc', context: 'Subscription box — stakeholder budget review', imageSlug: '/images/visual-examples/mbu-p6-arc.png', caption: 'Let us look at the numbers together — before we cut the campaign, I want us to see the full attribution picture. Last-click makes it look like it is underperforming, but it drives 30% of conversions.', aspectRatio: '16/9' },
+        { brand: 'Raft', context: 'Logistics SaaS — finance team meeting', imageSlug: '/images/visual-examples/mbu-p6-raft.png', caption: 'Let us look at the numbers together — the CFO flagged paid spend as a risk, but once we overlay the pipeline data, the ROAS tells a different story.', aspectRatio: '4/3' },
+        { brand: 'Ember', context: 'Meal kits brand — budget negotiation call', imageSlug: '/images/visual-examples/mbu-p6-ember.png', caption: 'Let us look at the numbers together — I do not want us to cut anything based on a single quarter. Let me walk you through the 12-month trend before we make a decision.', aspectRatio: '1.91/1' },
+      ],
     }
   ],
 
