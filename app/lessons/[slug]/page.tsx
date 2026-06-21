@@ -283,14 +283,14 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         {/* Register */}
         {hasPhrasalDetails && (
           <section className={activeTab === wo + 3 ? 'block' : 'hidden'}>
-            <SectionHeader title="Register" subtitle="Understand when and how to use each phrase — formal, neutral, or informal" />
-            <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
+            <SectionHeader title="Register" subtitle="Understand when and how to use each phrase — formal, neutral, or informal" subtitleClass="text-gray-600 font-semibold" />
+            <div className="bg-white rounded-[20px] shadow-[0_2px_20px_rgba(6,110,245,0.08)] overflow-hidden border border-gray-200">
               <table className="w-full border-collapse">
                 <thead>
-                  <tr className="bg-gray-50">
-                    <th className="text-left px-5 py-3 text-xs font-extrabold tracking-widest text-gray-400 uppercase border-b border-gray-100">Phrase</th>
-                    <th className="text-left px-5 py-3 text-xs font-extrabold tracking-widest text-gray-400 uppercase border-b border-gray-100">Register</th>
-                    <th className="text-left px-5 py-3 text-xs font-extrabold tracking-widest text-gray-400 uppercase border-b border-gray-100 hidden md:table-cell">Notes</th>
+                  <tr className="bg-gray-50 border-b-2 border-gray-200">
+                    <th className="text-left px-6 py-4 text-xs font-extrabold tracking-widest text-gray-600 uppercase">Phrase</th>
+                    <th className="text-left px-6 py-4 text-xs font-extrabold tracking-widest text-gray-600 uppercase">Register</th>
+                    <th className="text-left px-6 py-4 text-xs font-extrabold tracking-widest text-gray-600 uppercase hidden md:table-cell">Notes</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -308,17 +308,17 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                       ? 'bg-purple-50 text-purple-700 border border-purple-200'
                       : 'bg-blue-50 text-blue-700 border border-blue-200';
                     return (
-                      <tr key={verb.phrase} className={isLast ? '' : 'border-b border-gray-100'}>
-                        <td className="px-5 py-4 align-top">
-                          <span className="font-extrabold text-gray-900 text-sm">{verb.phrase}</span>
-                          <p className="text-xs text-gray-400 mt-0.5 leading-relaxed hidden md:block">
-                            {verb.definition.length > 60 ? verb.definition.slice(0, 60) + '…' : verb.definition}
+                      <tr key={verb.phrase} className={`${isLast ? '' : 'border-b border-gray-200'} hover:bg-gray-50 transition-colors`}>
+                        <td className="px-6 py-5 align-top w-56">
+                          <span className="font-extrabold text-gray-900 text-sm leading-snug block">{verb.phrase}</span>
+                          <p className="text-sm text-gray-500 mt-1 leading-relaxed hidden md:block">
+                            {verb.definition.length > 70 ? verb.definition.slice(0, 70) + '…' : verb.definition}
                           </p>
                         </td>
-                        <td className="px-5 py-4 align-top">
-                          <span className={`inline-block text-xs font-bold px-2.5 py-1 rounded-full whitespace-nowrap ${badgeClass}`}>{badge}</span>
+                        <td className="px-6 py-5 align-top">
+                          <span className={`inline-block text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap ${badgeClass}`}>{badge}</span>
                         </td>
-                        <td className="px-5 py-4 align-top text-sm text-gray-500 leading-relaxed hidden md:table-cell">{notes}</td>
+                        <td className="px-6 py-5 align-top text-sm text-gray-700 leading-relaxed hidden md:table-cell">{notes}</td>
                       </tr>
                     );
                   })}
