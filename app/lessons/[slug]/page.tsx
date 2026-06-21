@@ -347,18 +347,18 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                               <span className="text-xs text-gray-400 font-semibold">{ex.context}</span>
                             </div>
                           </div>
-                          {/* Full-width image — 1:1 square */}
-                          <div className="relative bg-gray-100 w-full overflow-hidden" style={{ aspectRatio: '3/2' }}>
+                          {/* Caption — above image */}
+                          <div className="px-5 pb-3">
+                            <p className="text-base font-semibold text-gray-800 leading-relaxed italic">&ldquo;{ex.caption}&rdquo;</p>
+                          </div>
+                          {/* Image */}
+                          <div className="relative bg-gray-100 w-full overflow-hidden mx-auto" style={{ aspectRatio: '3/2', maxHeight: '260px' }}>
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img src={ex.imageSlug} alt={ex.brand} className="absolute inset-0 w-full h-full object-contain" onError={e => { const t = e.target as HTMLImageElement; t.style.display='none'; (t.nextElementSibling as HTMLElement).style.display='flex'; }} />
                             <div className="hidden absolute inset-0 items-center justify-center flex-col text-slate-500">
                               <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
                               <span className="text-xs mt-2 font-semibold text-slate-400">{ex.brand} — Image Placeholder</span>
                             </div>
-                          </div>
-                          {/* Caption */}
-                          <div className="px-5 py-4">
-                            <p className="text-sm text-gray-700 leading-relaxed italic">&ldquo;{ex.caption}&rdquo;</p>
                           </div>
                         </div>
                       ))}
