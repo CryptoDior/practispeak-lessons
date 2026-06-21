@@ -97,7 +97,7 @@ export const marketingBudgets: Lesson = {
     },
     {
       phrase: "IF WE CUT THIS, HERE'S WHAT WE LOSE",
-      definition: 'Use this when someone wants to cut your budget. Instead of defending the spend, you show what the business will lose without it. It moves the conversation from 'how much does this cost?' to 'what does cutting this cost us?'',
+      definition: "Use this when someone wants to cut your budget. Instead of defending the spend, you show what the business will lose without it. It moves the conversation from 'how much does this cost?' to 'what does cutting this cost us?'",
       example: "Dana defended the content budget: If we cut this, here's what we lose: 45 organic leads per quarter, or roughly 180 per year. At our average deal value and conversion rate, that's £1.1 million in pipeline that we'll have to replace through paid channels at three times the cost-per-acquisition. The cut saves £80,000 but costs us far more in lost efficiency.",
       imageSlug: '/images/if-we-cut-this-heres-what-we-lose.png',
       inAction: "If we cut the content budget, here's what we lose: organic pipeline, inbound leads, and the SEO rankings we have spent 18 months building.",
@@ -106,7 +106,7 @@ export const marketingBudgets: Lesson = {
     },
     {
       phrase: "WE'RE PROPOSING A REALLOCATION, NOT AN INCREASE",
-      definition: 'Use this when you want to move budget from one area to another — not ask for more money in total. It removes the main objection ('we don't have more budget') because you're not asking for more, just making better use of what you already have.',
+      definition: "Use this when you want to move budget from one area to another — not ask for more money in total. It removes the main objection that you're asking for more money — because you're not. You're just moving existing budget to where it works better.",
       example: "Riley made the proposal: I know the budget environment is tight and I'm not asking for more. We're proposing a reallocation, not an increase — we want to shift £30,000 from the trade event programme, which has underperformed, to the demand generation content programme, which is our most efficient channel by CPA. Same total budget, better expected return.",
       imageSlug: '/images/were-proposing-a-reallocation-not-an-increase.png',
       inAction: "We're proposing a reallocation, not an increase — we want to shift 20% from paid social into email nurturing, where the ROI is significantly stronger.",
@@ -470,4 +470,21 @@ export const marketingBudgets: Lesson = {
                 "lineIndex": 1,
                 "incorrectText": "more higher",
                 "correction": "higher",
-                "explanation": "'More higher' is a double comparative — using both 'more' and the '-er' suffix at the same time, which is incorrect. Comparati
+                "explanation": "'More higher' is a double comparative — using 'more' and the '-er' ending at the same time, which is not correct. In English, comparatives use one or the other: 'more expensive' OR 'higher' — never both together. The correct word here is simply 'higher'."
+            },
+            {
+                "lineIndex": 2,
+                "incorrectText": "If we will cut",
+                "correction": "If we cut",
+                "explanation": "In a conditional sentence ('if this happens, that will happen'), the if-clause uses present simple — not 'will'. 'If we will cut' is incorrect. It should be 'If we cut'. The 'will' goes in the result part: 'If we cut the content budget, we will lose 45 MQLs.'"
+            },
+            {
+                "lineIndex": 4,
+                "incorrectText": "proved track record",
+                "correction": "proven track record",
+                "explanation": "'Proven track record' is the correct fixed expression. 'Proven' is used here as an adjective meaning something that has been shown to work. While 'proved' is the past tense of 'prove', the adjective form used in set phrases like 'track record', 'method', and 'formula' is always 'proven': 'a proven system', 'a proven approach'."
+            }
+        ]
+    }
+  },
+};
