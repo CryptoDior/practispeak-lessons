@@ -53,13 +53,13 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
     const phrasesIdx = withWarmUp.indexOf('Phrases');
     withPhrasalTabs = [
       ...withWarmUp.slice(0, phrasesIdx + 1),
-      'In Action', 'Register', 'In Context',
+      'In Action', 'Register',
       ...withWarmUp.slice(phrasesIdx + 1),
     ];
   } else {
     withPhrasalTabs = [...withWarmUp];
   }
-  const po = hasPhrasalDetails ? 3 : 0;
+  const po = hasPhrasalDetails ? 2 : 0;
 
   const withDealClinic = lesson.dealClinic ? [...withPhrasalTabs, 'Deal Clinic'] : withPhrasalTabs;
   const TABS = lesson.groupActivities ? [...withDealClinic, 'Group Activities'] : withDealClinic;
@@ -326,25 +326,6 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           </section>
         )}
 
-        {/* In Context */}
-        {hasPhrasalDetails && (
-          <section className={activeTab === wo + 4 ? 'block' : 'hidden'}>
-            <SectionHeader title="In Context" subtitle="Read the story — each phrase appears in a real situation" />
-            <div className="flex flex-col gap-5">
-              {lesson.phrasalVerbs.filter(v => v.inContext).map((verb, i) => (
-                <div key={verb.phrase} className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
-                  <div className="flex items-center gap-3 px-6 py-4 border-b border-gray-50">
-                    <span className="text-xs font-extrabold tracking-widest text-emerald-600 uppercase">{String(i + 1).padStart(2, '0')}</span>
-                    <h3 className="font-extrabold text-gray-900 text-base">{verb.phrase}</h3>
-                  </div>
-                  <div className="px-6 py-5">
-                    <p className="text-gray-600 text-base leading-relaxed">{verb.inContext}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
 
         {/* Videos / Register (vocab awareness) */}
         <section className={activeTab === wo + po + 2 ? 'block' : 'hidden'}>
