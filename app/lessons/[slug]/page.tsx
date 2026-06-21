@@ -329,11 +329,11 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
             {/* Visual Examples */}
             {lesson.phrasalVerbs.some(v => v.visualExamples?.length) && (
               <div className="mt-10 space-y-12">
-                <h3 className="text-xs font-extrabold tracking-widest text-gray-500 uppercase">Visual Examples</h3>
+                <h3 className="text-lg font-extrabold tracking-wide text-gray-900">Visual Examples</h3>
                 {lesson.phrasalVerbs.filter(v => v.visualExamples?.length).map(verb => (
                   <div key={verb.phrase}>
                     <div className="mb-5 pb-3 border-b border-blue-100">
-                      <p className="text-[10px] font-bold tracking-widest text-gray-400 uppercase mb-1">Focus phrase</p>
+                      <p className="text-sm font-extrabold tracking-widest text-gray-700 uppercase mb-1">Focus phrase</p>
                       <h4 className="text-base font-extrabold text-gray-900 uppercase tracking-wide">{verb.phrase}</h4>
                     </div>
                     <div className="space-y-6">
