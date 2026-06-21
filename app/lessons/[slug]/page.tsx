@@ -347,11 +347,11 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                               <span className="text-xs text-gray-400 font-semibold">{ex.context}</span>
                             </div>
                           </div>
-                          {/* Full-width image — natural aspect ratio */}
-                          <div className="relative bg-[#0f172a] w-full">
+                          {/* Full-width image — 1:1 square */}
+                          <div className="relative bg-[#0f172a] w-full aspect-square overflow-hidden">
                             {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img src={ex.imageSlug} alt={ex.brand} className="w-full h-auto block" onError={e => { const t = e.target as HTMLImageElement; t.style.display='none'; (t.nextElementSibling as HTMLElement).style.display='flex'; }} />
-                            <div className="hidden w-full items-center justify-center flex-col py-16 text-slate-500" style={{ aspectRatio: ex.aspectRatio ?? '16/9' }}>
+                            <img src={ex.imageSlug} alt={ex.brand} className="absolute inset-0 w-full h-full object-cover object-center" onError={e => { const t = e.target as HTMLImageElement; t.style.display='none'; (t.nextElementSibling as HTMLElement).style.display='flex'; }} />
+                            <div className="hidden absolute inset-0 items-center justify-center flex-col text-slate-500">
                               <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
                               <span className="text-xs mt-2 font-semibold text-slate-400">{ex.brand} — Image Placeholder</span>
                             </div>
