@@ -78,7 +78,7 @@ export const consumerPsychology: Lesson = {
       visualExamples: [
         { brand: 'GlowLab Skincare', context: 'Beauty / DTC brand — Instagram + TikTok', imageSlug: '/images/visual-examples/glowlab-social-proof.png', caption: 'This campaign leverages the principle of social proof — every creative shows a verified customer result, no models.', aspectRatio: '9/16' },
         { brand: 'Noor', context: 'B2B SaaS — LinkedIn sponsored content', imageSlug: '/images/visual-examples/noor-loss-aversion.png', caption: 'This campaign leverages the principle of loss aversion — the funnel shows teams what gets dropped when work lives in email.', aspectRatio: '1.91/1' },
-        { brand: 'PeakForm', context: 'Fitness app — paid search + App Store', imageSlug: '/images/visual-examples/peakform-commitment.jpg', caption: 'This campaign leverages the principle of commitment and consistency — users who complete a free 3-day challenge convert at 4x.', aspectRatio: '9/19.5' },
+        { brand: 'PeakForm', context: 'Fitness app — paid search + App Store', imageSlug: '/images/visual-examples/peakform-commitment.png', caption: 'This campaign leverages the principle of commitment and consistency — users who complete a free 3-day challenge convert at 4x.', aspectRatio: '9/19.5' },
       ],
       inContext: "Riley walked the client through the creative rationale. This campaign leverages the principle of social proof, she explained. Every touchpoint shows real customer results and real faces — we're not asking the prospect to trust us; we're showing them that hundreds of people like them already have.",
     },
