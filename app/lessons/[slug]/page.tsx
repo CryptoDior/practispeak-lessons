@@ -326,46 +326,6 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
               </div>
             )}
 
-            {/* Register Table */}
-            <div className="mt-10 bg-white rounded-[20px] shadow-[0_2px_20px_rgba(6,110,245,0.08)] overflow-hidden border border-gray-200">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="bg-gray-50 border-b-2 border-gray-200">
-                    <th className="text-left px-6 py-4 text-xs font-extrabold tracking-widest text-gray-600 uppercase">Phrase</th>
-                    <th className="text-left px-6 py-4 text-xs font-extrabold tracking-widest text-gray-600 uppercase">Register</th>
-                    <th className="text-left px-6 py-4 text-xs font-extrabold tracking-widest text-gray-600 uppercase hidden md:table-cell">Real Life Examples</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {lesson.phrasalVerbs.filter(v => v.register).map((verb, i, arr) => {
-                    const dashIdx = verb.register!.indexOf(' — ');
-                    const badge = dashIdx !== -1 ? verb.register!.slice(0, dashIdx) : verb.register!;
-                    const notes = dashIdx !== -1 ? verb.register!.slice(dashIdx + 3) : '';
-                    const isLast = i === arr.length - 1;
-                    const lower = badge.toLowerCase();
-                    const badgeClass = lower.includes('formal') && !lower.includes('informal')
-                      ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
-                      : lower.includes('informal')
-                      ? 'bg-amber-50 text-amber-700 border border-amber-200'
-                      : lower.includes('technical') || lower.includes('professional')
-                      ? 'bg-purple-50 text-purple-700 border border-purple-200'
-                      : 'bg-blue-50 text-blue-700 border border-blue-200';
-                    return (
-                      <tr key={verb.phrase} className={`${isLast ? '' : 'border-b border-gray-200'} hover:bg-gray-50 transition-colors`}>
-                        <td className="px-6 py-5 align-top">
-                          <span className="font-extrabold text-gray-900 text-sm leading-snug block">{verb.phrase}</span>
-                          <p className="text-sm text-gray-500 mt-1 leading-relaxed">{verb.definition}</p>
-                        </td>
-                        <td className="px-6 py-5 align-top">
-                          <span className={`inline-block text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap ${badgeClass}`}>{badge}</span>
-                        </td>
-                        <td className="px-6 py-5 align-top text-sm text-gray-700 leading-relaxed hidden md:table-cell">{notes}</td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
           </section>
         )}
 
