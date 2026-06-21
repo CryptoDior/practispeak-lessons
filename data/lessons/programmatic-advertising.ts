@@ -12,56 +12,56 @@ export const programmaticAdvertising: Lesson = {
     {
       word: 'DSP',
       partOfSpeech: 'noun',
-      definition: "Demand-Side Platform — the technology used by advertisers and agencies to buy digital advertising inventory automatically. A DSP connects to multiple ad exchanges and SSPs, allowing buyers to set targeting criteria, bid rules, and budgets in one place. The 'demand side' refers to the buyer's side of the advertising transaction.",
+      definition: "Demand-Side Platform — the technology advertisers and agencies use to buy digital ad space automatically. A DSP connects to multiple ad exchanges and SSPs, so buyers can set their targeting, bidding rules, and budgets all in one place. The 'demand side' means the buyer's side of the deal.",
       example: 'Riley explained the tech stack to the client: We use a DSP to manage all your programmatic buys. Instead of going to each publisher individually, the DSP lets us access inventory across thousands of websites and apps simultaneously. We set your targeting parameters, your bid limits, and your daily budget — and the platform optimises the buying automatically throughout the day.',
       imageSlug: '/images/dsp.png',
     },
     {
       word: 'SSP',
       partOfSpeech: 'noun',
-      definition: "Supply-Side Platform — the technology used by publishers to sell their advertising inventory to multiple buyers simultaneously through ad exchanges and DSPs. An SSP allows a publisher to maximise revenue from available ad space by making it available to many buyers at once. The 'supply side' refers to the publisher's side of the transaction.",
+      definition: "Supply-Side Platform — the technology publishers use to sell their ad space to multiple buyers at the same time through ad exchanges and DSPs. An SSP helps a publisher get the most revenue possible from their available ad space by opening it up to many buyers at once. The 'supply side' means the publisher's side of the deal.",
       example: "Dana explained both sides of the ecosystem: When a user loads the Financial Times homepage, the FT's SSP sends a signal to multiple ad exchanges simultaneously saying: 'I have an impression available from a 45-year-old finance professional in London. What will you bid?' Our DSP receives that signal and decides within milliseconds whether to bid and how much. The SSP and DSP are the two sides of the same transaction.",
       imageSlug: '/images/ssp.png',
     },
     {
       word: 'RTB',
       partOfSpeech: 'noun',
-      definition: 'Real-Time Bidding — the automated auction process through which programmatic ad inventory is bought and sold. When a user loads a web page with ad space, an RTB auction takes place in milliseconds: multiple DSPs bid for the impression, the highest bid wins, and the ad is served before the page finishes loading. RTB enables advertisers to bid on individual impressions, not just placements.',
+      definition: 'Real-Time Bidding — the automated auction through which programmatic ad space is bought and sold. When a user loads a web page, an RTB auction happens in milliseconds: multiple DSPs bid for the impression, the highest bid wins, and the ad appears before the page finishes loading. RTB lets advertisers bid on individual impressions, not just fixed placements.',
       example: "Marcus explained the speed to the client: The whole RTB process happens in under 100 milliseconds — faster than a human blink. While the page is loading, the SSP calls an auction, DSPs receive the bid request, evaluate whether the impression matches their targeting criteria, calculate a bid price, submit it, and the winner's ad is served. All of that happens before you've even seen the page.",
       imageSlug: '/images/rtb.png',
     },
     {
       word: 'COOKIE',
       partOfSpeech: 'noun',
-      definition: "A small file stored on a user's browser that tracks their behaviour across websites — pages visited, products viewed, actions taken. Cookies are the foundation of programmatic targeting, enabling advertisers to reach users based on what they've done online. Third-party cookies (set by advertisers, not the website) are being phased out by major browsers, creating a significant change in how programmatic targeting works.",
+      definition: "A small file stored on a user's browser that tracks what they do across websites — pages visited, products viewed, actions taken. Cookies are the backbone of programmatic targeting, letting advertisers reach people based on their online behaviour. Third-party cookies — set by advertisers, not the website itself — are being phased out by major browsers, which is changing how programmatic targeting works.",
       example: "Riley addressed the client's question: Cookies are how we know you're bidding for someone who visited your pricing page three times last week but hasn't converted. The retargeting campaign reads the cookie that was placed when they visited your site and makes sure your ad follows them across the web. The challenge is that third-party cookies are being deprecated — we need to start planning alternative targeting approaches now.",
       imageSlug: '/images/cookie.png',
     },
     {
       word: 'TARGETING PARAMETER',
       partOfSpeech: 'noun',
-      definition: 'A specific criterion used to define which users should see an ad. Targeting parameters include demographics (age, gender, location), behaviours (recent website visits, purchase history), context (the content of the page where the ad appears), and audience segments (job title, industry, interest category). The more precise the targeting parameters, the more relevant the impression — but the smaller the available audience.',
+      definition: 'A specific rule used to decide which users should see an ad. Targeting parameters include demographics (age, gender, location), behaviours (recent website visits, purchase history), context (the content on the page where the ad appears), and audience segments (job title, industry, interest category). The more precise the targeting, the more relevant each impression — but the smaller your available audience.',
       example: "Dana set the targeting parameters for the campaign: For this campaign, I'm using three stacked targeting parameters — job title contains 'Head of Marketing' or 'CMO', company size between 50 and 500 employees, and industry: financial services or legal. That narrows the audience significantly but makes each impression much more valuable. We'd rather reach 8,000 perfect-fit prospects than 800,000 generic ones.",
       imageSlug: '/images/targeting-parameter.png',
     },
     {
       word: 'VIEWABILITY',
       partOfSpeech: 'noun',
-      definition: "The percentage of ads that are actually seen by a human — not hidden below the fold, not blocked by another element, not served to a bot. The industry standard for a 'viewable' display ad is that at least 50% of the ad's pixels are visible for at least one second. Low viewability means you're paying for ads that nobody sees.",
+      definition: "The percentage of ads that are actually seen by a real person — not hidden below the fold, not covered by another element, not shown to a bot. The industry standard for a 'viewable' display ad is that at least 50% of the ad's pixels must be visible for at least one second. Low viewability means you are paying for ads nobody sees.",
       example: "Marcus reviewed the campaign report: Our viewability rate last month was 41%. The industry benchmark is 70%. That means 59% of our impressions were not technically seen. Either the ad placement is too far down the page, or we're buying from low-quality inventory. We need to set a viewability floor of 70% as a targeting parameter to filter out placements that don't meet that standard.",
       imageSlug: '/images/viewability.png',
     },
     {
       word: 'FREQUENCY CAP',
       partOfSpeech: 'noun',
-      definition: 'A limit on how many times a single user sees the same ad within a given time period. Frequency capping prevents ad fatigue — the phenomenon where repeated exposure to the same ad causes the user to start ignoring it or develop a negative association with the brand. Common caps: 3–5 impressions per user per week.',
+      definition: 'A limit on how many times a single user sees the same ad within a set time period. Frequency capping stops ad fatigue — when someone sees the same ad too many times, they start ignoring it or even resenting the brand. Common caps are 3–5 impressions per user per week.',
       example: "Riley flagged the issue: Our frequency cap is currently set at 20 impressions per user per week — that's far too high. Some users in the retargeting pool are seeing this ad multiple times a day. Ad fatigue sets in after 5 or 6 exposures and after that point you're wasting spend and potentially damaging brand perception. Drop the frequency cap to 4 per week and watch what happens to CTR.",
       imageSlug: '/images/frequency-cap.png',
     },
     {
       word: 'BRAND SAFETY',
       partOfSpeech: 'noun',
-      definition: "Measures taken to ensure that ads do not appear next to content that could damage the brand's reputation — such as fake news, extremist content, violence, or adult material. Brand safety settings in a DSP use keyword blocklists and category exclusions to prevent ads from appearing in harmful contexts.",
+      definition: "Steps taken to make sure ads do not appear next to content that could hurt the brand's reputation — such as fake news, extreme content, violence, or adult material. Brand safety settings in a DSP use keyword blocklists and category exclusions to keep ads out of harmful environments.",
       example: 'Dana briefed the client on the controls: Brand safety is built into our DSP setup for every campaign. We use a category exclusion list that blocks placement next to content flagged as misinformation, adult, violence, or politically inflammatory. We also use a keyword blocklist — if the page contains any of these 200 keywords, the bid is automatically suppressed. Your ad will not appear next to something that damages your reputation.',
       imageSlug: '/images/brand-safety.png',
     }
@@ -70,7 +70,7 @@ export const programmaticAdvertising: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'THE DSP OPTIMISES THE BUYING AUTOMATICALLY',
-      definition: "A phrase used to explain how programmatic platforms manage bidding, targeting, and budget allocation without continuous human intervention. 'Optimises automatically' means the system uses data and algorithms to adjust bids in real time to achieve the best performance within the given parameters. Used when explaining programmatic to clients unfamiliar with ad tech.",
+      definition: "Use this phrase to explain how the platform handles bidding, targeting, and budget without you having to manage it every minute. 'Optimises automatically' means the system uses data to adjust bids in real time to get the best performance within the limits you set. It's useful when explaining programmatic to clients who are new to ad tech.",
       example: "Marcus explained the value to the client: Once we set the targeting parameters, bid ceiling, and daily budget, the DSP optimises the buying automatically — it will bid more for impressions that match the highest-value audience characteristics and less for lower-value ones. You don't need to monitor it manually; the algorithm is doing that continuously. We review performance weekly and make strategic adjustments, but the day-to-day buying decisions are handled by the platform.",
       imageSlug: '/images/the-dsp-optimises-the-buying-automatically.png',
       inAction: 'Once the targeting parameters are set, the DSP optimises the buying automatically — it adjusts bids in real time based on which placements are converting.',
@@ -79,7 +79,7 @@ export const programmaticAdvertising: Lesson = {
     },
     {
       phrase: 'WE SET A FLOOR PRICE TO FILTER OUT LOW-QUALITY INVENTORY',
-      definition: "The phrase for describing the use of minimum bid prices or viewability floors to exclude low-quality ad placements. A 'floor price' is the minimum CPM (cost per thousand impressions) the DSP will accept — anything cheaper is assumed to be low-quality or bot traffic. Used in campaign setup and quality control conversations.",
+      definition: "Use this phrase to describe using minimum bid prices or viewability floors to cut out low-quality ad placements. A 'floor price' is the lowest CPM (cost per thousand impressions) the DSP will accept — anything cheaper is usually low-quality inventory or bot traffic. Common in campaign setup and quality discussions.",
       example: "Riley explained the quality strategy: We've set a floor price of £3 CPM to filter out low-quality inventory. Anything below that price point is typically remnant inventory with low viewability, high bot traffic, or poor-quality placement. It costs us more per impression, but the quality of the impressions we buy is dramatically higher — and that translates to better CTR and lower cost-per-conversion.",
       imageSlug: '/images/we-set-a-floor-price-to-filter-out-low-quality-inventory.png',
       inAction: 'We set a floor price to filter out low-quality inventory — if a placement costs less than £2 CPM, it is usually not worth the brand risk.',
@@ -88,7 +88,7 @@ export const programmaticAdvertising: Lesson = {
     },
     {
       phrase: 'THE CAMPAIGN IS TARGETING BASED ON...',
-      definition: "The standard phrase for describing how an audience is defined in a programmatic campaign. Used when briefing clients, internal teams, or platform partners on who will see the ads and why. Always follow with specific targeting parameters — not vague descriptions like 'marketing professionals'.",
+      definition: "Use this phrase to describe how the audience for a programmatic campaign is defined. It belongs in briefings with clients, internal teams, or platform partners — explaining who will see the ads and why. Always follow it with specific targeting criteria, not vague descriptions like 'marketing professionals'.",
       example: "Dana briefed the client on the setup: The campaign is targeting based on three stacked parameters: job title, company size, and recent website behaviour. Layer one — anyone who has visited the pricing page in the last 30 days. Layer two — within that pool, only those whose LinkedIn profile indicates they're a marketing decision-maker. Layer three — company size between 100 and 1,000 employees. That's a precision audience of about 12,000 people.",
       imageSlug: '/images/the-campaign-is-targeting-based-on.png',
       inAction: 'The campaign is targeting based on intent signals — users who have recently searched for terms related to compliance software in the past 30 days.',
@@ -97,7 +97,7 @@ export const programmaticAdvertising: Lesson = {
     },
     {
       phrase: 'THE THIRD-PARTY COOKIE IS BEING PHASED OUT',
-      definition: 'A phrase referring to the industry-wide change that is removing the primary targeting mechanism in programmatic advertising. Major browsers (Chrome, Safari, Firefox) have been deprecating third-party cookies, forcing the industry to find alternative ways to identify and target users. Used in planning conversations about future-proofing ad strategy.',
+      definition: 'A phrase for the industry-wide change that is removing the main targeting tool in programmatic advertising. Major browsers — Chrome, Safari, Firefox — are removing third-party cookie support, which means the whole industry has to find new ways to identify and target users. Use it in planning conversations about what comes next.',
       example: "Riley explained the strategic risk: The third-party cookie is being phased out — Google's Chrome is the last major browser to maintain it, and it's going away within the next 12 months. That means the retargeting model we rely on — identifying past website visitors across the web — will no longer work in the same way. We need a first-party data strategy now, not after the cookie disappears.",
       imageSlug: '/images/the-third-party-cookie-is-being-phased-out.png',
       inAction: 'As the third-party cookie is being phased out across major browsers, we are shifting our targeting strategy toward first-party data and contextual signals.',
@@ -106,7 +106,7 @@ export const programmaticAdvertising: Lesson = {
     },
     {
       phrase: 'WE NEED TO SET A FREQUENCY CAP TO AVOID AD FATIGUE',
-      definition: "The phrase used when adjusting or recommending campaign settings to prevent overexposure to the same ad. 'Ad fatigue' is when users who have seen an ad too many times stop responding to it or develop negative brand associations. Setting a frequency cap limits how often any single user is shown the same ad in a given period.",
+      definition: "Use this phrase when recommending that a campaign limit how many times the same user sees the same ad. 'Ad fatigue' is what happens when someone sees an ad too often — they stop responding to it or start to dislike the brand. A frequency cap puts a limit on how many times the same person can see the ad in a given time period.",
       example: "Dana flagged the creative fatigue risk: We need to set a frequency cap to avoid ad fatigue — the current setup has no cap, which means some users in the retargeting pool are being shown this ad 15 to 20 times a week. After about five exposures, CTR typically drops by 60% and negative sentiment starts to build. I'm setting the cap at five per week and rotating the creative every two weeks.",
       imageSlug: '/images/we-need-to-set-a-frequency-cap-to-avoid-ad-fatigue.png',
       inAction: 'If the same person sees our ad 20 times in a week, we need to set a frequency cap to avoid ad fatigue — overexposure damages brand perception.',
@@ -115,7 +115,7 @@ export const programmaticAdvertising: Lesson = {
     },
     {
       phrase: 'THE BRAND SAFETY SETTINGS EXCLUDE...',
-      definition: 'The phrase for describing what a brand has explicitly excluded from the inventory it will bid on. Used in campaign setup briefings, reporting, and quality assurance conversations. Always follow with a specific list of excluded categories or the keyword blocklist rationale.',
+      definition: 'Use this phrase to describe what content or categories you have blocked from your campaign — the inventory you will not bid on. It belongs in campaign setup briefings, reporting, and quality assurance conversations. Always follow it with the specific list of excluded categories or the reason behind the keyword blocklist.',
       example: "Marcus confirmed the brand safety setup to the client: The brand safety settings exclude six content categories: adult content, political advertising, misinformation and disinformation, violence and graphic content, gambling, and competing financial services brands. We've also built a 250-keyword blocklist that suppresses bids on any page containing terms associated with those categories. Your ads will only appear in professionally appropriate, brand-safe environments.",
       imageSlug: '/images/the-brand-safety-settings-exclude.png',
       inAction: 'The brand safety settings exclude news content covering conflict and political controversy — we do not want our ads appearing next to sensitive or divisive material.',

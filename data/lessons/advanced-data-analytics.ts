@@ -12,56 +12,56 @@ export const advancedDataAnalytics: Lesson = {
     {
       word: 'REGRESSION',
       partOfSpeech: 'noun',
-      definition: "A statistical method used to understand the relationship between variables — for example, how changes in ad spend affect revenue. In marketing, regression analysis helps identify which inputs (channels, spend levels, audience segments) have the greatest impact on outcomes. 'Running a regression' means performing this analysis.",
+      definition: "A statistical method used to understand the relationship between two or more things — for example, how changes in ad spend affect revenue. In marketing, it helps you find out which channels, spend levels, or audience types have the biggest impact on results. 'Running a regression' means performing this type of analysis.",
       example: 'Dana explained the findings: We ran a regression analysis across 18 months of campaign data to understand which channels were actually driving pipeline. The result was clear: LinkedIn content and email together account for 68% of the variance in quarterly revenue. Paid search contributes less than we thought.',
       imageSlug: '/images/regression.png',
     },
     {
       word: 'SEGMENTATION MODEL',
       partOfSpeech: 'noun',
-      definition: 'A data-driven approach to dividing customers or prospects into groups based on shared characteristics — behaviour, demographics, spending patterns, engagement levels. A segmentation model uses data to define which groups exist and what differentiates them, enabling more targeted and relevant marketing.',
+      definition: 'A data-based way of dividing customers or prospects into groups based on things they have in common — behaviour, location, spending patterns, engagement levels. The model uses data to define what groups exist and what makes each group different, so marketing can be more relevant and specific.',
       example: "Marcus presented the model: We built a segmentation model based on product usage data, company size, and industry. It identified four distinct customer segments — and they behave very differently. The segment we've been treating as our core audience is actually our lowest LTV group. That changes our targeting strategy significantly.",
       imageSlug: '/images/segmentation-model.png',
     },
     {
       word: 'PREDICTIVE',
       partOfSpeech: 'adjective',
-      definition: 'Using past data to forecast future behaviour or outcomes. A predictive model identifies patterns in historical data and applies them to predict what is likely to happen next — which customers are likely to churn, which leads are likely to convert, or which channels are likely to perform best next quarter.',
+      definition: 'Using past data to forecast what is likely to happen next. A predictive model finds patterns in historical data and uses them to make educated guesses about the future — which customers might leave, which leads are likely to convert, or which channels will perform best next quarter.',
       example: "Riley introduced the new tool: We're now using a predictive model to score every inbound lead. It was trained on two years of closed-won data. When a new lead scores above 75, our historical data shows a 60% conversion probability. The sales team now prioritises their time based on the score — not gut feel.",
       imageSlug: '/images/predictive.png',
     },
     {
       word: 'FUNNEL ANALYSIS',
       partOfSpeech: 'noun',
-      definition: "The process of examining how prospects move (or don't move) through each stage of the marketing and sales funnel — from awareness through to conversion. Funnel analysis identifies where drop-off is highest, which stages are leaking, and what interventions could improve throughput.",
+      definition: "The process of looking at how prospects move — or fail to move — through each stage of the marketing and sales funnel. Funnel analysis shows you where you are losing the most people, which stages have problems, and what you could change to get more people through to the end.",
       example: "Dana ran the funnel analysis: We're losing 70% of leads between the first demo and the follow-up email. That's not a lead quality problem — the leads are good. It's a nurturing problem. The gap between demo and follow-up is too long and the follow-up email is too generic. Fixing that one stage could move our conversion rate by several points.",
       imageSlug: '/images/funnel-analysis.png',
     },
     {
       word: 'LTV',
       partOfSpeech: 'noun',
-      definition: 'Lifetime Value — the total revenue a business can expect from a single customer over the entire duration of the relationship. LTV is one of the most important metrics in marketing because it determines how much you can afford to spend to acquire a customer. High LTV customers justify higher acquisition costs.',
+      definition: 'Lifetime Value — the total revenue you can expect from a single customer over the whole time they are with you. LTV is one of the most important numbers in marketing because it tells you how much you can reasonably spend to win a new customer. Customers with a high LTV justify higher spending to acquire them.',
       example: "Marcus challenged the budget allocation: We're spending equally across all segments, but the LTV data tells a completely different story. Segment A has an average LTV of £8,400; Segment B is £2,100. We should be spending four times more to acquire a Segment A customer — but right now we're treating them the same. That's a significant misallocation.",
       imageSlug: '/images/ltv.png',
     },
     {
       word: 'COHORT',
       partOfSpeech: 'noun',
-      definition: 'A group of customers who share a common characteristic — typically the time period when they first became customers (a January cohort, a Q2 cohort). Cohort analysis tracks how each group behaves over time, revealing whether recent customers retain better or worse than older ones, and whether product changes have improved outcomes.',
+      definition: 'A group of customers who share something in common — usually the time when they first became customers (a January cohort, a Q2 cohort). Cohort analysis tracks how each group behaves over time. It shows whether newer customers stay longer than older ones, and whether product changes have made a difference.',
       example: 'Riley explained the cohort analysis: If you look at customers who joined in Q1 last year versus Q1 this year, the retention curves are very different. The Q1 this-year cohort is retaining at 82% after three months; the prior cohort retained at 67%. Something improved — either the onboarding, the product, or the quality of leads coming in. We need to isolate which.',
       imageSlug: '/images/cohort.png',
     },
     {
       word: 'VARIANCE',
       partOfSpeech: 'noun',
-      definition: "The difference between expected results and actual results — or the degree to which data points differ from each other. In budget discussions, 'variance' refers to the gap between planned spend or revenue and actual figures. In statistics, variance measures how spread out the data is around an average.",
+      definition: "The gap between what you expected and what actually happened. In budget discussions, variance is the difference between planned numbers and actual figures. In statistics, it measures how spread out your data points are. A large variance means your predictions were off.",
       example: "Dana flagged the issue in the budget review: We have a 34% variance between the forecast and actual pipeline this quarter. That's too large — it means our model is not accurately predicting outcomes, and that makes planning very difficult. We need to understand whether the variance is in the input data, the model assumptions, or external market factors.",
       imageSlug: '/images/variance.png',
     },
     {
       word: 'ATTRIBUTION',
       partOfSpeech: 'noun',
-      definition: "The process of determining which marketing channels or touchpoints contributed to a conversion. Attribution models decide how to give 'credit' to different touchpoints. Last-click attribution gives all credit to the final touchpoint. Multi-touch attribution distributes credit across the journey. Getting attribution right affects budget decisions significantly.",
+      definition: "The process of figuring out which marketing channels or touchpoints contributed to a sale or conversion. Attribution models decide how to give 'credit' to different touchpoints. Last-click gives all the credit to the final touchpoint. Multi-touch splits the credit across the whole journey. Getting this right has a big impact on where you put your budget.",
       example: "Marcus challenged the reporting: Our current attribution model gives 100% of the credit to the last touchpoint before conversion — usually paid search. But we know from the cohort data that most converters have already been through three or four organic touchpoints before they search. We're over-investing in paid and under-investing in content because our attribution is wrong.",
       imageSlug: '/images/attribution.png',
     }
@@ -70,7 +70,7 @@ export const advancedDataAnalytics: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'THE DATA POINTS TO...',
-      definition: "A phrase for introducing a data-led conclusion. 'The data points to' is more precise and honest than 'the data proves' or 'the data shows' — it acknowledges that data indicates a direction without claiming certainty. Used when presenting analytical findings to stakeholders.",
+      definition: "Use this phrase to introduce a conclusion that comes from data. 'Points to' is more honest than 'proves' or 'shows' — it says the data is pointing clearly in a direction without claiming the case is closed. Use it when presenting analytical findings to stakeholders.",
       example: "Riley presented the quarterly review: The data points to a significant engagement drop-off at the third email in the sequence. Open rates fall from 42% to 18% between email two and email three. That's telling us the third email is either arriving too soon, or the content isn't relevant enough at that stage of the journey.",
       imageSlug: '/images/the-data-points-to.png',
       inAction: "The data points to a significant drop-off between the demo request and the first sales call — that's where we're losing the most qualified leads.",
@@ -79,7 +79,7 @@ export const advancedDataAnalytics: Lesson = {
     },
     {
       phrase: 'IF WE LOOK AT THE FUNNEL, WE CAN SEE...',
-      definition: 'A standard presentation phrase for walking stakeholders through a funnel analysis. It signals that you are about to identify a specific stage, show what is happening there, and explain what it means. Used to make complex data visual and accessible in meetings.',
+      definition: "A standard phrase for walking stakeholders through a funnel analysis in a meeting. It signals that you're about to name a specific stage, show what's happening there, and explain what it means. It makes complex data easier to follow.",
       example: "Dana walked the client through the analysis: If we look at the funnel, we can see that the conversion rate at the demo stage is actually strong — 41%. But we're losing most of that in the 14 days after the demo. By day 14, over half of the warm prospects have gone cold. The problem is post-demo follow-up, not the demo itself.",
       imageSlug: '/images/if-we-look-at-the-funnel-we-can-see.png',
       inAction: 'If we look at the funnel, we can see that 60% of the drop-off happens between the first email open and the landing page visit.',
@@ -88,7 +88,7 @@ export const advancedDataAnalytics: Lesson = {
     },
     {
       phrase: 'THE MODEL PREDICTS THAT...',
-      definition: "Used when presenting the output of a predictive analytics model. 'The model predicts' signals that the claim is based on statistical analysis of historical data, not personal judgment. Always follow with a confidence level or caveat — models are not guarantees.",
+      definition: "Use this phrase when sharing the output of a predictive model. It signals that the claim is based on data analysis, not personal opinion. Always follow it with a confidence level or a caveat — models are not guarantees.",
       example: "Marcus presented the forecast: The model predicts that if we maintain current content investment for the next two quarters, organic pipeline will increase by 28%. That's based on the correlation we found between content output and inbound lead volume over the last 18 months. I'd treat that as directional — there's always uncertainty in any forward-looking model.",
       imageSlug: '/images/the-model-predicts-that.png',
       inAction: 'The model predicts that leads scoring above 75 will convert at around 60% — which changes how the sales team should prioritise their time.',
@@ -97,7 +97,7 @@ export const advancedDataAnalytics: Lesson = {
     },
     {
       phrase: 'WE NEED TO ISOLATE THE VARIABLE',
-      definition: "A phrase used when trying to understand which specific factor caused a change in results. 'Isolate the variable' means separate one factor from all others so you can test whether it is the cause of the effect. Used in campaign analysis, A/B testing discussions, and budget reviews.",
+      definition: "Use this phrase when you need to figure out which specific factor caused a change in results. 'Isolate the variable' means separate one thing from everything else so you can test whether it was the real cause. Common in campaign analysis, A/B testing discussions, and budget reviews.",
       example: "Riley flagged the interpretation problem: We changed three things at the same time last quarter — the ad creative, the audience targeting, and the landing page. Results improved, but we can't say which change drove the improvement. We need to isolate the variable before we scale anything. Run each one separately next quarter.",
       imageSlug: '/images/we-need-to-isolate-the-variable.png',
       inAction: 'Before we credit the email sequence with the conversion uplift, we need to isolate the variable — was it the subject line, the send time, or the offer itself?',
@@ -106,7 +106,7 @@ export const advancedDataAnalytics: Lesson = {
     },
     {
       phrase: 'BASED ON THE LTV DATA, WE SHOULD ALLOCATE...',
-      definition: 'A phrase for connecting lifetime value analysis to budget allocation recommendations. LTV-led allocation means investing more heavily in acquiring and retaining high-value customer segments. This phrase frames budget decisions as data-led rather than based on historic spend patterns or gut feel.',
+      definition: 'Use this phrase to connect LTV analysis to budget decisions. It means your spend should follow customer value — put more money into winning and keeping the customers who are worth the most. It frames budget decisions as coming from data, not habit or instinct.',
       example: 'Dana made the recommendation: Based on the LTV data, we should allocate 60% of our acquisition budget to the enterprise segment — even though they convert slower. Their average LTV is four times higher than SME, so the payback period is longer but the return is substantially better. The data justifies the front-loaded investment.',
       imageSlug: '/images/based-on-the-ltv-data-we-should-allocate.png',
       inAction: 'Based on the LTV data, we should allocate significantly more budget to acquiring Segment A customers — their lifetime value is four times higher.',
@@ -115,7 +115,7 @@ export const advancedDataAnalytics: Lesson = {
     },
     {
       phrase: 'THE VARIANCE TELLS US SOMETHING IS OFF',
-      definition: "A diagnostic phrase used when actual results deviate significantly from forecast. 'Something is off' means there is an error, assumption problem, or unexpected external factor causing the gap. This phrase opens a conversation about root cause — it signals awareness of the gap without assigning blame before investigating.",
+      definition: "Use this phrase when actual results are significantly different from what you predicted. 'Something is off' means there is a problem somewhere — a wrong assumption, a data issue, or something that changed in the market. It opens a conversation about what caused the gap without pointing fingers before you have investigated.",
       example: "Marcus flagged the gap: Q3 pipeline came in 40% below forecast. The variance tells us something is off — either our model assumptions were wrong, market conditions shifted, or there's a data quality issue in the CRM. Before we change strategy, we need to understand which of those three is driving the gap.",
       imageSlug: '/images/the-variance-tells-us-something-is-off.png',
       inAction: "The variance in conversion rates between regions tells us something is off — there's too much inconsistency in the data for it to be explained by chance.",

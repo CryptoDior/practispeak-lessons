@@ -70,7 +70,7 @@ export const marketingStrategyDeepDive: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'BASED ON THE FRAMEWORK, OUR RECOMMENDATION IS...',
-      definition: "The standard opener for presenting a strategic recommendation grounded in a model or analysis. Using 'based on the framework' signals that your view is structured and evidence-based, not just an opinion. Always name the framework before giving the recommendation.",
+      definition: "Use this phrase to open a strategic recommendation that comes from a specific model or analysis. It shows your view is based on evidence, not just a personal opinion. Always name the framework first, then give the recommendation.",
       example: "Riley opened her presentation: Based on the BCG matrix framework, our recommendation is to increase investment in the analytics product — it's in high-growth territory and we have the product to compete. Meanwhile, we should harvest the legacy tool rather than continuing to develop it.",
       imageSlug: '/images/based-on-the-framework-our-recommendation-is.png',
       inAction: 'Based on the Ansoff framework, our recommendation is to focus on market penetration before attempting any diversification.',
@@ -79,7 +79,7 @@ export const marketingStrategyDeepDive: Lesson = {
     },
     {
       phrase: 'THE DATA SUGGESTS WE SHOULD...',
-      definition: "A phrase for presenting evidence-led strategy recommendations. 'Suggests' is softer than 'proves' or 'shows' — it is the right word when data points in a direction but does not make the decision for you. Professionals use 'the data suggests' to combine rigour with humility.",
+      definition: "Use this phrase when the data points clearly in one direction but doesn't make the final decision for you. 'Suggests' is softer than 'proves' — it's honest about what data can and can't tell you. It shows confidence in the numbers while staying open to other factors.",
       example: "Marcus presented the market analysis: The data suggests we should prioritise the SME segment over enterprise for the next 12 months. Acquisition cost is lower, sales cycles are shorter, and our NPS in that segment is significantly higher. That's three separate data points pointing the same way.",
       imageSlug: '/images/the-data-suggests-we-should.png',
       inAction: 'The data suggests we should reallocate 30% of the paid media budget to content marketing — the ROI is significantly higher.',
@@ -88,7 +88,7 @@ export const marketingStrategyDeepDive: Lesson = {
     },
     {
       phrase: "THERE'S A CLEAR GAP IN THE MARKET FOR...",
-      definition: 'The phrase used to identify white space — an unmet need or underserved customer segment. Used in positioning discussions and pitch decks. Always follow with specific evidence: who is not being served, and why you are uniquely placed to serve them.',
+      definition: 'Use this phrase to point out an unmet need or a group of customers no one is serving well. It belongs in positioning discussions and pitch decks. Always back it up with specific evidence — who is missing out, and why you are the right company to serve them.',
       example: "Dana made her case: There's a clear gap in the market for a content agency that specialises in regulated industries — financial services, healthcare, legal. Most agencies avoid these sectors because of compliance complexity. That's exactly why it's an opportunity for us.",
       imageSlug: '/images/theres-a-clear-gap-in-the-market-for.png',
       inAction: "There's a clear gap in the market for a platform that combines compliance management with marketing automation in a single tool.",
@@ -97,7 +97,7 @@ export const marketingStrategyDeepDive: Lesson = {
     },
     {
       phrase: 'IF WE POSITION OURSELVES AS..., WE CAN OWN...',
-      definition: "The language of brand positioning — stating what you want to be known for and what market territory that would give you. Used in strategy meetings when defining or refreshing a brand's position. The phrase commits to a specific angle and shows the commercial outcome.",
+      definition: "Use this phrase in strategy meetings to say what you want your brand to be known for — and what that means for the market. It commits to a clear choice and shows the business result of making that choice.",
       example: "Riley outlined the strategy: If we position ourselves as the go-to agency for data-driven B2B content, we can own the space between management consultants and traditional content agencies. That's a valuable position and right now, nobody is clearly occupying it.",
       imageSlug: '/images/if-we-position-ourselves-as-we-can-own.png',
       inAction: 'If we position ourselves as the go-to agency for B2B SaaS content, we can own that niche before any competitor notices the opportunity.',
@@ -106,7 +106,7 @@ export const marketingStrategyDeepDive: Lesson = {
     },
     {
       phrase: 'THE RISK OF THIS APPROACH IS...',
-      definition: 'A phrase for balancing a recommendation with honest risk analysis. Good strategists do not only present the opportunity — they also name what could go wrong. Using this phrase shows commercial maturity and builds credibility with stakeholders.',
+      definition: 'Use this phrase to be honest about what could go wrong with a recommendation. Good strategists always name the downside as well as the upside. It builds trust with your audience and shows you have thought through the full picture.',
       example: "Marcus was direct: The risk of this approach is that we are entering a market where the three largest players have been operating for over a decade. We would be competing on their terms, not ours. That's not impossible, but we need to be honest about the time and investment required.",
       imageSlug: '/images/the-risk-of-this-approach-is.png',
       inAction: 'The risk of this approach is that we commit resources to a niche before we have validated whether the total addressable market is large enough.',
@@ -115,7 +115,7 @@ export const marketingStrategyDeepDive: Lesson = {
     },
     {
       phrase: 'THIS PLAYS TO OUR STRENGTHS IN...',
-      definition: "Used to show that a proposed strategy aligns with existing capabilities. 'Plays to our strengths' is a common idiom in strategy presentations — it means the move builds on what you already do well rather than forcing you into unfamiliar territory.",
+      definition: "Use this phrase to show that a strategy builds on what your team already does well. 'Plays to our strengths' is a common phrase in strategy meetings — it means you are moving into territory where you already have an advantage, not starting from scratch.",
       example: 'Dana made the case: Moving into the sustainability marketing space plays to our strengths in long-form content and stakeholder communications — those are exactly the skills ESG-focused clients need. We are not starting from zero; we are applying what we already do well to a new audience.',
       imageSlug: '/images/this-plays-to-our-strengths-in.png',
       inAction: "This move plays to our strengths in data-led content — it's exactly what ESG-focused clients need and what we already do well.",

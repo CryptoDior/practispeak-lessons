@@ -12,56 +12,56 @@ export const integratedMarketingCommunications: Lesson = {
     {
       word: 'IMC',
       partOfSpeech: 'noun',
-      definition: 'Integrated Marketing Communications — the practice of coordinating all marketing channels and messages so they work together as a unified whole. In an IMC strategy, every channel (email, social, paid, PR, sales) delivers the same core message in ways appropriate to that channel. The goal is consistency and cumulative impact.',
+      definition: 'Integrated Marketing Communications — the practice of making sure all your marketing channels and messages work together. In an IMC strategy, every channel — email, social, paid, PR, sales — carries the same core message in a way that fits that channel. The goal is a consistent, joined-up experience for the customer.',
       example: 'Riley opened the strategy session: Before we assign channel owners and budgets, we need to agree on the IMC framework. Every piece of communication we create — from the LinkedIn posts to the sales deck to the follow-up email sequence — should feel like it comes from the same campaign, from the same brand, telling the same story.',
       imageSlug: '/images/imc.png',
     },
     {
       word: 'CONSISTENCY',
       partOfSpeech: 'noun',
-      definition: 'The quality of delivering the same message, tone, and brand identity across all channels and all touchpoints. Consistency builds recognition and trust — customers who see the same message repeatedly and across multiple channels are more likely to remember it and believe it.',
+      definition: 'Delivering the same message, tone, and brand identity at every touchpoint and on every channel. When customers see the same message repeated across different channels, they are more likely to remember it and trust it.',
       example: 'Marcus reviewed the drafts: The problem here is consistency. The email is warm and conversational, the ad is formal and corporate, and the landing page sounds like a different brand entirely. A customer who touches all three of these in the same week will feel confused, not convinced. We need a unified voice.',
       imageSlug: '/images/consistency.png',
     },
     {
       word: 'MESSAGE ARCHITECTURE',
       partOfSpeech: 'noun',
-      definition: 'The structured hierarchy of messages that make up a campaign — from the single core idea at the top, down to the supporting messages for each audience segment and channel. A message architecture ensures that even when different teams work on different channels, they are all building toward the same idea.',
+      definition: 'The organised structure of messages in a campaign — the single core idea at the top, with supporting messages below it for each audience and channel. A message architecture means that even when different teams work on different channels, they are all building toward the same central idea.',
       example: "Dana built the message architecture for the launch: At the top is our core claim: 'The platform built for regulated industries.' Below that, we have three supporting messages — one for compliance teams, one for marketing teams, and one for the C-suite. Every piece of content maps to one of these four levels. Nothing goes out without a home in the architecture.",
       imageSlug: '/images/message-architecture.png',
     },
     {
       word: 'MEDIA MIX',
       partOfSpeech: 'noun',
-      definition: 'The combination of channels and formats used to deliver a campaign. A media mix might include paid search, LinkedIn ads, email, PR, events, and content marketing. The right media mix depends on where the target audience spends time and which channels are most effective at each stage of the funnel.',
+      definition: 'The combination of channels and formats used to run a campaign. A media mix might include paid search, LinkedIn ads, email, PR, events, and content. The right mix depends on where your target audience spends their time and which channels do the best job at each stage of the customer journey.',
       example: "Riley presented the recommended media mix: For this campaign, I'm proposing 40% paid LinkedIn for awareness, 30% email for nurturing, 20% content for organic reach, and 10% events for late-funnel conversion. The mix reflects where our target audience is and what moves them at each stage of the journey.",
       imageSlug: '/images/media-mix.png',
     },
     {
       word: 'SYNERGY',
       partOfSpeech: 'noun',
-      definition: 'When channels working together produce a greater result than any single channel could alone. In IMC, synergy happens when a prospect sees the same message on LinkedIn, in an email, and in a retargeting ad — and the repeated exposure across different contexts makes the message land more powerfully than three independent, unrelated exposures.',
+      definition: 'When channels working together produce a bigger result than any single channel could on its own. In IMC, this happens when a prospect sees the same message on LinkedIn, in an email, and in a retargeting ad — the repeated exposure across different settings makes the message stick more than three separate, unconnected exposures would.',
       example: "Marcus explained the concept to the client: The reason we run LinkedIn, email, and content simultaneously is synergy. When a prospect sees your thought leadership article, then gets your email, then sees a retargeting ad — each one reinforces the other. The cumulative effect is far greater than any single channel running alone. That's why integration matters.",
       imageSlug: '/images/synergy.png',
     },
     {
       word: 'TOUCHPOINT',
       partOfSpeech: 'noun',
-      definition: 'Any moment when a customer or prospect comes into contact with a brand — an ad, an email, a social post, a website visit, a sales call, or even a packaging experience. Mapping touchpoints helps marketers understand the full customer journey and identify where the message is consistent or where it breaks down.',
+      definition: 'Any moment when a customer or prospect comes into contact with your brand — an ad, an email, a social post, a website visit, a sales call. Mapping touchpoints helps you see the full customer journey and spot where the message is consistent and where it falls apart.',
       example: 'Dana mapped every touchpoint in the customer journey: From the first LinkedIn impression through to the post-sale onboarding email, there are eleven points where we communicate with the prospect or customer. We need to audit each one — does it say the same thing? Does it sound like the same brand? Are we reinforcing the core message or diluting it?',
       imageSlug: '/images/touchpoint.png',
     },
     {
       word: 'CHANNEL ALIGNMENT',
       partOfSpeech: 'noun',
-      definition: 'The state of having all marketing channels working toward the same goal with the same message. Channel alignment requires coordination between teams — content, paid, email, social, sales — who often work separately. Without alignment, channels pull in different directions and the customer journey becomes fragmented.',
+      definition: 'When all your marketing channels are working toward the same goal with the same message. Getting there requires coordination between teams — content, paid, email, social, sales — who often work in separate silos. Without alignment, channels go in different directions and the customer gets a mixed, confusing experience.',
       example: 'Riley flagged the problem in the review: We have a channel alignment issue. The paid team is pushing a product feature message, the email team is running a thought leadership sequence, and the sales team is leading with pricing. The prospect who goes through all three journeys simultaneously is getting three different stories. We need to align.',
       imageSlug: '/images/channel-alignment.png',
     },
     {
       word: 'CORE MESSAGE',
       partOfSpeech: 'noun',
-      definition: 'The single central idea that a campaign or brand communicates — the one thing you want the audience to remember. A strong core message is specific, relevant, and differentiating. Every other message in the campaign should support and reinforce the core message, never contradict or dilute it.',
+      definition: 'The one central idea that a campaign or brand is built around — the single thing you want your audience to remember. A strong core message is specific and clearly different from what competitors say. Everything else in the campaign should support it, not contradict or weaken it.',
       example: "Marcus challenged the team: Before we brief any channel, we need to agree on the core message. If I ask each of you right now what this campaign is about — what's the one thing? If we get three different answers, we're not ready to brief. The core message has to be something every team member can state in one sentence.",
       imageSlug: '/images/core-message.png',
     }
@@ -70,7 +70,7 @@ export const integratedMarketingCommunications: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'ALL CHANNELS NEED TO PULL IN THE SAME DIRECTION',
-      definition: "An idiom used in IMC planning to say that every channel and every team must be working toward the same goal with the same message. 'Pull in the same direction' means align and coordinate. The opposite — channels pulling in different directions — creates a fragmented, confusing customer experience.",
+      definition: "An idiom used in IMC planning to say that every channel and every team must be working toward the same goal with the same message. 'Pull in the same direction' means get aligned and coordinated. The opposite — channels going different ways — creates a confusing, disconnected customer experience.",
       example: "Riley opened the channel review: The reason we're losing at the bottom of the funnel is not the product — it's that all channels are not pulling in the same direction. Paid is driving traffic with one message, the landing page delivers a different one, and the follow-up email is from a completely different campaign. Let's fix that today.",
       imageSlug: '/images/all-channels-need-to-pull-in-the-same-direction.png',
       inAction: "If email is saying one thing and LinkedIn ads are saying something different, all channels need to pull in the same direction — or we'll confuse the customer.",
@@ -79,7 +79,7 @@ export const integratedMarketingCommunications: Lesson = {
     },
     {
       phrase: 'THE MESSAGE NEEDS TO COME THROUGH ON EVERY CHANNEL',
-      definition: "A phrase for checking whether the core campaign message is actually present and recognisable across all touchpoints. 'Comes through' means the message is clear and felt by the audience. Used in campaign reviews and creative briefings when assessing consistency.",
+      definition: "Use this phrase to check whether the core campaign message is actually visible and clear at every touchpoint. 'Comes through' means the message is there and the audience can feel it. Use it in campaign reviews and creative briefings when checking consistency.",
       example: "Dana reviewed the channel audit: Our core message — 'built for regulated industries' — needs to come through on every channel. Right now it's clear in the ads and the homepage, but the email sequence doesn't mention it once, and the sales deck uses completely different language. Every touchpoint should say the same thing.",
       imageSlug: '/images/the-message-needs-to-come-through-on-every-channel.png',
       inAction: "Whether it's a LinkedIn post, a follow-up email, or the sales deck, the core message needs to come through on every channel.",
@@ -88,7 +88,7 @@ export const integratedMarketingCommunications: Lesson = {
     },
     {
       phrase: 'WE NEED TO BRIEF ALL CHANNEL OWNERS ON...',
-      definition: "The phrase used when communicating the core IMC strategy to the teams responsible for each channel. 'Brief' means to give a clear, structured explanation of what is needed and why. 'Channel owners' are the team members or agencies responsible for a specific channel (email, paid, content, etc.).",
+      definition: "Use this phrase when sharing the core IMC strategy with the teams who run each channel. 'Brief' means to give a clear, structured explanation of what is needed and why. 'Channel owners' are the people or agencies responsible for a specific channel — email, paid, content, and so on.",
       example: "Marcus assigned the next steps: Once we've agreed on the message architecture, we need to brief all channel owners on the campaign theme, the tone of voice, the core message, and the audience for each channel. Nobody goes live until every channel owner has been briefed and confirmed alignment.",
       imageSlug: '/images/we-need-to-brief-all-channel-owners-on.png',
       inAction: 'Before we launch, we need to brief all channel owners on the tone of voice guidelines and the approved messaging framework.',
@@ -97,7 +97,7 @@ export const integratedMarketingCommunications: Lesson = {
     },
     {
       phrase: 'EACH CHANNEL PLAYS A DIFFERENT ROLE IN THE JOURNEY',
-      definition: 'A phrase for explaining that integration does not mean every channel says exactly the same words — it means every channel plays its appropriate role while delivering the same core message. Awareness channels (social, PR) do a different job from conversion channels (email, retargeting), but all serve the same campaign.',
+      definition: 'Use this phrase to explain that integration does not mean every channel says exactly the same words. Each channel plays a specific role — awareness channels like social and PR do a different job from conversion channels like email and retargeting. But all of them carry the same core message.',
       example: 'Riley explained the strategy to the client: Each channel plays a different role in the journey. LinkedIn builds awareness and authority. Email nurtures and educates. Retargeting ads bring back warm prospects and push toward decision. They all carry the same core message — but the depth and format adapt to what the customer needs at that stage.',
       imageSlug: '/images/each-channel-plays-a-different-role-in-the-journey.png',
       inAction: 'LinkedIn plays a different role in the customer journey than email — LinkedIn builds awareness, email nurtures intent toward a decision.',
@@ -106,7 +106,7 @@ export const integratedMarketingCommunications: Lesson = {
     },
     {
       phrase: 'THE CUSTOMER EXPERIENCE NEEDS TO FEEL SEAMLESS',
-      definition: "A phrase describing the ideal outcome of a well-executed IMC strategy — that no matter which channel a customer enters through, the experience is consistent, coherent, and connected. 'Seamless' means there are no visible joins or inconsistencies between one channel and the next.",
+      definition: "This phrase describes the goal of a well-executed IMC strategy — that no matter which channel the customer comes through, the experience feels smooth and consistent. 'Seamless' means there are no obvious gaps or mismatches between one channel and the next.",
       example: 'Dana summarised the goal: Whether a prospect discovers us through a LinkedIn article, a Google ad, a word-of-mouth referral, or a trade event — the customer experience needs to feel seamless. Same brand, same voice, same promise. They should be unable to tell which channel they came from, because all of them feel like the same company.',
       imageSlug: '/images/the-customer-experience-needs-to-feel-seamless.png',
       inAction: 'From the first ad impression to the onboarding email, the customer experience needs to feel seamless — as if every touchpoint comes from the same voice.',
@@ -115,7 +115,7 @@ export const integratedMarketingCommunications: Lesson = {
     },
     {
       phrase: 'THIS IS WHERE THE INTEGRATION BREAKS DOWN',
-      definition: "A diagnostic phrase used in audits and reviews to identify the specific point in the customer journey where channel alignment fails. 'Integration breaks down' means that at this touchpoint, the message, tone, or brand identity becomes inconsistent with the rest of the campaign.",
+      definition: "Use this phrase in audits and reviews to point out exactly where channel alignment falls apart. 'Integration breaks down' means that at this specific touchpoint, the message, tone, or brand identity no longer matches the rest of the campaign.",
       example: "Marcus pointed to the gap in the audit: This is where the integration breaks down — right at the transition from ad to landing page. The ad promises a free consultation. The landing page talks about a product demo. That's two different offers in two consecutive touchpoints. The prospect feels misled and bounces. We fix this here.",
       imageSlug: '/images/this-is-where-the-integration-breaks-down.png',
       inAction: 'The handoff between the marketing team and the sales team is where the integration breaks down — the messaging resets completely at that point.',

@@ -12,56 +12,56 @@ export const socialListeningAndReputation: Lesson = {
     {
       word: 'SENTIMENT ANALYSIS',
       partOfSpeech: 'noun',
-      definition: 'The automated process of classifying mentions and online conversations as positive, negative, or neutral. Sentiment analysis tools use natural language processing to evaluate the emotional tone of text. In brand monitoring, sentiment analysis tells you not just how often your brand is mentioned, but whether those mentions are helping or hurting you.',
+      definition: 'The automated process of sorting online mentions and conversations into positive, negative, or neutral categories. Sentiment analysis tools read the emotional tone of text. In brand monitoring, it tells you not just how often your brand is mentioned, but whether those mentions are good or bad for you.',
       example: "Riley presented the monthly report: The sentiment analysis shows 62% of our mentions are positive, 24% neutral, and 14% negative. The negative spike happened in week three — it was driven by a single customer complaint that was amplified on Twitter. The complaint itself was resolved quickly, but the initial response time was too slow. That's the reputational risk we need to address in the plan.",
       imageSlug: '/images/sentiment-analysis.png',
     },
     {
       word: 'SHARE OF VOICE',
       partOfSpeech: 'noun',
-      definition: 'The percentage of total online conversations in your category that mention your brand — compared to competitors. A high share of voice means your brand is part of more conversations than competitors. Share of voice correlates with brand awareness and, over time, with market share. It is measured in a specific topic area or category, not the whole internet.',
+      definition: 'The percentage of total online conversations in your category that mention your brand, compared to competitors. A high share of voice means your brand comes up more often than competitors. Over time, share of voice tends to go up and down with brand awareness and market share. It is measured within a specific topic area, not across the whole internet.',
       example: "Dana reported the competitive position: Our share of voice in the 'B2B marketing technology' conversation is currently 18%. Competitor A has 34%, Competitor B has 27%. We're in third place by a meaningful margin. The gap is not surprising — they have been publishing at three times our volume. Closing that gap is one of the reasons the content programme increase is in this budget.",
       imageSlug: '/images/share-of-voice.png',
     },
     {
       word: 'BRAND HEALTH',
       partOfSpeech: 'noun',
-      definition: 'An overall measure of how a brand is perceived — combining awareness, sentiment, trust, and advocacy into a single view. Brand health is not a single metric but a composite of several indicators. A brand with high awareness but low trust has poor brand health. A brand with lower awareness but very high advocacy scores can be healthier than it looks.',
+      definition: 'An overall picture of how a brand is perceived — combining awareness, sentiment, trust, and advocacy into one view. Brand health is not one single number but a combination of several indicators. A brand with high awareness but low trust can still have poor brand health. A brand with lower awareness but very high advocacy can be healthier than it looks.',
       example: 'Marcus reviewed the quarterly brand health dashboard: Awareness is up — more people know who we are. But trust is down 8 points following the data outage in September. And advocacy — people actively recommending us — is flat. High awareness with declining trust is a warning sign. Brand health overall is weakening, even if the top-line awareness numbers look positive.',
       imageSlug: '/images/brand-health.png',
     },
     {
       word: 'MONITOR',
       partOfSpeech: 'verb',
-      definition: "To continuously observe and track brand mentions, competitor activity, or topic conversations across online channels. Social listening platforms monitor in real time — they scan news articles, social media, review sites, and forums for any mention of specified keywords. To monitor effectively, you need to define what you're listening for before you start.",
+      definition: "To continuously watch and track brand mentions, competitor activity, or topic conversations across online channels. Social listening platforms scan news articles, social media, review sites, and forums in real time for any mention of the keywords you set. To do this well, you need to decide what you are listening for before you start.",
       example: "Riley set up the listening dashboard: We're monitoring six keyword clusters. The first is brand mentions — our name, common misspellings, and key product names. The second is competitor names. The third is the category conversation — terms like 'B2B marketing platform' and 'compliance software'. Monitoring all three gives us a complete picture of what's being said, by whom, and in what context.",
       imageSlug: '/images/monitor.png',
     },
     {
       word: 'ALERT',
       partOfSpeech: 'noun',
-      definition: 'An automated notification triggered when a specified condition is met in a social listening platform — for example, when a keyword volume spikes, when sentiment turns negative, or when a brand mention exceeds a reach threshold. Alerts allow marketing and communications teams to respond to developing situations in real time, before they escalate.',
+      definition: 'An automated notification sent when a specific condition is met in a social listening tool — for example, when a keyword volume spikes, when sentiment turns negative, or when a brand mention passes a certain reach threshold. Alerts let marketing and communications teams react to developing situations in real time, before things get worse.',
       example: 'Dana explained the alert system: We have three tiers of alert. A green alert is triggered when brand mentions spike by more than 50% above average — it might be good news or bad news. An amber alert is triggered when negative sentiment exceeds 25% of total mentions. A red alert fires when a single negative post reaches over 10,000 impressions. Red alerts go to the communications director within 15 minutes.',
       imageSlug: '/images/alert.png',
     },
     {
       word: 'CRISIS COMMUNICATIONS',
       partOfSpeech: 'noun',
-      definition: 'The structured approach to managing public communications during a reputational crisis — a product failure, a data breach, a public complaint that goes viral, or a media story. Crisis communications requires speed, honesty, and a clear chain of command. A slow or dishonest response consistently makes crises worse.',
+      definition: 'The planned approach to managing public communications when a reputation crisis hits — a product failure, a data breach, a viral complaint, or a damaging news story. Good crisis communications requires speed, honesty, and a clear chain of command. A slow or dishonest response almost always makes the situation worse.',
       example: 'Marcus had the difficult conversation: The data outage last September was a crisis communications failure. We took 18 hours to issue a public statement. In that time, the story was picked up by two tech news sites and 400 customers posted complaints on social media. By the time we responded, the narrative had already been set. The reputation management plan needs to cut the response time to two hours maximum.',
       imageSlug: '/images/crisis-communications.png',
     },
     {
       word: 'EARNED MEDIA',
       partOfSpeech: 'noun',
-      definition: 'Coverage or mentions generated by others — journalists, influencers, customers, or social media users — rather than paid for or owned by the brand. Earned media is generally more credible than paid advertising because it is not purchased. Positive earned media is a sign of strong brand health; negative earned media requires active reputation management.',
+      definition: 'Coverage or mentions created by others — journalists, influencers, customers, or social media users — not paid for or owned by the brand. Earned media is generally more trustworthy than paid advertising because it is not bought. Positive earned media is a sign of strong brand health; negative earned media needs active reputation management.',
       example: "Riley distinguished the coverage types: The article in Marketing Week was earned media — they reached out to us after seeing our LinkedIn content, not because we paid them. That kind of third-party endorsement is far more valuable per impression than any paid ad we run. One positive article in a respected trade publication reaches the right audience with a level of credibility we can't buy.",
       imageSlug: '/images/earned-media.png',
     },
     {
       word: 'NARRATIVE',
       partOfSpeech: 'noun',
-      definition: "The story or interpretation of events that takes hold in public conversation about a brand. In reputation management, 'controlling the narrative' means ensuring that the brand's own explanation of events reaches the audience before a negative interpretation becomes established. Once a narrative is set, it is very difficult to dislodge.",
+      definition: "The story or interpretation of events that takes hold in public conversation about a brand. In reputation management, 'controlling the narrative' means making sure your version of events reaches people before a negative interpretation gets established. Once a narrative is in place, it is very hard to change.",
       example: 'Dana explained the communications principle: The reason we need a faster crisis response process is narrative control. When bad news breaks, the first credible explanation that reaches the audience tends to stick. If we wait 18 hours to respond, the media and social commentary write the narrative for us. We need to be first — with an honest, specific, and human response — before the narrative is shaped by others.',
       imageSlug: '/images/narrative.png',
     }
@@ -70,7 +70,7 @@ export const socialListeningAndReputation: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'THE DATA SHOWS A SPIKE IN NEGATIVE MENTIONS',
-      definition: "A standard phrase used in brand monitoring reports to flag a sudden increase in negative sentiment or volume. A 'spike' is a sharp, sudden rise in a metric. 'Negative mentions' are posts, articles, or comments that express criticism, frustration, or concern about the brand. Spikes require investigation — what caused them, how big is the reach, and is a response needed?",
+      definition: "Use this phrase in brand monitoring reports to flag a sudden jump in negative sentiment or volume. A 'spike' is a sharp, sudden rise. 'Negative mentions' are posts, articles, or comments that criticise, complain about, or express concern about the brand. Every spike needs investigation — what caused it, how far has it spread, and should you respond?",
       example: 'Riley flagged the issue in the weekly report: The data shows a spike in negative mentions starting on Tuesday evening — volume jumped from 12 per hour to 140 per hour within two hours. The source is a single thread on Reddit that got heavily shared. The topic is customer support wait times. This has reached 85,000 impressions. We need to decide whether to respond publicly or address it through direct customer contact.',
       imageSlug: '/images/the-data-shows-a-spike-in-negative-mentions.png',
       inAction: 'The data shows a spike in negative mentions starting Tuesday morning — we need to identify the trigger before we respond publicly.',
@@ -79,7 +79,7 @@ export const socialListeningAndReputation: Lesson = {
     },
     {
       phrase: 'OUR SHARE OF VOICE IS GROWING / DECLINING',
-      definition: "A phrase used in competitive monitoring reports to describe movement in the brand's proportion of the overall category conversation. 'Growing' means the brand is becoming more present in the conversation relative to competitors; 'declining' means competitors are gaining more conversational presence. Share of voice is a leading indicator of market position change.",
+      definition: "Use this phrase in competitive reports to describe how much of the category conversation your brand is part of. 'Growing' means your brand is coming up more often relative to competitors; 'declining' means competitors are getting more of the conversation. Share of voice often signals where market position is heading before the sales numbers change.",
       example: "Dana reported on competitive standing: Our share of voice in the compliance software conversation has grown from 18% to 23% over the past quarter. That growth correlates directly with the increase in content output — we published 24 long-form pieces versus 8 in the previous quarter. Competitor B's share has declined by 5 points in the same period. We're gaining ground.",
       imageSlug: '/images/our-share-of-voice-is-growing--declining.png',
       inAction: 'Our share of voice in the compliance software category is growing — we are now at 28% of category mentions, up from 17% six months ago.',
@@ -88,7 +88,7 @@ export const socialListeningAndReputation: Lesson = {
     },
     {
       phrase: 'WE NEED TO GET AHEAD OF THIS STORY',
-      definition: "A crisis communications phrase meaning that the brand must proactively communicate before a negative story or situation spreads beyond control. 'Getting ahead' of a story means issuing a statement, reaching out to media, or responding publicly before the narrative is shaped by others. Reactive crisis management is always harder than proactive communication.",
+      definition: "A crisis communications phrase meaning your brand must communicate first, before a negative story spreads out of control. 'Getting ahead' means publishing a statement, reaching out to media, or responding publicly before others define the story for you. Reacting after the narrative is set is always harder than being first.",
       example: "Marcus made the call: This is going to be a bigger story than we thought — there are already three journalists on social media asking questions about the outage. We need to get ahead of this story before it becomes a news item. I want a statement drafted in the next 30 minutes: what happened, what we've done to fix it, and what we're doing to prevent it in future. Honest, specific, and human.",
       imageSlug: '/images/we-need-to-get-ahead-of-this-story.png',
       inAction: 'Before this complaint reaches the trade press, we need to get ahead of this story with a proactive statement and direct outreach to the affected customers.',
@@ -97,7 +97,7 @@ export const socialListeningAndReputation: Lesson = {
     },
     {
       phrase: 'THE ALERT WAS TRIGGERED BY...',
-      definition: 'A phrase used when explaining the cause of an automated notification from a social listening platform. Used in incident reports and team briefings when walking through what happened and when. Always follow with: what was the source, what was the volume or reach, and what was the sentiment.',
+      definition: 'Use this phrase when explaining what set off an automated notification from a social listening tool. It belongs in incident reports and team briefings when walking through what happened and when. Always follow it with: what was the source, how far did it reach, and what was the sentiment.',
       example: 'Dana briefed the team: The amber alert was triggered by a 34% increase in negative mentions between 6 and 8pm on Wednesday. The source was a Twitter thread from a verified account with 180,000 followers. They shared a screenshot of a customer service response that was perceived as dismissive. By the time the alert fired, the post had already reached 55,000 impressions.',
       imageSlug: '/images/the-alert-was-triggered-by.png',
       inAction: "The alert was triggered by a 300% spike in brand mentions combined with the word 'breach' — the monitoring tool flagged it automatically within minutes.",
@@ -106,7 +106,7 @@ export const socialListeningAndReputation: Lesson = {
     },
     {
       phrase: 'THE BRAND HEALTH SCORE IS TRENDING...',
-      definition: "A phrase used in dashboard reporting to describe the direction of movement in brand health metrics — upward (positive trend) or downward (negative trend). 'Trending' means moving consistently in a direction over time, as opposed to a one-off spike. Brand health trends are more meaningful than individual data points.",
+      definition: "Use this phrase in dashboard reporting to describe which direction your brand health metrics are moving — up or down. 'Trending' means moving consistently in one direction over time, not just a one-off spike or dip. A trend over several months tells you more than any single data point.",
       example: "Riley presented the quarterly review: I want to flag that the brand health score is trending down for the third consecutive month — not dramatically, but consistently. Awareness is flat, trust is declining slowly, and advocacy has dropped. That pattern tells us something structural is happening, not just a one-off incident. I've highlighted three potential causes in the report and I'm recommending we prioritise trust-building activities in Q1.",
       imageSlug: '/images/the-brand-health-score-is-trending.png',
       inAction: 'The brand health score is trending upward this quarter — positive sentiment is at 74%, the highest level we have recorded since the product launched.',
@@ -115,7 +115,7 @@ export const socialListeningAndReputation: Lesson = {
     },
     {
       phrase: 'THE REPUTATION MANAGEMENT PLAN COVERS...',
-      definition: 'The phrase for introducing the scope of a reputation management document — what situations it covers, who is responsible, what response timelines apply, and what the escalation process looks like. Used in presentations to leadership or in team briefings when rolling out a new plan.',
+      definition: 'Use this phrase to introduce what a reputation management document addresses — which situations it covers, who is responsible, what the response timelines are, and how decisions get made under pressure. It belongs in leadership presentations and team briefings when launching a new plan.',
       example: 'Dana presented the plan: The reputation management plan covers four scenarios — a viral negative post, a media inquiry on a sensitive topic, a product or service failure, and a data or security incident. For each scenario, the plan defines who is the lead spokesperson, what the response timeline is, who approves the statement before it goes out, and which channels we respond on. Nobody should need to improvise in a crisis.',
       imageSlug: '/images/the-reputation-management-plan-covers.png',
       inAction: 'The reputation management plan covers the first 24 hours of a crisis — who responds, on which channels, and with what level of internal approval required.',

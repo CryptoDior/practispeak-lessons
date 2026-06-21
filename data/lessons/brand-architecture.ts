@@ -12,56 +12,56 @@ export const brandArchitecture: Lesson = {
     {
       word: 'MASTER BRAND',
       partOfSpeech: 'noun',
-      definition: 'The primary, overarching brand that leads and gives credibility to all products or services under it. In a master brand architecture, all products carry the same name and are seen as expressions of one unified brand. The master brand is the primary driver of consumer trust. Examples: Google (Google Search, Google Maps, Google Drive).',
+      definition: 'The main brand that sits at the top and gives credibility to all products or services under it. In a master brand structure, every product carries the same name and is seen as part of one unified brand. Examples: Google (Google Search, Google Maps, Google Drive).',
       example: "Riley explained the structure: Right now MarketBridge operates as a master brand — every product is named MarketBridge something. That creates consistency and builds equity in one place. The risk is that if one product has a problem, the whole master brand is affected. We need to decide if that's the right structure as we add more products to the portfolio.",
       imageSlug: '/images/master-brand.png',
     },
     {
       word: 'SUB-BRAND',
       partOfSpeech: 'noun',
-      definition: "A brand that is visibly connected to a master brand but has its own distinct identity, name, and sometimes personality. Sub-brands allow a company to reach different audiences or price points without fully separating from the parent brand's credibility. The connection is visible but the identity is distinct.",
+      definition: "A brand that is clearly connected to a master brand but has its own name, look, and sometimes personality. Sub-brands let a company reach different audiences or price points without losing the credibility of the parent brand. The link is visible, but the identity stands apart.",
       example: "Marcus proposed the portfolio structure: The new enterprise product needs its own identity — it's selling to a very different buyer with very different needs. I recommend we make it a sub-brand: 'MarketBridge Pro'. It carries the MarketBridge name for credibility, but has a premium visual identity, pricing, and messaging that signals it's a different tier.",
       imageSlug: '/images/sub-brand.png',
     },
     {
       word: 'ENDORSED BRAND',
       partOfSpeech: 'noun',
-      definition: "A brand that has its own independent identity but is endorsed or backed by the parent company — visible but secondary. The endorsement says: 'This independent brand is trusted and backed by [parent]'. Used when the new brand needs its own personality but benefits from the parent's credibility. Example: 'Marriott International / Ritz-Carlton'.",
+      definition: "A brand that has its own identity but is backed by the parent company — the parent's name is visible but secondary. The endorsement says: 'This independent brand is trusted and supported by [parent]'. Used when the new brand needs its own personality but can benefit from the parent's existing reputation. Example: 'Marriott International / Ritz-Carlton'.",
       example: "Dana explained the acquisition strategy: When we acquire TechFlow, I recommend we use an endorsed brand model: 'TechFlow, a MarketBridge Company'. TechFlow has strong brand equity in its own market — we shouldn't erase that. The endorsement connects it to us without overriding what customers already love about the TechFlow brand.",
       imageSlug: '/images/endorsed-brand.png',
     },
     {
       word: 'BRAND EXTENSION',
       partOfSpeech: 'noun',
-      definition: "When an established brand moves into a new product category, using its existing reputation to gain credibility in the new space. Brand extensions work when the new category is close to the original and the brand's values are relevant. They fail when the extension is too far from the brand's core territory.",
+      definition: "When an established brand moves into a new product category, using its existing name and reputation to get a head start. Brand extensions work when the new category is close to the original and the brand's values transfer naturally. They fail when the move is too far from what the brand is known for.",
       example: "Riley reviewed the proposal: Launching a recruitment tool under the MarketBridge name is a brand extension — we're taking a marketing brand into HR technology. The question is whether our brand values ('data-led, compliance-ready') are relevant in that space. If HR buyers don't associate MarketBridge with anything useful for them, the extension has no head start.",
       imageSlug: '/images/brand-extension.png',
     },
     {
       word: 'BRAND EQUITY',
       partOfSpeech: 'noun',
-      definition: 'The commercial value that comes from consumer recognition and positive association with a brand — the premium customers are willing to pay, the trust they extend, and the loyalty they show, all because of the brand name alone. High brand equity reduces customer acquisition cost and supports premium pricing.',
+      definition: 'The commercial value built up through customer recognition and positive feelings about a brand — the extra price customers are willing to pay, the trust they give, and the loyalty they show, just because of the brand name. High brand equity means lower costs to win new customers and more room to charge a premium price.',
       example: "Marcus made the financial case: This is why brand architecture matters commercially. If we dilute the MarketBridge brand by putting it on too many unrelated products, we erode the brand equity we've spent five years building. That equity is worth money — it's the reason customers choose us over a cheaper competitor. We shouldn't gamble with it.",
       imageSlug: '/images/brand-equity.png',
     },
     {
       word: 'PORTFOLIO',
       partOfSpeech: 'noun',
-      definition: 'The complete set of brands, products, or services managed by a company. A well-structured brand portfolio has clear roles for each brand — no unnecessary overlap, no cannibalisation, and a clear logic for which brand serves which customer at which price point.',
+      definition: 'The full set of brands, products, or services a company manages. A well-structured portfolio gives every brand a clear role — no unnecessary overlap, no brands stealing customers from each other, and a clear logic for which brand serves which customer at which price.',
       example: "Dana reviewed the portfolio health: Our current portfolio has four products, and honestly, two of them are competing for the same customer. That's cannibalisation — it means we're spending double the marketing budget to serve one customer need. A clear portfolio architecture should give every product a distinct role and a distinct audience. Right now, the boundaries aren't clear enough.",
       imageSlug: '/images/portfolio.png',
     },
     {
       word: 'BRAND HIERARCHY',
       partOfSpeech: 'noun',
-      definition: 'The organised structure that shows how brands within a portfolio relate to each other — which is the parent, which are sub-brands, which are endorsed, and how they connect visually and verbally. A clear brand hierarchy makes internal decision-making faster and external communication more consistent.',
+      definition: 'The organised structure showing how all the brands in a portfolio relate to each other — which is the parent, which are sub-brands, which are endorsed, and how they connect visually and in writing. A clear hierarchy makes internal decisions faster and customer-facing communication more consistent.',
       example: 'Riley presented the visual: This brand hierarchy chart shows the relationship between every brand in our portfolio. At the top: MarketBridge as the master brand. Below that: MarketBridge Pro as the enterprise sub-brand. And on the side: TechFlow as an endorsed brand. Every brand has a clearly defined role and a clear connection to the whole.',
       imageSlug: '/images/brand-hierarchy.png',
     },
     {
       word: 'CANNIBALISATION',
       partOfSpeech: 'noun',
-      definition: "When one product or brand within a portfolio takes customers or market share away from another product or brand in the same company. Cannibalisation is a sign of poor portfolio structure — it means you're spending resources competing with yourself instead of growing the overall market.",
+      definition: "When one product or brand in your portfolio takes customers away from another product or brand in the same company. Cannibalisation is a sign of poor portfolio structure — you are spending money competing with yourself instead of growing the overall market.",
       example: 'Marcus flagged the risk: If we launch the new budget tier under the MarketBridge name, we risk cannibalisation — existing customers may downgrade instead of staying on the current plan. The new tier needs to be clearly positioned for a different audience, not as a cheaper version of what existing customers already have.',
       imageSlug: '/images/cannibalisation.png',
     }
@@ -70,7 +70,7 @@ export const brandArchitecture: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'THE BRAND NEEDS TO DO A DIFFERENT JOB IN THIS MARKET',
-      definition: "A phrase used when a brand is entering a new segment or market where its existing positioning may not be appropriate or effective. 'Do a different job' means the brand must communicate different things, to a different audience, in a different context — which may require a separate brand or sub-brand.",
+      definition: "Use this phrase when a brand is entering a new segment or market where its current positioning will not work. 'Do a different job' means the brand needs to communicate different things, to different people, in a different way — which may mean creating a sub-brand or a separate brand entirely.",
       example: "Dana assessed the enterprise expansion: In the SME market, the MarketBridge brand works because it signals simplicity and speed. In enterprise, the brand needs to do a completely different job — it needs to signal robustness, compliance, and integration capability. That's why I'm recommending a sub-brand rather than a simple naming tweak.",
       imageSlug: '/images/the-brand-needs-to-do-a-different-job-in-this-market.png',
       inAction: "In the consumer segment, the brand needs to do a different job — it's about aspiration and lifestyle, not technical specifications.",
@@ -79,7 +79,7 @@ export const brandArchitecture: Lesson = {
     },
     {
       phrase: 'WE RISK DILUTING THE MASTER BRAND IF WE...',
-      definition: "A phrase used to signal that adding a product, extending the brand, or using the name in a new context could weaken the parent brand's associations and reduce its value. 'Diluting' means spreading the brand too thin — making it stand for too many things until it stands for nothing in particular.",
+      definition: "Use this phrase to warn that adding a product or using the brand name in a new context could weaken what the parent brand stands for. 'Diluting' means stretching the brand too thin — making it stand for so many things that it ends up standing for nothing clear.",
       example: "Riley flagged the concern: We risk diluting the master brand if we launch a consumer product under the MarketBridge name. Right now, MarketBridge means 'trusted by B2B marketing teams'. If we put that name on a consumer lifestyle app, the B2B associations start to blur. Either we create a separate brand or we stay in our lane.",
       imageSlug: '/images/we-risk-diluting-the-master-brand-if-we.png',
       inAction: 'We risk diluting the master brand if we extend into the budget segment without a clearly separated sub-brand to protect the premium positioning.',
@@ -88,7 +88,7 @@ export const brandArchitecture: Lesson = {
     },
     {
       phrase: 'THE RECOMMENDED ARCHITECTURE IS...',
-      definition: 'The phrase for introducing a brand architecture recommendation in a brief, presentation, or board paper. It signals that what follows is a structured, considered proposal — not a preference. A good architecture recommendation names the model, explains who each brand serves, and shows the commercial rationale.',
+      definition: 'Use this phrase to introduce a brand architecture recommendation in a brief, presentation, or board paper. It signals that what follows is a structured, well-thought-out proposal — not just a personal preference. A good recommendation names the model, explains who each brand serves, and gives the business reason behind it.',
       example: "Marcus presented the board paper: The recommended architecture is a 'house of brands' model — each product has its own name and identity, with MarketBridge as the backing company visible but secondary. This protects the master brand if any individual product underperforms, and allows each product to build its own identity with its target audience.",
       imageSlug: '/images/the-recommended-architecture-is.png',
       inAction: 'The recommended architecture is a branded house — one master brand with product-level descriptors rather than separate brand identities for each product.',
@@ -97,7 +97,7 @@ export const brandArchitecture: Lesson = {
     },
     {
       phrase: 'EACH BRAND IN THE PORTFOLIO NEEDS A CLEAR ROLE',
-      definition: 'A principle used in portfolio reviews to say that every brand or product should serve a distinct customer need, a distinct audience segment, or a distinct price point — with no unnecessary overlap. When roles are not clear, brands compete with each other (cannibalisation) rather than together (portfolio growth).',
+      definition: 'Use this phrase in portfolio reviews to say that every brand or product should serve a distinct customer need, a specific audience, or a specific price point — with no unnecessary overlap. When the roles are not clear, brands compete with each other instead of growing the portfolio together.',
       example: "Dana outlined the portfolio audit findings: The core problem is that each brand in the portfolio doesn't have a clear enough role. Two of our products are essentially identical in positioning, targeting the same customer at similar price points. We need to either differentiate them clearly or consolidate. You can't maintain two brands in the same space without wasting resources.",
       imageSlug: '/images/each-brand-in-the-portfolio-needs-a-clear-role.png',
       inAction: 'If each brand in the portfolio is trying to be everything to everyone, none of them will stand out — each brand needs a clear role and a specific audience.',
@@ -106,7 +106,7 @@ export const brandArchitecture: Lesson = {
     },
     {
       phrase: 'THE PARENT BRAND LENDS CREDIBILITY TO...',
-      definition: "A phrase used to explain how an established brand name can give immediate trust to a new product, extension, or acquired brand. 'Lends credibility' means transfers its existing reputation and trust to the new entity. Used in brand architecture discussions to justify which model to use.",
+      definition: "Use this phrase to explain how an established brand name can give immediate trust to a new product or an acquired brand. 'Lends credibility' means the existing reputation carries over. It comes up in brand architecture discussions when justifying which model to use.",
       example: 'Riley explained the acquisition rationale: One of the main reasons for keeping the MarketBridge name visible in the TechFlow deal is that the parent brand lends credibility to TechFlow in markets where TechFlow is less known. In the US, TechFlow has strong brand equity. In Europe, MarketBridge is better known — the endorsement helps TechFlow gain trust faster there.',
       imageSlug: '/images/the-parent-brand-lends-credibility-to.png',
       inAction: 'The parent brand lends credibility to the new product launch — customers who already trust the main brand are more likely to try something new from the same company.',
@@ -115,7 +115,7 @@ export const brandArchitecture: Lesson = {
     },
     {
       phrase: 'THIS EXTENSION STRETCHES THE BRAND TOO FAR',
-      definition: "A phrase used to signal that a proposed brand extension is too different from the core brand territory to be credible or effective. 'Stretches too far' means the brand's associations don't naturally transfer to this new area — customers won't understand or trust the connection.",
+      definition: "Use this phrase to say that a proposed brand extension is too different from what the brand is known for. 'Stretches too far' means the brand's associations do not carry over naturally — customers will not understand or trust the connection to the new category.",
       example: 'Marcus rejected the proposal: Launching a MarketBridge HR tool stretches the brand too far. Our brand equity is entirely in marketing technology — it means something specific to marketing leaders. HR directors have never heard of us and our brand signals nothing useful in their world. This should be a new brand or an endorsed acquisition, not a MarketBridge product.',
       imageSlug: '/images/this-extension-stretches-the-brand-too-far.png',
       inAction: 'Moving from professional software into consumer electronics — this extension stretches the brand too far and risks confusing our core B2B audience.',

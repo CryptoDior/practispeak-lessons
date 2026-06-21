@@ -12,56 +12,56 @@ export const negotiatingWithPartners: Lesson = {
     {
       word: 'LEVERAGE',
       partOfSpeech: 'noun',
-      definition: "Anything that gives you an advantage in a negotiation — a competing offer, a tight deadline the other party faces, unique expertise, or a large contract volume. Understanding your leverage and theirs is the first step in any commercial negotiation. Knowing your leverage doesn't mean threatening with it — it means using it strategically.",
+      definition: "Anything that gives you an advantage in a negotiation — a competing offer, a deadline the other party faces, specific expertise, or a large contract volume. Understanding your leverage and theirs is the first step in any commercial negotiation. Knowing your leverage does not mean threatening people with it — it means using it wisely.",
       example: "Riley assessed the situation before the meeting: What's our leverage here? We have two competitive quotes for the same media placement, we're committing to a 12-month contract upfront, and we can offer them a case study. That's three pieces of leverage — the volume commitment, the competitive alternatives, and the marketing value of our brand association.",
       imageSlug: '/images/leverage.png',
     },
     {
       word: 'CONCESSION',
       partOfSpeech: 'noun',
-      definition: "Something you give up or agree to in a negotiation in order to move the deal forward or secure something else you value more. Effective negotiators never make unilateral concessions — every concession should be conditional ('I can do that if you can...') and traded, not given away.",
+      definition: "Something you give up or agree to in a negotiation to move the deal forward or get something else you want more. Good negotiators never give concessions for free — every concession should come with a condition ('I can do that if you can...') and be traded, not simply handed over.",
       example: "Marcus flagged the pattern: We've made three concessions in this negotiation and received nothing in return. That's not how this works. From now on, every concession we make must be conditional: 'I can move on the payment terms if you can commit to an extended contract length.' Always trade concessions; never give them for free.",
       imageSlug: '/images/concession.png',
     },
     {
       word: 'COUNTER-OFFER',
       partOfSpeech: 'noun',
-      definition: "An offer made in response to the other party's proposal — typically modifying the terms rather than accepting or rejecting outright. A counter-offer keeps the negotiation moving and shows you are engaged. Always make a counter-offer rather than a flat rejection — 'no' closes the conversation, while a counter-offer redirects it.",
+      definition: "An offer you make in response to the other party's proposal — usually changing some of the terms rather than accepting or rejecting outright. A counter-offer keeps the conversation moving and shows you are still interested. Always counter rather than simply say no — 'no' ends the discussion, a counter-offer redirects it.",
       example: "Dana advised the team: They've come back with a 20% price increase on the renewal. Don't reject it — make a counter-offer. 'We can't move to that price point, but we could accept a 7% increase if you agree to lock in the rate for two years.' A counter-offer keeps us in the conversation and gives them a reason to keep negotiating.",
       imageSlug: '/images/counter-offer.png',
     },
     {
       word: 'MUTUAL BENEFIT',
       partOfSpeech: 'noun',
-      definition: 'An outcome that creates value for both parties in a negotiation — not a win-lose result, but a deal where both sides get something meaningful. The language of mutual benefit is important in long-term partnerships: you want the other party to feel the deal was fair, because you need them to be motivated to deliver.',
+      definition: 'An outcome that creates real value for both sides — not a win-lose result, but a deal where both parties get something meaningful. In long-term partnerships, mutual benefit matters because you want the other side to feel the deal was fair. A partner who feels shortchanged will not be motivated to deliver.',
       example: "Riley framed the opening: I want to start by being clear about what we're both trying to achieve. We want a committed media partner who will deliver reach into the financial services sector. You want a flagship B2B client whose brand adds credibility to your platform. There's mutual benefit here — let's build an agreement that works for both of us.",
       imageSlug: '/images/mutual-benefit.png',
     },
     {
       word: 'TERMS',
       partOfSpeech: 'noun',
-      definition: "The specific conditions of an agreement — payment schedule, contract length, scope of work, deliverables, exclusivity, termination clauses. 'Agreeing terms' means finalising all the conditions before signing. In negotiation, 'terms' are what you negotiate — price is just one term.",
+      definition: "The specific conditions of an agreement — payment schedule, contract length, scope of work, deliverables, exclusivity, termination clauses. 'Agreeing terms' means finalising all the conditions before signing. In a negotiation, price is just one term — there are usually many others to discuss.",
       example: "Marcus reviewed the negotiation priorities: Price is important, but it's not the only term we need to get right. Payment terms matter too — net-30 versus net-60 is a significant cash flow difference. And the exclusivity clause — if they can't guarantee category exclusivity, the deal is worth less than it looks on paper. Let's be clear about which terms we'll fight for and which we'll trade.",
       imageSlug: '/images/terms.png',
     },
     {
       word: 'WALK AWAY POINT',
       partOfSpeech: 'noun',
-      definition: "The point at which a deal is no longer acceptable and you are prepared to end the negotiation. Also called the 'BATNA' (Best Alternative to a Negotiated Agreement). Knowing your walk-away point before you enter any negotiation is essential — without it, you risk accepting terms that don't serve you.",
+      definition: "The point at which a deal is no longer good enough and you are prepared to walk away. Also called the BATNA — Best Alternative to a Negotiated Agreement. You must know your walk-away point before the negotiation starts. Without it, you risk accepting terms that do not serve you.",
       example: "Dana briefed the team before the meeting: Our walk-away point on this one is clear. If they can't commit to a 6-month minimum contract and won't include the retargeting placement in the base price, the deal doesn't work for us financially. We have a competing offer that's 15% cheaper. They need to know we're serious — but only if the conversation reaches that point.",
       imageSlug: '/images/walk-away-point.png',
     },
     {
       word: 'ANCHOR',
       partOfSpeech: 'noun',
-      definition: 'In negotiation, the first number or offer put on the table — which tends to shape the whole discussion. The party who sets the anchor often has an advantage, because subsequent negotiation tends to happen relative to that number. A strong opening anchor can shift the entire range of possible outcomes.',
+      definition: 'In negotiation, the first number or offer put on the table — which tends to set the tone for everything that follows. The party who puts the first number out there often has an advantage, because everything else in the conversation happens relative to that number. A strong opening anchor can change the whole range of possible outcomes.',
       example: "Riley explained the strategy: We're going to open with a lower anchor than we actually need. If we ask for a 12-month deal at a 15% discount, we have room to trade up to an 8% discount without feeling like we've given anything away. The party who sets the anchor first often ends up closer to their preferred outcome — so we open first.",
       imageSlug: '/images/anchor.png',
     },
     {
       word: 'DEADLOCK',
       partOfSpeech: 'noun',
-      definition: 'A situation in a negotiation where neither party can agree and no progress is being made. When a negotiation reaches deadlock, you need a technique to break it — introducing a new variable, taking a break, reframing the problem, or escalating to a more senior decision-maker on one side.',
+      definition: 'A situation in a negotiation where neither party can agree and nothing is moving forward. When you reach deadlock, you need something to break it — bring in a new variable, take a short break, look at the problem differently, or bring in a more senior decision-maker from one side.',
       example: "Marcus recognised the pattern: We've been going back and forth on price for 40 minutes and we're in deadlock. Let's take a different approach — instead of price, let's talk about what we each need the deal to include. When we agree on the shape of the deal, the price conversation becomes easier. Deadlock on one variable doesn't mean the whole deal is dead.",
       imageSlug: '/images/deadlock.png',
     }
@@ -70,7 +70,7 @@ export const negotiatingWithPartners: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'I CAN MOVE ON THAT IF YOU CAN MOVE ON...',
-      definition: "The core phrase for trading concessions in a negotiation. 'Move on' means to be flexible or accept a change on a specific term. 'I can move on that if you can move on...' is a conditional concession — you're offering flexibility on one thing in exchange for flexibility on another. Never make a concession without this kind of condition.",
+      definition: "The key phrase for trading concessions in a negotiation. 'Move on' means to be flexible or accept a change on a specific term. This is a conditional concession — you are offering flexibility on one thing in exchange for flexibility on something else. Never give a concession without this kind of condition attached.",
       example: "Riley made the trade: I can move on the payment terms — we can do net-60 instead of net-30 if you can move on the contract length. Instead of 12 months, I need you to commit to 18. That way we both give something and both get something. That's the right structure for a trade.",
       imageSlug: '/images/i-can-move-on-that-if-you-can-move-on.png',
       inAction: 'I can move on the delivery timeline if you can move on the payment terms — we need something to give on both sides.',
@@ -79,7 +79,7 @@ export const negotiatingWithPartners: Lesson = {
     },
     {
       phrase: "LET'S FIND SOMETHING THAT WORKS FOR BOTH OF US",
-      definition: "A phrase for redirecting a negotiation toward mutual benefit when it has become adversarial or stuck. It signals that you are not trying to win at the other side's expense — you are looking for a deal that both parties can genuinely commit to. Used to de-escalate tension and refocus on shared interests.",
+      definition: "Use this phrase to steer a negotiation back toward a shared goal when it has become tense or stuck. It shows you are not trying to beat the other side — you want a deal that both parties can genuinely commit to. It helps lower the temperature and refocus on what matters to both of you.",
       example: "Marcus de-escalated the conversation: I can see we're getting stuck on individual terms and losing sight of the bigger picture. Let's step back. We both want this partnership to work — it creates value for both organisations. Let's find something that works for both of us and stop treating this like a zero-sum game.",
       imageSlug: '/images/lets-find-something-that-works-for-both-of-us.png',
       inAction: "We've been debating this contract clause for 20 minutes — let's find something that works for both of us and move the conversation forward.",
@@ -88,7 +88,7 @@ export const negotiatingWithPartners: Lesson = {
     },
     {
       phrase: "THAT'S NOT SOMETHING WE CAN AGREE TO, BUT WHAT WE COULD DO IS...",
-      definition: "A professional way to reject a specific term without walking away from the negotiation. Instead of a flat 'no', this phrase redirects immediately to an alternative. Used when the other party proposes something outside your acceptable range — you decline the specific ask but offer a path forward.",
+      definition: "A professional way to say no to one specific thing without ending the negotiation. Instead of a flat 'no', this phrase immediately offers an alternative. Use it when the other party proposes something outside what you can accept — you turn down the specific ask but give them a path forward.",
       example: "Dana responded to the pricing demand: A 20% price increase is not something we can agree to — it's outside our approved budget and changes the economics of the partnership. But what we could do is accept a 9% increase now, with a commitment to revisit in 12 months based on the performance data. That gives you more than you have today and gives us the certainty we need.",
       imageSlug: '/images/thats-not-something-we-can-agree-to-but-what-we-could-do-is.png',
       inAction: "That's not something we can agree to in this contract cycle, but what we could do is revisit the exclusivity clause at the 12-month review.",
@@ -97,7 +97,7 @@ export const negotiatingWithPartners: Lesson = {
     },
     {
       phrase: 'WHAT WOULD NEED TO HAPPEN FOR YOU TO ACCEPT...',
-      definition: "A diagnostic question used to understand exactly what the other party needs in order to agree to your proposal. It shifts the focus from positions ('I want X') to interests ('what I actually need is Y'). The answer often reveals a way to meet their need without giving up what you need.",
+      definition: "A question used to find out exactly what the other party needs in order to say yes to your proposal. It moves the conversation away from positions ('I want X') to underlying needs ('what I actually need is Y'). The answer often opens up a way to meet their need without giving up what you need.",
       example: "Riley asked: You've said the timeline is the main issue. What would need to happen for you to accept a six-month delivery timeline rather than three months? The answer told us exactly what they needed — an additional resource commitment from our side in month one. We agreed to that, and the timeline issue was resolved.",
       imageSlug: '/images/what-would-need-to-happen-for-you-to-accept.png',
       inAction: 'What would need to happen for you to accept our standard payment terms — is it about cash flow timing or something else entirely?',
@@ -106,7 +106,7 @@ export const negotiatingWithPartners: Lesson = {
     },
     {
       phrase: 'I WANT TO BE TRANSPARENT ABOUT WHERE WE STAND',
-      definition: 'A phrase used to introduce honest, direct information about your position, constraints, or priorities in a negotiation. Transparency, used strategically, builds trust and can accelerate deals — sharing your real constraints often invites the other party to share theirs, which opens up creative solutions.',
+      definition: 'Use this phrase to share clear, honest information about your position or limits in a negotiation. Being open about your real constraints often encourages the other side to share theirs — which can open up solutions that neither party had thought of. Honesty, used well, speeds deals up.',
       example: "Marcus opened the renegotiation: I want to be transparent about where we stand. Our budget for this partnership was set before the market shift and we simply can't absorb a 20% increase without reducing scope elsewhere. I'd rather be honest about that now than agree to something we'll struggle to honour. Can we work within these parameters?",
       imageSlug: '/images/i-want-to-be-transparent-about-where-we-stand.png',
       inAction: "I want to be transparent about where we stand — we've had two other partners express interest in this slot, so we'll need a decision by Friday.",
@@ -115,7 +115,7 @@ export const negotiatingWithPartners: Lesson = {
     },
     {
       phrase: "WE'RE AT OUR LIMIT ON THAT ONE",
-      definition: 'A clear, direct phrase for signalling that you cannot move further on a specific term — you have reached your walk-away point on that variable. Used to stop a negotiation from continuing to press a term that you genuinely cannot move on, without necessarily ending the overall discussion.',
+      definition: 'A clear, direct phrase that signals you cannot go any further on a specific term — you have reached your limit on that point. Use it to stop the pressure on a term you genuinely cannot move on, without ending the whole conversation.',
       example: "Dana signalled the boundary: I want to keep this deal moving, but I need to be clear — on the exclusivity clause, we're at our limit. We cannot sign a deal that doesn't include category exclusivity for financial services. If that's a dealbreaker, we need to know now. But there may be other terms where we have more flexibility.",
       imageSlug: '/images/were-at-our-limit-on-that-one.png',
       inAction: "We've moved significantly on the pricing already — we're at our limit on that one, but we can still talk about the service scope.",

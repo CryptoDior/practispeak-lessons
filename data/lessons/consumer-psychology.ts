@@ -12,42 +12,42 @@ export const consumerPsychology: Lesson = {
     {
       word: 'COGNITIVE BIAS',
       partOfSpeech: 'noun',
-      definition: 'A systematic pattern in human thinking that causes people to make decisions in ways that are not entirely rational. Cognitive biases are not mistakes — they are shortcuts the brain uses to process information quickly. Marketers who understand cognitive biases can design campaigns that work with, not against, how people actually think.',
+      definition: 'A pattern in how people think that causes them to make decisions in ways that are not fully logical. These are not mistakes — they are mental shortcuts the brain uses to process information quickly. Marketers who understand these biases can design campaigns that work with how people actually think, not against it.',
       example: "Marcus explained the brief to the creative team: The campaign needs to use the anchoring bias — we show the premium package first, at a higher price, so the standard package feels like great value by comparison. That's not manipulation; it's understanding how the customer's brain processes relative value.",
       imageSlug: '/images/cognitive-bias.png',
     },
     {
       word: 'PRIMING',
       partOfSpeech: 'noun',
-      definition: 'When exposure to one stimulus influences how a person responds to the next. In marketing, priming means using imagery, words, or context to put the customer in the right mental state before they see your offer. The environment you create before the ask matters as much as the ask itself.',
+      definition: 'When something the customer sees or reads first changes how they react to what comes next. In marketing, priming means setting up the right mood or mindset before the customer sees your offer. What you put in front of them before the ask matters just as much as the ask itself.',
       example: 'Dana briefed the web team: The homepage needs to prime the visitor for a premium experience before they see the pricing page. Use high-quality photography, calm spacing, and language associated with trust and expertise. By the time they reach the price, the priming effect should make the cost feel justified.',
       imageSlug: '/images/priming.png',
     },
     {
       word: 'SOCIAL PROOF',
       partOfSpeech: 'noun',
-      definition: 'The psychological principle that people look to the behaviour of others to guide their own decisions. When customers see that many others have already chosen a product — through reviews, testimonials, case studies, or user numbers — they feel more confident making the same choice.',
+      definition: 'The idea that people look at what others are doing to decide what to do themselves. When customers see that many others have already chosen your product — through reviews, testimonials, case studies, or user numbers — they feel more confident making the same choice.',
       example: "Riley revised the landing page copy: We need stronger social proof above the fold. Add the client logo strip, the '2,400 companies trust us' stat, and pull the best G2 review to the hero section. Social proof at the decision moment reduces hesitation faster than any product description can.",
       imageSlug: '/images/social-proof.png',
     },
     {
       word: 'SCARCITY',
       partOfSpeech: 'noun',
-      definition: 'The psychological principle that people place higher value on things that are rare, limited, or running out. Creating genuine scarcity — limited stock, time-limited offers, exclusive access — increases perceived value and urgency. False scarcity (claiming limitation that does not exist) damages trust if customers discover it.',
+      definition: 'The idea that people value things more when they are rare or running out. Genuine scarcity — limited stock, a deadline, exclusive access — increases the sense of urgency. Fake scarcity — claiming limits that do not exist — damages trust the moment customers notice it.',
       example: "The campaign used scarcity to drive conversions: Only 50 places in this cohort — enrolment closes Friday. Marcus flagged that the scarcity had to be real: If we say 50 places and then extend it because conversions are slow, customers will notice. Scarcity only works if it's true.",
       imageSlug: '/images/scarcity.png',
     },
     {
       word: 'ANCHORING',
       partOfSpeech: 'noun',
-      definition: "A cognitive bias where people rely heavily on the first piece of information they see (the 'anchor') when making decisions. In pricing, showing a higher price first makes lower prices seem more attractive by comparison. In negotiation, the first number stated often shapes the entire discussion.",
+      definition: "A thinking pattern where people rely heavily on the first number or piece of information they see. In pricing, showing a higher price first makes everything else look like better value by comparison. In negotiation, whoever puts the first number on the table often shapes the whole discussion.",
       example: "Dana reviewed the pricing page: Right now we lead with the Basic plan at £49. We should lead with the Pro plan at £149 instead. Anchoring on a higher price first makes the Basic feel like a deal — even though we haven't changed the price. It's a simple change with a measurable impact on plan mix.",
       imageSlug: '/images/anchoring.png',
     },
     {
       word: 'LOSS AVERSION',
       partOfSpeech: 'noun',
-      definition: "The psychological finding that people feel the pain of losing something more strongly than the pleasure of gaining something of equal value. In marketing, framing a message around what the customer stands to lose (rather than gain) can be more motivating — 'Don't miss out' works differently from 'Get access now'.",
+      definition: "The finding that people feel the pain of losing something more strongly than the pleasure of gaining something of the same value. In marketing, focusing on what the customer stands to lose — instead of what they will gain — can be more powerful. 'Don't miss out' hits differently from 'Get access now'.",
       example: "Riley rewrote the subject line: 'Unlock your free report' wasn't getting opens. I changed it to 'You're leaving money on the table' — which uses loss aversion. People are wired to respond more strongly to the fear of losing than the promise of gaining. Open rate went up 18% with the reframe.",
       imageSlug: '/images/loss-aversion.png',
     },
@@ -61,7 +61,7 @@ export const consumerPsychology: Lesson = {
     {
       word: 'RECIPROCITY',
       partOfSpeech: 'noun',
-      definition: 'The social norm that when someone gives us something, we feel an obligation to give something back. In marketing, reciprocity is the principle behind free content, free trials, and samples — give first, and customers are psychologically primed to return the favour by converting, referring, or buying more.',
+      definition: 'The idea that when someone gives us something, we naturally want to give something back. In marketing, this is why free content, free trials, and samples work — give first, and customers feel a pull to return the favour by buying, referring, or sticking around.',
       example: "Dana explained the content strategy to the client: The reason we invest heavily in free guides, webinars, and templates is reciprocity. When a prospect has already received genuine value from us at no cost, they feel a natural pull toward giving something back — usually by paying for the product. It's not charity; it's strategy.",
       imageSlug: '/images/reciprocity.png',
     }
@@ -70,7 +70,7 @@ export const consumerPsychology: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'THIS CAMPAIGN LEVERAGES THE PRINCIPLE OF...',
-      definition: "The professional phrase for explaining that a campaign has been intentionally designed around a psychological principle. 'Leverages' means 'uses strategically to gain an advantage'. Using this phrase in a brief or presentation shows that creative decisions are grounded in evidence, not instinct.",
+      definition: "Use this phrase to explain that a campaign has been deliberately built around a specific psychological principle. It shows that the creative decisions are based on evidence and research, not just gut feeling.",
       example: "Riley presented to the client: This campaign leverages the principle of social proof — every touchpoint shows real customer outcomes, real numbers, and real faces. We're not asking the prospect to trust us; we're showing them that hundreds of people like them already have.",
       imageSlug: '/images/this-campaign-leverages-the-principle-of.png',
       inAction: 'This campaign leverages the principle of reciprocity — we give away a genuinely useful guide before asking for anything in return.',
@@ -79,7 +79,7 @@ export const consumerPsychology: Lesson = {
     },
     {
       phrase: "THE CUSTOMER'S DECISION IS DRIVEN BY...",
-      definition: "A phrase for explaining what psychological force is motivating or influencing the customer's behaviour. Used in briefs, post-campaign analysis, and client presentations. Replace 'driven by' with the specific principle: fear, scarcity, status, reciprocity, or loss aversion.",
+      definition: "Use this phrase to explain what is motivating or influencing the customer's decision. It belongs in briefs, post-campaign reviews, and client presentations. Replace 'driven by' with the specific principle — fear, scarcity, status, or loss aversion.",
       example: "Marcus briefed the team: In this segment, the customer's decision is driven by fear of making the wrong choice — not desire for the best product. That means our messaging should focus on safety, trust signals, and risk reduction, not features and benefits.",
       imageSlug: '/images/the-customers-decision-is-driven-by.png',
       inAction: "In this segment, the customer's decision is driven by fear of making a costly mistake — not by excitement about finding the best product.",
@@ -88,7 +88,7 @@ export const consumerPsychology: Lesson = {
     },
     {
       phrase: "WE'RE USING SCARCITY TO CREATE URGENCY",
-      definition: "A specific, commonly used phrase in campaign briefings and marketing reviews. 'Create urgency' means to give the customer a genuine reason to act now rather than later. 'Using scarcity' means the urgency comes from real or perceived limitation. This phrase is often used in conversion rate optimisation discussions.",
+      definition: "Use this phrase in campaign briefings and marketing reviews to say that the campaign gives customers a real reason to act now rather than later. The urgency comes from a genuine or perceived limit — limited stock, a deadline, a cap on numbers. Common in conversion rate discussions.",
       example: "Dana explained the offer mechanic: We're using scarcity to create urgency here — the early-bird price is only available for the first 100 sign-ups. Once we hit that number, the price goes up automatically. The scarcity is real, which is important — customers can tell when it's manufactured.",
       imageSlug: '/images/were-using-scarcity-to-create-urgency.png',
       inAction: "We're using scarcity to create urgency — the early-bird rate is only available to the first 100 companies who sign up.",
@@ -97,7 +97,7 @@ export const consumerPsychology: Lesson = {
     },
     {
       phrase: 'THE FRAMING IS DOING A LOT OF WORK HERE',
-      definition: 'An informal but professional phrase used in creative reviews to say that the way a message is presented (the frame) is a major driver of its effectiveness — sometimes more than the message itself. Used when analysing why something works or recommending a rewrite.',
+      definition: "An informal but professional phrase used in creative reviews to say that the way a message is presented is doing most of the heavy lifting — sometimes more than the message itself. Use it when you're analysing why something works or recommending a rewrite.",
       example: "Riley reviewed the A/B test results: The framing is doing a lot of work here. The winning ad doesn't have better features or a lower price — it just leads with what the customer loses by not acting rather than what they gain by joining. Same offer, completely different response. That's the framing effect in action.",
       imageSlug: '/images/the-framing-is-doing-a-lot-of-work-here.png',
       inAction: "The framing is doing a lot of work here — the same £500 saving feels very different as 'Save £500' versus 'Don't lose £500 this month'.",
@@ -106,7 +106,7 @@ export const consumerPsychology: Lesson = {
     },
     {
       phrase: 'WE WANT TO PRIME THE CUSTOMER BEFORE...',
-      definition: "Used in campaign planning to describe the intentional preparation of a customer's mental state before they encounter an offer, landing page, or sales conversation. Priming discussions often focus on the sequence of touchpoints — what should the customer see or read first?",
+      definition: "Use this phrase in campaign planning to talk about setting up the customer's mindset before they see an offer, landing page, or sales conversation. The focus is on sequence — what should the customer see or experience first?",
       example: "Marcus planned the email sequence: We want to prime the customer before they see the pricing page. That means the three emails before the offer email should focus entirely on the problem — make them feel the pain before we present the solution. By the time the offer lands, they're ready to say yes.",
       imageSlug: '/images/we-want-to-prime-the-customer-before.png',
       inAction: 'We want to prime the customer before they see the pricing page — the three touchpoints before the offer must build trust, not sell.',
@@ -115,7 +115,7 @@ export const consumerPsychology: Lesson = {
     },
     {
       phrase: 'THE PSYCHOLOGICAL INSIGHT BEHIND THIS IS...',
-      definition: "A phrase for explaining the evidence or behavioural principle that informs a creative or strategic decision. Used in client presentations and internal briefs to show that the approach is grounded in research. Always follow with a specific named principle — 'the psychological insight behind this is reciprocity' not just 'psychology'.",
+      definition: "Use this phrase to explain the research or human behaviour principle behind a creative or strategic decision. It shows the approach is based on evidence, not guesswork. Always name the specific principle — 'the psychological insight behind this is reciprocity', not just 'psychology'.",
       example: "Dana explained the free trial strategy: The psychological insight behind this is reciprocity. When a customer has spent two weeks using our tool and getting results from it, they feel a natural obligation to continue — it feels wrong to stop. That's why our free trial converts at 34%, well above the industry average.",
       imageSlug: '/images/the-psychological-insight-behind-this-is.png',
       inAction: 'The psychological insight behind this is anchoring — when customers see the premium plan first, the standard plan instantly feels like better value.',
