@@ -290,7 +290,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                   <tr className="bg-gray-50 border-b-2 border-gray-200">
                     <th className="text-left px-6 py-4 text-xs font-extrabold tracking-widest text-gray-600 uppercase">Phrase</th>
                     <th className="text-left px-6 py-4 text-xs font-extrabold tracking-widest text-gray-600 uppercase">Register</th>
-                    <th className="text-left px-6 py-4 text-xs font-extrabold tracking-widest text-gray-600 uppercase hidden md:table-cell">Notes</th>
+                    <th className="text-left px-6 py-4 text-xs font-extrabold tracking-widest text-gray-600 uppercase hidden md:table-cell">Real Life Examples</th>
                   </tr>
                 </thead>
                 <tbody>
