@@ -23,11 +23,7 @@ import DealClinicSection from '@/components/DealClinicSection';
 
 const DEFAULT_TABS = ['Vocabulary', 'Phrases', 'Videos', 'Dialogue', 'Exercises'] as const;
 
-interface ExerciseScore {
-  score: number;
-  total: number;
-}
-
+interface ExerciseScore { score: number; total: number; }
 interface Scores {
   pitchCorner?: ExerciseScore;
   completeSentence?: ExerciseScore;
@@ -49,11 +45,9 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   );
   const withWarmUp = lesson.warmUp ? ['Warm Up', ...baseTabs] : baseTabs;
 
-  // Detect phrasal verbs with In Action / Register / In Context content
   const hasPhrasalDetails = lesson.phrasalVerbs.some(
     (v) => v.inAction || v.register || v.inContext
   );
-  // Insert the 3 phrasal tabs right after 'Phrases'
   let withPhrasalTabs: string[];
   if (hasPhrasalDetails) {
     const phrasesIdx = withWarmUp.indexOf('Phrases');
@@ -65,15 +59,12 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   } else {
     withPhrasalTabs = [...withWarmUp];
   }
-  // po = phrasal offset — tabs after Phrases shift by 3 when phrasal detail tabs are present
   const po = hasPhrasalDetails ? 3 : 0;
 
   const withDealClinic = lesson.dealClinic ? [...withPhrasalTabs, 'Deal Clinic'] : withPhrasalTabs;
-  const TABS = lesson.groupActivities
-    ? ([...withDealClinic, 'Group Activities'] as const)
-    : withDealClinic;
+  const TABS = lesson.groupActivities ? [...withDealClinic, 'Group Activities'] : withDealClinic;
 
-  const wo = lesson.warmUp ? 1 : 0; // warmUp offset
+  const wo = lesson.warmUp ? 1 : 0;
   const [activeTab, setActiveTab] = useState(0);
   const [visitedTabs, setVisitedTabs] = useState<Set<number>>(new Set([0]));
   const [scores, setScores] = useState<Scores>({});
@@ -143,11 +134,8 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   return (
     <div className="min-h-screen bg-[#F0F4FF]">
 
-      {/* ── Gradient header ── */}
       <div className="bg-gradient-to-br from-[#EEF3FF] via-[#E6EDFF] to-[#D8E7FF]">
         <div className="max-w-5xl mx-auto px-4">
-
-          {/* Logo row */}
           <div className="flex items-center justify-between py-4 border-b border-blue-100/60">
             <Link href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 bg-[#066EF5] rounded-lg flex items-center justify-center flex-shrink-0">
@@ -159,8 +147,6 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
               ← All Lessons
             </Link>
           </div>
-
-          {/* Title + hero image row */}
           <div className="flex items-center justify-between py-8 gap-8">
             <div className="flex-1 min-w-0">
               <LevelBadge level={lesson.level} large />
@@ -168,8 +154,6 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                 {lesson.title}
               </h1>
               <p className="text-gray-500 font-semibold mb-5">{lesson.subtitle}</p>
-
-              {/* Progress bar */}
               <div className="flex items-center gap-3 max-w-sm">
                 <div className="flex-1 h-2 bg-white/70 rounded-full overflow-hidden">
                   <div
@@ -180,8 +164,6 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                 <span className="text-sm font-extrabold text-[#066EF5] w-10 text-right">{progress}%</span>
               </div>
             </div>
-
-            {/* Hero image */}
             <div className="hidden md:block flex-shrink-0">
               <LessonHeroImage src={lesson.heroImage} alt={lesson.title} />
             </div>
@@ -189,7 +171,6 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         </div>
       </div>
 
-      {/* ── Tab bar ── */}
       <div className="bg-white shadow-sm sticky top-0 z-10">
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex overflow-x-auto no-scrollbar">
@@ -213,17 +194,12 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         </div>
       </div>
 
-      {/* ── All sections ── */}
       <main className="max-w-5xl mx-auto px-4 py-8">
 
         {/* Warm Up */}
         {lesson.warmUp && (
           <section className={activeTab === 0 ? 'block' : 'hidden'}>
-            <WarmUpSection
-              warmUp={lesson.warmUp}
-              heroImage={lesson.heroImage}
-              onStart={() => goToTab(1)}
-            />
+            <WarmUpSection warmUp={lesson.warmUp} heroImage={lesson.heroImage} onStart={() => goToTab(1)} />
           </section>
         )}
 
@@ -235,13 +211,9 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
             instruction={lesson.vocabulary.some(w => w.partOfSpeech === 'abbreviation') ? 'Listen to the audio for the full abbreviation' : undefined}
           />
           <div className="flex flex-col gap-6">
-            {lesson.vocabulary.map((word, i) => (
-              <VocabCard key={word.word} word={word} index={i} />
-            ))}
+            {lesson.vocabulary.map((word, i) => <VocabCard key={word.word} word={word} index={i} />)}
           </div>
-          {lesson.grammarFocus && (
-            <GrammarFocusSection grammar={lesson.grammarFocus} />
-          )}
+          {lesson.grammarFocus && <GrammarFocusSection grammar={lesson.grammarFocus} />}
         </section>
 
         {/* Phrases */}
@@ -251,35 +223,23 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
             subtitle={`${lesson.phrasalVerbs.length} ${TABS[wo + 1].toLowerCase()} and their meanings`}
           />
           <div className="flex flex-col gap-6">
-            {lesson.phrasalVerbs.map((verb, i) => (
-              <PhrasalVerbCard key={verb.phrase} verb={verb} index={i} />
-            ))}
+            {lesson.phrasalVerbs.map((verb, i) => <PhrasalVerbCard key={verb.phrase} verb={verb} index={i} />)}
           </div>
         </section>
 
-        {/* In Action — separate tab, only when phrasal details exist */}
+        {/* In Action */}
         {hasPhrasalDetails && (
           <section className={activeTab === wo + 2 ? 'block' : 'hidden'}>
-            <SectionHeader
-              title="In Action"
-              subtitle="See how each phrase is used in a real workplace moment"
-            />
+            <SectionHeader title="In Action" subtitle="See how each phrase is used in a real workplace moment" />
             <div className="flex flex-col gap-5">
               {lesson.phrasalVerbs.filter(v => v.inAction).map((verb, i) => (
-                <div
-                  key={verb.phrase}
-                  className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden"
-                >
+                <div key={verb.phrase} className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
                   <div className="flex items-center gap-3 px-6 py-4 border-b border-gray-50">
-                    <span className="text-xs font-extrabold tracking-widest text-[#066EF5] uppercase">
-                      {String(i + 1).padStart(2, '0')}
-                    </span>
+                    <span className="text-xs font-extrabold tracking-widest text-[#066EF5] uppercase">{String(i + 1).padStart(2, '0')}</span>
                     <h3 className="font-extrabold text-gray-900 text-base">{verb.phrase}</h3>
                   </div>
                   <div className="px-6 py-5">
-                    <p className="text-gray-600 text-base leading-relaxed italic">
-                      &ldquo;{verb.inAction}&rdquo;
-                    </p>
+                    <p className="text-gray-600 text-base leading-relaxed italic">&ldquo;{verb.inAction}&rdquo;</p>
                   </div>
                 </div>
               ))}
@@ -287,13 +247,10 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           </section>
         )}
 
-        {/* Register — separate tab, only when phrasal details exist */}
+        {/* Register */}
         {hasPhrasalDetails && (
           <section className={activeTab === wo + 3 ? 'block' : 'hidden'}>
-            <SectionHeader
-              title="Register"
-              subtitle="Understand when and how to use each phrase — formal, neutral, or informal"
-            />
+            <SectionHeader title="Register" subtitle="Understand when and how to use each phrase — formal, neutral, or informal" />
             <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
               <table className="w-full border-collapse">
                 <thead>
@@ -321,12 +278,12 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                       <tr key={verb.phrase} className={isLast ? '' : 'border-b border-gray-100'}>
                         <td className="px-5 py-4 align-top">
                           <span className="font-extrabold text-gray-900 text-sm">{verb.phrase}</span>
-                          <p className="text-xs text-gray-400 mt-0.5 leading-relaxed hidden md:block">{verb.definition.slice(0, 60)}{verb.definition.length > 60 ? '…' : ''}</p>
+                          <p className="text-xs text-gray-400 mt-0.5 leading-relaxed hidden md:block">
+                            {verb.definition.length > 60 ? verb.definition.slice(0, 60) + '…' : verb.definition}
+                          </p>
                         </td>
                         <td className="px-5 py-4 align-top">
-                          <span className={`inline-block text-xs font-bold px-2.5 py-1 rounded-full whitespace-nowrap ${badgeClass}`}>
-                            {badge}
-                          </span>
+                          <span className={`inline-block text-xs font-bold px-2.5 py-1 rounded-full whitespace-nowrap ${badgeClass}`}>{badge}</span>
                         </td>
                         <td className="px-5 py-4 align-top text-sm text-gray-500 leading-relaxed hidden md:table-cell">{notes}</td>
                       </tr>
@@ -338,23 +295,15 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           </section>
         )}
 
-        {/* In Context — separate tab, only when phrasal details exist */}
+        {/* In Context */}
         {hasPhrasalDetails && (
           <section className={activeTab === wo + 4 ? 'block' : 'hidden'}>
-            <SectionHeader
-              title="In Context"
-              subtitle="Read the story — each phrase appears in a real situation"
-            />
+            <SectionHeader title="In Context" subtitle="Read the story — each phrase appears in a real situation" />
             <div className="flex flex-col gap-5">
               {lesson.phrasalVerbs.filter(v => v.inContext).map((verb, i) => (
-                <div
-                  key={verb.phrase}
-                  className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden"
-                >
+                <div key={verb.phrase} className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
                   <div className="flex items-center gap-3 px-6 py-4 border-b border-gray-50">
-                    <span className="text-xs font-extrabold tracking-widest text-emerald-600 uppercase">
-                      {String(i + 1).padStart(2, '0')}
-                    </span>
+                    <span className="text-xs font-extrabold tracking-widest text-emerald-600 uppercase">{String(i + 1).padStart(2, '0')}</span>
                     <h3 className="font-extrabold text-gray-900 text-base">{verb.phrase}</h3>
                   </div>
                   <div className="px-6 py-5">
@@ -366,7 +315,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           </section>
         )}
 
-        {/* Videos / Register (vocab awareness) — index shifts by po */}
+        {/* Videos / Register (vocab awareness) */}
         <section className={activeTab === wo + po + 2 ? 'block' : 'hidden'}>
           {lesson.registerAwareness ? (
             <>
@@ -377,33 +326,22 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
             <>
               <SectionHeader title="Videos" subtitle="Watch these terms used in context" />
               <div className="grid gap-6 md:grid-cols-2">
-                {lesson.videos.map((video, i) => (
-                  <VideoCard key={i} video={video} />
-                ))}
+                {lesson.videos.map((video, i) => <VideoCard key={i} video={video} />)}
               </div>
             </>
           )}
         </section>
 
-        {/* Dialogue / In Context (reading passage) — index shifts by po */}
+        {/* Dialogue / Reading Passage */}
         <section className={activeTab === wo + po + 3 ? 'block' : 'hidden'}>
           {lesson.readingPassage ? (
             <>
-              <SectionHeader
-                title={TABS[wo + po + 3]}
-                subtitle="Read the passage — highlighted words are from this lesson"
-              />
-              <ReadingPassageSection
-                passage={lesson.readingPassage}
-                prompts={lesson.productionPrompts}
-              />
+              <SectionHeader title={TABS[wo + po + 3]} subtitle="Read the passage — highlighted words are from this lesson" />
+              <ReadingPassageSection passage={lesson.readingPassage} prompts={lesson.productionPrompts} />
             </>
           ) : (
             <>
-              <SectionHeader
-                title="Dialogue"
-                subtitle={lesson.dialogueSubtitle || 'Read the dialogue and hover the blue words for definitions'}
-              />
+              <SectionHeader title="Dialogue" subtitle={lesson.dialogueSubtitle || 'Read the dialogue and hover the blue words for definitions'} />
               <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
                 <DialogueSection lines={lesson.dialogue} />
               </div>
@@ -411,50 +349,39 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           )}
         </section>
 
-        {/* Exercises — index shifts by po */}
+        {/* Exercises */}
         <section className={activeTab === wo + po + 4 ? 'block' : 'hidden'}>
-          <SectionHeader
-            title="Exercises"
-            subtitle="Complete all three exercises to see your final score"
-          />
+          <SectionHeader title="Exercises" subtitle="Complete all three exercises to see your final score" />
           <div className="space-y-6">
-
             {lesson.pitchCorner && (
               <ExerciseCard number={1} title="Pitch Corner" description="Read the pitch — click or drag words from the bank to fill the gaps.">
                 <PitchCornerSection pitchCorner={lesson.pitchCorner} onComplete={handlePitchCornerComplete} />
               </ExerciseCard>
             )}
-
             {lesson.completeSentenceExercise && (
               <ExerciseCard number={1} title="Complete the Sentence" description="Choose the correct answer to complete each sentence.">
                 <CompleteSentenceSection exercise={lesson.completeSentenceExercise} onComplete={handleCompleteSentenceComplete} />
               </ExerciseCard>
             )}
-
             {(!hasPitchCorner && !hasCompleteSentence || pitchCornerDone || completeSentenceDone) && (
               <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 2 : 1} title="Matching" description="Click a word, then click its correct definition.">
                 <MatchingExercise pairs={lesson.matchingExercise} onComplete={handleMatchingComplete} />
               </ExerciseCard>
             )}
-
             {showFillBlank && (
               <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 3 : 2} title="Fill in the Blank" description="Drag the correct words from the word bank to complete each sentence.">
                 <FillBlankExercise items={lesson.fillBlankExercise} onComplete={handleFillBlankComplete} />
               </ExerciseCard>
             )}
-
             {showMultipleChoice && (
               <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 4 : 3} title="Multiple Choice" description="Choose the best answer for each question about the dialogue.">
                 <MultipleChoiceExercise items={lesson.multipleChoiceExercise} onComplete={handleMultipleChoiceComplete} />
               </ExerciseCard>
             )}
-
             {allDone && (
               <div className="text-center py-4">
                 <div className="p-5 bg-emerald-50 border border-emerald-100 rounded-[20px] mb-5">
-                  <p className="text-emerald-700 font-extrabold text-lg">
-                    All exercises complete! Great work! 🎉
-                  </p>
+                  <p className="text-emerald-700 font-extrabold text-lg">All exercises complete! Great work! 🎉</p>
                 </div>
                 <button
                   onClick={() => setShowCompletion(true)}
@@ -506,33 +433,20 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   );
 }
 
-/* ── Helper components ── */
-
 function LessonHeroImage({ src, alt }: { src?: string; alt: string }) {
   const [imgReady, setImgReady] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
-
   useEffect(() => {
-    if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) {
-      setImgReady(true);
-    }
+    if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) setImgReady(true);
   }, [src]);
-
   return (
     <div className="relative w-56 lg:w-64 aspect-[4/3] rounded-2xl overflow-hidden shadow-[0_4px_24px_rgba(6,110,245,0.15)] flex-shrink-0">
-      <div className="absolute inset-0">
-        <HeroPlaceholder />
-      </div>
+      <div className="absolute inset-0"><HeroPlaceholder /></div>
       {src && (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          ref={imgRef}
-          src={src}
-          alt=""
-          aria-hidden={!imgReady}
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
-            imgReady ? 'opacity-100' : 'opacity-0'
-          }`}
+          ref={imgRef} src={src} alt="" aria-hidden={!imgReady}
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${imgReady ? 'opacity-100' : 'opacity-0'}`}
           onLoad={() => setImgReady(true)}
           onError={() => setImgReady(false)}
         />
@@ -545,17 +459,16 @@ function HeroPlaceholder() {
   return (
     <div className="w-full h-full bg-gradient-to-br from-[#D6E4FF] to-[#B8CEFF] flex items-center justify-center">
       <svg viewBox="0 0 96 60" width="96" height="60" fill="none" aria-hidden="true">
-        <path d="M18 22 Q14 22 8 30 Q4 36 5 43 Q6 50 13 52 Q20 54 25 47 L34 42 L62 42 L71 47 Q76 54 83 52 Q90 50 91 43 Q92 36 88 30 Q82 22 78 22 L62 18 Q55 14 41 14 Q27 14 18 22Z"
-              fill="#066EF5" fillOpacity="0.18" stroke="#066EF5" strokeOpacity="0.35" strokeWidth="1.5" strokeLinejoin="round"/>
+        <path d="M18 22 Q14 22 8 30 Q4 36 5 43 Q6 50 13 52 Q20 54 25 47 L34 42 L62 42 L71 47 Q76 54 83 52 Q90 50 91 43 Q92 36 88 30 Q82 22 78 22 L62 18 Q55 14 41 14 Q27 14 18 22Z" fill="#066EF5" fillOpacity="0.18" stroke="#066EF5" strokeOpacity="0.35" strokeWidth="1.5" strokeLinejoin="round"/>
         <rect x="24" y="27" width="5" height="14" rx="2" fill="#066EF5" fillOpacity="0.3"/>
         <rect x="19.5" y="31.5" width="14" height="5" rx="2" fill="#066EF5" fillOpacity="0.3"/>
-        <circle cx="64" cy="29" r="3"   fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
-        <circle cx="70" cy="34" r="3"   fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
-        <circle cx="64" cy="39" r="3"   fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
-        <circle cx="58" cy="34" r="3"   fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
-        <circle cx="38" cy="36" r="6"   fill="#066EF5" fillOpacity="0.15" stroke="#066EF5" strokeOpacity="0.3" strokeWidth="1.2"/>
-        <circle cx="54" cy="26" r="5"   fill="#066EF5" fillOpacity="0.12" stroke="#066EF5" strokeOpacity="0.25" strokeWidth="1.2"/>
-        <circle cx="47" cy="26" r="3"   fill="#066EF5" fillOpacity="0.25"/>
+        <circle cx="64" cy="29" r="3" fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
+        <circle cx="70" cy="34" r="3" fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
+        <circle cx="64" cy="39" r="3" fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
+        <circle cx="58" cy="34" r="3" fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
+        <circle cx="38" cy="36" r="6" fill="#066EF5" fillOpacity="0.15" stroke="#066EF5" strokeOpacity="0.3" strokeWidth="1.2"/>
+        <circle cx="54" cy="26" r="5" fill="#066EF5" fillOpacity="0.12" stroke="#066EF5" strokeOpacity="0.25" strokeWidth="1.2"/>
+        <circle cx="47" cy="26" r="3" fill="#066EF5" fillOpacity="0.25"/>
       </svg>
     </div>
   );
@@ -592,7 +505,7 @@ function SectionHeader({ title, subtitle, instruction }: { title: string; subtit
 function VideoCard({ video }: { video: LessonVideo }) {
   return (
     <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
-      <div className="aspect-video bg-gradient-to-br from-[#F0F4FF] to-blue-50 flex items-center">
+      <div className="aspect-video bg-gradient-to-br from-[#F0F4FF] to-blue-50 flex items-center justify-center">
         {video.youtubeId.startsWith('PLACEHOLDER') ? (
           <div className="text-center p-6">
             <div className="w-16 h-16 bg-[#066EF5]/10 border-2 border-[#066EF5]/20 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -613,25 +526,13 @@ function VideoCard({ video }: { video: LessonVideo }) {
       </div>
       <div className="p-5">
         <h3 className="font-extrabold text-gray-900 mb-1">{video.title}</h3>
-        {video.description && (
-          <p className="text-sm text-gray-500 font-semibold">{video.description}</p>
-        )}
+        {video.description && <p className="text-sm text-gray-500 font-semibold">{video.description}</p>}
       </div>
     </div>
   );
 }
 
-function ExerciseCard({
-  number,
-  title,
-  description,
-  children,
-}: {
-  number: number;
-  title: string;
-  description: string;
-  children: React.ReactNode;
-}) {
+function ExerciseCard({ number, title, description, children }: { number: number; title: string; description: string; children: React.ReactNode }) {
   return (
     <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
       <div className="flex items-start gap-4 px-6 py-5 border-b border-gray-50">
@@ -643,12 +544,7 @@ function ExerciseCard({
           <p className="text-sm text-gray-400 font-medium mt-0.5">{description}</p>
         </div>
       </div>
-      <div className="px-6 py-5">
-        {children}
-      </div>
+      <div className="px-6 py-5">{children}</div>
     </div>
-  );
-}
- </div>
   );
 }
