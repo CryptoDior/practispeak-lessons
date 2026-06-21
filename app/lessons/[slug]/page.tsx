@@ -309,10 +309,10 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                       : 'bg-blue-50 text-blue-700 border border-blue-200';
                     return (
                       <tr key={verb.phrase} className={`${isLast ? '' : 'border-b border-gray-200'} hover:bg-gray-50 transition-colors`}>
-                        <td className="px-6 py-5 align-top w-56">
+                        <td className="px-6 py-5 align-top">
                           <span className="font-extrabold text-gray-900 text-sm leading-snug block">{verb.phrase}</span>
-                          <p className="text-sm text-gray-500 mt-1 leading-relaxed hidden md:block">
-                            {verb.definition.length > 70 ? verb.definition.slice(0, 70) + '…' : verb.definition}
+                          <p className="text-sm text-gray-500 mt-1 leading-relaxed">
+                            {verb.definition}
                           </p>
                         </td>
                         <td className="px-6 py-5 align-top">
