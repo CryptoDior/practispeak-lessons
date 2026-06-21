@@ -290,6 +290,7 @@ export const lessons: Lesson[] = [
   programmaticAdvertising,
   socialListeningAndReputation,
 ];
+
 export function getLessonBySlug(slug: string): Lesson | undefined {
   return lessons.find((l) => l.slug === slug);
 }

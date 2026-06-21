@@ -268,8 +268,8 @@ export interface Lesson {
   pitchCorner?: PitchCorner;
   /** Optional complete-the-sentence exercise — 6 gap-fill items with 3 options each. A1-A2 only. */
   completeSentenceExercise?: CompleteSentenceExercise;
-  /** Optional deal clinic — students evaluate good vs. weak sales moves. C1-C2 only. */
-  dealClinic?: DealClinic;
-  /** Optional group activities — role-play scenarios + discussion questions. Skip for 1-on-1 lessons. */
+  /** Optional group activities section (choose response + spot the mistake). */
   groupActivities?: GroupActivities;
+  /** Optional deal clinic section (C1-C2 only). */
+  dealClinic?: DealClinic;
 }

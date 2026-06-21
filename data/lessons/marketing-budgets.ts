@@ -485,6 +485,31 @@ export const marketingBudgets: Lesson = {
                 "explanation": "'Proven track record' is the correct fixed expression. 'Proven' is used here as an adjective meaning something that has been shown to work. While 'proved' is the past tense of 'prove', the adjective form used in set phrases like 'track record', 'method', and 'formula' is always 'proven': 'a proven system', 'a proven approach'."
             }
         ]
-    }
+    },
+    finishTheLine: {
+      instructions: 'The finance director has just challenged your budget. Finish the marketer response using the language from this lesson.',
+      items: [
+        {
+          customerLine: 'We need to cut 15% from the marketing budget next quarter. Where would you cut first?',
+          salespersonStart: 'Before I answer that, let me show you what each cut costs in pipeline terms — because if we cut the wrong line,',
+          suggestedCompletion: 'we lose more in revenue than we save in spend. The safest cut is brand awareness, not demand generation.',
+        },
+        {
+          customerLine: 'What return are we actually getting from the content programme?',
+          salespersonStart: 'Content is generating 45 organic MQLs per quarter at a cost-per-acquisition of £190 — which means',
+          suggestedCompletion: 'it is our most efficient channel by CPA, nearly half the cost of paid media for the same result.',
+        },
+        {
+          customerLine: "I'm not sure this budget is realistic. What happens if we don't hit the pipeline forecast?",
+          salespersonStart: "I've built a 15% buffer into the forecast and I can walk you through the assumptions — but if it helps,",
+          suggestedCompletion: "let's look at the numbers together now so you can see exactly where the risk sits.",
+        },
+        {
+          customerLine: 'Why should we increase the events budget when Q3 performance was below target?',
+          salespersonStart: "That's a fair challenge. The Q3 shortfall was driven by one underperforming event, not the programme overall — and I can justify every line item",
+          suggestedCompletion: "with data showing which events returned pipeline and which ones we've already removed from the Q4 plan.",
+        },
+      ],
+    },
   },
 };
