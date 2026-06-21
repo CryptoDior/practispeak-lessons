@@ -70,7 +70,7 @@ export const marketingBudgets: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'THE BUDGET IS TIED TO SPECIFIC OUTCOMES',
-      definition: "A phrase used to demonstrate that spending is not arbitrary — each line item is connected to a measurable result. 'Tied to' means linked or connected. When budgets are tied to specific outcomes, it is easier to defend them and easier to evaluate whether the investment was worthwhile.",
+      definition: "Use this phrase to show that every spend decision is connected to a clear, measurable result — not just a guess or a habit. It tells leadership that the budget was built with a reason behind each line.",
       example: "Riley addressed the CFO's concern: Every line in this budget is tied to a specific outcome. The £80,000 for content marketing is tied to organic lead generation — our target is 45 MQLs per quarter from that channel. The £40,000 for events is tied to pipeline generation — we expect at least £200,000 in pipeline from the two events we're sponsoring.",
       imageSlug: '/images/the-budget-is-tied-to-specific-outcomes.png',
       inAction: "Every line in this budget is tied to a specific outcome — we're not investing in awareness unless we can measure it against pipeline generation.",
@@ -79,7 +79,7 @@ export const marketingBudgets: Lesson = {
     },
     {
       phrase: 'I CAN JUSTIFY EVERY LINE ITEM',
-      definition: "A phrase used to signal preparedness and confidence in a budget defence. 'Justify' means to provide a rationale that demonstrates the spend is appropriate and expected to generate returns. Used to preempt questions or signal to leadership that the budget has been built with rigour.",
+      definition: "Use this phrase to show you are fully prepared and have a clear reason for every spend decision. It tells the room you can back up each number with data before anyone even asks.",
       example: "Marcus opened the budget review: Before we go line by line, I want to be clear: I can justify every line item in this budget with data. This isn't a budget built on hope or habit — every number has a rationale, a forecast, and a success metric attached. I'm happy to be challenged on any of it.",
       imageSlug: '/images/i-can-justify-every-line-item.png',
       inAction: "This isn't a wish list — I can justify every line item in this budget against a measurable outcome or a named strategic priority.",
@@ -88,7 +88,7 @@ export const marketingBudgets: Lesson = {
     },
     {
       phrase: "WHAT'S THE EXPECTED RETURN ON THIS SPEND?",
-      definition: "The question finance and senior leadership ask most often in budget conversations — and the question every marketer should be able to answer before they enter the room. 'Expected return' means the revenue, pipeline, or strategic value the investment is projected to generate. Always answer with a number and explain the assumption behind it.",
+      definition: "The most common question in budget meetings. It is asking: what results will we get from this money? Always have a number ready — leads, pipeline, or revenue — and be able to explain how you got there.",
       example: "The CFO asked the question Riley had prepared for: What's the expected return on this spend? Riley answered: The £120,000 demand generation budget has generated an average of £680,000 in pipeline over the past three quarters — a return of roughly 5.7x. Our forecast for Q4 is consistent with that average, assuming the media mix stays the same.",
       imageSlug: '/images/whats-the-expected-return-on-this-spend.png',
       inAction: "Before we approve the event sponsorship, what's the expected return on this spend — is it measured in leads, pipeline, or brand awareness?",
@@ -97,7 +97,7 @@ export const marketingBudgets: Lesson = {
     },
     {
       phrase: "IF WE CUT THIS, HERE'S WHAT WE LOSE",
-      definition: 'The phrase for communicating the cost of inaction or the consequences of a budget cut. Used when leadership proposes reducing a budget line — instead of arguing for the spend, you reframe the conversation around what the company loses if the cut is made.',
+      definition: 'Use this when someone wants to cut your budget. Instead of defending the spend, you show what the business will lose without it. It moves the conversation from 'how much does this cost?' to 'what does cutting this cost us?'',
       example: "Dana defended the content budget: If we cut this, here's what we lose: 45 organic leads per quarter, or roughly 180 per year. At our average deal value and conversion rate, that's £1.1 million in pipeline that we'll have to replace through paid channels at three times the cost-per-acquisition. The cut saves £80,000 but costs us far more in lost efficiency.",
       imageSlug: '/images/if-we-cut-this-heres-what-we-lose.png',
       inAction: "If we cut the content budget, here's what we lose: organic pipeline, inbound leads, and the SEO rankings we have spent 18 months building.",
@@ -106,7 +106,7 @@ export const marketingBudgets: Lesson = {
     },
     {
       phrase: "WE'RE PROPOSING A REALLOCATION, NOT AN INCREASE",
-      definition: 'A phrase used when requesting a budget change that does not require additional total spend — you are moving money from one area to another. This framing removes the friction of asking for more money and instead shows that the team is making smart trade-offs within existing resources.',
+      definition: 'Use this when you want to move budget from one area to another — not ask for more money in total. It removes the main objection ('we don't have more budget') because you're not asking for more, just making better use of what you already have.',
       example: "Riley made the proposal: I know the budget environment is tight and I'm not asking for more. We're proposing a reallocation, not an increase — we want to shift £30,000 from the trade event programme, which has underperformed, to the demand generation content programme, which is our most efficient channel by CPA. Same total budget, better expected return.",
       imageSlug: '/images/were-proposing-a-reallocation-not-an-increase.png',
       inAction: "We're proposing a reallocation, not an increase — we want to shift 20% from paid social into email nurturing, where the ROI is significantly stronger.",
@@ -115,7 +115,7 @@ export const marketingBudgets: Lesson = {
     },
     {
       phrase: "LET'S LOOK AT THE NUMBERS TOGETHER",
-      definition: "A phrase for inviting leadership or finance teams into a collaborative review of the budget data — rather than presenting defensively. 'Looking at the numbers together' creates a shared analytical experience where questions are answered with data rather than argument. It signals confidence and transparency.",
+      definition: "Use this to invite the other person to review the data with you, rather than defending yourself from their questions. It creates a team feeling — you're both working through the numbers, not arguing about them.",
       example: "Marcus de-escalated the tension: Instead of going back and forth on assumptions, let's look at the numbers together. I'll walk you through the model — where each number comes from, what assumptions we've made, and where the risk lies. If you see something that doesn't make sense, tell me and we'll fix it. That's a more useful conversation than negotiating in the abstract.",
       imageSlug: '/images/lets-look-at-the-numbers-together.png',
       inAction: "I know the budget proposal looks ambitious at first glance — let's look at the numbers together and I'll show you exactly where the ROI projections come from.",
@@ -470,41 +470,4 @@ export const marketingBudgets: Lesson = {
                 "lineIndex": 1,
                 "incorrectText": "more higher",
                 "correction": "higher",
-                "explanation": "'More higher' is a double comparative — using both 'more' and the '-er' suffix at the same time, which is incorrect. Comparatives are formed in one of two ways, not both: for short adjectives (one or two syllables), add '-er': high → higher, low → lower, fast → faster. For longer adjectives (three or more syllables), add 'more': significant → more significant, efficient → more efficient. Never combine both: 'more higher', 'more lower', 'more faster' are all wrong. The correct form here is simply 'significantly higher'."
-            },
-            {
-                "lineIndex": 2,
-                "incorrectText": "If we will cut",
-                "correction": "If we cut",
-                "explanation": "In a first conditional (real, likely scenario), the if-clause uses present simple — never 'will'. 'If we cut' is correct. 'If we will cut' is a very common error for learners whose first language uses a future form in conditional clauses. In English, the rule is fixed: in the if-clause, use present simple to refer to a future condition. The 'will' goes in the main clause: 'If we cut [present simple], we lose [present simple used for the consequence]' or 'If we cut, we will lose'. Never 'if + will'."
-            },
-            {
-                "lineIndex": 4,
-                "incorrectText": "a proved track record",
-                "correction": "a proven track record",
-                "explanation": "'Proven' is the adjective form used before a noun — 'a proven track record', 'a proven approach', 'a proven method'. 'Proved' is the past tense or past participle of the verb 'prove' used in verbal contexts: 'the method has been proved', 'she proved the point'. When used as an adjective before a noun (an attributive adjective), the correct form is 'proven'. This is a fixed collocation: 'a proven track record' is the standard business phrase. 'A proved track record' sounds unnatural and is rarely used in professional English."
-            }
-        ]
-    },
-    "finishTheLine": {
-        "instructions": "The marketing director starts a sentence in a budget review. Work with your partner to finish it professionally.",
-        "items": [
-            {
-                "customerLine": "The CFO has asked all departments to cut 15%. What's your plan?",
-                "salespersonStart": "Before I propose cuts, I want to show you what 15% costs us in pipeline terms — because not all cuts are equal. The three options are...",
-                "suggestedCompletion": "cut brand awareness, which has the longest payback period and the least direct impact on Q4 pipeline — that's approximately £24,000 and minimal revenue risk; cut events, which are expensive and slower to convert — another £18,000 with manageable impact; or trim paid media by 10% and offset it by reallocating to content. My recommendation is option one followed by option two — we protect demand generation and content at all costs, because those two channels fund everything else."
-            },
-            {
-                "customerLine": "Why are we spending so much on content? It's hard to measure and it takes months to see results.",
-                "salespersonStart": "You're right that content has a longer payback than paid. But the measurement challenge is one we've solved — we track every piece of content from first touch to closed deal through the attribution model. Here's what the data shows...",
-                "suggestedCompletion": "content generates 45 MQLs per quarter at a cost-per-acquisition of £190 — our most efficient channel. For comparison, paid search generates leads at £3,200 each. Yes, content takes longer to build. But once it's built, it generates leads at a fraction of the cost indefinitely — paid stops the moment you turn it off. Content is an asset; paid is a cost. That's why we protect it."
-            },
-            {
-                "customerLine": "What happens if Q4 comes in below forecast again?",
-                "salespersonStart": "I want to be honest about the risks, not defensive about the forecast. There are three scenarios where Q4 could come in below plan...",
-                "suggestedCompletion": "First, if the paid media platform experiences another algorithm change — I've built a 15% buffer for this and have a contingency plan to shift spend to email. Second, if deal velocity slows down at the end of the quarter, which is a sales cycle risk rather than a marketing one. Third, if we don't publish the content programme on schedule — that's within our control and I'm holding the team to the calendar. If any of these happen, I'll flag it within the week and bring a revised forecast. I won't wait for the end-of-quarter review."
-            }
-        ]
-    }
-},
-};
+                "explanation": "'More higher' is a double comparative — using both 'more' and the '-er' suffix at the same time, which is incorrect. Comparati
