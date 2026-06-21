@@ -227,22 +227,53 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           </div>
         </section>
 
-        {/* In Action */}
+        {/* In Action — 3 scenario cards, each covering 2 phrasal verbs */}
         {hasPhrasalDetails && (
           <section className={activeTab === wo + 2 ? 'block' : 'hidden'}>
-            <SectionHeader title="In Action" subtitle="See how each phrase is used in a real workplace moment" />
-            <div className="flex flex-col gap-5">
-              {lesson.phrasalVerbs.filter(v => v.inAction).map((verb, i) => (
-                <div key={verb.phrase} className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
-                  <div className="flex items-center gap-3 px-6 py-4 border-b border-gray-50">
-                    <span className="text-xs font-extrabold tracking-widest text-[#066EF5] uppercase">{String(i + 1).padStart(2, '0')}</span>
-                    <h3 className="font-extrabold text-gray-900 text-base">{verb.phrase}</h3>
+            <SectionHeader title="In Action" subtitle="Hear how these phrases sound in real B2B situations" />
+            <div className="flex flex-col gap-6">
+              {[0, 1, 2].map((cardIdx) => {
+                const verbs = lesson.phrasalVerbs.filter(v => v.inAction).slice(cardIdx * 2, cardIdx * 2 + 2);
+                if (verbs.length === 0) return null;
+                const CARD_META = [
+                  { badge: 'B2B CALL', title: 'Phrases in a live sales call', icon: (
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-10 h-10"><path d="M3 5.5A2.5 2.5 0 015.5 3h1.372c.86 0 1.61.586 1.819 1.42l.492 1.968A2 2 0 018.23 8.37l-.842.421a10.08 10.08 0 005.82 5.82l.421-.841a2 2 0 011.982-.954l1.968.492A2 2 0 0119 15.128V16.5A2.5 2.5 0 0116.5 19C9.044 19 3 12.956 3 5.5z"/></svg>
+                  )},
+                  { badge: 'STRATEGY DECK', title: 'Phrases in a written pitch context', icon: (
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-10 h-10"><path d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
+                  )},
+                  { badge: 'CLIENT MEETING', title: 'Phrases in a client-facing meeting', icon: (
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-10 h-10"><path d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6"/></svg>
+                  )},
+                ];
+                const meta = CARD_META[cardIdx];
+                return (
+                  <div key={cardIdx} className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
+                    {/* Dark image header */}
+                    <div className="bg-[#0f172a] flex items-center justify-center py-10 text-slate-500">
+                      {meta.icon}
+                    </div>
+                    {/* Badge + title */}
+                    <div className="flex items-center gap-3 px-6 pt-5 pb-3">
+                      <span className="text-xs font-extrabold tracking-widest text-[#066EF5] bg-blue-50 border border-blue-100 px-2.5 py-1 rounded-full uppercase">{meta.badge}</span>
+                      <span className="font-bold text-gray-700 text-sm">{meta.title}</span>
+                    </div>
+                    {/* Quotes */}
+                    <div className="px-6 pb-5 space-y-5">
+                      {verbs.map(verb => (
+                        <div key={verb.phrase}>
+                          <span className="text-xs font-extrabold tracking-widest text-gray-400 uppercase mb-1.5 block">{verb.phrase}</span>
+                          <p className="text-gray-600 text-base leading-relaxed italic">&ldquo;{verb.inAction}&rdquo;</p>
+                        </div>
+                      ))}
+                    </div>
+                    {/* Audio player */}
+                    <div className="px-6 pb-6 border-t border-gray-50 pt-4">
+                      <ScenarioAudioPlayer src={`/audio/inaction-scenario-${cardIdx + 1}.mp3`} />
+                    </div>
                   </div>
-                  <div className="px-6 py-5">
-                    <p className="text-gray-600 text-base leading-relaxed italic">&ldquo;{verb.inAction}&rdquo;</p>
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </section>
         )}
@@ -546,5 +577,32 @@ function ExerciseCard({ number, title, description, children }: { number: number
       </div>
       <div className="px-6 py-5">{children}</div>
     </div>
+  );
+}
+
+function ScenarioAudioPlayer({ src }: { src: string }) {
+  const [playing, setPlaying] = useState(false);
+  const WAVEFORM = [4, 7, 12, 8, 14, 6, 10, 16, 9, 13, 5, 11, 8, 14, 7, 10, 5, 12, 8, 6];
+  const toggle = () => {
+    const audio = new Audio(src);
+    setPlaying(true);
+    audio.onended = () => setPlaying(false);
+    audio.onerror = () => setPlaying(false);
+    audio.play().catch(() => setPlaying(false));
+  };
+  return (
+    <button onClick={toggle} className="flex items-center gap-3 group w-full text-left">
+      <div className="w-9 h-9 rounded-full bg-[#066EF5] flex items-center justify-center flex-shrink-0 shadow-sm group-hover:bg-blue-600 group-active:scale-95 transition-all">
+        <span className="text-white text-[10px] leading-none" style={{ marginLeft: playing ? 0 : '1px' }}>
+          {playing ? '⏸' : '▶'}
+        </span>
+      </div>
+      <div className="flex items-center gap-[2px] flex-shrink-0">
+        {WAVEFORM.map((h, i) => (
+          <div key={i} className={`w-[2px] rounded-full transition-colors duration-300 ${playing ? 'bg-[#066EF5]' : 'bg-gray-200'}`} style={{ height: `${h}px` }} />
+        ))}
+      </div>
+      <span className="text-sm font-semibold text-gray-400 whitespace-nowrap">Listen to scenario</span>
+    </button>
   );
 }
