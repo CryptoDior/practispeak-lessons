@@ -311,7 +311,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                       <tr key={verb.phrase} className={`${isLast ? '' : 'border-b border-gray-200'} hover:bg-gray-50 transition-colors`}>
                         <td className="px-6 py-5 align-top">
                           <span className="font-extrabold text-gray-900 text-sm leading-snug block">{verb.phrase}</span>
-                          <p className="text-sm text-gray-500 mt-1 leading-relaxed line-clamp-2">
+                          <p className="text-sm text-gray-500 mt-1 leading-relaxed">
                             {verb.definition}
                           </p>
                         </td>
