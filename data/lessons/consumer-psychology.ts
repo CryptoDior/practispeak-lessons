@@ -74,7 +74,7 @@ export const consumerPsychology: Lesson = {
       example: "Riley presented to the client: This campaign leverages the principle of social proof — every touchpoint shows real customer outcomes, real numbers, and real faces. We're not asking the prospect to trust us; we're showing them that hundreds of people like them already have.",
       imageSlug: '/images/this-campaign-leverages-the-principle-of.png',
       inAction: 'This campaign leverages the principle of reciprocity — we give away a genuinely useful guide before asking for anything in return.',
-      register: "Formal / Business English — used in campaign briefs, presentations, and client reports. 'Leverages' signals strategic intent and shows that creative decisions are grounded in evidence, not instinct.",
+      register: "Formal / Business English — Beauty brand brief: 'This campaign leverages the principle of social proof — every ad leads with a before-and-after from a real customer.' SaaS pitch deck: 'This campaign leverages the principle of loss aversion — the headline shows what the user loses each week without the tool.' Fitness app launch: 'This campaign leverages the principle of reciprocity — a free 7-day plan before any ask.'",
       inContext: "Riley walked the client through the creative rationale. This campaign leverages the principle of social proof, she explained. Every touchpoint shows real customer results and real faces — we're not asking the prospect to trust us; we're showing them that hundreds of people like them already have.",
     },
     {
@@ -83,7 +83,7 @@ export const consumerPsychology: Lesson = {
       example: "Marcus briefed the team: In this segment, the customer's decision is driven by fear of making the wrong choice — not desire for the best product. That means our messaging should focus on safety, trust signals, and risk reduction, not features and benefits.",
       imageSlug: '/images/the-customers-decision-is-driven-by.png',
       inAction: "In this segment, the customer's decision is driven by fear of making a costly mistake — not by excitement about finding the best product.",
-      register: 'Neutral — standard phrase in campaign briefings and post-campaign analysis. Used when explaining what psychological force is motivating or influencing customer behaviour.',
+      register: "Neutral — Skincare brand: The customer's decision is driven by fear of ageing, not aspiration — so the copy focuses on prevention, not glamour. B2B software: The customer's decision is driven by risk — they need reassurance, not features. Fashion e-commerce: The customer's decision is driven by social identity — they buy to signal who they are.",
       inContext: "Marcus had done his audience research before writing the brief. The customer's decision is driven by loss aversion, not aspiration, he told the team. That means our messaging needs to focus on risk reduction and trust signals — not features and innovation.",
     },
     {
@@ -92,7 +92,7 @@ export const consumerPsychology: Lesson = {
       example: "Dana explained the offer mechanic: We're using scarcity to create urgency here — the early-bird price is only available for the first 100 sign-ups. Once we hit that number, the price goes up automatically. The scarcity is real, which is important — customers can tell when it's manufactured.",
       imageSlug: '/images/were-using-scarcity-to-create-urgency.png',
       inAction: "We're using scarcity to create urgency — the early-bird rate is only available to the first 100 companies who sign up.",
-      register: 'Neutral — used in campaign review meetings and conversion rate optimisation discussions. Direct and clear in both verbal and written contexts.',
+      register: 'Neutral — Limited-edition physical product: \'We\'re using scarcity to create urgency — only 500 units, no restock.\' Online course: \'We\'re using scarcity to create urgency — the price goes up after Friday.\' Service booking: \'We\'re using scarcity to create urgency — only 3 slots left this month. The scarcity has to be real or customers will notice.\'',
       inContext: "Dana walked through the offer mechanics with the team. We're using scarcity to create urgency in the final week of the campaign, she explained. The scarcity is real — once we hit 100 sign-ups, the price goes up automatically. Customers can tell when it's manufactured, so we never fake it.",
     },
     {
@@ -101,7 +101,7 @@ export const consumerPsychology: Lesson = {
       example: "Riley reviewed the A/B test results: The framing is doing a lot of work here. The winning ad doesn't have better features or a lower price — it just leads with what the customer loses by not acting rather than what they gain by joining. Same offer, completely different response. That's the framing effect in action.",
       imageSlug: '/images/the-framing-is-doing-a-lot-of-work-here.png',
       inAction: "The framing is doing a lot of work here — the same £500 saving feels very different as 'Save £500' versus 'Don't lose £500 this month'.",
-      register: 'Informal / Professional — used in internal creative reviews and team discussions. Natural in a workshop or briefing but not formal enough for a client-facing report.',
+      register: 'Informal / Professional — Use in internal reviews, not client decks. E-commerce A/B test: \'The framing is doing a lot of work here — "Save £30" outperforms "Get 20% off" even though it\'s the same deal.\' Insurance ad: \'The framing is doing a lot of work — leading with what you lose beats leading with what you gain every time.\' App store page: \'The framing is doing a lot of work — "Used by 50,000 teams" hits differently than "Trusted by businesses".\' ',
       inContext: "They were reviewing the A/B test results when Riley pointed at the data. The framing is doing a lot of work here, she said. Both ads have the same offer and the same price — but the one that leads with loss outperformed by 22%. The copy didn't change; only the frame did.",
     },
     {
@@ -110,7 +110,7 @@ export const consumerPsychology: Lesson = {
       example: "Marcus planned the email sequence: We want to prime the customer before they see the pricing page. That means the three emails before the offer email should focus entirely on the problem — make them feel the pain before we present the solution. By the time the offer lands, they're ready to say yes.",
       imageSlug: '/images/we-want-to-prime-the-customer-before.png',
       inAction: 'We want to prime the customer before they see the pricing page — the three touchpoints before the offer must build trust, not sell.',
-      register: 'Neutral — used in campaign planning meetings when discussing the sequence of touchpoints. Implies deliberate design of the customer journey at every stage.',
+      register: 'Neutral — Luxury product launch: \'We want to prime the customer before they see the price — the first two ads are pure lifestyle, no product.\' B2B email sequence: \'We want to prime the customer before the demo invite — three emails about their problem first, then the ask.\' Subscription box: \'We want to prime the customer before the unboxing video ends — the CTA appears after the best reveal, not before.\'',
       inContext: "Marcus outlined the email sequence on the whiteboard. We want to prime the customer before we make any ask, he said. That means the first three emails are purely about the problem — we make them feel the pain before we present the solution. By the time the offer lands, they're already in the right mindset.",
     },
     {
@@ -119,7 +119,7 @@ export const consumerPsychology: Lesson = {
       example: "Dana explained the free trial strategy: The psychological insight behind this is reciprocity. When a customer has spent two weeks using our tool and getting results from it, they feel a natural obligation to continue — it feels wrong to stop. That's why our free trial converts at 34%, well above the industry average.",
       imageSlug: '/images/the-psychological-insight-behind-this-is.png',
       inAction: 'The psychological insight behind this is anchoring — when customers see the premium plan first, the standard plan instantly feels like better value.',
-      register: "Formal — used in client presentations and strategy documents when explaining the evidence or behavioural principle behind a creative decision. Always name the specific principle, not just 'psychology'.",
+      register: "Formal — Always name the specific principle, not just 'psychology'. Charity campaign: 'The psychological insight behind this is identifiable victim effect — one face outperforms statistics every time.' Free trial SaaS: 'The psychological insight behind this is the endowment effect — once users build something inside the tool, leaving feels like a loss.' Beauty subscription: 'The psychological insight behind this is the mere exposure effect — the more they see the product, the more familiar and safe it feels.'",
       inContext: "The client had asked why the free trial converted so well. Dana took a moment before answering. The psychological insight behind this is reciprocity, she said. When a customer spends two weeks using your tool and getting real results, they feel a natural obligation to continue. It would feel wrong to stop. That's not an accident — it's how the trial is designed.",
     }
   ],
