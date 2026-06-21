@@ -328,26 +328,33 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
 
             {/* Visual Examples */}
             {lesson.phrasalVerbs.some(v => v.visualExamples?.length) && (
-              <div className="mt-10 space-y-10">
+              <div className="mt-10 space-y-12">
                 <h3 className="text-xs font-extrabold tracking-widest text-gray-500 uppercase">Visual Examples</h3>
                 {lesson.phrasalVerbs.filter(v => v.visualExamples?.length).map(verb => (
                   <div key={verb.phrase}>
-                    <div className="mb-4">
-                      <span className="text-xs font-extrabold tracking-widest text-[#066EF5] uppercase">{verb.phrase}</span>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <span className="text-xs font-extrabold tracking-widest text-[#066EF5] uppercase block mb-5">{verb.phrase}</span>
+                    <div className="space-y-6">
                       {verb.visualExamples!.map((ex, idx) => (
                         <div key={idx} className="bg-white rounded-2xl border border-gray-200 shadow-[0_2px_12px_rgba(6,110,245,0.06)] overflow-hidden">
-                          <div className="relative bg-[#0f172a] w-full aspect-[4/3] flex items-center justify-center">
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img src={ex.imageSlug} alt={ex.brand} className="w-full h-full object-cover" onError={e => { (e.target as HTMLImageElement).style.display='none'; }} />
-                            <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-600 pointer-events-none">
-                              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-                              <span className="text-xs mt-2 font-semibold text-slate-500 text-center px-3">{ex.brand}</span>
+                          {/* Number + brand header */}
+                          <div className="flex items-center gap-3 px-5 pt-5 pb-3">
+                            <div className="w-7 h-7 rounded-full bg-[#066EF5] text-white flex items-center justify-center font-extrabold text-xs flex-shrink-0">{idx + 1}</div>
+                            <div>
+                              <span className="font-extrabold text-gray-900 text-sm block">{ex.brand}</span>
+                              <span className="text-xs text-gray-400 font-semibold">{ex.context}</span>
                             </div>
                           </div>
-                          <div className="p-4">
-                            <span className="text-[10px] font-extrabold tracking-widest text-[#066EF5] uppercase block mb-1">{ex.context}</span>
+                          {/* Full-width image */}
+                          <div className="relative bg-[#0f172a] w-full aspect-[16/9] flex items-center justify-center">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img src={ex.imageSlug} alt={ex.brand} className="w-full h-full object-cover" onError={e => { (e.target as HTMLImageElement).style.display='none'; }} />
+                            <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-500 pointer-events-none">
+                              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+                              <span className="text-xs mt-2 font-semibold text-slate-400">{ex.brand} — Image Placeholder</span>
+                            </div>
+                          </div>
+                          {/* Caption */}
+                          <div className="px-5 py-4">
                             <p className="text-sm text-gray-700 leading-relaxed italic">&ldquo;{ex.caption}&rdquo;</p>
                           </div>
                         </div>
