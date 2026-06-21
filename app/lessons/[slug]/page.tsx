@@ -325,6 +325,38 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                 </tbody>
               </table>
             </div>
+
+            {/* Visual Examples */}
+            {lesson.phrasalVerbs.some(v => v.visualExamples?.length) && (
+              <div className="mt-10 space-y-10">
+                <h3 className="text-xs font-extrabold tracking-widest text-gray-500 uppercase">Visual Examples</h3>
+                {lesson.phrasalVerbs.filter(v => v.visualExamples?.length).map(verb => (
+                  <div key={verb.phrase}>
+                    <div className="mb-4">
+                      <span className="text-xs font-extrabold tracking-widest text-[#066EF5] uppercase">{verb.phrase}</span>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                      {verb.visualExamples!.map((ex, idx) => (
+                        <div key={idx} className="bg-white rounded-2xl border border-gray-200 shadow-[0_2px_12px_rgba(6,110,245,0.06)] overflow-hidden">
+                          <div className="relative bg-[#0f172a] w-full aspect-[4/3] flex items-center justify-center">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img src={ex.imageSlug} alt={ex.brand} className="w-full h-full object-cover" onError={e => { (e.target as HTMLImageElement).style.display='none'; }} />
+                            <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-600 pointer-events-none">
+                              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+                              <span className="text-xs mt-2 font-semibold text-slate-500 text-center px-3">{ex.brand}</span>
+                            </div>
+                          </div>
+                          <div className="p-4">
+                            <span className="text-[10px] font-extrabold tracking-widest text-[#066EF5] uppercase block mb-1">{ex.context}</span>
+                            <p className="text-sm text-gray-700 leading-relaxed italic">&ldquo;{ex.caption}&rdquo;</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </section>
         )}
 
@@ -488,6 +520,21 @@ function HeroPlaceholder() {
   );
 }
 
+function ExerciseCard({ number, title, description, children }: { number: number; title: string; description: string; children: React.ReactNode }) {
+  return (
+    <div className="bg-white rounded-[20px] shadow-[0_2px_20px_rgba(6,110,245,0.08)] border border-gray-100 p-6 md:p-8">
+      <div className="flex items-start gap-4 mb-5">
+        <div className="w-8 h-8 rounded-full bg-[#066EF5] text-white flex items-center justify-center font-extrabold text-sm flex-shrink-0">{number}</div>
+        <div>
+          <h3 className="font-extrabold text-gray-900 text-base">{title}</h3>
+          <p className="text-gray-500 text-sm mt-0.5">{description}</p>
+        </div>
+      </div>
+      {children}
+    </div>
+  );
+}
+
 function SiteHeader() {
   return (
     <header className="bg-white shadow-sm">
@@ -539,33 +586,17 @@ function VideoCard({ video }: { video: LessonVideo }) {
         )}
       </div>
       <div className="p-5">
-        <h3 className="font-extrabold text-gray-900 mb-1">{video.title}</h3>
-        {video.description && <p className="text-sm text-gray-500 font-semibold">{video.description}</p>}
+        <h3 className="font-extrabold text-gray-900 text-base mb-1">{video.title}</h3>
+        {video.description && <p className="text-gray-500 text-sm leading-relaxed">{video.description}</p>}
       </div>
     </div>
   );
 }
 
-function ExerciseCard({ number, title, description, children }: { number: number; title: string; description: string; children: React.ReactNode }) {
-  return (
-    <div className="bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.06)] overflow-hidden">
-      <div className="flex items-start gap-4 px-6 py-5 border-b border-gray-50">
-        <div className="w-9 h-9 bg-[#066EF5] text-white rounded-full flex items-center justify-center text-sm font-extrabold flex-shrink-0 shadow-sm mt-0.5">
-          {number}
-        </div>
-        <div>
-          <h3 className="text-base font-extrabold text-gray-900 leading-snug">{title}</h3>
-          <p className="text-sm text-gray-400 font-medium mt-0.5">{description}</p>
-        </div>
-      </div>
-      <div className="px-6 py-5">{children}</div>
-    </div>
-  );
-}
+const SCENARIO_WAVEFORM = [4, 7, 12, 8, 14, 6, 10, 16, 9, 13, 5, 11, 8, 14, 7, 10, 5, 12, 8, 6];
 
 function ScenarioAudioPlayer({ src }: { src: string }) {
   const [playing, setPlaying] = useState(false);
-  const WAVEFORM = [4, 7, 12, 8, 14, 6, 10, 16, 9, 13, 5, 11, 8, 14, 7, 10, 5, 12, 8, 6];
   const toggle = () => {
     const audio = new Audio(src);
     setPlaying(true);
@@ -581,7 +612,7 @@ function ScenarioAudioPlayer({ src }: { src: string }) {
         </span>
       </div>
       <div className="flex items-center gap-[2px] flex-shrink-0">
-        {WAVEFORM.map((h, i) => (
+        {SCENARIO_WAVEFORM.map((h, i) => (
           <div key={i} className={`w-[2px] rounded-full transition-colors duration-300 ${playing ? 'bg-[#066EF5]' : 'bg-gray-200'}`} style={{ height: `${h}px` }} />
         ))}
       </div>

@@ -15,6 +15,13 @@ export interface VocabWord {
   secondExample?: string;
 }
 
+export interface VisualExample {
+  brand: string;
+  context: string;
+  imageSlug: string;
+  caption: string;
+}
+
 export interface PhrasalVerb {
   phrase: string;
   definition: string;
@@ -29,6 +36,8 @@ export interface PhrasalVerb {
   register?: string;
   /** A short passage or scenario embedding the phrase in a broader context (In Context section) */
   inContext?: string;
+  /** Up to 3 real-life visual examples (brand, context, image, caption) */
+  visualExamples?: VisualExample[];
 }
 
 export interface DialogueLine {
