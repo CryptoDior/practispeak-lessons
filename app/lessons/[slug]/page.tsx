@@ -348,7 +348,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                             </div>
                           </div>
                           {/* Full-width image — 1:1 square */}
-                          <div className="relative bg-[#0f172a] w-full aspect-square overflow-hidden" style={{ maxHeight: '52vh' }}>
+                          <div className="relative bg-[#0f172a] w-full overflow-hidden" style={{ aspectRatio: '3/2' }}>
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img src={ex.imageSlug} alt={ex.brand} className="absolute inset-0 w-full h-full object-cover object-center" onError={e => { const t = e.target as HTMLImageElement; t.style.display='none'; (t.nextElementSibling as HTMLElement).style.display='flex'; }} />
                             <div className="hidden absolute inset-0 items-center justify-center flex-col text-slate-500">
