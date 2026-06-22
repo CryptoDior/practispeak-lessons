@@ -143,6 +143,16 @@ import { brandArchitecture } from './brand-architecture';
 import { marketingBudgets } from './marketing-budgets';
 import { programmaticAdvertising } from './programmatic-advertising';
 import { socialListeningAndReputation } from './social-listening-and-reputation';
+import { writingMarketingReports } from './writing-marketing-reports';
+import { presentingToStakeholders } from './presenting-to-stakeholders';
+import { customerJourneyMapping } from './customer-journey-mapping';
+import { seoAndSem } from './seo-and-sem';
+import { socialMediaAdvertising } from './social-media-advertising';
+import { crisisCommunication } from './crisis-communication';
+import { globalVsLocalMarketing } from './global-vs-local-marketing';
+import { workingWithAgencies } from './working-with-agencies';
+import { reviewDigitalMarketingMix } from './review-digital-marketing-mix';
+import { b1FinalProjectCampaignPlan } from './b1-final-project-campaign-plan';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -289,6 +299,16 @@ export const lessons: Lesson[] = [
   marketingBudgets,
   programmaticAdvertising,
   socialListeningAndReputation,
+  writingMarketingReports,
+  presentingToStakeholders,
+  customerJourneyMapping,
+  seoAndSem,
+  socialMediaAdvertising,
+  crisisCommunication,
+  globalVsLocalMarketing,
+  workingWithAgencies,
+  reviewDigitalMarketingMix,
+  b1FinalProjectCampaignPlan,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
