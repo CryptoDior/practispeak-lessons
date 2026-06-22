@@ -153,6 +153,16 @@ import { globalVsLocalMarketing } from './global-vs-local-marketing';
 import { workingWithAgencies } from './working-with-agencies';
 import { reviewDigitalMarketingMix } from './review-digital-marketing-mix';
 import { b1FinalProjectCampaignPlan } from './b1-final-project-campaign-plan';
+import { ecommerceMarketing } from './e-commerce-marketing';
+import { accountBasedMarketing } from './account-based-marketing';
+import { presentingAMarketingStrategy } from './presenting-a-marketing-strategy';
+import { customerRetentionAndLoyalty } from './customer-retention-and-loyalty';
+import { ethicalMarketing } from './ethical-marketing';
+import { marketingInEmergingMarkets } from './marketing-in-emerging-markets';
+import { internalCommunications } from './internal-communications';
+import { innovationInMarketing } from './innovation-in-marketing';
+import { reviewAdvancedMarketingMix } from './review-advanced-marketing-mix';
+import { b2FinalProjectGoToMarketPlan } from './b2-final-project-go-to-market-plan';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -309,6 +319,16 @@ export const lessons: Lesson[] = [
   workingWithAgencies,
   reviewDigitalMarketingMix,
   b1FinalProjectCampaignPlan,
+  ecommerceMarketing,
+  accountBasedMarketing,
+  presentingAMarketingStrategy,
+  customerRetentionAndLoyalty,
+  ethicalMarketing,
+  marketingInEmergingMarkets,
+  internalCommunications,
+  innovationInMarketing,
+  reviewAdvancedMarketingMix,
+  b2FinalProjectGoToMarketPlan,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
