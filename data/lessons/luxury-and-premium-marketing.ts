@@ -4,7 +4,7 @@ export const luxuryAndPremiumMarketing: Lesson = {
   slug: 'luxury-and-premium-marketing',
   title: 'Luxury and Premium Marketing',
   subtitle: 'How to communicate the language of exclusivity, heritage, and desirability — and protect the value of a premium brand',
-  level: 'B1-B2',
+  level: 'C1-C2',
   description: "Luxury brands do not compete on price — they compete on meaning. The language of luxury is about aspiration, heritage, craftsmanship, and scarcity. It is about what a product represents, not just what it does. Marketing a luxury or premium brand requires a different set of communication principles: restraint over excitement, scarcity over availability, story over specification. This lesson gives you the vocabulary to talk confidently about luxury and premium marketing strategy — whether you work in luxury, aspire to, or simply need to understand how these brands communicate.",
   heroImage: '/images/luxury-and-premium-marketing-hero.png',
 

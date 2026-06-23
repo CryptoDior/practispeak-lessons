@@ -4,7 +4,7 @@ export const marketingInARecession: Lesson = {
   slug: 'marketing-in-a-recession',
   title: 'Marketing in a Recession',
   subtitle: 'How to protect a brand, defend market share, and communicate value during economic downturns',
-  level: 'B1-B2',
+  level: 'C1-C2',
   description: "When economic conditions worsen, marketing budgets are often the first to be cut and the last to be restored. But the evidence consistently shows that brands that maintain or increase marketing investment during downturns emerge stronger — and those that go dark lose ground that takes years to recover. This lesson gives you the vocabulary to discuss recession marketing strategy with confidence: how to shift messaging, defend share, manage price sensitivity, and make the commercial case for keeping the brand visible when the pressure to cut is at its highest.",
   heroImage: '/images/marketing-in-a-recession-hero.png',
 

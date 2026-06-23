@@ -4,7 +4,7 @@ export const writingAMarketingWhitePaper: Lesson = {
   slug: 'writing-a-marketing-white-paper',
   title: 'Writing a Marketing White Paper',
   subtitle: 'How to plan, structure, and write a white paper that builds credibility, demonstrates expertise, and generates qualified leads',
-  level: 'B1-B2',
+  level: 'C1-C2',
   description: "A white paper is one of the most powerful content formats in B2B marketing. Done well, it positions a brand as a thought leader, educates a target audience, and moves prospects through a complex sales cycle. Done badly, it reads like a product brochure disguised as research — and sophisticated buyers can tell the difference immediately. This lesson teaches you the language and structure of effective white paper writing: how to frame an abstract, present original research, establish a credible methodology, draw defensible implications, and close with a call to action that converts readers into leads without undermining the intellectual credibility of the document.",
   heroImage: '/images/writing-a-marketing-white-paper-hero.png',
 

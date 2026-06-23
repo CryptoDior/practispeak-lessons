@@ -4,7 +4,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
   slug: 'c1-final-project-marketing-transformation-plan',
   title: 'C1 Final Project: Marketing Transformation Plan',
   subtitle: 'How to build, present, and defend a marketing transformation plan at board level — the capstone of the C1 series',
-  level: 'B1-B2',
+  level: 'C1-C2',
   description: "A marketing transformation plan is the most demanding communication task a senior marketer can face. It requires you to articulate not just a strategy but a change agenda — what the organisation needs to stop doing, start doing, and do differently — and to make that case convincingly to a board audience that has commercial, financial, and reputational concerns. This final lesson gives you the language for the complete transformation conversation: how to frame the transformation agenda, assess organisational readiness for change, align the strategy to the operating model, build a board-level narrative, and describe the implementation roadmap. It is the capstone lesson of the C1 series — the moment where all the vocabulary, phrases, and communication skills come together in a single high-stakes professional context.",
   heroImage: '/images/c1-final-project-marketing-transformation-hero.png',
 

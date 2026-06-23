@@ -4,7 +4,7 @@ export const mediaRelationsAndPr: Lesson = {
   slug: 'media-relations-and-pr',
   title: 'Media Relations and PR',
   subtitle: 'How to work with journalists, manage media enquiries, and communicate with the press with confidence and control',
-  level: 'B1-B2',
+  level: 'C1-C2',
   description: "Every organisation that communicates publicly — whether through a product launch, a crisis response, or a thought leadership campaign — needs to understand how the media works. Journalists are not your marketing channel. They have their own agendas, deadlines, and audiences. Knowing how to work with them — how to pitch a story, how to manage an embargo, how to brief a spokesperson, and how to respond when a difficult question lands — is one of the most practical communications skills in business. This lesson gives you the vocabulary to participate confidently in PR and media relations conversations.",
   heroImage: '/images/media-relations-and-pr-hero.png',
 

@@ -4,7 +4,7 @@ export const causeRelatedMarketing: Lesson = {
   slug: 'cause-related-marketing',
   title: 'Cause-Related Marketing',
   subtitle: 'How to talk about purpose, social impact, and ESG — and how to communicate a brand\'s values without sounding performative',
-  level: 'B1-B2',
+  level: 'C1-C2',
   description: "Consumers today expect more from the brands they buy from than a good product at a fair price. They want to know what the company stands for — what it believes in, what it contributes to, and whether those beliefs are genuine or simply a marketing strategy. Cause-related marketing, purpose-led branding, CSR, and ESG have become central topics in modern marketing. This lesson gives you the vocabulary to participate confidently in these conversations — including the language for spotting what is authentic and what is not.",
   heroImage: '/images/cause-related-marketing-hero.png',
 

@@ -4,7 +4,7 @@ export const aiAndAutomationInMarketing: Lesson = {
   slug: 'ai-and-automation-in-marketing',
   title: 'AI and Automation in Marketing',
   subtitle: 'How to talk about generative AI, automation, and the tools reshaping the marketing function — with clarity, accuracy, and confidence',
-  level: 'B1-B2',
+  level: 'C1-C2',
   description: "Artificial intelligence is no longer a future trend in marketing — it is a present-day reality. Marketing teams are using AI to write copy, segment audiences, predict churn, personalise experiences, and automate workflows that once took entire departments to manage. But the marketers who get the most from these tools are not the ones who know the most about the technology — they are the ones who can articulate clearly what the tools do, where they fall short, and how to use them responsibly. This lesson gives you the language to participate confidently in conversations about AI and automation in marketing.",
   heroImage: '/images/ai-and-automation-in-marketing-hero.png',
 

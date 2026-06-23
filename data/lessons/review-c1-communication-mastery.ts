@@ -4,7 +4,7 @@ export const reviewC1CommunicationMastery: Lesson = {
   slug: 'review-c1-communication-mastery',
   title: 'Review: C1 Communication Mastery',
   subtitle: 'Consolidating the advanced vocabulary, phrases, and communication skills from lessons 11 to 18',
-  level: 'B1-B2',
+  level: 'C1-C2',
   description: "This review lesson consolidates the vocabulary and communication skills from lessons 11 to 18. You will revisit the most important terms from AI and automation, media relations, luxury marketing, cause-related marketing, recession marketing, cross-cultural negotiation, advanced presentation skills, and white paper writing. The focus is on active recall, applying vocabulary and phrases in new contexts, and identifying the subtle distinctions between terms you may have confused. By the end of this lesson, you should be able to move fluidly across these eight topic areas in a real professional conversation.",
   heroImage: '/images/review-c1-communication-mastery-hero.png',
 

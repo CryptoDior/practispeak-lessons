@@ -4,7 +4,7 @@ export const advancedPresentationSkills: Lesson = {
   slug: 'advanced-presentation-skills',
   title: 'Advanced Presentation Skills',
   subtitle: 'How to handle difficult questions, manage objections, and maintain control of a Q&A without losing your position or your audience',
-  level: 'B1-B2',
+  level: 'C1-C2',
   description: "A great presentation is only half the job. The Q&A is where credibility is built or lost. A question you cannot answer, a challenge you handle badly, or an objection that derails your argument — these are the moments that define how an audience remembers you. Senior communicators have a toolkit for exactly these situations: how to reframe a challenge, bridge to a stronger answer, concede gracefully, deflect appropriately, and handle a hypothetical without being trapped by it. This lesson gives you the language to handle the hardest moments in a presentation with composure and authority.",
   heroImage: '/images/advanced-presentation-skills-hero.png',
 

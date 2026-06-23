@@ -4,7 +4,7 @@ export const crossCulturalNegotiation: Lesson = {
   slug: 'cross-cultural-negotiation',
   title: 'Cross-Cultural Negotiation',
   subtitle: 'How to communicate across cultural boundaries — understanding high and low context, face-saving, protocol, and indirect communication',
-  level: 'B1-B2',
+  level: 'C1-C2',
   description: "In global business, the ability to negotiate across cultural boundaries is one of the most valuable and least taught skills. What counts as direct in one culture reads as rude in another. Silence means agreement in some contexts and deep discomfort in others. A 'yes' that is not a yes. A smile that masks disagreement. The norms around relationships, hierarchy, time, and decision-making vary enormously across cultures — and misreading them can damage partnerships, lose contracts, and create lasting mistrust. This lesson gives you the vocabulary and the frameworks to navigate cross-cultural negotiation with awareness and confidence.",
   heroImage: '/images/cross-cultural-negotiation-hero.png',
 
