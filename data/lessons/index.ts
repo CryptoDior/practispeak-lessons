@@ -163,6 +163,16 @@ import { internalCommunications } from './internal-communications';
 import { innovationInMarketing } from './innovation-in-marketing';
 import { reviewAdvancedMarketingMix } from './review-advanced-marketing-mix';
 import { b2FinalProjectGoToMarketPlan } from './b2-final-project-go-to-market-plan';
+import { marketingLeadershipCommunication } from './marketing-leadership-communication';
+import { advancedBrandStrategy } from './advanced-brand-strategy';
+import { growthMarketing } from './growth-marketing';
+import { complexDataStorytelling } from './complex-data-storytelling';
+import { globalCampaignManagement } from './global-campaign-management';
+import { advancedCopywriting } from './advanced-copywriting';
+import { marketingTransformation } from './marketing-transformation';
+import { negotiatingContractsAndPartnerships } from './negotiating-contracts-and-partnerships';
+import { performanceMarketingMastery } from './performance-marketing-mastery';
+import { communityLedMarketing } from './community-led-marketing';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -329,6 +339,16 @@ export const lessons: Lesson[] = [
   innovationInMarketing,
   reviewAdvancedMarketingMix,
   b2FinalProjectGoToMarketPlan,
+  marketingLeadershipCommunication,
+  advancedBrandStrategy,
+  growthMarketing,
+  complexDataStorytelling,
+  globalCampaignManagement,
+  advancedCopywriting,
+  marketingTransformation,
+  negotiatingContractsAndPartnerships,
+  performanceMarketingMastery,
+  communityLedMarketing,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
