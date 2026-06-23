@@ -173,6 +173,16 @@ import { marketingTransformation } from './marketing-transformation';
 import { negotiatingContractsAndPartnerships } from './negotiating-contracts-and-partnerships';
 import { performanceMarketingMastery } from './performance-marketing-mastery';
 import { communityLedMarketing } from './community-led-marketing';
+import { aiAndAutomationInMarketing } from './ai-and-automation-in-marketing';
+import { mediaRelationsAndPr } from './media-relations-and-pr';
+import { luxuryAndPremiumMarketing } from './luxury-and-premium-marketing';
+import { causeRelatedMarketing } from './cause-related-marketing';
+import { marketingInARecession } from './marketing-in-a-recession';
+import { crossCulturalNegotiation } from './cross-cultural-negotiation';
+import { advancedPresentationSkills } from './advanced-presentation-skills';
+import { writingAMarketingWhitePaper } from './writing-a-marketing-white-paper';
+import { reviewC1CommunicationMastery } from './review-c1-communication-mastery';
+import { c1FinalProjectMarketingTransformationPlan } from './c1-final-project-marketing-transformation-plan';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -349,6 +359,16 @@ export const lessons: Lesson[] = [
   negotiatingContractsAndPartnerships,
   performanceMarketingMastery,
   communityLedMarketing,
+  aiAndAutomationInMarketing,
+  mediaRelationsAndPr,
+  luxuryAndPremiumMarketing,
+  causeRelatedMarketing,
+  marketingInARecession,
+  crossCulturalNegotiation,
+  advancedPresentationSkills,
+  writingAMarketingWhitePaper,
+  reviewC1CommunicationMastery,
+  c1FinalProjectMarketingTransformationPlan,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
