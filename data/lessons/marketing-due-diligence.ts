@@ -39,7 +39,7 @@ export const marketingDueDiligence: Lesson = {
     },
     {
       word: 'INTANGIBLE',
-      partOfSpeech: 'adjective / noun',
+      partOfSpeech: 'adjective',
       definition: 'Something that has value but cannot be physically seen or measured easily — like brand reputation, customer loyalty, or intellectual property.',
       example: "Riley said: The intangibles here are actually the most valuable things — the brand recognition, the community they've built, and the customer trust. None of that appears on the balance sheet.",
       imageSlug: '/images/intangible.png',
