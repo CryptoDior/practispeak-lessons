@@ -11,7 +11,7 @@ export const masteringAmbiguity: Lesson = {
   vocabulary: [
     {
       word: 'HEDGE',
-      partOfSpeech: 'verb / noun',
+      partOfSpeech: 'noun / verb',
       definition: 'To use careful language that avoids making a strong or definite claim. Useful when you are not 100% sure.',
       example: "Riley said: Don't hedge everything — it makes you sound uncertain about things you should know. But hedge where the data is genuinely unclear.",
       imageSlug: '/images/hedge.png',
