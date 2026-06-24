@@ -183,6 +183,16 @@ import { advancedPresentationSkills } from './advanced-presentation-skills';
 import { writingAMarketingWhitePaper } from './writing-a-marketing-white-paper';
 import { reviewC1CommunicationMastery } from './review-c1-communication-mastery';
 import { c1FinalProjectMarketingTransformationPlan } from './c1-final-project-marketing-transformation-plan';
+import { languageOfBusinessInfluence } from './language-of-business-influence';
+import { academicAndTradeWriting } from './academic-and-trade-writing';
+import { masteringAmbiguity } from './mastering-ambiguity';
+import { politicalCommunicationInOrganisations } from './political-communication-in-organisations';
+import { advancedDiscourseAnalysis } from './advanced-discourse-analysis';
+import { boardLevelReporting } from './board-level-reporting';
+import { mergersAcquisitionsAndRebranding } from './mergers-acquisitions-and-rebranding';
+import { theFutureOfMarketing } from './the-future-of-marketing';
+import { crisisPrAtTheHighestLevel } from './crisis-pr-at-the-highest-level';
+import { marketingDueDiligence } from './marketing-due-diligence';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -369,6 +379,16 @@ export const lessons: Lesson[] = [
   writingAMarketingWhitePaper,
   reviewC1CommunicationMastery,
   c1FinalProjectMarketingTransformationPlan,
+  languageOfBusinessInfluence,
+  academicAndTradeWriting,
+  masteringAmbiguity,
+  politicalCommunicationInOrganisations,
+  advancedDiscourseAnalysis,
+  boardLevelReporting,
+  mergersAcquisitionsAndRebranding,
+  theFutureOfMarketing,
+  crisisPrAtTheHighestLevel,
+  marketingDueDiligence,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
