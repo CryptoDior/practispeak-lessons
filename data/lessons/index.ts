@@ -193,6 +193,16 @@ import { mergersAcquisitionsAndRebranding } from './mergers-acquisitions-and-reb
 import { theFutureOfMarketing } from './the-future-of-marketing';
 import { crisisPrAtTheHighestLevel } from './crisis-pr-at-the-highest-level';
 import { marketingDueDiligence } from './marketing-due-diligence';
+import { semioticsAndVisualCommunication } from './semiotics-and-visual-communication';
+import { writingForTheCSuite } from './writing-for-the-c-suite';
+import { internationalMediaBuying } from './international-media-buying';
+import { regulatoryAndLegalLanguage } from './regulatory-and-legal-language';
+import { thoughtLeadershipAtScale } from './thought-leadership-at-scale';
+import { culturalIntelligenceInGlobalMarketing } from './cultural-intelligence-in-global-marketing';
+import { theMultilingualMarketersToolkit } from './the-multilingual-marketers-toolkit';
+import { marketingEthicsAndPhilosophy } from './marketing-ethics-and-philosophy';
+import { reviewMasteryLevelCommunication } from './review-mastery-level-communication';
+import { c2FinalProjectTheCmoChallengeLesson } from './c2-final-project-the-cmo-challenge';
 
 export const lessons: Lesson[] = [
   teamCommunication,
@@ -389,6 +399,16 @@ export const lessons: Lesson[] = [
   theFutureOfMarketing,
   crisisPrAtTheHighestLevel,
   marketingDueDiligence,
+  semioticsAndVisualCommunication,
+  writingForTheCSuite,
+  internationalMediaBuying,
+  regulatoryAndLegalLanguage,
+  thoughtLeadershipAtScale,
+  culturalIntelligenceInGlobalMarketing,
+  theMultilingualMarketersToolkit,
+  marketingEthicsAndPhilosophy,
+  reviewMasteryLevelCommunication,
+  c2FinalProjectTheCmoChallengeLesson,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
