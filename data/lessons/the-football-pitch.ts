@@ -260,14 +260,6 @@ export const theFootballPitch: Lesson = {
     },
   ],
 
-  warmUp: {
-    questions: [
-      'Have you ever been to a football pitch? What did it look like?',
-      'Do you know any parts of a football pitch in English already?',
-      'What do you think is the most important part of the pitch?',
-    ],
-  },
-
   completeSentenceExercise: {
     instructions: 'Choose the correct word to complete each sentence.',
     items: [

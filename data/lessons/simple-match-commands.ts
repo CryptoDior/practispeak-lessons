@@ -248,14 +248,6 @@ export const simpleMatchCommands: Lesson = {
     },
   ],
 
-  warmUp: {
-    questions: [
-      'Have you ever heard a referee say "Play on!"? When do they say it?',
-      'Do you know what offside means? Try to explain it in simple words.',
-      'What is the most controversial referee decision you have ever seen?',
-    ],
-  },
-
   completeSentenceExercise: {
     instructions: 'Choose the correct match command or rule word for each situation.',
     items: [

@@ -248,14 +248,6 @@ export const kickPassShoot: Lesson = {
     },
   ],
 
-  warmUp: {
-    questions: [
-      'Which football action do you think is the hardest — dribbling, shooting, or passing? Why?',
-      'Do you prefer to use your right foot or your left foot? Or both?',
-      'Can you mime the actions? Try: kick, pass, shoot, header, volley.',
-    ],
-  },
-
   completeSentenceExercise: {
     instructions: 'We use different body parts to play football. Choose the correct option.',
     items: [

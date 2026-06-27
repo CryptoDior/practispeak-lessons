@@ -248,14 +248,6 @@ export const scoreAGoal: Lesson = {
     },
   ],
 
-  warmUp: {
-    questions: [
-      'What do you shout in your language when your team scores? Can you say it in English?',
-      'Do you know any famous hat-tricks? Who scored them?',
-      'Have you ever watched a great comeback in football? What happened?',
-    ],
-  },
-
   completeSentenceExercise: {
     instructions: 'Choose the correct exclamation or goal word for each sentence.',
     items: [

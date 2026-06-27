@@ -248,14 +248,6 @@ export const peopleAtTheClub: Lesson = {
     },
   ],
 
-  warmUp: {
-    questions: [
-      'Do you have a favourite football manager? What makes them good?',
-      'Have you ever been in the stands at a football match? What was the atmosphere like?',
-      'Who do you think has the hardest job at a football club — the manager, the referee, or the physio?',
-    ],
-  },
-
   completeSentenceExercise: {
     instructions: 'Choose the correct word for each person at a football club.',
     items: [

@@ -248,14 +248,6 @@ export const runSprintStop: Lesson = {
     },
   ],
 
-  warmUp: {
-    questions: [
-      'Can you mime these actions? Try: run, sprint, stop, jump, turn, jog.',
-      'When do you think a player needs to sprint? When do they jog?',
-      'Have you ever heard a coach shout instructions during a match? What did they say?',
-    ],
-  },
-
   completeSentenceExercise: {
     instructions: 'We use imperatives (verb + !) to give instructions in football. Choose the correct verb.',
     items: [

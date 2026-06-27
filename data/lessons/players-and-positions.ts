@@ -260,14 +260,6 @@ export const playersAndPositions: Lesson = {
     },
   ],
 
-  warmUp: {
-    questions: [
-      'Do you have a favourite football player? What position do they play?',
-      'Which position do you think is the hardest? Why?',
-      'What formation have you heard of? (e.g. 4-4-2, 4-3-3)',
-    ],
-  },
-
   completeSentenceExercise: {
     instructions: 'Choose the correct word to complete each sentence about players and positions.',
     items: [

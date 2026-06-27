@@ -248,14 +248,6 @@ export const numbersInFootball: Lesson = {
     },
   ],
 
-  warmUp: {
-    questions: [
-      'Can you say a football score in English? Try: "two-one", "nil-nil", "three-two".',
-      'Do you know what "nil" means in football? When do we use it?',
-      'Have you ever watched a match that went to extra time? What happened?',
-    ],
-  },
-
   completeSentenceExercise: {
     instructions: 'In football, we say scores in a special way. Choose the correct option.',
     items: [

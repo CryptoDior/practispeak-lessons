@@ -248,14 +248,6 @@ export const theKit: Lesson = {
     },
   ],
 
-  warmUp: {
-    questions: [
-      'Do you have a favourite football team? What colours are their kit?',
-      'Have you ever worn football boots? How are they different from normal shoes?',
-      'Why do you think players wear shin pads?',
-    ],
-  },
-
   completeSentenceExercise: {
     instructions: 'Choose the correct word to complete each sentence about the kit.',
     items: [

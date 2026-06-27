@@ -248,14 +248,6 @@ export const winLoseDraw: Lesson = {
     },
   ],
 
-  warmUp: {
-    questions: [
-      'How do you feel after your team wins? And after they lose?',
-      'Can you say the result of a recent match in English? Try: "We won two-one."',
-      'Do you think a draw is a good result? When is a draw a good result?',
-    ],
-  },
-
   completeSentenceExercise: {
     instructions: 'We use the simple past tense to talk about football results. Choose the correct past tense form.',
     items: [
