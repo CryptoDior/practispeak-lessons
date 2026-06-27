@@ -27,7 +27,7 @@ export const kickPassShoot: Lesson = {
       word: 'SHOOT',
       partOfSpeech: 'verb',
       definition: 'To kick the ball toward the goal to try to score.',
-      example: 'Kai ran forward and shot at goal.',
+      example: 'Ronaldo ran forward and shot at goal.',
       imageSlug: '/images/shoot.png',
     },
     {
@@ -48,7 +48,7 @@ export const kickPassShoot: Lesson = {
       word: 'CROSS',
       partOfSpeech: 'verb',
       definition: 'To kick the ball from the side into the middle of the pitch.',
-      example: 'She crossed the ball and Kai headed it in.',
+      example: 'She crossed the ball and Ronaldo headed it in.',
       imageSlug: '/images/cross.png',
     },
     {
@@ -113,12 +113,12 @@ export const kickPassShoot: Lesson = {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
       speakerAvatar: '/images/coach-diallo-icon.png',
-      text: 'Kai, today we work on your basic actions. Let\'s start. [[Kick:to hit the ball with your foot]] the ball to me.',
+      text: 'Ronaldo, today we work on your basic actions. Let\'s start. [[Kick:to hit the ball with your foot]] the ball to me.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Like this, Coach? With my right foot?',
     },
     {
@@ -128,16 +128,16 @@ export const kickPassShoot: Lesson = {
       text: 'Good. Now [[pass:to send the ball to a teammate]] it to Sofia. Quick — don\'t hold it too long.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Done! Sofia, pass it back.',
     },
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
       speakerAvatar: '/images/sofia-icon.png',
-      text: 'Here you go, Kai! What do I do next, Coach?',
+      text: 'Here you go, Ronaldo! What do I do next, Coach?',
     },
     {
       speaker: 'Coach Diallo',
@@ -155,18 +155,18 @@ export const kickPassShoot: Lesson = {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
       speakerAvatar: '/images/coach-diallo-icon.png',
-      text: 'Good! Now [[cross:to kick the ball from the side into the middle]] it to Kai in the centre.',
+      text: 'Good! Now [[cross:to kick the ball from the side into the middle]] it to Ronaldo in the centre.',
     },
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
       speakerAvatar: '/images/sofia-icon.png',
-      text: 'I\'ll try! Kai — heads!',
+      text: 'I\'ll try! Ronaldo — heads!',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'I got it! — I scored with a [[header:when you hit the ball with your head]]! Did you see that, Coach?',
     },
     {
@@ -176,9 +176,9 @@ export const kickPassShoot: Lesson = {
       text: 'Excellent! Now [[shoot:to kick the ball toward the goal]] from outside the box. Try a [[volley:to kick the ball before it touches the ground]] this time.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'A volley? I\'ll try... Yes! It\'s on target! This training is amazing!',
     },
   ],
@@ -196,7 +196,7 @@ export const kickPassShoot: Lesson = {
 
   fillBlankExercise: [
     { before: '', after: 'the ball to your teammate — don\'t hold it too long.', answer: 'Pass' },
-    { before: 'Kai ran forward and', after: 'at goal from outside the box.', answer: 'shot' },
+    { before: 'Ronaldo ran forward and', after: 'at goal from outside the box.', answer: 'shot' },
     { before: 'She', after: 'past three defenders before scoring.', answer: 'dribbled' },
     { before: 'He scored with a', answer: 'header', after: 'from a corner kick.' },
     { before: 'She', after: 'the ball from the right side into the centre.', answer: 'crossed' },
@@ -207,7 +207,7 @@ export const kickPassShoot: Lesson = {
 
   multipleChoiceExercise: [
     {
-      question: 'What does Coach Diallo ask Kai to do first?',
+      question: 'What does Coach Diallo ask Ronaldo to do first?',
       options: ['Shoot at goal', 'Kick the ball to him', 'Dribble down the side'],
       correctIndex: 1,
     },
@@ -217,12 +217,12 @@ export const kickPassShoot: Lesson = {
       correctIndex: 1,
     },
     {
-      question: 'How does Kai score the first time?',
+      question: 'How does Ronaldo score the first time?',
       options: ['With a volley', 'With his left foot', 'With a header'],
       correctIndex: 2,
     },
     {
-      question: 'What does Coach Diallo ask Kai to try at the end?',
+      question: 'What does Coach Diallo ask Ronaldo to try at the end?',
       options: ['A tackle', 'A pass with his left foot', 'A volley from outside the box'],
       correctIndex: 2,
     },
@@ -295,7 +295,7 @@ export const kickPassShoot: Lesson = {
       instructions: 'Work in groups. Read the instruction, then choose the best action — A, B, or C.',
       items: [
         {
-          customerLine: 'The coach says: "We need to score. Kai — you are in space near the goal. What do you do?"',
+          customerLine: 'The coach says: "We need to score. Ronaldo — you are in space near the goal. What do you do?"',
           options: [
             'Pass the ball back to the defender.',
             'Dribble away from the goal to find more space.',
@@ -325,11 +325,11 @@ export const kickPassShoot: Lesson = {
           explanation: 'C is correct. The defender should try to tackle the opponent to stop the attack. Running away lets the opponent score. Crossing the ball is for wingers, not defenders near their own goal.',
         },
         {
-          customerLine: 'The coach says: "Kai just received the ball. His first touch is bad and the ball goes far from his foot. What happens next?"',
+          customerLine: 'The coach says: "Ronaldo just received the ball. His first touch is bad and the ball goes far from his foot. What happens next?"',
           options: [
-            'Kai has more time to shoot because the ball is far away.',
-            'Kai loses the ball because a defender can tackle him easily.',
-            'Kai passes more easily because the ball is far from his foot.',
+            'Ronaldo has more time to shoot because the ball is far away.',
+            'Ronaldo loses the ball because a defender can tackle him easily.',
+            'Ronaldo passes more easily because the ball is far from his foot.',
           ],
           correctIndex: 1,
           explanation: 'B is correct. A bad first touch means the ball goes away from your foot. This gives defenders time to tackle you and take the ball. A good first touch is very important.',
@@ -339,19 +339,19 @@ export const kickPassShoot: Lesson = {
     spotTheMistake: {
       instructions: 'There are three wrong action words in this training dialogue. Find them as a group.',
       dialogue: [
-        { speaker: 'Coach Diallo', text: 'Kai, dribble the ball to Sofia — use the inside of your foot.' },
-        { speaker: 'Kai', text: 'OK Coach. Sofia — catch!' },
+        { speaker: 'Coach Diallo', text: 'Ronaldo, dribble the ball to Sofia — use the inside of your foot.' },
+        { speaker: 'Ronaldo', text: 'OK Coach. Sofia — catch!' },
         { speaker: 'Coach Diallo', text: 'Good. Sofia, now shoot the ball from the right side into the centre.' },
         { speaker: 'Sofia', text: 'Like this? I kicked it with my head!' },
-        { speaker: 'Coach Diallo', text: 'No, Sofia — cross it with your foot. Now Kai, tackle at goal from outside the box.' },
-        { speaker: 'Kai', text: 'Yes! It\'s on target — what a volley!' },
+        { speaker: 'Coach Diallo', text: 'No, Sofia — cross it with your foot. Now Ronaldo, tackle at goal from outside the box.' },
+        { speaker: 'Ronaldo', text: 'Yes! It\'s on target — what a volley!' },
       ],
       mistakes: [
         {
           lineIndex: 0,
           incorrectText: 'dribble the ball to Sofia',
           correction: 'pass the ball to Sofia',
-          explanation: 'To PASS the ball means to send it to a teammate. To DRIBBLE means to run with the ball yourself. The coach wants Kai to send the ball to Sofia, so the correct word is "pass".',
+          explanation: 'To PASS the ball means to send it to a teammate. To DRIBBLE means to run with the ball yourself. The coach wants Ronaldo to send the ball to Sofia, so the correct word is "pass".',
         },
         {
           lineIndex: 2,
@@ -363,7 +363,7 @@ export const kickPassShoot: Lesson = {
           lineIndex: 4,
           incorrectText: 'tackle at goal from outside the box',
           correction: 'shoot at goal from outside the box',
-          explanation: 'To SHOOT at goal means to kick the ball toward the goal to score. To TACKLE means to take the ball from an opponent. Kai should SHOOT, not tackle.',
+          explanation: 'To SHOOT at goal means to kick the ball toward the goal to score. To TACKLE means to take the ball from an opponent. Ronaldo should SHOOT, not tackle.',
         },
       ],
     },
@@ -371,13 +371,13 @@ export const kickPassShoot: Lesson = {
       instructions: 'Complete the second line using action words from this lesson. Compare your answers, then click to see one possible answer.',
       items: [
         {
-          customerLine: 'Coach Diallo: Kai, what is the difference between a pass and a cross?',
-          salespersonStart: 'Kai: A pass is when you send the ball to a teammate.',
+          customerLine: 'Coach Diallo: Ronaldo, what is the difference between a pass and a cross?',
+          salespersonStart: 'Ronaldo: A pass is when you send the ball to a teammate.',
           suggestedCompletion: 'A cross is when you kick the ball from the side of the pitch into the centre — usually so a striker can shoot or head it. Both are a kind of kick, but they have different directions.',
         },
         {
           customerLine: 'Sofia: What is a volley? I don\'t understand.',
-          salespersonStart: 'Kai: A volley is when you kick the ball',
+          salespersonStart: 'Ronaldo: A volley is when you kick the ball',
           suggestedCompletion: 'before it touches the ground. The ball comes to you in the air and you kick it straight away. It is a very difficult skill but it looks amazing when you score one.',
         },
         {
@@ -386,8 +386,8 @@ export const kickPassShoot: Lesson = {
           suggestedCompletion: 'Use small touches and always look up so you can see the other players. Change direction quickly to get past defenders. Practice every day and it will become natural.',
         },
         {
-          customerLine: 'Coach Diallo: Kai, your shot went over the goal. What went wrong?',
-          salespersonStart: 'Kai: I think I hit it too high.',
+          customerLine: 'Coach Diallo: Ronaldo, your shot went over the goal. What went wrong?',
+          salespersonStart: 'Ronaldo: I think I hit it too high.',
           suggestedCompletion: 'I should have used the inside of my foot for more control. When I want to shoot with power, I need to keep the ball low and aim for the corners of the goal. I\'ll practice more.',
         },
       ],

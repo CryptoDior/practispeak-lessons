@@ -116,9 +116,9 @@ export const theKit: Lesson = {
       text: 'Right, everyone! Put on your [[kit:the full set of clothing a player wears]] — we start in five minutes.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Coach, do we wear the home kit or the away kit today?',
     },
     {
@@ -128,9 +128,9 @@ export const theKit: Lesson = {
       text: 'Home kit. Blue [[shirt:the top that a player wears in a match]] and white shorts. Let\'s go.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'OK, I\'m nearly ready. I just need to put on my [[shin pads:protective pads worn on the front of the lower leg]].',
     },
     {
@@ -140,9 +140,9 @@ export const theKit: Lesson = {
       text: 'Good. Never forget your shin pads. And pull up your [[socks:long socks pulled up over the shin pads]] over them.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Done. I just need to lace up my [[boots:special shoes with studs on the bottom]].',
     },
     {
@@ -170,9 +170,9 @@ export const theKit: Lesson = {
       text: 'She has them. She is already warming up.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Coach, I love this kit. The blue and white looks great!',
     },
     {
@@ -217,7 +217,7 @@ export const theKit: Lesson = {
       correctIndex: 1,
     },
     {
-      question: 'What does Kai need to do after putting on his shin pads?',
+      question: 'What does Ronaldo need to do after putting on his shin pads?',
       options: ['Put on his gloves', 'Pull up his socks and lace up his boots', 'Change his shirt'],
       correctIndex: 1,
     },
@@ -242,7 +242,7 @@ export const theKit: Lesson = {
       correctIndex: 2,
     },
     {
-      question: 'What does Coach Diallo tell Kai to do at the end?',
+      question: 'What does Coach Diallo tell Ronaldo to do at the end?',
       options: ['Go and lace up his boots', 'Stop talking and get on the pitch', 'Change to the away kit'],
       correctIndex: 1,
     },
@@ -340,8 +340,8 @@ export const theKit: Lesson = {
       instructions: 'There are three wrong kit words in this dialogue. Find them as a group.',
       dialogue: [
         { speaker: 'Coach Diallo', text: 'Right, everyone. Put on your kit — blue shirts and white boots.' },
-        { speaker: 'Kai', text: 'Coach, I have my shin pads on. Do I pull my gloves over them?' },
-        { speaker: 'Coach Diallo', text: 'No — you pull your socks over your shin pads, Kai.' },
+        { speaker: 'Ronaldo', text: 'Coach, I have my shin pads on. Do I pull my gloves over them?' },
+        { speaker: 'Coach Diallo', text: 'No — you pull your socks over your shin pads, Ronaldo.' },
         { speaker: 'Sofia', text: 'Coach, the goalkeeper is ready. She has her bib on her hands.' },
         { speaker: 'Coach Diallo', text: 'Good. And the substitutes have their yellow bibs?' },
         { speaker: 'Sofia', text: 'Yes, they do. And everyone has clean shirts and shorts.' },
@@ -372,22 +372,22 @@ export const theKit: Lesson = {
       items: [
         {
           customerLine: 'Sofia: What does a player wear on match day?',
-          salespersonStart: 'Kai: On match day you wear the full kit.',
+          salespersonStart: 'Ronaldo: On match day you wear the full kit.',
           suggestedCompletion: 'That means your shirt, shorts, and socks — all in the team colours. You also wear shin pads under your socks and lace up your boots.',
         },
         {
           customerLine: 'Sofia: Why do some players wear different colours in training?',
-          salespersonStart: 'Kai: Those players are wearing a bib.',
+          salespersonStart: 'Ronaldo: Those players are wearing a bib.',
           suggestedCompletion: 'The coach uses bibs to split the team into groups. If you have a yellow bib, you are in one team. It makes it easy to see who is on which side.',
         },
         {
           customerLine: 'Sofia: When does the team wear the away kit?',
-          salespersonStart: 'Kai: We wear the away kit',
+          salespersonStart: 'Ronaldo: We wear the away kit',
           suggestedCompletion: 'when we play at another team\'s ground, or when our home colours are too similar to the other team\'s colours. The referee tells us which kit to wear.',
         },
         {
-          customerLine: 'Coach Diallo: Kai, you are not ready. What are you missing?',
-          salespersonStart: 'Kai: I still need to put on my shin pads,',
+          customerLine: 'Coach Diallo: Ronaldo, you are not ready. What are you missing?',
+          salespersonStart: 'Ronaldo: I still need to put on my shin pads,',
           suggestedCompletion: 'pull up my socks, and lace up my boots. I\'ll be ready in two minutes, Coach — I promise!',
         },
       ],

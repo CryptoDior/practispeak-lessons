@@ -113,12 +113,12 @@ export const winLoseDraw: Lesson = {
       speaker: 'Sofia',
       speakerColor: 'blue',
       speakerAvatar: '/images/sofia-icon.png',
-      text: 'Kai, what was the [[result:the final score or outcome of a match]] last night?',
+      text: 'Ronaldo, what was the [[result:the final score or outcome of a match]] last night?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'We [[won:finished the match with more goals]] two-one. It was a great match!',
     },
     {
@@ -128,9 +128,9 @@ export const winLoseDraw: Lesson = {
       text: 'Amazing! What a [[victory:a win — when your team scores more goals]]! How was the [[performance:how well or badly the team played]]?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'We played really well in the first half. But in the second half we nearly [[lost:finished with fewer goals than the other team]].',
     },
     {
@@ -140,9 +140,9 @@ export const winLoseDraw: Lesson = {
       text: 'Oh no! What happened?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'They scored to make it two-one but we held on. It could have been a [[draw:a result where both teams score equally]].',
     },
     {
@@ -152,9 +152,9 @@ export const winLoseDraw: Lesson = {
       text: 'Thank goodness! How did you feel after the win?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Amazing. Every [[point:a unit in the league — three for a win]] is important right now. We need to win the league.',
     },
     {
@@ -164,9 +164,9 @@ export const winLoseDraw: Lesson = {
       text: 'What about last week? You said you had a bad [[defeat:a loss — when your team does not win]].',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Yes. They beat us three-nil. It was terrible. But Coach Diallo said: "Better luck next time."',
     },
     {
@@ -176,9 +176,9 @@ export const winLoseDraw: Lesson = {
       text: 'That\'s the right attitude. Win, lose, or draw — you just keep going.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Exactly. That\'s football.',
     },
   ],
@@ -207,22 +207,22 @@ export const winLoseDraw: Lesson = {
 
   multipleChoiceExercise: [
     {
-      question: 'What was the result of last night\'s match for Kai\'s team?',
+      question: 'What was the result of last night\'s match for Ronaldo\'s team?',
       options: ['They drew one-all', 'They won two-one', 'They lost two-one'],
       correctIndex: 1,
     },
     {
       question: 'What almost happened in the second half?',
-      options: ['Kai\'s team scored a third goal', 'The match almost ended in a draw', 'The other team won'],
+      options: ['Ronaldo\'s team scored a third goal', 'The match almost ended in a draw', 'The other team won'],
       correctIndex: 1,
     },
     {
-      question: 'Why does Kai say every point is important?',
+      question: 'Why does Ronaldo say every point is important?',
       options: ['Because he wants a bonus', 'Because they need to win the league', 'Because the draw gives them three points'],
       correctIndex: 1,
     },
     {
-      question: 'What was the score when Kai\'s team lost last week?',
+      question: 'What was the score when Ronaldo\'s team lost last week?',
       options: ['One-nil', 'Two-one', 'Three-nil'],
       correctIndex: 2,
     },
@@ -339,12 +339,12 @@ export const winLoseDraw: Lesson = {
     spotTheMistake: {
       instructions: 'There are three past tense mistakes in this dialogue. Find them as a group.',
       dialogue: [
-        { speaker: 'Sofia', text: 'Kai, what is the result from last night?' },
-        { speaker: 'Kai', text: 'We won two-one! A great victory.' },
+        { speaker: 'Sofia', text: 'Ronaldo, what is the result from last night?' },
+        { speaker: 'Ronaldo', text: 'We won two-one! A great victory.' },
         { speaker: 'Sofia', text: 'Amazing! They beat you or you beat them?' },
-        { speaker: 'Kai', text: 'We beated them. Our performance was excellent.' },
+        { speaker: 'Ronaldo', text: 'We beated them. Our performance was excellent.' },
         { speaker: 'Sofia', text: 'And last week — you lose three-nil, right?' },
-        { speaker: 'Kai', text: 'Yes. We lost three-nil. A painful defeat. But better luck next time!' },
+        { speaker: 'Ronaldo', text: 'Yes. We lost three-nil. A painful defeat. But better luck next time!' },
       ],
       mistakes: [
         {
@@ -371,23 +371,23 @@ export const winLoseDraw: Lesson = {
       instructions: 'Complete the second line using result vocabulary and past tense. Compare your answers, then click to see one possible answer.',
       items: [
         {
-          customerLine: 'Sofia: Kai, how do I say the result in English if we won 3–0?',
-          salespersonStart: 'Kai: You say: "We won three-nil."',
+          customerLine: 'Sofia: Ronaldo, how do I say the result in English if we won 3–0?',
+          salespersonStart: 'Ronaldo: You say: "We won three-nil."',
           suggestedCompletion: 'Always use "nil" for zero in a score. You can also say "We beat them three-nil" or "The final score was three-nil to us." Remember: "won" is the past tense of "win".',
         },
         {
           customerLine: 'Sofia: What is the difference between a defeat and a draw?',
-          salespersonStart: 'Kai: A defeat is when you lose.',
+          salespersonStart: 'Ronaldo: A defeat is when you lose.',
           suggestedCompletion: 'For example: "We suffered a defeat — they beat us two-nil." A draw is when both teams score the same number of goals. For example: "The match ended in a draw — one-all." A draw gives you one point. A defeat gives you zero.',
         },
         {
           customerLine: 'Sofia: How many points do we need to win the league?',
-          salespersonStart: 'Kai: We need three more points.',
+          salespersonStart: 'Ronaldo: We need three more points.',
           suggestedCompletion: 'If we win our next match, we get three points and that will be enough. A draw only gives us one point. If we lose, we get nothing and the other team might catch us. We must win!',
         },
         {
           customerLine: 'Sofia: Our friend\'s team just lost badly. What should we say to them?',
-          salespersonStart: 'Kai: We can say "better luck next time."',
+          salespersonStart: 'Ronaldo: We can say "better luck next time."',
           suggestedCompletion: 'It is a kind way to say don\'t worry — you can win next time. You can also say "you played well" or "it\'s just one match." Encouragement is very important in football.',
         },
       ],

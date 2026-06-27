@@ -20,7 +20,7 @@ export const numbersInFootball: Lesson = {
       word: 'MINUTE',
       partOfSpeech: 'noun',
       definition: 'A unit of time in a match. A match has 90 minutes.',
-      example: 'Kai scored in the 89th minute!',
+      example: 'Ronaldo scored in the 89th minute!',
       imageSlug: '/images/minute.png',
     },
     {
@@ -89,7 +89,7 @@ export const numbersInFootball: Lesson = {
     {
       phrase: 'IN THE [NUMBER]TH MINUTE',
       definition: 'Used to say exactly when something happened in a match.',
-      example: 'Kai scored in the 85th minute to win the game.',
+      example: 'Ronaldo scored in the 85th minute to win the game.',
       imageSlug: '/images/in-the-minute.png',
     },
     {
@@ -113,12 +113,12 @@ export const numbersInFootball: Lesson = {
       speaker: 'Sofia',
       speakerColor: 'blue',
       speakerAvatar: '/images/sofia-icon.png',
-      text: 'Kai, I\'m trying to understand the numbers in football. How long is a match?',
+      text: 'Ronaldo, I\'m trying to understand the numbers in football. How long is a match?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'A match is ninety [[minutes:units of time in a match]]. It is split into two halves of forty-five minutes each.',
     },
     {
@@ -128,9 +128,9 @@ export const numbersInFootball: Lesson = {
       text: 'So there is a break in the middle?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Yes! At [[half:one of the two parts of a match]] time, both teams rest for fifteen minutes.',
     },
     {
@@ -140,9 +140,9 @@ export const numbersInFootball: Lesson = {
       text: 'I heard the match last night went to extra time. What is that?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: '[[Extra time:additional time played after 90 minutes when the score is level in a cup match]] is thirty more minutes — two halves of fifteen. It only happens in cup matches when the score is equal.',
     },
     {
@@ -152,9 +152,9 @@ export const numbersInFootball: Lesson = {
       text: 'What about injury time? The match always seems to go past ninety minutes.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That is [[injury time:extra minutes added at the end of each half because of stops in play]]. The referee adds minutes for substitutions, injuries, and other stops.',
     },
     {
@@ -164,9 +164,9 @@ export const numbersInFootball: Lesson = {
       text: 'And what is the [[score:the number of goals each team has]] right now in the match?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'It\'s one-nil to us. If it stays like this at [[full time:the end of the match after 90 minutes]], we win!',
     },
     {
@@ -176,9 +176,9 @@ export const numbersInFootball: Lesson = {
       text: 'Wait — what happened? The referee is pointing to the penalty spot!',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Oh no — they have a [[penalty:a free kick from the penalty spot twelve yards from the goal]]! In the 93rd minute! This is too much stress!',
     },
   ],
@@ -196,7 +196,7 @@ export const numbersInFootball: Lesson = {
 
   fillBlankExercise: [
     { before: 'The', after: 'is two-one to the away team.', answer: 'score' },
-    { before: 'Kai scored in the 90th', after: '— right at the end!', answer: 'minute' },
+    { before: 'Ronaldo scored in the 90th', after: '— right at the end!', answer: 'minute' },
     { before: 'At', after: 'time, the coach told the team to play more carefully.', answer: 'half' },
     { before: 'The striker wears jersey', after: 'nine.', answer: 'number' },
     { before: 'The match went to', after: 'time — thirty more minutes of football.', answer: 'extra' },
@@ -227,8 +227,8 @@ export const numbersInFootball: Lesson = {
       correctIndex: 2,
     },
     {
-      question: 'What is the score in the match that Kai and Sofia are watching?',
-      options: ['One-nil to the other team', 'One-all', 'One-nil to Kai\'s team'],
+      question: 'What is the score in the match that Ronaldo and Sofia are watching?',
+      options: ['One-nil to the other team', 'One-all', 'One-nil to Ronaldo\'s team'],
       correctIndex: 2,
     },
     {
@@ -264,7 +264,7 @@ export const numbersInFootball: Lesson = {
         explanation: '"Nil-nil" is correct. When both teams have zero goals, we say "nil-nil". This is also called a goalless draw.',
       },
       {
-        sentence: 'Kai scored at 85 minutes. We say: "He scored _____ the 85th minute."',
+        sentence: 'Ronaldo scored at 85 minutes. We say: "He scored _____ the 85th minute."',
         options: ['at', 'in', 'on'],
         correctIndex: 1,
         explanation: '"In" is correct. We say "in the 85th minute", not "at" or "on". For example: "She scored in the 30th minute."',
@@ -339,12 +339,12 @@ export const numbersInFootball: Lesson = {
     spotTheMistake: {
       instructions: 'There are three mistakes with football numbers in this dialogue. Find them as a group.',
       dialogue: [
-        { speaker: 'Sofia', text: 'Kai, what is the score? Is it two-zero?' },
-        { speaker: 'Kai', text: 'We say two-nil in football, not two-zero. It\'s two-nil to us!' },
+        { speaker: 'Sofia', text: 'Ronaldo, what is the score? Is it two-zero?' },
+        { speaker: 'Ronaldo', text: 'We say two-nil in football, not two-zero. It\'s two-nil to us!' },
         { speaker: 'Sofia', text: 'Brilliant! When did we score? What hour was it?' },
-        { speaker: 'Kai', text: 'We scored in the 40th minute. Just before extra time.' },
+        { speaker: 'Ronaldo', text: 'We scored in the 40th minute. Just before extra time.' },
         { speaker: 'Sofia', text: 'And how long is each half — 30 minutes?' },
-        { speaker: 'Kai', text: 'No — each half is 45 minutes. So full time is at 90 minutes.' },
+        { speaker: 'Ronaldo', text: 'No — each half is 45 minutes. So full time is at 90 minutes.' },
       ],
       mistakes: [
         {
@@ -372,22 +372,22 @@ export const numbersInFootball: Lesson = {
       items: [
         {
           customerLine: 'Sofia: How do I describe a 2–1 score?',
-          salespersonStart: 'Kai: You say "two-one".',
+          salespersonStart: 'Ronaldo: You say "two-one".',
           suggestedCompletion: 'The winning team\'s score always comes first. So if we won two-one, we say "two-one to us". If we lost, we say "one-two" or "they beat us two-one".',
         },
         {
           customerLine: 'Sofia: What happens if the score is 1–1 after 90 minutes in a cup match?',
-          salespersonStart: 'Kai: The match goes to extra time.',
+          salespersonStart: 'Ronaldo: The match goes to extra time.',
           suggestedCompletion: 'That means thirty more minutes — two halves of fifteen. If the score is still level after extra time, the match goes to penalties.',
         },
         {
           customerLine: 'Sofia: Why did the referee hold up a board showing "4"?',
-          salespersonStart: 'Kai: That means there are four minutes of injury time.',
+          salespersonStart: 'Ronaldo: That means there are four minutes of injury time.',
           suggestedCompletion: 'The referee adds injury time to make up for stops in play — like injuries and substitutions. So the match will not end at exactly 90 minutes.',
         },
         {
           customerLine: 'Sofia: What does the number on a player\'s shirt tell you?',
-          salespersonStart: 'Kai: That is their jersey number.',
+          salespersonStart: 'Ronaldo: That is their jersey number.',
           suggestedCompletion: 'Jersey numbers often show the player\'s position. Number one is usually the goalkeeper. Number nine or ten is often the striker or the best player in the team.',
         },
       ],

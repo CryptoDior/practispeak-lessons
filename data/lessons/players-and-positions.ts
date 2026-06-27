@@ -34,7 +34,7 @@ export const playersAndPositions: Lesson = {
       word: 'STRIKER',
       partOfSpeech: 'noun',
       definition: 'A player whose job is to score goals.',
-      example: 'Kai is the striker — he scored twice today.',
+      example: 'Ronaldo is the striker — he scored twice today.',
       imageSlug: '/images/striker.png',
     },
     {
@@ -89,7 +89,7 @@ export const playersAndPositions: Lesson = {
     {
       phrase: 'PLAY UP FRONT',
       definition: 'To play as a striker or forward near the opponent\'s goal.',
-      example: 'Kai plays up front and scores a lot of goals.',
+      example: 'Ronaldo plays up front and scores a lot of goals.',
       imageSlug: '/images/play-up-front.png',
     },
     {
@@ -113,12 +113,12 @@ export const playersAndPositions: Lesson = {
       speaker: 'Sofia',
       speakerColor: 'blue',
       speakerAvatar: '/images/sofia-icon.png',
-      text: 'Kai, can you explain the positions? I don\'t really understand who does what.',
+      text: 'Ronaldo, can you explain the positions? I don\'t really understand who does what.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Sure! Let\'s start at the back. The [[goalkeeper:the player who stops the ball from going into the goal]] stays near the goal and makes saves.',
     },
     {
@@ -128,9 +128,9 @@ export const playersAndPositions: Lesson = {
       text: 'OK. And the players in front of the goalkeeper?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Those are the [[defenders:players whose job is to stop the other team from scoring]]. They play at the back and stop the other team.',
     },
     {
@@ -140,21 +140,21 @@ export const playersAndPositions: Lesson = {
       text: 'What about the players in the middle?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'They are [[midfielders:players in the middle of the pitch who link defence and attack]]. They run a lot and connect the defence to the attack.',
     },
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
       speakerAvatar: '/images/sofia-icon.png',
-      text: 'And what position do you play, Kai?',
+      text: 'And what position do you play, Ronaldo?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'I\'m a [[striker:a player whose job is to score goals]]. I play up front and try to score!',
     },
     {
@@ -164,9 +164,9 @@ export const playersAndPositions: Lesson = {
       text: 'I saw someone running on the side of the pitch — what position is that?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That is a [[winger:a player who plays on the left or right side of the pitch]]. They are usually very fast.',
     },
     {
@@ -176,9 +176,9 @@ export const playersAndPositions: Lesson = {
       text: 'Who is the player with the armband?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That\'s the [[captain:the leader of the team who wears a special armband]]. Our captain is number four — she is great.',
     },
     {
@@ -188,9 +188,9 @@ export const playersAndPositions: Lesson = {
       text: 'What about the players sitting on the bench?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'They are [[substitutes:players who come on during a match to replace another player]]. The coach can use up to three in a match.',
     },
   ],
@@ -210,7 +210,7 @@ export const playersAndPositions: Lesson = {
     { before: 'The', after: 'made a great save to stop the penalty.', answer: 'goalkeeper' },
     { before: 'The', after: 'blocked the shot just before it went in.', answer: 'defender' },
     { before: 'The', after: 'passed the ball forward to the striker.', answer: 'midfielder' },
-    { before: 'Kai is our best', after: '— he scored twelve goals this season.', answer: 'striker' },
+    { before: 'Ronaldo is our best', after: '— he scored twelve goals this season.', answer: 'striker' },
     { before: 'The', after: 'wears an armband and leads the team.', answer: 'captain' },
     { before: 'The fast', after: 'ran down the side and crossed the ball.', answer: 'winger' },
     { before: 'The coach sent on a', after: 'in the second half.', answer: 'substitute' },
@@ -229,7 +229,7 @@ export const playersAndPositions: Lesson = {
       correctIndex: 2,
     },
     {
-      question: 'What position does Kai play?',
+      question: 'What position does Ronaldo play?',
       options: ['Goalkeeper', 'Midfielder', 'Striker'],
       correctIndex: 2,
     },
@@ -244,7 +244,7 @@ export const playersAndPositions: Lesson = {
       correctIndex: 1,
     },
     {
-      question: 'How many substitutes does Kai say the coach can use?',
+      question: 'How many substitutes does Ronaldo say the coach can use?',
       options: ['Two', 'Three', 'Five'],
       correctIndex: 1,
     },
@@ -270,7 +270,7 @@ export const playersAndPositions: Lesson = {
         explanation: '"Goalkeeper" is correct. The goalkeeper\'s job is to stop the other team from scoring. They play near their own goal.',
       },
       {
-        sentence: 'Kai plays up front. He is a _____.',
+        sentence: 'Ronaldo plays up front. He is a _____.',
         options: ['defender', 'goalkeeper', 'striker'],
         correctIndex: 2,
         explanation: '"Striker" is correct. A striker plays up front and their main job is to score goals. "Play up front" means playing near the opponent\'s goal.',
@@ -351,12 +351,12 @@ export const playersAndPositions: Lesson = {
     spotTheMistake: {
       instructions: 'There are three mistakes in this dialogue — a wrong position word each time. Find them as a group.',
       dialogue: [
-        { speaker: 'Sofia', text: 'Kai, what position is number one — the player in the goal?' },
-        { speaker: 'Kai', text: 'That\'s the winger. She stops every shot.' },
+        { speaker: 'Sofia', text: 'Ronaldo, what position is number one — the player in the goal?' },
+        { speaker: 'Ronaldo', text: 'That\'s the winger. She stops every shot.' },
         { speaker: 'Sofia', text: 'And who is number ten — the player with the armband?' },
-        { speaker: 'Kai', text: 'That\'s the substitute. She is the team leader.' },
+        { speaker: 'Ronaldo', text: 'That\'s the substitute. She is the team leader.' },
         { speaker: 'Sofia', text: 'What about the players on the side of the pitch — left and right?' },
-        { speaker: 'Kai', text: 'They are the defenders. They are very fast and cross the ball.' },
+        { speaker: 'Ronaldo', text: 'They are the defenders. They are very fast and cross the ball.' },
       ],
       mistakes: [
         {
@@ -384,22 +384,22 @@ export const playersAndPositions: Lesson = {
       items: [
         {
           customerLine: 'Sofia: Which player stops goals from going in?',
-          salespersonStart: 'Kai: The goalkeeper does.',
+          salespersonStart: 'Ronaldo: The goalkeeper does.',
           suggestedCompletion: 'She plays near the goal and her job is to stop every shot. She is the last player before the net.',
         },
         {
           customerLine: 'Sofia: What does a winger do exactly?',
-          salespersonStart: 'Kai: A winger plays on the side of the pitch.',
+          salespersonStart: 'Ronaldo: A winger plays on the side of the pitch.',
           suggestedCompletion: 'They run fast down the left or right side and cross the ball into the box for the strikers to score.',
         },
         {
           customerLine: 'Sofia: What is a formation?',
-          salespersonStart: 'Kai: A formation is the way the team lines up.',
+          salespersonStart: 'Ronaldo: A formation is the way the team lines up.',
           suggestedCompletion: 'For example, a 4-3-3 has four defenders, three midfielders, and three forwards. The coach chooses the formation before each match.',
         },
         {
           customerLine: 'Sofia: Why does number four have an armband?',
-          salespersonStart: 'Kai: Because she is the captain.',
+          salespersonStart: 'Ronaldo: Because she is the captain.',
           suggestedCompletion: 'The captain is the leader of the team. She talks to the referee and helps the other players stay focused.',
         },
       ],

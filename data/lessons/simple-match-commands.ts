@@ -55,7 +55,7 @@ export const simpleMatchCommands: Lesson = {
       word: 'THROW-IN',
       partOfSpeech: 'noun',
       definition: 'When you throw the ball back into play from the touchline.',
-      example: 'It\'s our throw-in — Kai, take it quickly.',
+      example: 'It\'s our throw-in — Ronaldo, take it quickly.',
       imageSlug: '/images/throw-in.png',
     },
     {
@@ -113,12 +113,12 @@ export const simpleMatchCommands: Lesson = {
       speaker: 'Sofia',
       speakerColor: 'blue',
       speakerAvatar: '/images/sofia-icon.png',
-      text: 'Kai, I don\'t understand what the referee is saying. Can you help me?',
+      text: 'Ronaldo, I don\'t understand what the referee is saying. Can you help me?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Of course! Watch — see that? The defender pushed him. That is a [[foul:an action that breaks the rules like pushing or tripping]].',
     },
     {
@@ -128,9 +128,9 @@ export const simpleMatchCommands: Lesson = {
       text: 'And the referee blew the whistle. What happens now?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'We get a [[free kick:a kick given after the other team breaks the rules]]. We kick the ball from where the foul happened.',
     },
     {
@@ -140,9 +140,9 @@ export const simpleMatchCommands: Lesson = {
       text: 'But the referee is showing a yellow card! Is that serious?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'A [[yellow card:a warning given for a bad foul or unsporting behaviour]] is a warning. If you get two in the same match, you get a [[red card:a card that means the player must leave immediately]] and leave the pitch.',
     },
     {
@@ -152,9 +152,9 @@ export const simpleMatchCommands: Lesson = {
       text: 'Oh! And what about that flag? The linesman has his flag up.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That is [[offside:a rule about where players can stand when they receive the ball]]. The goal does not count.',
     },
     {
@@ -164,9 +164,9 @@ export const simpleMatchCommands: Lesson = {
       text: 'The ball just went over the side line — what is that?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That is a [[throw-in:when you throw the ball back into play from the touchline]]. The last player to touch it was theirs, so we get the throw.',
     },
     {
@@ -176,9 +176,9 @@ export const simpleMatchCommands: Lesson = {
       text: 'And the ball just hit his arm near the goal — is that a [[handball:when the ball touches a player\'s arm or hand]]?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Yes! The referee says handball — we get a free kick. And there it goes — right into the net. GOAL!',
     },
   ],
@@ -242,7 +242,7 @@ export const simpleMatchCommands: Lesson = {
       correctIndex: 2,
     },
     {
-      question: 'How does the match end for Kai and Sofia?',
+      question: 'How does the match end for Ronaldo and Sofia?',
       options: ['With a red card', 'With a goal from a free kick after a handball', 'With a corner kick'],
       correctIndex: 1,
     },
@@ -339,12 +339,12 @@ export const simpleMatchCommands: Lesson = {
     spotTheMistake: {
       instructions: 'There are three wrong match command words in this dialogue. Find them as a group.',
       dialogue: [
-        { speaker: 'Sofia', text: 'Kai, the defender just pushed him — is that a handball?' },
-        { speaker: 'Kai', text: 'No, that\'s a foul. The referee will give a free kick.' },
+        { speaker: 'Sofia', text: 'Ronaldo, the defender just pushed him — is that a handball?' },
+        { speaker: 'Ronaldo', text: 'No, that\'s a foul. The referee will give a free kick.' },
         { speaker: 'Sofia', text: 'And he showed a card — a red card for a first foul?' },
-        { speaker: 'Kai', text: 'No — a first foul gets a yellow card. A red card means you leave.' },
+        { speaker: 'Ronaldo', text: 'No — a first foul gets a yellow card. A red card means you leave.' },
         { speaker: 'Sofia', text: 'The ball went over the side line. Is it a corner?' },
-        { speaker: 'Kai', text: 'No — when it goes over the side line, it\'s a throw-in, not a corner.' },
+        { speaker: 'Ronaldo', text: 'No — when it goes over the side line, it\'s a throw-in, not a corner.' },
       ],
       mistakes: [
         {
@@ -372,22 +372,22 @@ export const simpleMatchCommands: Lesson = {
       items: [
         {
           customerLine: 'Sofia: What is the difference between a yellow card and a red card?',
-          salespersonStart: 'Kai: A yellow card is a warning.',
+          salespersonStart: 'Ronaldo: A yellow card is a warning.',
           suggestedCompletion: 'If you get two yellow cards in the same match, the referee shows you a red card and you must leave the pitch. Your team then plays with ten players for the rest of the match.',
         },
         {
           customerLine: 'Sofia: When does the referee shout "Play on!"?',
-          salespersonStart: 'Kai: "Play on!" means there is no foul.',
+          salespersonStart: 'Ronaldo: "Play on!" means there is no foul.',
           suggestedCompletion: 'The referee uses it when there is a small push or contact but it is not serious enough to stop the match. They wave their arm forward to tell the players to continue.',
         },
         {
           customerLine: 'Sofia: Why did the goal not count just now?',
-          salespersonStart: 'Kai: Because the player was offside.',
+          salespersonStart: 'Ronaldo: Because the player was offside.',
           suggestedCompletion: 'The offside rule means you cannot be in front of the last defender when you receive the ball. The linesman raised his flag, the referee blew the whistle, and the goal was cancelled.',
         },
         {
           customerLine: 'Sofia: What is a corner kick exactly?',
-          salespersonStart: 'Kai: A corner is given when the ball goes over the goal line,',
+          salespersonStart: 'Ronaldo: A corner is given when the ball goes over the goal line,',
           suggestedCompletion: 'and the last player to touch it was a defender or goalkeeper. The attacking team kicks the ball from the corner of the pitch — from the corner flag. It is a good chance to score with a header.',
         },
       ],

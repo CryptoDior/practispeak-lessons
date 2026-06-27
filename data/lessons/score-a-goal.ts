@@ -13,7 +13,7 @@ export const scoreAGoal: Lesson = {
       word: 'SCORE',
       partOfSpeech: 'verb',
       definition: 'To put the ball in the goal.',
-      example: 'Kai scored two goals in the second half.',
+      example: 'Ronaldo scored two goals in the second half.',
       imageSlug: '/images/score-verb.png',
     },
     {
@@ -41,7 +41,7 @@ export const scoreAGoal: Lesson = {
       word: 'ASSIST',
       partOfSpeech: 'noun',
       definition: 'A pass or action that directly helps another player score.',
-      example: 'Sofia got an assist when her cross led to Kai\'s goal.',
+      example: 'Sofia got an assist when her cross led to Ronaldo\'s goal.',
       imageSlug: '/images/assist.png',
     },
     {
@@ -55,7 +55,7 @@ export const scoreAGoal: Lesson = {
       word: 'HAT-TRICK',
       partOfSpeech: 'noun',
       definition: 'Three goals scored by the same player in one match.',
-      example: 'Kai scored a hat-trick — three goals in one match!',
+      example: 'Ronaldo scored a hat-trick — three goals in one match!',
       imageSlug: '/images/hat-trick.png',
     },
     {
@@ -101,7 +101,7 @@ export const scoreAGoal: Lesson = {
     {
       phrase: 'TAKE THE LEAD',
       definition: 'To score a goal that puts your team in front for the first time.',
-      example: 'Kai scored to take the lead in the 30th minute.',
+      example: 'Ronaldo scored to take the lead in the 30th minute.',
       imageSlug: '/images/take-the-lead.png',
     },
   ],
@@ -113,12 +113,12 @@ export const scoreAGoal: Lesson = {
       speaker: 'Sofia',
       speakerColor: 'blue',
       speakerAvatar: '/images/sofia-icon.png',
-      text: 'Kai, this match is so exciting. We need a goal so badly!',
+      text: 'Ronaldo, this match is so exciting. We need a goal so badly!',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'I know. If I [[score:to put the ball in the goal]] now, we take the lead.',
     },
     {
@@ -128,9 +128,9 @@ export const scoreAGoal: Lesson = {
       text: 'Look — the winger is crossing the ball into the box!',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'I\'m running for it — yes! It\'s in the net! [[Celebrate:to show happiness after scoring]]!',
     },
     {
@@ -140,9 +140,9 @@ export const scoreAGoal: Lesson = {
       text: 'GET IN! [[What a goal:an exclamation used when a goal is amazing]]! You [[netted:scored — put the ball in the net]] it with your head!',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'We are in the [[lead:the advantage a winning team has]]! One-nil!',
     },
     {
@@ -152,21 +152,21 @@ export const scoreAGoal: Lesson = {
       text: 'Oh no — they just scored. They [[equalised:scored to make the score level again]]!',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Come on! We can still win. Don\'t give up!',
     },
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
       speakerAvatar: '/images/sofia-icon.png',
-      text: 'Kai scored again! And again! Three goals — that\'s a [[hat-trick:three goals scored by the same player in one match]]!',
+      text: 'Ronaldo scored again! And again! Three goals — that\'s a [[hat-trick:three goals scored by the same player in one match]]!',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Unbelievable! And each goal had a great [[assist:a pass that directly helps another player score]] from my teammates.',
     },
     {
@@ -176,9 +176,9 @@ export const scoreAGoal: Lesson = {
       text: 'We were one-nil down and now we win three-one. What a [[comeback:when a team is losing but then wins or draws]]!',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'This is one of the best days of my life. I\'ll never forget this hat-trick!',
     },
   ],
@@ -195,35 +195,35 @@ export const scoreAGoal: Lesson = {
   ],
 
   fillBlankExercise: [
-    { before: 'Kai ran in and', after: 'from close range.', answer: 'scored' },
+    { before: 'Ronaldo ran in and', after: 'from close range.', answer: 'scored' },
     { before: 'The players ran to', after: 'with the fans in the corner.', answer: 'celebrate' },
     { before: 'They were one-nil down but', answer: 'equalised', after: 'in the 80th minute.' },
     { before: 'We are in the', after: '— two goals to one!', answer: 'lead' },
-    { before: 'The cross from the winger was a great', after: 'for Kai\'s goal.', answer: 'assist' },
+    { before: 'The cross from the winger was a great', after: 'for Ronaldo\'s goal.', answer: 'assist' },
     { before: 'She', after: 'twice in the second half — a brilliant performance.', answer: 'netted' },
-    { before: 'Kai scored three goals — his first', answer: 'hat-trick', after: 'of the season!' },
+    { before: 'Ronaldo scored three goals — his first', answer: 'hat-trick', after: 'of the season!' },
     { before: 'They were losing three-nil but won four-three. What a', after: '!', answer: 'comeback' },
   ],
 
   multipleChoiceExercise: [
     {
-      question: 'What does Kai say if he scores the next goal?',
+      question: 'What does Ronaldo say if he scores the next goal?',
       options: ['They will draw', 'They will take the lead', 'They will equalise'],
       correctIndex: 1,
     },
     {
-      question: 'What does Sofia shout when Kai scores?',
+      question: 'What does Sofia shout when Ronaldo scores?',
       options: ['Unbelievable! Come on!', 'Get in! What a goal!', 'Hat-trick! Comeback!'],
       correctIndex: 1,
     },
     {
-      question: 'How did Kai score the goal?',
+      question: 'How did Ronaldo score the goal?',
       options: ['With a volley', 'With his left foot', 'With his head'],
       correctIndex: 2,
     },
     {
       question: 'What happens after the other team scores?',
-      options: ['Kai\'s team is still in the lead', 'The match ends', 'The score is level — they equalised'],
+      options: ['Ronaldo\'s team is still in the lead', 'The match ends', 'The score is level — they equalised'],
       correctIndex: 2,
     },
     {
@@ -238,11 +238,11 @@ export const scoreAGoal: Lesson = {
     },
     {
       question: 'Why does Sofia call it a comeback?',
-      options: ['Because the team played badly', 'Because the team was losing and then won', 'Because Kai came back onto the pitch'],
+      options: ['Because the team played badly', 'Because the team was losing and then won', 'Because Ronaldo came back onto the pitch'],
       correctIndex: 1,
     },
     {
-      question: 'What does Kai say about his hat-trick at the end?',
+      question: 'What does Ronaldo say about his hat-trick at the end?',
       options: ['He wants to score more next match', 'He will never forget it', 'He thinks his teammates were better'],
       correctIndex: 1,
     },
@@ -270,7 +270,7 @@ export const scoreAGoal: Lesson = {
         explanation: '"Equalised" is correct. To equalise means to score and make the score level again. After being behind, the team has drawn level at 1–1.',
       },
       {
-        sentence: 'Kai scores a beautiful goal from 30 metres. You shout: "_____ a goal!"',
+        sentence: 'Ronaldo scores a beautiful goal from 30 metres. You shout: "_____ a goal!"',
         options: ['What', 'Come', 'Get'],
         correctIndex: 0,
         explanation: '"What" is correct — the full phrase is "What a goal!" This is used when a goal is special, beautiful, or very impressive.',
@@ -295,7 +295,7 @@ export const scoreAGoal: Lesson = {
       instructions: 'Work in groups. Read the situation, then choose the best English reaction — A, B, or C.',
       items: [
         {
-          customerLine: 'Kai scores a brilliant goal from outside the box in the 90th minute to win the match!',
+          customerLine: 'Ronaldo scores a brilliant goal from outside the box in the 90th minute to win the match!',
           options: [
             '"Oh well, it\'s only one goal."',
             '"What a goal! Get in! Unbelievable!"',
@@ -339,12 +339,12 @@ export const scoreAGoal: Lesson = {
     spotTheMistake: {
       instructions: 'There are three wrong goal vocabulary words in this conversation. Find them as a group.',
       dialogue: [
-        { speaker: 'Sofia', text: 'Kai! You scored three goals — that\'s an assist!' },
-        { speaker: 'Kai', text: 'It is, isn\'t it! My first hat-trick of the season.' },
+        { speaker: 'Sofia', text: 'Ronaldo! You scored three goals — that\'s an assist!' },
+        { speaker: 'Ronaldo', text: 'It is, isn\'t it! My first hat-trick of the season.' },
         { speaker: 'Sofia', text: 'And the pass from the winger for your second goal — what a comeback!' },
-        { speaker: 'Kai', text: 'Yes, that was a perfect assist. I just had to score.' },
+        { speaker: 'Ronaldo', text: 'Yes, that was a perfect assist. I just had to score.' },
         { speaker: 'Sofia', text: 'We were losing two-nil and now we lead three-two. What a equalise!' },
-        { speaker: 'Kai', text: 'What a comeback! I can\'t believe we won from two goals down.' },
+        { speaker: 'Ronaldo', text: 'What a comeback! I can\'t believe we won from two goals down.' },
       ],
       mistakes: [
         {
@@ -371,23 +371,23 @@ export const scoreAGoal: Lesson = {
       instructions: 'Complete the second line using goal vocabulary and exclamations from this lesson.',
       items: [
         {
-          customerLine: 'Sofia: Kai, you just scored three goals! Is that a hat-trick?',
-          salespersonStart: 'Kai: Yes! A hat-trick is when one player scores',
+          customerLine: 'Sofia: Ronaldo, you just scored three goals! Is that a hat-trick?',
+          salespersonStart: 'Ronaldo: Yes! A hat-trick is when one player scores',
           suggestedCompletion: 'three goals in the same match. It is very special and quite difficult to do. This is my first one and I can\'t believe it!',
         },
         {
           customerLine: 'Sofia: What is the difference between a goal and an assist?',
-          salespersonStart: 'Kai: A goal is when you score.',
+          salespersonStart: 'Ronaldo: A goal is when you score.',
           suggestedCompletion: 'An assist is when you make the pass or action that helps your teammate score. Both are important. Sometimes the assist is harder than the goal itself!',
         },
         {
           customerLine: 'Sofia: How do English fans react when their team scores?',
-          salespersonStart: 'Kai: They shout things like "Get in!" and "What a goal!"',
+          salespersonStart: 'Ronaldo: They shout things like "Get in!" and "What a goal!"',
           suggestedCompletion: '"Come on!" is also very common — it means keep going or we can do this. And if something amazing happens, they say "Unbelievable!" Fans are very loud in English football!',
         },
         {
           customerLine: 'Sofia: We were losing two-nil and we won three-two. What do we call that?',
-          salespersonStart: 'Kai: That is called a comeback!',
+          salespersonStart: 'Ronaldo: That is called a comeback!',
           suggestedCompletion: 'A comeback is when a team is behind in the score but then wins or draws. Coming back from two-nil down to win three-two is a great comeback. The fans love it.',
         },
       ],

@@ -20,7 +20,7 @@ export const peopleAtTheClub: Lesson = {
       word: 'COACH',
       partOfSpeech: 'noun',
       definition: 'A person who trains and teaches the players.',
-      example: 'Coach Diallo showed Kai how to improve his shooting.',
+      example: 'Coach Diallo showed Ronaldo how to improve his shooting.',
       imageSlug: '/images/coach.png',
     },
     {
@@ -62,7 +62,7 @@ export const peopleAtTheClub: Lesson = {
       word: 'PHYSIO',
       partOfSpeech: 'noun',
       definition: 'The person who helps injured players recover and stay fit.',
-      example: 'The physio ran onto the pitch to treat Kai\'s injury.',
+      example: 'The physio ran onto the pitch to treat Ronaldo\'s injury.',
       imageSlug: '/images/physio.png',
     },
   ],
@@ -113,12 +113,12 @@ export const peopleAtTheClub: Lesson = {
       speaker: 'Sofia',
       speakerColor: 'blue',
       speakerAvatar: '/images/sofia-icon.png',
-      text: 'Kai, there are so many people at the stadium today. Who are all these people?',
+      text: 'Ronaldo, there are so many people at the stadium today. Who are all these people?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Let me explain! The most important person is the [[manager:the person in charge of the team]]. He chooses who plays.',
     },
     {
@@ -128,9 +128,9 @@ export const peopleAtTheClub: Lesson = {
       text: 'What about the man with the whistle on the pitch?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That is the [[referee:the person who controls the match and applies the rules]]. He makes all the decisions in the match.',
     },
     {
@@ -140,9 +140,9 @@ export const peopleAtTheClub: Lesson = {
       text: 'And the person with the flag on the side of the pitch?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That is the [[linesman:an official on the side of the pitch who helps the referee]]. He raises the flag for offside or when the ball is out.',
     },
     {
@@ -152,9 +152,9 @@ export const peopleAtTheClub: Lesson = {
       text: 'Who trains the players every day?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That is the [[coach:a person who trains and teaches the players]]. Coach Diallo works with us every morning.',
     },
     {
@@ -164,9 +164,9 @@ export const peopleAtTheClub: Lesson = {
       text: 'What happens when a player gets injured?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'The [[physio:the person who helps injured players recover and stay fit]] runs onto the pitch. He makes sure the player is okay.',
     },
     {
@@ -176,9 +176,9 @@ export const peopleAtTheClub: Lesson = {
       text: 'And all these people in the stands — are they all [[fans:people who love and support a football team]]?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Yes! We call them fans or [[supporters:fans who go to matches and cheer for their team]]. They make the atmosphere amazing.',
     },
   ],
@@ -199,7 +199,7 @@ export const peopleAtTheClub: Lesson = {
     { before: 'The', after: 'blew the whistle to stop the match.', answer: 'referee' },
     { before: 'The', after: 'raised his flag for offside.', answer: 'linesman' },
     { before: 'Coach Diallo is our best', answer: 'coach', after: '— he makes us better every day.' },
-    { before: 'The', answer: 'physio', after: 'ran onto the pitch when Kai fell.' },
+    { before: 'The', answer: 'physio', after: 'ran onto the pitch when Ronaldo fell.' },
     { before: 'The', after: 'cheered when the team scored the winning goal.', answer: 'fans' },
     { before: 'There are eleven', after: 'on each team at the start of the match.', answer: 'players' },
     { before: 'Thousands of', after: 'bought tickets for the cup final.', answer: 'supporters' },
@@ -237,7 +237,7 @@ export const peopleAtTheClub: Lesson = {
       correctIndex: 1,
     },
     {
-      question: 'What does Kai say the supporters make amazing?',
+      question: 'What does Ronaldo say the supporters make amazing?',
       options: ['The tactics', 'The atmosphere', 'The score'],
       correctIndex: 1,
     },
@@ -339,12 +339,12 @@ export const peopleAtTheClub: Lesson = {
     spotTheMistake: {
       instructions: 'There are three wrong people in this dialogue. Find the mistakes as a group.',
       dialogue: [
-        { speaker: 'Sofia', text: 'Kai, who is that person on the pitch with the whistle?' },
-        { speaker: 'Kai', text: 'That is the manager. He controls the match.' },
+        { speaker: 'Sofia', text: 'Ronaldo, who is that person on the pitch with the whistle?' },
+        { speaker: 'Ronaldo', text: 'That is the manager. He controls the match.' },
         { speaker: 'Sofia', text: 'And who is the person on the side with the flag?' },
-        { speaker: 'Kai', text: 'That is the physio. He signals when the ball is out.' },
+        { speaker: 'Ronaldo', text: 'That is the physio. He signals when the ball is out.' },
         { speaker: 'Sofia', text: 'What about the man who ran onto the pitch when the player fell?' },
-        { speaker: 'Kai', text: 'That is the referee. He checks if the player is okay.' },
+        { speaker: 'Ronaldo', text: 'That is the referee. He checks if the player is okay.' },
       ],
       mistakes: [
         {
@@ -372,22 +372,22 @@ export const peopleAtTheClub: Lesson = {
       items: [
         {
           customerLine: 'Sofia: Who decides which players start the match?',
-          salespersonStart: 'Kai: That is the manager\'s job.',
+          salespersonStart: 'Ronaldo: That is the manager\'s job.',
           suggestedCompletion: 'The manager chooses the eleven players who start and the substitutes on the bench. They also pick the formation and the tactics for the match.',
         },
         {
           customerLine: 'Sofia: What does the linesman do when the ball goes out?',
-          salespersonStart: 'Kai: The linesman raises the flag',
+          salespersonStart: 'Ronaldo: The linesman raises the flag',
           suggestedCompletion: 'to show the referee that the ball is out of play. They also signal which team gets the throw-in, corner, or goal kick.',
         },
         {
           customerLine: 'Sofia: I want to understand what the physio does exactly.',
-          salespersonStart: 'Kai: The physio is the medical person at the club.',
+          salespersonStart: 'Ronaldo: The physio is the medical person at the club.',
           suggestedCompletion: 'They treat players when they get injured during a match or in training. If a player falls on the pitch, the referee stops the game and the physio runs on to help.',
         },
         {
           customerLine: 'Sofia: Why are the fans so loud today?',
-          salespersonStart: 'Kai: Because supporters love their team!',
+          salespersonStart: 'Ronaldo: Because supporters love their team!',
           suggestedCompletion: 'When the team scores or makes a great save, the fans in the stands go crazy. The atmosphere they create gives the players extra energy.',
         },
       ],

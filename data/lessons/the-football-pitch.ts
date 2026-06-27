@@ -13,7 +13,7 @@ export const theFootballPitch: Lesson = {
       word: 'GOAL',
       partOfSpeech: 'noun',
       definition: 'The space between two posts where you score.',
-      example: 'Kai kicked the ball into the goal!',
+      example: 'Ronaldo kicked the ball into the goal!',
       imageSlug: '/images/goal.png',
     },
     {
@@ -113,12 +113,12 @@ export const theFootballPitch: Lesson = {
       speaker: 'Sofia',
       speakerColor: 'blue',
       speakerAvatar: '/images/sofia-icon.png',
-      text: 'Kai, this is my first time at a football [[pitch:the field where football is played]]. Can you show me around?',
+      text: 'Ronaldo, this is my first time at a football [[pitch:the field where football is played]]. Can you show me around?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Of course! So this big green area is the pitch. This is where we play.',
     },
     {
@@ -128,9 +128,9 @@ export const theFootballPitch: Lesson = {
       text: 'It\'s so big! What is that thing at each end?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That is the [[goal:the space between two posts where you score]]. We have to kick the ball in there to score.',
     },
     {
@@ -140,9 +140,9 @@ export const theFootballPitch: Lesson = {
       text: 'I see! And what is that white line on the side?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That is the [[touchline:the line on the side of the pitch]]. If the ball goes over it, the other team gets the ball.',
     },
     {
@@ -152,9 +152,9 @@ export const theFootballPitch: Lesson = {
       text: 'What about that big square area in front of the goal?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That is the [[box:the area in front of the goal where fouls give a penalty]]. A foul inside the box means a penalty.',
     },
     {
@@ -164,9 +164,9 @@ export const theFootballPitch: Lesson = {
       text: 'And that white circle in the middle of the pitch?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That is the [[centre circle:the circle in the middle of the pitch]]. The match always starts there.',
     },
     {
@@ -176,9 +176,9 @@ export const theFootballPitch: Lesson = {
       text: 'What is that small white mark near the goal?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'That is the [[penalty spot:the white mark where you kick a penalty]]. Last week, I scored a penalty from there!',
     },
     {
@@ -188,9 +188,9 @@ export const theFootballPitch: Lesson = {
       text: 'Wow! I love the [[net:the net attached to the goal posts]] on the goal. It moves when the ball goes in!',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Yes! There is nothing better than seeing the ball hit the back of the net. Come on — let\'s warm up!',
     },
   ],
@@ -208,7 +208,7 @@ export const theFootballPitch: Lesson = {
 
   fillBlankExercise: [
     { before: 'The players walked onto the', after: 'to start the warm-up.', answer: 'pitch' },
-    { before: 'Kai kicked the ball into the', after: 'to score!', answer: 'goal' },
+    { before: 'Ronaldo kicked the ball into the', after: 'to score!', answer: 'goal' },
     { before: 'The ball hit the back of the', after: 'and the crowd went wild.', answer: 'net' },
     { before: 'The referee pointed to the', after: 'for a foul inside the box.', answer: 'penalty spot' },
     { before: 'The ball went over the', after: 'so it was a throw-in.', answer: 'touchline' },
@@ -219,7 +219,7 @@ export const theFootballPitch: Lesson = {
 
   multipleChoiceExercise: [
     {
-      question: 'Where does Kai say the match always starts?',
+      question: 'Where does Ronaldo say the match always starts?',
       options: ['In the box', 'On the touchline', 'In the centre circle'],
       correctIndex: 2,
     },
@@ -234,7 +234,7 @@ export const theFootballPitch: Lesson = {
       correctIndex: 1,
     },
     {
-      question: 'What did Kai score from the penalty spot last week?',
+      question: 'What did Ronaldo score from the penalty spot last week?',
       options: ['A free kick', 'A header', 'A penalty'],
       correctIndex: 2,
     },
@@ -254,7 +254,7 @@ export const theFootballPitch: Lesson = {
       correctIndex: 2,
     },
     {
-      question: 'What does Kai suggest at the end of the dialogue?',
+      question: 'What does Ronaldo suggest at the end of the dialogue?',
       options: ['To watch a match', 'To warm up', 'To go home'],
       correctIndex: 1,
     },
@@ -351,12 +351,12 @@ export const theFootballPitch: Lesson = {
     spotTheMistake: {
       instructions: 'Read this short dialogue. There are three mistakes — one wrong word in each mistake. Find them as a group, then check your answers.',
       dialogue: [
-        { speaker: 'Sofia', text: 'Kai, what is that big circle in the middle of the box?' },
-        { speaker: 'Kai', text: 'That is the centre circle. The match starts there.' },
+        { speaker: 'Sofia', text: 'Ronaldo, what is that big circle in the middle of the box?' },
+        { speaker: 'Ronaldo', text: 'That is the centre circle. The match starts there.' },
         { speaker: 'Sofia', text: 'And those two white sticks next to the touchline — what are they?' },
-        { speaker: 'Kai', text: 'Those are the goalposts. The net hangs between them.' },
+        { speaker: 'Ronaldo', text: 'Those are the goalposts. The net hangs between them.' },
         { speaker: 'Sofia', text: 'What is that small white mark inside the centre circle?' },
-        { speaker: 'Kai', text: 'That is the penalty spot. You kick from there after a foul inside the goal.' },
+        { speaker: 'Ronaldo', text: 'That is the penalty spot. You kick from there after a foul inside the goal.' },
       ],
       mistakes: [
         {
@@ -384,22 +384,22 @@ export const theFootballPitch: Lesson = {
       items: [
         {
           customerLine: 'Sofia: Where does the match start?',
-          salespersonStart: 'Kai: The match starts in the centre circle',
+          salespersonStart: 'Ronaldo: The match starts in the centre circle',
           suggestedCompletion: 'in the middle of the pitch. The referee blows the whistle and one team kicks off.',
         },
         {
           customerLine: 'Sofia: What happens if the ball goes over the white line on the side?',
-          salespersonStart: 'Kai: If the ball goes over the touchline,',
+          salespersonStart: 'Ronaldo: If the ball goes over the touchline,',
           suggestedCompletion: 'it is a throw-in. The other team throws the ball back onto the pitch from the touchline.',
         },
         {
           customerLine: 'Sofia: Why did the referee point to that white spot near the goal?',
-          salespersonStart: 'Kai: He pointed to the penalty spot because',
+          salespersonStart: 'Ronaldo: He pointed to the penalty spot because',
           suggestedCompletion: 'there was a foul inside the box. A penalty is a free kick from that spot — just the ball and the goalkeeper.',
         },
         {
           customerLine: 'Sofia: I want to understand the goal better. What are all the parts?',
-          salespersonStart: 'Kai: The goal has two goalposts on each side,',
+          salespersonStart: 'Ronaldo: The goal has two goalposts on each side,',
           suggestedCompletion: 'a crossbar on the top, and a net behind. When the ball crosses the line and goes into the net, it is a goal!',
         },
       ],

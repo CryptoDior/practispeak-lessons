@@ -116,9 +116,9 @@ export const runSprintStop: Lesson = {
       text: 'Listen carefully. On the pitch, you need to understand my instructions immediately. Ready?',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Ready, Coach!',
     },
     {
@@ -128,9 +128,9 @@ export const runSprintStop: Lesson = {
       text: 'Good. First — [[sprint:to run as fast as you possibly can]] to the ball! Go!',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'I\'m running as fast as I can, Coach!',
     },
     {
@@ -140,9 +140,9 @@ export const runSprintStop: Lesson = {
       text: '[[Stop:to not move, to stand still]]! Now [[turn:to change direction quickly with the ball]] and face the goal.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'OK — I\'m facing the goal. Now what?',
     },
     {
@@ -152,9 +152,9 @@ export const runSprintStop: Lesson = {
       text: 'Now make a run behind the defender — [[jump:to push your body up off the ground]] for the header!',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'I got it — but the shot is coming at me fast!',
     },
     {
@@ -164,9 +164,9 @@ export const runSprintStop: Lesson = {
       text: '[[Block:to stop the ball with your body]] it! Get your body in front!',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Blocked! Coach, can I also [[slide:to move quickly along the ground to tackle]] to take the ball?',
     },
     {
@@ -176,9 +176,9 @@ export const runSprintStop: Lesson = {
       text: 'Yes, but only when you are sure. After the tackle, [[jog:to run slowly at an easy pace]] back to your position.',
     },
     {
-      speaker: 'Kai',
+      speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/kai-icon.png',
+      speakerAvatar: '/images/ronaldo-icon.png',
       text: 'Understood. Sprint to attack, jog to recover. Got it, Coach!',
     },
   ],
@@ -227,7 +227,7 @@ export const runSprintStop: Lesson = {
       correctIndex: 1,
     },
     {
-      question: 'What does Kai do after making a slide tackle?',
+      question: 'What does Ronaldo do after making a slide tackle?',
       options: ['Sprints forward', 'Jogs back to his position', 'Stops and waits'],
       correctIndex: 1,
     },
@@ -242,7 +242,7 @@ export const runSprintStop: Lesson = {
       correctIndex: 2,
     },
     {
-      question: 'What does Kai understand at the end of the dialogue?',
+      question: 'What does Ronaldo understand at the end of the dialogue?',
       options: ['Jog to attack, slide to defend', 'Sprint to attack, jog to recover', 'Block when attacking, turn when defending'],
       correctIndex: 1,
     },
@@ -340,11 +340,11 @@ export const runSprintStop: Lesson = {
       instructions: 'There are three wrong movement words in this training session. Find them as a group.',
       dialogue: [
         { speaker: 'Coach Diallo', text: 'Right, listen! When I say "go", slide to the ball as fast as you can.' },
-        { speaker: 'Kai', text: 'Sprint to the ball — yes, Coach!' },
+        { speaker: 'Ronaldo', text: 'Sprint to the ball — yes, Coach!' },
         { speaker: 'Coach Diallo', text: 'Good. Now stop. Turn and sprint the goal.' },
-        { speaker: 'Kai', text: 'OK — I\'m facing the goal, ready to shoot.' },
+        { speaker: 'Ronaldo', text: 'OK — I\'m facing the goal, ready to shoot.' },
         { speaker: 'Coach Diallo', text: 'Now jump your position — don\'t follow the ball!' },
-        { speaker: 'Kai', text: 'Got it. Hold my position. And jog back after I tackle. Understood!' },
+        { speaker: 'Ronaldo', text: 'Got it. Hold my position. And jog back after I tackle. Understood!' },
       ],
       mistakes: [
         {
@@ -372,22 +372,22 @@ export const runSprintStop: Lesson = {
       items: [
         {
           customerLine: 'Sofia: What is the difference between running and sprinting?',
-          salespersonStart: 'Kai: Running is moving fast.',
+          salespersonStart: 'Ronaldo: Running is moving fast.',
           suggestedCompletion: 'Sprinting is running as fast as you possibly can — it is your maximum speed. In a match, you sprint to win a race for the ball or get behind a defender.',
         },
         {
           customerLine: 'Sofia: The coach keeps shouting "drop back!" What does that mean?',
-          salespersonStart: 'Kai: It means move toward our own goal.',
+          salespersonStart: 'Ronaldo: It means move toward our own goal.',
           suggestedCompletion: 'When we lose the ball, the coach wants everyone to drop back and defend. We need to get between the ball and our goal quickly to stop the other team from scoring.',
         },
         {
-          customerLine: 'Coach Diallo: Kai, when should you slide tackle?',
-          salespersonStart: 'Kai: Only when I am sure I will win the ball.',
+          customerLine: 'Coach Diallo: Ronaldo, when should you slide tackle?',
+          salespersonStart: 'Ronaldo: Only when I am sure I will win the ball.',
           suggestedCompletion: 'If I go in with a slide tackle and miss, the opponent gets past me easily. It is better to stay on my feet and wait for the right moment. I should only slide when it is the last option.',
         },
         {
           customerLine: 'Sofia: Why does the coach tell players to "hold their position"?',
-          salespersonStart: 'Kai: Because if everyone follows the ball,',
+          salespersonStart: 'Ronaldo: Because if everyone follows the ball,',
           suggestedCompletion: 'there are lots of empty spaces on the pitch. The other team can use those spaces to attack. When players hold their positions, the team stays organised and harder to beat.',
         },
       ],
