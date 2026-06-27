@@ -24,6 +24,17 @@ export default function OnThePitchSection({ section }: Props) {
               </p>
             </div>
 
+            {/* 16:9 image */}
+            {item.imageSlug && (
+              <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
+                <img
+                  src={`/images/${item.imageSlug}.jpg`}
+                  alt={item.cue}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            )}
+
             {/* Meaning + Usage */}
             <div className="px-6 py-5 space-y-4">
               <div>

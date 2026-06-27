@@ -206,6 +206,8 @@ export interface OnThePitchItem {
   meaning: string;
   /** Who says it, when, and why — gives real-world context */
   usage: string;
+  /** Optional 16:9 image illustrating the phrase in action */
+  imageSlug?: string;
 }
 
 export interface OnThePitch {
