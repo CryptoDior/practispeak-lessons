@@ -9,6 +9,16 @@ import { runSprintStop } from './run-sprint-stop';
 import { scoreAGoal } from './score-a-goal';
 import { winLoseDraw } from './win-lose-draw';
 import { simpleMatchCommands } from './simple-match-commands';
+import { theStadium } from './the-stadium';
+import { buyingATicket } from './buying-a-ticket';
+import { gettingThere } from './getting-there';
+import { beforeTheMatch } from './before-the-match';
+import { chantsAndCrowdLanguage } from './chants-and-crowd-language';
+import { halfTime } from './half-time';
+import { theFinalWhistle } from './the-final-whistle';
+import { talkingAboutYourTeam } from './talking-about-your-team';
+import { askingAboutTheMatch } from './asking-about-the-match';
+import { a1ReviewMatch } from './a1-review-match';
 import { teamCommunication } from './team-communication';
 import { gameOnFirstWords } from './game-on-first-words';
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
@@ -429,6 +439,16 @@ export const lessons: Lesson[] = [
   scoreAGoal,
   winLoseDraw,
   simpleMatchCommands,
+  theStadium,
+  buyingATicket,
+  gettingThere,
+  beforeTheMatch,
+  chantsAndCrowdLanguage,
+  halfTime,
+  theFinalWhistle,
+  talkingAboutYourTeam,
+  askingAboutTheMatch,
+  a1ReviewMatch,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
