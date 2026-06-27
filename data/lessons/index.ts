@@ -1,4 +1,14 @@
 import { Lesson } from '@/types/lesson';
+import { theFootballPitch } from './the-football-pitch';
+import { playersAndPositions } from './players-and-positions';
+import { theKit } from './the-kit';
+import { numbersInFootball } from './numbers-in-football';
+import { peopleAtTheClub } from './people-at-the-club';
+import { kickPassShoot } from './kick-pass-shoot';
+import { runSprintStop } from './run-sprint-stop';
+import { scoreAGoal } from './score-a-goal';
+import { winLoseDraw } from './win-lose-draw';
+import { simpleMatchCommands } from './simple-match-commands';
 import { teamCommunication } from './team-communication';
 import { gameOnFirstWords } from './game-on-first-words';
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
@@ -409,6 +419,16 @@ export const lessons: Lesson[] = [
   marketingEthicsAndPhilosophy,
   reviewMasteryLevelCommunication,
   c2FinalProjectTheCmoChallengeLesson,
+  theFootballPitch,
+  playersAndPositions,
+  theKit,
+  numbersInFootball,
+  peopleAtTheClub,
+  kickPassShoot,
+  runSprintStop,
+  scoreAGoal,
+  winLoseDraw,
+  simpleMatchCommands,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
