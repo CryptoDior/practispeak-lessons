@@ -199,6 +199,20 @@ export interface WarmUp {
   questions: string[];
 }
 
+export interface OnThePitchItem {
+  /** The phrase or shout used on the pitch or training ground */
+  cue: string;
+  /** Plain English explanation of what it means */
+  meaning: string;
+  /** Who says it, when, and why — gives real-world context */
+  usage: string;
+}
+
+export interface OnThePitch {
+  instructions: string;
+  items: OnThePitchItem[];
+}
+
 export interface CompleteSentenceItem {
   sentence: string;   // use _____ to mark the blank
   options: string[];  // exactly 3 options
@@ -274,9 +288,11 @@ export interface Lesson {
   multipleChoiceExercise: MultipleChoiceItem[];
   /** Optional warm-up discussion questions shown before vocabulary. */
   warmUp?: WarmUp;
+  /** Optional on-the-pitch phrases section. Informal language used on the pitch or training ground. Football ESL only.  */
+  onThePitch?: OnThePitch;
   /** Optional pitch/email/presentation fill-in-the-blank passage. Sales English only. */
   pitchCorner?: PitchCorner;
-  /** Optional complete-the-sentence exercise — 6 gap-fill items with 3 options each. A1-A2 only. */
+  /** Optional complete-the-sentence exercise - 6 gap-fill items with 3 options each. A1-A2 only. */
   completeSentenceExercise?: CompleteSentenceExercise;
   /** Optional group activities section (choose response + spot the mistake). */
   groupActivities?: GroupActivities;

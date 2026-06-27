@@ -19,6 +19,7 @@ import { theFinalWhistle } from './the-final-whistle';
 import { talkingAboutYourTeam } from './talking-about-your-team';
 import { askingAboutTheMatch } from './asking-about-the-match';
 import { a1ReviewMatch } from './a1-review-match';
+import { dribbleTackleIntercept } from './dribble-tackle-intercept';
 import { teamCommunication } from './team-communication';
 import { gameOnFirstWords } from './game-on-first-words';
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
@@ -449,6 +450,7 @@ export const lessons: Lesson[] = [
   talkingAboutYourTeam,
   askingAboutTheMatch,
   a1ReviewMatch,
+  dribbleTackleIntercept,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
