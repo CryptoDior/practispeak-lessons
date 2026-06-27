@@ -20,6 +20,7 @@ import WarmUpSection from '@/components/WarmUpSection';
 import PitchCornerSection from '@/components/exercises/PitchCornerSection';
 import CompleteSentenceSection from '@/components/exercises/CompleteSentenceSection';
 import DealClinicSection from '@/components/DealClinicSection';
+import OnThePitchSection from '@/components/OnThePitchSection';
 
 const DEFAULT_TABS = ['Vocabulary', 'Phrases', 'Videos', 'Dialogue', 'Exercises'] as const;
 
@@ -61,7 +62,21 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   }
   const po = hasPhrasalDetails ? 2 : 0;
 
-  const withDealClinic = lesson.dealClinic ? [...withPhrasalTabs, 'Deal Clinic'] : withPhrasalTabs;
+  const hasOnThePitch = !!lesson.onThePitch;
+  let withOnThePitch: string[];
+  if (hasOnThePitch) {
+    const phrasesIdx2 = withPhrasalTabs.indexOf('Phrases');
+    withOnThePitch = [
+      ...withPhrasalTabs.slice(0, phrasesIdx2 + 1),
+      'On the Pitch',
+      ...withPhrasalTabs.slice(phrasesIdx2 + 1),
+    ];
+  } else {
+    withOnThePitch = [...withPhrasalTabs];
+  }
+  const otp = hasOnThePitch ? 1 : 0;
+
+  const withDealClinic = lesson.dealClinic ? [...withOnThePitch, 'Deal Clinic'] : withOnThePitch;
   const TABS = lesson.groupActivities ? [...withDealClinic, 'Group Activities'] : withDealClinic;
 
   const wo = lesson.warmUp ? 1 : 0;
@@ -330,11 +345,22 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         )}
 
 
+        {/* On the Pitch */}
+        {hasOnThePitch && lesson.onThePitch && (
+          <section className={activeTab === TABS.indexOf('On the Pitch') ? 'block' : 'hidden'}>
+            <SectionHeader
+              title="On the Pitch"
+              subtitle="Real phrases used on the pitch and at training — learn them, shout them!"
+            />
+            <OnThePitchSection section={lesson.onThePitch} />
+          </section>
+        )}
+
         {/* Videos / Register (vocab awareness) */}
-        <section className={activeTab === wo + po + 2 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + po + otp + 2 ? 'block' : 'hidden'}>
           {lesson.registerAwareness ? (
             <>
-              <SectionHeader title={TABS[wo + po + 2]} subtitle="How these words change across different contexts" />
+              <SectionHeader title={TABS[wo + po + otp + 2]} subtitle="How these words change across different contexts" />
               <RegisterSection entries={lesson.registerAwareness} traps={lesson.registerTraps} />
             </>
           ) : (
@@ -348,10 +374,10 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         </section>
 
         {/* Dialogue / Reading Passage */}
-        <section className={activeTab === wo + po + 3 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + po + otp + 3 ? 'block' : 'hidden'}>
           {lesson.readingPassage ? (
             <>
-              <SectionHeader title={TABS[wo + po + 3]} subtitle="Read the passage — highlighted words are from this lesson" />
+              <SectionHeader title={TABS[wo + po + otp + 3]} subtitle="Read the passage — highlighted words are from this lesson" />
               <ReadingPassageSection passage={lesson.readingPassage} prompts={lesson.productionPrompts} />
             </>
           ) : (
@@ -365,7 +391,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         </section>
 
         {/* Exercises */}
-        <section className={activeTab === wo + po + 4 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + po + otp + 4 ? 'block' : 'hidden'}>
           <SectionHeader title="Exercises" subtitle="Complete all three exercises to see your final score" />
           <div className="space-y-6">
             {lesson.pitchCorner && (
