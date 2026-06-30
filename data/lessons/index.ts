@@ -49,6 +49,16 @@ import { fitnessAndConditioning } from './fitness-and-conditioning';
 import { injuries } from './injuries';
 import { nutritionAndRecovery } from './nutrition-and-recovery';
 import { theManagersTeamTalk } from './the-managers-team-talk';
+import { liveCommentaryLanguage } from './live-commentary-language';
+import { matchHighlights } from './match-highlights';
+import { postMatchInterviews } from './post-match-interviews';
+import { socialMediaFootball } from './social-media-football';
+import { footballPodcasts } from './football-podcasts';
+import { leagueFormats } from './league-formats';
+import { cupFootball } from './cup-football';
+import { europeanFootball } from './european-football';
+import { grassrootsFootball } from './grassroots-football';
+import { b1ReviewTheBigDebate } from './b1-review-the-big-debate';
 import { teamCommunication } from './team-communication';
 import { gameOnFirstWords } from './game-on-first-words';
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
@@ -509,6 +519,16 @@ export const lessons: Lesson[] = [
   injuries,
   nutritionAndRecovery,
   theManagersTeamTalk,
+  liveCommentaryLanguage,
+  matchHighlights,
+  postMatchInterviews,
+  socialMediaFootball,
+  footballPodcasts,
+  leagueFormats,
+  cupFootball,
+  europeanFootball,
+  grassrootsFootball,
+  b1ReviewTheBigDebate,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
