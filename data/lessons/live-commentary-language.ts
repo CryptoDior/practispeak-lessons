@@ -129,7 +129,7 @@ export const liveCommentaryLanguage: Lesson = {
     instructions: 'These are iconic commentary phrases — used at key moments during a live match.',
     items: [
       {
-        cue: 'And it's there! IT'S THERE!',
+        cue: "And it's there! IT'S THERE!",
         meaning: 'The ball has gone into the net — a goal has been scored.',
         usage: 'One of the most simple and powerful commentary phrases. Repeated for emphasis and excitement. The repetition and rising tone is what makes it work. Commentators often pause dramatically before saying it — building tension as the ball goes in.',
         imageSlug: 'otp-and-its-there',
@@ -141,7 +141,7 @@ export const liveCommentaryLanguage: Lesson = {
         imageSlug: 'otp-what-a-strike',
       },
       {
-        cue: 'He's done it again!',
+        cue: "He's done it again!",
         meaning: 'A player has scored or performed brilliantly — and it is not the first time.',
         usage: 'Commentary phrase using present perfect for immediate past. "He\'s done it again" = he did it before AND he has just done it again now. It implies a player is consistently exceptional. The "again" carries huge weight — it is the word that makes this phrase exciting.',
         imageSlug: 'otp-hes-done-it-again',
@@ -159,7 +159,7 @@ export const liveCommentaryLanguage: Lesson = {
         imageSlug: 'otp-keeper-had-no-chance',
       },
       {
-        cue: 'He slips it through — and she's in! One on one with the keeper!',
+        cue: "He slips it through — and she's in! One on one with the keeper!",
         meaning: 'A pass has put a striker through on goal — facing only the goalkeeper.',
         usage: '"Slips it through" = a precise pass through the defence. "She\'s in" = she has got behind the defenders. "One on one" = she is alone facing the goalkeeper. This is one of the most exciting moments in football — and this commentary phrase perfectly captures the tension and excitement of that moment.',
         imageSlug: 'otp-slips-it-through',
