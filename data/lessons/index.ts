@@ -39,6 +39,16 @@ import { watchingOnTv } from './watching-on-tv';
 import { talkingToOtherFans } from './talking-to-other-fans';
 import { readingMatchReports } from './reading-match-reports';
 import { matchOfTheDayA2Review } from './match-of-the-day-a2-review';
+import { pressAndPressing } from './press-and-pressing';
+import { defendingAsAUnit } from './defending-as-a-unit';
+import { buildingFromTheBack } from './building-from-the-back';
+import { widthAndDepth } from './width-and-depth';
+import { counterAttack } from './counter-attack';
+import { trainingSessions } from './training-sessions';
+import { fitnessAndConditioning } from './fitness-and-conditioning';
+import { injuries } from './injuries';
+import { nutritionAndRecovery } from './nutrition-and-recovery';
+import { theManagersTeamTalk } from './the-managers-team-talk';
 import { teamCommunication } from './team-communication';
 import { gameOnFirstWords } from './game-on-first-words';
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
@@ -489,6 +499,16 @@ export const lessons: Lesson[] = [
   talkingToOtherFans,
   readingMatchReports,
   matchOfTheDayA2Review,
+  pressAndPressing,
+  defendingAsAUnit,
+  buildingFromTheBack,
+  widthAndDepth,
+  counterAttack,
+  trainingSessions,
+  fitnessAndConditioning,
+  injuries,
+  nutritionAndRecovery,
+  theManagersTeamTalk,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
