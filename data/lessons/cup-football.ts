@@ -57,7 +57,7 @@ export const cupFootball: Lesson = {
     },
     {
       word: 'AGGREGATE',
-      partOfSpeech: 'noun / adjective',
+      partOfSpeech: 'noun',
       definition: 'The combined total score across two matches (home and away legs). Used in two-legged ties.',
       example: '"They lost 2-1 at home but won 3-0 away — they go through 4-2 on aggregate."',
       imageSlug: '/images/aggregate.png',
