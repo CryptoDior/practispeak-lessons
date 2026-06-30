@@ -29,6 +29,16 @@ import { cardsAndFouls } from './cards-and-fouls';
 import { substitutions } from './substitutions';
 import { formations } from './formations';
 import { injuryTime } from './injury-time';
+import { describingAPlayer } from './describing-a-player';
+import { transferTalk } from './transfer-talk';
+import { theSquad } from './the-squad';
+import { comparingTeams } from './comparing-teams';
+import { stadiumsAndGrounds } from './stadiums-and-grounds';
+import { watchingFromTheStands } from './watching-from-the-stands';
+import { watchingOnTv } from './watching-on-tv';
+import { talkingToOtherFans } from './talking-to-other-fans';
+import { readingMatchReports } from './reading-match-reports';
+import { matchOfTheDayA2Review } from './match-of-the-day-a2-review';
 import { teamCommunication } from './team-communication';
 import { gameOnFirstWords } from './game-on-first-words';
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
@@ -469,6 +479,16 @@ export const lessons: Lesson[] = [
   substitutions,
   formations,
   injuryTime,
+  describingAPlayer,
+  transferTalk,
+  theSquad,
+  comparingTeams,
+  stadiumsAndGrounds,
+  watchingFromTheStands,
+  watchingOnTv,
+  talkingToOtherFans,
+  readingMatchReports,
+  matchOfTheDayA2Review,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
