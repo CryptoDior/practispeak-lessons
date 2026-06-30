@@ -4,7 +4,7 @@ export const pressAndPressing: Lesson = {
   slug: 'press-and-pressing',
   title: 'Press and Pressing',
   subtitle: 'High press, gegenpressing, press triggers — modern tactical terms',
-  level: 'B1',
+  level: 'B1-B2',
   description: 'Learn the language of pressing — one of the most important tactics in modern football. Understand what coaches and pundits mean when they talk about the high press, press triggers, and winning the ball high up the pitch.',
   heroImage: '/images/press-and-pressing-hero.png',
 

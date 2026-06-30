@@ -4,7 +4,7 @@ export const theManagersTeamTalk: Lesson = {
   slug: 'the-managers-team-talk',
   title: "The Manager's Team Talk",
   subtitle: 'Pre-match motivation, half-time adjustments, post-match review',
-  level: 'B1',
+  level: 'B1-B2',
   description: "Learn the language of the manager's team talk — how coaches motivate players before a match, make tactical adjustments at half-time, and review the performance afterwards.",
   heroImage: '/images/the-managers-team-talk-hero.png',
 

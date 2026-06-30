@@ -4,7 +4,7 @@ export const trainingSessions: Lesson = {
   slug: 'training-sessions',
   title: 'Training Sessions',
   subtitle: 'Drills, rondos, small-sided games, cool-down, debrief',
-  level: 'B1',
+  level: 'B1-B2',
   description: 'Learn the vocabulary for what happens at training — from warm-ups and drills to rondos, small-sided games, and the post-session debrief.',
   heroImage: '/images/training-sessions-hero.png',
 

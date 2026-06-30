@@ -4,7 +4,7 @@ export const nutritionAndRecovery: Lesson = {
   slug: 'nutrition-and-recovery',
   title: 'Nutrition and Recovery',
   subtitle: 'Diet, hydration, sleep, ice bath',
-  level: 'B1',
+  level: 'B1-B2',
   description: 'Learn the vocabulary for how professional footballers fuel their bodies and recover between matches — from diet and hydration to sleep and ice baths.',
   heroImage: '/images/nutrition-and-recovery-hero.png',
 

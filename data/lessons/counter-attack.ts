@@ -4,7 +4,7 @@ export const counterAttack: Lesson = {
   slug: 'counter-attack',
   title: 'Counter-Attack',
   subtitle: 'Transition, on the break, pace in behind',
-  level: 'B1',
+  level: 'B1-B2',
   description: 'Learn the vocabulary for one of football\'s most exciting tactics — the counter-attack. How teams win the ball and attack quickly before the opposition can recover.',
   heroImage: '/images/counter-attack-hero.png',
 

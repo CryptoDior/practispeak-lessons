@@ -4,7 +4,7 @@ export const widthAndDepth: Lesson = {
   slug: 'width-and-depth',
   title: 'Width and Depth',
   subtitle: 'Stretching the play, overlaps, underlaps, fullback roles',
-  level: 'B1',
+  level: 'B1-B2',
   description: 'Learn how teams use width and depth to create space and open up the opposition. From overlapping full-backs to underlapping runs — the vocabulary of attacking shape.',
   heroImage: '/images/width-and-depth-hero.png',
 

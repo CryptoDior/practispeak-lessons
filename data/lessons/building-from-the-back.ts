@@ -4,7 +4,7 @@ export const buildingFromTheBack: Lesson = {
   slug: 'building-from-the-back',
   title: 'Building from the Back',
   subtitle: 'Playing out, recycling possession, goalkeeper distribution',
-  level: 'B1',
+  level: 'B1-B2',
   description: 'Learn the vocabulary for how teams build attacks starting from the goalkeeper — passing out from the back, keeping possession, and how the goalkeeper uses the ball to start play.',
   heroImage: '/images/building-from-the-back-hero.png',
 

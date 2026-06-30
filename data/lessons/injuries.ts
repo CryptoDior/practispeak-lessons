@@ -4,7 +4,7 @@ export const injuries: Lesson = {
   slug: 'injuries',
   title: 'Injuries',
   subtitle: 'Hamstring, knock, ruled out, rehab, return to training',
-  level: 'B1',
+  level: 'B1-B2',
   description: 'Learn the vocabulary around football injuries — from the common knock to serious hamstring problems, rehab, and the return to the pitch.',
   heroImage: '/images/injuries-hero.png',
 

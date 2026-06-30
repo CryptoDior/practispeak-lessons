@@ -4,7 +4,7 @@ export const fitnessAndConditioning: Lesson = {
   slug: 'fitness-and-conditioning',
   title: 'Fitness and Conditioning',
   subtitle: 'Match fitness, stamina, pre-season, gym sessions',
-  level: 'B1',
+  level: 'B1-B2',
   description: 'Learn the vocabulary for player fitness and physical conditioning — from match sharpness to pre-season training, gym work, and stamina.',
   heroImage: '/images/fitness-and-conditioning-hero.png',
 
