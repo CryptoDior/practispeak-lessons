@@ -80,6 +80,16 @@ import { writingAMatchReport } from './writing-a-match-report';
 import { theTransferWindow } from './the-transfer-window';
 import { footballAndCulture } from './football-and-culture';
 import { b2CapstonePunditPanel } from './b2-capstone-pundit-panel';
+import { c1XgAndExpectedGoals } from './c1-xg-and-expected-goals';
+import { c1PossessionAndPassingStats } from './c1-possession-and-passing-stats';
+import { c1DefensiveMetrics } from './c1-defensive-metrics';
+import { c1PresentingDataInEnglish } from './c1-presenting-data-in-english';
+import { c1CritiquingAnalytics } from './c1-critiquing-analytics';
+import { c1DeliveringATeamTalk } from './c1-delivering-a-team-talk';
+import { c1GivingFeedbackToPlayers } from './c1-giving-feedback-to-players';
+import { c1PressConferenceEnglish } from './c1-press-conference-english';
+import { c1ScoutingReports } from './c1-scouting-reports';
+import { c1ManagingConflict } from './c1-managing-conflict';
 import { gameOnFirstWords } from './game-on-first-words';
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -569,6 +579,16 @@ export const lessons: Lesson[] = [
   theTransferWindow,
   footballAndCulture,
   b2CapstonePunditPanel,
+  c1XgAndExpectedGoals,
+  c1PossessionAndPassingStats,
+  c1DefensiveMetrics,
+  c1PresentingDataInEnglish,
+  c1CritiquingAnalytics,
+  c1DeliveringATeamTalk,
+  c1GivingFeedbackToPlayers,
+  c1PressConferenceEnglish,
+  c1ScoutingReports,
+  c1ManagingConflict,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
