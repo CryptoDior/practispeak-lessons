@@ -65,7 +65,7 @@ export const dressingRoomEnglish: Lesson = {
     },
     {
       word: 'WIND UP',
-      partOfSpeech: 'verb / noun',
+      partOfSpeech: 'noun / verb',
       definition: 'To tease or provoke someone — usually as a joke between friends. "A wind-up" = a joke that tricks or teases someone.',
       example: '"He knew they were winding him up — telling him he\'d been dropped when he hadn\'t. But he still checked the team sheet three times."',
       imageSlug: '/images/wind-up.png',
