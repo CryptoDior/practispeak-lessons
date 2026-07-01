@@ -70,6 +70,16 @@ import { talkingToYourManager } from './talking-to-your-manager';
 import { dressingRoomEnglish } from './dressing-room-english';
 import { mediaTraining } from './media-training';
 import { teamCommunication } from './team-communication';
+import { footballIdiomsInEverydayEnglish } from './football-idioms-in-everyday-english';
+import { slangAndJargon } from './slang-and-jargon';
+import { footballHumour } from './football-humour';
+import { britishVsAmericanFootballEnglish } from './british-vs-american-football-english';
+import { footballsGlobalVocabulary } from './footballs-global-vocabulary';
+import { readingATacticalAnalysis } from './reading-a-tactical-analysis';
+import { writingAMatchReport } from './writing-a-match-report';
+import { theTransferWindow } from './the-transfer-window';
+import { footballAndCulture } from './football-and-culture';
+import { b2CapstonePunditPanel } from './b2-capstone-pundit-panel';
 import { gameOnFirstWords } from './game-on-first-words';
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -549,6 +559,16 @@ export const lessons: Lesson[] = [
   talkingToYourManager,
   dressingRoomEnglish,
   mediaTraining,
+  footballIdiomsInEverydayEnglish,
+  slangAndJargon,
+  footballHumour,
+  britishVsAmericanFootballEnglish,
+  footballsGlobalVocabulary,
+  readingATacticalAnalysis,
+  writingAMatchReport,
+  theTransferWindow,
+  footballAndCulture,
+  b2CapstonePunditPanel,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
