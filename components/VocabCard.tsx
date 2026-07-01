@@ -110,7 +110,7 @@ export default function VocabCard({ word, index }: { word: VocabWord; index: num
             Example
           </span>
           <p className="text-gray-600 text-base italic leading-relaxed">
-            &ldquo;{word.example}&rdquo;
+            {word.example}
           </p>
         </div>
 

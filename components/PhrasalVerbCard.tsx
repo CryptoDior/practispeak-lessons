@@ -103,7 +103,7 @@ export default function PhrasalVerbCard({ verb, index }: { verb: PhrasalVerb; in
             Example
           </span>
           <p className="text-gray-600 text-base italic leading-relaxed">
-            &ldquo;{verb.example}&rdquo;
+            {verb.example}
           </p>
         </div>
 

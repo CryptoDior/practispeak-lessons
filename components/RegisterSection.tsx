@@ -48,7 +48,7 @@ export default function RegisterSection({
               </span>
             </div>
             <div className="bg-white px-5 py-4 text-sm text-gray-500 italic flex items-center">
-              &ldquo;{entry.example}&rdquo;
+              {entry.example}
             </div>
           </div>
         ))}
