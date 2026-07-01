@@ -65,7 +65,7 @@ export const pressingTriggers: Lesson = {
     },
     {
       word: 'COUNTER-PRESS',
-      partOfSpeech: 'verb / noun',
+      partOfSpeech: 'noun / verb',
       definition: 'To press immediately after losing possession — trying to win the ball back before the opponent can build an attack.',
       example: '"As soon as we lost the ball, the front three counter-pressed immediately — forcing a mistake before the opposition could play forward."',
       imageSlug: '/images/counter-press.png',

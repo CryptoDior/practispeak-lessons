@@ -86,7 +86,7 @@ export const mediaTraining: Lesson = {
     },
     {
       word: 'BRIDGE',
-      partOfSpeech: 'verb / noun',
+      partOfSpeech: 'noun / verb',
       definition: 'A media technique — partially acknowledging a question, then redirecting to your preferred message. The bridge is the transition phrase.',
       example: '"\'That\'s a fair question — what I would say is...\' is a classic bridging technique. You acknowledge, then control."',
       imageSlug: '/images/bridge.png',
