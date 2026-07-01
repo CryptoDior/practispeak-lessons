@@ -60,7 +60,7 @@ export const talkingToYourManager: Lesson = {
       word: 'SELECTION',
       partOfSpeech: 'noun',
       definition: 'The manager\'s decision about which players will play in a match — who is in the starting line-up and who is on the bench.',
-      example: '"She was disappointed by the selection — she had expected to start, but her name was not in the team.'",
+      example: '"She was disappointed by the selection — she had expected to start, but her name was not in the team."',
       imageSlug: '/images/selection.png',
     },
     {
