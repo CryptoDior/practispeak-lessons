@@ -46,7 +46,7 @@ export const theTransferWindow: Lesson = {
     },
     {
       word: 'SNUB',
-      partOfSpeech: 'verb / noun',
+      partOfSpeech: 'noun / verb',
       definition: 'To reject — a transfer snub is a refusal of an offer or contract by a club or player.',
       example: '"The striker snubbed three contract renewal offers, making it clear he wanted to leave at the end of the season."',
       imageSlug: '/images/snub.png',
@@ -74,7 +74,7 @@ export const theTransferWindow: Lesson = {
     },
     {
       word: 'SWOOP',
-      partOfSpeech: 'verb / noun',
+      partOfSpeech: 'noun / verb',
       definition: 'A quick, often unexpected move to sign a player — typically used in tabloid transfer headlines.',
       example: '"City swooped to sign the winger on deadline day — completing the deal with just 20 minutes to spare before the window closed."',
       imageSlug: '/images/swoop.png',

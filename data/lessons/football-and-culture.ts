@@ -81,7 +81,7 @@ export const footballAndCulture: Lesson = {
     },
     {
       word: 'GRASSROOTS',
-      partOfSpeech: 'adjective / noun',
+      partOfSpeech: 'adjective',
       definition: 'The foundation level of football — community, youth, and amateur football rather than professional leagues.',
       example: '"Without investment in grassroots football, the pipeline of talent that feeds the professional game will eventually dry up."',
       imageSlug: '/images/grassroots.png',
