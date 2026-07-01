@@ -134,6 +134,48 @@ export const b2CapstonePunditPanel: Lesson = {
     },
   ],
 
+  onThePitch: {
+    instructions: 'Pundits analyse what happens on the pitch — these are the live moments, tactical details, and key decisions that become the substance of pundit discussion.',
+    items: [
+      {
+        cue: 'The key tactical battle — what pundits identify first',
+        meaning: 'Before analysing anything else, pundits identify the central tactical contest of the match: which two players or units are matched against each other and who wins that battle determines the game.',
+        usage: '"The key battle today is central midfield — whoever controls the middle of the pitch controls the game." On the pitch, tactical battles are fought in specific zones: "The press vs the build-up", "The high line vs the striker's run", "Width vs compactness." Pundit analysis language: "The key battle was won in the first twenty minutes", "They lost the midfield battle and never recovered", "The tactical matchup was resolved by the substitution." On the pitch, players are often not aware of the battle they are in — the pundit identifies it from distance and turns it into a story.',
+        imageSlug: 'otp-tactical-battle',
+      },
+      {
+        cue: 'The turning point moment — identifying what changed the match',
+        meaning: 'The turning point is the single moment that changed the direction of the match. Pundits must identify it precisely and explain why it mattered.',
+        usage: '"The match turned on the red card in the 54th minute — everything before that was irrelevant." On the pitch, turning points are often felt before they are seen: a shift in momentum, a change in crowd noise, a substitution that unlocks a pattern. Pundit language for turning points: "That changed the game completely", "Before that moment...", "After that moment...", "Everything hinged on...", "The decisive moment was..." "The real turning point wasn't the goal — it was the substitution five minutes before it. He changed the shape, they changed the game. The goal was a consequence, not the cause."',
+        imageSlug: 'otp-turning-point',
+      },
+      {
+        cue: 'Live tactical analysis — saying what you see as it happens',
+        meaning: 'The most skilled pundits analyse tactics in real time — identifying patterns, predicting what will happen next, and explaining decisions as they unfold.',
+        usage: '"Watch what the full-back does here — yes, he's been pushing forward all game. That's the third time the space has been there. It's only a matter of time." Real-time pundit language: "I've been watching this all half", "Look at the space here", "This is the pattern they keep trying", "They're going to keep doing this until somebody stops it." On the pitch: players feel patterns before they can articulate them. Pundits put language to what players feel. "The reason pundits are useful is they tell you what you already sensed but couldn't name. 'The left-back is dropping too deep' — you knew, now you have the words."',
+        imageSlug: 'otp-live-analysis',
+      },
+      {
+        cue: 'The individual performance — assessing a player's contribution',
+        meaning: 'Pundits assess individual performances holistically — not just goals and assists but positioning, pressing, decision-making, and influence on the team.',
+        usage: '"He didn't score, he didn't assist — but he was the best player on the pitch. Watch how he creates the space for others." Pundit assessment language: "His work rate was exceptional", "She was everywhere — the stats won't show it but the team needed her", "He had a quiet game by his standards", "She was the difference — every time we attacked it was through her." On the pitch: individual performance is often invisible to the player themselves. "I felt like I had a poor game — I touched the ball ten times. The pundit said I was the best player. The press, the positioning, the angles — I didn't know I was doing that consciously."',
+        imageSlug: 'otp-individual-performance',
+      },
+      {
+        cue: 'The post-match debate — forming and defending a pundit opinion',
+        meaning: 'The pundit panel is a structured debate — pundits must form a clear opinion, defend it with evidence, and challenge other opinions respectfully but directly.',
+        usage: '"I completely disagree — and here's why." Pundit debate language: "With respect, I think you're wrong about that", "The evidence shows...", "What you're missing is...", "I take your point, but...", "The stats support my view here." On the pitch, disagreements happen constantly — players argue about positioning, decisions, and tactics. The pundit panel takes those on-pitch debates and makes them public, structured, and analytical. "The best pundit debates feel like they're between people who've played the game — because they understand what it felt like to be in those positions."',
+        imageSlug: 'otp-pundit-debate',
+      },
+      {
+        cue: 'Player of the match — the language of superlatives and evidence',
+        meaning: 'Choosing a Player of the Match and justifying it requires superlatives, evidence, and comparison — the most intense form of pundit language.',
+        usage: '"For me, there's only one choice — and I'll tell you exactly why." Player of the Match justification language: "She was head and shoulders above everyone else", "There's a strong case for the keeper but the striker changed the game more directly", "You can't give it to a player who missed three chances, no matter what else they did." "The toughest player of the match decisions are when the winning team loses and someone on the losing side was brilliant — do you give it to the best player or the most impactful player?" On the pitch, the best performances are often invisible to the players who give them — they feel normal. The pundit's job is to make the invisible visible.',
+        imageSlug: 'otp-player-of-match',
+      },
+    ],
+  },
+
   videos: [],
 
   dialogue: [

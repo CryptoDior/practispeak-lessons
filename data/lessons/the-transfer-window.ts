@@ -134,6 +134,48 @@ export const theTransferWindow: Lesson = {
 },
   ],
 
+  onThePitch: {
+    instructions: 'The transfer window affects what happens on the pitch — these are the on-pitch language moments created by transfers, rumours, and new signings.',
+    items: [
+      {
+        cue: 'The new signing's first training session — integration language',
+        meaning: 'A new signing's first training session is a critical social and linguistic moment. Players use specific language to welcome, test, and integrate a newcomer.',
+        usage: '"Welcome to the club — I'm the captain, anything you need." "Don't worry about the first session, just find your feet." "We call zones — zone one, zone two, three. You'll pick it up." A new signing who communicates well in their first session integrates faster: "He was shouting, calling, talking immediately — even when he wasn't sure of the patterns. The lads loved that." A signing who stays silent is harder to integrate. "The first training session tells you a lot about a player — not their ability, their character. Do they talk? Do they listen? Do they call?"',
+        imageSlug: 'otp-new-signing-training',
+      },
+      {
+        cue: 'Transfer rumour conversations in the dressing room',
+        meaning: 'When a player's name is linked with a transfer in the media, the dressing room reacts — and the language of that reaction follows specific social rules.',
+        usage: '"So... Bayern Munich, yeah?" — teammate teasing a player who has been linked with a big club. The target has two options: laugh it off ("Ha, if only!") or deflect ("Focus on the game, not the papers."). Transfer rumour language in the dressing room: "Don't believe what you read", "Stay focused — window closes in a week", "His head's not been right since the speculation started." Good team culture: the captain addresses it directly. "The captain said it out loud in training: 'If you're going, tell us. If you're staying, be here. We need to know which one it is.'"',
+        imageSlug: 'otp-transfer-rumours',
+      },
+      {
+        cue: '"Deadline day" on the pitch — the distraction factor',
+        meaning: 'Transfer deadline day is the most distracting day in football — even for players who are not involved in deals. The language of the dressing room shifts to transfers and speculation.',
+        usage: '"Everyone's on their phones. It's impossible to focus." The challenge for managers on deadline day: keeping players who are leaving, players who are arriving, and players who are staying focused on the match. "The gaffer banned phones until after training — deadline day or not, we had a game on Saturday." Players who are the subject of late deadline day bids: "He's been distracted all week — you can see it. He's mentally already at the other club." On the pitch, the best antidote is a good training session: "Once we started playing, everyone forgot about the window for ninety minutes."',
+        imageSlug: 'otp-deadline-day-pitch',
+      },
+      {
+        cue: 'Introducing the new signing to the group — dressing room protocol',
+        meaning: 'When a new signing arrives at their first official training session, there is an established social protocol — how they are introduced and how they respond sets the tone.',
+        usage: '"Right lads — this is [name]. He's joined us from [club]. Make him welcome." The squad applauds. The manager says something brief and positive. The new player says a few words. Key signals: does the new player speak first or wait to be spoken to? Do they use first names immediately? "He walked in, introduced himself to everyone individually, shook hands, looked people in the eye — we knew immediately he'd fit in." The dressing room tests new signings socially before tactically: "We don't care how good you are until we know what kind of person you are."',
+        imageSlug: 'otp-signing-introduction',
+      },
+      {
+        cue: 'A sold player's last training session — farewell language',
+        meaning: 'When a player leaves the club, their final training session involves a specific kind of language — goodbye, good luck, and the particular emotion of a professional departure.',
+        usage: '"Last session today, lads — give him a good send-off." The final session often ends with a small ceremony: applause, some words from the captain, a handshake from the manager. Players say things like: "It's been a pleasure", "Best of luck — you'll smash it there", "Stay in touch — come back and visit." "He was in tears at the end of his last session — twelve years at the club. Even the manager looked emotional." Transfer language at its most human: money and contracts are forgotten; only the relationships remain.',
+        imageSlug: 'otp-sold-player-farewell',
+      },
+      {
+        cue: '"Medical! He's through his medical!" — transfer confirmation language',
+        meaning: 'Passing the medical is the final step before a transfer is confirmed. The language around the medical is tense, specific, and followed closely by players, fans, and media.',
+        usage: '"He's passed his medical! It's done! He signs tomorrow." On the pitch, players follow deadline day transfer news on their phones between sessions. When a new signing passes their medical: immediate reactions in the dressing room. "The new striker passed his medical at 11pm — by training the next morning everyone knew. The buzz was real — we needed a striker and suddenly we had one." Transfer confirmation language: "It's done", "It's official", "Announced", "Here we go" (Fabrizio Romano's famous phrase). On the pitch, the arrival of a quality signing lifts the whole squad: "It sends a message — the club is serious."',
+        imageSlug: 'otp-medical',
+      },
+    ],
+  },
+
   videos: [],
 
   dialogue: [

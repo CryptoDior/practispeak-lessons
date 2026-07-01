@@ -134,6 +134,48 @@ export const writingAMatchReport: Lesson = {
 },
   ],
 
+  onThePitch: {
+    instructions: 'Every phrase in a match report comes from a real on-pitch moment — these are the events and language that journalists translate into written narrative.',
+    items: [
+      {
+        cue: 'The opening goal — the language of the first breakthrough',
+        meaning: 'The opening goal defines the tone of a match report. The language used depends on how the goal was scored: a thunderbolt, a tap-in, a penalty, a moment of individual brilliance or defensive error.',
+        usage: 'On the pitch, the goal causes an immediate emotional shift: the scoring team erupts, the conceding team must reset psychologically. Match report language for the opening goal: "broke the deadlock" (neutral), "stunned the home crowd" (visiting team scored), "settled the nerves" (home team scored after early pressure), "capitalised on a defensive error" (opponent's mistake led to the goal). "She broke the deadlock on the stroke of half-time — a clinical finish that changed the entire atmosphere in the stadium." What the journalist writes is directly shaped by where, when, and how the goal was scored.',
+        imageSlug: 'otp-opening-goal',
+      },
+      {
+        cue: 'The turning point — the moment that changed the match',
+        meaning: 'Every match report identifies a turning point: a red card, a missed penalty, a substitution, or a critical goal. Identifying and describing this moment is the core skill of match reporting.',
+        usage: 'On the pitch, turning points feel obvious to the players involved: "The moment they went down to ten men, we knew it was ours." Match report language: "The pivotal moment came in the 67th minute", "everything changed when", "the red card proved decisive", "the substitution transformed the game." "The substitution proved decisive — the replacement striker scored within four minutes of coming on, turning a 1-0 deficit into a 2-1 lead that the team never relinquished." Journalists must identify the turning point and build the narrative around it.',
+        imageSlug: 'otp-turning-point',
+      },
+      {
+        cue: 'Describing a save — goalkeeper match report language',
+        meaning: 'A crucial save is one of the most dramatic moments in football — match reports use specific vocabulary to capture the quality of the save, its timing, and its importance.',
+        usage: 'On the pitch, a world-class save produces immediate reactions: teammates rush to the keeper, opponents hold their heads. Match report language for saves: "pulled off a stunning save" (good save), "kept his side in the game with a breathtaking stop" (match-defining save), "was equal to it" (expected save, competently made), "denied" (simple, direct). "The goalkeeper denied the striker with a reflex save that defied explanation — her right hand moved before the ball had left his foot." Match reports calibrate save language to the importance and quality of the stop.',
+        imageSlug: 'otp-describing-save',
+      },
+      {
+        cue: 'Injury time — deadline language in journalism',
+        meaning: 'Injury time goals and events create the most dramatic match report language — the compressed tension of the final minutes produces specific vocabulary.',
+        usage: 'On the pitch in injury time: total urgency, complete chaos, desperate defending, frantic attack. Match report language: "deep into injury time" (later than expected), "in the dying moments" (very late), "at the death" (final seconds), "snatched a draw" (equalised very late), "broken hearts" (conceding in injury time), "snatched victory from the jaws of defeat" (came from behind to win very late). "She headed home in the fifth minute of injury time — snatching a draw that felt like a victory and leaving the home faithful with mixed emotions of relief and disappointment."',
+        imageSlug: 'otp-injury-time',
+      },
+      {
+        cue: 'The match as a story — structure and narrative arc',
+        meaning: 'A match report is not a list of events — it is a story with an opening, a middle, and a conclusion. The match itself provides the structure; the journalist provides the narrative.',
+        usage: 'On the pitch, events happen in a specific order — but their meaning depends on what comes before and after. Match report structure: Opening (the context and what was at stake), First half narrative (build-up, key moments, half-time position), Second half narrative (how it developed, the turning point), Conclusion (the result, what it means). "A first half of calculated pressure gave way to a second half of controlled excellence — a performance that suggested this team has finally learned to close out games as well as they can start them." The journalist imposes narrative shape on the chaos of 90 minutes.',
+        imageSlug: 'otp-match-narrative',
+      },
+      {
+        cue: 'Objectivity vs drama — the journalist's balancing act',
+        meaning: 'Match reports must be accurate (what actually happened) but also engaging (how it felt). This tension between objectivity and drama is the central challenge of sports journalism.',
+        usage: 'On the pitch, everything is subjective — players feel every moment emotionally. The journalist must translate emotion into language while remaining accurate. Objective: "The home side scored in the 78th minute through a corner routine." Dramatic: "With twelve minutes remaining and the home faithful beginning to accept their fate, a corner kick changed everything." Both are true. The journalist decides how much emotion to give the reader. "Journalism is not just reporting what happened — it is making the reader feel what being there felt like, while being honest about the facts." The skill is using drama without inventing it.',
+        imageSlug: 'otp-objectivity-drama',
+      },
+    ],
+  },
+
   videos: [],
 
   dialogue: [

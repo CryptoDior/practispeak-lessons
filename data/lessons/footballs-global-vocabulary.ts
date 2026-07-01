@@ -134,6 +134,48 @@ export const footballsGlobalVocabulary: Lesson = {
 },
   ],
 
+  onThePitch: {
+    instructions: 'Football's global vocabulary is spoken on pitches around the world — these are the tactical terms and calls that have crossed language barriers and entered universal football English.',
+    items: [
+      {
+        cue: '"Gegenpressing! Press! Press now!" — the German influence on modern calls',
+        meaning: 'Gegenpressing — immediate, collective pressing the moment possession is lost — was popularised by Jürgen Klopp. The word and the concept have entered global football vocabulary.',
+        usage: '"PRESS! Gegenpress! Don't let them breathe!" — Klopp-influenced coaches shout this in English, German, and a hybrid of both. On the pitch, the call is "PRESS NOW! Don't let them play!" but the concept behind it is German: win the ball back immediately, in the opponent's half, in the five seconds after losing it. "When the coach says gegenpress, we all know exactly what it means — even the Spanish lads, even the Brazilians. It's a football word now." The German concept became a universal coaching instruction.',
+        imageSlug: 'otp-gegenpressing',
+      },
+      {
+        cue: '"Tiki-taka! Keep it! Recycle!" — the Spanish influence on possession play',
+        meaning: 'Tiki-taka — short passing, movement, and possession retention — became the global language of possession football after Spain's 2008-2012 dominance. The word is now used on pitches everywhere.',
+        usage: '"Tiki-taka! Keep it! One touch! Move! Move!" — a coach demanding quick, short passing and constant movement. On the pitch during possession phases: "Keep it! Show! One touch — one touch!" The concept behind the word: every player must be available, moving, offering an angle. "The youth coaches here teach tiki-taka principles even to under-tens — it's the philosophy of the whole club." Even coaches who reject the style know the word: "We're not playing tiki-taka — we go direct when we can. But you still need to know what it means."',
+        imageSlug: 'otp-tiki-taka',
+      },
+      {
+        cue: 'Catenaccio — the Italian defensive concept in live language',
+        meaning: 'Catenaccio (Italian: "door bolt") — an ultra-defensive system using a sweeper behind the back four. The word is used by coaches and analysts to describe deep, organised defensive structures.',
+        usage: '"They're playing catenaccio — eleven behind the ball, sweeper behind the four. How do we break this?" On the training pitch: "If they sit in a catenaccio block, we need movement — wide overloads, crosses, set pieces." The word is used as shorthand for any extremely organised, defensive-first approach. "It's not just about sitting deep — catenaccio is an active system. You defend as a unit and then attack on the counter." Understanding the word helps players understand the history behind the tactic — it was invented in Italy in the 1930s and changed European football forever.',
+        imageSlug: 'otp-catenaccio',
+      },
+      {
+        cue: 'The universal language of set pieces — numbers and zones',
+        meaning: 'Set piece communication is the most multilingual moment in football — clubs design coded systems that work across language barriers. Numbers, zones, and colours replace words.',
+        usage: '"Zone three! Zone three!" — the call that tells runners which area of the box to target from a corner. On multilingual teams, number-and-zone systems are essential: "We can't have twelve nationalities all calling different things — so everything is a number." "Blue! Blue!" = a specific corner routine. "Runner one!" = the first decoy makes their run. "In the Champions League, our corner routines used numbers that worked in Portuguese, English, and French — the same signal, understood by everyone." Number systems transcend language: you do not need to speak the same language to understand "ZONE TWO!"',
+        imageSlug: 'otp-set-piece-codes',
+      },
+      {
+        cue: 'Loanwords in the dressing room — when football borrows language',
+        meaning: 'Football players and coaches borrow words from other languages when those words describe something better than their own language can. These loanwords travel with coaches and players across clubs and countries.',
+        usage: '"The coach always said 'duelo' — Spanish for duel, one-v-one battle. We all started using it." Football loanwords in common use: "Pressing" (English, now global), "Rondo" (Spanish — a passing circle drill), "Gaffer" (British — the manager, now used in many international clubs), "Ultras" (Italian — the hardcore fans). "When I moved from Brazil to England, I already knew the word 'pressing' — it's used in Portuguese too now." Language follows football talent: the best ideas travel with the best coaches.',
+        imageSlug: 'otp-loanwords',
+      },
+      {
+        cue: 'The universal sounds of football — beyond language',
+        meaning: 'Some football communication requires no language at all — whistles, claps, gestures, and sounds that every footballer understands regardless of nationality.',
+        usage: 'Universal football sounds: Two claps = "I'm here, give it to me." One sharp clap = "Well done." A whistle from the coach = stop everything immediately. A pointed finger = "You — run there." Arms spread wide = "Give me space" or "How was that not a foul?" "In my first training session in Germany, I didn't speak a word of German — but I understood everything because the sounds were the same." Thumbs up = good. Thumbs down = wrong. "Come here" gesture = coaching moment. "The beautiful thing about football is that eleven players from eleven different countries can play together from day one — because the language under the language is universal."',
+        imageSlug: 'otp-universal-sounds',
+      },
+    ],
+  },
+
   videos: [],
 
   dialogue: [

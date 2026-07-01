@@ -134,6 +134,48 @@ export const footballAndCulture: Lesson = {
 },
   ],
 
+  onThePitch: {
+    instructions: 'Football and culture meet most intensely on the pitch — in derby matches, international games, and moments when the game carries more than sporting weight.',
+    items: [
+      {
+        cue: 'The derby atmosphere — when culture takes over',
+        meaning: 'A derby match is not just a football game — it is a cultural event. The language on the pitch changes: intensity increases, every challenge carries more meaning, and the crowd's energy enters the players.',
+        usage: '"You feel it in the warm-up — the noise is different. The aggression is different. This is personal." Derby match language on the pitch is more urgent, more physical, more emotional: "Let's show them who owns this city!", "Don't give them an inch!", "This is ours — all year we wait for this." "In a derby, the tactical plan means nothing if the mentality isn't right first." Captains use cultural language in derby pre-match talks: "This club, this community — they built this ground. We play for them today."',
+        imageSlug: 'otp-derby-atmosphere',
+      },
+      {
+        cue: 'National anthem before international matches — representing culture',
+        meaning: 'The national anthem before an international match is the most explicit moment when football and culture meet — players represent not just a team but a nation, a history, an identity.',
+        usage: '"When I hear the anthem, I think of my grandfather — he played for this country before me." The moment before an international match, as the anthem plays, involves a distinct kind of language: "Pride", "honour", "representing everyone at home", "this jersey belongs to the country." On the pitch during an international: "Play for your country!", "This is for everyone back home!", "Every single ball — for the badge!" The cultural weight of the national team is felt most strongly in those pre-match moments: the anthem, the badge, the handshake.',
+        imageSlug: 'otp-national-anthem',
+      },
+      {
+        cue: 'The captain's armband — cultural and community leadership',
+        meaning: 'The captain's armband carries cultural weight beyond tactics. The captain speaks for the team, the club, and often the community — on and off the pitch.',
+        usage: '"The captain's armband isn't about being the best player — it's about being the one the team turns to when things go wrong." On the pitch: captain language is instructional and emotional: "Come on, together! We've been here before!", "Heads up — we don't accept this!", "This is who we are!" Post-match: the captain speaks to the team first before the manager. They set the emotional tone for the dressing room. "She's been captain for three years — you can see the whole team look to her first when something goes wrong. That's what culture looks like: it's not in a manual, it's in a person."',
+        imageSlug: 'otp-captains-armband',
+      },
+      {
+        cue: 'Football and identity — what players say about representing more than a club',
+        meaning: 'Many clubs carry political, religious, or community identities — for the players who grew up supporting them, playing for the club is a deeply personal and cultural act.',
+        usage: '"This isn't just a club for me — my whole family supports them. Every time I cross that white line, I'm carrying them with me." On the pitch, players who represent the community they grew up in play with a different kind of energy: "He was born two streets from this stadium. When he scores here — watch his celebration. He's not celebrating for himself." "When things are hard in the city — economically, politically — the football club is one of the things that holds people together. The players feel that responsibility." Football as identity is invisible on the pitch but felt in every tackle.',
+        imageSlug: 'otp-football-identity',
+      },
+      {
+        cue: 'Football folklore in the dressing room — the stories that bind a team',
+        meaning: 'Every club has football folklore — famous matches, legendary players, mythological moments — and these stories are told in dressing rooms across generations.',
+        usage: '"Before a big match, the veteran players always told a story from the club's history — something to connect us to what came before." Dressing room football mythology: "Remember when they came back from three goals down in the Cup? That's this club." "They always play for the shirt — even when the season's done. That's the culture here." New signings learn the folklore quickly: "Within a week of joining, I knew the club's five biggest moments — the older players make sure of it." Folklore creates shared identity: "We're not just playing for now. We're part of something that started before us and goes on after us."',
+        imageSlug: 'otp-football-folklore',
+      },
+      {
+        cue: 'Football in literature and film — references players recognise',
+        meaning: 'The most culturally rich football moments — in film, literature, and music — are referenced by players and coaches in the dressing room and on the pitch.',
+        usage: '"The manager compared our situation to the film — 'Remember the Titans'. Most of the squad had seen it. Immediately we knew what he meant." Cultural references that players use on the pitch: "This is our Miracle on Ice moment", "It's like Escape to Victory — everyone counted us out", "We're writing our own chapter now." "Coaching at the highest level means knowing your players' cultural references. The right film quote before a big game can do more than a tactical session." From Nick Hornby's *Fever Pitch* to *The Damned United* — football literature gives players language for the emotions the game creates.',
+        imageSlug: 'otp-football-in-culture',
+      },
+    ],
+  },
+
   videos: [],
 
   dialogue: [

@@ -134,6 +134,48 @@ export const footballIdiomsInEverydayEnglish: Lesson = {
 },
   ],
 
+  onThePitch: {
+    instructions: 'These idioms started on the football pitch — hear how players and coaches use them in live match situations.',
+    items: [
+      {
+        cue: '"On the ball!" — alertness and awareness',
+        meaning: 'Originally a literal instruction to a teammate to stay sharp and ready; now the most common English idiom for being alert and competent.',
+        usage: '"On the ball!" shouted by a midfielder means: eyes up, be ready to receive, don't switch off. "She was really on the ball today — she read every pass before it came." In everyday English it means sharp and competent — "He's very on the ball in meetings." On the pitch it is still used literally: "Stay on the ball! Eyes open! Read the press!"',
+        imageSlug: 'otp-on-the-ball',
+      },
+      {
+        cue: '"Move the goalposts" — changing the rules mid-situation',
+        meaning: 'If someone moves the goalposts during a game, the entire contest becomes invalid — the rules changed after it started. This idiom describes exactly that: unfair last-minute changes.',
+        usage: 'On the pitch: a coach changing tactical instructions at half-time without warning can feel like moving the goalposts. "Every time I think I know my role, he changes it — it's like he keeps moving the goalposts." In everyday English: "They agreed a fee then moved the goalposts — suddenly they wanted an extra 10 million." The football origin makes the idiom vivid: you cannot play if the goal keeps shifting.',
+        imageSlug: 'otp-move-goalposts',
+      },
+      {
+        cue: '"A level playing field" — equal conditions for both sides',
+        meaning: 'A pitch that slopes or is uneven gives one team an unfair advantage. "Level playing field" = fair, equal starting conditions for all.',
+        usage: 'On the pitch, teams literally check if the surface is level — a sloping pitch changes how the ball moves and which team has the advantage in each half. "We want a level playing field — no favours, no excuses, just football." In business: "We need a level playing field before we can compete with the bigger clubs." Players use it: "We weren't on a level playing field — they had three months' more pre-season than us."',
+        imageSlug: 'otp-level-playing-field',
+      },
+      {
+        cue: '"Hit the back of the net" — the moment of scoring',
+        meaning: 'The literal sound and sight of a perfect goal — the ball hitting the back of the net. Used in commentary and everyday English to mean achieving something decisively.',
+        usage: '"He hit the back of the net with his first touch — no goalkeeper in the world was saving that." Commentators use it for emphatic goals: not just a goal, but one struck so cleanly the net billows. In everyday English: "We hit the back of the net with that proposal — the client signed immediately." On the pitch, players celebrate with "Get in! Back of the net!" The idiom captures the feeling of a clean, decisive success.',
+        imageSlug: 'otp-back-of-the-net',
+      },
+      {
+        cue: '"Kick into touch" — removing something from play deliberately',
+        meaning: 'Kicking the ball into touch (out of play) ends that phase of play immediately. The idiom means deliberately removing something problematic from a situation.',
+        usage: 'On the pitch: "Kick it into touch! Just get it out of play!" — used when a team is under pressure and needs to stop the game. Time management, injury time, protecting a lead. "The captain kicked it into touch to let the injured player receive treatment." In business English: "We kicked that idea into touch early — it wasn't going to work." On the pitch it is a pragmatic decision: sometimes stopping play is the correct choice.',
+        imageSlug: 'otp-kick-into-touch',
+      },
+      {
+        cue: '"A game of two halves" — how situations can reverse completely',
+        meaning: 'Football is structured in two halves — and the second half can completely reverse what happened in the first. The idiom means: do not judge a situation until it is finished.',
+        usage: '"It was a game of two halves — we were terrible in the first half and brilliant in the second." Commentators, managers, and pundits use this constantly. On the pitch at half-time: "Forget the first half — this is a new game. A game of two halves, lads — we start again." In everyday English: "The project has been a game of two halves — awful start, strong finish." The lesson: never assume the outcome until the final whistle.',
+        imageSlug: 'otp-game-of-two-halves',
+      },
+    ],
+  },
+
   videos: [],
 
   dialogue: [
