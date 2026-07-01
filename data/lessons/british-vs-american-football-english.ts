@@ -164,7 +164,7 @@ export const britishVsAmericanFootballEnglish: Lesson = {
       {
         cue: '"Cross it!" vs "Serve it in!" — delivery from wide positions',
         meaning: 'When a wide player has the ball in a position to deliver into the box, teammates shout. British: "Cross it! Put it in! Whip it in!" American: "Serve it! Send it in!"',
-        usage: '"CROSS IT! CROSS IT NOW!" — British winger being told to deliver before the defender arrives. "WHIP IT IN!" — a specific instruction to curl the ball with pace and bend. American equivalent: "SERVE IT! PUT IT IN!" The word "serve" in American soccer echoes tennis — delivering to a teammate. "On international teams we always had to sync our crossing vocabulary in pre-season. \'Cross', 'serve', 'deliver', 'put it in\' — they all mean the same thing but you need to know what your teammates say so you react instantly."',
+        usage: '"CROSS IT! CROSS IT NOW!" — British winger being told to deliver before the defender arrives. "WHIP IT IN!" — a specific instruction to curl the ball with pace and bend. American equivalent: "SERVE IT! PUT IT IN!" The word "serve" in American soccer echoes tennis — delivering to a teammate. "On international teams we always had to sync our crossing vocabulary in pre-season. \'Cross\', \'serve\', \'deliver\', \'put it in\' — they all mean the same thing but you need to know what your teammates say so you react instantly."',
         imageSlug: 'otp-cross-serve',
       },
       {
