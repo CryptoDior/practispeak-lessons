@@ -229,6 +229,7 @@ export interface CompleteSentenceExercise {
 
 export interface SpotTheMistakeLine {
   speaker: string;
+  speakerColor?: 'purple' | 'green' | 'orange' | 'blue' | 'red';
   text: string;
 }
 
