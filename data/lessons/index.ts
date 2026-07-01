@@ -90,6 +90,16 @@ import { c1GivingFeedbackToPlayers } from './c1-giving-feedback-to-players';
 import { c1PressConferenceEnglish } from './c1-press-conference-english';
 import { c1ScoutingReports } from './c1-scouting-reports';
 import { c1ManagingConflict } from './c1-managing-conflict';
+import { c1CommentaryCraft } from './c1-commentary-craft';
+import { c1PunditryAndAnalysis } from './c1-punditry-and-analysis';
+import { c1LongFormFootballWriting } from './c1-long-form-football-writing';
+import { c1TheFootballDocumentary } from './c1-the-football-documentary';
+import { c1BreakingNewsAndRumours } from './c1-breaking-news-and-rumours';
+import { c1ClubOwnershipAndFinance } from './c1-club-ownership-and-finance';
+import { c1AgentsAndIntermediaries } from './c1-agents-and-intermediaries';
+import { c1VarAndTechnology } from './c1-var-and-technology';
+import { c1RacismAndInclusion } from './c1-racism-and-inclusion';
+import { c1CapstoneAnalystsReport } from './c1-capstone-analysts-report';
 import { gameOnFirstWords } from './game-on-first-words';
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -589,6 +599,16 @@ export const lessons: Lesson[] = [
   c1PressConferenceEnglish,
   c1ScoutingReports,
   c1ManagingConflict,
+  c1CommentaryCraft,
+  c1PunditryAndAnalysis,
+  c1LongFormFootballWriting,
+  c1TheFootballDocumentary,
+  c1BreakingNewsAndRumours,
+  c1ClubOwnershipAndFinance,
+  c1AgentsAndIntermediaries,
+  c1VarAndTechnology,
+  c1RacismAndInclusion,
+  c1CapstoneAnalystsReport,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
