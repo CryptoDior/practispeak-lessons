@@ -140,7 +140,7 @@ export const writingAMatchReport: Lesson = {
       {
         cue: 'The opening goal — the language of the first breakthrough',
         meaning: 'The opening goal defines the tone of a match report. The language used depends on how the goal was scored: a thunderbolt, a tap-in, a penalty, a moment of individual brilliance or defensive error.',
-        usage: 'On the pitch, the goal causes an immediate emotional shift: the scoring team erupts, the conceding team must reset psychologically. Match report language for the opening goal: "broke the deadlock" (neutral), "stunned the home crowd" (visiting team scored), "settled the nerves" (home team scored after early pressure), "capitalised on a defensive error" (opponent's mistake led to the goal). "She broke the deadlock on the stroke of half-time — a clinical finish that changed the entire atmosphere in the stadium." What the journalist writes is directly shaped by where, when, and how the goal was scored.',
+        usage: 'On the pitch, the goal causes an immediate emotional shift: the scoring team erupts, the conceding team must reset psychologically. Match report language for the opening goal: "broke the deadlock" (neutral), "stunned the home crowd" (visiting team scored), "settled the nerves" (home team scored after early pressure), "capitalised on a defensive error" (opponent\'s mistake led to the goal). "She broke the deadlock on the stroke of half-time — a clinical finish that changed the entire atmosphere in the stadium." What the journalist writes is directly shaped by where, when, and how the goal was scored.',
         imageSlug: 'otp-opening-goal',
       },
       {
@@ -168,7 +168,7 @@ export const writingAMatchReport: Lesson = {
         imageSlug: 'otp-match-narrative',
       },
       {
-        cue: 'Objectivity vs drama — the journalist's balancing act',
+        cue: 'Objectivity vs drama — the journalist\'s balancing act',
         meaning: 'Match reports must be accurate (what actually happened) but also engaging (how it felt). This tension between objectivity and drama is the central challenge of sports journalism.',
         usage: 'On the pitch, everything is subjective — players feel every moment emotionally. The journalist must translate emotion into language while remaining accurate. Objective: "The home side scored in the 78th minute through a corner routine." Dramatic: "With twelve minutes remaining and the home faithful beginning to accept their fate, a corner kick changed everything." Both are true. The journalist decides how much emotion to give the reader. "Journalism is not just reporting what happened — it is making the reader feel what being there felt like, while being honest about the facts." The skill is using drama without inventing it.',
         imageSlug: 'otp-objectivity-drama',
