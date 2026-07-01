@@ -100,6 +100,16 @@ import { c1AgentsAndIntermediaries } from './c1-agents-and-intermediaries';
 import { c1VarAndTechnology } from './c1-var-and-technology';
 import { c1RacismAndInclusion } from './c1-racism-and-inclusion';
 import { c1CapstoneAnalystsReport } from './c1-capstone-analysts-report';
+import { c2DevelopingAnAnalyticalVoice } from './c2-developing-an-analytical-voice';
+import { c2AdvancedArgumentation } from './c2-advanced-argumentation';
+import { c2HistoricalFootballWriting } from './c2-historical-football-writing';
+import { c2ComparingEras } from './c2-comparing-eras';
+import { c2TheFootballEssay } from './c2-the-football-essay';
+import { c2TheProfessionalInterview } from './c2-the-professional-interview';
+import { c2NetworkingInFootball } from './c2-networking-in-football';
+import { c2PresentingTacticsToABoard } from './c2-presenting-tactics-to-a-board';
+import { c2NegotiatingAsAPlayer } from './c2-negotiating-as-a-player';
+import { c2InternationalFootballEnvironments } from './c2-international-football-environments';
 import { gameOnFirstWords } from './game-on-first-words';
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -609,6 +619,16 @@ export const lessons: Lesson[] = [
   c1VarAndTechnology,
   c1RacismAndInclusion,
   c1CapstoneAnalystsReport,
+  c2DevelopingAnAnalyticalVoice,
+  c2AdvancedArgumentation,
+  c2HistoricalFootballWriting,
+  c2ComparingEras,
+  c2TheFootballEssay,
+  c2TheProfessionalInterview,
+  c2NetworkingInFootball,
+  c2PresentingTacticsToABoard,
+  c2NegotiatingAsAPlayer,
+  c2InternationalFootballEnvironments,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
