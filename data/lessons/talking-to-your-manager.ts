@@ -39,7 +39,7 @@ export const talkingToYourManager: Lesson = {
       word: 'CONSTRUCTIVE CRITICISM',
       partOfSpeech: 'phrase',
       definition: 'Feedback that identifies what is wrong but also suggests how to improve — useful, specific, and forward-looking.',
-      example: '"The best managers give constructive criticism — not just \'that wasn\'t good enough\' but \'this is what you need to work on and here\'s how\'."',
+      example: '"The best managers give constructive criticism — not just \'that wasn\'t good enough\' but \'this is what you need to work on and here\'s how."',
       imageSlug: '/images/constructive-criticism.png',
     },
     {
