@@ -340,7 +340,7 @@ export const dressingRoomEnglish: Lesson = {
         explanation: '"Takes the heat" is correct — to take the heat = to face criticism or negative attention, especially for others. "Even when the mistake was a teammate\'s" confirms that the captain is protecting others by accepting public responsibility. This is a classic leadership quality in professional sport — the captain shields younger or more vulnerable teammates from media criticism. "Takes the mickey" = makes fun of someone — clearly wrong in this serious leadership context. "Takes the ball" = receives a pass — a football action, not relevant here. "Take the heat" is a fixed English idiom: "I\'ll take the heat for this decision," "she took the heat from the press to protect the squad."',
       },
       {
-        sentence: '"At a press conference, you should say: \'I\'m delighted with the team\'s performance today.\' In the dressing room after the same win, you would say: \'_____.'"',
+        sentence: '"At a press conference, you should say: \'I\'m delighted with the team\'s performance today.\' In the dressing room after the same win, you would say: \'_____.\'"',
         options: [
           'Lads, that was class! Absolutely buzzing right now!',
           'Colleagues, I am delighted with our collective performance.',
