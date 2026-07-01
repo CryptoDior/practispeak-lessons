@@ -114,7 +114,6 @@ export const c2NegotiatingAsAPlayer: Lesson = {
     {
       phrase: 'WALK AWAY FROM',
       definition: 'To leave a negotiation without reaching an agreement — to decide the terms on offer are not acceptable.',
-      options: [],
       example: '"He was prepared to walk away from the deal if the release clause stayed at £60 million — and the club knew it, which is why they moved."',
       imageSlug: '/images/walk-away-from.png',
     },
