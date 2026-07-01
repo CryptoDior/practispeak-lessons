@@ -86,7 +86,7 @@ export const talkingToYourManager: Lesson = {
     },
     {
       word: 'DROPPED',
-      partOfSpeech: 'verb (past participle)',
+      partOfSpeech: 'verb',
       definition: 'To be left out of the team by the manager — removed from the starting line-up.',
       example: '"She was dropped for the first time in two years — the manager said it was a rotation decision, but she was not convinced."',
       imageSlug: '/images/dropped.png',

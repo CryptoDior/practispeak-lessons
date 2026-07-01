@@ -51,7 +51,7 @@ export const speakingToYourTeammates: Lesson = {
     },
     {
       word: 'SWITCH',
-      partOfSpeech: 'verb / exclamation',
+      partOfSpeech: 'verb',
       definition: 'An instruction to move the ball quickly to the other side of the pitch — changing the point of attack.',
       example: '"SWITCH! Switch it now — there\'s space on the left side!"',
       imageSlug: '/images/switch.png',
@@ -79,7 +79,7 @@ export const speakingToYourTeammates: Lesson = {
     },
     {
       word: 'SQUARE',
-      partOfSpeech: 'adjective / exclamation',
+      partOfSpeech: 'adjective',
       definition: 'A call for a horizontal pass — passing the ball sideways across the pitch rather than forward.',
       example: '"Square! Square ball! Don\'t go forward — he\'s got it covered. SQUARE!"',
       imageSlug: '/images/square.png',
