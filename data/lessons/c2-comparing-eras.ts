@@ -30,7 +30,7 @@ export const c2ComparingEras: Lesson = {
   vocabulary: [
     {
       word: 'COUNTERFACTUAL',
-      partOfSpeech: 'adjective / noun',
+      partOfSpeech: 'adjective',
       definition: 'A hypothetical that runs counter to the facts — imagining how things might have been different under different conditions.',
       example: '"The counterfactual question — would Maradona be as dominant in today\'s game? — is impossible to answer definitively, but highly instructive to explore."',
       imageSlug: '/images/counterfactual.png',
