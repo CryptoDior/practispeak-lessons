@@ -25,7 +25,7 @@ export const c2TheTedStyleTalk: Lesson = {
   },
   vocabulary: [
     { word: 'RHETORIC', partOfSpeech: 'noun', definition: 'the art of using language to persuade or influence an audience', example: '"His rhetoric was powerful — every sentence seemed to build toward a single, inevitable conclusion."', imageSlug: '/images/hero.png' },
-    { word: 'ANAPHORA', partOfSpeech: 'noun', definition: 'repeating the same word or phrase at the start of several sentences in a row', example: '"The speech used anaphora brilliantly: 'We will press. We will attack. We will not give up.'"', imageSlug: '/images/hero.png' },
+    { word: 'ANAPHORA', partOfSpeech: 'noun', definition: 'repeating the same word or phrase at the start of several sentences in a row', example: '"The speech used anaphora — each sentence began with the same word, building to an unforgettable conclusion."', imageSlug: '/images/hero.png' },
     { word: 'THESIS', partOfSpeech: 'noun', definition: 'the main argument or central claim of a talk or essay', example: '"State your thesis early — the audience needs to know what you are arguing before you argue it."', imageSlug: '/images/hero.png' },
     { word: 'CONVICTION', partOfSpeech: 'noun', definition: 'a strong, deep belief in something — which comes through in how you say it', example: '"She delivered her argument with such conviction that the room was silent when she finished."', imageSlug: '/images/hero.png' },
     { word: 'RESONANCE', partOfSpeech: 'noun', definition: 'the quality of an idea or phrase that makes it feel meaningful and lasting', example: '"The best TED talks have resonance — you are still thinking about them days later."', imageSlug: '/images/hero.png' },

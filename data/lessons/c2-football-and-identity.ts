@@ -39,13 +39,13 @@ export const c2FootballAndIdentity: Lesson = {
     { phrase: 'GIVE RISE TO', definition: 'to cause or produce something', example: '"The rivalry gave rise to some of the most politically charged matches in history."', imageSlug: '/images/hero.png' },
     { phrase: 'GROW OUT OF', definition: 'to develop from something else over time', example: '"Modern football hooliganism grew out of economic frustration and political tension."', imageSlug: '/images/hero.png' },
     { phrase: 'PLAY INTO', definition: 'to support or strengthen an idea, often without intending to', example: '"The club\'s spending played into the narrative that money has destroyed the sport."', imageSlug: '/images/hero.png' },
-    { phrase: 'LINE UP WITH', definition: 'to agree with or support a particular position or group', example: '"His public statements on club ownership lined up with the fans' campaign for reform."', imageSlug: '/images/hero.png' },
+    { phrase: 'LINE UP WITH', definition: 'to agree with or support a particular position or group', example: '"His public statements on club ownership lined up with what supporters had been calling for."', imageSlug: '/images/hero.png' },
   ],
   onThePitch: {
     instructions: 'Match each term to its meaning in the context of football and culture.',
     items: [
       { cue: 'Derby match', meaning: 'A match between two local rivals — often carrying social, political, or historical meaning.', usage: '"The derby is not just a football match — it is a battle for the city\'s identity."', imageSlug: 'otp-identity' },
-      { cue: 'Ultras', meaning: 'The most organised and passionate fan groups — sometimes linked to political causes.', usage: '"The ultras' display before kick-off included political banners and chants."', imageSlug: 'otp-identity' },
+      { cue: 'Ultras', meaning: 'The most organised and passionate fan groups — sometimes linked to political causes.', usage: '"The ultras displayed political banners and led chants before kick-off."', imageSlug: 'otp-identity' },
       { cue: 'Tifosi', meaning: 'The Italian word for passionate football supporters; also used internationally.', usage: '"The tifosi created an atmosphere that made the stadium feel like a living thing."', imageSlug: 'otp-identity' },
       { cue: 'National style', meaning: 'The distinctive way a country tends to play football, shaped by culture and history.', usage: '"Analysts debate whether national style is real or just a comfortable myth."', imageSlug: 'otp-identity' },
       { cue: 'Fan ownership', meaning: 'A model where supporters own a share or all of the club.', usage: '"Fan ownership is seen by many as a way to restore football\'s identity."', imageSlug: 'otp-identity' },
