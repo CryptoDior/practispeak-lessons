@@ -1,0 +1,138 @@
+import { Lesson } from '@/types/lesson';
+export const c2GreatFootballThinkers: Lesson = {
+  slug: 'c2-great-football-thinkers',
+  title: 'Great Football Thinkers',
+  subtitle: 'Unit 3 — Football philosophy',
+  level: 'C1-C2',
+  description: 'Study the ideas of Cruyff, Sacchi, and Guardiola — and learn how to discuss and attribute their philosophies in precise English.',
+  heroImage: '/images/hero.png',
+  warmUp: {
+    questions: [
+      'Who is the greatest tactical mind in football history, in your opinion? What makes their ideas special?',
+      'Can one person\'s philosophy change how an entire sport is played? Give an example.',
+      'Is it possible to have a football philosophy that works in every culture and every league? Why or why not?',
+    ],
+  },
+  grammarFocus: {
+    focusTitle: 'Attributing and Reporting Ideas',
+    description: 'When discussing thinkers and their ideas, use precise attribution language. Key patterns: "According to X, ...", "X argued that ...", "X\'s central belief was that ...", "What X meant by this was ...". These patterns let you report ideas accurately and show that you understand the difference between your view and someone else\'s.',
+    positiveExamples: [
+      { sentence: 'According to Cruyff, every player on the pitch must be able to play in any position.', note: '"According to" attributes the idea clearly without stating whether you agree.' },
+      { sentence: 'Sacchi argued that pressing was not about running — it was about thinking.', note: '"X argued that" is ideal for reporting a strong position or belief.' },
+      { sentence: 'What Guardiola means by positional play is controlling space, not just the ball.', note: '"What X means by" clarifies a concept and shows analytical depth.' },
+    ],
+    negativeExamples: [],
+  },
+  vocabulary: [
+    { word: 'PARADIGM', partOfSpeech: 'noun', definition: 'a model or example that others follow or build on', example: '"Total Football was a paradigm that changed how coaches thought about attacking play."', imageSlug: '/images/hero.png' },
+    { word: 'ORTHODOXY', partOfSpeech: 'noun', definition: 'the normal, accepted way of doing things', example: '"Sacchi challenged the orthodoxy that Italian football had to be defensive first."', imageSlug: '/images/hero.png' },
+    { word: 'LEGACY', partOfSpeech: 'noun', definition: 'what someone leaves behind — the lasting effect of their work', example: '"Cruyff\'s legacy is visible in the way Barcelona still play today."', imageSlug: '/images/hero.png' },
+    { word: 'PHILOSOPHY', partOfSpeech: 'noun', definition: 'a set of ideas and beliefs that guide how you do something', example: '"His philosophy was simple: if you have the ball, the opponent cannot score."', imageSlug: '/images/hero.png' },
+    { word: 'DISRUPTIVE', partOfSpeech: 'adjective', definition: 'something that breaks the normal way things work in a big way', example: '"Guardiola\'s use of a false nine was disruptive — defenders had no one to mark."', imageSlug: '/images/hero.png' },
+    { word: 'DISSECT', partOfSpeech: 'verb', definition: 'to examine something in close detail', example: '"Analysts still dissect Sacchi\'s pressing system to understand how it worked so well."', imageSlug: '/images/hero.png' },
+    { word: 'ADVOCATE', partOfSpeech: 'noun / verb', definition: 'someone who argues strongly for an idea, or to argue for it', example: '"Cruyff was a strong advocate for youth development and technical football."', imageSlug: '/images/hero.png' },
+    { word: 'RADICAL', partOfSpeech: 'adjective', definition: 'very different from what people normally think or do', example: '"The idea that defenders should join the attack was radical in the 1970s."', imageSlug: '/images/hero.png' },
+  ],
+  phrasalVerbs: [
+    { phrase: 'BREAK WITH', definition: 'to stop following tradition or the accepted way of doing things', example: '"Sacchi broke with Italian tradition by prioritising the press over man-marking."', imageSlug: '/images/hero.png' },
+    { phrase: 'BUILD ON', definition: 'to use something as a foundation for something new', example: '"Guardiola built on Cruyff\'s ideas and developed them further at Barcelona."', imageSlug: '/images/hero.png' },
+    { phrase: 'SET OUT', definition: 'to explain a plan or idea clearly at the beginning', example: '"In his interviews, Cruyff always set out his thinking in simple, direct terms."', imageSlug: '/images/hero.png' },
+    { phrase: 'DRAW ON', definition: 'to use knowledge or ideas from a source', example: '"Guardiola draws on Sacchi\'s pressing ideas when designing his defensive structure."', imageSlug: '/images/hero.png' },
+    { phrase: 'STAND FOR', definition: 'to represent or believe in a set of values', example: '"For Cruyff, Total Football stood for creativity, freedom, and intelligence."', imageSlug: '/images/hero.png' },
+    { phrase: 'GO AGAINST', definition: 'to oppose or challenge something accepted', example: '"Their attacking style went against everything Italian football stood for at the time."', imageSlug: '/images/hero.png' },
+  ],
+  onThePitch: {
+    instructions: 'Match each concept to its meaning. These terms come from the ideas of Cruyff, Sacchi, and Guardiola.',
+    items: [
+      { cue: 'Total Football', meaning: 'A system where every player can play any position — associated with Cruyff and Ajax.', usage: '"Total Football demanded intelligence and technical ability from every player on the pitch."', imageSlug: 'otp-thinkers' },
+      { cue: 'High press', meaning: 'Sacchi\'s idea of attacking the opponent with the ball immediately and as a team.', usage: '"The high press gave them no time on the ball — Sacchi\'s blueprint in action."', imageSlug: 'otp-thinkers' },
+      { cue: 'Positional play', meaning: 'Guardiola\'s concept of controlling space rather than just the ball.', usage: '"Positional play is about occupying the right spaces before the ball arrives."', imageSlug: 'otp-thinkers' },
+      { cue: 'False nine', meaning: 'A striker who drops deep, creating confusion for defenders who do not know whether to follow.', usage: '"Messi as a false nine was Guardiola\'s most disruptive tactical idea."', imageSlug: 'otp-thinkers' },
+      { cue: 'Half-spaces', meaning: 'The zones between the wide areas and the centre — key areas in positional play.', usage: '"Guardiola\'s players constantly exploit the half-spaces to break defensive lines."', imageSlug: 'otp-thinkers' },
+      { cue: 'Defensive unit', meaning: 'Sacchi\'s idea that all four defenders move together as one unit, not individually.', usage: '"Sacchi drilled his defensive unit for hours until they moved as one."', imageSlug: 'otp-thinkers' },
+    ],
+  },
+  videos: [],
+  dialogue: [
+    { speaker: 'Priya', speakerColor: 'orange', text: 'I was reading about Sacchi and I am trying to understand why people call him so radical. He just pressed high, right?' },
+    { speaker: 'Coach Marco', speakerColor: 'blue', text: 'That is a common reading, but it misses the point. According to Sacchi, pressing was not a physical idea — it was a cognitive one. He argued that eleven players had to think as one.' },
+    { speaker: 'Priya', speakerColor: 'orange', text: 'So it was about the collective, not individual effort?' },
+    { speaker: 'Coach Marco', speakerColor: 'blue', text: 'Exactly. And he broke with Italian orthodoxy to prove it. At the time, Italian football stood for tight defence and man-marking. Sacchi\'s philosophy went against all of that.' },
+    { speaker: 'Priya', speakerColor: 'orange', text: 'And Guardiola built on those ideas?' },
+    { speaker: 'Coach Marco', speakerColor: 'blue', text: 'He built on both Sacchi and Cruyff. Cruyff\'s legacy gave him the positional structure. Sacchi gave him the pressing triggers. What Guardiola did was synthesise them into something new.' },
+    { speaker: 'Priya', speakerColor: 'orange', text: 'That is what I find interesting — the way one philosophy becomes a paradigm and the next thinker disrupts it.' },
+    { speaker: 'Coach Marco', speakerColor: 'blue', text: 'That is exactly how the game evolves. Every great idea eventually becomes the new orthodoxy — and then someone comes along to challenge it.' },
+  ],
+  matchingExercise: [
+    { word: 'paradigm', definition: 'a model that others follow or build on' },
+    { word: 'orthodoxy', definition: 'the normal, accepted way of doing things' },
+    { word: 'legacy', definition: 'the lasting effect of someone\'s work' },
+    { word: 'philosophy', definition: 'a set of beliefs that guide how you do something' },
+    { word: 'disruptive', definition: 'something that breaks the normal way things work' },
+    { word: 'dissect', definition: 'to examine something in close detail' },
+    { word: 'advocate', definition: 'someone who argues strongly for an idea' },
+    { word: 'radical', definition: 'very different from what people normally think or do' },
+  ],
+  fillBlankExercise: [
+    { before: 'Total Football was a', answer: 'paradigm', after: 'that changed how coaches around the world thought about attack.' },
+    { before: 'Sacchi broke with Italian', answer: 'orthodoxy', after: 'by putting collective pressing above individual defending.' },
+    { before: 'Cruyff\'s', answer: 'legacy', after: 'is visible in the way Barcelona continue to play more than forty years later.' },
+    { before: 'Guardiola\'s core', answer: 'philosophy', after: 'is that controlling space is more important than controlling the ball.' },
+    { before: 'Analysts still', answer: 'dissect', after: 'Sacchi\'s 4-4-2 to understand why it was so difficult to play against.' },
+    { before: 'The idea of defenders joining the attack was considered', answer: 'radical', after: 'when Cruyff first introduced it at Ajax.' },
+    { before: 'Guardiola', answer: 'drew on', after: 'both Cruyff and Sacchi when developing his approach at Barcelona.' },
+  ],
+  multipleChoiceExercise: [
+    { question: 'What is the best way to describe a "paradigm" in football?', options: ['A common and traditional way of playing.', 'A model or system that others copy or build on.', 'A tactical mistake that coaches try to avoid.'], correctIndex: 1 },
+    { question: 'Which phrase best attributes an idea to Sacchi?', options: ['"Sacchi probably thought pressing was good."', '"According to Sacchi, pressing was not physical — it was cognitive."', '"Sacchi\'s pressing was just like other coaches at the time."'], correctIndex: 1 },
+    { question: 'What does "break with orthodoxy" mean?', options: ['To follow the accepted rules of the game.', 'To stop doing what is normal and try something very different.', 'To build on the ideas of another thinker.'], correctIndex: 1 },
+    { question: 'What was Guardiola\'s key contribution, according to the dialogue?', options: ['He invented the high press.', 'He created Total Football at Ajax.', 'He synthesised the ideas of Cruyff and Sacchi into something new.'], correctIndex: 2 },
+    { question: 'What does it mean to "dissect" a tactical system?', options: ['To reject the system completely.', 'To examine it in close detail to understand how it works.', 'To copy the system and use it yourself.'], correctIndex: 1 },
+  ],
+  completeSentenceExercise: {
+    instructions: 'Choose the best word or phrase to complete each sentence.',
+    items: [
+      { sentence: 'Guardiola\'s positional play _____ Cruyff\'s ideas about space and movement.', options: ['broke with', 'built on', 'went against'], correctIndex: 1, explanation: '"Build on" means to use something as a foundation — Guardiola developed Cruyff\'s ideas rather than rejecting them.' },
+      { sentence: '_____ Sacchi, great defending is a collective act, not an individual one.', options: ['Against', 'According to', 'In spite of'], correctIndex: 1, explanation: '"According to" is the standard attribution phrase — it reports someone\'s view clearly and neutrally.' },
+      { sentence: 'The concept of the false nine was _____ — no one had seen it used systematically before.', options: ['orthodox', 'disruptive', 'traditional'], correctIndex: 1, explanation: '"Disruptive" means it broke the normal way defenders were used to operating.' },
+      { sentence: 'Every great football _____ eventually becomes the thing the next generation tries to overthrow.', options: ['legacy', 'philosophy', 'paradigm'], correctIndex: 2, explanation: 'A "paradigm" is a dominant model — and the dialogue explains that every paradigm eventually gets challenged.' },
+      { sentence: 'What Cruyff _____ by "football is simple" was that players complicate it with unnecessary decisions.', options: ['set out', 'meant', 'dissected'], correctIndex: 1, explanation: '"What X meant by" is the standard pattern for clarifying or interpreting someone\'s idea.' },
+      { sentence: 'His philosophy went _____ everything Italian football had valued for thirty years.', options: ['over', 'out of', 'against'], correctIndex: 2, explanation: '"Go against" means to oppose or challenge — exactly what Sacchi did to Italian footballing orthodoxy.' },
+    ],
+  },
+  groupActivities: {
+    chooseResponse: {
+      instructions: 'A journalist asks you about football philosophy. Choose the most analytically precise response.',
+      items: [
+        {
+          customerLine: 'People say Guardiola just copied Cruyff. Do you agree?',
+          options: [
+            'Yes, they are basically the same — both liked possession football.',
+            'No, Guardiola drew on Cruyff\'s ideas but synthesised them with Sacchi\'s pressing concepts to create something new.',
+            'It is hard to say — football philosophy is complicated.',
+          ],
+          correctIndex: 1,
+          explanation: 'The second option attributes ideas precisely, uses the correct verb "draw on," and shows the distinction between copying and building on something — analytical language at C2 level.',
+        },
+        {
+          customerLine: 'Is there one football philosophy that is objectively the best?',
+          options: [
+            'Yes — possession football always wins in the end.',
+            'Probably pressing, because it worked for Sacchi.',
+            'No — every philosophy reflects its context. What makes a paradigm great is how it disrupts the orthodoxy of its time, not whether it is universal.',
+          ],
+          correctIndex: 2,
+          explanation: 'The third option uses paradigm, orthodoxy, and context precisely, and gives a nuanced argument rather than a simple yes/no — the level expected at C2.',
+        },
+      ],
+    },
+    finishTheLine: {
+      instructions: 'You are giving a talk on great football thinkers. Complete each sentence using the vocabulary from this lesson.',
+      items: [
+        { customerLine: '', salespersonStart: 'According to Cruyff, football is simple — but simplicity is the hardest thing to achieve.', suggestedCompletion: 'What he meant by this was that intelligence and technique allow you to make complex situations look easy.' },
+        { customerLine: '', salespersonStart: 'Sacchi broke with orthodoxy because he believed the accepted way was limiting the game.', suggestedCompletion: 'He advocated for a collective approach — eleven players thinking and moving as one defensive and offensive unit.' },
+        { customerLine: '', salespersonStart: 'Guardiola\'s greatest achievement was not inventing new ideas — it was synthesising existing ones.', suggestedCompletion: 'He built on the legacies of Cruyff and Sacchi and created a new paradigm that others now try to decode.' },
+      ],
+    },
+  },
+};

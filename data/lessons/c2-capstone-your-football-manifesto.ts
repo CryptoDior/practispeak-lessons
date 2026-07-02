@@ -1,0 +1,138 @@
+import { Lesson } from '@/types/lesson';
+export const c2CapstoneYourFootballManifesto: Lesson = {
+  slug: 'c2-capstone-your-football-manifesto',
+  title: 'C2 Capstone: Your Football Manifesto',
+  subtitle: 'Unit 4 — Mastery output',
+  level: 'C1-C2',
+  description: 'Write a personal statement of football philosophy — the highest-level output in this course. Argue for what football is, what it should be, and why it matters.',
+  heroImage: '/images/hero.png',
+  warmUp: {
+    questions: [
+      'If you could change one thing about football — rules, culture, or structure — what would it be and why?',
+      'What do you believe football is for? Entertainment, community, identity, or something else?',
+      'Have you ever felt strongly enough about a football topic to argue for it publicly? What was it?',
+    ],
+  },
+  grammarFocus: {
+    focusTitle: 'Manifesto Language and First-Person Voice',
+    description: 'A manifesto uses a confident, declarative first-person voice. Key structures: "I believe...", "Football must...", "It is not enough to...", "We have a responsibility to...", "What football demands is...". These are assertive without being arrogant — they stake a position and invite the reader to agree or challenge. Combine them with hedged language where needed ("in my view", "the case can be made") to show intellectual honesty.',
+    positiveExamples: [
+      { sentence: 'I believe football is the most democratic sport on earth — and we are failing it.', note: '"I believe" stakes a clear position; "and we are failing it" adds conviction and urgency.' },
+      { sentence: 'It is not enough to watch the game. Football demands participation — physical, intellectual, and civic.', note: '"It is not enough to" is a classic manifesto structure — it dismisses the minimum and raises the standard.' },
+      { sentence: 'We have a responsibility to protect what makes this game worth watching: honesty, craft, and community.', note: '"We have a responsibility to" is assertive and collective — it calls the reader to action.' },
+    ],
+    negativeExamples: [],
+  },
+  vocabulary: [
+    { word: 'MANIFESTO', partOfSpeech: 'noun', definition: 'a public statement of your beliefs, values, and intentions', example: '"His football manifesto argued that the sport had lost its soul and needed to find its way back."', imageSlug: '/images/hero.png' },
+    { word: 'ASSERTION', partOfSpeech: 'noun', definition: 'a confident statement that you claim is true', example: '"The assertion that money has ruined football is hard to argue against when you look at the data."', imageSlug: '/images/hero.png' },
+    { word: 'ETHOS', partOfSpeech: 'noun', definition: 'the set of values and beliefs that define a person or organisation', example: '"The club\'s founding ethos — community first, profit second — has been abandoned by the new owners."', imageSlug: '/images/hero.png' },
+    { word: 'IMPERATIVE', partOfSpeech: 'noun', definition: 'something that is absolutely necessary — not optional', example: '"Protecting player welfare is not a preference — it is a moral imperative."', imageSlug: '/images/hero.png' },
+    { word: 'DENOUNCE', partOfSpeech: 'verb', definition: 'to publicly state that something is wrong or unacceptable', example: '"She denounced the fixture schedule as incompatible with player welfare."', imageSlug: '/images/hero.png' },
+    { word: 'PROCLAIM', partOfSpeech: 'verb', definition: 'to state something publicly and with confidence', example: '"He proclaimed that beauty in football is not a luxury — it is the point."', imageSlug: '/images/hero.png' },
+    { word: 'INTEGRITY', partOfSpeech: 'noun', definition: 'the quality of being honest and committed to strong moral principles', example: '"Without integrity at the top of the game, every result becomes questionable."', imageSlug: '/images/hero.png' },
+    { word: 'VISION', partOfSpeech: 'noun', definition: 'a clear picture of what you want to achieve or what something should become', example: '"A coaching philosophy is only as strong as the vision behind it."', imageSlug: '/images/hero.png' },
+  ],
+  phrasalVerbs: [
+    { phrase: 'STAND FOR', definition: 'to represent or be committed to a set of values', example: '"Every club needs to decide what it stands for — not just on the pitch, but in the community."', imageSlug: '/images/hero.png' },
+    { phrase: 'SPEAK OUT', definition: 'to say publicly what you think, especially on a serious issue', example: '"More players need to speak out about the mental health pressures of professional football."', imageSlug: '/images/hero.png' },
+    { phrase: 'CALL FOR', definition: 'to demand or argue strongly that something should happen', example: '"The players called for an independent review of the fixture list."', imageSlug: '/images/hero.png' },
+    { phrase: 'HOLD TO', definition: 'to stay committed to a belief or principle under pressure', example: '"The best coaches hold to their philosophy even when the results are difficult."', imageSlug: '/images/hero.png' },
+    { phrase: 'PUSH BACK', definition: 'to resist or challenge an idea or decision', example: '"Fans need to push back when clubs make decisions that contradict the club\'s ethos."', imageSlug: '/images/hero.png' },
+    { phrase: 'LIVE UP TO', definition: 'to reach the standard or promise you have claimed or committed to', example: '"The league has proclaimed its commitment to integrity — now it must live up to it."', imageSlug: '/images/hero.png' },
+  ],
+  onThePitch: {
+    instructions: 'Match each philosophical concept to its meaning in a football context.',
+    items: [
+      { cue: 'Football philosophy', meaning: 'The beliefs that guide how a person thinks the game should be played and what it should stand for.', usage: '"Every great manager has a clear football philosophy — and is willing to defend it."', imageSlug: 'otp-manifesto' },
+      { cue: 'Game model', meaning: 'The tactical principles that define how a team plays — the expression of the philosophy in practice.', usage: '"The game model shows how the philosophy becomes behaviour on the pitch."', imageSlug: 'otp-manifesto' },
+      { cue: 'Non-negotiable', meaning: 'A principle or standard that you will never compromise, regardless of pressure.', usage: '"Pressing intensity is a non-negotiable — we do not concede it, even when we are losing."', imageSlug: 'otp-manifesto' },
+      { cue: 'Football as a right', meaning: 'The belief that access to the game belongs to everyone, regardless of background or income.', usage: '"He argued that football as a right means free pitches, free coaching, and free access."', imageSlug: 'otp-manifesto' },
+      { cue: 'Fair play', meaning: 'The principle of treating opponents, referees, and the rules with respect.', usage: '"Fair play is not a slogan — it is the foundation on which the sport\'s integrity rests."', imageSlug: 'otp-manifesto' },
+      { cue: 'The beautiful game', meaning: 'A phrase for football played with skill, creativity, and joy — the highest expression of the sport.', usage: '"If we lose beauty in pursuit of results, we have misunderstood what the beautiful game is for."', imageSlug: 'otp-manifesto' },
+    ],
+  },
+  videos: [],
+  dialogue: [
+    { speaker: 'Journalist', speakerColor: 'blue', text: 'You have been coaching for thirty years. If you had to write a football manifesto — your real beliefs about the game — what would it say?' },
+    { speaker: 'Coach Valeria', speakerColor: 'red', text: 'I believe football is a language that belongs to everyone. That is the first line. And the second is: we are failing to protect it.' },
+    { speaker: 'Journalist', speakerColor: 'blue', text: 'What do you mean by failing to protect it?' },
+    { speaker: 'Coach Valeria', speakerColor: 'red', text: 'I denounce the fixture schedule as incompatible with player welfare. I call for independent governance. I proclaim that beauty in the game is not a luxury — it is the point. These are my non-negotiables.' },
+    { speaker: 'Journalist', speakerColor: 'blue', text: 'That is a strong vision. But is it realistic?' },
+    { speaker: 'Coach Valeria', speakerColor: 'red', text: 'It is not enough to be realistic. Football has always been shaped by people who believed something before the evidence supported it. Sacchi believed in pressing when nobody else did. Cruyff proclaimed Total Football before the world was ready.' },
+    { speaker: 'Journalist', speakerColor: 'blue', text: 'And what do you stand for, personally, above everything else?' },
+    { speaker: 'Coach Valeria', speakerColor: 'red', text: 'Integrity. On the pitch, in the boardroom, and in the community. Without integrity, every trophy becomes a question mark. And what I want is for football to be something the next generation is proud to inherit.' },
+  ],
+  matchingExercise: [
+    { word: 'manifesto', definition: 'a public statement of your beliefs, values, and intentions' },
+    { word: 'assertion', definition: 'a confident statement that you claim is true' },
+    { word: 'ethos', definition: 'the set of values and beliefs that define a person or organisation' },
+    { word: 'imperative', definition: 'something that is absolutely necessary — not optional' },
+    { word: 'denounce', definition: 'to publicly state that something is wrong or unacceptable' },
+    { word: 'proclaim', definition: 'to state something publicly and with confidence' },
+    { word: 'integrity', definition: 'being honest and committed to strong moral principles' },
+    { word: 'vision', definition: 'a clear picture of what something should become' },
+  ],
+  fillBlankExercise: [
+    { before: 'His football', answer: 'manifesto', after: 'argued that the sport had abandoned its founding values in pursuit of profit.' },
+    { before: 'The club\'s founding', answer: 'ethos', after: '— community first, results second — has been lost under the new ownership.' },
+    { before: 'Protecting player welfare is not optional — it is a moral', answer: 'imperative', after: '.' },
+    { before: 'She', answer: 'denounced', after: 'the VAR system as incompatible with the pace and spirit of the game.' },
+    { before: 'Every coach must decide what they', answer: 'stand for', after: '— and then hold to it when results make it difficult.' },
+    { before: 'Without', answer: 'integrity', after: 'at every level of the game, every result and every decision becomes questionable.' },
+    { before: 'He had a clear', answer: 'vision', after: 'for what football could be — and he refused to compromise it.' },
+  ],
+  multipleChoiceExercise: [
+    { question: 'What is a "manifesto" in this context?', options: ['A tactical plan for a single match.', 'A public statement of your beliefs, values, and intentions.', 'A detailed analysis of another thinker\'s ideas.'], correctIndex: 1 },
+    { question: 'Which sentence is the best example of manifesto language?', options: ['"I think football is probably quite important."', '"It is not enough to watch the game — football demands participation, civic responsibility, and courage."', '"Football is good and people like it."'], correctIndex: 1 },
+    { question: 'What does "denounce" mean?', options: ['To support and celebrate something publicly.', 'To publicly state that something is wrong or unacceptable.', 'To analyse something in detail.'], correctIndex: 1 },
+    { question: 'What is an "imperative"?', options: ['A recommendation — something that would be nice to do.', 'Something that is absolutely necessary — not optional.', 'A vision of what could happen in the future.'], correctIndex: 1 },
+    { question: 'What does it mean to "live up to" something?', options: ['To argue publicly for a principle.', 'To reject a standard as too high.', 'To reach the standard or promise you have committed to.'], correctIndex: 2 },
+  ],
+  completeSentenceExercise: {
+    instructions: 'Choose the best word or phrase to complete each sentence.',
+    items: [
+      { sentence: 'I _____ the current fixture schedule as dangerous and incompatible with the long-term welfare of professional players.', options: ['proclaim', 'denounce', 'assert'], correctIndex: 1, explanation: '"Denounce" means to publicly state that something is wrong — the correct verb when declaring that a system is unacceptable.' },
+      { sentence: 'Football must _____ something beyond entertainment — community, identity, and the possibility of belonging.', options: ['hold to', 'stand for', 'live up to'], correctIndex: 1, explanation: '"Stand for" means to represent or be committed to values — the right phrase when arguing what football should mean.' },
+      { sentence: 'It is not enough to _____ a philosophy — you must live up to it, even when the results do not come.', options: ['proclaim', 'denounce', 'call for'], correctIndex: 0, explanation: '"Proclaim" means to state publicly and confidently — the manifesto move of declaring your position.' },
+      { sentence: 'The club\'s founding _____ — player development over transfer spending — has been abandoned by the new board.', options: ['vision', 'ethos', 'integrity'], correctIndex: 1, explanation: '"Ethos" is the set of values that define an organisation — what the club originally stood for.' },
+      { sentence: 'We have a responsibility to _____ governance reform — not just ask for it, but demand it.', options: ['push back', 'call for', 'hold to'], correctIndex: 1, explanation: '"Call for" means to argue strongly that something should happen — more assertive than asking, less aggressive than denouncing.' },
+      { sentence: 'The league has proclaimed its commitment to _____ — now it must live up to what it has promised.', options: ['vision', 'assertion', 'integrity'], correctIndex: 2, explanation: '"Integrity" is the quality of being honest and principled — the word most used when judging whether actions match stated values.' },
+    ],
+  },
+  groupActivities: {
+    chooseResponse: {
+      instructions: 'A journalist asks for your football manifesto position. Choose the most powerful and precise response.',
+      items: [
+        {
+          customerLine: 'What is the single most important thing football must protect?',
+          options: [
+            'Results — because winning is what the game is about.',
+            'Probably the competitive balance between clubs.',
+            'Its integrity — and by that I mean at every level: the integrity of the result on the pitch, of the finances behind the club, and of the community the club belongs to. Without that, everything else is theatre.',
+          ],
+          correctIndex: 2,
+          explanation: 'The third option uses precise vocabulary (integrity), gives a multi-layered definition, and uses the word "theatre" powerfully at the end — the kind of confident, original voice that defines C2 manifesto writing.',
+        },
+        {
+          customerLine: 'Is beauty in football important, or just a luxury?',
+          options: [
+            'It is nice when football is beautiful, but results matter more.',
+            'Beauty is important — fans enjoy watching good football.',
+            'It is not a luxury — it is the point. If football loses beauty in the pursuit of results, it has misunderstood itself. The beautiful game is not a marketing phrase — it is a moral commitment.',
+          ],
+          correctIndex: 2,
+          explanation: 'The third option proclaims a position with conviction, uses the phrase "it is not a luxury — it is the point" (a classic manifesto inversion), and ends with a memorable assertion. This is C2 manifesto language.',
+        },
+      ],
+    },
+    finishTheLine: {
+      instructions: 'Complete each section of your football manifesto. Write with conviction and precision.',
+      items: [
+        { customerLine: '', salespersonStart: 'I believe football is the most democratic game on earth.', suggestedCompletion: 'And that is precisely why we have a responsibility to protect it — from excess, from greed, and from the slow erosion of everything that makes it worth watching.' },
+        { customerLine: '', salespersonStart: 'It is not enough to proclaim your values in a press release.', suggestedCompletion: 'Football demands that you stand for them on the pitch, in the boardroom, and in the community — every single day. Integrity is not a statement. It is a practice.' },
+        { customerLine: '', salespersonStart: 'What I stand for, above everything else, is this:', suggestedCompletion: 'A game that belongs to the people who play it, the communities that love it, and the generations who will inherit it — not to those who seek to own it.' },
+      ],
+    },
+  },
+};

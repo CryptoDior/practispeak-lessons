@@ -1,0 +1,138 @@
+import { Lesson } from '@/types/lesson';
+export const c2DeliverLiveCommentary: Lesson = {
+  slug: 'c2-deliver-live-commentary',
+  title: 'Deliver Live Commentary',
+  subtitle: 'Unit 4 — Mastery output',
+  level: 'C1-C2',
+  description: 'Practise commentating on a football clip — managing pace, vocabulary, and spontaneous language under the pressure of live delivery.',
+  heroImage: '/images/hero.png',
+  warmUp: {
+    questions: [
+      'Who is your favourite football commentator? What makes them special?',
+      'What is the hardest thing about commentating live — pace, vocabulary, or staying calm?',
+      'Has a commentator ever used a phrase that you remember years later? What was it, and why did it stay with you?',
+    ],
+  },
+  grammarFocus: {
+    focusTitle: 'Present Continuous and Tension Language',
+    description: 'Live commentary uses the present continuous to describe action as it happens ("he\'s running", "she\'s turning"), simple present for facts ("three minutes left"), and deliberate tension-building devices: short exclamations ("Oh!", "Surely not!"), incomplete sentences, and strategic pauses. The commentator\'s job is to make the listener feel the speed, the risk, and the emotion of the moment.',
+    positiveExamples: [
+      { sentence: 'He\'s in space — he\'s taking it on — he shoots — yes! It\'s in!', note: 'Rapid present continuous fragments build speed and tension — each dash is a moment of breath.' },
+      { sentence: 'The goalkeeper is off his line. Surely this is the moment. Surely.', note: 'Repeating "surely" creates anticipation — the listener waits for what comes next.' },
+      { sentence: 'Three minutes. That is all they need. Three minutes of courage.', note: 'Short factual sentence followed by emotional restatement — gives the number weight and meaning.' },
+    ],
+    negativeExamples: [],
+  },
+  vocabulary: [
+    { word: 'INTONATION', partOfSpeech: 'noun', definition: 'the rise and fall of your voice as you speak', example: '"His intonation rises at the moment of the shot — you know something is about to happen."', imageSlug: '/images/hero.png' },
+    { word: 'CADENCE', partOfSpeech: 'noun', definition: 'the rhythm and flow of speech', example: '"The best commentators vary their cadence — slow and quiet for build-up, fast and loud for action."', imageSlug: '/images/hero.png' },
+    { word: 'ANTICIPATE', partOfSpeech: 'verb', definition: 'to expect and prepare for what is about to happen', example: '"A great commentator can anticipate the shot half a second before the player takes it."', imageSlug: '/images/hero.png' },
+    { word: 'EXCLAMATION', partOfSpeech: 'noun', definition: 'a word or phrase said suddenly with strong emotion', example: '"The exclamation at the moment of the goal is the most memorable moment in football audio."', imageSlug: '/images/hero.png' },
+    { word: 'BREATHLESS', partOfSpeech: 'adjective', definition: 'speaking so fast and excitedly that you seem to barely stop for air', example: '"His breathless delivery in the final minutes created real urgency for the listener at home."', imageSlug: '/images/hero.png' },
+    { word: 'TEMPO', partOfSpeech: 'noun', definition: 'the speed of speech or action', example: '"Raise the tempo of your commentary as the attack develops — the listener should feel the acceleration."', imageSlug: '/images/hero.png' },
+    { word: 'BUILD-UP', partOfSpeech: 'noun', definition: 'a gradual increase in tension or excitement before a key moment', example: '"The build-up to a penalty is one of the most difficult moments to commentate well."', imageSlug: '/images/hero.png' },
+    { word: 'SPONTANEOUS', partOfSpeech: 'adjective', definition: 'unplanned and natural — happening in the moment without preparation', example: '"The most memorable commentary lines are completely spontaneous — they cannot be scripted."', imageSlug: '/images/hero.png' },
+  ],
+  phrasalVerbs: [
+    { phrase: 'RAMP UP', definition: 'to increase in speed or intensity', example: '"The commentary should ramp up as the team pushes for a late winner."', imageSlug: '/images/hero.png' },
+    { phrase: 'HOLD BACK', definition: 'to wait and not give everything at once', example: '"Hold back during the build-up — save the energy for the shot."', imageSlug: '/images/hero.png' },
+    { phrase: 'LET LOOSE', definition: 'to release full energy and emotion at the right moment', example: '"When the goal goes in, let loose — that is the moment the listener has been waiting for."', imageSlug: '/images/hero.png' },
+    { phrase: 'PICK UP', definition: 'to increase in energy or pace', example: '"The commentary picks up as the player enters the box — the listener can feel something is coming."', imageSlug: '/images/hero.png' },
+    { phrase: 'SLOW DOWN', definition: 'to reduce speed and create space for reflection', example: '"After the goal, slow down and let the emotion breathe — do not rush to the next thought."', imageSlug: '/images/hero.png' },
+    { phrase: 'CUT AWAY', definition: 'to move suddenly to another moment or image', example: '"We cut away from the celebration to the manager\'s reaction on the touchline."', imageSlug: '/images/hero.png' },
+  ],
+  onThePitch: {
+    instructions: 'Match each commentary phrase to its meaning and context.',
+    items: [
+      { cue: 'He\'s in space!', meaning: 'A player has received the ball with room to move — exciting for the attacker.', usage: '"He\'s in space! He\'s going to shoot from outside the box!"', imageSlug: 'otp-commentary' },
+      { cue: 'Surely not!', meaning: 'Something unexpected or remarkable is happening — the commentator cannot believe it.', usage: '"Surely not — the keeper is going to score from here. Surely not!"', imageSlug: 'otp-commentary' },
+      { cue: 'It\'s on the post!', meaning: 'The ball hit the upright — a near miss at the very last moment.', usage: '"He shoots — it\'s on the post! How did that not go in?"', imageSlug: 'otp-commentary' },
+      { cue: 'He\'s gone down!', meaning: 'A player has fallen — possible injury or foul.', usage: '"He\'s gone down! The referee stops play — this looks serious."', imageSlug: 'otp-commentary' },
+      { cue: 'The keeper\'s off his line.', meaning: 'The goalkeeper has moved forward from goal — a potential opportunity for a chip or lob.', usage: '"The keeper\'s off his line — can he get it over him? Yes!"', imageSlug: 'otp-commentary' },
+      { cue: 'The crowd is on its feet!', meaning: 'Everyone in the stadium is standing — a moment of peak excitement.', usage: '"The crowd is on its feet! Three minutes to go and they\'ve equalised!"', imageSlug: 'otp-commentary' },
+    ],
+  },
+  videos: [],
+  dialogue: [
+    { speaker: 'Trainee Kofi', speakerColor: 'orange', text: 'I tried commentating on the clip you sent and I ran out of things to say after about forty seconds.' },
+    { speaker: 'Commentator Diane', speakerColor: 'red', text: 'That is very common. The mistake is trying to describe everything as it happens. Instead, hold back a little and build tension. Do not describe every touch — wait for the moment that matters.' },
+    { speaker: 'Trainee Kofi', speakerColor: 'orange', text: 'But how do you know when to ramp up? When does the tension actually start?' },
+    { speaker: 'Commentator Diane', speakerColor: 'red', text: 'Learn to anticipate. Watch the body language — when the player looks up, that is usually the signal. Your intonation should start rising a beat before the shot.' },
+    { speaker: 'Trainee Kofi', speakerColor: 'orange', text: 'And what about the goal itself? I froze — I just said "goal" and stopped.' },
+    { speaker: 'Commentator Diane', speakerColor: 'red', text: 'That freeze is actually fine — a moment of silence before you let loose can be more powerful than words. But then the cadence should slow down. Let the emotion breathe. The listener at home has just jumped off the sofa.' },
+    { speaker: 'Trainee Kofi', speakerColor: 'orange', text: 'What about the really spontaneous phrases — the ones people remember for years?' },
+    { speaker: 'Commentator Diane', speakerColor: 'red', text: 'You cannot script spontaneous. What you can do is make sure your vocabulary is deep enough that the right words come to you under pressure. Read, listen, and build that reservoir — when the moment comes, the language will be there.' },
+  ],
+  matchingExercise: [
+    { word: 'intonation', definition: 'the rise and fall of your voice as you speak' },
+    { word: 'cadence', definition: 'the rhythm and flow of speech' },
+    { word: 'anticipate', definition: 'to expect and prepare for what is about to happen' },
+    { word: 'exclamation', definition: 'a word or phrase said suddenly with strong emotion' },
+    { word: 'breathless', definition: 'speaking so fast and excitedly that you barely stop for air' },
+    { word: 'tempo', definition: 'the speed of speech or action' },
+    { word: 'build-up', definition: 'a gradual increase in tension before a key moment' },
+    { word: 'spontaneous', definition: 'unplanned and natural — happening in the moment' },
+  ],
+  fillBlankExercise: [
+    { before: 'The commentator\'s', answer: 'intonation', after: 'rises sharply as the striker enters the penalty area.' },
+    { before: 'A great commentator varies the', answer: 'cadence', after: '— slow and quiet during build-up, fast and loud at the moment of the shot.' },
+    { before: 'She can', answer: 'anticipate', after: 'the shot half a second before it happens — you hear the tension in her voice before the boot connects.' },
+    { before: 'Hold back during the build-up and save the energy for the', answer: 'build-up', after: 'to the final moment — then let it all go.' },
+    { before: 'The commentary', answer: 'ramped up', after: 'as the team pressed for an equaliser in the final three minutes.' },
+    { before: 'The most memorable commentary lines are completely', answer: 'spontaneous', after: '— no one could have planned them.' },
+    { before: 'After the goal, slow down and let the', answer: 'tempo', after: 'drop — give the listener time to feel the moment.' },
+  ],
+  multipleChoiceExercise: [
+    { question: 'What does "intonation" mean?', options: ['The speed of speech.', 'The rise and fall of your voice as you speak.', 'The vocabulary you use in commentary.'], correctIndex: 1 },
+    { question: 'Which example best uses tension-building language?', options: ['"He kicked the ball and it went into the goal."', '"He shoots — it\'s going — the keeper can\'t reach it — yes! It\'s in! It\'s in!"', '"The player had the ball and then he scored."'], correctIndex: 1 },
+    { question: 'What does "hold back" mean in commentary?', options: ['To speak more slowly throughout the match.', 'To wait and save your energy for the most important moment.', 'To describe less than you can see.'], correctIndex: 1 },
+    { question: 'What does "breathless" mean in the context of commentary?', options: ['Speaking so quietly the listener cannot hear you.', 'Speaking so fast and excitedly that you barely stop between words.', 'Speaking without emotion.'], correctIndex: 1 },
+    { question: 'What is the best advice for handling a spontaneous goal moment?', options: ['Script the goal reaction in advance.', 'Say "goal" and pause — you do not need more words.', 'Build vocabulary deeply so the right language comes naturally under pressure.'], correctIndex: 2 },
+  ],
+  completeSentenceExercise: {
+    instructions: 'Choose the best word or phrase to complete each sentence.',
+    items: [
+      { sentence: 'As the striker enters the box, the commentator\'s _____ should rise — not when the shot is taken, but a beat before.', options: ['tempo', 'cadence', 'intonation'], correctIndex: 2, explanation: '"Intonation" is the rise and fall of the voice — the quality that communicates anticipation before a word is even spoken.' },
+      { sentence: 'Hold back in the build-up — then _____ completely at the moment of the goal.', options: ['cut away', 'let loose', 'slow down'], correctIndex: 1, explanation: '"Let loose" means to release full energy — the right phrase for the moment the commentator can stop holding back.' },
+      { sentence: 'The best commentators vary their _____ — fast during attacks, slow and reflective after a goal.', options: ['exclamation', 'cadence', 'anticipation'], correctIndex: 1, explanation: '"Cadence" is the rhythm and flow of speech — varying it is what separates great commentators from flat ones.' },
+      { sentence: 'She managed to _____ the substitution — you could hear the tactical thinking in her voice two minutes before it happened.', options: ['anticipate', 'ramp up', 'build up'], correctIndex: 0, explanation: '"Anticipate" means to expect and prepare for something — a commentator who anticipates adds a layer of analysis to their delivery.' },
+      { sentence: 'After the final whistle, he _____ and let the moment breathe — no words for five full seconds.', options: ['ramped up', 'slowed down', 'held back'], correctIndex: 1, explanation: '"Slow down" means to reduce speed and give space for reflection — after a final whistle, silence is often more powerful than speech.' },
+      { sentence: 'The most memorable commentary is completely _____— the phrases that last decades were never planned.', options: ['breathless', 'scripted', 'spontaneous'], correctIndex: 2, explanation: '"Spontaneous" means unplanned and natural — the great commentary lines could not have been written in advance.' },
+    ],
+  },
+  groupActivities: {
+    chooseResponse: {
+      instructions: 'A fellow trainee asks you for feedback on their commentary. Choose the most precise and professional response.',
+      items: [
+        {
+          customerLine: 'I think my commentary was too flat. How do I make it more exciting without shouting?',
+          options: [
+            'Speak louder and faster throughout the whole match.',
+            'Vary your cadence and intonation — hold back during the build-up, let the tempo rise as the attack develops, and save the full release for the goal itself.',
+            'Add more words so there are no silences.',
+          ],
+          correctIndex: 1,
+          explanation: 'The second option gives specific, actionable advice using precise vocabulary (cadence, intonation, tempo, build-up) — the professional response at C2 level.',
+        },
+        {
+          customerLine: 'I froze when the goal went in. What should I have done?',
+          options: [
+            'You should have said the scorer\'s name immediately.',
+            'Freezing is natural — a moment of silence before you let loose can actually be more powerful. Then slow down, let the emotion breathe, and build the moment through repetition or a short exclamation.',
+            'You need to practise scripting goal moments before you record.',
+          ],
+          correctIndex: 1,
+          explanation: 'The second option reframes the freeze as a valid technique, uses precise vocabulary (let loose, exclamation, breathe), and avoids the wrong advice of scripting spontaneous moments.',
+        },
+      ],
+    },
+    finishTheLine: {
+      instructions: 'Practise live commentary. Complete each moment with precise, energetic language.',
+      items: [
+        { customerLine: '', salespersonStart: 'He\'s in space! He\'s taking it on — one defender to beat —', suggestedCompletion: 'he goes past him! He shoots — the keeper\'s diving — it\'s in! Incredible! The crowd is on its feet!' },
+        { customerLine: '', salespersonStart: 'Three minutes on the clock. The team needs a goal. The crowd is willing them forward.', suggestedCompletion: 'The build-up is slow — patient — then suddenly it ramped up. Corner — and the whole stadium held its breath.' },
+        { customerLine: '', salespersonStart: 'And it\'s over. The final whistle. Silence for just a moment —', suggestedCompletion: 'and then the roar. They have done it. They are champions. Let that sink in.' },
+      ],
+    },
+  },
+};

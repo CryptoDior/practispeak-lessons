@@ -1,0 +1,138 @@
+import { Lesson } from '@/types/lesson';
+export const c2WomensFootball: Lesson = {
+  slug: 'c2-womens-football',
+  title: "Women\'s Football",
+  subtitle: 'Unit 3 — Football philosophy',
+  level: 'C1-C2',
+  description: "Explore the growth of the women\'s game — its key figures, landmark moments, and ongoing challenges — using contrastive structures in English.",
+  heroImage: '/images/hero.png',
+  warmUp: {
+    questions: [
+      "How much do you know about women\'s football? Name one player or tournament from the women\'s game.",
+      "Why do you think women\'s football has grown so quickly in the last ten years?",
+      'Is equal pay for male and female footballers realistic? What would need to change for it to happen?',
+    ],
+  },
+  grammarFocus: {
+    focusTitle: 'Contrastive Structures',
+    description: "When analysing growth, inequality, or change, contrastive structures are essential. Key patterns: 'While X, Y ...', 'Whereas X, Y ...', 'Unlike X, Y ...', 'In contrast to X, Y ...', 'By comparison, ...' These help you present two sides of an issue precisely and analytically, without using vague words like 'but' or 'however' in informal ways.",
+    positiveExamples: [
+      { sentence: "While the men\'s game attracts billions in broadcast revenue, the women\'s game is still building its commercial infrastructure.", note: '"While" introduces a contrast in the same sentence — formal and analytical.' },
+      { sentence: "Unlike their male counterparts, many professional female players were still working second jobs as recently as ten years ago.", note: '"Unlike X, Y" highlights a specific difference clearly and concisely.' },
+      { sentence: "The WSL has grown rapidly in recent years; in contrast, some other European leagues have struggled to attract sponsors.", note: '"In contrast" links two separate clauses and signals a direct comparison.' },
+    ],
+    negativeExamples: [],
+  },
+  vocabulary: [
+    { word: 'PARITY', partOfSpeech: 'noun', definition: 'equality, especially in status, pay, or treatment', example: '"Equal pay parity between male and female footballers remains a distant goal at most clubs."', imageSlug: '/images/hero.png' },
+    { word: 'VISIBILITY', partOfSpeech: 'noun', definition: 'how much attention, coverage, or recognition something receives', example: '"Increased visibility from live broadcasting has driven a huge rise in attendances."', imageSlug: '/images/hero.png' },
+    { word: 'PROFESSIONALISM', partOfSpeech: 'noun', definition: 'the quality of doing work to a high standard, and being paid to do it as a job', example: '"The shift toward full professionalism has transformed the quality of the women\'s game."', imageSlug: '/images/hero.png' },
+    { word: 'PIONEER', partOfSpeech: 'noun / verb', definition: 'someone who is among the first to do something new, or to be the first to do it', example: '"Players like Marta and Megan Rapinoe pioneered the movement for equal rights in football."', imageSlug: '/images/hero.png' },
+    { word: 'MOMENTUM', partOfSpeech: 'noun', definition: 'a growing force or energy that makes something hard to stop', example: '"The momentum behind the women\'s game has been building steadily since the 2019 World Cup."', imageSlug: '/images/hero.png' },
+    { word: 'LANDMARK', partOfSpeech: 'noun', definition: 'an important event or moment in history that marks a turning point', example: '"The 2023 World Cup final attendance record was a landmark moment for the sport."', imageSlug: '/images/hero.png' },
+    { word: 'DISPARITY', partOfSpeech: 'noun', definition: 'a difference between two things, especially one that is unfair', example: '"The pay disparity between men\'s and women\'s international footballers remains significant."', imageSlug: '/images/hero.png' },
+    { word: 'INVEST', partOfSpeech: 'verb', definition: 'to put money, time, or effort into something to help it grow', example: '"Clubs that invest seriously in their women\'s teams tend to see returns in sponsorship and fan growth."', imageSlug: '/images/hero.png' },
+  ],
+  phrasalVerbs: [
+    { phrase: 'CATCH UP', definition: 'to reach the same level as something after being behind', example: '"The women\'s game is catching up quickly in terms of professional standards."', imageSlug: '/images/hero.png' },
+    { phrase: 'BREAK THROUGH', definition: 'to achieve success or recognition despite obstacles', example: '"She broke through to the national team at just seventeen — the youngest ever."', imageSlug: '/images/hero.png' },
+    { phrase: 'BUILD UP', definition: 'to develop or increase gradually over time', example: '"Broadcasters have built up their coverage of women\'s football significantly over the past decade."', imageSlug: '/images/hero.png' },
+    { phrase: 'FALL BEHIND', definition: 'to fail to keep up and drop to a lower level', example: '"Clubs that fail to invest risk falling behind as the league becomes more competitive."', imageSlug: '/images/hero.png' },
+    { phrase: 'PUSH FOR', definition: 'to actively campaign or argue for something to happen', example: '"The players have been pushing for full-time contracts and proper training facilities."', imageSlug: '/images/hero.png' },
+    { phrase: 'DRAW IN', definition: 'to attract new people, fans, or audiences', example: '"Better media coverage is drawing in a new generation of young fans."', imageSlug: '/images/hero.png' },
+  ],
+  onThePitch: {
+    instructions: "Match each term to its meaning in the context of women\'s football.",
+    items: [
+      { cue: 'WSL', meaning: "Women\'s Super League — the top division of professional women\'s football in England.", usage: '"The WSL is now considered one of the best women\'s leagues in the world."', imageSlug: 'otp-womens' },
+      { cue: 'UEFA Women\'s Euro', meaning: "The main European women\'s national team tournament, held every four years.", usage: '"England\'s victory at UEFA Women\'s Euro 2022 was a landmark moment for the game."', imageSlug: 'otp-womens' },
+      { cue: 'Equal pay campaign', meaning: "The ongoing effort to close the pay disparity between male and female footballers.", usage: '"The equal pay campaign has gained momentum as more sponsors support the women\'s game."', imageSlug: 'otp-womens' },
+      { cue: 'Attendance record', meaning: "A new high number of fans watching a women\'s match — used as evidence of the game\'s growth.", usage: '"The attendance record at the 2023 World Cup final showed how far the game has come."', imageSlug: 'otp-womens' },
+      { cue: 'Dual-contract player', meaning: "A player who holds contracts with both the women\'s and men\'s sections of a club.", usage: '"Dual-contract arrangements are becoming more common as clubs invest in their women\'s teams."', imageSlug: 'otp-womens' },
+      { cue: 'Rising stars', meaning: "Young female players who are attracting significant attention and sponsorship interest.", usage: '"The rising stars of the women\'s game are now household names in several countries."', imageSlug: 'otp-womens' },
+    ],
+  },
+  videos: [],
+  dialogue: [
+    { speaker: 'Saoirse', speakerColor: 'green', text: "I went to a WSL match last weekend for the first time. I was surprised by the atmosphere — it was brilliant." },
+    { speaker: 'Coach Leon', speakerColor: 'blue', text: "That reflects how much has changed. While the women\'s game was barely covered on television ten years ago, today it is genuinely competitive and the fanbase is building up fast." },
+    { speaker: 'Saoirse', speakerColor: 'green', text: "But the pay gap is still massive, right? Unlike the men at the top clubs, most women are on modest wages." },
+    { speaker: 'Coach Leon', speakerColor: 'blue', text: "The disparity is real and significant. However, the momentum is behind change. Sponsors are investing more, broadcast deals are growing, and the players are pushing for better contracts." },
+    { speaker: 'Saoirse', speakerColor: 'green', text: "Who were the pioneers who made this growth possible?" },
+    { speaker: 'Coach Leon', speakerColor: 'blue', text: "Marta, Megan Rapinoe, and players like them broke through cultural barriers and fought for visibility when there was very little. Their professionalism under difficult conditions built the foundation for everything we see now." },
+    { speaker: 'Saoirse', speakerColor: 'green', text: "Do you think parity is achievable in our lifetime?" },
+    { speaker: 'Coach Leon', speakerColor: 'blue', text: "In terms of recognition and investment — yes, I believe so. In terms of pay parity at the very top? That depends on how quickly commercial revenues catch up. It is not impossible, but it requires continued landmark decisions from broadcasters and governing bodies." },
+  ],
+  matchingExercise: [
+    { word: 'parity', definition: 'equality, especially in pay or status' },
+    { word: 'visibility', definition: 'how much attention or coverage something receives' },
+    { word: 'professionalism', definition: 'doing work to a high standard and being paid for it as a job' },
+    { word: 'pioneer', definition: 'someone who is first to do something new' },
+    { word: 'momentum', definition: 'a growing force that makes something hard to stop' },
+    { word: 'landmark', definition: 'an important event that marks a turning point' },
+    { word: 'disparity', definition: 'a difference between things, especially one that is unfair' },
+    { word: 'invest', definition: 'to put money or time into something to help it grow' },
+  ],
+  fillBlankExercise: [
+    { before: 'The pay', answer: 'disparity', after: "between male and female professionals remains one of the sport\'s biggest challenges." },
+    { before: "The WSL\'s rise is a", answer: 'landmark', after: 'moment in European football — no one predicted this growth ten years ago.' },
+    { before: "Players like Marta", answer: 'pioneered', after: 'the fight for equal treatment when the game had almost no commercial support.' },
+    { before: "Increased TV coverage has dramatically improved the", answer: 'visibility', after: "of women\'s football across Europe and beyond." },
+    { before: 'The', answer: 'momentum', after: "behind the women\'s game is enormous right now — attendances, sponsorship, and coverage are all rising." },
+    { before: 'Clubs that', answer: 'invest', after: "seriously in the women\'s team tend to see results both on and off the pitch." },
+    { before: "The women\'s game is quickly", answer: 'catching up', after: 'with men\'s football in terms of professional standards and media coverage.' },
+  ],
+  multipleChoiceExercise: [
+    { question: "What does 'parity' mean in the context of women\'s football?", options: ["The quality of a player\'s performance.", 'Equality, especially in pay, status, or treatment.', 'The number of fans attending matches.'], correctIndex: 1 },
+    { question: "Which sentence uses 'whereas' correctly?", options: ['"Whereas the women\'s game has grown, more sponsors."', '"Whereas male players at top clubs earn millions, many female professionals still work on part-time contracts."', '"The women\'s game has grown whereas big."'], correctIndex: 1 },
+    { question: "What does 'break through' mean?", options: ['To stop playing due to injury.', 'To analyse a tactical situation.', 'To achieve success despite obstacles.'], correctIndex: 2 },
+    { question: "What was a key landmark in women\'s football mentioned in this lesson?", options: ["The introduction of VAR in women\'s matches.", "England\'s victory at UEFA Women\'s Euro 2022.", "The creation of the WSL in 1990."], correctIndex: 1 },
+    { question: "What does 'visibility' refer to in this context?", options: ["How clearly fans can see the pitch.", 'How much media attention, coverage, and recognition the game receives.', "The number of women\'s clubs in a league."], correctIndex: 1 },
+  ],
+  completeSentenceExercise: {
+    instructions: 'Choose the best word or phrase to complete each sentence.',
+    items: [
+      { sentence: "_____ the men\'s game has had decades of professional infrastructure, women\'s football is building it rapidly from a much lower base.", options: ['Unlike', 'While', 'In contrast to'], correctIndex: 1, explanation: '"While" introduces a contrast within a single sentence — it works well here to show two things happening at the same time.' },
+      { sentence: "The pay _____ between the top men\'s and women\'s players is still enormous, even at well-funded clubs.", options: ['parity', 'visibility', 'disparity'], correctIndex: 2, explanation: '"Disparity" means an unfair difference — the correct word for a gap that still needs to be closed.' },
+      { sentence: "Several players who _____ through in the 2019 World Cup are now among the highest-paid athletes in their countries.", options: ['drew in', 'broke', 'built up'], correctIndex: 1, explanation: '"Break through" means to achieve success or recognition despite obstacles — the right phrase for players who became stars.' },
+      { sentence: "In _____ to the WSL\'s commercial growth, several other European leagues are still struggling to attract sponsors.", options: ['contrast', 'comparison', 'addition'], correctIndex: 0, explanation: '"In contrast to" signals a direct comparison — it is the most precise contrastive connector here.' },
+      { sentence: "The _____ behind the game is clear — record attendances, rising TV deals, and new sponsors every season.", options: ['landmark', 'momentum', 'professionalism'], correctIndex: 1, explanation: '"Momentum" describes a growing, hard-to-stop force — exactly what the women\'s game currently has.' },
+      { sentence: "Clubs that _____ seriously in youth development tend to produce the players who lead the national team.", options: ['draw in', 'invest', 'push for'], correctIndex: 1, explanation: '"Invest" means to put resources into something to help it grow — the right word for long-term development decisions.' },
+    ],
+  },
+  groupActivities: {
+    chooseResponse: {
+      instructions: "A journalist asks you about the state of women\'s football. Choose the most precise and analytical response.",
+      items: [
+        {
+          customerLine: "Is women\'s football really growing, or is it just media hype?",
+          options: [
+            'It is growing — there are more fans every year.',
+            'It is hard to say — some people like it more than others.',
+            "The growth is real and measurable. Attendance records are being broken, broadcast deals are expanding, and the pay disparity — while still significant — is narrowing. What we\'re seeing is not hype — it is the result of decades of work by pioneers who pushed for visibility and professionalism.",
+          ],
+          correctIndex: 2,
+          explanation: 'The third option uses precise vocabulary (disparity, pioneers, visibility, professionalism) and supports the claim with evidence — the analytical approach expected at C2 level.',
+        },
+        {
+          customerLine: "What needs to happen for pay parity to become a reality?",
+          options: [
+            'Clubs just need to pay women more.',
+            'It will probably happen eventually.',
+            "Commercial revenues need to catch up — which means continued investment from broadcasters and sponsors, combined with governance structures that require clubs to close the disparity. While full parity at the elite level may take time, the momentum is clearly in that direction.",
+          ],
+          correctIndex: 2,
+          explanation: 'The third option identifies specific conditions needed, uses contrastive language ("while"), and includes the hedging phrase "may take time" — precise, analytical, and realistic at C2 level.',
+        },
+      ],
+    },
+    finishTheLine: {
+      instructions: "You are writing an opinion piece about women\'s football. Complete each paragraph\'s opening using the vocabulary from this lesson.",
+      items: [
+        { customerLine: '', salespersonStart: "While the men\'s game has had more than a century to build its commercial infrastructure,", suggestedCompletion: "women\'s football has achieved comparable visibility in a fraction of the time — a remarkable landmark in the sport\'s history." },
+        { customerLine: '', salespersonStart: 'The pioneers of the women\'s game — Marta, Rapinoe, and others — broke through when there was almost no support or visibility.', suggestedCompletion: 'Their professionalism under difficult conditions built the momentum that the next generation is now benefiting from.' },
+        { customerLine: '', salespersonStart: "The disparity in pay remains significant — unlike male players at top clubs, most female professionals are still on modest wages.", suggestedCompletion: 'But with clubs beginning to invest seriously and broadcast deals growing, parity is no longer an abstract goal — it is a realistic target.' },
+      ],
+    },
+  },
+};

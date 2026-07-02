@@ -1,0 +1,138 @@
+import { Lesson } from '@/types/lesson';
+export const c2WriteAPlayerProfile: Lesson = {
+  slug: 'c2-write-a-player-profile',
+  title: 'Write a Player Profile',
+  subtitle: 'Unit 4 — Mastery output',
+  level: 'C1-C2',
+  description: 'Master the techniques of long-form football journalism — from the opening anecdote to the final kicker — to write a compelling player profile in English.',
+  heroImage: '/images/hero.png',
+  warmUp: {
+    questions: [
+      'Think of the best sports article you have ever read. What made it memorable?',
+      'What is the difference between a match report and a player profile? What does a profile need to do that a report does not?',
+      'If you were profiling a footballer, what is the first question you would ask them?',
+    ],
+  },
+  grammarFocus: {
+    focusTitle: 'Feature Journalism Structure',
+    description: 'A great player profile follows a clear structure: the lede (an arresting opening — usually an anecdote or scene), the nut graf (the sentence that explains what the piece is about and why it matters now), the body (evidence, quotes, context), and the kicker (a final sentence that surprises, resonates, or reframes everything before it). At C2 level, you control this structure consciously — not just telling the story, but shaping it.',
+    positiveExamples: [
+      { sentence: 'It is 6:15 on a Tuesday morning. The stadium is empty. But Saka is already here, in the dark, shooting at an unguarded net.', note: 'Scene-setting lede — places the reader inside a specific moment before explaining anything.' },
+      { sentence: 'This profile is about a player who almost never was — and about what football nearly lost.', note: 'The nut graf tells the reader exactly what the story is about and why it matters.' },
+      { sentence: 'He scored the goal that won the cup. But the thing he talks about most is the miss that came before it.', note: 'A classic kicker — the final sentence reframes the whole profile with an unexpected truth.' },
+    ],
+    negativeExamples: [],
+  },
+  vocabulary: [
+    { word: 'PROFILE', partOfSpeech: 'noun', definition: 'a detailed written portrait of a person — their life, character, and significance', example: '"The magazine published a three-thousand-word profile of the young forward."', imageSlug: '/images/hero.png' },
+    { word: 'LEDE', partOfSpeech: 'noun', definition: 'the opening paragraph of a journalism piece — designed to pull the reader in', example: '"Her lede opened with a single image: the player sitting alone in an empty stadium."', imageSlug: '/images/hero.png' },
+    { word: 'ANECDOTE', partOfSpeech: 'noun', definition: 'a short personal story used to illustrate a bigger point', example: '"The anecdote about his first training session told us more than any statistics could."', imageSlug: '/images/hero.png' },
+    { word: 'EVOCATIVE', partOfSpeech: 'adjective', definition: 'producing a strong image or feeling in the reader', example: '"The most evocative writing puts you inside the moment — you can almost feel the rain on the pitch."', imageSlug: '/images/hero.png' },
+    { word: 'CANDID', partOfSpeech: 'adjective', definition: 'honest and open — not hiding feelings or avoiding difficult questions', example: '"The player was remarkably candid about his mental health struggles during the difficult season."', imageSlug: '/images/hero.png' },
+    { word: 'NARRATIVE', partOfSpeech: 'noun', definition: 'a story — the way a series of events is told', example: '"A strong player profile has a clear narrative arc from struggle to achievement."', imageSlug: '/images/hero.png' },
+    { word: 'TEXTURE', partOfSpeech: 'noun', definition: 'the specific details that make writing feel real, layered, and vivid', example: '"Without texture — the colour of his boots, the sound of the crowd — the profile feels flat."', imageSlug: '/images/hero.png' },
+    { word: 'KICKER', partOfSpeech: 'noun', definition: 'a surprising or powerful final sentence that ends a piece of journalism', example: '"A great kicker does not summarise the article — it transforms it."', imageSlug: '/images/hero.png' },
+  ],
+  phrasalVerbs: [
+    { phrase: 'OPEN WITH', definition: 'to begin a piece with a specific scene, quote, or idea', example: '"The best profiles open with a scene that puts the reader inside the subject\'s world."', imageSlug: '/images/hero.png' },
+    { phrase: 'FLESH OUT', definition: 'to add detail and depth to a character, idea, or scene', example: '"The middle section fleshes out the player\'s background — where he grew up, how he started."', imageSlug: '/images/hero.png' },
+    { phrase: 'BUILD UP TO', definition: 'to gradually move toward the most important moment', example: '"The whole profile builds up to the story of his comeback from injury."', imageSlug: '/images/hero.png' },
+    { phrase: 'LOOK BACK ON', definition: 'to reflect on past events, often with perspective or hindsight', example: '"She looks back on her first season with humour — she had no idea what she was doing, she says."', imageSlug: '/images/hero.png' },
+    { phrase: 'ROUND OFF', definition: 'to finish or complete something in a satisfying way', example: '"The final anecdote rounds off the piece perfectly — it returns to the opening image."', imageSlug: '/images/hero.png' },
+    { phrase: 'ZOOM IN ON', definition: 'to focus tightly on a specific detail or moment', example: '"The writer zooms in on one tackle in the seventy-third minute and makes it carry the whole argument."', imageSlug: '/images/hero.png' },
+  ],
+  onThePitch: {
+    instructions: 'Match each journalism term to its meaning in the context of a player profile.',
+    items: [
+      { cue: 'Feature length', meaning: 'A long piece of journalism — typically 800 words or more.', usage: '"This is a feature-length profile, not a match report — take your time with it."', imageSlug: 'otp-profile' },
+      { cue: 'On the record', meaning: 'A statement the subject has agreed can be published with their name attached.', usage: '"Everything we discussed is on the record — you can quote it directly."', imageSlug: 'otp-profile' },
+      { cue: 'Pull quote', meaning: 'A short, powerful quote displayed prominently in the magazine layout.', usage: '"That line about his mother became the pull quote — it stopped every reader on the page."', imageSlug: 'otp-profile' },
+      { cue: 'Nut graf', meaning: 'The paragraph that explains what the piece is about and why it matters right now.', usage: '"The nut graf appears in the third paragraph and gives readers the reason to keep reading."', imageSlug: 'otp-profile' },
+      { cue: 'Scene-setter', meaning: 'A descriptive opening that places the reader inside a specific moment or location.', usage: '"The scene-setter put us in the training ground car park at dawn — you could feel the cold."', imageSlug: 'otp-profile' },
+      { cue: 'Sidebar', meaning: 'A short additional piece of information placed next to the main article.', usage: '"We added a sidebar with his career stats so the main profile could focus on the story."', imageSlug: 'otp-profile' },
+    ],
+  },
+  videos: [],
+  dialogue: [
+    { speaker: 'Journalist Femi', speakerColor: 'blue', text: 'My editor says my profile is technically good but it has no texture. I do not know what to add.' },
+    { speaker: 'Editor Rosa', speakerColor: 'purple', text: 'Tell me how you opened it.' },
+    { speaker: 'Journalist Femi', speakerColor: 'blue', text: 'I started with his statistics — goals, assists, the season he broke through.' },
+    { speaker: 'Editor Rosa', speakerColor: 'purple', text: 'That is the problem. Statistics are not a lede. They are context. You need to open with a scene — something evocative that puts the reader inside one specific moment.' },
+    { speaker: 'Journalist Femi', speakerColor: 'blue', text: 'He told me this anecdote about missing a penalty in a youth final. His dad was in the crowd. Is that the kind of thing you mean?' },
+    { speaker: 'Editor Rosa', speakerColor: 'purple', text: 'That is exactly it. Open with the penalty. Build up to the moment. Then zoom in on his face as the shot went wide. That is where the narrative begins.' },
+    { speaker: 'Journalist Femi', speakerColor: 'blue', text: 'And the kicker? I am struggling to end it.' },
+    { speaker: 'Editor Rosa', speakerColor: 'purple', text: 'Use his own words if you can — and make sure the kicker reframes everything before it. The best ending does not summarise. It surprises. It makes the reader look back on the whole piece differently.' },
+  ],
+  matchingExercise: [
+    { word: 'profile', definition: 'a detailed written portrait of a person\'s life and significance' },
+    { word: 'lede', definition: 'the opening paragraph — designed to pull the reader in' },
+    { word: 'anecdote', definition: 'a short personal story used to illustrate a bigger point' },
+    { word: 'evocative', definition: 'producing a strong image or feeling in the reader' },
+    { word: 'candid', definition: 'honest and open — not hiding feelings' },
+    { word: 'narrative', definition: 'the way a series of events is told as a story' },
+    { word: 'texture', definition: 'specific details that make writing feel real and vivid' },
+    { word: 'kicker', definition: 'a powerful final sentence that reframes the whole piece' },
+  ],
+  fillBlankExercise: [
+    { before: 'The piece opens with a', answer: 'lede', after: 'so vivid and specific that you forget you are reading — you think you are there.' },
+    { before: 'She told me an', answer: 'anecdote', after: 'about the first time she wore the national shirt — her hands were shaking during the anthem.' },
+    { before: 'Without specific details — the colour of his gloves, the sound of the rain — the writing has no', answer: 'texture', after: '.' },
+    { before: 'The best player profiles have a clear', answer: 'narrative', after: 'arc: from the challenge to the turning point to the resolution.' },
+    { before: 'He was remarkably', answer: 'candid', after: 'about the season he almost quit — more honest than most players would be.' },
+    { before: 'The writer', answer: 'zoomed in on', after: 'a single moment in training and made it carry the whole argument about his mentality.' },
+    { before: 'The final', answer: 'kicker', after: 'revealed something the reader had not expected — and changed the meaning of everything before it.' },
+  ],
+  multipleChoiceExercise: [
+    { question: 'What is the purpose of a lede?', options: ['To summarise the whole profile.', 'To pull the reader in immediately with something vivid or arresting.', 'To list the player\'s achievements.'], correctIndex: 1 },
+    { question: 'What is the nut graf?', options: ['A paragraph full of statistics and context.', 'The paragraph that explains what the piece is about and why it matters now.', 'The final line of the profile.'], correctIndex: 1 },
+    { question: 'What does "evocative" mean?', options: ['Very accurate and fact-based.', 'Producing a strong image or feeling in the reader.', 'Very brief and direct.'], correctIndex: 1 },
+    { question: 'What makes a great kicker?', options: ['It summarises all the key points clearly.', 'It is the longest sentence in the piece.', 'It surprises the reader and reframes what they have just read.'], correctIndex: 2 },
+    { question: 'What does "flesh out" mean?', options: ['To cut unnecessary detail from a piece.', 'To add depth and specific detail to a character or scene.', 'To translate the piece into simpler language.'], correctIndex: 1 },
+  ],
+  completeSentenceExercise: {
+    instructions: 'Choose the best word or phrase to complete each sentence.',
+    items: [
+      { sentence: 'The piece _____ a single image: the player sitting alone in the dugout after the final whistle.', options: ['fleshes out', 'opens with', 'rounds off'], correctIndex: 1, explanation: '"Open with" means to begin a piece with a specific scene — the standard phrase for describing a lede.' },
+      { sentence: 'The most _____ writing puts you inside the moment — you can almost hear the crowd, smell the grass.', options: ['candid', 'evocative', 'scripted'], correctIndex: 1, explanation: '"Evocative" means producing a strong image or feeling — the quality that distinguishes great feature writing.' },
+      { sentence: 'The entire profile _____ his return from injury — the most dramatic moment of his career.', options: ['builds up to', 'looks back on', 'zooms in on'], correctIndex: 0, explanation: '"Build up to" means to gradually move toward a key moment — used for narrative structure in journalism.' },
+      { sentence: 'Without a clear _____, the reader does not know why they are reading this piece right now.', options: ['lede', 'nut graf', 'kicker'], correctIndex: 1, explanation: 'The "nut graf" gives the reader the reason to continue — it explains what the story is about and why it matters now.' },
+      { sentence: 'The interview was surprisingly _____ — he talked about his mental health struggles with no hesitation.', options: ['evocative', 'scripted', 'candid'], correctIndex: 2, explanation: '"Candid" means honest and open — the right word when a subject speaks without guarding their true feelings.' },
+      { sentence: 'The final paragraph _____ beautifully — it returned to the opening image and gave it a new meaning.', options: ['built up to', 'rounded off', 'zoomed in on'], correctIndex: 1, explanation: '"Round off" means to finish something in a satisfying way — the ideal phrase when the ending connects back to the beginning.' },
+    ],
+  },
+  groupActivities: {
+    chooseResponse: {
+      instructions: 'Your editor gives you feedback on your player profile. Choose the most precise and professional response.',
+      items: [
+        {
+          customerLine: 'Your lede is too slow. I am not hooked by the third sentence.',
+          options: [
+            'I can try to make it shorter.',
+            'I will remove the statistics from the opening and replace them with the penalty anecdote he told me — the scene with his father in the crowd.',
+            'Maybe I can add more adjectives to make it more interesting.',
+          ],
+          correctIndex: 1,
+          explanation: 'The second option gives a specific, concrete plan using the correct vocabulary (anecdote, scene) — the professional and analytical response to editorial feedback.',
+        },
+        {
+          customerLine: 'The piece has no texture. It reads like a Wikipedia entry.',
+          options: [
+            'I will add more facts and statistics.',
+            'I will include more evocative details — the colour of his boots at that training session, the silence in the dressing room before the final.',
+            'I will make the sentences shorter.',
+          ],
+          correctIndex: 1,
+          explanation: 'The second option correctly identifies texture as specific sensory detail and uses the precise vocabulary (evocative) — showing that you understand what the editor means.',
+        },
+      ],
+    },
+    finishTheLine: {
+      instructions: 'Complete each section of a player profile using the techniques and vocabulary from this lesson.',
+      items: [
+        { customerLine: '', salespersonStart: 'It is six in the morning. The training ground is empty.', suggestedCompletion: 'But she is already here — the last one to leave yesterday, the first one back today. That is who she is.' },
+        { customerLine: '', salespersonStart: 'This is a profile of a player who almost gave up at nineteen — and what happened when he did not.', suggestedCompletion: 'It is a story about failure, about patience, and about the small decisions that separate the players we remember from the ones we forget.' },
+        { customerLine: '', salespersonStart: 'He scored the goal that won the cup. He held the trophy above his head. But the story he tells most often is not about that night.', suggestedCompletion: 'It is about the Thursday afternoon, two years earlier, when he sat in the car park and cried — and decided to stay.' },
+      ],
+    },
+  },
+};

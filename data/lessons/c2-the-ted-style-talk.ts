@@ -1,0 +1,138 @@
+import { Lesson } from '@/types/lesson';
+export const c2TheTedStyleTalk: Lesson = {
+  slug: 'c2-the-ted-style-talk',
+  title: 'The TED-Style Talk',
+  subtitle: 'Unit 4 — Mastery output',
+  level: 'C1-C2',
+  description: 'Deliver a structured eight-minute talk on a football topic of your choice — using rhetorical devices, a clear through-line, and confident spoken English.',
+  heroImage: '/images/hero.png',
+  warmUp: {
+    questions: [
+      'Have you ever watched a TED talk? What made it work — the content, the delivery, or both?',
+      'If you had to give an eight-minute talk on any football topic, what would it be? Why that topic?',
+      'What is the difference between explaining something and persuading someone? Can you do both at once?',
+    ],
+  },
+  grammarFocus: {
+    focusTitle: 'Rhetorical Devices',
+    description: 'Powerful spoken language uses deliberate rhetorical devices. Key ones at C2 level: anaphora (repeating the same phrase at the start of sentences — "Football is..."), the rule of three (grouping ideas in sets of three for rhythm and memorability), rhetorical questions (asking a question you then answer yourself), and the callback (returning to an image or phrase from your opening to close the talk). These are tools of persuasion and of memory — they make your ideas stick.',
+    positiveExamples: [
+      { sentence: 'Football is a language. Football is a culture. Football is, above all, a community.', note: 'Anaphora — repeating "Football is" three times creates rhythm, emphasis, and a sense of building toward a conclusion.' },
+      { sentence: 'So who is the greatest manager of all time? I would argue it is not about who won the most trophies.', note: 'Rhetorical question followed by a surprising answer — engages the audience and reframes the debate.' },
+      { sentence: 'I opened with a question about belonging. I want to close with an answer: football is where belonging lives.', note: 'Callback — returning to the opening image gives the talk a sense of structure and completion.' },
+    ],
+    negativeExamples: [],
+  },
+  vocabulary: [
+    { word: 'RHETORIC', partOfSpeech: 'noun', definition: 'the art of using language to persuade or influence an audience', example: '"His rhetoric was powerful — every sentence seemed to build toward a single, inevitable conclusion."', imageSlug: '/images/hero.png' },
+    { word: 'ANAPHORA', partOfSpeech: 'noun', definition: 'repeating the same word or phrase at the start of several sentences in a row', example: '"The speech used anaphora brilliantly: 'We will press. We will attack. We will not give up.'"', imageSlug: '/images/hero.png' },
+    { word: 'THESIS', partOfSpeech: 'noun', definition: 'the main argument or central claim of a talk or essay', example: '"State your thesis early — the audience needs to know what you are arguing before you argue it."', imageSlug: '/images/hero.png' },
+    { word: 'CONVICTION', partOfSpeech: 'noun', definition: 'a strong, deep belief in something — which comes through in how you say it', example: '"She delivered her argument with such conviction that the room was silent when she finished."', imageSlug: '/images/hero.png' },
+    { word: 'RESONANCE', partOfSpeech: 'noun', definition: 'the quality of an idea or phrase that makes it feel meaningful and lasting', example: '"The best TED talks have resonance — you are still thinking about them days later."', imageSlug: '/images/hero.png' },
+    { word: 'PIVOT', partOfSpeech: 'noun / verb', definition: 'a sudden change in direction — in an argument, moving to a new or unexpected point', example: '"After establishing the problem, he pivoted to the solution — and the audience leaned forward."', imageSlug: '/images/hero.png' },
+    { word: 'PROVOKE', partOfSpeech: 'verb', definition: 'to make people think or feel something strongly — to stir the audience', example: '"A great opening should provoke — it should make the audience question something they thought they knew."', imageSlug: '/images/hero.png' },
+    { word: 'CALLBACK', partOfSpeech: 'noun', definition: 'a reference back to an earlier image, phrase, or idea in the same talk', example: '"The callback to the opening story gave the talk a beautiful sense of completeness."', imageSlug: '/images/hero.png' },
+  ],
+  phrasalVerbs: [
+    { phrase: 'OPEN WITH', definition: 'to begin a talk with a specific device — a story, question, or image', example: '"Open with a story, not a statistic — people remember narratives, not numbers."', imageSlug: '/images/hero.png' },
+    { phrase: 'BUILD TO', definition: 'to gradually increase toward the most powerful moment', example: '"The talk builds to a single, unforgettable conclusion — everything before it is preparation."', imageSlug: '/images/hero.png' },
+    { phrase: 'LAND ON', definition: 'to arrive at the main point or conclusion', example: '"After the pivot, land on your thesis clearly — do not bury it in qualifications."', imageSlug: '/images/hero.png' },
+    { phrase: 'WIN OVER', definition: 'to persuade someone to agree with you', example: '"By the third minute, she had won over the audience — they were completely with her."', imageSlug: '/images/hero.png' },
+    { phrase: 'CALL BACK TO', definition: 'to refer to something said earlier in the same talk', example: '"In the conclusion, call back to the opening image — it gives the talk a sense of completeness."', imageSlug: '/images/hero.png' },
+    { phrase: 'WRAP UP', definition: 'to bring the talk to a satisfying close', example: '"Wrap up with one clear sentence — the single thought you want them to take away."', imageSlug: '/images/hero.png' },
+  ],
+  onThePitch: {
+    instructions: 'Match each TED-talk term to its meaning in the context of a structured football talk.',
+    items: [
+      { cue: 'Big idea', meaning: 'The central concept of the talk — the one thing you want the audience to understand differently.', usage: '"Your big idea should fit in one sentence. If it takes a paragraph, it is not clear enough yet."', imageSlug: 'otp-ted' },
+      { cue: 'Through line', meaning: 'The single idea that connects every section of the talk — the invisible thread.', usage: '"The through line in this talk is that pressing is not physical — it is cognitive."', imageSlug: 'otp-ted' },
+      { cue: 'Pause for effect', meaning: 'Deliberate silence after a key statement — giving it space and weight.', usage: '"He said: 'Football saved my life.' Then he paused for five seconds. Nobody breathed."', imageSlug: 'otp-ted' },
+      { cue: 'Call to action', meaning: 'An instruction at the end of the talk telling the audience what to do or think differently.', usage: '"The call to action was simple: next time you watch a match, look at the spaces, not the ball."', imageSlug: 'otp-ted' },
+      { cue: 'Stand-alone stat', meaning: 'A single number or fact that makes a big impact on its own — used without explanation.', usage: '"Seventy percent of goals are scored from under ten metres. Think about that."', imageSlug: 'otp-ted' },
+      { cue: 'Personal story', meaning: 'An anecdote from the speaker\'s own life — makes the argument feel human and real.', usage: '"Her personal story about not being selected for the academy gave the talk its emotional core."', imageSlug: 'otp-ted' },
+    ],
+  },
+  videos: [],
+  dialogue: [
+    { speaker: 'Kemi', speakerColor: 'green', text: 'I have my topic — I want to argue that pressing changed football forever. But I do not know how to make it into a talk, not just a lecture.' },
+    { speaker: 'Coach Petra', speakerColor: 'purple', text: 'The first thing to find is your through line. Everything in the talk should connect back to one central idea. What is yours, in one sentence?' },
+    { speaker: 'Kemi', speakerColor: 'green', text: 'Maybe... pressing is not about running — it is about thinking. It is a language, not a tactic.' },
+    { speaker: 'Coach Petra', speakerColor: 'purple', text: 'That is excellent. Now — how do you open? You need to provoke the audience in the first thirty seconds.' },
+    { speaker: 'Kemi', speakerColor: 'green', text: 'I was thinking of opening with a rhetorical question — something like: what if the most important thing in football happens when nobody has the ball?' },
+    { speaker: 'Coach Petra', speakerColor: 'purple', text: 'Perfect. That unsettles people immediately. Then you pivot to your thesis, build your argument, and use anaphora when you hit the central point.' },
+    { speaker: 'Kemi', speakerColor: 'green', text: 'And how do I land on the conclusion without it feeling like I am just summarising?' },
+    { speaker: 'Coach Petra', speakerColor: 'purple', text: 'Call back to the opening question. Return to it and answer it differently now that you have made your argument. The resonance comes from that sense of completion — you provoked, and now you resolve.' },
+  ],
+  matchingExercise: [
+    { word: 'rhetoric', definition: 'the art of using language to persuade or influence' },
+    { word: 'anaphora', definition: 'repeating the same word or phrase at the start of several sentences' },
+    { word: 'thesis', definition: 'the main argument or central claim of a talk' },
+    { word: 'conviction', definition: 'a strong belief that comes through in how you speak' },
+    { word: 'resonance', definition: 'the quality that makes an idea feel meaningful and lasting' },
+    { word: 'pivot', definition: 'a sudden change of direction in an argument' },
+    { word: 'provoke', definition: 'to make people think or feel something strongly' },
+    { word: 'callback', definition: 'a reference back to an earlier image or phrase in the same talk' },
+  ],
+  fillBlankExercise: [
+    { before: 'State your', answer: 'thesis', after: 'in the first two minutes — the audience needs to know what you are arguing before you argue it.' },
+    { before: 'The speech used', answer: 'anaphora', after: 'brilliantly: "We pressed. We attacked. We believed."' },
+    { before: 'A great opening should', answer: 'provoke', after: '— make the audience question something they thought they already understood.' },
+    { before: 'After the', answer: 'pivot', after: 'from the problem to the solution, the audience leaned forward — they felt the change.' },
+    { before: 'The', answer: 'callback', after: 'to the opening image gave the talk a sense of completeness and emotional resonance.' },
+    { before: 'She delivered her argument with total', answer: 'conviction', after: '— every word felt like something she had believed for years.' },
+    { before: 'Find your through line and', answer: 'build to', after: 'it — every anecdote, every stat, every pause should lead toward that final moment.' },
+  ],
+  multipleChoiceExercise: [
+    { question: 'What is anaphora?', options: ['A list of three related ideas.', 'Repeating the same word or phrase at the start of several sentences.', 'A rhetorical question with no answer.'], correctIndex: 1 },
+    { question: 'What is a "through line" in a TED-style talk?', options: ['The final sentence of the talk.', 'A single idea that connects every part of the talk.', 'A personal story used as an example.'], correctIndex: 1 },
+    { question: 'What does "call back to" mean?', options: ['To repeat a phrase from another speaker.', 'To return to an image or idea from earlier in the same talk.', 'To answer a listener\'s question.'], correctIndex: 1 },
+    { question: 'What is the purpose of a "pivot" in a talk?', options: ['To summarise everything you have said.', 'To suddenly change direction — moving from problem to solution, or from doubt to conviction.', 'To introduce a new speaker.'], correctIndex: 1 },
+    { question: 'What gives a talk "resonance"?', options: ['Using very loud and confident delivery.', 'Including many statistics and facts.', 'The quality that makes ideas feel meaningful and lasting — connecting emotionally as well as intellectually.'], correctIndex: 2 },
+  ],
+  completeSentenceExercise: {
+    instructions: 'Choose the best word or phrase to complete each sentence.',
+    items: [
+      { sentence: 'She _____ a personal story — she was cut from the academy at sixteen — and the whole room went quiet.', options: ['opened with', 'built to', 'landed on'], correctIndex: 0, explanation: '"Open with" means to begin a talk with a specific device — here, a personal story that hooks the audience immediately.' },
+      { sentence: 'The whole talk _____ one moment: the idea that space is football\'s most valuable resource.', options: ['called back to', 'built to', 'won over'], correctIndex: 1, explanation: '"Build to" means to gradually move toward the most powerful moment — the structure of the talk creates that forward momentum.' },
+      { sentence: 'After the _____, she moved from the problem of tired players to the solution of better governance.', options: ['callback', 'pivot', 'thesis'], correctIndex: 1, explanation: 'A "pivot" is a change in direction — from identifying the problem to proposing the solution.' },
+      { sentence: 'The final line _____ the opening image perfectly — and the audience felt the completeness of the argument.', options: ['called back to', 'landed on', 'wrapped up'], correctIndex: 0, explanation: '"Call back to" means to refer to something said earlier — when the ending mirrors the opening, the talk feels whole.' },
+      { sentence: 'A great opening should _____ the audience — make them question something they thought they already knew.', options: ['win over', 'provoke', 'land on'], correctIndex: 1, explanation: '"Provoke" means to make people think or feel something strongly — exactly what a disruptive opening does.' },
+      { sentence: 'Wrap up with your one clear sentence — the _____ the audience will carry out of the room.', options: ['thesis', 'callback', 'pivot'], correctIndex: 0, explanation: 'The "thesis" is your central claim — stated clearly at the end, it becomes the single idea the audience remembers.' },
+    ],
+  },
+  groupActivities: {
+    chooseResponse: {
+      instructions: 'You are coaching someone before their TED-style talk. Choose the best advice.',
+      items: [
+        {
+          customerLine: 'I am going to open with three slides of statistics to establish my credibility.',
+          options: [
+            'Good idea — data is the most persuasive way to start.',
+            'Statistics work later in the talk, but they are a weak opening. Open with something that provokes — a personal story, a rhetorical question, or one stand-alone stat with no explanation.',
+            'Three slides is probably too many — try one.',
+          ],
+          correctIndex: 1,
+          explanation: 'The second option gives specific, practical advice using precise vocabulary (provoke, stand-alone stat, rhetorical question) — the analytical, C2-level coaching response.',
+        },
+        {
+          customerLine: 'My conclusion is just a summary of the three main points. Is that okay?',
+          options: [
+            'Yes — summaries are clear and easy for the audience to follow.',
+            'No — a summary close is the weakest ending. Use a callback to your opening and land on your thesis with conviction. Leave the audience with one thought, not three.',
+            'Try to reduce it to two points instead.',
+          ],
+          correctIndex: 1,
+          explanation: 'The second option explains why a summary is weak, uses precise vocabulary (callback, thesis, conviction), and gives a clear alternative — the expert coaching response at C2 level.',
+        },
+      ],
+    },
+    finishTheLine: {
+      instructions: 'Complete each section of a TED-style football talk. Focus on rhetorical devices and spoken persuasion.',
+      items: [
+        { customerLine: '', salespersonStart: 'What if the most important thing in football is the thing nobody watches?', suggestedCompletion: 'Not the goal. Not the tackle. The space. The empty space that the best players in the world spend their entire careers learning to see.' },
+        { customerLine: '', salespersonStart: 'Pressing is not about running. Pressing is not about fitness.', suggestedCompletion: 'Pressing is about thinking — eleven players sharing one idea at exactly the same moment. That is not a tactic. That is a language.' },
+        { customerLine: '', salespersonStart: 'I started this talk with a question about what the most important thing in football is.', suggestedCompletion: 'I can answer it now: it is not the ball, not the trophy, not the contract. It is the shared understanding between players who speak the same game.' },
+      ],
+    },
+  },
+};

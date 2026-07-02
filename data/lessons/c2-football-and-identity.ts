@@ -1,0 +1,138 @@
+import { Lesson } from '@/types/lesson';
+export const c2FootballAndIdentity: Lesson = {
+  slug: 'c2-football-and-identity',
+  title: 'Football and Identity',
+  subtitle: 'Unit 3 — Football philosophy',
+  level: 'C1-C2',
+  description: 'Explore how football shapes and reflects national identity, club culture, and political life — and how to discuss it in abstract, academic English.',
+  heroImage: '/images/hero.png',
+  warmUp: {
+    questions: [
+      'Does the football team you support say something about who you are? What does it say?',
+      'Can you think of a match that carried political or cultural meaning beyond the sport itself?',
+      'Is it possible to separate football from politics? Should we try?',
+    ],
+  },
+  grammarFocus: {
+    focusTitle: 'Nominalization for Abstract Discussion',
+    description: 'Advanced academic and analytical writing often turns verbs and adjectives into noun phrases. This is called nominalization. Instead of "people identify with clubs," write "club identification." Instead of "the game divides communities," write "the divisive power of the game." Nominalization creates a more formal, analytical tone and allows you to discuss abstract ideas more precisely.',
+    positiveExamples: [
+      { sentence: 'The politicisation of football is not new — it has existed since the sport\'s earliest days.', note: '"Politicisation" is the nominalization of "politicise" — more analytical than "making football political."' },
+      { sentence: 'Club identification often runs deeper than national loyalty.', note: '"Club identification" replaces "identifying with a club" — a cleaner noun phrase for academic writing.' },
+      { sentence: 'The visibility of the national team shapes how a country represents itself to the world.', note: '"The visibility" and "how a country represents itself" combine to create an abstract, analytical statement.' },
+    ],
+    negativeExamples: [],
+  },
+  vocabulary: [
+    { word: 'IDENTITY', partOfSpeech: 'noun', definition: 'the set of qualities and beliefs that make a person or group who they are', example: '"For many fans, the club is central to their sense of identity."', imageSlug: '/images/hero.png' },
+    { word: 'IDEOLOGY', partOfSpeech: 'noun', definition: 'a set of political or social beliefs that guide a group', example: '"Some clubs were founded with a clear political ideology — worker-owned and community-driven."', imageSlug: '/images/hero.png' },
+    { word: 'TRIBALISM', partOfSpeech: 'noun', definition: 'very strong loyalty to your own group and hostility toward others', example: '"Football tribalism can bring people together or divide communities along old fault lines."', imageSlug: '/images/hero.png' },
+    { word: 'EMBODY', partOfSpeech: 'verb', definition: 'to represent a quality or idea in a complete and clear way', example: '"Barcelona\'s style of play is said to embody Catalan identity and values."', imageSlug: '/images/hero.png' },
+    { word: 'DIVISIVE', partOfSpeech: 'adjective', definition: 'causing disagreement or splitting a group into opposing sides', example: '"El Clasico is one of the most divisive fixtures in world sport."', imageSlug: '/images/hero.png' },
+    { word: 'SOVEREIGNTY', partOfSpeech: 'noun', definition: 'full control or authority over something, especially a territory or institution', example: '"The debate over national football associations reflects broader questions of sovereignty."', imageSlug: '/images/hero.png' },
+    { word: 'RITUAL', partOfSpeech: 'noun', definition: 'something done regularly that has social or symbolic meaning', example: '"The pre-match ritual of singing the anthem unites the crowd before kick-off."', imageSlug: '/images/hero.png' },
+    { word: 'SOLIDARITY', partOfSpeech: 'noun', definition: 'unity and support among people who share something important', example: '"When the club faced financial crisis, fan solidarity kept it alive."', imageSlug: '/images/hero.png' },
+  ],
+  phrasalVerbs: [
+    { phrase: 'IDENTIFY WITH', definition: 'to feel a connection to a person, group, or set of values', example: '"Young players identify with clubs that reflect their community and background."', imageSlug: '/images/hero.png' },
+    { phrase: 'STAND FOR', definition: 'to represent a set of values or beliefs', example: '"The club\'s crest and colors stand for more than just football — they stand for a city\'s history."', imageSlug: '/images/hero.png' },
+    { phrase: 'GIVE RISE TO', definition: 'to cause or produce something', example: '"The rivalry gave rise to some of the most politically charged matches in history."', imageSlug: '/images/hero.png' },
+    { phrase: 'GROW OUT OF', definition: 'to develop from something else over time', example: '"Modern football hooliganism grew out of economic frustration and political tension."', imageSlug: '/images/hero.png' },
+    { phrase: 'PLAY INTO', definition: 'to support or strengthen an idea, often without intending to', example: '"The club\'s spending played into the narrative that money has destroyed the sport."', imageSlug: '/images/hero.png' },
+    { phrase: 'LINE UP WITH', definition: 'to agree with or support a particular position or group', example: '"His public statements on club ownership lined up with the fans' campaign for reform."', imageSlug: '/images/hero.png' },
+  ],
+  onThePitch: {
+    instructions: 'Match each term to its meaning in the context of football and culture.',
+    items: [
+      { cue: 'Derby match', meaning: 'A match between two local rivals — often carrying social, political, or historical meaning.', usage: '"The derby is not just a football match — it is a battle for the city\'s identity."', imageSlug: 'otp-identity' },
+      { cue: 'Ultras', meaning: 'The most organised and passionate fan groups — sometimes linked to political causes.', usage: '"The ultras' display before kick-off included political banners and chants."', imageSlug: 'otp-identity' },
+      { cue: 'Tifosi', meaning: 'The Italian word for passionate football supporters; also used internationally.', usage: '"The tifosi created an atmosphere that made the stadium feel like a living thing."', imageSlug: 'otp-identity' },
+      { cue: 'National style', meaning: 'The distinctive way a country tends to play football, shaped by culture and history.', usage: '"Analysts debate whether national style is real or just a comfortable myth."', imageSlug: 'otp-identity' },
+      { cue: 'Fan ownership', meaning: 'A model where supporters own a share or all of the club.', usage: '"Fan ownership is seen by many as a way to restore football\'s identity."', imageSlug: 'otp-identity' },
+      { cue: 'Kit colors', meaning: 'The colors and symbols of a club\'s uniform — often linked to identity and history.', usage: '"Changing the kit colors was seen as an attack on the club\'s identity."', imageSlug: 'otp-identity' },
+    ],
+  },
+  videos: [],
+  dialogue: [
+    { speaker: 'Elena', speakerColor: 'red', text: 'I keep hearing that football and politics should not mix — but I struggle with that. Can you really separate them?' },
+    { speaker: 'Dr. Osei', speakerColor: 'green', text: 'Most historians would say no. Football grew out of the same social conditions as the political movements of the nineteenth and twentieth centuries. The two are inseparable.' },
+    { speaker: 'Elena', speakerColor: 'red', text: 'So when Barcelona plays Real Madrid, it is not just football?' },
+    { speaker: 'Dr. Osei', speakerColor: 'green', text: 'El Clasico embodies decades of political tension — Catalan identity against the centralised Spanish state. For many supporters, that rivalry stands for something much bigger than a result.' },
+    { speaker: 'Elena', speakerColor: 'red', text: 'Is that tribalism a bad thing? It builds community too.' },
+    { speaker: 'Dr. Osei', speakerColor: 'green', text: 'That is the paradox. Football tribalism creates solidarity within the group. But it can also give rise to hostility and division. The same energy that builds community can divide it.' },
+    { speaker: 'Elena', speakerColor: 'red', text: 'So the ritual of the match — the anthems, the chants, the scarves — all of that is identity work.' },
+    { speaker: 'Dr. Osei', speakerColor: 'green', text: 'Exactly. The stadium is one of the few places where people express their collective identity in public, physically, every week. That is why football plays into political narratives so easily.' },
+  ],
+  matchingExercise: [
+    { word: 'identity', definition: 'the qualities that make a person or group who they are' },
+    { word: 'ideology', definition: 'a set of political or social beliefs that guide a group' },
+    { word: 'tribalism', definition: 'strong loyalty to your own group and hostility toward others' },
+    { word: 'embody', definition: 'to represent a quality or idea in a complete way' },
+    { word: 'divisive', definition: 'causing disagreement or splitting people into opposing sides' },
+    { word: 'sovereignty', definition: 'full control or authority over something' },
+    { word: 'ritual', definition: 'something done regularly that has social or symbolic meaning' },
+    { word: 'solidarity', definition: 'unity and support among people who share something important' },
+  ],
+  fillBlankExercise: [
+    { before: 'For many supporters, the club is central to their sense of', answer: 'identity', after: '— it defines who they are in their city.' },
+    { before: 'El Clasico is said to', answer: 'embody', after: 'the political tension between Catalonia and the Spanish state.' },
+    { before: 'Football', answer: 'tribalism', after: 'can create strong community bonds, but it can also divide people.' },
+    { before: 'The rivalry between the two clubs', answer: 'gave rise to', after: 'some of the most politically charged atmospheres in European football.' },
+    { before: 'Singing the anthem before a match is a powerful', answer: 'ritual', after: 'that unites the crowd and reinforces national identity.' },
+    { before: 'The fans\'', answer: 'solidarity', after: 'during the financial crisis kept the club alive when the board wanted to sell.' },
+    { before: 'Some clubs were built around a clear political', answer: 'ideology', after: '— worker-owned and rooted in the local community.' },
+  ],
+  multipleChoiceExercise: [
+    { question: 'What does "embody" mean in the context of football and identity?', options: ['To physically represent something in a match.', 'To represent a quality or idea in a complete and clear way.', 'To challenge an identity or set of values.'], correctIndex: 1 },
+    { question: 'What is a "derby match"?', options: ['A match played in difficult weather conditions.', 'A match between two local rivals with cultural or political significance.', 'A match to decide the league title.'], correctIndex: 1 },
+    { question: 'What does "give rise to" mean?', options: ['To oppose or challenge something.', 'To cause or produce something.', 'To feel a connection to something.'], correctIndex: 1 },
+    { question: 'What is the paradox of football tribalism mentioned in the dialogue?', options: ['Football is both political and cultural at the same time.', 'The same energy that builds community can also divide it.', 'Football clubs have both local and global identities.'], correctIndex: 1 },
+    { question: 'Which sentence uses nominalization correctly?', options: ['"Football divides people very much."', '"The divisiveness of football is well documented."', '"Football is a divisive and people get angry."'], correctIndex: 1 },
+  ],
+  completeSentenceExercise: {
+    instructions: 'Choose the best word or phrase to complete each sentence.',
+    items: [
+      { sentence: 'The stadium chants and scarves are a powerful _____ that reinforces the community\'s shared history.', options: ['ideology', 'ritual', 'sovereignty'], correctIndex: 1, explanation: 'A "ritual" is a repeated action with symbolic meaning — exactly what chants and match-day traditions are.' },
+      { sentence: 'The club\'s founding _____ was rooted in the labour movement — it was built by workers, for workers.', options: ['tribalism', 'identity', 'ideology'], correctIndex: 2, explanation: '"Ideology" refers to the set of political or social beliefs that guide a group — the right word for founding principles.' },
+      { sentence: 'The derby _____ decades of tension between two communities who live just three miles apart.', options: ['plays into', 'gives rise to', 'embodies'], correctIndex: 2, explanation: '"Embody" means to represent something in a complete way — the derby does not just reflect tension, it represents it.' },
+      { sentence: 'The new ownership\'s decisions _____ the narrative that football clubs no longer belong to their communities.', options: ['played into', 'identified with', 'grew out of'], correctIndex: 0, explanation: '"Play into" means to support or strengthen a narrative, often unintentionally — which is what the owners did.' },
+      { sentence: 'The politicisation of football _____ the same social conditions as the industrial revolution.', options: ['gave rise to', 'grew out of', 'lined up with'], correctIndex: 1, explanation: '"Grew out of" means to develop from something — the politicisation of football developed from those conditions.' },
+      { sentence: 'Fan _____ during the ownership crisis showed how much the club meant to the local community.', options: ['sovereignty', 'solidarity', 'tribalism'], correctIndex: 1, explanation: '"Solidarity" is unity and mutual support — what fans showed by standing together during the crisis.' },
+    ],
+  },
+  groupActivities: {
+    chooseResponse: {
+      instructions: 'A podcast host asks you about football and identity. Choose the most analytically precise response.',
+      items: [
+        {
+          customerLine: 'Do you think football should stay out of politics?',
+          options: [
+            'Yes — sport should be neutral and bring people together.',
+            'It depends on the situation.',
+            'Football has never been separate from politics. To ask the game to stay out of politics is to misunderstand its history — it grew out of the same communities that politics shaped.',
+          ],
+          correctIndex: 2,
+          explanation: 'The third option demonstrates C2-level analytical thinking — it reframes the question, uses precise language, and gives a historically grounded argument rather than a vague opinion.',
+        },
+        {
+          customerLine: 'Is tribalism in football dangerous?',
+          options: [
+            'Yes, it always leads to violence.',
+            'No, it is just passion.',
+            'Tribalism is both a strength and a risk. The same solidarity it creates within a group can give rise to hostility toward others — the key is how clubs and communities manage it.',
+          ],
+          correctIndex: 2,
+          explanation: 'The third option uses precise vocabulary (solidarity, give rise to, tribalism) and presents a balanced, nuanced argument — exactly the analytical register expected at C2.' ,
+        },
+      ],
+    },
+    finishTheLine: {
+      instructions: 'You are giving an academic talk on football and identity. Complete each statement using the vocabulary from this lesson.',
+      items: [
+        { customerLine: '', salespersonStart: 'Football is not just a sport — it is a site of identity construction.', suggestedCompletion: 'The rituals of the match day, from the anthem to the final whistle, are all acts of collective solidarity.' },
+        { customerLine: '', salespersonStart: 'Club rivalries often embody something much larger than competition on the pitch.', suggestedCompletion: 'They give rise to expressions of ideology, sovereignty, and belonging that fans carry long after the final score is forgotten.' },
+        { customerLine: '', salespersonStart: 'Tribalism in football is frequently criticised as divisive.', suggestedCompletion: 'But it is also the source of the solidarity and community identity that makes the sport so powerful in people\'s lives.' },
+      ],
+    },
+  },
+};

@@ -110,6 +110,16 @@ import { c2NetworkingInFootball } from './c2-networking-in-football';
 import { c2PresentingTacticsToABoard } from './c2-presenting-tactics-to-a-board';
 import { c2NegotiatingAsAPlayer } from './c2-negotiating-as-a-player';
 import { c2InternationalFootballEnvironments } from './c2-international-football-environments';
+import { c2FootballAsALanguage } from './c2-football-as-a-language';
+import { c2GreatFootballThinkers } from './c2-great-football-thinkers';
+import { c2FootballAndIdentity } from './c2-football-and-identity';
+import { c2TheFutureOfFootball } from './c2-the-future-of-football';
+import { c2WomensFootball } from './c2-womens-football';
+import { c2RecordAPodcastEpisode } from './c2-record-a-podcast-episode';
+import { c2WriteAPlayerProfile } from './c2-write-a-player-profile';
+import { c2DeliverLiveCommentary } from './c2-deliver-live-commentary';
+import { c2TheTedStyleTalk } from './c2-the-ted-style-talk';
+import { c2CapstoneYourFootballManifesto } from './c2-capstone-your-football-manifesto';
 import { gameOnFirstWords } from './game-on-first-words';
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -629,6 +639,16 @@ export const lessons: Lesson[] = [
   c2PresentingTacticsToABoard,
   c2NegotiatingAsAPlayer,
   c2InternationalFootballEnvironments,
+  c2FootballAsALanguage,
+  c2GreatFootballThinkers,
+  c2FootballAndIdentity,
+  c2TheFutureOfFootball,
+  c2WomensFootball,
+  c2RecordAPodcastEpisode,
+  c2WriteAPlayerProfile,
+  c2DeliverLiveCommentary,
+  c2TheTedStyleTalk,
+  c2CapstoneYourFootballManifesto,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {

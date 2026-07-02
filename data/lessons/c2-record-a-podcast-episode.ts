@@ -1,0 +1,138 @@
+import { Lesson } from '@/types/lesson';
+export const c2RecordAPodcastEpisode: Lesson = {
+  slug: 'c2-record-a-podcast-episode',
+  title: 'Record a Podcast Episode',
+  subtitle: 'Unit 4 — Mastery output',
+  level: 'C1-C2',
+  description: 'Script, deliver, and critique a five-minute football podcast episode in English — focusing on spoken register, structure, and natural flow.',
+  heroImage: '/images/hero.png',
+  warmUp: {
+    questions: [
+      'Do you listen to any football podcasts in English? What makes a great podcast episode?',
+      'How is spoken English different from written English? Give two examples.',
+      'What is the difference between scripting something and improvising? Which is harder for you in English?',
+    ],
+  },
+  grammarFocus: {
+    focusTitle: 'Scripting for Spoken Delivery',
+    description: 'Spoken English uses different structures from written English. In a podcast, use: short sentences and rhetorical questions to keep energy high; transition phrases that sound natural when spoken ("Now, here is the thing...", "And that brings me to..."); and contractions and informal connectors that sound conversational. Avoid long subordinate clauses that are hard to say clearly and may confuse the listener.',
+    positiveExamples: [
+      { sentence: 'Now, here is the thing about pressing — it is not about effort. It is about timing.', note: 'Two short sentences replace one long clause. Easy to say, easy to follow.' },
+      { sentence: 'And that brings me to the question I want to ask today: who actually invented the high press?', note: '"And that brings me to" is a natural spoken transition — it signals a new topic without sounding formal.' },
+      { sentence: 'Think about it this way: what if the most important thing in football is the thing no one talks about?', note: 'A rhetorical question hooks the listener and creates forward momentum in the episode.' },
+    ],
+    negativeExamples: [],
+  },
+  vocabulary: [
+    { word: 'HOOK', partOfSpeech: 'noun', definition: 'an opening line or idea that grabs the listener\'s attention immediately', example: '"A strong hook in the first ten seconds is what keeps people listening instead of skipping."', imageSlug: '/images/hero.png' },
+    { word: 'SEGMENT', partOfSpeech: 'noun', definition: 'one section or part of a podcast or broadcast', example: '"The episode is divided into three segments — the main story, an interview clip, and the analysis."', imageSlug: '/images/hero.png' },
+    { word: 'TRANSCRIPT', partOfSpeech: 'noun', definition: 'a written version of everything said in a recording', example: '"Always read the transcript of your episode after recording — you will hear things you missed."', imageSlug: '/images/hero.png' },
+    { word: 'SCRIPTED', partOfSpeech: 'adjective', definition: 'planned and written down before being spoken', example: '"The opening is fully scripted, but the discussion section is unscripted and spontaneous."', imageSlug: '/images/hero.png' },
+    { word: 'PACING', partOfSpeech: 'noun', definition: 'the speed and rhythm of your speech', example: '"Good pacing means slowing down for the key points and speeding up during stories."', imageSlug: '/images/hero.png' },
+    { word: 'CRITIQUE', partOfSpeech: 'noun / verb', definition: 'a detailed judgment of strengths and weaknesses — or to do that', example: '"After each recording, critique your own delivery: pacing, clarity, and register."', imageSlug: '/images/hero.png' },
+    { word: 'CODA', partOfSpeech: 'noun', definition: 'a final section that closes the piece with a strong, memorable ending', example: '"The best podcast codas leave the listener with one clear thought to take away."', imageSlug: '/images/hero.png' },
+    { word: 'REGISTER', partOfSpeech: 'noun', definition: 'the level of formality in language — formal, neutral, or informal', example: '"The register of a podcast is usually conversational — not too formal, not too casual."', imageSlug: '/images/hero.png' },
+  ],
+  phrasalVerbs: [
+    { phrase: 'WRAP UP', definition: 'to bring something to a close', example: '"Let us wrap up this segment and move to the main interview."', imageSlug: '/images/hero.png' },
+    { phrase: 'PICK UP ON', definition: 'to notice and develop a specific detail or idea', example: '"I want to pick up on something you said earlier — about the role of data in modern scouting."', imageSlug: '/images/hero.png' },
+    { phrase: 'FILL IN', definition: 'to give background information the listener needs', example: '"Before we get to the match, let me fill in some context about the rivalry."', imageSlug: '/images/hero.png' },
+    { phrase: 'CUT TO', definition: 'to move quickly from one topic or idea to the next', example: '"Let us cut to the key question: was the referee right or wrong?"', imageSlug: '/images/hero.png' },
+    { phrase: 'SIGN OFF', definition: 'to say goodbye and close a broadcast or recording', example: '"Thanks for listening — and we will sign off with one final thought."', imageSlug: '/images/hero.png' },
+    { phrase: 'ZOOM IN ON', definition: 'to focus closely on one specific detail or idea', example: '"I want to zoom in on that second-half substitution — it changed everything."', imageSlug: '/images/hero.png' },
+  ],
+  onThePitch: {
+    instructions: 'Match each podcast term to its meaning.',
+    items: [
+      { cue: 'Cold open', meaning: 'Starting the podcast immediately — no music or introduction — to grab attention.', usage: '"We open cold with the most dramatic moment of the match, then explain what happened."', imageSlug: 'otp-podcast' },
+      { cue: 'Hot take', meaning: 'A strong, personal opinion — often surprising or controversial.', usage: '"Here is my hot take: that was the worst tactical decision of the season."', imageSlug: 'otp-podcast' },
+      { cue: 'Running time', meaning: 'The total length of a podcast episode.', usage: '"We are trying to keep the running time under thirty minutes — listeners want focused content."', imageSlug: 'otp-podcast' },
+      { cue: 'Listener question', meaning: 'A question sent in by an audience member, often read and answered on air.', usage: '"We received a great listener question about whether pressing can work without pace."', imageSlug: 'otp-podcast' },
+      { cue: 'Throwback episode', meaning: 'An episode that looks back at a historical match or story.', usage: '"Our throwback episode on the 1999 Champions League final is still our most downloaded."', imageSlug: 'otp-podcast' },
+      { cue: 'B-roll audio', meaning: 'Background sound — crowd noise, stadium atmosphere — used under narration.', usage: '"We added B-roll audio from the stadium to make the match description feel alive."', imageSlug: 'otp-podcast' },
+    ],
+  },
+  videos: [],
+  dialogue: [
+    { speaker: 'Amara', speakerColor: 'orange', text: 'I recorded my first solo episode and it sounded terrible. My pacing was all over the place.' },
+    { speaker: 'Coach Theo', speakerColor: 'green', text: 'That is very normal. The biggest mistake new podcasters make is writing for the eye, not the ear. Did you read the transcript back?' },
+    { speaker: 'Amara', speakerColor: 'orange', text: 'I did. The sentences were too long. When I read them out loud they sounded like essays.' },
+    { speaker: 'Coach Theo', speakerColor: 'green', text: 'Exactly. In a scripted podcast, short sentences work better. Cut to the point. And use rhetorical questions — they wake the listener up.' },
+    { speaker: 'Amara', speakerColor: 'orange', text: 'What about the hook? I started with some background and it felt slow.' },
+    { speaker: 'Coach Theo', speakerColor: 'green', text: 'Never fill in context at the beginning. That kills momentum. Open with the most interesting moment, then zoom in on the detail that explains it.' },
+    { speaker: 'Amara', speakerColor: 'orange', text: 'And the ending? I just sort of ran out of things to say.' },
+    { speaker: 'Coach Theo', speakerColor: 'green', text: 'Write the coda first. Decide what one thought you want the listener to leave with — and build toward it. Sign off with something that makes them want to come back.' },
+  ],
+  matchingExercise: [
+    { word: 'hook', definition: 'an opening that grabs the listener\'s attention immediately' },
+    { word: 'segment', definition: 'one section or part of a broadcast' },
+    { word: 'transcript', definition: 'a written version of everything said in a recording' },
+    { word: 'pacing', definition: 'the speed and rhythm of your speech' },
+    { word: 'critique', definition: 'a detailed judgment of strengths and weaknesses' },
+    { word: 'coda', definition: 'a final section that closes the piece with a strong ending' },
+    { word: 'register', definition: 'the level of formality in language' },
+    { word: 'scripted', definition: 'planned and written down before being spoken' },
+  ],
+  fillBlankExercise: [
+    { before: 'The episode opens with a strong', answer: 'hook', after: '— a question nobody expects the answer to.' },
+    { before: 'Read the', answer: 'transcript', after: 'of your recording and you will immediately hear the sentences that are too long.' },
+    { before: 'Good', answer: 'pacing', after: 'means slowing down for key moments and speeding up when telling a story.' },
+    { before: 'The podcast is divided into three', answer: 'segments', after: ': the news, the analysis, and the hot take.' },
+    { before: 'The', answer: 'register', after: 'should be conversational — friendly but informed, not too formal.' },
+    { before: 'We will', answer: 'wrap up', after: 'this segment and then cut to the listener question section.' },
+    { before: 'Write the', answer: 'coda', after: 'before anything else — decide what one idea you want to leave the listener with.' },
+  ],
+  multipleChoiceExercise: [
+    { question: 'What is a "hook" in a podcast?', options: ['The closing line of the episode.', 'An opening that grabs the listener\'s attention immediately.', 'A transition between two segments.'], correctIndex: 1 },
+    { question: 'Which sentence is better for spoken delivery?', options: ['"The fact that the manager had made the decision to substitute the forward in the sixty-second minute was clearly the turning point of the match."', '"Here is the turning point — a substitution in the sixty-second minute. That decision changed everything."', '"The substitution, which was made at sixty-two minutes and which many consider the key moment, was interesting."'], correctIndex: 1 },
+    { question: 'What does "pick up on" mean?', options: ['To collect something that was dropped.', 'To notice and develop a specific detail or idea.', 'To start recording a new segment.'], correctIndex: 1 },
+    { question: 'What is "pacing" in a podcast context?', options: ['How quickly topics change between episodes.', 'The speed and rhythm of your speech.', 'The number of segments in an episode.'], correctIndex: 1 },
+    { question: 'What is a "coda"?', options: ['The opening section of a podcast.', 'Background noise used during narration.', 'A final section that closes the episode with a strong, memorable ending.'], correctIndex: 2 },
+  ],
+  completeSentenceExercise: {
+    instructions: 'Choose the best word or phrase to complete each sentence.',
+    items: [
+      { sentence: 'I want to _____ something our guest said earlier — about whether pressing can work at lower levels.', options: ['wrap up', 'pick up on', 'fill in'], correctIndex: 1, explanation: '"Pick up on" means to notice and develop a specific point — ideal for returning to something in a conversation.' },
+      { sentence: 'Let us _____ with the context of this match before we get to the main analysis.', options: ['cut to', 'sign off', 'fill in'], correctIndex: 2, explanation: '"Fill in" means to give the background information the listener needs before you get to the main point.' },
+      { sentence: 'The podcast\'s _____ is conversational but informed — not too casual, not too academic.', options: ['coda', 'pacing', 'register'], correctIndex: 2, explanation: '"Register" refers to the level of formality in language — exactly what determines whether a podcast feels right for its audience.' },
+      { sentence: 'The opening _____ is the most important ten seconds of the episode — lose the listener there and they are gone.', options: ['hook', 'segment', 'transcript'], correctIndex: 0, explanation: 'The "hook" is the device that grabs attention immediately — the most critical moment in any spoken piece.' },
+      { sentence: 'After recording, always read the _____ and mark every sentence that sounds unnatural when spoken aloud.', options: ['coda', 'transcript', 'pacing'], correctIndex: 1, explanation: 'The "transcript" is the written version of your recording — the best tool for critiquing your own delivery.' },
+      { sentence: 'That is all for today — thanks for listening, and we will _____ with one question to think about until next week.', options: ['sign off', 'zoom in on', 'cut to'], correctIndex: 0, explanation: '"Sign off" means to close a broadcast — the standard phrase for ending a podcast episode.' },
+    ],
+  },
+  groupActivities: {
+    chooseResponse: {
+      instructions: 'You are co-hosting a football podcast. Choose the best scripted response.',
+      items: [
+        {
+          customerLine: 'So you are saying the manager got it completely wrong. Is that your actual position?',
+          options: [
+            'Well, I suppose you could look at it that way, yes, in a manner of speaking.',
+            'Let me be precise. I am not saying he got everything wrong. I am saying the substitution at sixty-two minutes was the moment the game turned — and that one decision is hard to defend.',
+            'Yes he was wrong. Definitely. I think most people agree.',
+          ],
+          correctIndex: 1,
+          explanation: 'The second option uses clear, precise spoken language — it avoids vagueness and qualifies the claim exactly, which is what strong podcast analysis sounds like.',
+        },
+        {
+          customerLine: 'How do you wrap up an episode when there is no clear conclusion?',
+          options: [
+            'Just say goodbye and end it.',
+            'Pick a controversial opinion and state it strongly.',
+            'End with the question the match raises, not the answer. A good coda does not resolve the debate — it deepens it and sends the listener away thinking.',
+          ],
+          correctIndex: 2,
+          explanation: 'The third option uses podcast vocabulary (coda) and gives specific, practical guidance — the kind of precise, professional advice that works at C2 level.',
+        },
+      ],
+    },
+    finishTheLine: {
+      instructions: 'Complete each scripted podcast moment. Focus on natural spoken register and clear structure.',
+      items: [
+        { customerLine: '', salespersonStart: 'Now, here is the thing about pressing — most people think it is about running.', suggestedCompletion: 'It is not. It is about thinking — about eleven players sharing the same idea at the same moment.' },
+        { customerLine: '', salespersonStart: 'And that brings me to the question I want to zoom in on today:', suggestedCompletion: 'if pressing is so effective, why do so many teams still fail to make it work?' },
+        { customerLine: '', salespersonStart: 'Let us wrap up with the one thought I want to leave you with this week.', suggestedCompletion: 'The best teams in the world do not just play football — they speak it. And that is a language anyone can learn.' },
+      ],
+    },
+  },
+};

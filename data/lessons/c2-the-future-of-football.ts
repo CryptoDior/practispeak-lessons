@@ -1,0 +1,138 @@
+import { Lesson } from '@/types/lesson';
+export const c2TheFutureOfFootball: Lesson = {
+  slug: 'c2-the-future-of-football',
+  title: 'The Future of Football',
+  subtitle: 'Unit 3 — Football philosophy',
+  level: 'C1-C2',
+  description: 'Explore how AI, player welfare, and ownership models are reshaping football — and how to discuss the future using precise speculative English.',
+  heroImage: '/images/hero.png',
+  warmUp: {
+    questions: [
+      'If AI could scout better than any human, would that be good or bad for football? Why?',
+      'Do you think players today are protected enough from physical and mental health risks? What should clubs do?',
+      'Who should own a football club — billionaires, fans, or the state? Give reasons for your answer.',
+    ],
+  },
+  grammarFocus: {
+    focusTitle: 'Speculative and Hedging Language',
+    description: 'When discussing the future, C2 writers avoid both overconfidence ("AI will replace scouts") and vagueness ("maybe things will change"). Use modal verbs, hedged structures, and conditional frames to show you are aware of uncertainty: "could well", "is likely to", "there is a strong case for", "it is conceivable that", "assuming X continues".',
+    positiveExamples: [
+      { sentence: 'AI scouting could well replace traditional networks within a decade — but only if clubs invest heavily in data infrastructure.', note: '"Could well" + conditional "but only if" balances possibility with constraint.' },
+      { sentence: 'It is conceivable that player contracts will look entirely different in twenty years.', note: '"It is conceivable that" signals informed speculation, not certainty.' },
+      { sentence: 'Assuming current trends continue, fan ownership is likely to become more common across Europe.', note: '"Assuming X" + "likely to" frames a prediction as conditional and hedged.' },
+    ],
+    negativeExamples: [],
+  },
+  vocabulary: [
+    { word: 'ALGORITHM', partOfSpeech: 'noun', definition: 'a set of rules a computer follows to process data and make decisions', example: '"The club\'s scouting algorithm ranks players by performance data, not reputation."', imageSlug: '/images/hero.png' },
+    { word: 'WELFARE', partOfSpeech: 'noun', definition: 'the health, happiness, and safety of a person', example: '"Player welfare has become a serious concern as fixture schedules grow longer."', imageSlug: '/images/hero.png' },
+    { word: 'TRANSPARENCY', partOfSpeech: 'noun', definition: 'being open and honest about how decisions are made', example: '"Fans are demanding greater transparency in how club finances are managed."', imageSlug: '/images/hero.png' },
+    { word: 'SUSTAINABILITY', partOfSpeech: 'noun', definition: 'the ability to continue long term without causing harm', example: '"Financial sustainability is the challenge that most clubs struggle to solve."', imageSlug: '/images/hero.png' },
+    { word: 'FRAGMENTATION', partOfSpeech: 'noun', definition: 'when something breaks into smaller, separate, disconnected parts', example: '"The fragmentation of broadcast rights has made it harder for fans to watch their club."', imageSlug: '/images/hero.png' },
+    { word: 'GOVERNANCE', partOfSpeech: 'noun', definition: 'the system of rules and processes for running an organisation', example: '"Poor governance at the top level has allowed corrupt practices to continue unchecked."', imageSlug: '/images/hero.png' },
+    { word: 'DISPLACE', partOfSpeech: 'verb', definition: 'to push something or someone out of its normal position', example: '"Data analysis has begun to displace gut instinct in scouting decisions."', imageSlug: '/images/hero.png' },
+    { word: 'SPECULATION', partOfSpeech: 'noun', definition: 'thinking about what might happen in the future, without certainty', example: '"There is a lot of speculation about how AI will change transfer markets."', imageSlug: '/images/hero.png' },
+  ],
+  phrasalVerbs: [
+    { phrase: 'ROLL OUT', definition: 'to introduce something new gradually, stage by stage', example: '"The league plans to roll out real-time player load monitoring across all clubs."', imageSlug: '/images/hero.png' },
+    { phrase: 'OPT IN', definition: 'to choose to join or take part in a system or programme', example: '"Players must opt in to share their biometric data with the medical team."', imageSlug: '/images/hero.png' },
+    { phrase: 'FLAG UP', definition: 'to identify and draw attention to a problem or concern', example: '"The AI system flagged up three injury risks in the squad before the match."', imageSlug: '/images/hero.png' },
+    { phrase: 'PHASE OUT', definition: 'to gradually stop using or doing something over time', example: '"Some analysts believe traditional paper-based scouting will be phased out within ten years."', imageSlug: '/images/hero.png' },
+    { phrase: 'LEVEL OUT', definition: 'to become more equal or balanced over time', example: '"If wealth redistribution rules improve, the financial gap between clubs could level out."', imageSlug: '/images/hero.png' },
+    { phrase: 'SIGN OVER', definition: 'to give control or ownership of something to someone else', example: '"Under the new model, clubs could sign over a percentage of governance rights to supporters."', imageSlug: '/images/hero.png' },
+  ],
+  onThePitch: {
+    instructions: 'Match each modern football concept to its correct meaning.',
+    items: [
+      { cue: 'AI scouting', meaning: 'Using computer algorithms to find and evaluate players based on performance data.', usage: '"AI scouting has already identified players that traditional networks would never have found."', imageSlug: 'otp-future' },
+      { cue: 'xG (expected goals)', meaning: 'A data model that measures the quality of a shot based on historical probability.', usage: '"He scored a goal with an xG of 0.03 — nobody expected that shot to go in."', imageSlug: 'otp-future' },
+      { cue: 'Player load', meaning: 'A measure of the total physical stress placed on a player\'s body during training and matches.', usage: '"The sports science team monitors player load to reduce the risk of injury."', imageSlug: 'otp-future' },
+      { cue: 'Financial Fair Play', meaning: 'UEFA rules designed to stop clubs spending more money than they earn.', usage: '"Financial Fair Play was introduced to improve the sustainability of club football."', imageSlug: 'otp-future' },
+      { cue: 'Fan ownership', meaning: 'A model where supporters own a share of, or the entire, football club.', usage: '"Several German clubs operate under fan ownership and stay financially stable."', imageSlug: 'otp-future' },
+      { cue: 'Biometric data', meaning: 'Physical measurements from a player\'s body — heart rate, sleep, muscle fatigue — used to monitor welfare.', usage: '"Biometric data allows clubs to spot burnout before it becomes a serious problem."', imageSlug: 'otp-future' },
+    ],
+  },
+  videos: [],
+  dialogue: [
+    { speaker: 'Jordan', speakerColor: 'orange', text: 'I read that some clubs are now using AI to make transfer decisions. Do you think that will become standard?' },
+    { speaker: 'Dr. Winters', speakerColor: 'purple', text: 'It could well become the norm — but the speculation is running ahead of the reality. Algorithms are still limited by the quality of the data they are given.' },
+    { speaker: 'Jordan', speakerColor: 'orange', text: 'So they could displace scouts, but not replace the judgment side?' },
+    { speaker: 'Dr. Winters', speakerColor: 'purple', text: 'Exactly. Assuming data collection continues to improve, AI is likely to handle the filtering — finding who is worth watching. But the final decision will probably still involve a human.' },
+    { speaker: 'Jordan', speakerColor: 'orange', text: 'What about player welfare? The fixture schedule keeps growing and players seem exhausted.' },
+    { speaker: 'Dr. Winters', speakerColor: 'purple', text: 'That is a governance failure. There is a strong case for a hard cap on the number of matches per season — but the fragmentation of power between FIFA, UEFA, and the leagues makes any solution very difficult to roll out.' },
+    { speaker: 'Jordan', speakerColor: 'orange', text: 'And fan ownership — is that a real solution to the sustainability problem?' },
+    { speaker: 'Dr. Winters', speakerColor: 'purple', text: 'It is conceivable that it becomes more widespread. Germany has shown it is possible. But it requires transparency and long-term thinking — two things billionaire owners rarely opt in to.' },
+  ],
+  matchingExercise: [
+    { word: 'algorithm', definition: 'a set of rules a computer uses to process data and make decisions' },
+    { word: 'welfare', definition: 'the health, happiness, and safety of a person' },
+    { word: 'transparency', definition: 'being open and honest about how decisions are made' },
+    { word: 'sustainability', definition: 'the ability to continue long term without causing harm' },
+    { word: 'fragmentation', definition: 'when something breaks into smaller, disconnected parts' },
+    { word: 'governance', definition: 'the system of rules for running an organisation' },
+    { word: 'displace', definition: 'to push something out of its normal position' },
+    { word: 'speculation', definition: 'ideas about what might happen in the future, without certainty' },
+  ],
+  fillBlankExercise: [
+    { before: 'The club\'s scouting', answer: 'algorithm', after: 'ranked the player in the top five per cent of midfielders in Europe.' },
+    { before: 'Player', answer: 'welfare', after: 'has become a serious concern as clubs add more games to an already crowded calendar.' },
+    { before: 'Fans are demanding greater', answer: 'transparency', after: 'in how transfer fees and agent payments are disclosed.' },
+    { before: 'The', answer: 'fragmentation', after: 'of broadcast rights means fans need four different subscriptions to watch their team.' },
+    { before: 'Poor', answer: 'governance', after: 'at the top level has allowed financial irregularities to go unchecked for years.' },
+    { before: 'Data analysis has started to', answer: 'displace', after: 'traditional scouting networks at the biggest clubs in Europe.' },
+    { before: 'The league plans to', answer: 'roll out', after: 'real-time biometric tracking to all thirty-six clubs by next season.' },
+  ],
+  multipleChoiceExercise: [
+    { question: 'What does "it is conceivable that" signal in academic writing?', options: ['The writer is certain about a future event.', 'The writer is considering a possibility without claiming it is certain.', 'The writer disagrees with the idea.'], correctIndex: 1 },
+    { question: 'What is "player load"?', options: ['The number of matches a player is available for.', 'A measure of the physical stress on a player\'s body.', 'The price a club pays for a player.'], correctIndex: 1 },
+    { question: 'What does "phase out" mean?', options: ['To introduce something new.', 'To gradually stop using something over time.', 'To increase the use of something.'], correctIndex: 1 },
+    { question: 'What is "Financial Fair Play" designed to do?', options: ['Ensure equal pay for all players.', 'Stop clubs from spending more money than they earn.', 'Guarantee transparency in transfer fees.'], correctIndex: 1 },
+    { question: 'Which sentence uses speculative language correctly?', options: ['"AI will definitely replace scouts within five years."', '"Maybe AI could be useful somehow."', '"It is likely that AI will play a greater role in scouting — but the human judgment element will probably remain."'], correctIndex: 2 },
+  ],
+  completeSentenceExercise: {
+    instructions: 'Choose the best word or phrase to complete each sentence.',
+    items: [
+      { sentence: 'The league plans to _____ video assistant referee technology to all divisions by 2027.', options: ['phase out', 'roll out', 'sign over'], correctIndex: 1, explanation: '"Roll out" means to introduce something new gradually — the right phrase for implementing a new technology across a league.' },
+      { sentence: 'Assuming broadcast revenues continue to grow, the financial gap between clubs could _____ over time.', options: ['fragment', 'level out', 'flag up'], correctIndex: 1, explanation: '"Level out" means to become more balanced — the hope is that revenues spread more evenly.' },
+      { sentence: 'The data system _____ three potential injury risks before the squad had even trained.', options: ['opted in', 'flagged up', 'levelled out'], correctIndex: 1, explanation: '"Flag up" means to identify and draw attention to a problem — exactly what an early-warning system does.' },
+      { sentence: 'There is a strong case for better player _____ regulations — the current fixture schedule is simply unsustainable.', options: ['speculation', 'welfare', 'fragmentation'], correctIndex: 1, explanation: '"Welfare" refers to health and safety — the right word when discussing how players are protected.' },
+      { sentence: 'The _____ of power across FIFA, UEFA, and domestic leagues makes it hard to implement any reform.', options: ['governance', 'fragmentation', 'algorithm'], correctIndex: 1, explanation: '"Fragmentation" describes when authority is split across many disconnected bodies — a key problem in football administration.' },
+      { sentence: '_____, AI could well displace traditional scouting — but only if the data quality improves significantly.', options: ['Assuming current trends continue', 'It is obvious that', 'Without any doubt'], correctIndex: 0, explanation: '"Assuming current trends continue" is the correct hedging frame — it signals a conditional prediction, not a certainty.' },
+    ],
+  },
+  groupActivities: {
+    chooseResponse: {
+      instructions: 'A sports journalist asks for your expert opinion. Choose the most precise and well-hedged response.',
+      items: [
+        {
+          customerLine: 'Will AI replace football scouts within ten years?',
+          options: [
+            'Yes — data is always better than a human\'s opinion.',
+            'No — scouts will never be replaced by machines.',
+            'It could well displace scouts in the filtering stage — finding who is worth watching — but assuming human judgment remains important for final decisions, AI is more likely to work alongside scouts than replace them.',
+          ],
+          correctIndex: 2,
+          explanation: 'The third option uses "could well," "assuming," and "more likely to" — the hedged, conditional language needed for intelligent speculation. It avoids both overconfidence and vagueness.',
+        },
+        {
+          customerLine: 'Is fan ownership really a solution to financial instability in football?',
+          options: [
+            'Yes — fans always make better decisions than billionaires.',
+            'It is conceivable that wider fan ownership would improve sustainability and transparency — but it requires governance structures that most clubs currently lack.',
+            'It sounds good but is probably not practical.',
+          ],
+          correctIndex: 1,
+          explanation: 'The second option uses "it is conceivable," "sustainability," "transparency," and "governance" — precise vocabulary with a balanced, analytical argument at C2 level.',
+        },
+      ],
+    },
+    finishTheLine: {
+      instructions: 'You are on a football panel discussing the future of the game. Complete each statement precisely.',
+      items: [
+        { customerLine: 'What is the biggest threat to football\'s future?', salespersonStart: 'I would argue it is the fragmentation of governance — too many bodies, too little coordination.', suggestedCompletion: 'Without transparency and shared sustainability goals, player welfare and financial stability will continue to suffer.' },
+        { customerLine: 'How should clubs use AI responsibly?', salespersonStart: 'AI should be rolled out carefully — used to flag up data insights, not to make final decisions.', suggestedCompletion: 'It is conceivable that algorithms become powerful tools — but they must complement human judgment, not displace it entirely.' },
+        { customerLine: 'What would a healthy football ecosystem look like in twenty years?', salespersonStart: 'Assuming current reforms continue, I think we could see greater fan ownership and a levelling out of financial power.', suggestedCompletion: 'The key would be governance structures that require clubs to opt in to welfare standards and financial transparency.' },
+      ],
+    },
+  },
+};
