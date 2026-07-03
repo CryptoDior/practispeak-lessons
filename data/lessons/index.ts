@@ -122,6 +122,16 @@ import { c2TheTedStyleTalk } from './c2-the-ted-style-talk';
 import { c2CapstoneYourFootballManifesto } from './c2-capstone-your-football-manifesto';
 import { gameOnFirstWords } from './game-on-first-words';
 import { robloxAvatarIdentity } from './roblox-avatar-identity';
+import { robloxMyRobloxHome } from './roblox-my-roblox-home';
+import { robloxLetsPlay } from './roblox-lets-play';
+import { robloxRobuxShopping } from './roblox-robux-shopping';
+import { robloxGamesILike } from './roblox-games-i-like';
+import { robloxMakingFriends } from './roblox-making-friends';
+import { robloxTalkingInChat } from './roblox-talking-in-chat';
+import { robloxHowDoYouFeel } from './roblox-how-do-you-feel';
+import { robloxNumbersScores } from './roblox-numbers-scores';
+import { robloxReviewGamesDay } from './roblox-review-games-day';
+
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
 import { gamingJargonDeepDive } from './gaming-jargon-deep-dive';
@@ -329,6 +339,16 @@ export const lessons: Lesson[] = [
   teamCommunication,
   gameOnFirstWords,
   robloxAvatarIdentity,
+  robloxMyRobloxHome,
+  robloxLetsPlay,
+  robloxRobuxShopping,
+  robloxGamesILike,
+  robloxMakingFriends,
+  robloxTalkingInChat,
+  robloxHowDoYouFeel,
+  robloxNumbersScores,
+  robloxReviewGamesDay,
+
   actionVerbsMoveYourCharacter,
   describingCharacters,
   gamingJargonDeepDive,
