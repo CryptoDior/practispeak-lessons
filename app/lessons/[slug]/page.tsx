@@ -21,6 +21,7 @@ import PitchCornerSection from '@/components/exercises/PitchCornerSection';
 import CompleteSentenceSection from '@/components/exercises/CompleteSentenceSection';
 import DealClinicSection from '@/components/DealClinicSection';
 import OnThePitchSection from '@/components/OnThePitchSection';
+import CompareTab from '@/components/CompareTab';
 
 const DEFAULT_TABS = ['Vocabulary', 'Phrases', 'Videos', 'Dialogue', 'Exercises'] as const;
 
@@ -46,9 +47,9 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   );
   const withWarmUp = lesson.warmUp ? ['Warm Up', ...baseTabs] : baseTabs;
   const wo = lesson.warmUp ? 1 : 0;
-  const irl = lesson.irlVocabulary ? 1 : 0;
+  const irl = lesson.irlVocabulary ? 2 : 0;
   const withIrlVocab: string[] = lesson.irlVocabulary
-    ? (() => { const vi = withWarmUp.indexOf('Vocabulary'); return [...withWarmUp.slice(0, vi + 1), 'IRL Vocab', ...withWarmUp.slice(vi + 1)]; })()
+    ? (() => { const vi = withWarmUp.indexOf('Vocabulary'); return [...withWarmUp.slice(0, vi + 1), 'IRL Vocab', 'Compare', ...withWarmUp.slice(vi + 1)]; })()
     : [...withWarmUp];
 
   const hasPhrasalDetails = lesson.phrasalVerbs.some(
@@ -245,6 +246,13 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
             <div className="flex flex-col gap-6">
               {lesson.irlVocabulary.map((word, i) => <VocabCard key={`irl-${word.word}`} word={word} index={i} />)}
             </div>
+          </section>
+        )}
+
+        {/* Compare */}
+        {lesson.irlVocabulary && (
+          <section className={activeTab === wo + 2 ? 'block' : 'hidden'}>
+            <CompareTab vocabulary={lesson.vocabulary} irlVocabulary={lesson.irlVocabulary} />
           </section>
         )}
 
