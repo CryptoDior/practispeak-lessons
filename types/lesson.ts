@@ -291,6 +291,8 @@ export interface Lesson {
   productionPrompts?: ProductionPrompt[];
   dialogueSubtitle?: string;
   vocabulary: VocabWord[];
+  /** Optional second vocab set for Roblox / gaming lessons — rendered as "IRL Vocab" section */
+  irlVocabulary?: VocabWord[];
   phrasalVerbs: PhrasalVerb[];
   videos: LessonVideo[];
   dialogue: DialogueLine[];

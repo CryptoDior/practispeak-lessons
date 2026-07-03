@@ -220,15 +220,40 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
 
         {/* Vocabulary */}
         <section className={activeTab === wo ? 'block' : 'hidden'}>
-          <SectionHeader
-            title="Vocabulary"
-            subtitle={`${lesson.vocabulary.length} key words for this lesson`}
-            instruction={lesson.vocabulary.some(w => w.partOfSpeech === 'abbreviation') ? 'Listen to the audio for the full abbreviation' : undefined}
-          />
-          <div className="flex flex-col gap-6">
-            {lesson.vocabulary.map((word, i) => <VocabCard key={word.word} word={word} index={i} />)}
-          </div>
-          {lesson.grammarFocus && <GrammarFocusSection grammar={lesson.grammarFocus} />}
+          {lesson.irlVocabulary ? (
+            <>
+              <div className="mb-14">
+                <SectionHeader
+                  title="In Game Vocab"
+                  subtitle={`${lesson.vocabulary.length} words — what they mean inside the game`}
+                />
+                <div className="flex flex-col gap-6">
+                  {lesson.vocabulary.map((word, i) => <VocabCard key={word.word} word={word} index={i} />)}
+                </div>
+              </div>
+              <div>
+                <SectionHeader
+                  title="IRL Vocab"
+                  subtitle={`${lesson.irlVocabulary.length} words — what they mean in real life`}
+                />
+                <div className="flex flex-col gap-6">
+                  {lesson.irlVocabulary.map((word, i) => <VocabCard key={`irl-${word.word}`} word={word} index={i} />)}
+                </div>
+              </div>
+            </>
+          ) : (
+            <>
+              <SectionHeader
+                title="Vocabulary"
+                subtitle={`${lesson.vocabulary.length} key words for this lesson`}
+                instruction={lesson.vocabulary.some(w => w.partOfSpeech === 'abbreviation') ? 'Listen to the audio for the full abbreviation' : undefined}
+              />
+              <div className="flex flex-col gap-6">
+                {lesson.vocabulary.map((word, i) => <VocabCard key={word.word} word={word} index={i} />)}
+              </div>
+              {lesson.grammarFocus && <GrammarFocusSection grammar={lesson.grammarFocus} />}
+            </>
+          )}
         </section>
 
         {/* Phrases */}
