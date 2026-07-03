@@ -46,14 +46,13 @@ function ImageCard({
     <button
       onClick={onClick}
       disabled={disabled}
-      className={`relative rounded-2xl overflow-hidden border-2 transition-all duration-200 w-full bg-[#0b1120] ${borderClass}`}
-      style={{ aspectRatio: '4/3' }}
+      className={`relative rounded-xl overflow-hidden border-2 transition-all duration-200 w-full bg-[#0b1120] aspect-square ${borderClass}`}
     >
       {!imgFailed ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={imgSrc}
-          alt=""
+          alt={label}
           className="w-full h-full object-cover"
           onError={handleError}
         />
@@ -61,7 +60,7 @@ function ImageCard({
         <div className="w-full h-full flex items-center justify-center">
           <span
             className="font-extrabold text-[#066EF5] select-none leading-none"
-            style={{ fontSize: 'clamp(32px, 8vw, 64px)', opacity: 0.12 }}
+            style={{ fontSize: 'clamp(20px, 5vw, 40px)', opacity: 0.12 }}
           >
             {label[0]}
           </span>
@@ -71,8 +70,8 @@ function ImageCard({
       {/* Matched overlay */}
       {state === 'matched' && (
         <div className="absolute inset-0 bg-emerald-500/20 flex items-center justify-center">
-          <div className="w-10 h-10 rounded-full bg-emerald-500 flex items-center justify-center shadow-lg">
-            <span className="text-white font-extrabold text-lg leading-none">✓</span>
+          <div className="w-7 h-7 rounded-full bg-emerald-500 flex items-center justify-center shadow-lg">
+            <span className="text-white font-extrabold text-sm leading-none">✓</span>
           </div>
         </div>
       )}
@@ -81,6 +80,14 @@ function ImageCard({
       {state === 'wrong' && (
         <div className="absolute inset-0 bg-red-500/20" />
       )}
+
+      {/* Word label pinned to bottom */}
+      <div className="absolute bottom-0 inset-x-0 bg-black/50 px-1 py-0.5">
+        <p className="text-white font-bold text-center leading-tight truncate"
+           style={{ fontSize: 'clamp(8px, 1.6vw, 11px)' }}>
+          {label}
+        </p>
+      </div>
     </button>
   );
 }
@@ -158,16 +165,16 @@ export default function CompareTab({
   return (
     <div>
       {/* Header */}
-      <div className="mb-6 flex items-center justify-between flex-wrap gap-3">
+      <div className="mb-4 flex items-center justify-between flex-wrap gap-3">
         <div>
-          <h2 className="text-2xl font-extrabold text-gray-900 mb-1">Compare</h2>
-          <p className="text-sm text-gray-400 font-semibold">
-            Tap one image from each side to match the same word — in game and in real life
+          <h2 className="text-xl font-extrabold text-gray-900 mb-0.5">Compare</h2>
+          <p className="text-xs text-gray-400 font-semibold">
+            Tap one image from each side to match the same word
           </p>
         </div>
         {!allDone && (
-          <div className="flex items-center gap-2 bg-white border border-gray-100 rounded-2xl px-4 py-2 shadow-sm">
-            <span className="text-2xl font-extrabold text-[#066EF5]">{remaining}</span>
+          <div className="flex items-center gap-1.5 bg-white border border-gray-100 rounded-2xl px-3 py-1.5 shadow-sm">
+            <span className="text-xl font-extrabold text-[#066EF5]">{remaining}</span>
             <span className="text-xs font-bold text-gray-400 uppercase tracking-wide">left</span>
           </div>
         )}
@@ -175,8 +182,8 @@ export default function CompareTab({
 
       {/* Celebration */}
       {allDone && (
-        <div className="mb-6 p-5 bg-emerald-50 border border-emerald-200 rounded-2xl text-center">
-          <p className="text-emerald-700 font-extrabold text-xl mb-1">Amazing! All matched! 🎉</p>
+        <div className="mb-4 p-4 bg-emerald-50 border border-emerald-200 rounded-2xl text-center">
+          <p className="text-emerald-700 font-extrabold text-lg mb-0.5">Amazing! All matched! 🎉</p>
           <p className="text-emerald-600 text-sm font-semibold">You know your in-game and real-life words!</p>
         </div>
       )}
@@ -195,10 +202,10 @@ export default function CompareTab({
         </div>
       </div>
 
-      {/* Card grid */}
+      {/* Card grid — 2 cols per side so 8 cards fit in 2 rows */}
       <div className="grid grid-cols-2 gap-4">
-        {/* In Game column */}
-        <div className="flex flex-col gap-3">
+        {/* In Game column: 2×4 grid of small squares */}
+        <div className="grid grid-cols-2 gap-2">
           {gameCards.map((card, idx) => (
             <ImageCard
               key={`game-${card.word}`}
@@ -211,8 +218,8 @@ export default function CompareTab({
           ))}
         </div>
 
-        {/* IRL column */}
-        <div className="flex flex-col gap-3">
+        {/* IRL column: 2×4 grid of small squares */}
+        <div className="grid grid-cols-2 gap-2">
           {irlCards.map((card, idx) => (
             <ImageCard
               key={`irl-${card.word}`}
@@ -226,9 +233,9 @@ export default function CompareTab({
         </div>
       </div>
 
-      {/* Matched words list */}
+      {/* Matched words */}
       {matched.size > 0 && (
-        <div className="mt-6 flex flex-wrap gap-2">
+        <div className="mt-4 flex flex-wrap gap-2">
           {Array.from(matched).map((word) => (
             <span
               key={word}
