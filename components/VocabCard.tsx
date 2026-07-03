@@ -104,15 +104,40 @@ export default function VocabCard({ word, index }: { word: VocabWord; index: num
           {word.definition}
         </p>
 
-        {/* Example */}
-        <div className="mb-8">
-          <span className="block text-xs font-extrabold tracking-[0.2em] text-gray-500 uppercase mb-2">
-            Example
-          </span>
-          <p className="text-gray-600 text-base italic leading-relaxed">
-            {word.example}
-          </p>
-        </div>
+        {/* Example / In Game + In Real Life */}
+        {(word.inGame || word.inRealLife) ? (
+          <div className="mb-8 space-y-4">
+            {word.inGame && (
+              <div>
+                <span className="block text-[10px] font-extrabold tracking-[0.2em] text-[#066EF5] uppercase mb-1">
+                  In Game
+                </span>
+                <p className="text-gray-600 text-base italic leading-relaxed">
+                  {word.inGame}
+                </p>
+              </div>
+            )}
+            {word.inRealLife && (
+              <div>
+                <span className="block text-[10px] font-extrabold tracking-[0.2em] text-emerald-600 uppercase mb-1">
+                  In Real Life
+                </span>
+                <p className="text-gray-600 text-base italic leading-relaxed">
+                  {word.inRealLife}
+                </p>
+              </div>
+            )}
+          </div>
+        ) : (
+          <div className="mb-8">
+            <span className="block text-xs font-extrabold tracking-[0.2em] text-gray-500 uppercase mb-2">
+              Example
+            </span>
+            <p className="text-gray-600 text-base italic leading-relaxed">
+              {word.example}
+            </p>
+          </div>
+        )}
 
         {/* Waveform audio players */}
         <div className="space-y-3.5">

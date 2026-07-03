@@ -98,14 +98,39 @@ export default function PhrasalVerbCard({ verb, index }: { verb: PhrasalVerb; in
           {verb.definition}
         </p>
 
-        <div className="mb-6">
-          <span className="block text-xs font-extrabold tracking-[0.2em] text-gray-500 uppercase mb-2">
-            Example
-          </span>
-          <p className="text-gray-600 text-base italic leading-relaxed">
-            {verb.example}
-          </p>
-        </div>
+        {(verb.inGame || verb.inRealLife) ? (
+          <div className="mb-6 space-y-4">
+            {verb.inGame && (
+              <div>
+                <span className="block text-[10px] font-extrabold tracking-[0.2em] text-[#066EF5] uppercase mb-1">
+                  In Game
+                </span>
+                <p className="text-gray-600 text-base italic leading-relaxed">
+                  {verb.inGame}
+                </p>
+              </div>
+            )}
+            {verb.inRealLife && (
+              <div>
+                <span className="block text-[10px] font-extrabold tracking-[0.2em] text-emerald-600 uppercase mb-1">
+                  In Real Life
+                </span>
+                <p className="text-gray-600 text-base italic leading-relaxed">
+                  {verb.inRealLife}
+                </p>
+              </div>
+            )}
+          </div>
+        ) : (
+          <div className="mb-6">
+            <span className="block text-xs font-extrabold tracking-[0.2em] text-gray-500 uppercase mb-2">
+              Example
+            </span>
+            <p className="text-gray-600 text-base italic leading-relaxed">
+              {verb.example}
+            </p>
+          </div>
+        )}
 
         <div className="space-y-3.5">
           <WaveformPlayer src={`/audio/${audioSlug}.mp3`} label="Listen to phrase" />

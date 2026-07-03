@@ -13,6 +13,10 @@ export interface VocabWord {
   etymologyNote?: string;
   /** Optional second example (noun use, register note, etc.) */
   secondExample?: string;
+  /** In-game usage example (Roblox / gaming lessons) — renders as a separate section */
+  inGame?: string;
+  /** Real-life usage example (Roblox / gaming lessons) — renders as a separate section */
+  inRealLife?: string;
 }
 
 export interface VisualExample {
@@ -29,10 +33,14 @@ export interface PhrasalVerb {
   example: string;
   /** Matches /public/images/[imageSlug].jpg and /public/audio/[imageSlug].mp3 */
   imageSlug: string;
-  /** Override the label pill. Defaults to "phrasal verb". Set to '' to hide it. */
+  /** Override the label pill. Defaults to "phrasal verb". Set to \'\' to hide it. */
   tag?: string;
   /** A sentence showing the phrase used naturally in context (In Action section) */
   inAction?: string;
+  /** In-game usage example (Roblox / gaming lessons) — renders as a separate section */
+  inGame?: string;
+  /** Real-life usage example (Roblox / gaming lessons) — renders as a separate section */
+  inRealLife?: string;
   /** Formal / Neutral / Informal — with a brief usage note (Register section) */
   register?: string;
   /** A short passage or scenario embedding the phrase in a broader context (In Context section) */
@@ -44,7 +52,7 @@ export interface PhrasalVerb {
 export interface DialogueLine {
   speaker: string;
   speakerColor: SpeakerColor;
-  /** Path to speaker avatar image, e.g. '/images/zara-icon.png' */
+  /** Path to speaker avatar image, e.g. \'/images/zara-icon.png\' */
   speakerAvatar?: string;
   /** Supports [[word:definition]] markup for hover tooltips */
   text: string;
@@ -76,21 +84,21 @@ export interface GrammarExample {
 }
 
 export interface GrammarFocus {
-  focusTitle: string;        // e.g. "Focus: \"is\" and \"isn't\" + adjective"
+  focusTitle: string;        // e.g. "Focus: \"is\" and \"isn\'t\" + adjective"
   description: string;       // explanation of the grammar rule
 
   // Style A — two pattern rows (positive ✓ / negative ✗)
   positivePattern?: string;   // e.g. "Subject + IS + adjective"
   positiveExample?: string;   // e.g. "\"The dragon IS big.\""
-  negativePattern?: string;   // e.g. "Subject + ISN'T + adjective"
-  negativeExample?: string;   // e.g. "\"The elf ISN'T slow.\""
+  negativePattern?: string;   // e.g. "Subject + ISN\'T + adjective"
+  negativeExample?: string;   // e.g. "\"The elf ISN\'T slow.\""
 
   // Style B — single pattern row with slash examples
   singlePattern?: string;        // e.g. "VERB + (object)"
   singlePatternExample?: string; // e.g. "\"Jump!\" / \"Shoot the enemy!\""
 
   // Shared
-  negativeSubtitle?: string;     // e.g. "(Don't + verb)"
+  negativeSubtitle?: string;     // e.g. "(Don\'t + verb)"
   arrowStyle?: boolean;          // show examples as "sentence → note" instead of parentheses
   positiveExamples: GrammarExample[];
   negativeExamples: GrammarExample[];
@@ -108,7 +116,7 @@ export interface ReadingPassage {
   text: string;              // passage — wrap key terms in [[term]] for highlighting
   highlightTerms: string[];  // terms to highlight in the passage
   questions: string[];       // open comprehension questions
-  audioSrc?: string;         // path to audio file, e.g. '/audio/forum-post.mp3'
+  audioSrc?: string;         // path to audio file, e.g. \'/audio/forum-post.mp3\'
 }
 
 export interface ProductionPrompt {
@@ -125,13 +133,13 @@ export interface LessonVideo {
 }
 
 export interface ChooseResponseItem {
-  /** The customer's line shown to students */
+  /** The customer\'s line shown to students */
   customerLine: string;
   /** Exactly 3 options — A, B, C */
   options: string[];
   /** 0-based index of the correct option */
   correctIndex: number;
-  /** Explanation of why the correct answer works and why the others don't */
+  /** Explanation of why the correct answer works and why the others don\'t */
   explanation: string;
 }
 
@@ -149,9 +157,9 @@ export interface ProductOptionItem {
 }
 
 export interface FinishLineItem {
-  /** The customer's line */
+  /** The customer\'s line */
   customerLine: string;
-  /** The start of the salesperson's response — cut off mid-sentence */
+  /** The start of the salesperson\'s response — cut off mid-sentence */
   salespersonStart: string;
   /** One possible completion shown after groups compare answers */
   suggestedCompletion?: string;
@@ -271,7 +279,7 @@ export interface Lesson {
   externalUrl?: string;
   /**
    * Optional hero image shown in the lesson header.
-   * Path relative to /public, e.g. '/images/team-communication-hero.jpg'
+   * Path relative to /public, e.g. \'/images/team-communication-hero.jpg\'
    * If omitted or the file is missing, a blue gradient placeholder is shown.
    */
   heroImage?: string;
