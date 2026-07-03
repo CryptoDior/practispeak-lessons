@@ -121,6 +121,7 @@ import { c2DeliverLiveCommentary } from './c2-deliver-live-commentary';
 import { c2TheTedStyleTalk } from './c2-the-ted-style-talk';
 import { c2CapstoneYourFootballManifesto } from './c2-capstone-your-football-manifesto';
 import { gameOnFirstWords } from './game-on-first-words';
+import { robloxAvatarIdentity } from './roblox-avatar-identity';
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
 import { gamingJargonDeepDive } from './gaming-jargon-deep-dive';
@@ -327,6 +328,7 @@ import { c2FinalProjectTheCmoChallengeLesson } from './c2-final-project-the-cmo-
 export const lessons: Lesson[] = [
   teamCommunication,
   gameOnFirstWords,
+  robloxAvatarIdentity,
   actionVerbsMoveYourCharacter,
   describingCharacters,
   gamingJargonDeepDive,
