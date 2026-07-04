@@ -106,7 +106,7 @@ export const robloxTheBestGameEver: Lesson = {
     {
       word: 'MOST FUN',
       partOfSpeech: 'phrase',
-      definition: "The most enjoyable activity of all — this gives you the greatest feeling of happiness.",
+      definition: "The most fun of all — this is the one you enjoy the most, more than anything!",
       example: "The school trip to the theme park was the most fun day of the entire year!",
       imageSlug: '/images/roblox-the-best-game-ever-most-fun-irl.png',
     },

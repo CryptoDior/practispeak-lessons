@@ -92,7 +92,7 @@ export const robloxPlacesToExplore: Lesson = {
     {
       word: 'STARTING POINT',
       partOfSpeech: 'noun',
-      definition: "The place where you begin a journey or an activity.",
+      definition: "The place where you begin — where you start the game.",
       example: "The starting point for our school trip is the main gate at 8am.",
       imageSlug: '/images/roblox-places-to-explore-starting-point-irl.png',
     },

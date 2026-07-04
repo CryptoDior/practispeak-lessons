@@ -86,7 +86,7 @@ export const robloxReviewGamesDay: Lesson = {
       word: 'CREATE',
       partOfSpeech: 'verb',
       definition: 'Make something new with your hands, your mind, or a computer.',
-      example: 'I created a poster for the school project using coloured paper and paint.',
+      example: 'I made a poster for school using coloured paper and paint — it looks great!',
       imageSlug: '/images/roblox-review-games-day-create-irl.png',
     },
     {

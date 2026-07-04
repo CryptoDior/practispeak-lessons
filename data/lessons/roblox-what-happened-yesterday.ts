@@ -33,7 +33,7 @@ export const robloxWhatHappenedYesterday: Lesson = {
     {
       word: 'PLAYED',
       partOfSpeech: 'verb',
-      definition: "Past tense of PLAY — you did the activity of playing at some point in the past.",
+      definition: "Past tense of PLAY — you played a game before, and now it is finished.",
       example: "I played with my squad for two hours yesterday — we tried five different games!",
       imageSlug: '/images/roblox-what-happened-yesterday-played.png',
     },
@@ -92,7 +92,7 @@ export const robloxWhatHappenedYesterday: Lesson = {
     {
       word: 'PLAYED',
       partOfSpeech: 'verb',
-      definition: "Past tense of PLAY — you did an activity for fun, like a sport or a game.",
+      definition: "Past tense of PLAY — you had fun with a sport or a game before now.",
       example: "I played tennis with my dad in the park yesterday afternoon.",
       imageSlug: '/images/roblox-what-happened-yesterday-played-irl.png',
     },
@@ -113,7 +113,7 @@ export const robloxWhatHappenedYesterday: Lesson = {
     {
       word: 'JOINED',
       partOfSpeech: 'verb',
-      definition: "Past tense of JOIN — you became part of a group or activity.",
+      definition: "Past tense of JOIN — you went into a group or a team before now.",
       example: "I joined the school drama club yesterday — our first performance is next month!",
       imageSlug: '/images/roblox-what-happened-yesterday-joined-irl.png',
     },
@@ -246,7 +246,7 @@ export const robloxWhatHappenedYesterday: Lesson = {
     { word: 'WON', definition: 'Past tense of WIN — came first and beat everyone else' },
     { word: 'LOST', definition: 'Past tense of LOSE — another player beat you' },
     { word: 'BUILT', definition: 'Past tense of BUILD — made something with blocks or tools' },
-    { word: 'PLAYED', definition: 'Past tense of PLAY — did the activity at some point in the past' },
+    { word: 'PLAYED', definition: 'Past tense of PLAY — played a game before, now finished' },
     { word: 'FOUND', definition: 'Past tense of FIND — discovered something unexpected' },
     { word: 'TRIED', definition: 'Past tense of TRY — made an effort at something difficult' },
     { word: 'JOINED', definition: 'Past tense of JOIN — entered a game others were already in' },

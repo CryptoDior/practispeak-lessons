@@ -78,7 +78,7 @@ export const robloxWhenDoYouPlay: Lesson = {
     {
       word: 'SOMETIMES',
       partOfSpeech: 'adverb',
-      definition: "Not every time — just occasionally. Some days or situations but not all.",
+      definition: "Not every time — just some days. Not always, not never — just a few times.",
       example: "I sometimes walk to school and sometimes take the bus — it depends on the weather.",
       imageSlug: '/images/roblox-when-do-you-play-sometimes-irl.png',
     },
@@ -153,7 +153,7 @@ export const robloxWhenDoYouPlay: Lesson = {
     },
     {
       phrase: "HOW OFTEN DO YOU PLAY?",
-      definition: "A question to find out how regularly someone does an activity.",
+      definition: "A question to find out how many times someone does something — every day? Some days?",
       example: "How often do you play? Every day, or just at weekends?",
       inGame: "How often do you play Roblox? I am on almost every day!",
       inRealLife: "How often do you go to the gym? Once a week or more?",

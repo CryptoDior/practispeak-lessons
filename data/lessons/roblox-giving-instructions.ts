@@ -170,7 +170,7 @@ export const robloxGivingInstructions: Lesson = {
     {
       phrase: "FOLLOW MY LEAD",
       definition: "Copy what the other person does — let them go first and you do the same thing after them.",
-      example: "This section is confusing, so just follow my lead and do exactly what I do!",
+      example: "This part is confusing, so just follow my lead and do exactly what I do!",
       inGame: "Follow my lead through this maze — I know the path and will show you the way.",
       inRealLife: "It is your first day — just follow my lead and I will show you how everything works.",
       imageSlug: '/images/roblox-giving-instructions-follow-my-lead.png',

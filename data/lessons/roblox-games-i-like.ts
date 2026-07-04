@@ -78,7 +78,7 @@ export const robloxGamesILike: Lesson = {
     {
       word: 'BUSINESS GAME',
       partOfSpeech: 'noun',
-      definition: 'A board game or activity where you run a company and earn money, like Monopoly.',
+      definition: 'A game where you run a company and earn money — like Monopoly.',
       example: 'We played Monopoly for three hours — I built hotels and won!',
       imageSlug: '/images/roblox-games-i-like-business-game-irl.png',
     },
@@ -120,7 +120,7 @@ export const robloxGamesILike: Lesson = {
     {
       word: 'ADVENTURE',
       partOfSpeech: 'noun',
-      definition: 'An exciting journey or activity where you explore and discover new things.',
+      definition: 'A fun journey where you explore and find new things.',
       example: 'Our camping trip was a real adventure — we hiked up a mountain and saw a waterfall!',
       imageSlug: '/images/roblox-games-i-like-adventure-irl.png',
     },
@@ -129,7 +129,7 @@ export const robloxGamesILike: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'WHAT GAME ARE YOU PLAYING?',
-      definition: 'How you ask someone about the game or activity they are doing.',
+      definition: 'How you ask someone about the game they are playing.',
       example: "What game are you playing? It looks so fun — can I join?",
       inGame: 'What game are you playing? Is it an obby or a tycoon?',
       inRealLife: 'What game are you playing? Is it Monopoly or a card game?',
@@ -137,7 +137,7 @@ export const robloxGamesILike: Lesson = {
     },
     {
       phrase: 'I LIKE...',
-      definition: 'How you say which type of game or activity you enjoy.',
+      definition: 'How you say which type of game you enjoy most.',
       example: 'I like obbies because they are exciting and fast.',
       inGame: 'I like simulators — I love taking care of my pets and earning coins.',
       inRealLife: 'I like adventure films because they always have a happy ending.',
@@ -161,7 +161,7 @@ export const robloxGamesILike: Lesson = {
     },
     {
       phrase: "I'M GOOD AT...",
-      definition: 'How you say you are skilled at a type of game or activity.',
+      definition: 'How you say you are good at a type of game.',
       example: "I'm good at racing games — I always come first!",
       inGame: "I'm good at obbies. I finished a 1000-level one last week!",
       inRealLife: "I'm good at running races — I won the school sports day.",

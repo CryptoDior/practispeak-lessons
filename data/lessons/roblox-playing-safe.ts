@@ -19,7 +19,7 @@ export const robloxPlayingSafe: Lesson = {
     {
       word: 'BLOCK',
       partOfSpeech: 'verb',
-      definition: "Stop a specific player from sending you messages or interacting with you in the game.",
+      definition: "Stop a player from talking to you or playing near you — they can no longer reach you.",
       example: "I blocked that player — now they cannot send me messages anymore.",
       imageSlug: '/images/roblox-playing-safe-block.png',
     },

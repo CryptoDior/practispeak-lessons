@@ -85,7 +85,7 @@ export const robloxMakingFriends: Lesson = {
     {
       word: 'INVITE',
       partOfSpeech: 'verb',
-      definition: 'Ask someone to come to your house, party, or activity.',
+      definition: 'Ask someone to come to your house, your party, or to play with you.',
       example: 'I invited five friends to my birthday party this Saturday!',
       imageSlug: '/images/roblox-making-friends-invite-irl.png',
     },

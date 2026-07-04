@@ -54,7 +54,7 @@ export const robloxBuildingBlocks: Lesson = {
     {
       word: 'PLACE',
       partOfSpeech: 'noun',
-      definition: "A game or world you create in Roblox Studio — your own personal Roblox project.",
+      definition: "A game or world you build and make in Roblox Studio — it is your own Roblox game.",
       example: "I published my place last night — 50 people already played it!",
       imageSlug: '/images/roblox-building-blocks-place.png',
     },
@@ -113,8 +113,8 @@ export const robloxBuildingBlocks: Lesson = {
     {
       word: 'PROJECT',
       partOfSpeech: 'noun',
-      definition: "A piece of work you plan, create, and develop over time — like a school project.",
-      example: "Our class science project is about volcanoes — we are building a model together.",
+      definition: "A piece of work you make over time — like something you build or draw for school.",
+      example: "Our class is making a volcano — we are all building it together this week.",
       imageSlug: '/images/roblox-building-blocks-project-irl.png',
     },
     {
@@ -129,7 +129,7 @@ export const robloxBuildingBlocks: Lesson = {
   phrasalVerbs: [
     {
       phrase: "LET'S BUILD!",
-      definition: "Start making something together — an invitation to begin a building project.",
+      definition: "Start making something together — an invitation to begin building right now.",
       example: "Let's build! I have a great idea for a new game — open Roblox Studio!",
       inGame: "Let's build a castle — you do the walls and I will do the tower!",
       inRealLife: "Let's build a sandcastle on the beach before the tide comes in!",
@@ -137,7 +137,7 @@ export const robloxBuildingBlocks: Lesson = {
     },
     {
       phrase: "HOW DO I ADD...?",
-      definition: "Ask how to include something new in your build or project.",
+      definition: "Ask how to put something new in your build.",
       example: "How do I add a door to my house? The wall is just solid brick right now.",
       inGame: "How do I add a script to make the button work?",
       inRealLife: "How do I add a picture to my school project?",
@@ -169,7 +169,7 @@ export const robloxBuildingBlocks: Lesson = {
     },
     {
       phrase: "START AGAIN",
-      definition: "Begin the whole project from zero — delete everything and try a fresh approach.",
+      definition: "Begin from zero — delete everything and try again with a new idea.",
       example: "Start again — the design is not working. Let's try a completely new idea.",
       inGame: "Start again! The whole base is in the wrong place — let's delete it and rebuild.",
       inRealLife: "Start again from the beginning — the drawing went wrong at the top.",

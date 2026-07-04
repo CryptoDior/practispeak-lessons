@@ -71,14 +71,14 @@ export const robloxWhatAreYouDoing: Lesson = {
     {
       word: 'PLAYING',
       partOfSpeech: 'verb',
-      definition: "Doing a fun activity right now — with toys, a sport, or with friends.",
+      definition: "Having fun right now — with a game, a toy, or with friends.",
       example: "I am playing in the park with my little brother right now.",
       imageSlug: '/images/roblox-what-are-you-doing-playing-irl.png',
     },
     {
       word: 'BUILDING',
       partOfSpeech: 'verb',
-      definition: "Making something with your hands right now — like a model, a structure, or a project.",
+      definition: "Making something with your hands right now — like a model, a tower, or a drawing.",
       example: "We are building a model volcano for science class — it is looking amazing!",
       imageSlug: '/images/roblox-what-are-you-doing-building-irl.png',
     },
@@ -129,7 +129,7 @@ export const robloxWhatAreYouDoing: Lesson = {
   phrasalVerbs: [
     {
       phrase: "WHAT ARE YOU DOING?",
-      definition: "Ask someone what activity they are doing at this exact moment.",
+      definition: "Ask someone what they are doing right now — at this exact moment.",
       example: "What are you doing? You have been very quiet for ten minutes!",
       inGame: "What are you doing? Come to the portal — we are all waiting!",
       inRealLife: "What are you doing? Are you ready to go?",

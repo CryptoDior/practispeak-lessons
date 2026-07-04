@@ -78,7 +78,7 @@ export const robloxMyGamingDay: Lesson = {
     {
       word: 'SESSION',
       partOfSpeech: 'noun',
-      definition: "A period of time spent doing one activity — like a study session or a sports session.",
+      definition: "A period of time doing one thing — like a gaming session or a sports session.",
       example: "We had a two-hour maths session this afternoon — my brain is completely tired!",
       imageSlug: '/images/roblox-my-gaming-day-session-irl.png',
     },
@@ -92,14 +92,14 @@ export const robloxMyGamingDay: Lesson = {
     {
       word: 'START',
       partOfSpeech: 'verb',
-      definition: "Begin something — the moment when you first do an activity.",
+      definition: "Begin something — the first moment you do it.",
       example: "I start my homework as soon as I get home — then I can relax later!",
       imageSlug: '/images/roblox-my-gaming-day-start-irl.png',
     },
     {
       word: 'FINISH',
       partOfSpeech: 'verb',
-      definition: "Complete something — get to the end of a task or activity.",
+      definition: "Get to the end of something — you did everything and now it is done!",
       example: "I always finish my chores before I sit down to relax in the evening.",
       imageSlug: '/images/roblox-my-gaming-day-finish-irl.png',
     },

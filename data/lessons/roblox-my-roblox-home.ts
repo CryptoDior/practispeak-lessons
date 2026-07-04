@@ -61,7 +61,7 @@ export const robloxMyRobloxHome: Lesson = {
     {
       word: 'GAMES TAB',
       partOfSpeech: 'noun',
-      definition: 'The section on the home page where you can find and pick new games to play.',
+      definition: 'The place on the home page where you can find and pick new games to play.',
       example: 'Click the Games tab to see what is popular today.',
       imageSlug: '/images/roblox-my-roblox-home-games-tab.png',
     },
@@ -250,7 +250,7 @@ export const robloxMyRobloxHome: Lesson = {
     { word: 'NOTIFICATION', definition: 'A little message that tells you something new happened' },
     { word: 'FRIENDS LIST', definition: 'A list of all the people you play with' },
     { word: 'SEARCH BAR', definition: 'A box where you type to find games or players' },
-    { word: 'GAMES TAB', definition: 'The section where you find and pick new games' },
+    { word: 'GAMES TAB', definition: 'The place where you find and pick new games' },
   ],
 
   fillBlankExercise: [

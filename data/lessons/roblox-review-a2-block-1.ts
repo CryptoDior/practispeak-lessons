@@ -107,7 +107,7 @@ export const robloxReviewA2Block1: Lesson = {
       word: 'FINALLY',
       partOfSpeech: 'adverb',
       definition: "The last step after a long process — you have done everything and now this is the end.",
-      example: "Finally, I finished my project — it took three weeks but it is done and I am proud!",
+      example: "Finally, I finished my work — it took three weeks but it is done and I am so happy!",
       imageSlug: '/images/roblox-review-a2-block-1-finally-irl.png',
     },
     {

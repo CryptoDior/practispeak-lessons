@@ -47,7 +47,7 @@ export const robloxTeamUp: Lesson = {
     {
       word: 'WIN TOGETHER',
       partOfSpeech: 'phrase',
-      definition: "Achieve victory as a group — everyone contributes and everyone shares the success.",
+      definition: "Win as a group — everybody helps and everybody is happy at the end!",
       example: "We win together or we lose together — that is what being a team means!",
       imageSlug: '/images/roblox-team-up-win-together.png',
     },
@@ -61,7 +61,7 @@ export const robloxTeamUp: Lesson = {
     {
       word: 'COOPERATE',
       partOfSpeech: 'verb',
-      definition: "Work together nicely — each person helps the others and everyone does their part.",
+      definition: "Work nicely together — each person helps the others and no one is left behind.",
       example: "We need to cooperate — if everyone does their own thing we will lose!",
       imageSlug: '/images/roblox-team-up-cooperate.png',
     },
@@ -78,14 +78,14 @@ export const robloxTeamUp: Lesson = {
     {
       word: 'GROUP',
       partOfSpeech: 'noun',
-      definition: "A collection of people who are together — for a project, activity, or friendship.",
-      example: "We worked in a group of four for the science project — each of us did a different section.",
+      definition: "People who are together — like friends, classmates, or teammates.",
+      example: "We worked in a group of four — each of us did a different part of the work.",
       imageSlug: '/images/roblox-team-up-group-irl.png',
     },
     {
       word: 'PARTY',
       partOfSpeech: 'noun',
-      definition: "A celebration with a group of people — like a birthday party or a team party.",
+      definition: "A fun event with a group of people — like a birthday party or a party with friends.",
       example: "We had a party after winning the tournament — the whole team was there!",
       imageSlug: '/images/roblox-team-up-party-irl.png',
     },
@@ -93,7 +93,7 @@ export const robloxTeamUp: Lesson = {
       word: 'LEADER',
       partOfSpeech: 'noun',
       definition: "A person who guides and makes decisions for a group — everyone looks to them for direction.",
-      example: "Our class chose Mia as the group leader for the project — she is very organised.",
+      example: "Our class chose Mia as the leader — she is very good at telling everyone what to do.",
       imageSlug: '/images/roblox-team-up-leader-irl.png',
     },
     {
@@ -106,15 +106,15 @@ export const robloxTeamUp: Lesson = {
     {
       word: 'WORK TOGETHER',
       partOfSpeech: 'phrase',
-      definition: "Join efforts with other people to achieve something — everyone contributes.",
-      example: "We worked together to clean the classroom — it was done in five minutes!",
+      definition: "Work together with other people — everyone helps and does their part.",
+      example: "We all helped to clean the room — it was done very fast!",
       imageSlug: '/images/roblox-team-up-work-together-irl.png',
     },
     {
       word: 'PLAN',
       partOfSpeech: 'noun',
-      definition: "A set of decisions about how to do something — you think about it before you start.",
-      example: "Our plan for the science fair is to build a working model of the solar system.",
+      definition: "A plan for how to do something — you think about it before you start.",
+      example: "Our plan is to build a volcano model — we need paper, paint, and glue.",
       imageSlug: '/images/roblox-team-up-plan-irl.png',
     },
     {
@@ -169,7 +169,7 @@ export const robloxTeamUp: Lesson = {
     },
     {
       phrase: "EVERYONE DO YOUR PART!",
-      definition: "A reminder that each team member has a job — everyone must contribute.",
+      definition: "A reminder that each person in the team has a job — no one can do nothing!",
       example: "Everyone do your part! If one person stops, the whole team suffers.",
       inGame: "Everyone do your part! One person builds the wall, one guards the door!",
       inRealLife: "Everyone do your part in the group project — we each have one section to write.",

@@ -106,7 +106,7 @@ export const robloxLetsTrade: Lesson = {
     {
       word: 'ITEM',
       partOfSpeech: 'noun',
-      definition: "A single thing on a list or in a collection — like an item on a shopping list.",
+      definition: "A single thing you can use, wear, or trade in the game — one object.",
       example: "The last item on my shopping list is milk — I nearly forgot it!",
       imageSlug: '/images/roblox-lets-trade-item-irl.png',
     },

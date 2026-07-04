@@ -106,7 +106,7 @@ export const robloxTradingFair: Lesson = {
     {
       word: 'FAIR',
       partOfSpeech: 'adjective',
-      definition: "Reasonable and equal for everyone involved — no one feels cheated or unhappy.",
+      definition: "Good and equal for both people — nobody gets a bad deal.",
       example: "Let us split the bill equally — that seems fair since we all had the same meal.",
       imageSlug: '/images/roblox-trading-fair-fair-irl.png',
     },
@@ -114,7 +114,7 @@ export const robloxTradingFair: Lesson = {
       word: 'AGREE',
       partOfSpeech: 'verb',
       definition: "To say yes and accept an offer or decision — everyone is happy and the negotiation is over.",
-      example: "I agree with your suggestion — let us go with your plan for the group project.",
+      example: "I agree! Let us do it your way — that sounds good to me.",
       imageSlug: '/images/roblox-trading-fair-agree-irl.png',
     },
     {

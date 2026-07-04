@@ -71,7 +71,7 @@ export const robloxLetsPlay: Lesson = {
     {
       word: 'PLAY',
       partOfSpeech: 'verb',
-      definition: 'Have fun doing an activity — with toys, a sport, or with friends.',
+      definition: 'Have fun — with toys, a sport, or with friends.',
       example: "Let's play football in the park after school!",
       imageSlug: '/images/roblox-lets-play-play-irl.png',
     },
@@ -93,7 +93,7 @@ export const robloxLetsPlay: Lesson = {
       word: 'BUILD',
       partOfSpeech: 'verb',
       definition: 'Make something with your hands — like with LEGO, blocks, or in woodwork class.',
-      example: 'We built a rocket out of cardboard boxes for the school project.',
+      example: 'We built a rocket out of cardboard boxes — it was so much fun!',
       imageSlug: '/images/roblox-lets-play-build-irl.png',
     },
     {
