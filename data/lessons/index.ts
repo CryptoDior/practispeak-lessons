@@ -141,6 +141,16 @@ import { robloxMyFavoriteCharacter } from './roblox-my-favorite-character';
 import { robloxCanYouHelpMe } from './roblox-can-you-help-me';
 import { robloxTeamUp } from './roblox-team-up';
 import { robloxReviewBlock2 } from './roblox-review-block-2';
+import { robloxMyGamingDay } from './roblox-my-gaming-day';
+import { robloxWhatHappenedYesterday } from './roblox-what-happened-yesterday';
+import { robloxDescribingMyAvatar } from './roblox-describing-my-avatar';
+import { robloxThisGameVsThatGame } from './roblox-this-game-vs-that-game';
+import { robloxTheBestGameEver } from './roblox-the-best-game-ever';
+import { robloxGivingInstructions } from './roblox-giving-instructions';
+import { robloxMakingPlansToPlay } from './roblox-making-plans-to-play';
+import { robloxAskingForHelpInChat } from './roblox-asking-for-help-in-chat';
+import { robloxTradingFair } from './roblox-trading-fair';
+import { robloxReviewA2Block1 } from './roblox-review-a2-block-1';
 
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -368,6 +378,16 @@ export const lessons: Lesson[] = [
   robloxCanYouHelpMe,
   robloxTeamUp,
   robloxReviewBlock2,
+  robloxMyGamingDay,
+  robloxWhatHappenedYesterday,
+  robloxDescribingMyAvatar,
+  robloxThisGameVsThatGame,
+  robloxTheBestGameEver,
+  robloxGivingInstructions,
+  robloxMakingPlansToPlay,
+  robloxAskingForHelpInChat,
+  robloxTradingFair,
+  robloxReviewA2Block1,
 
   actionVerbsMoveYourCharacter,
   describingCharacters,
