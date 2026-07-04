@@ -129,7 +129,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
   phrasalVerbs: [
     {
       phrase: "WHAT DOES YOUR CHARACTER LOOK LIKE?",
-      definition: "Ask someone to describe the appearance of their avatar or character.",
+      definition: "Ask someone to tell you what their avatar or character looks like.",
       example: "What does your character look like? I want to find you on the server!",
       inGame: "What does your character look like? Is it tall or small? What colours?",
       inRealLife: "What does your friend look like? Describe them so I can spot them!",
@@ -145,7 +145,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
     },
     {
       phrase: "MY FAVOURITE IS...",
-      definition: "Say which one you like the most — the one you prefer above all others.",
+      definition: "Say which one you like the most — more than all the others.",
       example: "My favourite is the ninja character — it is fast, strong, and looks amazing!",
       inGame: "My favourite is the wizard character — powerful magic and a colourful robe!",
       inRealLife: "My favourite is the strawberry flavour — it is sweet and really refreshing!",
@@ -169,7 +169,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
     },
     {
       phrase: "BETTER THAN...",
-      definition: "Compare two things and say which one is superior.",
+      definition: "Compare two things and say which one is better.",
       example: "This character is better than my old one — it is faster and more powerful!",
       inGame: "My new avatar is better than my old one — it looks so much cooler!",
       inRealLife: "This route is better than the other one — it is shorter and more scenic.",

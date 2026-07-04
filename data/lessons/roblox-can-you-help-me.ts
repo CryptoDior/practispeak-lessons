@@ -71,14 +71,14 @@ export const robloxCanYouHelpMe: Lesson = {
     {
       word: 'HELP',
       partOfSpeech: 'verb',
-      definition: "Support someone who is struggling with something — make a task easier for them.",
+      definition: "Help someone when something is hard for them — make it easier.",
       example: "Can you help me carry these bags? They are very heavy!",
       imageSlug: '/images/roblox-can-you-help-me-help-irl.png',
     },
     {
       word: 'SHOW',
       partOfSpeech: 'verb',
-      definition: "Demonstrate something so another person can see and learn by watching.",
+      definition: "Do something so another person can watch and learn from you.",
       example: "Can you show me how to tie a Windsor knot? I have never done it before.",
       imageSlug: '/images/roblox-can-you-help-me-show-irl.png',
     },
@@ -99,7 +99,7 @@ export const robloxCanYouHelpMe: Lesson = {
     {
       word: 'EXPLAIN',
       partOfSpeech: 'verb',
-      definition: "Describe something carefully so the other person understands it fully.",
+      definition: "Say what something is clearly so the other person can understand.",
       example: "The teacher explained the maths problem step by step — now I get it!",
       imageSlug: '/images/roblox-can-you-help-me-explain-irl.png',
     },
@@ -137,7 +137,7 @@ export const robloxCanYouHelpMe: Lesson = {
     },
     {
       phrase: "SHOW ME HOW TO...",
-      definition: "Ask someone to demonstrate a skill so you can copy them and learn.",
+      definition: "Ask someone to do it first so you can watch and copy them.",
       example: "Show me how to do that jump — I keep falling off the platform!",
       inGame: "Show me how to build a roof in Roblox Studio — mine always looks flat.",
       inRealLife: "Show me how to make that knot — I want to learn it for camping.",
@@ -153,7 +153,7 @@ export const robloxCanYouHelpMe: Lesson = {
     },
     {
       phrase: "ONE MORE TIME",
-      definition: "Ask someone to repeat or demonstrate something again because you still need practice.",
+      definition: "Ask someone to do it again so you can try one more time.",
       example: "One more time! I almost got it — just let me try the jump one more time!",
       inGame: "One more time! I keep falling at the last second — let me try again!",
       inRealLife: "One more time! I want to practice my presentation before the real thing.",

@@ -85,7 +85,7 @@ export const robloxReviewBlock2: Lesson = {
     {
       word: 'BUILDING',
       partOfSpeech: 'verb',
-      definition: "Constructing something with your hands right now — like a model or a structure.",
+      definition: "Making something with your hands right now — like a model or a tower.",
       example: "We are building a model of the Eiffel Tower for the school science fair.",
       imageSlug: '/images/roblox-review-block-2-building-irl.png',
     },
@@ -113,7 +113,7 @@ export const robloxReviewBlock2: Lesson = {
     {
       word: 'ZONE',
       partOfSpeech: 'noun',
-      definition: "An area with a specific purpose or restrictions — like a school zone or a no-phone zone.",
+      definition: "An area with a special rule — like a school zone or a no-phone zone.",
       example: "The library is a quiet zone — no talking or loud music allowed!",
       imageSlug: '/images/roblox-review-block-2-zone-irl.png',
     },

@@ -106,7 +106,7 @@ export const robloxAskingForHelpInChat: Lesson = {
     {
       word: 'NO PROBLEM',
       partOfSpeech: 'phrase',
-      definition: "A casual, friendly way to say yes — it is easy and you are genuinely happy to help.",
+      definition: "A friendly way to say yes — you are really happy to help!",
       example: "Could you help me carry these bags? — No problem, I have got this one for you!",
       imageSlug: '/images/roblox-asking-for-help-in-chat-no-problem-irl.png',
     },
@@ -129,7 +129,7 @@ export const robloxAskingForHelpInChat: Lesson = {
   phrasalVerbs: [
     {
       phrase: "COULD YOU PLEASE + VERB",
-      definition: "The most useful polite request structure — use it whenever you need help from someone.",
+      definition: "The best way to ask for help politely — use it every time you need something.",
       example: "Could you please explain how the trading system works? I am totally new to it.",
       inGame: "Could you please revive me? I am down and the round is not over yet!",
       inRealLife: "Could you please repeat that? I did not quite hear what you said.",
@@ -145,7 +145,7 @@ export const robloxAskingForHelpInChat: Lesson = {
     },
     {
       phrase: "THANK YOU SO MUCH",
-      definition: "A warm and genuine thank you — stronger than just 'thanks' and shows you really appreciate the help.",
+      definition: "A big thank you — stronger than just 'thanks'. You really mean it!",
       example: "You helped me finish that level — thank you so much! I could not have done it without you.",
       inGame: "Thank you so much for the rare item — you did not have to do that, it is so kind!",
       inRealLife: "Thank you so much for helping me study — my test results improved a lot this time!",
@@ -153,7 +153,7 @@ export const robloxAskingForHelpInChat: Lesson = {
     },
     {
       phrase: "I APPRECIATE IT",
-      definition: "A formal and warm way to say thank you — you are recognising that the person took time to help you.",
+      definition: "A nice way to say thank you — you want them to know you really mean it.",
       example: "You spent 20 minutes guiding me through that level — I really appreciate it!",
       inGame: "You saved a spot in your squad for me — I appreciate it more than you know!",
       inRealLife: "You stayed late to help me finish the project — I really appreciate it.",

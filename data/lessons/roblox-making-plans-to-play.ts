@@ -78,14 +78,14 @@ export const robloxMakingPlansToPlay: Lesson = {
     {
       word: 'WILL',
       partOfSpeech: 'verb',
-      definition: "A spontaneous decision or promise — you decide right now and tell someone.",
+      definition: "A quick promise — you say YES right now at this moment.",
       example: "You forgot your lunch? Do not worry, I will share mine with you!",
       imageSlug: '/images/roblox-making-plans-to-play-will-irl.png',
     },
     {
       word: 'PLAN',
       partOfSpeech: 'noun / verb',
-      definition: "An organised idea about what you will do in the future — something you have arranged.",
+      definition: "An idea for what you will do — you have already thought about it.",
       example: "The plan is to meet at the cinema at 2 PM and watch the new film together.",
       imageSlug: '/images/roblox-making-plans-to-play-plan-irl.png',
     },
@@ -129,7 +129,7 @@ export const robloxMakingPlansToPlay: Lesson = {
   phrasalVerbs: [
     {
       phrase: "ARE YOU GOING TO...?",
-      definition: "Ask someone about a plan they have already decided — you want to know their intention.",
+      definition: "Ask someone about a plan they have already made.",
       example: "Are you going to join our squad for the tournament tonight?",
       inGame: "Are you going to play the new update when it comes out?",
       inRealLife: "Are you going to apply for that job? The deadline is this Friday!",
@@ -145,7 +145,7 @@ export const robloxMakingPlansToPlay: Lesson = {
     },
     {
       phrase: "WHAT ARE YOUR PLANS FOR...?",
-      definition: "Ask someone what they are going to do at a specific time — you want to know their plans.",
+      definition: "Ask someone what they will do at a certain time.",
       example: "What are your plans for this weekend? Are you going to be online?",
       inGame: "What are your plans for the tournament? Are you going to enter as a solo or in a squad?",
       inRealLife: "What are your plans for the summer holidays? Are you going anywhere nice?",
@@ -169,7 +169,7 @@ export const robloxMakingPlansToPlay: Lesson = {
     },
     {
       phrase: "IT DEPENDS ON...",
-      definition: "You cannot give a certain answer — the result depends on another thing happening first.",
+      definition: "You are not sure — the answer changes depending on something else.",
       example: "I will probably play later. It depends on how much homework I have tonight.",
       inGame: "I might join — it depends on how long this match takes to finish.",
       inRealLife: "I will go to the party if I can. It depends on whether Dad lets me stay out.",

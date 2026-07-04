@@ -19,7 +19,7 @@ export const robloxReviewA2Block1: Lesson = {
     {
       word: 'JOINED',
       partOfSpeech: 'verb',
-      definition: "Past simple of JOIN — became part of a group, team, or server at a previous time.",
+      definition: "Past simple of JOIN — you went into a group or team before now.",
       example: "I joined the squad yesterday and we immediately won our first match together!",
       imageSlug: '/images/roblox-review-a2-block-1-joined.png',
     },
@@ -47,7 +47,7 @@ export const robloxReviewA2Block1: Lesson = {
     {
       word: 'FINALLY',
       partOfSpeech: 'adverb',
-      definition: "The last step in a sequence — everything else is done and this is the end.",
+      definition: "The very last step — everything else is done and this is the end.",
       example: "First collect the coins, next defeat the enemy, finally open the treasure chest!",
       imageSlug: '/images/roblox-review-a2-block-1-finally.png',
     },
@@ -61,7 +61,7 @@ export const robloxReviewA2Block1: Lesson = {
     {
       word: 'FAIR',
       partOfSpeech: 'adjective',
-      definition: "Equal and reasonable for both people — neither side feels cheated.",
+      definition: "Good for both people — nobody feels bad about the deal.",
       example: "A rare item for two common ones? That is not fair — let us find a better deal.",
       imageSlug: '/images/roblox-review-a2-block-1-fair.png',
     },
@@ -99,14 +99,14 @@ export const robloxReviewA2Block1: Lesson = {
     {
       word: 'HARDEST',
       partOfSpeech: 'adjective',
-      definition: "The most difficult of all — requires the most effort and skill.",
+      definition: "The most difficult of all — you need to work very hard to do it.",
       example: "The hardest exam of the year is tomorrow — I have been studying all week for it!",
       imageSlug: '/images/roblox-review-a2-block-1-hardest-irl.png',
     },
     {
       word: 'FINALLY',
       partOfSpeech: 'adverb',
-      definition: "The last step after a long process — you have done everything and now this is the end.",
+      definition: "The very last step — you have done everything and now it is the end!",
       example: "Finally, I finished my work — it took three weeks but it is done and I am so happy!",
       imageSlug: '/images/roblox-review-a2-block-1-finally-irl.png',
     },
@@ -120,7 +120,7 @@ export const robloxReviewA2Block1: Lesson = {
     {
       word: 'FAIR',
       partOfSpeech: 'adjective',
-      definition: "Equal, just, and reasonable — everyone gets a good deal and nobody is treated badly.",
+      definition: "Good and fair for everyone — nobody gets a bad deal.",
       example: "Let us split the bill equally — that is the fairest way to handle it for everyone.",
       imageSlug: '/images/roblox-review-a2-block-1-fair-irl.png',
     },
@@ -137,7 +137,7 @@ export const robloxReviewA2Block1: Lesson = {
     },
     {
       phrase: "YESTERDAY I... (PAST SIMPLE)",
-      definition: "Talk about something that happened at a specific time in the past — it is finished now.",
+      definition: "Talk about something that happened before — it is done and finished now.",
       example: "Yesterday I won three matches, built a new base, and joined a new squad!",
       inGame: "Yesterday I found a legendary item and reached the top of the leaderboard!",
       inRealLife: "Yesterday I studied for two hours, went for a run, and cooked dinner.",
@@ -145,7 +145,7 @@ export const robloxReviewA2Block1: Lesson = {
     },
     {
       phrase: "... IS BETTER THAN ... (COMPARATIVES)",
-      definition: "Compare two things and say which one is superior — the key comparative structure.",
+      definition: "Compare two things and say which one is better.",
       example: "The new server is much faster than the old one — zero lag, perfect performance!",
       inGame: "Team games are more fun than solo games — always better with a good squad.",
       inRealLife: "Walking in the park is better than sitting inside — fresh air makes everything better.",
@@ -161,7 +161,7 @@ export const robloxReviewA2Block1: Lesson = {
     },
     {
       phrase: "FIRST... NEXT... THEN... FINALLY (INSTRUCTIONS)",
-      definition: "Sequencing words for step-by-step instructions — guide someone through a process clearly.",
+      definition: "Words that show the order of steps — they help you explain what to do.",
       example: "First press start, next choose your character, then join a server, finally enjoy the game!",
       inGame: "First, equip your weapon. Next, run to the left. Then, defeat the boss. Finally, collect your reward.",
       inRealLife: "First, preheat the oven. Next, mix the ingredients. Then, bake for 20 minutes. Finally, enjoy!",
@@ -169,7 +169,7 @@ export const robloxReviewA2Block1: Lesson = {
     },
     {
       phrase: "COULD YOU PLEASE... (POLITE REQUESTS)",
-      definition: "The most useful polite request structure from Block 1 — use it everywhere!",
+      definition: "The best polite way to ask for help from Block 1 — use it everywhere!",
       example: "Could you please show me the shortcut? I have been looking for it for ages!",
       inGame: "Could you please revive me? I am down and the round is still on!",
       inRealLife: "Could you please pass the salt? I cannot quite reach it from here.",
@@ -248,9 +248,9 @@ export const robloxReviewA2Block1: Lesson = {
     { word: 'UNIQUE', definition: 'One of a kind — special and unlike anything else' },
     { word: 'BETTER', definition: 'Comparative of GOOD — higher quality than another thing' },
     { word: 'HARDEST', definition: 'Superlative of HARD — the most difficult of all' },
-    { word: 'FINALLY', definition: 'The very last step in a sequence of instructions' },
+    { word: 'FINALLY', definition: 'The very last step' },
     { word: 'DEFINITELY', definition: '100% certain — no doubt at all' },
-    { word: 'FAIR', definition: 'Equal and reasonable for both people in a deal' },
+    { word: 'FAIR', definition: 'Good for both people — nobody is unhappy' },
   ],
 
   fillBlankExercise: [

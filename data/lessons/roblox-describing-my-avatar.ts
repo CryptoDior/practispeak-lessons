@@ -47,7 +47,7 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       word: 'STYLE',
       partOfSpeech: 'noun',
-      definition: "The overall look and feel of your avatar — its unique personal appearance and vibe.",
+      definition: "How your avatar looks — the clothes, colours, and hair all together.",
       example: "My avatar's style is sporty — trainers, a tracksuit, and a baseball cap.",
       imageSlug: '/images/roblox-describing-my-avatar-style.png',
     },
@@ -71,7 +71,7 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       word: 'HAIR',
       partOfSpeech: 'noun',
-      definition: "The hair on a real person's head — you can describe its length, colour, and style.",
+      definition: "The hair on a real person's head — long or short, light or dark.",
       example: "My hair is dark brown and quite long — it reaches just past my shoulders.",
       imageSlug: '/images/roblox-describing-my-avatar-hair-irl.png',
     },
@@ -85,7 +85,7 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       word: 'DARK',
       partOfSpeech: 'adjective',
-      definition: "A deep, rich colour that is not bright — used to describe hair, eyes, clothes, and skin.",
+      definition: "A strong colour that is not bright — like dark blue, dark brown, or black.",
       example: "He has dark eyes and dark hair — he looks just like his father.",
       imageSlug: '/images/roblox-describing-my-avatar-dark-irl.png',
     },
@@ -99,7 +99,7 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       word: 'SLIM',
       partOfSpeech: 'adjective',
-      definition: "Thin in build — not wide. Used to describe a person's body shape.",
+      definition: "Thin — not big or wide. It is how you describe a person's body.",
       example: "My cat is very slim and elegant — she moves like a dancer.",
       imageSlug: '/images/roblox-describing-my-avatar-slim-irl.png',
     },
@@ -129,7 +129,7 @@ export const robloxDescribingMyAvatar: Lesson = {
   phrasalVerbs: [
     {
       phrase: "WHAT DOES IT LOOK LIKE?",
-      definition: "Ask someone to describe the appearance of something or someone in detail.",
+      definition: "Ask someone to tell you what something or someone looks like.",
       example: "What does your avatar look like? I want to find you on the server!",
       inGame: "What does your new avatar look like? Describe the hair and outfit!",
       inRealLife: "What does the new student look like? Describe them so I can say hello.",
@@ -153,7 +153,7 @@ export const robloxDescribingMyAvatar: Lesson = {
     },
     {
       phrase: "IN MY OPINION...",
-      definition: "Start a sentence to give your personal view or preference about something.",
+      definition: "Start a sentence to say what YOU think about something.",
       example: "In my opinion, a unique avatar with a clear style is always more impressive!",
       inGame: "In my opinion, dark armour with bright accessories looks the coolest.",
       inRealLife: "In my opinion, simple and neat is always the best style for an interview.",

@@ -153,7 +153,7 @@ export const robloxMyGamingDay: Lesson = {
     },
     {
       phrase: "HOW WAS YOUR DAY?",
-      definition: "Ask someone to describe what happened in their day — a friendly conversation starter.",
+      definition: "Ask someone what they did today — a friendly way to start talking.",
       example: "How was your day? Did you get any good gaming time in after school?",
       inGame: "How was your day? Any big wins or new items on Roblox today?",
       inRealLife: "How was your day? Did anything interesting happen at school?",
@@ -161,7 +161,7 @@ export const robloxMyGamingDay: Lesson = {
     },
     {
       phrase: "I USUALLY...",
-      definition: "Describe what you normally do — your regular habit in most situations.",
+      definition: "Say what you do most of the time — your normal thing to do.",
       example: "I usually play for one hour after school — but never more than two!",
       inGame: "I usually log in at 6pm and play until dinner — it is my daily routine.",
       inRealLife: "I usually walk to school, but sometimes I take the bus if it rains.",

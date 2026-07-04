@@ -40,7 +40,7 @@ export const robloxPlayingSafe: Lesson = {
     {
       word: 'PRIVATE',
       partOfSpeech: 'adjective',
-      definition: "Personal information that you keep to yourself and do not share with strangers online.",
+      definition: "Your personal information — things you keep to yourself and do not tell strangers.",
       example: "Never share private information like your address or real name in Roblox chat.",
       imageSlug: '/images/roblox-playing-safe-private.png',
     },
@@ -78,7 +78,7 @@ export const robloxPlayingSafe: Lesson = {
     {
       word: 'IGNORE',
       partOfSpeech: 'verb',
-      definition: "Choose not to respond to someone who is being unkind — do not give them attention.",
+      definition: "Do not answer or talk to someone who is being mean — just ignore them.",
       example: "My mum told me to ignore the unkind comments and walk away.",
       imageSlug: '/images/roblox-playing-safe-ignore-irl.png',
     },
@@ -247,7 +247,7 @@ export const robloxPlayingSafe: Lesson = {
     { word: 'BLOCK', definition: 'Stop a player from sending you messages' },
     { word: 'RULES', definition: 'Instructions that everyone in the game must follow' },
     { word: 'SAFE', definition: 'Not in danger — nothing bad can happen to you' },
-    { word: 'PRIVATE', definition: 'Personal information you do not share with strangers' },
+    { word: 'PRIVATE', definition: 'Your personal things you do not tell strangers' },
     { word: 'TRUST', definition: 'Believe someone is honest and will not hurt you' },
     { word: 'BULLY', definition: 'A player who is mean and tries to make others feel bad' },
     { word: 'MODERATOR', definition: 'A person whose job is to check the game and enforce rules' },

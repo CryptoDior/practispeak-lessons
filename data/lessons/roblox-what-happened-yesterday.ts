@@ -120,7 +120,7 @@ export const robloxWhatHappenedYesterday: Lesson = {
     {
       word: 'REACHED',
       partOfSpeech: 'verb',
-      definition: "Past tense of REACH — you arrived at a place or achieved a goal.",
+      definition: "Past tense of REACH — you got to a place or got to a goal.",
       example: "We reached the top of the hill after an hour of walking — the view was incredible!",
       imageSlug: '/images/roblox-what-happened-yesterday-reached-irl.png',
     },
@@ -145,7 +145,7 @@ export const robloxWhatHappenedYesterday: Lesson = {
     },
     {
       phrase: "IN THE END",
-      definition: "What finally happened after everything else — the final result.",
+      definition: "What happened at the end — the last thing that happened.",
       example: "I lost the first two rounds, but in the end I won the whole tournament!",
       inGame: "It was really hard, but in the end I reached the last checkpoint.",
       inRealLife: "The project was difficult but in the end we got a great result.",
@@ -153,7 +153,7 @@ export const robloxWhatHappenedYesterday: Lesson = {
     },
     {
       phrase: "IT WAS SO...",
-      definition: "How you start a sentence to describe how something felt — very strong feeling!",
+      definition: "How you start a sentence to say how something felt — a very big feeling!",
       example: "It was so exciting! I had never won a tournament before in my life!",
       inGame: "It was so hard! The last level had obstacles I had never seen before.",
       inRealLife: "It was so delicious! The best pizza I have ever tasted in my life.",
@@ -169,7 +169,7 @@ export const robloxWhatHappenedYesterday: Lesson = {
     },
     {
       phrase: "TELL ME EVERYTHING!",
-      definition: "Ask someone to describe everything that happened — you want all the details.",
+      definition: "Ask someone to tell you everything that happened.",
       example: "Tell me everything! You said there was a huge battle — what happened?",
       inGame: "Tell me everything! I missed the big squad game last night — how did it go?",
       inRealLife: "Tell me everything! How was your first day at the new school?",

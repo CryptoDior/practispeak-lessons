@@ -54,7 +54,7 @@ export const robloxTheBestGameEver: Lesson = {
     {
       word: 'GREATEST',
       partOfSpeech: 'adjective',
-      definition: "The most impressive, significant, or remarkable of all time — truly outstanding.",
+      definition: "The most amazing of all time — nothing else comes close!",
       example: "That was my greatest gaming moment ever — I won the tournament on my last life!",
       imageSlug: '/images/roblox-the-best-game-ever-greatest.png',
     },
@@ -85,21 +85,21 @@ export const robloxTheBestGameEver: Lesson = {
     {
       word: 'HARDEST',
       partOfSpeech: 'adjective',
-      definition: "The most difficult thing of all — requires the most effort or skill.",
+      definition: "The most difficult of all — you need to try very hard to do it.",
       example: "The last question on the exam was the hardest — nobody in the class got it right.",
       imageSlug: '/images/roblox-the-best-game-ever-hardest-irl.png',
     },
     {
       word: 'EASIEST',
       partOfSpeech: 'adjective',
-      definition: "The least difficult of all — requires the least effort.",
+      definition: "The least difficult of all — you do not need to try very hard.",
       example: "The first chapter was the easiest — the book got much more challenging after that.",
       imageSlug: '/images/roblox-the-best-game-ever-easiest-irl.png',
     },
     {
       word: 'MOST POPULAR',
       partOfSpeech: 'phrase',
-      definition: "Chosen or liked by the largest number of people — more people prefer this than anything else.",
+      definition: "Liked by the most people — more players choose this than anything else.",
       example: "Pizza is the most popular meal in our school canteen — it always sells out first!",
       imageSlug: '/images/roblox-the-best-game-ever-most-popular-irl.png',
     },

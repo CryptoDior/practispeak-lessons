@@ -92,7 +92,7 @@ export const robloxThisGameVsThatGame: Lesson = {
     {
       word: 'EASIER',
       partOfSpeech: 'adjective',
-      definition: "Less difficult than another thing in real life — it requires less effort.",
+      definition: "Less difficult in real life — you do not need to try as hard.",
       example: "This new recipe is easier than I expected — it only took 15 minutes!",
       imageSlug: '/images/roblox-this-game-vs-that-game-easier-irl.png',
     },
@@ -129,7 +129,7 @@ export const robloxThisGameVsThatGame: Lesson = {
   phrasalVerbs: [
     {
       phrase: "... IS BETTER THAN ...",
-      definition: "The key comparative structure — use it to say one thing is superior to another.",
+      definition: "The main structure — use it to say one thing is better than another.",
       example: "Playing with friends is better than playing alone — everything is more fun!",
       inGame: "This tycoon game is better than the roleplay one — it has more things to do.",
       inRealLife: "Getting enough sleep is better than staying up late — you feel so much better!",
@@ -137,7 +137,7 @@ export const robloxThisGameVsThatGame: Lesson = {
     },
     {
       phrase: "WHICH ONE DO YOU PREFER?",
-      definition: "Ask someone which of two options they like more — their personal preference.",
+      definition: "Ask someone which of the two they like more.",
       example: "Which one do you prefer — obbies or tycoons? I want to know your opinion!",
       inGame: "Which one do you prefer — playing alone or with a squad?",
       inRealLife: "Which one do you prefer — tea or coffee? I will make whatever you like.",
