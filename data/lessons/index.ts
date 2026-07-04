@@ -131,6 +131,16 @@ import { robloxTalkingInChat } from './roblox-talking-in-chat';
 import { robloxHowDoYouFeel } from './roblox-how-do-you-feel';
 import { robloxNumbersScores } from './roblox-numbers-scores';
 import { robloxReviewGamesDay } from './roblox-review-games-day';
+import { robloxPlacesToExplore } from './roblox-places-to-explore';
+import { robloxWhenDoYouPlay } from './roblox-when-do-you-play';
+import { robloxWhatAreYouDoing } from './roblox-what-are-you-doing';
+import { robloxBuildingBlocks } from './roblox-building-blocks';
+import { robloxLetsTrade } from './roblox-lets-trade';
+import { robloxPlayingSafe } from './roblox-playing-safe';
+import { robloxMyFavoriteCharacter } from './roblox-my-favorite-character';
+import { robloxCanYouHelpMe } from './roblox-can-you-help-me';
+import { robloxTeamUp } from './roblox-team-up';
+import { robloxReviewBlock2 } from './roblox-review-block-2';
 
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -348,6 +358,16 @@ export const lessons: Lesson[] = [
   robloxHowDoYouFeel,
   robloxNumbersScores,
   robloxReviewGamesDay,
+  robloxPlacesToExplore,
+  robloxWhenDoYouPlay,
+  robloxWhatAreYouDoing,
+  robloxBuildingBlocks,
+  robloxLetsTrade,
+  robloxPlayingSafe,
+  robloxMyFavoriteCharacter,
+  robloxCanYouHelpMe,
+  robloxTeamUp,
+  robloxReviewBlock2,
 
   actionVerbsMoveYourCharacter,
   describingCharacters,
