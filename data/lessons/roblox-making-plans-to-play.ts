@@ -61,7 +61,7 @@ export const robloxMakingPlansToPlay: Lesson = {
     {
       word: 'LATER',
       partOfSpeech: 'adverb',
-      definition: "At some point after now — not immediately, but at a time that comes after the present.",
+      definition: "Not now — at a time after this. Not straight away, but later.",
       example: "I cannot play right now, but I will be free later — probably after 5 PM.",
       imageSlug: '/images/roblox-making-plans-to-play-later.png',
     },
@@ -132,7 +132,7 @@ export const robloxMakingPlansToPlay: Lesson = {
       definition: "Ask someone about a plan they have already made.",
       example: "Are you going to join our squad for the tournament tonight?",
       inGame: "Are you going to play the new update when it comes out?",
-      inRealLife: "Are you going to apply for that job? The deadline is this Friday!",
+      inRealLife: "Are you going to try for that job? You must do it by Friday!",
       imageSlug: '/images/roblox-making-plans-to-play-are-you-going-to.png',
     },
     {
@@ -246,11 +246,11 @@ export const robloxMakingPlansToPlay: Lesson = {
     { word: 'GOING TO', definition: 'A plan you have already decided' },
     { word: 'WILL', definition: 'A quick decision or promise about the future' },
     { word: 'PLAN', definition: 'An organised idea about what you will do' },
-    { word: 'MAYBE', definition: 'Possible but not certain' },
+    { word: 'MAYBE', definition: 'Maybe yes, maybe no — you are not sure' },
     { word: 'PROBABLY', definition: 'More likely than not — more than 50% sure' },
     { word: 'DEFINITELY', definition: '100% certain — no doubt at all' },
     { word: 'SOON', definition: 'In a short time from now' },
-    { word: 'LATER', definition: 'At some point after now — not immediately' },
+    { word: 'LATER', definition: 'Not now — at a time after this' },
   ],
 
   fillBlankExercise: [

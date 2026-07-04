@@ -99,7 +99,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
     {
       word: 'COLOURFUL',
       partOfSpeech: 'adjective',
-      definition: "Having many bright and different colours — it catches your eye immediately!",
+      definition: "Having many bright and different colours — you see it right away!",
       example: "The market was very colourful — red tomatoes, yellow bananas, and green peppers everywhere!",
       imageSlug: '/images/roblox-my-favorite-character-colourful-irl.png',
     },

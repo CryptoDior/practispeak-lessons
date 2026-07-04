@@ -99,14 +99,14 @@ export const robloxPlacesToExplore: Lesson = {
     {
       word: 'CHECKPOINT',
       partOfSpeech: 'noun',
-      definition: "A point you must reach to show you are making progress — like a milestone on a long journey.",
+      definition: "A point you must get to — it shows you are doing well in the game or on a long trip.",
       example: "The halfway point in a marathon is a big checkpoint — runners stop there for water.",
       imageSlug: '/images/roblox-places-to-explore-checkpoint-irl.png',
     },
     {
       word: 'GATEWAY',
       partOfSpeech: 'noun',
-      definition: "An entrance that takes you from one place to another — like an airport or a city gate.",
+      definition: "A door or entrance that takes you from one place to another.",
       example: "The airport is a gateway to the rest of the world — every trip starts there!",
       imageSlug: '/images/roblox-places-to-explore-gateway-irl.png',
     },

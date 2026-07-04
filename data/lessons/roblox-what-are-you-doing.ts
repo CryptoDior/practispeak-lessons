@@ -61,7 +61,7 @@ export const robloxWhatAreYouDoing: Lesson = {
     {
       word: 'TRYING',
       partOfSpeech: 'verb',
-      definition: "Attempting something difficult right now. You are not giving up — you are making the effort!",
+      definition: "Working hard at something right now. You are not giving up — keep going!",
       example: "I am trying to reach the last checkpoint — I am so close and I will not stop!",
       imageSlug: '/images/roblox-what-are-you-doing-trying.png',
     },
@@ -120,7 +120,7 @@ export const robloxWhatAreYouDoing: Lesson = {
     {
       word: 'TRYING',
       partOfSpeech: 'verb',
-      definition: "Making an effort to do something — especially when it is new or difficult.",
+      definition: "Working hard at something — especially when it is new or hard for you.",
       example: "I am trying a new recipe for the first time today. It smells great!",
       imageSlug: '/images/roblox-what-are-you-doing-trying-irl.png',
     },
@@ -169,7 +169,7 @@ export const robloxWhatAreYouDoing: Lesson = {
     },
     {
       phrase: "STOP DOING THAT!",
-      definition: "Tell someone to stop an action immediately.",
+      definition: "Tell someone to stop what they are doing right now.",
       example: "Stop doing that! You keep breaking my walls when I am building!",
       inGame: "Stop doing that! You are using the wrong door and the whole team gets lost!",
       inRealLife: "Stop doing that! You are making a lot of noise and I am trying to read.",
@@ -250,7 +250,7 @@ export const robloxWhatAreYouDoing: Lesson = {
     { word: 'TRADING', definition: 'Swapping items with another player right now' },
     { word: 'WAITING', definition: 'Staying in one place until something happens' },
     { word: 'WINNING', definition: 'Being in first place right now' },
-    { word: 'TRYING', definition: 'Making an effort at something difficult' },
+    { word: 'TRYING', definition: 'Working hard at something new or hard' },
   ],
 
   fillBlankExercise: [

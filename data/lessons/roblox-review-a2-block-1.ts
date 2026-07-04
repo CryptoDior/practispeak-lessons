@@ -20,7 +20,7 @@ export const robloxReviewA2Block1: Lesson = {
       word: 'JOINED',
       partOfSpeech: 'verb',
       definition: "Past simple of JOIN — you went into a group or team before now.",
-      example: "I joined the squad yesterday and we immediately won our first match together!",
+      example: "I joined the squad yesterday and we won our very first match straight away!",
       imageSlug: '/images/roblox-review-a2-block-1-joined.png',
     },
     {
@@ -40,7 +40,7 @@ export const robloxReviewA2Block1: Lesson = {
     {
       word: 'HARDEST',
       partOfSpeech: 'adjective',
-      definition: "Superlative of HARD — the most difficult thing of all, more challenging than everything else.",
+      definition: "Superlative of HARD — the most difficult of all.",
       example: "That boss battle was the hardest challenge in the whole game — incredible!",
       imageSlug: '/images/roblox-review-a2-block-1-hardest.png',
     },
@@ -121,7 +121,7 @@ export const robloxReviewA2Block1: Lesson = {
       word: 'FAIR',
       partOfSpeech: 'adjective',
       definition: "Good and fair for everyone — nobody gets a bad deal.",
-      example: "Let us split the bill equally — that is the fairest way to handle it for everyone.",
+      example: "Let us each pay the same — that is the fairest way for everyone.",
       imageSlug: '/images/roblox-review-a2-block-1-fair-irl.png',
     },
   ],
@@ -153,7 +153,7 @@ export const robloxReviewA2Block1: Lesson = {
     },
     {
       phrase: "THE BEST I HAVE EVER... (SUPERLATIVES)",
-      definition: "Talk about the number one experience of your whole life — nothing else comes close.",
+      definition: "Talk about the best thing you have ever done — nothing else is better!",
       example: "That tournament was the best gaming session I have ever had — five wins in a row!",
       inGame: "That was the hardest boss I have ever faced — and I beat it on my third try!",
       inRealLife: "That was the most exciting match I have ever watched — incredible last minute goal!",
@@ -161,7 +161,7 @@ export const robloxReviewA2Block1: Lesson = {
     },
     {
       phrase: "FIRST... NEXT... THEN... FINALLY (INSTRUCTIONS)",
-      definition: "Words that show the order of steps — they help you explain what to do.",
+      definition: "Words that show the order of steps — they help you tell someone what to do.",
       example: "First press start, next choose your character, then join a server, finally enjoy the game!",
       inGame: "First, equip your weapon. Next, run to the left. Then, defeat the boss. Finally, collect your reward.",
       inRealLife: "First, preheat the oven. Next, mix the ingredients. Then, bake for 20 minutes. Finally, enjoy!",
@@ -247,7 +247,7 @@ export const robloxReviewA2Block1: Lesson = {
     { word: 'JOINED', definition: 'Past simple of JOIN — became part of a group at a past time' },
     { word: 'UNIQUE', definition: 'One of a kind — special and unlike anything else' },
     { word: 'BETTER', definition: 'Comparative of GOOD — higher quality than another thing' },
-    { word: 'HARDEST', definition: 'Superlative of HARD — the most difficult of all' },
+    { word: 'HARDEST', definition: 'The most difficult of all — harder than everything' },
     { word: 'FINALLY', definition: 'The very last step' },
     { word: 'DEFINITELY', definition: '100% certain — no doubt at all' },
     { word: 'FAIR', definition: 'Good for both people — nobody is unhappy' },

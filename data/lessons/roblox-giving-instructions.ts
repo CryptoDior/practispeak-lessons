@@ -129,7 +129,7 @@ export const robloxGivingInstructions: Lesson = {
   phrasalVerbs: [
     {
       phrase: "MAKE SURE YOU...",
-      definition: "A phrase to highlight an important step — do not forget this or something will go wrong!",
+      definition: "A phrase for a really important step — do not forget this or it will go wrong!",
       example: "Make sure you save your progress before you close the game — or you will lose everything!",
       inGame: "Make sure you collect the key before going through the door, or it will be locked.",
       inRealLife: "Make sure you turn off the oven after you finish cooking — very important!",
@@ -137,7 +137,7 @@ export const robloxGivingInstructions: Lesson = {
     },
     {
       phrase: "DO NOT FORGET TO...",
-      definition: "A reminder for a step that people often miss — it is easy to skip but very important.",
+      definition: "A reminder for a step that people forget — do not skip it, it is very important!",
       example: "Do not forget to equip your best weapon before you enter the boss room!",
       inGame: "Do not forget to join the squad before the round starts — you need to be in a team!",
       inRealLife: "Do not forget to charge your phone before a long trip — you will need the battery.",
@@ -153,7 +153,7 @@ export const robloxGivingInstructions: Lesson = {
     },
     {
       phrase: "AS SOON AS...",
-      definition: "The moment that a certain thing happens — immediately after that event, do the next step.",
+      definition: "The moment something happens — do the next step right away!",
       example: "As soon as the timer hits zero, run to the exit as fast as you can!",
       inGame: "As soon as you see the boss appear, move to the left side — it is safer there.",
       inRealLife: "As soon as your alarm rings, get up — do not hit snooze or you will be late!",

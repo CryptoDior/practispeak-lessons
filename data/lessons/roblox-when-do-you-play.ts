@@ -71,7 +71,7 @@ export const robloxWhenDoYouPlay: Lesson = {
     {
       word: 'ALWAYS',
       partOfSpeech: 'adverb',
-      definition: "Every single time — in every situation, without fail.",
+      definition: "Every time — you always do it, no matter what.",
       example: "I always say good morning to my teacher — every single day.",
       imageSlug: '/images/roblox-when-do-you-play-always-irl.png',
     },
@@ -139,7 +139,7 @@ export const robloxWhenDoYouPlay: Lesson = {
       phrase: "NOT RIGHT NOW",
       definition: "A polite way to say you are busy at this moment but maybe later.",
       example: "Not right now — I have to finish my homework first!",
-      inGame: "Not right now — I am in the middle of an important obby stage!",
+      inGame: "Not right now — I am on a really important part of the obby!",
       inRealLife: "Not right now — I am helping my mum with dinner.",
       imageSlug: '/images/roblox-when-do-you-play-not-right-now.png',
     },

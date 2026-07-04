@@ -26,14 +26,14 @@ export const robloxThisGameVsThatGame: Lesson = {
     {
       word: 'HARDER',
       partOfSpeech: 'adjective',
-      definition: "More difficult than another thing — it needs more skill or effort to complete.",
+      definition: "More difficult than another thing — you have to try harder to finish it.",
       example: "This obby is much harder than the one we played yesterday — I keep falling!",
       imageSlug: '/images/roblox-this-game-vs-that-game-harder.png',
     },
     {
       word: 'EASIER',
       partOfSpeech: 'adjective',
-      definition: "Less difficult than another thing — it needs less effort or skill to complete.",
+      definition: "Less difficult than another thing — you do not need to try as hard to finish it.",
       example: "This level is easier than the one before — I finished it on my first try!",
       imageSlug: '/images/roblox-this-game-vs-that-game-easier.png',
     },
@@ -85,7 +85,7 @@ export const robloxThisGameVsThatGame: Lesson = {
     {
       word: 'HARDER',
       partOfSpeech: 'adjective',
-      definition: "More difficult than another thing in real life — it needs more effort.",
+      definition: "More difficult in real life — you have to try harder.",
       example: "Year 8 maths is harder than Year 7 — but I am getting used to it!",
       imageSlug: '/images/roblox-this-game-vs-that-game-harder-irl.png',
     },
@@ -99,7 +99,7 @@ export const robloxThisGameVsThatGame: Lesson = {
     {
       word: 'BETTER',
       partOfSpeech: 'adjective',
-      definition: "Of higher quality — more enjoyable or more effective than something else.",
+      definition: "Better — you enjoy it more and it is nicer than the other thing.",
       example: "The second book in the series is better than the first — the plot is more exciting.",
       imageSlug: '/images/roblox-this-game-vs-that-game-better-irl.png',
     },
@@ -245,8 +245,8 @@ export const robloxThisGameVsThatGame: Lesson = {
   matchingExercise: [
     { word: 'BIGGER', definition: 'Larger than another thing' },
     { word: 'FASTER', definition: 'Quicker than another thing' },
-    { word: 'HARDER', definition: 'More difficult than another thing' },
-    { word: 'EASIER', definition: 'Less difficult than another thing' },
+    { word: 'HARDER', definition: 'More difficult — you have to try harder' },
+    { word: 'EASIER', definition: 'Less difficult — you do not need to try as hard' },
     { word: 'BETTER', definition: 'Of higher quality — more enjoyable' },
     { word: 'WORSE', definition: 'Of lower quality — less enjoyable' },
     { word: 'MORE FUN', definition: 'Having a greater amount of enjoyment' },

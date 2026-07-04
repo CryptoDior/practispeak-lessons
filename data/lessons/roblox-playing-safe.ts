@@ -137,7 +137,7 @@ export const robloxPlayingSafe: Lesson = {
     },
     {
       phrase: "TELL A GROWN-UP",
-      definition: "Go to a trusted adult and explain what is happening so they can help you.",
+      definition: "Go to an adult you trust and tell them what is happening so they can help.",
       example: "Tell a grown-up if someone online makes you feel scared or uncomfortable.",
       inGame: "Tell a grown-up if someone asks for your personal information in the game.",
       inRealLife: "Tell a grown-up if something at school is making you unhappy.",
@@ -172,7 +172,7 @@ export const robloxPlayingSafe: Lesson = {
       definition: "How you say that something does not feel right and is making you worried or scared.",
       example: "I feel uncomfortable when that player follows me around and sends me messages.",
       inGame: "I feel uncomfortable — this player keeps asking for my personal details.",
-      inRealLife: "I feel uncomfortable — that situation felt wrong and I did not like it.",
+      inRealLife: "I feel uncomfortable — something felt wrong and I did not like it.",
       imageSlug: '/images/roblox-playing-safe-i-feel-uncomfortable.png',
     },
   ],

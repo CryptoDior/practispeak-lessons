@@ -26,14 +26,14 @@ export const robloxTheBestGameEver: Lesson = {
     {
       word: 'HARDEST',
       partOfSpeech: 'adjective',
-      definition: "The most difficult of all — more challenging than every other option.",
+      definition: "The most difficult of all — harder than every other one.",
       example: "That is the hardest level in the whole game — only 1% of players have ever finished it!",
       imageSlug: '/images/roblox-the-best-game-ever-hardest.png',
     },
     {
       word: 'EASIEST',
       partOfSpeech: 'adjective',
-      definition: "The simplest of all — less difficult than every other option.",
+      definition: "The simplest of all — easier than every other one.",
       example: "The first level is the easiest — it is just one small jump across a tiny gap.",
       imageSlug: '/images/roblox-the-best-game-ever-easiest.png',
     },
@@ -129,9 +129,9 @@ export const robloxTheBestGameEver: Lesson = {
   phrasalVerbs: [
     {
       phrase: "THE BEST I HAVE EVER...",
-      definition: "Talk about the number one experience of your whole life — nothing else comes close.",
+      definition: "Talk about the best thing you have ever done — nothing else is better!",
       example: "That is the best game I have ever played — I think about it every day!",
-      inGame: "That tournament was the best gaming experience I have ever had!",
+      inGame: "That tournament was the best time I have ever had in a game!",
       inRealLife: "That was the best meal I have ever eaten — incredible flavours!",
       imageSlug: '/images/roblox-the-best-game-ever-the-best-i-have-ever.png',
     },
@@ -169,7 +169,7 @@ export const robloxTheBestGameEver: Lesson = {
     },
     {
       phrase: "I HAVE EVER SEEN / PLAYED / DONE",
-      definition: "Use EVER with superlatives to talk about your whole lifetime experience.",
+      definition: "Use EVER with superlatives to talk about the best or worst thing in your whole life.",
       example: "That is the most exciting game I have ever played in my entire life!",
       inGame: "This is the greatest gaming session I have ever had — five wins in a row!",
       inRealLife: "That is the most beautiful sunset I have ever seen — just incredible.",
@@ -245,8 +245,8 @@ export const robloxTheBestGameEver: Lesson = {
   matchingExercise: [
     { word: 'BEST', definition: 'Number one — better than everything and everyone else' },
     { word: 'WORST', definition: 'The lowest of all — worse than everything else' },
-    { word: 'HARDEST', definition: 'The most difficult of all — most challenging' },
-    { word: 'EASIEST', definition: 'The simplest of all — least difficult' },
+    { word: 'HARDEST', definition: 'The most difficult of all — harder than everything' },
+    { word: 'EASIEST', definition: 'The simplest of all — easier than everything' },
     { word: 'MOST POPULAR', definition: 'Liked by the greatest number of people' },
     { word: 'MOST FUN', definition: 'The one that gives the greatest amount of enjoyment' },
     { word: 'GREATEST', definition: 'The most impressive or remarkable of all time' },

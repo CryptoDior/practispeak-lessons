@@ -113,7 +113,7 @@ export const robloxCanYouHelpMe: Lesson = {
     {
       word: 'UNDERSTAND',
       partOfSpeech: 'verb',
-      definition: "Fully grasp what something means — you know and can explain it yourself.",
+      definition: "Know what something means — you get it and can say it in your own words.",
       example: "I did not understand the instructions so I asked the teacher to explain again.",
       imageSlug: '/images/roblox-can-you-help-me-understand-irl.png',
     },
@@ -156,7 +156,7 @@ export const robloxCanYouHelpMe: Lesson = {
       definition: "Ask someone to do it again so you can try one more time.",
       example: "One more time! I almost got it — just let me try the jump one more time!",
       inGame: "One more time! I keep falling at the last second — let me try again!",
-      inRealLife: "One more time! I want to practice my presentation before the real thing.",
+      inRealLife: "One more time! I want to do my talk again before the real one.",
       imageSlug: '/images/roblox-can-you-help-me-one-more-time.png',
     },
     {

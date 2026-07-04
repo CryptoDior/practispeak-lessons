@@ -100,7 +100,7 @@ export const robloxReviewBlock2: Lesson = {
       word: 'REPORT',
       partOfSpeech: 'verb',
       definition: "Tell a responsible person — a teacher or parent — about something wrong.",
-      example: "I reported the problem to my teacher and she sorted it out immediately.",
+      example: "I told my teacher about the problem and she fixed it straight away.",
       imageSlug: '/images/roblox-review-block-2-report-irl.png',
     },
     {
