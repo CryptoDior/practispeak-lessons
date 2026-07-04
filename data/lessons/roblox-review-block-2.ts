@@ -48,7 +48,7 @@ export const robloxReviewBlock2: Lesson = {
       word: 'TEAM',
       partOfSpeech: 'noun',
       definition: "A group of players who work together to win the same goal.",
-      example: "My team won the boss battle — everyone cooperated and it was amazing!",
+      example: "My team won the boss battle — everyone helped each other and it was amazing!",
       imageSlug: '/images/roblox-review-block-2-team.png',
     },
     {
@@ -147,7 +147,7 @@ export const robloxReviewBlock2: Lesson = {
       phrase: "LET ME THINK...",
       definition: "What you say when you need a moment to remember or work something out.",
       example: "Let me think... TRADE means to swap items with another player!",
-      inGame: "Let me think... what does COOPERATE mean? Oh yes — work together nicely!",
+      inGame: "Let me think... what does HELP OUT mean? Oh yes — help the people on your team!",
       inRealLife: "Let me think... the answer is 42. I remember now!",
       imageSlug: '/images/roblox-review-block-2-let-me-think.png',
     },
@@ -238,7 +238,7 @@ export const robloxReviewBlock2: Lesson = {
       speaker: 'Leo',
       speakerColor: 'green',
       speakerAvatar: '/images/leo-icon.png',
-      text: "A TEAM is a group working together towards the same goal — everyone cooperates! Well done us — Block 3, here we come!",
+      text: "A TEAM is a group playing together towards the same goal — everyone helps out! Well done us — Block 3, here we come!",
     },
   ],
 
@@ -260,7 +260,7 @@ export const robloxReviewBlock2: Lesson = {
     { before: "I want to", after: "my old hat for your golden sword — deal?", answer: 'trade' },
     { before: "I", after: "that player for asking for my personal details.", answer: 'reported' },
     { before: "Stay out of the red", after: "— it will damage your character!", answer: 'zone' },
-    { before: "Our", after: "won the boss battle because we all cooperated.", answer: 'team' },
+    { before: "Our", after: "won the boss battle because we all helped each other.", answer: 'team' },
     { before: "I love to", after: "new Roblox worlds on the weekend.", answer: 'explore' },
   ],
 
