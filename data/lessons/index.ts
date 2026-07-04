@@ -151,6 +151,16 @@ import { robloxMakingPlansToPlay } from './roblox-making-plans-to-play';
 import { robloxAskingForHelpInChat } from './roblox-asking-for-help-in-chat';
 import { robloxTradingFair } from './roblox-trading-fair';
 import { robloxReviewA2Block1 } from './roblox-review-a2-block-1';
+import { robloxGroupVsSolo } from './roblox-group-vs-solo';
+import { robloxRulesAndConsequences } from './roblox-rules-and-consequences';
+import { robloxMyRobloxStory } from './roblox-my-roblox-story';
+import { robloxLikesAndDislikes } from './roblox-likes-and-dislikes';
+import { robloxDescribingProblems } from './roblox-describing-problems';
+import { robloxStudioBasics } from './roblox-studio-basics';
+import { robloxTalkingAboutAbility } from './roblox-talking-about-ability';
+import { robloxAskingQuestions } from './roblox-asking-questions';
+import { robloxGivingOpinions } from './roblox-giving-opinions';
+import { robloxReviewA2Block2 } from './roblox-review-a2-block-2';
 
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -388,6 +398,16 @@ export const lessons: Lesson[] = [
   robloxAskingForHelpInChat,
   robloxTradingFair,
   robloxReviewA2Block1,
+  robloxGroupVsSolo,
+  robloxRulesAndConsequences,
+  robloxMyRobloxStory,
+  robloxLikesAndDislikes,
+  robloxDescribingProblems,
+  robloxStudioBasics,
+  robloxTalkingAboutAbility,
+  robloxAskingQuestions,
+  robloxGivingOpinions,
+  robloxReviewA2Block2,
 
   actionVerbsMoveYourCharacter,
   describingCharacters,
