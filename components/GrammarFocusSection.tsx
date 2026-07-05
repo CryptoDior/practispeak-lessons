@@ -77,7 +77,7 @@ export default function GrammarFocusSection({ grammar }: { grammar: GrammarFocus
           {/* Positive examples */}
           <div className="mb-4">
             <div className="flex items-center gap-2 mb-2">
-              <span className="text-xs font-extrabold tracking-widest text-gray-700 uppercase">Positive</span>
+              <span className="text-xs font-extrabold tracking-widest text-gray-700 uppercase">{grammar.positiveLabel ?? 'Positive'}</span>
               {!isStyleB && (
                 <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="#066EF5" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="2.5,8 6,11.5 13.5,4"/>
@@ -104,7 +104,7 @@ export default function GrammarFocusSection({ grammar }: { grammar: GrammarFocus
           {/* Negative examples */}
           <div>
             <div className="flex items-center gap-2 mb-2">
-              <span className="text-xs font-extrabold tracking-widest text-gray-700 uppercase">Negative</span>
+              <span className="text-xs font-extrabold tracking-widest text-gray-700 uppercase">{grammar.negativeLabel ?? 'Negative'}</span>
               {grammar.negativeSubtitle && (
                 <span className="text-xs text-gray-400 font-semibold">{grammar.negativeSubtitle}</span>
               )}

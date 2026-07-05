@@ -52,19 +52,25 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
     ? (() => { const vi = withWarmUp.indexOf('Vocabulary'); return [...withWarmUp.slice(0, vi + 1), 'IRL Vocab', 'Compare', ...withWarmUp.slice(vi + 1)]; })()
     : [...withWarmUp];
 
+  const hasGrammarFocus = !!lesson.grammarFocus;
+  const gf = hasGrammarFocus ? 1 : 0;
+  const withGrammarFocus: string[] = hasGrammarFocus
+    ? (() => { const vi = withIrlVocab.indexOf('Vocabulary'); return [...withIrlVocab.slice(0, vi + 1), 'Grammar Focus', ...withIrlVocab.slice(vi + 1)]; })()
+    : [...withIrlVocab];
+
   const hasPhrasalDetails = lesson.phrasalVerbs.some(
     (v) => v.inAction || v.register || v.inContext
   );
   let withPhrasalTabs: string[];
   if (hasPhrasalDetails) {
-    const phrasesIdx = withIrlVocab.indexOf('Phrases');
+    const phrasesIdx = withGrammarFocus.indexOf('Phrases');
     withPhrasalTabs = [
-      ...withIrlVocab.slice(0, phrasesIdx + 1),
+      ...withGrammarFocus.slice(0, phrasesIdx + 1),
       'In Action', 'Register',
-      ...withIrlVocab.slice(phrasesIdx + 1),
+      ...withGrammarFocus.slice(phrasesIdx + 1),
     ];
   } else {
-    withPhrasalTabs = [...withIrlVocab];
+    withPhrasalTabs = [...withGrammarFocus];
   }
   const po = hasPhrasalDetails ? 2 : 0;
 
@@ -233,12 +239,11 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           <div className="flex flex-col gap-6">
             {lesson.vocabulary.map((word, i) => <VocabCard key={word.word} word={word} index={i} />)}
           </div>
-          {lesson.grammarFocus && <GrammarFocusSection grammar={lesson.grammarFocus} />}
         </section>
 
         {/* IRL Vocab */}
         {lesson.irlVocabulary && (
-          <section className={activeTab === wo + 1 ? 'block' : 'hidden'}>
+          <section className={activeTab === wo + gf + 1 ? 'block' : 'hidden'}>
             <SectionHeader
               title="IRL Vocab"
               subtitle={`${lesson.irlVocabulary.length} words — what they mean in real life`}
@@ -251,16 +256,25 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
 
         {/* Compare */}
         {lesson.irlVocabulary && (
-          <section className={activeTab === wo + 2 ? 'block' : 'hidden'}>
+          <section className={activeTab === wo + gf + 2 ? 'block' : 'hidden'}>
             <CompareTab vocabulary={lesson.vocabulary} irlVocabulary={lesson.irlVocabulary} />
           </section>
         )}
 
+
+        {/* Grammar Focus */}
+        {lesson.grammarFocus && (
+          <section className={activeTab === TABS.indexOf('Grammar Focus') ? 'block' : 'hidden'}>
+            <SectionHeader title="Grammar Focus" subtitle="Understand the grammar rule behind this lesson's topic" />
+            <GrammarFocusSection grammar={lesson.grammarFocus} />
+          </section>
+        )}
+
         {/* Phrases */}
-        <section className={activeTab === wo + irl + 1 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + irl + gf + 1 ? 'block' : 'hidden'}>
           <SectionHeader
-            title={TABS[wo + irl + 1]}
-            subtitle={`${lesson.phrasalVerbs.length} ${TABS[wo + irl + 1].toLowerCase()} and their meanings`}
+            title={TABS[wo + irl + gf + 1]}
+            subtitle={`${lesson.phrasalVerbs.length} ${TABS[wo + irl + gf + 1].toLowerCase()} and their meanings`}
           />
           <div className="flex flex-col gap-6">
             {lesson.phrasalVerbs.map((verb, i) => <PhrasalVerbCard key={verb.phrase} verb={verb} index={i} />)}
@@ -269,7 +283,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
 
         {/* In Action — 3 scenario cards, each covering 2 phrasal verbs */}
         {hasPhrasalDetails && (
-          <section className={activeTab === wo + irl + 2 ? 'block' : 'hidden'}>
+          <section className={activeTab === wo + irl + gf + 2 ? 'block' : 'hidden'}>
             <SectionHeader title="In Action" subtitle="Hear how these phrases sound in real B2B situations" subtitleClass="text-gray-700 font-semibold" />
             <div className="flex flex-col gap-6">
               {[0, 1, 2].map((cardIdx) => {
@@ -322,7 +336,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
 
         {/* Register */}
         {hasPhrasalDetails && (
-          <section className={activeTab === wo + irl + 3 ? 'block' : 'hidden'}>
+          <section className={activeTab === wo + irl + gf + 3 ? 'block' : 'hidden'}>
             <SectionHeader title="Register" subtitle="Understand when and how to use each phrase — formal, neutral, or informal" subtitleClass="text-gray-600 font-semibold" />
             {/* Visual Examples */}
             {lesson.phrasalVerbs.some(v => v.visualExamples?.length) && (
@@ -382,10 +396,10 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         )}
 
         {/* Videos / Register (vocab awareness) */}
-        <section className={activeTab === wo + irl + po + otp + 2 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + irl + po + otp + gf + 2 ? 'block' : 'hidden'}>
           {lesson.registerAwareness ? (
             <>
-              <SectionHeader title={TABS[wo + irl + po + otp + 2]} subtitle="How these words change across different contexts" />
+              <SectionHeader title={TABS[wo + irl + po + otp + gf + 2]} subtitle="How these words change across different contexts" />
               <RegisterSection entries={lesson.registerAwareness} traps={lesson.registerTraps} />
             </>
           ) : (
@@ -399,10 +413,10 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         </section>
 
         {/* Dialogue / Reading Passage */}
-        <section className={activeTab === wo + irl + po + otp + 3 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + irl + po + otp + gf + 3 ? 'block' : 'hidden'}>
           {lesson.readingPassage ? (
             <>
-              <SectionHeader title={TABS[wo + irl + po + otp + 3]} subtitle="Read the passage — highlighted words are from this lesson" />
+              <SectionHeader title={TABS[wo + irl + po + otp + gf + 3]} subtitle="Read the passage — highlighted words are from this lesson" />
               <ReadingPassageSection passage={lesson.readingPassage} prompts={lesson.productionPrompts} />
             </>
           ) : (
@@ -416,7 +430,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         </section>
 
         {/* Exercises */}
-        <section className={activeTab === wo + irl + po + otp + 4 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + irl + po + otp + gf + 4 ? 'block' : 'hidden'}>
           <SectionHeader title="Exercises" subtitle="Complete all three exercises to see your final score" />
           <div className="space-y-6">
             {lesson.pitchCorner && (

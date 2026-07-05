@@ -8,6 +8,29 @@ export const robloxIdiomsI: Lesson = {
   description: "Some of the most useful idioms in modern English came directly from gaming. Words like 'level up', 'endgame', and 'game-changer' have moved out of games and into job interviews, business meetings, and everyday conversation. At B2, you need to recognise when these idioms are being used seriously — and use them yourself with confidence.",
   heroImage: '/images/roblox-idioms-i-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: What is an Idiom?',
+    description: "An idiom is a group of words with a special meaning. The meaning is NOT the same as the normal meaning of each word. You cannot translate idioms word by word! In gaming and in real life, idioms make your English sound natural and confident.",
+    positivePattern: 'Idiom = one fixed phrase with a hidden meaning',
+    positiveExample: '"Level up" = to improve and get better',
+    negativePattern: 'Word + word ≠ the idiom meaning',
+    negativeExample: '"Level" + "up" ≠ going to a higher floor',
+    positiveLabel: 'CORRECT MEANING',
+    negativeLabel: 'LITERAL MEANING (wrong!)',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"She levelled up her communication skills."', note: 'improved her skills significantly' },
+      { sentence: '"That update was a total game-changer."', note: 'it changed everything completely' },
+      { sentence: '"He is grinding every evening to pass his exams."', note: 'working hard and consistently' },
+      { sentence: '"The team respawned with a new strategy after losing."', note: 'came back and tried again after a setback' },
+    ],
+    negativeExamples: [
+      { sentence: '"She moved to the floor above."', note: "this is the literal meaning — level up is an idiom here!" },
+      { sentence: '"The game changed its name."', note: 'game-changer does NOT mean a game that changed' },
+      { sentence: '"He rubbed something rough every evening."', note: 'grinding is NOT about physical rubbing here' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'LEVEL UP',

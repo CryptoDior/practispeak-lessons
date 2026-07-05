@@ -100,6 +100,8 @@ export interface GrammarFocus {
   // Shared
   negativeSubtitle?: string;     // e.g. "(Don\'t + verb)"
   arrowStyle?: boolean;          // show examples as "sentence → note" instead of parentheses
+  positiveLabel?: string;        // override "Positive" heading (default: "Positive")
+  negativeLabel?: string;        // override "Negative" heading (default: "Negative")
   positiveExamples: GrammarExample[];
   negativeExamples: GrammarExample[];
 }
