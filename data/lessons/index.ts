@@ -171,6 +171,16 @@ import { robloxConditionals } from './roblox-conditionals';
 import { robloxAdverbsFrequencyDegree } from './roblox-adverbs-frequency-degree';
 import { robloxQuestionFormation } from './roblox-question-formation';
 import { robloxReviewB1Block1 } from './roblox-review-b1-block-1';
+import { robloxReportedSpeech } from './roblox-reported-speech';
+import { robloxNounsFromVerbs } from './roblox-nouns-from-verbs';
+import { robloxComparativeStructures } from './roblox-comparative-structures';
+import { robloxPhrasalVerbsII } from './roblox-phrasal-verbs-ii';
+import { robloxPassiveVoice } from './roblox-passive-voice';
+import { robloxConjunctionsLinkingWords } from './roblox-conjunctions-linking-words';
+import { robloxAdjectivePrepositionPatterns } from './roblox-adjective-preposition-patterns';
+import { robloxLightSlangExpressions } from './roblox-light-slang-expressions';
+import { robloxStorytellingPastTenses } from './roblox-storytelling-past-tenses';
+import { robloxReviewB1Block2 } from './roblox-review-b1-block-2';
 
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -428,6 +438,16 @@ export const lessons: Lesson[] = [
   robloxAdverbsFrequencyDegree,
   robloxQuestionFormation,
   robloxReviewB1Block1,
+  robloxReportedSpeech,
+  robloxNounsFromVerbs,
+  robloxComparativeStructures,
+  robloxPhrasalVerbsII,
+  robloxPassiveVoice,
+  robloxConjunctionsLinkingWords,
+  robloxAdjectivePrepositionPatterns,
+  robloxLightSlangExpressions,
+  robloxStorytellingPastTenses,
+  robloxReviewB1Block2,
 
   actionVerbsMoveYourCharacter,
   describingCharacters,

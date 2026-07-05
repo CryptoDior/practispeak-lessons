@@ -1,0 +1,368 @@
+import { Lesson } from '@/types/lesson';
+
+export const robloxAdjectivePrepositionPatterns: Lesson = {
+  slug: 'roblox-adjective-preposition-patterns',
+  title: "Adjective + Preposition Patterns",
+  subtitle: "Good AT, proud OF, excited ABOUT — the preposition is part of the phrase. Get it right every time!",
+  level: 'B1-B2',
+  description: "In English, adjectives come with fixed prepositions — you are good AT something, not good IN it. You are interested IN something, not interested ABOUT it. These patterns do not follow logic — you simply have to learn them. This lesson covers the eight most common ones you will use in Roblox and in real life.",
+  heroImage: '/images/roblox-adjective-preposition-patterns-hero.png',
+
+  vocabulary: [
+    {
+      word: 'GOOD AT',
+      partOfSpeech: 'phrase',
+      definition: "Skilled or talented in a particular activity or subject.",
+      example: "Mia is exceptionally good at long-range combat — her accuracy percentage is in the top five percent.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-good-at.png',
+    },
+    {
+      word: 'INTERESTED IN',
+      partOfSpeech: 'phrase',
+      definition: "Having curiosity, attention, or enthusiasm about something.",
+      example: "He is not particularly interested in ranked mode — he prefers exploration and building servers.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-interested-in.png',
+    },
+    {
+      word: 'FAMOUS FOR',
+      partOfSpeech: 'phrase',
+      definition: "Known and recognised by others specifically because of something.",
+      example: "That guild is famous for its incredibly organised strategies — every player knows their exact role.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-famous-for.png',
+    },
+    {
+      word: 'BORED OF',
+      partOfSpeech: 'phrase',
+      definition: "Tired of something through repeated exposure — no longer interested or engaged.",
+      example: "I am getting bored of this map — we have played it every single day for three weeks.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-bored-of.png',
+    },
+    {
+      word: 'EXCITED ABOUT',
+      partOfSpeech: 'phrase',
+      definition: "Feeling enthusiasm, anticipation, and positive energy about something.",
+      example: "The whole guild is excited about the new season — the rewards look absolutely incredible.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-excited-about.png',
+    },
+    {
+      word: 'WORRIED ABOUT',
+      partOfSpeech: 'phrase',
+      definition: "Feeling anxious or concerned about something — thinking it could go wrong.",
+      example: "I am a little worried about our strategy for the finals — we have never tested it under real pressure.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-worried-about.png',
+    },
+    {
+      word: 'PROUD OF',
+      partOfSpeech: 'phrase',
+      definition: "Feeling deep satisfaction and pleasure about an achievement — your own or someone else's.",
+      example: "She is incredibly proud of how far the guild has come — from ten members to over two hundred.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-proud-of.png',
+    },
+    {
+      word: 'AWARE OF',
+      partOfSpeech: 'phrase',
+      definition: "Knowing that something exists or is happening — having knowledge or understanding of it.",
+      example: "Are you aware of the new ranking system? It changes how points are calculated after every match.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-aware-of.png',
+    },
+  ],
+
+  irlVocabulary: [
+    {
+      word: 'GOOD AT',
+      partOfSpeech: 'phrase',
+      definition: "Skilled or talented in a particular area — in work, study, or life.",
+      example: "She is exceptionally good at presenting complex data in a way that non-technical audiences understand.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-good-at-irl.png',
+    },
+    {
+      word: 'INTERESTED IN',
+      partOfSpeech: 'phrase',
+      definition: "Engaged by or curious about a topic, role, or opportunity.",
+      example: "He is genuinely interested in pursuing a career in data science — he has already completed two courses.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-interested-in-irl.png',
+    },
+    {
+      word: 'FAMOUS FOR',
+      partOfSpeech: 'phrase',
+      definition: "Widely known and recognised because of a specific quality, product, or achievement.",
+      example: "That company is famous for its rapid promotion pathways and strong internal culture.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-famous-for-irl.png',
+    },
+    {
+      word: 'BORED OF',
+      partOfSpeech: 'phrase',
+      definition: "Tired and disengaged — no longer finding something stimulating or interesting.",
+      example: "After seven years in the same role, she was bored of the work and ready for a new challenge.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-bored-of-irl.png',
+    },
+    {
+      word: 'EXCITED ABOUT',
+      partOfSpeech: 'phrase',
+      definition: "Feeling enthusiasm and positive anticipation about something upcoming.",
+      example: "The whole team is excited about the product launch — it has been eighteen months in the making.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-excited-about-irl.png',
+    },
+    {
+      word: 'WORRIED ABOUT',
+      partOfSpeech: 'phrase',
+      definition: "Feeling anxious or concerned that something negative might happen.",
+      example: "She is worried about the upcoming restructuring — three people in her team may be made redundant.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-worried-about-irl.png',
+    },
+    {
+      word: 'PROUD OF',
+      partOfSpeech: 'phrase',
+      definition: "Feeling satisfaction and pride about an achievement — your own or others'.",
+      example: "The CEO said she was proud of how the team handled the crisis — every deadline was met.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-proud-of-irl.png',
+    },
+    {
+      word: 'AWARE OF',
+      partOfSpeech: 'phrase',
+      definition: "Knowing about something — having information or understanding of a situation.",
+      example: "He was not aware of the policy change until a colleague mentioned it in the Monday meeting.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-aware-of.png',
+    },
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: "LOOK OUT FOR",
+      definition: "Pay attention and be ready to notice or avoid something.",
+      example: "Look out for the sniper spawn point on the east side — it catches new players every single time.",
+      inGame: "Look out for signs of a flank — if the enemy goes quiet, they are repositioning.",
+      inRealLife: "Look out for any changes to the contract terms — the client sometimes adjusts wording at the last minute.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-look-out-for.png',
+    },
+    {
+      phrase: "CARE ABOUT",
+      definition: "Feel concern, interest, or emotional investment in something.",
+      example: "She genuinely cares about every player in the guild — she remembers their playstyles and their goals.",
+      inGame: "Care about your team's performance, not just your own stats — individual numbers do not win matches.",
+      inRealLife: "A great manager cares about their team's development, not just about hitting this quarter's targets.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-care-about.png',
+    },
+    {
+      phrase: "SETTLE FOR",
+      definition: "Accept something less than what you wanted — make do with a lower standard.",
+      example: "Do not settle for silver — if you have the skill and the team, push for gold this season.",
+      inGame: "Never settle for a mediocre build — keep testing until you find the one that fits your exact playstyle.",
+      inRealLife: "He refused to settle for a role that did not match his skills — he held out and got the right offer.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-settle-for.png',
+    },
+    {
+      phrase: "RELY ON",
+      definition: "Depend on someone or something — trust that they will be there when needed.",
+      example: "We rely on Sora for all our healing — if she goes down, the whole team is in serious trouble.",
+      inGame: "Rely on your communication system, not your instincts — the most experienced players still call out.",
+      inRealLife: "The company relies heavily on one key supplier — that is a significant risk if anything goes wrong.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-rely-on.png',
+    },
+    {
+      phrase: "SPECIALISE IN",
+      definition: "Concentrate your skills or efforts on a specific area — become an expert in one thing.",
+      example: "He specialises in stealth-based builds — if you need a player who can infiltrate undetected, he is your person.",
+      inGame: "Specialise in one playstyle first and master it before learning a second — spreading too thin is a mistake.",
+      inRealLife: "She decided to specialise in employment law after her first year at the firm — it was clearly her strength.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-specialise-in.png',
+    },
+    {
+      phrase: "FOCUS ON",
+      definition: "Direct your full attention and effort toward one specific thing.",
+      example: "Focus on your movement mechanics this week — everything else can wait until that feels natural.",
+      inGame: "Focus on resource collection in the first phase — without resources, the mid-game becomes impossible.",
+      inRealLife: "The team focused on the highest-value clients first and saw revenue increase within the first quarter.",
+      imageSlug: '/images/roblox-adjective-preposition-patterns-focus-on.png',
+    },
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Leo, I am so [[excited about:feeling enthusiasm about something upcoming]] the new season. The reward system looks completely different from last time.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Same — though I am a bit [[worried about:feeling anxious about something]] our ranking going into it. We need to hit Platinum in the first two weeks.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "We are [[good at:skilled in something]] closing out matches quickly — that is what Platinum rewards. I am not worried at all.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "True. I am getting a bit [[bored of:tired and no longer interested in something]] our current rotation though. We have used it all season — every team knows how we play.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Good point. Are you [[aware of:knowing about something]] that guild from the eastern region? They are [[famous for:known and recognised because of something]] switching strategies mid-match to keep opponents off balance.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Yes — I have studied their matches. I would be [[interested in:engaged or curious about something]] trying that approach. Adaptability is a huge advantage.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Let us build a second strategy this week and test it in practice mode before we commit to anything in ranked.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Agreed. Kai will be helpful here — he specialises in defensive structures and we need someone who can build a solid fallback plan.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "I am really [[proud of:feeling deep satisfaction about an achievement]] how far we have come this season. Three months ago we were struggling to hit Gold.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Me too. And we are not stopping there — Platinum is the minimum. Focus on what we do best and we will get there. The work is already done — we just have to show it.",
+    },
+  ],
+
+  completeSentenceExercise: {
+    instructions: "Choose the correct preposition to complete each adjective + preposition phrase. Then read the sentence aloud.",
+    items: [
+      {
+        sentence: "She is exceptionally good _____ long-range combat — her accuracy is in the top five percent.",
+        options: ["in", "at", "for"],
+        correctIndex: 1,
+        explanation: "GOOD AT is the fixed pattern — you are good at a skill or activity. GOOD IN and GOOD FOR are not the correct collocations for describing skill or talent. Always: good AT + noun/verb-ing.",
+      },
+      {
+        sentence: "The whole guild is excited _____ the new season — the rewards look incredible.",
+        options: ["for", "in", "about"],
+        correctIndex: 2,
+        explanation: "EXCITED ABOUT is the fixed pattern — you feel excited about something. EXCITED FOR is used informally in American English for another person's event, but the standard collocation for things is ABOUT.",
+      },
+      {
+        sentence: "That guild is famous _____ its perfectly organised strategies — every player knows their role.",
+        options: ["for", "of", "about"],
+        correctIndex: 0,
+        explanation: "FAMOUS FOR is the fixed pattern — you are famous for a quality or achievement. FAMOUS OF and FAMOUS ABOUT are not standard collocations. Always: famous FOR + the thing you are known for.",
+      },
+      {
+        sentence: "He is not particularly interested _____ ranked mode — he prefers exploration.",
+        options: ["about", "for", "in"],
+        correctIndex: 2,
+        explanation: "INTERESTED IN is the fixed pattern — you are interested in a topic or activity. INTERESTED ABOUT and INTERESTED FOR are not correct. Always: interested IN + the thing you are curious about.",
+      },
+      {
+        sentence: "Are you aware _____ the new ranking system? It changes how points are calculated.",
+        options: ["about", "of", "in"],
+        correctIndex: 1,
+        explanation: "AWARE OF is the fixed pattern — you are aware of a fact or situation. AWARE ABOUT is a common error. AWARE IN is not standard. Always: aware OF + the thing you know about.",
+      },
+      {
+        sentence: "She is incredibly proud _____ how far the guild has come — from ten members to two hundred.",
+        options: ["about", "for", "of"],
+        correctIndex: 2,
+        explanation: "PROUD OF is the fixed pattern — you are proud of an achievement or person. PROUD ABOUT and PROUD FOR are not standard collocations. Always: proud OF + the achievement or person.",
+      },
+    ],
+  },
+
+  matchingExercise: [
+    { word: 'GOOD AT', definition: 'Skilled or talented in a particular activity' },
+    { word: 'INTERESTED IN', definition: 'Having curiosity or enthusiasm about something' },
+    { word: 'FAMOUS FOR', definition: 'Known and recognised because of a specific quality' },
+    { word: 'BORED OF', definition: 'Tired of something — no longer engaged or interested' },
+    { word: 'EXCITED ABOUT', definition: 'Feeling enthusiasm and anticipation about something' },
+    { word: 'WORRIED ABOUT', definition: 'Feeling anxious or concerned that something might go wrong' },
+    { word: 'PROUD OF', definition: 'Feeling deep satisfaction about an achievement' },
+    { word: 'AWARE OF', definition: 'Knowing that something exists or is happening' },
+  ],
+
+  fillBlankExercise: [
+    { before: "Mia is exceptionally good", answer: 'at', after: "long-range combat — her accuracy is in the top five percent." },
+    { before: "He is not particularly interested", answer: 'in', after: "ranked mode — he prefers exploration and building servers." },
+    { before: "That guild is famous", answer: 'for', after: "its perfectly organised strategies — every player knows their role." },
+    { before: "I am getting bored", answer: 'of', after: "this map — we have played it every day for three weeks." },
+    { before: "The whole team is excited", answer: 'about', after: "the new season — the reward system looks completely different." },
+    { before: "I am a little worried", answer: 'about', after: "our strategy for the finals — we have never tested it under real pressure." },
+    { before: "She is incredibly proud", answer: 'of', after: "how far the guild has come — from ten members to over two hundred." },
+    { before: "Are you aware", answer: 'of', after: "the new ranking system? It changes how points are calculated." },
+  ],
+
+  multipleChoiceExercise: [
+    {
+      question: "Why is it important to learn adjective + preposition patterns as fixed phrases?",
+      options: [
+        "Because you can always guess the correct preposition from the meaning.",
+        "Because these patterns do not follow a logical rule — they must be memorised.",
+        "Because the preposition changes depending on whether you use a noun or a verb.",
+        "Because the preposition is always chosen based on the vowel sound that follows.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Which sentence contains a correct adjective + preposition pattern?",
+      options: [
+        "She is good in mathematics and always scores in the top ten percent.",
+        "He is proud about winning the tournament — he celebrated for a week.",
+        "They are aware of the risks involved and have prepared accordingly.",
+        "We are excited for the new season — the new maps look amazing.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "In the dialogue, what reason does Leo give for wanting to change their current rotation?",
+      options: [
+        "They are not good at it and it has been losing them matches.",
+        "Every team already knows how they play — they need to change to surprise opponents.",
+        "Mia is bored of the strategy and refuses to use it anymore.",
+        "The rotation does not work in the new season's map pool.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What does RELY ON mean?",
+      options: [
+        "To repeat the same strategy multiple times.",
+        "To depend on someone or something — trust they will be there when needed.",
+        "To leave a team and rejoin at a later point.",
+        "To focus only on one aspect of the game.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Which sentence uses SPECIALISE IN correctly?",
+      options: [
+        "She specialises at stealth-based builds and is the best infiltrator in the guild.",
+        "He specialises about defensive strategy — he has studied it for two years.",
+        "They specialise in long-range combat and rarely engage in close-quarter fights.",
+        "I specialise for healing — it is the role I always play in team matches.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "Which of the following is NOT a standard adjective + preposition pattern?",
+      options: [
+        "Bored of", "Famous for", "Proud of", "Worried in",
+      ],
+      correctIndex: 3,
+    },
+  ],
+};

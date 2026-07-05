@@ -1,0 +1,368 @@
+import { Lesson } from '@/types/lesson';
+
+export const robloxReviewB1Block2: Lesson = {
+  slug: 'roblox-review-b1-block-2',
+  title: "Review & Assessment: Block 2",
+  subtitle: "Reported speech, passives, comparatives, slang — everything from lessons 11 to 20 in one match!",
+  level: 'B1-B2',
+  description: "This is your Block 2 review — ten lessons of grammar, vocabulary, and expression all in one. From reporting what players said to narrating an epic comeback in past tenses, from adjective + preposition patterns to the current meta — if you can handle this lesson, you are ready for the next level.",
+  heroImage: '/images/roblox-review-b1-block-2-hero.png',
+
+  vocabulary: [
+    {
+      word: 'WARN',
+      partOfSpeech: 'verb',
+      definition: "Report that someone cautioned another about a danger or consequence. (From Lesson 11: Reported Speech)",
+      example: "The admin warned all players that using the exploit would result in an immediate permanent ban.",
+      imageSlug: '/images/roblox-review-b1-block-2-warn.png',
+    },
+    {
+      word: 'PROGRESSION',
+      partOfSpeech: 'noun',
+      definition: "The process of moving forward and improving over time. Comes from the verb PROGRESS. (From Lesson 12: Nouns from Verbs)",
+      example: "My progression through the battle pass has slowed — I need to play at least five matches a day to finish it.",
+      imageSlug: '/images/roblox-review-b1-block-2-progression.png',
+    },
+    {
+      word: 'NOWHERE NEAR AS',
+      partOfSpeech: 'phrase',
+      definition: "Shows that the gap between two things is very large — one is dramatically less than the other. (From Lesson 13: Comparative Structures)",
+      example: "My damage output is nowhere near as high as the top players on the leaderboard — I need a new build.",
+      imageSlug: '/images/roblox-review-b1-block-2-nowhere-near-as.png',
+    },
+    {
+      word: 'TAKE ON',
+      partOfSpeech: 'phrasal verb',
+      definition: "Accept a challenge, face an opponent, or agree to handle a new responsibility. (From Lesson 14: Phrasal Verbs II)",
+      example: "We took on the number-one ranked guild last weekend and pushed them all the way to the final round.",
+      imageSlug: '/images/roblox-review-b1-block-2-take-on.png',
+    },
+    {
+      word: 'PATCH',
+      partOfSpeech: 'verb',
+      definition: "Apply a targeted fix to a specific bug or exploit. In passive: 'was/has been patched'. (From Lesson 15: Passive Voice)",
+      example: "The duplication exploit has been patched — any items obtained through it have been removed from accounts.",
+      imageSlug: '/images/roblox-review-b1-block-2-patch.png',
+    },
+    {
+      word: 'ALTHOUGH',
+      partOfSpeech: 'conjunction',
+      definition: "Introduces a contrasting fact that is true but does not change the main outcome. (From Lesson 16: Conjunctions & Linking Words)",
+      example: "Although we practised every evening, the opposing team was simply too experienced for us.",
+      imageSlug: '/images/roblox-review-b1-block-2-although.png',
+    },
+    {
+      word: 'PROUD OF',
+      partOfSpeech: 'phrase',
+      definition: "Feeling deep satisfaction and pleasure about an achievement — your own or someone else's. (From Lesson 17: Adjective + Preposition Patterns)",
+      example: "She is incredibly proud of how far the guild has come — from ten members to over two hundred.",
+      imageSlug: '/images/roblox-review-b1-block-2-proud-of.png',
+    },
+    {
+      word: 'META',
+      partOfSpeech: 'noun',
+      definition: "The current dominant strategy or approach — what the most effective players are currently doing. (From Lesson 18: Light Slang & Functional Expressions)",
+      example: "The meta has completely shifted since the patch — the aggressive close-range build is suddenly the strongest option.",
+      imageSlug: '/images/roblox-review-b1-block-2-meta.png',
+    },
+  ],
+
+  irlVocabulary: [
+    {
+      word: 'WARN',
+      partOfSpeech: 'verb',
+      definition: "Caution someone about a danger or consequence — used in reported speech: 'She warned me that...'",
+      example: "The doctor warned him that his stress levels needed to come down immediately.",
+      imageSlug: '/images/roblox-review-b1-block-2-warn-irl.png',
+    },
+    {
+      word: 'PROGRESSION',
+      partOfSpeech: 'noun',
+      definition: "Moving forward steadily in a career, course, or project.",
+      example: "Career progression at that company is clear — every role has defined milestones and a promotion timeline.",
+      imageSlug: '/images/roblox-review-b1-block-2-progression-irl.png',
+    },
+    {
+      word: 'NOWHERE NEAR AS',
+      partOfSpeech: 'phrase',
+      definition: "Shows a very large gap — one thing is dramatically less than another.",
+      example: "His salary is nowhere near as high as the industry average for that role — he should be negotiating.",
+      imageSlug: '/images/roblox-review-b1-block-2-nowhere-near-as-irl.png',
+    },
+    {
+      word: 'TAKE ON',
+      partOfSpeech: 'phrasal verb',
+      definition: "Accept a challenge or new responsibility — agree to deal with something demanding.",
+      example: "She took on three new clients in January — it was a lot, but she handled it well.",
+      imageSlug: '/images/roblox-review-b1-block-2-take-on-irl.png',
+    },
+    {
+      word: 'PATCH',
+      partOfSpeech: 'verb',
+      definition: "Apply a targeted fix — used in passive: 'the vulnerability was patched within hours'.",
+      example: "The security vulnerability was patched within three hours of being discovered by the internal team.",
+      imageSlug: '/images/roblox-review-b1-block-2-patch-irl.png',
+    },
+    {
+      word: 'ALTHOUGH',
+      partOfSpeech: 'conjunction',
+      definition: "Acknowledges a contrasting truth that does not change the main conclusion.",
+      example: "Although the report was thorough, the board decided not to proceed with the investment.",
+      imageSlug: '/images/roblox-review-b1-block-2-although-irl.png',
+    },
+    {
+      word: 'PROUD OF',
+      partOfSpeech: 'phrase',
+      definition: "Feeling satisfaction about an achievement — yours or someone else's.",
+      example: "The CEO said she was proud of how the team handled the crisis — every deadline was met.",
+      imageSlug: '/images/roblox-review-b1-block-2-proud-of-irl.png',
+    },
+    {
+      word: 'META',
+      partOfSpeech: 'noun',
+      definition: "The dominant approach in any field — what the most successful people are currently doing.",
+      example: "Short-form video is the current meta for content creation — long articles are not performing as they used to.",
+      imageSlug: '/images/roblox-review-b1-block-2-meta-irl.png',
+    },
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: "LOOK BACK ON",
+      definition: "Reflect on something that happened in the past — think about it from a distance.",
+      example: "Looking back on Block 2, the reported speech and passive voice lessons were the most challenging.",
+      inGame: "Look back on your worst matches — they teach you far more than the easy wins ever will.",
+      inRealLife: "She looked back on her first year at the company with a mix of pride and disbelief at how far she had come.",
+      imageSlug: '/images/roblox-review-b1-block-2-look-back-on.png',
+    },
+    {
+      phrase: "BUILD ON",
+      definition: "Use what you have already achieved as a foundation to develop further.",
+      example: "Build on everything you learned in Block 1 — Block 2 takes each of those skills to the next level.",
+      inGame: "Build on your early-game advantage — a strong position at minute five usually holds through to the end.",
+      inRealLife: "She built on the skills she developed in her internship and turned them into a full career trajectory.",
+      imageSlug: '/images/roblox-review-b1-block-2-build-on.png',
+    },
+    {
+      phrase: "CATCH UP ON",
+      definition: "Deal with or review something you missed — get up to speed on content or events.",
+      example: "Catch up on any lessons you found difficult before moving to Block 3 — gaps become expensive later.",
+      inGame: "Catch up on the patch notes if you have been offline — the meta has shifted significantly.",
+      inRealLife: "She spent the first day back from leave catching up on everything that had happened while she was away.",
+      imageSlug: '/images/roblox-review-b1-block-2-catch-up-on.png',
+    },
+    {
+      phrase: "TEST YOURSELF",
+      definition: "Deliberately challenge your own knowledge or ability to find where the gaps are.",
+      example: "Test yourself on all eight grammar points from this block before you decide you are ready to move on.",
+      inGame: "Test yourself in unranked mode after every new lesson — theory only becomes skill through practice.",
+      inRealLife: "He tested himself with a mock interview before the real one — it revealed two areas he needed to improve.",
+      imageSlug: '/images/roblox-review-b1-block-2-test-yourself.png',
+    },
+    {
+      phrase: "MOVE ON",
+      definition: "Progress to the next stage — stop dwelling on the current one and advance.",
+      example: "Once you are confident with all ten lessons in this block, it is time to move on to Block 3.",
+      inGame: "After a loss, process it briefly and move on — replaying it in your head for hours helps no one.",
+      inRealLife: "The team moved on from the failed product launch and focused all energy on the next one.",
+      imageSlug: '/images/roblox-review-b1-block-2-move-on.png',
+    },
+    {
+      phrase: "PICK UP",
+      definition: "Learn something, usually naturally or quickly; also to resume something after a pause.",
+      example: "She picked up the adjective-preposition patterns within a week — her memory for phrases is exceptional.",
+      inGame: "Once you pick up the rhythm of the map, your decision-making speed increases dramatically.",
+      inRealLife: "He picked up conversational Italian on a three-month project in Milan — no formal lessons at all.",
+      imageSlug: '/images/roblox-review-b1-block-2-pick-up.png',
+    },
+  ],
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "GG, Mia — we just finished the most intense qualifier of the season. I am genuinely [[proud of:feeling deep satisfaction about an achievement]] what we pulled off in the final phase.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Same. [[Although:introduces a contrasting fact]] we nearly collapsed in round two, we held it together when it mattered. That comeback was real.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "The admin [[warned:cautioned about a consequence]] us beforehand that the opposing team had changed their strategy. We should have adjusted our build earlier.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "True. The [[meta:the current dominant strategy]] shifted completely after last week's patch — their whole style was built around it and we had not fully adapted.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Our damage output in phase one was [[nowhere near as:shows a very large gap]] high as it needed to be. But the exploit they were using has now been [[patched:had a targeted fix applied — passive voice]] — so that advantage disappears next week.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Good. What else was changed in the latest update?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Three new skins were released and the movement system was redesigned. The [[progression:moving forward and improving — from the verb PROGRESS]] system now rewards you for assists, not just eliminations.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "That is a big change — it rewards team play. We should [[take on:accept a challenge]] more co-op missions this week and test how the new system affects our ranking.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Agreed. And I want to catch up on the passive voice exercises we rushed through — that grammar still comes out a bit shaky in my commentary.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Let us review it this week. Look back on the whole block, test ourselves properly, then move on to Block 3 when we are both genuinely ready. No rushing.",
+    },
+  ],
+
+  completeSentenceExercise: {
+    instructions: "Each sentence tests a different grammar or vocabulary point from Lessons 11–20. Choose the correct answer and read it aloud.",
+    items: [
+      {
+        sentence: "The admin _____ all players that using the exploit would result in an immediate permanent ban.",
+        options: ["said", "warned", "replied"],
+        correctIndex: 1,
+        explanation: "WARNED means to caution someone about a danger or consequence — it is the strongest reporting verb for a rule with a serious punishment. SAID does not imply a danger. REPLIED means to respond to something already said.",
+      },
+      {
+        sentence: "The duplication exploit has been _____ — any items obtained through it have been removed.",
+        options: ["patching", "patch", "patched"],
+        correctIndex: 2,
+        explanation: "HAS BEEN PATCHED is the present perfect passive — it was fixed recently and is still relevant. PATCHING is the present continuous active form. PATCH is the base form — not a passive structure. Present perfect passive = has been + past participle.",
+      },
+      {
+        sentence: "Our damage output was _____ as high as the top players — we needed a completely different build.",
+        options: ["far more", "nowhere near", "twice as"],
+        correctIndex: 1,
+        explanation: "NOWHERE NEAR AS shows a very large gap — one thing is dramatically less than another. FAR MORE...THAN shows something is much greater. TWICE AS means exactly double. Our output being dramatically lower = nowhere near as.",
+      },
+      {
+        sentence: "She is really excited _____ the new season — the reward system looks completely different.",
+        options: ["for", "about", "in"],
+        correctIndex: 1,
+        explanation: "EXCITED ABOUT is the fixed adjective + preposition pattern. EXCITED FOR is used informally in some dialects but ABOUT is the standard British English collocation. EXCITED IN is not a correct pattern.",
+      },
+      {
+        sentence: "_____ we were two players down, we refused to give up and nearly won the final phase.",
+        options: ["Therefore", "Although", "However"],
+        correctIndex: 1,
+        explanation: "ALTHOUGH introduces a contrasting fact that is true but does not change the main outcome — it fits here because being two players down would normally mean losing, but you did not. THEREFORE introduces a conclusion. HOWEVER contrasts two separate sentences.",
+      },
+      {
+        sentence: "We had the lead for six minutes. _____, their top player activated an ability we had never seen.",
+        options: ["All of a sudden", "By the time", "After that"],
+        correctIndex: 0,
+        explanation: "ALL OF A SUDDEN introduces a very unexpected event with dramatic effect — stronger than 'suddenly'. BY THE TIME shows one event was already complete when another happened. AFTER THAT shows sequence in a narrative — but here the event is unexpected, not sequential.",
+      },
+    ],
+  },
+
+  matchingExercise: [
+    { word: 'WARN', definition: 'Report that someone cautioned about a danger — needs an indirect object' },
+    { word: 'PROGRESSION', definition: 'Moving forward and improving steadily — from the verb PROGRESS' },
+    { word: 'NOWHERE NEAR AS', definition: 'Shows one thing is dramatically less than another — a very large gap' },
+    { word: 'TAKE ON', definition: 'Accept a challenge, face an opponent, or agree to a new responsibility' },
+    { word: 'PATCH', definition: 'Apply a targeted fix to a bug or exploit — passive: was/has been patched' },
+    { word: 'ALTHOUGH', definition: 'Introduces a contrast that is true but does not change the main conclusion' },
+    { word: 'PROUD OF', definition: 'Feeling deep satisfaction about an achievement — fixed adjective + preposition' },
+    { word: 'META', definition: 'The current dominant strategy — what the most effective players are doing' },
+  ],
+
+  fillBlankExercise: [
+    { before: "The admin", answer: 'warned', after: "all players that using the exploit would result in a permanent ban." },
+    { before: "My", answer: 'progression', after: "through the battle pass has slowed — I need to play five matches a day." },
+    { before: "Our damage is nowhere near", answer: 'as', after: "high as the top players — we need a completely different build." },
+    { before: "We", answer: 'took on', after: "the number-one ranked guild and pushed them to the final round." },
+    { before: "The exploit has been", answer: 'patched', after: "— any items obtained through it have been removed from accounts." },
+    { before: "", answer: 'Although', after: "we nearly collapsed in round two, we held together when it mattered." },
+    { before: "She is incredibly proud", answer: 'of', after: "how far the guild has come — from ten members to over two hundred." },
+    { before: "The", answer: 'meta', after: "has shifted completely since the patch — the aggressive build is now strongest." },
+  ],
+
+  multipleChoiceExercise: [
+    {
+      question: "Which of the following sentences is in the PASSIVE VOICE?",
+      options: [
+        "The developers updated the game last night.",
+        "The game was updated by the developers last night.",
+        "The developers have been updating the game.",
+        "The game has updated itself with new features.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What does the phrase NOWHERE NEAR AS express?",
+      options: [
+        "Two things are approximately equal in some quality.",
+        "One thing is slightly better than another.",
+        "One thing is exactly double another.",
+        "The gap between two things is very large — one is dramatically less.",
+      ],
+      correctIndex: 3,
+    },
+    {
+      question: "In the dialogue, what change did the latest update make to the progression system?",
+      options: [
+        "It doubled the experience points for every elimination.",
+        "It removed the battle pass and replaced it with a seasonal rank.",
+        "It now rewards assists, not just eliminations — encouraging team play.",
+        "It increased the grind required to reach the legendary tier.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "Which sentence uses ALTHOUGH correctly?",
+      options: [
+        "Although we won, so we celebrated until midnight.",
+        "Although we lost, but we played at the highest level we ever had.",
+        "Although we practised every evening, the other team was too experienced for us.",
+        "Although however we were behind, we still kept fighting.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "What does LOOK BACK ON mean?",
+      options: [
+        "To physically look behind you for incoming threats.",
+        "To return to a previous version of the game.",
+        "To reflect on something that happened in the past from a current perspective.",
+        "To review the performance of players who have left the guild.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "Which adjective + preposition pattern is NOT correct?",
+      options: [
+        "Interested in", "Good at", "Famous for", "Proud about",
+      ],
+      correctIndex: 3,
+    },
+  ],
+};
