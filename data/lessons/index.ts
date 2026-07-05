@@ -161,6 +161,7 @@ import { robloxTalkingAboutAbility } from './roblox-talking-about-ability';
 import { robloxAskingQuestions } from './roblox-asking-questions';
 import { robloxGivingOpinions } from './roblox-giving-opinions';
 import { robloxReviewA2Block2 } from './roblox-review-a2-block-2';
+import { robloxMovementAndAction } from './roblox-movement-and-action';
 
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -408,6 +409,7 @@ export const lessons: Lesson[] = [
   robloxAskingQuestions,
   robloxGivingOpinions,
   robloxReviewA2Block2,
+  robloxMovementAndAction,
 
   actionVerbsMoveYourCharacter,
   describingCharacters,
