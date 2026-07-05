@@ -181,6 +181,7 @@ import { robloxAdjectivePrepositionPatterns } from './roblox-adjective-prepositi
 import { robloxLightSlangExpressions } from './roblox-light-slang-expressions';
 import { robloxStorytellingPastTenses } from './roblox-storytelling-past-tenses';
 import { robloxReviewB1Block2 } from './roblox-review-b1-block-2';
+import { robloxRegisterAwarenessI } from './roblox-register-awareness-i';
 
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -448,6 +449,7 @@ export const lessons: Lesson[] = [
   robloxLightSlangExpressions,
   robloxStorytellingPastTenses,
   robloxReviewB1Block2,
+  robloxRegisterAwarenessI,
 
   actionVerbsMoveYourCharacter,
   describingCharacters,
