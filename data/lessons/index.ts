@@ -162,6 +162,15 @@ import { robloxAskingQuestions } from './roblox-asking-questions';
 import { robloxGivingOpinions } from './roblox-giving-opinions';
 import { robloxReviewA2Block2 } from './roblox-review-a2-block-2';
 import { robloxMovementAndAction } from './roblox-movement-and-action';
+import { robloxModalVerbsRules } from './roblox-modal-verbs-rules';
+import { robloxPresentPerfectAchievements } from './roblox-present-perfect-achievements';
+import { robloxAdjectivesOfExperience } from './roblox-adjectives-of-experience';
+import { robloxPrepositionsPlaceMovement } from './roblox-prepositions-place-movement';
+import { robloxPhrasalVerbsI } from './roblox-phrasal-verbs-i';
+import { robloxConditionals } from './roblox-conditionals';
+import { robloxAdverbsFrequencyDegree } from './roblox-adverbs-frequency-degree';
+import { robloxQuestionFormation } from './roblox-question-formation';
+import { robloxReviewB1Block1 } from './roblox-review-b1-block-1';
 
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -410,6 +419,15 @@ export const lessons: Lesson[] = [
   robloxGivingOpinions,
   robloxReviewA2Block2,
   robloxMovementAndAction,
+  robloxModalVerbsRules,
+  robloxPresentPerfectAchievements,
+  robloxAdjectivesOfExperience,
+  robloxPrepositionsPlaceMovement,
+  robloxPhrasalVerbsI,
+  robloxConditionals,
+  robloxAdverbsFrequencyDegree,
+  robloxQuestionFormation,
+  robloxReviewB1Block1,
 
   actionVerbsMoveYourCharacter,
   describingCharacters,
