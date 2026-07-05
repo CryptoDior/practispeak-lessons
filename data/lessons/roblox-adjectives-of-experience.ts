@@ -26,7 +26,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     {
       word: 'ADDICTIVE',
       partOfSpeech: 'adjective',
-      definition: "So enjoyable or compelling that you find it very hard to stop — you always want more.",
+      definition: "So enjoyable that you find it very hard to stop — you always want to keep going.",
       example: "This tower defence game is dangerously addictive — I had to set a timer to make myself stop.",
       imageSlug: '/images/roblox-adjectives-of-experience-addictive.png',
     },
@@ -47,7 +47,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     {
       word: 'REWARDING',
       partOfSpeech: 'adjective',
-      definition: "Gives you a genuine feeling of satisfaction and accomplishment when you succeed.",
+      definition: "Gives you a real feeling of happiness and pride when you succeed.",
       example: "Finishing that dungeon after twenty attempts was incredibly rewarding — every second of effort was worth it.",
       imageSlug: '/images/roblox-adjectives-of-experience-rewarding.png',
     },
@@ -71,7 +71,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     {
       word: 'IMMERSIVE',
       partOfSpeech: 'adjective',
-      definition: "Surrounds you completely — an experience so rich that you are fully absorbed in it.",
+      definition: "Surrounds you completely — you feel so inside it that you forget everything else.",
       example: "The exhibition was incredibly immersive — the combination of sound, light, and visuals felt completely real.",
       imageSlug: '/images/roblox-adjectives-of-experience-immersive-irl.png',
     },
@@ -85,7 +85,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     {
       word: 'ADDICTIVE',
       partOfSpeech: 'adjective',
-      definition: "So appealing or stimulating that it is hard to stop or pull away from it.",
+      definition: "So enjoyable and interesting that it is hard to stop.",
       example: "That new podcast series is addictive — I finished all six episodes in a single weekend.",
       imageSlug: '/images/roblox-adjectives-of-experience-addictive-irl.png',
     },
@@ -106,21 +106,21 @@ export const robloxAdjectivesOfExperience: Lesson = {
     {
       word: 'REWARDING',
       partOfSpeech: 'adjective',
-      definition: "Producing a strong sense of satisfaction or worth — well worth the effort it required.",
+      definition: "Giving a strong feeling of satisfaction — worth all the effort.",
       example: "Teaching is one of the most rewarding careers — you watch people grow in front of you every day.",
       imageSlug: '/images/roblox-adjectives-of-experience-rewarding-irl.png',
     },
     {
       word: 'CHALLENGING',
       partOfSpeech: 'adjective',
-      definition: "Requiring significant effort and skill — difficult in a way that encourages growth.",
+      definition: "Needing real effort and skill — difficult in a way that helps you grow.",
       example: "The first year of university is challenging, but it is also when you learn the most about yourself.",
       imageSlug: '/images/roblox-adjectives-of-experience-challenging-irl.png',
     },
     {
       word: 'INTENSE',
       partOfSpeech: 'adjective',
-      definition: "Extremely powerful in feeling or pressure — demanding full concentration or emotional engagement.",
+      definition: "Extremely strong in feeling or pressure — needs your full attention and focus.",
       example: "The final interview was intense — two hours with five senior partners firing questions at me.",
       imageSlug: '/images/roblox-adjectives-of-experience-intense-irl.png',
     },
@@ -129,7 +129,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
   phrasalVerbs: [
     {
       phrase: "GET INTO",
-      definition: "Become genuinely absorbed in and interested in something — start to really enjoy or engage with it.",
+      definition: "Start to really enjoy something and become interested in it.",
       example: "I did not expect to like this game, but I got into it within the first ten minutes.",
       inGame: "Once you get into the lore of this game, you will not want to stop — it is incredibly deep.",
       inRealLife: "She never liked running, but she got into it after joining a local group and now runs every morning.",
@@ -137,7 +137,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     },
     {
       phrase: "BURN OUT",
-      definition: "Become completely exhausted from doing too much of the same thing for too long.",
+      definition: "Become very tired from doing too much of the same thing for too long.",
       example: "I burned out on this game after grinding for three months straight without a break.",
       inGame: "Take breaks between long sessions — players who never stop burn out and quit the game entirely.",
       inRealLife: "She burned out in her first corporate job and took six months off to recover her energy.",
@@ -145,7 +145,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     },
     {
       phrase: "DRAW IN",
-      definition: "Attract and capture someone's interest or attention — pull them into an experience.",
+      definition: "Attract and hold someone's interest or attention — pull them into an experience.",
       example: "The opening cinematic drew me in completely — I was hooked before the first level even started.",
       inGame: "A good game draws you in immediately — if the first five minutes are boring, most players quit.",
       inRealLife: "The documentary drew in millions of viewers who normally never watch historical content.",
@@ -153,7 +153,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     },
     {
       phrase: "WEAR DOWN",
-      definition: "Gradually reduce someone's energy, patience, or enthusiasm through repeated difficulty.",
+      definition: "Slowly reduce someone's energy or patience through repeated problems.",
       example: "Forty failed attempts wore me down — I was ready to quit before I finally broke through.",
       inGame: "A frustrating grind will wear down even the most patient players — good game design knows this.",
       inRealLife: "The endless delays wore him down until he lost all enthusiasm for the project.",
@@ -161,7 +161,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     },
     {
       phrase: "STAND OUT",
-      definition: "Be noticeably more impressive or different from others — be easy to remember and hard to ignore.",
+      definition: "Be clearly better or more noticeable than others — easy to remember.",
       example: "This game stands out from everything else on the platform — there is nothing quite like it.",
       inGame: "Your build stands out — everyone in the arena keeps asking what loadout you are running.",
       inRealLife: "Her portfolio stood out from all the other applicants — the hiring manager called her that same day.",
@@ -169,7 +169,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     },
     {
       phrase: "KEEP AT IT",
-      definition: "Continue doing something difficult or frustrating without giving up.",
+      definition: "Keep doing something hard or frustrating without giving up.",
       example: "The boss fight is brutal, but keep at it — the pattern becomes clear after a few attempts.",
       inGame: "Keep at it — every player who has mastered this game said the same thing: do not stop.",
       inRealLife: "Learning a new language is slow at first, but keep at it and you will see results within months.",

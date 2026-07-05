@@ -12,7 +12,7 @@ export const robloxQuestionFormation: Lesson = {
     {
       word: 'WHAT',
       partOfSpeech: 'pronoun',
-      definition: "Asks for information about a thing, an idea, or a description — open-ended, no specific choices.",
+      definition: "Asks for information about something — any answer is possible, not a fixed list.",
       example: "What is your preferred loadout for the arena? I want to understand your whole strategy.",
       imageSlug: '/images/roblox-question-formation-what.png',
     },
@@ -71,14 +71,14 @@ export const robloxQuestionFormation: Lesson = {
     {
       word: 'WHAT',
       partOfSpeech: 'pronoun',
-      definition: "Asks for information about something — open, with no predefined set of answers.",
+      definition: "Asks for information — any answer is possible.",
       example: "What did the manager say about the new project timeline? I missed the briefing.",
       imageSlug: '/images/roblox-question-formation-what-irl.png',
     },
     {
       word: 'WHICH',
       partOfSpeech: 'pronoun',
-      definition: "Asks for a choice between a specific, defined set of options.",
+      definition: "Asks for a choice from a limited set of options.",
       example: "Which train do you usually take — the 8:15 or the 8:45? I want to travel with you.",
       imageSlug: '/images/roblox-question-formation-which-irl.png',
     },
@@ -92,7 +92,7 @@ export const robloxQuestionFormation: Lesson = {
     {
       word: 'WHERE',
       partOfSpeech: 'adverb',
-      definition: "Asks about the location or setting of something.",
+      definition: "Asks about where something is or where it happens.",
       example: "Where is the nearest pharmacy? I need to pick up a prescription before it closes.",
       imageSlug: '/images/roblox-question-formation-where-irl.png',
     },
@@ -106,21 +106,21 @@ export const robloxQuestionFormation: Lesson = {
     {
       word: 'WHY',
       partOfSpeech: 'adverb',
-      definition: "Asks for a reason or the cause of something.",
+      definition: "Asks for a reason — why something happened.",
       example: "Why was the meeting cancelled? Nobody sent an explanation email to the team.",
       imageSlug: '/images/roblox-question-formation-why-irl.png',
     },
     {
       word: 'HOW MUCH',
       partOfSpeech: 'phrase',
-      definition: "Asks about an uncountable quantity, cost, or amount.",
+      definition: "Asks about an amount or price you cannot count one by one.",
       example: "How much does the gym membership cost per month? I want to compare it with the other one.",
       imageSlug: '/images/roblox-question-formation-how-much-irl.png',
     },
     {
       word: 'HOW LONG',
       partOfSpeech: 'phrase',
-      definition: "Asks about the duration or length of time required for something.",
+      definition: "Asks how much time something takes.",
       example: "How long does the commute take from your new flat? Is it more than an hour?",
       imageSlug: '/images/roblox-question-formation-how-long-irl.png',
     },
@@ -137,7 +137,7 @@ export const robloxQuestionFormation: Lesson = {
     },
     {
       phrase: "BRING UP",
-      definition: "Introduce a new question, topic, or issue into a conversation.",
+      definition: "Start a new question or topic in a conversation.",
       example: "Nobody wanted to bring up the lag issue in the meeting — but someone had to say it.",
       inGame: "Bring up the strategy question before the raid starts — mid-battle is the worst time to discuss it.",
       inRealLife: "She brought up the budget concern early in the meeting so everyone had time to address it.",
@@ -145,7 +145,7 @@ export const robloxQuestionFormation: Lesson = {
     },
     {
       phrase: "LOOK INTO",
-      definition: "Investigate or research something more carefully — go deeper than the surface level.",
+      definition: "Look into something more carefully to understand it better.",
       example: "I need to look into why my character's stats dropped after the last update.",
       inGame: "Look into the patch notes before deciding whether to change your build — the changes are significant.",
       inRealLife: "The manager agreed to look into the complaint and get back to her by the end of the week.",
@@ -153,7 +153,7 @@ export const robloxQuestionFormation: Lesson = {
     },
     {
       phrase: "FIGURE OUT",
-      definition: "Solve a problem or understand something by thinking carefully — work it out.",
+      definition: "Find the answer by thinking carefully.",
       example: "I finally figured out the boss's attack pattern — it repeats every twelve seconds exactly.",
       inGame: "Figure out the map layout before the match — players who know the terrain have a huge advantage.",
       inRealLife: "She figured out the formula herself instead of asking for help — and she learned it much better that way.",
@@ -161,7 +161,7 @@ export const robloxQuestionFormation: Lesson = {
     },
     {
       phrase: "COME UP WITH",
-      definition: "Think of an idea, question, answer, or solution — produce it through thought.",
+      definition: "Think of an idea, question, or answer.",
       example: "I need to come up with better questions for my next trading negotiation — mine were too vague.",
       inGame: "Come up with a backup strategy before the match — your first plan rarely survives first contact.",
       inRealLife: "The team came up with five creative ideas in the brainstorm — the manager chose the third one.",
@@ -169,7 +169,7 @@ export const robloxQuestionFormation: Lesson = {
     },
     {
       phrase: "CHECK IN",
-      definition: "Ask how someone is doing or what their current status is — brief and regular communication.",
+      definition: "Ask how someone is doing — a short, regular check.",
       example: "I always check in with my team before a raid — I want to know everyone is ready and focused.",
       inGame: "Check in with your teammates during the preparation phase — not everyone will speak up on their own.",
       inRealLife: "She checks in with her team every Monday morning — a quick five-minute call to start the week right.",

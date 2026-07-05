@@ -12,7 +12,7 @@ export const robloxReviewB1Block2: Lesson = {
     {
       word: 'WARN',
       partOfSpeech: 'verb',
-      definition: "Report that someone cautioned another about a danger or consequence. (From Lesson 11: Reported Speech)",
+      definition: "Report that someone told another person to be careful about a danger. (From Lesson 11: Reported Speech)",
       example: "The admin warned all players that using the exploit would result in an immediate permanent ban.",
       imageSlug: '/images/roblox-review-b1-block-2-warn.png',
     },
@@ -26,7 +26,7 @@ export const robloxReviewB1Block2: Lesson = {
     {
       word: 'NOWHERE NEAR AS',
       partOfSpeech: 'phrase',
-      definition: "Shows that the gap between two things is very large — one is dramatically less than the other. (From Lesson 13: Comparative Structures)",
+      definition: "Shows the difference is very big — one thing is much less than the other. (From Lesson 13: Comparative Structures)",
       example: "My damage output is nowhere near as high as the top players on the leaderboard — I need a new build.",
       imageSlug: '/images/roblox-review-b1-block-2-nowhere-near-as.png',
     },
@@ -47,7 +47,7 @@ export const robloxReviewB1Block2: Lesson = {
     {
       word: 'ALTHOUGH',
       partOfSpeech: 'conjunction',
-      definition: "Introduces a contrasting fact that is true but does not change the main outcome. (From Lesson 16: Conjunctions & Linking Words)",
+      definition: "Introduces a fact that is true but does not change the main idea. (From Lesson 16: Conjunctions & Linking Words)",
       example: "Although we practised every evening, the opposing team was simply too experienced for us.",
       imageSlug: '/images/roblox-review-b1-block-2-although.png',
     },
@@ -61,7 +61,7 @@ export const robloxReviewB1Block2: Lesson = {
     {
       word: 'META',
       partOfSpeech: 'noun',
-      definition: "The current dominant strategy or approach — what the most effective players are currently doing. (From Lesson 18: Light Slang & Functional Expressions)",
+      definition: "The best strategy right now — what the most successful players are doing. (From Lesson 18: Light Slang & Functional Expressions)",
       example: "The meta has completely shifted since the patch — the aggressive close-range build is suddenly the strongest option.",
       imageSlug: '/images/roblox-review-b1-block-2-meta.png',
     },
@@ -71,7 +71,7 @@ export const robloxReviewB1Block2: Lesson = {
     {
       word: 'WARN',
       partOfSpeech: 'verb',
-      definition: "Caution someone about a danger or consequence — used in reported speech: 'She warned me that...'",
+      definition: "Tell someone to be careful about a danger — used in reported speech: 'She warned me that...'",
       example: "The doctor warned him that his stress levels needed to come down immediately.",
       imageSlug: '/images/roblox-review-b1-block-2-warn-irl.png',
     },
@@ -85,7 +85,7 @@ export const robloxReviewB1Block2: Lesson = {
     {
       word: 'NOWHERE NEAR AS',
       partOfSpeech: 'phrase',
-      definition: "Shows a very large gap — one thing is dramatically less than another.",
+      definition: "Shows the difference is very large — one thing is much less than the other.",
       example: "His salary is nowhere near as high as the industry average for that role — he should be negotiating.",
       imageSlug: '/images/roblox-review-b1-block-2-nowhere-near-as-irl.png',
     },
@@ -99,14 +99,14 @@ export const robloxReviewB1Block2: Lesson = {
     {
       word: 'PATCH',
       partOfSpeech: 'verb',
-      definition: "Apply a targeted fix — used in passive: 'the vulnerability was patched within hours'.",
+      definition: "Apply a fix to a specific bug or problem — used in passive: 'it was patched'.",
       example: "The security vulnerability was patched within three hours of being discovered by the internal team.",
       imageSlug: '/images/roblox-review-b1-block-2-patch-irl.png',
     },
     {
       word: 'ALTHOUGH',
       partOfSpeech: 'conjunction',
-      definition: "Acknowledges a contrasting truth that does not change the main conclusion.",
+      definition: "Accepts a fact that is true but does not change the main conclusion.",
       example: "Although the report was thorough, the board decided not to proceed with the investment.",
       imageSlug: '/images/roblox-review-b1-block-2-although-irl.png',
     },
@@ -120,7 +120,7 @@ export const robloxReviewB1Block2: Lesson = {
     {
       word: 'META',
       partOfSpeech: 'noun',
-      definition: "The dominant approach in any field — what the most successful people are currently doing.",
+      definition: "The best approach right now — what the most successful people are doing.",
       example: "Short-form video is the current meta for content creation — long articles are not performing as they used to.",
       imageSlug: '/images/roblox-review-b1-block-2-meta-irl.png',
     },
@@ -129,7 +129,7 @@ export const robloxReviewB1Block2: Lesson = {
   phrasalVerbs: [
     {
       phrase: "LOOK BACK ON",
-      definition: "Reflect on something that happened in the past — think about it from a distance.",
+      definition: "Think back on something that happened in the past and consider it.",
       example: "Looking back on Block 2, the reported speech and passive voice lessons were the most challenging.",
       inGame: "Look back on your worst matches — they teach you far more than the easy wins ever will.",
       inRealLife: "She looked back on her first year at the company with a mix of pride and disbelief at how far she had come.",
@@ -145,7 +145,7 @@ export const robloxReviewB1Block2: Lesson = {
     },
     {
       phrase: "CATCH UP ON",
-      definition: "Deal with or review something you missed — get up to speed on content or events.",
+      definition: "Review something you missed — get back up to the right level.",
       example: "Catch up on any lessons you found difficult before moving to Block 3 — gaps become expensive later.",
       inGame: "Catch up on the patch notes if you have been offline — the meta has shifted significantly.",
       inRealLife: "She spent the first day back from leave catching up on everything that had happened while she was away.",
@@ -153,7 +153,7 @@ export const robloxReviewB1Block2: Lesson = {
     },
     {
       phrase: "TEST YOURSELF",
-      definition: "Deliberately challenge your own knowledge or ability to find where the gaps are.",
+      definition: "Test your own knowledge to find what you do not know yet.",
       example: "Test yourself on all eight grammar points from this block before you decide you are ready to move on.",
       inGame: "Test yourself in unranked mode after every new lesson — theory only becomes skill through practice.",
       inRealLife: "He tested himself with a mock interview before the real one — it revealed two areas he needed to improve.",
@@ -161,7 +161,7 @@ export const robloxReviewB1Block2: Lesson = {
     },
     {
       phrase: "MOVE ON",
-      definition: "Progress to the next stage — stop dwelling on the current one and advance.",
+      definition: "Move on to the next stage — stop focusing on the current one.",
       example: "Once you are confident with all ten lessons in this block, it is time to move on to Block 3.",
       inGame: "After a loss, process it briefly and move on — replaying it in your head for hours helps no one.",
       inRealLife: "The team moved on from the failed product launch and focused all energy on the next one.",
@@ -169,7 +169,7 @@ export const robloxReviewB1Block2: Lesson = {
     },
     {
       phrase: "PICK UP",
-      definition: "Learn something, usually naturally or quickly; also to resume something after a pause.",
+      definition: "Learn something naturally or quickly — or start again after a break.",
       example: "She picked up the adjective-preposition patterns within a week — her memory for phrases is exceptional.",
       inGame: "Once you pick up the rhythm of the map, your decision-making speed increases dramatically.",
       inRealLife: "He picked up conversational Italian on a three-month project in Milan — no formal lessons at all.",

@@ -19,14 +19,14 @@ export const robloxNounsFromVerbs: Lesson = {
     {
       word: 'COMPETITION',
       partOfSpeech: 'noun',
-      definition: "A situation where players or teams try to win against each other; also the general state of rivalry. Comes from COMPETE.",
+      definition: "A situation where players or teams try to beat each other. Comes from COMPETE.",
       example: "The competition in the regional qualifier was fierce — every team had been training for months.",
       imageSlug: '/images/roblox-nouns-from-verbs-competition.png',
     },
     {
       word: 'ACHIEVEMENT',
       partOfSpeech: 'noun',
-      definition: "Something you have successfully accomplished that required skill or effort. Comes from ACHIEVE.",
+      definition: "Something you did well that needed real skill or effort. Comes from ACHIEVE.",
       example: "Unlocking that achievement took Leo forty hours — it requires you to win fifty ranked matches without dying.",
       imageSlug: '/images/roblox-nouns-from-verbs-achievement.png',
     },
@@ -78,14 +78,14 @@ export const robloxNounsFromVerbs: Lesson = {
     {
       word: 'COMPETITION',
       partOfSpeech: 'noun',
-      definition: "Rivalry between people or groups trying to achieve the same goal.",
+      definition: "A situation where people or groups try to beat each other to reach the same goal.",
       example: "The competition for senior roles at that firm is extremely high — they receive hundreds of applications.",
       imageSlug: '/images/roblox-nouns-from-verbs-competition-irl.png',
     },
     {
       word: 'ACHIEVEMENT',
       partOfSpeech: 'noun',
-      definition: "Something accomplished successfully — particularly something that required effort or ability.",
+      definition: "Something done well — especially something that needed effort or skill.",
       example: "Completing her doctorate while working full-time was an extraordinary achievement.",
       imageSlug: '/images/roblox-nouns-from-verbs-achievement-irl.png',
     },
@@ -99,7 +99,7 @@ export const robloxNounsFromVerbs: Lesson = {
     {
       word: 'EXPLORATION',
       partOfSpeech: 'noun',
-      definition: "Travelling through an unfamiliar area to learn about it; also investigating ideas or options.",
+      definition: "Going somewhere new to discover it — or looking at different ideas and options.",
       example: "The exploration of renewable energy alternatives is central to the company's ten-year strategy.",
       imageSlug: '/images/roblox-nouns-from-verbs-exploration-irl.png',
     },
@@ -113,14 +113,14 @@ export const robloxNounsFromVerbs: Lesson = {
     {
       word: 'PROGRESSION',
       partOfSpeech: 'noun',
-      definition: "The process of developing or moving forward in a structured or steady way.",
+      definition: "Moving forward in a steady way — improving and advancing over time.",
       example: "Career progression at that company is clear — every role has defined milestones and a timeline for promotion.",
       imageSlug: '/images/roblox-nouns-from-verbs-progression-irl.png',
     },
     {
       word: 'COMMUNICATION',
       partOfSpeech: 'noun',
-      definition: "The exchange of information, ideas, or feelings between people.",
+      definition: "Sharing information, ideas, or feelings between people.",
       example: "Clear written communication is one of the most valued skills in any remote-working environment.",
       imageSlug: '/images/roblox-nouns-from-verbs-communication-irl.png',
     },
@@ -137,7 +137,7 @@ export const robloxNounsFromVerbs: Lesson = {
     },
     {
       phrase: "BREAK DOWN",
-      definition: "Separate something complex into its individual parts so it is easier to understand.",
+      definition: "Split something complex into smaller parts so it is easier to understand.",
       example: "Break down each new word into its root — if you know the verb, the noun is usually just a suffix away.",
       inGame: "Break down the boss fight into phases — it becomes far more manageable when you see the pattern.",
       inRealLife: "The consultant broke down the financial report into three clear sections for the board presentation.",
@@ -145,7 +145,7 @@ export const robloxNounsFromVerbs: Lesson = {
     },
     {
       phrase: "STAND FOR",
-      definition: "Represent or mean something — used for abbreviations, symbols, or concepts.",
+      definition: "Mean something — used for abbreviations, symbols, or ideas.",
       example: "What does XP stand for? Experience points — it measures your progression through the game.",
       inGame: "Know what each icon stands for — misreading a status symbol in a raid can cost the whole team.",
       inRealLife: "She asked what the abbreviation ROAS stands for before the marketing meeting began.",
@@ -153,7 +153,7 @@ export const robloxNounsFromVerbs: Lesson = {
     },
     {
       phrase: "COME FROM",
-      definition: "Originate or be derived from a particular source, place, or word.",
+      definition: "Come from a particular word, place, or source.",
       example: "The noun 'creation' comes from the verb 'create' — add -ion and the meaning shifts from action to result.",
       inGame: "Where do your best strategies come from? Most come from watching other top players and adapting their ideas.",
       inRealLife: "Their best product ideas came from customer complaints — not from internal brainstorming sessions.",
@@ -161,7 +161,7 @@ export const robloxNounsFromVerbs: Lesson = {
     },
     {
       phrase: "FIGURE OUT",
-      definition: "Work out the answer to something — understand how something functions through thought or trial.",
+      definition: "Find the answer by thinking carefully or by trying different things.",
       example: "Once you figure out the pattern behind word families, learning new vocabulary becomes much faster.",
       inGame: "Figure out the enemy spawn patterns before you commit to a position — guessing costs you lives.",
       inRealLife: "It took three meetings to figure out why the campaign was underperforming — it turned out to be the targeting.",

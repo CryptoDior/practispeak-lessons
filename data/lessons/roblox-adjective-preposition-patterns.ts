@@ -33,14 +33,14 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     {
       word: 'BORED OF',
       partOfSpeech: 'phrase',
-      definition: "Tired of something through repeated exposure — no longer interested or engaged.",
+      definition: "Tired of something because you have done or seen it too many times — no longer interested.",
       example: "I am getting bored of this map — we have played it every single day for three weeks.",
       imageSlug: '/images/roblox-adjective-preposition-patterns-bored-of.png',
     },
     {
       word: 'EXCITED ABOUT',
       partOfSpeech: 'phrase',
-      definition: "Feeling enthusiasm, anticipation, and positive energy about something.",
+      definition: "Feeling very happy and eager because something good is going to happen.",
       example: "The whole guild is excited about the new season — the rewards look absolutely incredible.",
       imageSlug: '/images/roblox-adjective-preposition-patterns-excited-about.png',
     },
@@ -78,7 +78,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     {
       word: 'INTERESTED IN',
       partOfSpeech: 'phrase',
-      definition: "Engaged by or curious about a topic, role, or opportunity.",
+      definition: "Curious and interested in a topic, job, or opportunity.",
       example: "He is genuinely interested in pursuing a career in data science — he has already completed two courses.",
       imageSlug: '/images/roblox-adjective-preposition-patterns-interested-in-irl.png',
     },
@@ -92,14 +92,14 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     {
       word: 'BORED OF',
       partOfSpeech: 'phrase',
-      definition: "Tired and disengaged — no longer finding something stimulating or interesting.",
+      definition: "Tired of something — no longer interested in it or excited by it.",
       example: "After seven years in the same role, she was bored of the work and ready for a new challenge.",
       imageSlug: '/images/roblox-adjective-preposition-patterns-bored-of-irl.png',
     },
     {
       word: 'EXCITED ABOUT',
       partOfSpeech: 'phrase',
-      definition: "Feeling enthusiasm and positive anticipation about something upcoming.",
+      definition: "Feeling happy and eager about something that is coming soon.",
       example: "The whole team is excited about the product launch — it has been eighteen months in the making.",
       imageSlug: '/images/roblox-adjective-preposition-patterns-excited-about-irl.png',
     },
@@ -137,7 +137,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     },
     {
       phrase: "CARE ABOUT",
-      definition: "Feel concern, interest, or emotional investment in something.",
+      definition: "Feel interested in or worried about something.",
       example: "She genuinely cares about every player in the guild — she remembers their playstyles and their goals.",
       inGame: "Care about your team's performance, not just your own stats — individual numbers do not win matches.",
       inRealLife: "A great manager cares about their team's development, not just about hitting this quarter's targets.",
@@ -145,7 +145,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     },
     {
       phrase: "SETTLE FOR",
-      definition: "Accept something less than what you wanted — make do with a lower standard.",
+      definition: "Accept something that is less good than what you wanted.",
       example: "Do not settle for silver — if you have the skill and the team, push for gold this season.",
       inGame: "Never settle for a mediocre build — keep testing until you find the one that fits your exact playstyle.",
       inRealLife: "He refused to settle for a role that did not match his skills — he held out and got the right offer.",
@@ -161,7 +161,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     },
     {
       phrase: "SPECIALISE IN",
-      definition: "Concentrate your skills or efforts on a specific area — become an expert in one thing.",
+      definition: "Put all your effort into one area to become really good at it.",
       example: "He specialises in stealth-based builds — if you need a player who can infiltrate undetected, he is your person.",
       inGame: "Specialise in one playstyle first and master it before learning a second — spreading too thin is a mistake.",
       inRealLife: "She decided to specialise in employment law after her first year at the firm — it was clearly her strength.",

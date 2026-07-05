@@ -40,7 +40,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     {
       word: 'ALONG',
       partOfSpeech: 'preposition',
-      definition: "Following the length of something — moving beside or parallel to it without crossing it.",
+      definition: "Moving beside something and following its length — not crossing it.",
       example: "Run along the river bank — it keeps you hidden from the players on the ridge above.",
       imageSlug: '/images/roblox-prepositions-place-movement-along.png',
     },
@@ -85,7 +85,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     {
       word: 'BETWEEN',
       partOfSpeech: 'preposition',
-      definition: "In the middle space separating two people, objects, or places.",
+      definition: "In the space that separates two people, things, or places.",
       example: "The café is between the bookshop and the pharmacy — you cannot miss it.",
       imageSlug: '/images/roblox-prepositions-place-movement-between-irl.png',
     },
@@ -99,14 +99,14 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     {
       word: 'ALONG',
       partOfSpeech: 'preposition',
-      definition: "Following the line or length of something.",
+      definition: "Moving beside something and following its length.",
       example: "They walked along the seafront, watching the boats come in as the sun went down.",
       imageSlug: '/images/roblox-prepositions-place-movement-along-irl.png',
     },
     {
       word: 'TOWARD',
       partOfSpeech: 'preposition',
-      definition: "Moving in the direction of a place, person, or goal.",
+      definition: "Moving closer to a place, person, or goal.",
       example: "She moved toward the exit as soon as the fire alarm started — calm and controlled.",
       imageSlug: '/images/roblox-prepositions-place-movement-toward-irl.png',
     },
@@ -129,7 +129,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
   phrasalVerbs: [
     {
       phrase: "BREAK THROUGH",
-      definition: "Force a way past something that was blocking or stopping you — get through an obstacle.",
+      definition: "Force your way through or past something that is blocking you.",
       example: "We broke through the enemy's defence line and reached the flag in under thirty seconds.",
       inGame: "Break through the first barrier quickly — the longer you wait, the more players surround it.",
       inRealLife: "The scientist finally broke through after years of failed experiments — the result changed everything.",
@@ -137,7 +137,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     },
     {
       phrase: "CUT ACROSS",
-      definition: "Move diagonally or directly across something to take a shorter path.",
+      definition: "Move across something in a direct line to take a shorter route.",
       example: "I cut across the courtyard instead of going around it and saved nearly twenty seconds.",
       inGame: "Cut across the open field — it is risky but it cuts the route in half.",
       inRealLife: "She cut across the park to avoid the traffic on the main road and arrived five minutes early.",
@@ -145,7 +145,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     },
     {
       phrase: "GET PAST",
-      definition: "Move successfully beyond something or someone that is blocking your path.",
+      definition: "Successfully move past something that is blocking your way.",
       example: "I cannot get past the guard at the checkpoint — his detection range is huge.",
       inGame: "Get past the first wave as quickly as possible — the second wave is twice as hard.",
       inRealLife: "She struggled to get past the receptionist, who kept saying the manager was unavailable.",
@@ -161,7 +161,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     },
     {
       phrase: "MOVE THROUGH",
-      definition: "Pass from one side or end of a space to the other — often with purpose and direction.",
+      definition: "Move from one side of a space to the other with clear direction.",
       example: "Move through the smoke as fast as you can — visibility drops to almost zero in there.",
       inGame: "Move through the forest in a straight line — wandering costs you precious time.",
       inRealLife: "The crowd moved through the entrance gates slowly — security checks took almost an hour.",
@@ -169,7 +169,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     },
     {
       phrase: "RUN INTO",
-      definition: "Meet or encounter something or someone unexpectedly — sometimes collide with them.",
+      definition: "Meet or hit something unexpectedly.",
       example: "I ran into two enemy players on the other side of the bridge — completely unexpected.",
       inGame: "If you run into the opposing team near the border, retreat — you are outnumbered.",
       inRealLife: "I ran into my old teacher at the supermarket — I hadn't seen her in five years.",
