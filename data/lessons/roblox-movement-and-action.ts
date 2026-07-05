@@ -242,6 +242,48 @@ export const robloxMovementAndAction: Lesson = {
     },
   ],
 
+  completeSentenceExercise: {
+    instructions: "Choose the correct answer to complete each sentence. Then read the sentence aloud.",
+    items: [
+      {
+        sentence: "She _____ left at the last second and the fireball flew straight past her.",
+        options: ["dashed", "dodged", "leapt"],
+        correctIndex: 1,
+        explanation: "Dodge means to move quickly to one side to avoid being hit. Dash means to move fast in a single direction — not sideways to avoid. Leap means to jump. Moving to the side to avoid a projectile is always dodging.",
+      },
+      {
+        sentence: "He _____ across the open field before the sniper could lock on to his position.",
+        options: ["sprinted", "dashed", "charged"],
+        correctIndex: 0,
+        explanation: "Sprint is used for a sustained run at full speed over a distance. Dash is a very short, sudden burst — almost instant. Charge means moving forcefully toward a target, not simply running fast. Crossing a wide field at full speed is sprinting.",
+      },
+      {
+        sentence: "I was eliminated, but I _____ at the checkpoint and rejoined my team straight away.",
+        options: ["leapt", "respawned", "collided"],
+        correctIndex: 1,
+        explanation: "Respawn is the specific verb for coming back into the game at a set location after being eliminated. Leap and collide have nothing to do with returning to life in a game. Respawn is also used informally in real life to mean 'try again after failing'.",
+      },
+      {
+        sentence: "Two players _____ in the narrow corridor and both of them bounced off the wall.",
+        options: ["charged", "collided", "lunged"],
+        correctIndex: 1,
+        explanation: "Collide describes two things hitting each other with force — often by accident. Charge is one player moving aggressively at a target. Lunge is a sudden forward thrust, not a mutual crash. When two players meet with force, they collide.",
+      },
+      {
+        sentence: "My character _____ across the gap between the two platforms and just made it to the other side.",
+        options: ["charged", "sprinted", "leapt"],
+        correctIndex: 2,
+        explanation: "Leap means to jump a long distance or high into the air in one powerful movement. Charge is a fast attack on the ground toward a target. Sprint is running — but running cannot cross a gap in the air. Crossing a gap between platforms always requires leaping.",
+      },
+      {
+        sentence: "I _____ forward with my sword and hit the boss in its weak point before it could react.",
+        options: ["charged", "dashed", "lunged"],
+        correctIndex: 2,
+        explanation: "Lunge means to thrust your body suddenly forward — usually to attack or grab something. Charge means moving fast and directly at a target from a distance. Dash is a short burst of speed, not a specific attacking movement with a weapon. A sudden forward thrust is a lunge.",
+      },
+    ],
+  },
+
   matchingExercise: [
     { word: 'DODGE', definition: 'Move quickly to one side to avoid being hit' },
     { word: 'SPRINT', definition: 'Run at full speed in a short burst' },
