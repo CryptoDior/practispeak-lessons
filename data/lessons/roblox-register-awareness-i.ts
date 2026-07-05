@@ -177,6 +177,14 @@ export const robloxRegisterAwarenessI: Lesson = {
     },
   ],
 
+  warmUp: {
+    questions: [
+      "Think about the last time you wrote something in English — a message, a post, or an email. Who was it for, and did you think about how formal or informal to be?",
+      "Have you ever read something written in English and thought the tone felt wrong for the situation — too casual, too stiff, or just off? What was it?",
+      "In your own language, do you speak or write differently depending on whether you are talking to a friend, a colleague, or someone in authority? Can you give an example?",
+    ],
+  },
+
   videos: [],
 
   dialogue: [
@@ -361,8 +369,8 @@ export const robloxRegisterAwarenessI: Lesson = {
       question: "Which sentence uses TONE DOWN correctly?",
       options: [
         "She toned down the music so nobody could hear it at all.",
-        "He toned down the enemy's health before the boss fight began.",
-        "Tone down the celebration post — 'we cooked them' needs to become something the whole community can read.",
+        "He toned down the enemy\'s health before the boss fight began.",
+        "Tone down the celebration post — \'we cooked them\' needs to become something the whole community can read.",
         "The admin toned down three players for breaking the rules last night.",
       ],
       correctIndex: 2,
