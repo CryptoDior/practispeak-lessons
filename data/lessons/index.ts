@@ -182,6 +182,15 @@ import { robloxLightSlangExpressions } from './roblox-light-slang-expressions';
 import { robloxStorytellingPastTenses } from './roblox-storytelling-past-tenses';
 import { robloxReviewB1Block2 } from './roblox-review-b1-block-2';
 import { robloxRegisterAwarenessI } from './roblox-register-awareness-i';
+import { robloxIdiomsI } from './roblox-idioms-i';
+import { robloxAdverbsOfManner } from './roblox-adverbs-of-manner';
+import { robloxSecondThirdConditional } from './roblox-second-third-conditional';
+import { robloxPassiveVoiceExtended } from './roblox-passive-voice-extended';
+import { robloxCollocations } from './roblox-collocations';
+import { robloxWordFormation } from './roblox-word-formation';
+import { robloxPersuasiveLanguage } from './roblox-persuasive-language';
+import { robloxAgreeingDisagreeing } from './roblox-agreeing-disagreeing';
+import { robloxReviewB2Block1 } from './roblox-review-b2-block-1';
 
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -450,6 +459,15 @@ export const lessons: Lesson[] = [
   robloxStorytellingPastTenses,
   robloxReviewB1Block2,
   robloxRegisterAwarenessI,
+  robloxIdiomsI,
+  robloxAdverbsOfManner,
+  robloxSecondThirdConditional,
+  robloxPassiveVoiceExtended,
+  robloxCollocations,
+  robloxWordFormation,
+  robloxPersuasiveLanguage,
+  robloxAgreeingDisagreeing,
+  robloxReviewB2Block1,
 
   actionVerbsMoveYourCharacter,
   describingCharacters,

@@ -1,0 +1,379 @@
+import { Lesson } from '@/types/lesson';
+
+export const robloxPersuasiveLanguage: Lesson = {
+  slug: 'roblox-persuasive-language',
+  title: "Persuasive Language",
+  subtitle: "Writing a game review is not describing what happened. It is making the reader feel something — and then changing their mind.",
+  level: 'B1-B2',
+  description: "Persuasive language is the difference between a description and an argument. When you write a game review, a recommendation, or a pitch, you are not just reporting facts — you are guiding the reader toward a specific conclusion. At B2, you need the vocabulary of persuasion: words like 'compelling', 'outstanding', and 'despite' that add force and nuance to your writing.",
+  heroImage: '/images/roblox-persuasive-language-hero.png',
+
+  vocabulary: [
+    {
+      word: 'OUTSTANDING',
+      partOfSpeech: 'adjective',
+      definition: "Exceptionally good — clearly and noticeably better than everything else in the same category.",
+      example: "The level design is outstanding — every map feels unique, carefully crafted, and consistently surprising.",
+      imageSlug: '/images/roblox-persuasive-language-outstanding.png',
+    },
+    {
+      word: 'INNOVATIVE',
+      partOfSpeech: 'adjective',
+      definition: "Introducing new ideas, methods, or approaches that have not been seen before — fresh and original.",
+      example: "The trading system is genuinely innovative — no other game on the platform has anything close to this level of complexity.",
+      imageSlug: '/images/roblox-persuasive-language-innovative.png',
+    },
+    {
+      word: 'DRAWBACK',
+      partOfSpeech: 'noun',
+      definition: "A disadvantage or negative aspect of something that is otherwise good — a flaw worth acknowledging.",
+      example: "The main drawback is the loading time — it is noticeably slower than comparable games on the platform.",
+      imageSlug: '/images/roblox-persuasive-language-drawback.png',
+    },
+    {
+      word: 'NEVERTHELESS',
+      partOfSpeech: 'adverb',
+      definition: "In spite of what was just said; despite that fact — used to introduce a contrasting point that does not cancel the previous one.",
+      example: "The tutorial is not well designed. Nevertheless, experienced players will find everything they need within the first hour.",
+      imageSlug: '/images/roblox-persuasive-language-nevertheless.png',
+    },
+    {
+      word: 'COMPELLING',
+      partOfSpeech: 'adjective',
+      definition: "Powerfully persuasive or convincingly interesting — so strong that it is difficult to ignore or argue against.",
+      example: "The guild's progression system creates a compelling reason to return every day — there is always something to work toward.",
+      imageSlug: '/images/roblox-persuasive-language-compelling.png',
+    },
+    {
+      word: 'VERDICT',
+      partOfSpeech: 'noun',
+      definition: "A final judgement or conclusion reached after consideration — the definitive opinion you want the reader to take away.",
+      example: "The verdict is clear: this is the most complete competitive game on the platform, and it is not particularly close.",
+      imageSlug: '/images/roblox-persuasive-language-verdict.png',
+    },
+    {
+      word: 'RECOMMEND',
+      partOfSpeech: 'verb',
+      definition: "To suggest that someone should do, use, or experience something — to advocate for it based on your experience.",
+      example: "I would strongly recommend this game to anyone who enjoys competitive team play — it rewards skill and strategy equally.",
+      imageSlug: '/images/roblox-persuasive-language-recommend.png',
+    },
+    {
+      word: 'DESPITE',
+      partOfSpeech: 'preposition',
+      definition: "Without being affected by — used to acknowledge a negative while showing it does not change the overall conclusion.",
+      example: "Despite the occasional server lag, the gameplay experience is consistently excellent and worth your time.",
+      imageSlug: '/images/roblox-persuasive-language-despite.png',
+    },
+  ],
+
+  irlVocabulary: [
+    {
+      word: 'OUTSTANDING',
+      partOfSpeech: 'adjective',
+      definition: "Exceptionally good performance, work, or quality — clearly above the standard of others in the same context.",
+      example: "Her work this quarter has been outstanding — every deliverable on time, every client satisfied.",
+      imageSlug: '/images/roblox-persuasive-language-outstanding-irl.png',
+    },
+    {
+      word: 'INNOVATIVE',
+      partOfSpeech: 'adjective',
+      definition: "Introducing new solutions, products, or approaches that move beyond what has been done before.",
+      example: "Their approach to customer retention is genuinely innovative — nobody in the sector does it this way.",
+      imageSlug: '/images/roblox-persuasive-language-innovative-irl.png',
+    },
+    {
+      word: 'DRAWBACK',
+      partOfSpeech: 'noun',
+      definition: "A disadvantage or limitation of an otherwise positive option — worth acknowledging to add credibility.",
+      example: "The main drawback of the new system is the implementation time — six months is longer than originally promised.",
+      imageSlug: '/images/roblox-persuasive-language-drawback-irl.png',
+    },
+    {
+      word: 'NEVERTHELESS',
+      partOfSpeech: 'adverb',
+      definition: "Used to introduce a positive or contrasting point after acknowledging something negative — keeps both sides without cancelling either.",
+      example: "The rollout took longer than planned. Nevertheless, the final result exceeded every performance target.",
+      imageSlug: '/images/roblox-persuasive-language-nevertheless-irl.png',
+    },
+    {
+      word: 'COMPELLING',
+      partOfSpeech: 'adjective',
+      definition: "Powerfully convincing — an argument, case, or offer that is difficult to argue against or ignore.",
+      example: "She made a compelling case for the budget increase — by the end, even the sceptics were persuaded.",
+      imageSlug: '/images/roblox-persuasive-language-compelling-irl.png',
+    },
+    {
+      word: 'VERDICT',
+      partOfSpeech: 'noun',
+      definition: "A final judgement or conclusion — the definitive position you want stakeholders to take away from your communication.",
+      example: "The audit's verdict was clear: the current system is not fit for purpose and must be replaced within twelve months.",
+      imageSlug: '/images/roblox-persuasive-language-verdict-irl.png',
+    },
+    {
+      word: 'RECOMMEND',
+      partOfSpeech: 'verb',
+      definition: "To advocate for a specific course of action or option — backing it with authority and experience.",
+      example: "I would strongly recommend the second proposal — it is more scalable and significantly lower risk.",
+      imageSlug: '/images/roblox-persuasive-language-recommend-irl.png',
+    },
+    {
+      word: 'DESPITE',
+      partOfSpeech: 'preposition',
+      definition: "Without being affected by — acknowledges a challenge or obstacle while showing it does not change the overall conclusion.",
+      example: "Despite the budget constraints, the team delivered a result that exceeded the client's original expectations.",
+      imageSlug: '/images/roblox-persuasive-language-despite-irl.png',
+    },
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: "STAND OUT",
+      definition: "To be noticeably more impressive or different than everything around it — to attract attention positively.",
+      example: "The sound design is what really stands out — it transforms the atmosphere of every match completely.",
+      inGame: "What stands out about this server is not the graphics — it is the quality of the community that plays here.",
+      inRealLife: "Her proposal stood out because it was the only one that addressed the underlying problem rather than the symptoms.",
+      imageSlug: '/images/roblox-persuasive-language-stand-out.png',
+    },
+    {
+      phrase: "WIN OVER",
+      definition: "To persuade someone to support your position — to change their opinion through argument or evidence.",
+      example: "The review won over even the most sceptical players — the evidence was too strong to dismiss.",
+      inGame: "To win over new players, the review needs to address their most common concerns directly and honestly.",
+      inRealLife: "She won over the board by presenting the data clearly and then letting the numbers speak for themselves.",
+      imageSlug: '/images/roblox-persuasive-language-win-over.png',
+    },
+    {
+      phrase: "BACK UP",
+      definition: "To support a claim with evidence, examples, or data — to prove that what you are saying is accurate.",
+      example: "Every claim in the review is backed up with specific examples — nothing is stated without evidence.",
+      inGame: "Do not make claims you cannot back up — if you say a game is the best, explain specifically why.",
+      inRealLife: "She backed up her recommendation with three months of performance data — the case was unanswerable.",
+      imageSlug: '/images/roblox-persuasive-language-back-up.png',
+    },
+    {
+      phrase: "BUILD UP TO",
+      definition: "To lead gradually toward the main point or conclusion — to create momentum before making your strongest claim.",
+      example: "The review builds up to a strong final verdict — every paragraph adds a piece of the argument before the conclusion.",
+      inGame: "A good persuasive text builds up to the most important point — do not give your verdict in the first sentence.",
+      inRealLife: "She built up to the pitch with three minutes of context, then delivered the core ask — the room was already convinced.",
+      imageSlug: '/images/roblox-persuasive-language-build-up-to.png',
+    },
+    {
+      phrase: "FALL SHORT OF",
+      definition: "To fail to reach the expected or hoped-for level — to not quite meet the standard.",
+      example: "The graphics fall short of what other top games offer — but the gameplay more than compensates.",
+      inGame: "Even if something falls short of expectations, a good review explains why the overall experience is still worth having.",
+      inRealLife: "The proposal fell short of what the client needed — it addressed the symptoms but not the underlying problem.",
+      imageSlug: '/images/roblox-persuasive-language-fall-short-of.png',
+    },
+    {
+      phrase: "MAKE THE CASE FOR",
+      definition: "To argue in favour of something — to present the reasons why a position, product, or decision is the right one.",
+      example: "The review makes a compelling case for this being the best competitive game on the platform right now.",
+      inGame: "If you are writing a recommendation, make the case for it clearly — do not just describe, argue.",
+      inRealLife: "She made the case for a significant budget increase and left the room with unanimous approval.",
+      imageSlug: '/images/roblox-persuasive-language-make-the-case-for.png',
+    },
+  ],
+
+  warmUp: {
+    questions: [
+      "Think about a review or recommendation you have read — a film, a product, a restaurant. What made it convincing? Was it the specific words used, the examples given, or the overall tone?",
+      "Have you ever been persuaded to try something by a review — and then found the experience very different from what was described? What made the review misleading?",
+      "In your language, do reviews tend to be more positive or more balanced? Is it normal to include criticism, or does that seem negative?",
+    ],
+  },
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Leo, I have written a review of Phoenix Force server for the guild newsletter. Can you look at it? I wrote: 'The game is good. The graphics are nice. I like the trading system. I recommend it.'",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "It is accurate — but it is not persuasive. You have described, but you have not argued. A good review does not just say what is good — it tells the reader why it matters and makes them feel something. Let us work on it.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "So instead of 'the game is good', what should I say?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Try: 'The gameplay experience is [[outstanding:exceptionally and noticeably better than everything else]] — every match feels different, and the skill ceiling is genuinely high.' Specific, evaluative, and strong. Not just 'good'.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "And for the trading system — 'the trading system is genuinely [[innovative:introducing new ideas or approaches not seen before]]'?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Much better. And if there are weaknesses — say them. Credibility comes from honesty. 'The main [[drawback:a disadvantage or negative aspect]] is the loading time.' Then use [[nevertheless:in spite of that, the conclusion does not change]]: 'Nevertheless, once you are in, the experience is worth the wait.'",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "And DESPITE — can I use that instead of NEVERTHELESS?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Different function. NEVERTHELESS starts a new sentence: 'The tutorial is weak. Nevertheless, it improves.' DESPITE starts a clause within a sentence: '[[Despite:without being affected by]] the weak tutorial, the overall experience is excellent.' NEVERTHELESS is for contrast. DESPITE is for acknowledgement without cancellation.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "And the ending — should I save the [[verdict:the final judgement or conclusion]] for last?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Always. Build toward it. Give the evidence, acknowledge the [[drawbacks:disadvantages or flaws]], show that they do not cancel the positives — then deliver a [[compelling:powerfully convincing]] verdict. 'I would [[recommend:advocate for as the right choice]] this without hesitation to anyone who takes competitive play seriously.' That is a verdict. Not 'I recommend it.'",
+    },
+  ],
+
+  completeSentenceExercise: {
+    instructions: "Choose the word that best completes each sentence. Then read it aloud.",
+    items: [
+      {
+        sentence: "The level design is _____ — every map is unique, carefully crafted, and consistently surprising.",
+        options: ["innovative", "outstanding", "compelling"],
+        correctIndex: 1,
+        explanation: "OUTSTANDING means exceptionally good — clearly better than everything else. INNOVATIVE means new and original — possible but doesn't capture the 'best in class' meaning. COMPELLING means powerfully convincing — more about arguments than design quality.",
+      },
+      {
+        sentence: "The main _____ is the loading time — it is noticeably slower than other games on the platform.",
+        options: ["verdict", "drawback", "nevertheless"],
+        correctIndex: 1,
+        explanation: "DRAWBACK is a disadvantage or negative aspect — exactly what loading time represents. VERDICT is a final conclusion. NEVERTHELESS is a linking adverb — not a noun.",
+      },
+      {
+        sentence: "The tutorial is poorly designed. _____, experienced players will find everything they need within the first hour.",
+        options: ["Despite", "Nevertheless", "Outstanding"],
+        correctIndex: 1,
+        explanation: "NEVERTHELESS introduces a contrasting point that follows a negative — perfect here. DESPITE would require restructuring the sentence into one clause. OUTSTANDING is an adjective — not a linker.",
+      },
+      {
+        sentence: "_____ the occasional server lag, the gameplay experience is consistently excellent.",
+        options: ["Nevertheless", "Despite", "Compelling"],
+        correctIndex: 1,
+        explanation: "DESPITE is a preposition that introduces a clause — 'despite + noun phrase' acknowledges a problem without cancelling the positive conclusion. NEVERTHELESS starts a new sentence. COMPELLING is an adjective.",
+      },
+      {
+        sentence: "The progression system creates a _____ reason to return every day — there is always something to work toward.",
+        options: ["outstanding", "innovative", "compelling"],
+        correctIndex: 2,
+        explanation: "COMPELLING means powerfully convincing or persuasive — the progression system creates a reason that is hard to ignore. OUTSTANDING means best in class — applies to quality, not to reasons or arguments. INNOVATIVE means new and original.",
+      },
+      {
+        sentence: "The _____: this is the best competitive game on the platform, and it is not close.",
+        options: ["verdict", "drawback", "recommendation"],
+        correctIndex: 0,
+        explanation: "VERDICT is the final judgement or conclusion — the definitive opinion. DRAWBACK is a negative. RECOMMENDATION is the act of recommending — a noun, but 'the recommendation' doesn't work in this sentence structure which requires a definitive judgement word.",
+      },
+    ],
+  },
+
+  matchingExercise: [
+    { word: 'OUTSTANDING', definition: 'Exceptionally good — clearly and noticeably better than everything in the same category' },
+    { word: 'INNOVATIVE', definition: 'Introducing new ideas or approaches not seen before — fresh and original' },
+    { word: 'DRAWBACK', definition: 'A disadvantage or negative aspect of something that is otherwise good' },
+    { word: 'NEVERTHELESS', definition: 'In spite of what was just said — introduces a contrasting point that does not cancel the previous one' },
+    { word: 'COMPELLING', definition: 'Powerfully persuasive — so strong that it is difficult to ignore or argue against' },
+    { word: 'VERDICT', definition: 'A final judgement or conclusion — the definitive opinion the reader should take away' },
+    { word: 'RECOMMEND', definition: 'To suggest or advocate for something based on your experience and judgement' },
+    { word: 'DESPITE', definition: 'Without being affected by — acknowledges a negative while showing it does not change the conclusion' },
+  ],
+
+  fillBlankExercise: [
+    { before: "The level design is absolutely", answer: 'outstanding', after: "— every map feels unique and carefully crafted." },
+    { before: "The trading system is genuinely", answer: 'innovative', after: "— no other game on the platform comes close to this level of complexity." },
+    { before: "The main", answer: 'drawback', after: "is the loading time — significantly slower than comparable games." },
+    { before: "The tutorial is weak.", answer: 'Nevertheless', after: ", experienced players will find everything they need within the first hour." },
+    { before: "The progression system creates a truly", answer: 'compelling', after: "reason to return every day — there is always something worth working toward." },
+    { before: "The", answer: 'verdict', after: "is clear: this is the most complete competitive game on the platform." },
+    { before: "I would strongly", answer: 'recommend', after: "this to anyone who enjoys competitive team play — it rewards skill and strategy equally." },
+    { before: "", answer: 'Despite', after: "the occasional lag, the gameplay experience is consistently excellent and worth your time." },
+  ],
+
+  multipleChoiceExercise: [
+    {
+      question: "In the dialogue, Leo explains the difference between NEVERTHELESS and DESPITE. Which is correct?",
+      options: [
+        "NEVERTHELESS is a preposition; DESPITE starts a new sentence.",
+        "NEVERTHELESS starts a new sentence after a negative; DESPITE introduces a clause within one sentence.",
+        "They are synonyms and can always be swapped without any change in structure.",
+        "DESPITE is more formal than NEVERTHELESS and should be used in academic writing only.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Why does Leo say Mia's original review ('The game is good. I like the trading system.') is not persuasive?",
+      options: [
+        "Because the grammar is incorrect.",
+        "Because it is too long and needs to be shorter.",
+        "Because it describes but does not argue — it says what is good without explaining why it matters.",
+        "Because positive reviews are always less persuasive than critical ones.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "What does MAKE THE CASE FOR mean?",
+      options: [
+        "To build a physical case or container for something.",
+        "To argue in favour of something by presenting reasons and evidence.",
+        "To admit that an argument has been lost.",
+        "To present both sides of an argument equally.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Which sentence uses DESPITE correctly?",
+      options: [
+        "Despite the game is excellent, there are some small problems.",
+        "She finished the review despite it took her three hours.",
+        "Despite the loading issues, the overall gameplay experience is outstanding.",
+        "Nevertheless the slow tutorial, experienced players adapt quickly.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "What does FALL SHORT OF mean?",
+      options: [
+        "To fall physically from a short height.",
+        "To fail to reach the expected or hoped-for level — to not quite meet the standard.",
+        "To run out of time before completing something.",
+        "To disagree with someone's assessment of a situation.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "In persuasive writing, why does Leo say you should acknowledge drawbacks?",
+      options: [
+        "Because all reviews must be balanced and present both sides equally.",
+        "Because readers already know about the problems and you cannot hide them.",
+        "Because acknowledging weaknesses honestly adds credibility to the overall argument.",
+        "Because drawbacks are always the most interesting part of any review.",
+      ],
+      correctIndex: 2,
+    },
+  ],
+};

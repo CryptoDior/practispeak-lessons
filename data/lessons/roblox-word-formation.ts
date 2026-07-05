@@ -1,0 +1,379 @@
+import { Lesson } from '@/types/lesson';
+
+export const robloxWordFormation: Lesson = {
+  slug: 'roblox-word-formation',
+  title: "Word Formation",
+  subtitle: "Compete. Competition. Competitive. Competitively. One root, four words — and each one unlocks a different sentence.",
+  level: 'B1-B2',
+  description: "Word formation is one of the most powerful vocabulary skills at B2. If you know COMPETE, you can unlock COMPETITION, COMPETITIVE, and COMPETITIVELY. If you know CREATE, you have CREATION, CREATIVE, and CREATIVELY. Learning word families — noun, verb, adjective, adverb — multiplies your vocabulary with every new root you learn. This lesson builds that skill using Roblox contexts.",
+  heroImage: '/images/roblox-word-formation-hero.png',
+
+  vocabulary: [
+    {
+      word: 'COMPETE',
+      partOfSpeech: 'verb',
+      definition: "To take part in a contest or challenge against others. Family: COMPETE (verb) → COMPETITION (noun) → COMPETITIVE (adjective) → COMPETITIVELY (adverb) → COMPETITOR (noun).",
+      example: "Leo competes at the highest server level — his competition record is the best in the guild's history.",
+      imageSlug: '/images/roblox-word-formation-compete.png',
+    },
+    {
+      word: 'CREATE',
+      partOfSpeech: 'verb',
+      definition: "To make or design something new. Family: CREATE (verb) → CREATION (noun) → CREATIVE (adjective) → CREATIVELY (adverb) → CREATOR (noun).",
+      example: "Mia creates custom game environments — each creation takes weeks and reflects her most creative ideas.",
+      imageSlug: '/images/roblox-word-formation-create.png',
+    },
+    {
+      word: 'ACHIEVE',
+      partOfSpeech: 'verb',
+      definition: "To successfully reach a goal through effort. Family: ACHIEVE (verb) → ACHIEVEMENT (noun) → ACHIEVABLE (adjective) → ACHIEVER (noun).",
+      example: "Every achievement in the guild unlocks a reward — but the most important ones require months of effort to achieve.",
+      imageSlug: '/images/roblox-word-formation-achieve.png',
+    },
+    {
+      word: 'DOMINATE',
+      partOfSpeech: 'verb',
+      definition: "To be the strongest or most powerful in a situation. Family: DOMINATE (verb) → DOMINATION (noun) → DOMINANT (adjective) → DOMINANTLY (adverb).",
+      example: "Phoenix Force dominated the regional finals — their dominant performance left the other teams with no answer.",
+      imageSlug: '/images/roblox-word-formation-dominate.png',
+    },
+    {
+      word: 'COMMUNICATE',
+      partOfSpeech: 'verb',
+      definition: "To share information clearly between people. Family: COMMUNICATE (verb) → COMMUNICATION (noun) → COMMUNICATIVE (adjective) → COMMUNICATOR (noun).",
+      example: "The guild communicates through a private server — clear communication is what separates winning teams from losing ones.",
+      imageSlug: '/images/roblox-word-formation-communicate.png',
+    },
+    {
+      word: 'PERFORM',
+      partOfSpeech: 'verb',
+      definition: "To carry out an action or do something, especially to a certain standard. Family: PERFORM (verb) → PERFORMANCE (noun) → PERFORMER (noun) → PERFORMING (adjective).",
+      example: "She performed brilliantly in the final — her performance was the best individual display of the entire tournament.",
+      imageSlug: '/images/roblox-word-formation-perform.png',
+    },
+    {
+      word: 'STRATEGY',
+      partOfSpeech: 'noun',
+      definition: "A plan of action designed to achieve a long-term goal. Family: STRATEGY (noun) → STRATEGIC (adjective) → STRATEGICALLY (adverb) → STRATEGIST (noun).",
+      example: "The guild's strategy is built on strong defence — a strategic approach that has served them well across three seasons.",
+      imageSlug: '/images/roblox-word-formation-strategy.png',
+    },
+    {
+      word: 'CONTRIBUTE',
+      partOfSpeech: 'verb',
+      definition: "To give or add something to a shared effort. Family: CONTRIBUTE (verb) → CONTRIBUTION (noun) → CONTRIBUTOR (noun) → CONTRIBUTING (adjective).",
+      example: "Every player contributes differently — Leo's greatest contribution is his ability to read the match in real time.",
+      imageSlug: '/images/roblox-word-formation-contribute.png',
+    },
+  ],
+
+  irlVocabulary: [
+    {
+      word: 'COMPETE',
+      partOfSpeech: 'verb',
+      definition: "To compete in professional life means to vie for business, contracts, clients, or positions against others.",
+      example: "The firm competes for the same clients as three larger agencies — but wins on service quality and response time.",
+      imageSlug: '/images/roblox-word-formation-compete-irl.png',
+    },
+    {
+      word: 'CREATE',
+      partOfSpeech: 'verb',
+      definition: "To create in professional life means to produce new ideas, products, content, or solutions.",
+      example: "Her team creates all the company's marketing content — from initial concept to final creative execution.",
+      imageSlug: '/images/roblox-word-formation-create-irl.png',
+    },
+    {
+      word: 'ACHIEVE',
+      partOfSpeech: 'verb',
+      definition: "To achieve in professional life means to successfully reach targets, goals, or outcomes through work and effort.",
+      example: "She achieved every target set for her in her first year — an impressive record that led to an early promotion.",
+      imageSlug: '/images/roblox-word-formation-achieve-irl.png',
+    },
+    {
+      word: 'DOMINATE',
+      partOfSpeech: 'verb',
+      definition: "To dominate a market, sector, or field means to be the leading and most powerful player in it.",
+      example: "The company has dominated the sector for fifteen years — but new competitors are starting to challenge that dominance.",
+      imageSlug: '/images/roblox-word-formation-dominate-irl.png',
+    },
+    {
+      word: 'COMMUNICATE',
+      partOfSpeech: 'verb',
+      definition: "To communicate effectively in professional life means to share information and ideas clearly and appropriately.",
+      example: "She communicates complex data in simple language — a skill that makes her presentations unusually effective.",
+      imageSlug: '/images/roblox-word-formation-communicate-irl.png',
+    },
+    {
+      word: 'PERFORM',
+      partOfSpeech: 'verb',
+      definition: "To perform in professional life means to carry out your role to a specific standard — and to be assessed on it.",
+      example: "The team performed above expectations in Q3 — their performance review results were the highest in the division.",
+      imageSlug: '/images/roblox-word-formation-perform-irl.png',
+    },
+    {
+      word: 'STRATEGY',
+      partOfSpeech: 'noun',
+      definition: "In professional contexts, strategy is a long-term plan designed to achieve organisational goals and competitive advantage.",
+      example: "The board approved the new strategy — a three-year plan focused on international growth and digital transformation.",
+      imageSlug: '/images/roblox-word-formation-strategy-irl.png',
+    },
+    {
+      word: 'CONTRIBUTE',
+      partOfSpeech: 'verb',
+      definition: "To contribute in professional life means to add value to a team, project, or organisation through your work.",
+      example: "Every member of the team contributes — even quiet contributors who work behind the scenes have significant impact.",
+      imageSlug: '/images/roblox-word-formation-contribute-irl.png',
+    },
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: "BRANCH OUT",
+      definition: "To expand into a new area, skill, or direction — to go beyond what you currently do or know.",
+      example: "After mastering combat builds, Leo branched out into design and discovered he had a real talent for it.",
+      inGame: "Once you have mastered one game type, branch out — versatility makes you a much more valuable team member.",
+      inRealLife: "She branched out from accounting into financial consulting — a career move that tripled her client base.",
+      imageSlug: '/images/roblox-word-formation-branch-out.png',
+    },
+    {
+      phrase: "BUILD UP",
+      definition: "To develop or accumulate something gradually over time — to grow steadily toward a larger goal.",
+      example: "She built up her skill set over two years — each game, each tournament adding to her competitive knowledge.",
+      inGame: "Build up your resources slowly in the early rounds — do not spend everything immediately.",
+      inRealLife: "He built up a client list of over two hundred people — one relationship at a time over five years.",
+      imageSlug: '/images/roblox-word-formation-build-up.png',
+    },
+    {
+      phrase: "STAND OUT",
+      definition: "To be noticeably better, different, or more impressive than others — to attract attention positively.",
+      example: "Mia's designs stand out from every other builder on the server — her style is instantly recognisable.",
+      inGame: "To stand out in a competitive server, you need a skill that very few other players have mastered.",
+      inRealLife: "Her presentation stood out at the pitch — clear, confident, and ten minutes shorter than everyone else's.",
+      imageSlug: '/images/roblox-word-formation-stand-out.png',
+    },
+    {
+      phrase: "DRAW ON",
+      definition: "To make use of existing knowledge, experience, or skills — to apply something you already have.",
+      example: "Leo drew on three years of match experience to design the guild's new competitive training programme.",
+      inGame: "Draw on everything you have learned from past matches — every loss teaches you something you can use.",
+      inRealLife: "She drew on her background in psychology to design a more effective user experience for the app.",
+      imageSlug: '/images/roblox-word-formation-draw-on.png',
+    },
+    {
+      phrase: "BREAK INTO",
+      definition: "To enter a new field, market, or area successfully — often after significant effort.",
+      example: "She finally broke into the top fifty rankings after six months of intensive practice — a significant achievement.",
+      inGame: "Breaking into the top tier requires not just skill but strategic consistency over a long period.",
+      inRealLife: "He broke into the film industry after years of writing short scripts and building connections independently.",
+      imageSlug: '/images/roblox-word-formation-break-into.png',
+    },
+    {
+      phrase: "COME INTO",
+      definition: "To develop, emerge, or become established — to reach full effect or recognition.",
+      example: "Her full potential came into view once she was given a leadership role — she had always had the ability.",
+      inGame: "Your real strategy only comes into play in the later rounds — the early game is preparation.",
+      inRealLife: "The new regulations came into effect at the start of the financial year — all teams needed to be ready.",
+      imageSlug: '/images/roblox-word-formation-come-into.png',
+    },
+  ],
+
+  warmUp: {
+    questions: [
+      "If you know the word CREATE, how many related words can you name in English? Try without looking — then check how many you got right.",
+      "In your own language, do you have a system of word families — where one root can become a noun, verb, adjective, and adverb? Is it similar to English or very different?",
+      "When you learn a new English word, do you try to learn its full word family at the same time? Do you think that would be a useful habit?",
+    ],
+  },
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Leo, I want to talk about the tournament performance. Can I give you some analysis?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Please — I am always open to analysis. What did you notice?",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "I think the [[strategy:a plan of action designed to achieve a long-term goal]] was good, but we lacked [[communication:the clear sharing of information between people]] in the final round. Everyone was competing individually instead of [[competitively:in a way focused on winning together]] as a team.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Interesting word choice — COMPETITIVELY is the adverb from COMPETE. You also have COMPETITION and COMPETITIVE. Notice how the same root gives you the noun, adjective, and adverb?",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Yes — COMPETE, COMPETITION, COMPETITIVE, COMPETITIVELY. I was also thinking: our [[creative:showing originality and imagination]] approach was strong, but the actual [[creation:the thing that has been made or designed]] of the final build took too long.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Good. CREATE → CREATIVE → CREATION. And what about individual [[performance:how well someone carries out an action or role]]? I think yours was excellent — your [[contribution:the input or addition you make to a shared effort]] in round two changed the whole match.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "You mean PERFORM → PERFORMANCE? And CONTRIBUTE → CONTRIBUTION? I see — the suffix changes the part of speech. -ANCE makes a noun from a verb. -ION also makes a noun.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Exactly. And -IVE makes an adjective: CREATE → CREATIVE, COMPETE → COMPETITIVE, DOMINATE → [[dominant:being the strongest or most powerful]]. -LY then turns the adjective into an adverb: CREATIVELY, COMPETITIVELY, [[dominantly:in a way that is most powerful or influential]].",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "So if I learn one root word, I automatically have access to several others. That is a much more efficient way to learn vocabulary.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Exactly. One [[achievable:possible to accomplish with effort]] goal: learn the root and the family. Every [[achievement:a thing accomplished through effort]] in word formation multiplies your vocabulary without doubling the effort.",
+    },
+  ],
+
+  completeSentenceExercise: {
+    instructions: "Choose the correct form of the word to complete each sentence. Then read it aloud.",
+    items: [
+      {
+        sentence: "Her greatest _____ this season was reaching the top fifty in the regional rankings.",
+        options: ["achieve", "achievable", "achievement"],
+        correctIndex: 2,
+        explanation: "ACHIEVEMENT is the noun form — the thing accomplished. ACHIEVE is the verb. ACHIEVABLE is the adjective meaning possible to accomplish.",
+      },
+      {
+        sentence: "The guild's _____ approach — never rushing, always reading — was the key to their consistent results.",
+        options: ["strategy", "strategic", "strategically"],
+        correctIndex: 1,
+        explanation: "STRATEGIC is the adjective form — it modifies the noun 'approach'. STRATEGY is the noun. STRATEGICALLY is the adverb — it would modify a verb, not a noun.",
+      },
+      {
+        sentence: "Phoenix Force _____ the regional finals — no other team came close to matching their performance.",
+        options: ["dominated", "dominant", "domination"],
+        correctIndex: 0,
+        explanation: "DOMINATED is the past tense verb form — the subject (Phoenix Force) performed the action. DOMINANT is an adjective. DOMINATION is a noun — it cannot serve as the main verb.",
+      },
+      {
+        sentence: "Clear _____ between players is the single biggest factor separating winning and losing teams.",
+        options: ["communicate", "communicative", "communication"],
+        correctIndex: 2,
+        explanation: "COMMUNICATION is the noun form — the subject of the sentence. COMMUNICATE is the verb. COMMUNICATIVE is an adjective describing people who communicate well.",
+      },
+      {
+        sentence: "Leo's _____ to the team goes far beyond his match performance — he mentors every new member.",
+        options: ["contribute", "contribution", "contributing"],
+        correctIndex: 1,
+        explanation: "CONTRIBUTION is the noun form — what is being possessed (his contribution). CONTRIBUTE is the verb. CONTRIBUTING is a participle used as an adjective.",
+      },
+      {
+        sentence: "She approached every match _____ — always looking for ways to improve on the previous session.",
+        options: ["competitive", "competition", "competitively"],
+        correctIndex: 2,
+        explanation: "COMPETITIVELY is the adverb form — it modifies the verb 'approached'. COMPETITIVE is the adjective. COMPETITION is the noun.",
+      },
+    ],
+  },
+
+  matchingExercise: [
+    { word: 'COMPETE', definition: 'Verb — to take part in a contest or challenge against others' },
+    { word: 'CREATE', definition: 'Verb — to make or design something original and new' },
+    { word: 'ACHIEVE', definition: 'Verb — to successfully reach a goal through sustained effort' },
+    { word: 'DOMINATE', definition: 'Verb — to be the strongest or most powerful in a situation' },
+    { word: 'COMMUNICATE', definition: 'Verb — to share information clearly and effectively between people' },
+    { word: 'PERFORM', definition: 'Verb — to carry out an action or role, especially to a measurable standard' },
+    { word: 'STRATEGY', definition: 'Noun — a plan of action designed to achieve a long-term goal' },
+    { word: 'CONTRIBUTE', definition: 'Verb — to give or add something valuable to a shared effort or project' },
+  ],
+
+  fillBlankExercise: [
+    { before: "Her greatest", answer: 'achievement', after: "this season was breaking into the top fifty for the first time." },
+    { before: "The guild's", answer: 'strategy', after: "is built on disciplined defence — a plan that has worked across three seasons." },
+    { before: "Phoenix Force", answer: 'dominated', after: "the tournament from the first round — no other team came close." },
+    { before: "Their", answer: 'communication', after: "was the key advantage — every player knew exactly what the others were doing." },
+    { before: "Leo's", answer: 'contribution', after: "goes far beyond his match results — he trains every new player personally." },
+    { before: "She approached every session", answer: 'competitively', after: "— always looking to improve, always measuring herself against the best." },
+    { before: "After mastering combat, she decided to", answer: 'branch out', after: "into design — and discovered she had a real talent for it." },
+    { before: "Her unique style made her designs", answer: 'stand out', after: "immediately — other players recognised her work before seeing her name." },
+  ],
+
+  multipleChoiceExercise: [
+    {
+      question: "In the dialogue, Leo explains that the suffix -LY turns an adjective into an adverb. Which of these is an adverb formed this way?",
+      options: [
+        "Competition",
+        "Creative",
+        "Competitively",
+        "Achievement",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "Which sentence uses the NOUN form of PERFORM correctly?",
+      options: [
+        "She performed brilliantly in the final round.",
+        "Her performance in the final round was the best of the tournament.",
+        "She is the most performing player in the guild.",
+        "The team performanced above expectations.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What does BRANCH OUT mean?",
+      options: [
+        "To return to a previous skill or specialisation.",
+        "To expand into a new area or direction beyond what you currently do.",
+        "To split a team into two separate groups.",
+        "To make a decision based on a map or visual structure.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Which word is the adjective form of DOMINATE?",
+      options: [
+        "Domination",
+        "Dominantly",
+        "Dominant",
+        "Dominator",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "What does DRAW ON mean?",
+      options: [
+        "To make a drawing or illustration of something.",
+        "To pull something physically across a surface.",
+        "To make use of existing knowledge or experience that you already have.",
+        "To take money from a bank account.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "Which sentence shows the correct use of CONTRIBUTION?",
+      options: [
+        "She contribution to the guild by training all the new members.",
+        "His contribution to the team was enormous — he led them through their most difficult season.",
+        "They contributioned their best players to the tournament.",
+        "The contribution was competitive and the results were strategic.",
+      ],
+      correctIndex: 1,
+    },
+  ],
+};
