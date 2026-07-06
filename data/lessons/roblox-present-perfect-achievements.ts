@@ -8,6 +8,29 @@ export const robloxPresentPerfectAchievements: Lesson = {
   description: "Roblox players love talking about what they have unlocked, earned, and completed — and this is exactly what the present perfect is for. Learn eight achievement verbs and master the grammar that brings them to life.",
   heroImage: '/images/roblox-present-perfect-achievements-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Present Perfect — HAVE + past participle',
+    description: "Use the Present Perfect to talk about things you have done — without saying exactly when. The formula is simple: HAVE (or HAS) + the past participle of the verb. Use it to talk about achievements!",
+    positivePattern: 'I/You/We/They + HAVE + past participle',
+    positiveExample: '"I have unlocked all the badges."',
+    negativePattern: 'Do NOT use the base verb after HAVE',
+    negativeExample: '"I have unlock all the badges." ✗',
+    positiveLabel: 'CORRECT — HAVE + past participle',
+    negativeLabel: 'WRONG — do not use the base verb',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"I have completed every quest in the game."', note: 'complete → completed (past participle)' },
+      { sentence: '"She has mastered the building mechanics."', note: 'master → mastered (past participle)' },
+      { sentence: '"They have collected over 500 items."', note: 'collect → collected (past participle)' },
+      { sentence: '"He has never beaten that boss."', note: 'beat → beaten (irregular past participle)' },
+    ],
+    negativeExamples: [
+      { sentence: '"I have complete every quest." ✗', note: 'complete is the base verb — use completed after HAVE' },
+      { sentence: '"She has master the mechanics." ✗', note: 'master is the base verb — use mastered after HAS' },
+      { sentence: '"They have collect 500 items." ✗', note: 'collect is the base verb — use collected after HAVE' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'UNLOCK',

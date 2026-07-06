@@ -8,6 +8,29 @@ export const robloxAdjectivesOfExperience: Lesson = {
   description: "Good reviews and bad reviews all come down to one thing: adjectives. Learn the eight words that describe how a gaming experience really feels — and how to use them in real life to describe any experience that matters to you.",
   heroImage: '/images/roblox-adjectives-of-experience-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: -ING adjectives describe the experience',
+    description: "Some adjectives end in -ING and some end in -ED. The -ING adjective describes the experience or thing. The -ED adjective describes how a PERSON feels. For example: \"The game is CHALLENGING.\" (describes the game) vs \"I feel CHALLENGED.\" (describes how you feel).",
+    positivePattern: 'The [thing] + IS + -ING adjective',
+    positiveExample: '"The raid is FRUSTRATING."',
+    negativePattern: 'Do NOT use -ED to describe a thing',
+    negativeExample: '"The raid is FRUSTRATED." ✗',
+    positiveLabel: '-ING = describes the experience',
+    negativeLabel: 'COMMON MISTAKE — mixing -ING and -ED',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"This dungeon is challenging."', note: 'the dungeon creates the challenge — it is -ING' },
+      { sentence: '"The game is rewarding."', note: 'the game gives you rewards — it is -ING' },
+      { sentence: '"The grind is repetitive."', note: 'the activity repeats — it is -ING' },
+      { sentence: '"I feel challenged by this boss."', note: 'YOU feel it — so use -ED for the person' },
+    ],
+    negativeExamples: [
+      { sentence: '"The game is frustrated." ✗', note: 'things cannot be frustrated — use frustrating for the game' },
+      { sentence: '"This dungeon is challenged." ✗', note: 'the dungeon is challenging — YOU feel challenged' },
+      { sentence: '"The grind is repeated." ✗', note: 'the grind is repetitive — repeated means something different' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'IMMERSIVE',

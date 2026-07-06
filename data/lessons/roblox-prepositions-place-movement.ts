@@ -8,6 +8,29 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
   description: "In Roblox, survival often depends on knowing exactly where you are and where you need to go. At B1 level, vague directions are not enough — ACROSS, THROUGH, BENEATH and BEYOND are the tools that make your communication precise. These prepositions work exactly the same way in everyday English too.",
   heroImage: '/images/roblox-prepositions-place-movement-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Prepositions come BEFORE a noun',
+    description: "A preposition always goes BEFORE a noun or noun phrase. It shows WHERE something is or HOW something moves. The words in this lesson — ACROSS, THROUGH, BETWEEN, BENEATH, ALONG, TOWARD, BEYOND, WITHIN — are all prepositions. They always need a noun after them.",
+    positivePattern: 'Verb + PREPOSITION + noun / noun phrase',
+    positiveExample: '"Run ACROSS the bridge."',
+    negativePattern: 'Do NOT use a preposition without a noun after it',
+    negativeExample: '"Run across." ✗ (across WHAT?)',
+    positiveLabel: 'CORRECT — preposition + noun',
+    negativeLabel: 'WRONG — preposition without a noun',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"Run across the bridge."', note: 'across + the bridge (noun phrase)' },
+      { sentence: '"Hide beneath the platform."', note: 'beneath + the platform (noun phrase)' },
+      { sentence: '"Move toward the exit."', note: 'toward + the exit (noun phrase)' },
+      { sentence: '"Stay within the safe zone."', note: 'within + the safe zone (noun phrase)' },
+    ],
+    negativeExamples: [
+      { sentence: '"Run across." ✗', note: 'across needs a noun — across WHAT? Say: Run across the bridge.' },
+      { sentence: '"Hide beneath." ✗', note: 'beneath needs a noun — beneath WHAT? Say: Hide beneath the platform.' },
+      { sentence: '"Stay within." ✗', note: 'within needs a noun — within WHAT? Say: Stay within the safe zone.' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'ACROSS',
