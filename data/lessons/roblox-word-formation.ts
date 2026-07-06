@@ -8,6 +8,29 @@ export const robloxWordFormation: Lesson = {
   description: "Word formation is one of the most powerful vocabulary skills at B2. If you know COMPETE, you can unlock COMPETITION, COMPETITIVE, and COMPETITIVELY. If you know CREATE, you have CREATION, CREATIVE, and CREATIVELY. Learning word families — noun, verb, adjective, adverb — multiplies your vocabulary with every new root you learn. This lesson builds that skill using Roblox contexts.",
   heroImage: '/images/roblox-word-formation-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Word Formation — changing a word into a different form',
+    description: "In English, one root word can become a verb, noun, adjective, or adverb by changing its ending. This is called word formation. For example: COMPETE (verb) → COMPETITION (noun) → COMPETITIVE (adjective) → COMPETITIVELY (adverb). Learning the different forms of a word helps you use it in more situations.",
+    positivePattern: 'Root VERB → NOUN (-tion/-ance) → ADJECTIVE (-ive/-ing) → ADVERB (-ly)',
+    positiveExample: '"compete → competition → competitive → competitively"',
+    negativePattern: 'Do NOT use the wrong word form in a sentence',
+    negativeExample: '"He played very compete." ✗ (compete is a verb, not an adverb)',
+    positiveLabel: 'CORRECT — right word form for the sentence',
+    negativeLabel: 'WRONG — wrong word form',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"She is a strong competitor on this server."', note: 'compete → competitor (noun — a person who competes)' },
+      { sentence: '"The guild performed exceptionally this season."', note: 'perform → performed (verb in past simple)' },
+      { sentence: '"His achievement unlocked a rare badge."', note: 'achieve → achievement (noun — the result of achieving)' },
+      { sentence: '"Her contribution to the team was invaluable."', note: 'contribute → contribution (noun — what she gave to the team)' },
+    ],
+    negativeExamples: [
+      { sentence: '"She is very compete on this server." ✗', note: 'compete is a verb — use the adjective: competitive' },
+      { sentence: '"His achieve was impressive." ✗', note: 'achieve is a verb — use the noun: achievement' },
+      { sentence: '"The guild performed with great create." ✗', note: 'create is a verb — use the noun: creativity or creation' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'COMPETE',

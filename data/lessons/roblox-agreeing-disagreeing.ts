@@ -8,6 +8,28 @@ export const robloxAgreeingDisagreeing: Lesson = {
   description: "Agreeing and disagreeing are not binary. At B2, you need to navigate the full range: partially agreeing, conceding a point while maintaining your position, and disagreeing diplomatically without causing offence. Whether you are debating which game is best or discussing strategy with your team, how you disagree matters as much as whether you disagree.",
   heroImage: '/images/roblox-agreeing-disagreeing-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Agreeing and disagreeing — use softeners',
+    description: "In English, disagreeing directly can sound rude. Native speakers use softeners — small phrases that make disagreement sound polite and professional. You can also concede a point (admit the other person is partly right) before giving your counter-argument. This makes your English sound more natural and confident.",
+    positivePattern: 'Concede + HOWEVER/THAT SAID + counter-argument',
+    positiveExample: '"That is a valid point. However, I beg to differ on the timing."',
+    negativePattern: 'Do NOT disagree with no softener or concession',
+    negativeExample: '"You are wrong." ✗ (blunt and impolite)',
+    positiveLabel: 'CORRECT — softened, diplomatic disagreement',
+    negativeLabel: 'WRONG — too blunt or no concession',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"I acknowledge your point, but I see it differently."', note: 'acknowledge = I heard you — then give your view' },
+      { sentence: '"Fair enough — I concede that point. That said, the data suggests otherwise."', note: 'concede = admit they are right about one thing before disagreeing on another' },
+      { sentence: '"I beg to differ — the strategy was not as effective as it looks."', note: 'I beg to differ = polite but firm disagreement' },
+    ],
+    negativeExamples: [
+      { sentence: '"You are wrong about the strategy." ✗', note: 'blunt — soften it: I see that differently, or I would dispute that' },
+      { sentence: '"That is a bad idea." ✗', note: 'too direct — use: I am not sure that would work, or I would suggest an alternative' },
+      { sentence: '"No." ✗ (in a discussion)', note: 'too blunt — even a simple disagreement needs a softener: Not quite, or I am not sure I agree' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'DIPLOMATICALLY',

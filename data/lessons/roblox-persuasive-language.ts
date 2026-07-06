@@ -8,6 +8,28 @@ export const robloxPersuasiveLanguage: Lesson = {
   description: "Persuasive language is the difference between a description and an argument. When you write a game review, a recommendation, or a pitch, you are not just reporting facts — you are guiding the reader toward a specific conclusion. At B2, you need the vocabulary of persuasion: words like 'compelling', 'outstanding', and 'despite' that add force and nuance to your writing.",
   heroImage: '/images/roblox-persuasive-language-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Persuasive language — structure your argument',
+    description: "Persuasive language is language designed to change someone's opinion or get them to agree with you. It uses strong positive adjectives (outstanding, compelling), concession words that show fairness (nevertheless, despite), and clear recommendations. In English, a good persuasive argument has three parts: claim, evidence, and recommendation.",
+    positivePattern: 'Claim + evidence + NEVERTHELESS/DESPITE + recommendation',
+    positiveExample: '"Despite the drawbacks, I recommend this update."',
+    negativePattern: 'Do NOT give a recommendation without a reason',
+    negativeExample: '"I recommend this update." ✗ (no evidence or reasoning)',
+    positiveLabel: 'CORRECT — persuasive structure with reasoning',
+    negativeLabel: 'WRONG — missing reasoning or evidence',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"The new map is outstanding. Nevertheless, it has one minor drawback."', note: 'nevertheless = but / however — shows you are being fair and balanced' },
+      { sentence: '"Despite the long grind, the rewards are compelling."', note: 'despite = even though — concedes a negative, then makes the positive stronger' },
+      { sentence: '"I strongly recommend joining this guild — their record is innovative and consistent."', note: 'recommend + reason = complete persuasive move' },
+    ],
+    negativeExamples: [
+      { sentence: '"This is outstanding." ✗ (as a full persuasive argument)', note: 'one adjective is not enough — add evidence: outstanding because...' },
+      { sentence: '"I recommend this. It is good." ✗', note: 'too vague — use precise language: compelling, innovative, outstanding' },
+      { sentence: '"The update has drawbacks. I recommend it." ✗', note: 'missing the bridge — use nevertheless or despite to connect the concession to your recommendation' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'OUTSTANDING',
