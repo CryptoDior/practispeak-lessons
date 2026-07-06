@@ -8,6 +8,29 @@ export const robloxStorytellingPastTenses: Lesson = {
   description: "The best Roblox stories are not just 'we won' — they are blow-by-blow accounts of the moment it all changed. Using the right past tenses and narrative time markers transforms a boring recap into a gripping story. This lesson gives you the exact language that skilled storytellers use in every language.",
   heroImage: '/images/roblox-storytelling-past-tenses-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Past Simple vs Past Continuous in stories',
+    description: "When telling a story in English, you use TWO past tenses together. Past Simple = a completed action at a specific moment. Past Continuous = a background action already in progress. They often appear together: something WAS HAPPENING (continuous) when something else HAPPENED (simple).",
+    positivePattern: 'WAS/WERE + -ING (background) + PAST SIMPLE (event)',
+    positiveExample: '"He was running when the boss appeared."',
+    negativePattern: 'Do NOT use Past Simple for the background action',
+    negativeExample: '"He ran when the boss appeared." — loses the background meaning',
+    positiveLabel: 'CORRECT — continuous background, simple event',
+    negativeLabel: 'WRONG — simple for both loses the storytelling effect',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"They were farming resources when suddenly the raid began."', note: 'were farming = background; began = sudden event' },
+      { sentence: '"Just as she was escaping, the server crashed."', note: 'was escaping = in progress; crashed = interrupting event' },
+      { sentence: '"Meanwhile, the other team was building a defence."', note: 'meanwhile shows two things happening at the same time' },
+      { sentence: '"By the time he respawned, the match was already over."', note: 'by the time = one action finished before another' },
+    ],
+    negativeExamples: [
+      { sentence: '"They farmed resources when suddenly the raid began." ✗', note: 'use were farming — the background action was already in progress' },
+      { sentence: '"Just as she escaped, the server crashed." ✗', note: 'use was escaping — the action was still happening when interrupted' },
+      { sentence: '"Meanwhile, the other team built a defence." ✗', note: 'use was building — it was an ongoing background action' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'SUDDENLY',

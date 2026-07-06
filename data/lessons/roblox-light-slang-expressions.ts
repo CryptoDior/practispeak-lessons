@@ -8,6 +8,29 @@ export const robloxLightSlangExpressions: Lesson = {
   description: "Gaming has its own language — and much of it has crossed over into everyday English. GG is said in offices. NPC appears in memes. The meta shapes how people talk about strategy. This lesson teaches you eight essential expressions, explains where they come from, and shows you how to use them — in the game and out of it.",
   heroImage: '/images/roblox-light-slang-expressions-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Register — know WHEN to use slang',
+    description: "Register means the level of formality in your language. Slang and abbreviations like GG, AFK, and OP are INFORMAL — perfect for gaming chats, online messages, and talking with friends. But you cannot use them in formal writing, job applications, or professional emails. Knowing when to switch is an important language skill.",
+    positivePattern: 'Informal (gaming / chat) → slang is fine',
+    positiveExample: '"GG everyone, well played!"',
+    negativePattern: 'Formal (work / school) → use standard English',
+    negativeExample: '"Dear Sir, I will be AFK tomorrow." ✗',
+    positiveLabel: 'INFORMAL — slang fits here',
+    negativeLabel: 'FORMAL — use standard English instead',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"GG, that was a great match!"', note: 'gaming chat — informal register is correct here' },
+      { sentence: '"BRB, just grabbing a drink."', note: 'casual message to friends — informal is fine' },
+      { sentence: '"That weapon is totally OP right now."', note: 'gaming discussion — slang fits the context' },
+      { sentence: '"He went AFK in the middle of the raid."', note: 'gaming report — informal context, abbreviation works' },
+    ],
+    negativeExamples: [
+      { sentence: '"Dear Sir, I will be AFK tomorrow." ✗', note: 'formal email — use: I will be unavailable tomorrow' },
+      { sentence: '"The new employee is a total noob." ✗', note: 'professional context — use: inexperienced or new to the role' },
+      { sentence: '"GG, the presentation went well." ✗', note: 'work context — use: Well done, or Great work everyone' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'GG',
