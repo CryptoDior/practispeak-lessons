@@ -8,6 +8,29 @@ export const robloxAdverbsOfManner: Lesson = {
   description: "Adverbs of manner describe how something is done — and in Roblox, the difference between playing aggressively and playing strategically is the difference between a good run and a win. At B2, you need to move beyond basic adverbs and use them with precision: choosing the exact word that describes the quality of an action, not just whether it happened.",
   heroImage: '/images/roblox-adverbs-of-manner-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Adverbs of Manner',
+    description: "An adverb of manner tells you HOW something is done. Most of them end in -LY. You make them by adding -LY to an adjective. For example: aggressive → aggressively. They go AFTER the verb in a sentence.",
+    positivePattern: 'Subject + VERB + adverb of manner (-LY)',
+    positiveExample: '"She plays aggressively."',
+    negativePattern: 'Do NOT use the adjective after the verb',
+    negativeExample: '"She plays aggressive." ✗',
+    positiveLabel: 'CORRECT — use the adverb (-LY)',
+    negativeLabel: 'WRONG — do not use the adjective',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"He farms resources efficiently."', note: 'efficient (adjective) + LY = efficiently (adverb)' },
+      { sentence: '"She plays consistently every round."', note: 'consistent + LY = consistently' },
+      { sentence: '"They planned the attack strategically."', note: 'strategic + LY = strategically' },
+      { sentence: '"He waited patiently for the respawn timer."', note: 'patient + LY = patiently' },
+    ],
+    negativeExamples: [
+      { sentence: '"She plays aggressive." ✗', note: 'aggressive is an adjective — you need aggressively after the verb' },
+      { sentence: '"He farmed the map efficient." ✗', note: 'efficient is an adjective — use efficiently instead' },
+      { sentence: '"They planned it strategic." ✗', note: 'strategic is an adjective — use strategically instead' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'AGGRESSIVELY',
