@@ -8,6 +8,28 @@ export const robloxSecondThirdConditional: Lesson = {
   description: "The second conditional talks about imaginary present or future situations — things that are not real but could be. The third conditional talks about imaginary past situations — things that did not happen and cannot be changed. Together, they are the grammar of hypothetical thinking, match analysis, professional reflection, and expressing regret. At B2, you need both with confidence.",
   heroImage: '/images/roblox-second-third-conditional-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: 2nd vs 3rd Conditional',
+    description: "Both conditionals talk about things that did NOT happen. The difference is TIME. Second Conditional = imaginary NOW or FUTURE (still possible to imagine). Third Conditional = imaginary PAST (it is too late — it already did not happen). Third conditional is often used to express regret.",
+    positivePattern: '2nd: IF + past simple, WOULD + base verb',
+    positiveExample: '"If I had better gear, I would win more."',
+    negativePattern: '3rd: IF + past perfect, WOULD HAVE + past participle',
+    negativeExample: '"If I had practised, I would have won."',
+    positiveLabel: '2ND CONDITIONAL — imaginary present or future',
+    negativeLabel: '3RD CONDITIONAL — imaginary past (regret)',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"If I had better gear, I would win more matches."', note: '2nd — imaginary now; I do not have better gear' },
+      { sentence: '"If she joined our guild, we would reach the top ranking."', note: '2nd — imaginary future; she has not joined yet' },
+      { sentence: '"Suppose we had more time, we would complete the quest."', note: '2nd — suppose = hypothetical present situation' },
+    ],
+    negativeExamples: [
+      { sentence: '"If I had practised more, I would have won."', note: '3rd — the past is fixed; I did not practise, I did not win' },
+      { sentence: '"If she had joined earlier, we would have won the tournament."', note: '3rd — regret; she did not join, we did not win' },
+      { sentence: '"In hindsight, if I had logged in sooner, I would have got the reward."', note: '3rd — in hindsight signals looking back at a missed past chance' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'HYPOTHETICAL',

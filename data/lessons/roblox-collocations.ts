@@ -8,6 +8,29 @@ export const robloxCollocations: Lesson = {
   description: "Collocations are word combinations that native speakers choose instinctively — not because of grammar rules, but because they simply sound right together. You earn Robux, not win Robux. You join a server, not enter a server. You hit a milestone, not reach a target milestone. At B2, learning the right collocations is what separates accurate English from fluent English.",
   heroImage: '/images/roblox-collocations-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Collocations — fixed verb + noun pairs',
+    description: "A collocation is a verb and noun that are always used together as a fixed pair. You cannot swap the verb for a similar one — it will sound wrong even if the meaning seems the same. For example: MAKE progress (not DO progress), BREAK a record (not SMASH a record). You have to learn these pairs together.",
+    positivePattern: 'Fixed VERB + fixed NOUN = collocation',
+    positiveExample: '"She made progress every week."',
+    negativePattern: 'Do NOT swap the verb — even with a similar meaning',
+    negativeExample: '"She did progress every week." ✗',
+    positiveLabel: 'CORRECT — right verb + noun pair',
+    negativeLabel: 'WRONG — wrong verb, even if meaning is close',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"He made progress on the hardest challenge."', note: 'MAKE progress — not DO or GET progress' },
+      { sentence: '"She broke the server record for fastest completion."', note: 'BREAK a record — not BEAT or SMASH a record' },
+      { sentence: '"They gained an advantage by attacking first."', note: 'GAIN an advantage — not GET or TAKE an advantage' },
+      { sentence: '"He built a reputation as the best builder on the server."', note: 'BUILD a reputation — not MAKE or CREATE a reputation' },
+    ],
+    negativeExamples: [
+      { sentence: '"He did progress on the hardest challenge." ✗', note: 'the verb is wrong — the correct pair is MAKE progress' },
+      { sentence: '"She smashed the server record." ✗', note: 'smash is too informal here — the correct pair is BREAK a record' },
+      { sentence: '"They took an advantage by attacking first." ✗', note: 'the correct pair is GAIN an advantage, not TAKE' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'EARN ROBUX',
