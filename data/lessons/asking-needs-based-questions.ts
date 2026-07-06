@@ -63,7 +63,7 @@ export const askingNeedsBasedQuestions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The capacity a team has to take on new work, change, or initiative — if they have no bandwidth, even a great solution will not get implemented.',
       example: 'Before proposing anything, ask about bandwidth — if the team is already at capacity, timing becomes part of the conversation.',
-      imageSlug: '/images/bandwidth.png',
+      imageSlug: '/images/asking-needs-based-questions-bandwidth.png',
     }
   ],
 
