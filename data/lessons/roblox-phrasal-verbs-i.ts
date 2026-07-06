@@ -8,6 +8,29 @@ export const robloxPhrasalVerbsI: Lesson = {
   description: "Phrasal verbs are two or three words that act as one verb — and Roblox players use them constantly. LOG IN, LEVEL UP, TEAM UP, DROP OUT — master these eight and you will sound natural in any gaming conversation, and in real-life English too.",
   heroImage: '/images/roblox-phrasal-verbs-i-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Phrasal Verbs — verb + particle together',
+    description: "A phrasal verb is a verb + a small word (called a particle). Together they create a NEW meaning that is different from the two words alone. For example: LOG + IN does not mean a wooden log going somewhere — it means to enter a system. You must learn phrasal verbs as a complete unit.",
+    positivePattern: 'VERB + PARTICLE = new meaning',
+    positiveExample: '"Log in" = enter the game or system',
+    negativePattern: 'VERB alone ≠ the phrasal verb meaning',
+    negativeExample: '"Log" alone = a piece of wood ✗',
+    positiveLabel: 'CORRECT — verb + particle as one unit',
+    negativeLabel: 'WRONG — do not separate or guess meaning',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"Log in to the server before the event starts."', note: 'log + in = enter the system' },
+      { sentence: '"She teamed up with two other players."', note: 'team + up = join together as a group' },
+      { sentence: '"He powered up before the final boss."', note: 'power + up = increase strength or energy' },
+      { sentence: '"Three players dropped out of the tournament."', note: 'drop + out = leave before finishing' },
+    ],
+    negativeExamples: [
+      { sentence: '"He logged the server." ✗', note: 'log alone has no system meaning — you need: log IN' },
+      { sentence: '"She teamed two players." ✗', note: 'team alone does not mean join — you need: team UP' },
+      { sentence: '"They dropped the tournament." ✗', note: 'dropped has a different meaning — you need: dropped OUT' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'LOG IN',

@@ -8,6 +8,28 @@ export const robloxConditionals: Lesson = {
   description: "Conditionals let you talk about possibilities, plans, and imagined situations — and Roblox players use them constantly. Learn the key words IF, WOULD, COULD, UNLESS and more, and understand the difference between real possibilities and imagined scenarios.",
   heroImage: '/images/roblox-conditionals-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: First & Second Conditional',
+    description: "Conditionals are IF sentences. They describe what happens (or would happen) depending on a condition. First Conditional: real and possible situations. Second Conditional: imaginary or unlikely situations. The key difference is the verb tense you use.",
+    positivePattern: 'First: IF + present simple, WILL + base verb',
+    positiveExample: '"If you log in now, you will get the bonus."',
+    negativePattern: 'Second: IF + past simple, WOULD + base verb',
+    negativeExample: '"If I had more coins, I would buy the skin."',
+    positiveLabel: 'FIRST CONDITIONAL — real possibility',
+    negativeLabel: 'SECOND CONDITIONAL — imaginary situation',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"If you team up, you will win more matches."', note: 'real and possible — use present simple + will' },
+      { sentence: '"If she logs in early, she will get the reward."', note: 'real possibility — use present simple + will' },
+      { sentence: '"Unless you level up, you cannot enter the raid."', note: 'unless = if not — still first conditional' },
+    ],
+    negativeExamples: [
+      { sentence: '"If I had a rare skin, I would be the best player."', note: 'imaginary — use past simple + would' },
+      { sentence: '"If we could fly, we would finish the map faster."', note: 'impossible situation — use past simple + would' },
+      { sentence: '"If I won the tournament, I would buy every item."', note: 'unlikely dream — use past simple + would' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'IF',

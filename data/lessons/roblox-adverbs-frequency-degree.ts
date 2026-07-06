@@ -8,6 +8,29 @@ export const robloxAdverbsFrequencyDegree: Lesson = {
   description: "At B1 level, it is not enough to say you play 'a lot' or win 'sometimes' — you need adverbs that are precise. CONSTANTLY, BARELY, INCREDIBLY, RARELY — these words transform a basic description into one that sounds fluent and natural in any conversation.",
   heroImage: '/images/roblox-adverbs-frequency-degree-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Two types of adverb — frequency and degree',
+    description: "This lesson has two types of adverb. Adverbs of FREQUENCY tell you HOW OFTEN something happens (always, usually, sometimes, rarely, constantly, barely). Adverbs of DEGREE tell you HOW MUCH or HOW INTENSELY something is (incredibly, completely). Both types go BEFORE the main adjective or verb they describe.",
+    positivePattern: 'Adverb of frequency + VERB (how often)',
+    positiveExample: '"He always respawns near the base."',
+    negativePattern: 'Adverb of degree + ADJECTIVE (how much)',
+    negativeExample: '"The boss is incredibly fast."',
+    positiveLabel: 'FREQUENCY — how often (before the verb)',
+    negativeLabel: 'DEGREE — how much (before the adjective)',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"She always wins the first round."', note: 'always = 100% of the time — before the verb' },
+      { sentence: '"He rarely loses a 1v1 match."', note: 'rarely = not very often — before the verb' },
+      { sentence: '"They constantly move to avoid getting hit."', note: 'constantly = all the time without stopping' },
+      { sentence: '"I barely survived that last attack."', note: 'barely = almost not — before the verb' },
+    ],
+    negativeExamples: [
+      { sentence: '"The graphics are incredibly detailed."', note: 'incredibly = to a very high degree — before the adjective' },
+      { sentence: '"He is completely focused on the objective."', note: 'completely = 100%, total — before the adjective' },
+      { sentence: '"The map is incredibly large."', note: 'incredibly = very, extremely — before the adjective' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'ALWAYS',
