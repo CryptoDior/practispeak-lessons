@@ -8,6 +8,29 @@ export const robloxRegisterAwarenessI: Lesson = {
   description: "In Roblox, you talk differently in Discord chat, a guild forum post, and a gaming news article — even when you are describing the exact same event. That shift in language level is called register. At B2, you need to recognise it, control it, and switch between registers with confidence. This lesson starts that process.",
   heroImage: '/images/roblox-register-awareness-i-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Register — matching your language to the situation',
+    description: "Register is the level of formality in your language. You change your register depending on WHO you are talking to and WHERE. The same idea can be expressed in formal or informal English. Choosing the wrong register — too casual in a formal situation, or too stiff with friends — sounds unnatural and can cause misunderstandings.",
+    positivePattern: 'Formal situation → formal language',
+    positiveExample: '"I would like to request your assistance."',
+    negativePattern: 'Informal situation → informal language',
+    negativeExample: '"Can you help me out?" (with a friend)',
+    positiveLabel: 'FORMAL — professional or academic contexts',
+    negativeLabel: 'INFORMAL — friends, gaming, casual chat',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"I would like to request your assistance with this matter."', note: 'formal — correct for emails, job interviews, official writing' },
+      { sentence: '"Could you please paraphrase your answer for clarity?"', note: 'formal — paraphrase is academic and professional vocabulary' },
+      { sentence: '"The tone of this message is professional and respectful."', note: 'tone = the feeling behind the words — crucial in formal writing' },
+      { sentence: '"Please ensure your audience is aware of the key points."', note: 'audience = the people you are writing or speaking for' },
+    ],
+    negativeExamples: [
+      { sentence: '"Hey, can you sort this out for me?" ✗ (in a formal email)', note: 'too informal for a professional context — use: Could you assist me with this?' },
+      { sentence: '"I wanna rephrase that." ✗ (in a presentation)', note: 'wanna is colloquial — use: I would like to rephrase that' },
+      { sentence: '"Dear friend, I am writing to enquire..." ✗ (to a close friend)', note: 'too formal for casual conversation — match your register to the relationship' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'REGISTER',
