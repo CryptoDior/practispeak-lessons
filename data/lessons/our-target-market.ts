@@ -14,7 +14,7 @@ export const ourTargetMarket: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A fact about a group of people, such as their age, gender, or income.',
       example: 'Our key demographic is professionals aged 25 to 45 who work in marketing or sales.',
-      imageSlug: '/images/demographic.png',
+      imageSlug: '/images/our-target-market-demographic.png',
     },
     {
       word: 'AGE GROUP',
@@ -49,14 +49,14 @@ export const ourTargetMarket: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A description of a typical customer — who they are and what they need.',
       example: 'We create a customer profile so the whole team understands who we are talking to.',
-      imageSlug: '/images/profile.png',
+      imageSlug: '/images/our-target-market-profile.png',
     },
     {
       word: 'INTEREST',
       partOfSpeech: 'noun',
       definition: 'Something a person likes or cares about.',
       example: 'Our target customers have an interest in marketing, technology, and business growth.',
-      imageSlug: '/images/interest.png',
+      imageSlug: '/images/our-target-market-interest.png',
     },
     {
       word: 'BEHAVIOUR',

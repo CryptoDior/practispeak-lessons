@@ -21,14 +21,14 @@ export const persuasiveMarketingWriting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The first and most prominent line of copy — the one that must stop the reader and make them want to keep reading. If the headline fails, the rest of the page is never read. The best headlines are specific, speak to a real need or fear, and promise a clear benefit.',
       example: "Dana rewrote the hero headline: 'Welcome to MarketBridge' is not a headline — it's a greeting. Nobody reads a landing page to be welcomed. Replace it with 'Cut your content approval time by 60%'. Now there's a specific, relevant, quantified benefit in the first line. That's a headline that makes someone read the next sentence.",
-      imageSlug: '/images/headline.png',
+      imageSlug: '/images/persuasive-marketing-writing-headline.png',
     },
     {
       word: 'HOOK',
       partOfSpeech: 'noun',
       definition: "The opening of a piece of copy that grabs the reader's attention right away. A hook can be a surprising statistic, a question the reader can't ignore, a bold claim, or a short story. The hook's job is to make the reader feel that this piece was written specifically for them.",
       example: "Marcus opened the email campaign draft: The current hook is 'Dear valued customer, we are pleased to share...' — that's not a hook, it's a reflex. Nobody is compelled by that. Try: '72% of B2B marketers say content approval is their biggest time sink. If you're one of them, keep reading.' Now you've selected the right reader and made them curious.",
-      imageSlug: '/images/hook.png',
+      imageSlug: '/images/persuasive-marketing-writing-hook.png',
     },
     {
       word: 'BENEFIT-LED',
@@ -56,14 +56,14 @@ export const persuasiveMarketingWriting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Copy written with one job: get the reader to take a specific action — sign up, buy, book, download. Conversion copy is not about brand awareness or storytelling. It is focused entirely on clearing away the last doubts between the reader and the action. Every word must be earning its place.',
       example: "Riley explained the distinction: The awareness campaign copy we wrote last month was designed to build recognition and trust. The landing page we're writing now is conversion copy — it's talking to someone who is already interested and needs the last push to act. The audience, the tone, and the job of the words are completely different.",
-      imageSlug: '/images/conversion-copy.png',
+      imageSlug: '/images/persuasive-marketing-writing-conversion-copy.png',
     },
     {
       word: 'OBJECTION HANDLING',
       partOfSpeech: 'noun',
       definition: "Copy that anticipates the reader's most likely reasons for not acting — and answers them before the reader walks away. Good conversion copy identifies the three or four biggest doubts — 'Is it too expensive?', 'Will it work for my size of company?', 'How long does it take to set up?' — and deals with them directly on the page.",
       example: "Dana added a section to the landing page: I've added an objection handling block between the features and the CTA. It addresses the three questions our sales team hears most often: price, implementation time, and contract length. When someone is on the fence, this section does the job of a sales conversation — and it works at scale, 24 hours a day.",
-      imageSlug: '/images/objection-handling.png',
+      imageSlug: '/images/persuasive-marketing-writing-objection-handling.png',
     }
   ],
 
@@ -86,7 +86,7 @@ export const persuasiveMarketingWriting: Lesson = {
       phrase: 'LEAD WITH THE BENEFIT, NOT THE FEATURE',
       definition: "The core principle of benefit-led copywriting. Every time you want to describe what the product does, ask instead: 'What does this mean for the customer?' and start with that. 'We have 14 integrations' is a feature. 'Connect every tool your team already uses' is the benefit.",
       example: "Marcus gave feedback on the first draft: Throughout this page, you're leading with the feature and burying the benefit. Flip it: instead of 'Real-time compliance alerts', write 'Never miss a compliance issue again — our alerts catch problems the moment they appear'. Same feature, but now the benefit is the first thing the reader sees.",
-      imageSlug: '/images/lead-with-the-benefit-not-the-feature.png',
+      imageSlug: '/images/persuasive-marketing-writing-lead-with-the-benefit-not-the-feature.png',
       inAction: "Instead of 'AI-powered compliance checking', lead with the benefit: 'Catch every compliance issue before it reaches legal — automatically.'",
       register: 'Neutral / Copywriting — a core principle of benefit-led writing. Used in creative briefs, copy reviews, and writing workshops. Applies equally to web copy, email, and ad copy.',
       inContext: "Marcus was reviewing the sales deck when he spotted the issue. Every slide leads with the feature, he said. Slide 3 says '14 native integrations.' Lead with the benefit: 'Connect every tool your team already uses in under five minutes.' Same fact, completely different impact on the reader.",

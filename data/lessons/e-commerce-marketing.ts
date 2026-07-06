@@ -56,7 +56,7 @@ export const ecommerceMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: "The button, link, or phrase that tells the customer what to do next — 'Buy Now', 'Add to Cart', 'Get Started', 'Claim Your Discount'. A strong CTA is clear, specific, and creates a sense of value or urgency. The wording, colour, and position of a CTA all affect whether people click it.",
       example: "Riley compared two versions of the landing page: Version A has a CTA that says Submit. Version B says Get My Free Guide. Dana replied: Version B will win — Submit tells you what you are doing for the company. Get My Free Guide tells you what you are getting. Marcus added: CTAs should always be written from the customer's perspective — what do they get, not what does the brand want.",
-      imageSlug: '/images/call-to-action.png',
+      imageSlug: '/images/e-commerce-marketing-call-to-action.png',
     },
     {
       word: 'AVERAGE ORDER VALUE',

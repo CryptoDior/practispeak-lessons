@@ -49,7 +49,7 @@ export const slangAndJargon: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'To pass the ball through an opponent\'s legs — or the act of doing so. One of the most humiliating skills in football.',
       example: '"He nutmegged the centre-back and left him looking absolutely ridiculous in front of his own fans."',
-      imageSlug: '/images/nutmeg.png',
+      imageSlug: '/images/slang-and-jargon-nutmeg.png',
     },
     {
       word: 'BANGER',
@@ -63,7 +63,7 @@ export const slangAndJargon: Lesson = {
       partOfSpeech: 'phrase',
       definition: 'To defend with a large number of players, prioritising not conceding over attacking — playing extremely defensively.',
       example: '"They parked the bus from the first whistle — all ten outfield players behind the ball. It was awful to watch."',
-      imageSlug: '/images/park-the-bus.png',
+      imageSlug: '/images/slang-and-jargon-park-the-bus.png',
     },
     {
       word: 'ROUTE ONE',
@@ -106,7 +106,7 @@ export const slangAndJargon: Lesson = {
       phrase: 'GIVE AWAY',
       definition: 'To concede possession, a foul, or a penalty — losing something through a mistake.',
       example: '"He gave away a stupid foul just outside the area and they scored directly from the free-kick."',
-      imageSlug: '/images/give-away.png',
+      imageSlug: '/images/slang-and-jargon-give-away.png',
 },
     {
       phrase: 'SHOW OFF',

@@ -14,7 +14,7 @@ export const globalVsLocalMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The process of adapting content, products, or campaigns for a specific local market. Localisation goes beyond translation — it includes changing images, examples, references, and messaging to make them culturally appropriate and relevant for that specific audience.',
       example: "Marcus said: Our campaign worked brilliantly in the UK but we cannot just translate it for Brazil — we need full localisation. The imagery, the humour, and the references all need to be adapted for the Brazilian market. Riley replied: I have briefed the local agency. They will handle language, imagery, and cultural tone — and they flag anything that might not land well before we go live.",
-      imageSlug: '/images/localisation.png',
+      imageSlug: '/images/global-vs-local-marketing-localisation.png',
     },
     {
       word: 'GLOCAL',
@@ -63,7 +63,7 @@ export const globalVsLocalMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: "Keeping the brand's core identity, values, and visual style the same across all markets and channels. Brand consistency ensures that no matter where a customer encounters the brand, it feels like the same company. It is the \"global\" part of glocal strategy.",
       example: "Marcus emphasised: We can adapt the tone and the examples for each market — but the logo, the colour palette, the brand font, and the core brand values are non-negotiable. Brand consistency is what makes us a global brand, not a collection of separate local brands. Riley: The brand guidelines are sent to every local agency before they begin. Any deviation needs central approval.",
-      imageSlug: '/images/brand-consistency.png',
+      imageSlug: '/images/global-vs-local-marketing-brand-consistency.png',
     },
   ],
 

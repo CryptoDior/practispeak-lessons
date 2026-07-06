@@ -53,7 +53,7 @@ export const grassrootsFootball: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'The foundation level of sport — amateur, community-based football. Not professional. The opposite of elite.',
       example: '"Grassroots football is where most people experience the game — local clubs, youth teams, Sunday leagues."',
-      imageSlug: '/images/grassroots.png',
+      imageSlug: '/images/grassroots-football-grassroots.png',
     },
     {
       word: 'YOUTH TEAM',
@@ -67,7 +67,7 @@ export const grassrootsFootball: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A professional club\'s youth development programme — where talented young players are trained from a young age with the hope of turning professional.',
       example: '"He has been at the Chelsea academy since he was eight years old — they believe he has professional potential."',
-      imageSlug: '/images/academy.png',
+      imageSlug: '/images/grassroots-football-academy.png',
     },
     {
       word: 'PARK FOOTBALL',
@@ -102,7 +102,7 @@ export const grassrootsFootball: Lesson = {
       phrase: 'BUILD UP',
       definition: 'To develop or create something gradually over time — grassroots clubs build up their player base and facilities.',
       example: '"They have been building up the youth section of the club for ten years — from two teams to twelve."',
-      imageSlug: '/images/build-up.png',
+      imageSlug: '/images/grassroots-football-build-up.png',
     },
     {
       phrase: 'GIVE BACK',
@@ -114,13 +114,13 @@ export const grassrootsFootball: Lesson = {
       phrase: 'DROP OUT',
       definition: 'To stop participating — when a player or team stops playing before the end of a competition or season.',
       example: '"Two players have dropped out of the five-a-side group this month — we need to find replacements."',
-      imageSlug: '/images/drop-out.png',
+      imageSlug: '/images/grassroots-football-drop-out.png',
     },
     {
       phrase: 'FIT IN',
       definition: 'To find time for something — to include football in a busy schedule. Also: to suit a team\'s style.',
       example: '"He has been struggling to fit in training sessions around his work schedule — he works nights three days a week."',
-      imageSlug: '/images/fit-in.png',
+      imageSlug: '/images/grassroots-football-fit-in.png',
     },
   ],
 

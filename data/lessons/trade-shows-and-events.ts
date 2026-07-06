@@ -14,14 +14,14 @@ export const tradeShowsAndEvents: Lesson = {
       partOfSpeech: 'noun',
       definition: "The space a company occupies at a trade show — usually a table, display, and branded materials. Called a 'stand' in British English.",
       example: 'Our booth was positioned near the entrance — we chose that location to maximise the number of delegates who walked past.',
-      imageSlug: '/images/booth.png',
+      imageSlug: '/images/trade-shows-and-events-booth.png',
     },
     {
       word: 'PITCH',
       partOfSpeech: 'noun',
       definition: 'A short, persuasive presentation about a company or service — designed to interest a potential client quickly.',
       example: 'Riley practised her two-minute pitch so many times that she could deliver it confidently to any type of visitor.',
-      imageSlug: '/images/pitch.png',
+      imageSlug: '/images/trade-shows-and-events-pitch.png',
     },
     {
       word: 'HANDOUT',
@@ -56,14 +56,14 @@ export const tradeShowsAndEvents: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A potential client — someone who has shown interest but has not yet committed to buying.',
       example: 'We came back from the event with twenty-five prospects — Riley followed up with every single one within 48 hours.',
-      imageSlug: '/images/prospect.png',
+      imageSlug: '/images/trade-shows-and-events-prospect.png',
     },
     {
       word: 'FOLLOW-UP',
       partOfSpeech: 'noun',
       definition: 'The action of contacting someone after a first meeting to continue the conversation and move towards a next step.',
       example: 'The follow-up is where most deals are won or lost — a quick, personal email within 24 hours shows professionalism and interest.',
-      imageSlug: '/images/follow-up.png',
+      imageSlug: '/images/trade-shows-and-events-follow-up.png',
     }
   ],
 
@@ -84,7 +84,7 @@ export const tradeShowsAndEvents: Lesson = {
       phrase: 'FOLLOW UP WITH [SOMEONE]',
       definition: 'To contact someone after meeting them — to continue the conversation and move towards a next step.',
       example: 'Riley followed up with every prospect within 48 hours of the event — a short, personal email referencing their conversation.',
-      imageSlug: '/images/follow-up-with-someone.png',
+      imageSlug: '/images/trade-shows-and-events-follow-up-with-someone.png',
     },
     {
       phrase: 'MAKE CONTACT',
@@ -96,7 +96,7 @@ export const tradeShowsAndEvents: Lesson = {
       phrase: 'STAND OUT FROM',
       definition: 'To be noticeably different and more memorable than other companies at the event.',
       example: 'To stand out from the other exhibitors, we brought a large screen showing our client results in real time.',
-      imageSlug: '/images/stand-out-from.png',
+      imageSlug: '/images/trade-shows-and-events-stand-out-from.png',
     },
     {
       phrase: 'PICK UP [LEADS]',

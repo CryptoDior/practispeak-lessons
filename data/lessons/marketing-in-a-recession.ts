@@ -14,7 +14,7 @@ export const marketingInARecession: Lesson = {
       partOfSpeech: 'noun',
       definition: "Communication that emphasises the practical, financial, or emotional value a product delivers — rather than its aspirational or status qualities. In a recession, value messaging shifts the conversation from desire to justification: why this purchase makes sense, saves money, or solves a real problem.",
       example: "Velo shifted to value messaging during the downturn — instead of leading with the premium fleet experience, every campaign led with total cost of ownership. The message stayed premium in quality but became rational in justification. Sales held steady while competitors lost significant share.",
-      imageSlug: '/images/value-messaging.png',
+      imageSlug: '/images/marketing-in-a-recession-value-messaging.png',
     },
     {
       word: 'RATIONALISATION',

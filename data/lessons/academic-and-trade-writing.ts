@@ -14,7 +14,7 @@ export const academicAndTradeWriting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A short summary at the start of an article or report that tells the reader what it is about and what it found.',
       example: 'Riley said: Always write your abstract last — even though it goes first. It is a summary of what you found, not a preview of what you plan to say.',
-      imageSlug: '/images/abstract.png',
+      imageSlug: '/images/academic-and-trade-writing-abstract.png',
     },
     {
       word: 'PEER REVIEW',
@@ -28,7 +28,7 @@ export const academicAndTradeWriting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The process you used to do your research or gather your data. How you found out what you found out.',
       example: "Riley said: The editor will ask about your methodology. You need to explain exactly how you collected the data — not just what the data shows.",
-      imageSlug: '/images/methodology.png',
+      imageSlug: '/images/academic-and-trade-writing-methodology.png',
     },
     {
       word: 'CITATION',
@@ -42,7 +42,7 @@ export const academicAndTradeWriting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A specific idea you are testing. You believe it might be true, but you need evidence to confirm it.',
       example: "Our hypothesis was that customers who received a follow-up email within 24 hours were more likely to convert. The data proved us right.",
-      imageSlug: '/images/hypothesis.png',
+      imageSlug: '/images/academic-and-trade-writing-hypothesis.png',
     },
     {
       word: 'EMPIRICAL',
@@ -63,7 +63,7 @@ export const academicAndTradeWriting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The results of a study or piece of research. What you discovered.',
       example: "The findings were clear: campaigns with video content performed 3x better than those without. We built the whole strategy around this.",
-      imageSlug: '/images/findings.png',
+      imageSlug: '/images/academic-and-trade-writing-findings.png',
     }
   ],
 
@@ -78,7 +78,7 @@ export const academicAndTradeWriting: Lesson = {
       phrase: 'THE DATA SUGGESTS THAT...',
       definition: 'A careful way to present findings — it shows the data points in a direction without claiming it is 100% certain.',
       example: "Riley explained: Don't say 'the data proves'. Say 'the data suggests'. It is more accurate and it is what reviewers expect to see.",
-      imageSlug: '/images/the-data-suggests-that.png',
+      imageSlug: '/images/academic-and-trade-writing-the-data-suggests-that.png',
     },
     {
       phrase: 'AS CITED IN...',

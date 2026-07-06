@@ -97,7 +97,7 @@ export const c1RacismAndInclusion: Lesson = {
       phrase: 'CALL OUT',
       definition: 'To publicly identify and challenge discriminatory or unacceptable behaviour — to name it explicitly.',
       example: '"Fellow players called out the online abuse immediately — reposting it with their own condemnation and asking the platforms to act."',
-      imageSlug: '/images/call-out.png',
+      imageSlug: '/images/c1-racism-and-inclusion-call-out.png',
     },
     {
       phrase: 'STAND UP FOR',

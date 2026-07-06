@@ -109,7 +109,7 @@ export const c2ComparingEras: Lesson = {
       phrase: 'MEASURE UP',
       definition: 'To reach the required standard — to be good enough by comparison.',
       example: '"The question is whether any modern player measures up to Cruyff in terms of conceptual influence on how the game is understood and played."',
-      imageSlug: '/images/measure-up.png',
+      imageSlug: '/images/c2-comparing-eras-measure-up.png',
     },
     {
       phrase: 'BRIDGE THE GAP',

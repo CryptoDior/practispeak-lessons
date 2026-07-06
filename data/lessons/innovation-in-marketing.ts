@@ -28,7 +28,7 @@ export const innovationInMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: "Tailoring content, product recommendations, messaging, or experiences to the specific individual — based on their behaviour, preferences, location, purchase history, or demographic. At scale, personalisation is only possible with data and technology. Done well, it makes the customer feel understood. Done poorly, it feels intrusive or creepy.",
       example: "Riley explained: Personalisation in this context means every customer sees a different homepage — based on their browsing history, their purchase category, and the channel they came from. A returning customer who last bought running shoes sees running accessories. A first-time visitor from a cycling blog sees cycling products. Marcus replied: And what is the commercial impact? Riley: Pages with personalised product recommendations convert at 3.1 times the rate of a generic homepage. Dana added: The key is the data quality. Personalisation powered by inaccurate or stale data does the opposite of its intention — showing irrelevant content signals that the brand does not actually know you.",
-      imageSlug: '/images/personalisation.png',
+      imageSlug: '/images/innovation-in-marketing-personalisation.png',
     },
     {
       word: 'AUTOMATION',
@@ -49,21 +49,21 @@ export const innovationInMarketing: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Using data and patterns from the past to forecast what is likely to happen in the future. Predictive marketing tools analyse existing customer behaviour to predict future actions — who will buy, who will churn, what products a customer will want next, and which message will resonate most.",
       example: "Riley described the capability: Our predictive model scores every active customer on a likelihood-to-churn scale from 0 to 100. Any customer who scores above 70 automatically enters a retention sequence — a series of personalised messages designed to address the most common reasons for cancellation. Marcus asked: How accurate is it? Riley replied: The model correctly identifies churners 78% of the time at least 30 days before cancellation. Dana added: Which means we can intervene before the customer has made the decision, not after. Retention is always more successful before the decision point than after it.",
-      imageSlug: '/images/predictive.png',
+      imageSlug: '/images/innovation-in-marketing-predictive.png',
     },
     {
       word: 'DYNAMIC CONTENT',
       partOfSpeech: 'noun',
       definition: "Content that changes automatically based on who is viewing it — their location, device, behaviour, or stage in the customer journey. A dynamic email shows different images, offers, or copy to different people based on their data profile. Dynamic content is a key tool for personalisation at scale.",
       example: "Dana explained the email strategy: Our weekly newsletter uses dynamic content — the hero image, the featured product, and the promotional offer all change based on each recipient's purchase history and engagement data. Marcus asked: What does that look like in practice? Dana replied: A customer who bought hiking equipment sees a hiking gear feature. A customer who has only browsed cycling products gets a cycling feature with a first-purchase incentive. Riley added: And we A/B test the dynamic elements regularly to optimise which combinations convert best in each segment. The result is one newsletter that sends 12 different versions simultaneously.",
-      imageSlug: '/images/dynamic-content.png',
+      imageSlug: '/images/innovation-in-marketing-dynamic-content.png',
     },
     {
       word: 'TEST AND LEARN',
       partOfSpeech: 'noun / verb',
       definition: "An approach to innovation where you run structured experiments, measure the results honestly, and use what you learn to improve — rather than trying to get everything right before you launch. Test and learn is how successful marketers use technology: try, measure, refine, and repeat.",
       example: "Marcus described the approach: Everything we do with AI is built on a test and learn methodology. We do not deploy a new AI tool across all channels simultaneously. We pick one channel, run a controlled experiment with a defined success metric, measure the result against a control group, and make a decision based on data. Riley asked: And if the test fails? Marcus replied: Then we have learned something valuable at a contained cost. Dana added: The test and learn approach also builds internal confidence in new technology — showing stakeholders a small, proven success is a much more powerful argument for investment than a theoretical business case.",
-      imageSlug: '/images/test-and-learn.png',
+      imageSlug: '/images/innovation-in-marketing-test-and-learn.png',
     },
   ],
 

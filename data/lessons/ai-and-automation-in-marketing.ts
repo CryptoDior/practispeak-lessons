@@ -35,7 +35,7 @@ export const aiAndAutomationInMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: "Content that changes automatically based on who is viewing it — their location, behaviour, purchase history, or stage in the customer journey. A dynamic email shows different images, offers, or text to different people based on their data. Dynamic content is how personalisation happens at scale.",
       example: "The same landing page shows different headlines, images, and offers to each visitor based on their industry and company size. Flux built its entire campaign architecture around dynamic content so no two prospect segments see the same message. Conversion rates improved significantly once the generic version was retired.",
-      imageSlug: '/images/dynamic-content.png',
+      imageSlug: '/images/ai-and-automation-in-marketing-dynamic-content.png',
     },
     {
       word: 'PROMPT ENGINEERING',

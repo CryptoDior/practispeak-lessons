@@ -40,7 +40,7 @@ export const contractNegotiations: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A fixed price written into a contract — if a club pays that exact amount, the player can leave automatically, regardless of what the current club wants.',
       example: '"His release clause is set at £100 million — any club that meets it can sign him immediately, without any negotiation with City."',
-      imageSlug: '/images/release-clause.png',
+      imageSlug: '/images/contract-negotiations-release-clause.png',
     },
     {
       word: 'WAGES',
@@ -98,7 +98,7 @@ export const contractNegotiations: Lesson = {
       phrase: 'HOLD OUT FOR',
       definition: 'To refuse to accept less than a specific amount — to wait for better terms rather than accept what is currently offered.',
       example: '"She is holding out for £200,000 per week — the club have offered £160,000 and the two sides are currently £40,000 apart."',
-      imageSlug: '/images/hold-out-for.png',
+      imageSlug: '/images/contract-negotiations-hold-out-for.png',
     },
     {
       phrase: 'SIGN ON',
@@ -116,7 +116,7 @@ export const contractNegotiations: Lesson = {
       phrase: 'WALK AWAY',
       definition: 'To end negotiations — to leave a deal rather than accept the terms being offered.',
       example: '"After three rounds of talks, the buying club walked away — unable to meet the selling club\'s valuation of the player."',
-      imageSlug: '/images/walk-away.png',
+      imageSlug: '/images/contract-negotiations-walk-away.png',
     },
     {
       phrase: 'COME TO AN AGREEMENT',

@@ -47,7 +47,7 @@ export const c2HistoricalFootballWriting: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Designed for persuasive effect — when a question is asked not to get an answer but to make a point.',
       example: '"The opening rhetorical question — \'Did anyone believe this was possible?\' — places the reader in the moment of disbelief before the comeback began."',
-      imageSlug: '/images/rhetorical.png',
+      imageSlug: '/images/c2-historical-football-writing-rhetorical.png',
     },
     {
       word: 'ARCHAIC',
@@ -75,7 +75,7 @@ export const c2HistoricalFootballWriting: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Bringing a place, time, or feeling to life through language — making the reader sense or feel what they are reading about.',
       example: '"The description of the floodlit pitch at dusk is deeply evocative — you can feel the cold and smell the grass through the words alone."',
-      imageSlug: '/images/evocative.png',
+      imageSlug: '/images/c2-historical-football-writing-evocative.png',
     },
     {
       word: 'CHRONICLE',
@@ -115,7 +115,7 @@ export const c2HistoricalFootballWriting: Lesson = {
       phrase: 'LOOK BACK ON',
       definition: 'To reflect on something from the past — to view a past event or period from a later perspective.',
       example: '"Looking back on the writing of that era, you notice how much less data there was — everything rested on observation and interpretation, not statistics."',
-      imageSlug: '/images/look-back-on.png',
+      imageSlug: '/images/c2-historical-football-writing-look-back-on.png',
     },
     {
       phrase: 'HOLD UP',

@@ -56,14 +56,14 @@ export const advancedCopywriting: Lesson = {
       partOfSpeech: 'noun',
       definition: "Copy specifically written to drive a specific action — a click, a sign-up, a purchase, or a call. Conversion copy is judged by results, not by how well it reads.",
       example: "Riley said: Conversion copy is not about being clever — it is about being clear. The job is to get someone who is already interested to take the next step. Remove friction, answer the last objection, and tell them exactly what to do. Everything else is decoration.",
-      imageSlug: '/images/conversion-copy.png',
+      imageSlug: '/images/advanced-copywriting-conversion-copy.png',
     },
     {
       word: 'Headline',
       partOfSpeech: 'noun',
       definition: "The most important single line of copy — the one that decides whether the rest gets read. A great headline communicates the core benefit or creates enough curiosity that the reader must read on.",
       example: "Riley said: David Ogilvy said that when you have written the headline, you have spent 80 cents of your pound. He was right. If the headline does not earn attention, nothing else matters. Write twenty before you choose one.",
-      imageSlug: '/images/headline.png',
+      imageSlug: '/images/advanced-copywriting-headline.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const advancedCopywriting: Lesson = {
       phrase: "Lead with the benefit, not the feature",
       definition: "A core copywriting principle — the headline and opening should tell the reader what they gain, not what the product does. Features describe. Benefits persuade.",
       example: "Riley looked at the ad copy: 'Advanced AI-powered scheduling engine.' She said: That is a feature. Lead with the benefit: 'Save 5 hours a week — automatically.' The reader does not care what the engine does. They care what it does for them.",
-      imageSlug: '/images/lead-with-the-benefit-not-the-feature.png',
+      imageSlug: '/images/advanced-copywriting-lead-with-the-benefit-not-the-feature.png',
     },
     {
       phrase: "What is the one thing this copy needs to do?",

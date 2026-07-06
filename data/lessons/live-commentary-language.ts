@@ -68,7 +68,7 @@ export const liveCommentaryLanguage: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To finish confidently and efficiently — to score without any fuss.',
       example: 'He steps up to the penalty spot and dispatches it calmly into the corner.',
-      imageSlug: '/images/dispatch.png',
+      imageSlug: '/images/live-commentary-language-dispatch.png',
     },
     {
       word: 'AGONISINGLY',
@@ -91,7 +91,7 @@ export const liveCommentaryLanguage: Lesson = {
       phrase: 'CURL IN',
       definition: 'To bend the ball into the goal with the inside or outside of the foot.',
       example: 'She curls it in from 25 yards — a magnificent strike that bends around the wall!',
-      imageSlug: '/images/curl-in.png',
+      imageSlug: '/images/live-commentary-language-curl-in.png',
     },
     {
       phrase: 'LASH OUT',

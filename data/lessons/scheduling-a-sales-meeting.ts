@@ -21,14 +21,14 @@ export const schedulingASalesMeeting: Lesson = {
       partOfSpeech: 'noun',
       definition: "A specific period of time reserved for a particular purpose — a meeting slot, a calendar slot, a time slot. Using 'slot' sounds more professional than saying 'time' or 'space'.",
       example: 'Riley said: I have a few slots available this week — Thursday at 2pm, Friday at 10am, or Monday morning next week. Which one works best for you and your team?',
-      imageSlug: '/images/slot.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-slot.png',
     },
     {
       word: 'TENTATIVE',
       partOfSpeech: 'adjective',
       definition: 'Not yet confirmed — provisionally agreed but still subject to change. A tentative meeting has been discussed but not officially confirmed by both sides.',
       example: "Marcus said: Let's put Thursday at 2pm in the diary as tentative — I need to check with one of my colleagues before I can confirm. Riley said: That works — I'll hold it provisionally and wait to hear from you.",
-      imageSlug: '/images/tentative.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-tentative.png',
     },
     {
       word: 'RESCHEDULE',
@@ -42,14 +42,14 @@ export const schedulingASalesMeeting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A list of topics or items to be covered in a meeting. Sharing the agenda in advance shows professionalism and helps the customer know what to prepare.',
       example: "Riley said: I'll send a brief agenda before the call so your team knows what to expect — we'll cover the platform overview, the Salesforce integration, and the onboarding timeline. Should take about 30 minutes.",
-      imageSlug: '/images/agenda.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-agenda.png',
     },
     {
       word: 'CONFIRM',
       partOfSpeech: 'verb',
       definition: 'To officially agree and finalise a meeting — making it certain rather than tentative. Always confirm a meeting by email so both sides have a written record of the time, date, and format.',
       example: "Riley said: I'll send a calendar invite now to confirm the meeting — Thursday the 20th at 2pm. If anything changes before then, just let me know and we'll find another time.",
-      imageSlug: '/images/confirm.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-confirm.png',
     },
     {
       word: 'DURATION',

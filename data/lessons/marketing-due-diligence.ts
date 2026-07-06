@@ -28,7 +28,7 @@ export const marketingDueDiligence: Lesson = {
       partOfSpeech: 'noun',
       definition: 'How much something is worth — the financial value placed on a brand, business, or asset.',
       example: "Riley said: The company's financial valuation is high, but the brand valuation is weaker than it looks — customer loyalty is declining and NPS has dropped 14 points in two years.",
-      imageSlug: '/images/valuation.png',
+      imageSlug: '/images/marketing-due-diligence-valuation.png',
     },
     {
       word: 'RISK',
@@ -42,21 +42,21 @@ export const marketingDueDiligence: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Something that has value but cannot be physically seen or measured easily — like brand reputation, customer loyalty, or intellectual property.',
       example: "Riley said: The intangibles here are actually the most valuable things — the brand recognition, the community they've built, and the customer trust. None of that appears on the balance sheet.",
-      imageSlug: '/images/intangible.png',
+      imageSlug: '/images/marketing-due-diligence-intangible.png',
     },
     {
       word: 'BRAND HEALTH',
       partOfSpeech: 'noun',
       definition: 'A measure of how strong a brand is — looking at awareness, customer perception, loyalty, and competitive position.',
       example: "Marcus asked: What is the current brand health? Riley said: Awareness is high — about 78%. But consideration is dropping. Customers know the brand but they're choosing competitors. That's a serious problem.",
-      imageSlug: '/images/brand-health.png',
+      imageSlug: '/images/marketing-due-diligence-brand-health.png',
     },
     {
       word: 'NET PROMOTER SCORE',
       partOfSpeech: 'noun',
       definition: 'A measure of customer loyalty — how likely customers are to recommend the brand to others. Abbreviated to NPS. Ranges from -100 to +100.',
       example: "Riley said: Their NPS is +12. For this category, the benchmark is +40. That gap tells you everything — customers are not unhappy, but they are not advocates either.",
-      imageSlug: '/images/net-promoter-score.png',
+      imageSlug: '/images/marketing-due-diligence-net-promoter-score.png',
     },
     {
       word: 'COMPETITIVE POSITION',

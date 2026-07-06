@@ -14,14 +14,14 @@ export const talkingAboutDelivery: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The process of sending a product to the customer after they order. In B2B sales, you always confirm the delivery date and address before dispatching.',
       example: 'Marcus called Riley and asked: When will my delivery arrive? Riley said: Your delivery is tomorrow — between 9 and 12 in the morning.',
-      imageSlug: '/images/delivery.png',
+      imageSlug: '/images/talking-about-delivery-delivery.png',
     },
     {
       word: 'DISPATCH',
       partOfSpeech: 'verb',
       definition: 'To send something out so it can reach the customer. When an order is dispatched, it has left the warehouse and is on its way.',
       example: 'Riley called Marcus with good news: Your order has been dispatched. It left our warehouse this morning and is on its way to you now.',
-      imageSlug: '/images/dispatch.png',
+      imageSlug: '/images/talking-about-delivery-dispatch.png',
     },
     {
       word: 'TRACKING',
@@ -42,14 +42,14 @@ export const talkingAboutDelivery: Lesson = {
       partOfSpeech: 'noun',
       definition: 'When something arrives later than expected. In sales, always tell the customer about a delay before they have to ask — never let them find out on their own.',
       example: 'There was a problem with the courier. Riley called Marcus: I am sorry — there is a short delay on your order. It will arrive tomorrow instead of today. I apologise for the inconvenience.',
-      imageSlug: '/images/delay.png',
+      imageSlug: '/images/talking-about-delivery-delay.png',
     },
     {
       word: 'ADDRESS',
       partOfSpeech: 'noun',
       definition: 'The location where a delivery is sent. Always confirm the delivery address before dispatching — a wrong address can cause serious problems.',
       example: 'Before Riley sent the order, she said: Let me confirm your delivery address — I want to make sure everything goes to the right place.',
-      imageSlug: '/images/address.png',
+      imageSlug: '/images/talking-about-delivery-address.png',
     },
     {
       word: 'ARRIVE',
@@ -63,7 +63,7 @@ export const talkingAboutDelivery: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To check and agree that something is correct. Before dispatching, always confirm the address, date, and order details with the customer.',
       example: 'Riley said: Let me confirm your delivery details — 45 King Street, London, delivery tomorrow. Is everything correct? Marcus said: Yes, that is right.',
-      imageSlug: '/images/confirm.png',
+      imageSlug: '/images/talking-about-delivery-confirm.png',
     }
   ],
 

@@ -14,7 +14,7 @@ export const chantsAndCrowdLanguage: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'A short phrase fans repeat loudly together, often in rhythm.',
       example: 'The fans sang a chant for their team\'s top scorer.',
-      imageSlug: '/images/chant.png',
+      imageSlug: '/images/chants-and-crowd-language-chant.png',
     },
     {
       word: 'SHOUT',
@@ -56,7 +56,7 @@ export const chantsAndCrowdLanguage: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The feeling or energy created by the crowd in the stadium.',
       example: 'The atmosphere was electric — you could feel the excitement.',
-      imageSlug: '/images/atmosphere.png',
+      imageSlug: '/images/chants-and-crowd-language-atmosphere.png',
     },
     {
       word: 'OLE',
@@ -72,13 +72,13 @@ export const chantsAndCrowdLanguage: Lesson = {
       phrase: 'COME ON!',
       definition: 'A shout to encourage the team to try harder or score a goal.',
       example: 'Come on! We need a goal — come on!',
-      imageSlug: '/images/come-on.png',
+      imageSlug: '/images/chants-and-crowd-language-come-on.png',
     },
     {
       phrase: 'GET IN!',
       definition: 'An exclamation fans shout when their team scores a goal.',
       example: 'Get in! Three-nil! What a result!',
-      imageSlug: '/images/get-in.png',
+      imageSlug: '/images/chants-and-crowd-language-get-in.png',
     },
     {
       phrase: 'OFF! OFF! OFF!',
@@ -96,7 +96,7 @@ export const chantsAndCrowdLanguage: Lesson = {
       phrase: 'WHAT A GOAL!',
       definition: 'A common exclamation after a spectacular goal.',
       example: 'What a goal! From thirty metres — unbelievable!',
-      imageSlug: '/images/what-a-goal.png',
+      imageSlug: '/images/chants-and-crowd-language-what-a-goal.png',
     },
     {
       phrase: 'WE\'RE GOING TO WIN!',

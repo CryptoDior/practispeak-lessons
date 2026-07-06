@@ -21,7 +21,7 @@ export const negotiatingPolitely: Lesson = {
       partOfSpeech: 'noun',
       definition: "Something you give up or agree to in order to reach a deal. Good negotiators make concessions strategically — always getting something in return. 'I can offer X if you can commit to Y' is a conditional concession.",
       example: 'Riley was prepared to make a concession on the monthly rate — but only in exchange for a longer contract commitment. She said: A 12-month contract gives me the security I need to offer you a lower per-user rate.',
-      imageSlug: '/images/concession.png',
+      imageSlug: '/images/negotiating-politely-concession.png',
     },
     {
       word: 'FLEXIBILITY',
@@ -35,7 +35,7 @@ export const negotiatingPolitely: Lesson = {
       partOfSpeech: 'noun',
       definition: "An advantage that gives one side more negotiating power. Leverage can come from timing (end of quarter), alternatives (other suppliers), or volume (large deal size). Understanding both sides' leverage is key to a successful negotiation.",
       example: "Riley knew that Marcus had leverage — he had mentioned two other vendors in the evaluation. So rather than defending the price, she focused on differentiating the value: 'If price were equal, which platform would your team choose to work with?'",
-      imageSlug: '/images/leverage.png',
+      imageSlug: '/images/negotiating-politely-leverage.png',
     },
     {
       word: 'COMPROMISE',
@@ -49,21 +49,21 @@ export const negotiatingPolitely: Lesson = {
       partOfSpeech: 'noun',
       definition: "The conditions of an agreement — including price, payment schedule, contract duration, delivery, and scope. 'Terms' is always plural in this context. 'What are the terms?' means 'what are all the conditions of this deal?'",
       example: 'Riley sent a summary after the call: As agreed, the terms are as follows — $28 per user per month, 12-month contract, one month of dedicated onboarding, and 45-day payment terms. Please let me know if anything needs adjustment before I prepare the contract.',
-      imageSlug: '/images/terms.png',
+      imageSlug: '/images/negotiating-politely-terms.png',
     },
     {
       word: 'COUNTER-OFFER',
       partOfSpeech: 'noun',
       definition: 'A response to an offer that proposes different terms rather than accepting or rejecting outright. A counter-offer keeps the negotiation moving. Always respond to a counter-offer, never ignore it.',
       example: "Marcus made a counter-offer: Our budget is $28 per user — not $35. Riley treated it professionally: That's a useful counter-offer, Marcus. Let me see what I can do. I may be able to get to $28 if we adjust one element of the package.",
-      imageSlug: '/images/counter-offer.png',
+      imageSlug: '/images/negotiating-politely-counter-offer.png',
     },
     {
       word: 'MUTUAL',
       partOfSpeech: 'adjective',
       definition: "Shared equally by both sides. 'Mutual benefit' means both parties gain. Using 'mutual' language in negotiation signals that you are aiming for a partnership, not a transaction: 'I want to find something that's mutually workable.'",
       example: "Riley said: My goal in this conversation is to find something that's mutually beneficial — I want you to feel confident that you're getting fair value, and I want to be able to deliver the full service your team needs.",
-      imageSlug: '/images/mutual.png',
+      imageSlug: '/images/negotiating-politely-mutual.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const negotiatingPolitely: Lesson = {
       phrase: 'WOULD YOU BE OPEN TO...?',
       definition: "The core negotiation phrase of this lesson. It is soft, non-threatening, and collaborative — it invites the other party to consider an alternative without pressure. Always follow 'Would you be open to' with a noun or an '-ing' form.",
       example: "Riley said: I understand the budget constraint. Would you be open to a 12-month contract in exchange for a lower monthly rate? That's the one adjustment that gives me the room to bring the number down significantly.",
-      imageSlug: '/images/would-you-be-open-to.png',
+      imageSlug: '/images/negotiating-politely-would-you-be-open-to.png',
     },
     {
       phrase: 'I UNDERSTAND YOUR POSITION. HOWEVER, FROM OUR SIDE...',

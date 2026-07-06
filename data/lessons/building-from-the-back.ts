@@ -33,14 +33,14 @@ export const buildingFromTheBack: Lesson = {
       partOfSpeech: 'phrasal verb',
       definition: 'To build attacks by passing the ball from the back — starting from the goalkeeper or defenders rather than kicking long.',
       example: 'They love to play out from the back — short passes, patient build-up, never just hoofing it forward.',
-      imageSlug: '/images/play-out.png',
+      imageSlug: '/images/building-from-the-back-play-out.png',
     },
     {
       word: 'DISTRIBUTION',
       partOfSpeech: 'noun',
       definition: 'The way the goalkeeper sends the ball to teammates — by throwing, rolling, or kicking.',
       example: 'The goalkeeper has excellent distribution — she can roll the ball short or play a precise long pass to the striker.',
-      imageSlug: '/images/distribution.png',
+      imageSlug: '/images/building-from-the-back-distribution.png',
     },
     {
       word: 'RECYCLE',
@@ -68,14 +68,14 @@ export const buildingFromTheBack: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'When a team creates more players than the opposition in one area of the pitch — giving themselves a numerical advantage.',
       example: 'They overload the right side — three players against two defenders — to create a better chance.',
-      imageSlug: '/images/overload.png',
+      imageSlug: '/images/building-from-the-back-overload.png',
     },
     {
       word: 'SWITCH',
       partOfSpeech: 'noun / verb',
       definition: 'A long pass that moves the ball from one side of the pitch to the other — to find space where the opposition is not defending.',
       example: 'He switches the play with a long diagonal pass — moving the ball from the right to the left where there is more space.',
-      imageSlug: '/images/switch.png',
+      imageSlug: '/images/building-from-the-back-switch.png',
     },
     {
       word: 'RETAIN',
@@ -103,7 +103,7 @@ export const buildingFromTheBack: Lesson = {
       phrase: 'PLAY THROUGH THE LINES',
       definition: 'To pass the ball through or past the opposition\'s defensive lines — finding a teammate between or behind their shape.',
       example: 'He plays through the lines with a clever pass — splitting the defence and finding the striker in behind.',
-      imageSlug: '/images/play-through-the-lines.png',
+      imageSlug: '/images/building-from-the-back-play-through-the-lines.png',
     },
     {
       phrase: 'LOOK UP',

@@ -14,14 +14,14 @@ export const emailMarketingCampaigns: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The percentage of people who opened your email out of everyone who received it — the first measure of whether your subject line worked.',
       example: "Our open rate was 34% — well above the B2B average of 22%. The subject line 'You asked for proof — here it is' outperformed everything we have tested in the last six months.",
-      imageSlug: '/images/open-rate.png',
+      imageSlug: '/images/email-marketing-campaigns-open-rate.png',
     },
     {
       word: 'CLICK-THROUGH RATE',
       partOfSpeech: 'noun',
       definition: 'The percentage of people who clicked a link inside your email — shows whether your content and call to action motivated people to take the next step.',
       example: 'A 34% open rate with a 2% click-through rate tells you the email was opened but the content or the call to action did not land. That is the next thing to fix.',
-      imageSlug: '/images/click-through-rate.png',
+      imageSlug: '/images/email-marketing-campaigns-click-through-rate.png',
     },
     {
       word: 'A/B TEST',
@@ -56,14 +56,14 @@ export const emailMarketingCampaigns: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Dividing your email list into groups based on shared characteristics — so you can send each group a more relevant, targeted message.',
       example: 'Once we applied segmentation — separating existing clients from cold prospects — the click-through rate on the prospect list doubled. Same content, better targeting.',
-      imageSlug: '/images/segmentation.png',
+      imageSlug: '/images/email-marketing-campaigns-segmentation.png',
     },
     {
       word: 'SUBJECT LINE',
       partOfSpeech: 'noun',
       definition: 'The short text that appears in the inbox before an email is opened — the single most important factor in whether someone opens or ignores your email.',
       example: "A great subject line does one of three things: it addresses a specific pain point, it makes a specific promise, or it creates genuine curiosity. 'Improve your marketing' does none of those. 'What 94% client retention actually looks like' does all three.",
-      imageSlug: '/images/subject-line.png',
+      imageSlug: '/images/email-marketing-campaigns-subject-line.png',
     }
   ],
 

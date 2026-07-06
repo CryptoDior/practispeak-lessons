@@ -21,7 +21,7 @@ export const integratedMarketingCommunications: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Delivering the same message, tone, and brand identity at every touchpoint and on every channel. When customers see the same message repeated across different channels, they are more likely to remember it and trust it.',
       example: 'Marcus reviewed the drafts: The problem here is consistency. The email is warm and conversational, the ad is formal and corporate, and the landing page sounds like a different brand entirely. A customer who touches all three of these in the same week will feel confused, not convinced. We need a unified voice.',
-      imageSlug: '/images/consistency.png',
+      imageSlug: '/images/integrated-marketing-communications-consistency.png',
     },
     {
       word: 'MESSAGE ARCHITECTURE',
@@ -49,7 +49,7 @@ export const integratedMarketingCommunications: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Any moment when a customer or prospect comes into contact with your brand — an ad, an email, a social post, a website visit, a sales call. Mapping touchpoints helps you see the full customer journey and spot where the message is consistent and where it falls apart.',
       example: 'Dana mapped every touchpoint in the customer journey: From the first LinkedIn impression through to the post-sale onboarding email, there are eleven points where we communicate with the prospect or customer. We need to audit each one — does it say the same thing? Does it sound like the same brand? Are we reinforcing the core message or diluting it?',
-      imageSlug: '/images/touchpoint.png',
+      imageSlug: '/images/integrated-marketing-communications-touchpoint.png',
     },
     {
       word: 'CHANNEL ALIGNMENT',

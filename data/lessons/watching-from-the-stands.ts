@@ -33,14 +33,14 @@ export const watchingFromTheStands: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The energy and excitement created by the crowd — the feeling in the stadium.',
       example: 'The atmosphere was electric — 50,000 fans singing from the first minute to the last.',
-      imageSlug: '/images/atmosphere.png',
+      imageSlug: '/images/watching-from-the-stands-atmosphere.png',
     },
     {
       word: 'CHANT',
       partOfSpeech: 'noun / verb',
       definition: 'A song or phrase repeated loudly by fans — a way of supporting the team or putting off the opposition.',
       example: 'The home fans were chanting the striker\'s name every time he got the ball.',
-      imageSlug: '/images/chant.png',
+      imageSlug: '/images/watching-from-the-stands-chant.png',
     },
     {
       word: 'GROAN',
@@ -61,14 +61,14 @@ export const watchingFromTheStands: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A large sign held by fans in the stands — with a message, an image, or support for the team.',
       example: 'The ultras held up a huge banner before kick-off — a message for their favourite player.',
-      imageSlug: '/images/banner.png',
+      imageSlug: '/images/watching-from-the-stands-banner.png',
     },
     {
       word: 'HALF-TIME',
       partOfSpeech: 'noun',
       definition: 'The break in the middle of the match — usually 15 minutes, after 45 minutes of play.',
       example: 'At half-time, the fans debated the first half — some were frustrated, others were optimistic.',
-      imageSlug: '/images/half-time.png',
+      imageSlug: '/images/watching-from-the-stands-half-time.png',
     },
     {
       word: 'SUBSTITUTE BOARD',
@@ -82,7 +82,7 @@ export const watchingFromTheStands: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A goal scored near the end of the match that wins the game.',
       example: 'She scored a late winner in the 93rd minute — the fans behind the goal went absolutely wild.',
-      imageSlug: '/images/late-winner.png',
+      imageSlug: '/images/watching-from-the-stands-late-winner.png',
     },
   ],
 
@@ -97,7 +97,7 @@ export const watchingFromTheStands: Lesson = {
       phrase: 'GET BEHIND THE TEAM',
       definition: 'To support the team loudly and actively — creating noise to motivate the players.',
       example: 'The fans really got behind the team in the second half — the noise helped the players push for a winner.',
-      imageSlug: '/images/get-behind-the-team.png',
+      imageSlug: '/images/watching-from-the-stands-get-behind-the-team.png',
     },
     {
       phrase: 'HOLD YOUR BREATH',

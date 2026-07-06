@@ -47,7 +47,7 @@ export const c1ClubOwnershipAndFinance: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The total income a club earns — from matchday tickets, broadcasting deals, merchandise, and commercial partnerships.',
       example: '"The club\'s annual revenue exceeded £500 million for the first time — driven primarily by their new shirt sponsorship deal."',
-      imageSlug: '/images/revenue.png',
+      imageSlug: '/images/c1-club-ownership-and-finance-revenue.png',
     },
     {
       word: 'FINANCIAL FAIR PLAY',

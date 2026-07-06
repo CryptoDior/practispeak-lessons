@@ -49,7 +49,7 @@ export const causeRelatedMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: "The practice of making misleading or exaggerated claims about a product's or company's environmental credentials in order to appear more environmentally responsible than it actually is. Greenwashing is increasingly scrutinised by regulators and consumers, and brands caught greenwashing face significant reputational and legal consequences.",
       example: "Bloom's legal team reviewed every environmental claim in the campaign before launch. The phrase 'most sustainable choice in the category' was removed because they could not substantiate it against every competitor. One defensible specific claim is worth more than three broad ones that cannot be defended.",
-      imageSlug: '/images/greenwashing.png',
+      imageSlug: '/images/cause-related-marketing-greenwashing.png',
     },
     {
       word: 'BRAND ACTIVISM',

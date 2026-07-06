@@ -14,7 +14,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Recreating a message in another language so that it has the same emotional effect — rather than translating it word for word. The meaning may change, but the feeling and impact stay the same.',
       example: "Riley said: We can't translate 'Just Do It' literally into Arabic and expect it to land. Transcreation means finding the phrase that creates the same feeling of confidence and urgency in Arabic — even if the words are completely different.",
-      imageSlug: '/images/transcreation.png',
+      imageSlug: '/images/the-multilingual-marketers-toolkit-transcreation.png',
     },
     {
       word: 'BACK-TRANSLATION',

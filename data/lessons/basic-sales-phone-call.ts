@@ -14,21 +14,21 @@ export const basicSalesPhoneCall: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The first words you say when you start a call. A professional greeting includes your name and your company.',
       example: 'Riley started the call with a clear greeting: Good morning, this is Riley from Practispeak Solutions. It told Marcus exactly who was calling before he said anything.',
-      imageSlug: '/images/greeting.png',
+      imageSlug: '/images/basic-sales-phone-call-greeting.png',
     },
     {
       word: 'INTRODUCE',
       partOfSpeech: 'verb',
       definition: 'To say your name and company at the start of a call. You introduce yourself so the customer knows who is calling and why.',
       example: 'Riley said: Let me introduce myself — my name is Riley and I work for Practispeak Solutions. We spoke at the conference last month.',
-      imageSlug: '/images/introduce.png',
+      imageSlug: '/images/basic-sales-phone-call-introduce.png',
     },
     {
       word: 'PURPOSE',
       partOfSpeech: 'noun',
       definition: 'The reason for your call. Always state your purpose clearly and early — customers do not like to guess why someone is calling.',
       example: 'Riley explained her purpose in one sentence: The reason I am calling is to follow up on the proposal I sent you last week. Short, clear, professional.',
-      imageSlug: '/images/purpose.png',
+      imageSlug: '/images/basic-sales-phone-call-purpose.png',
     },
     {
       word: 'CONVENIENT',
@@ -49,7 +49,7 @@ export const basicSalesPhoneCall: Lesson = {
       partOfSpeech: 'phrasal verb',
       definition: 'To contact someone again after a first conversation or meeting. In sales, you follow up to keep the conversation moving forward.',
       example: 'Riley said: The reason I am calling is to follow up on our last meeting. I wanted to check if you had any questions about the plan.',
-      imageSlug: '/images/follow-up.png',
+      imageSlug: '/images/basic-sales-phone-call-follow-up.png',
     },
     {
       word: 'VOICEMAIL',
@@ -63,7 +63,7 @@ export const basicSalesPhoneCall: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Free to talk or meet at a particular time. When you call, you check if the customer is available before you start.',
       example: 'Riley asked: Are you available to talk for a few minutes? Marcus said: Yes, I am free now. Riley said: Perfect — I will be brief.',
-      imageSlug: '/images/available.png',
+      imageSlug: '/images/basic-sales-phone-call-available.png',
     }
   ],
 

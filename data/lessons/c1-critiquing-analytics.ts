@@ -68,7 +68,7 @@ export const c1CritiquingAnalytics: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Something real but very hard to measure — like a player\'s leadership, team spirit, or composure under pressure.',
       example: '"The data doesn\'t capture everything — intangibles like leadership and team spirit matter too."',
-      imageSlug: '/images/intangible.png',
+      imageSlug: '/images/c1-critiquing-analytics-intangible.png',
     },
     {
       word: 'OVER-RELIANCE',
@@ -97,7 +97,7 @@ export const c1CritiquingAnalytics: Lesson = {
       phrase: 'ACCOUNT FOR',
       definition: 'To explain something — to find a reason for why a number or result looks the way it does.',
       example: '"How do you account for the fact that they have 1.8 xG per game but only score 0.6?"',
-      imageSlug: '/images/account-for.png',
+      imageSlug: '/images/c1-critiquing-analytics-account-for.png',
     },
     {
       phrase: 'TAKE INTO ACCOUNT',

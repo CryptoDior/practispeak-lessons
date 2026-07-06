@@ -54,7 +54,7 @@ export const c1TheFootballDocumentary: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Honest and unguarded — saying or showing something real that was not planned or rehearsed.',
       example: '"The most candid moment in the documentary was the goalkeeper crying alone in the dressing room after the shootout."',
-      imageSlug: '/images/candid.png',
+      imageSlug: '/images/c1-the-football-documentary-candid.png',
     },
     {
       word: 'EDITORIAL CONTROL',
@@ -121,7 +121,7 @@ export const c1TheFootballDocumentary: Lesson = {
       phrase: 'OPEN UP',
       definition: 'To become more willing to share personal feelings or information in front of a camera — to speak honestly after initial reserve.',
       example: '"By episode three, the players had forgotten about the cameras and were beginning to open up about the pressures they were under."',
-      imageSlug: '/images/open-up.png',
+      imageSlug: '/images/c1-the-football-documentary-open-up.png',
     },
   ],
 

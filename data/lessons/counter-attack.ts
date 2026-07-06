@@ -33,14 +33,14 @@ export const counterAttack: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'A fast attack launched immediately after winning the ball — while the opposition is still moving forward and out of position.',
       example: 'They counter-attacked immediately after winning possession — three players running forward before the opposition could recover.',
-      imageSlug: '/images/counter-attack.png',
+      imageSlug: '/images/counter-attack-counter-attack.png',
     },
     {
       word: 'TRANSITION',
       partOfSpeech: 'noun',
       definition: 'The moment a team switches from attacking to defending — or from defending to attacking. The split second when possession changes.',
       example: 'Their transition from defence to attack is incredibly fast — they go from defending to scoring in seconds.',
-      imageSlug: '/images/transition.png',
+      imageSlug: '/images/counter-attack-transition.png',
     },
     {
       word: 'PACE',
@@ -75,7 +75,7 @@ export const counterAttack: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Very efficient and precise in front of goal — scoring when it matters, without wasting chances.',
       example: 'They were clinical on the counter — they had three chances and scored three goals.',
-      imageSlug: '/images/clinical.png',
+      imageSlug: '/images/counter-attack-clinical.png',
     },
     {
       word: 'EXPOSED',
@@ -115,7 +115,7 @@ export const counterAttack: Lesson = {
       phrase: 'GET IN BEHIND',
       definition: 'To run past the defensive line and receive the ball in the space behind the defenders.',
       example: 'If the full-backs push up, she will get in behind — her pace makes her impossible to stop once she has space.',
-      imageSlug: '/images/get-in-behind.png',
+      imageSlug: '/images/counter-attack-get-in-behind.png',
     },
     {
       phrase: 'HIT ON THE COUNTER',

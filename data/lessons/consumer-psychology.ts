@@ -35,7 +35,7 @@ export const consumerPsychology: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The idea that people value things more when they are rare or running out. Genuine scarcity — limited stock, a deadline, exclusive access — increases the sense of urgency. Fake scarcity — claiming limits that do not exist — damages trust the moment customers notice it.',
       example: "The campaign used scarcity to drive conversions: Only 50 places in this cohort — enrolment closes Friday. Marcus flagged that the scarcity had to be real: If we say 50 places and then extend it because conversions are slow, customers will notice. Scarcity only works if it's true.",
-      imageSlug: '/images/scarcity.png',
+      imageSlug: '/images/consumer-psychology-scarcity.png',
     },
     {
       word: 'ANCHORING',

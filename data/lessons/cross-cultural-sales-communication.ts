@@ -14,14 +14,14 @@ export const crossCulturalSalesCommunication: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The overall impression conveyed by the language, pace, register, and delivery of a message — independent of its literal content. Tone can be warm, formal, assertive, deferential, or collaborative. In cross-cultural communication, the same content delivered in a different tone can produce entirely different responses. Tone is what the listener feels, not just what is said.',
       example: "Riley adjusted her tone deliberately: With a German client, she might say: 'The proposal has three significant weaknesses you should address before submitting.' With a Japanese client, she would frame the same observation as: 'I wonder if there might be areas we could strengthen together before moving forward.' Same message — entirely different tone.",
-      imageSlug: '/images/tone.png',
+      imageSlug: '/images/cross-cultural-sales-communication-tone.png',
     },
     {
       word: 'DIRECTNESS',
       partOfSpeech: 'noun',
       definition: 'The degree to which a communicator states their meaning explicitly rather than implying it through context, hedging, or indirect phrasing. High-directness cultures (Germany, Netherlands, Israel) value explicit, unambiguous communication. Low-directness cultures (Japan, South Korea, many Arab cultures) rely more on context, relationship, and implication. Neither is superior — but mismatch creates misunderstanding.',
       example: "Marcus reflected on a difficult meeting: Our German partners told us directly that the proposal was inadequate — we found it jarring. Riley replied: Directness is not rudeness in that cultural context — it is actually a form of respect. They are telling you exactly what they think so you can fix it. The same feedback from a Japanese partner might arrive as a very long silence and a request to 'consider further'.",
-      imageSlug: '/images/directness.png',
+      imageSlug: '/images/cross-cultural-sales-communication-directness.png',
     },
     {
       word: 'POLITENESS STRATEGIES',
@@ -56,7 +56,7 @@ export const crossCulturalSalesCommunication: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The level of formality in language — ranging from formal (written contracts, legal documents, presentations to senior leaders) to semi-formal (most professional email communication) to informal (Slack messages, internal team conversations). Register choices signal respect, familiarity, and power relations. Misreading the expected register is one of the most common cross-cultural communication errors.',
       example: "Riley adjusted her register immediately when she realised the error: I had opened the email with 'Hi Yuki' — which is how I write to colleagues I know well. The reply came back as 'Dear Ms. Riley' with full formal salutation. That's a signal. I replied as 'Dear Ms. Nakamura' and shifted my entire register to formal for the rest of the relationship. Register mismatch communicates carelessness, not friendliness.",
-      imageSlug: '/images/register.png',
+      imageSlug: '/images/cross-cultural-sales-communication-register.png',
     },
     {
       word: 'EXPECTATION MANAGEMENT',

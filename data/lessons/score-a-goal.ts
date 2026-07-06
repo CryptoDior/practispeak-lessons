@@ -35,14 +35,14 @@ export const scoreAGoal: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'The advantage a winning team has. / To be winning.',
       example: 'We are in the lead — two-nil!',
-      imageSlug: '/images/lead.png',
+      imageSlug: '/images/score-a-goal-lead.png',
     },
     {
       word: 'ASSIST',
       partOfSpeech: 'noun',
       definition: 'A pass or action that directly helps another player score.',
       example: 'Sofia got an assist when her cross led to Ronaldo\'s goal.',
-      imageSlug: '/images/assist.png',
+      imageSlug: '/images/score-a-goal-assist.png',
     },
     {
       word: 'NET',
@@ -63,7 +63,7 @@ export const scoreAGoal: Lesson = {
       partOfSpeech: 'noun',
       definition: 'When a team is losing but then wins or draws.',
       example: 'What a comeback! They were two-nil down but won three-two.',
-      imageSlug: '/images/comeback.png',
+      imageSlug: '/images/score-a-goal-comeback.png',
     },
   ],
 
@@ -78,19 +78,19 @@ export const scoreAGoal: Lesson = {
       phrase: 'WHAT A GOAL!',
       definition: 'An exclamation used when a goal is amazing or impressive.',
       example: 'What a goal! Did you see that volley?',
-      imageSlug: '/images/what-a-goal.png',
+      imageSlug: '/images/score-a-goal-what-a-goal.png',
     },
     {
       phrase: 'GET IN!',
       definition: 'An informal exclamation of joy used when your team scores.',
       example: 'Get in! We needed that goal so much!',
-      imageSlug: '/images/get-in.png',
+      imageSlug: '/images/score-a-goal-get-in.png',
     },
     {
       phrase: 'COME ON!',
       definition: 'Used to encourage your team or show excitement.',
       example: 'Come on! We can still win this!',
-      imageSlug: '/images/come-on.png',
+      imageSlug: '/images/score-a-goal-come-on.png',
     },
     {
       phrase: 'UNBELIEVABLE!',
@@ -102,7 +102,7 @@ export const scoreAGoal: Lesson = {
       phrase: 'TAKE THE LEAD',
       definition: 'To score a goal that puts your team in front for the first time.',
       example: 'Ronaldo scored to take the lead in the 30th minute.',
-      imageSlug: '/images/take-the-lead.png',
+      imageSlug: '/images/score-a-goal-take-the-lead.png',
     },
   ],
 

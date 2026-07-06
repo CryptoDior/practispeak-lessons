@@ -56,21 +56,21 @@ export const theTransferWindow: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The final day of the transfer window — when clubs rush to complete last-minute deals before the window closes.',
       example: '"Deadline day delivered the drama fans expected — six signings completed in the final four hours before midnight."',
-      imageSlug: '/images/deadline-day.png',
+      imageSlug: '/images/the-transfer-window-deadline-day.png',
     },
     {
       word: 'VALUATION',
       partOfSpeech: 'noun',
       definition: 'A club\'s assessment of how much a player is worth — the price they want to sell for.',
       example: '"The two clubs were 20 million apart in their valuations — the buying club\'s offer fell well short of what the selling side demanded."',
-      imageSlug: '/images/valuation.png',
+      imageSlug: '/images/the-transfer-window-valuation.png',
     },
     {
       word: 'RELEASE CLAUSE',
       partOfSpeech: 'noun',
       definition: 'A contractual clause that allows a player to leave for a fixed fee if a club meets that price.',
       example: '"His release clause was set at 150 million euros — a figure designed to make him untouchable, but one that four clubs were reportedly willing to meet."',
-      imageSlug: '/images/release-clause.png',
+      imageSlug: '/images/the-transfer-window-release-clause.png',
     },
     {
       word: 'SWOOP',
@@ -100,7 +100,7 @@ export const theTransferWindow: Lesson = {
       phrase: 'PUSH THROUGH',
       definition: 'To complete a transfer deal despite obstacles or resistance.',
       example: '"The agent pushed the deal through in the final hours of the window — overcoming a last-minute dispute about sell-on clauses."',
-      imageSlug: '/images/push-through.png',
+      imageSlug: '/images/the-transfer-window-push-through.png',
 },
     {
       phrase: 'PULL OUT OF',
@@ -112,13 +112,13 @@ export const theTransferWindow: Lesson = {
       phrase: 'SIGN OFF ON',
       definition: 'To give final approval — often used for the last official step of confirming a transfer.',
       example: '"The chairman flew in from Dubai specifically to sign off on the deal — a signing that took six months to negotiate."',
-      imageSlug: '/images/sign-off-on.png',
+      imageSlug: '/images/the-transfer-window-sign-off-on.png',
 },
     {
       phrase: 'HOLD OUT FOR',
       definition: 'To wait and refuse lesser offers in the hope of getting a better deal.',
       example: '"He held out for a Champions League club — turning down three Premier League offers while he waited for the right move."',
-      imageSlug: '/images/hold-out-for.png',
+      imageSlug: '/images/the-transfer-window-hold-out-for.png',
 },
     {
       phrase: 'TRIGGER',
@@ -130,7 +130,7 @@ export const theTransferWindow: Lesson = {
       phrase: 'TALK UP',
       definition: 'To publicly praise a player in a way that hints at or supports a transfer bid.',
       example: '"The manager talked up the striker in his press conference — many saw it as an attempt to persuade the player to choose their club."',
-      imageSlug: '/images/talk-up.png',
+      imageSlug: '/images/the-transfer-window-talk-up.png',
 },
   ],
 

@@ -49,7 +49,7 @@ export const iAmAPlayer: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The device you use to play — PC, console, or mobile.',
       example: 'I play on PC. What is your platform?',
-      imageSlug: '/images/platform.png',
+      imageSlug: '/images/i-am-a-player-platform.png',
     },
     {
       word: 'CASUAL',
@@ -70,7 +70,7 @@ export const iAmAPlayer: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'The one you like the most.',
       example: 'My favourite game is this one. I play it every day.',
-      imageSlug: '/images/favourite.png',
+      imageSlug: '/images/i-am-a-player-favourite.png',
     },
     {
       word: 'HOURS',
@@ -84,7 +84,7 @@ export const iAmAPlayer: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The part of the world where your game server is.',
       example: 'I play in the Asia region. My connection is very good.',
-      imageSlug: '/images/region.png',
+      imageSlug: '/images/i-am-a-player-region.png',
     },
     {
       word: 'LOBBY',

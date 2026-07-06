@@ -14,14 +14,14 @@ export const simpleProductComparison: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To look at two things together to find the differences and similarities. In sales, you compare options to help the customer decide.',
       example: 'Marcus was not sure which plan to choose. Riley said: Let me compare them for you — I will explain what is different and what is the same.',
-      imageSlug: '/images/compare.png',
+      imageSlug: '/images/simple-product-comparison-compare.png',
     },
     {
       word: 'FEATURE',
       partOfSpeech: 'noun',
       definition: 'A special part or quality of a product that makes it useful. More features usually means a higher price.',
       example: 'Marcus asked what the Standard Plan included. Riley said: It has more features than the Basic Plan — reporting tools, priority support, and unlimited storage.',
-      imageSlug: '/images/feature.png',
+      imageSlug: '/images/simple-product-comparison-feature.png',
     },
     {
       word: 'AFFORDABLE',
@@ -35,7 +35,7 @@ export const simpleProductComparison: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Liked or chosen by many people. When you tell a customer a product is popular, it shows them other people trust it.',
       example: 'Marcus asked which plan most customers chose. Riley said: The Standard Plan is our most popular option — about 70% of our customers use it.',
-      imageSlug: '/images/popular.png',
+      imageSlug: '/images/simple-product-comparison-popular.png',
     },
     {
       word: 'ADVANCED',

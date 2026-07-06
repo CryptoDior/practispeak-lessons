@@ -21,7 +21,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: "The way an organisation is structured and run to deliver its strategy — including its capabilities, processes, team structure, technology, and decision-making approach. A marketing transformation often requires not just a new strategy but a change to the operating model: different skills, different systems, different ways of making decisions. A strategy without an aligned operating model is a plan that cannot be executed.",
       example: "The new strategy requires a different operating model — moving from campaign-led to data-led means different skills, different technology, and different decision-making rhythms. A strategy without an aligned operating model is a plan that cannot be executed. The CFO will ask 'what specifically has to change?' and the answer must be concrete.",
-      imageSlug: '/images/operating-model.png',
+      imageSlug: '/images/c1-final-project-marketing-transformation-plan-operating-model.png',
     },
     {
       word: 'CHANGE READINESS',

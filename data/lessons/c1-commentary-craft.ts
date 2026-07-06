@@ -40,14 +40,14 @@ export const c1CommentaryCraft: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The rhythm and pace of speech — how fast or slow a commentator speaks, and how their sentences rise and fall.',
       example: '"His cadence slows down before a goal — the pause before the shout is part of the drama."',
-      imageSlug: '/images/cadence.png',
+      imageSlug: '/images/c1-commentary-craft-cadence.png',
     },
     {
       word: 'ARTICULATE',
       partOfSpeech: 'verb',
       definition: 'To express something clearly and precisely in words — to find exactly the right way to say something.',
       example: '"She articulated the tactical situation perfectly — the listener understood the problem immediately."',
-      imageSlug: '/images/articulate.png',
+      imageSlug: '/images/c1-commentary-craft-articulate.png',
     },
     {
       word: 'ANTICLIMAX',
@@ -68,7 +68,7 @@ export const c1CommentaryCraft: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Strongly bringing a feeling, image, or memory to mind — language that makes the listener picture or feel something vividly.',
       example: '"The phrase \'the theatre of dreams\' is evocative — it paints a picture without describing anything specific."',
-      imageSlug: '/images/evocative.png',
+      imageSlug: '/images/c1-commentary-craft-evocative.png',
     },
     {
       word: 'SPONTANEITY',
@@ -91,7 +91,7 @@ export const c1CommentaryCraft: Lesson = {
       phrase: 'BUILD UP',
       definition: 'To increase gradually in intensity — to create growing excitement in the commentary leading to a climax.',
       example: '"He builds up the tension perfectly — his voice lowers before the shot, then explodes."',
-      imageSlug: '/images/build-up.png',
+      imageSlug: '/images/c1-commentary-craft-build-up.png',
     },
     {
       phrase: 'DIE DOWN',
@@ -121,7 +121,7 @@ export const c1CommentaryCraft: Lesson = {
       phrase: 'PICK UP ON',
       definition: 'To notice and respond to something — when a commentator catches a small detail and uses it to add meaning.',
       example: '"She picks up on the striker\'s body language before the free kick — \'He looks absolutely certain about this.\'\'"',
-      imageSlug: '/images/pick-up-on.png',
+      imageSlug: '/images/c1-commentary-craft-pick-up-on.png',
     },
   ],
 

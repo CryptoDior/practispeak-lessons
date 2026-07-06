@@ -40,7 +40,7 @@ export const substitutions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A player who starts on the bench and may come on during the match.',
       example: 'The substitute came on and changed the game immediately — a brilliant impact.',
-      imageSlug: '/images/substitute.png',
+      imageSlug: '/images/substitutions-substitute.png',
     },
     {
       word: 'FRESH LEGS',
@@ -61,14 +61,14 @@ export const substitutions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The effect a substitute has on the match — how much they change things when they come on.',
       example: 'The substitute made an immediate impact — scoring within five minutes of coming on.',
-      imageSlug: '/images/impact.png',
+      imageSlug: '/images/substitutions-impact.png',
     },
     {
       word: 'BENCH',
       partOfSpeech: 'noun',
       definition: 'The area where substitute players and coaching staff sit during a match.',
       example: 'He spent 90 minutes on the bench — he was not happy to not get on.',
-      imageSlug: '/images/bench.png',
+      imageSlug: '/images/substitutions-bench.png',
     },
     {
       word: 'BOARD',
@@ -82,7 +82,7 @@ export const substitutions: Lesson = {
       partOfSpeech: 'verb',
       definition: 'For a substitute to prepare physically on the sideline before coming on.',
       example: 'The striker warmed up along the touchline — she knew she was about to come on.',
-      imageSlug: '/images/warm-up.png',
+      imageSlug: '/images/substitutions-warm-up.png',
     },
   ],
 

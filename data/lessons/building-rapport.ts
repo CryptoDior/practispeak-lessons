@@ -21,7 +21,7 @@ export const buildingRapport: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The ability to understand and share what another person is experiencing or feeling.',
       example: 'Showing empathy when a prospect mentions a difficult quarter costs nothing — and it changes the entire tone of the conversation.',
-      imageSlug: '/images/empathy.png',
+      imageSlug: '/images/building-rapport-empathy.png',
     },
     {
       word: 'RECIPROCATE',
@@ -35,7 +35,7 @@ export const buildingRapport: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To show clearly that you have heard or noticed something the other person said or experienced.',
       example: 'Before moving on, acknowledge what they just told you — it signals that you were actually listening.',
-      imageSlug: '/images/acknowledge.png',
+      imageSlug: '/images/building-rapport-acknowledge.png',
     },
     {
       word: 'ATTENTIVE',
@@ -49,14 +49,14 @@ export const buildingRapport: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Shared between two or more people — a mutual connection, a mutual interest, a mutual experience.',
       example: 'Finding a mutual connection or shared experience is one of the fastest ways to move from stranger to trusted contact.',
-      imageSlug: '/images/mutual.png',
+      imageSlug: '/images/building-rapport-mutual.png',
     },
     {
       word: 'CANDID',
       partOfSpeech: 'adjective',
       definition: 'Open and honest in a way that feels refreshing — willing to speak directly and personally.',
       example: 'Being candid about the purpose of your call — rather than disguising it — is itself a form of rapport-building.',
-      imageSlug: '/images/candid.png',
+      imageSlug: '/images/building-rapport-candid.png',
     },
     {
       word: 'SMALL TALK',

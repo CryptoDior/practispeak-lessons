@@ -47,7 +47,7 @@ export const c2NetworkingInFootball: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A moment of contact in a professional relationship — a message, a meeting, or a comment that keeps the connection active.',
       example: '"A good networking strategy involves regular touchpoints — a congratulatory message when someone gets a new role, a shared article, or a check-in every six months."',
-      imageSlug: '/images/touchpoint.png',
+      imageSlug: '/images/c2-networking-in-football-touchpoint.png',
     },
     {
       word: 'ELEVATOR PITCH',
@@ -61,14 +61,14 @@ export const c2NetworkingInFootball: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Given and received mutually — good networking involves offering value, not just taking it.',
       example: '"Effective networking is reciprocal — always ask yourself what you can offer the other person, not just what you want from them."',
-      imageSlug: '/images/reciprocal.png',
+      imageSlug: '/images/c2-networking-in-football-reciprocal.png',
     },
     {
       word: 'CREDIBILITY',
       partOfSpeech: 'noun',
       definition: 'The quality of being trusted and believed — in networking, credibility is built through demonstrated expertise, honesty, and follow-through.',
       example: '"Post your analysis publicly — credibility in the football analytics community is built through work that other people can read and evaluate."',
-      imageSlug: '/images/credibility.png',
+      imageSlug: '/images/c2-networking-in-football-credibility.png',
     },
     {
       word: 'FOLLOW-UP',
@@ -82,7 +82,7 @@ export const c2NetworkingInFootball: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Taking initiative before being asked — creating opportunities rather than waiting for them to appear.',
       example: '"A proactive approach to networking means identifying the people you want to know two years before you need them — building relationships without immediate agenda."',
-      imageSlug: '/images/proactive.png',
+      imageSlug: '/images/c2-networking-in-football-proactive.png',
     },
   ],
 

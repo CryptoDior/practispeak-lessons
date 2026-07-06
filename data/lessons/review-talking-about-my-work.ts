@@ -14,14 +14,14 @@ export const reviewTalkingAboutMyWork: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To tell someone your name and basic information about yourself for the first time.',
       example: 'Let me introduce myself — I am Riley, and I am the head of marketing at MarketBridge.',
-      imageSlug: '/images/introduce.png',
+      imageSlug: '/images/review-talking-about-my-work-introduce.png',
     },
     {
       word: 'ROLE',
       partOfSpeech: 'noun',
       definition: 'Your job or position in a company — what you are responsible for.',
       example: 'My role is to manage all digital marketing activities and develop new client relationships.',
-      imageSlug: '/images/role.png',
+      imageSlug: '/images/review-talking-about-my-work-role.png',
     },
     {
       word: 'SPECIALIZE',
@@ -56,14 +56,14 @@ export const reviewTalkingAboutMyWork: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A specific area or industry within the economy — for example, the technology sector or the finance sector.',
       example: 'We work mainly in the technology sector — our clients are SaaS companies and IT service providers.',
-      imageSlug: '/images/sector.png',
+      imageSlug: '/images/review-talking-about-my-work-sector.png',
     },
     {
       word: 'GOAL',
       partOfSpeech: 'noun',
       definition: 'Something you want to achieve — a target or aim for the future.',
       example: 'Our goal this year is to expand into three new European markets and double our client base.',
-      imageSlug: '/images/goal.png',
+      imageSlug: '/images/review-talking-about-my-work-goal.png',
     }
   ],
 

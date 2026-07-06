@@ -14,7 +14,7 @@ export const marketingInEmergingMarkets: Lesson = {
       partOfSpeech: 'noun',
       definition: "The percentage of people or businesses in a target market who are already buying a product or using a service. Low penetration means most of the market is still available to win. In emerging markets, penetration is often low — which represents a large opportunity but also means building awareness and trial from scratch.",
       example: "Marcus opened the strategy session: Our market penetration in Nigeria is currently 4% of the addressable market. Riley replied: Which means 96% of potential customers have not tried us yet. That is an enormous opportunity — but it also means we need to build from awareness, not from consideration. Dana added: The 4% who are using us are already happy — NPS is 61. The challenge is not product-market fit. The challenge is reach, awareness, and distribution in a market where our usual digital channels have limited penetration.",
-      imageSlug: '/images/market-penetration.png',
+      imageSlug: '/images/marketing-in-emerging-markets-market-penetration.png',
     },
     {
       word: 'INFRASTRUCTURE',
@@ -49,7 +49,7 @@ export const marketingInEmergingMarkets: Lesson = {
       partOfSpeech: 'noun',
       definition: "Adapting a product, service, or marketing campaign for a specific local market — including language, cultural references, pricing, imagery, and product features. Localisation is more than translation — it means understanding what resonates with a specific audience and adjusting accordingly.",
       example: "Marcus stressed: Localisation in this market is not optional — it is the entry requirement. Riley listed the dimensions: Language — are we marketing in English, Swahili, or a local language depending on the region? Imagery — does the creative reflect the people, places, and contexts of this market? Pricing — does our price point reflect local income levels? Dana added: And product — are there features that need to change for this market, or features that are irrelevant and make the product feel imported rather than made for them? Localisation touches every element of the marketing mix.",
-      imageSlug: '/images/localisation.png',
+      imageSlug: '/images/marketing-in-emerging-markets-localisation.png',
     },
     {
       word: 'GROWTH MARKET',

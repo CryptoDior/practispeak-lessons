@@ -33,7 +33,7 @@ export const comparingTeams: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Controlling the game — more powerful and in control than the opponent.',
       example: 'City were dominant for the first 70 minutes — they had 70% possession and created ten chances.',
-      imageSlug: '/images/dominant.png',
+      imageSlug: '/images/comparing-teams-dominant.png',
     },
     {
       word: 'ORGANISED',
@@ -54,14 +54,14 @@ export const comparingTeams: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Performing at the same high level every week — not up and down.',
       example: 'Arsenal are more consistent than last season — they have only lost once in fifteen games.',
-      imageSlug: '/images/consistent.png',
+      imageSlug: '/images/comparing-teams-consistent.png',
     },
     {
       word: 'CLINICAL',
       partOfSpeech: 'adjective',
       definition: 'Efficient in front of goal — converting chances at a high rate.',
       example: 'Liverpool are more clinical than us — they scored with three of their four shots on target.',
-      imageSlug: '/images/clinical.png',
+      imageSlug: '/images/comparing-teams-clinical.png',
     },
     {
       word: 'PHYSICAL',

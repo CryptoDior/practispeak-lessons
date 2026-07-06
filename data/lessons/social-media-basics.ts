@@ -21,14 +21,14 @@ export const socialMediaBasics: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To send or show something to other people — or to put something on social media so others can see it.',
       example: "Dana liked the article so much she decided to share it on her company's page.",
-      imageSlug: '/images/share.png',
+      imageSlug: '/images/social-media-basics-share.png',
     },
     {
       word: 'LIKE',
       partOfSpeech: 'verb',
       definition: 'To press a button on social media to show that you enjoy or agree with a post.',
       example: 'The post got 200 likes in one hour — it was the most popular thing we have ever shared.',
-      imageSlug: '/images/like.png',
+      imageSlug: '/images/social-media-basics-like.png',
     },
     {
       word: 'FOLLOW',
@@ -49,14 +49,14 @@ export const socialMediaBasics: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A page on social media that shows who you are — your name, photo, job, and information.',
       example: 'Dana updated her company profile with a new logo, description, and contact details.',
-      imageSlug: '/images/profile.png',
+      imageSlug: '/images/social-media-basics-profile.png',
     },
     {
       word: 'PLATFORM',
       partOfSpeech: 'noun',
       definition: 'A social media website or app where people create and share content. For example: LinkedIn, Instagram, or Facebook.',
       example: 'LinkedIn is the best platform for B2B marketing — the audience is made up of professionals.',
-      imageSlug: '/images/platform.png',
+      imageSlug: '/images/social-media-basics-platform.png',
     },
     {
       word: 'FEED',

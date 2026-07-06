@@ -33,21 +33,21 @@ export const theSquad: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The eleven players chosen to begin the match — also called the "starting XI" or "first eleven".',
       example: 'The manager announced the starting eleven one hour before kick-off — three changes from last week.',
-      imageSlug: '/images/starting-eleven.png',
+      imageSlug: '/images/the-squad-starting-eleven.png',
     },
     {
       word: 'BENCH',
       partOfSpeech: 'noun',
       definition: 'The area where substitute players and coaches sit during a match. "On the bench" means available to come on as a substitute.',
       example: 'There are seven players on the bench today — the coach has plenty of options if he needs to change things.',
-      imageSlug: '/images/bench.png',
+      imageSlug: '/images/the-squad-bench.png',
     },
     {
       word: 'SUBSTITUTE',
       partOfSpeech: 'noun',
       definition: 'A player who replaces another player during the match. Each team can usually make five substitutions.',
       example: 'He came on as a substitute in the 60th minute and scored within ten minutes of coming on.',
-      imageSlug: '/images/substitute.png',
+      imageSlug: '/images/the-squad-substitute.png',
     },
     {
       word: 'RESERVE',
@@ -61,7 +61,7 @@ export const theSquad: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The youth development system of a football club — young players train and develop here from a young age.',
       example: 'She joined the academy at 12 and made her first-team debut at 17 — a brilliant journey.',
-      imageSlug: '/images/academy.png',
+      imageSlug: '/images/the-squad-academy.png',
     },
     {
       word: 'FIRST TEAM',
@@ -82,7 +82,7 @@ export const theSquad: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The practice of changing players regularly — resting some and giving others chances to play.',
       example: 'The manager uses rotation to keep his squad fresh — no player starts more than three games in a row.',
-      imageSlug: '/images/rotation.png',
+      imageSlug: '/images/the-squad-rotation.png',
     },
   ],
 
@@ -91,7 +91,7 @@ export const theSquad: Lesson = {
       phrase: 'COME ON [AS A SUBSTITUTE]',
       definition: 'To enter the pitch as a substitute during a match.',
       example: 'She came on in the second half and changed the game completely — one goal and one assist.',
-      imageSlug: '/images/come-on-as-a-substitute.png',
+      imageSlug: '/images/the-squad-come-on-as-a-substitute.png',
     },
     {
       phrase: 'COME THROUGH THE ACADEMY',

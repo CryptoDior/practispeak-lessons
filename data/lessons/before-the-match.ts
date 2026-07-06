@@ -14,7 +14,7 @@ export const beforeTheMatch: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The exercises players do before the match to prepare their bodies.',
       example: 'The players did their warm-up on the pitch before kick-off.',
-      imageSlug: '/images/warm-up.png',
+      imageSlug: '/images/before-the-match-warm-up.png',
     },
     {
       word: 'LINE-UP',
@@ -35,21 +35,21 @@ export const beforeTheMatch: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The moment when the match begins — a player kicks the ball from the centre circle.',
       example: 'Kick-off is at three o\'clock this afternoon.',
-      imageSlug: '/images/kick-off.png',
+      imageSlug: '/images/before-the-match-kick-off.png',
     },
     {
       word: 'FORMATION',
       partOfSpeech: 'noun',
       definition: 'The way a team organises its players on the pitch — for example, four-four-two.',
       example: 'The manager chose a four-three-three formation for the match.',
-      imageSlug: '/images/formation.png',
+      imageSlug: '/images/before-the-match-formation.png',
     },
     {
       word: 'CAPTAIN',
       partOfSpeech: 'noun',
       definition: 'The leader of the team, who wears an armband.',
       example: 'The captain shook hands with the referee before kick-off.',
-      imageSlug: '/images/captain.png',
+      imageSlug: '/images/before-the-match-captain.png',
     },
     {
       word: 'TOSS',
@@ -63,7 +63,7 @@ export const beforeTheMatch: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A player on the bench who may come on during the match to replace another player.',
       example: 'Three substitutes are warming up on the side of the pitch.',
-      imageSlug: '/images/substitute.png',
+      imageSlug: '/images/before-the-match-substitute.png',
     },
   ],
 
@@ -90,7 +90,7 @@ export const beforeTheMatch: Lesson = {
       phrase: 'ON THE BENCH',
       definition: 'A substitute who is sitting and waiting to play.',
       example: 'Two strikers are on the bench tonight — they might come on in the second half.',
-      imageSlug: '/images/on-the-bench.png',
+      imageSlug: '/images/before-the-match-on-the-bench.png',
     },
     {
       phrase: 'WIN THE TOSS',

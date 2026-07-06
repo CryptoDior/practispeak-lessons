@@ -14,7 +14,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
       partOfSpeech: 'noun',
       definition: "The quality of requiring prompt attention or action. In sales, genuine urgency is rooted in the prospect's situation — what changes, costs more, or becomes harder the longer the decision is delayed. The difference between real urgency and manufactured pressure is whether the consequence of waiting belongs to the prospect or to the seller.",
       example: "Riley did not create urgency by inventing a deadline. She created it by making the cost of waiting specific: every month Marcus delayed, three more reps were operating on a broken process, and the gap between his team and his competitor's was compounding. The urgency was already in his numbers — she just made it visible.",
-      imageSlug: '/images/urgency.png',
+      imageSlug: '/images/creating-urgency-without-pressure-urgency.png',
     },
     {
       word: 'INACTION',
@@ -28,7 +28,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
       partOfSpeech: 'noun',
       definition: "The energy and direction a conversation, project, or decision process carries. Momentum is fragile — delays kill it, and restarting a stalled conversation requires significantly more effort than continuing one that is already moving. In sales, one of the real costs of 'let's revisit in Q1' is the loss of everything both sides built toward the decision.",
       example: 'Riley and Marcus had spent three meetings reaching the point where the case was clear and the internal support was there. A deferral to Q1 would not pause that progress — it would reset it. New quarter, new priorities, new reasons to delay. Riley named the cost of losing momentum before Marcus had a chance to treat it as a free option.',
-      imageSlug: '/images/momentum.png',
+      imageSlug: '/images/creating-urgency-without-pressure-momentum.png',
     },
     {
       word: 'COMPOUND',
@@ -63,7 +63,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Acting in anticipation of a future problem or opportunity rather than reacting after the fact. The language of urgency without pressure is fundamentally proactive — it helps the prospect act before the cost is undeniable rather than after it has already been paid.',
       example: 'Riley reframed the decision as proactive rather than reactive. Marcus did not have a crisis — yet. But the companies that were six months ahead of him had once been in the same position. They had made a proactive decision before the problem became urgent enough to be obvious. That was the choice on the table.',
-      imageSlug: '/images/proactive.png',
+      imageSlug: '/images/creating-urgency-without-pressure-proactive.png',
     }
   ],
 

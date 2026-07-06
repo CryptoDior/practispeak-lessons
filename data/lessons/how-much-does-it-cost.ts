@@ -14,28 +14,28 @@ export const howMuchDoesItCost: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The amount of money you pay for a product or service.',
       example: 'The price for our basic LinkedIn plan is €500 per month — that includes content, management, and a monthly report.',
-      imageSlug: '/images/price.png',
+      imageSlug: '/images/how-much-does-it-cost-price.png',
     },
     {
       word: 'DISCOUNT',
       partOfSpeech: 'noun',
       definition: 'A reduction in the original price — an amount taken off because of a special reason, like buying early or in large volume.',
       example: 'We offer a ten percent discount for clients who pay for six months in advance.',
-      imageSlug: '/images/discount.png',
+      imageSlug: '/images/how-much-does-it-cost-discount.png',
     },
     {
       word: 'OFFER',
       partOfSpeech: 'noun',
       definition: 'A special deal or arrangement — usually for a limited time or under specific conditions.',
       example: 'Our launch offer includes three months for the price of two — it is only available until the end of July.',
-      imageSlug: '/images/offer.png',
+      imageSlug: '/images/how-much-does-it-cost-offer.png',
     },
     {
       word: 'DEAL',
       partOfSpeech: 'noun',
       definition: 'An agreement between a buyer and a seller, often involving a good price or special terms.',
       example: 'We closed a deal with a new client last week — they signed up for a six-month contract.',
-      imageSlug: '/images/deal.png',
+      imageSlug: '/images/how-much-does-it-cost-deal.png',
     },
     {
       word: 'FREE TRIAL',
@@ -49,21 +49,21 @@ export const howMuchDoesItCost: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The amount of money a company or person has available to spend on something.',
       example: 'Dana asked the client about their budget before presenting any pricing options.',
-      imageSlug: '/images/budget.png',
+      imageSlug: '/images/how-much-does-it-cost-budget.png',
     },
     {
       word: 'QUOTE',
       partOfSpeech: 'noun',
       definition: 'A written document that tells a client how much something will cost — before they agree to buy.',
       example: 'Riley sent the client a quote with three different pricing options so they could choose what worked best.',
-      imageSlug: '/images/quote.png',
+      imageSlug: '/images/how-much-does-it-cost-quote.png',
     },
     {
       word: 'PACKAGE',
       partOfSpeech: 'noun',
       definition: 'A set of services or products sold together, usually at one fixed price.',
       example: 'Our starter package includes ten posts per month, comment management, and a monthly report.',
-      imageSlug: '/images/package.png',
+      imageSlug: '/images/how-much-does-it-cost-package.png',
     }
   ],
 
@@ -102,7 +102,7 @@ export const howMuchDoesItCost: Lesson = {
       phrase: 'LOCK IN [A PRICE]',
       definition: 'To agree on and fix a price so it does not change — often used in longer contracts.',
       example: 'If you sign up before the end of the month, you can lock in the launch price for the first year.',
-      imageSlug: '/images/lock-in-a-price.png',
+      imageSlug: '/images/how-much-does-it-cost-lock-in-a-price.png',
     }
   ],
 

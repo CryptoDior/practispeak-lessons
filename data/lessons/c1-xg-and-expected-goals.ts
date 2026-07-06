@@ -61,7 +61,7 @@ export const c1XgAndExpectedGoals: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A specific way of measuring something. In football analytics, metrics are the numbers used to describe performance — like xG, pass completion, or sprints per game.',
       example: '"xG is the most popular metric in modern football analysis."',
-      imageSlug: '/images/metric.png',
+      imageSlug: '/images/c1-xg-and-expected-goals-metric.png',
     },
     {
       word: 'PROBABILITY',
@@ -109,19 +109,19 @@ export const c1XgAndExpectedGoals: Lesson = {
       phrase: 'BACK UP',
       definition: 'To support something with evidence or data — to prove something is true using numbers.',
       example: '"His performance looked poor and the data backs that up — he created nothing all game."',
-      imageSlug: '/images/back-up.png',
+      imageSlug: '/images/c1-xg-and-expected-goals-back-up.png',
     },
     {
       phrase: 'MEASURE UP',
       definition: 'To compare well against a standard — to be good enough when you look at the numbers.',
       example: '"His xG numbers don\'t measure up to what you\'d expect from a striker at that price."',
-      imageSlug: '/images/measure-up.png',
+      imageSlug: '/images/c1-xg-and-expected-goals-measure-up.png',
     },
     {
       phrase: 'BEAR OUT',
       definition: 'To confirm or prove that something is true — when data shows that what you believed was correct.',
       example: '"The stats bear out what we all felt — they dominated but their finishing was poor."',
-      imageSlug: '/images/bear-out.png',
+      imageSlug: '/images/c1-xg-and-expected-goals-bear-out.png',
     },
   ],
 

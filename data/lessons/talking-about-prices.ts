@@ -14,7 +14,7 @@ export const talkingAboutPrices: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To have a particular price.',
       example: 'The Growth Plan costs $149 a month.',
-      imageSlug: '/images/cost.png',
+      imageSlug: '/images/talking-about-prices-cost.png',
     },
     {
       word: 'FEE',
@@ -42,14 +42,14 @@ export const talkingAboutPrices: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A document that shows how much a customer owes for a service.',
       example: 'We send an invoice at the start of each billing period.',
-      imageSlug: '/images/invoice.png',
+      imageSlug: '/images/talking-about-prices-invoice.png',
     },
     {
       word: 'QUOTE',
       partOfSpeech: 'noun',
       definition: 'A written estimate showing the price of a product or service.',
       example: 'I can send you a quote today with a full breakdown of costs.',
-      imageSlug: '/images/quote.png',
+      imageSlug: '/images/talking-about-prices-quote.png',
     },
     {
       word: 'CURRENCY',

@@ -33,7 +33,7 @@ export const postMatchInterviews: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Praise or recognition for doing something well. "Give credit to" = acknowledge someone\'s good performance.',
       example: 'You have to give credit to the opposition — they were very well organised and hard to break down.',
-      imageSlug: '/images/credit.png',
+      imageSlug: '/images/post-match-interviews-credit.png',
     },
     {
       word: 'CHARACTER',
@@ -61,7 +61,7 @@ export const postMatchInterviews: Lesson = {
       partOfSpeech: 'phrase',
       definition: 'Acknowledging when someone has done something well — even if you did not benefit from it.',
       example: 'Credit where it\'s due — their goalkeeper was exceptional today. He kept them in the match.',
-      imageSlug: '/images/credit-where-its-due.png',
+      imageSlug: '/images/post-match-interviews-credit-where-its-due.png',
     },
     {
       word: 'DUST YOURSELF OFF',
@@ -97,7 +97,7 @@ export const postMatchInterviews: Lesson = {
       phrase: 'MOVE ON',
       definition: 'To stop thinking about something that has passed — to look forward rather than backward.',
       example: 'We need to move on from that performance — the focus is now on Thursday\'s match.',
-      imageSlug: '/images/move-on.png',
+      imageSlug: '/images/post-match-interviews-move-on.png',
     },
     {
       phrase: 'TAKE RESPONSIBILITY',

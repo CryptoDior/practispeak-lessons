@@ -63,7 +63,7 @@ export const footballIdiomsInEverydayEnglish: Lesson = {
       partOfSpeech: 'phrase',
       definition: 'An action that harms the person who did it — similar to accidentally scoring against your own team.',
       example: '"Releasing the statement on the same day as the competitor\'s launch was a massive own goal — it got buried completely."',
-      imageSlug: '/images/own-goal.png',
+      imageSlug: '/images/football-idioms-in-everyday-english-own-goal.png',
     },
     {
       word: 'KICK OFF',
@@ -84,7 +84,7 @@ export const footballIdiomsInEverydayEnglish: Lesson = {
       partOfSpeech: 'phrase',
       definition: 'To take greater responsibility or perform at a higher level — especially when circumstances demand it.',
       example: '"With the captain injured, the vice-captain stepped up and led the team to the final."',
-      imageSlug: '/images/step-up.png',
+      imageSlug: '/images/football-idioms-in-everyday-english-step-up.png',
     },
     {
       word: 'A WHOLE NEW BALLGAME',
@@ -100,7 +100,7 @@ export const footballIdiomsInEverydayEnglish: Lesson = {
       phrase: 'KICK OFF',
       definition: 'To start or begin — an event, meeting, argument, or project.',
       example: '"The conference kicks off at nine — make sure you\'re there for the opening keynote."',
-      imageSlug: '/images/kick-off.png',
+      imageSlug: '/images/football-idioms-in-everyday-english-kick-off.png',
 },
     {
       phrase: 'STEP UP',
@@ -124,7 +124,7 @@ export const footballIdiomsInEverydayEnglish: Lesson = {
       phrase: 'SET UP',
       definition: 'To create the conditions for something — an opportunity, a goal, or a result.',
       example: '"The defensive error set up a one-on-one that the striker converted without hesitation."',
-      imageSlug: '/images/set-up.png',
+      imageSlug: '/images/football-idioms-in-everyday-english-set-up.png',
 },
     {
       phrase: 'PRESS ON',

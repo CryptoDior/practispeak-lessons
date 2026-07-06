@@ -40,14 +40,14 @@ export const c1ManagingConflict: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To become more serious or intense — when a small disagreement becomes a larger conflict.',
       example: '"A minor disagreement over a training drill escalated into a physical confrontation — that\'s never acceptable."',
-      imageSlug: '/images/escalate.png',
+      imageSlug: '/images/c1-managing-conflict-escalate.png',
     },
     {
       word: 'DE-ESCALATE',
       partOfSpeech: 'verb',
       definition: 'To calm a situation down — to reduce the intensity of a conflict before it gets worse.',
       example: '"The coach stepped in immediately to de-escalate — he separated the players and gave everyone a moment to breathe."',
-      imageSlug: '/images/de-escalate.png',
+      imageSlug: '/images/c1-managing-conflict-de-escalate.png',
     },
     {
       word: 'GRIEVANCE',
@@ -61,14 +61,14 @@ export const c1ManagingConflict: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A solution to a conflict — when a disagreement is settled and both sides can move forward.',
       example: '"The meeting ended with a clear resolution — the player agreed to the new role, the coach agreed to keep him informed."',
-      imageSlug: '/images/resolution.png',
+      imageSlug: '/images/c1-managing-conflict-resolution.png',
     },
     {
       word: 'TRANSPARENCY',
       partOfSpeech: 'noun',
       definition: 'Being open and honest about what is happening — keeping people informed so they don\'t feel left out or deceived.',
       example: '"The manager built trust through transparency — he always told players directly when they weren\'t in the starting eleven."',
-      imageSlug: '/images/transparency.png',
+      imageSlug: '/images/c1-managing-conflict-transparency.png',
     },
     {
       word: 'CONFRONTATIONAL',
@@ -91,7 +91,7 @@ export const c1ManagingConflict: Lesson = {
       phrase: 'CLEAR THE AIR',
       definition: 'To resolve a tense situation by talking openly — to have a direct conversation that removes tension and misunderstanding.',
       example: '"After the argument on the pitch, the two players sat down privately to clear the air before the next training session."',
-      imageSlug: '/images/clear-the-air.png',
+      imageSlug: '/images/c1-managing-conflict-clear-the-air.png',
     },
     {
       phrase: 'SPEAK UP',

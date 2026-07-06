@@ -89,7 +89,7 @@ export const questionsWhatWhoWhere: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The main goal or task you must complete to win a round or match.',
       example: 'What is the objective? Do we capture the flag or destroy the base?',
-      imageSlug: '/images/objective.png',
+      imageSlug: '/images/questions-what-who-where-objective.png',
     },
     {
       word: 'ENEMY',

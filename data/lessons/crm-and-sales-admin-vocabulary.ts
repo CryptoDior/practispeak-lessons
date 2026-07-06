@@ -14,21 +14,21 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A potential customer who has shown some level of interest but has not yet been qualified as a genuine sales prospect. Leads become prospects once they have been assessed for budget, authority, need, and timeline. Not every lead becomes a deal.',
       example: "James asked: How many new leads did you generate this week? Riley replied: I added 12 leads to the CRM — six from inbound enquiries and six from my own outreach. I've already qualified eight of them as genuine prospects with real budget and a clear need.",
-      imageSlug: '/images/lead.png',
+      imageSlug: '/images/crm-and-sales-admin-vocabulary-lead.png',
     },
     {
       word: 'PIPELINE',
       partOfSpeech: 'noun',
       definition: "The total collection of deals a salesperson or team is currently working on, at various stages of the sales process. A healthy pipeline has deals at multiple stages — not all about to close. You are always 'in' a pipeline, never 'on' one.",
       example: "James reviewed Riley's pipeline for the quarter: You have nine active deals in your pipeline right now — three at proposal stage, two in negotiation, and four still at initial contact. That's a well-distributed pipeline. Make sure the early-stage ones don't stall.",
-      imageSlug: '/images/pipeline.png',
+      imageSlug: '/images/crm-and-sales-admin-vocabulary-pipeline.png',
     },
     {
       word: 'DEAL',
       partOfSpeech: 'noun',
       definition: "A specific sales opportunity — a potential contract or purchase currently being negotiated with a named customer. Each deal in the CRM has a value, a stage, a close date, and an owner. 'To close a deal' means to win it.",
       example: "Riley explained: The Brightfield deal is my biggest this quarter — $28,000 on a 12-month contract. Marcus is in the negotiation stage. I'm confident it will close by the end of the month, which is why I've flagged it as high probability in the CRM.",
-      imageSlug: '/images/deal.png',
+      imageSlug: '/images/crm-and-sales-admin-vocabulary-deal.png',
     },
     {
       word: 'NOTE',
@@ -49,7 +49,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To assess whether a lead is a genuine potential customer based on four criteria: Budget (can they afford it?), Authority (can they approve it?), Need (do they have the problem your product solves?), and Timeline (are they ready to buy soon?). Qualifying leads early saves time.',
       example: "Riley explained her process: I qualify every lead within 48 hours of adding them to the CRM. If they don't have budget authority or a clear need, I mark them as 'not qualified' and move on. The four I didn't qualify this week had no decision-making authority.",
-      imageSlug: '/images/qualify.png',
+      imageSlug: '/images/crm-and-sales-admin-vocabulary-qualify.png',
     },
     {
       word: 'LOG',
@@ -63,7 +63,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       partOfSpeech: 'noun',
       definition: 'An estimate of expected revenue based on the deals currently in the pipeline and their probability of closing. Forecasting is a core part of pipeline reviews — managers use it to plan team targets, resources, and business decisions.',
       example: "James asked: What's your forecast for this quarter? Riley replied: I have four deals I'm confident will close — total value around $80,000. I've also marked two more as 'likely' for next quarter. The overall pipeline is in good shape for hitting target.",
-      imageSlug: '/images/forecast.png',
+      imageSlug: '/images/crm-and-sales-admin-vocabulary-forecast.png',
     }
   ],
 

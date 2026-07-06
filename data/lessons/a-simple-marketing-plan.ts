@@ -14,7 +14,7 @@ export const aSimpleMarketingPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Something you want to do or get.',
       example: 'Our goal is to get 500 new sign-ups this month.',
-      imageSlug: '/images/goal.png',
+      imageSlug: '/images/a-simple-marketing-plan-goal.png',
     },
     {
       word: 'PLAN',
@@ -28,7 +28,7 @@ export const aSimpleMarketingPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The way you decide to do something to get a good result.',
       example: 'Our strategy is to use social media to reach young business owners.',
-      imageSlug: '/images/strategy.png',
+      imageSlug: '/images/a-simple-marketing-plan-strategy.png',
     },
     {
       word: 'IDEA',
@@ -42,7 +42,7 @@ export const aSimpleMarketingPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A set of activities to tell people about a product or brand.',
       example: 'The campaign will run for four weeks on social media and email.',
-      imageSlug: '/images/campaign.png',
+      imageSlug: '/images/a-simple-marketing-plan-campaign.png',
     },
     {
       word: 'STEP',
@@ -56,14 +56,14 @@ export const aSimpleMarketingPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: 'What happens because of something you do.',
       example: 'The results of the last campaign were very good — we got 420 new sign-ups.',
-      imageSlug: '/images/result.png',
+      imageSlug: '/images/a-simple-marketing-plan-result.png',
     },
     {
       word: 'ACTION',
       partOfSpeech: 'noun',
       definition: 'Something you do as part of a plan.',
       example: 'Our first action is to create content for social media.',
-      imageSlug: '/images/action.png',
+      imageSlug: '/images/a-simple-marketing-plan-action.png',
     }
   ],
 
@@ -96,13 +96,13 @@ export const aSimpleMarketingPlan: Lesson = {
       phrase: 'COME UP WITH',
       definition: 'Think of a new idea.',
       example: 'The team came up with three great ideas for the next campaign.',
-      imageSlug: '/images/come-up-with.png',
+      imageSlug: '/images/a-simple-marketing-plan-come-up-with.png',
     },
     {
       phrase: 'BUILD ON',
       definition: 'Use something that worked before to make something even better.',
       example: 'The last campaign worked well, so we want to build on it next month.',
-      imageSlug: '/images/build-on.png',
+      imageSlug: '/images/a-simple-marketing-plan-build-on.png',
     }
   ],
 

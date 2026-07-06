@@ -14,7 +14,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
       partOfSpeech: 'noun',
       definition: "A contractual agreement that prevents one or both parties from working with competitors. Exclusivity can protect a partnership — but it limits flexibility and must be negotiated carefully.",
       example: "The agency proposed a 12-month exclusivity clause. Riley said: I understand why you want it — but I cannot agree to exclusivity across all marketing services. I am open to exclusivity within a defined scope — performance media only. Outside that, we need to be able to bring in specialist partners.",
-      imageSlug: '/images/exclusivity.png',
+      imageSlug: '/images/negotiating-contracts-and-partnerships-exclusivity.png',
     },
     {
       word: 'Indemnity',
@@ -28,7 +28,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
       partOfSpeech: 'abbreviation',
       definition: "Service Level Agreement — a contract that defines the minimum level of service a vendor must deliver. SLAs include response times, delivery timelines, uptime guarantees, and what happens if those standards are not met.",
       example: "Riley said: The SLA needs to be specific. 'Best efforts' is not an SLA — it is an excuse. I want 48-hour response times on all campaign queries, a 99.5% platform uptime guarantee, and clear escalation procedures if either of those is missed.",
-      imageSlug: '/images/sla.png',
+      imageSlug: '/images/negotiating-contracts-and-partnerships-sla.png',
     },
     {
       word: 'Performance clause',
@@ -49,14 +49,14 @@ export const negotiatingContractsAndPartnerships: Lesson = {
       partOfSpeech: 'noun',
       definition: "A fixed monthly fee paid to an agency or consultant in exchange for an agreed scope of work or availability. A retainer provides predictable cost but requires clear scope definition to avoid scope creep.",
       example: "Riley said: We pay the agency a monthly retainer of £25,000. In return, they handle all paid social, weekly reporting, and campaign management. If they want to add services, the retainer goes up — and that needs a change order, not an email.",
-      imageSlug: '/images/retainer.png',
+      imageSlug: '/images/negotiating-contracts-and-partnerships-retainer.png',
     },
     {
       word: 'Scope of work',
       partOfSpeech: 'noun',
       definition: "A detailed description of what a vendor or partner will deliver — including deliverables, timelines, responsibilities, and what is explicitly excluded. A clear scope of work prevents scope creep and disputes.",
       example: "Marcus said: The agency keeps adding things to our project. Riley said: That is scope creep and it is a contract problem. Your scope of work should list exactly what is included and what requires a separate agreement. Send it back to them with a change order for everything that was not in the original scope.",
-      imageSlug: '/images/scope-of-work.png',
+      imageSlug: '/images/negotiating-contracts-and-partnerships-scope-of-work.png',
     },
     {
       word: 'Liability cap',

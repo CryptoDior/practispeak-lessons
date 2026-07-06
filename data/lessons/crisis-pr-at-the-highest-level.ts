@@ -42,14 +42,14 @@ export const crisisPrAtTheHighestLevel: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The story that people tell about what happened. In a crisis, your job is to make sure the true narrative — the one most favourable to your brand — is the one that sticks.',
       example: "Riley said: Right now the media is writing the narrative. We need to get out there with our own version — fast, honest, and simple.",
-      imageSlug: '/images/narrative.png',
+      imageSlug: '/images/crisis-pr-at-the-highest-level-narrative.png',
     },
     {
       word: 'HOLDING STATEMENT',
       partOfSpeech: 'noun',
       definition: 'A short public statement made while the facts are still being investigated. It buys time without making promises you cannot keep.',
       example: "'We are aware of the reports and are investigating urgently. We will provide a full update within 24 hours.' That is a holding statement. It's not much — but it fills the silence.",
-      imageSlug: '/images/holding-statement.png',
+      imageSlug: '/images/crisis-pr-at-the-highest-level-holding-statement.png',
     },
     {
       word: 'REPUTATIONAL DAMAGE',
@@ -63,7 +63,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Taking responsibility for what happened — not deflecting blame or making excuses.',
       example: "Marcus drafted a statement that blamed a supplier. Riley said: Remove that. The public doesn't care who's at fault internally — they want accountability from the brand. Take responsibility first.",
-      imageSlug: '/images/accountability.png',
+      imageSlug: '/images/crisis-pr-at-the-highest-level-accountability.png',
     }
   ],
 

@@ -21,7 +21,7 @@ export const customerFeedback: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A written comment from a customer about their experience with a product or service.',
       example: 'A new client said they found us through a review on G2 — positive reviews really help.',
-      imageSlug: '/images/review.png',
+      imageSlug: '/images/customer-feedback-review.png',
     },
     {
       word: 'COMPLAINT',
@@ -35,14 +35,14 @@ export const customerFeedback: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A positive statement from a happy customer, used in marketing to show others the product works.',
       example: 'We use client testimonials on our website — real words from real people are more convincing than ads.',
-      imageSlug: '/images/testimonial.png',
+      imageSlug: '/images/customer-feedback-testimonial.png',
     },
     {
       word: 'SATISFACTION',
       partOfSpeech: 'noun',
       definition: 'How happy a customer feels about a product or service.',
       example: 'We measure client satisfaction with a short survey at the end of each campaign.',
-      imageSlug: '/images/satisfaction.png',
+      imageSlug: '/images/customer-feedback-satisfaction.png',
     },
     {
       word: 'SURVEY',
@@ -56,14 +56,14 @@ export const customerFeedback: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A score that shows how likely customers are to recommend your product to someone else. Often called NPS.',
       example: 'Our NPS is 72 — a score above 50 is considered excellent in the B2B sector.',
-      imageSlug: '/images/net-promoter-score.png',
+      imageSlug: '/images/customer-feedback-net-promoter-score.png',
     },
     {
       word: 'CHURN',
       partOfSpeech: 'noun',
       definition: 'The number or percentage of customers who stop using a product or service.',
       example: 'We need to reduce churn — too many clients are leaving after six months.',
-      imageSlug: '/images/churn.png',
+      imageSlug: '/images/customer-feedback-churn.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const customerFeedback: Lesson = {
       phrase: 'FOLLOW UP ON',
       definition: 'Contact a customer again after a complaint or feedback to check if the issue was resolved.',
       example: 'We always follow up on complaints within 24 hours to make sure the client is happy.',
-      imageSlug: '/images/follow-up-on.png',
+      imageSlug: '/images/customer-feedback-follow-up-on.png',
     },
     {
       phrase: 'ACT ON FEEDBACK',

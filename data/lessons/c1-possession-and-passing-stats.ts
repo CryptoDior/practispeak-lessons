@@ -33,7 +33,7 @@ export const c1PossessionAndPassingStats: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The percentage of time a team has the ball during a match. 60% possession means a team had the ball for 60% of the playing time.',
       example: '"City finished the match with 72% possession — but United\'s direct play earned them the three points."',
-      imageSlug: '/images/possession.png',
+      imageSlug: '/images/c1-possession-and-passing-stats-possession.png',
     },
     {
       word: 'PASS COMPLETION RATE',
@@ -61,7 +61,7 @@ export const c1PossessionAndPassingStats: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A pass played into empty space behind the defensive line for a teammate to run onto.',
       example: '"The through ball cut open the defence and gave the striker a clear run on goal."',
-      imageSlug: '/images/through-ball.png',
+      imageSlug: '/images/c1-possession-and-passing-stats-through-ball.png',
     },
     {
       word: 'BALL RETENTION',
@@ -75,7 +75,7 @@ export const c1PossessionAndPassingStats: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The ability to keep the ball and play out under pressure from pressing opponents. Good press resistance means you don\'t panic when pressed.',
       example: '"Despite heavy pressing from the opponent, their press resistance was impressive — they kept calm and played through."',
-      imageSlug: '/images/press-resistance.png',
+      imageSlug: '/images/c1-possession-and-passing-stats-press-resistance.png',
     },
     {
       word: 'TURNOVER',
@@ -91,13 +91,13 @@ export const c1PossessionAndPassingStats: Lesson = {
       phrase: 'PLAY OUT',
       definition: 'To pass the ball out from the back — to build play from the goalkeeper and defenders rather than hoofing it long.',
       example: '"They played out well under pressure — the keeper was comfortable with the ball at his feet."',
-      imageSlug: '/images/play-out.png',
+      imageSlug: '/images/c1-possession-and-passing-stats-play-out.png',
     },
     {
       phrase: 'GIVE AWAY',
       definition: 'To lose the ball carelessly — through a bad pass, poor touch, or not seeing an opponent.',
       example: '"They gave away the ball 18 times in the first half — that\'s why they couldn\'t control the game."',
-      imageSlug: '/images/give-away.png',
+      imageSlug: '/images/c1-possession-and-passing-stats-give-away.png',
     },
     {
       phrase: 'MOVE UP',
@@ -109,7 +109,7 @@ export const c1PossessionAndPassingStats: Lesson = {
       phrase: 'BREAK DOWN',
       definition: 'To fail or stop working — used when a team\'s build-up play or attacking move fails to produce a chance.',
       example: '"Their passing broke down at the final third — they couldn\'t find a way through the low block."',
-      imageSlug: '/images/break-down.png',
+      imageSlug: '/images/c1-possession-and-passing-stats-break-down.png',
     },
     {
       phrase: 'SWITCH ON',

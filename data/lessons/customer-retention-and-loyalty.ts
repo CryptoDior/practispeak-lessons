@@ -14,7 +14,7 @@ export const customerRetentionAndLoyalty: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: "The rate at which customers stop buying from a company or cancel their subscription in a given period. High churn means you are losing customers faster than you can replace them. Reducing churn — even slightly — can have a dramatic impact on revenue because retained customers also spend more over time.",
       example: "Marcus opened the retention review: Our monthly churn rate is 4.2% — which sounds small but means we are losing half our customer base every year. Riley replied: The benchmark for our sector is 2.5%. We need to understand why customers are leaving. Dana added: Exit surveys show the top reason is that customers do not feel they are getting enough value after the first 90 days. The onboarding experience is where we are losing them.",
-      imageSlug: '/images/churn.png',
+      imageSlug: '/images/customer-retention-and-loyalty-churn.png',
     },
     {
       word: 'NPS',
@@ -56,14 +56,14 @@ export const customerRetentionAndLoyalty: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: "A campaign or effort designed to bring back former customers who have already cancelled or stopped purchasing. Win-back campaigns are different from re-engagement campaigns — re-engagement targets customers who are still with you but at risk; win-back targets customers who have already left.",
       example: "Marcus proposed: We should run a win-back campaign targeting customers who left in the last 12 months. Dana asked: What would the incentive be? Marcus replied: Not a discount — that devalues the product. We should reach out with a genuine update — show them what has changed since they left, what new value is now available, and give them a compelling reason to come back. Riley: And personalise the message based on the reason they left. Someone who left because of pricing gets a different message from someone who left because of missing features.",
-      imageSlug: '/images/win-back.png',
+      imageSlug: '/images/customer-retention-and-loyalty-win-back.png',
     },
     {
       word: 'ONBOARDING',
       partOfSpeech: 'noun',
       definition: "The process of introducing a new customer to the product or service and helping them get their first meaningful result quickly. Good onboarding is one of the most powerful retention tools available — customers who reach their first success early are far less likely to churn.",
       example: "Dana presented the finding: Our churn is highest in months two and three — which is a classic sign of weak onboarding. Riley agreed: If a customer reaches their first meaningful outcome in week one, churn in months two and three is dramatically lower. Dana: The onboarding sequence needs to be redesigned around one goal — getting the customer to their first win as fast as possible. Everything else can wait.",
-      imageSlug: '/images/onboarding.png',
+      imageSlug: '/images/customer-retention-and-loyalty-onboarding.png',
     },
   ],
 

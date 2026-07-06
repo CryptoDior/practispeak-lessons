@@ -14,7 +14,7 @@ export const advancedFollowUpStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: "A concise, purposeful summary of what was discussed, agreed, and committed to in a previous conversation — structured to reinforce the value narrative and confirm understanding on both sides. A strategic recap does more than document what was said: it frames what was discussed in terms of the buyer's stated problems and the proposed solution's outcomes, and it creates a written record of any commitments made.",
       example: "Riley's follow-up email began: Following our conversation on Thursday, I wanted to send a brief recap — not just of what we covered, but of how I see it connecting to the three priorities you outlined at the start of our relationship. The first priority was [X], and here's where we are on that...",
-      imageSlug: '/images/recap.png',
+      imageSlug: '/images/advanced-follow-up-strategy-recap.png',
     },
     {
       word: 'VALUE REMINDER',
@@ -63,7 +63,7 @@ export const advancedFollowUpStrategy: Lesson = {
       partOfSpeech: 'phrase',
       definition: "Any factor — internal to the buyer, external in the market, or related to the vendor's own execution — that makes a deal less likely to close on time or at the expected value. Common sources of deal risk include: a key champion leaving the organisation, a budget freeze, a competitor gaining traction internally, a technical blocker surfacing late, or a change in the buyer's strategic priorities.",
       example: "Riley assessed the deal risk frankly: The fact that Marcus hasn't responded in three weeks is a risk signal — not necessarily that the deal is lost, but that something has changed internally. The deal risk I need to investigate is whether there's a new blocker, whether my champion has lost influence, whether a competitor has moved, or whether the internal priority has simply shifted. I can't manage a risk I haven't identified.",
-      imageSlug: '/images/deal-risk.png',
+      imageSlug: '/images/advanced-follow-up-strategy-deal-risk.png',
     }
   ],
 

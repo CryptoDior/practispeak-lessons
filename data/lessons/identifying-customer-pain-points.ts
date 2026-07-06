@@ -14,7 +14,7 @@ export const identifyingCustomerPainPoints: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A point of resistance or difficulty in a process — something that slows things down or creates unnecessary effort without adding value.',
       example: 'There is a lot of friction in their approval process — every deal has to go through three sign-offs before anyone can move forward.',
-      imageSlug: '/images/friction.png',
+      imageSlug: '/images/identifying-customer-pain-points-friction.png',
     },
     {
       word: 'SYMPTOM',
@@ -35,7 +35,7 @@ export const identifyingCustomerPainPoints: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The measurable or felt effect a problem has on the business, the team, or an outcome — what the problem is actually costing.',
       example: 'Understanding the impact of a problem is what turns a vague complaint into a business case — it answers the question: why does this matter?',
-      imageSlug: '/images/impact.png',
+      imageSlug: '/images/identifying-customer-pain-points-impact.png',
     },
     {
       word: 'RECURRING',
@@ -49,14 +49,14 @@ export const identifyingCustomerPainPoints: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The point at which a problem becomes serious enough to act on — when the pain is bad enough that doing nothing is no longer acceptable.',
       example: 'Most customers have a threshold — until a problem crosses it, they will live with it. Your job is to find out how close they are to that line.',
-      imageSlug: '/images/threshold.png',
+      imageSlug: '/images/identifying-customer-pain-points-threshold.png',
     },
     {
       word: 'UNDERLYING',
       partOfSpeech: 'adjective',
       definition: 'Existing beneath the surface — the real reason something is happening, which may not be immediately obvious from the visible symptoms.',
       example: 'The underlying issue was not the software — it was that the team had never agreed on a shared definition of what a qualified lead actually was.',
-      imageSlug: '/images/underlying.png',
+      imageSlug: '/images/identifying-customer-pain-points-underlying.png',
     },
     {
       word: 'QUANTIFY',

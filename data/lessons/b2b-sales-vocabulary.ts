@@ -21,21 +21,21 @@ export const b2bSalesVocabulary: Lesson = {
       partOfSpeech: 'noun',
       definition: "A formal document outlining a vendor's proposed solution, commercial terms, implementation plan, and value case — designed to move a qualified prospect from interest to decision. In a formal procurement process, a proposal typically responds to specific criteria defined in an RFP and must be structured to allow systematic evaluation against those criteria.",
       example: "Riley explained her proposal structure: I've structured the proposal to mirror your RFP exactly — each of your stated requirements is addressed in the corresponding section, and there's a compliance matrix at the back so your procurement team can map our response directly to their evaluation criteria. I didn't want them to have to search for the answers.",
-      imageSlug: '/images/proposal.png',
+      imageSlug: '/images/b2b-sales-vocabulary-proposal.png',
     },
     {
       word: 'CONTRACT',
       partOfSpeech: 'noun',
       definition: 'The binding legal agreement that formalises the commercial terms of a business relationship — including scope, pricing, SLA, liability, IP rights, data handling, and termination conditions. In complex B2B sales, the contract often differs significantly from the proposal and requires legal review, negotiation, and formal sign-off before execution.',
       example: "Marcus said: Our legal team will send the contract once procurement has cleared you through the vendor approval process. Riley replied: Understood — and I'd flag that in my experience, the first pass from legal typically generates between ten and fifteen changes. I'd recommend building at least three weeks into the timeline for contract negotiation, so we're not pressured near the board meeting date.",
-      imageSlug: '/images/contract.png',
+      imageSlug: '/images/b2b-sales-vocabulary-contract.png',
     },
     {
       word: 'STAKEHOLDER',
       partOfSpeech: 'noun',
       definition: 'Any individual or group with a significant interest in, or influence over, a purchasing decision. In complex B2B sales, stakeholders typically include the business sponsor, technical evaluators, end users, procurement, legal, and — for large contracts — the CFO or CEO. Effective stakeholder management requires identifying all stakeholders early, understanding their individual priorities, and ensuring each is appropriately engaged.',
       example: "Riley mapped the stakeholders explicitly: Based on our conversations, I've identified four key stakeholders: you as the business sponsor, your procurement lead on commercial terms, your IT security team on compliance and integration, and your legal team for contract review. Have I missed anyone? — because knowing the full map early prevents surprises at the final approval stage.",
-      imageSlug: '/images/stakeholder.png',
+      imageSlug: '/images/b2b-sales-vocabulary-stakeholder.png',
     },
     {
       word: 'RFP',
@@ -49,7 +49,7 @@ export const b2bSalesVocabulary: Lesson = {
       partOfSpeech: 'abbreviation',
       definition: 'Service Level Agreement — the section of a contract that defines the minimum performance standards a vendor is committed to meeting, typically including uptime guarantees, response times, resolution times, and the remediation or penalty terms that apply if those standards are not met.',
       example: "Riley described the SLA terms: Our standard SLA commits to 99.9% uptime, a four-hour response time for critical issues, and a 24-hour resolution target for anything affecting core functionality. If we fall below the agreed uptime threshold, there are financial penalty clauses in the contract — a credit applied to the following quarter's invoice. That gives your team a contractual recourse, not just a service promise.",
-      imageSlug: '/images/sla.png',
+      imageSlug: '/images/b2b-sales-vocabulary-sla.png',
     },
     {
       word: 'VENDOR',

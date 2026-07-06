@@ -42,14 +42,14 @@ export const brandArchitecture: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The commercial value built up through customer recognition and positive feelings about a brand — the extra price customers are willing to pay, the trust they give, and the loyalty they show, just because of the brand name. High brand equity means lower costs to win new customers and more room to charge a premium price.',
       example: "Marcus made the financial case: This is why brand architecture matters commercially. If we dilute the MarketBridge brand by putting it on too many unrelated products, we erode the brand equity we've spent five years building. That equity is worth money — it's the reason customers choose us over a cheaper competitor. We shouldn't gamble with it.",
-      imageSlug: '/images/brand-equity.png',
+      imageSlug: '/images/brand-architecture-brand-equity.png',
     },
     {
       word: 'PORTFOLIO',
       partOfSpeech: 'noun',
       definition: 'The full set of brands, products, or services a company manages. A well-structured portfolio gives every brand a clear role — no unnecessary overlap, no brands stealing customers from each other, and a clear logic for which brand serves which customer at which price.',
       example: "Dana reviewed the portfolio health: Our current portfolio has four products, and honestly, two of them are competing for the same customer. That's cannibalisation — it means we're spending double the marketing budget to serve one customer need. A clear portfolio architecture should give every product a distinct role and a distinct audience. Right now, the boundaries aren't clear enough.",
-      imageSlug: '/images/portfolio.png',
+      imageSlug: '/images/brand-architecture-portfolio.png',
     },
     {
       word: 'BRAND HIERARCHY',

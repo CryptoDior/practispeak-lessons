@@ -28,7 +28,7 @@ export const confirmingCustomerDetails: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Right and without any mistakes. After you repeat the details back, you ask: Is that correct?',
       example: 'Riley read the email back to Marcus and asked: Is that correct? Marcus checked and said: Yes, that is correct — you have it right.',
-      imageSlug: '/images/correct.png',
+      imageSlug: '/images/confirming-customer-details-correct.png',
     },
     {
       word: 'REPEAT',
@@ -49,14 +49,14 @@ export const confirmingCustomerDetails: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To change information in a system to make it correct and current. When a customer gives you new details, you update their profile.',
       example: 'Marcus gave Riley his new phone number. Riley said: Thank you — I will update that in our system right now. You will see the change in your account.',
-      imageSlug: '/images/update.png',
+      imageSlug: '/images/confirming-customer-details-update.png',
     },
     {
       word: 'CONTACT',
       partOfSpeech: 'noun',
       definition: 'Information used to reach someone — such as their email address or phone number. In B2B sales, you always collect contact details for every new customer.',
       example: 'Riley said: I need your contact details before I can create the account. Can I get your email and phone number?',
-      imageSlug: '/images/contact.png',
+      imageSlug: '/images/confirming-customer-details-contact.png',
     },
     {
       word: 'DOUBLE-CHECK',

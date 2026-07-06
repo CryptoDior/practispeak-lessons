@@ -33,7 +33,7 @@ export const theOffsideRule: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'When an attacking player is closer to the opponent\'s goal than the last defender at the moment the ball is played.',
       example: 'He ran through on goal — but the flag is up. He was offside.',
-      imageSlug: '/images/offside.png',
+      imageSlug: '/images/the-offside-rule-offside.png',
     },
     {
       word: 'ONSIDE',
@@ -61,21 +61,21 @@ export const theOffsideRule: Lesson = {
       partOfSpeech: 'abbreviation',
       definition: 'Video Assistant Referee — a technology system that reviews decisions including offside calls.',
       example: 'VAR is checking the offside line — it could take a few minutes.',
-      imageSlug: '/images/var.png',
+      imageSlug: '/images/the-offside-rule-var.png',
     },
     {
       word: 'TRAP',
       partOfSpeech: 'noun / verb',
       definition: 'A defensive tactic where defenders step forward simultaneously to catch attackers in an offside position.',
       example: 'The defence set a trap — all four stepped forward at once and three strikers were caught offside.',
-      imageSlug: '/images/offside-trap.png',
+      imageSlug: '/images/the-offside-rule-offside-trap.png',
     },
     {
       word: 'LEVEL',
       partOfSpeech: 'adjective',
       definition: 'When an attacker is exactly even with the last defender — which means the player is onside, not offside.',
       example: 'She was level with the last defender — you cannot be offside if you are level.',
-      imageSlug: '/images/level.png',
+      imageSlug: '/images/the-offside-rule-level.png',
     },
     {
       word: 'LINE',

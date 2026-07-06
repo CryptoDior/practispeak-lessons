@@ -14,7 +14,7 @@ export const thisIsOurNewProduct: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The moment when a new product, service, or campaign is officially introduced to the public for the first time.',
       example: 'The launch of our new reporting tool was a big success — we got fifty sign-ups in the first week.',
-      imageSlug: '/images/launch.png',
+      imageSlug: '/images/this-is-our-new-product-launch.png',
     },
     {
       word: 'RELEASE',
@@ -28,7 +28,7 @@ export const thisIsOurNewProduct: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To show or tell people about something for the first time — often used for exciting announcements.',
       example: "At the conference, Riley revealed the name of the agency's new service package for the first time.",
-      imageSlug: '/images/reveal.png',
+      imageSlug: '/images/this-is-our-new-product-reveal.png',
     },
     {
       word: 'ANNOUNCE',
@@ -42,28 +42,28 @@ export const thisIsOurNewProduct: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Something that did not exist before, or that someone is seeing or hearing about for the first time.',
       example: 'Our new service is designed for companies that want to grow on LinkedIn without doing the work themselves.',
-      imageSlug: '/images/new.png',
+      imageSlug: '/images/this-is-our-new-product-new.png',
     },
     {
       word: 'FEATURE',
       partOfSpeech: 'noun',
       definition: 'A specific thing that a product can do — one of its abilities or benefits.',
       example: 'The best feature of our platform is the weekly performance report — clients love seeing their results every Monday.',
-      imageSlug: '/images/feature.png',
+      imageSlug: '/images/this-is-our-new-product-feature.png',
     },
     {
       word: 'AVAILABLE',
       partOfSpeech: 'adjective',
       definition: 'Ready to use, buy, or access. When something is available, customers can get it now.',
       example: 'Our new service is available from the first of July — you can sign up on our website today.',
-      imageSlug: '/images/available.png',
+      imageSlug: '/images/this-is-our-new-product-available.png',
     },
     {
       word: 'BENEFIT',
       partOfSpeech: 'noun',
       definition: 'The positive result or advantage that a product gives the customer — what they gain from using it.',
       example: 'The main benefit of our tool is that it saves marketing teams around five hours of work every week.',
-      imageSlug: '/images/benefit.png',
+      imageSlug: '/images/this-is-our-new-product-benefit.png',
     }
   ],
 
@@ -72,19 +72,19 @@ export const thisIsOurNewProduct: Lesson = {
       phrase: 'ROLL OUT [SOMETHING]',
       definition: 'To introduce a new product, service, or change — often gradually, starting with a small group first.',
       example: 'We are rolling out our new service to existing clients first, then we will open it to everyone in September.',
-      imageSlug: '/images/roll-out-something.png',
+      imageSlug: '/images/this-is-our-new-product-roll-out-something.png',
     },
     {
       phrase: 'SIGN UP FOR [SOMETHING]',
       definition: 'To register or put your name down to use a product or service.',
       example: 'Over two hundred people signed up for early access to our new tool in the first three days.',
-      imageSlug: '/images/sign-up-for-something.png',
+      imageSlug: '/images/this-is-our-new-product-sign-up-for-something.png',
     },
     {
       phrase: 'COME WITH [SOMETHING]',
       definition: 'To include something — used to describe what is included in a product or package.',
       example: 'Every plan comes with a dedicated account manager and a monthly performance report.',
-      imageSlug: '/images/come-with-something.png',
+      imageSlug: '/images/this-is-our-new-product-come-with-something.png',
     },
     {
       phrase: 'BRING OUT [SOMETHING]',

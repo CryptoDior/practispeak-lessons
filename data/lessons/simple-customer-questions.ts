@@ -14,28 +14,28 @@ export const simpleCustomerQuestions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The amount of money you pay for something.',
       example: 'The price of the Growth Plan is $149 a month.',
-      imageSlug: '/images/price.png',
+      imageSlug: '/images/simple-customer-questions-price.png',
     },
     {
       word: 'AVAILABLE',
       partOfSpeech: 'adjective',
       definition: 'Ready to use or buy right now; not out of stock or unavailable.',
       example: 'Yes, a 14-day free trial is available right now — no payment details needed.',
-      imageSlug: '/images/available.png',
+      imageSlug: '/images/simple-customer-questions-available.png',
     },
     {
       word: 'CONFIRM',
       partOfSpeech: 'verb',
       definition: 'To say clearly that something is true or will definitely happen.',
       example: 'Can you confirm the trial period? I want to be sure before I sign up.',
-      imageSlug: '/images/confirm.png',
+      imageSlug: '/images/simple-customer-questions-confirm.png',
     },
     {
       word: 'ACCESS',
       partOfSpeech: 'noun',
       definition: 'The right or ability to use a product, system, or service.',
       example: 'You get full access to all features from the moment you sign up.',
-      imageSlug: '/images/access.png',
+      imageSlug: '/images/simple-customer-questions-access.png',
     },
     {
       word: 'IMMEDIATELY',
@@ -49,7 +49,7 @@ export const simpleCustomerQuestions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A reduction in the normal price.',
       example: 'We offer a discount if you pay for the full year upfront.',
-      imageSlug: '/images/discount.png',
+      imageSlug: '/images/simple-customer-questions-discount.png',
     },
     {
       word: 'QUERY',
@@ -63,7 +63,7 @@ export const simpleCustomerQuestions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A period when you can use a product for free before deciding to buy.',
       example: 'The trial is 14 days — completely free, no credit card required.',
-      imageSlug: '/images/trial.png',
+      imageSlug: '/images/simple-customer-questions-trial.png',
     }
   ],
 

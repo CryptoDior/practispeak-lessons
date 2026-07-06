@@ -21,14 +21,14 @@ export const luxuryAndPremiumMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: "The quality of being available only to a limited group of people — by price, by invitation, by limited quantity, or by membership. In luxury marketing, exclusivity is a core value: the product is desirable partly because not everyone can have it. Exclusivity is actively maintained through pricing, distribution, and access.",
       example: "Exclusivity is not accidental for Crestwood — they deliberately limit annual production to 12,000 cases. The waitlist for the flagship expression is currently 18 months. Scarcity is the strategy, not a supply constraint.",
-      imageSlug: '/images/exclusivity.png',
+      imageSlug: '/images/luxury-and-premium-marketing-exclusivity.png',
     },
     {
       word: 'HERITAGE',
       partOfSpeech: 'noun',
       definition: "The history, traditions, and origins of a brand — especially when that history represents quality, expertise, or a connection to a specific place or craft. In luxury marketing, heritage is a powerful differentiator because it cannot be bought or replicated quickly. A brand with 200 years of history has something a new brand simply cannot have.",
       example: "Aurel's heritage dates to 1887, and every campaign references it. The founder's original workshop in Geneva appears in the brand book and in every retail environment. Heritage is the competitive advantage no competitor can replicate.",
-      imageSlug: '/images/heritage.png',
+      imageSlug: '/images/luxury-and-premium-marketing-heritage.png',
     },
     {
       word: 'CRAFTSMANSHIP',
@@ -49,7 +49,7 @@ export const luxuryAndPremiumMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: "The quality of being rare or in limited supply. In luxury marketing, scarcity is often deliberately created — through limited editions, limited production runs, or waitlists — because scarcity increases perceived value and desire. The less available something is, the more people want it.",
       example: "Vellum limits each letterpress collection to 200 numbered sets. The scarcity is real, not manufactured — the production method genuinely cannot scale. But the brand chooses to keep it that way because the limitation is core to the positioning.",
-      imageSlug: '/images/scarcity.png',
+      imageSlug: '/images/luxury-and-premium-marketing-scarcity.png',
     },
     {
       word: 'BRAND DESIRABILITY',

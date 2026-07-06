@@ -33,14 +33,14 @@ export const defendingAsAUnit: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The horizontal line of defenders — usually the four defenders in a back four. How high or deep this line sits is a key tactical decision.',
       example: 'They kept a very high defensive line — leaving the opposition strikers in an offside position.',
-      imageSlug: '/images/defensive-line.png',
+      imageSlug: '/images/defending-as-a-unit-defensive-line.png',
     },
     {
       word: 'COMPACT',
       partOfSpeech: 'adjective',
       definition: 'When the team stays close together — with small spaces between players. A compact team is hard to play through.',
       example: 'They were incredibly compact — there was no space between the midfield and defence.',
-      imageSlug: '/images/compact.png',
+      imageSlug: '/images/defending-as-a-unit-compact.png',
     },
     {
       word: 'ZONAL MARKING',
@@ -61,14 +61,14 @@ export const defendingAsAUnit: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The organised position and structure of the defending team — staying in the right positions relative to each other.',
       example: 'We must keep our shape — if one player pushes forward, it creates a gap for the opposition to exploit.',
-      imageSlug: '/images/shape.png',
+      imageSlug: '/images/defending-as-a-unit-shape.png',
     },
     {
       word: 'CLEARANCE',
       partOfSpeech: 'noun',
       definition: 'When a defender kicks the ball away from danger — out of their own penalty area.',
       example: 'The centre-back made a vital clearance on the goal line — the ball was going in until she got her foot to it.',
-      imageSlug: '/images/clearance.png',
+      imageSlug: '/images/defending-as-a-unit-clearance.png',
     },
     {
       word: 'COVER',
@@ -82,7 +82,7 @@ export const defendingAsAUnit: Lesson = {
       partOfSpeech: 'noun',
       definition: 'When the defensive line moves forward at the same moment to leave opposition attackers in an offside position.',
       example: 'They played the offside trap — all four defenders stepped forward together and the striker was caught offside.',
-      imageSlug: '/images/offside-trap.png',
+      imageSlug: '/images/defending-as-a-unit-offside-trap.png',
     },
   ],
 

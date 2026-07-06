@@ -14,14 +14,14 @@ export const pitchingToInvestorsOrPartners: Lesson = {
       partOfSpeech: 'noun',
       definition: "In an investor context, a favourable convergence of market conditions, timing, and capability that makes a specific business viable and scalable. 'The opportunity' is not just a problem — it is the articulation of why this problem, in this market, at this moment, is worth backing. Pitchers who describe a large, underserved, and timely opportunity give investors a reason to act.",
       example: "Riley opened the pitch with precision: The opportunity we're addressing is not simply a product gap — it's a structural failure in how enterprises manage sales capability. A $4.8 billion market that has been dominated by one-time workshops and outdated content for thirty years is not just an opportunity. It's a disruption waiting to happen.",
-      imageSlug: '/images/opportunity.png',
+      imageSlug: '/images/pitching-to-investors-or-partners-opportunity.png',
     },
     {
       word: 'MARKET',
       partOfSpeech: 'noun',
       definition: 'The total addressable space of potential customers for a product or service. Sophisticated pitchers distinguish between TAM (total addressable market), SAM (serviceable addressable market), and SOM (share of market being targeted). Investors scrutinise market size claims carefully — too small signals a ceiling, too large signals a lack of focus.',
       example: 'Riley presented the market with clarity: Our total addressable market is $4.8 billion globally. Our serviceable addressable market — mid-market and enterprise B2B sales organisations — is $1.4 billion. We are not trying to own the whole market. We are targeting the segment where willingness to pay is highest and switching costs are most entrenched.',
-      imageSlug: '/images/market.png',
+      imageSlug: '/images/pitching-to-investors-or-partners-market.png',
     },
     {
       word: 'TRACTION',
@@ -49,7 +49,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
       partOfSpeech: 'noun',
       definition: "The specific characteristic that makes a product or business meaningfully and defensibly distinct from its competitors. A differentiator is not a feature — it is an advantage that is difficult to replicate and that directly influences the customer's decision to choose you over the alternative.",
       example: 'Riley described the competitive position: Our differentiator is not the content — any company can build sales training content. Our differentiator is the integration layer. We sit inside the CRM workflow, which means learning happens in context, at the point of need, rather than in a separate training environment that reps ignore.',
-      imageSlug: '/images/differentiator.png',
+      imageSlug: '/images/pitching-to-investors-or-partners-differentiator.png',
     },
     {
       word: 'RUNWAY',
@@ -63,7 +63,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
       partOfSpeech: 'phrase',
       definition: 'The process by which an investor or partner thoroughly investigates a business before committing capital or resources. Due diligence covers financials, legal structure, customer references, technology, team, and competitive landscape. A founder who anticipates due diligence questions and answers them proactively signals preparedness and builds investor confidence.',
       example: "Riley closed the pitch by removing friction: I'll send you the data room link today — it contains our full financials, three customer reference contacts, the technical architecture document, and the legal structure. Everything you need to complete due diligence is already prepared. The only thing missing is your decision to proceed.",
-      imageSlug: '/images/due-diligence.png',
+      imageSlug: '/images/pitching-to-investors-or-partners-due-diligence.png',
     }
   ],
 

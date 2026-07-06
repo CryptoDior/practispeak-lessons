@@ -14,21 +14,21 @@ export const negotiatingWithPartners: Lesson = {
       partOfSpeech: 'noun',
       definition: "Anything that gives you an advantage in a negotiation — a competing offer, a deadline the other party faces, specific expertise, or a large contract volume. Understanding your leverage and theirs is the first step in any commercial negotiation. Knowing your leverage does not mean threatening people with it — it means using it wisely.",
       example: "Riley assessed the situation before the meeting: What's our leverage here? We have two competitive quotes for the same media placement, we're committing to a 12-month contract upfront, and we can offer them a case study. That's three pieces of leverage — the volume commitment, the competitive alternatives, and the marketing value of our brand association.",
-      imageSlug: '/images/leverage.png',
+      imageSlug: '/images/negotiating-with-partners-leverage.png',
     },
     {
       word: 'CONCESSION',
       partOfSpeech: 'noun',
       definition: "Something you give up or agree to in a negotiation to move the deal forward or get something else you want more. Good negotiators never give concessions for free — every concession should come with a condition ('I can do that if you can...') and be traded, not simply handed over.",
       example: "Marcus flagged the pattern: We've made three concessions in this negotiation and received nothing in return. That's not how this works. From now on, every concession we make must be conditional: 'I can move on the payment terms if you can commit to an extended contract length.' Always trade concessions; never give them for free.",
-      imageSlug: '/images/concession.png',
+      imageSlug: '/images/negotiating-with-partners-concession.png',
     },
     {
       word: 'COUNTER-OFFER',
       partOfSpeech: 'noun',
       definition: "An offer you make in response to the other party's proposal — usually changing some of the terms rather than accepting or rejecting outright. A counter-offer keeps the conversation moving and shows you are still interested. Always counter rather than simply say no — 'no' ends the discussion, a counter-offer redirects it.",
       example: "Dana advised the team: They've come back with a 20% price increase on the renewal. Don't reject it — make a counter-offer. 'We can't move to that price point, but we could accept a 7% increase if you agree to lock in the rate for two years.' A counter-offer keeps us in the conversation and gives them a reason to keep negotiating.",
-      imageSlug: '/images/counter-offer.png',
+      imageSlug: '/images/negotiating-with-partners-counter-offer.png',
     },
     {
       word: 'MUTUAL BENEFIT',
@@ -42,7 +42,7 @@ export const negotiatingWithPartners: Lesson = {
       partOfSpeech: 'noun',
       definition: "The specific conditions of an agreement — payment schedule, contract length, scope of work, deliverables, exclusivity, termination clauses. 'Agreeing terms' means finalising all the conditions before signing. In a negotiation, price is just one term — there are usually many others to discuss.",
       example: "Marcus reviewed the negotiation priorities: Price is important, but it's not the only term we need to get right. Payment terms matter too — net-30 versus net-60 is a significant cash flow difference. And the exclusivity clause — if they can't guarantee category exclusivity, the deal is worth less than it looks on paper. Let's be clear about which terms we'll fight for and which we'll trade.",
-      imageSlug: '/images/terms.png',
+      imageSlug: '/images/negotiating-with-partners-terms.png',
     },
     {
       word: 'WALK AWAY POINT',
@@ -56,14 +56,14 @@ export const negotiatingWithPartners: Lesson = {
       partOfSpeech: 'noun',
       definition: 'In negotiation, the first number or offer put on the table — which tends to set the tone for everything that follows. The party who puts the first number out there often has an advantage, because everything else in the conversation happens relative to that number. A strong opening anchor can change the whole range of possible outcomes.',
       example: "Riley explained the strategy: We're going to open with a lower anchor than we actually need. If we ask for a 12-month deal at a 15% discount, we have room to trade up to an 8% discount without feeling like we've given anything away. The party who sets the anchor first often ends up closer to their preferred outcome — so we open first.",
-      imageSlug: '/images/anchor.png',
+      imageSlug: '/images/negotiating-with-partners-anchor.png',
     },
     {
       word: 'DEADLOCK',
       partOfSpeech: 'noun',
       definition: 'A situation in a negotiation where neither party can agree and nothing is moving forward. When you reach deadlock, you need something to break it — bring in a new variable, take a short break, look at the problem differently, or bring in a more senior decision-maker from one side.',
       example: "Marcus recognised the pattern: We've been going back and forth on price for 40 minutes and we're in deadlock. Let's take a different approach — instead of price, let's talk about what we each need the deal to include. When we agree on the shape of the deal, the price conversation becomes easier. Deadlock on one variable doesn't mean the whole deal is dead.",
-      imageSlug: '/images/deadlock.png',
+      imageSlug: '/images/negotiating-with-partners-deadlock.png',
     }
   ],
 

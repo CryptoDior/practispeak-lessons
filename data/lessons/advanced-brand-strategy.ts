@@ -14,7 +14,7 @@ export const advancedBrandStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The extra value a brand adds to a product beyond its basic function. A customer who pays more for one coffee brand over another — even if both taste the same — is responding to brand equity.',
       example: "Riley said: Brand equity is why people queue for an iPhone and not just any smartphone. The product is good — but the brand is what makes people choose it first, talk about it most, and pay more without complaint.",
-      imageSlug: '/images/brand-equity.png',
+      imageSlug: '/images/advanced-brand-strategy-brand-equity.png',
     },
     {
       word: 'Brand valuation',
@@ -49,7 +49,7 @@ export const advancedBrandStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The place a brand occupies in the mind of the customer — relative to competitors. Strong positioning means customers know exactly what a brand stands for and how it is different from everything else.',
       example: "Riley said: Your positioning is not your tagline — it is the answer to one question: when a customer thinks of our category, what do they think of us for? If you cannot answer that in one sentence, the positioning is not clear enough.",
-      imageSlug: '/images/positioning.png',
+      imageSlug: '/images/advanced-brand-strategy-positioning.png',
     },
     {
       word: 'Brand audit',
@@ -63,7 +63,7 @@ export const advancedBrandStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: "What makes a brand meaningfully different from its competitors — in a way that customers care about. Without differentiation, the only thing left to compete on is price.",
       example: "Riley said: If I ask your customers why they choose you over the competitor and they say 'price', you have a differentiation problem. Price is not a strategy — it is a race to the bottom. The question is: what do you offer that no one else does?",
-      imageSlug: '/images/differentiation.png',
+      imageSlug: '/images/advanced-brand-strategy-differentiation.png',
     }
   ],
 

@@ -14,14 +14,14 @@ export const whatDoYouLike: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To like one thing more than another. When you prefer something, you choose it over the other option.',
       example: 'Dana prefers email marketing over social media — she finds it easier to track results.',
-      imageSlug: '/images/prefer.png',
+      imageSlug: '/images/what-do-you-like-prefer.png',
     },
     {
       word: 'LIKE',
       partOfSpeech: 'verb',
       definition: 'To find something good or enjoyable. A simple, everyday word for a positive feeling about something.',
       example: 'I like the design of this ad — it is clean, simple, and easy to read.',
-      imageSlug: '/images/like.png',
+      imageSlug: '/images/what-do-you-like-like.png',
     },
     {
       word: 'DISLIKE',
@@ -35,14 +35,14 @@ export const whatDoYouLike: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'The one you like most of all — better than everything else in that group.',
       example: 'My favourite marketing channel is LinkedIn — I get the best results from it.',
-      imageSlug: '/images/favourite.png',
+      imageSlug: '/images/what-do-you-like-favourite.png',
     },
     {
       word: 'POPULAR',
       partOfSpeech: 'adjective',
       definition: 'Liked or used by many people.',
       example: 'Short videos are very popular right now — they get more views than any other type of content.',
-      imageSlug: '/images/popular.png',
+      imageSlug: '/images/what-do-you-like-popular.png',
     },
     {
       word: 'OPINION',
@@ -56,7 +56,7 @@ export const whatDoYouLike: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Something a person likes or wants to know more about.',
       example: 'We create content that matches the interests of our target audience.',
-      imageSlug: '/images/interest.png',
+      imageSlug: '/images/what-do-you-like-interest.png',
     },
     {
       word: 'ENJOY',

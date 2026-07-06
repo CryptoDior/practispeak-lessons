@@ -54,7 +54,7 @@ export const c2DevelopingAnAnalyticalVoice: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The sense that someone knows what they are talking about — the quality that makes a reader trust and follow an analyst.',
       example: '"She writes with real authority — not because she uses big words, but because every claim is backed by something concrete."',
-      imageSlug: '/images/authority.png',
+      imageSlug: '/images/c2-developing-an-analytical-voice-authority.png',
     },
     {
       word: 'PERSPECTIVE',
@@ -68,7 +68,7 @@ export const c2DevelopingAnAnalyticalVoice: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Exactness in language — using exactly the right word, not just a close approximation.',
       example: '"Precision is what separates good analysis from great analysis — saying \'the striker received in the channel\' is more precise than \'he was in a good position\'."',
-      imageSlug: '/images/precision.png',
+      imageSlug: '/images/c2-developing-an-analytical-voice-precision.png',
     },
     {
       word: 'STANCE',
@@ -82,7 +82,7 @@ export const c2DevelopingAnAnalyticalVoice: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The rhythm of your sentences — the flow and pattern of how your words move when read aloud.',
       example: '"His writing has a brilliant cadence — short punchy sentences after long complex ones, so the rhythm never becomes predictable."',
-      imageSlug: '/images/cadence.png',
+      imageSlug: '/images/c2-developing-an-analytical-voice-cadence.png',
     },
   ],
 
@@ -91,7 +91,7 @@ export const c2DevelopingAnAnalyticalVoice: Lesson = {
       phrase: 'COME THROUGH',
       definition: 'To be clearly felt or perceived — when a quality or personality comes through in writing or speech.',
       example: '"His deep knowledge of the game comes through in every line — you trust him immediately because the expertise is genuine."',
-      imageSlug: '/images/come-through.png',
+      imageSlug: '/images/c2-developing-an-analytical-voice-come-through.png',
     },
     {
       phrase: 'STAND APART FROM',

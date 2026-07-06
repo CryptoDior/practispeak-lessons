@@ -33,14 +33,14 @@ export const c1PunditryAndAnalysis: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person who gives their expert opinion on football — usually on TV, radio, or online. Good pundits combine knowledge with clear communication.',
       example: '"The panel of pundits disagreed sharply about whether the penalty decision was correct."',
-      imageSlug: '/images/pundit.png',
+      imageSlug: '/images/c1-punditry-and-analysis-pundit.png',
     },
     {
       word: 'VERDICT',
       partOfSpeech: 'noun',
       definition: 'A final judgement or conclusion — what the pundit decides after analysing an event. A verdict is stated with conviction.',
       example: '"My verdict is simple — they were the better team and they deserved to win."',
-      imageSlug: '/images/verdict.png',
+      imageSlug: '/images/c1-punditry-and-analysis-verdict.png',
     },
     {
       word: 'DISSECT',
@@ -75,7 +75,7 @@ export const c1PunditryAndAnalysis: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A conclusion reached by reasoning from evidence — what you work out from what you see, not what is directly stated.',
       example: '"My inference from the tactical shape is that they set up specifically to stop the striker receiving in behind."',
-      imageSlug: '/images/inference.png',
+      imageSlug: '/images/c1-punditry-and-analysis-inference.png',
     },
     {
       word: 'HEDGING',
@@ -103,13 +103,13 @@ export const c1PunditryAndAnalysis: Lesson = {
       phrase: 'COME DOWN TO',
       definition: 'To reduce to the most important point — when you simplify a complex argument to its essential conclusion.',
       example: '"It comes down to this — they created more chances and they took them. That\'s why they won."',
-      imageSlug: '/images/come-down-to.png',
+      imageSlug: '/images/c1-punditry-and-analysis-come-down-to.png',
     },
     {
       phrase: 'WEIGH UP',
       definition: 'To consider all the evidence carefully before reaching a conclusion — to balance different factors.',
       example: '"When you weigh up all the evidence — the chances, the xG, the possession — City were clearly the better team."',
-      imageSlug: '/images/weigh-up.png',
+      imageSlug: '/images/c1-punditry-and-analysis-weigh-up.png',
     },
     {
       phrase: 'STAND BY',

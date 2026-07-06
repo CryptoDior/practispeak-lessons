@@ -54,14 +54,14 @@ export const trainingSessions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A session at the end of training where the coach reviews what happened — what was good, what needs improvement.',
       example: 'The debrief lasted 15 minutes — the coach showed video clips of the passing drill and gave feedback to each player.',
-      imageSlug: '/images/debrief.png',
+      imageSlug: '/images/training-sessions-debrief.png',
     },
     {
       word: 'WARM-UP',
       partOfSpeech: 'noun',
       definition: 'A gentle exercise at the start of training — to prepare the body and reduce the risk of injury.',
       example: 'The warm-up includes light jogging, stretching, and some simple passing combinations — ten minutes before any intense work begins.',
-      imageSlug: '/images/warm-up.png',
+      imageSlug: '/images/training-sessions-warm-up.png',
     },
     {
       word: 'COOL-DOWN',
@@ -82,7 +82,7 @@ export const trainingSessions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A planned situation from a dead ball — corner kicks, free kicks, throw-ins. Teams practise these movements specifically.',
       example: 'They spend an hour on set pieces every Thursday — working on corner routines, free kick runs, and defensive organisation.',
-      imageSlug: '/images/set-piece.png',
+      imageSlug: '/images/training-sessions-set-piece.png',
     },
   ],
 
@@ -103,13 +103,13 @@ export const trainingSessions: Lesson = {
       phrase: 'WORK ON',
       definition: 'To practise and improve a specific skill or area of the game.',
       example: 'They are working on their defensive shape today — specifically how the back four moves together.',
-      imageSlug: '/images/work-on.png',
+      imageSlug: '/images/training-sessions-work-on.png',
     },
     {
       phrase: 'SET UP',
       definition: 'To prepare or organise something — to arrange a drill, a pitch, or a formation.',
       example: 'The assistant coach sets up the cones for the drill before the players arrive — making sure everything is ready.',
-      imageSlug: '/images/set-up.png',
+      imageSlug: '/images/training-sessions-set-up.png',
     },
     {
       phrase: 'RUN THROUGH',

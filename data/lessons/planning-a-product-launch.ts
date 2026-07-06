@@ -21,7 +21,7 @@ export const planningAProductLaunch: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The moment when a new product, service, or campaign is shown to the public for the first time — often a planned event or announcement.',
       example: 'The reveal happened live on a LinkedIn event — over 300 people watched as Riley unveiled the new platform name and features.',
-      imageSlug: '/images/reveal.png',
+      imageSlug: '/images/planning-a-product-launch-reveal.png',
     },
     {
       word: 'COUNTDOWN',
@@ -42,14 +42,14 @@ export const planningAProductLaunch: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A plan that shows when each task or activity will happen — from now until the launch date.',
       example: 'Dana built a detailed timeline for the launch — week one was teaser content, week two was the event, week three was follow-up.',
-      imageSlug: '/images/timeline.png',
+      imageSlug: '/images/planning-a-product-launch-timeline.png',
     },
     {
       word: 'MILESTONE',
       partOfSpeech: 'noun',
       definition: 'An important stage or event in a project — a key point that marks progress towards the final goal.',
       example: 'We set three milestones for the launch: teaser campaign live, event registration open, and reveal day.',
-      imageSlug: '/images/milestone.png',
+      imageSlug: '/images/planning-a-product-launch-milestone.png',
     },
     {
       word: 'LAUNCH EVENT',
@@ -63,7 +63,7 @@ export const planningAProductLaunch: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The process of making a new product or service available — often done gradually, starting with a small group.',
       example: 'After the launch event, the rollout began — existing clients got access first, then new sign-ups from the following week.',
-      imageSlug: '/images/rollout.png',
+      imageSlug: '/images/planning-a-product-launch-rollout.png',
     }
   ],
 
@@ -90,7 +90,7 @@ export const planningAProductLaunch: Lesson = {
       phrase: 'ROLL OUT [SOMETHING]',
       definition: 'To make a product or service available to users — often in stages.',
       example: 'We will roll out the new platform to existing clients first, then open it to new customers the following month.',
-      imageSlug: '/images/roll-out-something.png',
+      imageSlug: '/images/planning-a-product-launch-roll-out-something.png',
     },
     {
       phrase: 'UNVEIL [SOMETHING]',

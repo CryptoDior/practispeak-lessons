@@ -14,14 +14,14 @@ export const languageOfBusinessInfluence: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The real message hidden under the words someone uses. What is not said directly.',
       example: "The CEO said 'We are exploring all options.' The subtext was clear: the company was looking for a buyer.",
-      imageSlug: '/images/subtext.png',
+      imageSlug: '/images/language-of-business-influence-subtext.png',
     },
     {
       word: 'FRAMING',
       partOfSpeech: 'noun',
       definition: 'The way you present an idea so that people see it the way you want them to.',
       example: "Riley said: Don't call it a cost — call it an investment. That's framing. The number is the same. The feeling is completely different.",
-      imageSlug: '/images/framing.png',
+      imageSlug: '/images/language-of-business-influence-framing.png',
     },
     {
       word: 'AGENDA-SETTING',
@@ -42,7 +42,7 @@ export const languageOfBusinessInfluence: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Presenting bad news in a way that sounds positive or less serious than it really is.',
       example: 'The press release called the job cuts a "restructuring for growth." Marcus said: That is pure spin — 400 people lost their jobs.',
-      imageSlug: '/images/spin.png',
+      imageSlug: '/images/language-of-business-influence-spin.png',
     },
     {
       word: 'RHETORIC',
@@ -56,14 +56,14 @@ export const languageOfBusinessInfluence: Lesson = {
       partOfSpeech: 'noun',
       definition: 'How you describe yourself or your brand compared to others — what makes you different.',
       example: 'Their positioning was simple: the premium option for people who do not want to compromise on quality.',
-      imageSlug: '/images/positioning.png',
+      imageSlug: '/images/language-of-business-influence-positioning.png',
     },
     {
       word: 'LEVERAGE',
       partOfSpeech: 'noun / verb',
       definition: 'Using something you have — information, a relationship, a situation — to get what you want.',
       example: 'Riley had one piece of leverage: she knew the competitor was about to raise prices. She used it to close the deal that afternoon.',
-      imageSlug: '/images/leverage.png',
+      imageSlug: '/images/language-of-business-influence-leverage.png',
     }
   ],
 
@@ -72,13 +72,13 @@ export const languageOfBusinessInfluence: Lesson = {
       phrase: 'LET ME REFRAME THAT...',
       definition: 'A phrase that signals you are about to present the same idea in a better way. It takes control of the conversation without rejecting what was just said.',
       example: "Marcus said the campaign had failed. Riley replied: Let me reframe that — we ran a test, learned what doesn't work, and now we know exactly where to put the budget.",
-      imageSlug: '/images/let-me-reframe-that.png',
+      imageSlug: '/images/language-of-business-influence-let-me-reframe-that.png',
     },
     {
       phrase: 'THE REAL QUESTION HERE IS...',
       definition: 'A phrase that shifts focus away from a difficult point and onto a question you are more comfortable answering.',
       example: 'When the board asked about costs, Riley said: The real question here is whether this will grow revenue — and the answer is yes, by at least 20% in year one.',
-      imageSlug: '/images/the-real-question-here-is.png',
+      imageSlug: '/images/language-of-business-influence-the-real-question-here-is.png',
     },
     {
       phrase: 'WHAT I WANT YOU TO TAKE AWAY FROM THIS IS...',
@@ -102,7 +102,7 @@ export const languageOfBusinessInfluence: Lesson = {
       phrase: 'THE WAY I SEE IT,...',
       definition: 'A phrase that presents your view as a perspective, not a fact — which makes it easier for others to agree without feeling forced.',
       example: "Riley said: The way I see it, we have two options — move fast and take the lead, or wait and watch someone else do it first.",
-      imageSlug: '/images/the-way-i-see-it.png',
+      imageSlug: '/images/language-of-business-influence-the-way-i-see-it.png',
     }
   ],
 

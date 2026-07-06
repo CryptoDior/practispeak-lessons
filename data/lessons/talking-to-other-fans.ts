@@ -33,7 +33,7 @@ export const talkingToOtherFans: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Your final opinion or judgement about a match, player, or decision.',
       example: 'My verdict on the match: poor first half, excellent second half — and a deserved win in the end.',
-      imageSlug: '/images/verdict.png',
+      imageSlug: '/images/talking-to-other-fans-verdict.png',
     },
     {
       word: 'HARSH',
@@ -82,7 +82,7 @@ export const talkingToOtherFans: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Causing strong disagreement between people — when different people have very different opinions.',
       example: 'The disallowed goal was controversial — half the fans thought it was correct, half did not.',
-      imageSlug: '/images/controversial.png',
+      imageSlug: '/images/talking-to-other-fans-controversial.png',
     },
   ],
 
@@ -91,7 +91,7 @@ export const talkingToOtherFans: Lesson = {
       phrase: 'I THOUGHT [OPINION]',
       definition: 'How you express a past opinion — used to share a view about something that has happened.',
       example: 'I thought the first half was poor — we gave the ball away too many times.',
-      imageSlug: '/images/i-thought-opinion.png',
+      imageSlug: '/images/talking-to-other-fans-i-thought-opinion.png',
     },
     {
       phrase: 'I AGREE WITH YOU',
@@ -121,7 +121,7 @@ export const talkingToOtherFans: Lesson = {
       phrase: 'CREDIT WHERE IT\'S DUE',
       definition: 'Acknowledging something positive about the opposition or about a player you might otherwise criticise.',
       example: '"I know I am always critical of the manager — but credit where it\'s due, the substitutions were perfect today."',
-      imageSlug: '/images/credit-where-its-due.png',
+      imageSlug: '/images/talking-to-other-fans-credit-where-its-due.png',
     },
   ],
 

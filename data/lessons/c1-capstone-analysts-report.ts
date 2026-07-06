@@ -40,14 +40,14 @@ export const c1CapstoneAnalystsReport: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A standard of reference used for comparison — what success looks like, against which actual performance is measured.',
       example: '"The club set a benchmark of top-six finish and Champions League qualification — and by that standard, the season must be considered a failure."',
-      imageSlug: '/images/benchmark.png',
+      imageSlug: '/images/c1-capstone-analysts-report-benchmark.png',
     },
     {
       word: 'ASSESSMENT',
       partOfSpeech: 'noun',
       definition: 'A considered evaluation of something — more thorough than an opinion, based on evidence and reasoning.',
       example: '"Our assessment of the club\'s financial position is cautiously optimistic — the new commercial deals offset the increased wage bill."',
-      imageSlug: '/images/assessment.png',
+      imageSlug: '/images/c1-capstone-analysts-report-assessment.png',
     },
     {
       word: 'RECOMMENDATIONS',
@@ -75,14 +75,14 @@ export const c1CapstoneAnalystsReport: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The final judgement of a report — the answer to the central question, supported by all the preceding evidence.',
       example: '"The report\'s conclusion was unambiguous: without significant structural change, the club risked a cycle of short-term thinking and long-term decline."',
-      imageSlug: '/images/conclusion.png',
+      imageSlug: '/images/c1-capstone-analysts-report-conclusion.png',
     },
     {
       word: 'CAVEAT',
       partOfSpeech: 'noun',
       definition: 'A qualification or warning attached to a conclusion — acknowledging the limits of your evidence or the conditions under which your conclusion holds.',
       example: '"The report\'s positive outlook on finances came with an important caveat: it assumed the broadcasting deal would be renewed at current values."',
-      imageSlug: '/images/caveat.png',
+      imageSlug: '/images/c1-capstone-analysts-report-caveat.png',
     },
   ],
 
@@ -97,7 +97,7 @@ export const c1CapstoneAnalystsReport: Lesson = {
       phrase: 'POINT TO',
       definition: 'To indicate or suggest — when evidence or data points in a specific direction.',
       example: '"The evidence points to a structural problem in transition defence — not isolated incidents, but a consistent pattern across twelve matches."',
-      imageSlug: '/images/point-to.png',
+      imageSlug: '/images/c1-capstone-analysts-report-point-to.png',
     },
     {
       phrase: 'SET OUT',
@@ -109,13 +109,13 @@ export const c1CapstoneAnalystsReport: Lesson = {
       phrase: 'ACCOUNT FOR',
       definition: 'To explain or give reasons for — why something happened or why a figure is the way it is.',
       example: '"The increased wage bill accounts for a significant proportion of the operating loss — but commercial underperformance is also a contributing factor."',
-      imageSlug: '/images/account-for.png',
+      imageSlug: '/images/c1-capstone-analysts-report-account-for.png',
     },
     {
       phrase: 'BEAR OUT',
       definition: 'To confirm or support — when evidence proves that a conclusion or hypothesis was correct.',
       example: '"The data bears out the initial assessment — their set-piece vulnerability was the decisive factor in five of their seven defeats."',
-      imageSlug: '/images/bear-out.png',
+      imageSlug: '/images/c1-capstone-analysts-report-bear-out.png',
     },
     {
       phrase: 'FALL SHORT OF',

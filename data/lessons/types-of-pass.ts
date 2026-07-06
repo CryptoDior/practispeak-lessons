@@ -33,7 +33,7 @@ export const typesOfPass: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A pass played into the space behind the defenders for a striker to run onto.',
       example: 'He\'s playing a through ball — the striker is running onto it!',
-      imageSlug: '/images/through-ball.png',
+      imageSlug: '/images/types-of-pass-through-ball.png',
     },
     {
       word: 'LONG BALL',
@@ -54,7 +54,7 @@ export const typesOfPass: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'A pass delivered from a wide position into the penalty area.',
       example: 'She\'s crossing from the right — someone needs to get on the end of it!',
-      imageSlug: '/images/cross.png',
+      imageSlug: '/images/types-of-pass-cross.png',
     },
     {
       word: 'LAY-OFF',
@@ -75,7 +75,7 @@ export const typesOfPass: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To play a long diagonal pass to the other side of the pitch, changing the direction of attack.',
       example: 'He\'s switching the play — the left winger suddenly has all the space.',
-      imageSlug: '/images/switch.png',
+      imageSlug: '/images/types-of-pass-switch.png',
     },
     {
       word: 'SQUARE BALL',
@@ -109,7 +109,7 @@ export const typesOfPass: Lesson = {
       phrase: 'PLAY THROUGH THE LINES',
       definition: 'Pass between the opposition\'s defensive lines to reach a player in space behind them.',
       example: 'He played it through the lines — brilliant vision, the striker was free.',
-      imageSlug: '/images/play-through-the-lines.png',
+      imageSlug: '/images/types-of-pass-play-through-the-lines.png',
     },
     {
       phrase: 'ONE-TWO',

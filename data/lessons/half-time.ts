@@ -14,7 +14,7 @@ export const halfTime: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The break in the middle of a football match, between the first and second halves.',
       example: 'It\'s zero-zero at half-time — nobody has scored yet.',
-      imageSlug: '/images/half-time.png',
+      imageSlug: '/images/half-time-half-time.png',
     },
     {
       word: 'INTERVAL',
@@ -35,7 +35,7 @@ export const halfTime: Lesson = {
       partOfSpeech: 'noun',
       definition: 'When one team has more goals than the other.',
       example: 'City have a one-goal lead at half-time.',
-      imageSlug: '/images/lead.png',
+      imageSlug: '/images/half-time-lead.png',
     },
     {
       word: 'EVEN',
@@ -49,7 +49,7 @@ export const halfTime: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The room where players change and the manager talks to the team at half-time.',
       example: 'The players went to the dressing room at half-time to hear the manager\'s instructions.',
-      imageSlug: '/images/dressing-room.png',
+      imageSlug: '/images/half-time-dressing-room.png',
     },
     {
       word: 'WHISTLE',
@@ -72,7 +72,7 @@ export const halfTime: Lesson = {
       phrase: 'AT HALF-TIME',
       definition: 'At the moment when the break between the two halves happens.',
       example: 'It\'s nil-nil at half-time — still everything to play for.',
-      imageSlug: '/images/at-half-time.png',
+      imageSlug: '/images/half-time-at-half-time.png',
     },
     {
       phrase: 'BLOW THE WHISTLE',

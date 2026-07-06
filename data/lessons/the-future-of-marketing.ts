@@ -56,7 +56,7 @@ export const theFutureOfMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A piece of data that tells you something useful about a customer\'s behaviour, intent, or preferences.',
       example: "Riley said: In the old world, you had hundreds of signals from third-party cookies. In the post-cookie world, you have to be much smarter about how you collect and use the signals you have.",
-      imageSlug: '/images/signal.png',
+      imageSlug: '/images/the-future-of-marketing-signal.png',
     },
     {
       word: 'DISRUPTION',

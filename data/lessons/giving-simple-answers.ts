@@ -21,7 +21,7 @@ export const givingSimpleAnswers: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A different option that is available when what you want is not possible.',
       example: "We don't have a single-user plan, but let me offer you an alternative.",
-      imageSlug: '/images/alternative.png',
+      imageSlug: '/images/giving-simple-answers-alternative.png',
     },
     {
       word: 'INCLUDE',
@@ -35,7 +35,7 @@ export const givingSimpleAnswers: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Right; exactly as stated; accurate.',
       example: 'That is correct — the annual rate works out at $124 a month.',
-      imageSlug: '/images/correct.png',
+      imageSlug: '/images/giving-simple-answers-correct.png',
     },
     {
       word: 'EXACTLY',

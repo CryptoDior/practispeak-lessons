@@ -14,7 +14,7 @@ export const storytellingInSales: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A structured account that moves through a beginning, middle, and end. In sales, a narrative is more persuasive than presenting facts in isolation — because it gives the listener a way to locate themselves in the story and imagine the outcome for their own situation.',
       example: 'Riley did not list the product features. She built a narrative: a specific company, a real problem, a moment of change, and a measurable result. By the end, Marcus had not been sold to — he had been shown what was possible.',
-      imageSlug: '/images/narrative.png',
+      imageSlug: '/images/storytelling-in-sales-narrative.png',
     },
     {
       word: 'TENSION',
@@ -42,7 +42,7 @@ export const storytellingInSales: Lesson = {
       partOfSpeech: 'noun',
       definition: "The point in a story where the tension is released and the outcome becomes clear. A strong resolution is specific and measurable — it shows what changed in terms the listener can evaluate. A vague resolution ('things got better') is almost as ineffective as having no resolution at all.",
       example: "Riley's resolution was precise: twelve weeks after implementation, the team's average response time dropped from four hours to forty minutes, and the client retention rate recovered by 18 percentage points. The resolution gave Marcus something concrete to take to his CFO.",
-      imageSlug: '/images/resolution.png',
+      imageSlug: '/images/storytelling-in-sales-resolution.png',
     },
     {
       word: 'PROTAGONIST',

@@ -14,14 +14,14 @@ export const theStadium: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The large building where football matches are played.',
       example: 'The stadium holds sixty thousand fans.',
-      imageSlug: '/images/stadium.png',
+      imageSlug: '/images/the-stadium-stadium.png',
     },
     {
       word: 'STAND',
       partOfSpeech: 'noun',
       definition: 'A section of the stadium where fans sit or stand to watch.',
       example: 'We sat in the north stand behind the goal.',
-      imageSlug: '/images/stand.png',
+      imageSlug: '/images/the-stadium-stand.png',
     },
     {
       word: 'TERRACE',
@@ -49,14 +49,14 @@ export const theStadium: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The very bright lights on tall poles that light up the pitch for evening matches.',
       example: 'The floodlights came on as the sun went down.',
-      imageSlug: '/images/floodlights.png',
+      imageSlug: '/images/the-stadium-floodlights.png',
     },
     {
       word: 'TUNNEL',
       partOfSpeech: 'noun',
       definition: 'The passage the players walk through to get from the dressing room to the pitch.',
       example: 'The players walked out of the tunnel and onto the pitch.',
-      imageSlug: '/images/tunnel.png',
+      imageSlug: '/images/the-stadium-tunnel.png',
     },
     {
       word: 'PITCH',
@@ -72,7 +72,7 @@ export const theStadium: Lesson = {
       phrase: 'IN THE STANDS',
       definition: 'In the seating areas of the stadium where fans watch.',
       example: 'Sofia was in the stands with thousands of other supporters.',
-      imageSlug: '/images/in-the-stands.png',
+      imageSlug: '/images/the-stadium-in-the-stands.png',
     },
     {
       phrase: 'ON THE PITCH',

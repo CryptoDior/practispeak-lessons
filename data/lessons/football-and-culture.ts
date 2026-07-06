@@ -49,14 +49,14 @@ export const footballAndCulture: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A match between two local rivals — teams from the same city or region.',
       example: '"No match in the city\'s calendar generates more heat than the derby — two clubs, two different histories, one fiercely divided city."',
-      imageSlug: '/images/derby.png',
+      imageSlug: '/images/football-and-culture-derby.png',
     },
     {
       word: 'IDENTITY',
       partOfSpeech: 'noun',
       definition: 'The cultural, historical, or social character of a club, a player, or a supporter group.',
       example: '"The club\'s identity is rooted in the working-class community that founded it — a history that still shapes its culture a century later."',
-      imageSlug: '/images/identity.png',
+      imageSlug: '/images/football-and-culture-identity.png',
     },
     {
       word: 'FOLKLORE',
@@ -84,14 +84,14 @@ export const footballAndCulture: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'The foundation level of football — community, youth, and amateur football rather than professional leagues.',
       example: '"Without investment in grassroots football, the pipeline of talent that feeds the professional game will eventually dry up."',
-      imageSlug: '/images/grassroots.png',
+      imageSlug: '/images/football-and-culture-grassroots.png',
     },
     {
       word: 'HERITAGE',
       partOfSpeech: 'noun',
       definition: 'A club\'s or sport\'s history, traditions, and cultural legacy — what is passed down from one generation to the next.',
       example: '"The club\'s centenary year was a celebration of its heritage — 100 years of stories, trophies, heartbreaks, and community."',
-      imageSlug: '/images/heritage.png',
+      imageSlug: '/images/football-and-culture-heritage.png',
     },
   ],
 
@@ -118,7 +118,7 @@ export const footballAndCulture: Lesson = {
       phrase: 'STAND FOR',
       definition: 'To represent or symbolise something beyond itself.',
       example: '"For millions of fans, this club stands for more than football — it stands for a community, a way of life, a source of pride."',
-      imageSlug: '/images/stand-for.png',
+      imageSlug: '/images/football-and-culture-stand-for.png',
 },
     {
       phrase: 'CROSS OVER',
@@ -130,7 +130,7 @@ export const footballAndCulture: Lesson = {
       phrase: 'LOOK BACK ON',
       definition: 'To reflect on something from the past — often with emotion or perspective.',
       example: '"When fans look back on that era, they remember it as the golden age — a time when everything felt possible."',
-      imageSlug: '/images/look-back-on.png',
+      imageSlug: '/images/football-and-culture-look-back-on.png',
 },
   ],
 

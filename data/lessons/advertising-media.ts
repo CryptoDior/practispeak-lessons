@@ -14,7 +14,7 @@ export const advertisingMedia: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A rectangular image or graphic that appears on a website to advertise a product or service. Usually clickable.',
       example: 'We placed banner ads on three industry websites — they generated over 500 clicks in the first week of the campaign.',
-      imageSlug: '/images/banner.png',
+      imageSlug: '/images/advertising-media-banner.png',
     },
     {
       word: 'BILLBOARD',
@@ -49,21 +49,21 @@ export const advertisingMedia: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A specific platform or medium used to distribute advertising or content — for example, LinkedIn, email, or a podcast.',
       example: 'We use four main channels for this client: LinkedIn, email, industry podcasts, and banner ads on trade publications.',
-      imageSlug: '/images/channel.png',
+      imageSlug: '/images/advertising-media-channel.png',
     },
     {
       word: 'CAMPAIGN',
       partOfSpeech: 'noun',
       definition: 'A planned series of marketing activities — ads, content, and messages — designed to achieve a specific goal over a set period.',
       example: 'The campaign ran for six weeks across three channels and generated forty qualified leads for the sales team.',
-      imageSlug: '/images/campaign.png',
+      imageSlug: '/images/advertising-media-campaign.png',
     },
     {
       word: 'REACH',
       partOfSpeech: 'noun',
       definition: 'The total number of different people who see an advertisement or piece of content.',
       example: 'Our LinkedIn campaign had a reach of 25,000 — meaning 25,000 unique people saw the ad at least once.',
-      imageSlug: '/images/reach.png',
+      imageSlug: '/images/advertising-media-reach.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const advertisingMedia: Lesson = {
       phrase: 'RUN AN AD',
       definition: 'To publish and display an advertisement — to make it live on a platform or channel.',
       example: 'We ran a banner ad on three trade websites for four weeks — it was the most cost-effective part of the campaign.',
-      imageSlug: '/images/run-an-ad.png',
+      imageSlug: '/images/advertising-media-run-an-ad.png',
     },
     {
       phrase: 'PLACE AN AD',
@@ -84,13 +84,13 @@ export const advertisingMedia: Lesson = {
       phrase: 'STAND OUT',
       definition: 'To be more noticeable or memorable than other content or advertisements.',
       example: 'In a crowded feed, your ad needs to stand out — a strong image and a clear message make the biggest difference.',
-      imageSlug: '/images/stand-out.png',
+      imageSlug: '/images/advertising-media-stand-out.png',
     },
     {
       phrase: 'DRIVE TRAFFIC',
       definition: 'To bring visitors to a website or landing page — usually through advertising or content.',
       example: 'The sponsored posts drove a lot of traffic to the landing page — we got 800 visits in three days.',
-      imageSlug: '/images/drive-traffic.png',
+      imageSlug: '/images/advertising-media-drive-traffic.png',
     },
     {
       phrase: 'TARGET [AN AUDIENCE]',

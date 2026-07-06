@@ -40,7 +40,7 @@ export const dressingRoomEnglish: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Friendly teasing and jokes between people who know each other well — a key part of team culture in British football. Banter is affectionate, not hostile.',
       example: '"The banter in the dressing room is relentless — nobody is safe, not even the manager. But it\'s affectionate. It\'s how we show we like each other."',
-      imageSlug: '/images/banter.png',
+      imageSlug: '/images/dressing-room-english-banter.png',
     },
     {
       word: 'LADS',
@@ -68,7 +68,7 @@ export const dressingRoomEnglish: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'To tease or provoke someone — usually as a joke between friends. "A wind-up" = a joke that tricks or teases someone.',
       example: '"He knew they were winding him up — telling him he\'d been dropped when he hadn\'t. But he still checked the team sheet three times."',
-      imageSlug: '/images/wind-up.png',
+      imageSlug: '/images/dressing-room-english-wind-up.png',
     },
     {
       word: 'DRESSING ROOM CULTURE',
@@ -122,13 +122,13 @@ export const dressingRoomEnglish: Lesson = {
       phrase: 'WIND DOWN',
       definition: 'To relax gradually after intense activity — the opposite of warming up or preparation.',
       example: '"After a big win, it takes hours to wind down — the adrenaline stays in your system. Nobody sleeps at 10pm after a Champions League game."',
-      imageSlug: '/images/wind-down.png',
+      imageSlug: '/images/dressing-room-english-wind-down.png',
     },
     {
       phrase: 'FIT IN',
       definition: 'To integrate successfully into a group — to become part of the team culture socially as well as on the pitch.',
       example: '"He fitted in immediately — spoke to everyone, learned the team\'s banter culture, joined in everything. By the second week you\'d have thought he\'d been there for years."',
-      imageSlug: '/images/fit-in.png',
+      imageSlug: '/images/dressing-room-english-fit-in.png',
     },
   ],
 

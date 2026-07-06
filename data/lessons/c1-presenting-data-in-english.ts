@@ -33,7 +33,7 @@ export const c1PresentingDataInEnglish: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To draw attention to something important — to make sure someone notices a key piece of data.',
       example: '"I want to highlight one number in particular — their xGA was 0.4 and they conceded twice."',
-      imageSlug: '/images/highlight.png',
+      imageSlug: '/images/c1-presenting-data-in-english-highlight.png',
     },
     {
       word: 'DIFFERENTIAL',
@@ -47,7 +47,7 @@ export const c1PresentingDataInEnglish: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A pattern that continues over time — when a statistic consistently goes up, down, or stays the same across multiple games.',
       example: '"There\'s a clear trend here — their progressive pass percentage has dropped in each of the last five matches."',
-      imageSlug: '/images/trend.png',
+      imageSlug: '/images/c1-presenting-data-in-english-trend.png',
     },
     {
       word: 'OUTLIER',
@@ -61,7 +61,7 @@ export const c1PresentingDataInEnglish: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A standard number used for comparison — a reference point that helps you judge whether a figure is good or bad.',
       example: '"The league average for press success rate is 28%. Our benchmark should be 32% or above."',
-      imageSlug: '/images/benchmark.png',
+      imageSlug: '/images/c1-presenting-data-in-english-benchmark.png',
     },
     {
       word: 'CORRELATION',
@@ -75,14 +75,14 @@ export const c1PresentingDataInEnglish: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A warning or limitation that you add to your data — something that makes the numbers less certain or less reliable.',
       example: '"One caveat — this data only covers the last three matches, so the sample size is small."',
-      imageSlug: '/images/caveat.png',
+      imageSlug: '/images/c1-presenting-data-in-english-caveat.png',
     },
     {
       word: 'TAKEAWAY',
       partOfSpeech: 'noun',
       definition: 'The main thing you want your audience to remember from a presentation — the key message.',
       example: '"The main takeaway from tonight\'s data is simple: we create good chances but our finishing needs to improve."',
-      imageSlug: '/images/takeaway.png',
+      imageSlug: '/images/c1-presenting-data-in-english-takeaway.png',
     },
   ],
 
@@ -91,7 +91,7 @@ export const c1PresentingDataInEnglish: Lesson = {
       phrase: 'WALK THROUGH',
       definition: 'To explain something step by step — to guide someone through information slowly and clearly.',
       example: '"Let me walk you through the xG data from the last five matches."',
-      imageSlug: '/images/walk-through.png',
+      imageSlug: '/images/c1-presenting-data-in-english-walk-through.png',
     },
     {
       phrase: 'ZOOM IN ON',
@@ -103,7 +103,7 @@ export const c1PresentingDataInEnglish: Lesson = {
       phrase: 'STAND OUT',
       definition: 'To be noticeably different from everything else — to be the most obvious or striking figure.',
       example: '"One number stands out immediately — their xGA is 0.4 but they\'ve conceded 12 goals this season."',
-      imageSlug: '/images/stand-out.png',
+      imageSlug: '/images/c1-presenting-data-in-english-stand-out.png',
     },
     {
       phrase: 'DRILL DOWN INTO',
@@ -115,7 +115,7 @@ export const c1PresentingDataInEnglish: Lesson = {
       phrase: 'POINT TO',
       definition: 'To indicate or suggest — when data shows evidence that supports a particular conclusion.',
       example: '"All of these numbers point to the same conclusion — their press is less effective away from home."',
-      imageSlug: '/images/point-to.png',
+      imageSlug: '/images/c1-presenting-data-in-english-point-to.png',
     },
     {
       phrase: 'BREAK DOWN',

@@ -47,21 +47,21 @@ export const deadBallSituations: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The small circular mark twelve yards from goal where the penalty is placed — and the dramatic focal point of a penalty shootout.',
       example: '"She walked to the penalty spot slowly, deliberately — head up, eyes fixed on the goal, ignoring the noise of the crowd."',
-      imageSlug: '/images/penalty-spot.png',
+      imageSlug: '/images/dead-ball-situations-penalty-spot.png',
     },
     {
       word: 'WALL',
       partOfSpeech: 'noun',
       definition: 'The line of defending players standing ten yards from the ball to block a direct free kick.',
       example: '"The wall jumped on cue — but the ball went under them, perfectly placed in the bottom corner."',
-      imageSlug: '/images/wall.png',
+      imageSlug: '/images/dead-ball-situations-wall.png',
     },
     {
       word: 'SUDDEN DEATH',
       partOfSpeech: 'noun',
       definition: 'The stage of a penalty shootout where one miss ends the game immediately — both teams have taken five penalties each and the scores are level.',
       example: '"Into sudden death now — every penalty from this point is worth the match. One miss and it\'s over."',
-      imageSlug: '/images/sudden-death.png',
+      imageSlug: '/images/dead-ball-situations-sudden-death.png',
     },
     {
       word: 'SPOT KICK',
@@ -98,7 +98,7 @@ export const deadBallSituations: Lesson = {
       phrase: 'STEP UP',
       definition: 'To walk forward to take a penalty or free kick — and more broadly, to take responsibility in a difficult moment.',
       example: '"She stepped up in the final minute of extra time — the weight of the whole season on her shoulders — and scored."',
-      imageSlug: '/images/step-up.png',
+      imageSlug: '/images/dead-ball-situations-step-up.png',
     },
     {
       phrase: 'SEND THE WRONG WAY',
@@ -116,7 +116,7 @@ export const deadBallSituations: Lesson = {
       phrase: 'CURL IN',
       definition: 'To bend the ball into the goal with technique — applying spin so the ball curves around or over a wall into the net.',
       example: '"He curled it in from 25 yards — bending it around the wall and into the far top corner. Unstoppable."',
-      imageSlug: '/images/curl-in.png',
+      imageSlug: '/images/dead-ball-situations-curl-in.png',
     },
     {
       phrase: 'BURY',

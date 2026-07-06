@@ -35,7 +35,7 @@ export const highTicketSalesLanguage: Lesson = {
       partOfSpeech: 'noun',
       definition: 'In high-ticket sales, the earned confidence that a vendor will deliver as promised — built through transparency, verifiable track record, client references, and contractual accountability. Trust at this level cannot be claimed during a sales conversation; it must be substantiated through evidence and, ideally, contractually enshrined.',
       example: "Riley said: Trust at this level is not something I can ask you to take on faith. I'd offer three things. First, a reference call with two clients at your scale who have been with us for more than two years. Second, our implementation track record for the past 24 months — which you can verify independently. Third, a contractual performance guarantee: if we don't hit the agreed metrics in year one, you have the right to exit without penalty. That's how we earn trust — not by claiming it.",
-      imageSlug: '/images/trust.png',
+      imageSlug: '/images/high-ticket-sales-language-trust.png',
     },
     {
       word: 'COMPOUNDING',

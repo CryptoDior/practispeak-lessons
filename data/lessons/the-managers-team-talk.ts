@@ -61,7 +61,7 @@ export const theManagersTeamTalk: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The feeling of growing confidence and energy — when a team builds on good performances and starts to believe.',
       example: 'We have the momentum right now — three wins in a row and the squad is full of confidence. We must protect this.',
-      imageSlug: '/images/momentum.png',
+      imageSlug: '/images/the-managers-team-talk-momentum.png',
     },
     {
       word: 'MENTALITY',
@@ -75,7 +75,7 @@ export const theManagersTeamTalk: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The room where players change before and after a match — and where the manager gives their team talk.',
       example: 'The dressing room was silent after the defeat — nobody spoke for ten minutes. Then the manager walked in.',
-      imageSlug: '/images/dressing-room.png',
+      imageSlug: '/images/the-managers-team-talk-dressing-room.png',
     },
     {
       word: 'BELIEF',

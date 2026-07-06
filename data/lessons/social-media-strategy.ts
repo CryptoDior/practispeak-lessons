@@ -21,14 +21,14 @@ export const socialMediaStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The number of different people who see your content.',
       example: 'Our reach on Instagram doubled after we used more relevant hashtags.',
-      imageSlug: '/images/reach.png',
+      imageSlug: '/images/social-media-strategy-reach.png',
     },
     {
       word: 'IMPRESSION',
       partOfSpeech: 'noun',
       definition: 'The number of times your content is shown — including when the same person sees it more than once.',
       example: 'We had 50,000 impressions on our last LinkedIn post, but only 3,000 of those were unique people.',
-      imageSlug: '/images/impression.png',
+      imageSlug: '/images/social-media-strategy-impression.png',
     },
     {
       word: 'HASHTAG',
@@ -56,7 +56,7 @@ export const socialMediaStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A social media app or website — for example: LinkedIn, Instagram, or TikTok.',
       example: 'LinkedIn is our main platform because our target audience is marketing professionals.',
-      imageSlug: '/images/platform.png',
+      imageSlug: '/images/social-media-strategy-platform.png',
     },
     {
       word: 'ANALYTICS',
@@ -90,7 +90,7 @@ export const socialMediaStrategy: Lesson = {
       phrase: 'GO VIRAL',
       definition: 'Spread very quickly across social media — seen by a very large number of people in a short time.',
       example: 'One of our LinkedIn posts went viral last year — it got 200,000 impressions in three days.',
-      imageSlug: '/images/go-viral.png',
+      imageSlug: '/images/social-media-strategy-go-viral.png',
     },
     {
       phrase: 'BOOST A POST',

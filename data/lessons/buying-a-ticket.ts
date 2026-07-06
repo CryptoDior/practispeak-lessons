@@ -21,7 +21,7 @@ export const buyingATicket: Lesson = {
       partOfSpeech: 'noun',
       definition: 'How much money you pay for the ticket.',
       example: 'How much is the price of a ticket in the north stand?',
-      imageSlug: '/images/price.png',
+      imageSlug: '/images/buying-a-ticket-price.png',
     },
     {
       word: 'HOME END',
@@ -35,7 +35,7 @@ export const buyingATicket: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The part of the stadium where the visiting team\'s fans sit.',
       example: 'The away end was full of noisy supporters.',
-      imageSlug: '/images/away-end.png',
+      imageSlug: '/images/buying-a-ticket-away-end.png',
     },
     {
       word: 'GATE',

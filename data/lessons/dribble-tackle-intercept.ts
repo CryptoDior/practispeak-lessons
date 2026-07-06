@@ -33,14 +33,14 @@ export const dribbleTackleIntercept: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To run with the ball at your feet, moving it past defenders.',
       example: 'He\'s dribbling past the defender — nobody can stop him!',
-      imageSlug: '/images/dribble.png',
+      imageSlug: '/images/dribble-tackle-intercept-dribble.png',
     },
     {
       word: 'TACKLE',
       partOfSpeech: 'verb',
       definition: 'To take the ball away from an opponent using your feet.',
       example: 'The defender is tackling the striker near the penalty box.',
-      imageSlug: '/images/tackle.png',
+      imageSlug: '/images/dribble-tackle-intercept-tackle.png',
     },
     {
       word: 'INTERCEPT',
@@ -75,14 +75,14 @@ export const dribbleTackleIntercept: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To move quickly toward an opponent with the ball to put them under pressure.',
       example: 'Both forwards are pressing the defenders — they\'re not letting them play.',
-      imageSlug: '/images/press.png',
+      imageSlug: '/images/dribble-tackle-intercept-press.png',
     },
     {
       word: 'NUTMEG',
       partOfSpeech: 'verb',
       definition: 'To kick the ball through an opponent\'s legs.',
       example: 'He nutmegged the defender and sprinted through on goal!',
-      imageSlug: '/images/nutmeg.png',
+      imageSlug: '/images/dribble-tackle-intercept-nutmeg.png',
     },
   ],
 
@@ -115,7 +115,7 @@ export const dribbleTackleIntercept: Lesson = {
       phrase: 'FIRST TOUCH',
       definition: 'The initial contact a player makes with the ball — good or bad.',
       example: 'His first touch was perfect — he controlled it and turned in one movement.',
-      imageSlug: '/images/first-touch.png',
+      imageSlug: '/images/dribble-tackle-intercept-first-touch.png',
     },
     {
       phrase: 'READ THE GAME',

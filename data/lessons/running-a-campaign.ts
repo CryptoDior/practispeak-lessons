@@ -14,7 +14,7 @@ export const runningACampaign: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A document or meeting that explains the goal, audience, budget, and key details of a campaign before it starts.',
       example: 'The team read the brief before the meeting so everyone knew what the campaign needed to do.',
-      imageSlug: '/images/brief.png',
+      imageSlug: '/images/running-a-campaign-brief.png',
     },
     {
       word: 'DEADLINE',
@@ -35,7 +35,7 @@ export const runningACampaign: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The process of launching something — starting it step by step and making it available to more people over time.',
       example: 'The rollout starts on Monday with social media, then email in week two, and a webinar in week three.',
-      imageSlug: '/images/rollout.png',
+      imageSlug: '/images/running-a-campaign-rollout.png',
     },
     {
       word: 'PHASE',
@@ -63,7 +63,7 @@ export const runningACampaign: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A meeting or process where you look at the results and decide what went well and what to improve.',
       example: 'We do a campaign review at the end of every month to see what worked and what did not.',
-      imageSlug: '/images/review.png',
+      imageSlug: '/images/running-a-campaign-review.png',
     }
   ],
 
@@ -78,7 +78,7 @@ export const runningACampaign: Lesson = {
       phrase: 'SIGN OFF ON',
       definition: 'Give official approval so something can move forward.',
       example: 'The client needs to sign off on the final designs before we can go live.',
-      imageSlug: '/images/sign-off-on.png',
+      imageSlug: '/images/running-a-campaign-sign-off-on.png',
     },
     {
       phrase: 'STICK TO THE SCHEDULE',
@@ -90,13 +90,13 @@ export const runningACampaign: Lesson = {
       phrase: 'ROLL OUT',
       definition: 'Launch something step by step, starting with one part and then adding more.',
       example: 'We will roll out the campaign in phases — social media first, then email, then a live webinar.',
-      imageSlug: '/images/roll-out.png',
+      imageSlug: '/images/running-a-campaign-roll-out.png',
     },
     {
       phrase: 'WRAP UP',
       definition: 'Finish something and close it off.',
       example: 'We wrap up the campaign at the end of the month and then do a full review.',
-      imageSlug: '/images/wrap-up.png',
+      imageSlug: '/images/running-a-campaign-wrap-up.png',
     },
     {
       phrase: 'KEEP TRACK OF',

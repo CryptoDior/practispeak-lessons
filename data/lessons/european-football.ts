@@ -46,7 +46,7 @@ export const europeanFootball: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To earn a place in a competition or the next round — by finishing high enough in a group or winning a tie.',
       example: '"They qualified for the Champions League by finishing in the top four of the Premier League."',
-      imageSlug: '/images/qualify.png',
+      imageSlug: '/images/european-football-qualify.png',
     },
     {
       word: 'TIE',
@@ -114,7 +114,7 @@ export const europeanFootball: Lesson = {
       phrase: 'COME THROUGH',
       definition: 'To survive a difficult situation — to get past a tough opponent or challenge.',
       example: '"They came through a very difficult group that included two former European champions."',
-      imageSlug: '/images/come-through.png',
+      imageSlug: '/images/european-football-come-through.png',
     },
     {
       phrase: 'TURN AROUND',

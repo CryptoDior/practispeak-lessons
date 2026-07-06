@@ -21,14 +21,14 @@ export const salesCallStructure: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The clear, specific reason for the call — stated early so the prospect knows why they are talking to you.',
       example: 'Stating your purpose in the first 60 seconds removes uncertainty and gives the prospect something concrete to respond to.',
-      imageSlug: '/images/purpose.png',
+      imageSlug: '/images/sales-call-structure-purpose.png',
     },
     {
       word: 'AGENDA',
       partOfSpeech: 'noun',
       definition: 'A brief outline of what the call will cover, shared at the start to set expectations and demonstrate structure.',
       example: "I always share a quick agenda at the top of a call — it tells the prospect exactly where we're going and makes the time feel controlled.",
-      imageSlug: '/images/agenda.png',
+      imageSlug: '/images/sales-call-structure-agenda.png',
     },
     {
       word: 'RAPPORT',
@@ -42,28 +42,28 @@ export const salesCallStructure: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A concern, doubt, or reason a prospect raises for not moving forward — a natural and expected part of every sales call.',
       example: 'An objection is not a rejection — it is usually a question in disguise that tells you exactly what the prospect needs to hear.',
-      imageSlug: '/images/objection.png',
+      imageSlug: '/images/sales-call-structure-objection.png',
     },
     {
       word: 'COMMITMENT',
       partOfSpeech: 'noun',
       definition: 'An agreement or promise to take a specific next step — the concrete outcome you are working toward at the end of every call.',
       example: "Every call should end with a commitment — even a small one. 'I'll send the document and you'll read it by Friday' is a commitment.",
-      imageSlug: '/images/commitment.png',
+      imageSlug: '/images/sales-call-structure-commitment.png',
     },
     {
       word: 'TRANSITION',
       partOfSpeech: 'verb',
       definition: 'To move deliberately from one phase of the conversation to the next using a signalling phrase.',
       example: 'Knowing how to transition between phases keeps the call feeling structured rather than like a sales pitch that wandered off course.',
-      imageSlug: '/images/transition.png',
+      imageSlug: '/images/sales-call-structure-transition.png',
     },
     {
       word: 'RECAP',
       partOfSpeech: 'verb',
       definition: 'To summarise the key points of a conversation before moving to the next step or ending the call.',
       example: 'Always recap what you heard before you make your offer — it shows you listened and connects your solution directly to their words.',
-      imageSlug: '/images/recap.png',
+      imageSlug: '/images/sales-call-structure-recap.png',
     }
   ],
 
@@ -90,7 +90,7 @@ export const salesCallStructure: Lesson = {
       phrase: "BASED ON WHAT YOU'VE TOLD ME",
       definition: 'The key phrase for transitioning into your offer — it signals that your solution is built on what you heard, not on a generic script.',
       example: "Based on what you've told me — the manual reporting and the team of 15 reps — here's what I think would genuinely help.",
-      imageSlug: '/images/based-on-what-youve-told-me.png',
+      imageSlug: '/images/sales-call-structure-based-on-what-youve-told-me.png',
     },
     {
       phrase: "WHAT I'D LIKE TO PROPOSE IS",

@@ -14,14 +14,14 @@ export const introducingYourselfSalesperson: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person you know, especially through work, who might help you.',
       example: "It's always good to make new contacts at industry events.",
-      imageSlug: '/images/contact.png',
+      imageSlug: '/images/introducing-yourself-salesperson-contact.png',
     },
     {
       word: 'COMPANY',
       partOfSpeech: 'noun',
       definition: 'A business that makes or sells things.',
       example: 'What company are you with?',
-      imageSlug: '/images/company.png',
+      imageSlug: '/images/introducing-yourself-salesperson-company.png',
     },
     {
       word: 'JOB',
@@ -35,7 +35,7 @@ export const introducingYourselfSalesperson: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A group of people who work together.',
       example: "I'm on the sales team at Brightline.",
-      imageSlug: '/images/team.png',
+      imageSlug: '/images/introducing-yourself-salesperson-team.png',
     },
     {
       word: 'WORK',
@@ -56,14 +56,14 @@ export const introducingYourselfSalesperson: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To tell someone your name and a little about yourself when you meet.',
       example: "Let me introduce myself — I'm Riley from the Brightline sales team.",
-      imageSlug: '/images/introduce.png',
+      imageSlug: '/images/introducing-yourself-salesperson-introduce.png',
     },
     {
       word: 'COLLEAGUE',
       partOfSpeech: 'noun',
       definition: 'A person you work with.',
       example: "I'd like you to meet my colleague, Carlos — he leads our team.",
-      imageSlug: '/images/colleague.png',
+      imageSlug: '/images/introducing-yourself-salesperson-colleague.png',
     }
   ],
 
@@ -90,7 +90,7 @@ export const introducingYourselfSalesperson: Lesson = {
       phrase: 'WHAT DO YOU DO',
       definition: "A friendly way to ask about someone's job or company.",
       example: 'So, what do you do, Dana?',
-      imageSlug: '/images/what-do-you-do.png',
+      imageSlug: '/images/introducing-yourself-salesperson-what-do-you-do.png',
     },
     {
       phrase: "I'M ON THE SALES TEAM",

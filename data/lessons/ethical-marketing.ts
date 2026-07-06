@@ -14,14 +14,14 @@ export const ethicalMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: "When a company claims to be environmentally friendly or sustainable, but the claim is misleading or not supported by evidence. The company is trying to look green without actually being green. Greenwashing misleads consumers and undermines trust in genuine sustainability efforts.",
       example: "Riley raised the concern: I have looked at our sustainability campaign and I am worried we are heading into greenwashing territory. Marcus asked: What specifically? Riley explained: We are claiming to be carbon neutral, but we have only offset 40% of our actual emissions and we have not changed any of our manufacturing processes. Dana added: And the offsetting we have done is through a scheme that has been questioned by independent auditors. We need to either get the sustainability credentials right or change what we are claiming. Making a claim we cannot substantiate is not a marketing problem — it is a legal and reputational risk.",
-      imageSlug: '/images/greenwashing.png',
+      imageSlug: '/images/ethical-marketing-greenwashing.png',
     },
     {
       word: 'TRANSPARENCY',
       partOfSpeech: 'noun',
       definition: "Being open and honest about how a business operates — including how products are made, where they come from, what they cost to produce, and how the company makes decisions. Transparency builds trust. In marketing, it means not hiding important information or making claims that are technically true but deliberately misleading.",
       example: "Marcus proposed: We should publish a full ingredient list for every product, including the ones that are not required by law. Dana asked: Why go beyond legal requirements? Marcus replied: Because transparency is becoming a competitive advantage. Consumers are researching brands before they buy. If they find our information proactively, they trust us. If they have to dig for it — or if they find something we tried to hide — they do not. Riley added: And B2B clients increasingly require supplier transparency in their ESG reporting. Being proactive now prepares us for requirements that are coming.",
-      imageSlug: '/images/transparency.png',
+      imageSlug: '/images/ethical-marketing-transparency.png',
     },
     {
       word: 'DIVERSITY',
@@ -49,7 +49,7 @@ export const ethicalMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: "Taking responsibility for what a company does and does not do — including mistakes. In ethical marketing, accountability means acknowledging when a campaign has caused harm or been misleading, and taking concrete steps to fix it — not just issuing a vague apology.",
       example: "Riley opened the debrief: The campaign caused genuine harm to a community group who felt stereotyped by the imagery. We have received 400 complaints and three media enquiries. Marcus replied: We need to respond with accountability — not a defensive statement. Dana drafted: We acknowledge that this campaign failed to meet our own standards of respectful representation. We apologise without qualification, we have withdrawn the campaign immediately, and we are taking three specific actions. Marcus agreed: No passive voice. No 'mistakes were made'. Direct, honest, and with specific commitments. That is what accountability looks like.",
-      imageSlug: '/images/accountability.png',
+      imageSlug: '/images/ethical-marketing-accountability.png',
     },
     {
       word: 'SUSTAINABILITY',

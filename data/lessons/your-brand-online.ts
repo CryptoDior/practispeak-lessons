@@ -56,14 +56,14 @@ export const yourBrandOnline: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A specific page on a website designed for a single goal — usually to get a visitor to fill in a form or sign up.',
       example: 'Every campaign sends traffic to a dedicated landing page — it has one message and one call to action, nothing else.',
-      imageSlug: '/images/landing-page.png',
+      imageSlug: '/images/your-brand-online-landing-page.png',
     },
     {
       word: 'ORGANIC',
       partOfSpeech: 'adjective',
       definition: 'Traffic or results that come without paying for advertising — visitors who find you through search or content.',
       example: 'Our goal is to grow organic traffic — we want people to find us through search and content, not just paid ads.',
-      imageSlug: '/images/organic.png',
+      imageSlug: '/images/your-brand-online-organic.png',
     }
   ],
 

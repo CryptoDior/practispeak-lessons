@@ -21,7 +21,7 @@ export const competitiveLandscape: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A direct competitor — someone you compete with closely for the same customers.',
       example: 'Our closest rival recently lowered their price — we need to review our value proposition.',
-      imageSlug: '/images/rival.png',
+      imageSlug: '/images/competitive-landscape-rival.png',
     },
     {
       word: 'MARKET SHARE',
@@ -42,21 +42,21 @@ export const competitiveLandscape: Lesson = {
       partOfSpeech: 'noun',
       definition: "A standard or point of reference used to compare performance — can be an industry standard or a competitor's result.",
       example: "We use our competitors' pricing as a benchmark to make sure we are positioned correctly.",
-      imageSlug: '/images/benchmark.png',
+      imageSlug: '/images/competitive-landscape-benchmark.png',
     },
     {
       word: 'DIFFERENTIATION',
       partOfSpeech: 'noun',
       definition: 'What makes your product different and better than similar products on the market.',
       example: 'Our differentiation is speed — we built Brightline for teams that move fast and need results quickly.',
-      imageSlug: '/images/differentiation.png',
+      imageSlug: '/images/competitive-landscape-differentiation.png',
     },
     {
       word: 'NICHE',
       partOfSpeech: 'noun',
       definition: 'A small, specific part of a market that a product focuses on.',
       example: 'We focus on a niche — small B2B marketing teams — rather than trying to serve everyone.',
-      imageSlug: '/images/niche.png',
+      imageSlug: '/images/competitive-landscape-niche.png',
     },
     {
       word: 'LANDSCAPE',
@@ -72,7 +72,7 @@ export const competitiveLandscape: Lesson = {
       phrase: 'STAND OUT FROM',
       definition: 'Be clearly different and better than competitors in a way that customers notice.',
       example: 'We stand out from competitors because our onboarding takes one day, not two weeks.',
-      imageSlug: '/images/stand-out-from.png',
+      imageSlug: '/images/competitive-landscape-stand-out-from.png',
     },
     {
       phrase: 'COMPETE WITH',

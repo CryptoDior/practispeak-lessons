@@ -14,7 +14,7 @@ export const advancedDiscourseAnalysis: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The way a topic is talked about — the words, ideas, and assumptions that surround it. Each industry has its own discourse.',
       example: "Riley explained: The discourse around sustainability in marketing has shifted. Ten years ago, it was about cost. Now it's about identity and values.",
-      imageSlug: '/images/discourse.png',
+      imageSlug: '/images/advanced-discourse-analysis-discourse.png',
     },
     {
       word: 'IMPLICATURE',
@@ -35,7 +35,7 @@ export const advancedDiscourseAnalysis: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The level of formality in language — how formal or informal the tone is for a specific situation.',
       example: 'Marcus said: The press release is in the wrong register — it sounds like a social media post. Riley said: You need formal register for a financial announcement.',
-      imageSlug: '/images/register.png',
+      imageSlug: '/images/advanced-discourse-analysis-register.png',
     },
     {
       word: 'PRAGMATICS',

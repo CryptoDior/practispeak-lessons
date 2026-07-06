@@ -28,7 +28,7 @@ export const understandingData: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A general direction that numbers are moving — for example, growing over time or falling.',
       example: 'The trend is positive — website traffic has been growing every month for six months.',
-      imageSlug: '/images/trend.png',
+      imageSlug: '/images/understanding-data-trend.png',
     },
     {
       word: 'PEAK',
@@ -49,21 +49,21 @@ export const understandingData: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The percentage of people who take an action — for example: the percentage of website visitors who sign up.',
       example: 'Our conversion rate on the landing page is 8% — eight out of every 100 visitors sign up.',
-      imageSlug: '/images/conversion-rate.png',
+      imageSlug: '/images/understanding-data-conversion-rate.png',
     },
     {
       word: 'BENCHMARK',
       partOfSpeech: 'noun',
       definition: 'A standard number used to compare your results — often the industry average or your own past results.',
       example: 'The industry benchmark for email open rates is around 20%. We are at 28%, which is above average.',
-      imageSlug: '/images/benchmark.png',
+      imageSlug: '/images/understanding-data-benchmark.png',
     },
     {
       word: 'METRIC',
       partOfSpeech: 'noun',
       definition: 'A specific measurement used to track performance — for example: clicks, sign-ups, or revenue.',
       example: 'The three key metrics we track are sign-ups, cost per sign-up, and conversion rate.',
-      imageSlug: '/images/metric.png',
+      imageSlug: '/images/understanding-data-metric.png',
     }
   ],
 
@@ -102,7 +102,7 @@ export const understandingData: Lesson = {
       phrase: 'BREAK DOWN THE DATA',
       definition: 'Look at the numbers in detail, separating them into smaller parts.',
       example: 'Let me break down the data by channel so we can see which one performed best.',
-      imageSlug: '/images/break-down-the-data.png',
+      imageSlug: '/images/understanding-data-break-down-the-data.png',
     }
   ],
 

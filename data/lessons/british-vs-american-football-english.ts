@@ -130,7 +130,7 @@ export const britishVsAmericanFootballEnglish: Lesson = {
       phrase: 'BENCH',
       definition: 'To leave a player out of the starting line-up — placing them on the substitute bench.',
       example: '"The manager benched his best striker as a tactical decision — keeping him fresh for the second leg."',
-      imageSlug: '/images/bench.png',
+      imageSlug: '/images/british-vs-american-football-english-bench.png',
 },
   ],
 

@@ -28,14 +28,14 @@ export const whatDoesMarketingDo: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To give something to someone for money.',
       example: 'Our goal is to help the sales team sell more products this month.',
-      imageSlug: '/images/sell.png',
+      imageSlug: '/images/what-does-marketing-do-sell.png',
     },
     {
       word: 'LAUNCH',
       partOfSpeech: 'verb',
       definition: 'To start something new — like a product or campaign — for the first time.',
       example: 'We will launch the new product in March.',
-      imageSlug: '/images/launch.png',
+      imageSlug: '/images/what-does-marketing-do-launch.png',
     },
     {
       word: 'COMMUNICATE',
@@ -49,14 +49,14 @@ export const whatDoesMarketingDo: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To send or show something to other people.',
       example: 'We share news about the brand on social media every week.',
-      imageSlug: '/images/share.png',
+      imageSlug: '/images/what-does-marketing-do-share.png',
     },
     {
       word: 'REACH',
       partOfSpeech: 'verb',
       definition: 'To get to or connect with a group of people.',
       example: 'Our last campaign reached 10,000 people online.',
-      imageSlug: '/images/reach.png',
+      imageSlug: '/images/what-does-marketing-do-reach.png',
     },
     {
       word: 'CREATE',
@@ -78,13 +78,13 @@ export const whatDoesMarketingDo: Lesson = {
       phrase: 'REACH OUT TO',
       definition: 'Contact a person or group of people to talk or share information.',
       example: 'We reach out to clients by email to tell them about new products.',
-      imageSlug: '/images/reach-out-to.png',
+      imageSlug: '/images/what-does-marketing-do-reach-out-to.png',
     },
     {
       phrase: 'COME UP WITH',
       definition: 'Think of a new idea.',
       example: 'The team came up with a great idea for the next campaign.',
-      imageSlug: '/images/come-up-with.png',
+      imageSlug: '/images/what-does-marketing-do-come-up-with.png',
     },
     {
       phrase: 'PUT TOGETHER',
@@ -96,13 +96,13 @@ export const whatDoesMarketingDo: Lesson = {
       phrase: 'ROLL OUT',
       definition: 'Start to use or share something with a lot of people.',
       example: 'We will roll out the new campaign next week.',
-      imageSlug: '/images/roll-out.png',
+      imageSlug: '/images/what-does-marketing-do-roll-out.png',
     },
     {
       phrase: 'FOLLOW UP',
       definition: 'Contact someone again after a first conversation or message.',
       example: 'After the event, we follow up with new contacts by email.',
-      imageSlug: '/images/follow-up.png',
+      imageSlug: '/images/what-does-marketing-do-follow-up.png',
     }
   ],
 

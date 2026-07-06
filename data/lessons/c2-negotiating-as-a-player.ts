@@ -33,7 +33,7 @@ export const c2NegotiatingAsAPlayer: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Power or advantage in a negotiation — what gives you the ability to push for better terms.',
       example: '"Your leverage is highest when you have competing offers. A club that knows you have another serious option on the table will move further than one that believes you have nowhere else to go."',
-      imageSlug: '/images/leverage.png',
+      imageSlug: '/images/c2-negotiating-as-a-player-leverage.png',
     },
     {
       word: 'CLAUSE',
@@ -75,14 +75,14 @@ export const c2NegotiatingAsAPlayer: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Authority given to someone to act on your behalf — an agent acts within the mandate set by the player.',
       example: '"Give your agent a clear mandate before they enter the negotiation: the minimum terms you will accept, the areas where you have flexibility, and the lines you will not cross."',
-      imageSlug: '/images/mandate.png',
+      imageSlug: '/images/c2-negotiating-as-a-player-mandate.png',
     },
     {
       word: 'WALK AWAY POINT',
       partOfSpeech: 'noun',
       definition: 'The minimum acceptable terms — the point below which you will not sign the contract and must be prepared to walk away from the deal.',
       example: '"Know your walk-away point before you enter any negotiation. Without it, pressure in the room will push you below the minimum you should accept."',
-      imageSlug: '/images/walk-away.png',
+      imageSlug: '/images/c2-negotiating-as-a-player-walk-away.png',
     },
   ],
 
@@ -91,7 +91,7 @@ export const c2NegotiatingAsAPlayer: Lesson = {
       phrase: 'HOLD OUT FOR',
       definition: 'To refuse to accept less than a specific term — to wait for the right offer rather than settling for less.',
       example: '"He held out for the release clause figure he wanted — and after three weeks, the club came back with a number that was much closer to market value."',
-      imageSlug: '/images/hold-out-for.png',
+      imageSlug: '/images/c2-negotiating-as-a-player-hold-out-for.png',
     },
     {
       phrase: 'COME BACK WITH',
@@ -103,7 +103,7 @@ export const c2NegotiatingAsAPlayer: Lesson = {
       phrase: 'PUSH BACK ON',
       definition: 'To resist or challenge a specific element of an offer — to express disagreement and seek a better position.',
       example: '"I would push back on the image rights clause specifically — that\'s a significant commercial asset and the proposed split does not reflect current market rates."',
-      imageSlug: '/images/push-back-on.png',
+      imageSlug: '/images/c2-negotiating-as-a-player-push-back-on.png',
     },
     {
       phrase: 'TIE TO',
@@ -121,7 +121,7 @@ export const c2NegotiatingAsAPlayer: Lesson = {
       phrase: 'SIGN OFF ON',
       definition: 'To formally approve or agree to something — to give final approval to a deal or specific term.',
       example: '"The player\'s agent would not sign off on the contract until the performance bonus structure had been clarified in writing."',
-      imageSlug: '/images/sign-off-on.png',
+      imageSlug: '/images/c2-negotiating-as-a-player-sign-off-on.png',
     },
   ],
 

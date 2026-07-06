@@ -14,7 +14,7 @@ export const comparingProductsOrServices: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A clear difference between two things when they are compared directly. In sales, you use contrast to show why your solution is the better fit for this specific customer.',
       example: 'Riley said: The contrast between the two platforms becomes clear when you look at customisation. CompeteX offers fixed templates — we give you full control over every report.',
-      imageSlug: '/images/contrast.png',
+      imageSlug: '/images/comparing-products-or-services-contrast.png',
     },
     {
       word: 'DRAWBACK',
@@ -28,21 +28,21 @@ export const comparingProductsOrServices: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A different option that can replace the first choice. When a customer raises a concern, offering an alternative shows flexibility and keeps the conversation moving forward.',
       example: 'Marcus was not sure about the Standard Plan. Riley said: If that is not the right fit, we have a strong alternative — our Essentials Plan has fewer features but a significantly lower price point.',
-      imageSlug: '/images/alternative.png',
+      imageSlug: '/images/comparing-products-or-services-alternative.png',
     },
     {
       word: 'SUPERIOR',
       partOfSpeech: 'adjective',
       definition: "Better than something else in quality, performance, or value. Use 'superior' carefully — always back it up with evidence, or it sounds like an empty claim.",
       example: 'Riley did not just claim superiority — she proved it: Our onboarding satisfaction score is 94%, which is consistently superior to the industry average. I can share the data if you would like.',
-      imageSlug: '/images/superior.png',
+      imageSlug: '/images/comparing-products-or-services-superior.png',
     },
     {
       word: 'TAILORED',
       partOfSpeech: 'adjective',
       definition: "Made or adjusted to fit a specific person, team, or situation exactly. A tailored solution is more valuable than a generic one because it solves the customer's specific problem.",
       example: 'Riley said: Unlike CompeteX, which serves everyone from small startups to global enterprises, our platform is tailored specifically to mid-size sales teams — which is exactly what you are.',
-      imageSlug: '/images/tailored.png',
+      imageSlug: '/images/comparing-products-or-services-tailored.png',
     },
     {
       word: 'OUTPERFORM',
@@ -63,7 +63,7 @@ export const comparingProductsOrServices: Lesson = {
       partOfSpeech: 'noun',
       definition: "The standards or factors used to make a decision or comparison. Understanding a customer's criteria helps you frame your comparison around what actually matters to them.",
       example: 'Riley asked early in the conversation: What are the most important criteria for your team when choosing a platform? Marcus said: Customisation, support, and total cost. Riley said: Perfect — let me address each one.',
-      imageSlug: '/images/criteria.png',
+      imageSlug: '/images/comparing-products-or-services-criteria.png',
     }
   ],
 

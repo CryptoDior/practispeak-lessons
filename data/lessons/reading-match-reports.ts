@@ -40,7 +40,7 @@ export const readingMatchReports: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The large title at the top of a newspaper story — designed to attract attention and summarise the key point.',
       example: 'The headline read: "CITY CRUSHED: Five-star display leaves rivals embarrassed."',
-      imageSlug: '/images/headline.png',
+      imageSlug: '/images/reading-match-reports-headline.png',
     },
     {
       word: 'JOURNALIST',
@@ -54,14 +54,14 @@ export const readingMatchReports: Lesson = {
       partOfSpeech: 'noun',
       definition: 'When a player receives a yellow card from the referee.',
       example: 'There were three bookings in the match — two for the home team and one for the away captain.',
-      imageSlug: '/images/booking.png',
+      imageSlug: '/images/reading-match-reports-booking.png',
     },
     {
       word: 'DISMISSAL',
       partOfSpeech: 'noun',
       definition: 'When a player is sent off — given a red card and required to leave the pitch.',
       example: 'The dismissal in the 55th minute changed everything — the home team had to play with ten men.',
-      imageSlug: '/images/dismissal.png',
+      imageSlug: '/images/reading-match-reports-dismissal.png',
     },
     {
       word: 'ATTENDANCE',
@@ -75,14 +75,14 @@ export const readingMatchReports: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A player who comes on during the match to replace another player.',
       example: 'The substitute scored twice after coming on — transforming a 1-0 deficit into a 2-1 victory.',
-      imageSlug: '/images/substitute.png',
+      imageSlug: '/images/reading-match-reports-substitute.png',
     },
     {
       word: 'STOPPAGE TIME',
       partOfSpeech: 'noun',
       definition: 'Time added at the end of each half by the referee to make up for delays during the game.',
       example: 'The winner was scored deep into stoppage time — the stadium erupted in the 96th minute.',
-      imageSlug: '/images/stoppage-time.png',
+      imageSlug: '/images/reading-match-reports-stoppage-time.png',
     },
   ],
 
@@ -97,7 +97,7 @@ export const readingMatchReports: Lesson = {
       phrase: 'WAS SENT OFF',
       definition: 'Received a red card — was required to leave the pitch. Passive form of "the referee sent him off".',
       example: 'She was sent off for a professional foul — the referee had no hesitation in showing the red card.',
-      imageSlug: '/images/was-sent-off.png',
+      imageSlug: '/images/reading-match-reports-was-sent-off.png',
     },
     {
       phrase: 'WAS AWARDED',

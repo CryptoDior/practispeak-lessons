@@ -49,7 +49,7 @@ export const onlineAndOfflineMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A way to reach people with your marketing. For example: social media, email, or print.',
       example: 'Email is our best channel for reaching existing clients.',
-      imageSlug: '/images/channel.png',
+      imageSlug: '/images/online-and-offline-marketing-channel.png',
     },
     {
       word: 'ONLINE',
@@ -90,7 +90,7 @@ export const onlineAndOfflineMarketing: Lesson = {
       phrase: 'RUN AN AD',
       definition: 'Pay to show your message to people on a channel.',
       example: 'We run ads on Google and LinkedIn to reach new customers.',
-      imageSlug: '/images/run-an-ad.png',
+      imageSlug: '/images/online-and-offline-marketing-run-an-ad.png',
     },
     {
       phrase: 'DRIVE TRAFFIC TO',

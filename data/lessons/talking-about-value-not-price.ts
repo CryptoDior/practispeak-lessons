@@ -35,14 +35,14 @@ export const talkingAboutValueNotPrice: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Able to be expressed in numbers or tracked over time — a measurable benefit is far more persuasive than a vague one.',
       example: "The most compelling value statements are measurable — 'this reduces your reporting time by three hours a week' is harder to dismiss than 'this saves time'.",
-      imageSlug: '/images/measurable.png',
+      imageSlug: '/images/talking-about-value-not-price-measurable.png',
     },
     {
       word: 'INTANGIBLE',
       partOfSpeech: 'adjective',
       definition: 'Real but difficult to quantify — benefits like team confidence, morale, or reduced stress that do not always show up directly in a spreadsheet.',
       example: 'Do not ignore intangible value — a team that is less stressed and more confident performs better, even if you cannot put a clean number on it.',
-      imageSlug: '/images/intangible.png',
+      imageSlug: '/images/talking-about-value-not-price-intangible.png',
     },
     {
       word: 'EFFICIENCY',
@@ -56,7 +56,7 @@ export const talkingAboutValueNotPrice: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The balance between what you give up and what you gain — every purchase involves a trade-off, and making that trade-off explicit is part of the value conversation.',
       example: 'Be honest about the trade-off — the product costs X per month, but based on the deals you described, it recovers that in the first week. That is a trade-off worth making.',
-      imageSlug: '/images/trade-off.png',
+      imageSlug: '/images/talking-about-value-not-price-trade-off.png',
     },
     {
       word: 'MARGIN',

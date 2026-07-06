@@ -14,7 +14,7 @@ export const seoAndSem: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Organic search results are the ones that appear because the search engine thinks they are relevant — not because someone paid for them. Organic traffic is free in terms of cost per click, but it takes time and effort to achieve through SEO.',
       example: "Marcus asked: Where is most of our traffic coming from? Riley replied: About 60% is organic — people finding us through search without clicking an ad. The rest is paid. Marcus said: Good — organic is more sustainable long-term. We need to keep growing it while the paid campaigns support us in the short term.",
-      imageSlug: '/images/organic.png',
+      imageSlug: '/images/seo-and-sem-organic.png',
     },
     {
       word: 'PAID SEARCH',
@@ -49,21 +49,21 @@ export const seoAndSem: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The number of times your ad or search result was shown to someone. An impression counts every time your ad appeared on a screen, whether the person clicked or not. Impressions measure reach — how many people saw you.',
       example: "Riley presented the report: We had 45,000 impressions last month. Marcus asked: And how many clicks from those impressions? Riley replied: About 900 — so our click-through rate is 2%. That means 98% of the people who saw our ad did not click it. The headline might need to be stronger.",
-      imageSlug: '/images/impression.png',
+      imageSlug: '/images/seo-and-sem-impression.png',
     },
     {
       word: 'CLICK-THROUGH RATE',
       partOfSpeech: 'noun',
       definition: 'The percentage of people who saw your ad or search result and clicked on it. Calculated as clicks divided by impressions. A higher click-through rate means your ad is more relevant and appealing to the people who see it.',
       example: "Marcus reviewed the numbers: Our click-through rate on the main campaign is 2%. Is that good? Riley replied: For paid search in our industry, the average is around 3.5%. So we are below average — the ad copy is probably not compelling enough, or we are targeting the wrong keywords and appearing in front of the wrong people.",
-      imageSlug: '/images/click-through-rate.png',
+      imageSlug: '/images/seo-and-sem-click-through-rate.png',
     },
     {
       word: 'LANDING PAGE',
       partOfSpeech: 'noun',
       definition: 'The page on your website that someone arrives at after clicking an ad. A good landing page is directly relevant to the ad — it delivers exactly what the ad promised. A mismatch between the ad and the landing page kills conversion.',
       example: "Riley flagged an issue: Our main paid search ad promises a free trial, but clicking it takes people to our homepage — not to a free trial sign-up page. Marcus replied: That is a serious problem. The [[landing page:the page people arrive at after clicking an ad]] must match the ad exactly. Every extra step between the click and the action loses you customers.",
-      imageSlug: '/images/landing-page.png',
+      imageSlug: '/images/seo-and-sem-landing-page.png',
     },
   ],
 

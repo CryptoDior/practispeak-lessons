@@ -40,21 +40,21 @@ export const describingAPlayer: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Powerful and physical — able to hold off opponents and win challenges.',
       example: 'He is strong in the air and wins almost every header — the perfect target man.',
-      imageSlug: '/images/strong.png',
+      imageSlug: '/images/describing-a-player-strong.png',
     },
     {
       word: 'CLINICAL',
       partOfSpeech: 'adjective',
       definition: 'Precise and efficient in front of goal — does not miss easy chances.',
       example: 'She was clinical tonight — four shots, four goals.',
-      imageSlug: '/images/clinical.png',
+      imageSlug: '/images/describing-a-player-clinical.png',
     },
     {
       word: 'CREATIVE',
       partOfSpeech: 'adjective',
       definition: 'Able to create chances — with clever passes and ideas other players do not see.',
       example: 'He is the most creative player in the league — his vision always surprises defenders.',
-      imageSlug: '/images/creative.png',
+      imageSlug: '/images/describing-a-player-creative.png',
     },
     {
       word: 'RELIABLE',
@@ -109,7 +109,7 @@ export const describingAPlayer: Lesson = {
       phrase: 'READS THE GAME WELL',
       definition: 'Understands what is happening on the pitch — anticipates where the ball will go.',
       example: 'He reads the game well — he is never fast but always in the right position.',
-      imageSlug: '/images/reads-the-game-well.png',
+      imageSlug: '/images/describing-a-player-reads-the-game-well.png',
     },
     {
       phrase: 'LEADS BY EXAMPLE',

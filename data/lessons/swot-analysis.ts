@@ -28,7 +28,7 @@ export const swotAnalysis: Lesson = {
       partOfSpeech: 'noun',
       definition: "An external condition in the market that you can use to your advantage — a trend, a gap, or a competitor's weakness.",
       example: 'The biggest opportunity right now is that the market leader just increased their prices by 30% — several of their clients are actively looking for alternatives.',
-      imageSlug: '/images/opportunity.png',
+      imageSlug: '/images/swot-analysis-opportunity.png',
     },
     {
       word: 'THREAT',
@@ -42,7 +42,7 @@ export const swotAnalysis: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To use an advantage, asset, or strength to get the best possible result — making the most of what you already have.',
       example: 'We need to leverage those three client case studies — they are sitting in a folder on the server and no one is seeing them. They should be front and centre in every campaign.',
-      imageSlug: '/images/leverage.png',
+      imageSlug: '/images/swot-analysis-leverage.png',
     },
     {
       word: 'MITIGATE',
@@ -63,7 +63,7 @@ export const swotAnalysis: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A standard used to compare performance — either against a competitor, an industry average, or your own past results.',
       example: 'The industry benchmark for email open rates in B2B SaaS is around 22%. Our last campaign hit 31% — that is a strength worth building on.',
-      imageSlug: '/images/benchmark.png',
+      imageSlug: '/images/swot-analysis-benchmark.png',
     }
   ],
 

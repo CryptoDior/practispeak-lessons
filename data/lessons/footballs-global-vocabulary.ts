@@ -91,7 +91,7 @@ export const footballsGlobalVocabulary: Lesson = {
       partOfSpeech: 'noun',
       definition: 'From German — "counter-pressing": the tactic of immediately pressing the opposition after losing the ball to win it back in a dangerous position.',
       example: '"Their gegenpressing was relentless — every time they lost the ball, four players immediately closed down the opponent who had it."',
-      imageSlug: '/images/gegenpressing.png',
+      imageSlug: '/images/footballs-global-vocabulary-gegenpressing.png',
     },
   ],
 
@@ -106,7 +106,7 @@ export const footballsGlobalVocabulary: Lesson = {
       phrase: 'ADAPT TO',
       definition: 'To adjust successfully to new conditions — a different league, culture, or style of play.',
       example: '"It took him six months to adapt to the physical demands of the Premier League after coming from La Liga."',
-      imageSlug: '/images/adapt-to.png',
+      imageSlug: '/images/footballs-global-vocabulary-adapt-to.png',
 },
     {
       phrase: 'SPREAD ACROSS',

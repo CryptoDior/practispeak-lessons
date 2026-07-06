@@ -42,7 +42,7 @@ export const footballHumour: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Playful, friendly teasing between people who know each other — an important part of dressing-room and fan culture.',
       example: '"The banter between the two strikers was legendary — they teased each other relentlessly but were best friends off the pitch."',
-      imageSlug: '/images/banter.png',
+      imageSlug: '/images/football-humour-banter.png',
     },
     {
       word: 'TERRACE WIT',
@@ -63,7 +63,7 @@ export const footballHumour: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'To tease or provoke someone deliberately — or the act of doing so. Common between rival fans and teammates.',
       example: '"He knew exactly what he was doing — winding up the opposition fans with every goal celebration."',
-      imageSlug: '/images/wind-up.png',
+      imageSlug: '/images/football-humour-wind-up.png',
     },
     {
       word: 'DRY HUMOUR',
@@ -84,14 +84,14 @@ export const footballHumour: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'A song or rhythmic phrase repeated by fans in unison — sometimes funny, sometimes rude, always loud.',
       example: '"The fans started a chant about the opposition manager — it wasn\'t kind, but it was genuinely witty."',
-      imageSlug: '/images/chant.png',
+      imageSlug: '/images/football-humour-chant.png',
     },
     {
       word: 'HEADLINE',
       partOfSpeech: 'noun',
       definition: 'The title of a newspaper article — in British tabloids, football headlines are famous for puns and wordplay.',
       example: '"KEEPER OF THE FAITH — the headline after the goalkeeper saved three penalties in one match."',
-      imageSlug: '/images/headline.png',
+      imageSlug: '/images/football-humour-headline.png',
     },
   ],
 

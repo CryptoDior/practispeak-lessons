@@ -14,14 +14,14 @@ export const theFourPs: Lesson = {
       partOfSpeech: 'noun',
       definition: 'How a company decides where its product sits in the market — and how it wants people to see it compared to other products.',
       example: "Brightline's positioning is as a smart, easy-to-use tool for busy marketing teams.",
-      imageSlug: '/images/positioning.png',
+      imageSlug: '/images/the-4-ps-positioning.png',
     },
     {
       word: 'DISTRIBUTION',
       partOfSpeech: 'noun',
       definition: 'The way a product gets to the customer — for example, online, in a shop, or through a partner.',
       example: 'Our distribution is online only — customers sign up and download the product from our website.',
-      imageSlug: '/images/distribution.png',
+      imageSlug: '/images/the-4-ps-distribution.png',
     },
     {
       word: 'RETAIL',
@@ -42,14 +42,14 @@ export const theFourPs: Lesson = {
       partOfSpeech: 'noun',
       definition: 'How useful or important something is to a customer, compared to what they pay.',
       example: 'Our customers say the product gives them great value — it saves them hours every week.',
-      imageSlug: '/images/value.png',
+      imageSlug: '/images/the-4-ps-value.png',
     },
     {
       word: 'PROMOTION',
       partOfSpeech: 'noun',
       definition: 'The activities used to tell people about a product and persuade them to buy it.',
       example: 'Our promotion plan includes social media ads, email campaigns, and a referral programme.',
-      imageSlug: '/images/promotion.png',
+      imageSlug: '/images/the-4-ps-promotion.png',
     },
     {
       word: 'PRICING',
@@ -63,7 +63,7 @@ export const theFourPs: Lesson = {
       partOfSpeech: 'noun',
       definition: 'What a company offers — the reason a customer should choose them over someone else.',
       example: 'Our value proposition is clear: save time, get better results, pay less than you would for two separate tools.',
-      imageSlug: '/images/proposition.png',
+      imageSlug: '/images/the-4-ps-proposition.png',
     }
   ],
 
@@ -90,7 +90,7 @@ export const theFourPs: Lesson = {
       phrase: 'STAND OUT FROM',
       definition: 'Be different or better than other products in the market.',
       example: 'We stand out from competitors because our product is easier to set up and use.',
-      imageSlug: '/images/stand-out-from.png',
+      imageSlug: '/images/the-4-ps-stand-out-from.png',
     },
     {
       phrase: 'MAKE THE CASE FOR',

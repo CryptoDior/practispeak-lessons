@@ -21,7 +21,7 @@ export const marketingBudgets: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Return on Investment — the revenue or value generated relative to the money spent. In marketing, ROI is often expressed as a ratio or percentage: an ROI of 300% means every £1 spent generated £3 in return. Marketing teams are increasingly expected to justify every significant spend decision with projected or historical ROI.',
       example: "Marcus challenged the spend: The event sponsorship costs £40,000. What's the expected ROI? Riley came prepared: Based on last year's event, we generated 23 SQLs with an average deal value of £8,500. If we close at our historical rate, that's approximately £98,000 in pipeline from a £40,000 investment — an ROI of about 145%. That's one of our highest-returning activities.",
-      imageSlug: '/images/roi.png',
+      imageSlug: '/images/marketing-budgets-roi.png',
     },
     {
       word: 'COST-PER-ACQUISITION',
@@ -35,14 +35,14 @@ export const marketingBudgets: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A projection of future revenue, pipeline, leads, or other outcomes based on planned spend and historical performance data. A marketing forecast is a commitment — not a guarantee, but a data-led expectation that leadership can plan around. A forecast should always include the assumptions it is built on.',
       example: "Riley set out the forecast: Based on this budget, my forecast for Q4 is 180 MQLs, 65 SQLs, and approximately £420,000 in pipeline. That's based on our historical conversion rates and the channel mix I've proposed. The main risk to the forecast is if the paid channel underperforms — I've built in a 15% buffer for that scenario.",
-      imageSlug: '/images/forecast.png',
+      imageSlug: '/images/marketing-budgets-forecast.png',
     },
     {
       word: 'VARIANCE',
       partOfSpeech: 'noun',
       definition: 'The difference between a budgeted or forecasted number and the actual result. In budget reviews, variance is always analysed: a positive variance means you spent less than planned or generated more than expected; a negative variance means the opposite. Consistently large variances suggest the forecasting model needs improving.',
       example: "Marcus opened the budget review: We have a £32,000 negative variance against the paid media forecast — we spent the budget but didn't generate the pipeline we projected. Riley explained: The variance was driven by a platform algorithm change in October. We've since shifted 40% of that spend to content, which is performing to plan. I'd expect the variance to close in Q1.",
-      imageSlug: '/images/variance.png',
+      imageSlug: '/images/marketing-budgets-variance.png',
     },
     {
       word: 'HEADROOM',

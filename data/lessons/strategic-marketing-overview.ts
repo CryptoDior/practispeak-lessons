@@ -14,14 +14,14 @@ export const strategicMarketingOverview: Lesson = {
       partOfSpeech: 'noun',
       definition: 'How your brand sits in the minds of your target audience — what it stands for and how it compares to alternatives.',
       example: "Our positioning is 'the affordable premium option' — we sit between the budget players and the luxury brands, which is exactly where our audience wants us.",
-      imageSlug: '/images/positioning.png',
+      imageSlug: '/images/strategic-marketing-overview-positioning.png',
     },
     {
       word: 'DIFFERENTIATION',
       partOfSpeech: 'noun',
       definition: 'What makes your brand genuinely different from competitors — the specific thing that gives people a reason to choose you.',
       example: 'Our differentiation is speed — we guarantee campaign results in 30 days, which no competitor is willing to promise.',
-      imageSlug: '/images/differentiation.png',
+      imageSlug: '/images/strategic-marketing-overview-differentiation.png',
     },
     {
       word: 'COMPETITIVE EDGE',
@@ -35,14 +35,14 @@ export const strategicMarketingOverview: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The full range of products, services, or past work a company offers or has done — used to show capability and experience.',
       example: 'Before the pitch, send the client your portfolio — three or four case studies that show results in their industry are worth more than any slide deck.',
-      imageSlug: '/images/portfolio.png',
+      imageSlug: '/images/strategic-marketing-overview-portfolio.png',
     },
     {
       word: 'PROPOSITION',
       partOfSpeech: 'noun',
       definition: 'The clear statement of what you offer, who it is for, and why it is valuable — the core of your marketing message.',
       example: 'Your value proposition needs to answer one question in under ten seconds: why should I choose you over everyone else?',
-      imageSlug: '/images/proposition.png',
+      imageSlug: '/images/strategic-marketing-overview-proposition.png',
     },
     {
       word: 'TARGET MARKET',
@@ -63,7 +63,7 @@ export const strategicMarketingOverview: Lesson = {
       partOfSpeech: 'noun',
       definition: "How well a marketing activity or partnership aligns with your brand's overall goals and direction.",
       example: 'Before saying yes to a co-marketing opportunity, always ask: is this a strategic fit? Does it reach our audience, reinforce our positioning, and help us grow in the right direction?',
-      imageSlug: '/images/strategic-fit.png',
+      imageSlug: '/images/strategic-marketing-overview-strategic-fit.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const strategicMarketingOverview: Lesson = {
       phrase: 'STAND OUT FROM [THE COMPETITION]',
       definition: 'To be clearly different and more noticeable than other brands in your space — in a way that matters to your audience.',
       example: 'In a crowded SaaS market, you do not stand out by having more features — you stand out by being clearer about who you are for and why you exist.',
-      imageSlug: '/images/stand-out-from-the-competition.png',
+      imageSlug: '/images/strategic-marketing-overview-stand-out-from-the-competition.png',
     },
     {
       phrase: 'CARVE OUT [A NICHE]',
@@ -84,7 +84,7 @@ export const strategicMarketingOverview: Lesson = {
       phrase: 'BREAK INTO [A MARKET]',
       definition: 'To successfully enter a new market — especially one that is competitive or where you have no existing presence.',
       example: 'Breaking into the enterprise market took us two years — our positioning was wrong at first and we had to rebuild from scratch.',
-      imageSlug: '/images/break-into-a-market.png',
+      imageSlug: '/images/strategic-marketing-overview-break-into-a-market.png',
     },
     {
       phrase: 'BUILD ON [YOUR STRENGTHS]',

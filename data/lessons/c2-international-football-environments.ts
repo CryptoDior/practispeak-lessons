@@ -40,7 +40,7 @@ export const c2InternationalFootballEnvironments: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The ability to understand, adapt to, and work effectively within different cultural environments — a key skill for international football careers.',
       example: '"Cultural intelligence is not about knowing every custom — it is about being curious, being observant, and being willing to adapt your communication style without losing your identity."',
-      imageSlug: '/images/cultural-intelligence.png',
+      imageSlug: '/images/c2-international-football-environments-cultural-intelligence.png',
     },
     {
       word: 'HIERARCHY',
@@ -54,7 +54,7 @@ export const c2InternationalFootballEnvironments: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A communication style that states things clearly and without softening — experienced as efficient by some cultures and rude by others.',
       example: '"The directness of German training feedback was a significant adjustment — but once I understood it as efficiency rather than criticism, I found it incredibly useful for my development."',
-      imageSlug: '/images/directness.png',
+      imageSlug: '/images/c2-international-football-environments-directness.png',
     },
     {
       word: 'INTEGRATION',
@@ -97,25 +97,25 @@ export const c2InternationalFootballEnvironments: Lesson = {
       phrase: 'FIT IN',
       definition: 'To be accepted as part of a group — to be compatible with the norms and culture of a team or workplace.',
       example: '"Fitting in at a new club is about more than language — it\'s about understanding the unwritten rules: who sits where in the canteen, how feedback is given, what the captain\'s role is in the dressing room."',
-      imageSlug: '/images/fit-in.png',
+      imageSlug: '/images/c2-international-football-environments-fit-in.png',
     },
     {
       phrase: 'STAND OUT',
       definition: 'To be noticeably different from others — can be positive (exceptional performance) or negative (failure to adapt).',
       example: '"He stood out initially — not just for his ability, but for how differently he communicated. Once the team understood his directness was cultural, not personal, it became an asset."',
-      imageSlug: '/images/stand-out.png',
+      imageSlug: '/images/c2-international-football-environments-stand-out.png',
     },
     {
       phrase: 'ADAPT TO',
       definition: 'To change your behaviour or approach to suit a new environment — to adjust without losing your core identity.',
       example: '"Adapting to the Spanish football environment meant understanding that relationship-building came before business — you had a coffee, you talked about family, and then you talked about the contract."',
-      imageSlug: '/images/adapt-to.png',
+      imageSlug: '/images/c2-international-football-environments-adapt-to.png',
     },
     {
       phrase: 'PICK UP ON',
       definition: 'To notice or detect something subtle — to understand an unspoken rule or cultural signal.',
       example: '"She quickly picked up on the fact that the Head Coach valued brevity — presentations over five minutes were always cut short, regardless of the content."',
-      imageSlug: '/images/pick-up-on.png',
+      imageSlug: '/images/c2-international-football-environments-pick-up-on.png',
     },
     {
       phrase: 'BRIDGE THE GAP',

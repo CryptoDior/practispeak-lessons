@@ -14,7 +14,7 @@ export const brandValues: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A principle or belief that a company holds — something they think is important and that guides how they work.',
       example: "One of Brightline's core values is transparency — we are always open with clients about what we can and cannot do.",
-      imageSlug: '/images/value.png',
+      imageSlug: '/images/brand-values-value.png',
     },
     {
       word: 'MISSION',
@@ -28,28 +28,28 @@ export const brandValues: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A description of what a company wants to achieve in the future — a long-term goal.',
       example: 'Our vision is to become the most trusted marketing tool for independent teams worldwide.',
-      imageSlug: '/images/vision.png',
+      imageSlug: '/images/brand-values-vision.png',
     },
     {
       word: 'PURPOSE',
       partOfSpeech: 'noun',
       definition: 'The reason a company exists — what drives it beyond just making money.',
       example: 'Our purpose is to make great marketing accessible to teams that do not have a big agency budget.',
-      imageSlug: '/images/purpose.png',
+      imageSlug: '/images/brand-values-purpose.png',
     },
     {
       word: 'TRUST',
       partOfSpeech: 'noun',
       definition: 'The belief that a company will be honest, reliable, and do what they say they will do.',
       example: 'Trust takes time to build, but once clients trust you, they stay for a long time.',
-      imageSlug: '/images/trust.png',
+      imageSlug: '/images/brand-values-trust.png',
     },
     {
       word: 'AUTHENTICITY',
       partOfSpeech: 'noun',
       definition: 'Being honest and real — not pretending to be something you are not.',
       example: 'Authenticity is one of our values — we never overpromise. We say what we can do and we do it.',
-      imageSlug: '/images/authenticity.png',
+      imageSlug: '/images/brand-values-authenticity.png',
     },
     {
       word: 'CULTURE',
@@ -63,7 +63,7 @@ export const brandValues: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Doing things the same way every time — being reliable and predictable in a positive way.',
       example: 'Consistency in how we communicate builds trust with clients over time.',
-      imageSlug: '/images/consistency.png',
+      imageSlug: '/images/brand-values-consistency.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const brandValues: Lesson = {
       phrase: 'STAND FOR',
       definition: 'Represent a set of values or beliefs — say what your brand believes in.',
       example: 'Brightline stands for simplicity, speed, and transparency — those are the things we will never compromise on.',
-      imageSlug: '/images/stand-for.png',
+      imageSlug: '/images/brand-values-stand-for.png',
     },
     {
       phrase: 'LIVE BY [YOUR VALUES]',
@@ -84,7 +84,7 @@ export const brandValues: Lesson = {
       phrase: 'BUILD TRUST',
       definition: 'Develop a strong, reliable relationship with clients or customers over time.',
       example: 'We build trust by doing what we say, being honest when something goes wrong, and fixing it quickly.',
-      imageSlug: '/images/build-trust.png',
+      imageSlug: '/images/brand-values-build-trust.png',
     },
     {
       phrase: 'ALIGN WITH',

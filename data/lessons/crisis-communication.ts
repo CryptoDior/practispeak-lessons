@@ -28,14 +28,14 @@ export const crisisCommunication: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Being open and honest with the public about what happened and why. Transparency in a crisis means sharing accurate information even when it is uncomfortable. Brands that are transparent during a crisis recover faster than those that try to hide or minimise the problem.',
       example: "Marcus advised: The instinct is to say as little as possible — but transparency is almost always the better strategy. Riley agreed: If we are open about what went wrong and what we are doing to fix it, we give people a reason to stay with us. If we hide it and it comes out later — which it almost always does — the damage is much worse.",
-      imageSlug: '/images/transparency.png',
+      imageSlug: '/images/crisis-communication-transparency.png',
     },
     {
       word: 'ESCALATE',
       partOfSpeech: 'verb',
       definition: 'To move a problem or decision to a higher level of authority — for example, from the marketing team to the CEO, or from the customer service team to the legal team. You escalate when a situation is serious enough that it needs more senior attention or a different kind of expertise.',
       example: "Riley said: This is bigger than I expected — I think we need to escalate it. Marcus agreed: Yes — this needs to go to the CEO and the legal team immediately. I will escalate this morning. We cannot handle this at the marketing level alone. Riley, prepare a briefing for the CEO with the key facts, what we know, and what we recommend.",
-      imageSlug: '/images/escalate.png',
+      imageSlug: '/images/crisis-communication-escalate.png',
     },
     {
       word: 'RECALL',
@@ -49,14 +49,14 @@ export const crisisCommunication: Lesson = {
       partOfSpeech: 'noun',
       definition: "A short, temporary statement issued quickly after a crisis begins — before you have all the facts. A holding statement buys time by showing you are aware of the situation and taking it seriously, without saying more than you know. It prevents silence, which looks like guilt.",
       example: "Marcus instructed: We do not have all the facts yet, but we cannot say nothing. Issue a holding statement now — something like: 'We are aware of the reports and are investigating urgently. We will share a full update within 24 hours.' It is short, it is honest, and it stops people assuming the worst while we gather information.",
-      imageSlug: '/images/holding-statement.png',
+      imageSlug: '/images/crisis-communication-holding-statement.png',
     },
     {
       word: 'SPOKESPERSON',
       partOfSpeech: 'noun',
       definition: 'The official person who communicates on behalf of a company during a crisis. Only the spokesperson should speak publicly — everyone else on the team should direct media questions to them. A consistent spokesperson prevents conflicting messages.',
       example: "Riley asked: Who should speak to the media? Marcus replied: In a crisis this size, the spokesperson is the CEO — this needs to be senior. No one else speaks to the press or posts publicly on behalf of the company until this is resolved. All media enquiries come to me and I will direct them to the CEO's press officer.",
-      imageSlug: '/images/spokesperson.png',
+      imageSlug: '/images/crisis-communication-spokesperson.png',
     },
     {
       word: 'RESPONSE TIME',

@@ -42,7 +42,7 @@ export const writingAMatchReport: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The first goal of a match — the goal that opens the scoring.',
       example: '"The opener came against the run of play — a training-ground routine delivered with precision in the 22nd minute."',
-      imageSlug: '/images/opener.png',
+      imageSlug: '/images/writing-a-match-report-opener.png',
     },
     {
       word: 'CLINCH',
@@ -56,7 +56,7 @@ export const writingAMatchReport: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A recovery from a losing position to draw level or win.',
       example: '"The comeback was remarkable — three goals down at half-time, they levelled on 89 minutes and won in extra time."',
-      imageSlug: '/images/comeback.png',
+      imageSlug: '/images/writing-a-match-report-comeback.png',
     },
     {
       word: 'AGAINST THE RUN OF PLAY',
@@ -100,7 +100,7 @@ export const writingAMatchReport: Lesson = {
       phrase: 'BREAK THE DEADLOCK',
       definition: 'To score the first goal and end a goalless situation.',
       example: '"The hosts finally broke the deadlock on 54 minutes — a header from a corner that the goalkeeper had no chance of stopping."',
-      imageSlug: '/images/break-the-deadlock.png',
+      imageSlug: '/images/writing-a-match-report-break-the-deadlock.png',
 },
     {
       phrase: 'LEVEL UP / DRAW LEVEL',
@@ -112,7 +112,7 @@ export const writingAMatchReport: Lesson = {
       phrase: 'WRAP UP',
       definition: 'To complete a victory — to score the goal that secures the result.',
       example: '"The substitute wrapped up the points with a cool finish three minutes from time — his first touch, his first goal."',
-      imageSlug: '/images/wrap-up.png',
+      imageSlug: '/images/writing-a-match-report-wrap-up.png',
 },
     {
       phrase: 'SEND OFF',
@@ -124,13 +124,13 @@ export const writingAMatchReport: Lesson = {
       phrase: 'RULE OUT',
       definition: 'To disallow — when a goal is not given because of offside, foul play, or VAR.',
       example: '"Their equaliser was ruled out for offside — the striker\'s shoulder was a fraction beyond the last defender when the pass was played."',
-      imageSlug: '/images/rule-out.png',
+      imageSlug: '/images/writing-a-match-report-rule-out.png',
 },
     {
       phrase: 'HOLD ON',
       definition: 'To maintain a lead under pressure — to survive a period of intense opposition attack.',
       example: '"The home side held on despite a nervy final ten minutes — two goal-line clearances keeping them ahead."',
-      imageSlug: '/images/hold-on.png',
+      imageSlug: '/images/writing-a-match-report-hold-on.png',
 },
   ],
 

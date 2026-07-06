@@ -54,14 +54,14 @@ export const widthAndDepth: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'When a full-back cuts inside, running between the winger and the centre of the pitch — a run inside rather than outside.',
       example: 'The right-back underlaps as the winger goes to the byline — creating a 2v1 against the left-back.',
-      imageSlug: '/images/underlap.png',
+      imageSlug: '/images/width-and-depth-underlap.png',
     },
     {
       word: 'STRETCH',
       partOfSpeech: 'verb',
       definition: 'To force the opposition to defend a wider or deeper area — pulling them apart to create gaps.',
       example: 'The wide forwards stretch the defence by staying very wide — pulling the full-backs out and opening space in the middle.',
-      imageSlug: '/images/stretch.png',
+      imageSlug: '/images/width-and-depth-stretch.png',
     },
     {
       word: 'INVERTED WINGER',
@@ -91,7 +91,7 @@ export const widthAndDepth: Lesson = {
       phrase: 'GET IN BEHIND',
       definition: 'To run past the defensive line and receive the ball in the space behind the defenders.',
       example: 'The striker is always trying to get in behind — she wants the ball played over the top for her to run onto.',
-      imageSlug: '/images/get-in-behind.png',
+      imageSlug: '/images/width-and-depth-get-in-behind.png',
     },
     {
       phrase: 'CUT INSIDE',
@@ -109,7 +109,7 @@ export const widthAndDepth: Lesson = {
       phrase: 'MAKE A RUN',
       definition: 'To move into space — to sprint into a position to receive a pass.',
       example: 'The full-back makes a run beyond the winger — timing the run perfectly to receive the ball in space.',
-      imageSlug: '/images/make-a-run.png',
+      imageSlug: '/images/width-and-depth-make-a-run.png',
     },
     {
       phrase: 'PLAY ONE-TWO',

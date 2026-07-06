@@ -91,13 +91,13 @@ export const teamCommunication: Lesson = {
       phrase: 'BACK UP',
       definition: 'To support and help a teammate who needs assistance.',
       example: 'Can someone back up our sniper? She is being attacked from all sides.',
-      imageSlug: '/images/back-up.png',
+      imageSlug: '/images/team-communication-back-up.png',
     },
     {
       phrase: 'CALL OUT',
       definition: 'To verbally announce enemy positions so your team can react.',
       example: 'Always call out enemy positions so your teammates can react quickly.',
-      imageSlug: '/images/call-out.png',
+      imageSlug: '/images/team-communication-call-out.png',
     },
   ],
 

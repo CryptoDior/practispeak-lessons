@@ -28,7 +28,7 @@ export const paymentVocabulary: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A document sent to a customer that shows what they owe, the payment amount, and the due date. In B2B sales, most customers pay by invoice.',
       example: 'Marcus asked how he would pay. Riley said: I will send you an invoice by email today. It shows the total amount and the payment deadline — you just pay within 30 days.',
-      imageSlug: '/images/invoice.png',
+      imageSlug: '/images/payment-vocabulary-invoice.png',
     },
     {
       word: 'RECEIPT',

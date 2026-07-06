@@ -21,14 +21,14 @@ export const influencerMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The total number of people who could potentially see a piece of content — the size of the audience an influencer has access to.',
       example: 'Reach tells you the ceiling of how many people might see the content — but it says nothing about whether those people are the right audience or whether they actually trust the influencer.',
-      imageSlug: '/images/reach.png',
+      imageSlug: '/images/influencer-marketing-reach.png',
     },
     {
       word: 'AUTHENTICITY',
       partOfSpeech: 'noun',
       definition: 'The quality of being genuine — an influencer who truly uses and believes in what they recommend, rather than just taking a fee to promote it.',
       example: 'Audiences can detect inauthenticity immediately — if an influencer recommends your product but has no real experience of it, the post will not convert and may actually damage the brand.',
-      imageSlug: '/images/authenticity.png',
+      imageSlug: '/images/influencer-marketing-authenticity.png',
     },
     {
       word: 'ENDORSEMENT',
@@ -49,7 +49,7 @@ export const influencerMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: "The percentage of an influencer's audience who actively interact with their content — likes, comments, shares, and replies.",
       example: 'An influencer with 50,000 followers and a 0.5% engagement rate is less valuable than one with 8,000 followers and a 6% engagement rate. The second audience is actively listening.',
-      imageSlug: '/images/engagement-rate.png',
+      imageSlug: '/images/influencer-marketing-engagement-rate.png',
     },
     {
       word: 'PARTNERSHIP',
@@ -63,7 +63,7 @@ export const influencerMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A very specific, focused area of interest or expertise — the topic an influencer is known for and trusted on.',
       example: "The influencer's niche is operational efficiency in manufacturing — 9,000 followers, but every single one is in our exact target market. That is more valuable than 200,000 general business followers.",
-      imageSlug: '/images/niche.png',
+      imageSlug: '/images/influencer-marketing-niche.png',
     }
   ],
 

@@ -21,7 +21,7 @@ export const gameGenres: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A game type with fast movement, fighting, and quick reactions.',
       example: 'Action games are exciting — you fight and move all the time.',
-      imageSlug: '/images/action.png',
+      imageSlug: '/images/game-genres-action.png',
     },
     {
       word: 'ADVENTURE',
@@ -91,7 +91,7 @@ export const gameGenres: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To like one thing more than another.',
       example: "I prefer adventure games to horror games — I don't like being scared!",
-      imageSlug: '/images/prefer.png',
+      imageSlug: '/images/game-genres-prefer.png',
     }
   ],
 

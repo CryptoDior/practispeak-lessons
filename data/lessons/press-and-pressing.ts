@@ -33,7 +33,7 @@ export const pressAndPressing: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'To move quickly towards the ball carrier to put them under pressure. The action of pressing is called "a press."',
       example: 'Their striker pressed our centre-back as soon as he had the ball — he had no time to think.',
-      imageSlug: '/images/press.png',
+      imageSlug: '/images/press-and-pressing-press.png',
     },
     {
       word: 'HIGH PRESS',
@@ -47,7 +47,7 @@ export const pressAndPressing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A German tactical idea — pressing immediately after losing the ball, before the opposition can organise. "Gegen" means "against" in German.',
       example: 'Klopp brought gegenpressing to England — his teams win the ball back within seconds of losing it.',
-      imageSlug: '/images/gegenpressing.png',
+      imageSlug: '/images/press-and-pressing-gegenpressing.png',
     },
     {
       word: 'PRESS TRIGGER',
@@ -61,21 +61,21 @@ export const pressAndPressing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The energy and effort level of a team — high intensity means working very hard and very fast.',
       example: 'The pressing only works if the whole team maintains the same intensity for 90 minutes — it is exhausting.',
-      imageSlug: '/images/intensity.png',
+      imageSlug: '/images/press-and-pressing-intensity.png',
     },
     {
       word: 'BLOCK',
       partOfSpeech: 'noun',
       definition: 'The shape of a defending team — a "low block" means defending deep, a "mid block" means defending in midfield.',
       example: 'They sit in a mid block when they do not have the ball — compact and difficult to play through.',
-      imageSlug: '/images/block.png',
+      imageSlug: '/images/press-and-pressing-block.png',
     },
     {
       word: 'TRANSITION',
       partOfSpeech: 'noun',
       definition: 'The moment when the ball changes possession — the team without the ball either presses immediately or drops back.',
       example: 'Their transition from defence to attack is very fast — they go from defending to shooting in five seconds.',
-      imageSlug: '/images/transition.png',
+      imageSlug: '/images/press-and-pressing-transition.png',
     },
     {
       word: 'PRESSING TRAP',
@@ -103,7 +103,7 @@ export const pressAndPressing: Lesson = {
       phrase: 'DROP OFF',
       definition: 'To move back into a deeper position — the opposite of pressing. Teams drop off when they want to defend deep.',
       example: 'When they score, they drop off and let the opposition have the ball — protecting their lead.',
-      imageSlug: '/images/drop-off.png',
+      imageSlug: '/images/press-and-pressing-drop-off.png',
     },
     {
       phrase: 'FORCE A MISTAKE',
@@ -121,7 +121,7 @@ export const pressAndPressing: Lesson = {
       phrase: 'HOLD THE LINE',
       definition: 'To keep the defensive line high and organised — not dropping back when the opposition plays forward.',
       example: 'The defence holds the line when the team presses — keeping the opposition offside.',
-      imageSlug: '/images/hold-the-line.png',
+      imageSlug: '/images/press-and-pressing-hold-the-line.png',
     },
   ],
 

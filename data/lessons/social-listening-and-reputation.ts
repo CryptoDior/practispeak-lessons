@@ -28,7 +28,7 @@ export const socialListeningAndReputation: Lesson = {
       partOfSpeech: 'noun',
       definition: 'An overall picture of how a brand is perceived — combining awareness, sentiment, trust, and advocacy into one view. Brand health is not one single number but a combination of several indicators. A brand with high awareness but low trust can still have poor brand health. A brand with lower awareness but very high advocacy can be healthier than it looks.',
       example: 'Marcus reviewed the quarterly brand health dashboard: Awareness is up — more people know who we are. But trust is down 8 points following the data outage in September. And advocacy — people actively recommending us — is flat. High awareness with declining trust is a warning sign. Brand health overall is weakening, even if the top-line awareness numbers look positive.',
-      imageSlug: '/images/brand-health.png',
+      imageSlug: '/images/social-listening-and-reputation-brand-health.png',
     },
     {
       word: 'MONITOR',
@@ -56,14 +56,14 @@ export const socialListeningAndReputation: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Coverage or mentions created by others — journalists, influencers, customers, or social media users — not paid for or owned by the brand. Earned media is generally more trustworthy than paid advertising because it is not bought. Positive earned media is a sign of strong brand health; negative earned media needs active reputation management.',
       example: "Riley distinguished the coverage types: The article in Marketing Week was earned media — they reached out to us after seeing our LinkedIn content, not because we paid them. That kind of third-party endorsement is far more valuable per impression than any paid ad we run. One positive article in a respected trade publication reaches the right audience with a level of credibility we can't buy.",
-      imageSlug: '/images/earned-media.png',
+      imageSlug: '/images/social-listening-and-reputation-earned-media.png',
     },
     {
       word: 'NARRATIVE',
       partOfSpeech: 'noun',
       definition: "The story or interpretation of events that takes hold in public conversation about a brand. In reputation management, 'controlling the narrative' means making sure your version of events reaches people before a negative interpretation gets established. Once a narrative is in place, it is very hard to change.",
       example: 'Dana explained the communications principle: The reason we need a faster crisis response process is narrative control. When bad news breaks, the first credible explanation that reaches the audience tends to stick. If we wait 18 hours to respond, the media and social commentary write the narrative for us. We need to be first — with an honest, specific, and human response — before the narrative is shaped by others.',
-      imageSlug: '/images/narrative.png',
+      imageSlug: '/images/social-listening-and-reputation-narrative.png',
     }
   ],
 
@@ -100,7 +100,7 @@ export const socialListeningAndReputation: Lesson = {
       phrase: 'WE NEED TO GET AHEAD OF THIS STORY',
       definition: "A crisis communications phrase meaning your brand must communicate first, before a negative story spreads out of control. 'Getting ahead' means publishing a statement, reaching out to media, or responding publicly before others define the story for you. Reacting after the narrative is set is always harder than being first.",
       example: "Marcus made the call: This is going to be a bigger story than we thought — there are already three journalists on social media asking questions about the outage. We need to get ahead of this story before it becomes a news item. I want a statement drafted in the next 30 minutes: what happened, what we've done to fix it, and what we're doing to prevent it in future. Honest, specific, and human.",
-      imageSlug: '/images/we-need-to-get-ahead-of-this-story.png',
+      imageSlug: '/images/social-listening-and-reputation-we-need-to-get-ahead-of-this-story.png',
       inAction: 'Before this complaint reaches the trade press, we need to get ahead of this story with a proactive statement and direct outreach to the affected customers.',
       register: "Informal / Professional — used in crisis communications and PR strategy discussions. 'Get ahead of the story' is a PR idiom meaning to control the narrative before others define it for you.",
       inContext: "Dana had seen this situation before. We need to get ahead of this story, she said in the emergency meeting. Right now it's contained to social media, but we've seen it reach trade press within 48 hours when brands stay silent. If we respond now — honestly and specifically — we shape how this is reported. If we wait, we lose control of the narrative entirely.",

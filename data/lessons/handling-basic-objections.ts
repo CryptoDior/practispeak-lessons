@@ -14,28 +14,28 @@ export const handlingBasicObjections: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A reason a prospect gives for not moving forward — a concern, doubt, or barrier that needs to be addressed before they can commit.',
       example: 'An objection is not a rejection — it is a signal that the prospect is still engaged but needs something resolved before they feel ready to move.',
-      imageSlug: '/images/objection.png',
+      imageSlug: '/images/handling-basic-objections-objection.png',
     },
     {
       word: 'CONCERN',
       partOfSpeech: 'noun',
       definition: 'A worry or doubt that is preventing someone from making a decision — something that feels unresolved or risky to them.',
       example: 'The most common concerns in B2B sales are price, timing, and risk — but the real concern is often something different beneath the surface.',
-      imageSlug: '/images/concern.png',
+      imageSlug: '/images/handling-basic-objections-concern.png',
     },
     {
       word: 'VALIDATE',
       partOfSpeech: 'verb',
       definition: 'To acknowledge that a concern or objection is legitimate and understandable — not to agree with it, but to show you take it seriously.',
       example: 'Validating an objection does not mean you are conceding the point — it means the prospect feels heard, which makes them far more open to your response.',
-      imageSlug: '/images/validate.png',
+      imageSlug: '/images/handling-basic-objections-validate.png',
     },
     {
       word: 'REFRAME',
       partOfSpeech: 'verb',
       definition: 'To present an objection or situation from a different angle — showing it in a new light that reduces its impact or makes it easier to work with.',
       example: "When a prospect says 'it is too expensive', reframe the conversation around the cost of not solving the problem — not just the cost of the solution.",
-      imageSlug: '/images/reframe.png',
+      imageSlug: '/images/handling-basic-objections-reframe.png',
     },
     {
       word: 'EMPATHISE',
@@ -49,7 +49,7 @@ export const handlingBasicObjections: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A delaying tactic — when a prospect gives a vague reason for not deciding, without saying no directly. Usually a sign that something else is unresolved.',
       example: "'We will think about it' is often a stall rather than a genuine objection — the real issue is usually that the value is not yet clear or the risk feels too high.",
-      imageSlug: '/images/stall.png',
+      imageSlug: '/images/handling-basic-objections-stall.png',
     },
     {
       word: 'OVERCOME',
@@ -63,7 +63,7 @@ export const handlingBasicObjections: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To deal with a concern directly and specifically — to give it the attention it deserves rather than deflecting or moving past it.',
       example: 'When a prospect raises a concern, address it before moving on — skipping over it signals that you did not listen, or that you have no good answer.',
-      imageSlug: '/images/address.png',
+      imageSlug: '/images/handling-basic-objections-address.png',
     }
   ],
 

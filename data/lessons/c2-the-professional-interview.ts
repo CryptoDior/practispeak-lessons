@@ -53,21 +53,21 @@ export const c2TheProfessionalInterview: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To express something clearly and effectively in words — a key interview skill.',
       example: '"The ability to articulate complex analysis in plain English is what separates the best analysts — the panel will test this directly."',
-      imageSlug: '/images/articulate.png',
+      imageSlug: '/images/c2-the-professional-interview-articulate.png',
     },
     {
       word: 'COMPOSURE',
       partOfSpeech: 'noun',
       definition: 'Calm and controlled behaviour under pressure — essential in a high-stakes interview.',
       example: '"Her composure under difficult questioning impressed the panel — she paused before answering, gave a structured response, and never seemed rattled."',
-      imageSlug: '/images/composure.png',
+      imageSlug: '/images/c2-the-professional-interview-composure.png',
     },
     {
       word: 'DIFFERENTIATOR',
       partOfSpeech: 'noun',
       definition: 'What makes you specifically different from other candidates — the quality or experience that is uniquely yours.',
       example: '"My differentiator is the combination of playing experience and analytical training — I understand what coaches need from data because I have been on the other side of that relationship."',
-      imageSlug: '/images/differentiator.png',
+      imageSlug: '/images/c2-the-professional-interview-differentiator.png',
     },
     {
       word: 'PANEL',
@@ -81,7 +81,7 @@ export const c2TheProfessionalInterview: Lesson = {
       partOfSpeech: 'noun',
       definition: 'How you present yourself — the narrative you construct about who you are and why you are the right fit for this specific role.',
       example: '"Your positioning matters: don\'t just list your qualifications — articulate why this specific club, this specific role, at this specific time, is the right fit."',
-      imageSlug: '/images/positioning.png',
+      imageSlug: '/images/c2-the-professional-interview-positioning.png',
     },
   ],
 
@@ -114,7 +114,7 @@ export const c2TheProfessionalInterview: Lesson = {
       phrase: 'FOLLOW UP ON',
       definition: 'To ask or say something that develops a previous point — panels often follow up on answers to test depth.',
       example: '"When the panel follows up on your answer, take it as a good sign — they\'re interested and want to understand more."',
-      imageSlug: '/images/follow-up-on.png',
+      imageSlug: '/images/c2-the-professional-interview-follow-up-on.png',
     },
     {
       phrase: 'PRESENT YOURSELF',

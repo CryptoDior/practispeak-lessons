@@ -14,7 +14,7 @@ export const runningEffectiveMeetings: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A planned list of topics to be discussed in a meeting — shared in advance so everyone arrives prepared.',
       example: 'I always send the agenda 24 hours before a client meeting. If people do not know what we are discussing, the meeting takes twice as long and half the decisions need revisiting the next day.',
-      imageSlug: '/images/agenda.png',
+      imageSlug: '/images/running-effective-meetings-agenda.png',
     },
     {
       word: 'ACTION ITEM',
@@ -28,7 +28,7 @@ export const runningEffectiveMeetings: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A written record of what was discussed and decided in a meeting — including action items, owners, and deadlines.',
       example: 'I send the minutes within 24 hours of every client meeting — it confirms what was agreed, protects everyone if there is a misunderstanding later, and gives the action items a written record.',
-      imageSlug: '/images/minutes.png',
+      imageSlug: '/images/running-effective-meetings-minutes.png',
     },
     {
       word: 'SUMMARISE',
@@ -42,7 +42,7 @@ export const runningEffectiveMeetings: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Communication or action that happens after a meeting to check progress on what was agreed or to provide additional information.',
       example: "I always send a follow-up email within 24 hours — action items, owners, deadlines, and the date of the next check-in. If there is no follow-up, the meeting's decisions tend to disappear.",
-      imageSlug: '/images/follow-up.png',
+      imageSlug: '/images/running-effective-meetings-follow-up.png',
     },
     {
       word: 'STANDING ITEM',

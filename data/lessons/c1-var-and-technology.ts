@@ -33,21 +33,21 @@ export const c1VarAndTechnology: Lesson = {
       partOfSpeech: 'abbreviation',
       definition: 'Video Assistant Referee — a system where a team of officials in a video operations centre reviews key decisions during a match.',
       example: '"The goal was disallowed after a VAR check that took three and a half minutes — by which point the stadium had fallen completely silent."',
-      imageSlug: '/images/var.png',
+      imageSlug: '/images/c1-var-and-technology-var.png',
     },
     {
       word: 'SUBJECTIVE',
       partOfSpeech: 'adjective',
       definition: 'Based on personal interpretation rather than fixed rules — matters of judgement where reasonable people can genuinely disagree.',
       example: '"Whether a challenge was reckless or not is deeply subjective — two experienced referees watching the same clip will sometimes reach opposite conclusions."',
-      imageSlug: '/images/subjective.png',
+      imageSlug: '/images/c1-var-and-technology-subjective.png',
     },
     {
       word: 'OBJECTIVE',
       partOfSpeech: 'adjective',
       definition: 'Based on measurable facts rather than interpretation — where technology can provide a definitive answer.',
       example: '"Whether a ball crossed the line is entirely objective — goal-line technology can measure it to within 1mm."',
-      imageSlug: '/images/objective.png',
+      imageSlug: '/images/c1-var-and-technology-objective.png',
     },
     {
       word: 'MARGINAL',
@@ -61,7 +61,7 @@ export const c1VarAndTechnology: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The official set of rules and procedures for how something should be done — in football, the specific rules about when VAR can intervene.',
       example: '"Under the VAR protocol, the on-field referee\'s decision can only be overturned if it is a clear and obvious error."',
-      imageSlug: '/images/protocol.png',
+      imageSlug: '/images/c1-var-and-technology-protocol.png',
     },
     {
       word: 'CLEAR AND OBVIOUS',

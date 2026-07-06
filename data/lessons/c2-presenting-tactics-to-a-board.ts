@@ -33,14 +33,14 @@ export const c2PresentingTacticsToABoard: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person or group with a significant interest in the outcome of a decision — in a football club, typically ownership, the board, and senior management.',
       example: '"The key stakeholders for this presentation are the Sporting Director and two members of the ownership group — they need headline findings, not technical detail."',
-      imageSlug: '/images/stakeholder.png',
+      imageSlug: '/images/c2-presenting-tactics-to-a-board-stakeholder.png',
     },
     {
       word: 'PROPOSITION',
       partOfSpeech: 'noun',
       definition: 'A clear statement of what you are proposing — the recommendation or course of action you are asking the board to approve.',
       example: '"My proposition is straightforward: invest in three specific positional areas this window, and we project a top-six finish is achievable on current xG trends."',
-      imageSlug: '/images/proposition.png',
+      imageSlug: '/images/c2-presenting-tactics-to-a-board-proposition.png',
     },
     {
       word: 'HEADLINE',
@@ -54,7 +54,7 @@ export const c2PresentingTacticsToABoard: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The reasoning behind a recommendation — why you are proposing what you are proposing.',
       example: '"The rationale for the investment is clear: without addressing the defensive midfielder position, the underlying vulnerability we\'ve identified will continue to cost us points."',
-      imageSlug: '/images/rationale.png',
+      imageSlug: '/images/c2-presenting-tactics-to-a-board-rationale.png',
     },
     {
       word: 'OBJECTION',
@@ -75,7 +75,7 @@ export const c2PresentingTacticsToABoard: Lesson = {
       partOfSpeech: 'abbreviation',
       definition: 'Return on Investment — the financial or performance benefit relative to the cost. Boards think in ROI terms.',
       example: '"Frame your proposal in ROI terms: \'A £15 million investment in this position projects to increase points return by 8-12, which translates to approximately £40 million in additional prize money and commercial value.\'  "',
-      imageSlug: '/images/roi.png',
+      imageSlug: '/images/c2-presenting-tactics-to-a-board-roi.png',
     },
     {
       word: 'DECISION-READY',
@@ -91,7 +91,7 @@ export const c2PresentingTacticsToABoard: Lesson = {
       phrase: 'WALK THROUGH',
       definition: 'To take someone through something step by step — to guide them through data, analysis, or a proposal methodically.',
       example: '"Let me walk you through the three key findings — and I\'ll come back to the methodology at the end if there are questions."',
-      imageSlug: '/images/walk-through.png',
+      imageSlug: '/images/c2-presenting-tactics-to-a-board-walk-through.png',
     },
     {
       phrase: 'WIN OVER',

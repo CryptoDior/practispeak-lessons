@@ -28,7 +28,7 @@ export const advancedDataAnalytics: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Using past data to forecast what is likely to happen next. A predictive model finds patterns in historical data and uses them to make educated guesses about the future — which customers might leave, which leads are likely to convert, or which channels will perform best next quarter.',
       example: "Riley introduced the new tool: We're now using a predictive model to score every inbound lead. It was trained on two years of closed-won data. When a new lead scores above 75, our historical data shows a 60% conversion probability. The sales team now prioritises their time based on the score — not gut feel.",
-      imageSlug: '/images/predictive.png',
+      imageSlug: '/images/advanced-data-analytics-predictive.png',
     },
     {
       word: 'FUNNEL ANALYSIS',
@@ -49,21 +49,21 @@ export const advancedDataAnalytics: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A group of customers who share something in common — usually the time when they first became customers (a January cohort, a Q2 cohort). Cohort analysis tracks how each group behaves over time. It shows whether newer customers stay longer than older ones, and whether product changes have made a difference.',
       example: 'Riley explained the cohort analysis: If you look at customers who joined in Q1 last year versus Q1 this year, the retention curves are very different. The Q1 this-year cohort is retaining at 82% after three months; the prior cohort retained at 67%. Something improved — either the onboarding, the product, or the quality of leads coming in. We need to isolate which.',
-      imageSlug: '/images/cohort.png',
+      imageSlug: '/images/advanced-data-analytics-cohort.png',
     },
     {
       word: 'VARIANCE',
       partOfSpeech: 'noun',
       definition: "The gap between what you expected and what actually happened. In budget discussions, variance is the difference between planned numbers and actual figures. In statistics, it measures how spread out your data points are. A large variance means your predictions were off.",
       example: "Dana flagged the issue in the budget review: We have a 34% variance between the forecast and actual pipeline this quarter. That's too large — it means our model is not accurately predicting outcomes, and that makes planning very difficult. We need to understand whether the variance is in the input data, the model assumptions, or external market factors.",
-      imageSlug: '/images/variance.png',
+      imageSlug: '/images/advanced-data-analytics-variance.png',
     },
     {
       word: 'ATTRIBUTION',
       partOfSpeech: 'noun',
       definition: "The process of figuring out which marketing channels or touchpoints contributed to a sale or conversion. Attribution models decide how to give 'credit' to different touchpoints. Last-click gives all the credit to the final touchpoint. Multi-touch splits the credit across the whole journey. Getting this right has a big impact on where you put your budget.",
       example: "Marcus challenged the reporting: Our current attribution model gives 100% of the credit to the last touchpoint before conversion — usually paid search. But we know from the cohort data that most converters have already been through three or four organic touchpoints before they search. We're over-investing in paid and under-investing in content because our attribution is wrong.",
-      imageSlug: '/images/attribution.png',
+      imageSlug: '/images/advanced-data-analytics-attribution.png',
     }
   ],
 

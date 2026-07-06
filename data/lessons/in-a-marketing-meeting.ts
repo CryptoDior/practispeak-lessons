@@ -14,7 +14,7 @@ export const inAMarketingMeeting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A list of topics or items to discuss during a meeting — shared in advance so everyone knows what to expect.',
       example: 'Riley sent the agenda to the team the evening before the meeting — it had four items: campaign review, new brief, budget update, and next steps.',
-      imageSlug: '/images/agenda.png',
+      imageSlug: '/images/in-a-marketing-meeting-agenda.png',
     },
     {
       word: 'ACTION POINT',
@@ -28,7 +28,7 @@ export const inAMarketingMeeting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A written record of what was discussed and decided in a meeting — including action points and who is responsible.',
       example: 'Riley asked Dana to take the minutes so that everyone could review what was agreed and what needs to happen next.',
-      imageSlug: '/images/minutes.png',
+      imageSlug: '/images/in-a-marketing-meeting-minutes.png',
     },
     {
       word: 'PROPOSE',
@@ -49,21 +49,21 @@ export const inAMarketingMeeting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A short report on the current status of a project or task — shared in a meeting to keep everyone informed.',
       example: 'Dana gave a quick update on the campaign results — reach was up 40% and leads had doubled compared to last month.',
-      imageSlug: '/images/update.png',
+      imageSlug: '/images/in-a-marketing-meeting-update.png',
     },
     {
       word: 'BRIEF',
       partOfSpeech: 'noun',
       definition: 'A document or short explanation that gives a creative team the key information they need to do a piece of work.',
       example: 'Riley wrote the brief for the new campaign — it included the target audience, the key message, the channels, and the deadline.',
-      imageSlug: '/images/brief.png',
+      imageSlug: '/images/in-a-marketing-meeting-brief.png',
     },
     {
       word: 'FOLLOW-UP',
       partOfSpeech: 'noun',
       definition: 'An action taken after a meeting to complete what was agreed — or a second meeting to check on progress.',
       example: 'Dana sent a follow-up email after the meeting with all the action points, owners, and deadlines — so nothing was forgotten.',
-      imageSlug: '/images/follow-up.png',
+      imageSlug: '/images/in-a-marketing-meeting-follow-up.png',
     }
   ],
 
@@ -84,7 +84,7 @@ export const inAMarketingMeeting: Lesson = {
       phrase: 'WRAP UP',
       definition: 'To finish a meeting or a discussion — to bring it to a close.',
       example: 'Let us wrap up — we only have five minutes left. Can we quickly go through the action points?',
-      imageSlug: '/images/wrap-up.png',
+      imageSlug: '/images/in-a-marketing-meeting-wrap-up.png',
     },
     {
       phrase: 'FOLLOW UP ON [SOMETHING]',

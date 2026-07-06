@@ -54,7 +54,7 @@ export const c2TheFootballEssay: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'A phrase or sentence that tells the reader where the argument is going — making the structure visible.',
       example: '"Good essays signpost every major move: \'Having established X, I now want to turn to Y.\' The reader always knows where they are."',
-      imageSlug: '/images/signpost.png',
+      imageSlug: '/images/c2-the-football-essay-signpost.png',
     },
     {
       word: 'QUALIFICATION',
@@ -75,7 +75,7 @@ export const c2TheFootballEssay: Lesson = {
       partOfSpeech: 'noun',
       definition: 'What follows logically from an argument — the conclusion that the evidence and reasoning point toward.',
       example: '"The implication of this analysis is uncomfortable but unavoidable: clubs that claim to prioritise youth development do not, in practice, give it genuine resources."',
-      imageSlug: '/images/implication.png',
+      imageSlug: '/images/c2-the-football-essay-implication.png',
     },
     {
       word: 'SUSTAINED',

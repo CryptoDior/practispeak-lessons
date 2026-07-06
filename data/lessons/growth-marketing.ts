@@ -63,7 +63,7 @@ export const growthMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Keeping customers coming back after their first purchase or sign-up. Strong retention means users keep using, paying, and engaging over time — and it is almost always cheaper than acquiring new ones.',
       example: "Marcus asked: Should we focus on acquisition or retention? Riley said: If your retention is below 40% at 30 days, focus on retention. You are filling a leaking bucket. Fix the leak first — then turn on the tap.",
-      imageSlug: '/images/retention.png',
+      imageSlug: '/images/growth-marketing-retention.png',
     }
   ],
 

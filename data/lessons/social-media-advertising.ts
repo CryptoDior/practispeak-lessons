@@ -21,7 +21,7 @@ export const socialMediaAdvertising: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The process of choosing which people see your ads — based on factors like age, location, job title, interests, or behaviour. Good targeting means your ad reaches the people most likely to be interested in what you are selling.',
       example: "Riley explained the plan: Our targeting is very specific on LinkedIn — we are reaching marketing managers and directors at companies with between 50 and 500 employees in the UK and Germany. Marcus replied: That is tight targeting. What is the estimated audience size? Riley replied: About 180,000 people — small enough to be relevant, large enough to scale.",
-      imageSlug: '/images/targeting.png',
+      imageSlug: '/images/social-media-advertising-targeting.png',
     },
     {
       word: 'CPM',
@@ -49,7 +49,7 @@ export const socialMediaAdvertising: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The actual ad content — the image, video, headline, and copy that people see. The creative is what stops someone scrolling and makes them pay attention. Great targeting with weak creative will still fail.',
       example: "Marcus reviewed the campaign results: The targeting looks good but the results are weak. I think the creative might be the problem. Riley agreed: The images are quite generic — stock photos of people at computers. I want to test a video creative — a short 15-second clip showing the product in action. Video usually performs much better than static images on social media.",
-      imageSlug: '/images/creative.png',
+      imageSlug: '/images/social-media-advertising-creative.png',
     },
     {
       word: 'FREQUENCY',

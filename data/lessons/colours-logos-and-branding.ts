@@ -28,14 +28,14 @@ export const coloursLogosAndBranding: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The way something looks — its colours, shapes, and style.',
       example: 'The design of our website uses clean lines and bright colours.',
-      imageSlug: '/images/design.png',
+      imageSlug: '/images/colours-logos-and-branding-design.png',
     },
     {
       word: 'BRAND',
       partOfSpeech: 'noun',
       definition: 'The name and look of a company or product.',
       example: 'A strong brand helps people remember who you are.',
-      imageSlug: '/images/brand.png',
+      imageSlug: '/images/colours-logos-and-branding-brand.png',
     },
     {
       word: 'IMAGE',
@@ -63,7 +63,7 @@ export const coloursLogosAndBranding: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The look and feel that makes a brand easy to know.',
       example: 'A strong brand identity helps people remember who you are and what you stand for.',
-      imageSlug: '/images/identity.png',
+      imageSlug: '/images/colours-logos-and-branding-identity.png',
     }
   ],
 
@@ -72,13 +72,13 @@ export const coloursLogosAndBranding: Lesson = {
       phrase: 'STAND FOR',
       definition: 'Say what a symbol, colour, or logo means for a brand.',
       example: 'Our blue colour stands for trust and calm.',
-      imageSlug: '/images/stand-for.png',
+      imageSlug: '/images/colours-logos-and-branding-stand-for.png',
     },
     {
       phrase: 'STAND OUT',
       definition: 'Be easy to see and remember — different from others.',
       example: 'Our logo is simple so it stands out on any background.',
-      imageSlug: '/images/stand-out.png',
+      imageSlug: '/images/colours-logos-and-branding-stand-out.png',
     },
     {
       phrase: 'FIT WITH',
@@ -102,7 +102,7 @@ export const coloursLogosAndBranding: Lesson = {
       phrase: 'BUILD A BRAND',
       definition: 'Create a strong look and name that people know and remember.',
       example: 'It takes time to build a brand, but it is worth it.',
-      imageSlug: '/images/build-a-brand.png',
+      imageSlug: '/images/colours-logos-and-branding-build-a-brand.png',
     }
   ],
 

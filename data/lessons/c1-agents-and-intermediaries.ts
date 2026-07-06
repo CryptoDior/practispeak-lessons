@@ -54,7 +54,7 @@ export const c1AgentsAndIntermediaries: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A contractual provision that allows a player to leave a club if another club meets a set fee — written into the contract at signing.',
       example: '"His release clause was set at £100 million — the board believed no club would trigger it. Barcelona did."',
-      imageSlug: '/images/release-clause.png',
+      imageSlug: '/images/c1-agents-and-intermediaries-release-clause.png',
     },
     {
       word: 'IMAGE RIGHTS',
@@ -103,13 +103,13 @@ export const c1AgentsAndIntermediaries: Lesson = {
       phrase: 'HOLD OUT FOR',
       definition: 'To refuse to accept less than a certain amount — to insist on specific terms and not move from that position.',
       example: '"The agent held out for a five-year deal — the club\'s initial offer of three years was rejected immediately."',
-      imageSlug: '/images/hold-out-for.png',
+      imageSlug: '/images/c1-agents-and-intermediaries-hold-out-for.png',
     },
     {
       phrase: 'WALK AWAY FROM',
       definition: 'To end negotiations and decline to continue — to remove a player from transfer talks.',
       example: '"The player\'s camp walked away from negotiations when the club refused to include a release clause in the new deal."',
-      imageSlug: '/images/walk-away.png',
+      imageSlug: '/images/c1-agents-and-intermediaries-walk-away.png',
     },
     {
       phrase: 'LOCK IN',
@@ -121,7 +121,7 @@ export const c1AgentsAndIntermediaries: Lesson = {
       phrase: 'CUT OUT',
       definition: 'To exclude someone from a deal — to negotiate directly and bypass an intermediary.',
       example: '"The club attempted to cut out the agent and negotiate directly with the player\'s family — but that created its own legal complications."',
-      imageSlug: '/images/cut-out.png',
+      imageSlug: '/images/c1-agents-and-intermediaries-cut-out.png',
     },
   ],
 

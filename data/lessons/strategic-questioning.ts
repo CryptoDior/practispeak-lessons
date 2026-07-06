@@ -28,28 +28,28 @@ export const strategicQuestioning: Lesson = {
       partOfSpeech: 'noun',
       definition: "A belief taken for granted without verification — a conclusion drawn without sufficient evidence. Strategic questioning identifies and tests assumptions that are driving the buyer's thinking. Unchecked assumptions often lead buyers to solve the wrong problem.",
       example: "Marcus assumed the problem was the product — his team wasn't closing and the product must be the cause. Riley tested that assumption: Are you confident that proposals going quiet means the product isn't compelling? Or could it be that proposals aren't speaking to what the buyer actually cares about? That single question reframed the entire problem.",
-      imageSlug: '/images/assumption.png',
+      imageSlug: '/images/strategic-questioning-assumption.png',
     },
     {
       word: 'REFRAME',
       partOfSpeech: 'verb',
       definition: "To present an issue from a different angle or perspective — shifting how the buyer understands and prioritises it. A skilled reframe doesn't tell the buyer they are wrong; it offers a new lens that makes a different conclusion feel natural and self-generated.",
       example: "Riley reframed the problem without being confrontational: Instead of asking 'why are your reps failing to close?', she asked 'what does a winning proposal look like compared to a losing one in your organisation?' That reframe shifted the conversation from blame to diagnosis, and Marcus engaged completely differently.",
-      imageSlug: '/images/reframe.png',
+      imageSlug: '/images/strategic-questioning-reframe.png',
     },
     {
       word: 'IMPLICATION',
       partOfSpeech: 'noun',
       definition: "The consequence or downstream impact of a problem. Surfacing implications makes the cost of inaction concrete and emotional, rather than abstract. 'If this problem remains unsolved for twelve months, what happens?' is an implication question — it moves the buyer from problem awareness to urgency.",
       example: "Riley asked: If your team's proposal-to-close rate stays where it is for another year, what does that mean for your annual revenue target? The implication calculation — $2.3 million in lost deals — turned a vague concern about conversion into a specific, urgent number that Marcus couldn't ignore.",
-      imageSlug: '/images/implication.png',
+      imageSlug: '/images/strategic-questioning-implication.png',
     },
     {
       word: 'HYPOTHESIS',
       partOfSpeech: 'noun',
       definition: "A working proposition to be tested through questioning — rather than stating a conclusion, you offer a hypothesis and invite the buyer to confirm or challenge it. 'My hypothesis is that the real issue is X — what do you think?' is more collaborative and less presumptuous than 'the real issue is X.'",
       example: "Riley shared her hypothesis: Based on what you've described, my hypothesis is that your highest-performing reps are writing proposals differently from the rest — and that the gap is learnable. Have you ever compared winning and losing proposals side by side? That question turned the hypothesis into a diagnostic exercise Marcus was eager to run.",
-      imageSlug: '/images/hypothesis.png',
+      imageSlug: '/images/strategic-questioning-hypothesis.png',
     },
     {
       word: 'SOCRATIC',
@@ -63,7 +63,7 @@ export const strategicQuestioning: Lesson = {
       partOfSpeech: 'noun',
       definition: "The progressive narrowing of a questioning sequence from broad and open to specific and closed. A questioning funnel starts with open questions ('Tell me about your current situation') and gradually narrows ('At which specific stage does conversion break down?'). Moving too quickly to narrow questions before establishing the full context is a common discovery mistake.",
       example: "Riley followed the questioning funnel deliberately: She opened broadly ('Walk me through where you are with sales performance'), then narrowed ('Where specifically does conversion break down?'), then narrowed further ('Is it at proposal stage, negotiation, or demo?'), then focused precisely ('What does a deal that goes quiet at proposal stage typically look like?'). Each question built on the last.",
-      imageSlug: '/images/funnel.png',
+      imageSlug: '/images/strategic-questioning-funnel.png',
     }
   ],
 

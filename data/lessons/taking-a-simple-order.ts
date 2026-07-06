@@ -28,7 +28,7 @@ export const takingASimpleOrder: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To say yes and make something certain. When you confirm an order, both sides agree on the details.',
       example: 'Riley checked all the details and said: Shall I confirm your order? Marcus said: Yes — fifteen units, delivery on Friday.',
-      imageSlug: '/images/confirm.png',
+      imageSlug: '/images/taking-a-simple-order-confirm.png',
     },
     {
       word: 'UNIT',
@@ -42,21 +42,21 @@ export const takingASimpleOrder: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Ready to buy or use right now. If a product is available, the customer can order it today.',
       example: 'Marcus asked if the plan was ready. Riley said: Let me check — yes, fifteen units are available. We can deliver them by Friday.',
-      imageSlug: '/images/available.png',
+      imageSlug: '/images/taking-a-simple-order-available.png',
     },
     {
       word: 'DELIVERY',
       partOfSpeech: 'noun',
       definition: 'The process of sending products to the customer after they order. In B2B sales, delivery can also mean when software access is set up.',
       example: 'Marcus asked: When can you deliver? Riley said: When would you like delivery? We can have everything ready by the end of the week.',
-      imageSlug: '/images/delivery.png',
+      imageSlug: '/images/taking-a-simple-order-delivery.png',
     },
     {
       word: 'TOTAL',
       partOfSpeech: 'noun',
       definition: "The final amount — the full price after counting all units. We say 'your total comes to' when we give the final price.",
       example: 'Riley confirmed the price clearly: Your total comes to $750 for fifteen units. That is $50 per unit per month.',
-      imageSlug: '/images/total.png',
+      imageSlug: '/images/taking-a-simple-order-total.png',
     },
     {
       word: 'PROCESS',

@@ -14,14 +14,14 @@ export const globalCampaignManagement: Lesson = {
       partOfSpeech: 'noun',
       definition: "Adapting marketing content for a new market so that it has the same emotional impact — not just the same words. Transcreation goes beyond translation to recreate the feeling, humour, or cultural reference that makes a campaign work.",
       example: "Riley said: Translation gives you the words. Transcreation gives you the effect. If a tagline is funny in English because of a wordplay that does not exist in Portuguese, translation will give you a flat sentence. Transcreation will find a new way to make someone in São Paulo laugh.",
-      imageSlug: '/images/transcreation.png',
+      imageSlug: '/images/global-campaign-management-transcreation.png',
     },
     {
       word: 'Cultural intelligence',
       partOfSpeech: 'noun',
       definition: "The ability to understand how cultural differences affect communication, behaviour, and decision-making — and to use that understanding to work more effectively across cultures.",
       example: "Marcus said: Why did the campaign perform so differently in Japan versus Germany? Riley said: Cultural intelligence. Direct, bold claims work in some cultures. In others, humility and understatement perform better. Understanding that difference before you shoot the creative saves the budget and the relationship.",
-      imageSlug: '/images/cultural-intelligence.png',
+      imageSlug: '/images/global-campaign-management-cultural-intelligence.png',
     },
     {
       word: 'Regional adaptation',
@@ -42,14 +42,14 @@ export const globalCampaignManagement: Lesson = {
       partOfSpeech: 'noun',
       definition: "Adapting a product, campaign, or piece of content for a local market — including language, format, currency, date style, imagery, and cultural references. Localisation is broader than translation and deeper than adaptation.",
       example: "Marcus said: We localised the campaign for the UAE — not just the language, but the imagery, the pricing in dirhams, the timing around Ramadan, and the channel mix. That is real localisation, not just running the English campaign with Arabic subtitles.",
-      imageSlug: '/images/localisation.png',
+      imageSlug: '/images/global-campaign-management-localisation.png',
     },
     {
       word: 'Brand consistency',
       partOfSpeech: 'noun',
       definition: "Presenting the same core identity, values, and visual language across all markets — even when the execution changes. Without brand consistency, customers in different countries experience different brands.",
       example: "Riley said: We can adapt the message for each market. But the logo, the colour palette, the tone of voice — those do not change. Brand consistency is what makes us recognisable in São Paulo and Singapore. Execution varies. Identity does not.",
-      imageSlug: '/images/brand-consistency.png',
+      imageSlug: '/images/global-campaign-management-brand-consistency.png',
     },
     {
       word: 'Global brief',

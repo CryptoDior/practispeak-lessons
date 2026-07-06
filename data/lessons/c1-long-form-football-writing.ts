@@ -54,21 +54,21 @@ export const c1LongFormFootballWriting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A long-form piece focused on a single person — exploring who they are, what drives them, and what they reveal about the game.',
       example: '"The profile of the goalkeeper ran to 4,000 words and never once mentioned a specific save — it was entirely about his childhood, his philosophy, and his fear of failure."',
-      imageSlug: '/images/profile.png',
+      imageSlug: '/images/c1-long-form-football-writing-profile.png',
     },
     {
       word: 'SUBTEXT',
       partOfSpeech: 'noun',
       definition: 'The meaning beneath the surface — what is implied or felt but not directly stated. Great football writing always has subtext.',
       example: '"The article was about a transfer — but the subtext was about loyalty, money, and what the modern game has lost."',
-      imageSlug: '/images/subtext.png',
+      imageSlug: '/images/c1-long-form-football-writing-subtext.png',
     },
     {
       word: 'REGISTER',
       partOfSpeech: 'noun',
       definition: 'The level of formality in writing — from very formal and academic to conversational and personal. Long-form football writing often moves between registers.',
       example: '"His writing shifts register brilliantly — formal when describing tactics, intimate when describing a player\'s childhood bedroom."',
-      imageSlug: '/images/register.png',
+      imageSlug: '/images/c1-long-form-football-writing-register.png',
     },
     {
       word: 'CHARACTERISATION',
@@ -97,7 +97,7 @@ export const c1LongFormFootballWriting: Lesson = {
       phrase: 'DRAW ON',
       definition: 'To use something as a source or reference — to incorporate existing knowledge, experience, or material.',
       example: '"She draws on three years of interviews to construct a portrait of a deeply conflicted man."',
-      imageSlug: '/images/draw-on.png',
+      imageSlug: '/images/c1-long-form-football-writing-draw-on.png',
     },
     {
       phrase: 'BUILD TOWARDS',

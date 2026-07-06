@@ -14,14 +14,14 @@ export const whereDoYouSell: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A specific group of people or a geographic area where a company sells its products or services.',
       example: 'The German market is very competitive — there are many strong local players and customers expect high quality.',
-      imageSlug: '/images/market.png',
+      imageSlug: '/images/where-do-you-sell-market.png',
     },
     {
       word: 'REGION',
       partOfSpeech: 'noun',
       definition: 'An area within a country or group of countries — for example, Northern Europe, the Midwest, or Southern Asia.',
       example: 'We focus on the DACH region — Germany, Austria, and Switzerland — because they share a similar business culture.',
-      imageSlug: '/images/region.png',
+      imageSlug: '/images/where-do-you-sell-region.png',
     },
     {
       word: 'COUNTRY',
@@ -63,7 +63,7 @@ export const whereDoYouSell: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The degree to which a company is known and active in a particular market or location.',
       example: 'We have a strong presence in the UK but we are still building our presence in France and Germany.',
-      imageSlug: '/images/presence.png',
+      imageSlug: '/images/where-do-you-sell-presence.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const whereDoYouSell: Lesson = {
       phrase: 'BREAK INTO [A MARKET]',
       definition: 'To enter a new market successfully — often used when it is competitive or difficult to enter.',
       example: 'Breaking into the US market is challenging — but with the right marketing strategy, it is possible.',
-      imageSlug: '/images/break-into-a-market.png',
+      imageSlug: '/images/where-do-you-sell-break-into-a-market.png',
     },
     {
       phrase: 'ROLL OUT [IN/ACROSS]',

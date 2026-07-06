@@ -109,13 +109,13 @@ export const nutritionAndRecovery: Lesson = {
       phrase: 'CUT OUT',
       definition: 'To stop eating or drinking something — to remove something from the diet.',
       example: 'He has cut out alcohol entirely during the season — the nutritionist advised him it slows recovery significantly.',
-      imageSlug: '/images/cut-out.png',
+      imageSlug: '/images/nutrition-and-recovery-cut-out.png',
     },
     {
       phrase: 'WIND DOWN',
       definition: 'To gradually relax after intense activity — allowing the body and mind to return to a calm state before sleep.',
       example: 'After a late evening match, it is hard to wind down — the body is still full of adrenaline.',
-      imageSlug: '/images/wind-down.png',
+      imageSlug: '/images/nutrition-and-recovery-wind-down.png',
     },
     {
       phrase: 'STOCK UP ON',

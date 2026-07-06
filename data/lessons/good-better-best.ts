@@ -14,7 +14,7 @@ export const goodBetterBest: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To look at two or more things and see how they are different.',
       example: 'Let me compare the two plans so you can see which one is right for you.',
-      imageSlug: '/images/compare.png',
+      imageSlug: '/images/good-better-best-compare.png',
     },
     {
       word: 'BETTER',
@@ -63,7 +63,7 @@ export const goodBetterBest: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Better than others, especially in quality.',
       example: 'Our customer support is superior — we answer all questions in under two hours.',
-      imageSlug: '/images/superior.png',
+      imageSlug: '/images/good-better-best-superior.png',
     }
   ],
 

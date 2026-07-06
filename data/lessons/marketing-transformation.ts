@@ -35,7 +35,7 @@ export const marketingTransformation: Lesson = {
       partOfSpeech: 'noun',
       definition: "A fixed, short period of work — usually one to four weeks — in which a team focuses on a defined set of tasks. At the end of each sprint, the team reviews what was achieved and plans the next one.",
       example: "Marcus asked: How do we manage our campaign work in sprints? Riley said: Each sprint has a goal — one thing we are trying to achieve or learn. We plan it on Monday, we execute through the week, and we review on Friday. What worked, what failed, what changes next sprint. Simple.",
-      imageSlug: '/images/sprint.png',
+      imageSlug: '/images/marketing-transformation-sprint.png',
     },
     {
       word: 'Stakeholder buy-in',
@@ -56,7 +56,7 @@ export const marketingTransformation: Lesson = {
       partOfSpeech: 'noun',
       definition: "The way a team or organisation is structured to deliver its work — including roles, processes, tools, and decision-making. Transformation almost always requires changing the operating model, not just the strategy.",
       example: "Riley said: The strategy is right. The problem is the operating model. We have too many approval layers, the wrong team structure for agile work, and tools that do not connect. Changing the strategy without changing the operating model is like installing a new engine in a car with no wheels.",
-      imageSlug: '/images/operating-model.png',
+      imageSlug: '/images/marketing-transformation-operating-model.png',
     },
     {
       word: 'Digital maturity',

@@ -14,7 +14,7 @@ export const productsAndServices: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A thing that a company makes and sells.',
       example: 'Our main product is a tool for marketing teams.',
-      imageSlug: '/images/product.png',
+      imageSlug: '/images/products-and-services-product.png',
     },
     {
       word: 'SERVICE',
@@ -28,28 +28,28 @@ export const productsAndServices: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A part of a product that makes it good or useful.',
       example: 'One good feature is the dashboard. You can see all your work in one place.',
-      imageSlug: '/images/feature.png',
+      imageSlug: '/images/products-and-services-feature.png',
     },
     {
       word: 'QUALITY',
       partOfSpeech: 'noun',
       definition: 'How good something is.',
       example: 'Our clients love the quality of our reports.',
-      imageSlug: '/images/quality.png',
+      imageSlug: '/images/products-and-services-quality.png',
     },
     {
       word: 'PRICE',
       partOfSpeech: 'noun',
       definition: 'How much something costs.',
       example: 'The price is £99 a month for the basic plan.',
-      imageSlug: '/images/price.png',
+      imageSlug: '/images/products-and-services-price.png',
     },
     {
       word: 'OFFER',
       partOfSpeech: 'verb',
       definition: 'To say that someone can have or use something.',
       example: 'We offer three plans for different team sizes.',
-      imageSlug: '/images/offer.png',
+      imageSlug: '/images/products-and-services-offer.png',
     },
     {
       word: 'RANGE',
@@ -63,7 +63,7 @@ export const productsAndServices: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A product or service that helps with a problem.',
       example: 'Our platform is a good solution for small teams.',
-      imageSlug: '/images/solution.png',
+      imageSlug: '/images/products-and-services-solution.png',
     }
   ],
 

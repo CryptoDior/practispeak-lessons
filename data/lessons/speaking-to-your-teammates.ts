@@ -54,7 +54,7 @@ export const speakingToYourTeammates: Lesson = {
       partOfSpeech: 'verb',
       definition: 'An instruction to move the ball quickly to the other side of the pitch — changing the point of attack.',
       example: '"SWITCH! Switch it now — there\'s space on the left side!"',
-      imageSlug: '/images/switch.png',
+      imageSlug: '/images/speaking-to-your-teammates-switch.png',
     },
     {
       word: 'KEEPER\'S',
@@ -68,7 +68,7 @@ export const speakingToYourTeammates: Lesson = {
       partOfSpeech: 'phrase',
       definition: 'An instruction to the defensive line to stay in position — not to step up or retreat, maintaining the offside line.',
       example: '"HOLD THE LINE! Don\'t step up — wait! Hold... hold... NOW squeeze!"',
-      imageSlug: '/images/hold-the-line.png',
+      imageSlug: '/images/speaking-to-your-teammates-hold-the-line.png',
     },
     {
       word: 'PRESS NOW',
@@ -89,7 +89,7 @@ export const speakingToYourTeammates: Lesson = {
       partOfSpeech: 'phrase',
       definition: 'An instruction to move backwards — to create space in front, to receive in a deeper position, or to hold a defensive shape.',
       example: '"Drop off! Drop off the defender — make space behind you for the run!"',
-      imageSlug: '/images/drop-off.png',
+      imageSlug: '/images/speaking-to-your-teammates-drop-off.png',
     },
   ],
 
@@ -110,7 +110,7 @@ export const speakingToYourTeammates: Lesson = {
       phrase: 'TRACK BACK',
       definition: 'To run back towards your own goal — often used for forwards and midfielders who need to help defend.',
       example: '"If we lose the ball high up the pitch, track back immediately — don\'t stand and watch."',
-      imageSlug: '/images/track-back.png',
+      imageSlug: '/images/speaking-to-your-teammates-track-back.png',
     },
     {
       phrase: 'STEP UP',
@@ -122,7 +122,7 @@ export const speakingToYourTeammates: Lesson = {
       phrase: 'PICK UP',
       definition: 'To mark a specific opponent — to take responsibility for tracking and staying close to a designated player.',
       example: '"Pick up their number ten! She\'s free — someone pick her up before she turns!"',
-      imageSlug: '/images/pick-up.png',
+      imageSlug: '/images/speaking-to-your-teammates-pick-up.png',
     },
     {
       phrase: 'LEAVE IT',

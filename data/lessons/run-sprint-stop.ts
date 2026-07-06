@@ -14,14 +14,14 @@ export const runSprintStop: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To move quickly on foot.',
       example: 'Run to the ball before the defender gets there.',
-      imageSlug: '/images/run.png',
+      imageSlug: '/images/run-sprint-stop-run.png',
     },
     {
       word: 'SPRINT',
       partOfSpeech: 'verb',
       definition: 'To run as fast as you possibly can.',
       example: 'The winger sprinted down the side of the pitch.',
-      imageSlug: '/images/sprint.png',
+      imageSlug: '/images/run-sprint-stop-sprint.png',
     },
     {
       word: 'STOP',
@@ -35,7 +35,7 @@ export const runSprintStop: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To push your body up off the ground.',
       example: 'Jump to head the ball from the corner.',
-      imageSlug: '/images/jump.png',
+      imageSlug: '/images/run-sprint-stop-jump.png',
     },
     {
       word: 'TURN',
@@ -56,14 +56,14 @@ export const runSprintStop: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To stop the ball with your body.',
       example: 'The defender blocked the shot with his chest.',
-      imageSlug: '/images/block.png',
+      imageSlug: '/images/run-sprint-stop-block.png',
     },
     {
       word: 'SLIDE',
       partOfSpeech: 'verb',
       definition: 'To move quickly along the ground, usually to make a tackle.',
       example: 'The defender slid in to take the ball.',
-      imageSlug: '/images/slide.png',
+      imageSlug: '/images/run-sprint-stop-slide.png',
     },
   ],
 
@@ -90,7 +90,7 @@ export const runSprintStop: Lesson = {
       phrase: 'MAKE A RUN',
       definition: 'Move quickly into space to receive a pass.',
       example: 'Make a run behind the defender — I\'ll pass to you!',
-      imageSlug: '/images/make-a-run.png',
+      imageSlug: '/images/run-sprint-stop-make-a-run.png',
     },
     {
       phrase: 'DROP BACK',
@@ -102,7 +102,7 @@ export const runSprintStop: Lesson = {
       phrase: 'PUSH UP',
       definition: 'Move forward toward the opponent\'s goal as a team.',
       example: 'Push up! We need to score — get higher up the pitch!',
-      imageSlug: '/images/push-up.png',
+      imageSlug: '/images/run-sprint-stop-push-up.png',
     },
   ],
 

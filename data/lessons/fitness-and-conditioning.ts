@@ -68,7 +68,7 @@ export const fitnessAndConditioning: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'To run at maximum speed — as fast as possible. A sprint is a short burst of maximum-effort running.',
       example: 'She sprints more than anyone in training — but the key is whether she can sprint just as hard in the 85th minute.',
-      imageSlug: '/images/sprint.png',
+      imageSlug: '/images/fitness-and-conditioning-sprint.png',
     },
     {
       word: 'ENDURANCE',
@@ -103,7 +103,7 @@ export const fitnessAndConditioning: Lesson = {
       phrase: 'PUSH THROUGH',
       definition: 'To continue despite pain, tiredness, or difficulty — to persevere when it is hard.',
       example: 'The pre-season sessions are brutal, but the players push through — they know it will make them stronger.',
-      imageSlug: '/images/push-through.png',
+      imageSlug: '/images/fitness-and-conditioning-push-through.png',
     },
     {
       phrase: 'EASE BACK',
@@ -115,7 +115,7 @@ export const fitnessAndConditioning: Lesson = {
       phrase: 'STEP UP',
       definition: 'To increase the level of training — to train harder or more intensely.',
       example: 'She stepped up her training this week — adding extra gym sessions to build the strength she lost during the injury.',
-      imageSlug: '/images/step-up.png',
+      imageSlug: '/images/fitness-and-conditioning-step-up.png',
     },
     {
       phrase: 'TOP UP',

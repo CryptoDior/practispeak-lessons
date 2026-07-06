@@ -56,7 +56,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The full process of adapting a product, campaign, or communication for a specific local market — including language, visuals, values, pricing, and format.',
       example: "Localisation is not just translation. McDonald's localises its entire menu for India — no beef, different spices, vegetarian options designed for local tastes. The brand is consistent; everything that touches the customer is local.",
-      imageSlug: '/images/localisation.png',
+      imageSlug: '/images/cultural-intelligence-in-global-marketing-localisation.png',
     },
     {
       word: 'CULTURAL SENSITIVITY',

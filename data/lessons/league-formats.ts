@@ -47,7 +47,7 @@ export const leagueFormats: Lesson = {
       partOfSpeech: 'noun',
       definition: 'When a team finishes high enough to move up to a better division the next season.',
       example: '"Winning promotion to the Premier League was the biggest achievement in the club\'s history."',
-      imageSlug: '/images/promotion.png',
+      imageSlug: '/images/league-formats-promotion.png',
     },
     {
       word: 'TITLE RACE',
@@ -91,7 +91,7 @@ export const leagueFormats: Lesson = {
       phrase: 'PULL AWAY',
       definition: 'To increase the gap at the top of the table — to move further ahead of the teams below.',
       example: '"City pulled away at the top after their rivals drew — now six points clear with seven games left."',
-      imageSlug: '/images/pull-away.png',
+      imageSlug: '/images/league-formats-pull-away.png',
     },
     {
       phrase: 'DROP POINTS',

@@ -14,21 +14,21 @@ export const makingAnOffer: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A group of products or services packaged and sold together — usually at a lower combined price than buying each separately.',
       example: 'Riley offered the client a bundle that included content creation, LinkedIn management, and monthly reporting — all for one fixed price.',
-      imageSlug: '/images/bundle.png',
+      imageSlug: '/images/making-an-offer-bundle.png',
     },
     {
       word: 'LOYALTY',
       partOfSpeech: 'noun',
       definition: 'The quality of staying with one company or supplier over time — often rewarded with special discounts or benefits.',
       example: 'We have a loyalty discount for clients who renew for a second year — they get fifteen percent off their renewal price.',
-      imageSlug: '/images/loyalty.png',
+      imageSlug: '/images/making-an-offer-loyalty.png',
     },
     {
       word: 'PROMOTION',
       partOfSpeech: 'noun',
       definition: 'A special offer or deal — usually available for a limited time — designed to encourage people to buy.',
       example: 'Our spring promotion includes a free strategy session for any client who signs up before the end of April.',
-      imageSlug: '/images/promotion.png',
+      imageSlug: '/images/making-an-offer-promotion.png',
     },
     {
       word: 'VOUCHER',
@@ -49,7 +49,7 @@ export const makingAnOffer: Lesson = {
       partOfSpeech: 'noun',
       definition: 'An agreement to do something or to continue with something for a period of time — often used in contracts.',
       example: 'Our starter plan has no long-term commitment — clients can cancel after the first month if they are not satisfied.',
-      imageSlug: '/images/commitment.png',
+      imageSlug: '/images/making-an-offer-commitment.png',
     },
     {
       word: 'RENEWAL',
@@ -63,7 +63,7 @@ export const makingAnOffer: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Available only to a specific group of people or for a limited time — not offered to everyone.',
       example: 'This is an exclusive offer for clients who attended our webinar — it is not available on our website.',
-      imageSlug: '/images/exclusive.png',
+      imageSlug: '/images/making-an-offer-exclusive.png',
     }
   ],
 
@@ -84,7 +84,7 @@ export const makingAnOffer: Lesson = {
       phrase: 'LOCK IN [A PRICE]',
       definition: 'To agree on a price now so that it is fixed and will not change — even if prices increase later.',
       example: 'If you sign up before the end of the month, you lock in the current price for the full year — it will not go up at renewal.',
-      imageSlug: '/images/lock-in-a-price.png',
+      imageSlug: '/images/making-an-offer-lock-in-a-price.png',
     },
     {
       phrase: 'SWEETEN THE DEAL',
@@ -96,13 +96,13 @@ export const makingAnOffer: Lesson = {
       phrase: 'SIGN UP FOR [SOMETHING]',
       definition: 'To formally agree to take a service or plan — to register or commit.',
       example: 'We are running a promotion this month — clients who sign up for a six-month plan get the first month free.',
-      imageSlug: '/images/sign-up-for-something.png',
+      imageSlug: '/images/making-an-offer-sign-up-for-something.png',
     },
     {
       phrase: 'COME WITH [SOMETHING]',
       definition: 'To include something as part of a package or offer.',
       example: 'Every plan comes with a dedicated account manager and a monthly performance report — there are no hidden extras.',
-      imageSlug: '/images/come-with-something.png',
+      imageSlug: '/images/making-an-offer-come-with-something.png',
     }
   ],
 

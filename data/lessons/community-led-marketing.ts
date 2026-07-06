@@ -63,7 +63,7 @@ export const communityLedMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: "The percentage of community members who actively participate — posting, replying, reacting, or contributing — in a given period. Engagement rate is a better measure of community quality than total member count.",
       example: "Marcus said: We have 100,000 forum members. Riley said: What is the engagement rate? If 2% are active, you have 2,000 engaged people and 98,000 dormant accounts. Size means very little — engagement rate is what tells you whether the community is alive or just collecting sign-ups.",
-      imageSlug: '/images/engagement-rate.png',
+      imageSlug: '/images/community-led-marketing-engagement-rate.png',
     }
   ],
 

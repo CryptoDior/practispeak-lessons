@@ -14,21 +14,21 @@ export const closingTheSaleNaturally: Lesson = {
       partOfSpeech: 'verb',
       definition: "To bring a sales conversation to completion — the moment when the buyer agrees to move forward. As a noun: 'the close' is the final stage of the sales process. As a verb: 'to close a deal' means to secure the customer's commitment.",
       example: "Riley knew the moment had come. She said: Marcus, based on everything we've covered — I think we're ready to close. Shall we move forward with the contract this week, subject to your finance team's approval?",
-      imageSlug: '/images/close.png',
+      imageSlug: '/images/closing-the-sale-naturally-close.png',
     },
     {
       word: 'COMMITMENT',
       partOfSpeech: 'noun',
       definition: "An agreement or promise to proceed. Getting a commitment doesn't always mean signing a contract immediately — it can mean an agreed next step with a clear timeline. 'Getting commitment' is an important closing skill.",
       example: "Riley got the commitment she needed without pushing for an immediate signature. Marcus agreed: If finance confirms the budget by Friday, we're ready to sign. That commitment was exactly what Riley needed to keep the deal moving.",
-      imageSlug: '/images/commitment.png',
+      imageSlug: '/images/closing-the-sale-naturally-commitment.png',
     },
     {
       word: 'OBJECTION',
       partOfSpeech: 'noun',
       definition: 'A concern or reason the buyer gives for not moving forward. Objections at the close often signal interest, not rejection — they are final questions that need answering before the buyer can commit. Always welcome objections; they give you something to work with.',
       example: "Marcus raised one final objection before the close: The only remaining concern is that our legal team hasn't reviewed the data processing agreement yet. Riley welcomed it: That's a completely reasonable point — let me send that document today so your legal team has everything they need.",
-      imageSlug: '/images/objection.png',
+      imageSlug: '/images/closing-the-sale-naturally-objection.png',
     },
     {
       word: 'TRIAL CLOSE',
@@ -42,14 +42,14 @@ export const closingTheSaleNaturally: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A genuine reason for the buyer to decide now rather than later. Creating urgency without pressure is a key closing skill — it is about helping the buyer understand the cost of delay, not rushing them into a bad decision.',
       example: "Riley mentioned one genuine reason to move quickly: Our Q3 onboarding cohort closes at the end of the week — if you'd like to start in July, committing today would secure your place. I can't guarantee the same start date after Friday. That created real urgency without feeling pushy.",
-      imageSlug: '/images/urgency.png',
+      imageSlug: '/images/closing-the-sale-naturally-urgency.png',
     },
     {
       word: 'STALL',
       partOfSpeech: 'verb',
       definition: "When a buyer delays making a decision without giving a clear reason. 'They're stalling' means they are not saying yes or no — they are buying time. Stalling often signals an unspoken objection that needs to be surfaced.",
       example: "Riley sensed that Marcus was beginning to stall. He kept saying 'we just need a bit more time' without specifying what was missing. She asked directly: Is there a specific concern holding you back that we haven't addressed yet? That question broke the stall.",
-      imageSlug: '/images/stall.png',
+      imageSlug: '/images/closing-the-sale-naturally-stall.png',
     },
     {
       word: 'NEXT STEP',
@@ -63,7 +63,7 @@ export const closingTheSaleNaturally: Lesson = {
       partOfSpeech: 'noun',
       definition: "In 'the assumptive close', acting as if the buyer has already decided to move forward. 'Shall we move forward?' is an assumptive close — it assumes a positive response. Used professionally, it feels confident rather than presumptuous.",
       example: "Riley used the assumptive close naturally: Shall we move forward with the contract this week? She did not ask 'are you going to sign?' — she assumed the decision had been made, which made it easier for Marcus to say yes.",
-      imageSlug: '/images/assumption.png',
+      imageSlug: '/images/closing-the-sale-naturally-assumption.png',
     }
   ],
 

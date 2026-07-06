@@ -21,7 +21,7 @@ export const mediaRelationsAndPr: Lesson = {
       partOfSpeech: 'noun',
       definition: "An agreement between an organisation and a journalist that the journalist receives information early — but cannot publish it until a specific date and time. Embargoes give journalists time to prepare a story in advance. Breaking an embargo — publishing before the agreed time — is a serious breach of trust in the media industry.",
       example: "The results went to financial press under embargo at 6 AM with a publication time of 7 AM. Every outlet honoured it. The one that had broken an embargo the previous year was not on the distribution list.",
-      imageSlug: '/images/embargo.png',
+      imageSlug: '/images/media-relations-and-pr-embargo.png',
     },
     {
       word: 'MEDIA KIT',
@@ -35,14 +35,14 @@ export const mediaRelationsAndPr: Lesson = {
       partOfSpeech: 'noun',
       definition: "The person who officially represents an organisation and communicates on its behalf with the media, the public, or other external audiences. A spokesperson needs to be briefed on key messages, trained to handle difficult questions, and authorised to speak on the topics they are covering.",
       example: "The spokesperson was briefed on every anticipated question before the press conference. She knew which topics were on the record, which were background, and which she would not comment on. Her preparation showed — she handled the regulatory question without hesitation.",
-      imageSlug: '/images/spokesperson.png',
+      imageSlug: '/images/media-relations-and-pr-spokesperson.png',
     },
     {
       word: 'OFF THE RECORD',
       partOfSpeech: 'phrase',
       definition: "Information shared with a journalist that they agree not to attribute to you or publish directly. Going off the record is a way of giving a journalist background context or a candid view without having it reported as an official statement. However, off the record only works if the journalist agrees to it — and it should be agreed before the information is shared, not after.",
       example: "Dana shared the background context off the record before the journalist filed the story. The information shaped the framing without appearing in the article. Used correctly, off the record is a tool for accuracy, not concealment.",
-      imageSlug: '/images/off-the-record.png',
+      imageSlug: '/images/media-relations-and-pr-off-the-record.png',
     },
     {
       word: 'MEDIA BRIEFING',
@@ -63,7 +63,7 @@ export const mediaRelationsAndPr: Lesson = {
       partOfSpeech: 'noun',
       definition: "Coverage, mentions, or stories about your brand that you did not pay for. Earned media comes from journalists, bloggers, influencers, or other third parties who choose to write about you because they find your story newsworthy or interesting. It is called 'earned' because you earn it through the quality of your story or your reputation — not through advertising spend.",
       example: "The white paper generated earned media coverage in four sector publications without any paid placement. Journalists covered the brand trust finding because it was genuinely surprising. Earned media from that research is still generating inbound six months after publication.",
-      imageSlug: '/images/earned-media.png',
+      imageSlug: '/images/media-relations-and-pr-earned-media.png',
     },
   ],
 
@@ -124,7 +124,7 @@ export const mediaRelationsAndPr: Lesson = {
       phrase: 'WE NEED TO GET AHEAD OF THIS STORY BEFORE...',
       definition: "A phrase for describing the urgency of proactively communicating — to journalists, customers, or the public — before a negative or sensitive story breaks on its own. Getting ahead of a story means controlling the narrative by releasing information on your own terms rather than waiting for it to be reported without your input.",
       example: "We need to get ahead of this story before it appears without our input. Dana drafted a statement for the CEO to approve so we are ready to respond the moment it breaks. Proactive positioning is always stronger than reactive denial.",
-      imageSlug: '/images/we-need-to-get-ahead-of-this-story.png',
+      imageSlug: '/images/media-relations-and-pr-we-need-to-get-ahead-of-this-story.png',
       inAction: 'We need to get ahead of this story before the journalist publishes — if we wait for the article to go live and then respond, we have already lost control of the narrative.',
       register: "Neutral — Forge (B2B HR platform, data incident): crisis comms plan reads we need to get ahead of this story before it breaks — a statement acknowledging the incident, describing the steps we have taken, and confirming no customer data was compromised needs to go to key media contacts today, before any outlet approaches us. | Kova (fintech, executive departure): communications review reads we need to get ahead of this story before it leaks — a proactive announcement of the CFO departure, framed on our terms, is less damaging than a news report based on speculation and unnamed sources. | Velo (B2B fleet SaaS, product recall): crisis PR review reads we need to get ahead of this story before it becomes a safety news report — a direct, proactive statement from the CEO acknowledging the issue and describing the recall process is the only approach that preserves trust.",
       visualExamples: [

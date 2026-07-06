@@ -42,28 +42,28 @@ export const thankingTheCustomer: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Comments from a customer about their experience — positive or negative. Asking for feedback shows you care about improving and building a better relationship.',
       example: 'Riley asked: Do you have any feedback for us — anything we could do better? Marcus said: Honestly, everything was great. The delivery was faster than I expected.',
-      imageSlug: '/images/feedback.png',
+      imageSlug: '/images/thanking-the-customer-feedback.png',
     },
     {
       word: 'RECOMMEND',
       partOfSpeech: 'verb',
       definition: 'To tell other people about a positive experience and suggest they try the same product or company. A recommendation from a happy customer is the most powerful tool in sales.',
       example: 'Marcus said: I will definitely recommend you to my contacts. Riley said: Thank you so much — that really means everything to us. We are so glad you had a great experience.',
-      imageSlug: '/images/recommend.png',
+      imageSlug: '/images/thanking-the-customer-recommend.png',
     },
     {
       word: 'SATISFACTION',
       partOfSpeech: 'noun',
       definition: 'The feeling of being happy with a product or service. Customer satisfaction is the goal of every sale — a satisfied customer comes back and recommends you to others.',
       example: 'Riley said: Your satisfaction is our number one priority. If anything is ever not right, please call me directly and I will fix it immediately.',
-      imageSlug: '/images/satisfaction.png',
+      imageSlug: '/images/thanking-the-customer-satisfaction.png',
     },
     {
       word: 'LOYALTY',
       partOfSpeech: 'noun',
       definition: 'Staying with the same company over time. A loyal customer chooses you again and again — loyalty is built through great service and genuine relationships.',
       example: 'Marcus had been a customer for two years. Riley said: We truly value your loyalty, Marcus. It means a lot to have customers who trust us and come back every year.',
-      imageSlug: '/images/loyalty.png',
+      imageSlug: '/images/thanking-the-customer-loyalty.png',
     }
   ],
 

@@ -14,7 +14,7 @@ export const makingSimpleRecommendations: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To say that something is a good choice for someone. When you recommend something, you give your professional opinion — not just information.',
       example: 'Marcus was not sure which plan to choose, so he asked Riley. She said: I recommend the Standard Plan for you — it has everything you need and it fits your budget.',
-      imageSlug: '/images/recommend.png',
+      imageSlug: '/images/making-simple-recommendations-recommend.png',
     },
     {
       word: 'SUGGEST',
@@ -28,7 +28,7 @@ export const makingSimpleRecommendations: Lesson = {
       partOfSpeech: 'noun',
       definition: 'One of the things you can choose from. When you have two or more things to pick from, each one is an option.',
       example: 'We have three options for you today: Basic, Standard, and Premium. Each one has different features and a different price. Let me explain each option so you can decide.',
-      imageSlug: '/images/option.png',
+      imageSlug: '/images/making-simple-recommendations-option.png',
     },
     {
       word: 'SUITABLE',

@@ -61,7 +61,7 @@ export const describingCharacters: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Has a lot of physical power.',
       example: 'The warrior is STRONG — one punch destroys the wall!',
-      imageSlug: '/images/strong.png',
+      imageSlug: '/images/describing-characters-strong.png',
     },
     {
       word: 'WEAK',

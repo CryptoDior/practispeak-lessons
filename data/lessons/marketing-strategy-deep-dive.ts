@@ -35,7 +35,7 @@ export const marketingStrategyDeepDive: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A clear statement of the benefit a product or service delivers, who it is for, and why it is better than the alternative. A strong value proposition answers: what do we do, for whom, and why should they choose us over anyone else?',
       example: "Riley reviewed the draft: The value proposition on this brief is too generic. 'We help businesses grow' could describe anyone. Let's make it specific: We help B2B SaaS companies reduce their customer acquisition cost by 30% using data-led content marketing. That's a value proposition.",
-      imageSlug: '/images/value-proposition.png',
+      imageSlug: '/images/marketing-strategy-deep-dive-value-proposition.png',
     },
     {
       word: 'POSITIONING MAP',
@@ -56,14 +56,14 @@ export const marketingStrategyDeepDive: Lesson = {
       partOfSpeech: 'noun',
       definition: "How well a proposed strategy aligns with the company's existing strengths, resources, goals and market position. Before recommending a new direction, a good strategist checks strategic fit — does this play to our strengths or force us into territory where we're weak?",
       example: "Riley flagged the issue: The idea is interesting, but I'm not sure there's strategic fit. Entering the consumer market would require a completely different sales model, a new type of content, and a brand repositioning. That's a lot of change for a business built entirely on B2B relationships.",
-      imageSlug: '/images/strategic-fit.png',
+      imageSlug: '/images/marketing-strategy-deep-dive-strategic-fit.png',
     },
     {
       word: 'MARKET PENETRATION',
       partOfSpeech: 'noun',
       definition: 'The percentage of a target market that is using a product or service. Also the name of the Ansoff strategy focused on growing share within an existing market. High market penetration means you have captured a large portion of available customers.',
       example: 'Dana reported on progress: Our market penetration in the mid-market segment is now 34% — up from 22% two years ago. That growth came entirely from referrals and thought leadership content. The question now is whether we push for higher penetration in this segment or use the Ansoff model to open a new market.',
-      imageSlug: '/images/market-penetration.png',
+      imageSlug: '/images/marketing-strategy-deep-dive-market-penetration.png',
     }
   ],
 

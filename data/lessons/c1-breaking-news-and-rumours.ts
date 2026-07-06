@@ -33,7 +33,7 @@ export const c1BreakingNewsAndRumours: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A story that one journalist or outlet has reported before anyone else — obtained through a source that did not share it with others.',
       example: '"The journalist broke the exclusive on the manager\'s sacking — she had the story four hours before anyone else."',
-      imageSlug: '/images/exclusive.png',
+      imageSlug: '/images/c1-breaking-news-and-rumours-exclusive.png',
     },
     {
       word: 'SOURCE',
@@ -54,14 +54,14 @@ export const c1BreakingNewsAndRumours: Lesson = {
       partOfSpeech: 'noun',
       definition: 'An agreement to not publish information before a specific time — journalists may have the story but must wait to publish.',
       example: '"The press conference was under embargo until midnight — every outlet had the story but none could publish it early."',
-      imageSlug: '/images/embargo.png',
+      imageSlug: '/images/c1-breaking-news-and-rumours-embargo.png',
     },
     {
       word: 'SPECULATION',
       partOfSpeech: 'noun',
       definition: 'Discussion of what might happen based on limited information — not verified reporting, just possibility.',
       example: '"At this stage, all the transfer talk is pure speculation — nothing has been agreed and no bid has been submitted."',
-      imageSlug: '/images/speculation.png',
+      imageSlug: '/images/c1-breaking-news-and-rumours-speculation.png',
     },
     {
       word: 'CORROBORATE',
@@ -103,7 +103,7 @@ export const c1BreakingNewsAndRumours: Lesson = {
       phrase: 'PLAY DOWN',
       definition: 'To make something seem less significant than it is — clubs often play down transfer rumours or injury concerns.',
       example: '"The club is playing down talk of a takeover — but three of our sources are telling a very different story."',
-      imageSlug: '/images/play-down.png',
+      imageSlug: '/images/c1-breaking-news-and-rumours-play-down.png',
     },
     {
       phrase: 'EMERGE',

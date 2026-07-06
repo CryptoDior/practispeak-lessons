@@ -14,14 +14,14 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: "The complete plan for how a company will bring a product or service to market — including the target audience, positioning, pricing, channel mix, launch sequence, and success metrics. A go-to-market strategy answers the question: how does this product reach the right customer at the right time in the right way?",
       example: "Marcus opened the final review: Our go-to-market strategy covers six components. Target segment — the specific audience we are entering with and why. Positioning — how we are different from existing solutions and why that matters to this audience. Pricing — the model, the entry point, and the upsell path. Channel mix — which routes to market and in what priority order. Launch sequence — the activities in the first 90 days, week by week. And success metrics — the specific numbers that will tell us whether we have succeeded or failed. Riley added: A go-to-market strategy without success metrics is a plan with no accountability. The metrics are the commitment.",
-      imageSlug: '/images/go-to-market-strategy.png',
+      imageSlug: '/images/b2-final-project-go-to-market-plan-go-to-market-strategy.png',
     },
     {
       word: 'VALUE PROPOSITION',
       partOfSpeech: 'noun',
       definition: "A clear statement of the specific benefit a product or service delivers to a specific customer — and why that benefit is better or different from the alternatives. A strong value proposition is specific, credible, and relevant to the target audience. It is not a tagline. It is the core commercial argument for why someone should choose you.",
       example: "Dana reviewed the value proposition drafts: We have three versions. Version A: 'we make data analysis simple' — this is too generic; every analytics platform claims this. Version B: 'marketing teams at growing B2B companies get from data to insight in under 10 minutes' — this is better — it names the audience, the benefit, and a specific metric. Version C: 'marketing teams at scaling B2B companies reduce reporting time by 70% and spend that time on strategy — not spreadsheets' — this is the strongest. It names the audience, quantifies the problem being solved, and creates an emotional connection to the pain. Riley commented: Always test the value proposition with actual target customers before committing to it.",
-      imageSlug: '/images/value-proposition.png',
+      imageSlug: '/images/b2-final-project-go-to-market-plan-value-proposition.png',
     },
     {
       word: 'COMPETITIVE POSITIONING',
@@ -56,7 +56,7 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: "A specific, measurable indicator that tells you whether a plan, campaign, or initiative has achieved its goal. Success metrics should be defined before the activity begins — not after you see the results. Good success metrics are SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.",
       example: "Dana presented the success metrics for the go-to-market plan: Six-month metrics — 150 paying customers, £180k monthly recurring revenue, NPS above 50, and 12-month net revenue retention above 110%. Riley asked: What happens if we hit four of the six metrics but miss the NPS target? Dana replied: Then we have a product or onboarding problem that will manifest as churn in months 7 to 12. NPS is not a vanity metric in a SaaS business — it is a leading indicator of retention. A high NPS now predicts low churn later. A low NPS now predicts high churn whether we hit our revenue numbers or not. Marcus: Which is why the metrics set matters. Define the wrong metrics and you optimise for the wrong outcomes.",
-      imageSlug: '/images/success-metric.png',
+      imageSlug: '/images/b2-final-project-go-to-market-plan-success-metric.png',
     },
     {
       word: 'CROSS-FUNCTIONAL',

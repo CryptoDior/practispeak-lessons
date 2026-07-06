@@ -21,7 +21,7 @@ export const masteringAmbiguity: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A warning or condition attached to what you are saying. A way of saying: this is true, BUT...',
       example: 'Marcus said: The forecast looks positive. Riley added: With one caveat — those numbers assume the supply chain issues are resolved by Q3.',
-      imageSlug: '/images/caveat.png',
+      imageSlug: '/images/mastering-ambiguity-caveat.png',
     },
     {
       word: 'PROVISIONAL',
@@ -56,7 +56,7 @@ export const masteringAmbiguity: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Something you believe is true but have not confirmed. A starting point for planning.',
       example: "Riley said: Every financial model is built on assumptions. The question is whether your assumptions are realistic.",
-      imageSlug: '/images/assumption.png',
+      imageSlug: '/images/mastering-ambiguity-assumption.png',
     },
     {
       word: 'OUTLOOK',

@@ -14,7 +14,7 @@ export const boardLevelReporting: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Related to the legal duty to act in the best financial interest of the company or its shareholders.',
       example: "Riley said: The board has a fiduciary duty to shareholders. Every decision they make has to be justified in terms of financial return — not just strategic logic.",
-      imageSlug: '/images/fiduciary.png',
+      imageSlug: '/images/board-level-reporting-fiduciary.png',
     },
     {
       word: 'P&L IMPACT',
@@ -42,7 +42,7 @@ export const boardLevelReporting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The process of carefully checking all the facts before making a major decision.',
       example: "Riley said: We need to do full due diligence on this agency before we sign the contract. References, financials, legal background — everything.",
-      imageSlug: '/images/due-diligence.png',
+      imageSlug: '/images/board-level-reporting-due-diligence.png',
     },
     {
       word: 'RETURN ON INVESTMENT',

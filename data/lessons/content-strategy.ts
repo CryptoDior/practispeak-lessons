@@ -49,7 +49,7 @@ export const contentStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Content that positions your brand or its people as trusted experts — sharing genuine insight rather than promoting products.',
       example: 'The best B2B thought leadership does not mention your product at all — it solves a problem your audience has, and the credibility from that is what brings them back.',
-      imageSlug: '/images/thought-leadership.png',
+      imageSlug: '/images/content-strategy-thought-leadership.png',
     },
     {
       word: 'CONTENT AUDIT',
@@ -63,7 +63,7 @@ export const contentStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The specific thing you want the reader or viewer to do next — download, book, read, share, or reply.',
       example: 'Every piece of content needs a clear call to action — even thought leadership. If someone reads your article and finds it useful, what do you want them to do next? That answer belongs at the end of every post.',
-      imageSlug: '/images/call-to-action.png',
+      imageSlug: '/images/content-strategy-call-to-action.png',
     }
   ],
 

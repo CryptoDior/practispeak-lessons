@@ -33,14 +33,14 @@ export const injuryTime: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The extra minutes added to the end of each half to compensate for stoppages during the match.',
       example: 'The board showed six minutes of added time — there had been three long injury stoppages.',
-      imageSlug: '/images/added-time.png',
+      imageSlug: '/images/injury-time-added-time.png',
     },
     {
       word: 'STOPPAGE TIME',
       partOfSpeech: 'noun',
       definition: 'Another word for added time — extra minutes added for interruptions like injuries, substitutions, and VAR.',
       example: 'Five minutes of stoppage time — anything can happen in five minutes.',
-      imageSlug: '/images/stoppage-time.png',
+      imageSlug: '/images/injury-time-stoppage-time.png',
     },
     {
       word: 'INJURY TIME',
@@ -61,7 +61,7 @@ export const injuryTime: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'Any stoppage that holds up play — an injury, a VAR check, a substitution — which adds to the total added time.',
       example: 'There were three long delays for injuries — that\'s why there was so much added time.',
-      imageSlug: '/images/delay.png',
+      imageSlug: '/images/injury-time-delay.png',
     },
     {
       word: 'CONCUSSION',

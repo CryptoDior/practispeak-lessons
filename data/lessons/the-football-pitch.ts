@@ -14,21 +14,21 @@ export const theFootballPitch: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The space between two posts where you score.',
       example: 'Ronaldo kicked the ball into the goal!',
-      imageSlug: '/images/goal.png',
+      imageSlug: '/images/the-football-pitch-goal.png',
     },
     {
       word: 'NET',
       partOfSpeech: 'noun',
       definition: 'The net attached to the goal posts that catches the ball.',
       example: 'The ball hit the back of the net.',
-      imageSlug: '/images/net.png',
+      imageSlug: '/images/the-football-pitch-net.png',
     },
     {
       word: 'PENALTY SPOT',
       partOfSpeech: 'noun',
       definition: 'The white mark on the pitch where you kick a penalty.',
       example: 'The referee pointed to the penalty spot.',
-      imageSlug: '/images/penalty-spot.png',
+      imageSlug: '/images/the-football-pitch-penalty-spot.png',
     },
     {
       word: 'CENTRE CIRCLE',
@@ -49,7 +49,7 @@ export const theFootballPitch: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The field where football is played.',
       example: 'The players walked onto the pitch.',
-      imageSlug: '/images/pitch.png',
+      imageSlug: '/images/the-football-pitch-pitch.png',
     },
     {
       word: 'GOALPOST',
@@ -72,7 +72,7 @@ export const theFootballPitch: Lesson = {
       phrase: 'ON THE PITCH',
       definition: 'On the playing field during a match.',
       example: 'There are twenty-two players on the pitch.',
-      imageSlug: '/images/on-the-pitch.png',
+      imageSlug: '/images/the-football-pitch-on-the-pitch.png',
     },
     {
       phrase: 'INSIDE THE BOX',

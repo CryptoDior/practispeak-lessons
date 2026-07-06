@@ -61,7 +61,7 @@ export const injuries: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Short for physiotherapist — the specialist who treats and helps players recover from injuries.',
       example: 'The physio came onto the pitch to assess the injury — she checked his ankle and helped him off the field.',
-      imageSlug: '/images/physio.png',
+      imageSlug: '/images/injuries-physio.png',
     },
     {
       word: 'SCAN',
@@ -97,7 +97,7 @@ export const injuries: Lesson = {
       phrase: 'RULE OUT',
       definition: 'To confirm that a player cannot play — usually used passively: "has been ruled out."',
       example: 'The manager has ruled him out of the weekend match — his hamstring is not ready.',
-      imageSlug: '/images/rule-out.png',
+      imageSlug: '/images/injuries-rule-out.png',
     },
     {
       phrase: 'COME OFF',

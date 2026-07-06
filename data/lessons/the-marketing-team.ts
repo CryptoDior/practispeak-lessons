@@ -14,7 +14,7 @@ export const theMarketingTeam: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person who is in charge of a team or part of a company.',
       example: 'The marketing manager looks after the whole marketing team.',
-      imageSlug: '/images/manager.png',
+      imageSlug: '/images/the-marketing-team-manager.png',
     },
     {
       word: 'DIRECTOR',
@@ -42,7 +42,7 @@ export const theMarketingTeam: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A company that helps other companies with their marketing.',
       example: 'We work with an agency for our online advertising.',
-      imageSlug: '/images/agency.png',
+      imageSlug: '/images/the-marketing-team-agency.png',
     },
     {
       word: 'ASSISTANT',
@@ -63,7 +63,7 @@ export const theMarketingTeam: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person you work with.',
       example: "My colleague Carlos looks after the company's social media.",
-      imageSlug: '/images/colleague.png',
+      imageSlug: '/images/the-marketing-team-colleague.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const theMarketingTeam: Lesson = {
       phrase: 'IN CHARGE OF',
       definition: 'Say that someone is responsible for a team or area of work.',
       example: 'The marketing manager is in charge of all campaigns and content.',
-      imageSlug: '/images/in-charge-of.png',
+      imageSlug: '/images/the-marketing-team-in-charge-of.png',
     },
     {
       phrase: 'REPORTS TO',

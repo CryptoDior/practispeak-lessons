@@ -35,14 +35,14 @@ export const crossCulturalNegotiation: Lesson = {
       partOfSpeech: 'noun',
       definition: "Protecting a person's dignity, reputation, and social standing in front of others — especially in professional or public contexts. In many Asian, Middle Eastern, and Latin American cultures, causing someone to 'lose face' — to be embarrassed, contradicted, or publicly criticised — is a serious social and professional harm that can damage relationships permanently.",
       example: "Asking the partner to commit publicly before they had reached internal consensus would have been a face-saving problem. Dana structured the agreement to allow time for internal ratification before any public announcement. The deal closed cleanly because nobody was put in a position where they had to refuse in front of others.",
-      imageSlug: '/images/face-saving.png',
+      imageSlug: '/images/cross-cultural-negotiation-face-saving.png',
     },
     {
       word: 'PROTOCOL',
       partOfSpeech: 'noun',
       definition: "The accepted rules and customs that govern how meetings, negotiations, introductions, and formal interactions are conducted in a specific cultural or institutional context. Protocol covers things like seating arrangements, business card exchange, gift-giving, dress code, and the correct order of introductions. Violating protocol — even unknowingly — can signal disrespect.",
       example: "Arriving without business cards to a first meeting in Japan was a significant breach of protocol. Marcus corrected it by the second meeting and acknowledged the oversight directly. Learning the protocol in advance would have prevented the awkward start.",
-      imageSlug: '/images/protocol.png',
+      imageSlug: '/images/cross-cultural-negotiation-protocol.png',
     },
     {
       word: 'COLLECTIVIST CULTURE',

@@ -49,14 +49,14 @@ export const contentMarketingBasics: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The specific group of people you are creating content for — defined by their job, industry, challenges, and interests.',
       example: 'All our content is created with one audience in mind — marketing managers at B2B technology companies with 50 to 500 employees.',
-      imageSlug: '/images/audience.png',
+      imageSlug: '/images/content-marketing-basics-audience.png',
     },
     {
       word: 'VALUE',
       partOfSpeech: 'noun',
       definition: 'The usefulness or benefit that content gives the reader — good content teaches, inspires, or solves a problem.',
       example: 'Every piece of content we publish must offer real value — if it does not help the reader, we do not publish it.',
-      imageSlug: '/images/value.png',
+      imageSlug: '/images/content-marketing-basics-value.png',
     },
     {
       word: 'DISTRIBUTE',
@@ -78,13 +78,13 @@ export const contentMarketingBasics: Lesson = {
       phrase: 'DRIVE TRAFFIC',
       definition: 'To bring visitors to your website or landing page — often through content shared on social media or in emails.',
       example: 'A well-written article drives traffic back to your website — especially if it answers a question your audience is already searching for.',
-      imageSlug: '/images/drive-traffic.png',
+      imageSlug: '/images/content-marketing-basics-drive-traffic.png',
     },
     {
       phrase: 'BUILD TRUST',
       definition: 'To develop a positive, reliable reputation with your audience over time — content marketing builds trust by consistently offering value.',
       example: 'Publishing useful, honest content every week builds trust with your audience — they start to see you as an expert, not just a vendor.',
-      imageSlug: '/images/build-trust.png',
+      imageSlug: '/images/content-marketing-basics-build-trust.png',
     },
     {
       phrase: 'REPURPOSE [CONTENT]',
@@ -96,7 +96,7 @@ export const contentMarketingBasics: Lesson = {
       phrase: 'CALL TO ACTION',
       definition: "A phrase or button that tells the reader what to do next — for example, 'Read the full article', 'Download our guide', or 'Book a call'.",
       example: 'Every piece of content needs a call to action — otherwise the reader finishes it and moves on without taking any next step.',
-      imageSlug: '/images/call-to-action.png',
+      imageSlug: '/images/content-marketing-basics-call-to-action.png',
     },
     {
       phrase: 'ENGAGE WITH [CONTENT]',

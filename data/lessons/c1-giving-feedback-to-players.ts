@@ -91,13 +91,13 @@ export const c1GivingFeedbackToPlayers: Lesson = {
       phrase: 'BUILD ON',
       definition: 'To use something good as a foundation and develop it further — to take a positive and make it even better.',
       example: '"That pressing trigger in the first half was exactly right — let\'s build on that in the second."',
-      imageSlug: '/images/build-on.png',
+      imageSlug: '/images/c1-giving-feedback-to-players-build-on.png',
     },
     {
       phrase: 'WORK ON',
       definition: 'To practise or develop something — to focus effort on improving a specific aspect of performance.',
       example: '"Your first touch under pressure is something we need to work on. I\'ve got a specific drill for you after training."',
-      imageSlug: '/images/work-on.png',
+      imageSlug: '/images/c1-giving-feedback-to-players-work-on.png',
     },
     {
       phrase: 'TAKE ON BOARD',
@@ -115,13 +115,13 @@ export const c1GivingFeedbackToPlayers: Lesson = {
       phrase: 'COME ON',
       definition: 'To improve or develop over time — to make noticeable progress.',
       example: '"His aerial ability has really come on since we worked on his timing in the box."',
-      imageSlug: '/images/come-on.png',
+      imageSlug: '/images/c1-giving-feedback-to-players-come-on.png',
     },
     {
       phrase: 'OPEN UP',
       definition: 'To create space or opportunity — used when describing how a player\'s movement or positioning creates a better option.',
       example: '"If you check your shoulder earlier, it opens up the pass in behind — you\'d see the runner earlier."',
-      imageSlug: '/images/open-up.png',
+      imageSlug: '/images/c1-giving-feedback-to-players-open-up.png',
     },
   ],
 

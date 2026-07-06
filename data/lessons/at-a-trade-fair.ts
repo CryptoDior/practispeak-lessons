@@ -14,7 +14,7 @@ export const atATradeFair: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The space or table that a company uses at a trade fair to show their products or services to visitors.',
       example: 'Our stand was in the main hall — we had a screen, some brochures, and two people to talk to visitors.',
-      imageSlug: '/images/stand.png',
+      imageSlug: '/images/at-a-trade-fair-stand.png',
     },
     {
       word: 'DISPLAY',
@@ -35,7 +35,7 @@ export const atATradeFair: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person you know professionally — someone you have met at an event, worked with, or spoken to for business reasons.',
       example: 'Riley made three new contacts at the fair — she followed up with each one by email the next morning.',
-      imageSlug: '/images/contact.png',
+      imageSlug: '/images/at-a-trade-fair-contact.png',
     },
     {
       word: 'HANDSHAKE',
@@ -49,14 +49,14 @@ export const atATradeFair: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A small card or sticker that people wear at events showing their name and company.',
       example: "Riley looked at the visitor's badge and saw he was the marketing director at a large software company.",
-      imageSlug: '/images/badge.png',
+      imageSlug: '/images/at-a-trade-fair-badge.png',
     },
     {
       word: 'BOOTH',
       partOfSpeech: 'noun',
       definition: 'Another word for a stand — the area a company has at a fair or exhibition. More common in American English.',
       example: 'Their booth was very impressive — they had a video wall, coffee, and a team of five people.',
-      imageSlug: '/images/booth.png',
+      imageSlug: '/images/at-a-trade-fair-booth.png',
     },
     {
       word: 'NETWORK',
@@ -84,7 +84,7 @@ export const atATradeFair: Lesson = {
       phrase: 'FOLLOW UP WITH [SOMEONE]',
       definition: 'To contact someone after a first meeting to continue the conversation or take the next step.',
       example: 'After the fair, Riley followed up with every contact she made — she sent a short email to each one.',
-      imageSlug: '/images/follow-up-with-someone.png',
+      imageSlug: '/images/at-a-trade-fair-follow-up-with-someone.png',
     },
     {
       phrase: 'STRIKE UP A CONVERSATION',

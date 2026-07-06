@@ -32,7 +32,7 @@ export const socialMediaFootball: Lesson = {
       partOfSpeech: 'abbreviation',
       definition: 'Video Assistant Referee — a system where officials review decisions using video. Very controversial. Fans love debating it.',
       example: '"VAR took that goal away — absolutely robbed us 😤" (informal) / "The VAR review overturned the on-field decision." (formal)',
-      imageSlug: '/images/var.png',
+      imageSlug: '/images/social-media-football-var.png',
     },
     {
       word: 'OG',
@@ -74,14 +74,14 @@ export const socialMediaFootball: Lesson = {
       partOfSpeech: 'phrase',
       definition: 'When a team defends with all their players and does not try to attack — blocking the goal completely.',
       example: '"They just parked the bus for 90 minutes — so boring to watch 😴" / "The visitors employed an extremely defensive strategy."',
-      imageSlug: '/images/park-the-bus.png',
+      imageSlug: '/images/social-media-football-park-the-bus.png',
     },
     {
       word: 'BANTER',
       partOfSpeech: 'noun',
       definition: 'Friendly, playful teasing between rivals — typically between fans of different teams.',
       example: '"The banter between City and United fans online is peak football Twitter 😂" / "The rivalry between supporters is expressed through good-natured exchanges."',
-      imageSlug: '/images/banter.png',
+      imageSlug: '/images/social-media-football-banter.png',
     },
   ],
 
@@ -90,13 +90,13 @@ export const socialMediaFootball: Lesson = {
       phrase: 'WIND UP',
       definition: 'To deliberately annoy or provoke someone — usually opposing fans — by saying something provocative.',
       example: '"He\'s just winding up the opposition fans — classic 😂" / "He deliberately provoked the visiting supporters."',
-      imageSlug: '/images/wind-up.png',
+      imageSlug: '/images/social-media-football-wind-up.png',
     },
     {
       phrase: 'CALL OUT',
       definition: 'To publicly criticise or challenge someone — pointing out something they did wrong.',
       example: '"Fans calling out the manager for that substitution — he waited way too long tbh" / "Supporters publicly criticised the manager\'s late substitution."',
-      imageSlug: '/images/call-out.png',
+      imageSlug: '/images/social-media-football-call-out.png',
     },
     {
       phrase: 'BLOW UP',
@@ -120,7 +120,7 @@ export const socialMediaFootball: Lesson = {
       phrase: 'GO VIRAL',
       definition: 'When a video, post, or image spreads very quickly and widely online.',
       example: '"That celebration has gone viral — 50k retweets already 🤣" / "The goal celebration attracted widespread attention online."',
-      imageSlug: '/images/go-viral.png',
+      imageSlug: '/images/social-media-football-go-viral.png',
     },
   ],
 

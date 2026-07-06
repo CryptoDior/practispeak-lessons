@@ -14,7 +14,7 @@ export const gameOnFirstWords: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The person who is playing the game.',
       example: 'You are the player. Your character is on the screen.',
-      imageSlug: '/images/player.png',
+      imageSlug: '/images/game-on-first-words-player.png',
     },
     {
       word: 'SCREEN',
@@ -35,7 +35,7 @@ export const gameOnFirstWords: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A stage or section of the game.',
       example: 'This is level 6. It is very difficult!',
-      imageSlug: '/images/level.png',
+      imageSlug: '/images/game-on-first-words-level.png',
     },
     {
       word: 'LIFE',

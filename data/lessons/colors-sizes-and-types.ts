@@ -21,7 +21,7 @@ export const colorsSizesAndTypes: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Easy to change or adapt to different needs.',
       example: 'It is a flexible contract — you can switch from monthly to annual at any time.',
-      imageSlug: '/images/flexible.png',
+      imageSlug: '/images/colors-sizes-and-types-flexible.png',
     },
     {
       word: 'CUSTOM',

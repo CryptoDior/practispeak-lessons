@@ -42,7 +42,7 @@ export const complexDataStorytelling: Lesson = {
       partOfSpeech: 'noun',
       definition: "A conclusion drawn from data — going beyond what the numbers say directly to explain what they mean or predict what comes next. In data storytelling, inference is how you turn observation into insight.",
       example: "Riley said: The data shows churn went up in Q3 and NPS dropped in Q2. The inference is that the satisfaction problem in Q2 caused the churn in Q3 — they are connected. That is the insight. Now we know where to focus.",
-      imageSlug: '/images/inference.png',
+      imageSlug: '/images/complex-data-storytelling-inference.png',
     },
     {
       word: 'Headline metric',

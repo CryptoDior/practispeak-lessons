@@ -14,14 +14,14 @@ export const brandStorytelling: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The story that runs through all your marketing — the way you explain who you are, what you do, and why it matters, in a connected and meaningful way.',
       example: "TechFlow's narrative should not be 'we make software for manufacturers' — it should be 'we give operations directors the evidence they need to walk into the board meeting with confidence'.",
-      imageSlug: '/images/narrative.png',
+      imageSlug: '/images/brand-storytelling-narrative.png',
     },
     {
       word: 'HERO',
       partOfSpeech: 'noun',
       definition: 'The central character in a marketing story — in B2B, the hero is almost always the client, not the brand.',
       example: 'The biggest mistake in brand storytelling is making the brand the hero. Your client is the hero — they faced a challenge, they made a decision, and they achieved a result. Your brand is the tool that helped them get there.',
-      imageSlug: '/images/hero.png',
+      imageSlug: '/images/brand-storytelling-hero.png',
     },
     {
       word: 'CONFLICT',
@@ -35,7 +35,7 @@ export const brandStorytelling: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The point in the story where the problem is solved and the outcome becomes clear — how the hero successfully overcame the conflict.',
       example: 'The resolution: in 67 days — 23 days ahead of schedule — the client hit 22% cost reduction with no redundancies and a 98% team satisfaction score. That is a resolution worth reading.',
-      imageSlug: '/images/resolution.png',
+      imageSlug: '/images/brand-storytelling-resolution.png',
     },
     {
       word: 'EMOTIONAL APPEAL',
@@ -49,7 +49,7 @@ export const brandStorytelling: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The change that the hero goes through — from where they were before to where they are after. The before-and-after is the heart of any case study.',
       example: 'The transformation is: from a director under impossible pressure with no clear path, to someone who delivered results ahead of schedule and got promoted six months later. That arc is the story.',
-      imageSlug: '/images/transformation.png',
+      imageSlug: '/images/brand-storytelling-transformation.png',
     },
     {
       word: 'PROOF POINT',

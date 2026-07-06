@@ -63,7 +63,7 @@ export const marketingThenAndNow: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A website or app where people share content. For example: Instagram, LinkedIn, or YouTube.',
       example: 'Companies now use many different platforms to reach their audience.',
-      imageSlug: '/images/platform.png',
+      imageSlug: '/images/marketing-then-and-now-platform.png',
     }
   ],
 

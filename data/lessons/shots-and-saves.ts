@@ -33,14 +33,14 @@ export const shotsAndSaves: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A shot or pass made by striking the ball with the head.',
       example: 'He\'s jumping — and that\'s a brilliant header into the top corner!',
-      imageSlug: '/images/header.png',
+      imageSlug: '/images/shots-and-saves-header.png',
     },
     {
       word: 'VOLLEY',
       partOfSpeech: 'noun / verb',
       definition: 'Striking the ball while it is in the air, before it bounces.',
       example: 'She\'s volleying it from 20 metres — what a strike!',
-      imageSlug: '/images/volley.png',
+      imageSlug: '/images/shots-and-saves-volley.png',
     },
     {
       word: 'CHIP',
@@ -54,7 +54,7 @@ export const shotsAndSaves: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'When the goalkeeper stops the ball from going into the goal.',
       example: 'What a save! The goalkeeper is diving to her right and pushing it out.',
-      imageSlug: '/images/save.png',
+      imageSlug: '/images/shots-and-saves-save.png',
     },
     {
       word: 'PARRY',
@@ -91,7 +91,7 @@ export const shotsAndSaves: Lesson = {
       phrase: 'ON TARGET',
       definition: 'A shot heading toward the goal — it would have gone in without the save.',
       example: 'The shot is on target — the goalkeeper has to save it!',
-      imageSlug: '/images/on-target.png',
+      imageSlug: '/images/shots-and-saves-on-target.png',
     },
     {
       phrase: 'OFF TARGET',
@@ -115,7 +115,7 @@ export const shotsAndSaves: Lesson = {
       phrase: 'FOLLOW UP',
       definition: 'To be ready to shoot if the goalkeeper spills or parries the ball.',
       example: 'He followed up the parry and tapped in the rebound — always be ready.',
-      imageSlug: '/images/follow-up.png',
+      imageSlug: '/images/shots-and-saves-follow-up.png',
     },
     {
       phrase: 'GET YOUR HEAD ON IT',

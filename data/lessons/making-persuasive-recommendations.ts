@@ -14,14 +14,14 @@ export const makingPersuasiveRecommendations: Lesson = {
       partOfSpeech: 'noun',
       definition: "A suggestion that something is the best course of action, based on what you know about the person's situation — not a generic opinion.",
       example: 'A strong recommendation is specific to the person you are talking to — it should reference what they told you, not just what you usually say.',
-      imageSlug: '/images/recommendation.png',
+      imageSlug: '/images/making-persuasive-recommendations-recommendation.png',
     },
     {
       word: 'COMPELLING',
       partOfSpeech: 'adjective',
       definition: 'Strongly persuasive and difficult to argue against — a compelling recommendation gives someone a clear reason to act.',
       example: 'The most compelling recommendations connect directly to a pain point the prospect named themselves — they cannot easily dismiss something they already said was a problem.',
-      imageSlug: '/images/compelling.png',
+      imageSlug: '/images/making-persuasive-recommendations-compelling.png',
     },
     {
       word: 'HESITATION',
@@ -35,14 +35,14 @@ export const makingPersuasiveRecommendations: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Designed or adapted specifically for a particular person's situation — the opposite of a generic or one-size-fits-all proposal.",
       example: "A tailored recommendation always begins with what you heard — 'based on what you told me' signals that this is not your standard pitch.",
-      imageSlug: '/images/tailored.png',
+      imageSlug: '/images/making-persuasive-recommendations-tailored.png',
     },
     {
       word: 'TENTATIVE',
       partOfSpeech: 'adjective',
       definition: 'Not fully confident or committed — offering something as a possibility rather than a clear view. Useful when you want to leave room for the prospect to push back.',
       example: "When a prospect is risk-averse, a tentative recommendation using 'could' or 'might' feels safer than a confident 'should' — it gives them control.",
-      imageSlug: '/images/tentative.png',
+      imageSlug: '/images/making-persuasive-recommendations-tentative.png',
     },
     {
       word: 'ASSERT',
@@ -56,7 +56,7 @@ export const makingPersuasiveRecommendations: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A proposed course of action or offer put forward for consideration — what you are recommending and why it makes sense.',
       example: 'Before you make a proposition, earn the right to make it — a recommendation lands better when the prospect already trusts that you understand their situation.',
-      imageSlug: '/images/proposition.png',
+      imageSlug: '/images/making-persuasive-recommendations-proposition.png',
     },
     {
       word: 'CONVINCE',

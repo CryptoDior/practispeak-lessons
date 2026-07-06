@@ -14,7 +14,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A visual list of everyone affected by or involved in a decision — showing how much power and interest each person has.',
       example: "Riley said: Before you present this to the board, do a stakeholder map. Who needs to approve it? Who could block it? Who do you need on your side?",
-      imageSlug: '/images/stakeholder-map.png',
+      imageSlug: '/images/political-communication-in-organisations-stakeholder-map.png',
     },
     {
       word: 'POWER BROKER',
@@ -49,21 +49,21 @@ export const politicalCommunicationInOrganisations: Lesson = {
       partOfSpeech: 'noun',
       definition: "Someone's agreement and genuine support for an idea or plan.",
       example: 'Marcus presented the strategy without getting buy-in from the regional teams first. When he needed their cooperation, they were not willing to help.',
-      imageSlug: '/images/buy-in.png',
+      imageSlug: '/images/political-communication-in-organisations-buy-in.png',
     },
     {
       word: 'ALIGNMENT',
       partOfSpeech: 'noun',
       definition: 'When different people or teams agree on the same goal or approach. Getting alignment means making sure everyone is moving in the same direction.',
       example: "Riley said: Before we launch this campaign, I need alignment from sales, product, and finance. If any one of those teams is pulling in a different direction, it will fail.",
-      imageSlug: '/images/alignment.png',
+      imageSlug: '/images/political-communication-in-organisations-alignment.png',
     },
     {
       word: 'MANDATE',
       partOfSpeech: 'noun',
       definition: 'Official permission or support from someone with authority to do something.',
       example: "Marcus said: I don't have the mandate to approve this budget. You'll need sign-off from the CFO.",
-      imageSlug: '/images/mandate.png',
+      imageSlug: '/images/political-communication-in-organisations-mandate.png',
     }
   ],
 

@@ -47,7 +47,7 @@ export const c2AdvancedArgumentation: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The foundation that an argument rests on — the assumed truth that makes the rest of the argument possible.',
       example: '"The argument falls apart if you question the premise — if possession is not actually correlated with winning, the whole case collapses."',
-      imageSlug: '/images/premise.png',
+      imageSlug: '/images/c2-advanced-argumentation-premise.png',
     },
     {
       word: 'REBUTTAL',
@@ -61,7 +61,7 @@ export const c2AdvancedArgumentation: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Acknowledging that part of the opposing argument is valid or true — before showing why it doesn\'t change your conclusion.',
       example: '"The concession made his argument stronger, not weaker — admitting the referee errors showed he wasn\'t dismissing them, just explaining why they weren\'t the whole story."',
-      imageSlug: '/images/concession.png',
+      imageSlug: '/images/c2-advanced-argumentation-concession.png',
     },
     {
       word: 'STRAWMAN',
@@ -97,7 +97,7 @@ export const c2AdvancedArgumentation: Lesson = {
       phrase: 'PICK HOLES IN',
       definition: 'To identify specific weaknesses in an argument — to find the gaps, contradictions, or unsupported assumptions.',
       example: '"I can pick holes in the counterargument: it rests on the assumption that possession and winning are directly correlated, and the data simply does not support that."',
-      imageSlug: '/images/pick-holes-in.png',
+      imageSlug: '/images/c2-advanced-argumentation-pick-holes-in.png',
     },
     {
       phrase: 'HOLD UP UNDER',

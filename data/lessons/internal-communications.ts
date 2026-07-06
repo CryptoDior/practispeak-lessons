@@ -28,7 +28,7 @@ export const internalCommunications: Lesson = {
       partOfSpeech: 'noun',
       definition: "The core piece of information or idea that a communication is designed to leave with the audience. A key message is the one sentence a reader or listener should remember after everything else is forgotten. In internal communications, the key message needs to be clear, relevant to the audience, and consistent across all channels.",
       example: "Dana presented the key message framework: We have three audiences for this announcement — employees, managers, and senior leadership. The key message for employees is: this change is an opportunity to grow and the company is committed to supporting everyone through the transition. The key message for managers is: your job is to reassure your teams and escalate concerns quickly. The key message for senior leadership is: we need to communicate consistently — any deviation from the agreed narrative will create confusion.",
-      imageSlug: '/images/key-message.png',
+      imageSlug: '/images/internal-communications-key-message.png',
     },
     {
       word: 'CASCADE',
@@ -42,7 +42,7 @@ export const internalCommunications: Lesson = {
       partOfSpeech: 'noun',
       definition: "The active support and commitment of the people whose cooperation is needed for a plan or change to succeed. Getting buy-in means more than informing people — it means helping them understand the reasoning well enough that they are willing to advocate for the plan, not just accept it. Without buy-in, people comply on the surface but resist in practice.",
       example: "Riley observed: The biggest risk to this launch is not the external market — it is internal resistance from the sales team who feel the new product competes with accounts they have already closed. Marcus replied: Which means we need to get buy-in from sales leadership before the announcement. Dana added: Buy-in from sales leadership requires two things — understanding the commercial rationale, and having their specific concerns heard and addressed. If we brief them properly before the announcement, they become advocates. If we announce without briefing them, they become the most vocal internal critics.",
-      imageSlug: '/images/buy-in.png',
+      imageSlug: '/images/internal-communications-buy-in.png',
     },
     {
       word: 'BRIEFING',
@@ -56,14 +56,14 @@ export const internalCommunications: Lesson = {
       partOfSpeech: 'noun',
       definition: "A formal communication to a group of people that shares important news, decisions, or changes. An internal announcement is different from a press release — it should feel personal, direct, and written for the specific audience, not for the general public.",
       example: "Riley reviewed the draft internal announcement and raised a concern: This reads like a press release, not an announcement to our own team. Marcus asked: What is the difference? Riley replied: A press release is written for the public — it is formal, optimistic, and avoids uncertainty. An announcement to our team should be honest about the challenges, explain the reasoning behind the decision, acknowledge the impact on people, and give them a clear next step. Dana added: The people reading this have been with the company for years. They deserve a message that treats them like adults — not like external investors who need to be managed.",
-      imageSlug: '/images/announcement.png',
+      imageSlug: '/images/internal-communications-announcement.png',
     },
     {
       word: 'LAUNCH',
       partOfSpeech: 'noun / verb',
       definition: "The moment when something new is introduced — a product, a campaign, a strategy, or a change. In internal communications, a launch is a carefully planned event that requires preparation, timing, and follow-through. A well-executed internal launch builds excitement and clarity. A poorly executed one creates confusion and resistance.",
       example: "Marcus set the launch timeline: Internal launch on Tuesday — briefings from 8am, cascade from 2pm, town hall at 4pm. External launch on Wednesday — press release at 6am, social media at 7am, media interviews from 9am. Dana asked: What if something leaks before Tuesday? Marcus replied: We have a holding statement ready and a decision tree for the communications team. If it leaks, we accelerate the internal cascade immediately. Employees should never find out about something this significant from an external source — that is the one outcome we are working hardest to prevent.",
-      imageSlug: '/images/launch.png',
+      imageSlug: '/images/internal-communications-launch.png',
     },
   ],
 

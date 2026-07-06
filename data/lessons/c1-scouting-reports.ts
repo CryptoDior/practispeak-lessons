@@ -121,7 +121,7 @@ export const c1ScoutingReports: Lesson = {
       phrase: 'PRESS HIGH',
       definition: 'To apply pressure to the opponent near their own goal rather than defending in a mid or low block.',
       example: '"They press high in a 4-3-3 shape — the front three lead the press and the midfield covers the spaces left behind."',
-      imageSlug: '/images/press-high.png',
+      imageSlug: '/images/c1-scouting-reports-press-high.png',
     },
   ],
 

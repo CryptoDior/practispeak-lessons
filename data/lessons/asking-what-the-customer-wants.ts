@@ -14,7 +14,7 @@ export const askingWhatTheCustomerWants: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To suggest something as the best choice for someone.',
       example: "Before I recommend a plan, I need to understand what you're looking for.",
-      imageSlug: '/images/recommend.png',
+      imageSlug: '/images/asking-what-the-customer-wants-recommend.png',
     },
     {
       word: 'PROBLEM',
@@ -28,14 +28,14 @@ export const askingWhatTheCustomerWants: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The thing that is most important and needs attention first.',
       example: "What's your top priority right now — saving time or cutting costs?",
-      imageSlug: '/images/priority.png',
+      imageSlug: '/images/asking-what-the-customer-wants-priority.png',
     },
     {
       word: 'GOAL',
       partOfSpeech: 'noun',
       definition: 'Something you want to achieve or reach.',
       example: 'Our goal is to get better visibility into what the team is working on.',
-      imageSlug: '/images/goal.png',
+      imageSlug: '/images/asking-what-the-customer-wants-goal.png',
     },
     {
       word: 'FIT',
@@ -49,21 +49,21 @@ export const askingWhatTheCustomerWants: Lesson = {
       partOfSpeech: 'noun',
       definition: 'One of the choices available.',
       example: 'What option would you suggest for a team of about twelve people?',
-      imageSlug: '/images/option.png',
+      imageSlug: '/images/asking-what-the-customer-wants-option.png',
     },
     {
       word: 'NEED',
       partOfSpeech: 'verb',
       definition: 'To require something — it is necessary or very important.',
       example: 'We need a tool that is simple enough for everyone on the team to use.',
-      imageSlug: '/images/need.png',
+      imageSlug: '/images/asking-what-the-customer-wants-need.png',
     },
     {
       word: 'SOLUTION',
       partOfSpeech: 'noun',
       definition: 'An answer or fix to a problem.',
       example: 'Is there a solution for teams that already use three different apps?',
-      imageSlug: '/images/solution.png',
+      imageSlug: '/images/asking-what-the-customer-wants-solution.png',
     }
   ],
 
@@ -96,7 +96,7 @@ export const askingWhatTheCustomerWants: Lesson = {
       phrase: "BASED ON WHAT YOU'VE TOLD ME",
       definition: 'Use this to transition from listening to recommending — show you were paying attention.',
       example: "Based on what you've told me, I'd suggest the Growth Plan.",
-      imageSlug: '/images/based-on-what-youve-told-me.png',
+      imageSlug: '/images/asking-what-the-customer-wants-based-on-what-youve-told-me.png',
     },
     {
       phrase: 'WOULD THAT WORK FOR YOU',

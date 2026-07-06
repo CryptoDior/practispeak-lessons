@@ -14,28 +14,28 @@ export const writingForTheCSuite: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Using as few words as possible while still being clear. In executive writing, brevity is a sign of respect for the reader\'s time.',
       example: "Riley said: The CEO doesn't want three paragraphs. She wants three bullets. Brevity isn't laziness — it's one of the hardest skills in business writing.",
-      imageSlug: '/images/brevity.png',
+      imageSlug: '/images/writing-for-the-c-suite-brevity.png',
     },
     {
       word: 'PRECISION',
       partOfSpeech: 'noun',
       definition: 'Using exactly the right word to express exactly the right meaning — no more, no less.',
       example: "Marcus said: Instead of 'we are looking to possibly improve revenue performance going forward', write 'we will increase revenue by 15% in Q3'. That's precision.",
-      imageSlug: '/images/precision.png',
+      imageSlug: '/images/writing-for-the-c-suite-precision.png',
     },
     {
       word: 'INFERENCE',
       partOfSpeech: 'noun',
       definition: 'A conclusion the reader reaches themselves based on the information you give them — without you saying it directly.',
       example: "The memo said costs are up 22% and revenue is flat. The inference the board drew was obvious: the business model is under pressure. I didn't need to write that line.",
-      imageSlug: '/images/inference.png',
+      imageSlug: '/images/writing-for-the-c-suite-inference.png',
     },
     {
       word: 'IMPLICATION',
       partOfSpeech: 'noun',
       definition: 'Something you suggest or indicate without saying it openly. Often used in formal writing to soften a direct statement.',
       example: "The implication of the report was that the current team lacks the skills needed for the next phase. Riley chose not to say that directly — but every executive in the room understood it.",
-      imageSlug: '/images/implication.png',
+      imageSlug: '/images/writing-for-the-c-suite-implication.png',
     },
     {
       word: 'AUTHORITY',
@@ -49,7 +49,7 @@ export const writingForTheCSuite: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A short section at the top of a report that gives the key findings and recommendations — so a busy leader can read just that and understand the whole document.',
       example: "Riley said: Put your most important recommendation first. The executive summary is not an introduction — it\'s the whole story in 150 words. Everything after it is the evidence.",
-      imageSlug: '/images/executive-summary.png',
+      imageSlug: '/images/writing-for-the-c-suite-executive-summary.png',
     },
     {
       word: 'DECISION DOCUMENT',
@@ -102,7 +102,7 @@ export const writingForTheCSuite: Lesson = {
       phrase: 'WHAT THIS MEANS IN PRACTICE IS...',
       definition: 'A phrase used to translate abstract findings or data into concrete, real-world impact that an executive can act on.',
       example: "'The model shows a 7% drop in conversion. What this means in practice is that we\'re losing approximately 340 sales a month — or £1.2m in annual revenue at current prices.'",
-      imageSlug: '/images/what-this-means-in-practice-is.png',
+      imageSlug: '/images/writing-for-the-c-suite-what-this-means-in-practice-is.png',
     }
   ],
 

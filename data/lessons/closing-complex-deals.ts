@@ -14,7 +14,7 @@ export const closingComplexDeals: Lesson = {
       partOfSpeech: 'noun',
       definition: "In complex deals, a commitment is a specific, time-bound agreement to take a defined action — not a general expression of interest. 'We're interested in moving forward' is not a commitment. 'I will submit the proposal to procurement by Friday' is a commitment. Securing incremental commitments — small, specific agreements that build progressively toward contract — is the core discipline of complex deal management.",
       example: "Riley made the distinction explicit: Before we close today's meeting, I want to agree on a specific commitment from both sides — not a general intention, but a named action with a named owner and a date. My commitment is to send the mutual action plan by end of tomorrow. What is yours? — because 'we'll look at it this week' is the kind of commitment that turns into a three-week delay.",
-      imageSlug: '/images/commitment.png',
+      imageSlug: '/images/closing-complex-deals-commitment.png',
     },
     {
       word: 'NEXT STEPS',
@@ -35,7 +35,7 @@ export const closingComplexDeals: Lesson = {
       partOfSpeech: 'noun',
       definition: "An internal advocate within the buyer's organisation who actively supports the vendor's solution and helps navigate internal decision-making on the vendor's behalf. A champion is distinct from a sponsor — a sponsor has authority; a champion has access and willingness to advocate. The most effective complex deal closures rely on an internal champion who has visibility across all approval stages and can surface issues before they become blockers.",
       example: "Riley asked directly: Who inside your organisation is the champion for this deal — the person who, when I'm not in the room, is making the case for why this is the right decision? That person doesn't have to be the most senior stakeholder — they just need visibility, credibility, and a genuine belief in the value of the solution. Because without a champion, deals at this level tend to get deprioritised the moment something else competes for internal attention.",
-      imageSlug: '/images/champion.png',
+      imageSlug: '/images/closing-complex-deals-champion.png',
     },
     {
       word: 'MUTUAL ACTION PLAN',

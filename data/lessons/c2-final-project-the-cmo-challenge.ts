@@ -14,7 +14,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The authority given to someone to make decisions and take action on behalf of an organisation — often from a board or leadership body.',
       example: "Riley said: Before you present to the board, confirm your mandate. Do you have the authority to make this decision, or are you presenting options for them to decide? The answer changes how you structure the entire briefing.",
-      imageSlug: '/images/mandate.png',
+      imageSlug: '/images/c2-final-project-the-cmo-challenge-mandate.png',
     },
     {
       word: 'BRAND EQUITY',
@@ -42,7 +42,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The plan for how a company will reach customers and launch a product or campaign — including channels, messaging, timing, and market priorities.',
       example: "The board wants a go-to-market strategy for the rebrand, not just a creative direction. That means: which markets launch first, which channels carry the new identity, what the media weight looks like in each market, and what the six-month measurement plan is.",
-      imageSlug: '/images/go-to-market-strategy.png',
+      imageSlug: '/images/c2-final-project-the-cmo-challenge-go-to-market-strategy.png',
     },
     {
       word: 'SHAREHOLDER VALUE',

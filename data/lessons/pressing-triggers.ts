@@ -47,14 +47,14 @@ export const pressingTriggers: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Counter-pressing — pressing immediately after losing the ball, before the opposition can organise. Developed and popularised by Jürgen Klopp.',
       example: '"Their gegenpressing is relentless — within three seconds of losing the ball, all nearby players press the ball-carrier intensely."',
-      imageSlug: '/images/gegenpressing.png',
+      imageSlug: '/images/pressing-triggers-gegenpressing.png',
     },
     {
       word: 'PRESS RESISTANCE',
       partOfSpeech: 'phrase',
       definition: 'A player\'s ability to keep the ball under pressure — using body position, first touch, and awareness to maintain possession when opponents press.',
       example: '"His press resistance is exceptional — even when two players press him, he shields the ball and finds a teammate without losing possession."',
-      imageSlug: '/images/press-resistance.png',
+      imageSlug: '/images/pressing-triggers-press-resistance.png',
     },
     {
       word: 'TRAP',
@@ -82,7 +82,7 @@ export const pressingTriggers: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The energy and aggression with which a team presses — how hard and fast they work to win the ball back.',
       example: '"Their pressing intensity drops in the final twenty minutes — physically they cannot sustain that level of aggression for the whole game."',
-      imageSlug: '/images/intensity.png',
+      imageSlug: '/images/pressing-triggers-intensity.png',
     },
     {
       word: 'PRESS OFF / PRESS ON',
@@ -98,13 +98,13 @@ export const pressingTriggers: Lesson = {
       phrase: 'CLOSE DOWN',
       definition: 'To press an opponent by moving quickly towards them, reducing their time and space on the ball.',
       example: '"As soon as the centre-back receives, the striker closes them down immediately — giving them no time to look up and play forward."',
-      imageSlug: '/images/close-down.png',
+      imageSlug: '/images/pressing-triggers-close-down.png',
     },
     {
       phrase: 'WIN BACK',
       definition: 'To regain possession of the ball after losing it — often through pressing or tackling.',
       example: '"If we can win the ball back within five seconds of losing it, the opposition\'s structure is still disorganised and we can attack quickly."',
-      imageSlug: '/images/win-back.png',
+      imageSlug: '/images/pressing-triggers-win-back.png',
     },
     {
       phrase: 'SQUEEZE UP',
@@ -122,13 +122,13 @@ export const pressingTriggers: Lesson = {
       phrase: 'HOLD OFF',
       definition: 'To delay pressing — staying close to an opponent without fully committing, waiting for the right moment.',
       example: '"The forward holds off the press when the opposition have numerical superiority in that zone — closing the angle without diving in."',
-      imageSlug: '/images/hold-off.png',
+      imageSlug: '/images/pressing-triggers-hold-off.png',
     },
     {
       phrase: 'ENGAGE',
       definition: 'To commit to pressing — moving directly at the ball-carrier with intent to win the ball.',
       example: '"Once the pressing trigger occurs, every player within ten metres must engage — hesitation breaks the whole structure of the press."',
-      imageSlug: '/images/engage.png',
+      imageSlug: '/images/pressing-triggers-engage.png',
     },
   ],
 

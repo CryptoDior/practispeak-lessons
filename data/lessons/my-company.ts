@@ -49,7 +49,7 @@ export const myCompany: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The type of work a company does. For example: technology, food, or health.',
       example: 'Brightline works in the technology sector.',
-      imageSlug: '/images/sector.png',
+      imageSlug: '/images/my-company-sector.png',
     },
     {
       word: 'STAFF',

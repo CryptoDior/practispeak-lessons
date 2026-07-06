@@ -14,21 +14,21 @@ export const emailsInMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The title of an email that the reader sees before they open it. A good subject line makes people want to open the email.',
       example: 'Riley spent ten minutes on the subject line because she knew it would decide whether the client opens the email or deletes it.',
-      imageSlug: '/images/subject-line.png',
+      imageSlug: '/images/emails-in-marketing-subject-line.png',
     },
     {
       word: 'GREETING',
       partOfSpeech: 'noun',
       definition: "The first line of an email where you say hello to the reader. For example: 'Dear Mr Brown' or 'Hi Sarah'.",
       example: "Dana used 'Dear' as her greeting because she had never met the client before and wanted to be formal.",
-      imageSlug: '/images/greeting.png',
+      imageSlug: '/images/emails-in-marketing-greeting.png',
     },
     {
       word: 'INTRODUCTION',
       partOfSpeech: 'noun',
       definition: 'The first paragraph of an email where you say who you are and why you are writing.',
       example: 'Keep your introduction short — say who you are and your reason for writing in two or three sentences.',
-      imageSlug: '/images/introduction.png',
+      imageSlug: '/images/emails-in-marketing-introduction.png',
     },
     {
       word: 'ATTACH',
@@ -49,21 +49,21 @@ export const emailsInMarketing: Lesson = {
       partOfSpeech: 'phrase',
       definition: "A sentence near the end of an email that tells the reader what to do next — for example: 'Book a free call' or 'Reply to this email'.",
       example: 'Every marketing email needs a clear call to action — without it, the reader does not know what step to take.',
-      imageSlug: '/images/call-to-action.png',
+      imageSlug: '/images/emails-in-marketing-call-to-action.png',
     },
     {
       word: 'SIGN-OFF',
       partOfSpeech: 'noun',
       definition: "The closing words at the end of an email before your name. For example: 'Best regards' or 'Kind regards'.",
       example: "Riley used 'Best regards' as her sign-off because it sounds professional but not too formal.",
-      imageSlug: '/images/sign-off.png',
+      imageSlug: '/images/emails-in-marketing-sign-off.png',
     },
     {
       word: 'FOLLOW-UP',
       partOfSpeech: 'noun',
       definition: 'A second email or message you send after the first one, usually because the person did not reply.',
       example: 'If the client does not reply in five days, send a follow-up — keep it short and friendly.',
-      imageSlug: '/images/follow-up.png',
+      imageSlug: '/images/emails-in-marketing-follow-up.png',
     }
   ],
 
@@ -78,7 +78,7 @@ export const emailsInMarketing: Lesson = {
       phrase: 'FOLLOW UP WITH [SOMEONE]',
       definition: 'To contact someone again after an earlier message or meeting, usually to get a response.',
       example: 'If you do not hear back in a week, follow up with a short email — remind them who you are.',
-      imageSlug: '/images/follow-up-with-someone.png',
+      imageSlug: '/images/emails-in-marketing-follow-up-with-someone.png',
     },
     {
       phrase: 'GET BACK TO [SOMEONE]',

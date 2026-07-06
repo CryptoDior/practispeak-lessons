@@ -40,7 +40,7 @@ export const shapeAndStructure: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The numerical arrangement of players on a pitch — e.g. 4-3-3, 4-2-3-1, 3-5-2. The first number is defenders, last is forwards.',
       example: '"They lined up in a 4-2-3-1 formation — two defensive midfielders providing cover for a high-pressing attacking midfielder."',
-      imageSlug: '/images/formation.png',
+      imageSlug: '/images/shape-and-structure-formation.png',
     },
     {
       word: 'SYSTEM',
@@ -82,14 +82,14 @@ export const shapeAndStructure: Lesson = {
       partOfSpeech: 'noun',
       definition: 'How tight and close together a team\'s defensive shape is — the less space between players, the more compact the team.',
       example: '"Their compactness in the middle third was extraordinary — barely five metres between the defensive line and the midfield."',
-      imageSlug: '/images/compactness.png',
+      imageSlug: '/images/shape-and-structure-compactness.png',
     },
     {
       word: 'OVERLOAD',
       partOfSpeech: 'noun / verb',
       definition: 'When one team has more players in a particular area of the pitch than the opponent — a numerical advantage in a zone.',
       example: '"They consistently overloaded the right side with the full-back, winger, and overlapping midfielder — three against two every time."',
-      imageSlug: '/images/overload.png',
+      imageSlug: '/images/shape-and-structure-overload.png',
     },
   ],
 
@@ -98,19 +98,19 @@ export const shapeAndStructure: Lesson = {
       phrase: 'SET UP',
       definition: 'To organise a team in a particular tactical formation or shape before or during a match.',
       example: '"They set up in a 5-3-2 specifically to nullify the threat of the opposition\'s wide forwards."',
-      imageSlug: '/images/set-up.png',
+      imageSlug: '/images/shape-and-structure-set-up.png',
     },
     {
       phrase: 'DROP INTO',
       definition: 'To move into a deeper defensive position — to retreat from a higher line into a block.',
       example: '"They dropped into a low block in the second half — protecting the lead rather than pressing."',
-      imageSlug: '/images/drop-into.png',
+      imageSlug: '/images/shape-and-structure-drop-into.png',
     },
     {
       phrase: 'PUSH UP',
       definition: 'To move the defensive line or team shape higher up the pitch — to compress space and play more aggressively.',
       example: '"The manager told the back four to push up and play the offside trap — catch them out."',
-      imageSlug: '/images/push-up.png',
+      imageSlug: '/images/shape-and-structure-push-up.png',
     },
     {
       phrase: 'SHIFT ACROSS',
@@ -122,7 +122,7 @@ export const shapeAndStructure: Lesson = {
       phrase: 'OPEN UP',
       definition: 'When a defensive structure begins to break down — gaps appear and the opposition finds space.',
       example: '"Their shape started to open up in the final fifteen minutes — fatigue setting in and the gaps exploited."',
-      imageSlug: '/images/open-up.png',
+      imageSlug: '/images/shape-and-structure-open-up.png',
     },
     {
       phrase: 'SWITCH TO',

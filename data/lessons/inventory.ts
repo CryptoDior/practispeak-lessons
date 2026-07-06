@@ -63,7 +63,7 @@ export const inventory: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A single space in your inventory that holds one item or stack.',
       example: 'I only have one slot free — I have to choose between the shield and the potion.',
-      imageSlug: '/images/slot.png',
+      imageSlug: '/images/inventory-slot.png',
     },
     {
       word: 'STACK',

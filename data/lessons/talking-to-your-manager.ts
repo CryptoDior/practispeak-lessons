@@ -47,14 +47,14 @@ export const talkingToYourManager: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The practice of regularly changing the line-up — resting certain players and giving others opportunities throughout a long season.',
       example: '"Don\'t take it personally — it\'s just rotation. You\'ll be back in the starting XI for the weekend\'s game."',
-      imageSlug: '/images/rotation.png',
+      imageSlug: '/images/talking-to-your-manager-rotation.png',
     },
     {
       word: 'FEEDBACK',
       partOfSpeech: 'noun',
       definition: 'Information about a person\'s performance — what they did well and what they need to improve.',
       example: '"She always asks for feedback after a game — even when she played well, she wants to know what she can do better."',
-      imageSlug: '/images/feedback.png',
+      imageSlug: '/images/talking-to-your-manager-feedback.png',
     },
     {
       word: 'SELECTION',
@@ -110,7 +110,7 @@ export const talkingToYourManager: Lesson = {
       phrase: 'CLEAR THE AIR',
       definition: 'To have an open conversation that resolves tension or misunderstanding between people.',
       example: '"After weeks of tension, the player and manager sat down to clear the air — they both said what they were thinking and left the meeting on better terms."',
-      imageSlug: '/images/clear-the-air.png',
+      imageSlug: '/images/talking-to-your-manager-clear-the-air.png',
     },
     {
       phrase: 'SPEAK YOUR MIND',

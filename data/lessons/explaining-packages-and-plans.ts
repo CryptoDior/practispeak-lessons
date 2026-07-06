@@ -21,7 +21,7 @@ export const explainingPackagesAndPlans: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A bundle of features, services, or products offered together at a set price — everything that comes with a particular plan.',
       example: 'The Standard package includes the pipeline dashboard, automated follow-up reminders, and onboarding support — everything most growing teams need.',
-      imageSlug: '/images/package.png',
+      imageSlug: '/images/explaining-packages-and-plans-package.png',
     },
     {
       word: 'UPGRADE',
@@ -49,21 +49,21 @@ export const explainingPackagesAndPlans: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A group of features or services packaged together as a unit — often at a better price than buying each one separately.',
       example: 'The Premium bundle includes everything in Standard plus advanced analytics, custom reporting, and a dedicated account manager.',
-      imageSlug: '/images/bundle.png',
+      imageSlug: '/images/explaining-packages-and-plans-bundle.png',
     },
     {
       word: 'FLEXIBLE',
       partOfSpeech: 'adjective',
       definition: 'Able to be adjusted to suit different situations or needs — a flexible plan can be modified, scaled, or cancelled without major disruption.',
       example: "All plans are monthly and flexible — you are not locked into anything, which means you can adjust as your team's needs change.",
-      imageSlug: '/images/flexible.png',
+      imageSlug: '/images/explaining-packages-and-plans-flexible.png',
     },
     {
       word: 'ONBOARDING',
       partOfSpeech: 'noun',
       definition: 'The process of setting up and getting started with a product — often guided by the vendor, and included in higher-tier plans.',
       example: 'The Standard plan includes dedicated onboarding — a setup session with our team to make sure everything is configured correctly before your reps go live.',
-      imageSlug: '/images/onboarding.png',
+      imageSlug: '/images/explaining-packages-and-plans-onboarding.png',
     }
   ],
 

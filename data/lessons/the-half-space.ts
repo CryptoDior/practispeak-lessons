@@ -40,14 +40,14 @@ export const theHalfSpace: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The zone between the central area and the wide area on each side of the pitch — roughly where the inside forward or attacking midfielder operates. One of the most important zones in modern positional play.',
       example: '"Their number ten occupied the left half-space brilliantly — between the right centre-back and the right full-back, causing constant confusion."',
-      imageSlug: '/images/half-space.png',
+      imageSlug: '/images/the-half-space-half-space.png',
     },
     {
       word: 'CHANNEL',
       partOfSpeech: 'noun',
       definition: 'The wide corridor between the full-back and the centre-back — a target area for runners going in behind the defensive line.',
       example: '"The striker\'s run into the channel between the centre-back and the right back created the space for the cross."',
-      imageSlug: '/images/channel.png',
+      imageSlug: '/images/the-half-space-channel.png',
     },
     {
       word: 'POCKET OF SPACE',
@@ -61,7 +61,7 @@ export const theHalfSpace: Lesson = {
       partOfSpeech: 'phrase',
       definition: 'The space between the opposition\'s midfield line and defensive line — where a number ten or attacking midfielder can receive and turn.',
       example: '"Operating between the lines is her greatest strength — she collects the ball in that zone before defenders can engage."',
-      imageSlug: '/images/between-the-lines.png',
+      imageSlug: '/images/the-half-space-between-the-lines.png',
     },
     {
       word: 'THIRD',
@@ -82,7 +82,7 @@ export const theHalfSpace: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'When a full-back runs inside a winger — through the half-space — rather than outside (which is an overlap). Creates a late runner from depth into the half-space.',
       example: '"The right back\'s underlap into the half-space completely confused the left back — he could not track both the winger and the underlapping full-back."',
-      imageSlug: '/images/underlap.png',
+      imageSlug: '/images/the-half-space-underlap.png',
     },
     {
       word: 'SPATIAL AWARENESS',
@@ -98,7 +98,7 @@ export const theHalfSpace: Lesson = {
       phrase: 'DROP INTO',
       definition: 'To move into a deeper position — often into the space between the lines or into the half-space from a forward position.',
       example: '"The number nine dropped into the half-space to collect, leaving the centre-backs unsure whether to follow."',
-      imageSlug: '/images/drop-into.png',
+      imageSlug: '/images/the-half-space-drop-into.png',
     },
     {
       phrase: 'DRIFT INTO',
@@ -110,13 +110,13 @@ export const theHalfSpace: Lesson = {
       phrase: 'EXPLOIT',
       definition: 'To use a weakness or space to your advantage — to take advantage of a gap in the opposition\'s shape.',
       example: '"They exploited the channel behind the right back repeatedly — five runs in behind in the first 30 minutes."',
-      imageSlug: '/images/exploit.png',
+      imageSlug: '/images/the-half-space-exploit.png',
     },
     {
       phrase: 'STRETCH',
       definition: 'To widen a defensive shape by playing wide — forcing the defensive block to become less compact.',
       example: '"By stretching the defensive shape wide, they opened up the half-spaces in the central areas."',
-      imageSlug: '/images/stretch.png',
+      imageSlug: '/images/the-half-space-stretch.png',
     },
     {
       phrase: 'PULL OUT',

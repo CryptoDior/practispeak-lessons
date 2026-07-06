@@ -35,7 +35,7 @@ export const accountBasedMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: "Tailoring content, messaging, or outreach specifically for a person or company — using their name, their industry, their specific situation, or their known challenges. In ABM, personalisation goes beyond using someone's first name. It means the email or ad looks like it was made specifically for them.",
       example: "Marcus reviewed the outreach templates: These emails are not personal enough — they could be sent to anyone. Riley, true personalisation in ABM means referencing something specific to their company — a recent announcement, a challenge specific to their industry, or a result we got for a direct competitor. Riley revised the approach: I will research each account before outreach. If they just expanded into Germany, the email references that. If their sector is under regulatory pressure, the email addresses that directly.",
-      imageSlug: '/images/personalisation.png',
+      imageSlug: '/images/account-based-marketing-personalisation.png',
     },
     {
       word: 'INTENT DATA',
@@ -63,7 +63,7 @@ export const accountBasedMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A document or diagram that shows all the people involved in a purchasing decision at a target account — their job titles, their level of influence, their priorities, and their relationship to each other. A stakeholder map helps you plan who to engage, in what order, and with what message.',
       example: "Dana built the stakeholder map for the enterprise account: There are six people involved in this decision. The CMO is the ultimate decision-maker. The Head of Marketing Operations is the main champion — she is the one who found us. The CFO needs to approve the budget. The IT Director needs to approve the security review. And two marketing managers are the end users who will influence the CMO's opinion. Marcus replied: That is a complex sale. We need a plan for each person — the message for the CMO is not the message for the IT Director.",
-      imageSlug: '/images/stakeholder-map.png',
+      imageSlug: '/images/account-based-marketing-stakeholder-map.png',
     },
   ],
 

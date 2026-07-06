@@ -14,7 +14,7 @@ export const ourCustomers: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person who buys something from a company.',
       example: 'Our typical customer is a small business owner who wants to grow online.',
-      imageSlug: '/images/customer.png',
+      imageSlug: '/images/our-customers-customer.png',
     },
     {
       word: 'CLIENT',
@@ -35,21 +35,21 @@ export const ourCustomers: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The group of people a company wants to talk to.',
       example: 'Our audience is small business owners between 25 and 45 years old.',
-      imageSlug: '/images/audience.png',
+      imageSlug: '/images/our-customers-audience.png',
     },
     {
       word: 'SEGMENT',
       partOfSpeech: 'noun',
       definition: 'A smaller group inside a bigger group of customers.',
       example: 'One segment of our audience is marketing managers in tech companies.',
-      imageSlug: '/images/segment.png',
+      imageSlug: '/images/our-customers-segment.png',
     },
     {
       word: 'TARGET',
       partOfSpeech: 'noun',
       definition: 'The person or group you want to reach with your marketing.',
       example: 'Our target for this campaign is new businesses that are just starting out.',
-      imageSlug: '/images/target.png',
+      imageSlug: '/images/our-customers-target.png',
     },
     {
       word: 'GROUP',
@@ -63,7 +63,7 @@ export const ourCustomers: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Something a person wants or has to have.',
       example: "We learn about our customers' needs before we make a campaign.",
-      imageSlug: '/images/need.png',
+      imageSlug: '/images/our-customers-need.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const ourCustomers: Lesson = {
       phrase: 'TARGET AUDIENCE',
       definition: 'The group of people you want to reach with your marketing.',
       example: 'Our target audience is marketing managers at small and medium-sized companies.',
-      imageSlug: '/images/target-audience.png',
+      imageSlug: '/images/our-customers-target-audience.png',
     },
     {
       phrase: 'MADE UP OF',

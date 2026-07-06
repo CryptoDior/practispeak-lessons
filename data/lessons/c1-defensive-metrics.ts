@@ -33,7 +33,7 @@ export const c1DefensiveMetrics: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'A challenge where a player tries to take the ball from an opponent by physical contact. A successful tackle wins the ball back.',
       example: '"He made 7 tackles in the match — every single one was successful."',
-      imageSlug: '/images/tackle.png',
+      imageSlug: '/images/c1-defensive-metrics-tackle.png',
     },
     {
       word: 'INTERCEPTION',
@@ -47,7 +47,7 @@ export const c1DefensiveMetrics: Lesson = {
       partOfSpeech: 'noun',
       definition: 'When a defender kicks or heads the ball away from danger — usually out of the penalty area or defensive zone.',
       example: '"The centre-back made a crucial clearance off the line to keep the score at 1-0."',
-      imageSlug: '/images/clearance.png',
+      imageSlug: '/images/c1-defensive-metrics-clearance.png',
     },
     {
       word: 'PRESSURE',
@@ -61,7 +61,7 @@ export const c1DefensiveMetrics: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'When a player puts their body in the way of a shot or cross to stop it reaching the goal.',
       example: '"He blocked four shots in the penalty area — the goalkeeper barely needed to touch the ball."',
-      imageSlug: '/images/block.png',
+      imageSlug: '/images/c1-defensive-metrics-block.png',
     },
     {
       word: 'xGA (EXPECTED GOALS AGAINST)',
@@ -75,7 +75,7 @@ export const c1DefensiveMetrics: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The line formed by the back four (or three) defenders across the pitch. The defensive line can be high (aggressive) or deep (cautious).',
       example: '"Their defensive line was very high — that\'s why the striker got in behind twice."',
-      imageSlug: '/images/defensive-line.png',
+      imageSlug: '/images/c1-defensive-metrics-defensive-line.png',
     },
     {
       word: 'AERIAL DUEL',
@@ -91,25 +91,25 @@ export const c1DefensiveMetrics: Lesson = {
       phrase: 'HOLD OFF',
       definition: 'To keep an opponent at a distance — to stop them from getting closer to the ball or the goal.',
       example: '"He held off the striker well and forced him wide, away from goal."',
-      imageSlug: '/images/hold-off.png',
+      imageSlug: '/images/c1-defensive-metrics-hold-off.png',
     },
     {
       phrase: 'TRACK BACK',
       definition: 'To run back towards your own goal to defend — especially when an attacking player follows the opponent after losing the ball.',
       example: '"The winger tracked back brilliantly — she covered 11km in total, the most on the pitch."',
-      imageSlug: '/images/track-back.png',
+      imageSlug: '/images/c1-defensive-metrics-track-back.png',
     },
     {
       phrase: 'CUT OUT',
       definition: 'To intercept a pass or cross before it reaches the intended player.',
       example: '"The centre-back cut out three dangerous crosses in the second half."',
-      imageSlug: '/images/cut-out.png',
+      imageSlug: '/images/c1-defensive-metrics-cut-out.png',
     },
     {
       phrase: 'STEP UP',
       definition: 'For the defensive line to move forward as a unit — to keep the opponent offside or to press higher.',
       example: '"They stepped up together and caught the striker offside four times in the first half."',
-      imageSlug: '/images/step-up.png',
+      imageSlug: '/images/c1-defensive-metrics-step-up.png',
     },
     {
       phrase: 'FILL IN',
@@ -121,7 +121,7 @@ export const c1DefensiveMetrics: Lesson = {
       phrase: 'CLOSE DOWN',
       definition: 'To run towards an opponent to apply pressure and reduce the time they have on the ball.',
       example: '"They closed down every player as soon as they received the ball — the press was relentless."',
-      imageSlug: '/images/close-down.png',
+      imageSlug: '/images/c1-defensive-metrics-close-down.png',
     },
   ],
 
