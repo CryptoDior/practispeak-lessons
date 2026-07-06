@@ -21,7 +21,7 @@ export const askingNeedsBasedQuestions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A point in a process that slows everything else down — where work gets stuck or piles up.',
       example: 'The bottleneck in their pipeline was the approval process — deals were getting stuck there for weeks before anyone followed up.',
-      imageSlug: '/images/bottleneck.png',
+      imageSlug: '/images/asking-needs-based-questions-bottleneck.png',
     },
     {
       word: 'PRIORITY',
