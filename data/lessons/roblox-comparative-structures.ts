@@ -8,6 +8,29 @@ export const robloxComparativeStructures: Lesson = {
   description: "Basic comparatives ('bigger', 'faster') are A2. At B1-B2, you need the full toolkit — 'not as difficult as', 'far more impressive than', 'twice as long', 'the harder you push, the faster you progress'. This lesson drills the structures that make your English sound precise, not just correct.",
   heroImage: '/images/roblox-comparative-structures-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Comparative Structures — comparing two things',
+    description: "Comparative structures let you compare two things. The most basic pattern is AS + adjective + AS (equal) or MORE + adjective + THAN (different). This lesson also teaches stronger patterns like FAR MORE, EVEN MORE, and NOWHERE NEAR AS — these add extra force to the comparison.",
+    positivePattern: 'AS + adjective + AS (equal) / MORE + adjective + THAN (different)',
+    positiveExample: '"This map is as large as the old one."',
+    negativePattern: 'Do NOT mix up AS...AS and THAN',
+    negativeExample: '"This map is as large than the old one." ✗',
+    positiveLabel: 'CORRECT — right comparison structure',
+    negativeLabel: 'WRONG — mixed-up structure',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"This server is as fast as the old one."', note: 'AS...AS = equal comparison' },
+      { sentence: '"The new map is far more complex than the last."', note: 'FAR MORE...THAN = much bigger difference' },
+      { sentence: '"She is twice as skilled as the average player."', note: 'TWICE AS...AS = double the amount' },
+      { sentence: '"The more you practise, the more you improve."', note: 'THE MORE...THE MORE = both things increase together' },
+    ],
+    negativeExamples: [
+      { sentence: '"This server is as fast than the old one." ✗', note: 'AS...AS needs AS at the end, not THAN' },
+      { sentence: '"The new map is far more complex as the last." ✗', note: 'MORE...THAN needs THAN, not AS' },
+      { sentence: '"She is more skilled that the average player." ✗', note: 'use THAN, not THAT, in comparisons' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'AS...AS',

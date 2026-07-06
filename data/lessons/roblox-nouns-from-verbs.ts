@@ -8,6 +8,29 @@ export const robloxNounsFromVerbs: Lesson = {
   description: "You already know the verbs — create, achieve, explore. This lesson shows you how to build the noun forms that Roblox content creators, reviewers, and tournament commentators use constantly. Mastering word families means you can adapt to any sentence structure the moment you need it.",
   heroImage: '/images/roblox-nouns-from-verbs-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Nouns from Verbs — add a suffix',
+    description: "In English, you can turn a verb into a noun by adding a suffix — a small ending. The most common suffixes are -ION, -TION, and -ATION. For example: create → creation, compete → competition. This is called nominalisation. It lets you talk about the activity as a thing, not an action.",
+    positivePattern: 'VERB + suffix (-ion / -tion / -ation) = NOUN',
+    positiveExample: '"create" → "creation"',
+    negativePattern: 'Do NOT use the verb where a noun is needed',
+    negativeExample: '"The compete was intense." ✗',
+    positiveLabel: 'CORRECT — use the noun form',
+    negativeLabel: 'WRONG — do not use the verb as a noun',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"The creation of the map took three weeks."', note: 'create → creation (-tion suffix)' },
+      { sentence: '"The competition between guilds was fierce."', note: 'compete → competition (-tion suffix)' },
+      { sentence: '"His progression through the ranks was fast."', note: 'progress → progression (-ion suffix)' },
+      { sentence: '"Communication is key in team games."', note: 'communicate → communication (-tion suffix)' },
+    ],
+    negativeExamples: [
+      { sentence: '"The compete was intense." ✗', note: 'compete is a verb — use the noun: competition' },
+      { sentence: '"His progress ion was fast." ✗', note: 'progression is one word — do not split the suffix' },
+      { sentence: '"The explore took three days." ✗', note: 'explore is a verb — use the noun: exploration' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'CREATION',

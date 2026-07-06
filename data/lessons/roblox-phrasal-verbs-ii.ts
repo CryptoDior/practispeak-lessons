@@ -8,6 +8,29 @@ export const robloxPhrasalVerbsII: Lesson = {
   description: "This is your second set of high-frequency phrasal verbs — all used constantly in both Roblox and everyday English. You already know the basics from Phrasal Verbs I. Now you will expand your range with verbs that help you talk about challenges, preparation, problem-solving, and connecting with others.",
   heroImage: '/images/roblox-phrasal-verbs-ii-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Separable vs inseparable phrasal verbs',
+    description: "Some phrasal verbs are SEPARABLE — you can put an object between the verb and the particle. Others are INSEPARABLE — the verb and particle must stay together. For example: SET UP your team (separable — object can go in the middle) vs HANG OUT with friends (inseparable — stays together).",
+    positivePattern: 'Separable: verb + object + particle OR verb + particle + object',
+    positiveExample: '"Set your team up." / "Set up your team."',
+    negativePattern: 'Inseparable: verb + particle must stay together',
+    negativeExample: '"Hang your friends out." ✗',
+    positiveLabel: 'SEPARABLE — object can go in the middle',
+    negativeLabel: 'INSEPARABLE — never split the phrase',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"Set up your base before the match starts."', note: 'set up = separable — object after particle' },
+      { sentence: '"Back up your progress regularly."', note: 'back up = separable — object after particle' },
+      { sentence: '"Check out the new update when it drops."', note: 'check out = separable — object after particle' },
+      { sentence: '"They hung out in the lobby after the match."', note: 'hang out = inseparable — stays together' },
+    ],
+    negativeExamples: [
+      { sentence: '"Back your progress up before you quit." ✗', note: 'when using a pronoun, it must go in the middle: back IT up' },
+      { sentence: '"They hung their friends out." ✗', note: 'hang out is inseparable — you cannot split it' },
+      { sentence: '"Give your challenge up." ✗', note: 'with a pronoun, say: give it up — object goes in the middle' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'POWER UP',
