@@ -8,6 +8,29 @@ export const robloxConjunctionsLinkingWords: Lesson = {
   description: "A sentence is just a fact. Two connected sentences are an argument. Conjunctions and linking words let you explain why, contrast ideas, show results, and structure thinking in a way that sounds educated and precise. Roblox strategy, guild debates, and post-match analysis all use these words constantly.",
   heroImage: '/images/roblox-conjunctions-linking-words-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Conjunctions connect two ideas',
+    description: "A conjunction is a word that connects two sentences or ideas. Different conjunctions show different relationships. BECAUSE shows reason. ALTHOUGH and EVEN THOUGH show contrast. THEREFORE and AS A RESULT show consequence. Choose the right one to show how the ideas are connected.",
+    positivePattern: 'Idea 1 + CONJUNCTION + idea 2',
+    positiveExample: '"He lost BECAUSE he played carelessly."',
+    negativePattern: 'Do NOT use BECAUSE and THEREFORE in the same sentence',
+    negativeExample: '"Because he played badly, therefore he lost." ✗',
+    positiveLabel: 'CORRECT — one conjunction per connection',
+    negativeLabel: 'WRONG — do not double up conjunctions',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"He lost because he played carelessly."', note: 'because = reason — why did it happen?' },
+      { sentence: '"Although she was new, she won the match."', note: 'although = contrast — surprising result' },
+      { sentence: '"The server crashed. As a result, everyone lost progress."', note: 'as a result = consequence — what happened next' },
+      { sentence: '"He wants to win. However, he never practises."', note: 'however = contrast — unexpected opposite' },
+    ],
+    negativeExamples: [
+      { sentence: '"Because he played badly, therefore he lost." ✗', note: 'pick one — either because OR therefore, not both' },
+      { sentence: '"Although she trained hard, but she lost." ✗', note: 'although and but both show contrast — use only one' },
+      { sentence: '"He lost. Because he was careless." ✗', note: 'because cannot start a standalone sentence — connect it to the main clause' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'BECAUSE',

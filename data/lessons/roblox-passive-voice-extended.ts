@@ -8,6 +8,29 @@ export const robloxPassiveVoiceExtended: Lesson = {
   description: "You already know basic passive voice — 'the game was updated', 'the player was banned'. At B2, you need the extended passive: impersonal structures like 'it is believed that', 'it is reported that', and 'it is said to be'. These are used everywhere in journalism, official communications, and professional writing — and they are essential for discussing things without assigning personal blame or opinion.",
   heroImage: '/images/roblox-passive-voice-extended-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Passive Voice — IS/WAS + past participle',
+    description: "In active voice, the subject DOES the action. In passive voice, the subject RECEIVES the action. Use passive voice when the action is more important than who did it. The formula is: IS/ARE/WAS/WERE + past participle. You can add BY + person if needed.",
+    positivePattern: 'Subject + IS/WAS + past participle (+ by ...)',
+    positiveExample: '"The player was banned by the moderator."',
+    negativePattern: 'Do NOT forget IS/WAS before the past participle',
+    negativeExample: '"The player banned by the moderator." ✗',
+    positiveLabel: 'CORRECT — IS/WAS + past participle',
+    negativeLabel: 'WRONG — missing IS/WAS',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"The cheater was reported by three players."', note: 'was + reported (past participle)' },
+      { sentence: '"The server is believed to have crashed."', note: 'is + believed (past participle)' },
+      { sentence: '"The winner is expected to receive 500 coins."', note: 'is + expected (past participle)' },
+      { sentence: '"The new item is known as the rarest drop in the game."', note: 'is + known (past participle)' },
+    ],
+    negativeExamples: [
+      { sentence: '"The cheater reported by three players." ✗', note: 'missing was — use: was reported' },
+      { sentence: '"The server believed to have crashed." ✗', note: 'missing is — use: is believed' },
+      { sentence: '"The winner expected to receive 500 coins." ✗', note: 'missing is — use: is expected' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'REPORTED',

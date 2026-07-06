@@ -8,6 +8,29 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
   description: "In English, adjectives come with fixed prepositions — you are good AT something, not good IN it. You are interested IN something, not interested ABOUT it. These patterns do not follow logic — you simply have to learn them. This lesson covers the eight most common ones you will use in Roblox and in real life.",
   heroImage: '/images/roblox-adjective-preposition-patterns-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Adjective + Preposition — fixed pairs',
+    description: "Some adjectives always go with a specific preposition. These are fixed pairs — you cannot swap the preposition for a different one. For example: GOOD AT (not GOOD IN), INTERESTED IN (not INTERESTED AT). You have to memorise these pairs because there is no rule that tells you which preposition to use.",
+    positivePattern: 'ADJECTIVE + fixed preposition + noun / -ing verb',
+    positiveExample: '"She is good AT building."',
+    negativePattern: 'Do NOT swap the preposition for a different one',
+    negativeExample: '"She is good in building." ✗',
+    positiveLabel: 'CORRECT — right adjective + preposition pair',
+    negativeLabel: 'WRONG — wrong preposition',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"He is good at building fast structures."', note: 'GOOD AT — always AT, never IN or FOR' },
+      { sentence: '"She is interested in competitive guilds."', note: 'INTERESTED IN — always IN' },
+      { sentence: '"They are excited about the new update."', note: 'EXCITED ABOUT — always ABOUT' },
+      { sentence: '"He is proud of his rank in the server."', note: 'PROUD OF — always OF' },
+    ],
+    negativeExamples: [
+      { sentence: '"He is good in building." ✗', note: 'good goes with AT, not IN' },
+      { sentence: '"She is interested about guilds." ✗', note: 'interested goes with IN, not ABOUT' },
+      { sentence: '"They are excited for the update." ✗', note: 'excited goes with ABOUT, not FOR' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'GOOD AT',
