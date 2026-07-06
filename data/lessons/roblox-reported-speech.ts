@@ -8,6 +8,29 @@ export const robloxReportedSpeech: Lesson = {
   description: "Roblox drama, strategy briefings, and guild disputes all get retold using reported speech. At B1 level, mastering SAY vs TELL, WARN vs CLAIM, and tense backshift turns a vague 'someone said something' into a clear and accurate account of exactly what happened.",
   heroImage: '/images/roblox-reported-speech-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Reported Speech — one tense back',
+    description: "Reported speech is when you tell someone WHAT another person said. You do not use their exact words. Instead, you move the verb one tense back into the past. This is called the tense shift. For example: Direct: \"I will win.\" Reported: He said he WOULD win.",
+    positivePattern: 'Direct speech → Reported speech (tense shift)',
+    positiveExample: '"\"I am winning.\" → He said he WAS winning.',
+    negativePattern: 'Do NOT keep the original tense in reported speech',
+    negativeExample: '"He said he am winning." ✗',
+    positiveLabel: 'CORRECT — tense shifts one step back',
+    negativeLabel: 'WRONG — do not keep the original tense',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"He said he would win the tournament."', note: 'will → would (one tense back)' },
+      { sentence: '"She told me she was farming the east zone."', note: 'is → was (one tense back)' },
+      { sentence: '"They claimed they had beaten the boss."', note: 'have beaten → had beaten (one tense back)' },
+      { sentence: '"He warned me that the server was going to reset."', note: 'is going to → was going to' },
+    ],
+    negativeExamples: [
+      { sentence: '"He said he will win the tournament." ✗', note: 'will stays as will — shift it back to would' },
+      { sentence: '"She told me she is farming the zone." ✗', note: 'is stays as is — shift it back to was' },
+      { sentence: '"They claimed they have beaten the boss." ✗', note: 'have beaten stays — shift it back to had beaten' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'SAY',
