@@ -8,6 +8,29 @@ export const robloxModalVerbsRules: Lesson = {
   description: "You already know CAN, MUST, and SHOULD. At B1-B2 it is time to go further. This lesson covers the modal structures that appear in real server terms, official guidelines, and formal rules — OUGHT TO, HAD BETTER, NEED NOT, BE SUPPOSED TO, BE PERMITTED TO, BE REQUIRED TO, MAY, and BE PROHIBITED FROM.",
   heroImage: '/images/roblox-modal-verbs-rules-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Modal verbs — they come BEFORE the main verb',
+    description: "Modal verbs are helper verbs. They tell you about permission, obligation, or advice — not facts. The key rule: a modal verb ALWAYS comes before the main verb. The main verb stays in its BASE form (no -s, no -ed, no -ing).",
+    positivePattern: 'Subject + MODAL VERB + base verb',
+    positiveExample: '"You ought to report that player."',
+    negativePattern: 'Do NOT change the verb after a modal',
+    negativeExample: '"You ought to reported that player." ✗',
+    positiveLabel: 'CORRECT — modal + base verb',
+    negativeLabel: 'WRONG — do not conjugate after a modal',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"You ought to report that player."', note: 'ought to + report (base verb)' },
+      { sentence: '"You had better log out before the reset."', note: 'had better + log (base verb)' },
+      { sentence: '"You need not complete every side quest."', note: 'need not + complete (base verb)' },
+      { sentence: '"Players may access the moderator tools."', note: 'may + access (base verb)' },
+    ],
+    negativeExamples: [
+      { sentence: '"You ought to reported that player." ✗', note: 'reported is past tense — use the base verb: report' },
+      { sentence: '"You had better logging out." ✗', note: 'logging is -ing form — use the base verb: log' },
+      { sentence: '"Players may accessed the tools." ✗', note: 'accessed is past tense — use the base verb: access' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'OUGHT TO',

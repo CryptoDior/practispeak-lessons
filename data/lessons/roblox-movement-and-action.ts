@@ -8,6 +8,29 @@ export const robloxMovementAndAction: Lesson = {
   description: "Forget 'run' and 'jump' — at B1 level, English gets precise! Learn the exact verbs players use to describe movement and action: DODGE, SPRINT, COLLIDE, LUNGE and more. Then discover how these same words bring real-life descriptions to life.",
   heroImage: '/images/roblox-movement-and-action-hero.png',
 
+  grammarFocus: {
+    focusTitle: 'Focus: Action verbs — use them in the simple present or past',
+    description: "Action verbs describe things you DO — physical movements like dodge, sprint, leap, and charge. In English, use the simple present for things that happen regularly, and the simple past for things that already happened. Action verbs do NOT need a helper verb like IS or ARE.",
+    positivePattern: 'Subject + ACTION VERB (+ object / direction)',
+    positiveExample: '"He dodged the attack."',
+    negativePattern: 'Do NOT add IS/ARE before an action verb',
+    negativeExample: '"He is dodge the attack." ✗',
+    positiveLabel: 'CORRECT — subject + verb',
+    negativeLabel: 'WRONG — do not add IS/ARE',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"She sprints across the map every round."', note: 'simple present — happens regularly' },
+      { sentence: '"He leaped over the barrier."', note: 'simple past — already happened' },
+      { sentence: '"They charged at the enemy base."', note: 'simple past — one completed action' },
+      { sentence: '"I dodge whenever someone shoots at me."', note: 'simple present — a regular habit' },
+    ],
+    negativeExamples: [
+      { sentence: '"She is sprint across the map." ✗', note: 'sprint is the base verb — say: she sprints or she is sprinting' },
+      { sentence: '"He is leap over the barrier." ✗', note: 'leap is the base verb — say: he leaped or he is leaping' },
+      { sentence: '"They are charge at the base." ✗', note: 'charge is the base verb — say: they charged or they are charging' },
+    ],
+  },
+
   vocabulary: [
     {
       word: 'DODGE',
