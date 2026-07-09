@@ -1,3 +1,6 @@
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
 import { lessons } from '@/data/lessons';
 import { Lesson } from '@/types/lesson';
@@ -154,7 +157,6 @@ const SERIES: SeriesConfig[] = [
 ];
 
 const LEVEL_ORDER = ['A1', 'A1-A2', 'A2', 'B1', 'B2', 'B1-B2', 'C1', 'C2', 'C1-C2'] as const;
-type KnownLevel = (typeof LEVEL_ORDER)[number];
 
 function levelSlug(level: string) {
   return level.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
@@ -218,6 +220,8 @@ function LessonCard({ lesson }: { lesson: Lesson }) {
 }
 
 export default function Home() {
+  const [activeSeries, setActiveSeries] = useState<string | null>(null);
+
   const assigned = new Set<string>();
   const grouped = SERIES.map((series) => {
     const sl = lessons.filter((l) => !assigned.has(l.slug) && series.match(l));
@@ -226,19 +230,7 @@ export default function Home() {
     return { ...series, lessons: sl, byLevel };
   }).filter((g) => g.lessons.length > 0);
 
-  // Flat nav items — one pill per series+level combination
-  const navItems = grouped.flatMap((series) =>
-    series.byLevel.map(({ level, lessons: ls }) => ({
-      emoji: series.emoji,
-      label: series.byLevel.length === 1
-        ? series.name
-        : `${series.shortName} ${level}`,
-      count: ls.length,
-      href: series.byLevel.length === 1
-        ? `#${series.id}`
-        : `#${series.id}-${levelSlug(level)}`,
-    }))
-  );
+  const activeGroup = grouped.find((g) => g.id === activeSeries) ?? null;
 
   return (
     <div className="min-h-screen bg-[#F0F4FF]">
@@ -267,26 +259,58 @@ export default function Home() {
       </div>
 
       <main className="max-w-6xl mx-auto px-4 py-12">
-        {/* Flat nav: one pill per series+level */}
-        <div className="flex flex-wrap gap-2 mb-12">
-          {navItems.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="flex items-center gap-1.5 px-4 py-2 bg-white border border-blue-100 rounded-full shadow-sm text-sm font-extrabold text-gray-700 hover:bg-[#066EF5] hover:text-white hover:border-[#066EF5] transition-all duration-150"
-            >
-              <span>{item.emoji}</span>
-              <span>{item.label}</span>
-              <span className="ml-1 text-xs font-semibold opacity-50">{item.count}</span>
-            </a>
-          ))}
+
+        {/* Tier 1: broad series pills */}
+        <div className="flex flex-wrap gap-2 mb-3">
+          {grouped.map((g) => {
+            const isActive = activeSeries === g.id;
+            return (
+              <button
+                key={g.id}
+                onClick={() => setActiveSeries(isActive ? null : g.id)}
+                className={`flex items-center gap-1.5 px-4 py-2 border rounded-full shadow-sm text-sm font-extrabold transition-all duration-150 ${
+                  isActive
+                    ? 'bg-[#066EF5] text-white border-[#066EF5]'
+                    : 'bg-white text-gray-700 border-blue-100 hover:bg-[#066EF5] hover:text-white hover:border-[#066EF5]'
+                }`}
+              >
+                <span>{g.emoji}</span>
+                <span>{g.name}</span>
+                <span className="ml-1 text-xs font-semibold opacity-60">{g.lessons.length}</span>
+                <span className="ml-0.5 text-xs opacity-60">{isActive ? '▲' : '▼'}</span>
+              </button>
+            );
+          })}
         </div>
 
+        {/* Tier 2: level sub-pills (shown when a series is active) */}
+        {activeGroup && (
+          <div className="flex flex-wrap gap-2 mb-10 pl-2 pt-2 border-l-2 border-[#066EF5] ml-1">
+            {activeGroup.byLevel.map(({ level, lessons: ls }) => {
+              const anchor = activeGroup.byLevel.length === 1
+                ? `#${activeGroup.id}`
+                : `#${activeGroup.id}-${levelSlug(level)}`;
+              return (
+                <a
+                  key={level}
+                  href={anchor}
+                  className="flex items-center gap-1.5 px-4 py-1.5 bg-blue-50 border border-blue-200 rounded-full text-sm font-extrabold text-[#066EF5] hover:bg-[#066EF5] hover:text-white hover:border-[#066EF5] transition-all duration-150"
+                >
+                  <span>{level}</span>
+                  <span className="text-xs font-semibold opacity-60">{ls.length}</span>
+                </a>
+              );
+            })}
+          </div>
+        )}
+
+        {!activeGroup && <div className="mb-10" />}
+
+        {/* Lesson sections */}
         {grouped.map((series) => {
           const isMultiLevel = series.byLevel.length > 1;
           return (
             <section key={series.id} id={series.id} className="mb-20 scroll-mt-8">
-              {/* Series header */}
               <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
                 <div>
                   <h2 className="text-2xl font-extrabold text-gray-900 flex items-center gap-2">
@@ -300,35 +324,30 @@ export default function Home() {
                 </span>
               </div>
 
-              {series.byLevel.map(({ level, lessons: lvLessons }) => {
-                const anchorId = isMultiLevel
-                  ? `${series.id}-${levelSlug(level)}`
-                  : series.id;
-                return (
-                  <div
-                    key={level}
-                    id={isMultiLevel ? anchorId : undefined}
-                    className="mb-10 scroll-mt-20"
-                  >
-                    {isMultiLevel && (
-                      <div className="flex items-center gap-3 mb-5">
-                        <span className="text-xs font-extrabold text-[#066EF5] bg-blue-50 border border-blue-100 px-3 py-1 rounded-full uppercase tracking-wide">
-                          {series.shortName} {level}
-                        </span>
-                        <div className="flex-1 h-px bg-blue-100" />
-                        <span className="text-xs text-gray-400 font-semibold">
-                          {lvLessons.length} lesson{lvLessons.length !== 1 ? 's' : ''}
-                        </span>
-                      </div>
-                    )}
-                    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                      {lvLessons.map((lesson) => (
-                        <LessonCard key={lesson.slug} lesson={lesson} />
-                      ))}
+              {series.byLevel.map(({ level, lessons: lvLessons }) => (
+                <div
+                  key={level}
+                  id={isMultiLevel ? `${series.id}-${levelSlug(level)}` : undefined}
+                  className="mb-10 scroll-mt-20"
+                >
+                  {isMultiLevel && (
+                    <div className="flex items-center gap-3 mb-5">
+                      <span className="text-xs font-extrabold text-[#066EF5] bg-blue-50 border border-blue-100 px-3 py-1 rounded-full uppercase tracking-wide">
+                        {series.shortName} {level}
+                      </span>
+                      <div className="flex-1 h-px bg-blue-100" />
+                      <span className="text-xs text-gray-400 font-semibold">
+                        {lvLessons.length} lesson{lvLessons.length !== 1 ? 's' : ''}
+                      </span>
                     </div>
+                  )}
+                  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    {lvLessons.map((lesson) => (
+                      <LessonCard key={lesson.slug} lesson={lesson} />
+                    ))}
                   </div>
-                );
-              })}
+                </div>
+              ))}
             </section>
           );
         })}
