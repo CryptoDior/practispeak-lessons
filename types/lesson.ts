@@ -313,4 +313,6 @@ export interface Lesson {
   groupActivities?: GroupActivities;
   /** Optional deal clinic section (C1-C2 only). */
   dealClinic?: DealClinic;
+  /** Optional 16:9 diagram image shown in a dedicated "Positions" tab before Vocabulary. */
+  positionsImage?: string;
 }

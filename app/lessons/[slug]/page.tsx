@@ -47,10 +47,16 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   );
   const withWarmUp = lesson.warmUp ? ['Warm Up', ...baseTabs] : baseTabs;
   const wo = lesson.warmUp ? 1 : 0;
+  // Insert 'Positions' tab right before 'Vocabulary'
+  const hasPositions = !!lesson.positionsImage;
+  const pos = hasPositions ? 1 : 0;
+  const withPositions: string[] = hasPositions
+    ? (() => { const vi = withWarmUp.indexOf('Vocabulary'); return [...withWarmUp.slice(0, vi), 'Positions', ...withWarmUp.slice(vi)]; })()
+    : [...withWarmUp];
   const irl = lesson.irlVocabulary ? 2 : 0;
   const withIrlVocab: string[] = lesson.irlVocabulary
-    ? (() => { const vi = withWarmUp.indexOf('Vocabulary'); return [...withWarmUp.slice(0, vi + 1), 'IRL Vocab', 'Compare', ...withWarmUp.slice(vi + 1)]; })()
-    : [...withWarmUp];
+    ? (() => { const vi = withPositions.indexOf('Vocabulary'); return [...withPositions.slice(0, vi + 1), 'IRL Vocab', 'Compare', ...withPositions.slice(vi + 1)]; })()
+    : [...withPositions];
 
   const hasGrammarFocus = !!lesson.grammarFocus;
   const gf = hasGrammarFocus ? 1 : 0;
@@ -229,8 +235,19 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           </section>
         )}
 
+        {/* Positions */}
+        {lesson.positionsImage && (
+          <section className={activeTab === TABS.indexOf('Positions') ? 'block' : 'hidden'}>
+            <SectionHeader title="Positions" subtitle="See where every player lines up on the pitch" />
+            <div className="w-full rounded-[20px] overflow-hidden shadow-[0_2px_16px_rgba(6,110,245,0.07)]" style={{ aspectRatio: '16/9' }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={lesson.positionsImage} alt="Football positions diagram" className="w-full h-full object-cover" />
+            </div>
+          </section>
+        )}
+
         {/* Vocabulary */}
-        <section className={activeTab === wo ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos ? 'block' : 'hidden'}>
           <SectionHeader
             title={lesson.irlVocabulary ? 'In Game Vocab' : 'Vocabulary'}
             subtitle={lesson.irlVocabulary ? `${lesson.vocabulary.length} words — what they mean inside the game` : `${lesson.vocabulary.length} key words for this lesson`}
@@ -243,7 +260,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
 
         {/* IRL Vocab */}
         {lesson.irlVocabulary && (
-          <section className={activeTab === wo + gf + 1 ? 'block' : 'hidden'}>
+          <section className={activeTab === wo + pos + gf + 1 ? 'block' : 'hidden'}>
             <SectionHeader
               title="IRL Vocab"
               subtitle={`${lesson.irlVocabulary.length} words — what they mean in real life`}
@@ -256,7 +273,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
 
         {/* Compare */}
         {lesson.irlVocabulary && (
-          <section className={activeTab === wo + gf + 2 ? 'block' : 'hidden'}>
+          <section className={activeTab === wo + pos + gf + 2 ? 'block' : 'hidden'}>
             <CompareTab vocabulary={lesson.vocabulary} irlVocabulary={lesson.irlVocabulary} />
           </section>
         )}
@@ -271,10 +288,10 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         )}
 
         {/* Phrases */}
-        <section className={activeTab === wo + irl + gf + 1 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + gf + 1 ? 'block' : 'hidden'}>
           <SectionHeader
-            title={TABS[wo + irl + gf + 1]}
-            subtitle={`${lesson.phrasalVerbs.length} ${TABS[wo + irl + gf + 1].toLowerCase()} and their meanings`}
+            title={TABS[wo + pos + irl + gf + 1]}
+            subtitle={`${lesson.phrasalVerbs.length} ${TABS[wo + pos + irl + gf + 1].toLowerCase()} and their meanings`}
           />
           <div className="flex flex-col gap-6">
             {lesson.phrasalVerbs.map((verb, i) => <PhrasalVerbCard key={verb.phrase} verb={verb} index={i} />)}
@@ -283,7 +300,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
 
         {/* In Action — 3 scenario cards, each covering 2 phrasal verbs */}
         {hasPhrasalDetails && (
-          <section className={activeTab === wo + irl + gf + 2 ? 'block' : 'hidden'}>
+          <section className={activeTab === wo + pos + irl + gf + 2 ? 'block' : 'hidden'}>
             <SectionHeader title="In Action" subtitle="Hear how these phrases sound in real B2B situations" subtitleClass="text-gray-700 font-semibold" />
             <div className="flex flex-col gap-6">
               {[0, 1, 2].map((cardIdx) => {
@@ -336,7 +353,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
 
         {/* Register */}
         {hasPhrasalDetails && (
-          <section className={activeTab === wo + irl + gf + 3 ? 'block' : 'hidden'}>
+          <section className={activeTab === wo + pos + irl + gf + 3 ? 'block' : 'hidden'}>
             <SectionHeader title="Register" subtitle="Understand when and how to use each phrase — formal, neutral, or informal" subtitleClass="text-gray-600 font-semibold" />
             {/* Visual Examples */}
             {lesson.phrasalVerbs.some(v => v.visualExamples?.length) && (
@@ -396,10 +413,10 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         )}
 
         {/* Videos / Register (vocab awareness) */}
-        <section className={activeTab === wo + irl + po + otp + gf + 2 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + 2 ? 'block' : 'hidden'}>
           {lesson.registerAwareness ? (
             <>
-              <SectionHeader title={TABS[wo + irl + po + otp + gf + 2]} subtitle="How these words change across different contexts" />
+              <SectionHeader title={TABS[wo + pos + irl + po + otp + gf + 2]} subtitle="How these words change across different contexts" />
               <RegisterSection entries={lesson.registerAwareness} traps={lesson.registerTraps} />
             </>
           ) : (
@@ -413,10 +430,10 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         </section>
 
         {/* Dialogue / Reading Passage */}
-        <section className={activeTab === wo + irl + po + otp + gf + 3 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + 3 ? 'block' : 'hidden'}>
           {lesson.readingPassage ? (
             <>
-              <SectionHeader title={TABS[wo + irl + po + otp + gf + 3]} subtitle="Read the passage — highlighted words are from this lesson" />
+              <SectionHeader title={TABS[wo + pos + irl + po + otp + gf + 3]} subtitle="Read the passage — highlighted words are from this lesson" />
               <ReadingPassageSection passage={lesson.readingPassage} prompts={lesson.productionPrompts} />
             </>
           ) : (
@@ -430,7 +447,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         </section>
 
         {/* Exercises */}
-        <section className={activeTab === wo + irl + po + otp + gf + 4 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + 4 ? 'block' : 'hidden'}>
           <SectionHeader title="Exercises" subtitle="Complete all three exercises to see your final score" />
           <div className="space-y-6">
             {lesson.pitchCorner && (
