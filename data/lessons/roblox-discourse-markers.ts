@@ -1,0 +1,413 @@
+import { Lesson } from '@/types/lesson';
+
+export const robloxDiscourseMarkers: Lesson = {
+  slug: 'roblox-discourse-markers',
+  title: "Discourse Markers",
+  subtitle: "The words that hold an argument together — signalling what comes next so your listener always knows where you are.",
+  level: 'B1-B2',
+  description: "Discourse markers are words and phrases that guide your listener through your message. They signal structure: FIRSTLY and SECONDLY tell the listener a list is coming. HOWEVER signals that a contrasting idea follows. FURTHERMORE adds a new point to strengthen your argument. CONSEQUENTLY shows that one thing caused another. IN CONTRAST compares two opposite ideas. TO SUM UP tells the listener you are finishing. Without discourse markers, even a great argument can sound disorganised. With them, your message becomes clear, logical, and easy to follow.",
+  heroImage: '/images/roblox-discourse-markers-hero.png',
+
+  grammarFocus: {
+    focusTitle: 'Focus: Discourse markers by function — adding, contrasting, sequencing, concluding',
+    description: "Group discourse markers by what they do. ADDING: furthermore, in addition, moreover, what is more. CONTRASTING: however, nevertheless, on the other hand, in contrast, that said. SEQUENCING: firstly / to begin with, secondly, finally / to conclude. CAUSE AND RESULT: consequently, as a result, therefore, for this reason. SUMMARISING: to sum up, in brief, overall, to conclude. Using the right marker for the right function makes your argument clear and logical.",
+    positivePattern: 'Discourse marker + comma + [new clause] — or [sentence]. Discourse marker, [continuation]',
+    positiveExample: '"The team\'s coordination improved. Furthermore, individual performance was stronger than last season."',
+    negativePattern: 'Do NOT use the same marker repeatedly — vary them',
+    negativeExample: '"Also, it improved. Also, the results changed. Also, the team agreed." ✗ (repetitive — use furthermore, in addition, what is more)',
+    positiveLabel: 'CORRECT — vary discourse markers to keep the argument flowing naturally',
+    negativeLabel: 'WEAK — using ALSO for every addition becomes repetitive and sounds unsophisticated',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"Firstly, communication improved significantly. Secondly, the team developed a clearer strategy. Finally, individual confidence grew as a result."', note: 'FIRSTLY / SECONDLY / FINALLY — sequence three equal points clearly' },
+      { sentence: '"The plan seemed solid. However, it failed to account for the opponent\'s change of formation."', note: 'HOWEVER — signals a contrast or complication after a positive statement' },
+      { sentence: '"The team practised every day. As a result, their coordination in the final match was noticeably better."', note: 'AS A RESULT — signals a logical consequence of the previous statement' },
+      { sentence: '"Our guild tends to perform well in defence. In contrast, our attacking phase has consistently been the weaker area."', note: 'IN CONTRAST — compares two opposite points clearly and directly' },
+    ],
+    negativeExamples: [
+      { sentence: '"Also, it improved. Also, the results changed. Also, the team agreed." ✗', note: 'Repeating ALSO every time is weak. Use: furthermore, in addition, moreover, what is more — vary it.' },
+      { sentence: '"But however on the other hand..." ✗ (stacking contrast markers)', note: 'Do not stack contrasting markers. Choose ONE: either BUT, or HOWEVER, or ON THE OTHER HAND — not all three together.' },
+    ],
+  },
+
+  vocabulary: [
+    {
+      word: 'FURTHERMORE',
+      partOfSpeech: 'discourse marker',
+      definition: "Also — used to add another point that makes your argument stronger.",
+      example: "The team's strategy was well-planned. Furthermore, every player had clearly studied the opponent's previous matches.",
+      imageSlug: '/images/roblox-discourse-markers-furthermore.png',
+    },
+    {
+      word: 'HOWEVER',
+      partOfSpeech: 'discourse marker',
+      definition: "But — used to introduce a contrasting idea or a complication.",
+      example: "The new formation looked promising. However, it broke down completely when one key player disconnected mid-match.",
+      imageSlug: '/images/roblox-discourse-markers-however.png',
+    },
+    {
+      word: 'CONSEQUENTLY',
+      partOfSpeech: 'discourse marker',
+      definition: "As a result — used to show that something happened because of what was just described.",
+      example: "The team failed to communicate during the final phase. Consequently, two players moved to the wrong position at the critical moment.",
+      imageSlug: '/images/roblox-discourse-markers-consequently.png',
+    },
+    {
+      word: 'IN CONTRAST',
+      partOfSpeech: 'discourse marker',
+      definition: "Used to compare two things that are clearly different from each other.",
+      example: "Our performance in the early rounds was inconsistent. In contrast, the final three matches were some of our best of the season.",
+      imageSlug: '/images/roblox-discourse-markers-in-contrast.png',
+    },
+    {
+      word: 'NEVERTHELESS',
+      partOfSpeech: 'discourse marker',
+      definition: "Despite that — used to introduce a positive point after something negative, or to show that something happened despite a problem.",
+      example: "The team had only trained together for two weeks. Nevertheless, they reached the semi-final of the tournament.",
+      imageSlug: '/images/roblox-discourse-markers-nevertheless.png',
+    },
+    {
+      word: 'IN ADDITION',
+      partOfSpeech: 'discourse marker',
+      definition: "Also — used to add another point, similar to FURTHERMORE.",
+      example: "The captain brought tactical knowledge to the team. In addition, her calm manner under pressure helped everyone focus.",
+      imageSlug: '/images/roblox-discourse-markers-in-addition.png',
+    },
+    {
+      word: 'TO SUM UP',
+      partOfSpeech: 'discourse marker',
+      definition: "To finish — used to give a short summary of the main points at the end of an argument or explanation.",
+      example: "To sum up: the team improved in every measurable area this season, and the foundations for next year are strong.",
+      imageSlug: '/images/roblox-discourse-markers-to-sum-up.png',
+    },
+    {
+      word: 'THEREFORE',
+      partOfSpeech: 'discourse marker',
+      definition: "For this reason — used to introduce a conclusion that follows logically from what was just said.",
+      example: "The opposing team has won their last five matches without dropping a point. Therefore, we cannot afford to make any errors tomorrow.",
+      imageSlug: '/images/roblox-discourse-markers-therefore.png',
+    },
+  ],
+
+  irlVocabulary: [
+    {
+      word: 'FURTHERMORE',
+      partOfSpeech: 'discourse marker',
+      definition: "Also — used to add another point that makes your argument stronger.",
+      example: "The new software reduced processing time by 30%. Furthermore, it eliminated three manual steps that had been causing errors.",
+      imageSlug: '/images/roblox-discourse-markers-furthermore-irl.png',
+    },
+    {
+      word: 'HOWEVER',
+      partOfSpeech: 'discourse marker',
+      definition: "But — used to introduce a contrasting idea or a complication.",
+      example: "The proposal was well-researched. However, the timeline did not account for regulatory approval, which typically takes three months.",
+      imageSlug: '/images/roblox-discourse-markers-however-irl.png',
+    },
+    {
+      word: 'CONSEQUENTLY',
+      partOfSpeech: 'discourse marker',
+      definition: "As a result — used to show that something happened because of what was just described.",
+      example: "The supplier failed to deliver on time. Consequently, the entire production schedule had to be pushed back by two weeks.",
+      imageSlug: '/images/roblox-discourse-markers-consequently-irl.png',
+    },
+    {
+      word: 'IN CONTRAST',
+      partOfSpeech: 'discourse marker',
+      definition: "Used to compare two things that are clearly different from each other.",
+      example: "Last year's campaign focused heavily on paid advertising. In contrast, this year's approach relied almost entirely on organic growth and community engagement.",
+      imageSlug: '/images/roblox-discourse-markers-in-contrast-irl.png',
+    },
+    {
+      word: 'NEVERTHELESS',
+      partOfSpeech: 'discourse marker',
+      definition: "Despite that — used to introduce a positive point after something negative, or to show something happened despite a problem.",
+      example: "The budget was significantly reduced at the start of the year. Nevertheless, the team delivered a campaign that exceeded all awareness targets.",
+      imageSlug: '/images/roblox-discourse-markers-nevertheless-irl.png',
+    },
+    {
+      word: 'IN ADDITION',
+      partOfSpeech: 'discourse marker',
+      definition: "Also — used to add another point, similar to FURTHERMORE.",
+      example: "The new hire brought strong technical skills. In addition, her background in client services was exactly what the team had been missing.",
+      imageSlug: '/images/roblox-discourse-markers-in-addition-irl.png',
+    },
+    {
+      word: 'TO SUM UP',
+      partOfSpeech: 'discourse marker',
+      definition: "To finish — used to give a short summary of the main points at the end of an argument or explanation.",
+      example: "To sum up: we have a strong product, a growing market, and a team that has consistently delivered. The case for investment is clear.",
+      imageSlug: '/images/roblox-discourse-markers-to-sum-up-irl.png',
+    },
+    {
+      word: 'THEREFORE',
+      partOfSpeech: 'discourse marker',
+      definition: "For this reason — used to introduce a conclusion that follows logically from what was just said.",
+      example: "Customer acquisition costs have doubled in the last year. Therefore, we need to focus significantly more resource on retention.",
+      imageSlug: '/images/roblox-discourse-markers-therefore-irl.png',
+    },
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: "MOVE ON TO",
+      definition: "To go from one topic or point to the next — especially in a structured discussion or presentation.",
+      example: "Now that we have discussed the defensive strategy, let's move on to the attacking phase for tomorrow's match.",
+      inGame: "When the post-match debrief starts going in circles, the best thing is to summarise and move on to the next point.",
+      inRealLife: "The chair moved on to the next agenda item after everyone had given their input on the budget question.",
+      imageSlug: '/images/roblox-discourse-markers-move-on-to.png',
+    },
+    {
+      phrase: "FOLLOW ON FROM",
+      definition: "When one thing is a natural continuation or result of something that came before.",
+      example: "Following on from what Mia said about communication, I think the real issue is that we need clearer roles during matches.",
+      inGame: "In a team discussion, following on from someone else's point shows you were listening — it builds better group thinking.",
+      inRealLife: "Following on from the Q3 results, the finance team proposed a revised target for the final quarter.",
+      imageSlug: '/images/roblox-discourse-markers-follow-on-from.png',
+    },
+    {
+      phrase: "COME BACK TO",
+      definition: "To return to a topic that was discussed earlier — often after a detour.",
+      example: "I'll come back to the question of the new formation later — first I want to discuss what went wrong defensively.",
+      inGame: "If a topic comes up that is important but off-track, say you'll come back to it — and actually do.",
+      inRealLife: "She asked the team to park the question for now and said she would come back to it in the second half of the meeting.",
+      imageSlug: '/images/roblox-discourse-markers-come-back-to.png',
+    },
+    {
+      phrase: "BUILD ON",
+      definition: "To use something that already exists as the starting point for something new and stronger.",
+      example: "We can build on the success of last season — the team has the skills, now we need to develop the consistency.",
+      inGame: "Building on a good win means identifying exactly what worked and making sure it becomes a reliable habit.",
+      inRealLife: "The second campaign built on the brand awareness created by the first — it converted interest into actual sign-ups.",
+      imageSlug: '/images/roblox-discourse-markers-build-on.png',
+    },
+    {
+      phrase: "WRAP UP",
+      definition: "To finish something — to bring a discussion, meeting, or explanation to a close.",
+      example: "Let's wrap up the debrief now — we've covered the main points and everyone needs rest before tomorrow.",
+      inGame: "Knowing when to wrap up a team discussion is as important as knowing what to say — endless debate kills momentum.",
+      inRealLife: "She wrapped up the presentation with a clear call to action and a summary of the three key decisions needed.",
+      imageSlug: '/images/roblox-discourse-markers-wrap-up.png',
+    },
+    {
+      phrase: "PICK UP FROM",
+      definition: "To continue from where something left off — to resume from a specific point.",
+      example: "Let's pick up from where we left off before the break — we were discussing the formation for the semi-final.",
+      inGame: "If a team discussion gets interrupted, picking up from the exact point you stopped saves time and prevents repetition.",
+      inRealLife: "Good meeting chairs always pick up from the action points at the start of the next session — it shows accountability.",
+      imageSlug: '/images/roblox-discourse-markers-pick-up-from.png',
+    },
+  ],
+
+  warmUp: {
+    questions: [
+      "If you had to explain why your favourite game or team is good in three clear points, how would you connect those points in English?",
+      "Think of a time when someone explained something in a confusing way. What was missing — was it the logic, or the way the ideas were connected?",
+      "Are discourse markers used in your language? Do you have words that mean 'furthermore', 'however', or 'consequently'? Are they used the same way?",
+    ],
+  },
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Leo, I've been asked to present the guild's season review to the whole group. I want it to sound clear and logical, not just a list of things that happened.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Discourse markers. These are the words that signal the structure of your argument. They tell your listener where you are and what kind of point comes next.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Like... how?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Start with FIRSTLY. 'Firstly, our defensive record improved in every round this season.' The listener immediately knows more points are coming.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "'Secondly, individual player confidence grew significantly over the course of the year.' Like that?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Exactly. And to add a point that strengthens it: '[[furthermore:also — used to add another point that makes your argument stronger]], communication in the final phase was much better than last season.' FURTHERMORE tells them you are adding weight to the same argument.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "But what about the things that went wrong? The mid-season slump.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "'[[however:but — used to introduce a contrasting idea or a complication]], the mid-season period was more difficult.' HOWEVER tells them: I'm about to change direction. '[[consequently:as a result — used to show one thing caused another]], the team had to adapt their approach significantly.' CONSEQUENTLY shows the result of what you just said.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "And if I want to compare the start and end of the season?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "'The early matches were inconsistent. [[in contrast:used to compare two things that are clearly different]], the final three rounds were some of our strongest performances of the year.' And when you're done: '[[to sum up:to give a short summary at the end]], this was a season of real growth.' Perfect ending.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "'[[nevertheless:despite that — used after something negative to introduce something positive]], the team showed resilience.' I like that one — it sounds strong even when things were hard.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "NEVERTHELESS is great for exactly that. The key rule: don't stack them. Pick one marker per point — don't say 'but however on the other hand.' Choose one, use it clearly, and [[move on to:go from one topic or point to the next]] the next idea.",
+    },
+  ],
+
+  completeSentenceExercise: {
+    instructions: "Choose the best discourse marker to complete each sentence.",
+    items: [
+      {
+        sentence: "The team's strategy was strong. _____, one player's mistake in the opening phase changed everything.",
+        options: ["Furthermore", "However", "Consequently"],
+        correctIndex: 1,
+        explanation: "HOWEVER signals a contrasting idea — something that goes against or complicates what was just said. A strong strategy being undermined by one mistake is a clear contrast. FURTHERMORE adds a point; CONSEQUENTLY shows a result.",
+      },
+      {
+        sentence: "We need to review the defensive positioning. _____, the communication during the final phase also needs significant improvement.",
+        options: ["However", "Consequently", "Furthermore"],
+        correctIndex: 2,
+        explanation: "FURTHERMORE adds an additional point that strengthens the argument. The speaker is adding a second area for improvement on top of the first — not contrasting (HOWEVER) or showing a result (CONSEQUENTLY).",
+      },
+      {
+        sentence: "The team failed to communicate during the critical phase. _____, two players moved to the wrong position at exactly the wrong moment.",
+        options: ["Consequently", "Nevertheless", "In contrast"],
+        correctIndex: 0,
+        explanation: "CONSEQUENTLY shows that one thing caused another — the failure to communicate directly led to the wrong positioning. This is a cause-and-result relationship, not a contrast or a despite-that situation.",
+      },
+      {
+        sentence: "Last year, we struggled in the early rounds. _____, this year we won our first four matches without any serious problems.",
+        options: ["Furthermore", "In contrast", "Therefore"],
+        correctIndex: 1,
+        explanation: "IN CONTRAST compares two clearly different situations: struggling in early rounds (last year) versus winning the first four (this year). The difference between the two seasons is the point being made.",
+      },
+      {
+        sentence: "The team had trained for only one week. _____, they reached the final without losing a single match.",
+        options: ["Consequently", "Nevertheless", "Furthermore"],
+        correctIndex: 1,
+        explanation: "NEVERTHELESS means 'despite that' — it introduces a positive outcome after a challenging or negative context. Short preparation time is the challenge; reaching the final is the positive result despite it.",
+      },
+      {
+        sentence: "_____, this season demonstrated three things: improved tactics, better communication, and a stronger sense of team identity.",
+        options: ["Consequently", "However", "To sum up"],
+        correctIndex: 2,
+        explanation: "TO SUM UP signals that you are about to give a conclusion or a summary of the main points. The sentence is clearly wrapping up the argument with three key points — exactly what TO SUM UP is for.",
+      },
+    ],
+  },
+
+  matchingExercise: [
+    { word: 'FURTHERMORE', definition: 'Used to add another point that strengthens the argument' },
+    { word: 'HOWEVER', definition: 'Used to introduce a contrasting idea or a complication' },
+    { word: 'CONSEQUENTLY', definition: 'Used to show that something happened as a result of what was just said' },
+    { word: 'IN CONTRAST', definition: 'Used to compare two things that are clearly different from each other' },
+    { word: 'NEVERTHELESS', definition: 'Used to introduce a positive idea despite something negative — despite that' },
+    { word: 'IN ADDITION', definition: 'Used to add another point — similar to FURTHERMORE' },
+    { word: 'TO SUM UP', definition: 'Used at the end to give a short summary of the main points' },
+    { word: 'THEREFORE', definition: 'Used to introduce a logical conclusion from what was just said' },
+  ],
+
+  fillBlankExercise: [
+    { before: "The team's defensive record was the best in the league.", answer: 'Furthermore', after: ", their average response time to attacks had improved by 20% compared to last season." },
+    { before: "The plan looked solid on paper.", answer: 'However', after: ", it failed to account for the opponent's aggressive early-game strategy." },
+    { before: "Two key players missed the training session.", answer: 'Consequently', after: ", the team's coordination in the opening rounds of the match was noticeably weaker than usual." },
+    { before: "The first half of the season was marked by inconsistency and errors.", answer: 'In contrast', after: ", the second half showed remarkable improvement in both strategy and execution." },
+    { before: "The team had lost three consecutive matches going into the final round.", answer: 'Nevertheless', after: ", they managed to win the title — a result that surprised nearly every observer." },
+    { before: "The captain provided strong tactical leadership throughout the season.", answer: 'In addition', after: ", her ability to keep team morale high during the difficult mid-season period was equally important." },
+    { before: "", answer: 'To sum up', after: ", this was a season defined by growth — not perfect, but clearly moving in the right direction." },
+    { before: "The opposing team has not lost a match in twelve weeks.", answer: 'Therefore', after: ", we need to approach tomorrow's match with a much higher level of preparation than usual." },
+  ],
+
+  multipleChoiceExercise: [
+    {
+      question: "What function does HOWEVER serve in an argument?",
+      options: [
+        "It adds another point that strengthens the previous statement.",
+        "It introduces a contrasting or complicating idea after the previous statement.",
+        "It shows that the previous statement caused the next one.",
+        "It signals that you are about to summarise your main points.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Which discourse marker shows a cause-and-result relationship?",
+      options: [
+        "In contrast",
+        "Nevertheless",
+        "Consequently",
+        "Furthermore",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "What is the difference between FURTHERMORE and IN ADDITION?",
+      options: [
+        "FURTHERMORE is informal; IN ADDITION is formal.",
+        "FURTHERMORE adds a point that builds on the argument; IN ADDITION simply adds another fact.",
+        "They are essentially the same — both add a point to the argument. FURTHERMORE is slightly more formal.",
+        "FURTHERMORE contrasts two ideas; IN ADDITION compares them.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "When should you use NEVERTHELESS rather than HOWEVER?",
+      options: [
+        "When you want to add a point that makes the argument stronger.",
+        "When you want to introduce a contrast between two different topics.",
+        "When something positive happened despite a challenging or negative situation.",
+        "When you are summarising the main points at the end of an argument.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "What mistake does this sentence make? 'But however on the other hand, the strategy did not work.'",
+      options: [
+        "The wrong tense is used in the main clause.",
+        "Three contrast markers are stacked together — only one should be used.",
+        "HOWEVER should come at the end of the sentence, not the beginning.",
+        "BUT should be replaced with THEREFORE to show a logical conclusion.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What does WRAP UP mean?",
+      options: [
+        "To organise and present multiple points in a clear order.",
+        "To return to a topic that was discussed earlier in the conversation.",
+        "To bring a discussion, meeting, or explanation to a close.",
+        "To explain the cause of something that happened.",
+      ],
+      correctIndex: 2,
+    },
+  ],
+};

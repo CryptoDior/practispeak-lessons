@@ -191,6 +191,16 @@ import { robloxWordFormation } from './roblox-word-formation';
 import { robloxPersuasiveLanguage } from './roblox-persuasive-language';
 import { robloxAgreeingDisagreeing } from './roblox-agreeing-disagreeing';
 import { robloxReviewB2Block1 } from './roblox-review-b2-block-1';
+import { robloxIdiomsIi } from './roblox-idioms-ii';
+import { robloxRegisterAwarenessIi } from './roblox-register-awareness-ii';
+import { robloxReportedSpeechAdvanced } from './roblox-reported-speech-advanced';
+import { robloxEmphaticStructures } from './roblox-emphatic-structures';
+import { robloxNarrativeTenses } from './roblox-narrative-tenses';
+import { robloxAdjectiveNuance } from './roblox-adjective-nuance';
+import { robloxHedgingLanguage } from './roblox-hedging-language';
+import { robloxIdiomsIii } from './roblox-idioms-iii';
+import { robloxDiscourseMarkers } from './roblox-discourse-markers';
+import { robloxReviewB2Block2 } from './roblox-review-b2-block-2';
 
 import { actionVerbsMoveYourCharacter } from './action-verbs-move-your-character';
 import { describingCharacters } from './describing-characters';
@@ -468,6 +478,16 @@ export const lessons: Lesson[] = [
   robloxPersuasiveLanguage,
   robloxAgreeingDisagreeing,
   robloxReviewB2Block1,
+  robloxIdiomsIi,
+  robloxRegisterAwarenessIi,
+  robloxReportedSpeechAdvanced,
+  robloxEmphaticStructures,
+  robloxNarrativeTenses,
+  robloxAdjectiveNuance,
+  robloxHedgingLanguage,
+  robloxIdiomsIii,
+  robloxDiscourseMarkers,
+  robloxReviewB2Block2,
 
   actionVerbsMoveYourCharacter,
   describingCharacters,

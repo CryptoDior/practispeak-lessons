@@ -1,0 +1,401 @@
+import { Lesson } from '@/types/lesson';
+
+export const robloxNarrativeTenses: Lesson = {
+  slug: 'roblox-narrative-tenses',
+  title: "Narrative Tenses",
+  subtitle: "Telling a story clearly means showing what happened first, what was already happening, and what interrupted what.",
+  level: 'B1-B2',
+  description: "When you tell a story in English, you use three tenses together: the SIMPLE PAST for the main events in order, the PAST CONTINUOUS for actions that were already happening when something else occurred, and the PAST PERFECT for things that had already happened before the main story moment. Using all three correctly makes your stories clear, vivid, and natural.",
+  heroImage: '/images/roblox-narrative-tenses-hero.png',
+
+  grammarFocus: {
+    focusTitle: 'Focus: Combining simple past, past continuous, and past perfect',
+    description: "In a story, each tense has a specific job. SIMPLE PAST tells the main events in order ('They attacked. We defended.'). PAST CONTINUOUS sets the background — what was already happening ('I was defending the base when they attacked.'). PAST PERFECT goes further back — before the story even started ('We had already lost one player before the match began.'). Together, these three tenses give a story its full time structure.",
+    positivePattern: 'Past Perfect (HAD + past participle) → background before story | Past Continuous (WAS/WERE + -ing) → ongoing action | Simple Past → main event',
+    positiveExample: '"We had practised for weeks. I was watching the enemy team when the signal came."',
+    negativePattern: 'Do NOT use simple past for everything — the reader cannot see what happened before or during',
+    negativeExample: '"We practised. I watched. The signal came." ✗ (flat — no sense of background or timing)',
+    positiveLabel: 'CORRECT — three tenses work together to create time depth in the story',
+    negativeLabel: 'FLAT — only simple past cannot show which actions were ongoing or came first',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"I had been playing for six hours when the tournament announcement finally arrived."', note: 'Past perfect continuous (HAD BEEN + -ing) for an action ongoing before the main story moment' },
+      { sentence: '"While we were planning our attack, the other team had already shifted their formation."', note: 'Past continuous (background action) + past perfect (action completed before the story moment)' },
+      { sentence: '"The server crashed just as we were about to win — we had never been so close to the finals before."', note: 'Past continuous (ongoing action that got interrupted) + past perfect (background context)' },
+      { sentence: '"She joined the team in March. We had been trying to recruit her for months."', note: 'Simple past (main event) + past perfect continuous (the long effort before the event)' },
+    ],
+    negativeExamples: [
+      { sentence: '"We practised. I watched. The signal came." ✗ (only simple past — no depth or timing)', note: 'Without past continuous and past perfect, all actions feel equal and flat — no sense of what was background or what came first' },
+      { sentence: '"I was defending when I had seen the signal." ✗ (wrong tense choice — PAST PERFECT not needed here)', note: 'PAST PERFECT is for things that happened BEFORE the story moment. If I saw the signal IN that moment, use simple past: I was defending when I saw the signal.' },
+    ],
+  },
+
+  vocabulary: [
+    {
+      word: 'SEQUENCE',
+      partOfSpeech: 'noun',
+      definition: "The order in which things happen — what comes first, second, and third.",
+      example: "The sequence of events was clear: the enemy team had made their move, and we were already responding when the signal came.",
+      imageSlug: '/images/roblox-narrative-tenses-sequence.png',
+    },
+    {
+      word: 'BACKGROUND',
+      partOfSpeech: 'noun',
+      definition: "The situation that was already there — what was happening before the main event.",
+      example: "The background to the tournament loss was important: we had been short on players all week and hadn't slept properly.",
+      imageSlug: '/images/roblox-narrative-tenses-background.png',
+    },
+    {
+      word: 'INTERRUPT',
+      partOfSpeech: 'verb',
+      definition: "To stop something that was already happening — to break in the middle of an ongoing action.",
+      example: "We were building our defence when a sudden attack interrupted everything we had planned.",
+      imageSlug: '/images/roblox-narrative-tenses-interrupt.png',
+    },
+    {
+      word: 'PRIOR',
+      partOfSpeech: 'adjective',
+      definition: "Before something else — happening earlier in time.",
+      example: "Our prior experience with this enemy team had taught us to expect an early raid, so we were ready.",
+      imageSlug: '/images/roblox-narrative-tenses-prior.png',
+    },
+    {
+      word: 'SIMULTANEOUS',
+      partOfSpeech: 'adjective',
+      definition: "Happening at the same time as something else.",
+      example: "The two attacks were almost simultaneous — while one team pushed the left, the other came from the right.",
+      imageSlug: '/images/roblox-narrative-tenses-simultaneous.png',
+    },
+    {
+      word: 'TURNING POINT',
+      partOfSpeech: 'noun',
+      definition: "The moment when a situation begins to change — when things start to go a different way.",
+      example: "The turning point in the match was when we lost our strongest player — from that moment, the balance shifted.",
+      imageSlug: '/images/roblox-narrative-tenses-turning-point.png',
+    },
+    {
+      word: 'UNFOLD',
+      partOfSpeech: 'verb',
+      definition: "When a situation develops slowly over time — when events happen one after another.",
+      example: "We watched the replay and saw exactly how the final round had unfolded — step by step.",
+      imageSlug: '/images/roblox-narrative-tenses-unfold.png',
+    },
+    {
+      word: 'ANTICIPATE',
+      partOfSpeech: 'verb',
+      definition: "To expect that something will happen — to be ready for it before it comes.",
+      example: "Mia had anticipated the enemy's move and was already in position when they made their attack.",
+      imageSlug: '/images/roblox-narrative-tenses-anticipate.png',
+    },
+  ],
+
+  irlVocabulary: [
+    {
+      word: 'SEQUENCE',
+      partOfSpeech: 'noun',
+      definition: "The order in which things happen — what comes first, second, and third.",
+      example: "The manager walked us through the sequence of events that had led to the system failure.",
+      imageSlug: '/images/roblox-narrative-tenses-sequence-irl.png',
+    },
+    {
+      word: 'BACKGROUND',
+      partOfSpeech: 'noun',
+      definition: "The situation that was already there — what was happening before the main event.",
+      example: "To understand why the project was cancelled, you need to know the background — the budget had already been cut twice.",
+      imageSlug: '/images/roblox-narrative-tenses-background-irl.png',
+    },
+    {
+      word: 'INTERRUPT',
+      partOfSpeech: 'verb',
+      definition: "To stop something that was already happening — to break in the middle of an ongoing action.",
+      example: "She was presenting the final results when a power outage interrupted the entire conference call.",
+      imageSlug: '/images/roblox-narrative-tenses-interrupt-irl.png',
+    },
+    {
+      word: 'PRIOR',
+      partOfSpeech: 'adjective',
+      definition: "Before something else — happening earlier in time.",
+      example: "Prior to joining this company, she had spent four years working in market research in Berlin.",
+      imageSlug: '/images/roblox-narrative-tenses-prior-irl.png',
+    },
+    {
+      word: 'SIMULTANEOUS',
+      partOfSpeech: 'adjective',
+      definition: "Happening at the same time as something else.",
+      example: "The two product launches were almost simultaneous, which created confusion among customers about which to choose.",
+      imageSlug: '/images/roblox-narrative-tenses-simultaneous-irl.png',
+    },
+    {
+      word: 'TURNING POINT',
+      partOfSpeech: 'noun',
+      definition: "The moment when a situation begins to change — when things start to go a different way.",
+      example: "The turning point in the negotiations came when both sides agreed to delay the deadline by two weeks.",
+      imageSlug: '/images/roblox-narrative-tenses-turning-point-irl.png',
+    },
+    {
+      word: 'UNFOLD',
+      partOfSpeech: 'verb',
+      definition: "When a situation develops slowly over time — when events happen one after another.",
+      example: "As the investigation unfolded, it became clear that the error had occurred much earlier than anyone had realised.",
+      imageSlug: '/images/roblox-narrative-tenses-unfold-irl.png',
+    },
+    {
+      word: 'ANTICIPATE',
+      partOfSpeech: 'verb',
+      definition: "To expect that something will happen — to be ready for it before it comes.",
+      example: "The legal team had anticipated this regulatory change and had already drafted the updated compliance policy.",
+      imageSlug: '/images/roblox-narrative-tenses-anticipate-irl.png',
+    },
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: "BUILD UP TO",
+      definition: "When a series of events leads gradually to one important moment.",
+      example: "The tension in the guild had been building up to a confrontation for weeks before it finally happened.",
+      inGame: "You can feel a match building up to its final moment — the last few minutes are always the most intense.",
+      inRealLife: "She had been building up to the salary conversation for months before she finally had it with her manager.",
+      imageSlug: '/images/roblox-narrative-tenses-build-up-to.png',
+    },
+    {
+      phrase: "LEAD UP TO",
+      definition: "The period of time or the events that came just before something important.",
+      example: "In the days leading up to the tournament, the team had practised every evening without a break.",
+      inGame: "What happened in the rounds leading up to the final round often explains why one team wins.",
+      inRealLife: "The events leading up to the merger had been kept completely confidential — only three people knew.",
+      imageSlug: '/images/roblox-narrative-tenses-lead-up-to.png',
+    },
+    {
+      phrase: "LOOK BACK ON",
+      definition: "To think about something that happened in the past — to review it from a later point in time.",
+      example: "Looking back on that tournament, Mia could see exactly where the team had started to lose their focus.",
+      inGame: "After a loss, looking back on the replay is more useful than talking about how you feel in the moment.",
+      inRealLife: "Looking back on her first year in the role, she could see how much her communication style had changed.",
+      imageSlug: '/images/roblox-narrative-tenses-look-back-on.png',
+    },
+    {
+      phrase: "CARRY ON",
+      definition: "To continue doing something — to keep going after a problem or interruption.",
+      example: "Even after losing two players, the team carried on and managed to bring the match to a draw.",
+      inGame: "When things go wrong mid-match, carrying on with the original plan is sometimes the worst option — adapt.",
+      inRealLife: "Despite the technical difficulties, the presenter carried on and delivered the full session without the slides.",
+      imageSlug: '/images/roblox-narrative-tenses-carry-on.png',
+    },
+    {
+      phrase: "BREAK OUT",
+      definition: "When something — usually a conflict or problem — starts suddenly.",
+      example: "The argument broke out in the guild chat just as the match was starting — the timing could not have been worse.",
+      inGame: "When conflict breaks out in a team, the best response is to pause and address it directly — not ignore it.",
+      inRealLife: "A dispute broke out between the two departments over who owned the client relationship.",
+      imageSlug: '/images/roblox-narrative-tenses-break-out.png',
+    },
+    {
+      phrase: "SET IN",
+      definition: "When something unpleasant begins to happen and continues for a while.",
+      example: "After three consecutive losses, frustration began to set in and the team stopped communicating clearly.",
+      inGame: "Fatigue sets in fast in long tournaments — regular breaks are more important than people realise.",
+      inRealLife: "Doubt started to set in when the third prototype also failed to meet the required specifications.",
+      imageSlug: '/images/roblox-narrative-tenses-set-in.png',
+    },
+  ],
+
+  warmUp: {
+    questions: [
+      "Think of a memorable moment in a game — a win, a loss, a close call. How would you tell someone who wasn't there what happened?",
+      "Can you think of a sentence that uses all three time ideas: something that happened before, something that was already going on, and the main event?",
+      "In your language, how do you show that one event happened before another? Does it feel different from how English shows this?",
+    ],
+  },
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Leo, I tried to explain what happened in last night's tournament to my friend but it came out all jumbled. Everything sounded like it happened at the same time.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "That's a tense problem. In a story, you need three different tenses — each one does a different job. Let me show you. What happened first?",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Well — we trained hard all week before the match. Then the match started and I was already in position watching the other team when they made their first move.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Perfect — three tenses right there. 'We [[prior:before something else — happening earlier in time]] — we HAD TRAINED all week' — that's past perfect: completed before the story starts. 'I WAS watching' — past continuous: already ongoing when the main event hit.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "And 'they made their first move' — that's the main event. Simple past.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Exactly. So the [[sequence:order in which things happen]] works like this: past perfect for what came before → past continuous for the [[background:the situation that was already there]] → simple past for the main events.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "What about when two things were happening at the same time — [[simultaneous:happening at the same time]]?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Use WHILE or AS with two past continuous verbs. 'While I was watching the left side, the enemy was moving right.' Both ongoing — both past continuous.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "And the moment something stops what was already happening?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "WHEN + simple past [[interrupt:stop something that was already happening]]s the past continuous: 'We were building our defence WHEN the attack came.' The attack is the simple past — it breaks the ongoing action. This is the [[turning point:the moment when a situation begins to change]] of most stories.",
+    },
+  ],
+
+  completeSentenceExercise: {
+    instructions: "Choose the correct tense form to complete each sentence.",
+    items: [
+      {
+        sentence: "We _____ for three weeks before the tournament finally began.",
+        options: ["were practising", "had been practising", "practised"],
+        correctIndex: 1,
+        explanation: "PAST PERFECT CONTINUOUS (HAD BEEN + -ing) shows an ongoing action that was already in progress before the main story moment (the tournament beginning). It emphasises both the duration and the fact it completed before the tournament started.",
+      },
+      {
+        sentence: "I _____ the replay when Leo called with news about the next match.",
+        options: ["watched", "was watching", "had watched"],
+        correctIndex: 1,
+        explanation: "PAST CONTINUOUS (WAS + -ing) for the background action that was already ongoing when Leo's call (simple past: 'called') interrupted it. WAS WATCHING + WHEN + simple past is the classic interrupted action pattern.",
+      },
+      {
+        sentence: "By the time we arrived, the other team _____ their whole strategy.",
+        options: ["changed", "were changing", "had already changed"],
+        correctIndex: 2,
+        explanation: "PAST PERFECT (HAD + past participle) for something that was completed before the moment of arrival. 'By the time' is a strong signal for past perfect — the strategy change was over before we got there.",
+      },
+      {
+        sentence: "While Mia _____ the base, Leo was coordinating the attack from the right.",
+        options: ["defended", "was defending", "had defended"],
+        correctIndex: 1,
+        explanation: "PAST CONTINUOUS in a WHILE clause — both actions were happening at the same time. 'While I WAS DEFENDING... Leo WAS COORDINATING' — two simultaneous ongoing past actions.",
+      },
+      {
+        sentence: "Frustration _____ to set in after the third consecutive defeat.",
+        options: ["began", "was beginning", "had begun"],
+        correctIndex: 0,
+        explanation: "SIMPLE PAST for the main narrative event. 'Began to set in' describes the start of frustration as a specific narrative moment in the story, not a background or completed-before action.",
+      },
+      {
+        sentence: "She _____ the pattern in the enemy's strategy long before anyone else noticed it.",
+        options: ["was anticipating", "anticipated", "had anticipated"],
+        correctIndex: 2,
+        explanation: "PAST PERFECT (HAD + past participle) because anticipating happened before everyone else noticed ('before' signals time sequence). The pattern recognition was completed earlier in time than the main reference point.",
+      },
+    ],
+  },
+
+  matchingExercise: [
+    { word: 'SEQUENCE', definition: 'The order in which things happen — what comes first, second, third' },
+    { word: 'BACKGROUND', definition: 'The situation already there when the main event happened' },
+    { word: 'INTERRUPT', definition: 'To stop something that was already happening' },
+    { word: 'PRIOR', definition: 'Before something else — happening earlier in time' },
+    { word: 'SIMULTANEOUS', definition: 'Happening at the same time as something else' },
+    { word: 'TURNING POINT', definition: 'The moment when a situation begins to change direction' },
+    { word: 'UNFOLD', definition: 'When events develop slowly over time, one after another' },
+    { word: 'ANTICIPATE', definition: 'To expect something and be ready for it before it arrives' },
+  ],
+
+  fillBlankExercise: [
+    { before: "We", answer: 'had been training', after: "for six hours when the tournament finally started — everyone was exhausted but focused." },
+    { before: "I", answer: 'was watching', after: "the enemy team's movements when Leo suddenly called out — they were flanking us." },
+    { before: "By the time the reinforcements arrived, the enemy", answer: 'had already captured', after: "two of our positions." },
+    { before: "While Mia", answer: 'was defending', after: "the base, Leo was setting up the ambush on the right side of the map." },
+    { before: "The", answer: 'turning point', after: "came in the third round, when we lost our most experienced player to a surprise attack." },
+    { before: "Looking back, we could see how the events", answer: 'had unfolded', after: "— each small mistake had led directly to the next one." },
+    { before: "She", answer: 'had anticipated', after: "the change in their formation and was already repositioning when it happened." },
+    { before: "Doubt began to", answer: 'set in', after: "after the second failed attempt — the team was starting to question the strategy." },
+  ],
+
+  multipleChoiceExercise: [
+    {
+      question: "What is the main function of the past continuous in a narrative?",
+      options: [
+        "To describe the main events in the story in the order they happened.",
+        "To show what had already been completed before the story moment.",
+        "To describe ongoing background actions that were in progress when a main event occurred.",
+        "To show a future action that the speaker was planning at the time.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "Which sentence uses past perfect correctly?",
+      options: [
+        "She had been playing when the match started.",
+        "We had finished the training before the team arrived for the briefing.",
+        "He had been defending the base during the attack.",
+        "They had been watching the match right now.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What is the pattern for describing an interrupted past action?",
+      options: [
+        "Simple past + while + past perfect",
+        "Past perfect + when + past continuous",
+        "Past continuous + when + simple past",
+        "Simple past + as + simple past",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "What does LEAD UP TO mean?",
+      options: [
+        "To cause something to happen as a direct result.",
+        "The period of events that came just before something important.",
+        "To take charge of a team and guide them forward.",
+        "To look at past events and judge what went wrong.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "When is 'had been + -ing' (past perfect continuous) most useful?",
+      options: [
+        "When two events happened at exactly the same moment.",
+        "When describing an ongoing action that was completed before a specific moment in the story.",
+        "When describing the final main event in a narrative sequence.",
+        "When giving background information about future plans.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Choose the sentence with the correct combination of narrative tenses.",
+      options: [
+        "We practised when they arrived and we had been ready.",
+        "While we were planning our defence, the other team had already moved to a new position.",
+        "I was watching when I had seen the signal — it had been too late.",
+        "By the time we noticed, they had been capturing the point for ten minutes.",
+      ],
+      correctIndex: 1,
+    },
+  ],
+};

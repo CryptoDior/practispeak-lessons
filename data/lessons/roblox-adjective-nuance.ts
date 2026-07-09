@@ -1,0 +1,413 @@
+import { Lesson } from '@/types/lesson';
+
+export const robloxAdjectiveNuance: Lesson = {
+  slug: 'roblox-adjective-nuance',
+  title: "Adjective Nuance",
+  subtitle: "GOOD, BAD, HAPPY, ANGRY — these words work. But English has many stronger, more specific options that say exactly how much you feel.",
+  level: 'B1-B2',
+  description: "In English, many common adjectives have stronger synonyms that carry more emotion or intensity. Instead of saying something was GOOD, you can say it was BRILLIANT, OUTSTANDING, or EXCEPTIONAL. Instead of BAD, you can say TERRIBLE, DREADFUL, or APPALLING. These stronger words do not just describe something — they show your reaction, your level of feeling, and your attitude. Choosing the right intensity word makes your English much more expressive and natural.",
+  heroImage: '/images/roblox-adjective-nuance-hero.png',
+
+  grammarFocus: {
+    focusTitle: 'Focus: Intensity synonyms — moving up and down the scale',
+    description: "Think of adjectives on a scale from weak to strong. ANNOYING → FRUSTRATING → INFURIATING. HAPPY → PLEASED → DELIGHTED → OVERJOYED. SURPRISED → ASTONISHED → STUNNED. Each step is a stronger version of the same idea. At C1-C2 level, using the right point on the scale shows you have precise control of English. Amplifiers like ABSOLUTELY, UTTERLY, and COMPLETELY work with extreme adjectives (utterly devastated, absolutely brilliant) but not with gradable ones (very devastated ✗, very happy ✓).",
+    positivePattern: 'Weak adjective → stronger synonym | Extreme adjective + absolutely / utterly / completely',
+    positiveExample: '"The lag was absolutely infuriating." / "She was utterly devastated by the result."',
+    negativePattern: 'Do NOT use VERY with extreme adjectives (already at 100%)',
+    negativeExample: '"Very infuriated" ✗ / "Very devastated" ✗ / "Very brilliant" ✗',
+    positiveLabel: 'CORRECT — extreme adjectives pair with absolutely/utterly/completely, not very',
+    negativeLabel: 'WRONG — VERY only pairs with gradable adjectives (very happy, very tired), not extreme ones',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"That comeback was absolutely brilliant — nobody thought we could win from that position."', note: 'BRILLIANT (extreme) + ABSOLUTELY — correct pairing; "very brilliant" would sound wrong' },
+      { sentence: '"I was utterly exhausted by the time the tournament ended — six matches in one day."', note: 'UTTERLY EXHAUSTED — stronger than "very tired"; shows complete depletion' },
+      { sentence: '"The server crash was infuriating — not annoying, not frustrating — genuinely infuriating."', note: 'Moving to the top of the scale: annoying → frustrating → infuriating' },
+      { sentence: '"She was astonished by how quickly the new player had picked up the strategy."', note: 'ASTONISHED is stronger than surprised — shows deep, almost disbelieving surprise' },
+    ],
+    negativeExamples: [
+      { sentence: '"It was very infuriated." ✗ (extreme adjective — use absolutely/utterly)', note: '"Very" is for gradable adjectives. INFURIATED is already at maximum intensity — use absolutely infuriated.' },
+      { sentence: '"He was very devastated." ✗', note: '"Very devastated" sounds unnatural. DEVASTATED is extreme — use absolutely/utterly/completely devastated.' },
+    ],
+  },
+
+  vocabulary: [
+    {
+      word: 'INFURIATING',
+      partOfSpeech: 'adjective',
+      definition: "So annoying that you feel very angry — much stronger than just annoying.",
+      example: "It was absolutely infuriating when the server went down just as we were about to win the final match.",
+      imageSlug: '/images/roblox-adjective-nuance-infuriating.png',
+    },
+    {
+      word: 'DEVASTATING',
+      partOfSpeech: 'adjective',
+      definition: "So bad that it causes very deep pain or damage — much stronger than just bad or upsetting.",
+      example: "Losing the tournament in the final round was devastating — the team had worked towards it for months.",
+      imageSlug: '/images/roblox-adjective-nuance-devastating.png',
+    },
+    {
+      word: 'OUTSTANDING',
+      partOfSpeech: 'adjective',
+      definition: "Extremely good — so good that it stands out clearly above everything else.",
+      example: "Her performance in the final match was outstanding — she made no errors and led the team to victory.",
+      imageSlug: '/images/roblox-adjective-nuance-outstanding.png',
+    },
+    {
+      word: 'ASTONISHING',
+      partOfSpeech: 'adjective',
+      definition: "So surprising that it is very hard to believe — much stronger than just surprising.",
+      example: "The speed at which the new player had mastered the advanced mechanics was astonishing to everyone.",
+      imageSlug: '/images/roblox-adjective-nuance-astonishing.png',
+    },
+    {
+      word: 'EXHAUSTING',
+      partOfSpeech: 'adjective',
+      definition: "Making you feel very tired — taking all your energy.",
+      example: "Six back-to-back matches was absolutely exhausting — by the end, nobody could think clearly.",
+      imageSlug: '/images/roblox-adjective-nuance-exhausting.png',
+    },
+    {
+      word: 'THRILLING',
+      partOfSpeech: 'adjective',
+      definition: "Exciting in a way that makes you feel very strong emotions — strong positive excitement.",
+      example: "The last three minutes of the match were absolutely thrilling — both teams were tied and anything could happen.",
+      imageSlug: '/images/roblox-adjective-nuance-thrilling.png',
+    },
+    {
+      word: 'DREADFUL',
+      partOfSpeech: 'adjective',
+      definition: "Very bad indeed — much stronger than just bad. Can also mean something that causes fear.",
+      example: "The team's coordination in the first round was dreadful — they couldn't agree on anything.",
+      imageSlug: '/images/roblox-adjective-nuance-dreadful.png',
+    },
+    {
+      word: 'OVERJOYED',
+      partOfSpeech: 'adjective',
+      definition: "Extremely happy — so happy that the feeling is very strong and complete.",
+      example: "The whole guild was overjoyed when they heard the news — they had finally qualified for the regional tournament.",
+      imageSlug: '/images/roblox-adjective-nuance-overjoyed.png',
+    },
+  ],
+
+  irlVocabulary: [
+    {
+      word: 'INFURIATING',
+      partOfSpeech: 'adjective',
+      definition: "So annoying that you feel very angry — much stronger than just annoying.",
+      example: "It was infuriating to discover that the file had not been saved — three hours of work lost in seconds.",
+      imageSlug: '/images/roblox-adjective-nuance-infuriating-irl.png',
+    },
+    {
+      word: 'DEVASTATING',
+      partOfSpeech: 'adjective',
+      definition: "So bad that it causes very deep pain or damage — much stronger than just bad or upsetting.",
+      example: "The news that the contract had fallen through was devastating for the whole sales team.",
+      imageSlug: '/images/roblox-adjective-nuance-devastating-irl.png',
+    },
+    {
+      word: 'OUTSTANDING',
+      partOfSpeech: 'adjective',
+      definition: "Extremely good — so good that it stands out clearly above everything else.",
+      example: "The results from Q4 were outstanding — they exceeded every target the team had set themselves.",
+      imageSlug: '/images/roblox-adjective-nuance-outstanding-irl.png',
+    },
+    {
+      word: 'ASTONISHING',
+      partOfSpeech: 'adjective',
+      definition: "So surprising that it is very hard to believe — much stronger than just surprising.",
+      example: "The growth figures were astonishing — a 40% increase in just two quarters, without any additional budget.",
+      imageSlug: '/images/roblox-adjective-nuance-astonishing-irl.png',
+    },
+    {
+      word: 'EXHAUSTING',
+      partOfSpeech: 'adjective',
+      definition: "Making you feel very tired — taking all your energy.",
+      example: "The launch week was utterly exhausting — the team was working sixteen-hour days for seven days straight.",
+      imageSlug: '/images/roblox-adjective-nuance-exhausting-irl.png',
+    },
+    {
+      word: 'THRILLING',
+      partOfSpeech: 'adjective',
+      definition: "Exciting in a way that makes you feel very strong emotions — strong positive excitement.",
+      example: "Winning the pitch against the three bigger agencies was absolutely thrilling — nobody had expected it.",
+      imageSlug: '/images/roblox-adjective-nuance-thrilling-irl.png',
+    },
+    {
+      word: 'DREADFUL',
+      partOfSpeech: 'adjective',
+      definition: "Very bad indeed — much stronger than just bad.",
+      example: "The presentation was dreadful — the slides were unclear, the data was out of date, and nobody had rehearsed.",
+      imageSlug: '/images/roblox-adjective-nuance-dreadful-irl.png',
+    },
+    {
+      word: 'OVERJOYED',
+      partOfSpeech: 'adjective',
+      definition: "Extremely happy — so happy that the feeling is very strong and complete.",
+      example: "She was absolutely overjoyed when she found out she had been selected for the leadership programme.",
+      imageSlug: '/images/roblox-adjective-nuance-overjoyed-irl.png',
+    },
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: "GET ON YOUR NERVES",
+      definition: "To irritate someone — to gradually make them more and more annoyed.",
+      example: "The constant lag was really getting on Mia's nerves — she had been dealing with it for the entire match.",
+      inGame: "If something in the game is getting on your nerves, it often helps to name it clearly instead of just getting increasingly frustrated.",
+      inRealLife: "The constant interruptions in the open-plan office were getting on everyone's nerves by the third week.",
+      imageSlug: '/images/roblox-adjective-nuance-get-on-your-nerves.png',
+    },
+    {
+      phrase: "BLOW AWAY",
+      definition: "To impress someone so strongly that it feels like a surprise — much stronger than just to impress.",
+      example: "The new player's performance absolutely blew everyone away — nobody expected that level of skill.",
+      inGame: "When a team blows you away in a match, the best thing to do is watch the replay and learn from it.",
+      inRealLife: "The client was completely blown away by the prototype — they approved the project on the spot.",
+      imageSlug: '/images/roblox-adjective-nuance-blow-away.png',
+    },
+    {
+      phrase: "WEAR DOWN",
+      definition: "To make someone feel more and more tired or weak — gradually draining their energy or patience.",
+      example: "Six hours of intense play had worn the team down — by the final match, mistakes were coming from tiredness.",
+      inGame: "Long tournament days wear players down both physically and mentally — managing energy is a real skill.",
+      inRealLife: "The months of difficult negotiations had worn both teams down, and everyone was relieved to reach an agreement.",
+      imageSlug: '/images/roblox-adjective-nuance-wear-down.png',
+    },
+    {
+      phrase: "LIGHT UP",
+      definition: "When someone's face or expression shows sudden happiness or excitement.",
+      example: "Mia's face lit up when she saw the tournament bracket — their first opponent was one she had beaten before.",
+      inGame: "You can tell a lot about how a team is feeling — watch who lights up when a new challenge is announced.",
+      inRealLife: "The whole room lit up when the CEO announced the bonus scheme had been approved for the full year.",
+      imageSlug: '/images/roblox-adjective-nuance-light-up.png',
+    },
+    {
+      phrase: "TAKE THE EDGE OFF",
+      definition: "To make something bad or unpleasant slightly less extreme — to reduce the worst of it.",
+      example: "Knowing they had played well despite the loss took the edge off the disappointment a little.",
+      inGame: "A good debrief after a tough loss takes the edge off the frustration — it gives the loss a purpose.",
+      inRealLife: "The coffee and pastries at the Monday briefing took the edge off the early start for most of the team.",
+      imageSlug: '/images/roblox-adjective-nuance-take-the-edge-off.png',
+    },
+    {
+      phrase: "KNOCK SOMEONE OUT",
+      definition: "To impress or surprise someone so strongly that they are speechless — informal, very positive.",
+      example: "The quality of Leo's strategy in the final round completely knocked the opponents out — they had no answer for it.",
+      inGame: "When a creative strategy really works, it doesn't just win the match — it knocks the other team out completely.",
+      inRealLife: "The final pitch knocked the panel out — they awarded the contract without even asking for a second round.",
+      imageSlug: '/images/roblox-adjective-nuance-knock-someone-out.png',
+    },
+  ],
+
+  warmUp: {
+    questions: [
+      "Think of the last time you were really happy or really frustrated — not just a little. What word would you use in English to describe that feeling?",
+      "Are there words in your language that are much stronger versions of common adjectives? How do you decide when to use a stronger word?",
+      "What is the difference between 'the match was good' and 'the match was outstanding'? Which one tells you more?",
+    ],
+  },
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Mia — that match last night. How was it?",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Honestly? Mixed. The first half was bad. The second half was... really good. But the lag at the end? Very annoying.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "That's a fine description — but you've got the full scale available. Let me show you what I mean. The first half — was it just 'bad'? Or worse?",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Way worse. It was embarrassing. Everyone was confused, nobody was communicating. It felt like we were playing randomly.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "So the coordination was [[dreadful:very bad indeed — much stronger than just bad]]. Not bad — dreadful. That tells me more about how it felt.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "And then the second half — we switched strategy and it just clicked. Rin's reading of their formation was unbelievable.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "That's [[astonishing:so surprising it is very hard to believe — much stronger than just surprising]] then. Not just impressive. And if the comeback completely surprised the audience — it was [[thrilling:exciting in a way that causes very strong emotions]].",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Yes — absolutely thrilling. And then the lag hit in the last sixty seconds and cost us the point. I was so angry I could barely type.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "That's not just annoying. That's [[infuriating:so annoying that you feel very angry — much stronger than just annoying]]. And notice — it's 'absolutely infuriating,' not 'very infuriating.' INFURIATING is already at full intensity. Use ABSOLUTELY, UTTERLY, or COMPLETELY — not VERY.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "So very goes with regular adjectives. Absolutely goes with extreme ones.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Exactly. 'Very tired' — fine. 'Absolutely [[exhausting:making you feel very tired — taking all your energy]]' — stronger and more natural. And when we finally qualify for the regional finals — you won't be just happy.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "I'll be [[overjoyed:extremely happy — so happy the feeling is very strong and complete]]. Absolutely overjoyed.",
+    },
+  ],
+
+  completeSentenceExercise: {
+    instructions: "Choose the adjective that best fits the intensity described.",
+    items: [
+      {
+        sentence: "The server crashed at the exact moment we were about to win. The timing was _____ — I couldn't believe it.",
+        options: ["annoying", "infuriating", "uncomfortable"],
+        correctIndex: 1,
+        explanation: "INFURIATING (extreme adjective) is the strongest on the scale: annoying → frustrating → infuriating. Losing a win because of a server crash is at the very top of the frustration scale — not just annoying.",
+      },
+      {
+        sentence: "The comeback from three points down in the final minute was _____.",
+        options: ["nice", "thrilling", "satisfying"],
+        correctIndex: 1,
+        explanation: "THRILLING describes strong, exciting emotions — something that gives you a rush. A comeback in the final minute is not just nice or satisfying — it is thrilling. The extreme intensity matches the situation.",
+      },
+      {
+        sentence: "After eight consecutive hours of play, the team was absolutely _____.",
+        options: ["tired", "a little weary", "exhausted"],
+        correctIndex: 2,
+        explanation: "EXHAUSTED is the extreme version of tired — all energy is gone. ABSOLUTELY EXHAUSTED is the natural pairing (extreme adjective + absolutely). Eight hours of competitive play = exhausted, not just tired.",
+      },
+      {
+        sentence: "The coordination in the final round was _____. Every player moved together perfectly.",
+        options: ["quite good", "outstanding", "acceptable"],
+        correctIndex: 1,
+        explanation: "OUTSTANDING means extremely good — so good it stands out. Perfect coordination in a final round is at the top of the positive scale, not just good or acceptable.",
+      },
+      {
+        sentence: "When the team heard they had won the regional championship, they were absolutely _____.",
+        options: ["pleased", "happy", "overjoyed"],
+        correctIndex: 2,
+        explanation: "OVERJOYED is the extreme of happy — an overwhelming feeling of happiness. Winning a regional championship after months of work is not just pleasing or happy — it is overjoyed. Absolutely overjoyed is the natural pairing.",
+      },
+      {
+        sentence: "The new player's improvement in just two weeks was _____ — nobody could explain how she had got so good so quickly.",
+        options: ["surprising", "noticeable", "astonishing"],
+        correctIndex: 2,
+        explanation: "ASTONISHING means so surprising it is hard to believe — much stronger than just surprising. If nobody could explain it, the improvement was beyond surprising — it was astonishing.",
+      },
+    ],
+  },
+
+  matchingExercise: [
+    { word: 'INFURIATING', definition: 'So annoying that you feel very angry — at the very top of the frustration scale' },
+    { word: 'DEVASTATING', definition: 'So bad that it causes very deep pain or damage' },
+    { word: 'OUTSTANDING', definition: 'Extremely good — clearly better than everything else' },
+    { word: 'ASTONISHING', definition: 'So surprising that it is very hard to believe' },
+    { word: 'EXHAUSTING', definition: 'Taking all your energy — making you feel completely tired' },
+    { word: 'THRILLING', definition: 'Exciting in a way that causes very strong, positive emotions' },
+    { word: 'DREADFUL', definition: 'Very bad indeed — much stronger than just bad' },
+    { word: 'OVERJOYED', definition: 'Extremely happy — so happy the feeling is complete and overwhelming' },
+  ],
+
+  fillBlankExercise: [
+    { before: "The lag in the final round was absolutely", answer: 'infuriating', after: "— we had been winning and it cost us the entire match." },
+    { before: "Her performance in the tournament was", answer: 'outstanding', after: "— three wins, zero errors, and the highest score of the day." },
+    { before: "The result was utterly", answer: 'devastating', after: "— months of training and we lost in the very first round." },
+    { before: "How quickly he learned the advanced mechanics was completely", answer: 'astonishing', after: "— it usually takes players weeks, not days." },
+    { before: "The whole team was", answer: 'overjoyed', after: "when they found out they had qualified — some of them were actually crying." },
+    { before: "Six matches in one day was absolutely", answer: 'exhausting', after: "— nobody had the energy to speak by the end." },
+    { before: "The comeback win in the final minute was", answer: 'thrilling', after: "— the entire audience was on their feet." },
+    { before: "The organisation of the event was", answer: 'dreadful', after: "— matches started late, the servers crashed, and nobody was given information." },
+  ],
+
+  multipleChoiceExercise: [
+    {
+      question: "Which amplifier is WRONG with an extreme adjective?",
+      options: [
+        "Absolutely infuriating",
+        "Utterly devastating",
+        "Very exhausted",
+        "Completely overjoyed",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "What is the difference between ANNOYING and INFURIATING?",
+      options: [
+        "They have the same meaning — INFURIATING is just more formal.",
+        "INFURIATING is much stronger — it means something makes you very, very angry, not just mildly annoyed.",
+        "ANNOYING is stronger because it is used more often in everyday speech.",
+        "INFURIATING describes events; ANNOYING describes people only.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Which of these sentences is correct?",
+      options: [
+        "She was very overjoyed by the result.",
+        "The match was utterly thrilling.",
+        "It was absolutely very exciting.",
+        "He was very completely exhausted.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What does BLOW AWAY mean?",
+      options: [
+        "To make someone leave very quickly.",
+        "To remove something by using air or wind.",
+        "To impress someone so strongly that it feels like a surprise.",
+        "To lose a match by a very large margin.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "OUTSTANDING is to GOOD as INFURIATING is to ____?",
+      options: [
+        "Angry",
+        "Annoying",
+        "Upsetting",
+        "Bad",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What does TAKE THE EDGE OFF mean?",
+      options: [
+        "To remove all the negative feelings from a situation completely.",
+        "To make something unpleasant slightly less extreme or intense.",
+        "To make a decision more clear and defined.",
+        "To push someone to their emotional limit.",
+      ],
+      correctIndex: 1,
+    },
+  ],
+};

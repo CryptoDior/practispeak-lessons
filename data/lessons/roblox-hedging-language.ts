@@ -1,0 +1,401 @@
+import { Lesson } from '@/types/lesson';
+
+export const robloxHedgingLanguage: Lesson = {
+  slug: 'roblox-hedging-language',
+  title: "Hedging Language",
+  subtitle: "Not every statement is a fact. Hedging language lets you share an opinion or uncertain idea without sounding like you know everything.",
+  level: 'B1-B2',
+  description: "Hedging means softening a statement — making it less absolute. Instead of saying 'This is wrong,' you say 'This might be worth reconsidering.' Instead of 'Everyone agrees,' you say 'It tends to be the case that most players agree.' Hedging is not weakness — it is precision. It shows you understand that not everything is certain, and it protects your credibility when you might be wrong. It also makes disagreement easier to handle because the other person has room to respond.",
+  heroImage: '/images/roblox-hedging-language-hero.png',
+
+  grammarFocus: {
+    focusTitle: 'Focus: Modal verbs, adverbs, and phrases for hedging',
+    description: "Hedging uses three main tools. (1) Modal verbs: MIGHT, COULD, TEND TO, SEEM TO — these reduce certainty ('It could be the case that...'). (2) Adverbs: ARGUABLY, GENERALLY, APPARENTLY, TYPICALLY — these add a qualifier before a claim ('This is arguably the best approach.'). (3) Distancing phrases: IT COULD BE ARGUED THAT, IT SEEMS THAT, THERE IS A TENDENCY TO — these put distance between you and the claim, making it easier to agree or disagree ('It could be argued that the strategy failed because of poor communication.').",
+    positivePattern: 'Modal + [claim] | Adverb + [claim] | It could be argued that + [claim]',
+    positiveExample: '"Arguably, communication is the most important skill." / "It tends to be the fastest approach."',
+    negativePattern: 'Do NOT hedge everything — overuse makes you sound uncertain and unconfident',
+    negativeExample: '"It might perhaps possibly be the case that this could arguably be the approach." ✗ (too many hedges)',
+    positiveLabel: 'CORRECT — one hedge per statement; the claim still comes through clearly',
+    negativeLabel: 'OVERHEDGED — too many uncertainty markers stacked together; the message disappears',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"It could be argued that the ban was unfair, given the lack of clear evidence."', note: 'Distancing phrase: you present the argument without fully owning it — leaving room for disagreement' },
+      { sentence: '"Communication tends to be the deciding factor in close matches."', note: 'TENDS TO hedges the universal claim — not always, but in most cases' },
+      { sentence: '"Arguably, this was their best performance of the season."', note: 'ARGUABLY puts the statement forward as a view, not a fact — invites discussion' },
+      { sentence: '"The new strategy seems to be working — the stats are improving."', note: 'SEEMS TO hedges based on available evidence; does not claim certainty' },
+    ],
+    negativeExamples: [
+      { sentence: '"It might perhaps possibly be the case that this could arguably be true." ✗', note: 'Multiple hedges stacked together: MIGHT + PERHAPS + POSSIBLY + ARGUABLY — too many qualifiers destroy the message' },
+      { sentence: '"Everything is subjective and we cannot really know anything." ✗ (over-hedging)', note: 'This is not a useful hedge — it is an avoidance of the topic entirely' },
+    ],
+  },
+
+  vocabulary: [
+    {
+      word: 'ARGUABLY',
+      partOfSpeech: 'adverb',
+      definition: "You could say this is true — but other people might disagree.",
+      example: "Arguably, the team's biggest mistake was not their strategy but their lack of communication in the final round.",
+      imageSlug: '/images/roblox-hedging-language-arguably.png',
+    },
+    {
+      word: 'TEND TO',
+      partOfSpeech: 'verb phrase',
+      definition: "Usually do something — but not always. Used to talk about what happens most of the time.",
+      example: "Players who communicate well tend to perform better under pressure than those who rely only on individual skill.",
+      imageSlug: '/images/roblox-hedging-language-tend-to.png',
+    },
+    {
+      word: 'APPARENTLY',
+      partOfSpeech: 'adverb',
+      definition: "From what you have heard or seen — but you are not completely certain it is true.",
+      example: "Apparently the other guild has recruited three top-ranked players, but I have not confirmed this myself.",
+      imageSlug: '/images/roblox-hedging-language-apparently.png',
+    },
+    {
+      word: 'PRESUMABLY',
+      partOfSpeech: 'adverb',
+      definition: "You think this is probably true — but you are not 100% sure because you cannot check right now.",
+      example: "Presumably they changed their strategy after the first loss — their second match looked completely different.",
+      imageSlug: '/images/roblox-hedging-language-presumably.png',
+    },
+    {
+      word: 'SEEM',
+      partOfSpeech: 'verb',
+      definition: "To appear to be something — based on what you can see or feel, but not certain.",
+      example: "The new approach seems to be working — response times are faster and coordination has improved.",
+      imageSlug: '/images/roblox-hedging-language-seem.png',
+    },
+    {
+      word: 'SUGGEST',
+      partOfSpeech: 'verb',
+      definition: "When evidence points to something — when the data or facts make something seem likely.",
+      example: "The match data suggests that the turning point was the third round, when two key players were offline.",
+      imageSlug: '/images/roblox-hedging-language-suggest.png',
+    },
+    {
+      word: 'BROADLY',
+      partOfSpeech: 'adverb',
+      definition: "In general — in most cases, but not in every single one.",
+      example: "Broadly speaking, the guild's performance this season has improved — there are some exceptions, but the trend is clear.",
+      imageSlug: '/images/roblox-hedging-language-broadly.png',
+    },
+    {
+      word: 'QUALIFIED',
+      partOfSpeech: 'adjective',
+      definition: "Limited — not completely and not in every case. Used for statements that are only partly true.",
+      example: "The feedback was qualified — the strategy was praised overall, but with some concerns about the final phase.",
+      imageSlug: '/images/roblox-hedging-language-qualified.png',
+    },
+  ],
+
+  irlVocabulary: [
+    {
+      word: 'ARGUABLY',
+      partOfSpeech: 'adverb',
+      definition: "You could say this is true — but other people might disagree.",
+      example: "Arguably, the most important factor in customer retention is not the product itself but the quality of the support.",
+      imageSlug: '/images/roblox-hedging-language-arguably-irl.png',
+    },
+    {
+      word: 'TEND TO',
+      partOfSpeech: 'verb phrase',
+      definition: "Usually do something — but not always. Used to talk about what happens most of the time.",
+      example: "Clients who receive a personalised onboarding experience tend to stay longer and spend more over time.",
+      imageSlug: '/images/roblox-hedging-language-tend-to-irl.png',
+    },
+    {
+      word: 'APPARENTLY',
+      partOfSpeech: 'adverb',
+      definition: "From what you have heard or seen — but you are not completely certain it is true.",
+      example: "Apparently the competitor is planning to launch a similar product next quarter — I have not seen the announcement yet.",
+      imageSlug: '/images/roblox-hedging-language-apparently-irl.png',
+    },
+    {
+      word: 'PRESUMABLY',
+      partOfSpeech: 'adverb',
+      definition: "You think this is probably true — but you are not 100% sure because you cannot check right now.",
+      example: "Presumably the delay is related to the supplier issue — we are still waiting for confirmation from the logistics team.",
+      imageSlug: '/images/roblox-hedging-language-presumably-irl.png',
+    },
+    {
+      word: 'SEEM',
+      partOfSpeech: 'verb',
+      definition: "To appear to be something — based on what you can see or feel, but not certain.",
+      example: "The new pricing model seems to be resonating with enterprise clients — early feedback is more positive than we expected.",
+      imageSlug: '/images/roblox-hedging-language-seem-irl.png',
+    },
+    {
+      word: 'SUGGEST',
+      partOfSpeech: 'verb',
+      definition: "When evidence points to something — when data or facts make something seem likely.",
+      example: "The survey data suggests that price sensitivity is not the main barrier — it is more about lack of awareness.",
+      imageSlug: '/images/roblox-hedging-language-suggest-irl.png',
+    },
+    {
+      word: 'BROADLY',
+      partOfSpeech: 'adverb',
+      definition: "In general — in most cases, but not in every single one.",
+      example: "Broadly speaking, the campaign was a success — awareness metrics are up across all key demographics.",
+      imageSlug: '/images/roblox-hedging-language-broadly-irl.png',
+    },
+    {
+      word: 'QUALIFIED',
+      partOfSpeech: 'adjective',
+      definition: "Limited — not completely and not in every case. Used for statements that are only partly true.",
+      example: "The board gave a qualified approval to the proposal — they agreed in principle but wanted two conditions met first.",
+      imageSlug: '/images/roblox-hedging-language-qualified-irl.png',
+    },
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: "TONE DOWN",
+      definition: "To make something less strong, less extreme, or less direct — to soften it.",
+      example: "Leo toned down his criticism of the strategy — he still disagreed, but said it in a way that was easier to hear.",
+      inGame: "In team chat, toning down a strong criticism ('this was terrible' → 'this could be improved') keeps the conversation going rather than ending it.",
+      inRealLife: "The manager asked her to tone down the report's conclusion — it was accurate but too direct for the executive audience.",
+      imageSlug: '/images/roblox-hedging-language-tone-down.png',
+    },
+    {
+      phrase: "HOLD BACK",
+      definition: "To not say or do the full thing — to keep something back and not release it completely.",
+      example: "Mia held back her strongest criticism — she gave just enough feedback to be useful without causing conflict.",
+      inGame: "Sometimes holding back a fully negative reaction and giving partial feedback is the smarter move in team dynamics.",
+      inRealLife: "He held back his full concerns in the meeting, deciding to raise them privately with the manager afterwards.",
+      imageSlug: '/images/roblox-hedging-language-hold-back.png',
+    },
+    {
+      phrase: "LEAVE ROOM FOR",
+      definition: "To not be so definite that you block the possibility of something else — to keep options open.",
+      example: "Her analysis was careful — she stated the likely cause but left room for other explanations to emerge.",
+      inGame: "When presenting a post-match analysis, leave room for other factors — one explanation rarely covers everything.",
+      inRealLife: "The forecast left room for a slower growth scenario — the team acknowledged there were unknowns in the market.",
+      imageSlug: '/images/roblox-hedging-language-leave-room-for.png',
+    },
+    {
+      phrase: "COME ACROSS AS",
+      definition: "The impression someone gives — how they seem to others, whether intentionally or not.",
+      example: "When you hedge too little in a discussion, you can come across as arrogant or closed to other views.",
+      inGame: "How you phrase feedback in team chat affects how you come across — the same point can sound supportive or dismissive.",
+      inRealLife: "She wanted to sound confident but not aggressive — the choice of words changed how she came across completely.",
+      imageSlug: '/images/roblox-hedging-language-come-across-as.png',
+    },
+    {
+      phrase: "PUT FORWARD",
+      definition: "To offer an idea or suggestion for others to consider — not to demand, but to propose.",
+      example: "Leo put forward the idea of changing the raid time as a suggestion, not a decision — he wanted the guild to decide.",
+      inGame: "Putting a strategy forward as a suggestion rather than a command usually gets more buy-in from the team.",
+      inRealLife: "She put forward a revised timeline as a proposal and asked the team to give their input before it was finalised.",
+      imageSlug: '/images/roblox-hedging-language-put-forward.png',
+    },
+    {
+      phrase: "SIT ON THE FENCE",
+      definition: "To deliberately avoid giving a clear opinion or choosing a side — to stay neutral.",
+      example: "When asked whether the ban was fair, Mia sat on the fence — she could see both sides and did not want to take one.",
+      inGame: "Sometimes sitting on the fence in a guild dispute is the right call — you do not have all the information.",
+      inRealLife: "The consultant sat on the fence on the pricing question, saying it depended on factors the client needed to define first.",
+      imageSlug: '/images/roblox-hedging-language-sit-on-the-fence.png',
+    },
+  ],
+
+  warmUp: {
+    questions: [
+      "Think of something you believe is probably true but you are not 100% certain about. How would you say it in English? Would you say it differently from a fact?",
+      "Have you ever said something very directly that caused a negative reaction? How might hedging have changed the situation?",
+      "In your culture, is it common to soften opinions before sharing them? Is there a word or phrase you use that is similar to hedging in English?",
+    ],
+  },
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Leo, I need to give the guild feedback on last night. But every time I say something directly, people get defensive.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "The problem might be that you're stating opinions as facts. English has a lot of tools to soften a statement without making it weak. It's called hedging.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "What do I do — just add 'maybe' everywhere?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "No — that sounds weak. There are smarter tools. Try: 'It could be argued that our communication broke down in the final round.' You're putting the idea forward — not owning it completely — but it's still clear.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "So it leaves room for the other person to agree or disagree instead of immediately feeling attacked.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Exactly. Or use [[tend to:usually do something — but not always]]: 'Teams that [[broadly:in general — in most cases]] communicate well [[tend to:usually do something — but not always]] perform better in the final round.' Not always. Not everyone. But in most cases.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "What about things I've heard but I'm not sure are true? Like — [[apparently:from what you've heard or seen, but not certain]] the other guild is changing their roster?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "APPARENTLY works when you've heard it from someone. PRESUMABLY works when you've seen evidence and are drawing a logical conclusion. 'Presumably they changed their approach — their second match looked very different from their first.'",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "And data? Like — the stats [[suggest:when evidence points to something]]...",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "'The data [[suggest:when evidence points to something]]s the turning point was round three.' Perfect — SUGGEST for evidence-based conclusions. And [[arguably:you could say this is true, but others might disagree]], the most important tool is knowing when NOT to hedge. If you know something is true, say it directly. Hedging everything makes you [[come across as:the impression someone gives]] uncertain even when you are not.",
+    },
+  ],
+
+  completeSentenceExercise: {
+    instructions: "Choose the best hedging word or phrase for each sentence.",
+    items: [
+      {
+        sentence: "_____, the main cause of the loss was the lack of coordination in the first phase — though others might disagree.",
+        options: ["Definitely", "Arguably", "Certainly"],
+        correctIndex: 1,
+        explanation: "ARGUABLY presents a view that others could challenge — which is exactly what the sentence says ('though others might disagree'). DEFINITELY and CERTAINLY are the opposite of hedging — they claim certainty.",
+      },
+      {
+        sentence: "Teams with strong communication _____ recover more quickly from a setback than those who play individually.",
+        options: ["always", "tend to", "obviously"],
+        correctIndex: 1,
+        explanation: "TEND TO means usually, in most cases — not always. This hedges the claim accurately: communication generally helps recovery, but not in 100% of cases. ALWAYS is an absolute claim; OBVIOUSLY is not a hedge.",
+      },
+      {
+        sentence: "The match data _____ that the turning point was the team's decision to shift formation in round four.",
+        options: ["proves", "suggests", "guarantees"],
+        correctIndex: 1,
+        explanation: "SUGGESTS means the evidence points to this conclusion — without claiming 100% certainty. Data can rarely PROVE or GUARANTEE conclusions in real-world situations.",
+      },
+      {
+        sentence: "_____, the new strategy is working — response times are down and coordination is better.",
+        options: ["It seems that", "Obviously", "Without doubt"],
+        correctIndex: 0,
+        explanation: "IT SEEMS THAT hedges based on observable evidence — the strategy appears to work from what we can see, but we are not claiming certainty. OBVIOUSLY and WITHOUT DOUBT are the opposite of hedging.",
+      },
+      {
+        sentence: "_____, the server issues were the reason — though I have not been able to confirm this with the admin team.",
+        options: ["Presumably", "Arguably", "Broadly"],
+        correctIndex: 0,
+        explanation: "PRESUMABLY is the right hedge when you are making a logical inference but have not confirmed the fact. The sentence explicitly says it has not been confirmed — PRESUMABLY is the natural signal for this.",
+      },
+      {
+        sentence: "_____ speaking, the guild's performance has improved this season — there are some exceptions, but the overall trend is clear.",
+        options: ["Broadly", "Arguably", "Apparently"],
+        correctIndex: 0,
+        explanation: "BROADLY SPEAKING is the correct phrase for a generalisation that admits exceptions. The sentence structure ('there are some exceptions, but...') is a classic broadly-speaking context.",
+      },
+    ],
+  },
+
+  matchingExercise: [
+    { word: 'ARGUABLY', definition: 'You could say this is true — but other people might disagree' },
+    { word: 'TEND TO', definition: 'Usually do something — not always, but in most cases' },
+    { word: 'APPARENTLY', definition: 'From what you have heard or seen — but not certain it is true' },
+    { word: 'PRESUMABLY', definition: 'You think this is probably true — logical conclusion, not confirmed' },
+    { word: 'SEEM', definition: 'To appear to be something — based on evidence, but not certain' },
+    { word: 'SUGGEST', definition: 'When data or evidence points to a conclusion — without claiming certainty' },
+    { word: 'BROADLY', definition: 'In general — in most cases, but not in every single one' },
+    { word: 'QUALIFIED', definition: 'Limited — not complete; a statement that is only partly true' },
+  ],
+
+  fillBlankExercise: [
+    { before: "", answer: 'Arguably', after: ", communication matters more than individual skill — but some top players would strongly disagree." },
+    { before: "Players who train regularly", answer: 'tend to', after: "perform more consistently in high-pressure matches than those who only practise occasionally." },
+    { before: "The match data", answer: 'suggests', after: "that the team's coordination broke down around the twelve-minute mark of the final round." },
+    { before: "", answer: 'Apparently', after: ", the rival guild has been practising a completely new formation — though nobody has seen it confirmed officially." },
+    { before: "The new training schedule", answer: 'seems to', after: "be working — the team is making fewer errors in the opening rounds than before." },
+    { before: "", answer: 'Presumably', after: ", they changed their approach after the last loss — their performance this week was completely different." },
+    { before: "", answer: 'Broadly', after: "speaking, the season has been positive — there have been some difficult matches, but the overall trend is upwards." },
+    { before: "The approval was", answer: 'qualified', after: "— the committee agreed with the main proposal but had concerns about two specific elements." },
+  ],
+
+  multipleChoiceExercise: [
+    {
+      question: "What is the main purpose of hedging language?",
+      options: [
+        "To avoid saying anything that might be wrong by never committing to a position.",
+        "To soften a statement — to show appropriate uncertainty and leave room for other views.",
+        "To sound more academic and formal in any situation.",
+        "To make disagreement impossible by removing strong opinions.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What is the difference between APPARENTLY and PRESUMABLY?",
+      options: [
+        "APPARENTLY is formal; PRESUMABLY is informal.",
+        "APPARENTLY is used when you have heard something from others; PRESUMABLY is used when you are drawing a logical conclusion from evidence.",
+        "APPARENTLY is used for facts; PRESUMABLY is for opinions.",
+        "There is no difference — they are perfect synonyms.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Which sentence is OVER-HEDGED?",
+      options: [
+        "It could be argued that the strategy needs reviewing.",
+        "The data suggests a link between training time and results.",
+        "It might perhaps possibly be the case that this could arguably be the better approach.",
+        "Arguably, communication is the key factor in close matches.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "What does SIT ON THE FENCE mean?",
+      options: [
+        "To stay neutral and deliberately avoid giving a clear opinion.",
+        "To hedge a statement by adding a qualifying adverb.",
+        "To wait for more information before making a final decision.",
+        "To argue a position very firmly and refuse to change it.",
+      ],
+      correctIndex: 0,
+    },
+    {
+      question: "When should you NOT use hedging?",
+      options: [
+        "When you are presenting a view that other people might disagree with.",
+        "When you know something is definitely true and want to state it with confidence.",
+        "When you are summarising data that points to a conclusion.",
+        "When discussing general tendencies that apply in most but not all cases.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What does COME ACROSS AS mean?",
+      options: [
+        "To travel from one place to another to meet someone.",
+        "To find something unexpectedly.",
+        "The impression you give to others — how you seem to them.",
+        "To move from one side of an argument to the other.",
+      ],
+      correctIndex: 2,
+    },
+  ],
+};

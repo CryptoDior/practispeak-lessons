@@ -1,0 +1,401 @@
+import { Lesson } from '@/types/lesson';
+
+export const robloxRegisterAwarenessIi: Lesson = {
+  slug: 'roblox-register-awareness-ii',
+  title: "Register Awareness II — Code-Switching",
+  subtitle: "You just spent four hours on Roblox. Now your mum is asking about your day. Can you explain what you were doing — in language she actually understands?",
+  level: 'B1-B2',
+  description: "Code-switching is the ability to change how you speak depending on who you are talking to. You already do it in your own language. At B2, you need to do it in English too — moving smoothly between the casual language you use with friends in-game and the clear, respectful language you use with a teacher or parent. This lesson practises exactly that switch.",
+  heroImage: '/images/roblox-register-awareness-ii-hero.png',
+
+  grammarFocus: {
+    focusTitle: 'Focus: Code-switching — same meaning, different language',
+    description: "Code-switching means changing your language level depending on the situation. When you talk to a friend in game, you use short, fast, casual language — slang, abbreviations, and gaming terms. When you talk to a teacher or parent, you use longer sentences, clearer words, and a more polite tone. The MEANING is the same. The LANGUAGE is completely different.",
+    positivePattern: 'Same idea → different register for different audiences',
+    positiveExample: 'Friend: "I got griefed so hard lol, had to respawn like 5 times." / Parent: "Another player kept destroying my buildings, so I had to start again several times."',
+    negativePattern: 'Wrong register for the audience',
+    negativeExample: 'Teacher: "So basically I was grinding and then this griefer just wrecked everything lol." ✗',
+    positiveLabel: 'CORRECT — register matches the audience',
+    negativeLabel: 'WRONG — gaming slang in a formal or polite situation',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: 'Friend: "The lag was so bad I kept dying for no reason." / Teacher: "The connection quality affected the game significantly — I was disconnected several times."', note: 'same experience, two completely different registers' },
+      { sentence: 'Friend: "Bro we clutched it in the last second!" / Parent: "We managed to win right at the very end — it was very close."', note: 'casual excitement → calm, clear explanation' },
+      { sentence: 'Friend: "That update totally ruined the meta." / Teacher: "The recent update changed the game balance significantly, which affected how most players compete."', note: 'technical gaming language → clear general English' },
+    ],
+    negativeExamples: [
+      { sentence: '"Miss, the meta got destroyed by the update lol." ✗', note: 'meta and lol are gaming/internet language — not appropriate for a teacher' },
+      { sentence: '"Bro I cannot explain it, you would not understand." ✗', note: 'giving up is not code-switching — rephrase in words the listener knows' },
+      { sentence: '"Hey Dad basically the server admin was being super toxic and I got banned for no reason." ✗', note: 'toxic and server admin need to be explained — do not assume the listener knows gaming terms' },
+    ],
+  },
+
+  vocabulary: [
+    {
+      word: 'CODE-SWITCH',
+      partOfSpeech: 'verb',
+      definition: "To change the way you speak depending on who you are talking to.",
+      example: "She code-switched perfectly — casual and relaxed in the team chat, clear and professional when talking to the tournament organiser.",
+      imageSlug: '/images/roblox-register-awareness-ii-code-switch.png',
+    },
+    {
+      word: 'FORMAL',
+      partOfSpeech: 'adjective',
+      definition: "Using polite, careful language — the right way to speak with teachers, strangers, or in important situations.",
+      example: "When he wrote to the server administrator about the bug, he kept his language formal — no slang, full sentences, polite tone.",
+      imageSlug: '/images/roblox-register-awareness-ii-formal.png',
+    },
+    {
+      word: 'CASUAL',
+      partOfSpeech: 'adjective',
+      definition: "Relaxed and friendly — the way you normally speak with people you know well.",
+      example: "In the guild Discord, the conversation is always casual — quick messages, jokes, and short replies.",
+      imageSlug: '/images/roblox-register-awareness-ii-casual.png',
+    },
+    {
+      word: 'APPROPRIATE',
+      partOfSpeech: 'adjective',
+      definition: "Right for the situation — the correct thing to say or do at that moment.",
+      example: "Using 'lol' and 'brb' is appropriate with friends, but not in a message to a teacher or an event organiser.",
+      imageSlug: '/images/roblox-register-awareness-ii-appropriate.png',
+    },
+    {
+      word: 'REPHRASE',
+      partOfSpeech: 'verb',
+      definition: "To say the same thing again using different words — usually simpler or clearer words.",
+      example: "When her mum did not understand what 'griefing' meant, Mia rephrased it: 'Someone kept destroying everything I built on purpose.'",
+      imageSlug: '/images/roblox-register-awareness-ii-rephrase.png',
+    },
+    {
+      word: 'ABBREVIATION',
+      partOfSpeech: 'noun',
+      definition: "A short form of a word or phrase — like 'brb' for 'be right back' or 'lol' for 'laughing out loud'.",
+      example: "Abbreviations like 'gg', 'afk', and 'rq' are normal in gaming chat but mean nothing to someone outside the community.",
+      imageSlug: '/images/roblox-register-awareness-ii-abbreviation.png',
+    },
+    {
+      word: 'AUDIENCE',
+      partOfSpeech: 'noun',
+      definition: "The person or people you are speaking or writing to.",
+      example: "Before you speak, always think about your audience — a parent needs different language than a teammate.",
+      imageSlug: '/images/roblox-register-awareness-ii-audience.png',
+    },
+    {
+      word: 'CONTEXT',
+      partOfSpeech: 'noun',
+      definition: "The situation that helps you know what is the right thing to say or do.",
+      example: "Context decides register — the same story needs completely different language in a tournament report versus a friend's DM.",
+      imageSlug: '/images/roblox-register-awareness-ii-context.png',
+    },
+  ],
+
+  irlVocabulary: [
+    {
+      word: 'CODE-SWITCH',
+      partOfSpeech: 'verb',
+      definition: "To change the way you speak depending on who you are talking to.",
+      example: "He code-switched naturally at the job interview — professional and clear with the panel, then relaxed and funny with his friends afterwards.",
+      imageSlug: '/images/roblox-register-awareness-ii-code-switch-irl.png',
+    },
+    {
+      word: 'FORMAL',
+      partOfSpeech: 'adjective',
+      definition: "Using polite, careful language — the right way to speak with teachers, strangers, or in important situations.",
+      example: "Her email to the university admissions office was formal — she re-read it three times to make sure the tone was right.",
+      imageSlug: '/images/roblox-register-awareness-ii-formal-irl.png',
+    },
+    {
+      word: 'CASUAL',
+      partOfSpeech: 'adjective',
+      definition: "Relaxed and friendly — the way you normally speak with people you know well.",
+      example: "Their Friday afternoon meetings are kept casual — no presentations, just a round-table conversation about the week.",
+      imageSlug: '/images/roblox-register-awareness-ii-casual-irl.png',
+    },
+    {
+      word: 'APPROPRIATE',
+      partOfSpeech: 'adjective',
+      definition: "Right for the situation — the correct thing to say or do at that moment.",
+      example: "It is not always appropriate to use humour in a professional email — read the situation before you write.",
+      imageSlug: '/images/roblox-register-awareness-ii-appropriate-irl.png',
+    },
+    {
+      word: 'REPHRASE',
+      partOfSpeech: 'verb',
+      definition: "To say the same thing again using different words — usually simpler or clearer words.",
+      example: "The doctor rephrased the diagnosis in plain language so the patient could understand it without medical training.",
+      imageSlug: '/images/roblox-register-awareness-ii-rephrase-irl.png',
+    },
+    {
+      word: 'ABBREVIATION',
+      partOfSpeech: 'noun',
+      definition: "A short form of a word or phrase.",
+      example: "In a formal report, avoid abbreviations — write 'as soon as possible' in full rather than 'ASAP'.",
+      imageSlug: '/images/roblox-register-awareness-ii-abbreviation-irl.png',
+    },
+    {
+      word: 'AUDIENCE',
+      partOfSpeech: 'noun',
+      definition: "The person or people you are speaking or writing to.",
+      example: "Always write for your audience — a report for executives needs a different tone than one for the technical team.",
+      imageSlug: '/images/roblox-register-awareness-ii-audience-irl.png',
+    },
+    {
+      word: 'CONTEXT',
+      partOfSpeech: 'noun',
+      definition: "The situation that helps you know what is the right thing to say or do.",
+      example: "Context is everything in communication — the same complaint sounds professional or rude depending on how you frame it.",
+      imageSlug: '/images/roblox-register-awareness-ii-context-irl.png',
+    },
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: "TONE DOWN",
+      definition: "To make your language less strong, less casual, or less extreme for the situation.",
+      example: "She toned down her message before sending it to the tournament officials — the first draft was too informal.",
+      inGame: "When writing a report to the server moderators, tone down the anger you feel — facts work better than complaints.",
+      inRealLife: "He toned down his presentation style for the board meeting — less energy, more data, shorter sentences.",
+      imageSlug: '/images/roblox-register-awareness-ii-tone-down.png',
+    },
+    {
+      phrase: "SWITCH TO",
+      definition: "To change from one style, mode, or way of speaking to another.",
+      example: "The moment the teacher walked over, Leo switched to full English sentences — no more abbreviations.",
+      inGame: "Practise switching to formal English when describing your game — it is a skill that will help you in many real situations.",
+      inRealLife: "She switched to a slower, clearer pace of speech when she realised the client was not a native English speaker.",
+      imageSlug: '/images/roblox-register-awareness-ii-switch-to.png',
+    },
+    {
+      phrase: "SPEAK TO",
+      definition: "To use language that is right for a specific person or group — to match your audience.",
+      example: "A good explanation speaks to the person listening — not the person talking.",
+      inGame: "When you present your guild results to new members, make sure you speak to their level — not everyone knows the advanced terms.",
+      inRealLife: "The best teachers speak to their students — they use examples and language that match the group they are teaching.",
+      imageSlug: '/images/roblox-register-awareness-ii-speak-to.png',
+    },
+    {
+      phrase: "CUT OUT",
+      definition: "To remove words or phrases that are not right for the situation.",
+      example: "Before the formal message, Mia cut out all the abbreviations and slang — 'brb' became 'I will return shortly'.",
+      inGame: "Cut out gaming slang when explaining Roblox to a non-gamer — replace with simple words they will understand.",
+      inRealLife: "His editor cut out all the informal phrases from the article — it was written for an academic audience.",
+      imageSlug: '/images/roblox-register-awareness-ii-cut-out.png',
+    },
+    {
+      phrase: "WATCH OUT FOR",
+      definition: "To be careful and pay attention to something that might cause a problem.",
+      example: "Watch out for gaming abbreviations in formal writing — 'gg' and 'afk' mean nothing to someone outside gaming culture.",
+      inGame: "Watch out for casual habits when writing to admins or organisers — they notice the tone immediately.",
+      inRealLife: "Watch out for jargon when presenting to a mixed audience — not everyone in the room will know the technical terms.",
+      imageSlug: '/images/roblox-register-awareness-ii-watch-out-for.png',
+    },
+    {
+      phrase: "ADAPT TO",
+      definition: "To change your language or behaviour to fit the situation or the person you are with.",
+      example: "Good communicators adapt to every audience — they do not use the same style in every conversation.",
+      inGame: "Adapting to different servers means more than changing your playstyle — it also means changing how you communicate.",
+      inRealLife: "She adapted to every client's communication style — some wanted brief emails, others wanted detailed explanations.",
+      imageSlug: '/images/roblox-register-awareness-ii-adapt-to.png',
+    },
+  ],
+
+  warmUp: {
+    questions: [
+      "Has a parent or teacher ever asked you about something you do online and you did not know how to explain it? What happened? How did you handle it?",
+      "Do you change the way you speak in English depending on who you are with? Give an example of something you would say to a friend but not to a teacher.",
+      "In your own language, do you code-switch? Think of a time when you changed how you spoke because of who was listening.",
+    ],
+  },
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Leo, my teacher asked me today what I spend my time on after school. I said 'mostly grinding ranked and doing guild stuff' and she just stared at me.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "That is a classic register problem. The words were [[appropriate:right and correct]] for a teammate — but completely wrong for a teacher. She has no [[context:situation that helps you understand the meaning]] for 'grinding' or 'guild'.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "So what should I have said? I cannot just say 'I play video games' — that does not explain anything.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "You need to [[rephrase:say the same thing again using different words]] for your [[audience:the person or people you are speaking to]]. 'I practise competitive gaming most evenings, and I also help organise and manage a team of players online.' That says exactly the same thing — in language she understands.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "That sounds so... [[formal:polite and careful — right for teachers and strangers]]. It does not sound like me.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "It does not need to sound like you in a game chat. It needs to sound like you talking to a teacher. That is [[code-switching:changing the way you speak depending on who you are talking to]] — and it is a skill. You switch automatically in your own language. In English, you need to practise it.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "What about [[abbreviations:short forms of words like 'brb' or 'lol']]? I sometimes use them without thinking.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Cut them out completely in formal situations. 'lol', 'brb', 'afk' — these are [[casual:relaxed and friendly — right for people you know well]] language. In a message to a teacher or official, they look careless. [[Tone down:make your language less casual and more careful]] everything before you send it. Read it back and ask: would I be happy if my teacher read this?",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "That is actually a really useful test. Okay — I will try explaining my gaming life to you as if you are my mum. Ready? 'I spend most evenings practising team coordination in an online strategy game. I am part of a competitive group that I help manage.'",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Perfect. That is exactly right. Same you. Different words. That is code-switching.",
+    },
+  ],
+
+  completeSentenceExercise: {
+    instructions: "Choose the word that best completes each sentence.",
+    items: [
+      {
+        sentence: "When she sent a message to the tournament organiser, she made sure her language was _____ — full sentences, polite tone, no slang.",
+        options: ["casual", "formal", "abbreviated"],
+        correctIndex: 1,
+        explanation: "FORMAL means polite, careful language suitable for official or professional situations. The sentence describes exactly that: full sentences, polite tone, no slang.",
+      },
+      {
+        sentence: "In the team Discord, the conversation is always _____ — short messages, jokes, and quick replies.",
+        options: ["formal", "appropriate", "casual"],
+        correctIndex: 2,
+        explanation: "CASUAL means relaxed and friendly — the way you speak with people you know well. Team Discord with jokes and short messages = casual register.",
+      },
+      {
+        sentence: "Using 'lol' and 'brb' is fine with friends, but it is not _____ in a message to a teacher.",
+        options: ["appropriate", "casual", "formal"],
+        correctIndex: 0,
+        explanation: "APPROPRIATE means right for the situation. 'Lol' and 'brb' are not appropriate (not suitable) in a message to a teacher — that is the point of the sentence.",
+      },
+      {
+        sentence: "When her mum did not understand 'griefing', Mia _____ it as 'someone who destroys other people's work on purpose'.",
+        options: ["switched to", "rephrased", "cut out"],
+        correctIndex: 1,
+        explanation: "REPHRASED means said the same thing again using different, clearer words — exactly what Mia did when she translated 'griefing' into plain language.",
+      },
+      {
+        sentence: "Before sending the message, she _____ all the gaming abbreviations and replaced them with full words.",
+        options: ["adapted to", "cut out", "toned down"],
+        correctIndex: 1,
+        explanation: "CUT OUT means to remove words or phrases that are not right for the situation — she removed the abbreviations entirely.",
+      },
+      {
+        sentence: "The best communicators _____ any audience — they never use the same style in every conversation.",
+        options: ["switch to", "watch out for", "adapt to"],
+        correctIndex: 2,
+        explanation: "ADAPT TO means to change your language or behaviour to fit the situation or person. The sentence describes someone who changes style for every audience = adapt to.",
+      },
+    ],
+  },
+
+  matchingExercise: [
+    { word: 'CODE-SWITCH', definition: 'To change the way you speak depending on who you are talking to' },
+    { word: 'FORMAL', definition: 'Using polite, careful language — right for teachers, strangers, or important situations' },
+    { word: 'CASUAL', definition: 'Relaxed and friendly — the way you normally speak with people you know well' },
+    { word: 'APPROPRIATE', definition: 'Right for the situation — the correct thing to say or do at that moment' },
+    { word: 'REPHRASE', definition: 'To say the same thing again using different, usually simpler or clearer words' },
+    { word: 'ABBREVIATION', definition: 'A short form of a word or phrase, like "brb" for "be right back"' },
+    { word: 'AUDIENCE', definition: 'The person or people you are speaking or writing to' },
+    { word: 'CONTEXT', definition: 'The situation that helps you know what is the right thing to say or do' },
+  ],
+
+  fillBlankExercise: [
+    { before: "Great communicators always", answer: 'code-switch', after: "— the language they use with friends is very different from what they use with colleagues or teachers." },
+    { before: "Her message to the server admin was completely", answer: 'formal', after: "— she even avoided contractions like 'don't' and wrote 'do not' instead." },
+    { before: "Guild chat is always", answer: 'casual', after: "— it is a relaxed space where people joke around and use gaming slang freely." },
+    { before: "Using gaming abbreviations is not", answer: 'appropriate', after: "when writing to a teacher or a tournament official." },
+    { before: "She quickly", answer: 'rephrased', after: "her explanation when she saw her dad did not understand what 'ranked mode' meant." },
+    { before: "He cut out every", answer: 'abbreviation', after: "before submitting his written report — 'ASAP' became 'as soon as possible'." },
+    { before: "Always think about your", answer: 'audience', after: "before you speak — the same information needs different language for different people." },
+    { before: "The", answer: 'context', after: "tells you everything — a celebration in the team chat needs completely different language from a complaint to a moderator." },
+  ],
+
+  multipleChoiceExercise: [
+    {
+      question: "What is code-switching?",
+      options: [
+        "Changing from one programming language to another.",
+        "Switching between different games depending on your mood.",
+        "Changing the way you speak depending on who you are talking to and the situation.",
+        "Using secret language that only your gaming group understands.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "In the dialogue, Leo suggests Mia says: 'I practise competitive gaming most evenings, and I also help organise and manage a team of players online.' Why is this better for a teacher?",
+      options: [
+        "Because it is longer and more detailed than the original.",
+        "Because it uses plain, clear words that anyone can understand — no gaming slang.",
+        "Because it makes gaming sound more impressive and important.",
+        "Because it uses formal grammar that teachers prefer.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Which of the following is an example of REPHRASING for a non-gaming audience?",
+      options: [
+        "Saying 'I got griefed' louder so the person understands.",
+        "Saying 'Someone kept coming to my area and destroying everything I built, just to annoy me.'",
+        "Saying 'I got griefed — you know, griefed?' and hoping they work it out.",
+        "Avoiding the subject entirely because it is too hard to explain.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Which sentence has the WRONG register for talking to a teacher?",
+      options: [
+        "'I spend most evenings practising in an online game with a competitive team.'",
+        "'Miss, we basically got rekt by this toxic guild and had to rage-quit lol.'",
+        "'The game I play involves strategic team coordination and real-time decision-making.'",
+        "'I find the competitive aspect of online gaming genuinely motivating.'",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What does TONE DOWN mean in the context of register?",
+      options: [
+        "To speak more quietly so you do not disturb people.",
+        "To change the musical key of what you are saying.",
+        "To make your language less casual, less extreme, or less strong for the situation.",
+        "To remove all emotion from your writing so it sounds professional.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "Leo says 'You switch automatically in your own language. In English, you need to practise it.' What does this mean?",
+      options: [
+        "Code-switching is natural in your first language but requires conscious practice in a second language.",
+        "English has more registers than other languages, so it is harder to learn.",
+        "You should only code-switch in your own language and keep English casual at all times.",
+        "Native English speakers code-switch better than learners — it cannot be learned.",
+      ],
+      correctIndex: 0,
+    },
+  ],
+};

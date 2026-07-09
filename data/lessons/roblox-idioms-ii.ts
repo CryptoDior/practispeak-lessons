@@ -1,0 +1,390 @@
+import { Lesson } from '@/types/lesson';
+
+export const robloxIdiomsIi: Lesson = {
+  slug: 'roblox-idioms-ii',
+  title: "Idioms II — Competition & Achievement",
+  subtitle: "Raise the bar. Up your game. Step up. These are not just gaming phrases — they are how English speakers talk about any kind of progress or success.",
+  level: 'B1-B2',
+  description: "English is full of idioms about competition and achievement — and many of them fit perfectly in Roblox. Knowing phrases like 'raise the bar', 'hit your stride', and 'in a league of your own' lets you talk about performance and progress the way fluent speakers do: not with plain descriptions, but with vivid, natural expressions.",
+  heroImage: '/images/roblox-idioms-ii-hero.png',
+
+  grammarFocus: {
+    focusTitle: 'Focus: Achievement Idioms — meaning vs literal reading',
+    description: "Achievement idioms describe performance, progress, and competition. Like all idioms, their meaning is NOT the same as the words alone. 'Raise the bar' does not mean lifting an object — it means setting a higher standard. These idioms work in games, school, sports, and work.",
+    positivePattern: 'Idiom → hidden meaning about performance',
+    positiveExample: '"She raised the bar" = she set a new, higher standard for everyone',
+    negativePattern: 'Literal reading → wrong meaning',
+    negativeExample: '"She raised the bar" ≠ she lifted a metal rod',
+    positiveLabel: 'IDIOM MEANING — about performance and standards',
+    negativeLabel: 'LITERAL MEANING — always wrong for these phrases',
+    arrowStyle: true,
+    positiveExamples: [
+      { sentence: '"That guild has raised the bar — every other team needs to catch up."', note: 'raised the bar = set a higher standard that others must now reach' },
+      { sentence: '"You really need to up your game if you want to stay in the top ten."', note: 'up your game = start playing better than you are right now' },
+      { sentence: '"She is in a league of her own at this game — no one even comes close."', note: 'in a league of your own = so good that no one else is at the same level' },
+      { sentence: '"He hit his stride in round three and never looked back."', note: 'hit your stride = reach your best level after a slow start' },
+    ],
+    negativeExamples: [
+      { sentence: '"She went to a higher bar." ✗ (as translation of "raised the bar")', note: 'the bar here means the standard or level — not a physical bar' },
+      { sentence: '"He improved his sport." ✗ (as translation of "up your game")', note: 'up your game has no physical object — it means perform better' },
+      { sentence: '"They are in a different sports league." ✗ (as translation of "in a league of your own")', note: 'this idiom means unique level of quality — nothing to do with a sports organisation' },
+    ],
+  },
+
+  vocabulary: [
+    {
+      word: 'RAISE THE BAR',
+      partOfSpeech: 'idiom',
+      definition: "To set a new, higher standard that others must now try to reach.",
+      example: "The new Phoenix Force raid raised the bar for cooperative play — every other guild is trying to match it.",
+      imageSlug: '/images/roblox-idioms-ii-raise-the-bar.png',
+    },
+    {
+      word: 'UP YOUR GAME',
+      partOfSpeech: 'idiom',
+      definition: "To start performing better than you are right now.",
+      example: "If you want to make it into the top squad, you are going to have to up your game significantly.",
+      imageSlug: '/images/roblox-idioms-ii-up-your-game.png',
+    },
+    {
+      word: 'STEP UP',
+      partOfSpeech: 'idiom',
+      definition: "To take action or take control when it is needed — especially in a hard situation.",
+      example: "When our leader went offline in the final round, Leo stepped up and took charge — we won because of him.",
+      imageSlug: '/images/roblox-idioms-ii-step-up.png',
+    },
+    {
+      word: 'RISE TO THE CHALLENGE',
+      partOfSpeech: 'idiom',
+      definition: "To do well when something is very hard or new — to show you can handle it.",
+      example: "Nobody expected the rookie team to rise to the challenge, but they played the best match of the season.",
+      imageSlug: '/images/roblox-idioms-ii-rise-to-the-challenge.png',
+    },
+    {
+      word: 'IN A LEAGUE OF YOUR OWN',
+      partOfSpeech: 'idiom',
+      definition: "So much better than everyone else that no one is at the same level as you.",
+      example: "Mia's building speed is in a league of its own — she completes structures faster than any other player in the server.",
+      imageSlug: '/images/roblox-idioms-ii-in-a-league-of-your-own.png',
+    },
+    {
+      word: 'GO THE EXTRA MILE',
+      partOfSpeech: 'idiom',
+      definition: "To try harder than you need to — to do more than what is expected.",
+      example: "The server admin goes the extra mile — custom events every weekend, detailed patch notes, personal replies to every report.",
+      imageSlug: '/images/roblox-idioms-ii-go-the-extra-mile.png',
+    },
+    {
+      word: 'HIT YOUR STRIDE',
+      partOfSpeech: 'idiom',
+      definition: "To reach your best level of performance after a slow or difficult start.",
+      example: "He struggled in the first two rounds, but once he hit his stride in round three, he was unstoppable.",
+      imageSlug: '/images/roblox-idioms-ii-hit-your-stride.png',
+    },
+    {
+      word: 'AHEAD OF THE CURVE',
+      partOfSpeech: 'idiom',
+      definition: "More advanced than most other people — doing something before others even know about it.",
+      example: "That guild was ahead of the curve on the new meta — they had already mastered it before most players even understood the update.",
+      imageSlug: '/images/roblox-idioms-ii-ahead-of-the-curve.png',
+    },
+  ],
+
+  irlVocabulary: [
+    {
+      word: 'RAISE THE BAR',
+      partOfSpeech: 'idiom',
+      definition: "To set a new, higher standard that others must now try to reach.",
+      example: "That presentation really raised the bar — every team in the department is now trying to match that quality.",
+      imageSlug: '/images/roblox-idioms-ii-raise-the-bar-irl.png',
+    },
+    {
+      word: 'UP YOUR GAME',
+      partOfSpeech: 'idiom',
+      definition: "To start performing better than you are right now.",
+      example: "The new manager told the team clearly: if you want to keep your position, you need to up your game.",
+      imageSlug: '/images/roblox-idioms-ii-up-your-game-irl.png',
+    },
+    {
+      word: 'STEP UP',
+      partOfSpeech: 'idiom',
+      definition: "To take action or take control when it is needed — especially in a hard situation.",
+      example: "When the project lead left suddenly, she stepped up and managed the whole team through the deadline.",
+      imageSlug: '/images/roblox-idioms-ii-step-up-irl.png',
+    },
+    {
+      word: 'RISE TO THE CHALLENGE',
+      partOfSpeech: 'idiom',
+      definition: "To do well when something is very hard or new — to show you can handle it.",
+      example: "It was a difficult first year, but she rose to every challenge — and ended it with an outstanding performance review.",
+      imageSlug: '/images/roblox-idioms-ii-rise-to-the-challenge-irl.png',
+    },
+    {
+      word: 'IN A LEAGUE OF YOUR OWN',
+      partOfSpeech: 'idiom',
+      definition: "So much better than everyone else that no one is at the same level as you.",
+      example: "As a public speaker, he is in a league of his own — the room is silent from the first word to the last.",
+      imageSlug: '/images/roblox-idioms-ii-in-a-league-of-your-own-irl.png',
+    },
+    {
+      word: 'GO THE EXTRA MILE',
+      partOfSpeech: 'idiom',
+      definition: "To try harder than you need to — to do more than what is expected.",
+      example: "She always goes the extra mile for clients — that is exactly why they keep coming back.",
+      imageSlug: '/images/roblox-idioms-ii-go-the-extra-mile-irl.png',
+    },
+    {
+      word: 'HIT YOUR STRIDE',
+      partOfSpeech: 'idiom',
+      definition: "To reach your best level of performance after a slow or difficult start.",
+      example: "He was nervous in his first month, but once he hit his stride he became one of the most productive members of the team.",
+      imageSlug: '/images/roblox-idioms-ii-hit-your-stride-irl.png',
+    },
+    {
+      word: 'AHEAD OF THE CURVE',
+      partOfSpeech: 'idiom',
+      definition: "More advanced than most other people — doing something before others even know about it.",
+      example: "They were ahead of the curve on remote working — the whole company was set up before the rest of the industry even started planning.",
+      imageSlug: '/images/roblox-idioms-ii-ahead-of-the-curve-irl.png',
+    },
+  ],
+
+  phrasalVerbs: [
+    {
+      phrase: "PULL AHEAD",
+      definition: "To move into the lead — to get in front of the others.",
+      example: "After a slow start, the guild pulled ahead in the final hour and finished with the top score.",
+      inGame: "If you want to pull ahead in the rankings, you need consistent performance every single day — not just one big result.",
+      inRealLife: "She pulled ahead of the other candidates during the interview stage — her preparation was simply better.",
+      imageSlug: '/images/roblox-idioms-ii-pull-ahead.png',
+    },
+    {
+      phrase: "FALL BEHIND",
+      definition: "To be slower or worse than others — to lose your position in a competition.",
+      example: "They started well but fell behind after the second wave — their stamina was not there.",
+      inGame: "If you fall behind in resources in the early game, it is very hard to recover — the gap only gets bigger.",
+      inRealLife: "He fell behind on the course after missing two weeks — he had to work twice as hard to catch up.",
+      imageSlug: '/images/roblox-idioms-ii-fall-behind.png',
+    },
+    {
+      phrase: "COME OUT ON TOP",
+      definition: "To win or be the most successful at the end of something.",
+      example: "After three hours of intense competition, Mia's team came out on top — just one point ahead.",
+      inGame: "Coming out on top in a long tournament is about mental strength as much as skill — the best players stay calm.",
+      inRealLife: "Despite the strong competition, their proposal came out on top — the client chose them unanimously.",
+      imageSlug: '/images/roblox-idioms-ii-come-out-on-top.png',
+    },
+    {
+      phrase: "PUSH YOURSELF",
+      definition: "To make yourself try harder than feels comfortable — to go beyond your normal limits.",
+      example: "The only way to hit the top ten is to push yourself during practice, not just during tournaments.",
+      inGame: "Pushing yourself in training — trying maps that are too hard for you now — is how you grow faster.",
+      inRealLife: "She pushed herself through the last year of her degree and graduated with the highest mark in her class.",
+      imageSlug: '/images/roblox-idioms-ii-push-yourself.png',
+    },
+    {
+      phrase: "RISE ABOVE",
+      definition: "To stay calm and good even when other people are being unkind or difficult.",
+      example: "When the other team started trash-talking, our captain told us to rise above it and let the results do the talking.",
+      inGame: "Rising above toxic behaviour in online gaming is a skill — do not let it affect your performance or your enjoyment.",
+      inRealLife: "She chose to rise above the criticism and focus on her work — and the results proved her right.",
+      imageSlug: '/images/roblox-idioms-ii-rise-above.png',
+    },
+    {
+      phrase: "CATCH UP WITH",
+      definition: "To reach the same level as someone who was ahead of you.",
+      example: "He practised every day for a month to catch up with the top players — and eventually he did.",
+      inGame: "When you catch up with the meta after missing updates, spend time in practice mode first before going back into ranked.",
+      inRealLife: "After returning from leave, she worked extra hours to catch up with the rest of the team's progress.",
+      imageSlug: '/images/roblox-idioms-ii-catch-up-with.png',
+    },
+  ],
+
+  warmUp: {
+    questions: [
+      "Think of a time you had to step up in a game — a teammate left, or the situation was harder than expected. What did you do? Did it work?",
+      "Have you ever played against someone who was clearly in a league of their own? What did it feel like? What did you learn from it?",
+      "In your experience, what is the best way to up your game in Roblox — or in anything else you are trying to improve at?",
+    ],
+  },
+
+  videos: [],
+
+  dialogue: [
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Leo, our guild's ranking dropped again. We used to be top five. Now we are fifteenth. I do not understand — we are playing the same way we always have.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "That is exactly the problem. Other guilds have [[raised the bar:set a higher standard that everyone else must now try to reach]] — they improved while we stayed the same. Standing still in a competitive game means falling behind.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "So we need to [[up our game:start performing better than we are right now]]?",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Exactly. And we need people to [[step up:take action and take control when it is needed]] — not wait for someone else to fix it. Right now we have players who are comfortable. Comfortable does not win tournaments.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "We have that new player, Rin. She has only been here three weeks, but she is already [[ahead of the curve:more advanced than most other people — doing things before others know about them]] on the new meta.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "I noticed her too. Her map awareness is [[in a league of its own:so much better than everything else that nothing else is at the same level]] for someone that new. She has not [[hit her stride:reached her best level of performance yet]] — and she is already better than most of our veterans.",
+    },
+    {
+      speaker: 'Mia',
+      speakerColor: 'purple',
+      speakerAvatar: '/images/mia-icon.png',
+      text: "Should we ask her to lead the training sessions? That would be [[going the extra mile:doing more than what is expected — trying harder than necessary]] for a new member.",
+    },
+    {
+      speaker: 'Leo',
+      speakerColor: 'green',
+      speakerAvatar: '/images/leo-icon.png',
+      text: "Not lead — not yet. But invite her to share what she knows. If the rest of the team [[rises to the challenge:does well when something is hard or new — shows they can handle it]], we could be back in the top five within a month.",
+    },
+  ],
+
+  completeSentenceExercise: {
+    instructions: "Choose the idiom that best completes each sentence.",
+    items: [
+      {
+        sentence: "The top guild _____ with their new strategy — everyone else is now trying to copy them.",
+        options: ["raised the bar", "went the extra mile", "hit their stride"],
+        correctIndex: 0,
+        explanation: "RAISED THE BAR means set a new, higher standard that others must now reach — exactly what happens when a top guild introduces a new strategy everyone copies.",
+      },
+      {
+        sentence: "She struggled in the first ten matches, but after that she _____ and won the next six in a row.",
+        options: ["rose to the challenge", "hit her stride", "pulled ahead"],
+        correctIndex: 1,
+        explanation: "HIT HER STRIDE means reached her best level of performance after a slow start — the sentence describes exactly this pattern: struggle, then peak performance.",
+      },
+      {
+        sentence: "When our captain disconnected in the final minute, Leo _____ and called all the plays himself.",
+        options: ["went the extra mile", "stepped up", "came out on top"],
+        correctIndex: 1,
+        explanation: "STEPPED UP means took action and took control when it was needed — exactly what Leo did when the captain left.",
+      },
+      {
+        sentence: "Her reaction speed is _____ — nobody in the server even comes close to matching it.",
+        options: ["ahead of the curve", "in a league of its own", "going the extra mile"],
+        correctIndex: 1,
+        explanation: "IN A LEAGUE OF ITS OWN means so much better than everything else that nothing else is at the same level — the sentence says no one comes close, which confirms this.",
+      },
+      {
+        sentence: "They were _____ on the new meta — they had mastered it a full week before the patch notes were even published.",
+        options: ["ahead of the curve", "rising to the challenge", "catching up with"],
+        correctIndex: 0,
+        explanation: "AHEAD OF THE CURVE means more advanced than most people — doing things before others even know about them. Knowing the meta before patch notes = ahead of curve.",
+      },
+      {
+        sentence: "Nobody thought the new team could _____, but they beat the top seed in the second round.",
+        options: ["fall behind", "step up", "rise to the challenge"],
+        correctIndex: 2,
+        explanation: "RISE TO THE CHALLENGE means to do well when something is hard or new — the sentence says nobody expected them to succeed, which sets up the challenge they rose to.",
+      },
+    ],
+  },
+
+  matchingExercise: [
+    { word: 'RAISE THE BAR', definition: 'To set a new, higher standard that others must now try to reach' },
+    { word: 'UP YOUR GAME', definition: 'To start performing better than you currently are' },
+    { word: 'STEP UP', definition: 'To take control or take action when it is needed, especially in a hard situation' },
+    { word: 'RISE TO THE CHALLENGE', definition: 'To do well when something is very hard or new — to show you can handle it' },
+    { word: 'IN A LEAGUE OF YOUR OWN', definition: 'So much better than everyone else that no one else is at the same level' },
+    { word: 'GO THE EXTRA MILE', definition: 'To do more than what is expected — to try harder than necessary' },
+    { word: 'HIT YOUR STRIDE', definition: 'To reach your best level of performance after a slow or difficult start' },
+    { word: 'AHEAD OF THE CURVE', definition: 'More advanced than most other people — doing something before others even know about it' },
+  ],
+
+  fillBlankExercise: [
+    { before: "That new update has really", answer: 'raised the bar', after: "— every other game on the platform is going to have to improve now." },
+    { before: "If you want a place in the finals, you need to seriously", answer: 'up your game', after: "— the competition this season is stronger than ever." },
+    { before: "When the team needed a leader, she", answer: 'stepped up', after: "without hesitation and guided them through the hardest match of the season." },
+    { before: "No one expected them to win the invitational, but they completely", answer: 'rose to the challenge', after: "and took first place." },
+    { before: "His map knowledge is", answer: 'in a league of its own', after: "— he sees routes and opportunities that nobody else even notices." },
+    { before: "The admin always", answer: 'goes the extra mile', after: "— custom events, detailed updates, and personal replies to every single player report." },
+    { before: "She was nervous in the first month, but once she", answer: 'hit her stride', after: ", she became the most consistent player on the team." },
+    { before: "That guild was completely", answer: 'ahead of the curve', after: "— they had already adapted to the new meta before most players even read the patch notes." },
+  ],
+
+  multipleChoiceExercise: [
+    {
+      question: "In the dialogue, Leo says 'Standing still in a competitive game means falling behind.' Which achievement idiom does this idea relate to most directly?",
+      options: [
+        "GO THE EXTRA MILE — because you always need to do more than expected.",
+        "UP YOUR GAME — because if others improve and you do not, your relative performance drops.",
+        "IN A LEAGUE OF YOUR OWN — because the best players never stop improving.",
+        "RAISE THE BAR — because setting standards is what separates winners from losers.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What does STEP UP mean in the context of the dialogue?",
+      options: [
+        "To move to a higher level in the game.",
+        "To physically stand up from your chair while playing.",
+        "To take control and lead when the situation needs someone to do it.",
+        "To increase the number of hours you spend practising.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "Leo says Rin 'has not hit her stride yet — and she is already better than most of our veterans.' What does this tell us?",
+      options: [
+        "Rin is not as good as the veterans think she is.",
+        "Rin is still at her best level and getting better slowly.",
+        "Rin has not yet reached her best performance level, but she is already impressive.",
+        "Rin needs to go the extra mile before she can compete with veterans.",
+      ],
+      correctIndex: 2,
+    },
+    {
+      question: "Which sentence uses GO THE EXTRA MILE correctly?",
+      options: [
+        "He went the extra mile to the next town to buy supplies.",
+        "She goes the extra mile — every report includes data, visuals, and a personal summary for each client.",
+        "They went the extra mile and finished in second place.",
+        "Going the extra mile means walking further than other players in the game world.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "What is the difference between PULL AHEAD and COME OUT ON TOP?",
+      options: [
+        "There is no difference — they mean exactly the same thing.",
+        "PULL AHEAD happens during the competition; COME OUT ON TOP describes the final result.",
+        "PULL AHEAD is informal; COME OUT ON TOP is formal and used in business.",
+        "PULL AHEAD means winning by a lot; COME OUT ON TOP means winning by a small margin.",
+      ],
+      correctIndex: 1,
+    },
+    {
+      question: "Why does RISE ABOVE mean 'stay calm and good in a difficult situation' rather than 'move upward physically'?",
+      options: [
+        "Because all English phrasal verbs with RISE have emotional meanings.",
+        "Because it is an idiom — the meaning is different from the literal words.",
+        "Because ABOVE is always metaphorical in English.",
+        "Because RISE in gaming always refers to ranking, not movement.",
+      ],
+      correctIndex: 1,
+    },
+  ],
+};
