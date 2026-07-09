@@ -3,7 +3,6 @@ import { lessons } from '@/data/lessons';
 import { Lesson } from '@/types/lesson';
 import LevelBadge from '@/components/LevelBadge';
 
-// Football slug whitelist (A1-B2; c1-* and c2-* matched by prefix)
 const FOOTBALL_SLUGS = new Set([
   'team-communication','game-on-first-words',
   'the-football-pitch','players-and-positions','the-kit','numbers-in-football',
@@ -94,6 +93,7 @@ const slugHasKw = (slug: string, kws: string[]) => kws.some((kw) => slug.include
 interface SeriesConfig {
   id: string;
   name: string;
+  shortName: string;
   emoji: string;
   description: string;
   match: (l: Lesson) => boolean;
@@ -104,6 +104,7 @@ const SERIES: SeriesConfig[] = [
   {
     id: 'roblox',
     name: 'Roblox English',
+    shortName: 'Roblox',
     emoji: '\u{1F3AE}',
     description: 'Learn real English through Roblox — gaming, chat, quests, and community.',
     match: (l) => l.slug.startsWith('roblox-'),
@@ -112,6 +113,7 @@ const SERIES: SeriesConfig[] = [
   {
     id: 'football',
     name: 'Football English',
+    shortName: 'Football',
     emoji: '⚽',
     description: 'From basic vocabulary to punditry — English for players, fans, and analysts.',
     match: (l) =>
@@ -120,6 +122,7 @@ const SERIES: SeriesConfig[] = [
   {
     id: 'sales',
     name: 'Sales English',
+    shortName: 'Sales',
     emoji: '\u{1F4BC}',
     description: 'Professional English for sales calls, pitches, objections, and closing deals.',
     match: (l) => slugHasKw(l.slug, SALES_KW),
@@ -127,6 +130,7 @@ const SERIES: SeriesConfig[] = [
   {
     id: 'marketing',
     name: 'Marketing English',
+    shortName: 'Marketing',
     emoji: '\u{1F4C8}',
     description: 'English for marketers — strategy, campaigns, data, branding, and leadership.',
     match: (l) => slugHasKw(l.slug, MARKETING_KW),
@@ -134,6 +138,7 @@ const SERIES: SeriesConfig[] = [
   {
     id: 'gaming',
     name: 'Gaming English',
+    shortName: 'Gaming',
     emoji: '\u{1F579}️',
     description: 'English for gamers — streaming, esports, strategy, and gaming culture.',
     match: (l) => slugHasKw(l.slug, GAMING_KW),
@@ -141,6 +146,7 @@ const SERIES: SeriesConfig[] = [
   {
     id: 'other',
     name: 'Other Lessons',
+    shortName: 'Other',
     emoji: '\u{1F4DA}',
     description: 'More lessons across different topics and contexts.',
     match: () => true,
@@ -150,21 +156,23 @@ const SERIES: SeriesConfig[] = [
 const LEVEL_ORDER = ['A1', 'A1-A2', 'A2', 'B1', 'B2', 'B1-B2', 'C1', 'C2', 'C1-C2'] as const;
 type KnownLevel = (typeof LEVEL_ORDER)[number];
 
+function levelSlug(level: string) {
+  return level.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
+}
+
 function groupByLevel(
   lessonList: Lesson[],
-  levelMap?: Record<string, string>
+  lMap?: Record<string, string>
 ): { level: string; lessons: Lesson[] }[] {
   const map = new Map<string, Lesson[]>();
   for (const l of lessonList) {
-    const lv = (levelMap && levelMap[l.level]) ?? l.level;
+    const lv = (lMap && lMap[l.level]) ?? l.level;
     if (!map.has(lv)) map.set(lv, []);
     map.get(lv)!.push(l);
   }
-  const ordered = LEVEL_ORDER.filter((lv) => map.has(lv as KnownLevel)).map((lv) => ({
-    level: lv as string,
-    lessons: map.get(lv as KnownLevel)!,
-  }));
-  // Any level not in LEVEL_ORDER goes at the end
+  const ordered = (LEVEL_ORDER as readonly string[])
+    .filter((lv) => map.has(lv))
+    .map((lv) => ({ level: lv, lessons: map.get(lv)! }));
   for (const [lv, ls] of map) {
     if (!(LEVEL_ORDER as readonly string[]).includes(lv)) {
       ordered.push({ level: lv, lessons: ls });
@@ -214,8 +222,23 @@ export default function Home() {
   const grouped = SERIES.map((series) => {
     const sl = lessons.filter((l) => !assigned.has(l.slug) && series.match(l));
     sl.forEach((l) => assigned.add(l.slug));
-    return { ...series, lessons: sl };
+    const byLevel = groupByLevel(sl, series.levelMap);
+    return { ...series, lessons: sl, byLevel };
   }).filter((g) => g.lessons.length > 0);
+
+  // Flat nav items — one pill per series+level combination
+  const navItems = grouped.flatMap((series) =>
+    series.byLevel.map(({ level, lessons: ls }) => ({
+      emoji: series.emoji,
+      label: series.byLevel.length === 1
+        ? series.name
+        : `${series.shortName} ${level}`,
+      count: ls.length,
+      href: series.byLevel.length === 1
+        ? `#${series.id}`
+        : `#${series.id}-${levelSlug(level)}`,
+    }))
+  );
 
   return (
     <div className="min-h-screen bg-[#F0F4FF]">
@@ -244,25 +267,26 @@ export default function Home() {
       </div>
 
       <main className="max-w-6xl mx-auto px-4 py-12">
+        {/* Flat nav: one pill per series+level */}
         <div className="flex flex-wrap gap-2 mb-12">
-          {grouped.map((g) => (
+          {navItems.map((item) => (
             <a
-              key={g.id}
-              href={`#${g.id}`}
+              key={item.href}
+              href={item.href}
               className="flex items-center gap-1.5 px-4 py-2 bg-white border border-blue-100 rounded-full shadow-sm text-sm font-extrabold text-gray-700 hover:bg-[#066EF5] hover:text-white hover:border-[#066EF5] transition-all duration-150"
             >
-              <span>{g.emoji}</span>
-              <span>{g.name}</span>
-              <span className="ml-1 text-xs font-semibold opacity-50">{g.lessons.length}</span>
+              <span>{item.emoji}</span>
+              <span>{item.label}</span>
+              <span className="ml-1 text-xs font-semibold opacity-50">{item.count}</span>
             </a>
           ))}
         </div>
 
         {grouped.map((series) => {
-          const byLevel = groupByLevel(series.lessons, series.levelMap);
-          const isMultiLevel = byLevel.length > 1;
+          const isMultiLevel = series.byLevel.length > 1;
           return (
             <section key={series.id} id={series.id} className="mb-20 scroll-mt-8">
+              {/* Series header */}
               <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
                 <div>
                   <h2 className="text-2xl font-extrabold text-gray-900 flex items-center gap-2">
@@ -275,26 +299,36 @@ export default function Home() {
                   {series.lessons.length} lesson{series.lessons.length !== 1 ? 's' : ''}
                 </span>
               </div>
-              {byLevel.map(({ level, lessons: lvLessons }) => (
-                <div key={level} className="mb-10">
-                  {isMultiLevel && (
-                    <div className="flex items-center gap-3 mb-5">
-                      <span className="text-xs font-extrabold text-[#066EF5] bg-blue-50 border border-blue-100 px-3 py-1 rounded-full uppercase tracking-wide">
-                        {series.name.split(' ')[0]} {level}
-                      </span>
-                      <div className="flex-1 h-px bg-blue-100" />
-                      <span className="text-xs text-gray-400 font-semibold">
-                        {lvLessons.length} lesson{lvLessons.length !== 1 ? 's' : ''}
-                      </span>
+
+              {series.byLevel.map(({ level, lessons: lvLessons }) => {
+                const anchorId = isMultiLevel
+                  ? `${series.id}-${levelSlug(level)}`
+                  : series.id;
+                return (
+                  <div
+                    key={level}
+                    id={isMultiLevel ? anchorId : undefined}
+                    className="mb-10 scroll-mt-20"
+                  >
+                    {isMultiLevel && (
+                      <div className="flex items-center gap-3 mb-5">
+                        <span className="text-xs font-extrabold text-[#066EF5] bg-blue-50 border border-blue-100 px-3 py-1 rounded-full uppercase tracking-wide">
+                          {series.shortName} {level}
+                        </span>
+                        <div className="flex-1 h-px bg-blue-100" />
+                        <span className="text-xs text-gray-400 font-semibold">
+                          {lvLessons.length} lesson{lvLessons.length !== 1 ? 's' : ''}
+                        </span>
+                      </div>
+                    )}
+                    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                      {lvLessons.map((lesson) => (
+                        <LessonCard key={lesson.slug} lesson={lesson} />
+                      ))}
                     </div>
-                  )}
-                  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                    {lvLessons.map((lesson) => (
-                      <LessonCard key={lesson.slug} lesson={lesson} />
-                    ))}
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </section>
           );
         })}
