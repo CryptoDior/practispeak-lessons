@@ -97,6 +97,7 @@ interface SeriesConfig {
   emoji: string;
   description: string;
   match: (l: Lesson) => boolean;
+  levelMap?: Record<string, string>;
 }
 
 const SERIES: SeriesConfig[] = [
@@ -106,6 +107,7 @@ const SERIES: SeriesConfig[] = [
     emoji: '\u{1F3AE}',
     description: 'Learn real English through Roblox — gaming, chat, quests, and community.',
     match: (l) => l.slug.startsWith('roblox-'),
+    levelMap: { A1: 'A1-A2', A2: 'A1-A2' },
   },
   {
     id: 'football',
@@ -145,18 +147,30 @@ const SERIES: SeriesConfig[] = [
   },
 ];
 
-const LEVEL_ORDER = ['A1', 'A1-A2', 'A2', 'B1-B2', 'C1-C2'] as const;
+const LEVEL_ORDER = ['A1', 'A1-A2', 'A2', 'B1', 'B2', 'B1-B2', 'C1', 'C2', 'C1-C2'] as const;
+type KnownLevel = (typeof LEVEL_ORDER)[number];
 
-function groupByLevel(lessonList: Lesson[]): { level: string; lessons: Lesson[] }[] {
+function groupByLevel(
+  lessonList: Lesson[],
+  levelMap?: Record<string, string>
+): { level: string; lessons: Lesson[] }[] {
   const map = new Map<string, Lesson[]>();
   for (const l of lessonList) {
-    if (!map.has(l.level)) map.set(l.level, []);
-    map.get(l.level)!.push(l);
+    const lv = (levelMap && levelMap[l.level]) ?? l.level;
+    if (!map.has(lv)) map.set(lv, []);
+    map.get(lv)!.push(l);
   }
-  return LEVEL_ORDER.filter((lv) => map.has(lv)).map((lv) => ({
-    level: lv,
-    lessons: map.get(lv)!,
+  const ordered = LEVEL_ORDER.filter((lv) => map.has(lv as KnownLevel)).map((lv) => ({
+    level: lv as string,
+    lessons: map.get(lv as KnownLevel)!,
   }));
+  // Any level not in LEVEL_ORDER goes at the end
+  for (const [lv, ls] of map) {
+    if (!(LEVEL_ORDER as readonly string[]).includes(lv)) {
+      ordered.push({ level: lv, lessons: ls });
+    }
+  }
+  return ordered;
 }
 
 function LessonCard({ lesson }: { lesson: Lesson }) {
@@ -245,7 +259,7 @@ export default function Home() {
         </div>
 
         {grouped.map((series) => {
-          const byLevel = groupByLevel(series.lessons);
+          const byLevel = groupByLevel(series.lessons, series.levelMap);
           const isMultiLevel = byLevel.length > 1;
           return (
             <section key={series.id} id={series.id} className="mb-20 scroll-mt-8">
@@ -266,7 +280,7 @@ export default function Home() {
                   {isMultiLevel && (
                     <div className="flex items-center gap-3 mb-5">
                       <span className="text-xs font-extrabold text-[#066EF5] bg-blue-50 border border-blue-100 px-3 py-1 rounded-full uppercase tracking-wide">
-                        {level}
+                        {series.name.split(' ')[0]} {level}
                       </span>
                       <div className="flex-1 h-px bg-blue-100" />
                       <span className="text-xs text-gray-400 font-semibold">
