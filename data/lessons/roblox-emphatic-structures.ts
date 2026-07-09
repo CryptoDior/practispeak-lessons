@@ -40,7 +40,7 @@ export const robloxEmphaticStructures: Lesson = {
     },
     {
       word: 'CONTRAST',
-      partOfSpeech: 'noun/verb',
+      partOfSpeech: 'noun / verb',
       definition: "A clear difference between two things — or to show that difference.",
       example: "The contrast between their first match and their last was huge — they had improved in every area.",
       imageSlug: '/images/roblox-emphatic-structures-contrast.png',
@@ -99,7 +99,7 @@ export const robloxEmphaticStructures: Lesson = {
     },
     {
       word: 'CONTRAST',
-      partOfSpeech: 'noun/verb',
+      partOfSpeech: 'noun / verb',
       definition: "A clear difference between two things — or to show that difference.",
       example: "She contrasted last year's results with this year's to show exactly how much the strategy had improved.",
       imageSlug: '/images/roblox-emphatic-structures-contrast-irl.png',

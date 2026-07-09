@@ -11,7 +11,7 @@ export const robloxReviewB2Block2: Lesson = {
   vocabulary: [
     {
       word: 'AHEAD OF THE CURVE',
-      partOfSpeech: 'idiom',
+      partOfSpeech: 'phrase',
       definition: "To know about or do something before most other people do — to be advanced compared to others. (From Lesson 11: Idioms II)",
       example: "Mia was ahead of the curve on the new formation — she had been practising it for weeks before the rest of the guild heard about it.",
       imageSlug: '/images/roblox-review-b2-block-2-ahead-of-the-curve.png',
@@ -53,14 +53,14 @@ export const robloxReviewB2Block2: Lesson = {
     },
     {
       word: 'CLEAR THE AIR',
-      partOfSpeech: 'idiom',
+      partOfSpeech: 'phrase',
       definition: "To talk about a problem or disagreement openly so that the tension disappears. (From Lesson 18: Idioms III)",
       example: "After the argument in the debrief, Mia and Kai agreed to clear the air before the next match — and the team played much better as a result.",
       imageSlug: '/images/roblox-review-b2-block-2-clear-the-air.png',
     },
     {
       word: 'CONSEQUENTLY',
-      partOfSpeech: 'discourse marker',
+      partOfSpeech: 'phrase',
       definition: "As a result — used to show that something happened because of what was just described. (From Lesson 19: Discourse Markers)",
       example: "The team failed to adapt their formation in round two. Consequently, the opposing side exploited the same weakness three times in a row.",
       imageSlug: '/images/roblox-review-b2-block-2-consequently.png',
@@ -70,7 +70,7 @@ export const robloxReviewB2Block2: Lesson = {
   irlVocabulary: [
     {
       word: 'AHEAD OF THE CURVE',
-      partOfSpeech: 'idiom',
+      partOfSpeech: 'phrase',
       definition: "To know about or do something before most other people — to be advanced compared to others.",
       example: "The company was ahead of the curve on sustainability reporting — they had been publishing full carbon accounts two years before it became an industry standard.",
       imageSlug: '/images/roblox-review-b2-block-2-ahead-of-the-curve-irl.png',
@@ -112,14 +112,14 @@ export const robloxReviewB2Block2: Lesson = {
     },
     {
       word: 'CLEAR THE AIR',
-      partOfSpeech: 'idiom',
+      partOfSpeech: 'phrase',
       definition: "To talk about a problem or disagreement openly so that the tension disappears.",
       example: "After weeks of tension between the two departments, the director brought them together to clear the air — within an hour, they had agreed a way forward.",
       imageSlug: '/images/roblox-review-b2-block-2-clear-the-air-irl.png',
     },
     {
       word: 'CONSEQUENTLY',
-      partOfSpeech: 'discourse marker',
+      partOfSpeech: 'phrase',
       definition: "As a result — used to show that something happened because of what was just described.",
       example: "The supplier failed to deliver the components on schedule. Consequently, the entire production run had to be delayed by three weeks.",
       imageSlug: '/images/roblox-review-b2-block-2-consequently-irl.png',

@@ -40,7 +40,7 @@ export const robloxHedgingLanguage: Lesson = {
     },
     {
       word: 'TEND TO',
-      partOfSpeech: 'verb phrase',
+      partOfSpeech: 'phrase',
       definition: "Usually do something — but not always. Used to talk about what happens most of the time.",
       example: "Players who communicate well tend to perform better under pressure than those who rely only on individual skill.",
       imageSlug: '/images/roblox-hedging-language-tend-to.png',
@@ -99,7 +99,7 @@ export const robloxHedgingLanguage: Lesson = {
     },
     {
       word: 'TEND TO',
-      partOfSpeech: 'verb phrase',
+      partOfSpeech: 'phrase',
       definition: "Usually do something — but not always. Used to talk about what happens most of the time.",
       example: "Clients who receive a personalised onboarding experience tend to stay longer and spend more over time.",
       imageSlug: '/images/roblox-hedging-language-tend-to-irl.png',
