@@ -243,6 +243,12 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={lesson.positionsImage} alt="Football positions diagram" className="w-full h-full object-cover" />
             </div>
+            {lesson.positionsImage2 && (
+              <div className="w-full rounded-[20px] overflow-hidden shadow-[0_2px_16px_rgba(6,110,245,0.07)] mt-6" style={{ aspectRatio: '16/9' }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={lesson.positionsImage2} alt="Football positions diagram 2" className="w-full h-full object-cover" />
+              </div>
+            )}
           </section>
         )}
 

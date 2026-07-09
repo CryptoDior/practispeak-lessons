@@ -8,6 +8,7 @@ export const playersAndPositions: Lesson = {
   description: 'Learn the names of football positions — goalkeeper, defender, midfielder, striker, captain, winger, substitute, and formation — and how to talk about who plays where.',
   heroImage: '/images/players-and-positions-hero.png',
   positionsImage: '/images/football-positions.png',
+  positionsImage2: '/images/football-positions-2.png',
 
   vocabulary: [
     {

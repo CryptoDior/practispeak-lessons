@@ -315,4 +315,6 @@ export interface Lesson {
   dealClinic?: DealClinic;
   /** Optional 16:9 diagram image shown in a dedicated "Positions" tab before Vocabulary. */
   positionsImage?: string;
+  /** Optional second 16:9 diagram image shown below positionsImage in the Positions tab. */
+  positionsImage2?: string;
 }
