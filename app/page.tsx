@@ -7,7 +7,7 @@ import { Lesson } from '@/types/lesson';
 import LevelBadge from '@/components/LevelBadge';
 
 const FOOTBALL_SLUGS = new Set([
-  'team-communication','game-on-first-words',
+  'team-communication',
   'the-football-pitch','players-and-positions','the-kit','numbers-in-football',
   'people-at-the-club','kick-pass-shoot','run-sprint-stop','score-a-goal',
   'win-lose-draw','simple-match-commands','the-stadium','buying-a-ticket',
@@ -88,7 +88,7 @@ const GAMING_KW = [
   'gaming-jargon','talking-strategy','i-am-a-player','game-genres','inventory',
   'gg-basic','questions-what-who','online-toxicity','narrative-tenses-storytelling',
   'social-gaming','tech-talk-lag','game-design','language-in-gaming',
-  'advanced-vocabulary-etymology',
+  'advanced-vocabulary-etymology','game-on-first-words',
 ];
 
 const slugHasKw = (slug: string, kws: string[]) => kws.some((kw) => slug.includes(kw));
