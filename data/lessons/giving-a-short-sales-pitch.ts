@@ -72,37 +72,37 @@ export const givingAShortSalesPitch: Lesson = {
       phrase: 'I KNOW THAT MANY TEAMS LIKE YOURS STRUGGLE WITH...',
       definition: 'The ideal opening line for a pitch — it names the pain point before you mention your product. When a customer hears their own problem, they immediately pay attention.',
       example: 'Riley did not start with her product features. She said: I know that many sales teams like yours struggle with manual reporting and disconnected tools. Does that sound familiar? Marcus nodded immediately.',
-      imageSlug: '/images/i-know-that-many-teams-like-yours-struggle-with.png',
+      imageSlug: '/images/giving-a-short-sales-pitch-many-teams-struggle-with.png',
     },
     {
       phrase: 'THAT IS EXACTLY WHAT [PRODUCT] IS DESIGNED TO SOLVE',
       definition: 'The bridge between the problem and the solution. It tells the customer that your product is not a generic tool — it was built specifically for the problem they just confirmed they have.',
       example: 'Marcus confirmed the pain point was real. Riley said: That is exactly what our platform is designed to solve. We built it specifically for teams who are losing selling time to admin and reporting.',
-      imageSlug: '/images/that-is-exactly-what-product-is-designed-to-solve.png',
+      imageSlug: '/images/giving-a-short-sales-pitch-designed-to-solve.png',
     },
     {
       phrase: 'THE RESULT IS...',
       definition: 'The phrase that introduces the benefit — the measurable outcome the customer will experience. Always follow it with a specific number, time frame, or concrete change.',
       example: 'Riley moved from solution to benefit with one phrase: The result is a team that spends 30% less time on admin and closes 20% more deals in the first quarter. Those are not projections — those are our customer averages.',
-      imageSlug: '/images/the-result-is.png',
+      imageSlug: '/images/giving-a-short-sales-pitch-the-result-is.png',
     },
     {
       phrase: 'IN JUST [TIME], YOU COULD...',
       definition: 'A benefit phrase with built-in urgency. The time frame makes the outcome feel real and achievable — it moves the benefit from abstract to concrete.',
       example: 'Riley said: In just 90 days, you could be running automated reports, tracking your full pipeline in real time, and giving your team back hours every week. That is what our onboarding timeline delivers.',
-      imageSlug: '/images/in-just-time-you-could.png',
+      imageSlug: '/images/giving-a-short-sales-pitch-in-just-time-you-could.png',
     },
     {
       phrase: 'WOULD IT MAKE SENSE TO...',
       definition: 'A soft, non-pressuring close. It invites the customer to agree to a next step by framing it as a logical decision — not a commitment. Customers who say yes feel in control.',
       example: "Riley finished the pitch and said: Would it make sense to set up a 30-minute demo this week so you can see the platform working with your own data? Marcus said: Yes — let's do that.",
-      imageSlug: '/images/would-it-make-sense-to.png',
+      imageSlug: '/images/giving-a-short-sales-pitch-would-it-make-sense-to.png',
     },
     {
       phrase: 'WHAT TENDS TO HAPPEN WITHOUT [SOLUTION] IS...',
       definition: 'A phrase for reinforcing the pain point before the solution. It paints a picture of the cost of inaction — which is often more persuasive than describing the product itself.',
       example: 'Riley said: What tends to happen without a centralised platform is that your team spends two to three hours every week just pulling data from different tools and building reports manually. That is time that should be in front of customers.',
-      imageSlug: '/images/what-tends-to-happen-without-solution-is.png',
+      imageSlug: '/images/giving-a-short-sales-pitch-without-solution.png',
     }
   ],
 
