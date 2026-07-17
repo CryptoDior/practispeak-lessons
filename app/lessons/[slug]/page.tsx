@@ -549,7 +549,7 @@ function LessonHeroImage({ src, alt }: { src?: string; alt: string }) {
         // eslint-disable-next-line @next/next/no-img-element
         <img
           ref={imgRef} src={src} alt="" aria-hidden={!imgReady}
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${imgReady ? 'opacity-100' : 'opacity-0'}`}
+          className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-500 ${imgReady ? 'opacity-100' : 'opacity-0'}`}
           onLoad={() => setImgReady(true)}
           onError={() => setImgReady(false)}
         />
