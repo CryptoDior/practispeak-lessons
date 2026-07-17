@@ -13,56 +13,56 @@ export const givingAShortSalesPitch: Lesson = {
       word: 'PITCH',
       partOfSpeech: 'noun',
       definition: 'A short, persuasive presentation of a product or idea designed to convince someone to buy, invest, or take the next step. A good pitch is structured, concise, and focused on the listener.',
-      example: 'Riley knew Marcus was busy, so she kept her pitch tight: 90 seconds, one clear problem, one solution, two key numbers, and a specific next step. By the end, Marcus was asking for a demo.',
+      example: 'David walked the client through his pitch, explaining how the product turns their biggest frustration into a win.',
       imageSlug: '/images/giving-a-short-sales-pitch-pitch.png',
     },
     {
       word: 'PAIN POINT',
       partOfSpeech: 'noun',
       definition: 'A specific problem or frustration a customer experiences regularly. The best pitches start here — when the customer hears their own problem described back to them, they stop thinking and start listening.',
-      example: 'Riley did not start with her product. She started with the pain point: Does your team spend more time on admin and reporting than on actually selling? That one question changed the whole conversation.',
+      example: 'The team spotted the pain point immediately — orders were getting stuck between purchase and delivery.',
       imageSlug: '/images/giving-a-short-sales-pitch-pain-point.png',
     },
     {
       word: 'PROPOSITION',
       partOfSpeech: 'noun',
       definition: 'A statement that offers something for consideration. A value proposition explains precisely why your product is worth buying — what it delivers, for whom, and why it is better than the alternative.',
-      example: "Riley's value proposition was simple and clear: We give mid-size sales teams real-time data, automated reporting, and one platform for everything — so they can spend less time on admin and more time closing deals.",
+      example: 'His value proposition was clear: connect your guests, your bookings, and your operations — and watch costs fall.',
       imageSlug: '/images/giving-a-short-sales-pitch-proposition.png',
     },
     {
       word: 'COMPELLING',
       partOfSpeech: 'adjective',
       definition: 'Persuasive, convincing, and hard to ignore. A compelling pitch makes the customer feel that saying no would mean missing out on something genuinely valuable.',
-      example: 'Marcus listened to the pitch and said: That is a compelling case. Riley knew she had structured it well — the numbers were clear, the problem was real, and the next step was easy to say yes to.',
+      example: 'Her case was compelling — the data showed a clear trend that everyone in the room could see.',
       imageSlug: '/images/giving-a-short-sales-pitch-compelling.png',
     },
     {
       word: 'CONCISE',
       partOfSpeech: 'adjective',
       definition: "Brief and clear, with no unnecessary words or information. A concise pitch respects the customer's time — it says everything that matters and nothing that does not.",
-      example: "Riley's rule was simple: if she could not explain the benefit in one sentence, she did not understand it well enough. She kept every pitch concise — never more than 90 seconds before a question.",
+      example: 'He kept his message concise — two minutes, three key points, no extra paperwork.',
       imageSlug: '/images/giving-a-short-sales-pitch-concise.png',
     },
     {
       word: 'RESONATE',
       partOfSpeech: 'verb',
       definition: 'To have a strong, lasting effect on someone — to feel deeply relevant and true to their situation. When a pitch resonates, the customer feels understood, not sold to.',
-      example: 'Riley described the pain point and Marcus said: That describes us perfectly. Riley knew the pitch was resonating — she had used his language, his problem, his world.',
+      example: 'Her pitch really resonated — he could see exactly how the solution would fix his stores.',
       imageSlug: '/images/giving-a-short-sales-pitch-resonate.png',
     },
     {
       word: 'ARTICULATE',
       partOfSpeech: 'verb',
       definition: 'To express an idea clearly and effectively so the other person can understand it immediately. If you cannot articulate the benefit in one sentence, the customer will not understand it either.',
-      example: 'Marcus asked: What does the benefit actually look like in practice? Riley articulated it simply: Your team spends 30% less time on reports and closes 20% more deals in the first quarter. That is what the data shows.',
+      example: 'She was able to articulate a complex process as three simple steps.',
       imageSlug: '/images/giving-a-short-sales-pitch-articulate.png',
     },
     {
       word: 'PROSPECT',
       partOfSpeech: 'noun',
       definition: 'A potential customer who has not yet bought from you. Every prospect has a problem you can solve — your pitch is the tool you use to make that connection clear.',
-      example: 'Riley looked at Marcus as a prospect with real potential — he had the right team size, the right pain point, and the budget. A well-structured pitch was all it would take to move him to the next stage.',
+      example: 'She spotted a strong prospect across the room and moved in to start a conversation.',
       imageSlug: '/images/giving-a-short-sales-pitch-prospect.png',
     }
   ],
@@ -71,37 +71,37 @@ export const givingAShortSalesPitch: Lesson = {
     {
       phrase: 'I KNOW THAT MANY TEAMS LIKE YOURS STRUGGLE WITH...',
       definition: 'The ideal opening line for a pitch — it names the pain point before you mention your product. When a customer hears their own problem, they immediately pay attention.',
-      example: 'Riley did not start with her product features. She said: I know that many sales teams like yours struggle with manual reporting and disconnected tools. Does that sound familiar? Marcus nodded immediately.',
+      example: 'I know that many teams struggle with too many emails, missed deadlines, and no clear process.',
       imageSlug: '/images/giving-a-short-sales-pitch-many-teams-struggle-with.png',
     },
     {
       phrase: 'THAT IS EXACTLY WHAT [PRODUCT] IS DESIGNED TO SOLVE',
       definition: 'The bridge between the problem and the solution. It tells the customer that your product is not a generic tool — it was built specifically for the problem they just confirmed they have.',
-      example: 'Marcus confirmed the pain point was real. Riley said: That is exactly what our platform is designed to solve. We built it specifically for teams who are losing selling time to admin and reporting.',
+      example: 'That is exactly what this platform is designed to solve — every step of the customer journey, handled.',
       imageSlug: '/images/giving-a-short-sales-pitch-designed-to-solve.png',
     },
     {
       phrase: 'THE RESULT IS...',
       definition: 'The phrase that introduces the benefit — the measurable outcome the customer will experience. Always follow it with a specific number, time frame, or concrete change.',
-      example: 'Riley moved from solution to benefit with one phrase: The result is a team that spends 30% less time on admin and closes 20% more deals in the first quarter. Those are not projections — those are our customer averages.',
+      example: 'The result is faster service and happier customers — as you can see from the numbers.',
       imageSlug: '/images/giving-a-short-sales-pitch-the-result-is.png',
     },
     {
       phrase: 'IN JUST [TIME], YOU COULD...',
       definition: 'A benefit phrase with built-in urgency. The time frame makes the outcome feel real and achievable — it moves the benefit from abstract to concrete.',
-      example: 'Riley said: In just 90 days, you could be running automated reports, tracking your full pipeline in real time, and giving your team back hours every week. That is what our onboarding timeline delivers.',
+      example: 'In just three steps, you could be signing the keys to your new office.',
       imageSlug: '/images/giving-a-short-sales-pitch-in-just-time-you-could.png',
     },
     {
       phrase: 'WOULD IT MAKE SENSE TO...',
       definition: 'A soft, non-pressuring close. It invites the customer to agree to a next step by framing it as a logical decision — not a commitment. Customers who say yes feel in control.',
-      example: "Riley finished the pitch and said: Would it make sense to set up a 30-minute demo this week so you can see the platform working with your own data? Marcus said: Yes — let's do that.",
+      example: 'Would it make sense to schedule a quick follow-up before you fly out?',
       imageSlug: '/images/giving-a-short-sales-pitch-would-it-make-sense-to.png',
     },
     {
       phrase: 'WHAT TENDS TO HAPPEN WITHOUT [SOLUTION] IS...',
       definition: 'A phrase for reinforcing the pain point before the solution. It paints a picture of the cost of inaction — which is often more persuasive than describing the product itself.',
-      example: 'Riley said: What tends to happen without a centralised platform is that your team spends two to three hours every week just pulling data from different tools and building reports manually. That is time that should be in front of customers.',
+      example: 'Without a solution, teams like yours are left with stockouts, frustrated shoppers, and no early warning.',
       imageSlug: '/images/giving-a-short-sales-pitch-without-solution.png',
     }
   ],
@@ -110,93 +110,93 @@ export const givingAShortSalesPitch: Lesson = {
 
   dialogue: [
     {
-      speaker: 'Marcus',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
-      text: 'Riley, I only have about five minutes before my next meeting. What exactly does Practispeak Solutions do?',
+      speakerAvatar: '/images/james-icon.png',
+      text: 'Priya, I only have about five minutes before my next meeting. What exactly does Practispeak Solutions do?',
     },
     {
-      speaker: 'Riley',
+      speaker: 'Priya',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: '/images/priya-icon.png',
       text: 'Five minutes is all I need. Let me ask you one question first — does your sales team spend more time on admin and reporting than on actually selling?',
     },
     {
-      speaker: 'Marcus',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: 'Honestly, yes. It is a constant complaint from the team.',
     },
     {
-      speaker: 'Riley',
+      speaker: 'Priya',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: '/images/priya-icon.png',
       text: 'That is exactly the [[pain point:a specific problem or frustration a customer experiences]] our platform is designed to solve. I know that many teams like yours struggle with manual reporting, disconnected tools, and data they cannot act on quickly.',
     },
     {
-      speaker: 'Marcus',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: 'That describes us perfectly, unfortunately.',
     },
     {
-      speaker: 'Riley',
+      speaker: 'Priya',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: '/images/priya-icon.png',
       text: 'Our platform connects all your sales tools in one place, automates your reporting, and gives your team real-time data. What tends to happen without it is that your team spends hours every week just building reports instead of building relationships.',
     },
     {
-      speaker: 'Marcus',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: 'What does the actual benefit look like in practice?',
     },
     {
-      speaker: 'Riley',
+      speaker: 'Priya',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: '/images/priya-icon.png',
       text: 'In just 90 days, our average customer sees a 30% reduction in admin time and a 20% increase in deals closed. The result is a team that is faster, more [[concise:brief and clear, with no unnecessary effort or waste]] in their workflow, and significantly more effective.',
     },
     {
-      speaker: 'Marcus',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: 'Those are strong numbers. How long does implementation actually take?',
     },
     {
-      speaker: 'Riley',
+      speaker: 'Priya',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: '/images/priya-icon.png',
       text: 'Most teams are fully set up within two weeks. We handle the entire onboarding — your team just shows up and starts using it. There is no technical project for your side to manage.',
     },
     {
-      speaker: 'Marcus',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: 'And the cost?',
     },
     {
-      speaker: 'Riley',
+      speaker: 'Priya',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: '/images/priya-icon.png',
       text: '$35 per user per month. For a team your size, that typically pays for itself within the first quarter — when you [[articulate:to express something clearly and effectively]] the ROI, it is straightforward.',
     },
     {
-      speaker: 'Marcus',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
-      text: 'That is a [[compelling:persuasive and convincing — hard to ignore]] case, Riley. I was not expecting such a clear [[proposition:a statement that explains why your product is worth buying]].',
+      speakerAvatar: '/images/james-icon.png',
+      text: 'That is a [[compelling:persuasive and convincing — hard to ignore]] case, Priya. I was not expecting such a clear [[proposition:a statement that explains why your product is worth buying]].',
     },
     {
-      speaker: 'Riley',
+      speaker: 'Priya',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: '/images/priya-icon.png',
       text: "I am glad it [[resonate:to have a strong, lasting effect — to feel deeply relevant to someone's situation]]d. Would it make sense to schedule a 30-minute demo this week so you can see it working with your own data?",
     },
     {
-      speaker: 'Marcus',
+      speaker: 'James',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: '/images/james-icon.png',
       text: "Yes — let's do that. I want the team to see it too.",
     }
   ],
@@ -263,13 +263,13 @@ export const givingAShortSalesPitch: Lesson = {
     },
     {
         "before": "The result was a ",
-        "after": " case — the customer asked for a demo before Riley had even finished talking.",
+        "after": " case — the customer asked for a demo before the rep had even finished talking.",
         "answer": "compelling"
     }
 ],
   multipleChoiceExercise: [
     {
-        "question": "What is the first step in Riley's pitch structure?",
+        "question": "What is the first step in a well-structured sales pitch?",
         "options": [
             "Presenting the solution",
             "Naming the customer's pain point",
@@ -278,7 +278,7 @@ export const givingAShortSalesPitch: Lesson = {
         "correctIndex": 1
     },
     {
-        "question": "What result does Riley say her platform delivers in 90 days?",
+        "question": "What result does the salesperson say the platform delivers in 90 days?",
         "options": [
             "50% reduction in reporting time",
             "30% more customers and 20% lower costs",
@@ -287,7 +287,7 @@ export const givingAShortSalesPitch: Lesson = {
         "correctIndex": 2
     },
     {
-        "question": "How long does Riley say implementation takes?",
+        "question": "How long does the salesperson say implementation takes?",
         "options": [
             "One month",
             "Two weeks",
@@ -296,7 +296,7 @@ export const givingAShortSalesPitch: Lesson = {
         "correctIndex": 1
     },
     {
-        "question": "What action does Riley propose at the end of the pitch?",
+        "question": "What action does the salesperson propose at the end of the pitch?",
         "options": [
             "Signing a contract today",
             "A follow-up call next month",
