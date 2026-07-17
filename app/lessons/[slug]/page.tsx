@@ -543,7 +543,7 @@ function LessonHeroImage({ src, alt }: { src?: string; alt: string }) {
     if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) setImgReady(true);
   }, [src]);
   return (
-    <div className="relative w-56 lg:w-64 aspect-[4/3] rounded-2xl overflow-hidden shadow-[0_4px_24px_rgba(6,110,245,0.15)] flex-shrink-0">
+    <div className="relative w-56 lg:w-64 aspect-square rounded-2xl overflow-hidden shadow-[0_4px_24px_rgba(6,110,245,0.15)] flex-shrink-0">
       <div className="absolute inset-0"><HeroPlaceholder /></div>
       {src && (
         // eslint-disable-next-line @next/next/no-img-element
