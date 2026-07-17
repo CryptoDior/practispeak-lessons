@@ -71,7 +71,7 @@ export const givingAShortSalesPitch: Lesson = {
     {
       phrase: 'I KNOW THAT MANY TEAMS LIKE YOURS STRUGGLE WITH...',
       definition: 'The ideal opening line for a pitch — it names the pain point before you mention your product. When a customer hears their own problem, they immediately pay attention.',
-      example: 'I know that many teams struggle with too many emails, missed deadlines, and no clear process.',
+      example: 'I know that many teams like yours struggle with too many emails, missed deadlines, and no clear process.',
       imageSlug: '/images/giving-a-short-sales-pitch-many-teams-struggle-with.png',
     },
     {
