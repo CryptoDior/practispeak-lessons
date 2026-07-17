@@ -69,7 +69,7 @@ export default function VocabCard({ word, index }: { word: VocabWord; index: num
           <img
             src={imgSrc}
             alt={word.word}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
             onError={handleImgError}
           />
         ) : (
