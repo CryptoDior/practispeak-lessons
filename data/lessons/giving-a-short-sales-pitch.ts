@@ -89,7 +89,7 @@ export const givingAShortSalesPitch: Lesson = {
     {
       phrase: 'IN JUST [TIME], YOU COULD...',
       definition: 'A benefit phrase with built-in urgency. The time frame makes the outcome feel real and achievable — it moves the benefit from abstract to concrete.',
-      example: 'In just three steps, you could be signing the keys to your new office.',
+      example: 'In just three steps, you could be signing the keys to your new apartment.',
       imageSlug: '/images/giving-a-short-sales-pitch-in-just-time-you-could.png',
     },
     {
