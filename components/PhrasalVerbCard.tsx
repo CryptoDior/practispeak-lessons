@@ -64,7 +64,7 @@ export default function PhrasalVerbCard({ verb, index }: { verb: PhrasalVerb; in
           <img
             src={imgSrc}
             alt={verb.phrase}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
             onError={handleImgError}
           />
         ) : (
