@@ -20,7 +20,7 @@ export const highTicketSalesLanguage: Lesson = {
       word: 'TOTAL COST OF OWNERSHIP',
       partOfSpeech: 'phrase',
       definition: "The real total cost of a product over its lifetime, including hidden costs like setup, support, and integration. It is usually more accurate than the headline price alone.",
-      example: "When you map both proposals across every cost stage — setup, integration, support, and renewal — the gap between the headline prices almost always narrows significantly.",
+      example: "When you compare the total cost of ownership across both proposals — setup, integration, support, and renewal — the gap between the headline prices almost always narrows significantly.",
       imageSlug: '/images/total-cost-of-ownership.png',
     },
     {
