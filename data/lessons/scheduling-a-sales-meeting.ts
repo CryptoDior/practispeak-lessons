@@ -77,7 +77,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       phrase: 'WOULD [DAY] AT [TIME] WORK FOR YOU?',
       definition: 'The standard phrase for proposing a specific meeting time. Always propose two or three options — never just one — so the customer can choose without feeling boxed in.',
-      example: 'Would Thursday at 2pm work for you, or is Friday morning better? Always offer two or three options so the client can choose without feeling pressured.',
+      example: 'Would Thursday at 2pm work for you, or is Friday morning better?',
       imageSlug: '/images/scheduling-a-sales-meeting-would-day-at-time-work-for-you.png',
     },
     {
