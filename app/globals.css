@@ -25,6 +25,20 @@ body {
   transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
+/* Image lightbox entrance */
+@keyframes lightbox-fade {
+  from { opacity: 0; }
+}
+@keyframes lightbox-zoom {
+  from { transform: scale(0.96); opacity: 0; }
+}
+.animate-lightbox-fade { animation: lightbox-fade 0.18s ease-out; }
+.animate-lightbox-zoom { animation: lightbox-zoom 0.18s ease-out; }
+@media (prefers-reduced-motion: reduce) {
+  .animate-lightbox-fade,
+  .animate-lightbox-zoom { animation: none; }
+}
+
 /* Fill-in-the-blank wrong-answer shake */
 @keyframes shake {
   0%,  100% { transform: translateX(0); }

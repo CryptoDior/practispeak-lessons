@@ -1,361 +1,288 @@
 'use client';
 
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import { lessons } from '@/data/lessons';
-import { Lesson } from '@/types/lesson';
-import LevelBadge from '@/components/LevelBadge';
+import { getCatalog, describeRange, LEVEL_MIN, LEVEL_MAX } from '@/lib/series';
+import LevelRangeSlider from '@/components/LevelRangeSlider';
+import { SiteHeader, SiteFooter, SearchIcon } from '@/components/SiteChrome';
 
-const FOOTBALL_SLUGS = new Set([
-  'team-communication',
-  'the-football-pitch','players-and-positions','the-kit','numbers-in-football',
-  'people-at-the-club','kick-pass-shoot','run-sprint-stop','score-a-goal',
-  'win-lose-draw','simple-match-commands','the-stadium','buying-a-ticket',
-  'getting-there','before-the-match','chants-and-crowd-language','half-time',
-  'the-final-whistle','talking-about-your-team','asking-about-the-match','a1-review-match',
-  'dribble-tackle-intercept','types-of-pass','shots-and-saves','set-pieces',
-  'the-offside-rule','describing-a-match','cards-and-fouls','substitutions',
-  'formations','injury-time','describing-a-player','transfer-talk','the-squad',
-  'comparing-teams','stadiums-and-grounds','watching-from-the-stands','watching-on-tv',
-  'talking-to-other-fans','reading-match-reports','match-of-the-day-a2-review',
-  'press-and-pressing','defending-as-a-unit','building-from-the-back','width-and-depth',
-  'counter-attack','training-sessions','fitness-and-conditioning','injuries',
-  'nutrition-and-recovery','the-managers-team-talk','live-commentary-language',
-  'match-highlights','post-match-interviews','social-media-football','football-podcasts',
-  'league-formats','cup-football','european-football','grassroots-football',
-  'b1-review-the-big-debate',
-  'shape-and-structure','set-piece-routines','the-half-space','pressing-triggers',
-  'dead-ball-situations','contract-negotiations','speaking-to-your-teammates',
-  'talking-to-your-manager','dressing-room-english','media-training',
-  'football-idioms-in-everyday-english','slang-and-jargon','football-humour',
-  'british-vs-american-football-english','footballs-global-vocabulary',
-  'reading-a-tactical-analysis','writing-a-match-report','the-transfer-window',
-  'football-and-culture','b2-capstone-pundit-panel',
-]);
+/* ---------- feature icons ---------- */
 
-const SALES_KW = [
-  'sales','selling','objection','rapport','crm','-customer','customer-',
-  'pitching-to','follow-up-after','payment-vocab','persuasive-recommendations',
-  'product-features','talking-about-prices','offering-help','confirming-customer',
-  'explaining-packages','b2b-','high-ticket','presenting-proposals',
-  'storytelling-in-sales','creating-urgency','handling-difficult',
-  'making-simple-recommendations','taking-a-simple-order','simple-product-comparison',
-  'talking-about-delivery','thanking-the-customer','simple-sales-role-play',
-  'comparing-products','-sales-pitch','negotiating-politely','colors-sizes',
-  'giving-simple-answers','consultative-selling','executive-level-sales',
-  'advanced-sales','data-driven-sales','cross-cultural-sales','advanced-follow-up',
-  'sales-leadership','complex-objection','negotiating-price','advanced-persuasive-language',
-  'strategic-questioning','asking-what-the-customer',
-];
-
-const MARKETING_KW = [
-  'marketing','branding','campaign','brand-architecture','brand-storytelling',
-  'brand-values','content-strategy','consumer-psychology','integrated-marketing',
-  'digital-marketing','email-marketing','influencer','data-driven-decisions',
-  'running-effective-meetings','customer-journey','seo-and-sem',
-  'social-media-advertising','crisis-communication','global-vs-local',
-  'working-with-agencies','e-commerce','account-based','customer-retention',
-  'ethical-marketing','in-emerging-markets','internal-communications',
-  'innovation-in','performance-marketing','community-led','ai-and-automation',
-  'media-relations','luxury-and-premium','cause-related','marketing-in-a-recession',
-  'cross-cultural-negotiation','advanced-presentation-skills','academic-and-trade',
-  'mastering-ambiguity','political-communication','advanced-discourse',
-  'board-level-reporting','mergers-acquisitions','the-future-of-marketing',
-  'crisis-pr','marketing-due-diligence','semiotics','writing-for-the-c-suite',
-  'international-media','regulatory-and-legal','thought-leadership',
-  'cultural-intelligence','multilingual','advanced-brand-strategy',
-  'growth-marketing','complex-data-storytelling','global-campaign',
-  'advanced-copywriting','marketing-transformation','negotiating-contracts',
-  'writing-a-marketing-white-paper','language-of-business','swot-analysis',
-  'market-segmentation','hello-i-work-in','my-company','products-and-services',
-  'numbers-and-prices','the-marketing-team','what-does-marketing','our-customers',
-  'online-and-offline','a-simple-marketing-plan','colours-logos','our-target-market',
-  'the-4-ps','running-a-campaign','writing-better-emails','social-media-strategy',
-  'understanding-data','customer-feedback','competitive-landscape','good-better-best',
-  'what-do-you-like','social-media-basics','emails-in-marketing','at-a-trade-fair',
-  'this-is-our-new-product','how-much-does-it-cost','where-do-you-sell',
-  'review-talking-about-my-work','a1-final-project-my-brand','review-the-marketing-mix',
-  'a2-final-project-mini','advertising-media','making-an-offer','planning-a-product-launch',
-  'in-a-marketing-meeting','content-marketing-basics','your-brand-online',
-  'trade-shows-and-events','measuring-success','strategic-marketing-overview',
-  'social-listening','programmatic-advertising','marketing-leadership',
-  'marketing-ethics','marketing-then-and-now','advanced-data-analytics',
-  'persuasive-marketing','negotiating-with-partners',
-];
-
-const GAMING_KW = [
-  'gaming','esports','streaming','action-verbs-move','describing-characters',
-  'gaming-jargon','talking-strategy','i-am-a-player','game-genres','inventory',
-  'gg-basic','questions-what-who','online-toxicity','narrative-tenses-storytelling',
-  'social-gaming','tech-talk-lag','game-design','language-in-gaming',
-  'advanced-vocabulary-etymology','game-on-first-words',
-];
-
-const slugHasKw = (slug: string, kws: string[]) => kws.some((kw) => slug.includes(kw));
-
-interface SeriesConfig {
-  id: string;
-  name: string;
-  shortName: string;
-  emoji: string;
-  description: string;
-  match: (l: Lesson) => boolean;
-  levelMap?: Record<string, string>;
-}
-
-const SERIES: SeriesConfig[] = [
-  {
-    id: 'roblox',
-    name: 'Roblox English',
-    shortName: 'Roblox',
-    emoji: '\u{1F3AE}',
-    description: 'Learn real English through Roblox — gaming, chat, quests, and community.',
-    match: (l) => l.slug.startsWith('roblox-'),
-    levelMap: { A1: 'A1-A2', A2: 'A1-A2' },
-  },
-  {
-    id: 'football',
-    name: 'Football English',
-    shortName: 'Football',
-    emoji: '⚽',
-    description: 'From basic vocabulary to punditry — English for players, fans, and analysts.',
-    match: (l) =>
-      FOOTBALL_SLUGS.has(l.slug) || l.slug.startsWith('c1-') || l.slug.startsWith('c2-'),
-  },
-  {
-    id: 'sales',
-    name: 'Sales English',
-    shortName: 'Sales',
-    emoji: '\u{1F4BC}',
-    description: 'Professional English for sales calls, pitches, objections, and closing deals.',
-    match: (l) => slugHasKw(l.slug, SALES_KW),
-  },
-  {
-    id: 'marketing',
-    name: 'Marketing English',
-    shortName: 'Marketing',
-    emoji: '\u{1F4C8}',
-    description: 'English for marketers — strategy, campaigns, data, branding, and leadership.',
-    match: (l) => slugHasKw(l.slug, MARKETING_KW),
-  },
-  {
-    id: 'gaming',
-    name: 'Gaming English',
-    shortName: 'Gaming',
-    emoji: '\u{1F579}️',
-    description: 'English for gamers — streaming, esports, strategy, and gaming culture.',
-    match: (l) => slugHasKw(l.slug, GAMING_KW),
-  },
-  {
-    id: 'other',
-    name: 'Other Lessons',
-    shortName: 'Other',
-    emoji: '\u{1F4DA}',
-    description: 'More lessons across different topics and contexts.',
-    match: () => true,
-  },
-];
-
-const LEVEL_ORDER = ['A1', 'A1-A2', 'A2', 'B1', 'B2', 'B1-B2', 'C1', 'C2', 'C1-C2'] as const;
-
-function levelSlug(level: string) {
-  return level.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
-}
-
-function groupByLevel(
-  lessonList: Lesson[],
-  lMap?: Record<string, string>
-): { level: string; lessons: Lesson[] }[] {
-  const map = new Map<string, Lesson[]>();
-  for (const l of lessonList) {
-    const lv = (lMap && lMap[l.level]) ?? l.level;
-    if (!map.has(lv)) map.set(lv, []);
-    map.get(lv)!.push(l);
-  }
-  const ordered = (LEVEL_ORDER as readonly string[])
-    .filter((lv) => map.has(lv))
-    .map((lv) => ({ level: lv, lessons: map.get(lv)! }));
-  for (const [lv, ls] of map) {
-    if (!(LEVEL_ORDER as readonly string[]).includes(lv)) {
-      ordered.push({ level: lv, lessons: ls });
-    }
-  }
-  return ordered;
-}
-
-function LessonCard({ lesson }: { lesson: Lesson }) {
+function BookIcon({ className = 'w-6 h-6' }: { className?: string }) {
   return (
-    <Link
-      href={lesson.externalUrl ?? `/lessons/${lesson.slug}`}
-      className="group bg-white rounded-[20px] shadow-[0_2px_16px_rgba(6,110,245,0.07)] p-6 hover:shadow-[0_6px_28px_rgba(6,110,245,0.14)] hover:-translate-y-0.5 transition-all duration-200 block"
-    >
-      <div className="mb-3">
-        <LevelBadge level={lesson.level} />
-      </div>
-      <h3 className="text-lg font-extrabold text-gray-900 mb-2 group-hover:text-[#066EF5] transition-colors leading-snug">
-        {lesson.title}
-      </h3>
-      <p className="text-gray-500 text-sm mb-5 leading-relaxed font-semibold">
-        {lesson.description}
-      </p>
-      <div className="flex gap-3 text-xs text-gray-400 font-semibold mb-5">
-        {lesson.externalUrl ? (
-          <span>8 phrases &middot; 3 exercises &middot; Speaking</span>
-        ) : (
-          <>
-            <span>{lesson.vocabulary.length} words</span>
-            <span>&middot;</span>
-            <span>{lesson.phrasalVerbs.length} phrasal verbs</span>
-            <span>&middot;</span>
-            <span>3 exercises</span>
-          </>
-        )}
-      </div>
-      <div className="flex items-center gap-1 text-sm font-extrabold text-[#066EF5]">
-        Start Lesson
-        <span className="group-hover:translate-x-1 transition-transform">{'→'}</span>
-      </div>
-    </Link>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className} aria-hidden="true">
+      <path d="M12 6.5C10.4 5 8.2 4.5 5.5 4.5c-.8 0-1.5.1-2 .2v13.6c.5-.1 1.2-.2 2-.2 2.7 0 4.9.5 6.5 2 1.6-1.5 3.8-2 6.5-2 .8 0 1.5.1 2 .2V4.7c-.5-.1-1.2-.2-2-.2-2.7 0-4.9.5-6.5 2zM12 6.5v13.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function ShieldCheckIcon({ className = 'w-6 h-6' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className} aria-hidden="true">
+      <path d="M12 3l7.5 3v5.5c0 4.5-3 8-7.5 9.5-4.5-1.5-7.5-5-7.5-9.5V6L12 3z" strokeLinejoin="round" />
+      <path d="M9 12l2.2 2.2L15.5 9.8" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function TargetIcon({ className = 'w-6 h-6' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className} aria-hidden="true">
+      <circle cx="12" cy="12" r="8.5" />
+      <circle cx="12" cy="12" r="4.5" />
+      <circle cx="12" cy="12" r="1" fill="currentColor" />
+      <path d="M18 6l3-3M18 6h2.5M18 6V3.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function SparklesIcon({ className = 'w-6 h-6' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className} aria-hidden="true">
+      <path d="M12 4l1.8 4.7L18.5 10l-4.7 1.8L12 16.5l-1.8-4.7L5.5 10l4.7-1.3L12 4z" strokeLinejoin="round" />
+      <path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15z" strokeLinejoin="round" />
+      <path d="M5 15.5l.7 1.6 1.6.7-1.6.7-.7 1.6-.7-1.6-1.6-.7 1.6-.7.7-1.6z" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function LeafMark({ className = '' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 300 340" fill="none" className={className} aria-hidden="true">
+      <text
+        x="150"
+        y="230"
+        textAnchor="middle"
+        fontFamily="var(--font-playfair), 'Playfair Display', serif"
+        fontSize="290"
+        fill="#EDF0F5"
+      >
+        P
+      </text>
+      <g stroke="#E2E7EF" strokeWidth="3" strokeLinecap="round">
+        <path d="M70 320c50-40 110-60 180-55" fill="none" />
+        <path d="M120 295c-2-14 6-26 20-30 2 14-6 26-20 30zM165 282c-1-13 7-24 20-27 1 13-7 24-20 27zM212 274c0-12 8-22 20-24 0 12-8 22-20 24z" fill="#EDF0F5" stroke="none" />
+      </g>
+    </svg>
+  );
+}
+
+const FEATURES = [
+  {
+    icon: BookIcon,
+    title: 'Expertly Curated',
+    text: 'Lessons created by experienced teachers and language experts.',
+  },
+  {
+    icon: ShieldCheckIcon,
+    title: 'Practical & Relevant',
+    text: 'Real-life topics and tasks you can use immediately.',
+  },
+  {
+    icon: TargetIcon,
+    title: 'Progress with Purpose',
+    text: 'Level-based learning that helps you grow step by step.',
+  },
+  {
+    icon: SparklesIcon,
+    title: 'Premium Experience',
+    text: 'Beautiful design, no distractions — just effective learning.',
+  },
+];
+
+function RangeLabel({ range }: { range: [number, number] }) {
+  const r = describeRange(range);
+  return (
+    <span className="flex items-center gap-1.5 text-xs flex-wrap">
+      <span className="font-bold text-blue-600">{r.minCode}</span>
+      <span className="text-slate-500 font-medium">{r.minBand}</span>
+      {!r.same && (
+        <>
+          <span className="text-slate-300" aria-hidden="true">
+            –
+          </span>
+          <span className="font-bold text-blue-600">{r.maxCode}</span>
+          <span className="text-slate-500 font-medium">{r.maxBand}</span>
+        </>
+      )}
+    </span>
   );
 }
 
 export default function Home() {
-  const [activeSeries, setActiveSeries] = useState<string | null>(null);
+  const catalog = useMemo(() => getCatalog(), []);
+  const [levelRange, setLevelRange] = useState<[number, number]>([LEVEL_MIN, LEVEL_MAX]);
+  const [search, setSearch] = useState('');
 
-  const assigned = new Set<string>();
-  const grouped = SERIES.map((series) => {
-    const sl = lessons.filter((l) => !assigned.has(l.slug) && series.match(l));
-    sl.forEach((l) => assigned.add(l.slug));
-    const byLevel = groupByLevel(sl, series.levelMap);
-    return { ...series, lessons: sl, byLevel };
-  }).filter((g) => g.lessons.length > 0);
+  const query = search.trim().toLowerCase();
+  const [selLo, selHi] = levelRange;
 
-  const activeGroup = grouped.find((g) => g.id === activeSeries) ?? null;
+  const visible = catalog.filter((c) => {
+    if (c.range[0] > selHi || c.range[1] < selLo) return false;
+    if (
+      query &&
+      !c.name.toLowerCase().includes(query) &&
+      !c.cardTitle.toLowerCase().includes(query) &&
+      !c.description.toLowerCase().includes(query)
+    )
+      return false;
+    return true;
+  });
+
+  const totalLessons = visible.reduce((n, c) => n + c.lessons.length, 0);
+  const filtersActive = query !== '' || selLo !== LEVEL_MIN || selHi !== LEVEL_MAX;
 
   return (
-    <div className="min-h-screen bg-[#F0F4FF]">
-      <header className="bg-white shadow-sm">
-        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center gap-3">
-          <div className="w-10 h-10 bg-[#066EF5] rounded-xl flex items-center justify-center flex-shrink-0">
-            <span className="text-white font-extrabold text-lg leading-none">P</span>
-          </div>
-          <div>
-            <p className="text-lg font-extrabold text-[#066EF5] leading-tight">Practispeak</p>
-            <p className="text-xs text-gray-400 font-semibold leading-tight">practispeak.com</p>
-          </div>
-        </div>
-      </header>
+    <div id="top" className="min-h-screen bg-[#F6F8FB] font-poppins text-slate-900">
+      <SiteHeader active="Home" />
 
-      <div className="bg-gradient-to-br from-[#1245CE] to-[#066EF5] text-white py-16 md:py-24 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
-            Learn English Through What You Love
-          </h1>
-          <p className="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto leading-relaxed font-semibold">
-            Master real-world English through gaming, football, and more. Interactive lessons packed
-            with vocabulary, phrasal verbs, and dialogue.
+      {/* ---------- Hero ---------- */}
+      <section className="relative bg-white overflow-hidden">
+        <LeafMark className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 w-[300px] h-auto pointer-events-none select-none" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-10 pb-9 relative">
+          <p className="text-[13px] font-semibold tracking-[0.18em] text-blue-600 uppercase mb-3">
+            Curated English Lessons
           </p>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 uppercase mb-4">
+            Lesson Materials
+          </h1>
+          <p className="text-base text-slate-500 max-w-xl leading-relaxed">
+            Thoughtfully designed lessons to help you learn English with clarity, confidence, and
+            real-world purpose. Search by level or interests.
+          </p>
+        </div>
+      </section>
+
+      {/* ---------- Filter bar ---------- */}
+      <div id="levels" className="max-w-7xl mx-auto px-4 sm:px-6 -mb-2 relative z-10 scroll-mt-20">
+        <div className="bg-white rounded-2xl border border-slate-200 shadow-[0_8px_30px_rgba(15,23,42,0.06)] grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] divide-y lg:divide-y-0 lg:divide-x divide-slate-100">
+          {/* Level range slider */}
+          <div className="px-6 py-4">
+            <div className="flex items-center justify-between gap-3 flex-wrap">
+              <span className="text-xs font-semibold tracking-[0.14em] text-slate-500 uppercase">
+                Level
+              </span>
+              <RangeLabel range={levelRange} />
+            </div>
+            <LevelRangeSlider value={levelRange} onChange={setLevelRange} />
+          </div>
+
+          {/* Category search */}
+          <div className="px-6 py-4">
+            <label
+              htmlFor="category-search"
+              className="block text-xs font-semibold tracking-[0.14em] text-slate-500 uppercase mb-3"
+            >
+              Search Materials
+            </label>
+            <div className="relative">
+              <SearchIcon className="w-5 h-5 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none" />
+              <input
+                id="category-search"
+                type="search"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder="e.g. Football or Marketing"
+                className="w-full h-11 pl-12 pr-4 rounded-xl border border-slate-200 bg-slate-50/60 text-[15px] text-slate-900 placeholder:text-slate-400 focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition"
+              />
+            </div>
+            <p className="mt-2.5 text-xs text-slate-400" aria-live="polite">
+              {visible.length} categor{visible.length === 1 ? 'y' : 'ies'} · {totalLessons} lesson
+              {totalLessons !== 1 ? 's' : ''}
+            </p>
+          </div>
         </div>
       </div>
 
-      <main className="max-w-6xl mx-auto px-4 py-12">
-
-        {/* Tier 1: broad series pills */}
-        <div className="flex flex-wrap gap-2 mb-3">
-          {grouped.map((g) => {
-            const isActive = activeSeries === g.id;
-            return (
-              <button
-                key={g.id}
-                onClick={() => setActiveSeries(isActive ? null : g.id)}
-                className={`flex items-center gap-1.5 px-4 py-2 border rounded-full shadow-sm text-sm font-extrabold transition-all duration-150 ${
-                  isActive
-                    ? 'bg-[#066EF5] text-white border-[#066EF5]'
-                    : 'bg-white text-gray-700 border-blue-100 hover:bg-[#066EF5] hover:text-white hover:border-[#066EF5]'
-                }`}
+      {/* ---------- Category cards ---------- */}
+      <section id="categories" className="max-w-7xl mx-auto px-4 sm:px-6 pt-9 pb-12 scroll-mt-20">
+        {visible.length === 0 ? (
+          <div className="bg-white border border-slate-200 rounded-2xl py-16 px-6 text-center">
+            <p className="text-lg font-semibold text-slate-900 mb-2">No materials found</p>
+            <p className="text-sm text-slate-500 mb-6">
+              Try a different search term, or widen the level range to see everything.
+            </p>
+            <button
+              type="button"
+              onClick={() => {
+                setSearch('');
+                setLevelRange([LEVEL_MIN, LEVEL_MAX]);
+              }}
+              className="inline-flex items-center h-11 px-6 rounded-xl bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700 transition-colors cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
+            >
+              Clear filters
+            </button>
+          </div>
+        ) : (
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {visible.map((c) => (
+              <Link
+                key={c.id}
+                href={`/categories/${c.id}`}
+                className="group bg-white rounded-xl overflow-hidden border border-slate-200 transition-all duration-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_14px_40px_rgba(15,23,42,0.12)] hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
               >
-                <span>{g.emoji}</span>
-                <span>{g.name}</span>
-                <span className="ml-1 text-xs font-semibold opacity-60">{g.lessons.length}</span>
-                <span className="ml-0.5 text-xs opacity-60">{isActive ? '▲' : '▼'}</span>
-              </button>
-            );
-          })}
-        </div>
-
-        {/* Tier 2: level sub-pills (shown when a series is active) */}
-        {activeGroup && (
-          <div className="flex flex-wrap gap-2 mb-10 pl-2 pt-2 border-l-2 border-[#066EF5] ml-1">
-            {activeGroup.byLevel.map(({ level, lessons: ls }) => {
-              const anchor = activeGroup.byLevel.length === 1
-                ? `#${activeGroup.id}`
-                : `#${activeGroup.id}-${levelSlug(level)}`;
-              return (
-                <a
-                  key={level}
-                  href={anchor}
-                  className="flex items-center gap-1.5 px-4 py-1.5 bg-blue-50 border border-blue-200 rounded-full text-sm font-extrabold text-[#066EF5] hover:bg-[#066EF5] hover:text-white hover:border-[#066EF5] transition-all duration-150"
-                >
-                  <span>{level}</span>
-                  <span className="text-xs font-semibold opacity-60">{ls.length}</span>
-                </a>
-              );
-            })}
+                <div className="aspect-[16/9] overflow-hidden bg-slate-100">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={c.image}
+                    alt={c.imageAlt}
+                    width={900}
+                    height={506}
+                    loading="lazy"
+                    className="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-5">
+                  <h3 className="font-playfair text-xl font-semibold text-slate-900 mb-1.5 group-hover:text-blue-700 transition-colors">
+                    {c.cardTitle}
+                  </h3>
+                  <p className="text-[13px] text-slate-500 leading-relaxed mb-4">{c.description}</p>
+                  <div className="flex items-center justify-between gap-2 pt-3 border-t border-slate-100 flex-wrap">
+                    <RangeLabel range={c.range} />
+                    <span className="text-xs text-slate-400 font-medium">
+                      {c.lessons.length} lessons
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
           </div>
         )}
 
-        {!activeGroup && <div className="mb-10" />}
+        {filtersActive && visible.length > 0 && (
+          <div className="mt-8 text-center">
+            <button
+              type="button"
+              onClick={() => {
+                setSearch('');
+                setLevelRange([LEVEL_MIN, LEVEL_MAX]);
+              }}
+              className="text-sm font-semibold text-blue-600 hover:text-blue-700 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 rounded-lg px-3 py-2"
+            >
+              Clear filters — show all materials
+            </button>
+          </div>
+        )}
+      </section>
 
-        {/* Lesson sections */}
-        {grouped.map((series) => {
-          const isMultiLevel = series.byLevel.length > 1;
-          return (
-            <section key={series.id} id={series.id} className="mb-20 scroll-mt-8">
-              <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
-                <div>
-                  <h2 className="text-2xl font-extrabold text-gray-900 flex items-center gap-2">
-                    <span>{series.emoji}</span>
-                    <span>{series.name}</span>
-                  </h2>
-                  <p className="text-sm text-gray-400 font-semibold mt-0.5">{series.description}</p>
-                </div>
-                <span className="text-sm text-gray-400 font-semibold">
-                  {series.lessons.length} lesson{series.lessons.length !== 1 ? 's' : ''}
-                </span>
+      {/* ---------- Features strip ---------- */}
+      <section id="about" className="bg-white border-t border-slate-100 scroll-mt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6 lg:divide-x lg:divide-slate-100">
+          {FEATURES.map((f) => (
+            <div key={f.title} className="flex items-start gap-4 lg:px-6 first:lg:pl-0 last:lg:pr-0">
+              <span className="w-14 h-14 rounded-full border border-slate-200 flex items-center justify-center text-blue-600 flex-shrink-0">
+                <f.icon className="w-6 h-6" />
+              </span>
+              <div>
+                <h3 className="text-[15px] font-semibold text-slate-900 mb-1.5">{f.title}</h3>
+                <p className="text-sm text-slate-500 leading-relaxed">{f.text}</p>
               </div>
+            </div>
+          ))}
+        </div>
+      </section>
 
-              {series.byLevel.map(({ level, lessons: lvLessons }) => (
-                <div
-                  key={level}
-                  id={isMultiLevel ? `${series.id}-${levelSlug(level)}` : undefined}
-                  className="mb-10 scroll-mt-20"
-                >
-                  {isMultiLevel && (
-                    <div className="flex items-center gap-3 mb-5">
-                      <span className="text-xs font-extrabold text-[#066EF5] bg-blue-50 border border-blue-100 px-3 py-1 rounded-full uppercase tracking-wide">
-                        {series.shortName} {level}
-                      </span>
-                      <div className="flex-1 h-px bg-blue-100" />
-                      <span className="text-xs text-gray-400 font-semibold">
-                        {lvLessons.length} lesson{lvLessons.length !== 1 ? 's' : ''}
-                      </span>
-                    </div>
-                  )}
-                  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                    {lvLessons.map((lesson) => (
-                      <LessonCard key={lesson.slug} lesson={lesson} />
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </section>
-          );
-        })}
-      </main>
-
-      <footer className="border-t border-blue-100 mt-16 py-8 text-center text-gray-400 text-sm font-semibold">
-        &copy; {new Date().getFullYear()} Practispeak &middot; practispeak.com
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

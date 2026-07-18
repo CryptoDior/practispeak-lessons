@@ -1,10 +1,12 @@
 'use client';
-import { useState, useCallback, useRef, useEffect } from 'react';
+import { useState, useCallback } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getLessonBySlug } from '@/data/lessons';
 import { Lesson, LessonVideo } from '@/types/lesson';
-import LevelBadge from '@/components/LevelBadge';
+import { getCatalog } from '@/lib/series';
+import { bandForLevel } from '@/lib/levels';
+import { SiteHeader } from '@/components/SiteChrome';
 import VocabCard from '@/components/VocabCard';
 import PhrasalVerbCard from '@/components/PhrasalVerbCard';
 import DialogueSection from '@/components/DialogueSection';
@@ -104,8 +106,6 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   const hasCompleteSentence = !!lesson.completeSentenceExercise;
   const [pitchCornerDone, setPitchCornerDone] = useState(false);
   const [completeSentenceDone, setCompleteSentenceDone] = useState(false);
-  const [showFillBlank, setShowFillBlank] = useState(false);
-  const [showMultipleChoice, setShowMultipleChoice] = useState(false);
   const [showCompletion, setShowCompletion] = useState(false);
 
   const goToTab = (i: number) => {
@@ -126,12 +126,10 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
 
   const handleMatchingComplete = useCallback((score: number, total: number) => {
     setScores((prev) => ({ ...prev, matching: { score, total } }));
-    setShowFillBlank(true);
   }, []);
 
   const handleFillBlankComplete = useCallback((score: number, total: number) => {
     setScores((prev) => ({ ...prev, fillBlank: { score, total } }));
-    setShowMultipleChoice(true);
   }, []);
 
   const handleMultipleChoiceComplete = useCallback((score: number, total: number) => {
@@ -147,8 +145,8 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
 
   if (showCompletion && scores.matching && scores.fillBlank && scores.multipleChoice) {
     return (
-      <div className="min-h-screen bg-[#F0F4FF]">
-        <SiteHeader />
+      <div className="min-h-screen bg-[#F6F8FB]">
+        <SiteHeader active="Categories" />
         <CompletionScreen
           lessonTitle={lesson.title}
           scores={[
@@ -163,47 +161,163 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
     );
   }
 
-  return (
-    <div className="min-h-screen bg-[#F0F4FF]">
+  const catalog = getCatalog();
+  const category = catalog.find((c) => c.lessons.some((l) => l.slug === lesson.slug));
+  const band = bandForLevel(lesson.level);
+  const lessonNo = category
+    ? category.lessons
+        .filter((l) => bandForLevel(l.level).id === band.id)
+        .findIndex((l) => l.slug === lesson.slug) + 1
+    : 0;
+  const heroSrc = lesson.heroImage ?? category?.image;
+  const catWords = (category?.name ?? 'Practispeak Lessons').split(' ');
+  const catFirst = catWords[0];
+  const catRest = catWords.slice(1).join(' ') || 'lessons';
 
-      <div className="bg-gradient-to-br from-[#EEF3FF] via-[#E6EDFF] to-[#D8E7FF]">
-        <div className="max-w-5xl mx-auto px-4">
-          <div className="flex items-center justify-between py-4 border-b border-blue-100/60">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-[#066EF5] rounded-lg flex items-center justify-center flex-shrink-0">
-                <span className="text-white font-extrabold text-sm leading-none">P</span>
-              </div>
-              <span className="font-extrabold text-[#066EF5] text-lg">Practispeak</span>
-            </Link>
-            <Link href="/" className="text-sm text-[#066EF5]/70 hover:text-[#066EF5] font-semibold transition-colors">
-              ← All Lessons
-            </Link>
-          </div>
-          <div className="flex items-center justify-between py-8 gap-8">
-            <div className="flex-1 min-w-0">
-              <LevelBadge level={lesson.level} large />
-              <h1 className="text-2xl md:text-3xl font-extrabold text-gray-900 mt-3 mb-1.5 leading-tight">
+  const objectives = [
+    lesson.vocabulary.length > 0 &&
+      `Learn ${lesson.vocabulary.length} key vocabulary words with audio and examples`,
+    lesson.phrasalVerbs.length > 0 &&
+      `Master ${lesson.phrasalVerbs.length} phrasal verbs and useful phrases`,
+    lesson.readingPassage
+      ? 'Read a passage that uses this lesson’s language in context'
+      : lesson.dialogue?.length
+        ? 'Follow a real dialogue and hear the words in context'
+        : null,
+    'Test yourself with interactive exercises and track your score',
+  ].filter(Boolean) as string[];
+
+  return (
+    <div className="min-h-screen bg-[#F6F8FB]">
+      <SiteHeader active="Categories" />
+
+      <div className="font-poppins max-w-5xl mx-auto px-4 sm:px-6 pt-6 pb-2">
+        {/* ---------- Lesson hero card ---------- */}
+        <section className="bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] overflow-hidden">
+          <div className="flex flex-col md:flex-row md:items-stretch">
+            <div className="flex-1 px-6 sm:px-10 py-8 md:py-10 flex flex-col justify-center">
+              <nav aria-label="Breadcrumb" className="mb-4">
+                <ol className="flex items-center gap-2 text-sm flex-wrap">
+                  <li>
+                    <Link href="/" className="font-semibold text-blue-600 hover:text-blue-700 transition-colors">
+                      Practispeak
+                    </Link>
+                  </li>
+                  <li className="text-slate-300" aria-hidden="true">/</li>
+                  <li>
+                    <Link href="/#categories" className="text-slate-500 hover:text-blue-600 transition-colors">
+                      Materials
+                    </Link>
+                  </li>
+                  {category && (
+                    <>
+                      <li className="text-slate-300" aria-hidden="true">/</li>
+                      <li>
+                        <Link
+                          href={`/categories/${category.id}`}
+                          className="text-slate-500 hover:text-blue-600 transition-colors"
+                        >
+                          {category.name}
+                        </Link>
+                      </li>
+                    </>
+                  )}
+                  {lessonNo > 0 && (
+                    <>
+                      <li className="text-slate-300" aria-hidden="true">/</li>
+                      <li className="text-slate-500">Lesson {lessonNo}</li>
+                    </>
+                  )}
+                </ol>
+              </nav>
+              <h1 className="font-playfair text-4xl md:text-5xl font-semibold text-slate-900 mb-5 leading-tight">
                 {lesson.title}
               </h1>
-              <p className="text-gray-500 font-semibold mb-5">{lesson.subtitle}</p>
-              <div className="flex items-center gap-3 max-w-sm">
-                <div className="flex-1 h-2 bg-white/70 rounded-full overflow-hidden">
+              <div className="flex items-center gap-3 mb-8">
+                <span className="inline-flex items-center justify-center min-w-[2.5rem] h-10 px-2 rounded-xl border-2 border-blue-600 text-blue-600 font-bold text-sm">
+                  {lesson.level}
+                </span>
+                <span className="text-[17px] font-medium text-slate-800">{band.label}</span>
+              </div>
+              <div className="flex items-center gap-3 max-w-xs">
+                <div className="flex-1 h-1.5 bg-slate-100 rounded-full overflow-hidden">
                   <div
-                    className="h-full bg-[#066EF5] rounded-full transition-all duration-500"
+                    className="h-full bg-blue-600 rounded-full transition-all duration-500"
                     style={{ width: `${progress}%` }}
                   />
                 </div>
-                <span className="text-sm font-extrabold text-[#066EF5] w-10 text-right">{progress}%</span>
+                <span className="text-xs font-bold text-blue-600 w-9 text-right">{progress}%</span>
               </div>
             </div>
-            <div className="hidden md:block flex-shrink-0">
-              <LessonHeroImage src={lesson.heroImage} alt={lesson.title} />
+
+            <div className="relative hidden md:block md:w-[45%] min-h-[300px] bg-gradient-to-br from-[#EEF3FF] to-[#DCE7FF]">
+              {heroSrc && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={heroSrc}
+                  alt={category ? category.imageAlt : ''}
+                  className="absolute inset-0 w-full h-full object-cover"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).style.display = 'none';
+                  }}
+                />
+              )}
+              <svg
+                className="absolute inset-0 w-full h-full"
+                viewBox="0 0 100 100"
+                preserveAspectRatio="none"
+                aria-hidden="true"
+              >
+                <path d="M-2,104 C30,88 68,62 104,22 L104,104 Z" fill="white" />
+                <path
+                  d="M-2,104 C30,88 68,62 104,22"
+                  fill="none"
+                  stroke="#2563EB"
+                  strokeWidth="2.5"
+                  vectorEffect="non-scaling-stroke"
+                />
+              </svg>
+              <div className="absolute bottom-5 right-7 text-right">
+                <span className="block text-[11px] font-bold tracking-[0.22em] text-blue-600 uppercase">
+                  {catFirst}
+                </span>
+                <span className="block text-2xl font-semibold text-slate-900 lowercase leading-tight">
+                  {catRest}
+                </span>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
+
+        {/* ---------- Learning objectives ---------- */}
+        <section className="relative bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] overflow-hidden mt-6 mb-4">
+          <ObjectivesArt className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 h-[75%] w-auto pointer-events-none select-none" />
+          <div className="relative flex items-start gap-6 p-6 sm:p-8">
+            <div className="flex-shrink-0 self-stretch pr-6 border-r border-slate-100">
+              <span className="w-14 h-14 rounded-full border border-blue-200 text-blue-600 flex items-center justify-center">
+                <TargetIcon className="w-6 h-6" />
+              </span>
+            </div>
+            <div>
+              <h2 className="font-playfair text-2xl sm:text-3xl font-semibold text-slate-900">
+                Learning Objectives
+              </h2>
+              <span className="block w-10 h-0.5 bg-blue-600 mt-2.5 mb-4" aria-hidden="true" />
+              <p className="text-[15px] text-slate-700 mb-3">In this lesson you will:</p>
+              <ul className="space-y-2.5">
+                {objectives.map((o) => (
+                  <li key={o} className="flex items-start gap-3 text-[15px] text-slate-700">
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-600 mt-2 flex-shrink-0" aria-hidden="true" />
+                    {o}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
 
-      <div className="bg-white shadow-sm sticky top-0 z-10">
+      <div className="bg-white shadow-sm sticky top-16 z-30">
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex overflow-x-auto no-scrollbar">
             {TABS.map((tab, i) => (
@@ -262,6 +376,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           <div className="flex flex-col gap-6">
             {lesson.vocabulary.map((word, i) => <VocabCard key={word.word} word={word} index={i} />)}
           </div>
+          <OrnamentDivider />
         </section>
 
         {/* IRL Vocab */}
@@ -302,6 +417,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
           <div className="flex flex-col gap-6">
             {lesson.phrasalVerbs.map((verb, i) => <PhrasalVerbCard key={verb.phrase} verb={verb} index={i} />)}
           </div>
+          <OrnamentDivider />
         </section>
 
         {/* In Action — 3 scenario cards, each covering 2 phrasal verbs */}
@@ -466,21 +582,15 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
                 <CompleteSentenceSection exercise={lesson.completeSentenceExercise} onComplete={handleCompleteSentenceComplete} />
               </ExerciseCard>
             )}
-            {(!hasPitchCorner && !hasCompleteSentence || pitchCornerDone || completeSentenceDone) && (
-              <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 2 : 1} title="Matching" description="Click a word, then click its correct definition.">
-                <MatchingExercise pairs={lesson.matchingExercise} onComplete={handleMatchingComplete} />
-              </ExerciseCard>
-            )}
-            {showFillBlank && (
-              <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 3 : 2} title="Fill in the Blank" description="Drag the correct words from the word bank to complete each sentence.">
-                <FillBlankExercise items={lesson.fillBlankExercise} onComplete={handleFillBlankComplete} />
-              </ExerciseCard>
-            )}
-            {showMultipleChoice && (
-              <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 4 : 3} title="Multiple Choice" description="Choose the best answer for each question about the dialogue.">
-                <MultipleChoiceExercise items={lesson.multipleChoiceExercise} onComplete={handleMultipleChoiceComplete} />
-              </ExerciseCard>
-            )}
+            <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 2 : 1} title="Matching" description="Click a word, then click its correct definition.">
+              <MatchingExercise pairs={lesson.matchingExercise} onComplete={handleMatchingComplete} />
+            </ExerciseCard>
+            <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 3 : 2} title="Fill in the Blank" description="Drag the correct words from the word bank to complete each sentence.">
+              <FillBlankExercise items={lesson.fillBlankExercise} onComplete={handleFillBlankComplete} />
+            </ExerciseCard>
+            <ExerciseCard number={hasPitchCorner || hasCompleteSentence ? 4 : 3} title="Multiple Choice" description="Choose the best answer for each question about the dialogue.">
+              <MultipleChoiceExercise items={lesson.multipleChoiceExercise} onComplete={handleMultipleChoiceComplete} />
+            </ExerciseCard>
             {allDone && (
               <div className="text-center py-4">
                 <div className="p-5 bg-emerald-50 border border-emerald-100 rounded-[20px] mb-5">
@@ -536,44 +646,35 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   );
 }
 
-function LessonHeroImage({ src, alt }: { src?: string; alt: string }) {
-  const [imgReady, setImgReady] = useState(false);
-  const imgRef = useRef<HTMLImageElement>(null);
-  useEffect(() => {
-    if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) setImgReady(true);
-  }, [src]);
+function TargetIcon({ className = 'w-6 h-6' }: { className?: string }) {
   return (
-    <div className="relative w-56 lg:w-64 aspect-square rounded-2xl overflow-hidden shadow-[0_4px_24px_rgba(6,110,245,0.15)] flex-shrink-0">
-      <div className="absolute inset-0"><HeroPlaceholder /></div>
-      {src && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          ref={imgRef} src={src} alt="" aria-hidden={!imgReady}
-          className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-500 ${imgReady ? 'opacity-100' : 'opacity-0'}`}
-          onLoad={() => setImgReady(true)}
-          onError={() => setImgReady(false)}
-        />
-      )}
-    </div>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={className} aria-hidden="true">
+      <circle cx="12" cy="12" r="8.5" />
+      <circle cx="12" cy="12" r="4.5" />
+      <circle cx="12" cy="12" r="1" fill="currentColor" />
+      <path d="M18 6l3-3M18 6h2.5M18 6V3.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
   );
 }
 
-function HeroPlaceholder() {
+function ObjectivesArt({ className = '' }: { className?: string }) {
   return (
-    <div className="w-full h-full bg-gradient-to-br from-[#D6E4FF] to-[#B8CEFF] flex items-center justify-center">
-      <svg viewBox="0 0 96 60" width="96" height="60" fill="none" aria-hidden="true">
-        <path d="M18 22 Q14 22 8 30 Q4 36 5 43 Q6 50 13 52 Q20 54 25 47 L34 42 L62 42 L71 47 Q76 54 83 52 Q90 50 91 43 Q92 36 88 30 Q82 22 78 22 L62 18 Q55 14 41 14 Q27 14 18 22Z" fill="#066EF5" fillOpacity="0.18" stroke="#066EF5" strokeOpacity="0.35" strokeWidth="1.5" strokeLinejoin="round"/>
-        <rect x="24" y="27" width="5" height="14" rx="2" fill="#066EF5" fillOpacity="0.3"/>
-        <rect x="19.5" y="31.5" width="14" height="5" rx="2" fill="#066EF5" fillOpacity="0.3"/>
-        <circle cx="64" cy="29" r="3" fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
-        <circle cx="70" cy="34" r="3" fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
-        <circle cx="64" cy="39" r="3" fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
-        <circle cx="58" cy="34" r="3" fill="#066EF5" fillOpacity="0.22" stroke="#066EF5" strokeOpacity="0.4" strokeWidth="1.2"/>
-        <circle cx="38" cy="36" r="6" fill="#066EF5" fillOpacity="0.15" stroke="#066EF5" strokeOpacity="0.3" strokeWidth="1.2"/>
-        <circle cx="54" cy="26" r="5" fill="#066EF5" fillOpacity="0.12" stroke="#066EF5" strokeOpacity="0.25" strokeWidth="1.2"/>
-        <circle cx="47" cy="26" r="3" fill="#066EF5" fillOpacity="0.25"/>
-      </svg>
-    </div>
+    <svg viewBox="0 0 260 180" fill="none" className={className} aria-hidden="true">
+      <g stroke="#DBEAFE" strokeWidth="3" strokeLinecap="round">
+        <path d="M30 160 C55 110 65 60 55 15" fill="none" />
+        <path d="M52 40 C38 38 28 28 27 14 41 16 51 26 52 40z" fill="#EFF5FF" />
+        <path d="M58 70 C44 68 34 58 33 44 47 46 57 56 58 70z" fill="#EFF5FF" />
+        <path d="M60 100 C46 98 36 88 35 74 49 76 59 86 60 100z" fill="#EFF5FF" />
+        <path d="M56 130 C42 128 32 118 31 104 45 106 55 116 56 130z" fill="#EFF5FF" />
+      </g>
+      <g stroke="#DBEAFE" strokeWidth="3.5">
+        <circle cx="180" cy="95" r="62" />
+        <circle cx="180" cy="95" r="42" />
+        <circle cx="180" cy="95" r="22" />
+        <circle cx="180" cy="95" r="5" fill="#DBEAFE" stroke="none" />
+        <path d="M180 95L232 43M232 43h-20M232 43v20" strokeLinecap="round" strokeLinejoin="round" />
+      </g>
+    </svg>
   );
 }
 
@@ -592,30 +693,29 @@ function ExerciseCard({ number, title, description, children }: { number: number
   );
 }
 
-function SiteHeader() {
+function SectionHeader({ title, subtitle, instruction, subtitleClass }: { title: string; subtitle: string; instruction?: string; subtitleClass?: string }) {
   return (
-    <header className="bg-white shadow-sm">
-      <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-[#066EF5] rounded-lg flex items-center justify-center flex-shrink-0">
-            <span className="text-white font-extrabold text-sm leading-none">P</span>
-          </div>
-          <span className="font-extrabold text-[#066EF5] text-lg">Practispeak</span>
-        </Link>
-        <Link href="/" className="text-sm text-gray-400 hover:text-[#066EF5] transition-colors font-semibold">
-          ← All Lessons
-        </Link>
-      </div>
-    </header>
+    <div className="mb-6 font-poppins">
+      <h2 className="font-playfair text-3xl font-semibold text-slate-900 mb-1.5">{title}</h2>
+      <p className={`text-sm ${subtitleClass ?? "text-slate-500"}`}>{subtitle}</p>
+      {instruction && <p className="text-blue-600 text-sm font-medium mt-1">{instruction}</p>}
+    </div>
   );
 }
 
-function SectionHeader({ title, subtitle, instruction, subtitleClass }: { title: string; subtitle: string; instruction?: string; subtitleClass?: string }) {
+function OrnamentDivider() {
   return (
-    <div className="mb-6">
-      <h2 className="text-2xl font-extrabold text-gray-900 mb-1">{title}</h2>
-      <p className={`text-sm ${subtitleClass ?? "text-gray-400 font-semibold"}`}>{subtitle}</p>
-      {instruction && <p className="text-blue-500 text-sm font-medium mt-1">{instruction}</p>}
+    <div className="flex items-center gap-4 mt-10 max-w-2xl mx-auto" aria-hidden="true">
+      <span className="flex-1 h-px bg-blue-300" />
+      <svg viewBox="0 0 40 24" className="w-10 h-6 text-blue-400" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M20 4c1.8 3 1.8 7 0 10-1.8-3-1.8-7 0-10z" />
+        <path d="M13 8c3 .5 5.3 2.6 6.4 5.6C16.2 14 13.5 12.4 12 9.6L13 8z" />
+        <path d="M27 8c-3 .5-5.3 2.6-6.4 5.6 3.2.4 5.9-1.2 7.4-4L27 8z" />
+        <path d="M9 13c2.8-.6 5.8.2 8 2.2-2.4 1.6-5.5 1.7-8.2.3L9 13z" />
+        <path d="M31 13c-2.8-.6-5.8.2-8 2.2 2.4 1.6 5.5 1.7 8.2.3L31 13z" />
+        <path d="M15 19.5c1.6-1.6 3.4-2.3 5-2.3s3.4.7 5 2.3" />
+      </svg>
+      <span className="flex-1 h-px bg-blue-300" />
     </div>
   );
 }
