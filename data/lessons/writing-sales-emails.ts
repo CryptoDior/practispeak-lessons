@@ -35,7 +35,7 @@ export const writingSalesEmails: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To tailor a message to a specific person or company — using their name, referencing your last conversation, or connecting to something relevant to their business. Personalised emails perform significantly better than generic ones.',
       example: "Riley said: Always personalise. Don't start with 'I hope you are well' — start with something real, like 'As we discussed on Tuesday, I wanted to share the information you asked for.' That kind of opening shows you were actually listening.",
-      imageSlug: '/images/personalise.png',
+      imageSlug: '/images/writing-sales-emails-personalise.png',
     },
     {
       word: 'OPEN RATE',
@@ -72,13 +72,13 @@ export const writingSalesEmails: Lesson = {
       phrase: 'QUICK QUESTION ABOUT [TOPIC]',
       definition: 'One of the most effective subject line patterns in sales email. It creates curiosity, feels personal, and implies the email will be short and easy to read. Always make the topic specific to the reader.',
       example: "Marcus's subject line said 'Follow up'. Riley rewrote it: 'Quick question about your Q3 reporting, James' — it uses his name, references something specific, and signals that the email requires minimal effort to engage with.",
-      imageSlug: '/images/quick-question-about-topic.png',
+      imageSlug: '/images/writing-sales-emails-quick-question-about-topic.png',
     },
     {
       phrase: "I'M REACHING OUT BECAUSE...",
       definition: "A direct, transparent way to open the body of a sales email. It tells the reader immediately why you are writing — no build-up, no small talk. Transparency builds trust and saves the reader's time.",
       example: "Riley said: Instead of 'I hope this email finds you well', try 'I'm reaching out because we spoke on Tuesday about your reporting challenges and I promised to send you some additional information.' That is immediate, relevant, and honest.",
-      imageSlug: '/images/im-reaching-out-because.png',
+      imageSlug: '/images/writing-sales-emails-im-reaching-out-because.png',
     },
     {
       phrase: 'AS WE DISCUSSED,...',
@@ -96,13 +96,13 @@ export const writingSalesEmails: Lesson = {
       phrase: "I'D LOVE TO [ACTION] — WOULD [DAY] AT [TIME] WORK FOR YOU?",
       definition: 'A specific, action-oriented call to action that proposes a concrete next step. By naming a day and time, you make it easy for the reader to say yes or suggest an alternative — rather than leaving everything open-ended.',
       example: "Riley said: Never end with 'Let me know when you're free.' Instead, say: 'I'd love to walk you through the platform — would Thursday at 2pm work for you?' It's specific, easy to respond to, and shows you are organised.",
-      imageSlug: '/images/id-love-to-action--would-day-at-time-work-for-you.png',
+      imageSlug: '/images/writing-sales-emails-would-day-at-time-work.png',
     },
     {
       phrase: 'LOOKING FORWARD TO HEARING FROM YOU',
       definition: "A professional sign-off that implies a response is expected without being aggressive or demanding. Warmer than 'Best regards' alone — and subtly more effective at generating replies.",
       example: "Riley said: 'Best regards' is fine, but 'Looking forward to hearing from you' closes the email with a clear expectation — the reader understands they should reply. It is polite, professional, and just direct enough to work.",
-      imageSlug: '/images/looking-forward-to-hearing-from-you.png',
+      imageSlug: '/images/writing-sales-emails-looking-forward-to-hearing-from-you.png',
     }
   ],
 
