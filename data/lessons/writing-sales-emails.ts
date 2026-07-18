@@ -20,7 +20,7 @@ export const writingSalesEmails: Lesson = {
       word: 'GREETING',
       partOfSpeech: 'noun',
       definition: "The opening line of an email — 'Hi James,' or 'Dear Mr Chen,' — that sets the tone and level of formality. The greeting should match your relationship with the reader.",
-      example: 'The greeting sets the tone — use the reader's first name to make the email feel personal from the very first line.',
+      example: "The greeting sets the tone — use the reader's first name to make the email feel personal from the very first line.",
       imageSlug: '/images/writing-sales-emails-greeting.png',
     },
     {
