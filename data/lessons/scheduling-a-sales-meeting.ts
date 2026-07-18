@@ -14,7 +14,7 @@ export const schedulingASalesMeeting: Lesson = {
       partOfSpeech: 'noun',
       definition: "The times when someone is free and able to meet or speak. In sales, you always check availability before proposing a specific time — it signals respect for the customer's schedule.",
       example: 'Riley asked before suggesting any time: What does your availability look like this week? I want to find something that works around your schedule — not the other way around.',
-      imageSlug: '/images/availability.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-availability.png',
     },
     {
       word: 'SLOT',
@@ -35,7 +35,7 @@ export const schedulingASalesMeeting: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To arrange a meeting for a different time — when the original time no longer works. Handle rescheduling gracefully — it happens often in B2B sales and is not a sign that the customer is disinterested.',
       example: "Marcus called the morning of the meeting: Riley, I'm so sorry — something has come up and I need to reschedule. Would it be possible to move the demo to Friday instead? Riley said: Of course — no problem at all. Friday at 10am still works for me.",
-      imageSlug: '/images/reschedule.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-reschedule.png',
     },
     {
       word: 'AGENDA',
@@ -56,14 +56,14 @@ export const schedulingASalesMeeting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'How long a meeting will last. Always state the duration when scheduling — it helps the customer plan their day and signals that you will respect their time.',
       example: "Marcus asked: How long will the demo take? Riley said: The duration is about 30 minutes — 20 minutes for the walkthrough and 10 minutes for questions. I'll make sure we finish on time.",
-      imageSlug: '/images/duration.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-duration.png',
     },
     {
       word: 'CALENDAR INVITE',
       partOfSpeech: 'noun',
       definition: "A digital meeting request sent through a calendar application — such as Google Calendar or Outlook. Sending a calendar invite confirms the meeting officially and puts it in the customer's diary automatically.",
       example: "Riley said: I'll send a calendar invite to everyone who needs to be there — you, your IT lead, and your finance manager. That way it's in everyone's diary and nobody misses it.",
-      imageSlug: '/images/calendar-invite.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-calendar-invite.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const schedulingASalesMeeting: Lesson = {
       phrase: 'WHAT DOES YOUR AVAILABILITY LOOK LIKE...?',
       definition: "The professional way to ask when someone is free. More polished than 'When are you free?' — it implies you are flexible and puts the customer's schedule first.",
       example: 'Riley opened the scheduling conversation: What does your availability look like this week or early next week? I want to find a time that works around you — I have flexibility on my side.',
-      imageSlug: '/images/what-does-your-availability-look-like.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-what-does-your-availability-look-like.png',
     },
     {
       phrase: 'WOULD [DAY] AT [TIME] WORK FOR YOU?',
       definition: 'The standard phrase for proposing a specific meeting time. Always propose two or three options — never just one — so the customer can choose without feeling boxed in.',
       example: 'Riley said: I have a couple of slots this week — would Thursday at 2pm work for you? If not, I also have Friday at 10am or Monday morning next week. Just let me know what works best.',
-      imageSlug: '/images/would-day-at-time-work-for-you.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-would-day-at-time-work-for-you.png',
     },
     {
       phrase: 'LET ME CHECK MY CALENDAR',
       definition: 'A natural, professional phrase for pausing to verify your availability before confirming a time. It signals that you are organised and that your time is also valuable.',
       example: "Marcus suggested a time. Riley said: Let me just check my calendar — yes, Thursday at 2pm works perfectly for me. I'll hold that now and send a confirmation shortly.",
-      imageSlug: '/images/let-me-check-my-calendar.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-let-me-check-my-calendar.png',
     },
     {
       phrase: "I'LL PUT THAT IN THE DIARY",
       definition: "To officially note a meeting in your schedule. 'Diary' is the British English term for a personal planner or calendar. This phrase confirms the meeting is now reserved on your side.",
       example: "Marcus confirmed the time. Riley said: Perfect — I'll put that in the diary right now. You'll receive a calendar invite within the next few minutes. Please let me know if you need to add any colleagues.",
-      imageSlug: '/images/ill-put-that-in-the-diary.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-ill-put-that-in-the-diary.png',
     },
     {
       phrase: 'COULD WE PUSH THAT TO...?',
       definition: "A polite way to suggest moving a meeting to a later time or different day. 'Push' implies a slight delay rather than a full cancellation — it sounds flexible rather than unreliable.",
       example: "Riley said: I have a conflict at 10am on Thursday — would it be possible to push that to 11am instead? Or if Thursday no longer works, I'm also free on Friday afternoon.",
-      imageSlug: '/images/could-we-push-that-to.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-could-we-push-that-to.png',
     },
     {
       phrase: "I'LL SEND A CALENDAR INVITE TO CONFIRM",
       definition: 'The standard closing phrase after agreeing a meeting time. It tells the customer exactly what to expect next and creates a formal record of the agreed time.',
       example: "Riley finished the scheduling call and said: Wonderful — Thursday at 2pm it is. I'll send a calendar invite to confirm in the next few minutes, along with a brief agenda so your team knows what to prepare.",
-      imageSlug: '/images/ill-send-a-calendar-invite-to-confirm.png',
+      imageSlug: '/images/scheduling-a-sales-meeting-ill-send-a-calendar-invite-to-confirm.png',
     }
   ],
 
