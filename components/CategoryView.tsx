@@ -1,9 +1,26 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { BANDS, Band, bandForLevel, bandOfIndex, codeOfIndex } from '@/lib/levels';
-import { SiteHeader, SiteFooter, ArrowLeftIcon, ChevronDownIcon } from '@/components/SiteChrome';
+import {
+  BANDS,
+  Band,
+  LEVEL_MIN,
+  LEVEL_MAX,
+  bandForLevel,
+  bandOfIndex,
+  codeOfIndex,
+  describeRange,
+  levelToRange,
+} from '@/lib/levels';
+import LevelRangeSlider from '@/components/LevelRangeSlider';
+import {
+  SiteHeader,
+  SiteFooter,
+  ArrowLeftIcon,
+  ChevronDownIcon,
+  SearchIcon,
+} from '@/components/SiteChrome';
 
 /* Serializable shapes passed from the server route (see app/categories/[slug]/page.tsx) */
 export interface CategoryLesson {
@@ -55,6 +72,95 @@ const BAND_CHIP: Record<string, string> = {
   advanced: 'bg-purple-50 text-purple-700 border-purple-200',
   proficient: 'bg-purple-50 text-purple-700 border-purple-200',
 };
+
+function RangeLabel({ range }: { range: [number, number] }) {
+  const r = describeRange(range);
+  return (
+    <span className="flex items-center gap-1.5 text-xs flex-wrap">
+      <span className="font-bold text-blue-600">{r.minCode}</span>
+      <span className="text-slate-500 font-medium">{r.minBand}</span>
+      {!r.same && (
+        <>
+          <span className="text-slate-300" aria-hidden="true">
+            –
+          </span>
+          <span className="font-bold text-blue-600">{r.maxCode}</span>
+          <span className="text-slate-500 font-medium">{r.maxBand}</span>
+        </>
+      )}
+    </span>
+  );
+}
+
+/* Engoo-style compact "Level ▾" button that opens the range slider in a popover */
+function LevelDropdown({
+  value,
+  onChange,
+}: {
+  value: [number, number];
+  onChange: (v: [number, number]) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const wrapRef = useRef<HTMLDivElement>(null);
+  const [lo, hi] = value;
+  const active = lo !== LEVEL_MIN || hi !== LEVEL_MAX;
+
+  useEffect(() => {
+    if (!open) return;
+    const onPointerDown = (e: PointerEvent) => {
+      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) setOpen(false);
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setOpen(false);
+    };
+    document.addEventListener('pointerdown', onPointerDown);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('pointerdown', onPointerDown);
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [open]);
+
+  return (
+    <div ref={wrapRef} className="relative">
+      <button
+        type="button"
+        aria-haspopup="true"
+        aria-expanded={open}
+        onClick={() => setOpen((v) => !v)}
+        className={`h-9 px-3 rounded-lg border text-sm font-medium inline-flex items-center gap-1.5 transition-colors cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 ${
+          active
+            ? 'border-blue-300 bg-blue-50 text-blue-700'
+            : 'border-slate-200 bg-white text-slate-600 hover:text-blue-600 hover:border-blue-300'
+        }`}
+      >
+        {active ? `${codeOfIndex(lo)}–${codeOfIndex(hi)}` : 'Level'}
+        <ChevronDownIcon className={`w-4 h-4 transition-transform ${open ? 'rotate-180' : ''}`} />
+      </button>
+
+      {open && (
+        <div className="absolute right-0 top-full mt-2 w-[min(90vw,340px)] bg-white rounded-xl border border-slate-200 shadow-[0_14px_40px_rgba(15,23,42,0.14)] p-5 z-30">
+          <div className="flex items-center justify-between gap-3 flex-wrap mb-1">
+            <span className="text-xs font-semibold tracking-[0.14em] text-slate-500 uppercase">
+              Level
+            </span>
+            <RangeLabel range={value} />
+          </div>
+          <LevelRangeSlider value={value} onChange={onChange} />
+          {active && (
+            <button
+              type="button"
+              onClick={() => onChange([LEVEL_MIN, LEVEL_MAX])}
+              className="mt-3 text-xs font-semibold text-blue-600 hover:text-blue-700 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 rounded"
+            >
+              Reset to all levels
+            </button>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
 
 function LevelChip({ code, band }: { code: string; band: Band }) {
   return (
@@ -117,14 +223,16 @@ function CourseSection({
   blurb,
   lessons,
   fallbackImage,
+  forceExpanded = false,
 }: {
   title: string;
   blurb: string;
   lessons: CategoryLesson[];
   fallbackImage: string;
+  forceExpanded?: boolean;
 }) {
   const [expanded, setExpanded] = useState(false);
-  const collapsible = lessons.length > INITIAL_CARDS;
+  const collapsible = !forceExpanded && lessons.length > INITIAL_CARDS;
   const shown = expanded || !collapsible ? lessons : lessons.slice(0, INITIAL_CARDS);
   const hidden = lessons.length - shown.length;
 
@@ -166,9 +274,28 @@ export default function CategoryView({
   category: CategoryData;
   others: CategoryPromo[];
 }) {
+  const [search, setSearch] = useState('');
+  const [levelRange, setLevelRange] = useState<[number, number]>([LEVEL_MIN, LEVEL_MAX]);
+
+  const query = search.trim().toLowerCase();
+  const [selLo, selHi] = levelRange;
+  const filtersActive = query !== '' || selLo !== LEVEL_MIN || selHi !== LEVEL_MAX;
+
+  const clearFilters = () => {
+    setSearch('');
+    setLevelRange([LEVEL_MIN, LEVEL_MAX]);
+  };
+
+  const visibleLessons = category.lessons.filter((l) => {
+    const [a, b] = levelToRange(l.level);
+    if (a > selHi || b < selLo) return false;
+    if (query && !l.title.toLowerCase().includes(query)) return false;
+    return true;
+  });
+
   const sections = BANDS.map((band) => ({
     band,
-    lessons: category.lessons.filter((l) => bandForLevel(l.level).id === band.id),
+    lessons: visibleLessons.filter((l) => bandForLevel(l.level).id === band.id),
   })).filter((s) => s.lessons.length > 0);
 
   const [lo, hi] = category.range;
@@ -228,6 +355,43 @@ export default function CategoryView({
           </div>
         </section>
 
+        {/* ---------- Compact filter bar: search + level dropdown ---------- */}
+        <div className="flex items-center justify-end gap-2 mb-6">
+          <div className="relative">
+            <SearchIcon className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
+            <input
+              id="lesson-search"
+              type="search"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search lessons"
+              aria-label="Search lessons"
+              className="w-40 sm:w-56 h-9 pl-9 pr-3 rounded-lg border border-slate-200 bg-white text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 transition"
+            />
+          </div>
+          <LevelDropdown value={levelRange} onChange={setLevelRange} />
+          <p className="sr-only" aria-live="polite">
+            {visibleLessons.length} lesson{visibleLessons.length !== 1 ? 's' : ''} shown
+          </p>
+        </div>
+
+        {/* ---------- Empty state ---------- */}
+        {sections.length === 0 && (
+          <div className="bg-white border border-slate-200 rounded-2xl py-16 px-6 text-center mb-8">
+            <p className="text-lg font-semibold text-slate-900 mb-2">No lessons found</p>
+            <p className="text-sm text-slate-500 mb-6">
+              Try a different search term, or widen the level range to see everything.
+            </p>
+            <button
+              type="button"
+              onClick={clearFilters}
+              className="inline-flex items-center h-11 px-6 rounded-xl bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700 transition-colors cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
+            >
+              Clear filters
+            </button>
+          </div>
+        )}
+
         {/* ---------- Course sections ---------- */}
         {sections.map(({ band, lessons: ls }) => (
           <CourseSection
@@ -236,6 +400,7 @@ export default function CategoryView({
             blurb={BAND_BLURBS[band.id] ?? ''}
             lessons={ls}
             fallbackImage={category.image}
+            forceExpanded={filtersActive}
           />
         ))}
 
