@@ -1,9 +1,9 @@
 'use client';
 import { PhrasalVerb } from '@/types/lesson';
-import WordEntryCard from '@/components/WordEntryCard';
+import WordEntryCard, { audioSlugOf } from '@/components/WordEntryCard';
 
 export default function PhrasalVerbCard({ verb }: { verb: PhrasalVerb; index?: number }) {
-  const audioSlug = verb.imageSlug.replace(/^\/images\//, '').replace(/\.[^.]+$/, '');
+  const imageSlugBase = verb.imageSlug.replace(/^\/images\//, '').replace(/\.[^.]+$/, '');
   return (
     <WordEntryCard
       title={verb.phrase}
@@ -13,7 +13,7 @@ export default function PhrasalVerbCard({ verb }: { verb: PhrasalVerb; index?: n
       inGame={verb.inGame}
       inRealLife={verb.inRealLife}
       imageSlug={verb.imageSlug}
-      audioSlug={audioSlug}
+      audioSlugs={[audioSlugOf(verb.phrase), imageSlugBase]}
       listenLabel="Listen to phrase"
     />
   );

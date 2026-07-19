@@ -1,9 +1,9 @@
 'use client';
 import { VocabWord } from '@/types/lesson';
-import WordEntryCard from '@/components/WordEntryCard';
+import WordEntryCard, { audioSlugOf } from '@/components/WordEntryCard';
 
 export default function VocabCard({ word }: { word: VocabWord; index?: number }) {
-  const audioSlug = word.imageSlug.replace(/^\/images\//, '').replace(/\.[^.]+$/, '');
+  const imageSlugBase = word.imageSlug.replace(/^\/images\//, '').replace(/\.[^.]+$/, '');
   return (
     <WordEntryCard
       title={word.word}
@@ -13,7 +13,7 @@ export default function VocabCard({ word }: { word: VocabWord; index?: number })
       inGame={word.inGame}
       inRealLife={word.inRealLife}
       imageSlug={word.imageSlug}
-      audioSlug={audioSlug}
+      audioSlugs={[audioSlugOf(word.word), imageSlugBase]}
       listenLabel="Listen to word"
     />
   );

@@ -7,7 +7,6 @@ export * from '@/lib/levels';
 /* ---------- series classification ---------- */
 
 const FOOTBALL_SLUGS = new Set([
-  'team-communication',
   'the-football-pitch','players-and-positions','the-kit','numbers-in-football',
   'people-at-the-club','kick-pass-shoot','run-sprint-stop','score-a-goal',
   'win-lose-draw','simple-match-commands','the-stadium','buying-a-ticket',
@@ -84,6 +83,7 @@ const MARKETING_KW = [
 ];
 
 const GAMING_KW = [
+  'team-communication',
   'gaming','esports','streaming','action-verbs-move','describing-characters',
   'gaming-jargon','talking-strategy','i-am-a-player','game-genres','inventory',
   'gg-basic','questions-what-who','online-toxicity','narrative-tenses-storytelling',

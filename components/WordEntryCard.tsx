@@ -1,6 +1,41 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import ImageLightbox from '@/components/ImageLightbox';
+
+/**
+ * Word title that never breaks mid-word: multi-word terms wrap at spaces,
+ * and the font shrinks just enough for the longest word to fit on one line.
+ */
+function FitTitle({ children }: { children: string }) {
+  const ref = useRef<HTMLHeadingElement>(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const fit = () => {
+      el.style.fontSize = '';
+      if (el.clientWidth === 0) return; // hidden tab — refit when shown
+      let size = parseFloat(getComputedStyle(el).fontSize);
+      while (el.scrollWidth > el.clientWidth && size > 15) {
+        size -= 1;
+        el.style.fontSize = `${size}px`;
+      }
+    };
+    fit();
+    const ro = new ResizeObserver(fit);
+    if (el.parentElement) ro.observe(el.parentElement);
+    return () => ro.disconnect();
+  }, [children]);
+
+  return (
+    <h3
+      ref={ref}
+      className="font-playfair text-2xl sm:text-[28px] font-semibold text-slate-900 leading-tight min-w-0"
+    >
+      {children}
+    </h3>
+  );
+}
 
 function SpeakerIcon({ className = 'w-5 h-5' }: { className?: string }) {
   return (
@@ -11,22 +46,39 @@ function SpeakerIcon({ className = 'w-5 h-5' }: { className?: string }) {
   );
 }
 
+/** Audio filename convention: the slugified word/phrase, e.g. "PENALTY SPOT" -> penalty-spot */
+export function audioSlugOf(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/['’]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 function AudioButton({
-  src,
+  srcs,
   label,
   showLabel = false,
 }: {
-  src: string;
+  /** Candidate files, tried in order until one plays */
+  srcs: string[];
   label: string;
   showLabel?: boolean;
 }) {
   const [playing, setPlaying] = useState(false);
   const play = () => {
-    const audio = new Audio(src);
+    const tryPlay = (i: number) => {
+      if (i >= srcs.length) {
+        setPlaying(false);
+        return;
+      }
+      const audio = new Audio(srcs[i]);
+      audio.onended = () => setPlaying(false);
+      audio.onerror = () => tryPlay(i + 1);
+      audio.play().catch(() => tryPlay(i + 1));
+    };
     setPlaying(true);
-    audio.onended = () => setPlaying(false);
-    audio.onerror = () => setPlaying(false);
-    audio.play().catch(() => setPlaying(false));
+    tryPlay(0);
   };
   return (
     <button
@@ -45,12 +97,12 @@ function AudioButton({
 
 function QuoteBox({
   text,
-  audioSrc,
+  audioSrcs,
   tagLabel,
   tagClass = 'text-blue-600',
 }: {
   text: string;
-  audioSrc?: string;
+  audioSrcs?: string[];
   tagLabel?: string;
   tagClass?: string;
 }) {
@@ -66,7 +118,7 @@ function QuoteBox({
           <path d="M4 12c0-3.5 2-6.5 5.5-7.5l.7 1.6C7.9 7.2 6.8 8.8 6.6 10.4c.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3s-1.4 3.1-3.1 3.1C5.5 16.3 4 14.5 4 12zm9.3 0c0-3.5 2-6.5 5.5-7.5l.7 1.6c-2.3 1.1-3.4 2.7-3.6 4.3.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3s-1.4 3.1-3.1 3.1c-2.1 0-3.6-1.8-3.6-4.3z" />
         </svg>
         <p className="flex-1 text-[15px] text-slate-700 leading-relaxed">{text}</p>
-        {audioSrc && <AudioButton src={audioSrc} label="Listen to example" />}
+        {audioSrcs && <AudioButton srcs={audioSrcs} label="Listen to example" />}
       </div>
     </div>
   );
@@ -81,8 +133,8 @@ export interface WordEntryProps {
   inGame?: string;
   inRealLife?: string;
   imageSlug: string;
-  /** basename for /audio/{slug}.mp3 and /audio/{slug}-example.mp3 */
-  audioSlug: string;
+  /** candidate basenames for /audio/{slug}.mp3 and /audio/{slug}-example.mp3, tried in order */
+  audioSlugs: string[];
   listenLabel: string;
 }
 
@@ -94,9 +146,11 @@ export default function WordEntryCard({
   inGame,
   inRealLife,
   imageSlug,
-  audioSlug,
+  audioSlugs,
   listenLabel,
 }: WordEntryProps) {
+  const wordSrcs = audioSlugs.map((s) => `/audio/${s}.mp3`);
+  const exampleSrcs = audioSlugs.map((s) => `/audio/${s}-example.mp3`);
   const [imgSrc, setImgSrc] = useState(imageSlug);
   const [imgFailed, setImgFailed] = useState(false);
   const [expanded, setExpanded] = useState(false);
@@ -118,11 +172,9 @@ export default function WordEntryCard({
         <div className="flex flex-col sm:flex-row gap-6 h-full">
           {/* Word + part-of-speech */}
           <div className="sm:w-[30%] lg:w-[28%] flex-shrink-0 flex flex-col justify-center items-start gap-3 sm:pr-6 sm:border-r sm:border-dashed sm:border-slate-200">
-            <div className="flex items-center gap-2.5 max-w-full">
-              <h3 className="font-playfair text-2xl sm:text-[28px] font-semibold text-slate-900 leading-tight break-words min-w-0">
-                {title}
-              </h3>
-              <AudioButton src={`/audio/${audioSlug}.mp3`} label={listenLabel} />
+            <div className="flex items-center gap-2.5 max-w-full w-full">
+              <FitTitle>{title}</FitTitle>
+              <AudioButton srcs={wordSrcs} label={listenLabel} />
             </div>
             {tag && (
               <span className="text-xs font-medium text-slate-600 bg-slate-100 border border-slate-200 px-2.5 py-1 rounded-md capitalize">
@@ -141,14 +193,10 @@ export default function WordEntryCard({
                 {inRealLife && (
                   <QuoteBox text={inRealLife} tagLabel="In Real Life" tagClass="text-emerald-600" />
                 )}
-                <AudioButton
-                  src={`/audio/${audioSlug}-example.mp3`}
-                  label="Listen to example"
-                  showLabel
-                />
+                <AudioButton srcs={exampleSrcs} label="Listen to example" showLabel />
               </div>
             ) : (
-              <QuoteBox text={example} audioSrc={`/audio/${audioSlug}-example.mp3`} />
+              <QuoteBox text={example} audioSrcs={exampleSrcs} />
             )}
           </div>
         </div>
