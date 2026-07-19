@@ -12,6 +12,7 @@ export interface CategoryLesson {
   description: string;
   level: string;
   externalUrl?: string;
+  heroImage?: string;
   words: number;
   phrasals: number;
 }
@@ -37,7 +38,7 @@ export interface CategoryPromo {
   count: number;
 }
 
-const INITIAL_ROWS = 5;
+const INITIAL_CARDS = 6;
 
 /* Descriptions for each course-style level section, Engoo-style */
 const BAND_BLURBS: Record<string, string> = {
@@ -55,14 +56,6 @@ const BAND_CHIP: Record<string, string> = {
   proficient: 'bg-purple-50 text-purple-700 border-purple-200',
 };
 
-function ChevronRightIcon({ className = 'w-4 h-4' }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className={className} aria-hidden="true">
-      <path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
 function LevelChip({ code, band }: { code: string; band: Band }) {
   return (
     <span className="inline-flex items-center gap-2">
@@ -78,66 +71,83 @@ function LevelChip({ code, band }: { code: string; band: Band }) {
   );
 }
 
+function LessonCard({ lesson, fallbackImage }: { lesson: CategoryLesson; fallbackImage: string }) {
+  const band = bandForLevel(lesson.level);
+  return (
+    <Link
+      href={lesson.externalUrl ?? `/lessons/${lesson.slug}`}
+      className="group bg-white rounded-xl overflow-hidden border border-slate-200 transition-all duration-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_14px_40px_rgba(15,23,42,0.12)] hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 flex flex-col"
+    >
+      <div className="aspect-[16/9] overflow-hidden bg-slate-100">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={lesson.heroImage ?? fallbackImage}
+          alt=""
+          width={640}
+          height={360}
+          loading="lazy"
+          className="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-300"
+          onError={(e) => {
+            const img = e.target as HTMLImageElement;
+            if (!img.src.endsWith(fallbackImage)) img.src = fallbackImage;
+          }}
+        />
+      </div>
+      <div className="p-5 flex flex-col flex-1">
+        <h3 className="text-[15px] font-semibold text-slate-900 leading-snug mb-4 group-hover:text-blue-700 transition-colors">
+          {lesson.title}
+        </h3>
+        <div className="mt-auto flex items-center gap-2">
+          <span
+            className={`inline-flex items-center justify-center min-w-[1.75rem] h-7 px-1.5 rounded-lg border text-xs font-bold ${
+              BAND_CHIP[band.id] ?? BAND_CHIP.intermediate
+            }`}
+          >
+            {lesson.level}
+          </span>
+          <span className="text-[13px] font-medium text-slate-600">{band.label}</span>
+        </div>
+      </div>
+    </Link>
+  );
+}
+
 function CourseSection({
   title,
   blurb,
   lessons,
+  fallbackImage,
 }: {
   title: string;
   blurb: string;
   lessons: CategoryLesson[];
+  fallbackImage: string;
 }) {
   const [expanded, setExpanded] = useState(false);
-  const collapsible = lessons.length > INITIAL_ROWS + 1;
-  const shown = expanded || !collapsible ? lessons : lessons.slice(0, INITIAL_ROWS);
+  const collapsible = lessons.length > INITIAL_CARDS;
+  const shown = expanded || !collapsible ? lessons : lessons.slice(0, INITIAL_CARDS);
   const hidden = lessons.length - shown.length;
 
   return (
-    <section className="bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] overflow-hidden mb-8">
-      <div className="px-6 sm:px-8 pt-7 pb-5">
+    <section className="mb-12">
+      <div className="mb-6">
         <h2 className="font-playfair text-2xl sm:text-3xl font-semibold text-slate-900">{title}</h2>
         <span className="block w-10 h-0.5 bg-blue-600 mt-2.5 mb-3" aria-hidden="true" />
         <p className="text-sm text-slate-500">{blurb}</p>
       </div>
 
-      <ol className="divide-y divide-slate-100 border-t border-slate-100">
-        {shown.map((l, i) => {
-          const band = bandForLevel(l.level);
-          return (
-            <li key={l.slug}>
-              <Link
-                href={l.externalUrl ?? `/lessons/${l.slug}`}
-                className="group flex items-center gap-4 sm:gap-6 px-6 sm:px-8 py-4 hover:bg-blue-50/40 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:-outline-offset-2"
-              >
-                <span className="text-xs font-semibold text-blue-600 uppercase tracking-[0.15em] w-24 flex-shrink-0">
-                  Lesson {String(i + 1).padStart(2, '0')}
-                </span>
-                <span className="flex-1 min-w-0 text-[16px] text-slate-900 group-hover:text-blue-700 transition-colors truncate">
-                  {l.title}
-                </span>
-                <span className="hidden sm:inline-flex">
-                  <LevelChip code={l.level} band={band} />
-                </span>
-                <span
-                  className={`sm:hidden inline-flex items-center justify-center min-w-[2rem] h-7 px-1.5 rounded-lg border text-xs font-bold ${
-                    BAND_CHIP[band.id] ?? BAND_CHIP.intermediate
-                  }`}
-                >
-                  {l.level}
-                </span>
-                <ChevronRightIcon className="w-4 h-4 text-slate-300 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all flex-shrink-0" />
-              </Link>
-            </li>
-          );
-        })}
-      </ol>
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {shown.map((l) => (
+          <LessonCard key={l.slug} lesson={l} fallbackImage={fallbackImage} />
+        ))}
+      </div>
 
       {collapsible && (
         <button
           type="button"
           onClick={() => setExpanded((v) => !v)}
           aria-expanded={expanded}
-          className="w-full flex items-center justify-center gap-2 px-6 py-4 border-t border-slate-100 text-sm font-semibold text-blue-600 hover:bg-blue-50/60 transition-colors cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:-outline-offset-2"
+          className="mt-6 w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl border border-slate-200 bg-white text-sm font-semibold text-blue-600 hover:bg-blue-50/60 transition-colors cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:-outline-offset-2"
         >
           {expanded ? 'Show less' : `Show more (${hidden})`}
           <ChevronDownIcon
@@ -225,6 +235,7 @@ export default function CategoryView({
             title={band.label}
             blurb={BAND_BLURBS[band.id] ?? ''}
             lessons={ls}
+            fallbackImage={category.image}
           />
         ))}
 

@@ -182,6 +182,7 @@ export interface LessonSummary {
   description: string;
   level: string;
   externalUrl?: string;
+  heroImage?: string;
   words: number;
   phrasals: number;
 }
@@ -220,6 +221,7 @@ export function getCatalog(): Category[] {
         description: l.description,
         level: l.level,
         externalUrl: l.externalUrl,
+        heroImage: l.heroImage,
         words: l.vocabulary.length,
         phrasals: l.phrasalVerbs.length,
       };
