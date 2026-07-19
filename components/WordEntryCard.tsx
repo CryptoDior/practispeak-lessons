@@ -30,7 +30,7 @@ function FitTitle({ children }: { children: string }) {
   return (
     <h3
       ref={ref}
-      className="font-playfair text-2xl sm:text-[28px] font-semibold text-slate-900 leading-tight min-w-0"
+      className="font-playfair text-2xl sm:text-[28px] font-semibold text-slate-900 leading-tight min-w-0 flex-1"
     >
       {children}
     </h3>
