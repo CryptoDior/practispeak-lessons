@@ -277,6 +277,12 @@ export interface Lesson {
   subtitle: string;
   level: Level;
   description: string;
+  /**
+   * Optional hand-written learning objectives shown in the lesson header.
+   * When omitted, specific objectives are generated from the subtitle,
+   * vocabulary and phrases.
+   */
+  objectives?: string[];
   /** If set, the lesson card links directly to this URL instead of /lessons/[slug] */
   externalUrl?: string;
   /**

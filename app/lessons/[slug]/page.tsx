@@ -174,18 +174,34 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
   const catFirst = catWords[0];
   const catRest = catWords.slice(1).join(' ') || 'lessons';
 
-  const objectives = [
-    lesson.vocabulary.length > 0 &&
-      `Learn ${lesson.vocabulary.length} key vocabulary words with audio and examples`,
-    lesson.phrasalVerbs.length > 0 &&
-      `Master ${lesson.phrasalVerbs.length} phrasal verbs and useful phrases`,
-    lesson.readingPassage
-      ? 'Read a passage that uses this lesson’s language in context'
-      : lesson.dialogue?.length
-        ? 'Follow a real dialogue and hear the words in context'
-        : null,
-    'Test yourself with interactive exercises and track your score',
-  ].filter(Boolean) as string[];
+  const listWords = (items: string[]) =>
+    items.length === 1 ? items[0] : `${items.slice(0, -1).join(', ')} and ${items[items.length - 1]}`;
+  const subtitleGoal = (() => {
+    const s = lesson.subtitle.trim().replace(/[.!]+$/, '');
+    if (!s) return null;
+    const lower = s.charAt(0).toLowerCase() + s.slice(1);
+    return /^how to /i.test(s) ? `Learn ${lower}` : `Be able to ${lower}`;
+  })();
+  const objectives =
+    lesson.objectives ??
+    ([
+      subtitleGoal,
+      lesson.vocabulary.length > 0 &&
+        `Learn and use key words like ${listWords(lesson.vocabulary.slice(0, 3).map((w) => w.word))}`,
+      lesson.phrasalVerbs.length > 0 &&
+        (() => {
+          const short = lesson.phrasalVerbs.filter((v) => v.phrase.length <= 24).slice(0, 2);
+          return short.length > 0
+            ? `Master phrases like ${listWords(short.map((v) => `“${v.phrase}”`))}`
+            : `Master ${lesson.phrasalVerbs.length} useful phrases and expressions`;
+        })(),
+      lesson.readingPassage
+        ? 'Read a passage that uses this lesson’s language in context'
+        : lesson.dialogue?.length
+          ? 'Follow a real dialogue and hear the words in context'
+          : null,
+      'Test yourself with interactive exercises and track your score',
+    ].filter(Boolean) as string[]);
 
   return (
     <div className="min-h-screen bg-[#F6F8FB]">
