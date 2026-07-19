@@ -19,7 +19,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       word: 'IMPLEMENT',
       partOfSpeech: 'verb',
-      definition: 'To start using a new system, plan, or product in your company.',,
+      definition: 'To start using a new system, plan, or product in your company.',
       example: "Once the team was ready to implement the system, the entire process moved through four clear steps — setup, scanning, packaging, and dispatch — with every order confirmed and on its way at the end.",
       imageSlug: '/images/implement.png',
     },
