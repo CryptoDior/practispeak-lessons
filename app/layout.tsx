@@ -1,13 +1,6 @@
 import type { Metadata } from 'next';
-import { Nunito, Poppins, Playfair_Display } from 'next/font/google';
+import { Poppins, Playfair_Display } from 'next/font/google';
 import './globals.css';
-
-const nunito = Nunito({
-  subsets: ['latin'],
-  variable: '--font-nunito',
-  display: 'swap',
-  weight: ['400', '600', '700', '800'],
-});
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -32,8 +25,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${nunito.variable} ${poppins.variable} ${playfair.variable}`}>
-      <body className="font-nunito bg-[#F7F7F7] text-black min-h-screen antialiased">
+    <html lang="en" className={`${poppins.variable} ${playfair.variable}`}>
+      <body className="font-poppins bg-[#F7F7F7] text-black min-h-screen antialiased">
         {children}
       </body>
     </html>

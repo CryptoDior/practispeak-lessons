@@ -16,7 +16,6 @@ const config: Config = {
         },
       },
       fontFamily: {
-        nunito: ['var(--font-nunito)', 'Nunito', 'sans-serif'],
         poppins: ['var(--font-poppins)', 'Poppins', 'sans-serif'],
         playfair: ['var(--font-playfair)', 'Playfair Display', 'serif'],
       },
