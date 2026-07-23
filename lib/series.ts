@@ -136,8 +136,7 @@ const SERIES: SeriesDef[] = [
     shortName: 'Sales',
     cardTitle: 'Sales',
     description: 'Professional English for sales calls, pitches, objections, and closing deals.',
-    image:
-      'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=900&q=75&auto=format&fit=crop',
+    image: '/images/category-sales-header.png',
     headerImage: '/images/category-sales-header.png',
     imageAlt: 'Two business people shaking hands over a desk',
     match: (l) => slugHasKw(l.slug, SALES_KW),
