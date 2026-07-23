@@ -235,6 +235,32 @@
       .match-grid { grid-template-columns: 1fr; }
     }
   </style>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style id="ps-redesign">
+:root{
+  --bg:#F6F8FB; --blue:#2563eb; --blue-lt:#eff6ff; --blue-bd:#bfdbfe; --blue-dk:#1d4ed8;
+  --text:#0f172a; --muted:#64748b; --border:#e2e8f0;
+  --shadow:0 2px 10px rgba(15,23,42,.05);
+}
+body{font-family:'Poppins','Inter',sans-serif;background:var(--bg);}
+.nav-logo{color:#2563eb;}
+.nav-logo-icon{background:#2563eb;}
+.hero{background:#fff;border:1px solid var(--border);border-radius:16px;box-shadow:0 2px 10px rgba(15,23,42,.05);margin:24px auto 0;padding:36px 40px;max-width:1036px;}
+@media(max-width:1100px){.hero{margin:24px 16px 0;}}
+.hero h1{font-family:'Playfair Display',serif;font-weight:600;letter-spacing:0;}
+.hero-img{background:linear-gradient(135deg,#1e3a8a,#2563eb);border-radius:16px;}
+.tab-nav-wrap{margin-top:24px;}
+.section-title{font-family:'Playfair Display',serif;font-weight:600;font-size:28px;}
+.phrase-card{direction:rtl;grid-template-columns:300px 1fr;border:1px solid var(--border);box-shadow:0 2px 10px rgba(15,23,42,.05);}
+.phrase-card>*{direction:ltr;}
+.phrase-card.flip{direction:rtl;}
+.phrase-img{min-height:220px;}
+.phrase-word{font-family:'Playfair Display',serif;font-weight:600;font-size:26px;}
+.phrase-tag{border-color:var(--border);color:var(--muted);background:#f1f5f9;}
+.progress-fill{background:#2563eb;}
+@media(max-width:760px){.phrase-card{grid-template-columns:1fr;direction:ltr;}}
+</style>
 </head>
 <body>
 
