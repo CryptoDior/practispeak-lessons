@@ -296,25 +296,117 @@ body{font-family:'Poppins','Inter',sans-serif;background:var(--bg);}
 .progress-fill{background:#2563eb;}
 @media(max-width:760px){.phrase-card{grid-template-columns:1fr;direction:ltr;}}
 </style>
+<style id="ps-redesign2">
+.psx-header{position:sticky;top:0;z-index:300;background:rgba(255,255,255,.95);backdrop-filter:blur(6px);border-bottom:1px solid #f1f5f9}
+.psx-header-in{max-width:1100px;margin:0 auto;padding:0 32px;height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.psx-brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:20px;color:#2563eb;letter-spacing:-.02em;text-decoration:none}
+.psx-logo{width:36px;height:36px}
+.psx-nav{display:flex;gap:32px}
+.psx-nav a{font-size:14px;font-weight:500;color:#475569;text-decoration:none;padding:21px 0;border-bottom:2px solid transparent}
+.psx-nav a:hover{color:#2563eb}
+.psx-nav a.psx-active{color:#2563eb;border-bottom-color:#2563eb}
+.psx-right{display:flex;align-items:center;gap:16px}
+.psx-premium{display:flex;align-items:center;gap:8px;color:#2563eb;font-size:14px;font-weight:600;text-decoration:none}
+.psx-crown{width:20px;height:20px}
+.psx-div{width:1px;height:24px;background:#e2e8f0}
+.psx-avatar{width:40px;height:40px;border-radius:50%;border:1px solid #cbd5e1;display:flex;align-items:center;justify-content:center;color:#475569}
+.psx-avatar svg{width:20px;height:20px}
+@media(max-width:820px){.psx-nav,.psx-premium,.psx-div{display:none}}
+.psx-wrap{max-width:1100px;margin:0 auto;padding:24px 32px 8px;font-family:'Poppins','Inter',sans-serif}
+.psx-hero{background:#fff;border:1px solid #e2e8f0;border-radius:16px;box-shadow:0 2px 10px rgba(15,23,42,.05);overflow:hidden;display:flex;align-items:stretch}
+.psx-hero-left{flex:1;min-width:0;padding:40px;display:flex;flex-direction:column;justify-content:center}
+.psx-crumb{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:14px;margin-bottom:16px}
+.psx-crumb a{color:#64748b;text-decoration:none}
+.psx-crumb a:first-child{color:#2563eb;font-weight:600}
+.psx-crumb a:hover{color:#2563eb}
+.psx-crumb span{color:#cbd5e1}
+.psx-crumb .psx-crumb-cur{color:#64748b}
+.psx-title{font-family:'Playfair Display',serif;font-weight:600;font-size:clamp(30px,4vw,44px);line-height:1.15;color:#0f172a;margin:0 0 20px;letter-spacing:0}
+.psx-levelrow{display:flex;align-items:center;gap:12px;margin-bottom:28px}
+.psx-chip{display:inline-flex;align-items:center;justify-content:center;min-width:40px;height:40px;padding:0 10px;border-radius:12px;border:2px solid #2563eb;color:#2563eb;font-weight:700;font-size:14px}
+.psx-band{font-size:17px;font-weight:500;color:#1e293b}
+.psx-hero-left .progress-wrap,.psx-hero-left .hero-progress{max-width:320px}
+.psx-hero-right{position:relative;width:45%;min-height:290px;flex-shrink:0;background:linear-gradient(135deg,#eef3ff,#dce7ff)}
+.psx-hero-right>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.psx-curve{position:absolute;inset:0;width:100%;height:100%}
+.psx-wordmark{position:absolute;bottom:20px;right:28px;text-align:right}
+.psx-wm-top{display:block;font-size:11px;font-weight:700;letter-spacing:.22em;color:#2563eb;text-transform:uppercase}
+.psx-wm-bottom{display:block;font-size:24px;font-weight:600;color:#0f172a;text-transform:lowercase;line-height:1.2}
+@media(max-width:767px){.psx-hero-right{display:none}.psx-hero-left{padding:28px}}
+.psx-obj{position:relative;background:#fff;border:1px solid #e2e8f0;border-radius:16px;box-shadow:0 2px 10px rgba(15,23,42,.05);overflow:hidden;margin-top:24px}
+.psx-obj-art{position:absolute;right:32px;top:50%;transform:translateY(-50%);height:75%;width:auto;pointer-events:none}
+@media(max-width:1023px){.psx-obj-art{display:none}}
+.psx-obj-in{position:relative;display:flex;align-items:flex-start;gap:24px;padding:32px}
+.psx-obj-iconcol{padding-right:24px;border-right:1px solid #f1f5f9;align-self:stretch}
+.psx-obj-icon{width:56px;height:56px;border-radius:50%;border:1px solid #bfdbfe;color:#2563eb;display:flex;align-items:center;justify-content:center}
+.psx-obj-icon svg{width:24px;height:24px}
+.psx-obj-title{font-family:'Playfair Display',serif;font-weight:600;font-size:28px;color:#0f172a;margin:0}
+.psx-obj-line{display:block;width:40px;height:2px;background:#2563eb;margin:10px 0 16px}
+.psx-obj-lead{font-size:15px;color:#334155;margin:0 0 12px}
+.psx-obj-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.psx-obj-list li{display:flex;align-items:flex-start;gap:12px;font-size:15px;color:#334155;line-height:1.6}
+.psx-obj-list li::before{content:'';width:6px;height:6px;border-radius:50%;background:#2563eb;margin-top:9px;flex-shrink:0}
+.tab-nav-wrap{top:64px !important;margin-top:24px !important}
+.tabs-wrap{top:64px !important;margin-top:24px !important}
+</style>
 </head>
 <body>
 
-<nav class="nav">
-  <div class="nav-logo"><div class="nav-logo-icon">P</div>Practispeak</div>
-  <a href="/" class="nav-back">← All Lessons</a>
-</nav>
+<header class="psx-header">
+  <div class="psx-header-in">
+    <a href="/" class="psx-brand">
+      <svg viewBox="0 0 40 40" class="psx-logo" aria-hidden="true"><rect x="2" y="4" width="36" height="28" rx="9" fill="#2563EB"/><path d="M13 32l-1 7 9-7h-8z" fill="#2563EB"/><circle cx="13" cy="18" r="2.6" fill="#fff"/><circle cx="20" cy="18" r="2.6" fill="#fff"/><circle cx="27" cy="18" r="2.6" fill="#fff"/></svg>
+      <span>Practispeak</span>
+    </a>
+    <nav class="psx-nav" aria-label="Main">
+      <a href="/">Home</a>
+      <a href="/#categories" class="psx-active">Categories</a>
+      <a href="/#about">About</a>
+    </nav>
+    <div class="psx-right">
+      <a href="/#about" class="psx-premium"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="psx-crown" aria-hidden="true"><path d="M3 17h18M4 17l-1-9 5.5 4L12 5l3.5 7L21 8l-1 9" stroke-linecap="round" stroke-linejoin="round"/></svg>Premium</a>
+      <span class="psx-div" aria-hidden="true"></span>
+      <span class="psx-avatar" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8.5" r="3.5"/><path d="M5 19.5c1.6-3 4.1-4.5 7-4.5s5.4 1.5 7 4.5" stroke-linecap="round"/></svg></span>
+    </div>
+  </div>
+</header>
 
-<div class="hero">
-  <div>
-    <div class="hero-badge">B1-B2</div>
-    <h1>Online Toxicity &amp; Communication</h1>
-    <p class="hero-sub">Handle conflict, argue your point, and keep the game positive — in real English</p>
-    <div class="progress-wrap">
+<div class="psx-wrap">
+  <section class="psx-hero">
+    <div class="psx-hero-left">
+      <nav class="psx-crumb" aria-label="Breadcrumb"><a href="/">Practispeak</a><span aria-hidden="true">/</span><a href="/#categories">Materials</a><span aria-hidden="true">/</span><a href="/categories/gaming">Gaming English</a><span aria-hidden="true">/</span><span class="psx-crumb-cur">Online Toxicity &amp; Communication</span></nav>
+      <h1 class="psx-title">Online Toxicity &amp; Communication</h1>
+      <div class="psx-levelrow"><span class="psx-chip">B1-B2</span><span class="psx-band">Intermediate</span></div>
+      <div class="progress-wrap">
       <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
       <span class="progress-pct" id="progressPct">0%</span>
     </div>
-  </div>
-  <div class="hero-img"><img src="/images/online-toxicity-communication-hero.png" alt="Online Toxicity &amp; Communication"></div>
+    </div>
+    <div class="psx-hero-right">
+      <img src="/images/online-toxicity-communication-hero.png" alt="" onerror="this.style.display='none'">
+      <svg class="psx-curve" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M-2,104 C30,88 68,62 104,22 L104,104 Z" fill="#fff"/><path d="M-2,104 C30,88 68,62 104,22" fill="none" stroke="#2563EB" stroke-width="2.5" vector-effect="non-scaling-stroke"/></svg>
+      <div class="psx-wordmark"><span class="psx-wm-top">Gaming</span><span class="psx-wm-bottom">english</span></div>
+    </div>
+  </section>
+
+  <section class="psx-obj">
+    <svg class="psx-obj-art" viewBox="0 0 260 180" fill="none" aria-hidden="true"><g stroke="#DBEAFE" stroke-width="3" stroke-linecap="round"><path d="M30 160 C55 110 65 60 55 15" fill="none"/><path d="M52 40 C38 38 28 28 27 14 41 16 51 26 52 40z" fill="#EFF5FF"/><path d="M58 70 C44 68 34 58 33 44 47 46 57 56 58 70z" fill="#EFF5FF"/><path d="M60 100 C46 98 36 88 35 74 49 76 59 86 60 100z" fill="#EFF5FF"/><path d="M56 130 C42 128 32 118 31 104 45 106 55 116 56 130z" fill="#EFF5FF"/></g><g stroke="#DBEAFE" stroke-width="3.5"><circle cx="180" cy="95" r="62"/><circle cx="180" cy="95" r="42"/><circle cx="180" cy="95" r="22"/><circle cx="180" cy="95" r="5" fill="#DBEAFE" stroke="none"/><path d="M180 95L232 43M232 43h-20M232 43v20" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
+    <div class="psx-obj-in">
+      <div class="psx-obj-iconcol"><span class="psx-obj-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/><path d="M18 6l3-3M18 6h2.5M18 6V3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      <div>
+        <h2 class="psx-obj-title">Learning Objectives</h2>
+        <span class="psx-obj-line" aria-hidden="true"></span>
+        <p class="psx-obj-lead">In this lesson you will:</p>
+        <ul class="psx-obj-list">
+          <li>Learn the key vocabulary with audio and examples</li>
+          <li>Master useful phrases and expressions</li>
+          <li>See the language used in realistic situations</li>
+          <li>Compare formal, neutral, and informal register</li>
+          <li>Read the lesson language in real context</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </div>
 
 <div class="tab-nav-wrap">
