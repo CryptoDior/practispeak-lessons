@@ -45,6 +45,10 @@ const SALES_KW = [
   'advanced-sales','data-driven-sales','cross-cultural-sales','advanced-follow-up',
   'sales-leadership','complex-objection','negotiating-price','advanced-persuasive-language',
   'strategic-questioning','asking-what-the-customer',
+  // reclassified from "Other" — sales-course lessons whose slugs missed the keywords above
+  'talking-about-products','asking-needs-based-questions','presenting-benefits-vs-features',
+  'talking-about-value-not-price','following-up-after-a-call','closing-the-sale-naturally',
+  'closing-complex-deals',
 ];
 
 const MARKETING_KW = [
@@ -80,6 +84,9 @@ const MARKETING_KW = [
   'social-listening','programmatic-advertising','marketing-leadership',
   'marketing-ethics','marketing-then-and-now','advanced-data-analytics',
   'persuasive-marketing','negotiating-with-partners',
+  // reclassified from "Other" — marketing-course lessons whose slugs missed the keywords above
+  'presenting-to-stakeholders','go-to-market','review-c1-communication-mastery',
+  'review-mastery-level-communication',
 ];
 
 const GAMING_KW = [
