@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { getCatalog, describeRange, LEVEL_MIN, LEVEL_MAX } from '@/lib/series';
 import LevelRangeSlider from '@/components/LevelRangeSlider';
+import FallbackImage from '@/components/FallbackImage';
 import { SiteHeader, SiteFooter, SearchIcon } from '@/components/SiteChrome';
 
 /* ---------- feature icons ---------- */
@@ -222,9 +223,8 @@ export default function Home() {
                 className="group bg-white rounded-xl overflow-hidden border border-slate-200 transition-all duration-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_14px_40px_rgba(15,23,42,0.12)] hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
               >
                 <div className="aspect-[16/9] overflow-hidden bg-slate-100">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={c.image}
+                  <FallbackImage
+                    srcs={[c.image, c.stockImage]}
                     alt={c.imageAlt}
                     width={900}
                     height={506}

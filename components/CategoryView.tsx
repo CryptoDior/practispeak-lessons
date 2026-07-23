@@ -14,6 +14,7 @@ import {
   levelToRange,
 } from '@/lib/levels';
 import LevelRangeSlider from '@/components/LevelRangeSlider';
+import FallbackImage from '@/components/FallbackImage';
 import {
   SiteHeader,
   SiteFooter,
@@ -40,7 +41,7 @@ export interface CategoryData {
   cardTitle: string;
   description: string;
   image: string;
-  headerImage: string;
+  stockImage: string;
   imageAlt: string;
   range: [number, number];
   lessons: CategoryLesson[];
@@ -51,6 +52,7 @@ export interface CategoryPromo {
   cardTitle: string;
   description: string;
   image: string;
+  stockImage: string;
   imageAlt: string;
   range: [number, number];
   count: number;
@@ -73,57 +75,6 @@ const BAND_CHIP: Record<string, string> = {
   advanced: 'bg-purple-50 text-purple-700 border-purple-200',
   proficient: 'bg-purple-50 text-purple-700 border-purple-200',
 };
-
-/**
- * Image that falls back to `fallback` when `src` fails to load — including the
- * SSR case where the 404 fires before React attaches onError (caught on mount
- * via the ref: a broken image is `complete` with `naturalWidth === 0`).
- */
-function ImgWithFallback({
-  src,
-  fallback,
-  alt,
-  className,
-  width,
-  height,
-  loading,
-}: {
-  src: string;
-  fallback: string;
-  alt: string;
-  className?: string;
-  width?: number;
-  height?: number;
-  loading?: 'lazy' | 'eager';
-}) {
-  const ref = useRef<HTMLImageElement>(null);
-  const [current, setCurrent] = useState(src);
-  useEffect(() => setCurrent(src), [src]);
-
-  // Runs after commit (post-hydration), so it reliably catches both the
-  // already-broken case (error fired before hydration) and future errors.
-  useEffect(() => {
-    const img = ref.current;
-    if (!img) return;
-    const toFallback = () => setCurrent((c) => (c === fallback ? c : fallback));
-    if (img.complete && img.naturalWidth === 0) toFallback();
-    img.addEventListener('error', toFallback);
-    return () => img.removeEventListener('error', toFallback);
-  }, [current, fallback]);
-
-  return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      ref={ref}
-      src={current}
-      alt={alt}
-      width={width}
-      height={height}
-      loading={loading}
-      className={className}
-    />
-  );
-}
 
 function RangeLabel({ range }: { range: [number, number] }) {
   const r = describeRange(range);
@@ -229,26 +180,22 @@ function LevelChip({ code, band }: { code: string; band: Band }) {
   );
 }
 
-function LessonCard({ lesson, fallbackImage }: { lesson: CategoryLesson; fallbackImage: string }) {
+function LessonCard({ lesson, fallbacks }: { lesson: CategoryLesson; fallbacks: string[] }) {
   const band = bandForLevel(lesson.level);
+  const srcs = [lesson.heroImage, ...fallbacks].filter(Boolean) as string[];
   return (
     <Link
       href={lesson.externalUrl ?? `/lessons/${lesson.slug}`}
       className="group bg-white rounded-xl overflow-hidden border border-slate-200 transition-all duration-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_14px_40px_rgba(15,23,42,0.12)] hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 flex flex-col"
     >
       <div className="aspect-[16/9] overflow-hidden bg-slate-100">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={lesson.heroImage ?? fallbackImage}
+        <FallbackImage
+          srcs={srcs}
           alt=""
           width={640}
           height={360}
           loading="lazy"
           className="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-300"
-          onError={(e) => {
-            const img = e.target as HTMLImageElement;
-            if (!img.src.endsWith(fallbackImage)) img.src = fallbackImage;
-          }}
         />
       </div>
       <div className="p-5 flex flex-col flex-1">
@@ -274,13 +221,13 @@ function CourseSection({
   title,
   blurb,
   lessons,
-  fallbackImage,
+  fallbacks,
   forceExpanded = false,
 }: {
   title: string;
   blurb: string;
   lessons: CategoryLesson[];
-  fallbackImage: string;
+  fallbacks: string[];
   forceExpanded?: boolean;
 }) {
   const [expanded, setExpanded] = useState(false);
@@ -298,7 +245,7 @@ function CourseSection({
 
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {shown.map((l) => (
-          <LessonCard key={l.slug} lesson={l} fallbackImage={fallbackImage} />
+          <LessonCard key={l.slug} lesson={l} fallbacks={fallbacks} />
         ))}
       </div>
 
@@ -377,9 +324,8 @@ export default function CategoryView({
                   aria-hidden="true"
                 />
                 <div className="relative h-full overflow-hidden rounded-2xl md:[border-radius:1rem_1rem_62%_1rem/1rem_1rem_95%_1rem]">
-                  <ImgWithFallback
-                    src={category.headerImage ?? category.image}
-                    fallback={category.image}
+                  <FallbackImage
+                    srcs={[category.image, category.stockImage]}
                     alt={category.imageAlt}
                     width={900}
                     height={563}
@@ -451,7 +397,7 @@ export default function CategoryView({
             title={band.label}
             blurb={BAND_BLURBS[band.id] ?? ''}
             lessons={ls}
-            fallbackImage={category.image}
+            fallbacks={[category.image, category.stockImage]}
             forceExpanded={filtersActive}
           />
         ))}
@@ -474,9 +420,8 @@ export default function CategoryView({
                     className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_10px_30px_rgba(15,23,42,0.1)] hover:-translate-y-0.5 transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
                   >
                     <div className="aspect-[16/7] overflow-hidden bg-slate-100">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
-                        src={o.image}
+                      <FallbackImage
+                        srcs={[o.image, o.stockImage]}
                         alt={o.imageAlt}
                         width={900}
                         height={394}

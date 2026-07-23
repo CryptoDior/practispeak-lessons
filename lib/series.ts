@@ -99,9 +99,8 @@ interface SeriesDef {
   shortName: string;
   cardTitle: string;
   description: string;
-  image: string;
-  /** Large image for the category page header card (falls back to `image` if missing). */
-  headerImage: string;
+  /** Stock fallback shown until /images/category-<id>-header.png is added. */
+  stockImage: string;
   imageAlt: string;
   match: (l: Lesson) => boolean;
 }
@@ -113,8 +112,8 @@ const SERIES: SeriesDef[] = [
     shortName: 'Roblox',
     cardTitle: 'Roblox',
     description: 'Learn real English through Roblox — gaming, chat, quests, and community.',
-    image: '/images/category-roblox-header.png',
-    headerImage: '/images/category-roblox-header.png',
+    stockImage:
+      'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=900&q=75&auto=format&fit=crop',
     imageAlt: 'Colourful building blocks scattered on a surface',
     match: (l) => l.slug.startsWith('roblox-'),
   },
@@ -124,8 +123,8 @@ const SERIES: SeriesDef[] = [
     shortName: 'Football',
     cardTitle: 'Football',
     description: 'From basic vocabulary to punditry — English for players, fans, and analysts.',
-    image: '/images/category-football-header.png',
-    headerImage: '/images/category-football-header.png',
+    stockImage:
+      'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=900&q=75&auto=format&fit=crop',
     imageAlt: 'A floodlit football stadium seen from the stands',
     match: (l) =>
       FOOTBALL_SLUGS.has(l.slug) || l.slug.startsWith('c1-') || l.slug.startsWith('c2-'),
@@ -136,8 +135,8 @@ const SERIES: SeriesDef[] = [
     shortName: 'Sales',
     cardTitle: 'Sales',
     description: 'Professional English for sales calls, pitches, objections, and closing deals.',
-    image: '/images/category-sales-header.png',
-    headerImage: '/images/category-sales-header.png',
+    stockImage:
+      'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=900&q=75&auto=format&fit=crop',
     imageAlt: 'Two business people shaking hands over a desk',
     match: (l) => slugHasKw(l.slug, SALES_KW),
   },
@@ -147,8 +146,8 @@ const SERIES: SeriesDef[] = [
     shortName: 'Marketing',
     cardTitle: 'Marketing',
     description: 'English for marketers — strategy, campaigns, data, branding, and leadership.',
-    image: '/images/category-marketing-header.png',
-    headerImage: '/images/category-marketing-header.png',
+    stockImage:
+      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&q=75&auto=format&fit=crop',
     imageAlt: 'A laptop showing analytics charts next to a notebook',
     match: (l) => slugHasKw(l.slug, MARKETING_KW),
   },
@@ -158,8 +157,8 @@ const SERIES: SeriesDef[] = [
     shortName: 'Gaming',
     cardTitle: 'Gaming',
     description: 'English for gamers — streaming, esports, strategy, and gaming culture.',
-    image: '/images/category-gaming-header.png',
-    headerImage: '/images/category-gaming-header.png',
+    stockImage:
+      'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=900&q=75&auto=format&fit=crop',
     imageAlt: 'A gaming setup with neon-lit keyboard and monitors',
     match: (l) => slugHasKw(l.slug, GAMING_KW),
   },
@@ -169,9 +168,8 @@ const SERIES: SeriesDef[] = [
     shortName: 'Other',
     cardTitle: 'More Topics',
     description: 'More lessons across different topics and contexts.',
-    image:
+    stockImage:
       'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=900&q=75&auto=format&fit=crop',
-    headerImage: '/images/category-other-header.png',
     imageAlt: 'Rows of books on wooden library shelves',
     match: () => true,
   },
@@ -196,9 +194,10 @@ export interface Category {
   shortName: string;
   cardTitle: string;
   description: string;
+  /** Primary image: /images/category-<id>-header.png (drop-in, auto-detected). */
   image: string;
-  /** Large image for the category page header card (falls back to `image` if missing). */
-  headerImage: string;
+  /** Stock fallback shown until the primary image file exists. */
+  stockImage: string;
   imageAlt: string;
   /** [min, max] on the 1-6 level scale, across all lessons in the category */
   range: [number, number];
@@ -232,7 +231,12 @@ export function getCatalog(): Category[] {
       };
     });
     const { match, ...plain } = series;
-    return { ...plain, range: [lo, hi] as [number, number], lessons: summaries };
+    return {
+      ...plain,
+      image: `/images/category-${series.id}-header.png`,
+      range: [lo, hi] as [number, number],
+      lessons: summaries,
+    };
   }).filter((c) => c.lessons.length > 0);
   return catalogCache;
 }

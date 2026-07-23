@@ -32,6 +32,7 @@ export default function CategoryPage({ params }: Props) {
       cardTitle: c.cardTitle,
       description: c.description,
       image: c.image,
+      stockImage: c.stockImage,
       imageAlt: c.imageAlt,
       range: c.range,
       count: c.lessons.length,
