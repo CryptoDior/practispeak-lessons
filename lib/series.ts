@@ -100,6 +100,8 @@ interface SeriesDef {
   cardTitle: string;
   description: string;
   image: string;
+  /** Large image for the category page header card (falls back to `image` if missing). */
+  headerImage: string;
   imageAlt: string;
   match: (l: Lesson) => boolean;
 }
@@ -113,6 +115,7 @@ const SERIES: SeriesDef[] = [
     description: 'Learn real English through Roblox — gaming, chat, quests, and community.',
     image:
       'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=900&q=75&auto=format&fit=crop',
+    headerImage: '/images/category-roblox-header.png',
     imageAlt: 'Colourful building blocks scattered on a surface',
     match: (l) => l.slug.startsWith('roblox-'),
   },
@@ -124,6 +127,7 @@ const SERIES: SeriesDef[] = [
     description: 'From basic vocabulary to punditry — English for players, fans, and analysts.',
     image:
       'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=900&q=75&auto=format&fit=crop',
+    headerImage: '/images/category-football-header.png',
     imageAlt: 'A floodlit football stadium seen from the stands',
     match: (l) =>
       FOOTBALL_SLUGS.has(l.slug) || l.slug.startsWith('c1-') || l.slug.startsWith('c2-'),
@@ -136,6 +140,7 @@ const SERIES: SeriesDef[] = [
     description: 'Professional English for sales calls, pitches, objections, and closing deals.',
     image:
       'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=900&q=75&auto=format&fit=crop',
+    headerImage: '/images/category-sales-header.png',
     imageAlt: 'Two business people shaking hands over a desk',
     match: (l) => slugHasKw(l.slug, SALES_KW),
   },
@@ -147,6 +152,7 @@ const SERIES: SeriesDef[] = [
     description: 'English for marketers — strategy, campaigns, data, branding, and leadership.',
     image:
       'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&q=75&auto=format&fit=crop',
+    headerImage: '/images/category-marketing-header.png',
     imageAlt: 'A laptop showing analytics charts next to a notebook',
     match: (l) => slugHasKw(l.slug, MARKETING_KW),
   },
@@ -158,6 +164,7 @@ const SERIES: SeriesDef[] = [
     description: 'English for gamers — streaming, esports, strategy, and gaming culture.',
     image:
       'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=900&q=75&auto=format&fit=crop',
+    headerImage: '/images/category-gaming-header.png',
     imageAlt: 'A gaming setup with neon-lit keyboard and monitors',
     match: (l) => slugHasKw(l.slug, GAMING_KW),
   },
@@ -169,6 +176,7 @@ const SERIES: SeriesDef[] = [
     description: 'More lessons across different topics and contexts.',
     image:
       'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=900&q=75&auto=format&fit=crop',
+    headerImage: '/images/category-other-header.png',
     imageAlt: 'Rows of books on wooden library shelves',
     match: () => true,
   },
@@ -194,6 +202,8 @@ export interface Category {
   cardTitle: string;
   description: string;
   image: string;
+  /** Large image for the category page header card (falls back to `image` if missing). */
+  headerImage: string;
   imageAlt: string;
   /** [min, max] on the 1-6 level scale, across all lessons in the category */
   range: [number, number];

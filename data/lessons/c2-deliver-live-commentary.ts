@@ -5,7 +5,7 @@ export const c2DeliverLiveCommentary: Lesson = {
   subtitle: 'Unit 4 — Mastery output',
   level: 'C1-C2',
   description: 'Practise commentating on a football clip — managing pace, vocabulary, and spontaneous language under the pressure of live delivery.',
-  heroImage: '/images/hero.png',
+  heroImage: '/images/c2-deliver-live-commentary-hero.png',
   warmUp: {
     questions: [
       'Who is your favourite football commentator? What makes them special?',

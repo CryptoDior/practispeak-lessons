@@ -40,6 +40,7 @@ export interface CategoryData {
   cardTitle: string;
   description: string;
   image: string;
+  headerImage: string;
   imageAlt: string;
   range: [number, number];
   lessons: CategoryLesson[];
@@ -72,6 +73,57 @@ const BAND_CHIP: Record<string, string> = {
   advanced: 'bg-purple-50 text-purple-700 border-purple-200',
   proficient: 'bg-purple-50 text-purple-700 border-purple-200',
 };
+
+/**
+ * Image that falls back to `fallback` when `src` fails to load — including the
+ * SSR case where the 404 fires before React attaches onError (caught on mount
+ * via the ref: a broken image is `complete` with `naturalWidth === 0`).
+ */
+function ImgWithFallback({
+  src,
+  fallback,
+  alt,
+  className,
+  width,
+  height,
+  loading,
+}: {
+  src: string;
+  fallback: string;
+  alt: string;
+  className?: string;
+  width?: number;
+  height?: number;
+  loading?: 'lazy' | 'eager';
+}) {
+  const ref = useRef<HTMLImageElement>(null);
+  const [current, setCurrent] = useState(src);
+  useEffect(() => setCurrent(src), [src]);
+
+  // Runs after commit (post-hydration), so it reliably catches both the
+  // already-broken case (error fired before hydration) and future errors.
+  useEffect(() => {
+    const img = ref.current;
+    if (!img) return;
+    const toFallback = () => setCurrent((c) => (c === fallback ? c : fallback));
+    if (img.complete && img.naturalWidth === 0) toFallback();
+    img.addEventListener('error', toFallback);
+    return () => img.removeEventListener('error', toFallback);
+  }, [current, fallback]);
+
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      ref={ref}
+      src={current}
+      alt={alt}
+      width={width}
+      height={height}
+      loading={loading}
+      className={className}
+    />
+  );
+}
 
 function RangeLabel({ range }: { range: [number, number] }) {
   const r = describeRange(range);
@@ -325,9 +377,9 @@ export default function CategoryView({
                   aria-hidden="true"
                 />
                 <div className="relative h-full overflow-hidden rounded-2xl md:[border-radius:1rem_1rem_62%_1rem/1rem_1rem_95%_1rem]">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={category.image}
+                  <ImgWithFallback
+                    src={category.headerImage ?? category.image}
+                    fallback={category.image}
                     alt={category.imageAlt}
                     width={900}
                     height={563}

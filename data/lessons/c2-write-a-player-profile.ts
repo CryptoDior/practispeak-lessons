@@ -5,7 +5,7 @@ export const c2WriteAPlayerProfile: Lesson = {
   subtitle: 'Unit 4 — Mastery output',
   level: 'C1-C2',
   description: 'Master the techniques of long-form football journalism — from the opening anecdote to the final kicker — to write a compelling player profile in English.',
-  heroImage: '/images/hero.png',
+  heroImage: '/images/c2-write-a-player-profile-hero.png',
   warmUp: {
     questions: [
       'Think of the best sports article you have ever read. What made it memorable?',

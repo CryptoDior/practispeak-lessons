@@ -5,7 +5,7 @@ export const c2CapstoneYourFootballManifesto: Lesson = {
   subtitle: 'Unit 4 — Mastery output',
   level: 'C1-C2',
   description: 'Write a personal statement of football philosophy — the highest-level output in this course. Argue for what football is, what it should be, and why it matters.',
-  heroImage: '/images/hero.png',
+  heroImage: '/images/c2-capstone-your-football-manifesto-hero.png',
   warmUp: {
     questions: [
       'If you could change one thing about football — rules, culture, or structure — what would it be and why?',

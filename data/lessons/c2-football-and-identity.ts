@@ -5,7 +5,7 @@ export const c2FootballAndIdentity: Lesson = {
   subtitle: 'Unit 3 — Football philosophy',
   level: 'C1-C2',
   description: 'Explore how football shapes and reflects national identity, club culture, and political life — and how to discuss it in abstract, academic English.',
-  heroImage: '/images/hero.png',
+  heroImage: '/images/c2-football-and-identity-hero.png',
   warmUp: {
     questions: [
       'Does the football team you support say something about who you are? What does it say?',

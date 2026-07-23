@@ -5,7 +5,7 @@ export const c2TheFutureOfFootball: Lesson = {
   subtitle: 'Unit 3 — Football philosophy',
   level: 'C1-C2',
   description: 'Explore how AI, player welfare, and ownership models are reshaping football — and how to discuss the future using precise speculative English.',
-  heroImage: '/images/hero.png',
+  heroImage: '/images/c2-the-future-of-football-hero.png',
   warmUp: {
     questions: [
       'If AI could scout better than any human, would that be good or bad for football? Why?',

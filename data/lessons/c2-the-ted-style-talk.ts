@@ -5,7 +5,7 @@ export const c2TheTedStyleTalk: Lesson = {
   subtitle: 'Unit 4 — Mastery output',
   level: 'C1-C2',
   description: 'Deliver a structured eight-minute talk on a football topic of your choice — using rhetorical devices, a clear through-line, and confident spoken English.',
-  heroImage: '/images/hero.png',
+  heroImage: '/images/c2-the-ted-style-talk-hero.png',
   warmUp: {
     questions: [
       'Have you ever watched a TED talk? What made it work — the content, the delivery, or both?',

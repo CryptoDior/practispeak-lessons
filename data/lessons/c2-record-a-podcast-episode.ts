@@ -5,7 +5,7 @@ export const c2RecordAPodcastEpisode: Lesson = {
   subtitle: 'Unit 4 — Mastery output',
   level: 'C1-C2',
   description: 'Script, deliver, and critique a five-minute football podcast episode in English — focusing on spoken register, structure, and natural flow.',
-  heroImage: '/images/hero.png',
+  heroImage: '/images/c2-record-a-podcast-episode-hero.png',
   warmUp: {
     questions: [
       'Do you listen to any football podcasts in English? What makes a great podcast episode?',

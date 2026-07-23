@@ -5,7 +5,7 @@ export const c2GreatFootballThinkers: Lesson = {
   subtitle: 'Unit 3 — Football philosophy',
   level: 'C1-C2',
   description: 'Study the ideas of Cruyff, Sacchi, and Guardiola — and learn how to discuss and attribute their philosophies in precise English.',
-  heroImage: '/images/hero.png',
+  heroImage: '/images/c2-great-football-thinkers-hero.png',
   warmUp: {
     questions: [
       'Who is the greatest tactical mind in football history, in your opinion? What makes their ideas special?',

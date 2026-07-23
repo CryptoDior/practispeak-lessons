@@ -5,7 +5,7 @@ export const c2WomensFootball: Lesson = {
   subtitle: 'Unit 3 — Football philosophy',
   level: 'C1-C2',
   description: "Explore the growth of the women\'s game — its key figures, landmark moments, and ongoing challenges — using contrastive structures in English.",
-  heroImage: '/images/hero.png',
+  heroImage: '/images/c2-womens-football-hero.png',
   warmUp: {
     questions: [
       "How much do you know about women\'s football? Name one player or tournament from the women\'s game.",

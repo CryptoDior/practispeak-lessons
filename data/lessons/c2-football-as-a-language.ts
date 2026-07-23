@@ -5,7 +5,7 @@ export const c2FootballAsALanguage: Lesson = {
   subtitle: 'Unit 3 — Football philosophy',
   level: 'C1-C2',
   description: 'Explore how football communicates through space, movement, and pattern — and how to describe it with precise analytical English.',
-  heroImage: '/images/hero.png',
+  heroImage: '/images/c2-football-as-a-language-hero.png',
   warmUp: {
     questions: [
       'Can you think of a moment in a match where a team said something without the ball moving? What happened?',
