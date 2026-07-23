@@ -113,8 +113,7 @@ const SERIES: SeriesDef[] = [
     shortName: 'Roblox',
     cardTitle: 'Roblox',
     description: 'Learn real English through Roblox — gaming, chat, quests, and community.',
-    image:
-      'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=900&q=75&auto=format&fit=crop',
+    image: '/images/category-roblox-header.png',
     headerImage: '/images/category-roblox-header.png',
     imageAlt: 'Colourful building blocks scattered on a surface',
     match: (l) => l.slug.startsWith('roblox-'),
@@ -125,8 +124,7 @@ const SERIES: SeriesDef[] = [
     shortName: 'Football',
     cardTitle: 'Football',
     description: 'From basic vocabulary to punditry — English for players, fans, and analysts.',
-    image:
-      'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=900&q=75&auto=format&fit=crop',
+    image: '/images/category-football-header.png',
     headerImage: '/images/category-football-header.png',
     imageAlt: 'A floodlit football stadium seen from the stands',
     match: (l) =>
@@ -150,8 +148,7 @@ const SERIES: SeriesDef[] = [
     shortName: 'Marketing',
     cardTitle: 'Marketing',
     description: 'English for marketers — strategy, campaigns, data, branding, and leadership.',
-    image:
-      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&q=75&auto=format&fit=crop',
+    image: '/images/category-marketing-header.png',
     headerImage: '/images/category-marketing-header.png',
     imageAlt: 'A laptop showing analytics charts next to a notebook',
     match: (l) => slugHasKw(l.slug, MARKETING_KW),
@@ -162,8 +159,7 @@ const SERIES: SeriesDef[] = [
     shortName: 'Gaming',
     cardTitle: 'Gaming',
     description: 'English for gamers — streaming, esports, strategy, and gaming culture.',
-    image:
-      'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=900&q=75&auto=format&fit=crop',
+    image: '/images/category-gaming-header.png',
     headerImage: '/images/category-gaming-header.png',
     imageAlt: 'A gaming setup with neon-lit keyboard and monitors',
     match: (l) => slugHasKw(l.slug, GAMING_KW),
