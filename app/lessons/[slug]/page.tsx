@@ -389,7 +389,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
             subtitle={lesson.irlVocabulary ? `${lesson.vocabulary.length} words — what they mean inside the game` : `${lesson.vocabulary.length} key words for this lesson`}
             instruction={lesson.vocabulary.some(w => w.partOfSpeech === 'abbreviation') ? 'Listen to the audio for the full abbreviation' : undefined}
           />
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-4">
             {lesson.vocabulary.map((word, i) => <VocabCard key={word.word} word={word} index={i} />)}
           </div>
           <OrnamentDivider />
@@ -402,7 +402,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
               title="IRL Vocab"
               subtitle={`${lesson.irlVocabulary.length} words — what they mean in real life`}
             />
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-4">
               {lesson.irlVocabulary.map((word, i) => <VocabCard key={`irl-${word.word}`} word={word} index={i} />)}
             </div>
           </section>
@@ -430,7 +430,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
             title={TABS[wo + pos + irl + gf + 1]}
             subtitle={`${lesson.phrasalVerbs.length} ${TABS[wo + pos + irl + gf + 1].toLowerCase()} and their meanings`}
           />
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-4">
             {lesson.phrasalVerbs.map((verb, i) => <PhrasalVerbCard key={verb.phrase} verb={verb} index={i} />)}
           </div>
           <OrnamentDivider />
@@ -440,7 +440,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         {hasPhrasalDetails && (
           <section className={activeTab === wo + pos + irl + gf + 2 ? 'block' : 'hidden'}>
             <SectionHeader title="In Action" subtitle="Hear how these phrases sound in real B2B situations" subtitleClass="text-gray-700 font-semibold" />
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-4">
               {[0, 1, 2].map((cardIdx) => {
                 const verbs = lesson.phrasalVerbs.filter(v => v.inAction).slice(cardIdx * 2, cardIdx * 2 + 2);
                 if (verbs.length === 0) return null;

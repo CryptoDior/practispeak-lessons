@@ -30,7 +30,7 @@ function FitTitle({ children }: { children: string }) {
   return (
     <h3
       ref={ref}
-      className="font-playfair text-2xl sm:text-3xl font-semibold text-slate-900 leading-tight break-words min-w-0"
+      className="font-playfair text-xl sm:text-2xl font-semibold text-slate-900 leading-tight break-words min-w-0"
     >
       {children}
     </h3>
@@ -113,11 +113,11 @@ function QuoteBox({
           {tagLabel}
         </span>
       )}
-      <div className="flex items-start gap-4 bg-slate-50 border border-slate-100 rounded-xl px-5 py-4">
-        <svg viewBox="0 0 24 24" className="w-5 h-5 mt-1 text-blue-600 flex-shrink-0" fill="currentColor" aria-hidden="true">
+      <div className="flex items-start gap-3 bg-slate-50 border border-slate-100 rounded-xl px-4 py-3">
+        <svg viewBox="0 0 24 24" className="w-4 h-4 mt-0.5 text-blue-600 flex-shrink-0" fill="currentColor" aria-hidden="true">
           <path d="M4 12c0-3.5 2-6.5 5.5-7.5l.7 1.6C7.9 7.2 6.8 8.8 6.6 10.4c.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3s-1.4 3.1-3.1 3.1C5.5 16.3 4 14.5 4 12zm9.3 0c0-3.5 2-6.5 5.5-7.5l.7 1.6c-2.3 1.1-3.4 2.7-3.6 4.3.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3s-1.4 3.1-3.1 3.1c-2.1 0-3.6-1.8-3.6-4.3z" />
         </svg>
-        <p className="flex-1 text-base text-slate-700 leading-relaxed">{text}</p>
+        <p className="flex-1 text-[14px] text-slate-700 leading-relaxed">{text}</p>
         {audioSrcs && (
           <div className="self-center">
             <AudioButton srcs={audioSrcs} label="Listen to example" />
@@ -172,22 +172,22 @@ export default function WordEntryCard({
   return (
     <div className="font-poppins flex flex-col lg:flex-row gap-5 items-start">
       {/* ---------- Card: vertical text stack ---------- */}
-      <div className="flex-1 min-w-0 bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-6 sm:p-8 flex flex-col justify-center">
+      <div className="flex-1 min-w-0 bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-5 sm:p-6 flex flex-col justify-center">
         {/* Word + listen */}
-        <div className="flex items-center gap-3 mb-4">
+        <div className="flex items-center gap-2.5 mb-2.5">
           <FitTitle>{title}</FitTitle>
           <AudioButton srcs={wordSrcs} label={listenLabel} />
         </div>
 
         {/* Part of speech */}
         {tag && (
-          <span className="inline-block self-start text-sm font-medium text-slate-600 bg-slate-100 border border-slate-200 px-3 py-1.5 rounded-lg capitalize mb-5">
+          <span className="inline-block self-start text-[13px] font-medium text-slate-600 bg-slate-100 border border-slate-200 px-2.5 py-1 rounded-lg capitalize mb-3.5">
             {tag}
           </span>
         )}
 
         {/* Definition */}
-        <p className="text-[17px] sm:text-lg text-slate-800 leading-relaxed mb-5">{definition}</p>
+        <p className="text-[15px] text-slate-800 leading-relaxed mb-3.5">{definition}</p>
 
         {/* Example(s) */}
         {hasSplitExamples ? (
@@ -209,7 +209,7 @@ export default function WordEntryCard({
           type="button"
           onClick={() => setExpanded(true)}
           aria-label={`Expand image for ${title}`}
-          className="group/img relative w-full aspect-square lg:w-72 xl:w-80 flex-shrink-0 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 order-first lg:order-none cursor-zoom-in focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
+          className="group/img relative w-full aspect-square lg:w-56 xl:w-60 flex-shrink-0 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 order-first lg:order-none cursor-zoom-in focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
