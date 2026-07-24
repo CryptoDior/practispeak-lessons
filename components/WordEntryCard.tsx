@@ -1,6 +1,5 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
-import ImageLightbox from '@/components/ImageLightbox';
 
 /**
  * Word title that never breaks mid-word: multi-word terms wrap at spaces,
@@ -16,7 +15,7 @@ function FitTitle({ children }: { children: string }) {
       el.style.fontSize = '';
       if (el.clientWidth === 0) return; // hidden tab — refit when shown
       let size = parseFloat(getComputedStyle(el).fontSize);
-      while (el.scrollWidth > el.clientWidth && size > 15) {
+      while (el.scrollWidth > el.clientWidth && size > 18) {
         size -= 1;
         el.style.fontSize = `${size}px`;
       }
@@ -30,7 +29,7 @@ function FitTitle({ children }: { children: string }) {
   return (
     <h3
       ref={ref}
-      className="font-playfair text-2xl sm:text-[28px] font-semibold text-slate-900 leading-tight min-w-0 flex-1"
+      className="font-playfair text-3xl sm:text-4xl font-semibold text-slate-900 leading-tight break-words min-w-0"
     >
       {children}
     </h3>
@@ -85,7 +84,7 @@ function AudioButton({
       type="button"
       onClick={play}
       aria-label={label}
-      className={`inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 active:scale-95 transition-all cursor-pointer p-2 -m-2 rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 ${
+      className={`inline-flex items-center gap-2 flex-shrink-0 text-blue-600 hover:text-blue-700 active:scale-95 transition-all cursor-pointer p-2 -m-2 rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 ${
         playing ? 'animate-pulse' : ''
       }`}
     >
@@ -113,12 +112,16 @@ function QuoteBox({
           {tagLabel}
         </span>
       )}
-      <div className="flex items-center gap-3.5 bg-slate-50 border border-slate-100 rounded-xl px-4 py-3.5">
-        <svg viewBox="0 0 24 24" className="w-5 h-5 text-blue-600 flex-shrink-0" fill="currentColor" aria-hidden="true">
+      <div className="flex items-start gap-4 bg-slate-50 border border-slate-100 rounded-xl px-5 py-4">
+        <svg viewBox="0 0 24 24" className="w-5 h-5 mt-1 text-blue-600 flex-shrink-0" fill="currentColor" aria-hidden="true">
           <path d="M4 12c0-3.5 2-6.5 5.5-7.5l.7 1.6C7.9 7.2 6.8 8.8 6.6 10.4c.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3s-1.4 3.1-3.1 3.1C5.5 16.3 4 14.5 4 12zm9.3 0c0-3.5 2-6.5 5.5-7.5l.7 1.6c-2.3 1.1-3.4 2.7-3.6 4.3.3-.1.7-.2 1.1-.2 1.7 0 3 1.3 3 3s-1.4 3.1-3.1 3.1c-2.1 0-3.6-1.8-3.6-4.3z" />
         </svg>
-        <p className="flex-1 text-[15px] text-slate-700 leading-relaxed">{text}</p>
-        {audioSrcs && <AudioButton srcs={audioSrcs} label="Listen to example" />}
+        <p className="flex-1 text-base text-slate-700 leading-relaxed">{text}</p>
+        {audioSrcs && (
+          <div className="self-center">
+            <AudioButton srcs={audioSrcs} label="Listen to example" />
+          </div>
+        )}
       </div>
     </div>
   );
@@ -132,7 +135,8 @@ export interface WordEntryProps {
   example: string;
   inGame?: string;
   inRealLife?: string;
-  imageSlug: string;
+  /** kept for API compatibility; the entry no longer renders a side image */
+  imageSlug?: string;
   /** candidate basenames for /audio/{slug}.mp3 and /audio/{slug}-example.mp3, tried in order */
   audioSlugs: string[];
   listenLabel: string;
@@ -145,92 +149,43 @@ export default function WordEntryCard({
   example,
   inGame,
   inRealLife,
-  imageSlug,
   audioSlugs,
   listenLabel,
 }: WordEntryProps) {
   const wordSrcs = audioSlugs.map((s) => `/audio/${s}.mp3`);
   const exampleSrcs = audioSlugs.map((s) => `/audio/${s}-example.mp3`);
-  const [imgSrc, setImgSrc] = useState(imageSlug);
-  const [imgFailed, setImgFailed] = useState(false);
-  const [expanded, setExpanded] = useState(false);
-
-  const handleImgError = () => {
-    if (!imgSrc.endsWith('.svg')) {
-      setImgSrc(imageSlug.replace(/\.[^.]+$/, '.svg'));
-    } else {
-      setImgFailed(true);
-    }
-  };
 
   const hasSplitExamples = !!(inGame || inRealLife);
 
   return (
-    <div className="font-poppins flex flex-col lg:flex-row gap-5 items-stretch">
-      {/* ---------- Card ---------- */}
-      <div className="flex-1 bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-6 sm:p-7 min-w-0">
-        <div className="flex flex-col sm:flex-row gap-6 h-full">
-          {/* Word + part-of-speech */}
-          <div className="sm:w-[30%] lg:w-[28%] flex-shrink-0 flex flex-col justify-center items-start gap-3 sm:pr-6 sm:border-r sm:border-dashed sm:border-slate-200">
-            <div className="flex items-center gap-2.5 max-w-full w-full">
-              <FitTitle>{title}</FitTitle>
-              <AudioButton srcs={wordSrcs} label={listenLabel} />
-            </div>
-            {tag && (
-              <span className="text-xs font-medium text-slate-600 bg-slate-100 border border-slate-200 px-2.5 py-1 rounded-md capitalize">
-                {tag}
-              </span>
-            )}
-          </div>
-
-          {/* Definition and examples */}
-          <div className="flex-1 flex flex-col justify-center gap-3.5 min-w-0">
-            <p className="text-[15px] text-slate-800 leading-relaxed">{definition}</p>
-
-            {hasSplitExamples ? (
-              <div className="space-y-3">
-                {inGame && <QuoteBox text={inGame} tagLabel="In Game" tagClass="text-blue-600" />}
-                {inRealLife && (
-                  <QuoteBox text={inRealLife} tagLabel="In Real Life" tagClass="text-emerald-600" />
-                )}
-                <AudioButton srcs={exampleSrcs} label="Listen to example" showLabel />
-              </div>
-            ) : (
-              <QuoteBox text={example} audioSrcs={exampleSrcs} />
-            )}
-          </div>
-        </div>
+    <div className="font-poppins bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-6 sm:p-8">
+      {/* Word + listen */}
+      <div className="flex items-center gap-3 mb-4">
+        <FitTitle>{title}</FitTitle>
+        <AudioButton srcs={wordSrcs} label={listenLabel} />
       </div>
 
-      {/* ---------- Side image (click to expand) ---------- */}
-      {!imgFailed && (
-        <button
-          type="button"
-          onClick={() => setExpanded(true)}
-          aria-label={`Expand image for ${title}`}
-          className="group/img relative w-full h-52 lg:h-auto lg:w-72 xl:w-80 flex-shrink-0 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 order-first lg:order-none cursor-zoom-in focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
-        >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={imgSrc}
-            alt={title}
-            loading="lazy"
-            className="w-full h-full object-cover group-hover/img:scale-[1.03] transition-transform duration-300"
-            onError={handleImgError}
-          />
-          <span
-            className="absolute bottom-2.5 right-2.5 w-8 h-8 rounded-lg bg-slate-900/55 text-white flex items-center justify-center opacity-80 group-hover/img:opacity-100 transition-opacity"
-            aria-hidden="true"
-          >
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">
-              <path d="M9 4H4v5M15 4h5v5M9 20H4v-5M15 20h5v-5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </span>
-        </button>
+      {/* Part of speech */}
+      {tag && (
+        <span className="inline-block text-sm font-medium text-slate-600 bg-slate-100 border border-slate-200 px-3 py-1.5 rounded-lg capitalize mb-5">
+          {tag}
+        </span>
       )}
 
-      {expanded && !imgFailed && (
-        <ImageLightbox src={imgSrc} alt={title} onClose={() => setExpanded(false)} />
+      {/* Definition */}
+      <p className="text-[17px] sm:text-lg text-slate-800 leading-relaxed mb-5">{definition}</p>
+
+      {/* Example(s) */}
+      {hasSplitExamples ? (
+        <div className="space-y-3">
+          {inGame && <QuoteBox text={inGame} tagLabel="In Game" tagClass="text-blue-600" />}
+          {inRealLife && (
+            <QuoteBox text={inRealLife} tagLabel="In Real Life" tagClass="text-emerald-600" />
+          )}
+          <AudioButton srcs={exampleSrcs} label="Listen to example" showLabel />
+        </div>
+      ) : (
+        <QuoteBox text={example} audioSrcs={exampleSrcs} />
       )}
     </div>
   );
