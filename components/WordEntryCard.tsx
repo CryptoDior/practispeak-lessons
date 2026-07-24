@@ -170,7 +170,7 @@ export default function WordEntryCard({
   const hasSplitExamples = !!(inGame || inRealLife);
 
   return (
-    <div className="font-poppins flex flex-col lg:flex-row gap-5 items-stretch">
+    <div className="font-poppins flex flex-col lg:flex-row gap-5 items-start">
       {/* ---------- Card: vertical text stack ---------- */}
       <div className="flex-1 min-w-0 bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-6 sm:p-8 flex flex-col justify-center">
         {/* Word + listen */}
@@ -209,14 +209,14 @@ export default function WordEntryCard({
           type="button"
           onClick={() => setExpanded(true)}
           aria-label={`Expand image for ${title}`}
-          className="group/img relative w-full h-56 lg:h-auto lg:w-72 xl:w-80 flex-shrink-0 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 order-first lg:order-none cursor-zoom-in focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
+          className="group/img relative w-full aspect-square lg:w-72 xl:w-80 flex-shrink-0 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 order-first lg:order-none cursor-zoom-in focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={imgSrc}
             alt={title}
             loading="lazy"
-            className="w-full h-full object-cover group-hover/img:scale-[1.03] transition-transform duration-300"
+            className="w-full h-full object-contain group-hover/img:scale-[1.03] transition-transform duration-300"
             onError={handleImgError}
           />
           <span
