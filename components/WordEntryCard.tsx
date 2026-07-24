@@ -216,7 +216,7 @@ export default function WordEntryCard({
             src={imgSrc}
             alt={title}
             loading="lazy"
-            className="w-full h-full object-contain group-hover/img:scale-[1.03] transition-transform duration-300"
+            className="w-full h-full object-cover group-hover/img:scale-[1.03] transition-transform duration-300"
             onError={handleImgError}
           />
           <span
