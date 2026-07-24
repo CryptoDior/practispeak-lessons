@@ -209,7 +209,7 @@ export default function WordEntryCard({
           type="button"
           onClick={() => setExpanded(true)}
           aria-label={`Expand image for ${title}`}
-          className="group/img relative w-full lg:w-72 xl:w-80 aspect-square self-start flex-shrink-0 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 order-first lg:order-none cursor-zoom-in focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
+          className="group/img relative w-full h-56 lg:h-auto lg:w-72 xl:w-80 flex-shrink-0 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 order-first lg:order-none cursor-zoom-in focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
