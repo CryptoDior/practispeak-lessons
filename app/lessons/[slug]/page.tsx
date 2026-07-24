@@ -112,6 +112,16 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
     if (i < 0 || i >= TABS.length) return;
     setActiveTab(i);
     setVisitedTabs((prev) => new Set(Array.from(prev).concat(i)));
+    // Jump to the top of the new section, just below the sticky header + tabs.
+    if (typeof window !== 'undefined') {
+      const main = document.getElementById('lesson-content');
+      if (main) {
+        const header = document.querySelector('header')?.clientHeight ?? 64;
+        const tabs = document.getElementById('lesson-tabs')?.clientHeight ?? 56;
+        const top = main.getBoundingClientRect().top + window.scrollY - header - tabs - 8;
+        window.scrollTo(0, Math.max(0, top));
+      }
+    }
   };
 
   const handlePitchCornerComplete = useCallback((score: number, total: number) => {
@@ -333,7 +343,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         </section>
       </div>
 
-      <div className="bg-white shadow-sm sticky top-16 z-30">
+      <div id="lesson-tabs" className="bg-white shadow-sm sticky top-16 z-30">
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex overflow-x-auto no-scrollbar">
             {TABS.map((tab, i) => (
@@ -356,7 +366,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
         </div>
       </div>
 
-      <main className="max-w-5xl mx-auto px-4 py-8">
+      <main id="lesson-content" className="max-w-5xl mx-auto px-4 py-8">
 
         {/* Warm Up */}
         {lesson.warmUp && (
