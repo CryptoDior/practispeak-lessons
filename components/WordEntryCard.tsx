@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
+import ImageLightbox from '@/components/ImageLightbox';
 
 /**
  * Word title that never breaks mid-word: multi-word terms wrap at spaces,
@@ -29,7 +30,7 @@ function FitTitle({ children }: { children: string }) {
   return (
     <h3
       ref={ref}
-      className="font-playfair text-3xl sm:text-4xl font-semibold text-slate-900 leading-tight break-words min-w-0"
+      className="font-playfair text-2xl sm:text-3xl font-semibold text-slate-900 leading-tight break-words min-w-0"
     >
       {children}
     </h3>
@@ -135,8 +136,7 @@ export interface WordEntryProps {
   example: string;
   inGame?: string;
   inRealLife?: string;
-  /** kept for API compatibility; the entry no longer renders a side image */
-  imageSlug?: string;
+  imageSlug: string;
   /** candidate basenames for /audio/{slug}.mp3 and /audio/{slug}-example.mp3, tried in order */
   audioSlugs: string[];
   listenLabel: string;
@@ -149,43 +149,89 @@ export default function WordEntryCard({
   example,
   inGame,
   inRealLife,
+  imageSlug,
   audioSlugs,
   listenLabel,
 }: WordEntryProps) {
   const wordSrcs = audioSlugs.map((s) => `/audio/${s}.mp3`);
   const exampleSrcs = audioSlugs.map((s) => `/audio/${s}-example.mp3`);
+  const [imgSrc, setImgSrc] = useState(imageSlug);
+  const [imgFailed, setImgFailed] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+
+  const handleImgError = () => {
+    if (!imgSrc.endsWith('.svg')) {
+      setImgSrc(imageSlug.replace(/\.[^.]+$/, '.svg'));
+    } else {
+      setImgFailed(true);
+    }
+  };
 
   const hasSplitExamples = !!(inGame || inRealLife);
 
   return (
-    <div className="font-poppins bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-6 sm:p-8">
-      {/* Word + listen */}
-      <div className="flex items-center gap-3 mb-4">
-        <FitTitle>{title}</FitTitle>
-        <AudioButton srcs={wordSrcs} label={listenLabel} />
+    <div className="font-poppins flex flex-col lg:flex-row gap-5 items-stretch">
+      {/* ---------- Card: vertical text stack ---------- */}
+      <div className="flex-1 min-w-0 bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-6 sm:p-8 flex flex-col justify-center">
+        {/* Word + listen */}
+        <div className="flex items-center gap-3 mb-4">
+          <FitTitle>{title}</FitTitle>
+          <AudioButton srcs={wordSrcs} label={listenLabel} />
+        </div>
+
+        {/* Part of speech */}
+        {tag && (
+          <span className="inline-block self-start text-sm font-medium text-slate-600 bg-slate-100 border border-slate-200 px-3 py-1.5 rounded-lg capitalize mb-5">
+            {tag}
+          </span>
+        )}
+
+        {/* Definition */}
+        <p className="text-[17px] sm:text-lg text-slate-800 leading-relaxed mb-5">{definition}</p>
+
+        {/* Example(s) */}
+        {hasSplitExamples ? (
+          <div className="space-y-3">
+            {inGame && <QuoteBox text={inGame} tagLabel="In Game" tagClass="text-blue-600" />}
+            {inRealLife && (
+              <QuoteBox text={inRealLife} tagLabel="In Real Life" tagClass="text-emerald-600" />
+            )}
+            <AudioButton srcs={exampleSrcs} label="Listen to example" showLabel />
+          </div>
+        ) : (
+          <QuoteBox text={example} audioSrcs={exampleSrcs} />
+        )}
       </div>
 
-      {/* Part of speech */}
-      {tag && (
-        <span className="inline-block text-sm font-medium text-slate-600 bg-slate-100 border border-slate-200 px-3 py-1.5 rounded-lg capitalize mb-5">
-          {tag}
-        </span>
+      {/* ---------- Side image (click to expand) ---------- */}
+      {!imgFailed && (
+        <button
+          type="button"
+          onClick={() => setExpanded(true)}
+          aria-label={`Expand image for ${title}`}
+          className="group/img relative w-full h-52 lg:h-auto lg:w-72 xl:w-80 flex-shrink-0 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 order-first lg:order-none cursor-zoom-in focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={imgSrc}
+            alt={title}
+            loading="lazy"
+            className="w-full h-full object-cover group-hover/img:scale-[1.03] transition-transform duration-300"
+            onError={handleImgError}
+          />
+          <span
+            className="absolute bottom-2.5 right-2.5 w-8 h-8 rounded-lg bg-slate-900/55 text-white flex items-center justify-center opacity-80 group-hover/img:opacity-100 transition-opacity"
+            aria-hidden="true"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">
+              <path d="M9 4H4v5M15 4h5v5M9 20H4v-5M15 20h5v-5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </span>
+        </button>
       )}
 
-      {/* Definition */}
-      <p className="text-[17px] sm:text-lg text-slate-800 leading-relaxed mb-5">{definition}</p>
-
-      {/* Example(s) */}
-      {hasSplitExamples ? (
-        <div className="space-y-3">
-          {inGame && <QuoteBox text={inGame} tagLabel="In Game" tagClass="text-blue-600" />}
-          {inRealLife && (
-            <QuoteBox text={inRealLife} tagLabel="In Real Life" tagClass="text-emerald-600" />
-          )}
-          <AudioButton srcs={exampleSrcs} label="Listen to example" showLabel />
-        </div>
-      ) : (
-        <QuoteBox text={example} audioSrcs={exampleSrcs} />
+      {expanded && !imgFailed && (
+        <ImageLightbox src={imgSrc} alt={title} onClose={() => setExpanded(false)} />
       )}
     </div>
   );
