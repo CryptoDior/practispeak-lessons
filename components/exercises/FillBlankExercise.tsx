@@ -113,8 +113,8 @@ export default function FillBlankExercise({ items, onComplete }: Props) {
         </span>
       </div>
 
-      {/* ── Word Bank ── */}
-      <div className="mb-5 bg-[#F8FAFF] rounded-2xl border border-blue-50 p-4">
+      {/* ── Word Bank (sticks below the header + tabs while scrolling the sentences) ── */}
+      <div className="sticky top-[124px] z-20 mb-5 bg-[#F8FAFF] rounded-2xl border border-blue-100 p-4 shadow-[0_4px_12px_rgba(6,110,245,0.06)]">
         <div className="flex items-center gap-2 mb-3">
           <GridIcon />
           <span className="text-[10px] font-extrabold tracking-[0.16em] text-gray-400 uppercase">
