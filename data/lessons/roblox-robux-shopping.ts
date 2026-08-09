@@ -13,14 +13,14 @@ export const robloxRobuxShopping: Lesson = {
       word: 'ROBUX',
       partOfSpeech: 'noun',
       definition: 'The money you use inside Roblox. You buy Robux with real money, or earn them.',
-      example: 'I saved up 400 Robux and bought a new outfit for my avatar!',
+      example: 'I saved up 150 Robux and bought a cool crown for my avatar!',
       imageSlug: '/images/roblox-robux-shopping-robux.png',
     },
     {
       word: 'BUY',
       partOfSpeech: 'verb',
       definition: 'Get something from the shop by paying with Robux.',
-      example: 'I want to buy that cool hat — it only costs 80 Robux!',
+      example: 'I want to buy that cool hat — it only costs 65 Robux!',
       imageSlug: '/images/roblox-robux-shopping-buy.png',
     },
     {
@@ -34,7 +34,7 @@ export const robloxRobuxShopping: Lesson = {
       word: 'PRICE',
       partOfSpeech: 'noun',
       definition: 'How many Robux something costs. Always check the price before you buy!',
-      example: 'The price of that jacket is 250 Robux — that is a lot!',
+      example: 'The price of that jacket is 750 Robux — that is a lot!',
       imageSlug: '/images/roblox-robux-shopping-price.png',
     },
     {
@@ -48,7 +48,7 @@ export const robloxRobuxShopping: Lesson = {
       word: 'SALE',
       partOfSpeech: 'noun',
       definition: 'When something costs fewer Robux than usual for a short time.',
-      example: 'The wings are on sale — normally 400 Robux but now only 200!',
+      example: 'The wings are on sale — normally 1,000 Robux but now only 650!',
       imageSlug: '/images/roblox-robux-shopping-sale.png',
     },
     {
@@ -93,7 +93,7 @@ export const robloxRobuxShopping: Lesson = {
       word: 'PRICE',
       partOfSpeech: 'noun',
       definition: 'How much money something costs. The price is usually on a label or a sign.',
-      example: 'The price of these trainers is £45. That is quite expensive!',
+      example: 'The price of these trainers is $130. That is quite expensive!',
       imageSlug: '/images/roblox-robux-shopping-price-irl.png',
     },
     {
