@@ -107,7 +107,7 @@ export const robloxRobuxShopping: Lesson = {
       word: 'SALE',
       partOfSpeech: 'noun',
       definition: 'When a shop sells things for less money than normal, often at the end of a season.',
-      example: 'The trainers were on sale — half price! I got them for £22.',
+      example: 'The trainers were on sale — I got them for £80.',
       imageSlug: '/images/roblox-robux-shopping-sale-irl.png',
     },
     {
