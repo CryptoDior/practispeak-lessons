@@ -114,7 +114,7 @@ export const robloxRulesAndConsequences: Lesson = {
       word: 'ALLOWED',
       partOfSpeech: 'adjective',
       definition: "You CAN do this — a person in charge says it is OK.",
-      example: "Phones are not allowed in class — please put yours in your bag.",
+      example: "You are allowed to cross here — the green light means it is safe to walk.",
       imageSlug: '/images/roblox-rules-and-consequences-allowed-irl.png',
     },
     {
