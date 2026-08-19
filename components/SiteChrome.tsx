@@ -61,6 +61,7 @@ export function ArrowLeftIcon({ className = 'w-4 h-4' }: { className?: string })
 const NAV_LINKS = [
   { label: 'Home', href: '/' },
   { label: 'Categories', href: '/#categories' },
+  { label: 'Questions', href: '/questions' },
   { label: 'About', href: '/#about' },
 ];
 
