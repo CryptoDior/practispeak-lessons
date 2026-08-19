@@ -409,6 +409,11 @@ import { businessTalkingAboutYourRoleDepartment } from './business-talking-about
 import { businessAskingDirectionsOffice } from './business-asking-directions-office';
 import { businessDescribingDailyRoutines } from './business-describing-daily-routines';
 import { businessAskingOfferingHelp } from './business-asking-offering-help';
+import { businessBasicMeetingPhrases } from './business-basic-meeting-phrases';
+import { businessAgreeingDisagreeingPolitely } from './business-agreeing-disagreeing-politely';
+import { businessAskingRepetitionClarification } from './business-asking-repetition-clarification';
+import { businessExpressingSimpleOpinions } from './business-expressing-simple-opinions';
+import { businessClosingMeetingPolitely } from './business-closing-meeting-politely';
 
 export const lessons: Lesson[] = [
   businessIntroducingYourselfColleagues,
@@ -416,6 +421,11 @@ export const lessons: Lesson[] = [
   businessAskingDirectionsOffice,
   businessDescribingDailyRoutines,
   businessAskingOfferingHelp,
+  businessBasicMeetingPhrases,
+  businessAgreeingDisagreeingPolitely,
+  businessAskingRepetitionClarification,
+  businessExpressingSimpleOpinions,
+  businessClosingMeetingPolitely,
   teamCommunication,
   gameOnFirstWords,
   robloxAvatarIdentity,
