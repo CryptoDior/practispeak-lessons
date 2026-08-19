@@ -185,8 +185,14 @@ function LessonCard({ lesson, fallbacks }: { lesson: CategoryLesson; fallbacks: 
   const srcs = [lesson.heroImage, ...fallbacks].filter(Boolean) as string[];
   return (
     <Link
+      id={`ls-${lesson.slug}`}
       href={lesson.externalUrl ?? `/lessons/${lesson.slug}`}
-      className="group bg-white rounded-xl overflow-hidden border border-slate-200 transition-all duration-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_14px_40px_rgba(15,23,42,0.12)] hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 flex flex-col"
+      onClick={() => {
+        try {
+          sessionStorage.setItem('ps-return-lesson', lesson.slug);
+        } catch {}
+      }}
+      className="group scroll-mt-24 bg-white rounded-xl overflow-hidden border border-slate-200 transition-all duration-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_14px_40px_rgba(15,23,42,0.12)] hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 flex flex-col"
     >
       <div className="aspect-[16/9] overflow-hidden bg-slate-100">
         <FallbackImage
@@ -275,6 +281,37 @@ export default function CategoryView({
 }) {
   const [search, setSearch] = useState('');
   const [levelRange, setLevelRange] = useState<[number, number]>([LEVEL_MIN, LEVEL_MAX]);
+
+  // When returning from a lesson (browser back), jump back to the lesson we came
+  // from so it's easy to pick the next one — instead of landing at the bottom.
+  const [returnSlug, setReturnSlug] = useState<string | null>(null);
+  useEffect(() => {
+    let slug: string | null = null;
+    try {
+      slug = sessionStorage.getItem('ps-return-lesson');
+    } catch {}
+    if (slug && category.lessons.some((l) => l.slug === slug)) {
+      setReturnSlug(slug);
+      try {
+        sessionStorage.removeItem('ps-return-lesson');
+      } catch {}
+    }
+  }, [category.lessons]);
+
+  useEffect(() => {
+    if (!returnSlug) return;
+    const scrollToLesson = () => {
+      document.getElementById(`ls-${returnSlug}`)?.scrollIntoView({ block: 'center' });
+    };
+    // Run after paint (and once more) so it wins over the browser's own
+    // scroll-restoration, which otherwise lands at the bottom of the page.
+    const raf = requestAnimationFrame(() => requestAnimationFrame(scrollToLesson));
+    const timer = setTimeout(scrollToLesson, 140);
+    return () => {
+      cancelAnimationFrame(raf);
+      clearTimeout(timer);
+    };
+  }, [returnSlug]);
 
   const query = search.trim().toLowerCase();
   const [selLo, selHi] = levelRange;
@@ -398,7 +435,7 @@ export default function CategoryView({
             blurb={BAND_BLURBS[band.id] ?? ''}
             lessons={ls}
             fallbacks={[category.image, category.stockImage]}
-            forceExpanded={filtersActive}
+            forceExpanded={filtersActive || (returnSlug != null && ls.some((l) => l.slug === returnSlug))}
           />
         ))}
 
