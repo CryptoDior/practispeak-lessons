@@ -406,10 +406,16 @@ import { reviewMasteryLevelCommunication } from './review-mastery-level-communic
 import { c2FinalProjectTheCmoChallengeLesson } from './c2-final-project-the-cmo-challenge';
 import { businessIntroducingYourselfColleagues } from './business-introducing-yourself-colleagues';
 import { businessTalkingAboutYourRoleDepartment } from './business-talking-about-your-role-department';
+import { businessAskingDirectionsOffice } from './business-asking-directions-office';
+import { businessDescribingDailyRoutines } from './business-describing-daily-routines';
+import { businessAskingOfferingHelp } from './business-asking-offering-help';
 
 export const lessons: Lesson[] = [
   businessIntroducingYourselfColleagues,
   businessTalkingAboutYourRoleDepartment,
+  businessAskingDirectionsOffice,
+  businessDescribingDailyRoutines,
+  businessAskingOfferingHelp,
   teamCommunication,
   gameOnFirstWords,
   robloxAvatarIdentity,
