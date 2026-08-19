@@ -405,9 +405,11 @@ import { marketingEthicsAndPhilosophy } from './marketing-ethics-and-philosophy'
 import { reviewMasteryLevelCommunication } from './review-mastery-level-communication';
 import { c2FinalProjectTheCmoChallengeLesson } from './c2-final-project-the-cmo-challenge';
 import { businessIntroducingYourselfColleagues } from './business-introducing-yourself-colleagues';
+import { businessTalkingAboutYourRoleDepartment } from './business-talking-about-your-role-department';
 
 export const lessons: Lesson[] = [
   businessIntroducingYourselfColleagues,
+  businessTalkingAboutYourRoleDepartment,
   teamCommunication,
   gameOnFirstWords,
   robloxAvatarIdentity,
