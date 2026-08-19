@@ -404,8 +404,10 @@ import { theMultilingualMarketersToolkit } from './the-multilingual-marketers-to
 import { marketingEthicsAndPhilosophy } from './marketing-ethics-and-philosophy';
 import { reviewMasteryLevelCommunication } from './review-mastery-level-communication';
 import { c2FinalProjectTheCmoChallengeLesson } from './c2-final-project-the-cmo-challenge';
+import { businessIntroducingYourselfColleagues } from './business-introducing-yourself-colleagues';
 
 export const lessons: Lesson[] = [
+  businessIntroducingYourselfColleagues,
   teamCommunication,
   gameOnFirstWords,
   robloxAvatarIdentity,
