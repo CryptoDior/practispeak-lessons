@@ -38,6 +38,15 @@ const GAMES: GameCard[] = [
     emoji: '🐝',
     ready: true,
   },
+  {
+    id: 'daily-routines',
+    href: '/games/daily-routines',
+    title: 'Daily Routines',
+    blurb: 'Listen to the phrase, then tap the matching picture out of three.',
+    tags: ['Listening', 'Vocabulary', 'A1–A2'],
+    emoji: '🌅',
+    ready: true,
+  },
 ];
 
 export default function GamesPage() {
