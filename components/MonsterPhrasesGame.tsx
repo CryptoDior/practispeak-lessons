@@ -35,10 +35,10 @@ function SpeakerIcon({ className = 'w-5 h-5' }: { className?: string }) {
 }
 
 /* ---------- Monster character ---------- */
-function Monster({ mood }: { mood: Mood }) {
+function Monster({ mood, className = 'w-24 h-24 sm:w-28 sm:h-28' }: { mood: Mood; className?: string }) {
   const bob = mood === 'happy' ? 'animate-bounce' : '';
   return (
-    <svg viewBox="0 0 120 120" className={`w-24 h-24 sm:w-28 sm:h-28 ${bob}`} aria-hidden="true">
+    <svg viewBox="0 0 120 120" className={`${className} ${bob}`} aria-hidden="true">
       <defs>
         <linearGradient id="mp-body" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0" stopColor="#6366F1" />
@@ -296,7 +296,7 @@ export default function MonsterPhrasesGame() {
     );
   }
 
-  /* ---------- Review: read & hear every sentence ---------- */
+  /* ---------- Review: read & hear every sentence (list) ---------- */
   if (mode === 'review') {
     return (
       <Shell>
@@ -319,7 +319,7 @@ export default function MonsterPhrasesGame() {
               key={i}
               className="flex items-center gap-4 bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-3"
             >
-              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden bg-slate-100 flex-shrink-0">
+              <div className="w-28 sm:w-36 aspect-video rounded-xl overflow-hidden bg-slate-100 flex-shrink-0">
                 <SceneImage image={it.image} scene={it.scene} sentence={it.sentence} />
               </div>
               <p className="flex-1 font-playfair text-lg sm:text-xl text-slate-900 leading-snug">
@@ -412,17 +412,17 @@ export default function MonsterPhrasesGame() {
       </div>
 
       <div className="bg-white rounded-3xl border border-slate-200 shadow-[0_8px_30px_rgba(15,23,42,0.06)] overflow-hidden">
-        {/* Scene + monster */}
-        <div className="relative bg-gradient-to-br from-[#EEF2FF] to-[#E0E7FF] p-6 flex items-center justify-center gap-4">
+        {/* Scene (16:9) with a peeking monster */}
+        <div className="relative bg-gradient-to-br from-[#EEF2FF] to-[#E0E7FF] p-4 sm:p-6">
           <div
-            className={`w-40 h-40 sm:w-56 sm:h-56 rounded-2xl overflow-hidden bg-white/70 border border-white shadow-sm flex-shrink-0 ${
+            className={`relative w-full max-w-md mx-auto aspect-video rounded-2xl overflow-hidden bg-white border border-white shadow-sm ${
               status === 'wrong' ? 'animate-shake' : ''
             }`}
           >
             {item && <SceneImage image={item.image} scene={item.scene} sentence={item.sentence} />}
           </div>
-          <div className="hidden sm:block">
-            <Monster mood={mood} />
+          <div className="absolute right-2 bottom-1 sm:right-4 sm:bottom-2 pointer-events-none">
+            <Monster mood={mood} className="w-16 h-16 sm:w-20 sm:h-20 drop-shadow" />
           </div>
         </div>
 
