@@ -62,6 +62,7 @@ const NAV_LINKS = [
   { label: 'Home', href: '/' },
   { label: 'Categories', href: '/#categories' },
   { label: 'Questions', href: '/questions' },
+  { label: 'Games', href: '/games' },
   { label: 'About', href: '/#about' },
 ];
 
