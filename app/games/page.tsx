@@ -56,6 +56,15 @@ const GAMES: GameCard[] = [
     emoji: '🎯',
     ready: true,
   },
+  {
+    id: 'word-search',
+    href: '/games/word-search',
+    title: 'Word Search',
+    blurb: 'Find the hidden words that match the pictures, hidden across, down, and diagonally.',
+    tags: ['Spelling', 'Vocabulary', 'A1–A2'],
+    emoji: '🔎',
+    ready: true,
+  },
 ];
 
 export default function GamesPage() {
