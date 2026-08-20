@@ -47,6 +47,15 @@ const GAMES: GameCard[] = [
     emoji: '🌅',
     ready: true,
   },
+  {
+    id: 'hangman',
+    href: '/games/hangman',
+    title: 'Hangman',
+    blurb: 'Guess the hidden word one letter at a time before the drawing is finished.',
+    tags: ['Spelling', 'Vocabulary', 'A2–B1'],
+    emoji: '🎯',
+    ready: true,
+  },
 ];
 
 export default function GamesPage() {
