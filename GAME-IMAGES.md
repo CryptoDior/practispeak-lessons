@@ -4,12 +4,10 @@ Drop each file (JPG) into the folder shown. Names must match exactly. Until a fi
 
 **Best shape per game** (images are cropped to fit, so use this aspect to avoid unwanted cropping):
 - Monster Phrases, Spelling Bee — **16:9 landscape**
-- Daily Routines — **square** (shown inside circles)
+- Daily Routines, Fast Vocab — **square** (shown inside circles)
 - Hangman, Word Search — **square** (small thumbnails / cards)
 
-**Reusing images:** the same subject appears in more than one game (e.g. `fish`, `apple`, `giraffe`, `doctor`, `sun`, `mirror`). Each game reads from its own folder, so copy the file into each folder that needs it (or generate one per game).
-
-Total: **184 images** (Monster Phrases 40, Spelling Bee 40, Daily Routines 24, Hangman 50, Word Search 30).
+**Reusing images:** the same subject appears in more than one game. Each game reads from its own folder, so copy the file into each folder that needs it (or generate one per game).
 
 ## Monster Phrases — `public/games/monster-phrases/`  (40 images, 16:9)
 - [ ] elephant-big.jpg
@@ -204,3 +202,65 @@ Total: **184 images** (Monster Phrases 40, Spelling Bee 40, Daily Routines 24, H
 - [ ] farmer.jpg
 - [ ] chef.jpg
 - [ ] actor.jpg
+
+## Fast Vocab — `public/games/fast-vocab/`  (60 images, shown as circles)
+- [ ] dog.jpg
+- [ ] cat.jpg
+- [ ] elephant.jpg
+- [ ] crocodile.jpg
+- [ ] lion.jpg
+- [ ] tiger.jpg
+- [ ] fish.jpg
+- [ ] bird.jpg
+- [ ] frog.jpg
+- [ ] bear.jpg
+- [ ] snake.jpg
+- [ ] monkey.jpg
+- [ ] apple.jpg
+- [ ] banana.jpg
+- [ ] bread.jpg
+- [ ] cheese.jpg
+- [ ] egg.jpg
+- [ ] milk.jpg
+- [ ] pizza.jpg
+- [ ] cake.jpg
+- [ ] lemon.jpg
+- [ ] grape.jpg
+- [ ] rice.jpg
+- [ ] carrot.jpg
+- [ ] teacher.jpg
+- [ ] doctor.jpg
+- [ ] nurse.jpg
+- [ ] pilot.jpg
+- [ ] farmer.jpg
+- [ ] chef.jpg
+- [ ] actor.jpg
+- [ ] singer.jpg
+- [ ] artist.jpg
+- [ ] driver.jpg
+- [ ] dentist.jpg
+- [ ] waiter.jpg
+- [ ] chair.jpg
+- [ ] table.jpg
+- [ ] lamp.jpg
+- [ ] clock.jpg
+- [ ] door.jpg
+- [ ] mirror.jpg
+- [ ] bed.jpg
+- [ ] window.jpg
+- [ ] sofa.jpg
+- [ ] plate.jpg
+- [ ] cup.jpg
+- [ ] spoon.jpg
+- [ ] sun.jpg
+- [ ] tree.jpg
+- [ ] star.jpg
+- [ ] moon.jpg
+- [ ] cloud.jpg
+- [ ] river.jpg
+- [ ] flower.jpg
+- [ ] mountain.jpg
+- [ ] leaf.jpg
+- [ ] rain.jpg
+- [ ] snow.jpg
+- [ ] beach.jpg

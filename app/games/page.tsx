@@ -65,6 +65,15 @@ const GAMES: GameCard[] = [
     emoji: '🔎',
     ready: true,
   },
+  {
+    id: 'fast-vocab',
+    href: '/games/fast-vocab',
+    title: 'Fast Vocab',
+    blurb: 'Match each word to the right picture, three at a time, as fast as you can.',
+    tags: ['Vocabulary', 'Matching', 'A1–A2'],
+    emoji: '⚡',
+    ready: true,
+  },
 ];
 
 export default function GamesPage() {
