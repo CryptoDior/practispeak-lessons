@@ -25,6 +25,15 @@ function speak(text: string) {
   window.speechSynthesis.speak(u);
 }
 
+function SpeakerIcon({ className = 'w-5 h-5' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className={className} aria-hidden="true">
+      <path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5H4z" strokeLinejoin="round" />
+      <path d="M15.5 9.2a4 4 0 010 5.6M18 6.8a7.5 7.5 0 010 10.4" strokeLinecap="round" />
+    </svg>
+  );
+}
+
 /* ---------- Monster character ---------- */
 function Monster({ mood }: { mood: Mood }) {
   const bob = mood === 'happy' ? 'animate-bounce' : '';
@@ -102,6 +111,7 @@ interface Tile {
 
 export default function MonsterPhrasesGame() {
   const [set, setSet] = useState<MonsterSet | null>(null);
+  const [mode, setMode] = useState<'review' | 'play' | null>(null);
   const [index, setIndex] = useState(0);
   const [tiles, setTiles] = useState<Tile[]>([]);
   const [placed, setPlaced] = useState<number[]>([]); // tile ids in order
@@ -123,12 +133,23 @@ export default function MonsterPhrasesGame() {
     setMood('idle');
   }, []);
 
-  const startSet = (s: MonsterSet) => {
+  const openSet = (s: MonsterSet) => {
     setSet(s);
+    setMode(null);
+    setFinished(false);
+  };
+  const startPlay = () => {
+    if (!set) return;
+    setMode('play');
     setIndex(0);
     setScore(0);
     setFinished(false);
-    loadItem(s, 0);
+    loadItem(set, 0);
+  };
+  const backToSets = () => {
+    setSet(null);
+    setMode(null);
+    setFinished(false);
   };
 
   const placedWords = useMemo(
@@ -222,7 +243,7 @@ export default function MonsterPhrasesGame() {
             <button
               key={s.id}
               type="button"
-              onClick={() => startSet(s)}
+              onClick={() => openSet(s)}
               className="group text-left bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)] hover:-translate-y-0.5 transition-all p-5 flex items-center gap-4 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
             >
               <span className="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center flex-shrink-0">
@@ -237,6 +258,100 @@ export default function MonsterPhrasesGame() {
               </span>
             </button>
           ))}
+        </div>
+      </Shell>
+    );
+  }
+
+  /* ---------- Set menu: Review or Play ---------- */
+  if (mode === null) {
+    return (
+      <Shell>
+        <div className="text-center mb-8">
+          <p className="text-[13px] font-semibold tracking-[0.18em] text-blue-600 uppercase mb-3">
+            Grammar Set
+          </p>
+          <h1 className="font-playfair text-4xl sm:text-5xl font-semibold text-slate-900 mb-3">
+            {set.label}
+          </h1>
+          <p className="text-base text-slate-500 max-w-md mx-auto leading-relaxed">{set.blurb}</p>
+        </div>
+        <div className="max-w-xs mx-auto flex flex-col gap-3">
+          <button
+            type="button"
+            onClick={() => setMode('review')}
+            className="h-13 py-3.5 rounded-2xl border-2 border-slate-200 bg-white text-slate-700 text-[15px] font-semibold hover:border-blue-300 hover:text-blue-600 transition-all cursor-pointer inline-flex items-center justify-center gap-2"
+          >
+            📖 Review sentences first
+          </button>
+          <button
+            type="button"
+            onClick={startPlay}
+            className="h-13 py-3.5 rounded-2xl bg-blue-600 text-white text-[15px] font-semibold hover:bg-blue-700 active:scale-95 shadow-[0_4px_16px_rgba(37,99,235,0.28)] transition-all cursor-pointer inline-flex items-center justify-center gap-2"
+          >
+            ▶ Play
+          </button>
+        </div>
+      </Shell>
+    );
+  }
+
+  /* ---------- Review: read & hear every sentence ---------- */
+  if (mode === 'review') {
+    return (
+      <Shell>
+        <div className="text-center mb-6">
+          <p className="text-[13px] font-semibold tracking-[0.18em] text-blue-600 uppercase mb-2">
+            Review — {set.label}
+          </p>
+          <h1 className="font-playfair text-3xl sm:text-4xl font-semibold text-slate-900 mb-2">
+            Read the sentences
+          </h1>
+          <p className="text-sm text-slate-500 max-w-md mx-auto">
+            Look at each picture and read the sentence out loud. Tap the speaker to hear it. When you
+            are ready, play!
+          </p>
+        </div>
+
+        <div className="space-y-3">
+          {set.items.map((it, i) => (
+            <div
+              key={i}
+              className="flex items-center gap-4 bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-3"
+            >
+              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden bg-slate-100 flex-shrink-0">
+                <SceneImage image={it.image} scene={it.scene} sentence={it.sentence} />
+              </div>
+              <p className="flex-1 font-playfair text-lg sm:text-xl text-slate-900 leading-snug">
+                {it.sentence}
+              </p>
+              <button
+                type="button"
+                onClick={() => speak(it.sentence)}
+                aria-label={`Listen to: ${it.sentence}`}
+                className="w-11 h-11 rounded-full border border-slate-200 text-blue-600 flex items-center justify-center hover:bg-blue-50 hover:border-blue-300 transition-colors cursor-pointer flex-shrink-0"
+              >
+                <SpeakerIcon className="w-5 h-5" />
+              </button>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+          <button
+            type="button"
+            onClick={() => setMode(null)}
+            className="h-12 px-6 rounded-full border border-slate-200 bg-white text-slate-600 text-[15px] font-semibold hover:border-blue-300 hover:text-blue-600 transition-all cursor-pointer"
+          >
+            Back
+          </button>
+          <button
+            type="button"
+            onClick={startPlay}
+            className="h-12 px-8 rounded-full bg-blue-600 text-white text-[15px] font-semibold hover:bg-blue-700 active:scale-95 shadow-[0_4px_16px_rgba(37,99,235,0.28)] transition-all cursor-pointer"
+          >
+            Play →
+          </button>
         </div>
       </Shell>
     );
@@ -259,14 +374,14 @@ export default function MonsterPhrasesGame() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <button
               type="button"
-              onClick={() => startSet(set)}
+              onClick={startPlay}
               className="h-12 px-6 rounded-full bg-blue-600 text-white text-[15px] font-semibold hover:bg-blue-700 active:scale-95 transition-all cursor-pointer"
             >
               Play again
             </button>
             <button
               type="button"
-              onClick={() => setSet(null)}
+              onClick={backToSets}
               className="h-12 px-6 rounded-full border border-slate-200 bg-white text-slate-600 text-[15px] font-semibold hover:border-blue-300 hover:text-blue-600 transition-all cursor-pointer"
             >
               Choose another set
@@ -285,10 +400,10 @@ export default function MonsterPhrasesGame() {
       <div className="flex items-center justify-between mb-5">
         <button
           type="button"
-          onClick={() => setSet(null)}
+          onClick={() => setMode(null)}
           className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-500 hover:text-blue-600 transition-colors cursor-pointer"
         >
-          <ArrowLeftIcon className="w-4 h-4" /> Sets
+          <ArrowLeftIcon className="w-4 h-4" /> Menu
         </button>
         <span className="text-sm font-medium text-slate-500">
           {index + 1} / {total}
