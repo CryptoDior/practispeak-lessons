@@ -1,0 +1,206 @@
+# Game image checklist
+
+Drop each file (JPG) into the folder shown. Names must match exactly. Until a file exists, the game shows an emoji fallback.
+
+**Best shape per game** (images are cropped to fit, so use this aspect to avoid unwanted cropping):
+- Monster Phrases, Spelling Bee — **16:9 landscape**
+- Daily Routines — **square** (shown inside circles)
+- Hangman, Word Search — **square** (small thumbnails / cards)
+
+**Reusing images:** the same subject appears in more than one game (e.g. `fish`, `apple`, `giraffe`, `doctor`, `sun`, `mirror`). Each game reads from its own folder, so copy the file into each folder that needs it (or generate one per game).
+
+Total: **184 images** (Monster Phrases 40, Spelling Bee 40, Daily Routines 24, Hangman 50, Word Search 30).
+
+## Monster Phrases — `public/games/monster-phrases/`  (40 images, 16:9)
+- [ ] elephant-big.jpg
+- [ ] mouse-small.jpg
+- [ ] sun-hot.jpg
+- [ ] cats-cute.jpg
+- [ ] apples-red.jpg
+- [ ] trees-tall.jpg
+- [ ] turtle-slow.jpg
+- [ ] stars-bright.jpg
+- [ ] reading-book.jpg
+- [ ] playing-football.jpg
+- [ ] singing-song.jpg
+- [ ] making-pizza.jpg
+- [ ] man-swimming.jpg
+- [ ] dog-eating-bone.jpg
+- [ ] baby-sleeping.jpg
+- [ ] raining-outside.jpg
+- [ ] played-football.jpg
+- [ ] ate-cake.jpg
+- [ ] drove-city.jpg
+- [ ] rained-all-day.jpg
+- [ ] watched-film.jpg
+- [ ] cat-drank-milk.jpg
+- [ ] sent-letter.jpg
+- [ ] ran-fast.jpg
+- [ ] fish-swim.jpg
+- [ ] bird-fly.jpg
+- [ ] penguin-cant-fly.jpg
+- [ ] monkey-climb.jpg
+- [ ] turtle-cant-run.jpg
+- [ ] kangaroo-jump.jpg
+- [ ] dolphin-swim.jpg
+- [ ] elephant-cant-jump.jpg
+- [ ] she-has-cat.jpg
+- [ ] he-has-car.jpg
+- [ ] boy-has-bag.jpg
+- [ ] two-balloons.jpg
+- [ ] red-roses.jpg
+- [ ] small-family.jpg
+- [ ] child-ice-cream.jpg
+- [ ] two-dogs.jpg
+
+## Spelling Bee — `public/games/spelling-bee/`  (40 images)
+- [ ] cat.jpg
+- [ ] dog.jpg
+- [ ] fish.jpg
+- [ ] bird.jpg
+- [ ] lion.jpg
+- [ ] frog.jpg
+- [ ] bear.jpg
+- [ ] duck.jpg
+- [ ] apple.jpg
+- [ ] bread.jpg
+- [ ] cake.jpg
+- [ ] egg.jpg
+- [ ] milk.jpg
+- [ ] rice.jpg
+- [ ] pizza.jpg
+- [ ] banana.jpg
+- [ ] house.jpg
+- [ ] chair.jpg
+- [ ] bed.jpg
+- [ ] door.jpg
+- [ ] lamp.jpg
+- [ ] clock.jpg
+- [ ] key.jpg
+- [ ] window.jpg
+- [ ] sun.jpg
+- [ ] tree.jpg
+- [ ] star.jpg
+- [ ] moon.jpg
+- [ ] rain.jpg
+- [ ] flower.jpg
+- [ ] leaf.jpg
+- [ ] cloud.jpg
+- [ ] hand.jpg
+- [ ] foot.jpg
+- [ ] eye.jpg
+- [ ] ear.jpg
+- [ ] nose.jpg
+- [ ] mouth.jpg
+- [ ] tooth.jpg
+- [ ] hair.jpg
+
+## Daily Routines — `public/games/daily-routines/`  (24 images, shown as circles)
+- [ ] wake-up.jpg   (Wake up)
+- [ ] get-up.jpg   (Get up)
+- [ ] wash-your-face.jpg   (Wash your face)
+- [ ] brush-your-teeth.jpg   (Brush your teeth)
+- [ ] take-a-shower.jpg   (Take a shower)
+- [ ] get-dressed.jpg   (Get dressed)
+- [ ] comb-your-hair.jpg   (Comb your hair)
+- [ ] eat-breakfast.jpg   (Eat breakfast)
+- [ ] go-to-work.jpg   (Go to work)
+- [ ] start-work.jpg   (Start work)
+- [ ] have-a-meeting.jpg   (Have a meeting)
+- [ ] have-lunch.jpg   (Have lunch)
+- [ ] take-a-break.jpg   (Take a break)
+- [ ] check-your-phone.jpg   (Check your phone)
+- [ ] go-shopping.jpg   (Go shopping)
+- [ ] come-home.jpg   (Come home)
+- [ ] cook-dinner.jpg   (Cook dinner)
+- [ ] eat-dinner.jpg   (Eat dinner)
+- [ ] wash-the-dishes.jpg   (Wash the dishes)
+- [ ] watch-tv.jpg   (Watch TV)
+- [ ] read-a-book.jpg   (Read a book)
+- [ ] take-a-bath.jpg   (Take a bath)
+- [ ] turn-off-the-light.jpg   (Turn off the light)
+- [ ] go-to-bed.jpg   (Go to bed)
+
+## Hangman — `public/games/hangman/`  (50 images)
+- [ ] elephant.jpg
+- [ ] giraffe.jpg
+- [ ] penguin.jpg
+- [ ] dolphin.jpg
+- [ ] kangaroo.jpg
+- [ ] butterfly.jpg
+- [ ] crocodile.jpg
+- [ ] squirrel.jpg
+- [ ] hedgehog.jpg
+- [ ] ostrich.jpg
+- [ ] sandwich.jpg
+- [ ] chocolate.jpg
+- [ ] spaghetti.jpg
+- [ ] pineapple.jpg
+- [ ] strawberry.jpg
+- [ ] breakfast.jpg
+- [ ] vegetable.jpg
+- [ ] hamburger.jpg
+- [ ] cucumber.jpg
+- [ ] pancake.jpg
+- [ ] brazil.jpg
+- [ ] canada.jpg
+- [ ] germany.jpg
+- [ ] japan.jpg
+- [ ] mexico.jpg
+- [ ] egypt.jpg
+- [ ] france.jpg
+- [ ] australia.jpg
+- [ ] sweden.jpg
+- [ ] morocco.jpg
+- [ ] kitchen.jpg
+- [ ] window.jpg
+- [ ] bedroom.jpg
+- [ ] cushion.jpg
+- [ ] blanket.jpg
+- [ ] mirror.jpg
+- [ ] curtain.jpg
+- [ ] wardrobe.jpg
+- [ ] cupboard.jpg
+- [ ] ceiling.jpg
+- [ ] teacher.jpg
+- [ ] doctor.jpg
+- [ ] engineer.jpg
+- [ ] farmer.jpg
+- [ ] waiter.jpg
+- [ ] lawyer.jpg
+- [ ] dentist.jpg
+- [ ] plumber.jpg
+- [ ] scientist.jpg
+- [ ] musician.jpg
+
+## Word Search — `public/games/word-search/`  (30 images)
+- [ ] pig.jpg
+- [ ] tiger.jpg
+- [ ] fly.jpg
+- [ ] rhino.jpg
+- [ ] giraffe.jpg
+- [ ] fish.jpg
+- [ ] apple.jpg
+- [ ] banana.jpg
+- [ ] lemon.jpg
+- [ ] bread.jpg
+- [ ] cheese.jpg
+- [ ] grape.jpg
+- [ ] chair.jpg
+- [ ] table.jpg
+- [ ] lamp.jpg
+- [ ] clock.jpg
+- [ ] door.jpg
+- [ ] mirror.jpg
+- [ ] sun.jpg
+- [ ] tree.jpg
+- [ ] star.jpg
+- [ ] moon.jpg
+- [ ] cloud.jpg
+- [ ] river.jpg
+- [ ] doctor.jpg
+- [ ] nurse.jpg
+- [ ] pilot.jpg
+- [ ] farmer.jpg
+- [ ] chef.jpg
+- [ ] actor.jpg
