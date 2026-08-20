@@ -29,6 +29,15 @@ const GAMES: GameCard[] = [
     emoji: '👾',
     ready: true,
   },
+  {
+    id: 'spelling-bee',
+    href: '/games/spelling-bee',
+    title: 'Spelling Bee',
+    blurb: 'Look at the picture and spell the word, letter by letter, on the keyboard.',
+    tags: ['Spelling', 'Vocabulary', 'A1–A2'],
+    emoji: '🐝',
+    ready: true,
+  },
 ];
 
 export default function GamesPage() {
