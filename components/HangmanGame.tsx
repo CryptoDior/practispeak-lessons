@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { HANGMAN_SETS, HangmanSet } from '@/data/hangman';
+import { HANGMAN_SETS, HangmanItem, HangmanSet } from '@/data/hangman';
 import { SiteHeader, SiteFooter, ArrowLeftIcon } from '@/components/SiteChrome';
 
 const MAX_WRONG = 6;
@@ -26,24 +26,42 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+function SpeakerIcon({ className = 'w-5 h-5' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className={className} aria-hidden="true">
+      <path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5H4z" strokeLinejoin="round" />
+      <path d="M15.5 9.2a4 4 0 010 5.6M18 6.8a7.5 7.5 0 010 10.4" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function SceneImage({ image, scene, word }: { image: string; scene: string; word: string }) {
+  const [failed, setFailed] = useState(false);
+  useEffect(() => setFailed(false), [image]);
+  if (failed) {
+    return (
+      <div className="w-full h-full flex items-center justify-center text-4xl sm:text-5xl select-none" aria-label={word}>
+        {scene}
+      </div>
+    );
+  }
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img src={image} alt="" className="w-full h-full object-cover" onError={() => setFailed(true)} />;
+}
+
 /* ---------- Hangman drawing ---------- */
 function Gallows({ wrong }: { wrong: number }) {
   const s = '#334155';
   return (
     <svg viewBox="0 0 140 160" className="w-40 h-44 mx-auto" aria-hidden="true">
-      {/* gallows */}
       <line x1="20" y1="150" x2="110" y2="150" stroke={s} strokeWidth="4" strokeLinecap="round" />
       <line x1="40" y1="150" x2="40" y2="16" stroke={s} strokeWidth="4" strokeLinecap="round" />
       <line x1="40" y1="16" x2="95" y2="16" stroke={s} strokeWidth="4" strokeLinecap="round" />
       <line x1="95" y1="16" x2="95" y2="32" stroke={s} strokeWidth="4" strokeLinecap="round" />
-      {/* head */}
       {wrong >= 1 && <circle cx="95" cy="44" r="12" fill="none" stroke={s} strokeWidth="4" />}
-      {/* body */}
       {wrong >= 2 && <line x1="95" y1="56" x2="95" y2="96" stroke={s} strokeWidth="4" strokeLinecap="round" />}
-      {/* arms */}
       {wrong >= 3 && <line x1="95" y1="66" x2="80" y2="84" stroke={s} strokeWidth="4" strokeLinecap="round" />}
       {wrong >= 4 && <line x1="95" y1="66" x2="110" y2="84" stroke={s} strokeWidth="4" strokeLinecap="round" />}
-      {/* legs */}
       {wrong >= 5 && <line x1="95" y1="96" x2="82" y2="118" stroke={s} strokeWidth="4" strokeLinecap="round" />}
       {wrong >= 6 && <line x1="95" y1="96" x2="108" y2="118" stroke={s} strokeWidth="4" strokeLinecap="round" />}
     </svg>
@@ -52,7 +70,8 @@ function Gallows({ wrong }: { wrong: number }) {
 
 export default function HangmanGame() {
   const [set, setSet] = useState<HangmanSet | null>(null);
-  const [words, setWords] = useState<string[]>([]);
+  const [mode, setMode] = useState<'review' | 'play' | null>(null);
+  const [items, setItems] = useState<HangmanItem[]>([]);
   const [index, setIndex] = useState(0);
   const [guessed, setGuessed] = useState<Set<string>>(new Set());
   const [wrong, setWrong] = useState(0);
@@ -63,7 +82,7 @@ export default function HangmanGame() {
   const wrongRef = useRef(0);
   const statusRef = useRef<'playing' | 'won' | 'lost'>('playing');
 
-  const word = words[index] ?? '';
+  const word = items[index]?.word ?? '';
 
   const resetRound = () => {
     guessedRef.current = new Set();
@@ -74,14 +93,15 @@ export default function HangmanGame() {
     setStatus('playing');
   };
 
-  const loadWord = useCallback(() => {
-    resetRound();
-  }, []);
-
-  const startSet = (s: HangmanSet) => {
-    const w = shuffle(s.words);
+  const openSet = (s: HangmanSet) => {
     setSet(s);
-    setWords(w);
+    setMode(null);
+    setFinished(false);
+  };
+  const startPlay = () => {
+    if (!set) return;
+    setItems(shuffle(set.items));
+    setMode('play');
     setIndex(0);
     setScore(0);
     setFinished(false);
@@ -89,6 +109,7 @@ export default function HangmanGame() {
   };
   const backToSets = () => {
     setSet(null);
+    setMode(null);
     setFinished(false);
   };
 
@@ -120,15 +141,14 @@ export default function HangmanGame() {
     [word]
   );
 
-  // Physical keyboard
   useEffect(() => {
-    if (!set || status !== 'playing') return;
+    if (mode !== 'play' || status !== 'playing') return;
     const onKey = (e: KeyboardEvent) => {
       if (/^[a-zA-Z]$/.test(e.key)) guess(e.key);
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [set, status, guess]);
+  }, [mode, status, guess]);
 
   useEffect(() => {
     return () => {
@@ -137,13 +157,12 @@ export default function HangmanGame() {
   }, []);
 
   const nextWord = () => {
-    if (!set) return;
-    if (index + 1 >= words.length) {
+    if (index + 1 >= items.length) {
       setFinished(true);
       return;
     }
     setIndex(index + 1);
-    loadWord();
+    resetRound();
   };
 
   /* ---------- Set picker ---------- */
@@ -164,15 +183,18 @@ export default function HangmanGame() {
             <button
               key={s.id}
               type="button"
-              onClick={() => startSet(s)}
+              onClick={() => openSet(s)}
               className="group text-left bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)] hover:-translate-y-0.5 transition-all p-5 flex items-center gap-4 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
             >
+              <span className="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center flex-shrink-0 text-2xl">
+                {s.items[0].scene}
+              </span>
               <span className="min-w-0">
                 <span className="block font-playfair text-lg font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
                   {s.label}
                 </span>
                 <span className="block text-sm text-slate-500">{s.blurb}</span>
-                <span className="block text-xs text-slate-400 mt-0.5">{s.words.length} words</span>
+                <span className="block text-xs text-slate-400 mt-0.5">{s.items.length} words</span>
               </span>
             </button>
           ))}
@@ -181,9 +203,92 @@ export default function HangmanGame() {
     );
   }
 
+  /* ---------- Menu ---------- */
+  if (mode === null) {
+    return (
+      <Shell>
+        <div className="text-center mb-8">
+          <p className="text-[13px] font-semibold tracking-[0.18em] text-blue-600 uppercase mb-3">Topic</p>
+          <h1 className="font-playfair text-4xl sm:text-5xl font-semibold text-slate-900 mb-3">{set.label}</h1>
+          <p className="text-base text-slate-500 max-w-md mx-auto leading-relaxed">{set.blurb}</p>
+        </div>
+        <div className="max-w-xs mx-auto flex flex-col gap-3">
+          <button
+            type="button"
+            onClick={() => setMode('review')}
+            className="py-3.5 rounded-2xl border-2 border-slate-200 bg-white text-slate-700 text-[15px] font-semibold hover:border-blue-300 hover:text-blue-600 transition-all cursor-pointer inline-flex items-center justify-center gap-2"
+          >
+            📖 Review words first
+          </button>
+          <button
+            type="button"
+            onClick={startPlay}
+            className="py-3.5 rounded-2xl bg-blue-600 text-white text-[15px] font-semibold hover:bg-blue-700 active:scale-95 shadow-[0_4px_16px_rgba(37,99,235,0.28)] transition-all cursor-pointer inline-flex items-center justify-center gap-2"
+          >
+            ▶ Play
+          </button>
+        </div>
+      </Shell>
+    );
+  }
+
+  /* ---------- Review list ---------- */
+  if (mode === 'review') {
+    return (
+      <Shell>
+        <div className="text-center mb-6">
+          <p className="text-[13px] font-semibold tracking-[0.18em] text-blue-600 uppercase mb-2">
+            Review — {set.label}
+          </p>
+          <h1 className="font-playfair text-3xl sm:text-4xl font-semibold text-slate-900 mb-2">Learn the words</h1>
+          <p className="text-sm text-slate-500 max-w-md mx-auto">
+            Look at each picture and read the word. Tap the speaker to hear it, then play!
+          </p>
+        </div>
+        <div className="space-y-3">
+          {set.items.map((s, i) => (
+            <div
+              key={i}
+              className="flex items-center gap-4 bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-3"
+            >
+              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden bg-slate-100 border border-slate-200 flex-shrink-0">
+                <SceneImage image={s.image} scene={s.scene} word={s.word} />
+              </div>
+              <p className="flex-1 font-playfair text-xl sm:text-2xl text-slate-900 capitalize">{s.word}</p>
+              <button
+                type="button"
+                onClick={() => speak(s.word)}
+                aria-label={`Listen to: ${s.word}`}
+                className="w-11 h-11 rounded-full border border-slate-200 text-blue-600 flex items-center justify-center hover:bg-blue-50 hover:border-blue-300 transition-colors cursor-pointer flex-shrink-0"
+              >
+                <SpeakerIcon className="w-5 h-5" />
+              </button>
+            </div>
+          ))}
+        </div>
+        <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+          <button
+            type="button"
+            onClick={() => setMode(null)}
+            className="h-12 px-6 rounded-full border border-slate-200 bg-white text-slate-600 text-[15px] font-semibold hover:border-blue-300 hover:text-blue-600 transition-all cursor-pointer"
+          >
+            Back
+          </button>
+          <button
+            type="button"
+            onClick={startPlay}
+            className="h-12 px-8 rounded-full bg-blue-600 text-white text-[15px] font-semibold hover:bg-blue-700 active:scale-95 shadow-[0_4px_16px_rgba(37,99,235,0.28)] transition-all cursor-pointer"
+          >
+            Play →
+          </button>
+        </div>
+      </Shell>
+    );
+  }
+
   /* ---------- End screen ---------- */
   if (finished) {
-    const max = words.length * 10;
+    const max = items.length * 10;
     return (
       <Shell>
         <div className="max-w-md mx-auto text-center bg-white rounded-3xl border border-slate-200 shadow-[0_8px_30px_rgba(15,23,42,0.06)] p-10">
@@ -196,7 +301,7 @@ export default function HangmanGame() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <button
               type="button"
-              onClick={() => startSet(set)}
+              onClick={startPlay}
               className="h-12 px-6 rounded-full bg-blue-600 text-white text-[15px] font-semibold hover:bg-blue-700 active:scale-95 transition-all cursor-pointer"
             >
               Play again
@@ -215,17 +320,17 @@ export default function HangmanGame() {
   }
 
   /* ---------- Playing ---------- */
-  const total = words.length;
+  const total = items.length;
   const over = status !== 'playing';
   return (
     <Shell>
       <div className="flex items-center justify-between mb-5">
         <button
           type="button"
-          onClick={() => setSet(null)}
+          onClick={() => setMode(null)}
           className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-500 hover:text-blue-600 transition-colors cursor-pointer"
         >
-          <ArrowLeftIcon className="w-4 h-4" /> Topics
+          <ArrowLeftIcon className="w-4 h-4" /> Menu
         </button>
         <span className="text-sm font-medium text-slate-500">
           {index + 1} / {total}
