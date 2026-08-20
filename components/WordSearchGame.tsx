@@ -151,11 +151,14 @@ export default function WordSearchGame() {
   const [puzzle, setPuzzle] = useState<Puzzle | null>(null);
   const [foundWords, setFoundWords] = useState<Set<string>>(new Set());
   const [foundCells, setFoundCells] = useState<Set<number>>(new Set());
-  const [start, setStart] = useState<number | null>(null);
+  const [selLine, setSelLine] = useState<number[]>([]);
   const [flash, setFlash] = useState<{ cells: number[]; ok: boolean } | null>(null);
   const [clueCells, setClueCells] = useState<number[]>([]);
   const [score, setScore] = useState(0);
-  const startRef = useRef<number | null>(null);
+  const draggingRef = useRef(false);
+  const anchorRef = useRef<number | null>(null);
+  const selLineRef = useRef<number[]>([]);
+  const gridRef = useRef<HTMLDivElement>(null);
   const flashTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const clueTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -171,8 +174,10 @@ export default function WordSearchGame() {
     setPuzzle(generatePuzzle(set.items.map((i) => i.word)));
     setFoundWords(new Set());
     setFoundCells(new Set());
-    startRef.current = null;
-    setStart(null);
+    draggingRef.current = false;
+    anchorRef.current = null;
+    selLineRef.current = [];
+    setSelLine([]);
     setFlash(null);
     setClueCells([]);
     setScore(0);
@@ -191,51 +196,70 @@ export default function WordSearchGame() {
     };
   }, []);
 
-  const setStartCell = (v: number | null) => {
-    startRef.current = v;
-    setStart(v);
+  const setLine = (cells: number[]) => {
+    selLineRef.current = cells;
+    setSelLine(cells);
   };
 
-  const tapCell = useCallback(
-    (cell: number) => {
-      if (!puzzle) return;
-      const cur = startRef.current;
-      if (cur === null) {
-        setStartCell(cell);
-        return;
-      }
-      if (cell === cur) {
-        setStartCell(null);
-        return;
-      }
-      const line = lineBetween(cur, cell, puzzle.size);
-      if (!line) {
-        setStartCell(cell); // restart from the new cell
-        return;
-      }
-      const s = line.map((c) => puzzle.grid[c]).join('');
-      const rev = [...s].reverse().join('');
-      const match = set?.items.find(
-        (i) => !foundWords.has(i.word) && (i.word.toUpperCase() === s || i.word.toUpperCase() === rev)
-      );
-      if (match) {
-        setFoundWords((f) => new Set(f).add(match.word));
-        setFoundCells((fc) => {
-          const n = new Set(fc);
-          line.forEach((c) => n.add(c));
-          return n;
-        });
-        setScore((v) => v + 10);
-        speak(match.word);
-      } else {
-        setFlash({ cells: line, ok: false });
-        if (flashTimer.current) clearTimeout(flashTimer.current);
-        flashTimer.current = setTimeout(() => setFlash(null), 400);
-      }
-      setStartCell(null);
-    },
-    [puzzle, set, foundWords]
-  );
+  const cellFromPoint = (x: number, y: number): number | null => {
+    const el = typeof document !== 'undefined' ? (document.elementFromPoint(x, y) as HTMLElement | null) : null;
+    const c = el?.closest('[data-cell]')?.getAttribute('data-cell');
+    return c == null ? null : parseInt(c, 10);
+  };
+
+  const evaluate = (line: number[]) => {
+    if (!puzzle || line.length < 2) return;
+    const s = line.map((c) => puzzle.grid[c]).join('');
+    const rev = [...s].reverse().join('');
+    const match = set?.items.find(
+      (i) => !foundWords.has(i.word) && (i.word.toUpperCase() === s || i.word.toUpperCase() === rev)
+    );
+    if (match) {
+      setFoundWords((f) => new Set(f).add(match.word));
+      setFoundCells((fc) => {
+        const n = new Set(fc);
+        line.forEach((c) => n.add(c));
+        return n;
+      });
+      setScore((v) => v + 10);
+      speak(match.word);
+    } else {
+      setFlash({ cells: line, ok: false });
+      if (flashTimer.current) clearTimeout(flashTimer.current);
+      flashTimer.current = setTimeout(() => setFlash(null), 400);
+    }
+  };
+
+  const onGridPointerDown = (e: React.PointerEvent) => {
+    if (!puzzle) return;
+    const c = cellFromPoint(e.clientX, e.clientY);
+    if (c == null) return;
+    e.preventDefault();
+    draggingRef.current = true;
+    anchorRef.current = c;
+    setLine([c]);
+    try {
+      gridRef.current?.setPointerCapture(e.pointerId);
+    } catch {}
+  };
+  const onGridPointerMove = (e: React.PointerEvent) => {
+    if (!draggingRef.current || anchorRef.current == null || !puzzle) return;
+    const c = cellFromPoint(e.clientX, e.clientY);
+    if (c == null) return;
+    const line = lineBetween(anchorRef.current, c, puzzle.size);
+    if (line) setLine(line);
+  };
+  const onGridPointerUp = (e: React.PointerEvent) => {
+    if (!draggingRef.current) return;
+    draggingRef.current = false;
+    try {
+      gridRef.current?.releasePointerCapture(e.pointerId);
+    } catch {}
+    const line = selLineRef.current;
+    setLine([]);
+    anchorRef.current = null;
+    evaluate(line);
+  };
 
   const showClue = () => {
     if (!puzzle) return;
@@ -405,6 +429,7 @@ export default function WordSearchGame() {
   if (!puzzle) return <Shell>{null}</Shell>;
   const flashSet = new Set(flash?.cells ?? []);
   const clueSet = new Set(clueCells);
+  const selSet = new Set(selLine);
 
   return (
     <Shell>
@@ -449,40 +474,44 @@ export default function WordSearchGame() {
       {/* Letter grid */}
       <div className="bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-2 sm:p-3">
         <div
-          className="grid gap-0.5 sm:gap-1"
+          ref={gridRef}
+          onPointerDown={onGridPointerDown}
+          onPointerMove={onGridPointerMove}
+          onPointerUp={onGridPointerUp}
+          onPointerCancel={onGridPointerUp}
+          className="grid gap-0.5 sm:gap-1 touch-none select-none"
           style={{ gridTemplateColumns: `repeat(${puzzle.size}, minmax(0, 1fr))` }}
         >
           {puzzle.grid.map((letter, i) => {
             const isFound = foundCells.has(i);
-            const isStart = start === i;
+            const isSel = selSet.has(i);
             const isFlash = flashSet.has(i);
             const isClue = clueSet.has(i);
             return (
-              <button
+              <div
                 key={i}
-                type="button"
-                onClick={() => tapCell(i)}
+                data-cell={i}
                 className={`aspect-square rounded-md flex items-center justify-center font-bold text-[3.4vw] sm:text-base uppercase transition-colors cursor-pointer ${
                   isFound
                     ? 'bg-emerald-100 text-emerald-700'
+                    : isSel
+                    ? 'bg-blue-600 text-white'
                     : isFlash
                     ? 'bg-red-100 text-red-500'
                     : isClue
                     ? 'bg-amber-100 text-amber-600'
-                    : isStart
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-slate-50 text-slate-700 hover:bg-blue-50'
+                    : 'bg-slate-50 text-slate-700'
                 }`}
               >
                 {letter}
-              </button>
+              </div>
             );
           })}
         </div>
       </div>
 
       <div className="flex items-center justify-between mt-4">
-        <p className="text-sm text-slate-400">Tap the first &amp; last letter of a word.</p>
+        <p className="text-sm text-slate-400">Drag across the letters to find a word.</p>
         <button
           type="button"
           onClick={showClue}
