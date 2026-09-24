@@ -14,7 +14,7 @@ export const myCompany: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A part of a company. Each part has a different job.',
       example: 'I work in the marketing department. We look after all the campaigns.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/department.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/department.png',
     },
     {
       word: 'OFFICE',
