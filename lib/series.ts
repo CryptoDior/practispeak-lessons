@@ -240,7 +240,7 @@ export function getCatalog(): Category[] {
     const { match, ...plain } = series;
     return {
       ...plain,
-      image: `/images/category-${series.id}-header.png`,
+      image: `https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/category-${series.id}-header.png`,
       range: [lo, hi] as [number, number],
       lessons: summaries,
     };
