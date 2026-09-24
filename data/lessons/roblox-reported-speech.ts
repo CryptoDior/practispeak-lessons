@@ -180,7 +180,7 @@ export const robloxReportedSpeech: Lesson = {
       example: "Mia backed up Leo's account of the incident — she had seen the whole thing happen.",
       inGame: "Back up your teammate's report with evidence — screenshots are far more convincing than words alone.",
       inRealLife: "The data backed up everything she said in her presentation — the numbers were clear.",
-      imageSlug: '/images/roblox-reported-speech-back-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-reported-speech-back-up.png',
     },
     {
       phrase: "OPEN UP",
@@ -212,7 +212,7 @@ export const robloxReportedSpeech: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I heard something. Kai [[said:reported what someone communicated]] there had been a ban but did not have the full story. What actually happened?",
     },
     {
@@ -224,7 +224,7 @@ export const robloxReportedSpeech: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "They had a full week of warning and still did it? Did anyone [[ask:pose a question to]] the admin for an explanation of why it took so long to catch them?",
     },
     {
@@ -236,7 +236,7 @@ export const robloxReportedSpeech: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is impossible to believe. What did the admin say to that?",
     },
     {
@@ -248,7 +248,7 @@ export const robloxReportedSpeech: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Did anyone get a lighter sentence? It seems harsh if one of them genuinely did not realise.",
     },
     {
@@ -260,7 +260,7 @@ export const robloxReportedSpeech: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Honestly, that seems fair. He owned up, [[told:communicated directly to a specific person]] the truth, and kept his word. That is the right way to handle it. This whole situation [[tells:communicates directly to]] us one thing — read the rules every single time they are updated.",
     },
   ],

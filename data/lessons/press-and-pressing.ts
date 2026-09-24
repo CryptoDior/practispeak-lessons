@@ -33,7 +33,7 @@ export const pressAndPressing: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'To move quickly towards the ball carrier to put them under pressure. The action of pressing is called "a press."',
       example: 'Their striker pressed our centre-back as soon as he had the ball — he had no time to think.',
-      imageSlug: '/images/press-and-pressing-press.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/press-and-pressing-press.png',
     },
     {
       word: 'HIGH PRESS',
@@ -75,7 +75,7 @@ export const pressAndPressing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The moment when the ball changes possession — the team without the ball either presses immediately or drops back.',
       example: 'Their transition from defence to attack is very fast — they go from defending to shooting in five seconds.',
-      imageSlug: '/images/press-and-pressing-transition.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/press-and-pressing-transition.png',
     },
     {
       word: 'PRESSING TRAP',

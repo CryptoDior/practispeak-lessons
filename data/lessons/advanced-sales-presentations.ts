@@ -6,7 +6,7 @@ export const advancedSalesPresentations: Lesson = {
   subtitle: 'How to structure a presentation that persuades — not just informs',
   level: 'C1-C2',
   description: 'Most sales presentations contain good information and make no impact. The audience hears facts, follows the logic, and feels nothing in particular. A persuasive presentation is structurally different — it opens with a hook that creates a reason to listen, builds on a premise the audience already accepts, signposts the argument so the audience can follow it, and closes with a moment of emphasis that makes the key point impossible to forget. This lesson teaches the structural and linguistic techniques that turn a competent presentation into a persuasive one.',
-  heroImage: '/images/advanced-sales-presentations-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-sales-presentations-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const advancedSalesPresentations: Lesson = {
       partOfSpeech: 'noun',
       definition: 'An opening statement, question, or statistic designed to capture attention immediately and give the audience a reason to keep listening. In a sales presentation, the hook must establish relevance — why this matters to this audience, right now — not just be interesting in the abstract. A hook that lands makes the audience lean forward. A presentation without one loses the room in the first thirty seconds.',
       example: 'Riley opened her presentation to the executive team not with a slide about the product, but with a number: seven hundred and forty hours. That was how much time the sales team had spent in the last quarter on tasks that were not selling. Nobody in the room reached for their phone. The hook had done its job — now everyone wanted to know what came next.',
-      imageSlug: '/images/advanced-sales-presentations-hook.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-sales-presentations-hook.png',
     },
     {
       word: 'PREMISE',
       partOfSpeech: 'noun',
       definition: 'The foundational claim or assumption that the rest of your argument is built on. In a sales presentation, establishing a shared premise with the audience — a problem they already recognise, a trend they already believe — makes everything that follows more persuasive, because you are building on ground they have already accepted. If the audience does not share your premise, they will resist your conclusion before you reach it.',
       example: "Riley's presentation was built on a single premise: that sales productivity, not headcount, was the primary lever available to the company in the current hiring environment. She did not argue for this premise — she stated it as shared ground, and watched the CFO and CEO nod before she had reached the second slide. Everything that followed was a direct consequence of a premise they had already accepted.",
-      imageSlug: '/images/advanced-sales-presentations-premise.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-sales-presentations-premise.png',
     },
     {
       word: 'SIGNPOST',
       partOfSpeech: 'verb',
       definition: 'To make the structure of your argument explicit as you move through it — telling the audience where you are in the presentation, where you are going next, and why the sequence matters. Signposting prevents audiences from getting lost and allows them to follow the logic of the argument, not just absorb the content. The best signposts are invisible — they feel like natural transitions, not announcements.',
       example: 'After the opening, Riley signposted the rest of the presentation in one sentence: she was going to show them the cost of the current situation, then the size of the available gain, then exactly what it would take to capture it. Three sections, clearly named, in a sequence that built toward an obvious conclusion. The audience did not need to work out where the presentation was going — they could see the shape of the argument from the beginning.',
-      imageSlug: '/images/advanced-sales-presentations-signpost.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-sales-presentations-signpost.png',
     },
     {
       word: 'ASSERTION',
       partOfSpeech: 'noun',
       definition: 'A confident statement of a claim or position. In a persuasive presentation, assertions need to be earned — either by evidence that follows immediately, or by a premise the audience has already accepted. An unsupported assertion creates doubt rather than confidence. Understanding when to assert and when to prove is one of the core structural skills in persuasive selling.',
       example: 'Marcus had built his presentation around a series of assertions: the current process was inefficient, the tool would fix it, the ROI was strong. Each claim was true — but because none of them were supported, the executive team treated them all as sales language. Riley told him to keep the assertions but earn each one: state the claim, then immediately give the number or the example that makes it real. The same content, presented differently, landed completely differently.',
-      imageSlug: '/images/assertion.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/assertion.png',
     },
     {
       word: 'PACING',
       partOfSpeech: 'noun',
       definition: 'The speed and rhythm at which information is delivered in a presentation. Pacing is used strategically — slowing down at the most important moment gives it weight, while moving quickly through setup signals that what follows is more important. A presentation that maintains the same pace throughout gives the audience no way to know what matters. Varying pacing is one of the simplest tools for creating emphasis.',
       example: 'Riley had been moving through the deck at a steady pace — context, problem, size of opportunity — and then she stopped. She let the silence sit for three seconds before she said the number. The pacing made the number land harder than any emphasis in her slide could have. Three seconds of silence in a presentation is an eternity — and that is exactly the point.',
-      imageSlug: '/images/pacing.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/pacing.png',
     },
     {
       word: 'RHETORICAL',
       partOfSpeech: 'adjective',
       definition: 'Relating to language used for persuasive effect rather than to convey information or receive a literal answer. A rhetorical question is not asked to receive a response — it is asked to lead the audience to a conclusion they reach themselves, which is more persuasive than a conclusion delivered to them. Rhetorical language involves the audience in the argument rather than presenting at them.',
       example: 'Riley did not tell the executive team that their competitors were moving faster — she asked them how many companies in their sector they thought had already started this process. The question was rhetorical; she was not waiting for an answer. But the moment she asked it, every person in the room was thinking about the same thing, and when she gave the answer — two — the number carried the weight of a conclusion they had partly reached themselves.',
-      imageSlug: '/images/advanced-sales-presentations-rhetorical.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-sales-presentations-rhetorical.png',
     },
     {
       word: 'CADENCE',
       partOfSpeech: 'noun',
       definition: 'The rhythm and flow of spoken or written language — the pattern of long and short sentences, fast and slow delivery, dense and sparse content. In a sales presentation, cadence is used deliberately to create emphasis: a short sentence standing alone after a longer sequence draws attention by contrast. Varying cadence prevents monotony and signals what is important without the speaker having to say the words this is important.',
       example: 'Marcus had written his presentation in long, evenly structured paragraphs — the same sentence length throughout, the same density of information on every slide. Riley read it and said: you have no cadence. She pulled out his conclusion — the single most important claim in the whole presentation — rewrote it as one sentence, put it on a slide by itself, and told him to pause before he said it. That one sentence was now the most memorable moment in a thirty-minute presentation.',
-      imageSlug: '/images/advanced-sales-presentations-cadence.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-sales-presentations-cadence.png',
     },
     {
       word: 'THREAD',
       partOfSpeech: 'noun',
       definition: 'A connecting idea or theme that runs through an entire presentation, linking the opening to the close. A strong thread means that every section of the presentation is obviously connected to the core argument — the audience can always see how what they are hearing connects to what they heard at the beginning. A presentation without a thread feels like a collection of separate points. With one, it feels like an argument.',
       example: "Riley's thread was the same number she had opened with: seven hundred and forty hours. It appeared in the opening as a hook, in the middle as the cost being quantified, and in the close as the thing being reclaimed. By the time she finished, that number belonged to the audience — it was their problem, their opportunity, and the reason their decision mattered. The thread had done its job.",
-      imageSlug: '/images/thread.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/thread.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const advancedSalesPresentations: Lesson = {
       phrase: 'LET ME START WITH A QUESTION',
       definition: 'A rhetorical opening hook that immediately involves the audience before any information has been delivered. It signals that this will be a conversation, not a presentation — and it creates a frame of mind in which the audience is actively thinking rather than passively receiving. The question does not need to be answered by the audience; it needs to create the right mental state before the hook lands.',
       example: 'Let me start with a question. How much time did your sales team spend last quarter on tasks that were not actually selling? I am going to give you a number in a moment — but I want you to have your own estimate in your head first, because the gap between what you expect and what I am about to tell you is exactly the point of this conversation.',
-      imageSlug: '/images/let-me-start-with-a-question.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/let-me-start-with-a-question.png',
     },
     {
       phrase: 'THE REASON THIS MATTERS IS',
       definition: 'A transition phrase that connects a fact or claim to its consequence — the bridge between information and significance. In a persuasive presentation, facts without consequences are just data. The reason this matters is is the phrase that converts data into an argument by making explicit why the audience should care about what they just heard.',
       example: 'The team spent seven hundred and forty hours last quarter on non-selling tasks. The reason this matters is not the time itself — it is what that time was worth. At an average deal size of forty thousand and an average close rate of 12%, those hours represent approximately three and a half deals that did not happen. That is not a productivity problem. It is a revenue problem.',
-      imageSlug: '/images/the-reason-this-matters-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-reason-this-matters-is.png',
     },
     {
       phrase: 'WHAT THIS MEANS IN PRACTICE IS',
       definition: 'A transition from the abstract to the concrete — the move from a claim or a principle to a specific, observable example or outcome. Abstract arguments are easy to ignore; concrete examples are difficult to dismiss. What this means in practice is signals to the audience that what follows will make the preceding point real rather than theoretical.',
       example: 'We are saying the process can be reduced from fourteen days to three. What this means in practice is: a client who signs on a Monday is fully onboarded and generating value by Thursday of the same week. For your team, that means the first invoice goes out eleven days earlier than it does today — every time, for every new client.',
-      imageSlug: '/images/advanced-sales-presentations-what-this-means-in-practice-is.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-sales-presentations-what-this-means-in-practice-is.png',
     },
     {
       phrase: 'THE SINGLE MOST IMPORTANT THING I WANT YOU TO TAKE AWAY FROM THIS IS',
       definition: 'An emphasis device that signals the peak of the presentation — the moment at which the central claim is delivered with maximum weight. By naming it explicitly, the speaker gives the audience permission to remember this one thing above everything else, which is particularly useful in presentations where the audience will later need to represent the argument to others.',
       example: 'I have shown you the cost, the opportunity, and the mechanics of how we get there. The single most important thing I want you to take away from this is not the ROI number — it is the decision window. The companies in your sector that started this in Q3 are now past the point where you can close the gap easily. That window is what this decision is actually about.',
-      imageSlug: '/images/the-single-most-important-thing-i-want-you-to-take-away-from-this-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-single-most-important-thing-i-want-you-to-take-away-from-this-is.png',
     },
     {
       phrase: 'LET ME BRING THIS BACK TO',
       definition: 'A callback transition — the phrase that reconnects the current point to the thread established earlier in the presentation. Used after a detour into evidence, data, or an example, it reminds the audience of the core argument and shows that everything covered so far is connected. It is the technique that prevents a presentation from feeling like a list of separate points.',
       example: 'We have spent the last five minutes on the implementation detail — and I know that is not the most exciting part of this conversation. Let me bring this back to the number we started with: seven hundred and forty hours. The reason the implementation question matters is that the answer to it is what determines how quickly those hours start coming back to your team.',
-      imageSlug: '/images/let-me-bring-this-back-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/let-me-bring-this-back-to.png',
     },
     {
       phrase: 'SO THE QUESTION IS NOT WHETHER',
       definition: 'A reframing close that eliminates the binary yes/no question and repositions the decision as a question of timing or method. When a presentation closes with so the question is not whether, it signals that the case for the solution has been made — the only open question is how and when to move. It is one of the most powerful closing moves in a persuasive structure because it assumes the conclusion while appearing to invite discussion.',
       example: 'So the question is not whether this investment makes sense — we have been through the numbers and I think we all agree that it does. The question is whether you want to start reclaiming those seven hundred and forty hours in Q1, or whether you want to revisit this in Q3 after two more quarters of the same cost. That is the actual decision in front of you today.',
-      imageSlug: '/images/so-the-question-is-not-whether.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/so-the-question-is-not-whether.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'She is right — and that is a very useful distinction. A report presents information. An argument leads the audience to a conclusion. Can you walk me through your opening slide?',
     },
     {
@@ -130,7 +130,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is the right premise — but you are burying it in context instead of opening with it. Your CFO and CEO already know the market conditions. What they do not have yet is a reason to lean forward. You need a [[hook:an opening designed to capture attention and create a reason to keep listening]] before you give them any context at all.',
     },
     {
@@ -142,7 +142,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'A number. Let me start with a question: how much time did your sales team spend last quarter on tasks that were not actually selling? Your actual number is 740 hours. Open with that — nothing else on the slide, no title, just the number. Then say: the reason this matters is not the time itself, it is what that time was worth in deals that did not happen. Now they are leaning forward.',
     },
     {
@@ -154,7 +154,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Six sections is not a presentation — it is a reference document. You need to [[signpost:make the structure explicit so the audience can follow the argument]] in one sentence after the hook: I am going to show you the cost of the current situation, the size of the available gain, and what it takes to capture it. Three sections. That is the shape of a persuasive argument. The rest of your content goes inside those three sections — it does not replace the structure.',
     },
     {
@@ -166,7 +166,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly. And your thread is the 740 hours. It appears at the opening as the problem, in the middle as the cost being quantified, and in the close as the thing being reclaimed. Every section is an answer to the same question: what are we going to do about those 740 hours?',
     },
     {
@@ -178,7 +178,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'She should push back — because right now you are asserting it without earning it. Here is the fix: after you state the claim, say what this means in practice is, then give her a specific example. Not a statistic — an example. Tell her about a team of similar size that did this and show her exactly what happened to their pipeline in the first quarter. The [[premise:the foundational claim the argument is built on]] shifts from something you are claiming to something that already happened somewhere else.',
     },
     {
@@ -190,7 +190,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Next steps and a timeline are the mechanics of a decision — they are not the reason to make one. Before you get to next steps, you need an emphasis moment. Think about [[cadence:the rhythm of language, used to give weight to what matters most]] — everything you have said leads to one sentence. That sentence should stand alone. Pause before it. Then say: so the question is not whether this investment makes sense — the question is whether you want to start reclaiming those 740 hours in Q1 or in Q3. After that, you can give them the timeline.',
     },
     {
@@ -202,7 +202,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The content is the same — the structure is different. And structure is what determines whether your CFO and CEO leave the room thinking about your data or thinking about your conclusion. Right now they would remember the ROI number. After this rebuild, they will remember the question: do we want those 740 hours back in Q1 or in Q3? That is the [[rhetorical:language used for persuasive effect rather than literal information]] move that turns a report into a decision.',
     }
   ],

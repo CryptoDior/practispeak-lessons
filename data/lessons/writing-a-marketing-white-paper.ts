@@ -6,7 +6,7 @@ export const writingAMarketingWhitePaper: Lesson = {
   subtitle: 'How to plan, structure, and write a white paper that builds credibility, demonstrates expertise, and generates qualified leads',
   level: 'C1-C2',
   description: "A white paper is one of the most powerful content formats in B2B marketing. Done well, it positions a brand as a thought leader, educates a target audience, and moves prospects through a complex sales cycle. Done badly, it reads like a product brochure disguised as research — and sophisticated buyers can tell the difference immediately. This lesson teaches you the language and structure of effective white paper writing: how to frame an abstract, present original research, establish a credible methodology, draw defensible implications, and close with a call to action that converts readers into leads without undermining the intellectual credibility of the document.",
-  heroImage: '/images/writing-a-marketing-white-paper-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-a-marketing-white-paper-hero.png',
 
   vocabulary: [
     {
@@ -154,7 +154,7 @@ export const writingAMarketingWhitePaper: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The brief for the white paper is confirmed. We have the research — 2,400 B2B decision-makers, six industries, proprietary dataset. Now we need to build the paper. Marcus, let us start with the [[abstract:a short summary telling the reader the topic, finding, and implication]]. What is the one-sentence version of what this paper argues?",
     },
     {
@@ -166,13 +166,13 @@ export const writingAMarketingWhitePaper: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is a strong abstract claim — and it is contestable, which is what we need. The [[methodology:the explanation of how the research was conducted and how it can be trusted]] section is going to carry a lot of weight here. The claim is bold enough that readers will scrutinise the evidence base.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The methodology is solid — stratified random sample, six industries, independent fieldwork agency. The key is that we disclose everything: recruitment method, incentive structure, limitations. The moment someone finds a limitation we have not named, it becomes the story.",
     },
     {
@@ -184,13 +184,13 @@ export const writingAMarketingWhitePaper: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good. The [[thought leadership:content that advances the reader's understanding beyond what they already know]] here is not that brand trust matters — everyone knows that. It is the specific claim that it outperforms price in purchase intent, with a quantified effect size. That is the finding that earns press coverage.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And the [[executive summary:a condensed one-to-two page version for senior readers]] needs to work as a completely standalone document. If the CEO forwards it to her board, that is all they will read. The CTA in the executive summary should be the Trust Benchmark — not a sales conversation. The research has to earn the lead.",
     },
     {
@@ -202,7 +202,7 @@ export const writingAMarketingWhitePaper: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The [[call to action:the specific thing you want the reader to do after reading]] at the end needs to feel like chapter two of the intellectual journey. The benchmark offer uses our own research data to personalise the output — so the reader is getting more value from the same dataset. That is the right model.",
     },
   ],

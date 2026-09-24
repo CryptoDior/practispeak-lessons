@@ -72,7 +72,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
       partOfSpeech: 'verb',
       definition: "Gather items one by one, building up a full set over time.",
       example: "I have collected all twelve legendary weapon skins — the last one was hidden behind a waterfall.",
-      imageSlug: '/images/roblox-present-perfect-achievements-collect.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-present-perfect-achievements-collect.png',
     },
     {
       word: 'DISCOVER',
@@ -212,7 +212,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "No way! Every mission? Including the dungeon raids? Have you [[beaten:defeated]] the final boss?",
     },
     {
@@ -224,7 +224,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Nineteen is nothing — it took me forty-three. What about the legendary skins? Have you [[collected:gathered all of]] them yet?",
     },
     {
@@ -236,7 +236,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I [[discovered:found for the first time]] one behind the waterfall on the ice level — completely invisible unless you walk straight into it. Nobody told me. I found it by accident.",
     },
     {
@@ -248,7 +248,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "It took weeks — but yes. Once I [[mastered:reached full control of]] the slide timing, the whole level opened up. You [[earn:receive as a reward]] bonus points if you finish without a single fall.",
     },
     {
@@ -260,7 +260,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Then let's run it together tonight. I have [[unlocked:gained access to]] the shortcut that cuts forty seconds off the route — once you see it, the speedrun badge is yours.",
     },
   ],

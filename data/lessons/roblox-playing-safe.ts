@@ -14,7 +14,7 @@ export const robloxPlayingSafe: Lesson = {
       partOfSpeech: 'verb',
       definition: "Tell a moderator or adult about a player who is being mean, breaking rules, or making you uncomfortable.",
       example: "I reported that player for using bad language — the moderator will check it now.",
-      imageSlug: '/images/roblox-playing-safe-report.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-playing-safe-report.png',
     },
     {
       word: 'BLOCK',
@@ -183,7 +183,7 @@ export const robloxPlayingSafe: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, a player just asked for my real name and address in the chat. That felt weird.",
     },
     {
@@ -195,7 +195,7 @@ export const robloxPlayingSafe: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I did not answer. But they kept asking. I felt really uncomfortable. Should I [[report:tell a moderator about a player breaking the rules]] them?",
     },
     {
@@ -207,7 +207,7 @@ export const robloxPlayingSafe: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Done! I reported and [[blocked:stopped them from messaging me]] them. Will a [[moderator:a person who checks the game and enforces rules]] look at it?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxPlayingSafe: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Good. I only [[trust:believe someone is honest and safe]] players I know in real life. Is that the right approach?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxPlayingSafe: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Thank you. I feel [[safe:not in danger, protected from harm]] now. The [[rules:instructions everyone must follow]] exist to protect us — in Roblox and in real life!",
     },
     {

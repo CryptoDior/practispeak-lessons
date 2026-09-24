@@ -6,7 +6,7 @@ export const dataDrivenDecisions: Lesson = {
   subtitle: 'How to read, talk about, and present marketing data so it drives action — not just reporting',
   level: 'B1-B2',
   description: 'Marketing data is only useful if it leads to better decisions. In this lesson you will learn the vocabulary for discussing analytics in a B2B marketing context — how to read a dashboard, identify insights, and present your findings to a client or stakeholder in a way that is clear, honest, and actionable.',
-  heroImage: '/images/data-driven-decisions-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-decisions-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const dataDrivenDecisions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A visual summary of your most important marketing metrics in one place — giving you a quick overview of performance across channels.',
       example: 'Every Monday morning I check the dashboard first — it tells me in two minutes whether we are on track or whether something needs attention before I read the detail.',
-      imageSlug: '/images/data-driven-decisions-dashboard.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-decisions-dashboard.png',
     },
     {
       word: 'INSIGHT',
@@ -112,7 +112,7 @@ export const dataDrivenDecisions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Marcus — I am going to walk you through the Q3 analytics in a slightly different way than usual. Instead of going through every number, I want to focus on the three key [[insight:a specific meaningful conclusion drawn from data — what the number means and what to do about it]] findings and what they tell us to do in Q4.',
     },
     {
@@ -124,7 +124,7 @@ export const dataDrivenDecisions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The [[dashboard:overview of performance]] shows a mixed picture — strong on LinkedIn, below target on email, and one number in the [[conversion rate:the percentage of people who took the desired action]] data that I want to discuss. Let me start with the good news.',
     },
     {
@@ -136,7 +136,7 @@ export const dataDrivenDecisions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'When we [[drill down into:look at the detail beneath the top-level data]] the LinkedIn performance by [[segment:a specific subset of your audience grouped by shared characteristics]], the insight is significant. Manufacturing companies — your core target — are converting at 4.2 times the rate of logistics companies. That single [[data point:a single piece of information in the dataset]] changes everything about Q4 allocation. We should be concentrating almost all budget on manufacturing.',
     },
     {
@@ -148,7 +148,7 @@ export const dataDrivenDecisions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Three months of consistent data. I have been [[tracking:monitoring a metric consistently across multiple periods]] it since July and the pattern is clear. Against the industry [[benchmark:a reference standard used to evaluate performance]], manufacturing B2B companies in our sector convert at 2.1 times the average — our performance is well above that. This is a [[trend:consistent pattern over time]], not a single [[data point:one isolated number]].',
     },
     {
@@ -160,7 +160,7 @@ export const dataDrivenDecisions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I want to [[flag:bring attention to an issue]] that directly — 3.8% versus a target of 6%. But before you react to that number, look at the [[cohort:a group who share a common starting point]] data. The contacts who downloaded the case study in September and then received the email converted to discovery calls at 68%. That [[data point:specific piece of information]] tells me the list quality is strong — the issue is the call to action, not the audience. I am recommending we A/B test two CTAs next month before I [[take action on:make a specific decision based on an insight]] the broader campaign.',
     },
     {
@@ -172,7 +172,7 @@ export const dataDrivenDecisions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'First: approve shifting 70% of the paid budget to the manufacturing [[segment:specific subset of the audience]] only. Second: approve the A/B test on the email CTA. Both decisions are supported by three months of [[trend:consistent data direction]] data — and both have clear targets so we can measure whether they worked. We [[set a baseline:establish the starting measurement]] in Q3 — now Q4 is where we improve on it.',
     }
   ],

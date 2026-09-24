@@ -213,7 +213,7 @@ export const robloxAdjectiveNuance: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia — that match last night. How was it?",
     },
     {
@@ -225,7 +225,7 @@ export const robloxAdjectiveNuance: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That's a fine description — but you've got the full scale available. Let me show you what I mean. The first half — was it just 'bad'? Or worse?",
     },
     {
@@ -237,7 +237,7 @@ export const robloxAdjectiveNuance: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "So the coordination was [[dreadful:very bad indeed — much stronger than just bad]]. Not bad — dreadful. That tells me more about how it felt.",
     },
     {
@@ -249,7 +249,7 @@ export const robloxAdjectiveNuance: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That's [[astonishing:so surprising it is very hard to believe — much stronger than just surprising]] then. Not just impressive. And if the comeback completely surprised the audience — it was [[thrilling:exciting in a way that causes very strong emotions]].",
     },
     {
@@ -261,7 +261,7 @@ export const robloxAdjectiveNuance: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That's not just annoying. That's [[infuriating:so annoying that you feel very angry — much stronger than just annoying]]. And notice — it's 'absolutely infuriating,' not 'very infuriating.' INFURIATING is already at full intensity. Use ABSOLUTELY, UTTERLY, or COMPLETELY — not VERY.",
     },
     {
@@ -273,7 +273,7 @@ export const robloxAdjectiveNuance: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. 'Very tired' — fine. 'Absolutely [[exhausting:making you feel very tired — taking all your energy]]' — stronger and more natural. And when we finally qualify for the regional finals — you won't be just happy.",
     },
     {

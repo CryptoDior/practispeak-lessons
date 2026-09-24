@@ -6,7 +6,7 @@ export const storytellingInSales: Lesson = {
   subtitle: 'Problem → tension → solution → outcome: the structure that makes prospects listen',
   level: 'C1-C2',
   description: 'Data persuades the analytical brain. Stories persuade the decision-making brain. The most effective salespeople do not just describe what their product does — they tell a story about someone who had the problem the prospect has right now, what happened when it went unresolved, the moment things changed, and what life looked like after. This lesson teaches the four-part story structure and the language to deliver it naturally in meetings, emails, and objection-handling conversations.',
-  heroImage: '/images/storytelling-in-sales-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/storytelling-in-sales-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const storytellingInSales: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A structured account that moves through a beginning, middle, and end. In sales, a narrative is more persuasive than presenting facts in isolation — because it gives the listener a way to locate themselves in the story and imagine the outcome for their own situation.',
       example: 'Riley did not list the product features. She built a narrative: a specific company, a real problem, a moment of change, and a measurable result. By the end, Marcus had not been sold to — he had been shown what was possible.',
-      imageSlug: '/images/storytelling-in-sales-narrative.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/storytelling-in-sales-narrative.png',
     },
     {
       word: 'TENSION',
       partOfSpeech: 'noun',
       definition: 'The sense of risk, urgency, or unresolved conflict that makes a story worth hearing. Without tension, there is no reason for the listener to care about the outcome. Tension in a sales story comes from showing what was at stake if the problem was not solved.',
       example: 'Riley did not rush past the problem. She held the tension: the team was losing two hours per rep per day, the quarter-end was approaching, and the VP of Sales was asking for answers. That pressure made the solution feel necessary, not optional.',
-      imageSlug: '/images/tension.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tension.png',
     },
     {
       word: 'STAKES',
       partOfSpeech: 'noun',
       definition: 'What was at risk if the problem remained unresolved — the cost of inaction in human, financial, or strategic terms. High stakes are what make tension feel real. A story without visible stakes is a description of a problem, not a story about one.',
       example: "The stakes in Riley's story were specific: the company was about to lose its third enterprise client in a row to a competitor with faster response times. That detail made the problem impossible to ignore — because Marcus recognised the same pressure in his own business.",
-      imageSlug: '/images/stakes.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/stakes.png',
     },
     {
       word: 'TURNING POINT',
       partOfSpeech: 'noun',
       definition: 'The moment in a story where something changes — the decision, discovery, or intervention that shifts the trajectory from problem toward resolution. In a sales story, the turning point is usually when the solution enters, but it should feel like a story moment, not a product pitch.',
       example: "Riley described the turning point not as 'they implemented our software' but as 'the week their ops lead stopped spending Fridays building manual reports and started spending them coaching the team.' That shift — from describing a feature to naming a moment — made Marcus lean forward.",
-      imageSlug: '/images/turning-point.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/turning-point.png',
     },
     {
       word: 'RESOLUTION',
       partOfSpeech: 'noun',
       definition: "The point in a story where the tension is released and the outcome becomes clear. A strong resolution is specific and measurable — it shows what changed in terms the listener can evaluate. A vague resolution ('things got better') is almost as ineffective as having no resolution at all.",
       example: "Riley's resolution was precise: twelve weeks after implementation, the team's average response time dropped from four hours to forty minutes, and the client retention rate recovered by 18 percentage points. The resolution gave Marcus something concrete to take to his CFO.",
-      imageSlug: '/images/storytelling-in-sales-resolution.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/storytelling-in-sales-resolution.png',
     },
     {
       word: 'PROTAGONIST',
       partOfSpeech: 'noun',
       definition: 'The central character in a story — in sales, usually a customer or user whose experience the prospect can identify with. For a sales story to land, the prospect must be able to see themselves in the protagonist. A protagonist who is too different from your audience makes the story feel irrelevant.',
       example: 'Riley chose her protagonist carefully: a VP of Sales at a B2B software company with 25 reps, a fast-growth mandate, and a workflow problem that was invisible to the C-suite. Marcus had 22 reps. The similarity was not an accident.',
-      imageSlug: '/images/protagonist.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/protagonist.png',
     },
     {
       word: 'VIVID',
       partOfSpeech: 'adjective',
       definition: 'Producing strong, clear mental images through specific details — names, numbers, moments, and sensory descriptions — rather than generalisations. Vivid storytelling makes abstract value concrete. The more specific a detail, the more real the story feels, even to someone who was not there.',
       example: "Riley did not say 'the team was overwhelmed.' She said 'by Thursday afternoon, the support queue had 340 open tickets and the team lead had stopped answering Slack messages.' The specific number and the specific behaviour made the scene visible — which made it believable.",
-      imageSlug: '/images/vivid.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/vivid.png',
     },
     {
       word: 'RESONANCE',
       partOfSpeech: 'noun',
       definition: "The quality of connecting deeply with someone's own experience — the feeling that a story is describing something the listener recognises, not just something that happened to someone else. A story has resonance when the prospect says — out loud or internally — 'that is exactly what is happening to us.'",
       example: "Halfway through Riley's story, Marcus stopped taking notes. He was no longer evaluating the story — he was inside it. That moment of resonance — where the protagonist's situation became his situation — was worth more than any slide in the deck.",
-      imageSlug: '/images/resonance.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/resonance.png',
     }
   ],
 
@@ -72,31 +72,31 @@ export const storytellingInSales: Lesson = {
       phrase: 'LET ME TELL YOU ABOUT A CUSTOMER WHO',
       definition: 'The opening line that signals a story is coming. It shifts the register from pitch to conversation, invites the prospect to listen rather than evaluate, and positions what follows as evidence rather than assertion.',
       example: "'Let me tell you about a customer who had almost exactly the situation you are describing — because I think the way it resolved is relevant to the conversation we are having today.'",
-      imageSlug: '/images/let-me-tell-you-about-a-customer-who.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/let-me-tell-you-about-a-customer-who.png',
     },
     {
       phrase: 'THE PROBLEM WAS',
       definition: "The line that sets up the problem clearly and specifically — not as a category ('they had an efficiency issue') but as a concrete, named situation. The more specific the problem, the more the prospect recognises it.",
       example: "'The problem was that every time a new enterprise client onboarded, the same three people had to drop everything for two weeks. It was not a capacity problem — it was a process problem that looked like a capacity problem, and no one had separated the two.'",
-      imageSlug: '/images/the-problem-was.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-problem-was.png',
     },
     {
       phrase: 'WHAT MADE IT WORSE WAS',
       definition: 'The tension escalator — a second detail that deepens the urgency of the problem before the solution arrives. Used to hold the tension longer, which makes the turning point feel more earned when it comes.',
       example: "'What made it worse was that the board had just approved headcount for three new enterprise sales reps — which meant the onboarding problem was about to get significantly larger before anyone had fixed it.'",
-      imageSlug: '/images/what-made-it-worse-was.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-made-it-worse-was.png',
     },
     {
       phrase: 'THE TURNING POINT WAS WHEN',
       definition: 'The phrase that introduces the solution or intervention — but as a story moment, not a product feature. The turning point should describe a change in what someone was able to do, not a change in what software they were using.',
       example: "'The turning point was when the ops lead ran the first automated onboarding sequence and realised she had been doing manually in two weeks what the system did in four hours. That was the moment the conversation with leadership changed.'",
-      imageSlug: '/images/the-turning-point-was-when.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-turning-point-was-when.png',
     },
     {
       phrase: 'THREE MONTHS LATER',
       definition: "A time marker that creates narrative distance between the problem and the outcome, making the resolution feel earned rather than immediate. Can be adapted — 'six weeks later', 'by the end of Q3' — but always puts the outcome at a credible remove from the intervention.",
       example: "'Three months later, the average onboarding time had dropped from fourteen days to three. The three new sales reps the board had approved were fully supported. And the ops lead was spending her Fridays on process improvement instead of manual configuration.'",
-      imageSlug: '/images/three-months-later.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/three-months-later.png',
     },
     {
       phrase: 'WHAT THAT MEANT FOR THEM WAS',
@@ -118,7 +118,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I hear that. Let me tell you about a customer who said almost exactly the same thing in our first meeting — because I think what happened next is more relevant to you than anything in our product deck.',
     },
     {
@@ -130,7 +130,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Her name was Sofia — VP of Sales at a B2B software company, 22 reps, fast-growth mandate. The [[problem:the specific, concrete situation the protagonist was facing]] was that every new enterprise client required the same three people to drop everything for two weeks. It looked like a capacity issue. It was actually a process issue — but no one had separated the two.',
     },
     {
@@ -142,7 +142,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly. And what made it worse was that the board had just approved three new enterprise reps — which meant the problem was about to get larger before anyone fixed it. The [[stakes:what was at risk if the problem went unresolved]] were real: if the onboarding time did not come down, the new hires would be generating pipeline the team could not support.',
     },
     {
@@ -154,7 +154,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'So Sofia was at the same point. The [[tension:the urgency or risk that makes the problem feel real]] was building — Q2 pipeline was strong, but delivery capacity was not. The turning point was when her ops lead ran the first automated onboarding sequence and realised what she had been doing manually in two weeks, the system completed in four hours.',
     },
     {
@@ -166,7 +166,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The first two weeks were uncomfortable — I will not pretend otherwise. That is the honest part of the [[narrative:the structured story that moves a prospect from recognition to decision]]. But the discomfort was in learning the system, not in the system itself. By week three, the ops lead had rebuilt one process on her own without our help.',
     },
     {
@@ -178,7 +178,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Three months later, average onboarding time dropped from fourteen days to three. What that meant for Sofia was that the two new reps she had hired were fully supported, Q3 became their strongest quarter in two years, and the ops lead — for the first time — had time to build the process documentation the team had needed for eighteen months.',
     },
     {
@@ -190,7 +190,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That [[resonance:the moment when a prospect recognises their own situation in the story]] — when you hear the same words your own team has been saying — is usually the signal. Not that the product is right. That the problem is real and resolved. The question is just whether the resolution is the right shape for your team.',
     }
   ],

@@ -183,7 +183,7 @@ export const robloxTheBestGameEver: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, I just played the [[hardest:the most difficult of all]] obby on all of Roblox. Only 1% of players finish it — and I did it!",
     },
     {
@@ -195,7 +195,7 @@ export const robloxTheBestGameEver: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Four hours! It was the [[most exciting:creating the most thrill of all]] four hours I have ever had in any game. The last level was the [[hardest:most difficult]] — I almost gave up.",
     },
     {
@@ -207,7 +207,7 @@ export const robloxTheBestGameEver: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Level 1 — the [[easiest:simplest of all]] by far. Just one jump. After that it got much harder every time. The [[worst:lowest quality, least enjoyable]] part was level 8 — I failed 50 times!",
     },
     {
@@ -219,7 +219,7 @@ export const robloxTheBestGameEver: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Totally! Without a doubt that was the [[greatest:most remarkable of all time]] gaming moment of my life. Better than winning tournaments!",
     },
     {
@@ -231,7 +231,7 @@ export const robloxTheBestGameEver: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The [[most exciting:creating the most thrill]] day of my real life was when my football team won the final. The [[most popular:liked by more people than anything else]] sport AND the greatest feeling ever!",
     },
     {

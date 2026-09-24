@@ -6,7 +6,7 @@ export const ourCustomers: Lesson = {
   subtitle: 'How to talk about who your customers are',
   level: 'A1-A2',
   description: 'Learn simple words to talk about your customers — who they are, what they need, and how to describe them.',
-  heroImage: '/images/our-customers-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/our-customers-hero.png',
 
   vocabulary: [
     {
@@ -63,7 +63,7 @@ export const ourCustomers: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Something a person wants or has to have.',
       example: "We learn about our customers' needs before we make a campaign.",
-      imageSlug: '/images/our-customers-need.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/our-customers-need.png',
     }
   ],
 
@@ -112,73 +112,73 @@ export const ourCustomers: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Riley, who is your typical [[customer:a person who buys something from a company]]?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Our typical customer is a small or medium-sized business. They usually have a marketing [[team:a group of people who work together]] of two to five people.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Is there a difference between a customer and a [[client:a person or company that pays for a service]]?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good question. We usually call someone a client when they pay for an ongoing service. A customer might just buy once. You are a client, Dana!',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Ha — yes, I am. Who is your main [[target:the person or group you want to reach with your marketing]]?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Our main target is marketing managers and business owners. They are our main [[audience:the group of people a company wants to talk to]].',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Do you split them into different [[group:a number of people who have something in common]]s?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — we call them [[segment:a smaller group inside a bigger group of customers]]s. One segment is new businesses just starting out. Another is bigger companies that want to grow faster.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'And how do you find out what each group [[need:something a person wants or has to have]]s?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'We talk to our clients and [[consumer:a person who buys and uses a product]]s directly. We ask questions and look at data from past campaigns.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'That makes sense. So each campaign is made up of messages for a different group?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly. We focus on the right message for the right audience — that is the key to good marketing.',
     }
   ],

@@ -6,7 +6,7 @@ export const strategicMarketingOverview: Lesson = {
   subtitle: 'How to talk about marketing strategy — positioning, differentiation, and what makes your brand worth choosing',
   level: 'B1-B2',
   description: 'Every strong marketing campaign starts with a clear strategy. In this lesson you will learn the key vocabulary for talking about where your brand sits in the market, what makes it different, and how to read and discuss a strategic marketing brief — the document that drives every campaign decision.',
-  heroImage: '/images/strategic-marketing-overview-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-marketing-overview-hero.png',
 
   vocabulary: [
     {
@@ -42,7 +42,7 @@ export const strategicMarketingOverview: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The clear statement of what you offer, who it is for, and why it is valuable — the core of your marketing message.',
       example: 'Your value proposition needs to answer one question in under ten seconds: why should I choose you over everyone else?',
-      imageSlug: '/images/strategic-marketing-overview-proposition.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-marketing-overview-proposition.png',
     },
     {
       word: 'TARGET MARKET',
@@ -118,7 +118,7 @@ export const strategicMarketingOverview: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Of course. Positioning is the answer to this question: when a prospect thinks of your category, where do you sit in their mind? Are you the safe choice, the innovative choice, the affordable choice? Right now, TechFlow does not have a clear answer — and that is the problem we are solving.',
     },
     {
@@ -130,7 +130,7 @@ export const strategicMarketingOverview: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The brief recommends: 'The operational efficiency platform that pays for itself in 90 days.' It is specific, it is measurable, and it speaks directly to the CFO — your real decision-maker. That is [[differentiation:what makes your brand genuinely different from competitors]] — no competitor is making that promise.",
     },
     {
@@ -142,7 +142,7 @@ export const strategicMarketingOverview: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'It is narrow on purpose. Your [[competitive edge:the advantage that makes you harder to replace]] is strongest with manufacturing companies between 100 and 500 employees — that is where your case study results are best. We are not saying no to everyone else. We are saying yes loudly to one audience first.',
     },
     {
@@ -154,7 +154,7 @@ export const strategicMarketingOverview: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is exactly what the first three months are for. Before anyone buys, they need to know you exist. We are going to build [[brand awareness:how well the audience knows your brand]] through LinkedIn content, a targeted podcast campaign, and two industry events. By month four, the name TechFlow should be familiar to every operations director in your [[target market:the specific group you are trying to reach]].',
     },
     {
@@ -166,7 +166,7 @@ export const strategicMarketingOverview: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — your [[portfolio:past work that shows your capability]] is actually your strongest asset. Three case studies with hard numbers — 30% cost reduction, 90-day payback, 98% client retention. We are going to [[build on:use existing strengths as the foundation]] those results rather than talk in general terms. Numbers [[set you apart:demonstrate what makes you different]] faster than any brand statement.',
     },
     {
@@ -178,7 +178,7 @@ export const strategicMarketingOverview: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Every single line. That is why the brief exists — so every decision we make has a reason. If it does not move TechFlow towards that [[positioning:how the brand sits in the minds of the target audience]], we do not do it. Shall we go through the timeline?',
     }
   ],

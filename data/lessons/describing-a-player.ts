@@ -40,7 +40,7 @@ export const describingAPlayer: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Powerful and physical — able to hold off opponents and win challenges.',
       example: 'He is strong in the air and wins almost every header — the perfect target man.',
-      imageSlug: '/images/describing-a-player-strong.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-a-player-strong.png',
     },
     {
       word: 'CLINICAL',

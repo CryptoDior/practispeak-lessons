@@ -6,7 +6,7 @@ export const communityLedMarketing: Lesson = {
   subtitle: 'How to build, grow, and activate a brand community that drives sustainable growth',
   level: 'C1-C2',
   description: "The most durable brands are not built by advertising — they are built by communities of people who believe in what the brand stands for and tell others about it. Community-led marketing is a growth strategy that turns customers into advocates, advocates into ambassadors, and shared content into compounding brand equity. This lesson teaches the vocabulary, frameworks, and language you need to build and manage a brand community — and to make the case for it internally.",
-  heroImage: '/images/community-led-marketing-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/community-led-marketing-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const communityLedMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "First question: what does the [[community health:a measure of how active, engaged, and positive a community is]] look like? 80,000 members means nothing if the [[engagement rate:the percentage of community members who actively participate in a given period]] is 2%. Size is vanity — health is what matters.",
     },
     {
@@ -130,7 +130,7 @@ export const communityLedMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We are harvesting the community, not growing it. Give before you ask — ten acts of value for every one promotion. Resources, recognition, early access, conversations. What do members get from being here that they cannot get anywhere else?",
     },
     {
@@ -142,7 +142,7 @@ export const communityLedMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Find your top contributors — the 1% who are already giving. Who are our top contributors? Invest in them: [[co-creation:involving community members in creating products or content rather than just consuming them]] opportunities, early product access, [[ambassador:a customer who actively promotes the brand through genuine belief and engagement]] status. That 1% will pull in the next 5%.",
     },
     {
@@ -154,7 +154,7 @@ export const communityLedMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes — but only if the community is healthy enough to generate it. UGC is a signal that people are proud to be associated with your brand. You cannot manufacture it — you have to earn it. If the community health is low, focus on that first.",
     },
     {
@@ -166,7 +166,7 @@ export const communityLedMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "A well-managed forum is one of the most valuable assets you can build. It generates organic search traffic, reduces support costs, and creates the peer-to-peer connection that keeps members coming back. The community is the product — not a channel for your other products.",
     },
     {
@@ -178,7 +178,7 @@ export const communityLedMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Through the [[advocacy loop:a cycle in which satisfied customers share their experience, attract new customers, who then become satisfied and share in turn]] and the [[community flywheel:a self-reinforcing growth loop in which a community gets more valuable as more members join, which attracts more members]]. Build the advocacy loop — make it easy to share, reward the best advocates, measure referral. Over time, the flywheel spins itself.",
     }
   ],

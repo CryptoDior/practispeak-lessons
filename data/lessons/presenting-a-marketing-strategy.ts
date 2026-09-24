@@ -6,7 +6,7 @@ export const presentingAMarketingStrategy: Lesson = {
   subtitle: 'How to structure, deliver, and defend a full marketing strategy presentation to senior stakeholders',
   level: 'B1-B2',
   description: "Presenting a marketing strategy to senior stakeholders — a board, a leadership team, or a client — is one of the most important professional skills in marketing. It is not enough to have a good strategy. You need to present it clearly, justify every decision, and handle questions confidently. This lesson teaches you the vocabulary and phrases for building and delivering a full strategy presentation: how to structure your argument, present your evidence, and defend your recommendations under pressure.",
-  heroImage: '/images/presenting-a-marketing-strategy-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-hero.png',
 
   vocabulary: [
     {
@@ -42,14 +42,14 @@ export const presentingAMarketingStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: "A specific action or decision you are asking the audience to approve or implement. A recommendation is direct and clear — it says exactly what you want to happen. It is not a suggestion or an idea. A good recommendation is specific, actionable, and backed by a rationale and evidence.",
       example: "Marcus asked Riley to be more direct: You have spent 15 minutes giving context. What is your actual recommendation? Riley replied: My recommendation is that we reallocate 30% of the paid search budget to LinkedIn for Q4 and run a 12-week test with three defined success metrics. Marcus nodded: Good — now that is a recommendation. Specific, time-bound, and with a measurement plan. Dana added: And state who needs to approve it and by when.",
-      imageSlug: '/images/presenting-a-marketing-strategy-recommendation.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-recommendation.png',
     },
     {
       word: 'OBJECTIVE',
       partOfSpeech: 'noun',
       definition: "The specific, measurable goal the strategy is designed to achieve. Every strategy presentation should open with a clear objective — without it, the audience cannot assess whether the strategy is the right one. An objective answers: what are we trying to achieve, for whom, by when, and how will we measure it.",
       example: "Dana opened her strategy presentation: Before I take you through the plan, let me state the objective clearly — by the end of Q4, we want to generate 600 qualified leads for the enterprise sales team at a cost per lead of under £40. Everything I am about to present is designed to achieve that specific objective. Marcus appreciated the approach: Starting with the objective is the right way to open. It tells the audience exactly how to evaluate everything that follows.",
-      imageSlug: '/images/presenting-a-marketing-strategy-objective.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-objective.png',
     },
     {
       word: 'SLIDE',
@@ -154,13 +154,13 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Riley, you are presenting the Q4 marketing strategy to the board on Thursday. Marcus and I are going to play the board. Walk us through it as if it is the real thing.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good morning, everyone. I would like to take you through the Q4 marketing strategy — I will cover the [[objective:the specific, measurable goal the strategy is designed to achieve]], the rationale, the channel plan, the budget, and the success metrics. I will take questions at the end.",
     },
     {
@@ -172,19 +172,19 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Our objective is to generate 600 qualified leads for the enterprise sales team by the end of Q4 at a cost per lead of under £35. Everything in this presentation is built to achieve that specific number. The [[executive summary:the short section at the beginning that gives the key points of the strategy]] on slide one summarises the full argument — situation, strategy, expected outcome.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "(Stopping her) Before you go further — what is the [[key takeaway:the most important point the audience should remember]] from the executive summary? State it explicitly.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The key takeaway from this section is that our current approach is generating leads at 40% above our target cost and we have a tested plan to fix that within one quarter.",
     },
     {
@@ -196,19 +196,19 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "My recommendation is that we reallocate 25% of the paid search budget to LinkedIn for Q4 and run a structured 12-week test against three defined success metrics.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "(As board member) What is the [[rationale:the reasons behind the decision or recommendation]] for choosing LinkedIn over other channels?",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The rationale behind this is audience behaviour and cost. 78% of our target buyers research solutions on LinkedIn. Our Q2 LinkedIn pilot delivered a cost per lead 35% lower than paid search. The [[evidence:data or research that supports the recommendation]] is on slide four — three quarters of comparative data.",
     },
     {
@@ -220,13 +220,13 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "In response to your question — we have defined minimum performance thresholds at the six-week mark. If the campaign is not on track to hit the target cost per lead, we pause and bring three options back to the board. We will not continue spending without evidence of performance.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "(Out of role) That was a very strong [[Q&A:the question and answer section where the audience probes your recommendations]] response. You did not get defensive, you answered directly, and you showed the board that the plan has contingencies. Two things to improve — your [[slide:a single page in the presentation deck]] headlines. They should state conclusions, not topics. Change 'Q3 Performance' to 'Q3 performance fell 18% below target due to rising CPL in paid search'.",
     },
     {
@@ -238,7 +238,7 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Noted. I will update the slide headlines and add the competitive data to my backup slides. The key takeaway from this rehearsal is: structure is strong, evidence needs to be tighter, and Q&A preparation is working.",
     },
   ],

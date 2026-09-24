@@ -219,7 +219,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is a classic register problem. The words were [[appropriate:right and correct]] for a teammate — but completely wrong for a teacher. She has no [[context:situation that helps you understand the meaning]] for 'grinding' or 'guild'.",
     },
     {
@@ -231,7 +231,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "You need to [[rephrase:say the same thing again using different words]] for your [[audience:the person or people you are speaking to]]. 'I practise competitive gaming most evenings, and I also help organise and manage a team of players online.' That says exactly the same thing — in language she understands.",
     },
     {
@@ -243,7 +243,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "It does not need to sound like you in a game chat. It needs to sound like you talking to a teacher. That is [[code-switching:changing the way you speak depending on who you are talking to]] — and it is a skill. You switch automatically in your own language. In English, you need to practise it.",
     },
     {
@@ -255,7 +255,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Cut them out completely in formal situations. 'lol', 'brb', 'afk' — these are [[casual:relaxed and friendly — right for people you know well]] language. In a message to a teacher or official, they look careless. [[Tone down:make your language less casual and more careful]] everything before you send it. Read it back and ask: would I be happy if my teacher read this?",
     },
     {
@@ -267,7 +267,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Perfect. That is exactly right. Same you. Different words. That is code-switching.",
     },
   ],

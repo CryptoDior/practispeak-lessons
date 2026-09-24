@@ -6,7 +6,7 @@ export const programmaticAdvertising: Lesson = {
   subtitle: 'How to understand automated digital buying — and read, discuss, and brief a programmatic campaign with confidence',
   level: 'B1-B2',
   description: 'Programmatic advertising has become the dominant method of buying digital media — but the vocabulary around it is dense, technical, and full of acronyms that can make conversations with ad tech partners feel impenetrable. This lesson demystifies the core concepts: DSP, SSP, RTB, cookies, targeting parameters, and the mechanics of how ads are bought and delivered at scale. The goal is to give you enough language to read a programmatic overview brief, ask the right questions, and make informed decisions about your campaigns.',
-  heroImage: '/images/programmatic-advertising-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/programmatic-advertising-hero.png',
 
   vocabulary: [
     {
@@ -160,7 +160,7 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I want to walk you through the programmatic overview for the Q4 campaign. I'll try to keep this accessible — there's a lot of jargon in this space and I'd rather we focus on the decisions than the technology.",
     },
     {
@@ -172,13 +172,13 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "At a high level: every time a user loads a page with ad space, an automated auction takes place in real time. That's called [[RTB:Real-Time Bidding — the automated auction through which programmatic inventory is bought and sold in milliseconds]]. Our [[DSP:Demand-Side Platform — the technology advertisers use to buy digital inventory automatically across multiple publishers]] receives the auction signal, evaluates whether it matches our targeting criteria, and submits a bid. All of this happens in under 100 milliseconds.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "On the other side, the publisher uses an [[SSP:Supply-Side Platform — the technology publishers use to sell inventory to multiple buyers simultaneously]] to send that auction signal to many DSPs at once. The highest bid wins and the ad is served. That's the whole ecosystem in two sentences.",
     },
     {
@@ -190,13 +190,13 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Through [[targeting parameter:a specific criterion used to define which users should see an ad — demographics, behaviour, context, or audience segment]]s. For this campaign I'm proposing three stacked layers: first, anyone who has visited the pricing page in the last 30 days. Second, job title matching Head of Marketing, VP of Marketing, or CMO. Third, company size between 100 and 1,000 employees. That combination gives us a very precise audience.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The behavioural layer — knowing someone visited the pricing page — is built on [[cookie:a small file stored in a browser that tracks user behaviour across websites]] data. That cookie was placed when they visited your site. It's what enables retargeting.",
     },
     {
@@ -208,19 +208,19 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "For Q4 we're fine — the third-party cookie is being phased out by Chrome but not before mid-next year. But it's a strategic issue we need to address in Q1. We should start building a first-party data strategy now so we're not dependent on third-party cookies when they're gone.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Two other things we need to address in the campaign setup. First, [[viewability:the percentage of ads that are actually seen by a human — the industry standard is 50% of pixels visible for at least one second]]. Our Q3 viewability rate was 41%. The benchmark is 70%. We're wasting money on impressions that nobody sees.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I've set a viewability floor of 70% in the DSP — any placement that doesn't meet that standard will be automatically excluded from bidding. It increases cost per impression slightly, but the quality improvement is significant.",
     },
     {
@@ -232,13 +232,13 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "[[Frequency cap:a limit on how many times a single user sees the same ad within a given time period, to prevent ad fatigue]]. Our retargeting campaign currently has no cap. Some users in the pool are seeing this ad 15 to 20 times a week — that's ad fatigue territory. I'm setting the cap at five impressions per user per week.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And I want to confirm the [[brand safety:measures taken to ensure ads do not appear next to content that could damage the brand's reputation]] setup is in place before we go live. Six content categories are excluded, and there's a 250-keyword blocklist active in the DSP. Your ads won't appear next to anything inappropriate.",
     },
     {
@@ -250,7 +250,7 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly. We set the targeting parameters, the bid ceiling, the viewability floor, the frequency cap, and the brand safety settings. After that, the DSP handles the bidding decisions in real time. We review performance weekly and make strategic adjustments — but the day-to-day optimisation is automated.',
     }
   ],

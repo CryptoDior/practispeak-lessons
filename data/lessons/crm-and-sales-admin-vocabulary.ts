@@ -6,7 +6,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
   subtitle: 'How to talk about your pipeline, deals, and activity using the key language of CRM and sales administration',
   level: 'B1-B2',
   description: "A salesperson who can manage their CRM clearly is a salesperson their manager can trust. But CRM vocabulary is specific — the words 'lead', 'pipeline', 'deal', 'note', and 'status' each have precise meanings in a sales context, and using them correctly in team meetings, pipeline reviews, and manager conversations makes you sound professional and in control. This lesson teaches you the core language of sales administration so you can talk confidently about your pipeline, explain the status of your deals, and discuss your forecast — in English.",
-  heroImage: '/images/crm-and-sales-admin-vocabulary-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crm-and-sales-admin-vocabulary-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       partOfSpeech: 'noun',
       definition: "A potential customer who has shown some interest but has not yet been checked to see if they are a real sales opportunity. Not every lead becomes a deal.",
       example: "The salesperson added 12 new leads to the CRM after a week of outreach and inbound enquiries.",
-      imageSlug: '/images/crm-and-sales-admin-vocabulary-lead.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crm-and-sales-admin-vocabulary-lead.png',
     },
     {
       word: 'PIPELINE',
       partOfSpeech: 'noun',
       definition: "All the deals a salesperson is currently working on, at different stages of the sales process. A healthy pipeline has deals at many stages — not all near the close.",
       example: "The salesperson has nine active deals in the pipeline at different stages.",
-      imageSlug: '/images/crm-and-sales-admin-vocabulary-pipeline.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crm-and-sales-admin-vocabulary-pipeline.png',
     },
     {
       word: 'DEAL',
       partOfSpeech: 'noun',
       definition: "A specific sales opportunity with a named customer. Each deal has a value, a stage, a close date, and an owner. To close a deal means to win it.",
       example: "The biggest deal in the pipeline is worth $28,000 and is currently in the negotiation stage.",
-      imageSlug: '/images/crm-and-sales-admin-vocabulary-deal.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crm-and-sales-admin-vocabulary-deal.png',
     },
     {
       word: 'NOTE',
       partOfSpeech: 'noun',
       definition: "A record of what was discussed with a customer, saved in the CRM after every call or meeting. Good notes mean any colleague can continue a deal without asking you for information.",
       example: "The salesperson logged a note after the call with a summary, the agreed terms, and the next step.",
-      imageSlug: '/images/note.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/note.png',
     },
     {
       word: 'STATUS',
       partOfSpeech: 'noun',
       definition: "The current stage of a deal in the pipeline — for example 'proposal sent', 'negotiating', or 'closed won'. Always keep statuses up to date so your manager can forecast accurately.",
       example: "The status of the deal was updated to 'negotiation' after the revised proposal was sent.",
-      imageSlug: '/images/status.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/status.png',
     },
     {
       word: 'QUALIFY',
       partOfSpeech: 'verb',
       definition: "To check if a lead is a real sales opportunity — do they have the budget, authority, need, and right timeline? Qualifying leads early saves time.",
       example: "The salesperson qualifies every lead within 48 hours to decide if they are worth spending time on.",
-      imageSlug: '/images/crm-and-sales-admin-vocabulary-qualify.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crm-and-sales-admin-vocabulary-qualify.png',
     },
     {
       word: 'LOG',
       partOfSpeech: 'verb',
       definition: "To record a call, email, or meeting in the CRM. Logging keeps the CRM accurate and means the whole team has a shared picture of every customer relationship.",
       example: "The salesperson logs every call the same day with a summary, agreed next step, and follow-up date.",
-      imageSlug: '/images/log.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/log.png',
     },
     {
       word: 'FORECAST',
       partOfSpeech: 'noun',
       definition: "An estimate of how much revenue the salesperson expects to earn this quarter, based on the deals in the pipeline and how likely they are to close.",
       example: "The salesperson's forecast for the quarter is around $80,000, based on four deals that are likely to close.",
-      imageSlug: '/images/crm-and-sales-admin-vocabulary-forecast.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crm-and-sales-admin-vocabulary-forecast.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       phrase: "WHAT'S THE STATUS OF...?",
       definition: "The standard question in a pipeline review for asking about a specific deal. The answer should include the stage, recent activity, and next step.",
       example: "The manager asked 'What's the status of the Brightfield deal?' and the salesperson explained it was at negotiation stage.",
-      imageSlug: '/images/whats-the-status-of.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/whats-the-status-of.png',
     },
     {
       phrase: 'I LOGGED A NOTE AFTER...',
       definition: "The standard phrase for reporting that you recorded an interaction in the CRM. Always say when you logged it to confirm the CRM is up to date.",
       example: "The salesperson said 'I logged a note after the call on Tuesday with a summary of everything we agreed.'",
-      imageSlug: '/images/i-logged-a-note-after.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-logged-a-note-after.png',
     },
     {
       phrase: 'I HAVE [X] DEALS IN MY PIPELINE AT [STAGE]',
       definition: "The standard way to report your pipeline in a review. Always include the number of deals and the stage. Say 'in my pipeline' — never 'on my pipeline'.",
       example: "The salesperson reported 'I have nine deals in my pipeline — three at proposal stage and two in negotiation.'",
-      imageSlug: '/images/i-have-x-deals-in-my-pipeline-at-stage.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-have-x-deals-in-my-pipeline-at-stage.png',
     },
     {
       phrase: "I'VE MARKED IT AS [STATUS/PROBABILITY]",
       definition: "A phrase for reporting how you categorised a deal in the CRM — using a status label or a probability percentage.",
       example: "The salesperson said 'I've marked the Brightfield deal as 90% probability with a close date of Friday.'",
-      imageSlug: '/images/ive-marked-it-as-statusprobability.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ive-marked-it-as-statusprobability.png',
     },
     {
       phrase: 'ANYONE SHOULD BE ABLE TO PICK UP THE DEAL WITHOUT CALLING ME',
       definition: "The standard for good CRM notes — if your notes are complete, any colleague can continue a deal without contacting you. Used by managers to set the expectation for note quality.",
       example: "The manager said good CRM notes mean anyone should be able to pick up the deal without calling you.",
-      imageSlug: '/images/anyone-should-be-able-to-pick-up-the-deal-without-calling-me.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/anyone-should-be-able-to-pick-up-the-deal-without-calling-me.png',
     },
     {
       phrase: 'WHAT DOES YOUR FORECAST LOOK LIKE FOR THIS QUARTER?',
       definition: "The standard question about expected revenue in a pipeline review. The answer should include the number of deals expected to close and their total value.",
       example: "The manager asked 'What does your forecast look like?' and the salesperson said four deals would close for around $80,000.",
-      imageSlug: '/images/what-does-your-forecast-look-like-for-this-quarter.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-does-your-forecast-look-like-for-this-quarter.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I [[log:to record an activity or interaction in the CRM]]ged 12 new leads — six from inbound enquiries and six from my own outreach. I've already qualified eight of them as genuine prospects.",
     },
     {
@@ -130,7 +130,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I used the BANT framework — budget, authority, need, and timeline. The four I didn't qualify didn't have clear budget authority. There's no point keeping them in the pipeline if they can't approve a purchase.",
     },
     {
@@ -142,7 +142,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I have nine deals in my pipeline at different stages. Three are at proposal sent, two are in negotiation, and four are still at initial contact.',
     },
     {
@@ -154,7 +154,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That one is moving well. He's in the negotiation stage — I sent a revised proposal yesterday and he's getting internal finance approval this week. I logged a [[note:a record of what was discussed or agreed in a customer interaction, logged in the CRM]] after our call on Tuesday with all the details — agreed terms, next step, and follow-up date.",
     },
     {
@@ -166,7 +166,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Understood. I log every call, every email, and every meeting the same day — including the agreed next step and the follow-up date. It's already a habit.",
     },
     {
@@ -178,7 +178,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I have four deals I'm confident will close this quarter — total value around $80,000. The Brightfield deal is the biggest at $28,000. I've marked all four as 90% probability in the CRM.",
     },
     {
@@ -190,7 +190,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Two of them are likely to close next quarter — I've marked them as 'likely' and set a Q4 close date. The other three are still early stage — I've set them to 'in progress' and booked follow-up calls for next month.",
     },
     {
@@ -202,7 +202,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Already done — I updated the deal value as soon as we agreed the revised terms on Tuesday. The CRM always reflects the current position, not the original proposal.',
     }
   ],

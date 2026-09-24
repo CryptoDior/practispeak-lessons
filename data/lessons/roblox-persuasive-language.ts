@@ -64,7 +64,7 @@ export const robloxPersuasiveLanguage: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Very convincing and interesting — hard to ignore or argue against.",
       example: "The guild's progression system creates a compelling reason to return every day — there is always something to work toward.",
-      imageSlug: '/images/roblox-persuasive-language-compelling.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-persuasive-language-compelling.png',
     },
     {
       word: 'VERDICT',
@@ -78,7 +78,7 @@ export const robloxPersuasiveLanguage: Lesson = {
       partOfSpeech: 'verb',
       definition: "To tell someone something is good and they should try it.",
       example: "I would strongly recommend this game to anyone who enjoys competitive team play — it rewards skill and strategy equally.",
-      imageSlug: '/images/roblox-persuasive-language-recommend.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-persuasive-language-recommend.png',
     },
     {
       word: 'DESPITE',
@@ -171,7 +171,7 @@ export const robloxPersuasiveLanguage: Lesson = {
       example: "Every claim in the review is backed up with specific examples — nothing is stated without evidence.",
       inGame: "Do not make claims you cannot back up — if you say a game is the best, explain specifically why.",
       inRealLife: "She backed up her recommendation with three months of performance data — the case was unanswerable.",
-      imageSlug: '/images/roblox-persuasive-language-back-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-persuasive-language-back-up.png',
     },
     {
       phrase: "BUILD UP TO",
@@ -219,7 +219,7 @@ export const robloxPersuasiveLanguage: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "It is accurate — but it is not persuasive. You have described, but you have not argued. A good review does not just say what is good — it tells the reader why it matters and makes them feel something. Let us work on it.",
     },
     {
@@ -231,7 +231,7 @@ export const robloxPersuasiveLanguage: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Try: 'The gameplay experience is [[outstanding:exceptionally and noticeably better than everything else]] — every match feels different, and the skill ceiling is genuinely high.' Specific, evaluative, and strong. Not just 'good'.",
     },
     {
@@ -243,7 +243,7 @@ export const robloxPersuasiveLanguage: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Much better. And if there are weaknesses — say them. Credibility comes from honesty. 'The main [[drawback:a disadvantage or negative aspect]] is the loading time.' Then use [[nevertheless:in spite of that, the conclusion does not change]]: 'Nevertheless, once you are in, the experience is worth the wait.'",
     },
     {
@@ -255,7 +255,7 @@ export const robloxPersuasiveLanguage: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Different function. NEVERTHELESS starts a new sentence: 'The tutorial is weak. Nevertheless, it improves.' DESPITE starts a clause within a sentence: '[[Despite:without being affected by]] the weak tutorial, the overall experience is excellent.' NEVERTHELESS is for contrast. DESPITE is for acknowledgement without cancellation.",
     },
     {
@@ -267,7 +267,7 @@ export const robloxPersuasiveLanguage: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Always. Build toward it. Give the evidence, acknowledge the [[drawbacks:disadvantages or flaws]], show that they do not cancel the positives — then deliver a [[compelling:powerfully convincing]] verdict. 'I would [[recommend:advocate for as the right choice]] this without hesitation to anyone who takes competitive play seriously.' That is a verdict. Not 'I recommend it.'",
     },
   ],

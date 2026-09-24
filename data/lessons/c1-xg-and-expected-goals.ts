@@ -109,7 +109,7 @@ export const c1XgAndExpectedGoals: Lesson = {
       phrase: 'BACK UP',
       definition: 'To support something with evidence or data — to prove something is true using numbers.',
       example: '"His performance looked poor and the data backs that up — he created nothing all game."',
-      imageSlug: '/images/c1-xg-and-expected-goals-back-up.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/c1-xg-and-expected-goals-back-up.png',
     },
     {
       phrase: 'MEASURE UP',

@@ -6,7 +6,7 @@ export const schedulingASalesMeeting: Lesson = {
   subtitle: 'How to discuss availability, propose times, and confirm a meeting professionally',
   level: 'B1-B2',
   description: 'Booking a meeting sounds simple — but doing it badly loses deals. Ask for a meeting too vaguely and the customer never replies. Propose a time too rigidly and you create friction. Confirm without recapping and the wrong people show up at the wrong time. This lesson teaches you the language of scheduling — how to propose times diplomatically, navigate availability, and confirm a meeting so clearly that nothing is left to chance.',
-  heroImage: '/images/scheduling-a-sales-meeting-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const schedulingASalesMeeting: Lesson = {
       partOfSpeech: 'noun',
       definition: "The times when someone is free and able to meet or speak. In sales, you always check availability before proposing a specific time — it signals respect for the customer's schedule.",
       example: 'Always check availability before proposing a time — it shows you respect the other person\'s schedule and makes it easier to find something that works for both sides.',
-      imageSlug: '/images/scheduling-a-sales-meeting-availability.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-availability.png',
     },
     {
       word: 'SLOT',
       partOfSpeech: 'noun',
       definition: "A specific period of time reserved for a particular purpose — a meeting slot, a calendar slot, a time slot. Using 'slot' sounds more professional than saying 'time' or 'space'.",
       example: 'There is one slot left on Tuesday afternoon — let me know if that works for you and your team.',
-      imageSlug: '/images/scheduling-a-sales-meeting-slot.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-slot.png',
     },
     {
       word: 'TENTATIVE',
       partOfSpeech: 'adjective',
       definition: 'Not yet confirmed — provisionally agreed but still subject to change. A tentative meeting has been discussed but not officially confirmed by both sides.',
       example: "The meeting is tentative for now — I still need to check with a colleague before I can confirm the time.",
-      imageSlug: '/images/scheduling-a-sales-meeting-tentative.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-tentative.png',
     },
     {
       word: 'RESCHEDULE',
       partOfSpeech: 'verb',
       definition: 'To arrange a meeting for a different time — when the original time no longer works. Handle rescheduling gracefully — it happens often in B2B sales and is not a sign that the customer is disinterested.',
       example: 'Something came up on Monday, so the viewing had to be rescheduled — Wednesday at the same time still works if that suits you.',
-      imageSlug: '/images/scheduling-a-sales-meeting-reschedule.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-reschedule.png',
     },
     {
       word: 'AGENDA',
       partOfSpeech: 'noun',
       definition: 'A list of topics or items to be covered in a meeting. Sharing the agenda in advance shows professionalism and helps the customer know what to prepare.',
       example: 'A clear agenda was shared before the demo — platform overview, integration options, and onboarding path, so everyone knew exactly what to prepare.',
-      imageSlug: '/images/scheduling-a-sales-meeting-agenda.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-agenda.png',
     },
     {
       word: 'CONFIRM',
       partOfSpeech: 'verb',
       definition: 'To officially agree and finalise a meeting — making it certain rather than tentative. Always confirm a meeting by email so both sides have a written record of the time, date, and format.',
       example: 'Once both sides agreed on the time, the appointment was confirmed and a calendar invite followed within minutes.',
-      imageSlug: '/images/scheduling-a-sales-meeting-confirm.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-confirm.png',
     },
     {
       word: 'DURATION',
       partOfSpeech: 'noun',
       definition: 'How long a meeting will last. Always state the duration when scheduling — it helps the customer plan their day and signals that you will respect their time.',
       example: 'Always state the duration upfront — thirty minutes for the demo and fifteen for questions, so the client can plan their day around it.',
-      imageSlug: '/images/scheduling-a-sales-meeting-duration.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-duration.png',
     },
     {
       word: 'CALENDAR INVITE',
       partOfSpeech: 'noun',
       definition: "A digital meeting request sent through a calendar application — such as Google Calendar or Outlook. Sending a calendar invite confirms the meeting officially and puts it in the customer's diary automatically.",
       example: 'A calendar invite was sent to everyone on the team — the meeting landed in their diaries automatically and nobody had to chase for confirmation.',
-      imageSlug: '/images/scheduling-a-sales-meeting-calendar-invite.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-calendar-invite.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const schedulingASalesMeeting: Lesson = {
       phrase: 'WHAT DOES YOUR AVAILABILITY LOOK LIKE...?',
       definition: "The professional way to ask when someone is free. More polished than 'When are you free?' — it implies you are flexible and puts the customer's schedule first.",
       example: 'What does your availability look like next week? I want to find a time that works around you — I have flexibility on my side.',
-      imageSlug: '/images/scheduling-a-sales-meeting-what-does-your-availability-look-like.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-what-does-your-availability-look-like.png',
     },
     {
       phrase: 'WOULD [DAY] AT [TIME] WORK FOR YOU?',
       definition: 'The standard phrase for proposing a specific meeting time. Always propose two or three options — never just one — so the customer can choose without feeling boxed in.',
       example: 'Would Thursday at 2pm work for you, or is Friday morning better?',
-      imageSlug: '/images/scheduling-a-sales-meeting-would-day-at-time-work-for-you.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-would-day-at-time-work-for-you.png',
     },
     {
       phrase: 'LET ME CHECK MY CALENDAR',
       definition: 'A natural, professional phrase for pausing to verify your availability before confirming a time. It signals that you are organised and that your time is also valuable.',
       example: 'Let me check my calendar — yes, Thursday at 2pm works perfectly. I will hold that slot now and send a confirmation shortly.',
-      imageSlug: '/images/scheduling-a-sales-meeting-let-me-check-my-calendar.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-let-me-check-my-calendar.png',
     },
     {
       phrase: "I'LL PUT THAT IN THE DIARY",
       definition: "To officially note a meeting in your schedule. 'Diary' is the British English term for a personal planner or calendar. This phrase confirms the meeting is now reserved on your side.",
       example: "I'll put that in the diary right now — you will receive a calendar invite within the next few minutes to confirm the time.",
-      imageSlug: '/images/scheduling-a-sales-meeting-ill-put-that-in-the-diary.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-ill-put-that-in-the-diary.png',
     },
     {
       phrase: 'COULD WE PUSH THAT TO...?',
       definition: "A polite way to suggest moving a meeting to a later time or different day. 'Push' implies a slight delay rather than a full cancellation — it sounds flexible rather than unreliable.",
       example: 'A conflict has come up — could we push that to 3pm instead? Or if Thursday no longer works, I am also free on Friday afternoon.',
-      imageSlug: '/images/scheduling-a-sales-meeting-could-we-push-that-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-could-we-push-that-to.png',
     },
     {
       phrase: "I'LL SEND A CALENDAR INVITE TO CONFIRM",
       definition: 'The standard closing phrase after agreeing a meeting time. It tells the customer exactly what to expect next and creates a formal record of the agreed time.',
       example: "I'll send a calendar invite to confirm — it will go to you and your colleague within the next few minutes, along with a brief agenda.",
-      imageSlug: '/images/scheduling-a-sales-meeting-ill-send-a-calendar-invite-to-confirm.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scheduling-a-sales-meeting-ill-send-a-calendar-invite-to-confirm.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Marcus, I'd love to set up a demo for you and your team. What does your [[availability:the times when someone is free and able to meet]] look like this week or early next week?",
     },
     {
@@ -124,7 +124,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Of course — absolutely bring her along. I have a few [[slot:a specific period of time reserved for a purpose]]s available next week. Would Tuesday at 10am work for you both, or would Wednesday afternoon be better?',
     },
     {
@@ -136,7 +136,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Absolutely — let's put Tuesday at 10am as tentative. Let me check my [[calendar:a system for organising and tracking scheduled events]] as well. Yes, that works perfectly on my side.",
     },
     {
@@ -148,7 +148,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Plan for 45 minutes — about 30 for the demo and 15 for questions. I always make sure we finish within the time we agree.',
     },
     {
@@ -160,7 +160,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes — I'll send a brief agenda the day before. We'll cover the platform overview, the Salesforce integration, and the onboarding timeline. Is there anything specific you'd like me to add?",
     },
     {
@@ -172,7 +172,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Absolutely — I'll add a section on our security certifications and data storage. That's an important one.",
     },
     {
@@ -184,7 +184,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Of course — just let me know as soon as possible and we'll find another time. These things happen. I won't take it personally.",
     },
     {
@@ -196,7 +196,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Wonderful. I'll put that in the diary and send a [[calendar invite:a digital meeting request sent through a calendar application]] to you and Sarah within the next few minutes. Looking forward to it.",
     }
   ],

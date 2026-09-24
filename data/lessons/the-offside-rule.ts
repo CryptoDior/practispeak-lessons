@@ -75,7 +75,7 @@ export const theOffsideRule: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'When an attacker is exactly even with the last defender — which means the player is onside, not offside.',
       example: 'She was level with the last defender — you cannot be offside if you are level.',
-      imageSlug: '/images/the-offside-rule-level.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-offside-rule-level.png',
     },
     {
       word: 'LINE',

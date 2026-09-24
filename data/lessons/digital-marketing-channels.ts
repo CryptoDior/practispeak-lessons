@@ -6,7 +6,7 @@ export const digitalMarketingChannels: Lesson = {
   subtitle: 'How to choose the right mix of channels for your campaign — and explain your choices to a client',
   level: 'B1-B2',
   description: 'There are more marketing channels available than ever — and the hardest job is choosing the right ones. In this lesson you will learn the vocabulary for describing and comparing digital marketing channels, understand the difference between paid, earned, and owned media, and practise writing and presenting a channel strategy summary to a client.',
-  heroImage: '/images/digital-marketing-channels-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/digital-marketing-channels-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const digitalMarketingChannels: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Of course. The strategy is built around three types of media working together. [[Paid media:channels where you pay to place your message in front of an audience]] gives us speed and precision — we can get in front of your exact [[target market:the specific group you are trying to reach]] from day one. [[Earned media:attention you get for free because someone else chose to share or feature you]] gives us credibility — when someone else says you are good, it means more than when you say it yourself. And [[owned media:channels you fully control, like your email list and website]] gives us control — particularly the email list, which no algorithm can take away from us.',
     },
     {
@@ -130,7 +130,7 @@ export const digitalMarketingChannels: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is the honest challenge with [[omnichannel:a strategy where all channels work together for one consistent experience]] marketing. A prospect might see a LinkedIn ad, read a blog post, then open an email and book a call. Each [[touchpoint:any moment when a potential customer comes into contact with your brand]] played a role. We use last-touch [[attribution:working out which channel gets credit]] for reporting — the email gets the conversion credit — but we track the full journey so we know what started it.',
     },
     {
@@ -142,7 +142,7 @@ export const digitalMarketingChannels: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: '[[Organic:unpaid content reach]] LinkedIn content runs alongside the paid activity — three posts a week that build credibility and [[reach:the number of people who see your content]] the people who follow you. It takes longer to build, but it reinforces the [[paid media:paid advertising]] so prospects see TechFlow in multiple places. That repetition is what helps us [[cut through:make our message stand out]] in a crowded market.',
     },
     {
@@ -154,7 +154,7 @@ export const digitalMarketingChannels: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The LinkedIn campaign has an estimated reach of 40,000 people in your target persona — operations and supply chain directors in UK and DACH manufacturing. But I want to be honest: [[reach:number of people who see content]] alone is not the goal. We want the right 40,000 people to see it enough times — enough [[touchpoints:moments of contact with the brand]] — to move along the funnel. Seven to ten interactions before a B2B buyer is ready to talk.',
     },
     {
@@ -166,7 +166,7 @@ export const digitalMarketingChannels: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'We review at 30 days. If a channel is [[dropping off:losing prospects at a specific point]] or underperforming on cost per lead, we [[double down on:increase investment in]] what is working and reduce or pause what is not. We [[test:run a small pilot to validate results]] before we commit the full budget — so we are never locked in. The first month is always data-gathering. The real decisions come at week five.',
     }
   ],

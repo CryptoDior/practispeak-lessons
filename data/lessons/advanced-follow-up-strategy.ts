@@ -6,7 +6,7 @@ export const advancedFollowUpStrategy: Lesson = {
   subtitle: 'The language of strategic follow-up — how to recap with purpose, reactivate value without pressure, and give buyers the tools to move forward internally',
   level: 'C1-C2',
   description: "In complex B2B sales, the follow-up is not a formality — it is one of the most strategic communications in the cycle. A weak follow-up recaps what was discussed and asks if there are 'any questions'. A strong follow-up does three things: it reframes what was discussed in terms of value, not features; it surfaces and addresses whatever is creating internal hesitation; and it gives the buyer something concrete to take forward in conversations the salesperson will never be part of. This lesson teaches the language and structure of advanced follow-up strategy — how to send recaps that reinforce the value narrative, how to reactivate a deal that has gone quiet without applying pressure, how to provide decision support that makes the buyer's internal process easier, and how to agree on the next meaningful interaction rather than waiting passively for a response.",
-  heroImage: '/images/advanced-follow-up-strategy-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const advancedFollowUpStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: "A short summary of what was discussed and agreed in a previous conversation. A good recap also reminds the buyer of the key points and confirms what happens next.",
       example: "A good recap should bridge what was raised in the meeting to what was agreed — and clearly flag the one open question both sides still need to resolve.",
-      imageSlug: '/images/advanced-follow-up-strategy-recap.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-recap.png',
     },
     {
       word: 'VALUE REMINDER',
       partOfSpeech: 'phrase',
       definition: "A message that reconnects the buyer to the reason they were interested in the first place. It reminds them of the problem they wanted to solve and why the solution matters.",
       example: "A well-timed value reminder reconnects the buyer to the specific outcome they came for — not the product, but the conversion improvement they originally said they wanted.",
-      imageSlug: '/images/advanced-follow-up-strategy-value-reminder.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-value-reminder.png',
     },
     {
       word: 'DECISION SUPPORT',
       partOfSpeech: 'phrase',
       definition: "Information or materials you prepare to help the buyer get approval inside their organisation. It gives them what they need to explain the decision to others when you are not in the room.",
       example: "Good decision support gives the buyer a document with the ROI figures, the risk provisions, and the key commercial terms — so they can walk into the board meeting fully prepared.",
-      imageSlug: '/images/advanced-follow-up-strategy-decision-support.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-decision-support.png',
     },
     {
       word: 'REENGAGEMENT',
       partOfSpeech: 'noun',
       definition: "Getting back in contact with a buyer who has gone quiet. The best reengagement gives them a specific reason to respond — not just a general check-in.",
       example: "Effective reengagement gives the buyer a specific reason to respond — a new client result or a relevant industry development — not a generic check-in message.",
-      imageSlug: '/images/advanced-follow-up-strategy-reengagement.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-reengagement.png',
     },
     {
       word: 'MULTI-THREADING',
       partOfSpeech: 'noun',
       definition: "Building relationships with more than one person inside the buyer's organisation. This protects the deal if your main contact becomes unavailable or loses influence.",
       example: "Multi-threading means building relationships across procurement, IT, and finance — so the deal doesn't stall if one contact goes quiet or loses influence.",
-      imageSlug: '/images/advanced-follow-up-strategy-multi-threading.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-multi-threading.png',
     },
     {
       word: 'PIPELINE VELOCITY',
       partOfSpeech: 'phrase',
       definition: "How fast deals move through your sales process. When deals slow down or get stuck, pipeline velocity drops and targets become harder to reach.",
       example: "A deal stuck at the same stage for three weeks drags down pipeline velocity — finding the specific blocker at that stage is the first step to moving it forward.",
-      imageSlug: '/images/advanced-follow-up-strategy-pipeline-velocity.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-pipeline-velocity.png',
     },
     {
       word: 'TOUCH POINT',
       partOfSpeech: 'phrase',
       definition: "Any planned contact with a buyer — a call, email, meeting, or message. The best touch points add value to the buyer's decision, not just remind them you exist.",
       example: "Each touch point in a follow-up sequence should move the deal forward — a call, a document, or a meeting — with something the buyer didn't have before.",
-      imageSlug: '/images/advanced-follow-up-strategy-touch-point.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-touch-point.png',
     },
     {
       word: 'DEAL RISK',
       partOfSpeech: 'phrase',
       definition: "Anything that makes a deal less likely to close. Common risks include a key contact going quiet, a budget freeze, or a competitor gaining access to the account.",
       example: "Deal risk can come from several directions at once — a budget freeze, a key contact leaving, a market shift, or a blocker inside the buying organisation — and recognising which one is active early makes the difference.",
-      imageSlug: '/images/advanced-follow-up-strategy-deal-risk.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-deal-risk.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const advancedFollowUpStrategy: Lesson = {
       phrase: 'FOLLOWING OUR CONVERSATION ON [DATE], I WANTED TO SEND A BRIEF RECAP',
       definition: "A phrase used to open a follow-up message. It connects the email to a specific previous conversation and shows the recap is short and purposeful.",
       example: "Following our conversation on Tuesday, I wanted to send a brief recap of what we covered, what we aligned on, and the one open question we still need to resolve before moving forward.",
-      imageSlug: '/images/advanced-follow-up-strategy-following-our-conversation-on-date-i-wanted-to-send-a-brief-recap.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-following-our-conversation-on-date-i-wanted-to-send-a-brief-recap.png',
     },
     {
       phrase: "I'M NOT REACHING OUT TO PUSH — I WANT TO OFFER SUPPORT WITH WHATEVER YOU'RE WORKING THROUGH INTERNALLY",
       definition: "A phrase that tells the buyer you are calling to help, not to pressure them. It positions you as a resource, not a problem.",
       example: "I'm not reaching out to push — I wanted to share a document, a reference contact, and a cost summary that might help you navigate the approval process from the inside.",
-      imageSlug: '/images/advanced-follow-up-strategy-im-not-reaching-out-to-push-i-want-to-offer-support.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-im-not-reaching-out-to-push-i-want-to-offer-support.png',
     },
     {
       phrase: 'BASED ON WHAT YOU SHARED LAST TIME, THE MOST RELEVANT THING I CAN OFFER RIGHT NOW IS',
       definition: "A phrase that shows you remembered what the buyer told you and are connecting it to something specific and relevant now.",
       example: "Based on what you shared last time about pressure on delivery timelines, I've put together the performance data that speaks directly to that challenge — the results are from a comparable organisation in your sector.",
-      imageSlug: '/images/advanced-follow-up-strategy-based-on-what-you-shared-last-time.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-based-on-what-you-shared-last-time.png',
     },
     {
       phrase: "I'VE PUT TOGETHER A ONE-PAGE SUMMARY FOR YOUR [CFO/BOARD/TEAM] — HAPPY TO TALK THROUGH IT BEFORE YOU SHARE IT",
       definition: "A phrase used to offer a short, focused document the buyer can use in their internal conversations. Offering to review it together first gives both sides a chance to align before it is shared.",
       example: "I've put together a one-page summary with the key return figures, the risk provisions, and the implementation timeline — one document your team can take straight into the decision conversation.",
-      imageSlug: '/images/advanced-follow-up-strategy-ive-put-together-a-one-page-summary.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-ive-put-together-a-one-page-summary.png',
     },
     {
       phrase: 'SINCE WE LAST SPOKE, [SOMETHING RELEVANT HAS CHANGED] — I THOUGHT THAT WAS WORTH SHARING',
       definition: "A phrase used to introduce new information as a reason to reconnect. The update should be genuinely relevant to what the buyer cares about.",
       example: "Since we last spoke, a client who faced the same challenge completed their rollout and saw strong results in the exact metric they'd flagged as their biggest concern — I thought it was worth sharing before your next review.",
-      imageSlug: '/images/advanced-follow-up-strategy-since-we-last-spoke-something-relevant-has-changed.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-since-we-last-spoke-something-relevant-has-changed.png',
     },
     {
       phrase: "I DON'T WANT TO LOSE MOMENTUM — CAN WE AGREE ON WHAT THE RIGHT NEXT TOUCH POINT LOOKS LIKE?",
       definition: "A phrase used to agree on a clear next step before the conversation ends. It keeps the deal moving instead of letting it drift back into silence.",
       example: "I don't want to lose momentum — can we agree on a specific next step now, whether that's a call, a document review, or a demo, along with a date and what each side will have ready?",
-      imageSlug: '/images/advanced-follow-up-strategy-i-dont-want-to-lose-momentum.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-follow-up-strategy-i-dont-want-to-lose-momentum.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Marcus, thank you for picking up. I know you've been heads down on the quarter close — I wanted to call rather than send another email, because I'd rather have a proper conversation than a chain of messages.",
     },
     {
@@ -124,7 +124,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It wasn't my first question, but I'm glad to hear it. My first question was: what's actually happening on your side — and is there anything I can do to make the internal process easier?",
     },
     {
@@ -136,7 +136,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Both are addressable — and I'm glad you told me now rather than in week five of a stalled process. Can I take each one? The CFO question first.",
     },
     {
@@ -148,7 +148,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Based on what you've shared, the most relevant thing I can offer right now is a [[decision support:materials and information provided to help the buyer make the case internally — prepared specifically for the audience and conversation they're navigating]] document prepared specifically for your CFO. Not the full proposal — a one-page financial model at your exact pipeline volume: three-year ROI, total cost of ownership comparison with the alternative, and the risk mitigation provisions. Can I send that today, and would it be worth talking through it together before you share it?",
     },
     {
@@ -160,7 +160,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'll send it by end of today. Now — the data residency concern. This is worth addressing before it becomes a [[deal risk:any factor making a deal less likely to close on time or at the expected value — identified early, most risks are manageable; identified late, they become fatal]] in procurement. Can you connect me directly with your IT security lead? I want to send them our full technical documentation — data flow diagram, GDPR compliance certificate, and the specific residency architecture — before the formal vendor assessment.",
     },
     {
@@ -172,7 +172,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Thank you. I also want to offer something I should have done earlier in this process: a direct relationship with Sarah in Operations. I'm realising I've been single-threaded — relying entirely on you as my [[touch point:any intentional contact or interaction with a prospect — the most effective touch points add specific value rather than simply maintaining visibility]] into your organisation. That's not fair to you and it's not smart on my side.",
     },
     {
@@ -184,7 +184,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'll also send a [[recap:a concise, purposeful summary that reinforces the value narrative and confirms understanding — not just a record of what was said but a forward-facing document]] of this call — not just the action items, but a [[value reminder:a deliberate reactivation of the buyer's stated problem and the solution's outcomes at the right moment in the decision cycle]] of why we're both investing time in this. When you first described your challenge, it was about the gap between conversations and conversions. I want to make sure that problem — and what we can do about it — stays at the centre of this process rather than getting lost in procurement admin.",
     },
     {
@@ -196,7 +196,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Exactly — and that's my job to prevent. I don't want to lose the [[pipeline velocity:the speed at which a deal moves through the cycle — affected by the quality of decision support, the depth of stakeholder relationships, and the clarity of agreed next steps]] we had three weeks ago. Before we close — can we agree on the next specific interaction? Not 'speak soon' — a date, a format, and what we'd both want to have completed by then.",
     },
     {
@@ -208,7 +208,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Thursday at the same time as today — I'll send a calendar invite now. And Marcus — thank you for being honest about what was happening. A [[reengagement:the deliberate, strategic reconnection with a prospect who has gone quiet — the most effective reengagement leads with value rather than pressure]] built on transparency is far more productive than one built on pretending everything is on track.",
     }
   ],

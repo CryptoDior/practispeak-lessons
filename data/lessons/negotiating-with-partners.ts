@@ -6,7 +6,7 @@ export const negotiatingWithPartners: Lesson = {
   subtitle: 'How to use commercial negotiation language to reach agreements that work for both sides — without giving away more than you need to',
   level: 'B1-B2',
   description: "Whether you're negotiating a media partnership, an agency retainer, a co-marketing agreement, or a vendor contract, the ability to use precise commercial language makes you a stronger and more confident negotiator. This lesson teaches you the key vocabulary and phrases of business negotiation — leverage, concessions, counter-offers, and mutual benefit — and puts them to work in a simulated partner negotiation role-play. The goal is not to win at any cost, but to reach a deal that both sides can commit to.",
-  heroImage: '/images/negotiating-with-partners-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-with-partners-hero.png',
 
   vocabulary: [
     {
@@ -160,7 +160,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Thanks for making time today. Before we get into the specifics, I want to be transparent about where we stand. We're committed to making this partnership work — but the current proposal has a few terms we need to discuss.",
     },
     {
@@ -172,7 +172,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Three things: the price increase, the payment [[terms:the specific conditions of an agreement — payment schedule, contract length, scope, deliverables]], and the exclusivity clause. Let's take them one by one.",
     },
     {
@@ -184,7 +184,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I hear you. Here's what I can offer: I can move on the price if you can move on the contract length. Instead of a 12-month deal, we commit to 24 months. That gives you revenue certainty over a longer period — which I suspect is part of why the price increase was proposed in the first place.",
     },
     {
@@ -196,7 +196,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "At a 5% increase, not zero — I'm not asking you to freeze it. But 5% over 24 months is a better deal for you than 12% over 12 months in terms of total contract value. That's the [[anchor:in negotiation, the first offer put on the table that shapes the range of the discussion]] I'm setting.",
     },
     {
@@ -208,7 +208,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Net-30 is tight for us, but I understand the cash flow argument. What would need to happen for you to accept net-45? Is there a specific cost we could offer to offset that for you?',
     },
     {
@@ -220,7 +220,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Including the reporting add-on is something we could consider — that's a [[concession:something you give up in a negotiation to move the deal forward]] we're willing to make if the payment terms move. Let me note that as a conditional trade.",
     },
     {
@@ -232,7 +232,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "On the exclusivity clause, we're at our limit. Without at least sub-category exclusivity — so no direct competitors in the retail banking segment — the deal doesn't work for our stakeholders. That's a [[walk-away point:the point at which a deal is no longer acceptable]] for us.",
     },
     {
@@ -244,7 +244,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Exactly. That's not something we'll trade on. But within that constraint, I think there's a deal here that works for both of us. Let's find something that creates [[mutual benefit:an outcome that creates value for both parties]] and we can close today.",
     },
     {

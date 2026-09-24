@@ -8,7 +8,7 @@ export const gamingEthicsSociety: Lesson = {
   level: 'C1-C2',
   description:
     'Vocabulary for talking about ethical debates in gaming, the language of concession and counter-argument (acknowledging the other side without losing your point), and register-shifting — explored through loot boxes, online toxicity, representation, and accountability.',
-  heroImage: '/images/gaming-ethics-society-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/gaming-ethics-society-hero.png',
   externalUrl: '/gaming-ethics-society.html',
   vocabulary: [],
   phrasalVerbs: [],

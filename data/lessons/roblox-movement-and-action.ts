@@ -37,7 +37,7 @@ export const robloxMovementAndAction: Lesson = {
       partOfSpeech: 'verb',
       definition: "Move quickly to one side to avoid being hit by a player, projectile, or obstacle.",
       example: "I dodged left at the last second and the fireball flew right past me — perfect timing!",
-      imageSlug: '/images/roblox-movement-and-action-dodge.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-movement-and-action-dodge.png',
     },
     {
       word: 'SPRINT',
@@ -51,7 +51,7 @@ export const robloxMovementAndAction: Lesson = {
       partOfSpeech: 'verb',
       definition: "Come back into the game at a set location after your character has been eliminated.",
       example: "I respawned at the checkpoint — luckily I did not have to start the whole level again.",
-      imageSlug: '/images/roblox-movement-and-action-respawn.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-movement-and-action-respawn.png',
     },
     {
       word: 'COLLIDE',
@@ -206,7 +206,7 @@ export const robloxMovementAndAction: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, did you watch my stream last night? I finally beat the arena boss — the one that took me forty attempts.",
     },
     {
@@ -218,7 +218,7 @@ export const robloxMovementAndAction: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Pure instinct! I knew if I [[sprinted:ran at full speed in a short burst]] left I would get hit, so I [[dodged:moved quickly to the side]] right instead. The boss completely missed.",
     },
     {
@@ -230,7 +230,7 @@ export const robloxMovementAndAction: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I have died to that shockwave so many times. Every time I [[charged:moved fast and directly toward the target]] straight at the boss, it just knocked me back. I had to rethink everything.",
     },
     {
@@ -242,7 +242,7 @@ export const robloxMovementAndAction: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. I [[dashed:moved in a short burst of speed]] in from the flank, waited for the opening, then [[lunged:thrust forward suddenly to attack]] with the heavy attack. One clean hit in the weak point.",
     },
     {
@@ -254,7 +254,7 @@ export const robloxMovementAndAction: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Forty-three. But each time I [[respawned:came back to the game after being eliminated]], I learned something new. That is actually the best way to get good at any boss fight.",
     },
     {

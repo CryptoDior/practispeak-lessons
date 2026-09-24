@@ -79,7 +79,7 @@ export const robloxWordFormation: Lesson = {
       partOfSpeech: 'noun',
       definition: "A plan to reach a goal. Family: STRATEGY → STRATEGIC → STRATEGICALLY → STRATEGIST.",
       example: "The guild's strategy is built on strong defence — a strategic approach that has served them well across three seasons.",
-      imageSlug: '/images/roblox-word-formation-strategy.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-word-formation-strategy.png',
     },
     {
       word: 'CONTRIBUTE',
@@ -220,7 +220,7 @@ export const robloxWordFormation: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Please — I am always open to analysis. What did you notice?",
     },
     {
@@ -232,7 +232,7 @@ export const robloxWordFormation: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Interesting word choice — COMPETITIVELY is the adverb from COMPETE. You also have COMPETITION and COMPETITIVE. Notice how the same root gives you the noun, adjective, and adverb?",
     },
     {
@@ -244,7 +244,7 @@ export const robloxWordFormation: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Good. CREATE → CREATIVE → CREATION. And what about individual [[performance:how well someone carries out an action or role]]? I think yours was excellent — your [[contribution:the input or addition you make to a shared effort]] in round two changed the whole match.",
     },
     {
@@ -256,7 +256,7 @@ export const robloxWordFormation: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. And -IVE makes an adjective: CREATE → CREATIVE, COMPETE → COMPETITIVE, DOMINATE → [[dominant:being the strongest or most powerful]]. -LY then turns the adjective into an adverb: CREATIVELY, COMPETITIVELY, [[dominantly:in a way that is most powerful or influential]].",
     },
     {
@@ -268,7 +268,7 @@ export const robloxWordFormation: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. One [[achievable:possible to accomplish with effort]] goal: learn the root and the family. Every [[achievement:a thing accomplished through effort]] in word formation multiplies your vocabulary without doubling the effort.",
     },
   ],

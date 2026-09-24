@@ -6,7 +6,7 @@ export const semioticsAndVisualCommunication: Lesson = {
   subtitle: 'How to read and critique the meaning behind brand visuals, logos, and design choices',
   level: 'C1-C2',
   description: 'Every colour, shape, and image in a brand identity is saying something. Great marketers know how to read those messages — and how to design them with intention. Semiotics is the study of signs and meaning. This lesson gives you the vocabulary to analyse any visual identity, explain what it communicates, and write a professional critique that goes beyond "I like it" or "I don\'t like it".',
-  heroImage: '/images/semiotics-and-visual-communication-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/semiotics-and-visual-communication-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Start with what it actually shows — the [[denotation:the literal, factual meaning of something]]. Then ask what it makes you feel — the [[connotation:the emotional or cultural meaning attached to something]]. That is the whole framework.",
     },
     {
@@ -130,7 +130,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good. And at the connotative level?",
     },
     {
@@ -142,7 +142,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Exactly. Now look at the typeface. What does the [[visual register:the visual equivalent of tone — how formal or informal a brand looks]] say?",
     },
     {
@@ -154,7 +154,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Which communicates what to the viewer?",
     },
     {
@@ -166,7 +166,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is a real insight. In [[semiotics:the study of signs and how they create meaning]], when the [[signifier:the physical thing you see]] sends one message and the surrounding elements send another, the identity feels unresolved.",
     },
     {
@@ -178,7 +178,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Always. Every element — logo, colour, type, imagery — should be saying the same thing. When they pull in different directions, customers feel it, even if they can't explain why.",
     },
     {
@@ -190,7 +190,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Say what the overall effect is and whether it matches the brand strategy. Then name the one thing that needs to change. Keep it specific — one recommendation, clearly justified.",
     }
   ],

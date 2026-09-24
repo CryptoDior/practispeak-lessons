@@ -6,7 +6,7 @@ export const luxuryAndPremiumMarketing: Lesson = {
   subtitle: 'How to communicate the language of exclusivity, heritage, and desirability — and protect the value of a premium brand',
   level: 'C1-C2',
   description: "Luxury brands do not compete on price — they compete on meaning. The language of luxury is about aspiration, heritage, craftsmanship, and scarcity. It is about what a product represents, not just what it does. Marketing a luxury or premium brand requires a different set of communication principles: restraint over excitement, scarcity over availability, story over specification. This lesson gives you the vocabulary to talk confidently about luxury and premium marketing strategy — whether you work in luxury, aspire to, or simply need to understand how these brands communicate.",
-  heroImage: '/images/luxury-and-premium-marketing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/luxury-and-premium-marketing-hero.png',
 
   vocabulary: [
     {
@@ -160,13 +160,13 @@ export const luxuryAndPremiumMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Three pillars. First — [[exclusivity:the quality of being available only to a limited group, which creates desirability]] through reduced distribution and a maximum of 300 units per year. Second — [[heritage:the history and traditions of a brand that represent quality and expertise accumulated over generations]] — we need the founding story, the atelier, and the 175-year provenance in every piece of communication. Third — [[craftsmanship:the skill and care put into making something to an exceptionally high standard]] — we build the production story around the 40 hours per piece and the three artisans involved in each garment.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "What about the campaign brief? This tier needs different creative direction from the existing premium line.",
     },
     {
@@ -178,13 +178,13 @@ export const luxuryAndPremiumMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "On retail — we are reducing stockists from 200 to 40. [[Scarcity:the quality of being rare or in limited supply — deliberately created to increase perceived value]] is a positioning tool for this tier. The brand should never discount. And the waitlist — we are managing it as a [[brand desirability:how strongly people feel drawn to a brand and aspire to own it]] signal, not a supply failure.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And the seeding strategy? Who gets access first?",
     },
     {
@@ -196,13 +196,13 @@ export const luxuryAndPremiumMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "One final thing — the streetwear brand collaboration proposal. I want to flag it here: this collaboration risks diluting the luxury positioning unless we control production volume, creative direction, pricing, and distribution absolutely. If we cannot do that, we decline.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Agreed. The right collaboration elevates the brand. The wrong one takes years to recover from. We do not need the reach. We need the right associations.",
     },
   ],

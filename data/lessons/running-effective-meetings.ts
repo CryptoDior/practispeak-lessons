@@ -6,7 +6,7 @@ export const runningEffectiveMeetings: Lesson = {
   subtitle: 'How to chair, contribute to, and follow up on marketing meetings in professional English',
   level: 'B1-B2',
   description: 'Marketing teams live in meetings — campaign reviews, client briefings, kick-offs, and strategy sessions. In this lesson you will learn the vocabulary for facilitating and contributing to meetings professionally: how to set an agenda, manage the discussion, summarise decisions, and follow up with clear action items that actually get done.',
-  heroImage: '/images/running-effective-meetings-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/running-effective-meetings-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const runningEffectiveMeetings: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A planned list of topics to be discussed in a meeting — shared in advance so everyone arrives prepared.',
       example: 'The team sends the agenda 24 hours before every meeting so everyone can prepare.',
-      imageSlug: '/images/running-effective-meetings-agenda.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/running-effective-meetings-agenda.png',
     },
     {
       word: 'ACTION ITEM',
@@ -42,7 +42,7 @@ export const runningEffectiveMeetings: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Communication or action that happens after a meeting to check progress on what was agreed or to provide additional information.',
       example: 'A follow-up email is sent after every client meeting with action items, owners, and deadlines.',
-      imageSlug: '/images/running-effective-meetings-follow-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/running-effective-meetings-follow-up.png',
     },
     {
       word: 'STANDING ITEM',
@@ -112,7 +112,7 @@ export const runningEffectiveMeetings: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good morning everyone — we have 90 minutes and a clear [[agenda:the planned list of topics to be discussed]]. The most important item is number two — the Q4 channel allocation — that is a [[decision point:a moment where a specific choice needs to be made]] and we need an answer today. Marcus, I know you have a board meeting on Friday and need to present this. Everything else can be followed up if we run short on time.',
     },
     {
@@ -124,13 +124,13 @@ export const runningEffectiveMeetings: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Dana — would you like to [[take the floor:lead the discussion on a topic]] on the Q3 performance review? That is our first [[standing item:a topic that appears on the agenda of every meeting]].',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Of course. The headline: LinkedIn is performing significantly above [[benchmark:a reference standard for performance]], cost per lead is down 22%, and the manufacturing [[segment:a specific subset of the audience]] is converting at four times the rate of logistics. I will send the full detail in the [[minutes:written record of what was discussed and decided]] after the meeting — for now, the number everyone needs to know is that manufacturing leads cost us €89 each and convert at 4.2x. That is the foundation for the Q4 decision.',
     },
     {
@@ -142,7 +142,7 @@ export const runningEffectiveMeetings: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It is important — let me put it in the [[parking lot:a list of topics raised but off-agenda, to be addressed later]] for now. I want to make sure we [[stay on track:keep the meeting focused on the agenda]] and get to the Q4 decision. I will add the website as item one on next week's agenda and we can give it proper time. Is that okay?",
     },
     {
@@ -154,7 +154,7 @@ export const runningEffectiveMeetings: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good. The Q4 channel allocation [[decision point:moment requiring a specific choice]] — based on Dana's data, my recommendation is 80% manufacturing, 20% logistics, with the LinkedIn budget increasing to €10,000. We have three months of [[trend:a consistent direction in data over time]] data supporting this. Can we agree that today?",
     },
     {
@@ -166,19 +166,19 @@ export const runningEffectiveMeetings: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Excellent. Let me [[summarise:give a brief, clear overview of what was decided]] before we wrap up. Three decisions: Q4 channel allocation approved, LinkedIn budget at €10,000, influencer partnership with James Harlow confirmed. [[Action items:specific tasks with owners and deadlines]]: Dana — revised content calendar by Wednesday. Me — influencer brief by Friday. Marcus — board confirmation of budget by Tuesday. I will send the [[minutes:written record of the meeting]] and [[follow-up:communication after the meeting to confirm what was agreed]] email by end of today.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Before we close — should we [[circle back:return to a topic]] to the influencer strategy now or is that in the [[minutes:meeting record]] for next time?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'It is confirmed — James Harlow, two posts, one video. The brief is the next step and I will [[pick up:continue a discussion outside the meeting]] the detail with Dana offline this afternoon. That is everything on the [[agenda:list of meeting topics]] — thank you both. Let me [[wrap up:bring the meeting to a close]] — next meeting is 5 November, same time.',
     }
   ],

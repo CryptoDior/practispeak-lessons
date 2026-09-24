@@ -183,7 +183,7 @@ export const robloxReviewB1Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, the season is ending next week — it is the perfect time to look back and see how far we have come this block.",
     },
     {
@@ -195,7 +195,7 @@ export const robloxReviewB1Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The servers have been [[constantly:all the time, without stopping]] lagging this week — but even with that, I have [[levelled up:advanced to a higher rank]] twice in PvP.",
     },
     {
@@ -207,7 +207,7 @@ export const robloxReviewB1Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Fair point. Speaking of which — do you remember [[which:choosing from specific options]] lesson from Block 1 you found most useful?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxReviewB1Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "This game is genuinely [[immersive:pulls you completely into the experience]] — and learning the English that describes it properly makes the whole experience even richer.",
     },
     {
@@ -231,7 +231,7 @@ export const robloxReviewB1Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "You can stay in our study group [[as long as:on the continuing condition that]] you contribute something each session — that is the deal we agreed on from the start.",
     },
     {

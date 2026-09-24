@@ -6,7 +6,7 @@ export const advancedPresentationSkills: Lesson = {
   subtitle: 'How to handle difficult questions, manage objections, and maintain control of a Q&A without losing your position or your audience',
   level: 'C1-C2',
   description: "A great presentation is only half the job. The Q&A is where credibility is built or lost. A question you cannot answer, a challenge you handle badly, or an objection that derails your argument — these are the moments that define how an audience remembers you. Senior communicators have a toolkit for exactly these situations: how to reframe a challenge, bridge to a stronger answer, concede gracefully, deflect appropriately, and handle a hypothetical without being trapped by it. This lesson gives you the language to handle the hardest moments in a presentation with composure and authority.",
-  heroImage: '/images/advanced-presentation-skills-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-presentation-skills-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const advancedPresentationSkills: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: "To change the way a question or topic is described — presenting it from a different angle, context, or with different emphasis — without ignoring or evading the original point. Reframing is a legitimate and powerful technique for shifting a conversation to ground where you can answer more effectively.",
       example: "Dana reframed the market share decline as a category maturation story rather than a competitive loss. The board's response shifted from concern to curiosity. A reframe must be genuinely accurate — a dishonest reframe is spin, not insight.",
-      imageSlug: '/images/advanced-presentation-skills-reframe.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-presentation-skills-reframe.png',
     },
     {
       word: 'DEFLECT',
@@ -160,7 +160,7 @@ export const advancedPresentationSkills: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The worst question: 'You have missed the last two quarterly targets. Why should we believe this projection is any different?' That is the question that will come. It bundles a legitimate concern about execution with a broader challenge to your credibility.",
     },
     {
@@ -172,13 +172,13 @@ export const advancedPresentationSkills: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Good — you [[concede:acknowledge that a point is valid]] on Q3 clearly, which is right. Now the harder one: 'If you miss this quarter's target, what does that mean for the strategy?' That is a [[hypothetical:a question about an imagined scenario that has not happened]].",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "You do not answer the hypothetical directly. You [[deflect:redirect a question you cannot or should not answer]]: 'Rather than speculate on a scenario we are working hard to prevent, let me tell you what gives us confidence in this quarter.' Then you [[bridge:move from a difficult point to the message you want to deliver]] to the specific lead indicators that support the projection.",
     },
     {
@@ -190,13 +190,13 @@ export const advancedPresentationSkills: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "You use the [[reframe:presenting a topic from a different angle without evading the point]] technique. 'That is a fair challenge — let me reframe it.' And you separate what is true from what the framing implies. Or you use 'if I understand your concern correctly' — paraphrase the concern back to them, confirm it, and then answer the real question rather than the surface one.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And for the question you genuinely cannot answer — the acquisition speculation, the regulatory inquiry — use the structured deflection: what I can say is, what I am not in a position to comment on is. Give them something real and draw a clear, professional line around what you will not address. That is a position, not an evasion.",
     },
     {

@@ -6,7 +6,7 @@ export const strategicQuestioning: Lesson = {
   subtitle: 'How to use probing, clarifying, and assumption-challenging questions to guide a buyer to their own conclusions',
   level: 'C1-C2',
   description: "The best salespeople ask better questions than they give answers. Strategic questioning is not interrogation — it is a discipline of structured curiosity that uncovers the real problem beneath the stated one, surfaces implications the buyer hasn't yet articulated, and gently challenges assumptions that may be preventing them from seeing the full picture. This lesson teaches the language and structure of sophisticated discovery: how to probe without being intrusive, clarify without seeming lost, challenge assumptions without being confrontational, and lead a buyer to their own conclusions without telling them what to think.",
-  heroImage: '/images/strategic-questioning-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const strategicQuestioning: Lesson = {
       partOfSpeech: 'noun',
       definition: "A question that goes deeper than the first answer to find out what is really happening. Probing helps you get past surface-level information.",
       example: "Good probing goes beneath the surface answer to find what's actually driving the decision.",
-      imageSlug: '/images/strategic-questioning-probing.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-probing.png',
     },
     {
       word: 'CLARIFYING',
       partOfSpeech: 'noun',
       definition: "A question you ask to make sure you understand exactly what someone means. It turns a vague answer into something clear and specific.",
       example: "When a client says they want something 'better', a clarifying question turns that vague word into something you can actually respond to.",
-      imageSlug: '/images/strategic-questioning-clarifying.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-clarifying.png',
     },
     {
       word: 'ASSUMPTION',
       partOfSpeech: 'noun',
       definition: "Something you believe is true without checking. In sales, acting on untested assumptions can lead you to solve the wrong problem.",
       example: "The most dangerous assumptions are the ones no one in the room has thought to question yet.",
-      imageSlug: '/images/strategic-questioning-assumption.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-assumption.png',
     },
     {
       word: 'REFRAME',
       partOfSpeech: 'verb',
       definition: "To look at a problem from a different angle. A good reframe helps the buyer see their situation in a new way without telling them they are wrong.",
       example: "A well-timed reframe doesn't tell the buyer they're wrong — it offers a new angle that makes a different conclusion feel obvious.",
-      imageSlug: '/images/strategic-questioning-reframe.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-reframe.png',
     },
     {
       word: 'IMPLICATION',
       partOfSpeech: 'noun',
       definition: "The result of a problem if nothing changes. Showing the buyer the implication of staying the same makes the cost of not acting real and urgent.",
       example: "Spelling out the implication of a problem — what it costs the business month by month — turns a vague concern into something urgent.",
-      imageSlug: '/images/strategic-questioning-implication.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-implication.png',
     },
     {
       word: 'HYPOTHESIS',
       partOfSpeech: 'noun',
       definition: "An idea you think might be true, but have not confirmed yet. You share it with the buyer and ask them to agree or correct you.",
       example: "Starting with a hypothesis gives the conversation direction while still leaving room to be corrected.",
-      imageSlug: '/images/strategic-questioning-hypothesis.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-hypothesis.png',
     },
     {
       word: 'SOCRATIC',
       partOfSpeech: 'adjective',
       definition: "A questioning style that helps the other person find the answer themselves, instead of being told what to think. The goal is to guide, not to tell.",
       example: "The Socratic approach works best when you want the buyer to reach the conclusion through their own reasoning rather than being told.",
-      imageSlug: '/images/strategic-questioning-socratic.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-socratic.png',
     },
     {
       word: 'FUNNEL',
       partOfSpeech: 'noun',
       definition: "A questioning structure that starts broad and gets more specific. You begin with open questions and slowly narrow down to the key issue.",
       example: "Start broad with open questions, then use the funnel technique to narrow toward the specific issue you want to understand.",
-      imageSlug: '/images/strategic-questioning-funnel.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-funnel.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const strategicQuestioning: Lesson = {
       phrase: 'CAN YOU HELP ME UNDERSTAND WHAT YOU MEAN BY...?',
       definition: "A polite phrase used to ask someone to explain what they said more clearly. It is more respectful than asking 'What do you mean?'",
       example: "Can you help me understand what you mean by 'better value' — are you thinking about price, terms, or the overall package?",
-      imageSlug: '/images/strategic-questioning-can-you-help-me-understand-what-you-mean-by.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-can-you-help-me-understand-what-you-mean-by.png',
     },
     {
       phrase: "WHAT'S BEHIND THAT — WHAT LED YOU TO THAT VIEW?",
       definition: "A phrase used to ask why someone thinks or feels a certain way. It helps you find the real reason behind their position.",
       example: "What's behind that concern — is it something that came up in your last internal review, or feedback from someone on the team?",
-      imageSlug: '/images/strategic-questioning-whats-behind-that-what-led-you-to-that-view.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-whats-behind-that-what-led-you-to-that-view.png',
     },
     {
       phrase: "I'D LIKE TO CHALLENGE THAT ASSUMPTION GENTLY — HAVE YOU CONSIDERED...?",
       definition: "A polite way to question something the buyer believes without making them feel wrong. It opens up a new way of thinking.",
       example: "I'd like to challenge that assumption gently — the evidence we're seeing actually points in a different direction.",
-      imageSlug: '/images/strategic-questioning-id-like-to-challenge-that-assumption-gently.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-id-like-to-challenge-that-assumption-gently.png',
     },
     {
       phrase: "IF THAT'S THE CASE, WHAT DOES THAT MEAN FOR...?",
       definition: "A phrase used to ask the buyer what happens next if the problem stays the same. It makes the cost of not acting feel real.",
       example: "If that pattern continues for another six months, what does that mean for your team's end-of-year target?",
-      imageSlug: '/images/strategic-questioning-if-thats-the-case-what-does-that-mean-for.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-if-thats-the-case-what-does-that-mean-for.png',
     },
     {
       phrase: 'WHAT WOULD SUCCESS LOOK LIKE FROM YOUR PERSPECTIVE?',
       definition: "A question that asks the buyer to describe what a good result looks like for them. It shifts the conversation from problems to outcomes.",
       example: "Before I put anything forward, what would success look like from your perspective — how would you know in twelve months that this had worked?",
-      imageSlug: '/images/strategic-questioning-what-would-success-look-like-from-your-perspective.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-what-would-success-look-like-from-your-perspective.png',
     },
     {
       phrase: 'IS THAT A FIXED CONSTRAINT, OR IS THERE SOME FLEXIBILITY THERE?',
       definition: "A question that checks whether a limit the buyer mentioned is real or can be changed. Many constraints in sales are flexible.",
       example: "Is that a fixed constraint, or is there some flexibility there if the right conditions were in place?",
-      imageSlug: '/images/strategic-questioning-is-that-a-fixed-constraint-or-is-there-some-flexibility-there.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-is-that-a-fixed-constraint-or-is-there-some-flexibility-there.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I appreciate you sharing that context. Before I say anything about what we do, I'd like to ask a few questions to make sure I understand your situation properly — would that be alright?",
     },
     {
@@ -130,7 +130,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "When you say you're not seeing the results you need — can you help me understand what you mean by that specifically? Are we talking about revenue performance, conversion rates, team development, or something else?",
     },
     {
@@ -142,7 +142,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Understood. And when they're not hitting target — what's the breakdown? Is it a pipeline volume problem, a [[conversion:moving a prospect through each stage of the funnel — measured as a percentage]] problem, a deal size problem, or some combination of those?",
     },
     {
@@ -154,7 +154,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's useful. Can you tell me more about where in the process the [[conversion:the rate at which prospects move from one stage to the next]] breaks down? Is it at demo stage, proposal stage, or during negotiation?",
     },
     {
@@ -166,7 +166,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'd like to challenge that [[assumption:a belief taken for granted without verification — a conclusion drawn without sufficient evidence]] gently — are you confident that proposals going quiet means the product isn't compelling? Or could it be that the proposals aren't being written to speak to what the buyer actually cares about most?",
     },
     {
@@ -178,7 +178,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'And what would it mean for your team if that [[assumption:a belief taken for granted without verification]] turned out to be wrong? If the issue is proposal quality rather than product quality, what changes about how you approach solving it?',
     },
     {
@@ -190,7 +190,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly. And that leads to my [[hypothesis:a working proposition to be tested through questioning rather than asserted as fact]] — do your highest-performing reps write proposals differently from the rest? Have you ever compared them systematically?',
     },
     {
@@ -202,7 +202,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's the first thing I'd want to understand — what the data shows when you compare winning and losing proposals side by side. What's your instinct about what we'd find?",
     },
     {
@@ -214,7 +214,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "If that's what the data confirms — and I suspect it will — what does that [[implication:the consequence or downstream impact of a problem]] mean for how you would train the team? And what would it mean not to address it for another twelve months?",
     }
   ],

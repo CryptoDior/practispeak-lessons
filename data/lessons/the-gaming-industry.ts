@@ -7,7 +7,7 @@ export const theGamingIndustry: Lesson = {
   level: 'C1-C2',
   description:
     'Industry vocabulary, the language of corporate distance (passive voice and impersonal phrasing), and register-shifting — explored through monetization, crunch culture, layoffs, consolidation, and franchise fatigue.',
-  heroImage: '/images/the-gaming-industry-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-gaming-industry-hero.png',
   externalUrl: '/the-gaming-industry.html',
   vocabulary: [],
   phrasalVerbs: [],

@@ -6,7 +6,7 @@ export const globalVsLocalMarketing: Lesson = {
   subtitle: 'How to adapt campaigns across cultures and markets without losing brand consistency',
   level: 'B1-B2',
   description: "When a company sells products in multiple countries, marketing cannot be identical everywhere. Language, culture, humour, values, and buying habits all vary. The best global brands understand this — they have a consistent core identity but adapt how they communicate to fit each local market. This lesson teaches you the vocabulary and principles behind global and local marketing strategy.",
-  heroImage: '/images/global-vs-local-marketing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/global-vs-local-marketing-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I would recommend a [[glocal:a strategy where the brand is global and consistent but execution is adapted locally]] approach. The core brand identity and campaign message stay the same in every market, but the execution — tone, imagery, channels, and examples — gets adapted for each [[local market:a specific country or region where a company operates]].",
     },
     {
@@ -130,7 +130,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Everything around the expression of that promise. Tone of voice, specific copy, imagery, choice of media channels, and the cultural references we use. The core message stays the same, but how we say it and show it changes.",
     },
     {
@@ -142,7 +142,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Germany is a high-context culture that values precision and quality. The playful, aspirational tone of the current campaign does not translate well into German. We need to be more factual, more detailed, and lead with product quality and reliability rather than lifestyle.",
     },
     {
@@ -154,7 +154,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We are using a native German copywriter, not a translator. The headline pun in English simply does not exist in German — we need someone who thinks in German to write an equivalent that works culturally. A literal translation would be meaningless.",
     },
     {
@@ -166,7 +166,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Correctly so. The campaign currently has a very direct, confident tone — 'We are the best.' That reads as boastful in Japan, where modesty and group harmony are cultural values. The local team will handle the adaptation — they have already proposed a more understated, quality-focused version.",
     },
     {
@@ -178,7 +178,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Brazil is our most significant [[localisation:the process of adapting campaigns for a specific local market]] challenge — and our biggest opportunity. The culture is warm, social, and community-focused. We need local talent in the imagery, Brazilian Portuguese copy with local idiom, and we should lead with social and influencer channels rather than digital display.",
     },
     {
@@ -190,7 +190,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We need to check the cultural fit of the imagery very carefully before anything goes to the Saudi team. Several of the current visuals are not appropriate for that market. The local team has clear cultural and regulatory guidelines and they will review everything before it goes live.",
     },
     {
@@ -202,7 +202,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Exactly. We keep the brand consistent while speaking in the cultural voice of each market. One brand. Four adaptations. Same promise — expressed in a way that actually lands.",
     },
   ],

@@ -49,7 +49,7 @@ export const robloxGivingInstructions: Lesson = {
       partOfSpeech: 'verb',
       definition: "To push a button or key with your finger to make something happen in the game.",
       example: "Press the jump button twice to double jump over that gap in the floor!",
-      imageSlug: '/images/roblox-giving-instructions-press.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-giving-instructions-press.png',
     },
     {
       word: 'CLICK',
@@ -149,7 +149,7 @@ export const robloxGivingInstructions: Lesson = {
       example: "Watch out for the lava on the right side of the map — one step and you are out!",
       inGame: "Watch out for the enemy spawn at that corner — they come back every 10 seconds.",
       inRealLife: "Watch out for the wet floor near the entrance — it is very slippery today.",
-      imageSlug: '/images/roblox-giving-instructions-watch-out.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-giving-instructions-watch-out.png',
     },
     {
       phrase: "AS SOON AS...",
@@ -183,7 +183,7 @@ export const robloxGivingInstructions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, I cannot get past this boss level! I keep dying at the same point every time. Can you guide me through it?",
     },
     {
@@ -195,7 +195,7 @@ export const robloxGivingInstructions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "OK, done! Shield is on. What do I do [[next:the step that comes after]]?",
     },
     {
@@ -207,7 +207,7 @@ export const robloxGivingInstructions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "OK I am on the left. [[Then:after that]] what?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxGivingInstructions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I am at the pillar! Make sure I stay here?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxGivingInstructions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I did it! The boss health bar is almost gone! What is the [[finally:the very last step]] step?",
     },
     {

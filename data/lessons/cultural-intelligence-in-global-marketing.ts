@@ -6,7 +6,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
   subtitle: 'How to adapt marketing strategy and communication for different cultural contexts',
   level: 'C1-C2',
   description: 'A campaign that works brilliantly in one country can fail completely in another — not because the product is wrong, but because the cultural context is different. The world\'s most successful global brands know that localisation is not just translation — it\'s rethinking how to communicate, what to say, and what to avoid. This lesson covers the vocabulary of cultural intelligence in global marketing, from academic frameworks to practical brand decisions.',
-  heroImage: '/images/cultural-intelligence-in-global-marketing-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cultural-intelligence-in-global-marketing-hero.png',
 
   vocabulary: [
     {
@@ -112,7 +112,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Marcus, we've been asked to adapt the European campaign for the APAC launch. Where do you think the biggest differences will be?",
     },
     {
@@ -124,7 +124,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good catch. Those are also [[high-context cultures:cultures where meaning is conveyed through context and relationships, not stated directly]] — so the very direct call to action won't land the way it does in Germany or the UK.",
     },
     {
@@ -136,7 +136,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Full [[localisation:the process of adapting a campaign for a specific local market]] for Japan and China. For Singapore and Australia, the adaptation can be lighter — those markets are more [[low-context culture:a culture where communication is explicit and direct]] and closer to the original tone.",
     },
     {
@@ -148,7 +148,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's often what [[cultural adaptation:the process of changing communication style to fit a specific culture]]'s values looks like when it's missing. We need to run this through a local lens — ask the Tokyo team to review it, specifically looking at the [[implicit norms:unwritten cultural rules that people follow automatically]] around modesty, group harmony, and indirection.",
     },
     {
@@ -160,7 +160,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The [[nuance:a small but important difference in meaning or implication]] matters here. In Japan, overt ambition — especially individual ambition — can be uncomfortable. 'Become number one' sounds arrogant, not aspirational. Change it to something about contributing to collective success. That's the same ambition through a different cultural lens.",
     },
     {
@@ -172,7 +172,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "In Japan? Yes. In Korea? Probably. In Australia? It might be fine. This plays differently across those markets. The Japanese adaptation should show collaboration — a team achieving something together. [[Cultural sensitivity:awareness of and respect for cultural differences]] isn't about avoiding all images of individuals — it's about reading what those images mean in context.",
     },
     {
@@ -184,7 +184,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It always is. Localise, don't just translate — it's one sentence but it describes months of careful work. The brands that do it well build deep market knowledge over years. The ones that don't? A PR crisis in a market they barely understood.",
     }
   ],

@@ -90,7 +90,7 @@ export const b1ReviewTheBigDebate: Lesson = {
       phrase: 'BACK UP',
       definition: 'To support a claim with evidence or reasons — to prove your point.',
       example: '"You say he\'s the GOAT — back it up with some evidence. What makes him better than the others?"',
-      imageSlug: '/images/b1-review-the-big-debate-back-up.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b1-review-the-big-debate-back-up.png',
     },
     {
       phrase: 'STAND BY',

@@ -115,7 +115,7 @@ export const shotsAndSaves: Lesson = {
       phrase: 'FOLLOW UP',
       definition: 'To be ready to shoot if the goalkeeper spills or parries the ball.',
       example: 'He followed up the parry and tapped in the rebound — always be ready.',
-      imageSlug: '/images/shots-and-saves-follow-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/shots-and-saves-follow-up.png',
     },
     {
       phrase: 'GET YOUR HEAD ON IT',

@@ -6,7 +6,7 @@ export const talkingAboutValueNotPrice: Lesson = {
   subtitle: 'How to shift the conversation from what something costs to what it is worth',
   level: 'B1-B2',
   description: 'Learn how to use value language — worth, save, improve, reduce, increase — to help prospects see your product as an investment rather than an expense, and how to make the ROI case clearly without relying on discounts.',
-  heroImage: '/images/talking-about-value-not-price-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-value-not-price-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const talkingAboutValueNotPrice: Lesson = {
       partOfSpeech: 'noun',
       definition: "Money spent with the expectation of a measurable return — the opposite framing of 'cost', which implies spending with nothing coming back.",
       example: "When you frame the conversation as an investment rather than a cost, the question changes from 'can we afford this?' to 'what do we get back?'",
-      imageSlug: '/images/investment.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/investment.png',
     },
     {
       word: 'RETURN',
       partOfSpeech: 'noun',
       definition: 'The measurable benefit or gain you get from an investment — what the product gives back in time, money, deals, or efficiency.',
       example: 'Before you talk about price, be clear on the return — if the return is bigger than the cost, the price conversation becomes much easier.',
-      imageSlug: '/images/return.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/return.png',
     },
     {
       word: 'JUSTIFY',
       partOfSpeech: 'verb',
       definition: 'To provide clear evidence or reasoning that something is worth its cost — to make the case that the value outweighs the price.',
       example: 'A strong value conversation does the work of justifying the investment before the prospect even asks about price.',
-      imageSlug: '/images/justify.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/justify.png',
     },
     {
       word: 'MEASURABLE',
       partOfSpeech: 'adjective',
       definition: 'Able to be expressed in numbers or tracked over time — a measurable benefit is far more persuasive than a vague one.',
       example: "The most compelling value statements are measurable — 'this reduces your reporting time by three hours a week' is harder to dismiss than 'this saves time'.",
-      imageSlug: '/images/talking-about-value-not-price-measurable.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-value-not-price-measurable.png',
     },
     {
       word: 'INTANGIBLE',
       partOfSpeech: 'adjective',
       definition: 'Real but difficult to quantify — benefits like team confidence, morale, or reduced stress that do not always show up directly in a spreadsheet.',
       example: 'Do not ignore intangible value — a team that is less stressed and more confident performs better, even if you cannot put a clean number on it.',
-      imageSlug: '/images/talking-about-value-not-price-intangible.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-value-not-price-intangible.png',
     },
     {
       word: 'EFFICIENCY',
       partOfSpeech: 'noun',
       definition: 'Getting more output with the same or less input — doing things faster, with fewer resources, or with less effort.',
       example: 'Improving efficiency is one of the easiest value cases to make — if you can show how many hours per week a team gets back, the maths usually does the work for you.',
-      imageSlug: '/images/efficiency.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/efficiency.png',
     },
     {
       word: 'TRADE-OFF',
       partOfSpeech: 'noun',
       definition: 'The balance between what you give up and what you gain — every purchase involves a trade-off, and making that trade-off explicit is part of the value conversation.',
       example: 'Be honest about the trade-off — the product costs X per month, but based on the deals you described, it recovers that in the first week. That is a trade-off worth making.',
-      imageSlug: '/images/talking-about-value-not-price-trade-off.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-value-not-price-trade-off.png',
     },
     {
       word: 'MARGIN',
       partOfSpeech: 'noun',
       definition: 'The difference between cost and return — either the profit a business makes, or the space a product creates between what it costs and what it generates.',
       example: 'If your product helps a prospect close two more deals a month, calculate what that does to their margin — the value conversation becomes concrete immediately.',
-      imageSlug: '/images/margin.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/margin.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const talkingAboutValueNotPrice: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Marcus, before we talk about the contract, I want to make sure we have been through the value properly. Can I walk you through it?',
     },
     {
@@ -124,7 +124,7 @@ export const talkingAboutValueNotPrice: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good. You told me you lose roughly two to three deals a month because of slow or missed follow-up. Think about what you would save if even one of those came back. At your average deal size — what does one recovered deal mean for your monthly [[margin:the difference between cost and return]]?',
     },
     {
@@ -136,7 +136,7 @@ export const talkingAboutValueNotPrice: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly. So it is worth thinking about the monthly fee not as a cost but as an [[investment:money spent with the expectation of a measurable return]] — and one where the [[return:the measurable benefit you get from an investment]] is visible within the first thirty days. Compared to the cost of losing those deals every month, this is a very small [[trade-off:the balance between what you give up and what you gain]].',
     },
     {
@@ -148,7 +148,7 @@ export const talkingAboutValueNotPrice: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes. This could save you and the team somewhere between three and five hours a week on manual pipeline updates and report building. Across your team, that is [[efficiency:getting more output with the same or less input]] that goes back into selling — not admin.',
     },
     {
@@ -160,7 +160,7 @@ export const talkingAboutValueNotPrice: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'It is absolutely real. Do not underestimate [[intangible:real but difficult to quantify]] value — the confidence you get from always knowing the state of your pipeline changes how you manage the team. Over time this would increase your ability to coach proactively rather than reactively, which is a different kind of return.',
     },
     {
@@ -172,7 +172,7 @@ export const talkingAboutValueNotPrice: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The return on this is straightforward: one recovered deal per month pays for the tool. Everything after that — time saved, [[efficiency:getting more output with the same or less input]] gained, reduced stress — is upside. I will put that in writing so you have something concrete to share.',
     }
   ],

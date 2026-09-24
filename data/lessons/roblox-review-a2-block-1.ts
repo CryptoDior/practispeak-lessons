@@ -183,7 +183,7 @@ export const robloxReviewA2Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, let us review everything from A2 Block 1! What was your gaming [[routine:regular daily pattern]] this week?",
     },
     {
@@ -195,7 +195,7 @@ export const robloxReviewA2Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Amazing! That is [[better:comparative of good]] than anything I did this week. My avatar is also new — I gave it a [[unique:one of a kind]] style. Nobody else looks like me!",
     },
     {
@@ -207,7 +207,7 @@ export const robloxReviewA2Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Could you please guide me through it? First the left path, next the jump section, then the boss — and [[finally:the last step]] the treasure room?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxReviewA2Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I will probably join at 7:30 — it depends on dinner. Save me a spot! Oh and — would you mind trading me that rare gem? How about a [[fair:equal and reasonable]] deal?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxReviewA2Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I agree! Deal! Routine, past simple, comparatives, superlatives, instructions, plans, polite requests, negotiation — we used everything from A2 Block 1 in that conversation!",
     },
     {

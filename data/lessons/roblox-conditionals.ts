@@ -205,7 +205,7 @@ export const robloxConditionals: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, the regional qualifier is next weekend. [[If:on the condition that]] we win this one, we qualify for the national finals.",
     },
     {
@@ -217,7 +217,7 @@ export const robloxConditionals: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "We [[could:it would be possible to]] win this [[if:on the condition that]] we build a better defence strategy. Our attack is strong but we keep losing on the last round.",
     },
     {
@@ -229,7 +229,7 @@ export const robloxConditionals: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Equipment helps but strategy wins tournaments. If we take the eastern route [[then:as a result]], we [[might:possibly — not certain]] catch the other team off-guard at the checkpoint.",
     },
     {
@@ -241,7 +241,7 @@ export const robloxConditionals: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "You can access the upgraded practice server, [[provided that:on the strict condition that]] you are a registered tournament participant — I sent you the code.",
     },
     {
@@ -253,7 +253,7 @@ export const robloxConditionals: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Agreed. And [[if:introducing a real condition]] the defence strategy fails, we always [[could:it would be possible to]] switch to the aggressive push — it worked in the last two qualifiers.",
     },
     {

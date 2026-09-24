@@ -6,7 +6,7 @@ export const negotiatingPriceProfessionally: Lesson = {
   subtitle: 'Concessions, trade-offs, and conditions — how to move without giving things away',
   level: 'C1-C2',
   description: "Price negotiation is not about who blinks first. It is about understanding what each side actually needs, structuring exchanges that are conditional rather than free, and reaching an agreement both parties can defend internally. This lesson teaches the language for making concessions without losing value, testing the other side's flexibility, and holding a position without damaging the relationship.",
-  heroImage: '/images/negotiating-price-professionally-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-price-professionally-hero.png',
 
   vocabulary: [
     {
@@ -21,7 +21,7 @@ export const negotiatingPriceProfessionally: Lesson = {
       partOfSpeech: 'noun',
       definition: 'An exchange in which gaining something on one side requires giving up something on another. Trade-offs give both parties a way to move without losing face — because each side gets something, and each side gives something.',
       example: 'Riley offered a trade-off: a lower unit price in exchange for a twelve-month commitment instead of six. Marcus got the number he needed for his budget. Riley got the contract length that made the reduction financially sensible.',
-      imageSlug: '/images/negotiating-price-professionally-trade-off.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-price-professionally-trade-off.png',
     },
     {
       word: 'ANCHOR',
@@ -49,7 +49,7 @@ export const negotiatingPriceProfessionally: Lesson = {
       partOfSpeech: 'noun',
       definition: "The point beyond which a party cannot or will not go — a floor on price, a ceiling on concessions, or a boundary on terms. Understanding your own threshold before entering a negotiation is essential. Understanding the other side's threshold is what makes a deal possible.",
       example: 'Riley knew her threshold: below a certain unit price, the account was not profitable. She did not share that number, but she used it to structure every offer she made — nothing she proposed crossed her own floor, even when the conversation got uncomfortable.',
-      imageSlug: '/images/negotiating-price-professionally-threshold.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-price-professionally-threshold.png',
     },
     {
       word: 'RECIPROCAL',
@@ -118,7 +118,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I appreciate you being direct. Before I respond to the number — what are you able to move on from your side? Contract length, payment structure, implementation timeline? I want to understand the full picture before I start moving on price.',
     },
     {
@@ -130,7 +130,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Twelve months and a February start — that is meaningful movement. Let me show you what that unlocks. If you can commit to the twelve-month [[terms:the specific conditions and details of an agreement]], I can move on the unit price. I cannot do both — but the twelve months gives me the [[threshold:the point beyond which a party cannot go]] I need to justify a lower rate internally.',
     },
     {
@@ -142,7 +142,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Ten percent on the unit price, in exchange for twelve months and payment split across two invoices. That is at the edge of what I can do at this [[scope:the range of what is included in the agreement]] — I cannot get to 20% without changing what is in the contract.',
     },
     {
@@ -154,7 +154,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Let's [[anchor:to set the first reference point in a negotiation]] this differently. The 15% your CFO is working from — is that based on the annual total, or the monthly rate? Because there may be a way to get her to the monthly number she needs without me going below the rate I can sustain.",
     },
     {
@@ -166,7 +166,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Then let's separate the price from the [[terms:the conditions and structure of an agreement]] for a moment. If I phase the implementation so that you start with 20 users in February and bring on the remaining 10 in May, your per-user cost for Q1 hits the number she budgeted — and you scale into the full cost once the product is embedded. Same annual total, different monthly picture.",
     },
     {
@@ -178,7 +178,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'No — renewal is priced on the full 30 users from day one at the standard rate. The phased structure is a [[concession:something given up to move a negotiation forward]] on implementation, not on pricing. I want to be transparent about that so there are no surprises at renewal.',
     },
     {
@@ -190,7 +190,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is a [[reciprocal:given in return for something equivalent]] move I can make — onboarding for the second cohort is included if the contract is signed before the end of the month. That gives me what I need on timing, and it gives you what you need on implementation cost. I think we have the shape of a deal here.',
     }
   ],

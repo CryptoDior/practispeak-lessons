@@ -6,7 +6,7 @@ export const basicSalesPhoneCall: Lesson = {
   subtitle: 'How to greet a customer, explain why you are calling, and end a call professionally',
   level: 'A1-A2',
   description: 'A professional phone call has a clear structure: a strong greeting, a simple reason for calling, and a polite goodbye. This lesson teaches you the exact phrases to use at each stage — so your calls always sound confident and organised, from the first word to the last.',
-  heroImage: '/images/basic-sales-phone-call-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/basic-sales-phone-call-hero.png',
 
   vocabulary: [
     {
@@ -21,14 +21,14 @@ export const basicSalesPhoneCall: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To say your name and company at the start of a call. You introduce yourself so the customer knows who is calling and why.',
       example: 'Riley said: Let me introduce myself — my name is Riley and I work for Practispeak Solutions. We spoke at the conference last month.',
-      imageSlug: '/images/basic-sales-phone-call-introduce.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/basic-sales-phone-call-introduce.png',
     },
     {
       word: 'PURPOSE',
       partOfSpeech: 'noun',
       definition: 'The reason for your call. Always state your purpose clearly and early — customers do not like to guess why someone is calling.',
       example: 'Riley explained her purpose in one sentence: The reason I am calling is to follow up on the proposal I sent you last week. Short, clear, professional.',
-      imageSlug: '/images/basic-sales-phone-call-purpose.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/basic-sales-phone-call-purpose.png',
     },
     {
       word: 'CONVENIENT',
@@ -49,7 +49,7 @@ export const basicSalesPhoneCall: Lesson = {
       partOfSpeech: 'phrasal verb',
       definition: 'To contact someone again after a first conversation or meeting. In sales, you follow up to keep the conversation moving forward.',
       example: 'Riley said: The reason I am calling is to follow up on our last meeting. I wanted to check if you had any questions about the plan.',
-      imageSlug: '/images/basic-sales-phone-call-follow-up.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/basic-sales-phone-call-follow-up.png',
     },
     {
       word: 'VOICEMAIL',
@@ -63,7 +63,7 @@ export const basicSalesPhoneCall: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Free to talk or meet at a particular time. When you call, you check if the customer is available before you start.',
       example: 'Riley asked: Are you available to talk for a few minutes? Marcus said: Yes, I am free now. Riley said: Perfect — I will be brief.',
-      imageSlug: '/images/basic-sales-phone-call-available.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/basic-sales-phone-call-available.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const basicSalesPhoneCall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good morning. This is Riley from Practispeak Solutions. Am I [[speaking:the professional word used on calls — 'Am I speaking with']] with Marcus Oliveira?",
     },
     {
@@ -130,7 +130,7 @@ export const basicSalesPhoneCall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Hi Marcus! Is now a good time to talk for a few minutes?',
     },
     {
@@ -142,7 +142,7 @@ export const basicSalesPhoneCall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The [[purpose:the reason for your call]] of my call — the reason I am calling — is to [[follow up:to contact someone again after a first conversation]] on the proposal I sent you last week.',
     },
     {
@@ -154,7 +154,7 @@ export const basicSalesPhoneCall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I am glad to hear that. Do you have any questions for me?',
     },
     {
@@ -166,7 +166,7 @@ export const basicSalesPhoneCall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Of course — take your time. I will follow up by email with a few more details. [[Briefly:in a short amount of time]], I just wanted to make sure you received it.',
     },
     {
@@ -178,7 +178,7 @@ export const basicSalesPhoneCall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Perfect. I will let you go now. Have a great day, Marcus.',
     },
     {

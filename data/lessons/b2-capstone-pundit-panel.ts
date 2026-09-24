@@ -106,7 +106,7 @@ export const b2CapstonePunditPanel: Lesson = {
       phrase: 'BACK UP',
       definition: 'To support a claim with evidence or reasoning.',
       example: '"I\'ll back that up with the numbers — they\'ve kept eleven clean sheets in fifteen games. That\'s not luck, that\'s organisation."',
-      imageSlug: '/images/b2-capstone-pundit-panel-back-up.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b2-capstone-pundit-panel-back-up.png',
     },
     {
       phrase: 'DRAW ON',

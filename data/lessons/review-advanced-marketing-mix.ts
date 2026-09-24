@@ -6,7 +6,7 @@ export const reviewAdvancedMarketingMix: Lesson = {
   subtitle: 'Consolidating B2 vocabulary across digital strategy, data analytics, brand architecture, content, and emerging channels',
   level: 'B1-B2',
   description: "This lesson brings together the most important vocabulary and phrases from the advanced marketing series — from consumer psychology and integrated communications through to data analytics, programmatic advertising, customer retention, and innovation. The review is designed not just to test recall but to help you use the vocabulary flexibly across different contexts, arguments, and professional scenarios. Strong B2 marketers do not just know the terms — they use them to build arguments, challenge assumptions, and lead strategic conversations.",
-  heroImage: '/images/review-advanced-marketing-mix-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-advanced-marketing-mix-hero.png',
 
   vocabulary: [
     {
@@ -160,13 +160,13 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I would start with [[segmentation:dividing a market into groups with similar needs and behaviours]]. Before we decide on anything else — channels, message, format — we need to know who specifically we are marketing to. What is the target segment, what do they need, what do they believe, and where do they spend their attention?",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And from the segmentation decision flows the [[go-to-market:the strategy and plan for launching a product or entering a new market]] plan. Target audience, positioning, pricing model, channel mix, and the launch sequence. The segmentation is step one. The go-to-market is the bridge between the product and the first customer.",
     },
     {
@@ -178,13 +178,13 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The channel mix for this campaign should reflect the enterprise buying journey. Enterprise decisions are long, involve multiple stakeholders, and require credibility at each stage. So: LinkedIn for awareness and thought leadership. Email sequences for nurturing. A webinar or event for live consideration. Case studies and comparison content for the evaluation stage. And a frictionless trial or demo for conversion.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And across the full funnel, the strategy should be [[integrated:all channels working together to build the same understanding of the brand]] — not siloed. In an integrated campaign, every channel should carry the same core message while using the format natural to that channel.",
     },
     {
@@ -196,13 +196,13 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "[[Attribution:identifying which marketing activities are responsible for a conversion]] is the challenge here. In an enterprise journey that spans six to nine months and 15 to 20 touchpoints, last-click attribution misses most of the picture. We need either multi-touch [[attribution:the process of giving credit to the right touchpoint in a customer journey]] or a more qualitative approach — asking customers directly which touchpoints were most influential in their decision.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And the data shows that our highest-value customers in the enterprise segment come via peer referral and industry events — not from paid search. So our [[attribution:how credit is assigned across touchpoints]] model needs to weight those channels properly, even though they are harder to track.",
     },
     {
@@ -214,13 +214,13 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "From a brand architecture perspective, this means we need to assess whether the new product's target audience and positioning are consistent with the main brand's existing associations. If there is alignment — same audience, same values, same category — a product extension or sub-brand makes sense. If the new product requires a different positioning for a different audience, a separate brand protects both.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And to make the business case for the investment overall, we need the LTV and [[conversion optimisation:improving the percentage of visitors who take a desired action]] data to show the board that the commercial return justifies the launch spend. Not just a revenue projection — actual evidence from our test cohort and our retention data.",
     },
     {

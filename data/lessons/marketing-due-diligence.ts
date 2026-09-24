@@ -6,7 +6,7 @@ export const marketingDueDiligence: Lesson = {
   subtitle: 'How to evaluate a brand, diagnose a marketing problem, and write a due diligence report',
   level: 'C1-C2',
   description: 'Before a company is acquired, before a major agency is hired, before a new market is entered — someone has to do the work. Marketing due diligence is the process of rigorously examining a brand or a business to understand what is really there: the real brand equity, the genuine customer loyalty, the actual competitive position. This lesson teaches you the language and process of marketing due diligence at a professional level.',
-  heroImage: '/images/marketing-due-diligence-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-due-diligence-hero.png',
 
   vocabulary: [
     {
@@ -42,7 +42,7 @@ export const marketingDueDiligence: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Something that has value but cannot be physically seen or measured easily — like brand reputation, customer loyalty, or intellectual property.',
       example: "Riley said: The intangibles here are actually the most valuable things — the brand recognition, the community they've built, and the customer trust. None of that appears on the balance sheet.",
-      imageSlug: '/images/marketing-due-diligence-intangible.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-due-diligence-intangible.png',
     },
     {
       word: 'BRAND HEALTH',
@@ -118,7 +118,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Start with the [[brand health:how strong a brand is — awareness, loyalty, and competitive position]] data. What does the market research say? Not what they tell us — what the customers say.",
     },
     {
@@ -130,7 +130,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Awareness is good. What's the [[net promoter score:a measure of how likely customers are to recommend the brand — ranges from -100 to +100]]?",
     },
     {
@@ -142,7 +142,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Not for this category. The benchmark is +40. That gap means customers know the brand but they're not advocates. They're not recommending it. On the surface the numbers look strong — but on closer inspection, loyalty is the real problem.",
     },
     {
@@ -154,7 +154,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "They were the leader 18 months ago. Now there are three new entrants with a lower price point. Their differentiation is price — and they're losing that. The [[audit:a detailed review to find out what is really there]] data confirms it: market share dropped 3.2% last quarter.",
     },
     {
@@ -166,7 +166,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Revenue multiples from 18 months ago — before the competitive picture changed. The loyalty decline and the market share loss are not reflected in the current valuation. That's our leverage in the negotiation.",
     },
     {
@@ -178,7 +178,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes — two significant ones. Their founder has a personal brand with a real following. And their customer community is genuinely engaged. Those [[intangible]]s take years to build. They are real value.",
     },
     {
@@ -190,7 +190,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Loyalty erosion. It's already happening and it's accelerating. Our recommendation: proceed, but negotiate the price down by 15 to 20% to reflect the real brand health. The intangibles justify the acquisition — the current valuation doesn't.",
     }
   ],

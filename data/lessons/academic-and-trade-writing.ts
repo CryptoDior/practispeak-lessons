@@ -6,7 +6,7 @@ export const academicAndTradeWriting: Lesson = {
   subtitle: 'How to write for industry publications, white papers, and professional journals',
   level: 'C1-C2',
   description: 'Writing a blog post and writing for a trade journal are very different things. Industry publications have standards — a clear structure, proper citations, a defined methodology, and language that signals you know what you are talking about. This lesson teaches you the vocabulary and conventions of professional and academic writing so you can produce content that gets taken seriously at the highest level.',
-  heroImage: '/images/academic-and-trade-writing-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/academic-and-trade-writing-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "She wants to know exactly how you collected the data. Not what you found — how you found it. How many people? Over what period? What was the process?",
     },
     {
@@ -130,7 +130,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's a good start. You also need to explain how you chose those 320 people. [[Empirical:based on real data and evidence, not theory]] research needs to be replicable — someone else should be able to run the same study.",
     },
     {
@@ -142,7 +142,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It happens when you write the abstract first. Always write it last — it is a summary of what you actually found, not what you hoped to find.",
     },
     {
@@ -154,7 +154,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Write it like this: 'This paper argues that content marketing produces a higher ROI than paid acquisition for B2B companies with long sales cycles.' One sentence. Specific. Testable.",
     },
     {
@@ -166,7 +166,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Every strong claim needs a source. If you say something is true, you need a reference. Without it, a reviewer will question the whole piece.",
     },
     {
@@ -178,7 +178,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good — because that is the strongest part. The data is solid. The data suggests very clearly that our [[hypothesis]] was right. We just need the rest of the paper to support it properly.",
     },
     {
@@ -190,7 +190,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Fix the methodology section and the citations first. Then I'd say two weeks. The [[white paper:a detailed document that explains a problem and proposes a solution]] version can follow after.",
     }
   ],

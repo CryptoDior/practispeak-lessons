@@ -6,7 +6,7 @@ export const languageOfBusinessInfluence: Lesson = {
   subtitle: 'How to frame messages, control the narrative, and persuade at the highest level',
   level: 'C1-C2',
   description: 'The most powerful people in business are not always the loudest. They are the ones who know how to frame a message, set the agenda before the meeting starts, and guide a conversation without appearing to lead it. This lesson teaches you the language of influence — how words shape decisions, how narratives are built and broken, and how to communicate with intention at the senior level.',
-  heroImage: '/images/language-of-business-influence-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/language-of-business-influence-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const languageOfBusinessInfluence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Both, honestly. The [[framing:the way you present an idea so people see it the way you want]] was masterful — she never used the word "crisis" once. She called it a "period of recalibration".',
     },
     {
@@ -130,7 +130,7 @@ export const languageOfBusinessInfluence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Classic [[agenda-setting:deciding what topics get discussed and what gets left out]]. She decided what was important before anyone else could. That is a skill most communicators never develop.',
     },
     {
@@ -142,7 +142,7 @@ export const languageOfBusinessInfluence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It was. But here's the difference — she acknowledged the impact on people first. That gave her [[narrative control:keeping the story about your brand in your hands]]. If she hadn't spoken first, the media would have told that story very differently.",
     },
     {
@@ -154,7 +154,7 @@ export const languageOfBusinessInfluence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Always. The way I see it, every senior communication has two layers — what is said, and what is meant. Your job is to read both.',
     },
     {
@@ -166,7 +166,7 @@ export const languageOfBusinessInfluence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Experience helps. But mostly it's about [[positioning:how you describe yourself or your brand compared to others]]. Understand where people are coming from — what they want to protect — and the subtext becomes obvious.",
     },
     {
@@ -178,7 +178,7 @@ export const languageOfBusinessInfluence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Start with what you want people to walk away believing. Then build everything around that. That's your [[leverage:using something you have to guide people toward what you want]] in the room.",
     },
     {
@@ -190,7 +190,7 @@ export const languageOfBusinessInfluence: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Exactly. Tell them: 'What I want you to take away from this is...' and say one thing. Just one. If they remember nothing else, that one thing should stay with them.",
     }
   ],

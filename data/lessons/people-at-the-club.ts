@@ -49,7 +49,7 @@ export const peopleAtTheClub: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person who plays football in a match or for a team.',
       example: 'There are eleven players on each team.',
-      imageSlug: '/images/people-at-the-club-player.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/people-at-the-club-player.png',
     },
     {
       word: 'SUPPORTER',

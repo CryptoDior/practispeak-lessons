@@ -6,7 +6,7 @@ export const takingASimpleOrder: Lesson = {
   subtitle: 'How to ask for quantity, confirm details, and process an order in clear English',
   level: 'A1-A2',
   description: 'Taking an order is one of the most common moments in sales. This lesson teaches you the simple, direct language you need: how to ask how many a customer wants, how to check availability, confirm the total, and close the order professionally.',
-  heroImage: '/images/taking-a-simple-order-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/taking-a-simple-order-hero.png',
 
   vocabulary: [
     {
@@ -28,7 +28,7 @@ export const takingASimpleOrder: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To say yes and make something certain. When you confirm an order, both sides agree on the details.',
       example: 'Riley checked all the details and said: Shall I confirm your order? Marcus said: Yes — fifteen units, delivery on Friday.',
-      imageSlug: '/images/taking-a-simple-order-confirm.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/taking-a-simple-order-confirm.png',
     },
     {
       word: 'UNIT',
@@ -42,7 +42,7 @@ export const takingASimpleOrder: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Ready to buy or use right now. If a product is available, the customer can order it today.',
       example: 'Marcus asked if the plan was ready. Riley said: Let me check — yes, fifteen units are available. We can deliver them by Friday.',
-      imageSlug: '/images/taking-a-simple-order-available.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/taking-a-simple-order-available.png',
     },
     {
       word: 'DELIVERY',
@@ -78,7 +78,7 @@ export const takingASimpleOrder: Lesson = {
       phrase: 'LET ME CHECK IF THAT IS AVAILABLE',
       definition: 'A professional way to verify that you have the product in stock before confirming. It shows you are careful and organised — never promise what you have not checked.',
       example: 'Marcus asked for twenty units. Riley said: Let me check if that is available. She looked at the system and said: Yes — twenty units are ready for you.',
-      imageSlug: '/images/let-me-check-if-that-is-available.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/let-me-check-if-that-is-available.png',
     },
     {
       phrase: 'SHALL I CONFIRM YOUR ORDER?',
@@ -118,7 +118,7 @@ export const takingASimpleOrder: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is great news, Marcus! How many [[unit:one single item in an order]]s would you like?',
     },
     {
@@ -130,13 +130,13 @@ export const takingASimpleOrder: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Fifteen units — perfect. Let me check if that is [[available:ready to buy or use right now]].',
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good news — fifteen units are available. We can move forward.',
     },
     {
@@ -148,7 +148,7 @@ export const takingASimpleOrder: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'When would you like [[delivery:the process of sending products to the customer]]?',
     },
     {
@@ -160,7 +160,7 @@ export const takingASimpleOrder: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is no problem. Your [[total:the final amount — the full price after counting all units]] comes to $750 for fifteen units.',
     },
     {
@@ -172,7 +172,7 @@ export const takingASimpleOrder: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Shall I [[confirm:to say yes and make something certain]] your order?',
     },
     {
@@ -184,7 +184,7 @@ export const takingASimpleOrder: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Perfect. I will [[process:to handle or complete something officially]] that for you now. You will receive a confirmation email in a few minutes.',
     }
   ],

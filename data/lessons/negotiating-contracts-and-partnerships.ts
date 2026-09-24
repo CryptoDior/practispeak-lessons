@@ -6,7 +6,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
   subtitle: 'How to negotiate high-stakes commercial agreements — and understand the language that protects both sides',
   level: 'C1-C2',
   description: "Marketing leaders regularly negotiate contracts with agencies, technology vendors, media partners, and content creators. Understanding the commercial and legal language in these agreements is not optional — it is how you protect your budget, your brand, and your business. This lesson teaches the vocabulary and communication strategies behind high-stakes contract negotiation: from exclusivity and SLAs to performance clauses and exit terms.",
-  heroImage: '/images/negotiating-contracts-and-partnerships-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-contracts-and-partnerships-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Start with [[exclusivity:a contractual agreement that prevents one or both parties from working with competitors]]. 24 months of full exclusivity across all digital is too broad. Push back on scope — offer exclusivity in one defined area only, such as paid media.",
     },
     {
@@ -130,7 +130,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Let's tie compensation to performance. Propose a base retainer — say £20,000 — with a bonus structure tied to hitting specific campaign targets. That aligns their incentives with ours. A [[performance clause:a contract section that ties payment or continuation to specific measurable results]] makes everyone more focused.",
     },
     {
@@ -142,7 +142,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "'Best efforts' is not an SLA — it is an escape clause. Ask them: what happens if you miss the SLA? We need specific commitments — 48-hour response times, defined escalation paths, and a credit mechanism if they miss agreed targets.",
     },
     {
@@ -154,7 +154,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is a deal-breaker for us. I am not comfortable with that clause. A 24-month lock-in with no exit rights is not something I can approve. We need a 90-day notice period — and the right to exit without penalty if the SLA is missed for three consecutive months.",
     },
     {
@@ -166,7 +166,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is backwards — they are creating the content, so the indemnity should run the other way. Get legal to flip it. They cover any IP claim arising from their own work. We cover claims arising from our brief or assets. That is the correct split.",
     },
     {
@@ -178,7 +178,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We need to define the scope more tightly before we sign anything. 'Ongoing marketing support' is a blank cheque for both sides. List every deliverable, every timeline, every process — and everything that is explicitly out of scope. That protects us and them.",
     },
     {
@@ -190,7 +190,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "One month is completely inadequate for a campaign that drives millions in revenue. Negotiate it to twelve months minimum — or link it to the actual value at risk. And write that into the redline before you send it back.",
     }
   ],

@@ -14,56 +14,56 @@ export const robloxLetsTrade: Lesson = {
       partOfSpeech: 'verb',
       definition: "Swap something you have with another player for something they have.",
       example: "I want to trade my old hat for your rare sword — are you interested?",
-      imageSlug: '/images/roblox-lets-trade-trade.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-trade.png',
     },
     {
       word: 'OFFER',
       partOfSpeech: 'noun / verb',
       definition: "Something you give or suggest in a trade. You make an offer and the other person decides yes or no.",
       example: "I sent you a trade offer — check your notifications and tell me what you think!",
-      imageSlug: '/images/roblox-lets-trade-offer.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-offer.png',
     },
     {
       word: 'ACCEPT',
       partOfSpeech: 'verb',
       definition: "Say YES to a trade offer. When you accept, the swap happens immediately!",
       example: "I accepted the trade — now I have a golden crown and he has my old backpack!",
-      imageSlug: '/images/roblox-lets-trade-accept.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-accept.png',
     },
     {
       word: 'DECLINE',
       partOfSpeech: 'verb',
       definition: "Say NO to a trade offer. You can decline if the deal is not good enough for you.",
       example: "I declined that trade — he only offered a common item for my rare one. Not fair!",
-      imageSlug: '/images/roblox-lets-trade-decline.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-decline.png',
     },
     {
       word: 'DEAL',
       partOfSpeech: 'noun',
       definition: "An agreement between two players — you both agree on what to swap and shake on it.",
       example: "Deal! I give you my cape and you give me your sword. Let's do it!",
-      imageSlug: '/images/roblox-lets-trade-deal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-deal.png',
     },
     {
       word: 'ITEM',
       partOfSpeech: 'noun',
       definition: "Any single thing you can own, trade, or use in Roblox — a hat, a sword, a pet, anything!",
       example: "I have 50 items in my inventory — hats, accessories, tools, and a rare pet!",
-      imageSlug: '/images/roblox-lets-trade-item.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-item.png',
     },
     {
       word: 'VALUE',
       partOfSpeech: 'noun',
       definition: "How much an item is worth. A rare item has high value. A common item has low value.",
       example: "That hat has very high value — it is limited edition and only 100 people have it!",
-      imageSlug: '/images/roblox-lets-trade-value.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-value.png',
     },
     {
       word: 'RARE',
       partOfSpeech: 'adjective',
       definition: "Something that very few people have. Rare items are special and hard to get!",
       example: "This sword is rare — only 500 players in the whole game own it!",
-      imageSlug: '/images/roblox-lets-trade-rare.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-rare.png',
     },
   ],
 
@@ -73,56 +73,56 @@ export const robloxLetsTrade: Lesson = {
       partOfSpeech: 'verb',
       definition: "Swap something you have for something someone else has — in real life too!",
       example: "I traded my sandwich for my friend's apple at lunch today.",
-      imageSlug: '/images/roblox-lets-trade-trade-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-trade-irl.png',
     },
     {
       word: 'OFFER',
       partOfSpeech: 'noun / verb',
       definition: "Something you say or give to suggest a deal. You make an offer and wait for an answer.",
       example: "The shop has a special offer — buy two and get one free!",
-      imageSlug: '/images/roblox-lets-trade-offer-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-offer-irl.png',
     },
     {
       word: 'ACCEPT',
       partOfSpeech: 'verb',
       definition: "Say YES and agree to something — a deal, an invitation, or a gift.",
       example: "I accepted the invitation to the party — I will be there on Saturday!",
-      imageSlug: '/images/roblox-lets-trade-accept-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-accept-irl.png',
     },
     {
       word: 'DECLINE',
       partOfSpeech: 'verb',
       definition: "Say NO politely — you turn something down but without being rude.",
       example: "I had to decline the dinner invitation because I had football training.",
-      imageSlug: '/images/roblox-lets-trade-decline-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-decline-irl.png',
     },
     {
       word: 'DEAL',
       partOfSpeech: 'noun',
       definition: "An agreement where both people get what they want. A fair deal is good for everyone!",
       example: "We made a deal — I clean the kitchen and my brother does the garden.",
-      imageSlug: '/images/roblox-lets-trade-deal-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-deal-irl.png',
     },
     {
       word: 'ITEM',
       partOfSpeech: 'noun',
       definition: "A single thing you can use, wear, or trade in the game — one object.",
       example: "The last item on my shopping list is milk — I nearly forgot it!",
-      imageSlug: '/images/roblox-lets-trade-item-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-item-irl.png',
     },
     {
       word: 'VALUE',
       partOfSpeech: 'noun',
       definition: "How much something is worth — in money or in importance to you.",
       example: "This old photo has great value to me — it is a memory of my grandparents.",
-      imageSlug: '/images/roblox-lets-trade-value-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-value-irl.png',
     },
     {
       word: 'RARE',
       partOfSpeech: 'adjective',
       definition: "Something that is not common — very few people have it or see it.",
       example: "Seeing a white tiger in the wild is very rare — they are almost extinct.",
-      imageSlug: '/images/roblox-lets-trade-rare-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-rare-irl.png',
     },
   ],
 
@@ -133,7 +133,7 @@ export const robloxLetsTrade: Lesson = {
       example: "Want to trade? I have a rare pet and I am looking for a golden crown!",
       inGame: "Want to trade? I will give you two common items for your rare hat!",
       inRealLife: "Want to trade lunches? I have a pasta salad and I see you have a wrap!",
-      imageSlug: '/images/roblox-lets-trade-want-to-trade.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-want-to-trade.png',
     },
     {
       phrase: "IT'S A DEAL!",
@@ -141,7 +141,7 @@ export const robloxLetsTrade: Lesson = {
       example: "It's a deal! I give you my cape and you give me your sword — let's go!",
       inGame: "It's a deal! Accept the trade request — I just sent it!",
       inRealLife: "It's a deal! I will wash the car and you will cook dinner.",
-      imageSlug: '/images/roblox-lets-trade-its-a-deal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-its-a-deal.png',
     },
     {
       phrase: "NO THANKS",
@@ -149,7 +149,7 @@ export const robloxLetsTrade: Lesson = {
       example: "No thanks — that offer is not good enough for my rare item.",
       inGame: "No thanks — you are offering a common item for something worth ten times more!",
       inRealLife: "No thanks — I already have one at home.",
-      imageSlug: '/images/roblox-lets-trade-no-thanks.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-no-thanks.png',
     },
     {
       phrase: "WHAT DO YOU WANT FOR IT?",
@@ -157,7 +157,7 @@ export const robloxLetsTrade: Lesson = {
       example: "What do you want for it? That sword looks amazing — I want one!",
       inGame: "What do you want for the golden crown? I will try to match the value.",
       inRealLife: "What do you want for your old bicycle? I am very interested!",
-      imageSlug: '/images/roblox-lets-trade-what-do-you-want.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-what-do-you-want.png',
     },
     {
       phrase: "THAT IS NOT FAIR!",
@@ -165,7 +165,7 @@ export const robloxLetsTrade: Lesson = {
       example: "That is not fair! You want my rare item for just a common one!",
       inGame: "That is not fair! My item is worth ten times more than your offer.",
       inRealLife: "That is not fair! You got a bigger piece of cake than me!",
-      imageSlug: '/images/roblox-lets-trade-that-is-not-fair.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-that-is-not-fair.png',
     },
     {
       phrase: "GOOD TRADE!",
@@ -173,7 +173,7 @@ export const robloxLetsTrade: Lesson = {
       example: "Good trade! We both got something we really wanted. Everyone wins!",
       inGame: "Good trade! I am very happy with this new sword — thank you!",
       inRealLife: "Good trade! We both got exactly what we needed — this deal was perfect.",
-      imageSlug: '/images/roblox-lets-trade-good-trade.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-good-trade.png',
     },
   ],
 
@@ -183,7 +183,7 @@ export const robloxLetsTrade: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia! I just found a [[rare:something very few players have]] golden sword in a mystery box. Only 200 players in the whole game have it!",
     },
     {
@@ -195,7 +195,7 @@ export const robloxLetsTrade: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Someone just sent me a [[trade:a swap of items between two players]] offer! They want my sword and are offering a common hat. That is not fair!",
     },
     {
@@ -207,7 +207,7 @@ export const robloxLetsTrade: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Done — I [[declined:said no to the trade offer]]. Now someone else is offering me a rare pet! That seems like a better [[deal:an agreement where both players get something]].",
     },
     {
@@ -219,7 +219,7 @@ export const robloxLetsTrade: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I [[accepted:said yes to the trade]] it! Good trade! Now I have a rare pet. This is exactly like real life — my brother and I [[trade:swap things]] football stickers all the time!",
     },
     {
@@ -231,7 +231,7 @@ export const robloxLetsTrade: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Good advice! In Roblox and in real life — always check the [[value:how much something is worth]] before you agree to a [[deal:an agreement between two people]].",
     },
     {

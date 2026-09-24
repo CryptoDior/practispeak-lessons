@@ -6,7 +6,7 @@ export const customerFeedback: Lesson = {
   subtitle: 'How to talk about what customers think and how to respond to their feedback',
   level: 'A2',
   description: 'Learn the key words for discussing customer feedback — how to collect it, what to do with it, and how to respond professionally.',
-  heroImage: '/images/customer-feedback-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-feedback-hero.png',
 
   vocabulary: [
     {
@@ -72,7 +72,7 @@ export const customerFeedback: Lesson = {
       phrase: 'FOLLOW UP ON',
       definition: 'Contact a customer again after a complaint or feedback to check if the issue was resolved.',
       example: 'We always follow up on complaints within 24 hours to make sure the client is happy.',
-      imageSlug: '/images/customer-feedback-follow-up-on.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-feedback-follow-up-on.png',
     },
     {
       phrase: 'ACT ON FEEDBACK',
@@ -112,73 +112,73 @@ export const customerFeedback: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Riley, how does Brightline handle customer [[feedback:opinions and reactions from customers about their experience]]? Do you have a system for it?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — we have a few things in place. First, we send a short [[survey:a set of questions used to collect opinions from customers]] to all new clients after their first month. It asks about their experience with onboarding, the product, and the support team.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'And how do you measure overall [[satisfaction:how happy a customer feels about a product or service]]?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We use NPS — [[net promoter score:a score that shows how likely customers are to recommend your product]]. We ask: 'How likely are you to recommend us to a colleague?' Our score is 72, which is very good for B2B software.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'What about public [[review:a written comment from a customer about their experience]]s? Do you ask for those?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — we ask happy clients to leave a review on G2. Our average [[rating:a number that shows how happy a customer is]] is 4.7 out of 5. We use the best quotes as [[testimonial:a positive statement from a happy customer used in marketing]]s on the website.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'And when there is a [[complaint:a message from a customer saying they are unhappy]]? How do you handle that?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'We take complaints seriously. We respond within 24 hours, listen to the problem, and fix it. Then we follow up to make sure the client is happy. If we handle it well, some of those clients become our biggest supporters.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'What about [[churn:the number of customers who stop using your product]]? Is that a problem for you?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'It is something we watch closely. If a client is not using the product, we reach out before they decide to leave. Good feedback processes help you spot these clients early.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'I have never had a formal feedback process. I just hope my clients are happy.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is the problem — you only find out they are unhappy when they leave. Ask for feedback early and often. It is the best way to reduce churn and improve the product.',
     }
   ],

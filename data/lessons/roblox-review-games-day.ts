@@ -21,7 +21,7 @@ export const robloxReviewGamesDay: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The waiting area inside a game where you wait before the round starts.',
       example: 'Everyone wait in the lobby — the game starts in 10 seconds!',
-      imageSlug: '/images/roblox-review-games-day-lobby.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-games-day-lobby.png',
     },
     {
       word: 'BUILD',
@@ -56,7 +56,7 @@ export const robloxReviewGamesDay: Lesson = {
       partOfSpeech: 'exclamation',
       definition: 'Short for "Good Game" — you say it at the end to congratulate all players.',
       example: 'GG everyone! That was the most fun game we have played all week!',
-      imageSlug: '/images/roblox-review-games-day-gg.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-games-day-gg.png',
     },
     {
       word: 'LEADERBOARD',
@@ -189,7 +189,7 @@ export const robloxReviewGamesDay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: 'Ready! Go!',
     },
     {
@@ -201,7 +201,7 @@ export const robloxReviewGamesDay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: 'Easy! [[AVATAR:the character you make and play as in Roblox]]! I remember it — it is also the word for a profile picture in real life.',
     },
     {
@@ -213,7 +213,7 @@ export const robloxReviewGamesDay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: '[[GG:short for Good Game — used to say well done at the end of a round]]! And in real life we say "well done" or "great game". I remember!',
     },
     {
@@ -225,7 +225,7 @@ export const robloxReviewGamesDay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: '[[ROBUX:the money used inside Roblox]]! And the real-life word is MONEY. I remember because in Roblox we say ROBUX and in real life we say MONEY.',
     },
     {
@@ -237,7 +237,7 @@ export const robloxReviewGamesDay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: '[[OBBY:a game where you jump and climb over obstacles to reach the end]]! And in real life it is an OBSTACLE COURSE. I love obbies — they are my favourite [[leaderboard:a list showing the best players and their scores]] topic too — I want to be number one!',
     },
   ],

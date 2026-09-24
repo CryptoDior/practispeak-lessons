@@ -6,7 +6,7 @@ export const reviewC1CommunicationMastery: Lesson = {
   subtitle: 'Consolidating the advanced vocabulary, phrases, and communication skills from lessons 11 to 18',
   level: 'C1-C2',
   description: "This review lesson consolidates the vocabulary and communication skills from lessons 11 to 18. You will revisit the most important terms from AI and automation, media relations, luxury marketing, cause-related marketing, recession marketing, cross-cultural negotiation, advanced presentation skills, and white paper writing. The focus is on active recall, applying vocabulary and phrases in new contexts, and identifying the subtle distinctions between terms you may have confused. By the end of this lesson, you should be able to move fluidly across these eight topic areas in a real professional conversation.",
-  heroImage: '/images/review-c1-communication-mastery-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-c1-communication-mastery-hero.png',
 
   vocabulary: [
     {
@@ -154,7 +154,7 @@ export const reviewC1CommunicationMastery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "This is the review session — eight lessons, one conversation. I want to move fast and connect themes across topics. Marcus, start with AI and automation. What is the single C1-level insight from that lesson?",
     },
     {
@@ -166,13 +166,13 @@ export const reviewC1CommunicationMastery: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Good. Media relations — the word that is easy to confuse there is off the record and on background. The difference is what the journalist can do with the information. Off the record: they know it but cannot use it. On background: they can use it without attributing it to you.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Luxury and cause-related marketing next — what distinguishes luxury positioning from purpose-led marketing in this context is the source of the brand's permission. Luxury permission comes from heritage, exclusivity, and craftsmanship. Purpose-led permission comes from [[greenwashing:claiming environmental or social credentials you have not earned]] avoidance — from proving the commitment is real, not performative.",
     },
     {
@@ -184,13 +184,13 @@ export const reviewC1CommunicationMastery: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Cross-cultural negotiation: the insight was about [[face-saving:protecting someone's dignity in a social or professional context]]. A 'yes' that is given to avoid public disagreement is not a commitment — it is a face-saving exit. The skill is to create structures that allow the other side to decline without losing face.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Presentation skills — the phrase that matters most for this group is 'I take that point, and here is where I see it differently.' It is the structure that lets you concede without collapsing and disagree without being defensive. The [[bridge:a technique for moving from a difficult point to the message you want to deliver]] is the connection between the challenge and the message.",
     },
     {
@@ -202,7 +202,7 @@ export const reviewC1CommunicationMastery: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Let me draw that together — the [[common thread:the underlying principle connecting multiple topics]] across all eight lessons is the gap between what you intend to communicate and what the audience actually receives. Every lesson is about understanding and closing that gap with precision. Where I think I still need practice: reading the gap in real time — not in preparation, but in the live conversation.",
     },
   ],

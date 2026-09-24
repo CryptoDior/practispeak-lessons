@@ -6,7 +6,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
   subtitle: 'One product, four audiences — how to adapt your message for users, managers, executives, and buyers',
   level: 'C1-C2',
   description: 'The same product needs to be described completely differently depending on who you are talking to. Users want to know if it will make their day easier. Managers want to know if their team will actually adopt it. Executives want to know if it moves a strategic number. Buyers want to know if it is worth the risk and the spend. Giving the wrong message to the right person — or the right message to the wrong person — is one of the most common reasons good deals stall. This lesson teaches how to read your audience, adapt your language, and make the same value land differently in every room.',
-  heroImage: '/images/selling-to-different-decision-makers-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/selling-to-different-decision-makers-hero.png',
 
   vocabulary: [
     {
@@ -63,7 +63,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The specific statement of value or benefit being offered to a particular audience. In a multi-stakeholder sale, the proposition must be adapted for each decision-maker — the same features become different benefits depending on who is listening. A proposition that works perfectly for a VP of Sales will usually fail completely with a CFO, even when the underlying product is identical.',
       example: 'Riley prepared four versions of her proposition for the multi-stakeholder meeting. For the users: you will spend less time on the parts of your job that are not actually your job. For the manager: your team will onboard new clients in three days instead of fourteen. For the CFO: the investment is recovered within one quarter at conservative assumptions. For procurement: the contract includes a service level agreement with financial penalties for downtime above 0.1%.',
-      imageSlug: '/images/selling-to-different-decision-makers-proposition.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/selling-to-different-decision-makers-proposition.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is a really useful piece of feedback — and I appreciate you saying it directly. I have been giving you the executive [[proposition:the specific statement of value adapted for a particular audience]] when what you need is the operations conversation. Let me reset. In your role, what matters most is probably whether this actually gets [[adopted:embedded in daily workflow rather than just purchased]], not whether the ROI model holds up on paper.',
     },
     {
@@ -130,7 +130,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is the most important thing you have told me. The way your team would feel this in the first month is: the Friday afternoon report that currently takes three hours gets done automatically overnight. That is not an efficiency gain on a slide — that is three hours back, every week, for every person on the team. The question is whether they believe it will actually work, or whether they will resist it the way they resisted the last two tools.',
     },
     {
@@ -142,7 +142,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The answer is in how we structure the rollout — not the product itself. We start with two or three of your most senior users, people whose opinion carries [[influence:the capacity to affect a decision without formal authority]] in the team. If they adopt it and say it works, the rest of the team follows. If we start with the whole team at once, the first friction point becomes the story everyone tells.',
     },
     {
@@ -154,7 +154,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Those are different conversations that need different language. For your CFO, the conversation is about [[ROI:Return on Investment — the financial return relative to cost]]: the investment is recovered within one quarter at conservative assumptions, and the contract includes penalty clauses for downtime so the financial risk is bounded. For your CEO, the conversation is about competitive position — from a business perspective, two companies in your sector started this in Q3 and are already in the compounding phase of the efficiency gain.',
     },
     {
@@ -166,7 +166,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is exactly where I can help you. You are the [[champion:someone inside the organisation who advocates for a solution internally]] here — and my job is to make sure you have everything you need to have each of those conversations without me in the room. I can prepare a one-page summary for the CFO in her language, a brief for your CEO that uses the competitive framing, and a rollout proposal for your team leads that addresses the adoption concern directly.',
     },
     {
@@ -178,7 +178,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "In most deals this size, we find there are four [[stakeholder:anyone with interest in or influence over a decision]] groups: the user team, the operations lead — which is you — the executive sponsor, and procurement. We have covered two of those today. The one I would want to add, based on what you have told me about the previous failed tools, is two of your senior users — directly, before the broader rollout conversation. Their voice shapes the team's perception more than any top-down announcement.",
     },
     {
@@ -190,7 +190,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Procurement will need to see the contract and the SLA, and IT will want to review the data handling. Neither of those is a blocker if we get ahead of them — they become blockers if we surface them at the end. I would like to send IT the technical documentation this week, before anyone asks for it. That way, by the time [[consensus:agreement across multiple stakeholders]] is needed, the process conversations are already done and only the decision conversation is left.',
     }
   ],

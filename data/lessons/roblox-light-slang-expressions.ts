@@ -37,21 +37,21 @@ export const robloxLightSlangExpressions: Lesson = {
       partOfSpeech: 'exclamation',
       definition: "Short for 'Good Game' — said at the end of a match to acknowledge it was well played. Used sincerely and ironically.",
       example: "GG everyone — that was a genuinely close match. Both teams played at an incredibly high level.",
-      imageSlug: '/images/roblox-light-slang-expressions-gg.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-light-slang-expressions-gg.png',
     },
     {
       word: 'AFK',
       partOfSpeech: 'abbreviation',
       definition: "Short for 'Away From Keyboard' — means you are not currently present or paying attention.",
       example: "Sorry — I went AFK for a few minutes. My brother needed help with something. What did I miss?",
-      imageSlug: '/images/roblox-light-slang-expressions-afk.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-light-slang-expressions-afk.png',
     },
     {
       word: 'BRB',
       partOfSpeech: 'abbreviation',
       definition: "Short for 'Be Right Back' — means you will return in a very short amount of time.",
       example: "BRB — just grabbing a drink and I will be back in under two minutes. Do not start without me.",
-      imageSlug: '/images/roblox-light-slang-expressions-brb.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-light-slang-expressions-brb.png',
     },
     {
       word: 'NPC',
@@ -65,7 +65,7 @@ export const robloxLightSlangExpressions: Lesson = {
       partOfSpeech: 'noun',
       definition: "Short for 'Most Effective Tactic Available' — the best strategy that the best players are using right now.",
       example: "The meta has completely shifted since the patch — the aggressive close-range build is suddenly the strongest option.",
-      imageSlug: '/images/roblox-light-slang-expressions-meta.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-light-slang-expressions-meta.png',
     },
     {
       word: 'GRIND',
@@ -86,7 +86,7 @@ export const robloxLightSlangExpressions: Lesson = {
       partOfSpeech: 'abbreviation',
       definition: "Short for 'Overpowered' — describes something that is unfairly too strong, giving an unbalanced advantage.",
       example: "That weapon is completely OP — the developers need to nerf it in the next patch or ranked mode will be broken.",
-      imageSlug: '/images/roblox-light-slang-expressions-op.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-light-slang-expressions-op.png',
     },
   ],
 
@@ -180,7 +180,7 @@ export const robloxLightSlangExpressions: Lesson = {
       example: "Call out the sniper position as soon as you spot it — waiting costs your team precious seconds.",
       inGame: "Good call-outs win close matches — the team with the best communication almost always outperforms.",
       inRealLife: "She called out the error in the data during the presentation — catching it early saved significant time.",
-      imageSlug: '/images/roblox-light-slang-expressions-call-out.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-light-slang-expressions-call-out.png',
     },
     {
       phrase: "LAG BEHIND",
@@ -206,7 +206,7 @@ export const robloxLightSlangExpressions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[GG:short for Good Game — said at the end of a match]], Mia — that was one of the best matches we have ever played. The coordination was perfect from start to finish.",
     },
     {
@@ -218,7 +218,7 @@ export const robloxLightSlangExpressions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "No stress — we covered. Hey, are you aware of the new [[meta:the current dominant strategy — Most Effective Tactic Available]]? The patch completely changed everything.",
     },
     {
@@ -230,7 +230,7 @@ export const robloxLightSlangExpressions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The close-range build is completely [[OP:Overpowered — unfairly too strong]] now. It was already solid, but the patch buffed the attack speed by thirty percent.",
     },
     {
@@ -242,7 +242,7 @@ export const robloxLightSlangExpressions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. Oh — [[BRB:Be Right Back — returning very soon]], someone is at the door. Give me two minutes.",
     },
     {
@@ -254,7 +254,7 @@ export const robloxLightSlangExpressions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Ha — we were all noobs once. Remember when you thought the NPC enemies would not follow you if you crouched?",
     },
     {

@@ -6,7 +6,7 @@ export const customerRetentionAndLoyalty: Lesson = {
   subtitle: 'How to keep customers, reduce churn, and build programmes that turn one-time buyers into long-term advocates',
   level: 'B1-B2',
   description: "Acquiring a new customer costs five to seven times more than retaining an existing one. Yet most marketing investment goes into acquisition rather than retention. The brands that grow most sustainably are the ones that keep their customers coming back — through great products, smart loyalty programmes, and proactive communication that makes customers feel valued before they think about leaving. This lesson teaches you the essential vocabulary of customer retention and loyalty marketing.",
-  heroImage: '/images/customer-retention-and-loyalty-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-retention-and-loyalty-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const customerRetentionAndLoyalty: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: "The rate at which customers stop buying from a company or cancel their subscription. High churn means the company is losing customers.",
       example: "The company has a high churn rate because customers are cancelling after the first 90 days.",
-      imageSlug: '/images/customer-retention-and-loyalty-churn.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-retention-and-loyalty-churn.png',
     },
     {
       word: 'NPS',
       partOfSpeech: 'abbreviation',
       definition: "Net Promoter Score — a number that shows how loyal customers are. Customers rate from 0 to 10 how likely they are to recommend the company to a friend. Abbreviated as NPS.",
       example: "The company's NPS is 34, which means there is still work to do to improve customer loyalty.",
-      imageSlug: '/images/nps.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/nps.png',
     },
     {
       word: 'LOYALTY PROGRAMME',
       partOfSpeech: 'noun',
       definition: "A system that rewards customers for buying again — through points, discounts, or special access. It gives customers a reason to choose you instead of a competitor.",
       example: "The loyalty programme gives long-term customers early access to new products and a dedicated account manager.",
-      imageSlug: '/images/loyalty-programme.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/loyalty-programme.png',
     },
     {
       word: 'LIFETIME VALUE',
       partOfSpeech: 'noun',
       definition: "The total amount of money a company expects to earn from one customer over the whole time they stay. Also called LTV.",
       example: "The average lifetime value of a customer is £4,200, so keeping customers longer has a big impact on revenue.",
-      imageSlug: '/images/lifetime-value.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/lifetime-value.png',
     },
     {
       word: 'RE-ENGAGEMENT',
       partOfSpeech: 'noun',
       definition: "The process of reconnecting with customers who have stopped buying or using the product — to bring them back before they leave completely.",
       example: "A re-engagement campaign was sent to customers who had not opened an email in three months.",
-      imageSlug: '/images/re-engagement.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/re-engagement.png',
     },
     {
       word: 'RETENTION RATE',
       partOfSpeech: 'noun',
       definition: "The percentage of customers who continue to buy from a company over a period of time. A higher retention rate means more customers are staying.",
       example: "The 12-month retention rate improved from 61% to 70% after the new onboarding programme was launched.",
-      imageSlug: '/images/retention-rate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/retention-rate.png',
     },
     {
       word: 'WIN-BACK',
       partOfSpeech: 'noun / verb',
       definition: "A campaign to bring back customers who have already cancelled or stopped buying. Unlike re-engagement, win-back targets customers who have already left.",
       example: "A win-back campaign was sent to customers who cancelled in the last 12 months, showing them what had changed.",
-      imageSlug: '/images/customer-retention-and-loyalty-win-back.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-retention-and-loyalty-win-back.png',
     },
     {
       word: 'ONBOARDING',
       partOfSpeech: 'noun',
       definition: "The process of helping new customers get started and reach their first result quickly. Good onboarding makes customers much less likely to leave.",
       example: "The company redesigned its onboarding to help new customers see results in their first week.",
-      imageSlug: '/images/customer-retention-and-loyalty-onboarding.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-retention-and-loyalty-onboarding.png',
     },
   ],
 
@@ -72,7 +72,7 @@ export const customerRetentionAndLoyalty: Lesson = {
       phrase: 'WE NEED TO REDUCE CHURN BY...',
       definition: "A phrase for setting a specific target to lose fewer customers. Always include a number — a percentage, a number of customers, or a revenue amount.",
       example: "We need to reduce churn by 1.5 percentage points by the end of Q4.",
-      imageSlug: '/images/we-need-to-reduce-churn-by.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/we-need-to-reduce-churn-by.png',
       inAction: 'We need to reduce churn by 1.5 percentage points — that is the difference between growing the business and running to stand still.',
       register: "Neutral — Flux (B2B SaaS subscription, commercial review): board presentation reads we need to reduce churn by 2 percentage points in H2 — at current ARR, that represents £1.4 million in protected revenue. | Kora (DTC vitamin subscription, retention team): weekly brief reads we need to reduce churn by 15% among customers in their first 60 days — the onboarding sequence redesign is the primary lever. | Arch (B2B legal platform, customer success team): QBR reads we need to reduce churn by targeting the 200 accounts in the 6-18 month danger zone with a proactive value review before they reach renewal.",
       visualExamples: [
@@ -85,7 +85,7 @@ export const customerRetentionAndLoyalty: Lesson = {
       phrase: 'THE LIFETIME VALUE OF THIS CUSTOMER SEGMENT IS...',
       definition: "A phrase for presenting the total revenue expected from a specific group of customers. Always give a specific number.",
       example: "The lifetime value of the enterprise customer segment is approximately £18,000.",
-      imageSlug: '/images/the-lifetime-value-of-this-segment-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-lifetime-value-of-this-segment-is.png',
       inAction: 'The lifetime value of this customer segment is £9,400 — which means the cost of a dedicated account manager at £35k per year is justified if they retain 4 customers who would otherwise have churned.',
       register: "Neutral — Halo (DTC skincare subscription, commercial team): monthly review reads the lifetime value of the subscription segment is 4x the lifetime value of one-time buyers — which makes a retention-focused loyalty programme the highest-ROI investment available to us. | Crest (B2B compliance SaaS, finance team): annual planning reads the lifetime value of our financial services customers is £22,000 on average — 3x our overall average, which justifies a dedicated vertical team and custom onboarding track. | Bloom (DTC health supplements, growth team): board presentation reads the lifetime value of customers acquired through referral is 28% higher than those acquired through paid search — which is the business case for our new referral programme.",
       visualExamples: [
@@ -98,7 +98,7 @@ export const customerRetentionAndLoyalty: Lesson = {
       phrase: 'WE SHOULD RUN A RE-ENGAGEMENT CAMPAIGN FOR...',
       definition: "A phrase for proposing a campaign to reconnect with inactive customers. Always say who the campaign is for and why they are at risk.",
       example: "We should run a re-engagement campaign for customers who have not logged in for 45 days.",
-      imageSlug: '/images/we-should-run-a-re-engagement-campaign.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/we-should-run-a-re-engagement-campaign.png',
       inAction: 'We should run a re-engagement campaign for customers who have not made a second purchase within 60 days — statistically these are the highest churn risk.',
       register: "Neutral — Ritual Box (wellness subscription, retention team): CRM brief reads we should run a re-engagement campaign for the 1,200 subscribers who have paused their subscription in the last 90 days — the message is what they have been missing and a one-click resume option. | Gloss (DTC beauty, email team): campaign brief reads we should run a re-engagement campaign for customers who have not opened an email in 90 days — start with a subject line about them, not us. | Prism (B2B analytics, customer success): account review reads we should run a re-engagement campaign for the 45 accounts whose weekly active users have dropped by more than 50% — a product specialist call before they reach renewal.",
       visualExamples: [
@@ -111,7 +111,7 @@ export const customerRetentionAndLoyalty: Lesson = {
       phrase: 'OUR NPS SHOWS THAT...',
       definition: "A phrase for sharing a specific insight from Net Promoter Score data. Always follow with a clear finding — a score, a trend, or a pattern.",
       example: "Our NPS shows that customers who complete the full onboarding programme are much more likely to stay.",
-      imageSlug: '/images/our-nps-shows-that.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/our-nps-shows-that.png',
       inAction: 'Our NPS shows that Promoters are concentrated among customers who have completed the advanced onboarding track — which tells us what the programme is missing for everyone else.',
       register: "Neutral — Velo (B2B fleet SaaS, commercial review): board update reads our NPS shows that customers using the mobile app daily score 22 points higher than desktop-only users — which is the business case for the mobile-first product roadmap. | Kora (DTC subscription, marketing team): monthly review reads our NPS shows that customers who have made three or more purchases score 18 points higher than two-purchase customers — the third purchase is the loyalty threshold. | Bolt (B2B HR platform, customer success): QBR reads our NPS shows that our Detractors almost all share one characteristic — they did not complete the onboarding programme. This is a training problem, not a product problem.",
       visualExamples: [
@@ -124,7 +124,7 @@ export const customerRetentionAndLoyalty: Lesson = {
       phrase: 'THE LOYALTY PROGRAMME IS DESIGNED TO...',
       definition: "A phrase for explaining the purpose of a loyalty programme — what behaviour it encourages and what result it will deliver for the business.",
       example: "The loyalty programme is designed to increase purchase frequency and turn satisfied customers into referrers.",
-      imageSlug: '/images/the-loyalty-programme-is-designed-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-loyalty-programme-is-designed-to.png',
       inAction: 'The loyalty programme is designed to reward depth of engagement, not just spend — because our most engaged customers have the highest lifetime value and are our best source of referrals.',
       register: "Neutral — Halo (DTC skincare, marketing team): programme design brief reads the loyalty programme is designed to increase purchase frequency among the 30% of customers who buy once and never return — the first goal is to get them to a second purchase within 60 days. | Crest (B2B compliance SaaS, commercial team): programme proposal reads the loyalty programme is designed to increase our net revenue retention above 100% — by rewarding customers who expand their usage with priority support and co-development access. | Ember (meal kit subscription, retention team): programme update reads the loyalty programme is designed to reduce voluntary churn by creating exit barriers that feel like benefits — the longer you stay, the more you have built inside the programme.",
       visualExamples: [
@@ -137,7 +137,7 @@ export const customerRetentionAndLoyalty: Lesson = {
       phrase: 'WE ARE TARGETING A RETENTION RATE OF...',
       definition: "A phrase for stating a specific retention goal. Always give the percentage and the timeframe.",
       example: "We are targeting a retention rate of 78% at 12 months, up from 61% currently.",
-      imageSlug: '/images/we-are-targeting-a-retention-rate-of.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/we-are-targeting-a-retention-rate-of.png',
       inAction: 'We are targeting a retention rate of 85% at 12 months — which would put us in the top quartile for our sector and add approximately £1.8m to annual recurring revenue.',
       register: "Neutral — Flux (B2B SaaS, commercial planning): annual plan reads we are targeting a retention rate of 90% at 12 months — the industry top quartile — which requires reducing churn from 4.2% to 0.9% monthly through a combination of onboarding, CS intervention, and product improvement. | Kora (DTC subscription, growth team): quarterly brief reads we are targeting a retention rate of 70% at 6 months, up from 52% — the onboarding redesign and the loyalty programme are the two main levers. | Prism (B2B analytics, board presentation): board update reads we are targeting a net revenue retention rate of 110% — meaning we want existing customer revenue to grow by 10% annually through expansion, upsell, and reduced churn.",
       visualExamples: [
@@ -160,13 +160,13 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Three main drivers. First, weak [[onboarding:the process of introducing new customers and helping them reach their first success quickly]] — exit surveys show customers who churn in months two and three overwhelmingly say they never got enough value from the product to justify continuing. Second, no proactive contact in the 6 to 18 month window — which is when satisfaction drops most sharply. Third, no [[re-engagement:the process of reconnecting with customers who have become disengaged]] programme for customers who stop using the product.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Our [[NPS:Net Promoter Score — a measure of customer loyalty based on likelihood to recommend]] data supports that. Our NPS shows that Promoters and Detractors are almost entirely split by onboarding completion. Customers who completed the full programme score 8.9 on average. Those who did not score 5.1.",
     },
     {
@@ -178,13 +178,13 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Our average LTV is £4,200. Our [[retention rate:the percentage of customers who remain over a given period]] is 61% at 12 months — industry benchmark is 78%. If we close that gap to 70%, we protect approximately £1.8 million in annual revenue. We are targeting a retention rate of 78% within 18 months.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "We also need to reduce churn by addressing the specific segments where it is highest. The 6 to 18 month segment has a churn rate of 6.1% — we need to reduce churn by at least 2 percentage points there.",
     },
     {
@@ -196,13 +196,13 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "One — redesign onboarding to get customers to their first meaningful result within 14 days. Two — we should run a re-engagement campaign for the 600 customers showing early warning signs of disengagement — low usage, email inactivity. Three — launch a [[loyalty programme:a structured system that rewards customers for repeat purchases or continued engagement]] to recognise and reward our longest-tenured customers.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "On the loyalty programme — the loyalty programme is designed to drive three behaviours: increase purchase frequency, deepen product engagement, and convert our best customers into advocates. The lifetime value of this customer segment — our top 20% — is £9,200 on average, which justifies significant investment in keeping them.",
     },
     {
@@ -214,13 +214,13 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "580 customers churned in the last 12 months. Our win-back campaign will target the 300 who left for reasons we can address — pricing, missing features, or poor onboarding. Not the ones who left because the product is genuinely a poor fit. We personalise the message based on exit reason. No blanket discounts.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The win-back message is: here is what has changed since you left. Features added, improvements made, customers like them who are now successful. The ask is not to buy again immediately — it is to have a 20-minute call to see if the product now fits their needs.",
     },
     {
@@ -232,7 +232,7 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Agreed. I will have the detailed implementation plan for the onboarding redesign ready by Friday, the re-engagement campaign brief by end of next week, and the loyalty programme proposal for review in two weeks.",
     },
   ],

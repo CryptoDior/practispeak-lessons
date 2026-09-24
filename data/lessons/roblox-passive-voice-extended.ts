@@ -220,7 +220,7 @@ export const robloxPassiveVoiceExtended: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is the extended passive — specifically the impersonal passive. Notice what is missing: who reported it, who believes it. The structure distances the information from any single source. Very useful when you are not certain — or when you do not want to take direct responsibility for a claim.",
     },
     {
@@ -232,7 +232,7 @@ export const robloxPassiveVoiceExtended: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Completely different. 'The developers say' assigns the claim to a named source. 'It is reported that' removes the source — it suggests the information comes from somewhere general, unspecified. It is also more formal, which is why news articles and patch notes use it constantly.",
     },
     {
@@ -244,7 +244,7 @@ export const robloxPassiveVoiceExtended: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Yes — ALLEGED specifically signals that something is claimed, especially about wrongdoing, but has not been proven. It is the language of accusations before investigation. If you say something is [[alleged:stated as true but not yet proven]], you are legally protected — you are not stating it as fact.",
     },
     {
@@ -256,7 +256,7 @@ export const robloxPassiveVoiceExtended: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. And 'it is [[expected:thought likely to happen based on available information]] that' sits at a different level entirely — it is about the future, based on current information. The patch is expected to be released this weekend. Nobody is lying; it just has not happened yet.",
     },
     {
@@ -268,7 +268,7 @@ export const robloxPassiveVoiceExtended: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is exactly the point. It is [[understood:generally accepted within a community without formal statement]] that skilled writers choose these structures deliberately. The passive does not just describe action — it controls how certain, how personal, and how responsible the information sounds.",
     },
   ],

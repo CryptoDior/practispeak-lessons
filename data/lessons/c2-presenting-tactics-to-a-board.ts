@@ -40,7 +40,7 @@ export const c2PresentingTacticsToABoard: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A clear statement of what you are proposing — the recommendation or course of action you are asking the board to approve.',
       example: '"My proposition is straightforward: invest in three specific positional areas this window, and we project a top-six finish is achievable on current xG trends."',
-      imageSlug: '/images/c2-presenting-tactics-to-a-board-proposition.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/c2-presenting-tactics-to-a-board-proposition.png',
     },
     {
       word: 'HEADLINE',

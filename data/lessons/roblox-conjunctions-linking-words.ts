@@ -164,7 +164,7 @@ export const robloxConjunctionsLinkingWords: Lesson = {
       example: "Follow up after the strategy meeting — not everyone takes notes and things get forgotten fast.",
       inGame: "Follow up every opening your teammate creates — if you do not press the advantage, you lose it.",
       inRealLife: "She followed up the interview with a thank-you email and a short portfolio summary.",
-      imageSlug: '/images/roblox-conjunctions-linking-words-follow-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-conjunctions-linking-words-follow-up.png',
     },
     {
       phrase: "COME DOWN TO",
@@ -206,7 +206,7 @@ export const robloxConjunctionsLinkingWords: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, I have been thinking about our loss last weekend. We lost [[because:introduces the reason or cause]] we gave up our defensive position far too early in phase two.",
     },
     {
@@ -218,7 +218,7 @@ export const robloxConjunctionsLinkingWords: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. The plan was solid. [[However:introduces a contrasting point — the next idea opposes what was just said]], when the pressure increased, we stopped communicating and the whole strategy collapsed.",
     },
     {
@@ -230,7 +230,7 @@ export const robloxConjunctionsLinkingWords: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "We should also practise transitions [[so that:introduces the purpose — explains why something is done]] everyone knows exactly when to push and when to hold without needing to be told.",
     },
     {
@@ -242,7 +242,7 @@ export const robloxConjunctionsLinkingWords: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Completely agree. The aggressive build gives us an edge in the early game. [[On the other hand:introduces a different perspective or opposing point]], it leaves us exposed if the match runs long.",
     },
     {
@@ -254,7 +254,7 @@ export const robloxConjunctionsLinkingWords: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Smart. Poor communication led to our collapse — let us make sure that never happens again. What does your fallback build look like?",
     },
     {

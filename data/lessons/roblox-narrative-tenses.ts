@@ -219,7 +219,7 @@ export const robloxNarrativeTenses: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That's a tense problem. In a story, you need three different tenses — each one does a different job. Let me show you. What happened first?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxNarrativeTenses: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Perfect — three tenses right there. 'We [[prior:before something else — happening earlier in time]] — we HAD TRAINED all week' — that's past perfect: completed before the story starts. 'I WAS watching' — past continuous: already ongoing when the main event hit.",
     },
     {
@@ -243,7 +243,7 @@ export const robloxNarrativeTenses: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. So the [[sequence:order in which things happen]] works like this: past perfect for what came before → past continuous for the [[background:the situation that was already there]] → simple past for the main events.",
     },
     {
@@ -255,7 +255,7 @@ export const robloxNarrativeTenses: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Use WHILE or AS with two past continuous verbs. 'While I was watching the left side, the enemy was moving right.' Both ongoing — both past continuous.",
     },
     {
@@ -267,7 +267,7 @@ export const robloxNarrativeTenses: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "WHEN + simple past [[interrupt:stop something that was already happening]]s the past continuous: 'We were building our defence WHEN the attack came.' The attack is the simple past — it breaks the ongoing action. This is the [[turning point:the moment when a situation begins to change]] of most stories.",
     },
   ],

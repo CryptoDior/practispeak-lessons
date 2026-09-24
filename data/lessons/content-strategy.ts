@@ -6,7 +6,7 @@ export const contentStrategy: Lesson = {
   subtitle: 'How to plan, organise, and talk about a content strategy that actually serves your audience and your goals',
   level: 'B1-B2',
   description: 'Content marketing is one of the most powerful tools in B2B — but only when it is planned. In this lesson you will learn the vocabulary for building and presenting a content strategy: how to choose topics, organise a content calendar, match your tone to your audience, and repurpose content to get more out of every piece you create.',
-  heroImage: '/images/content-strategy-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/content-strategy-hero.png',
 
   vocabulary: [
     {
@@ -112,7 +112,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Marcus — I want to walk you through the three-month content plan before we get into the details. The whole strategy is built around three [[content pillar:a core theme your brand owns and creates content around consistently]] areas: operational efficiency, cost reduction, and manufacturing leadership.',
     },
     {
@@ -124,7 +124,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Because those are the three things your persona — Claire, the Operations Director — thinks about every day. Every piece of content connects to at least one of those [[content pillar:core themes]]. That focus is what makes content memorable rather than generic.',
     },
     {
@@ -136,7 +136,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "That is exactly why we documented the [[tone of voice:how your brand sounds, not just what it says]] before writing anything. TechFlow's tone is direct, evidence-led, and peer-to-peer — we talk to operations directors like they are colleagues. No jargon, no vague claims, no corporate language. Every writer on our team has the [[tone of voice:brand personality guidelines]] document before they start.",
     },
     {
@@ -148,7 +148,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'It looks complex but it is actually simple to use. The [[editorial calendar:the content schedule]] tells each person on the team: what is being published this week, who is responsible for drafting it, and when the client needs to [[sign off on:formally approve]] it. The rule is: nothing goes live without your approval. One round, within 48 hours.',
     },
     {
@@ -160,7 +160,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Yes — it is one of the most efficient things we do. Every case study gets [[repurpose:adapted into different formats]] into three things: a full PDF for download, a LinkedIn carousel with the top three numbers, and a short paragraph for the email newsletter. One story, three formats, three different ways to reach people. We also focus on [[evergreen:content that stays relevant over a long period]] content wherever possible — articles that are as useful in two years as they are today.',
     },
     {
@@ -172,7 +172,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: '[[Thought leadership:content that builds expert credibility]] is month three — once we have laid the foundation with case studies and proof. The most important thing about [[thought leadership:expert content]] is that it does not promote the product — it solves a real problem. That is what builds trust. And every piece has a clear [[call to action:what you want the reader to do next]] — usually: read the case study, or book a conversation.',
     },
     {
@@ -184,7 +184,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'We typically see engagement grow within four to six weeks — people [[hooking in:capturing their attention immediately]] to the right content fast. But leads from content take longer — usually month three onwards. The [[editorial calendar:content schedule]] is designed to [[build up:grow a following over time]] the audience steadily so that by the time month three content goes live, the audience is ready to act on it.',
     }
   ],

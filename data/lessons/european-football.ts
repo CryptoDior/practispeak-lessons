@@ -46,7 +46,7 @@ export const europeanFootball: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To earn a place in a competition or the next round — by finishing high enough in a group or winning a tie.',
       example: '"They qualified for the Champions League by finishing in the top four of the Premier League."',
-      imageSlug: '/images/european-football-qualify.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/european-football-qualify.png',
     },
     {
       word: 'TIE',

@@ -14,56 +14,56 @@ export const robloxRobuxShopping: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The money you use inside Roblox. You buy Robux with real money, or earn them.',
       example: 'I saved up 150 Robux and bought a cool crown for my avatar!',
-      imageSlug: '/images/roblox-robux-shopping-robux.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-robux.png',
     },
     {
       word: 'BUY',
       partOfSpeech: 'verb',
       definition: 'Get something from the shop by paying with Robux.',
       example: 'I want to buy that cool hat — it only costs 65 Robux!',
-      imageSlug: '/images/roblox-robux-shopping-buy.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-buy.png',
     },
     {
       word: 'CATALOG',
       partOfSpeech: 'noun',
       definition: 'The big Roblox shop where you can find clothes, accessories, and items for your avatar.',
       example: 'I found an amazing dragon wings accessory in the catalog!',
-      imageSlug: '/images/roblox-robux-shopping-catalog.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-catalog.png',
     },
     {
       word: 'PRICE',
       partOfSpeech: 'noun',
       definition: 'How many Robux something costs. Always check the price before you buy!',
       example: 'The price of that jacket is 750 Robux — that is a lot!',
-      imageSlug: '/images/roblox-robux-shopping-price.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-price.png',
     },
     {
       word: 'FREE',
       partOfSpeech: 'adjective',
       definition: 'Something that costs zero Robux — you can get it without paying!',
       example: 'This hat is free! I got it without spending any Robux.',
-      imageSlug: '/images/roblox-robux-shopping-free.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-free.png',
     },
     {
       word: 'SALE',
       partOfSpeech: 'noun',
       definition: 'When something costs fewer Robux than usual for a short time.',
       example: 'The wings are on sale — normally 1,000 Robux but now only 650!',
-      imageSlug: '/images/roblox-robux-shopping-sale.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-sale.png',
     },
     {
       word: 'SPEND',
       partOfSpeech: 'verb',
       definition: 'Use your Robux to buy things. Be careful not to spend too much!',
       example: 'I spent all my Robux on accessories. Now I have zero left!',
-      imageSlug: '/images/roblox-robux-shopping-spend.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-spend.png',
     },
     {
       word: 'EARN',
       partOfSpeech: 'verb',
       definition: 'Get Robux by doing things — like selling items you made or playing certain games.',
       example: 'I earned 100 Robux by selling a game pass in my own game!',
-      imageSlug: '/images/roblox-robux-shopping-earn.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-earn.png',
     },
   ],
 
@@ -73,56 +73,56 @@ export const robloxRobuxShopping: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The coins and notes you use to pay for things in real life.',
       example: 'I saved my pocket money for three weeks and had enough to buy a book!',
-      imageSlug: '/images/roblox-robux-shopping-money-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-money-irl.png',
     },
     {
       word: 'BUY',
       partOfSpeech: 'verb',
       definition: 'Pay money to get something from a shop.',
       example: 'I want to buy a new pair of trainers from the sports shop.',
-      imageSlug: '/images/roblox-robux-shopping-buy-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-buy-irl.png',
     },
     {
       word: 'SHOP',
       partOfSpeech: 'noun',
       definition: 'A place where you can look at and pay for things — like a clothes shop or a food market.',
       example: 'We went to the shop to buy milk, bread, and some fruit.',
-      imageSlug: '/images/roblox-robux-shopping-shop-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-shop-irl.png',
     },
     {
       word: 'PRICE',
       partOfSpeech: 'noun',
       definition: 'How much money something costs. The price is usually on a label or a sign.',
       example: 'The price of these trainers is $130. That is quite expensive!',
-      imageSlug: '/images/roblox-robux-shopping-price-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-price-irl.png',
     },
     {
       word: 'FREE',
       partOfSpeech: 'adjective',
       definition: 'Something you do not have to pay for.',
       example: 'The museum is free on Sundays — we did not pay anything to get in!',
-      imageSlug: '/images/roblox-robux-shopping-free-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-free-irl.png',
     },
     {
       word: 'SALE',
       partOfSpeech: 'noun',
       definition: 'When a shop sells things for less money than normal, often at the end of a season.',
       example: 'The trainers were on sale — I got them for £80.',
-      imageSlug: '/images/roblox-robux-shopping-sale-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-sale-irl.png',
     },
     {
       word: 'SPEND',
       partOfSpeech: 'verb',
       definition: 'Use your money to pay for things.',
       example: 'I spent £5 on a sandwich and a drink at lunch.',
-      imageSlug: '/images/roblox-robux-shopping-spend-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-spend-irl.png',
     },
     {
       word: 'EARN',
       partOfSpeech: 'verb',
       definition: 'Get money by doing work or helping someone.',
       example: 'I earn pocket money by helping at home — I wash the dishes every night.',
-      imageSlug: '/images/roblox-robux-shopping-earn-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-earn-irl.png',
     },
   ],
 
@@ -133,7 +133,7 @@ export const robloxRobuxShopping: Lesson = {
       example: 'How much does it cost? I only have 200 Robux left.',
       inGame: 'How much does it cost? I want to buy that sword but I need to check the price.',
       inRealLife: 'How much does it cost? I have £10 — is that enough?',
-      imageSlug: '/images/roblox-robux-shopping-how-much-does-it-cost.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-how-much-does-it-cost.png',
     },
     {
       phrase: 'I WANT TO BUY...',
@@ -141,7 +141,7 @@ export const robloxRobuxShopping: Lesson = {
       example: 'I want to buy that blue jacket in the catalog.',
       inGame: 'I want to buy the dragon wings — where is the buy button?',
       inRealLife: 'I want to buy a birthday card for my friend. Is there a shop nearby?',
-      imageSlug: '/images/roblox-robux-shopping-i-want-to-buy.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-i-want-to-buy.png',
     },
     {
       phrase: "IT'S FREE!",
@@ -149,7 +149,7 @@ export const robloxRobuxShopping: Lesson = {
       example: "It's free! Just click Add to Avatar — no Robux needed.",
       inGame: "It's free! You can get this hat without any Robux.",
       inRealLife: "It's free to enter the park — just walk in!",
-      imageSlug: '/images/roblox-robux-shopping-its-free.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-its-free.png',
     },
     {
       phrase: "I DON'T HAVE ENOUGH",
@@ -157,7 +157,7 @@ export const robloxRobuxShopping: Lesson = {
       example: "I don't have enough Robux for that item. I need 100 more!",
       inGame: "I don't have enough Robux. I'll save up and come back.",
       inRealLife: "I don't have enough money today. Can I buy it next week?",
-      imageSlug: '/images/roblox-robux-shopping-i-dont-have-enough.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-i-dont-have-enough.png',
     },
     {
       phrase: "IT'S ON SALE!",
@@ -165,7 +165,7 @@ export const robloxRobuxShopping: Lesson = {
       example: "It\'s on sale! That item was 400 Robux — now it's 200!",
       inGame: "It's on sale! Quick, buy it before the price goes back up.",
       inRealLife: "It's on sale at the shop — half price today only!",
-      imageSlug: '/images/roblox-robux-shopping-its-on-sale.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-its-on-sale.png',
     },
     {
       phrase: 'I EARNED IT BY...',
@@ -173,7 +173,7 @@ export const robloxRobuxShopping: Lesson = {
       example: 'I earned it by selling game passes in my obby!',
       inGame: 'I earned 200 Robux by making my own Roblox game!',
       inRealLife: 'I earned my pocket money by helping my mum tidy the house.',
-      imageSlug: '/images/roblox-robux-shopping-i-earned-it-by.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-robux-shopping-i-earned-it-by.png',
     },
   ],
 
@@ -183,7 +183,7 @@ export const robloxRobuxShopping: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: 'Mia! I went into the [[catalog:the big Roblox shop for avatar items]] and I found the most amazing dragon wings! I really want them.',
     },
     {
@@ -195,7 +195,7 @@ export const robloxRobuxShopping: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: 'They are 400 [[Robux:the money you use in Roblox]]. I only have 150. I need 250 more!',
     },
     {
@@ -207,7 +207,7 @@ export const robloxRobuxShopping: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Really? I'll wait then! How do you [[earn:get Robux by doing things]] Robux? I do not want to ask my parents for more.",
     },
     {
@@ -219,7 +219,7 @@ export const robloxRobuxShopping: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is so clever! In real life it's the same — I [[earn:get money by working]] £5 a week by washing the car. I [[spend:use money to buy things]] it on snacks though!",
     },
     {
@@ -231,7 +231,7 @@ export const robloxRobuxShopping: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Free things are the best! I'll [[buy:get something by paying]] the wings when they go on sale again and use the free hat for now.",
     },
     {

@@ -6,7 +6,7 @@ export const globalCampaignManagement: Lesson = {
   subtitle: 'How to manage international campaigns — balancing consistency, cultural relevance, and compliance',
   level: 'C1-C2',
   description: "Running a campaign in one market is hard. Running the same campaign across ten markets is a different challenge entirely. What works in one culture can fall flat — or cause real damage — in another. This lesson teaches the language of global campaign management: how to transcreate rather than just translate, how to build cultural intelligence into your process, and how to manage regional teams without losing brand consistency.",
-  heroImage: '/images/global-campaign-management-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/global-campaign-management-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "First: we need to transcreate, not just translate. [[Transcreation:adapting content for a new market so it has the same emotional impact, not just the same words]] means the Spanish or Japanese version needs to feel right in that culture — not just be technically accurate.",
     },
     {
@@ -130,7 +130,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is exactly the problem. Use a native creative team in each market to build the equivalent — same emotional landing, different execution. [[Cultural intelligence:the ability to understand how cultural differences affect communication and use it effectively]] is what tells you what that equivalent should be.",
     },
     {
@@ -142,7 +142,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Absolutely — and it has to be clear about what is fixed and what is flexible. [[Brand consistency:presenting the same core identity and values across all markets]] is non-negotiable. But the imagery, the offer structure, the channel mix — those can vary. Build in regional flexibility from the start.",
     },
     {
@@ -154,7 +154,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "[[Compliance:following the laws and regulations that govern advertising in each market]] is market-by-market. Has this been through compliance in each territory? What you can claim in the UK is not automatically allowed in Germany or France. Legal review before launch — non-negotiable.",
     },
     {
@@ -166,7 +166,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is [[regional adaptation:adjusting a campaign's content, format, or messaging for a specific region while keeping brand strategy consistent]]. What does the local team say? In some Asian markets, directness reads as arrogance. We need local sign-off on the creative before we brief the media buy.",
     },
     {
@@ -178,7 +178,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Use a [[heatmap:a visual tool that shows where performance is strongest and weakest across markets or regions]]. It shows you at a glance where we are green — strong performance — and where we are red. That tells you where to investigate, not where to assume.",
     },
     {
@@ -190,7 +190,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Everything that needs to change for it to feel native. Language, pricing currency, seasonal timing, imagery. The English campaign with Arabic subtitles is not localisation — it is a shortcut that customers see through immediately.",
     }
   ],

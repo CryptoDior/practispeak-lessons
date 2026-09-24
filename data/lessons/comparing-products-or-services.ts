@@ -6,7 +6,7 @@ export const comparingProductsOrServices: Lesson = {
   subtitle: 'How to use comparatives and contrast phrases to handle competitor comparisons with confidence',
   level: 'B1-B2',
   description: "In B2B sales, customers rarely talk to just one vendor. When a customer says 'we are also looking at your competitor', how you respond in the next thirty seconds can win or lose the deal. This lesson teaches you the language of professional comparison — how to acknowledge a competitor's strengths, highlight your own advantages, and structure a contrast that makes the choice obvious.",
-  heroImage: '/images/comparing-products-or-services-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/comparing-products-or-services-hero.png',
 
   vocabulary: [
     {
@@ -28,7 +28,7 @@ export const comparingProductsOrServices: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A different option that can replace the first choice. When a customer raises a concern, offering an alternative shows flexibility and keeps the conversation moving forward.',
       example: 'Marcus was not sure about the Standard Plan. Riley said: If that is not the right fit, we have a strong alternative — our Essentials Plan has fewer features but a significantly lower price point.',
-      imageSlug: '/images/comparing-products-or-services-alternative.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/comparing-products-or-services-alternative.png',
     },
     {
       word: 'SUPERIOR',
@@ -42,7 +42,7 @@ export const comparingProductsOrServices: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Made or adjusted to fit a specific person, team, or situation exactly. A tailored solution is more valuable than a generic one because it solves the customer's specific problem.",
       example: 'Riley said: Unlike CompeteX, which serves everyone from small startups to global enterprises, our platform is tailored specifically to mid-size sales teams — which is exactly what you are.',
-      imageSlug: '/images/comparing-products-or-services-tailored.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/comparing-products-or-services-tailored.png',
     },
     {
       word: 'OUTPERFORM',
@@ -118,13 +118,13 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I appreciate your honesty, Marcus — and yes, absolutely. Let me walk you through a direct [[contrast:a clear difference between two things when they are compared]] between the two platforms.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Compared to CompeteX, our platform is more [[tailored:made or adjusted to fit a specific person or situation exactly]] to mid-size sales teams. They serve a much broader market — from small startups to global enterprises.',
     },
     {
@@ -136,7 +136,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Their reporting is solid — I will give them that. However, whereas CompeteX uses fixed templates you cannot modify, our reporting is fully customisable. You can build exactly what your board needs.',
     },
     {
@@ -148,7 +148,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly. And in terms of onboarding support, unlike CompeteX — who charge an additional fee — we include dedicated support for the first three months at no extra cost.',
     },
     {
@@ -160,7 +160,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Their upfront price is lower — that is true. On the other hand, when you factor in their onboarding fee and the add-ons you would need, the total is [[equivalent:equal in value, function, or quality]] to ours. Sometimes even higher.',
     },
     {
@@ -172,7 +172,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Fair question. Our platform has a steeper learning curve in the first two weeks. It is more powerful, so there is more to learn. But that is why we provide three months of dedicated support.',
     },
     {
@@ -184,7 +184,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'In three independent benchmarks this year, we outperformed CompeteX on customisation, integration speed, and customer satisfaction. I can send you the reports this afternoon.',
     },
     {
@@ -196,7 +196,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly — and those are where we are strongest. Shall I send you a side-by-side comparison document so you can share it with your team?',
     },
     {

@@ -6,7 +6,7 @@ export const boardLevelReporting: Lesson = {
   subtitle: 'How to present marketing results, strategy, and investment cases to the most senior audience',
   level: 'C1-C2',
   description: 'Presenting to a board is different from presenting to a marketing team. The audience is more senior, the questions are harder, and the stakes are higher. Board members think in terms of risk, governance, shareholder value, and financial return — not campaign creativity. This lesson teaches you the language and structure of board-level communication so you can walk into any senior meeting with confidence.',
-  heroImage: '/images/board-level-reporting-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/board-level-reporting-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Way too many. A board presentation should be 8 to 12 slides maximum. The board's job is not to review your work — it is to make decisions. Everything that is not [[material:important enough to affect a decision]] goes in the appendix.",
     },
     {
@@ -130,7 +130,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Ask: does this information change the decision? If yes, it stays. If no, it goes. The board has [[fiduciary:related to the legal duty to act in the company's best financial interest]] responsibilities — they think in terms of risk, return, and governance.",
     },
     {
@@ -142,7 +142,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Everything connects to [[shareholder value:the financial benefit delivered to the people who own shares in the company]]. Show the [[P&L impact:the effect on the profit and loss account]]. If you can't explain the financial return, they will not approve it.",
     },
     {
@@ -154,7 +154,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Lead with the headline number and make the ask explicit. 'We are asking the board to approve a £2m investment with a projected [[return on investment:how much money is made compared to how much was spent]] of 3x within 18 months.'",
     },
     {
@@ -166,7 +166,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Then show them the risk of doing nothing. 'The risk if we do not enter this market now is that a competitor locks in the top three accounts before we are ready.' Inaction has a risk too — make them see both sides.",
     },
     {
@@ -178,7 +178,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "One slide. Show that legal, compliance, and IT have all reviewed the plan. The board will not approve anything that has not gone through proper [[due diligence:the process of carefully checking all the facts before a major decision]].",
     },
     {
@@ -190,7 +190,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Tell them exactly what you need. 'We are asking for approval on the budget, the timeline, and the agency partnership.' Then say: 'I am happy to take questions on the financial projections, the risk assessment, or the governance process.'",
     }
   ],

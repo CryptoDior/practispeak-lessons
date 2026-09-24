@@ -6,7 +6,7 @@ export const marketingTransformation: Lesson = {
   subtitle: 'How to lead organisational and digital change in a marketing function',
   level: 'C1-C2',
   description: "Transformation is one of the most used — and most misunderstood — words in business. Real marketing transformation is not about updating your tools or launching a new campaign framework. It is about changing how a team thinks, works, and measures success. This lesson teaches the language of marketing transformation: how to build a roadmap, manage resistance to change, run agile marketing at scale, and communicate progress in a way that brings people with you.",
-  heroImage: '/images/marketing-transformation-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-transformation-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Start with a [[capability gap:the difference between what the team currently has and what it needs to achieve the transformation goal]] assessment. Before you build a [[transformation roadmap:a plan that shows how a major change will happen over time]], you need to know exactly what is missing — skills, tools, processes, or all three.",
     },
     {
@@ -130,7 +130,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good — that is your baseline. Now build the roadmap in phases. You cannot fix everything at once. What does the [[operating model:the way a team is structured to deliver its work including roles, processes, and tools]] look like right now?",
     },
     {
@@ -142,7 +142,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That structure will not support [[agile marketing:a way of working that breaks marketing work into short focused cycles with fast review and adaptation]]. What needs to change in the operating model? Start there — before you add technology or hire anyone new.",
     },
     {
@@ -154,7 +154,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is a [[change management:the process of helping people understand, accept, and adapt to a major change]] challenge. We need to bring people with us. Get them into the process early — let them shape how the sprints work, not just be told what they are.",
     },
     {
@@ -166,7 +166,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Get [[stakeholder buy-in:the agreement and support of key people whose approval is needed for a change to succeed]] early. The CFO should be involved before the budget is set, not after. People support what they help to build — and they block what is done to them.",
     },
     {
@@ -178,7 +178,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "No — close the capability gap before you scale. Hiring more people into a broken model just gives you more people doing the wrong things. Fix the model first, then hire into it.",
     },
     {
@@ -190,7 +190,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Use the roadmap. Every quarter, answer: where are we on the roadmap? Show what was planned, what was delivered, and what changed — and why. Transformation credibility is built through transparency, not just results.",
     }
   ],

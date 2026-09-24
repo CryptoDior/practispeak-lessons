@@ -157,7 +157,7 @@ export const robloxThisGameVsThatGame: Lesson = {
       example: "Compared to last year, this new version of the game is so much better!",
       inGame: "Compared to the old map, this new world is five times bigger!",
       inRealLife: "Compared to last winter, this winter is much warmer and easier.",
-      imageSlug: '/images/roblox-this-game-vs-that-game-compared-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-this-game-vs-that-game-compared-to.png',
     },
     {
       phrase: "IN MY OPINION",
@@ -183,7 +183,7 @@ export const robloxThisGameVsThatGame: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, which game do you prefer — the new pirate world or the obby we played last week?",
     },
     {
@@ -195,7 +195,7 @@ export const robloxThisGameVsThatGame: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I agree! Compared to the old game, the pirate world is so much [[better:of higher quality, more enjoyable]]. But the obby is [[harder:more difficult than another thing]] — which do you prefer?",
     },
     {
@@ -207,7 +207,7 @@ export const robloxThisGameVsThatGame: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "True! And the racing game is much [[faster:quicker than another thing]] than both of them — everything moves at top speed. But it is also [[easier:less difficult]] to learn.",
     },
     {
@@ -219,7 +219,7 @@ export const robloxThisGameVsThatGame: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is so true! Which one do you prefer for the weekend? Relaxing or challenging?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxThisGameVsThatGame: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "In real life it is the same — summer is [[better:higher quality]] than winter for sport. Winter is [[more popular:liked by more people]] for staying inside and reading. Different things for different moods!",
     },
     {

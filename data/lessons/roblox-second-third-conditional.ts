@@ -85,7 +85,7 @@ export const robloxSecondThirdConditional: Lesson = {
       partOfSpeech: 'noun',
       definition: "The final result of something — what happens at the end.",
       example: "The outcome of every match would have been different if the team had communicated better in the final round.",
-      imageSlug: '/images/roblox-second-third-conditional-outcome.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-second-third-conditional-outcome.png',
     },
   ],
 
@@ -219,7 +219,7 @@ export const robloxSecondThirdConditional: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is a perfect third conditional — past imaginary situation, past result. 'If we had held' — past perfect in the if-clause. 'We would have won' — 'would have' plus past participle in the result.",
     },
     {
@@ -231,7 +231,7 @@ export const robloxSecondThirdConditional: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Always. The past is fixed — you cannot change it. The third conditional lets you imagine a [[hypothetical:based on a situation that is not real]] alternative to what actually happened. It is the grammar of [[regret:sadness about something that happened or was not done]] and analysis.",
     },
     {
@@ -243,7 +243,7 @@ export const robloxSecondThirdConditional: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "No — that is second conditional. Present simple in the if-clause — 'if we practised'. 'Would' plus base verb — 'would win'. Second conditional talks about imaginary present or future — situations that are not real now, but [[hypothetical:imagined for thinking through possibilities]].",
     },
     {
@@ -255,7 +255,7 @@ export const robloxSecondThirdConditional: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Perfect. Note the 'were' — in second conditional, we use 'were' instead of 'was' in formal English, even for 'I'. 'If I were' not 'if I was'. And what is the [[outcome:the final result of a decision or situation]] you are imagining — a different server design. A present hypothetical.",
     },
     {
@@ -267,7 +267,7 @@ export const robloxSecondThirdConditional: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "'If only' works with both. 'If only we had more time' — present wish. 'If only we had started earlier' — past regret with past perfect. [[In hindsight:with understanding you only have after the event]], the difference between second and third conditional is simple: second is about now, third is about then.",
     },
   ],

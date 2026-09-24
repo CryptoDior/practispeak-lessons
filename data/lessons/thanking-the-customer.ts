@@ -6,7 +6,7 @@ export const thankingTheCustomer: Lesson = {
   subtitle: 'How to close a sale warmly and make a customer feel genuinely valued',
   level: 'A1-A2',
   description: 'The sale does not end when the customer pays. How you finish a conversation — and how you follow up — is what makes a customer come back. This lesson teaches you the professional language for saying thank you, expressing appreciation, and leaving the customer with a great impression of you and your company.',
-  heroImage: '/images/thanking-the-customer-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/thanking-the-customer-hero.png',
 
   vocabulary: [
     {
@@ -49,7 +49,7 @@ export const thankingTheCustomer: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To tell other people about a positive experience and suggest they try the same product or company. A recommendation from a happy customer is the most powerful tool in sales.',
       example: 'Marcus said: I will definitely recommend you to my contacts. Riley said: Thank you so much — that really means everything to us. We are so glad you had a great experience.',
-      imageSlug: '/images/thanking-the-customer-recommend.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/thanking-the-customer-recommend.png',
     },
     {
       word: 'SATISFACTION',
@@ -112,7 +112,7 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Hi Marcus, it is Riley from Practispeak Solutions. I just wanted to call and say — thank you for your order.',
     },
     {
@@ -124,7 +124,7 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Of course. Has everything arrived okay?',
     },
     {
@@ -136,7 +136,7 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is wonderful to hear. We really [[appreciate:to recognise the value of what someone has done]] your business, Marcus.',
     },
     {
@@ -148,7 +148,7 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I am so glad. If you ever need anything, please do not [[hesitate:to wait or pause before doing something]] to contact us.',
     },
     {
@@ -160,7 +160,7 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Of course — we would love to hear it.',
     },
     {
@@ -172,7 +172,7 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Thank you — that means a lot. Your [[loyalty:staying with the same company over time]] means everything to us, Marcus.',
     },
     {
@@ -184,13 +184,13 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is so kind. It was a real [[pleasure:a positive feeling — 'it was a pleasure' means you genuinely enjoyed helping]] working with you.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'We look forward to working with you again. Have a wonderful day, Marcus.',
     }
   ],

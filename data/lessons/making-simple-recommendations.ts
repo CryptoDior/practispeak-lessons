@@ -6,7 +6,7 @@ export const makingSimpleRecommendations: Lesson = {
   subtitle: 'How to suggest the right option to a customer in clear, confident English',
   level: 'A1-A2',
   description: 'A good salesperson does not just show products — they help customers choose. This lesson teaches simple, confident language for making recommendations: how to say what you think is the best option, why it is a good fit, and how to connect your suggestion to what the customer told you.',
-  heroImage: '/images/making-simple-recommendations-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-simple-recommendations-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const makingSimpleRecommendations: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To say that something is a good choice for someone. When you recommend something, you give your professional opinion — not just information.',
       example: 'Marcus was not sure which plan to choose, so he asked Riley. She said: I recommend the Standard Plan for you — it has everything you need and it fits your budget.',
-      imageSlug: '/images/making-simple-recommendations-recommend.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-simple-recommendations-recommend.png',
     },
     {
       word: 'SUGGEST',
@@ -28,7 +28,7 @@ export const makingSimpleRecommendations: Lesson = {
       partOfSpeech: 'noun',
       definition: 'One of the things you can choose from. When you have two or more things to pick from, each one is an option.',
       example: 'We have three options for you today: Basic, Standard, and Premium. Each one has different features and a different price. Let me explain each option so you can decide.',
-      imageSlug: '/images/making-simple-recommendations-option.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-simple-recommendations-option.png',
     },
     {
       word: 'SUITABLE',
@@ -118,7 +118,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'No problem — let me help you choose. Can I ask a few questions first?',
     },
     {
@@ -130,7 +130,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'What is the most important thing for your team — saving time, better reports, or working with other tools?',
     },
     {
@@ -142,7 +142,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Okay, that is very helpful. And what is your monthly [[budget:the maximum amount of money you can spend]]?',
     },
     {
@@ -154,7 +154,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Perfect. Based on what you told me, I [[recommend:to say that something is a good choice]] the Standard Plan. It has automatic reports, it works well for teams of five, and it is one hundred and eighty euros a month.',
     },
     {
@@ -166,7 +166,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The Basic Plan does not have automatic reports — you would still do them by hand. Based on what you told me about saving time, it is not a [[suitable:right for what someone needs]] [[option:one of the things you can choose from]] for you.',
     },
     {
@@ -178,7 +178,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes. This would work well for your team, and most of our customers in your situation choose it. I think it is the [[ideal:the best possible choice for a specific situation]] [[match:to fit with what someone needs]] for what you need.',
     },
     {
@@ -190,7 +190,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Great [[choice:the decision you make when you pick one thing]]! I will send you all the details by email today.',
     }
   ],

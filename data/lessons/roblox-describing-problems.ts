@@ -63,7 +63,7 @@ export const robloxDescribingProblems: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: "A new version of the game — it fixes problems and adds new things.",
       example: "There is a new update today! The lag is gone and there are two new maps.",
-      imageSlug: '/images/roblox-describing-problems-update.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-problems-update.png',
     },
   ],
 
@@ -183,7 +183,7 @@ export const robloxDescribingProblems: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia! Something is wrong. There is so much [[lag:when the game is slow — everything moves late]] right now — I cannot move my avatar at all!",
     },
     {
@@ -195,7 +195,7 @@ export const robloxDescribingProblems: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is horrible! Did you lose your progress? I got an [[error:a message that says something went wrong]] message too — it said 'connection lost'.",
     },
     {
@@ -207,7 +207,7 @@ export const robloxDescribingProblems: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "There was a [[glitch:something goes wrong — the game does something it should not]] earlier too — my avatar walked through a wall! That is NOT supposed to happen!",
     },
     {
@@ -219,7 +219,7 @@ export const robloxDescribingProblems: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Good idea. I hope the developers [[fix:make the problem go away]] this [[bug:a problem in the game]] soon. Do you know if there is an [[update:a new version that fixes problems]] coming?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxDescribingProblems: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "These words are useful in real life too! My laptop [[froze:stopped moving — nothing works]] yesterday and I had to restart it. Same thing — same word!",
     },
     {

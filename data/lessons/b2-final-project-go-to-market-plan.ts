@@ -160,7 +160,7 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Our go-to-market strategy is built around one insight: marketing teams at scaling B2B companies spend 60% of their analytical time preparing data rather than interpreting it. Our product eliminates that waste. Every element of the plan — the [[competitive positioning:how we place ourselves relative to competitors]] , the channel mix, the pricing, and the [[launch sequence:the planned order of activities before and after launch]] — exists to solve that specific problem for that specific audience.",
     },
     {
@@ -172,7 +172,7 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The [[market sizing:estimating how large an opportunity is]] shows a total addressable market of $18 billion globally for marketing analytics software. Our serviceable addressable market — B2B companies in the UK and US with 50 to 500 employees — is $2.4 billion. Our realistic [[success metric:a specific, measurable indicator of whether the plan has achieved its goal]] in year three is $48 million — representing a 2% share of SAM.",
     },
     {
@@ -184,13 +184,13 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Competitively, we are positioned as the analytics solution built for marketing managers — not adapted from a tool built for data scientists. The [[value proposition:a clear statement of the specific benefit delivered to a specific customer]]: marketing teams get from raw data to a decision in under 10 minutes, without writing a single line of code. Existing solutions require either technical training or a specialist. We require neither.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And the [[value proposition:the core commercial argument for why someone should choose you]] is validated. We tested it with 40 potential customers before writing this plan. 34 of the 40 said 'this is exactly the problem I have' within the first two minutes of the demo. The [[pilot:a small-scale controlled test before full launch]] with 20 design partner customers begins next month to produce the case study evidence.",
     },
     {
@@ -202,13 +202,13 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "In the first 90 days, the launch sequence will follow three phases. Phase one — close the pilot, publish case studies, brief the media. Phase two — launch paid acquisition, email the database, activate partner co-marketing. Phase three — convert the pipeline, focus on onboarding quality, and begin the first retention programme for pilot customers approaching renewal.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And to execute this plan, we need [[cross-functional:involving collaboration across multiple departments]] alignment across product, marketing, sales, and customer success — with responsibilities and deliverables defined week by week before day zero. The plan that fails is always the one where the handoffs between teams are unclear.",
     },
     {
@@ -220,13 +220,13 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The success of the go-to-market plan will be measured by five metrics at the six-month mark. 150 paying customers. £180k monthly recurring revenue. NPS above 45. Customer acquisition cost within 20% of our model. And 12-month net revenue retention for the first cohort above 105%.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "These metrics are defined now — before we launch. And each metric below target triggers a specific strategic review: a product review if NPS is low, a channel review if CAC is too high, a positioning review if conversion rate is below model. The metrics are not just how we measure success. They are how we know when to change course.",
     },
     {

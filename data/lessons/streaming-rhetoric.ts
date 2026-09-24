@@ -8,7 +8,7 @@ export const streamingRhetoric: Lesson = {
   level: 'C1-C2',
   description:
     'Vocabulary for talking about streaming and content creation — engagement, persona, authenticity, clout — and the rhetorical devices creators reach for to hold attention and build trust: rhetorical questions, the rule of three, anaphora, hyperbole, and the quiet art of strategic self-deprecation.',
-  heroImage: '/images/streaming-rhetoric-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/streaming-rhetoric-hero.png',
   externalUrl: '/streaming-rhetoric.html',
   vocabulary: [],
   phrasalVerbs: [],

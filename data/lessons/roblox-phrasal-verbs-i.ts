@@ -212,7 +212,7 @@ export const robloxPhrasalVerbsI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Try to [[log out:end your session and sign out]] first and then [[log in:enter your credentials to access the account]] again — the system often glitches when you have been online too long.",
     },
     {
@@ -224,7 +224,7 @@ export const robloxPhrasalVerbsI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[Team up:join forces]] with me and Kai — we need a third player. The team bracket has much better prizes and honestly you are strong enough for it.",
     },
     {
@@ -236,7 +236,7 @@ export const robloxPhrasalVerbsI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Absolutely. We start at eight. We need to [[power up:activate a boost]] our gear before the first round — the other teams are seriously well equipped.",
     },
     {
@@ -248,7 +248,7 @@ export const robloxPhrasalVerbsI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "You have two days. Focus on the XP maps tonight and you will [[level up:reach the next stage]] at least once, maybe twice if you push hard.",
     },
     {
@@ -260,7 +260,7 @@ export const robloxPhrasalVerbsI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Kai has never [[dropped out:left early]] of a tournament in three years. I trust him completely. See you at eight — do not [[log out:sign out]] before we are done with practice.",
     },
   ],

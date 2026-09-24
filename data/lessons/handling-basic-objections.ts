@@ -6,7 +6,7 @@ export const handlingBasicObjections: Lesson = {
   subtitle: "How to acknowledge, understand, and respond to a prospect's concerns without losing the conversation",
   level: 'B1-B2',
   description: 'Learn how to handle common sales objections with empathy and confidence — how to acknowledge a concern, find out what is really behind it, and respond in a way that keeps the conversation moving without dismissing what the prospect feels.',
-  heroImage: '/images/handling-basic-objections-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-basic-objections-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const handlingBasicObjections: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A reason a prospect gives for not moving forward — a concern, doubt, or barrier that needs to be addressed before they can commit.',
       example: 'An objection is not a rejection — it is a signal that the prospect is still engaged but needs something resolved before they feel ready to move.',
-      imageSlug: '/images/handling-basic-objections-objection.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-basic-objections-objection.png',
     },
     {
       word: 'CONCERN',
       partOfSpeech: 'noun',
       definition: 'A worry or doubt that is preventing someone from making a decision — something that feels unresolved or risky to them.',
       example: 'The most common concerns in B2B sales are price, timing, and risk — but the real concern is often something different beneath the surface.',
-      imageSlug: '/images/handling-basic-objections-concern.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-basic-objections-concern.png',
     },
     {
       word: 'VALIDATE',
       partOfSpeech: 'verb',
       definition: 'To acknowledge that a concern or objection is legitimate and understandable — not to agree with it, but to show you take it seriously.',
       example: 'Validating an objection does not mean you are conceding the point — it means the prospect feels heard, which makes them far more open to your response.',
-      imageSlug: '/images/handling-basic-objections-validate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-basic-objections-validate.png',
     },
     {
       word: 'REFRAME',
       partOfSpeech: 'verb',
       definition: 'To present an objection or situation from a different angle — showing it in a new light that reduces its impact or makes it easier to work with.',
       example: "When a prospect says 'it is too expensive', reframe the conversation around the cost of not solving the problem — not just the cost of the solution.",
-      imageSlug: '/images/handling-basic-objections-reframe.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-basic-objections-reframe.png',
     },
     {
       word: 'EMPATHISE',
       partOfSpeech: 'verb',
       definition: 'To show genuine understanding of how the prospect feels — not just what they are saying, but why it matters to them.',
       example: 'Empathising with a concern is not the same as agreeing with it — it signals that you understand their world well enough to take their hesitation seriously.',
-      imageSlug: '/images/empathise.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/empathise.png',
     },
     {
       word: 'STALL',
       partOfSpeech: 'noun',
       definition: 'A delaying tactic — when a prospect gives a vague reason for not deciding, without saying no directly. Usually a sign that something else is unresolved.',
       example: "'We will think about it' is often a stall rather than a genuine objection — the real issue is usually that the value is not yet clear or the risk feels too high.",
-      imageSlug: '/images/handling-basic-objections-stall.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-basic-objections-stall.png',
     },
     {
       word: 'OVERCOME',
       partOfSpeech: 'verb',
       definition: 'To successfully address an objection so that it is no longer a barrier — not by arguing, but by providing what the prospect needs to feel confident.',
       example: 'You do not overcome an objection by talking louder or pushing harder — you overcome it by understanding what is really behind it and addressing that specific thing.',
-      imageSlug: '/images/overcome.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/overcome.png',
     },
     {
       word: 'ADDRESS',
       partOfSpeech: 'verb',
       definition: 'To deal with a concern directly and specifically — to give it the attention it deserves rather than deflecting or moving past it.',
       example: 'When a prospect raises a concern, address it before moving on — skipping over it signals that you did not listen, or that you have no good answer.',
-      imageSlug: '/images/handling-basic-objections-address.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-basic-objections-address.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const handlingBasicObjections: Lesson = {
       phrase: 'I UNDERSTAND YOUR CONCERN',
       definition: 'The core acknowledgment phrase — opens your response by showing the prospect that their worry has been heard and taken seriously, before you say anything else.',
       example: 'I understand your concern about the timeline — that is a completely reasonable thing to raise at this stage. Can I share how other teams in a similar position have handled the rollout?',
-      imageSlug: '/images/i-understand-your-concern.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-understand-your-concern.png',
     },
     {
       phrase: 'CAN I ASK WHAT IS BEHIND THAT',
       definition: 'Probe the objection before responding — find out what is really driving the concern so you can address the actual issue, not just the surface statement.',
       example: 'When you say the timing is not right — can I ask what is behind that? I want to make sure I understand whether it is a capacity issue, a budget cycle, or something else.',
-      imageSlug: '/images/can-i-ask-what-is-behind-that.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/can-i-ask-what-is-behind-that.png',
     },
     {
       phrase: 'THAT IS A FAIR POINT',
       definition: 'Validate the objection without fully conceding — acknowledges the legitimacy of what the prospect has said while keeping the door open for your response.',
       example: 'That is a fair point — the price is higher than some alternatives. What I would say is that the comparison only makes sense if the alternatives actually solve the same problem.',
-      imageSlug: '/images/that-is-a-fair-point.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/that-is-a-fair-point.png',
     },
     {
       phrase: 'WHAT I HEAR YOU SAYING IS',
       definition: 'Reflect back the objection in your own words — confirms you have understood it correctly and gives the prospect a chance to clarify before you respond.',
       example: 'What I hear you saying is that the value is clear but the timing feels wrong given everything else the team has on right now. Is that a fair summary?',
-      imageSlug: '/images/what-i-hear-you-saying-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-i-hear-you-saying-is.png',
     },
     {
       phrase: 'LET ME ADDRESS THAT DIRECTLY',
       definition: 'Signal that you are going to tackle the concern head-on — builds confidence that you are not going to deflect or dodge the difficult question.',
       example: 'Let me address that directly — yes, there is an implementation period, and yes, it requires some time from the team. Here is what that actually looks like in practice.',
-      imageSlug: '/images/let-me-address-that-directly.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/let-me-address-that-directly.png',
     },
     {
       phrase: 'WHAT WOULD IT TAKE',
       definition: 'Turn a stall or soft no into actionable information — asks the prospect to define what would need to be true for them to move forward.',
       example: 'I hear you — what would it take for this to feel like the right move? I want to understand what is still unresolved so I can either address it or tell you honestly if I cannot.',
-      imageSlug: '/images/what-would-it-take.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-would-it-take.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'So — based on everything we have covered, does this feel like the right direction for the team?',
     },
     {
@@ -124,7 +124,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Please — I would rather hear them now than after. What is on your mind?',
     },
     {
@@ -136,7 +136,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I understand your [[concern:a worry or doubt that is preventing someone from making a decision]] — price is always a fair thing to raise. That is a fair point and I am not going to pretend it is cheap. Can I ask what is behind it — is it the absolute number, or is it more about being able to justify it internally?',
     },
     {
@@ -148,7 +148,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'What I hear you saying is that the value is clear to you, but you need to [[address:to deal with a concern directly and specifically]] it for the people who have not been in this conversation. Is that right?',
     },
     {
@@ -160,7 +160,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Let me address that directly — we have a one-page business case template I can customise for you, built around the numbers you gave me. Two to three deals a month at your deal size — that becomes very easy to justify. What is the second concern?',
     },
     {
@@ -172,7 +172,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I [[empathise:to show genuine understanding of how the prospect feels]] with that — Q4 is genuinely difficult for this kind of change. Let me [[reframe:to present something from a different angle to reduce its impact]] it slightly: you are currently losing deals every month because of this problem. A two-week setup now recovers some of those Q4 deals. Waiting until January means another quarter of the same [[stall:a delaying tactic when a prospect gives a vague reason without deciding]]. Does that change how the timing feels?',
     },
     {
@@ -184,7 +184,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is exactly the right question — and I think you will like the answer.',
     }
   ],

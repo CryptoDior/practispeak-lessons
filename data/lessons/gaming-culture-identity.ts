@@ -7,7 +7,7 @@ export const gamingCultureIdentity: Lesson = {
   level: 'C1-C2',
   description:
     'Hedging devices, seminar discussion language, and cultural vocabulary for advanced analysis of gaming as identity and subculture.',
-  heroImage: '/images/gaming-culture-identity-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/gaming-culture-identity-hero.png',
   externalUrl: '/gaming-culture-identity.html',
   vocabulary: [],
   phrasalVerbs: [],

@@ -6,7 +6,7 @@ export const howMuchDoesItCost: Lesson = {
   subtitle: 'Simple language for discussing prices, discounts, and offers in marketing',
   level: 'A1-A2',
   description: 'Talking about price is one of the most important skills in B2B marketing and sales. This lesson gives you the basic vocabulary for discussing costs, discounts, and offers — so you can have confident, clear conversations about pricing in English.',
-  heroImage: '/images/how-much-does-it-cost-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/how-much-does-it-cost-hero.png',
 
   vocabulary: [
     {
@@ -14,14 +14,14 @@ export const howMuchDoesItCost: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The amount of money you pay for a product or service.',
       example: 'The price for our basic LinkedIn plan is €500 per month — that includes content, management, and a monthly report.',
-      imageSlug: '/images/how-much-does-it-cost-price.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/how-much-does-it-cost-price.png',
     },
     {
       word: 'DISCOUNT',
       partOfSpeech: 'noun',
       definition: 'A reduction in the original price — an amount taken off because of a special reason, like buying early or in large volume.',
       example: 'We offer a ten percent discount for clients who pay for six months in advance.',
-      imageSlug: '/images/how-much-does-it-cost-discount.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/how-much-does-it-cost-discount.png',
     },
     {
       word: 'OFFER',
@@ -35,7 +35,7 @@ export const howMuchDoesItCost: Lesson = {
       partOfSpeech: 'noun',
       definition: 'An agreement between a buyer and a seller, often involving a good price or special terms.',
       example: 'We closed a deal with a new client last week — they signed up for a six-month contract.',
-      imageSlug: '/images/how-much-does-it-cost-deal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/how-much-does-it-cost-deal.png',
     },
     {
       word: 'FREE TRIAL',
@@ -49,21 +49,21 @@ export const howMuchDoesItCost: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The amount of money a company or person has available to spend on something.',
       example: 'Dana asked the client about their budget before presenting any pricing options.',
-      imageSlug: '/images/how-much-does-it-cost-budget.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/how-much-does-it-cost-budget.png',
     },
     {
       word: 'QUOTE',
       partOfSpeech: 'noun',
       definition: 'A written document that tells a client how much something will cost — before they agree to buy.',
       example: 'Riley sent the client a quote with three different pricing options so they could choose what worked best.',
-      imageSlug: '/images/how-much-does-it-cost-quote.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/how-much-does-it-cost-quote.png',
     },
     {
       word: 'PACKAGE',
       partOfSpeech: 'noun',
       definition: 'A set of services or products sold together, usually at one fixed price.',
       example: 'Our starter package includes ten posts per month, comment management, and a monthly report.',
-      imageSlug: '/images/how-much-does-it-cost-package.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/how-much-does-it-cost-package.png',
     }
   ],
 
@@ -102,7 +102,7 @@ export const howMuchDoesItCost: Lesson = {
       phrase: 'LOCK IN [A PRICE]',
       definition: 'To agree on and fix a price so it does not change — often used in longer contracts.',
       example: 'If you sign up before the end of the month, you can lock in the launch price for the first year.',
-      imageSlug: '/images/how-much-does-it-cost-lock-in-a-price.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/how-much-does-it-cost-lock-in-a-price.png',
     }
   ],
 
@@ -112,73 +112,73 @@ export const howMuchDoesItCost: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Hi Tom — great to speak again. You mentioned you wanted to talk about [[price:the amount of money you pay for a product or service]]s for our LinkedIn service.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: '[As Tom] Yes — before I say anything else, I want to know: how much does it cost?',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Of course. Before I give you a number, can I ask — what is your [[budget:the amount of money available to spend]] for marketing support each month? It helps me show you the right [[package:a set of services sold together at one price]].',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: '[As Tom] We are thinking somewhere between €500 and €800 per month.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'That works well. Our starter [[package:a set of services sold together at one price]] is €500 per month — that includes ten posts, comment management, and a monthly report. Our growth plan is €750.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: '[As Tom] Is there any [[discount:a reduction in the original price]] if we sign up for a longer period?',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Yes — we offer a ten percent [[discount:a reduction in the original price]] for clients who pay six months in advance. And we also have a launch [[offer:a special deal for a limited time]] right now — three months for the price of two.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: '[As Tom] That is a good [[deal:an agreement between buyer and seller at a good price]]. Can we do a [[free trial:a period when you can use something for free before paying]] first?',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Yes — we offer a two-week free trial. You see ten example posts and a sample report. If you like what you see, we start the full service.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: '[As Tom] Great. Can you send me a [[quote:a written document showing how much something will cost]] with both packages and the discount options?',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Of course — I will send it today. I will include three options so you can choose what works best. Shall I lock in the launch price while the offer is still active?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: '[As Tom] Yes please. The launch offer sounds like the best [[deal:an agreement at a good price]]. Let me review the quote and I will get back to you by Friday.',
     }
   ],

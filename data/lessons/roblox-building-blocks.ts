@@ -183,7 +183,7 @@ export const robloxBuildingBlocks: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, I just downloaded Roblox [[Studio:the special Roblox app where you build and design your own games]]! I want to make my own game but I do not know where to start.",
     },
     {
@@ -195,7 +195,7 @@ export const robloxBuildingBlocks: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Like LEGO? That makes sense! And what is a [[brick:the basic block you use to build things]]? Is it the same as a part?",
     },
     {
@@ -207,7 +207,7 @@ export const robloxBuildingBlocks: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Oh cool! And every tree, chair, and wall on screen is an [[object:any single item or thing inside a Roblox game]], right?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxBuildingBlocks: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "What about making the door open automatically? Do I need a [[script:a set of instructions that tells the game what to do]] for that?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxBuildingBlocks: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is so cool. So Roblox Studio is like a real-life [[workshop:a room or space where you make things]]?",
     },
     {

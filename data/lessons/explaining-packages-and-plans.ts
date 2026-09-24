@@ -6,7 +6,7 @@ export const explainingPackagesAndPlans: Lesson = {
   subtitle: 'How to walk a prospect through tiered pricing clearly — and guide them toward the right option',
   level: 'B1-B2',
   description: 'Learn how to explain different pricing plans with confidence — how to describe what each tier includes, clarify the differences, use social proof to guide decisions, and present upgrading as a natural next step rather than an upsell.',
-  heroImage: '/images/explaining-packages-and-plans-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/explaining-packages-and-plans-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const explainingPackagesAndPlans: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A level in a structured set of options — each pricing tier typically offers more features, capacity, or support than the one below it.',
       example: 'Brightline has three tiers — Basic, Standard, and Premium. Each one is designed for a different stage of team growth.',
-      imageSlug: '/images/tier.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tier.png',
     },
     {
       word: 'PACKAGE',
       partOfSpeech: 'noun',
       definition: 'A bundle of features, services, or products offered together at a set price — everything that comes with a particular plan.',
       example: 'The Standard package includes the pipeline dashboard, automated follow-up reminders, and onboarding support — everything most growing teams need.',
-      imageSlug: '/images/explaining-packages-and-plans-package.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/explaining-packages-and-plans-package.png',
     },
     {
       word: 'UPGRADE',
       partOfSpeech: 'verb',
       definition: 'To move to a higher tier or plan — to switch to a package that includes more features, users, or capacity.',
       example: 'You could start with Standard and upgrade to Premium once the team has adopted the core tool and you are ready for the advanced reporting layer.',
-      imageSlug: '/images/explaining-packages-and-plans-upgrade.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/explaining-packages-and-plans-upgrade.png',
     },
     {
       word: 'SCALABLE',
       partOfSpeech: 'adjective',
       definition: "Able to grow with the customer's needs — a scalable plan adjusts as the team expands without requiring a complete switch.",
       example: 'The Standard plan is scalable — it supports up to twenty-five users, so you have room to grow without needing to move to a different tier immediately.',
-      imageSlug: '/images/scalable.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scalable.png',
     },
     {
       word: 'CAP',
       partOfSpeech: 'noun',
       definition: 'A limit on usage within a plan — a maximum number of users, actions, or features allowed before you need to upgrade.',
       example: 'The Basic plan has a cap of five users — once your team grows beyond that, you would automatically need to move to Standard.',
-      imageSlug: '/images/cap.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cap.png',
     },
     {
       word: 'BUNDLE',
       partOfSpeech: 'noun',
       definition: 'A group of features or services packaged together as a unit — often at a better price than buying each one separately.',
       example: 'The Premium bundle includes everything in Standard plus advanced analytics, custom reporting, and a dedicated account manager.',
-      imageSlug: '/images/explaining-packages-and-plans-bundle.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/explaining-packages-and-plans-bundle.png',
     },
     {
       word: 'FLEXIBLE',
       partOfSpeech: 'adjective',
       definition: 'Able to be adjusted to suit different situations or needs — a flexible plan can be modified, scaled, or cancelled without major disruption.',
       example: "All plans are monthly and flexible — you are not locked into anything, which means you can adjust as your team's needs change.",
-      imageSlug: '/images/explaining-packages-and-plans-flexible.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/explaining-packages-and-plans-flexible.png',
     },
     {
       word: 'ONBOARDING',
       partOfSpeech: 'noun',
       definition: 'The process of setting up and getting started with a product — often guided by the vendor, and included in higher-tier plans.',
       example: 'The Standard plan includes dedicated onboarding — a setup session with our team to make sure everything is configured correctly before your reps go live.',
-      imageSlug: '/images/explaining-packages-and-plans-onboarding.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/explaining-packages-and-plans-onboarding.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const explainingPackagesAndPlans: Lesson = {
       phrase: 'THE BASIC PLAN INCLUDES',
       definition: 'Introduce what the entry-level tier covers — sets the baseline before explaining what the higher tiers add.',
       example: 'The Basic plan includes the core pipeline dashboard for up to five users — it is designed for small teams or those who want to try the tool before committing to more.',
-      imageSlug: '/images/the-basic-plan-includes.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-basic-plan-includes.png',
     },
     {
       phrase: 'THE DIFFERENCE BETWEEN THE TWO IS',
       definition: 'Explain clearly what separates one tier from another — helps the prospect understand what they would gain or lose by choosing one over the other.',
       example: 'The difference between Standard and Premium is the reporting layer — Standard gives you the pipeline view, Premium adds custom analytics and a dedicated account manager.',
-      imageSlug: '/images/the-difference-between-the-two-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-difference-between-the-two-is.png',
     },
     {
       phrase: 'IF YOU NEED MORE',
       definition: 'Signal when a higher tier would be appropriate — frames upgrading as a response to genuine need, not a sales move.',
       example: 'If you need more than twenty-five users or want the advanced reporting features, that is when Premium starts to make sense.',
-      imageSlug: '/images/if-you-need-more.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/if-you-need-more.png',
     },
     {
       phrase: 'MOST TEAMS AT YOUR STAGE GO WITH',
       definition: 'Use social proof to guide the prospect toward the most suitable plan — shows that the recommendation is based on experience with similar teams, not just a sales preference.',
       example: 'Most teams at your stage — twelve reps, growing fast, first time using a structured pipeline tool — go with Standard. It gives you everything you need without overcomplicating the rollout.',
-      imageSlug: '/images/most-teams-at-your-stage-go-with.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/most-teams-at-your-stage-go-with.png',
     },
     {
       phrase: 'YOU COULD ALWAYS START WITH AND UPGRADE LATER',
       definition: 'Lower the commitment threshold — present upgrading as easy, natural, and low-risk so the prospect does not feel locked in.',
       example: 'You could always start with Standard and upgrade to Premium later once you have seen the value and the team is ready for more. There is no penalty for upgrading mid-cycle.',
-      imageSlug: '/images/you-could-always-start-with-and-upgrade-later.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/you-could-always-start-with-and-upgrade-later.png',
     },
     {
       phrase: 'WHAT THAT GETS YOU IS',
       definition: 'Explain concretely what a particular plan or feature delivers — translates a tier name or feature list into a real outcome.',
       example: 'The Standard plan — what that gets you is full pipeline visibility for the whole team, automated follow-up reminders, and onboarding support so you are not setting it up alone.',
-      imageSlug: '/images/what-that-gets-you-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-that-gets-you-is.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const explainingPackagesAndPlans: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Marcus, let me walk you through the three plans so you can see how they are structured. They are designed around team size and how much visibility and automation you need.',
     },
     {
@@ -124,7 +124,7 @@ export const explainingPackagesAndPlans: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good. The Basic plan includes the core pipeline dashboard for up to five users. It is designed for small teams or those who want to get started without a large commitment. What that gets you is visibility — you can see deal status in real time, but there is no automation and no [[onboarding:the process of setting up and getting started with a product]] support.',
     },
     {
@@ -136,7 +136,7 @@ export const explainingPackagesAndPlans: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Right — so the [[package:a bundle of features and services offered together at a set price]] that fits your situation is Standard. The difference between Basic and Standard is the automation layer and the user [[cap:a limit on usage within a plan]] — Standard supports up to twenty-five users and includes the follow-up reminders and dedicated onboarding.',
     },
     {
@@ -148,7 +148,7 @@ export const explainingPackagesAndPlans: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Not yet. The difference between Standard and Premium is the advanced analytics [[bundle:a group of features packaged together as a unit]] — custom reporting, [[flexible:able to be adjusted to suit different needs]] dashboards, and a dedicated account manager. If you need more than deep reporting or you are managing a very complex pipeline across multiple teams, that is when Premium starts to make sense.',
     },
     {
@@ -160,7 +160,7 @@ export const explainingPackagesAndPlans: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — it supports up to twenty-five users, so you have room to grow. And you could always start with Standard and [[upgrade:to move to a higher tier or plan]] to Premium later if you reach the point where you need the more advanced analytics. There is no disruption to upgrading mid-cycle.',
     },
     {
@@ -172,7 +172,7 @@ export const explainingPackagesAndPlans: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Most teams at your stage — twelve reps, fast growth, first time using a structured pipeline tool — go with Standard. It is [[flexible:able to be adjusted to suit different needs]], it solves the core problems you described, and it does not ask the team to take on too much change at once.',
     }
   ],

@@ -6,7 +6,7 @@ export const salesCallStructure: Lesson = {
   subtitle: 'The five phases of a professional sales call — and the language that moves you through each one',
   level: 'B1-B2',
   description: 'Learn how to structure a sales call from first word to agreed next step — opening, purpose, discovery questions, offer, and close — using the phrases that signal each phase clearly and professionally.',
-  heroImage: '/images/sales-call-structure-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-call-structure-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const salesCallStructure: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The first part of a call where you introduce yourself, build brief rapport, and set the tone before moving to business.',
       example: 'A strong opening puts the prospect at ease — it signals that you are organised and that their time will be well spent.',
-      imageSlug: '/images/opening.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/opening.png',
     },
     {
       word: 'PURPOSE',
       partOfSpeech: 'noun',
       definition: 'The clear, specific reason for the call — stated early so the prospect knows why they are talking to you.',
       example: 'Stating your purpose in the first 60 seconds removes uncertainty and gives the prospect something concrete to respond to.',
-      imageSlug: '/images/sales-call-structure-purpose.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-call-structure-purpose.png',
     },
     {
       word: 'AGENDA',
       partOfSpeech: 'noun',
       definition: 'A brief outline of what the call will cover, shared at the start to set expectations and demonstrate structure.',
       example: "I always share a quick agenda at the top of a call — it tells the prospect exactly where we're going and makes the time feel controlled.",
-      imageSlug: '/images/sales-call-structure-agenda.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-call-structure-agenda.png',
     },
     {
       word: 'RAPPORT',
       partOfSpeech: 'noun',
       definition: 'A warm, comfortable relationship built through conversation — the feeling that you are talking to someone who genuinely understands you.',
       example: "Good rapport doesn't require small talk for its own sake — it comes from listening carefully and reflecting back what you hear.",
-      imageSlug: '/images/rapport.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/rapport.png',
     },
     {
       word: 'OBJECTION',
       partOfSpeech: 'noun',
       definition: 'A concern, doubt, or reason a prospect raises for not moving forward — a natural and expected part of every sales call.',
       example: 'An objection is not a rejection — it is usually a question in disguise that tells you exactly what the prospect needs to hear.',
-      imageSlug: '/images/sales-call-structure-objection.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-call-structure-objection.png',
     },
     {
       word: 'COMMITMENT',
       partOfSpeech: 'noun',
       definition: 'An agreement or promise to take a specific next step — the concrete outcome you are working toward at the end of every call.',
       example: "Every call should end with a commitment — even a small one. 'I'll send the document and you'll read it by Friday' is a commitment.",
-      imageSlug: '/images/sales-call-structure-commitment.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-call-structure-commitment.png',
     },
     {
       word: 'TRANSITION',
       partOfSpeech: 'verb',
       definition: 'To move deliberately from one phase of the conversation to the next using a signalling phrase.',
       example: 'Knowing how to transition between phases keeps the call feeling structured rather than like a sales pitch that wandered off course.',
-      imageSlug: '/images/sales-call-structure-transition.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-call-structure-transition.png',
     },
     {
       word: 'RECAP',
       partOfSpeech: 'verb',
       definition: 'To summarise the key points of a conversation before moving to the next step or ending the call.',
       example: 'Always recap what you heard before you make your offer — it shows you listened and connects your solution directly to their words.',
-      imageSlug: '/images/sales-call-structure-recap.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-call-structure-recap.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const salesCallStructure: Lesson = {
       phrase: 'THE REASON FOR MY CALL IS',
       definition: 'State the purpose of the call clearly and early — removes ambiguity and gives the prospect something to engage with.',
       example: "The reason for my call is that your colleague Priya mentioned you'd been looking at ways to improve your pipeline visibility.",
-      imageSlug: '/images/the-reason-for-my-call-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-reason-for-my-call-is.png',
     },
     {
       phrase: 'BEFORE WE DIVE IN',
       definition: 'A phrase used to signal the start of the structured part of the call, often followed by a quick agenda.',
       example: "Before we dive in, I just want to give you a quick outline of what I'd like to cover — that way you know exactly where we're going.",
-      imageSlug: '/images/before-we-dive-in.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/before-we-dive-in.png',
     },
     {
       phrase: 'CAN I ASK YOU ABOUT',
       definition: 'A soft, professional transition into the discovery phase — signals that you want to understand before you recommend.',
       example: 'Can I ask you about your current setup? I want to make sure anything I show you is actually relevant to your team.',
-      imageSlug: '/images/can-i-ask-you-about.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/can-i-ask-you-about.png',
     },
     {
       phrase: "BASED ON WHAT YOU'VE TOLD ME",
       definition: 'The key phrase for transitioning into your offer — it signals that your solution is built on what you heard, not on a generic script.',
       example: "Based on what you've told me — the manual reporting and the team of 15 reps — here's what I think would genuinely help.",
-      imageSlug: '/images/sales-call-structure-based-on-what-youve-told-me.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-call-structure-based-on-what-youve-told-me.png',
     },
     {
       phrase: "WHAT I'D LIKE TO PROPOSE IS",
       definition: 'A professional way to introduce your offer or recommendation — confident but not pushy.',
       example: "What I'd like to propose is a short demo where I show you exactly how the pipeline view and automated reporting would work for a team your size.",
-      imageSlug: '/images/what-id-like-to-propose-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-id-like-to-propose-is.png',
     },
     {
       phrase: 'AS A NEXT STEP',
       definition: 'The phrase that signals you are moving toward a concrete commitment — what happens after this call.',
       example: "As a next step, would you be open to a 30-minute demo next week? I can have the dashboard set up with your team's structure before we even start.",
-      imageSlug: '/images/as-a-next-step.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/as-a-next-step.png',
     }
   ],
 
@@ -147,7 +147,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Hi Marcus, this is Riley from Brightline — thanks for taking the time today. How are you doing?',
     },
     {
@@ -159,7 +159,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Perfect — 20 minutes is plenty. Before we [[dive in:to move into the main part of a conversation]], let me give you a quick [[agenda:a brief outline of what the call will cover]]: two minutes of context, a few questions about your current setup, and if it makes sense, I'll suggest a logical next step. Does that work?",
     },
     {
@@ -171,7 +171,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Great. The [[purpose:the clear, specific reason for the call]] of my call is that your colleague Priya mentioned you'd been looking at ways to improve your pipeline visibility. I wanted to reach out and see if a conversation made sense — I'm not here to sell you anything today, just to understand your situation.",
     },
     {
@@ -183,7 +183,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Can I ask you about your current setup? What are you using at the moment?',
     },
     {
@@ -195,7 +195,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's really helpful. And is it mainly the reporting that's the issue, or is [[rapport:a warm, comfortable relationship built through listening and understanding]] with the team affected too — like people entering data inconsistently?",
     },
     {
@@ -207,7 +207,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Okay — let me [[recap:to summarise the key points before moving forward]] what I've heard: 15 reps, spreadsheet-based, two hours of manual reporting, and data quality issues because the team has lost confidence in the system. Is that right?",
     },
     {
@@ -219,7 +219,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Based on what you've told me, I think there's a genuine fit. What I'd like to [[propose:to suggest a specific action or plan]] is a short demo where I show you exactly how Brightline's pipeline view and automated reporting would work for a 15-person team. No [[objection:a concern or reason a prospect gives for not moving forward]] to showing you that, I hope?",
     },
     {
@@ -231,7 +231,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Great. As a next step, I'd suggest a 30-minute call next week. I can have the dashboard set up with your team's structure before we start. I need a [[commitment:an agreement to take a specific next step]] from you on a time — does Thursday afternoon work?",
     },
     {
@@ -243,7 +243,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Thursday at 2 — perfect. I'll send the calendar invite now. Before I let you go, is there anything specific you'd want to see in the demo?",
     }
   ],

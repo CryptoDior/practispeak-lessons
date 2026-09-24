@@ -6,7 +6,7 @@ export const paymentVocabulary: Lesson = {
   subtitle: 'How to talk about cash, card, invoices, and receipts in a B2B sale',
   level: 'A1-A2',
   description: 'Every sale ends with payment — and customers always have questions about how, when, and what they will receive. This lesson teaches you the essential payment words and phrases you need to explain options clearly, send the right documents, and make the customer feel confident about paying.',
-  heroImage: '/images/payment-vocabulary-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/payment-vocabulary-hero.png',
 
   vocabulary: [
     {
@@ -28,7 +28,7 @@ export const paymentVocabulary: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A document sent to a customer that shows what they owe, the payment amount, and the due date. In B2B sales, most customers pay by invoice.',
       example: 'Marcus asked how he would pay. Riley said: I will send you an invoice by email today. It shows the total amount and the payment deadline — you just pay within 30 days.',
-      imageSlug: '/images/payment-vocabulary-invoice.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/payment-vocabulary-invoice.png',
     },
     {
       word: 'RECEIPT',
@@ -78,7 +78,7 @@ export const paymentVocabulary: Lesson = {
       phrase: 'I WILL SEND YOU AN INVOICE',
       definition: 'Say this after a customer agrees to buy. It tells them they will receive a document with the total and the payment deadline — nothing happens until they get the invoice.',
       example: 'Marcus confirmed the order. Riley said: Great — I will send you an invoice by email today. It will show the total amount and the payment date. You have 30 days to pay.',
-      imageSlug: '/images/i-will-send-you-an-invoice.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-will-send-you-an-invoice.png',
     },
     {
       phrase: 'PAYMENT IS DUE ON [DATE]',
@@ -118,7 +118,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Great news! We accept [[cash:money in physical form — coins and notes]], [[card:a bank or credit card used to pay electronically]], and bank [[transfer:sending money electronically from one account to another]]. How would you like to pay?',
     },
     {
@@ -130,7 +130,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Of course. An [[invoice:a document that shows what a customer owes and the payment due date]] is a document we send by email. It shows your total and the [[payment:the act of giving money for something]] deadline.',
     },
     {
@@ -142,7 +142,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Payment is due within 30 days. So you have until the end of the month.',
     },
     {
@@ -154,7 +154,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Perfect. I will send you an invoice by email today. It will include our bank details.',
     },
     {
@@ -166,7 +166,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — as soon as we confirm your payment, I will send you a receipt by email.',
     },
     {
@@ -178,7 +178,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Your balance is $750 — that is for fifteen units of the Standard Plan.',
     },
     {
@@ -190,7 +190,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Wonderful. I will send the invoice now. Thank you, Marcus!',
     }
   ],

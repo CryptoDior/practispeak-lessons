@@ -35,7 +35,7 @@ export const halfTime: Lesson = {
       partOfSpeech: 'noun',
       definition: 'When one team has more goals than the other.',
       example: 'City have a one-goal lead at half-time.',
-      imageSlug: '/images/half-time-lead.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/half-time-lead.png',
     },
     {
       word: 'EVEN',

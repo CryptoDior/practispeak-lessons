@@ -6,7 +6,7 @@ export const writingSalesEmails: Lesson = {
   subtitle: 'How to write subject lines, greetings, and calls to action that get results',
   level: 'B1-B2',
   description: 'Most sales emails are never opened. Of the ones that are opened, most are never acted on. The difference between an email that gets a reply and one that gets deleted comes down to three things: a subject line that creates curiosity, a greeting and body that feel personal and relevant, and a call to action that makes it easy to say yes. This lesson teaches you the language and structure behind each one.',
-  heroImage: '/images/writing-sales-emails-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const writingSalesEmails: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The title of an email that appears before the email is opened. The subject line is the most important part of any sales email — it determines whether the reader opens it or deletes it without reading.',
       example: 'A strong subject line creates curiosity and gives the reader a reason to open the email — without it, even the best message goes unread.',
-      imageSlug: '/images/writing-sales-emails-subject-line.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-subject-line.png',
     },
     {
       word: 'GREETING',
       partOfSpeech: 'noun',
       definition: "The opening line of an email — 'Hi James,' or 'Dear Mr Chen,' — that sets the tone and level of formality. The greeting should match your relationship with the reader.",
       example: "The greeting sets the tone — use the reader's first name to make the email feel personal from the very first line.",
-      imageSlug: '/images/writing-sales-emails-greeting.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-greeting.png',
     },
     {
       word: 'CALL TO ACTION',
       partOfSpeech: 'noun',
       definition: 'A clear, specific instruction at the end of an email that tells the reader exactly what to do next. A weak call to action is vague. A strong one is direct, easy to act on, and removes any guesswork.',
       example: 'A clear call to action tells the reader exactly what to do next — book a call, confirm a date, or simply reply with a yes.',
-      imageSlug: '/images/writing-sales-emails-call-to-action.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-call-to-action.png',
     },
     {
       word: 'PERSONALISE',
       partOfSpeech: 'verb',
       definition: 'To tailor a message to a specific person or company — using their name, referencing your last conversation, or connecting to something relevant to their business. Personalised emails perform significantly better than generic ones.',
       example: 'Personalise the email with details from your last conversation — generic messages get deleted before they are even read.',
-      imageSlug: '/images/writing-sales-emails-personalise.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-personalise.png',
     },
     {
       word: 'OPEN RATE',
       partOfSpeech: 'noun',
       definition: 'The percentage of recipients who actually open an email. Open rate is determined almost entirely by the subject line — a strong subject line can double or triple the number of people who read your message.',
       example: 'Changing one subject line pushed the open rate from 18% to 68% — every word in the subject line matters.',
-      imageSlug: '/images/writing-sales-emails-open-rate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-open-rate.png',
     },
     {
       word: 'SIGN-OFF',
       partOfSpeech: 'noun',
       definition: "The closing phrase of an email before your name — 'Best regards', 'Kind regards', or 'Looking forward to hearing from you'. A good sign-off matches the tone of the email and implies a response is expected.",
       example: 'A professional sign-off includes your name, role, and contact details — everything the reader needs to respond without searching.',
-      imageSlug: '/images/writing-sales-emails-sign-off.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-sign-off.png',
     },
     {
       word: 'RELEVANT',
       partOfSpeech: 'adjective',
       definition: "Directly connected to the reader's situation, needs, or previous conversation. A relevant email feels personal and considered. An irrelevant email feels like spam — even if the product is excellent.",
       example: 'An email is only relevant if it connects directly to what the reader actually needs — everything else feels like spam.',
-      imageSlug: '/images/writing-sales-emails-relevant.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-relevant.png',
     },
     {
       word: 'CONCISE',
       partOfSpeech: 'adjective',
       definition: 'Brief and clear, with no unnecessary words or paragraphs. Sales emails should be concise — three short paragraphs is usually enough. If your email requires scrolling, most readers will not finish it.',
       example: 'Keep the email concise — three short paragraphs is enough. If it requires scrolling, most readers will not finish it.',
-      imageSlug: '/images/writing-sales-emails-concise.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-concise.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const writingSalesEmails: Lesson = {
       phrase: 'QUICK QUESTION ABOUT [TOPIC]',
       definition: 'One of the most effective subject line patterns in sales email. It creates curiosity, feels personal, and implies the email will be short and easy to read. Always make the topic specific to the reader.',
       example: "'Quick question about your onboarding process' — this subject line feels personal, takes seconds to read, and gets replies.",
-      imageSlug: '/images/writing-sales-emails-quick-question-about-topic.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-quick-question-about-topic.png',
     },
     {
       phrase: "I'M REACHING OUT BECAUSE...",
       definition: "A direct, transparent way to open the body of a sales email. It tells the reader immediately why you are writing — no build-up, no small talk. Transparency builds trust and saves the reader's time.",
       example: "I'm reaching out because we spoke last week about your reporting workflow and I have something that directly addresses what you described.",
-      imageSlug: '/images/writing-sales-emails-im-reaching-out-because.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-im-reaching-out-because.png',
     },
     {
       phrase: 'AS WE DISCUSSED,...',
       definition: 'A connecting phrase that links the email to a previous conversation. It reminds the reader of shared context and signals that this is a personal message — not a template sent to hundreds of people.',
       example: 'As we discussed on the call, I am sending over the information you asked for along with a suggested next step.',
-      imageSlug: '/images/writing-sales-emails-as-we-discussed.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-as-we-discussed.png',
     },
     {
       phrase: 'WOULD YOU BE OPEN TO...?',
       definition: "A soft, professional call to action that invites the reader to agree without feeling pressured. It frames the next step as the reader's choice — which makes them more likely to say yes.",
       example: 'Would you be open to a 20-minute call this week to walk through how this could work for your team?',
-      imageSlug: '/images/writing-sales-emails-would-you-be-open-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-would-you-be-open-to.png',
     },
     {
       phrase: "I'D LOVE TO [ACTION] — WOULD [DAY] AT [TIME] WORK FOR YOU?",
       definition: 'A specific, action-oriented call to action that proposes a concrete next step. By naming a day and time, you make it easy for the reader to say yes or suggest an alternative — rather than leaving everything open-ended.',
       example: "I'd love to show you the platform — would Thursday at 2pm work for you, or is Friday morning better?",
-      imageSlug: '/images/writing-sales-emails-would-day-at-time-work.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-would-day-at-time-work.png',
     },
     {
       phrase: 'LOOKING FORWARD TO HEARING FROM YOU',
       definition: "A professional sign-off that implies a response is expected without being aggressive or demanding. Warmer than 'Best regards' alone — and subtly more effective at generating replies.",
       example: 'Looking forward to hearing from you — let me know if Thursday works or if another time suits you better.',
-      imageSlug: '/images/writing-sales-emails-looking-forward-to-hearing-from-you.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-sales-emails-looking-forward-to-hearing-from-you.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Of course — send it over. Okay, so your subject line is 'Follow up from our meeting last Tuesday'. The problem is it's too generic — it gives the reader no reason to open it.",
     },
     {
@@ -130,7 +130,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Something like 'Quick question about your reporting workflow, James'. You use their name, you reference something specific, and it feels personal — not like a mass email. That will significantly improve your [[open rate:the percentage of recipients who actually open an email]].",
     },
     {
@@ -142,7 +142,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That depends on your relationship with him. If you've spoken before, 'Hi James' is warmer and more natural. Save 'Dear Mr Chen' for very formal situations — like a cold email to a senior executive you have never met.",
     },
     {
@@ -154,7 +154,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It's fine, but it's also the most overused line in sales email. Most readers skip it automatically. Try something more [[relevant:directly connected to the reader's situation or previous conversation]] — like 'As we discussed on Tuesday, I wanted to share the information you asked for.' That connects immediately to something real.",
     },
     {
@@ -166,7 +166,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Keep it [[concise:brief and clear with no unnecessary words or paragraphs]] — three short paragraphs maximum. One for context, one for your key point or offer, one for the call to action. If your email requires scrolling, most readers will not finish it.',
     },
     {
@@ -178,7 +178,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Not really — it's too passive. It puts all the effort on the reader. Try: 'Would you be open to a 20-minute call this week? I'm free Thursday at 2pm or Friday at 10am.' That gives them a clear decision to make.",
     },
     {
@@ -190,7 +190,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "'Best regards' is professional and safe. But 'Looking forward to hearing from you' is warmer — it implies a reply is expected without being pushy. Either works, but the second one tends to generate slightly more responses.",
     },
     {
@@ -202,7 +202,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Great. And remember — I'm reaching out because it helps to get a second pair of eyes on it. Send it back once you've revised it and I'll take one more look.",
     }
   ],

@@ -42,14 +42,14 @@ export const robloxReviewBlock2: Lesson = {
       partOfSpeech: 'verb',
       definition: "Tell a moderator or trusted adult about someone who is breaking the rules or being unkind.",
       example: "I reported that player straight away — they were asking for personal details.",
-      imageSlug: '/images/roblox-review-block-2-report.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-block-2-report.png',
     },
     {
       word: 'TEAM',
       partOfSpeech: 'noun',
       definition: "A group of players who work together to win the same goal.",
       example: "My team won the boss battle — everyone helped each other and it was amazing!",
-      imageSlug: '/images/roblox-review-block-2-team.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-block-2-team.png',
     },
     {
       word: 'ZONE',
@@ -189,7 +189,7 @@ export const robloxReviewBlock2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Let me think... I remember [[checkpoint:a special spot that saves your place in the game]]! It is the spot that saves your progress so you do not start from the beginning.",
     },
     {
@@ -201,7 +201,7 @@ export const robloxReviewBlock2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "ALWAYS means every single time — no exceptions! And NEVER means zero times. And SOMETIMES is in between the two!",
     },
     {
@@ -213,7 +213,7 @@ export const robloxReviewBlock2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "TRADE — swap something you have for something another player has! And you should check the [[value:how much something is worth]] before you accept any deal.",
     },
     {
@@ -225,7 +225,7 @@ export const robloxReviewBlock2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Do not answer! [[Report:tell a moderator about someone breaking the rules]] them and [[block:stop them from messaging you]] them. Then tell a trusted grown-up. Always stay safe online!",
     },
     {
@@ -237,7 +237,7 @@ export const robloxReviewBlock2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "A TEAM is a group playing together towards the same goal — everyone helps out! Well done us — Block 3, here we come!",
     },
   ],

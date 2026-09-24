@@ -6,7 +6,7 @@ export const confirmingCustomerDetails: Lesson = {
   subtitle: "How to ask for, repeat, and confirm a customer's name, email, and phone number",
   level: 'A1-A2',
   description: 'Every customer relationship starts with getting the details right. This lesson teaches the simple, professional language you need to ask for a name, email address, and phone number — and how to read them back to make sure everything is correct before you save it.',
-  heroImage: '/images/confirming-customer-details-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/confirming-customer-details-hero.png',
 
   vocabulary: [
     {
@@ -28,7 +28,7 @@ export const confirmingCustomerDetails: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Right and without any mistakes. After you repeat the details back, you ask: Is that correct?',
       example: 'Riley read the email back to Marcus and asked: Is that correct? Marcus checked and said: Yes, that is correct — you have it right.',
-      imageSlug: '/images/confirming-customer-details-correct.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/confirming-customer-details-correct.png',
     },
     {
       word: 'REPEAT',
@@ -49,14 +49,14 @@ export const confirmingCustomerDetails: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To change information in a system to make it correct and current. When a customer gives you new details, you update their profile.',
       example: 'Marcus gave Riley his new phone number. Riley said: Thank you — I will update that in our system right now. You will see the change in your account.',
-      imageSlug: '/images/confirming-customer-details-update.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/confirming-customer-details-update.png',
     },
     {
       word: 'CONTACT',
       partOfSpeech: 'noun',
       definition: 'Information used to reach someone — such as their email address or phone number. In B2B sales, you always collect contact details for every new customer.',
       example: 'Riley said: I need your contact details before I can create the account. Can I get your email and phone number?',
-      imageSlug: '/images/confirming-customer-details-contact.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/confirming-customer-details-contact.png',
     },
     {
       word: 'DOUBLE-CHECK',
@@ -112,7 +112,7 @@ export const confirmingCustomerDetails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Marcus, before I set up your account, I need to confirm a few [[details:information about a person — like name, email, and phone number]]. Is that okay?',
     },
     {
@@ -124,7 +124,7 @@ export const confirmingCustomerDetails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Could I take your full name, please?',
     },
     {
@@ -136,7 +136,7 @@ export const confirmingCustomerDetails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Could you [[spell:to say the letters of a word one by one]] that for me? The last name.',
     },
     {
@@ -148,7 +148,7 @@ export const confirmingCustomerDetails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Got it, thank you. And what is the best email to reach you?',
     },
     {
@@ -160,7 +160,7 @@ export const confirmingCustomerDetails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Let me read that back to you — marcus.oliveira@techcorp.com. Is that [[correct:right and without any mistakes]]?',
     },
     {
@@ -172,7 +172,7 @@ export const confirmingCustomerDetails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Perfect. And could I take your phone number?',
     },
     {
@@ -184,7 +184,7 @@ export const confirmingCustomerDetails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Let me [[double-check:to check something a second time to make sure it is right]] — plus 44 7911 123456. Is that right?',
     },
     {
@@ -196,7 +196,7 @@ export const confirmingCustomerDetails: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Great. I will [[update:to change information in a system to make it correct]] that in our system now. You are all set, Marcus.',
     }
   ],

@@ -6,7 +6,7 @@ export const integratedMarketingCommunications: Lesson = {
   subtitle: 'How to align all your channels behind a single message — and write a clear IMC strategy outline that any team can execute',
   level: 'B1-B2',
   description: 'Great marketing falls apart when the email says one thing, the ad says another, and the sales team says something different again. Integrated Marketing Communications (IMC) is the discipline of aligning every channel behind a single, consistent message — so every touchpoint the customer encounters reinforces the same idea, in the same voice, toward the same goal. This lesson gives you the vocabulary and writing skills to plan, brief, and defend an IMC strategy in meetings and documents.',
-  heroImage: '/images/integrated-marketing-communications-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/integrated-marketing-communications-hero.png',
 
   vocabulary: [
     {
@@ -160,7 +160,7 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Let's start the campaign planning session. Before we divide up the channels, I want us to agree on the IMC framework — because last campaign, every channel was doing something different and it showed in the results.",
     },
     {
@@ -172,13 +172,13 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'The audit showed three different brand voices across five channels. The paid ads were formal and product-led. The email was casual and relationship-focused. The blog was thought leadership but with no clear connection to the campaign. There was no [[consistency:the quality of delivering the same message, tone, and brand identity across all channels]].',
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's the problem. This quarter, we start with the [[core message:the single central idea that the campaign communicates — the one thing you want the audience to remember]] and work outward. Everything else adapts to its channel, but the core stays the same. What's the one sentence that describes what this campaign is about?",
     },
     {
@@ -190,13 +190,13 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good. Now let's build the [[message architecture:the structured hierarchy of messages — from core idea at the top down to channel-specific supporting messages]] from that. At the top: compliance made easy. Below that, three supporting messages — one for the compliance officer, one for the marketing director, one for the CMO.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'For the compliance officer: reduces audit risk and saves 6 hours a week. For the marketing director: approve campaigns faster without going back to legal. For the CMO: move faster than competitors without increasing regulatory exposure.',
     },
     {
@@ -208,13 +208,13 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'm recommending LinkedIn for awareness, email for nurturing, a long-form content piece for organic and thought leadership, and retargeting for conversion. Each channel plays a different role in the journey — but all of them carry the core message.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And the [[synergy:when channels working together produce a greater result than any single channel could produce alone]] effect is where we see the real return. A prospect who sees the LinkedIn article, gets the email, and then sees the retargeting ad is experiencing the same story from three angles. That's much more powerful than any one of those alone.",
     },
     {
@@ -226,19 +226,19 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I've mapped all the [[touchpoint:any moment when a customer or prospect comes into contact with the brand]] transitions. Every ad links to a landing page with matching copy. Every email CTA goes to a page built for that specific email. No mismatch.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'And the channel alignment across teams — how do we keep everyone in sync? Last time the paid team and the email team were running completely different schedules.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We brief all channel owners on the same day, with the same document. The brief includes the core message, the message architecture, the audience for each channel, and the campaign calendar. Nobody goes live without written confirmation that they've read and understood it.",
     },
     {
@@ -250,7 +250,7 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Agreed. Let's schedule the briefing for Monday. I'll have the message architecture document ready by Friday for your review.",
     }
   ],

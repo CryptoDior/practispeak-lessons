@@ -6,64 +6,64 @@ export const closingTheSaleNaturally: Lesson = {
   subtitle: "How to bring a sales conversation to a confident, professional close using 'Shall we move forward?' and other natural closing language",
   level: 'B1-B2',
   description: "The close is not a trick — it is a natural conclusion to a well-run sales conversation. When you have understood the customer's problem, shown them the solution, handled their objections, and agreed on terms, asking 'Shall we move forward?' should feel like the obvious next step. This lesson teaches you the language of a professional close: how to test readiness with a trial close, uncover final objections, propose a next step, and agree on a timeline — without pressure and without awkwardness.",
-  heroImage: '/images/closing-the-sale-naturally-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-hero.png',
 
   vocabulary: [
     {
       word: 'CLOSE',
       partOfSpeech: 'verb',
       definition: "To bring a sales conversation to completion — when the buyer agrees to move forward. To close a deal means to win the customer's commitment.",
-      example: "The salesperson asked 'Shall we move forward with the contract this week?' to close the deal.",
-      imageSlug: '/images/closing-the-sale-naturally-close.png',
+      example: "The sales team closed three deals in the last week of the quarter.",
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-close.png',
     },
     {
       word: 'COMMITMENT',
       partOfSpeech: 'noun',
       definition: "An agreement or promise to move forward. A commitment can be a signed contract or just an agreed next step with a clear timeline.",
       example: "The customer gave a commitment to sign the contract once the finance team confirmed the budget.",
-      imageSlug: '/images/closing-the-sale-naturally-commitment.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-commitment.png',
     },
     {
       word: 'OBJECTION',
       partOfSpeech: 'noun',
       definition: "A concern or reason the buyer gives for not moving forward yet. Objections often mean the buyer is still interested but has a final question that needs answering.",
       example: "The customer raised an objection about the data processing agreement before agreeing to sign.",
-      imageSlug: '/images/closing-the-sale-naturally-objection.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-objection.png',
     },
     {
       word: 'TRIAL CLOSE',
       partOfSpeech: 'phrase',
       definition: "A soft question used to check if the buyer is ready to commit — before asking for the formal close. It helps the salesperson understand how the buyer is feeling without pressure.",
-      example: "The salesperson used a trial close by asking 'How are you feeling about everything we have covered?' before asking for the signature.",
-      imageSlug: '/images/trial-close.png',
+      example: "A trial close helps you understand how the buyer is feeling before asking for their final decision.",
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/trial-close.png',
     },
     {
       word: 'URGENCY',
       partOfSpeech: 'noun',
       definition: "A real reason for the buyer to decide now rather than later. Good urgency helps the buyer understand the cost of waiting — it does not pressure them into a bad decision.",
-      example: "The salesperson created urgency by explaining that the onboarding cohort closes at the end of the week.",
-      imageSlug: '/images/closing-the-sale-naturally-urgency.png',
+      example: "The price increase created urgency and pushed the client to sign before the deadline.",
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-urgency.png',
     },
     {
       word: 'STALL',
       partOfSpeech: 'verb',
       definition: "When a buyer delays making a decision without giving a clear reason. Stalling usually means there is an unspoken concern that needs to be discovered.",
-      example: "The customer started to stall by saying 'we just need a bit more time' without explaining what was holding them back.",
-      imageSlug: '/images/closing-the-sale-naturally-stall.png',
+      example: "The deal stalled for three weeks because the client could not get budget approval.",
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-stall.png',
     },
     {
       word: 'NEXT STEP',
       partOfSpeech: 'phrase',
       definition: "The agreed action after a sales conversation — who will do what, and by when. A clear next step turns a verbal yes into a concrete plan.",
-      example: "The salesperson agreed on next steps: send the contract today, share with finance by Wednesday, and sign by Friday.",
-      imageSlug: '/images/next-step.png',
+      example: "The agreed next step was to send the contract today and confirm by Friday.",
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/next-step.png',
     },
     {
       word: 'ASSUMPTION',
       partOfSpeech: 'noun',
       definition: "In the assumptive close, the salesperson acts as if the buyer has already decided to move forward. It feels confident and makes it easier for the buyer to say yes.",
-      example: "The salesperson used an assumptive close by asking 'Shall we move forward with the contract this week?' instead of 'Are you going to sign?'",
-      imageSlug: '/images/closing-the-sale-naturally-assumption.png',
+      example: "An assumptive close works by acting as if the buyer has already decided to move forward.",
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-assumption.png',
     }
   ],
 
@@ -71,38 +71,38 @@ export const closingTheSaleNaturally: Lesson = {
     {
       phrase: 'SHALL WE MOVE FORWARD?',
       definition: "A confident, professional way to ask the buyer to commit. 'Shall we' is softer than 'Will you' — it implies a shared decision, not a demand. Always follow it with the specific next step.",
-      example: "The salesperson said 'Shall we move forward? I can have the contract ready to send today if you would like to confirm.'",
-      imageSlug: '/images/shall-we-move-forward.png',
+      example: "Shall we move forward? I can have the contract ready to send today.",
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/shall-we-move-forward.png',
     },
     {
       phrase: "BASED ON EVERYTHING WE'VE COVERED, HOW ARE YOU FEELING?",
       definition: "A trial close phrase that invites the buyer to share how they feel before you ask for the commitment. 'How are you feeling?' is more open and less pressured than 'Are you ready?'",
-      example: "The salesperson asked 'Based on everything we have covered, how are you feeling?' to check for any remaining concerns.",
-      imageSlug: '/images/based-on-everything-weve-covered-how-are-you-feeling.png',
+      example: "Based on everything we've covered, how are you feeling about moving forward?",
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/based-on-everything-weve-covered-how-are-you-feeling.png',
     },
     {
       phrase: 'IS THERE ANYTHING STILL HOLDING YOU BACK?',
       definition: "A phrase for uncovering final concerns before the close. It sounds natural and non-confrontational — it implies the buyer wants to move forward but something is stopping them.",
-      example: "The salesperson asked 'Is there anything still holding you back?' and the customer mentioned the legal review.",
-      imageSlug: '/images/is-there-anything-still-holding-you-back.png',
+      example: "Is there anything still holding you back from moving forward today?",
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/is-there-anything-still-holding-you-back.png',
     },
     {
       phrase: 'WHAT WOULD NEED TO BE TRUE FOR YOU TO FEEL CONFIDENT MOVING FORWARD?',
       definition: "A question for when the buyer is vague about their hesitation. It asks them to say exactly what is missing so the salesperson can address it directly.",
-      example: "The salesperson asked this question, and the customer said they needed clarity on the implementation timeline.",
-      imageSlug: '/images/what-would-need-to-be-true-for-you-to-feel-confident-moving-forward.png',
+      example: "What would need to be true for you to feel confident moving forward this week?",
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-would-need-to-be-true-for-you-to-feel-confident-moving-forward.png',
     },
     {
       phrase: "IF YOU'RE HAPPY WITH EVERYTHING, I CAN SEND THE CONTRACT TODAY",
       definition: "A phrase that moves from checking satisfaction to proposing action. 'If you are happy' is low-pressure. 'I can send the contract today' creates gentle urgency without demanding an immediate signature.",
-      example: "The salesperson said 'If you are happy with everything, I can send the contract today so your team has the week to review it.'",
-      imageSlug: '/images/if-youre-happy-with-everything-i-can-send-the-contract-today.png',
+      example: "If you're happy with everything, I can send the contract today so your team has time to review it.",
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/if-youre-happy-with-everything-i-can-send-the-contract-today.png',
     },
     {
       phrase: "LET'S AGREE ON NEXT STEPS",
       definition: "A phrase that turns a verbal yes into a concrete plan. Use it at the end of every sales call — always close with a specific action, an owner, and a date.",
-      example: "The salesperson said 'Let's agree on next steps — I'll send the contract today and we'll speak again on Friday to confirm.'",
-      imageSlug: '/images/lets-agree-on-next-steps.png',
+      example: "Let's agree on next steps — I'll send the contract today and follow up on Friday.",
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/lets-agree-on-next-steps.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Marcus, we've had several conversations over the past few weeks — we've covered the platform, the case study, and the commercial [[terms:the conditions of a deal — price, payment schedule, duration, scope]]. Based on everything we've discussed, how are you feeling about everything?",
     },
     {
@@ -124,7 +124,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's genuinely great to hear. Is there anything still holding you back that we haven't addressed?",
     },
     {
@@ -136,7 +136,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That makes complete sense — and I want to make that process as easy as possible for you. Would it help if I put together a one-page cost summary specifically for your finance team? Something with the numbers, the [[ROI:return on investment — the financial benefit gained relative to the cost]] data, and the agreed terms all on one page?',
     },
     {
@@ -148,7 +148,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Absolutely — I'll pull together the cost summary with the case study data and send it this afternoon. Marcus — based on where we are, shall we move forward, subject to your finance team's confirmation?",
     },
     {
@@ -160,7 +160,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Excellent. And to make sure we keep [[momentum:forward progress that builds over time — losing momentum means the deal stalls]] — what does a realistic timeline look like for getting finance confirmation?',
     },
     {
@@ -172,7 +172,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Perfect. So — I send the summary today, you share it with finance tomorrow, and we aim for confirmation by Friday. If it's approved, I can have the contract ready the same afternoon. Does that timeline work?",
     },
     {
@@ -184,7 +184,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Wonderful. Let's agree on [[next step:the specific, time-bound action agreed at the end of a sales conversation — who does what, and by when]]s — once you've confirmed finance approval, shall I send the contract directly to you, or should I copy your legal team from the start?",
     },
     {
@@ -196,7 +196,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Perfect. I'll send the cost summary now and look out for your introduction. Marcus — I'm genuinely looking forward to getting started. This feels like exactly the right fit.",
     },
     {

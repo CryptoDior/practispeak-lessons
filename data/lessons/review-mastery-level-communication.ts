@@ -6,7 +6,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
   subtitle: 'Consolidating your C2 vocabulary across all mastery topics',
   level: 'C1-C2',
   description: 'This review lesson brings together the key vocabulary from all 18 C2 Mastery lessons — from semiotics and board-level reporting to ethics, thought leadership, and cultural intelligence. Use it to check what you know, find the gaps, and practise using advanced vocabulary in context. By the end of this lesson, you should be able to move fluidly between topics and use C2-level language naturally in real professional conversations.',
-  heroImage: '/images/review-mastery-level-communication-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-mastery-level-communication-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Simple test: can you use the word without thinking about it, in a real conversation? If you have to pause and remember the definition, it's recognition — not mastery. Mastery means it comes out naturally when you need it.",
     },
     {
@@ -130,7 +130,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Exactly right. Now connect it to something real — what's the signifier in our current campaign?",
     },
     {
@@ -142,7 +142,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good. Now media buying — if our [[share of voice:brand advertising spend as a percentage of total category spend]] is below our market share, what does that mean for the brand long-term?",
     },
     {
@@ -154,7 +154,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good. Ethics — what's the difference between persuasion and [[manipulation:influencing someone through means that bypass rational thinking]]?",
     },
     {
@@ -166,7 +166,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And multilingual marketing — the phrase?",
     },
     {
@@ -178,7 +178,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And the board communication principle?",
     },
     {
@@ -190,7 +190,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's mastery. You're not reciting definitions — you're using the language to think with. That's the real test.",
     }
   ],

@@ -6,7 +6,7 @@ export const masteringAmbiguity: Lesson = {
   subtitle: 'How to communicate clearly when nothing is certain — and stay credible while you do it',
   level: 'C1-C2',
   description: 'Business rarely gives you certainty. Markets shift, plans change, and decisions get made with incomplete information. The people who succeed at senior level are the ones who can communicate clearly under uncertainty — who can be honest about what they do not know without losing the room. This lesson teaches you the language of ambiguity: how to hedge, caveat, and scenario-plan in a way that sounds confident, not evasive.',
-  heroImage: '/images/mastering-ambiguity-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mastering-ambiguity-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Don't give them a firm forecast then. Do [[scenario planning:the process of preparing for multiple possible futures]]. Give them three versions — best case, base case, worst case.",
     },
     {
@@ -130,7 +130,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The opposite. It shows you understand the environment. One single forecast right now would look naive. The board knows what the market is like.",
     },
     {
@@ -142,7 +142,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes — but say that clearly. Tell them: 'These are provisional figures. Subject to change once we have the final data from the field teams.'",
     },
     {
@@ -154,7 +154,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Then say that. 'We cannot commit to a launch date until regulatory approval is confirmed. Based on what we know at this stage, we expect that in Q2.'",
     },
     {
@@ -166,7 +166,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes — one main one. We are working on the [[assumption:something you believe is true but have not confirmed]] that the competitor doesn't launch in the same window. If they do, numbers will be different.",
     },
     {
@@ -178,7 +178,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Cautious but not negative. It's too early to say whether this is a temporary slowdown or a longer trend. That's why the three-scenario approach is the right call.",
     },
     {
@@ -190,7 +190,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's exactly right. Confidence comes from knowing what you know — and being honest about what you don't.",
     }
   ],

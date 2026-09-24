@@ -47,7 +47,7 @@ export const c1VarAndTechnology: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Based on measurable facts rather than interpretation — where technology can provide a definitive answer.',
       example: '"Whether a ball crossed the line is entirely objective — goal-line technology can measure it to within 1mm."',
-      imageSlug: '/images/c1-var-and-technology-objective.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/c1-var-and-technology-objective.png',
     },
     {
       word: 'MARGINAL',

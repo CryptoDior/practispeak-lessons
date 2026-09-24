@@ -6,7 +6,7 @@ export const socialMediaBasics: Lesson = {
   subtitle: 'Simple words and actions for using social media in marketing',
   level: 'A1-A2',
   description: 'Social media is one of the most important tools in marketing today. This lesson teaches the basic words for platforms and actions — posting, sharing, following, and commenting — so you can talk about social media confidently in English.',
-  heroImage: '/images/social-media-basics-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/social-media-basics-hero.png',
 
   vocabulary: [
     {
@@ -56,7 +56,7 @@ export const socialMediaBasics: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A social media website or app where people create and share content. For example: LinkedIn, Instagram, or Facebook.',
       example: 'LinkedIn is the best platform for B2B marketing — the audience is made up of professionals.',
-      imageSlug: '/images/social-media-basics-platform.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/social-media-basics-platform.png',
     },
     {
       word: 'FEED',
@@ -112,73 +112,73 @@ export const socialMediaBasics: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Riley, I want to start using social media more for the agency. Where do I begin?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The first thing is to choose the right [[platform:a social media website or app where people create and share content]]. For a B2B agency, LinkedIn is the best one.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'I already have a LinkedIn [[profile:a page on social media that shows who you are]]. But I do not post very often.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is the main thing to change. You need to [[post:to put a message or content on social media]] at least twice a week. Consistency is everything.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'What should I write about? I am not sure what my audience wants to see in their [[feed:the list of posts you see when you open a social media app]].',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Share tips, client results, and things you have learned. Content that helps people gets the most [[like:to press a button to show you enjoy a post]]s and [[comment:a written message left under a post]]s.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Should I ask people to [[follow:to subscribe to someone's account so you see their posts]] the page?",
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — and also ask your email subscribers to follow you on LinkedIn. Also, engage with your audience by asking a question at the end of each post.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'And if someone leaves a comment?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Always reply. When you [[share:to send or show something to other people]] good content and reply to every comment, LinkedIn shows your posts to more people.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'That makes sense. Can I share content from other people too, or should I only post my own things?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Both — share useful articles from others, but always add your own opinion. That is how you build your presence and become someone people want to follow.',
     }
   ],

@@ -6,7 +6,7 @@ export const makingAnOffer: Lesson = {
   subtitle: 'Promotions and pricing language — how to present an offer that motivates action',
   level: 'A2',
   description: "In B2B marketing, a well-structured offer can be the difference between a client who says 'maybe later' and one who signs today. This lesson gives you the vocabulary and phrases to present bundles, promotions, vouchers, and incentives in clear, persuasive English.",
-  heroImage: '/images/making-an-offer-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-an-offer-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const makingAnOffer: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A group of products or services packaged and sold together — usually at a lower combined price than buying each separately.',
       example: 'Riley offered the client a bundle that included content creation, LinkedIn management, and monthly reporting — all for one fixed price.',
-      imageSlug: '/images/making-an-offer-bundle.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-an-offer-bundle.png',
     },
     {
       word: 'LOYALTY',
       partOfSpeech: 'noun',
       definition: 'The quality of staying with one company or supplier over time — often rewarded with special discounts or benefits.',
       example: 'We have a loyalty discount for clients who renew for a second year — they get fifteen percent off their renewal price.',
-      imageSlug: '/images/making-an-offer-loyalty.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-an-offer-loyalty.png',
     },
     {
       word: 'PROMOTION',
       partOfSpeech: 'noun',
       definition: 'A special offer or deal — usually available for a limited time — designed to encourage people to buy.',
       example: 'Our spring promotion includes a free strategy session for any client who signs up before the end of April.',
-      imageSlug: '/images/making-an-offer-promotion.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-an-offer-promotion.png',
     },
     {
       word: 'VOUCHER',
       partOfSpeech: 'noun',
       definition: 'A document or code that gives the holder a specific discount or benefit when they buy a product or service.',
       example: 'Dana sent a voucher code to twenty warm leads — it gave them ten percent off their first month with no minimum commitment.',
-      imageSlug: '/images/voucher.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/voucher.png',
     },
     {
       word: 'INCENTIVE',
       partOfSpeech: 'noun',
       definition: 'Something that motivates someone to take action — a reward or benefit that makes an offer more attractive.',
       example: 'The main incentive for signing up this month is the free audit — we review your current LinkedIn presence and give you a detailed report at no cost.',
-      imageSlug: '/images/incentive.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/incentive.png',
     },
     {
       word: 'COMMITMENT',
       partOfSpeech: 'noun',
       definition: 'An agreement to do something or to continue with something for a period of time — often used in contracts.',
       example: 'Our starter plan has no long-term commitment — clients can cancel after the first month if they are not satisfied.',
-      imageSlug: '/images/making-an-offer-commitment.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-an-offer-commitment.png',
     },
     {
       word: 'RENEWAL',
       partOfSpeech: 'noun',
       definition: 'When a client continues with a service after the initial contract period ends — they choose to sign again.',
       example: 'Our renewal rate is very high — eighty percent of clients choose to continue after their first six-month contract.',
-      imageSlug: '/images/renewal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/renewal.png',
     },
     {
       word: 'EXCLUSIVE',
       partOfSpeech: 'adjective',
       definition: 'Available only to a specific group of people or for a limited time — not offered to everyone.',
       example: 'This is an exclusive offer for clients who attended our webinar — it is not available on our website.',
-      imageSlug: '/images/making-an-offer-exclusive.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-an-offer-exclusive.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const makingAnOffer: Lesson = {
       phrase: 'THROW IN [SOMETHING]',
       definition: 'To include something extra for free as part of an offer — to add a bonus without increasing the price.',
       example: 'If you sign up for the six-month plan, we will throw in a free brand audit at the start — that is worth €500 on its own.',
-      imageSlug: '/images/throw-in-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/throw-in-something.png',
     },
     {
       phrase: 'TAKE UP AN OFFER',
       definition: 'To accept and use an offer that has been made to you.',
       example: 'Out of the twenty clients who received the promotion email, eight took up the offer within the first week.',
-      imageSlug: '/images/take-up-an-offer.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/take-up-an-offer.png',
     },
     {
       phrase: 'LOCK IN [A PRICE]',
       definition: 'To agree on a price now so that it is fixed and will not change — even if prices increase later.',
       example: 'If you sign up before the end of the month, you lock in the current price for the full year — it will not go up at renewal.',
-      imageSlug: '/images/making-an-offer-lock-in-a-price.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-an-offer-lock-in-a-price.png',
     },
     {
       phrase: 'SWEETEN THE DEAL',
       definition: 'To make an offer more attractive by adding something extra.',
       example: 'The client was on the fence, so Riley offered to sweeten the deal by including a monthly strategy call at no extra cost.',
-      imageSlug: '/images/sweeten-the-deal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sweeten-the-deal.png',
     },
     {
       phrase: 'SIGN UP FOR [SOMETHING]',
       definition: 'To formally agree to take a service or plan — to register or commit.',
       example: 'We are running a promotion this month — clients who sign up for a six-month plan get the first month free.',
-      imageSlug: '/images/making-an-offer-sign-up-for-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-an-offer-sign-up-for-something.png',
     },
     {
       phrase: 'COME WITH [SOMETHING]',
       definition: 'To include something as part of a package or offer.',
       example: 'Every plan comes with a dedicated account manager and a monthly performance report — there are no hidden extras.',
-      imageSlug: '/images/making-an-offer-come-with-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-an-offer-come-with-something.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const makingAnOffer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I completely understand. Let me show you what we can do. We have a six-month option with no long-term [[commitment:an agreement to continue for a set period]] beyond that.',
     },
     {
@@ -130,7 +130,7 @@ export const makingAnOffer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — we have an [[exclusive:available only to a specific group]] [[promotion:a special deal for a limited time]] for new clients this month. If you sign up for the six-month plan, we [[throw in]] a free brand audit — that is worth €500.',
     },
     {
@@ -142,7 +142,7 @@ export const makingAnOffer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'It [[come with:to include]] a content calendar, twelve LinkedIn posts per month, comment management, and a monthly performance report. It is a complete [[bundle:a group of services packaged together at one price]] — everything in one fixed monthly fee.',
     },
     {
@@ -154,7 +154,7 @@ export const makingAnOffer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Two things. First, the free audit is only available this month. Second, if you sign up now, you [[lock in]] the current price — so when we increase prices in September, your rate stays the same at [[renewal:when a client continues after the initial contract]].',
     },
     {
@@ -166,7 +166,7 @@ export const makingAnOffer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — clients who [[renewal:choose to continue]] renew for a second year get fifteen percent off. It is our way of rewarding [[loyalty:staying with one company]].',
     },
     {
@@ -178,7 +178,7 @@ export const makingAnOffer: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Of course — I will send everything today. I will also include a [[voucher:a document giving a specific discount]] code for the ten percent early-sign discount in case your director wants to act quickly.',
     }
   ],

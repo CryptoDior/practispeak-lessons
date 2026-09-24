@@ -6,7 +6,7 @@ export const crossCulturalSalesCommunication: Lesson = {
   subtitle: 'How to adapt your tone, directness, politeness strategies, and expectations to communicate effectively across cultural contexts',
   level: 'C1-C2',
   description: "Selling across cultures is one of the most sophisticated skills in professional English. The same message, delivered in the same words, can land as confident in one culture and arrogant in another — as helpful in one context and intrusive in another. Effective cross-cultural communicators understand that tone, directness, politeness, and expectations are not universal — they are shaped by cultural norms that govern when to speak, how explicitly to disagree, what 'yes' actually means, and what pace of decision-making signals seriousness. This lesson teaches you the language and awareness to adapt your communication style without losing your credibility or your message.",
-  heroImage: '/images/cross-cultural-sales-communication-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const crossCulturalSalesCommunication: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The feeling a message gives the listener — warm, formal, direct, or careful. In cross-cultural sales, tone matters as much as the words you use.',
       example: "The same message delivered in a warmer, slower tone can feel completely different from the same words said quickly and directly.",
-      imageSlug: '/images/cross-cultural-sales-communication-tone.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-tone.png',
     },
     {
       word: 'DIRECTNESS',
       partOfSpeech: 'noun',
       definition: 'How clearly and openly a person says what they mean. Some cultures value high directness; others prefer a softer, more indirect approach. Knowing the difference helps you adapt.',
       example: "Adjusting your level of directness to match the other person's communication style shows cultural awareness and builds trust faster.",
-      imageSlug: '/images/cross-cultural-sales-communication-directness.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-directness.png',
     },
     {
       word: 'POLITENESS STRATEGIES',
       partOfSpeech: 'phrase',
       definition: "Language tools used to keep a conversation respectful and comfortable. Examples include softening a request, hedging a disagreement, or giving a compliment before raising a concern.",
       example: "Using the right politeness strategies when delivering difficult news keeps the relationship intact even when the message is hard to hear.",
-      imageSlug: '/images/cross-cultural-sales-communication-politeness-strategies.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-politeness-strategies.png',
     },
     {
       word: 'HIGH-CONTEXT',
       partOfSpeech: 'adjective',
       definition: 'A communication style where meaning comes from context, tone, and relationship — not just the words. What is left unsaid often carries as much meaning as what is said.',
       example: "In a high-context conversation, what goes unsaid is often just as important as what is said — you need to listen for the gaps.",
-      imageSlug: '/images/cross-cultural-sales-communication-high-context.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-high-context.png',
     },
     {
       word: 'LOW-CONTEXT',
       partOfSpeech: 'adjective',
       definition: 'A communication style where meaning is stated clearly and directly. Everything important is said out loud — not implied or left to the listener to work out.',
       example: "A low-context approach means putting every commitment on the table explicitly — dates, prices, deliverables, and responsibilities — so there is nothing left to interpretation.",
-      imageSlug: '/images/cross-cultural-sales-communication-low-context.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-low-context.png',
     },
     {
       word: 'FACE',
       partOfSpeech: 'noun',
       definition: "A person's social reputation and dignity in a group. Helping someone save face means avoiding public embarrassment. In many cultures, this shapes how disagreement and bad news are communicated.",
       example: "Raising a concern in private rather than in front of colleagues is one of the simplest ways to help someone save face and keep the relationship strong.",
-      imageSlug: '/images/cross-cultural-sales-communication-face.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-face.png',
     },
     {
       word: 'REGISTER',
       partOfSpeech: 'noun',
       definition: 'The level of formality in your language. Register ranges from very formal (a board presentation) to casual (a team message). Choosing the right register shows you understand the relationship and the situation.',
       example: "Knowing when to shift register — from formal presentation language to a more conversational tone — shows you understand the relationship, not just the subject.",
-      imageSlug: '/images/cross-cultural-sales-communication-register.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-register.png',
     },
     {
       word: 'EXPECTATION MANAGEMENT',
       partOfSpeech: 'phrase',
       definition: "Telling the other person clearly what to expect before problems happen. In cross-cultural sales, timelines, commitments, and next steps can mean different things to different people — so stating them explicitly prevents misunderstanding.",
       example: "Clear expectation management at the start of a project — covering timelines, milestones, and what happens when things change — prevents most of the conflicts that develop later.",
-      imageSlug: '/images/cross-cultural-sales-communication-expectation-management.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-expectation-management.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const crossCulturalSalesCommunication: Lesson = {
       phrase: "I WANT TO MAKE SURE I'M APPROACHING THIS IN A WAY THAT WORKS FOR YOU",
       definition: "A phrase used to show cultural awareness and invite the buyer to shape the style of the conversation. It gives them control over how you communicate, not what you say.",
       example: "I want to make sure I'm approaching this in a way that works for you — would you prefer to start with a broad overview, or go straight into the detail?",
-      imageSlug: '/images/cross-cultural-sales-communication-approaching-this-in-a-way-that-works-for-you.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-approaching-this-in-a-way-that-works-for-you.png',
     },
     {
       phrase: "I MAY BE MORE DIRECT THAN YOU'RE USED TO — PLEASE LET ME KNOW IF YOU'D PREFER A DIFFERENT APPROACH",
       definition: "A phrase used to name your own communication style before it causes confusion. It opens the door for the other person to ask for a different approach if needed.",
       example: "I may be more direct than you're used to — please let me know if you'd prefer a different approach and I'll adjust.",
-      imageSlug: '/images/cross-cultural-sales-communication-please-let-me-know-if-you-prefer-a-different-approach.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-please-let-me-know-if-you-prefer-a-different-approach.png',
     },
     {
       phrase: "I WANT TO MAKE SURE WE'RE ALIGNED ON EXPECTATIONS BEFORE WE MOVE FORWARD",
       definition: "A phrase used to check that both sides agree on what happens next before anything starts. It prevents misunderstanding by making timelines, roles, and commitments explicit from the beginning.",
       example: "I want to make sure we're aligned on expectations before we move forward — particularly around the timeline and who is responsible for each stage.",
-      imageSlug: '/images/cross-cultural-sales-communication-aligned-on-expectations-before-moving-forward.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-aligned-on-expectations-before-moving-forward.png',
     },
     {
       phrase: "IN MY EXPERIENCE WORKING WITH ORGANISATIONS IN [CONTEXT], I'VE FOUND THAT...",
       definition: "A phrase used to share an observation from your own experience without assuming it applies to the other person. It opens a conversation rather than making a claim.",
       example: "In my experience working with organisations in fast-moving markets, the integration phase almost always takes longer than the initial estimate — it's worth building that into the plan now.",
-      imageSlug: '/images/cross-cultural-sales-communication-in-my-experience-working-with-organisations.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-in-my-experience-working-with-organisations.png',
     },
     {
       phrase: 'WHAT I HEARD YOU SAY WAS X — DID I UNDERSTAND THAT CORRECTLY?',
       definition: "A phrase used to confirm you understood what the buyer said, especially after an indirect or ambiguous response. Reflecting back what you heard and checking it shows care and prevents misreading.",
       example: "What I heard you say was that budget isn't the main concern right now — it's the internal approval process. Did I understand that correctly?",
-      imageSlug: '/images/cross-cultural-sales-communication-did-i-understand-that-correctly.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-did-i-understand-that-correctly.png',
     },
     {
       phrase: 'I NOTICE WE MAY HAVE DIFFERENT VIEWS ON THE TIMELINE — COULD YOU HELP ME UNDERSTAND YOUR THINKING?',
       definition: "A phrase used to raise a difference in expectations without making it feel like a conflict. It invites the other person to explain their thinking rather than defend a position.",
       example: "I notice we may have different views on the timeline — could you help me understand your thinking so we can find an approach that works for both sides?",
-      imageSlug: '/images/cross-cultural-sales-communication-different-views-on-the-timeline.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-sales-communication-different-views-on-the-timeline.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Marcus, before we get into the detail — I want to make sure I'm approaching this in a way that works for you and your organisation. I know we've moved at a fairly direct pace so far, and I want to check in on whether that's comfortable.",
     },
     {
@@ -124,7 +124,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'm very glad you told me. I don't want to create pressure that doesn't align with how your organisation works. Can I ask — at this stage in the process, who else would typically be involved in a decision of this scale?",
     },
     {
@@ -136,7 +136,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Understood — and that's a mark of a well-governed organisation. Rather than framing this as a sales process, what would be most useful for me to prepare to support that internal conversation? I want each stakeholder to have what they need in a format that works for them.",
     },
     {
@@ -148,7 +148,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Of course. I'll adjust the [[register:the level of formality in language — formal, semi-formal, or informal — that signals respect and professionalism]] accordingly — the proposal will be formal throughout, with no assumptions of prior familiarity. Could I also ask — you mentioned the regional director. Are they typically involved at the beginning of an evaluation, or closer to the final decision?",
     },
     {
@@ -160,7 +160,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "What I heard you say is that the proposal needs to answer the regional director's concerns before they've been asked — did I understand that correctly?",
     },
     {
@@ -172,7 +172,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's very useful — and I want to manage [[expectation management:the practice of proactively communicating what will and will not happen, to prevent misalignment before it develops]] s on exactly that point, right now. Let me tell you what the implementation process looks like, what we commit to contractually, and what the remediation process is if targets are not met. I'd rather have that conversation fully and openly now.",
     },
     {
@@ -184,13 +184,13 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That concern is completely legitimate — and it's one I take seriously. In my experience working with organisations that operate with a more rigorous evaluation process, I've found that the vendors who build lasting partnerships are the ones who are equally [[directness:the degree to which meaning is stated explicitly versus implied through context or hedging]] direct about their limitations as they are about their strengths.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "So let me say this plainly: every commitment I make today, I'm prepared to put in the contract — including the performance benchmarks and the process if we fall short. There should be no gap between what you read in the proposal and what you experience in the relationship.",
     },
     {
@@ -202,7 +202,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I notice that too — and I want to make sure we're aligned on [[expectation:a belief about what will happen — often the source of cross-cultural misalignment when not surfaced and agreed explicitly]]s before we move forward. Could you help me understand your timeline thinking — is it driven by the internal approval process, the budget cycle, or the evaluation itself? That will help me plan the right level of support throughout.",
     },
     {
@@ -214,7 +214,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Eight weeks is very workable. I'll have the proposal to you within three working days — which gives your team five weeks to review before the quarterly meeting. And if at any stage any stakeholder has questions, I'm available in whatever format works best — written, a call, or a formal presentation if that would help the process.",
     }
   ],

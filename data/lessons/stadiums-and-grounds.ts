@@ -54,7 +54,7 @@ export const stadiumsAndGrounds: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The playing surface — the grass field where the match is played.',
       example: 'The pitch was in excellent condition — the groundskeeper had prepared it perfectly.',
-      imageSlug: '/images/stadiums-and-grounds-pitch.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/stadiums-and-grounds-pitch.png',
     },
     {
       word: 'DUGOUT',

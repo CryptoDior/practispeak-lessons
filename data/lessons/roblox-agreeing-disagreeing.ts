@@ -50,7 +50,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
       partOfSpeech: 'verb',
       definition: "To accept that something is true, even if you then disagree with the conclusion.",
       example: "I acknowledge that the defensive strategy worked last season — but this season the meta has completely changed.",
-      imageSlug: '/images/roblox-agreeing-disagreeing-acknowledge.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-agreeing-disagreeing-acknowledge.png',
     },
     {
       word: 'CONCEDE',
@@ -219,7 +219,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I [[beg to differ:a formal, polite way of disagreeing]] on that. Phoenix Force has a more developed competitive scene and better progression mechanics. I [[acknowledge:accept or admit something is true]] that Phantom Gardens has excellent design — [[valid point:a logically sound observation]] — but design alone does not make a game better overall.",
     },
     {
@@ -231,7 +231,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[Fair enough:accepting that a point has merit]] — that is a [[valid point:a logically sound argument]] about the audience. Different players have different priorities. I was defining 'better' as competitive quality; you are defining it as overall experience.",
     },
     {
@@ -243,7 +243,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I think you are right. I concede the whole argument — not because I was wrong about Phoenix Force, but because you were right that we were not defining the same thing. That is often how disagreements actually work.",
     },
     {
@@ -255,7 +255,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is the goal. [[Bluntly:directly and without softening]] disagreeing shuts down conversations. Diplomatic disagreement opens them up. At B2, you should be able to [[stand your ground:maintain your position under pressure]] on points you believe in — and gracefully [[concede:admit an opposing point]] on points where the evidence has moved.",
     },
   ],

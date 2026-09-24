@@ -47,7 +47,7 @@ export const c1ManagingConflict: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To calm a situation down — to reduce the intensity of a conflict before it gets worse.',
       example: '"The coach stepped in immediately to de-escalate — he separated the players and gave everyone a moment to breathe."',
-      imageSlug: '/images/c1-managing-conflict-de-escalate.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/c1-managing-conflict-de-escalate.png',
     },
     {
       word: 'GRIEVANCE',

@@ -6,7 +6,7 @@ export const marketingInARecession: Lesson = {
   subtitle: 'How to protect a brand, defend market share, and communicate value during economic downturns',
   level: 'C1-C2',
   description: "When economic conditions worsen, marketing budgets are often the first to be cut and the last to be restored. But the evidence consistently shows that brands that maintain or increase marketing investment during downturns emerge stronger — and those that go dark lose ground that takes years to recover. This lesson gives you the vocabulary to discuss recession marketing strategy with confidence: how to shift messaging, defend share, manage price sensitivity, and make the commercial case for keeping the brand visible when the pressure to cut is at its highest.",
-  heroImage: '/images/marketing-in-a-recession-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-in-a-recession-hero.png',
 
   vocabulary: [
     {
@@ -160,13 +160,13 @@ export const marketingInARecession: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Now is not the time to cut the marketing budget — the evidence shows that the brands that come out of a recession stronger are the ones that stayed visible. The brand that goes dark in a recession loses [[share of voice:the percentage of all advertising in a category that belongs to your brand]] it rarely recovers. Our competitors are already reducing spend. This is the moment to defend our share of voice at the lowest media cost we will see for three years.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The messaging does need to change, however. We need to shift from aspiration to [[value messaging:communication that emphasises practical or financial value rather than aspiration]]. Our current campaign is lifestyle-driven. In a period of high [[price sensitivity:how strongly consumers react to price changes — which increases in a recession]], lifestyle messaging feels out of touch. We need to make the value case — quality, longevity, cost-per-use.",
     },
     {
@@ -178,13 +178,13 @@ export const marketingInARecession: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We rationalise the range and defend the core before we build the fringe. The top 20% of products generate 60% of revenue. That is what gets the investment. The tail of the range — 40 SKUs that are marginal on profitability — those are paused.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "On [[trading down:when consumers switch from a premium to a cheaper alternative in a downturn]] — 23% of our customers are at risk. We need an accessible entry point so they trade down within our portfolio, not away from it. And we grow [[share of wallet:the percentage of a customer's total spend in a category that goes to your brand]] from existing customers — acquisition cost is too high right now.",
     },
     {
@@ -196,13 +196,13 @@ export const marketingInARecession: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We are repositioning, not discounting. Price sensitivity is high — the offer needs to earn its price by communicating value more explicitly. But we do not reduce the price. Once you discount, you reset the consumer's reference price downwards and it is very difficult to recover. We make the value case better. We do not make the price lower.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The summary: maintain the budget, shift the message, rationalise the range, defend the core, protect the price. That is the [[recession-proofing:making a brand more resilient against economic downturns]] plan. The brands that execute this consistently are the ones that emerge from a recession with stronger positions than they went in.",
     },
   ],

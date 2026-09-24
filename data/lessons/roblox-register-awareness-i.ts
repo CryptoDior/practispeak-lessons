@@ -220,7 +220,7 @@ export const robloxRegisterAwarenessI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "It is perfect for Discord — fully [[colloquial:everyday conversational language including slang and informal expressions]], high energy, exactly what teammates want to see after a win. But now read the guild forum post about the same match.",
     },
     {
@@ -232,7 +232,7 @@ export const robloxRegisterAwarenessI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "And then there is the RobloxNews article: 'In a dominant display, Phoenix Force overcame their rivals to advance to the regional finals.' Three descriptions. One match. Three different [[register:the level and style of language suited to a situation]] choices.",
     },
     {
@@ -244,7 +244,7 @@ export const robloxRegisterAwarenessI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. The first rule of register is: know your [[audience:the specific group of people your communication is aimed at]]. Discord audience = teammates who were there. Forum audience = the whole guild community, including people who were not playing. News audience = complete strangers.",
     },
     {
@@ -256,7 +256,7 @@ export const robloxRegisterAwarenessI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly — and that is what it means to [[paraphrase:restate the same idea in different words to adjust register or clarity]]. Look: 'we absolutely cooked them' → 'we secured a decisive victory' → 'Phoenix Force overcame their rivals.' Same result. Three levels of register.",
     },
     {
@@ -268,7 +268,7 @@ export const robloxRegisterAwarenessI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "For a guild activity report: 'Server activity this evening is significantly below the weekly average, with a notably reduced number of active users logged in.' Same fact. Completely different register — and completely different impression it creates.",
     },
   ],

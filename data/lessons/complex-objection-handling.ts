@@ -6,7 +6,7 @@ export const complexObjectionHandling: Lesson = {
   subtitle: "When the answer is 'not yet' — language for budget, timing, authority, and trust objections",
   level: 'C1-C2',
   description: 'Every serious sales conversation hits at least one of four objections: budget, timing, authority, or trust. This lesson teaches the language for each — how to validate without surrendering, reframe without dismissing, and probe without pressuring. The goal is not to overcome objections — it is to understand them well enough to resolve them.',
-  heroImage: '/images/complex-objection-handling-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/complex-objection-handling-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const complexObjectionHandling: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To present the same situation from a different angle, changing how it is perceived without changing the facts. Reframing is not spin — it is helping the prospect see what they already know from a more useful perspective.',
       example: 'Marcus said the cost was too high. Riley reframed it: not as a cost, but as the price of not fixing a problem that was already costing him far more. The number did not change — what changed was the context around it.',
-      imageSlug: '/images/complex-objection-handling-reframe.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/complex-objection-handling-reframe.png',
     },
     {
       word: 'VALIDATE',
       partOfSpeech: 'verb',
       definition: 'To explicitly acknowledge that a concern is real and understandable before addressing it. Skipping validation makes objections worse — the prospect feels dismissed and digs in deeper.',
       example: "Riley did not argue with Marcus when he said the timing was wrong. She validated it first: 'That makes complete sense given where you are in the quarter.' Only then did she ask what would need to change for the timing to work.",
-      imageSlug: '/images/complex-objection-handling-validate.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/complex-objection-handling-validate.png',
     },
     {
       word: 'DEFER',
       partOfSpeech: 'verb',
       definition: 'To delay a decision or postpone an action to a later point. In sales, a prospect who defers may have a genuine timing constraint — or may be using timing as a polite way to say no. Distinguishing between the two is one of the most important skills in objection handling.',
       example: "Marcus deferred twice in the same meeting — first on budget, then on timing. Riley's job was to find out whether he was genuinely waiting for the right moment or whether he had already decided and was being polite about it.",
-      imageSlug: '/images/defer.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/defer.png',
     },
     {
       word: 'CONSTRAINT',
       partOfSpeech: 'noun',
       definition: 'A real limitation — financial, structural, or time-based — that restricts what a prospect can do. Understanding whether a constraint is fixed or flexible is the first step in responding to almost any objection.',
       example: 'The budget constraint Marcus described was real — but it was a constraint on the current quarter, not on the year. Riley asked about the annual cycle and discovered that the budget she needed would be available in six weeks.',
-      imageSlug: '/images/constraint.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/constraint.png',
     },
     {
       word: 'PREEMPT',
       partOfSpeech: 'verb',
       definition: 'To address an objection before the prospect raises it — removing it from the conversation before it becomes a barrier. Experienced salespeople preempt the objections they know are coming rather than waiting to be ambushed by them.',
       example: "Riley knew the trust objection was coming — the industry had been burned by failed implementations before. She preempted it in her opening: 'I want to address something before we get to the proposal, because I know it is on your mind.'",
-      imageSlug: '/images/preempt.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/preempt.png',
     },
     {
       word: 'COMMITMENT',
       partOfSpeech: 'noun',
       definition: 'The level of investment — financial, time, or reputational — that a prospect is being asked to make. Many objections are not about the specific objection raised but about the commitment feeling too large or too risky for where the relationship currently is.',
       example: "Marcus's hesitation was not really about money. It was about commitment — he was being asked to sign a twelve-month contract with a company he had only met twice. Riley proposed a pilot, which reduced the commitment to something he could defend internally.",
-      imageSlug: '/images/complex-objection-handling-commitment.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/complex-objection-handling-commitment.png',
     },
     {
       word: 'SCEPTICISM',
       partOfSpeech: 'noun',
       definition: 'Doubt about whether something is true, effective, or worth trusting. Trust objections are fundamentally rooted in scepticism — often built up by previous experiences with other vendors or with the category itself.',
       example: "Marcus's scepticism was earned: his last two vendors had made similar promises and delivered disappointing results. Riley did not try to talk him out of the scepticism — she acknowledged it, used it to ask better questions, and offered to prove her claims on his own data.",
-      imageSlug: '/images/scepticism.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scepticism.png',
     },
     {
       word: 'ESCALATE',
       partOfSpeech: 'verb',
       definition: "To involve a more senior person in a decision — either from the prospect's side (a decision-maker who needs to approve) or from your own side (a senior stakeholder who adds credibility). Authority objections often require a structured escalation to move forward.",
       example: 'When Marcus said he would need to bring this to his CEO, Riley did not see it as a setback. She asked who else would be in that conversation and offered to help Marcus prepare for it — turning the escalation into a collaborative next step rather than a delay.',
-      imageSlug: '/images/complex-objection-handling-escalate.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/complex-objection-handling-escalate.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const complexObjectionHandling: Lesson = {
       phrase: 'I HEAR THAT — AND',
       definition: "Validate the objection in full, then pivot — without using 'but', which signals that what came before did not count. 'And' keeps both things true at the same time.",
       example: "I hear that the budget is not there for this quarter — and I want to make sure that when Q1 opens up, you have everything you need to make the case internally. Can we use this time to build that?'",
-      imageSlug: '/images/i-hear-that--and.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-hear-that--and.png',
     },
     {
       phrase: "HELP ME UNDERSTAND WHAT'S BEHIND THAT",
       definition: 'A probe that goes beneath the surface objection — because the stated reason and the real reason are often different. Used when you suspect the objection is a proxy for something deeper.',
       example: "'Help me understand what's behind the timing concern — is it that Q4 is genuinely the wrong moment, or is there something about the proposal itself that is making you want to wait?'",
-      imageSlug: '/images/help-me-understand-whats-behind-that.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/help-me-understand-whats-behind-that.png',
     },
     {
       phrase: "IF THAT WEREN'T AN ISSUE",
       definition: 'A conditional test — removes the stated objection hypothetically to discover whether it is the real barrier or a proxy for something else. If removing the issue does not change the answer, the real objection is elsewhere.',
       example: "'If the budget were not an issue right now — if you had the money approved and ready — would this be the right decision for your team?' If the answer is no, the real conversation is just beginning.",
-      imageSlug: '/images/if-that-werent-an-issue.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/if-that-werent-an-issue.png',
     },
     {
       phrase: 'WHO ELSE NEEDS TO BE PART OF THIS',
       definition: 'The clean way to surface an authority gap without embarrassing the person you are speaking to. Frames the question as a process question, not a challenge to their decision-making power.',
       example: "'Who else needs to be part of this conversation before we move to next steps? I want to make sure the right people have everything they need.'",
-      imageSlug: '/images/who-else-needs-to-be-part-of-this.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/who-else-needs-to-be-part-of-this.png',
     },
     {
       phrase: 'WHAT WOULD NEED TO CHANGE',
       definition: "A forward-looking probe for timing objections — asks what conditions would need to be different for this to make sense. Moves the conversation from 'not now' to 'what would make now possible.'",
       example: "'What would need to change between now and Q1 for this to be the right moment? I want to understand what you are waiting for — so I can either help create those conditions or adjust what I am proposing.'",
-      imageSlug: '/images/what-would-need-to-change.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-would-need-to-change.png',
     },
     {
       phrase: 'THE COST OF NOT ACTING IS',
       definition: 'Reframes a budget or timing objection by making the price of inaction visible. More effective than defending the cost of acting — because the prospect already knows what they are being asked to spend.',
       example: "'The cost of not acting on this before year-end is roughly the same as the contract value — you lose twelve months of compounding efficiency gains and your competitor, who started in January, gains six months on you. I want to make sure that trade-off is visible.'",
-      imageSlug: '/images/the-cost-of-not-acting-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-cost-of-not-acting-is.png',
     }
   ],
 
@@ -153,7 +153,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I am glad you are saying it directly. That is exactly the conversation I want to have. Go ahead.',
     },
     {
@@ -165,7 +165,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I hear that — and I want to address all three properly. But before I do, can I ask — if those three things were not on the table, would this be the right decision for your team?',
     },
     {
@@ -177,7 +177,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is helpful. Let me take each one. On budget — I hear that Q4 is locked. Can I ask when your Q1 cycle opens? Because what I want to do between now and then is help you build the internal case so that when the budget is available, the decision is already made.',
     },
     {
@@ -189,7 +189,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Understood. On timing — what would need to change between now and January for your team to be able to give this the attention it needs? I am not trying to [[preempt:to address a concern before it becomes a barrier]] the launch — I want to understand what the window actually looks like.',
     },
     {
@@ -201,7 +201,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good. I want to help you prepare for that conversation, not just hand you a deck and hope. Can you tell me what her biggest concern is likely to be? That tells me what to build into the proposal.',
     },
     {
@@ -213,7 +213,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is the most useful thing you have told me today. Here is what I am going to propose: a thirty-day paid pilot at a fraction of the annual cost. Your CFO does not commit to twelve months. She commits to thirty days and a real result. If we hit the baseline number, the annual conversation becomes straightforward. If we do not, there is no contract.',
     },
     {
@@ -225,7 +225,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Day one to five: we [[reframe:to present the same situation from a different angle]] your current workflow data so you can see the baseline. Day six to thirty: the tool runs in parallel with your existing process. By day thirty, you have a real efficiency number on your own data — not a projection. The cost of not acting on that number will be visible in a way it is not right now.',
     }
   ],

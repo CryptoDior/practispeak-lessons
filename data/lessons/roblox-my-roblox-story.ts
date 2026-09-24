@@ -189,7 +189,7 @@ export const robloxMyRobloxStory: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Tell me everything! [[First:what happened at the very start]], what happened?",
     },
     {
@@ -201,7 +201,7 @@ export const robloxMyRobloxStory: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Oh wow! And [[then:what came next]]?",
     },
     {
@@ -213,7 +213,7 @@ export const robloxMyRobloxStory: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Did you find it? [[Suddenly:a fast surprise]] something happened?",
     },
     {
@@ -225,7 +225,7 @@ export const robloxMyRobloxStory: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is so exciting! And [[finally:the last thing — how the story ends]]?",
     },
     {
@@ -237,7 +237,7 @@ export const robloxMyRobloxStory: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "What a story! [[First:start]], [[then:next]], [[after that:one more step]], [[suddenly:big surprise]], [[luckily:good thing]], [[sadly:bad thing]], [[finally:the end]], [[in the end:the result]] — you used all the story words perfectly!",
     },
   ],

@@ -206,7 +206,7 @@ export const robloxStorytellingPastTenses: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, I have to tell you about the match from last night. It was absolutely unbelievable — one of the best I have ever played.",
     },
     {
@@ -218,7 +218,7 @@ export const robloxStorytellingPastTenses: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "We started well — took the first objective in under three minutes. [[Meanwhile:at the same time as something else]], Kai had circled around the entire map and cut off their supply route without them noticing.",
     },
     {
@@ -230,7 +230,7 @@ export const robloxStorytellingPastTenses: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "We held the second zone for six minutes. Then [[all of a sudden:very quickly and unexpectedly — more dramatic than suddenly]], their top player activated a power-up we had never seen before — it knocked back our entire front line.",
     },
     {
@@ -242,7 +242,7 @@ export const robloxStorytellingPastTenses: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[At that point:at this specific significant moment]], we had lost two players and they were pushing hard. It looked like we were finished. But we held out — kept the defensive line for another four minutes.",
     },
     {
@@ -254,7 +254,7 @@ export const robloxStorytellingPastTenses: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[Just as:at exactly the same moment — with dramatic effect]] they were about to take the final objective, Kai respawned and hit them from behind. [[After that:the next event in the sequence]], everything turned around. We came back from two points down to win by one.",
     },
     {

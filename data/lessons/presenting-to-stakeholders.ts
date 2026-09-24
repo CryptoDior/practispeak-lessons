@@ -6,7 +6,7 @@ export const presentingToStakeholders: Lesson = {
   subtitle: 'How to present marketing data and ideas clearly to senior audiences',
   level: 'B1-B2',
   description: "Presenting to stakeholders is one of the most important skills in marketing. Stakeholders — managers, directors, board members, or investors — are often busy people who want the key message quickly. They do not want a full tour of your data. They want to know what happened, what it means, and what you recommend. This lesson teaches you the language and structure you need to deliver a clear, confident five-minute stakeholder presentation in English.",
-  heroImage: '/images/presenting-to-stakeholders-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-to-stakeholders-hero.png',
 
   vocabulary: [
     {
@@ -35,7 +35,7 @@ export const presentingToStakeholders: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The specific goal you were trying to achieve. Always state the objective at the start of a stakeholder presentation so the audience knows what success looked like before you tell them the results.',
       example: "Riley opened her presentation: The objective of this campaign was to generate 500 new leads at a cost of no more than £20 per lead. Marcus nodded: Good start — always tell them what you were trying to do before you tell them what happened. Otherwise the results have no context.",
-      imageSlug: '/images/presenting-to-stakeholders-objective.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-to-stakeholders-objective.png',
     },
     {
       word: 'ROI',
@@ -118,7 +118,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Today I'm going to walk you through the results of our Q3 email campaign — what we set out to do, what we achieved, and what we are recommending next. I'll keep it to five minutes and leave time for questions.",
     },
     {
@@ -130,7 +130,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The [[objective:the specific goal you were trying to achieve]] of this campaign was to generate 500 new leads at a cost of no more than £20 per lead. We had a total budget of £15,000 and ran the campaign over eight weeks.",
     },
     {
@@ -142,7 +142,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We generated 651 leads — 30% above target. Cost per lead came in at £14.80, which is 26% better than our £20 target. I'd like to draw your attention to the [[ROI:return on investment — what you got back compared to what you spent]] figure: in terms of ROI, we invested £15,000 and generated £52,000 in attributable pipeline — a 3.5 to 1 return.",
     },
     {
@@ -154,7 +154,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Fair point. Conversion from lead to meeting was lower than we hoped — 12% against a target of 20%. The [[headline:the main message of a slide, written as a short clear sentence]] for that slide is: lead volume strong, but conversion to meeting needs improvement. We know why and we have a fix.",
     },
     {
@@ -166,7 +166,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We recommend a dedicated follow-up sequence for new leads — three emails over five days, not the generic newsletter. We tested this on 50 leads in week eight and conversion to meeting jumped to 19%. The bottom line is: if we apply this to all leads, we can close the conversion gap with no additional budget.",
     },
     {
@@ -178,7 +178,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I need sign-off from sales to update the follow-up sequence, and approval from finance to maintain the same budget for Q4. Both are on the next steps [[slide:a single page of a presentation]].",
     },
     {
@@ -190,7 +190,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "In summary: the campaign exceeded its lead and cost targets, generated a 3.5 to 1 ROI, and identified a clear conversion improvement we can implement immediately. Are there any questions?",
     },
     {
@@ -202,7 +202,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Thank you. The hardest part was the [[Q&A:questions and answers at the end of a presentation]] preparation — I wrote out answers to the six questions I most feared. Having those ready made me feel much more confident.",
     },
   ],

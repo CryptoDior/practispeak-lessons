@@ -6,7 +6,7 @@ export const buildingRapport: Lesson = {
   subtitle: 'How to create genuine connection before — and during — a business conversation',
   level: 'B1-B2',
   description: 'Master the language of small talk and professional warmth — how to open with genuine interest, reference what you have learned about someone, show empathy, and transition naturally from personal connection to business conversation.',
-  heroImage: '/images/building-rapport-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/building-rapport-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const buildingRapport: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Real and sincere — coming from actual interest rather than a script or performance.',
       example: 'Customers can tell the difference between a genuine question and a scripted opener — authentic curiosity builds trust far faster.',
-      imageSlug: '/images/genuine.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/genuine.png',
     },
     {
       word: 'EMPATHY',
@@ -28,42 +28,42 @@ export const buildingRapport: Lesson = {
       partOfSpeech: 'verb',
       definition: "To respond to someone's warmth or openness with the same energy — to give back what you receive.",
       example: 'When a prospect opens up about their challenges, reciprocate with a relevant experience rather than moving straight to your pitch.',
-      imageSlug: '/images/reciprocate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/reciprocate.png',
     },
     {
       word: 'ACKNOWLEDGE',
       partOfSpeech: 'verb',
       definition: 'To show clearly that you have heard or noticed something the other person said or experienced.',
       example: 'Before moving on, acknowledge what they just told you — it signals that you were actually listening.',
-      imageSlug: '/images/building-rapport-acknowledge.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/building-rapport-acknowledge.png',
     },
     {
       word: 'ATTENTIVE',
       partOfSpeech: 'adjective',
       definition: 'Paying careful, genuine attention to what someone is saying rather than just waiting for your turn to speak.',
       example: 'Being attentive in the first five minutes of a call gives you everything you need to personalise the next fifty.',
-      imageSlug: '/images/attentive.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/attentive.png',
     },
     {
       word: 'MUTUAL',
       partOfSpeech: 'adjective',
       definition: 'Shared between two or more people — a mutual connection, a mutual interest, a mutual experience.',
       example: 'Finding a mutual connection or shared experience is one of the fastest ways to move from stranger to trusted contact.',
-      imageSlug: '/images/building-rapport-mutual.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/building-rapport-mutual.png',
     },
     {
       word: 'CANDID',
       partOfSpeech: 'adjective',
       definition: 'Open and honest in a way that feels refreshing — willing to speak directly and personally.',
       example: 'Being candid about the purpose of your call — rather than disguising it — is itself a form of rapport-building.',
-      imageSlug: '/images/building-rapport-candid.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/building-rapport-candid.png',
     },
     {
       word: 'SMALL TALK',
       partOfSpeech: 'noun',
       definition: 'Light, casual conversation on non-business topics — used to build comfort and connection before getting to the point.',
       example: 'Small talk is not wasted time — it is the foundation that makes everything else in the conversation easier.',
-      imageSlug: '/images/small-talk.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/small-talk.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const buildingRapport: Lesson = {
       phrase: 'HOW DID IT GO',
       definition: 'Follow up on something the prospect mentioned previously — shows you were listening and remembered.',
       example: "You mentioned you had a big product launch last week — how did it go? I've been wondering how it landed.",
-      imageSlug: '/images/how-did-it-go.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/how-did-it-go.png',
     },
     {
       phrase: 'I NOTICED THAT',
       definition: 'Reference something specific you found out about the prospect — through research, LinkedIn, or a previous conversation.',
       example: 'I noticed that your team has grown quite significantly this year — that must have brought some interesting challenges with it.',
-      imageSlug: '/images/i-noticed-that.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-noticed-that.png',
     },
     {
       phrase: 'I CAN IMAGINE',
       definition: "Show empathy by acknowledging the prospect's experience without projecting or over-explaining.",
       example: 'A product launch in Q4 — I can imagine the pressure that puts on the whole team.',
-      imageSlug: '/images/i-can-imagine.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-can-imagine.png',
     },
     {
       phrase: 'THAT REMINDS ME OF',
       definition: 'Connect what the prospect says to a relevant experience or example — builds mutual ground without making it about you.',
       example: 'That reminds me of a conversation I had with a similar team last quarter — they described exactly the same challenge.',
-      imageSlug: '/images/that-reminds-me-of.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/that-reminds-me-of.png',
     },
     {
       phrase: 'ITS GOOD TO PUT A FACE TO THE NAME',
       definition: 'A warm phrase for the first time you speak to someone you have only communicated with by email or message.',
       example: "Emma — it's great to finally speak. It's good to put a face to the name after all our back-and-forth over email.",
-      imageSlug: '/images/its-good-to-put-a-face-to-the-name.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/its-good-to-put-a-face-to-the-name.png',
     },
     {
       phrase: 'SPEAKING OF WHICH',
       definition: 'A natural transition phrase that moves the conversation from small talk to the business topic without it feeling abrupt.',
       example: 'Speaking of which — what you just said about scaling the team is actually exactly why I wanted to connect today.',
-      imageSlug: '/images/speaking-of-which.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/speaking-of-which.png',
     }
   ],
 
@@ -147,7 +147,7 @@ export const buildingRapport: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Emma — great to finally speak. It's good to put a face to the name after all our emails.",
     },
     {
@@ -159,7 +159,7 @@ export const buildingRapport: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Oh that's really kind, thank you — [[genuine:real and sincere; coming from actual interest rather than a script]]ly glad it was useful. How did the rest of that week go? I remember you mentioned in your email that you had a big product launch coming up.",
     },
     {
@@ -171,7 +171,7 @@ export const buildingRapport: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I can imagine — product launches are full-on. Congratulations on getting it across the line. Are you [[reciprocate:to respond to someone's openness with the same energy]]ing that energy into a celebration, or straight back into the next thing?",
     },
     {
@@ -183,7 +183,7 @@ export const buildingRapport: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I noticed that your team has grown quite a bit this year — [[mutual:shared between two or more people]] connections we have mentioned it too. That kind of growth must bring some interesting challenges with communication and process.',
     },
     {
@@ -195,7 +195,7 @@ export const buildingRapport: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That reminds me of a conversation I had with a customer last quarter — similar team size, similar growth rate, and they described the exact same challenge. I want to [[acknowledge:to show clearly that you heard something]] that before we move on — it's a significant thing to manage, and not everyone sees it as a problem until it becomes one.",
     },
     {
@@ -207,7 +207,7 @@ export const buildingRapport: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Being [[attentive:paying careful, genuine attention to what someone is saying]] to that kind of signal early is half the battle. Speaking of which — what you just described is actually exactly why I wanted to connect today. Shall we move into that?',
     },
     {

@@ -6,7 +6,7 @@ export const whereDoYouSell: Lesson = {
   subtitle: 'Simple vocabulary for talking about markets, regions, and where companies operate',
   level: 'A1-A2',
   description: 'In B2B marketing, it is important to understand where your clients sell their products and services. This lesson gives you the vocabulary to talk about markets, regions, and geography — so you can ask the right questions and understand where a company operates.',
-  heroImage: '/images/where-do-you-sell-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/where-do-you-sell-hero.png',
 
   vocabulary: [
     {
@@ -21,7 +21,7 @@ export const whereDoYouSell: Lesson = {
       partOfSpeech: 'noun',
       definition: 'An area within a country or group of countries — for example, Northern Europe, the Midwest, or Southern Asia.',
       example: 'We focus on the DACH region — Germany, Austria, and Switzerland — because they share a similar business culture.',
-      imageSlug: '/images/where-do-you-sell-region.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/where-do-you-sell-region.png',
     },
     {
       word: 'COUNTRY',
@@ -112,73 +112,73 @@ export const whereDoYouSell: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Thanks for taking the time to speak today. Before I tell you more about what we do, I would love to understand your business better. Where do you currently sell?',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: '[As Client] We started as a [[domestic:relating to your home country]] business in the UK, but now we operate in five [[country:a nation with its own borders and government]] ies — UK, Germany, France, Netherlands, and Belgium.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'So you are already an [[international:involving more than one country]] company. That is great — it also means your marketing needs to work across different languages and cultures, right?',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: '[As Client] Exactly. The UK is our strongest [[market:a group of people or area where a company sells]], but we want to build more [[presence:the degree to which a company is known in a market]] in Germany and France.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Which [[region:an area within a country or group of countries]] within Germany are you targeting? The DACH region — Germany, Austria, Switzerland — or just Germany itself?',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: '[As Client] For now, just Germany. We want to [[expand:to grow into new areas or markets]] into Austria and Switzerland later.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That makes sense — it is always good to establish a strong presence in one market before rolling out to others. Do you have a sales team on the ground in Germany, or is it all managed from the UK?',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: '[As Client] We have one person covering the German [[territory:a specific area where someone is responsible for selling]]. She speaks German fluently, which helps a lot.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is very useful. For your marketing, we could create LinkedIn content in both English and German to help her reach potential clients in her [[territory:a specific area where someone is responsible for selling]].',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: '[As Client] That is exactly what we need. We are trying to break into the German market but it is competitive.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — the German [[market:a group of people or area where a company sells]] is competitive, but LinkedIn is very strong there for B2B. We have done this for other international clients. We can help you build a strong [[presence:the degree to which a company is known and active]] there.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: '[As Client] Great. Let us talk about how you would approach this — I want to know your plan for helping us operate more effectively in Germany.',
     }
   ],

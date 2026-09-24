@@ -6,7 +6,7 @@ export const simpleCustomerQuestions: Lesson = {
   subtitle: 'How to answer the questions customers ask most often',
   level: 'A1-A2',
   description: "Learn to handle the questions customers ask when they are evaluating a product — 'How much is it?', 'Is it available?', 'When can I get access?' — quickly, clearly, and with confidence.",
-  heroImage: '/images/simple-customer-questions-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-customer-questions-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const simpleCustomerQuestions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The amount of money you pay for something.',
       example: 'The price of the Growth Plan is $149 a month.',
-      imageSlug: '/images/simple-customer-questions-price.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-customer-questions-price.png',
     },
     {
       word: 'AVAILABLE',
       partOfSpeech: 'adjective',
       definition: 'Ready to use or buy right now; not out of stock or unavailable.',
       example: 'Yes, a 14-day free trial is available right now — no payment details needed.',
-      imageSlug: '/images/simple-customer-questions-available.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-customer-questions-available.png',
     },
     {
       word: 'CONFIRM',
       partOfSpeech: 'verb',
       definition: 'To say clearly that something is true or will definitely happen.',
       example: 'Can you confirm the trial period? I want to be sure before I sign up.',
-      imageSlug: '/images/simple-customer-questions-confirm.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-customer-questions-confirm.png',
     },
     {
       word: 'ACCESS',
       partOfSpeech: 'noun',
       definition: 'The right or ability to use a product, system, or service.',
       example: 'You get full access to all features from the moment you sign up.',
-      imageSlug: '/images/simple-customer-questions-access.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-customer-questions-access.png',
     },
     {
       word: 'IMMEDIATELY',
       partOfSpeech: 'adverb',
       definition: 'Right now; without any delay.',
       example: 'You can get access immediately — I can set it up for you today.',
-      imageSlug: '/images/immediately.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/immediately.png',
     },
     {
       word: 'DISCOUNT',
       partOfSpeech: 'noun',
       definition: 'A reduction in the normal price.',
       example: 'We offer a discount if you pay for the full year upfront.',
-      imageSlug: '/images/simple-customer-questions-discount.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-customer-questions-discount.png',
     },
     {
       word: 'QUERY',
       partOfSpeech: 'noun',
       definition: 'A question or request for information.',
       example: "That's a great query — let me check the current pricing and get back to you.",
-      imageSlug: '/images/query.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/query.png',
     },
     {
       word: 'TRIAL',
       partOfSpeech: 'noun',
       definition: 'A period when you can use a product for free before deciding to buy.',
       example: 'The trial is 14 days — completely free, no credit card required.',
-      imageSlug: '/images/simple-customer-questions-trial.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-customer-questions-trial.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const simpleCustomerQuestions: Lesson = {
       phrase: 'HOW MUCH IS IT',
       definition: 'The most common question customers ask about price.',
       example: 'How much is it for a team of 10 people?',
-      imageSlug: '/images/how-much-is-it.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/how-much-is-it.png',
     },
     {
       phrase: 'IS IT AVAILABLE',
       definition: 'Ask if a product, feature, or option can be used or obtained right now.',
       example: 'Is the annual plan available to new customers?',
-      imageSlug: '/images/is-it-available.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/is-it-available.png',
     },
     {
       phrase: 'WHEN CAN I GET',
       definition: 'Ask about the timeline for receiving or accessing something.',
       example: 'When can I get access to the full platform?',
-      imageSlug: '/images/when-can-i-get.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/when-can-i-get.png',
     },
     {
       phrase: 'DO YOU OFFER',
       definition: 'Ask if a company provides a particular product, service, or discount.',
       example: 'Do you offer a discount for non-profit organisations?',
-      imageSlug: '/images/do-you-offer.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/do-you-offer.png',
     },
     {
       phrase: 'CAN YOU CONFIRM',
       definition: 'Ask someone to verify or make a piece of information definite.',
       example: 'Can you confirm the price before I pass this to my manager?',
-      imageSlug: '/images/can-you-confirm.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/can-you-confirm.png',
     },
     {
       phrase: 'LET ME CHECK',
       definition: 'A phrase the salesperson uses before giving a specific answer to a query.',
       example: 'Let me check whether that feature is included in the Starter Plan.',
-      imageSlug: '/images/let-me-check.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/let-me-check.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const simpleCustomerQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The Starter Plan is $49 a month and the Growth Plan is $149 a month. Which sounds closer to what you need?',
     },
     {
@@ -130,7 +130,7 @@ export const simpleCustomerQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — a 14-day trial is available right now. No payment details needed.',
     },
     {
@@ -142,7 +142,7 @@ export const simpleCustomerQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: '[[immediately:right now; without any delay]]. I can set up your account today — it only takes a few minutes.',
     },
     {
@@ -154,7 +154,7 @@ export const simpleCustomerQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes. If you pay annually, the [[price:the amount of money you pay for something]] works out at $124 a month — a saving of $25 compared to monthly billing.',
     },
     {
@@ -166,7 +166,7 @@ export const simpleCustomerQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Of course. The trial is 14 days, completely free. Let me check if there are any current offers too... Yes — this month new customers get an extra 7 days, so 21 days in total.',
     },
     {
@@ -178,7 +178,7 @@ export const simpleCustomerQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — the Growth Plan covers up to 25 users, so 20 fits perfectly. Shall I send you the details so you can share them with your manager?',
     }
   ],

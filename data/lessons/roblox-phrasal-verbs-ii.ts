@@ -79,7 +79,7 @@ export const robloxPhrasalVerbsII: Lesson = {
       partOfSpeech: 'phrasal verb',
       definition: "Support someone or something; or make a copy of data to prevent losing it.",
       example: "Always back up your game data before a major update — sometimes the patch causes save corruption.",
-      imageSlug: '/images/roblox-phrasal-verbs-ii-back-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-phrasal-verbs-ii-back-up.png',
     },
     {
       word: 'GIVE UP',
@@ -212,7 +212,7 @@ export const robloxPhrasalVerbsII: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Nice. Can you [[set up:arrange and prepare something]] a private session so we can explore it before going in blind against ranked players?",
     },
     {
@@ -224,7 +224,7 @@ export const robloxPhrasalVerbsII: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is ambitious. We will need to [[gear up:prepare equipment and mindset for a challenge]] properly — I need to [[swap out:replace one thing with another]] my armour and upgrade two of my skills first.",
     },
     {
@@ -236,7 +236,7 @@ export const robloxPhrasalVerbsII: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I am not giving up — I just want to go in prepared. And we need to [[back up:support someone or make a copy of data]] our strategy with proper practice, not just confidence.",
     },
     {
@@ -248,7 +248,7 @@ export const robloxPhrasalVerbsII: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Good plan. We should also invite Kai and Sora to [[team up:join forces with others]] for this one — a four-player team is far stronger than a duo on that map.",
     },
     {
@@ -260,7 +260,7 @@ export const robloxPhrasalVerbsII: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Give me two minutes — I need to [[hang out:spend casual time]] in the trading zone for a second and pick up one more item. Then I am all yours.",
     },
   ],

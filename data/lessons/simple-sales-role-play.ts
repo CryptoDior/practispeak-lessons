@@ -6,7 +6,7 @@ export const simpleSalesRolePlay: Lesson = {
   subtitle: 'How to run a complete sales conversation — greeting, product, price, and close',
   level: 'A1-A2',
   description: 'This is your capstone lesson. You have learned how to greet a customer, explain a product, compare options, take an order, confirm details, and say thank you. Now you put it all together. This lesson walks you through a complete sales conversation from the first word to the final yes — so you can feel confident doing it in real life.',
-  heroImage: '/images/simple-sales-role-play-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-sales-role-play-hero.png',
 
   vocabulary: [
     {
@@ -21,7 +21,7 @@ export const simpleSalesRolePlay: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To present yourself or a product for the first time. After greeting, you introduce the reason for your call and the product you want to talk about.',
       example: 'Riley said: Let me introduce our Standard Plan — it is designed for sales teams of ten to twenty people and includes reporting tools, priority support, and unlimited storage.',
-      imageSlug: '/images/simple-sales-role-play-introduce.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-sales-role-play-introduce.png',
     },
     {
       word: 'HIGHLIGHT',
@@ -35,7 +35,7 @@ export const simpleSalesRolePlay: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A reason a customer gives for not buying yet — for example, the price is too high or they need more time. Objections are normal — a good salesperson listens and responds calmly.',
       example: 'Marcus said: It sounds good, but can I think about it? Riley recognised it as an objection and said: Of course. Let me give you a quick summary of everything first.',
-      imageSlug: '/images/simple-sales-role-play-objection.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-sales-role-play-objection.png',
     },
     {
       word: 'STRUCTURE',
@@ -63,7 +63,7 @@ export const simpleSalesRolePlay: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To complete a sale — the moment the customer says yes. The close comes after you have answered all questions and given a summary. A simple, direct question is always best.',
       example: "Riley had answered every question. She gave the summary and then closed the sale: Wonderful — would you like to go ahead? Marcus said: Yes — let's do it.",
-      imageSlug: '/images/simple-sales-role-play-close.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-sales-role-play-close.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good morning. My name is Riley from Practispeak Solutions. Am I speaking with Marcus Oliveira?',
     },
     {
@@ -124,7 +124,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Hi Marcus! Is now a good time to talk for a few minutes?',
     },
     {
@@ -136,7 +136,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I would like to tell you about our Standard Plan. It is designed for sales teams of ten to twenty people — I think it is perfect for your team.',
     },
     {
@@ -148,7 +148,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'It includes reporting tools, priority support, and unlimited storage. The main feature I want to highlight is the reporting — your manager will love it.',
     },
     {
@@ -160,7 +160,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The price is $35 per user per month. For your team of fifteen, your total would be $525. And we are currently offering 10% off for new customers.',
     },
     {
@@ -172,7 +172,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Of course. What is your main concern? I want to make sure I have answered everything.',
     },
     {
@@ -184,7 +184,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly right. Let me give you a quick [[summary:a short statement that repeats the most important points]] — Standard Plan, fifteen users, $35 per month, 10% off for the first three months.',
     },
     {
@@ -196,7 +196,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Wonderful. So — would you like to go ahead?',
     },
     {

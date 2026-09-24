@@ -6,7 +6,7 @@ export const crisisCommunication: Lesson = {
   subtitle: 'How to respond to negative situations, protect the brand, and communicate under pressure',
   level: 'B1-B2',
   description: "Every brand will face a crisis at some point — a product problem, a negative news story, a social media incident, or a customer complaint that goes public. How you communicate in those moments defines how the brand is remembered. Marketing and communications teams need to know how to respond quickly, clearly, and professionally. This lesson teaches you the vocabulary and phrases used in crisis communication — so you can protect the brand when things go wrong.",
-  heroImage: '/images/crisis-communication-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crisis-communication-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Not yet — I found out an hour ago. But I can have a draft ready in 15 minutes. Something like: 'We are aware of the situation and are investigating urgently. We take this seriously and will share a full update within 24 hours.'",
     },
     {
@@ -130,7 +130,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "A customer says the product caused a skin reaction. They posted photos and tagged major consumer journalists. We do not yet know if this is an isolated case or a wider issue — our operations team is checking the batch records now.",
     },
     {
@@ -142,7 +142,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "For something this size, it should be the CEO or the head of product — not me. I will direct all media enquiries through the comms lead. Nobody else on the team posts or responds publicly until this is resolved.",
     },
     {
@@ -154,7 +154,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "If the operations team confirms a batch defect, I would say immediate escalation to the legal team and the CEO — and a potential recall within 24 hours. A recall handled with full [[transparency:being open and honest about what happened and why]] is recoverable. A recall that is delayed or hidden is not.",
     },
     {
@@ -166,7 +166,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Our first priority is to acknowledge the customer directly — a personal reply from a senior person, not a generic customer service message. Then we pause all scheduled marketing posts. Then we set up a monitoring alert for every mention of the brand in the next 72 hours.",
     },
     {
@@ -178,7 +178,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I will have three versions ready for your approval: a social media holding statement, a longer press statement if journalists call today, and a full statement once we have the facts from operations — probably in four to six hours.",
     },
     {
@@ -190,7 +190,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The one thing: a product complaint has gone viral, we do not yet know if it is an isolated incident or a batch issue, we have a holding statement going out within the hour, and we may be facing a recall decision within 24 hours. She needs to know the scope and the timeline.",
     },
     {
@@ -202,7 +202,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Understood. Holding statement in 15 minutes. I'll also brief the customer service team — they need to know what to say if customers call or message before the official statement goes out.",
     },
   ],

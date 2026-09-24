@@ -6,7 +6,7 @@ export const simpleProductComparison: Lesson = {
   subtitle: 'How to compare two products using bigger, cheaper, better, and more popular',
   level: 'A1-A2',
   description: 'When a customer cannot decide between two options, your job is to make the comparison clear and simple. This lesson teaches you how to use comparative language — bigger, cheaper, better, more popular — to help customers understand the difference and make the right choice.',
-  heroImage: '/images/simple-product-comparison-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-product-comparison-hero.png',
 
   vocabulary: [
     {
@@ -21,7 +21,7 @@ export const simpleProductComparison: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A special part or quality of a product that makes it useful. More features usually means a higher price.',
       example: 'Marcus asked what the Standard Plan included. Riley said: It has more features than the Basic Plan — reporting tools, priority support, and unlimited storage.',
-      imageSlug: '/images/simple-product-comparison-feature.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-product-comparison-feature.png',
     },
     {
       word: 'AFFORDABLE',
@@ -35,7 +35,7 @@ export const simpleProductComparison: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Liked or chosen by many people. When you tell a customer a product is popular, it shows them other people trust it.',
       example: 'Marcus asked which plan most customers chose. Riley said: The Standard Plan is our most popular option — about 70% of our customers use it.',
-      imageSlug: '/images/simple-product-comparison-popular.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/simple-product-comparison-popular.png',
     },
     {
       word: 'ADVANCED',
@@ -63,7 +63,7 @@ export const simpleProductComparison: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To move to a better or more advanced version of a product or plan. Many customers start with a basic plan and upgrade later.',
       example: 'Marcus was not sure. Riley said: You can start with the Basic Plan and upgrade to Standard at any time — there is no penalty and it only takes a few minutes.',
-      imageSlug: '/images/upgrade.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/upgrade.png',
     }
   ],
 
@@ -118,13 +118,13 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good question. Let me [[compare:to look at two things together to find the differences]] them for you.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The Basic Plan is cheaper than the Standard Plan — it is $20 per user per month.',
     },
     {
@@ -136,7 +136,7 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The Standard Plan is $35 per user. It is more expensive, but it has more [[feature:a special part or quality of a product]]s.',
     },
     {
@@ -148,7 +148,7 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The Standard Plan is more [[popular:liked or chosen by many people]] with teams like yours. Most of our customers choose it.',
     },
     {
@@ -160,7 +160,7 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The main difference is the reporting tools. The Standard Plan includes them — the Basic Plan does not. It is also more [[advanced:having more features or better technology]].',
     },
     {
@@ -172,7 +172,7 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Then the Standard Plan is better for you. It is more [[suited:right or appropriate for a specific person or situation]] to a team your size.',
     },
     {
@@ -184,7 +184,7 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes, of course — you can upgrade at any time. But for your team, I would recommend starting with the Standard Plan.',
     },
     {

@@ -6,7 +6,7 @@ export const crossCulturalNegotiation: Lesson = {
   subtitle: 'How to communicate across cultural boundaries — understanding high and low context, face-saving, protocol, and indirect communication',
   level: 'C1-C2',
   description: "In global business, the ability to negotiate across cultural boundaries is one of the most valuable and least taught skills. What counts as direct in one culture reads as rude in another. Silence means agreement in some contexts and deep discomfort in others. A 'yes' that is not a yes. A smile that masks disagreement. The norms around relationships, hierarchy, time, and decision-making vary enormously across cultures — and misreading them can damage partnerships, lose contracts, and create lasting mistrust. This lesson gives you the vocabulary and the frameworks to navigate cross-cultural negotiation with awareness and confidence.",
-  heroImage: '/images/cross-cultural-negotiation-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cross-cultural-negotiation-hero.png',
 
   vocabulary: [
     {
@@ -160,13 +160,13 @@ export const crossCulturalNegotiation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Three fundamental things. First — this is a [[high-context communication:a style where meaning is conveyed through context, relationship, and non-verbal cues rather than explicit words]] environment. What is said directly will tell you less than the tone, the energy, and what is not said. Second — [[indirect communication:expressing things, especially negatives, in a way that avoids direct confrontation]] is the norm. A polite non-answer is often a no. Third — [[face-saving:protecting someone's dignity and social standing in front of others]] is critical. We do not contradict anyone publicly.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "On the decision-making side — we are dealing with a [[collectivist culture:a culture that prioritises the group over the individual, where decisions are made by consensus]]. We need to allow time for [[consensus-building:working to achieve broad agreement among all stakeholders before a decision is made]]. They will not give us a decision at the end of the meeting. We should not push for one.",
     },
     {
@@ -178,13 +178,13 @@ export const crossCulturalNegotiation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Business cards with both hands. Most senior person introduced first, addressed by title. Silence after a question is not disagreement — it is consideration. Do not fill the silence. We wait.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And watch the [[non-verbal cue:signals conveyed through body language, facial expression, and tone rather than words]]s. If the most senior person disengages — turns slightly away, looks at his phone — that is a significant signal of concern that will not be expressed verbally. Read the room, not just the words.",
     },
     {
@@ -196,13 +196,13 @@ export const crossCulturalNegotiation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Let us find a way forward that works for both sides — I want to understand what matters most to your team. That phrase signals collaboration, not confrontation, and it invites them to tell us what is actually important without requiring a direct statement. The relationship needs to come before the contract — and every phrase we use should reflect that.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And if there is something we need to raise that could be sensitive — a data inconsistency, a concern about a term — we should avoid putting them in a position where they lose face. We raise it privately, after the meeting, through the right channel. Never publicly in the room.",
     },
   ],

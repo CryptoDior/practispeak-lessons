@@ -6,7 +6,7 @@ export const workingWithAgencies: Lesson = {
   subtitle: 'How to brief, manage, and get the best results from external creative and marketing agencies',
   level: 'B1-B2',
   description: "Most marketing teams work with external agencies — creative agencies, media agencies, PR agencies, digital agencies, and more. Knowing how to write a great brief, manage feedback professionally, and agree on scope and timelines is essential for getting good work done. This lesson teaches you the vocabulary and phrases used when working with agency partners.",
-  heroImage: '/images/working-with-agencies-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/working-with-agencies-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Almost ready. I have the objective, the audience, and the key message. I still need to confirm the budget and the [[timeline:a schedule showing when each piece of work is due]] with you before I send it over.",
     },
     {
@@ -130,7 +130,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Got it. I will also make sure the [[scope of work:a detailed list of everything the agency will deliver]] is very specific — three video ads, twelve static social images, two email templates. And I will specify the number of [[revision:a round of changes made after feedback]] rounds — two per deliverable.",
     },
     {
@@ -142,7 +142,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Additional cost — it will be in the contract. Which is why our [[feedback:your response to the agency's work]] needs to be complete and consolidated each time. No sending partial comments and then adding more two days later.",
     },
     {
@@ -154,7 +154,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I will send all team members a shared document for their comments. Everyone has three working days to add their feedback. Then I consolidate into one clear document before it goes to the agency. One voice, one document.",
     },
     {
@@ -166,7 +166,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We are going directly — we have worked with them for two years and the relationship is strong. Actually, I want to talk to you about moving to a [[retainer:a monthly fee paid to an agency in exchange for an agreed amount of work]] arrangement with them.",
     },
     {
@@ -178,7 +178,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Right now we brief them per project, which means each time we start from scratch — scope negotiation, fee negotiation, onboarding. A retainer would give us a set number of hours per month, priority access to their senior team, and better rates. And we would not lose momentum between campaigns.",
     },
     {
@@ -190,7 +190,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Social content, campaign creative, copywriting, and strategic input — roughly equivalent to what we spend on three or four individual projects per year, but more predictable and with better continuity. I have asked them to send over a proposal for a twelve-month retainer.",
     },
     {
@@ -202,7 +202,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Agreed. I will schedule a scope-alignment meeting with the agency before we sign anything. No assumptions — everything in writing.",
     },
   ],

@@ -6,7 +6,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
   subtitle: 'Apply everything you have learned to plan, present, and defend a full marketing campaign',
   level: 'B1-B2',
   description: "This is your capstone lesson — the final project for the B1-B2 marketing series. You will bring together vocabulary and concepts from across the series to build and present a complete marketing campaign plan. This lesson focuses on the language and structure of a campaign presentation: how to articulate your objective, defend your audience choice, justify your channel mix, and explain how you will measure success. You will practise the speaking skills needed to present with confidence in a real professional setting.",
-  heroImage: '/images/b1-final-project-campaign-plan-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b1-final-project-campaign-plan-hero.png',
 
   vocabulary: [
     {
@@ -21,7 +21,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The specific, measurable goal of a campaign. A clear objective answers the question: what does success look like? Good objectives are SMART — specific, measurable, achievable, relevant, and time-bound. A campaign with a vague objective cannot be evaluated or improved.',
       example: "Marcus challenged Riley: Your objective says 'increase brand awareness'. That is too vague. Riley revised it: 'Increase brand awareness among UK-based marketing managers aged 28 to 45 by 20% — measured by brand recall survey — by the end of Q4.' Marcus replied: Now I know exactly what you are trying to achieve, how you will measure it, who you are targeting, and by when. That is a proper objective.",
-      imageSlug: '/images/b1-final-project-campaign-plan-objective.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b1-final-project-campaign-plan-objective.png',
     },
     {
       word: 'TARGET AUDIENCE',
@@ -112,7 +112,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good morning, Marcus. I would like to take you through the [[campaign plan:a complete documented strategy including objective, audience, channels, budget, and metrics]] for the Q4 product launch campaign.",
     },
     {
@@ -124,7 +124,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The [[objective:the specific, measurable goal of a campaign]] of this campaign is to generate 500 qualified leads for the sales team by the end of Q4, at a cost per lead of no more than £35. Secondary objective is to increase brand awareness among our target audience by 15%, measured by a post-campaign survey.",
     },
     {
@@ -136,7 +136,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We are targeting marketing managers and heads of marketing at B2B companies with 100 to 500 employees in the UK and Germany. They are responsible for campaign budgets of £50k to £500k. They are active on LinkedIn and their biggest pain point is proving ROI to the board.",
     },
     {
@@ -148,7 +148,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Because 80% of our existing customers match this profile. They have the budget authority and the specific pain point our product addresses. Targeting a broader audience would reduce efficiency and increase cost per lead.",
     },
     {
@@ -160,7 +160,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "'Our platform gives marketing teams clarity on which campaigns drive revenue — so you can prove ROI to the board.' It directly addresses the pain point and differentiates us from competitors who focus on reach rather than attribution.",
     },
     {
@@ -172,7 +172,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Paid search to capture high-intent traffic — people actively searching for a solution. LinkedIn ads to reach decision-makers at the right companies. Email to nurture existing contacts through the funnel. And content marketing to support organic search and top-of-funnel awareness.",
     },
     {
@@ -184,7 +184,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Total budget: £50,000. Allocated as follows — 45% paid search, 30% LinkedIn, 15% content and email, 10% reserved for optimisation. Paid search takes the largest share because it consistently delivers our lowest cost per lead.",
     },
     {
@@ -196,7 +196,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We will measure success by three [[success metric:a specific measurable number used to evaluate campaign performance]]s. Primary: cost per qualified lead under £35. Secondary: 500 leads total and 3.5% landing page conversion rate. We have a two-week review at the midpoint and a full review at the end of Q4.",
     },
     {
@@ -208,7 +208,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Week one: agency brief and creative production. Week two: ad account setup, tracking implementation, and final approvals. Week three: go-live. Two-week review in week five. Month-two optimisation push based on initial data. Full campaign report at the end of Q4.",
     },
   ],

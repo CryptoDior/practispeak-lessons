@@ -6,7 +6,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
   subtitle: 'Apply your full C2 vocabulary as the CMO of a global company facing a major strategic decision',
   level: 'C1-C2',
   description: 'You are the Chief Marketing Officer. The board wants a decision. A major international rebrand is on the table — and it\'s controversial. There are regulatory risks, cultural complexity, ethical questions, and media buying decisions to make. Everything you\'ve learned across all 20 C2 Mastery lessons comes together here. This is not a vocabulary exercise — it\'s a simulation. You will need to brief the board, defend your strategy, and demonstrate mastery-level communication under pressure.',
-  heroImage: '/images/c2-final-project-cmo-challenge-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/c2-final-project-cmo-challenge-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Start with your [[mandate:the authority given to someone to make decisions on behalf of an organisation]]. Do you have the authority to recommend or to decide? That changes how you open.",
     },
     {
@@ -130,7 +130,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good. Then the [[strategic rationale:the business logic behind a major recommendation]]. Three reasons, maximum. Quantified. Connected to [[shareholder value:the financial value delivered to shareholders]].",
     },
     {
@@ -142,7 +142,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Strong. Now the risk. The board's [[risk appetite:the amount of risk an organisation is willing to accept]] is low this year. Acknowledge that. Then show it's manageable.",
     },
     {
@@ -154,7 +154,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good. What about the [[regulatory and legal language:the area covering compliance reviews, disclaimer requirements, and regulatory approvals]] dimension? Any markets with FCA or ASA exposure?",
     },
     {
@@ -166,7 +166,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And the APAC [[cultural adaptation:the process of changing communications for a specific cultural context]]? Japan and Korea are high-context markets — the rebrand visual identity needs a local lens before it goes live.",
     },
     {
@@ -178,7 +178,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And the media plan — what's the [[share of voice:brand advertising spend as a percentage of total category spend]] target at launch?",
     },
     {
@@ -190,7 +190,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And the [[narrative:the story a brand tells about itself — and how it wants to be talked about]]? The press will be all over this.",
     },
     {
@@ -202,7 +202,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And your [[accountability:taking ownership of outcomes — successes and failures]]? The board will ask who owns this.",
     },
     {
@@ -214,7 +214,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's a CMO-level presentation. You've covered the strategy, the rationale, the risk, the regulatory dimension, the cultural adaptation, the media plan, the narrative, and the accountability. You haven't missed anything. Good luck.",
     }
   ],

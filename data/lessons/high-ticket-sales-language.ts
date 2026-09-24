@@ -6,7 +6,7 @@ export const highTicketSalesLanguage: Lesson = {
   subtitle: 'How to articulate premium value, justify long-term return, and build the trust required to close significant investment decisions',
   level: 'C1-C2',
   description: 'High-ticket sales is not about convincing someone to spend more — it is about helping them understand why the more expensive option is the more rational one. When a buyer raises price as an objection, the failure is almost never that the product costs too much. The failure is that the value has not been articulated with enough precision. This lesson teaches you the language of premium positioning: how to reframe price as investment, model long-term return across a multi-year horizon, expose the hidden costs of the cheaper alternative, and build the kind of trust that makes a significant commitment feel not just justified — but obvious.',
-  heroImage: '/images/high-ticket-sales-language-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/high-ticket-sales-language-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const highTicketSalesLanguage: Lesson = {
       partOfSpeech: 'phrase',
       definition: "The extra quality and benefits that make a product worth its higher price.",
       example: "Premium value is never visible in a price comparison — it lives in the quality, the support, and the structural advantages that only show up over time.",
-      imageSlug: '/images/premium-value.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/premium-value.png',
     },
     {
       word: 'TOTAL COST OF OWNERSHIP',
       partOfSpeech: 'phrase',
       definition: "The total cost of owning something over time, including all extra costs beyond the starting price.",
       example: "When you compare the total cost of ownership across both proposals — setup, integration, support, and renewal — the gap between the headline prices almost always narrows significantly.",
-      imageSlug: '/images/total-cost-of-ownership.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/total-cost-of-ownership.png',
     },
     {
       word: 'LONG-TERM RETURN',
       partOfSpeech: 'phrase',
       definition: "The money or value you get back from an investment over many years.",
       example: "The long-term return on a premium investment rarely shows its full strength in year one — it's the compounding effect across years two and three that makes the case decisive.",
-      imageSlug: '/images/long-term-return.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/long-term-return.png',
     },
     {
       word: 'TRUST',
       partOfSpeech: 'noun',
       definition: "The belief a customer has that you will do what you say you will do.",
       example: "Trust at this level is built step by step — through performance data, open communication, contractual accountability, and finally a partnership that both sides have earned.",
-      imageSlug: '/images/high-ticket-sales-language-trust.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/high-ticket-sales-language-trust.png',
     },
     {
       word: 'COMPOUNDING',
       partOfSpeech: 'noun',
       definition: "When a benefit grows bigger over time because each improvement builds on the last.",
       example: "The compounding argument is most powerful when you show the buyer what the platform knows about their business by year three — and what leaving at that point would actually cost them.",
-      imageSlug: '/images/compounding.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/compounding.png',
     },
     {
       word: 'JUSTIFICATION',
       partOfSpeech: 'noun',
       definition: "The reasons and evidence you give to show that a high price is the right choice.",
       example: "A strong justification gives the buyer everything they need to defend the decision internally — verified criteria, specific comparisons, and a financial model that stands up to scrutiny.",
-      imageSlug: '/images/justification.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/justification.png',
     },
     {
       word: 'RISK MITIGATION',
       partOfSpeech: 'phrase',
       definition: "Actions you take to reduce the chance that something will go wrong with a purchase or investment.",
       example: "Every major risk a buyer raises should have a specific contractual or structural response — not a reassurance, but a named protection built into the commercial terms.",
-      imageSlug: '/images/risk-mitigation.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/risk-mitigation.png',
     },
     {
       word: 'WHITE-GLOVE',
       partOfSpeech: 'adjective',
       definition: "A very high level of personal service where every detail is taken care of for you.",
       example: "White-glove implementation means every stage is managed proactively — the client never has to chase for an update or solve a problem that should have been anticipated.",
-      imageSlug: '/images/white-glove.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/white-glove.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const highTicketSalesLanguage: Lesson = {
       phrase: 'THE PRICE REFLECTS THE TOTAL COST OF OWNERSHIP, NOT JUST THE LICENCE FEE',
       definition: "Use this to explain that the price includes all costs over time — not just the basic fee.",
       example: "Once you include onboarding, integration, and support in the calculation, the price reflects the total cost of ownership — and the gap between the two proposals narrows significantly.",
-      imageSlug: '/images/the-price-reflects-the-total-cost-of-ownership-not-just-the-licence-fee.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-price-reflects-the-total-cost-of-ownership-not-just-the-licence-fee.png',
     },
     {
       phrase: "WHAT WE'RE OFFERING IS NOT A PRODUCT — IT IS A LONG-TERM PARTNERSHIP",
       definition: "Use this to show the customer that you are offering a lasting relationship, not just a one-time sale.",
       example: "What we're offering is not a product with a delivery date — it is a long-term partnership whose value compounds with every quarter you use it.",
-      imageSlug: '/images/what-were-offering-is-not-a-product--it-is-a-long-term-partnership.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-were-offering-is-not-a-product--it-is-a-long-term-partnership.png',
     },
     {
       phrase: "THE QUESTION ISN'T WHETHER THIS IS EXPENSIVE — IT'S WHETHER THE RETURN JUSTIFIES THE INVESTMENT",
       definition: "Use this when a customer says the price is too high — it moves the conversation from cost to value.",
       example: "The question isn't whether this is expensive — it's whether the return justifies the investment. When you put both sides on the table, the answer becomes clear.",
-      imageSlug: '/images/the-question-isnt-whether-this-is-expensive--its-whether-the-return-justifies-the-investment.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-question-isnt-whether-this-is-expensive--its-whether-the-return-justifies-the-investment.png',
     },
     {
       phrase: 'LET ME SHOW YOU WHAT THE COMPOUNDING RETURN LOOKS LIKE OVER THREE YEARS',
       definition: "Use this to show the customer how the value of your product grows bigger each year.",
       example: "Let me show you what the compounding return looks like over three years — because the picture at year three is a very different conversation from the one you're having today.",
-      imageSlug: '/images/let-me-show-you-what-the-compounding-return-looks-like-over-three-years.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/let-me-show-you-what-the-compounding-return-looks-like-over-three-years.png',
     },
     {
       phrase: 'TRUST AT THIS LEVEL IS EARNED, NOT CLAIMED',
       definition: "Use this to tell a customer you will prove you can be trusted — with evidence, not just words.",
       example: "Trust at this level is earned — one verified layer at a time. Track record, references, and contractual accountability are the currency, not claims.",
-      imageSlug: '/images/trust-at-this-level-is-earned-not-claimed.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/trust-at-this-level-is-earned-not-claimed.png',
     },
     {
       phrase: "OUR CLIENTS DON'T COME TO US BECAUSE WE'RE THE CHEAPEST OPTION — THEY COME BECAUSE THEY'VE CALCULATED WE'RE THE MOST VALUABLE",
       definition: "Use this to explain that your best customers chose you after comparing all options — not because you were the cheapest.",
       example: "Our clients don't come to us because we're the cheapest option — they come because, at the end of a rigorous analysis, the premium choice is the one that makes financial sense.",
-      imageSlug: '/images/our-clients-dont-come-to-us-because-were-the-cheapest-option--they-come-because-theyve-calculated-were-the-most-valuable.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/our-clients-dont-come-to-us-because-were-the-cheapest-option--they-come-because-theyve-calculated-were-the-most-valuable.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I appreciate that directness — and I'd rather answer it than deflect it. Can I ask one question first: were the two proposals solving exactly the same problem, at the same scope, with the same level of implementation support and contractual accountability?",
     },
     {
@@ -130,7 +130,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "With respect — I'd like to challenge that assumption. Let me show you three areas where the proposals are not directly comparable. The price comparison only makes sense if the value being compared is equivalent, and I don't think it is.",
     },
     {
@@ -142,7 +142,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "First: onboarding. Our onboarding is three months of dedicated support — theirs is a four-week self-serve model, which requires an estimated $40,000 of your internal team's time. Second: integrations. We build natively into your CRM — theirs requires a middleware connector that costs $18,000 annually on top of the licence. Third: SLA. We offer 99.9% contractual uptime with a dedicated account manager and financial penalties if we fall short — they offer 99.5% with shared support. The [[total cost of ownership:the complete cost across the lifetime of the contract — including indirect costs a headline price obscures]] comparison tells a very different story from the licence fee comparison.",
     },
     {
@@ -154,7 +154,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The question isn't whether this is expensive — it's whether the [[long-term return:the accumulated benefit generated across a multi-year horizon, including compounding value]] justifies the investment. Let me show you what the [[compounding:the accumulation of benefit over time, where early gains create conditions for larger future gains]] return looks like over three years.",
     },
     {
@@ -166,7 +166,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Year one: we cost $420,000 — they cost $290,000. The gap is $130,000. But our clients see an average 22% improvement in conversion and a 15-point gain in net revenue retention in year one. At your pipeline volume, that's approximately $1.1 million in incremental and protected revenue. The year-one ROI is 8x. The [[justification:the evidence and framing that demonstrates a premium price is rationally superior]] for year one alone is straightforward.",
     },
     {
@@ -178,7 +178,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "This is where the compounding effect becomes significant. Our platform accumulates outcome data, refines the coaching content to your specific sales motions, and builds institutional knowledge into the system. By year three, our platform knows your business as well as your own managers do. The competitor's platform produces no such data advantage — you leave after three years with the same capabilities you arrived with. The cost of switching at that point would far exceed the cumulative licence difference.",
     },
     {
@@ -190,7 +190,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's the most legitimate concern you've raised — and it deserves a direct answer. Trust at this level is earned, not claimed. So I'd offer you three things: a reference call with two clients at your exact scale who have been with us for more than two years, our full implementation track record for independent review, and a contractual performance guarantee. If we don't hit the agreed metrics in year one, you have the right to exit without penalty.",
     },
     {
@@ -202,7 +202,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It should be — because we're asking you to make a significant [[risk mitigation:the reduction of potential downside through contractual protections, implementation support, and track record]] commitment. High-ticket decisions should come with high-ticket accountability. Our clients don't come to us because we're the cheapest option — they come because, at the end of a rigorous analysis, they conclude we're the most valuable. That's the conversation I want you to be able to have with your board.",
     }
   ],

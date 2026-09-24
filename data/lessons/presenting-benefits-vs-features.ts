@@ -6,7 +6,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
   subtitle: 'How to move from what your product does to what it means for the customer',
   level: 'B1-B2',
   description: 'Learn how to distinguish between features and benefits, translate technical capabilities into customer outcomes, and present your product in a way that connects directly to the problems your prospect has already told you about.',
-  heroImage: '/images/presenting-benefits-vs-features-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-benefits-vs-features-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const presentingBenefitsVsFeatures: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Something a product has or can do. For example, "sends automatic emails" is a feature.',
       example: 'Real-time pipeline tracking is a feature — it tells you what the product can do, but not why that matters to this specific customer.',
-      imageSlug: '/images/presenting-benefits-vs-features-feature.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-benefits-vs-features-feature.png',
     },
     {
       word: 'BENEFIT',
       partOfSpeech: 'noun',
       definition: 'The good thing a feature does for the customer — why it matters to them.',
       example: 'The benefit of real-time tracking is that Marcus can see where every deal is the moment something stalls, without waiting for a rep to tell him.',
-      imageSlug: '/images/presenting-benefits-vs-features-benefit.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-benefits-vs-features-benefit.png',
     },
     {
       word: 'OUTCOME',
       partOfSpeech: 'noun',
       definition: 'The result after using a product — what is better or different because of it.',
       example: 'The outcome we are aiming for is not just better data — it is two or three more closed deals per month that would otherwise have slipped through.',
-      imageSlug: '/images/presenting-benefits-vs-features-outcome.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-benefits-vs-features-outcome.png',
     },
     {
       word: 'RELEVANT',
       partOfSpeech: 'adjective',
       definition: 'Connected to what the customer said or needs. Only talk about things that matter to them.',
       example: 'Everything you present should pass one test: is this relevant to what they told me in discovery? If it is not, leave it out.',
-      imageSlug: '/images/presenting-benefits-vs-features-relevant.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-benefits-vs-features-relevant.png',
     },
     {
       word: 'TANGIBLE',
       partOfSpeech: 'adjective',
       definition: 'Clear and easy to measure. Not vague — something you can put a number on.',
       example: "Vague benefits lose deals — 'saves time' means nothing. Tangible benefits win them — 'reduces manual reporting from three hours a week to twenty minutes'.",
-      imageSlug: '/images/tangible.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tangible.png',
     },
     {
       word: 'DIFFERENTIATE',
       partOfSpeech: 'verb',
       definition: 'To show that your product is different from other options — to explain why yours is a better choice.',
       example: 'You do not need to criticise competitors to differentiate — just show what changes for the customer when they choose you instead.',
-      imageSlug: '/images/differentiate.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/differentiate.png',
     },
     {
       word: 'RESONATE',
       partOfSpeech: 'verb',
       definition: 'When something feels true or important to someone. A benefit resonates when the customer thinks "yes, that is my problem."',
       example: "A benefit resonates when the prospect says 'yes, that is exactly the problem' — not when they politely nod and move on.",
-      imageSlug: '/images/presenting-benefits-vs-features-resonate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-benefits-vs-features-resonate.png',
     },
     {
       word: 'TRANSLATE',
       partOfSpeech: 'verb',
       definition: 'To explain a feature in simple, practical words — to say what it means for the customer.',
       example: 'Your job in a pitch is to translate — take what the engineers built and turn it into something the customer can immediately see the value of.',
-      imageSlug: '/images/translate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/translate.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const presentingBenefitsVsFeatures: Lesson = {
       phrase: 'THIS HELPS YOU',
       definition: 'Use this to say how a feature is good for the customer. It connects the product to what the customer needs.',
       example: 'The automated follow-up reminders — this helps you make sure no deal goes cold because a rep forgot to check in.',
-      imageSlug: '/images/this-helps-you.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/this-helps-you.png',
     },
     {
       phrase: 'THE MAIN BENEFIT IS',
       definition: 'Use this to say the most important good thing first, before you explain how it works.',
       example: 'The main benefit is visibility — you will always know exactly where every deal is, without having to ask anyone.',
-      imageSlug: '/images/the-main-benefit-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-main-benefit-is.png',
     },
     {
       phrase: 'WHAT THAT MEANS FOR YOU IS',
       definition: 'Use this to explain a feature in a way that is personal and practical for this customer.',
       example: 'We track every touchpoint automatically — what that means for you is that your pipeline data is always accurate, not just when someone remembers to update it.',
-      imageSlug: '/images/what-that-means-for-you-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-that-means-for-you-is.png',
     },
     {
       phrase: 'WHICH MEANS',
       definition: 'A short linking phrase that connects a feature to its benefit. It keeps your speech natural.',
       example: 'Our system sends automatic alerts when a deal has not moved in five days — which means you can intervene before a prospect goes cold, not after.',
-      imageSlug: '/images/which-means.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/which-means.png',
     },
     {
       phrase: 'SO IN PRACTICE',
       definition: 'Use this to give a real, everyday example of what the benefit looks like.',
       example: 'The dashboard updates in real time — so in practice, you could open it at 9am on Monday and see the exact status of every deal without sending a single message to the team.',
-      imageSlug: '/images/so-in-practice.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/so-in-practice.png',
     },
     {
       phrase: 'COMPARED TO',
       definition: 'Use this to show the difference between your product and another option. It makes the benefit clear.',
       example: 'Compared to building a manual spreadsheet that relies on everyone remembering to update it, this runs automatically in the background — no maintenance required.',
-      imageSlug: '/images/compared-to.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/compared-to.png',
     }
   ],
 
@@ -147,7 +147,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Marcus, based on everything you told me, I want to show you what Brightline does — but I am going to focus only on the parts that are [[relevant:directly connected to the customer's specific situation or problem]] to what you described. I will skip anything that does not apply to you.",
     },
     {
@@ -159,7 +159,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Understood. So — the first thing. Brightline tracks every deal touchpoint automatically. That is the [[feature:a specific function or capability of a product — what it does]]. The main benefit is that your pipeline data is always accurate — not just when a rep remembers to log something.',
     },
     {
@@ -171,7 +171,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly. What that means for you is that you can open the dashboard at any point — Monday morning, mid-week, whenever — and see exactly where every deal is. So in practice, you stop finding out about stalled deals from customers, and start seeing them yourself, with time to do something about it.',
     },
     {
@@ -183,7 +183,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes. The system flags any deal that has not had a touchpoint in a set number of days — you decide the threshold. This helps you make sure no deal goes cold because a rep lost track of it — which means the [[outcome:the measurable result that happens because of using the product]] is fewer deals slipping through in that final stage you mentioned.',
     },
     {
@@ -195,7 +195,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good question. Compared to a manual workaround in your CRM, this runs in the background without anyone having to maintain it. The [[tangible:real and measurable — something you can quantify]] difference is that it works even when people are busy — especially when people are busy. Your spreadsheet relies on twelve people remembering. This does not.',
     },
     {
@@ -207,7 +207,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is exactly right. And I think you will find that when you can [[translate:to convert a feature into a benefit — to explain what something means in practical terms]] those recovered deals into numbers — two or three a month at your deal size — it becomes a very straightforward business case.',
     }
   ],

@@ -220,7 +220,7 @@ export const robloxReportedSpeechAdvanced: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Perfect — this is exactly where advanced reporting verbs matter. What happened?",
     },
     {
@@ -232,7 +232,7 @@ export const robloxReportedSpeechAdvanced: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "So Kai did not just say it — he gave reasons and pushed his point strongly. The right verb is not SAID. It is: he [[argued:said strongly that something is true — with reasons]] that the new raiding rules were unfair.",
     },
     {
@@ -244,7 +244,7 @@ export const robloxReportedSpeechAdvanced: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "She [[claimed:said something that might not be true — the listener is not sure]] she had been at maximum speed. CLAIM carries that doubt. It does not say she was lying — just that we are not certain it is true.",
     },
     {
@@ -256,7 +256,7 @@ export const robloxReportedSpeechAdvanced: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "He [[admitted:said something bad or wrong was true — even when he did not want to]] that he had chosen the wrong formation. ADMITTED tells us this was difficult to say — that is part of the meaning.",
     },
     {
@@ -268,7 +268,7 @@ export const robloxReportedSpeechAdvanced: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Two verbs there. He [[denied:said that something did NOT happen]] taking the resources — note the -ing form after DENY, not that. And he [[insisted:said something very firmly and refused to change his mind]] he had not done it. INSIST adds that he would not move from his position.",
     },
     {
@@ -280,7 +280,7 @@ export const robloxReportedSpeechAdvanced: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Leo [[suggested:offered an idea for people to think about — but did not say it must happen]] that everyone review the recording. SUGGESTED means the idea was offered, not ordered. And at the end, the admin [[confirmed:said something was definitely true]] that the meeting notes would be shared by Friday.",
     },
   ],

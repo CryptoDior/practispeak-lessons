@@ -6,7 +6,7 @@ export const talkingAboutDelivery: Lesson = {
   subtitle: 'How to tell a customer when their order will arrive and handle delivery questions',
   level: 'A1-A2',
   description: 'Every customer wants to know the same thing after they order: when will it arrive? This lesson teaches you the simple, confident language you need to give delivery dates, send tracking details, handle delays, and keep the customer informed at every step.',
-  heroImage: '/images/talking-about-delivery-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-delivery-hero.png',
 
   vocabulary: [
     {
@@ -49,7 +49,7 @@ export const talkingAboutDelivery: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The location where a delivery is sent. Always confirm the delivery address before dispatching — a wrong address can cause serious problems.',
       example: 'Before Riley sent the order, she said: Let me confirm your delivery address — I want to make sure everything goes to the right place.',
-      imageSlug: '/images/talking-about-delivery-address.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-delivery-address.png',
     },
     {
       word: 'ARRIVE',
@@ -118,7 +118,7 @@ export const talkingAboutDelivery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good news, Marcus — your order has been [[dispatch:to send something out so it can reach the customer]]ed. Delivery is tomorrow.',
     },
     {
@@ -130,7 +130,7 @@ export const talkingAboutDelivery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — we dispatch all orders within 24 hours. Let me [[confirm:to check and agree that something is correct]] your delivery address first.',
     },
     {
@@ -142,7 +142,7 @@ export const talkingAboutDelivery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Perfect — 45 King Street, London. That matches what we have in our system.',
     },
     {
@@ -154,7 +154,7 @@ export const talkingAboutDelivery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — I will send you a [[tracking:a number or link that lets a customer follow their order]] number by email this afternoon.',
     },
     {
@@ -166,7 +166,7 @@ export const talkingAboutDelivery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The [[estimate:an approximate time or date — not exact, but close]] is between 9 and 12 in the morning. I cannot give an exact time, but it will not be later than midday.',
     },
     {
@@ -178,7 +178,7 @@ export const talkingAboutDelivery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'We do not expect any [[delay:when something arrives later than expected]]s. But if there is one, I will contact you immediately.',
     },
     {
@@ -190,7 +190,7 @@ export const talkingAboutDelivery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Of course. I will send the tracking details now. Have a great day, Marcus.',
     }
   ],

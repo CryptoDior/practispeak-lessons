@@ -149,7 +149,7 @@ export const robloxTradingFair: Lesson = {
       example: "The sword for your shield plus 50 coins? Deal! Let us do the trade now!",
       inGame: "You join my squad and I share the loot with you? Deal! Welcome to the team!",
       inRealLife: "You cook on Monday and I cook on Tuesday? Deal! That works perfectly for me.",
-      imageSlug: '/images/roblox-trading-fair-deal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-trading-fair-deal.png',
     },
     {
       phrase: "IS THAT FAIR?",
@@ -183,7 +183,7 @@ export const robloxTradingFair: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, I really want that legendary sword. [[How about:a friendly way to make an offer]] I trade you my golden shield for it?",
     },
     {
@@ -195,7 +195,7 @@ export const robloxTradingFair: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[What if:suggest a new possibility]] I add 200 coins on top of the shield? I can offer you the shield plus 200 coins for the sword. Is that fair?",
     },
     {
@@ -207,7 +207,7 @@ export const robloxTradingFair: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "300? That is a bit much for me. [[That is too much:the price is higher than what I think is fair]]. Can you go a little [[lower:less than the current amount]]? How about 250?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxTradingFair: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I [[agree:to say yes to an offer]]! 250 coins and the shield for the legendary sword. Deal! Let us confirm the trade right now.",
     },
     {
@@ -231,7 +231,7 @@ export const robloxTradingFair: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I used 'that is too much' when buying a second-hand bike last week! The price was too [[high:more than fair]], I negotiated it [[lower:less than original]] and we met in the middle!",
     },
     {

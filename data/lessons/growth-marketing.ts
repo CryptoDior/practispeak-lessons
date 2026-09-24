@@ -6,7 +6,7 @@ export const growthMarketing: Lesson = {
   subtitle: 'How to run fast experiments, use growth frameworks, and build scalable acquisition engines',
   level: 'C1-C2',
   description: 'Growth marketing is not about doing more of everything — it is about finding what works, fast. The best growth marketers run structured experiments, measure what matters, and double down on what drives real results. This lesson teaches the frameworks and vocabulary that growth teams use every day: from the AARRR funnel to viral loops and product-led growth. These are the tools that separate fast-growing companies from ones that just spend more.',
-  heroImage: '/images/growth-marketing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/growth-marketing-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Start with [[pirate metrics:a framework for measuring growth across five stages — Acquisition, Activation, Retention, Referral, Revenue]]. Walk me through the [[AARRR:Acquisition, Activation, Retention, Referral, Revenue — the five stages of the growth funnel]] numbers. Where is the funnel leaking?",
     },
     {
@@ -130,7 +130,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is your leak. [[Activation:the point at which a new user first experiences the real value of a product]] is broken. We need to find the aha moment — the one thing that turns a sign-up into a loyal user. What do your best customers do in the first session that others do not?",
     },
     {
@@ -142,7 +142,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is the aha moment. And that insight is also the seed of a [[viral loop:a growth mechanism where existing users bring in new users who then bring in more]]. If every user invites one person, your [[experimentation:a structured process of testing ideas to find what works]] budget goes further than any paid channel.",
     },
     {
@@ -154,7 +154,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Let's run an experiment on that. We redesign onboarding to make the invite step the second action after sign-up — not a later optional step. We test it on 50% of new users. In three weeks we have a real answer.",
     },
     {
@@ -166,7 +166,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Fix the retention before you scale acquisition. At 25%, you are spending money to fill a leaking bucket. Fix that first — then turn on the tap.",
     },
     {
@@ -178,7 +178,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Exactly. You are not adding more ads or sales calls — you are building the growth into the product itself. The invite mechanic, the aha moment, the retention hook — those are product decisions, not campaign decisions.",
     },
     {
@@ -190,7 +190,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Double down on what is working. Move more budget, more engineering time, more focus there. That is [[growth hacking:a mindset focused on finding fast creative ways to grow by testing quickly and scaling what works]] in its simplest form — test, learn, scale.",
     }
   ],

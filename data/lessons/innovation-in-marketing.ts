@@ -6,7 +6,7 @@ export const innovationInMarketing: Lesson = {
   subtitle: 'AR, AI, chatbots, automation, and the technologies reshaping how brands reach, understand, and serve their audiences',
   level: 'B1-B2',
   description: "Marketing technology is evolving faster than at any point in the industry's history. Artificial intelligence is personalising content at scale. Augmented reality is bringing products into consumers' homes before they buy. Chatbots are handling millions of customer conversations without human intervention. Automation is freeing marketing teams to focus on strategy rather than repetition. The marketers who thrive in this environment are not necessarily the most technical — they are the ones who understand what these tools can and cannot do, and can articulate that understanding clearly. This lesson gives you the vocabulary to participate confidently in conversations about marketing innovation.",
-  heroImage: '/images/innovation-in-marketing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/innovation-in-marketing-hero.png',
 
   vocabulary: [
     {
@@ -160,13 +160,13 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I would lead with [[AI in marketing:the use of artificial intelligence to improve marketing decisions, automate content, and personalise experiences]]. Not as a buzzword but as a set of specific applications. We are using AI to do four things with proven ROI: churn prediction, content drafting, campaign bid optimisation, and audience segmentation. Those are concrete, measurable use cases.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "I would add [[automation:using technology to complete repetitive marketing tasks without manual effort for each action]]. The automation handles our entire post-purchase email journey — 14 distinct customer moments, zero manual effort, and performance metrics that are higher than when we did it manually. That is the story that resonates with a marketing audience: automation that improves quality, not just speed.",
     },
     {
@@ -178,13 +178,13 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Personalisation at scale allows us to deliver an experience that feels individual to 400,000 customers. Our personalised emails have 42% open rate versus 18% for generic broadcasts. But the honest part of the story is that [[personalisation:individualised marketing experiences]] only works if the data is good. Bad data produces irrelevant personalisation — which is worse than no personalisation.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And we should talk about [[chatbot:a programme that has conversations with users to answer questions or guide them through a process]] technology — but honestly. The chatbot is designed to qualify leads and handle the top 25 FAQ questions. It is not replacing human relationships. It is making human time more valuable by handling the routine so humans can handle the complex.",
     },
     {
@@ -196,13 +196,13 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Augmented reality lets customers experience a product in their own context before buying — furniture in their room, glasses on their face, paint on their wall. IKEA data shows 35% fewer returns. That is not a marketing metric — that is a supply chain metric. That is how you make the business case to a CFO.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The thread connecting all of these is [[predictive:using data from the past to forecast future actions or outcomes]] capability. Whether it is AI churn prediction, [[dynamic content:content that changes automatically based on who is viewing it]] recommendations, or personalised timing — the best marketing technology today does not react to what customers do. It anticipates what they are about to do.",
     },
     {
@@ -214,13 +214,13 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The [[test and learn:running structured experiments, measuring honestly, and improving based on what you find]] approach. You do not need to adopt every technology at once. You pick the one use case where you have the data, the team, and the clear success metric — and you run a small, structured experiment. The test and learn approach means you can move quickly without betting everything on an unproven technology.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The most useful thing we can say to that audience is: you do not need to be a technology expert to lead in this era. You need to be honest about what you are trying to achieve, willing to experiment, and disciplined about measuring what matters. The technology is a tool. Good marketing judgement is still the driver.",
     },
     {

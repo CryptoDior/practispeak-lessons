@@ -6,7 +6,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
   subtitle: 'How to manage a major brand crisis — what to say, when to say it, and how to protect the company',
   level: 'C1-C2',
   description: 'Every major brand faces a crisis at some point. A product recall, a data breach, an executive scandal, a customer complaint that goes viral — the brands that survive are the ones that respond fast, take the right tone, and control the narrative before it controls them. This lesson teaches you the language and structure of crisis communication at the highest level — how to face the press, manage the message, and rebuild trust after a crisis.',
-  heroImage: '/images/crisis-pr-at-the-highest-level-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crisis-pr-at-the-highest-level-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "How long ago did the post go up?",
     },
     {
@@ -130,7 +130,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We're almost out of our [[rapid response:a fast, organised reaction to a situation before media fills the silence]] window. We need a [[holding statement:a short public statement made while facts are still being investigated]] out in the next 30 minutes. Do not wait for the full facts.",
     },
     {
@@ -142,7 +142,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "'We are aware of the reports and are investigating urgently. We will provide a full update within 24 hours.' That's enough. It fills the silence and commits you to a timeline.",
     },
     {
@@ -154,7 +154,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Remove it. [[Accountability:taking responsibility for what happened without deflecting blame]] comes first. The public doesn't care about your supply chain. They care about their data. Take responsibility and fix it.",
     },
     {
@@ -166,7 +166,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes — but brief, consistent, on message. Never say 'no comment' — it always looks like a cover-up. Say: 'We are taking this very seriously. Our priority right now is the safety of every customer affected.'",
     },
     {
@@ -178,7 +178,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Reputational damage is manageable if you get this right. Brands recover from crises. They don't recover from cover-ups. Be honest, be fast, put customers first.",
     },
     {
@@ -190,7 +190,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Legal will manage that. Our job is the [[narrative:the story people tell about what happened]]. If we get the narrative right — honest, fast, customer-first — it changes everything. Now let's write that statement.",
     }
   ],

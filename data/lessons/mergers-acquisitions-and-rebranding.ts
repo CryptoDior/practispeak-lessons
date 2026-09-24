@@ -6,7 +6,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
   subtitle: 'How to communicate a merger, manage a rebrand, and protect brand equity through major change',
   level: 'C1-C2',
   description: 'When two companies merge, or when a business is acquired, the marketing and communication challenge is enormous. Customers do not like change. Employees feel uncertain. Competitors watch closely. This lesson teaches you the language of post-merger brand communication — how to announce a major change, manage the transition, and bring a new brand to life without losing the trust you have already built.',
-  heroImage: '/images/mergers-acquisitions-and-rebranding-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mergers-acquisitions-and-rebranding-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "[[Stakeholder communication:the messages sent to everyone affected by a major change]] first. Before any public statement, employees hear it from the CEO. Not from the news, not from a colleague — from the CEO, directly.",
     },
     {
@@ -130,7 +130,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Customers next — within 24 hours of the public announcement. The message must reassure first. 'This will not affect your service, your account, or the team you work with.' That is the most important thing customers need to hear.",
     },
     {
@@ -142,7 +142,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Not immediately. You protect the [[brand equity:the value a brand has built — the trust and loyalty of its customers]] of both companies first. During the [[transition period:the time when both the old brand and the new brand exist at the same time]], use both names. 'Globalize — now part of Practispeak.'",
     },
     {
@@ -154,7 +154,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "12 to 18 months. Then the full [[rollout:the staged process of introducing a new brand across different markets]] of the new brand. Start in your home market, learn what works, then expand.",
     },
     {
@@ -166,7 +166,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Always. 'The rebrand reflects our growth from a regional business to a global one.' People accept change more easily when they understand why it happened.",
     },
     {
@@ -178,7 +178,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Migrate customers slowly. Don't eliminate the old product before the new one has proven itself. Your biggest risk is losing customers in the changeover.",
     },
     {
@@ -190,7 +190,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Check if Globalize has any negative press or brand reputation issues. If there is something sensitive, you need to know before the announcement — not after.",
     }
   ],

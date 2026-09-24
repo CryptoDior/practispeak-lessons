@@ -212,7 +212,7 @@ export const robloxIdiomsIii: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, I'm worried about the new player — Rin. She's been quiet in the guild chat. Is she struggling to [[fit in:be accepted by a group and feel comfortable there]]?",
     },
     {
@@ -224,7 +224,7 @@ export const robloxIdiomsIii: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I'll ask everyone to do a quick intro round before the next practice session. It worked when Kai joined last year.",
     },
     {
@@ -236,7 +236,7 @@ export const robloxIdiomsIii: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Are you going to [[call someone out:say directly that someone has done something wrong]]?",
     },
     {
@@ -248,7 +248,7 @@ export const robloxIdiomsIii: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Always. Call him out, but give him a chance to respond — maybe [[give someone the benefit of the doubt:believe someone had good reasons, even when not certain]] first. He might not have realised how his message came across.",
     },
     {
@@ -260,7 +260,7 @@ export const robloxIdiomsIii: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "If it doesn't go well, just [[reach out to:contact someone, especially to start a connection or help them]] him privately afterwards. In my experience, most conflicts are easier to [[patch things up:repair a relationship after an argument]] when they're handled one-to-one.",
     },
   ],

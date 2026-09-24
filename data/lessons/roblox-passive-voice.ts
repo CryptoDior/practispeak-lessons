@@ -14,7 +14,7 @@ export const robloxPassiveVoice: Lesson = {
       partOfSpeech: 'verb',
       definition: "Modify or improve something by adding new features or making corrections. Passive: 'was/has been updated'.",
       example: "The game has been updated — three new maps were added and the trading system was completely redesigned.",
-      imageSlug: '/images/roblox-passive-voice-update.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-passive-voice-update.png',
     },
     {
       word: 'RELEASE',
@@ -42,21 +42,21 @@ export const robloxPassiveVoice: Lesson = {
       partOfSpeech: 'verb',
       definition: "Plan and create something with intention and thought. Passive: 'was/has been designed'.",
       example: "This dungeon was designed specifically for four-player teams — attempting it solo is almost impossible.",
-      imageSlug: '/images/roblox-passive-voice-design.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-passive-voice-design.png',
     },
     {
       word: 'PATCH',
       partOfSpeech: 'verb',
       definition: "Apply a small update to fix specific bugs or exploits. Passive: 'was/has been patched'.",
       example: "The duplication exploit has been patched — any items obtained through it have been removed from accounts.",
-      imageSlug: '/images/roblox-passive-voice-patch.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-passive-voice-patch.png',
     },
     {
       word: 'FEATURE',
       partOfSpeech: 'verb',
       definition: "Include as an important or highlighted element. Passive: 'is/was featured'.",
       example: "This server is featured on the Roblox front page this week — that is why the player count has spiked.",
-      imageSlug: '/images/roblox-passive-voice-feature.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-passive-voice-feature.png',
     },
     {
       word: 'RESTRICT',
@@ -189,7 +189,7 @@ export const robloxPassiveVoice: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Yes! And the duplication exploit has been [[patched:had a targeted fix applied]] too. Three players were [[banned:officially prevented from participating]] as a result of the investigation.",
     },
     {
@@ -201,7 +201,7 @@ export const robloxPassiveVoice: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Yes, all trades were suspended for six hours. The patch was then rolled out and trading has now been [[restored:brought back to its previous state]] to normal.",
     },
     {
@@ -213,7 +213,7 @@ export const robloxPassiveVoice: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The movement system was adjusted, two new cosmetic items were [[released:made available for the first time]], and the tutorial was completely rewritten.",
     },
     {
@@ -225,7 +225,7 @@ export const robloxPassiveVoice: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I believe so — it has the same feel. And this week our server has been [[featured:highlighted as an important element]] on the Roblox front page — our player count has doubled.",
     },
     {
@@ -237,7 +237,7 @@ export const robloxPassiveVoice: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "It was — we were not told in advance. Apparently we were selected after the previous featured server was shut down early due to a technical issue. Right place, right time.",
     },
   ],

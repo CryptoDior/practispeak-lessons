@@ -6,7 +6,7 @@ export const consumerPsychology: Lesson = {
   subtitle: 'How to use the language of behaviour and decision-making to analyse campaigns, brief creatives, and explain why customers do what they do',
   level: 'B1-B2',
   description: "People don't make decisions the way we think they do. They are influenced by cognitive biases, social signals, scarcity, and the way choices are framed — often without knowing it. Understanding consumer psychology gives marketers a powerful advantage: you can design campaigns that work with human behaviour instead of against it. This lesson teaches you the vocabulary and phrases to discuss psychological principles at work, analyse real campaigns, and brief creative teams with precision.",
-  heroImage: '/images/consumer-psychology-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/consumer-psychology-hero.png',
 
   vocabulary: [
     {
@@ -160,7 +160,7 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Let's debrief the Q3 campaign. I want to understand what actually drove the conversion lift — because the results were stronger than we expected and I want to be able to replicate it.",
     },
     {
@@ -172,13 +172,13 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Right — 'You're leaving £200 on the table' versus 'Save £200 this month'. Same offer. The loss frame outperformed by 22% in open rate.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "That's [[loss aversion:the psychological finding that people feel the pain of losing something more strongly than the pleasure of gaining the same thing]] doing exactly what it's supposed to do. People are wired to respond more strongly to loss than to gain. The research on this is extremely consistent.",
     },
     {
@@ -190,13 +190,13 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: '[[Social proof:the psychological principle that people look to the behaviour of others to guide their own decisions]] is particularly powerful in B2B — people are spending company money, not their own. They need to see that others like them have already taken the risk.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'The second factor was the pricing page redesign. We moved the Enterprise plan to the top — leading with the highest price. The Pro plan, which is what we actually want most customers to buy, suddenly looked like great value in comparison.',
     },
     {
@@ -208,13 +208,13 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'So to summarise: the campaign leverages the principle of loss aversion in the emails, [[reciprocity:the social norm that when someone gives us something, we feel an obligation to give something back]] through the free template offer at the top of the funnel, social proof on the landing page, and anchoring on the pricing page. Each one is doing a specific job.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And the sequencing matters. We're priming the customer at every stage before the next ask. The free template primes them to trust us. The social proof primes them to feel safe. The anchoring primes them to see the price as fair. By the time they hit 'buy now', the decision is mostly made.",
     },
     {
@@ -226,13 +226,13 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We present it as customer-first design — we built a journey that reduces anxiety, builds confidence, and gives the customer everything they need to make a good decision. That's all these techniques are doing. We're not tricking anyone; we're removing obstacles to a decision they already want to make.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Agreed. The psychological insight behind this is genuine customer empathy — we understood what makes our customer hesitate and we designed the journey to address each hesitation point. That's the right framing for the client conversation.",
     },
     {
@@ -244,7 +244,7 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'll have a first draft by end of day tomorrow. I'll use the [[cognitive bias:a systematic pattern in human thinking that causes decisions to be less than fully rational]] framework as the backbone — it gives us a vocabulary the client can use in future briefs too.",
     },
     {

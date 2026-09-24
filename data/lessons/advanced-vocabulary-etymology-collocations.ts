@@ -7,7 +7,7 @@ export const advancedVocabularyEtymologyCollocations: Lesson = {
   level: 'C1-C2',
   description:
     'Word origins, natural word-partnerships (collocations), and register-shifting — explored through the slang of online gaming, from Discord chat to official patch notes.',
-  heroImage: '/images/advanced-vocabulary-etymology-collocations-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-vocabulary-etymology-collocations-hero.png',
   externalUrl: '/advanced-vocabulary-etymology-collocations.html',
   vocabulary: [],
   phrasalVerbs: [],

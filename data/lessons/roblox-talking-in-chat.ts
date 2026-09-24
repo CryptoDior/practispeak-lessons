@@ -14,56 +14,56 @@ export const robloxTalkingInChat: Lesson = {
       partOfSpeech: 'exclamation',
       definition: 'A short and friendly way to say hello to someone when you start chatting.',
       example: 'Hi! Are you new here? I can show you how this game works.',
-      imageSlug: '/images/roblox-talking-in-chat-hi.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-hi.png',
     },
     {
       word: 'GG',
       partOfSpeech: 'exclamation',
       definition: 'Short for "Good Game". You type it at the end to say well done to everyone who played.',
       example: 'GG everyone! That was such a fun round — well played!',
-      imageSlug: '/images/roblox-talking-in-chat-gg.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-gg.png',
     },
     {
       word: 'BRB',
       partOfSpeech: 'exclamation',
       definition: 'Short for "Be Right Back". It means you are leaving for a minute but coming back soon.',
       example: 'BRB — I need to get a drink. Back in two minutes!',
-      imageSlug: '/images/roblox-talking-in-chat-brb.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-brb.png',
     },
     {
       word: 'LOL',
       partOfSpeech: 'exclamation',
       definition: 'Short for "Laugh Out Loud". You type it when something in the game is really funny!',
       example: 'LOL! You fell off the edge three times in a row!',
-      imageSlug: '/images/roblox-talking-in-chat-lol.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-lol.png',
     },
     {
       word: 'WOW',
       partOfSpeech: 'exclamation',
       definition: 'What you type when you see something amazing or surprising in the game.',
       example: 'Wow! That jump was amazing — how did you do it?',
-      imageSlug: '/images/roblox-talking-in-chat-wow.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-wow.png',
     },
     {
       word: 'THANKS',
       partOfSpeech: 'exclamation',
       definition: 'A short way to say "thank you" to another player who helped you.',
       example: 'Thanks for saving me! I would have lost without you.',
-      imageSlug: '/images/roblox-talking-in-chat-thanks.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-thanks.png',
     },
     {
       word: 'SORRY',
       partOfSpeech: 'exclamation',
       definition: 'What you type when you make a mistake or accidentally do something wrong.',
       example: 'Sorry! I jumped on your head by accident — I did not mean to!',
-      imageSlug: '/images/roblox-talking-in-chat-sorry.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-sorry.png',
     },
     {
       word: 'BYE',
       partOfSpeech: 'exclamation',
       definition: 'A short and friendly way to say goodbye when you leave the game.',
       example: 'Bye everyone! I have to go eat dinner. GG!',
-      imageSlug: '/images/roblox-talking-in-chat-bye.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-bye.png',
     },
   ],
 
@@ -73,56 +73,56 @@ export const robloxTalkingInChat: Lesson = {
       partOfSpeech: 'exclamation',
       definition: 'The normal and polite way to greet someone when you meet them.',
       example: 'Hello! My name is Mia. It is nice to meet you!',
-      imageSlug: '/images/roblox-talking-in-chat-hello-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-hello-irl.png',
     },
     {
       word: 'WELL DONE',
       partOfSpeech: 'phrase',
       definition: 'What you say to someone when they do something good. It is like GG in real life!',
       example: 'Well done! You scored the winning goal — the whole team is proud of you!',
-      imageSlug: '/images/roblox-talking-in-chat-well-done-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-well-done-irl.png',
     },
     {
       word: 'BE RIGHT BACK',
       partOfSpeech: 'phrase',
       definition: 'What you say when you leave a room or a conversation for a short time.',
       example: 'Be right back — I just need to get my bag from upstairs.',
-      imageSlug: '/images/roblox-talking-in-chat-be-right-back-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-be-right-back-irl.png',
     },
     {
       word: 'THAT IS SO FUNNY',
       partOfSpeech: 'phrase',
       definition: 'What you say when something makes you laugh a lot. The real-life version of LOL!',
       example: 'That is so funny! I laughed for five minutes when I heard that joke.',
-      imageSlug: '/images/roblox-talking-in-chat-that-is-so-funny-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-that-is-so-funny-irl.png',
     },
     {
       word: 'AMAZING',
       partOfSpeech: 'adjective',
       definition: 'What you say when something surprises you and is really impressive. The real-life WOW!',
       example: 'Amazing! How did you draw that so fast? It looks perfect!',
-      imageSlug: '/images/roblox-talking-in-chat-amazing-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-amazing-irl.png',
     },
     {
       word: 'THANK YOU',
       partOfSpeech: 'phrase',
       definition: 'The polite and full way to show you are grateful for something someone did.',
       example: 'Thank you so much for helping me carry these bags — that was very kind!',
-      imageSlug: '/images/roblox-talking-in-chat-thank-you-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-thank-you-irl.png',
     },
     {
       word: 'I AM SORRY',
       partOfSpeech: 'phrase',
       definition: 'The polite way to say you made a mistake or that you feel bad about something.',
       example: 'I am sorry I was late. The traffic was terrible today.',
-      imageSlug: '/images/roblox-talking-in-chat-i-am-sorry-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-i-am-sorry-irl.png',
     },
     {
       word: 'GOODBYE',
       partOfSpeech: 'exclamation',
       definition: 'The polite way to say farewell when you leave a place or finish a conversation.',
       example: 'Goodbye! It was lovely to see you. I hope we meet again soon!',
-      imageSlug: '/images/roblox-talking-in-chat-goodbye-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-goodbye-irl.png',
     },
   ],
 
@@ -133,7 +133,7 @@ export const robloxTalkingInChat: Lesson = {
       example: 'GG everyone! That was one of the best rounds I have ever played!',
       inGame: 'GG everyone! Even though I lost, that was so much fun.',
       inRealLife: 'Well done everyone! That was a great match — we played as a real team today.',
-      imageSlug: '/images/roblox-talking-in-chat-gg-everyone.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-gg-everyone.png',
     },
     {
       phrase: 'BRB, BACK IN A MINUTE',
@@ -141,7 +141,7 @@ export const robloxTalkingInChat: Lesson = {
       example: 'BRB, back in a minute — I need to answer my mum.',
       inGame: 'BRB! My mum is calling me. Do not start the next round without me!',
       inRealLife: 'Be right back — I just need to pop to the bathroom.',
-      imageSlug: '/images/roblox-talking-in-chat-brb-back-in-a-minute.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-brb-back-in-a-minute.png',
     },
     {
       phrase: 'LOL THAT WAS SO FUNNY!',
@@ -149,7 +149,7 @@ export const robloxTalkingInChat: Lesson = {
       example: 'LOL that was so funny! You ran straight into the wall!',
       inGame: 'LOL! You jumped and missed the platform by one step — so close!',
       inRealLife: 'That is so funny! I cannot stop laughing — tell me that story again!',
-      imageSlug: '/images/roblox-talking-in-chat-lol-that-was-so-funny.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-lol-that-was-so-funny.png',
     },
     {
       phrase: 'SORRY, THAT WAS MY FAULT',
@@ -157,7 +157,7 @@ export const robloxTalkingInChat: Lesson = {
       example: 'Sorry, that was my fault — I jumped too early and knocked you off!',
       inGame: 'Sorry, that was my fault — I threw the ball in the wrong direction!',
       inRealLife: 'Sorry, that was my fault — I forgot to bring the homework we worked on.',
-      imageSlug: '/images/roblox-talking-in-chat-sorry-that-was-my-fault.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-sorry-that-was-my-fault.png',
     },
     {
       phrase: 'THANKS FOR THE HELP!',
@@ -165,7 +165,7 @@ export const robloxTalkingInChat: Lesson = {
       example: 'Thanks for the help! I could not have finished that level without you.',
       inGame: 'Thanks for the help! You showed me a shortcut I never knew about!',
       inRealLife: 'Thank you so much for the help! You explained it really clearly.',
-      imageSlug: '/images/roblox-talking-in-chat-thanks-for-the-help.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-thanks-for-the-help.png',
     },
     {
       phrase: 'BYE, SEE YOU NEXT TIME!',
@@ -173,7 +173,7 @@ export const robloxTalkingInChat: Lesson = {
       example: 'Bye, see you next time! Same time tomorrow?',
       inGame: 'Bye! GG — see you next time. I had so much fun today!',
       inRealLife: 'Goodbye! It was lovely to see you. See you next time at school!',
-      imageSlug: '/images/roblox-talking-in-chat-bye-see-you-next-time.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-bye-see-you-next-time.png',
     },
   ],
 
@@ -183,7 +183,7 @@ export const robloxTalkingInChat: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: '[[Hi:a short and friendly hello]] Mia! I just joined the obby game. Are you here?',
     },
     {
@@ -195,7 +195,7 @@ export const robloxTalkingInChat: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: 'I searched for it! [[Wow:a reaction to something surprising]] this level is hard. I keep falling. [[LOL:short for Laugh Out Loud — for something funny]]!',
     },
     {
@@ -207,7 +207,7 @@ export const robloxTalkingInChat: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: 'OK! I jumped on a new player by accident. I typed [[Sorry:what you say when you make a mistake]] straight away. Was that the right thing to do?',
     },
     {
@@ -219,7 +219,7 @@ export const robloxTalkingInChat: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Good rule! I made it past level 50! I typed [[Wow:a reaction to something impressive]] in the chat. The whole room replied with [[GG:short for Good Game — well done]]!",
     },
     {
@@ -231,7 +231,7 @@ export const robloxTalkingInChat: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: 'True! I like how chat words are short — [[BRB:be right back]], [[LOL:laugh out loud]], [[GG:good game]]. But in real life we use the full words.',
     },
     {

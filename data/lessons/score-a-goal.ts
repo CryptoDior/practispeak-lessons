@@ -35,14 +35,14 @@ export const scoreAGoal: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'The advantage a winning team has. / To be winning.',
       example: 'We are in the lead — two-nil!',
-      imageSlug: '/images/score-a-goal-lead.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/score-a-goal-lead.png',
     },
     {
       word: 'ASSIST',
       partOfSpeech: 'noun',
       definition: 'A pass or action that directly helps another player score.',
       example: 'Sofia got an assist when her cross led to Ronaldo\'s goal.',
-      imageSlug: '/images/score-a-goal-assist.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/score-a-goal-assist.png',
     },
     {
       word: 'NET',

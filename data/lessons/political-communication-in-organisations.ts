@@ -6,7 +6,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
   subtitle: 'How to navigate internal politics, build coalitions, and get things done without formal authority',
   level: 'C1-C2',
   description: 'Every large organisation has politics. The people who get things done are not always the ones with the highest title — they are the ones who understand who has real power, who to bring on side early, and how to manage resistance before it becomes a problem. This lesson teaches you the language of organisational influence: how to map stakeholders, build coalitions, and communicate in a way that moves things forward.',
-  heroImage: '/images/political-communication-in-organisations-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/political-communication-in-organisations-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Did you do a [[stakeholder map:a visual list of everyone affected by a decision — showing how much power and interest each person has]] before the meeting? Who did you speak to beforehand?",
     },
     {
@@ -130,7 +130,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's the problem. You need to build your [[coalition:a group of people who work together to support a shared goal]] before the meeting, not during it. By the time you present, the key people should already be on your side.",
     },
     {
@@ -142,7 +142,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "She is the [[power broker:a person with strong influence — often more than their title suggests]] in that room. If she's against you, you have a serious problem. What are her concerns?",
     },
     {
@@ -154,7 +154,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Then meet with her this week. Ask her: what would it take for you to support this? Find out her exact conditions and address them. You need her [[buy-in:someone's genuine agreement and support for a plan]].",
     },
     {
@@ -166,7 +166,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Neutral is not good enough. You need a [[sponsor:a senior person who supports your project and uses their influence to help it succeed]]. If the CEO backs this publicly, everything changes. Go to her directly — bring her into it early.",
     },
     {
@@ -178,7 +178,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "You don't need a mandate to have a conversation. Request 20 minutes. Explain the strategy. Ask if she would be open to sponsoring it.",
     },
     {
@@ -190,7 +190,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Meet individually with each key person. Listen to their concerns. Address them. Then when you walk into that room again, the decision is already made — you're just confirming it.",
     }
   ],

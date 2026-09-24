@@ -212,7 +212,7 @@ export const robloxNounsFromVerbs: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I wanted it to feel like genuine [[exploration:the act of discovering new places — from EXPLORE]] — every zone has secrets that reward players who look carefully.",
     },
     {
@@ -224,7 +224,7 @@ export const robloxNounsFromVerbs: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Good — that is intentional. [[Progression:moving forward and improving — from PROGRESS]] should feel meaningful, not just cosmetic. Every item you unlock changes how you actually play.",
     },
     {
@@ -236,7 +236,7 @@ export const robloxNounsFromVerbs: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Most of them, yes. The [[competition:a situation of rivalry — from COMPETE]] reward items were the most fun to design — I wanted them to feel genuinely earned.",
     },
     {
@@ -248,7 +248,7 @@ export const robloxNounsFromVerbs: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[Communication:the exchange of information — from COMMUNICATE]] was everything. I built a small community first, asked for feedback early, and updated the game based on what players actually said.",
     },
     {
@@ -260,7 +260,7 @@ export const robloxNounsFromVerbs: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "A full guild system. I want to build on the community aspect and give players real reasons to collaborate. The solo experience is strong — but the group side is where I think the real potential is.",
     },
   ],

@@ -7,7 +7,7 @@ export const talkingStrategy: Lesson = {
   level: 'B1-B2',
   description:
     'The phrases competitive players use to plan, warn, and win — in English. Modal verbs, if-sentences, and real FPS callouts.',
-  heroImage: '/images/talking-strategy-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-strategy-hero.png',
   externalUrl: '/lesson-talking-strategy.html',
   // Minimal required fields — content lives in the standalone HTML lesson
   vocabulary: [],

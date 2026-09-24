@@ -6,7 +6,7 @@ export const presentingProposals: Lesson = {
   subtitle: 'The language of formal proposal presentation — how to walk a client through scope, deliverables, timeline, and pricing with precision and confidence',
   level: 'C1-C2',
   description: 'A well-written proposal can still be misread, misunderstood, or ignored. The verbal presentation of a proposal — the meeting where you walk the client through the document — is one of the most consequential conversations in the sales cycle. It is your opportunity to frame each section before the client reads it, to pre-empt misunderstandings before they become objections, to connect the commercial terms to the value case already established, and to read the room in real time and adjust your emphasis as you go. This lesson teaches the language of formal proposal presentation: how to introduce and frame each section, how to be explicit about scope boundaries and exclusions, how to present pricing with confidence rather than apology, how to surface and address assumptions transparently, and how to move from the proposal to agreed next steps.',
-  heroImage: '/images/presenting-proposals-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-proposals-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const presentingProposals: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The boundaries of what a project includes — and what it does not include. Clear scope protects both the vendor and the buyer from disagreements later.',
       example: 'The scope of the engagement covers platform configuration, CRM integration, and onboarding — custom development and data migration are explicitly excluded.',
-      imageSlug: '/images/presenting-proposals-scope.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-proposals-scope.png',
     },
     {
       word: 'DELIVERABLE',
       partOfSpeech: 'noun',
       definition: 'A specific output the vendor agrees to produce by a set point in the project. A proposal lists deliverables so both sides know exactly what will exist at the end of each phase.',
       example: 'The key deliverable at the end of phase two is a fully configured platform, tested against all technical requirements and ready for the first wave of users.',
-      imageSlug: '/images/presenting-proposals-deliverable.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-proposals-deliverable.png',
     },
     {
       word: 'MILESTONE',
       partOfSpeech: 'noun',
       definition: 'A key point in a project timeline that marks the end of a phase. Each milestone is usually tied to a specific deliverable and a payment instalment.',
       example: 'The project has four milestones — each one triggers a formal sign-off and the corresponding payment instalment before the next phase begins.',
-      imageSlug: '/images/presenting-proposals-milestone.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-proposals-milestone.png',
     },
     {
       word: 'DEPENDENCIES',
       partOfSpeech: 'noun',
       definition: 'Inputs or actions that must come from the buyer or a third party before the vendor can complete a milestone. If a dependency is delayed, the project timeline adjusts accordingly.',
       example: 'The week-three integration milestone has three dependencies on the buyer\'s side: API credentials within five business days, a nominated IT lead by week two, and sandbox access.',
-      imageSlug: '/images/dependencies.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dependencies.png',
     },
     {
       word: 'ASSUMPTIONS',
       partOfSpeech: 'noun',
       definition: 'The conditions a proposal is built on. If an assumption turns out to be wrong after the contract is signed, the scope or cost may need to change.',
       example: 'This proposal is built on two key assumptions — a standard CRM configuration and a user group of no more than 50 people — and both need to be confirmed before signature.',
-      imageSlug: '/images/assumptions.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/assumptions.png',
     },
     {
       word: 'EXCLUSIONS',
       partOfSpeech: 'noun',
       definition: 'Items or services that are not included in the scope of a proposal. Stating exclusions clearly prevents the buyer from assuming something is covered when it is not.',
       example: 'The exclusions in this proposal cover custom development, multilingual content, and legacy data migration — all three are out of scope at the quoted price.',
-      imageSlug: '/images/exclusions.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/exclusions.png',
     },
     {
       word: 'COMMERCIAL TERMS',
       partOfSpeech: 'phrase',
       definition: 'The financial and legal conditions of a contract — including price, payment schedule, termination rights, and SLA provisions. They are usually presented last, after value and scope have already been established.',
       example: 'The commercial terms set out a total of £420,000 payable in four milestone-linked instalments, with net 30 payment terms, a mutual termination right after month six, and financial penalties for missed SLA targets.',
-      imageSlug: '/images/commercial-terms.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/commercial-terms.png',
     },
     {
       word: 'CHANGE CONTROL',
       partOfSpeech: 'phrase',
       definition: 'A formal process for managing any changes to scope, timeline, or cost after a contract is signed. Both sides must approve in writing before any change is made or any additional cost is incurred.',
       example: 'Every change to the agreed scope goes through a change control process — no work begins and no additional invoice is raised without written approval from both sides.',
-      imageSlug: '/images/change-control.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/change-control.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const presentingProposals: Lesson = {
       phrase: "I'D LIKE TO WALK YOU THROUGH THE PROPOSAL SECTION BY SECTION",
       definition: "A standard opening for a proposal presentation. It signals that the presenter will guide the client through each section one by one, rather than leaving them to read and interpret the document alone.",
       example: "I'd like to walk you through the proposal section by section — pausing for questions after each one — so we're aligned on intent before we reach the commercial terms.",
-      imageSlug: '/images/id-like-to-walk-you-through-the-proposal-section-by-section.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/id-like-to-walk-you-through-the-proposal-section-by-section.png',
     },
     {
       phrase: 'THE SCOPE OF THIS ENGAGEMENT INCLUDES [X] — AND I WANT TO BE EQUALLY CLEAR ABOUT WHAT IT DOES NOT INCLUDE',
       definition: "A phrase for presenting scope with clear, explicit boundaries. The second half is as important as the first — it prevents the most common source of post-contract misunderstanding.",
       example: 'The scope of this engagement includes platform configuration, CRM integration, and onboarding for up to 50 users — and I want to be equally clear about what it does not include: custom development, multilingual content, and third-party data sources outside the standard library.',
-      imageSlug: '/images/the-scope-of-this-engagement-includes-x--and-i-want-to-be-equally-clear-about-what-it-does-not-include.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-scope-of-this-engagement-includes-x--and-i-want-to-be-equally-clear-about-what-it-does-not-include.png',
     },
     {
       phrase: 'THE KEY DELIVERABLE AT THIS MILESTONE IS',
       definition: "A phrase for linking a specific output to a point on the project timeline. It makes accountability measurable — both sides know exactly what must exist before the milestone can be signed off.",
       example: 'The key deliverable at this milestone is a fully configured and tested platform environment — validated against all technical requirements, formally signed off, and triggering the next payment instalment.',
-      imageSlug: '/images/the-key-deliverable-at-this-milestone-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-key-deliverable-at-this-milestone-is.png',
     },
     {
       phrase: "THE PRICING IS STRUCTURED AS [X] — LET ME EXPLAIN WHAT'S INCLUDED AND HOW WE ARRIVED AT THAT FIGURE",
       definition: "A phrase for presenting pricing with transparency and confidence. It frames the total as the logical result of the scope already described — broken down into what each component covers and how the figure was calculated.",
       example: "The pricing is structured as four milestone-linked instalments — let me explain what's included in each and how we arrived at the overall figure: the platform licence and approximately 1,200 hours of dedicated implementation resource.",
-      imageSlug: '/images/the-pricing-is-structured-as-x--let-me-explain-whats-included-and-how-we-arrived-at-that-figure.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-pricing-is-structured-as-x--let-me-explain-whats-included-and-how-we-arrived-at-that-figure.png',
     },
     {
       phrase: "THIS PROPOSAL IS BASED ON A SET OF ASSUMPTIONS — IF ANY OF THESE CHANGE, WE'D NEED TO REVISIT THE SCOPE AND COST",
       definition: "A phrase for naming proposal assumptions transparently before the contract is signed. It protects the vendor if conditions change, and gives the buyer a clear opportunity to correct anything that is wrong.",
       example: "This proposal is based on a set of assumptions — a standard CRM configuration and a user group of no more than 50 — and if any of these change before signature, we'd need to revisit the scope and cost.",
-      imageSlug: '/images/this-proposal-is-based-on-a-set-of-assumptions--if-any-of-these-change-wed-need-to-revisit-the-scope-and-cost.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/this-proposal-is-based-on-a-set-of-assumptions--if-any-of-these-change-wed-need-to-revisit-the-scope-and-cost.png',
     },
     {
       phrase: "I'D WELCOME ANY QUESTIONS ON THE COMMERCIAL TERMS BEFORE WE MOVE TO NEXT STEPS",
       definition: "A closing phrase for the commercial terms section. 'Welcome' signals confidence — it invites scrutiny rather than hoping the terms are accepted without question. Moving to 'next steps' keeps the conversation moving toward agreement.",
       example: "I'd welcome any questions on the commercial terms before we move to next steps — on pricing, payment timing, or termination rights — so we can address any concerns now rather than after the document goes to legal.",
-      imageSlug: '/images/id-welcome-any-questions-on-the-commercial-terms-before-we-move-to-next-steps.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/id-welcome-any-questions-on-the-commercial-terms-before-we-move-to-next-steps.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Thank you for making time for this. I'd like to walk you through the proposal section by section — so I can add context to the written text and make sure we're aligned on the intent of each section before we get to the commercial terms. I'll pause at the end of each section for questions. Does that work for you?",
     },
     {
@@ -124,7 +124,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good. Section one is [[scope:the defined boundaries of what the engagement includes — and explicitly excludes — to protect both parties from later disputes]]. The [[scope:]] of this engagement includes platform configuration, native CRM integration, and a full onboarding programme for up to 50 users. And I want to be equally clear about what it does not include — because the [[exclusions:items or services explicitly not included in the scope, stated clearly to prevent misunderstanding about what the agreed price covers]] are where surprises happen. Excluded: custom API development beyond the standard connector library, multilingual content support, and data migration from your legacy platform.',
     },
     {
@@ -136,7 +136,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It's addable — and I'm glad you raised it now rather than after signature. The migration scope depends on how much historical data you want to preserve and how clean your current data is. I'd estimate an additional four to six weeks of resource and approximately £35,000 to £45,000 depending on the complexity. I can scope that formally and add it as an amendment to this proposal before we sign, if that's a requirement.",
     },
     {
@@ -148,7 +148,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Section two is [[deliverable:a specific, tangible output that the vendor commits to producing by a defined point — described in concrete terms that allow formal sign-off]]s and [[milestone:a significant point in the project timeline marking the completion of a key phase — typically tied to a deliverable, a decision point, or a payment trigger]]s. The project has four milestones. The key deliverable at milestone one — week three — is a fully integrated and tested CRM connection. At milestone two — week six — it's a configured and validated platform environment. At milestone three — week twelve — it's a trained core team of 20 power users with documented learning outcomes. At milestone four — week sixteen — it's the full user base live on the platform.",
     },
     {
@@ -160,7 +160,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good question — and that brings me to section three: [[dependencies:factors or inputs from the buyer or a third party that must be in place before a milestone can be achieved — identifying them protects the vendor from delays caused by factors outside their control]]. The week three milestone depends on three things from you: API access credentials from your CRM administrator within five business days of contract signature, a nominated IT programme lead by week two, and confirmed access to your sandbox environment. If any of these are delayed, the milestone adjusts accordingly.',
     },
     {
@@ -172,7 +172,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Add that to the list for this week. I also want to be transparent about the [[assumptions:the conditions the proposal is based on — if these change, scope or cost may need revision; stating them explicitly prevents disputes later]]: this proposal assumes a standard Salesforce configuration and a user group of no larger than 50 in year one. If either of those is different from your situation, we'd need to revisit the scope before signing.",
     },
     {
@@ -184,7 +184,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Excellent — that confirms the scope and timeline as presented. Now for the [[commercial terms:the financial and legal conditions of the engagement — pricing, payment schedule, liability, termination rights, and SLA provisions]]. The total investment is £420,000, structured as four milestone-linked instalments. Let me explain how we arrived at that figure: £240,000 for the platform licence, and £180,000 for implementation and onboarding — representing approximately 1,200 hours of dedicated resource at your scale.',
     },
     {
@@ -196,7 +196,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Net 45 is something we can accommodate — I'd need to confirm with our finance team, but I don't expect it to be a blocker. I'll flag it as a note on the contract. One final section worth mentioning: [[change control:the formal process for managing any modification to agreed scope, timeline, or cost after contract signature — protects both parties from unauthorised additions or unexpected invoices]]. Any changes to the agreed scope after signature are managed through a formal process — both sides agree in writing before any change is implemented, and no additional cost is incurred without your explicit approval.",
     },
     {
@@ -208,7 +208,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Exactly — it protects you as much as it protects us. I'd welcome any remaining questions on the commercial terms before we move to next steps. And I'll note the two actions from today: confirming the data migration addition as a scoped amendment, and moving net 45 payment terms for your finance team.",
     }
   ],

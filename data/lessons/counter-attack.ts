@@ -40,7 +40,7 @@ export const counterAttack: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The moment a team switches from attacking to defending — or from defending to attacking. The split second when possession changes.',
       example: 'Their transition from defence to attack is incredibly fast — they go from defending to scoring in seconds.',
-      imageSlug: '/images/counter-attack-transition.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/counter-attack-transition.png',
     },
     {
       word: 'PACE',

@@ -14,28 +14,28 @@ export const robloxPlacesToExplore: Lesson = {
       partOfSpeech: 'noun',
       definition: "A big game map with places to walk around and discover in Roblox.",
       example: "I found a new pirate world with ships and treasure — it is massive!",
-      imageSlug: '/images/roblox-places-to-explore-world.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-world.png',
     },
     {
       word: 'SERVER',
       partOfSpeech: 'noun',
       definition: "One online room where you play at the same time as other players.",
       example: "There are 24 players on my server right now — it is really busy!",
-      imageSlug: '/images/roblox-places-to-explore-server.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-server.png',
     },
     {
       word: 'MAP',
       partOfSpeech: 'noun',
       definition: "A picture that shows you where everything is in the game world.",
       example: "Open the map to see where the spawn point is — it is the green dot.",
-      imageSlug: '/images/roblox-places-to-explore-map.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-map.png',
     },
     {
       word: 'SPAWN',
       partOfSpeech: 'noun',
       definition: "The place where your character appears at the start of a game or after you fall.",
       example: "I fell into the lava and respawned back at the main spawn — all the way at the beginning!",
-      imageSlug: '/images/roblox-places-to-explore-spawn.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-spawn.png',
     },
     {
       word: 'CHECKPOINT',
@@ -49,21 +49,21 @@ export const robloxPlacesToExplore: Lesson = {
       partOfSpeech: 'noun',
       definition: "A glowing door or ring that moves your character to a different part of the game instantly.",
       example: "Step through the portal and you jump straight to the final area of the map!",
-      imageSlug: '/images/roblox-places-to-explore-portal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-portal.png',
     },
     {
       word: 'ISLAND',
       partOfSpeech: 'noun',
       definition: "A piece of land with water all around it — many Roblox worlds use island maps!",
       example: "My tycoon game is on a tropical island with palm trees and a beach.",
-      imageSlug: '/images/roblox-places-to-explore-island.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-island.png',
     },
     {
       word: 'ZONE',
       partOfSpeech: 'noun',
       definition: "An area in the game with its own rules or theme — like a safe zone or a danger zone.",
       example: "Stay in the blue zone! The red zone means you will take damage fast.",
-      imageSlug: '/images/roblox-places-to-explore-zone.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-zone.png',
     },
   ],
 
@@ -73,56 +73,56 @@ export const robloxPlacesToExplore: Lesson = {
       partOfSpeech: 'noun',
       definition: "The planet Earth and all the places on it. There is so much to see and explore!",
       example: "I want to travel the world one day — I will start with Japan!",
-      imageSlug: '/images/roblox-places-to-explore-world-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-world-irl.png',
     },
     {
       word: 'SERVER',
       partOfSpeech: 'noun',
       definition: "A powerful computer that keeps websites and apps running for everyone to use.",
       example: "The school server stores all of our homework files online.",
-      imageSlug: '/images/roblox-places-to-explore-server-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-server-irl.png',
     },
     {
       word: 'MAP',
       partOfSpeech: 'noun',
       definition: "A picture that shows where real places are — like a city map or a country map.",
       example: "I used the map on my phone to find the way to the new shopping centre.",
-      imageSlug: '/images/roblox-places-to-explore-map-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-map-irl.png',
     },
     {
       word: 'STARTING POINT',
       partOfSpeech: 'noun',
       definition: "The place where you begin — where you start the game.",
       example: "The starting point for our school trip is the main gate at 8am.",
-      imageSlug: '/images/roblox-places-to-explore-starting-point-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-starting-point-irl.png',
     },
     {
       word: 'CHECKPOINT',
       partOfSpeech: 'noun',
       definition: "A point you must get to — it shows you are doing well in the game or on a long trip.",
       example: "The halfway point in a marathon is a big checkpoint — runners stop there for water.",
-      imageSlug: '/images/roblox-places-to-explore-checkpoint-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-checkpoint-irl.png',
     },
     {
       word: 'GATEWAY',
       partOfSpeech: 'noun',
       definition: "A door or entrance that takes you from one place to another.",
       example: "The airport is a gateway to the rest of the world — every trip starts there!",
-      imageSlug: '/images/roblox-places-to-explore-gateway-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-gateway-irl.png',
     },
     {
       word: 'ISLAND',
       partOfSpeech: 'noun',
       definition: "Land with water all the way around it. Islands can be tiny or huge!",
       example: "Iceland is a large island in the North Atlantic Ocean.",
-      imageSlug: '/images/roblox-places-to-explore-island-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-island-irl.png',
     },
     {
       word: 'AREA',
       partOfSpeech: 'noun',
       definition: "A part of a place that has its own purpose — like a quiet area or a play area.",
       example: "The hospital has a children's area with books and games.",
-      imageSlug: '/images/roblox-places-to-explore-area-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-area-irl.png',
     },
   ],
 
@@ -133,7 +133,7 @@ export const robloxPlacesToExplore: Lesson = {
       example: "Let's explore! I found a new area on the map — come with me!",
       inGame: "Let's explore this new island world! I want to see every corner of it!",
       inRealLife: "Let's explore the old part of the city this weekend — I heard it is beautiful!",
-      imageSlug: '/images/roblox-places-to-explore-lets-explore.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-lets-explore.png',
     },
     {
       phrase: "WHERE ARE WE?",
@@ -141,7 +141,7 @@ export const robloxPlacesToExplore: Lesson = {
       example: "Where are we? I do not recognise this part of the map at all.",
       inGame: "Where are we? I followed the portal and now I have no idea!",
       inRealLife: "Where are we? I think we walked the wrong way from the station.",
-      imageSlug: '/images/roblox-places-to-explore-where-are-we.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-where-are-we.png',
     },
     {
       phrase: "FOLLOW ME!",
@@ -149,7 +149,7 @@ export const robloxPlacesToExplore: Lesson = {
       example: "Follow me! I know a shortcut to the next checkpoint!",
       inGame: "Follow me! I found the portal — it is behind the big rock!",
       inRealLife: "Follow me! I know the quickest way through the market.",
-      imageSlug: '/images/roblox-places-to-explore-follow-me.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-follow-me.png',
     },
     {
       phrase: "HEAD TO...",
@@ -157,7 +157,7 @@ export const robloxPlacesToExplore: Lesson = {
       example: "Head to the spawn point — everyone is meeting there now.",
       inGame: "Head to the blue zone — that is where the safe area is!",
       inRealLife: "Head to the reception desk when you arrive at the hotel.",
-      imageSlug: '/images/roblox-places-to-explore-head-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-head-to.png',
     },
     {
       phrase: "LOOK OVER THERE!",
@@ -165,7 +165,7 @@ export const robloxPlacesToExplore: Lesson = {
       example: "Look over there! I can see a hidden island on the horizon!",
       inGame: "Look over there! There is a secret portal behind that waterfall!",
       inRealLife: "Look over there! That is a red squirrel in the tree!",
-      imageSlug: '/images/roblox-places-to-explore-look-over-there.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-look-over-there.png',
     },
     {
       phrase: "I'M LOST!",
@@ -173,7 +173,7 @@ export const robloxPlacesToExplore: Lesson = {
       example: "I'm lost! The map is so big — which way is the spawn point?",
       inGame: "I'm lost! I went through a portal and I have no idea where I am now!",
       inRealLife: "I'm lost! Can you send me your location so I can find you?",
-      imageSlug: '/images/roblox-places-to-explore-im-lost.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-im-lost.png',
     },
   ],
 
@@ -189,7 +189,7 @@ export const robloxPlacesToExplore: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I'm in! Wow — this [[map:a picture that shows where everything is in the game]] is massive. Where do we even start?",
     },
     {
@@ -201,7 +201,7 @@ export const robloxPlacesToExplore: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Got it! There is a glowing ring over there — is that a [[portal:a glowing door that moves you to a different part of the game]]?",
     },
     {
@@ -213,7 +213,7 @@ export const robloxPlacesToExplore: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Smart thinking! Oh — there is a big red [[zone:an area in the game with its own rules or theme]] that says DANGER ZONE. I will stay far away from that!",
     },
     {
@@ -225,7 +225,7 @@ export const robloxPlacesToExplore: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "This feels just like real life! When I visit a new city I always look at a [[map:a picture showing where places are]] on my phone.",
     },
     {
@@ -237,7 +237,7 @@ export const robloxPlacesToExplore: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Yes! I found the checkpoint — progress saved! Now I am ready. Follow me — let's go through the [[portal:a glowing door to a new area]] together!",
     },
   ],

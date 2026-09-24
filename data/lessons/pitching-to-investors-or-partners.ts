@@ -6,7 +6,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
   subtitle: 'How to present a compelling investment case using the language of opportunity, market, traction, and projection',
   level: 'C1-C2',
   description: 'A great investor pitch is not about enthusiasm — it is about evidence, precision, and the ability to hold your argument under pressure. Investors hear hundreds of pitches. What makes one memorable is a speaker who can frame the market opportunity with authority, substantiate claims with specific traction data, present projections that survive scrutiny, and articulate why now is the right moment. This lesson teaches you the sophisticated language of the investment pitch: how to open with market framing, move through traction and projections, and close by positioning yourself as the right partner — not just the right product.',
-  heroImage: '/images/pitching-to-investors-or-partners-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/pitching-to-investors-or-partners-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const pitchingToInvestorsOrPartners: Lesson = {
       partOfSpeech: 'noun',
       definition: "In an investor context, a favourable convergence of market conditions, timing, and capability that makes a specific business viable and scalable. 'The opportunity' is not just a problem — it is the articulation of why this problem, in this market, at this moment, is worth backing. Pitchers who describe a large, underserved, and timely opportunity give investors a reason to act.",
       example: "Riley opened the pitch with precision: The opportunity we're addressing is not simply a product gap — it's a structural failure in how enterprises manage sales capability. A $4.8 billion market that has been dominated by one-time workshops and outdated content for thirty years is not just an opportunity. It's a disruption waiting to happen.",
-      imageSlug: '/images/pitching-to-investors-or-partners-opportunity.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/pitching-to-investors-or-partners-opportunity.png',
     },
     {
       word: 'MARKET',
       partOfSpeech: 'noun',
       definition: 'The total addressable space of potential customers for a product or service. Sophisticated pitchers distinguish between TAM (total addressable market), SAM (serviceable addressable market), and SOM (share of market being targeted). Investors scrutinise market size claims carefully — too small signals a ceiling, too large signals a lack of focus.',
       example: 'Riley presented the market with clarity: Our total addressable market is $4.8 billion globally. Our serviceable addressable market — mid-market and enterprise B2B sales organisations — is $1.4 billion. We are not trying to own the whole market. We are targeting the segment where willingness to pay is highest and switching costs are most entrenched.',
-      imageSlug: '/images/pitching-to-investors-or-partners-market.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/pitching-to-investors-or-partners-market.png',
     },
     {
       word: 'TRACTION',
       partOfSpeech: 'noun',
       definition: "Evidence of real-world progress and validation — early customers, revenue growth, user engagement, net revenue retention, or partnerships. Traction is what separates a hypothesis from a business. It answers the investor's question: 'Does anyone actually want this?' The strongest traction signals are: paying customers, expansion revenue, and referral-driven growth.",
       example: "Riley moved from narrative to proof: Let me talk about traction — because I think this is where the story becomes compelling. In eighteen months, without any paid acquisition, we've onboarded 34 enterprise clients across four verticals. Our net revenue retention is 124%, which means our existing customers are not just staying — they're growing.",
-      imageSlug: '/images/traction.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/traction.png',
     },
     {
       word: 'PROJECTION',
       partOfSpeech: 'noun',
       definition: 'A forward-looking estimate of financial or operational performance, typically presented over a three-to-five year horizon. Projections are not predictions — they are modelled scenarios based on defined assumptions. Investors expect projections to be ambitious but defensible: every number should be traceable back to a stated assumption.',
       example: "Marcus pressed Riley: Those projections look steep — $40 million ARR in four years from $2.3 million today. Walk me through the assumptions. Riley replied: The model assumes our monthly growth rate declines from 18% to 12% as we scale, and net revenue retention drops from 124% to 115%. Even at 8% growth, the model reaches $22 million ARR by year four. I'm happy to share the model so you can stress-test it yourself.",
-      imageSlug: '/images/projection.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/projection.png',
     },
     {
       word: 'SCALABILITY',
       partOfSpeech: 'noun',
       definition: 'The ability of a business model to grow revenue significantly without a proportional increase in costs. A scalable business has a high gross margin and a structure that allows each additional unit of revenue to be more profitable than the last. Scalability is one of the first things sophisticated investors assess.',
       example: "Riley addressed scalability directly: Our gross margin is 78% and improving. The reason it scales is that the core platform is content-agnostic — we add a new customer without rebuilding the product. Our infrastructure cost as a percentage of revenue has declined every quarter for the past year. That's what scalability looks like in practice.",
-      imageSlug: '/images/scalability.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scalability.png',
     },
     {
       word: 'DIFFERENTIATOR',
       partOfSpeech: 'noun',
       definition: "The specific characteristic that makes a product or business meaningfully and defensibly distinct from its competitors. A differentiator is not a feature — it is an advantage that is difficult to replicate and that directly influences the customer's decision to choose you over the alternative.",
       example: 'Riley described the competitive position: Our differentiator is not the content — any company can build sales training content. Our differentiator is the integration layer. We sit inside the CRM workflow, which means learning happens in context, at the point of need, rather than in a separate training environment that reps ignore.',
-      imageSlug: '/images/pitching-to-investors-or-partners-differentiator.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/pitching-to-investors-or-partners-differentiator.png',
     },
     {
       word: 'RUNWAY',
       partOfSpeech: 'noun',
       definition: 'The amount of time a company can continue operating at its current rate of cash expenditure before running out of capital. Typically expressed in months. Investors use runway to assess urgency and negotiating leverage — a company with six months of runway is in a fundamentally different position from one with eighteen.',
       example: "Marcus asked the question every investor asks: What's your current runway, and what would this round unlock? Riley answered: We have fourteen months of runway at current burn. This round extends that to twenty-eight months and funds three specific investments — each of which directly accelerates the path to profitability.",
-      imageSlug: '/images/runway.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/runway.png',
     },
     {
       word: 'DUE DILIGENCE',
       partOfSpeech: 'phrase',
       definition: 'The process by which an investor or partner thoroughly investigates a business before committing capital or resources. Due diligence covers financials, legal structure, customer references, technology, team, and competitive landscape. A founder who anticipates due diligence questions and answers them proactively signals preparedness and builds investor confidence.',
       example: "Riley closed the pitch by removing friction: I'll send you the data room link today — it contains our full financials, three customer reference contacts, the technical architecture document, and the legal structure. Everything you need to complete due diligence is already prepared. The only thing missing is your decision to proceed.",
-      imageSlug: '/images/pitching-to-investors-or-partners-due-diligence.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/pitching-to-investors-or-partners-due-diligence.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const pitchingToInvestorsOrPartners: Lesson = {
       phrase: "THE MARKET OPPORTUNITY WE'RE ADDRESSING IS...",
       definition: "The standard opening frame for an investor pitch — it signals immediately that you understand the size and nature of the space you are entering. 'Addressing' is the professional verb choice: it implies active engagement with a defined problem, not passive participation in a market.",
       example: "Riley opened with authority: The market opportunity we're addressing is not a niche — it's a fundamental inefficiency in how large organisations develop sales capability. Thirty years of one-time workshops and static content has produced a $4.8 billion market where the majority of spend delivers no measurable outcome. That is an addressable problem.",
-      imageSlug: '/images/the-market-opportunity-were-addressing-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-market-opportunity-were-addressing-is.png',
     },
     {
       phrase: "WE'VE ACHIEVED SIGNIFICANT TRACTION — SPECIFICALLY...",
       definition: "The transition from narrative to evidence in an investor pitch. The word 'specifically' is critical — it signals that you are about to give precise metrics, not vague claims. Investors lose confidence when traction claims are not immediately followed by numbers.",
       example: "Riley said: We've achieved significant traction in a short period — specifically: 34 enterprise clients, 124% net revenue retention, and a customer acquisition cost that has declined 40% year-on-year as referral-driven growth has accelerated. These are not rounding-up numbers. These are audited figures.",
-      imageSlug: '/images/weve-achieved-significant-traction--specifically.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/weve-achieved-significant-traction--specifically.png',
     },
     {
       phrase: 'OUR PROJECTIONS SUGGEST THAT BY [YEAR], WE WILL...',
       definition: "The standard phrase for presenting financial projections. 'Suggest' is deliberately chosen — it signals that projections are modelled outputs, not promises. Using 'suggest' rather than 'show' or 'prove' demonstrates intellectual honesty, which sophisticated investors respect.",
       example: 'Riley said: Our projections suggest that by the end of year four, we will reach $40 million in ARR. That assumes a conservative decline in our current growth rate and no significant new product lines. The stress-tested model — running at half our current growth — still points to $22 million ARR by the same date.',
-      imageSlug: '/images/our-projections-suggest-that-by-year-we-will.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/our-projections-suggest-that-by-year-we-will.png',
     },
     {
       phrase: 'WHAT DIFFERENTIATES US IS NOT JUST [X], BUT...',
       definition: "The structure for articulating competitive advantage in a pitch. 'Not just X but Y' signals that your differentiator goes beyond the obvious feature — it is deeper, more structural, and harder to replicate. This construction prevents the investor from thinking 'yes, but your competitor could just build that too.'",
       example: "Riley said: What differentiates us is not just the product quality — our competitors also have good products. What differentiates us is the integration layer and the switching cost it creates. Once we are embedded in a customer's CRM workflow, displacement becomes operationally expensive, not just commercially inconvenient.",
-      imageSlug: '/images/what-differentiates-us-is-not-just-x-but.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-differentiates-us-is-not-just-x-but.png',
     },
     {
       phrase: 'THE WINDOW FOR CAPTURING THIS MARKET IS NARROW',
       definition: "A phrase used to create urgency in an investor pitch without sounding desperate. It frames inaction as a risk — if the investor doesn't move, someone else will. Most effective when backed by a specific reason: a regulatory change, a technology inflection point, or a behavioural shift that makes the timing uniquely favourable.",
       example: "Riley made the urgency case: The window for capturing this market is narrow — and it's closing for a specific reason. The major CRM platforms are beginning to build native training modules. Once they do, the distribution advantage we currently hold through integration becomes much harder to sustain. The time to establish market leadership is now, not in two years.",
-      imageSlug: '/images/the-window-for-capturing-this-market-is-narrow.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-window-for-capturing-this-market-is-narrow.png',
     },
     {
       phrase: "WE'RE LOOKING FOR A PARTNER WHO BRINGS NOT JUST CAPITAL, BUT...",
       definition: 'The closing phrase that reframes the ask from transactional (money) to strategic (value). It also serves as a qualification — it tells the investor what kind of partner you are looking for, which signals that you have thought carefully about who you want in the room.',
       example: "Riley closed with directness: We're looking for a partner who brings not just capital, but distribution. Your portfolio companies represent 40% of our target customer profile. A strategic relationship with your network gives us an acquisition channel that no amount of paid marketing can replicate. We're not raising a round — we're choosing our next partner.",
-      imageSlug: '/images/were-looking-for-a-partner-who-brings-not-just-capital-but.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/were-looking-for-a-partner-who-brings-not-just-capital-but.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The [[market:the total addressable space of potential customers — typically broken into TAM, SAM, and SOM]] opportunity we're addressing is significant and largely underserved. Enterprise sales training is a $4.8 billion global market, growing at 11% annually. Yet the majority of that spend goes on one-time workshops and static content that salespeople forget within a week. We're building the infrastructure for continuous, contextual sales learning.",
     },
     {
@@ -130,7 +130,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "[[Traction:evidence of real-world validation — paying customers, revenue growth, net revenue retention, and referral-driven growth]]. In eighteen months, we've onboarded 34 enterprise clients across four verticals, with a net revenue retention rate of 124%. That means our existing customers are not just staying — they're expanding. Our median customer has doubled their seat count within the first year.",
     },
     {
@@ -142,7 +142,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Two things. First, the product delivers measurable outcomes — our customers see an average 22% improvement in deal conversion within 90 days, which makes the renewal conversation straightforward. Second, we're embedded in their CRM workflow, which means our [[differentiator:the specific advantage that is difficult to replicate and directly influences the buyer's decision]] is structural, not just commercial. Switching costs are high and [[scalability:the ability to grow revenue significantly without a proportional increase in costs]] improves every quarter.",
     },
     {
@@ -154,7 +154,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Total addressable market: $4.8 billion. Serviceable addressable market — mid-market and enterprise B2B sales teams — around $1.4 billion. We're currently at $2.3 million in ARR, targeting $8 million by end of next year. Our [[projection:a forward-looking financial estimate, modelled on defined and auditable assumptions]]s suggest we can reach $40 million ARR within four years, based on current growth rate and conservative expansion assumptions.",
     },
     {
@@ -166,7 +166,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Conservative ones, relative to current performance. We're assuming our monthly growth rate declines from 18% to 12% as we scale, net revenue retention drops from 124% to 115%, and there are no significant new product lines beyond what's already in development. The model is stress-tested at 8% monthly growth — and it still reaches $22 million ARR by year four. I'm happy to share the underlying model so you can interrogate the assumptions directly.",
     },
     {
@@ -178,7 +178,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Fourteen months at current burn. This round — $3.5 million — extends that to twenty-eight months and funds three specific investments: doubling the enterprise sales team, accelerating the integration roadmap, and building out the partner channel. The partner channel is where I'd particularly value your involvement beyond capital.",
     },
     {
@@ -190,7 +190,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Because capital is not our primary constraint. Your portfolio companies represent approximately 40% of our target customer profile. A strategic relationship with your network gives us a distribution advantage that no amount of paid acquisition can replicate. We're not just looking for a cheque — we're looking for leverage.",
     },
     {
@@ -202,7 +202,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'll send the data room link today — full financials, three customer reference contacts, technical architecture, and the complete [[due diligence:the thorough investigation an investor conducts before committing capital]] package. I'd suggest a follow-up call with our CFO next week to go through the model in detail. If the numbers hold up to scrutiny, I'd like to move to term sheet discussions within thirty days.",
     }
   ],

@@ -6,7 +6,7 @@ export const dataDrivenSalesLanguage: Lesson = {
   subtitle: 'How to use metrics, ROI, conversion, and retention data to build a credible, evidence-based sales conversation',
   level: 'C1-C2',
   description: "The most persuasive sales conversations in B2B are not driven by enthusiasm — they are driven by evidence. When you can quantify the problem, benchmark the current state, present the improvement with attribution, and model the ROI, you shift the conversation from 'this sounds good' to 'the numbers make this decision straightforward.' This lesson teaches you the language of data-driven selling: how to present metrics with authority, frame ROI precisely, explain conversion and retention performance, and defend your analysis under scrutiny.",
-  heroImage: '/images/data-driven-sales-language-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-sales-language-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const dataDrivenSalesLanguage: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Quantifiable measures used to assess performance. In a sales context, key metrics include conversion rate, deal velocity, average contract value, pipeline coverage, and net revenue retention. A sophisticated salesperson chooses which metrics to present based on what the buyer cares about — not just what looks impressive.',
       example: "Riley opened the review: Rather than walking you through a general summary, I've chosen four metrics that map directly to your board's stated priorities — conversion, retention, deal velocity, and ROI. Everything else is context. These four tell the story.",
-      imageSlug: '/images/metrics.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/metrics.png',
     },
     {
       word: 'ROI',
       partOfSpeech: 'abbreviation',
       definition: "Return on investment — the financial benefit gained relative to cost, expressed as a ratio or percentage. 'The ROI is 3.5x' means the investment returned 3.5 times its cost. A rigorous ROI case distinguishes between direct revenue impact, cost savings, and indirect benefits — and is transparent about what is and isn't included in the calculation.",
       example: "Riley said: The platform costs $420,000 annually. The improvement in conversion added $1.1 million in incremental closed revenue. The improvement in retention saved $380,000 in churn revenue loss. Total attributable value: $1.48 million. The ROI is 3.5x on direct revenue impact alone — I'm not including the productivity and morale effects, which would make the case even stronger.",
-      imageSlug: '/images/data-driven-sales-language-roi.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-sales-language-roi.png',
     },
     {
       word: 'CONVERSION',
       partOfSpeech: 'noun',
       definition: 'The process of moving a prospect from one stage to the next in the sales funnel — most commonly, from lead to customer. The conversion rate is the percentage of prospects who make that transition. Conversion is usually measured at multiple stages: lead to qualified, qualified to demo, demo to proposal, proposal to close.',
       example: "Riley presented the conversion data: Twelve months ago, your SDR-to-demo conversion rate was 18% — five points below the industry benchmark of 23%. It's now 31%. That's a 13-point improvement and eight points above benchmark. More importantly, the time-to-demo dropped from eleven days to six, which means prospects are warmer when they arrive.",
-      imageSlug: '/images/data-driven-sales-language-conversion.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-sales-language-conversion.png',
     },
     {
       word: 'RETENTION',
       partOfSpeech: 'noun',
       definition: 'The ability to keep customers and their revenue over time. Measured by renewal rate, churn rate, and net revenue retention (NRR). NRR above 100% means expansion revenue from existing customers exceeds revenue lost to churn — a signal of strong product-market fit and customer health.',
       example: "Riley said: Your net revenue retention twelve months ago was 91% — which means you were losing value on your existing base every year. It's now 108%. You've crossed from a business that shrinks on renewals to one that actively grows them. That shift in the underlying economics changes the entire value story of the platform.",
-      imageSlug: '/images/data-driven-sales-language-retention.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-sales-language-retention.png',
     },
     {
       word: 'BENCHMARK',
       partOfSpeech: 'noun',
       definition: "A standard reference point against which performance is measured. In sales analytics, benchmarks are typically drawn from industry data, competitor performance, or historical baseline. 'Benchmarking against' means comparing your current metrics to the reference point to assess relative performance.",
       example: "Riley used benchmarking to contextualise the data: A 31% SDR-to-demo conversion rate is meaningful in isolation — but what makes it compelling is that the industry benchmark for your segment is 23%. You're not just improving. You're outperforming. That's a distinction that matters when your board asks how you compare to peers.",
-      imageSlug: '/images/data-driven-sales-language-benchmark.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-sales-language-benchmark.png',
     },
     {
       word: 'PIPELINE COVERAGE',
       partOfSpeech: 'noun',
       definition: "The ratio of total pipeline value to quota or revenue target. A coverage ratio of 3x means you have three times your target in the pipeline — which gives you a statistical buffer for deals that slip or don't close. Industry standard is typically 3–4x coverage for a healthy pipeline.",
       example: 'Riley said: Your pipeline coverage twelve months ago was 1.8x — which is dangerously thin. You were essentially betting on nearly everything in the pipeline to close. Coverage is now 3.2x, which is in line with best practice and gives the team real security in their quarterly planning.',
-      imageSlug: '/images/data-driven-sales-language-pipeline-coverage.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-sales-language-pipeline-coverage.png',
     },
     {
       word: 'CHURN',
       partOfSpeech: 'noun',
       definition: 'The rate at which customers stop using a product or cancel their subscription — the inverse of retention. Churn is typically expressed as a percentage of customers or revenue lost over a given period. High churn signals product, onboarding, or fit problems; reducing churn is almost always more economical than acquiring new customers.',
       example: 'Riley explained what was driving the early churn: The data shows that customers who did not complete the first 30 days of onboarding churned at 3.4 times the rate of those who did. The onboarding completion rate went from 54% to 89% — and churn dropped in direct proportion. The root cause was never product satisfaction. It was activation failure.',
-      imageSlug: '/images/data-driven-sales-language-churn.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-sales-language-churn.png',
     },
     {
       word: 'ATTRIBUTION',
       partOfSpeech: 'noun',
       definition: "The process of identifying which activities, channels, or interventions are responsible for generating a specific result. Attribution methodology is critical when making an ROI case — 'correlation is not causation', and a credible attribution model isolates the variable being measured from other factors that may also have changed.",
       example: "Marcus challenged the numbers: How confident are you in the attribution — could these improvements have happened anyway? Riley replied: The attribution methodology compares teams who used the platform consistently against those who didn't within the same organisation. That controls for market conditions, leadership, and product changes. The difference is statistically significant. This is a controlled comparison, not a correlation.",
-      imageSlug: '/images/data-driven-sales-language-attribution.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-sales-language-attribution.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const dataDrivenSalesLanguage: Lesson = {
       phrase: 'THE DATA SUGGESTS THAT...',
       definition: "The standard phrase for presenting data-backed conclusions in a professional context. 'Suggests' is deliberately chosen over 'shows' or 'proves' — it signals appropriate epistemic humility while still asserting confidence. Sophisticated analysts use 'suggests' because data rarely proves causation — it suggests it.",
       example: "Riley said: The data suggests that the primary driver of churn in the first twelve months was onboarding failure — not product dissatisfaction. The correlation between 30-day completion rates and 12-month renewal rates is strong enough to be actionable, even if we can't prove strict causality.",
-      imageSlug: '/images/data-driven-sales-language-the-data-suggests-that.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-sales-language-the-data-suggests-that.png',
     },
     {
       phrase: 'WHEN WE BENCHMARK THIS AGAINST...',
       definition: "The phrase for introducing a comparative analysis — positioning your metric against an industry standard, a competitor, or a historical baseline. Benchmarking transforms a raw number into a meaningful judgement: not 'our conversion rate is 31%' but 'our conversion rate is 31%, which is eight points above the industry benchmark.'",
       example: "Riley said: When we benchmark your net revenue retention against the industry average for SaaS platforms at your revenue tier, the picture becomes very clear. Industry average is 105%. You were at 91%. You are now at 108%. You've moved from bottom quartile to top quartile in twelve months. That is a fundamental shift.",
-      imageSlug: '/images/when-we-benchmark-this-against.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/when-we-benchmark-this-against.png',
     },
     {
       phrase: 'THE ROI CASE IS STRAIGHTFORWARD — LET ME WALK YOU THROUGH IT',
       definition: "The phrase for transitioning into a quantified value presentation. 'Straightforward' signals confidence; 'let me walk you through it' signals transparency. The phrase sets the expectation that the numbers will speak clearly, without obfuscation.",
       example: "Marcus said: Give me the ROI case plainly. Riley replied: The ROI case is straightforward — let me walk you through it. The platform costs $420,000 annually. The measurable improvement in conversion and retention attributable to the platform generated $1.48 million in incremental and protected revenue. That's a 3.5x return. I can break down each component if you want to interrogate any of the numbers.",
-      imageSlug: '/images/the-roi-case-is-straightforward--let-me-walk-you-through-it.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-roi-case-is-straightforward--let-me-walk-you-through-it.png',
     },
     {
       phrase: "WHAT'S DRIVING THE [METRIC] IS...",
       definition: "The diagnostic phrase for explaining why a metric has moved — either positively or negatively. 'What's driving' frames the explanation as a causal analysis rather than a simple description. It signals that you have looked beneath the surface of the number.",
       example: "Marcus asked: What was driving the churn originally? Riley replied: What was driving the churn was onboarding failure — specifically, customers who didn't complete the first 30 days of the platform churned at 3.4x the rate of those who did. Once your CS team fixed activation rates, the churn pattern changed almost immediately.",
-      imageSlug: '/images/whats-driving-the-metric-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/whats-driving-the-metric-is.png',
     },
     {
       phrase: 'IF WE IMPROVE [METRIC] BY [X], THE IMPACT ON REVENUE IS...',
       definition: 'The modelling phrase — used to quantify the value of a specific performance improvement. It translates a metric into a revenue figure, which is what most B2B buyers ultimately care about. Effective data-driven sellers can model the revenue impact of any metric improvement in real time.',
       example: "Riley modelled the year-two opportunity: If we improve your proposal-to-close conversion from 28% to 35% — which is achievable based on what we've seen in comparable teams — the impact on annual revenue is approximately $900,000 at your current pipeline volume. That's the opportunity we're targeting in year two.",
-      imageSlug: '/images/if-we-improve-metric-by-x-the-impact-on-revenue-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/if-we-improve-metric-by-x-the-impact-on-revenue-is.png',
     },
     {
       phrase: 'THIS IS A CONTROLLED COMPARISON, NOT A CORRELATION',
       definition: "The phrase for defending the rigour of an attribution methodology. 'Correlation is not causation' is a common objection to data-driven claims — this phrase pre-empts it by explaining that the analysis accounts for confounding variables. Used when an investor or buyer challenges the robustness of the data.",
       example: "Marcus pressed: Could the improvement have happened without the platform? Riley said: That's the right question — and I anticipated it. The attribution methodology compares high-usage and low-usage cohorts within the same organisation, in the same market, with the same leadership. The difference is statistically significant. This is a controlled comparison, not a correlation.",
-      imageSlug: '/images/this-is-a-controlled-comparison-not-a-correlation.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/this-is-a-controlled-comparison-not-a-correlation.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's exactly the right question — and I've put together a performance summary that covers the [[metrics:quantifiable measures of performance — conversion, retention, deal velocity, and ROI]] that matter most to a team your size. Let me start with [[conversion:the process of moving a prospect through each stage of the funnel — measured as a percentage at each transition]].",
     },
     {
@@ -130,7 +130,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "When you onboarded twelve months ago, your SDR-to-demo conversion rate was 18%. The industry [[benchmark:a standard reference point used to measure performance against peers or historical data]] for your segment is 23%. As of last month, your conversion rate is 31% — eight percentage points above benchmark. That's not a marginal improvement — that's a structural shift.",
     },
     {
@@ -142,7 +142,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Two factors. First, your team's qualification discipline improved — the platform's coaching content on BANT qualification had a measurable effect. Second, average time from first contact to demo dropped from eleven days to six. Prospects are warmer by the time they reach the demo stage, which directly affects conversion at that step.",
     },
     {
@@ -154,7 +154,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Your net revenue retention twelve months ago was 91% — below the industry average of 105% for your sector. It's now 108%. You've crossed from losing value on renewals to actively growing them. That shift in the underlying economics is the most significant result in the whole data set.",
     },
     {
@@ -166,7 +166,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The data [[attribution:the process of identifying which activities or interventions are responsible for generating a specific result]]s the early churn primarily to onboarding failure. Customers who didn't complete the first 30 days of the platform churned at 3.4 times the rate of those who did. Your CS team used the platform's onboarding module to address that directly — the 30-day completion rate went from 54% to 89% in two quarters.",
     },
     {
@@ -178,7 +178,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Straightforward. The platform costs $420,000 annually. The improvement in conversion added $1.1 million in incremental closed revenue. The improvement in retention reduced churn revenue loss by $380,000. Total attributable value: $1.48 million. The ROI is 3.5x on direct revenue impact alone — I'm not including productivity or morale effects.",
     },
     {
@@ -190,7 +190,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I anticipated that question. The attribution methodology isolates the platform's impact by comparing high-usage teams against low-usage teams within your own organisation — same market, same leadership, same product. The performance difference between cohorts is statistically significant. This is a controlled comparison, not a correlation.",
     },
     {
@@ -202,7 +202,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "When we benchmark against customers at your current maturity level, year two typically produces a 40% improvement in deal velocity and a further 8–10 percentage point gain in net revenue retention. If we improve your proposal-to-close conversion by just 7 points — achievable based on comparable teams — the impact on revenue is approximately $900,000 at current pipeline volume. I'll send the cohort data so you can interrogate the assumptions yourself.",
     }
   ],

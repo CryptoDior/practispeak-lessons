@@ -96,7 +96,7 @@ export const socialMediaFootball: Lesson = {
       phrase: 'CALL OUT',
       definition: 'To publicly criticise or challenge someone — pointing out something they did wrong.',
       example: '"Fans calling out the manager for that substitution — he waited way too long tbh" / "Supporters publicly criticised the manager\'s late substitution."',
-      imageSlug: '/images/social-media-football-call-out.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/social-media-football-call-out.png',
     },
     {
       phrase: 'BLOW UP',

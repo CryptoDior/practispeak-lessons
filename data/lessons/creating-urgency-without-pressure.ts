@@ -6,7 +6,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
   subtitle: 'The risk of waiting is… — how to make the cost of inaction visible without manufactured deadlines',
   level: 'C1-C2',
   description: "Artificial urgency destroys trust. 'This offer expires Friday' or 'my manager needs an answer today' are tactics prospects recognise and resent. Genuine urgency is different — it lives in the prospect's situation, not the salesperson's quota, and it names the real cost of waiting rather than inventing one. This lesson teaches the language for creating urgency that is credible, specific, and owned by the prospect — because the most powerful version of urgency is the one they feel themselves.",
-  heroImage: '/images/creating-urgency-without-pressure-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/creating-urgency-without-pressure-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I hear that — and I am not going to manufacture a deadline that does not exist. But I do want to name something, because I think the [[inaction:the state of not making a decision]] has a price that is not visible right now. Can I share what I see from the outside?',
     },
     {
@@ -130,7 +130,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Every month this is unresolved, your team is spending roughly 40 hours per rep on manual processes. Across 22 reps, that is 880 hours — per month. By Q1, you will have spent the equivalent of five full selling months on something that is already fixed for your competitor who started this in Q3.',
     },
     {
@@ -142,7 +142,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I cannot name them, but I can tell you that two companies in your sector started this in Q3. They are three months into a process that typically takes six to eight months to fully [[compound:to increase or accumulate at an accelerating rate]]. By the time you start in Q1, the gap is not one quarter — it is closer to two.',
     },
     {
@@ -154,7 +154,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is a fair challenge. Let me be specific about the [[catalyst:an event that triggers or accelerates a change]]: your CEO flagged sales process efficiency as a strategic priority in the Q3 review. Q1 budgets are being set in six weeks. If this does not go into the budget conversation now, it waits another full cycle — and by then your ops lead, who has been asking for this for a year, may have made her own decision about how long to wait.',
     },
     {
@@ -166,7 +166,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'You mentioned it in our second meeting. I am not trying to use it as pressure — I am using it because it is real. The internal support you have right now will [[erode:to gradually diminish over time]] if this goes quiet for a quarter. Stakeholders who were engaged in October will be focused on other things in February. That [[momentum:the energy a decision process carries]] does not pause — it dissipates.',
     },
     {
@@ -178,7 +178,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "No. I am suggesting that the [[deferral:the act of postponing a decision]] is not free, and I want to make sure you are pricing it correctly before you make it. The risk of waiting is not that the product changes. It is that your team spends three more months in a process that is already breaking, your competitor's advantage compounds, and the budget window closes before the conversation is complete.",
     },
     {
@@ -190,7 +190,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Thirty minutes with you and your CFO before the budget cycle closes — three weeks from now. I am not asking for a decision today. I am asking for the chance to make the case while the window is still open and the people who need to hear it are still engaged. That is the [[proactive:acting in anticipation of a future problem]] move. Everything else becomes reactive.',
     }
   ],

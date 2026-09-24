@@ -6,7 +6,7 @@ export const thisIsOurNewProduct: Lesson = {
   subtitle: 'Simple language for announcing and introducing a new product in English',
   level: 'A1-A2',
   description: 'When a company launches a new product, they need to announce it clearly and confidently. This lesson gives you the vocabulary and phrases to talk about new products — whether you are writing an announcement, speaking at an event, or introducing something to a client.',
-  heroImage: '/images/this-is-our-new-product-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/this-is-our-new-product-hero.png',
 
   vocabulary: [
     {
@@ -28,7 +28,7 @@ export const thisIsOurNewProduct: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To show or tell people about something for the first time — often used for exciting announcements.',
       example: "At the conference, Riley revealed the name of the agency's new service package for the first time.",
-      imageSlug: '/images/this-is-our-new-product-reveal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/this-is-our-new-product-reveal.png',
     },
     {
       word: 'ANNOUNCE',
@@ -42,14 +42,14 @@ export const thisIsOurNewProduct: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Something that did not exist before, or that someone is seeing or hearing about for the first time.',
       example: 'Our new service is designed for companies that want to grow on LinkedIn without doing the work themselves.',
-      imageSlug: '/images/this-is-our-new-product-new.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/this-is-our-new-product-new.png',
     },
     {
       word: 'FEATURE',
       partOfSpeech: 'noun',
       definition: 'A specific thing that a product can do — one of its abilities or benefits.',
       example: 'The best feature of our platform is the weekly performance report — clients love seeing their results every Monday.',
-      imageSlug: '/images/this-is-our-new-product-feature.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/this-is-our-new-product-feature.png',
     },
     {
       word: 'AVAILABLE',
@@ -63,7 +63,7 @@ export const thisIsOurNewProduct: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The positive result or advantage that a product gives the customer — what they gain from using it.',
       example: 'The main benefit of our tool is that it saves marketing teams around five hours of work every week.',
-      imageSlug: '/images/this-is-our-new-product-benefit.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/this-is-our-new-product-benefit.png',
     }
   ],
 
@@ -72,19 +72,19 @@ export const thisIsOurNewProduct: Lesson = {
       phrase: 'ROLL OUT [SOMETHING]',
       definition: 'To introduce a new product, service, or change — often gradually, starting with a small group first.',
       example: 'We are rolling out our new service to existing clients first, then we will open it to everyone in September.',
-      imageSlug: '/images/this-is-our-new-product-roll-out-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/this-is-our-new-product-roll-out-something.png',
     },
     {
       phrase: 'SIGN UP FOR [SOMETHING]',
       definition: 'To register or put your name down to use a product or service.',
       example: 'Over two hundred people signed up for early access to our new tool in the first three days.',
-      imageSlug: '/images/this-is-our-new-product-sign-up-for-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/this-is-our-new-product-sign-up-for-something.png',
     },
     {
       phrase: 'COME WITH [SOMETHING]',
       definition: 'To include something — used to describe what is included in a product or package.',
       example: 'Every plan comes with a dedicated account manager and a monthly performance report.',
-      imageSlug: '/images/this-is-our-new-product-come-with-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/this-is-our-new-product-come-with-something.png',
     },
     {
       phrase: 'BRING OUT [SOMETHING]',
@@ -112,73 +112,73 @@ export const thisIsOurNewProduct: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Riley, we need to write a short [[announce:to tell people something officially and publicly]] ment for our new service. Where do we start?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Let us think about the key message first. What is the [[new:something that did not exist before]] service, and who is it for?',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'It is a fully managed LinkedIn service. We write the posts, manage the comments, and send a monthly report. It is for busy marketing managers.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good. So the announcement needs to explain the main [[benefit:the positive result a product gives the customer]] — what does the client get from it?',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'They save time, they look professional on LinkedIn, and they can see their results every month. The best [[feature:a specific thing a product can do]] is the monthly report.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Perfect. So we say: 'We are excited to [[announce:to tell people officially and publicly]] the [[launch:the moment when something is introduced for the first time]] of our new fully managed LinkedIn service.'",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'I like that. Then we explain what it includes — it [[come with:to include]] a content calendar, weekly posts, and a monthly report.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'And when is it [[available:ready to use or buy]]?',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'From the first of July. We are going to [[roll out]] to existing clients first, then open it to everyone.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good. End with a call to action — something like: 'Sign up for early access on our website today.'",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And we can say: 'Visit our website to find out more and see our plans.' I think we have a great announcement.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly. Short, clear, and exciting. Let us [[reveal:to show something for the first time]] it to the team first and get their feedback before we send it.',
     }
   ],

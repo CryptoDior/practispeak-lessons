@@ -6,7 +6,7 @@ export const executiveLevelSalesConversations: Lesson = {
   subtitle: 'Concise, strategic, high-value language — for the conversations where every word counts',
   level: 'C1-C2',
   description: 'Executives have almost no time, a very specific mandate, and low tolerance for anything that does not connect directly to their priorities. This lesson teaches the language and structure of high-level sales conversations — how to open with the headline, frame decisions around accountability and trade-offs, and say more with fewer words than you have ever tried before.',
-  heroImage: '/images/executive-level-sales-conversations-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/executive-level-sales-conversations-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const executiveLevelSalesConversations: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The ability to say exactly what needs to be said in as few words as possible. In executive conversations, brevity is not just a style preference — it signals that you understand how decisions are made at that level.',
       example: "Riley had prepared thirty slides. She brought three. The brevity of her presentation was itself a signal that she understood how Sarah's day worked — and Sarah noticed.",
-      imageSlug: '/images/executive-level-sales-conversations-brevity.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/executive-level-sales-conversations-brevity.png',
     },
     {
       word: 'MANDATE',
       partOfSpeech: 'noun',
       definition: "The specific goal or outcome an executive has been tasked with delivering — what they are personally accountable for. Understanding someone's mandate tells you what they actually care about.",
       example: "Sarah's mandate for the year was clear: reduce customer acquisition cost by 20% while maintaining revenue growth. Once Riley understood the mandate, she stopped talking about features and started talking about cost per deal.",
-      imageSlug: '/images/executive-level-sales-conversations-mandate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/executive-level-sales-conversations-mandate.png',
     },
     {
       word: 'TRADE-OFF',
       partOfSpeech: 'noun',
       definition: 'A situation where improving one outcome requires accepting a cost or limitation in another — the language of executive decision-making. Executives make trade-off decisions constantly.',
       example: "The trade-off Sarah was facing was real: she could invest in more headcount or in better tooling — but not both within the current budget. Riley's job was to make the tooling side of that trade-off as clear as possible.",
-      imageSlug: '/images/executive-level-sales-conversations-trade-off.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/executive-level-sales-conversations-trade-off.png',
     },
     {
       word: 'ACCOUNTABILITY',
       partOfSpeech: 'noun',
       definition: "Responsibility for delivering specific results — what executives are measured on and what keeps them up at night. Connecting your offer to an executive's accountability is the most reliable way to make it relevant.",
       example: 'Riley had done her research: Sarah had accountability for the full revenue number, not just new business. That meant efficiency across the whole funnel mattered — not just pipeline generation.',
-      imageSlug: '/images/executive-level-sales-conversations-accountability.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/executive-level-sales-conversations-accountability.png',
     },
     {
       word: 'ALIGNMENT',
       partOfSpeech: 'noun',
       definition: "The degree to which what you are proposing connects directly to the executive's current priorities and direction. Without alignment, even a good offer sounds like noise.",
       example: "The reason Riley's proposal landed well was not the product — it was the alignment. She had framed everything around the two outcomes Sarah had publicly stated as her priorities for the year.",
-      imageSlug: '/images/executive-level-sales-conversations-alignment.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/executive-level-sales-conversations-alignment.png',
     },
     {
       word: 'LEVERAGE',
       partOfSpeech: 'verb',
       definition: 'To use a resource, relationship, data point, or insight to produce maximum effect — more than would be possible without it. Executives think in terms of leverage constantly.',
       example: 'Riley offered to leverage the existing CRM data to generate a baseline in week one — which meant Sarah would see a real number within five days, not a projected one in thirty.',
-      imageSlug: '/images/executive-level-sales-conversations-leverage.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/executive-level-sales-conversations-leverage.png',
     },
     {
       word: 'FRICTION',
       partOfSpeech: 'noun',
       definition: 'Anything that slows down a decision, creates unnecessary complexity, or adds resistance to a process. Executives have very little patience for friction — in decisions or in conversations.',
       example: 'The previous vendor had created so much friction in the onboarding process that the team had abandoned the tool within sixty days. Riley made friction reduction the centrepiece of her implementation pitch.',
-      imageSlug: '/images/executive-level-sales-conversations-friction.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/executive-level-sales-conversations-friction.png',
     },
     {
       word: 'SIGNAL',
       partOfSpeech: 'noun',
       definition: 'A meaningful piece of information that indicates what is really happening beneath the surface — as opposed to noise. Executives pay attention to signals and ignore most of the rest.',
       example: "The fact that three of Sarah's top five reps had missed quota two quarters in a row was not a coincidence — it was a signal. Riley used that signal to open the conversation rather than starting with a product overview.",
-      imageSlug: '/images/executive-level-sales-conversations-signal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/executive-level-sales-conversations-signal.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const executiveLevelSalesConversations: Lesson = {
       phrase: 'THE HEADLINE IS',
       definition: 'Start with your conclusion, not your build-up — the way a newspaper headline tells you the story before you read the article. The single most important discipline in executive communication.',
       example: 'The headline is this: your top five reps are closing at half the rate of the rest of the team, and the gap is entirely explainable — and fixable. I want to show you why in the next ten minutes.',
-      imageSlug: '/images/the-headline-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-headline-is.png',
     },
     {
       phrase: 'WHAT THIS MEANS FOR YOU',
       definition: "Explicitly connects a data point, observation, or claim to the executive's specific situation — removes the burden of translation from them and shows you have done the work to make it relevant.",
       example: 'Churn in the B2B software sector is up 18% year on year. What this means for you is that your retention numbers from last year are no longer a reliable benchmark — the market has moved underneath them.',
-      imageSlug: '/images/what-this-means-for-you.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-this-means-for-you.png',
     },
     {
       phrase: 'THE RISK OF NOT ACTING IS',
       definition: 'Frames the cost of inaction rather than the benefit of action — more powerful in executive conversations because executives are often more motivated by risk than by upside.',
       example: 'The risk of not acting on this before Q3 is that your competitor — who signed with us in January — will have six months of improved conversion data before your team starts. That gap compounds.',
-      imageSlug: '/images/the-risk-of-not-acting-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-risk-of-not-acting-is.png',
     },
     {
       phrase: 'WHERE DO YOU NEED THIS TO GO',
       definition: "A direct question that surfaces the executive's mandate and success criteria — asked when you want to understand what outcome they are personally accountable for delivering.",
       example: 'I can show you what the tool does. But before I do — where do you need this to go? What is the number you need to move, and by when? That will tell me which part of what we do is actually relevant to you.',
-      imageSlug: '/images/where-do-you-need-this-to-go.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/where-do-you-need-this-to-go.png',
     },
     {
       phrase: 'I WILL BE BRIEF',
       definition: "A promise and a contract — signals that you understand the executive's time is scarce and that you have prepared accordingly. Only say this if you mean it and can deliver on it.",
       example: 'I will be brief. You gave me fifteen minutes and I have prepared for twelve. The headline is one number, one decision, and one reason to move now. After that, I want to hear from you.',
-      imageSlug: '/images/i-will-be-brief.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-will-be-brief.png',
     },
     {
       phrase: 'THE DECISION IN FRONT OF YOU IS',
       definition: 'Distils a complex situation down to the single decision the executive actually needs to make — removes noise, focuses the conversation, and shows you have done the analytical work so they do not have to.',
       example: 'The decision in front of you is not whether to invest in pipeline tools — you have already decided that. The decision is whether to do it before your Q3 review or after. I want to make the case for before.',
-      imageSlug: '/images/the-decision-in-front-of-you-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-decision-in-front-of-you-is.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const executiveLevelSalesConversations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Sarah, I will be brief — you have fifteen minutes and I have prepared for twelve. The headline is one number: your cost per closed deal has increased 34% in eighteen months while your close rate has stayed flat. That is a [[signal:a meaningful piece of information that indicates what is really happening beneath the surface]] worth paying attention to.',
     },
     {
@@ -124,7 +124,7 @@ export const executiveLevelSalesConversations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I want to show you where it is coming from — because it is not a headcount problem, and it is not a market problem. It is a process problem, and process problems are fixable. But first — where do you need this to go? What is the number you are actually accountable for moving this year?',
     },
     {
@@ -136,7 +136,7 @@ export const executiveLevelSalesConversations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is exactly the frame I want to use. The [[trade-off:a situation where improving one outcome requires a cost in another]] you are managing is real — you can keep adding capacity pressure to the existing team, or you can remove the [[friction:anything that slows down a decision or adds unnecessary resistance]] from their process so the same team closes more. Right now, based on what I have seen, your reps are spending roughly forty percent of their selling time on non-selling work.',
     },
     {
@@ -148,7 +148,7 @@ export const executiveLevelSalesConversations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'CRM updates, manual reporting, and chasing internal approvals — those three alone account for most of it. What this means for you is that your revenue efficiency problem is not a talent problem or a market problem. It is a workflow problem. And workflow problems have a cost you can calculate.',
     },
     {
@@ -160,7 +160,7 @@ export const executiveLevelSalesConversations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Direct. Brightline automates the three workflow areas I mentioned, which recovers roughly eight to ten hours per rep per week. At your team size, that is the equivalent of adding two to three heads without the cost. We can [[leverage:to use something to produce maximum effect]] your existing CRM data to generate a baseline number in week one — so you are not looking at projections, you are looking at your own data.',
     },
     {
@@ -172,7 +172,7 @@ export const executiveLevelSalesConversations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The risk of not acting before Q3 is that the cost per deal continues to compound while your competitor — who is already using this — widens the efficiency gap. The decision in front of you is not whether to fix this. It is when. I would like to make the case for now.',
     },
     {
@@ -184,7 +184,7 @@ export const executiveLevelSalesConversations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Thirty days to a live baseline. Ninety days to a result you can take to the board. The [[accountability:responsibility for delivering specific results]] sits with us during that period — if we do not hit the baseline projection, the conversation about a full contract does not happen.',
     },
     {

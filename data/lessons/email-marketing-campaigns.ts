@@ -6,7 +6,7 @@ export const emailMarketingCampaigns: Lesson = {
   subtitle: 'How to plan, write, and talk about email campaigns that get opened, read, and acted on',
   level: 'B1-B2',
   description: 'Email is still the highest-ROI channel in B2B marketing — when it is done well. In this lesson you will learn the vocabulary for planning and discussing email campaigns: how to structure a campaign, understand key performance metrics, test and improve results, and write a clear email campaign brief.',
-  heroImage: '/images/email-marketing-campaigns-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/email-marketing-campaigns-hero.png',
 
   vocabulary: [
     {
@@ -112,7 +112,7 @@ export const emailMarketingCampaigns: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Marcus — I have the month one email campaign results. Before I walk you through the numbers, I want to give you the context so you know how to read them.',
     },
     {
@@ -124,7 +124,7 @@ export const emailMarketingCampaigns: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "31%. The B2B average is 22%, so that is strong. The [[subject line:the text in the inbox before the email is opened]] — 'You asked for proof. Here it is.' — outperformed the A/B test variant by 28%. That subject line is going on the next campaign too.",
     },
     {
@@ -136,7 +136,7 @@ export const emailMarketingCampaigns: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "3.8% — below our target of 6%. So the email was opened, but the call to action did not move enough people to click. That is the only thing I want to fix next month — everything else worked. We are going to [[split test:test two versions of an email element]] the call to action on the next send: 'Read the case study' versus 'Book a 30-minute call'. I expect the softer ask will convert better at this stage of the [[drip campaign:a series of automated emails designed to move prospects closer to action]].",
     },
     {
@@ -148,7 +148,7 @@ export const emailMarketingCampaigns: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: '0.3% — very healthy. Anything under 0.5% means the content is relevant to the list. The [[segmentation:dividing your list into groups based on shared characteristics]] we did before sending made a real difference — we separated the cold prospects from the warmer leads and sent different emails to each group. The warmer [[segmentation:targeted group]] converted at four times the rate of the cold list.',
     },
     {
@@ -160,7 +160,7 @@ export const emailMarketingCampaigns: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: '[[Deliverability:whether emails land in the inbox rather than spam]] was clean this time — 98.7% inbox rate. Before we sent, I cleaned the list — removed 400 contacts who had not opened anything in six months — and re-authenticated the sending domain. Those two steps fixed the problem from last quarter completely.',
     },
     {
@@ -172,7 +172,7 @@ export const emailMarketingCampaigns: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Emails three, four, and five go out over the next two weeks. Email three handles the most common objection — 'what if it does not work for our size of company?' — and [[personalises:tailors the content to the individual]] using the recipient's industry in the first line. Email four is the call booking invite. Email five is the [[follow-up:a second email to people who did not respond]] — we always send one. Sixty percent of our bookings come from the fourth or fifth email, not the first.",
     }
   ],

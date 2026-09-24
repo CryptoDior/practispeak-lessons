@@ -6,7 +6,7 @@ export const socialListeningAndReputation: Lesson = {
   subtitle: 'How to monitor brand mentions, interpret what you hear, and write a reputation management plan that protects and builds the brand',
   level: 'B1-B2',
   description: 'Brands are talked about constantly — in reviews, social posts, news articles, forums, and comment sections — whether companies are listening or not. Social listening is the practice of monitoring these conversations in real time, understanding what they mean, and using them to make better marketing and communications decisions. This lesson teaches you the vocabulary of brand monitoring and online reputation management: sentiment analysis, share of voice, brand health, and alert systems. The core skill is writing a reputation management plan that your team can actually act on.',
-  heroImage: '/images/social-listening-and-reputation-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/social-listening-and-reputation-hero.png',
 
   vocabulary: [
     {
@@ -160,7 +160,7 @@ export const socialListeningAndReputation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Let's do the monthly brand monitoring review. I'll start with the numbers and then get into the reputation management plan, which I think is the more important conversation.",
     },
     {
@@ -172,13 +172,13 @@ export const socialListeningAndReputation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Mixed. [[Share of voice:the percentage of total online conversations in a category that mention the brand]] is up — we've grown from 18% to 23% in the compliance software space. But the [[brand health:an overall measure of how a brand is perceived, combining awareness, sentiment, trust, and advocacy]] score is down for the third consecutive month. More people know who we are, but they trust us slightly less than they did six months ago.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The [[sentiment analysis:the automated process of classifying mentions as positive, negative, or neutral]] tells the same story. Positive mentions are up in volume — which reflects share of voice growth. But the ratio has shifted: negative sentiment was 9% in Q2, it's 14% now. The increase is driven almost entirely by customer support complaints.",
     },
     {
@@ -190,13 +190,13 @@ export const socialListeningAndReputation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The data shows a spike in negative mentions on the 14th. A verified Twitter account with 180,000 followers posted about a slow support response. By the time the [[alert:an automated notification triggered when a specified condition is met in a social listening platform]] fired — 35 minutes after the post — it had already reached 55,000 impressions.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And our response was two hours after that. By then, the [[narrative:the story or interpretation of events that takes hold in public conversation about a brand]] had already been shaped: 'MarketBridge doesn't respond to customers on social media'. That's the reputation damage — not the original complaint, but the slow response.",
     },
     {
@@ -208,13 +208,13 @@ export const socialListeningAndReputation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The reputation management plan covers four scenarios: a viral negative post, a media inquiry on a sensitive topic, a product failure, and a data security incident. For each one, there's a defined response timeline, a named spokesperson, and a statement template. The 35-minute gap between alert and response drops to under five minutes with the new setup.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "We've also upgraded the alert tiers. Green is a volume spike — investigate. Amber is negative sentiment above 25% — prepare a response. Red is a single post over 10,000 impressions with negative sentiment — publish a response within 30 minutes. The red alert goes directly to Marcus.",
     },
     {
@@ -226,13 +226,13 @@ export const socialListeningAndReputation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Positive earned media is up. The Marketing Week article drove 2,400 referral visits and 18 MQLs — all from a publication we didn't pay. That's the value of a strong editorial reputation. It's why the thought leadership content programme matters as much as the paid campaigns.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The brand health score is trending down, but it's recoverable. Trust is the issue — and trust is rebuilt through consistent, honest communication over time. The reputation management plan helps prevent it from getting worse. The thought leadership programme is what will rebuild it.",
     },
     {
@@ -244,7 +244,7 @@ export const socialListeningAndReputation: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Agreed. We're running a [[crisis communications:the structured approach to managing public communications during a reputational event]] simulation next week — I want every member of the team to practise the response process before the next real incident. The time to prepare is not during the crisis.",
     }
   ],

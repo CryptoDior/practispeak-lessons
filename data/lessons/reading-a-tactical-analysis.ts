@@ -91,7 +91,7 @@ export const readingATacticalAnalysis: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The moment and process of moving between phases — from defending to attacking (positive transition) or vice versa (negative transition).',
       example: '"Their positive transitions were devastating — within three passes of winning the ball, they had created a goalscoring opportunity."',
-      imageSlug: '/images/reading-a-tactical-analysis-transition.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/reading-a-tactical-analysis-transition.png',
     },
   ],
 

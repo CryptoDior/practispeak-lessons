@@ -6,7 +6,7 @@ export const customerJourneyMapping: Lesson = {
   subtitle: 'How to describe and analyse the steps a customer takes from first contact to purchase',
   level: 'B1-B2',
   description: "A customer journey map shows every step a customer takes from the moment they first hear about your product to the moment they buy — and beyond. Understanding this journey helps marketers find the gaps, fix the problems, and improve the experience at every stage. In this lesson, you will learn the vocabulary and phrases marketing teams use to discuss, map, and improve the customer journey in English.",
-  heroImage: '/images/customer-journey-mapping-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-journey-mapping-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const customerJourneyMapping: Lesson = {
       partOfSpeech: 'noun',
       definition: "Any moment when a customer comes into contact with your brand — an ad, a website visit, an email, or a phone call. Every touchpoint is a chance to make a good impression.",
       example: "The team identified eleven touchpoints in the customer journey from the first ad to the signed contract.",
-      imageSlug: '/images/customer-journey-mapping-touchpoint.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-journey-mapping-touchpoint.png',
     },
     {
       word: 'AWARENESS',
       partOfSpeech: 'noun',
       definition: "The first stage of the customer journey — when the customer discovers your brand for the first time. The customer is not ready to buy yet; they are just learning you exist.",
       example: "About 12,000 people reach the awareness stage each month through search and social media ads.",
-      imageSlug: '/images/awareness.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/awareness.png',
     },
     {
       word: 'CONSIDERATION',
       partOfSpeech: 'noun',
       definition: "The stage where the customer knows about your brand and is comparing you to other options — reading reviews, watching demos, and asking questions.",
       example: "At the consideration stage, customers want to compare products and read case studies before making a decision.",
-      imageSlug: '/images/consideration.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/consideration.png',
     },
     {
       word: 'CONVERSION',
       partOfSpeech: 'noun',
       definition: "The moment a customer takes the action you want — buying, signing up, or becoming a paying customer. The conversion rate is the percentage of people who take that action.",
       example: "The conversion rate from free trial to paid customer is 18%, which is below the industry average.",
-      imageSlug: '/images/customer-journey-mapping-conversion.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-journey-mapping-conversion.png',
     },
     {
       word: 'RETENTION',
       partOfSpeech: 'noun',
       definition: "Keeping customers after they have bought — making sure they stay and do not leave for a competitor. Retention is often cheaper than finding new customers.",
       example: "The 12-month retention rate is 74%, meaning 26% of customers leave within the first year.",
-      imageSlug: '/images/customer-journey-mapping-retention.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-journey-mapping-retention.png',
     },
     {
       word: 'FUNNEL',
       partOfSpeech: 'noun',
       definition: "A model that shows how many people move from one stage of the journey to the next. It is wide at the top (many people) and narrow at the bottom (fewer buyers).",
       example: "The team found that the biggest drop in the funnel happens between the awareness and consideration stages.",
-      imageSlug: '/images/customer-journey-mapping-funnel.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-journey-mapping-funnel.png',
     },
     {
       word: 'PERSONA',
       partOfSpeech: 'noun',
       definition: "A realistic profile of a typical customer — including their job, goals, and how they make decisions. A persona helps the team create content that speaks to a specific type of customer.",
       example: "The team created three personas to make sure the journey map was relevant to each type of customer.",
-      imageSlug: '/images/customer-journey-mapping-persona.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-journey-mapping-persona.png',
     },
     {
       word: 'DROP-OFF',
       partOfSpeech: 'noun',
       definition: "The point in the customer journey where people stop and do not continue to the next stage. A drop-off means something is not working at that point.",
       example: "The biggest drop-off is between the free trial and the paid subscription — 82% of trial users do not convert.",
-      imageSlug: '/images/customer-journey-mapping-drop-off.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-journey-mapping-drop-off.png',
     },
   ],
 
@@ -72,37 +72,37 @@ export const customerJourneyMapping: Lesson = {
       phrase: 'AT THE [STAGE] STAGE, THE CUSTOMER...',
       definition: "The standard way to describe what a customer is thinking or doing at each point in the journey. Always name the stage and then describe the customer's behaviour.",
       example: "At the awareness stage, the customer has just discovered the brand and is curious but not ready to buy.",
-      imageSlug: '/images/at-the-stage-stage.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/at-the-stage-stage.png',
     },
     {
       phrase: 'THE CUSTOMER FIRST ENCOUNTERS THE BRAND WHEN...',
       definition: "A phrase for describing the very first touchpoint in the journey — the moment a customer first comes into contact with your brand. Always follow it with a specific channel or action.",
       example: "The customer first encounters the brand when they see a LinkedIn ad targeting marketing managers.",
-      imageSlug: '/images/customer-first-encounters.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-first-encounters.png',
     },
     {
       phrase: 'THE DROP-OFF HAPPENS AT...',
       definition: "A phrase for identifying where customers stop progressing in the funnel. Always follow it with a specific stage or moment, then ask why.",
       example: "The biggest drop-off happens at day seven of the free trial, when most inactive users stop engaging.",
-      imageSlug: '/images/the-drop-off-happens-at.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-drop-off-happens-at.png',
     },
     {
       phrase: 'WE NEED TO IMPROVE THE EXPERIENCE AT...',
       definition: "A phrase for recommending action on a specific part of the customer journey. Always name the specific stage or touchpoint — not a vague description.",
       example: "The team agreed they need to improve the experience at the post-demo follow-up and the day-seven onboarding check-in.",
-      imageSlug: '/images/we-need-to-improve.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/we-need-to-improve.png',
     },
     {
       phrase: 'EACH TOUCHPOINT SHOULD...',
       definition: "A phrase for setting a clear purpose for every customer interaction. Use it when designing or reviewing a journey map to make sure every touchpoint does something useful.",
       example: "The manager said each touchpoint should either build awareness, move the customer closer to a decision, or strengthen their confidence.",
-      imageSlug: '/images/each-touchpoint-should.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/each-touchpoint-should.png',
     },
     {
       phrase: 'THE GOAL AT THIS STAGE IS TO...',
       definition: "A phrase for stating the marketing objective at a specific point in the funnel. The goal is different at each stage — awareness, consideration, conversion, and retention each need a different approach.",
       example: "The goal at the consideration stage is to give customers enough information to choose the product over a competitor.",
-      imageSlug: '/images/the-goal-at-this-stage.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-goal-at-this-stage.png',
     },
   ],
 
@@ -118,7 +118,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'll use our primary persona — Alex, a marketing manager at a mid-size company. The customer first encounters the brand when they see one of our LinkedIn ads. They click through to a blog post, read it, and then leave. That is the end of stage one for most people.",
     },
     {
@@ -130,7 +130,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "A small percentage sign up for our newsletter or request a demo. Those are our best [[touchpoint:any moment when a customer comes into contact with your brand]]s — the newsletter gets them into a nurture sequence and the demo request goes straight to sales.",
     },
     {
@@ -142,7 +142,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is the gap. We have almost nothing at the consideration stage — no comparison pages, no case studies on the website, no review content. The goal at this stage is to give them enough information to choose us, but we are not doing that.",
     },
     {
@@ -154,7 +154,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Two places. First, between awareness and consideration — 90% of blog readers never come back. Second, between free trial and paid subscription — our [[conversion:the moment a customer takes the action you want]] rate from trial to paid is only 18%.",
     },
     {
@@ -166,7 +166,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Most trial users activate once on day one and then the drop-off happens at day seven — they never properly set up the product. There is no onboarding call, no check-in email, and no guided setup. They just lose momentum.",
     },
     {
@@ -178,7 +178,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Our 12-month retention is 74% — better than some competitors but below where we want to be. The 26% who leave mostly say the same thing: they felt unsupported after the first month. We need to improve the experience at the 30-day mark specifically.",
     },
     {
@@ -190,7 +190,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "For consideration: build three case studies and a comparison page. For the trial: add a day-three onboarding call and a day-seven check-in email. Each touchpoint should either move the customer closer to conversion or give them a reason to stay.",
     },
     {
@@ -202,7 +202,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Based on the data, I think trial-to-paid conversion could reach 28% — from 18% now — and retention could improve to 82% at 12 months. Both are achievable without any increase in acquisition budget.",
     },
   ],

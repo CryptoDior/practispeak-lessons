@@ -183,7 +183,7 @@ export const robloxGivingOpinions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, [[what do you think:ask someone for their view]] about the new Roblox update? I have some strong thoughts!",
     },
     {
@@ -195,7 +195,7 @@ export const robloxGivingOpinions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[I disagree:you think something different from another person]]! [[I think:use this to say what you believe]] the new map is too big — it takes too long to find other players.",
     },
     {
@@ -207,7 +207,7 @@ export const robloxGivingOpinions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[I see your point:you understand why they think this, even if you disagree]] about exploring. But [[I feel:how something makes you feel]] PvP is not fun when you cannot find anyone to fight!",
     },
     {
@@ -219,7 +219,7 @@ export const robloxGivingOpinions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "OK — what about the new weapons? [[In my opinion:this is your own view]], the new sword is too strong. One hit and you lose all your health! [[What do you think:ask for their view]]?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxGivingOpinions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "We can agree to disagree about the map! But [[I agree:same view]] about the sword — it should be tested more. Both of us are right about that!",
     },
     {

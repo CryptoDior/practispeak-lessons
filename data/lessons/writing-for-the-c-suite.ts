@@ -6,7 +6,7 @@ export const writingForTheCSuite: Lesson = {
   subtitle: 'How to write communications that senior leaders actually read — and act on',
   level: 'C1-C2',
   description: 'C-suite executives have almost no time and very little patience for writing that isn\'t immediately clear. They read fast, decide fast, and delete fast. To communicate at the top of an organisation, your writing needs to be short, direct, and structured around a decision — not a story. This lesson teaches the vocabulary and techniques behind executive-level business writing.',
-  heroImage: '/images/writing-for-the-c-suite-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-for-the-c-suite-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Probably. What's the decision she needs to make?",
     },
     {
@@ -130,7 +130,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Then write a [[decision document:a business document written to help someone make a decision]] — not a report. Start with the [[recommendation:the professional way to open a C-suite communication]]. The recommendation is... what?",
     },
     {
@@ -142,7 +142,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's your first line. Then two or three lines of evidence. Then the options and trade-offs. That's your whole document — maybe 200 words. [[Brevity:using as few words as possible while being clear]] shows you've done the thinking.",
     },
     {
@@ -154,7 +154,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "She doesn't need the full story — she needs the [[inference:a conclusion the reader reaches from the information you give]]. Give her the data, and she'll draw the right conclusion herself. Context is noise unless she's missing it.",
     },
     {
@@ -166,7 +166,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "No. Use [[precision:using exactly the right word to express exactly the right meaning]]. Don't write 'there may be some reputational sensitivity'. Write 'this will attract press attention — see communications plan in the appendix'. The [[authority:the quality that makes a reader trust your writing]] comes from being direct, not from hedging everything.",
     },
     {
@@ -178,7 +178,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "[[Executive summary:a short section that gives key findings and recommendations]] first — three to five sentences, maximum. Then the options. Then your recommendation again, with the [[implication:something you suggest without saying it openly]] made explicit: what this means in practice is X. Appendix for anyone who wants the detail.",
     },
     {
@@ -190,7 +190,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "C-suite writing is not about showing how much you know. It's about making it as easy as possible for someone very busy to make a good decision. Cut everything that doesn't serve that goal.",
     }
   ],

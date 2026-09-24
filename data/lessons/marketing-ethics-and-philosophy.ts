@@ -6,7 +6,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
   subtitle: 'How to think clearly about ethical questions in marketing — and defend your decisions',
   level: 'C1-C2',
   description: 'Marketing is persuasion — and persuasion raises ethical questions. Is it manipulation? Are you exploiting vulnerabilities? Are customers making real choices or just responding to pressure? These questions matter more than ever in an industry dealing with data, targeting, and the vast reach of digital media. This lesson gives you the vocabulary to think clearly about marketing ethics, have informed debates about difficult decisions, and articulate why some marketing practices are acceptable and others are not.',
-  heroImage: '/images/marketing-ethics-and-philosophy-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-ethics-and-philosophy-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes. That's [[manipulation:influencing someone's decision through means that bypass their rational thinking]] — it creates false urgency to rush a decision. The customer can't make a [[autonomy:the customer's right to make their own free and informed decisions]] when they're being pushed by information that isn't true.",
     },
     {
@@ -130,7 +130,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "[[Utilitarianism:the ethical idea that the right action produces the greatest benefit for the greatest number]] doesn't justify deception. A greater benefit achieved by creating false beliefs is manipulation, not persuasion. The 12% lift is real — but some percentage of those purchases are decisions customers would reverse if they knew the urgency was fabricated.",
     },
     {
@@ -142,7 +142,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's not an ethical argument — that's an observation that bad practice is widespread. Ask the [[virtue ethics:the ethical idea that the right action is what a person of good character would do]] question: what would a company of good character do here? If our answer is 'whatever the competitors do', we've given up on having values.",
     },
     {
@@ -154,7 +154,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Is the customer making a free and informed choice? The checkbox is pre-ticked and the label is in grey text at the bottom of the form. Technically the [[consent:explicit agreement to be contacted or have data used]] is there. But is it real consent if the design is built to make people miss it?",
     },
     {
@@ -166,7 +166,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It is. It might be legally defensible today — but regulators are catching up fast. And more importantly: is this the kind of company we want to be? [[Transparency:being open and honest with customers about what they're agreeing to]] isn't just an ethical choice — customers who trust you stay longer and refer others. The deceptive consent model has a short shelf life.",
     },
     {
@@ -178,7 +178,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That crosses an ethical line regardless of legality. Targeting people in a vulnerable mental state with commercial advertising takes advantage of a moment when they're least able to make good decisions. Whether it's technically allowed is the wrong question. Remove those segments.",
     }
   ],

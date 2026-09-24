@@ -14,14 +14,14 @@ export const askingAboutTheMatch: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'The number of goals each team has — or to put the ball in the net.',
       example: 'What was the score? / He scored in the last minute!',
-      imageSlug: '/images/asking-about-the-match-score.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-about-the-match-score.png',
     },
     {
       word: 'GOAL',
       partOfSpeech: 'noun',
       definition: 'When the ball goes into the net — one point for the team.',
       example: 'Who scored the goal in the second half?',
-      imageSlug: '/images/asking-about-the-match-goal.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-about-the-match-goal.png',
     },
     {
       word: 'WINNER',

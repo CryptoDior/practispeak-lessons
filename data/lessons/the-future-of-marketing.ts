@@ -6,7 +6,7 @@ export const theFutureOfMarketing: Lesson = {
   subtitle: 'How to talk about emerging trends, new technologies, and what comes next in marketing',
   level: 'C1-C2',
   description: 'The marketing landscape is changing faster than ever. Web3, AI, spatial computing, and the end of third-party cookies are not distant ideas — they are already reshaping how brands reach customers. Senior marketers need to understand these trends, talk about them confidently, and make strategic decisions in a world that looks very different from five years ago. This lesson gives you the vocabulary and the frameworks to do that.',
-  heroImage: '/images/the-future-of-marketing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-future-of-marketing-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Start with the biggest structural change — the [[post-cookie:the era after third-party cookies are phased out]] world. That is the change affecting every marketer right now, whether they're ready or not.",
     },
     {
@@ -130,7 +130,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "[[First-party data:information collected directly from your own customers — you own it]]. Start building it now. Every form, every interaction, every survey — that's data you own. The shift from bought data to owned data is the most important change in digital marketing right now.",
     },
     {
@@ -142,7 +142,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes — and be honest. The brands that will win are the ones that build with AI from the start, not the ones that add it to an old process. What [[signal:a piece of data that tells you something useful about a customer]] do you have right now that AI could make more useful?",
     },
     {
@@ -154,7 +154,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's the opportunity. What about longer term? [[Web3:a version of the internet where users own their data and digital assets]]? [[Spatial computing:technology that blends physical and digital worlds]]?",
     },
     {
@@ -166,7 +166,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good instinct. Say exactly that: 'We're still in the early stages, but the direction is clear.' Don't oversell trends you can't yet act on. Credibility matters more.",
     },
     {
@@ -178,7 +178,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Show the risk of falling behind — concretely. 'Three competitors have already launched AI-native content tools. We are 12 months behind them. Here is what we are doing about it.'",
     },
     {
@@ -190,7 +190,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Connect it to the same theme: customers are taking back control of their data and their attention. The brands that build direct, trusted relationships will win. The brands that rely on platforms will be increasingly exposed.",
     }
   ],

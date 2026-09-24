@@ -6,7 +6,7 @@ export const b2bSalesVocabulary: Lesson = {
   subtitle: 'The formal language of enterprise procurement — proposals, contracts, stakeholders, and the process behind every large B2B decision',
   level: 'C1-C2',
   description: "In B2B sales, the commercial conversation is only part of the process. Behind every enterprise deal is a formal procurement system — RFPs, vendor assessments, legal reviews, sign-off authorities, and compliance gates — that operates independently of the personal relationships you've built. Understanding the vocabulary of procurement is not just about knowing the right words. It's about understanding the process well enough to move through it efficiently, anticipate delays before they happen, and position yourself as a vendor who makes the buyer's internal process easier rather than harder. This lesson teaches the formal language of B2B sales administration: what the documents are called, who the stakeholders are, what each stage requires, and how to navigate from proposal to signed contract in a complex organisational environment.",
-  heroImage: '/images/b2b-sales-vocabulary-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b2b-sales-vocabulary-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const b2bSalesVocabulary: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The team in a company that manages buying from outside suppliers. They check vendors, review proposals, and approve contracts before any purchase is made.',
       example: 'Every new supplier must pass through procurement before a contract can be signed — they check policy, price, and compliance at each stage of the process.',
-      imageSlug: '/images/procurement.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/procurement.png',
     },
     {
       word: 'PROPOSAL',
       partOfSpeech: 'noun',
       definition: "A formal document you send to a potential client that explains your solution, pricing, and plan. It shows how your offer meets their needs.",
       example: "The proposal was delivered in person, with each section walked through to show exactly how the solution addressed the client's stated requirements.",
-      imageSlug: '/images/b2b-sales-vocabulary-proposal.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b2b-sales-vocabulary-proposal.png',
     },
     {
       word: 'CONTRACT',
       partOfSpeech: 'noun',
       definition: 'A legal document that both sides sign to confirm the deal. It sets out the price, scope, SLA, and conditions for the partnership.',
       example: 'Both legal teams reviewed every section of the contract before either side signed — covering scope, price, timelines, and penalty terms.',
-      imageSlug: '/images/b2b-sales-vocabulary-contract.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b2b-sales-vocabulary-contract.png',
     },
     {
       word: 'STAKEHOLDER',
       partOfSpeech: 'noun',
       definition: 'Anyone in a company who has an interest in or influence over a buying decision. This can include finance, IT, legal, and the business team.',
       example: 'Before the deal could move forward, all the key stakeholders were mapped — from finance and legal to IT and the business sponsor — to make sure everyone was aligned.',
-      imageSlug: '/images/b2b-sales-vocabulary-stakeholder.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b2b-sales-vocabulary-stakeholder.png',
     },
     {
       word: 'RFP',
       partOfSpeech: 'abbreviation',
       definition: 'Request for Proposal. A formal document a company sends to suppliers asking them to submit a detailed proposal. It sets out the requirements, evaluation criteria, and submission deadline.',
       example: 'The RFP response was submitted before the deadline, with each requirement addressed in the correct section and a compliance matrix included at the back.',
-      imageSlug: '/images/rfp.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/rfp.png',
     },
     {
       word: 'SLA',
       partOfSpeech: 'abbreviation',
       definition: 'Service Level Agreement. The part of a contract that defines the performance standards a supplier must meet — such as uptime, response times, and what happens if those standards are not met.',
       example: 'The SLA committed to 99.9% uptime and a four-hour response time for critical issues, with financial penalties applied if either target was missed.',
-      imageSlug: '/images/b2b-sales-vocabulary-sla.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b2b-sales-vocabulary-sla.png',
     },
     {
       word: 'VENDOR',
       partOfSpeech: 'noun',
       definition: 'A company that sells products or services to another business. In formal procurement, all vendors are assessed and approved before they can be contracted.',
       example: 'Every vendor goes through a formal assessment before being approved to supply the organisation — covering financial stability, security posture, and compliance.',
-      imageSlug: '/images/vendor.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/vendor.png',
     },
     {
       word: 'SIGN-OFF AUTHORITY',
       partOfSpeech: 'phrase',
       definition: 'The right to officially approve a purchase. In most companies, different people hold sign-off authority depending on the value of the contract.',
       example: 'For contracts above a set value, only one senior person in the organisation holds sign-off authority — and the deal cannot proceed without their approval.',
-      imageSlug: '/images/sign-off-authority.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sign-off-authority.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const b2bSalesVocabulary: Lesson = {
       phrase: 'HAS THIS GONE TO PROCUREMENT YET?',
       definition: 'A way to ask if the deal has moved into the formal procurement stage. It helps you understand where you are in the process and what needs to happen next.',
       example: 'Before planning next steps, it is worth asking: has this gone to procurement yet — or is the business team still completing their internal evaluation?',
-      imageSlug: '/images/has-this-gone-to-procurement-yet.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/has-this-gone-to-procurement-yet.png',
     },
     {
       phrase: 'THE PROPOSAL ADDRESSES EACH OF YOUR STATED REQUIREMENTS',
       definition: "A phrase you use to confirm that your proposal responds to every point the client listed. It shows you read their requirements carefully and answered them in order.",
       example: "The proposal addresses each of your stated requirements in sequence, with a compliance matrix at the back so your procurement team can verify the match point by point.",
-      imageSlug: '/images/the-proposal-addresses-each-of-your-stated-requirements.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-proposal-addresses-each-of-your-stated-requirements.png',
     },
     {
       phrase: 'ONCE BOTH PARTIES HAVE SIGNED THE CONTRACT',
       definition: "A phrase that refers to the moment the deal is legally finalised. It is used to describe what happens after signature — such as the start of implementation or the first invoice.",
       example: "Once both parties have signed the contract, the implementation team will begin onboarding within five business days and the first project milestone will be set for week six.",
-      imageSlug: '/images/once-both-parties-have-signed-the-contract.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/once-both-parties-have-signed-the-contract.png',
     },
     {
       phrase: 'WHO ARE THE KEY STAKEHOLDERS WE SHOULD BE ENGAGING AT THIS STAGE?',
       definition: 'A question you ask to find out which people need to be involved in the decision at a specific point in the process. It helps you avoid surprises later.',
       example: "As the evaluation moves forward, it's important to ask: who are the key stakeholders we should be engaging at this stage — so no one is left out of the process at the final approval step.",
-      imageSlug: '/images/who-are-the-key-stakeholders-we-should-be-engaging-at-this-stage.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/who-are-the-key-stakeholders-we-should-be-engaging-at-this-stage.png',
     },
     {
       phrase: "WE TYPICALLY SEE LEGAL REVIEW TAKE TWO TO THREE WEEKS — I'D FACTOR THAT INTO THE TIMELINE",
       definition: 'A phrase used to warn the client that legal review takes time. It helps both sides plan the deal timeline so no one is surprised by delays near the close.',
       example: "When planning the route to signature, it is worth noting that we typically see legal review take two to three weeks — I'd factor that into the timeline before confirming the board submission date.",
-      imageSlug: '/images/we-typically-see-legal-review-take-two-to-three-weeks--id-factor-that-into-the-timeline.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/we-typically-see-legal-review-take-two-to-three-weeks--id-factor-that-into-the-timeline.png',
     },
     {
       phrase: 'THE RFP REQUIRES US TO',
       definition: 'A phrase used to explain that a specific part of your response is driven by the formal requirements in the RFP. It shows the buyer that you are following their process exactly.',
       example: "The RFP requires us to address data residency and security in a dedicated section — the full response and supporting documentation start on page 22.",
-      imageSlug: '/images/the-rfp-requires-us-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-rfp-requires-us-to.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's great to hear — and completely expected for a deal of this size. What does your [[procurement:the organisational function responsible for sourcing, evaluating, and purchasing goods and services — often a separate department with its own process and timeline]] process typically look like from this stage?",
     },
     {
@@ -130,7 +130,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I've been through this process with organisations of your size before — it typically runs six to eight weeks from RFP submission to signed [[contract:the binding legal agreement that formalises commercial terms, including scope, pricing, SLA, and termination conditions]]. Does that align with your internal timeline?",
     },
     {
@@ -142,7 +142,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It does — I structured it specifically around your RFP. Each requirement is addressed in the corresponding section, and I've included a compliance matrix at the back so your procurement team can map our response directly to their evaluation criteria without searching through the document.",
     },
     {
@@ -154,7 +154,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Based on our conversations, I've identified four: you as the business sponsor, your procurement lead on commercial terms, your IT security team on compliance and integration, and your legal team for contract review. Have I missed anyone critical to the [[sign-off authority:the formal approval granted by an individual with the organisational authority to approve a purchase at a defined value threshold]] level?",
     },
     {
@@ -166,7 +166,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Important — thank you for flagging that early. I'd like to prepare a one-page financial summary specifically for the CFO: headline ROI, total cost of ownership across three years, and the risk mitigation provisions in the contract. What level of detail does your CFO typically want to see?",
     },
     {
@@ -178,7 +178,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Understood — I'll prepare that as a separate document. On the contract itself: do you use your own standard [[vendor:a company or individual supplying goods or services — in formal B2B procurement, vendors undergo assessment and approval before contracting]] agreement, or do you prefer to work from our paper?",
     },
     {
@@ -190,7 +190,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "One thing worth flagging: we typically see legal review take two to three weeks on a contract of this scope — I'd factor that into the timeline. The first pass from legal usually generates ten to fifteen changes. Building that window in now prevents a last-minute rush before the Q3 deadline.",
     },
     {
@@ -202,7 +202,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'One last suggestion: a weekly alignment call with the key stakeholders from both sides during the procurement phase. It keeps everything moving without requiring large meetings — and it means nothing gets stuck in a queue without both of us knowing about it. Shall I set that up once procurement has confirmed your vendor submission date?',
     }
   ],

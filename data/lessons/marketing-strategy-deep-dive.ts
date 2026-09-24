@@ -6,7 +6,7 @@ export const marketingStrategyDeepDive: Lesson = {
   subtitle: 'How to read, discuss and apply strategic frameworks — BCG matrix, Ansoff, blue ocean, and positioning maps — in real marketing conversations',
   level: 'B1-B2',
   description: 'Strategy without language is just a diagram on a whiteboard. This lesson teaches you the vocabulary and phrases you need to discuss strategic frameworks in meetings, presentations and written briefs — so you can explain what the BCG matrix tells you about your portfolio, argue for a blue ocean move, and position your brand on a map with confidence. The focus is practical: reading a Harvard Business Review-style excerpt, discussing what it means for your market, and writing a clear strategic recommendation.',
-  heroImage: '/images/marketing-strategy-deep-dive-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-strategy-deep-dive-hero.png',
 
   vocabulary: [
     {
@@ -160,7 +160,7 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Right — let's get into the strategy review. I've mapped our portfolio against the [[BCG matrix:a 2x2 framework plotting products by market growth and market share]] and I want to walk you both through what it tells us.",
     },
     {
@@ -172,13 +172,13 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Our enterprise platform is a clear Cash Cow — high market share, but the segment is maturing. The new SME product is a Question Mark — fast-growing space, but we haven't won enough share yet. Based on the framework, our recommendation is to invest aggressively in the SME product while using the enterprise revenue to fund it.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "That tracks. I've also been looking at [[Ansoff:a growth framework with four strategies — penetration, market development, product development, and diversification]] and I think we're actually trying to do two things at once — market penetration in SME and product development for enterprise. That's spreading us thin.",
     },
     {
@@ -190,13 +190,13 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The data suggests we should prioritise SME. Acquisition cost is 40% lower, sales cycles are three times shorter, and our NPS in that segment is 62 versus 44 in enterprise. Every metric points the same way.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Agreed. And I think there's a [[positioning:how a brand is perceived relative to competitors in the minds of customers]] opportunity here too. When I mapped the competitive landscape, there's a clear gap in the market for a platform that specifically serves SMEs in regulated industries — financial services, legal, healthcare.",
     },
     {
@@ -208,13 +208,13 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'None of them are doing it well. The large platforms ignore it — too complex for their generalist approach. The specialist tools are too niche. If we position ourselves as the platform for regulated SMEs, we can own that space before anyone else notices it.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And this plays to our strengths in compliance-aware product design — that's something we've built over three years. A competitor can't replicate that in six months. That's a genuine [[competitive advantage:something a company does better than competitors that is hard to copy]].",
     },
     {
@@ -226,13 +226,13 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The risk of this approach is that we limit our addressable market in the short term. If the regulated SME segment is smaller than we think, or if a large player moves in with more resources, we're exposed. We'd need a clear plan to expand out of the niche once we've established our position.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "That's fair. But the alternative — competing as a generalist against platforms with ten times our budget — has its own risk. At least the niche strategy has [[strategic fit:how well a strategy aligns with the company's existing strengths and resources]] with what we already do well.",
     },
     {
@@ -244,7 +244,7 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Absolutely. I'll structure it around the BCG analysis, the Ansoff recommendation, and the positioning map with the gap highlighted. I'll make sure the [[value proposition:a clear statement of the benefit you offer, who it is for, and why you are better than the alternative]] is specific — not 'we help businesses grow', but something with a number and a named audience.",
     },
     {

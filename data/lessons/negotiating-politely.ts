@@ -6,7 +6,7 @@ export const negotiatingPolitely: Lesson = {
   subtitle: "How to negotiate price and terms professionally using 'Would you be open to…?' and other collaborative language",
   level: 'B1-B2',
   description: "Negotiation is not about winning — it's about finding terms that work for both sides. The most effective negotiators in B2B sales use polite, conditional language that keeps the conversation collaborative rather than adversarial. In this lesson, you will learn the key phrases for proposing changes to price and terms, acknowledging the other side's position, making conditional offers, and reaching a mutual agreement — all while maintaining a professional, respectful tone.",
-  heroImage: '/images/negotiating-politely-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-politely-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const negotiatingPolitely: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To discuss the conditions of a deal in order to reach an agreement that works for both sides.',
       example: "Both sides agreed to negotiate the price before signing the contract.",
-      imageSlug: '/images/negotiate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiate.png',
     },
     {
       word: 'CONCESSION',
       partOfSpeech: 'noun',
       definition: "Something you agree to give up in order to reach a deal.",
       example: 'The supplier made a concession on the price in exchange for a longer contract.',
-      imageSlug: '/images/negotiating-politely-concession.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-politely-concession.png',
     },
     {
       word: 'FLEXIBILITY',
       partOfSpeech: 'noun',
       definition: 'The ability to change or adjust the terms of a deal when needed.',
       example: 'The client appreciated the flexibility on payment terms and agreed to sign the contract.',
-      imageSlug: '/images/flexibility.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/flexibility.png',
     },
     {
       word: 'LEVERAGE',
       partOfSpeech: 'noun',
       definition: "An advantage that gives one side more power in a negotiation.",
       example: "The company had strong leverage because it was already speaking to three different suppliers.",
-      imageSlug: '/images/negotiating-politely-leverage.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-politely-leverage.png',
     },
     {
       word: 'COMPROMISE',
       partOfSpeech: 'noun',
       definition: "An agreement where both sides give up something in order to reach a deal.",
       example: 'They reached a compromise — a lower price in exchange for a longer contract.',
-      imageSlug: '/images/compromise.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/compromise.png',
     },
     {
       word: 'TERMS',
       partOfSpeech: 'noun',
       definition: "The conditions of a deal, including price, payment schedule, and contract length.",
       example: 'The two companies agreed on the terms before signing the final contract.',
-      imageSlug: '/images/negotiating-politely-terms.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-politely-terms.png',
     },
     {
       word: 'COUNTER-OFFER',
       partOfSpeech: 'noun',
       definition: 'A response to an offer that suggests different conditions instead of simply accepting or refusing.',
       example: "The client made a counter-offer of $28 per user instead of the original price of $35.",
-      imageSlug: '/images/negotiating-politely-counter-offer.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-politely-counter-offer.png',
     },
     {
       word: 'MUTUAL',
       partOfSpeech: 'adjective',
       definition: "Shared equally by both sides. A mutual agreement is good for everyone involved.",
       example: "Both teams were looking for a mutual agreement that worked for everyone.",
-      imageSlug: '/images/negotiating-politely-mutual.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-politely-mutual.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const negotiatingPolitely: Lesson = {
       phrase: 'WOULD YOU BE OPEN TO...?',
       definition: "A polite way to suggest an alternative and ask if the other person is willing to consider it.",
       example: "Would you be open to a 12-month contract in exchange for a lower monthly rate?",
-      imageSlug: '/images/negotiating-politely-would-you-be-open-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-politely-would-you-be-open-to.png',
     },
     {
       phrase: 'I UNDERSTAND YOUR POSITION. HOWEVER, FROM OUR SIDE...',
       definition: "Used to show that you understand the other person's situation before explaining your own constraints.",
       example: "I understand your position. However, from our side, the price includes full setup and training.",
-      imageSlug: '/images/i-understand-your-position-however-from-our-side.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-understand-your-position-however-from-our-side.png',
     },
     {
       phrase: 'IF WE WERE ABLE TO [X], WOULD YOU BE ABLE TO [Y]?',
       definition: "A formal way to propose an exchange — if we change one thing, would you agree to change something in return?",
       example: "If we were able to shorten the onboarding to one month, would you be able to agree to the $28 rate?",
-      imageSlug: '/images/if-we-were-able-to-x-would-you-be-able-to-y.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/if-we-were-able-to-x-would-you-be-able-to-y.png',
     },
     {
       phrase: "THAT'S AT THE VERY EDGE OF WHAT WE CAN OFFER",
       definition: "Used to say that this is close to the lowest price or best offer you are able to make.",
       example: "$28 per user is at the very edge of what we can offer — any lower and we would need to adjust the package.",
-      imageSlug: '/images/thats-at-the-very-edge-of-what-we-can-offer.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/thats-at-the-very-edge-of-what-we-can-offer.png',
     },
     {
       phrase: "I THINK WE'RE CLOSE — LET'S SEE IF WE CAN FIND A MIDDLE GROUND",
       definition: "Used when both sides are nearly in agreement and you want to reach a final compromise.",
       example: "I think we're close on price — let's see if we can find a middle ground on the payment terms.",
-      imageSlug: '/images/i-think-were-close--lets-see-if-we-can-find-a-middle-ground.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-think-were-close--lets-see-if-we-can-find-a-middle-ground.png',
     },
     {
       phrase: 'LET ME TAKE THAT BACK TO MY MANAGER AND COME BACK TO YOU',
       definition: "Used to say that you need to check internally before giving a final answer.",
       example: "Let me take that back to my manager and come back to you by end of day tomorrow.",
-      imageSlug: '/images/let-me-take-that-back-to-my-manager-and-come-back-to-you.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/let-me-take-that-back-to-my-manager-and-come-back-to-you.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I appreciate you being direct — that's exactly the right conversation to have. I want to find something that works for both of us. Can you tell me more about the gap? Is it the monthly rate, the total contract value, or the payment schedule?",
     },
     {
@@ -130,7 +130,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I understand. $35 is our standard rate and it includes the full package — dedicated onboarding, priority support, and the native Salesforce integration. But I hear you on the gap. [[Would you be open to:the core phrase — a soft, non-threatening invitation to consider a different arrangement]] a 12-month contract in exchange for a reduced monthly rate?',
     },
     {
@@ -142,7 +142,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "If you commit to 12 months, I can bring the rate down to $30 per user. That's a meaningful reduction — and it gets you closer to your budget while giving us the certainty we need to offer that [[concession:something you give up in order to reach a deal, ideally in exchange for something in return]].",
     },
     {
@@ -154,7 +154,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I understand your position. However, from our side, $28 per user with the full package — including three months of dedicated onboarding — is at the very edge of what we can offer. That said, I don't want to lose this deal over a small gap. [[If we were able to:the conditional negotiation structure — proposing an exchange professionally]] adjust the onboarding from three months to one, would you be able to commit at $28?",
     },
     {
@@ -166,7 +166,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "One month of dedicated onboarding still covers full setup, Salesforce integration, team training, and the first 30 days of check-ins. It's genuinely substantial — the difference is you'd have two fewer months of hand-holding, which most experienced teams don't end up needing anyway.",
     },
     {
@@ -178,7 +178,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Our standard is 30 days. I think we're close — let's see if we can find a [[compromise:an agreement where both sides give something up to reach a middle ground]] on payment terms. Would you be open to 45 days? That's a [[mutual:shared equally by both sides — mutually beneficial]] adjustment I can likely get approved today without going back to my manager.",
     },
     {
@@ -190,7 +190,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's the outline. I'll need internal sign-off on the $28 rate — but based on everything we've agreed, I'm confident I can make it work. Can I come back to you with formal confirmation by end of day tomorrow?",
     },
     {
@@ -202,7 +202,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Perfect. I'll take this back to my manager today and send you a written summary of the agreed [[terms:the conditions of the deal — price, payment, duration, scope]] this afternoon so you have it for your records. I'm genuinely pleased we found a way to make this work.",
     }
   ],

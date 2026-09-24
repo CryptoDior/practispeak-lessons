@@ -42,7 +42,7 @@ export const robloxReviewB1Block2: Lesson = {
       partOfSpeech: 'verb',
       definition: "Apply a targeted fix to a specific bug or exploit. In passive: 'was/has been patched'. (From Lesson 15: Passive Voice)",
       example: "The duplication exploit has been patched — any items obtained through it have been removed from accounts.",
-      imageSlug: '/images/roblox-review-b1-block-2-patch.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-b1-block-2-patch.png',
     },
     {
       word: 'ALTHOUGH',
@@ -63,7 +63,7 @@ export const robloxReviewB1Block2: Lesson = {
       partOfSpeech: 'noun',
       definition: "The best strategy right now — what the most successful players are doing. (From Lesson 18: Light Slang & Functional Expressions)",
       example: "The meta has completely shifted since the patch — the aggressive close-range build is suddenly the strongest option.",
-      imageSlug: '/images/roblox-review-b1-block-2-meta.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-b1-block-2-meta.png',
     },
   ],
 
@@ -183,7 +183,7 @@ export const robloxReviewB1Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "GG, Mia — we just finished the most intense qualifier of the season. I am genuinely [[proud of:feeling deep satisfaction about an achievement]] what we pulled off in the final phase.",
     },
     {
@@ -195,7 +195,7 @@ export const robloxReviewB1Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The admin [[warned:cautioned about a consequence]] us beforehand that the opposing team had changed their strategy. We should have adjusted our build earlier.",
     },
     {
@@ -207,7 +207,7 @@ export const robloxReviewB1Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Our damage output in phase one was [[nowhere near as:shows a very large gap]] high as it needed to be. But the exploit they were using has now been [[patched:had a targeted fix applied — passive voice]] — so that advantage disappears next week.",
     },
     {
@@ -219,7 +219,7 @@ export const robloxReviewB1Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Three new skins were released and the movement system was redesigned. The [[progression:moving forward and improving — from the verb PROGRESS]] system now rewards you for assists, not just eliminations.",
     },
     {
@@ -231,7 +231,7 @@ export const robloxReviewB1Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Agreed. And I want to catch up on the passive voice exercises we rushed through — that grammar still comes out a bit shaky in my commentary.",
     },
     {

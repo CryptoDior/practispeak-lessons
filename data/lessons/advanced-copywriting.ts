@@ -6,7 +6,7 @@ export const advancedCopywriting: Lesson = {
   subtitle: 'How to write copy that persuades — using structure, voice, and rhetorical technique',
   level: 'C1-C2',
   description: "Good copy does not just describe — it persuades. At the advanced level, copywriting is about understanding why people make decisions and writing in a way that moves them to act. This lesson teaches the principles behind high-performing copy: from rhetorical devices and persuasive structure to voice, hierarchy, and the techniques that turn a good idea into copy that converts.",
-  heroImage: '/images/advanced-copywriting-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-copywriting-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Start with one question: what is the one thing this copy needs to do? For a homepage, it is usually to get someone to take the next step — a trial, a demo, a scroll. Every word should serve that job.",
     },
     {
@@ -130,7 +130,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It is a feature description, not a benefit. Lead with the benefit, not the feature. What does the software actually do for someone? What do they gain? What pain does it remove?",
     },
     {
@@ -142,7 +142,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "There is your headline. Now make it use [[pathos:an appeal to emotion — connecting with how the reader feels rather than just presenting facts]]. Not 'save 5 hours a week' — try: 'Stop losing 5 hours a week to meetings that go nowhere.' That uses emotion. The reader feels the pain before they hear the solution.",
     },
     {
@@ -154,7 +154,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is [[ethos:an appeal to credibility — building trust through expertise, experience, or endorsement]]. Use it. 'Trusted by 10,000 teams worldwide — rated 4.9 on G2.' That borrows credibility from the people who already trust you. It answers the question the sceptical reader is asking: 'Has this worked for people like me?'",
     },
     {
@@ -166,7 +166,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes — that is [[logos:an appeal to logic and reason — persuading through facts, data, and rational argument]]. Use all three: pathos in the headline, ethos in the social proof, logos in the body. That is the full persuasion stack.",
     },
     {
@@ -178,7 +178,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Fix the hierarchy. Headline first — benefit. Subheadline — one sentence of context. Then the logical proof. Then testimonials to confirm. CTA last — but make the CTA earn its click. Not 'Get started' — 'Start saving 5 hours a week'.",
     },
     {
@@ -190,7 +190,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Define your voice in three words. Write copy, then ask: does this sound like us? If it could be any brand, it has no [[rhetorical device:a writing technique that makes communication more persuasive or memorable]] and no personality. The voice should be consistent from headline to CTA.",
     }
   ],

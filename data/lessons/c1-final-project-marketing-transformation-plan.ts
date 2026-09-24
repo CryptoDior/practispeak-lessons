@@ -160,7 +160,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Ready. Opening.",
     },
     {
@@ -172,19 +172,19 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Challenge: 'You say the status quo is not an option. We have heard that before. Every transformation proposal says the burning platform is critical and urgent. Why is this one different?'",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Because this time we have the trajectory, not just the position. We are not at risk of decline — we are already in decline at a measurable rate, in a category that is growing, with competitors who have already begun the [[strategic alignment:the degree to which the marketing strategy connects to the overall business strategy]] we are proposing. That combination is not a projection. It is a description of what is happening now.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Better. [[Value creation:the commercial outcome — how the transformation generates measurable financial or strategic return]] section.",
     },
     {
@@ -196,7 +196,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The close.",
     },
     {
@@ -208,7 +208,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is the full board narrative — burning platform, strategic opportunity, transformation agenda, evidence of readiness, commercial case, and the ask. That is what the C1 series has been building toward. The language, the structure, the confidence to walk into the most difficult professional conversation and make the case clearly, honestly, and specifically.",
     },
   ],

@@ -212,7 +212,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Same — though I am a bit [[worried about:feeling anxious about something]] our ranking going into it. We need to hit Platinum in the first two weeks.",
     },
     {
@@ -224,7 +224,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "True. I am getting a bit [[bored of:tired and no longer interested in something]] our current rotation though. We have used it all season — every team knows how we play.",
     },
     {
@@ -236,7 +236,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Yes — I have studied their matches. I would be [[interested in:engaged or curious about something]] trying that approach. Adaptability is a huge advantage.",
     },
     {
@@ -248,7 +248,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Agreed. Kai will be helpful here — he specialises in defensive structures and we need someone who can build a solid fallback plan.",
     },
     {
@@ -260,7 +260,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Me too. And we are not stopping there — Platinum is the minimum. Focus on what we do best and we will get there. The work is already done — we just have to show it.",
     },
   ],

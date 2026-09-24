@@ -6,7 +6,7 @@ export const advancedPersuasiveLanguage: Lesson = {
   subtitle: 'How to frame, position, and influence — without sounding like you are trying to',
   level: 'C1-C2',
   description: "Learn the language of advanced persuasion — how to control the frame of a conversation, position your offer clearly in the prospect's mind, and use contrast, implication, and credibility to influence how people think and decide. All without sounding manipulative.",
-  heroImage: '/images/advanced-persuasive-language-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-persuasive-language-hero.png',
 
   vocabulary: [
     {
@@ -112,7 +112,7 @@ export const advancedPersuasiveLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Before I show you anything, I want to set up the [[framing:the way you present information — the angle you choose shapes how people react]] for this conversation. Most vendors come in and show you what their product does. I am going to start with what your business is losing — and let you decide whether what we do is relevant.',
     },
     {
@@ -124,7 +124,7 @@ export const advancedPersuasiveLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I find it is the only honest one. The [[anchor:a reference point introduced early that shapes how everything following is evaluated]] I want to put in the room first is this: based on the numbers your VP shared with me, you are losing somewhere between four and six deals a quarter to slow follow-up and pipeline blindness. At your average deal size, that is between £200,000 and £300,000 a year walking out the door. That is the number I want you to hold in mind while we talk.',
     },
     {
@@ -136,7 +136,7 @@ export const advancedPersuasiveLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'No — and let me be direct about something. No tool recovers all of it. What I can show you is that teams using Brightline recover roughly sixty percent of those stalled deals within the first ninety days. The [[contrast:placing two situations side by side so the difference becomes obvious]] is simple: your current situation costs you £250,000 a year on average. Brightline costs you £36,000 a year. The question is not whether that is a good investment. It clearly is. The question is whether you believe the recovery number.',
     },
     {
@@ -148,7 +148,7 @@ export const advancedPersuasiveLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is exactly the right question to ask — and I am going to [[concede:to acknowledge a point that works against you — a move that builds trust]] something. You cannot know for certain until you are three months in. What I can give you is the [[narrative:the story or thread that makes a pitch stay with the listener]] — three customers at your scale, the specific deals they recovered, the timelines, and the exact configuration they used. You can speak to any of them directly. But I want to be honest: the sixty percent is an average. Some teams do better. Some do not get there. Your outcome will depend on adoption, and adoption depends on how you run the rollout.',
     },
     {
@@ -160,7 +160,7 @@ export const advancedPersuasiveLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Think of it this way. The other tools give you data. Brightline gives you intervention points — the moments where a manager can step in before a deal dies, not after. The way I see it, data without a clear action attached to it is just a dashboard nobody checks. What most Sales VPs in your position find is that they already have too much data. What they do not have is the right signal at the right time. That is the distinction.',
     },
     {
@@ -172,7 +172,7 @@ export const advancedPersuasiveLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'It does — and I would rather you stress-test it now than sign and regret it later. Shall we go through the numbers together?',
     }
   ],

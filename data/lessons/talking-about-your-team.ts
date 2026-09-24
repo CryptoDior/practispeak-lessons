@@ -14,7 +14,7 @@ export const talkingAboutYourTeam: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To follow and cheer for a team as a fan.',
       example: 'I support Barcelona — I have done since I was a child.',
-      imageSlug: '/images/talking-about-your-team-support.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-your-team-support.png',
     },
     {
       word: 'SUPPORTER',

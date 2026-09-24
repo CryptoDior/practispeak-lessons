@@ -6,7 +6,7 @@ export const mediaRelationsAndPr: Lesson = {
   subtitle: 'How to work with journalists, manage media enquiries, and communicate with the press with confidence and control',
   level: 'C1-C2',
   description: "Every organisation that communicates publicly — whether through a product launch, a crisis response, or a thought leadership campaign — needs to understand how the media works. Journalists are not your marketing channel. They have their own agendas, deadlines, and audiences. Knowing how to work with them — how to pitch a story, how to manage an embargo, how to brief a spokesperson, and how to respond when a difficult question lands — is one of the most practical communications skills in business. This lesson gives you the vocabulary to participate confidently in PR and media relations conversations.",
-  heroImage: '/images/media-relations-and-pr-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/media-relations-and-pr-hero.png',
 
   vocabulary: [
     {
@@ -160,19 +160,19 @@ export const mediaRelationsAndPr: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "We have a [[press release:a written statement sent to journalists to share official news]] that needs work — the [[news hook:the specific element that makes a story timely and relevant enough to cover right now]] is too weak. We have a draft [[media kit:a collection of resources giving journalists everything they need to cover a story]] — press release, fact sheet, images, executive bios. And we have twelve journalist briefings scheduled under [[embargo:an agreement that journalists receive information early but cannot publish until a set date and time]].",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "When does the embargo lift?",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Launch day at 6am. We have an embargo until then. Journalists are briefed on Wednesday and Thursday this week — they get full access to the product, a one-on-one with the CEO, and the complete media kit. In exchange, nothing publishes until launch day.",
     },
     {
@@ -184,13 +184,13 @@ export const mediaRelationsAndPr: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Three spokespeople — the CEO for strategy and brand, the CTO for product and tech, the CMO for campaign. The spokesperson is being briefed on the competitive positioning questions today — that is where I expect the hardest questions to come from. I also need to brief the CEO on what she says off the record if a journalist pushes on the acquisition rumours.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "For that, the phrase is: this is strictly off the record — I am sharing this as background. She needs to say those words before she shares anything. Not after.",
     },
     {
@@ -202,13 +202,13 @@ export const mediaRelationsAndPr: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes. We are pitching this as an exclusive to one major business outlet — their technology editor. She covers our sector, her readership is our target buyer profile, and a front-page feature from her gives the rest of the media permission to run the story. If she commits, she gets the CEO interview 48 hours before the embargo lifts.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And the press release — the story needs a stronger news hook before it goes out. Right now it reads like a product description. We need to open with the market problem this solves, not with 'today we are pleased to announce.'",
     },
     {

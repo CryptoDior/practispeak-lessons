@@ -6,7 +6,7 @@ export const internationalMediaBuying: Lesson = {
   subtitle: 'The language of planning, buying, and evaluating paid media at a global scale',
   level: 'C1-C2',
   description: 'Media buying is how brands pay to get in front of audiences — on TV, online, in print, on radio, and outdoors. At a global scale, media plans involve enormous budgets, complex negotiations, and highly technical metrics. This lesson covers the vocabulary you need to brief an agency, read a media plan, evaluate performance, and defend a budget in any international market.',
-  heroImage: '/images/international-media-buying-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/international-media-buying-hero.png',
 
   vocabulary: [
     {
@@ -112,7 +112,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Marcus, the agency has sent through the media plan for the Q3 launch. Can you review the key metrics before the call tomorrow?",
     },
     {
@@ -124,7 +124,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's a solid plan for a brand awareness objective. What's the [[CPT:cost per thousand — how much it costs to reach 1,000 people]] across the different channels?",
     },
     {
@@ -136,7 +136,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "TV is expensive but it'll drive most of the broad reach. What's the [[media weight:the total volume of advertising activity, measured in GRPs or spend]] compared to the competitor?",
     },
     {
@@ -148,7 +148,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "So our [[share of voice:brand advertising spend as a percentage of all spend in the category]] is below [[SOV parity:when your share of voice equals your share of market]]. We're going to lose ground on brand awareness unless we close that gap.",
     },
     {
@@ -160,7 +160,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Possibly. If we cut two weeks from the Q3 flight and roll that spend into Q4, we can run a heavier burst around the holiday peak. The risk is that frequency drops during the Q3 period.",
     },
     {
@@ -172,7 +172,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Exactly. We need to balance reach and frequency carefully. Ask the agency to model two scenarios — the current plan, and a front-loaded flight with a heavier Q4 burst. Then we decide.",
     },
     {
@@ -184,7 +184,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "France goes on hold until we resolve the distributor issue. Spain and Italy — the local teams can run lightweight digital campaigns with local CPTs. But the main TV weight stays in the two core markets for now.",
     }
   ],

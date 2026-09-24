@@ -6,7 +6,7 @@ export const writingMarketingReports: Lesson = {
   subtitle: 'How to structure and write a clear, professional marketing performance report',
   level: 'B1-B2',
   description: "A good marketing report does not just show numbers — it tells a story. It explains what you did, what happened, and what you should do next. In most marketing teams, you will write regular reports on campaigns, channels, or budgets. The people reading your report are often busy managers who want the key points fast. This lesson teaches you the vocabulary and phrases you need to write clear, well-structured reports in English — from the executive summary at the top to the recommendations at the end.",
-  heroImage: '/images/writing-marketing-reports-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-marketing-reports-hero.png',
 
   vocabulary: [
     {
@@ -28,7 +28,7 @@ export const writingMarketingReports: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A suggestion for what to do next, based on your findings. Recommendations come at the end of a report and should be specific and actionable. Do not just say there is a problem — say what you think should happen next.',
       example: "Marcus reviewed the final section: Your recommendations are good — they are specific and based on the data. Riley explained: I have three: reduce email frequency in week three, test a new subject line format, and increase the budget for the best-performing segment by 20%.",
-      imageSlug: '/images/writing-marketing-reports-recommendation.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-marketing-reports-recommendation.png',
     },
     {
       word: 'METRIC',
@@ -118,7 +118,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I know it's too long at the moment. I wrote four paragraphs, but I think it should be three sentences maximum. The key points are: the campaign ran for eight weeks, open rates exceeded the [[benchmark:the standard you compare your results against]], and conversion was below target.",
     },
     {
@@ -130,7 +130,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The data shows that open rates were strong throughout — 24% overall against a benchmark of 20%. Click-through rates held steady at around 3.5%. The problem was conversion — it dropped sharply in week three and never recovered.",
     },
     {
@@ -142,7 +142,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Four main ones: open rate, click-through rate, conversion rate, and cost per lead. I set all four targets before the campaign started so I could compare directly against them in the report.",
     },
     {
@@ -154,7 +154,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Open rates improved week on week for the first five weeks — from 19% up to 27%. Then they dropped in weeks six, seven, and eight. So the trend was positive for most of the campaign but declined at the end. I think send frequency was too high in the final three weeks.",
     },
     {
@@ -166,7 +166,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The conclusion says: the campaign performed above benchmark on reach and engagement, but below benchmark on conversion, primarily due to increased send frequency and a weak landing page in the final three weeks.",
     },
     {
@@ -178,7 +178,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Compared to the previous quarter, open rates were up 9% and click-through rates were flat. Conversion was down 0.5 percentage points — which sounds small but represents about 40 fewer leads at our current volume.",
     },
     {
@@ -190,7 +190,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Based on these findings, we recommend three things: one, reduce send frequency to a maximum of two emails per week in the final three weeks of any campaign. Two, redesign the landing page for the next campaign. Three, test two subject line formats before the full send.",
     },
     {
@@ -202,7 +202,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Understood. I'll also add the key takeaway to the executive summary — something like: the key takeaway from this report is that engagement was strong but conversion needs urgent attention before the next campaign.",
     },
   ],

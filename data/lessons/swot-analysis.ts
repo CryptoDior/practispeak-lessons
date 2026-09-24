@@ -6,7 +6,7 @@ export const swotAnalysis: Lesson = {
   subtitle: 'How to run, present, and act on a SWOT — the most used strategy tool in marketing',
   level: 'B1-B2',
   description: 'A SWOT analysis is one of the first things any marketing team does before planning a campaign or entering a new market. In this lesson you will learn the vocabulary for running and presenting a SWOT — and how to turn the findings into real marketing decisions, not just a slide that gets filed away.',
-  heroImage: '/images/swot-analysis-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/swot-analysis-hero.png',
 
   vocabulary: [
     {
@@ -112,7 +112,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Thank you for making the time. I want to walk you through the SWOT analysis before we finalise the Q4 strategy — because the findings change the direction significantly.',
     },
     {
@@ -124,7 +124,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Two major [[strength:an internal advantage you can build strategy around]] areas. First: your 98% retention rate — that is well above the industry [[benchmark:a standard used to compare performance]] of 82%. Second: your average ROI for clients in the manufacturing sector is 340% in the first year. Both are provable and specific. These are not marketing claims — they are facts.',
     },
     {
@@ -136,7 +136,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The main [[weakness:an internal gap to fix or work around]] is brand awareness — almost nobody in your target market has heard of TechFlow. The second is that all your case studies are from two clients. That is a [[weakness:something that puts you at a disadvantage]] in enterprise sales where buyers want to see a broad portfolio of evidence.',
     },
     {
@@ -148,7 +148,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'A significant one. Your main competitor raised prices by 30% last month. We have already spoken to three of their clients who are actively looking for alternatives. That is a narrow window — we need to [[capitalise on:act quickly on a market opportunity]] it this quarter before they respond.',
     },
     {
@@ -160,7 +160,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'A well-funded new entrant launched in September with aggressive pricing and a large LinkedIn ad budget. The best way to [[guard against:take proactive steps to reduce the impact of a risk]] them is to stop competing on price entirely and compete on proof. They have money — you have results. Use the [[competitive landscape:the full picture of who competitors are and what they offer]] to your advantage.',
     },
     {
@@ -172,7 +172,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The retention rate and the ROI numbers are your shield. Every piece of content [[builds on:uses an existing advantage as the foundation]] those two facts. To [[mitigate:reduce the impact of a risk or weakness]] the brand awareness weakness, we run a focused three-month LinkedIn campaign. And to [[capitalise on:act quickly on an opportunity]] the competitor's price increase, we launch a direct comparison campaign — 'What does 30% more cost actually get you?' — in October.",
     },
     {
@@ -184,7 +184,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "One priority: use TechFlow's provable results to [[turn the awareness weakness into an opportunity]] — become the most trusted name in operational efficiency in manufacturing by the end of Q1. Everything in the strategy connects to that.",
     }
   ],

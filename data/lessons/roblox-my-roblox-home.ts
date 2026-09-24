@@ -14,56 +14,56 @@ export const robloxMyRobloxHome: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The first page you see when you open Roblox. Everything starts here!',
       example: 'When I open Roblox, the home page shows my favourite games.',
-      imageSlug: '/images/roblox-my-roblox-home-home-page.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-home-page.png',
     },
     {
       word: 'LOBBY',
       partOfSpeech: 'noun',
       definition: 'A waiting area inside a game where you wait before the round starts.',
       example: 'I am in the lobby — the game starts in 10 seconds!',
-      imageSlug: '/images/roblox-my-roblox-home-lobby.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-lobby.png',
     },
     {
       word: 'MENU',
       partOfSpeech: 'noun',
       definition: 'A list of buttons that lets you do things, like change settings or leave the game.',
       example: 'Press Escape to open the menu and change the music volume.',
-      imageSlug: '/images/roblox-my-roblox-home-menu.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-menu.png',
     },
     {
       word: 'BUTTON',
       partOfSpeech: 'noun',
       definition: 'Something you press or click to make something happen in the game.',
       example: 'Click the green Play button to start the game!',
-      imageSlug: '/images/roblox-my-roblox-home-button.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-button.png',
     },
     {
       word: 'NOTIFICATION',
       partOfSpeech: 'noun',
       definition: 'A little message that tells you something new happened — like a friend joined!',
       example: 'I got a notification — LeoStars08 sent me a friend request!',
-      imageSlug: '/images/roblox-my-roblox-home-notification.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-notification.png',
     },
     {
       word: 'FRIENDS LIST',
       partOfSpeech: 'noun',
       definition: 'A list of all the people you play Roblox with.',
       example: 'I checked my friends list and saw that Mia is online right now!',
-      imageSlug: '/images/roblox-my-roblox-home-friends-list.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-friends-list.png',
     },
     {
       word: 'SEARCH BAR',
       partOfSpeech: 'noun',
       definition: 'A box where you type words to find games or players on Roblox.',
       example: 'I typed "obby" in the search bar and found 100 great games!',
-      imageSlug: '/images/roblox-my-roblox-home-search-bar.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-search-bar.png',
     },
     {
       word: 'GAMES TAB',
       partOfSpeech: 'noun',
       definition: 'The place on the home page where you can find and pick new games to play.',
       example: 'Click the Games tab to see what is popular today.',
-      imageSlug: '/images/roblox-my-roblox-home-games-tab.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-games-tab.png',
     },
   ],
 
@@ -73,56 +73,56 @@ export const robloxMyRobloxHome: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The first page you see when you open an app or website — like the front page of YouTube.',
       example: 'The YouTube home page shows videos it thinks you will like.',
-      imageSlug: '/images/roblox-my-roblox-home-home-page-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-home-page-irl.png',
     },
     {
       word: 'WAITING ROOM',
       partOfSpeech: 'noun',
       definition: 'A room where you sit and wait before something starts — like at the doctor or dentist.',
       example: 'I sat in the waiting room for ten minutes before my name was called.',
-      imageSlug: '/images/roblox-my-roblox-home-waiting-room-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-waiting-room-irl.png',
     },
     {
       word: 'MENU',
       partOfSpeech: 'noun',
       definition: 'A list of things to choose from — like a restaurant menu or the settings menu on your phone.',
       example: 'The restaurant menu had pizza, pasta, and salad. I chose pizza!',
-      imageSlug: '/images/roblox-my-roblox-home-menu-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-menu-irl.png',
     },
     {
       word: 'BUTTON',
       partOfSpeech: 'noun',
       definition: 'Something you press to make something happen — like a lift button or a doorbell.',
       example: 'I pressed the lift button and waited for the doors to open.',
-      imageSlug: '/images/roblox-my-roblox-home-button-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-button-irl.png',
     },
     {
       word: 'NOTIFICATION',
       partOfSpeech: 'noun',
       definition: 'A little pop-up or sound on your phone that tells you something new happened.',
       example: 'I got a notification from my school app — homework is due tomorrow!',
-      imageSlug: '/images/roblox-my-roblox-home-notification-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-notification-irl.png',
     },
     {
       word: 'CONTACT LIST',
       partOfSpeech: 'noun',
       definition: 'A list of people saved on your phone — like mum, dad, and your friends.',
       example: "I found my friend's number in my contact list and called her.",
-      imageSlug: '/images/roblox-my-roblox-home-contact-list-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-contact-list-irl.png',
     },
     {
       word: 'SEARCH BAR',
       partOfSpeech: 'noun',
       definition: 'A box on a phone or computer where you type words to find something.',
       example: 'I typed "funny cats" in the search bar and found loads of videos!',
-      imageSlug: '/images/roblox-my-roblox-home-search-bar-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-search-bar-irl.png',
     },
     {
       word: 'CATEGORY',
       partOfSpeech: 'noun',
       definition: 'A group of things that belong together — like "sport", "music", or "cooking" on a website.',
       example: 'I clicked the Sport category on the news website to read football stories.',
-      imageSlug: '/images/roblox-my-roblox-home-category-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-category-irl.png',
     },
   ],
 
@@ -133,7 +133,7 @@ export const robloxMyRobloxHome: Lesson = {
       example: "Where is the search bar? I can't find it!",
       inGame: 'Where is the friends list? I want to see who is online.',
       inRealLife: "Where is the search bar on this website? I can't find it.",
-      imageSlug: '/images/roblox-my-roblox-home-where-is-the.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-where-is-the.png',
     },
     {
       phrase: 'CLICK ON...',
@@ -141,7 +141,7 @@ export const robloxMyRobloxHome: Lesson = {
       example: 'Click on the Play button to start the game.',
       inGame: 'Click on the Games tab to find something new to play.',
       inRealLife: 'Click on the search bar and type what you are looking for.',
-      imageSlug: '/images/roblox-my-roblox-home-click-on.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-click-on.png',
     },
     {
       phrase: 'GO TO THE MENU',
@@ -149,7 +149,7 @@ export const robloxMyRobloxHome: Lesson = {
       example: 'Go to the menu and turn the music off.',
       inGame: 'Go to the menu if you want to leave the game.',
       inRealLife: 'Go to the settings menu on your phone to change the ringtone.',
-      imageSlug: '/images/roblox-my-roblox-home-go-to-the-menu.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-go-to-the-menu.png',
     },
     {
       phrase: "I'M IN THE LOBBY",
@@ -157,7 +157,7 @@ export const robloxMyRobloxHome: Lesson = {
       example: "I'm in the lobby — join me before the game starts!",
       inGame: "I'm in the lobby. Hurry up, the round starts in 30 seconds!",
       inRealLife: "I\'m in the waiting room at the doctor's. It is very quiet here.",
-      imageSlug: '/images/roblox-my-roblox-home-im-in-the-lobby.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-im-in-the-lobby.png',
     },
     {
       phrase: 'SEARCH FOR...',
@@ -165,7 +165,7 @@ export const robloxMyRobloxHome: Lesson = {
       example: 'Search for "obby" to find fun jumping games.',
       inGame: 'Search for my username — LeoStars08 — and add me!',
       inRealLife: 'Search for "easy recipes" on YouTube to find cooking videos.',
-      imageSlug: '/images/roblox-my-roblox-home-search-for.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-search-for.png',
     },
     {
       phrase: 'I GOT A NOTIFICATION',
@@ -173,7 +173,7 @@ export const robloxMyRobloxHome: Lesson = {
       example: 'I got a notification — someone liked my game!',
       inGame: 'I got a notification that my friend is now online!',
       inRealLife: 'I got a notification from school — there is no homework today!',
-      imageSlug: '/images/roblox-my-roblox-home-i-got-a-notification.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-i-got-a-notification.png',
     },
   ],
 
@@ -183,7 +183,7 @@ export const robloxMyRobloxHome: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, I just downloaded Roblox! What do I do first? I see a [[home page:the first page that shows your games and friends]] but I don't understand it.",
     },
     {
@@ -195,7 +195,7 @@ export const robloxMyRobloxHome: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: 'I typed it and found so many games! I clicked Play. Now I see a room with other players but the game has not started.',
     },
     {
@@ -207,7 +207,7 @@ export const robloxMyRobloxHome: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: 'Yes! I saw it at the top of my screen. I pressed the little bell icon. How do I accept it?',
     },
     {
@@ -219,7 +219,7 @@ export const robloxMyRobloxHome: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: 'Done! Now I can see you in my friends list. Also, I pressed something and a [[menu:a list of buttons and settings]] opened. How do I close it?',
     },
     {
@@ -231,7 +231,7 @@ export const robloxMyRobloxHome: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: 'Got it! And on the home page I see tabs at the top — what is the [[games tab:the section where you find and pick new games]]?',
     },
     {

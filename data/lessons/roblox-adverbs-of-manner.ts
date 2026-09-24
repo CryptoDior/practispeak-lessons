@@ -172,7 +172,7 @@ export const robloxAdverbsOfManner: Lesson = {
       example: "The team pushed forward aggressively in the final two minutes, gaining enough ground to secure the win.",
       inGame: "When you have the momentum, push forward — do not give the other team time to reorganise their defence.",
       inRealLife: "Despite the delays, she pushed the project forward and delivered on the original deadline.",
-      imageSlug: '/images/roblox-adverbs-of-manner-push-forward.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adverbs-of-manner-push-forward.png',
     },
     {
       phrase: "SLOW DOWN",
@@ -220,7 +220,7 @@ export const robloxAdverbsOfManner: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "What did you notice specifically?",
     },
     {
@@ -232,7 +232,7 @@ export const robloxAdverbsOfManner: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is a very precise observation. And you are right — and honestly, the combination works well. When I push [[aggressively:with force and intensity]] and you respond [[patiently:in a calm, steady way without rushing]], it creates pressure from two directions that is hard to defend against.",
     },
     {
@@ -244,7 +244,7 @@ export const robloxAdverbsOfManner: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I saw that. The thing is — you were doing everything else [[efficiently:maximising results with minimum wasted effort]] and then one careless moment undid it. The best players are those who play [[consistently:reliably, to the same standard every time]] — not brilliantly sometimes and carelessly other times.",
     },
     {
@@ -256,7 +256,7 @@ export const robloxAdverbsOfManner: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. And when something goes wrong, the best response is not to play more [[aggressively:with force and intensity]] — it is to step back, slow down, and reset. Then [[decisively:with clear, confident action]] move into the next phase when the moment is right.",
     },
     {
@@ -268,7 +268,7 @@ export const robloxAdverbsOfManner: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is exactly it. The adverb changes everything. Playing [[competitively:focused on winning and outperforming]] is always the mindset — but how you compete depends on reading the situation correctly.",
     },
   ],

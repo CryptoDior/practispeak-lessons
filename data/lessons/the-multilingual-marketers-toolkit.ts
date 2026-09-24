@@ -6,7 +6,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
   subtitle: 'How to manage language, translation, and cross-market communication at a professional level',
   level: 'C1-C2',
   description: 'Global brands communicate in dozens of languages — but great multilingual marketing goes far beyond hiring a translator. It requires understanding when to transcreate rather than translate, how to brief a linguistic team, how to audit language quality across markets, and how to ensure the emotional impact of your message survives the journey from one language to another. This lesson gives you the vocabulary and frameworks used by senior global marketers managing language at scale.',
-  heroImage: '/images/the-multilingual-marketers-toolkit-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-multilingual-marketers-toolkit-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "For some of it, yes. But the strapline and body copy are too creative for direct translation — they need [[transcreation:recreating a message in another language so it has the same emotional effect]]. The wordplay and the cultural references won't survive a literal translation.",
     },
     {
@@ -130,7 +130,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Everything goes in a [[localisation brief:a document explaining intent, tone, and cultural context for adapting content to a new market]]. The brand [[tone of voice:the brand's character and style expressed in language]], the emotional response we're trying to create, which phrases are locked and can't be changed, and which cultural references to avoid. Don't send them a Word document and hope for the best.",
     },
     {
@@ -142,7 +142,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "No — use the [[brand glossary:a controlled list of approved translations for key brand terms]]. Every approved translation for product names and brand terms is in there. Every translation agency uses the same glossary. If it's not in the glossary, come to me before deciding — not after.",
     },
     {
@@ -154,7 +154,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Unless you're fluent in German, reading it won't tell you much. Run a [[back-translation:translating the translated version back into the original language to check accuracy]] to check. If the back-translation matches the original brief, the German version is probably fine. If it doesn't, something has drifted.",
     },
     {
@@ -166,7 +166,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Find the [[cultural equivalence:finding a reference in the target culture that creates the same meaning as the original]]. In Japan, the commute is actually a much bigger part of daily life than in London — so it might land even better. But the way you show it needs to match the Japanese visual norm for commuting. Ask the Tokyo team.",
     },
     {
@@ -178,7 +178,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's exactly why we audit. Update those markets immediately and make sure the new name is in the [[multilingual style guide:a document defining how the brand should be written in each language]]. If it's not documented, it won't stick.",
     }
   ],

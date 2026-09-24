@@ -213,7 +213,7 @@ export const robloxEmphaticStructures: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That review session was rough. Everyone kept missing the main point about what went wrong.",
     },
     {
@@ -225,7 +225,7 @@ export const robloxEmphaticStructures: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Cleft sentences. Instead of 'The lag ruined the match,' you say: It was [[crucial:very important — something that really matters]] — 'It's the lag that ruined the match.' The IT IS + THAT structure puts the key idea in the spotlight.",
     },
     {
@@ -237,7 +237,7 @@ export const robloxEmphaticStructures: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. And there is a second type. Instead of 'I really love the team strategy,' you say: 'What I really love is the team strategy.' The WHAT + IS structure does the same thing — it puts the focus at the end, after IS.",
     },
     {
@@ -249,7 +249,7 @@ export const robloxEmphaticStructures: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Try: 'It's the communication that made the difference — not individual skill.' The IT-CLEFT lets you [[contrast:show a clear difference between two things]] the two ideas directly.",
     },
     {
@@ -261,7 +261,7 @@ export const robloxEmphaticStructures: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "With people, use WHO instead of THAT: 'It was Leo who noticed the pattern first, not the captain.' That [[highlight:points to one specific important thing]]s exactly the right person.",
     },
     {
@@ -273,7 +273,7 @@ export const robloxEmphaticStructures: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "'What we need is better coordination in the final round.' WHAT + WE NEED + IS + the thing you need. This is the WH-cleft — it [[clarify:makes things easier to understand]]s exactly what the need is. The whole thing [[boil down to:reduces to its most basic point]]s to one thing: cleft sentences put the most important word in the strongest position.",
     },
   ],

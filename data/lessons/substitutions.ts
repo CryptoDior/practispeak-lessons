@@ -61,7 +61,7 @@ export const substitutions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The effect a substitute has on the match — how much they change things when they come on.',
       example: 'The substitute made an immediate impact — scoring within five minutes of coming on.',
-      imageSlug: '/images/substitutions-impact.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/substitutions-impact.png',
     },
     {
       word: 'BENCH',

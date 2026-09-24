@@ -6,7 +6,7 @@ export const brandStorytelling: Lesson = {
   subtitle: 'How to use narrative to make your brand memorable — and turn client results into stories people actually want to share',
   level: 'B1-B2',
   description: 'Facts tell, stories sell. In B2B marketing, the brands that win are not always the ones with the best product — they are the ones who can tell the most compelling story about what they do and who they help. In this lesson you will learn how to structure a brand story, use the key language of narrative, and turn a client result into something your audience will remember.',
-  heroImage: '/images/brand-storytelling-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-storytelling-hero.png',
 
   vocabulary: [
     {
@@ -21,7 +21,7 @@ export const brandStorytelling: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The central character in a marketing story — in B2B, the hero is almost always the client, not the brand.',
       example: 'The biggest mistake in brand storytelling is making the brand the hero. Your client is the hero — they faced a challenge, they made a decision, and they achieved a result. Your brand is the tool that helped them get there.',
-      imageSlug: '/images/brand-storytelling-hero.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-storytelling-hero.png',
     },
     {
       word: 'CONFLICT',
@@ -112,7 +112,7 @@ export const brandStorytelling: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Marcus — I want to be honest about something. TechFlow has extraordinary results — 22% cost reduction, 67 days, zero redundancies. But right now, no one is reading about them. Do you know why?',
     },
     {
@@ -124,7 +124,7 @@ export const brandStorytelling: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "It is not a reach problem — it is a [[narrative:the story that runs through all your marketing]] problem. The case study on your website leads with TechFlow's features. The [[hero:the central character the audience connects with]] of the story is TechFlow. But your audience — operations directors under pressure — does not connect with a platform. They connect with a person in a situation they recognise.",
     },
     {
@@ -136,7 +136,7 @@ export const brandStorytelling: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Exactly. The story should start with the [[conflict:the problem or challenge the hero has to overcome]] — Claire, 90 days, 20% cost target, 40 jobs at risk. That is the tension that [[draws:captures the audience's attention]] the reader in. Once they recognise that situation, they will read everything.",
     },
     {
@@ -148,7 +148,7 @@ export const brandStorytelling: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: '67 days. 22% cost reduction. Zero redundancies. Those are the [[proof point:specific verifiable evidence that supports the story]] — and they are exceptional. But right now they are buried on page three of a PDF no one is reading. The [[resolution:how the hero overcame the conflict]] needs to be on line one of the LinkedIn post — then people click through to read how it happened.',
     },
     {
@@ -160,7 +160,7 @@ export const brandStorytelling: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "It is the most important part. The [[emotional appeal:connection with feelings as well as logic]] in this story is not the 22% — it is the relief of not having to make redundancies. When an operations director reads 'zero redundancies', they feel something — because that is the thing they are most afraid of. That [[emotional appeal:emotional connection]] is what makes the [[transformation:the change the hero goes through from before to after]] feel real.",
     },
     {
@@ -172,7 +172,7 @@ export const brandStorytelling: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "TechFlow's [[brand story:overarching narrative]] is: 'We exist so that operations directors never have to choose between cutting costs and keeping their team.' Claire's story [[brings that to life:makes the narrative vivid and real]]. The numbers [[back up:support a claim with verifiable proof]] the story. Together, they are the most powerful marketing asset TechFlow has — and right now, almost no one is seeing them.",
     }
   ],

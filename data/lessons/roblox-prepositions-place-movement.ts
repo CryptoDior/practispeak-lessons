@@ -206,7 +206,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, quick — I am guiding you through the dungeon on voice chat. Can you hear me?",
     },
     {
@@ -218,7 +218,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Run [[across:from one side to the other of]] the stone bridge first — do not stop, there are archers on both sides.",
     },
     {
@@ -230,7 +230,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Grab the health pack — it is sitting [[between:in the space separating]] the two pillars. Then go toward the far wall.",
     },
     {
@@ -242,7 +242,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Drop down to it — the hidden vault entrance is [[beneath:below]] the main platform. Walk [[along:following the length of]] the far wall until you see the blue door.",
     },
     {
@@ -254,7 +254,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Stay [[within:inside the boundaries of]] the shadow zone — they cannot see you there. Wait for them to move [[beyond:to the other side of]] the pillar, then sprint to the door.",
     },
     {

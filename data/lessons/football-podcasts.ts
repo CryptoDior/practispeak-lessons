@@ -97,7 +97,7 @@ export const footballPodcasts: Lesson = {
       phrase: 'BACK UP',
       definition: 'To support a claim with evidence — to provide reasons or statistics to prove your point.',
       example: '"You can\'t just say he\'s the worst signing ever — back it up with some numbers."',
-      imageSlug: '/images/football-podcasts-back-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/football-podcasts-back-up.png',
     },
     {
       phrase: 'COME AROUND TO',

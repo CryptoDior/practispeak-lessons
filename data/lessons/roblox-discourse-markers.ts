@@ -219,7 +219,7 @@ export const robloxDiscourseMarkers: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Discourse markers. These are the words that signal the structure of your argument. They tell your listener where you are and what kind of point comes next.",
     },
     {
@@ -231,7 +231,7 @@ export const robloxDiscourseMarkers: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Start with FIRSTLY. 'Firstly, our defensive record improved in every round this season.' The listener immediately knows more points are coming.",
     },
     {
@@ -243,7 +243,7 @@ export const robloxDiscourseMarkers: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. And to add a point that strengthens it: '[[furthermore:also — used to add another point that makes your argument stronger]], communication in the final phase was much better than last season.' FURTHERMORE tells them you are adding weight to the same argument.",
     },
     {
@@ -255,7 +255,7 @@ export const robloxDiscourseMarkers: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "'[[however:but — used to introduce a contrasting idea or a complication]], the mid-season period was more difficult.' HOWEVER tells them: I'm about to change direction. '[[consequently:as a result — used to show one thing caused another]], the team had to adapt their approach significantly.' CONSEQUENTLY shows the result of what you just said.",
     },
     {
@@ -267,7 +267,7 @@ export const robloxDiscourseMarkers: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "'The early matches were inconsistent. [[in contrast:used to compare two things that are clearly different]], the final three rounds were some of our strongest performances of the year.' And when you're done: '[[to sum up:to give a short summary at the end]], this was a season of real growth.' Perfect ending.",
     },
     {
@@ -279,7 +279,7 @@ export const robloxDiscourseMarkers: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "NEVERTHELESS is great for exactly that. The key rule: don't stack them. Pick one marker per point — don't say 'but however on the other hand.' Choose one, use it clearly, and [[move on to:go from one topic or point to the next]] the next idea.",
     },
   ],

@@ -6,7 +6,7 @@ export const complexDataStorytelling: Lesson = {
   subtitle: "How to turn data into a story that drives decisions — not just a chart that fills a slide",
   level: 'C1-C2',
   description: "Data does not speak for itself. The best marketers and strategists know how to take a complex set of numbers and build a story around them — one that makes the insight clear, the implication obvious, and the decision easy. This lesson teaches the language and frameworks behind data storytelling at a senior level: how to structure a narrative around data, how to make your 'so what' land, and how to present evidence in a way that moves people to act.",
-  heroImage: '/images/complex-data-storytelling-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/complex-data-storytelling-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Delete 35 of them. A board does not want 40 slides of data — they want a [[data narrative:the story built around data that connects numbers, insights, and implications into a clear conclusion]]. What is the one thing you want them to believe when you finish?",
     },
     {
@@ -130,7 +130,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good — that is your [[headline metric:the single most important number that summarises the state of a business or campaign]]. Lead with it. Let me give you the headline first: our monthly churn is 5% — more than double the industry average. Everything else supports that.",
     },
     {
@@ -142,7 +142,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes. Recommendation first. Then the three insights that support it. Then the data underneath each insight. Board members are busy — they want the answer before the evidence.",
     },
     {
@@ -154,7 +154,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good [[inference:a conclusion drawn from data — going beyond what numbers say to explain what they mean]]. But be careful — we need to be careful about [[correlation vs causation:the difference between two things happening at the same time and one thing causing the other]] here. Was there another factor in Q3? Acknowledge the hypothesis, but do not overclaim.",
     },
     {
@@ -166,7 +166,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is [[benchmarking:comparing your results to an external standard like an industry average or competitor]]. Use the phrase: 'to put that in context — the industry average is 2%, we are at 5%'. Context is what makes a number urgent instead of just interesting.",
     },
     {
@@ -178,7 +178,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "No. Tables are for reading, not presenting. Use one number or one chart per slide. The story the data is telling us should be visible in under five seconds. If someone needs to read a table to understand it, the slide has failed.",
     },
     {
@@ -190,7 +190,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "End with the [[so what:the question that turns a data point into an insight — why does this number matter and what should we do]]. What this means for the business is: we need an extra £200k in retention investment now, or we will spend £800k replacing those customers next year. That is your close.",
     }
   ],

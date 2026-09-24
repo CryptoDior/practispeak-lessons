@@ -183,7 +183,7 @@ export const robloxMakingPlansToPlay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia! What are your plans for this weekend? Are you [[going to:a plan you have already decided]] play the new tournament?",
     },
     {
@@ -195,7 +195,7 @@ export const robloxMakingPlansToPlay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The [[plan:an idea about what you will do]] is to start at 7 PM Saturday. We are going to meet in the lobby first. Count me in — are you joining?",
     },
     {
@@ -207,7 +207,7 @@ export const robloxMakingPlansToPlay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "No problem! I [[will:a quick decision right now]] save your spot. The new map is coming [[soon:in a short time from now]] too — are you going to try it?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxMakingPlansToPlay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "In real life too — what are your plans for the holiday? Are you going to go anywhere?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxMakingPlansToPlay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Nice! I am [[going to:a plan already decided]] stay home and rest. But I will let you know if the plans change. We can always play online!",
     },
     {

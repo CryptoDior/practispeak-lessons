@@ -6,7 +6,7 @@ export const marketingBudgets: Lesson = {
   subtitle: 'How to plan, justify, and defend your marketing spend in a meeting — with language that makes finance and leadership take you seriously',
   level: 'B1-B2',
   description: "Getting budget approved is not just a numbers game — it is a communication skill. Finance teams and senior leadership don't just want to see where the money goes; they want to understand why each line item is there, what return it is expected to generate, and what the cost of not spending would be. This lesson teaches you the vocabulary of marketing budget management and the professional language to defend your spend confidently in meetings, reviews, and approval conversations.",
-  heroImage: '/images/marketing-budgets-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-budgets-hero.png',
 
   vocabulary: [
     {
@@ -160,7 +160,7 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Thank you for making time. I want to walk you through the Q4 marketing budget — not just the numbers, but the rationale behind each major line. Every item in this budget is tied to a specific outcome.',
     },
     {
@@ -172,19 +172,19 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Total budget: £480,000. Forecast: 180 MQLs, 65 SQLs, and approximately £420,000 in pipeline. That's based on our historical conversion rates and the channel mix I've proposed.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "What's the largest single [[allocation:how the total budget is divided and assigned to different activities]]?",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Demand generation at £216,000 — 45% of the total. Historically our highest-returning activity. Last quarter's demand gen budget generated a 5.7x [[ROI:Return on Investment — revenue generated relative to money spent]]. This quarter's target is consistent with that.",
     },
     {
@@ -196,19 +196,19 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I can justify every line item. Last year's event generated 23 SQLs at an average deal value of £8,500. That's £195,000 in pipeline from a £40,000 investment. Our [[cost-per-acquisition:the average amount spent to acquire one new customer, also called CPA]] through events is £1,740 — significantly lower than our paid media CPA of £3,200.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "What about the Q3 [[variance:the difference between budgeted and actual results]]? We overspent paid media by £32,000 and didn't hit the MQL target. How does that affect the Q4 plan?",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The Q3 variance was driven by a platform algorithm change in October. We've already responded — we shifted 40% of the paid budget to content and email, which are lower [[cost-per-acquisition]] channels. The Q4 plan reflects that rebalancing.",
     },
     {
@@ -220,19 +220,19 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "If we cut this, here's what we lose. Content is currently generating 45 organic MQLs per quarter at a CPA of £190 — our most efficient channel. A 20% cut reduces that to approximately 36 MQLs. We'd have to replace those 9 leads through paid at £3,200 each — which costs £28,800 to replace £16,000 of content spend. The cut makes the overall budget less efficient.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "What about the [[headroom:the amount of budget remaining available — the difference between allocated and committed spend]]? There's £18,000 left over from the cancelled trade event.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I've ring-fenced that for content amplification — paid distribution for the top-performing organic content. If we return it now, we won't see it again until next year. Investing it in content amplification is a better use given where Q4 sits in the funnel.",
     },
     {
@@ -244,7 +244,7 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We're proposing a reallocation, not a cut. If there's pressure to reduce the total, I'd suggest reducing the brand awareness spend by £15,000 — that's the line with the longest payback period — and redirecting it to demand gen where we have a proven 5.7x return. We don't lose pipeline; we just delay the brand work to Q1.",
     },
     {

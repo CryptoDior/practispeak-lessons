@@ -6,7 +6,7 @@ export const seoAndSem: Lesson = {
   subtitle: 'The language of search marketing — how to talk about organic and paid search',
   level: 'B1-B2',
   description: "Search marketing is one of the most important channels in digital marketing. SEO — Search Engine Optimisation — focuses on getting your website to appear in search results without paying. SEM — Search Engine Marketing — uses paid ads to appear at the top of search results. Both require a specific vocabulary that marketing professionals use every day. This lesson teaches you the core language of search marketing so you can discuss strategy, review results, and work confidently with your team in English.",
-  heroImage: '/images/seo-and-sem-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/seo-and-sem-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Organic traffic is growing — up 18% compared to last quarter. We are ranking on page one for six keywords. Our best position is number three for 'marketing automation for agencies', which brings in around 250 organic visits per month.",
     },
     {
@@ -130,7 +130,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "About 85,000 organic impressions — so people are seeing us in search results. But our [[click-through rate:the percentage of people who saw your result and clicked it]] is only 1.4%, which means very few people are actually clicking through.",
     },
     {
@@ -142,7 +142,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Partly — many of our rankings are on page one but in the lower positions. Also, our meta descriptions are weak — they do not give people a reason to click. I want to rewrite them to be more specific and compelling.",
     },
     {
@@ -154,7 +154,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We are spending £4,000 per month across 25 keywords. Our average cost per click is £5 but for our top keyword it is £9.40 — above target. Our [[ad rank:your position in the paid search results]] dropped from one to three last week because a competitor increased their bid.",
     },
     {
@@ -166,7 +166,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Two things. First, improve our quality score — a better ad and a more relevant landing page can improve our position without a higher bid. Second, we should bid on more [[long-tail keyword:a specific search phrase with three or more words]]s — less competition, lower cost, and higher intent.",
     },
     {
@@ -178,7 +178,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I know — that is a priority fix. The landing page needs to match the ad. Our ad promises a free trial, so the landing page should be a dedicated free trial sign-up page with no distractions. I am building it this week.",
     },
     {
@@ -190,7 +190,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The click-through rate on this ad is 1.8% — below our target of 3%. I want to test a new headline that is more specific. 'Improve your marketing' is too vague. I am testing 'Get 30% more leads in 90 days' as an alternative.",
     },
     {
@@ -202,7 +202,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We should bid on 15 new long-tail keywords — things like 'email marketing software for B2B teams' and 'best marketing automation for agencies'. The cost per click for those keywords is around £2.50 — much cheaper than our current broad terms, and the people searching are much more likely to convert.",
     },
   ],

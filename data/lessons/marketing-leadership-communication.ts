@@ -6,7 +6,7 @@ export const marketingLeadershipCommunication: Lesson = {
   subtitle: 'How to speak with authority, build credibility, and communicate like a senior marketing leader',
   level: 'C1-C2',
   description: 'At C-suite level, how you say something matters as much as what you say. Senior marketing leaders are expected to speak with confidence, back their ideas with a clear narrative, and project the kind of presence that makes people listen. This lesson teaches the language of executive communication — how to build gravitas, shape a compelling narrative, and position yourself as a thought leader in any room.',
-  heroImage: '/images/marketing-leadership-communication-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-leadership-communication-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good that you are starting early. First question: what is the [[executive narrative:the story a senior leader tells to explain the direction and purpose of a strategy]] you want them to leave the room with?",
     },
     {
@@ -130,7 +130,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Frame it as an evolution, not a critique. Say: the narrative we are building is one of maturity. We have proven we can sell a product. Now we are building a brand that sells itself.",
     },
     {
@@ -142,7 +142,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Open with a pause. Walk to the front, look at the room, and say: Let me take you through our thinking on this. No apology, no 'thanks for having me'. Just begin. That is [[gravitas:a serious quality that commands attention and respect]].",
     },
     {
@@ -154,7 +154,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Have your numbers ready. When challenged, do not get defensive. Say: What that means for us strategically is that brand investment pays back over 18 months, not 18 days. Here is the data.",
     },
     {
@@ -166,7 +166,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Then you use [[authority:the confidence to lead or speak on a subject without being defensive]]. Say: Let me push back on that slightly — cutting brand now will cost us three times as much to rebuild in two years. Here is the evidence from the last cycle.",
     },
     {
@@ -178,7 +178,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is exactly when your [[thought leadership:being known for original ideas that move the conversation forward]] matters most. You were hired for your point of view. They do not need agreement — they need someone who will tell them the truth.",
     },
     {
@@ -190,7 +190,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Close with your [[vision:a clear picture of where you want to go that others can follow]]. Say: My recommendation is that we approve the brand investment for Q1 and review performance in 90 days. Then stop. Do not fill the silence.",
     },
     {
@@ -202,7 +202,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It gets easier. The leaders who fill every silence are the ones who seem uncertain. The ones who sit in it are the ones who seem like they know exactly what they are doing.",
     }
   ],

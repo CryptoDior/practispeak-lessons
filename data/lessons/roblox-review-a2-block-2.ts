@@ -35,7 +35,7 @@ export const robloxReviewA2Block2: Lesson = {
       partOfSpeech: 'verb',
       definition: "Like one thing more than another — you choose this one over that one.",
       example: "I prefer solo games — I like playing on my own more than in a big team.",
-      imageSlug: '/images/roblox-review-a2-block-2-prefer.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-a2-block-2-prefer.png',
     },
     {
       word: 'LAG',
@@ -183,7 +183,7 @@ export const robloxReviewA2Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia! We finished A2 Block 2! Let us test everything we learned. [[Want to team up:ask someone to play as a team]]? I will ask you questions and you answer — deal?",
     },
     {
@@ -195,7 +195,7 @@ export const robloxReviewA2Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "OK! Question one — do you [[prefer:like one more than another]] playing alone or [[together:you and another person at the same time]] with friends?",
     },
     {
@@ -207,7 +207,7 @@ export const robloxReviewA2Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Good! Next — tell me a short Roblox story using FIRST, THEN, SUDDENLY, and FINALLY.",
     },
     {
@@ -219,7 +219,7 @@ export const robloxReviewA2Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Perfect story! Now — [[if:when this happens, that will happen]] the game starts to [[lag:the game is slow]] badly, what do you do? And what words do you use to tell me?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxReviewA2Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Great! Last one — [[what do you think:ask for their opinion]] about Roblox Studio? [[Can:are you able to]] you [[build:make by putting parts together]] things in it yet?",
     },
     {

@@ -14,56 +14,56 @@ export const robloxWhenDoYouPlay: Lesson = {
       partOfSpeech: 'adverb',
       definition: "Every single time — no exceptions! If you ALWAYS play on Fridays, you never miss a Friday.",
       example: "I always play Roblox on Friday evening — it is my favourite time of the week!",
-      imageSlug: '/images/roblox-when-do-you-play-always.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-always.png',
     },
     {
       word: 'SOMETIMES',
       partOfSpeech: 'adverb',
       definition: "Not every time — just some of the time. Some days yes, some days no.",
       example: "I sometimes play in the morning if I wake up early, but not every day.",
-      imageSlug: '/images/roblox-when-do-you-play-sometimes.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-sometimes.png',
     },
     {
       word: 'NEVER',
       partOfSpeech: 'adverb',
       definition: "Zero times. Not at all. If you NEVER do something, you do not do it even once.",
       example: "I never play Roblox during class — my phone stays off at school!",
-      imageSlug: '/images/roblox-when-do-you-play-never.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-never.png',
     },
     {
       word: 'EVERY DAY',
       partOfSpeech: 'phrase',
       definition: "One time each day — all seven days of the week, without stopping.",
       example: "I log in every day to collect my daily reward — it only takes one minute!",
-      imageSlug: '/images/roblox-when-do-you-play-every-day.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-every-day.png',
     },
     {
       word: 'WEEKEND',
       partOfSpeech: 'noun',
       definition: "Saturday and Sunday — the two days when most students do not have school.",
       example: "I play Roblox all weekend — I have so much free time on Saturday and Sunday!",
-      imageSlug: '/images/roblox-when-do-you-play-weekend.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-weekend.png',
     },
     {
       word: 'AFTER SCHOOL',
       partOfSpeech: 'phrase',
       definition: "The time in the afternoon when school has finished for the day.",
       example: "I always do my homework first, then I play Roblox after school.",
-      imageSlug: '/images/roblox-when-do-you-play-after-school.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-after-school.png',
     },
     {
       word: 'TONIGHT',
       partOfSpeech: 'adverb',
       definition: "This evening — the night part of today, not yesterday or tomorrow.",
       example: "Are you free tonight? We can play Roblox together at 7pm!",
-      imageSlug: '/images/roblox-when-do-you-play-tonight.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-tonight.png',
     },
     {
       word: 'BREAK TIME',
       partOfSpeech: 'noun',
       definition: "A short rest during the school day when you can relax and do what you like.",
       example: "At break time I sometimes look at new Roblox games on my phone.",
-      imageSlug: '/images/roblox-when-do-you-play-break-time.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-break-time.png',
     },
   ],
 
@@ -73,56 +73,56 @@ export const robloxWhenDoYouPlay: Lesson = {
       partOfSpeech: 'adverb',
       definition: "Every time — you always do it, no matter what.",
       example: "I always say good morning to my teacher — every single day.",
-      imageSlug: '/images/roblox-when-do-you-play-always-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-always-irl.png',
     },
     {
       word: 'SOMETIMES',
       partOfSpeech: 'adverb',
       definition: "Not every time — just some days. Not always, not never — just a few times.",
       example: "I sometimes walk to school and sometimes take the bus — it depends on the weather.",
-      imageSlug: '/images/roblox-when-do-you-play-sometimes-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-sometimes-irl.png',
     },
     {
       word: 'NEVER',
       partOfSpeech: 'adverb',
       definition: "Not even one single time. The complete opposite of always.",
       example: "I never eat spicy food — it is way too hot for me!",
-      imageSlug: '/images/roblox-when-do-you-play-never-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-never-irl.png',
     },
     {
       word: 'EVERY DAY',
       partOfSpeech: 'phrase',
       definition: "Once each day — a daily habit that you do all seven days.",
       example: "I read for 20 minutes every day before I go to sleep.",
-      imageSlug: '/images/roblox-when-do-you-play-every-day-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-every-day-irl.png',
     },
     {
       word: 'WEEKEND',
       partOfSpeech: 'noun',
       definition: "Saturday and Sunday — two days for rest, family, and fun activities.",
       example: "My family goes to the park every weekend if the weather is nice.",
-      imageSlug: '/images/roblox-when-do-you-play-weekend-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-weekend-irl.png',
     },
     {
       word: 'AFTER SCHOOL',
       partOfSpeech: 'phrase',
       definition: "The time in the afternoon once school lessons are finished.",
       example: "I go to football training after school on Tuesdays.",
-      imageSlug: '/images/roblox-when-do-you-play-after-school-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-after-school-irl.png',
     },
     {
       word: 'TONIGHT',
       partOfSpeech: 'adverb',
       definition: "This evening — the night part of today that has not happened yet.",
       example: "I have a big test tomorrow so I am studying tonight.",
-      imageSlug: '/images/roblox-when-do-you-play-tonight-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-tonight-irl.png',
     },
     {
       word: 'BREAK',
       partOfSpeech: 'noun',
       definition: "A short time of rest during work or school — a pause before you continue.",
       example: "We have a 15-minute break in the middle of the school day.",
-      imageSlug: '/images/roblox-when-do-you-play-break-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-break-irl.png',
     },
   ],
 
@@ -133,7 +133,7 @@ export const robloxWhenDoYouPlay: Lesson = {
       example: "Do you want to play? I just found the best new obby — come join!",
       inGame: "Do you want to play tonight? I will be on at 7pm!",
       inRealLife: "Do you want to play football in the park after school?",
-      imageSlug: '/images/roblox-when-do-you-play-do-you-want-to-play.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-do-you-want-to-play.png',
     },
     {
       phrase: "NOT RIGHT NOW",
@@ -141,7 +141,7 @@ export const robloxWhenDoYouPlay: Lesson = {
       example: "Not right now — I have to finish my homework first!",
       inGame: "Not right now — I am on a really important part of the obby!",
       inRealLife: "Not right now — I am helping my mum with dinner.",
-      imageSlug: '/images/roblox-when-do-you-play-not-right-now.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-not-right-now.png',
     },
     {
       phrase: "SEE YOU TONIGHT!",
@@ -149,7 +149,7 @@ export const robloxWhenDoYouPlay: Lesson = {
       example: "See you tonight! We can jump on at 8pm and play together.",
       inGame: "See you tonight! Log in at 7 and I will send you the server link.",
       inRealLife: "See you tonight at the cinema! The film starts at 7:30.",
-      imageSlug: '/images/roblox-when-do-you-play-see-you-tonight.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-see-you-tonight.png',
     },
     {
       phrase: "HOW OFTEN DO YOU PLAY?",
@@ -157,7 +157,7 @@ export const robloxWhenDoYouPlay: Lesson = {
       example: "How often do you play? Every day, or just at weekends?",
       inGame: "How often do you play Roblox? I am on almost every day!",
       inRealLife: "How often do you go to the gym? Once a week or more?",
-      imageSlug: '/images/roblox-when-do-you-play-how-often.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-how-often.png',
     },
     {
       phrase: "I AM FREE!",
@@ -165,7 +165,7 @@ export const robloxWhenDoYouPlay: Lesson = {
       example: "I am free! My homework is done — let's play Roblox right now!",
       inGame: "I am free after 5pm — which server should I join?",
       inRealLife: "I am free this weekend — do you want to go to the cinema?",
-      imageSlug: '/images/roblox-when-do-you-play-i-am-free.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-i-am-free.png',
     },
     {
       phrase: "WHAT TIME IS IT?",
@@ -173,7 +173,7 @@ export const robloxWhenDoYouPlay: Lesson = {
       example: "What time is it? I promised my mum I would stop at 8pm!",
       inGame: "What time is it? I have been playing for two hours already!",
       inRealLife: "What time is it? I do not want to be late for the bus.",
-      imageSlug: '/images/roblox-when-do-you-play-what-time-is-it.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-what-time-is-it.png',
     },
   ],
 
@@ -183,7 +183,7 @@ export const robloxWhenDoYouPlay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, do you want to play Roblox [[tonight:this evening — the night part of today]]? I am free after 6pm!",
     },
     {
@@ -195,7 +195,7 @@ export const robloxWhenDoYouPlay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Perfect! How often do you play Roblox? I play [[every day:one time each day, all week]] — even just for 20 minutes!",
     },
     {
@@ -207,7 +207,7 @@ export const robloxWhenDoYouPlay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Same! Weekends are the best. Do you ever play during school? At [[break time:a short rest during the school day]], for example?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxWhenDoYouPlay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Me too! I never play in class either. My teacher would not be happy! I always do my homework first too.",
     },
     {
@@ -231,7 +231,7 @@ export const robloxWhenDoYouPlay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Ha! Yes — ALWAYS and NEVER are useful words in real life too. I never eat mushrooms. I sometimes walk to school. I always say hi to my teacher.",
     },
     {

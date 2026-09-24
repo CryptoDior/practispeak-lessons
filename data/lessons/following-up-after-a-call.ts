@@ -6,7 +6,7 @@ export const followingUpAfterACall: Lesson = {
   subtitle: 'How to reconnect professionally, recap key points, and keep the deal moving forward',
   level: 'B1-B2',
   description: 'Most deals are not won on the first call — they are won in the follow-up. A well-timed, well-structured follow-up shows the customer that you are organised, reliable, and genuinely interested in their decision. This lesson teaches you the language and structure you need to follow up with confidence — whether by phone or email — and how to use the follow-up to unblock objections and move the sale forward.',
-  heroImage: '/images/following-up-after-a-call-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/following-up-after-a-call-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const followingUpAfterACall: Lesson = {
       partOfSpeech: 'phrasal verb',
       definition: 'To contact someone again after a previous conversation in order to check progress, provide additional information, or move a decision forward. Always follow up — it signals professionalism and genuine interest.',
       example: "Riley did not wait for Marcus to call her. She followed up two days after the demo: Good morning, Marcus — I'm following up on our call from Tuesday. I wanted to check in on a couple of things.",
-      imageSlug: '/images/following-up-after-a-call-follow-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/following-up-after-a-call-follow-up.png',
     },
     {
       word: 'TOUCH BASE',
@@ -28,7 +28,7 @@ export const followingUpAfterACall: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To summarise the main points of a previous conversation. Recapping confirms shared understanding and reminds the customer of what was agreed — without making them re-read a long email.',
       example: 'Riley said: I wanted to quickly recap the key points from Tuesday — $35 per user, 10% off for the first three months, and a two-week implementation. Does everything still look right to you?',
-      imageSlug: '/images/following-up-after-a-call-recap.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/following-up-after-a-call-recap.png',
     },
     {
       word: 'OUTSTANDING',
@@ -49,7 +49,7 @@ export const followingUpAfterACall: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A promise or obligation made in a previous conversation. Referencing past commitments in your follow-up reminds both parties of what was agreed and keeps the conversation moving in the right direction.',
       example: 'Riley reminded Marcus of what had been agreed: As a follow-up to our call, I wanted to confirm the commitment we both made — you would share the proposal internally, and I would send the security documentation today.',
-      imageSlug: '/images/following-up-after-a-call-commitment.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/following-up-after-a-call-commitment.png',
     },
     {
       word: 'PENDING',
@@ -112,7 +112,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good morning, Marcus. It's Riley from Practispeak Solutions. I'm [[follow up:to contact someone again after a previous conversation to progress the discussion]]ing up on our demo call from Tuesday — do you have a few minutes?",
     },
     {
@@ -124,7 +124,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Great timing, then. As we discussed, you were particularly interested in the custom reporting and the onboarding timeline. Have you had a chance to share those details with your team?',
     },
     {
@@ -136,7 +136,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'm glad to hear the response was positive. What are the outstanding questions? I'd like to address them directly.",
     },
     {
@@ -148,7 +148,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Absolutely — we have a native integration with Salesforce. It connects in under an hour with no additional configuration needed on your side.',
     },
     {
@@ -160,7 +160,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "All data is stored on EU-based servers with ISO 27001 certification. Following our call, I'll send you the full security documentation today so you have it before the budget review.",
     },
     {
@@ -172,7 +172,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I also wanted to quickly [[recap:to summarise the main points of a previous conversation]] the commercial terms — $35 per user, 10% off for three months, and a two-week implementation. Does everything still look correct?',
     },
     {
@@ -184,7 +184,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'm really glad. Could you let me know where things stand with the internal approval? I want to make sure I can support you through that process.",
     },
     {
@@ -196,7 +196,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Perfect — I'll [[touch base:to make brief contact to check where things stand]] with you on Friday afternoon then. And please don't hesitate to reach out before that if anything comes up.",
     },
     {

@@ -6,7 +6,7 @@ export const measuringSuccess: Lesson = {
   subtitle: 'KPIs and basic metrics — how to talk about marketing performance in English',
   level: 'A2',
   description: 'In modern B2B marketing, data is everything. Being able to talk about results, targets, and performance metrics in English is an essential skill — whether you are presenting a campaign report, justifying a budget, or discussing strategy with a client. This lesson gives you the key vocabulary.',
-  heroImage: '/images/measuring-success-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const measuringSuccess: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Key Performance Indicator — a specific, measurable metric used to evaluate whether a goal is being achieved.',
       example: 'Our three main KPIs for this campaign were: leads generated, cost per lead, and LinkedIn follower growth.',
-      imageSlug: '/images/kpi.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kpi.png',
     },
     {
       word: 'METRIC',
       partOfSpeech: 'noun',
       definition: 'A measurable number used to track and assess performance — for example, clicks, reach, or conversion rate.',
       example: 'We track fifteen different metrics, but only three are KPIs — the ones that directly tell us whether the campaign is working.',
-      imageSlug: '/images/measuring-success-metric.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-metric.png',
     },
     {
       word: 'CONVERSION',
       partOfSpeech: 'noun',
       definition: 'When a visitor or lead takes the desired action — for example, signing up, booking a call, or making a purchase.',
       example: 'Our landing page had a conversion rate of eight percent — for every 100 visitors, eight filled in the contact form.',
-      imageSlug: '/images/measuring-success-conversion.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-conversion.png',
     },
     {
       word: 'GOAL',
       partOfSpeech: 'noun',
       definition: 'The specific outcome you want to achieve — the reason behind all your marketing activities.',
       example: 'The goal for Q3 was to generate fifty qualified leads — we achieved sixty-two, which was twenty-four percent above target.',
-      imageSlug: '/images/measuring-success-goal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-goal.png',
     },
     {
       word: 'TARGET',
       partOfSpeech: 'noun',
       definition: 'A specific number or result you are trying to reach — a measurable version of a goal.',
       example: 'Our target was 500 LinkedIn followers by the end of the quarter — we reached 620, which was 24% above target.',
-      imageSlug: '/images/measuring-success-target.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-target.png',
     },
     {
       word: 'BENCHMARK',
       partOfSpeech: 'noun',
       definition: 'A standard or reference point used to compare your results — either from your past performance or industry averages.',
       example: 'The industry benchmark for email open rates in B2B is around 22% — our campaign achieved 31%, well above benchmark.',
-      imageSlug: '/images/measuring-success-benchmark.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-benchmark.png',
     },
     {
       word: 'REPORT',
       partOfSpeech: 'noun',
       definition: 'A document or presentation that summarises what happened in a campaign — including results, insights, and next steps.',
       example: 'Riley sent the monthly report every first Monday — it included three pages of data and a one-paragraph summary of key insights.',
-      imageSlug: '/images/measuring-success-report.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-report.png',
     },
     {
       word: 'INSIGHT',
       partOfSpeech: 'noun',
       definition: 'A useful understanding gained from looking at data — not just the number, but what it means and what to do about it.',
       example: 'The most important insight from the data was that video content outperformed articles by 300% on LinkedIn — so we shifted our strategy.',
-      imageSlug: '/images/measuring-success-insight.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-insight.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const measuringSuccess: Lesson = {
       phrase: 'HIT A TARGET',
       definition: 'To achieve or reach a specific numerical goal.',
       example: 'We hit our lead generation target three weeks before the end of the quarter — the campaign outperformed all our predictions.',
-      imageSlug: '/images/hit-a-target.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/hit-a-target.png',
     },
     {
       phrase: 'TRACK [A METRIC]',
       definition: 'To monitor and record a specific number over time — to watch how it changes.',
       example: 'We track fifteen metrics every week — reach, clicks, conversions, cost per lead, and follower growth are the most important.',
-      imageSlug: '/images/track-a-metric.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/track-a-metric.png',
     },
     {
       phrase: 'MEASURE AGAINST [A BENCHMARK]',
       definition: 'To compare your results to a standard reference point — to see if you are above or below average.',
       example: 'We always measure our results against the industry benchmark — it puts our performance in context.',
-      imageSlug: '/images/measure-against-a-benchmark.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measure-against-a-benchmark.png',
     },
     {
       phrase: 'EXCEED [A TARGET]',
       definition: 'To go above and beyond a goal — to perform better than expected.',
       example: 'We exceeded our Q3 target by 24% — it was the best quarter we have had since the agency was founded.',
-      imageSlug: '/images/exceed-a-target.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/exceed-a-target.png',
     },
     {
       phrase: 'FALL SHORT OF [A TARGET]',
       definition: 'To not quite reach a goal — to perform below the target that was set.',
       example: 'We fell short of our lead target by eight — but the quality of leads was higher than any previous quarter.',
-      imageSlug: '/images/fall-short-of-a-target.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/fall-short-of-a-target.png',
     },
     {
       phrase: 'BREAK DOWN [THE DATA]',
       definition: 'To separate data into parts so it is easier to understand — to analyse in detail.',
       example: 'Let me break down the data by channel — LinkedIn generated 70% of all leads, email generated 25%, and organic search the rest.',
-      imageSlug: '/images/measuring-success-break-down-the-data.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-break-down-the-data.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Marcus, thank you for joining the monthly [[report:a document summarising what happened in a campaign]] review. Let me start with our three main [[KPI:Key Performance Indicator — a metric used to evaluate goal achievement]] s.',
     },
     {
@@ -124,7 +124,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: '[[Goal:the specific outcome we want to achieve]] one was fifty qualified leads. [[Goal:the specific outcome]] two was a cost per lead under €80. [[Goal:specific outcome]] three was growing LinkedIn followers by 400 by the end of the quarter.',
     },
     {
@@ -136,7 +136,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'We exceeded all three. Sixty-two qualified leads — twenty-four percent above [[target:the specific number we aimed for]]. Cost per lead was €67 — well within budget. And LinkedIn followers grew by 520.',
     },
     {
@@ -148,7 +148,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The industry [[benchmark:reference point for comparing results]] for B2B LinkedIn campaigns is around twenty-five leads per month. We averaged thirty-one — significantly above [[benchmark:standard reference for comparison]].',
     },
     {
@@ -160,7 +160,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Eight percent [[conversion:when a visitor takes the desired action]] rate — for every 100 visitors, eight filled in the contact form. That is above the B2B average of five to six percent.',
     },
     {
@@ -172,7 +172,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The key [[insight:what the data tells us and what to do about it]] is that video content outperformed articles by three hundred percent. That tells us we should shift more of next month's content budget to video.",
     },
     {
@@ -184,7 +184,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Absolutely — LinkedIn drove 70% of leads, email 25%, organic search 5%. I will include a full channel breakdown in the written [[report:a document summarising campaign performance]]. I will send it this afternoon.',
     }
   ],

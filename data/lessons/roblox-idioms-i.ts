@@ -51,7 +51,7 @@ export const robloxIdiomsI: Lesson = {
       partOfSpeech: 'verb',
       definition: "To come back and try again after you lose or fail.",
       example: "After the guild lost three matches in a row, they respawned with a completely new strategy and won the next five.",
-      imageSlug: '/images/roblox-idioms-i-respawn.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-idioms-i-respawn.png',
     },
     {
       word: 'GAME-CHANGER',
@@ -220,7 +220,7 @@ export const robloxIdiomsI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Completely normal — this is one of the most interesting things that has happened to English in the last twenty years. Gaming gave the language some of its most useful [[idioms:fixed expressions whose meaning cannot be guessed from the individual words]]. And now everyone uses them.",
     },
     {
@@ -232,7 +232,7 @@ export const robloxIdiomsI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly the same word, exactly the same meaning. The idea is identical — a long-term final objective that every smaller decision is pointing toward. The context changed, the meaning did not.",
     },
     {
@@ -244,7 +244,7 @@ export const robloxIdiomsI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Some of it is. When it is used naturally, it means a genuine, noticeable improvement in skill or status. When people overuse it in advertising, it starts to feel hollow. Context and tone matter — just like register.",
     },
     {
@@ -256,7 +256,7 @@ export const robloxIdiomsI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Game-changer has probably moved further into standard English than any other gaming term. It is used in politics, business, science, sport — anywhere a single development shifts everything. It has fully escaped the gaming world.",
     },
     {
@@ -268,7 +268,7 @@ export const robloxIdiomsI: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Yes — grinding has moved from describing farming XP to describing any sustained, unglamorous effort toward a goal. 'The grind is real' is a cultural phrase now. It captures exactly the feeling of putting in hours that are not exciting but are absolutely necessary.",
     },
   ],

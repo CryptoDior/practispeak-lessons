@@ -183,7 +183,7 @@ export const robloxGroupVsSolo: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, do you play Roblox [[alone:just you, no other players]] or [[with:you and another player in the same game]] friends?",
     },
     {
@@ -195,7 +195,7 @@ export const robloxGroupVsSolo: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Me too! I like to play [[alone:just you]] for training. But I love [[together:you and another person at the same time]] games with a [[partner:the person you play with]].",
     },
     {
@@ -207,7 +207,7 @@ export const robloxGroupVsSolo: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[Versus:against each other, both try to win]]! You vs me in the racing game. One race, one winner! Can I [[join:go into a game someone else is in]] your server?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxGroupVsSolo: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Yes! [[Together:you and another person at the same time]] is always better. It is more fun with you! We win more [[together:at the same time as each other]] too.",
     },
     {
@@ -231,7 +231,7 @@ export const robloxGroupVsSolo: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Same! My football coach says we play better [[together:as a group at the same time]] — one player [[alone:by themselves]] cannot win a match. You need a team!",
     },
     {

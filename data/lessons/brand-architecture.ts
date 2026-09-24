@@ -6,7 +6,7 @@ export const brandArchitecture: Lesson = {
   subtitle: 'How to manage a brand portfolio — and write a clear brand architecture recommendation that stakeholders can act on',
   level: 'B1-B2',
   description: 'When a company has multiple products, markets, or sub-brands, brand architecture becomes one of the most strategically important decisions it makes. The wrong structure confuses customers, cannibalises sales, and dilutes the brand. The right structure creates clarity, enables efficient marketing investment, and allows each product to grow without undermining the others. This lesson teaches you the vocabulary of brand portfolio management — master brand, sub-brand, endorsed brand, brand extension — and the language to recommend an architecture in a written brief or stakeholder meeting.',
-  heroImage: '/images/brand-architecture-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-architecture-hero.png',
 
   vocabulary: [
     {
@@ -160,13 +160,13 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'We have a board decision to make about the portfolio structure before we finalise the acquisition. Do we keep TechFlow as its own brand, fold it into MarketBridge, or something in between?',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "I've been looking at three models. First option: a [[master brand:the overarching brand that leads all products under it]] approach — everything becomes MarketBridge. Second: an [[endorsed brand:a brand with its own identity that is backed by the parent company]] model — 'TechFlow, a MarketBridge Company'. Third: we keep TechFlow completely independent with no visible connection.",
     },
     {
@@ -178,13 +178,13 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Agreed. The master brand model works when you're building from scratch, but TechFlow already has a loyal customer base that bought because of the TechFlow name. That's an asset we shouldn't destroy.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Option three — full independence — also has problems. In the markets where TechFlow is less well known, particularly Europe, the [[parent brand:the primary company or brand that owns or backs the other brands]] lends credibility that TechFlow currently lacks. Walking away from that would slow growth significantly.',
     },
     {
@@ -196,19 +196,19 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's my recommendation too. But there's a second portfolio question: the new enterprise product. I think it needs to be a [[sub-brand:a brand that is connected to the master brand but has its own distinct identity]] rather than a straight MarketBridge product.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Why? We already have MarketBridge in the enterprise space to some extent.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Because the enterprise brand needs to do a completely different job. In SME, MarketBridge means quick setup and ease of use. Enterprise buyers need to see robustness, security, and white-glove implementation support. The same brand can't credibly communicate both things to very different buyers.",
     },
     {
@@ -220,13 +220,13 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Exactly. Each brand in the [[portfolio:the complete set of brands and products managed by a company]] needs a clear role. If the roles aren't distinct, we create confusion and end up competing with ourselves.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'So the recommended architecture for the [[brand hierarchy:the organised structure showing how brands in a portfolio relate to each other]] is: MarketBridge as the master brand at the top, MarketBridge Pro as the enterprise sub-brand, and TechFlow as an endorsed brand. Three distinct brands, three distinct roles, one clear parent.',
     },
     {
@@ -238,13 +238,13 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "No — absolutely not. A consumer product would stretch the brand too far. MarketBridge stands for B2B marketing technology. Putting it on a consumer app would confuse our existing customers and would carry no meaning for consumers who've never heard of us in that context. That would need to be a completely new brand.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Agreed. Consumer is out of scope for the MarketBridge family. I'll build the [[brand extension:when an established brand moves into a new product category using its existing reputation]] risk section into the recommendation document as a 'brands we should not launch'. That framing actually helps the board understand what the architecture is protecting against.",
     },
     {

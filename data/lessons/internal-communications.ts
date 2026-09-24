@@ -6,7 +6,7 @@ export const internalCommunications: Lesson = {
   subtitle: 'How to align stakeholders, cascade key messages, and write announcements that get buy-in before, during, and after a launch',
   level: 'B1-B2',
   description: "A great product launch, a major restructure, or a new strategic direction can succeed or fail based on how well it is communicated internally. Employees who understand what is happening and why are more likely to support it. Stakeholders who are briefed early are less likely to create obstacles. A well-written internal announcement builds momentum — a poorly written one creates confusion, rumours, and resistance. This lesson gives you the language to communicate internally with clarity, confidence, and the kind of transparency that builds trust.",
-  heroImage: '/images/internal-communications-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/internal-communications-hero.png',
 
   vocabulary: [
     {
@@ -160,19 +160,19 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The plan has four components. First — [[stakeholder alignment:making sure key people understand and will support a decision before it is announced]] with leadership and the board before anything goes to the wider company. Second — a structured [[cascade:the process of passing information down through the organisation level by level]]. Third — a [[town hall:a large all-company meeting where leadership shares news and takes questions]]. Fourth — a written internal [[announcement:formal written communication to employees]] that lands before the external press release.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good structure. Let me ask about the cascade first. Who is in the sequence and in what order?",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The announcement will be cascaded to the organisation in three stages. Executive team today. All people managers Monday morning, with a full [[briefing:a structured communication giving an audience the information they need]] pack and talking points. All staff via their managers Monday afternoon — before the external announcement goes live Monday evening.",
     },
     {
@@ -184,13 +184,13 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We need to get buy-in from the sales leadership team before the all-staff announcement. They are going to receive the most difficult questions — from their teams and from clients. If they are not fully briefed and confident in the rationale, they will undermine the message without intending to.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Agreed. To ensure [[stakeholder alignment:the process of getting key people moving in the same direction]], we should hold individual calls with each regional sales director this week — not a group call. Individual calls mean people can ask their real questions without worrying about how it looks in front of peers.",
     },
     {
@@ -202,13 +202,13 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The key message for this audience is: this strategy gives us a stronger foundation for growth and creates more opportunity for everyone in this company. We are building something bigger, and you are part of it.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And for people managers — the key message is: your job is to be a steady, honest voice for your team. You do not need to have all the answers. Your job is to be present, to listen, and to escalate concerns quickly.",
     },
     {
@@ -220,13 +220,13 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We are holding a town hall on Monday at 4pm to give everyone a direct opportunity to ask their real questions and get honest answers. 20 minutes of presentation, 30 minutes of live Q&A. No pre-selected questions. Marcus, you chair it.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And the written announcement — the internal launch announcement should arrive in every inbox before the town hall, so people have read it and can come with their questions ready. It should not read like a press release. Warm tone, plain language, honest about what is changing.",
     },
     {

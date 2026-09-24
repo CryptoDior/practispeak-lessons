@@ -14,56 +14,56 @@ export const robloxRulesAndConsequences: Lesson = {
       partOfSpeech: 'conjunction',
       definition: "A word that joins two things — IF this happens, THAT will happen.",
       example: "If you cheat in this game, you will get a warning. It is that simple!",
-      imageSlug: '/images/roblox-rules-and-consequences-if.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-if.png',
     },
     {
       word: 'BAN',
       partOfSpeech: 'noun / verb',
       definition: "You cannot play anymore — the game stops you because you broke a rule.",
       example: "He got a ban for one week because he used a hack. Now he has to wait!",
-      imageSlug: '/images/roblox-rules-and-consequences-ban.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-ban.png',
     },
     {
       word: 'WARN',
       partOfSpeech: 'verb',
       definition: "Tell someone to stop doing something wrong — before they get a ban.",
       example: "The game will warn you first — if you do it again, you will get kicked.",
-      imageSlug: '/images/roblox-rules-and-consequences-warn.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-warn.png',
     },
     {
       word: 'KICK',
       partOfSpeech: 'verb',
       definition: "Remove a player from the game or server for doing something bad.",
       example: "If you are too rude in the chat, the server will kick you out right away.",
-      imageSlug: '/images/roblox-rules-and-consequences-kick.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-kick.png',
     },
     {
       word: 'CHEAT',
       partOfSpeech: 'verb',
       definition: "Play in a way that is not fair — break the rules to try to win.",
       example: "Do not cheat! If you use hacks, you will lose your account for good.",
-      imageSlug: '/images/roblox-rules-and-consequences-cheat.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-cheat.png',
     },
     {
       word: 'REPORT',
       partOfSpeech: 'verb',
       definition: "Tell the game that someone is being bad or breaking the rules.",
       example: "If someone is being mean in chat, please report them — press the report button.",
-      imageSlug: '/images/roblox-rules-and-consequences-report.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-report.png',
     },
     {
       word: 'ALLOWED',
       partOfSpeech: 'adjective',
       definition: "You CAN do this — it is OK and not against the rules.",
       example: "Trading is allowed in this game — you can give items to other players.",
-      imageSlug: '/images/roblox-rules-and-consequences-allowed.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-allowed.png',
     },
     {
       word: 'SAFE',
       partOfSpeech: 'adjective',
       definition: "No danger — you are not going to get hurt or get in trouble.",
       example: "This server is safe — the rules are clear and the players are all kind.",
-      imageSlug: '/images/roblox-rules-and-consequences-safe.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-safe.png',
     },
   ],
 
@@ -73,56 +73,56 @@ export const robloxRulesAndConsequences: Lesson = {
       partOfSpeech: 'conjunction',
       definition: "A word that joins two things — IF this happens, THAT will happen.",
       example: "If you study hard, you will pass the test. It is really that simple!",
-      imageSlug: '/images/roblox-rules-and-consequences-if-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-if-irl.png',
     },
     {
       word: 'BAN',
       partOfSpeech: 'noun / verb',
       definition: "You cannot do something anymore — someone in charge stops you.",
       example: "He got a ban from the park for one week because he broke the rules.",
-      imageSlug: '/images/roblox-rules-and-consequences-ban-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-ban-irl.png',
     },
     {
       word: 'WARN',
       partOfSpeech: 'verb',
       definition: "Tell someone to stop before something bad happens.",
       example: "The teacher warned us — if we talk in the test, we will get a zero.",
-      imageSlug: '/images/roblox-rules-and-consequences-warn-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-warn-irl.png',
     },
     {
       word: 'KICK',
       partOfSpeech: 'verb',
       definition: "Remove someone from a group or place because they broke a rule.",
       example: "They will kick him out of the club if he misses three meetings in a row.",
-      imageSlug: '/images/roblox-rules-and-consequences-kick-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-kick-irl.png',
     },
     {
       word: 'CHEAT',
       partOfSpeech: 'verb',
       definition: "Do something that is not fair — break the rules to get a better score.",
       example: "If you cheat in the test, the teacher will know and you will get a zero.",
-      imageSlug: '/images/roblox-rules-and-consequences-cheat-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-cheat-irl.png',
     },
     {
       word: 'REPORT',
       partOfSpeech: 'verb',
       definition: "Tell someone in charge that a person is doing something wrong.",
       example: "If someone is being mean to you, please report it to a teacher right away.",
-      imageSlug: '/images/roblox-rules-and-consequences-report-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-report-irl.png',
     },
     {
       word: 'ALLOWED',
       partOfSpeech: 'adjective',
       definition: "You CAN do this — a person in charge says it is OK.",
       example: "You are allowed to cross here — the green light means it is safe to walk.",
-      imageSlug: '/images/roblox-rules-and-consequences-allowed-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-allowed-irl.png',
     },
     {
       word: 'SAFE',
       partOfSpeech: 'adjective',
       definition: "No danger — nothing bad will happen to you here.",
       example: "This is a safe place — you can talk and no one will be mean to you.",
-      imageSlug: '/images/roblox-rules-and-consequences-safe-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-safe-irl.png',
     },
   ],
 
@@ -133,7 +133,7 @@ export const robloxRulesAndConsequences: Lesson = {
       example: "If you break the rules in this game, you will get a warning right away.",
       inGame: "If you break the rules three times, you will get a ban for the whole week.",
       inRealLife: "If you break the rules at school, you will have to talk to the head teacher.",
-      imageSlug: '/images/roblox-rules-and-consequences-break-the-rules.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-break-the-rules.png',
     },
     {
       phrase: "FOLLOW THE RULES",
@@ -141,7 +141,7 @@ export const robloxRulesAndConsequences: Lesson = {
       example: "If you follow the rules, you will have a good time and no one will get you.",
       inGame: "If you follow all the rules this month, you will get a special game badge.",
       inRealLife: "If you follow the rules on the trip, the teacher will take us again next time.",
-      imageSlug: '/images/roblox-rules-and-consequences-follow-the-rules.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-follow-the-rules.png',
     },
     {
       phrase: "GET KICKED OUT",
@@ -149,7 +149,7 @@ export const robloxRulesAndConsequences: Lesson = {
       example: "If you are rude in the chat, you will get kicked out of the server fast.",
       inGame: "If you use bad words, you will get kicked out and have to find a new server.",
       inRealLife: "If you are too loud in the library, you will get kicked out for the day.",
-      imageSlug: '/images/roblox-rules-and-consequences-get-kicked-out.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-get-kicked-out.png',
     },
     {
       phrase: "PLAY FAIR",
@@ -157,7 +157,7 @@ export const robloxRulesAndConsequences: Lesson = {
       example: "If we all play fair, the game is more fun for everyone in the server.",
       inGame: "If you play fair, other players will want to play with you again and again.",
       inRealLife: "If you play fair in sport, you will feel good even when you do not win.",
-      imageSlug: '/images/roblox-rules-and-consequences-play-fair.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-play-fair.png',
     },
     {
       phrase: "WATCH OUT!",
@@ -165,7 +165,7 @@ export const robloxRulesAndConsequences: Lesson = {
       example: "Watch out! If you go that way, you will fall into the trap and lose a life.",
       inGame: "Watch out! If you do not read the rules, you will do the wrong thing fast.",
       inRealLife: "Watch out! If you do not look both ways, you might walk into the road.",
-      imageSlug: '/images/roblox-rules-and-consequences-watch-out.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-watch-out.png',
     },
     {
       phrase: "IF YOU... YOU WILL...",
@@ -173,7 +173,7 @@ export const robloxRulesAndConsequences: Lesson = {
       example: "If you help me now, I will help you in the next round. It is a good deal!",
       inGame: "If you collect all the coins, you will unlock the secret door at the end.",
       inRealLife: "If you eat your dinner, you will get the dessert — Mum always says this!",
-      imageSlug: '/images/roblox-rules-and-consequences-if-you-you-will.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-if-you-you-will.png',
     },
   ],
 
@@ -183,7 +183,7 @@ export const robloxRulesAndConsequences: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, what are the rules in this server? I do not want to get [[kicked:removed from the game for doing something bad]] on my first day!",
     },
     {
@@ -195,7 +195,7 @@ export const robloxRulesAndConsequences: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Got it — no cheating. What else? Is [[trading:giving items to other players]] [[allowed:you CAN do this — not against the rules]]?",
     },
     {
@@ -207,7 +207,7 @@ export const robloxRulesAndConsequences: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "And [[if:a word that shows the result]] I get a warning and do it again?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxRulesAndConsequences: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "OK! And [[if:when this happens, that will happen]] someone is being mean to me in chat — what do I do?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxRulesAndConsequences: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "This is the same in real life too! If you [[cheat:do something not fair]] in a test, you will get a zero. If you are mean, you will get in trouble. It is all [[if:when this, then that]]!",
     },
     {

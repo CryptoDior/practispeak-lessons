@@ -14,28 +14,28 @@ export const robloxMyFavoriteCharacter: Lesson = {
       partOfSpeech: 'adjective',
       definition: "A character or object that has a big height — it reaches high up!",
       example: "My avatar is really tall — I made it as big as possible in the editor!",
-      imageSlug: '/images/roblox-my-favorite-character-tall.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-tall.png',
     },
     {
       word: 'SMALL',
       partOfSpeech: 'adjective',
       definition: "A character or object that has a little size — the opposite of big or tall.",
       example: "I made my avatar small so it can fit through tiny gaps in the obby!",
-      imageSlug: '/images/roblox-my-favorite-character-small.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-small.png',
     },
     {
       word: 'FAST',
       partOfSpeech: 'adjective',
       definition: "Able to move quickly. A fast character reaches places before the other players!",
       example: "My character is so fast — I always win the race because no one can catch me!",
-      imageSlug: '/images/roblox-my-favorite-character-fast.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-fast.png',
     },
     {
       word: 'STRONG',
       partOfSpeech: 'adjective',
       definition: "Has a lot of power or health — a strong character can take hits and keep going.",
       example: "My fighter character is really strong — it has 500 health points and huge fists!",
-      imageSlug: '/images/roblox-my-favorite-character-strong.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-strong.png',
     },
     {
       word: 'COLOURFUL',
@@ -49,14 +49,14 @@ export const robloxMyFavoriteCharacter: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Makes other players feel a little afraid — a scary character looks dangerous or creepy!",
       example: "My avatar has a scary skeleton face and dark armour — other players always run away!",
-      imageSlug: '/images/roblox-my-favorite-character-scary.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-scary.png',
     },
     {
       word: 'FRIENDLY',
       partOfSpeech: 'adjective',
       definition: "Kind, helpful, and nice to other players — a friendly character is good to have on your team.",
       example: "Leo is the friendliest player on the server — he always helps new players find their way.",
-      imageSlug: '/images/roblox-my-favorite-character-friendly.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-friendly.png',
     },
     {
       word: 'POWERFUL',
@@ -189,7 +189,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "So cool! My new character is the opposite — really [[scary:makes other players feel afraid]] with dark armour and a skeleton face!",
     },
     {
@@ -201,7 +201,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Very [[tall:big height, reaches high up]]! And really [[strong:has a lot of power or health]]. It has 500 health points so it is hard to beat in battles.",
     },
     {
@@ -213,7 +213,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is true! Your small fast character is better than mine in obbies. But mine is more [[powerful:has great strength or ability]] in battle games.",
     },
     {
@@ -225,7 +225,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "These adjectives work in real life too! My dog is [[small:little in size]] but very [[fast:able to move quickly]] — she can run faster than me!",
     },
     {
@@ -237,7 +237,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I love that we can use TALL, FAST, STRONG, and FRIENDLY to describe Roblox characters AND real people! Same words, two worlds!",
     },
   ],

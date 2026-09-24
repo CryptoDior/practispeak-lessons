@@ -6,7 +6,7 @@ export const advancedBrandStrategy: Lesson = {
   subtitle: 'How to build, measure, and protect the financial value of a brand',
   level: 'C1-C2',
   description: "Most marketers know how to run campaigns. Fewer know how to build a brand that is worth something — in financial terms, in the market, and in the minds of customers. This lesson teaches the language of advanced brand strategy: how to talk about brand equity, brand valuation, and the risks that erode what you have built. These are the conversations that happen at board level — and you need the vocabulary to lead them.",
-  heroImage: '/images/advanced-brand-strategy-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-brand-strategy-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Start with [[brand equity:the extra value a brand adds to a product beyond its basic function]]. Investors understand that brand is an [[intangible asset:something a business owns that has value but no physical form]] — the question is whether you can show them what it is worth.",
     },
     {
@@ -130,7 +130,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes — that is [[brand valuation:the process of calculating how much a brand is worth in financial terms]]. You can use revenue premium, customer lifetime value uplift, or market share data. Pick the method that aligns with how your CFO thinks about value.",
     },
     {
@@ -142,7 +142,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Trust your instinct. We are at risk of diluting the brand if we extend without a clear [[brand architecture:the system that organises how a company manages multiple brands or product lines]]. Has anyone asked what the brand stands for first?",
     },
     {
@@ -154,7 +154,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That is the problem. [[Positioning:the place a brand occupies in the mind of the customer relative to competitors]] has to come before product decisions. If you cannot say in one sentence what the brand stands for, you are not ready to extend it.",
     },
     {
@@ -166,7 +166,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Then you need a [[brand audit:a review of how a brand is performing including customer perception and competitor comparison]] before the investor meeting — not instead of it. Know what is broken before you tell investors what you are building.",
     },
     {
@@ -178,7 +178,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Three things: customer perception, consistency across touchpoints, and [[differentiation:what makes a brand meaningfully different from its competitors in a way customers care about]] versus your top two competitors. That gives you the full picture.",
     },
     {
@@ -190,7 +190,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Honesty. The brand equity case is stronger when you acknowledge the gap and show a plan to close it. Investors do not trust people who only share good news.",
     }
   ],

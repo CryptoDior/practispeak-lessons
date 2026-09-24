@@ -6,7 +6,7 @@ export const reviewTheMarketingMix: Lesson = {
   subtitle: 'Consolidation — bring together your A2 vocabulary to discuss a complete marketing strategy',
   level: 'A2',
   description: 'This consolidation lesson brings together all the key vocabulary from your A2 lessons. You will practise talking about product, price, promotion, and place — the marketing mix — using real language from campaigns, meetings, advertising, content, digital, and measurement. This is your chance to show how much you have learned.',
-  heroImage: '/images/review-the-marketing-mix-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-the-marketing-mix-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const reviewTheMarketingMix: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A long-term plan that explains how you will achieve your goals — what you will do, why, and in what order.',
       example: 'Our marketing strategy for next year has three priorities: build brand awareness, generate leads, and expand into two new markets.',
-      imageSlug: '/images/review-the-marketing-mix-strategy.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-the-marketing-mix-strategy.png',
     },
     {
       word: 'POSITIONING',
       partOfSpeech: 'noun',
       definition: 'How a company presents itself relative to competitors — what makes it different and why clients should choose it.',
       example: 'Our positioning is clear: we are the B2B LinkedIn specialist — not a general marketing agency, but a focused expert.',
-      imageSlug: '/images/review-the-marketing-mix-positioning.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-the-marketing-mix-positioning.png',
     },
     {
       word: 'PIPELINE',
       partOfSpeech: 'noun',
       definition: 'The stages a potential client goes through from first contact to becoming a paying customer — the sales and marketing funnel.',
       example: 'We currently have twenty prospects in the pipeline — five are at the proposal stage and two are close to signing.',
-      imageSlug: '/images/review-the-marketing-mix-pipeline.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-the-marketing-mix-pipeline.png',
     },
     {
       word: 'FUNNEL',
       partOfSpeech: 'noun',
       definition: 'A model that describes the journey from awareness to purchase — wide at the top (many people) and narrow at the bottom (fewer who buy).',
       example: 'Content marketing fills the top of the funnel with awareness — email and calls convert people at the bottom.',
-      imageSlug: '/images/review-the-marketing-mix-funnel.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-the-marketing-mix-funnel.png',
     },
     {
       word: 'CAMPAIGN',
       partOfSpeech: 'noun',
       definition: 'A coordinated set of marketing activities designed to achieve a specific goal over a defined period.',
       example: 'The Q3 campaign ran across LinkedIn, email, and a podcast — it generated sixty-two leads and exceeded every KPI.',
-      imageSlug: '/images/review-the-marketing-mix-campaign.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-the-marketing-mix-campaign.png',
     },
     {
       word: 'ROI',
       partOfSpeech: 'noun',
       definition: 'Return on Investment — the financial return you get compared to what you spent on marketing.',
       example: 'The campaign cost €5,000 and generated three new clients worth €45,000 — an ROI of 800%.',
-      imageSlug: '/images/review-the-marketing-mix-roi.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-the-marketing-mix-roi.png',
     },
     {
       word: 'CHANNEL MIX',
       partOfSpeech: 'noun',
       definition: 'The combination of channels used to reach the target audience — for example, LinkedIn, email, and events.',
       example: 'Our recommended channel mix for B2B is LinkedIn for awareness, email for nurturing, and events for closing.',
-      imageSlug: '/images/review-the-marketing-mix-channel-mix.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-the-marketing-mix-channel-mix.png',
     },
     {
       word: 'REVIEW',
       partOfSpeech: 'noun',
       definition: 'A structured assessment of what happened — looking back at results and deciding what to change going forward.',
       example: 'We do a quarterly review of every campaign — results versus targets, key insights, and the strategy for next quarter.',
-      imageSlug: '/images/review-the-marketing-mix-review.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-the-marketing-mix-review.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const reviewTheMarketingMix: Lesson = {
       phrase: 'PUT TOGETHER [A STRATEGY]',
       definition: 'To create and organise a plan — combining different elements into one coherent strategy.',
       example: 'Riley put together a twelve-month marketing strategy that covered brand, content, advertising, and measurement.',
-      imageSlug: '/images/put-together-a-strategy.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/put-together-a-strategy.png',
     },
     {
       phrase: 'MOVE [SOMEONE] THROUGH THE FUNNEL',
       definition: 'To help a prospect progress from awareness to purchase — through content, nurturing, and sales activity.',
       example: 'Our email sequence moves prospects through the funnel — five emails over two weeks, each building the case to book a call.',
-      imageSlug: '/images/move-someone-through-the-funnel.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/move-someone-through-the-funnel.png',
     },
     {
       phrase: 'ALIGN [SOMETHING] WITH [A GOAL]',
       definition: 'To make sure an activity or decision connects to and supports your overall goal.',
       example: 'Every channel we use must align with the goal — if LinkedIn does not contribute to lead generation, we adjust or remove it.',
-      imageSlug: '/images/align-something-with-a-goal.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/align-something-with-a-goal.png',
     },
     {
       phrase: 'REVIEW [PERFORMANCE]',
       definition: 'To look back at results and assess whether the strategy worked — and what to change.',
       example: 'We review performance quarterly — it keeps us honest and makes sure we are always improving.',
-      imageSlug: '/images/review-performance.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-performance.png',
     },
     {
       phrase: 'SCALE UP [AN ACTIVITY]',
       definition: 'To increase the size or investment in something that is working well.',
       example: 'Video content outperformed everything — so in Q4 we are going to scale up our video production significantly.',
-      imageSlug: '/images/scale-up-an-activity.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/scale-up-an-activity.png',
     },
     {
       phrase: 'TEST AND LEARN',
       definition: 'To try different approaches in a controlled way and use the results to improve your strategy.',
       example: 'We ran three different subject lines on the email — it is how we test and learn what resonates with our audience.',
-      imageSlug: '/images/review-the-marketing-mix-test-and-learn.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-the-marketing-mix-test-and-learn.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const reviewTheMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Of course. We start with [[positioning:how a company presents itself relative to competitors]] — who you are, who you are for, and what makes you different. Without that, everything else lacks direction.',
     },
     {
@@ -130,7 +130,7 @@ export const reviewTheMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Then we design the [[channel mix:the combination of channels used to reach the audience]]. For B2B, I typically recommend LinkedIn for awareness and credibility, email for nurturing, and events or trade shows for closing. Together they move prospects through the [[funnel:the journey from awareness to purchase]].',
     },
     {
@@ -142,7 +142,7 @@ export const reviewTheMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'In B2B, a realistic timeline is three to six months to start seeing qualified prospects in the [[pipeline:the stages from first contact to paying customer]]. The first month is foundation — brand, content, [[campaign:a coordinated set of activities to achieve a specific goal]] structure. From month two, leads start to come in.',
     },
     {
@@ -154,7 +154,7 @@ export const reviewTheMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is exactly how we think about it. We set KPIs at the start — leads, cost per lead, and [[ROI:Return on Investment]] — and every monthly [[review:a structured assessment of what happened]] includes the numbers and what they mean.',
     },
     {
@@ -166,7 +166,7 @@ export const reviewTheMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'We [[test and learn]] constantly. If a [[channel mix:combination of channels]] element is underperforming, we stop or reduce it. If something is outperforming, we [[scale up]] it. A good [[strategy:a long-term plan]] is never fixed — it evolves based on data.',
     },
     {
@@ -178,7 +178,7 @@ export const reviewTheMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Absolutely. I will have a full proposal ready by Thursday — it will cover [[positioning:how we present TechFlow in the market]], [[channel mix:which channels we use and why]], the first [[campaign:the coordinated activities we will run]], and how we will measure [[ROI:Return on Investment]] at every stage. Does that work?',
     }
   ],

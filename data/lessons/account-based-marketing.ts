@@ -6,7 +6,7 @@ export const accountBasedMarketing: Lesson = {
   subtitle: 'How to target high-value accounts with personalised campaigns that speak directly to specific decision-makers',
   level: 'B1-B2',
   description: "Account-based marketing — or ABM — is a B2B strategy where you treat individual companies as markets of one. Instead of casting a wide net and hoping the right companies find you, ABM means identifying your most valuable potential accounts and building campaigns specifically for them. This lesson teaches you the vocabulary and professional language behind ABM: how to talk about key accounts, intent data, personalisation, and the outreach that gets meetings with decision-makers.",
-  heroImage: '/images/account-based-marketing-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/account-based-marketing-hero.png',
 
   vocabulary: [
     {
@@ -160,13 +160,13 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We have 40 [[key account:a high-value company chosen because of its revenue potential or strategic importance]]s for this quarter. Each one was selected because it matches our [[ideal customer profile:a description of the type of company that is the perfect fit for our product]] — B2B SaaS, 200 to 1,000 employees, UK or European HQ, and currently using at least two tools our platform replaces.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "I have also layered [[intent data:data that shows which companies are actively researching topics related to your product]] on top of the list. Eight of our 40 accounts are showing high intent right now — they have been reading comparison articles and visiting competitor pricing pages. Those eight are our immediate priority.",
     },
     {
@@ -178,13 +178,13 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Five touches per account — LinkedIn connection, personalised email, video message, phone call, and a final email. The key is [[personalisation:tailoring the message specifically for a person or company based on their situation]]— every first email references something specific to that company. Not a template.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "I have also built a [[stakeholder map:a document showing all the people involved in a purchasing decision, their roles, and their influence]] for each of the top ten accounts. Let me walk through the most complex one.",
     },
     {
@@ -196,13 +196,13 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The stakeholder map for this account shows six people in the buying decision. The CMO is the [[decision-maker:the person with authority to approve the purchase]]. The Head of Marketing Ops is our strongest existing contact — she is the champion. The CFO needs to approve any spend over £80k. And two marketing managers are the end users who will influence the CMO's view.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "So we have access to the champion and the end users — but not to the CFO or the CMO. Both of them can block the deal.",
     },
     {
@@ -214,13 +214,13 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "We are creating a piece of content specifically for CMOs in their sector — a benchmarking report on marketing attribution. We distribute it via LinkedIn and targeted email to the CMO. It is not a product pitch — it is something genuinely useful. The ask is just a 30-minute conversation about the research.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And for the CFO, we need a different approach — ROI-focused. I will build a financial impact model showing what the cost of their current fragmented tech stack is and what the consolidation saving would be. We send that through the champion with a request for a CFO briefing.",
     },
     {
@@ -232,13 +232,13 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Agreed. Intent data shows this account is already researching — if a competitor gets to the CFO before we do, we may lose the deal without ever getting a fair hearing. Speed matters here.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I will have the CMO content and the CFO financial model ready by Thursday. We run them simultaneously — both pieces go out the same week through different channels.",
     },
   ],

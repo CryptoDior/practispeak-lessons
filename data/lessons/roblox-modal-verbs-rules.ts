@@ -172,7 +172,7 @@ export const robloxModalVerbsRules: Lesson = {
       example: "He called out the player who was using a speed hack and reported it to the server admins.",
       inGame: "If you see someone cheating, call it out in the chat — the community polices itself.",
       inRealLife: "The journalist called out the company for making misleading claims in its advertising campaign.",
-      imageSlug: '/images/roblox-modal-verbs-rules-call-out.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-modal-verbs-rules-call-out.png',
     },
     {
       phrase: "STAND UP FOR",
@@ -206,7 +206,7 @@ export const robloxModalVerbsRules: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, the admins just updated the full terms document. It is quite different from the old version.",
     },
     {
@@ -218,7 +218,7 @@ export const robloxModalVerbsRules: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. And there are new access levels. Guild leaders [[are permitted to:officially allowed to]] set custom server rules now — but only within the admin guidelines.",
     },
     {
@@ -230,7 +230,7 @@ export const robloxModalVerbsRules: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Players [[are prohibited from:formally and officially forbidden from]] selling in-game items for real money — it is written directly into the new terms, not just a community guideline.",
     },
     {
@@ -242,7 +242,7 @@ export const robloxModalVerbsRules: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "You [[had better:strong advice — there will be a consequence if you do not]] log out before the countdown or you will lose everything — the system does not save mid-session.",
     },
     {
@@ -254,7 +254,7 @@ export const robloxModalVerbsRules: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "You [[need not:not necessary]] finish every section — but you [[are supposed to:expected based on the rules]] complete the safety module before the end of the month or your account gets flagged.",
     },
     {
@@ -266,7 +266,7 @@ export const robloxModalVerbsRules: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Correct. And the best part — senior members [[may:formal official permission]] access the full moderator panel once they reach level sixty. That is new this season.",
     },
   ],

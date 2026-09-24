@@ -220,7 +220,7 @@ export const robloxIdiomsIi: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is exactly the problem. Other guilds have [[raised the bar:set a higher standard that everyone else must now try to reach]] — they improved while we stayed the same. Standing still in a competitive game means falling behind.",
     },
     {
@@ -232,7 +232,7 @@ export const robloxIdiomsIi: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. And we need people to [[step up:take action and take control when it is needed]] — not wait for someone else to fix it. Right now we have players who are comfortable. Comfortable does not win tournaments.",
     },
     {
@@ -244,7 +244,7 @@ export const robloxIdiomsIi: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I noticed her too. Her map awareness is [[in a league of its own:so much better than everything else that nothing else is at the same level]] for someone that new. She has not [[hit her stride:reached her best level of performance yet]] — and she is already better than most of our veterans.",
     },
     {
@@ -256,7 +256,7 @@ export const robloxIdiomsIi: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Not lead — not yet. But invite her to share what she knows. If the rest of the team [[rises to the challenge:does well when something is hard or new — shows they can handle it]], we could be back in the top five within a month.",
     },
   ],

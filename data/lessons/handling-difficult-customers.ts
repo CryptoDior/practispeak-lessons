@@ -6,7 +6,7 @@ export const handlingDifficultCustomers: Lesson = {
   subtitle: 'Diplomacy, tone control, and de-escalation — staying professional when the conversation gets hard',
   level: 'C1-C2',
   description: 'Difficult customer conversations are not won by being right — they are won by staying professional when the other person is not. The language of de-escalation is precise: it acknowledges without over-apologising, sets boundaries without confrontation, and moves from grievance to resolution without dismissing how the customer feels. This lesson teaches the four-part framework — empathise, acknowledge, redirect, resolve — and the specific phrases that make each step work.',
-  heroImage: '/images/handling-difficult-customers-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-difficult-customers-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const handlingDifficultCustomers: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To reduce the intensity of a conflict or emotional situation — bringing the temperature down so that productive conversation can happen. De-escalation always comes before problem-solving: a customer who feels unheard cannot be helped, and attempting to explain or solve before they feel acknowledged will intensify the conflict, not reduce it.',
       example: "Marcus was furious when he called — his voice was raised, his language was sharp, and he had a list of failures he intended to work through. Riley did not interrupt him. She let him finish, then de-escalated before she said a single word about what had happened: 'I can hear how frustrated you are, and I want to make sure I understand everything before I respond.'",
-      imageSlug: '/images/handling-difficult-customers-de-escalate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-difficult-customers-de-escalate.png',
     },
     {
       word: 'EMPATHY',
@@ -35,7 +35,7 @@ export const handlingDifficultCustomers: Lesson = {
       partOfSpeech: 'verb',
       definition: "To explicitly confirm that something happened, that it matters, and that the person affected deserved better. Acknowledging a problem is not the same as accepting full responsibility or agreeing with every aspect of the customer's account — but it is the step that must come before any explanation, justification, or solution. Skipping acknowledgement makes everything that follows sound like a defence.",
       example: "Riley acknowledged the failure before she explained anything: 'What you experienced on Thursday was not acceptable, and your team should not have been in that position.' Only after that did she explain what had happened — and by then, Marcus was ready to hear it rather than argue against it.",
-      imageSlug: '/images/handling-difficult-customers-acknowledge.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-difficult-customers-acknowledge.png',
     },
     {
       word: 'DEFUSE',
@@ -118,7 +118,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Marcus, I can hear that this has been an incredibly frustrating experience — and you are right that what happened on Thursday was not acceptable. Before I say anything else, I want to make sure I fully understand what your team went through. Can you walk me through what happened from your side?',
     },
     {
@@ -130,7 +130,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I understand completely — and I want to [[acknowledge:to explicitly confirm that something happened and that it mattered]] that directly: a client presentation disrupted by a system failure, with no support response for three hours, is a serious failure on our part. Your team should not have been in that position. That is not the experience we want you to have.',
     },
     {
@@ -142,7 +142,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Those are exactly the right questions — and I want to answer all three. I want to be [[transparent:open and honest about what happened]] with you about what we found when we investigated. The outage was caused by a server-side issue in the region your account sits on. The three-hour response time was a failure in our escalation process — our on-call team was not notified correctly. Both of those are our responsibility.',
     },
     {
@@ -154,7 +154,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I want to be honest about what I can approve directly. What I can do is issue a credit for the downtime period today — that is within my authority and I will confirm it in writing before the end of this call. On the monthly credit and the written commitment, I need to involve our account director. I will have an answer from her by end of business tomorrow.',
     },
     {
@@ -166,7 +166,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I hear that — and I am not going to [[defuse:to reduce the intensity of a difficult situation]] that concern by making promises I cannot keep. What I can promise is that my account director will be contacted within the hour and will have a response to you by 5pm today — not tomorrow. I am going to move the timeline because this situation warrants it.',
     },
     {
@@ -178,7 +178,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I understand — and I want to help you manage that conversation. I can prepare a written summary of what happened, what caused it, and what we have changed, specifically formatted so you can share it with your CEO. That is something I can do today. It will not undo Thursday, but it gives you something concrete to present that shows the problem has been taken seriously and addressed.',
     },
     {
@@ -190,7 +190,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Thursday was a failure and you deserved a straight answer. Let's focus on what we can resolve right now — the downtime credit, the account director call, and the CEO summary — and then I want to schedule a thirty-minute call next week to walk through the process changes we are putting in place. I want you to have full visibility, not just a reassurance.",
     }
   ],

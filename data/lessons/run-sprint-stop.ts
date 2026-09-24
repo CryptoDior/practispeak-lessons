@@ -14,7 +14,7 @@ export const runSprintStop: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To move quickly on foot.',
       example: 'Run to the ball before the defender gets there.',
-      imageSlug: '/images/run-sprint-stop-run.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/run-sprint-stop-run.png',
     },
     {
       word: 'SPRINT',
@@ -35,7 +35,7 @@ export const runSprintStop: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To push your body up off the ground.',
       example: 'Jump to head the ball from the corner.',
-      imageSlug: '/images/run-sprint-stop-jump.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/run-sprint-stop-jump.png',
     },
     {
       word: 'TURN',

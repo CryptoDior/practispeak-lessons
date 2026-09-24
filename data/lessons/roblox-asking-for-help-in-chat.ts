@@ -183,7 +183,7 @@ export const robloxAskingForHelpInChat: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[Sorry to bother you:a polite way to start a request]], Mia, but [[could you:a polite way to ask someone]] help me with this level? I keep getting stuck at the same place.",
     },
     {
@@ -195,7 +195,7 @@ export const robloxAskingForHelpInChat: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The third section with the moving platforms. [[Could you please:the most useful polite request structure]] show me the timing? [[If you do not mind:extra polite check]], of course.",
     },
     {
@@ -207,7 +207,7 @@ export const robloxAskingForHelpInChat: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[Of course:naturally yes]], take your time. And — [[could I:politely ask permission]] ask one more thing? [[Would you mind:polite -ING request]] explaining what that blue power-up does?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxAskingForHelpInChat: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I passed it! Thank you so much, Mia — I really appreciate it. Is it OK if I ask you next time I get stuck too?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxAskingForHelpInChat: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[Sorry to bother you:polite start]] is great for when someone is busy too. My teacher always smiles when I say it before a question in class!",
     },
     {

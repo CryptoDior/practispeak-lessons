@@ -6,7 +6,7 @@ export const advancedDiscourseAnalysis: Lesson = {
   subtitle: 'How to read between the lines of marketing texts, brand messages, and business communication',
   level: 'C1-C2',
   description: 'The most important messages in business are often not the ones said directly. Skilled communicators know how to read a press release, a brand campaign, or a competitor\'s statement and understand what is really going on. This lesson teaches you the tools of discourse analysis — how language is used, what it assumes, and what it leaves out — so you can read any business text at a deeper level.',
-  heroImage: '/images/advanced-discourse-analysis-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-discourse-analysis-hero.png',
 
   vocabulary: [
     {
@@ -112,7 +112,7 @@ export const advancedDiscourseAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Marcus, I want you to read this competitor's press release and tell me what you notice.",
     },
     {
@@ -124,7 +124,7 @@ export const advancedDiscourseAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good. Now read it again. What is the [[discourse:the way a topic is talked about — the words and assumptions that surround it]] around the word 'realignment'? What does it usually mean in business?",
     },
     {
@@ -136,7 +136,7 @@ export const advancedDiscourseAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Exactly. The choice of 'realignment' over 'restructuring' is significant. The [[connotation:the emotional meaning attached to a word]] is softer — less threatening. What is the [[implicature:the meaning carried without being directly stated]]?",
     },
     {
@@ -148,7 +148,7 @@ export const advancedDiscourseAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good. Now look at this sentence: 'We have always put our customers first, and this decision reflects that commitment.' What is the [[presupposition:an assumption built into a sentence the speaker expects you to accept]]?",
     },
     {
@@ -160,7 +160,7 @@ export const advancedDiscourseAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Exactly. That is [[pragmatics:the study of how context changes the meaning of language]] at work — what the sentence does in the world, not just what it says.",
     },
     {
@@ -172,7 +172,7 @@ export const advancedDiscourseAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Right. Normally a financial announcement uses formal register. Here the tone is designed to reduce alarm — informal enough to feel human, formal enough to seem credible.",
     },
     {
@@ -184,7 +184,7 @@ export const advancedDiscourseAnalysis: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Look at what is left unsaid. There is no apology. No acknowledgement of any mistake. The ideology here is: we make strategic decisions, not errors.",
     },
     {

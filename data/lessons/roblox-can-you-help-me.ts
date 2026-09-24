@@ -183,7 +183,7 @@ export const robloxCanYouHelpMe: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, can you [[help:do something for someone who is having difficulty]] me? I am completely stuck on this obby level. I keep falling off!",
     },
     {
@@ -195,7 +195,7 @@ export const robloxCanYouHelpMe: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The part with the moving platforms! I do not [[understand:know what something means or how it works]] the timing. I always jump too early.",
     },
     {
@@ -207,7 +207,7 @@ export const robloxCanYouHelpMe: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I think so... can you [[show:let someone see how to do it by doing it yourself]] me? I learn better by watching than by listening.",
     },
     {
@@ -219,7 +219,7 @@ export const robloxCanYouHelpMe: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Now I get it! I just need to [[practice:do something again and again to get better]] the timing. Let me try — one more time if I fail!",
     },
     {
@@ -231,7 +231,7 @@ export const robloxCanYouHelpMe: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I did it! Thank you so much, Mia! Now can you [[teach:give someone the knowledge to do something]] me the trading system too? I do not understand how it works yet.",
     },
     {

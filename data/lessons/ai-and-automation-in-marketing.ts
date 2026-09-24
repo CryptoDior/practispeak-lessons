@@ -6,7 +6,7 @@ export const aiAndAutomationInMarketing: Lesson = {
   subtitle: 'How to talk about generative AI, automation, and the tools reshaping the marketing function — with clarity, accuracy, and confidence',
   level: 'C1-C2',
   description: "Artificial intelligence is no longer a future trend in marketing — it is a present-day reality. Marketing teams are using AI to write copy, segment audiences, predict churn, personalise experiences, and automate workflows that once took entire departments to manage. But the marketers who get the most from these tools are not the ones who know the most about the technology — they are the ones who can articulate clearly what the tools do, where they fall short, and how to use them responsibly. This lesson gives you the language to participate confidently in conversations about AI and automation in marketing.",
-  heroImage: '/images/ai-and-automation-in-marketing-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/ai-and-automation-in-marketing-hero.png',
 
   vocabulary: [
     {
@@ -160,13 +160,13 @@ export const aiAndAutomationInMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "[[generative ai:AI that creates new content — text, images, or video — based on patterns learned from data]] is working well for high-volume structured tasks. Ad copy — twelve out of twenty-four versions are ready to test with no edits. Email subject lines — open rates up 14% versus our control. [[workflow automation:using technology to complete a series of tasks automatically without manual triggering]] has removed about eight hours of manual work per week from the content team.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "[[predictive personalisation:using AI to predict what a customer will want to see or buy next]] is delivering the biggest commercial result. The homepage now converts at 2.8 times the rate of the old generic version. [[dynamic content:content that changes automatically based on who is viewing it]] across the email programme has lifted engagement across all segments.",
     },
     {
@@ -178,13 +178,13 @@ export const aiAndAutomationInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Three things. First — the AI is hallucinating. It has produced factual errors in two pieces this month — one invented a product feature, one cited a statistic we do not have. Second — [[automation bias:the tendency to trust AI outputs without critically checking them]]. Reviewers are not catching errors because the copy looks correct. Third — [[prompt engineering:the skill of writing clear, specific instructions that get an AI tool to produce the output you want]] is inconsistent across the team. Some people know how to write a good prompt. Most do not.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We need a human in the loop for everything customer-facing that makes a factual claim. No exceptions. And we need to train the full team on prompt quality — the output is only as good as the brief you give the [[large language model:an AI system trained on enormous amounts of text that can understand and generate human language — also called an LLM]].",
     },
     {
@@ -196,13 +196,13 @@ export const aiAndAutomationInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "One more thing. Every output needs a human edit before it goes live. That is the non-negotiable. The AI is a brilliant first-drafter. It is not a publisher.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Agreed. Build the governance now, while the programme is small, and scaling becomes much safer. Wait until we have a crisis to build it, and the damage has already been done.",
     },
   ],

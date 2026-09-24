@@ -6,7 +6,7 @@ export const influencerMarketing: Lesson = {
   subtitle: 'How to find, approach, and work with influencers — and pitch a partnership that makes sense for both sides',
   level: 'B1-B2',
   description: 'Influencer marketing is not just for consumer brands anymore. In B2B, working with the right industry voice can build credibility faster than almost any other channel. In this lesson you will learn the vocabulary for identifying and evaluating influencers, approaching them professionally, and pitching a partnership that works.',
-  heroImage: '/images/influencer-marketing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/influencer-marketing-hero.png',
 
   vocabulary: [
     {
@@ -112,7 +112,7 @@ export const influencerMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Marcus — I want to propose something slightly different for part of the Q4 budget. Instead of putting everything into LinkedIn ads, I want to test a micro-influencer campaign alongside it.',
     },
     {
@@ -124,7 +124,7 @@ export const influencerMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is the common assumption — but in B2B it works differently. A [[micro-influencer:someone with 1,000 to 50,000 followers in a specific niche]] with 9,000 followers who are all operations directors in manufacturing is more valuable to TechFlow than a macro-influencer with 500,000 general business followers. The [[niche:a very specific area of interest or expertise]] is the whole point — not the [[reach:the total number of people who could see the content]].',
     },
     {
@@ -136,7 +136,7 @@ export const influencerMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Three things. First: [[engagement rate:the percentage of the audience who actively interact with the content]]. I want to see at least 4% — that tells me the audience is actually listening, not just following. Second: audience profile — are they genuinely the right persona? And third: [[authenticity:the quality of being genuine — actually using and believing in what they recommend]]. Does this person only take partnerships that make sense for their audience, or do they promote everything? That tells you whether an [[endorsement:a public statement of recommendation]] from them will actually be trusted.',
     },
     {
@@ -148,7 +148,7 @@ export const influencerMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Not immediately. First, we engage with their content for two to three weeks — comment genuinely, share relevant posts, respond to their questions. Then when we [[reach out to:make the first contact with]] them, we are not strangers. The pitch itself leads with their audience: 'We have a case study with data your followers have been asking about — would this be interesting content for them?' Not: 'we want to pay you to promote our product.'",
     },
     {
@@ -160,7 +160,7 @@ export const influencerMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Two LinkedIn posts written in their own voice, [[co-creating:producing content together with the influencer]] the narrative with them rather than scripting it. One quote for our case study PDF. And the content needs to [[disclose:publicly state that it is sponsored or paid]] the partnership — a simple 'in partnership with TechFlow'. That transparency actually increases trust rather than reducing it.",
     },
     {
@@ -172,7 +172,7 @@ export const influencerMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "If the [[partnership:collaboration]] is genuine and the influencer's audience finds the case study useful, yes — followers will often share their own comments and experiences, which is [[UGC:unprompted content from real users]] in the best sense. We will track profile visits and case study downloads as the primary KPIs. But the bigger goal is [[building credibility:establishing trust and authority through genuine associations]] — one trusted voice recommending TechFlow to 9,000 relevant people does more for long-term pipeline than almost any ad we could run.",
     }
   ],

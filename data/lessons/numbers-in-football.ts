@@ -14,7 +14,7 @@ export const numbersInFootball: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'The number of goals each team has. / To put the ball in the goal.',
       example: 'The score is two-one to the home team.',
-      imageSlug: '/images/numbers-in-football-score.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/numbers-in-football-score.png',
     },
     {
       word: 'MINUTE',

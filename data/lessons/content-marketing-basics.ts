@@ -6,7 +6,7 @@ export const contentMarketingBasics: Lesson = {
   subtitle: 'What content marketing is — and how to talk about it clearly in English',
   level: 'A2',
   description: 'Content marketing is at the heart of most B2B strategies today. Instead of advertising at people, you give them something valuable — a useful article, an insightful video, or a compelling story. This lesson gives you the vocabulary to talk about content types, formats, and the principles behind effective content marketing.',
-  heroImage: '/images/content-marketing-basics-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/content-marketing-basics-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const contentMarketingBasics: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A regularly updated page on a website where articles are published — used to share information, insights, or opinions.',
       example: 'We publish two blog posts per week — one thought leadership piece and one practical how-to guide for our target audience.',
-      imageSlug: '/images/blog.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/blog.png',
     },
     {
       word: 'ARTICLE',
       partOfSpeech: 'noun',
       definition: 'A written piece of content — longer and more structured than a social media post — that explores a topic in depth.',
       example: 'Riley wrote an article about LinkedIn strategy that was shared 200 times — it brought in 15 new leads in one week.',
-      imageSlug: '/images/article.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/article.png',
     },
     {
       word: 'INFOGRAPHIC',
       partOfSpeech: 'noun',
       definition: 'A visual piece of content that presents information or data in a graphic format — easy to read and share.',
       example: 'We turned our annual survey data into an infographic — it was much more engaging than a written report and got three times more shares.',
-      imageSlug: '/images/infographic.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/infographic.png',
     },
     {
       word: 'STORYTELLING',
       partOfSpeech: 'noun',
       definition: 'The technique of sharing information through a narrative or story — used to make content more memorable and emotional.',
       example: "The most effective B2B content uses storytelling — instead of listing features, it shows a real client's journey from problem to solution.",
-      imageSlug: '/images/storytelling.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/storytelling.png',
     },
     {
       word: 'FORMAT',
       partOfSpeech: 'noun',
       definition: 'The type or structure of content — for example, a video, a podcast, a written article, or an infographic.',
       example: 'We tested different formats with the same audience — video performed best on LinkedIn, while long-form articles worked better in email.',
-      imageSlug: '/images/format.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/format.png',
     },
     {
       word: 'AUDIENCE',
       partOfSpeech: 'noun',
       definition: 'The specific group of people you are creating content for — defined by their job, industry, challenges, and interests.',
       example: 'All our content is created with one audience in mind — marketing managers at B2B technology companies with 50 to 500 employees.',
-      imageSlug: '/images/content-marketing-basics-audience.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/content-marketing-basics-audience.png',
     },
     {
       word: 'VALUE',
       partOfSpeech: 'noun',
       definition: 'The usefulness or benefit that content gives the reader — good content teaches, inspires, or solves a problem.',
       example: 'Every piece of content we publish must offer real value — if it does not help the reader, we do not publish it.',
-      imageSlug: '/images/content-marketing-basics-value.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/content-marketing-basics-value.png',
     },
     {
       word: 'DISTRIBUTE',
       partOfSpeech: 'verb',
       definition: 'To share or spread content across different channels — making sure the right audience sees it.',
       example: 'We create one strong article per week and distribute it across LinkedIn, email, and our blog — the same content reaching people in three places.',
-      imageSlug: '/images/distribute.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/distribute.png',
     }
   ],
 
@@ -72,13 +72,13 @@ export const contentMarketingBasics: Lesson = {
       phrase: 'PUBLISH CONTENT',
       definition: 'To make a piece of content live — to post it on a website, social media platform, or other channel.',
       example: 'We publish new content on LinkedIn every Tuesday and Thursday — consistency is more important than frequency.',
-      imageSlug: '/images/publish-content.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/publish-content.png',
     },
     {
       phrase: 'DRIVE TRAFFIC',
       definition: 'To bring visitors to your website or landing page — often through content shared on social media or in emails.',
       example: 'A well-written article drives traffic back to your website — especially if it answers a question your audience is already searching for.',
-      imageSlug: '/images/content-marketing-basics-drive-traffic.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/content-marketing-basics-drive-traffic.png',
     },
     {
       phrase: 'BUILD TRUST',
@@ -96,13 +96,13 @@ export const contentMarketingBasics: Lesson = {
       phrase: 'CALL TO ACTION',
       definition: "A phrase or button that tells the reader what to do next — for example, 'Read the full article', 'Download our guide', or 'Book a call'.",
       example: 'Every piece of content needs a call to action — otherwise the reader finishes it and moves on without taking any next step.',
-      imageSlug: '/images/content-marketing-basics-call-to-action.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/content-marketing-basics-call-to-action.png',
     },
     {
       phrase: 'ENGAGE WITH [CONTENT]',
       definition: 'To interact with a piece of content — by liking, sharing, commenting, or clicking through to read more.',
       example: 'Our audience engages most with content that asks a question or shares a surprising statistic — it gives them a reason to comment.',
-      imageSlug: '/images/engage-with-content.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/engage-with-content.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const contentMarketingBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Great question. Traditional advertising says 'buy our product'. Content marketing gives your [[audience:the specific group you are creating content for]] something useful first — an [[article:a written piece exploring a topic in depth]], a video, an [[infographic:visual content presenting information in graphic form]] — and builds trust over time.",
     },
     {
@@ -130,7 +130,7 @@ export const contentMarketingBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly. If every piece of content you publish teaches your [[audience:the specific group you create content for]] something, they start to see you as an expert. That trust is what eventually turns them into clients.',
     },
     {
@@ -142,7 +142,7 @@ export const contentMarketingBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Both work — it depends on where your [[audience:the group you create content for]] spends their time. On LinkedIn, video and short posts perform very well. For email, a longer [[article:a written piece exploring a topic]] or a useful guide tends to get more engagement.',
     },
     {
@@ -154,7 +154,7 @@ export const contentMarketingBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — a [[blog:a regularly updated page on your website]] is excellent for SEO and for [[distribute:to share content across different channels]] ing your ideas. You write one article and then [[distribute:to spread content across channels]] it on LinkedIn, in your email newsletter, and on the blog.',
     },
     {
@@ -166,7 +166,7 @@ export const contentMarketingBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Two things usually explain that. First, [[value:what the content gives the reader]] — was the content genuinely useful to your reader, or was it mostly about your company? Second, [[storytelling:sharing information through a story or narrative]] — the best content tells a story, not just a list of facts.',
     },
     {
@@ -178,7 +178,7 @@ export const contentMarketingBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'We track shares, clicks, and leads generated. A good [[article:written content exploring a topic]] drives traffic to your website. A good [[infographic:visual content in graphic format]] gets shared widely. And good [[storytelling:the technique of sharing information through narrative]] gets comments — people respond when they feel something.',
     }
   ],

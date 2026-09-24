@@ -6,7 +6,7 @@ export const ecommerceMarketing: Lesson = {
   subtitle: 'How to drive online sales, reduce drop-off, and write copy that converts',
   level: 'B1-B2',
   description: "E-commerce has changed how brands reach and sell to customers. Whether you work for a pure-play online retailer or a brand with a digital shop, knowing how to optimise the customer journey — from the first click to the checkout — is one of the most valuable skills in modern marketing. This lesson teaches you the core vocabulary of e-commerce marketing: how to talk about conversion, abandoned baskets, upselling, and the copy that makes customers click.",
-  heroImage: '/images/e-commerce-marketing-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/e-commerce-marketing-hero.png',
 
   vocabulary: [
     {
@@ -154,7 +154,7 @@ export const ecommerceMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I have the e-commerce analytics report for Q3. The headline number is good — revenue is up 18%. But when I dig into the funnel, there are some significant inefficiencies that are costing us money.",
     },
     {
@@ -166,13 +166,13 @@ export const ecommerceMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Three places. The [[product page:the page showing all information about a specific product — photos, description, price, and the buy button]], the basket, and the [[checkout:the final step where the customer completes the purchase]]. Each one has a specific problem.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Starting with the product page — [[conversion rate optimisation:the process of improving a website so more visitors take the desired action]] on that page is our biggest opportunity. The copy is too short and the images do not show the product in use. Average time on page is 22 seconds.",
     },
     {
@@ -184,13 +184,13 @@ export const ecommerceMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Also the [[call to action:the button or phrase that tells the customer what to do next]] on the product page just says Add to Basket. It does not create any urgency or reinforce the value. We should test something more specific.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Agreed. The CTA needs to be more benefit-led. Moving to the basket — the [[cart abandonment:when a customer adds products to their cart but leaves before completing the purchase]] rate is 74%. The main reason is the shipping cost appearing for the first time at that stage.",
     },
     {
@@ -202,13 +202,13 @@ export const ecommerceMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And we should add a [[cross-sell:suggesting related or complementary products to someone who is already buying]] at the basket stage. When customers add the main product, show the two or three most-bought accessories. We should add a cross-sell at the basket — data shows it increases [[average order value:the average amount a customer spends in a single transaction]] by around 20%.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And on the product page, we can [[upsell:encourage a customer to buy a more expensive version of what they are already considering]] — show the premium version with a clear value comparison. This will increase the average order value by around £18 per transaction if the test performs as expected.",
     },
     {
@@ -220,13 +220,13 @@ export const ecommerceMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "68% — and almost all of it is on the payment page. Two fixes: add guest checkout and add PayPal and Apple Pay. Right now we only accept credit card and we require account creation. Both of those are losing us customers who are ready to buy.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "If we fix all three areas — product page, basket, checkout — the model suggests we could lift overall conversion from 1.8% to somewhere between 2.8% and 3.1%. On current traffic that is a 55% revenue increase without spending anything more on acquisition.",
     },
     {
@@ -238,7 +238,7 @@ export const ecommerceMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Agreed. I will write the CRO brief and have it ready by Friday. One page per issue — problem, evidence, recommended fix, and the metric we are testing against.",
     },
   ],

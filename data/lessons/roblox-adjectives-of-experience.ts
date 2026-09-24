@@ -58,7 +58,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Focused on winning; the players are strongly motivated to beat each other.",
       example: "The trading zone gets competitive fast — everyone is trying to get the best deal.",
-      imageSlug: '/images/roblox-adjectives-of-experience-competitive.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adjectives-of-experience-competitive.png',
     },
     {
       word: 'FRUSTRATING',
@@ -206,7 +206,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, I have been writing a review of the new Roblox RPG for the fan page. Can you give me your honest opinion?",
     },
     {
@@ -218,7 +218,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Agreed. But the resource gathering section is painfully [[repetitive:involves doing the same action again and again]] — the same five items on the same loop, every single time.",
     },
     {
@@ -230,7 +230,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The PvP arena gets very [[competitive:strongly focused on winning and beating others]] at higher levels — people are absolutely serious about their rankings.",
     },
     {
@@ -242,7 +242,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is valid. But beating them eventually is so [[rewarding:gives you a genuine sense of satisfaction]] — every failed attempt feels worth it when you finally win.",
     },
     {
@@ -254,7 +254,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "And the final tournament mode is the most [[intense:extremely high-pressure and emotionally powerful]] thing I have ever played — my hands were shaking during the last round.",
     },
     {

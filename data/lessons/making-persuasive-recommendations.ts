@@ -6,7 +6,7 @@ export const makingPersuasiveRecommendations: Lesson = {
   subtitle: 'How to use modal verbs to recommend with confidence, without sounding pushy',
   level: 'B1-B2',
   description: "Learn how to make clear, confident recommendations in a sales context using modal verbs — understanding when 'should' signals strong conviction, when 'could' opens options, and when 'would' makes your recommendation feel personal and considered.",
-  heroImage: '/images/making-persuasive-recommendations-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-persuasive-recommendations-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const makingPersuasiveRecommendations: Lesson = {
       partOfSpeech: 'noun',
       definition: "A suggestion that something is the best course of action, based on what you know about the person's situation — not a generic opinion.",
       example: 'A strong recommendation is specific to the person you are talking to — it should reference what they told you, not just what you usually say.',
-      imageSlug: '/images/making-persuasive-recommendations-recommendation.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-persuasive-recommendations-recommendation.png',
     },
     {
       word: 'COMPELLING',
       partOfSpeech: 'adjective',
       definition: 'Strongly persuasive and difficult to argue against — a compelling recommendation gives someone a clear reason to act.',
       example: 'The most compelling recommendations connect directly to a pain point the prospect named themselves — they cannot easily dismiss something they already said was a problem.',
-      imageSlug: '/images/making-persuasive-recommendations-compelling.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-persuasive-recommendations-compelling.png',
     },
     {
       word: 'HESITATION',
       partOfSpeech: 'noun',
       definition: "Uncertainty or reluctance to commit — a prospect's hesitation is useful information, not an obstacle. It tells you what is still unresolved.",
       example: 'If there is hesitation after a recommendation, do not push harder — ask what is behind it. There is usually a specific concern you have not addressed yet.',
-      imageSlug: '/images/hesitation.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/hesitation.png',
     },
     {
       word: 'TAILORED',
       partOfSpeech: 'adjective',
       definition: "Designed or adapted specifically for a particular person's situation — the opposite of a generic or one-size-fits-all proposal.",
       example: "A tailored recommendation always begins with what you heard — 'based on what you told me' signals that this is not your standard pitch.",
-      imageSlug: '/images/making-persuasive-recommendations-tailored.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-persuasive-recommendations-tailored.png',
     },
     {
       word: 'TENTATIVE',
       partOfSpeech: 'adjective',
       definition: 'Not fully confident or committed — offering something as a possibility rather than a clear view. Useful when you want to leave room for the prospect to push back.',
       example: "When a prospect is risk-averse, a tentative recommendation using 'could' or 'might' feels safer than a confident 'should' — it gives them control.",
-      imageSlug: '/images/making-persuasive-recommendations-tentative.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-persuasive-recommendations-tentative.png',
     },
     {
       word: 'ASSERT',
       partOfSpeech: 'verb',
       definition: 'To state something with confidence and directness — to make your recommendation clearly without excessive hedging or qualification.',
       example: 'The best salespeople know when to assert — when you have done the discovery and know the solution fits, a clear recommendation is more respectful than a vague one.',
-      imageSlug: '/images/assert.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/assert.png',
     },
     {
       word: 'PROPOSITION',
       partOfSpeech: 'noun',
       definition: 'A proposed course of action or offer put forward for consideration — what you are recommending and why it makes sense.',
       example: 'Before you make a proposition, earn the right to make it — a recommendation lands better when the prospect already trusts that you understand their situation.',
-      imageSlug: '/images/making-persuasive-recommendations-proposition.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-persuasive-recommendations-proposition.png',
     },
     {
       word: 'CONVINCE',
       partOfSpeech: 'verb',
       definition: 'To persuade someone that something is true or the right course of action — but in sales, the goal is not to convince through pressure, it is through clarity.',
       example: 'You do not need to convince someone who already recognises the problem — you just need to make the path to solving it feel clear and low-risk.',
-      imageSlug: '/images/convince.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/convince.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const makingPersuasiveRecommendations: Lesson = {
       phrase: 'BASED ON WHAT YOU HAVE TOLD ME',
       definition: "Ground your recommendation in the prospect's own words — signals that you listened and that what follows is tailored, not generic.",
       example: 'Based on what you have told me about your team size and the visibility gap, I would suggest starting with the pipeline dashboard before anything else.',
-      imageSlug: '/images/based-on-what-you-have-told-me.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/based-on-what-you-have-told-me.png',
     },
     {
       phrase: 'I WOULD SUGGEST',
       definition: "A confident but non-pushy way to introduce a recommendation — 'would' makes it feel considered rather than prescriptive.",
       example: 'I would suggest a phased approach — start with the core pipeline tool in month one, and add the reporting layer once the team has adopted the basics.',
-      imageSlug: '/images/i-would-suggest.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-would-suggest.png',
     },
     {
       phrase: 'YOU COULD START WITH',
       definition: "A softer, lower-commitment entry point — 'could' gives the prospect options and signals that you are not trying to force a particular path.",
       example: 'You could start with just the manager dashboard — it gives you the visibility you need without requiring any change from the reps at this stage.',
-      imageSlug: '/images/you-could-start-with.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/you-could-start-with.png',
     },
     {
       phrase: 'WHAT I WOULD RECOMMEND IS',
       definition: 'A direct and confident framing — signals that you have a clear, considered view and are willing to state it.',
       example: 'What I would recommend is the full pipeline plan — based on what you described, the core tool alone would not solve the follow-up piece, and you would end up coming back for the rest.',
-      imageSlug: '/images/what-i-would-recommend-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-i-would-recommend-is.png',
     },
     {
       phrase: 'THAT WOULD GIVE YOU',
       definition: 'Show the direct consequence or benefit of following the recommendation — connects your suggestion to a specific outcome the prospect wants.',
       example: 'Starting with the dashboard would give you the visibility you mentioned straight away — you would not need to wait for a full rollout to see the impact.',
-      imageSlug: '/images/that-would-give-you.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/that-would-give-you.png',
     },
     {
       phrase: 'IF I WERE IN YOUR POSITION',
       definition: "Build empathy and credibility by thinking from the prospect's perspective — signals that your recommendation is personal and honest, not just a sales script.",
       example: 'If I were in your position — a growing team, a broken manual process, and deals slipping through — I would want to fix the visibility problem first before adding anything else.',
-      imageSlug: '/images/if-i-were-in-your-position.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/if-i-were-in-your-position.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const makingPersuasiveRecommendations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Marcus, based on what you have told me, I want to give you a clear [[recommendation:a suggestion of the best course of action based on what you know about the situation]] rather than just leaving you with a few options to think about. Is that all right?',
     },
     {
@@ -124,7 +124,7 @@ export const makingPersuasiveRecommendations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Good. What I would recommend is starting with the Pipeline Visibility plan. You have told me the core problem is that you cannot see what is happening until it is too late — and that is exactly what this solves first.',
     },
     {
@@ -136,7 +136,7 @@ export const makingPersuasiveRecommendations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'I would [[assert:to state something with confidence and directness]] that you should get the visibility layer working first. Once your team can see deal status in real time, the follow-up behaviour often improves on its own — because the problem becomes visible. You could add the automation layer in month two, once you have seen where the gaps actually are.',
     },
     {
@@ -148,7 +148,7 @@ export const makingPersuasiveRecommendations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Not yet — and I want to be direct about that. The full platform is [[compelling:strongly persuasive and difficult to argue against]] for teams that have already solved the basics. If I were in your position — twelve reps, a [[tailored:designed specifically for a particular person's situation]] fix needed fast — I would not want to be learning three new tools at once. Start focused.",
     },
     {
@@ -160,7 +160,7 @@ export const makingPersuasiveRecommendations: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That would give you a bad experience and you would blame the tool instead of thanking it. The right [[proposition:a proposed course of action put forward for consideration]] is the one that works for where you are now. That would give you a win in the first thirty days — and that is what [[convince:to persuade someone that something is the right course of action]]s the rest of the business that this is worth investing in.',
     },
     {

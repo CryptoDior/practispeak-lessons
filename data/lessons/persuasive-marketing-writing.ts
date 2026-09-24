@@ -6,7 +6,7 @@ export const persuasiveMarketingWriting: Lesson = {
   subtitle: 'How to write copy that moves people — from a headline that stops the scroll to a CTA that gets the click',
   level: 'B1-B2',
   description: "Most marketing writing fails not because the product is wrong, but because the words don't earn attention or build enough desire to act. Persuasive marketing writing is a learnable skill — it follows patterns, uses specific techniques, and can be tested and improved. This lesson teaches you the vocabulary of copywriting: CTAs, headlines, hooks, benefit-led language, and power words. Then it puts those skills to work in the real task of writing a high-converting landing page for a B2B product.",
-  heroImage: '/images/persuasive-marketing-writing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/persuasive-marketing-writing-hero.png',
 
   vocabulary: [
     {
@@ -160,19 +160,19 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Right — let's review the landing page draft. I've read it twice and I have some significant feedback. The bones are good, but the copy isn't doing the job we need it to do.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "I had the same feeling when I reviewed it. What's your main concern?",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The [[headline:the first and most prominent line of copy that must stop the reader and make them keep reading]]. Right now it says 'Welcome to MarketBridge'. That's not a headline — it's a greeting. The headline needs to stop the scroll. It needs to speak to the reader's problem in the first line.",
     },
     {
@@ -184,13 +184,13 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Something like: 'Stop losing deals to slow content approvals'. Or: 'Your compliance team shouldn't be the reason your campaigns are late'. Those are [[benefit-led:copy that leads with what the customer gains rather than what the product does]] — they speak to a frustration this audience knows deeply.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "I like the second one. It's specific and it feels personal. What about the [[hook:the opening element that captures attention and makes the reader feel this content was written for them]]? The page currently opens with three sentences about the company's history.",
     },
     {
@@ -202,19 +202,19 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Replace the history with a hook. Start with a statistic: '68% of marketing teams in regulated industries say content approval is their biggest bottleneck. MarketBridge cuts that time by 60%.' That's a [[hook:the opening that makes the reader feel this content was written specifically for them]] that selects exactly the right reader.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The features section also needs work. It's a bullet list of what the product does — it's not [[benefit-led]] at all. 'Real-time compliance alerts' doesn't mean anything emotional. What does it mean for the reader?",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Lead with the benefit, not the feature. 'Never miss a compliance issue again — our alerts catch problems the moment they appear.' Same feature, but now the benefit is in the first line and the feature is the proof behind it.",
     },
     {
@@ -226,13 +226,13 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "I'll add a section above the final CTA. From the sales team, the three most common objections are: implementation time, contract length, and whether it works for their tech stack. Address the objection before the reader raises it — 'Set up in 48 hours. Month-to-month contracts. Integrates with the tools you already use.'",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That section is doing the work of a sales call on the page. Last thing — the [[CTA:Call to Action — the specific instruction telling the reader what to do next]]. 'Submit' has to go. What's the action and what's the reward?",
     },
     {
@@ -244,13 +244,13 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Then the CTA is: 'Get your free content audit — delivered in 48 hours'. And it needs to be [[above the fold:the section of a page visible without scrolling — the first thing a visitor sees]] on both desktop and mobile. If they have to scroll to find the button, half of them won't.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "I'll have the rewrite ready by tomorrow morning. One headline with a specific outcome, a stat-led hook, benefit-led features, an objection section, and a strong CTA above the fold. Let's see what it does to conversion.",
     }
   ],

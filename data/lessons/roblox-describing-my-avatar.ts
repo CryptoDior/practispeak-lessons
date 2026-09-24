@@ -14,56 +14,56 @@ export const robloxDescribingMyAvatar: Lesson = {
       partOfSpeech: 'noun',
       definition: "The part on top of your avatar's head — you can choose the length, style, and colour.",
       example: "My avatar has long, dark hair with a small blue flower accessory on the side.",
-      imageSlug: '/images/roblox-describing-my-avatar-hair.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-hair.png',
     },
     {
       word: 'OUTFIT',
       partOfSpeech: 'noun',
       definition: "All the clothes your avatar is wearing together — the complete look from head to toe.",
       example: "I saved three outfits in my avatar editor — casual, warrior, and formal!",
-      imageSlug: '/images/roblox-describing-my-avatar-outfit.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-outfit.png',
     },
     {
       word: 'DARK',
       partOfSpeech: 'adjective',
       definition: "A colour that is deep and not bright — like dark blue, dark green, or black.",
       example: "My avatar wears dark armour with a dark red cape — it looks very powerful!",
-      imageSlug: '/images/roblox-describing-my-avatar-dark.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-dark.png',
     },
     {
       word: 'BRIGHT',
       partOfSpeech: 'adjective',
       definition: "A very strong, clear, and vivid colour — like bright yellow, bright pink, or neon green.",
       example: "My avatar has a bright orange hat — you can spot it from the other side of the map!",
-      imageSlug: '/images/roblox-describing-my-avatar-bright.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-bright.png',
     },
     {
       word: 'SLIM',
       partOfSpeech: 'adjective',
       definition: "Thin in shape — not wide or thick. You can adjust your avatar's body shape in the editor.",
       example: "I made my avatar slim and tall — it looks just like a real athlete!",
-      imageSlug: '/images/roblox-describing-my-avatar-slim.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-slim.png',
     },
     {
       word: 'STYLE',
       partOfSpeech: 'noun',
       definition: "How your avatar looks — the clothes, colours, and hair all together.",
       example: "My avatar's style is sporty — trainers, a tracksuit, and a baseball cap.",
-      imageSlug: '/images/roblox-describing-my-avatar-style.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-style.png',
     },
     {
       word: 'APPEARANCE',
       partOfSpeech: 'noun',
       definition: "What your avatar looks like from the outside — everything you can see about them.",
       example: "I spent an hour on my avatar's appearance — every detail is exactly how I wanted it!",
-      imageSlug: '/images/roblox-describing-my-avatar-appearance.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-appearance.png',
     },
     {
       word: 'UNIQUE',
       partOfSpeech: 'adjective',
       definition: "One of a kind — completely different from everyone else. Nobody has the same look as you!",
       example: "My avatar is completely unique — I designed every part myself and nobody looks the same.",
-      imageSlug: '/images/roblox-describing-my-avatar-unique.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-unique.png',
     },
   ],
 
@@ -73,56 +73,56 @@ export const robloxDescribingMyAvatar: Lesson = {
       partOfSpeech: 'noun',
       definition: "The hair on a real person's head — long or short, light or dark.",
       example: "My hair is dark brown and quite long — it reaches just past my shoulders.",
-      imageSlug: '/images/roblox-describing-my-avatar-hair-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-hair-irl.png',
     },
     {
       word: 'OUTFIT',
       partOfSpeech: 'noun',
       definition: "The clothes a real person is wearing — the complete combination of items.",
       example: "I wore my best outfit to the school concert — a white shirt and smart dark trousers.",
-      imageSlug: '/images/roblox-describing-my-avatar-outfit-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-outfit-irl.png',
     },
     {
       word: 'DARK',
       partOfSpeech: 'adjective',
       definition: "A strong colour that is not bright — like dark blue, dark brown, or black.",
       example: "He has dark eyes and dark hair — he looks just like his father.",
-      imageSlug: '/images/roblox-describing-my-avatar-dark-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-dark-irl.png',
     },
     {
       word: 'BRIGHT',
       partOfSpeech: 'adjective',
       definition: "A very strong, bright colour — you see it right away!",
       example: "She was wearing a bright yellow jacket — you could see her from the other side of the street!",
-      imageSlug: '/images/roblox-describing-my-avatar-bright-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-bright-irl.png',
     },
     {
       word: 'SLIM',
       partOfSpeech: 'adjective',
       definition: "Thin — not big or wide. It is how you describe a person's body.",
       example: "My cat is very slim and elegant — she moves like a dancer.",
-      imageSlug: '/images/roblox-describing-my-avatar-slim-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-slim-irl.png',
     },
     {
       word: 'STYLE',
       partOfSpeech: 'noun',
       definition: "The way a person dresses and presents themselves — their personal fashion sense.",
       example: "Her style is very colourful and creative — she always wears interesting, unusual clothes.",
-      imageSlug: '/images/roblox-describing-my-avatar-style-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-style-irl.png',
     },
     {
       word: 'APPEARANCE',
       partOfSpeech: 'noun',
       definition: "What a person looks like — everything visible about them from the outside.",
       example: "How you look at a job interview is important — dress nicely and look good.",
-      imageSlug: '/images/roblox-describing-my-avatar-appearance-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-appearance-irl.png',
     },
     {
       word: 'UNIQUE',
       partOfSpeech: 'adjective',
       definition: "One of a kind — not like anyone or anything else. There is only one!",
       example: "Everyone has a unique fingerprint — no two people in the world have the same one.",
-      imageSlug: '/images/roblox-describing-my-avatar-unique-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-unique-irl.png',
     },
   ],
 
@@ -133,7 +133,7 @@ export const robloxDescribingMyAvatar: Lesson = {
       example: "What does your avatar look like? I want to find you on the server!",
       inGame: "What does your new avatar look like? Describe the hair and outfit!",
       inRealLife: "What does the new student look like? Describe them so I can say hello.",
-      imageSlug: '/images/roblox-describing-my-avatar-what-does-it-look-like.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-what-does-it-look-like.png',
     },
     {
       phrase: "IT HAS...",
@@ -141,7 +141,7 @@ export const robloxDescribingMyAvatar: Lesson = {
       example: "It has long dark hair, bright blue eyes, and a golden crown accessory.",
       inGame: "It has a slim body, dark armour, and a bright red cape.",
       inRealLife: "She has short bright hair, a slim build, and a very colourful style.",
-      imageSlug: '/images/roblox-describing-my-avatar-it-has.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-it-has.png',
     },
     {
       phrase: "THE ADJECTIVE GOES BEFORE THE NOUN",
@@ -149,7 +149,7 @@ export const robloxDescribingMyAvatar: Lesson = {
       example: "Say 'a tall dark character' — NOT 'a character tall dark'. The adjective comes first!",
       inGame: "Say 'bright orange hair' not 'hair bright orange' — adjectives go before nouns!",
       inRealLife: "Say 'a beautiful old building' — the adjectives come before the noun.",
-      imageSlug: '/images/roblox-describing-my-avatar-adjective-before-noun.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-adjective-before-noun.png',
     },
     {
       phrase: "IN MY OPINION...",
@@ -157,7 +157,7 @@ export const robloxDescribingMyAvatar: Lesson = {
       example: "In my opinion, a unique avatar with a clear style is always more impressive!",
       inGame: "In my opinion, dark armour with bright accessories looks the coolest.",
       inRealLife: "In my opinion, simple and neat is always the best style for an interview.",
-      imageSlug: '/images/roblox-describing-my-avatar-in-my-opinion.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-in-my-opinion.png',
     },
     {
       phrase: "IT SUITS YOU!",
@@ -165,7 +165,7 @@ export const robloxDescribingMyAvatar: Lesson = {
       example: "It suits you! The blue cape matches your avatar's hair perfectly!",
       inGame: "It suits you! The warrior outfit fits your fighting game character perfectly.",
       inRealLife: "It suits you! That colour of jacket really works with your skin tone.",
-      imageSlug: '/images/roblox-describing-my-avatar-it-suits-you.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-it-suits-you.png',
     },
     {
       phrase: "DESCRIBE YOURSELF",
@@ -173,7 +173,7 @@ export const robloxDescribingMyAvatar: Lesson = {
       example: "Describe yourself in Roblox! Start with height, then hair, then outfit.",
       inGame: "Describe your avatar — use adjectives before nouns and be specific!",
       inRealLife: "Describe yourself in English — say out loud what you look like. Try it now!",
-      imageSlug: '/images/roblox-describing-my-avatar-describe-yourself.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-describe-yourself.png',
     },
   ],
 
@@ -183,7 +183,7 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, I redesigned my avatar completely! I spent two hours on its [[appearance:what someone looks like from the outside]].",
     },
     {
@@ -195,7 +195,7 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "OK! It has short, [[dark:deep colour, not bright]] hair with a silver streak. And a [[bright:strong vivid colour]] red cape over dark metal armour.",
     },
     {
@@ -207,7 +207,7 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Very tall and [[slim:thin in shape]] — but with big armour so it looks strong. The [[style:the overall look and feel]] is like a dark knight warrior.",
     },
     {
@@ -219,7 +219,7 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Completely [[unique:one of a kind]]! I designed every detail myself. Notice how I say 'short dark hair' — adjective before noun, like the grammar rule!",
     },
     {
@@ -231,7 +231,7 @@ export const robloxDescribingMyAvatar: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Now describe YOUR avatar! What does it look like? I want to find your colourful avatar on the server.",
     },
     {

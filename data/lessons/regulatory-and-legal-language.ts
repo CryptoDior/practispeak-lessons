@@ -6,7 +6,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
   subtitle: 'How to read, write, and review marketing copy that meets legal and regulatory requirements',
   level: 'C1-C2',
   description: 'Every piece of marketing copy — an ad, a product claim, a social post — has to meet legal and regulatory standards. Getting this wrong can mean fines, complaints, or forced withdrawal of a campaign. In regulated industries like financial services, healthcare, or food, the standards are even stricter. This lesson gives you the vocabulary to understand what the rules require, brief a legal team, and write copy that is both compelling and compliant.',
-  heroImage: '/images/regulatory-and-legal-language-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/regulatory-and-legal-language-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "No. Absolutely not. The [[FCA:the Financial Conduct Authority, which regulates financial services marketing]] prohibits any claim that suggests investment returns are guaranteed. That headline would never get [[legal sign-off:formal written approval from the legal team that content is compliant]].",
     },
     {
@@ -130,7 +130,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "'Proven track record' is a [[misleading claim:any statement that creates a false impression, even if technically true]] risk. We need [[substantiation:evidence that proves a claim is true]] for 'proven'. How many years of data? Against which benchmark? The [[ASA:the Advertising Standards Authority, which enforces advertising rules in the UK]] will ask those questions if there's a complaint.",
     },
     {
@@ -142,7 +142,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Better. The disclaimer needs to say: 'Past performance does not guarantee future results. Capital at risk.' That's the minimum the FCA requires for any investment product ad.",
     },
     {
@@ -154,7 +154,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That claim needs substantiation. When was the survey? How many respondents? Is the sample representative? We need the data in writing before the [[compliance review:a check of marketing content against regulatory requirements]].",
     },
     {
@@ -166,7 +166,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Four years old — that's a problem. A lot changes in four years. The [[ASA]] is likely to consider a 2022 study stale for a 2026 claim. This falls outside what we can say without a more recent data set.",
     },
     {
@@ -178,7 +178,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Run a new survey — it'll take two weeks but it's worth it. In the meantime, replace the stat with a testimonial. A real quote from a real client is lower risk and doesn't require the same level of substantiation as a headline percentage claim.",
     },
     {
@@ -190,7 +190,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Yes. The form needs a clear consent checkbox, a link to the privacy policy, and a statement of how the data will be used. Don't launch the landing page without that — GDPR compliance isn't optional and the fines are significant.",
     }
   ],

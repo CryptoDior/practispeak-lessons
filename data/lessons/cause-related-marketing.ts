@@ -6,7 +6,7 @@ export const causeRelatedMarketing: Lesson = {
   subtitle: 'How to talk about purpose, social impact, and ESG — and how to communicate a brand\'s values without sounding performative',
   level: 'C1-C2',
   description: "Consumers today expect more from the brands they buy from than a good product at a fair price. They want to know what the company stands for — what it believes in, what it contributes to, and whether those beliefs are genuine or simply a marketing strategy. Cause-related marketing, purpose-led branding, CSR, and ESG have become central topics in modern marketing. This lesson gives you the vocabulary to participate confidently in these conversations — including the language for spotting what is authentic and what is not.",
-  heroImage: '/images/cause-related-marketing-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cause-related-marketing-hero.png',
 
   vocabulary: [
     {
@@ -160,13 +160,13 @@ export const causeRelatedMarketing: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The purpose needs to be credible, not performative. Right now, the purpose statement says we exist to 'improve people's relationship with food.' I want to know the decisions this purpose has driven that cost us something. If every purpose-aligned decision has also been commercially convenient, the purpose is decoration.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Good question. Three examples of real purpose decisions: we discontinued the high-sugar range two years ago at a cost of £4 million in annual revenue. We pay suppliers above the living wage across our full supply chain. And we committed to fully recyclable packaging by 2025 before it was legally required — at significant cost.",
     },
     {
@@ -178,13 +178,13 @@ export const causeRelatedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Two claims concern me. 'Sustainable packaging' — our packaging is 60% recycled but not fully sustainable by any recognised standard. And 'carbon neutral' — we are offset-based, not zero emissions. Both need either substantiation or rewording before the campaign goes live.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We also need to address [[ethical consumerism:consumer purchasing decisions based on the ethics of the company]] — our research shows 63% of our target customers factor ethical credentials into purchase decisions. The brand cannot afford to fail that test. The consumer can spot inauthenticity — if the campaign says one thing and our actions say another, that gap will be found.",
     },
     {
@@ -196,13 +196,13 @@ export const causeRelatedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Understood. And the cause partnership — we need a long-term commitment, not a one-off campaign. I am proposing a three-year founding partnership, annual impact report, and a named funding target. Not a campaign sponsor relationship.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "And one more thing for the board — purpose-led does not mean profit-free. The commercial case is strong. Purpose-aligned customers have 34% higher lifetime value. [[Brand activism:when a brand takes a public stance on social or environmental issues beyond charitable donations]] built carefully creates the kind of trust that is the hardest thing to build with a marketing budget alone.",
     },
   ],

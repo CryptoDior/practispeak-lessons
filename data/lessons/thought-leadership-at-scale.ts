@@ -6,7 +6,7 @@ export const thoughtLeadershipAtScale: Lesson = {
   subtitle: 'How to build authority and communicate original ideas across large audiences',
   level: 'C1-C2',
   description: 'Thought leadership is more than just having an opinion — it\'s the ability to communicate ideas in a way that shapes how others think. The best thought leaders don\'t just talk about their industry; they change how people in their industry see a problem. This lesson covers the formats, vocabulary, and techniques used by senior leaders, consultants, and CMOs to build influence at scale — from keynote stages to published manifestos.',
-  heroImage: '/images/thought-leadership-at-scale-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/thought-leadership-at-scale-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "'The Future of Marketing' is too broad. A [[TED-style talk:a short, structured public talk built around one clear idea]] needs one idea — not a category. What does she actually believe that most people get wrong?",
     },
     {
@@ -130,7 +130,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's a [[point of view:a clear, specific position on a topic that signals a defined perspective]]. And it's got tension — a lot of people disagree with it, which means the audience has a reason to listen. Now, what's the [[original insight:an observation the audience hasn't heard before]] that proves she's right?",
     },
     {
@@ -142,7 +142,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Perfect. That's your hook. 'The conventional wisdom is that brand and performance are separate disciplines. But the data says this separation is costing companies almost a third of their potential growth.' Now you have a talk.",
     },
     {
@@ -154,7 +154,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "A manifesto is bolder than an article. A manifesto takes a position and calls for action. An [[op-ed:a short opinion article published in a newspaper or online]] is a more contained argument. Given it's her first major piece, I'd start with an op-ed in a respected trade publication. Prove the argument. Then build toward a manifesto.",
     },
     {
@@ -166,7 +166,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The keynote is the moment. Build the [[platform]] around that one topic — the false separation of brand and performance. Two or three LinkedIn posts in the weeks before the talk. The op-ed drops the same week as the keynote. Then she continues the conversation for three months after. That's how you build authority.",
     },
     {
@@ -178,7 +178,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "No agenda slides. Open with: 'Let me tell you what everyone in this room is getting wrong.' Pause. Then give them the number — 28%. Then tell them why. That's 90 seconds and the room is with her. Never open a keynote with an agenda — the audience tunes out immediately.",
     }
   ],

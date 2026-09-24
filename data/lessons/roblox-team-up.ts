@@ -14,14 +14,14 @@ export const robloxTeamUp: Lesson = {
       partOfSpeech: 'noun',
       definition: "A group of players who play together and try to win the same game.",
       example: "Our team won the round — we all helped each other and did not give up!",
-      imageSlug: '/images/roblox-team-up-team.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-team-up-team.png',
     },
     {
       word: 'SQUAD',
       partOfSpeech: 'noun',
       definition: "A small, close group of players — your own group of friends you always play with.",
       example: "My squad has four people — we always play together every Friday night!",
-      imageSlug: '/images/roblox-team-up-squad.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-team-up-squad.png',
     },
     {
       word: 'PARTY',
@@ -189,7 +189,7 @@ export const robloxTeamUp: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Yes! Let me join your [[party:a group of players in the same game]]. I will invite Tom too — then we will have three [[members:players who are part of the team]].",
     },
     {
@@ -201,7 +201,7 @@ export const robloxTeamUp: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Of course! What is the [[plan:your idea for how to win]]? What do you want me and Tom to do?",
     },
     {
@@ -213,7 +213,7 @@ export const robloxTeamUp: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Got it! We all need to [[help out:help the people on your team]] — if one person stops, the whole [[team:group playing together]] gets beaten.",
     },
     {
@@ -225,7 +225,7 @@ export const robloxTeamUp: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "We did it! The boss is down! Good [[teamwork:working well together as a group]]! This is just like my football team in real life — same words, same ideas.",
     },
     {
@@ -237,7 +237,7 @@ export const robloxTeamUp: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "See! TEAM, LEADER, PLAN, [[help out:help the people on your team]] — the same in Roblox and in school. Let us play one more round — [[squad:your close group of friends you always play with]] goals!",
     },
   ],

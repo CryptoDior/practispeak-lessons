@@ -6,7 +6,7 @@ export const marketSegmentationInDepth: Lesson = {
   subtitle: 'How to describe your ideal customer precisely — and use that description to make every marketing decision sharper',
   level: 'B1-B2',
   description: 'Great marketing starts with a clear picture of who you are talking to. In this lesson you will learn the language of customer segmentation — how to describe audiences by behaviour, mindset, and need — and how to write a detailed customer persona that your whole team can use.',
-  heroImage: '/images/market-segmentation-in-depth-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/market-segmentation-in-depth-hero.png',
 
   vocabulary: [
     {
@@ -63,7 +63,7 @@ export const marketSegmentationInDepth: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A specific problem or frustration that a customer experiences — and that your product or service solves.',
       example: 'The number one pain point for our persona is wasted marketing budget with no proof of results. Every piece of content we create addresses that directly.',
-      imageSlug: '/images/market-segmentation-in-depth-pain-point.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/market-segmentation-in-depth-pain-point.png',
     }
   ],
 
@@ -112,73 +112,73 @@ export const marketSegmentationInDepth: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'Riley — before we write the campaign brief, I want to make sure we have the [[persona:a detailed profile of a realistic customer built from real data]] right. Who are we actually writing for?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good call. Based on TechFlow's best clients, the [[profile:a summary of who the customer is — role, industry, goals, challenges]] looks like this: Operations Director, manufacturing company, 100 to 500 employees, recently given a cost-reduction target by the board.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'That is the [[demographic:basic factual information about a person — job title, company size, industry]]. What do we know about the psychographic layer — how does she actually think?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'From the client interviews, she is [[psychographic:relating to how people think, what they value, what motivates them]] very outcome-focused — she does not care about marketing theory, she cares about what happened when someone like her used the product. She makes decisions based on peer recommendations and case studies, not sales calls.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'And [[behavioural:relating to what people actually do — how they search, buy, and engage]]? How does she actually find and evaluate solutions?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'She searches on LinkedIn, reads two or three reviews, downloads a case study — and if the numbers are strong, she books a call within 48 hours. That [[behavioural:relating to actual behaviour]] pattern tells us exactly where to put the case studies in the campaign.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'What is her [[need-state:the specific problem driving someone to look for a solution right now]] — what is happening in her world that makes her look for something like TechFlow?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'The [[need-state:the emotional and practical context behind a purchase]] is pressure — she has been told to cut costs by 20% before December and she is running out of options. The [[pain point:a specific problem your product solves]] is not just the cost target — it is the fear of going into the board meeting without being able to show evidence.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'So the campaign needs to [[speak to:address a specific customer problem directly in your marketing]] that fear — not just the features.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Exactly. Every piece of content needs to [[resonate with:connect at an emotional or practical level]] someone in that [[need-state:the problem driving them to look for a solution]]. Let me [[map out:plan all the steps from first awareness to purchase]] the journey — so we know what she needs to see at each stage before she will book a call.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: 'And for the email campaign, we [[filter:narrow down by applying specific criteria]] the database by role and company size first?',
     },
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Yes — filter by operations role, 100 to 500 employees, and any [[behavioural:relating to actual behaviour]] signal like content downloads in the last 90 days. That is our warm [[segment:a distinct group that shares specific characteristics and can be reached with the same message]]. Everything we send them should feel like it was written specifically for their situation — because it was.',
     }
   ],

@@ -197,7 +197,7 @@ export const robloxReviewB2Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is exactly what Block 2 was for. Go on then — give me the full debrief.",
     },
     {
@@ -209,7 +209,7 @@ export const robloxReviewB2Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "She was. [[furthermore:also — used to add another point that makes your argument stronger]], she code-switched effortlessly between casual team chat and the formal tone she used when speaking to the tournament official — which made a strong impression.",
     },
     {
@@ -221,7 +221,7 @@ export const robloxReviewB2Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Good. [[consequently:as a result — used to show one thing caused another]], we had to adapt the formation mid-match — but we did it. The [[turning point:the moment when a situation begins to change]] was when Mia zoomed in on what the opponent was doing and called it out clearly.",
     },
     {
@@ -233,7 +233,7 @@ export const robloxReviewB2Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Arguably the most important call of the tournament. The result was [[outstanding:extremely good — clearly better than everything else]] — not just good. And when Kai and Rin had that tension after round three?",
     },
     {
@@ -245,7 +245,7 @@ export const robloxReviewB2Block2: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "To sum up: more precise language made us a better team. It did not happen by accident. Now — let's wrap up and move on to Block 3.",
     },
   ],

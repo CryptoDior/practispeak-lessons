@@ -6,7 +6,7 @@ export const reviewDigitalMarketingMix: Lesson = {
   subtitle: 'Consolidate everything you have learned — from SEO and paid social to content, data, and strategy',
   level: 'B1-B2',
   description: "This lesson brings together the key vocabulary and concepts from across the B1-B2 marketing series. You will review the core terms from digital marketing — including SEO, paid media, social media advertising, customer journey, content marketing, and campaign strategy — and practise using them together in realistic contexts. By the end, you should be able to discuss a complete digital marketing mix confidently in a professional setting.",
-  heroImage: '/images/review-digital-marketing-mix-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/review-digital-marketing-mix-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Sure. Our mix this quarter included: paid search, paid social on LinkedIn and Instagram, email marketing, [[content marketing:creating valuable content to attract and engage an audience]], and SEO. The goal was to generate leads across the [[funnel:the stages a customer moves through from awareness to conversion]] — awareness through to conversion.",
     },
     {
@@ -130,7 +130,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Strong. We are now ranking on page one for six high-intent keywords. Organic traffic is up 34% quarter on quarter. Three blog articles are each generating over 500 visits a month at zero ongoing cost. That is the content marketing investment paying off — it is a long-term asset.",
     },
     {
@@ -142,7 +142,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Paid search is the channel driving the most leads — 58% of total conversions this quarter. Our cost per click on high-intent keywords averages £2.40 and the landing page [[conversion rate:the percentage of people who take a desired action]] is 3.8%.",
     },
     {
@@ -154,7 +154,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "LinkedIn is performing best. We refined the [[targeting:deciding who sees your ads]] to marketing managers and heads of marketing at companies with 100 to 1,000 employees. The lookalike audience based on our best customers has a cost per lead 20% lower than our standard demographic targeting.",
     },
     {
@@ -166,7 +166,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Email is our highest-converting channel in terms of rate — 6.2% conversion on our nurture sequence. But it only reaches existing contacts, so volume is limited. We are tracking this against a benchmark of 4% and we are well above it.",
     },
     {
@@ -178,7 +178,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Top of the funnel — display advertising and organic blog content are driving awareness and reach. At the bottom of the funnel — paid search and email retargeting are converting people who are already in consideration or ready to decide.",
     },
     {
@@ -190,7 +190,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Two things. First, let's optimise the Instagram campaign — the creative has high impressions but low click-through rate. I want to run an A/B test on the visual and the copy. Second, I want to invest more in [[content marketing:creating valuable content to attract and engage an audience]] — our blog is already compounding and three more cornerstone articles in Q4 could double our organic traffic by Q1 next year.",
     },
     {
@@ -202,7 +202,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Objective: 600 qualified leads. Budget: £45k across all channels. Mix: paid search 50%, LinkedIn 25%, email 10%, content and SEO 15%. Target cost per lead: £30. I will circulate the full campaign brief before the end of the week.",
     },
   ],

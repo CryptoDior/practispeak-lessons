@@ -6,7 +6,7 @@ export const salesLeadershipCommunication: Lesson = {
   subtitle: 'The internal language of sales leadership — coaching conversations, pipeline reviews, target-setting, and the strategic communication that drives team performance',
   level: 'C1-C2',
   description: "Sales leadership requires a distinct set of communication skills that are entirely different from those used in customer-facing conversations. Where a salesperson persuades, a sales leader coaches. Where a salesperson closes, a sales leader develops capability. The most effective sales managers spend the majority of their time in conversations that build their team's judgement rather than providing answers — asking questions that help a rep discover the right course of action rather than prescribing it. This lesson teaches the internal language of B2B sales leadership: how to run a pipeline review that surfaces real risk rather than polished projections, how to coach without telling, how to set and communicate targets in a way that creates clarity rather than anxiety, and how to communicate strategic direction in a way that enables every member of the team to execute with autonomy.",
-  heroImage: '/images/sales-leadership-communication-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-leadership-communication-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const salesLeadershipCommunication: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The revenue target a salesperson is expected to hit in a given period. It is set by the sales manager and used to measure individual performance.',
       example: 'The team finished the quarter at 115% of quota — every rep exceeded their individual target, with the top performer closing 15% above their assigned number.',
-      imageSlug: '/images/quota.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/quota.png',
     },
     {
       word: 'ATTAINMENT',
       partOfSpeech: 'noun',
       definition: 'The percentage of quota a salesperson or team has achieved in a given period. It shows how close they are to hitting their target.',
       example: 'At 58% attainment at the mid-point of the quarter, the team needed to accelerate three key deals to close the gap before quarter-end.',
-      imageSlug: '/images/attainment.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/attainment.png',
     },
     {
       word: 'COACHING',
       partOfSpeech: 'noun',
       definition: "Regular one-to-one sessions between a sales manager and a rep to develop skills, review deals, and improve performance through questioning and reflection rather than giving direct answers.",
       example: 'Weekly coaching sessions helped identify a gap in the rep\'s discovery process and led to faster deal progression and stronger close rates by the following month.',
-      imageSlug: '/images/coaching.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/coaching.png',
     },
     {
       word: 'PIPELINE COVERAGE',
       partOfSpeech: 'phrase',
       definition: 'The ratio of total pipeline value to quota. It shows whether a rep or team has enough active deals to hit their target for the period.',
       example: 'Pipeline coverage had dropped to 2.1:1 — well below the minimum needed to close the quarter with confidence, so new opportunities had to be added immediately.',
-      imageSlug: '/images/sales-leadership-communication-pipeline-coverage.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-leadership-communication-pipeline-coverage.png',
     },
     {
       word: 'FORECAST',
       partOfSpeech: 'noun',
       definition: 'A prediction of how much revenue the team will close in a given period. It is split by confidence level — commit, best case, and upside.',
       example: 'The forecast showed $52M committed, but six deals flagged as at risk meant the actual close number was likely to fall short of that figure.',
-      imageSlug: '/images/sales-leadership-communication-forecast.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-leadership-communication-forecast.png',
     },
     {
       word: 'DEAL RISK',
       partOfSpeech: 'phrase',
       definition: 'Any factor that makes a deal less likely to close on time or at the expected value — such as no agreed next step, stalled activity, or missing stakeholders.',
       example: 'The deal had been in the same stage for 47 days with no agreed next step and several key stakeholders not yet engaged — all clear signs of deal risk.',
-      imageSlug: '/images/sales-leadership-communication-deal-risk.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-leadership-communication-deal-risk.png',
     },
     {
       word: 'RAMP',
       partOfSpeech: 'noun',
       definition: 'The period of time it takes a new salesperson to reach full quota. During ramp, quota expectations are reduced to reflect the learning curve.',
       example: 'New reps typically take four months to ramp — expectations start at 10% of quota in month one and increase each month as skills and pipeline develop.',
-      imageSlug: '/images/ramp.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ramp.png',
     },
     {
       word: 'WIN RATE',
       partOfSpeech: 'phrase',
       definition: 'The percentage of deals a salesperson wins out of the total number they compete for. It is a key measure of sales effectiveness and deal quality.',
       example: 'A drop in win-rate from 38% to 24% prompted a review of the late-stage sales process to identify where and why deals were being lost to competitors.',
-      imageSlug: '/images/win-rate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/win-rate.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const salesLeadershipCommunication: Lesson = {
       phrase: 'WALK ME THROUGH WHERE THIS DEAL IS — NOT THE PITCH, TELL ME WHERE THE DEAL ACTUALLY IS',
       definition: 'A phrase a sales manager uses to get an honest, fact-based update on a deal. It signals they want the real position — last activity, agreed next step, stakeholder gaps — not an optimistic version.',
       example: 'Walk me through where this deal is — not the pitch, tell me where the deal actually is: last meaningful meeting, agreed next step, and who still has not been engaged.',
-      imageSlug: '/images/walk-me-through-where-this-deal-is--not-the-pitch-tell-me-where-the-deal-actually-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/walk-me-through-where-this-deal-is--not-the-pitch-tell-me-where-the-deal-actually-is.png',
     },
     {
       phrase: "WHAT'S YOUR PLAN TO CLOSE THIS BEFORE QUARTER END?",
       definition: 'A coaching question that challenges a rep to explain their specific closing plan. It moves the conversation from optimism to concrete, dated actions with named stakeholders.',
       example: "What's your plan to close this before quarter-end — who are you meeting, in what order, and what needs to happen at each step to reach a signature by the deadline?",
-      imageSlug: '/images/whats-your-plan-to-close-this-before-quarter-end.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/whats-your-plan-to-close-this-before-quarter-end.png',
     },
     {
       phrase: 'WHAT WOULD YOU DO DIFFERENTLY IF YOU COULD GO BACK TO THE FIRST CALL?',
       definition: 'A coaching question that helps a rep reflect on what they would change. It builds learning from a stalling deal without the manager prescribing the answer.',
       example: 'What would you do differently if you could go back to the first call — would you have qualified the decision process earlier, or engaged more stakeholders from the start?',
-      imageSlug: '/images/what-would-you-do-differently-if-you-could-go-back-to-the-first-call.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-would-you-do-differently-if-you-could-go-back-to-the-first-call.png',
     },
     {
       phrase: "I'M GOING TO COMMIT [X] TO THE FORECAST — WHAT ARE YOU COMMITTING?",
       definition: 'A phrase a sales manager uses when asking each rep to name the revenue they are certain they will close. It creates shared accountability for the team forecast.',
       example: "I'm going to commit $7.3M to the forecast — what are you committing? Give me the number you will stand behind, not your best-case pipeline figure.",
-      imageSlug: '/images/im-going-to-commit-x-to-the-forecast--what-are-you-committing.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/im-going-to-commit-x-to-the-forecast--what-are-you-committing.png',
     },
     {
       phrase: 'THE STRATEGY FOR Q3 IS [X] — EVERY REP SHOULD BE ABLE TO EXPLAIN THEIR PERSONAL VERSION IN 60 SECONDS',
       definition: 'A phrase a sales leader uses to cascade strategy and require every rep to personalise it. It confirms understanding by asking each person to connect the direction to their own territory and accounts.',
       example: 'The strategy for Q3 is enterprise expansion — every rep should be able to explain their personal version in 60 seconds: which accounts, what the opportunity is, and what they are doing differently this quarter to activate it.',
-      imageSlug: '/images/the-strategy-for-q3-is-x--every-rep-should-be-able-to-explain-their-personal-version-in-60-seconds.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-strategy-for-q3-is-x--every-rep-should-be-able-to-explain-their-personal-version-in-60-seconds.png',
     },
     {
       phrase: "I WANT TO HEAR YOUR THINKING — TELL ME WHAT YOU SEE AND WHAT YOU'D DO",
       definition: "A coaching phrase a manager uses to hear the rep's own analysis first. It develops independent thinking by putting the rep in the lead before the manager gives any input.",
       example: "I want to hear your thinking — tell me what you see and what you'd do: walk me through the deal, identify what's working and what's not, and give me your recommendation before I give you mine.",
-      imageSlug: '/images/i-want-to-hear-your-thinking--tell-me-what-you-see-and-what-youd-do.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-want-to-hear-your-thinking--tell-me-what-you-see-and-what-youd-do.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const salesLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Jordan, let's start with the Meridian deal. Walk me through where it actually is — not the pitch version. Last activity, last agreed next step, and who you've spoken to in the past two weeks.",
     },
     {
@@ -124,7 +124,7 @@ export const salesLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Three weeks with no contact and no agreed next step is the first thing I want to focus on. What was the explicit next step at the end of that call?',
     },
     {
@@ -136,7 +136,7 @@ export const salesLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "'Be in touch' is not a next step — it's the absence of one. I'm not saying that to criticise the call; I'm saying it because that's where the [[deal risk:any factor making a specific deal less likely to close on time — including missing stakeholders, no agreed next step, or a silent prospect]] is sitting. A deal that's left to drift is rarely a deal that comes back on its own. What's your read on why Marcus has gone quiet?",
     },
     {
@@ -148,7 +148,7 @@ export const salesLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Those are two very different situations. One of them is manageable; the other may mean the deal is lost. I want to hear your thinking — tell me what you see and what you'd do if you were going to call Marcus today.",
     },
     {
@@ -160,7 +160,7 @@ export const salesLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's a reasonable instinct — but 'check in' is still vague. What's the specific purpose of the call — and what would a successful outcome look like? A good reengagement call has a reason for calling beyond 'I haven't heard from you', a specific piece of [[decision support:materials or information that help the buyer make the internal case]] to offer, and a named next step to close on. What would your version of that look like for Meridian?",
     },
     {
@@ -172,7 +172,7 @@ export const salesLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's the call. Now — what would you do differently if you could go back to the first call? Not to beat yourself up — because if we can identify the pattern, the learning applies to every deal in your pipeline.",
     },
     {
@@ -184,7 +184,7 @@ export const salesLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Both of those are the right diagnosis — and I want to make sure they go into your [[coaching:the ongoing development of a rep's judgement through questioning and reflection rather than instruction]] log so we can revisit them. Now — let's talk [[forecast:a prediction of revenue expected to close in a given period, categorised by confidence level: commit, best case, upside]]. Your [[pipeline coverage:the ratio of total pipeline value to quota — healthy is typically 3x to 4x]] is 3.8x on paper, but if I strip the three deals that have been stuck for more than 60 days, effective coverage drops to 2.1x. What are you committing to the forecast this quarter?",
     },
     {
@@ -196,7 +196,7 @@ export const salesLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'm going to commit £190,000 from your pipeline to the leadership forecast — which means your [[quota:the revenue target assigned to a rep for a defined period — the foundational metric of individual performance]] for the quarter is going to require you to either unstick two of those three deals or add qualified pipeline before week six. What's your plan to get there?",
     },
     {
@@ -208,7 +208,7 @@ export const salesLeadershipCommunication: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Then let's put those in the plan explicitly. The Q3 strategy is enterprise expansion — not net new volume. So every deal you're working should map to that frame. Call Marcus today with the CFO one-pager, log the call, and close on a specific date for the next interaction. And bring those two qualification deals to Thursday's review so I can see what's actually there.",
     }
   ],

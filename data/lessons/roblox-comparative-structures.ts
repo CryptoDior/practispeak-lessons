@@ -212,7 +212,7 @@ export const robloxComparativeStructures: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Ha — I warned you! The second phase is [[even:emphasises that something exceeds what was already expected]] more difficult than the first. Most players give up right there.",
     },
     {
@@ -224,7 +224,7 @@ export const robloxComparativeStructures: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "You need the legendary tier. The damage output is [[far:strengthens the comparative — FAR MORE...THAN]] more effective than the rare tier — it is not even close.",
     },
     {
@@ -236,7 +236,7 @@ export const robloxComparativeStructures: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "About fifteen hours, yes — roughly double the rare. [[Whereas:introduces a contrast]] some people buy it with Robux, I think farming it feels much more satisfying.",
     },
     {
@@ -248,7 +248,7 @@ export const robloxComparativeStructures: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Yours is good for defence — not as [[as:second AS in the NOT AS...AS structure]] strong as mine in raw damage, but you have much better survivability.",
     },
     {
@@ -260,7 +260,7 @@ export const robloxComparativeStructures: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. The more you understand your own strengths, the more effectively you build around them. That is how you come out on top consistently.",
     },
   ],

@@ -6,7 +6,7 @@ export const identifyingCustomerPainPoints: Lesson = {
   subtitle: 'How to name, frame, and reflect back what a customer is really struggling with',
   level: 'B1-B2',
   description: 'Learn the precise language of problem identification — how to listen for pain, name it accurately, distinguish between symptoms and root causes, and reflect back what you have heard so the prospect feels genuinely understood.',
-  heroImage: '/images/identifying-customer-pain-points-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/identifying-customer-pain-points-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const identifyingCustomerPainPoints: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A point of resistance or difficulty in a process — something that slows things down or creates unnecessary effort without adding value.',
       example: 'There is a lot of friction in their approval process — every deal has to go through three sign-offs before anyone can move forward.',
-      imageSlug: '/images/identifying-customer-pain-points-friction.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/identifying-customer-pain-points-friction.png',
     },
     {
       word: 'SYMPTOM',
       partOfSpeech: 'noun',
       definition: 'A visible sign that a deeper problem exists — what the customer notices on the surface rather than the real cause underneath.',
       example: 'Slow follow-up times are often a symptom of a deeper issue — usually unclear ownership or no agreed process for who picks up what.',
-      imageSlug: '/images/symptom.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/symptom.png',
     },
     {
       word: 'ROOT CAUSE',
       partOfSpeech: 'noun',
       definition: 'The underlying reason a problem exists — as opposed to the symptoms the customer can see. Solving the root cause fixes the problem; solving the symptom only masks it.',
       example: 'The root cause was not the CRM — it was that no one had defined what stage a deal needed to reach before handing it over.',
-      imageSlug: '/images/root-cause.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/root-cause.png',
     },
     {
       word: 'IMPACT',
       partOfSpeech: 'noun',
       definition: 'The measurable or felt effect a problem has on the business, the team, or an outcome — what the problem is actually costing.',
       example: 'Understanding the impact of a problem is what turns a vague complaint into a business case — it answers the question: why does this matter?',
-      imageSlug: '/images/identifying-customer-pain-points-impact.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/identifying-customer-pain-points-impact.png',
     },
     {
       word: 'RECURRING',
       partOfSpeech: 'adjective',
       definition: 'Happening repeatedly — a problem that keeps coming back rather than being solved once, often because only the symptom has been addressed.',
       example: 'If the same issue is recurring every quarter, that is a sign the root cause has never been properly dealt with.',
-      imageSlug: '/images/recurring.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/recurring.png',
     },
     {
       word: 'THRESHOLD',
       partOfSpeech: 'noun',
       definition: 'The point at which a problem becomes serious enough to act on — when the pain is bad enough that doing nothing is no longer acceptable.',
       example: 'Most customers have a threshold — until a problem crosses it, they will live with it. Your job is to find out how close they are to that line.',
-      imageSlug: '/images/identifying-customer-pain-points-threshold.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/identifying-customer-pain-points-threshold.png',
     },
     {
       word: 'UNDERLYING',
       partOfSpeech: 'adjective',
       definition: 'Existing beneath the surface — the real reason something is happening, which may not be immediately obvious from the visible symptoms.',
       example: 'The underlying issue was not the software — it was that the team had never agreed on a shared definition of what a qualified lead actually was.',
-      imageSlug: '/images/identifying-customer-pain-points-underlying.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/identifying-customer-pain-points-underlying.png',
     },
     {
       word: 'QUANTIFY',
       partOfSpeech: 'verb',
       definition: "To express a problem in numbers or measurable terms — to move from 'this is a problem' to 'this is costing us X per month in lost deals'.",
       example: 'When you can help a prospect quantify a problem, it becomes much harder to ignore — and much easier to justify solving.',
-      imageSlug: '/images/quantify.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/quantify.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const identifyingCustomerPainPoints: Lesson = {
       phrase: 'IT SOUNDS LIKE',
       definition: 'Reflect back what you have heard before naming the problem — shows you were listening and gives the prospect a chance to confirm or correct.',
       example: 'It sounds like the main challenge is not generating leads — it is knowing what to do with them once they are in the system.',
-      imageSlug: '/images/it-sounds-like.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/it-sounds-like.png',
     },
     {
       phrase: 'WOULD YOU SAY THAT IS A',
       definition: 'Gently categorise a problem as a challenge, issue, or need — and check whether the prospect agrees with how you have framed it.',
       example: 'Would you say that is a process issue, or more of a people issue? I want to make sure I am framing this correctly.',
-      imageSlug: '/images/would-you-say-that-is-a.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/would-you-say-that-is-a.png',
     },
     {
       phrase: 'HOW LONG HAS THIS BEEN GOING ON',
       definition: 'Establish how long the problem has existed — a long-standing problem signals urgency and often reveals that previous attempts to fix it have failed.',
       example: 'How long has this been going on? If it has been there for two years, that tells me something different than if it started last quarter.',
-      imageSlug: '/images/how-long-has-this-been-going-on.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/how-long-has-this-been-going-on.png',
     },
     {
       phrase: 'WHAT IS THE IMPACT OF THAT ON',
       definition: 'Move from identifying the problem to understanding its consequences — helps you and the prospect see what the problem is actually costing.',
       example: 'What is the impact of that on your conversion rate? I want to understand not just the problem but what it is doing to the numbers.',
-      imageSlug: '/images/what-is-the-impact-of-that-on.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-is-the-impact-of-that-on.png',
     },
     {
       phrase: 'IS THIS SOMETHING THAT COMES UP REGULARLY',
       definition: 'Find out whether a problem is recurring or a one-off — recurring problems are more urgent and more likely to justify investment in a solution.',
       example: 'Is this something that comes up regularly, or was this more of a one-off? I want to know if we are dealing with a pattern or an exception.',
-      imageSlug: '/images/is-this-something-that-comes-up-regularly.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/is-this-something-that-comes-up-regularly.png',
     },
     {
       phrase: 'SO THE REAL ISSUE IS',
       definition: 'Summarise your understanding of the root cause once you have uncovered it — a clear, direct reframing that shows you have gone beneath the surface.',
       example: 'So the real issue is not the volume of leads — it is that no one owns the process once a lead comes in. Is that a fair way to put it?',
-      imageSlug: '/images/so-the-real-issue-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/so-the-real-issue-is.png',
     }
   ],
 
@@ -147,7 +147,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Marcus, I want to make sure I have understood what you have told me correctly before we go any further. Can I reflect back what I heard?',
     },
     {
@@ -159,7 +159,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'It sounds like the main [[symptom:a visible sign that a deeper problem exists]] you are seeing is inconsistent follow-up — some reps responding in an hour, others taking two days. But when I listen to the whole picture, the [[underlying:existing beneath the surface; the real reason something is happening]] issue seems to be visibility. You cannot see what is happening until a deal has already gone cold.',
     },
     {
@@ -171,7 +171,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Right. So the real issue is not what your reps are doing — it is that you have no way of knowing what they are doing until it is too late to intervene. Would you say that is a process issue, or more of a tools issue?',
     },
     {
@@ -183,7 +183,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is a really important distinction. How long has this been going on? I want to understand whether this is a [[recurring:happening repeatedly]] [[challenge:a difficult situation that requires effort to deal with]] or something that has got worse recently.',
     },
     {
@@ -195,7 +195,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'So the [[root cause:the underlying reason a problem exists]] was always there — but scaling the team is what pushed it past the [[threshold:the point at which a problem becomes serious enough to act on]]. What is the [[impact:the measurable effect a problem has on the business]] of that on your numbers? Can you [[quantify:to express a problem in measurable terms]] it at all?',
     },
     {
@@ -207,7 +207,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'That is a real number. Is this something that comes up regularly in team reviews, or has it been more of a background [[friction:a point of resistance or difficulty in a process]] that everyone accepts?',
     },
     {
@@ -219,7 +219,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Then what you have is not a performance problem — it is a structural one. And structural problems do not fix themselves through motivation. That is something I think we can actually help with. Shall I tell you how?',
     }
   ],

@@ -14,56 +14,56 @@ export const robloxMyGamingDay: Lesson = {
       partOfSpeech: 'noun',
       definition: "The first part of the day — from when you wake up until about midday.",
       example: "I check new Roblox updates every morning before school — just a quick look!",
-      imageSlug: '/images/roblox-my-gaming-day-morning.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-morning.png',
     },
     {
       word: 'SESSION',
       partOfSpeech: 'noun',
       definition: "One period of playing — from when you start until when you stop.",
       example: "I had a two-hour gaming session last night — I finished three obbies!",
-      imageSlug: '/images/roblox-my-gaming-day-session.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-session.png',
     },
     {
       word: 'BREAK',
       partOfSpeech: 'noun',
       definition: "A short time when you stop playing to rest your eyes and your brain.",
       example: "I always take a break after one hour — I get some water and walk around.",
-      imageSlug: '/images/roblox-my-gaming-day-break.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-break.png',
     },
     {
       word: 'LOG IN',
       partOfSpeech: 'phrase',
       definition: "Start Roblox by entering your username and password — you are now in the game!",
       example: "I log in every evening at 6pm — my friends are always already waiting!",
-      imageSlug: '/images/roblox-my-gaming-day-log-in.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-log-in.png',
     },
     {
       word: 'LOG OFF',
       partOfSpeech: 'phrase',
       definition: "Exit Roblox and close the game — your session is finished.",
       example: "I log off at 9pm every night — that is my rule so I can sleep on time.",
-      imageSlug: '/images/roblox-my-gaming-day-log-off.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-log-off.png',
     },
     {
       word: 'DAILY',
       partOfSpeech: 'adjective',
       definition: "Something that happens every day, without missing a single day.",
       example: "I always collect my daily reward — it takes just one click and gives me free items!",
-      imageSlug: '/images/roblox-my-gaming-day-daily.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-daily.png',
     },
     {
       word: 'ROUTINE',
       partOfSpeech: 'noun',
       definition: "The things you do in the same order every day — your regular pattern.",
       example: "My gaming routine is: log in, check messages, join my squad, play for one hour.",
-      imageSlug: '/images/roblox-my-gaming-day-routine.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-routine.png',
     },
     {
       word: 'SCHEDULE',
       partOfSpeech: 'noun',
       definition: "A plan that shows what you will do and when — like a timetable for your day.",
       example: "My schedule this week is busy — I can only play on Wednesday and Friday.",
-      imageSlug: '/images/roblox-my-gaming-day-schedule.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-schedule.png',
     },
   ],
 
@@ -73,56 +73,56 @@ export const robloxMyGamingDay: Lesson = {
       partOfSpeech: 'noun',
       definition: "The first part of the real day — the hours before midday when you wake up and start.",
       example: "I do 20 minutes of reading every morning before school — it wakes my brain up!",
-      imageSlug: '/images/roblox-my-gaming-day-morning-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-morning-irl.png',
     },
     {
       word: 'SESSION',
       partOfSpeech: 'noun',
       definition: "A period of time doing one thing — like a gaming session or a sports session.",
       example: "We had a two-hour maths session this afternoon — my brain is completely tired!",
-      imageSlug: '/images/roblox-my-gaming-day-session-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-session-irl.png',
     },
     {
       word: 'BREAK',
       partOfSpeech: 'noun',
       definition: "A short rest during work or study — you stop, relax, then continue.",
       example: "Take a short break between study sessions — your brain remembers things better with rest.",
-      imageSlug: '/images/roblox-my-gaming-day-break-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-break-irl.png',
     },
     {
       word: 'START',
       partOfSpeech: 'verb',
       definition: "Begin something — the first moment you do it.",
       example: "I start my homework as soon as I get home — then I can relax later!",
-      imageSlug: '/images/roblox-my-gaming-day-start-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-start-irl.png',
     },
     {
       word: 'FINISH',
       partOfSpeech: 'verb',
       definition: "Get to the end of something — you did everything and now it is done!",
       example: "I always finish my chores before I sit down to relax in the evening.",
-      imageSlug: '/images/roblox-my-gaming-day-finish-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-finish-irl.png',
     },
     {
       word: 'DAILY',
       partOfSpeech: 'adjective',
       definition: "Something you do every day — a regular habit that repeats day after day.",
       example: "Brushing your teeth is a daily habit — you should do it every single morning and night.",
-      imageSlug: '/images/roblox-my-gaming-day-daily-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-daily-irl.png',
     },
     {
       word: 'ROUTINE',
       partOfSpeech: 'noun',
       definition: "Your regular pattern of daily activities — the same order every day.",
       example: "My morning routine is: wake up, shower, eat breakfast, pack my bag, go to school.",
-      imageSlug: '/images/roblox-my-gaming-day-routine-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-routine-irl.png',
     },
     {
       word: 'SCHEDULE',
       partOfSpeech: 'noun',
       definition: "A timetable that shows what you are doing and when — your plan for the day or week.",
       example: "My weekly schedule has football on Tuesday and guitar lessons on Thursday.",
-      imageSlug: '/images/roblox-my-gaming-day-schedule-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-schedule-irl.png',
     },
   ],
 
@@ -133,7 +133,7 @@ export const robloxMyGamingDay: Lesson = {
       example: "In the morning I check my Roblox notifications before I do anything else.",
       inGame: "In the morning I check for new game updates and daily rewards.",
       inRealLife: "In the morning I always eat a proper breakfast — it gives me energy for school.",
-      imageSlug: '/images/roblox-my-gaming-day-in-the-morning.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-in-the-morning.png',
     },
     {
       phrase: "AFTER THAT",
@@ -141,7 +141,7 @@ export const robloxMyGamingDay: Lesson = {
       example: "I finish my homework. After that, I log in and play for one hour.",
       inGame: "I collect my daily reward. After that, I join my squad and we play together.",
       inRealLife: "I finish my homework. After that, I watch one episode of my favourite show.",
-      imageSlug: '/images/roblox-my-gaming-day-after-that.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-after-that.png',
     },
     {
       phrase: "AT THE END OF THE DAY",
@@ -149,7 +149,7 @@ export const robloxMyGamingDay: Lesson = {
       example: "At the end of the day I log off and put my phone away — screen-free before bed!",
       inGame: "At the end of the day I check my stats — how many wins, how many points.",
       inRealLife: "At the end of the day I like to read for 15 minutes before I sleep.",
-      imageSlug: '/images/roblox-my-gaming-day-at-the-end-of-the-day.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-at-the-end-of-the-day.png',
     },
     {
       phrase: "HOW WAS YOUR DAY?",
@@ -157,7 +157,7 @@ export const robloxMyGamingDay: Lesson = {
       example: "How was your day? Did you get any good gaming time in after school?",
       inGame: "How was your day? Any big wins or new items on Roblox today?",
       inRealLife: "How was your day? Did anything interesting happen at school?",
-      imageSlug: '/images/roblox-my-gaming-day-how-was-your-day.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-how-was-your-day.png',
     },
     {
       phrase: "I USUALLY...",
@@ -165,7 +165,7 @@ export const robloxMyGamingDay: Lesson = {
       example: "I usually play for one hour after school — but never more than two!",
       inGame: "I usually log in at 6pm and play until dinner — it is my daily routine.",
       inRealLife: "I usually walk to school, but sometimes I take the bus if it rains.",
-      imageSlug: '/images/roblox-my-gaming-day-i-usually.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-i-usually.png',
     },
     {
       phrase: "TIME FOR A BREAK!",
@@ -173,7 +173,7 @@ export const robloxMyGamingDay: Lesson = {
       example: "Time for a break! I have been playing for an hour — I need some water.",
       inGame: "Time for a break! My eyes are tired — I will come back in 15 minutes.",
       inRealLife: "Time for a break! We have been studying for two hours — let's have a snack.",
-      imageSlug: '/images/roblox-my-gaming-day-time-for-a-break.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-time-for-a-break.png',
     },
   ],
 
@@ -183,7 +183,7 @@ export const robloxMyGamingDay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, what does your gaming [[routine:the things you do in the same order every day]] look like? Do you have a set time?",
     },
     {
@@ -195,7 +195,7 @@ export const robloxMyGamingDay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Same! I always collect my [[daily:something that happens every day]] reward first. How long is your gaming [[session:one period of playing from start to finish]]?",
     },
     {
@@ -207,7 +207,7 @@ export const robloxMyGamingDay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I understand! I [[log off:exit Roblox and close the game]] at 9pm every night — that is my rule. No phone after 9pm.",
     },
     {
@@ -219,7 +219,7 @@ export const robloxMyGamingDay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly! My real-life [[routine:regular pattern of daily activities]] is: wake up, eat, school, homework, then gaming. It is the same every day.",
     },
     {
@@ -231,7 +231,7 @@ export const robloxMyGamingDay: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Time for a break from this conversation! How was your gaming day yesterday? Any big wins?",
     },
     {

@@ -56,14 +56,14 @@ export const robloxLikesAndDislikes: Lesson = {
       partOfSpeech: 'verb',
       definition: "Like one thing more than another — you choose this one over that one.",
       example: "I prefer solo games — I like to play on my own more than in a big team.",
-      imageSlug: '/images/roblox-likes-and-dislikes-prefer.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-likes-and-dislikes-prefer.png',
     },
     {
       word: 'FAVOURITE',
       partOfSpeech: 'adjective',
       definition: "The one you like the most — number one for you.",
       example: "My favourite game on Roblox is Bloxd! I play it every single day.",
-      imageSlug: '/images/roblox-likes-and-dislikes-favourite.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-likes-and-dislikes-favourite.png',
     },
   ],
 
@@ -183,7 +183,7 @@ export const robloxLikesAndDislikes: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, what is your [[favourite:the one you like the most — number one]] game on Roblox right now?",
     },
     {
@@ -195,7 +195,7 @@ export const robloxLikesAndDislikes: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Really? I [[don't mind:it is OK — not bad, not great]] building games, but I [[prefer:like this one more than the other]] PvP. Fighting games are more exciting for me.",
     },
     {
@@ -207,7 +207,7 @@ export const robloxLikesAndDislikes: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Ha! And what do you [[hate:not like at all — you do not want to do it]] most in Roblox? For me it is long lobbies — waiting for ten minutes before the game even starts!",
     },
     {
@@ -219,7 +219,7 @@ export const robloxLikesAndDislikes: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Same! OK — in real life. What is your [[favourite:the one you like the most]] food? And what do you [[hate:not like at all]]?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxLikesAndDislikes: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I [[love:like very very much]] burgers! I [[don't mind:it is OK — not great, not bad]] vegetables but I [[prefer:like this more than that]] to eat them with something tasty on top.",
     },
     {

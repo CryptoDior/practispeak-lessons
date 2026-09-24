@@ -6,7 +6,7 @@ export const socialMediaAdvertising: Lesson = {
   subtitle: 'How to talk about paid social campaigns, targeting, and ad performance',
   level: 'B1-B2',
   description: "Social media advertising is one of the fastest-growing areas of marketing. Platforms like Meta, LinkedIn, and TikTok allow you to reach specific audiences with paid ads — targeting people by their job title, interests, location, and behaviour. To work confidently in this area, you need to understand the vocabulary that marketing teams use to plan, run, and review paid social campaigns. This lesson teaches you the most important terms and phrases in social media advertising.",
-  heroImage: '/images/social-media-advertising-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/social-media-advertising-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We have one campaign with three [[ad set:a group of ads sharing the same targeting, budget, and schedule]]s. Each ad set targets a different audience — marketing managers on LinkedIn, a [[lookalike audience:an audience of new people similar to your existing customers]] based on our top customers on Meta, and a retargeting set for website visitors.",
     },
     {
@@ -130,7 +130,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "We are targeting marketing managers and directors at companies with 50 to 500 employees in the UK and Germany. Estimated audience is 180,000 people. The [[CPM:cost per thousand impressions — how much you pay for every 1,000 times your ad is shown]] for this campaign is £12 on LinkedIn — typical for that platform.",
     },
     {
@@ -142,7 +142,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The CPC on the LinkedIn ad set is £3.40 — within target. But the Meta lookalike ad set is performing much better at £2.20 per click. I want to move more budget there.",
     },
     {
@@ -154,7 +154,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Our lookalike audience is based on our top 200 customers by lifetime value. The platform finds people with similar demographics and behaviour. It is our best-performing audience — 94 [[conversion:the action you wanted — a demo request, a sign-up, a purchase]]s so far at £31 per demo, against a target of £50.",
     },
     {
@@ -166,7 +166,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "There is a problem with it. The [[frequency:the average number of times each person has seen your ad]] has reached 7.2 — people are seeing the same ad seven times on average. The frequency is too high and the click-through rate has dropped 40% as a result.",
     },
     {
@@ -178,7 +178,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Two things. First, let's test two versions of the [[creative:the actual ad content — image, video, headline, and copy]] — I want to try a 15-second video versus the current static image. Second, I will expand the retargeting audience to include people who visited any page in the last 90 days, not just the last 30 — that will reduce frequency significantly.",
     },
     {
@@ -190,7 +190,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "94 conversions total at £42 per conversion — 16% better than our £50 target. If I move budget away from the underperforming retargeting set and towards the lookalike set, I think we can get to 120 conversions at under £40 each within the same monthly budget.",
     },
     {
@@ -202,7 +202,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I would scale the lookalike campaign first — it is proving the best return. I would also test a new ad set targeting a second lookalike audience based on our longest-retained customers, not just the highest spenders. Retention-based lookalikes often find the best long-term customers.",
     },
   ],

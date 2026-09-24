@@ -212,7 +212,7 @@ export const robloxAdverbsFrequencyDegree: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Sure! Fire away.",
     },
     {
@@ -224,7 +224,7 @@ export const robloxAdverbsFrequencyDegree: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I [[always:every single time, no exceptions]] check them first. I got banned from a server two years ago because I didn't — never again.",
     },
     {
@@ -236,7 +236,7 @@ export const robloxAdverbsFrequencyDegree: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I [[usually:in most cases]] play with the guild, but I [[sometimes:on some occasions]] go solo when I want to explore without any pressure from teammates.",
     },
     {
@@ -248,7 +248,7 @@ export const robloxAdverbsFrequencyDegree: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I [[rarely:not very often, only a few times]] lose now — maybe once every fifteen matches. Three months of daily practice made a massive difference.",
     },
     {
@@ -260,7 +260,7 @@ export const robloxAdverbsFrequencyDegree: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Yes — it's [[incredibly:to an extreme and surprising degree]] frustrating. Last night I [[barely:only just, by the smallest margin]] finished the dungeon before the server went down — two health points left, I kid you not.",
     },
     {
@@ -272,7 +272,7 @@ export const robloxAdverbsFrequencyDegree: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Once, last summer. I was [[constantly:without stopping]] grinding for weeks straight and I was [[completely:totally, with nothing left]] exhausted. I took two weeks off and came back stronger — the break was the best thing I ever did.",
     },
   ],

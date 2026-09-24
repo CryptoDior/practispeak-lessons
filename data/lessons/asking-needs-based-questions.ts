@@ -6,7 +6,7 @@ export const askingNeedsBasedQuestions: Lesson = {
   subtitle: 'How to ask the right questions to understand what a prospect actually needs',
   level: 'B1-B2',
   description: 'Master the language of discovery — how to ask open-ended questions that uncover real challenges, explore their impact, and help you understand what the prospect needs before you ever mention your product.',
-  heroImage: '/images/asking-needs-based-questions-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const askingNeedsBasedQuestions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A specific problem or frustration that a customer experiences regularly — the thing that is making their work harder than it should be.',
       example: 'Before you pitch anything, you need to understand their pain points — what is actually slowing them down day to day.',
-      imageSlug: '/images/asking-needs-based-questions-pain-point.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-pain-point.png',
     },
     {
       word: 'BOTTLENECK',
       partOfSpeech: 'noun',
       definition: 'A point in a process that slows everything else down — where work gets stuck or piles up.',
       example: 'The bottleneck in their pipeline was the approval process — deals were getting stuck there for weeks before anyone followed up.',
-      imageSlug: '/images/asking-needs-based-questions-bottleneck.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-bottleneck.png',
     },
     {
       word: 'PRIORITY',
       partOfSpeech: 'noun',
       definition: 'The thing that matters most right now — what the team or business is focused on above everything else.',
       example: 'Understanding their priorities tells you which problems they are actually motivated to solve and which ones they can live with.',
-      imageSlug: '/images/asking-needs-based-questions-priority.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-priority.png',
     },
     {
       word: 'WORKAROUND',
       partOfSpeech: 'noun',
       definition: 'A temporary solution someone uses because the proper fix is not in place yet — often a sign that a real problem exists.',
       example: 'When a prospect describes a workaround, that is a strong signal — it means the problem is real enough that they built something to manage it.',
-      imageSlug: '/images/workaround.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/workaround.png',
     },
     {
       word: 'DIAGNOSE',
       partOfSpeech: 'verb',
       definition: 'To identify the root cause of a problem by asking the right questions — like a doctor figuring out what is wrong before prescribing anything.',
       example: 'A good discovery call is not about selling — it is about diagnosing. You are trying to understand the real problem, not just the surface one.',
-      imageSlug: '/images/asking-needs-based-questions-diagnose.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-diagnose.png',
     },
     {
       word: 'PROBE',
       partOfSpeech: 'verb',
       definition: 'To ask follow-up questions that go deeper into what the prospect has said — to get beyond the first answer.',
       example: "When they say 'communication is an issue', probe — ask what that looks like in practice, who it affects, and how long it has been going on.",
-      imageSlug: '/images/asking-needs-based-questions-probe.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-probe.png',
     },
     {
       word: 'UNCOVER',
       partOfSpeech: 'verb',
       definition: 'To find out something the prospect has not volunteered — often a hidden problem or need that comes out through careful questioning.',
       example: 'The best discovery questions uncover problems the prospect did not even realise they wanted to talk about.',
-      imageSlug: '/images/uncover.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/uncover.png',
     },
     {
       word: 'BANDWIDTH',
       partOfSpeech: 'noun',
       definition: 'The capacity a team has to take on new work, change, or initiative — if they have no bandwidth, even a great solution will not get implemented.',
       example: 'Before proposing anything, ask about bandwidth — if the team is already at capacity, timing becomes part of the conversation.',
-      imageSlug: '/images/asking-needs-based-questions-bandwidth.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-bandwidth.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const askingNeedsBasedQuestions: Lesson = {
       phrase: 'WHAT DOES THAT LOOK LIKE IN PRACTICE',
       definition: 'Ask the prospect to describe a problem concretely — move from a general statement to a real, specific example.',
       example: 'You mention that handoffs between teams are a problem — what does that look like in practice? Can you walk me through a recent example?',
-      imageSlug: '/images/asking-needs-based-questions-what-does-that-look-like-in-practice.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-what-does-that-look-like-in-practice.png',
     },
     {
       phrase: 'HOW IS THAT AFFECTING',
       definition: 'Explore the impact of a challenge on the team, the process, or the business — moves the conversation from problem to consequence.',
       example: 'How is that affecting the rest of the team? Are deals slipping because of it, or is it more of a morale issue at this point?',
-      imageSlug: '/images/how-is-that-affecting.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/how-is-that-affecting.png',
     },
     {
       phrase: 'WHAT HAVE YOU TRIED SO FAR',
       definition: 'Find out what solutions the prospect has already attempted — avoids suggesting something they have already ruled out and shows you are listening.',
       example: 'What have you tried so far to solve this? I want to make sure I understand what has worked and what has not before I suggest anything.',
-      imageSlug: '/images/what-have-you-tried-so-far.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-have-you-tried-so-far.png',
     },
     {
       phrase: 'IF YOU COULD CHANGE ONE THING',
       definition: 'A focus question that helps the prospect identify their single biggest priority — useful when they have described multiple problems.',
       example: 'If you could change one thing about how your team manages the pipeline right now, what would it be?',
-      imageSlug: '/images/if-you-could-change-one-thing.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/if-you-could-change-one-thing.png',
     },
     {
       phrase: 'WHAT WOULD GOOD LOOK LIKE',
       definition: 'A future-state question that helps the prospect articulate what success means to them — gets them thinking about the outcome, not just the problem.',
       example: 'What would good look like for you six months from now? If we solve this properly, what changes for your team?',
-      imageSlug: '/images/what-would-good-look-like.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-would-good-look-like.png',
     },
     {
       phrase: 'WALK ME THROUGH',
       definition: 'Ask the prospect to describe a process, situation, or problem step by step — gives you a full picture rather than a summary.',
       example: 'Walk me through what happens when a new lead comes in — from the moment it enters the system to the first call. I want to understand the full flow.',
-      imageSlug: '/images/walk-me-through.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/walk-me-through.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Marcus, thanks for making the time. Before I say anything about what we do, I'd love to understand your world a bit better. Can I ask you some questions first?",
     },
     {
@@ -124,7 +124,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Glad to hear it. So — walk me through how your team currently manages deals from first contact to close. I want to [[diagnose:to identify the root cause of a problem by asking the right questions]] before I suggest anything.',
     },
     {
@@ -136,7 +136,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'When you say inconsistent — what does that look like in practice? Is it the follow-up timing, the messaging, something else?',
     },
     {
@@ -148,7 +148,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'How is that affecting your conversion rate? Are you seeing deals go cold because of the delay, or is it more of an internal visibility issue?',
     },
     {
@@ -160,7 +160,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Understood. What have you tried so far to address it? I want to know what has already been on the table before I go any further.',
     },
     {
@@ -172,7 +172,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That makes sense — a manual [[workaround:a temporary solution used because the proper fix is not in place]] only works until it doesn't. If you could change one thing about how your pipeline works right now, what would it be?",
     },
     {
@@ -184,7 +184,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'orange',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's really helpful. Last question — what would good look like for you, say, six months from now? If we solve this properly, what changes for you and the team?",
     },
     {

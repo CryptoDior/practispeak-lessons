@@ -6,7 +6,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
   subtitle: 'How to share a compelling case study using past tense + results to build trust and reduce risk for the buyer',
   level: 'B1-B2',
   description: "Nothing sells like proof. When a prospect can see that a company similar to theirs solved the same problem and got measurable results, the risk of buying drops significantly. This lesson teaches you how to tell a customer success story in English — using the past tense accurately to describe the situation, the challenge, the solution, and the result. You will also learn how to introduce data, quote a customer, and connect the story directly to the prospect's own situation.",
-  heroImage: '/images/talking-about-customer-success-stories-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-customer-success-stories-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A real story about how a customer used your product to fix a problem and get good results.',
       example: "A case study shows the full story — a business that was struggling with paper-based records and falling sales, and how the right solution turned that around into growth, happy customers, and a full checklist of results.",
-      imageSlug: '/images/case-study.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/case-study.png',
     },
     {
       word: 'IMPLEMENT',
       partOfSpeech: 'verb',
       definition: 'To start using a new system, plan, or product in your company.',
       example: "Once the team was ready to implement the system, the entire process moved through four clear steps — setup, scanning, packaging, and dispatch — with every order confirmed and on its way at the end.",
-      imageSlug: '/images/implement.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/implement.png',
     },
     {
       word: 'OUTCOME',
       partOfSpeech: 'noun',
       definition: 'The result of something — what happened in the end after a decision or action.',
       example: "The outcome of using a smart irrigation system was a full crop cycle completed with less water and a higher yield — from sensor to harvest, every step connected, tracked, and feeding into a growing basket of results.",
-      imageSlug: '/images/talking-about-customer-success-stories-outcome.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-customer-success-stories-outcome.png',
     },
     {
       word: 'MEASURABLE',
       partOfSpeech: 'adjective',
       definition: 'Something you can show with exact numbers, like percentages or hours saved.',
       example: "Every improvement was measurable — response time cut almost in half, guest ratings up from 4.2 to 4.8, occupancy rising from 68% to 87%, and on-time check-in climbing from 72% to 94%.",
-      imageSlug: '/images/talking-about-customer-success-stories-measurable.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-customer-success-stories-measurable.png',
     },
     {
       word: 'ROI',
       partOfSpeech: 'abbreviation',
       definition: 'Return on investment — the money or value you get back compared to what you spent.',
       example: "The ROI of switching to an electric fleet was visible across the whole operation — fuel costs fell sharply, the savings compounded month on month, and delivery performance continued to improve across all 32 vehicles.",
-      imageSlug: '/images/talking-about-customer-success-stories-roi.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-customer-success-stories-roi.png',
     },
     {
       word: 'TESTIMONIAL',
       partOfSpeech: 'noun',
       definition: "What a happy customer says about your product — their own words about their experience.",
       example: "A strong testimonial from a satisfied customer — with a verified five-star rating — carries more weight in a sales conversation than any claim the vendor could make themselves.",
-      imageSlug: '/images/talking-about-customer-success-stories-testimonial.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-customer-success-stories-testimonial.png',
     },
     {
       word: 'RETENTION',
       partOfSpeech: 'noun',
       definition: 'Keeping your customers so they continue to buy from you or stay with your company.',
       example: "Retention improved month on month for six consecutive months — members kept coming back, and the renewal curve rose steadily to a near-perfect result by the end of the period.",
-      imageSlug: '/images/talking-about-customer-success-stories-retention.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-customer-success-stories-retention.png',
     },
     {
       word: 'TRANSFORMATION',
       partOfSpeech: 'noun',
       definition: 'A big change that makes something work in a completely different and better way.',
       example: "The transformation was visible in every part of the business — from a cramped workshop with manual processes to a modern studio with digital design tools, sustainable production, and a team finally working at full capacity.",
-      imageSlug: '/images/talking-about-customer-success-stories-transformation.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-customer-success-stories-transformation.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
       phrase: 'ONE OF OUR CUSTOMERS WAS FACING...',
       definition: 'Use this to start a success story and describe the problem a customer had before your solution.',
       example: "One of our customers was facing a scheduling problem — appointments were piling up, staff coordination was breaking down, and there was no system linking bookings to available capacity.",
-      imageSlug: '/images/one-of-our-customers-was-facing.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/one-of-our-customers-was-facing.png',
     },
     {
       phrase: 'AFTER IMPLEMENTING OUR SOLUTION, THEY WERE ABLE TO...',
       definition: 'Use this to show what a customer could do after they started using your product.',
       example: "After implementing our solution, they were able to automate the entire tracking process — from activation to verification to routing — without a single manual intervention at any stage.",
-      imageSlug: '/images/after-implementing-our-solution-they-were-able-to.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/after-implementing-our-solution-they-were-able-to.png',
     },
     {
       phrase: 'WITHIN [TIME], THEY SAW A [PERCENTAGE] IMPROVEMENT IN...',
       definition: 'Use this to share a specific result with a number and how quickly it happened.',
       example: "Within 90 days, they saw a 28% improvement in output — more handled per person, with fewer hours spent on each one, and the whole team operating at a pace they hadn't seen before.",
-      imageSlug: '/images/within-time-they-saw-a-percentage-improvement-in.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/within-time-they-saw-a-percentage-improvement-in.png',
     },
     {
       phrase: 'WHAT THIS MEANT FOR THEIR BUSINESS WAS...',
       definition: 'Use this to explain why a result was important and what it changed for the customer.',
       example: "What this meant for their business was a chain reaction — faster delivery led to better quality checks, happier customer relationships, growing revenue, and eventually the opening of a second location.",
-      imageSlug: '/images/what-this-meant-for-their-business-was.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-this-meant-for-their-business-was.png',
     },
     {
       phrase: 'THEIR MANAGER TOLD US THAT...',
       definition: 'Use this to share what a customer said about your product in their own words.',
       example: "Their manager told us that the team noticed the difference within the first week — and that the confidence it gave them in the equipment was something they hadn't expected going in.",
-      imageSlug: '/images/their-manager-told-us-that.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/their-manager-told-us-that.png',
     },
     {
       phrase: "THAT'S EXACTLY THE KIND OF RESULT WE AIM TO DELIVER FOR EVERY CUSTOMER WE WORK WITH",
       definition: 'Use this to close a success story and promise the same results to the person you are speaking with.',
       example: "Hotels, warehouses, retailers, clinics — consistent, measurable improvement with a checkmark at the end of every engagement. That's exactly the kind of result we aim to deliver for every customer we work with.",
-      imageSlug: '/images/thats-exactly-the-kind-of-result-we-aim-to-deliver-for-every-customer-we-work-with.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/thats-exactly-the-kind-of-result-we-aim-to-deliver-for-every-customer-we-work-with.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Absolutely — this is exactly the right question to ask. I have a [[case study:a detailed account of how a specific customer used your product to achieve results]] that I think will resonate strongly. One of our customers — a mid-size SaaS sales team of around eighteen people — was facing exactly the same challenge you described.',
     },
     {
@@ -130,7 +130,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Their sales team was spending nearly twelve hours a week on manual reporting. They had four separate tools that didn't talk to each other, and their managers had no real-time visibility into the pipeline. Sound familiar?",
     },
     {
@@ -142,7 +142,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'After [[implement:to put a system or product into practical use within an organisation]]ing our platform, they were able to reduce that reporting time to under two hours a week. Within the first 90 days, they saw a 28% increase in deals closed and a 35% improvement in manager satisfaction scores.',
     },
     {
@@ -154,7 +154,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'They were fully live within ten days. The onboarding team handled everything. The only thing their IT team needed to do was grant us access to Salesforce — which took about an hour.',
     },
     {
@@ -166,7 +166,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'What it meant for their business was a very clear [[ROI:return on investment — the financial benefit gained relative to the cost]]. The platform paid for itself within the first quarter. And their Chief Revenue Officer told us it was the best investment they had made in two years.',
     },
     {
@@ -178,7 +178,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "It's consistently what we see. Not every customer hits exactly the same percentages — but the pattern of [[measurable:able to be quantified with specific data and numbers]] improvement in admin time and deal velocity is something we see across the board. I can share three or four other case studies at different company sizes if it would help.",
     },
     {
@@ -190,7 +190,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Perfect — I have a case study from a team of 22 that I'll send this afternoon. Their results were similar, and their manager gave a detailed written testimonial about the [[transformation:a significant, lasting change in how something works]]. I can also share the ROI calculator so you can model what the numbers would look like for your team specifically.",
     },
     {
@@ -202,7 +202,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'll send everything this afternoon — the case study, the ROI calculator, and a one-page summary you can share directly with your CFO. That's exactly the kind of result we aim to deliver for every customer we work with — and I'm confident we can deliver it for your team.",
     }
   ],

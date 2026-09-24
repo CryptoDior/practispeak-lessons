@@ -14,56 +14,56 @@ export const robloxAskingQuestions: Lesson = {
       partOfSpeech: 'pronoun',
       definition: "Use this to ask about a thing — the name or type of something.",
       example: "What is your favourite game? Tell me the name and why you like it!",
-      imageSlug: '/images/roblox-asking-questions-what.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-what.png',
     },
     {
       word: 'WHICH',
       partOfSpeech: 'pronoun',
       definition: "Use this to ask someone to pick one from a small group.",
       example: "Which game mode do you prefer — solo, duo, or team? Pick one!",
-      imageSlug: '/images/roblox-asking-questions-which.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-which.png',
     },
     {
       word: 'WHO',
       partOfSpeech: 'pronoun',
       definition: "Use this to ask about a person.",
       example: "Who do you usually play with? A friend, your brother, or strangers online?",
-      imageSlug: '/images/roblox-asking-questions-who.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-who.png',
     },
     {
       word: 'WHEN',
       partOfSpeech: 'adverb',
       definition: "Use this to ask about a time.",
       example: "When do you usually play Roblox — after school, or in the evening?",
-      imageSlug: '/images/roblox-asking-questions-when.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-when.png',
     },
     {
       word: 'WHY',
       partOfSpeech: 'adverb',
       definition: "Use this to ask for a reason — what makes someone do or feel something.",
       example: "Why do you love this game so much? What makes it so good?",
-      imageSlug: '/images/roblox-asking-questions-why.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-why.png',
     },
     {
       word: 'HOW LONG',
       partOfSpeech: 'phrase',
       definition: "Ask about time — for how many hours, days, or months.",
       example: "How long have you played Roblox? Months? Years? When did you start?",
-      imageSlug: '/images/roblox-asking-questions-how-long.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-how-long.png',
     },
     {
       word: 'HOW MANY',
       partOfSpeech: 'phrase',
       definition: "Ask about a number — how much of something.",
       example: "How many games do you have as a favourite? Just one or a long list?",
-      imageSlug: '/images/roblox-asking-questions-how-many.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-how-many.png',
     },
     {
       word: 'WHAT KIND',
       partOfSpeech: 'phrase',
       definition: "Ask about the type of something — what group does it belong to?",
       example: "What kind of game is it — a building game, a race, or a battle game?",
-      imageSlug: '/images/roblox-asking-questions-what-kind.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-what-kind.png',
     },
   ],
 
@@ -73,56 +73,56 @@ export const robloxAskingQuestions: Lesson = {
       partOfSpeech: 'pronoun',
       definition: "Use this to ask about a thing.",
       example: "What is your favourite food? Tell me — I want to know what you like most!",
-      imageSlug: '/images/roblox-asking-questions-what-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-what-irl.png',
     },
     {
       word: 'WHICH',
       partOfSpeech: 'pronoun',
       definition: "Use this to ask someone to pick one from a small group.",
       example: "Which is better — tea or coffee? I want to know which one you like more.",
-      imageSlug: '/images/roblox-asking-questions-which-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-which-irl.png',
     },
     {
       word: 'WHO',
       partOfSpeech: 'pronoun',
       definition: "Use this to ask about a person.",
       example: "Who is your best friend at school? Tell me about them!",
-      imageSlug: '/images/roblox-asking-questions-who-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-who-irl.png',
     },
     {
       word: 'WHEN',
       partOfSpeech: 'adverb',
       definition: "Use this to ask about a time.",
       example: "When is your birthday? I want to remember it so I can say happy birthday!",
-      imageSlug: '/images/roblox-asking-questions-when-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-when-irl.png',
     },
     {
       word: 'WHY',
       partOfSpeech: 'adverb',
       definition: "Use this to ask for a reason.",
       example: "Why do you like that song so much? What is so good about it?",
-      imageSlug: '/images/roblox-asking-questions-why-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-why-irl.png',
     },
     {
       word: 'HOW LONG',
       partOfSpeech: 'phrase',
       definition: "Ask about time — for how many hours, days, or months.",
       example: "How long have you studied English? It must be a few years by now!",
-      imageSlug: '/images/roblox-asking-questions-how-long-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-how-long-irl.png',
     },
     {
       word: 'HOW MANY',
       partOfSpeech: 'phrase',
       definition: "Ask about a number — how much of something.",
       example: "How many brothers and sisters do you have? Are you the oldest or youngest?",
-      imageSlug: '/images/roblox-asking-questions-how-many-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-how-many-irl.png',
     },
     {
       word: 'WHAT KIND',
       partOfSpeech: 'phrase',
       definition: "Ask about the type of something.",
       example: "What kind of music do you like — pop, rock, or something else?",
-      imageSlug: '/images/roblox-asking-questions-what-kind-irl.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-what-kind-irl.png',
     },
   ],
 
@@ -133,7 +133,7 @@ export const robloxAskingQuestions: Lesson = {
       example: "Tell me more about that game — it sounds amazing! What do you do in it?",
       inGame: "Tell me more about your favourite server — how many players are there?",
       inRealLife: "Tell me more about your holiday — where did you go and what did you do?",
-      imageSlug: '/images/roblox-asking-questions-tell-me-more.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-tell-me-more.png',
     },
     {
       phrase: "WHAT DO YOU THINK ABOUT...?",
@@ -141,7 +141,7 @@ export const robloxAskingQuestions: Lesson = {
       example: "What do you think about the new Roblox update? Good or bad?",
       inGame: "What do you think about the new map? Is it better than the old one?",
       inRealLife: "What do you think about the new teacher? Is she nice?",
-      imageSlug: '/images/roblox-asking-questions-what-do-you-think.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-what-do-you-think.png',
     },
     {
       phrase: "HOW COME...?",
@@ -149,7 +149,7 @@ export const robloxAskingQuestions: Lesson = {
       example: "How come you stopped playing that game? You loved it last month!",
       inGame: "How come you always win at PvP? What is your secret move?",
       inRealLife: "How come you are so early today? You are always the last one to arrive!",
-      imageSlug: '/images/roblox-asking-questions-how-come.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-how-come.png',
     },
     {
       phrase: "WHAT HAPPENED NEXT?",
@@ -157,7 +157,7 @@ export const robloxAskingQuestions: Lesson = {
       example: "You said you found a secret room — what happened next? What was inside?",
       inGame: "You beat the boss — what happened next? Did you get a good prize?",
       inRealLife: "You said the dog ran into the road — what happened next? Was it OK?",
-      imageSlug: '/images/roblox-asking-questions-what-happened-next.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-what-happened-next.png',
     },
     {
       phrase: "HOW DID YOU FIND OUT ABOUT...?",
@@ -165,7 +165,7 @@ export const robloxAskingQuestions: Lesson = {
       example: "How did you find out about this game? A friend? A video online?",
       inGame: "How did you find out about that secret level? It is so hidden!",
       inRealLife: "How did you find out about that restaurant? The food was amazing!",
-      imageSlug: '/images/roblox-asking-questions-how-did-you-find-out.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-how-did-you-find-out.png',
     },
     {
       phrase: "WHAT IS IT LIKE?",
@@ -173,7 +173,7 @@ export const robloxAskingQuestions: Lesson = {
       example: "What is it like to play in a server with one hundred players? Is it crazy?",
       inGame: "What is it like to build a whole game on your own? Very hard?",
       inRealLife: "What is it like to live in a big city? Is it loud and busy all the time?",
-      imageSlug: '/images/roblox-asking-questions-what-is-it-like.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-what-is-it-like.png',
     },
   ],
 
@@ -183,7 +183,7 @@ export const robloxAskingQuestions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, can I interview you for my English class? I need to ask questions about someone's favourite game. Is that OK?",
     },
     {
@@ -195,7 +195,7 @@ export const robloxAskingQuestions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Great! First question: [[what:use this to ask about a thing]] is your favourite game on Roblox right now?",
     },
     {
@@ -207,7 +207,7 @@ export const robloxAskingQuestions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[What kind:ask about the type of something]] of game is it — a battle game, a race, or something else? And [[who:ask about a person]] do you play it with?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxAskingQuestions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Fighting for me! But I am the interviewer! [[When:ask about a time]] do you usually play — after school or in the evening?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxAskingQuestions: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[How long:ask about time — how many hours or months]] have you played Roblox? And [[how many:ask about a number]] Robux do you have? Last question: [[why:ask for a reason]] do you love Bloxd so much?",
     },
     {

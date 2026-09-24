@@ -6,7 +6,7 @@ export const performanceMarketingMastery: Lesson = {
   subtitle: 'How to measure, optimise, and report on full-funnel performance marketing',
   level: 'C1-C2',
   description: "Performance marketing is where strategy meets accountability. At the C1 level, it is not enough to know how to run a campaign — you need to know how to attribute results correctly, understand what is truly driving growth versus what looks good on a dashboard, and build a measurement framework that survives scrutiny from the CFO. This lesson covers the advanced vocabulary of performance marketing: attribution, incrementality, blended CAC, ROAS, and the frameworks that separate insight from noise.",
-  heroImage: '/images/performance-marketing-mastery-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/performance-marketing-mastery-hero.png',
 
   vocabulary: [
     {
@@ -118,7 +118,7 @@ export const performanceMarketingMastery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Because [[ROAS:Return On Ad Spend — revenue generated for every pound spent on advertising]] does not tell us if we are profitable. She is asking the right question. What is your [[blended CAC:the average cost to acquire one new customer across all channels combined]] this quarter?",
     },
     {
@@ -130,7 +130,7 @@ export const performanceMarketingMastery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "There is your answer. The CFO sees the blended number — and £220 against a £40 monthly revenue means a 5.5-month [[payback period:the time it takes for a customer to generate enough revenue to cover their acquisition cost]]. That is only sustainable if your retention holds.",
     },
     {
@@ -142,7 +142,7 @@ export const performanceMarketingMastery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Trust your instinct. We need to run an incrementality test. [[Incrementality:the true additional lift a marketing activity generates above what would have happened without it]] is the real question — are those customers converting because of the retargeting, or would they have bought anyway?",
     },
     {
@@ -154,7 +154,7 @@ export const performanceMarketingMastery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The attribution model is distorting the picture. [[Multi-touch attribution:an approach that gives credit to multiple touchpoints across the customer journey]] will show you what email, display, and social are actually contributing — and you will probably find you are underspending on the channels that do the heavy lifting early in the journey.",
     },
     {
@@ -166,7 +166,7 @@ export const performanceMarketingMastery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "[[Media mix modelling:a statistical method that uses historical data to measure how different channels contribute to overall business outcomes]] — it uses aggregate data to show the impact of channels you cannot track at the individual level. Markets where we run TV consistently outperform by 15%. That is the evidence.",
     },
     {
@@ -178,7 +178,7 @@ export const performanceMarketingMastery: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Because we are only reporting bottom-of-funnel. Let's look at this through a full-funnel lens for next quarter. Show awareness metrics, consideration metrics, and conversion together — and show how investment at each stage affects the others. That is a conversation she will understand.",
     }
   ],

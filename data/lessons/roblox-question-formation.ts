@@ -14,35 +14,35 @@ export const robloxQuestionFormation: Lesson = {
       partOfSpeech: 'pronoun',
       definition: "Asks for information about something — any answer is possible, not a fixed list.",
       example: "What is your preferred loadout for the arena? I want to understand your whole strategy.",
-      imageSlug: '/images/roblox-question-formation-what.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-question-formation-what.png',
     },
     {
       word: 'WHICH',
       partOfSpeech: 'pronoun',
       definition: "Asks someone to choose from a specific set of options — there is a limited group to choose from.",
       example: "Which server do you prefer — the PvP one or the co-op one? Both have been updated this week.",
-      imageSlug: '/images/roblox-question-formation-which.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-question-formation-which.png',
     },
     {
       word: 'WHO',
       partOfSpeech: 'pronoun',
       definition: "Asks about a specific person or group of people.",
       example: "Who is the best trader on this server right now? I need to learn from someone at the top.",
-      imageSlug: '/images/roblox-question-formation-who.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-question-formation-who.png',
     },
     {
       word: 'WHERE',
       partOfSpeech: 'adverb',
       definition: "Asks about a location, place, or position.",
       example: "Where is the hidden vault on level seven? I have searched every area and found nothing.",
-      imageSlug: '/images/roblox-question-formation-where.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-question-formation-where.png',
     },
     {
       word: 'WHEN',
       partOfSpeech: 'adverb',
       definition: "Asks about a time — the moment, day, or period when something happens.",
       example: "When does the season reset? I need to know how many days I have left to reach my target rank.",
-      imageSlug: '/images/roblox-question-formation-when.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-question-formation-when.png',
     },
     {
       word: 'WHY',
@@ -189,7 +189,7 @@ export const robloxQuestionFormation: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Of course! I love talking about this stuff.",
     },
     {
@@ -201,7 +201,7 @@ export const robloxQuestionFormation: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The community and the creativity. You can build entire worlds from nothing. It never gets old.",
     },
     {
@@ -213,7 +213,7 @@ export const robloxQuestionFormation: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "PvP when I want a challenge, co-op when I want to relax with friends. It depends on the day.",
     },
     {
@@ -225,7 +225,7 @@ export const robloxQuestionFormation: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "A mix. About half are real-life friends, the other half I met online. Some of those are now close friends too.",
     },
     {
@@ -237,7 +237,7 @@ export const robloxQuestionFormation: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Always at home. I need a good connection and my own setup — playing anywhere else feels wrong.",
     },
     {
@@ -249,7 +249,7 @@ export const robloxQuestionFormation: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "About five years ago — a friend showed it to me. I chose it over others because of the variety. One platform, a thousand completely different games.",
     },
     {
@@ -261,7 +261,7 @@ export const robloxQuestionFormation: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "About ten pounds a month on Robux — only for things that genuinely improve the experience. And around two hours a day on weekdays, maybe four at the weekend.",
     },
   ],

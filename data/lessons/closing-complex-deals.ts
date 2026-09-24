@@ -6,7 +6,7 @@ export const closingComplexDeals: Lesson = {
   subtitle: 'The language of commitment, mutual action plans, and decision timelines — how to close multi-stakeholder enterprise deals without losing them to process',
   level: 'C1-C2',
   description: "Complex deals do not close with a single question. They close through a series of incremental commitments — each conversation securing a specific agreement, a named next step, and a shared understanding of what happens next and by whom. The most common reason enterprise deals stall is not that the buyer decided not to buy — it's that the deal lost momentum in the space between meetings. No agreed next step, no clear timeline, no champion keeping it moving internally. This lesson teaches the language of complex deal closure: how to build a mutual action plan, surface blockers before they become fatal, identify and activate the internal champion, and drive the deal through every internal approval gate to a signed contract.",
-  heroImage: '/images/closing-complex-deals-hero.png',
+  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-complex-deals-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const closingComplexDeals: Lesson = {
       partOfSpeech: 'noun',
       definition: "In complex deals, a commitment is a specific, time-bound agreement to take a defined action — not a general expression of interest. 'We're interested in moving forward' is not a commitment. 'I will submit the proposal to procurement by Friday' is a commitment. Securing incremental commitments — small, specific agreements that build progressively toward contract — is the core discipline of complex deal management.",
       example: "Riley made the distinction explicit: Before we close today's meeting, I want to agree on a specific commitment from both sides — not a general intention, but a named action with a named owner and a date. My commitment is to send the mutual action plan by end of tomorrow. What is yours? — because 'we'll look at it this week' is the kind of commitment that turns into a three-week delay.",
-      imageSlug: '/images/closing-complex-deals-commitment.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-complex-deals-commitment.png',
     },
     {
       word: 'NEXT STEPS',
@@ -118,7 +118,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I appreciate you saying that directly — and I don't want to create pressure that works against us. Can I suggest we start somewhere different: rather than working toward my timeline, let's map out what your internal process actually requires and build the plan from that.",
     },
     {
@@ -130,7 +130,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'What does the [[decision timeline:the sequence of events, approvals, and milestones that must occur before a purchase can be finalised]] look like from here — every step, every approval, every [[sign-off gate:a mandatory approval checkpoint that must be cleared before the deal can advance to the next stage]] that has to be cleared before we can get to a signed contract?',
     },
     {
@@ -142,7 +142,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'When is the next board meeting?',
     },
     {
@@ -154,7 +154,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's our anchor. Working backwards: six weeks to board. CFO sign-off needs to happen the week before, so that's week five. Legal needs to be complete before the CFO sees it — if legal takes two weeks, we need to start legal review in week three. That means procurement needs to clear us and issue the contract by the end of week two. If we submit to procurement today, that timeline is achievable — but there is no buffer. Can we make the procurement submission today a firm [[commitment:a specific, time-bound agreement to take a defined action — not a general expression of interest]]?",
     },
     {
@@ -166,7 +166,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good. Now — can we agree on a [[mutual action plan:a shared document mapping every step required from both sides to close the deal, with a named owner and date for each action]]? I'll draft the steps on our side — implementation readiness, legal turnaround, and commercial terms — and send it to you by end of tomorrow. You add your team's steps, and it becomes the shared reference that both teams work from.",
     },
     {
@@ -178,7 +178,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's exactly why it works. Now — one more question, and it's one I ask on every deal at this stage: what are the [[blocker:any factor — technical, commercial, organisational, or political — preventing a deal from advancing]]s we haven't discussed yet? Not the concerns we've already addressed — the things that might be creating hesitation internally that haven't surfaced in our conversations.",
     },
     {
@@ -190,7 +190,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Then let's address it before it becomes a blocker. Can I send our security documentation directly to your IT team this week — our GDPR compliance certificate, data flow diagram, and pen-test results from Q1? If there are residency concerns, I'd rather surface them now than in week two of procurement. Who should I copy on that email?",
     },
     {
@@ -202,7 +202,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Sarah sounds like the [[champion:an internal advocate who actively supports the solution and can navigate internal decision-making on the vendor's behalf]] I was about to ask you to identify. Would you be comfortable introducing me to her directly? Having a relationship with the person who has visibility across all approval stages is what keeps deals moving between our conversations.",
     },
     {
@@ -214,7 +214,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Perfect. Let's confirm the [[next steps:the specific, named actions agreed at the end of a sales conversation — who does what, and by when]] before we close: you submit to procurement and introduce me to Sarah today; I send the security documentation to Sarah and the mutual action plan to you by end of tomorrow; and we schedule a three-way check-in for Monday with Sarah included. All confirmed?",
     }
   ],

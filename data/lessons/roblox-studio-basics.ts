@@ -14,7 +14,7 @@ export const robloxStudioBasics: Lesson = {
       partOfSpeech: 'verb',
       definition: "Plan what something will look like before you make it.",
       example: "First I will design the map on paper — then I will build it in Roblox Studio.",
-      imageSlug: '/images/roblox-studio-basics-design.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-studio-basics-design.png',
     },
     {
       word: 'ADD',
@@ -183,7 +183,7 @@ export const robloxStudioBasics: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Mia, I want to make my own Roblox game! But I do not know where to start. Can you help me?",
     },
     {
@@ -195,7 +195,7 @@ export const robloxStudioBasics: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I want to [[build:make by putting parts together]] a pirate island! With a big ship, a beach, and a cave with treasure inside.",
     },
     {
@@ -207,7 +207,7 @@ export const robloxStudioBasics: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "OK! And if I make something wrong, can I [[delete:remove it — take it away]] it and try again?",
     },
     {
@@ -219,7 +219,7 @@ export const robloxStudioBasics: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Good tip! And when I finish, how do I know if the game is good? Do I just [[share:let other people play or see what you made]] it right away?",
     },
     {
@@ -231,7 +231,7 @@ export const robloxStudioBasics: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "[[Design:plan]], [[add:put in]], [[place:put in a spot]], [[delete:remove]], [[build:make]], [[save:keep your work]], [[test:try it out]], [[share:let others see]] — these are the eight steps! I can do this!",
     },
     {

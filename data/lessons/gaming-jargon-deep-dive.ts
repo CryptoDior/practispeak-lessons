@@ -6,7 +6,7 @@ export const gamingJargonDeepDive: Lesson = {
   subtitle: 'Master nerf, buff, meta and OP — the language of competitive gaming',
   level: 'B1-B2',
   description: 'Master four essential gaming terms — nerf, buff, meta, OP — plus register awareness and real-world usage across contexts.',
-  heroImage: '/images/gaming-jargon-deep-dive-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/gaming-jargon-deep-dive-hero.png',
 
   tabLabels: ['Vocabulary', 'Related Terms', 'Register', 'In Context', 'Exercises'],
 
@@ -36,7 +36,7 @@ export const gamingJargonDeepDive: Lesson = {
       example: 'They nerfed the shotgun — it does 30% less damage now.',
       secondExample: 'That was a huge nerf to her kit.',
       etymologyNote: '🔑 Origin: from Nerf foam toys — soft and harmless.',
-      imageSlug: '/images/nerf.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/nerf.png',
     },
     {
       word: 'BUFF',
@@ -44,7 +44,7 @@ export const gamingJargonDeepDive: Lesson = {
       definition: 'The opposite of nerf — to strengthen a character, weapon, or ability.',
       example: "My main got buffed this patch. She's actually viable now!",
       secondExample: 'The devs gave healers a big buff.',
-      imageSlug: '/images/buff.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/buff.png',
     },
     {
       word: 'META',
@@ -53,7 +53,7 @@ export const gamingJargonDeepDive: Lesson = {
       example: 'Stacking tanks is totally meta right now.',
       secondExample: 'The meta shifted after the patch.',
       etymologyNote: '🔑 Short for Most Effective Tactics Available. Changes constantly after nerfs, buffs, or new content.',
-      imageSlug: '/images/meta.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/meta.png',
     },
     {
       word: 'OP',
@@ -61,7 +61,7 @@ export const gamingJargonDeepDive: Lesson = {
       definition: "Overpowered — so strong it creates an unfair advantage. Often signals a nerf is coming.",
       example: "That boss ability is OP — no one can dodge it in time.",
       secondExample: "He's been OP since Season 3.",
-      imageSlug: '/images/op.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/op.png',
     },
   ],
 
@@ -70,28 +70,28 @@ export const gamingJargonDeepDive: Lesson = {
       phrase: 'PATCH',
       definition: 'A game update released by developers that can nerf, buff, or fix things.',
       example: 'After the patch, the meta completely changed.',
-      imageSlug: '/images/patch.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/patch.png',
       tag: '',
     },
     {
       phrase: 'BROKEN',
       definition: 'Hyperbolically overpowered — so strong it feels like a bug or design error.',
       example: 'This combo is broken — needs to be nerfed immediately.',
-      imageSlug: '/images/broken.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/broken.png',
       tag: '',
     },
     {
       phrase: 'MAIN',
       definition: 'Your primary character in a game. Also used as a verb — to main a character.',
       example: 'I main Sova, but he just got nerfed.',
-      imageSlug: '/images/gaming-jargon-deep-dive-main.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/gaming-jargon-deep-dive-main.png',
       tag: '',
     },
     {
       phrase: 'TIER LIST',
       definition: 'A community ranking of characters or strategies from S-tier (best) to D-tier (worst).',
       example: 'She jumped to S-tier after the buff.',
-      imageSlug: '/images/tier-list.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tier-list.png',
       tag: 'phrasal verb',
     },
   ],

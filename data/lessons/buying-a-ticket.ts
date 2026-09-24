@@ -21,7 +21,7 @@ export const buyingATicket: Lesson = {
       partOfSpeech: 'noun',
       definition: 'How much money you pay for the ticket.',
       example: 'How much is the price of a ticket in the north stand?',
-      imageSlug: '/images/buying-a-ticket-price.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/buying-a-ticket-price.png',
     },
     {
       word: 'HOME END',

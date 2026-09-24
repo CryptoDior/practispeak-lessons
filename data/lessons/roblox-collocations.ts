@@ -220,7 +220,7 @@ export const robloxCollocations: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The grammar is technically fine — but it is not how native speakers say it. You [[break:surpass the previous best performance]] a record, not do one. 'We broke a record last night.' This is a collocation — a fixed word partnership where only one verb fits naturally.",
     },
     {
@@ -232,7 +232,7 @@ export const robloxCollocations: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Collocations are not about logic — they are about habit. Languages just have fixed combinations that sound right because speakers have used them that way for generations. You earn Robux, not win Robux. You [[join:become part of]] a server, not enter one. You [[hit:reach]] a milestone, not arrive at one.",
     },
     {
@@ -244,7 +244,7 @@ export const robloxCollocations: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "No logical reason — but HIT is always the verb. 'We hit a milestone', 'hit our target', 'hit a deadline'. MAKE works for progress — you [[make:produce or create]] progress, not do progress. And GAIN works for advantage — you [[gain:obtain something through effort]] an advantage, not win one.",
     },
     {
@@ -256,7 +256,7 @@ export const robloxCollocations: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly — BUILD a reputation. Not create, not make, not earn. You BUILD it, slowly, over time. And in competitive play: you [[take:move into]] the lead, not get or win the lead. 'The guild took the lead in round three' — that is the natural collocation.",
     },
     {
@@ -268,7 +268,7 @@ export const robloxCollocations: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The best way to learn them is not to memorise lists — it is to read and listen to lots of natural English and notice the patterns. When you see 'earn', notice what follows. When you see 'hit', notice what follows. Gradually, the combinations start to feel automatic.",
     },
   ],

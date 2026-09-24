@@ -6,7 +6,7 @@ export const salesPresentationBasics: Lesson = {
   subtitle: 'How to open, structure, and close a presentation using introduction, agenda, key points, and summary',
   level: 'B1-B2',
   description: 'A great sales presentation is not about slides or design — it is about structure. When your audience knows where they are, where they are going, and what matters most, they can focus on the content instead of trying to follow along. This lesson teaches you the language of professional presentations: how to open with confidence, present your agenda clearly, guide your audience through key points, and close with a summary that makes the decision easy.',
-  heroImage: '/images/sales-presentation-basics-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-presentation-basics-hero.png',
 
   vocabulary: [
     {
@@ -14,56 +14,56 @@ export const salesPresentationBasics: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The opening section of a presentation where you welcome the audience, establish context, and explain what you will cover. A strong introduction sets expectations and earns attention.',
       example: "A strong introduction tells the audience who you are, what you'll cover, and how long it will take — giving everyone a reason to pay attention from the first minute.",
-      imageSlug: '/images/sales-presentation-basics-introduction.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-presentation-basics-introduction.png',
     },
     {
       word: 'AGENDA',
       partOfSpeech: 'noun',
       definition: 'A structured list of topics you will cover, shared at the start of a presentation. Presenting the agenda upfront helps the audience follow along and shows that your time together is well organised.',
       example: "The agenda covers four sections — the current challenge, the proposed solution, results from existing clients, and time for questions — so the audience knows exactly what to expect and when.",
-      imageSlug: '/images/sales-presentation-basics-agenda.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-presentation-basics-agenda.png',
     },
     {
       word: 'SIGNPOST',
       partOfSpeech: 'noun',
       definition: "A word or phrase that guides the listener through the structure of a presentation — telling them where you are and where you are going. Common signposts: 'moving on to', 'as I mentioned', 'to summarise'.",
       example: "A signpost like 'we're now in section two of three' tells the audience exactly where they are in the presentation — so they can follow along without losing track.",
-      imageSlug: '/images/sales-presentation-basics-signpost.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-presentation-basics-signpost.png',
     },
     {
       word: 'TRANSITION',
       partOfSpeech: 'noun',
       definition: 'A phrase used to move smoothly from one section of a presentation to the next. Good transitions link ideas together and make the presentation feel natural rather than disconnected.',
       example: "A clean transition from the problem to the solution gives the audience a clear moment to shift focus — linking what they just heard to what is coming next.",
-      imageSlug: '/images/sales-presentation-basics-transition.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-presentation-basics-transition.png',
     },
     {
       word: 'EMPHASIS',
       partOfSpeech: 'noun',
       definition: "Extra importance or stress given to a point so the audience pays particular attention to it. You create emphasis by slowing down, repeating a key idea, or using phrases like 'the key point here is'.",
       example: "When a number is the most important point in a section, emphasis makes sure the audience doesn't miss it — pausing before the figure and naming it clearly is often enough.",
-      imageSlug: '/images/emphasis.png',
+      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/emphasis.png',
     },
     {
       word: 'SUMMARY',
       partOfSpeech: 'noun',
       definition: 'A brief recap of the main points at the end of a presentation. A strong summary reminds the audience of what they heard, reinforces the key messages, and sets up the next step.',
       example: "A good summary at the end of a presentation pulls the key points together — the challenge, the solution, and the results — and gives the audience a clear picture before the next step.",
-      imageSlug: '/images/sales-presentation-basics-summary.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-presentation-basics-summary.png',
     },
     {
       word: 'ENGAGE',
       partOfSpeech: 'verb',
       definition: "To capture and hold the audience's attention. A presenter who engages their audience asks questions, tells stories, and connects the content directly to the listener's experience.",
       example: "When a presentation includes a live demonstration and invites questions throughout, the audience stays engaged rather than passively waiting for it to end.",
-      imageSlug: '/images/sales-presentation-basics-engage.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-presentation-basics-engage.png',
     },
     {
       word: 'STRUCTURE',
       partOfSpeech: 'noun',
       definition: 'The organised framework of a presentation — introduction, body, and conclusion. A clear structure helps the audience follow the content and remember the key messages after the presentation ends.',
       example: "A clear structure — an opening, an operational middle, and a defined goal at the end — makes it easy for the audience to follow the presentation from start to finish.",
-      imageSlug: '/images/sales-presentation-basics-structure.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-presentation-basics-structure.png',
     }
   ],
 
@@ -72,37 +72,37 @@ export const salesPresentationBasics: Lesson = {
       phrase: "I'D LIKE TO START BY...",
       definition: "The standard professional opener for a presentation section or the whole presentation. 'Start by' introduces the first action — what you will do to begin. Always use 'by' followed by '-ing'.",
       example: "I'd like to start by giving you a quick overview of the market context — so that when we get to the product, you'll already understand why the timing matters.",
-      imageSlug: '/images/id-like-to-start-by.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/id-like-to-start-by.png',
     },
     {
       phrase: "TODAY I'LL BE COVERING...",
       definition: "A clear, professional way to present the agenda. 'I'll be covering' uses the future continuous to signal that these topics will unfold over the course of the presentation.",
       example: "Today I'll be covering three things — the problem, the product, and the results — and each section builds on the last, so by the end you'll have a complete picture.",
-      imageSlug: '/images/today-ill-be-covering.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/today-ill-be-covering.png',
     },
     {
       phrase: 'MOVING ON TO...',
       definition: 'The standard transition phrase for moving from one section to the next in a presentation. It is a signpost — it tells the audience they are now moving forward to new content.',
       example: "Moving on to how the system works in practice — now that we've established the challenge, let me show you how the solution addresses it step by step.",
-      imageSlug: '/images/moving-on-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/moving-on-to.png',
     },
     {
       phrase: 'THE KEY POINT HERE IS...',
       definition: 'A phrase used to signal the most important idea in a section. It tells the audience to pay close attention — this is the thing they should remember even if they forget everything else.',
       example: "The key point here is that the platform doesn't just reduce workload — it turns a fragmented process into a consistent, repeatable experience the whole team can rely on.",
-      imageSlug: '/images/the-key-point-here-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-key-point-here-is.png',
     },
     {
       phrase: 'TO SUMMARISE...',
       definition: 'The phrase that opens the closing section of a presentation. It signals that you are now recapping the main points — giving the audience a final, clear reminder of what they just heard.',
       example: "To summarise — we've covered the market context, the challenge it creates, the growth opportunity, and the outcome you can expect — and I'd now like to open it up for questions.",
-      imageSlug: '/images/to-summarise.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/to-summarise.png',
     },
     {
       phrase: "I'D BE HAPPY TO TAKE ANY QUESTIONS",
       definition: "The professional phrase for opening the Q&A section after a presentation. 'Take' is the standard verb for questions in a presentation context — not 'answer' or 'receive'.",
       example: "I'd be happy to take any questions now — on the product, the process, or anything from the presentation — before we move on to the next step.",
-      imageSlug: '/images/id-be-happy-to-take-any-questions.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/id-be-happy-to-take-any-questions.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Good morning, everyone. Thank you for joining us. I'm Riley from Practispeak Solutions, and I'm delighted to be presenting to you today.",
     },
     {
@@ -124,7 +124,7 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Wonderful. To set the [[agenda:a structured list of topics to be covered in a presentation]] — today I'll be covering three main areas: the challenge your team is facing, our solution, and the results our customers are seeing in practice. The whole presentation should take around 30 minutes, with time for questions at the end.",
     },
     {
@@ -136,7 +136,7 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "I'd like to start by talking about the challenge. Most mid-size sales teams are spending more time managing data than actually selling. Does that resonate with your experience?",
     },
     {
@@ -148,13 +148,13 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "That's exactly what we hear. The key point here is that this is not a people problem — it's a systems problem. And a systems problem has a systems solution. I want to place real [[emphasis:extra importance given to a point so the audience pays attention]] on that distinction.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'Moving on to the solution. Our platform automates your reporting, connects your existing tools — including Salesforce — and gives your managers real-time visibility across the entire pipeline.',
     },
     {
@@ -166,7 +166,7 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Of course — it's a native integration, so no third-party connector is required. I'll come back to that in the demo. But to [[emphasise the transition:to signal moving to a new section]]: it works out of the box with no IT project on your side. That's the key [[signpost:a word or phrase that guides the listener through the presentation structure]] for Sarah's team — zero configuration needed.",
     },
     {
@@ -178,7 +178,7 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Moving on to the results section. I'd like to share what this looks like in practice for teams who have already made the switch — because I think the numbers will speak for themselves.",
     },
     {
@@ -190,13 +190,13 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: 'To [[summary:a brief recap of the main points at the end of a presentation]] — I mean, to summarise the results — our customers see three consistent improvements in the first 90 days: a 30% reduction in admin time, a 20% increase in deals closed, and significantly better manager visibility across the pipeline.',
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "To bring this all together — what we're offering is not just a tool. It's a platform that gives your team more time to sell and your managers better information to lead with.",
     },
     {
@@ -208,7 +208,7 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Thank you. I'd be happy to take any questions now before we move into the live demo.",
     }
   ],

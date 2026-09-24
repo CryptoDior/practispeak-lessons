@@ -219,7 +219,7 @@ export const robloxHedgingLanguage: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "The problem might be that you're stating opinions as facts. English has a lot of tools to soften a statement without making it weak. It's called hedging.",
     },
     {
@@ -231,7 +231,7 @@ export const robloxHedgingLanguage: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "No — that sounds weak. There are smarter tools. Try: 'It could be argued that our communication broke down in the final round.' You're putting the idea forward — not owning it completely — but it's still clear.",
     },
     {
@@ -243,7 +243,7 @@ export const robloxHedgingLanguage: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "Exactly. Or use [[tend to:usually do something — but not always]]: 'Teams that [[broadly:in general — in most cases]] communicate well [[tend to:usually do something — but not always]] perform better in the final round.' Not always. Not everyone. But in most cases.",
     },
     {
@@ -255,7 +255,7 @@ export const robloxHedgingLanguage: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "APPARENTLY works when you've heard it from someone. PRESUMABLY works when you've seen evidence and are drawing a logical conclusion. 'Presumably they changed their approach — their second match looked very different from their first.'",
     },
     {
@@ -267,7 +267,7 @@ export const robloxHedgingLanguage: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "'The data [[suggest:when evidence points to something]]s the turning point was round three.' Perfect — SUGGEST for evidence-based conclusions. And [[arguably:you could say this is true, but others might disagree]], the most important tool is knowing when NOT to hedge. If you know something is true, say it directly. Hedging everything makes you [[come across as:the impression someone gives]] uncertain even when you are not.",
     },
   ],

@@ -56,7 +56,7 @@ export const robloxReviewB2Block1: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Very convincing and interesting — hard to ignore or argue against. (From Lesson 8: Persuasive Language)",
       example: "The review made a compelling case for this being the best competitive game on the platform — the evidence was unanswerable.",
-      imageSlug: '/images/roblox-review-b2-block-1-compelling.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-b2-block-1-compelling.png',
     },
     {
       word: 'CONCEDE',
@@ -197,7 +197,7 @@ export const robloxReviewB2Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "I agree — and looking back on the whole season, I think that match was where everything came together. My one regret is the third round. If we had held the centre zone for two more minutes, the outcome would have been completely different.",
     },
     {
@@ -209,7 +209,7 @@ export const robloxReviewB2Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is alleged, not confirmed — so I would not put too much weight on it. What I can say is that the team's contribution this season has been outstanding. We hit a major milestone — the first time we have reached the regional finals.",
     },
     {
@@ -221,7 +221,7 @@ export const robloxReviewB2Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "And the old rotation system is being phased out next month — the new approach we built up this season will finally be rolled out across the full squad. I think this block has genuinely levelled up how we think about the game and how we communicate.",
     },
     {
@@ -233,7 +233,7 @@ export const robloxReviewB2Block1: Lesson = {
     {
       speaker: 'Leo',
       speakerColor: 'green',
-      speakerAvatar: '/images/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
       text: "That is always the finding. The players who can communicate precisely — who can say what they mean, acknowledge what went wrong, and make a compelling case for what to do next — those are the ones who keep improving. Block 2 will build on exactly that.",
     },
   ],

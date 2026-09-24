@@ -6,7 +6,7 @@ export const marketingInEmergingMarkets: Lesson = {
   subtitle: 'How to enter and grow in high-potential markets with unique infrastructure, mobile-first consumers, and fast-changing needs',
   level: 'B1-B2',
   description: "Emerging markets represent some of the fastest-growing consumer and business opportunities in the world. But entering them requires a fundamentally different marketing mindset. Consumers in these markets may be mobile-first by necessity, bypass desktop technology entirely, and make decisions in micro-moments that traditional marketing frameworks were not designed to capture. This lesson gives you the vocabulary to analyse, discuss, and develop marketing strategies for these high-potential, high-complexity markets.",
-  heroImage: '/images/marketing-in-emerging-markets-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marketing-in-emerging-markets-hero.png',
 
   vocabulary: [
     {
@@ -160,13 +160,13 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Three reasons this is a compelling [[growth market:a market expanding rapidly in population, income, and digital adoption]]. First — the addressable market is 45 million potential customers, with [[market penetration:the percentage of the target market already buying a product]] currently at under 3% for our category. Second — smartphone adoption has doubled in three years. Third — the middle class is expanding at 6% annually.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "And consumers in this market have [[leapfrogging:skipping an older technology and going directly to a newer one]] desktop technology entirely — 92% of internet access is mobile. They never had a desktop internet phase. This is a fully [[mobile-first:designed primarily for mobile phones rather than desktop computers]] consumer base.",
     },
     {
@@ -178,13 +178,13 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Website load time under 3 seconds on a 3G connection. Checkout in 3 taps or fewer. Payments via mobile money, not card. All creative assets in vertical mobile format. And we need to be present in WhatsApp — because the [[micro-moment:a brief, intent-driven moment when a consumer reaches for their phone to find information or buy]] that drives purchase in this market is a peer recommendation in a WhatsApp group.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "Now the challenges. The [[infrastructure:the basic physical and digital systems a market needs to function]] situation varies significantly. Urban centres have strong 4G. Rural areas are still predominantly 2G and 3G. Last-mile logistics is complex and expensive outside major cities.",
     },
     {
@@ -196,13 +196,13 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "The affordability challenge in this market is significant. Our standard price represents 20% of the average target consumer's monthly income. That is not accessible. We need either a smaller pack size at a lower absolute price, or a pay-over-time model.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "The pay-over-time model via mobile money is the more scalable solution. Consumers in this market have leapfrogged traditional banking — 74% use mobile money regularly. A daily or weekly micro-payment model converts the affordability barrier into a payment design problem.",
     },
     {
@@ -214,13 +214,13 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Riley',
       speakerColor: 'green',
-      speakerAvatar: '/images/riley-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
       text: "Localisation in this context means more than translation. Our creative needs to reflect local faces, local settings, local languages — and the messaging needs to shift from individual benefit to family benefit. The values that drive purchase decisions here are different from Europe.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: '/images/dana-icon.png',
+      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
       text: "I would also recommend a community ambassador programme — local trusted figures who introduce the product through their networks. In markets where digital trust is still being built, peer endorsement through a trusted local voice is often more powerful than paid media.",
     },
     {
