@@ -8,7 +8,7 @@ export const languageInGamingCommunities: Lesson = {
   level: 'C1-C2',
   description:
     'Vocabulary for talking about how gaming communities build their own identity through language — vernacular, shibboleth, gatekeeping, lexicon — and the modal verbs people reach for when speculating about each other: must be, can\'t have been, might just be, should have been, and the quiet art of hedging a guess.',
-  heroImage: '/images/language-in-gaming-communities-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/language-in-gaming-communities-hero.png',
   externalUrl: '/language-in-gaming-communities.html',
   vocabulary: [],
   phrasalVerbs: [],

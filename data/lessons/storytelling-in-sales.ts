@@ -102,7 +102,7 @@ export const storytellingInSales: Lesson = {
       phrase: 'WHAT THAT MEANT FOR THEM WAS',
       definition: "The translation layer — converts the outcome from a metric into a business impact the prospect can evaluate. Not 'the product worked' but 'what that meant in practice was that they stopped losing enterprise clients to a competitor with a faster response time.'",
       example: "'What that meant for them was that they closed Q4 as their best quarter in three years — not because the market changed, but because the team finally had the headroom to do the work they had been hired to do.'",
-      imageSlug: '/images/what-that-meant-for-them-was.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/what-that-meant-for-them-was.png',
     }
   ],
 
