@@ -98,6 +98,15 @@ const GAMING_KW = [
   'advanced-vocabulary-etymology','game-on-first-words',
 ];
 
+const MMA_KW = [
+  'mma-equipment','mma-people','mma-the-body','mma-strikes','mma-grappling-basics',
+  'mma-ways-to-win','mma-weight-classes','mma-at-the-arena','mma-training-basics',
+  'mma-before-the-fight','mma-the-fight-card','mma-describing-a-fighter',
+  'mma-rounds-and-scoring','mma-submissions','mma-talking-about-a-fight',
+  'mma-at-the-gym','mma-the-corner','mma-online-and-social','mma-fan-review',
+  'mma-fighter-capstone',
+];
+
 const slugHasKw = (slug: string, kws: string[]) => kws.some((kw) => slug.includes(kw));
 
 interface SeriesDef {
@@ -168,6 +177,17 @@ const SERIES: SeriesDef[] = [
       'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=900&q=75&auto=format&fit=crop',
     imageAlt: 'A gaming setup with neon-lit keyboard and monitors',
     match: (l) => slugHasKw(l.slug, GAMING_KW),
+  },
+  {
+    id: 'mma',
+    name: 'MMA English',
+    shortName: 'MMA',
+    cardTitle: 'MMA',
+    description: 'English for MMA fans and fighters — equipment, people, strikes, grappling, events, and more.',
+    stockImage:
+      'https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=900&q=75&auto=format&fit=crop',
+    imageAlt: 'Two MMA fighters in an octagon cage',
+    match: (l) => slugHasKw(l.slug, MMA_KW),
   },
   {
     id: 'other',

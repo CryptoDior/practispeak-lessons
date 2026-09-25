@@ -414,6 +414,26 @@ import { businessAgreeingDisagreeingPolitely } from './business-agreeing-disagre
 import { businessAskingRepetitionClarification } from './business-asking-repetition-clarification';
 import { businessExpressingSimpleOpinions } from './business-expressing-simple-opinions';
 import { businessClosingMeetingPolitely } from './business-closing-meeting-politely';
+import { mmaEquipment } from './mma-equipment';
+import { mmaPeople } from './mma-people';
+import { mmaTheBody } from './mma-the-body';
+import { mmaStrikes } from './mma-strikes';
+import { mmaGrapplingBasics } from './mma-grappling-basics';
+import { mmaWaysToWin } from './mma-ways-to-win';
+import { mmaWeightClasses } from './mma-weight-classes';
+import { mmaAtTheArena } from './mma-at-the-arena';
+import { mmaTrainingBasics } from './mma-training-basics';
+import { mmaBeforeTheFight } from './mma-before-the-fight';
+import { mmaTheFightCard } from './mma-the-fight-card';
+import { mmaDescribingAFighter } from './mma-describing-a-fighter';
+import { mmaRoundsAndScoring } from './mma-rounds-and-scoring';
+import { mmaSubmissions } from './mma-submissions';
+import { mmaTalkingAboutAFight } from './mma-talking-about-a-fight';
+import { mmaAtTheGym } from './mma-at-the-gym';
+import { mmaTheCorner } from './mma-the-corner';
+import { mmaOnlineAndSocial } from './mma-online-and-social';
+import { mmaFanReview } from './mma-fan-review';
+import { mmaFighterCapstone } from './mma-fighter-capstone';
 
 export const lessons: Lesson[] = [
   businessIntroducingYourselfColleagues,
@@ -831,6 +851,26 @@ export const lessons: Lesson[] = [
   c2DeliverLiveCommentary,
   c2TheTedStyleTalk,
   c2CapstoneYourFootballManifesto,
+  mmaEquipment,
+  mmaPeople,
+  mmaTheBody,
+  mmaStrikes,
+  mmaGrapplingBasics,
+  mmaWaysToWin,
+  mmaWeightClasses,
+  mmaAtTheArena,
+  mmaTrainingBasics,
+  mmaBeforeTheFight,
+  mmaTheFightCard,
+  mmaDescribingAFighter,
+  mmaRoundsAndScoring,
+  mmaSubmissions,
+  mmaTalkingAboutAFight,
+  mmaAtTheGym,
+  mmaTheCorner,
+  mmaOnlineAndSocial,
+  mmaFanReview,
+  mmaFighterCapstone,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
