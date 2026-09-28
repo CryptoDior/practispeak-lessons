@@ -118,7 +118,7 @@ export const introducingYourselfSalesperson: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I'm always looking to make new [[contacts:a person you know, especially through work, who might help you]] in the industry — I run a small marketing agency.",
     },
     {
@@ -130,7 +130,7 @@ export const introducingYourselfSalesperson: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Mostly social media campaigns for small businesses. And what's your role at Brightline?",
     },
     {
@@ -142,7 +142,7 @@ export const introducingYourselfSalesperson: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "That's exactly the kind of thing we've been looking for.",
     },
     {
@@ -154,7 +154,7 @@ export const introducingYourselfSalesperson: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I'd love that.",
     },
     {
@@ -172,7 +172,7 @@ export const introducingYourselfSalesperson: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Thanks — I'd love to stay in touch either way.",
     },
     {

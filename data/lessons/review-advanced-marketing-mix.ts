@@ -166,7 +166,7 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And from the segmentation decision flows the [[go-to-market:the strategy and plan for launching a product or entering a new market]] plan. Target audience, positioning, pricing model, channel mix, and the launch sequence. The segmentation is step one. The go-to-market is the bridge between the product and the first customer.",
     },
     {
@@ -184,7 +184,7 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And across the full funnel, the strategy should be [[integrated:all channels working together to build the same understanding of the brand]] — not siloed. In an integrated campaign, every channel should carry the same core message while using the format natural to that channel.",
     },
     {
@@ -202,7 +202,7 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And the data shows that our highest-value customers in the enterprise segment come via peer referral and industry events — not from paid search. So our [[attribution:how credit is assigned across touchpoints]] model needs to weight those channels properly, even though they are harder to track.",
     },
     {
@@ -220,7 +220,7 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And to make the business case for the investment overall, we need the LTV and [[conversion optimisation:improving the percentage of visitors who take a desired action]] data to show the board that the commercial return justifies the launch spend. Not just a revenue projection — actual evidence from our test cohort and our retention data.",
     },
     {

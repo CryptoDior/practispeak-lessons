@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Run R2 Migration</title>
+<HTA:APPLICATION ID="RunMigration" APPLICATIONNAME="Run R2 Migration" BORDER="dialog" CAPTION="yes" SHOWINTASKBAR="yes" SINGLEINSTANCE="yes" SYSMENU="yes" WINDOWSTATE="normal"/>
+</head>
+<body style="font-family:monospace;background:#1e1e1e;color:#cccccc;padding:20px;" onload="RunMigration()">
+<h2 style="color:#4ec9b0;">Cloudflare R2 Image Migration</h2>
+<p id="status">Starting migration...</p>
+<button onclick="RunMigration()" style="padding:10px 20px;font-size:14px;cursor:pointer;">Run Migration</button>
+<script language="VBScript">
+Sub RunMigration()
+    Dim oShell
+    Set oShell = CreateObject("WScript.Shell")
+
+    Dim scriptsDir
+    scriptsDir = "C:\Users\Christiano\Documents\practispeak-lessons\scripts"
+
+    Dim batPath
+    batPath = scriptsDir & "\run-migration.bat"
+
+    document.getElementById("status").innerHTML = "Running migration... (check a new CMD window)<br/>Log will be at: " & scriptsDir & "\migration-log.txt"
+
+    oShell.Run "cmd /c """ & batPath & """", 1, False
+
+    document.getElementById("status").innerHTML = "Done! Check scripts\migration-log.txt for results."
+End Sub
+</script>
+</body>
+</html>

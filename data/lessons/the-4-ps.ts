@@ -102,7 +102,7 @@ export const theFourPs: Lesson = {
       phrase: 'ADD VALUE',
       definition: 'Give the customer something extra that makes the product worth more.',
       example: 'We add value by offering free onboarding and a dedicated customer support team.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/add-value.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/add-value.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const theFourPs: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, can you explain the 4 Ps to me? I hear it a lot but I want to understand how it works in practice.',
     },
     {
@@ -124,7 +124,7 @@ export const theFourPs: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'So positioning is about how people see you, not just what you sell?',
     },
     {
@@ -136,7 +136,7 @@ export const theFourPs: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And what about [[markup:the extra amount added to the cost price to make a profit]]? How do you set that?',
     },
     {
@@ -148,7 +148,7 @@ export const theFourPs: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What is the third P — Place?',
     },
     {
@@ -160,7 +160,7 @@ export const theFourPs: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And the fourth P is Promotion?',
     },
     {
@@ -172,7 +172,7 @@ export const theFourPs: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'So all four Ps need to work together?',
     },
     {
@@ -184,7 +184,7 @@ export const theFourPs: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'This really helps. I am going to look at the 4 Ps for my agency.',
     }
   ],

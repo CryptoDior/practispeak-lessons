@@ -14,7 +14,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A real story about how a customer used your product to fix a problem and get good results.',
       example: "A case study shows the full story — a business that was struggling with paper-based records and falling sales, and how the right solution turned that around into growth, happy customers, and a full checklist of results.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/case-study.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/case-study.png',
     },
     {
       word: 'IMPLEMENT',
@@ -78,7 +78,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
       phrase: 'AFTER IMPLEMENTING OUR SOLUTION, THEY WERE ABLE TO...',
       definition: 'Use this to show what a customer could do after they started using your product.',
       example: "After implementing our solution, they were able to automate the entire tracking process — from activation to verification to routing — without a single manual intervention at any stage.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/after-implementing-our-solution-they-were-able-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/after-implementing-our-solution-they-were-able-to.png',
     },
     {
       phrase: 'WITHIN [TIME], THEY SAW A [PERCENTAGE] IMPROVEMENT IN...',

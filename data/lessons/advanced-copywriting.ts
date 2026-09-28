@@ -6,7 +6,7 @@ export const advancedCopywriting: Lesson = {
   subtitle: 'How to write copy that persuades — using structure, voice, and rhetorical technique',
   level: 'C1-C2',
   description: "Good copy does not just describe — it persuades. At the advanced level, copywriting is about understanding why people make decisions and writing in a way that moves them to act. This lesson teaches the principles behind high-performing copy: from rhetorical devices and persuasive structure to voice, hierarchy, and the techniques that turn a good idea into copy that converts.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-copywriting-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-copywriting-hero.png',
 
   vocabulary: [
     {

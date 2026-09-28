@@ -6,7 +6,7 @@ export const consultativeSelling: Lesson = {
   subtitle: 'Diagnose the problem before you prescribe the solution — the move that separates great salespeople from product pitchers',
   level: 'C1-C2',
   description: 'Learn the language of consultative selling — how to ask questions that go beneath the surface, help prospects articulate what they actually need, and build enough understanding to recommend the right solution at the right moment. This lesson is about restraint as much as skill: the best consultative sellers are the ones who resist the urge to pitch.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/consultative-selling-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/consultative-selling-hero.png',
 
   vocabulary: [
     {
@@ -14,21 +14,21 @@ export const consultativeSelling: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To identify the root cause of a problem by asking questions and listening carefully — before suggesting any solution. The word comes from medicine, and the parallel is intentional.',
       example: 'The mistake most salespeople make is that they start recommending before they have done the work to diagnose — so they end up pitching solutions to symptoms rather than causes.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/consultative-selling-diagnose.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/consultative-selling-diagnose.png',
     },
     {
       word: 'PROBE',
       partOfSpeech: 'verb',
       definition: 'To ask a follow-up question that goes deeper than the surface answer — the move that separates consultative sellers from people who just listen politely.',
       example: "When James said 'we have a reporting problem', most salespeople would have started pitching reporting features. Riley probed instead: 'What does a reporting problem actually cost you in a typical week?'",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/consultative-selling-probe.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/consultative-selling-probe.png',
     },
     {
       word: 'UNDERLYING',
       partOfSpeech: 'adjective',
       definition: 'Describing the real or hidden cause beneath what someone first says — the thing beneath the thing. Prospects often describe symptoms; the underlying issue is what needs addressing.',
       example: 'The stated problem was slow reporting. The underlying issue was that no one trusted the data — so even fast reports would not have fixed anything.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/consultative-selling-underlying.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/consultative-selling-underlying.png',
     },
     {
       word: 'ASSUMPTION',
@@ -42,7 +42,7 @@ export const consultativeSelling: Lesson = {
       partOfSpeech: 'verb',
       definition: "To determine whether a prospect's situation is a genuine fit for what you offer — and just as importantly, to recognise when it is not. Consultative sellers qualify honestly.",
       example: 'After twenty minutes of discovery, Riley realised the prospect needed a data integration tool before they needed Brightline. She said so — and qualified them out. They came back six months later.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/consultative-selling-qualify.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/consultative-selling-qualify.png',
     },
     {
       word: 'ARTICULATE',
@@ -56,7 +56,7 @@ export const consultativeSelling: Lesson = {
       partOfSpeech: 'noun',
       definition: 'What matters most to the prospect right now — not what is on their list, but what is at the top of it. Consultative sellers always establish priorities before making any recommendation.',
       example: 'James listed four problems in the first five minutes. Riley did not respond to any of them immediately — she asked him to rank them by priority first, then focused the rest of the call on the top two.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/consultative-selling-priority.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/consultative-selling-priority.png',
     },
     {
       word: 'CRITERION',
@@ -84,7 +84,7 @@ export const consultativeSelling: Lesson = {
       phrase: 'WHAT DOES THAT LOOK LIKE IN PRACTICE',
       definition: 'Turns a vague or abstract statement into a specific, observable situation — grounds the conversation in reality so you are working with evidence, not assumptions.',
       example: 'You said the team is not following the process. What does that look like in practice — are they skipping steps, recording things late, or doing something different entirely from what the process requires?',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/consultative-selling-what-does-that-look-like-in-practice.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/consultative-selling-what-does-that-look-like-in-practice.png',
     },
     {
       phrase: 'WHAT WOULD A GOOD OUTCOME LOOK LIKE',

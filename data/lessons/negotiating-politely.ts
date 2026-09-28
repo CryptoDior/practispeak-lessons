@@ -42,7 +42,7 @@ export const negotiatingPolitely: Lesson = {
       partOfSpeech: 'noun',
       definition: "An agreement where both sides give up something in order to reach a deal.",
       example: 'They reached a compromise — a lower price in exchange for a longer contract.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/compromise.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/compromise.png',
     },
     {
       word: 'TERMS',

@@ -96,7 +96,7 @@ export const questionsWhatWhoWhere: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A player or character on the opposing side trying to stop you.',
       example: 'Who is that enemy? They have 20 kills — they must be very good.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/enemy.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/enemy.png',
     },
     {
       word: 'SCORE',
@@ -165,7 +165,7 @@ export const questionsWhatWhoWhere: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "A battle royale. [[Where:ask about a location]] are you on the [[map:the game world showing locations]]? I need a teammate.",
     },
     {
@@ -177,7 +177,7 @@ export const questionsWhatWhoWhere: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "About 15. [[Who:ask about a person or player]] is winning right now? I was busy looting.",
     },
     {
@@ -189,7 +189,7 @@ export const questionsWhatWhoWhere: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "We have 8 kills. The objective is to be the last team alive. Where is zone C on the map?",
     },
     {
@@ -201,7 +201,7 @@ export const questionsWhatWhoWhere: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "Just us two. Who is the strongest enemy squad right now?",
     },
     {
@@ -213,7 +213,7 @@ export const questionsWhatWhoWhere: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "West — fewer enemies. How many rounds are left in this match?",
     },
   ],

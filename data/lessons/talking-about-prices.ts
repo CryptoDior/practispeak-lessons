@@ -35,7 +35,7 @@ export const talkingAboutPrices: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Happening or paid once a year.',
       example: 'The annual plan saves you about $300 compared to paying monthly.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/annual.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/annual.png',
     },
     {
       word: 'INVOICE',
@@ -56,7 +56,7 @@ export const talkingAboutPrices: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The type of money used in a particular country.',
       example: 'We bill in US dollars, but the invoice can show the amount in your currency.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/currency.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/currency.png',
     },
     {
       word: 'SAVING',
@@ -118,7 +118,7 @@ export const talkingAboutPrices: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And what does the Growth Plan cost?',
     },
     {
@@ -130,7 +130,7 @@ export const talkingAboutPrices: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "That's a decent [[saving:money you do not have to spend; the difference between two prices]]. Is there a setup [[fee:money you pay for a specific service, often a one-time charge]]?",
     },
     {
@@ -142,7 +142,7 @@ export const talkingAboutPrices: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'How do you charge — monthly or annually?',
     },
     {
@@ -154,7 +154,7 @@ export const talkingAboutPrices: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Can I get a [[quote:a written estimate showing the price of a product or service]] in writing before we decide?',
     },
     {
@@ -166,7 +166,7 @@ export const talkingAboutPrices: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Euros would be easier for our accounts team.',
     },
     {

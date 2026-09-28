@@ -6,7 +6,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
   subtitle: 'How to talk about your pipeline, deals, and activity using the key language of CRM and sales administration',
   level: 'B1-B2',
   description: "A salesperson who can manage their CRM clearly is a salesperson their manager can trust. But CRM vocabulary is specific — the words 'lead', 'pipeline', 'deal', 'note', and 'status' each have precise meanings in a sales context, and using them correctly in team meetings, pipeline reviews, and manager conversations makes you sound professional and in control. This lesson teaches you the core language of sales administration so you can talk confidently about your pipeline, explain the status of your deals, and discuss your forecast — in English.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crm-and-sales-admin-vocabulary-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/crm-and-sales-admin-vocabulary-hero.png',
 
   vocabulary: [
     {
@@ -14,21 +14,21 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       partOfSpeech: 'noun',
       definition: "A potential customer who has shown some interest but has not yet been checked to see if they are a real sales opportunity. Not every lead becomes a deal.",
       example: "The salesperson added 12 new leads to the CRM after a week of outreach and inbound enquiries.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crm-and-sales-admin-vocabulary-lead.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/crm-and-sales-admin-vocabulary-lead.png',
     },
     {
       word: 'PIPELINE',
       partOfSpeech: 'noun',
       definition: "All the deals a salesperson is currently working on, at different stages of the sales process. A healthy pipeline has deals at many stages — not all near the close.",
       example: "The salesperson has nine active deals in the pipeline at different stages.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crm-and-sales-admin-vocabulary-pipeline.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/crm-and-sales-admin-vocabulary-pipeline.png',
     },
     {
       word: 'DEAL',
       partOfSpeech: 'noun',
       definition: "A specific sales opportunity with a named customer. Each deal has a value, a stage, a close date, and an owner. To close a deal means to win it.",
       example: "The biggest deal in the pipeline is worth $28,000 and is currently in the negotiation stage.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crm-and-sales-admin-vocabulary-deal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/crm-and-sales-admin-vocabulary-deal.png',
     },
     {
       word: 'NOTE',
@@ -49,7 +49,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       partOfSpeech: 'verb',
       definition: "To check if a lead is a real sales opportunity — do they have the budget, authority, need, and right timeline? Qualifying leads early saves time.",
       example: "The salesperson qualifies every lead within 48 hours to decide if they are worth spending time on.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crm-and-sales-admin-vocabulary-qualify.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/crm-and-sales-admin-vocabulary-qualify.png',
     },
     {
       word: 'LOG',
@@ -63,7 +63,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       partOfSpeech: 'noun',
       definition: "An estimate of how much revenue the salesperson expects to earn this quarter, based on the deals in the pipeline and how likely they are to close.",
       example: "The salesperson's forecast for the quarter is around $80,000, based on four deals that are likely to close.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crm-and-sales-admin-vocabulary-forecast.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/crm-and-sales-admin-vocabulary-forecast.png',
     }
   ],
 
@@ -96,7 +96,7 @@ export const crmAndSalesAdminVocabulary: Lesson = {
       phrase: 'ANYONE SHOULD BE ABLE TO PICK UP THE DEAL WITHOUT CALLING ME',
       definition: "The standard for good CRM notes — if your notes are complete, any colleague can continue a deal without contacting you. Used by managers to set the expectation for note quality.",
       example: "The manager said good CRM notes mean anyone should be able to pick up the deal without calling you.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/anyone-should-be-able-to-pick-up-the-deal-without-calling-me.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/anyone-should-be-able-to-pick-up-the-deal-without-calling-me.png',
     },
     {
       phrase: 'WHAT DOES YOUR FORECAST LOOK LIKE FOR THIS QUARTER?',

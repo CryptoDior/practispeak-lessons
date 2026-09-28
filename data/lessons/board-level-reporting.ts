@@ -6,7 +6,7 @@ export const boardLevelReporting: Lesson = {
   subtitle: 'How to present marketing results, strategy, and investment cases to the most senior audience',
   level: 'C1-C2',
   description: 'Presenting to a board is different from presenting to a marketing team. The audience is more senior, the questions are harder, and the stakes are higher. Board members think in terms of risk, governance, shareholder value, and financial return — not campaign creativity. This lesson teaches you the language and structure of board-level communication so you can walk into any senior meeting with confidence.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/board-level-reporting-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/board-level-reporting-hero.png',
 
   vocabulary: [
     {

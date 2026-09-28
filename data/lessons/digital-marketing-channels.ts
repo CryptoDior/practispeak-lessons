@@ -6,7 +6,7 @@ export const digitalMarketingChannels: Lesson = {
   subtitle: 'How to choose the right mix of channels for your campaign — and explain your choices to a client',
   level: 'B1-B2',
   description: 'There are more marketing channels available than ever — and the hardest job is choosing the right ones. In this lesson you will learn the vocabulary for describing and comparing digital marketing channels, understand the difference between paid, earned, and owned media, and practise writing and presenting a channel strategy summary to a client.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/digital-marketing-channels-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/digital-marketing-channels-hero.png',
 
   vocabulary: [
     {

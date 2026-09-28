@@ -118,7 +118,7 @@ export const helloIWorkInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Great to meet you, Riley. I'm Dana — I run a small [[agency:a company that helps other companies with their marketing]].",
     },
     {
@@ -130,7 +130,7 @@ export const helloIWorkInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Mostly small food and lifestyle brands. What is your [[role:the job that a person does in a company]] at Brightline?',
     },
     {
@@ -142,7 +142,7 @@ export const helloIWorkInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What kind of [[product:a thing that a company makes and sells]] does Brightline have?',
     },
     {
@@ -154,7 +154,7 @@ export const helloIWorkInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'That sounds useful. Some of our clients ask about tools like that.',
     },
     {
@@ -166,7 +166,7 @@ export const helloIWorkInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Really? That is good to know.',
     },
     {
@@ -178,7 +178,7 @@ export const helloIWorkInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "That sounds great. I'd love to connect — do you have a card or a LinkedIn?",
     }
   ],

@@ -63,7 +63,7 @@ export const writingBetterEmails: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A file sent with an email — for example: a PDF, a photo, or a document.',
       example: 'Please see the attachment — it has all the campaign results from last month.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/attachment.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/attachment.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const writingBetterEmails: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, can you look at this email I am writing to a potential client? I want it to sound right.',
     },
     {
@@ -124,7 +124,7 @@ export const writingBetterEmails: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I wrote: 'Hi, I wanted to get in touch.' Is that okay?",
     },
     {
@@ -136,7 +136,7 @@ export const writingBetterEmails: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Should it be [[formal:polite and professional in style]] or [[informal:relaxed and friendly in style]]?',
     },
     {
@@ -148,7 +148,7 @@ export const writingBetterEmails: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And how long should the email be?',
     },
     {
@@ -160,7 +160,7 @@ export const writingBetterEmails: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Like: 'Would you have 20 minutes for a call this week?'",
     },
     {
@@ -172,7 +172,7 @@ export const writingBetterEmails: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about the [[sign-off:the phrase used to close an email]]?',
     },
     {
@@ -184,7 +184,7 @@ export const writingBetterEmails: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Thank you — this is very helpful. I was making it too long.',
     },
     {

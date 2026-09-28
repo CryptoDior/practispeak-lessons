@@ -160,7 +160,7 @@ export const luxuryAndPremiumMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Three pillars. First — [[exclusivity:the quality of being available only to a limited group, which creates desirability]] through reduced distribution and a maximum of 300 units per year. Second — [[heritage:the history and traditions of a brand that represent quality and expertise accumulated over generations]] — we need the founding story, the atelier, and the 175-year provenance in every piece of communication. Third — [[craftsmanship:the skill and care put into making something to an exceptionally high standard]] — we build the production story around the 40 hours per piece and the three artisans involved in each garment.",
     },
     {
@@ -178,7 +178,7 @@ export const luxuryAndPremiumMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "On retail — we are reducing stockists from 200 to 40. [[Scarcity:the quality of being rare or in limited supply — deliberately created to increase perceived value]] is a positioning tool for this tier. The brand should never discount. And the waitlist — we are managing it as a [[brand desirability:how strongly people feel drawn to a brand and aspire to own it]] signal, not a supply failure.",
     },
     {
@@ -196,7 +196,7 @@ export const luxuryAndPremiumMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "One final thing — the streetwear brand collaboration proposal. I want to flag it here: this collaboration risks diluting the luxury positioning unless we control production volume, creative direction, pricing, and distribution absolutely. If we cannot do that, we decline.",
     },
     {

@@ -154,7 +154,7 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Riley, you are presenting the Q4 marketing strategy to the board on Thursday. Marcus and I are going to play the board. Walk us through it as if it is the real thing.",
     },
     {
@@ -178,7 +178,7 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "(Stopping her) Before you go further — what is the [[key takeaway:the most important point the audience should remember]] from the executive summary? State it explicitly.",
     },
     {
@@ -202,7 +202,7 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "(As board member) What is the [[rationale:the reasons behind the decision or recommendation]] for choosing LinkedIn over other channels?",
     },
     {
@@ -226,7 +226,7 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "(Out of role) That was a very strong [[Q&A:the question and answer section where the audience probes your recommendations]] response. You did not get defensive, you answered directly, and you showed the board that the plan has contingencies. Two things to improve — your [[slide:a single page in the presentation deck]] headlines. They should state conclusions, not topics. Change 'Q3 Performance' to 'Q3 performance fell 18% below target due to rising CPL in paid search'.",
     },
     {

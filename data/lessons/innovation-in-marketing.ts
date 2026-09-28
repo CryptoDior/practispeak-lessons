@@ -166,7 +166,7 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I would add [[automation:using technology to complete repetitive marketing tasks without manual effort for each action]]. The automation handles our entire post-purchase email journey — 14 distinct customer moments, zero manual effort, and performance metrics that are higher than when we did it manually. That is the story that resonates with a marketing audience: automation that improves quality, not just speed.",
     },
     {
@@ -184,7 +184,7 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And we should talk about [[chatbot:a programme that has conversations with users to answer questions or guide them through a process]] technology — but honestly. The chatbot is designed to qualify leads and handle the top 25 FAQ questions. It is not replacing human relationships. It is making human time more valuable by handling the routine so humans can handle the complex.",
     },
     {
@@ -202,7 +202,7 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The thread connecting all of these is [[predictive:using data from the past to forecast future actions or outcomes]] capability. Whether it is AI churn prediction, [[dynamic content:content that changes automatically based on who is viewing it]] recommendations, or personalised timing — the best marketing technology today does not react to what customers do. It anticipates what they are about to do.",
     },
     {
@@ -220,7 +220,7 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The most useful thing we can say to that audience is: you do not need to be a technology expert to lead in this era. You need to be honest about what you are trying to achieve, willing to experiment, and disciplined about measuring what matters. The technology is a tool. Good marketing judgement is still the driver.",
     },
     {

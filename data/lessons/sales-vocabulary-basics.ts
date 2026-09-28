@@ -35,7 +35,7 @@ export const salesVocabularyBasics: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To get something by paying money for it.',
       example: "They've decided to buy the annual plan instead of paying monthly.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/buy.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/buy.png',
     },
     {
       word: 'SELL',
@@ -78,7 +78,7 @@ export const salesVocabularyBasics: Lesson = {
       phrase: 'CAN I SHOW YOU HOW IT WORKS',
       definition: 'Offer to give someone a quick demo of your product.',
       example: 'Can I show you how it works? It only takes five minutes.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/can-i-show-you-how-it-works.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/can-i-show-you-how-it-works.png',
     },
     {
       phrase: "WHAT'S YOUR BUDGET",

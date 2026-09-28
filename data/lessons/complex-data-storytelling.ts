@@ -6,7 +6,7 @@ export const complexDataStorytelling: Lesson = {
   subtitle: "How to turn data into a story that drives decisions — not just a chart that fills a slide",
   level: 'C1-C2',
   description: "Data does not speak for itself. The best marketers and strategists know how to take a complex set of numbers and build a story around them — one that makes the insight clear, the implication obvious, and the decision easy. This lesson teaches the language and frameworks behind data storytelling at a senior level: how to structure a narrative around data, how to make your 'so what' land, and how to present evidence in a way that moves people to act.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/complex-data-storytelling-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/complex-data-storytelling-hero.png',
 
   vocabulary: [
     {

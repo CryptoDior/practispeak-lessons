@@ -49,7 +49,7 @@ export const reviewTalkingAboutMyWork: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Located in a particular city or country — where a person or company is permanently situated.',
       example: 'We are based in London but we work with clients across Europe, the US, and Asia.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/based.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/based.png',
     },
     {
       word: 'SECTOR',
@@ -90,7 +90,7 @@ export const reviewTalkingAboutMyWork: Lesson = {
       phrase: 'DEAL WITH [SOMETHING]',
       definition: 'To handle or manage a situation, task, or type of work.',
       example: 'I deal with new client enquiries — if someone contacts us, I am usually the first person they speak to.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/deal-with-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/deal-with-something.png',
     },
     {
       phrase: 'TAKE CARE OF [SOMETHING]',
@@ -102,7 +102,7 @@ export const reviewTalkingAboutMyWork: Lesson = {
       phrase: 'BUILD UP [SOMETHING]',
       definition: 'To develop or grow something over time through consistent effort.',
       example: 'Over the last two years, we have built up a strong network of contacts in the DACH region.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/build-up-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/build-up-something.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const reviewTalkingAboutMyWork: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Okay, Tom — you have a networking event next week. Let us practise your [[introduce:to tell someone your name and basic information]] tion. Start from the beginning.',
     },
     {
@@ -124,7 +124,7 @@ export const reviewTalkingAboutMyWork: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Good start. Now say what [[sector:a specific area or industry]] you work in and who your clients are.',
     },
     {
@@ -136,7 +136,7 @@ export const reviewTalkingAboutMyWork: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Perfect. Now say something about your [[role:your job or position in a company]] — what are you [[responsible:in charge of something]] for?',
     },
     {
@@ -148,7 +148,7 @@ export const reviewTalkingAboutMyWork: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Very good. Can you add something about your [[experience:knowledge and skill gained over time]]?',
     },
     {
@@ -160,7 +160,7 @@ export const reviewTalkingAboutMyWork: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Excellent. Now finish with your [[goal:something you want to achieve]] — what do you want to achieve this year?',
     },
     {
@@ -172,7 +172,7 @@ export const reviewTalkingAboutMyWork: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'That is a great two-minute introduction. Clear, specific, and confident. Let us do it one more time, faster — you want it to feel natural, not practised.',
     },
     {

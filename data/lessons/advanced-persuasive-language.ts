@@ -6,7 +6,7 @@ export const advancedPersuasiveLanguage: Lesson = {
   subtitle: 'How to frame, position, and influence — without sounding like you are trying to',
   level: 'C1-C2',
   description: "Learn the language of advanced persuasion — how to control the frame of a conversation, position your offer clearly in the prospect's mind, and use contrast, implication, and credibility to influence how people think and decide. All without sounding manipulative.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-persuasive-language-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-persuasive-language-hero.png',
 
   vocabulary: [
     {

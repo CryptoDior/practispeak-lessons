@@ -42,7 +42,7 @@ export const yourBrandOnline: Lesson = {
       partOfSpeech: 'noun',
       definition: 'When a user presses on a link — in digital marketing, clicks are measured to understand how many people act on an ad or search result.',
       example: 'The banner ad generated 1,200 clicks in its first week — each click brought a visitor to our landing page.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/click.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/click.png',
     },
     {
       word: 'SEO',
@@ -78,7 +78,7 @@ export const yourBrandOnline: Lesson = {
       phrase: 'DRIVE TRAFFIC TO [A WEBSITE]',
       definition: 'To bring visitors to a website — through content, ads, social media, or SEO.',
       example: 'Our LinkedIn posts drive traffic to the website — every post ends with a link to a relevant article or landing page.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/drive-traffic-to-a-website.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/drive-traffic-to-a-website.png',
     },
     {
       phrase: 'RANK FOR [A KEYWORD]',
@@ -90,7 +90,7 @@ export const yourBrandOnline: Lesson = {
       phrase: 'CLICK THROUGH TO [A PAGE]',
       definition: 'To follow a link from a search result, ad, or email to arrive at another page.',
       example: 'Only ten percent of people who see a search result click through to the website — so your title and description must be compelling.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/click-through-to-a-page.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/click-through-to-a-page.png',
     },
     {
       phrase: 'OPTIMISE [SOMETHING] FOR [A KEYWORD]',
@@ -102,7 +102,7 @@ export const yourBrandOnline: Lesson = {
       phrase: 'BUILD [YOUR] ONLINE PRESENCE',
       definition: 'To grow your visibility, reputation, and activity on websites and social media platforms over time.',
       example: 'Building an online presence takes time — but consistent content and good SEO compound over months into a significant competitive advantage.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/build-your-online-presence.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/build-your-online-presence.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const yourBrandOnline: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, when I search for our agency on Google, we are not on the first page. What can we do about it?',
     },
     {
@@ -124,7 +124,7 @@ export const yourBrandOnline: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'How do we find the right [[keyword:words people type into a search engine]] s?',
     },
     {
@@ -136,7 +136,7 @@ export const yourBrandOnline: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And how do we [[ranking:the position in search results]] rank for those terms? Do we need to pay for ads?',
     },
     {
@@ -148,7 +148,7 @@ export const yourBrandOnline: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'So more content means more [[traffic:the number of visitors to a website]]?',
     },
     {
@@ -160,7 +160,7 @@ export const yourBrandOnline: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about the [[landing page:a specific page designed for one goal]] for our new service? Does that affect our ranking?',
     },
     {
@@ -172,7 +172,7 @@ export const yourBrandOnline: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And how do we track how many [[click:when a user presses on a link]] s and visitors we get?',
     },
     {

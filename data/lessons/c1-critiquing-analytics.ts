@@ -68,7 +68,7 @@ export const c1CritiquingAnalytics: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Something real but very hard to measure — like a player\'s leadership, team spirit, or composure under pressure.',
       example: '"The data doesn\'t capture everything — intangibles like leadership and team spirit matter too."',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/c1-critiquing-analytics-intangible.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/c1-critiquing-analytics-intangible.png',
     },
     {
       word: 'OVER-RELIANCE',

@@ -6,7 +6,7 @@ export const buildingRapport: Lesson = {
   subtitle: 'How to create genuine connection before — and during — a business conversation',
   level: 'B1-B2',
   description: 'Master the language of small talk and professional warmth — how to open with genuine interest, reference what you have learned about someone, show empathy, and transition naturally from personal connection to business conversation.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/building-rapport-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/building-rapport-hero.png',
 
   vocabulary: [
     {
@@ -35,28 +35,28 @@ export const buildingRapport: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To show clearly that you have heard or noticed something the other person said or experienced.',
       example: 'Before moving on, acknowledge what they just told you — it signals that you were actually listening.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/building-rapport-acknowledge.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/building-rapport-acknowledge.png',
     },
     {
       word: 'ATTENTIVE',
       partOfSpeech: 'adjective',
       definition: 'Paying careful, genuine attention to what someone is saying rather than just waiting for your turn to speak.',
       example: 'Being attentive in the first five minutes of a call gives you everything you need to personalise the next fifty.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/attentive.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/attentive.png',
     },
     {
       word: 'MUTUAL',
       partOfSpeech: 'adjective',
       definition: 'Shared between two or more people — a mutual connection, a mutual interest, a mutual experience.',
       example: 'Finding a mutual connection or shared experience is one of the fastest ways to move from stranger to trusted contact.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/building-rapport-mutual.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/building-rapport-mutual.png',
     },
     {
       word: 'CANDID',
       partOfSpeech: 'adjective',
       definition: 'Open and honest in a way that feels refreshing — willing to speak directly and personally.',
       example: 'Being candid about the purpose of your call — rather than disguising it — is itself a form of rapport-building.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/building-rapport-candid.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/building-rapport-candid.png',
     },
     {
       word: 'SMALL TALK',

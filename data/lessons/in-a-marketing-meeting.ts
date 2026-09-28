@@ -21,7 +21,7 @@ export const inAMarketingMeeting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A specific task that someone agrees to complete after a meeting — with a clear owner and deadline.',
       example: 'At the end of the meeting, Dana wrote down all the action points — she had two: update the content calendar and send the brief to the client.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/action-point.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/action-point.png',
     },
     {
       word: 'MINUTES',
@@ -42,7 +42,7 @@ export const inAMarketingMeeting: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To have the same opinion as someone, or to say yes to a suggestion or plan.',
       example: 'The whole team agreed that LinkedIn would be the primary channel for the Q3 campaign.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/agree.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/agree.png',
     },
     {
       word: 'UPDATE',
@@ -96,13 +96,13 @@ export const inAMarketingMeeting: Lesson = {
       phrase: 'BRING [SOMETHING] UP',
       definition: 'To mention or introduce a topic in a meeting — to raise something for the group to discuss.',
       example: 'Riley brought up the budget issue early in the meeting — she wanted everyone to know before they started planning.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/bring-something-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/bring-something-up.png',
     },
     {
       phrase: 'AGREE ON [SOMETHING]',
       definition: 'To reach a shared decision about something — when a group comes to the same conclusion.',
       example: 'We need to agree on the launch date before we can finalise the timeline — everything depends on that date.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/agree-on-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/agree-on-something.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const inAMarketingMeeting: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Yes — I sent it last night. Four items: campaign [[update:a short report on the current status]], new [[brief:a document giving a team the key information to do their work]], budget, and next steps.',
     },
     {
@@ -130,7 +130,7 @@ export const inAMarketingMeeting: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Of course. I will send the [[minutes:a written record of what was discussed and decided]] to everyone after the meeting.',
     },
     {
@@ -142,7 +142,7 @@ export const inAMarketingMeeting: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Reach is up forty percent. Leads have doubled. The sponsored posts are performing better than the organic content.',
     },
     {
@@ -154,7 +154,7 @@ export const inAMarketingMeeting: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I [[agree:to say yes to a plan]] — the data supports it. Can we [[bring up]] the creative [[brief:a document with key information for a creative team]] now? The designer is waiting for it.',
     },
     {
@@ -166,7 +166,7 @@ export const inAMarketingMeeting: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Agreed. One [[action point:a specific task someone agrees to complete]] for me: send the approved brief to the designer by Friday.',
     },
     {
@@ -178,7 +178,7 @@ export const inAMarketingMeeting: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Sure. Dana: send brief to designer by Friday. Riley: client approval by Thursday. I will send the [[minutes:written record of what was discussed]] and a [[follow-up:an action or message after a meeting]] email within the hour.',
     }
   ],

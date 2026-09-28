@@ -6,7 +6,7 @@ export const advancedDataAnalytics: Lesson = {
   subtitle: 'How to interpret complex marketing data — and present data-driven recommendations that stakeholders actually believe',
   level: 'B1-B2',
   description: 'Data without language is just numbers on a screen. The ability to interpret data and communicate what it means — in a meeting, in a report, in a recommendation to a sceptical stakeholder — is one of the most valuable skills in modern marketing. This lesson teaches you the vocabulary of advanced analytics: from regression and LTV to predictive models and funnel analysis. More importantly, it teaches you how to talk about data with confidence, clarity, and the right level of caution.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-data-analytics-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-data-analytics-hero.png',
 
   vocabulary: [
     {
@@ -178,7 +178,7 @@ export const advancedDataAnalytics: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Let's look at the funnel first. If we look at the funnel, we can see that the top — awareness to MQL — is healthy. We're generating more MQLs than ever. The problem is between MQL and SQL. We're losing 58% at that stage.",
     },
     {
@@ -190,7 +190,7 @@ export const advancedDataAnalytics: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "That's what we needed to isolate. We ran a [[regression:a statistical method used to understand the relationship between variables]] on the leads that converted versus those that didn't. Lead quality is fine — the scoring model is working. The drop-off is in the 72 hours after the first email. Response rate falls off a cliff after that window.",
     },
     {
@@ -214,7 +214,7 @@ export const advancedDataAnalytics: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And right now, our budget is split roughly equally across all four segments. Based on the LTV data, we should allocate the acquisition budget in proportion to expected value — not equally.',
     },
     {
@@ -232,7 +232,7 @@ export const advancedDataAnalytics: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And we can validate it with a [[cohort:a group of customers who share a common characteristic, typically time of acquisition]] analysis. If we run the reallocation in Q4 and track the new cohort's LTV at the 90-day mark, we'll know by Q1 whether the model is right.",
     },
     {
@@ -256,7 +256,7 @@ export const advancedDataAnalytics: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I'll have the automation live within two weeks. Riley — I'd also recommend including the [[funnel analysis:the process of examining how prospects move through each stage of the marketing and sales funnel]] as a visual in the proposal. The board will want to see exactly where the money is going and what stage it's designed to impact.",
     }
   ],

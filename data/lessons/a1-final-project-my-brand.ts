@@ -6,7 +6,7 @@ export const a1FinalProjectMyBrand: Lesson = {
   subtitle: 'Capstone lesson — write and present a simple brand profile using all your A1 vocabulary',
   level: 'A1-A2',
   description: 'This is your A1 capstone lesson. You will use all the vocabulary you have learned across your A1 lessons to write a short brand profile and then present it aloud. This exercise brings together: products and services, target market, pricing, social media, values, and your own professional introduction — all in simple, clear English.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a1-final-project-my-brand-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-hero.png',
 
   vocabulary: [
     {
@@ -14,14 +14,14 @@ export const a1FinalProjectMyBrand: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The identity of a company — including its name, logo, values, and the way it presents itself to the world.',
       example: 'Our brand stands for clarity, trust, and results — every piece of content we create should reflect those three things.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a1-final-project-my-brand-brand.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-brand.png',
     },
     {
       word: 'PROFILE',
       partOfSpeech: 'noun',
       definition: 'A short description of a company, person, or product that gives the key facts and information.',
       example: "Dana wrote a one-page brand profile that included the company's mission, values, target market, and main services.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a1-final-project-my-brand-profile.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-profile.png',
     },
     {
       word: 'IDENTITY',
@@ -35,35 +35,35 @@ export const a1FinalProjectMyBrand: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A principle or belief that is important to a company and guides how it behaves and makes decisions.',
       example: 'Our core values are honesty, quality, and partnership — they guide every decision we make as a team.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a1-final-project-my-brand-value.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-value.png',
     },
     {
       word: 'MESSAGE',
       partOfSpeech: 'noun',
       definition: 'The main idea or feeling that a brand wants to communicate to its audience.',
       example: 'Our core message is simple: we help B2B companies grow without wasting time or money on marketing that does not work.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a1-final-project-my-brand-message.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-message.png',
     },
     {
       word: 'AUDIENCE',
       partOfSpeech: 'noun',
       definition: 'The specific group of people a brand wants to reach and communicate with.',
       example: 'Our audience is marketing managers at mid-sized B2B technology companies — they are busy, data-driven, and results-focused.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a1-final-project-my-brand-audience.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-audience.png',
     },
     {
       word: 'TONE',
       partOfSpeech: 'noun',
       definition: 'The way a brand communicates — its personality and style. For example: formal, friendly, bold, or calm.',
       example: 'Our tone is confident and clear — we are professional but we do not use unnecessary jargon.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a1-final-project-my-brand-tone.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-tone.png',
     },
     {
       word: 'CONSISTENT',
       partOfSpeech: 'adjective',
       definition: 'The same every time — not changing in quality, style, or approach. A consistent brand looks and sounds the same across all channels.',
       example: 'Strong brands are consistent — the tone, design, and message are the same on LinkedIn, on the website, and in emails.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a1-final-project-my-brand-consistent.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-consistent.png',
     }
   ],
 
@@ -78,19 +78,19 @@ export const a1FinalProjectMyBrand: Lesson = {
       phrase: 'STAND OUT FROM [THE COMPETITION]',
       definition: 'To be noticeably different from competitors — to be more visible, interesting, or memorable.',
       example: 'We stand out from the competition because we specialize in B2B — we are not a general marketing agency.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a1-final-project-my-brand-stand-out-from-the-competition.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-stand-out-from-the-competition.png',
     },
     {
       phrase: 'COME ACROSS AS [SOMETHING]',
       definition: 'To give a particular impression — the way your brand appears to other people.',
       example: 'We want to come across as professional and approachable — not cold or corporate.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/come-across-as-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/come-across-as-something.png',
     },
     {
       phrase: 'BUILD A BRAND',
       definition: 'To develop and grow a brand over time — making it more well-known and trusted.',
       example: 'Building a brand takes time — consistency is the most important thing you can do.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a1-final-project-my-brand-build-a-brand.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-build-a-brand.png',
     },
     {
       phrase: 'PUT ACROSS [A MESSAGE]',
@@ -102,7 +102,7 @@ export const a1FinalProjectMyBrand: Lesson = {
       phrase: 'BRING TO LIFE [SOMETHING]',
       definition: 'To make something feel real and interesting — to express an idea in a way that people can connect with.',
       example: 'Case studies are a great way to bring your brand values to life — they show what you do in a real context.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/bring-to-life-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/bring-to-life-something.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const a1FinalProjectMyBrand: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Okay. MarketBridge is a B2B marketing agency. We [[specialize:to focus on one particular area]] in LinkedIn and email marketing for technology companies.',
     },
     {
@@ -130,7 +130,7 @@ export const a1FinalProjectMyBrand: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Our [[audience:the specific group a brand wants to reach]] is marketing managers and directors at mid-sized B2B technology companies — typically 50 to 500 employees, based in Europe.',
     },
     {
@@ -142,7 +142,7 @@ export const a1FinalProjectMyBrand: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'We want people to think: results, clarity, and partnership. Our [[message:the main idea a brand communicates]] is that we help B2B companies grow without wasting time on marketing that does not work.',
     },
     {
@@ -154,7 +154,7 @@ export const a1FinalProjectMyBrand: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Our core [[value:a principle that guides how a company behaves]] s are honesty, quality, and partnership. We never promise something we cannot deliver.',
     },
     {
@@ -166,7 +166,7 @@ export const a1FinalProjectMyBrand: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Our [[tone:the way a brand communicates]] is confident and clear. We are professional but not cold. We want to come across as experts who are easy to work with.',
     },
     {
@@ -178,7 +178,7 @@ export const a1FinalProjectMyBrand: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'We use the same [[tone:the way a brand communicates]], the same visual [[identity:the combination of things that make a brand unique]], and the same core message on LinkedIn, in emails, and at events. [[consistent:the same every time]] branding builds trust — and trust leads to clients.',
     }
   ],

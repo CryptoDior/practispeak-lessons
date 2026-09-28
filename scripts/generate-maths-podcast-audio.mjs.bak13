@@ -1,0 +1,1862 @@
+/**
+ * Working It Out — Grade 12 Maths podcast — ElevenLabs audio generator
+ * ----------------------------------------------------------------------------
+ *   node --env-file=.env.local scripts/generate-maths-podcast-audio.mjs
+ *   node --env-file=.env.local scripts/generate-maths-podcast-audio.mjs 1
+ *
+ * Same engine as the Business Brief series, with two additions:
+ *   1. A line may carry `pause` (seconds) for a deliberate teaching silence.
+ *   2. After stitching it writes timing CSVs beside the mp3:
+ *        "<episode> - slide timings.csv"   slide -> timecode + hold
+ *        "<episode> - line timings.csv"    every line -> timecode
+ *
+ * Output: podcasts/Working-It-Out/Episode 1 - Arithmetic Sequences.mp3
+ * Clips:  podcasts/tmp/working-it-out/<episode-slug>/
+ */
+
+import fs from 'fs';
+import path from 'path';
+import https from 'https';
+import { execSync } from 'child_process';
+import crypto from 'crypto';
+
+const ELEVENLABS_KEY = process.env.ELEVENLABS_API_KEY;
+if (!ELEVENLABS_KEY) {
+  console.error('Missing ELEVENLABS_API_KEY. Run with: node --env-file=.env.local scripts/generate-maths-podcast-audio.mjs');
+  process.exit(1);
+}
+
+const VOICES = {
+  TYLA: 'dVoi15NNDJligFBwnVO0',    // Tyla — the curious student (was NALEDI)
+  MICHAEL: 'vDchjyOZZytffNeZXfZK', // Mike — Natural and Engaging Podcast Host
+  AMELIA: 'IKne3meq5aSn9XLyUdCD',  // updated voice (narration)
+};
+
+const PRIMARY_MODEL = 'eleven_v3';
+const FALLBACK_MODEL = 'eleven_turbo_v2_5';
+
+// Embedded silent MP3 clips (base64) so natural pauses work even when the
+// user's machine doesn't have ffmpeg installed — no external dependency needed.
+const SILENCE_SHORT_B64 = 'SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU4Ljc2LjEwMAAAAAAAAAAAAAAA//tAwAAAAAAAAAAAAAAAAAAAAAAASW5mbwAAAA8AAAAPAAAGzgAqKioqKio5OTk5OTk5SEhISEhIV1dXV1dXV2dnZ2dnZ2d2dnZ2dnaFhYWFhYWFlZWVlZWVlaSkpKSkpLOzs7Ozs7PCwsLCwsLC0tLS0tLS4eHh4eHh4fDw8PDw8PD///////8AAAAATGF2YzU4LjEzAAAAAAAAAAAAAAAAJAT1AAAAAAAABs4x4WRRAAAAAAD/+xDEAAPAAAGkAAAAIAAANIAAAARMQU1FMy4xMDBVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAwVVVVVf/7EMQpg8AAAaQAAAAgAAA0gAAABFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy4xMDBVVVVV//sQxFMDwAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVX/+xDEfIPAAAGkAAAAIAAANIAAAARVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAwVVVVVf/7EMSmA8AAAaQAAAAgAAA0gAAABFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy4xMDBVVVVV//sQxM+DwAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVX/+xDE1gPAAAGkAAAAIAAANIAAAARVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAwVVVVVf/7EMTWA8AAAaQAAAAgAAA0gAAABFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy4xMDBVVVVV//sQxNYDwAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVX/+xDE1gPAAAGkAAAAIAAANIAAAARVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAwVVVVVf/7EMTWA8AAAaQAAAAgAAA0gAAABFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/7EMTWA8AAAaQAAAAgAAA0gAAABFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//sQxNYDwAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/+xDE1gPAAAGkAAAAIAAANIAAAARVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/7EMTWA8AAAaQAAAAgAAA0gAAABFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//sQxNYDwAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVU='; // ~0.35s, between dialogue lines
+const SILENCE_LONG_B64 = 'SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU4Ljc2LjEwMAAAAAAAAAAAAAAA//tAwAAAAAAAAAAAAAAAAAAAAAAASW5mbwAAAA8AAAAkAAAPVgASEhkZGSAgICYmJi0tNDQ0Ozs7QkJCSEhPT09WVlZdXV1kZGRqanFxcXh4eH9/f4WFjIyMk5OTmpqaoaGhp6eurq61tbW8vLzCwsnJydDQ0NfX197e3uTk6+vr8vLy+fn5//8AAAAATGF2YzU4LjEzAAAAAAAAAAAAAAAAJAS2AAAAAAAAD1aoAgi4AAAAAAD/+xDEAAPAAAGkAAAAIAAANIAAAARMQU1FMy4xMDBVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAwVVVVVf/7EMQpg8AAAaQAAAAgAAA0gAAABFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy4xMDBVVVVV//sQxFMDwAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVX/+xDEfIPAAAGkAAAAIAAANIAAAARVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAwVVVVVf/7EMSmA8AAAaQAAAAgAAA0gAAABFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy4xMDBVVVVV//sQxM+DwAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVX/+xDE1gPAAAGkAAAAIAAANIAAAARVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAwVVVVVf/7EMTWA8AAAaQAAAAgAAA0gAAABFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy4xMDBVVVVV//sQxNYDwAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVX/+xDE1gPAAAGkAAAAIAAANIAAAARVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAwVVVVVf/7EMTWA8AAAaQAAAAgAAA0gAAABFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVMQU1FMy4xMDBVVVVV//sQxNYDwAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVX/+xDE1gPAAAGkAAAAIAAANIAAAARVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/7EMTWA8AAAaQAAAAgAAA0gAAABFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//sQxNYDwAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/+xDE1gPAAAGkAAAAIAAANIAAAARVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/7EMTWA8AAAaQAAAAgAAA0gAAABFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//sQxNYDwAABpAAAACAAADSAAAAEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVU='; // ~0.9s, around title announcements
+
+function voiceSettingsFor(modelId) {
+  // Per ElevenLabs' own recommended defaults for eleven_v3 (style + speaker boost
+  // included); fallback model just uses the classic two settings.
+  return modelId === PRIMARY_MODEL
+    ? { stability: 0.5, similarity_boost: 0.75, style: 0.0, use_speaker_boost: true }
+    : { stability: 0.5, similarity_boost: 0.75 };
+}
+
+const ROOT = path.resolve('.');
+const OUT_DIR = path.join(ROOT, 'podcasts', 'Working-It-Out');
+const TMP_ROOT = path.join(ROOT, 'podcasts', 'tmp', 'working-it-out');
+
+// ─────────────────────────────────────────────────────────────────────────
+// EPISODES — each one is generated and stitched into its own separate file.
+// (Episodes 1-2 populated for now — add more as they're ready.)
+// ─────────────────────────────────────────────────────────────────────────
+const EPISODES = [
+
+{
+  num: 1,
+  file: 'Episode 1 - Arithmetic Sequences',
+  segs: [
+    { s: 'MICHAEL',  t: `Hello, and welcome to Working It Out. I am Michael, your maths expert.` },
+    { s: 'TYLA',     t: `And I am Tyla. I am here to ask Michael all the tough questions. Probably the same ones you are thinking.` },
+    { s: 'MICHAEL',  t: `Working It Out is where we go through every Grade Twelve maths topic, one step at a time, so that you are ready for your tests and your exams.` },
+    { s: 'TYLA',     t: `Today we start a new topic. Sequences and series.` },
+    { s: 'AMELIA',   t: `Episode one. Arithmetic sequences.` },
+    { s: 'MICHAEL',  t: `In this episode you will learn three things. How to recognise the pattern. How to find the common difference. And how to use one formula to find any term you want.` },
+    { s: 'TYLA',     t: `And we work through a real past paper question.` },
+    { s: 'MICHAEL',  t: `We do. So get your pen, your paper and your calculator ready.` },
+    { s: 'MICHAEL',  t: `Let us start with four easy numbers. Five. Ten. Fifteen. Twenty. What comes next?` },
+    { s: 'TYLA',     t: `Twenty five. That one is easy. We are adding five each time.` },
+    { s: 'MICHAEL',  t: `Easy. But a Grade Twelve question will not stop there. It might ask you for the fiftieth term. Or the hundredth term. Or it might give you a number and ask you where that number sits in the sequence.` },
+    { s: 'TYLA',     t: `And I do not want to add five a hundred times.` },
+    { s: 'MICHAEL',  t: `You do not need to. That is exactly what today gives you. A shortcut.` },
+    { s: 'MICHAEL',  t: `So let us see how the exam actually asks it. This is a real question. National Senior Certificate, Paper One, November two thousand and fourteen.` },
+    { s: 'MICHAEL',  t: `Here are the numbers. Two, plus nine, plus sixteen, and it carries on. Two hundred and fifty one numbers in total.` },
+    { s: 'MICHAEL',  t: `The exam asks two things. First, write down the fourth number. Then, calculate the two hundred and fifty first number.` },
+    { s: 'TYLA',     t: `The fourth one is easy. But the two hundred and fifty first?` },
+    { s: 'MICHAEL',  t: `That is the whole point of today. Tell me how you would find it.` },
+    { s: 'TYLA',     t: `Well, let me see the pattern first. Two to nine. That is plus seven.` },
+    { s: 'TYLA',     t: `Nine to sixteen. Plus seven again.` },
+    { s: 'TYLA',     t: `So I just keep adding seven. Two, nine, sixteen, twenty three. There is the fourth one. Twenty three.` },
+    { s: 'MICHAEL',  t: `Correct. Now do the same for the two hundred and fifty first.` },
+    { s: 'TYLA',     t: `I would have to add seven, two hundred and fifty times. That will take the whole exam.` },
+    { s: 'MICHAEL',  t: `It will. So most learners try a shortcut. They say, start at two, and add seven, two hundred and fifty one times.` },
+    { s: 'TYLA',     t: `That sounds right to me.` },
+    { s: 'MICHAEL',  t: `Test it on something small. Use your shortcut to find the second number. Two, plus two, times seven.` },
+    { s: 'TYLA',     t: `Two plus fourteen. That is sixteen. … But the second number is nine, not sixteen.` },
+    { s: 'MICHAEL',  t: `Exactly. You added seven one time too many. That single extra step is the most common mistake in this whole topic. Let us fix it.` },
+    { s: 'MICHAEL',  t: `First the names. When you add the same amount every time, that is called an arithmetic sequence.` },
+    { s: 'MICHAEL',  t: `A sequence is a list of numbers in order. Each number is called a term.` },
+    { s: 'TYLA',     t: `So two is the first term. Nine is the second term.` },
+    { s: 'MICHAEL',  t: `Yes. And that seven you keep adding has an exam name. It is called the common difference.` },
+    { s: 'MICHAEL',  t: `Common means every step shares it. Difference means you find it by subtracting.` },
+    { s: 'TYLA',     t: `So nine minus two gives seven.` },
+    { s: 'MICHAEL',  t: `Later term, minus earlier term. Always in that order. And check it twice.` },
+    { s: 'TYLA',     t: `Sixteen minus nine is also seven. Same answer.` },
+    { s: 'MICHAEL',  t: `Now you know it really is arithmetic. If those two answers were different, everything we do next would be wrong.` },
+    { s: 'MICHAEL',  t: `Let us build the rule together. Do not memorise. Just count with me.` },
+    { s: 'MICHAEL',  t: `We start at two. That is the first term.` },
+    { s: 'MICHAEL',  t: `To reach the second term, how many times do you add seven?` },
+    { s: 'TYLA',     t: `One time. Two plus seven is nine.` },
+    { s: 'MICHAEL',  t: `To reach the third term?` },
+    { s: 'TYLA',     t: `Two times. That gives sixteen.` },
+    { s: 'MICHAEL',  t: `And the fourth?` },
+    { s: 'TYLA',     t: `Three times. … Oh. The number of steps is always one less than the term number.` },
+    { s: 'MICHAEL',  t: `There it is. That is the answer to your shortcut problem. To reach term two hundred and fifty one, you take two hundred and fifty steps. Not two hundred and fifty one.` },
+    { s: 'TYLA',     t: `Because the first term is already there before you take any step.` },
+    { s: 'MICHAEL',  t: `That is exactly why. Say that sentence again in the exam and you will never get it wrong.` },
+    { s: 'MICHAEL',  t: `So the rule is this. The enth term equals the first term, plus n minus one, times the common difference.` },
+    { s: 'MICHAEL',  t: `In the exam, a means the first term, and d means the common difference.` },
+    { s: 'TYLA',     t: `So the n minus one is not a trick. It is counting the steps.` },
+    { s: 'MICHAEL',  t: `It is only counting the steps. Nothing more.` },
+    { s: 'MICHAEL',  t: `Back to the paper. Question two point one says, write down the fourth term. When the exam says write down, it wants the answer only. No working. One mark.` },
+    { s: 'TYLA',     t: `Twenty three. I already counted it.` },
+    { s: 'MICHAEL',  t: `Good. Do not waste time there. Now question two point two says calculate. When it says calculate, you must show your working.` },
+    { s: 'MICHAEL',  t: `Write down what you know first. Every time.` },
+    { s: 'TYLA',     t: `The first term is two. So a is two. The common difference is seven. So d is seven. And n is two hundred and fifty one.` },
+    { s: 'MICHAEL',  t: `Put them into the rule. Say it as you write it.` },
+    { s: 'TYLA',     t: `The enth term equals two, plus n minus one, times seven.` },
+    { s: 'TYLA',     t: `So that is two, plus two hundred and fifty one minus one, times seven.` },
+    { s: 'MICHAEL',  t: `And two hundred and fifty one minus one is?` },
+    { s: 'TYLA',     t: `Two hundred and fifty. Times seven is one thousand seven hundred and fifty.` },
+    { s: 'TYLA',     t: `Plus the two. One thousand seven hundred and fifty two.` },
+    { s: 'MICHAEL',  t: `That is the answer. Three marks. Now check the rule works on a small term. Put n equals two.` },
+    { s: 'TYLA',     t: `Two, plus two minus one, times seven. That is two plus seven. Nine. And nine is the second term.` },
+    { s: 'MICHAEL',  t: `Ten seconds of checking. It tells you the whole answer is safe.` },
+    { s: 'TYLA',     t: `And my shortcut would have given one thousand seven hundred and fifty nine. Seven too much.` },
+    { s: 'MICHAEL',  t: `One extra step. One lost mark.` },
+    { s: 'MICHAEL',  t: `Four things the markers watch for.` },
+    { s: 'MICHAEL',  t: `Number one. Use n minus one, not n. The first term needs no steps.` },
+    { s: 'MICHAEL',  t: `Number two. Check the common difference twice. Second term minus first. Then third term minus second. If they do not match, it is not an arithmetic sequence, and this rule will not work.` },
+    { s: 'MICHAEL',  t: `Number three. Always take the later term minus the earlier term. If the numbers go down, your common difference is negative. Keep the minus sign.` },
+    { s: 'MICHAEL',  t: `Number four. Read the command word. Write down means answer only. Calculate means show your working. If it says calculate and you write one number, you lose the method marks even when the number is right.` },
+    { s: 'MICHAEL',  t: `Three things to remember.` },
+    { s: 'MICHAEL',  t: `One. An arithmetic sequence adds the same amount each time. That amount is the common difference.` },
+    { s: 'MICHAEL',  t: `Two. The rule is the first term, plus n minus one, times the common difference.` },
+    { s: 'MICHAEL',  t: `Three. The n minus one is counting steps. And test your rule with a small term before you trust it.` },
+    { s: 'MICHAEL',  t: `Here is your question. Same sequence. Two, nine, sixteen, and so on. Which term of this sequence is equal to seven hundred and two?` },
+    { s: 'MICHAEL',  t: `Pause and try it. I will wait.`, pause: 3.0 },
+    { s: 'MICHAEL',  t: `I will give you the answer at the start of the next episode. And in that episode, everything changes. We stop adding the same amount, and we start multiplying by the same amount.` },
+    { s: 'TYLA',     t: `Multiplying instead of adding. That will grow much faster.` },
+    { s: 'MICHAEL',  t: `Much faster. It is called a geometric sequence. See you there.` },
+    { s: 'AMELIA',   t: `That was episode one. Arithmetic sequences. Next, episode two. Geometric sequences.` },
+  ],
+  slides: [
+    { n: 1, afterSeg: 0, title: `WORKING IT OUT`, onScreen: `WORKING IT OUT — show title card` },
+    { n: 2, afterSeg: 1, title: `MEET YOUR HOSTS`, onScreen: `MICHAEL — your maths expert · TYLA — asks the tough questions` },
+    { n: 3, afterSeg: 2, title: `EVERY GRADE 12 TOPIC`, onScreen: `Every Grade 12 maths topic · one step at a time` },
+    { n: 4, afterSeg: 3, title: `NEW TOPIC • SEQUENCES AND SERIES`, onScreen: `NEW TOPIC — SEQUENCES AND SERIES` },
+    { n: 5, afterSeg: 4, title: `EPISODE 1 • ARITHMETIC SEQUENCES`, onScreen: `EPISODE 1 — ARITHMETIC SEQUENCES` },
+    { n: 6, afterSeg: 5, title: `IN THIS EPISODE`, onScreen: `IN THIS EPISODE — recognise the pattern · find the common difference · find any term` },
+    { n: 7, afterSeg: 6, title: `REAL PAST PAPER QUESTIONS`, onScreen: `with a real NSC past paper question` },
+    { n: 8, afterSeg: 7, title: `PEN • PAPER • CALCULATOR`, onScreen: `pen · paper · calculator` },
+    { n: 9, afterSeg: 8, title: `WARM UP • WHAT COMES NEXT`, onScreen: `5 ; 10 ; 15 ; 20 ; …` },
+    { n: 10, afterSeg: 9, title: `ADDING FIVE EACH TIME`, onScreen: `5 → 10 → 15 → 20 → 25, with "+5" above every arrow` },
+    { n: 11, afterSeg: 10, title: `THE 50TH TERM ? THE 100TH ?`, onScreen: `The 50th term? The 100th term? Where does 702 sit?` },
+    { n: 12, afterSeg: 12, title: `YOU NEED A SHORTCUT`, onScreen: `you need a shortcut` },
+    { n: 13, afterSeg: 13, title: `NSC PAPER 1 • NOVEMBER 2014`, onScreen: `NSC Mathematics P1 · November 2014 · Question 2` },
+    { n: 14, afterSeg: 14, title: `THE SEQUENCE • 2 + 9 + 16`, onScreen: `2 + 9 + 16 + … (to 251 terms)` },
+    { n: 15, afterSeg: 15, title: `THE TWO QUESTIONS`, onScreen: `2.1 Write down the fourth term. (1) · 2.2 Calculate the 251st term. (3)` },
+    { n: 16, afterSeg: 18, title: `FIRST DIFFERENCE • PLUS 7`, onScreen: `2 → 9, +7 appears` },
+    { n: 17, afterSeg: 19, title: `SECOND DIFFERENCE • PLUS 7`, onScreen: `9 → 16, +7 appears` },
+    { n: 18, afterSeg: 20, title: `FOURTH TERM = 23`, onScreen: `T₄ = 23 ✓` },
+    { n: 19, afterSeg: 23, title: `THE TEMPTING SHORTCUT`, onScreen: `Tyla's shortcut: 2 + 251 × 7` },
+    { n: 20, afterSeg: 26, title: `THE SHORTCUT FAILS`, onScreen: `red cross · 2 + 2(7) = 16, but T₂ = 9` },
+    { n: 21, afterSeg: 28, title: `ARITHMETIC SEQUENCE DEFINED`, onScreen: `ARITHMETIC SEQUENCE — you add the same amount every time` },
+    { n: 22, afterSeg: 29, title: `SEQUENCE AND TERM`, onScreen: `sequence = list in order · term = one number in the list` },
+    { n: 23, afterSeg: 31, title: `COMMON DIFFERENCE`, onScreen: `COMMON DIFFERENCE = the amount added each time. Here, d = 7` },
+    { n: 24, afterSeg: 34, title: `CHECK THE DIFFERENCE TWICE`, onScreen: `d = T₂ − T₁ = 9 − 2 = 7 · d = T₃ − T₂ = 16 − 9 = 7 ✓` },
+    { n: 25, afterSeg: 38, title: `FIRST TERM • ZERO STEPS`, onScreen: `T₁ = 2 · zero steps` },
+    { n: 26, afterSeg: 40, title: `SECOND TERM • ONE STEP`, onScreen: `T₂ = 2 + 7 · one step` },
+    { n: 27, afterSeg: 42, title: `THIRD TERM • TWO STEPS`, onScreen: `T₃ = 2 + 7 + 7 · two steps` },
+    { n: 28, afterSeg: 44, title: `COUNTING THE STEPS`, onScreen: `term 2 → 1 step · term 3 → 2 steps · term 4 → 3 steps` },
+    { n: 29, afterSeg: 45, title: `TERM 251 • 250 STEPS`, onScreen: `term 251 → 250 steps` },
+    { n: 30, afterSeg: 48, title: `THE FORMULA`, onScreen: `Tₙ = a + (n − 1)d` },
+    { n: 31, afterSeg: 49, title: `WHAT A AND D MEAN`, onScreen: `a = first term · d = common difference` },
+    { n: 32, afterSeg: 52, title: `WRITE DOWN = ANSWER ONLY`, onScreen: `2.1 "Write down" = answer only, no working. (1)` },
+    { n: 33, afterSeg: 54, title: `CALCULATE = SHOW WORKING`, onScreen: `2.2 "Calculate" = show your working. (3)` },
+    { n: 34, afterSeg: 56, title: `WHAT WE KNOW`, onScreen: `a = 2, d = 7, n = 251` },
+    { n: 35, afterSeg: 58, title: `SUBSTITUTE INTO THE RULE`, onScreen: `Tₙ = 2 + (n − 1)(7)` },
+    { n: 36, afterSeg: 59, title: `PUT IN N = 251`, onScreen: `T₂₅₁ = 2 + (251 − 1)(7)` },
+    { n: 37, afterSeg: 61, title: `SIMPLIFY`, onScreen: `T₂₅₁ = 2 + 250(7) = 2 + 1 750` },
+    { n: 38, afterSeg: 62, title: `ANSWER • 1 752`, onScreen: `T₂₅₁ = 1 752 ✓ (boxed)` },
+    { n: 39, afterSeg: 64, title: `CHECK WITH A SMALL TERM`, onScreen: `n = 2 → 2 + (1)(7) = 9 ✓` },
+    { n: 40, afterSeg: 68, title: `WHERE YOU LOSE MARKS`, onScreen: `WHERE YOU LOSE MARKS` },
+    { n: 41, afterSeg: 69, title: `MARK LOSS 1 • USE N MINUS 1`, onScreen: `1. (n − 1) steps, never n` },
+    { n: 42, afterSeg: 70, title: `MARK LOSS 2 • CHECK D TWICE`, onScreen: `2. Check d twice — same answer both times?` },
+    { n: 43, afterSeg: 71, title: `MARK LOSS 3 • LATER MINUS EARLIER`, onScreen: `3. d = later − earlier. Negative d is normal.` },
+    { n: 44, afterSeg: 72, title: `MARK LOSS 4 • READ THE COMMAND`, onScreen: `4. "Write down" ≠ "Calculate"` },
+    { n: 45, afterSeg: 73, title: `REMEMBER`, onScreen: `REMEMBER` },
+    { n: 46, afterSeg: 74, title: `RECAP 1 • COMMON DIFFERENCE`, onScreen: `1. Same amount added each time = common difference (d)` },
+    { n: 47, afterSeg: 75, title: `RECAP 2 • THE FORMULA`, onScreen: `2. Tₙ = a + (n − 1)d` },
+    { n: 48, afterSeg: 76, title: `RECAP 3 • COUNTING STEPS`, onScreen: `3. n − 1 = steps. Always test.` },
+    { n: 49, afterSeg: 77, title: `YOUR TURN • WHICH TERM IS 702`, onScreen: `2 ; 9 ; 16 ; … Which term equals 702?` },
+    { n: 50, afterSeg: 78, title: `PAUSE AND TRY`, onScreen: `PAUSE AND TRY` },
+    { n: 51, afterSeg: 81, title: `NEXT • GEOMETRIC SEQUENCES`, onScreen: `NEXT — EPISODE 2: GEOMETRIC SEQUENCES` },
+  ],
+},
+
+{
+  num: 2,
+  file: 'Episode 2 - Geometric Sequences',
+  segs: [
+    { s: 'MICHAEL',  t: `Welcome back to Working It Out. I am Michael.` },
+    { s: 'TYLA',     t: `And I am Tyla, still asking the difficult questions.` },
+    { s: 'AMELIA',   t: `Episode two. Geometric sequences.` },
+    { s: 'MICHAEL',  t: `First, the question I left you with. Our sequence was two, nine, sixteen, and so on. Which term is equal to seven hundred and two?` },
+    { s: 'TYLA',     t: `I used the rule from last time. Seven n minus five equals seven hundred and two.` },
+    { s: 'MICHAEL',  t: `Good. Add five to both sides.` },
+    { s: 'TYLA',     t: `Seven n equals seven hundred and seven. So n is one hundred and one.` },
+    { s: 'MICHAEL',  t: `The hundred and first term. And notice something important. Your answer for n came out as a whole number. That is your proof that seven hundred and two really is in the sequence. If n had come out as a fraction, the answer would be no, that number is not in the sequence.` },
+    { s: 'MICHAEL',  t: `Now, today everything changes. Last time we added the same amount each time. Today we multiply.` },
+    { s: 'MICHAEL',  t: `Look at these. Two. Four. Eight. Sixteen. What is happening?` },
+    { s: 'TYLA',     t: `It doubles every time. So the next one is thirty two.` },
+    { s: 'MICHAEL',  t: `Correct. And when you multiply by the same number every time, that is called a geometric sequence.` },
+    { s: 'TYLA',     t: `So arithmetic adds, and geometric multiplies.` },
+    { s: 'MICHAEL',  t: `That is the whole difference. Hold on to it.` },
+    { s: 'MICHAEL',  t: `Here is today's real question. Same paper as last time. November two thousand and fourteen.` },
+    { s: 'MICHAEL',  t: `The first three terms of a geometric sequence are sixteen, four, one.` },
+    { s: 'MICHAEL',  t: `Calculate the twelfth term. And leave your answer in simplified exponential form.` },
+    { s: 'TYLA',     t: `Wait. These numbers are getting smaller, not bigger.` },
+    { s: 'MICHAEL',  t: `They are. And that tells you something straight away. Keep that in mind.` },
+    { s: 'TYLA',     t: `Okay. To find what we multiply by, I divide. Sixteen divided by four is four.` },
+    { s: 'MICHAEL',  t: `Test it. Start at sixteen and multiply by four.` },
+    { s: 'TYLA',     t: `Sixteen times four is sixty four. But the second term is four, not sixty four.` },
+    { s: 'MICHAEL',  t: `So your four is upside down. You divided the earlier term by the later term. It must be the other way around.` },
+    { s: 'TYLA',     t: `Later divided by earlier. Four divided by sixteen.` },
+    { s: 'TYLA',     t: `That is one quarter.` },
+    { s: 'MICHAEL',  t: `One quarter. And that is why the numbers are shrinking. When you multiply by a fraction smaller than one, the sequence gets smaller every step.` },
+    { s: 'MICHAEL',  t: `That number has an exam name. It is called the common ratio, and we write it as r.` },
+    { s: 'MICHAEL',  t: `Ratio means you find it by dividing. Common means every step shares it.` },
+    { s: 'TYLA',     t: `So I check it twice, like last time?` },
+    { s: 'MICHAEL',  t: `Always. Second term divided by first. Then third divided by second.` },
+    { s: 'TYLA',     t: `One divided by four is also one quarter. Same answer.` },
+    { s: 'MICHAEL',  t: `Then it really is geometric, and we may use the formula.` },
+    { s: 'MICHAEL',  t: `Build it with me. We start at sixteen.` },
+    { s: 'MICHAEL',  t: `To reach the second term, how many times do you multiply by one quarter?` },
+    { s: 'TYLA',     t: `One time.` },
+    { s: 'MICHAEL',  t: `And the third term?` },
+    { s: 'TYLA',     t: `Two times. … This is the same counting as last week. One less than the term number.` },
+    { s: 'MICHAEL',  t: `Exactly the same idea. So the rule is, the enth term equals the first term, times the common ratio, to the power of n minus one.` },
+    { s: 'TYLA',     t: `So the power just counts the multiplications.` },
+    { s: 'MICHAEL',  t: `The power counts the steps. Arithmetic multiplies the steps by d. Geometric raises r to the number of steps.` },
+    { s: 'MICHAEL',  t: `Write down what you know.` },
+    { s: 'TYLA',     t: `The first term is sixteen. The common ratio is one quarter. And n is twelve.` },
+    { s: 'MICHAEL',  t: `Substitute.` },
+    { s: 'TYLA',     t: `The twelfth term equals sixteen, times one quarter, to the power of, eleven.` },
+    { s: 'MICHAEL',  t: `Now, the exam said simplified exponential form. That means one base with one power. So make everything a power of two.` },
+    { s: 'TYLA',     t: `Sixteen is two to the power of four.` },
+    { s: 'TYLA',     t: `And one quarter is one over two squared. So that is two to the power of negative two.` },
+    { s: 'MICHAEL',  t: `So now put those in.` },
+    { s: 'TYLA',     t: `Two to the power of four, times two to the power of negative two, to the power of eleven.` },
+    { s: 'MICHAEL',  t: `When a power is raised to another power, you multiply the powers.` },
+    { s: 'TYLA',     t: `Negative two times eleven is negative twenty two.` },
+    { s: 'MICHAEL',  t: `And when you multiply powers of the same base, you add the powers.` },
+    { s: 'TYLA',     t: `Four plus negative twenty two is negative eighteen. So the answer is two to the power of negative eighteen.` },
+    { s: 'MICHAEL',  t: `Three marks. And notice the answer is a tiny number, which fits, because the sequence is shrinking.` },
+    { s: 'MICHAEL',  t: `Four things.` },
+    { s: 'MICHAEL',  t: `Number one. The ratio is later term divided by earlier term. Get that the wrong way round and every answer after it is wrong.` },
+    { s: 'MICHAEL',  t: `Number two. The power is n minus one, not n. Same counting as arithmetic.` },
+    { s: 'MICHAEL',  t: `Number three. If the question says exponential form, do not give a decimal. They want one base and one power.` },
+    { s: 'MICHAEL',  t: `Number four. If the terms change sign, plus, minus, plus, minus, then your ratio is negative. Keep the minus sign inside the bracket.` },
+    { s: 'MICHAEL',  t: `Three things to remember.` },
+    { s: 'MICHAEL',  t: `One. A geometric sequence multiplies by the same amount each time. That amount is the common ratio.` },
+    { s: 'MICHAEL',  t: `Two. The rule is the first term, times r to the power of n minus one.` },
+    { s: 'MICHAEL',  t: `Three. A ratio smaller than one makes the sequence shrink. A ratio bigger than one makes it grow.` },
+    { s: 'MICHAEL',  t: `Here is your question. Same sequence. Sixteen, four, one. Which term is equal to one over one thousand and twenty four?` },
+    { s: 'MICHAEL',  t: `Pause and try it. I will wait.`, pause: 3.0 },
+    { s: 'MICHAEL',  t: `I will give you the answer next time. And next time we meet a pattern that is neither of these two. It does not add the same amount. It does not multiply by the same amount.` },
+    { s: 'TYLA',     t: `Then how do you even find the rule?` },
+    { s: 'MICHAEL',  t: `You look at the differences. And then you look at the differences again. That is episode three. Quadratic number patterns.` },
+  ],
+  slides: [
+    { n: 1, afterSeg: 0, title: `WORKING IT OUT`, onScreen: `WORKING IT OUT` },
+    { n: 2, afterSeg: 1, title: `MEET YOUR HOSTS`, onScreen: `MICHAEL · TYLA` },
+    { n: 3, afterSeg: 2, title: `EPISODE 2 • GEOMETRIC SEQUENCES`, onScreen: `EPISODE 2 — GEOMETRIC SEQUENCES` },
+    { n: 4, afterSeg: 3, title: `LAST TIME • WHICH TERM IS 702`, onScreen: `2 ; 9 ; 16 ; … Which term equals 702?` },
+    { n: 5, afterSeg: 4, title: `SOLVE FOR N`, onScreen: `7n − 5 = 702` },
+    { n: 6, afterSeg: 6, title: `N = 101`, onScreen: `7n = 707 → n = 101` },
+    { n: 7, afterSeg: 7, title: `A WHOLE NUMBER MEANS YES`, onScreen: `n is a whole number → 702 IS in the sequence` },
+    { n: 8, afterSeg: 8, title: `ADD VERSUS MULTIPLY`, onScreen: `last time: ADD the same amount · today: MULTIPLY by the same amount` },
+    { n: 9, afterSeg: 9, title: `WARM UP • DOUBLING`, onScreen: `2 ; 4 ; 8 ; 16 ; …` },
+    { n: 10, afterSeg: 10, title: `TIMES TWO EACH TIME`, onScreen: `2 → 4 → 8 → 16 → 32, with "×2" above every arrow` },
+    { n: 11, afterSeg: 11, title: `GEOMETRIC SEQUENCE DEFINED`, onScreen: `GEOMETRIC SEQUENCE — you multiply by the same amount every time` },
+    { n: 12, afterSeg: 14, title: `NSC PAPER 1 • NOVEMBER 2014`, onScreen: `NSC Mathematics P1 · November 2014 · Question 3.2` },
+    { n: 13, afterSeg: 15, title: `THE SEQUENCE • 16 4 1`, onScreen: `16 ; 4 ; 1` },
+    { n: 14, afterSeg: 16, title: `THE QUESTION • 12TH TERM`, onScreen: `3.2.1 Calculate the 12th term. Leave your answer in simplified exponential form. (3)` },
+    { n: 15, afterSeg: 19, title: `THE WRONG DIVISION`, onScreen: `Tyla's answer: 16 ÷ 4 = 4` },
+    { n: 16, afterSeg: 21, title: `THE RATIO FAILS`, onScreen: `red cross · 16 × 4 = 64, but T₂ = 4` },
+    { n: 17, afterSeg: 23, title: `LATER DIVIDED BY EARLIER`, onScreen: `r = T₂ ÷ T₁ = 4 ÷ 16 = ¼` },
+    { n: 18, afterSeg: 25, title: `A SHRINKING SEQUENCE`, onScreen: `ratio smaller than 1 → the sequence shrinks` },
+    { n: 19, afterSeg: 26, title: `COMMON RATIO`, onScreen: `COMMON RATIO (r) = the amount you multiply by each time` },
+    { n: 20, afterSeg: 29, title: `CHECK THE RATIO TWICE`, onScreen: `r = 4 ÷ 16 = ¼ · r = 1 ÷ 4 = ¼ ✓` },
+    { n: 21, afterSeg: 32, title: `FIRST TERM • NO MULTIPLYING`, onScreen: `T₁ = 16 · zero multiplications` },
+    { n: 22, afterSeg: 34, title: `SECOND TERM • ONE MULTIPLY`, onScreen: `T₂ = 16 × ¼ · one multiplication` },
+    { n: 23, afterSeg: 36, title: `THIRD TERM • TWO MULTIPLIES`, onScreen: `T₃ = 16 × ¼ × ¼ · two multiplications` },
+    { n: 24, afterSeg: 37, title: `THE FORMULA`, onScreen: `Tₙ = a · r ⁿ⁻¹` },
+    { n: 25, afterSeg: 39, title: `ARITHMETIC VERSUS GEOMETRIC`, onScreen: `arithmetic: + (n − 1)d · geometric: × r ⁿ⁻¹` },
+    { n: 26, afterSeg: 41, title: `WHAT WE KNOW`, onScreen: `a = 16, r = ¼, n = 12` },
+    { n: 27, afterSeg: 43, title: `SUBSTITUTE INTO THE RULE`, onScreen: `T₁₂ = 16 × (¼)¹¹` },
+    { n: 28, afterSeg: 44, title: `EXPONENTIAL FORM`, onScreen: `"exponential form" = one base, one power` },
+    { n: 29, afterSeg: 45, title: `SIXTEEN AS A POWER OF TWO`, onScreen: `16 = 2⁴` },
+    { n: 30, afterSeg: 46, title: `A QUARTER AS A POWER OF TWO`, onScreen: `¼ = 2⁻²` },
+    { n: 31, afterSeg: 48, title: `ALL IN BASE TWO`, onScreen: `T₁₂ = 2⁴ × (2⁻²)¹¹` },
+    { n: 32, afterSeg: 50, title: `POWER OF A POWER`, onScreen: `(2⁻²)¹¹ = 2⁻²²` },
+    { n: 33, afterSeg: 52, title: `ANSWER • 2 TO THE MINUS 18`, onScreen: `T₁₂ = 2⁻¹⁸ ✓ (boxed)` },
+    { n: 34, afterSeg: 54, title: `WHERE YOU LOSE MARKS`, onScreen: `WHERE YOU LOSE MARKS` },
+    { n: 35, afterSeg: 55, title: `MARK LOSS 1 • RATIO DIRECTION`, onScreen: `1. r = later ÷ earlier` },
+    { n: 36, afterSeg: 56, title: `MARK LOSS 2 • THE POWER IS N MINUS 1`, onScreen: `2. the power is (n − 1)` },
+    { n: 37, afterSeg: 57, title: `MARK LOSS 3 • NOT A DECIMAL`, onScreen: `3. exponential form ≠ a decimal` },
+    { n: 38, afterSeg: 58, title: `MARK LOSS 4 • NEGATIVE RATIO`, onScreen: `4. alternating signs → r is negative` },
+    { n: 39, afterSeg: 59, title: `REMEMBER`, onScreen: `REMEMBER` },
+    { n: 40, afterSeg: 60, title: `RECAP 1 • COMMON RATIO`, onScreen: `1. Multiply by the same amount = common ratio (r)` },
+    { n: 41, afterSeg: 61, title: `RECAP 2 • THE FORMULA`, onScreen: `2. Tₙ = a · r ⁿ⁻¹` },
+    { n: 42, afterSeg: 62, title: `RECAP 3 • SHRINK OR GROW`, onScreen: `3. r < 1 shrinks · r > 1 grows` },
+    { n: 43, afterSeg: 63, title: `YOUR TURN • WHICH TERM IS ONE OVER 1024`, onScreen: `16 ; 4 ; 1 ; … Which term equals 1/1024?` },
+    { n: 44, afterSeg: 64, title: `PAUSE AND TRY`, onScreen: `PAUSE AND TRY` },
+    { n: 45, afterSeg: 67, title: `NEXT • QUADRATIC NUMBER PATTERNS`, onScreen: `NEXT — EPISODE 3: QUADRATIC NUMBER PATTERNS` },
+  ],
+},
+
+{
+  num: 3,
+  file: 'Episode 3 - Quadratic Number Patterns',
+  segs: [
+    { s: 'AMELIA',   t: `Episode three. Quadratic number patterns.` },
+    { s: 'MICHAEL',  t: `So far we have had two kinds of pattern. One where you add the same amount. One where you multiply by the same amount.` },
+    { s: 'TYLA',     t: `And today it is neither.` },
+    { s: 'MICHAEL',  t: `Today it is neither. Today the gaps between the numbers keep changing. And the exam loves this one, because it looks impossible until you know the trick.` },
+    { s: 'TYLA',     t: `Before that, you owe me an answer.` },
+    { s: 'MICHAEL',  t: `I do. Last time the sequence was sixteen, four, one. Which term is equal to one over one thousand and twenty four?` },
+    { s: 'TYLA',     t: `I kept dividing by four. Sixteen, four, one, a quarter, a sixteenth, and so on. I landed on the eighth term.` },
+    { s: 'MICHAEL',  t: `The eighth term. Correct. Now let us meet today's pattern.` },
+    { s: 'MICHAEL',  t: `Same paper as the last two episodes. November two thousand and fourteen.` },
+    { s: 'MICHAEL',  t: `The sequence is negative one, negative seven, negative eleven, and then a term called p.` },
+    { s: 'MICHAEL',  t: `First question. Write down the value of p.` },
+    { s: 'TYLA',     t: `Easy. Negative one to negative seven is minus six. So I take another six off. Negative eleven minus six is negative seventeen.` },
+    { s: 'MICHAEL',  t: `Check the second gap before you commit.` },
+    { s: 'TYLA',     t: `Negative seven to negative eleven. That is minus four.` },
+    { s: 'TYLA',     t: `Oh. The gaps are not the same. Minus six, then minus four.` },
+    { s: 'MICHAEL',  t: `So it is not arithmetic. And you cannot use last week's formula either, because we are not multiplying. This is the moment most learners get stuck.` },
+    { s: 'TYLA',     t: `Then how do I find the next gap?` },
+    { s: 'MICHAEL',  t: `You do the same thing again. You look at the gaps between the gaps.` },
+    { s: 'MICHAEL',  t: `The gaps have an exam name. They are called first differences. Later term minus earlier term, exactly like before.` },
+    { s: 'MICHAEL',  t: `Our first differences are negative six, and negative four.` },
+    { s: 'MICHAEL',  t: `Now subtract those. Negative four minus negative six.` },
+    { s: 'TYLA',     t: `Minus a negative, so that is negative four plus six. That gives two.` },
+    { s: 'MICHAEL',  t: `Two. And that is called the second difference. When the second difference stays the same, the pattern is called a quadratic sequence.` },
+    { s: 'TYLA',     t: `So arithmetic is a constant first difference, and quadratic is a constant second difference.` },
+    { s: 'MICHAEL',  t: `That is the cleanest way to hold it in your head.` },
+    { s: 'MICHAEL',  t: `So now find p. Your first differences were negative six, negative four. What comes next?` },
+    { s: 'TYLA',     t: `They go up by two each time. So the next one is negative two.` },
+    { s: 'TYLA',     t: `Then p is negative eleven, plus negative two. That is negative thirteen.` },
+    { s: 'MICHAEL',  t: `Two marks. And notice your first answer, negative seventeen, was wrong only because you assumed the gap stayed the same. Always check the second gap.` },
+    { s: 'MICHAEL',  t: `Next question. Determine the enth term. Four marks.` },
+    { s: 'MICHAEL',  t: `Every quadratic sequence has the same shape. The enth term equals a, n squared, plus b n, plus c. You just need the three letters.` },
+    { s: 'MICHAEL',  t: `Three facts give you the three letters. First, two a equals the second difference.` },
+    { s: 'TYLA',     t: `Our second difference is two. So two a is two, and a is one.` },
+    { s: 'MICHAEL',  t: `Second, three a plus b equals the first difference. The very first one.` },
+    { s: 'TYLA',     t: `Three times one, plus b, equals negative six. So b is negative nine.` },
+    { s: 'MICHAEL',  t: `Third, a plus b plus c equals the first term.` },
+    { s: 'TYLA',     t: `One, plus negative nine, plus c, equals negative one. So c is seven.` },
+    { s: 'MICHAEL',  t: `Put them together.` },
+    { s: 'TYLA',     t: `The enth term equals n squared, minus nine n, plus seven.` },
+    { s: 'MICHAEL',  t: `Now test it, always. Put n equals three.` },
+    { s: 'TYLA',     t: `Nine, minus twenty seven, plus seven. That is negative eleven. And that is the third term.` },
+    { s: 'MICHAEL',  t: `Last question, and this is where the marks are won. The first difference between two terms next to each other is ninety six. Find those two terms.` },
+    { s: 'TYLA',     t: `That sounds far away.` },
+    { s: 'MICHAEL',  t: `It is. But look at the first differences again. Negative six, negative four, negative two. What kind of sequence is that?` },
+    { s: 'TYLA',     t: `They go up by two every time. That is arithmetic.` },
+    { s: 'MICHAEL',  t: `So use episode one on the differences themselves. First term negative six, common difference two. But we need a new letter. n is already the term number of our main sequence, and now we are counting differences instead. So let us call the difference number k.` },
+    { s: 'TYLA',     t: `So the kth difference is negative six, plus k minus one, times two.` },
+    { s: 'MICHAEL',  t: `Set that equal to ninety six.` },
+    { s: 'TYLA',     t: `Two k minus eight equals ninety six. So two k is one hundred and four, and k is fifty two.` },
+    { s: 'MICHAEL',  t: `So the gap of ninety six sits between the fifty second term and the fifty third. Now use your rule.` },
+    { s: 'TYLA',     t: `Fifty two squared is two thousand seven hundred and four. Minus nine times fifty two, which is four hundred and sixty eight. Plus seven. That gives two thousand two hundred and forty three.` },
+    { s: 'TYLA',     t: `And the next one. Fifty three squared is two thousand eight hundred and nine, minus four hundred and seventy seven, plus seven. Two thousand three hundred and thirty nine.` },
+    { s: 'MICHAEL',  t: `Subtract them and check.` },
+    { s: 'TYLA',     t: `Two thousand three hundred and thirty nine, minus two thousand two hundred and forty three, is ninety six.` },
+    { s: 'MICHAEL',  t: `Four things.` },
+    { s: 'MICHAEL',  t: `Number one. Always check the second gap before you decide a pattern is arithmetic. That single check would have saved Tyla's first answer.` },
+    { s: 'MICHAEL',  t: `Number two. Subtracting a negative adds. Negative four minus negative six is positive two. This is where most of the lost marks live.` },
+    { s: 'MICHAEL',  t: `Number three. Two a equals the second difference, not a on its own. Forgetting to halve it is very common.` },
+    { s: 'MICHAEL',  t: `Number four. Test your rule on a term you already know before you use it on a big one.` },
+    { s: 'MICHAEL',  t: `Three things to remember.` },
+    { s: 'MICHAEL',  t: `One. If the first differences are not equal, take the differences again.` },
+    { s: 'MICHAEL',  t: `Two. A constant second difference means the pattern is quadratic.` },
+    { s: 'MICHAEL',  t: `Three. The shape is always a n squared plus b n plus c, and three facts unlock it. Two a is the second difference. Three a plus b is the first difference. A plus b plus c is the first term.` },
+    { s: 'MICHAEL',  t: `Here is your question. Same sequence. Our rule was n squared, minus nine n, plus seven. Which term is equal to seventeen?` },
+    { s: 'MICHAEL',  t: `Pause and try it. I will wait.`, pause: 3.0 },
+    { s: 'MICHAEL',  t: `I will give you the answer next time. And next time we stop looking at single terms, and we start adding them all up.` },
+    { s: 'TYLA',     t: `Adding up hundreds of numbers sounds worse, not better.` },
+    { s: 'MICHAEL',  t: `It sounds worse. It is actually easier, and there is a symbol that says do it. That is episode four.` },
+  ],
+  slides: [
+    { n: 1, afterSeg: 0, title: `EPISODE 3 • QUADRATIC NUMBER PATTERNS`, onScreen: `EPISODE 3 — QUADRATIC NUMBER PATTERNS` },
+    { n: 2, afterSeg: 1, title: `ADD VERSUS MULTIPLY`, onScreen: `ADD the same amount · MULTIPLY by the same amount` },
+    { n: 3, afterSeg: 3, title: `THE GAPS KEEP CHANGING`, onScreen: `TODAY — the gaps keep changing` },
+    { n: 4, afterSeg: 5, title: `LAST TIME • WHICH TERM IS ONE OVER 1024`, onScreen: `16 ; 4 ; 1 ; … Which term equals 1/1024?` },
+    { n: 5, afterSeg: 6, title: `ANSWER • THE 8TH TERM`, onScreen: `T₈ = 1/1024` },
+    { n: 6, afterSeg: 8, title: `NSC PAPER 1 • NOVEMBER 2014`, onScreen: `NSC Mathematics P1 · November 2014 · Question 3.1` },
+    { n: 7, afterSeg: 9, title: `THE SEQUENCE`, onScreen: `−1 ; −7 ; −11 ; p ; …` },
+    { n: 8, afterSeg: 10, title: `THE QUESTION • FIND P`, onScreen: `3.1.1 Write down the value of p. (2)` },
+    { n: 9, afterSeg: 11, title: `THE WRONG ASSUMPTION`, onScreen: `Tyla's answer: p = −17` },
+    { n: 10, afterSeg: 13, title: `THE TWO GAPS`, onScreen: `−1 → −7 is −6 · −7 → −11 is −4` },
+    { n: 11, afterSeg: 14, title: `NOT ARITHMETIC`, onScreen: `the gaps are NOT equal → not arithmetic ✗` },
+    { n: 12, afterSeg: 17, title: `GAPS BETWEEN THE GAPS`, onScreen: `look at the gaps between the gaps` },
+    { n: 13, afterSeg: 18, title: `FIRST DIFFERENCES`, onScreen: `FIRST DIFFERENCES — later term minus earlier term` },
+    { n: 14, afterSeg: 19, title: `OUR FIRST DIFFERENCES`, onScreen: `first differences: −6 ; −4` },
+    { n: 15, afterSeg: 21, title: `DIFFERENCE THEM AGAIN`, onScreen: `−4 − (−6) = 2` },
+    { n: 16, afterSeg: 22, title: `SECOND DIFFERENCE IS 2`, onScreen: `SECOND DIFFERENCE = 2 · constant second difference → QUADRATIC SEQUENCE` },
+    { n: 17, afterSeg: 24, title: `ARITHMETIC VERSUS QUADRATIC`, onScreen: `arithmetic → 1st difference constant · quadratic → 2nd difference constant` },
+    { n: 18, afterSeg: 26, title: `THE NEXT FIRST DIFFERENCE`, onScreen: `first differences: −6 ; −4 ; −2` },
+    { n: 19, afterSeg: 27, title: `ANSWER • P IS −13`, onScreen: `p = −11 + (−2) = −13 ✓` },
+    { n: 20, afterSeg: 29, title: `THE QUESTION • NTH TERM`, onScreen: `3.1.2 Determine the nth term of the sequence. (4)` },
+    { n: 21, afterSeg: 30, title: `THE QUADRATIC SHAPE`, onScreen: `Tₙ = an² + bn + c` },
+    { n: 22, afterSeg: 31, title: `FACT 1 • TWO A`, onScreen: `2a = second difference` },
+    { n: 23, afterSeg: 32, title: `SOLVE FOR A`, onScreen: `2a = 2 → a = 1` },
+    { n: 24, afterSeg: 33, title: `FACT 2 • THREE A PLUS B`, onScreen: `3a + b = first difference` },
+    { n: 25, afterSeg: 34, title: `SOLVE FOR B`, onScreen: `3(1) + b = −6 → b = −9` },
+    { n: 26, afterSeg: 35, title: `FACT 3 • A PLUS B PLUS C`, onScreen: `a + b + c = T₁` },
+    { n: 27, afterSeg: 36, title: `SOLVE FOR C`, onScreen: `1 + (−9) + c = −1 → c = 7` },
+    { n: 28, afterSeg: 38, title: `ANSWER • THE NTH TERM`, onScreen: `Tₙ = n² − 9n + 7 ✓ (boxed)` },
+    { n: 29, afterSeg: 40, title: `TEST THE RULE`, onScreen: `n = 3 → 9 − 27 + 7 = −11 ✓` },
+    { n: 30, afterSeg: 41, title: `THE QUESTION • DIFFERENCE OF 96`, onScreen: `3.1.3 The first difference between two consecutive terms is 96. Calculate these two terms. (4)` },
+    { n: 31, afterSeg: 44, title: `FIRST DIFFERENCES ARE ARITHMETIC`, onScreen: `first differences: −6 ; −4 ; −2 ; … an ARITHMETIC sequence` },
+    { n: 32, afterSeg: 46, title: `THE KTH DIFFERENCE`, onScreen: `−6 + (k − 1)(2) = 2k − 8` },
+    { n: 33, afterSeg: 48, title: `SOLVE FOR K`, onScreen: `2k − 8 = 96 → k = 52` },
+    { n: 34, afterSeg: 50, title: `THE 52ND TERM`, onScreen: `T₅₂ = 2 704 − 468 + 7 = 2 243` },
+    { n: 35, afterSeg: 51, title: `THE 53RD TERM`, onScreen: `T₅₃ = 2 809 − 477 + 7 = 2 339` },
+    { n: 36, afterSeg: 53, title: `CHECK • DIFFERENCE IS 96`, onScreen: `2 339 − 2 243 = 96 ✓` },
+    { n: 37, afterSeg: 54, title: `WHERE YOU LOSE MARKS`, onScreen: `WHERE YOU LOSE MARKS` },
+    { n: 38, afterSeg: 55, title: `MARK LOSS 1 • CHECK THE SECOND GAP`, onScreen: `1. check the second gap first` },
+    { n: 39, afterSeg: 56, title: `MARK LOSS 2 • MINUS A NEGATIVE`, onScreen: `2. − (−6) means + 6` },
+    { n: 40, afterSeg: 57, title: `MARK LOSS 3 • HALVE IT`, onScreen: `3. 2a = second difference, so halve it` },
+    { n: 41, afterSeg: 58, title: `MARK LOSS 4 • TEST THE RULE`, onScreen: `4. always test the rule first` },
+    { n: 42, afterSeg: 59, title: `REMEMBER`, onScreen: `REMEMBER` },
+    { n: 43, afterSeg: 60, title: `RECAP 1 • DIFFERENCE AGAIN`, onScreen: `1. differences not equal → difference them again` },
+    { n: 44, afterSeg: 61, title: `RECAP 2 • QUADRATIC`, onScreen: `2. constant second difference = quadratic` },
+    { n: 45, afterSeg: 62, title: `RECAP 3 • THE THREE FACTS`, onScreen: `3. 2a = 2nd difference · 3a + b = 1st difference · a + b + c = T₁` },
+    { n: 46, afterSeg: 63, title: `YOUR TURN • WHICH TERM IS 17`, onScreen: `Tₙ = n² − 9n + 7. Which term equals 17?` },
+    { n: 47, afterSeg: 64, title: `PAUSE AND TRY`, onScreen: `PAUSE AND TRY` },
+    { n: 48, afterSeg: 67, title: `NEXT • SERIES AND SIGMA`, onScreen: `NEXT — EPISODE 4: SERIES AND SIGMA NOTATION` },
+  ],
+},
+
+{
+  num: 4,
+  file: 'Episode 4 - Series and Sigma Notation',
+  segs: [
+    { s: 'AMELIA',   t: `Episode four. Series and sigma notation.` },
+    { s: 'MICHAEL',  t: `Until now we have been finding single terms. The twelfth one. The two hundred and fifty first one.` },
+    { s: 'MICHAEL',  t: `Today we stop looking at one term, and we start adding them all together.` },
+    { s: 'TYLA',     t: `And there is a symbol for that.` },
+    { s: 'MICHAEL',  t: `There is one symbol that says, add all of these up. It scares people. By the end of today it will not scare you.` },
+    { s: 'TYLA',     t: `But first, my answer.` },
+    { s: 'MICHAEL',  t: `Last time our rule was n squared, minus nine n, plus seven. Which term is equal to seventeen?` },
+    { s: 'TYLA',     t: `I made it equal to seventeen, then made one side zero. So n squared, minus nine n, minus ten, equals zero.` },
+    { s: 'MICHAEL',  t: `And factorise.` },
+    { s: 'TYLA',     t: `n minus ten, times n plus one. So n is ten, or n is negative one.` },
+    { s: 'MICHAEL',  t: `Now be careful. Which one do you keep?` },
+    { s: 'TYLA',     t: `Ten. There is no term number negative one.` },
+    { s: 'MICHAEL',  t: `The tenth term. And saying why you reject the negative one is itself worth a mark. Do not just cross it out silently.` },
+    { s: 'MICHAEL',  t: `Now, two words that sound the same and are not. Sequence, and series.` },
+    { s: 'MICHAEL',  t: `A sequence is a list. Two, semicolon, four, semicolon, six, semicolon, eight.` },
+    { s: 'MICHAEL',  t: `A series is the same numbers, added together. Two plus four plus six plus eight.` },
+    { s: 'TYLA',     t: `So the semicolons become plus signs.` },
+    { s: 'MICHAEL',  t: `That is the whole difference. A list, or a total. And look back at the very first episode. Our exam question was written with plus signs all along.` },
+    { s: 'MICHAEL',  t: `Writing out two hundred and fifty one numbers with plus signs is not practical. So we use a symbol. It is the Greek letter sigma, and it simply means, add these up.` },
+    { s: 'MICHAEL',  t: `Sigma has three parts. Underneath, where the counting starts. On top, where the counting stops. And on the right, the rule that makes each term.` },
+    { s: 'TYLA',     t: `So it is like instructions. Start here, stop there, and this is what to add.` },
+    { s: 'MICHAEL',  t: `Exactly that. Let us read one together.` },
+    { s: 'MICHAEL',  t: `Here is a small one. Sigma, from k equals one, to k equals four, of three k.` },
+    { s: 'MICHAEL',  t: `Start at one. Put one into three k.` },
+    { s: 'TYLA',     t: `Three.` },
+    { s: 'MICHAEL',  t: `Then two, then three, then four.` },
+    { s: 'TYLA',     t: `Six. Nine. Twelve.` },
+    { s: 'MICHAEL',  t: `And add them.` },
+    { s: 'TYLA',     t: `Thirty.` },
+    { s: 'MICHAEL',  t: `So sigma is not difficult. It is a short way of writing a long addition.` },
+    { s: 'MICHAEL',  t: `Now the real one. Same paper, same series as episode one.` },
+    { s: 'MICHAEL',  t: `Two plus nine plus sixteen, and so on, for two hundred and fifty one terms. Express this series in sigma notation.` },
+    { s: 'TYLA',     t: `Do I have to find a new rule?` },
+    { s: 'MICHAEL',  t: `You already have it. We found it in episode one.` },
+    { s: 'TYLA',     t: `Seven n minus five.` },
+    { s: 'TYLA',     t: `So I write sigma, from n equals one, on top the last term, which was one thousand seven hundred and fifty two.` },
+    { s: 'MICHAEL',  t: `Stop there. What does the number on top count?` },
+    { s: 'TYLA',     t: `The … terms?` },
+    { s: 'MICHAEL',  t: `The terms. Not the value of the last term. The top number tells you how many times to count, not what the last answer is.` },
+    { s: 'TYLA',     t: `So it is two hundred and fifty one, because there are two hundred and fifty one terms.` },
+    { s: 'MICHAEL',  t: `Two hundred and fifty one. This one mistake costs marks in every single exam.` },
+    { s: 'MICHAEL',  t: `So build it. Start value underneath.` },
+    { s: 'TYLA',     t: `n equals one.` },
+    { s: 'MICHAEL',  t: `Stop value on top.` },
+    { s: 'TYLA',     t: `Two hundred and fifty one.` },
+    { s: 'MICHAEL',  t: `And the rule on the right.` },
+    { s: 'TYLA',     t: `Seven n minus five.` },
+    { s: 'MICHAEL',  t: `Put it together and read it out loud.` },
+    { s: 'TYLA',     t: `Sigma, from n equals one, to two hundred and fifty one, of seven n minus five.` },
+    { s: 'MICHAEL',  t: `Two marks. And test it, the same way we test everything. Put n equals one into the rule.` },
+    { s: 'TYLA',     t: `Seven minus five is two. And two is the first term.` },
+    { s: 'MICHAEL',  t: `Put n equals two.` },
+    { s: 'TYLA',     t: `Fourteen minus five is nine. That is the second term.` },
+    { s: 'MICHAEL',  t: `Four things.` },
+    { s: 'MICHAEL',  t: `Number one. The top number counts terms. It is never the value of the last term.` },
+    { s: 'MICHAEL',  t: `Number two. Whatever letter you use underneath must be the same letter in the rule. If you start with n, the rule uses n.` },
+    { s: 'MICHAEL',  t: `Number three. Sigma notation needs plus signs, not a list. You are writing a series, not a sequence.` },
+    { s: 'MICHAEL',  t: `Number four. You may start the counting anywhere, as long as your rule matches. Starting at n equals zero is allowed, but then the rule changes. Safest is to start at one.` },
+    { s: 'MICHAEL',  t: `Three things to remember.` },
+    { s: 'MICHAEL',  t: `One. A sequence lists. A series adds.` },
+    { s: 'MICHAEL',  t: `Two. Sigma has three parts. Where to start, where to stop, and the rule.` },
+    { s: 'MICHAEL',  t: `Three. Find the general term first. Once you have the rule, sigma notation is just writing it down.` },
+    { s: 'MICHAEL',  t: `Here is your question. Write this series in sigma notation. Five, plus eight, plus eleven, and so on, up to forty seven.` },
+    { s: 'MICHAEL',  t: `Pause and try it. I will wait.`, pause: 3.0 },
+    { s: 'MICHAEL',  t: `I will give you the answer next time. And next time we finish the job. We have written the sum down. Now we actually calculate it.` },
+    { s: 'TYLA',     t: `All two hundred and fifty one of them?` },
+    { s: 'MICHAEL',  t: `All of them. In one line. That is episode five.` },
+  ],
+  slides: [
+    { n: 1, afterSeg: 0, title: `EPISODE 4 • SERIES AND SIGMA`, onScreen: `EPISODE 4 — SERIES AND SIGMA NOTATION` },
+    { n: 2, afterSeg: 1, title: `ONE TERM AT A TIME`, onScreen: `so far — ONE term at a time` },
+    { n: 3, afterSeg: 2, title: `ADD THEM ALL UP`, onScreen: `today — ADD THEM ALL UP` },
+    { n: 4, afterSeg: 6, title: `LAST TIME • WHICH TERM IS 17`, onScreen: `Tₙ = n² − 9n + 7. Which term equals 17?` },
+    { n: 5, afterSeg: 7, title: `MAKE ONE SIDE ZERO`, onScreen: `n² − 9n + 7 = 17 → n² − 9n − 10 = 0` },
+    { n: 6, afterSeg: 9, title: `FACTORISE`, onScreen: `(n − 10)(n + 1) = 0 → n = 10 or n = −1` },
+    { n: 7, afterSeg: 11, title: `ANSWER • THE 10TH TERM`, onScreen: `n = 10 ✓ · reject n = −1` },
+    { n: 8, afterSeg: 13, title: `SEQUENCE VERSUS SERIES`, onScreen: `SEQUENCE vs SERIES` },
+    { n: 9, afterSeg: 14, title: `A SEQUENCE LISTS`, onScreen: `SEQUENCE — 2 ; 4 ; 6 ; 8` },
+    { n: 10, afterSeg: 15, title: `A SERIES ADDS`, onScreen: `SERIES — 2 + 4 + 6 + 8` },
+    { n: 11, afterSeg: 17, title: `OUR QUESTION WAS A SERIES`, onScreen: `2 + 9 + 16 + … — this was a SERIES from the start` },
+    { n: 12, afterSeg: 18, title: `SIGMA MEANS ADD THESE UP`, onScreen: `∑ — "add these up"` },
+    { n: 13, afterSeg: 19, title: `THE THREE PARTS OF SIGMA`, onScreen: `below = start · above = stop · right = the rule` },
+    { n: 14, afterSeg: 22, title: `READ A SMALL ONE`, onScreen: `∑ from k = 1 to 4 of 3k` },
+    { n: 15, afterSeg: 24, title: `START AT K EQUALS 1`, onScreen: `k = 1 → 3` },
+    { n: 16, afterSeg: 26, title: `ALL FOUR TERMS`, onScreen: `3 + 6 + 9 + 12` },
+    { n: 17, afterSeg: 28, title: `ANSWER • 30`, onScreen: `∑ from k = 1 to 4 of 3k = 30 ✓` },
+    { n: 18, afterSeg: 30, title: `NSC PAPER 1 • NOVEMBER 2014`, onScreen: `NSC Mathematics P1 · November 2014 · Question 2.3` },
+    { n: 19, afterSeg: 31, title: `THE QUESTION • SIGMA NOTATION`, onScreen: `2.3 Express the series in sigma notation. (2)` },
+    { n: 20, afterSeg: 34, title: `WE ALREADY HAVE THE RULE`, onScreen: `from Episode 1: Tₙ = 7n − 5` },
+    { n: 21, afterSeg: 35, title: `THE WRONG TOP NUMBER`, onScreen: `Tyla's answer: ∑ from n = 1 to 1 752` },
+    { n: 22, afterSeg: 38, title: `THE TOP COUNTS TERMS`, onScreen: `the top number counts TERMS, not the value` },
+    { n: 23, afterSeg: 40, title: `NOT 1752 • IT IS 251`, onScreen: `red cross · not 1 752 · it is 251` },
+    { n: 24, afterSeg: 42, title: `LOWER LIMIT`, onScreen: `lower limit: n = 1` },
+    { n: 25, afterSeg: 44, title: `UPPER LIMIT`, onScreen: `upper limit: 251` },
+    { n: 26, afterSeg: 46, title: `THE RULE`, onScreen: `the rule: 7n − 5` },
+    { n: 27, afterSeg: 48, title: `ANSWER • SIGMA NOTATION`, onScreen: `∑ from n = 1 to 251 of (7n − 5) ✓ (boxed)` },
+    { n: 28, afterSeg: 50, title: `TEST N EQUALS 1`, onScreen: `n = 1 → 7(1) − 5 = 2 ✓` },
+    { n: 29, afterSeg: 52, title: `TEST N EQUALS 2`, onScreen: `n = 2 → 9 ✓` },
+    { n: 30, afterSeg: 53, title: `WHERE YOU LOSE MARKS`, onScreen: `WHERE YOU LOSE MARKS` },
+    { n: 31, afterSeg: 54, title: `MARK LOSS 1 • TOP COUNTS TERMS`, onScreen: `1. top = how many terms` },
+    { n: 32, afterSeg: 55, title: `MARK LOSS 2 • SAME LETTER`, onScreen: `2. same letter below and in the rule` },
+    { n: 33, afterSeg: 56, title: `MARK LOSS 3 • SERIES ADDS`, onScreen: `3. a series adds · a sequence lists` },
+    { n: 34, afterSeg: 57, title: `MARK LOSS 4 • MATCH THE RULE`, onScreen: `4. start anywhere, but the rule must match` },
+    { n: 35, afterSeg: 58, title: `REMEMBER`, onScreen: `REMEMBER` },
+    { n: 36, afterSeg: 59, title: `RECAP 1 • LIST OR TOTAL`, onScreen: `1. sequence lists · series adds` },
+    { n: 37, afterSeg: 60, title: `RECAP 2 • THREE PARTS`, onScreen: `2. start · stop · rule` },
+    { n: 38, afterSeg: 61, title: `RECAP 3 • FIND TN FIRST`, onScreen: `3. find Tₙ first, then write it` },
+    { n: 39, afterSeg: 62, title: `YOUR TURN • WRITE IT IN SIGMA`, onScreen: `5 + 8 + 11 + … + 47. Write it in sigma notation.` },
+    { n: 40, afterSeg: 63, title: `PAUSE AND TRY`, onScreen: `PAUSE AND TRY` },
+    { n: 41, afterSeg: 66, title: `NEXT • FINITE ARITHMETIC SERIES`, onScreen: `NEXT — EPISODE 5: FINITE ARITHMETIC SERIES` },
+  ],
+},
+
+{
+  num: 5,
+  file: 'Episode 5 - Finite Arithmetic Series',
+  segs: [
+    { s: 'AMELIA',   t: `Episode five. Finite arithmetic series.` },
+    { s: 'MICHAEL',  t: `Last time we wrote the instruction to add. Today we actually do the adding.` },
+    { s: 'TYLA',     t: `Two hundred and fifty one numbers.` },
+    { s: 'MICHAEL',  t: `Two hundred and fifty one numbers. In one line, on your calculator, in about twenty seconds.` },
+    { s: 'TYLA',     t: `Prove it. But first, my homework.` },
+    { s: 'MICHAEL',  t: `Your series was five, plus eight, plus eleven, and so on, up to forty seven.` },
+    { s: 'TYLA',     t: `The first term is five and the common difference is three. So the rule is three n plus two.` },
+    { s: 'MICHAEL',  t: `And how did you find where it stops?` },
+    { s: 'TYLA',     t: `I made the rule equal to forty seven. Three n plus two equals forty seven. So three n is forty five, and n is fifteen.` },
+    { s: 'MICHAEL',  t: `So sigma, from n equals one, to fifteen, of three n plus two.` },
+    { s: 'MICHAEL',  t: `And hold on to that fifteen. You are going to need it again in about four minutes.` },
+    { s: 'MICHAEL',  t: `Add up every whole number from one to ten. Do not use a calculator.` },
+    { s: 'TYLA',     t: `One plus two is three, plus three is six, plus four is ten…` },
+    { s: 'MICHAEL',  t: `Stop. There is a faster way, and a schoolboy worked it out about two hundred years ago. Take the first number and the last number, and add them.` },
+    { s: 'TYLA',     t: `One plus ten. Eleven.` },
+    { s: 'MICHAEL',  t: `Now the second and the second last.` },
+    { s: 'TYLA',     t: `Two plus nine. Also eleven. And three plus eight is eleven too.` },
+    { s: 'TYLA',     t: `Every pair makes eleven.` },
+    { s: 'MICHAEL',  t: `Every pair. And how many pairs are there, out of ten numbers?` },
+    { s: 'TYLA',     t: `Five. So five times eleven. Fifty five.` },
+    { s: 'MICHAEL',  t: `That is the whole idea behind the formula. Pair them up from the outside in.` },
+    { s: 'MICHAEL',  t: `Write what you just did in symbols. There were ten numbers, so five pairs. Five is ten divided by two.` },
+    { s: 'MICHAEL',  t: `And each pair was the first term plus the last term.` },
+    { s: 'MICHAEL',  t: `So the sum is n over two, times first plus last. The exam writes the sum as S with a little n.` },
+    { s: 'TYLA',     t: `So I only need three things. How many terms, the first one, and the last one.` },
+    { s: 'MICHAEL',  t: `Only three. And when the question does not give you the last term, there is a second version that builds it for you.` },
+    { s: 'MICHAEL',  t: `Look inside the bracket. There is our n minus one again, from episode one. It is the same idea wearing a different coat.` },
+    { s: 'MICHAEL',  t: `Now the real one. Same paper, same series, one last question.` },
+    { s: 'MICHAEL',  t: `Calculate the sum of the series. Two plus nine plus sixteen, and so on, two hundred and fifty one terms.` },
+    { s: 'TYLA',     t: `And we already know almost everything about this one.` },
+    { s: 'MICHAEL',  t: `You know all of it. Tell me what you have.` },
+    { s: 'TYLA',     t: `The first term is two. There are two hundred and fifty one terms. And from episode one, the last term is one thousand seven hundred and fifty two.` },
+    { s: 'TYLA',     t: `So I add the first and the last. Two plus one thousand seven hundred and fifty two is one thousand seven hundred and fifty four. Then times two hundred and fifty one.` },
+    { s: 'MICHAEL',  t: `Test that on the small one. One to ten. First plus last is eleven, times ten numbers.` },
+    { s: 'TYLA',     t: `A hundred and ten. But the real answer was fifty five.` },
+    { s: 'MICHAEL',  t: `Exactly double. Why?` },
+    { s: 'TYLA',     t: `Because I counted every number twice. Each pair used two numbers, so there are only half as many pairs.` },
+    { s: 'MICHAEL',  t: `So you must halve it. That is why the formula says n over two, not n.` },
+    { s: 'MICHAEL',  t: `Do it properly. Write the formula first.` },
+    { s: 'TYLA',     t: `S two hundred and fifty one equals two hundred and fifty one, over two, times, first plus last.` },
+    { s: 'MICHAEL',  t: `Substitute.` },
+    { s: 'TYLA',     t: `Two hundred and fifty one over two, times, two plus one thousand seven hundred and fifty two.` },
+    { s: 'TYLA',     t: `The bracket is one thousand seven hundred and fifty four.` },
+    { s: 'MICHAEL',  t: `And two hundred and fifty one divided by two is a decimal. Do not panic. That is allowed.` },
+    { s: 'TYLA',     t: `A hundred and twenty five comma five, times one thousand seven hundred and fifty four.` },
+    { s: 'TYLA',     t: `Two hundred and twenty thousand, one hundred and twenty seven.` },
+    { s: 'MICHAEL',  t: `Now check it with the other version, the one that does not need the last term.` },
+    { s: 'TYLA',     t: `Two hundred and fifty one over two, times, two times two, plus two hundred and fifty, times seven.` },
+    { s: 'TYLA',     t: `Four plus one thousand seven hundred and fifty is one thousand seven hundred and fifty four. Same bracket.` },
+    { s: 'MICHAEL',  t: `Same bracket, same answer. Two formulas, one truth. Use whichever one the question gives you the pieces for.` },
+    { s: 'MICHAEL',  t: `Four things.` },
+    { s: 'MICHAEL',  t: `Number one. Divide by two. You are counting pairs, not numbers. Forgetting this doubles your answer.` },
+    { s: 'MICHAEL',  t: `Number two. n is how many terms. It is never the value of the last term.` },
+    { s: 'MICHAEL',  t: `Number three. If the question gives you the last term, use the first plus last version. It is much faster and there is less to get wrong.` },
+    { s: 'MICHAEL',  t: `Number four. A decimal in the middle of your working is fine. Only the final answer needs to make sense.` },
+    { s: 'MICHAEL',  t: `Three things to remember.` },
+    { s: 'MICHAEL',  t: `One. Pair from the outside in. First with last, second with second last.` },
+    { s: 'MICHAEL',  t: `Two. The sum is n over two, times first plus last.` },
+    { s: 'MICHAEL',  t: `Three. If you do not know the last term, use n over two, times two a plus n minus one d.` },
+    { s: 'MICHAEL',  t: `Here is your question. Your homework series from last time. Five, plus eight, plus eleven, up to forty seven. You already found there are fifteen terms. Now add them all up.` },
+    { s: 'MICHAEL',  t: `Pause and try it. I will wait.`, pause: 3.0 },
+    { s: 'MICHAEL',  t: `I will give you the answer next time. And next time we add up a geometric series instead. The one that multiplies.` },
+    { s: 'TYLA',     t: `Can you still pair those from the outside in?` },
+    { s: 'MICHAEL',  t: `You cannot. Which is why geometric gets its own formula, and its own episode. That is episode six.` },
+  ],
+  slides: [
+    { n: 1, afterSeg: 0, title: `EPISODE 5 • FINITE ARITHMETIC SERIES`, onScreen: `EPISODE 5 — FINITE ARITHMETIC SERIES` },
+    { n: 2, afterSeg: 1, title: `WROTE IT VERSUS CALCULATE IT`, onScreen: `last time we WROTE it · today we CALCULATE it` },
+    { n: 3, afterSeg: 3, title: `251 NUMBERS IN ONE LINE`, onScreen: `251 numbers · one line · about 20 seconds` },
+    { n: 4, afterSeg: 5, title: `LAST TIME • WRITE IT IN SIGMA`, onScreen: `5 + 8 + 11 + … + 47` },
+    { n: 5, afterSeg: 6, title: `FIND THE RULE`, onScreen: `a = 5, d = 3 → Tₙ = 3n + 2` },
+    { n: 6, afterSeg: 8, title: `HOW MANY TERMS`, onScreen: `3n + 2 = 47 → n = 15` },
+    { n: 7, afterSeg: 9, title: `ANSWER • SIGMA NOTATION`, onScreen: `∑ from n = 1 to 15 of (3n + 2) ✓` },
+    { n: 8, afterSeg: 11, title: `WARM UP • ADD 1 TO 10`, onScreen: `1 + 2 + 3 + … + 10` },
+    { n: 9, afterSeg: 14, title: `FIRST PLUS LAST`, onScreen: `1 + 10 = 11` },
+    { n: 10, afterSeg: 16, title: `EVERY PAIR MAKES 11`, onScreen: `2 + 9 = 11 · 3 + 8 = 11 · 4 + 7 = 11 · 5 + 6 = 11` },
+    { n: 11, afterSeg: 19, title: `ANSWER • 55`, onScreen: `5 × 11 = 55 ✓` },
+    { n: 12, afterSeg: 21, title: `THE NUMBER OF PAIRS`, onScreen: `number of pairs = n ÷ 2` },
+    { n: 13, afterSeg: 22, title: `EACH PAIR IS FIRST PLUS LAST`, onScreen: `each pair = first + last` },
+    { n: 14, afterSeg: 23, title: `THE FORMULA • FIRST PLUS LAST`, onScreen: `Sₙ = n/2 (a + l)` },
+    { n: 15, afterSeg: 25, title: `THE FORMULA • WITHOUT THE LAST TERM`, onScreen: `Sₙ = n/2 [2a + (n − 1)d]` },
+    { n: 16, afterSeg: 26, title: `N MINUS 1 AGAIN`, onScreen: `(n − 1) — the same step counting as Episode 1` },
+    { n: 17, afterSeg: 27, title: `NSC PAPER 1 • NOVEMBER 2014`, onScreen: `NSC Mathematics P1 · November 2014 · Question 2.4` },
+    { n: 18, afterSeg: 28, title: `THE QUESTION • THE SUM`, onScreen: `2.4 Calculate the sum of the series.` },
+    { n: 19, afterSeg: 31, title: `WE ALREADY HAVE EVERYTHING`, onScreen: `a = 2 · n = 251 · last term = 1 752 (from Episode 1)` },
+    { n: 20, afterSeg: 32, title: `NO HALVING`, onScreen: `Tyla's answer: 251 × 1 754` },
+    { n: 21, afterSeg: 34, title: `TEST IT SMALL • DOUBLE`, onScreen: `red cross · 10 × 11 = 110, but the sum is 55` },
+    { n: 22, afterSeg: 37, title: `COUNTING PAIRS`, onScreen: `divide by 2 — you are counting PAIRS` },
+    { n: 23, afterSeg: 39, title: `WRITE THE FORMULA`, onScreen: `S₂₅₁ = 251/2 (a + l)` },
+    { n: 24, afterSeg: 41, title: `SUBSTITUTE`, onScreen: `S₂₅₁ = 251/2 (2 + 1 752)` },
+    { n: 25, afterSeg: 42, title: `THE BRACKET`, onScreen: `S₂₅₁ = 251/2 × 1 754` },
+    { n: 26, afterSeg: 44, title: `THE DECIMAL IS FINE`, onScreen: `= 125,5 × 1 754` },
+    { n: 27, afterSeg: 45, title: `ANSWER • 220 127`, onScreen: `S₂₅₁ = 220 127 ✓ (boxed)` },
+    { n: 28, afterSeg: 47, title: `CHECK THE OTHER WAY`, onScreen: `S₂₅₁ = 251/2 [2(2) + 250(7)]` },
+    { n: 29, afterSeg: 48, title: `SAME BRACKET`, onScreen: `[4 + 1 750] = 1 754 — the same` },
+    { n: 30, afterSeg: 50, title: `WHERE YOU LOSE MARKS`, onScreen: `WHERE YOU LOSE MARKS` },
+    { n: 31, afterSeg: 51, title: `MARK LOSS 1 • ALWAYS HALVE`, onScreen: `1. n over two — always halve it` },
+    { n: 32, afterSeg: 52, title: `MARK LOSS 2 • N COUNTS TERMS`, onScreen: `2. n counts terms` },
+    { n: 33, afterSeg: 53, title: `MARK LOSS 3 • USE FIRST PLUS LAST`, onScreen: `3. last term given? use Sₙ = n/2 (a + l)` },
+    { n: 34, afterSeg: 54, title: `MARK LOSS 4 • DECIMALS ARE FINE`, onScreen: `4. a decimal mid-working is normal` },
+    { n: 35, afterSeg: 55, title: `REMEMBER`, onScreen: `REMEMBER` },
+    { n: 36, afterSeg: 56, title: `RECAP 1 • PAIR OUTSIDE IN`, onScreen: `1. pair from the outside in` },
+    { n: 37, afterSeg: 57, title: `RECAP 2 • FIRST PLUS LAST`, onScreen: `2. Sₙ = n/2 (a + l)` },
+    { n: 38, afterSeg: 58, title: `RECAP 3 • THE OTHER VERSION`, onScreen: `3. Sₙ = n/2 [2a + (n − 1)d]` },
+    { n: 39, afterSeg: 59, title: `YOUR TURN • FIND THE SUM`, onScreen: `5 + 8 + 11 + … + 47 · n = 15. Find the sum.` },
+    { n: 40, afterSeg: 60, title: `PAUSE AND TRY`, onScreen: `PAUSE AND TRY` },
+    { n: 41, afterSeg: 63, title: `NEXT • FINITE GEOMETRIC SERIES`, onScreen: `NEXT — EPISODE 6: FINITE GEOMETRIC SERIES` },
+  ],
+},
+
+// ─────────────────────────────────────────────────────────────────────────
+// EPISODE 6 — paste this object into the EPISODES array in
+// scripts/generate-maths-podcast-audio.mjs, after the episode 5 block
+// (i.e. immediately before the closing  ];  on the last line).
+// Then run:   node --env-file=.env.local scripts/generate-maths-podcast-audio.mjs 6
+// ─────────────────────────────────────────────────────────────────────────
+{
+  num: 6,
+  file: 'Episode 6 - Finite Geometric Series',
+  segs: [
+    { s: 'AMELIA',   t: `Episode six. Finite geometric series.` },
+    { s: 'MICHAEL',  t: `Last time we added up a sequence that grows by adding. Today we add up one that grows by multiplying.` },
+    { s: 'TYLA',     t: `And you told me I cannot pair those from the outside in.` },
+    { s: 'MICHAEL',  t: `You cannot. So we need a different trick. And it is a beautiful one.` },
+    { s: 'TYLA',     t: `First, my homework.` },
+    { s: 'MICHAEL',  t: `Your series was five, plus eight, plus eleven, up to forty seven. Fifteen terms.` },
+    { s: 'TYLA',     t: `The first term is five. The last term is forty seven. And there are fifteen terms.` },
+    { s: 'MICHAEL',  t: `So which version did you use?` },
+    { s: 'TYLA',     t: `The first plus last one. Fifteen over two, times, five plus forty seven.` },
+    { s: 'TYLA',     t: `The bracket is fifty two. I halved the fifty two instead of the fifteen. That gave twenty six. Then fifteen times twenty six.` },
+    { s: 'TYLA',     t: `Three hundred and ninety.` },
+    { s: 'MICHAEL',  t: `Three hundred and ninety. And halving the fifty two first was smart. You avoided the decimal completely.` },
+    { s: 'MICHAEL',  t: `Now watch what happens if you take that same formula into today's topic. Here is a small geometric series. Two, plus four, plus eight.` },
+    { s: 'TYLA',     t: `I can just add those. Fourteen.` },
+    { s: 'MICHAEL',  t: `You can. Now do it with last week's formula, and see what it gives you.` },
+    { s: 'TYLA',     t: `Three over two, times, two plus eight. That is one comma five, times ten. Fifteen.` },
+    { s: 'MICHAEL',  t: `Fifteen. But the real answer is fourteen. So the arithmetic formula is wrong here. Why?` },
+    { s: 'TYLA',     t: `Because the pairs are not equal any more. Two and eight make ten, but the middle number is four, not five.` },
+    { s: 'MICHAEL',  t: `Exactly. Pairing only works when the steps are equal. When the numbers multiply, the pairs go out of balance. So we need something new.` },
+    { s: 'MICHAEL',  t: `Here is the trick. Take the series, multiply the whole thing by the common ratio, and then subtract.` },
+    { s: 'TYLA',     t: `Subtract it from itself?` },
+    { s: 'MICHAEL',  t: `Watch. Take two, plus four, plus eight, plus sixteen. Call the total S.` },
+    { s: 'MICHAEL',  t: `Now multiply every term by two, because two is the ratio.` },
+    { s: 'TYLA',     t: `Four, plus eight, plus sixteen, plus thirty two.` },
+    { s: 'MICHAEL',  t: `Now subtract the first line from the second.` },
+    { s: 'TYLA',     t: `The four cancels. The eight cancels. The sixteen cancels. Only thirty two and two are left.` },
+    { s: 'MICHAEL',  t: `So two S, minus S, is thirty two minus two.` },
+    { s: 'TYLA',     t: `So S is thirty.` },
+    { s: 'MICHAEL',  t: `Check it by adding. Two, four, eight, sixteen.` },
+    { s: 'TYLA',     t: `Thirty. It works.` },
+    { s: 'MICHAEL',  t: `Now do exactly that with letters. First term a. Common ratio r. And n terms.` },
+    { s: 'MICHAEL',  t: `Multiply the whole line by r.` },
+    { s: 'MICHAEL',  t: `Subtract. Everything in the middle cancels again. You are left with a r to the n, minus a.` },
+    { s: 'MICHAEL',  t: `Take S out on the left, and take a out on the right.` },
+    { s: 'TYLA',     t: `So S is a, times r to the n minus one, all over r minus one.` },
+    { s: 'MICHAEL',  t: `That is on your formula sheet. And there is a second version, for when the ratio is a fraction, so the bottom stays positive.` },
+    { s: 'MICHAEL',  t: `Same formula, top and bottom both turned around. Use whichever one keeps you out of negatives.` },
+    { s: 'MICHAEL',  t: `Now the real one. Same paper, and the same sequence we used in episode two.` },
+    { s: 'MICHAEL',  t: `Sixteen, four, one, and it carries on. Calculate the sum of the first ten terms.` },
+    { s: 'TYLA',     t: `The first term is sixteen.` },
+    { s: 'MICHAEL',  t: `And the common ratio? Careful here.` },
+    { s: 'TYLA',     t: `You divide, you do not subtract. Four divided by sixteen. That is a quarter.` },
+    { s: 'MICHAEL',  t: `Check it once more.` },
+    { s: 'TYLA',     t: `One divided by four is also a quarter. Same answer. So it really is geometric.` },
+    { s: 'MICHAEL',  t: `The ratio is less than one, so use the version with one minus r on the bottom.` },
+    { s: 'TYLA',     t: `Sixteen, times, one minus a quarter to the power of ten, all over, one minus a quarter.` },
+    { s: 'MICHAEL',  t: `Do the bottom first.` },
+    { s: 'TYLA',     t: `One minus a quarter is three quarters.` },
+    { s: 'MICHAEL',  t: `And sixteen divided by three quarters?` },
+    { s: 'TYLA',     t: `Sixteen times four over three. That is sixty four over three. Twenty one comma three three three, and it carries on.` },
+    { s: 'MICHAEL',  t: `Now the top. A quarter, to the power of ten.` },
+    { s: 'TYLA',     t: `That is about one over a million. Almost nothing.` },
+    { s: 'TYLA',     t: `So the top bracket is almost exactly one.` },
+    { s: 'MICHAEL',  t: `Which means the answer is almost exactly sixty four over three.` },
+    { s: 'TYLA',     t: `Twenty one comma three three.` },
+    { s: 'MICHAEL',  t: `Two marks. And notice something. Ten terms, and the total has barely moved off twenty one comma three three. Hold that thought.` },
+    { s: 'MICHAEL',  t: `Four things.` },
+    { s: 'MICHAEL',  t: `Number one. You find r by dividing, never by subtracting. Later term, divided by earlier term.` },
+    { s: 'MICHAEL',  t: `Number two. n counts terms. Ten terms means n is ten. It is never the value of a term.` },
+    { s: 'MICHAEL',  t: `Number three. Do not round in the middle. Keep the fraction until the end, and round only your final answer.` },
+    { s: 'MICHAEL',  t: `Number four. If the ratio is a fraction, use the one minus version. Both are on the formula sheet, and both give the same answer, but one keeps you out of negatives.` },
+    { s: 'MICHAEL',  t: `Three things to remember.` },
+    { s: 'MICHAEL',  t: `One. Arithmetic adds the same amount. Geometric multiplies by the same amount. The series formula follows the sequence.` },
+    { s: 'MICHAEL',  t: `Two. The trick is to multiply by r and subtract. Everything in the middle cancels.` },
+    { s: 'MICHAEL',  t: `Three. The sum is a, times r to the n minus one, over r minus one. Or one minus r to the n, over one minus r, when the ratio is a fraction.` },
+    { s: 'MICHAEL',  t: `Here is your question. The same series. Sixteen, plus four, plus one, and so on. This time add up twenty terms instead of ten.` },
+    { s: 'MICHAEL',  t: `Pause and try it. I will wait.`, pause: 3.0 },
+    { s: 'MICHAEL',  t: `I will give you the answer next time. And I think the answer will surprise you.` },
+    { s: 'TYLA',     t: `Why would twenty terms surprise me?` },
+    { s: 'MICHAEL',  t: `Because of how little it changes. That is episode seven. We add up an endless number of terms, and still get a finite answer.` },
+  ],
+  slides: [
+    { n:  1, afterSeg:  0, title: `EPISODE 6 • FINITE GEOMETRIC SERIES`, onScreen: `EPISODE 6 — FINITE GEOMETRIC SERIES` },
+    { n:  2, afterSeg:  1, title: `ADD VERSUS MULTIPLY`,                 onScreen: `last time it ADDED · today it MULTIPLIES` },
+    { n:  3, afterSeg:  3, title: `NO PAIRING THIS TIME`,                onScreen: `pairing needs equal steps — we need a new trick` },
+    { n:  4, afterSeg:  5, title: `LAST TIME • FIND THE SUM`,            onScreen: `5 + 8 + 11 + … + 47 · n = 15` },
+    { n:  5, afterSeg:  6, title: `WHAT YOU ALREADY HAVE`,               onScreen: `a = 5 · l = 47 · n = 15` },
+    { n:  6, afterSeg:  8, title: `SUBSTITUTE`,                          onScreen: `S₁₅ = 15/2 (5 + 47)` },
+    { n:  7, afterSeg:  9, title: `HALVE THE 52 FIRST`,                  onScreen: `5 + 47 = 52 → 52 ÷ 2 = 26 → 15 × 26` },
+    { n:  8, afterSeg: 10, title: `ANSWER • 390`,                        onScreen: `S₁₅ = 390 ✓ (boxed)` },
+    { n:  9, afterSeg: 12, title: `A SMALL GEOMETRIC SERIES`,            onScreen: `2 + 4 + 8` },
+    { n: 10, afterSeg: 13, title: `JUST ADD THEM • 14`,                  onScreen: `2 + 4 = 6 → 6 + 8 = 14` },
+    { n: 11, afterSeg: 15, title: `THE OLD FORMULA FAILS`,               onScreen: `red · 3/2 (2 + 8) = 15, but the sum is 14` },
+    { n: 12, afterSeg: 17, title: `THE PAIRS ARE NOT EQUAL`,             onScreen: `2 + 8 = 10, so the middle should be 5 — but it is 4` },
+    { n: 13, afterSeg: 18, title: `PAIRING NEEDS EQUAL STEPS`,           onScreen: `arithmetic pairs · geometric does not` },
+    { n: 14, afterSeg: 19, title: `THE TRICK`,                           onScreen: `multiply by r, then subtract` },
+    { n: 15, afterSeg: 21, title: `CALL THE TOTAL S`,                    onScreen: `S = 2 + 4 + 8 + 16` },
+    { n: 16, afterSeg: 23, title: `MULTIPLY EVERY TERM BY 2`,            onScreen: `2S = 4 + 8 + 16 + 32` },
+    { n: 17, afterSeg: 25, title: `SUBTRACT THE LINES`,                  onScreen: `the middle terms cancel` },
+    { n: 18, afterSeg: 26, title: `ONLY THE ENDS SURVIVE`,               onScreen: `2S − S = 32 − 2` },
+    { n: 19, afterSeg: 27, title: `S = 30`,                              onScreen: `S = 30 ✓ (boxed)` },
+    { n: 20, afterSeg: 28, title: `CHECK BY ADDING`,                     onScreen: `2 + 4 + 8 + 16 = 30 ✓` },
+    { n: 21, afterSeg: 30, title: `NOW WITH LETTERS`,                    onScreen: `S = a + ar + ar² + … + arⁿ⁻¹` },
+    { n: 22, afterSeg: 31, title: `MULTIPLY BY R`,                       onScreen: `rS = ar + ar² + … + arⁿ` },
+    { n: 23, afterSeg: 32, title: `SUBTRACT • THE MIDDLE CANCELS`,       onScreen: `rS − S = arⁿ − a` },
+    { n: 24, afterSeg: 33, title: `FACTORISE BOTH SIDES`,                onScreen: `S(r − 1) = a(rⁿ − 1)` },
+    { n: 25, afterSeg: 34, title: `THE FORMULA`,                         onScreen: `Sₙ = a(rⁿ − 1)/(r − 1) ✓ (boxed)` },
+    { n: 26, afterSeg: 35, title: `THE SECOND VERSION`,                  onScreen: `Sₙ = a(1 − rⁿ)/(1 − r)` },
+    { n: 27, afterSeg: 36, title: `SAME FORMULA TURNED AROUND`,          onScreen: `r > 1 vs r < 1 — both on the formula sheet` },
+    { n: 28, afterSeg: 37, title: `NSC PAPER 1 • NOVEMBER 2014`,         onScreen: `NSC Mathematics P1 · November 2014 · Question 3.2.2` },
+    { n: 29, afterSeg: 38, title: `THE QUESTION • SUM OF 10 TERMS`,      onScreen: `3.2.2 Calculate the sum of the first 10 terms. (2)` },
+    { n: 30, afterSeg: 41, title: `FIND A AND R`,                        onScreen: `a = 16 · r = 4 ÷ 16 = ¼` },
+    { n: 31, afterSeg: 43, title: `CHECK THE RATIO TWICE`,               onScreen: `1 ÷ 4 = ¼ — same ratio ✓` },
+    { n: 32, afterSeg: 44, title: `R IS LESS THAN 1`,                    onScreen: `use Sₙ = a(1 − rⁿ)/(1 − r)` },
+    { n: 33, afterSeg: 45, title: `SUBSTITUTE`,                          onScreen: `S₁₀ = 16(1 − (¼)¹⁰)/(1 − ¼)` },
+    { n: 34, afterSeg: 47, title: `THE BOTTOM`,                          onScreen: `1 − ¼ = ¾` },
+    { n: 35, afterSeg: 49, title: `SIXTEEN OVER THREE QUARTERS`,         onScreen: `16 ÷ ¾ = 64/3 = 21,333…` },
+    { n: 36, afterSeg: 51, title: `THE TOP • ALMOST NOTHING`,            onScreen: `(¼)¹⁰ ≈ 0,00000095` },
+    { n: 37, afterSeg: 54, title: `ANSWER • 21,33`,                      onScreen: `S₁₀ ≈ 21,33 ✓ (boxed)` },
+    { n: 38, afterSeg: 55, title: `HOLD THAT THOUGHT`,                   onScreen: `ten terms — and it has barely moved off 21,33` },
+    { n: 39, afterSeg: 56, title: `WHERE YOU LOSE MARKS`,                onScreen: `WHERE YOU LOSE MARKS` },
+    { n: 40, afterSeg: 57, title: `MARK LOSS 1 • DIVIDE FOR R`,          onScreen: `1. r = later ÷ earlier, never minus` },
+    { n: 41, afterSeg: 58, title: `MARK LOSS 2 • N COUNTS TERMS`,        onScreen: `2. n counts terms` },
+    { n: 42, afterSeg: 59, title: `MARK LOSS 3 • DO NOT ROUND EARLY`,    onScreen: `3. round only at the end` },
+    { n: 43, afterSeg: 60, title: `MARK LOSS 4 • FRACTION RATIO`,        onScreen: `4. r < 1? use the 1 − r version` },
+    { n: 44, afterSeg: 61, title: `REMEMBER`,                            onScreen: `REMEMBER` },
+    { n: 45, afterSeg: 62, title: `RECAP 1 • ADD OR MULTIPLY`,           onScreen: `1. the series follows the sequence` },
+    { n: 46, afterSeg: 63, title: `RECAP 2 • MULTIPLY AND SUBTRACT`,     onScreen: `2. multiply by r, then subtract` },
+    { n: 47, afterSeg: 64, title: `RECAP 3 • THE FORMULA`,               onScreen: `3. Sₙ = a(rⁿ − 1)/(r − 1)` },
+    { n: 48, afterSeg: 65, title: `YOUR TURN • FIND S20`,                onScreen: `16 + 4 + 1 + … Find S₂₀.` },
+    { n: 49, afterSeg: 66, title: `PAUSE AND TRY`,                       onScreen: `PAUSE AND TRY` },
+    { n: 50, afterSeg: 69, title: `NEXT • INFINITE GEOMETRIC SERIES`,    onScreen: `NEXT — EPISODE 7: INFINITE GEOMETRIC SERIES` },
+  ],
+},
+// ─────────────────────────────────────────────────────────────────────────
+// EPISODE 7 — paste into the EPISODES array in
+// scripts/generate-maths-podcast-audio.mjs, after the episode 6 block
+// (immediately before the closing  ];  ).
+// Then:  node --env-file=.env.local scripts/generate-maths-podcast-audio.mjs 7
+// FIRST: unzip Episode-07-Slides.zip into podcasts/Working-It-Out/slides/ep07
+// ─────────────────────────────────────────────────────────────────────────
+{
+  num: 7,
+  file: 'Episode 7 - Infinite Geometric Series',
+  segs: [
+    { s: 'AMELIA',   t: `Episode seven. Infinite geometric series.` },
+    { s: 'MICHAEL',  t: `Every episode so far has stopped somewhere. Ten terms. Two hundred and fifty one terms. Today we never stop.` },
+    { s: 'TYLA',     t: `You add numbers forever, and you still get an answer?` },
+    { s: 'MICHAEL',  t: `Sometimes. And when you can, the formula is the shortest one in the whole topic. But first, your homework.` },
+    { s: 'MICHAEL',  t: `You had sixteen, plus four, plus one, and so on. I asked you for twenty terms.` },
+    { s: 'TYLA',     t: `Same formula as last time. Sixteen, times, one minus a quarter to the power of twenty, all divided by three quarters.` },
+    { s: 'TYLA',     t: `And I got twenty one comma three three.` },
+    { s: 'MICHAEL',  t: `And what did you get for ten terms, last time?` },
+    { s: 'TYLA',     t: `Twenty one comma three three. The same. I added ten more numbers and nothing moved.` },
+    { s: 'MICHAEL',  t: `Nothing moved. That is today's whole episode.` },
+    { s: 'MICHAEL',  t: `Look at why. The terms are shrinking. Sixteen, four, one, a quarter, a sixteenth.` },
+    { s: 'TYLA',     t: `By the twentieth term it is almost zero.` },
+    { s: 'MICHAEL',  t: `So adding it changes almost nothing. The total stops climbing. The exam word is converges.` },
+    { s: 'TYLA',     t: `Converges. Meaning it settles on one number.` },
+    { s: 'MICHAEL',  t: `It settles. Here is a picture. Stand two metres from a wall. Walk half way. That is one metre.` },
+    { s: 'MICHAEL',  t: `Then half of what is left. Half a metre. Then half again. A quarter.` },
+    { s: 'TYLA',     t: `I get closer and closer, but I never pass the wall.` },
+    { s: 'MICHAEL',  t: `And your total distance settles on two metres. One, plus a half, plus a quarter, and so on, adds up to two.` },
+    { s: 'MICHAEL',  t: `Now the warning. It does not always work. Take two, plus four, plus eight, plus sixteen.` },
+    { s: 'TYLA',     t: `Those are getting bigger, not smaller.` },
+    { s: 'MICHAEL',  t: `So the total runs away forever. There is no answer. The exam word is diverges.` },
+    { s: 'MICHAEL',  t: `So there is a condition. The ratio must sit between negative one and one.` },
+    { s: 'TYLA',     t: `Because if the ratio is bigger than one, the terms grow instead of shrinking.` },
+    { s: 'MICHAEL',  t: `And between negative one and one, every term is a fraction of the one before. Writing that condition down is worth a mark on its own.` },
+    { s: 'MICHAEL',  t: `Now the formula, and you already have it. Last week you used a, times one minus r to the n, divided by one minus r.` },
+    { s: 'MICHAEL',  t: `Think about r to the n when the ratio is a fraction and n gets huge. A quarter to the power of ten was already almost nothing.` },
+    { s: 'TYLA',     t: `So a quarter to the power of a million is basically zero.` },
+    { s: 'MICHAEL',  t: `So cross it out. The bracket becomes one. And you are left with a, divided by one minus r.` },
+    { s: 'TYLA',     t: `That is much shorter than I expected.` },
+    { s: 'MICHAEL',  t: `The sum to infinity is a, divided by one minus r. Now test it on your homework. First term sixteen, ratio a quarter.` },
+    { s: 'TYLA',     t: `Sixteen divided by three quarters. That is sixty four divided by three. Twenty one comma three three three, and it carries on.` },
+    { s: 'MICHAEL',  t: `And that is the number you have been creeping towards for two episodes. Now you know exactly where it was going.` },
+    { s: 'MICHAEL',  t: `Now a real exam question. This one is from a different paper. November two thousand and eighteen.` },
+    { s: 'MICHAEL',  t: `A geometric series has a constant ratio of a half, and a sum to infinity of six. Calculate the first term.` },
+    { s: 'TYLA',     t: `They gave me the answer and they want the beginning. That is backwards.` },
+    { s: 'MICHAEL',  t: `It is backwards. Write the formula down anyway.` },
+    { s: 'TYLA',     t: `Six equals a, divided by one minus a half. One minus a half is a half.` },
+    { s: 'TYLA',     t: `So six equals a divided by a half. Dividing by a half is the same as times two. So a is twelve.` },
+    { s: 'MICHAEL',  t: `Careful. Check it.` },
+    { s: 'TYLA',     t: `If a is twelve and the ratio is a half, the sum to infinity is twelve divided by a half. That is twenty four, not six.` },
+    { s: 'MICHAEL',  t: `So you went the wrong way. Six equals a divided by a half. To get a on its own, what do you do to both sides?` },
+    { s: 'TYLA',     t: `Multiply both sides by a half. So a is six times a half. Three.` },
+    { s: 'MICHAEL',  t: `Three. Two marks. Check that one too.` },
+    { s: 'TYLA',     t: `Three divided by a half is six. Correct.` },
+    { s: 'MICHAEL',  t: `Next part. Calculate the eighth term.` },
+    { s: 'TYLA',     t: `That is episode two. The enth term is a, times r to the n minus one.` },
+    { s: 'TYLA',     t: `Three, times a half to the power of seven. That is three divided by one hundred and twenty eight.` },
+    { s: 'MICHAEL',  t: `Two marks. And notice how small that is already. The eighth term is worth about two hundredths.` },
+    { s: 'MICHAEL',  t: `Last part, and it uses everything. Sigma, from k equals one to n, of three, times two to the power of, one minus k. The total is five comma eight one two five. Find n.` },
+    { s: 'TYLA',     t: `First, is it really our series? Put k equals one. Two to the power of zero is one. So the first term is three.` },
+    { s: 'TYLA',     t: `Put k equals two. Two to the power of negative one is a half. Three times a half is one comma five.` },
+    { s: 'MICHAEL',  t: `First term three, ratio a half. The same series.` },
+    { s: 'MICHAEL',  t: `Now, is this one finite or infinite?` },
+    { s: 'TYLA',     t: `The top is n, not infinity. So it stops. It is finite, and I use last week's formula.` },
+    { s: 'TYLA',     t: `Three, times one minus a half to the power of n, divided by one minus a half. The bottom is a half. And dividing by a half is the same as times two, so the three becomes six.` },
+    { s: 'TYLA',     t: `So six, times the bracket, equals five comma eight one two five.` },
+    { s: 'TYLA',     t: `Divide both sides by six. The bracket is zero comma nine six eight seven five.` },
+    { s: 'TYLA',     t: `So a half to the power of n is one minus that. One divided by thirty two.` },
+    { s: 'MICHAEL',  t: `And a half to the power of what gives one divided by thirty two?` },
+    { s: 'TYLA',     t: `Two, four, eight, sixteen, thirty two. That is five halvings. So n is five.` },
+    { s: 'MICHAEL',  t: `n is five. Four marks. And look what you did. You used episode six's formula inside episode seven's question.` },
+    { s: 'MICHAEL',  t: `Four things.` },
+    { s: 'MICHAEL',  t: `Number one. Check the ratio before you use the infinity formula. If it is not between negative one and one, there is no answer, and saying so earns the mark.` },
+    { s: 'MICHAEL',  t: `Number two. The infinity formula has no n in it. If your working still has an n, you are on the wrong formula.` },
+    { s: 'MICHAEL',  t: `Number three. When they give you the sum and want the first term, do not divide. Multiply the sum by one minus r.` },
+    { s: 'MICHAEL',  t: `Number four. Sigma with a number on top is finite. Sigma with the infinity sign on top is infinite. Read the top before you choose a formula.` },
+    { s: 'MICHAEL',  t: `Three things to remember.` },
+    { s: 'MICHAEL',  t: `One. A series converges when the terms shrink towards zero. That happens when the ratio is between negative one and one.` },
+    { s: 'MICHAEL',  t: `Two. The sum to infinity is a, divided by one minus r. Two letters, and no n.` },
+    { s: 'MICHAEL',  t: `Three. It comes straight from last week's formula, with r to the n crossed out, because it disappears.` },
+    { s: 'MICHAEL',  t: `And that is the topic. Seven episodes ago you could not find the two hundred and fifty first term. Now you can add up a list that never ends.` },
+    { s: 'TYLA',     t: `And it was really the same few ideas the whole way through.` },
+    { s: 'MICHAEL',  t: `Find the pattern. Find the rule. Add them up. Check your answer. That is sequences and series. Well done for finishing it.` },
+  ],
+  slides: [
+    { n:  1, afterSeg:  0, title: `EPISODE 7 • INFINITE GEOMETRIC SERIES`, onScreen: `EPISODE 7 — INFINITE GEOMETRIC SERIES` },
+    { n:  2, afterSeg:  1, title: `IT ALWAYS STOPPED • TODAY IT DOES NOT`, onScreen: `until now it STOPPED · today it NEVER STOPS` },
+    { n:  3, afterSeg:  4, title: `LAST TIME • FIND S20`,                  onScreen: `16 + 4 + 1 + … find S₂₀` },
+    { n:  4, afterSeg:  5, title: `SAME FORMULA AS LAST WEEK`,             onScreen: `S₂₀ = 16(1 − (¼)²⁰)/(¾)` },
+    { n:  5, afterSeg:  6, title: `ANSWER • 21-33 AGAIN`,                  onScreen: `S₂₀ ≈ 21,33 ✓ (boxed)` },
+    { n:  6, afterSeg:  8, title: `TEN TERMS VERSUS TWENTY`,               onScreen: `S₁₀ ≈ 21,33 · S₂₀ ≈ 21,33 — nothing moved` },
+    { n:  7, afterSeg: 10, title: `THE TERMS SHRINK`,                      onScreen: `16 → 4 → 1 → ¼ → 1/16` },
+    { n:  8, afterSeg: 11, title: `SHRINKING TOWARDS ZERO`,                onScreen: `adding another changes almost nothing` },
+    { n:  9, afterSeg: 12, title: `CONVERGES`,                             onScreen: `CONVERGES — the total settles on one number` },
+    { n: 10, afterSeg: 15, title: `WALKING TO A WALL`,                     onScreen: `1 m → ½ m → ¼ m …` },
+    { n: 11, afterSeg: 17, title: `IT SETTLES ON 2 METRES`,                onScreen: `1 + ½ + ¼ + … = 2 ✓ (boxed)` },
+    { n: 12, afterSeg: 18, title: `BUT NOT ALWAYS`,                        onScreen: `2 + 4 + 8 + 16 + …` },
+    { n: 13, afterSeg: 20, title: `DIVERGES`,                              onScreen: `DIVERGES — the total runs away, no answer` },
+    { n: 14, afterSeg: 21, title: `THE CONDITION`,                         onScreen: `−1 < r < 1 (boxed)` },
+    { n: 15, afterSeg: 23, title: `WHY THE CONDITION WORKS`,               onScreen: `r > 1 grows · −1 < r < 1 shrinks` },
+    { n: 16, afterSeg: 24, title: `START FROM LAST WEEK`,                  onScreen: `Sₙ = a(1 − rⁿ)/(1 − r)` },
+    { n: 17, afterSeg: 26, title: `R TO THE N DISAPPEARS`,                 onScreen: `as n → ∞, rⁿ → 0` },
+    { n: 18, afterSeg: 27, title: `SO CROSS IT OUT`,                       onScreen: `the bracket becomes 1` },
+    { n: 19, afterSeg: 28, title: `THE SUM TO INFINITY`,                   onScreen: `S∞ = a/(1 − r) ✓ (boxed)` },
+    { n: 20, afterSeg: 30, title: `TEST IT ON YOUR OWN SERIES`,            onScreen: `S∞ = 16 ÷ ¾ = 64/3 = 21,333…` },
+    { n: 21, afterSeg: 31, title: `THAT IS WHERE IT WAS GOING`,            onScreen: `21,33 was 64/3 all along` },
+    { n: 22, afterSeg: 32, title: `NSC PAPER 1 • NOVEMBER 2018`,           onScreen: `NSC Mathematics P1 · November 2018 · Question 3` },
+    { n: 23, afterSeg: 33, title: `THE QUESTION 3-1`,                      onScreen: `3.1 r = ½ and S∞ = 6. Calculate the first term. (2)` },
+    { n: 24, afterSeg: 36, title: `WRITE THE FORMULA FIRST`,               onScreen: `6 = a ÷ (1 − ½)` },
+    { n: 25, afterSeg: 37, title: `TYLA DIVIDES INSTEAD`,                onScreen: `red · a = 6 × 2 = 12` },
+    { n: 26, afterSeg: 39, title: `CHECK IT • IT FAILS`,                   onScreen: `red · 12 ÷ ½ = 24, but S∞ must be 6` },
+    { n: 27, afterSeg: 41, title: `MULTIPLY BOTH SIDES INSTEAD`,           onScreen: `a = 6 × ½` },
+    { n: 28, afterSeg: 42, title: `ANSWER • A EQUALS 3`,                   onScreen: `a = 3 ✓ (boxed)` },
+    { n: 29, afterSeg: 43, title: `CHECK IT`,                              onScreen: `3 ÷ ½ = 6 ✓` },
+    { n: 30, afterSeg: 44, title: `THE QUESTION 3-2`,                      onScreen: `3.2 Calculate the 8th term. (2)` },
+    { n: 31, afterSeg: 46, title: `T8 EQUALS 3 OVER 128`,                  onScreen: `T₈ = 3(½)⁷ = 3/128 ✓ (boxed)` },
+    { n: 32, afterSeg: 47, title: `ALREADY ALMOST NOTHING`,                onScreen: `3/128 ≈ 0,023` },
+    { n: 33, afterSeg: 48, title: `THE QUESTION 3-3`,                      onScreen: `3.3 ∑ from k = 1 to n of 3(2)^(1−k) = 5,8125. Find n. (4)` },
+    { n: 34, afterSeg: 50, title: `IS IT REALLY OUR SERIES`,               onScreen: `k = 1 → 3 · k = 2 → 1,5` },
+    { n: 35, afterSeg: 51, title: `THE SAME SERIES`,                       onScreen: `a = 3 · r = ½ ✓` },
+    { n: 36, afterSeg: 53, title: `FINITE OR INFINITE`,                    onScreen: `top is n → finite · top is ∞ → infinite` },
+    { n: 37, afterSeg: 54, title: `USE LAST WEEK FORMULA`,                 onScreen: `Sₙ = 6[1 − (½)ⁿ]` },
+    { n: 38, afterSeg: 55, title: `SET IT EQUAL TO THE TOTAL`,             onScreen: `6[1 − (½)ⁿ] = 5,8125` },
+    { n: 39, afterSeg: 56, title: `DIVIDE BOTH SIDES BY 6`,                onScreen: `1 − (½)ⁿ = 0,96875` },
+    { n: 40, afterSeg: 57, title: `MAKE THE POWER THE SUBJECT`,            onScreen: `(½)ⁿ = 1/32` },
+    { n: 41, afterSeg: 59, title: `ANSWER • N EQUALS 5`,                   onScreen: `n = 5 ✓ (boxed)` },
+    { n: 42, afterSeg: 60, title: `EPISODE 6 INSIDE EPISODE 7`,            onScreen: `it looked infinite — it was finite` },
+    { n: 43, afterSeg: 61, title: `WHERE YOU LOSE MARKS`,                  onScreen: `WHERE YOU LOSE MARKS` },
+    { n: 44, afterSeg: 62, title: `MARK LOSS 1 • CHECK THE RATIO`,         onScreen: `1. check −1 < r < 1 first` },
+    { n: 45, afterSeg: 63, title: `MARK LOSS 2 • NO N`,                    onScreen: `2. no n in the infinity formula` },
+    { n: 46, afterSeg: 64, title: `MARK LOSS 3 • MULTIPLY`,                onScreen: `3. a = S∞ × (1 − r)` },
+    { n: 47, afterSeg: 65, title: `MARK LOSS 4 • READ THE TOP`,            onScreen: `4. read the top of the sigma` },
+    { n: 48, afterSeg: 66, title: `REMEMBER`,                              onScreen: `REMEMBER` },
+    { n: 49, afterSeg: 67, title: `RECAP 1 • IT CONVERGES`,                onScreen: `1. terms shrink → it converges` },
+    { n: 50, afterSeg: 68, title: `RECAP 2 • THE FORMULA`,                 onScreen: `2. S∞ = a/(1 − r)` },
+    { n: 51, afterSeg: 69, title: `RECAP 3 • WHERE IT COMES FROM`,         onScreen: `3. last week's formula with rⁿ gone` },
+    { n: 52, afterSeg: 70, title: `SEVEN EPISODES`,                        onScreen: `SEQUENCES & SERIES — seven episodes` },
+    { n: 53, afterSeg: 72, title: `THE WHOLE TOPIC`,                       onScreen: `find the pattern · find the rule · add them up · check` },
+  ],
+},
+// ─────────────────────────────────────────────────────────────────────────
+// REVISION PART 1 — EPISODE 1: Algebraic Products
+// Paste into the EPISODES array in scripts/generate-maths-podcast-audio.mjs
+// (immediately before the closing  ];  ).
+// FIRST: unzip Revision-1-Episode-01-Slides.zip into
+//        podcasts/Working-It-Out/Revision-Part-1/slides/ep01
+// Then:  node --env-file=.env.local scripts/generate-maths-podcast-audio.mjs 1
+//        (the `series` field keeps it away from Sequences episode 1)
+// ─────────────────────────────────────────────────────────────────────────
+{
+  num: 1,
+  series: 'Revision-Part-1',
+  file: 'Episode 1 - Algebraic Products',
+  segs: [
+    { s: 'AMELIA',   t: `Revision, part one. Algebra, exponents and surds. Episode one. Algebraic products.` },
+    { s: 'MICHAEL',  t: `This is the start of our revision series. These are the skills that Grade twelve assumes you already have.` },
+    { s: 'TYLA',     t: `And if you do not have them?` },
+    { s: 'MICHAEL',  t: `Then question one of your matric paper is very hard, for no good reason. So we fix that first.` },
+    { s: 'MICHAEL',  t: `Today, products. A product just means the answer you get when you multiply.` },
+    { s: 'TYLA',     t: `So an algebraic product is what you get when you multiply expressions together.` },
+    { s: 'MICHAEL',  t: `Yes. And there is one rule for all of them. Every term in the first bracket must multiply every term in the second bracket.` },
+    { s: 'TYLA',     t: `Every term, times every term. Nothing gets left out.` },
+    { s: 'MICHAEL',  t: `Nothing gets left out. That is the whole topic. Let us do three of them.` },
+    { s: 'MICHAEL',  t: `First one. Bracket, x plus three, bracket, times, bracket, x minus five.` },
+    { s: 'TYLA',     t: `x times x is x squared.` },
+    { s: 'TYLA',     t: `x times negative five is negative five x.` },
+    { s: 'TYLA',     t: `Three times x is three x.` },
+    { s: 'TYLA',     t: `And three times negative five is negative fifteen.` },
+    { s: 'MICHAEL',  t: `Watch the signs there. A positive times a negative always gives you a negative.` },
+    { s: 'MICHAEL',  t: `Now collect the middle two. And you are only allowed to add them because they are both x terms. Same letter, same power.` },
+    { s: 'TYLA',     t: `Negative five x, plus three x. Starting at negative five and going up three gives negative two x.` },
+    { s: 'TYLA',     t: `So x squared, minus two x, minus fifteen.` },
+    { s: 'MICHAEL',  t: `Two brackets with an x in each gives you a quadratic. An x squared at the front, every time.` },
+    { s: 'MICHAEL',  t: `Second one, and this is the one people rush. Two x minus one, times, x squared plus three x minus four.` },
+    { s: 'TYLA',     t: `Now the second bracket has three terms.` },
+    { s: 'MICHAEL',  t: `So there are six multiplications, not four. And there is one rule you need before we start.` },
+    { s: 'MICHAEL',  t: `When you multiply the same letter, you add the powers. x on its own is really x to the power one. So x times x squared is x to the power three.` },
+    { s: 'TYLA',     t: `One power, plus two powers, gives three powers. That makes sense.` },
+    { s: 'MICHAEL',  t: `Take the two x first.` },
+    { s: 'TYLA',     t: `Two x times x squared is two x cubed. Two x times three x is six x squared. Two x times negative four is negative eight x.` },
+    { s: 'MICHAEL',  t: `Now the negative one.` },
+    { s: 'TYLA',     t: `Negative one times x squared is negative x squared. Negative one times three x is negative three x. And negative one times negative four is positive four.` },
+    { s: 'MICHAEL',  t: `Two negatives make a positive. That sign is worth checking every single time.` },
+    { s: 'MICHAEL',  t: `Now collect the like terms. Only the x squareds go together, and only the x terms go together.` },
+    { s: 'TYLA',     t: `Six x squared minus x squared is five x squared. Negative eight x minus three x is negative eleven x.` },
+    { s: 'TYLA',     t: `So two x cubed, plus five x squared, minus eleven x, plus four.` },
+    { s: 'MICHAEL',  t: `A linear bracket times a quadratic bracket gives a cubic. An x cubed at the front.` },
+    { s: 'MICHAEL',  t: `Third one. And this is where marks disappear. Bracket, x minus four, bracket, squared.` },
+    { s: 'TYLA',     t: `Squared. So, x squared minus sixteen.` },
+    { s: 'MICHAEL',  t: `Test it. Put x equals one into your answer.` },
+    { s: 'TYLA',     t: `One, minus sixteen. Negative fifteen.` },
+    { s: 'MICHAEL',  t: `Now put x equals one into the original. One minus four, and then squared.` },
+    { s: 'TYLA',     t: `Negative three, squared. That is positive nine.` },
+    { s: 'TYLA',     t: `Nine is not negative fifteen. So I am wrong.` },
+    { s: 'MICHAEL',  t: `You are. Squaring a bracket does not square the terms separately. Write it out as two brackets and use the rule.` },
+    { s: 'TYLA',     t: `x minus four, times, x minus four.` },
+    { s: 'TYLA',     t: `x squared, minus four x, minus four x, plus sixteen.` },
+    { s: 'TYLA',     t: `So x squared, minus eight x, plus sixteen.` },
+    { s: 'MICHAEL',  t: `And test it again. x equals one gives one, minus eight, plus sixteen.` },
+    { s: 'TYLA',     t: `Nine. It matches now.` },
+    { s: 'MICHAEL',  t: `There are three of these worth knowing by sight. They come up constantly.` },
+    { s: 'MICHAEL',  t: `a plus b, squared, is a squared, plus two a b, plus b squared.` },
+    { s: 'TYLA',     t: `Where does the two a b come from?` },
+    { s: 'MICHAEL',  t: `Write it as two brackets and you will see. a times b gives you a b. And b times a gives you a b again. Two lots of a b.` },
+    { s: 'MICHAEL',  t: `a minus b, squared, is a squared, minus two a b, plus b squared.` },
+    { s: 'MICHAEL',  t: `And a plus b, times a minus b, is a squared minus b squared. There you get plus a b and minus a b, so the middle cancels.` },
+    { s: 'TYLA',     t: `So only the last one loses its middle term.` },
+    { s: 'MICHAEL',  t: `Only that one. The other two keep it, and forgetting it is the mistake you just made.` },
+    { s: 'MICHAEL',  t: `Now, does this actually appear in matric? Here is November two thousand and sixteen, question one point three.` },
+    { s: 'MICHAEL',  t: `Solve for x and y, if x equals two y, and x squared minus five x y equals negative twenty four.` },
+    { s: 'TYLA',     t: `That looks like simultaneous equations, not products.` },
+    { s: 'MICHAEL',  t: `It is. But look what happens when you substitute. Replace every x with two y.` },
+    { s: 'TYLA',     t: `Bracket two y bracket, squared, minus five, times two y, times y.` },
+    { s: 'MICHAEL',  t: `And now you are expanding. Careful with that first part.` },
+    { s: 'TYLA',     t: `Two y, squared, means two y times two y. Two times two is four, and y times y is y squared. So it is four y squared.` },
+    { s: 'MICHAEL',  t: `And the second part?` },
+    { s: 'TYLA',     t: `Five times two is ten. And y times y is y squared. So that is ten y squared.` },
+    { s: 'TYLA',     t: `So four y squared minus ten y squared is negative six y squared, and that equals negative twenty four.` },
+    { s: 'MICHAEL',  t: `Divide both sides by negative six.` },
+    { s: 'TYLA',     t: `y squared equals four. So y is two.` },
+    { s: 'MICHAEL',  t: `Careful. What else, squared, gives you four?` },
+    { s: 'TYLA',     t: `Negative two. Negative two, squared, is also four. So y is two, or negative two.` },
+    { s: 'MICHAEL',  t: `Both of them. Miss the negative one and you lose a mark. And x is two y, so x is four, or negative four.` },
+    { s: 'MICHAEL',  t: `That is a four mark question, and the only hard part was expanding correctly.` },
+    { s: 'MICHAEL',  t: `Three things.` },
+    { s: 'MICHAEL',  t: `Number one. Every term times every term. Two terms times three terms is six multiplications.` },
+    { s: 'MICHAEL',  t: `Number two. Squaring a bracket is not squaring the terms. Write it out as two brackets first.` },
+    { s: 'MICHAEL',  t: `Number three. When you square something like two y, the number gets squared too. Two y, squared, is four y squared.` },
+    { s: 'MICHAEL',  t: `Two things to remember.` },
+    { s: 'MICHAEL',  t: `One. A linear bracket times a linear bracket gives a quadratic. Times a quadratic bracket gives a cubic.` },
+    { s: 'MICHAEL',  t: `Two. If you are not sure, test your answer with a number. Put x equals one into both, and see if they match.` },
+    { s: 'MICHAEL',  t: `Here is your question. Expand, x plus five, times, x minus two.` },
+    { s: 'MICHAEL',  t: `Pause and try it. I will wait.`, pause: 3.0 },
+    { s: 'MICHAEL',  t: `I will give you the answer next time. And next time we do the same thing backwards.` },
+    { s: 'TYLA',     t: `Backwards?` },
+    { s: 'MICHAEL',  t: `Today we multiplied brackets out. Next time we take an expression and put the brackets back. That is factorising, and it is episode two.` },
+  ],
+  slides: [
+    { n:  1, afterSeg:  0, title: `REVISION 1 • EPISODE 1 • ALGEBRAIC PRODUCTS`, onScreen: `EPISODE 1 — ALGEBRAIC PRODUCTS` },
+    { n:  2, afterSeg:  1, title: `WHAT REVISION PART 1 IS`,          onScreen: `the skills Grade 12 assumes you have` },
+    { n:  3, afterSeg:  3, title: `QUESTION 1 GETS EASIER`,           onScreen: `~25 marks of Paper 1 live here` },
+    { n:  4, afterSeg:  4, title: `A PRODUCT`,                        onScreen: `the answer you get when you multiply` },
+    { n:  5, afterSeg:  6, title: `THE ONE RULE`,                     onScreen: `every term × every term` },
+    { n:  6, afterSeg:  8, title: `EXAMPLE 1`,                        onScreen: `(x + 3)(x − 5)` },
+    { n:  7, afterSeg: 10, title: `START WITH THE X`,                 onScreen: `x × x = x² · x × (−5) = −5x` },
+    { n:  8, afterSeg: 13, title: `NOW THE 3`,                        onScreen: `3 × x = 3x · 3 × (−5) = −15` },
+    { n:  9, afterSeg: 14, title: `THE SIGN RULES`,                   onScreen: `+ × − → negative · − × − → positive` },
+    { n: 10, afterSeg: 15, title: `LIKE TERMS`,                       onScreen: `same letter, same power` },
+    { n: 11, afterSeg: 16, title: `COLLECT THE MIDDLE TWO`,           onScreen: `−5x + 3x = −2x` },
+    { n: 12, afterSeg: 17, title: `ANSWER 1`,                         onScreen: `x² − 2x − 15 ✓ (boxed)` },
+    { n: 13, afterSeg: 18, title: `LINEAR TIMES LINEAR`,              onScreen: `→ a quadratic` },
+    { n: 14, afterSeg: 19, title: `EXAMPLE 2`,                        onScreen: `(2x − 1)(x² + 3x − 4)` },
+    { n: 15, afterSeg: 21, title: `SIX MULTIPLICATIONS`,              onScreen: `2 terms × 3 terms = six, not four` },
+    { n: 16, afterSeg: 22, title: `ADD THE POWERS`,                   onScreen: `x is really x¹` },
+    { n: 17, afterSeg: 23, title: `WHY X TIMES X SQUARED IS X CUBED`, onScreen: `1 + 2 = 3` },
+    { n: 18, afterSeg: 25, title: `TAKE THE 2X FIRST`,                onScreen: `2x³ · 6x² · −8x` },
+    { n: 19, afterSeg: 27, title: `NOW THE MINUS 1`,                  onScreen: `−x² · −3x · +4` },
+    { n: 20, afterSeg: 28, title: `TWO NEGATIVES MAKE A POSITIVE`,    onScreen: `−1 × −4 = +4` },
+    { n: 21, afterSeg: 29, title: `COLLECT LIKE TERMS`,               onScreen: `5x² · −11x` },
+    { n: 22, afterSeg: 31, title: `ANSWER 2`,                         onScreen: `2x³ + 5x² − 11x + 4 ✓ (boxed)` },
+    { n: 23, afterSeg: 32, title: `LINEAR TIMES QUADRATIC`,           onScreen: `→ a cubic` },
+    { n: 24, afterSeg: 33, title: `EXAMPLE 3`,                        onScreen: `(x − 4)²` },
+    { n: 25, afterSeg: 34, title: `TYLA SQUARES EACH TERM`,         onScreen: `red · x² − 16` },
+    { n: 26, afterSeg: 36, title: `TEST IT • PUT X EQUALS 1`,         onScreen: `red · = −15` },
+    { n: 27, afterSeg: 38, title: `THE ORIGINAL AT X EQUALS 1`,       onScreen: `(−3)² = 9` },
+    { n: 28, afterSeg: 39, title: `IT DOES NOT MATCH`,                onScreen: `red · 9 ≠ −15 ✗` },
+    { n: 29, afterSeg: 41, title: `WRITE IT AS TWO BRACKETS`,         onScreen: `(x − 4)(x − 4)` },
+    { n: 30, afterSeg: 42, title: `EVERY TERM TIMES EVERY TERM`,      onScreen: `x² − 4x − 4x + 16` },
+    { n: 31, afterSeg: 43, title: `ANSWER 3`,                         onScreen: `x² − 8x + 16 ✓ (boxed)` },
+    { n: 32, afterSeg: 45, title: `TEST IT AGAIN`,                    onScreen: `= 9 ✓ it matches` },
+    { n: 33, afterSeg: 47, title: `SPECIAL PRODUCT 1`,                onScreen: `(a + b)² = a² + 2ab + b²` },
+    { n: 34, afterSeg: 49, title: `WHERE THE 2AB COMES FROM`,         onScreen: `ab from each side → 2ab` },
+    { n: 35, afterSeg: 50, title: `SPECIAL PRODUCT 2`,                onScreen: `(a − b)² = a² − 2ab + b²` },
+    { n: 36, afterSeg: 51, title: `SPECIAL PRODUCT 3`,                onScreen: `+ab and −ab cancel → a² − b²` },
+    { n: 37, afterSeg: 53, title: `ONLY THE THIRD LOSES ITS MIDDLE`,  onScreen: `the two squares keep it` },
+    { n: 38, afterSeg: 54, title: `NSC PAPER 1 • NOVEMBER 2016`,      onScreen: `NSC Mathematics P1 · Nov 2016 · Q1.3` },
+    { n: 39, afterSeg: 55, title: `THE QUESTION 1-3`,                 onScreen: `x = 2y and x² − 5xy = −24. (4)` },
+    { n: 40, afterSeg: 58, title: `SUBSTITUTE`,                       onScreen: `(2y)² − 5(2y)(y) = −24` },
+    { n: 41, afterSeg: 60, title: `THE 2 GETS SQUARED TOO`,           onScreen: `(2y)² = 4y²` },
+    { n: 42, afterSeg: 62, title: `NOW THE SECOND PART`,              onScreen: `5(2y)(y) = 10y²` },
+    { n: 43, afterSeg: 63, title: `PUT IT TOGETHER`,                  onScreen: `−6y² = −24` },
+    { n: 44, afterSeg: 64, title: `DIVIDE BOTH SIDES BY MINUS 6`,     onScreen: `y² = 4` },
+    { n: 45, afterSeg: 66, title: `WHAT ELSE SQUARED GIVES 4`,        onScreen: `(−2)² = 4 as well` },
+    { n: 46, afterSeg: 67, title: `BOTH VALUES OF Y`,                 onScreen: `y = 2 or y = −2 ✓ (boxed)` },
+    { n: 47, afterSeg: 68, title: `ANSWER • BOTH PAIRS`,              onScreen: `(4 ; 2) or (−4 ; −2) ✓ (boxed)` },
+    { n: 48, afterSeg: 69, title: `FOUR MARKS`,                       onScreen: `the only hard part was expanding` },
+    { n: 49, afterSeg: 70, title: `WHERE YOU LOSE MARKS`,             onScreen: `WHERE YOU LOSE MARKS` },
+    { n: 50, afterSeg: 71, title: `MARK LOSS 1 • EVERY TERM`,         onScreen: `1. six multiplications, not four` },
+    { n: 51, afterSeg: 72, title: `MARK LOSS 2 • SQUARING A BRACKET`, onScreen: `2. write it out as two brackets` },
+    { n: 52, afterSeg: 73, title: `MARK LOSS 3 • SQUARE THE NUMBER`,  onScreen: `3. (2y)² = 4y², never 2y²` },
+    { n: 53, afterSeg: 74, title: `REMEMBER`,                         onScreen: `REMEMBER` },
+    { n: 54, afterSeg: 75, title: `RECAP 1 • THE ANSWER SHAPE`,       onScreen: `1. linear × linear → quadratic` },
+    { n: 55, afterSeg: 76, title: `RECAP 2 • TEST WITH A NUMBER`,     onScreen: `2. put x = 1 into both` },
+    { n: 56, afterSeg: 77, title: `YOUR TURN`,                        onScreen: `Expand (x + 5)(x − 2)` },
+    { n: 57, afterSeg: 78, title: `PAUSE AND TRY`,                    onScreen: `PAUSE AND TRY` },
+    { n: 58, afterSeg: 81, title: `NEXT • FACTORISING`,               onScreen: `NEXT — EPISODE 2: FACTORISING` },
+  ],
+},
+// ───────────────────────────────────────────────────────────────────────
+// REVISION PART 1 — EPISODE 2: Factorising
+// Paste into the EPISODES array in scripts/generate-maths-podcast-audio.mjs,
+// next to the existing series: 'Revision-Part-1' episode 1 object.
+// Slides: unzip into podcasts/Working-It-Out/Revision-Part-1/slides/ep02
+// Run:    node --env-file=.env.local scripts/generate-maths-podcast-audio.mjs Revision-Part-1:2
+// ───────────────────────────────────────────────────────────────────────
+{
+  num: 2,
+  series: 'Revision-Part-1',
+  file: 'Episode 2 - Factorising',
+  segs: [
+    { s: 'AMELIA',   t: `Episode two. Factorising.` },
+    { s: 'MICHAEL',  t: `Last time we multiplied brackets out. Today we put them back.` },
+    { s: 'TYLA',     t: `First, my homework.` },
+    { s: 'MICHAEL',  t: `You had, bracket x plus five, bracket, times, bracket x minus two.` },
+    { s: 'TYLA',     t: `x times x is x squared. And x times negative two is negative two x.` },
+    { s: 'TYLA',     t: `Five times x is five x. And five times negative two is negative ten.` },
+    { s: 'MICHAEL',  t: `Now collect the middle two. They are both x terms, so you are allowed to add them.` },
+    { s: 'TYLA',     t: `Negative two x, plus five x. Starting at negative two and going up five gives positive three x.` },
+    { s: 'TYLA',     t: `So x squared, plus three x, minus ten.` },
+    { s: 'MICHAEL',  t: `Correct. And now I am going to take your own answer and hand it straight back to you.` },
+    { s: 'MICHAEL',  t: `Factorise x squared plus three x minus ten.` },
+    { s: 'TYLA',     t: `But that is where I started. It is x plus five, times x minus two.` },
+    { s: 'MICHAEL',  t: `It is. And that is the whole of today. Factorising is episode one, read backwards.` },
+    { s: 'TYLA',     t: `So the answer to a factorising question is always brackets.` },
+    { s: 'MICHAEL',  t: `Always. Which means you can always check yourself. Multiply your brackets out again. If you do not land back on the question, you are wrong.` },
+    { s: 'MICHAEL',  t: `Now, one habit before you start any of these. Count the terms.` },
+    { s: 'MICHAEL',  t: `Two terms, you are looking at squares or cubes. Three terms, it is a trinomial. Four terms, you group them in pairs.` },
+    { s: 'TYLA',     t: `And is there anything before that?` },
+    { s: 'MICHAEL',  t: `One thing. A common factor. Look for something that divides into every term, and take it out first. Every single time.` },
+    { s: 'MICHAEL',  t: `First one. Factorise fully. Two x squared, minus eighteen.` },
+    { s: 'TYLA',     t: `Two terms. So squares or cubes.` },
+    { s: 'MICHAEL',  t: `Before that. Is there a common factor?` },
+    { s: 'TYLA',     t: `Two goes into two x squared, and two goes into eighteen. So I can take out a two.` },
+    { s: 'MICHAEL',  t: `Take it out. What is left inside?` },
+    { s: 'TYLA',     t: `Two x squared divided by two is x squared. And eighteen divided by two is nine. So, two, bracket, x squared minus nine.` },
+    { s: 'MICHAEL',  t: `Now look inside that bracket. x squared minus nine. Two terms, both of them perfect squares, with a minus between them.` },
+    { s: 'MICHAEL',  t: `That is the third special product from last time, backwards. a squared minus b squared is a plus b, times a minus b.` },
+    { s: 'TYLA',     t: `So a is x. And b is three, because three squared is nine.` },
+    { s: 'TYLA',     t: `So x squared minus nine is x plus three, times x minus three.` },
+    { s: 'MICHAEL',  t: `Put the whole thing together.` },
+    { s: 'TYLA',     t: `Two, times x plus three, times x minus three.` },
+    { s: 'MICHAEL',  t: `And that is what fully means. You keep going until nothing inside any bracket can be factorised again.` },
+    { s: 'TYLA',     t: `How do I know when I am finished?` },
+    { s: 'MICHAEL',  t: `Look at every bracket you have written. If one of them is still two squares with a minus, or still a trinomial, you are not finished.` },
+    { s: 'MICHAEL',  t: `One warning while we are here. x squared plus nine does not factorise. A plus between two squares does nothing.` },
+    { s: 'TYLA',     t: `So only the minus one works.` },
+    { s: 'MICHAEL',  t: `Only the minus. Second one, and this is straight out of matric. November two thousand and seventeen, question one point one point one.` },
+    { s: 'MICHAEL',  t: `Solve for x. x squared, plus nine x, plus fourteen, equals zero. Three marks.` },
+    { s: 'TYLA',     t: `Three terms. So it is a trinomial.` },
+    { s: 'MICHAEL',  t: `And there is no common factor. Nothing divides into one, nine and fourteen. So go straight to the brackets.` },
+    { s: 'MICHAEL',  t: `You need two numbers that multiply to give fourteen, and add to give nine.` },
+    { s: 'TYLA',     t: `Fourteen is one times fourteen, or two times seven.` },
+    { s: 'TYLA',     t: `One and fourteen add to fifteen. Two and seven add to nine. So it is two and seven.` },
+    { s: 'MICHAEL',  t: `Write your brackets.` },
+    { s: 'TYLA',     t: `x plus seven, times x plus two.` },
+    { s: 'MICHAEL',  t: `Check the middle term before you go any further. Seven x, plus two x.` },
+    { s: 'TYLA',     t: `Nine x. That matches the question.` },
+    { s: 'MICHAEL',  t: `Now the part people forget. The question said solve, not factorise. So you are not finished.` },
+    { s: 'MICHAEL',  t: `If two things multiply together and give you zero, one of them has to be zero. There is no other way to make zero by multiplying.` },
+    { s: 'TYLA',     t: `So either x plus seven is zero, or x plus two is zero.` },
+    { s: 'TYLA',     t: `x equals negative seven, or x equals negative two.` },
+    { s: 'MICHAEL',  t: `Both of them. And watch that sign. The bracket says plus seven, but the answer says negative seven.` },
+    { s: 'TYLA',     t: `Because I take the seven to the other side.` },
+    { s: 'MICHAEL',  t: `Exactly. Three marks. One for the factors, and one for each answer.` },
+    { s: 'MICHAEL',  t: `Third one. And this is where most of the marks in this topic go. Factorise three x squared, minus five x, minus two.` },
+    { s: 'TYLA',     t: `Three terms again. So I need two numbers that multiply to negative two and add to negative five.` },
+    { s: 'MICHAEL',  t: `Try it.` },
+    { s: 'TYLA',     t: `Negative two and one multiply to negative two. But they add to negative one, not negative five.` },
+    { s: 'MICHAEL',  t: `So the rule you used a minute ago does not work here. Why not?` },
+    { s: 'TYLA',     t: `Because of the three in front of the x squared?` },
+    { s: 'MICHAEL',  t: `Because of the three. When the number in front of x squared is not one, those two numbers do not simply drop into the brackets.` },
+    { s: 'MICHAEL',  t: `Show me what you would have written anyway.` },
+    { s: 'TYLA',     t: `Three x minus two, times x plus one.` },
+    { s: 'MICHAEL',  t: `Now check it. Multiply it out.` },
+    { s: 'TYLA',     t: `Three x times x is three x squared. Three x times one is three x. Negative two times x is negative two x. And negative two times one is negative two.` },
+    { s: 'TYLA',     t: `Three x, minus two x, is plus x. So I get three x squared, plus x, minus two.` },
+    { s: 'MICHAEL',  t: `And the question says minus five x. So it is wrong. But look carefully at what you have. The right numbers, in the wrong places.` },
+    { s: 'TYLA',     t: `So I move them?` },
+    { s: 'MICHAEL',  t: `Swap them and try again. Put the two with the x, and the one with the three x.` },
+    { s: 'TYLA',     t: `Three x plus one, times x minus two.` },
+    { s: 'MICHAEL',  t: `Check the middle again.` },
+    { s: 'TYLA',     t: `Three x times negative two is negative six x. And one times x is x. Negative six x, plus x, is negative five x.` },
+    { s: 'TYLA',     t: `That matches. So it is three x plus one, times x minus two.` },
+    { s: 'MICHAEL',  t: `And that is the method. When there is a number in front, you try an arrangement and you check the middle term. It is not guessing. There are only a few arrangements, and the middle term tells you straight away which one is right.` },
+    { s: 'MICHAEL',  t: `Two more you should know by sight. Four terms, and cubes.` },
+    { s: 'MICHAEL',  t: `Four terms. Factorise fully. x cubed, plus three x squared, minus four x, minus twelve.` },
+    { s: 'MICHAEL',  t: `Take the first two together, and the last two together.` },
+    { s: 'TYLA',     t: `The first two both have an x squared in them. x cubed plus three x squared is x squared, bracket, x plus three.` },
+    { s: 'TYLA',     t: `The last two both have a four. Negative four x minus twelve is negative four, bracket, x plus three.` },
+    { s: 'MICHAEL',  t: `Now look at your two brackets.` },
+    { s: 'TYLA',     t: `They are the same. Both of them say x plus three.` },
+    { s: 'MICHAEL',  t: `That is the whole trick. When the two brackets match, you take that bracket out.` },
+    { s: 'TYLA',     t: `So, x plus three, times x squared minus four.` },
+    { s: 'MICHAEL',  t: `Are you finished?` },
+    { s: 'TYLA',     t: `No. x squared minus four is two squares with a minus. So it is x minus two, times x plus two.` },
+    { s: 'TYLA',     t: `So it is x plus three, times x minus two, times x plus two.` },
+    { s: 'MICHAEL',  t: `Now cubes. Two terms, and both of them are perfect cubes.` },
+    { s: 'MICHAEL',  t: `x cubed minus eight is x minus two, times, x squared plus two x plus four.` },
+    { s: 'TYLA',     t: `Where does that second bracket come from?` },
+    { s: 'MICHAEL',  t: `The small bracket is just the cube roots. x, and two. The big bracket is built out of those same two: the first one squared, then the two of them multiplied, then the second one squared.` },
+    { s: 'TYLA',     t: `And the signs?` },
+    { s: 'MICHAEL',  t: `The small bracket keeps the sign of the question. In the big bracket the middle sign flips, and the last sign is always a plus.` },
+    { s: 'MICHAEL',  t: `So x cubed plus twenty seven is x plus three, times, x squared minus three x plus nine.` },
+    { s: 'TYLA',     t: `Plus in the small bracket, minus in the middle, plus at the end.` },
+    { s: 'MICHAEL',  t: `Every time. Now, three things.` },
+    { s: 'MICHAEL',  t: `Number one. Common factor first. Always. It makes everything after it smaller and easier.` },
+    { s: 'MICHAEL',  t: `Number two. Fully means fully. If a bracket still has two squares and a minus in it, you are not finished.` },
+    { s: 'MICHAEL',  t: `Number three. Check the middle term. Multiply your brackets out again. It takes five seconds and it catches almost every mistake.` },
+    { s: 'MICHAEL',  t: `Two things to remember.` },
+    { s: 'MICHAEL',  t: `One. Factorising is expanding, backwards. The answer is always brackets, and you can always check it yourself.` },
+    { s: 'MICHAEL',  t: `Two. Count the terms. Two terms, squares or cubes. Three terms, a trinomial. Four terms, group them in pairs.` },
+    { s: 'MICHAEL',  t: `Here is your question. Factorise fully. Two x squared, plus ten x, plus twelve.` },
+    { s: 'MICHAEL',  t: `Pause and try it. I will wait.`, pause: 3.0 },
+    { s: 'MICHAEL',  t: `I will give you the answer next time.` },
+    { s: 'TYLA',     t: `And what is next time?` },
+    { s: 'MICHAEL',  t: `Now that you can expand and factorise, we start solving. Episode three. Linear equations.` },
+  ],
+  slides: [
+    { n:  1, afterSeg:   0, title: `REVISION 1 • EPISODE 2 • FACTORISING`, onScreen: `EPISODE 2 — FACTORISING` },
+    { n:  2, afterSeg:   1, title: `LAST TIME WE TOOK THE BRACKETS AWAY`, onScreen: `today we put them back` },
+    { n:  3, afterSeg:   3, title: `YOUR HOMEWORK`, onScreen: `(x + 5)(x − 2) · expand and simplify` },
+    { n:  4, afterSeg:   4, title: `EVERY TERM × EVERY TERM`, onScreen: `x × (−2) = −2x` },
+    { n:  5, afterSeg:   5, title: `NOW THE 5`, onScreen: `5 × (−2) = −10` },
+    { n:  6, afterSeg:   7, title: `COLLECT THE MIDDLE TWO`, onScreen: `−2x + 5x = +3x` },
+    { n:  7, afterSeg:   8, title: `ANSWER`, onScreen: `x² + 3x − 10 ✓ (boxed)` },
+    { n:  8, afterSeg:  10, title: `NOW THE SAME THING BACKWARDS`, onScreen: `x² + 3x − 10 · factorise` },
+    { n:  9, afterSeg:  11, title: `THE ANSWER IS WHERE SHE STARTED`, onScreen: `(x + 5)(x − 2) ✓ (boxed)` },
+    { n: 10, afterSeg:  12, title: `FACTORISING`, onScreen: `expanding takes brackets away · factorising puts them back` },
+    { n: 11, afterSeg:  14, title: `YOU CAN ALWAYS CHECK YOURSELF`, onScreen: `the one topic that marks its own work` },
+    { n: 12, afterSeg:  15, title: `FIRST, COUNT THE TERMS`, onScreen: `FIRST, COUNT THE TERMS` },
+    { n: 13, afterSeg:  16, title: `HOW MANY TERMS ARE THERE?`, onScreen: `2 terms → squares or cubes · 3 terms → a trinomial · 4 terms → group them in pairs` },
+    { n: 14, afterSeg:  18, title: `BUT BEFORE ANY OF THAT`, onScreen: `every single time` },
+    { n: 15, afterSeg:  19, title: `EXAMPLE 1`, onScreen: `2x² − 18 · factorise fully` },
+    { n: 16, afterSeg:  22, title: `IS THERE A COMMON FACTOR?`, onScreen: `so take out the 2` },
+    { n: 17, afterSeg:  24, title: `WHAT IS LEFT INSIDE`, onScreen: `2(x² − 9)` },
+    { n: 18, afterSeg:  25, title: `NOW LOOK INSIDE THE BRACKET`, onScreen: `two squares, with a minus between them` },
+    { n: 19, afterSeg:  26, title: `FROM EPISODE 1, READ BACKWARDS`, onScreen: `a² − b² = (a + b)(a − b)` },
+    { n: 20, afterSeg:  28, title: `SO A IS X AND B IS 3`, onScreen: `x² − 9 = (x + 3)(x − 3)` },
+    { n: 21, afterSeg:  30, title: `ANSWER`, onScreen: `2(x + 3)(x − 3) ✓ (boxed)` },
+    { n: 22, afterSeg:  31, title: `FULLY`, onScreen: `still two squares with a minus? still a trinomial? then you are not finished` },
+    { n: 23, afterSeg:  34, title: `COMPARE`, onScreen: `x² − 9 → (x + 3)(x − 3) · x² + 9 → does not factorise` },
+    { n: 24, afterSeg:  35, title: `ONLY THE MINUS ONE WORKS`, onScreen: `a plus between two squares does nothing` },
+    { n: 25, afterSeg:  36, title: `NSC PAPER 1 • NOVEMBER 2017`, onScreen: `NSC Mathematics P1 · November 2017 · Question 1.1.1 · 3 marks` },
+    { n: 26, afterSeg:  37, title: `QUESTION 1.1.1`, onScreen: `x² + 9x + 14 = 0 · Solve for x.` },
+    { n: 27, afterSeg:  39, title: `THREE TERMS — A TRINOMIAL`, onScreen: `so go straight to the brackets` },
+    { n: 28, afterSeg:  40, title: `YOU NEED TWO NUMBERS`, onScreen: `and add to give 9` },
+    { n: 29, afterSeg:  42, title: `LIST THE PAIRS THAT MAKE 14`, onScreen: `2 × 7 = 14 → 2 + 7 = 9 ✓` },
+    { n: 30, afterSeg:  44, title: `WRITE THE BRACKETS`, onScreen: `(x + 7)(x + 2)` },
+    { n: 31, afterSeg:  46, title: `CHECK THE MIDDLE TERM`, onScreen: `= 9x ✓ it matches` },
+    { n: 32, afterSeg:  47, title: `IT SAID SOLVE, NOT FACTORISE`, onScreen: `The brackets are only the first mark. You still have to find x.` },
+    { n: 33, afterSeg:  48, title: `THE ZERO RULE`, onScreen: `there is no other way to make zero by multiplying` },
+    { n: 34, afterSeg:  50, title: `SO SPLIT IT INTO TWO`, onScreen: `x = −7 or x = −2 ✓ (boxed)` },
+    { n: 35, afterSeg:  52, title: `WHY THE SIGN FLIPS`, onScreen: `x = −7` },
+    { n: 36, afterSeg:  53, title: `THREE MARKS`, onScreen: `miss the second answer and you lose a third of the question` },
+    { n: 37, afterSeg:  54, title: `EXAMPLE 3`, onScreen: `3x² − 5x − 2 · where the marks disappear` },
+    { n: 38, afterSeg:  55, title: `TYLA USES THE SAME RULE`, onScreen: `? × ? = −2 and ? + ? = −5` },
+    { n: 39, afterSeg:  57, title: `THE ONLY PAIR SHE CAN FIND`, onScreen: `red · −2 + 1 = −1, not −5 ✗` },
+    { n: 40, afterSeg:  60, title: `THE 3 CHANGES EVERYTHING`, onScreen: `when the number in front of x² is not 1, the two numbers do not just drop into the brackets` },
+    { n: 41, afterSeg:  62, title: `SHE WRITES IT ANYWAY`, onScreen: `red · (3x − 2)(x + 1)` },
+    { n: 42, afterSeg:  64, title: `CHECK IT — MULTIPLY HER BRACKETS OUT`, onScreen: `−2 × 1 = −2` },
+    { n: 43, afterSeg:  65, title: `COLLECT HER MIDDLE TERM`, onScreen: `red · she gets 3x² + x − 2` },
+    { n: 44, afterSeg:  66, title: `NOW COMPARE IT WITH THE QUESTION`, onScreen: `red · +x ≠ −5x ✗` },
+    { n: 45, afterSeg:  67, title: `RIGHT NUMBERS, WRONG PLACES`, onScreen: `so swap them and check again` },
+    { n: 46, afterSeg:  69, title: `PUT THE 2 WITH THE X`, onScreen: `(3x + 1)(x − 2)` },
+    { n: 47, afterSeg:  71, title: `CHECK THE MIDDLE AGAIN`, onScreen: `−6x + x = −5x ✓` },
+    { n: 48, afterSeg:  72, title: `ANSWER`, onScreen: `(3x + 1)(x − 2) ✓ (boxed)` },
+    { n: 49, afterSeg:  73, title: `THIS IS NOT GUESSING`, onScreen: `try it · check the middle · swap if it is wrong` },
+    { n: 50, afterSeg:  74, title: `TWO MORE TO KNOW BY SIGHT`, onScreen: `TWO MORE TO KNOW BY SIGHT` },
+    { n: 51, afterSeg:  75, title: `FOUR TERMS`, onScreen: `x³ + 3x² − 4x − 12 · factorise fully` },
+    { n: 52, afterSeg:  76, title: `TAKE THEM IN PAIRS`, onScreen: `x³ + 3x² | −4x − 12` },
+    { n: 53, afterSeg:  77, title: `THE FIRST TWO`, onScreen: `x³ + 3x² = x²(x + 3)` },
+    { n: 54, afterSeg:  78, title: `NOW THE LAST TWO`, onScreen: `−4x − 12 = −4(x + 3)` },
+    { n: 55, afterSeg:  80, title: `THE TWO BRACKETS ARE THE SAME`, onScreen: `both of them say (x + 3)` },
+    { n: 56, afterSeg:  82, title: `SO TAKE THAT BRACKET OUT`, onScreen: `(x + 3)(x² − 4)` },
+    { n: 57, afterSeg:  84, title: `NOT FINISHED — LOOK AT X² − 4`, onScreen: `x² − 4 = (x − 2)(x + 2)` },
+    { n: 58, afterSeg:  85, title: `ANSWER`, onScreen: `(x + 3)(x − 2)(x + 2) ✓ (boxed)` },
+    { n: 59, afterSeg:  86, title: `TWO TERMS, AND BOTH ARE PERFECT CUBES`, onScreen: `x³ is a cube · and 8 is a cube, because 2³ = 8` },
+    { n: 60, afterSeg:  87, title: `DIFFERENCE OF CUBES`, onScreen: `x³ − 8 = (x − 2)(x² + 2x + 4)` },
+    { n: 61, afterSeg:  89, title: `WHERE THE BIG BRACKET COMES FROM`, onScreen: `x² + 2x + 4` },
+    { n: 62, afterSeg:  91, title: `THE THREE SIGNS`, onScreen: `small bracket keeps the sign · middle sign flips · last sign is always a plus` },
+    { n: 63, afterSeg:  92, title: `SUM OF CUBES`, onScreen: `x³ + 27 = (x + 3)(x² − 3x + 9)` },
+    { n: 64, afterSeg:  94, title: `WHERE YOU LOSE MARKS`, onScreen: `WHERE YOU LOSE MARKS` },
+    { n: 65, afterSeg:  95, title: `POINT 1 • COMMON FACTOR FIRST — ALWAYS`, onScreen: `Common factor first — always — it makes everything after it smaller and easier` },
+    { n: 66, afterSeg:  96, title: `POINT 2 • FULLY MEANS FULLY`, onScreen: `Fully means fully — a bracket still holding two squares and a minus is not finished` },
+    { n: 67, afterSeg:  97, title: `POINT 3 • CHECK THE MIDDLE TERM`, onScreen: `Check the middle term — multiply your brackets out again — five seconds, and it catches almost everything` },
+    { n: 68, afterSeg:  98, title: `REMEMBER`, onScreen: `REMEMBER` },
+    { n: 69, afterSeg:  99, title: `POINT 1 • FACTORISING IS EXPANDING, BACKWARDS`, onScreen: `Factorising is expanding, backwards — the answer is always brackets, and you can always check it yourself` },
+    { n: 70, afterSeg: 100, title: `POINT 2 • COUNT THE TERMS`, onScreen: `Count the terms — 2 → squares or cubes · 3 → a trinomial · 4 → group them in pairs` },
+    { n: 71, afterSeg: 101, title: `YOUR TURN`, onScreen: `2x² + 10x + 12 · factorise fully` },
+    { n: 72, afterSeg: 102, title: `PAUSE AND TRY`, onScreen: `PAUSE AND TRY` },
+    { n: 73, afterSeg: 105, title: `NEXT • LINEAR EQUATIONS`, onScreen: `NEXT — EPISODE 3: LINEAR EQUATIONS` },
+  ],
+},
+// ───────────────────────────────────────────────────────────────────────
+// REVISION PART 1 — EPISODE 3: Equations — Linear
+// Paste into the EPISODES array in scripts/generate-maths-podcast-audio.mjs,
+// next to the existing series: 'Revision-Part-1' episode 1 and 2 objects.
+// Slides: unzip into podcasts/Working-It-Out/Revision-Part-1/slides/ep03
+// Run:    node --env-file=.env.local scripts/generate-maths-podcast-audio.mjs Revision-Part-1:3
+// ───────────────────────────────────────────────────────────────────────
+{
+  num: 3,
+  series: 'Revision-Part-1',
+  file: 'Episode 3 - Linear Equations',
+  segs: [
+    { s: 'AMELIA',   t: `Episode three. Linear equations.` },
+    { s: 'MICHAEL',  t: `For two episodes we have been changing the shape of expressions. Today we start solving.` },
+    { s: 'TYLA',     t: `First, my homework.` },
+    { s: 'MICHAEL',  t: `Factorise fully. Two x squared, plus ten x, plus twelve.` },
+    { s: 'TYLA',     t: `Three terms. So it is a trinomial.` },
+    { s: 'MICHAEL',  t: `And what comes before that?` },
+    { s: 'TYLA',     t: `The common factor. Two goes into two, into ten, and into twelve. So I take out a two.` },
+    { s: 'TYLA',     t: `Two x squared divided by two is x squared. Ten x divided by two is five x. And twelve divided by two is six.` },
+    { s: 'TYLA',     t: `So, two, bracket, x squared plus five x plus six.` },
+    { s: 'MICHAEL',  t: `Now the bracket. Two numbers that multiply to six, and add to five.` },
+    { s: 'TYLA',     t: `Two and three. Two times three is six, and two plus three is five.` },
+    { s: 'TYLA',     t: `So it is two, times x plus two, times x plus three.` },
+    { s: 'MICHAEL',  t: `And taking that two out first is why the bracket was easy to see. That is the whole reason common factor goes first.` },
+    { s: 'TYLA',     t: `So what is different about today?` },
+    { s: 'MICHAEL',  t: `Until now, x could be anything. An expression is only a rule. Today there is an equals sign, and that changes everything.` },
+    { s: 'MICHAEL',  t: `An equation says two things are the same. And usually only one value of x makes that true. Your job is to find it.` },
+    { s: 'TYLA',     t: `And linear means?` },
+    { s: 'MICHAEL',  t: `Linear means every x is to the power of one. No x squared. No x cubed. No x underneath a square root.` },
+    { s: 'TYLA',     t: `And why does that matter?` },
+    { s: 'MICHAEL',  t: `Because a linear equation has exactly one answer. One x, one solution. When the x is squared, next episode, there are two.` },
+    { s: 'MICHAEL',  t: `Here is the only idea you need today. Think of the equals sign as the middle of a balance scale.` },
+    { s: 'MICHAEL',  t: `Whatever you do to one side, you must do to the other. Otherwise it stops balancing, and the equation stops being true.` },
+    { s: 'TYLA',     t: `So I can add anything I like, as long as I add it to both sides.` },
+    { s: 'MICHAEL',  t: `Add, subtract, multiply, divide. Both sides, every time. That is the entire topic.` },
+    { s: 'MICHAEL',  t: `And the goal never changes. Get x on its own, on one side.` },
+    { s: 'MICHAEL',  t: `First one. Three, bracket, two x minus five, equals four x plus seven.` },
+    { s: 'TYLA',     t: `There are brackets on the left, and there is an x on both sides.` },
+    { s: 'MICHAEL',  t: `Then that tells you the order. Brackets first. Multiply the three into the bracket.` },
+    { s: 'TYLA',     t: `Three times two x is six x. And three times negative five is negative fifteen.` },
+    { s: 'TYLA',     t: `So six x minus fifteen equals four x plus seven.` },
+    { s: 'MICHAEL',  t: `Now get the x terms onto one side. Take four x off both sides.` },
+    { s: 'TYLA',     t: `Six x minus four x is two x. And on the right, four x minus four x leaves nothing.` },
+    { s: 'TYLA',     t: `So two x minus fifteen equals seven.` },
+    { s: 'MICHAEL',  t: `Now the numbers onto the other side. Add fifteen to both sides.` },
+    { s: 'TYLA',     t: `Negative fifteen plus fifteen is nothing. And seven plus fifteen is twenty two.` },
+    { s: 'TYLA',     t: `So two x equals twenty two.` },
+    { s: 'MICHAEL',  t: `And two x means two times x. So to undo a times, you divide. Divide both sides by two.` },
+    { s: 'TYLA',     t: `Twenty two divided by two is eleven. So x is eleven.` },
+    { s: 'MICHAEL',  t: `Now check it. Put eleven back into the question you were given, not into your own working.` },
+    { s: 'TYLA',     t: `The left side. Two times eleven is twenty two, minus five is seventeen. Three times seventeen is fifty one.` },
+    { s: 'TYLA',     t: `The right side. Four times eleven is forty four, plus seven is fifty one.` },
+    { s: 'TYLA',     t: `Fifty one and fifty one. It balances.` },
+    { s: 'MICHAEL',  t: `That check takes ten seconds, and it is worth every one of them.` },
+    { s: 'MICHAEL',  t: `Second one, and this is a real matric question. November two thousand and eighteen, question two point two.` },
+    { s: 'MICHAEL',  t: `You are given a sequence. Its enth term is negative seven en, plus forty two. Which term is equal to negative one hundred and forty?` },
+    { s: 'TYLA',     t: `So I put negative one hundred and forty where the enth term is.` },
+    { s: 'MICHAEL',  t: `Exactly. And the moment you do that, it stops being a sequences question and becomes a linear equation in en.` },
+    { s: 'TYLA',     t: `Negative seven en, plus forty two, equals negative one hundred and forty.` },
+    { s: 'MICHAEL',  t: `Numbers to the right. Take forty two off both sides.` },
+    { s: 'TYLA',     t: `On the right that gives negative one hundred and forty, minus forty two.` },
+    { s: 'MICHAEL',  t: `Careful here. You are already below zero, and you are going further down, not back up.` },
+    { s: 'TYLA',     t: `So it is negative one hundred and eighty two.` },
+    { s: 'TYLA',     t: `Negative seven en equals negative one hundred and eighty two.` },
+    { s: 'MICHAEL',  t: `Now divide both sides by negative seven.` },
+    { s: 'TYLA',     t: `A negative divided by a negative is a positive. So it is one hundred and eighty two, divided by seven.` },
+    { s: 'TYLA',     t: `Seven into eighteen goes twice, and there is a remainder of four. Bring the two down, and that makes forty two. Seven into forty two goes six times.` },
+    { s: 'TYLA',     t: `So en is twenty six.` },
+    { s: 'MICHAEL',  t: `The twenty sixth term. Three marks, and every one of them is linear work.` },
+    { s: 'TYLA',     t: `But that came out of a sequences question.` },
+    { s: 'MICHAEL',  t: `It did, and that is the point. Nobody asks you to solve a linear equation on its own in matric. They hide one inside almost every question, and then they mark it.` },
+    { s: 'MICHAEL',  t: `Third one. And this is where the marks actually go. Fractions.` },
+    { s: 'MICHAEL',  t: `x divided by two, plus, bracket x plus three, divided by three, equals six.` },
+    { s: 'TYLA',     t: `I do not like fractions.` },
+    { s: 'MICHAEL',  t: `Nobody does. So get rid of them. Multiply every term by a number that both bottoms divide into.` },
+    { s: 'TYLA',     t: `Two and three both go into six.` },
+    { s: 'MICHAEL',  t: `Six it is. Now multiply each term by six. The quick way is to divide the six by the bottom of that term first, and then multiply by what is on top. And listen to the word every.` },
+    { s: 'TYLA',     t: `Six times x divided by two. Six divided by two is three, so that gives three x.` },
+    { s: 'TYLA',     t: `Six times, bracket x plus three, divided by three. Six divided by three is two, so that gives two, bracket x plus three.` },
+    { s: 'TYLA',     t: `So, three x, plus two bracket x plus three, equals six.` },
+    { s: 'MICHAEL',  t: `Stop there. Look at the right hand side.` },
+    { s: 'TYLA',     t: `I left the six alone.` },
+    { s: 'MICHAEL',  t: `You did. And that is the mistake almost everybody makes. The six is a term as well. It has to be multiplied like all the others.` },
+    { s: 'MICHAEL',  t: `But finish it your way first, so you can see what it costs you.` },
+    { s: 'TYLA',     t: `Two times x is two x, and two times three is six. So three x, plus two x, plus six, equals six.` },
+    { s: 'TYLA',     t: `Five x plus six equals six. So five x is nothing. And if five times something is nothing, that something has to be zero. So x is zero.` },
+    { s: 'MICHAEL',  t: `Now test it. Put zero into the question.` },
+    { s: 'TYLA',     t: `Zero divided by two is nothing. And zero plus three, divided by three, is one.` },
+    { s: 'TYLA',     t: `That gives one. But the question says six. So I am wrong.` },
+    { s: 'MICHAEL',  t: `You are. Go back, and multiply the six as well.` },
+    { s: 'TYLA',     t: `Six times six is thirty six.` },
+    { s: 'TYLA',     t: `So three x, plus two bracket x plus three, equals thirty six.` },
+    { s: 'MICHAEL',  t: `Now open the bracket.` },
+    { s: 'TYLA',     t: `Two times x is two x. Two times three is six. So three x plus two x plus six equals thirty six.` },
+    { s: 'TYLA',     t: `Five x plus six equals thirty six.` },
+    { s: 'MICHAEL',  t: `Take six off both sides, then divide by five.` },
+    { s: 'TYLA',     t: `Five x equals thirty. And thirty divided by five is six. So x is six.` },
+    { s: 'MICHAEL',  t: `Test it again.` },
+    { s: 'TYLA',     t: `Six divided by two is three. And six plus three, divided by three, is three. Three plus three is six.` },
+    { s: 'TYLA',     t: `Six. It matches.` },
+    { s: 'MICHAEL',  t: `One last thing, and it is a rule people lose marks on for the whole of Grade twelve. Inequalities.` },
+    { s: 'MICHAEL',  t: `An inequality is solved exactly like an equation, with one extra rule at the end.` },
+    { s: 'MICHAEL',  t: `Negative three x, plus five, is greater than fourteen.` },
+    { s: 'TYLA',     t: `Take five off both sides. Negative three x is greater than nine.` },
+    { s: 'MICHAEL',  t: `Now divide both sides by negative three. And here is the rule. When you multiply or divide by a negative, the sign turns around.` },
+    { s: 'TYLA',     t: `So x is less than negative three.` },
+    { s: 'TYLA',     t: `But why does it turn around?` },
+    { s: 'MICHAEL',  t: `Test it and you will see it for yourself. Try x equals negative four.` },
+    { s: 'TYLA',     t: `Negative three times negative four is twelve. Twelve plus five is seventeen. And seventeen is greater than fourteen. So it works.` },
+    { s: 'MICHAEL',  t: `Now try zero, which is above negative three.` },
+    { s: 'TYLA',     t: `Negative three times zero is nothing. Nothing plus five is five. And five is not greater than fourteen.` },
+    { s: 'MICHAEL',  t: `So the answers really are the numbers below negative three. The sign had to turn around, or you would have had the whole thing backwards.` },
+    { s: 'MICHAEL',  t: `Three things.` },
+    { s: 'MICHAEL',  t: `Number one. Whatever you do, do it to both sides, and to every term.` },
+    { s: 'MICHAEL',  t: `Number two. Fractions. Multiply every term by the bottom numbers, including the term that looks like it does not need it.` },
+    { s: 'MICHAEL',  t: `Number three. Dividing by a negative. In an equation it only changes the sign of your answer. In an inequality it turns the sign around as well.` },
+    { s: 'MICHAEL',  t: `Two things to remember.` },
+    { s: 'MICHAEL',  t: `One. The order never changes. Brackets, then the fractions away, then the x terms to one side, then the numbers to the other, then divide.` },
+    { s: 'MICHAEL',  t: `Two. Always test your answer in the original question. A linear equation has one answer, so if it does not fit, it is wrong.` },
+    { s: 'MICHAEL',  t: `Here is your question. Bracket x minus one, divided by four, plus x divided by two, equals five.` },
+    { s: 'MICHAEL',  t: `Pause and try it. I will wait.`, pause: 3.0 },
+    { s: 'MICHAEL',  t: `I will give you the answer next time.` },
+    { s: 'TYLA',     t: `And what is next time?` },
+    { s: 'MICHAEL',  t: `Next time the x is squared. And a squared x gives you two answers, not one. Episode four. Quadratic equations.` },
+  ],
+  slides: [
+    { n:  1, afterSeg:   0, title: `REVISION 1 • EPISODE 3 • LINEAR EQUATIONS`, onScreen: `EPISODE 3 — LINEAR EQUATIONS` },
+    { n:  2, afterSeg:   1, title: `WE HAVE BEEN CHANGING THEIR SHAPE`, onScreen: `two episodes of that — today we start solving them` },
+    { n:  3, afterSeg:   3, title: `YOUR HOMEWORK`, onScreen: `2x² + 10x + 12 · factorise fully` },
+    { n:  4, afterSeg:   4, title: `COUNT THE TERMS`, onScreen: `three terms → a trinomial` },
+    { n:  5, afterSeg:   6, title: `BUT COMMON FACTOR FIRST`, onScreen: `so take out the 2` },
+    { n:  6, afterSeg:   8, title: `WHAT IS LEFT INSIDE`, onScreen: `2(x² + 5x + 6)` },
+    { n:  7, afterSeg:  10, title: `TWO NUMBERS: × TO 6, + TO 5`, onScreen: `x² + 5x + 6 = (x + 2)(x + 3)` },
+    { n:  8, afterSeg:  11, title: `ANSWER`, onScreen: `2(x + 2)(x + 3) ✓ (boxed)` },
+    { n:  9, afterSeg:  12, title: `WHY THE COMMON FACTOR WENT FIRST`, onScreen: `that is the whole reason it goes first` },
+    { n: 10, afterSeg:  15, title: `COMPARE`, onScreen: `AN EXPRESSION x can be anything — it is only a rule · AN EQUATION there is an equals sign — one x fits` },
+    { n: 11, afterSeg:  17, title: `LINEAR`, onScreen: `that is what the word means — nothing more` },
+    { n: 12, afterSeg:  19, title: `ONE X → ONE ANSWER`, onScreen: `next episode the x is squared, and then there are two` },
+    { n: 13, afterSeg:  20, title: `THINK OF IT AS A BALANCE`, onScreen: `THINK OF IT AS A BALANCE` },
+    { n: 14, afterSeg:  21, title: `THE ONLY RULE TODAY`, onScreen: `add · subtract · multiply · divide — both sides, every time` },
+    { n: 15, afterSeg:  24, title: `THE GOAL IS ALWAYS X ALONE ON ONE SIDE`, onScreen: `everything you do is aimed at that` },
+    { n: 16, afterSeg:  25, title: `EXAMPLE 1`, onScreen: `3(2x − 5) = 4x + 7 · solve for x` },
+    { n: 17, afterSeg:  27, title: `SO THE ORDER IS`, onScreen: `brackets first · x terms to one side · numbers to the other side · then divide` },
+    { n: 18, afterSeg:  29, title: `BRACKETS FIRST`, onScreen: `6x − 15 = 4x + 7` },
+    { n: 19, afterSeg:  32, title: `TAKE 4X OFF BOTH SIDES`, onScreen: `2x − 15 = 7` },
+    { n: 20, afterSeg:  35, title: `ADD 15 TO BOTH SIDES`, onScreen: `2x = 22` },
+    { n: 21, afterSeg:  37, title: `2X MEANS 2 × X — SO DIVIDE BOTH SIDES BY 2`, onScreen: `x = 11 ✓ (boxed)` },
+    { n: 22, afterSeg:  40, title: `THE LEFT SIDE VS THE RIGHT SIDE`, onScreen: `51 = 51 ✓` },
+    { n: 23, afterSeg:  42, title: `TEN SECONDS`, onScreen: `always test in the original question` },
+    { n: 24, afterSeg:  43, title: `NSC PAPER 1 • NOVEMBER 2018`, onScreen: `NSC Mathematics P1 · November 2018 · Question 2.2 · 3 marks` },
+    { n: 25, afterSeg:  44, title: `QUESTION 2.2`, onScreen: `Tₙ = −7n + 42 · Determine the value of n for which Tₙ = −140.` },
+    { n: 26, afterSeg:  45, title: `SUBSTITUTE`, onScreen: `put −140 where Tₙ is` },
+    { n: 27, afterSeg:  47, title: `NOW IT IS A LINEAR EQUATION IN N`, onScreen: `−7n + 42 = −140` },
+    { n: 28, afterSeg:  49, title: `TAKE 42 OFF BOTH SIDES`, onScreen: `−7n = −140 − 42` },
+    { n: 29, afterSeg:  51, title: `ALREADY BELOW ZERO, GOING FURTHER DOWN`, onScreen: `−7n = −182` },
+    { n: 30, afterSeg:  54, title: `DIVIDE BOTH SIDES BY −7`, onScreen: `n = 182 divided by 7` },
+    { n: 31, afterSeg:  55, title: `THE LONG DIVISION`, onScreen: `182 divided by 7 = 26` },
+    { n: 32, afterSeg:  57, title: `ANSWER`, onScreen: `the 26th term is −140 ✓ (boxed)` },
+    { n: 33, afterSeg:  59, title: `NOBODY ASKS THIS ON ITS OWN`, onScreen: `all three marks here were linear work` },
+    { n: 34, afterSeg:  61, title: `EXAMPLE 3`, onScreen: `(x)/(2) + (x + 3)/(3) = 6 · where the marks actually go` },
+    { n: 35, afterSeg:  64, title: `GET RID OF THE FRACTIONS`, onScreen: `2 and 3 both go into 6` },
+    { n: 36, afterSeg:  66, title: `MULTIPLY BY 6 — THE FIRST TERM`, onScreen: `= 3x` },
+    { n: 37, afterSeg:  67, title: `AND THE SECOND TERM`, onScreen: `= 2(x + 3)` },
+    { n: 38, afterSeg:  68, title: `SO FAR SHE HAS`, onScreen: `3x + 2(x + 3) = 6` },
+    { n: 39, afterSeg:  70, title: `LOOK AT THE RIGHT HAND SIDE`, onScreen: `red · the 6 was left alone ✗` },
+    { n: 40, afterSeg:  71, title: `EVERY TERM MEANS EVERY TERM`, onScreen: `this is the most common mistake in the whole topic` },
+    { n: 41, afterSeg:  74, title: `FINISH IT HER WAY`, onScreen: `red · x = 0` },
+    { n: 42, afterSeg:  77, title: `TEST 0 IN THE QUESTION`, onScreen: `red · 1 ≠ 6 ✗` },
+    { n: 43, afterSeg:  79, title: `GO BACK — MULTIPLY THE 6 AS WELL`, onScreen: `3x + 2(x + 3) = 36` },
+    { n: 44, afterSeg:  82, title: `NOW OPEN THE BRACKET`, onScreen: `3x + 2x + 6 = 36` },
+    { n: 45, afterSeg:  85, title: `TAKE 6 OFF, THEN DIVIDE BY 5`, onScreen: `x = 6 ✓ (boxed)` },
+    { n: 46, afterSeg:  88, title: `TEST IT`, onScreen: `= 6 ✓ it matches ✓ (boxed)` },
+    { n: 47, afterSeg:  89, title: `ONE EXTRA RULE — INEQUALITIES`, onScreen: `ONE EXTRA RULE — INEQUALITIES` },
+    { n: 48, afterSeg:  90, title: `AN INEQUALITY`, onScreen: `greater than · less than · at least · at most` },
+    { n: 49, afterSeg:  91, title: `INEQUALITIES`, onScreen: `−3x + 5 > 14 · solve for x` },
+    { n: 50, afterSeg:  92, title: `TAKE 5 OFF BOTH SIDES`, onScreen: `−3x > 9` },
+    { n: 51, afterSeg:  93, title: `THE ONE EXTRA RULE`, onScreen: `× or ÷ by a negative → the sign turns around` },
+    { n: 52, afterSeg:  94, title: `DIVIDE BY −3 — AND TURN THE SIGN AROUND`, onScreen: `x < −3 ✓ (boxed)` },
+    { n: 53, afterSeg:  97, title: `WHY? TEST X = −4 (BELOW −3)`, onScreen: `17 > 14 ✓` },
+    { n: 54, afterSeg:  99, title: `NOW TEST X = 0 (ABOVE −3)`, onScreen: `red · 5 is not > 14 ✗` },
+    { n: 55, afterSeg: 100, title: `THE ANSWERS REALLY ARE BELOW NEGATIVE THREE`, onScreen: `without the flip you would have had the whole thing backwards` },
+    { n: 56, afterSeg: 101, title: `WHERE YOU LOSE MARKS`, onScreen: `WHERE YOU LOSE MARKS` },
+    { n: 57, afterSeg: 102, title: `POINT 1 • BOTH SIDES, AND EVERY TERM`, onScreen: `Both sides, and every term — change one side only and it stops being true` },
+    { n: 58, afterSeg: 103, title: `POINT 2 • FRACTIONS — MULTIPLY EVERY TERM`, onScreen: `Fractions — multiply every term — including the one that has no fraction under it` },
+    { n: 59, afterSeg: 104, title: `POINT 3 • DIVIDING BY A NEGATIVE`, onScreen: `Dividing by a negative — equation → the answer changes sign · inequality → the sign turns around too` },
+    { n: 60, afterSeg: 105, title: `REMEMBER`, onScreen: `REMEMBER` },
+    { n: 61, afterSeg: 106, title: `POINT 1 • THE ORDER NEVER CHANGES`, onScreen: `The order never changes — brackets → fractions away → x to one side → numbers to the other → divide` },
+    { n: 62, afterSeg: 107, title: `POINT 2 • TEST YOUR ANSWER IN THE ORIGINAL`, onScreen: `Test your answer in the original — one x, one answer — if it does not fit, it is wrong` },
+    { n: 63, afterSeg: 108, title: `YOUR TURN`, onScreen: `(x − 1)/(4) + (x)/(2) = 5 · solve for x` },
+    { n: 64, afterSeg: 109, title: `PAUSE AND TRY`, onScreen: `PAUSE AND TRY` },
+    { n: 65, afterSeg: 112, title: `NEXT • QUADRATIC EQUATIONS`, onScreen: `NEXT — EPISODE 4: QUADRATIC EQUATIONS` },
+  ],
+},
+];
+
+// ─────────────────────────────────────────────────────────────────────────
+
+function stripTags(text) {
+  return text.replace(/\[[a-zA-Z ]+\]\s*/g, '').trim();
+}
+
+function pad(n, len = 4) { return String(n).padStart(len, '0'); }
+
+function requestTTS(text, voiceId, modelId) {
+  return new Promise((resolve, reject) => {
+    const body = JSON.stringify({
+      text,
+      model_id: modelId,
+      voice_settings: voiceSettingsFor(modelId),
+    });
+    const req = https.request({
+      hostname: 'api.elevenlabs.io',
+      path: `/v1/text-to-speech/${voiceId}`,
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'xi-api-key': ELEVENLABS_KEY,
+        'Accept': 'audio/mpeg',
+      },
+    }, (res) => {
+      const chunks = [];
+      res.on('data', c => chunks.push(c));
+      res.on('end', () => {
+        if (res.statusCode !== 200) {
+          reject(new Error(`${res.statusCode}: ${Buffer.concat(chunks)}`));
+        } else {
+          resolve(Buffer.concat(chunks));
+        }
+      });
+    });
+    req.on('error', reject);
+    req.write(body);
+    req.end();
+  });
+}
+
+async function generateAudio(text, voiceId, outputPath) {
+  try {
+    const buf = await requestTTS(text, voiceId, PRIMARY_MODEL);
+    fs.writeFileSync(outputPath, buf);
+    return 'v3';
+  } catch (e) {
+    console.warn(`  ! ${PRIMARY_MODEL} failed (${e.message.slice(0, 300)}) — retrying with ${FALLBACK_MODEL}`);
+    const buf = await requestTTS(stripTags(text), voiceId, FALLBACK_MODEL);
+    fs.writeFileSync(outputPath, buf);
+    return 'fallback';
+  }
+}
+
+async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+function hasFfmpeg() {
+  try { execSync('ffmpeg -version', { stdio: 'ignore' }); return true; }
+  catch { return false; }
+}
+
+function esc(p) { return p.replace(/'/g, "'\\''"); }
+
+function probeDuration(file) {
+  try {
+    return parseFloat(execSync(`ffprobe -v quiet -show_entries format=duration -of csv=p=0 "${file}"`).toString().trim());
+  } catch { return NaN; }
+}
+
+function silenceOf(seconds, dir) {
+  const f = path.join(dir, `_silence_${String(seconds).replace('.', '_')}.mp3`);
+  if (!fs.existsSync(f)) {
+    execSync(`ffmpeg -y -f lavfi -i anullsrc=r=44100:cl=mono -t ${seconds} -q:a 9 "${f}"`, { stdio: 'ignore' });
+  }
+  return f;
+}
+
+function timecode(sec) {
+  const m = Math.floor(sec / 60), s = sec - m * 60;
+  return `${String(m).padStart(2, '0')}:${s.toFixed(3).padStart(6, '0')}`;
+}
+
+function csvCell(v) { return `"${String(v).replace(/"/g, '""')}"`; }
+
+// Each series numbers its episodes from 1, so every series needs its own
+// folder — otherwise Revision episode 1 overwrites Sequences episode 1, and its
+// cached clips get silently reused. Episodes with no `series` keep the old paths.
+function outDirFor(ep) {
+  return ep.series ? path.join(OUT_DIR, ep.series) : OUT_DIR;
+}
+function tmpDirFor(ep) {
+  const base = ep.series ? path.join(TMP_ROOT, slugifyFolder(ep.series)) : TMP_ROOT;
+  return path.join(base, slugifyFolder(ep.file));
+}
+
+// A cached clip is only valid if the LINE TEXT and VOICE still match, and it was
+// made with the primary model. Without this the cache is keyed on line index
+// alone, so editing a script line silently reuses the old audio.
+function clipHash(text, voiceId) {
+  return crypto.createHash('sha1').update(`${voiceId}|${text}`).digest('hex').slice(0, 16);
+}
+
+function slugifyFolder(name) {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+
+function writeTimings(ep, files, starts, total) {
+  if (!starts.some(v => Number.isFinite(v))) {
+    console.warn('  ⚠ ffprobe unavailable — timing CSVs skipped.');
+    return;
+  }
+
+  // mm:ss.t  ·  and the same stamp as mm-ss-t for filenames
+  const stamp = (sec, sep) => {
+    const m = Math.floor(sec / 60);
+    const s = Math.floor(sec % 60);
+    const t = Math.floor((sec % 1) * 10);
+    return sep === ':' ? `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}.${t}`
+                       : `${String(m).padStart(2,'0')}-${String(s).padStart(2,'0')}-${t}`;
+  };
+  const slug = (s) => s.toUpperCase().replace(/[^A-Z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 46);
+
+  // ---- line timings (for finding a fluffed line) ----
+  const lineRows = [['line', 'speaker', 'start', 'seconds', 'text'].join(',')];
+  files.forEach((f, i) => {
+    if (!Number.isFinite(starts[f.seg])) return;
+    const next = Number.isFinite(starts[files[i + 1]?.seg]) ? starts[files[i + 1].seg] : total;
+    lineRows.push([f.seg, ep.segs[f.seg].s, stamp(starts[f.seg], ':'),
+                   (next - starts[f.seg]).toFixed(3), csvCell(ep.segs[f.seg].t)].join(','));
+  });
+  fs.writeFileSync(path.join(outDirFor(ep), `${ep.file} - line timings.csv`), lineRows.join('\n') + '\n');
+
+  if (!ep.slides?.length) return;
+
+  // ---- slide timings: start, end, filename, title ----
+  // per-episode folders so episodes never overwrite each other's slides
+  fs.mkdirSync(outDirFor(ep), { recursive: true });
+  const epTag  = `ep${String(ep.num).padStart(2, '0')}`;
+  const nested = path.join(outDirFor(ep), 'slides', epTag);
+  if (!fs.existsSync(nested)) {
+    throw new Error(
+      `Slide folder missing: ${nested}\n` +
+      `Put this episode's slide-NN.png files there before running.\n` +
+      `(Refusing to fall back to podcasts/Working-It-Out/slides — that folder ` +
+      `holds episode 1's originals and would silently produce the wrong slides.)`);
+  }
+  const srcDir = nested;
+  const outDir = path.join(outDirFor(ep), 'slides-timed', epTag);
+  fs.mkdirSync(outDir, { recursive: true });
+
+  const rows = [['start', 'end', 'filename', 'title'].join(',')];
+  ep.slides.forEach((s, i) => {
+    const start = i === 0 ? 0 : (starts[s.afterSeg] ?? 0);
+    const nextSlide = ep.slides[i + 1];
+    const end = nextSlide ? (starts[nextSlide.afterSeg] ?? total) : total;
+
+    const nn = String(s.n).padStart(2, '0');
+    const filename = `${nn}_${stamp(start, '-')}_${slug(s.title)}.png`;
+
+    // copy the rendered slide to a name that carries its cue time
+    const from = path.join(srcDir, `slide-${nn}.png`);
+    if (fs.existsSync(from)) fs.copyFileSync(from, path.join(outDir, filename));
+
+    rows.push([stamp(start, ':'), stamp(end, ':'), filename, csvCell(s.title)].join(','));
+  });
+
+  fs.writeFileSync(path.join(outDirFor(ep), `${ep.file} - slide timings.csv`), rows.join('\n') + '\n');
+  console.log(`  ⏱  Timings: ${ep.file} - slide timings.csv`);
+  console.log(`  🖼  Timed slides: ${outDir}`);
+}
+
+async function generateEpisode(ep, ffmpegAvailable, silenceShort, silenceLong) {
+  const epDir = tmpDirFor(ep);
+  fs.mkdirSync(epDir, { recursive: true });
+
+  const files = [];
+  let usedFallback = 0;
+
+  for (let i = 0; i < ep.segs.length; i++) {
+    const seg = ep.segs[i];
+    const voiceId = VOICES[seg.s];
+    const fname = `${pad(i)}_${seg.s.toLowerCase()}.mp3`;
+    const outPath = path.join(epDir, fname);
+    files.push({ path: outPath, isTitle: seg.s === 'AMELIA', pause: seg.pause, seg: i });
+
+    const sidecar = outPath.replace(/\.mp3$/, '.json');
+    const want = clipHash(seg.t, voiceId);
+    if (fs.existsSync(outPath) && fs.statSync(outPath).size > 0) {
+      let meta = null;
+      try { meta = JSON.parse(fs.readFileSync(sidecar, 'utf8')); } catch {}
+      if (!meta) {
+        // Clip predates hashing — adopt it so existing episodes are not re-recorded.
+        fs.writeFileSync(sidecar, JSON.stringify({ hash: want, model: PRIMARY_MODEL }));
+        console.log(`  [${pad(i)}] ${seg.s} — cached (adopted), skipping`);
+        continue;
+      }
+      if (meta.hash === want && meta.model === PRIMARY_MODEL) {
+        console.log(`  [${pad(i)}] ${seg.s} — cached, skipping`);
+        continue;
+      }
+      const why = meta.hash !== want
+        ? 'TEXT CHANGED'
+        : `was ${meta.model}, retrying ${PRIMARY_MODEL}`;
+      console.log(`  [${pad(i)}] ${seg.s} — ${why} → re-recording`);
+    }
+
+    console.log(`  [${pad(i)}] ${seg.s}: ${seg.t.slice(0, 60)}${seg.t.length > 60 ? '...' : ''}`);
+    try {
+      const mode = await generateAudio(seg.t, voiceId, outPath);
+      fs.writeFileSync(sidecar, JSON.stringify({
+        hash: want,
+        model: mode === 'fallback' ? FALLBACK_MODEL : PRIMARY_MODEL,
+      }));
+      if (mode === 'fallback') usedFallback++;
+    } catch (e) {
+      console.error(`    ✗ FAILED: ${e.message.slice(0, 200)}`);
+    }
+    await sleep(400);
+  }
+
+  const missing = files.filter(f => !fs.existsSync(f.path) || fs.statSync(f.path).size === 0);
+  if (missing.length) {
+    console.warn(`  ⚠ ${missing.length} segment(s) failed in "${ep.file}". Re-run the script to retry just those.`);
+  }
+  if (usedFallback) {
+    console.warn(`  ⚠ ${usedFallback} segment(s) in "${ep.file}" used the ${FALLBACK_MODEL} fallback.`);
+  }
+
+  const outPath = path.join(outDirFor(ep), `${ep.file}.mp3`);
+
+  if (ffmpegAvailable) {
+    const listPath = path.join(epDir, '_concat_list.txt');
+    const lines = [];
+    const starts = [];
+    let cursor = 0;
+
+    for (const f of files) {
+      if (!fs.existsSync(f.path)) continue;
+      if (f.isTitle) { lines.push(`file '${esc(silenceLong)}'`); cursor += 0.9; }
+
+      starts[f.seg] = cursor;
+      lines.push(`file '${esc(f.path)}'`);
+      const d = probeDuration(f.path);
+      cursor += Number.isFinite(d) ? d : 0;
+
+      const gapSecs = f.pause ?? (f.isTitle ? 0.9 : 0.35);
+      const gapFile = f.pause ? silenceOf(f.pause, epDir) : (f.isTitle ? silenceLong : silenceShort);
+      lines.push(`file '${esc(gapFile)}'`);
+      cursor += gapSecs;
+    }
+    fs.writeFileSync(listPath, lines.join('\n'));
+    execSync(`ffmpeg -y -f concat -safe 0 -i "${listPath}" -c:a libmp3lame -q:a 2 "${outPath}"`, { stdio: 'ignore' });
+    console.log(`  ✅ Saved: ${outPath}`);
+
+    writeTimings(ep, files, starts, cursor);
+  } else {
+    const shortSilence = Buffer.from(SILENCE_SHORT_B64, 'base64');
+    const longSilence = Buffer.from(SILENCE_LONG_B64, 'base64');
+    const out = fs.createWriteStream(outPath);
+    for (const f of files) {
+      if (!fs.existsSync(f.path)) continue;
+      if (f.isTitle) out.write(longSilence);
+      out.write(fs.readFileSync(f.path));
+      out.write(f.isTitle ? longSilence : shortSilence);
+    }
+    out.end();
+    console.log(`  ✅ Saved (raw concat with natural pauses): ${outPath}`);
+  }
+}
+
+async function main() {
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.mkdirSync(TMP_ROOT, { recursive: true });
+
+  // Every series numbers from 1, so a bare number is ambiguous once more than one
+  // series exists. Select with  <series>:<num>  (e.g. Revision-Part-1:1), or a bare
+  // number only when it matches exactly one episode.
+  const args      = process.argv.slice(2).filter(a => a !== '--keep');
+  const tagged    = args.filter(a => a.includes(':'));
+  const requested = args.filter(a => !a.includes(':')).map(Number)
+                        .filter(n => Number.isInteger(n) && n >= 1);
+
+  const key = ep => `${ep.series || 'Working-It-Out'}:${ep.num}`;
+  let episodesToRun = EPISODES;
+
+  if (tagged.length || requested.length) {
+    const byTag = EPISODES.filter(ep =>
+      tagged.some(t => key(ep).toLowerCase() === t.toLowerCase()));
+    const byNum = EPISODES.filter(ep => requested.includes(ep.num));
+
+    for (const n of requested) {
+      const hits = EPISODES.filter(ep => ep.num === n);
+      if (hits.length > 1) {
+        console.error(
+          `\n✗ Episode ${n} is ambiguous — ${hits.length} series have an episode ${n}:\n` +
+          hits.map(ep => `    ${key(ep)}   ${ep.file}`).join('\n') +
+          `\n\n  Re-run naming the series, e.g.:\n` +
+          `    node --env-file=.env.local scripts/generate-maths-podcast-audio.mjs ${key(hits[0])}\n`);
+        process.exit(1);
+      }
+    }
+    episodesToRun = [...new Set([...byTag, ...byNum])];
+    if (!episodesToRun.length) {
+      console.error(`\n✗ Nothing matched. Available:\n` +
+        EPISODES.map(ep => `    ${key(ep)}   ${ep.file}`).join('\n') + '\n');
+      process.exit(1);
+    }
+  }
+
+  // --keep: reuse the cached clips instead of re-recording (free).
+  // Use it when only slides, titles or timings changed.
+  const keep = process.argv.slice(2).includes('--keep');
+
+  if (episodesToRun.length < EPISODES.length && keep) {
+    console.log(`Re-stitching only: ${episodesToRun.map(e => `${e.series || 'Sequences-and-Series'}:${e.num}`).join(', ')} — using cached clips, nothing will be re-recorded.\n`);
+  }
+
+  if (episodesToRun.length < EPISODES.length && !keep) {
+    console.log(`Re-recording only: ${episodesToRun.map(e => `${e.series || 'Sequences-and-Series'}:${e.num}`).join(', ')}\n`);
+    for (const ep of episodesToRun) {
+      const epDir = tmpDirFor(ep);
+      if (fs.existsSync(epDir)) fs.rmSync(epDir, { recursive: true, force: true });
+      const outPath = path.join(outDirFor(ep), `${ep.file}.mp3`);
+      if (fs.existsSync(outPath)) fs.rmSync(outPath, { force: true });
+    }
+  }
+
+  const ffmpegAvailable = hasFfmpeg();
+  let silenceShort, silenceLong;
+  if (ffmpegAvailable) {
+    silenceShort = path.join(TMP_ROOT, '_silence_short.mp3');
+    silenceLong = path.join(TMP_ROOT, '_silence_long.mp3');
+    if (!fs.existsSync(silenceShort)) {
+      execSync(`ffmpeg -y -f lavfi -i anullsrc=r=44100:cl=mono -t 0.35 -q:a 9 "${silenceShort}"`, { stdio: 'ignore' });
+    }
+    if (!fs.existsSync(silenceLong)) {
+      execSync(`ffmpeg -y -f lavfi -i anullsrc=r=44100:cl=mono -t 0.9 -q:a 9 "${silenceLong}"`, { stdio: 'ignore' });
+    }
+  } else {
+    console.warn('⚠ ffmpeg not found — episodes will be raw-concatenated using embedded silence for pauses. Install ffmpeg for cleaner pacing.\n');
+  }
+
+  const seriesOf = ep => ep.series ? ep.series.replace(/-/g, ' ') : 'Sequences & Series';
+  const runningSeries = [...new Set(episodesToRun.map(seriesOf))].join(' + ');
+  console.log(`Working It Out — Grade 12 Maths — ${runningSeries}`);
+  console.log(`Recording: ${episodesToRun.map(e => `${seriesOf(e)} episode ${e.num} — ${e.file.replace(/^Episode \d+ - /, '')}`).join(' · ')}`);
+  console.log(`(${episodesToRun.length} of ${EPISODES.length} registered episodes)\n`);
+
+  for (const ep of episodesToRun) {
+    console.log(`\n▶ ${ep.file}`);
+    await generateEpisode(ep, ffmpegAvailable, silenceShort, silenceLong);
+  }
+
+  console.log(`\n✅ Done. Check ${OUT_DIR} for the final files.`);
+}
+
+main().catch(e => { console.error(e); process.exit(1); });

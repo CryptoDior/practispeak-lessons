@@ -84,7 +84,7 @@ export const reviewTheMarketingMix: Lesson = {
       phrase: 'ALIGN [SOMETHING] WITH [A GOAL]',
       definition: 'To make sure an activity or decision connects to and supports your overall goal.',
       example: 'Every channel we use must align with the goal — if LinkedIn does not contribute to lead generation, we adjust or remove it.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/align-something-with-a-goal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/align-something-with-a-goal.png',
     },
     {
       phrase: 'REVIEW [PERFORMANCE]',

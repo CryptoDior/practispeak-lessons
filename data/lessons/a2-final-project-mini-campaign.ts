@@ -6,7 +6,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
   subtitle: 'Capstone — use everything you have learned to plan and present a real marketing campaign',
   level: 'A2',
   description: 'This is your A2 final project. You will use all the vocabulary and language from your A2 lessons — advertising, offers, launches, meetings, content, digital marketing, events, measurement, and strategy — to plan and present a short marketing campaign. This is your chance to show how far your professional English has come.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a2-final-project-mini-campaign-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a2-final-project-mini-campaign-hero.png',
 
   vocabulary: [
     {
@@ -14,49 +14,49 @@ export const a2FinalProjectMiniCampaign: Lesson = {
       partOfSpeech: 'noun',
       definition: 'What you want to achieve with the campaign — the specific, measurable goal that defines success.',
       example: 'Our objective for this campaign is clear: generate fifty qualified leads in sixty days and achieve an ROI of at least 400%.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a2-final-project-mini-campaign-objective.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a2-final-project-mini-campaign-objective.png',
     },
     {
       word: 'TARGET AUDIENCE',
       partOfSpeech: 'noun',
       definition: 'The specific group of people or companies you want to reach with your campaign — defined by industry, role, company size, or other criteria.',
       example: 'Our target audience is B2B marketing managers at technology companies with between fifty and five hundred employees in the DACH region.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a2-final-project-mini-campaign-target-audience.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a2-final-project-mini-campaign-target-audience.png',
     },
     {
       word: 'MESSAGE',
       partOfSpeech: 'noun',
       definition: 'The core idea you want the audience to remember — usually one clear statement about who you are, what you do, and why it matters.',
       example: 'The campaign message is simple: MarketBridge helps B2B tech companies fill their pipeline with LinkedIn — without wasting budget on channels that do not convert.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a2-final-project-mini-campaign-message.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a2-final-project-mini-campaign-message.png',
     },
     {
       word: 'TIMELINE',
       partOfSpeech: 'noun',
       definition: 'The schedule for the campaign — what happens when, from the first activity to the final review.',
       example: 'The campaign timeline is twelve weeks: two weeks to set up, eight weeks of active promotion, and two weeks for analysis and the final review.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a2-final-project-mini-campaign-timeline.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a2-final-project-mini-campaign-timeline.png',
     },
     {
       word: 'DELIVERABLE',
       partOfSpeech: 'noun',
       definition: 'A specific thing you will produce and hand over — a report, a campaign, a video, a set of ads, or any other defined output.',
       example: 'The deliverables for this campaign are: five LinkedIn posts per week, three email newsletters, one case study, and a monthly performance report.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a2-final-project-mini-campaign-deliverable.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a2-final-project-mini-campaign-deliverable.png',
     },
     {
       word: 'CONVERSION',
       partOfSpeech: 'noun',
       definition: 'When a prospect takes a specific action you wanted them to take — clicking a link, booking a call, or becoming a customer.',
       example: 'Our landing page had a 12% conversion rate — for every hundred visitors, twelve booked a discovery call. That is well above the industry average of 3–5%.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a2-final-project-mini-campaign-conversion.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a2-final-project-mini-campaign-conversion.png',
     },
     {
       word: 'BRIEF',
       partOfSpeech: 'noun',
       definition: 'A written summary of a project — what it is for, who it is for, what needs to be produced, and when it is needed.',
       example: 'Before we start any campaign, I send the client a one-page brief to confirm the objective, target audience, message, and budget — no surprises later.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a2-final-project-mini-campaign-brief.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a2-final-project-mini-campaign-brief.png',
     },
     {
       word: 'PRESENTATION',
@@ -84,7 +84,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
       phrase: 'BUILD TOWARDS [A GOAL]',
       definition: 'To work progressively towards a result — each activity connecting to and supporting the main objective.',
       example: 'Every piece of content we create should build towards the same goal: getting qualified prospects to book a discovery call.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/build-towards-a-goal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/build-towards-a-goal.png',
     },
     {
       phrase: 'SIGN OFF ON [SOMETHING]',
@@ -112,7 +112,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Marcus, thank you for joining us. Today Riley and I are going to [[present:explain a plan or result to an audience]] the mini campaign we have put together for TechFlow's Q4 launch.",
     },
     {
@@ -130,7 +130,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "B2B operations directors and CFOs at manufacturing companies with one hundred to one thousand employees — specifically in Germany, Austria, and Switzerland. That is where TechFlow's strongest [[conversion:when a prospect takes a specific action you want]] data comes from.",
     },
     {
@@ -148,7 +148,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Three channels over twelve weeks. LinkedIn sponsored posts and content for awareness — weeks one to twelve. Email nurturing for [[conversion:when a prospect takes a specific action]] — weeks three to twelve. And one flagship webinar in week eight to generate high-intent leads who are close to buying.',
     },
     {
@@ -166,7 +166,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "It was listed as optional in the original [[brief:the written summary of the project]]. We are recommending it because TechFlow's deal size means [[conversion:prospects taking action to buy]] happens in conversations — not just clicks. The webinar creates that conversation at scale. But we need you to [[sign off on:formally approve]] it before we book the platform and promote it.",
     },
     {

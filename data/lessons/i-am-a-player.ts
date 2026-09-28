@@ -56,14 +56,14 @@ export const iAmAPlayer: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Playing for fun, not to compete seriously.',
       example: 'I am a casual player. I play to relax after school.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/casual.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/casual.png',
     },
     {
       word: 'COMPETITIVE',
       partOfSpeech: 'adjective',
       definition: 'Playing seriously to win and improve your rank.',
       example: 'He is a competitive player. He practises for two hours every day.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/competitive.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/competitive.png',
     },
     {
       word: 'FAVOURITE',
@@ -140,7 +140,7 @@ export const iAmAPlayer: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "Hey! Welcome to the [[lobby:the waiting area before a match]]. What's your [[username:the name you choose for your account]]?",
     },
     {
@@ -152,7 +152,7 @@ export const iAmAPlayer: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "Mostly casual, but I play ranked sometimes. What's your [[rank:a title showing how skilled you are]]?",
     },
     {
@@ -164,7 +164,7 @@ export const iAmAPlayer: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: 'PC. I mainly play in the Asia [[region:the part of the world where your server is]].',
     },
     {
@@ -176,7 +176,7 @@ export const iAmAPlayer: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: 'Both! Solo in the morning, squad on weekends. Who is your [[main:the character you play most]]?',
     },
     {
@@ -188,7 +188,7 @@ export const iAmAPlayer: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: 'For sure! The match starts in 30 seconds. Good luck, Kai!',
     },
     {

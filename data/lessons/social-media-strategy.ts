@@ -14,7 +14,7 @@ export const socialMediaStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The number of people who interact with your content — for example: likes, comments, and shares.',
       example: 'Our engagement rate went up by 30% after we started posting video content on LinkedIn.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/engagement.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/engagement.png',
     },
     {
       word: 'REACH',
@@ -49,7 +49,7 @@ export const socialMediaStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Anything you post on social media — a photo, video, article, or text.',
       example: 'We post a mix of content — tips, case studies, behind-the-scenes posts, and product updates.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/content.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/content.png',
     },
     {
       word: 'PLATFORM',
@@ -63,7 +63,7 @@ export const socialMediaStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Data and numbers that show how your social media content is performing.',
       example: 'We check our analytics every Monday to see which posts performed best last week.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/analytics.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/analytics.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const socialMediaStrategy: Lesson = {
       phrase: 'BUILD AN AUDIENCE',
       definition: 'Grow a group of followers who regularly see and interact with your content.',
       example: 'We built an audience of 8,000 followers on LinkedIn over two years by posting consistently.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/build-an-audience.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/build-an-audience.png',
     },
     {
       phrase: 'POST CONSISTENTLY',
@@ -84,7 +84,7 @@ export const socialMediaStrategy: Lesson = {
       phrase: 'DRIVE ENGAGEMENT',
       definition: 'Create content that makes people want to like, comment, or share.',
       example: 'Questions and polls drive more engagement than simple product posts.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/drive-engagement.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/drive-engagement.png',
     },
     {
       phrase: 'GO VIRAL',
@@ -96,7 +96,7 @@ export const socialMediaStrategy: Lesson = {
       phrase: 'BOOST A POST',
       definition: 'Pay to show a social media post to more people beyond your existing followers.',
       example: 'We boosted the post on LinkedIn to reach marketing managers who do not follow us yet.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/boost-a-post.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/boost-a-post.png',
     },
     {
       phrase: 'TRACK PERFORMANCE',
@@ -112,7 +112,7 @@ export const socialMediaStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Riley, can you walk me through Brightline's social media strategy? I want to build a better one for my agency.",
     },
     {
@@ -124,7 +124,7 @@ export const socialMediaStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And how do you decide what [[content:anything you post — a photo, video, article, or text]] to post?',
     },
     {
@@ -136,7 +136,7 @@ export const socialMediaStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What is the difference between reach and [[impression:the number of times your content is shown]]s?',
     },
     {
@@ -148,7 +148,7 @@ export const socialMediaStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And [[engagement:the number of people who interact with your content — likes, comments, and shares]]? Is that more important than reach?',
     },
     {
@@ -160,7 +160,7 @@ export const socialMediaStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Do you use [[hashtag:a word with a # symbol used to group content by topic]]s?',
     },
     {
@@ -172,7 +172,7 @@ export const socialMediaStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Have you worked with an [[influencer:a person with a large following who can promote your brand]]?',
     },
     {
@@ -184,7 +184,7 @@ export const socialMediaStrategy: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'This is very helpful. I think I need to focus on LinkedIn and post more consistently.',
     },
     {

@@ -6,7 +6,7 @@ export const aSimpleMarketingPlan: Lesson = {
   subtitle: 'How to talk about plans and goals in marketing',
   level: 'A1-A2',
   description: 'Learn the words for making a simple marketing plan and how to say what you want to do, how you will do it, and what you want to get.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-simple-marketing-plan-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-simple-marketing-plan-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const aSimpleMarketingPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Something you want to do or get.',
       example: 'Our goal is to get 500 new sign-ups this month.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-simple-marketing-plan-goal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-simple-marketing-plan-goal.png',
     },
     {
       word: 'PLAN',
@@ -28,7 +28,7 @@ export const aSimpleMarketingPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The way you decide to do something to get a good result.',
       example: 'Our strategy is to use social media to reach young business owners.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-simple-marketing-plan-strategy.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-simple-marketing-plan-strategy.png',
     },
     {
       word: 'IDEA',
@@ -42,7 +42,7 @@ export const aSimpleMarketingPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A set of activities to tell people about a product or brand.',
       example: 'The campaign will run for four weeks on social media and email.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-simple-marketing-plan-campaign.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-simple-marketing-plan-campaign.png',
     },
     {
       word: 'STEP',
@@ -56,14 +56,14 @@ export const aSimpleMarketingPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: 'What happens because of something you do.',
       example: 'The results of the last campaign were very good — we got 420 new sign-ups.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-simple-marketing-plan-result.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-simple-marketing-plan-result.png',
     },
     {
       word: 'ACTION',
       partOfSpeech: 'noun',
       definition: 'Something you do as part of a plan.',
       example: 'Our first action is to create content for social media.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-simple-marketing-plan-action.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-simple-marketing-plan-action.png',
     }
   ],
 
@@ -96,13 +96,13 @@ export const aSimpleMarketingPlan: Lesson = {
       phrase: 'COME UP WITH',
       definition: 'Think of a new idea.',
       example: 'The team came up with three great ideas for the next campaign.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-simple-marketing-plan-come-up-with.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-simple-marketing-plan-come-up-with.png',
     },
     {
       phrase: 'BUILD ON',
       definition: 'Use something that worked before to make something even better.',
       example: 'The last campaign worked well, so we want to build on it next month.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-simple-marketing-plan-build-on.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-simple-marketing-plan-build-on.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const aSimpleMarketingPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Riley, can you walk me through the [[plan:a set of ideas about how to do something]] for next month's campaign?",
     },
     {
@@ -124,7 +124,7 @@ export const aSimpleMarketingPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'That is a clear goal. What is the [[strategy:the way you decide to do something to get a good result]]?',
     },
     {
@@ -136,7 +136,7 @@ export const aSimpleMarketingPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I like that. How long will the [[campaign:a set of activities to tell people about a product or brand]] run?',
     },
     {
@@ -148,7 +148,7 @@ export const aSimpleMarketingPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And what is the first [[action:something you do as part of a plan]]?',
     },
     {
@@ -160,7 +160,7 @@ export const aSimpleMarketingPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'How do you measure the [[result:what happens because of something you do]]s?',
     },
     {
@@ -172,7 +172,7 @@ export const aSimpleMarketingPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'This sounds like a very clear plan, Riley. Do you write it all down?',
     },
     {
@@ -184,7 +184,7 @@ export const aSimpleMarketingPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I might use this way of planning for my agency too. Simple and clear.',
     }
   ],

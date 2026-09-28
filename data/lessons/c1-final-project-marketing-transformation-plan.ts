@@ -160,7 +160,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Ready. Opening.",
     },
     {
@@ -172,7 +172,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Challenge: 'You say the status quo is not an option. We have heard that before. Every transformation proposal says the burning platform is critical and urgent. Why is this one different?'",
     },
     {
@@ -184,7 +184,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Better. [[Value creation:the commercial outcome — how the transformation generates measurable financial or strategic return]] section.",
     },
     {
@@ -196,7 +196,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The close.",
     },
     {

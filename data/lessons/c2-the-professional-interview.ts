@@ -114,7 +114,7 @@ export const c2TheProfessionalInterview: Lesson = {
       phrase: 'FOLLOW UP ON',
       definition: 'To ask or say something that develops a previous point — panels often follow up on answers to test depth.',
       example: '"When the panel follows up on your answer, take it as a good sign — they\'re interested and want to understand more."',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/c2-the-professional-interview-follow-up-on.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/c2-the-professional-interview-follow-up-on.png',
     },
     {
       phrase: 'PRESENT YOURSELF',

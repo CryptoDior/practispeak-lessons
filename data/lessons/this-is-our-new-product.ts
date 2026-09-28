@@ -112,7 +112,7 @@ export const thisIsOurNewProduct: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, we need to write a short [[announce:to tell people something officially and publicly]] ment for our new service. Where do we start?',
     },
     {
@@ -124,7 +124,7 @@ export const thisIsOurNewProduct: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'It is a fully managed LinkedIn service. We write the posts, manage the comments, and send a monthly report. It is for busy marketing managers.',
     },
     {
@@ -136,7 +136,7 @@ export const thisIsOurNewProduct: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'They save time, they look professional on LinkedIn, and they can see their results every month. The best [[feature:a specific thing a product can do]] is the monthly report.',
     },
     {
@@ -148,7 +148,7 @@ export const thisIsOurNewProduct: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I like that. Then we explain what it includes — it [[come with:to include]] a content calendar, weekly posts, and a monthly report.',
     },
     {
@@ -160,7 +160,7 @@ export const thisIsOurNewProduct: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'From the first of July. We are going to [[roll out]] to existing clients first, then open it to everyone.',
     },
     {
@@ -172,7 +172,7 @@ export const thisIsOurNewProduct: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And we can say: 'Visit our website to find out more and see our plans.' I think we have a great announcement.",
     },
     {

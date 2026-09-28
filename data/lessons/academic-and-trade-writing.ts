@@ -6,7 +6,7 @@ export const academicAndTradeWriting: Lesson = {
   subtitle: 'How to write for industry publications, white papers, and professional journals',
   level: 'C1-C2',
   description: 'Writing a blog post and writing for a trade journal are very different things. Industry publications have standards — a clear structure, proper citations, a defined methodology, and language that signals you know what you are talking about. This lesson teaches you the vocabulary and conventions of professional and academic writing so you can produce content that gets taken seriously at the highest level.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/academic-and-trade-writing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/academic-and-trade-writing-hero.png',
 
   vocabulary: [
     {

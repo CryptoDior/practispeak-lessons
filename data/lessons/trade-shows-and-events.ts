@@ -35,7 +35,7 @@ export const tradeShowsAndEvents: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person who attends a conference or trade show — a participant, often representing their company.',
       example: 'Over 400 delegates attended the conference — we spoke to around 60 of them at our booth over two days.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/delegate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/delegate.png',
     },
     {
       word: 'EXHIBITOR',
@@ -118,7 +118,7 @@ export const tradeShowsAndEvents: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I have a draft — it is about three minutes. Is that too long?',
     },
     {
@@ -130,7 +130,7 @@ export const tradeShowsAndEvents: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What should I say about our [[booth:the space a company occupies at a trade show]]? We have a screen and some materials.',
     },
     {
@@ -142,7 +142,7 @@ export const tradeShowsAndEvents: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'How do I approach a [[delegate:person attending the event]] who stops at our booth?',
     },
     {
@@ -154,7 +154,7 @@ export const tradeShowsAndEvents: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about [[networking:meeting and building professional relationships]]? There is an evening dinner on day one.',
     },
     {
@@ -166,7 +166,7 @@ export const tradeShowsAndEvents: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And how soon should I [[follow-up:the action of contacting someone after a meeting]] after the event?',
     },
     {
@@ -178,7 +178,7 @@ export const tradeShowsAndEvents: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'We are going to [[hand out]] the case study [[handout:printed document for visitors]] and track how many [[prospect:potential clients]] s we speak to. Is there anything else?',
     },
     {

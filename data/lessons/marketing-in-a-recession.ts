@@ -166,7 +166,7 @@ export const marketingInARecession: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The messaging does need to change, however. We need to shift from aspiration to [[value messaging:communication that emphasises practical or financial value rather than aspiration]]. Our current campaign is lifestyle-driven. In a period of high [[price sensitivity:how strongly consumers react to price changes — which increases in a recession]], lifestyle messaging feels out of touch. We need to make the value case — quality, longevity, cost-per-use.",
     },
     {
@@ -184,7 +184,7 @@ export const marketingInARecession: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "On [[trading down:when consumers switch from a premium to a cheaper alternative in a downturn]] — 23% of our customers are at risk. We need an accessible entry point so they trade down within our portfolio, not away from it. And we grow [[share of wallet:the percentage of a customer's total spend in a category that goes to your brand]] from existing customers — acquisition cost is too high right now.",
     },
     {
@@ -202,7 +202,7 @@ export const marketingInARecession: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The summary: maintain the budget, shift the message, rationalise the range, defend the core, protect the price. That is the [[recession-proofing:making a brand more resilient against economic downturns]] plan. The brands that execute this consistently are the ones that emerge from a recession with stronger positions than they went in.",
     },
   ],

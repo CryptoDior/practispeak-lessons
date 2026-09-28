@@ -112,7 +112,7 @@ export const howMuchDoesItCost: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Hi Tom — great to speak again. You mentioned you wanted to talk about [[price:the amount of money you pay for a product or service]]s for our LinkedIn service.',
     },
     {
@@ -124,7 +124,7 @@ export const howMuchDoesItCost: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Of course. Before I give you a number, can I ask — what is your [[budget:the amount of money available to spend]] for marketing support each month? It helps me show you the right [[package:a set of services sold together at one price]].',
     },
     {
@@ -136,7 +136,7 @@ export const howMuchDoesItCost: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'That works well. Our starter [[package:a set of services sold together at one price]] is €500 per month — that includes ten posts, comment management, and a monthly report. Our growth plan is €750.',
     },
     {
@@ -148,7 +148,7 @@ export const howMuchDoesItCost: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Yes — we offer a ten percent [[discount:a reduction in the original price]] for clients who pay six months in advance. And we also have a launch [[offer:a special deal for a limited time]] right now — three months for the price of two.',
     },
     {
@@ -160,7 +160,7 @@ export const howMuchDoesItCost: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Yes — we offer a two-week free trial. You see ten example posts and a sample report. If you like what you see, we start the full service.',
     },
     {
@@ -172,7 +172,7 @@ export const howMuchDoesItCost: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Of course — I will send it today. I will include three options so you can choose what works best. Shall I lock in the launch price while the offer is still active?',
     },
     {

@@ -6,7 +6,7 @@ export const describingProductFeatures: Lesson = {
   subtitle: 'How to explain what a product has and what it comes with',
   level: 'A1-A2',
   description: "Learn the simple phrases sales professionals use to describe product features — 'It has…', 'It comes with…', 'It lets you…' — so you can tell customers exactly what they get when they buy.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-product-features-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/describing-product-features-hero.png',
 
   vocabulary: [
     {
@@ -21,42 +21,42 @@ export const describingProductFeatures: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The ability to use or see something.',
       example: 'The trial gives you full access to all features for 14 days.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-product-features-access.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/describing-product-features-access.png',
     },
     {
       word: 'SUPPORT',
       partOfSpeech: 'noun',
       definition: 'Help given to users when something goes wrong.',
       example: 'It comes with 24/7 support by email and live chat.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-product-features-support.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/describing-product-features-support.png',
     },
     {
       word: 'REPORT',
       partOfSpeech: 'noun',
       definition: 'A document or summary that shows data or results.',
       example: 'It lets you download a detailed report at the end of each month.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-product-features-report.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/describing-product-features-report.png',
     },
     {
       word: 'UPDATE',
       partOfSpeech: 'noun',
       definition: 'A new version of software that fixes problems or adds features.',
       example: 'It has automatic updates, so you never have to do it yourself.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-product-features-update.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/describing-product-features-update.png',
     },
     {
       word: 'DASHBOARD',
       partOfSpeech: 'noun',
       definition: 'A screen that shows the most important information in one place.',
       example: 'It has a dashboard where you can see everything your team is working on.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-product-features-dashboard.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/describing-product-features-dashboard.png',
     },
     {
       word: 'TRIAL',
       partOfSpeech: 'noun',
       definition: 'A free period where you can test a product before you buy it.',
       example: 'It comes with a free 14-day trial — no credit card needed.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-product-features-trial.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/describing-product-features-trial.png',
     },
     {
       word: 'LIMIT',
@@ -78,7 +78,7 @@ export const describingProductFeatures: Lesson = {
       phrase: 'IT COMES WITH',
       definition: 'Tell a customer what is included when they buy a product.',
       example: 'It comes with 24/7 support and a free 14-day trial.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-product-features-it-comes-with.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/describing-product-features-it-comes-with.png',
     },
     {
       phrase: 'IT LETS YOU',
@@ -118,7 +118,7 @@ export const describingProductFeatures: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "That's exactly what we need. Does it come with [[storage:space where data or files are kept]] for our files?",
     },
     {
@@ -130,7 +130,7 @@ export const describingProductFeatures: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Good to know. What about [[support:help given to users when something goes wrong]]? If something goes wrong, what do we get?',
     },
     {
@@ -142,7 +142,7 @@ export const describingProductFeatures: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Is there a [[trial:a free period where you can test a product before you buy it]]? I'd like to test it before we commit.",
     },
     {
@@ -154,7 +154,7 @@ export const describingProductFeatures: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And does it have automatic [[update:a new version of software that fixes problems or adds features]]s, or do we manage that ourselves?',
     },
     {
@@ -166,7 +166,7 @@ export const describingProductFeatures: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Can we customize the dashboard?',
     },
     {
@@ -178,7 +178,7 @@ export const describingProductFeatures: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'That sounds perfect. I think this is the right fit for our team.',
     }
   ],

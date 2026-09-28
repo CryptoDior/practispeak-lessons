@@ -21,21 +21,21 @@ export const goodBetterBest: Lesson = {
       partOfSpeech: 'adjective',
       definition: "More good than something else. The comparative form of 'good'.",
       example: 'Our tool is better than the old one — it is faster and easier to use.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/better.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/better.png',
     },
     {
       word: 'BEST',
       partOfSpeech: 'adjective',
       definition: "The most good of all — nothing is higher. The superlative form of 'good'.",
       example: 'I think the Standard Plan is the best option for a team your size.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/best.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/best.png',
     },
     {
       word: 'BIGGER',
       partOfSpeech: 'adjective',
       definition: "Larger in size or number. The comparative form of 'big'.",
       example: 'The Premium Plan gives you a bigger storage limit — three times more than the Basic Plan.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/bigger.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/bigger.png',
     },
     {
       word: 'FASTER',
@@ -49,7 +49,7 @@ export const goodBetterBest: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Costing less money. The comparative form of 'cheap'.",
       example: 'The Basic Plan is cheaper, but it still has all the key features you need.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cheaper.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cheaper.png',
     },
     {
       word: 'PREMIUM',
@@ -72,7 +72,7 @@ export const goodBetterBest: Lesson = {
       phrase: 'COMPARE [X] WITH [Y]',
       definition: 'To put two things side by side to see the differences between them.',
       example: 'Let me compare the Basic Plan with the Standard Plan so you can see what you get for the extra cost.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/compare-x-with-y.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/compare-x-with-y.png',
     },
     {
       phrase: '[X] IS BETTER THAN [Y]',
@@ -96,7 +96,7 @@ export const goodBetterBest: Lesson = {
       phrase: 'COMES WITH MORE',
       definition: 'To say a product includes extra things that another product does not have.',
       example: 'The Standard Plan comes with more storage, more users, and more reporting features than the Basic.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/comes-with-more.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/comes-with-more.png',
     },
     {
       phrase: 'THE BEST CHOICE FOR',
@@ -112,7 +112,7 @@ export const goodBetterBest: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, I am looking at two tools. One is cheaper but the other has more features. How do I [[compare:to look at two things and see how they are different]] them?',
     },
     {
@@ -124,7 +124,7 @@ export const goodBetterBest: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I think speed is the most important thing for us. We need it to be [[faster:working more quickly than something else]].',
     },
     {
@@ -136,7 +136,7 @@ export const goodBetterBest: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'So Tool B is [[better:more good than something else]] for speed, but it costs more?',
     },
     {
@@ -148,7 +148,7 @@ export const goodBetterBest: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about storage? Does Tool B have a [[bigger:larger in size or number]] limit?',
     },
     {
@@ -160,7 +160,7 @@ export const goodBetterBest: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Is it worth the price difference?',
     },
     {
@@ -172,7 +172,7 @@ export const goodBetterBest: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'You make it sound very clear. I think Tool B is the best choice for us.',
     },
     {

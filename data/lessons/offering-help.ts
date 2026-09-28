@@ -35,7 +35,7 @@ export const offeringHelp: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To plan or set up something in advance.',
       example: 'I can arrange a call with our onboarding team for later today.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/arrange.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/arrange.png',
     },
     {
       word: 'HESITATE',
@@ -49,14 +49,14 @@ export const offeringHelp: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To put someone in touch with another person who can help.',
       example: 'Let me connect you with Carlos — he handles all new customer setups.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/connect.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/connect.png',
     },
     {
       word: 'CLARIFY',
       partOfSpeech: 'verb',
       definition: 'To explain something so it is easier to understand.',
       example: 'Can I clarify how the billing works? I want to make sure it is clear.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/clarify.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/clarify.png',
     },
     {
       word: 'URGENT',
@@ -72,13 +72,13 @@ export const offeringHelp: Lesson = {
       phrase: 'CAN I HELP YOU',
       definition: 'The standard opening phrase to offer help at the start of a conversation.',
       example: 'Hi Dana — can I help you with anything today?',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/can-i-help-you.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/can-i-help-you.png',
     },
     {
       phrase: 'DO YOU NEED HELP WITH',
       definition: 'Ask if someone needs assistance with a specific task or problem.',
       example: 'Do you need help with setting up the dashboard for your team?',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/do-you-need-help-with.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/do-you-need-help-with.png',
     },
     {
       phrase: 'HOW CAN I ASSIST YOU',
@@ -96,7 +96,7 @@ export const offeringHelp: Lesson = {
       phrase: 'DONT HESITATE TO',
       definition: 'Encourage someone to ask for help without worrying about bothering you.',
       example: "Don't hesitate to call me if anything comes up — that's what I'm here for.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dont-hesitate-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dont-hesitate-to.png',
     },
     {
       phrase: 'IS THERE ANYTHING ELSE',
@@ -118,7 +118,7 @@ export const offeringHelp: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Perfect timing, actually. I have a few [[concern:a worry or question someone wants to discuss]]s about the dashboard setup.',
     },
     {
@@ -130,7 +130,7 @@ export const offeringHelp: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'A call with your team would be great. Can you [[connect:to put someone in touch with another person who can help]] me with someone today?',
     },
     {
@@ -142,7 +142,7 @@ export const offeringHelp: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Yes, actually. Can you [[clarify:to explain something so it is easier to understand]] how the annual billing works? I wasn't sure I understood it correctly.",
     },
     {
@@ -154,7 +154,7 @@ export const offeringHelp: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Yes, that's much clearer. Thank you.",
     },
     {
@@ -166,7 +166,7 @@ export const offeringHelp: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I will. I really appreciate it.',
     },
     {
@@ -178,7 +178,7 @@ export const offeringHelp: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'No, I think that covers everything for now.',
     }
   ],

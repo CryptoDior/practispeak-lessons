@@ -44,7 +44,7 @@ export const gamingJargonDeepDive: Lesson = {
       definition: 'The opposite of nerf — to strengthen a character, weapon, or ability.',
       example: "My main got buffed this patch. She's actually viable now!",
       secondExample: 'The devs gave healers a big buff.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/buff.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/buff.png',
     },
     {
       word: 'META',
@@ -77,7 +77,7 @@ export const gamingJargonDeepDive: Lesson = {
       phrase: 'BROKEN',
       definition: 'Hyperbolically overpowered — so strong it feels like a bug or design error.',
       example: 'This combo is broken — needs to be nerfed immediately.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/broken.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/broken.png',
       tag: '',
     },
     {

@@ -6,7 +6,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
   subtitle: 'The risk of waiting is… — how to make the cost of inaction visible without manufactured deadlines',
   level: 'C1-C2',
   description: "Artificial urgency destroys trust. 'This offer expires Friday' or 'my manager needs an answer today' are tactics prospects recognise and resent. Genuine urgency is different — it lives in the prospect's situation, not the salesperson's quota, and it names the real cost of waiting rather than inventing one. This lesson teaches the language for creating urgency that is credible, specific, and owned by the prospect — because the most powerful version of urgency is the one they feel themselves.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/creating-urgency-without-pressure-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/creating-urgency-without-pressure-hero.png',
 
   vocabulary: [
     {

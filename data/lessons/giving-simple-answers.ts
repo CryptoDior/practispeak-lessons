@@ -42,14 +42,14 @@ export const givingSimpleAnswers: Lesson = {
       partOfSpeech: 'adverb',
       definition: 'Used to agree completely or confirm something is 100% right.',
       example: 'Yes, exactly — you can upgrade from Starter to Growth at any time.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/exactly.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/exactly.png',
     },
     {
       word: 'APOLOGISE',
       partOfSpeech: 'verb',
       definition: 'To say you are sorry for something that is disappointing or inconvenient.',
       example: 'I apologise — that feature is not available on the Starter Plan.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/apologise.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/apologise.png',
     },
     {
       word: 'STANDARD',
@@ -112,7 +112,7 @@ export const givingSimpleAnswers: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Hi Riley. I have a few quick questions before I decide to upgrade. Does the Growth Plan [[include:to have something as part of a plan, package, or offer]] live reporting?',
     },
     {
@@ -124,7 +124,7 @@ export const givingSimpleAnswers: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Is live chat support included too?',
     },
     {
@@ -136,7 +136,7 @@ export const givingSimpleAnswers: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about phone support? Is that included?',
     },
     {
@@ -148,7 +148,7 @@ export const givingSimpleAnswers: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Understood. Can I export my data if I cancel?',
     },
     {
@@ -160,7 +160,7 @@ export const givingSimpleAnswers: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Last [[request:a polite or formal question asking for something specific]] — do you have a plan for just two users? We're a small team.",
     },
     {
@@ -172,7 +172,7 @@ export const givingSimpleAnswers: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'That sounds fine actually. Can I upgrade to Growth later if I need to?',
     },
     {

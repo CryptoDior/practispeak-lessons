@@ -42,7 +42,7 @@ export const talkingAboutProducts: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Costing little money.',
       example: 'Our starter plan is cheap enough for small teams just getting started.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cheap.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cheap.png',
     },
     {
       word: 'NEW',
@@ -90,13 +90,13 @@ export const talkingAboutProducts: Lesson = {
       phrase: 'CUSTOMERS REALLY LIKE',
       definition: 'Share what people enjoy most about a product.',
       example: 'Customers really like how quickly our support team responds.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customers-really-like.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/customers-really-like.png',
     },
     {
       phrase: 'COMPARED TO OTHER OPTIONS',
       definition: 'Use this when explaining how a product is better or different from alternatives.',
       example: 'Compared to other options, our pricing is hard to beat.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/compared-to-other-options.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/compared-to-other-options.png',
     },
     {
       phrase: "I'D RECOMMEND",
@@ -118,7 +118,7 @@ export const talkingAboutProducts: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Perfect, I'd love that. What would you say is the best one?",
     },
     {
@@ -130,7 +130,7 @@ export const talkingAboutProducts: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "That matters a lot for my team — half of them aren't very technical.",
     },
     {
@@ -142,7 +142,7 @@ export const talkingAboutProducts: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And how's the [[quality:how good or bad something is]] of the support, if something ever goes wrong?",
     },
     {
@@ -154,7 +154,7 @@ export const talkingAboutProducts: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "That's reassuring. Is it [[cheap:costing little money]] enough for a team our size?",
     },
     {
@@ -166,7 +166,7 @@ export const talkingAboutProducts: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Good to know. And would the reminder tool be [[useful:helpful; does a good job]] for a small team like mine?',
     },
     {
@@ -178,7 +178,7 @@ export const talkingAboutProducts: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Sounds like exactly what we need. Let's set up a trial.",
     }
   ],

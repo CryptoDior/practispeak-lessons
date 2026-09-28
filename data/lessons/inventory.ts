@@ -35,7 +35,7 @@ export const inventory: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Equipment that protects you and reduces the damage you take.',
       example: 'My armour is broken — I need to repair it before the next boss fight.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/armour.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/armour.png',
     },
     {
       word: 'POTION',
@@ -49,7 +49,7 @@ export const inventory: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The bullets, arrows, or energy your weapon needs to fire.',
       example: "I've run out of ammo — I need to find more before the next wave starts.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/ammo.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ammo.png',
     },
     {
       word: 'LOOT',
@@ -77,14 +77,14 @@ export const inventory: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To put on or activate an item so you can use it in the game.',
       example: 'Equip the new sword — it does much more damage than your old one.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/equip.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/equip.png',
     },
     {
       word: 'CRAFT',
       partOfSpeech: 'verb',
       definition: 'To make a new item by combining materials you have collected.',
       example: 'I can craft a health potion if I have enough herbs and water.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/craft.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/craft.png',
     },
     {
       word: 'UPGRADE',
@@ -112,7 +112,7 @@ export const inventory: Lesson = {
       phrase: 'DO YOU HAVE ANY',
       definition: 'Use this to ask if someone has a particular item at all.',
       example: 'Do you have any spare armour? Mine is almost broken.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/do-you-have-any.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/do-you-have-any.png',
     },
     {
       phrase: "I'VE RUN OUT OF",
@@ -140,7 +140,7 @@ export const inventory: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "Zara, quick — do you have any [[potion:a drinkable item that restores health]]s? I'm almost dead.",
     },
     {
@@ -152,7 +152,7 @@ export const inventory: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "I've run out of potions completely. Can you share one?",
     },
     {
@@ -164,7 +164,7 @@ export const inventory: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "I have enough ammo for now. But I need more [[armour:equipment that protects you]]. Mine is broken.",
     },
     {
@@ -176,7 +176,7 @@ export const inventory: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "I have some iron, but not enough to [[craft:make a new item from materials]] a full upgrade.",
     },
     {
@@ -188,7 +188,7 @@ export const inventory: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "Only two. My inventory is almost full. Too much [[loot:items dropped by enemies or found in chests]]!",
     },
     {

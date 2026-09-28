@@ -21,7 +21,7 @@ export const ourTargetMarket: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A range of ages that people belong to. For example: 18-24 or 35-50.',
       example: 'Our main age group is 30 to 45 — they are experienced but still open to new tools.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/age-group.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/age-group.png',
     },
     {
       word: 'GENDER',
@@ -63,7 +63,7 @@ export const ourTargetMarket: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The way a person acts or what they do — for example, how they shop or use the internet.',
       example: 'We look at customer behaviour to understand when and how they use our product.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/behaviour.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/behaviour.png',
     }
   ],
 
@@ -78,7 +78,7 @@ export const ourTargetMarket: Lesson = {
       phrase: 'APPEAL TO',
       definition: 'Be interesting or attractive to a group of people.',
       example: 'Our product appeals to people who manage large amounts of data every day.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/appeal-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/appeal-to.png',
     },
     {
       phrase: 'NARROW DOWN',
@@ -102,7 +102,7 @@ export const ourTargetMarket: Lesson = {
       phrase: 'BASED ON',
       definition: 'Using something as the reason or starting point for a decision.',
       example: 'We choose our channels based on the behaviour and interests of our target market.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/based-on.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/based-on.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const ourTargetMarket: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, how does Brightline describe its target market? I am curious to know more.',
     },
     {
@@ -124,7 +124,7 @@ export const ourTargetMarket: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'So your main [[age group:a range of ages that people belong to]] is 30 to 45?',
     },
     {
@@ -136,7 +136,7 @@ export const ourTargetMarket: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Do you focus on a specific [[gender:whether someone is male, female, or another identity]]?',
     },
     {
@@ -148,7 +148,7 @@ export const ourTargetMarket: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What are their main [[interest:something a person likes or cares about]]s?',
     },
     {
@@ -160,7 +160,7 @@ export const ourTargetMarket: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Do you have a customer [[profile:a description of a typical customer — who they are and what they need]]?',
     },
     {
@@ -172,7 +172,7 @@ export const ourTargetMarket: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Ha — that sounds a lot like me!',
     },
     {

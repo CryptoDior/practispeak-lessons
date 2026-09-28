@@ -21,7 +21,7 @@ export const theMarketingTeam: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person with a senior job who makes big decisions for the company.',
       example: 'The marketing director is in charge of all marketing at Brightline.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/director.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/director.png',
     },
     {
       word: 'EXECUTIVE',
@@ -49,7 +49,7 @@ export const theMarketingTeam: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person who helps someone else with their work.',
       example: 'The marketing assistant helps the team with day-to-day tasks.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/assistant.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/assistant.png',
     },
     {
       word: 'HEAD',
@@ -102,7 +102,7 @@ export const theMarketingTeam: Lesson = {
       phrase: 'DAY TO DAY',
       definition: 'The normal work that someone does every day.',
       example: 'My day to day work is writing content and looking after social media.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/day-to-day.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/day-to-day.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const theMarketingTeam: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Can you tell me a bit about your team, Riley?',
     },
     {
@@ -124,7 +124,7 @@ export const theMarketingTeam: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And who is below her?',
     },
     {
@@ -136,7 +136,7 @@ export const theMarketingTeam: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And where do you fit in the team?',
     },
     {
@@ -148,7 +148,7 @@ export const theMarketingTeam: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Is there anyone else on the team?',
     },
     {
@@ -160,7 +160,7 @@ export const theMarketingTeam: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about an [[intern:a student or new worker who works at a company for a short time to learn]]?',
     },
     {
@@ -172,7 +172,7 @@ export const theMarketingTeam: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Do you work with an [[agency:a company that helps other companies with their marketing]] too?',
     },
     {
@@ -184,7 +184,7 @@ export const theMarketingTeam: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'It sounds like a well-organised team. Who is the [[head:the person in charge of a department or team]] of the whole department?',
     },
     {

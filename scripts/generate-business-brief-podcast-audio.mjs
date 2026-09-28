@@ -6,6 +6,11 @@
  *
  *   node --env-file=.env.local scripts/generate-business-brief-podcast-audio.mjs
  *
+ * To RE-RECORD only specific episodes (wipes and regenerates just those,
+ * leaves the rest untouched), pass their numbers as arguments:
+ *
+ *   node --env-file=.env.local scripts/generate-business-brief-podcast-audio.mjs 3 4 5 7 9
+ *
  * What it does:
  *  1. Generates all 9 episodes of "The Business Brief" (Chapter 1: Macro
  *     Environment — Impact of Recent Legislation on Business), each one
@@ -40,9 +45,9 @@ if (!ELEVENLABS_KEY) {
 }
 
 const VOICES = {
-  NALEDI: 'ZtcPZrt9K4w8e1OB9M6w',  // Mia Moore — Studio Presenter
+  NALEDI: 'ZF6FPAbjXT4488VcRRnw',  // updated voice
   MICHAEL: 'vDchjyOZZytffNeZXfZK', // Mike — Natural and Engaging Podcast Host
-  AMELIA: 'ZF6FPAbjXT4488VcRRnw',  // Amelia — Enthusiastic and expressive
+  AMELIA: 'IKne3meq5aSn9XLyUdCD',  // updated voice (narration)
 };
 
 const PRIMARY_MODEL = 'eleven_v3';
@@ -71,6 +76,7 @@ const TMP_ROOT = path.join(ROOT, 'podcasts', 'tmp', 'business-brief');
 const EPISODES = [
 
 {
+  num: 1,
   file: 'Episode 1 - Skills Development Act No. 97 of 1998',
   segs: [
     { s: 'AMELIA', t: `Episode 1: Skills Development Act No. 97 of 1998` },
@@ -112,6 +118,7 @@ const EPISODES = [
 },
 
 {
+  num: 2,
   file: 'Episode 2 - Labour Relations Act No. 66 of 1995',
   segs: [
     { s: 'AMELIA', t: `Episode 2: Labour Relations Act No. 66 of 1995` },
@@ -151,26 +158,27 @@ const EPISODES = [
 },
 
 {
+  num: 3,
   file: 'Episode 3 - Employment Equity Act No. 55 of 1998',
   segs: [
     { s: 'AMELIA', t: `Episode 3: Employment Equity Act No. 55 of 1998` },
-    { s: 'NALEDI', t: `Welcome back. Unit 3 today — the Employment Equity Act, No. 55 of 1998. The EEA.` },
+    { s: 'NALEDI', t: `Welcome back. Today we're looking at the Employment Equity Act, No. 55 of 1998. The EEA.` },
     { s: 'MICHAEL', t: `I actually think I sort of know this one — affirmative action, right?` },
     { s: 'NALEDI', t: `That's a big part of it, yes, but let's build it properly. The EEA was passed in 1998 to redress the imbalances left by apartheid. Its job is to make sure there's equality of opportunity and fair treatment in the workplace, and it puts affirmative action measures in place so that, over time, the people employed in South African workplaces actually start to reflect the demographics of the country.` },
     { s: 'MICHAEL', t: `Okay, "affirmative action" — what does that actually mean in practice? I hear the term thrown around a lot but never a clean definition.` },
-    { s: 'NALEDI', t: `Here's the textbook definition: when hiring staff, an employer must give preference to groups of people who were previously excluded from full participation in the economy. In South Africa, those "designated groups" are Black people — which the Act defines as Black, Coloured, and Indian — women, and people with disabilities.` },
+    { s: 'NALEDI', t: `Here's the practical definition: when hiring staff, an employer must give preference to groups of people who were previously excluded from full participation in the economy. In South Africa, those "designated groups" are Black people — which the Act defines as Black, Coloured, and Indian — women, and people with disabilities.` },
     { s: 'MICHAEL', t: `So if a company is hiring and two candidates are equally qualified, they'd lean toward the person from a designated group?` },
     { s: 'NALEDI', t: `That's the general idea — it's about correcting decades of exclusion, not about picking unqualified people. Which brings us to a really important exam point: a business cannot use "we're just following affirmative action" as an excuse to hire someone who genuinely can't do the job. The Act requires a real Employment Equity Plan, not just good intentions.` },
     { s: 'MICHAEL', t: `Who actually has to have this plan?` },
     { s: 'NALEDI', t: `Businesses that employ 50 or more people, or smaller businesses whose annual turnover is above a set threshold. That plan has to be submitted to the Department of Labour, along with an annual report showing how it's actually being implemented. Smaller businesses under that threshold don't have to comply, though they can choose to.` },
-    { s: 'MICHAEL', t: `Let's talk about the case study from the textbook — I remember this one, the clothing store.` },
-    { s: 'NALEDI', t: `Miss Zippy-Zappy — great one to remember for the exam because it's a classic discrimination trap. The store sells trendy clothes and advertises for shop assistants "under 25." Mandisa, who's almost 30 and has two young kids, applies anyway. The owner turns her down and lists reasons: the salary is low, she might not fit the "youthful culture," she might have to take instructions from someone younger, and her family responsibilities might get in the way.` },
+    { s: 'MICHAEL', t: `Let's work through a scenario, because this kind of situation comes up a lot in real workplaces.` },
+    { s: 'NALEDI', t: `Picture a homeware store called Urban Nest that sells trendy furniture and decor to a young, design-conscious crowd. They advertise for sales assistants "aged 26 or younger." Palesa, who's 34 and has two teenage kids, applies anyway — she's got years of retail experience. The owner turns her down and explains: the pay is entry-level, she might not fit the "youthful, energetic team" image they're going for, she'd be taking instruction from a much younger store manager, and her family commitments might get in the way of closing shifts.` },
     { s: 'MICHAEL', t: `Okay, even without knowing the law, that already sounds dodgy.` },
-    { s: 'NALEDI', t: `It is. None of those reasons relate to whether Mandisa can actually do the job. Age isn't a valid ground for exclusion here, and family responsibility definitely isn't — that's exactly the kind of unfair discrimination the EEA exists to stop. Mandisa would have grounds to lodge a complaint, likely with the CCMA or the Labour Court, on the basis of age and possibly indirect discrimination linked to her being a mother.` },
+    { s: 'NALEDI', t: `It is. None of those reasons relate to whether Palesa can actually do the job. Age isn't a valid ground for exclusion here, and family responsibility definitely isn't — that's exactly the kind of unfair discrimination the EEA exists to stop. Palesa would have grounds to lodge a complaint, likely with the CCMA or the Labour Court, on the basis of age and possibly indirect discrimination linked to her being a mother.` },
     { s: 'MICHAEL', t: `Give me a more everyday version of this — something that could actually happen to someone my age applying for a holiday job.` },
     { s: 'NALEDI', t: `Imagine you apply for a part-time job at a restaurant during the December holidays, and the manager says "we're not hiring you because you're a man and we only want female waitrons for this look we're going for." That's unfair discrimination on the basis of gender, and it falls foul of this exact Act — even for a small, casual job.` },
     { s: 'MICHAEL', t: `What about medical testing? I remember something about that.` },
-    { s: 'NALEDI', t: `Good catch — that's a specific, testable point. Medical testing as part of hiring is prohibited unless it's genuinely justified by the nature of the job. The textbook's example is an airline pilot — obviously you want medical proof a pilot is fit to fly. But a shop wanting a medical test from a till operator, with no health-and-safety reason, would be unlawful.` },
+    { s: 'NALEDI', t: `Good catch — that's a specific, testable point. Medical testing as part of hiring is prohibited unless it's genuinely justified by the nature of the job. A classic example is an airline pilot — obviously you want medical proof a pilot is fit to fly. But a shop wanting a medical test from a till operator, with no health-and-safety reason, would be unlawful.` },
     { s: 'MICHAEL', t: `What are the actual benefits of having this law at all?` },
     { s: 'NALEDI', t: `It promotes equal opportunity and fair treatment, it drives real diversity in businesses, and it forces consultation between employers and employees rather than decisions being made unilaterally. It also creates a genuine framework — like structured training programmes for previously disadvantaged groups — rather than leaving transformation to chance.` },
     { s: 'MICHAEL', t: `And the criticisms — because I know this one gets debated a lot.` },
@@ -180,7 +188,7 @@ const EPISODES = [
     { s: 'MICHAEL', t: `So it's not about hitting a quota by a deadline, it's about actually trying?` },
     { s: 'NALEDI', t: `Exactly. That's the nuance the exam wants you to know.` },
     { s: 'MICHAEL', t: `Let me recap. The EEA exists to redress apartheid-era exclusion by requiring larger businesses to build and submit a real Employment Equity Plan aimed at designated groups — Black people, women, and people with disabilities. It bans unfair discrimination and unjustified medical testing, and non-compliant businesses face Compliance Orders and fines up to R900,000 — but only if they're not even trying in good faith.` },
-    { s: 'NALEDI', t: `Perfect. Exam tip: know the Mandisa case study inside out — questions about "where can she lodge a complaint" and "on what grounds" come up almost word-for-word in past papers. And always distinguish this Act from the next one we're covering, the Basic Conditions of Employment Act — the EEA is about who gets hired and treated fairly, the BCEA is about the actual day-to-day conditions once you're employed.` },
+    { s: 'NALEDI', t: `Perfect. Exam tip: know a scenario like Palesa's inside out — questions about "where can she lodge a complaint" and "on what grounds" are exactly the kind of thing examiners like to ask. And always distinguish this Act from the next one we're covering, the Basic Conditions of Employment Act — the EEA is about who gets hired and treated fairly, the BCEA is about the actual day-to-day conditions once you're employed.` },
     { s: 'MICHAEL', t: `That distinction alone probably saves marks. Next episode, the BCEA?` },
     { s: 'NALEDI', t: `Working hours, leave, overtime — the one that affects literally every part-time job you'll ever have.` },
     { s: 'MICHAEL', t: `Can't wait. See you there.` },
@@ -188,10 +196,11 @@ const EPISODES = [
 },
 
 {
+  num: 4,
   file: 'Episode 4 - Basic Conditions of Employment Act No. 75 of 1997',
   segs: [
     { s: 'AMELIA', t: `Episode 4: Basic Conditions of Employment Act No. 75 of 1997` },
-    { s: 'NALEDI', t: `Welcome back to The Business Brief. Unit 4 — the Basic Conditions of Employment Act, No. 75 of 1997. The BCEA.` },
+    { s: 'NALEDI', t: `Welcome back to The Business Brief. Today's Act is the Basic Conditions of Employment Act, No. 75 of 1997. The BCEA.` },
     { s: 'MICHAEL', t: `Okay, this is the one I actually care about personally, because I want a part-time job next year.` },
     { s: 'NALEDI', t: `Then you're going to want to listen closely, because this Act basically writes the rulebook for your future payslip. The Constitution gives every South African the right to fair labour practices — the BCEA is what actually puts that right into effect in real workplaces.` },
     { s: 'MICHAEL', t: `Who does it cover? Everyone?` },
@@ -208,43 +217,45 @@ const EPISODES = [
     { s: 'NALEDI', t: `Annual leave is 21 continuous days a year, or you can calculate it as one day for every 17 days worked. An employer can only pay you out for unused leave instead of letting you take it if you're actually leaving the job. Sick leave gives you up to six weeks of paid leave across a 36-month cycle — in your first six months of employment you earn one day of sick leave per month, and after that you can access the full amount, provided you meet the legal requirements. If you're sick for more than two days at a time, or more than twice in eight weeks, your employer can ask for a medical certificate.` },
     { s: 'MICHAEL', t: `What about maternity leave?` },
     { s: 'NALEDI', t: `Up to four continuous months, usually starting anywhere from four weeks before the expected birth date, or earlier if a doctor or midwife advises it. And there's also Family Responsibility Leave — three paid days a year for anyone who's worked longer than four months full-time, usually used for illness or death of a close family member.` },
-    { s: 'MICHAEL', t: `Now, the textbook has a case study about a guy called Thomas that I remember being confusing.` },
-    { s: 'NALEDI', t: `Great one to unpack, because it's essentially a checklist question. Thomas is offered a job and gets his written conditions of employment, but some details don't sit right with him. His hours are 07:00 to 17:00, Monday to Friday — that's fine, well within the legal limit. He may be asked to work overtime at his normal daily rate — wait, that's wrong, remember overtime on weekdays must be 1.5 times normal pay, not equal to it. He won't be expected to work Sundays unless agreed — fine, that's compliant. He may work public holidays at his normal daily rate — also wrong, public holiday work must be paid at double rate. He gets 18 days annual leave in his first full year — that's actually fine, it's above the 21-days-a-year minimum when you calculate it proportionally, so no issue there. But Family Responsibility Leave "not normally granted" — that's a violation, because the Act entitles him to it after four months of service.` },
-    { s: 'MICHAEL', t: `So the trick in these exam case studies is basically comparing each clause against the actual legal minimums.` },
+    { s: 'MICHAEL', t: `Let's run through a job-offer scenario, because these checklist-style questions come up a lot.` },
+    { s: 'NALEDI', t: `Good idea, because it's essentially a checklist exercise. Say Karabo is offered a job at a logistics company and gets his written conditions of employment, but some details don't sit right with him. His hours are 08:00 to 17:00, Monday to Friday — that's fine, well within the legal limit. He may be asked to work overtime at his normal hourly rate — wait, that's wrong, remember overtime on weekdays must be 1.5 times normal pay, not equal to it. He won't be expected to work Sundays unless agreed — fine, that's compliant. He may work public holidays at 1.2 times his normal rate — also wrong, public holiday work must be paid at double rate, not just a small premium. He gets 20 days annual leave in his first full year — that's actually fine, it's above the legal minimum, so no issue there. But Family Responsibility Leave "only granted after one full year of service" — that's a violation, because the Act entitles him to it after just four months of service.` },
+    { s: 'MICHAEL', t: `So the trick in these exam-style scenarios is basically comparing each clause against the actual legal minimums.` },
     { s: 'NALEDI', t: `Exactly — that is the entire skill being tested. Learn the numbers: 45 hours, three hours overtime a day, 1.5 times pay on weekdays, double pay on Sundays and public holidays, 21 days annual leave, six weeks sick leave, four months maternity leave, three days family responsibility leave. Those numbers are gold in the exam.` },
     { s: 'MICHAEL', t: `What about child labour? I saw something about that too.` },
     { s: 'NALEDI', t: `It's unlawful to employ anyone under 15. Fifteen to seventeen-year-olds can work, but they may not do dangerous work, or work that requires adult strength or is otherwise meant for an adult. And forcing anyone to work against their will is illegal, full stop.` },
     { s: 'MICHAEL', t: `And what happens if a business doesn't stick to any of this?` },
     { s: 'NALEDI', t: `Labour Inspectors are appointed to check businesses are complying — they can inspect the workplace, investigate complaints, and even copy or remove records as evidence. If they find a business isn't complying, they issue a Compliance Order. The Department of Labour then reviews it, and can confirm, change, or cancel the order — and a business can challenge that decision in the Labour Court.` },
     { s: 'MICHAEL', t: `Let me recap the whole episode. The BCEA sets the actual day-to-day floor for every job in South Africa — 45-hour work weeks, controlled and properly paid overtime, guaranteed breaks and rest periods, annual, sick, maternity, and family responsibility leave, no employing under-15s, and Labour Inspectors with real enforcement power through Compliance Orders.` },
-    { s: 'NALEDI', t: `Exactly right. Exam tip: whenever you see a case study with a list of numbered conditions like Thomas's job description, go through each one individually and compare it to the legal minimum — don't try to judge the whole scenario at once. Marks are usually allocated per item.` },
-    { s: 'MICHAEL', t: `That's actually a great strategy for the whole exam, not just this unit.` },
+    { s: 'NALEDI', t: `Exactly right. Exam tip: whenever you see a scenario with a list of numbered conditions like Karabo's job offer, go through each one individually and compare it to the legal minimum — don't try to judge the whole scenario at once. Marks are usually allocated per item.` },
+    { s: 'MICHAEL', t: `That's actually a great strategy for the whole exam, not just this Act.` },
     { s: 'NALEDI', t: `It really is. Next up — COIDA, what happens when someone actually gets hurt at work.` },
     { s: 'MICHAEL', t: `See you there.` },
   ],
 },
 
 {
+  num: 5,
   file: 'Episode 5 - Compensation for Occupational Injuries and Diseases Act No. 61 of 1997',
   segs: [
     { s: 'AMELIA', t: `Episode 5: Compensation for Occupational Injuries and Diseases Act No. 61 of 1997` },
-    { s: 'NALEDI', t: `Welcome back. Unit 5 — the Compensation for Occupational Injuries and Diseases Act, No. 61 of 1997. Everyone just calls it COIDA.` },
+    { s: 'NALEDI', t: `Welcome back. Today's Act is the Compensation for Occupational Injuries and Diseases Act, No. 61 of 1997. Everyone just calls it COIDA.` },
     { s: 'MICHAEL', t: `That's a mouthful. What's it actually about?` },
     { s: 'NALEDI', t: `What happens when someone gets hurt — or worse — while doing their job. COIDA gives more comprehensive protection to employees who are injured carrying out their duties, and it sets up a Compensation Board that advises the Minister of Labour on how the Act is applied.` },
     { s: 'MICHAEL', t: `So if I hurt myself at work, I can claim money?` },
     { s: 'NALEDI', t: `Yes — for medical expenses and other compensation, depending on how severe the injury is. The Act splits this into temporary disablement, where you eventually recover and go back to work, and permanent disablement, where you'll never be able to return to that job. And if the worker dies, their dependants — meaning the people who relied on them, usually family — can claim instead.` },
     { s: 'MICHAEL', t: `Does the employee have to prove the employer did something wrong?` },
-    { s: 'NALEDI', t: `This is one of the most important facts in the whole unit — no. COIDA is a no-fault system. You don't need to prove negligence on the employer's part to claim. You just need to show the injury happened while you were carrying out your normal duties as a bona fide, genuine employee of that company.` },
+    { s: 'NALEDI', t: `This is one of the most important facts about this Act — no. COIDA is a no-fault system. You don't need to prove negligence on the employer's part to claim. You just need to show the injury happened while you were carrying out your normal duties as a bona fide, genuine employee of that company.` },
     { s: 'MICHAEL', t: `Who's covered, and who isn't?` },
     { s: 'NALEDI', t: `Casual and full-time employees are covered. But there are specific exclusions worth memorising: members of the SANDF or SAPS while defending the country, domestic workers employed in a private household, and contract workers. Also, if you're disabled for less than three days, you're not covered under this Act.` },
     { s: 'MICHAEL', t: `Wait, domestic workers aren't covered? That seems like a big gap.` },
-    { s: 'NALEDI', t: `It is, and it's exactly the kind of thing the textbook wants you to notice and critically comment on — this exclusion is a genuine disadvantage of the Act. It ties directly into one of the case studies, actually — Margaret, a domestic worker who slips on a floor she's just washed. Under COIDA as it stands, she wouldn't be able to claim, precisely because domestic workers are excluded.` },
-    { s: 'MICHAEL', t: `That's rough. What about the other case studies from the textbook — I remember there were a few.` },
-    { s: 'NALEDI', t: `There are four, and each tests a different nuance, so they're worth knowing well. George is a carpenter who "borrows" his employer's electric drill to use at home; it slips and injures his son. Since the accident happened off-site and outside his work duties, George would struggle to claim — COIDA covers injuries in the course of employment, not personal use of borrowed equipment at home.` },
+    { s: 'NALEDI', t: `It is, and it's worth noticing and critically commenting on — this exclusion is a genuine disadvantage of the Act. Let me give you a set of scenarios that each test a different nuance of how COIDA actually applies, because this is exactly the kind of reasoning exam questions want from you.` },
+    { s: 'NALEDI', t: `First one — Bongani is a carpenter at a furniture workshop who borrows the company's cordless saw over a long weekend to build a bookshelf at home. The saw kicks back and injures his teenage daughter, who was holding the wood steady for him. Since the accident happened off-site, outside working hours, and during personal use of the tool, Bongani himself wasn't even injured — and either way, this wasn't in the course of his employment. COIDA covers injuries and diseases suffered while carrying out work duties, not personal weekend projects at home.` },
     { s: 'MICHAEL', t: `Makes sense. Next one?` },
-    { s: 'NALEDI', t: `Sipho dies at home of natural causes after ten years at the same company. His family wants a payout from the Compensation Fund. But COIDA only covers injury or disease connected to work duties — dying of natural causes at home isn't work-related, so his family wouldn't be entitled to a payout under this Act.` },
+    { s: 'NALEDI', t: `Nomvula worked at a logistics company for twelve years and sadly passes away at home from a heart condition completely unrelated to her job. Her children want to know if they can claim a payout from the Compensation Fund. But COIDA only covers death or disease connected to work duties — dying of natural causes at home isn't work-related, so her family wouldn't be entitled to a payout under this Act.` },
+    { s: 'MICHAEL', t: `That ties back to the domestic worker gap you mentioned — what's the third one?` },
+    { s: 'NALEDI', t: `Elias works as a domestic helper in a private home. While mopping the kitchen floor, he slips and injures his wrist. This is the domestic worker exclusion in action — even though the injury clearly happened while he was working, COIDA specifically excludes domestic workers employed in private households, so he wouldn't be able to claim under this Act.` },
     { s: 'MICHAEL', t: `And the fourth one?` },
-    { s: 'NALEDI', t: `Fred, a permanent maintenance officer, is painting when barrels roll against his ladder, he falls, and breaks his arm. He reports it immediately to the health-and-safety representative. This one's straightforward — it happened while doing his normal job duties, on the premises, properly reported. Fred would be able to claim.` },
+    { s: 'NALEDI', t: `Zanele, a full-time maintenance technician at a warehouse, is up a ladder replacing a light fixture when stacked pallets shift and knock the ladder over. She falls and fractures her ankle, and immediately reports it to her supervisor and the health-and-safety representative. This one's straightforward — it happened while doing her normal job duties, on the premises, properly reported. Zanele would be able to claim.` },
     { s: 'MICHAEL', t: `So the exam is really testing: was it a genuine employee, was it during work duties, and did it follow proper reporting?` },
     { s: 'NALEDI', t: `Exactly that three-part test. Now, on the employer's side — what are businesses actually required to do? Any employer with more than twenty employees must appoint one or more health-and-safety representatives and set up a health-and-safety committee. They also need to provide a safe working environment — proper ventilation, protection from noise, decent lighting, changing rooms, drinking water, seating.` },
     { s: 'MICHAEL', t: `And the reporting process if something does go wrong?` },
@@ -258,7 +269,7 @@ const EPISODES = [
     { s: 'MICHAEL', t: `What about penalties for non-compliance?` },
     { s: 'NALEDI', t: `The Commissioner appoints inspectors with real power to investigate health and safety issues and accidents. Each case of non-compliance is handled individually — an employer can be fined for not notifying the Commissioner in time, or for not notifying them at all. And not contributing to the fund, or not properly claiming for an injured worker, is treated as discriminatory against that employee.` },
     { s: 'MICHAEL', t: `Let me recap. COIDA is a no-fault compensation system for people injured or killed doing their job — the employer funds it, not the employee's salary. It covers temporary and permanent disablement and death, but excludes domestic workers, SANDF and SAPS in active duty, and contract workers. Employers with more than twenty staff must have health-and-safety reps and committees, and claims must be reported within seven days by the employer and twelve months overall.` },
-    { s: 'NALEDI', t: `Excellent. Exam tip: those four case studies — George, Sipho, Margaret, and Fred — are basically a template for how COIDA scenario questions are built. Practise applying the same three-part test: genuine employee, work-related, properly reported.` },
+    { s: 'NALEDI', t: `Excellent. Exam tip: scenarios like Bongani's, Nomvula's, Elias's, and Zanele's are basically a template for how COIDA questions are built. Practise applying the same three-part test to any new scenario you're given: genuine employee, work-related, properly reported.` },
     { s: 'MICHAEL', t: `Locking that in. Next episode is BEE, right?` },
     { s: 'NALEDI', t: `Black Economic Empowerment and Broad-Based Black Economic Empowerment. A big one, and genuinely relevant to how South African business ownership actually looks today.` },
     { s: 'MICHAEL', t: `See you there.` },
@@ -266,6 +277,7 @@ const EPISODES = [
 },
 
 {
+  num: 6,
   file: 'Episode 6 - Black Economic Empowerment & B-BBEE Act No. 53 of 2003',
   segs: [
     { s: 'AMELIA', t: `Episode 6: Black Economic Empowerment and Broad-Based Black Economic Empowerment Act No. 53 of 2003` },
@@ -303,10 +315,11 @@ const EPISODES = [
 },
 
 {
+  num: 7,
   file: 'Episode 7 - National Credit Act No. 34 of 2005',
   segs: [
     { s: 'AMELIA', t: `Episode 7: National Credit Act No. 34 of 2005` },
-    { s: 'NALEDI', t: `Welcome back to The Business Brief. Unit 7 — the National Credit Act, No. 34 of 2005. The NCA.` },
+    { s: 'NALEDI', t: `Welcome back to The Business Brief. Today's Act is the National Credit Act, No. 34 of 2005. The NCA.` },
     { s: 'MICHAEL', t: `Credit — like buying something on account, or a loan?` },
     { s: 'NALEDI', t: `Exactly. Credit is when a customer gets goods or money now, on the understanding they'll pay later. The NCA exists because, historically, many South Africans — especially people who couldn't read or write, or who had no access to formal banks — were exploited by lenders. They'd sign agreements they didn't fully understand and end up trapped in unpayable debt.` },
     { s: 'MICHAEL', t: `So this is really about protecting people from predatory lending?` },
@@ -319,10 +332,10 @@ const EPISODES = [
     { s: 'NALEDI', t: `That's the intention, yes. Fourth, your personal information is protected — a bank can't sell your details to, say, a retail store for marketing purposes without your consent. Fifth, if your credit application is refused, you have the right to know why. A bank cannot simply reject your bond application and give you no explanation.` },
     { s: 'MICHAEL', t: `And what if someone's already deep in debt — is there a way out that isn't just... default and lose everything?` },
     { s: 'NALEDI', t: `Yes, and this is one of the most important protections in the whole Act — the right to a Debt Counsellor. If you're over-extended, a Debt Counsellor can help you restructure your debt into a manageable repayment plan, so you don't automatically forfeit assets like your house or car. A business can't just walk in and repossess your belongings — there's a proper legal process, and debt counselling is part of protecting you within it.` },
-    { s: 'MICHAEL', t: `The textbook had a case study about this — Dorothy, right?` },
-    { s: 'NALEDI', t: `Dorothy's a perfect example of exactly what this Act was built for. She's borrowed money for her house and her car, maxed out her credit card, and bought clothes on account — her total debt is over R300,000, and she can't cover her monthly repayments and still afford food. She's genuinely anxious about losing her assets.` },
+    { s: 'MICHAEL', t: `Can you walk me through a real over-indebtedness situation, like someone actually drowning in this?` },
+    { s: 'NALEDI', t: `Sure — picture Lindiwe. She financed a car, took out a personal loan to help cover a family funeral, and has running accounts at three different clothing and furniture stores. Her total debt sits at around R280,000, and between the monthly instalments she genuinely can't afford groceries some months. She's anxious about the car being repossessed.` },
     { s: 'MICHAEL', t: `What would you actually tell her?` },
-    { s: 'NALEDI', t: `The realistic, exam-appropriate advice is: Dorothy should approach a registered Debt Counsellor immediately, who can assess her full financial position and negotiate a restructured repayment plan with all her different credit providers — rather than her trying to juggle everything alone or ignoring the problem, which only makes it worse. She should also stop taking on any new credit immediately, and prioritise essentials like food over discretionary debt repayments while the restructuring is negotiated.` },
+    { s: 'NALEDI', t: `The realistic advice is: Lindiwe should approach a registered Debt Counsellor immediately, who can assess her full financial position and negotiate a restructured repayment plan with all her different credit providers at once — rather than her trying to juggle everything alone or ignoring the problem, which only makes it worse. She should also stop taking on any new credit immediately, and prioritise essentials like food over discretionary debt repayments while the restructuring is negotiated.` },
     { s: 'MICHAEL', t: `Are there different "sizes" of credit agreement? I remember something about small, intermediate, and large.` },
     { s: 'NALEDI', t: `Yes, and the exact numbers are worth memorising. A small agreement has a credit limit of R15,000 or less. An intermediate agreement is above R15,000 but under R250,000. A large agreement exceeds R250,000 — think a mortgage bond. Before any of these are signed, the credit provider must give you pre-agreement documentation showing the interest rate and the exact repayment amount and period.` },
     { s: 'MICHAEL', t: `Does this cover everything — like a stokvel, or renting a house?` },
@@ -336,14 +349,15 @@ const EPISODES = [
     { s: 'MICHAEL', t: `And discrimination specifically — how does that show up here?` },
     { s: 'NALEDI', t: `Anyone can apply for credit, and if a provider refuses someone, they must give reasons. Credit cannot be refused purely because of gender, language, disability, or any other ground listed in the Employment Equity Act. If a business does refuse credit on those grounds, that's discriminatory, full stop.` },
     { s: 'MICHAEL', t: `Let me recap. The NCA protects consumers in the credit market — plain-language agreements, mandatory affordability checks before lending, the right to know why you were refused, protection of your personal information, and access to Debt Counsellors if you're over-extended. Credit agreements are split into small, intermediate, and large by value, some things like stokvels and leases are excluded entirely, and providers must register with the National Credit Regulator or risk criminal prosecution.` },
-    { s: 'NALEDI', t: `Great summary. Exam tip: Dorothy's case study is a template for any "advise the consumer" question in this unit — always mention debt counselling and restructuring by name, examiners specifically look for those terms.` },
-    { s: 'MICHAEL', t: `Locking that one in too. Last unit next — Consumer Protection Act?` },
+    { s: 'NALEDI', t: `Great summary. Exam tip: a scenario like Lindiwe's is a template for any "advise the consumer" question on this Act — always mention debt counselling and restructuring by name, examiners specifically look for those terms.` },
+    { s: 'MICHAEL', t: `Locking that one in too. Last Act next — Consumer Protection Act?` },
     { s: 'NALEDI', t: `Correct, the final one — and honestly one of the most useful ones for your everyday life as a shopper.` },
     { s: 'MICHAEL', t: `See you there.` },
   ],
 },
 
 {
+  num: 8,
   file: 'Episode 8 - Consumer Protection Act No. 68 of 2008',
   segs: [
     { s: 'AMELIA', t: `Episode 8: Consumer Protection Act No. 68 of 2008` },
@@ -384,12 +398,13 @@ const EPISODES = [
 },
 
 {
+  num: 9,
   file: 'Episode 9 (Bonus) - Chapter 1 Exam Revision Round-Up',
   segs: [
     { s: 'AMELIA', t: `Bonus Episode: Chapter 1 Exam Revision Round-Up` },
-    { s: 'NALEDI', t: `Welcome to a bonus episode of The Business Brief. We've covered all eight Acts in Chapter 1 — Macro Environment: Impact of Recent Legislation on Business. Today, no new content. We're going straight into exam mode.` },
+    { s: 'NALEDI', t: `Welcome to a bonus episode of The Business Brief. We've covered all eight Acts on Macro Environment legislation — the impact of recent laws on business. Today, no new content. We're going straight into exam mode.` },
     { s: 'MICHAEL', t: `I'm nervous, but let's do it. Where are we starting?` },
-    { s: 'NALEDI', t: `With the chapter's own summary table first, because this is genuinely how the textbook wants you to hold all eight Acts in your head at once — side by side, comparing Nature, Purpose, Rights protected, Compliance and penalties, and Discriminatory acts.` },
+    { s: 'NALEDI', t: `Let's hold all eight Acts in our heads at once first — side by side, comparing Nature, Purpose, Rights protected, Compliance and penalties, and Discriminatory acts.` },
     { s: 'MICHAEL', t: `Quiz me. Give me the Act, I'll try to recall the purpose.` },
     { s: 'NALEDI', t: `Skills Development Act.` },
     { s: 'MICHAEL', t: `Develop the skills of people in South Africa to improve productivity.` },
@@ -407,39 +422,39 @@ const EPISODES = [
     { s: 'MICHAEL', t: `Legislates the basic rights of consumers in the credit market.` },
     { s: 'NALEDI', t: `And Consumer Protection Act.` },
     { s: 'MICHAEL', t: `Promotes and protects the economic interests of consumers by giving them access to information.` },
-    { s: 'NALEDI', t: `Eight for eight. That's actually the exact skill Question 5 in the real exam paper tests — pick any two Acts, state their purpose, then describe their main features and impact on employers and employees. You've basically just proven you could answer that question right now.` },
-    { s: 'MICHAEL', t: `Let's try some actual past-paper-style questions then. Hit me.` },
-    { s: 'NALEDI', t: `Multiple choice. When the CCMA makes a final and binding ruling regarding a dispute, what is that process called — mediation, conciliation, arbitration, or clarification?` },
-    { s: 'MICHAEL', t: `Arbitration. Binding is the keyword — conciliation and mediation are about trying to reach agreement, arbitration is the one where the decision is final.` },
-    { s: 'NALEDI', t: `Correct. Next — the Sector Education and Training Authorities were established to do which of the following: develop sector skills plans, approve workplace skills plans, pay grants to qualifying companies, or all of the above?` },
-    { s: 'MICHAEL', t: `All of the above — SETAs do all three of those jobs.` },
-    { s: 'NALEDI', t: `Correct again. Third one — the National Credit Act recognises all credit agreements, except which of the following: credit cards, housing bonds, stokvels, or pawn agreements?` },
-    { s: 'MICHAEL', t: `Stokvels — we covered that one specifically, stokvels run on community trust, not formal credit regulation, so they're excluded from the Act.` },
-    { s: 'NALEDI', t: `Exactly right. Last one — who contributes to the Compensation for Occupational Injuries and Diseases Fund: only employees, only employers, both, or only those who choose to?` },
+    { s: 'NALEDI', t: `Eight for eight. That's exactly the skill a good long-answer exam question tests — pick any two Acts, state their purpose, then describe their main features and impact on employers and employees. You've basically just proven you could answer that question right now.` },
+    { s: 'MICHAEL', t: `Let's try some exam-style quiz questions then. Hit me.` },
+    { s: 'NALEDI', t: `Multiple choice. When the CCMA makes a final and binding ruling on a dispute that neither party can appeal within the CCMA process itself, what is that process called — negotiation, conciliation, arbitration, or facilitation?` },
+    { s: 'MICHAEL', t: `Arbitration. Binding is the keyword — conciliation is about trying to reach agreement, arbitration is the one where the decision is final.` },
+    { s: 'NALEDI', t: `Correct. Next — which of these is NOT one of the jobs a Sector Education and Training Authority actually does: developing sector skills plans, approving workplace skills plans, setting matric pass requirements, or paying out grants to qualifying companies?` },
+    { s: 'MICHAEL', t: `Setting matric pass requirements — that's the Department of Basic Education's job, not a SETA's. SETAs handle the other three.` },
+    { s: 'NALEDI', t: `Correct again. Third one — which of these would the National Credit Act NOT recognise as a regulated credit agreement: a credit card, a vehicle instalment sale, a stokvel, or a pawn agreement?` },
+    { s: 'MICHAEL', t: `A stokvel — we covered that one specifically, stokvels run on community trust, not formal credit regulation, so they're excluded from the Act.` },
+    { s: 'NALEDI', t: `Exactly right. Last one — who actually contributes money into the Compensation for Occupational Injuries and Diseases Fund: only employees, only employers, both employer and employee, or nobody unless there's a claim?` },
     { s: 'MICHAEL', t: `Only employers. No deductions come out of the employee's salary for COIDA.` },
-    { s: 'NALEDI', t: `Four for four. Now let's do a real case-study question — this is the one about the insurance job advert. Listen carefully: "Insurance firm looking for young lady with experience in marketing department. Job requires the successful candidate to use lists of clients' details for telesales and marketing campaigns." Question: this advertisement could be seen as discriminatory. Discuss.` },
-    { s: 'MICHAEL', t: `Okay — "young lady" specifically excludes men and older applicants, which is discrimination based on gender and age, neither of which is a genuine requirement for doing marketing work.` },
+    { s: 'NALEDI', t: `Four for four. Now let's do a proper case-study question — an ad from a fictional recruitment agency. Listen carefully: "Retail chain seeking energetic young woman for our customer loyalty department. Successful applicant will manage and contact clients from our loyalty database for promotional offers." Question: this advertisement could be seen as discriminatory. Discuss.` },
+    { s: 'MICHAEL', t: `Okay — "young woman" specifically excludes men and older applicants, which is discrimination based on gender and age, neither of which is a genuine requirement for managing a loyalty database.` },
     { s: 'NALEDI', t: `Good. And which Act would support that claim?` },
     { s: 'MICHAEL', t: `The Employment Equity Act — it prohibits unfair discrimination in employment practices, including job advertisements.` },
-    { s: 'NALEDI', t: `Exactly. Now here's the second layer examiners want you to catch — there's another Act being violated here too, separate from the hiring discrimination. Any thoughts?` },
-    { s: 'MICHAEL', t: `Hmm... it mentions using "lists of clients' details" for telesales. That sounds like it could be a Consumer Protection Act issue — using people's personal information for marketing without them necessarily agreeing to it.` },
+    { s: 'NALEDI', t: `Exactly. Now here's the second layer examiners want you to catch — there's another Act being touched on here too, separate from the hiring discrimination. Any thoughts?` },
+    { s: 'MICHAEL', t: `Hmm... it mentions the person will "manage and contact clients from our loyalty database." That sounds like it could raise a Consumer Protection Act issue — using customers' personal information for promotional contact without necessarily having their consent.` },
     { s: 'NALEDI', t: `Exactly the connection the exam is testing — the CPA and the general principle we saw in the National Credit Act too, that personal information can't just be shared or used for marketing without proper consent. Businesses need to link related Acts together like this to score full marks on the higher-level questions.` },
     { s: 'MICHAEL', t: `That's honestly the hardest part — knowing which Acts connect to each other.` },
-    { s: 'NALEDI', t: `Which is exactly why we did each Act as its own episode, but always pointed out the overlaps. Let's do one more — the Thomas job description case study, quickfire. Working hours 07:00 to 17:00, Monday to Friday — compliant or not?` },
+    { s: 'NALEDI', t: `Which is exactly why we gave each Act its own episode, but always pointed out the overlaps. Let's do one more — a job-offer scenario, quickfire. Working hours 08:00 to 17:00, Monday to Friday — compliant or not?` },
     { s: 'MICHAEL', t: `Compliant — that's within the 45-hour weekly maximum.` },
-    { s: 'NALEDI', t: `Overtime paid at his normal daily rate.` },
-    { s: 'MICHAEL', t: `Not compliant — overtime on weekdays must be 1.5 times his normal rate, not equal to it.` },
-    { s: 'NALEDI', t: `Public holiday work paid at his normal daily rate.` },
+    { s: 'NALEDI', t: `Overtime paid at the normal hourly rate.` },
+    { s: 'MICHAEL', t: `Not compliant — overtime on weekdays must be 1.5 times the normal rate, not equal to it.` },
+    { s: 'NALEDI', t: `Public holiday work paid at 1.2 times the normal rate.` },
     { s: 'MICHAEL', t: `Not compliant — public holidays must be paid at double rate.` },
-    { s: 'NALEDI', t: `Family Responsibility Leave not normally granted.` },
-    { s: 'MICHAEL', t: `Not compliant — he's entitled to three days a year after four months of service.` },
-    { s: 'NALEDI', t: `Eighteen days annual leave in his first full year.` },
-    { s: 'MICHAEL', t: `Compliant — that meets the legal minimum when calculated proportionally.` },
-    { s: 'NALEDI', t: `You just answered a twenty-mark question in under a minute. That's the exact method for these BCEA scenario questions — go line by line, compare each item to the legal minimum, don't try to judge the whole scenario as one block.` },
+    { s: 'NALEDI', t: `Family Responsibility Leave only granted after one full year of service.` },
+    { s: 'MICHAEL', t: `Not compliant — it's meant to be available after just four months of service.` },
+    { s: 'NALEDI', t: `Twenty days annual leave in the first full year.` },
+    { s: 'MICHAEL', t: `Compliant — that's above the legal minimum.` },
+    { s: 'NALEDI', t: `You just walked through that whole scenario in under a minute. That's the exact method for these BCEA-style questions — go line by line, compare each item to the legal minimum, don't try to judge the whole scenario as one block.` },
     { s: 'MICHAEL', t: `Any final advice before exam day?` },
     { s: 'NALEDI', t: `Three things. One — learn the exact numbers. Percentages, days, rands, deadlines. These Acts are full of specific figures, and examiners test them directly: the 1% skills levy, the R500,000 payroll threshold, R500,000 to R900,000 EEA fines, R1 million or 10% turnover CPA fines, the 45-hour work week, the seven B-BBEE pillars and their percentages. Two — always link an Act to its purpose in one clean sentence before you explain the details; examiners give marks for stating the purpose correctly even before you go deeper. Three — when a case study is given, identify exactly which Act applies before you start answering, because half of these questions are really just testing whether you can recognise which law is actually relevant to the scenario.` },
     { s: 'MICHAEL', t: `Numbers, purpose first, identify the Act. Got it.` },
-    { s: 'NALEDI', t: `And that's Chapter 1, completely done — eight Acts, plus this revision round-up. You now genuinely understand more about South African business legislation than most working adults do.` },
+    { s: 'NALEDI', t: `And that's everything, completely done — eight Acts, plus this revision round-up. You now genuinely understand more about South African business legislation than most working adults do.` },
     { s: 'MICHAEL', t: `High praise. Thanks, Naledi.` },
     { s: 'NALEDI', t: `Good luck out there. This has been The Business Brief.` },
   ],
@@ -582,6 +597,24 @@ async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.mkdirSync(TMP_ROOT, { recursive: true });
 
+  // Optional: pass episode numbers as CLI args to only (re-)record those, e.g.
+  //   node --env-file=.env.local scripts/generate-business-brief-podcast-audio.mjs 3 4 5 7 9
+  // This is a true RE-RECORD — it wipes any existing clips/output for those
+  // episodes first, so it doesn't just skip lines that already succeeded.
+  // With no args, all 9 episodes run using the normal skip-if-exists behavior.
+  const requested = process.argv.slice(2).map(Number).filter(n => Number.isInteger(n) && n >= 1 && n <= 9);
+  const episodesToRun = requested.length ? EPISODES.filter(ep => requested.includes(ep.num)) : EPISODES;
+
+  if (requested.length) {
+    console.log(`Re-recording only episode(s): ${episodesToRun.map(e => e.num).join(', ')}\n`);
+    for (const ep of episodesToRun) {
+      const epDir = path.join(TMP_ROOT, slugifyFolder(ep.file));
+      if (fs.existsSync(epDir)) fs.rmSync(epDir, { recursive: true, force: true });
+      const outPath = path.join(OUT_DIR, `${ep.file}.mp3`);
+      if (fs.existsSync(outPath)) fs.rmSync(outPath, { force: true });
+    }
+  }
+
   const ffmpegAvailable = hasFfmpeg();
   let silenceShort, silenceLong;
   if (ffmpegAvailable) {
@@ -597,14 +630,14 @@ async function main() {
     console.warn('⚠ ffmpeg not found — episodes will be raw-concatenated (no pauses between lines). Install ffmpeg for cleaner pacing.\n');
   }
 
-  console.log(`The Business Brief — Chapter 1 — ${EPISODES.length} episodes\n`);
+  console.log(`The Business Brief — Chapter 1 — running ${episodesToRun.length} of ${EPISODES.length} episodes\n`);
 
-  for (const ep of EPISODES) {
+  for (const ep of episodesToRun) {
     console.log(`\n▶ ${ep.file}`);
     await generateEpisode(ep, ffmpegAvailable, silenceShort, silenceLong);
   }
 
-  console.log(`\n✅ All episodes processed. Check ${OUT_DIR} for the final files.`);
+  console.log(`\n✅ Done. Check ${OUT_DIR} for the final files.`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

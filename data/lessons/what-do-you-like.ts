@@ -28,7 +28,7 @@ export const whatDoYouLike: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To not like something. The opposite of like.',
       example: 'Dana dislikes ads that are too long — she says people stop reading after five seconds.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dislike.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dislike.png',
     },
     {
       word: 'FAVOURITE',
@@ -63,7 +63,7 @@ export const whatDoYouLike: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To get pleasure from something — to have a good experience doing or using it.',
       example: 'Our clients enjoy the weekly email report — they say it saves them hours of work.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/enjoy.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/enjoy.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const whatDoYouLike: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I like the email reports. They are clear and they save me a lot of time.',
     },
     {
@@ -130,7 +130,7 @@ export const whatDoYouLike: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I am not keen on the social media ads. I feel like they do not reach the right people.',
     },
     {
@@ -142,7 +142,7 @@ export const whatDoYouLike: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I prefer email. In my [[opinion:what you think about something — your personal view]], the results are easier to track.',
     },
     {
@@ -154,7 +154,7 @@ export const whatDoYouLike: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'A clear message, a strong subject line, and a call to action at the end. Those are my [[favourite:the one you like most of all]] things to see in a good email.',
     },
     {
@@ -166,7 +166,7 @@ export const whatDoYouLike: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I like the idea, but I am not sure it matches our audience's [[interest:something a person likes or wants to know more about]]s.",
     },
     {
@@ -178,7 +178,7 @@ export const whatDoYouLike: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I do — as long as we can measure the results. I do not like doing things if we cannot see if they work.',
     }
   ],

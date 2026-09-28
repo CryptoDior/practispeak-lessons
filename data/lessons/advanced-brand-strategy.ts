@@ -6,7 +6,7 @@ export const advancedBrandStrategy: Lesson = {
   subtitle: 'How to build, measure, and protect the financial value of a brand',
   level: 'C1-C2',
   description: "Most marketers know how to run campaigns. Fewer know how to build a brand that is worth something — in financial terms, in the market, and in the minds of customers. This lesson teaches the language of advanced brand strategy: how to talk about brand equity, brand valuation, and the risks that erode what you have built. These are the conversations that happen at board level — and you need the vocabulary to lead them.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-brand-strategy-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-brand-strategy-hero.png',
 
   vocabulary: [
     {

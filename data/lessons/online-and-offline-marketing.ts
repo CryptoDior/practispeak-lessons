@@ -42,7 +42,7 @@ export const onlineAndOfflineMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A message you send to someone over the internet.',
       example: 'We send an email to our clients every week with news and updates.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/email.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/email.png',
     },
     {
       word: 'CHANNEL',
@@ -96,13 +96,13 @@ export const onlineAndOfflineMarketing: Lesson = {
       phrase: 'DRIVE TRAFFIC TO',
       definition: 'Help people go to your website.',
       example: 'We run social media ads to drive traffic to our website.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/drive-traffic-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/drive-traffic-to.png',
     },
     {
       phrase: 'BEST FOR',
       definition: 'Say which channel works well for a certain goal or audience.',
       example: 'Email is best for talking to existing clients. Social media is best for finding new ones.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/best-for.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/best-for.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const onlineAndOfflineMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, what [[channel:a way to reach people with your marketing]]s does Brightline use to reach customers?',
     },
     {
@@ -124,7 +124,7 @@ export const onlineAndOfflineMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What do you use online?',
     },
     {
@@ -136,7 +136,7 @@ export const onlineAndOfflineMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Which one works best for you?',
     },
     {
@@ -148,7 +148,7 @@ export const onlineAndOfflineMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Do you use any offline channels? Like [[print:written or printed material, like leaflets, posters, or magazines]] or [[TV:television — a screen that shows videos and programmes]]?',
     },
     {
@@ -160,7 +160,7 @@ export const onlineAndOfflineMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'That makes sense. What about events — are those online or offline?',
     },
     {
@@ -172,7 +172,7 @@ export const onlineAndOfflineMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Which channel brings the most new customers to Brightline?',
     },
     {
@@ -184,7 +184,7 @@ export const onlineAndOfflineMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Good to know — I want to use more channels for my agency too.',
     }
   ],

@@ -21,14 +21,14 @@ export const salesLeadershipCommunication: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The percentage of quota a salesperson or team has achieved in a given period. It shows how close they are to hitting their target.',
       example: 'At 58% attainment at the mid-point of the quarter, the team needed to accelerate three key deals to close the gap before quarter-end.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/attainment.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/attainment.png',
     },
     {
       word: 'COACHING',
       partOfSpeech: 'noun',
       definition: "Regular one-to-one sessions between a sales manager and a rep to develop skills, review deals, and improve performance through questioning and reflection rather than giving direct answers.",
       example: 'Weekly coaching sessions helped identify a gap in the rep\'s discovery process and led to faster deal progression and stronger close rates by the following month.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/coaching.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coaching.png',
     },
     {
       word: 'PIPELINE COVERAGE',

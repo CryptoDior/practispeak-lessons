@@ -42,7 +42,7 @@ export const highTicketSalesLanguage: Lesson = {
       partOfSpeech: 'noun',
       definition: "When a benefit grows bigger over time because each improvement builds on the last.",
       example: "The compounding argument is most powerful when you show the buyer what the platform knows about their business by year three — and what leaving at that point would actually cost them.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/compounding.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/compounding.png',
     },
     {
       word: 'JUSTIFICATION',

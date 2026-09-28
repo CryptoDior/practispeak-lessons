@@ -33,14 +33,14 @@ export const describingAMatch: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'Offensive play aimed at scoring a goal — moving the ball into the opponent\'s half to create chances.',
       example: 'They attacked from the first minute — the defenders had no rest.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-a-match-attack.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/describing-a-match-attack.png',
     },
     {
       word: 'DEFEND',
       partOfSpeech: 'verb',
       definition: 'To protect your goal and stop the opposition from scoring.',
       example: 'They defended brilliantly — only 10 men but they kept a clean sheet.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-a-match-defend.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/describing-a-match-defend.png',
     },
     {
       word: 'POSSESSION',

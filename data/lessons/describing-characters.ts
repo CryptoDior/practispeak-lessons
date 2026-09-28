@@ -7,7 +7,7 @@ export const describingCharacters: Lesson = {
   subtitle: "Use adjectives and 'is / isn't' to describe game characters",
   level: 'A1-A2',
   description: "Learn 12 adjectives to describe game characters and use is / isn't to talk about them.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-characters-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/describing-characters-hero.png',
 
   grammarFocus: {
     focusTitle: 'Focus: "is" and "isn\'t" + adjective',
@@ -33,7 +33,7 @@ export const describingCharacters: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Large in size — takes up a lot of space.',
       example: 'The boss is BIG — he fills the whole screen!',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/big.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/big.png',
     },
     {
       word: 'SMALL',
@@ -61,7 +61,7 @@ export const describingCharacters: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Has a lot of physical power.',
       example: 'The warrior is STRONG — one punch destroys the wall!',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/describing-characters-strong.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/describing-characters-strong.png',
     },
     {
       word: 'WEAK',
@@ -96,7 +96,7 @@ export const describingCharacters: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Wearing protective metal or equipment.',
       example: "The knight is ARMOURED — arrows can't hurt him easily.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/armoured.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/armoured.png',
     },
     {
       word: 'TALL',
@@ -110,7 +110,7 @@ export const describingCharacters: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Can cause a lot of damage or harm.',
       example: "Don't go near that enemy — it is very DANGEROUS!",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dangerous.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dangerous.png',
     }
   ],
 

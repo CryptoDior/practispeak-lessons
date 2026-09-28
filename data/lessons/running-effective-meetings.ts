@@ -130,7 +130,7 @@ export const runningEffectiveMeetings: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Of course. The headline: LinkedIn is performing significantly above [[benchmark:a reference standard for performance]], cost per lead is down 22%, and the manufacturing [[segment:a specific subset of the audience]] is converting at four times the rate of logistics. I will send the full detail in the [[minutes:written record of what was discussed and decided]] after the meeting — for now, the number everyone needs to know is that manufacturing leads cost us €89 each and convert at 4.2x. That is the foundation for the Q4 decision.',
     },
     {
@@ -172,7 +172,7 @@ export const runningEffectiveMeetings: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Before we close — should we [[circle back:return to a topic]] to the influencer strategy now or is that in the [[minutes:meeting record]] for next time?',
     },
     {

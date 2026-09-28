@@ -49,7 +49,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To show that your product is different from other options — to explain why yours is a better choice.',
       example: 'You do not need to criticise competitors to differentiate — just show what changes for the customer when they choose you instead.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/differentiate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/differentiate.png',
     },
     {
       word: 'RESONATE',
@@ -102,7 +102,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
       phrase: 'COMPARED TO',
       definition: 'Use this to show the difference between your product and another option. It makes the benefit clear.',
       example: 'Compared to building a manual spreadsheet that relies on everyone remembering to update it, this runs automatically in the background — no maintenance required.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/compared-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/compared-to.png',
     }
   ],
 

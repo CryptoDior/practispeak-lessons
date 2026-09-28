@@ -6,7 +6,7 @@ export const accountBasedMarketing: Lesson = {
   subtitle: 'How to target high-value accounts with personalised campaigns that speak directly to specific decision-makers',
   level: 'B1-B2',
   description: "Account-based marketing — or ABM — is a B2B strategy where you treat individual companies as markets of one. Instead of casting a wide net and hoping the right companies find you, ABM means identifying your most valuable potential accounts and building campaigns specifically for them. This lesson teaches you the vocabulary and professional language behind ABM: how to talk about key accounts, intent data, personalisation, and the outreach that gets meetings with decision-makers.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/account-based-marketing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/account-based-marketing-hero.png',
 
   vocabulary: [
     {
@@ -166,7 +166,7 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I have also layered [[intent data:data that shows which companies are actively researching topics related to your product]] on top of the list. Eight of our 40 accounts are showing high intent right now — they have been reading comparison articles and visiting competitor pricing pages. Those eight are our immediate priority.",
     },
     {
@@ -184,7 +184,7 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I have also built a [[stakeholder map:a document showing all the people involved in a purchasing decision, their roles, and their influence]] for each of the top ten accounts. Let me walk through the most complex one.",
     },
     {
@@ -196,7 +196,7 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The stakeholder map for this account shows six people in the buying decision. The CMO is the [[decision-maker:the person with authority to approve the purchase]]. The Head of Marketing Ops is our strongest existing contact — she is the champion. The CFO needs to approve any spend over £80k. And two marketing managers are the end users who will influence the CMO's view.",
     },
     {
@@ -214,7 +214,7 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "We are creating a piece of content specifically for CMOs in their sector — a benchmarking report on marketing attribution. We distribute it via LinkedIn and targeted email to the CMO. It is not a product pitch — it is something genuinely useful. The ask is just a 30-minute conversation about the research.",
     },
     {
@@ -232,7 +232,7 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Agreed. Intent data shows this account is already researching — if a competitor gets to the CFO before we do, we may lose the deal without ever getting a fair hearing. Speed matters here.",
     },
     {

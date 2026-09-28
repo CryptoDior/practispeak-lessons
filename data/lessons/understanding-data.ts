@@ -21,7 +21,7 @@ export const understandingData: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: 'A fall in a number — going down.',
       example: 'We saw a decrease in the cost per click after we changed the ad copy.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/decrease.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/decrease.png',
     },
     {
       word: 'TREND',
@@ -42,7 +42,7 @@ export const understandingData: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A typical number — calculated by adding all the numbers and dividing by how many there are.',
       example: 'The average number of new sign-ups per week this month was 45.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/average.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/average.png',
     },
     {
       word: 'CONVERSION RATE',
@@ -78,13 +78,13 @@ export const understandingData: Lesson = {
       phrase: 'COMPARE TO',
       definition: 'Look at one number next to another to understand the difference.',
       example: 'Compared to last month, sign-ups increased by 30%.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/compare-to.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/compare-to.png',
     },
     {
       phrase: 'ABOVE / BELOW AVERAGE',
       definition: 'Higher or lower than the typical number.',
       example: 'Our email open rate is above the industry average — that means our subject lines are working.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/above--below-average.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/above--below-average.png',
     },
     {
       phrase: 'FLATTEN OUT',
@@ -118,7 +118,7 @@ export const understandingData: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'That is great! What does the [[trend:a general direction that numbers are moving]] look like across the four weeks?',
     },
     {
@@ -130,7 +130,7 @@ export const understandingData: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Why was week two the [[peak]]?',
     },
     {
@@ -142,7 +142,7 @@ export const understandingData: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Is 11% a good [[conversion rate]]? What is the [[benchmark:a standard number used to compare your results]]?',
     },
     {
@@ -154,7 +154,7 @@ export const understandingData: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Was there anything that showed a [[decrease:a fall in a number]]?',
     },
     {
@@ -166,7 +166,7 @@ export const understandingData: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What are your three main metrics?',
     },
     {
@@ -178,7 +178,7 @@ export const understandingData: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I need to start tracking data like this. Right now I am just looking at follower counts.',
     },
     {

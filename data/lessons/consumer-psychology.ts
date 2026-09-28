@@ -6,7 +6,7 @@ export const consumerPsychology: Lesson = {
   subtitle: 'How to use the language of behaviour and decision-making to analyse campaigns, brief creatives, and explain why customers do what they do',
   level: 'B1-B2',
   description: "People don't make decisions the way we think they do. They are influenced by cognitive biases, social signals, scarcity, and the way choices are framed — often without knowing it. Understanding consumer psychology gives marketers a powerful advantage: you can design campaigns that work with human behaviour instead of against it. This lesson teaches you the vocabulary and phrases to discuss psychological principles at work, analyse real campaigns, and brief creative teams with precision.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/consumer-psychology-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/consumer-psychology-hero.png',
 
   vocabulary: [
     {
@@ -178,7 +178,7 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "That's [[loss aversion:the psychological finding that people feel the pain of losing something more strongly than the pleasure of gaining the same thing]] doing exactly what it's supposed to do. People are wired to respond more strongly to loss than to gain. The research on this is extremely consistent.",
     },
     {
@@ -196,7 +196,7 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'The second factor was the pricing page redesign. We moved the Enterprise plan to the top — leading with the highest price. The Pro plan, which is what we actually want most customers to buy, suddenly looked like great value in comparison.',
     },
     {
@@ -214,7 +214,7 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And the sequencing matters. We're priming the customer at every stage before the next ask. The free template primes them to trust us. The social proof primes them to feel safe. The anchoring primes them to see the price as fair. By the time they hit 'buy now', the decision is mostly made.",
     },
     {
@@ -232,7 +232,7 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Agreed. The psychological insight behind this is genuine customer empathy — we understood what makes our customer hesitate and we designed the journey to address each hesitation point. That's the right framing for the client conversation.",
     },
     {

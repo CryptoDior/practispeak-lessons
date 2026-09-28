@@ -6,7 +6,7 @@ export const dataDrivenDecisions: Lesson = {
   subtitle: 'How to read, talk about, and present marketing data so it drives action — not just reporting',
   level: 'B1-B2',
   description: 'Marketing data is only useful if it leads to better decisions. In this lesson you will learn the vocabulary for discussing analytics in a B2B marketing context — how to read a dashboard, identify insights, and present your findings to a client or stakeholder in a way that is clear, honest, and actionable.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-decisions-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/data-driven-decisions-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const dataDrivenDecisions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A visual summary of your most important marketing metrics in one place — giving you a quick overview of performance across channels.',
       example: 'Every Monday morning I check the dashboard first — it tells me in two minutes whether we are on track or whether something needs attention before I read the detail.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data-driven-decisions-dashboard.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/data-driven-decisions-dashboard.png',
     },
     {
       word: 'INSIGHT',

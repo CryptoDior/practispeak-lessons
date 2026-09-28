@@ -166,7 +166,7 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I had the same feeling when I reviewed it. What's your main concern?",
     },
     {
@@ -190,7 +190,7 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I like the second one. It's specific and it feels personal. What about the [[hook:the opening element that captures attention and makes the reader feel this content was written for them]]? The page currently opens with three sentences about the company's history.",
     },
     {
@@ -208,7 +208,7 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The features section also needs work. It's a bullet list of what the product does — it's not [[benefit-led]] at all. 'Real-time compliance alerts' doesn't mean anything emotional. What does it mean for the reader?",
     },
     {
@@ -226,7 +226,7 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I'll add a section above the final CTA. From the sales team, the three most common objections are: implementation time, contract length, and whether it works for their tech stack. Address the objection before the reader raises it — 'Set up in 48 hours. Month-to-month contracts. Integrates with the tools you already use.'",
     },
     {
@@ -250,7 +250,7 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I'll have the rewrite ready by tomorrow morning. One headline with a specific outcome, a stat-led hook, benefit-led features, an objection section, and a strong CTA above the fold. Let's see what it does to conversion.",
     }
   ],

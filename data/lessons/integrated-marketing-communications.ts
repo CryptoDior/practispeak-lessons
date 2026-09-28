@@ -172,7 +172,7 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'The audit showed three different brand voices across five channels. The paid ads were formal and product-led. The email was casual and relationship-focused. The blog was thought leadership but with no clear connection to the campaign. There was no [[consistency:the quality of delivering the same message, tone, and brand identity across all channels]].',
     },
     {
@@ -196,7 +196,7 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'For the compliance officer: reduces audit risk and saves 6 hours a week. For the marketing director: approve campaigns faster without going back to legal. For the CMO: move faster than competitors without increasing regulatory exposure.',
     },
     {
@@ -214,7 +214,7 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And the [[synergy:when channels working together produce a greater result than any single channel could produce alone]] effect is where we see the real return. A prospect who sees the LinkedIn article, gets the email, and then sees the retargeting ad is experiencing the same story from three angles. That's much more powerful than any one of those alone.",
     },
     {
@@ -232,7 +232,7 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And the channel alignment across teams — how do we keep everyone in sync? Last time the paid team and the email team were running completely different schedules.',
     },
     {
@@ -250,7 +250,7 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Agreed. Let's schedule the briefing for Monday. I'll have the message architecture document ready by Friday for your review.",
     }
   ],

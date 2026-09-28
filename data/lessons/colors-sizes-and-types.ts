@@ -6,7 +6,7 @@ export const colorsSizesAndTypes: Lesson = {
   subtitle: 'How to describe products clearly using adjectives and nouns',
   level: 'A1-A2',
   description: "Learn to describe products, plans, and features using adjective + noun combinations — 'a live dashboard', 'a flexible contract', 'a detailed report' — so customers instantly understand what you are offering.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/colors-sizes-and-types-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colors-sizes-and-types-hero.png',
 
   vocabulary: [
     {
@@ -14,28 +14,28 @@ export const colorsSizesAndTypes: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Containing a lot of information; thorough and complete.',
       example: 'I can send you a detailed report showing how your team is performing each week.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/detailed.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/detailed.png',
     },
     {
       word: 'FLEXIBLE',
       partOfSpeech: 'adjective',
       definition: 'Easy to change or adapt to different needs.',
       example: 'It is a flexible contract — you can switch from monthly to annual at any time.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/colors-sizes-and-types-flexible.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colors-sizes-and-types-flexible.png',
     },
     {
       word: 'CUSTOM',
       partOfSpeech: 'adjective',
       definition: "Made or adjusted to match a specific person or company's exact needs.",
       example: 'The Enterprise Plan is a custom solution — we build it around your workflow.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/custom.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/custom.png',
     },
     {
       word: 'AUTOMATED',
       partOfSpeech: 'adjective',
       definition: 'Done automatically by the system, without any manual work.',
       example: 'You can set up an automated report that goes to your manager every Monday morning.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/automated.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/automated.png',
     },
     {
       word: 'LIVE',
@@ -49,7 +49,7 @@ export const colorsSizesAndTypes: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Already included as part of the product; no extra setup or cost needed.',
       example: 'There are built-in connections to the most common business tools — no setup needed.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/built-in.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/built-in.png',
     },
     {
       word: 'LIMITED',
@@ -72,37 +72,37 @@ export const colorsSizesAndTypes: Lesson = {
       phrase: 'A LIVE DASHBOARD',
       definition: 'A screen that shows real-time information and updates automatically.',
       example: 'You get a live dashboard — you can see every deal and every customer in one place, right now.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-live-dashboard.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-live-dashboard.png',
     },
     {
       phrase: 'A DETAILED REPORT',
       definition: 'A thorough document or summary with full information and data.',
       example: 'I can show you a detailed report — it breaks down performance by team member, by week, and by deal size.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-detailed-report.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-detailed-report.png',
     },
     {
       phrase: 'A FLEXIBLE CONTRACT',
       definition: "An agreement that can be changed or adapted to fit the customer's needs.",
       example: 'It is a flexible contract — monthly or annual, and you can change at any time.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-flexible-contract.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-flexible-contract.png',
     },
     {
       phrase: 'A CUSTOM SOLUTION',
       definition: "A product or service built specifically around a customer's exact requirements.",
       example: 'For larger teams, we offer a custom solution — it is built around your exact workflow and tools.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-custom-solution.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-custom-solution.png',
     },
     {
       phrase: 'A BUILT-IN FEATURE',
       definition: 'A function that is already included in the product with no extra setup.',
       example: 'The integration with your email tool is a built-in feature — it connects automatically when you sign up.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/a-built-in-feature.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-built-in-feature.png',
     },
     {
       phrase: 'AN AUTOMATED REPORT',
       definition: 'A report the system creates and sends on its own, on a schedule you set.',
       example: 'You can set up an automated report — choose the day and time, and it goes out without you doing anything.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/an-automated-report.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/an-automated-report.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const colorsSizesAndTypes: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, I need to present Brightline to my manager next week. Can you describe the key features so I can explain them clearly?',
     },
     {
@@ -124,7 +124,7 @@ export const colorsSizesAndTypes: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Good. What about reports? My manager will ask about that.',
     },
     {
@@ -136,7 +136,7 @@ export const colorsSizesAndTypes: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I like the automated option. Is it easy to set up?',
     },
     {
@@ -148,7 +148,7 @@ export const colorsSizesAndTypes: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And the contract? My manager will want to know if it is [[flexible:easy to change or adapt to different needs]].',
     },
     {
@@ -160,7 +160,7 @@ export const colorsSizesAndTypes: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "What if we grow and need a [[custom:made or adjusted to match a specific person or company's exact needs]] setup later?",
     },
     {
@@ -172,7 +172,7 @@ export const colorsSizesAndTypes: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'That covers everything. I think I can explain this to my manager now.',
     },
     {

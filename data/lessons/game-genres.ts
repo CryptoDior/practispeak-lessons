@@ -28,7 +28,7 @@ export const gameGenres: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A game type focused on exploring a world and following a story.',
       example: 'I love adventure games because the stories are amazing.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/adventure.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/adventure.png',
     },
     {
       word: 'STRATEGY',
@@ -77,7 +77,7 @@ export const gameGenres: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Hard to do — needing a lot of skill and concentration.',
       example: 'This level is more difficult than the last one — I keep losing!',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/difficult.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/difficult.png',
     },
     {
       word: 'POPULAR',
@@ -140,7 +140,7 @@ export const gameGenres: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: 'Hey Sam! What [[genre:a category of game]] of game are you playing? It looks intense!',
     },
     {
@@ -152,7 +152,7 @@ export const gameGenres: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: 'I prefer [[strategy:games where you plan carefully to win]] games. They are more [[difficult:hard, needing skill and concentration]] than action games — but I love thinking carefully.',
     },
     {
@@ -164,7 +164,7 @@ export const gameGenres: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: 'Ha! Horror games are scarier than strategy for sure. My favourite [[genre:a category of game]] is actually RPG.',
     },
     {
@@ -176,7 +176,7 @@ export const gameGenres: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: 'Solo. Multiplayer is faster, but the story in solo games is better than in multiplayer.',
     },
     {
@@ -188,7 +188,7 @@ export const gameGenres: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: 'Each to their own! What kind of games do you like most right now?',
     },
     {

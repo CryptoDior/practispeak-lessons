@@ -42,7 +42,7 @@ export const explainingPackagesAndPlans: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A limit on usage within a plan — a maximum number of users, actions, or features allowed before you need to upgrade.',
       example: 'The Basic plan has a cap of five users — once your team grows beyond that, you would automatically need to move to Standard.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cap.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cap.png',
     },
     {
       word: 'BUNDLE',

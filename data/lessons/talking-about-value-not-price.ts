@@ -49,7 +49,7 @@ export const talkingAboutValueNotPrice: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Getting more output with the same or less input — doing things faster, with fewer resources, or with less effort.',
       example: 'Improving efficiency is one of the easiest value cases to make — if you can show how many hours per week a team gets back, the maths usually does the work for you.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/efficiency.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/efficiency.png',
     },
     {
       word: 'TRADE-OFF',

@@ -42,7 +42,7 @@ export const handlingBasicObjections: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To show genuine understanding of how the prospect feels — not just what they are saying, but why it matters to them.',
       example: 'Empathising with a concern is not the same as agreeing with it — it signals that you understand their world well enough to take their hesitation seriously.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/empathise.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/empathise.png',
     },
     {
       word: 'STALL',
@@ -78,7 +78,7 @@ export const handlingBasicObjections: Lesson = {
       phrase: 'CAN I ASK WHAT IS BEHIND THAT',
       definition: 'Probe the objection before responding — find out what is really driving the concern so you can address the actual issue, not just the surface statement.',
       example: 'When you say the timing is not right — can I ask what is behind that? I want to make sure I understand whether it is a capacity issue, a budget cycle, or something else.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/can-i-ask-what-is-behind-that.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/can-i-ask-what-is-behind-that.png',
     },
     {
       phrase: 'THAT IS A FAIR POINT',

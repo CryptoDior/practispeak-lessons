@@ -112,7 +112,7 @@ export const marketSegmentationInDepth: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley — before we write the campaign brief, I want to make sure we have the [[persona:a detailed profile of a realistic customer built from real data]] right. Who are we actually writing for?',
     },
     {
@@ -124,7 +124,7 @@ export const marketSegmentationInDepth: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'That is the [[demographic:basic factual information about a person — job title, company size, industry]]. What do we know about the psychographic layer — how does she actually think?',
     },
     {
@@ -136,7 +136,7 @@ export const marketSegmentationInDepth: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And [[behavioural:relating to what people actually do — how they search, buy, and engage]]? How does she actually find and evaluate solutions?',
     },
     {
@@ -148,7 +148,7 @@ export const marketSegmentationInDepth: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What is her [[need-state:the specific problem driving someone to look for a solution right now]] — what is happening in her world that makes her look for something like TechFlow?',
     },
     {
@@ -160,7 +160,7 @@ export const marketSegmentationInDepth: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'So the campaign needs to [[speak to:address a specific customer problem directly in your marketing]] that fear — not just the features.',
     },
     {
@@ -172,7 +172,7 @@ export const marketSegmentationInDepth: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And for the email campaign, we [[filter:narrow down by applying specific criteria]] the database by role and company size first?',
     },
     {

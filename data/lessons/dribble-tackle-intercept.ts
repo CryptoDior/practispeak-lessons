@@ -75,7 +75,7 @@ export const dribbleTackleIntercept: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To move quickly toward an opponent with the ball to put them under pressure.',
       example: 'Both forwards are pressing the defenders — they\'re not letting them play.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dribble-tackle-intercept-press.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dribble-tackle-intercept-press.png',
     },
     {
       word: 'NUTMEG',

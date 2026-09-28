@@ -8,7 +8,7 @@ export const esportsAsAProfession: Lesson = {
   level: 'C1-C2',
   description:
     'Vocabulary for talking about esports careers, the language of conditionals (real and hypothetical, present and past — including formal inverted forms), and register-shifting — explored through scholarships, sponsorships, burnout, and life after retiring at twenty-five.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/esports-as-a-profession-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/esports-as-a-profession-hero.png',
   externalUrl: '/esports-as-a-profession.html',
   vocabulary: [],
   phrasalVerbs: [],

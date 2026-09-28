@@ -63,7 +63,7 @@ export const numbersAndPrices: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Numbers and facts that show how something is going.',
       example: 'The data shows that more people are visiting our website.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/data.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/data.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const numbersAndPrices: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Great — I'd love to hear the [[figure:a number in a report or table]]s.",
     },
     {
@@ -130,7 +130,7 @@ export const numbersAndPrices: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'That is good news. What about results?',
     },
     {
@@ -142,7 +142,7 @@ export const numbersAndPrices: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Excellent. And what is the [[total:the full amount when you add everything together]] number of new sign-ups?',
     },
     {
@@ -154,7 +154,7 @@ export const numbersAndPrices: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'That is great. What about [[revenue:the money a company gets from selling things]]?',
     },
     {
@@ -166,7 +166,7 @@ export const numbersAndPrices: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'These are very good results, Riley. What is the plan for next month?',
     },
     {
@@ -178,7 +178,7 @@ export const numbersAndPrices: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Sounds like a good plan. Can you send me a short report with all the figures?',
     }
   ],

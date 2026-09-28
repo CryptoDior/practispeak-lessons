@@ -28,7 +28,7 @@ export const theKit: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Special shoes with studs on the bottom, worn to play football.',
       example: 'New boots can help you run faster on the grass.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/boots.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/boots.png',
     },
     {
       word: 'SHIN PADS',
@@ -49,7 +49,7 @@ export const theKit: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A coloured vest worn over the shirt during training.',
       example: 'The substitutes wore a yellow bib on the bench.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/bib.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/bib.png',
     },
     {
       word: 'SOCKS',
@@ -90,7 +90,7 @@ export const theKit: Lesson = {
       phrase: 'CHANGE YOUR SHIRT',
       definition: 'To swap your shirt, often with an opponent after a match.',
       example: 'The two captains changed their shirts after the final whistle.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/change-your-shirt.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/change-your-shirt.png',
     },
     {
       phrase: 'HOME KIT',
@@ -102,7 +102,7 @@ export const theKit: Lesson = {
       phrase: 'AWAY KIT',
       definition: 'The set of clothes a team wears when playing at another ground.',
       example: 'We wear the away kit when our colours clash with the other team.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/away-kit.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/away-kit.png',
     },
   ],
 

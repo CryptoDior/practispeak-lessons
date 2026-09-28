@@ -160,7 +160,7 @@ export const mediaRelationsAndPr: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "We have a [[press release:a written statement sent to journalists to share official news]] that needs work — the [[news hook:the specific element that makes a story timely and relevant enough to cover right now]] is too weak. We have a draft [[media kit:a collection of resources giving journalists everything they need to cover a story]] — press release, fact sheet, images, executive bios. And we have twelve journalist briefings scheduled under [[embargo:an agreement that journalists receive information early but cannot publish until a set date and time]].",
     },
     {
@@ -172,7 +172,7 @@ export const mediaRelationsAndPr: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Launch day at 6am. We have an embargo until then. Journalists are briefed on Wednesday and Thursday this week — they get full access to the product, a one-on-one with the CEO, and the complete media kit. In exchange, nothing publishes until launch day.",
     },
     {
@@ -190,7 +190,7 @@ export const mediaRelationsAndPr: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "For that, the phrase is: this is strictly off the record — I am sharing this as background. She needs to say those words before she shares anything. Not after.",
     },
     {
@@ -208,7 +208,7 @@ export const mediaRelationsAndPr: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And the press release — the story needs a stronger news hook before it goes out. Right now it reads like a product description. We need to open with the market problem this solves, not with 'today we are pleased to announce.'",
     },
     {

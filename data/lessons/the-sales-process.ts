@@ -84,7 +84,7 @@ export const theSalesProcess: Lesson = {
       phrase: 'CLOSE A DEAL',
       definition: "To reach the final agreement and get the customer's commitment to buy.",
       example: 'We have been nurturing this account for three months — I think we are finally in a position to close the deal this week.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/close-a-deal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/close-a-deal.png',
     },
     {
       phrase: 'FOLLOW UP ON',
@@ -96,7 +96,7 @@ export const theSalesProcess: Lesson = {
       phrase: 'AT WHAT STAGE IS',
       definition: 'A question used to ask where a particular deal currently sits in the sales process.',
       example: 'At what stage is the Harmon deal? I want to make sure we have the right support in place before the next call.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/at-what-stage-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/at-what-stage-is.png',
     },
     {
       phrase: 'PITCH TO SOMEONE',
@@ -153,7 +153,7 @@ export const theSalesProcess: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What makes someone a lead rather than just a random contact?',
     },
     {
@@ -165,7 +165,7 @@ export const theSalesProcess: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What does qualifying actually involve?',
     },
     {
@@ -177,7 +177,7 @@ export const theSalesProcess: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And then you [[pitch:a structured, persuasive presentation connecting your product's value to the prospect's specific situation]] them?",
     },
     {
@@ -189,7 +189,7 @@ export const theSalesProcess: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "What happens when they don't buy straight after the pitch? That must happen a lot.",
     },
     {
@@ -201,7 +201,7 @@ export const theSalesProcess: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "How do you know when to [[close:to complete a sale by getting the customer's commitment to buy]]?",
     },
     {
@@ -213,7 +213,7 @@ export const theSalesProcess: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And all of these stages together — that's the [[pipeline:the set of all active deals at different stages of the sales process]]?",
     },
     {

@@ -178,7 +178,7 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "That tracks. I've also been looking at [[Ansoff:a growth framework with four strategies — penetration, market development, product development, and diversification]] and I think we're actually trying to do two things at once — market penetration in SME and product development for enterprise. That's spreading us thin.",
     },
     {
@@ -196,7 +196,7 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Agreed. And I think there's a [[positioning:how a brand is perceived relative to competitors in the minds of customers]] opportunity here too. When I mapped the competitive landscape, there's a clear gap in the market for a platform that specifically serves SMEs in regulated industries — financial services, legal, healthcare.",
     },
     {
@@ -208,7 +208,7 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'None of them are doing it well. The large platforms ignore it — too complex for their generalist approach. The specialist tools are too niche. If we position ourselves as the platform for regulated SMEs, we can own that space before anyone else notices it.',
     },
     {
@@ -232,7 +232,7 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "That's fair. But the alternative — competing as a generalist against platforms with ten times our budget — has its own risk. At least the niche strategy has [[strategic fit:how well a strategy aligns with the company's existing strengths and resources]] with what we already do well.",
     },
     {

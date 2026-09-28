@@ -6,7 +6,7 @@ export const causeRelatedMarketing: Lesson = {
   subtitle: 'How to talk about purpose, social impact, and ESG — and how to communicate a brand\'s values without sounding performative',
   level: 'C1-C2',
   description: "Consumers today expect more from the brands they buy from than a good product at a fair price. They want to know what the company stands for — what it believes in, what it contributes to, and whether those beliefs are genuine or simply a marketing strategy. Cause-related marketing, purpose-led branding, CSR, and ESG have become central topics in modern marketing. This lesson gives you the vocabulary to participate confidently in these conversations — including the language for spotting what is authentic and what is not.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cause-related-marketing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cause-related-marketing-hero.png',
 
   vocabulary: [
     {
@@ -166,7 +166,7 @@ export const causeRelatedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Good question. Three examples of real purpose decisions: we discontinued the high-sugar range two years ago at a cost of £4 million in annual revenue. We pay suppliers above the living wage across our full supply chain. And we committed to fully recyclable packaging by 2025 before it was legally required — at significant cost.",
     },
     {
@@ -178,7 +178,7 @@ export const causeRelatedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Two claims concern me. 'Sustainable packaging' — our packaging is 60% recycled but not fully sustainable by any recognised standard. And 'carbon neutral' — we are offset-based, not zero emissions. Both need either substantiation or rewording before the campaign goes live.",
     },
     {
@@ -196,7 +196,7 @@ export const causeRelatedMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Understood. And the cause partnership — we need a long-term commitment, not a one-off campaign. I am proposing a three-year founding partnership, annual impact report, and a named funding target. Not a campaign sponsor relationship.",
     },
     {

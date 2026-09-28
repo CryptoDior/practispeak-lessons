@@ -84,7 +84,7 @@ export const gameOnFirstWords: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The device you hold in your hands to play.',
       example: 'Use the controller to move your character.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/controller.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/controller.png',
     },
     {
       word: 'MENU',
@@ -140,7 +140,7 @@ export const gameOnFirstWords: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: 'Hey Sam! Are you ready? Press [[start:to begin the game]] — the game is waiting!',
     },
     {
@@ -152,7 +152,7 @@ export const gameOnFirstWords: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: 'OK, no problem. What was your [[score:the total number of points you have]] yesterday? I got 2,500!',
     },
     {
@@ -164,7 +164,7 @@ export const gameOnFirstWords: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: 'How many [[life:how many times you can try again]] did you have at the end?',
     },
     {
@@ -176,7 +176,7 @@ export const gameOnFirstWords: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "Ha! OK — I have my [[controller:the device you hold in your hands to play]] ready now. Let's go!",
     },
     {
@@ -188,7 +188,7 @@ export const gameOnFirstWords: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "Yes! But please don't [[quit:to leave or exit the game completely]] this time! And don't [[pause:to stop the game for a moment]] for ten minutes!",
     },
     {

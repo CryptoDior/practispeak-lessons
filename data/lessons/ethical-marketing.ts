@@ -6,7 +6,7 @@ export const ethicalMarketing: Lesson = {
   subtitle: 'How to navigate greenwashing, transparency, diversity, and the regulations that govern what brands can and cannot say',
   level: 'B1-B2',
   description: "Consumers are increasingly sceptical. They can spot a hollow sustainability claim from a mile away, they know when a campaign is designed to look diverse without being inclusive, and they use social media to hold brands accountable faster than any regulator can. The brands that win long-term are not just the ones with the best products — they are the ones that earn and maintain trust through genuine transparency and ethical conduct. This lesson gives you the vocabulary to participate confidently in these conversations.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/ethical-marketing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ethical-marketing-hero.png',
 
   vocabulary: [
     {
@@ -154,7 +154,7 @@ export const ethicalMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Before we sign off the Q4 campaign, I have a concern I need to raise. The sustainability claims in the creative — specifically the 'planet-positive' headline — could be seen as [[greenwashing:misleading claims about environmental credentials]] under current ASA guidance. I want us to look at this properly before it goes live.",
     },
     {
@@ -166,7 +166,7 @@ export const ethicalMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "We have one verified environmental credential — the recyclable packaging. The carbon neutral claim is based on a partial offset with an unverified scheme. And 'planet-positive' implies a net benefit to the environment, which we cannot evidence at all. This raises a [[regulation:the rules governing what brands can and cannot claim in marketing]] concern that we need to address before launch.",
     },
     {
@@ -178,7 +178,7 @@ export const ethicalMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Mandatory withdrawal, a public ruling, and a correction notice published on our own website. The reputational cost of that is far higher than the campaign value. We need to be [[transparent:open and honest about how the business operates]] about what we have actually done — not what we aspire to.",
     },
     {
@@ -196,7 +196,7 @@ export const ethicalMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "There is also a second issue. The campaign casting does not reflect the [[diversity:a wide variety of different people represented in advertising and in the company]] of our actual customer base. I have the data here — our customers are 58% non-white, span ages 25 to 70, and include a significant proportion of customers with disabilities. The current lineup is 90% young and white.",
     },
     {
@@ -214,7 +214,7 @@ export const ethicalMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "While we are looking at this, I want to raise the longer-term question. We have been talking about becoming a [[purpose-driven:guided by a genuine social or environmental mission, not just profit]] brand. But right now we are stripping out environmental claims we cannot substantiate and rewriting casting briefs because they do not reflect our customers. The purpose positioning needs to be backed by real change, not just narrative.",
     },
     {

@@ -42,7 +42,7 @@ export const salesPresentationBasics: Lesson = {
       partOfSpeech: 'noun',
       definition: "Extra importance or stress given to a point so the audience pays particular attention to it. You create emphasis by slowing down, repeating a key idea, or using phrases like 'the key point here is'.",
       example: "When a number is the most important point in a section, emphasis makes sure the audience doesn't miss it — pausing before the figure and naming it clearly is often enough.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/emphasis.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/emphasis.png',
     },
     {
       word: 'SUMMARY',

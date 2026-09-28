@@ -166,7 +166,7 @@ export const reviewC1CommunicationMastery: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Good. Media relations — the word that is easy to confuse there is off the record and on background. The difference is what the journalist can do with the information. Off the record: they know it but cannot use it. On background: they can use it without attributing it to you.",
     },
     {
@@ -184,7 +184,7 @@ export const reviewC1CommunicationMastery: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Cross-cultural negotiation: the insight was about [[face-saving:protecting someone's dignity in a social or professional context]]. A 'yes' that is given to avoid public disagreement is not a commitment — it is a face-saving exit. The skill is to create structures that allow the other side to decline without losing face.",
     },
     {
@@ -202,7 +202,7 @@ export const reviewC1CommunicationMastery: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Let me draw that together — the [[common thread:the underlying principle connecting multiple topics]] across all eight lessons is the gap between what you intend to communicate and what the audience actually receives. Every lesson is about understanding and closing that gap with precision. Where I think I still need practice: reading the gap in real time — not in preparation, but in the live conversation.",
     },
   ],

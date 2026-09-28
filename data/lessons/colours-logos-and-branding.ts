@@ -6,7 +6,7 @@ export const coloursLogosAndBranding: Lesson = {
   subtitle: 'How to talk about the look of a brand',
   level: 'A1-A2',
   description: 'Learn simple words to talk about how a brand looks — its colours, logo, and style — and why it matters for marketing.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/colours-logos-and-branding-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colours-logos-and-branding-hero.png',
 
   vocabulary: [
     {
@@ -21,21 +21,21 @@ export const coloursLogosAndBranding: Lesson = {
       partOfSpeech: 'noun',
       definition: 'What you see when light hits something. For example: red, blue, or green.',
       example: 'We use blue and white as our main colours.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/colour.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colour.png',
     },
     {
       word: 'DESIGN',
       partOfSpeech: 'noun',
       definition: 'The way something looks — its colours, shapes, and style.',
       example: 'The design of our website uses clean lines and bright colours.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/colours-logos-and-branding-design.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colours-logos-and-branding-design.png',
     },
     {
       word: 'BRAND',
       partOfSpeech: 'noun',
       definition: 'The name and look of a company or product.',
       example: 'A strong brand helps people remember who you are.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/colours-logos-and-branding-brand.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colours-logos-and-branding-brand.png',
     },
     {
       word: 'IMAGE',
@@ -63,7 +63,7 @@ export const coloursLogosAndBranding: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The look and feel that makes a brand easy to know.',
       example: 'A strong brand identity helps people remember who you are and what you stand for.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/colours-logos-and-branding-identity.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colours-logos-and-branding-identity.png',
     }
   ],
 
@@ -72,13 +72,13 @@ export const coloursLogosAndBranding: Lesson = {
       phrase: 'STAND FOR',
       definition: 'Say what a symbol, colour, or logo means for a brand.',
       example: 'Our blue colour stands for trust and calm.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/colours-logos-and-branding-stand-for.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colours-logos-and-branding-stand-for.png',
     },
     {
       phrase: 'STAND OUT',
       definition: 'Be easy to see and remember — different from others.',
       example: 'Our logo is simple so it stands out on any background.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/colours-logos-and-branding-stand-out.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colours-logos-and-branding-stand-out.png',
     },
     {
       phrase: 'FIT WITH',
@@ -96,13 +96,13 @@ export const coloursLogosAndBranding: Lesson = {
       phrase: 'COME ACROSS AS',
       definition: 'The feeling or idea that people get when they see your brand.',
       example: 'We want the brand to come across as friendly and easy to trust.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/come-across-as.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/come-across-as.png',
     },
     {
       phrase: 'BUILD A BRAND',
       definition: 'Create a strong look and name that people know and remember.',
       example: 'It takes time to build a brand, but it is worth it.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/colours-logos-and-branding-build-a-brand.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colours-logos-and-branding-build-a-brand.png',
     }
   ],
 
@@ -118,7 +118,7 @@ export const coloursLogosAndBranding: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I like the [[logo:a small picture or symbol that stands for a company or brand]]. It is simple and easy to remember.',
     },
     {
@@ -130,7 +130,7 @@ export const coloursLogosAndBranding: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Why did you choose blue as your main [[colour:what you see when light hits something]]?',
     },
     {
@@ -142,7 +142,7 @@ export const coloursLogosAndBranding: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And what about the [[font:the style of writing used in text]]?',
     },
     {
@@ -154,7 +154,7 @@ export const coloursLogosAndBranding: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about [[image:a picture or photo]]s? How do you choose them?',
     },
     {
@@ -166,7 +166,7 @@ export const coloursLogosAndBranding: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'How long did it take to build a strong brand [[identity:the look and feel that makes a brand easy to know]]?',
     },
     {
@@ -178,7 +178,7 @@ export const coloursLogosAndBranding: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I need to work on the identity for my agency. Maybe I can take some ideas from Brightline!',
     }
   ],

@@ -6,7 +6,7 @@ export const crisisCommunication: Lesson = {
   subtitle: 'How to respond to negative situations, protect the brand, and communicate under pressure',
   level: 'B1-B2',
   description: "Every brand will face a crisis at some point — a product problem, a negative news story, a social media incident, or a customer complaint that goes public. How you communicate in those moments defines how the brand is remembered. Marketing and communications teams need to know how to respond quickly, clearly, and professionally. This lesson teaches you the vocabulary and phrases used in crisis communication — so you can protect the brand when things go wrong.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crisis-communication-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/crisis-communication-hero.png',
 
   vocabulary: [
     {

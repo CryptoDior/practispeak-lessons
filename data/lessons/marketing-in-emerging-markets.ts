@@ -166,7 +166,7 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And consumers in this market have [[leapfrogging:skipping an older technology and going directly to a newer one]] desktop technology entirely — 92% of internet access is mobile. They never had a desktop internet phase. This is a fully [[mobile-first:designed primarily for mobile phones rather than desktop computers]] consumer base.",
     },
     {
@@ -184,7 +184,7 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Now the challenges. The [[infrastructure:the basic physical and digital systems a market needs to function]] situation varies significantly. Urban centres have strong 4G. Rural areas are still predominantly 2G and 3G. Last-mile logistics is complex and expensive outside major cities.",
     },
     {
@@ -202,7 +202,7 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The pay-over-time model via mobile money is the more scalable solution. Consumers in this market have leapfrogged traditional banking — 74% use mobile money regularly. A daily or weekly micro-payment model converts the affordability barrier into a payment design problem.",
     },
     {
@@ -220,7 +220,7 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I would also recommend a community ambassador programme — local trusted figures who introduce the product through their networks. In markets where digital trust is still being built, peer endorsement through a trusted local voice is often more powerful than paid media.",
     },
     {

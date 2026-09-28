@@ -1,0 +1,17 @@
+Test started: 2026-09-23T14:23:39.694Z
+Node version: v24.16.0
+BLOB_READ_WRITE_TOKEN set: YES (length=62)
+Found 2411 PNG files in public/images/
+Testing with: a-built-in-feature.png
+File size: 1637180 bytes
+Attempting upload to Vercel Blob...
+ERROR: Vercel Blob: This blob already exists, use `allowOverwrite: true` if you want to overwrite it. Or `addRandomSuffix: true` to generate a unique filename. Read more about this error in our documentation: https://vercel.link/blob-allow-overwrite
+Stack: Error: Vercel Blob: This blob already exists, use `allowOverwrite: true` if you want to overwrite it. Or `addRandomSuffix: true` to generate a unique filename. Read more about this error in our documentation: https://vercel.link/blob-allow-overwrite
+    at getBlobError (file:///C:/Users/Christiano/Documents/practispeak-lessons/node_modules/@vercel/blob/dist/chunk-YYMLUMXS.js:703:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async file:///C:/Users/Christiano/Documents/practispeak-lessons/node_modules/@vercel/blob/dist/chunk-YYMLUMXS.js:807:31
+    at async requestApi (file:///C:/Users/Christiano/Documents/practispeak-lessons/node_modules/@vercel/blob/dist/chunk-YYMLUMXS.js:751:23)
+    at async put (file:///C:/Users/Christiano/Documents/practispeak-lessons/node_modules/@vercel/blob/dist/chunk-YYMLUMXS.js:1538:22)
+    at async file:///C:/Users/Christiano/Documents/practispeak-lessons/scripts/test-blob-upload.mjs:44:16
+
+Test finished: 2026-09-23T14:23:45.963Z

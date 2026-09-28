@@ -28,14 +28,14 @@ export const teamCommunication: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Information you tell your team about where an enemy is located.',
       example: 'She made a quick callout so the whole team knew where the enemies were hiding.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/callout.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/callout.png',
     },
     {
       word: 'COORDINATE',
       partOfSpeech: 'verb',
       definition: 'To plan and work together with others to achieve a shared goal.',
       example: "We need to coordinate our attacks so we don't all rush in at the same time.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/coordinate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coordinate.png',
     },
     {
       word: 'STRATEGY',
@@ -63,7 +63,7 @@ export const teamCommunication: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Describing something impressive done at a critical, high-pressure moment.',
       example: "That was a clutch move — you saved us when we were about to lose!",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/clutch.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/clutch.png',
     },
     {
       word: 'ROTATE',

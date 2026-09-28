@@ -6,7 +6,7 @@ export const advancedPresentationSkills: Lesson = {
   subtitle: 'How to handle difficult questions, manage objections, and maintain control of a Q&A without losing your position or your audience',
   level: 'C1-C2',
   description: "A great presentation is only half the job. The Q&A is where credibility is built or lost. A question you cannot answer, a challenge you handle badly, or an objection that derails your argument — these are the moments that define how an audience remembers you. Senior communicators have a toolkit for exactly these situations: how to reframe a challenge, bridge to a stronger answer, concede gracefully, deflect appropriately, and handle a hypothetical without being trapped by it. This lesson gives you the language to handle the hardest moments in a presentation with composure and authority.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-presentation-skills-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-presentation-skills-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const advancedPresentationSkills: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: "To change the way a question or topic is described — presenting it from a different angle, context, or with different emphasis — without ignoring or evading the original point. Reframing is a legitimate and powerful technique for shifting a conversation to ground where you can answer more effectively.",
       example: "Dana reframed the market share decline as a category maturation story rather than a competitive loss. The board's response shifted from concern to curiosity. A reframe must be genuinely accurate — a dishonest reframe is spin, not insight.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-presentation-skills-reframe.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-presentation-skills-reframe.png',
     },
     {
       word: 'DEFLECT',
@@ -172,7 +172,7 @@ export const advancedPresentationSkills: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Good — you [[concede:acknowledge that a point is valid]] on Q3 clearly, which is right. Now the harder one: 'If you miss this quarter's target, what does that mean for the strategy?' That is a [[hypothetical:a question about an imagined scenario that has not happened]].",
     },
     {
@@ -190,7 +190,7 @@ export const advancedPresentationSkills: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "You use the [[reframe:presenting a topic from a different angle without evading the point]] technique. 'That is a fair challenge — let me reframe it.' And you separate what is true from what the framing implies. Or you use 'if I understand your concern correctly' — paraphrase the concern back to them, confirm it, and then answer the real question rather than the surface one.",
     },
     {

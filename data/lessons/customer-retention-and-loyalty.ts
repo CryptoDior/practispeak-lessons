@@ -6,7 +6,7 @@ export const customerRetentionAndLoyalty: Lesson = {
   subtitle: 'How to keep customers, reduce churn, and build programmes that turn one-time buyers into long-term advocates',
   level: 'B1-B2',
   description: "Acquiring a new customer costs five to seven times more than retaining an existing one. Yet most marketing investment goes into acquisition rather than retention. The brands that grow most sustainably are the ones that keep their customers coming back — through great products, smart loyalty programmes, and proactive communication that makes customers feel valued before they think about leaving. This lesson teaches you the essential vocabulary of customer retention and loyalty marketing.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-retention-and-loyalty-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/customer-retention-and-loyalty-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const customerRetentionAndLoyalty: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: "The rate at which customers stop buying from a company or cancel their subscription. High churn means the company is losing customers.",
       example: "The company has a high churn rate because customers are cancelling after the first 90 days.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-retention-and-loyalty-churn.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/customer-retention-and-loyalty-churn.png',
     },
     {
       word: 'NPS',
@@ -56,14 +56,14 @@ export const customerRetentionAndLoyalty: Lesson = {
       partOfSpeech: 'noun / verb',
       definition: "A campaign to bring back customers who have already cancelled or stopped buying. Unlike re-engagement, win-back targets customers who have already left.",
       example: "A win-back campaign was sent to customers who cancelled in the last 12 months, showing them what had changed.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-retention-and-loyalty-win-back.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/customer-retention-and-loyalty-win-back.png',
     },
     {
       word: 'ONBOARDING',
       partOfSpeech: 'noun',
       definition: "The process of helping new customers get started and reach their first result quickly. Good onboarding makes customers much less likely to leave.",
       example: "The company redesigned its onboarding to help new customers see results in their first week.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-retention-and-loyalty-onboarding.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/customer-retention-and-loyalty-onboarding.png',
     },
   ],
 
@@ -166,7 +166,7 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Our [[NPS:Net Promoter Score — a measure of customer loyalty based on likelihood to recommend]] data supports that. Our NPS shows that Promoters and Detractors are almost entirely split by onboarding completion. Customers who completed the full programme score 8.9 on average. Those who did not score 5.1.",
     },
     {
@@ -184,7 +184,7 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "We also need to reduce churn by addressing the specific segments where it is highest. The 6 to 18 month segment has a churn rate of 6.1% — we need to reduce churn by at least 2 percentage points there.",
     },
     {
@@ -202,7 +202,7 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "On the loyalty programme — the loyalty programme is designed to drive three behaviours: increase purchase frequency, deepen product engagement, and convert our best customers into advocates. The lifetime value of this customer segment — our top 20% — is £9,200 on average, which justifies significant investment in keeping them.",
     },
     {
@@ -220,7 +220,7 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The win-back message is: here is what has changed since you left. Features added, improvements made, customers like them who are now successful. The ask is not to buy again immediately — it is to have a 20-minute call to see if the product now fits their needs.",
     },
     {

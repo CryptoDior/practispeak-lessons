@@ -68,7 +68,7 @@ export const ggBasicGamingChat: Lesson = {
       definition: 'Used when a player is not at their device and not responding.',
       example: 'Sorry — I was AFK for two minutes. Did I miss anything important?',
       etymologyNote: 'AFK = Away from keyboard',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/afk.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/afk.png',
     },
     {
       word: 'BRB',
@@ -76,7 +76,7 @@ export const ggBasicGamingChat: Lesson = {
       definition: 'Used to say you are leaving for a short time but will return soon.',
       example: 'BRB — I need to grab some water. Start without me if the queue pops.',
       etymologyNote: 'BRB = Be right back',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brb.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brb.png',
     },
     {
       word: 'GL HF',
@@ -156,7 +156,7 @@ export const ggBasicGamingChat: Lesson = {
       definition: 'The spoken version of BRB — always say this in voice chat before you go AFK.',
       example: "Be right back — I need to answer the door. Give me 60 seconds.",
       tag: 'spoken form',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/be-right-back.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/be-right-back.png',
     },
     {
       phrase: 'GOOD LUCK, HAVE FUN',
@@ -187,7 +187,7 @@ export const ggBasicGamingChat: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "[[GG:Good game]] everyone! [[WP:Well played]] — that was so close at the end.",
     },
     {
@@ -199,7 +199,7 @@ export const ggBasicGamingChat: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "[[TY:Thank you]]! I almost lost it. Their team was NOT [[EZ:easy]] at all — they were really good.",
     },
     {
@@ -211,7 +211,7 @@ export const ggBasicGamingChat: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "No problem. [[LFG:Looking for group]] — anyone want to queue again? Need one more player.",
     },
     {
@@ -223,7 +223,7 @@ export const ggBasicGamingChat: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "Ha! Good luck, have fun! One tip — in voice chat, always say the full words. Say 'be right back', not 'BRB'. It sounds much more natural.",
     },
     {
@@ -235,7 +235,7 @@ export const ggBasicGamingChat: Lesson = {
     {
       speaker: 'Alex',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/alex-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/alex-icon.png',
       text: "Exactly. [[GG:Good game]] in text. 'Good game, well played' out loud. Same meaning — different style.",
     },
     {

@@ -6,7 +6,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
   subtitle: 'Apply everything you have learned to plan, present, and defend a full marketing campaign',
   level: 'B1-B2',
   description: "This is your capstone lesson — the final project for the B1-B2 marketing series. You will bring together vocabulary and concepts from across the series to build and present a complete marketing campaign plan. This lesson focuses on the language and structure of a campaign presentation: how to articulate your objective, defend your audience choice, justify your channel mix, and explain how you will measure success. You will practise the speaking skills needed to present with confidence in a real professional setting.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b1-final-project-campaign-plan-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/b1-final-project-campaign-plan-hero.png',
 
   vocabulary: [
     {
@@ -21,7 +21,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The specific, measurable goal of a campaign. A clear objective answers the question: what does success look like? Good objectives are SMART — specific, measurable, achievable, relevant, and time-bound. A campaign with a vague objective cannot be evaluated or improved.',
       example: "Marcus challenged Riley: Your objective says 'increase brand awareness'. That is too vague. Riley revised it: 'Increase brand awareness among UK-based marketing managers aged 28 to 45 by 20% — measured by brand recall survey — by the end of Q4.' Marcus replied: Now I know exactly what you are trying to achieve, how you will measure it, who you are targeting, and by when. That is a proper objective.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b1-final-project-campaign-plan-objective.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/b1-final-project-campaign-plan-objective.png',
     },
     {
       word: 'TARGET AUDIENCE',

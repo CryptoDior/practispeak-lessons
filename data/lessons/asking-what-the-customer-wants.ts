@@ -6,7 +6,7 @@ export const askingWhatTheCustomerWants: Lesson = {
   subtitle: 'How to ask the right questions before you recommend anything',
   level: 'A1-A2',
   description: 'Learn the words and phrases sales professionals use to discover what a customer really needs — from asking about problems and priorities to finding the right fit and recommending a solution.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-what-the-customer-wants-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-what-the-customer-wants-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const askingWhatTheCustomerWants: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To suggest something as the best choice for someone.',
       example: "Before I recommend a plan, I need to understand what you're looking for.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-what-the-customer-wants-recommend.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-what-the-customer-wants-recommend.png',
     },
     {
       word: 'PROBLEM',
@@ -28,14 +28,14 @@ export const askingWhatTheCustomerWants: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The thing that is most important and needs attention first.',
       example: "What's your top priority right now — saving time or cutting costs?",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-what-the-customer-wants-priority.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-what-the-customer-wants-priority.png',
     },
     {
       word: 'GOAL',
       partOfSpeech: 'noun',
       definition: 'Something you want to achieve or reach.',
       example: 'Our goal is to get better visibility into what the team is working on.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-what-the-customer-wants-goal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-what-the-customer-wants-goal.png',
     },
     {
       word: 'FIT',
@@ -49,21 +49,21 @@ export const askingWhatTheCustomerWants: Lesson = {
       partOfSpeech: 'noun',
       definition: 'One of the choices available.',
       example: 'What option would you suggest for a team of about twelve people?',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-what-the-customer-wants-option.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-what-the-customer-wants-option.png',
     },
     {
       word: 'NEED',
       partOfSpeech: 'verb',
       definition: 'To require something — it is necessary or very important.',
       example: 'We need a tool that is simple enough for everyone on the team to use.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-what-the-customer-wants-need.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-what-the-customer-wants-need.png',
     },
     {
       word: 'SOLUTION',
       partOfSpeech: 'noun',
       definition: 'An answer or fix to a problem.',
       example: 'Is there a solution for teams that already use three different apps?',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-what-the-customer-wants-solution.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-what-the-customer-wants-solution.png',
     }
   ],
 
@@ -96,7 +96,7 @@ export const askingWhatTheCustomerWants: Lesson = {
       phrase: "BASED ON WHAT YOU'VE TOLD ME",
       definition: 'Use this to transition from listening to recommending — show you were paying attention.',
       example: "Based on what you've told me, I'd suggest the Growth Plan.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-what-the-customer-wants-based-on-what-youve-told-me.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-what-the-customer-wants-based-on-what-youve-told-me.png',
     },
     {
       phrase: 'WOULD THAT WORK FOR YOU',
@@ -118,7 +118,7 @@ export const askingWhatTheCustomerWants: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Of course. Right now our main [[problem:a situation that causes difficulty or needs to be fixed]] is that our team uses five different tools and nothing connects.',
     },
     {
@@ -130,7 +130,7 @@ export const askingWhatTheCustomerWants: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Saving time, for sure. We waste hours every week just trying to track what everyone is doing.',
     },
     {
@@ -142,7 +142,7 @@ export const askingWhatTheCustomerWants: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Exactly. And whatever we choose needs to be simple — that's non-negotiable for us.",
     },
     {
@@ -154,7 +154,7 @@ export const askingWhatTheCustomerWants: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Good to hear. What [[option:one of the choices available]] would you suggest for a team of about twelve people?',
     },
     {
@@ -166,7 +166,7 @@ export const askingWhatTheCustomerWants: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And is there a [[solution:an answer or fix to a problem]] for the fact that we currently use three different apps for tracking?',
     },
     {
@@ -178,7 +178,7 @@ export const askingWhatTheCustomerWants: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "That's exactly what we needed to hear. Let's move forward.",
     }
   ],

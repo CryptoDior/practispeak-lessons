@@ -49,7 +49,7 @@ export const makingPersuasiveRecommendations: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To state something with confidence and directness — to make your recommendation clearly without excessive hedging or qualification.',
       example: 'The best salespeople know when to assert — when you have done the discovery and know the solution fits, a clear recommendation is more respectful than a vague one.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/assert.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/assert.png',
     },
     {
       word: 'PROPOSITION',
@@ -63,7 +63,7 @@ export const makingPersuasiveRecommendations: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To persuade someone that something is true or the right course of action — but in sales, the goal is not to convince through pressure, it is through clarity.',
       example: 'You do not need to convince someone who already recognises the problem — you just need to make the path to solving it feel clear and low-risk.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/convince.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/convince.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const makingPersuasiveRecommendations: Lesson = {
       phrase: 'BASED ON WHAT YOU HAVE TOLD ME',
       definition: "Ground your recommendation in the prospect's own words — signals that you listened and that what follows is tailored, not generic.",
       example: 'Based on what you have told me about your team size and the visibility gap, I would suggest starting with the pipeline dashboard before anything else.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/based-on-what-you-have-told-me.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/based-on-what-you-have-told-me.png',
     },
     {
       phrase: 'I WOULD SUGGEST',

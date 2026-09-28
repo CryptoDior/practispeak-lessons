@@ -154,7 +154,7 @@ export const writingAMarketingWhitePaper: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The brief for the white paper is confirmed. We have the research — 2,400 B2B decision-makers, six industries, proprietary dataset. Now we need to build the paper. Marcus, let us start with the [[abstract:a short summary telling the reader the topic, finding, and implication]]. What is the one-sentence version of what this paper argues?",
     },
     {
@@ -172,7 +172,7 @@ export const writingAMarketingWhitePaper: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The methodology is solid — stratified random sample, six industries, independent fieldwork agency. The key is that we disclose everything: recruitment method, incentive structure, limitations. The moment someone finds a limitation we have not named, it becomes the story.",
     },
     {
@@ -190,7 +190,7 @@ export const writingAMarketingWhitePaper: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And the [[executive summary:a condensed one-to-two page version for senior readers]] needs to work as a completely standalone document. If the CEO forwards it to her board, that is all they will read. The CTA in the executive summary should be the Trust Benchmark — not a sales conversation. The research has to earn the lead.",
     },
     {

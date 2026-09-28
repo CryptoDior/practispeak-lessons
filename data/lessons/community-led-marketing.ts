@@ -6,7 +6,7 @@ export const communityLedMarketing: Lesson = {
   subtitle: 'How to build, grow, and activate a brand community that drives sustainable growth',
   level: 'C1-C2',
   description: "The most durable brands are not built by advertising — they are built by communities of people who believe in what the brand stands for and tell others about it. Community-led marketing is a growth strategy that turns customers into advocates, advocates into ambassadors, and shared content into compounding brand equity. This lesson teaches the vocabulary, frameworks, and language you need to build and manage a brand community — and to make the case for it internally.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/community-led-marketing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/community-led-marketing-hero.png',
 
   vocabulary: [
     {

@@ -6,7 +6,7 @@ export const actionVerbsMoveYourCharacter: Lesson = {
   subtitle: 'Master the verbs that control your character in gaming',
   level: 'A1-A2',
   description: 'Master the verbs that control your character using imperatives — the language of gaming commands.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/action-verbs-move-your-character-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/action-verbs-move-your-character-hero.png',
 
   grammarFocus: {
     focusTitle: 'Grammar Focus: Imperatives',
@@ -32,70 +32,70 @@ export const actionVerbsMoveYourCharacter: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To leap upward or over something.',
       example: 'Press A to jump over the wall!',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/action-verbs-move-your-character-jump.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/action-verbs-move-your-character-jump.png',
     },
     {
       word: 'RUN',
       partOfSpeech: 'verb',
       definition: 'To move your character quickly.',
       example: 'Run to the exit before the timer ends!',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/action-verbs-move-your-character-run.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/action-verbs-move-your-character-run.png',
     },
     {
       word: 'SHOOT',
       partOfSpeech: 'verb',
       definition: 'To fire a weapon at an enemy or target.',
       example: 'Press R2 to shoot the enemy.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/action-verbs-move-your-character-shoot.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/action-verbs-move-your-character-shoot.png',
     },
     {
       word: 'DODGE',
       partOfSpeech: 'verb',
       definition: 'To quickly move out of the way of an attack.',
       example: 'Dodge left! The boss is attacking!',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dodge.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dodge.png',
     },
     {
       word: 'CROUCH',
       partOfSpeech: 'verb',
       definition: "To lower your character's body to hide or avoid hits.",
       example: 'Crouch behind the wall to stay safe.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crouch.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/crouch.png',
     },
     {
       word: 'COLLECT',
       partOfSpeech: 'verb',
       definition: 'To pick up items, coins, or power-ups.',
       example: 'Collect all the gold coins on this level.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/collect.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/collect.png',
     },
     {
       word: 'ATTACK',
       partOfSpeech: 'verb',
       definition: 'To hit, strike, or fight against an enemy.',
       example: 'Attack the boss when his shield is down!',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/action-verbs-move-your-character-attack.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/action-verbs-move-your-character-attack.png',
     },
     {
       word: 'DEFEND',
       partOfSpeech: 'verb',
       definition: 'To protect yourself or your team from damage.',
       example: 'Defend the base — enemies are coming!',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/action-verbs-move-your-character-defend.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/action-verbs-move-your-character-defend.png',
     },
     {
       word: 'CLIMB',
       partOfSpeech: 'verb',
       definition: 'To move upward on a wall, ladder, or surface.',
       example: 'Climb the ladder to reach the next level.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/climb.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/climb.png',
     },
     {
       word: 'PRESS',
       partOfSpeech: 'verb',
       definition: 'To push a button on the controller or keyboard.',
       example: 'Press X to interact with the NPC.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/action-verbs-move-your-character-press.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/action-verbs-move-your-character-press.png',
     },
     {
       word: 'MOVE',
@@ -109,7 +109,7 @@ export const actionVerbsMoveYourCharacter: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To get away from an enemy or dangerous area.',
       example: 'Escape through the back door before it closes!',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/escape.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/escape.png',
     }
   ],
 
@@ -130,13 +130,13 @@ export const actionVerbsMoveYourCharacter: Lesson = {
       phrase: 'DONT STOP MOVING',
       definition: 'A negative imperative — tells someone to keep moving continuously.',
       example: "Don't stop moving or they will catch you!",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dont-stop-moving.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dont-stop-moving.png',
     },
     {
       phrase: 'ATTACK FROM BEHIND',
       definition: 'Gives a teammate a tactical instruction for how to fight.',
       example: 'Sneak around and attack from behind for extra damage.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/attack-from-behind.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/attack-from-behind.png',
     },
     {
       phrase: 'FOLLOW ME',
@@ -148,7 +148,7 @@ export const actionVerbsMoveYourCharacter: Lesson = {
       phrase: 'CLIMB UP TO THE NEXT LEVEL',
       definition: 'Tells the player to move upward to progress in the game.',
       example: 'Climb up to the next level to find the key.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/climb-up-to-the-next-level.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/climb-up-to-the-next-level.png',
     }
   ],
 
@@ -158,7 +158,7 @@ export const actionVerbsMoveYourCharacter: Lesson = {
     {
       speaker: 'Coach',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/coach-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-icon.png',
       text: 'OK everyone, tutorial time! [[press:to push a button on the controller]] the A button to start.',
     },
     {
@@ -170,7 +170,7 @@ export const actionVerbsMoveYourCharacter: Lesson = {
     {
       speaker: 'Coach',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/coach-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-icon.png',
       text: '[[jump:to leap upward or over something]] over that wall — press and hold A!',
     },
     {
@@ -182,7 +182,7 @@ export const actionVerbsMoveYourCharacter: Lesson = {
     {
       speaker: 'Coach',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/coach-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-icon.png',
       text: '[[dodge:to quickly move out of the way of an attack]] left, then [[crouch:to lower your body to hide or avoid hits]] behind the big rock. Quickly!',
     },
     {
@@ -194,7 +194,7 @@ export const actionVerbsMoveYourCharacter: Lesson = {
     {
       speaker: 'Coach',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/coach-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-icon.png',
       text: 'Not yet! First [[collect:to pick up items, coins, or power-ups]] the power-up on your right. It will make you stronger.',
     },
     {
@@ -206,7 +206,7 @@ export const actionVerbsMoveYourCharacter: Lesson = {
     {
       speaker: 'Coach',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/coach-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-icon.png',
       text: "Good. Now [[run:to move your character quickly]] forward and [[attack:to hit, strike, or fight against an enemy]] the enemy. Don't stop!",
     },
     {
@@ -218,7 +218,7 @@ export const actionVerbsMoveYourCharacter: Lesson = {
     {
       speaker: 'Coach',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/coach-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-icon.png',
       text: 'No — [[climb:to move upward on a wall, ladder, or surface]] the ladder on the left. The exit is at the top. Move fast!',
     },
     {

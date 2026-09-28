@@ -160,7 +160,7 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The plan has four components. First — [[stakeholder alignment:making sure key people understand and will support a decision before it is announced]] with leadership and the board before anything goes to the wider company. Second — a structured [[cascade:the process of passing information down through the organisation level by level]]. Third — a [[town hall:a large all-company meeting where leadership shares news and takes questions]]. Fourth — a written internal [[announcement:formal written communication to employees]] that lands before the external press release.",
     },
     {
@@ -172,7 +172,7 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The announcement will be cascaded to the organisation in three stages. Executive team today. All people managers Monday morning, with a full [[briefing:a structured communication giving an audience the information they need]] pack and talking points. All staff via their managers Monday afternoon — before the external announcement goes live Monday evening.",
     },
     {
@@ -190,7 +190,7 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Agreed. To ensure [[stakeholder alignment:the process of getting key people moving in the same direction]], we should hold individual calls with each regional sales director this week — not a group call. Individual calls mean people can ask their real questions without worrying about how it looks in front of peers.",
     },
     {
@@ -208,7 +208,7 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And for people managers — the key message is: your job is to be a steady, honest voice for your team. You do not need to have all the answers. Your job is to be present, to listen, and to escalate concerns quickly.",
     },
     {
@@ -226,7 +226,7 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And the written announcement — the internal launch announcement should arrive in every inbox before the town hall, so people have read it and can come with their questions ready. It should not read like a press release. Warm tone, plain language, honest about what is changing.",
     },
     {

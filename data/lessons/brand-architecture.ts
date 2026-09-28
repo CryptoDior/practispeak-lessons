@@ -6,7 +6,7 @@ export const brandArchitecture: Lesson = {
   subtitle: 'How to manage a brand portfolio — and write a clear brand architecture recommendation that stakeholders can act on',
   level: 'B1-B2',
   description: 'When a company has multiple products, markets, or sub-brands, brand architecture becomes one of the most strategically important decisions it makes. The wrong structure confuses customers, cannibalises sales, and dilutes the brand. The right structure creates clarity, enables efficient marketing investment, and allows each product to grow without undermining the others. This lesson teaches you the vocabulary of brand portfolio management — master brand, sub-brand, endorsed brand, brand extension — and the language to recommend an architecture in a written brief or stakeholder meeting.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-architecture-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-architecture-hero.png',
 
   vocabulary: [
     {
@@ -166,7 +166,7 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "I've been looking at three models. First option: a [[master brand:the overarching brand that leads all products under it]] approach — everything becomes MarketBridge. Second: an [[endorsed brand:a brand with its own identity that is backed by the parent company]] model — 'TechFlow, a MarketBridge Company'. Third: we keep TechFlow completely independent with no visible connection.",
     },
     {
@@ -184,7 +184,7 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Option three — full independence — also has problems. In the markets where TechFlow is less well known, particularly Europe, the [[parent brand:the primary company or brand that owns or backs the other brands]] lends credibility that TechFlow currently lacks. Walking away from that would slow growth significantly.',
     },
     {
@@ -202,7 +202,7 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Why? We already have MarketBridge in the enterprise space to some extent.',
     },
     {
@@ -220,7 +220,7 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Exactly. Each brand in the [[portfolio:the complete set of brands and products managed by a company]] needs a clear role. If the roles aren't distinct, we create confusion and end up competing with ourselves.",
     },
     {
@@ -244,7 +244,7 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Agreed. Consumer is out of scope for the MarketBridge family. I'll build the [[brand extension:when an established brand moves into a new product category using its existing reputation]] risk section into the recommendation document as a 'brands we should not launch'. That framing actually helps the board understand what the architecture is protecting against.",
     },
     {

@@ -6,7 +6,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
   subtitle: 'How to adapt marketing strategy and communication for different cultural contexts',
   level: 'C1-C2',
   description: 'A campaign that works brilliantly in one country can fail completely in another — not because the product is wrong, but because the cultural context is different. The world\'s most successful global brands know that localisation is not just translation — it\'s rethinking how to communicate, what to say, and what to avoid. This lesson covers the vocabulary of cultural intelligence in global marketing, from academic frameworks to practical brand decisions.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/cultural-intelligence-in-global-marketing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cultural-intelligence-in-global-marketing-hero.png',
 
   vocabulary: [
     {

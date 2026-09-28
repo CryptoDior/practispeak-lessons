@@ -6,7 +6,7 @@ export const competitiveLandscape: Lesson = {
   subtitle: 'How to talk about competitors and position your product in the market',
   level: 'A2',
   description: 'Learn the key words for discussing competitors, market position, and what makes your product different — essential language for sales and marketing conversations.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/competitive-landscape-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/competitive-landscape-hero.png',
 
   vocabulary: [
     {
@@ -14,14 +14,14 @@ export const competitiveLandscape: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Another company that sells a similar product or service to yours and targets the same customers.',
       example: 'We have three main competitors in the marketing software market — all targeting small to mid-size teams.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/competitor.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/competitor.png',
     },
     {
       word: 'RIVAL',
       partOfSpeech: 'noun',
       definition: 'A direct competitor — someone you compete with closely for the same customers.',
       example: 'Our closest rival recently lowered their price — we need to review our value proposition.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/competitive-landscape-rival.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/competitive-landscape-rival.png',
     },
     {
       word: 'MARKET SHARE',
@@ -35,28 +35,28 @@ export const competitiveLandscape: Lesson = {
       partOfSpeech: 'noun',
       definition: "Something that makes your product better or more attractive than a competitor's.",
       example: 'Our main advantage is ease of use — you can set up Brightline in a day, not a week.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advantage.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advantage.png',
     },
     {
       word: 'BENCHMARK',
       partOfSpeech: 'noun',
       definition: "A standard or point of reference used to compare performance — can be an industry standard or a competitor's result.",
       example: "We use our competitors' pricing as a benchmark to make sure we are positioned correctly.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/competitive-landscape-benchmark.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/competitive-landscape-benchmark.png',
     },
     {
       word: 'DIFFERENTIATION',
       partOfSpeech: 'noun',
       definition: 'What makes your product different and better than similar products on the market.',
       example: 'Our differentiation is speed — we built Brightline for teams that move fast and need results quickly.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/competitive-landscape-differentiation.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/competitive-landscape-differentiation.png',
     },
     {
       word: 'NICHE',
       partOfSpeech: 'noun',
       definition: 'A small, specific part of a market that a product focuses on.',
       example: 'We focus on a niche — small B2B marketing teams — rather than trying to serve everyone.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/competitive-landscape-niche.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/competitive-landscape-niche.png',
     },
     {
       word: 'LANDSCAPE',
@@ -72,13 +72,13 @@ export const competitiveLandscape: Lesson = {
       phrase: 'STAND OUT FROM',
       definition: 'Be clearly different and better than competitors in a way that customers notice.',
       example: 'We stand out from competitors because our onboarding takes one day, not two weeks.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/competitive-landscape-stand-out-from.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/competitive-landscape-stand-out-from.png',
     },
     {
       phrase: 'COMPETE WITH',
       definition: 'Try to attract the same customers as another company.',
       example: 'We compete with three main platforms — all targeting small marketing teams with a budget of $30-100 per month.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/compete-with.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/compete-with.png',
     },
     {
       phrase: 'GAIN MARKET SHARE',
@@ -112,7 +112,7 @@ export const competitiveLandscape: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Riley, who are Brightline's main [[competitor:another company that sells a similar product and targets the same customers]]s?",
     },
     {
@@ -124,7 +124,7 @@ export const competitiveLandscape: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What [[niche:a small, specific part of a market]] does Brightline focus on?',
     },
     {
@@ -136,7 +136,7 @@ export const competitiveLandscape: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And what is Brightline's main [[advantage:something that makes your product better or more attractive than a competitor's]]?",
     },
     {
@@ -148,7 +148,7 @@ export const competitiveLandscape: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'How much [[market share:the percentage of total sales in a market that one company holds]] does Brightline have?',
     },
     {
@@ -160,7 +160,7 @@ export const competitiveLandscape: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Do you use competitors as a [[benchmark:a standard used to compare your results or position]]?',
     },
     {
@@ -172,7 +172,7 @@ export const competitiveLandscape: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'When you win a deal against a competitor, what is usually the reason?',
     },
     {
@@ -184,7 +184,7 @@ export const competitiveLandscape: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I need to think about my own competitive landscape. I do not know who my real rivals are.',
     }
   ],

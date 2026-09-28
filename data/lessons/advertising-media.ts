@@ -6,7 +6,7 @@ export const advertisingMedia: Lesson = {
   subtitle: 'Types of ads and media — and how to talk about them in B2B marketing',
   level: 'A2',
   description: 'Modern B2B marketing uses many different types of advertising. From banners and billboards to podcasts and sponsored content, knowing the vocabulary helps you plan campaigns, brief agencies, and talk about media strategy with confidence.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advertising-media-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advertising-media-hero.png',
 
   vocabulary: [
     {
@@ -56,7 +56,7 @@ export const advertisingMedia: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A planned series of marketing activities — ads, content, and messages — designed to achieve a specific goal over a set period.',
       example: 'The campaign ran for six weeks across three channels and generated forty qualified leads for the sales team.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advertising-media-campaign.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advertising-media-campaign.png',
     },
     {
       word: 'REACH',
@@ -84,13 +84,13 @@ export const advertisingMedia: Lesson = {
       phrase: 'STAND OUT',
       definition: 'To be more noticeable or memorable than other content or advertisements.',
       example: 'In a crowded feed, your ad needs to stand out — a strong image and a clear message make the biggest difference.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advertising-media-stand-out.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advertising-media-stand-out.png',
     },
     {
       phrase: 'DRIVE TRAFFIC',
       definition: 'To bring visitors to a website or landing page — usually through advertising or content.',
       example: 'The sponsored posts drove a lot of traffic to the landing page — we got 800 visits in three days.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advertising-media-drive-traffic.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advertising-media-drive-traffic.png',
     },
     {
       phrase: 'TARGET [AN AUDIENCE]',
@@ -112,7 +112,7 @@ export const advertisingMedia: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, we need to plan the media strategy for the new client. They want to increase brand awareness in the UK market.',
     },
     {
@@ -124,7 +124,7 @@ export const advertisingMedia: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: '€5,000 for the first month. They like the idea of [[sponsored:paid for by a company as advertising]] content on LinkedIn — they have seen other brands doing it.',
     },
     {
@@ -136,7 +136,7 @@ export const advertisingMedia: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about [[banner:a rectangular image that appears on a website to advertise something]] ads? The client mentioned trade publications.',
     },
     {
@@ -148,7 +148,7 @@ export const advertisingMedia: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'They also asked about [[podcast:an audio programme that people listen to online]] advertising. There is one show their target audience listens to.',
     },
     {
@@ -160,7 +160,7 @@ export const advertisingMedia: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Should we do any [[native:advertising that looks like normal content]] advertising? I read that it performs better than traditional display ads.',
     },
     {
@@ -172,7 +172,7 @@ export const advertisingMedia: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'So the [[campaign:a planned series of marketing activities]] would be: LinkedIn sponsored posts, banner ads on two trade sites, one podcast sponsorship, and native content?',
     },
     {

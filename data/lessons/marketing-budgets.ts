@@ -178,7 +178,7 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "What's the largest single [[allocation:how the total budget is divided and assigned to different activities]]?",
     },
     {
@@ -202,7 +202,7 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "What about the Q3 [[variance:the difference between budgeted and actual results]]? We overspent paid media by £32,000 and didn't hit the MQL target. How does that affect the Q4 plan?",
     },
     {
@@ -226,7 +226,7 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "What about the [[headroom:the amount of budget remaining available — the difference between allocated and committed spend]]? There's £18,000 left over from the cancelled trade event.",
     },
     {

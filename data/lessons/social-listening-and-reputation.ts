@@ -178,7 +178,7 @@ export const socialListeningAndReputation: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The [[sentiment analysis:the automated process of classifying mentions as positive, negative, or neutral]] tells the same story. Positive mentions are up in volume — which reflects share of voice growth. But the ratio has shifted: negative sentiment was 9% in Q2, it's 14% now. The increase is driven almost entirely by customer support complaints.",
     },
     {
@@ -196,7 +196,7 @@ export const socialListeningAndReputation: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And our response was two hours after that. By then, the [[narrative:the story or interpretation of events that takes hold in public conversation about a brand]] had already been shaped: 'MarketBridge doesn't respond to customers on social media'. That's the reputation damage — not the original complaint, but the slow response.",
     },
     {
@@ -214,7 +214,7 @@ export const socialListeningAndReputation: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "We've also upgraded the alert tiers. Green is a volume spike — investigate. Amber is negative sentiment above 25% — prepare a response. Red is a single post over 10,000 impressions with negative sentiment — publish a response within 30 minutes. The red alert goes directly to Marcus.",
     },
     {
@@ -232,7 +232,7 @@ export const socialListeningAndReputation: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The brand health score is trending down, but it's recoverable. Trust is the issue — and trust is rebuilt through consistent, honest communication over time. The reputation management plan helps prevent it from getting worse. The thought leadership programme is what will rebuild it.",
     },
     {

@@ -21,7 +21,7 @@ export const runningACampaign: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The date or time by which something must be finished.',
       example: 'The deadline for the campaign content is Friday — the ads go live on Monday.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/deadline.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/deadline.png',
     },
     {
       word: 'SCHEDULE',
@@ -49,14 +49,14 @@ export const runningACampaign: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Any piece of content used in a campaign — for example: images, videos, emails, or social media posts.',
       example: 'The design team is creating all the campaign assets — visuals, email templates, and ad banners.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asset.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asset.png',
     },
     {
       word: 'APPROVAL',
       partOfSpeech: 'noun',
       definition: 'Official agreement from a manager or client that something is ready to go.',
       example: 'We need approval from the client before we can send out the campaign emails.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/approval.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/approval.png',
     },
     {
       word: 'REVIEW',
@@ -112,7 +112,7 @@ export const runningACampaign: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, how does Brightline run a campaign from start to finish?',
     },
     {
@@ -124,7 +124,7 @@ export const runningACampaign: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And then you make a [[schedule:a plan that shows what will happen and when]]?',
     },
     {
@@ -136,7 +136,7 @@ export const runningACampaign: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about the content and materials? Who makes those?',
     },
     {
@@ -148,7 +148,7 @@ export const runningACampaign: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And when everything is approved, you do the [[rollout:the process of launching something step by step]]?',
     },
     {
@@ -160,7 +160,7 @@ export const runningACampaign: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What happens if the client is late to sign off on something?',
     },
     {
@@ -172,7 +172,7 @@ export const runningACampaign: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And at the end — what do you do for the [[review:a process where you look at the results and decide what went well]]?',
     },
     {
@@ -184,7 +184,7 @@ export const runningACampaign: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I need to use this process for my agency. Do you have a template for the brief?',
     },
     {

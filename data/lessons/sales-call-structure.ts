@@ -78,13 +78,13 @@ export const salesCallStructure: Lesson = {
       phrase: 'BEFORE WE DIVE IN',
       definition: 'A phrase used to signal the start of the structured part of the call, often followed by a quick agenda.',
       example: "Before we dive in, I just want to give you a quick outline of what I'd like to cover — that way you know exactly where we're going.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/before-we-dive-in.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/before-we-dive-in.png',
     },
     {
       phrase: 'CAN I ASK YOU ABOUT',
       definition: 'A soft, professional transition into the discovery phase — signals that you want to understand before you recommend.',
       example: 'Can I ask you about your current setup? I want to make sure anything I show you is actually relevant to your team.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/can-i-ask-you-about.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/can-i-ask-you-about.png',
     },
     {
       phrase: "BASED ON WHAT YOU'VE TOLD ME",
@@ -102,7 +102,7 @@ export const salesCallStructure: Lesson = {
       phrase: 'AS A NEXT STEP',
       definition: 'The phrase that signals you are moving toward a concrete commitment — what happens after this call.',
       example: "As a next step, would you be open to a 30-minute demo next week? I can have the dashboard set up with your team's structure before we even start.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/as-a-next-step.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/as-a-next-step.png',
     }
   ],
 

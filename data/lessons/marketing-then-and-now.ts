@@ -21,14 +21,14 @@ export const marketingThenAndNow: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Using the internet or electronic tools to do something.',
       example: 'Digital marketing uses the internet to reach customers through social media, email, and websites.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/digital.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/digital.png',
     },
     {
       word: 'EVOLUTION',
       partOfSpeech: 'noun',
       definition: 'The slow change of something over time.',
       example: 'The evolution of marketing has moved from print and TV to social media and websites.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/evolution.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/evolution.png',
     },
     {
       word: 'SHIFT',
@@ -42,7 +42,7 @@ export const marketingThenAndNow: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A period of time that is known for something.',
       example: 'We are now in the digital era — most marketing happens online.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/era.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/era.png',
     },
     {
       word: 'METHOD',
@@ -112,7 +112,7 @@ export const marketingThenAndNow: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, do you think [[traditional:done in the old way, or the way that has been done for a long time]] marketing is still useful today?',
     },
     {
@@ -124,7 +124,7 @@ export const marketingThenAndNow: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'When did that [[shift]] really start?',
     },
     {
@@ -136,7 +136,7 @@ export const marketingThenAndNow: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'So the [[evolution:the slow change of something over time]] of marketing has been quite fast?',
     },
     {
@@ -148,7 +148,7 @@ export const marketingThenAndNow: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And now we are in the [[digital:using the internet or electronic tools to do something]] era?',
     },
     {
@@ -160,7 +160,7 @@ export const marketingThenAndNow: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Is [[modern:new and up to date — not old]] marketing more effective than traditional marketing?',
     },
     {
@@ -172,7 +172,7 @@ export const marketingThenAndNow: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'So the best approach is to use both?',
     },
     {

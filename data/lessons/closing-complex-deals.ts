@@ -6,7 +6,7 @@ export const closingComplexDeals: Lesson = {
   subtitle: 'The language of commitment, mutual action plans, and decision timelines — how to close multi-stakeholder enterprise deals without losing them to process',
   level: 'C1-C2',
   description: "Complex deals do not close with a single question. They close through a series of incremental commitments — each conversation securing a specific agreement, a named next step, and a shared understanding of what happens next and by whom. The most common reason enterprise deals stall is not that the buyer decided not to buy — it's that the deal lost momentum in the space between meetings. No agreed next step, no clear timeline, no champion keeping it moving internally. This lesson teaches the language of complex deal closure: how to build a mutual action plan, surface blockers before they become fatal, identify and activate the internal champion, and drive the deal through every internal approval gate to a signed contract.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-complex-deals-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-complex-deals-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const closingComplexDeals: Lesson = {
       partOfSpeech: 'noun',
       definition: "In complex deals, a commitment is a specific, time-bound agreement to take a defined action — not a general expression of interest. 'We're interested in moving forward' is not a commitment. 'I will submit the proposal to procurement by Friday' is a commitment. Securing incremental commitments — small, specific agreements that build progressively toward contract — is the core discipline of complex deal management.",
       example: "Riley made the distinction explicit: Before we close today's meeting, I want to agree on a specific commitment from both sides — not a general intention, but a named action with a named owner and a date. My commitment is to send the mutual action plan by end of tomorrow. What is yours? — because 'we'll look at it this week' is the kind of commitment that turns into a three-week delay.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-complex-deals-commitment.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-complex-deals-commitment.png',
     },
     {
       word: 'NEXT STEPS',

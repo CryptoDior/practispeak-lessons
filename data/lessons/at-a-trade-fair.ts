@@ -6,7 +6,7 @@ export const atATradeFair: Lesson = {
   subtitle: 'Small talk and key vocabulary for meeting people at marketing events',
   level: 'A1-A2',
   description: 'Trade fairs and marketing events are a great place to meet potential clients, partners, and industry contacts. This lesson gives you the key vocabulary and phrases for starting conversations, introducing your company, and keeping the conversation going — in simple English.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/at-a-trade-fair-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/at-a-trade-fair-hero.png',
 
   vocabulary: [
     {
@@ -35,7 +35,7 @@ export const atATradeFair: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person you know professionally — someone you have met at an event, worked with, or spoken to for business reasons.',
       example: 'Riley made three new contacts at the fair — she followed up with each one by email the next morning.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/at-a-trade-fair-contact.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/at-a-trade-fair-contact.png',
     },
     {
       word: 'HANDSHAKE',
@@ -56,7 +56,7 @@ export const atATradeFair: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Another word for a stand — the area a company has at a fair or exhibition. More common in American English.',
       example: 'Their booth was very impressive — they had a video wall, coffee, and a team of five people.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/at-a-trade-fair-booth.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/at-a-trade-fair-booth.png',
     },
     {
       word: 'NETWORK',
@@ -84,7 +84,7 @@ export const atATradeFair: Lesson = {
       phrase: 'FOLLOW UP WITH [SOMEONE]',
       definition: 'To contact someone after a first meeting to continue the conversation or take the next step.',
       example: 'After the fair, Riley followed up with every contact she made — she sent a short email to each one.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/at-a-trade-fair-follow-up-with-someone.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/at-a-trade-fair-follow-up-with-someone.png',
     },
     {
       phrase: 'STRIKE UP A CONVERSATION',
@@ -112,7 +112,7 @@ export const atATradeFair: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, someone is looking at our [[stand:the space a company uses at a trade fair]]. Should I go and talk to them?',
     },
     {
@@ -124,13 +124,13 @@ export const atATradeFair: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Okay. I will go and introduce myself.',
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Hi Tom — I am Dana from MarketBridge. Great to meet you. [Offers a [[handshake:the action of shaking someone's right hand when you meet]].]",
     },
     {
@@ -142,7 +142,7 @@ export const atATradeFair: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'We help B2B companies build their brand and generate more leads through digital marketing. We specialise in LinkedIn and email campaigns.',
     },
     {
@@ -154,7 +154,7 @@ export const atATradeFair: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Most of our clients start to see results in three months. Can I give you a [[leaflet:a small printed paper with information about a company]] with some of our case studies?',
     },
     {
@@ -166,7 +166,7 @@ export const atATradeFair: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Yes — we are here both days. But let us [[network:to meet and talk to new professional contacts]] properly — can we [[swap details]] and set up a call next week?',
     },
     {
@@ -178,7 +178,7 @@ export const atATradeFair: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Perfect. I will send you an email tomorrow to confirm the call. Thank you Tom — great to [[contact:a person you know professionally]] you today.',
     }
   ],

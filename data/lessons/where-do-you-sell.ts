@@ -118,7 +118,7 @@ export const whereDoYouSell: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: '[As Client] We started as a [[domestic:relating to your home country]] business in the UK, but now we operate in five [[country:a nation with its own borders and government]] ies — UK, Germany, France, Netherlands, and Belgium.',
     },
     {
@@ -130,7 +130,7 @@ export const whereDoYouSell: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: '[As Client] Exactly. The UK is our strongest [[market:a group of people or area where a company sells]], but we want to build more [[presence:the degree to which a company is known in a market]] in Germany and France.',
     },
     {
@@ -142,7 +142,7 @@ export const whereDoYouSell: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: '[As Client] For now, just Germany. We want to [[expand:to grow into new areas or markets]] into Austria and Switzerland later.',
     },
     {
@@ -154,7 +154,7 @@ export const whereDoYouSell: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: '[As Client] We have one person covering the German [[territory:a specific area where someone is responsible for selling]]. She speaks German fluently, which helps a lot.',
     },
     {
@@ -166,7 +166,7 @@ export const whereDoYouSell: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: '[As Client] That is exactly what we need. We are trying to break into the German market but it is competitive.',
     },
     {
@@ -178,7 +178,7 @@ export const whereDoYouSell: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: '[As Client] Great. Let us talk about how you would approach this — I want to know your plan for helping us operate more effectively in Germany.',
     }
   ],

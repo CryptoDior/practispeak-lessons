@@ -178,7 +178,7 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "On the other side, the publisher uses an [[SSP:Supply-Side Platform — the technology publishers use to sell inventory to multiple buyers simultaneously]] to send that auction signal to many DSPs at once. The highest bid wins and the ad is served. That's the whole ecosystem in two sentences.",
     },
     {
@@ -196,7 +196,7 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "The behavioural layer — knowing someone visited the pricing page — is built on [[cookie:a small file stored in a browser that tracks user behaviour across websites]] data. That cookie was placed when they visited your site. It's what enables retargeting.",
     },
     {
@@ -214,7 +214,7 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Two other things we need to address in the campaign setup. First, [[viewability:the percentage of ads that are actually seen by a human — the industry standard is 50% of pixels visible for at least one second]]. Our Q3 viewability rate was 41%. The benchmark is 70%. We're wasting money on impressions that nobody sees.",
     },
     {
@@ -232,7 +232,7 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "[[Frequency cap:a limit on how many times a single user sees the same ad within a given time period, to prevent ad fatigue]]. Our retargeting campaign currently has no cap. Some users in the pool are seeing this ad 15 to 20 times a week — that's ad fatigue territory. I'm setting the cap at five impressions per user per week.",
     },
     {

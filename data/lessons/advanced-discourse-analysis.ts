@@ -6,7 +6,7 @@ export const advancedDiscourseAnalysis: Lesson = {
   subtitle: 'How to read between the lines of marketing texts, brand messages, and business communication',
   level: 'C1-C2',
   description: 'The most important messages in business are often not the ones said directly. Skilled communicators know how to read a press release, a brand campaign, or a competitor\'s statement and understand what is really going on. This lesson teaches you the tools of discourse analysis — how language is used, what it assumes, and what it leaves out — so you can read any business text at a deeper level.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advanced-discourse-analysis-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-discourse-analysis-hero.png',
 
   vocabulary: [
     {

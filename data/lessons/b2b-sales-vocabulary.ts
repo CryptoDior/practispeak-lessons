@@ -6,7 +6,7 @@ export const b2bSalesVocabulary: Lesson = {
   subtitle: 'The formal language of enterprise procurement — proposals, contracts, stakeholders, and the process behind every large B2B decision',
   level: 'C1-C2',
   description: "In B2B sales, the commercial conversation is only part of the process. Behind every enterprise deal is a formal procurement system — RFPs, vendor assessments, legal reviews, sign-off authorities, and compliance gates — that operates independently of the personal relationships you've built. Understanding the vocabulary of procurement is not just about knowing the right words. It's about understanding the process well enough to move through it efficiently, anticipate delays before they happen, and position yourself as a vendor who makes the buyer's internal process easier rather than harder. This lesson teaches the formal language of B2B sales administration: what the documents are called, who the stakeholders are, what each stage requires, and how to navigate from proposal to signed contract in a complex organisational environment.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b2b-sales-vocabulary-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/b2b-sales-vocabulary-hero.png',
 
   vocabulary: [
     {
@@ -21,21 +21,21 @@ export const b2bSalesVocabulary: Lesson = {
       partOfSpeech: 'noun',
       definition: "A formal document you send to a potential client that explains your solution, pricing, and plan. It shows how your offer meets their needs.",
       example: "The proposal was delivered in person, with each section walked through to show exactly how the solution addressed the client's stated requirements.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b2b-sales-vocabulary-proposal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/b2b-sales-vocabulary-proposal.png',
     },
     {
       word: 'CONTRACT',
       partOfSpeech: 'noun',
       definition: 'A legal document that both sides sign to confirm the deal. It sets out the price, scope, SLA, and conditions for the partnership.',
       example: 'Both legal teams reviewed every section of the contract before either side signed — covering scope, price, timelines, and penalty terms.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b2b-sales-vocabulary-contract.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/b2b-sales-vocabulary-contract.png',
     },
     {
       word: 'STAKEHOLDER',
       partOfSpeech: 'noun',
       definition: 'Anyone in a company who has an interest in or influence over a buying decision. This can include finance, IT, legal, and the business team.',
       example: 'Before the deal could move forward, all the key stakeholders were mapped — from finance and legal to IT and the business sponsor — to make sure everyone was aligned.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b2b-sales-vocabulary-stakeholder.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/b2b-sales-vocabulary-stakeholder.png',
     },
     {
       word: 'RFP',
@@ -49,7 +49,7 @@ export const b2bSalesVocabulary: Lesson = {
       partOfSpeech: 'abbreviation',
       definition: 'Service Level Agreement. The part of a contract that defines the performance standards a supplier must meet — such as uptime, response times, and what happens if those standards are not met.',
       example: 'The SLA committed to 99.9% uptime and a four-hour response time for critical issues, with financial penalties applied if either target was missed.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/b2b-sales-vocabulary-sla.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/b2b-sales-vocabulary-sla.png',
     },
     {
       word: 'VENDOR',

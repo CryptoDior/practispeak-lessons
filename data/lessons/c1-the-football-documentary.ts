@@ -54,7 +54,7 @@ export const c1TheFootballDocumentary: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Honest and unguarded — saying or showing something real that was not planned or rehearsed.',
       example: '"The most candid moment in the documentary was the goalkeeper crying alone in the dressing room after the shootout."',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/c1-the-football-documentary-candid.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/c1-the-football-documentary-candid.png',
     },
     {
       word: 'EDITORIAL CONTROL',

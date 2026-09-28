@@ -21,7 +21,7 @@ export const whatDoesMarketingDo: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To pay to show information about a product to many people.',
       example: 'We advertise on Google and social media to reach more people.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/advertise.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advertise.png',
     },
     {
       word: 'SELL',
@@ -42,7 +42,7 @@ export const whatDoesMarketingDo: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To share information with other people.',
       example: 'Marketing helps the company communicate with its clients and the public.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/communicate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/communicate.png',
     },
     {
       word: 'SHARE',
@@ -63,7 +63,7 @@ export const whatDoesMarketingDo: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To make something new.',
       example: 'We create content for our website and social media every week.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/create.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/create.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const whatDoesMarketingDo: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, can you tell me — what does the marketing team actually do every day?',
     },
     {
@@ -124,7 +124,7 @@ export const whatDoesMarketingDo: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'How do you do that?',
     },
     {
@@ -136,7 +136,7 @@ export const whatDoesMarketingDo: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'How many people do you try to [[reach:to get to or connect with a group of people]]?',
     },
     {
@@ -148,7 +148,7 @@ export const whatDoesMarketingDo: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Do you also help to [[sell:to give something to someone for money]] the product?',
     },
     {
@@ -160,7 +160,7 @@ export const whatDoesMarketingDo: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And when you [[launch:to start something new for the first time]] a new product — what does marketing do?',
     },
     {
@@ -172,7 +172,7 @@ export const whatDoesMarketingDo: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Do you [[share:to send or show something to other people]] the news on social media too?',
     },
     {
@@ -184,7 +184,7 @@ export const whatDoesMarketingDo: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'It sounds like the marketing team does a lot. I had no idea how much work goes into it.',
     }
   ],

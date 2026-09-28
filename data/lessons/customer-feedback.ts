@@ -6,7 +6,7 @@ export const customerFeedback: Lesson = {
   subtitle: 'How to talk about what customers think and how to respond to their feedback',
   level: 'A2',
   description: 'Learn the key words for discussing customer feedback — how to collect it, what to do with it, and how to respond professionally.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-feedback-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/customer-feedback-hero.png',
 
   vocabulary: [
     {
@@ -72,7 +72,7 @@ export const customerFeedback: Lesson = {
       phrase: 'FOLLOW UP ON',
       definition: 'Contact a customer again after a complaint or feedback to check if the issue was resolved.',
       example: 'We always follow up on complaints within 24 hours to make sure the client is happy.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/customer-feedback-follow-up-on.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/customer-feedback-follow-up-on.png',
     },
     {
       phrase: 'ACT ON FEEDBACK',
@@ -112,7 +112,7 @@ export const customerFeedback: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, how does Brightline handle customer [[feedback:opinions and reactions from customers about their experience]]? Do you have a system for it?',
     },
     {
@@ -124,7 +124,7 @@ export const customerFeedback: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And how do you measure overall [[satisfaction:how happy a customer feels about a product or service]]?',
     },
     {
@@ -136,7 +136,7 @@ export const customerFeedback: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about public [[review:a written comment from a customer about their experience]]s? Do you ask for those?',
     },
     {
@@ -148,7 +148,7 @@ export const customerFeedback: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And when there is a [[complaint:a message from a customer saying they are unhappy]]? How do you handle that?',
     },
     {
@@ -160,7 +160,7 @@ export const customerFeedback: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about [[churn:the number of customers who stop using your product]]? Is that a problem for you?',
     },
     {
@@ -172,7 +172,7 @@ export const customerFeedback: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I have never had a formal feedback process. I just hope my clients are happy.',
     },
     {

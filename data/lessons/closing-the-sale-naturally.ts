@@ -6,7 +6,7 @@ export const closingTheSaleNaturally: Lesson = {
   subtitle: "How to bring a sales conversation to a confident, professional close using 'Shall we move forward?' and other natural closing language",
   level: 'B1-B2',
   description: "The close is not a trick — it is a natural conclusion to a well-run sales conversation. When you have understood the customer's problem, shown them the solution, handled their objections, and agreed on terms, asking 'Shall we move forward?' should feel like the obvious next step. This lesson teaches you the language of a professional close: how to test readiness with a trial close, uncover final objections, propose a next step, and agree on a timeline — without pressure and without awkwardness.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-the-sale-naturally-hero.png',
 
   vocabulary: [
     {
@@ -14,21 +14,21 @@ export const closingTheSaleNaturally: Lesson = {
       partOfSpeech: 'verb',
       definition: "To bring a sales conversation to completion — when the buyer agrees to move forward. To close a deal means to win the customer's commitment.",
       example: "The sales team closed three deals in the last week of the quarter.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-close.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-the-sale-naturally-close.png',
     },
     {
       word: 'COMMITMENT',
       partOfSpeech: 'noun',
       definition: "An agreement or promise to move forward. A commitment can be a signed contract or just an agreed next step with a clear timeline.",
       example: "The customer gave a commitment to sign the contract once the finance team confirmed the budget.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-commitment.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-the-sale-naturally-commitment.png',
     },
     {
       word: 'OBJECTION',
       partOfSpeech: 'noun',
       definition: "A concern or reason the buyer gives for not moving forward yet. Objections often mean the buyer is still interested but has a final question that needs answering.",
       example: "The customer raised an objection about the data processing agreement before agreeing to sign.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-objection.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-the-sale-naturally-objection.png',
     },
     {
       word: 'TRIAL CLOSE',
@@ -42,14 +42,14 @@ export const closingTheSaleNaturally: Lesson = {
       partOfSpeech: 'noun',
       definition: "A real reason for the buyer to decide now rather than later. Good urgency helps the buyer understand the cost of waiting — it does not pressure them into a bad decision.",
       example: "The price increase created urgency and pushed the client to sign before the deadline.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-urgency.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-the-sale-naturally-urgency.png',
     },
     {
       word: 'STALL',
       partOfSpeech: 'verb',
       definition: "When a buyer delays making a decision without giving a clear reason. Stalling usually means there is an unspoken concern that needs to be discovered.",
       example: "The deal stalled for three weeks because the client could not get budget approval.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-stall.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-the-sale-naturally-stall.png',
     },
     {
       word: 'NEXT STEP',
@@ -63,7 +63,7 @@ export const closingTheSaleNaturally: Lesson = {
       partOfSpeech: 'noun',
       definition: "In the assumptive close, the salesperson acts as if the buyer has already decided to move forward. It feels confident and makes it easier for the buyer to say yes.",
       example: "An assumptive close works by acting as if the buyer has already decided to move forward.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/closing-the-sale-naturally-assumption.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-the-sale-naturally-assumption.png',
     }
   ],
 
@@ -78,7 +78,7 @@ export const closingTheSaleNaturally: Lesson = {
       phrase: "BASED ON EVERYTHING WE'VE COVERED, HOW ARE YOU FEELING?",
       definition: "A trial close phrase that invites the buyer to share how they feel before you ask for the commitment. 'How are you feeling?' is more open and less pressured than 'Are you ready?'",
       example: "Based on everything we've covered, how are you feeling about moving forward?",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/based-on-everything-weve-covered-how-are-you-feeling.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/based-on-everything-weve-covered-how-are-you-feeling.png',
     },
     {
       phrase: 'IS THERE ANYTHING STILL HOLDING YOU BACK?',

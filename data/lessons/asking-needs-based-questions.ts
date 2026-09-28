@@ -6,7 +6,7 @@ export const askingNeedsBasedQuestions: Lesson = {
   subtitle: 'How to ask the right questions to understand what a prospect actually needs',
   level: 'B1-B2',
   description: 'Master the language of discovery — how to ask open-ended questions that uncover real challenges, explore their impact, and help you understand what the prospect needs before you ever mention your product.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-needs-based-questions-hero.png',
 
   vocabulary: [
     {
@@ -14,21 +14,21 @@ export const askingNeedsBasedQuestions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A specific problem or frustration that a customer experiences regularly — the thing that is making their work harder than it should be.',
       example: 'Before you pitch anything, you need to understand their pain points — what is actually slowing them down day to day.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-pain-point.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-needs-based-questions-pain-point.png',
     },
     {
       word: 'BOTTLENECK',
       partOfSpeech: 'noun',
       definition: 'A point in a process that slows everything else down — where work gets stuck or piles up.',
       example: 'The bottleneck in their pipeline was the approval process — deals were getting stuck there for weeks before anyone followed up.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-bottleneck.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-needs-based-questions-bottleneck.png',
     },
     {
       word: 'PRIORITY',
       partOfSpeech: 'noun',
       definition: 'The thing that matters most right now — what the team or business is focused on above everything else.',
       example: 'Understanding their priorities tells you which problems they are actually motivated to solve and which ones they can live with.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-priority.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-needs-based-questions-priority.png',
     },
     {
       word: 'WORKAROUND',
@@ -42,14 +42,14 @@ export const askingNeedsBasedQuestions: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To identify the root cause of a problem by asking the right questions — like a doctor figuring out what is wrong before prescribing anything.',
       example: 'A good discovery call is not about selling — it is about diagnosing. You are trying to understand the real problem, not just the surface one.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-diagnose.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-needs-based-questions-diagnose.png',
     },
     {
       word: 'PROBE',
       partOfSpeech: 'verb',
       definition: 'To ask follow-up questions that go deeper into what the prospect has said — to get beyond the first answer.',
       example: "When they say 'communication is an issue', probe — ask what that looks like in practice, who it affects, and how long it has been going on.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-probe.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-needs-based-questions-probe.png',
     },
     {
       word: 'UNCOVER',
@@ -63,7 +63,7 @@ export const askingNeedsBasedQuestions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The capacity a team has to take on new work, change, or initiative — if they have no bandwidth, even a great solution will not get implemented.',
       example: 'Before proposing anything, ask about bandwidth — if the team is already at capacity, timing becomes part of the conversation.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-bandwidth.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-needs-based-questions-bandwidth.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const askingNeedsBasedQuestions: Lesson = {
       phrase: 'WHAT DOES THAT LOOK LIKE IN PRACTICE',
       definition: 'Ask the prospect to describe a problem concretely — move from a general statement to a real, specific example.',
       example: 'You mention that handoffs between teams are a problem — what does that look like in practice? Can you walk me through a recent example?',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/asking-needs-based-questions-what-does-that-look-like-in-practice.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-needs-based-questions-what-does-that-look-like-in-practice.png',
     },
     {
       phrase: 'HOW IS THAT AFFECTING',

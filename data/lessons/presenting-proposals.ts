@@ -35,14 +35,14 @@ export const presentingProposals: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Inputs or actions that must come from the buyer or a third party before the vendor can complete a milestone. If a dependency is delayed, the project timeline adjusts accordingly.',
       example: 'The week-three integration milestone has three dependencies on the buyer\'s side: API credentials within five business days, a nominated IT lead by week two, and sandbox access.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dependencies.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dependencies.png',
     },
     {
       word: 'ASSUMPTIONS',
       partOfSpeech: 'noun',
       definition: 'The conditions a proposal is built on. If an assumption turns out to be wrong after the contract is signed, the scope or cost may need to change.',
       example: 'This proposal is built on two key assumptions — a standard CRM configuration and a user group of no more than 50 people — and both need to be confirmed before signature.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/assumptions.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/assumptions.png',
     },
     {
       word: 'EXCLUSIONS',
@@ -56,14 +56,14 @@ export const presentingProposals: Lesson = {
       partOfSpeech: 'phrase',
       definition: 'The financial and legal conditions of a contract — including price, payment schedule, termination rights, and SLA provisions. They are usually presented last, after value and scope have already been established.',
       example: 'The commercial terms set out a total of £420,000 payable in four milestone-linked instalments, with net 30 payment terms, a mutual termination right after month six, and financial penalties for missed SLA targets.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/commercial-terms.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/commercial-terms.png',
     },
     {
       word: 'CHANGE CONTROL',
       partOfSpeech: 'phrase',
       definition: 'A formal process for managing any changes to scope, timeline, or cost after a contract is signed. Both sides must approve in writing before any change is made or any additional cost is incurred.',
       example: 'Every change to the agreed scope goes through a change control process — no work begins and no additional invoice is raised without written approval from both sides.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/change-control.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/change-control.png',
     }
   ],
 

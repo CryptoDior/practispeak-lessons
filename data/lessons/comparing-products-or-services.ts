@@ -6,7 +6,7 @@ export const comparingProductsOrServices: Lesson = {
   subtitle: 'How to use comparatives and contrast phrases to handle competitor comparisons with confidence',
   level: 'B1-B2',
   description: "In B2B sales, customers rarely talk to just one vendor. When a customer says 'we are also looking at your competitor', how you respond in the next thirty seconds can win or lose the deal. This lesson teaches you the language of professional comparison — how to acknowledge a competitor's strengths, highlight your own advantages, and structure a contrast that makes the choice obvious.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/comparing-products-or-services-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/comparing-products-or-services-hero.png',
 
   vocabulary: [
     {
@@ -28,7 +28,7 @@ export const comparingProductsOrServices: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A different option that can replace the first choice. When a customer raises a concern, offering an alternative shows flexibility and keeps the conversation moving forward.',
       example: 'Marcus was not sure about the Standard Plan. Riley said: If that is not the right fit, we have a strong alternative — our Essentials Plan has fewer features but a significantly lower price point.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/comparing-products-or-services-alternative.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/comparing-products-or-services-alternative.png',
     },
     {
       word: 'SUPERIOR',
@@ -42,7 +42,7 @@ export const comparingProductsOrServices: Lesson = {
       partOfSpeech: 'adjective',
       definition: "Made or adjusted to fit a specific person, team, or situation exactly. A tailored solution is more valuable than a generic one because it solves the customer's specific problem.",
       example: 'Riley said: Unlike CompeteX, which serves everyone from small startups to global enterprises, our platform is tailored specifically to mid-size sales teams — which is exactly what you are.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/comparing-products-or-services-tailored.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/comparing-products-or-services-tailored.png',
     },
     {
       word: 'OUTPERFORM',

@@ -6,7 +6,7 @@ export const emailsInMarketing: Lesson = {
   subtitle: 'Simple language for writing and responding to professional marketing emails',
   level: 'A1-A2',
   description: 'Email is one of the most common tools in B2B marketing. In this lesson, you will learn the basic words and phrases you need to write clear, professional marketing emails — from the opening greeting to the sign-off.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/emails-in-marketing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/emails-in-marketing-hero.png',
 
   vocabulary: [
     {
@@ -14,28 +14,28 @@ export const emailsInMarketing: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The title of an email that the reader sees before they open it. A good subject line makes people want to open the email.',
       example: 'Riley spent ten minutes on the subject line because she knew it would decide whether the client opens the email or deletes it.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/emails-in-marketing-subject-line.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/emails-in-marketing-subject-line.png',
     },
     {
       word: 'GREETING',
       partOfSpeech: 'noun',
       definition: "The first line of an email where you say hello to the reader. For example: 'Dear Mr Brown' or 'Hi Sarah'.",
       example: "Dana used 'Dear' as her greeting because she had never met the client before and wanted to be formal.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/emails-in-marketing-greeting.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/emails-in-marketing-greeting.png',
     },
     {
       word: 'INTRODUCTION',
       partOfSpeech: 'noun',
       definition: 'The first paragraph of an email where you say who you are and why you are writing.',
       example: 'Keep your introduction short — say who you are and your reason for writing in two or three sentences.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/emails-in-marketing-introduction.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/emails-in-marketing-introduction.png',
     },
     {
       word: 'ATTACH',
       partOfSpeech: 'verb',
       definition: 'To add a file — like a document, PDF, or image — to an email so the reader can download it.',
       example: 'I will attach our brochure to the email so the client can read more about our services.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/attach.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/attach.png',
     },
     {
       word: 'REPLY',
@@ -49,21 +49,21 @@ export const emailsInMarketing: Lesson = {
       partOfSpeech: 'phrase',
       definition: "A sentence near the end of an email that tells the reader what to do next — for example: 'Book a free call' or 'Reply to this email'.",
       example: 'Every marketing email needs a clear call to action — without it, the reader does not know what step to take.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/emails-in-marketing-call-to-action.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/emails-in-marketing-call-to-action.png',
     },
     {
       word: 'SIGN-OFF',
       partOfSpeech: 'noun',
       definition: "The closing words at the end of an email before your name. For example: 'Best regards' or 'Kind regards'.",
       example: "Riley used 'Best regards' as her sign-off because it sounds professional but not too formal.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/emails-in-marketing-sign-off.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/emails-in-marketing-sign-off.png',
     },
     {
       word: 'FOLLOW-UP',
       partOfSpeech: 'noun',
       definition: 'A second email or message you send after the first one, usually because the person did not reply.',
       example: 'If the client does not reply in five days, send a follow-up — keep it short and friendly.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/emails-in-marketing-follow-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/emails-in-marketing-follow-up.png',
     }
   ],
 
@@ -78,7 +78,7 @@ export const emailsInMarketing: Lesson = {
       phrase: 'FOLLOW UP WITH [SOMEONE]',
       definition: 'To contact someone again after an earlier message or meeting, usually to get a response.',
       example: 'If you do not hear back in a week, follow up with a short email — remind them who you are.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/emails-in-marketing-follow-up-with-someone.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/emails-in-marketing-follow-up-with-someone.png',
     },
     {
       phrase: 'GET BACK TO [SOMEONE]',
@@ -96,7 +96,7 @@ export const emailsInMarketing: Lesson = {
       phrase: 'ATTACH [FILE] TO AN EMAIL',
       definition: 'To add a document or file to an email before you send it.',
       example: 'I have attached our company brochure to this email — please take a look when you have a moment.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/attach-file-to-an-email.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/attach-file-to-an-email.png',
     },
     {
       phrase: 'WRITE BACK',
@@ -112,7 +112,7 @@ export const emailsInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, I need to write a marketing email to a new company. I do not know them yet. How should I start?',
     },
     {
@@ -124,7 +124,7 @@ export const emailsInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What makes a good subject line?',
     },
     {
@@ -136,7 +136,7 @@ export const emailsInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "Okay. And what about the [[greeting:the first line of an email where you say hello]]? Should I write 'Dear' or 'Hi'?",
     },
     {
@@ -148,7 +148,7 @@ export const emailsInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Good. Then I write my [[introduction:the first paragraph where you say who you are and why you are writing]]?',
     },
     {
@@ -160,7 +160,7 @@ export const emailsInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Should I [[attach:to add a file to an email]] the brochure?',
     },
     {
@@ -172,7 +172,7 @@ export const emailsInMarketing: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And if they do not [[reply:to send a response to an email]]?',
     },
     {

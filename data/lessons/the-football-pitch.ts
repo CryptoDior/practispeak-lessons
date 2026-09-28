@@ -35,7 +35,7 @@ export const theFootballPitch: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The circle in the middle of the pitch where the match starts.',
       example: 'The match starts with a kick-off in the centre circle.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/centre-circle.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/centre-circle.png',
     },
     {
       word: 'TOUCHLINE',
@@ -63,7 +63,7 @@ export const theFootballPitch: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The area in front of the goal. Fouls here give a penalty.',
       example: 'The foul happened inside the box.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/box.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/box.png',
     },
   ],
 

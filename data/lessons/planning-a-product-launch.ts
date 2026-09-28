@@ -28,14 +28,14 @@ export const planningAProductLaunch: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A series of posts or communications leading up to a launch date — building anticipation day by day.',
       example: 'We ran a five-day countdown on LinkedIn — each day a new post gave the audience one more reason to attend the launch event.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/countdown.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/countdown.png',
     },
     {
       word: 'ANTICIPATION',
       partOfSpeech: 'noun',
       definition: 'The feeling of excitement and interest while waiting for something to happen — what a good teaser campaign creates.',
       example: 'The teaser campaign built a lot of anticipation — by launch day, over 200 people had already registered for the event.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/anticipation.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/anticipation.png',
     },
     {
       word: 'TIMELINE',
@@ -72,7 +72,7 @@ export const planningAProductLaunch: Lesson = {
       phrase: 'BUILD UP TO [SOMETHING]',
       definition: 'To create growing excitement or anticipation in the period leading up to an event or launch.',
       example: 'We are going to build up to the reveal with a week of teaser content — each post will give the audience one more clue.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/build-up-to-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/build-up-to-something.png',
     },
     {
       phrase: 'LEAD UP TO [SOMETHING]',
@@ -84,7 +84,7 @@ export const planningAProductLaunch: Lesson = {
       phrase: 'COUNT DOWN TO [SOMETHING]',
       definition: 'To mark the decreasing time before an event — often through daily posts or communications.',
       example: 'We are going to count down to the launch with five posts — one per day — each one revealing a new feature.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/count-down-to-something.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/count-down-to-something.png',
     },
     {
       phrase: 'ROLL OUT [SOMETHING]',
@@ -112,7 +112,7 @@ export const planningAProductLaunch: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, the client wants to launch their new platform in six weeks. We need a plan. Where do we start?',
     },
     {
@@ -124,7 +124,7 @@ export const planningAProductLaunch: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What [[teaser:content that hints at something coming]] s are we going to create? Video or posts?',
     },
     {
@@ -136,7 +136,7 @@ export const planningAProductLaunch: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And the [[launch event:a planned event where a new product is officially introduced]] — when is that?',
     },
     {
@@ -148,7 +148,7 @@ export const planningAProductLaunch: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about the [[countdown:a series of posts building up to the launch]]? When does that start?',
     },
     {
@@ -160,7 +160,7 @@ export const planningAProductLaunch: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And after the event — what will the [[rollout:the process of making something available, often gradually]] look like?',
     },
     {
@@ -172,7 +172,7 @@ export const planningAProductLaunch: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I will build the full [[timeline:a plan showing when each activity will happen]] today. What is the first [[milestone:an important stage in the project]]?',
     },
     {

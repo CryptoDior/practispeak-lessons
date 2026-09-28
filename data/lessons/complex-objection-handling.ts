@@ -6,7 +6,7 @@ export const complexObjectionHandling: Lesson = {
   subtitle: "When the answer is 'not yet' — language for budget, timing, authority, and trust objections",
   level: 'C1-C2',
   description: 'Every serious sales conversation hits at least one of four objections: budget, timing, authority, or trust. This lesson teaches the language for each — how to validate without surrendering, reframe without dismissing, and probe without pressuring. The goal is not to overcome objections — it is to understand them well enough to resolve them.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/complex-objection-handling-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/complex-objection-handling-hero.png',
 
   vocabulary: [
     {
@@ -14,28 +14,28 @@ export const complexObjectionHandling: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To present the same situation from a different angle, changing how it is perceived without changing the facts. Reframing is not spin — it is helping the prospect see what they already know from a more useful perspective.',
       example: 'Marcus said the cost was too high. Riley reframed it: not as a cost, but as the price of not fixing a problem that was already costing him far more. The number did not change — what changed was the context around it.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/complex-objection-handling-reframe.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/complex-objection-handling-reframe.png',
     },
     {
       word: 'VALIDATE',
       partOfSpeech: 'verb',
       definition: 'To explicitly acknowledge that a concern is real and understandable before addressing it. Skipping validation makes objections worse — the prospect feels dismissed and digs in deeper.',
       example: "Riley did not argue with Marcus when he said the timing was wrong. She validated it first: 'That makes complete sense given where you are in the quarter.' Only then did she ask what would need to change for the timing to work.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/complex-objection-handling-validate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/complex-objection-handling-validate.png',
     },
     {
       word: 'DEFER',
       partOfSpeech: 'verb',
       definition: 'To delay a decision or postpone an action to a later point. In sales, a prospect who defers may have a genuine timing constraint — or may be using timing as a polite way to say no. Distinguishing between the two is one of the most important skills in objection handling.',
       example: "Marcus deferred twice in the same meeting — first on budget, then on timing. Riley's job was to find out whether he was genuinely waiting for the right moment or whether he had already decided and was being polite about it.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/defer.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/defer.png',
     },
     {
       word: 'CONSTRAINT',
       partOfSpeech: 'noun',
       definition: 'A real limitation — financial, structural, or time-based — that restricts what a prospect can do. Understanding whether a constraint is fixed or flexible is the first step in responding to almost any objection.',
       example: 'The budget constraint Marcus described was real — but it was a constraint on the current quarter, not on the year. Riley asked about the annual cycle and discovered that the budget she needed would be available in six weeks.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/constraint.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/constraint.png',
     },
     {
       word: 'PREEMPT',
@@ -49,7 +49,7 @@ export const complexObjectionHandling: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The level of investment — financial, time, or reputational — that a prospect is being asked to make. Many objections are not about the specific objection raised but about the commitment feeling too large or too risky for where the relationship currently is.',
       example: "Marcus's hesitation was not really about money. It was about commitment — he was being asked to sign a twelve-month contract with a company he had only met twice. Riley proposed a pilot, which reduced the commitment to something he could defend internally.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/complex-objection-handling-commitment.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/complex-objection-handling-commitment.png',
     },
     {
       word: 'SCEPTICISM',
@@ -63,7 +63,7 @@ export const complexObjectionHandling: Lesson = {
       partOfSpeech: 'verb',
       definition: "To involve a more senior person in a decision — either from the prospect's side (a decision-maker who needs to approve) or from your own side (a senior stakeholder who adds credibility). Authority objections often require a structured escalation to move forward.",
       example: 'When Marcus said he would need to bring this to his CEO, Riley did not see it as a setback. She asked who else would be in that conversation and offered to help Marcus prepare for it — turning the escalation into a collaborative next step rather than a delay.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/complex-objection-handling-escalate.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/complex-objection-handling-escalate.png',
     }
   ],
 

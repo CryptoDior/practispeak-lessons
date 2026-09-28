@@ -6,7 +6,7 @@ export const brandValues: Lesson = {
   subtitle: 'How to talk about what your brand stands for and why it matters',
   level: 'A2',
   description: "Learn the key words for describing a company's values, mission, and vision — the language used in brand strategy and company culture conversations.",
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-values-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-values-hero.png',
 
   vocabulary: [
     {
@@ -14,7 +14,7 @@ export const brandValues: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A principle or belief that a company holds — something they think is important and that guides how they work.',
       example: "One of Brightline's core values is transparency — we are always open with clients about what we can and cannot do.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-values-value.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-values-value.png',
     },
     {
       word: 'MISSION',
@@ -28,42 +28,42 @@ export const brandValues: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A description of what a company wants to achieve in the future — a long-term goal.',
       example: 'Our vision is to become the most trusted marketing tool for independent teams worldwide.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-values-vision.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-values-vision.png',
     },
     {
       word: 'PURPOSE',
       partOfSpeech: 'noun',
       definition: 'The reason a company exists — what drives it beyond just making money.',
       example: 'Our purpose is to make great marketing accessible to teams that do not have a big agency budget.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-values-purpose.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-values-purpose.png',
     },
     {
       word: 'TRUST',
       partOfSpeech: 'noun',
       definition: 'The belief that a company will be honest, reliable, and do what they say they will do.',
       example: 'Trust takes time to build, but once clients trust you, they stay for a long time.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-values-trust.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-values-trust.png',
     },
     {
       word: 'AUTHENTICITY',
       partOfSpeech: 'noun',
       definition: 'Being honest and real — not pretending to be something you are not.',
       example: 'Authenticity is one of our values — we never overpromise. We say what we can do and we do it.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-values-authenticity.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-values-authenticity.png',
     },
     {
       word: 'CULTURE',
       partOfSpeech: 'noun',
       definition: 'The shared beliefs, values, and ways of working inside a company.',
       example: 'Our company culture is collaborative — everyone on the team has a voice and shares ideas.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/culture.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/culture.png',
     },
     {
       word: 'CONSISTENCY',
       partOfSpeech: 'noun',
       definition: 'Doing things the same way every time — being reliable and predictable in a positive way.',
       example: 'Consistency in how we communicate builds trust with clients over time.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-values-consistency.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-values-consistency.png',
     }
   ],
 
@@ -72,7 +72,7 @@ export const brandValues: Lesson = {
       phrase: 'STAND FOR',
       definition: 'Represent a set of values or beliefs — say what your brand believes in.',
       example: 'Brightline stands for simplicity, speed, and transparency — those are the things we will never compromise on.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-values-stand-for.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-values-stand-for.png',
     },
     {
       phrase: 'LIVE BY [YOUR VALUES]',
@@ -84,13 +84,13 @@ export const brandValues: Lesson = {
       phrase: 'BUILD TRUST',
       definition: 'Develop a strong, reliable relationship with clients or customers over time.',
       example: 'We build trust by doing what we say, being honest when something goes wrong, and fixing it quickly.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/brand-values-build-trust.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-values-build-trust.png',
     },
     {
       phrase: 'ALIGN WITH',
       definition: 'Match or fit with something — values, goals, or ways of working.',
       example: 'We work best with clients whose values align with ours — openness, speed, and a focus on results.',
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/align-with.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/align-with.png',
     },
     {
       phrase: 'STAY TRUE TO',
@@ -102,7 +102,7 @@ export const brandValues: Lesson = {
       phrase: 'COMMUNICATE [YOUR VALUES]',
       definition: 'Share your values clearly — through your words, actions, and content.',
       example: "We communicate our values through every piece of content we create — not just our 'about us' page.",
-      imageSlug: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/communicate-your-values.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/communicate-your-values.png',
     }
   ],
 
@@ -112,7 +112,7 @@ export const brandValues: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'Riley, what does Brightline stand for? I mean beyond the product — what are your actual [[value:a principle or belief that guides how a company works]]s?',
     },
     {
@@ -124,7 +124,7 @@ export const brandValues: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: "And what is Brightline's [[mission:a short statement that says what a company does and why it exists]]?",
     },
     {
@@ -136,7 +136,7 @@ export const brandValues: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What is the difference between a mission and a [[vision:a description of what a company wants to achieve in the future]]?',
     },
     {
@@ -148,7 +148,7 @@ export const brandValues: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'And your [[purpose:the reason a company exists beyond making money]]?',
     },
     {
@@ -160,7 +160,7 @@ export const brandValues: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'How do you build [[trust:the belief that a company will be honest and do what they say]] with clients?',
     },
     {
@@ -172,7 +172,7 @@ export const brandValues: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'What about [[culture:the shared beliefs and ways of working inside a company]]? Is that connected to brand values?',
     },
     {
@@ -184,7 +184,7 @@ export const brandValues: Lesson = {
     {
       speaker: 'Dana',
       speakerColor: 'blue',
-      speakerAvatar: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/dana-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
       text: 'I need to think about this more seriously for my agency. I have never written down our values.',
     },
     {

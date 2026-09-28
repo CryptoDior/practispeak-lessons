@@ -6,7 +6,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
   subtitle: 'Apply your full C2 vocabulary as the CMO of a global company facing a major strategic decision',
   level: 'C1-C2',
   description: 'You are the Chief Marketing Officer. The board wants a decision. A major international rebrand is on the table — and it\'s controversial. There are regulatory risks, cultural complexity, ethical questions, and media buying decisions to make. Everything you\'ve learned across all 20 C2 Mastery lessons comes together here. This is not a vocabulary exercise — it\'s a simulation. You will need to brief the board, defend your strategy, and demonstrate mastery-level communication under pressure.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/c2-final-project-cmo-challenge-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/c2-final-project-cmo-challenge-hero.png',
 
   vocabulary: [
     {

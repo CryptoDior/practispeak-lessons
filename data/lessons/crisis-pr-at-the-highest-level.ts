@@ -6,7 +6,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
   subtitle: 'How to manage a major brand crisis — what to say, when to say it, and how to protect the company',
   level: 'C1-C2',
   description: 'Every major brand faces a crisis at some point. A product recall, a data breach, an executive scandal, a customer complaint that goes viral — the brands that survive are the ones that respond fast, take the right tone, and control the narrative before it controls them. This lesson teaches you the language and structure of crisis communication at the highest level — how to face the press, manage the message, and rebuild trust after a crisis.',
-  heroImage: 'https://gxyql1rookurzcks.public.blob.vercel-storage.com/crisis-pr-at-the-highest-level-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/crisis-pr-at-the-highest-level-hero.png',
 
   vocabulary: [
     {
