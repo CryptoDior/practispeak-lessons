@@ -117,36 +117,43 @@ export const businessAskingDirectionsOffice: Lesson = {
   dialogue: [
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Excuse me, Tom. [[Where is:use this to ask about location]] the [[meeting room:a room where people talk and work together]]?',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'Go straight and turn left. The meeting room is [[next to:very close, at the side of something]] the [[canteen:a place in a company where people eat lunch]].',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Thank you. And where is the HR office?',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: "It's [[opposite:in front of something, across from it]] the [[lift:a machine that carries people up and down in a building]], on the first floor.",
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Okay, got it. Do you usually use the lift or the [[stairs:steps that go up or down between floors]]?',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'I take the stairs when I go to the canteen. What about you?',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'I usually take the lift because my [[office:a place where people work, usually with desks and computers]] is on the fourth floor.',
     },

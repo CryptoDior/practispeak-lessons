@@ -132,6 +132,7 @@ export const businessBasicMeetingPhrases: Lesson = {
     },
     {
       speaker: 'Maria',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-latina-woman-terracotta-top.png',
       speakerColor: 'orange',
       text: 'Great. Should we start with the project update?',
     },
@@ -152,6 +153,7 @@ export const businessBasicMeetingPhrases: Lesson = {
     },
     {
       speaker: 'Maria',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-latina-woman-terracotta-top.png',
       speakerColor: 'orange',
       text: 'I think we need more time for planning.',
     },

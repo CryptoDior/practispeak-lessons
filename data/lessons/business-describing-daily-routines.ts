@@ -103,46 +103,55 @@ export const businessDescribingDailyRoutines: Lesson = {
   dialogue: [
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Hi Tom, what time do you [[start:to begin something]] work?',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'I start work at 8 o\'clock. How about you?',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'I start at 9. I usually [[check emails:to read and answer messages on the computer]] in the morning.',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'Me too. After that, I [[attend meetings:to go to meetings and take part in them]].',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Yes, I often have meetings before lunch.',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'Speaking of lunch, when is your [[lunch break:time in the middle of the day to eat and rest]]?',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'At 1 p.m. After lunch, I [[make calls:to use the phone to speak to people]] to clients.',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: "That's the same for me. At the end of the day, I [[finish:to stop doing something; to end]] by writing a short report.",
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Sounds busy! I finish work at 5:30.',
     },

@@ -124,51 +124,61 @@ export const businessTalkingAboutYourRoleDepartment: Lesson = {
   dialogue: [
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Hello, Tom. Which [[department:a part of a company that does one type of work]] do you work in?',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'I work in the Finance Department. How about you?',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'I work in Sales. My [[role:the work or job a person does in a company]] is Sales Manager.',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'Oh, that\'s interesting. My role is Accountant. My [[job title:the official name of your job]] is Senior Accountant.',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Nice. Who is your [[manager:a person who leads a team or department]]?',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'My manager is Mrs. Brown. And who is your manager?',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Mr. Lee. I am [[responsible for:to have a duty or job to do something]] leading the [[sales team:a group of people who sell the company\'s products]] with him.',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'That sounds like a big responsibility. I am responsible for checking the reports in Finance.',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Yes, we both have important roles. It\'s good to know more about your department.',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'And it\'s good to learn about Sales too.',
     },

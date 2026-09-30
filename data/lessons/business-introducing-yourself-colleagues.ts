@@ -140,61 +140,73 @@ export const businessIntroducingYourselfColleagues: Lesson = {
   dialogue: [
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Hello, my name is Cleo. I am a [[sales manager:a person who is the boss of the sales team]]. I work at Vygon.',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'Nice to meet you, Cleo. I am Tom. I work in the [[finance department:the part of a company that works with money]].',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Nice to meet you too, Tom.',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Tom, this is my [[colleague:a person you work with]], Maria. She is an [[engineer:a person who designs and builds machines or systems]].',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'Pleased to meet you, Maria.',
     },
     {
       speaker: 'Maria',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-latina-woman-terracotta-top.png',
       speakerColor: 'orange',
       text: 'Pleased to meet you too, Tom.',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'Where are you from, Maria?',
     },
     {
       speaker: 'Maria',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-latina-woman-terracotta-top.png',
       speakerColor: 'orange',
       text: 'I am from Spain. Where are you from?',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'I am from South Africa.',
     },
     {
       speaker: 'Maria',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-latina-woman-terracotta-top.png',
       speakerColor: 'orange',
       text: 'What do you do, Tom?',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'I work in the finance department. My [[job title:the name of a person\'s job]] is Accountant.',
     },
     {
       speaker: 'Maria',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-latina-woman-terracotta-top.png',
       speakerColor: 'orange',
       text: 'Awesome! Great meeting you, Tom. See you around.',
     },

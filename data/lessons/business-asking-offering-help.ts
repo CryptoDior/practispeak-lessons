@@ -111,31 +111,37 @@ export const businessAskingOfferingHelp: Lesson = {
   dialogue: [
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Hi Tom, [[can:used to ask or offer to do something]] you [[help:to make something easier for someone]] me with the printer, please?',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: 'Sure, no [[problem:something that is not easy or needs a solution]]. What\'s the problem?',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'It doesn\'t print my document. [[Could:a polite way to ask for something]] you show me how to fix it?',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: '[[Of course:a polite way to say "yes"]]. Let me check... Oh, the paper is finished.',
     },
     {
       speaker: 'Cleo',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-black-woman-purple-blouse.png',
       speakerColor: 'purple',
       text: 'Oh, I see. Thanks, Tom. I [[need:to want something because it is important]] help sometimes with these machines.',
     },
     {
       speaker: 'Tom',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/professional-portrait-east-asian-man-teal-shirt.png',
       speakerColor: 'green',
       text: "That's okay. I can help you anytime.",
     },
