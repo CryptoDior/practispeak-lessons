@@ -7,7 +7,7 @@ export const businessIntroducingYourselfColleagues: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to introduce yourself and your colleagues at work. Master the key phrases for meeting people professionally for the first time — name, job title, department, and more.',
-  heroImage: '/images/business-introducing-yourself-colleagues-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-hero.png',
 
   objectives: [
     'Introduce yourself (name, job title, company, department).',
@@ -21,56 +21,56 @@ export const businessIntroducingYourselfColleagues: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Work that a person does to earn money.',
       example: 'I am looking for a new job in the city.',
-      imageSlug: '/images/business-introducing-yourself-job.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-job.png',
     },
     {
       word: 'COMPANY',
       partOfSpeech: 'noun',
       definition: 'A business where people work together.',
       example: 'My brother started his own company last year.',
-      imageSlug: '/images/business-introducing-yourself-company.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-company.png',
     },
     {
       word: 'COLLEAGUE',
       partOfSpeech: 'noun',
       definition: 'A person you work with.',
       example: 'She is a good colleague and always helps me.',
-      imageSlug: '/images/business-introducing-yourself-colleague.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-colleague.png',
     },
     {
       word: 'DEPARTMENT',
       partOfSpeech: 'noun',
       definition: 'A part of a company that does one type of work.',
       example: 'She works in the sales department.',
-      imageSlug: '/images/business-introducing-yourself-department.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-department.png',
     },
     {
       word: 'JOB TITLE',
       partOfSpeech: 'noun',
       definition: 'The name of a person\'s job.',
       example: 'What is your job title in this company?',
-      imageSlug: '/images/business-introducing-yourself-job-title.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-job-title.png',
     },
     {
       word: 'SALES MANAGER',
       partOfSpeech: 'noun',
       definition: 'A person who is the boss of the sales team.',
       example: 'She is the new sales manager in our company.',
-      imageSlug: '/images/business-introducing-yourself-sales-manager.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-sales-manager.png',
     },
     {
       word: 'FINANCE DEPARTMENT',
       partOfSpeech: 'noun',
       definition: 'The part of a company that works with money.',
       example: 'Our finance department is very busy at the end of the year.',
-      imageSlug: '/images/business-introducing-yourself-finance-department.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-finance-department.png',
     },
     {
       word: 'ENGINEER',
       partOfSpeech: 'noun',
       definition: 'A person who designs and builds machines or systems.',
       example: 'Our company has many good engineers.',
-      imageSlug: '/images/business-introducing-yourself-engineer.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-engineer.png',
     },
   ],
 
@@ -82,7 +82,7 @@ export const businessIntroducingYourselfColleagues: Lesson = {
       example: '"Hello, my name is Anna."',
       inAction:
         'Use your first name in friendly situations. Use your full name in more formal situations.',
-      imageSlug: '/images/business-introducing-yourself-hello-my-name-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-hello-my-name-is.png',
     },
     {
       phrase: 'I am a / an [job title].',
@@ -91,7 +91,7 @@ export const businessIntroducingYourselfColleagues: Lesson = {
       example: '"I am a sales manager." / "I am an engineer."',
       inAction:
         'Use "a" before most job titles. Use "an" if the job title starts with a vowel sound — e.g. "an accountant", "an engineer".',
-      imageSlug: '/images/business-introducing-yourself-i-am-a.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-i-am-a-job-title.png',
     },
     {
       phrase: 'This is my colleague, [name].',
@@ -100,7 +100,7 @@ export const businessIntroducingYourselfColleagues: Lesson = {
       example: '"This is my colleague, Tom." / "This is my colleague, Mrs. Brown."',
       inAction:
         'You can use their first name in friendly situations, or their title and last name (Mr, Mrs, Miss) in formal ones.',
-      imageSlug: '/images/business-introducing-yourself-this-is-my-colleague.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-this-is-my-colleague.png',
     },
     {
       phrase: 'Nice to meet you. / Pleased to meet you.',
@@ -108,7 +108,7 @@ export const businessIntroducingYourselfColleagues: Lesson = {
       definition: 'Say this after someone tells you their name. It shows you are happy to meet them.',
       example:
         'A: "Hello, my name is Tom." B: "Nice to meet you, Tom." A: "Nice to meet you too."',
-      imageSlug: '/images/business-introducing-yourself-nice-to-meet-you.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-nice-to-meet-you.png',
     },
     {
       phrase: 'I work in the [department].',
@@ -116,14 +116,14 @@ export const businessIntroducingYourselfColleagues: Lesson = {
       definition: 'Use this to say which part of the company you belong to.',
       example: '"I work in the finance department."',
       inAction: 'Always say "in the" before the department name.',
-      imageSlug: '/images/business-introducing-yourself-i-work-in-the.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-i-work-in-the-department.png',
     },
     {
       phrase: 'Where are you from?',
       tag: 'phrase',
       definition: 'Use this to ask about a person\'s country or city.',
       example: '"Where are you from?" → "I am from France."',
-      imageSlug: '/images/business-introducing-yourself-where-are-you-from.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-where-are-you-from.png',
     },
     {
       phrase: 'What do you do?',
@@ -131,7 +131,7 @@ export const businessIntroducingYourselfColleagues: Lesson = {
       definition: 'Use this to ask about someone\'s job.',
       example: '"What do you do?" → "I am an engineer."',
       inAction: 'Answer with your job title — not the name of your company.',
-      imageSlug: '/images/business-introducing-yourself-what-do-you-do.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-what-do-you-do.png',
     },
   ],
 
