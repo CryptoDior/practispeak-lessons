@@ -117,41 +117,49 @@ export const businessClosingMeetingPolitely: Lesson = {
   dialogue: [
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: "Alright, let's [[review:to check or go over something again]] the main points.",
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: "Sure. We finished the sales report and planned next week's tasks.",
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: 'Great. Our main [[decision:a choice made after talking or thinking about something]] today is to send the report to the client on Thursday.',
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: "Got it. I'll write down that [[action:something you will do after the meeting]] and send a [[reminder:something that helps you remember to do something]] tomorrow.",
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: 'Perfect. Before we close, does anyone have a question?',
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: 'No questions from me. Thank you for your time today.',
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: 'Thank you, Tim. I really [[appreciate:to be thankful for something]] your help. I\'ll [[follow up:to do something after the meeting to confirm details]] with an email to confirm everything.',
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: "Sounds good. Let's wrap up. Have a great day!",
     },

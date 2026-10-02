@@ -117,16 +117,19 @@ export const businessBasicMeetingPhrases: Lesson = {
   dialogue: [
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: "Good morning, everyone. Let's [[begin:to start]] the [[meeting:a time when people come together to talk about work]].",
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: "Morning, Kira. What's on the [[agenda:a list of things to talk about in a meeting]] today?",
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: "Today's agenda includes a quick update on the new project and next week's schedule.",
     },
@@ -138,16 +141,19 @@ export const businessBasicMeetingPhrases: Lesson = {
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: 'Yes. Tim, can you [[go over:to review or check something together]] the numbers, please?',
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: 'Sure. Sales are up by 10%. We met our goal for the month.',
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: "Excellent news. Let's move to the next point — next week's schedule.",
     },
@@ -159,16 +165,19 @@ export const businessBasicMeetingPhrases: Lesson = {
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: "Okay, we'll [[look into:to investigate or check something more carefully]] that after the meeting.",
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: 'Anything else before we finish?',
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: "No, I think that's all. Let's [[wrap up:to finish or bring something to an end]]. Thank you, everyone.",
     },

@@ -117,41 +117,49 @@ export const businessAskingRepetitionClarification: Lesson = {
   dialogue: [
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: 'Our new deadline for the project is the fifteenth of next month.',
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: "Sorry, I didn't [[catch:to hear or understand something that was said]] that. Could you [[repeat:to say something again]] that, please?",
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: 'Of course. The deadline is the fifteenth of next month.',
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: "Thank you. Could you [[explain:to make something easy to understand]] what tasks we need to finish first?",
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: "Sure. First, we finish the report. Then we send it to the client. Let's [[go over:to review or check again]] the list together.",
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: "Just to check — do you mean we send the report before the fifteenth?",
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: 'Yes, exactly. Does everyone [[understand:to know what something means]] now?',
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: 'Yes. Thank you for clarifying, Kira. Please [[carry on:to continue after a pause or interruption]].',
     },

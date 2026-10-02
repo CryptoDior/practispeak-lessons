@@ -118,41 +118,49 @@ export const businessAgreeingDisagreeingPolitely: Lesson = {
   dialogue: [
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: 'I think we should finish the project by next Friday.',
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: "That's a good [[point:an idea or reason in a discussion]], but I'm not sure we have enough time.",
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: 'I see your point, but the client is waiting.',
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: 'I [[agree:to have the same idea or opinion as someone]] with you that it\'s important to finish soon.',
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: 'Maybe we can ask for one more day.',
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: "Good idea. That's a fair solution.",
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: 'Sounds great. Thank you for being [[polite:speaking or acting in a nice and respectful way]], Tim.',
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: "Always, Kira. Meetings are easier when we respect each other's [[opinions:what you think or believe about something]].",
     },

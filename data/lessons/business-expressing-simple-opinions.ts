@@ -117,36 +117,43 @@ export const businessExpressingSimpleOpinions: Lesson = {
   dialogue: [
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: 'I [[think:to have an idea or believe something]] we should start the project next week.',
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: "Hmm, I [[feel:to express your emotions or ideas about something]] that's a bit early. We still need to finish the report.",
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: "That's true. In my [[opinion:what you think or believe about something]], starting early will save time later.",
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: 'I [[prefer:to like one thing more than another]] to finish the report first, then start the project.',
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: "That's a good point. I [[believe:to think something is true or correct]] we can still prepare while finishing the report.",
     },
     {
       speaker: 'Tim',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/tim-professional-portrait.png',
       speakerColor: 'green',
       text: "Okay, that sounds fair. I believe that planning ahead will help both of us.",
     },
     {
       speaker: 'Kira',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kira-professional-portrait.png',
       speakerColor: 'purple',
       text: "Great! So, we plan this week, and start next week. Let's [[go with:to choose or decide on something]] that plan.",
     },
