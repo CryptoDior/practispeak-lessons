@@ -5,14 +5,14 @@ export const mmaEquipment: Lesson = {
   title: 'MMA Equipment',
   subtitle: 'Learn the names of the gear fighters use and the space they fight in',
   level: 'A1-A2',
-  description: 'Learn the words for the cage, the mat, and all the equipment a fighter wears and uses. Whether you watch MMA or train yourself, this is the vocabulary you need first.',
+  description: 'Learn the words for the cage, the mat, and the things a fighter wears and uses. These are the first MMA words you need.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-equipment-hero.png',
 
   warmUp: {
     questions: [
-      'Can you name one piece of equipment a fighter wears?',
-      'What is the fighting area in MMA called?',
-      'What is different about MMA gloves compared to boxing gloves?',
+      'What does a fighter wear?',
+      'Where do MMA fighters fight?',
+      'Are MMA gloves big or small?',
     ],
   },
 
@@ -20,56 +20,56 @@ export const mmaEquipment: Lesson = {
     {
       word: 'CAGE',
       partOfSpeech: 'noun',
-      definition: 'The enclosed metal fence where MMA fights take place.',
+      definition: 'The metal fence around the fighting area. MMA fights happen inside it.',
       example: 'The two fighters walked into the cage.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-cage.png',
     },
     {
       word: 'MAT',
       partOfSpeech: 'noun',
-      definition: 'The padded floor inside the cage where fighters stand and grapple.',
-      example: 'He slipped on the mat and fell to the ground.',
+      definition: 'The soft floor inside the cage.',
+      example: 'The fighter fell down on the mat.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-mat.png',
     },
     {
       word: 'GLOVES',
       partOfSpeech: 'noun',
-      definition: 'Small padded hand protection worn by MMA fighters. They are open-fingered.',
+      definition: 'Small, soft gloves for MMA fighters. You can see the fingers.',
       example: 'She put on her gloves before the fight.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-gloves.png',
     },
     {
       word: 'SHORTS',
       partOfSpeech: 'noun',
-      definition: 'Special lightweight shorts worn by fighters during a fight.',
+      definition: 'Special light shorts that fighters wear in a fight.',
       example: 'His shorts have his country flag on them.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-shorts.png',
     },
     {
       word: 'MOUTHGUARD',
       partOfSpeech: 'noun',
-      definition: 'A plastic piece worn inside the mouth to protect the teeth and jaw.',
+      definition: 'A plastic thing you put in your mouth. It keeps your teeth safe.',
       example: 'The fighter put in his mouthguard before the round started.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-mouthguard.png',
     },
     {
       word: 'HAND WRAPS',
       partOfSpeech: 'noun',
-      definition: 'Long cloth strips wound around the hands and wrists before putting on gloves.',
+      definition: 'Long pieces of cloth that you put around your hands before you put on gloves.',
       example: 'She always wraps her hands before she puts on her gloves.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-hand-wraps.png',
     },
     {
       word: 'BELT',
       partOfSpeech: 'noun',
-      definition: 'The prize given to the champion of a weight class.',
-      example: 'He held up the belt after winning the championship.',
+      definition: 'The big prize for the best fighter.',
+      example: 'He won the fight and held up the belt.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-belt.png',
     },
     {
       word: 'STOOL',
       partOfSpeech: 'noun',
-      definition: 'A small seat brought into the cage for the fighter to sit on between rounds.',
+      definition: 'A small chair. The fighter sits on it between rounds.',
       example: 'The fighter sat on the stool while his coach spoke to him.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-stool.png',
     },
@@ -78,15 +78,15 @@ export const mmaEquipment: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'STEP INTO THE CAGE',
-      definition: 'Enter the fighting area to compete.',
+      definition: 'Go into the cage to fight.',
       example: 'She stepped into the cage for the first time and felt nervous.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-step-into-the-cage.png',
       tag: 'phrase',
     },
     {
       phrase: 'PUT ON YOUR GLOVES',
-      definition: 'Wear your gloves — get ready to train or fight.',
-      example: 'Put on your gloves. We start sparring in five minutes.',
+      definition: 'Put your gloves on your hands. Get ready to train or fight.',
+      example: 'Put on your gloves. We start training in five minutes.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-put-on-your-gloves.png',
       tag: 'phrase',
     },
@@ -99,8 +99,8 @@ export const mmaEquipment: Lesson = {
     },
     {
       phrase: 'HOLD THE BELT',
-      definition: 'Be the champion of a weight class.',
-      example: 'She holds the belt at featherweight. She is the best in the world.',
+      definition: 'Be the champion. Have the belt.',
+      example: 'She holds the belt. She is the best in the world.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-hold-the-belt.png',
       tag: 'phrase',
     },
@@ -117,7 +117,7 @@ export const mmaEquipment: Lesson = {
     {
       speaker: 'Carlos',
       speakerColor: 'orange',
-      text: 'You need [[gloves:small padded hand protection]], [[hand wraps:long cloth wound around the hands]], and a [[mouthguard:a plastic piece that protects the teeth]].',
+      text: 'You need [[gloves:small soft gloves for fighting]], [[hand wraps:long cloth for your hands]], and a [[mouthguard:a plastic piece that protects the teeth]].',
     },
     {
       speaker: 'Mia',
@@ -137,7 +137,7 @@ export const mmaEquipment: Lesson = {
     {
       speaker: 'Carlos',
       speakerColor: 'orange',
-      text: 'For training, yes. But for a real fight you wear special MMA [[shorts:lightweight pants for fighters]]. They help you move and kick.',
+      text: 'For training, yes. But for a real fight you wear special MMA [[shorts:light shorts for fighters]]. They help you move and kick.',
     },
     {
       speaker: 'Mia',
@@ -147,26 +147,26 @@ export const mmaEquipment: Lesson = {
     {
       speaker: 'Carlos',
       speakerColor: 'orange',
-      text: 'Yes — that is the [[cage:the enclosed metal fence where fights happen]]. The floor inside is the [[mat:the padded floor of the cage]].',
+      text: 'Yes, that is the [[cage:the metal fence around the fight area]]. The floor inside is the [[mat:the soft floor of the cage]].',
     },
     {
       speaker: 'Mia',
       speakerColor: 'blue',
-      text: 'I want to [[step into the cage:enter the cage to compete]] one day.',
+      text: 'I want to [[step into the cage:go into the cage to fight]] one day.',
     },
     {
       speaker: 'Carlos',
       speakerColor: 'orange',
-      text: 'Then let\'s start training. First — [[wrap your hands:put cloth around your hands before training]].',
+      text: 'Then let\'s start training. First, [[wrap your hands:put cloth around your hands before training]].',
     },
   ],
 
   matchingExercise: [
-    { word: 'Cage', definition: 'The enclosed metal fence where fights happen' },
-    { word: 'Mat', definition: 'The padded floor inside the cage' },
-    { word: 'Gloves', definition: 'Small open-fingered hand protection' },
+    { word: 'Cage', definition: 'The metal fence around the fight area' },
+    { word: 'Mat', definition: 'The soft floor inside the cage' },
+    { word: 'Gloves', definition: 'Small gloves for MMA' },
     { word: 'Mouthguard', definition: 'A plastic piece that protects the teeth' },
-    { word: 'Hand wraps', definition: 'Cloth wound around the hands before gloves' },
+    { word: 'Hand wraps', definition: 'Cloth you put around your hands before gloves' },
     { word: 'Belt', definition: 'The prize given to a champion' },
   ],
 
@@ -174,14 +174,14 @@ export const mmaEquipment: Lesson = {
     { before: 'The fighter walked into the', after: 'and the crowd cheered.', answer: 'cage' },
     { before: 'She put on her', after: 'to protect her hands during the fight.', answer: 'gloves' },
     { before: 'Always', after: 'your hands before you put on gloves.', answer: 'wrap' },
-    { before: 'He sat on the', after: 'between rounds while his coach gave advice.', answer: 'stool' },
+    { before: 'He sat on the', after: 'between rounds and his coach talked to him.', answer: 'stool' },
     { before: 'The champion raised the', after: 'above his head.', answer: 'belt' },
   ],
 
   multipleChoiceExercise: [
     {
       question: 'What is the cage?',
-      options: ['The padded floor', 'The enclosed metal fence where fights happen', 'The belt given to a champion', 'A small seat for the fighter'],
+      options: ['The padded floor', 'The metal fence around the fight area', 'The belt given to a champion', 'A small seat for the fighter'],
       correctIndex: 1,
     },
     {
