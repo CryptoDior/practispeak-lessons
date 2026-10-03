@@ -28,7 +28,7 @@ export const salesVocabularyBasics: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person or company that buys something from a business.',
       example: 'We just signed a new customer — a marketing agency based in Toronto.',
-      imageSlug: '/images/sales-vocabulary-basics-customer.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-vocabulary-basics-customer.png',
     },
     {
       word: 'BUY',
