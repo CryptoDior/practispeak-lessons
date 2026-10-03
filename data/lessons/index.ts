@@ -427,6 +427,16 @@ import { businessWeekendsHobbies } from './business-weekends-hobbies';
 import { businessOrderingCoffeeLunch } from './business-ordering-coffee-lunch';
 import { businessTalkingSimpleProblems } from './business-talking-simple-problems';
 import { businessTalkingFuturePlans } from './business-talking-future-plans';
+import { conversationHowAreYouToday } from './conversation-how-are-you-today';
+import { conversationWhereAreYouFrom } from './conversation-where-are-you-from';
+import { conversationWhenIsYourBirthday } from './conversation-when-is-your-birthday';
+import { conversationWhatTimeIsIt } from './conversation-what-time-is-it';
+import { conversationHowIsTheWeather } from './conversation-how-is-the-weather';
+import { conversationWhatDoYouDo } from './conversation-what-do-you-do';
+import { conversationWhatDidYouDoYesterday } from './conversation-what-did-you-do-yesterday';
+import { conversationGoingToDoTomorrow } from './conversation-going-to-do-tomorrow';
+import { conversationFreeTime } from './conversation-free-time';
+import { conversationBrothersOrSisters } from './conversation-brothers-or-sisters';
 import { mmaEquipment } from './mma-equipment';
 import { mmaPeople } from './mma-people';
 import { mmaTheBody } from './mma-the-body';
@@ -472,6 +482,16 @@ export const lessons: Lesson[] = [
   businessOrderingCoffeeLunch,
   businessTalkingSimpleProblems,
   businessTalkingFuturePlans,
+  conversationHowAreYouToday,
+  conversationWhereAreYouFrom,
+  conversationWhenIsYourBirthday,
+  conversationWhatTimeIsIt,
+  conversationHowIsTheWeather,
+  conversationWhatDoYouDo,
+  conversationWhatDidYouDoYesterday,
+  conversationGoingToDoTomorrow,
+  conversationFreeTime,
+  conversationBrothersOrSisters,
   teamCommunication,
   gameOnFirstWords,
   robloxAvatarIdentity,

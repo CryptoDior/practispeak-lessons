@@ -157,6 +157,17 @@ const SERIES: SeriesDef[] = [
     match: (l) => l.slug.startsWith('business-'),
   },
   {
+    id: 'conversation',
+    name: 'Everyday Conversation',
+    shortName: 'Conversation',
+    cardTitle: 'Conversation',
+    description: 'Simple, everyday English for real conversations — feelings, family, time, weather, and plans.',
+    stockImage:
+      'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&q=75&auto=format&fit=crop',
+    imageAlt: 'A group of friends talking and laughing together',
+    match: (l) => l.slug.startsWith('conversation-'),
+  },
+  {
     id: 'sales',
     name: 'Sales English',
     shortName: 'Sales',
