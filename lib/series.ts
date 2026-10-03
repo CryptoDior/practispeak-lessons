@@ -146,6 +146,17 @@ const SERIES: SeriesDef[] = [
       FOOTBALL_SLUGS.has(l.slug) || l.slug.startsWith('c1-') || l.slug.startsWith('c2-'),
   },
   {
+    id: 'business',
+    name: 'Business English',
+    shortName: 'Business',
+    cardTitle: 'Business',
+    description: 'Everyday English for work — meetings, emails, phone calls, and office life.',
+    stockImage:
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=75&auto=format&fit=crop',
+    imageAlt: 'A bright, modern office with desks and plants',
+    match: (l) => l.slug.startsWith('business-'),
+  },
+  {
     id: 'sales',
     name: 'Sales English',
     shortName: 'Sales',

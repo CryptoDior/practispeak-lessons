@@ -414,6 +414,19 @@ import { businessAgreeingDisagreeingPolitely } from './business-agreeing-disagre
 import { businessAskingRepetitionClarification } from './business-asking-repetition-clarification';
 import { businessExpressingSimpleOpinions } from './business-expressing-simple-opinions';
 import { businessClosingMeetingPolitely } from './business-closing-meeting-politely';
+import { businessGreetingClosingEmail } from './business-greeting-closing-email';
+import { businessWritingPoliteRequests } from './business-writing-polite-requests';
+import { businessReplyingShortEmails } from './business-replying-short-emails';
+import { businessAnsweringPhonePolitely } from './business-answering-phone-politely';
+import { businessAskingWhosCalling } from './business-asking-whos-calling';
+import { businessLeavingTakingMessages } from './business-leaving-taking-messages';
+import { businessAskingRepeatSpell } from './business-asking-repeat-spell';
+import { businessEndingCallPolitely } from './business-ending-call-politely';
+import { businessTalkingSchedulesTime } from './business-talking-schedules-time';
+import { businessWeekendsHobbies } from './business-weekends-hobbies';
+import { businessOrderingCoffeeLunch } from './business-ordering-coffee-lunch';
+import { businessTalkingSimpleProblems } from './business-talking-simple-problems';
+import { businessTalkingFuturePlans } from './business-talking-future-plans';
 import { mmaEquipment } from './mma-equipment';
 import { mmaPeople } from './mma-people';
 import { mmaTheBody } from './mma-the-body';
@@ -446,6 +459,19 @@ export const lessons: Lesson[] = [
   businessAskingRepetitionClarification,
   businessExpressingSimpleOpinions,
   businessClosingMeetingPolitely,
+  businessGreetingClosingEmail,
+  businessWritingPoliteRequests,
+  businessReplyingShortEmails,
+  businessAnsweringPhonePolitely,
+  businessAskingWhosCalling,
+  businessLeavingTakingMessages,
+  businessAskingRepeatSpell,
+  businessEndingCallPolitely,
+  businessTalkingSchedulesTime,
+  businessWeekendsHobbies,
+  businessOrderingCoffeeLunch,
+  businessTalkingSimpleProblems,
+  businessTalkingFuturePlans,
   teamCommunication,
   gameOnFirstWords,
   robloxAvatarIdentity,
