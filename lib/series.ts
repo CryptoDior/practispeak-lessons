@@ -205,11 +205,11 @@ const SERIES: SeriesDef[] = [
     name: 'Everyday Life English',
     shortName: 'Everyday Life',
     cardTitle: 'Everyday Life',
-    description: 'English for daily life — clothes, shopping, home, beauty, cars and travel.',
+    description: 'English for daily life — clothes, shopping, home, beauty, cars, travel and social media.',
     stockImage:
       'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900&q=75&auto=format&fit=crop',
     imageAlt: 'A bright clothing shop with racks of clothes',
-    match: (l) => ['beauty-', 'shopping-', 'transport-', 'clothes-', 'home-', 'travel-'].some((p) => l.slug.startsWith(p)),
+    match: (l) => ['beauty-', 'shopping-', 'transport-', 'clothes-', 'home-', 'travel-', 'everyday-'].some((p) => l.slug.startsWith(p)),
   },
   {
     id: 'sales',

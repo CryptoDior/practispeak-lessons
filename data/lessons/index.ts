@@ -555,6 +555,9 @@ import { transportPartsOfACar } from './transport-parts-of-a-car';
 import { travelAirportCheckIn } from './travel-airport-check-in';
 import { travelAirportOnboard } from './travel-airport-onboard';
 import { travelPassportControl } from './travel-passport-control';
+import { everydayInstagram } from './everyday-instagram';
+import { grammarPrefixesUnRePre } from './grammar-prefixes-un-re-pre';
+import { transportCarsBasics } from './transport-cars-basics';
 
 export const lessons: Lesson[] = [
   businessIntroducingYourselfColleagues,
@@ -1113,6 +1116,9 @@ export const lessons: Lesson[] = [
   travelAirportCheckIn,
   travelAirportOnboard,
   travelPassportControl,
+  everydayInstagram,
+  grammarPrefixesUnRePre,
+  transportCarsBasics,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
