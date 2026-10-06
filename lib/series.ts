@@ -168,6 +168,28 @@ const SERIES: SeriesDef[] = [
     match: (l) => l.slug.startsWith('conversation-'),
   },
   {
+    id: 'grammar',
+    name: 'Grammar',
+    shortName: 'Grammar',
+    cardTitle: 'Grammar',
+    description: 'Clear, simple grammar lessons with rules, examples, dialogues and practice.',
+    stockImage:
+      'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=900&q=75&auto=format&fit=crop',
+    imageAlt: 'An open notebook with handwriting and a pen',
+    match: (l) => l.slug.startsWith('grammar-'),
+  },
+  {
+    id: 'food',
+    name: 'Food & Drink English',
+    shortName: 'Food & Drink',
+    cardTitle: 'Food & Drink',
+    description: 'English for restaurants, cafés, food and wine — order, describe, and enjoy.',
+    stockImage:
+      'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=75&auto=format&fit=crop',
+    imageAlt: 'A restaurant table set with plates and glasses',
+    match: (l) => l.slug.startsWith('food-') || l.slug.startsWith('dining-'),
+  },
+  {
     id: 'sales',
     name: 'Sales English',
     shortName: 'Sales',

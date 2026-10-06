@@ -437,6 +437,37 @@ import { conversationWhatDidYouDoYesterday } from './conversation-what-did-you-d
 import { conversationGoingToDoTomorrow } from './conversation-going-to-do-tomorrow';
 import { conversationFreeTime } from './conversation-free-time';
 import { conversationBrothersOrSisters } from './conversation-brothers-or-sisters';
+import { grammarArticles } from './grammar-articles';
+import { grammarLookSeeWatch } from './grammar-look-see-watch';
+import { foodWineIntroduction } from './food-wine-introduction';
+import { foodHowDoesWineTaste } from './food-how-does-wine-taste';
+import { diningOrderingFoodRestaurant } from './dining-ordering-food-restaurant';
+import { businessAskingForOpinions } from './business-asking-for-opinions';
+import { businessCheckingConsensus } from './business-checking-consensus';
+import { businessClarifyingPolitely } from './business-clarifying-politely';
+import { businessCulturalMisunderstandings } from './business-cultural-misunderstandings';
+import { businessDisagreementCompromise } from './business-disagreement-compromise';
+import { businessEndingConversationsPolitely } from './business-ending-conversations-politely';
+import { businessExplainingProblemsClearly } from './business-explaining-problems-clearly';
+import { businessFormalVsInformal } from './business-formal-vs-informal';
+import { businessGivingShortPresentations } from './business-giving-short-presentations';
+import { businessHandlingInterruptions } from './business-handling-interruptions';
+import { businessHobbiesTravelCulture } from './business-hobbies-travel-culture';
+import { businessInternationalColleagues } from './business-international-colleagues';
+import { businessInterviewGettingStarted } from './business-interview-getting-started';
+import { businessInterviewSkillsStrengths } from './business-interview-skills-strengths';
+import { businessInterviewWeaknessesChallenges } from './business-interview-weaknesses-challenges';
+import { businessMakingSuggestions } from './business-making-suggestions';
+import { businessNetworkingIntroductions } from './business-networking-introductions';
+import { businessProposingSolutions } from './business-proposing-solutions';
+import { businessReachingAgreements } from './business-reaching-agreements';
+import { businessRespondingToSuggestions } from './business-responding-to-suggestions';
+import { businessSharingOpinionsClearly } from './business-sharing-opinions-clearly';
+import { businessStartingLeadingMeetings } from './business-starting-leading-meetings';
+import { businessSummarizingParaphrasing } from './business-summarizing-paraphrasing';
+import { businessTalkingAtBusinessLunch } from './business-talking-at-business-lunch';
+import { businessToneAndPoliteness } from './business-tone-and-politeness';
+import { businessWrappingUpAssigningTasks } from './business-wrapping-up-assigning-tasks';
 import { mmaEquipment } from './mma-equipment';
 import { mmaPeople } from './mma-people';
 import { mmaTheBody } from './mma-the-body';
@@ -492,6 +523,37 @@ export const lessons: Lesson[] = [
   conversationGoingToDoTomorrow,
   conversationFreeTime,
   conversationBrothersOrSisters,
+  grammarArticles,
+  grammarLookSeeWatch,
+  foodWineIntroduction,
+  foodHowDoesWineTaste,
+  diningOrderingFoodRestaurant,
+  businessAskingForOpinions,
+  businessCheckingConsensus,
+  businessClarifyingPolitely,
+  businessCulturalMisunderstandings,
+  businessDisagreementCompromise,
+  businessEndingConversationsPolitely,
+  businessExplainingProblemsClearly,
+  businessFormalVsInformal,
+  businessGivingShortPresentations,
+  businessHandlingInterruptions,
+  businessHobbiesTravelCulture,
+  businessInternationalColleagues,
+  businessInterviewGettingStarted,
+  businessInterviewSkillsStrengths,
+  businessInterviewWeaknessesChallenges,
+  businessMakingSuggestions,
+  businessNetworkingIntroductions,
+  businessProposingSolutions,
+  businessReachingAgreements,
+  businessRespondingToSuggestions,
+  businessSharingOpinionsClearly,
+  businessStartingLeadingMeetings,
+  businessSummarizingParaphrasing,
+  businessTalkingAtBusinessLunch,
+  businessToneAndPoliteness,
+  businessWrappingUpAssigningTasks,
   teamCommunication,
   gameOnFirstWords,
   robloxAvatarIdentity,
