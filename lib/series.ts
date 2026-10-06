@@ -201,6 +201,17 @@ const SERIES: SeriesDef[] = [
     match: (l) => l.slug.startsWith('health-'),
   },
   {
+    id: 'everyday',
+    name: 'Everyday Life English',
+    shortName: 'Everyday Life',
+    cardTitle: 'Everyday Life',
+    description: 'English for daily life — clothes, shopping, home, beauty, cars and travel.',
+    stockImage:
+      'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900&q=75&auto=format&fit=crop',
+    imageAlt: 'A bright clothing shop with racks of clothes',
+    match: (l) => ['beauty-', 'shopping-', 'transport-', 'clothes-', 'home-', 'travel-'].some((p) => l.slug.startsWith(p)),
+  },
+  {
     id: 'sales',
     name: 'Sales English',
     shortName: 'Sales',

@@ -538,6 +538,23 @@ import { businessRelationshipsAcrossCultures } from './business-relationships-ac
 import { businessStorytellingInBusiness } from './business-storytelling-in-business';
 import { businessStructuringPersuasivePresentations } from './business-structuring-persuasive-presentations';
 import { businessWinWinOutcomes } from './business-win-win-outcomes';
+import { beautyAtTheBarbershop } from './beauty-at-the-barbershop';
+import { beautyAtTheHairSalon } from './beauty-at-the-hair-salon';
+import { beautyFacePartsMakeup } from './beauty-face-parts-makeup';
+import { beautyMakeupCosmetics } from './beauty-makeup-cosmetics';
+import { clothesSummer } from './clothes-summer';
+import { clothesWinter } from './clothes-winter';
+import { homeInTheKitchen1 } from './home-in-the-kitchen-1';
+import { homeInTheKitchen2 } from './home-in-the-kitchen-2';
+import { homeInTheKitchen3 } from './home-in-the-kitchen-3';
+import { homeLivingRoom } from './home-living-room';
+import { shoppingForClothesA1 } from './shopping-for-clothes-a1';
+import { shoppingForClothesB1 } from './shopping-for-clothes-b1';
+import { shoppingFruitsAndVeggies } from './shopping-fruits-and-veggies';
+import { transportPartsOfACar } from './transport-parts-of-a-car';
+import { travelAirportCheckIn } from './travel-airport-check-in';
+import { travelAirportOnboard } from './travel-airport-onboard';
+import { travelPassportControl } from './travel-passport-control';
 
 export const lessons: Lesson[] = [
   businessIntroducingYourselfColleagues,
@@ -1079,6 +1096,23 @@ export const lessons: Lesson[] = [
   businessStorytellingInBusiness,
   businessStructuringPersuasivePresentations,
   businessWinWinOutcomes,
+  beautyAtTheBarbershop,
+  beautyAtTheHairSalon,
+  beautyFacePartsMakeup,
+  beautyMakeupCosmetics,
+  clothesSummer,
+  clothesWinter,
+  homeInTheKitchen1,
+  homeInTheKitchen2,
+  homeInTheKitchen3,
+  homeLivingRoom,
+  shoppingForClothesA1,
+  shoppingForClothesB1,
+  shoppingFruitsAndVeggies,
+  transportPartsOfACar,
+  travelAirportCheckIn,
+  travelAirportOnboard,
+  travelPassportControl,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
