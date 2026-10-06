@@ -508,6 +508,36 @@ import { foodWineFoodPairing } from './food-wine-food-pairing';
 import { foodWineMakingOrdering } from './food-wine-making-ordering';
 import { foodWineTastingConversation } from './food-wine-tasting-conversation';
 import { healthAtTheDoctor } from './health-at-the-doctor';
+import { conversationC1AccomplishThisWeek } from './conversation-c1-accomplish-this-week';
+import { conversationC1InfluencesMood } from './conversation-c1-influences-mood';
+import { conversationC1ManagingStress } from './conversation-c1-managing-stress';
+import { conversationC1MeaningfulYesterday } from './conversation-c1-meaningful-yesterday';
+import { conversationC1PerspectiveDailyRoutine } from './conversation-c1-perspective-daily-routine';
+import { conversationC1PrioritizingEachDay } from './conversation-c1-prioritizing-each-day';
+import { conversationC1ReflectingOnYourself } from './conversation-c1-reflecting-on-yourself';
+import { conversationC1SmallHabits } from './conversation-c1-small-habits';
+import { conversationC1UnexpectedProblems } from './conversation-c1-unexpected-problems';
+import { businessBuildingConsensus } from './business-building-consensus';
+import { businessCommunicatingVisionStrategy } from './business-communicating-vision-strategy';
+import { businessDelegatingTasks } from './business-delegating-tasks';
+import { businessDiscussingSensitiveTopics } from './business-discussing-sensitive-topics';
+import { businessGivingConstructiveFeedback } from './business-giving-constructive-feedback';
+import { businessHandlingDifficultQa } from './business-handling-difficult-qa';
+import { businessHandlingObjectionsC1 } from './business-handling-objections-c1';
+import { businessInspiringConfidence } from './business-inspiring-confidence';
+import { businessLeadingChange } from './business-leading-change';
+import { businessLeadingComplexDiscussions } from './business-leading-complex-discussions';
+import { businessManagingConflictMeetings } from './business-managing-conflict-meetings';
+import { businessMotivatingATeam } from './business-motivating-a-team';
+import { businessNegotiatingContracts } from './business-negotiating-contracts';
+import { businessNegotiatingInternationalPartners } from './business-negotiating-international-partners';
+import { businessPerformanceReviews } from './business-performance-reviews';
+import { businessPersuasionTechniques } from './business-persuasion-techniques';
+import { businessPresentingDataVisuals } from './business-presenting-data-visuals';
+import { businessRelationshipsAcrossCultures } from './business-relationships-across-cultures';
+import { businessStorytellingInBusiness } from './business-storytelling-in-business';
+import { businessStructuringPersuasivePresentations } from './business-structuring-persuasive-presentations';
+import { businessWinWinOutcomes } from './business-win-win-outcomes';
 
 export const lessons: Lesson[] = [
   businessIntroducingYourselfColleagues,
@@ -1019,6 +1049,36 @@ export const lessons: Lesson[] = [
   foodWineMakingOrdering,
   foodWineTastingConversation,
   healthAtTheDoctor,
+  conversationC1AccomplishThisWeek,
+  conversationC1InfluencesMood,
+  conversationC1ManagingStress,
+  conversationC1MeaningfulYesterday,
+  conversationC1PerspectiveDailyRoutine,
+  conversationC1PrioritizingEachDay,
+  conversationC1ReflectingOnYourself,
+  conversationC1SmallHabits,
+  conversationC1UnexpectedProblems,
+  businessBuildingConsensus,
+  businessCommunicatingVisionStrategy,
+  businessDelegatingTasks,
+  businessDiscussingSensitiveTopics,
+  businessGivingConstructiveFeedback,
+  businessHandlingDifficultQa,
+  businessHandlingObjectionsC1,
+  businessInspiringConfidence,
+  businessLeadingChange,
+  businessLeadingComplexDiscussions,
+  businessManagingConflictMeetings,
+  businessMotivatingATeam,
+  businessNegotiatingContracts,
+  businessNegotiatingInternationalPartners,
+  businessPerformanceReviews,
+  businessPersuasionTechniques,
+  businessPresentingDataVisuals,
+  businessRelationshipsAcrossCultures,
+  businessStorytellingInBusiness,
+  businessStructuringPersuasivePresentations,
+  businessWinWinOutcomes,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
