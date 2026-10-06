@@ -190,6 +190,17 @@ const SERIES: SeriesDef[] = [
     match: (l) => l.slug.startsWith('food-') || l.slug.startsWith('dining-'),
   },
   {
+    id: 'health',
+    name: 'Health & Wellness English',
+    shortName: 'Health',
+    cardTitle: 'Health & Wellness',
+    description: 'English for doctors\' visits, symptoms, medicine and staying well.',
+    stockImage:
+      'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=75&auto=format&fit=crop',
+    imageAlt: 'A doctor with a stethoscope talking to a patient',
+    match: (l) => l.slug.startsWith('health-'),
+  },
+  {
     id: 'sales',
     name: 'Sales English',
     shortName: 'Sales',

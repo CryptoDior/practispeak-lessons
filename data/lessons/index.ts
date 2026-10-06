@@ -488,6 +488,26 @@ import { mmaTheCorner } from './mma-the-corner';
 import { mmaOnlineAndSocial } from './mma-online-and-social';
 import { mmaFanReview } from './mma-fan-review';
 import { mmaFighterCapstone } from './mma-fighter-capstone';
+import { conversationB1AfterWork } from './conversation-b1-after-work';
+import { conversationB1FeelAboutWeather } from './conversation-b1-feel-about-weather';
+import { conversationB1HowHasYourWeekBeen } from './conversation-b1-how-has-your-week-been';
+import { conversationB1LastWeekend } from './conversation-b1-last-weekend';
+import { conversationB1SpendYourEvenings } from './conversation-b1-spend-your-evenings';
+import { conversationB1SpendYourMornings } from './conversation-b1-spend-your-mornings';
+import { conversationB1ToRelax } from './conversation-b1-to-relax';
+import { conversationB1UpToLately } from './conversation-b1-up-to-lately';
+import { grammarConditionalsSecondThird } from './grammar-conditionals-second-third';
+import { grammarConditionalsZeroFirst } from './grammar-conditionals-zero-first';
+import { grammarMakeVsDo } from './grammar-make-vs-do';
+import { grammarPastParticiplesThough } from './grammar-past-participles-though';
+import { grammarShouldCouldWould } from './grammar-should-could-would';
+import { grammarWhichVsWhat } from './grammar-which-vs-what';
+import { diningRestaurantInquiries } from './dining-restaurant-inquiries';
+import { foodDescribingTaste } from './food-describing-taste';
+import { foodWineFoodPairing } from './food-wine-food-pairing';
+import { foodWineMakingOrdering } from './food-wine-making-ordering';
+import { foodWineTastingConversation } from './food-wine-tasting-conversation';
+import { healthAtTheDoctor } from './health-at-the-doctor';
 
 export const lessons: Lesson[] = [
   businessIntroducingYourselfColleagues,
@@ -979,6 +999,26 @@ export const lessons: Lesson[] = [
   mmaOnlineAndSocial,
   mmaFanReview,
   mmaFighterCapstone,
+  conversationB1AfterWork,
+  conversationB1FeelAboutWeather,
+  conversationB1HowHasYourWeekBeen,
+  conversationB1LastWeekend,
+  conversationB1SpendYourEvenings,
+  conversationB1SpendYourMornings,
+  conversationB1ToRelax,
+  conversationB1UpToLately,
+  grammarConditionalsSecondThird,
+  grammarConditionalsZeroFirst,
+  grammarMakeVsDo,
+  grammarPastParticiplesThough,
+  grammarShouldCouldWould,
+  grammarWhichVsWhat,
+  diningRestaurantInquiries,
+  foodDescribingTaste,
+  foodWineFoodPairing,
+  foodWineMakingOrdering,
+  foodWineTastingConversation,
+  healthAtTheDoctor,
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {
