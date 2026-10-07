@@ -80,7 +80,7 @@ export const businessWritingPoliteRequests: Lesson = {
       tag: 'phrase',
       definition: 'A polite way to ask someone to send you something.',
       example: '"Could you please send me the report?"',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-writing-polite-requests-could-you-send.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-writing-polite-requests-could-you-please-send-me.png',
     },
     {
       phrase: 'Would you mind checking…?',
@@ -88,21 +88,21 @@ export const businessWritingPoliteRequests: Lesson = {
       definition: 'A very polite way to ask someone to look at something for you.',
       example: '"Would you mind checking this for me?"',
       inAction: 'After "Would you mind", use the -ing form: "Would you mind checking…", not "Would you mind check…".',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-writing-polite-requests-would-you-mind.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-writing-polite-requests-would-you-mind-checking.png',
     },
     {
       phrase: 'Can you please tell me…?',
       tag: 'phrase',
       definition: 'Use this to ask for information.',
       example: '"Can you please tell me the meeting time?"',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-writing-polite-requests-can-you-tell-me.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-writing-polite-requests-can-you-please-tell-me.png',
     },
     {
       phrase: 'Please let me know if…',
       tag: 'phrase',
       definition: 'Use this to ask someone to tell you something later.',
       example: '"Please let me know if you are available."',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-writing-polite-requests-let-me-know.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-writing-polite-requests-please-let-me-know-if.png',
     },
     {
       phrase: 'Sure, no problem!',
@@ -116,7 +116,7 @@ export const businessWritingPoliteRequests: Lesson = {
       tag: 'phrase',
       definition: 'Use this when you need time before you answer.',
       example: '"Good question. I\'ll check and get back to you."',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-writing-polite-requests-get-back-to-you.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-writing-polite-requests-ill-check-and-get-back-to-you.png',
     },
   ],
 
