@@ -37,12 +37,27 @@ function walk(dir) {
   });
 }
 
+const FORCE = process.argv.includes('--force');
 const files = walk(FOLDER).filter(f => /\.(png|jpg|jpeg|webp)$/i.test(f));
-console.log(`Found ${files.length} image(s) to upload...\n`);
+console.log(`Found ${files.length} image(s)...\n`);
 
+let uploaded = 0, skipped = 0;
 for (const path of files) {
   const file = basename(path);
   const buf = readFileSync(path);
+
+  // Skip if the same file (same size) is already on R2. A redone image with a
+  // different size is uploaded again. Use --force to re-upload everything.
+  if (!FORCE) {
+    try {
+      const head = await fetch(`${PUBLIC_URL}/${encodeURIComponent(file)}`, { method: 'HEAD' });
+      if (head.ok && Number(head.headers.get('content-length')) === buf.length) {
+        skipped++;
+        continue;
+      }
+    } catch { /* if the check fails, just upload */ }
+  }
+
   const ext = file.split('.').pop().toLowerCase();
   const contentType = ext === 'jpg' || ext === 'jpeg' ? 'image/jpeg' : ext === 'webp' ? 'image/webp' : 'image/png';
   const url = `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/r2/buckets/${BUCKET}/objects/${file}`;
@@ -58,6 +73,7 @@ for (const path of files) {
   });
 
   if (res.ok) {
+    uploaded++;
     console.log(`✅ ${file}`);
     console.log(`   → ${PUBLIC_URL}/${file}\n`);
   } else {
@@ -65,3 +81,5 @@ for (const path of files) {
     console.error(`❌ ${file} (${res.status}): ${txt}\n`);
   }
 }
+
+console.log(`\nDone: ${uploaded} uploaded, ${skipped} skipped (already on R2).`);
