@@ -90,7 +90,7 @@ export const businessLeavingTakingMessages: Lesson = {
       tag: 'phrase',
       definition: 'Use this when the person is not there and you offer to write down the message.',
       example: '"Sorry, Kira is in a meeting. Can I take a message?"',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-leaving-taking-messages-take-a-message.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-leaving-taking-messages-can-i-take-a-message.png',
     },
     {
       phrase: 'Would you like to leave a message?',
@@ -98,14 +98,14 @@ export const businessLeavingTakingMessages: Lesson = {
       definition: 'A more polite way to offer to take a message.',
       example: '"He is not at his desk. Would you like to leave a message?"',
       inAction: 'You TAKE a message (you write it). The caller LEAVES a message (they give it).',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-leaving-taking-messages-leave-a-message.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-leaving-taking-messages-would-you-like-to-leave-a-message.png',
     },
     {
       phrase: "I'll make sure they get the message.",
       tag: 'phrase',
       definition: 'Use this to tell the caller that the message will get to the right person.',
       example: '"Thank you, Mr. Brown. I\'ll make sure she gets the message."',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-leaving-taking-messages-make-sure.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-leaving-taking-messages-ill-make-sure-they-get-the-message.png',
     },
   ],
 
