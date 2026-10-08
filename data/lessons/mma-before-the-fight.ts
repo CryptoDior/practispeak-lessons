@@ -79,7 +79,7 @@ export const mmaBeforeTheFight: Lesson = {
     {
       phrase: 'GET IN YOUR HEAD',
       definition: 'Make the other fighter feel nervous or unsure.',
-      example: 'His trash talk tried to get in her head, but she stayed calm.',
+      example: 'His trash talk tried to get in his head, but he stayed calm.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-before-the-fight-get-in-your-head.png',
       tag: 'phrase',
     },
@@ -162,7 +162,7 @@ export const mmaBeforeTheFight: Lesson = {
 
   fillBlankExercise: [
     { before: 'Both fighters answered questions at the', after: '. It was the day before the fight.', answer: 'press conference' },
-    { before: 'His', after: 'tried to get in her head, but she stayed calm.', answer: 'trash talk' },
+    { before: 'His', after: 'tried to get in his head, but he stayed calm.', answer: 'trash talk' },
     { before: 'She was the', after: '. Nobody thought she could win, but she did.', answer: 'underdog' },
     { before: 'He', after: 'to the game plan and controlled the whole fight.', answer: 'stuck' },
     { before: 'My', answer: 'prediction', after: 'is a knockout in round three. He is very strong.' },
