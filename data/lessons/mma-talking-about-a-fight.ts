@@ -49,7 +49,7 @@ export const mmaTalkingAboutAFight: Lesson = {
       word: 'OUTCLASS',
       partOfSpeech: 'verb',
       definition: 'To be much better than the other fighter.',
-      example: 'She outclassed him. She was faster and better at everything.',
+      example: 'She outclassed the other fighter. She was faster and better at everything.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-outclass.png',
     },
     {
@@ -117,12 +117,12 @@ export const mmaTalkingAboutAFight: Lesson = {
     {
       speaker: 'Carlos',
       speakerColor: 'orange',
-      text: 'It was great. She [[dominated:controlled the fight]]. She [[outclassed:was much better than]] him. She was faster and better at everything.',
+      text: 'It was great. She [[dominated:controlled the fight]]. She [[outclassed:was much better than]] the other fighter. She was faster and better at everything.',
     },
     {
       speaker: 'Mia',
       speakerColor: 'blue',
-      text: 'I thought he was winning in round one. What happened?',
+      text: 'I thought the other fighter was winning in round one. What happened?',
     },
     {
       speaker: 'Carlos',

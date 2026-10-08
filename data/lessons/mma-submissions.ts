@@ -21,14 +21,14 @@ export const mmaSubmissions: Lesson = {
       word: 'CHOKE',
       partOfSpeech: 'noun',
       definition: 'A hold on the neck. The fighter cannot breathe well and must give up.',
-      example: 'She locked in a choke from behind and he tapped out fast.',
+      example: 'She locked in a choke from behind and the other fighter tapped out fast.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-choke.png',
     },
     {
       word: 'ARMBAR',
       partOfSpeech: 'noun',
       definition: 'A hold that pulls the arm straight and hurts the elbow.',
-      example: 'He locked in an armbar and she had to tap out.',
+      example: 'He locked in an armbar and the other fighter had to tap out.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-armbar.png',
     },
     {
@@ -42,14 +42,14 @@ export const mmaSubmissions: Lesson = {
       word: 'TRIANGLE',
       partOfSpeech: 'noun',
       definition: 'A choke with the legs. The legs go around the other fighter\'s head and arm.',
-      example: 'She was on her back and caught him in a triangle. He tapped out fast.',
+      example: 'She was on her back, but she caught the other fighter in a triangle and won.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-triangle.png',
     },
     {
       word: 'GUILLOTINE',
       partOfSpeech: 'noun',
       definition: 'A choke from the front. It often happens in a takedown.',
-      example: 'He shot for a takedown, and she caught him in a guillotine.',
+      example: 'He shot for a takedown, and the other fighter caught him in a guillotine.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-guillotine.png',
     },
     {
@@ -63,7 +63,7 @@ export const mmaSubmissions: Lesson = {
       word: 'LOCK IN',
       partOfSpeech: 'verb',
       definition: 'To hold very tight, so the other fighter cannot get out.',
-      example: 'She locked in the rear naked choke. He could not get out.',
+      example: 'She locked in the rear naked choke. The other fighter could not get out.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-lock-in.png',
     },
     {
@@ -86,7 +86,7 @@ export const mmaSubmissions: Lesson = {
     {
       phrase: 'SINK IN THE CHOKE',
       definition: 'Make a choke very tight.',
-      example: 'She sank in the choke and he tapped five seconds later.',
+      example: 'She sank in the choke and the other fighter tapped five seconds later.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-sink-in-the-choke.png',
       tag: 'phrase',
     },
@@ -163,9 +163,9 @@ export const mmaSubmissions: Lesson = {
   fillBlankExercise: [
     { before: 'She', after: 'out because the armbar hurt.', answer: 'tapped' },
     { before: 'He took the back and', after: 'in a rear naked choke.', answer: 'locked' },
-    { before: 'She sank', after: 'the choke and he tapped five seconds later.', answer: 'in' },
+    { before: 'She sank', after: 'the choke and the other fighter tapped five seconds later.', answer: 'in' },
     { before: 'He', answer: 'fought', after: 'off two armbars and stood up again.' },
-    { before: 'She caught a', after: 'when he shot for the takedown.', answer: 'guillotine' },
+    { before: 'She caught a', after: 'when the other fighter shot for the takedown.', answer: 'guillotine' },
   ],
 
   multipleChoiceExercise: [
