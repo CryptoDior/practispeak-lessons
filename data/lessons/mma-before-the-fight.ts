@@ -49,7 +49,7 @@ export const mmaBeforeTheFight: Lesson = {
       word: 'TRASH TALK',
       partOfSpeech: 'noun',
       definition: 'Bad and unkind words to the other fighter before a fight.',
-      example: 'He used a lot of trash talk at the press conference. He wanted to make her nervous.',
+      example: 'He used a lot of trash talk at the press conference. He wanted to make him nervous.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-before-the-fight-trash-talk.png',
     },
     {
