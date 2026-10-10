@@ -7,7 +7,7 @@ export const businessAskingRepetitionClarification: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to ask someone to repeat or explain something again in a meeting. Build confidence by checking your understanding and responding clearly.',
-  heroImage: '/images/business-asking-repetition-clarification-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-asking-repetition-clarification-hero.png',
 
   objectives: [
     'Ask someone politely to repeat or explain something again.',

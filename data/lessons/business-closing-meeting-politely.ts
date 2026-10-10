@@ -7,7 +7,7 @@ export const businessClosingMeetingPolitely: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to close a meeting in a polite and professional way. Summarize key points, confirm next steps, and thank participants before finishing.',
-  heroImage: '/images/business-closing-meeting-politely-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-closing-meeting-politely-hero.png',
 
   objectives: [
     'End a meeting in a polite and professional way.',

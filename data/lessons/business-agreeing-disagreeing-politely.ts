@@ -7,7 +7,7 @@ export const businessAgreeingDisagreeingPolitely: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to agree and disagree in a meeting without causing conflict. Master the phrases and phrasal verbs for sharing and respecting different opinions at work.',
-  heroImage: '/images/business-agreeing-disagreeing-politely-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-agreeing-disagreeing-politely-hero.png',
 
   objectives: [
     'Use simple phrases to agree or disagree politely in a meeting.',

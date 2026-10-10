@@ -7,7 +7,7 @@ export const businessIntroducingYourselfColleagues: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to introduce yourself and your colleagues at work. Master the key phrases for meeting people professionally for the first time — name, job title, department, and more.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-introducing-yourself-and-colleagues-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-introducing-yourself-colleagues-hero.png',
 
   objectives: [
     'Introduce yourself (name, job title, company, department).',
