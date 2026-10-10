@@ -6,7 +6,7 @@ export const mmaEquipment: Lesson = {
   subtitle: 'Learn the names of the gear fighters use and the space they fight in',
   level: 'A1-A2',
   description: 'Learn the words for the cage, the mat, and the things a fighter wears and uses. These are the first MMA words you need.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-equipment-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-equipment-hero.png?v=2',
 
   warmUp: {
     questions: [
