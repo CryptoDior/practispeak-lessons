@@ -7,7 +7,7 @@ export const businessTalkingAboutYourRoleDepartment: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to talk about your job role and department at work. Master the phrases for explaining your responsibilities and asking colleagues about theirs.',
-  heroImage: '/images/business-talking-about-your-role-department-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-about-your-role-and-department-hero.png',
 
   objectives: [
     'Talk about your job role and duties.',

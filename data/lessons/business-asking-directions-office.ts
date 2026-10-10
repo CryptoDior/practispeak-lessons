@@ -7,7 +7,7 @@ export const businessAskingDirectionsOffice: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to ask for and give simple directions in the office. Master the words for common office places and key phrases for helping colleagues find their way.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-asking-directions-office-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-asking-for-and-giving-simple-directions-in-the-office-hero.png',
 
   objectives: [
     'Ask for directions to common office places.',
