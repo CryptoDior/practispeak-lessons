@@ -7,7 +7,7 @@ export const businessAskingOfferingHelp: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to ask for help and offer help to colleagues in a polite, professional way. Master the key words and phrases for being helpful at work.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-asking-offering-help-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-asking-offering-help-hero.png?v=2',
 
   objectives: [
     'Ask for help in a polite way.',

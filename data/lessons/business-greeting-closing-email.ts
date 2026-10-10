@@ -7,7 +7,7 @@ export const businessGreetingClosingEmail: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to start and end an email the right way. Use formal words for your boss or a client, and friendly words for a colleague.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-greeting-closing-email-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-greeting-closing-email-hero.png?v=2',
 
   objectives: [
     'Start an email with the right greeting.',
