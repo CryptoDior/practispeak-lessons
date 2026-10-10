@@ -7,7 +7,7 @@ export const businessBasicMeetingPhrases: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the essential phrases and phrasal verbs for starting, running, and ending a meeting. Build confidence in participating in short professional meetings.',
-  heroImage: '/images/business-basic-meeting-phrases-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-basic-meeting-phrases-hero.png',
 
   objectives: [
     'Use simple phrases to start, continue, and end a meeting.',

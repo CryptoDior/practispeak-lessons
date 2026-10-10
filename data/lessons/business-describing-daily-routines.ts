@@ -7,7 +7,7 @@ export const businessDescribingDailyRoutines: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to talk about your daily work routine. Describe when you start and finish, and what you do throughout the day.',
-  heroImage: '/images/business-describing-daily-routines-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-describing-daily-routines-hero.png',
 
   objectives: [
     'Talk about the times you start and finish work.',
