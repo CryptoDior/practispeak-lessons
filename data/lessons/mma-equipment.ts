@@ -5,7 +5,7 @@ export const mmaEquipment: Lesson = {
   title: 'MMA Equipment',
   subtitle: 'Learn the names of the gear fighters use and the space they fight in',
   level: 'A1-A2',
-  description: 'Learn the words for the cage, the mat, and the things a fighter wears and uses. These are the first MMA words you need.',
+  description: 'Learn the words for the cage, the canvas, the mats, and the things a fighter wears and uses. These are the first MMA words you need.',
   heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-equipment-hero.png?v=2',
 
   warmUp: {
@@ -25,11 +25,18 @@ export const mmaEquipment: Lesson = {
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-equipment-cage.png',
     },
     {
+      word: 'CANVAS',
+      partOfSpeech: 'noun',
+      definition: 'The floor inside the cage at a fight. It is covered with strong cloth.',
+      example: 'The fighter fell down on the canvas.',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-equipment-canvas.png',
+    },
+    {
       word: 'MAT',
       partOfSpeech: 'noun',
-      definition: 'The soft floor inside the cage.',
-      example: 'The fighter fell down on the mat.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-equipment-mat.png',
+      definition: 'A soft floor in the gym. Fighters train on it.',
+      example: 'We train on the mats every day.',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-equipment-gym-mats.png',
     },
     {
       word: 'GLOVES',
@@ -147,7 +154,7 @@ export const mmaEquipment: Lesson = {
     {
       speaker: 'Carlos',
       speakerColor: 'orange',
-      text: 'Yes, that is the [[cage:the metal fence around the fight area]]. The floor inside is the [[mat:the soft floor of the cage]].',
+      text: 'Yes, that is the [[cage:the metal fence around the fight area]]. The floor inside is the [[canvas:the floor of the cage at a fight]].',
     },
     {
       speaker: 'Mia',
@@ -157,13 +164,14 @@ export const mmaEquipment: Lesson = {
     {
       speaker: 'Carlos',
       speakerColor: 'orange',
-      text: 'Then let\'s start training. First, [[wrap your hands:put cloth around your hands before training]].',
+      text: 'Then let\'s start training on the [[mats:the soft floor in the gym]]. First, [[wrap your hands:put cloth around your hands before training]].',
     },
   ],
 
   matchingExercise: [
     { word: 'Cage', definition: 'The metal fence around the fight area' },
-    { word: 'Mat', definition: 'The soft floor inside the cage' },
+    { word: 'Canvas', definition: 'The floor inside the cage at a fight' },
+    { word: 'Mat', definition: 'A soft floor in the gym for training' },
     { word: 'Gloves', definition: 'Small gloves for MMA' },
     { word: 'Mouthguard', definition: 'A plastic piece that protects the teeth' },
     { word: 'Hand wraps', definition: 'Cloth you put around your hands before gloves' },
@@ -176,6 +184,8 @@ export const mmaEquipment: Lesson = {
     { before: 'Always', after: 'your hands before you put on gloves.', answer: 'wrap' },
     { before: 'He sat on the', after: 'between rounds and his coach talked to him.', answer: 'stool' },
     { before: 'The champion raised the', after: 'above his head.', answer: 'belt' },
+    { before: 'He fell down on the', after: 'and the referee stopped the fight.', answer: 'canvas' },
+    { before: 'In the gym, we train on soft', after: '.', answer: 'mats' },
   ],
 
   multipleChoiceExercise: [
@@ -190,8 +200,18 @@ export const mmaEquipment: Lesson = {
       correctIndex: 2,
     },
     {
+      question: 'Where is the canvas?',
+      options: ['In the gym, for training', 'Inside the cage, at a fight', 'On the fighter\'s hands', 'In the locker room'],
+      correctIndex: 1,
+    },
+    {
+      question: 'Where do fighters train every day?',
+      options: ['On the canvas at a big fight', 'On the mats in the gym', 'On the stool', 'In the crowd'],
+      correctIndex: 1,
+    },
+    {
       question: 'What does a fighter sit on between rounds?',
-      options: ['The mat', 'The stool', 'The belt', 'The cage floor'],
+      options: ['The canvas', 'The stool', 'The belt', 'The cage floor'],
       correctIndex: 1,
     },
     {
