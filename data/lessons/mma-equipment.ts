@@ -36,7 +36,7 @@ export const mmaEquipment: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A soft floor in the gym. Fighters train on it.',
       example: 'We train on the mats every day.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-equipment-gym-mats.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-equipment-mat.png?v=2',
     },
     {
       word: 'GLOVES',
@@ -57,7 +57,7 @@ export const mmaEquipment: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A plastic thing you put in your mouth. It keeps your teeth safe.',
       example: 'The fighter put in his mouthguard before the round started.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-equipment-mouthguard.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mma-equipment-mouthguard.png?v=2',
     },
     {
       word: 'HAND WRAPS',
