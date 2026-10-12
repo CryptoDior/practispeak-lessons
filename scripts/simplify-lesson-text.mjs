@@ -12,6 +12,7 @@
  *   node scripts/simplify-lesson-text.mjs --all                              (every lesson on the site)
  *   node scripts/simplify-lesson-text.mjs --all B1-B2                        (one level only)
  *   add --dry-run to only list what would change
+ *   add --redo to rewrite every entry, even ones that are already short
  *
  * A log of every change is written to  simplify-log.csv  (open it in Excel to review).
  */
@@ -30,6 +31,7 @@ const MODEL = 'claude-sonnet-5-5';
 
 const args = process.argv.slice(2);
 const DRY = args.includes('--dry-run');
+const REDO = args.includes('--redo'); // rewrite EVERY entry (e.g. to fix lessons simplified before a rule changed)
 const LEVELS = ['A1', 'A2', 'A1-A2', 'B1-B2', 'C1-C2'];
 const levelArg = args.find((a) => LEVELS.includes(a));
 let slugs = args.filter((a) => !a.startsWith('--') && !LEVELS.includes(a));
@@ -43,6 +45,8 @@ if (!DRY && !KEY) { console.error('ANTHROPIC_API_KEY not found in .env.local'); 
 const MAX_WORDS = 15;
 const words = (t) => t.trim().split(/\s+/).length;
 const isStory = (t) => /\b[A-Z][a-z]+ (said|asked|replied|responded|told|explained|added)\b[^.]*:/.test(t);
+// Sales-course "coaching" tone (tips/advice to the learner) — this is an English lesson, not a sales course.
+const isCoaching = (t) => /\b(always|never|your job|you should|you need to|make sure|before you|the key is|don't|do not)\b/i.test(t) || /\s[—–-]\s/.test(t);
 
 const STR = `'((?:[^'\\\\]|\\\\.)*)'|"((?:[^"\\\\]|\\\\.)*)"|\`((?:[^\`\\\\]|\\\\.)*)\``;
 const unesc = (s) => s.replace(/\\(['"`\\])/g, '$1');
@@ -83,7 +87,8 @@ function findEntries(src) {
           const title = field('word') || field('phrase');
           const def = field('definition');
           const ex = field('example');
-          if (title && def && ex) out.push({ title: title.text, def, ex });
+          const img = field('imageSlug') || field('imageUrl') || field('image');
+          if (title && def && ex) out.push({ title: title.text, def, ex, image: img ? img.text : null });
           objStart = -1;
         }
       }
@@ -92,7 +97,23 @@ function findEntries(src) {
   return out;
 }
 
-async function rewrite(level, items) {
+/** Image as an API content block: R2/https images are checked to exist; local /images/... files are sent as base64. */
+async function imageBlock(src) {
+  if (!src) return null;
+  try {
+    if (/^https?:\/\//.test(src)) {
+      const r = await fetch(src.split('?')[0], { method: 'HEAD' });
+      return r.ok ? { type: 'image', source: { type: 'url', url: src } } : null;
+    }
+    const file = join('public', src.replace(/^\/+/, '').split('?')[0]);
+    if (!existsSync(file)) return null;
+    const ext = file.split('.').pop().toLowerCase();
+    const media = { png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', webp: 'image/webp' }[ext];
+    return media ? { type: 'image', source: { type: 'base64', media_type: media, data: readFileSync(file).toString('base64') } } : null;
+  } catch { return null; }
+}
+
+async function rewrite(level, items, topic) {
   const levelRule = {
     'A1': 'Use only very basic, everyday words (beginner level). Very short sentences.',
     'A2': 'Use only very basic, everyday words (elementary level). Very short sentences.',
@@ -104,17 +125,33 @@ async function rewrite(level, items) {
 For each item, write:
 - "definition": ONE short, simple sentence that explains what the word or phrase means. Maximum ${MAX_WORDS} words. No long explanations, no teaching advice.
 - "example": ONE short, natural sentence that USES the word or phrase. Maximum ${MAX_WORDS} words. No stories, no narrator, no reported speech (never "X said:"), no names unless needed.
+This is an ENGLISH lesson, not a sales or business course: never give tips, advice or coaching to the reader (no "always...", "you should...", "your job is...", "make sure..."). Just show the word used naturally in an everyday work situation. Avoid dashes; use one simple sentence.
+Definitions explain only what the word means, in plain everyday English, like a learner's dictionary. No extra detail about strategy or best practice.
 ${levelRule}
 If the word is a phrase with placeholders like [name] or [X], the example should fill them in naturally.
 Keep British/American spelling as in the original. Keep the same meaning as the original definition.
 Return ONLY a JSON array with one object per item, in the same order: [{"definition": "...", "example": "..."}].
 
+LESSON TOPIC: ${topic}
+Every example MUST stay in this lesson's topic and setting (for a sales lesson: a salesperson talking to or about a customer, client, product, order, deal or meeting). Never switch to an unrelated everyday situation (no restaurants, holidays, friends, etc. unless that IS the lesson topic).
+
 Items (level ${level}):
 ${JSON.stringify(items.map((it) => ({ word: it.title, definition: it.def.text, example: it.ex.text })), null, 1)}`;
+  // Attach each entry's picture (where it exists) so the new example matches what the image shows.
+  const content = [];
+  for (let n = 0; n < items.length; n++) {
+    const block = await imageBlock(items[n].image);
+    if (!block) continue;
+    content.push({ type: 'text', text: `Image for item ${n + 1} (${items[n].title}):` }, block);
+  }
+  const imgRule = content.length
+    ? `\nSome items have an image (shown above, labelled by item number). For those items, the example MUST match the image: the same people (man/woman, how many), the same action, place and objects. Use "he"/"she" to match the person in the image. Do NOT describe the picture like a caption (no "in the hotel lobby", "the two women", "on his tablet"): write something a salesperson or customer would naturally say, that fits the scene. Items without an image: write a natural example.\n`
+    : '';
+  content.push({ type: 'text', text: prompt + imgRule });
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: { 'x-api-key': KEY, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
-    body: JSON.stringify({ model: MODEL, max_tokens: 4000, messages: [{ role: 'user', content: prompt }] }),
+    body: JSON.stringify({ model: MODEL, max_tokens: 4000, messages: [{ role: 'user', content }] }),
   });
   if (!res.ok) throw new Error(`Anthropic ${res.status}: ${await res.text()}`);
   const data = await res.json();
@@ -135,12 +172,15 @@ for (const slug of slugs) {
   const level = (src.match(/level:\s*'([^']+)'/) || [])[1] || '';
   if (levelArg && level !== levelArg) continue;
   const all = findEntries(src);
-  const todo = all.filter((e) => words(e.def.text) > MAX_WORDS || words(e.ex.text) > MAX_WORDS || isStory(e.ex.text));
+  const todo = REDO ? all : all.filter((e) =>
+    words(e.def.text) > MAX_WORDS || words(e.ex.text) > MAX_WORDS ||
+    isStory(e.ex.text) || isCoaching(e.ex.text) || isCoaching(e.def.text));
   if (!todo.length) continue;
   console.log(`\n📘 ${slug} (${level}): ${todo.length} of ${all.length} entries to simplify`);
   if (DRY) { todo.forEach((e) => console.log(`  • ${e.title}`)); continue; }
   try {
-    const out = await rewrite(level, todo);
+    const topic = [src.match(/\btitle:\s*'([^']+)'/), src.match(/\bsubtitle:\s*'([^']+)'/)].filter(Boolean).map((m) => m[1]).join(' — ');
+    const out = await rewrite(level, todo, topic || slug);
     // apply from the end of the file backwards so positions stay valid
     const edits = [];
     todo.forEach((e, n) => {

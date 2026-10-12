@@ -12,8 +12,8 @@ export const negotiatingPolitely: Lesson = {
     {
       word: 'NEGOTIATE',
       partOfSpeech: 'verb',
-      definition: 'To discuss the conditions of a deal in order to reach an agreement that works for both sides.',
-      example: "Both sides agreed to negotiate the price before signing the contract.",
+      definition: 'To talk about the terms of a deal until both sides agree.',
+      example: 'They will negotiate the terms of the contract before anyone picks up the pen.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiate.png',
     },
     {
@@ -40,8 +40,8 @@ export const negotiatingPolitely: Lesson = {
     {
       word: 'COMPROMISE',
       partOfSpeech: 'noun',
-      definition: "An agreement where both sides give up something in order to reach a deal.",
-      example: 'They reached a compromise — a lower price in exchange for a longer contract.',
+      definition: 'An agreement where both sides give up something to reach a deal.',
+      example: 'She lowered her price and he ordered more fabric, which was a fair compromise.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/compromise.png',
     },
     {
@@ -54,8 +54,8 @@ export const negotiatingPolitely: Lesson = {
     {
       word: 'COUNTER-OFFER',
       partOfSpeech: 'noun',
-      definition: 'A response to an offer that suggests different conditions instead of simply accepting or refusing.',
-      example: "The client made a counter-offer of $28 per user instead of the original price of $35.",
+      definition: 'An answer to an offer that suggests different terms instead of accepting or refusing.',
+      example: 'He made a counter-offer of 3,820,000 after seeing the 4,150,000 price.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-politely-counter-offer.png',
     },
     {
@@ -70,8 +70,8 @@ export const negotiatingPolitely: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'WOULD YOU BE OPEN TO...?',
-      definition: "A polite way to suggest an alternative and ask if the other person is willing to consider it.",
-      example: "Would you be open to a 12-month contract in exchange for a lower monthly rate?",
+      definition: 'A polite way to suggest another option and ask if someone would consider it.',
+      example: 'Would you be open to seeing our fabric samples in our showroom today?',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/negotiating-politely-would-you-be-open-to.png',
     },
     {
@@ -82,26 +82,26 @@ export const negotiatingPolitely: Lesson = {
     },
     {
       phrase: 'IF WE WERE ABLE TO [X], WOULD YOU BE ABLE TO [Y]?',
-      definition: "A formal way to propose an exchange — if we change one thing, would you agree to change something in return?",
-      example: "If we were able to shorten the onboarding to one month, would you be able to agree to the $28 rate?",
+      definition: 'A formal way to suggest a trade: if we change one thing, will you change another?',
+      example: 'If we were able to ship earlier, would you be able to order more boards?',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/if-we-were-able-to-x-would-you-be-able-to-y.png',
     },
     {
       phrase: "THAT'S AT THE VERY EDGE OF WHAT WE CAN OFFER",
-      definition: "Used to say that this is close to the lowest price or best offer you are able to make.",
-      example: "$28 per user is at the very edge of what we can offer — any lower and we would need to adjust the package.",
+      definition: 'Used to say this is nearly the lowest price or best deal we can give.',
+      example: 'That\'s at the very edge of what we can offer, as the gauge shows.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/thats-at-the-very-edge-of-what-we-can-offer.png',
     },
     {
       phrase: "I THINK WE'RE CLOSE — LET'S SEE IF WE CAN FIND A MIDDLE GROUND",
-      definition: "Used when both sides are nearly in agreement and you want to reach a final compromise.",
-      example: "I think we're close on price — let's see if we can find a middle ground on the payment terms.",
+      definition: 'Used when both sides are almost in agreement and want to find a fair compromise.',
+      example: 'I think we\'re close, let\'s see if we can find a middle ground on delivery.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-think-were-close--lets-see-if-we-can-find-a-middle-ground.png',
     },
     {
       phrase: 'LET ME TAKE THAT BACK TO MY MANAGER AND COME BACK TO YOU',
-      definition: "Used to say that you need to check internally before giving a final answer.",
-      example: "Let me take that back to my manager and come back to you by end of day tomorrow.",
+      definition: 'Used to say you must check with your boss before you give a final answer.',
+      example: 'Let me take that back to my manager and come back to you tomorrow.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/let-me-take-that-back-to-my-manager-and-come-back-to-you.png',
     }
   ],
