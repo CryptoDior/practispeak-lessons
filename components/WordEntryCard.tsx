@@ -67,16 +67,31 @@ function AudioButton({
   showLabel?: boolean;
 }) {
   const [playing, setPlaying] = useState(false);
+  const current = useRef<HTMLAudioElement | null>(null);
   const play = () => {
+    // Stop anything this button is already playing, so clicks never overlap.
+    if (current.current) {
+      current.current.pause();
+      current.current = null;
+    }
     const tryPlay = (i: number) => {
       if (i >= srcs.length) {
         setPlaying(false);
         return;
       }
       const audio = new Audio(srcs[i]);
+      current.current = audio;
+      // A missing file fires BOTH onerror and a rejected play() — only move on once,
+      // otherwise the next file is started twice and you hear double audio.
+      let movedOn = false;
+      const next = () => {
+        if (movedOn || current.current !== audio) return;
+        movedOn = true;
+        tryPlay(i + 1);
+      };
       audio.onended = () => setPlaying(false);
-      audio.onerror = () => tryPlay(i + 1);
-      audio.play().catch(() => tryPlay(i + 1));
+      audio.onerror = next;
+      audio.play().catch(next);
     };
     setPlaying(true);
     tryPlay(0);

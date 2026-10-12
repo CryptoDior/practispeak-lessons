@@ -39,9 +39,16 @@ export function playFirstWorking(srcs: string[], onDone: () => void): HTMLAudioE
     }
     const audio = new Audio(srcs[i]);
     current = audio;
+    // A missing file fires both onerror and a rejected play(); only move on once (prevents double audio).
+    let movedOn = false;
+    const next = () => {
+      if (movedOn) return;
+      movedOn = true;
+      tryPlay(i + 1);
+    };
     audio.onended = onDone;
-    audio.onerror = () => tryPlay(i + 1);
-    audio.play().catch(() => tryPlay(i + 1));
+    audio.onerror = next;
+    audio.play().catch(next);
   };
   tryPlay(0);
   return current;
