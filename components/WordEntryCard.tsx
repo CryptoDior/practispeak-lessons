@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import ImageLightbox from '@/components/ImageLightbox';
-import { r2Audio } from '@/lib/audio';
+import { r2Audio, exclusiveAudio } from '@/lib/audio';
 
 /**
  * Word title that never breaks mid-word: multi-word terms wrap at spaces,
@@ -79,8 +79,9 @@ function AudioButton({
         setPlaying(false);
         return;
       }
-      const audio = new Audio(srcs[i]);
+      const audio = exclusiveAudio(srcs[i]); // stops any other sound on the page
       current.current = audio;
+      audio.addEventListener('stopped', () => setPlaying(false));
       // A missing file fires BOTH onerror and a rejected play() — only move on once,
       // otherwise the next file is started twice and you hear double audio.
       let movedOn = false;

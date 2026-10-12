@@ -29,6 +29,29 @@ export function audioSources(path: string): string[] {
   return [r2Audio(name), '/audio/' + name];
 }
 
+/** The one sound playing on the page right now. Starting a new sound stops it. */
+let nowPlaying: HTMLAudioElement | null = null;
+
+/** Create an audio element that stops any other sound on the page first (only one sound at a time). */
+export function exclusiveAudio(src: string): HTMLAudioElement {
+  if (nowPlaying) {
+    nowPlaying.pause();
+    nowPlaying.dispatchEvent(new Event('stopped'));
+  }
+  const audio = new Audio(src);
+  nowPlaying = audio;
+  return audio;
+}
+
+/** Take over as the page's single playing sound (for players that reuse one audio element). */
+export function claimAudio(audio: HTMLAudioElement) {
+  if (nowPlaying && nowPlaying !== audio) {
+    nowPlaying.pause();
+    nowPlaying.dispatchEvent(new Event('stopped'));
+  }
+  nowPlaying = audio;
+}
+
 /** Play the first source that works. Calls onDone when finished or when nothing could play. */
 export function playFirstWorking(srcs: string[], onDone: () => void): HTMLAudioElement | null {
   let current: HTMLAudioElement | null = null;
@@ -37,8 +60,9 @@ export function playFirstWorking(srcs: string[], onDone: () => void): HTMLAudioE
       onDone();
       return;
     }
-    const audio = new Audio(srcs[i]);
+    const audio = exclusiveAudio(srcs[i]);
     current = audio;
+    audio.addEventListener('stopped', onDone);
     // A missing file fires both onerror and a rejected play(); only move on once (prevents double audio).
     let movedOn = false;
     const next = () => {
