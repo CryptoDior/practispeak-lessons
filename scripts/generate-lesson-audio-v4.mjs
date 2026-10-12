@@ -225,7 +225,7 @@ if (!DRY && FORCE && made > 0) {
   const src = readFileSync(vf, 'utf8');
   const next = String(Date.now());
   writeFileSync(vf, src.replace(/export const AUDIO_VERSION = '[^']*';/, `export const AUDIO_VERSION = '${next}';`));
-  console.log(`\n🔄 Audio version bumped. Push so browsers load the new recordings:\n   git add lib/audio.ts && git commit -m "Refresh audio" && git push`);
+  console.log(`\n🔄 Audio version bumped. Push so browsers load the new recordings:\n   git add lib/audio.ts; git commit -m "Refresh audio"; git push`);
 }
 
 console.log(
