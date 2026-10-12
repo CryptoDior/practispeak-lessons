@@ -126,7 +126,16 @@ function speakableWord(text) {
 }
 
 function speakableExample(text) {
-  return text.replace(/\[\[([^:\]]+):[^\]]*\]\]/g, '$1').replace(/^["“]|["”]$/g, '').trim();
+  return text
+    .replace(/\[\[([^:\]]+):[^\]]*\]\]/g, '$1')       // [[word:gloss]] → word
+    .replace(/[.!?]?["”]\s*\/\s*["“]/g, ', or ')        // "A." / "B."  → A, or B
+    .replace(/\s+\/\s+/g, ' or ')                        // a / b        → a or b
+    .replace(/["“”]/g, '')                                // drop remaining quote marks
+    .replace(/, or ([A-Z])(?=[a-z])/g, (m, c) => `, or ${c.toLowerCase()}`) // ", or This" → ", or this"
+    .replace(/\s*→\s*/g, ' ')                             // "Question? → Answer." → "Question? Answer."
+    .replace(/(^|\s)[A-D]:\s/g, '$1')                     // drop speaker labels like "A: " / "B: "
+    .replace(/\s{2,}/g, ' ')
+    .trim();
 }
 
 /** Pull (title, example) pairs from the vocabulary / irlVocabulary / phrasalVerbs arrays of a lesson file. */
