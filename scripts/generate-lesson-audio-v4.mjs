@@ -120,9 +120,17 @@ function audioSlugOf(text) {
   return text.toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 }
 
-/** "SOFA / COUCH" → "sofa, couch". Lower-case so all-caps words aren't spelled out letter by letter. */
+/** Placeholders like [time] or [name]: v4 would treat square brackets as instructions,
+ *  so they become a short pause ("…") instead. */
+function placeholdersToPause(text) {
+  return text.replace(/\s*\[[^\]]*\]\s*/g, '… ').replace(/…\s*([.?!,])/g, '…').trim();
+}
+
+/** "SOFA / COUCH" → "sofa or couch". Lower-case so all-caps words aren't spelled out letter by letter. */
 function speakableWord(text) {
-  return text.replace(/\s*\/\s*/g, ', ').replace(/…|\.\.\./g, '').trim().toLowerCase();
+  return placeholdersToPause(
+    text.replace(/…|\.\.\./g, '').replace(/[.!?]?\s*\/\s*/g, ' or ').trim().toLowerCase(),
+  );
 }
 
 function speakableExample(text) {
@@ -135,7 +143,8 @@ function speakableExample(text) {
     .replace(/\s*→\s*/g, ' ')                             // "Question? → Answer." → "Question? Answer."
     .replace(/(^|\s)[A-D]:\s/g, '$1')                     // drop speaker labels like "A: " / "B: "
     .replace(/\s{2,}/g, ' ')
-    .trim();
+    .trim()
+    .replace(/\[[^\]]*\]/g, (m) => placeholdersToPause(m));
 }
 
 /** Pull (title, example) pairs from the vocabulary / irlVocabulary / phrasalVerbs arrays of a lesson file. */
