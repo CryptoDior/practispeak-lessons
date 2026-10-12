@@ -28,7 +28,7 @@ export const askingWhatTheCustomerWants: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The thing that is most important and needs attention first.',
       example: "What's your top priority right now — saving time or cutting costs?",
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-what-the-customer-wants-priority.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/asking-what-the-customer-wants-priority.png?v=2',
     },
     {
       word: 'GOAL',
@@ -102,7 +102,7 @@ export const askingWhatTheCustomerWants: Lesson = {
       phrase: 'WOULD THAT WORK FOR YOU',
       definition: "Check whether your suggestion fits the customer's needs before moving forward.",
       example: 'The starter plan covers everything you mentioned — would that work for you?',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/would-that-work-for-you.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/would-that-work-for-you.png?v=2',
     }
   ],
 
