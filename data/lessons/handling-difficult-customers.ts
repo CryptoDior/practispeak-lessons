@@ -83,7 +83,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       phrase: 'THAT IS NOT THE EXPERIENCE WE WANT YOU TO HAVE',
       definition: 'A phrase that admits a failure and says it falls below your standards.',
-      example: 'A three-week delay is not the experience we want you to have.',
+      example: 'I\'m sorry. That is not the experience we want you to have.',
       imageSlug: '/images/that-is-not-the-experience-we-want-you-to-have.png',
     },
     {

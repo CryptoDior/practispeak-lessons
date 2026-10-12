@@ -71,25 +71,25 @@ export const theSalesProcess: Lesson = {
     {
       phrase: 'MOVE THROUGH THE PIPELINE',
       definition: 'To go from one stage of a sale to the next.',
-      example: 'The deal is moving through the pipeline and is now at the proposal stage.',
+      example: 'We want this deal to move through the pipeline quickly.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/move-through-the-pipeline.png',
     },
     {
       phrase: 'QUALIFY A LEAD',
       definition: 'To check if a lead is a good match to become a customer.',
-      example: 'We qualified a lead after checking its budget, need, and authority.',
+      example: 'We qualify a lead by checking its budget and need.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/qualify-a-lead.png',
     },
     {
       phrase: 'CLOSE A DEAL',
       definition: 'To finish the final agreement with a customer.',
-      example: 'After the proposal and negotiation, we were finally able to close the deal.',
+      example: 'We hope to close a deal with them this week.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/close-a-deal.png',
     },
     {
       phrase: 'FOLLOW UP ON',
       definition: 'To contact someone again about something discussed earlier.',
-      example: 'She is following up on the proposal with a phone call.',
+      example: 'She will follow up on the proposal with a phone call.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-sales-process-follow-up-on.png',
     },
     {
@@ -101,7 +101,7 @@ export const theSalesProcess: Lesson = {
     {
       phrase: 'PITCH TO SOMEONE',
       definition: 'To present a product or idea to someone to persuade them.',
-      example: 'He is pitching to the client about how the solution reduces costs.',
+      example: 'He will pitch to the client on Friday.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/pitch-to-someone.png',
     }
   ],

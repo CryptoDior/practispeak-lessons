@@ -12,15 +12,15 @@ export const strategicQuestioning: Lesson = {
     {
       word: 'PROBING',
       partOfSpeech: 'noun',
-      definition: 'A question that digs deeper than the first answer to find the real cause.',
-      example: 'Her probing questions moved the conversation from the surface issue to the real reason behind the delay.',
+      definition: 'Aimed at digging deeper than a first answer to find the real cause.',
+      example: 'Her probing questions took us from the symptoms to the real cause.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-probing.png',
     },
     {
       word: 'CLARIFYING',
       partOfSpeech: 'noun',
-      definition: 'A question that checks you have understood exactly what someone means.',
-      example: 'He asked a clarifying question to find out which car size she actually had in mind.',
+      definition: 'Meant to check that you have understood exactly what someone means.',
+      example: 'She asked a clarifying question about which type of car he preferred.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-clarifying.png',
     },
     {
@@ -41,14 +41,14 @@ export const strategicQuestioning: Lesson = {
       word: 'IMPLICATION',
       partOfSpeech: 'noun',
       definition: 'A likely result or consequence that follows from a situation or decision.',
-      example: 'The main implication of these delays is that our biggest clients may lose trust in us.',
+      example: 'The main implication of this delay is that clients may lose trust.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-implication.png',
     },
     {
       word: 'HYPOTHESIS',
       partOfSpeech: 'noun',
       definition: 'An idea that might be true but has not yet been confirmed.',
-      example: 'My hypothesis is that the new campaign will lift sales, but we need to test it.',
+      example: 'My hypothesis is that the new process will raise sales, but we need data.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-hypothesis.png',
     },
     {
@@ -61,8 +61,8 @@ export const strategicQuestioning: Lesson = {
     {
       word: 'FUNNEL',
       partOfSpeech: 'noun',
-      definition: 'A method of questioning that begins with broad questions and narrows to specific ones.',
-      example: 'I used a funnel approach, starting with your goals and ending with the one issue slowing you down.',
+      definition: 'A questioning method that starts with broad questions and narrows to specific ones.',
+      example: 'I used a funnel to move from your goals to the one problem.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-funnel.png',
     }
   ],
@@ -82,14 +82,14 @@ export const strategicQuestioning: Lesson = {
     },
     {
       phrase: "I'D LIKE TO CHALLENGE THAT ASSUMPTION GENTLY — HAVE YOU CONSIDERED...?",
-      definition: 'A gentle way to question someone\'s belief and suggest another possibility.',
-      example: 'I\'d like to challenge that assumption gently: have you considered that the board may prefer the other approach?',
+      definition: 'A polite way to question someone\'s belief and suggest another possibility.',
+      example: 'I\'d like to challenge that assumption gently: have you considered the board\'s view?',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-id-like-to-challenge-that-assumption-gently.png',
     },
     {
       phrase: "IF THAT'S THE CASE, WHAT DOES THAT MEAN FOR...?",
-      definition: 'A question asking what the result will be if a situation stays the same.',
-      example: 'If that\'s the case, what does that mean for your team\'s workload and your service ratings?',
+      definition: 'A question asking what the result will be if a situation continues.',
+      example: 'If that\'s the case, what does that mean for your team\'s workload?',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-questioning-if-thats-the-case-what-does-that-mean-for.png',
     },
     {

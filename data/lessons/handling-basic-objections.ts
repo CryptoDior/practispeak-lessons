@@ -27,7 +27,7 @@ export const handlingBasicObjections: Lesson = {
       word: 'VALIDATE',
       partOfSpeech: 'verb',
       definition: 'To show that someone\'s worry or feeling is reasonable and understandable.',
-      example: 'I understand your worry about the cost, and it is a fair point.',
+      example: 'I want to validate your worry about the cost.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-basic-objections-validate.png',
     },
     {
@@ -48,7 +48,7 @@ export const handlingBasicObjections: Lesson = {
       word: 'STALL',
       partOfSpeech: 'noun',
       definition: 'To delay a decision or action, usually by avoiding a clear answer.',
-      example: 'The customer stalls by raising his hand and avoiding a clear answer.',
+      example: 'Customers often stall when they are not sure about the price.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-basic-objections-stall.png',
     },
     {

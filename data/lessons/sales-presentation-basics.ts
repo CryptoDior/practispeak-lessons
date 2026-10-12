@@ -55,7 +55,7 @@ export const salesPresentationBasics: Lesson = {
       word: 'ENGAGE',
       partOfSpeech: 'verb',
       definition: 'To get people interested and keep their attention.',
-      example: 'She engaged the visitors at her stand by asking them a question about water.',
+      example: 'She asks a question to engage the visitors at her stand.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sales-presentation-basics-engage.png',
     },
     {

@@ -46,7 +46,7 @@ const MAX_WORDS = 15;
 const words = (t) => t.trim().split(/\s+/).length;
 const isStory = (t) => /\b[A-Z][a-z]+ (said|asked|replied|responded|told|explained|added)\b[^.]*:/.test(t);
 // Sales-course "coaching" tone (tips/advice to the learner) — this is an English lesson, not a sales course.
-const isCoaching = (t) => /\b(always|never|your job|you should|you need to|make sure|before you|the key is|don't|do not)\b/i.test(t) || /\s[—–-]\s/.test(t);
+const isCoaching = (t) => /\b(you should|your job is|the key (is|to)|always make sure)\b/i.test(t);
 
 const STR = `'((?:[^'\\\\]|\\\\.)*)'|"((?:[^"\\\\]|\\\\.)*)"|\`((?:[^\`\\\\]|\\\\.)*)\``;
 const unesc = (s) => s.replace(/\\(['"`\\])/g, '$1');
@@ -103,7 +103,9 @@ async function imageBlock(src) {
   try {
     if (/^https?:\/\//.test(src)) {
       const r = await fetch(src.split('?')[0], { method: 'HEAD' });
-      return r.ok ? { type: 'image', source: { type: 'url', url: src } } : null;
+      const size = Number(r.headers?.get?.('content-length') || 0);
+      if (!r.ok || size > 4_500_000) return null; // the API rejects images over ~5 MB
+      return { type: 'image', source: { type: 'url', url: src } };
     }
     const file = join('public', src.replace(/^\/+/, '').split('?')[0]);
     if (!existsSync(file)) return null;
@@ -114,6 +116,15 @@ async function imageBlock(src) {
 }
 
 async function rewrite(level, items, topic) {
+  try {
+    return await rewriteOnce(level, items, topic, true);
+  } catch (err) {
+    console.log(`  ⚠️  ${err.message.slice(0, 160)}\n  ↻ retrying without images...`);
+    return await rewriteOnce(level, items, topic, false);
+  }
+}
+
+async function rewriteOnce(level, items, topic, useImages) {
   const levelRule = {
     'A1': 'Use only very basic, everyday words (beginner level). Very short sentences.',
     'A2': 'Use only very basic, everyday words (elementary level). Very short sentences.',
@@ -124,7 +135,7 @@ async function rewrite(level, items, topic) {
   const prompt = `You write vocabulary cards for an English-learning website.
 For each item, write:
 - "definition": ONE short, simple sentence that explains what the word or phrase means. Maximum ${MAX_WORDS} words. No long explanations, no teaching advice.
-- "example": ONE short, natural sentence that USES the word or phrase. Aim for 6-12 words, maximum ${MAX_WORDS}. ONE idea only: no second clause that explains or repeats the meaning (no "because...", "which means...", "and it keeps...", "so..."). No stories, no narrator, no reported speech (never "X said:"), no names unless needed.
+- "example": ONE short, natural sentence that USES the word or phrase in EXACTLY the form shown (same spelling and form: "assumption", not "assuming"; "symptom", not "symptoms"; "close a deal", not "closed the deal"). Aim for 6-12 words, maximum ${MAX_WORDS}. ONE idea only: no second clause that explains or repeats the meaning (no "because...", "which means...", "and it keeps...", "so..."). No stories, no narrator, no reported speech (never "X said:"), no names unless needed.
 This is an ENGLISH lesson, not a sales or business course: never give tips, advice or coaching to the reader (no "always...", "you should...", "your job is...", "make sure..."). Just show the word used naturally in an everyday work situation. Avoid dashes; use one simple sentence.
 Definitions explain only what the word means, in plain everyday English, like a learner's dictionary. No extra detail about strategy or best practice.
 ${levelRule}
@@ -140,7 +151,7 @@ ${JSON.stringify(items.map((it) => ({ word: it.title, definition: it.def.text, e
   // Attach each entry's picture (where it exists) so the new example matches what the image shows.
   const content = [];
   for (let n = 0; n < items.length; n++) {
-    const block = await imageBlock(items[n].image);
+    const block = useImages ? await imageBlock(items[n].image) : null;
     if (!block) continue;
     content.push({ type: 'text', text: `Image for item ${n + 1} (${items[n].title}):` }, block);
   }

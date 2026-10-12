@@ -55,7 +55,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
       word: 'RESONATE',
       partOfSpeech: 'verb',
       definition: 'To feel true or important to someone.',
-      example: 'The health and battery features resonated with the customer looking at the smartwatch.',
+      example: 'The long battery life will resonate with busy customers.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-benefits-vs-features-resonate.png',
     },
     {

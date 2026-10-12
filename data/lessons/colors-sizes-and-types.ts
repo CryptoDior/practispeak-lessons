@@ -19,8 +19,8 @@ export const colorsSizesAndTypes: Lesson = {
     {
       word: 'FLEXIBLE',
       partOfSpeech: 'adjective',
-      definition: 'Easy to change or adapt to different needs.',
-      example: 'It is a flexible contract — you can switch from monthly to annual at any time.',
+      definition: 'Easy to change for different needs.',
+      example: 'This modular sofa is very flexible for any office.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/colors-sizes-and-types-flexible.png',
     },
     {
@@ -61,8 +61,8 @@ export const colorsSizesAndTypes: Lesson = {
     {
       word: 'SCHEDULED',
       partOfSpeech: 'adjective',
-      definition: 'Set to happen automatically at a fixed time or on a regular basis.',
-      example: 'A scheduled report goes out every Friday so your team starts the weekend with the latest numbers.',
+      definition: 'Planned to happen at a fixed time.',
+      example: 'Your scheduled report arrives every Monday at nine.',
       imageSlug: '/images/scheduled.png',
     }
   ],
@@ -70,38 +70,38 @@ export const colorsSizesAndTypes: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'A LIVE DASHBOARD',
-      definition: 'A screen that shows real-time information and updates automatically.',
-      example: 'You get a live dashboard — you can see every deal and every customer in one place, right now.',
+      definition: 'A screen that shows new information as it happens.',
+      example: 'You can use a live dashboard for your team.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-live-dashboard.png',
     },
     {
       phrase: 'A DETAILED REPORT',
-      definition: 'A thorough document or summary with full information and data.',
-      example: 'I can show you a detailed report — it breaks down performance by team member, by week, and by deal size.',
+      definition: 'A document with a lot of information and numbers.',
+      example: 'I prepared a detailed report for your team.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-detailed-report.png',
     },
     {
       phrase: 'A FLEXIBLE CONTRACT',
-      definition: "An agreement that can be changed or adapted to fit the customer's needs.",
-      example: 'It is a flexible contract — monthly or annual, and you can change at any time.',
+      definition: 'An agreement that is easy to change.',
+      example: 'This is a flexible contract with monthly billing.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-flexible-contract.png',
     },
     {
       phrase: 'A CUSTOM SOLUTION',
-      definition: "A product or service built specifically around a customer's exact requirements.",
-      example: 'For larger teams, we offer a custom solution — it is built around your exact workflow and tools.',
+      definition: 'A product made just for one customer\'s needs.',
+      example: 'I can offer you a custom solution for your team.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-custom-solution.png',
     },
     {
       phrase: 'A BUILT-IN FEATURE',
-      definition: 'A function that is already included in the product with no extra setup.',
-      example: 'The integration with your email tool is a built-in feature — it connects automatically when you sign up.',
+      definition: 'A part that is already inside the product.',
+      example: 'The water dispenser is a built-in feature.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a-built-in-feature.png',
     },
     {
       phrase: 'AN AUTOMATED REPORT',
-      definition: 'A report the system creates and sends on its own, on a schedule you set.',
-      example: 'You can set up an automated report — choose the day and time, and it goes out without you doing anything.',
+      definition: 'A report that the system makes and sends by itself.',
+      example: 'This is an automated report for your sales team.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/an-automated-report.png',
     }
   ],

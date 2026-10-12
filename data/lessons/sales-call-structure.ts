@@ -13,7 +13,7 @@ export const salesCallStructure: Lesson = {
       word: 'OPENING',
       partOfSpeech: 'noun',
       definition: 'The first part of a call or meeting, when you greet people and begin.',
-      example: 'Thanks for your time today. I\'m excited to connect with you.',
+      example: 'My opening was short and friendly.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/opening.png',
     },
     {

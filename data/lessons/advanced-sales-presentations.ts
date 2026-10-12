@@ -27,7 +27,7 @@ export const advancedSalesPresentations: Lesson = {
       word: 'SIGNPOST',
       partOfSpeech: 'verb',
       definition: 'To make the structure of your argument clear by telling listeners where you are heading.',
-      example: 'She signposted her talk clearly: first the cost, then the opportunity, then the plan.',
+      example: 'She used a clear signpost: first the cost, then the plan.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/advanced-sales-presentations-signpost.png',
     },
     {

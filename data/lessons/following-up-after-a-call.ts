@@ -13,7 +13,7 @@ export const followingUpAfterACall: Lesson = {
       word: 'FOLLOW UP',
       partOfSpeech: 'phrasal verb',
       definition: 'To contact someone again after an earlier conversation to check progress or get an answer.',
-      example: 'She follows up with a client by phone after sending the proposal.',
+      example: 'She will follow up with the client after sending the proposal.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/following-up-after-a-call-follow-up.png',
     },
     {
@@ -27,7 +27,7 @@ export const followingUpAfterACall: Lesson = {
       word: 'RECAP',
       partOfSpeech: 'verb',
       definition: 'To repeat the main points of an earlier conversation in a short summary.',
-      example: 'She smiled and recapped the key points for the client on the video call.',
+      example: 'Let me recap the key points from our call.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/following-up-after-a-call-recap.png',
     },
     {

@@ -48,7 +48,7 @@ export const comparingProductsOrServices: Lesson = {
       word: 'OUTPERFORM',
       partOfSpeech: 'verb',
       definition: 'To do better than someone or something when you measure results.',
-      example: 'Our platform outperformed the competition on speed and customer satisfaction in three tests.',
+      example: 'Our platform can outperform the competition on speed.',
       imageSlug: '/images/outperform.png',
     },
     {

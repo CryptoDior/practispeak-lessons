@@ -20,7 +20,7 @@ export const identifyingCustomerPainPoints: Lesson = {
       word: 'SYMPTOM',
       partOfSpeech: 'noun',
       definition: 'A sign that shows there is a bigger problem.',
-      example: 'Slow replies and unhappy customers are symptoms of a bigger problem.',
+      example: 'Slow replies are a symptom of a bigger problem.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/symptom.png',
     },
     {

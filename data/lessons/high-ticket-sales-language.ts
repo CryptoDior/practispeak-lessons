@@ -101,7 +101,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       phrase: "OUR CLIENTS DON'T COME TO US BECAUSE WE'RE THE CHEAPEST OPTION — THEY COME BECAUSE THEY'VE CALCULATED WE'RE THE MOST VALUABLE",
       definition: 'Use this to say customers chose you after comparing options, not because of low price.',
-      example: 'Our clients don\'t come because we\'re cheapest, they come because we\'re most valuable.',
+      example: 'Our clients don\'t come to us because we\'re the cheapest option, they come because they\'ve calculated we\'re the most valuable.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/our-clients-dont-come-to-us-because-were-the-cheapest-option--they-come-because-theyve-calculated-were-the-most-valuable.png',
     }
   ],

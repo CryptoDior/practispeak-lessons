@@ -34,7 +34,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
       word: 'PROJECTION',
       partOfSpeech: 'noun',
       definition: 'A forward-looking estimate of financial performance, usually based on clearly stated assumptions.',
-      example: 'The projections were ambitious, but every figure traced back to a defensible assumption.',
+      example: 'Our projection shows strong growth over the next three years.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/projection.png',
     },
     {

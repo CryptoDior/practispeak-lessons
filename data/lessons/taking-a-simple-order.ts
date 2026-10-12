@@ -34,7 +34,7 @@ export const takingASimpleOrder: Lesson = {
       word: 'UNIT',
       partOfSpeech: 'noun',
       definition: 'One single item in an order.',
-      example: 'We need fifteen units for our team.',
+      example: 'The price is ten dollars per unit.',
       imageSlug: '/images/unit.png',
     },
     {

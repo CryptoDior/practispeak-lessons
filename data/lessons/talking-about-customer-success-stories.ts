@@ -101,7 +101,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       phrase: "THAT'S EXACTLY THE KIND OF RESULT WE AIM TO DELIVER FOR EVERY CUSTOMER WE WORK WITH",
       definition: 'A phrase saying that this good result is what the company wants for all customers.',
-      example: 'That\'s exactly the kind of result we aim to deliver for every customer.',
+      example: 'That\'s exactly the kind of result we aim to deliver for every customer we work with.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/thats-exactly-the-kind-of-result-we-aim-to-deliver-for-every-customer-we-work-with.png',
     }
   ],

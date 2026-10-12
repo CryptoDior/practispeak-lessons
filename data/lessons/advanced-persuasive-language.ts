@@ -13,7 +13,7 @@ export const advancedPersuasiveLanguage: Lesson = {
       word: 'FRAMING',
       partOfSpeech: 'noun',
       definition: 'The way information is presented, which shapes how people react to the same facts.',
-      example: 'Presenting the price as an investment changed the client\'s whole reaction.',
+      example: 'Good framing makes the price look like an investment.',
       imageSlug: '/images/advanced-persuasive-language-framing.png',
     },
     {
@@ -95,7 +95,7 @@ export const advancedPersuasiveLanguage: Lesson = {
     {
       phrase: 'WHAT MOST PEOPLE IN YOUR POSITION FIND IS',
       definition: 'A phrase that uses what similar people experience to make a suggestion feel normal.',
-      example: 'What most directors in your position find is that adoption improves within weeks.',
+      example: 'What most people in your position find is that adoption improves within weeks.',
       imageSlug: '/images/what-most-people-in-your-position-find-is.png',
     },
     {

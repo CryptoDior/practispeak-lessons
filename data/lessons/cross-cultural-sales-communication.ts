@@ -27,7 +27,7 @@ export const crossCulturalSalesCommunication: Lesson = {
       word: 'POLITENESS STRATEGIES',
       partOfSpeech: 'phrase',
       definition: 'Ways of speaking that show respect and avoid offending the other person.',
-      example: 'She used polite strategies to decline his request without damaging the relationship.',
+      example: 'She used politeness strategies to decline his request kindly.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/cross-cultural-sales-communication-politeness-strategies.png',
     },
     {

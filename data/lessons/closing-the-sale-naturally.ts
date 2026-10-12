@@ -13,7 +13,7 @@ export const closingTheSaleNaturally: Lesson = {
       word: 'CLOSE',
       partOfSpeech: 'verb',
       definition: 'To finish a sale when the customer agrees to buy.',
-      example: 'The two managers shook hands over the contract and closed the deal.',
+      example: 'The two managers are ready to close the deal today.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-the-sale-naturally-close.png',
     },
     {
@@ -48,7 +48,7 @@ export const closingTheSaleNaturally: Lesson = {
       word: 'STALL',
       partOfSpeech: 'verb',
       definition: 'To stop making progress or delay, or for an engine to suddenly stop.',
-      example: 'The deal stalled when the client stopped answering our emails.',
+      example: 'Deals often stall when the client stops answering emails.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-the-sale-naturally-stall.png',
     },
     {
@@ -62,7 +62,7 @@ export const closingTheSaleNaturally: Lesson = {
       word: 'ASSUMPTION',
       partOfSpeech: 'noun',
       definition: 'Acting as if something is already true or already decided.',
-      example: 'She pointed to the signature line with her pen, assuming he had already agreed.',
+      example: 'She made the assumption that he was ready to sign.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-the-sale-naturally-assumption.png',
     }
   ],

@@ -12,15 +12,15 @@ export const customerFeedback: Lesson = {
     {
       word: 'RATING',
       partOfSpeech: 'noun',
-      definition: 'A number that a customer gives to show how happy they are — for example, 1 to 5 stars.',
-      example: 'Our average rating on G2 is 4.7 out of 5 — one of the highest in our category.',
+      definition: 'A number that shows how happy a customer is.',
+      example: 'Our rating is 4.7 out of 5 stars.',
       imageSlug: '/images/rating.png',
     },
     {
       word: 'REVIEW',
       partOfSpeech: 'noun',
-      definition: 'A written comment from a customer about their experience with a product or service.',
-      example: 'A new client said they found us through a review on G2 — positive reviews really help.',
+      definition: 'A written comment from a customer about a product or service.',
+      example: 'One client wrote a very nice review about our support.',
       imageSlug: '/images/customer-feedback-review.png',
     },
     {
@@ -33,8 +33,8 @@ export const customerFeedback: Lesson = {
     {
       word: 'TESTIMONIAL',
       partOfSpeech: 'noun',
-      definition: 'A positive statement from a happy customer, used in marketing to show others the product works.',
-      example: 'We use client testimonials on our website — real words from real people are more convincing than ads.',
+      definition: 'A kind statement from a happy customer about a product or service.',
+      example: 'We put a customer testimonial on our website.',
       imageSlug: '/images/customer-feedback-testimonial.png',
     },
     {
@@ -54,8 +54,8 @@ export const customerFeedback: Lesson = {
     {
       word: 'NET PROMOTER SCORE',
       partOfSpeech: 'noun',
-      definition: 'A score that shows how likely customers are to recommend your product to someone else. Often called NPS.',
-      example: 'Our NPS is 72 — a score above 50 is considered excellent in the B2B sector.',
+      definition: 'A score that shows how likely customers are to recommend a company.',
+      example: 'Our net promoter score went up this quarter.',
       imageSlug: '/images/customer-feedback-net-promoter-score.png',
     },
     {
@@ -70,8 +70,8 @@ export const customerFeedback: Lesson = {
   phrasalVerbs: [
     {
       phrase: 'FOLLOW UP ON',
-      definition: 'Contact a customer again after a complaint or feedback to check if the issue was resolved.',
-      example: 'We always follow up on complaints within 24 hours to make sure the client is happy.',
+      definition: 'To contact someone again to check on something from before.',
+      example: 'I\'m calling to follow up on your complaint from Monday.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/customer-feedback-follow-up-on.png',
     },
     {
@@ -82,26 +82,26 @@ export const customerFeedback: Lesson = {
     },
     {
       phrase: 'TURN [X] INTO',
-      definition: 'Change one thing into something else — for example, turn a complaint into an opportunity.',
-      example: 'We turned a complaint into a case study — the client had a problem, we fixed it, and they became one of our best advocates.',
+      definition: 'To change one thing into something else.',
+      example: 'We can turn this complaint into a chance to help.',
       imageSlug: '/images/turn-x-into.png',
     },
     {
       phrase: 'ASK FOR FEEDBACK',
-      definition: "Request a customer's opinion about their experience.",
-      example: 'We ask for feedback at the end of every project — most clients are happy to share their thoughts.',
+      definition: 'To ask a customer for their opinion about a product or service.',
+      example: 'We ask for feedback after every delivery.',
       imageSlug: '/images/ask-for-feedback.png',
     },
     {
       phrase: 'HANDLE A COMPLAINT',
-      definition: 'Manage and respond to an unhappy customer in a professional way.',
-      example: 'The key to handling a complaint well is to listen, acknowledge the problem, and fix it quickly.',
+      definition: 'To deal with a customer who is unhappy about something.',
+      example: 'Our team can handle a complaint in one day.',
       imageSlug: '/images/handle-a-complaint.png',
     },
     {
       phrase: 'LEAVE A REVIEW',
-      definition: 'Write a public comment on a platform about a product or service.',
-      example: 'We ask happy clients to leave a review on G2 — it helps new customers decide to sign up.',
+      definition: 'To write a public comment online about a product or service.',
+      example: 'Could you leave a review on our website?',
       imageSlug: '/images/leave-a-review.png',
     }
   ],
