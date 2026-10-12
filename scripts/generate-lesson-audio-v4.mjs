@@ -166,6 +166,7 @@ function speakableExample(text) {
   return spellAcronyms(
     text
       .replace(/\[\[([^:\]]+):[^\]]*\]\]/g, '$1')                            // [[word:gloss]] → word
+      .replace(/\b(\d+(?:\.\d+)?)x\b/g, '$1 times')                              // 3.5x → 3.5 times
       .replace(/[.!?]?["”]\s*\/\s*["“]/g, ', or ')                             // "A." / "B." → A, or B
       .replace(/\s+\/\s+/g, ' or ')                                             // a / b → a or b
       .replace(/["“”]/g, '')                                                     // drop quote marks
