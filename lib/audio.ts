@@ -15,7 +15,7 @@ export const AUDIO_BASE = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/'
  * Bumped automatically by scripts/generate-lesson-audio-v4.mjs whenever audio is RE-recorded (--force),
  * so browsers fetch the new recordings instead of old cached copies. Push after it changes.
  */
-export const AUDIO_VERSION = '1';
+export const AUDIO_VERSION = '1791795832984';
 
 /** Add the cache-busting version to an R2 audio URL. */
 export function r2Audio(name: string): string {
