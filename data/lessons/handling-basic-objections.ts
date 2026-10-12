@@ -27,7 +27,7 @@ export const handlingBasicObjections: Lesson = {
       word: 'VALIDATE',
       partOfSpeech: 'verb',
       definition: 'To show that someone\'s worry or feeling is reasonable and understandable.',
-      example: 'The jar of stones helps validate the worry about high cost.',
+      example: 'I understand your worry about the cost, and it is a fair point.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/handling-basic-objections-validate.png',
     },
     {

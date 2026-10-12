@@ -48,14 +48,14 @@ export const closingTheSaleNaturally: Lesson = {
       word: 'STALL',
       partOfSpeech: 'verb',
       definition: 'To stop making progress or delay, or for an engine to suddenly stop.',
-      example: 'His car stalled on the wet road, so he checked his phone.',
+      example: 'The deal stalled when the client stopped answering our emails.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/closing-the-sale-naturally-stall.png',
     },
     {
       word: 'NEXT STEP',
       partOfSpeech: 'phrase',
       definition: 'The action that will happen after a meeting or conversation.',
-      example: 'She stepped onto the next stone while her colleague smiled and watched.',
+      example: 'The next step is to send her the contract today.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/next-step.png',
     },
     {

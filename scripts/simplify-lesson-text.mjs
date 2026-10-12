@@ -145,7 +145,7 @@ ${JSON.stringify(items.map((it) => ({ word: it.title, definition: it.def.text, e
     content.push({ type: 'text', text: `Image for item ${n + 1} (${items[n].title}):` }, block);
   }
   const imgRule = content.length
-    ? `\nSome items have an image (shown above, labelled by item number). For those items, the example MUST match the image: the same people (man/woman, how many), the same action, place and objects. Use "he"/"she" to match the person in the image. Do NOT describe the picture like a caption (no "in the hotel lobby", "the two women", "on his tablet"): write something a salesperson or customer would naturally say, that fits the scene. Items without an image: write a natural example.\n`
+    ? `\nSome items have an image (shown above, labelled by item number). For those items, the example MUST match the image: the same people (man/woman, how many), the same action, place and objects. Use "he"/"she" to match the person in the image. Do NOT describe the picture like a caption (no "in the hotel lobby", "the two women", "on his tablet"): write something a salesperson or customer would naturally say, that fits the scene. Some images are metaphors (e.g. stepping stones for "next step", a bridge for "bridge the gap"): NEVER use the word in a literal sense to describe the picture. Always use it with its meaning from the definition, in a real sales/work situation. Items without an image: write a natural example.\n`
     : '';
   content.push({ type: 'text', text: prompt + imgRule });
   const res = await fetch('https://api.anthropic.com/v1/messages', {

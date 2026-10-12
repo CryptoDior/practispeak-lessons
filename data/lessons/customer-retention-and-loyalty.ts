@@ -20,7 +20,7 @@ export const customerRetentionAndLoyalty: Lesson = {
       word: 'NPS',
       partOfSpeech: 'abbreviation',
       definition: 'A score that shows how likely customers are to recommend a company to others.',
-      example: 'He looked at the NPS survey on his tablet and at the chart on the wall.',
+      example: 'Our NPS went up after we improved customer support.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/nps.png',
     },
     {
@@ -62,7 +62,7 @@ export const customerRetentionAndLoyalty: Lesson = {
       word: 'ONBOARDING',
       partOfSpeech: 'noun',
       definition: 'The process of helping new customers get started with a product or service.',
-      example: 'She smiled and raised her fist when she finished the last step of onboarding.',
+      example: 'Our onboarding helps new customers start using the app in one day.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/customer-retention-and-loyalty-onboarding.png',
     },
   ],
