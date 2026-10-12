@@ -20,6 +20,8 @@
  *   node scripts/generate-lesson-audio-v4.mjs mma-equipment --words-only    (or --examples-only)
  *   node scripts/generate-lesson-audio-v4.mjs --all                         (every lesson on the site)
  *   node scripts/generate-lesson-audio-v4.mjs --all A1-A2                   (every lesson of one level)
+ *
+ * RULE: a lesson is only recorded when ALL its vocabulary and phrase images exist (add --ignore-images to override).
  *   node scripts/generate-lesson-audio-v4.mjs mma-strikes --voices=ID1,ID2  (use only these voices, in turn)
  *   node scripts/generate-lesson-audio-v4.mjs mma-strikes --entries=1,3,5 --force   (remake only words 1, 3 and 5)
  *   add --no-slow to read the words without the [slow] tag (one-off fixes)
@@ -209,6 +211,40 @@ function readEntries(slug) {
   return entries;
 }
 
+/** All vocabulary / phrase image URLs of a lesson. */
+function imageUrlsOf(slug) {
+  const src = readFileSync(join('data', 'lessons', `${slug}.ts`), 'utf8');
+  const urls = [];
+  for (const section of ['vocabulary', 'irlVocabulary', 'phrasalVerbs']) {
+    const start = src.search(new RegExp(`\\n\\s*${section}\\s*:\\s*\\[`));
+    if (start < 0) continue;
+    let i = src.indexOf('[', start), depth = 0, end = i;
+    for (; end < src.length; end++) {
+      if (src[end] === '[') depth++;
+      else if (src[end] === ']' && --depth === 0) break;
+    }
+    for (const m of src.slice(i, end).matchAll(/imageSlug\s*:\s*['"`]([^'"`]+)['"`]/g)) urls.push(m[1]);
+  }
+  return urls;
+}
+
+/** Rule: only record lessons where EVERY vocabulary and phrase image exists. Returns missing count. */
+async function missingImages(slug) {
+  const urls = imageUrlsOf(slug);
+  let missing = 0;
+  for (const u of urls) {
+    if (u.startsWith('/')) {
+      if (!existsSync(join('public', u))) missing++;
+      continue;
+    }
+    try {
+      const r = await fetch(u.split('?')[0], { method: 'HEAD' });
+      if (!r.ok) missing++;
+    } catch { missing++; }
+  }
+  return { missing, total: urls.length };
+}
+
 async function tts(text, voice, settings) {
   const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voice}?output_format=mp3_44100_128`, {
     method: 'POST',
@@ -338,6 +374,13 @@ async function uploadR2(name, buf) {
 let made = 0, skipped = 0, failed = 0, chars = 0;
 
 for (const slug of slugs) {
+  if (!flags.has('--ignore-images')) {
+    const { missing, total } = await missingImages(slug);
+    if (missing) {
+      console.log(`\n⏭️  ${slug}: skipped — ${missing} of ${total} images missing (record it once all images are uploaded)`);
+      continue;
+    }
+  }
   const entries = readEntries(slug);
   const level = levelOf(slug);
   const TAGS = tagsFor(level);
