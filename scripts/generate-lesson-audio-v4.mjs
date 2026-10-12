@@ -9,7 +9,7 @@
  *   <lesson-slug>-<word>-example.mp3   e.g. mma-equipment-canvas-example.mp3
  *
  * Keys (put these lines in .env.local, never in this file):
- *   ELEVENLABS_API_KEY_1=...   (key number 1 is always used)
+ *   ELEVENLABS_API_KEY_2=...   (account 2 is used by default; add --key=1 for account 1)
  *   CF_API_TOKEN=...
  *
  * Run from the project root:
@@ -40,7 +40,9 @@ if (existsSync('.env.local')) {
     if (m && !process.env[m[1]]) process.env[m[1]] = m[2].trim();
   }
 }
-const ELEVEN_KEY = process.env.ELEVENLABS_API_KEY_1; // always use key number 1
+// Which ElevenLabs account to use: key 2 by default, or --key=1 to use account 1
+const KEY_NUM = (process.argv.find((a) => a.startsWith('--key=')) || '--key=2').slice(6);
+const ELEVEN_KEY = process.env[`ELEVENLABS_API_KEY_${KEY_NUM}`];
 const CF_TOKEN = process.env.CF_API_TOKEN;
 
 // ── Settings ──────────────────────────────────────────────────────────────────
@@ -130,7 +132,7 @@ if (!slugs.length) {
   console.error('Give at least one lesson slug, e.g.  node scripts/generate-lesson-audio-v4.mjs mma-equipment');
   process.exit(1);
 }
-if (!DRY && !ELEVEN_KEY) { console.error('ELEVENLABS_API_KEY_1 not found in .env.local'); process.exit(1); }
+if (!DRY && !ELEVEN_KEY) { console.error(`ELEVENLABS_API_KEY_${KEY_NUM} not found in .env.local`); process.exit(1); }
 if (!DRY && !CF_TOKEN) { console.error('Add CF_API_TOKEN=... to .env.local'); process.exit(1); }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -142,7 +144,7 @@ function audioSlugOf(text) {
 /** Acronyms are spelled out letter by letter, e.g. "HR" → "H.R." (v4 may otherwise read HR as a word). */
 const ACRONYMS = ['HR', 'IT', 'CEO', 'CFO', 'CTO', 'PR', 'KPI', 'ROI', 'ID', 'KO', 'TKO', 'UFC', 'MMA', 'PC', 'TV', 'UK', 'USA', 'EU', 'ASAP'];
 function spellAcronyms(text) {
-  return text.replace(new RegExp(`\\b(${ACRONYMS.join('|')})\\b`, 'g'), (m) => m.split('').join('.') + '.');
+  return text.replace(/\bB2B\b/g, 'B to B').replace(/\bB2C\b/g, 'B to C').replace(new RegExp(`\\b(${ACRONYMS.join('|')})\\b`, 'g'), (m) => m.split('').join('.') + '.');
 }
 
 /** Placeholders like [time] or [name]: v4 would treat square brackets as instructions,
