@@ -11,11 +11,22 @@
  */
 export const AUDIO_BASE = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
 
+/**
+ * Bumped automatically by scripts/generate-lesson-audio-v4.mjs whenever audio is RE-recorded (--force),
+ * so browsers fetch the new recordings instead of old cached copies. Push after it changes.
+ */
+export const AUDIO_VERSION = '1';
+
+/** Add the cache-busting version to an R2 audio URL. */
+export function r2Audio(name: string): string {
+  return `${AUDIO_BASE}${name}?v=${AUDIO_VERSION}`;
+}
+
 /** Turn '/audio/x.mp3' (or 'x.mp3') into [R2 url, local fallback url]. Full URLs are used as-is. */
 export function audioSources(path: string): string[] {
   if (/^https?:\/\//.test(path)) return [path];
   const name = path.replace(/^\/+/, '').replace(/^audio\//, '');
-  return [AUDIO_BASE + name, '/audio/' + name];
+  return [r2Audio(name), '/audio/' + name];
 }
 
 /** Play the first source that works. Calls onDone when finished or when nothing could play. */

@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import ImageLightbox from '@/components/ImageLightbox';
-import { AUDIO_BASE } from '@/lib/audio';
+import { r2Audio } from '@/lib/audio';
 
 /**
  * Word title that never breaks mid-word: multi-word terms wrap at spaces,
@@ -160,7 +160,7 @@ export default function WordEntryCard({
   // Try R2 first (lesson-specific, then shared names), then the old local /audio files.
   const r2Bases = [...(lessonSlug ? [`${lessonSlug}-${audioSlugOf(title)}`] : []), ...audioSlugs];
   const srcsFor = (suffix: string) => [
-    ...r2Bases.map((s) => `${AUDIO_BASE}${s}${suffix}.mp3`),
+    ...r2Bases.map((s) => r2Audio(`${s}${suffix}.mp3`)),
     ...audioSlugs.map((s) => `/audio/${s}${suffix}.mp3`),
   ];
   const wordSrcs = srcsFor('');
