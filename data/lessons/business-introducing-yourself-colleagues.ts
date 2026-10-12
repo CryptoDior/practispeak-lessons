@@ -79,7 +79,7 @@ export const businessIntroducingYourselfColleagues: Lesson = {
       phrase: 'Hello, my name is...',
       tag: 'phrase',
       definition: 'Use this to say your name for the first time when meeting someone.',
-      example: '"Hello, my name is Anna."',
+      example: '"Hello, my name is Robert."',
       inAction:
         'Use your first name in friendly situations. Use your full name in more formal situations.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-hello-my-name-is.png',
