@@ -1,12 +1,27 @@
 'use client';
 import { useState } from 'react';
 import { ReadingPassage, ProductionPrompt } from '@/types/lesson';
+import { audioSources } from '@/lib/audio';
 
 const WAVEFORM = [4, 7, 12, 8, 14, 6, 10, 16, 9, 13, 5, 11, 8, 14, 7, 10, 5, 12, 8, 6];
 
 function PassagePlayer({ src }: { src: string }) {
   const [playing, setPlaying] = useState(false);
-  const [audio] = useState(() => typeof window !== 'undefined' ? new Audio(src) : null);
+  // Try R2 first, then the old local file
+  const [audio] = useState(() => {
+    if (typeof window === 'undefined') return null;
+    const srcs = audioSources(src);
+    const a = new Audio(srcs[0]);
+    let idx = 0;
+    a.addEventListener('error', () => {
+      if (idx + 1 < srcs.length) {
+        idx += 1;
+        a.src = srcs[idx];
+        a.play().catch(() => {});
+      }
+    });
+    return a;
+  });
 
   const toggle = () => {
     if (!audio) return;

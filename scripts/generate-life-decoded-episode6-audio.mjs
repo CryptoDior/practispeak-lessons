@@ -45,14 +45,15 @@ import path from 'path';
 import https from 'https';
 import { execSync } from 'child_process';
 
-const ELEVENLABS_KEY = process.env.ELEVENLABS_API_KEY;
+// Pick the account: set ELEVENLABS_ACCOUNT=1 or 2 in .env.local (default 1) (uses ELEVENLABS_API_KEY_1 / _2); falls back to ELEVENLABS_API_KEY.
+const ELEVENLABS_KEY = (process.env['ELEVENLABS_API_KEY_' + (process.env.ELEVENLABS_ACCOUNT || '1')]) || process.env.ELEVENLABS_API_KEY;
 if (!ELEVENLABS_KEY) {
   console.error('Missing ELEVENLABS_API_KEY. Run with: node --env-file=.env.local scripts/generate-life-decoded-episode6-audio.mjs');
   process.exit(1);
 }
 
 const VOICES = {
-  TYLA: 'dVoi15NNDJligFBwnVO0',   // Joanna — Warm & Upbeat (same voice used for "Naledi" in this series)
+  TYLA: 'ZF6FPAbjXT4488VcRRnw',  // standard host voice (same as Naledi in The Business Brief)
   MICHAEL: 'vDchjyOZZytffNeZXfZK', // Mike — Natural and Engaging Podcast Host
 };
 

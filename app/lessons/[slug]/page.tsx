@@ -1,4 +1,5 @@
 'use client';
+import { audioSources, playFirstWorking } from '@/lib/audio';
 import { useState, useCallback } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -400,7 +401,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
             instruction={lesson.vocabulary.some(w => w.partOfSpeech === 'abbreviation') ? 'Listen to the audio for the full abbreviation' : undefined}
           />
           <div className="flex flex-col gap-4">
-            {lesson.vocabulary.map((word, i) => <VocabCard key={word.word} word={word} index={i} />)}
+            {lesson.vocabulary.map((word, i) => <VocabCard key={word.word} word={word} index={i} lessonSlug={lesson.slug} />)}
           </div>
           <OrnamentDivider />
         </section>
@@ -413,7 +414,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
               subtitle={`${lesson.irlVocabulary.length} words — what they mean in real life`}
             />
             <div className="flex flex-col gap-4">
-              {lesson.irlVocabulary.map((word, i) => <VocabCard key={`irl-${word.word}`} word={word} index={i} />)}
+              {lesson.irlVocabulary.map((word, i) => <VocabCard key={`irl-${word.word}`} word={word} index={i} lessonSlug={lesson.slug} />)}
             </div>
           </section>
         )}
@@ -441,7 +442,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
             subtitle={`${lesson.phrasalVerbs.length} ${TABS[wo + pos + irl + gf + 1].toLowerCase()} and their meanings`}
           />
           <div className="flex flex-col gap-4">
-            {lesson.phrasalVerbs.map((verb, i) => <PhrasalVerbCard key={verb.phrase} verb={verb} index={i} />)}
+            {lesson.phrasalVerbs.map((verb, i) => <PhrasalVerbCard key={verb.phrase} verb={verb} index={i} lessonSlug={lesson.slug} />)}
           </div>
           <OrnamentDivider />
         </section>
@@ -781,11 +782,8 @@ const SCENARIO_WAVEFORM = [4, 7, 12, 8, 14, 6, 10, 16, 9, 13, 5, 11, 8, 14, 7, 1
 function ScenarioAudioPlayer({ src }: { src: string }) {
   const [playing, setPlaying] = useState(false);
   const toggle = () => {
-    const audio = new Audio(src);
     setPlaying(true);
-    audio.onended = () => setPlaying(false);
-    audio.onerror = () => setPlaying(false);
-    audio.play().catch(() => setPlaying(false));
+    playFirstWorking(audioSources(src), () => setPlaying(false));
   };
   return (
     <button onClick={toggle} className="flex items-center gap-3 group w-full text-left">

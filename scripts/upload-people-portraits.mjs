@@ -1,5 +1,5 @@
 /**
- * Upload all images in a folder (including subfolders) to Cloudflare R2.
+ * Upload all images and mp3 audio in a folder (including subfolders) to Cloudflare R2.
  * Token: put a line  CF_API_TOKEN=your_token  in .env.local (git-ignored),
  * or set $env:CF_API_TOKEN in PowerShell.
  * Run from the project root:
@@ -38,8 +38,8 @@ function walk(dir) {
 }
 
 const FORCE = process.argv.includes('--force');
-const files = walk(FOLDER).filter(f => /\.(png|jpg|jpeg|webp)$/i.test(f));
-console.log(`Found ${files.length} image(s)...\n`);
+const files = walk(FOLDER).filter(f => /\.(png|jpg|jpeg|webp|mp3)$/i.test(f));
+console.log(`Found ${files.length} file(s)...\n`);
 
 let uploaded = 0, skipped = 0;
 for (const path of files) {
@@ -59,7 +59,7 @@ for (const path of files) {
   }
 
   const ext = file.split('.').pop().toLowerCase();
-  const contentType = ext === 'jpg' || ext === 'jpeg' ? 'image/jpeg' : ext === 'webp' ? 'image/webp' : 'image/png';
+  const contentType = ext === 'jpg' || ext === 'jpeg' ? 'image/jpeg' : ext === 'webp' ? 'image/webp' : ext === 'mp3' ? 'audio/mpeg' : 'image/png';
   const url = `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/r2/buckets/${BUCKET}/objects/${file}`;
 
   const res = await fetch(url, {

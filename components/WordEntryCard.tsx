@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import ImageLightbox from '@/components/ImageLightbox';
+import { AUDIO_BASE } from '@/lib/audio';
 
 /**
  * Word title that never breaks mid-word: multi-word terms wrap at spaces,
@@ -137,9 +138,11 @@ export interface WordEntryProps {
   inGame?: string;
   inRealLife?: string;
   imageSlug: string;
-  /** candidate basenames for /audio/{slug}.mp3 and /audio/{slug}-example.mp3, tried in order */
+  /** candidate basenames for {slug}.mp3 and {slug}-example.mp3, tried in order */
   audioSlugs: string[];
   listenLabel: string;
+  /** lesson slug, so lesson-specific audio ({lesson}-{word}.mp3) is tried first */
+  lessonSlug?: string;
 }
 
 export default function WordEntryCard({
@@ -152,9 +155,16 @@ export default function WordEntryCard({
   imageSlug,
   audioSlugs,
   listenLabel,
+  lessonSlug,
 }: WordEntryProps) {
-  const wordSrcs = audioSlugs.map((s) => `/audio/${s}.mp3`);
-  const exampleSrcs = audioSlugs.map((s) => `/audio/${s}-example.mp3`);
+  // Try R2 first (lesson-specific, then shared names), then the old local /audio files.
+  const r2Bases = [...(lessonSlug ? [`${lessonSlug}-${audioSlugOf(title)}`] : []), ...audioSlugs];
+  const srcsFor = (suffix: string) => [
+    ...r2Bases.map((s) => `${AUDIO_BASE}${s}${suffix}.mp3`),
+    ...audioSlugs.map((s) => `/audio/${s}${suffix}.mp3`),
+  ];
+  const wordSrcs = srcsFor('');
+  const exampleSrcs = srcsFor('-example');
   const [imgSrc, setImgSrc] = useState(imageSlug);
   const [imgFailed, setImgFailed] = useState(false);
   const [expanded, setExpanded] = useState(false);
