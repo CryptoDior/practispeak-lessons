@@ -55,7 +55,7 @@ export const businessIntroducingYourselfColleagues: Lesson = {
       word: 'SALES MANAGER',
       partOfSpeech: 'noun',
       definition: 'A person who is the boss of the sales team.',
-      example: 'She is the new sales manager in our company.',
+      example: 'He is the new sales manager in our company.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/introducing-colleagues-sales-manager.png',
     },
     {
