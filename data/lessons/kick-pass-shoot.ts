@@ -61,8 +61,8 @@ export const kickPassShoot: Lesson = {
     {
       word: 'VOLLEY',
       partOfSpeech: 'noun / verb',
-      definition: 'To kick the ball before it touches the ground. / A kick like this.',
-      example: 'She hit a volley in front of a packed stadium and it flew past the goalkeeper.',
+      definition: 'A volley is a kick of the ball before it touches the ground.',
+      example: 'He scored with a great volley.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kick-pass-shoot-volley.png',
     },
   ],
@@ -76,8 +76,8 @@ export const kickPassShoot: Lesson = {
     },
     {
       phrase: 'WITH YOUR LEFT FOOT',
-      definition: 'Using the left foot to kick or pass.',
-      example: 'He shot with his left foot in the rain and the ball went into the bottom corner.',
+      definition: 'Using your left foot to kick or pass the ball.',
+      example: 'I can only kick the ball with my left foot.',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/with-your-left-foot.png',
     },
     {
