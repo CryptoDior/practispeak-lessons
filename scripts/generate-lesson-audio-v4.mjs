@@ -77,6 +77,24 @@ const DEFAULT_VOICES = [
 ];
 let VOICES = [...DEFAULT_VOICES]; // default rotation; override with --voices=id1,id2
 
+// Gender of each known voice (used by voice plans: scripts/voice-plans/<lesson>.json)
+const VOICE_GENDER = {
+  'n8kTUi6dVrplENT9Un56': 'M', 'vCZXQeSML7qJRTiADoTW': 'F', 'EkK5I93UQWFDigLMpZcX': 'M',
+  'l4Coq6695JDX9xtLqXDE': 'F', '1SM7GgM6IMuvQlz2BwM3': 'M', 'aMSt68OGf4xUZAnLpTU8': 'F',
+  'uHoisgHFfUYZ3FULxcdM': 'M', 'bGz4A6rl9U05wqaE3qt1': 'F', 'JBFqnCBsd6RMkjVDRZzb': 'M',
+  'Tfv2PGiTliSQ4XSXrJmA': 'F',
+};
+/** Voice of the given gender for word number n (same word → same voice every run). */
+function voiceOf(g, n) {
+  let pool = VOICES.filter((v) => VOICE_GENDER[v] === g);
+  if (!pool.length) pool = DEFAULT_VOICES.filter((v) => VOICE_GENDER[v] === g && !BANNED_VOICES.has(v));
+  return pool[n % pool.length];
+}
+function loadPlan(slug) {
+  const f = join('scripts', 'voice-plans', `${slug}.json`);
+  return existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : null;
+}
+
 // Local copies: Downloads\Lesson Audio\<lesson-slug>\
 const AUDIO_ROOT = join(homedir(), 'Downloads', 'Lesson Audio');
 
@@ -121,6 +139,12 @@ function audioSlugOf(text) {
   return text.toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 }
 
+/** Acronyms are spelled out letter by letter, e.g. "HR" → "H.R." (v4 may otherwise read HR as a word). */
+const ACRONYMS = ['HR', 'IT', 'CEO', 'CFO', 'CTO', 'PR', 'KPI', 'ROI', 'ID', 'KO', 'TKO', 'UFC', 'MMA', 'PC', 'TV', 'UK', 'USA', 'EU', 'ASAP'];
+function spellAcronyms(text) {
+  return text.replace(new RegExp(`\\b(${ACRONYMS.join('|')})\\b`, 'g'), (m) => m.split('').join('.') + '.');
+}
+
 /** Placeholders like [time] or [name]: v4 would treat square brackets as instructions,
  *  so they become a short pause ("…") instead. */
 function placeholdersToPause(text) {
@@ -130,22 +154,24 @@ function placeholdersToPause(text) {
 /** "SOFA / COUCH" → "sofa or couch". Lower-case so all-caps words aren't spelled out letter by letter. */
 function speakableWord(text) {
   return placeholdersToPause(
-    text.replace(/…|\.\.\./g, '').replace(/[.!?]?\s*\/\s*/g, ' or ').trim().toLowerCase(),
+    spellAcronyms(text.replace(/…|\.\.\./g, '').replace(/[.!?]?\s*\/\s*/g, ' or ').trim().toLowerCase().replace(/\b(hr|it|ceo|cfo|cto|pr|kpi|roi|ko|tko|ufc|mma|pc|tv|uk|usa|eu|asap)\b/g, (m) => m.toUpperCase())),
   );
 }
 
 function speakableExample(text) {
-  return text
-    .replace(/\[\[([^:\]]+):[^\]]*\]\]/g, '$1')       // [[word:gloss]] → word
-    .replace(/[.!?]?["”]\s*\/\s*["“]/g, ', or ')        // "A." / "B."  → A, or B
-    .replace(/\s+\/\s+/g, ' or ')                        // a / b        → a or b
-    .replace(/["“”]/g, '')                                // drop remaining quote marks
-    .replace(/, or ([A-Z])(?=[a-z])/g, (m, c) => `, or ${c.toLowerCase()}`) // ", or This" → ", or this"
-    .replace(/\s*→\s*/g, ' ')                             // "Question? → Answer." → "Question? Answer."
-    .replace(/(^|\s)[A-D]:\s/g, '$1')                     // drop speaker labels like "A: " / "B: "
-    .replace(/\s{2,}/g, ' ')
-    .trim()
-    .replace(/\[[^\]]*\]/g, (m) => placeholdersToPause(m));
+  return spellAcronyms(
+    text
+      .replace(/\[\[([^:\]]+):[^\]]*\]\]/g, '$1')                            // [[word:gloss]] → word
+      .replace(/[.!?]?["”]\s*\/\s*["“]/g, ', or ')                             // "A." / "B." → A, or B
+      .replace(/\s+\/\s+/g, ' or ')                                             // a / b → a or b
+      .replace(/["“”]/g, '')                                                     // drop quote marks
+      .replace(/, or ([A-Z])(?=[a-z])/g, (m, c) => `, or ${c.toLowerCase()}`)   // ", or This" → ", or this"
+      .replace(/\s*→\s*/g, ' ')                                                  // drop arrows
+      .replace(/(^|\s)[A-D]:\s/g, '$1')                                          // drop "A: " / "B: " labels
+      .replace(/\[[^\]]*\]/g, (m) => placeholdersToPause(m))                    // [name] → pause
+      .replace(/\s{2,}/g, ' ')
+      .trim(),
+  );
 }
 
 /** Pull (title, example) pairs from the vocabulary / irlVocabulary / phrasalVerbs arrays of a lesson file. */
@@ -250,9 +276,14 @@ for (const slug of slugs) {
   const outDir = join(AUDIO_ROOT, slug);
   if (!DRY) mkdirSync(outDir, { recursive: true });
 
+  const plan = loadPlan(slug);
+  if (plan) console.log('   🎭 using voice plan (voices matched to images)');
   for (const [n, e] of entries.entries()) {
     if (ONLY && !ONLY.has(n + 1)) continue;
-    const voice = VOICES[n % VOICES.length];
+    const p = plan && plan[String(n + 1)];
+    const planA = p ? voiceOf(typeof p === 'string' ? p : p.A, n) : null;
+    const planB = p && typeof p === 'object' ? voiceOf(p.B, n + 1) : null;
+    const voice = planA || VOICES[n % VOICES.length];
     const base = `${slug}-${audioSlugOf(e.title)}`;
     const jobs = [];
     if (WORDS) jobs.push({ name: `${base}.mp3`, text: `${TAGS.word} ${speakableWord(e.title)}`.trim(), settings: WORD_SETTINGS });
@@ -260,7 +291,7 @@ for (const slug of slugs) {
       const turns = dialogueTurns(e.example);
       if (turns) {
         // Question → answer / A: B: conversations get two different voices
-        const partner = partnerVoice(voice, n);
+        const partner = planB && planB !== voice ? planB : partnerVoice(voice, n);
         const inputs = turns.map((t) => ({
           text: `${TAGS.example} ${speakableExample(t.text)}`.trim(),
           voice_id: t.speaker === 'A' || t.speaker === 'C' ? voice : partner,
@@ -274,7 +305,7 @@ for (const slug of slugs) {
     for (const job of jobs) {
       const local = join(outDir, job.name);
       if (!FORCE && existsSync(local)) { skipped++; continue; }
-      if (DRY) { console.log(`  • ${job.name}${job.inputs ? ' [2 voices]' : ''}  ←  "${job.text}"`); chars += job.text.length; continue; }
+      if (DRY) { const g = job.inputs ? job.inputs.map((x) => VOICE_GENDER[x.voice_id] || '?').join('→') : (VOICE_GENDER[voice] || '?'); console.log(`  • ${job.name} [${g}]  ←  "${job.text}"`); chars += job.text.length; continue; }
       try {
         const buf = job.inputs ? await dialogue(job.inputs, job.settings) : await tts(job.text, voice, job.settings);
         writeFileSync(local, buf);
