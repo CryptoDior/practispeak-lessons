@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { ReadingPassage, ProductionPrompt } from '@/types/lesson';
-import { audioSources } from '@/lib/audio';
+import { audioSources, claimAudio } from '@/lib/audio';
 
 const WAVEFORM = [4, 7, 12, 8, 14, 6, 10, 16, 9, 13, 5, 11, 8, 14, 7, 10, 5, 12, 8, 6];
 
@@ -30,6 +30,8 @@ function PassagePlayer({ src }: { src: string }) {
       audio.currentTime = 0;
       setPlaying(false);
     } else {
+      claimAudio(audio); // stop any other sound on the page
+      audio.addEventListener('stopped', () => { audio.currentTime = 0; setPlaying(false); });
       setPlaying(true);
       audio.onended = () => setPlaying(false);
       audio.onerror = () => setPlaying(false);
