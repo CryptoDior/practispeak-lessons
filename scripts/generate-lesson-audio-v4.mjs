@@ -63,7 +63,7 @@ const BANNED_VOICES = new Set([
   'ZF6FPAbjXT4488VcRRnw', // makes throat-clearing sounds
 ]);
 
-let VOICES = [ // default rotation; override with --voices=id1,id2
+const DEFAULT_VOICES = [
   'n8kTUi6dVrplENT9Un56', // male narrator
   'vCZXQeSML7qJRTiADoTW', // female narrator
   'EkK5I93UQWFDigLMpZcX', // JM Husk — male
@@ -75,6 +75,7 @@ let VOICES = [ // default rotation; override with --voices=id1,id2
   'JBFqnCBsd6RMkjVDRZzb', // George  — male
   'Tfv2PGiTliSQ4XSXrJmA', // female general
 ];
+let VOICES = [...DEFAULT_VOICES]; // default rotation; override with --voices=id1,id2
 
 // Local copies: Downloads\Lesson Audio\<lesson-slug>\
 const AUDIO_ROOT = join(homedir(), 'Downloads', 'Lesson Audio');
@@ -190,6 +191,45 @@ async function tts(text, voice, settings) {
   return Buffer.from(await res.arrayBuffer());
 }
 
+/** Split a question/answer or A:/B: example into speaker turns. Returns null for normal sentences. */
+function dialogueTurns(raw) {
+  if (/(^|\s)[A-D]:\s/.test(raw)) {
+    const parts = raw.split(/(?:^|\s)([A-D]):\s/).slice(1); // [label, text, label, text, ...]
+    const turns = [];
+    for (let i = 0; i < parts.length; i += 2) turns.push({ speaker: parts[i], text: parts[i + 1] });
+    return turns.length > 1 ? turns : null;
+  }
+  if (raw.includes('→')) {
+    const parts = raw.split('→').map((t) => t.trim()).filter(Boolean);
+    return parts.length > 1 ? parts.map((text, i) => ({ speaker: i % 2 ? 'B' : 'A', text })) : null;
+  }
+  return null;
+}
+
+/** Second voice for dialogues: the next voice in the rotation, or a default one if only one voice is set. */
+function partnerVoice(voice, n) {
+  const pool = VOICES.length > 1 ? VOICES : DEFAULT_VOICES.filter((v) => !BANNED_VOICES.has(v));
+  for (let k = 1; k <= pool.length; k++) {
+    const v = pool[(n + k) % pool.length];
+    if (v !== voice) return v;
+  }
+  return voice;
+}
+
+async function dialogue(inputs, settings) {
+  const res = await fetch('https://api.elevenlabs.io/v1/text-to-dialogue?output_format=mp3_44100_128', {
+    method: 'POST',
+    headers: { 'xi-api-key': ELEVEN_KEY, 'Content-Type': 'application/json', Accept: 'audio/mpeg' },
+    body: JSON.stringify({
+      inputs,
+      model_id: MODEL,
+      settings: { stability: settings.stability, similarity: settings.similarity_boost },
+    }),
+  });
+  if (!res.ok) throw new Error(`ElevenLabs dialogue ${res.status}: ${await res.text()}`);
+  return Buffer.from(await res.arrayBuffer());
+}
+
 async function uploadR2(name, buf) {
   const res = await fetch(
     `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/r2/buckets/${BUCKET}/objects/${name}`,
@@ -216,14 +256,27 @@ for (const slug of slugs) {
     const base = `${slug}-${audioSlugOf(e.title)}`;
     const jobs = [];
     if (WORDS) jobs.push({ name: `${base}.mp3`, text: `${TAGS.word} ${speakableWord(e.title)}`.trim(), settings: WORD_SETTINGS });
-    if (EXAMPLES) jobs.push({ name: `${base}-example.mp3`, text: `${TAGS.example} ${speakableExample(e.example)}`.trim(), settings: EXAMPLE_SETTINGS });
+    if (EXAMPLES) {
+      const turns = dialogueTurns(e.example);
+      if (turns) {
+        // Question → answer / A: B: conversations get two different voices
+        const partner = partnerVoice(voice, n);
+        const inputs = turns.map((t) => ({
+          text: `${TAGS.example} ${speakableExample(t.text)}`.trim(),
+          voice_id: t.speaker === 'A' || t.speaker === 'C' ? voice : partner,
+        }));
+        jobs.push({ name: `${base}-example.mp3`, inputs, text: inputs.map((x) => x.text).join(' | '), settings: EXAMPLE_SETTINGS });
+      } else {
+        jobs.push({ name: `${base}-example.mp3`, text: `${TAGS.example} ${speakableExample(e.example)}`.trim(), settings: EXAMPLE_SETTINGS });
+      }
+    }
 
     for (const job of jobs) {
       const local = join(outDir, job.name);
       if (!FORCE && existsSync(local)) { skipped++; continue; }
-      if (DRY) { console.log(`  • ${job.name}  ←  "${job.text}"`); chars += job.text.length; continue; }
+      if (DRY) { console.log(`  • ${job.name}${job.inputs ? ' [2 voices]' : ''}  ←  "${job.text}"`); chars += job.text.length; continue; }
       try {
-        const buf = await tts(job.text, voice, job.settings);
+        const buf = job.inputs ? await dialogue(job.inputs, job.settings) : await tts(job.text, voice, job.settings);
         writeFileSync(local, buf);
         await uploadR2(job.name, buf);
         chars += job.text.length;
