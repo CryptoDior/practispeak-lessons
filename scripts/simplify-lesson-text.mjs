@@ -124,7 +124,7 @@ async function rewrite(level, items, topic) {
   const prompt = `You write vocabulary cards for an English-learning website.
 For each item, write:
 - "definition": ONE short, simple sentence that explains what the word or phrase means. Maximum ${MAX_WORDS} words. No long explanations, no teaching advice.
-- "example": ONE short, natural sentence that USES the word or phrase. Maximum ${MAX_WORDS} words. No stories, no narrator, no reported speech (never "X said:"), no names unless needed.
+- "example": ONE short, natural sentence that USES the word or phrase. Aim for 6-12 words, maximum ${MAX_WORDS}. ONE idea only: no second clause that explains or repeats the meaning (no "because...", "which means...", "and it keeps...", "so..."). No stories, no narrator, no reported speech (never "X said:"), no names unless needed.
 This is an ENGLISH lesson, not a sales or business course: never give tips, advice or coaching to the reader (no "always...", "you should...", "your job is...", "make sure..."). Just show the word used naturally in an everyday work situation. Avoid dashes; use one simple sentence.
 Definitions explain only what the word means, in plain everyday English, like a learner's dictionary. No extra detail about strategy or best practice.
 ${levelRule}
