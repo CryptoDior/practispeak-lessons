@@ -234,6 +234,50 @@ function dialogueTurns(raw) {
   return null;
 }
 
+/**
+ * Story-style examples ("Marcus called Riley and said: I want… Riley said: Perfect…").
+ * Splits them into narrator parts and character speech. cast = { narrator: voiceId, Riley: voiceId, … }.
+ * Returns null when the example has no "…: " speech in it.
+ */
+function narrativeTurns(raw, cast) {
+  if (!raw.includes(':')) return null;
+  const names = Object.keys(cast).filter((n) => n !== 'narrator');
+  const femaleName = names.find((n) => VOICE_GENDER[cast[n]] === 'F');
+  const maleName = names.find((n) => VOICE_GENDER[cast[n]] === 'M');
+  const speakerOf = (clause) => {
+    const m = clause.match(new RegExp(`\\b(${[...names, 'she', 'She', 'he', 'He'].join('|')})\\b`));
+    if (!m) return null;
+    if (/^she$/i.test(m[1])) return femaleName;
+    if (/^he$/i.test(m[1])) return maleName;
+    return m[1];
+  };
+  const sentences = raw.split(/(?<=[.!?])\s+/);
+  const turns = [];
+  const add = (who, text) => {
+    text = text.trim();
+    if (!text) return;
+    const last = turns[turns.length - 1];
+    if (last && last.who === who) last.text += ' ' + text;
+    else turns.push({ who, text });
+  };
+  let current = null; // speaker while inside speech
+  for (const sen of sentences) {
+    const i = sen.indexOf(':');
+    if (i > 0) {
+      const before = sen.slice(0, i);
+      const who = speakerOf(before);
+      if (who) {
+        add('narrator', before);
+        add(who, sen.slice(i + 1));
+        current = who;
+        continue;
+      }
+    }
+    add(current || 'narrator', sen);
+  }
+  return turns.length > 1 ? turns : null;
+}
+
 /** Second voice for dialogues: the next voice in the rotation, or a default one if only one voice is set. */
 function partnerVoice(voice, n) {
   const pool = VOICES.length > 1 ? VOICES : DEFAULT_VOICES.filter((v) => !BANNED_VOICES.has(v));
@@ -313,7 +357,15 @@ for (const slug of slugs) {
     const base = `${slug}-${audioSlugOf(e.title)}`;
     const jobs = [];
     if (WORDS) jobs.push({ name: `${base}.mp3`, text: `${TAGS.word} ${speakableWord(e.title)}`.trim(), settings: WORD_SETTINGS });
-    if (EXAMPLES) {
+    const story = plan && plan._cast ? narrativeTurns(e.example, plan._cast) : null;
+    if (EXAMPLES && story) {
+      // Narrator + characters, each in their own voice
+      const inputs = story.map((t) => ({
+        text: `${TAGS.example} ${speakableExample(t.text)}`.trim(),
+        voice_id: plan._cast[t.who] || plan._cast.narrator,
+      }));
+      jobs.push({ name: `${base}-example.mp3`, inputs, text: story.map((t) => `${t.who}: ${t.text}`).join(' | '), settings: EXAMPLE_SETTINGS });
+    } else if (EXAMPLES) {
       const turns = dialogueTurns(e.example);
       if (turns) {
         // Question → answer / A: B: conversations get two different voices
