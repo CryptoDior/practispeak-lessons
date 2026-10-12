@@ -258,6 +258,30 @@ async function dialogue(inputs, settings) {
   return Buffer.from(await res.arrayBuffer());
 }
 
+// Voices that are missing from the ElevenLabs account in use (filled in automatically on "voice_not_found").
+const MISSING_VOICES = new Set();
+/** Same-gender replacement for a voice that is not on this account. */
+function replacementFor(v) {
+  const g = VOICE_GENDER[v];
+  return DEFAULT_VOICES.find((x) => x !== v && !MISSING_VOICES.has(x) && !BANNED_VOICES.has(x) && (!g || VOICE_GENDER[x] === g));
+}
+/** Generate audio; if a voice is not on this account, swap it for another voice of the same gender and retry. */
+async function withFallback(job, voice) {
+  for (let attempt = 0; attempt < 6; attempt++) {
+    const fix = (v) => (MISSING_VOICES.has(v) ? replacementFor(v) : v);
+    try {
+      if (job.inputs) return await dialogue(job.inputs.map((x) => ({ ...x, voice_id: fix(x.voice_id) })), job.settings);
+      return await tts(job.text, fix(voice), job.settings);
+    } catch (err) {
+      const m = String(err.message).match(/voice_id '([A-Za-z0-9]+)' was not found/);
+      if (!m) throw err;
+      if (!MISSING_VOICES.has(m[1])) console.warn(`  ⚠️  Voice ${m[1]} is not on this ElevenLabs account — using another ${VOICE_GENDER[m[1]] === 'F' ? 'female' : VOICE_GENDER[m[1]] === 'M' ? 'male' : 'similar'} voice instead.`);
+      MISSING_VOICES.add(m[1]);
+    }
+  }
+  throw new Error('No available voice found on this account');
+}
+
 async function uploadR2(name, buf) {
   const res = await fetch(
     `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/r2/buckets/${BUCKET}/objects/${name}`,
@@ -309,7 +333,7 @@ for (const slug of slugs) {
       if (!FORCE && existsSync(local)) { skipped++; continue; }
       if (DRY) { const g = job.inputs ? job.inputs.map((x) => VOICE_GENDER[x.voice_id] || '?').join('→') : (VOICE_GENDER[voice] || '?'); console.log(`  • ${job.name} [${g}]  ←  "${job.text}"`); chars += job.text.length; continue; }
       try {
-        const buf = job.inputs ? await dialogue(job.inputs, job.settings) : await tts(job.text, voice, job.settings);
+        const buf = await withFallback(job, voice);
         writeFileSync(local, buf);
         await uploadR2(job.name, buf);
         chars += job.text.length;
