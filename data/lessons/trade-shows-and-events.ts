@@ -125,7 +125,7 @@ export const tradeShowsAndEvents: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Yes — at a trade show, a [[pitch:short persuasive presentation]] should be no more than two minutes. [[delegate:a person who attends a conference or trade show]] s are busy — you need to capture their interest fast, then ask a question to start a conversation.',
+      text: 'Yes — at a trade show, a [[pitch:short persuasive presentation]] should be no more than two minutes. [[Delegate:a person who attends a conference or trade show]] s are busy — you need to capture their interest fast, then ask a question to start a conversation.',
     },
     {
       speaker: 'Dana',

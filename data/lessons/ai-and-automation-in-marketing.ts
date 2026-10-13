@@ -155,19 +155,19 @@ export const aiAndAutomationInMarketing: Lesson = {
       speaker: 'Marcus',
       speakerColor: 'purple',
       speakerAvatar: '/images/marcus-icon.png',
-      text: "We are six months into our AI programme and I want to take stock. What is working, what is not, and where do we need better [[ai governance:the rules and processes that ensure AI is used responsibly and in line with legal and brand standards]]? Riley, start with what is working.",
+      text: "We are six months into our AI programme and I want to take stock. What is working, what is not, and where do we need better [[AI governance:the rules and processes that ensure AI is used responsibly and in line with legal and brand standards]]? Riley, start with what is working.",
     },
     {
       speaker: 'Riley',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: "[[generative ai:AI that creates new content — text, images, or video — based on patterns learned from data]] is working well for high-volume structured tasks. Ad copy — twelve out of twenty-four versions are ready to test with no edits. Email subject lines — open rates up 14% versus our control. [[workflow automation:using technology to complete a series of tasks automatically without manual triggering]] has removed about eight hours of manual work per week from the content team.",
+      text: "[[Generative AI:AI that creates new content — text, images, or video — based on patterns learned from data]] is working well for high-volume structured tasks. Ad copy — twelve out of twenty-four versions are ready to test with no edits. Email subject lines — open rates up 14% versus our control. [[Workflow automation:using technology to complete a series of tasks automatically without manual triggering]] has removed about eight hours of manual work per week from the content team.",
     },
     {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: "[[predictive personalisation:using AI to predict what a customer will want to see or buy next]] is delivering the biggest commercial result. The homepage now converts at 2.8 times the rate of the old generic version. [[dynamic content:content that changes automatically based on who is viewing it]] across the email programme has lifted engagement across all segments.",
+      text: "[[Predictive personalisation:using AI to predict what a customer will want to see or buy next]] is delivering the biggest commercial result. The homepage now converts at 2.8 times the rate of the old generic version. [[Dynamic content:content that changes automatically based on who is viewing it]] across the email programme has lifted engagement across all segments.",
     },
     {
       speaker: 'Marcus',

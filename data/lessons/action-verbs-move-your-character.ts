@@ -159,7 +159,7 @@ export const actionVerbsMoveYourCharacter: Lesson = {
       speaker: 'Coach',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-gamer-icon.png',
-      text: 'OK everyone, tutorial time! [[press:to push a button on the controller]] the A button to start.',
+      text: 'OK everyone, tutorial time! [[Press:to push a button on the controller]] the A button to start.',
     },
     {
       speaker: 'Player',
@@ -171,7 +171,7 @@ export const actionVerbsMoveYourCharacter: Lesson = {
       speaker: 'Coach',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-gamer-icon.png',
-      text: '[[jump:to leap upward or over something]] over that wall — press and hold A!',
+      text: '[[Jump:to leap upward or over something]] over that wall — press and hold A!',
     },
     {
       speaker: 'Player',
@@ -183,7 +183,7 @@ export const actionVerbsMoveYourCharacter: Lesson = {
       speaker: 'Coach',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-gamer-icon.png',
-      text: '[[dodge:to quickly move out of the way of an attack]] left, then [[crouch:to lower your body to hide or avoid hits]] behind the big rock. Quickly!',
+      text: '[[Dodge:to quickly move out of the way of an attack]] left, then [[crouch:to lower your body to hide or avoid hits]] behind the big rock. Quickly!',
     },
     {
       speaker: 'Player',

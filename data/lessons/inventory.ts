@@ -195,7 +195,7 @@ export const inventory: Lesson = {
       speaker: 'Zara',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/zara-icon.png',
-      text: "Drop the weaker [[weapon:a tool you use to fight]]s and [[equip:to put on or activate an item]] the new ones. [[stack:multiple copies stored in one slot]] the ammo — that frees up slots.",
+      text: "Drop the weaker [[weapon:a tool you use to fight]]s and [[equip:to put on or activate an item]] the new ones. [[Stack:multiple copies stored in one slot]] the ammo — that frees up slots.",
     },
   ],
 

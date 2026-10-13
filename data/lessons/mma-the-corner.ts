@@ -119,7 +119,7 @@ export const mmaTheCorner: Lesson = {
       speaker: 'Carlos',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/carlos-mma-icon.png',
-      text: 'He is giving [[instructions:what to do]]. They only have sixty seconds. He will say: "[[breathe:take slow, deep breaths]]. [[calm down:stop being nervous]]. [[listen up:listen carefully]]."',
+      text: 'He is giving [[instructions:what to do]]. They only have sixty seconds. He will say: "[[breathe:take slow, deep breaths]]. [[Calm down:stop being nervous]]. [[Listen up:listen carefully]]."',
     },
     {
       speaker: 'Mia',

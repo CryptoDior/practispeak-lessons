@@ -143,7 +143,7 @@ export const yourBrandOnline: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: 'Not necessarily. [[organic:traffic that comes without paying for advertising]] [[SEO:improving a website to appear in search results]] means writing articles that answer the questions behind those [[keyword:words people search for]] s. If Google sees that our content is useful and relevant, it will show us higher in results.',
+      text: 'Not necessarily. [[Organic:traffic that comes without paying for advertising]] [[SEO:improving a website to appear in search results]] means writing articles that answer the questions behind those [[keyword:words people search for]] s. If Google sees that our content is useful and relevant, it will show us higher in results.',
     },
     {
       speaker: 'Dana',

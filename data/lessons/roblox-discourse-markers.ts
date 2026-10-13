@@ -268,7 +268,7 @@ export const robloxDiscourseMarkers: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "'The early matches were inconsistent. [[in contrast:used to compare two things that are clearly different]], the final three rounds were some of our strongest performances of the year.' And when you're done: '[[to sum up:to give a short summary at the end]], this was a season of real growth.' Perfect ending.",
+      text: "'The early matches were inconsistent. [[In contrast:used to compare two things that are clearly different]], the final three rounds were some of our strongest performances of the year.' And when you're done: '[[to sum up:to give a short summary at the end]], this was a season of real growth.' Perfect ending.",
     },
     {
       speaker: 'Mia',

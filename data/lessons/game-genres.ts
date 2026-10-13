@@ -159,7 +159,7 @@ export const gameGenres: Lesson = {
       speaker: 'Sam',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sam-icon.png',
-      text: "Really? I'm not a big fan of strategy. [[horror:games designed to scare you]] games are more [[popular:liked by many people]] than strategy in our group!",
+      text: "Really? I'm not a big fan of strategy. [[Horror:games designed to scare you]] games are more [[popular:liked by many people]] than strategy in our group!",
     },
     {
       speaker: 'Alex',
@@ -183,7 +183,7 @@ export const gameGenres: Lesson = {
       speaker: 'Sam',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sam-icon.png',
-      text: 'I understand! [[racing:games where you drive and compete at speed]] games are more fun than anything else for me — I love the speed!',
+      text: 'I understand! [[Racing:games where you drive and compete at speed]] games are more fun than anything else for me — I love the speed!',
     },
     {
       speaker: 'Alex',

@@ -238,7 +238,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "That sounds so... [[formal:polite and careful — right for teachers and strangers]]. It does not sound like me.",
+      text: "That sounds so... [[Formal:polite and careful — right for teachers and strangers]]. It does not sound like me.",
     },
     {
       speaker: 'Mario',

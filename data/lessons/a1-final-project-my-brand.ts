@@ -179,7 +179,7 @@ export const a1FinalProjectMyBrand: Lesson = {
       speaker: 'Dana',
       speakerColor: 'blue',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/dana-icon.png',
-      text: 'We use the same [[tone:the way a brand communicates]], the same visual [[identity:the combination of things that make a brand unique]], and the same core message on LinkedIn, in emails, and at events. [[consistent:the same every time]] branding builds trust — and trust leads to clients.',
+      text: 'We use the same [[tone:the way a brand communicates]], the same visual [[identity:the combination of things that make a brand unique]], and the same core message on LinkedIn, in emails, and at events. [[Consistent:the same every time]] branding builds trust — and trust leads to clients.',
     }
   ],
 

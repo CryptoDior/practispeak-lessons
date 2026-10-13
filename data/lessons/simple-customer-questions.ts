@@ -143,7 +143,7 @@ export const simpleCustomerQuestions: Lesson = {
       speaker: 'Riley',
       speakerColor: 'orange',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/riley-icon.png',
-      text: '[[immediately:right now; without any delay]]. I can set up your account today — it only takes a few minutes.',
+      text: '[[Immediately:right now; without any delay]]. I can set up your account today — it only takes a few minutes.',
     },
     {
       speaker: 'Jake',

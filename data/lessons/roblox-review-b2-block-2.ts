@@ -210,19 +210,19 @@ export const robloxReviewB2Block2: Lesson = {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "She was. [[furthermore:also — used to add another point that makes your argument stronger]], she code-switched effortlessly between casual team chat and the formal tone she used when speaking to the tournament official — which made a strong impression.",
+      text: "She was. [[Furthermore:also — used to add another point that makes your argument stronger]], she code-switched effortlessly between casual team chat and the formal tone she used when speaking to the tournament official — which made a strong impression.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
-      text: "[[however:but — used to introduce a contrasting idea]], the mid-point was rough. Kai made a critical error and, to his credit, [[admit:to say something bad is true even when you did not want to]]ted it straight away. No excuses, just: 'I made the wrong call.'",
+      text: "[[However:but — used to introduce a contrasting idea]], the mid-point was rough. Kai made a critical error and, to his credit, [[admit:to say something bad is true even when you did not want to]]ted it straight away. No excuses, just: 'I made the wrong call.'",
     },
     {
       speaker: 'Mario',
       speakerColor: 'green',
       speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
-      text: "Good. [[consequently:as a result — used to show one thing caused another]], we had to adapt the formation mid-match — but we did it. The [[turning point:the moment when a situation begins to change]] was when Mia zoomed in on what the opponent was doing and called it out clearly.",
+      text: "Good. [[Consequently:as a result — used to show one thing caused another]], we had to adapt the formation mid-match — but we did it. The [[turning point:the moment when a situation begins to change]] was when Mia zoomed in on what the opponent was doing and called it out clearly.",
     },
     {
       speaker: 'Mia',
