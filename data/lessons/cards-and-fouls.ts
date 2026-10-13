@@ -179,7 +179,7 @@ export const cardsAndFouls: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The midfielder [[committed:past tense of "commit"]] a [[foul:an illegal challenge]] on the striker from behind. The referee stopped the game.',
     },
     {
@@ -191,13 +191,13 @@ export const cardsAndFouls: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'He gave a [[yellow card:a caution — an official warning]] — a [[booking:when the referee records the player\'s name]]. It was the midfielder\'s first [[caution:official warning — yellow card]] of the match.',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'But then — 20 minutes later — he [[fouled:committed a foul on]] someone again. A second yellow. And the referee showed him the [[red card:dismissal — the player must leave immediately]]!',
     },
     {
@@ -209,7 +209,7 @@ export const cardsAndFouls: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'A yellow is a warning — you stay on. A red means you have to leave immediately and cannot come back. Your team plays with one less player.',
     },
     {
@@ -221,7 +221,7 @@ export const cardsAndFouls: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'A [[suspension:a ban — the player misses one or more matches]]. Usually one, two, or three matches — depending on the incident.',
     },
     {
@@ -233,7 +233,7 @@ export const cardsAndFouls: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'When it is [[deliberate:done on purpose]], or when the arm is in an unnatural position. The referee uses judgment — it is one of the most argued decisions in football.',
     },
     {

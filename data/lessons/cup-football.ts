@@ -178,7 +178,7 @@ export const cupFootball: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'If it used a league format, there would be far fewer [[upset:a surprising result where the weaker team wins]]s. The better team would always win in the end. The [[giant-killing:when a small team beats a much bigger team — a major upset]] moments would almost disappear. That\'s why the [[replay:a second match played because the first ended in a draw]] system creates drama too — an extra game gives the smaller team another chance.',
     },
     {
@@ -190,7 +190,7 @@ export const cupFootball: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'We are losing 2-1 on [[aggregate:the combined score across two matches]]. We need to score at least two goals at home and not concede. If we scored 1-0, we\'d be level on aggregate — then [[extra time:two additional 15-minute periods if still level after 90 minutes]] or a [[penalty shootout:taking turns shooting from the spot to decide the tie]] could decide it.',
     },
     {
@@ -202,7 +202,7 @@ export const cupFootball: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'If we played at home first, we would try to build a good lead before the away leg. Scoring an away goal in the second leg would also be very valuable — if you could [[come from behind:to score after being losing — to recover from a deficit]] and score away, that puts huge pressure on the opponent.',
     },
     {
@@ -214,7 +214,7 @@ export const cupFootball: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'If I could choose, I would want a home match against a [[non-league side:very small, part-time clubs who play in cup competitions against professional teams]] — the [[minnows:very small teams, like small fish compared to big clubs]]. But as a fan, I\'d love a giant-killing! If the minnows won, that would be the magic of the cup — and that\'s what the cup is all about.',
     },
   ],

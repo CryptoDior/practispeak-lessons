@@ -179,13 +179,13 @@ export const transferTalk: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Yes! He [[signed for:officially joined by putting his name on a contract]] a Spanish club. What was the [[transfer fee:the amount of money one club pays another to buy a player]]?',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I read it was 55 million euros. But he still had two years on his [[contract:the official agreement between a player and a club]].',
     },
     {
@@ -197,7 +197,7 @@ export const transferTalk: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Did he [[pass his medical:successfully complete the health tests before the transfer was confirmed]]? Sometimes these deals fall apart at the last moment.',
     },
     {
@@ -209,7 +209,7 @@ export const transferTalk: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Will the club sign someone new to replace him? Or will they [[go on loan:temporarily move a player from another club for a fixed period]]?',
     },
     {

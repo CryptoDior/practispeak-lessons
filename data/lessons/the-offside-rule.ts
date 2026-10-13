@@ -179,13 +179,13 @@ export const theOffsideRule: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'A player is [[offside:when you are closer to the opponent\'s goal than the last defender]] if they are closer to the goal than the [[last defender:the outfield player closest to their own goal]] when the ball is played.',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'But what does "level" mean? I always hear "he was [[level:at exactly the same point as the last defender — which means onside]]" when there\'s a debate.',
     },
     {
@@ -197,7 +197,7 @@ export const theOffsideRule: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'And what counts? The whole body?',
     },
     {
@@ -209,7 +209,7 @@ export const theOffsideRule: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'That is why teams use [[VAR:Video Assistant Referee — a technology that reviews decisions]] now — to draw the exact line on the video.',
     },
     {
@@ -221,7 +221,7 @@ export const theOffsideRule: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'All the defenders step forward at the same moment when the ball is played — and if the strikers don\'t move, they are caught offside!',
     },
     {
@@ -233,7 +233,7 @@ export const theOffsideRule: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'So it is a team tactic — all four defenders have to move together at exactly the right moment.',
     },
     {

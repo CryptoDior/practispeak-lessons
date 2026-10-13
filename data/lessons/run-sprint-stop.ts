@@ -118,7 +118,7 @@ export const runSprintStop: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Ready, Coach!',
     },
     {
@@ -130,7 +130,7 @@ export const runSprintStop: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I\'m running as fast as I can, Coach!',
     },
     {
@@ -142,7 +142,7 @@ export const runSprintStop: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'OK — I\'m facing the goal. Now what?',
     },
     {
@@ -154,7 +154,7 @@ export const runSprintStop: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I got it — but the shot is coming at me fast!',
     },
     {
@@ -166,7 +166,7 @@ export const runSprintStop: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Blocked! Coach, can I also [[slide:to move quickly along the ground to tackle]] to take the ball?',
     },
     {
@@ -178,7 +178,7 @@ export const runSprintStop: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Understood. Sprint to attack, jog to recover. Got it, Coach!',
     },
   ],

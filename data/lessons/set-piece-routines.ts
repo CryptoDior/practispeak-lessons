@@ -186,7 +186,7 @@ export const setPieceRoutines: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'So I [[attack the ball:to move aggressively towards the delivery — go to meet it]], make a near-post run, and [[flick on:to redirect with a glancing header]] to Ronaldo who has [[peel off:same]]ed to the back post?',
     },
     {
@@ -198,7 +198,7 @@ export const setPieceRoutines: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The two midfielders on the edge of the box — positioned for the [[second ball:same]]. One on the left, one right of centre. They need to [[pick up:to mark and track a specific opponent]] any attacker trying to clear quickly — and if the ball comes out, shoot first time.',
     },
     {
@@ -210,7 +210,7 @@ export const setPieceRoutines: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Hybrid — two zonal defenders covering the near and far post, three man-markers for their biggest threats. The danger is the [[dummy run:a player runs but deliberately lets the ball go to a teammate]] — if their striker dummies and the ball runs through, someone must cover that second zone. I would assign the short corner runner to [[clear out:to block a defender aggressively]] our own near-post zone if they try the short option.',
     },
   ],

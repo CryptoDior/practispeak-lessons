@@ -178,7 +178,7 @@ export const grassrootsFootball: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'I have been playing since I was six years old — eighteen years now. I started at a local [[youth team:a football team made up of young players]] and then joined the [[academy:a professional club\'s youth development programme]] at thirteen. After I left, I started playing for a Sunday league side — I have been [[turn out:to appear for a match — to show up and play]]ing for them for four seasons.',
     },
     {
@@ -190,7 +190,7 @@ export const grassrootsFootball: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I have been playing futsal for two years — it is completely different from outdoor football. The ball is smaller and heavier. The pace is incredibly fast. Many coaches believe futsal develops technical ability better than [[park football:informal, recreational football played in public parks]] because the touches are so frequent.',
     },
     {
@@ -202,7 +202,7 @@ export const grassrootsFootball: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'I have been [[sign up:to officially join a team or register]]ping up young children to weekend coaching sessions since the summer. It is only two hours a week but the impact is huge. You can see them [[build up:to develop something gradually]]ing their confidence and love for the game.',
     },
     {
@@ -214,7 +214,7 @@ export const grassrootsFootball: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Absolutely. The pitches have been getting better — more 3G surfaces. Women\'s football has been growing rapidly at grassroots level. More coaching licences are being taken — clubs have been investing in their coaches. The grassroots game has been [[build up:same]]ing steadily for years and it is finally getting the recognition it deserves.',
     },
   ],

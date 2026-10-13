@@ -179,7 +179,7 @@ export const pressAndPressing: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'It means they [[press:move quickly towards the ball carrier to put them under pressure]] the opposition near their own goal — they do not wait for the ball to come to them.',
     },
     {
@@ -191,7 +191,7 @@ export const pressAndPressing: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: '"They press high" is their general style — they always do it. "They are pressing high" means they are doing it right now, in this match.',
     },
     {
@@ -203,7 +203,7 @@ export const pressAndPressing: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'It is the idea of pressing the moment you lose the ball — immediately, before the opposition can pass or move. Klopp made it famous at Liverpool.',
     },
     {
@@ -215,7 +215,7 @@ export const pressAndPressing: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'A signal that the press starts — like a back pass to the goalkeeper, or a defender receiving the ball with their back to the goal. When the trigger happens, everyone presses at the same time.',
     },
     {
@@ -227,7 +227,7 @@ export const pressAndPressing: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'They give the opposition too much time on the ball. Teams with good technique can [[play through:build attacks with passes]] a weak press easily.',
     },
   ],

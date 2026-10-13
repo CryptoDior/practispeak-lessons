@@ -179,7 +179,7 @@ export const substitutions: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'You [[bring:bring → brought]] on a [[substitute:a player from the bench]] with [[fresh legs:energy and pace — they haven\'t been running for 45 minutes]]. The winger is [[taken:take → taken]] off — they are replaced.',
     },
     {
@@ -191,7 +191,7 @@ export const substitutions: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: '"The winger was [[taken off:removed from the match]] at half time." And "A substitute was [[brought:bring → brought]] on to inject pace."',
     },
     {
@@ -203,7 +203,7 @@ export const substitutions: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The coach was unhappy — they made big changes. Maybe a [[tactical change:a substitution made for strategic reasons]] — changing the shape or system.',
     },
     {
@@ -215,7 +215,7 @@ export const substitutions: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: '"She made an immediate [[impact off the bench:when a substitute has a big effect after coming on]]!" Or: "The substitute [[came on:entered the pitch as a sub]] and changed the game."',
     },
     {
@@ -227,7 +227,7 @@ export const substitutions: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The [[board:the electronic board]] shows the numbers — the number of the player going off and the number coming on. The fourth official holds it up so everyone can see.',
     },
     {

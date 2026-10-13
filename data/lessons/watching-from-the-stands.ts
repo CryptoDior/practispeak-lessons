@@ -179,13 +179,13 @@ export const watchingFromTheStands: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'The fans are [[chanting:singing a song or phrase repeatedly]] the captain\'s name — it is 0-0 and the team need a goal. The [[atmosphere:the energy and excitement created by the crowd]] is incredible — everyone is standing.',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The striker is running down the left wing — he is shooting! Oh no — he has missed. The whole crowd is [[groaning:making a sound of disappointment]].',
     },
     {
@@ -197,13 +197,13 @@ export const watchingFromTheStands: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'The [[substitute board:the electronic board showing which numbers are being substituted]] is going up — number 10 is coming off. The fans are clapping her off — she worked hard.',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The new player is coming on — the crowd is [[roaring:making a loud collective shout]] with excitement. It is the 88th minute. We are looking for a [[late winner:a goal near the end that wins the game]].',
     },
     {
@@ -215,7 +215,7 @@ export const watchingFromTheStands: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'She scores! A header — 1-0! The fans are [[going wild:reacting with extreme excitement]] — jumping, hugging, screaming. The whole stand is shaking. This is why we love football!',
     },
   ],

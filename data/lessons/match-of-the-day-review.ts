@@ -179,13 +179,13 @@ export const matchOfTheDayReview: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'In my opinion, it was the match of the season. Looking back on it — City were [[dominant:clearly the better team, controlling the match]] for most of the game. Ronaldo — the player, not me — was [[outstanding:exceptionally good]].',
     },
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'I agree. And I think what [[stood out:was noticeably better or more significant]] was the resilience — going 1-0 down and then winning 3-1. That\'s a [[resilient:able to recover from difficulty]] team with real character.',
     },
     {
@@ -197,13 +197,13 @@ export const matchOfTheDayReview: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The [[stats don\'t lie:numbers support the conclusion]]: City had 70% possession after the red card, twelve shots, seven on target. To [[put it simply:introduce a clear, direct summary]] — they were better and they won.',
     },
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'What\'s the main [[takeaway:the key lesson or conclusion]] from tonight, Coach?',
     },
     {
@@ -215,7 +215,7 @@ export const matchOfTheDayReview: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'You know — looking back on Units 1 through 4, we have learned so much. From the vocabulary of the pitch to the language of the stands, from match reports to pundit analysis. In my opinion, we\'re ready for B1.',
     },
   ],

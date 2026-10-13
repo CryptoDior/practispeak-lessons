@@ -179,13 +179,13 @@ export const shotsAndSaves: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I\'m [[chipping:lifting the ball over the goalkeeper with a delicate flick]] it — over his head!',
     },
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'He\'s chipping it! Is it going in? The keeper is diving but — he\'s [[palming:pushing the ball away with the palm of the hand]] it over the bar!',
     },
     {
@@ -197,19 +197,19 @@ export const shotsAndSaves: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'She\'s [[crossing:delivering a pass from wide into the penalty area]] it in — I\'m jumping — and I\'m heading it toward the bottom corner!',
     },
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'The keeper is [[diving:throwing his body to one side to reach the shot]] to his right — and he\'s [[parrying:deflecting the ball away but not holding it]] it! The ball is loose!',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I followed it in! The keeper [[spilled:dropped the ball after attempting a save]] it and I tapped it home!',
     },
     {
@@ -221,7 +221,7 @@ export const shotsAndSaves: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'A [[save:when the goalkeeper stops the ball going into the goal]] means the keeper holds or controls it safely. A [[parry:deflecting the ball away without holding it]] means they push it away — but they don\'t hold it.',
     },
     {
@@ -233,7 +233,7 @@ export const shotsAndSaves: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The ball is dropping — I\'m volleying it — on target! What a strike!',
     },
     {

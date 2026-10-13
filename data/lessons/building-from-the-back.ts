@@ -179,7 +179,7 @@ export const buildingFromTheBack: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'They play out to keep possession — to control the game and not give the ball away by kicking it long randomly.',
     },
     {
@@ -191,7 +191,7 @@ export const buildingFromTheBack: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The sweeper-keeper comes out of goal to join the build-up. He acts as an extra player — giving the defenders more [[distribution:the way the goalkeeper sends the ball to teammates]] options when they are pressed.',
     },
     {
@@ -203,7 +203,7 @@ export const buildingFromTheBack: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'To give an extra passing option. To help [[recycle:pass the ball back to reset — to slow down and find a better position]] possession. To put the opposition in a difficult situation — pressing one extra player they were not expecting.',
     },
     {
@@ -215,7 +215,7 @@ export const buildingFromTheBack: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'You [[switch:a long pass that moves the ball from one side to the other]] the play — a long diagonal ball to the other side to find the space where they are not pressing. Or you go long to [[bypass:to go around or avoid something]] the press entirely.',
     },
     {

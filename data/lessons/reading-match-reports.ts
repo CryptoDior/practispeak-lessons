@@ -179,13 +179,13 @@ export const readingMatchReports: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'United had a player [[sent off:given a red card — required to leave the pitch]] — so they played with ten men for part of the match.',
     },
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: '"Hold on" means they managed to keep the result — probably they were under a lot of pressure. Was a penalty [[awarded:given officially by the referee]]?',
     },
     {
@@ -197,7 +197,7 @@ export const readingMatchReports: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'What was the [[attendance:the number of fans present at the match]]? Was it a big crowd?',
     },
     {
@@ -209,7 +209,7 @@ export const readingMatchReports: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Was the [[dismissal:when a player is sent off — given a red card]] in [[stoppage time:time added at the end by the referee for delays]]? Because the headline says they "held on" — that sounds like it was close at the end.',
     },
     {

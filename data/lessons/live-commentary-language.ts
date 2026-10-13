@@ -179,7 +179,7 @@ export const liveCommentaryLanguage: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'They are all present simple — "cuts," "beats," "slots." Not "is cutting" or "is beating." It is very fast and direct.',
     },
     {
@@ -191,7 +191,7 @@ export const liveCommentaryLanguage: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: '"He receives the ball, turns — and rifles it into the top corner! What a finish! The keeper had no chance!" Is that right?',
     },
     {
@@ -203,7 +203,7 @@ export const liveCommentaryLanguage: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: '"She fires it — clips the bar — and the crowd groans! [[Agonisingly:in a way that causes great frustration]] close! So unlucky!"',
     },
     {
@@ -215,7 +215,7 @@ export const liveCommentaryLanguage: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: '"He steps up — and [[dispatches:finishes confidently and efficiently, without fuss]] it into the corner. No hesitation. Goalkeeper went the right way but could not get near it."',
     },
   ],

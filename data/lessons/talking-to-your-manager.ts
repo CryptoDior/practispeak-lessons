@@ -180,7 +180,7 @@ export const talkingToYourManager: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Boss — could I have a few minutes? I wanted to ask for some [[feedback:information about performance — what to improve]] on the last few games. I understand I\'ve been [[dropped:removed from the starting line-up by the manager]] — I just wanted to know what I need to work on to [[work my way back:to earn back a place through hard work]] into the team.',
     },
     {
@@ -192,7 +192,7 @@ export const talkingToYourManager: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Thank you for being direct. I\'ll focus on that specifically. Can I [[raise a concern:to formally bring up a problem professionally]] though? I feel that I need more [[game time:minutes played on the pitch]] to get that sharpness back. Being on the bench affects my timing in training too.',
     },
     {
@@ -204,13 +204,13 @@ export const talkingToYourManager: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'I saw you come out of that meeting, Ronaldo. Was it okay?',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'It was — we [[cleared the air:to resolve tension through an open conversation]]. He was honest, I was professional. I told him I wanted to [[speak my mind:to express your real opinion directly]] and he let me. I\'m [[coming on as a substitute:entering the game from the bench]] for now — but he said Thursday is mine. That\'s all I needed to know.',
     },
   ],

@@ -179,13 +179,13 @@ export const watchingOnTv: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Yes — there were two [[pundits:football experts who give analysis and opinions on TV]] in the [[studio:the TV broadcasting location where pundits and presenters sit]]. One said the team had played well but was not [[clinical:precise and efficient in front of goal]].',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The other pundit [[picked holes in:found and criticised weaknesses in]] the defensive shape. He said the team was giving too much space in behind.',
     },
     {
@@ -197,13 +197,13 @@ export const watchingOnTv: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'He said the penalty decision was [[controversial:causing disagreement — people have strong opposite opinions]] — one pundit said it was clear, the other said it was nothing.',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'They showed the [[replay:a recording of the moment shown again from different angles]] three times. After watching it back, the pundit gave his [[verdict:a final decision or judgement]] — he said it was a penalty.',
     },
     {
@@ -215,7 +215,7 @@ export const watchingOnTv: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'They won 2-1. The second goal was incredible — the commentator said it was a "worldie." He said he had never seen a better free kick all season. The [[analysis:a detailed study or explanation]] after the match said the second half was much better than the first.',
     },
   ],

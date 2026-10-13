@@ -179,7 +179,7 @@ export const setPieces: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'We get a [[free kick:a kick awarded after the opposition commits a foul]]! And we\'re in a great position — close to goal.',
     },
     {
@@ -191,13 +191,13 @@ export const setPieces: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'They have to build a [[wall:a line of defending players standing together to block the shot]] — and they must stand at least 10 yards back.',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Can I just shoot? Or can I pass?',
     },
     {
@@ -209,7 +209,7 @@ export const setPieces: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'When a player is fouled inside the [[penalty:penalty area]] area! The referee points to the [[spot:the penalty spot, 12 yards from goal]].',
     },
     {
@@ -221,7 +221,7 @@ export const setPieces: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The goalkeeper must stay on the goal line — they must not move before the ball is kicked.',
     },
     {
@@ -233,7 +233,7 @@ export const setPieces: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'A corner kick happens when a defender puts the ball out over the goal line. The attackers get to kick from the [[near post:the goalpost closest to where the ball is]] or [[far post:the goalpost furthest from where the ball is]] corner.',
     },
     {
@@ -245,7 +245,7 @@ export const setPieces: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'You have to use both hands. You have to keep both feet on the ground — or behind the line. And you must not throw it into your own goal directly.',
     },
     {

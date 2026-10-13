@@ -186,7 +186,7 @@ export const theHalfSpace: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'In the [[half-space:same]], every time. I [[drift into:to move gradually and subtly into a zone]] the left half-space from my wide starting position — the full-back cannot follow me without leaving space in the [[channel:the wide corridor between the full-back and the centre-back]]. I find the [[pocket of space:a small gap between defenders]] [[between the lines:the space between the opposition\'s midfield and defensive lines]], receive, and turn before the centre-back can close me down.',
     },
     {
@@ -198,7 +198,7 @@ export const theHalfSpace: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I [[pull out:to draw a defender out of their position]] the centre-back — either run in behind into the [[channel:same]] to keep him honest, or [[drop into:to move into a deeper position]] the [[third:the pitch is divided into defensive, middle, and attacking thirds]] and [[link up:to combine with a teammate]] with Sofia in the half-space. If I stay central, the centre-back stays. If I move, space opens up for Sofia to exploit.',
     },
     {
@@ -210,7 +210,7 @@ export const theHalfSpace: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'And to create all this, the right side must [[stretch:to widen a defensive shape by playing wide]] the defence first — [[pulling out:same]] the left back wide. That forces the defensive block to expand, opening up the half-space on the left. Everything is connected in [[positional play:same]] — every movement creates a reaction somewhere else on the pitch.',
     },
   ],

@@ -179,19 +179,19 @@ export const stadiumsAndGrounds: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Yes — I watched a match there last season. The [[capacity:the maximum number of people who can fit in the stadium]] is 48,000 and it was completely full. The noise was incredible — especially from the fans [[behind the goal:in the stand that faces the goal directly]].',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Where is the [[away end:the section reserved for visiting fans]]? Is it [[in the stands:in the main seating area]] or in a corner?',
     },
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'It is in the corner — behind the goal at the south end. There is no roof on it either — if it rains, the away fans get wet.',
     },
     {
@@ -203,7 +203,7 @@ export const stadiumsAndGrounds: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I read that it rained heavily last week — the pitch might be soft. Could be difficult for technical football.',
     },
     {
@@ -215,7 +215,7 @@ export const stadiumsAndGrounds: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'I love night matches under the [[floodlights:the large lights at each corner for evening matches]] — there is always something special about the atmosphere.',
     },
   ],

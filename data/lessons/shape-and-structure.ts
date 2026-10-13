@@ -186,7 +186,7 @@ export const shapeAndStructure: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'The formation is the skeleton — the numbers. The system is the behaviour. The same 4-2-3-1 can house a direct counter-attack system or a possession-based positional play system. The [[double pivot:two defensive midfielders providing cover and control]] in the 4-2-3-1 will behave completely differently depending on the system — either sitting deep or joining the build-up.',
     },
     {
@@ -198,7 +198,7 @@ export const shapeAndStructure: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'You need to [[overload:to have more players in an area than the opponent]] wide areas — force them to [[shift across:to move the block sideways]] and create gaps centrally. Or play quick combinations in the half-space to pull players out of the block. If you can achieve [[numerical superiority:more players than the opponent in a zone]] in pockets between the lines, the block starts to [[open up:when gaps appear in a defensive structure]].',
     },
     {
@@ -210,7 +210,7 @@ export const shapeAndStructure: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'The moment they [[switch to:to change formation during a match]] back four in possession, there is a brief vulnerability — one of the centre-backs is now wide as a full-back, and there is space behind the advancing midfielder. That is the press trigger moment — win the ball high and transition quickly before they [[set up:to organise in a formation]] again.',
     },
   ],

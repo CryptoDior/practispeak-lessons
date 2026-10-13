@@ -181,7 +181,7 @@ export const matchOfTheDayA2Review: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'She is [[quick:fast — able to run at high speed]], [[clinical:precise and efficient in front of goal]], and [[versatile:able to play in several different positions]]. She reads the game well and leads by example.',
     },
     {
@@ -193,7 +193,7 @@ export const matchOfTheDayA2Review: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'City are [[better than:superior to — irregular comparative of "good"]] United this season. They are faster than United in [[transition:moving quickly from defence to attack]] and more [[clinical:precise in front of goal]] in front of goal. Their away form is worse than last season, but at home they are [[dominant:controlling the game — more powerful and in control]].',
     },
     {
@@ -205,7 +205,7 @@ export const matchOfTheDayA2Review: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'The fans are [[chanting:singing a phrase repeatedly]] the captain\'s name. The [[atmosphere:energy and excitement created by the crowd]] is incredible — 50,000 people are on their feet. The goalkeeper is warming up in the background.',
     },
     {
@@ -217,7 +217,7 @@ export const matchOfTheDayA2Review: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'My [[verdict:final opinion or judgement]]: a brilliant match. I thought we were unlucky — we created more chances but they were more clinical. The winning goal [[was scored:past passive — someone scored it, we focus on the goal]] by the substitute in stoppage time. A [[deserved:fair — they earned it]] win in the end, to be honest.',
     },
     {

@@ -179,7 +179,7 @@ export const leagueFormats: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'City are five points ahead with four games to go — the [[title race:the competition between teams to win the league championship]] is almost over. They can [[pull away:to increase the gap at the top]] further if they win tonight.',
     },
     {
@@ -191,7 +191,7 @@ export const leagueFormats: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Town need to not [[drop points:to draw or lose when you needed to win]] in the [[run-in:the final matches of the season]]. If the teams around them [[slip up:to unexpectedly drop points]], Town can [[stay up:to avoid relegation — to remain in the division]]. They have four games to go — three wins would probably be enough.',
     },
     {
@@ -203,7 +203,7 @@ export const leagueFormats: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'They enter the [[play-off:a set of extra matches to decide the final promotion spot]]s. It is like a mini tournament — two semi-finals and a final at Wembley. The winner gets [[promotion:the chance to move up to a better division]]. Good [[form:a team\'s recent results]] matters in the play-offs — momentum is everything.',
     },
     {
@@ -215,7 +215,7 @@ export const leagueFormats: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'When a team has so many points that even if they lose all their remaining games, they still cannot [[go down:to be relegated — to drop to a lower division]]. The mathematics make it impossible. The fans stop worrying and enjoy the last few games.',
     },
   ],

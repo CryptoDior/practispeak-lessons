@@ -179,7 +179,7 @@ export const fitnessAndConditioning: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The running sessions are longer than last year and the gym sessions are more intense. My legs feel like concrete.',
     },
     {
@@ -191,7 +191,7 @@ export const fitnessAndConditioning: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'What is more important for a footballer — [[stamina:the ability to keep working hard for a long time without getting tired]] or [[sharpness:the quickness of thought and movement that comes from playing matches regularly]]?',
     },
     {
@@ -203,7 +203,7 @@ export const fitnessAndConditioning: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'So the best way to get match fit is to play matches?',
     },
     {
@@ -215,7 +215,7 @@ export const fitnessAndConditioning: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Who is the most physically demanding player to manage in terms of load?',
     },
     {

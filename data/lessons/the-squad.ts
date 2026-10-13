@@ -179,7 +179,7 @@ export const theSquad: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'There are eleven players in the [[starting eleven:the eleven players chosen to begin the match]]. And there are seven players on the [[bench:where substitute players sit during a match]] — they can come on during the game.',
     },
     {
@@ -191,7 +191,7 @@ export const theSquad: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'What about the [[academy:the youth development system of a club]]? Are those players in the squad too?',
     },
     {
@@ -203,7 +203,7 @@ export const theSquad: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Why does the manager use [[rotation:changing players regularly — resting some and giving others chances]]? Is it good for the team?',
     },
     {
@@ -215,7 +215,7 @@ export const theSquad: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Is it hard to make the [[squad:the group of players selected for a match or tournament]] when there are so many good players?',
     },
     {

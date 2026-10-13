@@ -179,7 +179,7 @@ export const injuries: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'How serious is it? Has she [[gone for a scan:had a medical scan to find out the extent of the injury]] yet?',
     },
     {
@@ -191,7 +191,7 @@ export const injuries: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Has she started [[rehab:rehabilitation — recovering from injury through specific exercises and treatment]] already?',
     },
     {
@@ -203,7 +203,7 @@ export const injuries: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Has anyone else picked up any [[knock:a minor impact or bruise — less serious than a full injury]] this week? I noticed Kezia was limping after the rondo yesterday.',
     },
     {
@@ -215,7 +215,7 @@ export const injuries: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Has Amara ever had a [[surgery:a medical operation — necessary for serious injuries]] before on that hamstring?',
     },
     {

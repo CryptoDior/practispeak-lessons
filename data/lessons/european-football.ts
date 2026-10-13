@@ -178,7 +178,7 @@ export const europeanFootball: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'It\'s a tough group. We were [[seeded / unseeded:seeded teams are protected in draws, unseeded are not]] as the lowest-ranked team — we [[come up against:to face a particular opponent in a competition]] Madrid in the first game. That is the hardest possible start. If we qualify from this group, it will be a major achievement.',
     },
     {
@@ -190,7 +190,7 @@ export const europeanFootball: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: '"We were beaten 2-0 in the first [[tie:a match or two-legged contest in a knockout competition]] by Real Madrid." Or — "The first leg was lost 2-0." Or — "Two goals were conceded in a difficult first leg in Madrid."',
     },
     {
@@ -202,7 +202,7 @@ export const europeanFootball: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'If we win 2-0, the [[tie:same]] is level at 2-2 on [[aggregate:the combined total score across both matches]]. We [[go through:to advance to the next stage]] to extra time. If we win 3-0 or more, we [[see off:to beat and eliminate an opponent]] Madrid and reach the [[knockout round:where losing means immediate elimination]]s.',
     },
     {
@@ -214,7 +214,7 @@ export const europeanFootball: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'We [[drop down:to be moved to a lower competition]] to the Europa League. It is [[continental:relating to European club football]] competition — still important — but not the Champions League. Some teams see it as a consolation, but winning the Europa League is also a major achievement.',
     },
   ],

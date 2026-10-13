@@ -179,7 +179,7 @@ export const counterAttack: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'If they push high, there will be a lot of space [[in behind:the space behind the defensive line — between the last defender and the goalkeeper]] their defensive line. If Amara wins the ball, she will [[release quickly:pass the ball forward fast before the opposition can recover]] to the striker.',
     },
     {
@@ -191,7 +191,7 @@ export const counterAttack: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Speed. If we win the ball and release it quickly, the opposition will not have time to [[recover back:sprint back to defensive position after losing the ball]]. We will be [[numbers up:having more players than the opposition in the attacking area]] before they can reorganise.',
     },
     {
@@ -203,7 +203,7 @@ export const counterAttack: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'We will be [[exposed:vulnerable — caught with defenders out of position leaving space behind]]. If we lose the ball with five players forward, they will [[hit on the counter:to launch a counter-attack after winning the ball]] and have a 3v2 — maybe even a 2v1.',
     },
     {
@@ -215,7 +215,7 @@ export const counterAttack: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Stay compact and [[clinical:very efficient and precise in front of goal — scoring when chances come]]. If we stay patient and disciplined for 90 minutes, our [[pace:speed — especially the ability to run fast]] will be the difference. One chance, one goal. That is enough.',
     },
   ],

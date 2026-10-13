@@ -179,7 +179,7 @@ export const theManagersTeamTalk: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Is this a [[team talk:the speech a manager gives to players — before a match, at half-time, or after the final whistle]]? It feels very real.',
     },
     {
@@ -191,7 +191,7 @@ export const theManagersTeamTalk: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'What [[adjustments:changes to tactics or formation — usually made at half-time]] are we making for the second half?',
     },
     {
@@ -203,7 +203,7 @@ export const theManagersTeamTalk: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'And if they score first? Do we [[drop our heads:to lose confidence and motivation — mentally give up after a setback]]?',
     },
     {
@@ -215,7 +215,7 @@ export const theManagersTeamTalk: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Yes!',
     },
     {

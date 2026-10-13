@@ -179,7 +179,7 @@ export const matchHighlights: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'The match started very tight. Both teams were defending well and neither was creating much. Then, in the 23rd minute, the striker broke the [[deadlock:the 0-0 situation before the first goal is scored]] with a brilliant header. The goalkeeper had no chance.',
     },
     {
@@ -191,7 +191,7 @@ export const matchHighlights: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'After that, the match really [[opened up:became more open and exciting — more chances and more goals]]. The trailing team pushed forward and they [[pulled one back:scored a goal to reduce the deficit]] five minutes before half-time. Just before the half-time whistle — 1-1.',
     },
     {
@@ -203,7 +203,7 @@ export const matchHighlights: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'The second half was incredible. First, they scored two quick goals in ten minutes. Then, the other team [[came from behind:recovered from a losing position to win or draw]] and scored their own [[equaliser:a goal that makes the score equal]]. [[Finally:the last important event in the sequence]], in the 90th minute, there was a penalty — and the [[winner:the goal that decides the match]] made it 3-2.',
     },
     {
@@ -215,7 +215,7 @@ export const matchHighlights: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'It was a [[turnaround:when a team goes from losing to winning — a complete change in the result]]. It was definitely a tale of two halves — the first was tight and quiet, the second was an absolute [[encounter:a match or contest — a slightly formal word for a football game]] to remember.',
     },
   ],

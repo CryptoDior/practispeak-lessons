@@ -173,13 +173,13 @@ export const talkingToOtherFans: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Well — that was [[frustrating:causing feelings of disappointment — things did not go as expected]]. I thought we played well but the referee was [[harsh:too severe or strict — decisions seemed unfair]].',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I agree with you about the referee — the red card was [[outrageous:shockingly unfair — beyond what is acceptable]]. He barely touched him.',
     },
     {
@@ -191,13 +191,13 @@ export const talkingToOtherFans: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Fair enough. But I still thought the penalty was wrong. Did you see the replay? There was no contact at all.',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I agree. And to be honest, I did not think the substitution worked either — he came on too late to make a difference.',
     },
     {
@@ -209,7 +209,7 @@ export const talkingToOtherFans: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Fair play to them — but I still thought we were [[unlucky:not achieving a good result despite deserving one]]. We hit the post twice!',
     },
     {

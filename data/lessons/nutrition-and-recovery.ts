@@ -179,7 +179,7 @@ export const nutritionAndRecovery: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Not much. Six hours on a good night. I find it hard to sleep after a late match — too much adrenaline.',
     },
     {
@@ -191,7 +191,7 @@ export const nutritionAndRecovery: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'I eat plenty of pasta or rice the evening before. And I drink a lot of water throughout the day — [[hydration:the amount of water in the body — staying properly hydrated for performance]] is something I take seriously.',
     },
     {
@@ -203,7 +203,7 @@ export const nutritionAndRecovery: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'A little — I\'m not great at eating straight after training. I usually wait a couple of hours.',
     },
     {
@@ -215,7 +215,7 @@ export const nutritionAndRecovery: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'I do it after every match — but not many people do it after training. It is very cold.',
     },
     {

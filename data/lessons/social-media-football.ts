@@ -178,7 +178,7 @@ export const socialMediaFootball: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'The fan is very angry. They think the [[VAR:Video Assistant Referee — the video review system]] decision was wrong — "bottled it" means [[bottle:to fail at a crucial moment because of nerves or pressure]]. The [[MOTM:Man of the Match]] was obvious to them. The [[OG:own goal — when a player scores in their own net]] did not matter — the result was still deserved.',
     },
     {
@@ -190,7 +190,7 @@ export const socialMediaFootball: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: '"The VAR review proved controversial — many felt the decision was incorrect. The player who scored the own goal had contributed effectively throughout and arguably deserved to be recognised as player of the match. Despite the controversial goal, the result was a fair reflection of the performance."',
     },
     {
@@ -202,7 +202,7 @@ export const socialMediaFootball: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Social media: "The [[GOAT:same]] debate is over. No [[banter:friendly, playful teasing between rivals — usually between fans]], just facts 🐐 [[WC:World Cup]], Ballon d\'Or, everything — case closed." Formal: "The debate over the greatest player of all time continues. His World Cup victory and multiple Ballon d\'Or awards strengthen his claim considerably."',
     },
     {

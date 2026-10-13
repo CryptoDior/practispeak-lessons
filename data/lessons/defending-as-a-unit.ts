@@ -179,7 +179,7 @@ export const defendingAsAUnit: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'It means all eleven players defend together — not just the four defenders. The team [[should:used for tactical advice]] stay [[compact:close together with small spaces between players]], with small spaces between the lines.',
     },
     {
@@ -191,7 +191,7 @@ export const defendingAsAUnit: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'In zonal marking, you defend an area — you mark whoever comes into your zone. In man marking, you follow one player everywhere. Both have advantages.',
     },
     {
@@ -203,7 +203,7 @@ export const defendingAsAUnit: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'You should use man marking when the opposition has one very dangerous player you must stop. But you [[should not:advice against something]] lose your [[shape:the organised structure of the team]] to follow them — that creates gaps.',
     },
     {
@@ -215,7 +215,7 @@ export const defendingAsAUnit: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'It depends on the opponent. If they have fast strikers, we [[have to:necessary because of the situation]] defend deeper. If our defenders are fast and the opposition are slow, we can push the line higher.',
     },
     {

@@ -186,7 +186,7 @@ export const speakingToYourTeammates: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'I received the ball thinking I had [[time:a call telling a teammate they are not under pressure]]. Nobody called. I turned and walked into the press. If someone had called [[\'man on\'|man-on:same]] — even once — I would not have turned. I would have [[played it simple:to pass the ball simply, avoiding risk]] straight back to the keeper.',
     },
     {
@@ -198,7 +198,7 @@ export const speakingToYourTeammates: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I called [[\'hold the line!\'|hold the line:an instruction to the defensive line to stay in position]]. Two players stepped up, two stayed. The attacker was onside by a metre. We need one voice in those moments — the goalkeeper should call it from behind. They can see everything.',
     },
     {
@@ -210,7 +210,7 @@ export const speakingToYourTeammates: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'And when I [[call for it:to verbally ask a teammate for the ball]], [[show for it:to move into a passing position]] first — movement creates the angle, the call tells them where I am. [[\'Leave it!\'|leave it:a call telling a teammate not to touch the ball]] when the ball is going out. [[\'Keeper\'s!\'|keepers:a call from the goalkeeper claiming the ball]] when it\'s mine. [[\'Pick up!\'|pick up:to mark a specific opponent]] their number ten — she was free three times yesterday. Simple words. Loud voice. Immediate response.',
     },
   ],

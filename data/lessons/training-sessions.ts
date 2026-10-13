@@ -179,7 +179,7 @@ export const trainingSessions: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'We do the rondo every session — I love it. It gets your touch going and it is great for pressing and keeping possession.',
     },
     {
@@ -191,7 +191,7 @@ export const trainingSessions: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Then the small-sided game — my favourite part. We sometimes split into two teams of seven and play on a half-pitch. It is very intense. Very competitive.',
     },
     {
@@ -203,7 +203,7 @@ export const trainingSessions: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'How often do we have a long debrief versus a short one?',
     },
     {
@@ -215,7 +215,7 @@ export const trainingSessions: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Do we ever have sessions with no [[drill:a specific exercise players repeat many times to practise a skill]]? Just a match?',
     },
     {

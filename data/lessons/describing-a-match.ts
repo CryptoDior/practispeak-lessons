@@ -179,13 +179,13 @@ export const describingAMatch: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'United [[took:past tense of "take" — took the lead]] the lead in the first half — a header from a corner. But City [[dominated:controlled completely]] [[possession:control of the ball]] and kept attacking.',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'City [[built:past tense of "build"]] up slowly from the back — short passes, controlling the [[tempo:the speed and pace of the match]]. But they couldn\'t score. United [[defended:protected their goal]] brilliantly.',
     },
     {
@@ -197,13 +197,13 @@ export const describingAMatch: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'City scored an equaliser in the 68th minute. Then everything changed — the [[momentum:the feeling of growing energy and confidence]] [[shifted:changed direction]]. United started to worry.',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'City [[pushed:past tense of "push"]] for a winner. They attacked again and again. But United [[held:past tense of "hold"]] on — they didn\'t let another goal in.',
     },
     {
@@ -215,7 +215,7 @@ export const describingAMatch: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: '1-1. City had 70% [[possession:control of the ball]] and 20 shots — but didn\'t win. United [[counter-attacked:attacked fast after winning the ball]] three times and scored from one of them.',
     },
     {
@@ -227,7 +227,7 @@ export const describingAMatch: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'What does "fell apart" mean? I heard it on TV — "they fell apart in the last 10 minutes."',
     },
     {

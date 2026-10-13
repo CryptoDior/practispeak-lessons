@@ -186,7 +186,7 @@ export const mediaTraining: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Ha — okay. "Look, there\'s always going to be [[speculation:unconfirmed discussion about what might happen]] at this time of year. What I can tell you is I\'m fully focused on the next game and fully committed to this club. That\'s all I\'ll say on that."',
     },
     {
@@ -198,7 +198,7 @@ export const mediaTraining: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: '"I understand there\'s always going to be focus on individual performances — what I\'d say is I\'m working hard and the team is what matters. We take it one game at a time." Pure [[cliché:an overused phrase used deliberately as a shield]] — but effective. I gave the journalist nothing to make a [[soundbite:a short memorable phrase designed to be quoted]] out of.',
     },
     {
@@ -210,7 +210,7 @@ export const mediaTraining: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: '"Tonight I\'m just proud of the team\'s effort — we gave everything. I\'m not going to [[get drawn into:to be pulled into discussing something you did not want to address]] discussing individual decisions. We [[move on:same]] and focus on Thursday." I am not saying [[\'no comment\'|no comment:a phrase that implies guilt and creates a bigger story]] — I am saying nothing, but saying it nicely. No [[fuel the fire:to make a situation worse by saying something that gives it more attention]]. No [[walk back:to retract something you said]] needed tomorrow.',
     },
   ],

@@ -179,13 +179,13 @@ export const footballPodcasts: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Well, I think it\'s the attack, honestly. I mean, [[in terms of:used to focus on a specific aspect]] goals scored, they are in the bottom five in the league. [[To be fair:used to acknowledge the other side]], the defence has shipped a few as well — but the attack is the bigger issue.',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I\'d actually [[push back on:to challenge or disagree with an argument]] that. [[To be honest:signals a direct, frank opinion]], the defence has conceded in every game this month. [[Having said that:connecting a point to its opposite]], Sofia\'s right that the forwards aren\'t scoring enough. But you can\'t [[back up:to support a claim with evidence]] "attack is the problem" when the defenders are all over the place.',
     },
     {
@@ -197,7 +197,7 @@ export const footballPodcasts: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Oh, I\'ve completely [[come around to:to gradually change your opinion]] that idea since last month. The [[analysis:a careful, detailed look at something]] from the last few episodes convinced me — the shape is wrong, the pressing triggers are wrong, everything starts with the manager.',
     },
     {
@@ -209,7 +209,7 @@ export const footballPodcasts: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Well, you know what — that\'s a hot take from the pundits. [[To be fair]], he\'s been injured a lot this season. But I mean, in terms of his contract situation, selling now makes sense. Actually, I think keeping him is the bigger risk.',
     },
     {

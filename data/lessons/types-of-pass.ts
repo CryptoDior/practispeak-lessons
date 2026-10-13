@@ -179,7 +179,7 @@ export const typesOfPass: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'She\'s [[laying:laying it off to a teammate — a short, simple pass]] it off to the midfielder. Simple.',
     },
     {
@@ -191,13 +191,13 @@ export const typesOfPass: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Switch! He should be [[switching:playing a long diagonal pass to the opposite side]] the play — the left winger has space!',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'He\'s switching now! The ball is going across — the left winger is [[crossing:delivering a pass from wide into the penalty area]] it in!',
     },
     {
@@ -209,7 +209,7 @@ export const typesOfPass: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'A [[through ball:a pass into the space behind the defenders for a striker to run onto]] goes into space behind defenders. A [[long ball:a high, long pass played forward over a large distance]] is just a big kick forward.',
     },
     {
@@ -221,7 +221,7 @@ export const typesOfPass: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'A chip goes over someone — like when the keeper is off his line. You lift the ball up and over him.',
     },
     {
@@ -233,13 +233,13 @@ export const typesOfPass: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'She\'s trying! She passed and — yes! She got it back. She\'s [[playing:moving through]] through the lines now!',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Coach — when do you play a [[square ball:a pass played sideways across the pitch]]? When is it the right choice?',
     },
     {

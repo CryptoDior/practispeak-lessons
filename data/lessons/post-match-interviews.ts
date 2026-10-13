@@ -179,7 +179,7 @@ export const postMatchInterviews: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Look — I think we had our moments. To be [[honest:used for careful directness in interviews]], I felt we were the better team for long periods. But [[credit:praise or recognition for doing well — "give credit to"]] where it\'s due — they were clinical when it mattered. [[At the end of the day:ultimately — the most important thing is]], the result is what counts and we didn\'t get it today.',
     },
     {
@@ -191,7 +191,7 @@ export const postMatchInterviews: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Obviously, we are [[disappointed:sad or unhappy about a result]]. I thought we showed great [[character:mental strength — fighting back under pressure]] and I feel we deserved more from the match. But [[margins:the small differences that separate winning and losing]] decide games at this level — and today those [[margins:same]] were not in our favour.',
     },
     {
@@ -203,7 +203,7 @@ export const postMatchInterviews: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Look — I\'d rather not [[comment:give a public opinion]] on the decisions tonight. I don\'t want to get into that. The [[focus:concentration and attention on what matters]] needs to be on our own performance — and we know where we let ourselves down.',
     },
     {
@@ -215,7 +215,7 @@ export const postMatchInterviews: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'We have to [[dust ourselves off:recover quickly and not dwell on a setback]] and go again. We have another match on Thursday. There is no time to feel sorry for ourselves. We keep working, we keep believing, and the results will come.',
     },
   ],

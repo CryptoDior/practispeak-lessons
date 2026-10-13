@@ -186,7 +186,7 @@ export const pressingTriggers: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'I [[close down:to press an opponent by moving quickly towards them]] immediately — but from the angle that cuts the pass to their midfielder. I create a [[pressing shadow:body position that blocks a specific passing lane]]. If the keeper [[tries to play short:same]], I have already blocked that option. If they play long, Ronaldo and I win the [[second ball:same]].',
     },
     {
@@ -198,7 +198,7 @@ export const pressingTriggers: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Body orientation. If the full-back receives facing the touchline — back to goal — we trigger the press and [[trap:to force the ball-carrier into a position with no easy pass]] them on the line. But if they receive already facing forward, we [[hold off:to delay pressing, waiting for the right moment]] and wait for a better [[pressing trigger:same]]. Committing when they face forward just gets us [[spring the press:for an opposition player to escape the press]] — we end up exposed.',
     },
     {
@@ -210,7 +210,7 @@ export const pressingTriggers: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'The hardest part is the [[intensity:the energy and aggression with which a team presses]] in the final twenty minutes. If we [[hold a high block:press high up the pitch]] for ninety minutes, by the end our pressing is loose — triggers are missed, we press at wrong moments. Managing pressing [[intensity:same]] across ninety minutes is as important as the triggers themselves.',
     },
   ],

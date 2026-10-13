@@ -45,13 +45,13 @@ export const beautyAtTheHairSalon: Lesson = {
 
   dialogue: [
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Hi, I'd like to get a [[haircut:when someone cuts your hair]] today." },
-    { speaker: 'Hairdresser', speakerColor: 'orange', text: 'Of course! What would you like to do with your hair?' },
+    { speaker: 'Hairdresser', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/hairdresser-icon.png', speakerColor: 'orange', text: 'Of course! What would you like to do with your hair?' },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Something fresh. Maybe cut off about two inches and add some [[highlights:lighter parts of hair]]." },
-    { speaker: 'Hairdresser', speakerColor: 'orange', text: "Great! Would you like to touch up your [[roots:hair close to your head]] too? They're starting to show." },
+    { speaker: 'Hairdresser', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/hairdresser-icon.png', speakerColor: 'orange', text: "Great! Would you like to touch up your [[roots:hair close to your head]] too? They're starting to show." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes, please! And I'd like to [[dye:change the colour of]] my hair a darker shade, maybe brown." },
-    { speaker: 'Hairdresser', speakerColor: 'orange', text: "Sure. I'll [[wash:clean with water and soap]] your hair first with a special [[shampoo:liquid soap for hair]]." },
+    { speaker: 'Hairdresser', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/hairdresser-icon.png', speakerColor: 'orange', text: "Sure. I'll [[wash:clean with water and soap]] your hair first with a special [[shampoo:liquid soap for hair]]." },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Perfect. My ends are very dry. I want to get rid of them." },
-    { speaker: 'Hairdresser', speakerColor: 'orange', text: "No problem. I'll use [[conditioner:cream to make hair soft]] and [[blow-dry:dry with a hairdryer]] it at the end. Do you want [[bangs:short hair at the front]]?" },
+    { speaker: 'Hairdresser', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/hairdresser-icon.png', speakerColor: 'orange', text: "No problem. I'll use [[conditioner:cream to make hair soft]] and [[blow-dry:dry with a hairdryer]] it at the end. Do you want [[bangs:short hair at the front]]?" },
     { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Hmm, not this time. Just the colour and a nice cut, thank you!" },
   ],
 

@@ -186,7 +186,7 @@ export const deadBallSituations: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'I had decided where I was going to put it before I even left the halfway line. I used a [[stutter run:a deliberate pause in the run-up to make the keeper commit early]] — the keeper dived left. I [[buried:to score clinically without hesitation]] it right. I was completely focused — the crowd was screaming but I was [[ice cold:composed, showing no emotion under pressure]] inside.',
     },
     {
@@ -198,7 +198,7 @@ export const deadBallSituations: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Our [[corner routine:a pre-designed movement pattern from a corner]] — the three runners to the near post pulled four defenders with them. I was the fourth runner, unmarked at the far post. The defender panicked, grabbed my shirt — [[penalty spot:the mark 12 yards from goal]]. It was a [[dead ball:a moment when play stops and restarts from a fixed position]] situation that we had practised hundreds of times.',
     },
     {
@@ -210,7 +210,7 @@ export const deadBallSituations: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'The goalkeeper who had been diving before the ball was even struck — they had committed too early. That gave me time to adjust. And the free kick that [[cancelled out:to equalise by scoring]] their opening goal — that took [[nerve:same]] too. I curled it in from 28 yards. The [[wall:the line of defending players blocking the free kick]] jumped and I put it under them. It was a [[last-gasp:happening at the very last moment]] equaliser and it changed the whole match.',
     },
   ],

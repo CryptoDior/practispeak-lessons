@@ -179,13 +179,13 @@ export const injuryTime: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'City were winning 1-0. Then the fourth official raised the [[board:the electronic board showing added time]] — five minutes of [[added time:extra minutes added for stoppages]]!',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Five minutes! That\'s because there were two long [[delays:stoppages that hold up play]] — one for a [[concussion:a serious head injury]] and one for a VAR check.',
     },
     {
@@ -197,13 +197,13 @@ export const injuryTime: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'They pushed forward — desperate for an equaliser. And in the 94th minute — in [[injury time:the informal term for added time]] — they [[found:find → found]] an [[equaliser:a goal that levels the score]]!',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: '1-1! The crowd went wild. But City didn\'t stop — they pushed back immediately. And then — in the [[dying minutes:the very last moments of the match]] — City scored again!',
     },
     {
@@ -215,7 +215,7 @@ export const injuryTime: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'It is another word for [[added time:extra minutes at the end of a half for stoppages]]. The same thing. "Stoppage time," "injury time," "added time" — all mean the same thing.',
     },
     {
@@ -227,7 +227,7 @@ export const injuryTime: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'They are injured but they [[carried:carry → carried]] on playing — they didn\'t ask to come off. They pushed through the pain. Less delay, but also more risk.',
     },
     {

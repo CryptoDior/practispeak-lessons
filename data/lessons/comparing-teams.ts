@@ -179,13 +179,13 @@ export const comparingTeams: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'They are [[more organised than:more structured and disciplined than]] us defensively. And they are [[more experienced than:having played more games and big moments than]] us — seven players with over 100 league appearances.',
     },
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'But we are [[faster than:quicker than]] them — our wingers are much quicker. And I think we are [[more attacking than:more focused on scoring than]] them.',
     },
     {
@@ -197,7 +197,7 @@ export const comparingTeams: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Are they [[stronger than:more physically powerful than]] us? I think their centre backs are much bigger.',
     },
     {
@@ -209,7 +209,7 @@ export const comparingTeams: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'And their away form is worse than their home form — they have only won twice away from home this season.',
     },
     {

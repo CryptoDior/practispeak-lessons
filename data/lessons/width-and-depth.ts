@@ -179,7 +179,7 @@ export const widthAndDepth: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'I enjoy creating the overlap — running beyond the winger gives you a crossing position near the [[byline:the end line of the pitch]]. But the underlap can be more dangerous because defenders do not expect it.',
     },
     {
@@ -191,7 +191,7 @@ export const widthAndDepth: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'A traditional winger tends to stay wide and get to the byline. An inverted winger prefers cutting inside — they want to shoot on their stronger foot. They avoid going to the byline.',
     },
     {
@@ -203,7 +203,7 @@ export const widthAndDepth: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Instead of crossing into the air, you decide to play the ball back along the ground to a teammate arriving in the penalty area. Defenders hate defending cutbacks because the ball is low, fast, and played away from the goalkeeper.',
     },
     {
@@ -215,7 +215,7 @@ export const widthAndDepth: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Stretching the play creates space. By keeping width, we force the defenders to choose — follow the winger and leave space in the middle, or stay narrow and let us [[whip in:to cross with pace and bend]] crosses from wide positions.',
     },
   ],

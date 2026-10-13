@@ -178,7 +178,7 @@ export const b1ReviewTheBigDebate: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'In my opinion, Lionel Messi is the greatest player of all time. I believe this because the [[evidence:facts, statistics, or examples to support your argument]] is overwhelming — eight Ballon d\'Or awards, four World Cups with Argentina, multiple Champions Leagues, and a 2022 World Cup won in perhaps the greatest final ever played. His [[legacy:what a player leaves behind — their lasting impact]] goes beyond statistics: he changed what we believe is possible in football. [[To be fair:used to concede the other side]], Ronaldo\'s goal record is extraordinary — I [[concede:to admit a point from the other side is valid]] that completely. However, I would [[stand by:to maintain your position even under pressure]] my position: total impact, across all [[criteria:the factors you use to judge something]], Messi wins.',
     },
     {
@@ -190,7 +190,7 @@ export const b1ReviewTheBigDebate: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'From my perspective, Cristiano Ronaldo is the GOAT — and here is why. I would [[back up:to support a claim with evidence]] this with one fact: he is the all-time top scorer in the history of international football. He has won league titles in three different countries — England, Spain, and Italy — something Messi has not done. Of course, I [[concede:same]] that Messi\'s 2022 World Cup changed the [[debate:same]] significantly. Having said that, [[subjective:based on personal feeling or opinion rather than facts]] factors like "style" should not decide the GOAT. [[Ultimately:used to conclude an argument]], [[it all comes down to:to ultimately depend on — when a debate is reduced to its essential factor]] your [[criteria:same]] — and on mine, Ronaldo is the greatest.',
     },
     {
@@ -202,7 +202,7 @@ export const b1ReviewTheBigDebate: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'In my opinion — no. And perhaps that is the beauty of the debate. Football is [[subjective:same]] at its core — the love of the game, the magic of watching a brilliant player, cannot be [[ruled out:to eliminate a possibility or candidate]] of the conversation by statistics alone. The [[debate:same]] will never be [[settle the debate:to find a definitive answer that everyone accepts]]d — and that is what keeps us all talking.',
     },
   ],

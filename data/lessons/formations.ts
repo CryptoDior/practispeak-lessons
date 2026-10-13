@@ -179,7 +179,7 @@ export const formations: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'The three numbers show defenders, midfielders, and attackers. A [[4-4-2:four defenders, four midfielders, two strikers]] means four defenders, four midfielders, two strikers. Always back to front.',
     },
     {
@@ -191,7 +191,7 @@ export const formations: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'A [[4-3-3:four defenders, three midfielders, three attackers]] is more [[attacking:focused on scoring — more offensive]] than a 4-4-2. It has three forwards instead of two — but only three midfielders, so the midfield is smaller.',
     },
     {
@@ -203,7 +203,7 @@ export const formations: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'A 5-4-1 is much more [[defensive:focused on stopping goals]] — five defenders! It is not as [[attacking:offensive]] as a 4-3-3. It is harder to score from, but harder to score against.',
     },
     {
@@ -215,7 +215,7 @@ export const formations: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'The team is close together — no big gaps between the lines. A 5-4-1 is more compact than a 4-3-3. A 4-3-3 [[presses:applies pressure high up the pitch]] higher — so there is more space behind the defenders.',
     },
     {
@@ -227,7 +227,7 @@ export const formations: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'In a 4-3-3, one of the three midfielders is the holding midfielder — they stay back and protect the defence. In a 4-4-2, the two central midfielders share this role. A holding midfielder is more defensive than an attacking midfielder.',
     },
     {
@@ -239,7 +239,7 @@ export const formations: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Players are out of position — there are gaps. The opposition can exploit the space. Losing shape is one of the most dangerous things in football — even if your formation is good on paper.',
     },
   ],

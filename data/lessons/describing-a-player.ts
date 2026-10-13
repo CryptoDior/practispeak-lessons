@@ -179,7 +179,7 @@ export const describingAPlayer: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'She is [[quick:fast — able to run at high speed]] and [[creative:able to create chances with clever passes]]. She reads the game well and she is [[reliable:consistent and dependable every game]].',
     },
     {
@@ -191,7 +191,7 @@ export const describingAPlayer: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'He is [[clinical:precise and efficient in front of goal]] and [[strong:powerful and physical]] in the air. He is [[strong in the air:good at heading the ball]] — he scores so many headers.',
     },
     {
@@ -203,7 +203,7 @@ export const describingAPlayer: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: '"Quick" describes speed — how fast a player moves. "Strong" describes physical power — how well they hold off opponents and win challenges.',
     },
     {
@@ -215,7 +215,7 @@ export const describingAPlayer: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Because the coach can play them in many positions. If someone is injured, a versatile player can cover. They are very useful in a squad.',
     },
   ],

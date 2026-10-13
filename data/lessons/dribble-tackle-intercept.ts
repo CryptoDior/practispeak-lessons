@@ -179,7 +179,7 @@ export const dribbleTackleIntercept: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'He\'s [[dribbling:running with the ball at his feet, moving past defenders]] toward the penalty box!',
     },
     {
@@ -191,13 +191,13 @@ export const dribbleTackleIntercept: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'She\'s [[pressing:moving quickly toward the ball to put the player under pressure]] him — she\'s getting very close.',
     },
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I can hear her — "Man on!" But I\'m [[shielding:using my body to protect the ball]] the ball and looking for a pass.',
     },
     {
@@ -209,13 +209,13 @@ export const dribbleTackleIntercept: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'I [[nutmeg:kick the ball through the opponent\'s legs]] her! The ball goes through her legs and I\'m through!',
     },
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Oh! He\'s nutmegged her! Now he\'s running — nobody is [[pressing:closing down]] him now.',
     },
     {
@@ -227,7 +227,7 @@ export const dribbleTackleIntercept: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'She [[intercepted:caught the ball before it reached its target]] it! Great reading of the game. But I nearly scored!',
     },
     {
@@ -239,7 +239,7 @@ export const dribbleTackleIntercept: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'Coach — what does "reading the game" mean exactly?',
     },
     {

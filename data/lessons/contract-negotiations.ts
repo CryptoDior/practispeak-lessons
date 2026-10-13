@@ -186,7 +186,7 @@ export const contractNegotiations: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'It means I have eighteen months remaining on my contract and we have not [[come to an agreement:to reach a deal both sides accept]] on a new one. My agent said the club offered £80,000 per week — I am [[holding out for:to refuse to accept less than a specific amount]] £120,000. We are £40,000 apart on [[wages:a player\'s weekly salary]] and the club are not offering a [[release clause:a fixed price that allows a player to leave automatically]] either.',
     },
     {
@@ -198,7 +198,7 @@ export const contractNegotiations: Lesson = {
     {
       speaker: 'Sofia',
       speakerColor: 'blue',
-      speakerAvatar: '/images/sofia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sofia-icon.png',
       text: 'What kind of offer? Has a club actually [[approached:made a formal expression of interest in signing a player]] about signing Ronaldo?',
     },
     {
@@ -210,7 +210,7 @@ export const contractNegotiations: Lesson = {
     {
       speaker: 'Ronaldo',
       speakerColor: 'green',
-      speakerAvatar: '/images/ronaldo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/ronaldo-icon.png',
       text: 'Those "sources close to the player" — that is my agent. He told the journalist that. I have nothing but respect for this club — but at this stage of my career I feel I need a new challenge. A bigger stage. My agent [[pushed for:to actively seek something specific in a negotiation]] more money and the club [[walked away:to end negotiations rather than accept terms]]. Sometimes that is how it ends.',
     },
   ],
