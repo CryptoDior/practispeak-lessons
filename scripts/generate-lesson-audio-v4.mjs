@@ -210,7 +210,8 @@ function readEntries(slug) {
     const re = new RegExp(`(?:word|phrase)\\s*:\\s*${str}[\\s\\S]*?example\\s*:\\s*${str}`, 'g');
     let m;
     while ((m = re.exec(body))) {
-      entries.push({ title: unesc(m[1] ?? m[2]), example: unesc(m[3] ?? m[4]) });
+      // Real-life cards (Roblox lessons) can repeat an in-game word, so they get their own "-irl" file names
+      entries.push({ title: unesc(m[1] ?? m[2]), example: unesc(m[3] ?? m[4]), irl: section === 'irlVocabulary' });
     }
   }
   return entries;
@@ -405,7 +406,7 @@ for (const slug of slugs) {
     const planA = p ? voiceOf(typeof p === 'string' ? p : p.A, n) : null;
     const planB = p && typeof p === 'object' ? voiceOf(p.B, n + 1) : null;
     const voice = planA || VOICES[n % VOICES.length];
-    const base = `${slug}-${audioSlugOf(e.title)}`;
+    const base = `${slug}-${e.irl ? "irl-" : ""}${audioSlugOf(e.title)}`;
     const jobs = [];
     if (WORDS) jobs.push({ name: `${base}.mp3`, text: `${TAGS.word} ${speakableWord(e.title)}`.trim(), settings: WORD_SETTINGS });
     const story = plan && plan._cast ? narrativeTurns(e.example, plan._cast) : null;

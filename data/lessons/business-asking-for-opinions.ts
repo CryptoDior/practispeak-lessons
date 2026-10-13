@@ -28,7 +28,7 @@ export const businessAskingForOpinions: Lesson = {
     { word: 'APPROVAL PROCESS', partOfSpeech: 'noun', definition: 'The steps needed to get permission or agreement.', example: 'The approval process takes three weeks.', imageSlug: img('approval-process') },
     { word: 'INITIATIVE', partOfSpeech: 'noun', definition: 'A new plan to solve a problem or improve something.', example: "I'd like to start an initiative to improve team communication.", imageSlug: img('initiative') },
     { word: 'COMPETITIVE', partOfSpeech: 'adjective', definition: 'Trying to be as good as or better than others.', example: 'To stay competitive, we should offer a discount to new customers.', imageSlug: img('competitive') },
-    { word: 'LAUNCH', partOfSpeech: 'verb', definition: 'To start something new, like a product or project.', example: 'I propose launching the product next month.', imageSlug: img('launch') },
+    { word: 'LAUNCH', partOfSpeech: 'verb', definition: 'To start something new, like a product or project.', example: 'We will launch the product next month.', imageSlug: img('launch') },
     { word: 'CONSIDER', partOfSpeech: 'verb', definition: 'To think carefully about something before deciding.', example: 'Please consider using a different supplier.', imageSlug: img('consider') },
   ],
 
