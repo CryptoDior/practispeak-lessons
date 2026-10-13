@@ -181,63 +181,63 @@ export const robloxMyRobloxHome: Lesson = {
 
   dialogue: [
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Mia, I just downloaded Roblox! What do I do first? I see a [[home page:the first page that shows your games and friends]] but I don't understand it.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: 'Easy! Look at the top — do you see the [[search bar:the box where you type to find games]]? Type "obby" and see what comes up!',
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: 'I typed it and found so many games! I clicked Play. Now I see a room with other players but the game has not started.',
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: 'That is the [[lobby:the waiting area before a game round starts]]! Just wait — it will begin soon. Did you check your [[notification:a little message that tells you something happened]]? I sent you a friend request!',
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: 'Yes! I saw it at the top of my screen. I pressed the little bell icon. How do I accept it?',
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: 'Click on it and press Accept! Then I will be in your [[friends list:the list of all the people you play with]].',
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: 'Done! Now I can see you in my friends list. Also, I pressed something and a [[menu:a list of buttons and settings]] opened. How do I close it?',
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: 'Press Escape! Or click the X [[button:something you press to make something happen]]. The menu is useful though — it has settings and a Leave button.',
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: 'Got it! And on the home page I see tabs at the top — what is the [[games tab:the section where you find and pick new games]]?',
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: 'That is where all the popular games are! Click it and you will find hundreds of games. It is like a search bar but easier — the best ones are already there!',
     },
   ],
@@ -286,7 +286,7 @@ export const robloxMyRobloxHome: Lesson = {
       correctIndex: 2,
     },
     {
-      question: 'What did Leo do when Mia sent a friend request?',
+      question: 'What did Mario do when Mia sent a friend request?',
       options: [
         'He searched for her in the search bar.',
         'He clicked the notification and pressed Accept.',
@@ -316,7 +316,7 @@ export const robloxMyRobloxHome: Lesson = {
       correctIndex: 1,
     },
     {
-      question: 'How does Leo close the menu?',
+      question: 'How does Mario close the menu?',
       options: [
         'He clicks the notification.',
         'He types in the search bar.',

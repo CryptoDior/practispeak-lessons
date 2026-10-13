@@ -36,7 +36,7 @@ export const robloxAdverbsOfManner: Lesson = {
       word: 'AGGRESSIVELY',
       partOfSpeech: 'adverb',
       definition: "In a very strong and attacking way — pushing hard to win.",
-      example: "Leo played aggressively in the opening rounds, pushing into every territory before the other team had a chance to settle.",
+      example: "Mario played aggressively in the opening rounds, pushing into every territory before the other team had a chance to settle.",
       imageSlug: '/images/roblox-adverbs-of-manner-aggressively.png',
     },
     {
@@ -64,7 +64,7 @@ export const robloxAdverbsOfManner: Lesson = {
       word: 'DECISIVELY',
       partOfSpeech: 'adverb',
       definition: "In a clear and confident way — acting quickly without hesitating.",
-      example: "When the opening appeared, Leo acted decisively — he moved in immediately instead of pausing to overthink it.",
+      example: "When the opening appeared, Mario acted decisively — he moved in immediately instead of pausing to overthink it.",
       imageSlug: '/images/roblox-adverbs-of-manner-decisively.png',
     },
     {
@@ -193,7 +193,7 @@ export const robloxAdverbsOfManner: Lesson = {
     {
       phrase: "CARRY ON",
       definition: "To keep doing something, even when there is a reason to stop.",
-      example: "Even when the connection was poor and the match felt hopeless, Leo just carried on and played out the round.",
+      example: "Even when the connection was poor and the match felt hopeless, Mario just carried on and played out the round.",
       inGame: "Carry on until the final second — matches that look lost have been won in the last moment before.",
       inRealLife: "She carried on with the presentation even when the technology failed — composure under pressure impressed everyone.",
       imageSlug: '/images/roblox-adverbs-of-manner-carry-on.png',
@@ -214,61 +214,61 @@ export const robloxAdverbsOfManner: Lesson = {
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
-      text: "Leo, I watched the replay of our last match and I noticed something. You and I play completely differently, even when we are on the same team.",
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
+      text: "Mario, I watched the replay of our last match and I noticed something. You and I play completely differently, even when we are on the same team.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "What did you notice specifically?",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "You move [[aggressively:in a forceful, attacking, and highly competitive manner]] — always pushing into the opponent's space. I tend to play [[strategically:in a careful, planned way with long-term thinking]] — holding position and waiting for the right moment.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "That is a very precise observation. And you are right — and honestly, the combination works well. When I push [[aggressively:with force and intensity]] and you respond [[patiently:in a calm, steady way without rushing]], it creates pressure from two directions that is hard to defend against.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "I also noticed that in round three, I played too [[carelessly:without proper attention, leading to avoidable mistakes]] — I left the right side of the build completely open and they came through it immediately.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "I saw that. The thing is — you were doing everything else [[efficiently:maximising results with minimum wasted effort]] and then one careless moment undid it. The best players are those who play [[consistently:reliably, to the same standard every time]] — not brilliantly sometimes and carelessly other times.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "That is the hardest thing to train — [[consistent:steady and reliable]] performance. It is easy to play well when you are focused. It is harder to play well when you are tired or frustrated.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Exactly. And when something goes wrong, the best response is not to play more [[aggressively:with force and intensity]] — it is to step back, slow down, and reset. Then [[decisively:with clear, confident action]] move into the next phase when the moment is right.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "So the goal is not to pick one style — aggressive or strategic, patient or decisive — but to know when each one is the right approach.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "That is exactly it. The adverb changes everything. Playing [[competitively:focused on winning and outperforming]] is always the mindset — but how you compete depends on reading the situation correctly.",
     },
   ],
@@ -339,7 +339,7 @@ export const robloxAdverbsOfManner: Lesson = {
 
   multipleChoiceExercise: [
     {
-      question: "In the dialogue, what does Leo say is the key to combining aggressive and patient playstyles?",
+      question: "In the dialogue, what does Mario say is the key to combining aggressive and patient playstyles?",
       options: [
         "Only one player should ever be aggressive at a time.",
         "The combination creates pressure from two directions that is hard to defend.",

@@ -204,64 +204,64 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
 
   dialogue: [
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Mia, quick — I am guiding you through the dungeon on voice chat. Can you hear me?",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "I can hear you! I am in the first chamber. Which way do I go?",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Run [[across:from one side to the other of]] the stone bridge first — do not stop, there are archers on both sides.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "Done! I am [[through:on the other side of]] the bridge. There is a room with two pillars ahead. What now?",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Grab the health pack — it is sitting [[between:in the space separating]] the two pillars. Then go toward the far wall.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "Got it! Now I see a platform [[beneath:directly below]] a hanging bridge. Is that where I need to go?",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Drop down to it — the hidden vault entrance is [[beneath:below]] the main platform. Walk [[along:following the length of]] the far wall until you see the blue door.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "I can see the door! There are enemies [[toward:in the direction of]] the exit though — three of them, heavily armed.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Stay [[within:inside the boundaries of]] the shadow zone — they cannot see you there. Wait for them to move [[beyond:to the other side of]] the pillar, then sprint to the door.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
-      text: "I am through! The legendary chest is right here. Leo — your directions were perfect. I could not have navigated this [[without:in the absence of]] you.",
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
+      text: "I am through! The legendary chest is right here. Mario — your directions were perfect. I could not have navigated this [[without:in the absence of]] you.",
     },
   ],
 
@@ -351,7 +351,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
       correctIndex: 1,
     },
     {
-      question: "In the dialogue, where does Leo tell Mia to find the health pack?",
+      question: "In the dialogue, where does Mario tell Mia to find the health pack?",
       options: [
         "Beneath the hanging bridge",
         "Along the far wall near the blue door",
@@ -381,7 +381,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
       correctIndex: 1,
     },
     {
-      question: "In the dialogue, why does Leo tell Mia to stay in the shadow zone?",
+      question: "In the dialogue, why does Mario tell Mia to stay in the shadow zone?",
       options: [
         "The shadow zone gives her extra speed.",
         "The health pack is located there.",

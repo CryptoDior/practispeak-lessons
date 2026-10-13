@@ -43,7 +43,7 @@ export const robloxCollocations: Lesson = {
       word: 'JOIN A SERVER',
       partOfSpeech: 'phrase',
       definition: "To enter a game session. JOIN is the right verb for entering a group or place — not ENTER.",
-      example: "Leo joined the private server ten minutes before the tournament started to test his connection.",
+      example: "Mario joined the private server ten minutes before the tournament started to test his connection.",
       imageSlug: '/images/roblox-collocations-join-a-server.png',
     },
     {
@@ -64,7 +64,7 @@ export const robloxCollocations: Lesson = {
       word: 'MAKE PROGRESS',
       partOfSpeech: 'phrase',
       definition: "To move forward toward your goal. MAKE is the right verb with progress — not DO or GET.",
-      example: "After two weeks of consistent play, Leo was finally making real progress on the ranking ladder.",
+      example: "After two weeks of consistent play, Mario was finally making real progress on the ranking ladder.",
       imageSlug: '/images/roblox-collocations-make-progress.png',
     },
     {
@@ -214,61 +214,61 @@ export const robloxCollocations: Lesson = {
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
-      text: "Leo, I wrote something in the guild chat and someone told me the English sounded a bit off. I said: 'We did a record last night.' What is wrong with that?",
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
+      text: "Mario, I wrote something in the guild chat and someone told me the English sounded a bit off. I said: 'We did a record last night.' What is wrong with that?",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "The grammar is technically fine — but it is not how native speakers say it. You [[break:surpass the previous best performance]] a record, not do one. 'We broke a record last night.' This is a collocation — a fixed word partnership where only one verb fits naturally.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "But why break? It does not make logical sense — you are not destroying anything.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Collocations are not about logic — they are about habit. Languages just have fixed combinations that sound right because speakers have used them that way for generations. You earn Robux, not win Robux. You [[join:become part of]] a server, not enter one. You [[hit:reach]] a milestone, not arrive at one.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "So 'hit a milestone' — why HIT? A milestone is a marker, not something you strike.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "No logical reason — but HIT is always the verb. 'We hit a milestone', 'hit our target', 'hit a deadline'. MAKE works for progress — you [[make:produce or create]] progress, not do progress. And GAIN works for advantage — you [[gain:obtain something through effort]] an advantage, not win one.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "What about reputation — we BUILD a reputation?",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Exactly — BUILD a reputation. Not create, not make, not earn. You BUILD it, slowly, over time. And in competitive play: you [[take:move into]] the lead, not get or win the lead. 'The guild took the lead in round three' — that is the natural collocation.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "This is making me realise how many combinations I must be getting wrong without knowing it.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "The best way to learn them is not to memorise lists — it is to read and listen to lots of natural English and notice the patterns. When you see 'earn', notice what follows. When you see 'hit', notice what follows. Gradually, the combinations start to feel automatic.",
     },
   ],
@@ -289,7 +289,7 @@ export const robloxCollocations: Lesson = {
         explanation: "HIT a milestone is the standard collocation — you hit milestones and targets. REACH can sometimes be used with 'target', but HIT is the most natural and common choice for milestone specifically.",
       },
       {
-        sentence: "After weeks of grinding, Leo was finally _____ real progress on the ranking ladder.",
+        sentence: "After weeks of grinding, Mario was finally _____ real progress on the ranking ladder.",
         options: ["doing", "making", "getting"],
         correctIndex: 1,
         explanation: "MAKE progress is the fixed collocation — you make progress, not do it or get it. MAKE is the standard verb for progress in all contexts.",
@@ -329,7 +329,7 @@ export const robloxCollocations: Lesson = {
   fillBlankExercise: [
     { before: "She", answer: 'broke', after: "the server record for fastest solo completion — by more than forty seconds." },
     { before: "The guild", answer: 'hit', after: "a major milestone last night — one hundred competitive wins in a single season." },
-    { before: "After two weeks of consistent play, Leo was finally", answer: 'making', after: "real progress on the ranking ladder." },
+    { before: "After two weeks of consistent play, Mario was finally", answer: 'making', after: "real progress on the ranking ladder." },
     { before: "Choosing the high-ground position", answer: 'gains', after: "you a significant advantage in both visibility and defence." },
     { before: "Mia spent two years", answer: 'building', after: "a reputation for fair play — and it became her greatest professional asset." },
     { before: "The guild", answer: 'took', after: "the lead in round two and held it comfortably until the final whistle." },
@@ -339,7 +339,7 @@ export const robloxCollocations: Lesson = {
 
   multipleChoiceExercise: [
     {
-      question: "In the dialogue, what does Leo say is the key to learning collocations?",
+      question: "In the dialogue, what does Mario say is the key to learning collocations?",
       options: [
         "Memorise long lists of fixed combinations as quickly as possible.",
         "Read the grammar rules for each collocation until they make logical sense.",

@@ -35,14 +35,14 @@ export const robloxAgreeingDisagreeing: Lesson = {
       word: 'DIPLOMATICALLY',
       partOfSpeech: 'adverb',
       definition: "In a careful way that is honest but does not upset the other person.",
-      example: "Mia diplomatically pointed out the flaw in Leo's strategy without making him feel defensive about it.",
+      example: "Mia diplomatically pointed out the flaw in Mario's strategy without making him feel defensive about it.",
       imageSlug: '/images/roblox-agreeing-disagreeing-diplomatically.png',
     },
     {
       word: 'BLUNTLY',
       partOfSpeech: 'adverb',
       definition: "In a very direct way — saying exactly what you think without making it softer.",
-      example: "Leo put it bluntly: 'That strategy does not work and we need to change it today.'",
+      example: "Mario put it bluntly: 'That strategy does not work and we need to change it today.'",
       imageSlug: '/images/roblox-agreeing-disagreeing-bluntly.png',
     },
     {
@@ -160,7 +160,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
     {
       phrase: "COME AROUND",
       definition: "To change your mind and agree after first disagreeing.",
-      example: "Leo was sceptical at first, but eventually came around to Mia's approach after seeing the results.",
+      example: "Mario was sceptical at first, but eventually came around to Mia's approach after seeing the results.",
       inGame: "Give people time to come around to a new strategy — immediate resistance does not mean permanent opposition.",
       inRealLife: "The board came around to the proposal after the pilot results were presented — it took three months.",
       imageSlug: '/images/roblox-agreeing-disagreeing-come-around.png',
@@ -176,7 +176,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
     {
       phrase: "TALK THROUGH",
       definition: "To discuss something carefully together to reach an understanding.",
-      example: "Instead of arguing, Mia and Leo talked through the strategy together — and found a better approach than either had originally proposed.",
+      example: "Instead of arguing, Mia and Mario talked through the strategy together — and found a better approach than either had originally proposed.",
       inGame: "When there is disagreement in the guild, talk it through before the match — not during it.",
       inRealLife: "The two departments talked through their differences in a three-hour session — by the end, they had a shared plan.",
       imageSlug: '/images/roblox-agreeing-disagreeing-talk-through.png',
@@ -184,7 +184,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
     {
       phrase: "HEAR OUT",
       definition: "To listen to everything someone says before you respond.",
-      example: "Leo heard Mia out completely before responding — and then agreed with most of what she had said.",
+      example: "Mario heard Mia out completely before responding — and then agreed with most of what she had said.",
       inGame: "Hear your teammates out before dismissing their ideas — you might be missing information they have that you do not.",
       inRealLife: "She heard the client out for twenty minutes before speaking — and then addressed every concern they had raised.",
       imageSlug: '/images/roblox-agreeing-disagreeing-hear-out.png',
@@ -213,49 +213,49 @@ export const robloxAgreeingDisagreeing: Lesson = {
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
-      text: "Leo, I think Phantom Gardens is a better game than Phoenix Force server. The design is more creative and the community is friendlier.",
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
+      text: "Mario, I think Phantom Gardens is a better game than Phoenix Force server. The design is more creative and the community is friendlier.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "I [[beg to differ:a formal, polite way of disagreeing]] on that. Phoenix Force has a more developed competitive scene and better progression mechanics. I [[acknowledge:accept or admit something is true]] that Phantom Gardens has excellent design — [[valid point:a logically sound observation]] — but design alone does not make a game better overall.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "I [[concede:admit an opposing point is valid]] that Phoenix Force is more competitive. But for players who are not focused on rankings, community experience matters more. You are measuring quality by only one standard.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "[[Fair enough:accepting that a point has merit]] — that is a [[valid point:a logically sound argument]] about the audience. Different players have different priorities. I was defining 'better' as competitive quality; you are defining it as overall experience.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "Exactly. So the [[dispute:a disagreement between parties]] is not really about which game is objectively better — it is about which definition of 'better' we are using.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "I think you are right. I concede the whole argument — not because I was wrong about Phoenix Force, but because you were right that we were not defining the same thing. That is often how disagreements actually work.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "Notice what you just did — you [[backed down:withdrew your position]] [[diplomatically:in a tactful way that preserves the relationship]], not because you lost, but because the argument moved to a new level. That is a very sophisticated way to disagree.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "That is the goal. [[Bluntly:directly and without softening]] disagreeing shuts down conversations. Diplomatic disagreement opens them up. At B2, you should be able to [[stand your ground:maintain your position under pressure]] on points you believe in — and gracefully [[concede:admit an opposing point]] on points where the evidence has moved.",
     },
   ],
@@ -326,7 +326,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
 
   multipleChoiceExercise: [
     {
-      question: "In the dialogue, Leo explains why diplomatic disagreement is preferable to blunt disagreement. What does he say?",
+      question: "In the dialogue, Mario explains why diplomatic disagreement is preferable to blunt disagreement. What does he say?",
       options: [
         "Blunt disagreement is always rude and should be avoided entirely.",
         "Diplomatic disagreement is more formal and required in professional contexts.",
@@ -366,7 +366,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
       correctIndex: 2,
     },
     {
-      question: "In the dialogue, how does Leo ultimately resolve the disagreement about which game is better?",
+      question: "In the dialogue, how does Mario ultimately resolve the disagreement about which game is better?",
       options: [
         "He concedes that Phantom Gardens is objectively better.",
         "He insists that Phoenix Force is better and Mia eventually agrees.",

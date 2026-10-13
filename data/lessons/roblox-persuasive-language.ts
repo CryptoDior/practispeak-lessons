@@ -213,61 +213,61 @@ export const robloxPersuasiveLanguage: Lesson = {
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
-      text: "Leo, I have written a review of Phoenix Force server for the guild newsletter. Can you look at it? I wrote: 'The game is good. The graphics are nice. I like the trading system. I recommend it.'",
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
+      text: "Mario, I have written a review of Phoenix Force server for the guild newsletter. Can you look at it? I wrote: 'The game is good. The graphics are nice. I like the trading system. I recommend it.'",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "It is accurate — but it is not persuasive. You have described, but you have not argued. A good review does not just say what is good — it tells the reader why it matters and makes them feel something. Let us work on it.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "So instead of 'the game is good', what should I say?",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Try: 'The gameplay experience is [[outstanding:exceptionally and noticeably better than everything else]] — every match feels different, and the skill ceiling is genuinely high.' Specific, evaluative, and strong. Not just 'good'.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "And for the trading system — 'the trading system is genuinely [[innovative:introducing new ideas or approaches not seen before]]'?",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Much better. And if there are weaknesses — say them. Credibility comes from honesty. 'The main [[drawback:a disadvantage or negative aspect]] is the loading time.' Then use [[nevertheless:in spite of that, the conclusion does not change]]: 'Nevertheless, once you are in, the experience is worth the wait.'",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "And DESPITE — can I use that instead of NEVERTHELESS?",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Different function. NEVERTHELESS starts a new sentence: 'The tutorial is weak. Nevertheless, it improves.' DESPITE starts a clause within a sentence: '[[Despite:without being affected by]] the weak tutorial, the overall experience is excellent.' NEVERTHELESS is for contrast. DESPITE is for acknowledgement without cancellation.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "And the ending — should I save the [[verdict:the final judgement or conclusion]] for last?",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Always. Build toward it. Give the evidence, acknowledge the [[drawbacks:disadvantages or flaws]], show that they do not cancel the positives — then deliver a [[compelling:powerfully convincing]] verdict. 'I would [[recommend:advocate for as the right choice]] this without hesitation to anyone who takes competitive play seriously.' That is a verdict. Not 'I recommend it.'",
     },
   ],
@@ -338,7 +338,7 @@ export const robloxPersuasiveLanguage: Lesson = {
 
   multipleChoiceExercise: [
     {
-      question: "In the dialogue, Leo explains the difference between NEVERTHELESS and DESPITE. Which is correct?",
+      question: "In the dialogue, Mario explains the difference between NEVERTHELESS and DESPITE. Which is correct?",
       options: [
         "NEVERTHELESS is a preposition; DESPITE starts a new sentence.",
         "NEVERTHELESS starts a new sentence after a negative; DESPITE introduces a clause within one sentence.",
@@ -348,7 +348,7 @@ export const robloxPersuasiveLanguage: Lesson = {
       correctIndex: 1,
     },
     {
-      question: "Why does Leo say Mia's original review ('The game is good. I like the trading system.') is not persuasive?",
+      question: "Why does Mario say Mia's original review ('The game is good. I like the trading system.') is not persuasive?",
       options: [
         "Because the grammar is incorrect.",
         "Because it is too long and needs to be shorter.",
@@ -388,7 +388,7 @@ export const robloxPersuasiveLanguage: Lesson = {
       correctIndex: 1,
     },
     {
-      question: "In persuasive writing, why does Leo say you should acknowledge drawbacks?",
+      question: "In persuasive writing, why does Mario say you should acknowledge drawbacks?",
       options: [
         "Because all reviews must be balanced and present both sides equally.",
         "Because readers already know about the problems and you cannot hide them.",

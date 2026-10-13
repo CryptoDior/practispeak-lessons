@@ -48,7 +48,7 @@ export const robloxReviewB2Block1: Lesson = {
       word: 'CONTRIBUTION',
       partOfSpeech: 'noun',
       definition: "Something useful you give to a group or project. Noun form of CONTRIBUTE. (From Lesson 7: Word Formation)",
-      example: "Leo's greatest contribution to the guild is his ability to mentor new players while continuing to compete at the highest level.",
+      example: "Mario's greatest contribution to the guild is his ability to mentor new players while continuing to compete at the highest level.",
       imageSlug: '/images/roblox-review-b2-block-1-contribution.png',
     },
     {
@@ -191,49 +191,49 @@ export const robloxReviewB2Block1: Lesson = {
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
-      text: "Leo, that tournament was a real game-changer for the whole guild. The way everyone played strategically in the final round was different from anything we have done before.",
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
+      text: "Mario, that tournament was a real game-changer for the whole guild. The way everyone played strategically in the final round was different from anything we have done before.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "I agree — and looking back on the whole season, I think that match was where everything came together. My one regret is the third round. If we had held the centre zone for two more minutes, the outcome would have been completely different.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "I concede that the third round cost us. But I beg to differ on the overall conclusion — I think we played well enough to be proud of the result. It is alleged that the winning guild had inside knowledge of our strategy, which would explain the early pressure.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "That is alleged, not confirmed — so I would not put too much weight on it. What I can say is that the team's contribution this season has been outstanding. We hit a major milestone — the first time we have reached the regional finals.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "And the review I wrote for the guild newsletter made a compelling case for why we should enter again next season. I used everything we practised — drawbacks acknowledged, verdict delivered, recommendation backed up with evidence.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "And the old rotation system is being phased out next month — the new approach we built up this season will finally be rolled out across the full squad. I think this block has genuinely levelled up how we think about the game and how we communicate.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "Agreed. We bounce back better, we press on more consistently, and when we disagree — we actually talk it through instead of just arguing. Language and performance are more connected than I expected.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "That is always the finding. The players who can communicate precisely — who can say what they mean, acknowledge what went wrong, and make a compelling case for what to do next — those are the ones who keep improving. Block 2 will build on exactly that.",
     },
   ],
@@ -304,7 +304,7 @@ export const robloxReviewB2Block1: Lesson = {
 
   multipleChoiceExercise: [
     {
-      question: "In the dialogue, Leo expresses a regret using the third conditional. Which of these is a correct third conditional structure?",
+      question: "In the dialogue, Mario expresses a regret using the third conditional. Which of these is a correct third conditional structure?",
       options: [
         "If we hold the zone, we will win.",
         "If we had held the zone, we would have won.",

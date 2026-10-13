@@ -204,63 +204,63 @@ export const robloxMovementAndAction: Lesson = {
 
   dialogue: [
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Mia, did you watch my stream last night? I finally beat the arena boss — the one that took me forty attempts.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "I did! That moment where you [[dodged:moved quickly to one side to avoid being hit]] the meteor at the last second — honestly stunning. I actually screamed.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Pure instinct! I knew if I [[sprinted:ran at full speed in a short burst]] left I would get hit, so I [[dodged:moved quickly to the side]] right instead. The boss completely missed.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "And then you [[leapt:jumped a long distance in one powerful movement]] over the shockwave — I have no idea how you timed that. The hitbox on that attack is tiny.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "I have died to that shockwave so many times. Every time I [[charged:moved fast and directly toward the target]] straight at the boss, it just knocked me back. I had to rethink everything.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "What finally worked? You [[dashed:moved in a sudden burst of speed]] in from the side, right? I noticed you stopped [[charging:moving fast directly at the target]] head-on.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Exactly. I [[dashed:moved in a short burst of speed]] in from the flank, waited for the opening, then [[lunged:thrust forward suddenly to attack]] with the heavy attack. One clean hit in the weak point.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "The moment you two [[collided:hit each other with force]] on that last hit — the screen shook! And then the boss went down. How many times did you [[respawn:come back after being eliminated]] before that?",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Forty-three. But each time I [[respawned:came back to the game after being eliminated]], I learned something new. That is actually the best way to get good at any boss fight.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "[[Dodge:move to avoid]], [[sprint:run at full speed]], [[respawn:come back after being eliminated]], [[collide:crash into with force]], [[dash:short burst of speed]], [[leap:powerful jump]], [[charge:move fast at a target]], [[lunge:thrust forward to attack]] — these are not just game words. Sport commentators use them constantly!",
     },
   ],
@@ -351,7 +351,7 @@ export const robloxMovementAndAction: Lesson = {
       correctIndex: 2,
     },
     {
-      question: "In the dialogue, why did Leo stop CHARGING head-on at the boss?",
+      question: "In the dialogue, why did Mario stop CHARGING head-on at the boss?",
       options: [
         "He ran out of energy and could not sprint anymore.",
         "The boss was too far away to reach.",
@@ -381,7 +381,7 @@ export const robloxMovementAndAction: Lesson = {
       correctIndex: 1,
     },
     {
-      question: "How many times did Leo RESPAWN before beating the boss?",
+      question: "How many times did Mario RESPAWN before beating the boss?",
       options: [
         "Ten times.",
         "Twenty-seven times.",

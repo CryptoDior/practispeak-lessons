@@ -50,7 +50,7 @@ export const robloxIdiomsIi: Lesson = {
       word: 'STEP UP',
       partOfSpeech: 'phrase',
       definition: "To take action or take control when it is needed — especially in a hard situation.",
-      example: "When our leader went offline in the final round, Leo stepped up and took charge — we won because of him.",
+      example: "When our leader went offline in the final round, Mario stepped up and took charge — we won because of him.",
       imageSlug: '/images/roblox-idioms-ii-step-up.png',
     },
     {
@@ -214,49 +214,49 @@ export const robloxIdiomsIi: Lesson = {
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
-      text: "Leo, our guild's ranking dropped again. We used to be top five. Now we are fifteenth. I do not understand — we are playing the same way we always have.",
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
+      text: "Mario, our guild's ranking dropped again. We used to be top five. Now we are fifteenth. I do not understand — we are playing the same way we always have.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "That is exactly the problem. Other guilds have [[raised the bar:set a higher standard that everyone else must now try to reach]] — they improved while we stayed the same. Standing still in a competitive game means falling behind.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "So we need to [[up our game:start performing better than we are right now]]?",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Exactly. And we need people to [[step up:take action and take control when it is needed]] — not wait for someone else to fix it. Right now we have players who are comfortable. Comfortable does not win tournaments.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "We have that new player, Rin. She has only been here three weeks, but she is already [[ahead of the curve:more advanced than most other people — doing things before others know about them]] on the new meta.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "I noticed her too. Her map awareness is [[in a league of its own:so much better than everything else that nothing else is at the same level]] for someone that new. She has not [[hit her stride:reached her best level of performance yet]] — and she is already better than most of our veterans.",
     },
     {
       speaker: 'Mia',
       speakerColor: 'purple',
-      speakerAvatar: '/images/mia-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mia-icon.png',
       text: "Should we ask her to lead the training sessions? That would be [[going the extra mile:doing more than what is expected — trying harder than necessary]] for a new member.",
     },
     {
-      speaker: 'Leo',
+      speaker: 'Mario',
       speakerColor: 'green',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/leo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/mario-icon.png',
       text: "Not lead — not yet. But invite her to share what she knows. If the rest of the team [[rises to the challenge:does well when something is hard or new — shows they can handle it]], we could be back in the top five within a month.",
     },
   ],
@@ -277,10 +277,10 @@ export const robloxIdiomsIi: Lesson = {
         explanation: "HIT HER STRIDE means reached her best level of performance after a slow start — the sentence describes exactly this pattern: struggle, then peak performance.",
       },
       {
-        sentence: "When our captain disconnected in the final minute, Leo _____ and called all the plays himself.",
+        sentence: "When our captain disconnected in the final minute, Mario _____ and called all the plays himself.",
         options: ["went the extra mile", "stepped up", "came out on top"],
         correctIndex: 1,
-        explanation: "STEPPED UP means took action and took control when it was needed — exactly what Leo did when the captain left.",
+        explanation: "STEPPED UP means took action and took control when it was needed — exactly what Mario did when the captain left.",
       },
       {
         sentence: "Her reaction speed is _____ — nobody in the server even comes close to matching it.",
@@ -327,7 +327,7 @@ export const robloxIdiomsIi: Lesson = {
 
   multipleChoiceExercise: [
     {
-      question: "In the dialogue, Leo says 'Standing still in a competitive game means falling behind.' Which achievement idiom does this idea relate to most directly?",
+      question: "In the dialogue, Mario says 'Standing still in a competitive game means falling behind.' Which achievement idiom does this idea relate to most directly?",
       options: [
         "GO THE EXTRA MILE — because you always need to do more than expected.",
         "UP YOUR GAME — because if others improve and you do not, your relative performance drops.",
@@ -347,7 +347,7 @@ export const robloxIdiomsIi: Lesson = {
       correctIndex: 2,
     },
     {
-      question: "Leo says Rin 'has not hit her stride yet — and she is already better than most of our veterans.' What does this tell us?",
+      question: "Mario says Rin 'has not hit her stride yet — and she is already better than most of our veterans.' What does this tell us?",
       options: [
         "Rin is not as good as the veterans think she is.",
         "Rin is still at her best level and getting better slowly.",
