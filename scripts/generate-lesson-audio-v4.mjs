@@ -87,6 +87,8 @@ const VOICE_GENDER = {
   'l4Coq6695JDX9xtLqXDE': 'F', '1SM7GgM6IMuvQlz2BwM3': 'M', 'aMSt68OGf4xUZAnLpTU8': 'F',
   'uHoisgHFfUYZ3FULxcdM': 'M', 'bGz4A6rl9U05wqaE3qt1': 'F', 'JBFqnCBsd6RMkjVDRZzb': 'M',
   'Tfv2PGiTliSQ4XSXrJmA': 'F',
+  'onwK4e9ZLuTAKqWW03F9': 'M', // Daniel — British male
+  'Xb7hH8MSUJpSbSDYk0k2': 'F', // Alice — British female
 };
 /** Voice of the given gender for word number n (same word → same voice every run). */
 function voiceOf(g, n) {
