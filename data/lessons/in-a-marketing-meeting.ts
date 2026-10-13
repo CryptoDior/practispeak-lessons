@@ -49,7 +49,7 @@ export const inAMarketingMeeting: Lesson = {
       partOfSpeech: 'noun',
       definition: 'New information about something.',
       example: 'Here is a quick update on our campaign.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/in-a-marketing-meeting-update.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/in-a-marketing-meeting-update.png?v=2',
     },
     {
       word: 'BRIEF',
