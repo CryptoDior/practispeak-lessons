@@ -21,7 +21,7 @@ export const brandStorytelling: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The main character of a story, who faces a problem and succeeds.',
       example: 'In our case study, the client is the hero.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-storytelling-hero.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/brand-storytelling-hero-word.png',
     },
     {
       word: 'CONFLICT',

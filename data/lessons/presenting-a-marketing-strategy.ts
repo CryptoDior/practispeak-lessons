@@ -42,14 +42,14 @@ export const presentingAMarketingStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A clear suggestion about what to do.',
       example: 'My recommendation is to move budget to LinkedIn.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-recommendation.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-recommendation.png?v=2',
     },
     {
       word: 'OBJECTIVE',
       partOfSpeech: 'noun',
       definition: 'The clear goal that a plan wants to reach.',
       example: 'Our objective is 600 new leads by the end of the year.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-objective.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-a-marketing-strategy-objective.png?v=2',
     },
     {
       word: 'SLIDE',

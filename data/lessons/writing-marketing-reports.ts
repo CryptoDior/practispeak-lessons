@@ -28,7 +28,7 @@ export const writingMarketingReports: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A suggestion about what to do next.',
       example: 'Our main recommendation is to test a new subject line.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-marketing-reports-recommendation.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/writing-marketing-reports-recommendation.png?v=2',
     },
     {
       word: 'METRIC',

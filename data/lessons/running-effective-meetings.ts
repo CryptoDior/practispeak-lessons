@@ -14,7 +14,7 @@ export const runningEffectiveMeetings: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A list of topics to be discussed at a meeting.',
       example: 'I\'ll go through the agenda with the client before our call.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/running-effective-meetings-agenda.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/running-effective-meetings-agenda.png?v=2',
     },
     {
       word: 'ACTION ITEM',
@@ -42,7 +42,7 @@ export const runningEffectiveMeetings: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A message or action after a meeting to check progress.',
       example: 'She is writing a follow-up email to the client after the call.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/running-effective-meetings-follow-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/running-effective-meetings-follow-up.png?v=2',
     },
     {
       word: 'STANDING ITEM',

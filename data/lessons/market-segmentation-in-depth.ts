@@ -63,7 +63,7 @@ export const marketSegmentationInDepth: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A specific problem that regularly frustrates a customer.',
       example: 'Wasted budget is the biggest pain point for our persona.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/market-segmentation-in-depth-pain-point.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/market-segmentation-in-depth-pain-point.png?v=2',
     }
   ],
 

@@ -21,7 +21,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
       partOfSpeech: 'noun',
       definition: 'The clear goal that a campaign wants to reach.',
       example: 'Our objective is to get 500 new leads by December.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/b1-final-project-campaign-plan-objective.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/b1-final-project-campaign-plan-objective.png?v=2',
     },
     {
       word: 'TARGET AUDIENCE',

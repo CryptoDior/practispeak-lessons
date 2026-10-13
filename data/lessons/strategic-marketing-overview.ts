@@ -41,8 +41,8 @@ export const strategicMarketingOverview: Lesson = {
       word: 'PROPOSITION',
       partOfSpeech: 'noun',
       definition: 'A clear statement of what you offer and why it is valuable.',
-      example: 'Our proposition is simple: an integrated platform with dedicated support for your hotel.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-marketing-overview-proposition.png',
+      example: 'Our proposition is simple: we save small teams time and money.',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategic-marketing-overview-proposition.png?v=2',
     },
     {
       word: 'TARGET MARKET',

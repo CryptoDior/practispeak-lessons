@@ -35,7 +35,7 @@ export const presentingToStakeholders: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A goal that you want to reach.',
       example: 'Our main objective is to get more qualified leads this quarter.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-to-stakeholders-objective.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/presenting-to-stakeholders-objective.png?v=2',
     },
     {
       word: 'ROI',

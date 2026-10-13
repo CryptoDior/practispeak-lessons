@@ -14,7 +14,7 @@ export const dataDrivenDecisions: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A screen that shows key numbers and results in one place.',
       example: 'I check the dashboard every morning before the team meeting.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/data-driven-decisions-dashboard.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/data-driven-decisions-dashboard.png?v=2',
     },
     {
       word: 'INSIGHT',
