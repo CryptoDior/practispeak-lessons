@@ -128,6 +128,8 @@ if (!VOICES.length) { console.error('No usable voices left.'); process.exit(1); 
 const flags = new Set(args.filter((a) => a.startsWith('--')));
 // --entries=1,3,5  → only these word numbers in each lesson (1 = first word)
 const entriesArg = args.find((a) => a.startsWith('--entries='));
+// --gender=M records only the cards whose voice plan says M (or F)
+const GENDER_ONLY = (process.argv.find((a) => a.startsWith('--gender=')) || '').slice(9) || null;
 const ONLY = entriesArg ? new Set(entriesArg.slice(10).split(',').map(Number)) : null;
 let slugs = args.filter((a) => !a.startsWith('--') && !/^(A1|A2|B1|B2|C1|C2|A1-A2|B1-B2|C1-C2)$/.test(a));
 const levelArg = args.find((a) => /^(A1|A2|B1|B2|C1|C2|A1-A2|B1-B2|C1-C2)$/.test(a)); // used with --all
@@ -414,13 +416,16 @@ for (const slug of slugs) {
   if (plan) console.log('   🎭 using voice plan (voices matched to images)');
   for (const [n, e] of entries.entries()) {
     if (ONLY && !ONLY.has(n + 1)) continue;
+    if (GENDER_ONLY) { const pg = plan && plan[String(n + 1)]; const g0 = typeof pg === 'string' ? pg : pg?.A; if (g0 !== GENDER_ONLY) continue; }
     const p = plan && plan[String(n + 1)];
     const planA = p ? voiceOf(typeof p === 'string' ? p : p.A, n) : null;
     const planB = p && typeof p === 'object' ? voiceOf(p.B, n + 1) : null;
     const voice = planA || VOICES[n % VOICES.length];
     const base = `${slug}-${e.irl ? "irl-" : ""}${audioSlugOf(e.title)}`;
     const jobs = [];
-    if (WORDS) jobs.push({ name: `${base}.mp3`, text: `${TAGS.word} ${speakableWord(e.title)}`.trim(), settings: WORD_SETTINGS });
+    // The young/teen voices turn a single slow word into breath or wind, so words get no tag with them
+    const wordTag = TEEN.M.includes(voice) || TEEN.F.includes(voice) ? '' : TAGS.word;
+    if (WORDS) jobs.push({ name: `${base}.mp3`, text: `${wordTag} ${speakableWord(e.title)}`.trim(), settings: WORD_SETTINGS });
     const story = plan && plan._cast ? narrativeTurns(e.example, plan._cast) : null;
     if (EXAMPLES && story) {
       // Narrator + characters, each in their own voice
