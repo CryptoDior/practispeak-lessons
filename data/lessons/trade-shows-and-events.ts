@@ -20,8 +20,8 @@ export const tradeShowsAndEvents: Lesson = {
       word: 'PITCH',
       partOfSpeech: 'noun',
       definition: 'A short talk to make someone interested in your product.',
-      example: 'His pitch takes only two minutes.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/trade-shows-and-events-pitch.png',
+      example: 'Her pitch takes only two minutes.',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/trade-shows-and-events-pitch.png?v=2',
     },
     {
       word: 'HANDOUT',
@@ -56,14 +56,14 @@ export const tradeShowsAndEvents: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A person who may become a customer.',
       example: 'This prospect wants a demo next week.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/trade-shows-and-events-prospect.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/trade-shows-and-events-prospect.png?v=2',
     },
     {
       word: 'FOLLOW-UP',
       partOfSpeech: 'noun',
       definition: 'Contact you make after meeting someone.',
       example: 'Her follow-up email went out the next morning.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/trade-shows-and-events-follow-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/trade-shows-and-events-follow-up.png?v=2',
     }
   ],
 

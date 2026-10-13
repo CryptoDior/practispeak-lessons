@@ -35,7 +35,7 @@ export const measuringSuccess: Lesson = {
       partOfSpeech: 'noun',
       definition: 'Something you want to achieve.',
       example: 'Our goal is fifty new leads this quarter.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-goal.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-goal.png?v=2',
     },
     {
       word: 'TARGET',
@@ -56,7 +56,7 @@ export const measuringSuccess: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A document that shows results.',
       example: 'The monthly report goes out every Monday.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-report.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/measuring-success-report.png?v=2',
     },
     {
       word: 'INSIGHT',
