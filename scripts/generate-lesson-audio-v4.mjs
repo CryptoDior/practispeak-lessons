@@ -228,7 +228,10 @@ function imageUrlsOf(slug) {
       if (src[end] === '[') depth++;
       else if (src[end] === ']' && --depth === 0) break;
     }
-    for (const m of src.slice(i, end).matchAll(/imageSlug\s*:\s*['"`]([^'"`]+)['"`]/g)) urls.push(m[1]);
+    // Only the word/phrase card images count — not the extra brand "visual example" images inside a phrase
+    for (const m of src.slice(i, end).matchAll(/imageSlug\s*:\s*['"`]([^'"`]+)['"`]/g)) {
+      if (!m[1].includes('/visual-examples/')) urls.push(m[1]);
+    }
   }
   return urls;
 }
