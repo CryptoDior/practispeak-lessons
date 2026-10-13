@@ -90,10 +90,18 @@ const VOICE_GENDER = {
   'onwK4e9ZLuTAKqWW03F9': 'M', // Daniel — British male
   'Xb7hH8MSUJpSbSDYk0k2': 'F', // Alice — British female
 };
+// Teen voices (for Roblox lessons): --teen-m=id1,id2  --teen-f=id3,id4
+const TEEN = {
+  M: ((process.argv.find((a) => a.startsWith('--teen-m=')) || '').slice(9)).split(',').filter(Boolean),
+  F: ((process.argv.find((a) => a.startsWith('--teen-f=')) || '').slice(9)).split(',').filter(Boolean),
+};
+for (const g of ['M', 'F']) for (const v of TEEN[g]) VOICE_GENDER[v] = g;
+
 /** Voice of the given gender for word number n (same word → same voice every run). */
 function voiceOf(g, n) {
   // A plan entry can also be a specific voice ID (e.g. a British voice so "A4" is said the UK way)
   if (g && g.length > 2 && !BANNED_VOICES.has(g)) return g;
+  if (TEEN[g]?.length) return TEEN[g][n % TEEN[g].length];
   let pool = VOICES.filter((v) => VOICE_GENDER[v] === g);
   if (!pool.length) pool = DEFAULT_VOICES.filter((v) => VOICE_GENDER[v] === g && !BANNED_VOICES.has(v));
   return pool[n % pool.length];
@@ -325,6 +333,10 @@ function narrativeTurns(raw, cast) {
 
 /** Second voice for dialogues: the next voice in the rotation, or a default one if only one voice is set. */
 function partnerVoice(voice, n) {
+  // With teen voices set, the other speaker is a teen of the opposite gender
+  const g = VOICE_GENDER[voice];
+  const other = TEEN[g === 'M' ? 'F' : 'M'];
+  if (other?.length) return other[n % other.length];
   const pool = VOICES.length > 1 ? VOICES : DEFAULT_VOICES.filter((v) => !BANNED_VOICES.has(v));
   for (let k = 1; k <= pool.length; k++) {
     const v = pool[(n + k) % pool.length];

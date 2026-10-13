@@ -414,7 +414,7 @@ function LessonContent({ lesson }: { lesson: Lesson }) {
               subtitle={`${lesson.irlVocabulary.length} words — what they mean in real life`}
             />
             <div className="flex flex-col gap-4">
-              {lesson.irlVocabulary.map((word, i) => <VocabCard key={`irl-${word.word}`} word={word} index={i} lessonSlug={lesson.slug} />)}
+              {lesson.irlVocabulary.map((word, i) => <VocabCard key={`irl-${word.word}`} word={word} index={i} lessonSlug={`${lesson.slug}-irl`} />)}
             </div>
           </section>
         )}
