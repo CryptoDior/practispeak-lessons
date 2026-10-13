@@ -409,15 +409,15 @@ export const basicSalesPhoneCall: Lesson = {
                 "text": "Good morning. This is Alex calling from TechSales."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Hi, who is this?"
             },
             {
                 "speaker": "Alex",
-                "text": "Am I talking with Sam Wilson?"
+                "text": "Am I talking with Kevin Wilson?"
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Yes, speaking."
             },
             {

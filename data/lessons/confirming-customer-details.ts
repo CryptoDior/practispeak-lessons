@@ -421,7 +421,7 @@ export const confirmingCustomerDetails: Lesson = {
                 "text": "Hi. I need to confirm a few details before I set up your account."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Sure. My last name is Wilson."
             },
             {
@@ -429,7 +429,7 @@ export const confirmingCustomerDetails: Lesson = {
                 "text": "Could you say your last name for me? Letter by letter."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "W-I-L-S-O-N. And my email is sam.wilson@company.com."
             },
             {

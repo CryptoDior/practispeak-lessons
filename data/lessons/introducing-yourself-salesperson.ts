@@ -166,7 +166,7 @@ export const introducingYourselfSalesperson: Lesson = {
     {
       speaker: 'Carlos',
       speakerColor: 'blue',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sam-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kevin-icon.png',
       text: "It's great to [[meet:to see and talk with someone for the first time]] you, Dana. I'd love to hear more about your team and what you're looking for.",
     },
     {

@@ -412,10 +412,10 @@ export const paymentVocabulary: Lesson = {
         "dialogue": [
             {
                 "speaker": "Alex",
-                "text": "Hi Sam. I will send you the invoice by email today."
+                "text": "Hi Kevin. I will send you the invoice by email today."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Thank you. When is payment do?"
             },
             {
@@ -423,7 +423,7 @@ export const paymentVocabulary: Lesson = {
                 "text": "Payment is due within 30 days — by the end of next month."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Okay. I will pay by a bank transfer."
             },
             {
@@ -431,7 +431,7 @@ export const paymentVocabulary: Lesson = {
                 "text": "Perfect. I will include our bank details on the invoice."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "And can I have a recipe when I pay?"
             }
         ],

@@ -424,10 +424,10 @@ export const followingUpAfterACall: Lesson = {
         "dialogue": [
             {
                 "speaker": "Alex",
-                "text": "Good morning, Sam. I'm following up in our call from last week."
+                "text": "Good morning, Kevin. I'm following up in our call from last week."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Hi Alex. Yes — I've been meaning to get in touch."
             },
             {
@@ -435,7 +435,7 @@ export const followingUpAfterACall: Lesson = {
                 "text": "As we discussed, the team had some outstanding questions. I wanted to address them directly."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Yes. Could you let me know what are the next steps if we decide to go ahead?"
             },
             {
@@ -443,7 +443,7 @@ export const followingUpAfterACall: Lesson = {
                 "text": "Of course. I'll also touch a base with you on Friday to check where things stand after the review."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Perfect. Please don't hesitate to reach out if we need anything before then."
             }
         ],

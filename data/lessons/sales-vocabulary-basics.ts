@@ -110,9 +110,9 @@ export const salesVocabularyBasics: Lesson = {
 
   dialogue: [
     {
-      speaker: 'Sam',
+      speaker: 'Kevin',
       speakerColor: 'blue',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sam-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kevin-icon.png',
       text: 'Welcome to the team! Our company sells software and cloud tools to other businesses — these are our [[products:things a company makes or sells]].',
     },
     {
@@ -122,9 +122,9 @@ export const salesVocabularyBasics: Lesson = {
       text: 'Got it. So if a [[customer:a person or company that buys something from a business]] wants to try our software, I just explain how it works?',
     },
     {
-      speaker: 'Sam',
+      speaker: 'Kevin',
       speakerColor: 'blue',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sam-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kevin-icon.png',
       text: 'Exactly! When a company wants to [[buy:to get something by paying money]] something, your job is to show them why our product is the right choice.',
     },
     {
@@ -134,9 +134,9 @@ export const salesVocabularyBasics: Lesson = {
       text: 'Should I ask about their [[budget:the amount of money a company has to spend]] before I suggest a plan?',
     },
     {
-      speaker: 'Sam',
+      speaker: 'Kevin',
       speakerColor: 'blue',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sam-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kevin-icon.png',
       text: 'Always. That leads straight into the [[price:how much money something costs]] talk — our starter plan is $49 a month, and the pro plan is $299.',
     },
     {
@@ -146,9 +146,9 @@ export const salesVocabularyBasics: Lesson = {
       text: "$299 a month? That's a big investment for a small business.",
     },
     {
-      speaker: 'Sam',
+      speaker: 'Kevin',
       speakerColor: 'blue',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sam-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kevin-icon.png',
       text: "True — that's why we're offering new customers a [[discount:a lower price than usual]] this quarter. 20% off the first year!",
     },
     {
@@ -158,9 +158,9 @@ export const salesVocabularyBasics: Lesson = {
       text: 'Oh nice, so that brings it down to around $239 a month?',
     },
     {
-      speaker: 'Sam',
+      speaker: 'Kevin',
       speakerColor: 'blue',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sam-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kevin-icon.png',
       text: 'Exactly. Always mention the discount early — it helps customers feel confident about saying yes.',
     },
     {
@@ -170,9 +170,9 @@ export const salesVocabularyBasics: Lesson = {
       text: 'Got it. And if I want to [[sell:to give something to someone in exchange for money]] more, I should just explain the benefits clearly?',
     },
     {
-      speaker: 'Sam',
+      speaker: 'Kevin',
       speakerColor: 'blue',
-      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/sam-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kevin-icon.png',
       text: "That's the secret. Know your product, listen to what the customer needs, and a good [[deal:an agreement to buy or sell something]] follows naturally.",
     },
     {
@@ -261,7 +261,7 @@ export const salesVocabularyBasics: Lesson = {
 ],
   multipleChoiceExercise: [
     {
-        "question": "What does Sam and Riley's company sell?",
+        "question": "What does Kevin and Riley's company sell?",
         "options": [
             "Office furniture",
             "Software and cloud tools for businesses",
@@ -311,7 +311,7 @@ export const salesVocabularyBasics: Lesson = {
         "correctIndex": 1
     },
     {
-        "question": "According to Sam, what's the secret to selling more?",
+        "question": "According to Kevin, what's the secret to selling more?",
         "options": [
             "Talking about the price first",
             "Knowing your product and listening to the customer's needs",
@@ -321,7 +321,7 @@ export const salesVocabularyBasics: Lesson = {
         "correctIndex": 1
     },
     {
-        "question": "What does Sam suggest Riley ask about before recommending a plan?",
+        "question": "What does Kevin suggest Riley ask about before recommending a plan?",
         "options": [
             "The customer's favorite color",
             "The customer's budget",
@@ -331,7 +331,7 @@ export const salesVocabularyBasics: Lesson = {
         "correctIndex": 1
     },
     {
-        "question": "According to Sam, what naturally follows when you know your product and listen to the customer?",
+        "question": "According to Kevin, what naturally follows when you know your product and listen to the customer?",
         "options": [
             "A complaint",
             "A good deal",

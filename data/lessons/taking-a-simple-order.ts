@@ -405,7 +405,7 @@ export const takingASimpleOrder: Lesson = {
         "instructions": "Read the conversation. Three lines have a mistake. Can you find them?",
         "dialogue": [
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Hi. We need some units of the Standard Plan."
             },
             {
@@ -413,7 +413,7 @@ export const takingASimpleOrder: Lesson = {
                 "text": "How much would you like?"
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Twenty units. Are they free right now?"
             },
             {
@@ -421,7 +421,7 @@ export const takingASimpleOrder: Lesson = {
                 "text": "Yes, twenty units are available. When would you like delivery?"
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "By Friday please."
             },
             {

@@ -430,8 +430,8 @@ export const presentingBenefitsVsFeatures: Lesson = {
                 "matchKey": "automation"
             },
             {
-                "name": "Sam",
-                "description": "Sam is a Sales Director at a fast-growing company. His biggest frustration is that the sales process is inconsistent — every rep does things slightly differently, which makes it impossible to coach effectively or replicate what works.",
+                "name": "Kevin",
+                "description": "Kevin is a Sales Director at a fast-growing company. His biggest frustration is that the sales process is inconsistent — every rep does things slightly differently, which makes it impossible to coach effectively or replicate what works.",
                 "matchKey": "consistency"
             }
         ],

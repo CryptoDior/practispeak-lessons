@@ -427,7 +427,7 @@ export const comparingProductsOrServices: Lesson = {
                 "text": "I know you are looking at CompeteX too. Let me help you compare the two options."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Yes — their reporting tools seem very strong."
             },
             {
@@ -435,7 +435,7 @@ export const comparingProductsOrServices: Lesson = {
                 "text": "Their reporting is solid. However, whereas CompeteX uses fixed templates, we give you fully customisable reports. We specialise on mid-size sales teams like yours."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "What about price? CompeteX looks more cheaper."
             },
             {
@@ -443,7 +443,7 @@ export const comparingProductsOrServices: Lesson = {
                 "text": "Their upfront price is lower, yes. But when you factor in the add-ons, the total is roughly equivalent."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "So the key different is really the customisation and the support?"
             }
         ],

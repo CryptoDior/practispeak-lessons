@@ -412,10 +412,10 @@ export const talkingAboutDelivery: Lesson = {
         "dialogue": [
             {
                 "speaker": "Alex",
-                "text": "Hi Sam. Your order has been dispatched."
+                "text": "Hi Kevin. Your order has been dispatched."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Great. When will it arrive to my office?"
             },
             {
@@ -423,7 +423,7 @@ export const talkingAboutDelivery: Lesson = {
                 "text": "Delivery is tomorrow. The estimate is between 9 and 12."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Will there be some delays?"
             },
             {
@@ -431,7 +431,7 @@ export const talkingAboutDelivery: Lesson = {
                 "text": "We do not expect any delays. I will contact you if there is a problem."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Can you send me my track number?"
             }
         ],

@@ -412,10 +412,10 @@ export const thankingTheCustomer: Lesson = {
         "dialogue": [
             {
                 "speaker": "Alex",
-                "text": "Hi Sam. I just wanted to call and thank you for your order."
+                "text": "Hi Kevin. I just wanted to call and thank you for your order."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "That is very kind. We are very happy with everything."
             },
             {
@@ -423,7 +423,7 @@ export const thankingTheCustomer: Lesson = {
                 "text": "I am so glad. We really appreciate of your business."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "And we will definitely recommend you to other companies."
             },
             {

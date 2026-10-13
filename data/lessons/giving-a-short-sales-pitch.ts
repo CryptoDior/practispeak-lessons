@@ -418,10 +418,10 @@ export const givingAShortSalesPitch: Lesson = {
         "dialogue": [
             {
                 "speaker": "Alex",
-                "text": "Hi Sam. I know you are busy — can I give you a quick pitch?"
+                "text": "Hi Kevin. I know you are busy — can I give you a quick pitch?"
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Sure, but keep it shortly."
             },
             {
@@ -429,7 +429,7 @@ export const givingAShortSalesPitch: Lesson = {
                 "text": "Most sales teams struggle with same pain point — reporting takes too long and tools are disconnected."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Yes, that really resonates. That describes our team perfectly."
             },
             {
@@ -437,7 +437,7 @@ export const givingAShortSalesPitch: Lesson = {
                 "text": "Our platform solves this. The result are a 30% reduction in admin time and a 20% increase in deals closed."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "That is compelling. Can we set up a demo?"
             }
         ],

@@ -71,7 +71,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       phrase: 'GOOD MORNING — MY NAME IS [NAME] FROM [COMPANY]',
       definition: 'A polite way to start a work call or meeting with a new person.',
-      example: 'Good morning, my name is Sam from Brightline.',
+      example: 'Good morning, my name is Kevin from Brightline.',
       imageSlug: '/images/good-morning--my-name-is-name-from-company.png',
     },
     {
@@ -424,10 +424,10 @@ export const simpleSalesRolePlay: Lesson = {
         "dialogue": [
             {
                 "speaker": "Alex",
-                "text": "Good morning. My name is Alex from TechSales. Am I speaking with Sam?"
+                "text": "Good morning. My name is Alex from TechSales. Am I speaking with Kevin?"
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Yes, speaking. Hi Alex."
             },
             {
@@ -435,7 +435,7 @@ export const simpleSalesRolePlay: Lesson = {
                 "text": "I would like to say you about our new Standard Plan."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "What is the price?"
             },
             {

@@ -412,10 +412,10 @@ export const simpleProductComparison: Lesson = {
         "dialogue": [
             {
                 "speaker": "Alex",
-                "text": "Hi Sam. I can help you compare our two plans today."
+                "text": "Hi Kevin. I can help you compare our two plans today."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Great. Which one is more cheap?"
             },
             {
@@ -423,7 +423,7 @@ export const simpleProductComparison: Lesson = {
                 "text": "The Basic Plan is cheaper — it is $20 per user."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "And which is more better for a team of ten people?"
             },
             {
@@ -431,7 +431,7 @@ export const simpleProductComparison: Lesson = {
                 "text": "The Standard Plan is better. It has more features."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "What is the main different between them?"
             }
         ],

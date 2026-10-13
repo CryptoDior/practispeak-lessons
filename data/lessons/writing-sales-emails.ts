@@ -424,10 +424,10 @@ export const writingSalesEmails: Lesson = {
         "dialogue": [
             {
                 "speaker": "Alex",
-                "text": "Hi Sam. I wanted to share a few tips on writing more effective sales emails."
+                "text": "Hi Kevin. I wanted to share a few tips on writing more effective sales emails."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "Great — I always struggle with the subject line. Mine are always too generic."
             },
             {
@@ -435,7 +435,7 @@ export const writingSalesEmails: Lesson = {
                 "text": "A good subject line should be concise and relevant. Avoid to write anything too generic like 'Following up' or 'Checking in'."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "What about the greeting — should I use 'Dear' or 'Hi'?"
             },
             {
@@ -443,7 +443,7 @@ export const writingSalesEmails: Lesson = {
                 "text": "It depends on your relation with the contact. 'Hi James' is warmer for someone you've spoken to before."
             },
             {
-                "speaker": "Sam",
+                "speaker": "Kevin",
                 "text": "And the call to action — 'Would you be opened to a quick call this week?' Does that work?"
             }
         ],

@@ -395,8 +395,8 @@ export const talkingAboutValueNotPrice: Lesson = {
                 "matchKey": "improve"
             },
             {
-                "name": "Sam",
-                "description": "Sam's sales cycle is too long — deals that should close in six weeks are taking twelve. The delays are mostly happening during the approval and follow-up stages, and they are costing him deals to faster-moving competitors.",
+                "name": "Kevin",
+                "description": "Kevin's sales cycle is too long — deals that should close in six weeks are taking twelve. The delays are mostly happening during the approval and follow-up stages, and they are costing him deals to faster-moving competitors.",
                 "matchKey": "reduce"
             }
         ],
