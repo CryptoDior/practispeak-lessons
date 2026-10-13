@@ -134,17 +134,18 @@ async function rewriteOnce(level, items, topic, useImages) {
   }[level] || 'Use simple, clear words.';
   const prompt = `You write vocabulary cards for an English-learning website.
 For each item, write:
-- "definition": ONE short, simple sentence that explains what the word or phrase means. Maximum ${MAX_WORDS} words. No long explanations, no teaching advice.
+- "definition": ONE short, simple, concise sentence that explains what the word or phrase means, like a learner's dictionary. Aim for 6-12 words, maximum ${MAX_WORDS}. Use everyday words that are easier than the word itself. Never use the word itself (or its forms) to explain it. No examples, no "e.g.", no lists, no dashes, no extra detail, no teaching advice.
 - "example": ONE short, natural sentence that USES the word or phrase in EXACTLY the form shown (same spelling and form: "assumption", not "assuming"; "symptom", not "symptoms"; "close a deal", not "closed the deal"). Aim for 6-12 words, maximum ${MAX_WORDS}. ONE idea only: no second clause that explains or repeats the meaning (no "because...", "which means...", "and it keeps...", "so..."). No stories, no narrator, no reported speech (never "X said:"), no names unless needed.
 This is an ENGLISH lesson, not a sales or business course: never give tips, advice or coaching to the reader (no "always...", "you should...", "your job is...", "make sure..."). Just show the word used naturally in an everyday work situation. Avoid dashes; use one simple sentence.
 Definitions explain only what the word means, in plain everyday English, like a learner's dictionary. No extra detail about strategy or best practice.
 ${levelRule}
 If the word is a phrase with placeholders like [name] or [X], the example should fill them in naturally.
 Keep British/American spelling as in the original. Keep the same meaning as the original definition.
+If the original example already matches its image, keep the same idea and just make it shorter and simpler. Only write a new idea when the original does not fit the image.
 Return ONLY a JSON array with one object per item, in the same order: [{"definition": "...", "example": "..."}].
 
 LESSON TOPIC: ${topic}
-Every example MUST stay in this lesson's topic and setting (for a sales lesson: a salesperson talking to or about a customer, client, product, order, deal or meeting). Never switch to an unrelated everyday situation (no restaurants, holidays, friends, etc. unless that IS the lesson topic).
+Every example MUST stay in this lesson's topic and setting (for a sales lesson: a salesperson talking to or about a customer, client, product, order, deal or meeting; for a marketing lesson: a marketer talking about campaigns, brands, audiences, channels, content, ads, data or results at work). Never switch to an unrelated everyday situation (no restaurants, holidays, friends, etc. unless that IS the lesson topic).
 
 Items (level ${level}):
 ${JSON.stringify(items.map((it) => ({ word: it.title, definition: it.def.text, example: it.ex.text })), null, 1)}`;
@@ -190,7 +191,14 @@ for (const slug of slugs) {
   console.log(`\n📘 ${slug} (${level}): ${todo.length} of ${all.length} entries to simplify`);
   if (DRY) { todo.forEach((e) => console.log(`  • ${e.title}`)); continue; }
   try {
-    const topic = [src.match(/\btitle:\s*'([^']+)'/), src.match(/\bsubtitle:\s*'([^']+)'/)].filter(Boolean).map((m) => m[1]).join(' — ');
+    let topic = [src.match(/\btitle:\s*'([^']+)'/), src.match(/\bsubtitle:\s*'([^']+)'/)].filter(Boolean).map((m) => m[1]).join(' — ');
+    // Tell the model which course this belongs to (e.g. "SEO and SEM" is a MARKETING lesson)
+    const seriesSrc = readFileSync(join('lib', 'series.ts'), 'utf8');
+    for (const [name, label] of [['MARKETING_KW', 'Marketing English'], ['SALES_KW', 'Sales English']]) {
+      const m = seriesSrc.match(new RegExp(`const ${name} = \\[([\\s\\S]*?)\\];`));
+      const kws = m ? [...m[1].matchAll(/'([^']+)'/g)].map((x) => x[1]) : [];
+      if (kws.some((k) => slug.includes(k))) { topic += ` (part of the ${label} course)`; break; }
+    }
     const out = await rewrite(level, todo, topic || slug);
     // apply from the end of the file backwards so positions stay valid
     const edits = [];
