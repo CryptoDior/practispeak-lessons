@@ -13,8 +13,8 @@ export const makingAnOffer: Lesson = {
       word: 'BUNDLE',
       partOfSpeech: 'noun',
       definition: 'A group of products sold together for a lower price.',
-      example: 'This bundle costs $49 instead of $77.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-an-offer-bundle.png',
+      example: 'Our bundle includes blog posts, social media posts and reports.',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/making-an-offer-bundle.png?v=2',
     },
     {
       word: 'LOYALTY',
