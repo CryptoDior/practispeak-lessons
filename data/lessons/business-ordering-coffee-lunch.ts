@@ -106,14 +106,14 @@ export const businessOrderingCoffeeLunch: Lesson = {
       definition: 'A polite way to order.',
       example: '"I\'d like a latte, please."',
       inAction: '"I\'d like…" is more polite than "I want…". Use it when you order.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-ordering-coffee-lunch-id-like.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-ordering-coffee-lunch-id-like-a-coffee-and-a-sandwich-please.png',
     },
     {
       phrase: 'Are you eating here or taking away?',
       tag: 'phrase',
       definition: 'A common café question. Do you want to eat in the café or take the food with you?',
       example: '"Are you eating here or taking away?" → "Eating here, please."',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-ordering-coffee-lunch-eating-here.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-ordering-coffee-lunch-are-you-eating-here-or-taking-away.png',
     },
   ],
 

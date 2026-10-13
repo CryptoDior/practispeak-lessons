@@ -77,7 +77,7 @@ export const businessTalkingSimpleProblems: Lesson = {
       phrase: 'RUN OUT (OF)',
       definition: 'To have no more of something.',
       example: 'We ran out of paper.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-simple-problems-run-out.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-simple-problems-run-out-of.png',
     },
     {
       phrase: 'OUT OF ORDER',
@@ -98,7 +98,7 @@ export const businessTalkingSimpleProblems: Lesson = {
       tag: 'phrase',
       definition: 'Use this to say there is a problem with a machine.',
       example: '"Excuse me, the printer is not working."',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-simple-problems-not-working.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-simple-problems-the-printer-is-not-working.png',
     },
     {
       phrase: 'Did you try turning it off and on?',
@@ -106,7 +106,7 @@ export const businessTalkingSimpleProblems: Lesson = {
       definition: 'A very common question when a machine has a problem.',
       example: '"My computer is slow." → "Did you try turning it off and on?"',
       inAction: 'After "try", use the -ing form: "Did you try turning it off?"',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-simple-problems-off-and-on.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-simple-problems-did-you-try-turning-it-off-and-on.png',
     },
   ],
 

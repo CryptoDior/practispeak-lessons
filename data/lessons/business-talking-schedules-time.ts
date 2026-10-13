@@ -105,7 +105,7 @@ export const businessTalkingSchedulesTime: Lesson = {
       tag: 'phrase',
       definition: 'Use this to ask about someone\'s work day.',
       example: '"What time do you start work?" → "I start at 9 and finish at 5."',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-schedules-time-what-time.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-schedules-time-what-time-do-you-start-work.png',
     },
     {
       phrase: "I'm free after…",

@@ -106,14 +106,14 @@ export const businessWeekendsHobbies: Lesson = {
       definition: 'A friendly question to start a chat on Monday.',
       example: '"Hi Tim! What did you do this weekend?"',
       inAction: 'The weekend is in the past, so use the past: "What DID you do?" → "I WENT to the park."',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-weekends-hobbies-what-did-you-do.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-weekends-hobbies-what-did-you-do-this-weekend.png',
     },
     {
       phrase: 'What do you like doing in your free time?',
       tag: 'phrase',
       definition: 'Use this to ask about someone\'s hobbies.',
       example: '"What do you like doing in your free time?" → "I like cooking."',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-weekends-hobbies-free-time-question.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-weekends-hobbies-what-do-you-like-doing-in-your-free-time.png',
     },
   ],
 

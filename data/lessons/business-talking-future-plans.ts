@@ -71,7 +71,7 @@ export const businessTalkingFuturePlans: Lesson = {
       phrase: 'CATCH UP (WITH)',
       definition: 'To meet and talk with someone after some time.',
       example: "I'll catch up with my friend tomorrow.",
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-future-plans-catch-up.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-future-plans-catch-up-with.png',
     },
     {
       phrase: 'LOOK FORWARD TO',
@@ -99,14 +99,14 @@ export const businessTalkingFuturePlans: Lesson = {
       tag: 'phrase',
       definition: 'Use this to ask about someone\'s plans.',
       example: '"What will you do tomorrow?" → "I\'ll visit a client."',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-future-plans-what-will-you-do.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-future-plans-what-will-you-do-tomorrow.png',
     },
     {
       phrase: "I'll send you an email tomorrow.",
       tag: 'phrase',
       definition: 'Use this to promise to do something.',
       example: '"Thanks for the meeting. I\'ll send you an email tomorrow."',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-future-plans-ill-send.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-future-plans-ill-send-you-an-email-tomorrow.png',
     },
   ],
 
