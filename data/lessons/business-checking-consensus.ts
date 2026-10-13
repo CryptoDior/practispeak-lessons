@@ -32,13 +32,13 @@ export const businessCheckingConsensus: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'Are we all in agreement about…?', tag: 'phrase', definition: 'Check for consensus.', example: '"Are we all in agreement about postponing the event?"', imageSlug: img('all-in-agreement') },
-    { phrase: 'Does anyone have a different perspective on…?', tag: 'phrase', definition: 'Invite contrasting views.', example: '"Does anyone have a different perspective on how to handle this?"', imageSlug: img('different-perspective') },
-    { phrase: 'Can anyone see an alternative approach?', tag: 'phrase', definition: 'Encourage other ideas.', example: '"Before we decide, can anyone see an alternative approach?"', imageSlug: img('alternative-approach') },
-    { phrase: 'Is there another way we could tackle this?', tag: 'phrase', definition: 'Explore other options.', example: '"Is there another way we could tackle this problem?"', imageSlug: img('another-way') },
-    { phrase: 'Could you go into more detail about…?', tag: 'phrase', definition: 'Ask for a deeper explanation.', example: '"Could you go into more detail about the costs?"', imageSlug: img('more-detail') },
-    { phrase: 'Is there anything anyone would like to add before we move on?', tag: 'phrase', definition: 'Give a final chance to speak.', example: '"Is there anything anyone would like to add before we finalize the schedule?"', imageSlug: img('anything-to-add') },
-    { phrase: "Does anyone who hasn't spoken have any thoughts?", tag: 'phrase', definition: 'Encourage quiet people to participate.', example: '"Does anyone who hasn\'t spoken yet have any thoughts to share?"', inAction: 'Quiet people often have great ideas. Inviting them by name ("Maria, what do you think?") works even better.', imageSlug: img('hasnt-spoken') },
+    { phrase: 'Are we all in agreement about…?', tag: 'phrase', definition: 'Check for consensus.', example: '"Are we all in agreement about postponing the event?"', imageSlug: img('are-we-all-in-agreement-about') },
+    { phrase: 'Does anyone have a different perspective on…?', tag: 'phrase', definition: 'Invite contrasting views.', example: '"Does anyone have a different perspective on how to handle this?"', imageSlug: img('does-anyone-have-a-different-perspective-on') },
+    { phrase: 'Can anyone see an alternative approach?', tag: 'phrase', definition: 'Encourage other ideas.', example: '"Before we decide, can anyone see an alternative approach?"', imageSlug: img('can-anyone-see-an-alternative-approach') },
+    { phrase: 'Is there another way we could tackle this?', tag: 'phrase', definition: 'Explore other options.', example: '"Is there another way we could tackle this problem?"', imageSlug: img('is-there-another-way-we-could-tackle-this') },
+    { phrase: 'Could you go into more detail about…?', tag: 'phrase', definition: 'Ask for a deeper explanation.', example: '"Could you go into more detail about the costs?"', imageSlug: img('could-you-go-into-more-detail-about') },
+    { phrase: 'Is there anything anyone would like to add before we move on?', tag: 'phrase', definition: 'Give a final chance to speak.', example: '"Is there anything anyone would like to add before we finalize the schedule?"', imageSlug: img('is-there-anything-anyone-would-like-to-add-before-we-move-on') },
+    { phrase: "Does anyone who hasn't spoken have any thoughts?", tag: 'phrase', definition: 'Encourage quiet people to participate.', example: '"Does anyone who hasn\'t spoken yet have any thoughts to share?"', inAction: 'Quiet people often have great ideas. Inviting them by name ("Maria, what do you think?") works even better.', imageSlug: img('does-anyone-who-hasnt-spoken-have-any-thoughts') },
   ],
 
   videos: [],

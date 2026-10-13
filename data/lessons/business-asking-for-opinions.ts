@@ -33,13 +33,13 @@ export const businessAskingForOpinions: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'What do you think about…?', tag: 'phrase', definition: 'Ask directly for someone\'s opinion.', example: '"What do you think about moving the deadline forward?"', imageSlug: img('what-do-you-think') },
-    { phrase: 'How do you feel about…?', tag: 'phrase', definition: 'A softer way to ask for an opinion.', example: '"How do you feel about implementing this new strategy?"', imageSlug: img('how-do-you-feel') },
-    { phrase: 'Do you have any thoughts on…?', tag: 'phrase', definition: 'Invite feedback in an open way.', example: '"Do you have any thoughts on expanding our team?"', imageSlug: img('any-thoughts') },
-    { phrase: "What's your take on…?", tag: 'phrase', definition: 'An informal, natural way to ask for an opinion.', example: '"What\'s your take on offering discounts to new customers?"', imageSlug: img('your-take') },
-    { phrase: "I'd like to hear your thoughts on…", tag: 'phrase', definition: 'A polite, slightly formal invitation to share ideas.', example: '"I\'d like to hear your thoughts on the proposed schedule."', imageSlug: img('hear-your-thoughts') },
-    { phrase: 'Can you elaborate on…?', tag: 'phrase', definition: 'Ask someone to explain their idea in more detail.', example: '"Can you elaborate on why this approach would work?"', inAction: '"Elaborate" means "give more detail". It shows you are interested and want to understand fully.', imageSlug: img('elaborate') },
-    { phrase: "Let's hear everyone's perspective on…", tag: 'phrase', definition: 'Encourage the whole group to share.', example: '"Let\'s hear everyone\'s perspective on the new marketing strategy."', imageSlug: img('everyones-perspective') },
+    { phrase: 'What do you think about…?', tag: 'phrase', definition: 'Ask directly for someone\'s opinion.', example: '"What do you think about moving the deadline forward?"', imageSlug: img('what-do-you-think-about') },
+    { phrase: 'How do you feel about…?', tag: 'phrase', definition: 'A softer way to ask for an opinion.', example: '"How do you feel about implementing this new strategy?"', imageSlug: img('how-do-you-feel-about') },
+    { phrase: 'Do you have any thoughts on…?', tag: 'phrase', definition: 'Invite feedback in an open way.', example: '"Do you have any thoughts on expanding our team?"', imageSlug: img('do-you-have-any-thoughts-on') },
+    { phrase: "What's your take on…?", tag: 'phrase', definition: 'An informal, natural way to ask for an opinion.', example: '"What\'s your take on offering discounts to new customers?"', imageSlug: img('whats-your-take-on') },
+    { phrase: "I'd like to hear your thoughts on…", tag: 'phrase', definition: 'A polite, slightly formal invitation to share ideas.', example: '"I\'d like to hear your thoughts on the proposed schedule."', imageSlug: img('id-like-to-hear-your-thoughts-on') },
+    { phrase: 'Can you elaborate on…?', tag: 'phrase', definition: 'Ask someone to explain their idea in more detail.', example: '"Can you elaborate on why this approach would work?"', inAction: '"Elaborate" means "give more detail". It shows you are interested and want to understand fully.', imageSlug: img('can-you-elaborate-on') },
+    { phrase: "Let's hear everyone's perspective on…", tag: 'phrase', definition: 'Encourage the whole group to share.', example: '"Let\'s hear everyone\'s perspective on the new marketing strategy."', imageSlug: img('lets-hear-everyones-perspective-on') },
   ],
 
   videos: [],
