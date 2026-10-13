@@ -90,6 +90,8 @@ const VOICE_GENDER = {
 };
 /** Voice of the given gender for word number n (same word → same voice every run). */
 function voiceOf(g, n) {
+  // A plan entry can also be a specific voice ID (e.g. a British voice so "A4" is said the UK way)
+  if (g && g.length > 2 && !BANNED_VOICES.has(g)) return g;
   let pool = VOICES.filter((v) => VOICE_GENDER[v] === g);
   if (!pool.length) pool = DEFAULT_VOICES.filter((v) => VOICE_GENDER[v] === g && !BANNED_VOICES.has(v));
   return pool[n % pool.length];
