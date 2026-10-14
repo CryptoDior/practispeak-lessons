@@ -29,14 +29,14 @@ export const businessDisagreementCompromise: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'POINT OUT', definition: 'To explain or show something clearly.', example: 'Kira pointed out a problem in the plan.', imageSlug: img('point-out') },
-    { phrase: 'BACK DOWN', definition: 'To stop insisting and accept the other side\'s idea.', example: 'Tim backed down after he heard the facts.', imageSlug: img('back-down') },
-    { phrase: 'TALK OVER', definition: 'To discuss a problem together.', example: "Let's talk it over before deciding.", imageSlug: img('talk-over') },
-    { phrase: 'FIND MIDDLE GROUND', tag: 'collocation', definition: 'To agree on a compromise between two positions.', example: 'We need to find middle ground.', imageSlug: img('middle-ground') },
-    { phrase: 'COME TO AN AGREEMENT', tag: 'collocation', definition: 'To decide something together.', example: 'We finally came to an agreement.', imageSlug: img('come-to-an-agreement') },
-    { phrase: "I'm afraid I don't agree.", tag: 'phrase', definition: 'A polite, slightly formal way to disagree.', example: '"I\'m afraid I don\'t agree. The cost is too high."', inAction: '"I\'m afraid…" softens bad news or disagreement. It doesn\'t mean you are scared!', imageSlug: img('afraid-i-dont-agree') },
-    { phrase: 'Maybe we can do part of your idea and part of mine.', tag: 'phrase', definition: 'Suggest a compromise.', example: '"Maybe we can do part of your idea and part of mine: two days online, three in the office."', imageSlug: img('part-of-your-idea') },
-    { phrase: 'Yes, that works for me.', tag: 'phrase', definition: 'Accept a compromise.', example: '"Three days in the office? Yes, that works for me."', imageSlug: img('works-for-me') },
+    { phrase: 'POINT OUT', definition: 'To explain or show something clearly.', example: 'Kira pointed out a problem in the plan.', imageSlug: img('phrase-point-out') },
+    { phrase: 'BACK DOWN', definition: 'To stop insisting and accept the other side\'s idea.', example: 'Tim backed down after he heard the facts.', imageSlug: img('phrase-back-down') },
+    { phrase: 'TALK OVER', definition: 'To discuss a problem together.', example: "Let's talk it over before deciding.", imageSlug: img('phrase-talk-over') },
+    { phrase: 'FIND MIDDLE GROUND', tag: 'collocation', definition: 'To agree on a compromise between two positions.', example: 'We need to find middle ground.', imageSlug: img('phrase-find-middle-ground') },
+    { phrase: 'COME TO AN AGREEMENT', tag: 'collocation', definition: 'To decide something together.', example: 'We finally came to an agreement.', imageSlug: img('phrase-come-to-agreement') },
+    { phrase: "I'm afraid I don't agree.", tag: 'phrase', definition: 'A polite, slightly formal way to disagree.', example: '"I\'m afraid I don\'t agree. The cost is too high."', inAction: '"I\'m afraid…" softens bad news or disagreement. It doesn\'t mean you are scared!', imageSlug: img('phrase-afraid-dont-agree') },
+    { phrase: 'Maybe we can do part of your idea and part of mine.', tag: 'phrase', definition: 'Suggest a compromise.', example: '"Maybe we can do part of your idea and part of mine: two days online, three in the office."', imageSlug: img('phrase-part-your-idea-part-mine') },
+    { phrase: 'Yes, that works for me.', tag: 'phrase', definition: 'Accept a compromise.', example: '"Three days in the office? Yes, that works for me."', imageSlug: img('phrase-works-for-me') },
   ],
 
   videos: [],

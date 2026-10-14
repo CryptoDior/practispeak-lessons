@@ -30,13 +30,13 @@ export const businessClarifyingPolitely: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'Sorry, could you repeat that, please?', tag: 'phrase', definition: 'Ask someone to say something again, politely.', example: '"Sorry, could you repeat that, please? I missed the last part."', imageSlug: img('repeat') },
-    { phrase: 'Could you explain what you mean by…?', tag: 'phrase', definition: 'Ask about a specific word or idea.', example: '"Could you explain what you mean by \'phase two\'?"', imageSlug: img('what-you-mean-by') },
-    { phrase: 'Just to clarify, …', tag: 'phrase', definition: 'Introduce a question that checks a detail.', example: '"Just to clarify, is the budget per month or per year?"', imageSlug: img('just-to-clarify') },
-    { phrase: "I'm not sure I follow.", tag: 'phrase', definition: 'Say you are confused, in a polite way.', example: '"Sorry, I\'m not sure I follow. Why do we need a new supplier?"', inAction: '"I\'m not sure I follow" is softer than "I don\'t understand you". It puts the problem on you, not the speaker.', imageSlug: img('not-sure-i-follow') },
-    { phrase: "So what you're saying is…", tag: 'phrase', definition: 'Rephrase or summarize what someone said.', example: '"So what you\'re saying is we should wait until June?"', imageSlug: img('what-youre-saying') },
-    { phrase: 'Let me make sure I got that right.', tag: 'phrase', definition: 'Double-check details.', example: '"Let me make sure I got that right: room 4B, 10 a.m., Thursday."', imageSlug: img('got-that-right') },
-    { phrase: 'Thanks, that makes more sense now.', tag: 'phrase', definition: 'Show you understand after the explanation.', example: '"Ah, okay. Thanks, that makes more sense now."', imageSlug: img('makes-sense') },
+    { phrase: 'Sorry, could you repeat that, please?', tag: 'phrase', definition: 'Ask someone to say something again, politely.', example: '"Sorry, could you repeat that, please? I missed the last part."', imageSlug: img('phrase-repeat-that') },
+    { phrase: 'Could you explain what you mean by…?', tag: 'phrase', definition: 'Ask about a specific word or idea.', example: '"Could you explain what you mean by \'phase two\'?"', imageSlug: img('phrase-explain-what-you-mean') },
+    { phrase: 'Just to clarify, …', tag: 'phrase', definition: 'Introduce a question that checks a detail.', example: '"Just to clarify, is the budget per month or per year?"', imageSlug: img('phrase-just-to-clarify') },
+    { phrase: "I'm not sure I follow.", tag: 'phrase', definition: 'Say you are confused, in a polite way.', example: '"Sorry, I\'m not sure I follow. Why do we need a new supplier?"', inAction: '"I\'m not sure I follow" is softer than "I don\'t understand you". It puts the problem on you, not the speaker.', imageSlug: img('phrase-not-sure-i-follow') },
+    { phrase: "So what you're saying is…", tag: 'phrase', definition: 'Rephrase or summarize what someone said.', example: '"So what you\'re saying is we should wait until June?"', imageSlug: img('phrase-what-youre-saying') },
+    { phrase: 'Let me make sure I got that right.', tag: 'phrase', definition: 'Double-check details.', example: '"Let me make sure I got that right: room 4B, 10 a.m., Thursday."', imageSlug: img('phrase-got-that-right') },
+    { phrase: 'Thanks, that makes more sense now.', tag: 'phrase', definition: 'Show you understand after the explanation.', example: '"Ah, okay. Thanks, that makes more sense now."', imageSlug: img('phrase-makes-more-sense') },
   ],
 
   videos: [],

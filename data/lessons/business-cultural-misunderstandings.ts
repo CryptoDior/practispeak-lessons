@@ -30,13 +30,13 @@ export const businessCulturalMisunderstandings: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: "I'm sorry if there was a misunderstanding.", tag: 'phrase', definition: 'Take responsibility politely when communication goes wrong.', example: '"I\'m sorry if there was a misunderstanding about the dress code."', imageSlug: img('sorry-misunderstanding') },
-    { phrase: "I didn't mean to offend you.", tag: 'phrase', definition: 'Show that your words or actions were not intentional.', example: '"I didn\'t mean to offend you. I didn\'t know that custom."', imageSlug: img('didnt-mean-to') },
-    { phrase: 'In my country, we usually…', tag: 'phrase', definition: 'Share your cultural habits without judging others.', example: '"In my country, we usually use first names with managers."', inAction: 'Use "usually" and "in my country" — it shows it\'s a habit, not a rule everyone must follow.', imageSlug: img('in-my-country') },
-    { phrase: "That's interesting, we do it differently.", tag: 'phrase', definition: 'Highlight a difference in a positive way.', example: '"You eat lunch at 2 p.m.? That\'s interesting, we do it differently."', imageSlug: img('do-it-differently') },
-    { phrase: 'Could you tell me more about that custom?', tag: 'phrase', definition: 'Show curiosity and respect.', example: '"Could you tell me more about that custom? I\'d like to understand."', imageSlug: img('tell-me-more') },
-    { phrase: "Let's find a way that works for everyone.", tag: 'phrase', definition: 'Resolve cultural differences professionally.', example: '"Some people prefer email, some prefer calls. Let\'s find a way that works for everyone."', imageSlug: img('works-for-everyone') },
-    { phrase: 'I really appreciate your understanding.', tag: 'phrase', definition: 'End a misunderstanding on a positive note.', example: '"Thanks, Kenji. I really appreciate your understanding."', imageSlug: img('appreciate') },
+    { phrase: "I'm sorry if there was a misunderstanding.", tag: 'phrase', definition: 'Take responsibility politely when communication goes wrong.', example: '"I\'m sorry if there was a misunderstanding about the dress code."', imageSlug: img('phrase-sorry-misunderstanding') },
+    { phrase: "I didn't mean to offend you.", tag: 'phrase', definition: 'Show that your words or actions were not intentional.', example: '"I didn\'t mean to offend you. I didn\'t know that custom."', imageSlug: img('phrase-didnt-mean-to-offend') },
+    { phrase: 'In my country, we usually…', tag: 'phrase', definition: 'Share your cultural habits without judging others.', example: '"In my country, we usually use first names with managers."', inAction: 'Use "usually" and "in my country" — it shows it\'s a habit, not a rule everyone must follow.', imageSlug: img('phrase-in-my-country') },
+    { phrase: "That's interesting, we do it differently.", tag: 'phrase', definition: 'Highlight a difference in a positive way.', example: '"You eat lunch at 2 p.m.? That\'s interesting, we do it differently."', imageSlug: img('phrase-do-it-differently') },
+    { phrase: 'Could you tell me more about that custom?', tag: 'phrase', definition: 'Show curiosity and respect.', example: '"Could you tell me more about that custom? I\'d like to understand."', imageSlug: img('phrase-tell-me-about-custom') },
+    { phrase: "Let's find a way that works for everyone.", tag: 'phrase', definition: 'Resolve cultural differences professionally.', example: '"Some people prefer email, some prefer calls. Let\'s find a way that works for everyone."', imageSlug: img('phrase-works-for-everyone') },
+    { phrase: 'I really appreciate your understanding.', tag: 'phrase', definition: 'End a misunderstanding on a positive note.', example: '"Thanks, Kenji. I really appreciate your understanding."', imageSlug: img('phrase-appreciate-understanding') },
   ],
 
   videos: [],
