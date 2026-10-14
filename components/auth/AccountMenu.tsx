@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { createClient } from '@/lib/supabase/client';
 import { logout } from '@/app/auth/actions';
+import { BECOME_STUDENT_URL } from '@/lib/site';
 
 type Account = { email: string; name: string; plan: 'free' | 'pro'; marketing: boolean };
 
@@ -28,23 +29,33 @@ const ring =
   'focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2';
 
 /**
- * Header plan label: Premium for pro members and logged-out visitors (as an upsell),
- * Free for logged-in free members. Hidden while the session is still loading.
+ * Header plan label for logged-in users: Premium for students, Free for everyone else
+ * (linking to the booking page). Hidden for logged-out visitors.
  */
 function PlanLabel({ account }: { account: Account | null | undefined }) {
-  if (account === undefined) return null;
-  const isFree = account?.plan === 'free';
+  // Logged-out visitors (or still loading): no plan label, just "Log in".
+  if (!account) return null;
+  const isFree = account.plan === 'free';
+  const isPro = account.plan === 'pro';
+  const cls = `hidden sm:flex items-center gap-2 text-sm font-semibold transition-colors rounded-lg px-1 py-2 ${ring} ${
+    isFree ? 'text-slate-500 hover:text-blue-600' : 'text-blue-600 hover:text-blue-700'
+  }`;
+  const label = (
+    <>
+      {!isFree && <CrownIcon className="w-5 h-5" />}
+      {isFree ? 'Free' : 'Premium'}
+    </>
+  );
   return (
     <>
-      <Link
-        href="/#about"
-        className={`hidden sm:flex items-center gap-2 text-sm font-semibold transition-colors rounded-lg px-1 py-2 ${ring} ${
-          isFree ? 'text-slate-500 hover:text-blue-600' : 'text-blue-600 hover:text-blue-700'
-        }`}
-      >
-        {!isFree && <CrownIcon className="w-5 h-5" />}
-        {isFree ? 'Free' : 'Premium'}
-      </Link>
+      {isPro ? (
+        // Students already have everything — nothing to link to.
+        <span className={cls}>{label}</span>
+      ) : (
+        <a href={BECOME_STUDENT_URL} target="_blank" rel="noopener noreferrer" title="Become a student" className={cls}>
+          {label}
+        </a>
+      )}
       <span className="hidden sm:block w-px h-6 bg-slate-200" aria-hidden="true" />
     </>
   );

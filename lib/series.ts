@@ -1,6 +1,6 @@
 import { lessons } from '@/data/lessons';
 import { Lesson } from '@/types/lesson';
-import { LEVEL_MIN, LEVEL_MAX, levelToRange } from '@/lib/levels';
+import { LEVEL_MIN, LEVEL_MAX, levelToRange, bandForLevel } from '@/lib/levels';
 
 export * from '@/lib/levels';
 
@@ -279,6 +279,8 @@ export interface LessonSummary {
   heroImage?: string;
   words: number;
   phrasals: number;
+  /** Premium-only (see FREE_LESSONS_PER_GROUP) */
+  premium: boolean;
 }
 
 export interface Category {
@@ -295,6 +297,26 @@ export interface Category {
   /** [min, max] on the 1-6 level scale, across all lessons in the category */
   range: [number, number];
   lessons: LessonSummary[];
+}
+
+/* ---------- free vs Premium ---------- */
+
+/**
+ * In every category, the first N lessons of each level group are free; the rest are Premium.
+ * Groups follow the category page's sections in display order (C1 and C2 share one group).
+ */
+export const FREE_LESSONS_PER_GROUP = 3;
+const FREE_GROUPS: string[][] = [['beginner'], ['intermediate'], ['advanced', 'proficient']];
+
+function markPremium(summaries: LessonSummary[]) {
+  const free = new Set<string>();
+  for (const bandIds of FREE_GROUPS) {
+    bandIds
+      .flatMap((id) => summaries.filter((l) => bandForLevel(l.level).id === id))
+      .slice(0, FREE_LESSONS_PER_GROUP)
+      .forEach((l) => free.add(l.slug));
+  }
+  summaries.forEach((l) => (l.premium = !free.has(l.slug)));
 }
 
 let catalogCache: Category[] | null = null;
@@ -321,8 +343,10 @@ export function getCatalog(): Category[] {
         heroImage: l.heroImage,
         words: l.vocabulary.length,
         phrasals: l.phrasalVerbs.length,
+        premium: true,
       };
     });
+    markPremium(summaries);
     const { match, ...plain } = series;
     return {
       ...plain,
@@ -332,4 +356,18 @@ export function getCatalog(): Category[] {
     };
   }).filter((c) => c.lessons.length > 0);
   return catalogCache;
+}
+
+/** A lesson's catalog entry and the category it's filed under. */
+export function findLessonInCatalog(slug: string) {
+  for (const category of getCatalog()) {
+    const summary = category.lessons.find((l) => l.slug === slug);
+    if (summary) return { category, summary };
+  }
+  return null;
+}
+
+/** Unknown lessons are treated as Premium, so nothing leaks by accident. */
+export function isPremiumLesson(slug: string): boolean {
+  return findLessonInCatalog(slug)?.summary.premium ?? true;
 }

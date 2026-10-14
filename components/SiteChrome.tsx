@@ -23,6 +23,15 @@ export function CrownIcon({ className = 'w-5 h-5' }: { className?: string }) {
   );
 }
 
+export function LockIcon({ className = 'w-4 h-4' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className={className} aria-hidden="true">
+      <rect x="5" y="10.5" width="14" height="9.5" rx="2.5" />
+      <path d="M8.5 10.5V8a3.5 3.5 0 017 0v2.5" strokeLinecap="round" />
+    </svg>
+  );
+}
+
 export function UserIcon({ className = 'w-5 h-5' }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className={className} aria-hidden="true">

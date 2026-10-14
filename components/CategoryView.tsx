@@ -21,6 +21,7 @@ import {
   ArrowLeftIcon,
   ChevronDownIcon,
   SearchIcon,
+  LockIcon,
 } from '@/components/SiteChrome';
 
 /* Serializable shapes passed from the server route (see app/categories/[slug]/page.tsx) */
@@ -33,6 +34,7 @@ export interface CategoryLesson {
   heroImage?: string;
   words: number;
   phrasals: number;
+  premium: boolean;
 }
 
 export interface CategoryData {
@@ -194,7 +196,7 @@ function LessonCard({ lesson, fallbacks }: { lesson: CategoryLesson; fallbacks: 
       }}
       className="group scroll-mt-24 bg-white rounded-xl overflow-hidden border border-slate-200 transition-all duration-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_14px_40px_rgba(15,23,42,0.12)] hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 flex flex-col"
     >
-      <div className="aspect-[16/9] overflow-hidden bg-slate-100">
+      <div className="relative aspect-[16/9] overflow-hidden bg-slate-100">
         <FallbackImage
           srcs={srcs}
           alt=""
@@ -203,6 +205,12 @@ function LessonCard({ lesson, fallbacks }: { lesson: CategoryLesson; fallbacks: 
           loading="lazy"
           className="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-300"
         />
+        {lesson.premium && (
+          <span className="absolute top-2.5 left-2.5 inline-flex items-center gap-1 rounded-lg bg-white/95 border border-slate-200 px-2 py-1 text-[11px] font-semibold text-slate-600 shadow-sm">
+            <LockIcon className="w-3.5 h-3.5" />
+            Students only
+          </span>
+        )}
       </div>
       <div className="p-5 flex flex-col flex-1">
         <h3 className="text-[15px] font-semibold text-slate-900 leading-snug mb-4 group-hover:text-blue-700 transition-colors">
