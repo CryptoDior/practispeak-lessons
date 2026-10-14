@@ -38,14 +38,14 @@ export const businessFormalVsInformal: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'Good morning / Dear Mr. / Ms. [name]', tag: 'formal', definition: 'Formal greetings for emails and client meetings.', example: '"Dear Mr. Lee, thank you for your message."', imageSlug: img('dear') },
-    { phrase: 'Hi / Hello [name]', tag: 'informal', definition: 'Informal greetings for colleagues you know.', example: '"Hi Kira, got a minute?"', imageSlug: img('hi') },
-    { phrase: 'Could you please…?', tag: 'formal', definition: 'A polite, formal request.', example: '"Could you please confirm the delivery date?"', imageSlug: img('could-you-please') },
-    { phrase: 'Can you…?', tag: 'informal', definition: 'A more direct request for teammates and friends.', example: '"Can you send me that file?"', imageSlug: img('can-you') },
-    { phrase: 'Thank you for your assistance.', tag: 'formal', definition: 'A formal way to say thank you.', example: '"Thank you for your assistance with the order."', imageSlug: img('thank-you-assistance') },
-    { phrase: 'Thanks a lot!', tag: 'informal', definition: 'An informal thank you.', example: '"Thanks a lot, Tim! You\'re a star."', imageSlug: img('thanks-a-lot') },
-    { phrase: 'I look forward to hearing from you.', tag: 'formal', definition: 'A formal email closing.', example: '"I look forward to hearing from you. Kind regards, Kira"', inAction: 'After "look forward to", use the -ing form: "I look forward to hearing", not "to hear".', imageSlug: img('look-forward') },
-    { phrase: 'Talk to you soon!', tag: 'informal', definition: 'A friendly way to end a message.', example: '"Great, see you at lunch. Talk to you soon!"', imageSlug: img('talk-soon') },
+    { phrase: 'Good morning / Dear Mr. / Ms. [name]', tag: 'formal', definition: 'Formal greetings for emails and client meetings.', example: '"Dear Mr. Lee, thank you for your message."', imageSlug: img('phrase-formal-greetings') },
+    { phrase: 'Hi / Hello [name]', tag: 'informal', definition: 'Informal greetings for colleagues you know.', example: '"Hi Kira, got a minute?"', imageSlug: img('phrase-hi-hello-name') },
+    { phrase: 'Could you please…?', tag: 'formal', definition: 'A polite, formal request.', example: '"Could you please confirm the delivery date?"', imageSlug: img('phrase-could-you-please') },
+    { phrase: 'Can you…?', tag: 'informal', definition: 'A more direct request for teammates and friends.', example: '"Can you send me that file?"', imageSlug: img('phrase-can-you') },
+    { phrase: 'Thank you for your assistance.', tag: 'formal', definition: 'A formal way to say thank you.', example: '"Thank you for your assistance with the order."', imageSlug: img('phrase-thank-you-assistance') },
+    { phrase: 'Thanks a lot!', tag: 'informal', definition: 'An informal thank you.', example: '"Thanks a lot, Tim! You\'re a star."', imageSlug: img('phrase-thanks-a-lot') },
+    { phrase: 'I look forward to hearing from you.', tag: 'formal', definition: 'A formal email closing.', example: '"I look forward to hearing from you. Kind regards, Kira"', inAction: 'After "look forward to", use the -ing form: "I look forward to hearing", not "to hear".', imageSlug: img('phrase-look-forward-hearing') },
+    { phrase: 'Talk to you soon!', tag: 'informal', definition: 'A friendly way to end a message.', example: '"Great, see you at lunch. Talk to you soon!"', imageSlug: img('phrase-talk-to-you-soon') },
   ],
 
   videos: [],

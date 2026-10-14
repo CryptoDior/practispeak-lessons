@@ -29,14 +29,14 @@ export const businessEndingConversationsPolitely: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'HEAD OFF', definition: 'To leave or go somewhere.', example: "Let's head off before the traffic starts.", imageSlug: img('head-off') },
-    { phrase: 'RUN INTO (SOMEONE)', definition: 'To meet someone unexpectedly.', example: 'I ran into an old colleague at the conference.', imageSlug: img('run-into') },
-    { phrase: 'TOUCH BASE', tag: 'idiom', definition: 'To contact someone briefly to share updates.', example: "Let's touch base next week.", imageSlug: img('touch-base') },
-    { phrase: 'KEEP IN TOUCH', tag: 'idiom', definition: 'To stay in contact with someone.', example: "It was great meeting you. Let's keep in touch.", imageSlug: img('keep-in-touch') },
-    { phrase: "I don't want to keep you. I know you're busy.", tag: 'phrase', definition: 'A polite signal that you respect the other person\'s time.', example: '"Well, I don\'t want to keep you. I know you\'re busy."', inAction: 'This phrase ends the conversation by thinking about THEIR time, not yours. It feels kind, not rude.', imageSlug: img('dont-want-to-keep-you') },
-    { phrase: 'I should probably head off now.', tag: 'phrase', definition: 'A casual but polite way to say you need to leave.', example: '"It\'s nearly six. I should probably head off now."', imageSlug: img('should-head-off') },
-    { phrase: "Thanks for your time today. I really appreciate it.", tag: 'phrase', definition: 'Close a business conversation respectfully.', example: '"Thanks for your time today, Maria. I really appreciate it."', imageSlug: img('thanks-for-your-time') },
-    { phrase: 'Take care, talk soon.', tag: 'phrase', definition: 'A warm, natural goodbye.', example: '"Great seeing you. Take care, talk soon!"', imageSlug: img('take-care') },
+    { phrase: 'HEAD OFF', definition: 'To leave or go somewhere.', example: "Let's head off before the traffic starts.", imageSlug: img('phrase-head-off') },
+    { phrase: 'RUN INTO (SOMEONE)', definition: 'To meet someone unexpectedly.', example: 'I ran into an old colleague at the conference.', imageSlug: img('phrase-run-into-someone') },
+    { phrase: 'TOUCH BASE', tag: 'idiom', definition: 'To contact someone briefly to share updates.', example: "Let's touch base next week.", imageSlug: img('phrase-touch-base') },
+    { phrase: 'KEEP IN TOUCH', tag: 'idiom', definition: 'To stay in contact with someone.', example: "It was great meeting you. Let's keep in touch.", imageSlug: img('phrase-keep-in-touch') },
+    { phrase: "I don't want to keep you. I know you're busy.", tag: 'phrase', definition: 'A polite signal that you respect the other person\'s time.', example: '"Well, I don\'t want to keep you. I know you\'re busy."', inAction: 'This phrase ends the conversation by thinking about THEIR time, not yours. It feels kind, not rude.', imageSlug: img('phrase-dont-want-to-keep-you') },
+    { phrase: 'I should probably head off now.', tag: 'phrase', definition: 'A casual but polite way to say you need to leave.', example: '"It\'s nearly six. I should probably head off now."', imageSlug: img('phrase-should-head-off-now') },
+    { phrase: "Thanks for your time today. I really appreciate it.", tag: 'phrase', definition: 'Close a business conversation respectfully.', example: '"Thanks for your time today, Maria. I really appreciate it."', imageSlug: img('phrase-thanks-for-your-time') },
+    { phrase: 'Take care, talk soon.', tag: 'phrase', definition: 'A warm, natural goodbye.', example: '"Great seeing you. Take care, talk soon!"', imageSlug: img('phrase-take-care-talk-soon') },
   ],
 
   videos: [],
