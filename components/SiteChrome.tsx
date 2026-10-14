@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import AccountMenu from '@/components/auth/AccountMenu';
 
 /* ---------- shared inline icons (1.5-1.8px stroke) ---------- */
 
@@ -78,7 +79,7 @@ export function SiteHeader({ active = 'Home' }: { active?: string }) {
           <span className="text-xl font-bold text-blue-600 tracking-tight">Practispeak</span>
         </Link>
 
-        <nav aria-label="Main" className="hidden md:flex items-center gap-8">
+        <nav aria-label="Main" className="hidden md:flex items-center gap-5 lg:gap-8">
           {NAV_LINKS.map((link) => (
             <Link
               key={link.label}
@@ -95,21 +96,8 @@ export function SiteHeader({ active = 'Home' }: { active?: string }) {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Link
-            href="/#about"
-            className="hidden sm:flex items-center gap-2 text-blue-600 text-sm font-semibold hover:text-blue-700 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 rounded-lg px-1 py-2"
-          >
-            <CrownIcon className="w-5 h-5" />
-            Premium
-          </Link>
-          <span className="hidden sm:block w-px h-6 bg-slate-200" aria-hidden="true" />
-          <button
-            type="button"
-            aria-label="Account"
-            className="w-10 h-10 rounded-full border border-slate-300 flex items-center justify-center text-slate-600 hover:border-blue-400 hover:text-blue-600 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
-          >
-            <UserIcon className="w-5 h-5" />
-          </button>
+          {/* Plan label (Premium / Free) + account button */}
+          <AccountMenu />
         </div>
       </div>
     </header>
