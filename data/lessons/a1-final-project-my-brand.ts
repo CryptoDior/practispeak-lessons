@@ -13,8 +13,8 @@ export const a1FinalProjectMyBrand: Lesson = {
       word: 'BRAND',
       partOfSpeech: 'noun',
       definition: 'The name, logo and style of a company.',
-      example: 'Our brand uses black and gold in every shop.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-brand.png',
+      example: 'Our brand has a purple and gold logo.',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-brand.png?v=2',
     },
     {
       word: 'PROFILE',
@@ -27,8 +27,8 @@ export const a1FinalProjectMyBrand: Lesson = {
       word: 'IDENTITY',
       partOfSpeech: 'noun',
       definition: 'What makes a brand different and easy to know.',
-      example: 'Blue and white are part of our brand identity.',
-      imageSlug: '/images/a1-final-project-my-brand-identity.png',
+      example: 'Purple and gold are part of our brand identity.',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/a1-final-project-my-brand-identity.png',
     },
     {
       word: 'VALUE',
