@@ -173,7 +173,7 @@ export const footballPodcasts: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Right — today we are doing a podcast. I\'m the [[host:the person who runs the podcast — they manage the conversation]] and you two are my [[guest:a special person invited to give their opinion on the podcast]]s. The topic: who is the bigger problem — the defence or the attack? Sofia — your [[take:an opinion or reaction to something]] first.',
     },
     {
@@ -191,7 +191,7 @@ export const footballPodcasts: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Interesting. So you both actually [[disagree:to have a different opinion]] on the priority. Let me [[break down:to analyse carefully, splitting into smaller parts]] the stats — they concede 2.1 goals per game AND score only 0.8 per game. Both are terrible. [[Actually:introduces a stronger or different point]] — is the real problem the manager\'s tactics?',
     },
     {
@@ -203,7 +203,7 @@ export const footballPodcasts: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Right — let\'s [[move on:to change the topic of conversation]] to the [[debate:a discussion where people have different opinions]]. The [[pundit:an expert who gives their opinion on football]]s on TV say sell him. Do you agree?',
     },
     {
@@ -215,7 +215,7 @@ export const footballPodcasts: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Great [[episode:one individual recording of a podcast]] today. Let\'s [[wrap up:to finish or conclude something]] — one word each: defend, attack, or manager. Your verdict.',
     },
   ],

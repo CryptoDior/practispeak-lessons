@@ -173,7 +173,7 @@ export const substitutions: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Ronaldo — at half time, we\'re losing 0-1 and the winger is exhausted. What do I do?',
     },
     {
@@ -185,7 +185,7 @@ export const substitutions: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. How do we say that in the passive voice?',
     },
     {
@@ -197,7 +197,7 @@ export const substitutions: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. We focus on what happened to the player — not who did it. Three [[substitutions:the act of replacing one player with another]] were [[made:make → made]] in the second half. What does that tell you?',
     },
     {
@@ -209,7 +209,7 @@ export const substitutions: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Correct. Now — we brought on a striker at the 70th minute. The striker scored two minutes later. How do we describe the [[impact:the effect a substitute has on the match]]?',
     },
     {
@@ -221,7 +221,7 @@ export const substitutions: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. What is the [[board:the electronic board showing substitution numbers]]?',
     },
     {
@@ -233,7 +233,7 @@ export const substitutions: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. In modern football — five substitutions are allowed. Used correctly, they can completely change the game. A good coach uses them to [[inject:add suddenly]] pace, protect a lead, or turn the match around.',
     },
   ],

@@ -112,7 +112,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We're looking for a new sales training solution. We've been with our current provider for three years, but we're not seeing the results we need.",
     },
     {
@@ -124,7 +124,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Of course.',
     },
     {
@@ -136,7 +136,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Primarily revenue. The sales team is not hitting target.',
     },
     {
@@ -148,7 +148,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Mostly conversion. They're getting in front of the right people — they're just not closing.",
     },
     {
@@ -160,7 +160,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Mostly at proposal stage. We get to proposal and then things go quiet.',
     },
     {
@@ -172,7 +172,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's an interesting way to frame it. I suppose we've assumed it's the product.",
     },
     {
@@ -184,7 +184,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "It would change everything, actually. We'd stop looking for a new product and start looking at how proposals are written — and who's writing the best ones.",
     },
     {
@@ -196,7 +196,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We haven't. Not in a structured way.",
     },
     {
@@ -208,7 +208,7 @@ export const strategicQuestioning: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Honestly? I think the top performers personalise their proposals far more. The rest follow a standard template and hope for the best.',
     },
     {

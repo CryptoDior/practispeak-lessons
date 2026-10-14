@@ -173,7 +173,7 @@ export const injuryTime: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Sofia — what happened in the last five minutes of the match last night?',
     },
     {
@@ -191,7 +191,7 @@ export const injuryTime: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'And United were racing [[against the clock:running out of time]]. What happened?',
     },
     {
@@ -209,7 +209,7 @@ export const injuryTime: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'They [[stole:steal → stole]] a winner! 2-1 in the 97th minute. United scored in injury time — and then City [[stole:steal → stole]] it back! What is "[[stoppage time:another word for added time — extra minutes for interruptions]]"?',
     },
     {
@@ -221,7 +221,7 @@ export const injuryTime: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. And what about "[[carry on:to continue despite injury]]"? What does it mean when a player carries on?',
     },
     {
@@ -233,7 +233,7 @@ export const injuryTime: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. In injury time, every second matters. The team that [[held:hold → held]] on for the win, the team that [[found:find → found]] the equaliser — these moments define whole seasons. Never give up until the final whistle.',
     },
   ],

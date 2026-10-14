@@ -112,7 +112,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, you have fifteen minutes. Walk me through the [[opportunity:a favourable convergence of conditions that makes a business viable and scalable — the 'why this, why now' of a pitch]].",
     },
     {
@@ -124,7 +124,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What makes you confident there's real demand — and not just a theoretical gap in the market?",
     },
     {
@@ -136,7 +136,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "124% net revenue retention is a strong signal. What's driving the expansion?",
     },
     {
@@ -148,7 +148,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Tell me about the market in more detail. What's the addressable opportunity, realistically?",
     },
     {
@@ -160,7 +160,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Those projections are ambitious. Walk me through the assumptions — because that's where most models fall apart.",
     },
     {
@@ -172,7 +172,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What's your current [[runway:the amount of time a company can operate at its current burn rate before running out of capital]]? And what would this round specifically unlock?",
     },
     {
@@ -184,7 +184,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Why us specifically? There are other investors at this stage who could write the cheque.',
     },
     {
@@ -196,7 +196,7 @@ export const pitchingToInvestorsOrPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I appreciate the directness. What does the process look like from your side?',
     },
     {

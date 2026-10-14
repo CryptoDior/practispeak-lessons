@@ -118,7 +118,7 @@ export const brandStorytelling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I assumed it was because we are not promoting them enough.',
     },
     {
@@ -130,7 +130,7 @@ export const brandStorytelling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'So we need to make the client the [[hero:the central character of the story]]?',
     },
     {
@@ -142,7 +142,7 @@ export const brandStorytelling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And the [[resolution:the point where the problem is solved and the outcome becomes clear]]?',
     },
     {
@@ -154,7 +154,7 @@ export const brandStorytelling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about the [[emotional appeal:content that connects with how people feel, not just what they think]]? Is that appropriate in B2B?',
     },
     {
@@ -166,7 +166,7 @@ export const brandStorytelling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'So the [[brand story:the overarching narrative of why your brand exists and what it achieves]] is really about Claire — not about TechFlow?',
     },
     {

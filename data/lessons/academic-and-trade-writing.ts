@@ -112,7 +112,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the editor has come back on our article. She says the [[methodology:the process you used to do your research]] section is too vague. What does she mean?",
     },
     {
@@ -124,7 +124,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Right — we surveyed 320 marketing managers over six weeks using an online questionnaire. Is that enough?",
     },
     {
@@ -136,7 +136,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "She also said the [[abstract:a short summary at the start that tells the reader what the article found]] doesn't match the conclusion. How is that possible?",
     },
     {
@@ -148,7 +148,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And what about the [[hypothesis:a specific idea you are testing]]? She said it needs to be stated more clearly at the beginning.",
     },
     {
@@ -160,7 +160,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "There were also comments about missing [[citation:a reference to another piece of work that supports your point]]s in the second section.",
     },
     {
@@ -172,7 +172,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about the [[findings:the results of a study — what you discovered]] section? She liked that part.",
     },
     {
@@ -184,7 +184,7 @@ export const academicAndTradeWriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "How long until this goes to [[peer review:the process where other experts check your work before it is published]]?",
     },
     {

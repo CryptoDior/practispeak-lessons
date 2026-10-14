@@ -112,7 +112,7 @@ export const kickPassShoot: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Ronaldo, today we work on your basic actions. Let\'s start. [[Kick:to hit the ball with your foot]] the ball to me.',
     },
     {
@@ -124,7 +124,7 @@ export const kickPassShoot: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. Now [[pass:to send the ball to a teammate]] it to Sofia. Quick — don\'t hold it too long.',
     },
     {
@@ -142,7 +142,7 @@ export const kickPassShoot: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Sofia, try to [[dribble:to run with the ball using small kicks to control it]] toward the goal. Small touches, keep it close to your foot.',
     },
     {
@@ -154,7 +154,7 @@ export const kickPassShoot: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good! Now [[cross:to kick the ball from the side into the middle]] it to Ronaldo in the centre.',
     },
     {
@@ -172,7 +172,7 @@ export const kickPassShoot: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Excellent! Now [[shoot:to kick the ball toward the goal]] from outside the box. Try a [[volley:to kick the ball before it touches the ground]] this time.',
     },
     {

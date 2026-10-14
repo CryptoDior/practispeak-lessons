@@ -172,7 +172,7 @@ export const europeanFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'European football — the highest level of the club game. The [[group stage:the first phase where teams are placed in groups and play each other]] draw has been made. We are in Group D with Real Madrid, Porto, and Dortmund. What is our situation?',
     },
     {
@@ -184,7 +184,7 @@ export const europeanFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Correct. Now — passive voice. "Real Madrid beat us 2-0 in the first leg." How do you say this using the passive?',
     },
     {
@@ -196,7 +196,7 @@ export const europeanFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'All correct. Passive is very natural in football reporting. Now — we lost the first leg 2-0. The second leg is at home — a [[European night:a home European match under floodlights — considered a special event]]. What do we need and what happens if we win 2-0?',
     },
     {
@@ -208,7 +208,7 @@ export const europeanFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'And if we do not [[qualify:to earn a place in the next round]] from the group stage, but finish third, what happens?',
     },
     {

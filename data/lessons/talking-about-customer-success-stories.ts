@@ -112,7 +112,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, before we go further — I want to understand the real-world impact. Can you share an example of how this has worked for a company similar to ours?',
     },
     {
@@ -124,7 +124,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What was their main problem?',
     },
     {
@@ -136,7 +136,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Very familiar. What did they do?',
     },
     {
@@ -148,7 +148,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Those are impressive numbers. How long did it take to get set up?',
     },
     {
@@ -160,7 +160,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And what did those results actually mean for the business? What was the financial [[outcome:the result or effect of something — directly linked to the action taken]]?',
     },
     {
@@ -172,7 +172,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's a strong [[testimonial:a statement from a satisfied customer describing their experience]]. Is that kind of result typical, or was it an exceptional case?",
     },
     {
@@ -184,7 +184,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Yes — and one that was closer to our size would be particularly useful. We have about 25 salespeople.',
     },
     {
@@ -196,7 +196,7 @@ export const talkingAboutCustomerSuccessStories: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That would be very useful for building the internal business case. My CFO will want to see the numbers before giving approval.',
     },
     {

@@ -112,7 +112,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the client wants us to review their new brand identity. Where do I start with a [[visual identity:the complete set of visual elements that represent a brand]] critique?",
     },
     {
@@ -124,7 +124,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "OK — at the denotative level, the logo is a lion. Simple enough.",
     },
     {
@@ -136,7 +136,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Power, pride, leadership. Classic [[iconography:the symbols a brand uses and what they communicate]] for a financial services company.",
     },
     {
@@ -148,7 +148,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "It's a very light, modern sans-serif. Minimal spacing. Very clean.",
     },
     {
@@ -160,7 +160,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Innovation and simplicity. But there's a tension between that and the lion. The lion feels traditional — the typeface feels modern.",
     },
     {
@@ -172,7 +172,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "So the [[signified:the concept or meaning the signifier creates]] should be consistent across all elements.",
     },
     {
@@ -184,7 +184,7 @@ export const semioticsAndVisualCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "So how do I conclude the critique?",
     },
     {

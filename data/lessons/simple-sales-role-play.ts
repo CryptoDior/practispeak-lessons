@@ -118,7 +118,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Yes, speaking. Good morning, Riley.',
     },
     {
@@ -130,7 +130,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Yes — go ahead.',
     },
     {
@@ -142,7 +142,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What does it [[highlight:to point out the most important feature of a product]]? What are the main features?',
     },
     {
@@ -154,7 +154,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That sounds interesting. And what is the price?',
     },
     {
@@ -166,7 +166,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: '10% off — that is a good offer. But I have one [[objection:a reason a customer gives for not buying yet]] — can I think about it first?',
     },
     {
@@ -178,7 +178,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I just want to [[confirm:to check and agree that something is correct]] the price. $525 per month, with 10% off for three months — is that right?',
     },
     {
@@ -190,7 +190,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Yes, that is [[confident:feeling sure of yourself and your message — Riley sounds confident]] and clear. I like it.',
     },
     {
@@ -202,7 +202,7 @@ export const simpleSalesRolePlay: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Yes — let's do it. I am ready to [[close:to complete a sale — the moment the customer says yes]].",
     }
   ],

@@ -118,7 +118,7 @@ export const runningEffectiveMeetings: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Appreciated. Let us make sure we get to that one.',
     },
     {
@@ -136,7 +136,7 @@ export const runningEffectiveMeetings: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Before we move on — there is a question about the website redesign I wanted to raise. Is this the right time?',
     },
     {
@@ -148,7 +148,7 @@ export const runningEffectiveMeetings: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That works.',
     },
     {
@@ -160,7 +160,7 @@ export const runningEffectiveMeetings: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Yes — that is approved. I can take that to the board on Friday.',
     },
     {

@@ -112,7 +112,7 @@ export const performanceMarketingMastery: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the CFO is asking why our performance marketing budget has tripled but revenue has only grown 40%. I need to give her a better answer than 'ROAS looks great'.",
     },
     {
@@ -124,7 +124,7 @@ export const performanceMarketingMastery: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Paid search CAC is £35. But when I include all channels, agency fees, and content production, the blended CAC is closer to £220.",
     },
     {
@@ -136,7 +136,7 @@ export const performanceMarketingMastery: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Our retargeting is showing a 15x [[ROAS:Return On Ad Spend]], which looks excellent. But I am not sure how much of that is genuinely incremental.",
     },
     {
@@ -148,7 +148,7 @@ export const performanceMarketingMastery: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And I think our [[attribution model:the method used to decide which marketing touchpoint gets credit for a conversion]] is part of the problem. We use last-click, which makes paid search look like a hero.",
     },
     {
@@ -160,7 +160,7 @@ export const performanceMarketingMastery: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We are also struggling to measure our TV and out-of-home spend. How do I show its contribution?",
     },
     {
@@ -172,7 +172,7 @@ export const performanceMarketingMastery: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And what about [[full-funnel measurement:a measurement approach that tracks performance across every stage of the customer journey]]? The CFO asked why top-of-funnel is not in the performance report.",
     },
     {

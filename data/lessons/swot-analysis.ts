@@ -118,7 +118,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Go ahead. What are the main [[strength:something your brand does well that competitors do not]] findings?',
     },
     {
@@ -130,7 +130,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And the [[weakness:an internal limitation that puts you at a disadvantage]]?',
     },
     {
@@ -142,7 +142,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about the [[opportunity:an external condition you can use to your advantage]] side?',
     },
     {
@@ -154,7 +154,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And the [[threat:an external factor that could hurt our performance]]?',
     },
     {
@@ -166,7 +166,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'So how do we [[leverage:use our advantages to get the best possible result]] the strengths against the threats?',
     },
     {
@@ -178,7 +178,7 @@ export const swotAnalysis: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I like the direction. What do we [[come out of this analysis with]] as the single priority?',
     },
     {

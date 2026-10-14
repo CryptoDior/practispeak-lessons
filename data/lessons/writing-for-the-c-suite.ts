@@ -112,7 +112,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I'm drafting a proposal for the CMO. It's about three pages long. Do I need to make it shorter?",
     },
     {
@@ -124,7 +124,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Whether to approve the budget for a new agency retainer.",
     },
     {
@@ -136,7 +136,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Approve £80k per quarter for Agency X, starting July.",
     },
     {
@@ -148,7 +148,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about the background context? There's a lot of it.",
     },
     {
@@ -160,7 +160,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the risks — should I soften them?",
     },
     {
@@ -172,7 +172,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "So what's the structure?",
     },
     {
@@ -184,7 +184,7 @@ export const writingForTheCSuite: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's much cleaner than what I had.",
     },
     {

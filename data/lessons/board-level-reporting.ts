@@ -112,7 +112,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I have my first board presentation next week. I've prepared 40 slides. Is that too many?",
     },
     {
@@ -124,7 +124,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "How do I decide what is material?",
     },
     {
@@ -136,7 +136,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "How do I connect the marketing strategy to what they care about?",
     },
     {
@@ -148,7 +148,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I'm proposing a £2m budget for the next two quarters. How do I frame the ask?",
     },
     {
@@ -160,7 +160,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What if they push back on the risk? This is a new market and they have a low [[risk appetite:how much risk an organisation is willing to accept]].",
     },
     {
@@ -172,7 +172,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And [[governance:the rules and processes used to make decisions in an organisation]]? Do I need to cover that?",
     },
     {
@@ -184,7 +184,7 @@ export const boardLevelReporting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "How do I end the presentation?",
     },
     {

@@ -112,7 +112,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, I want to make this work — but I need to be honest with you. The number you have given me is 20% above what my CFO has approved. I need to find a way to close that gap.',
     },
     {
@@ -124,7 +124,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'We can commit to twelve months instead of six. And we could push the start date to February, which helps our cash flow. But the unit price still needs to come down.',
     },
     {
@@ -136,7 +136,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'How much of a reduction are we talking?',
     },
     {
@@ -148,7 +148,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Ten percent is not enough. My CFO anchored at 15 when she approved the budget. Can you get closer to that?',
     },
     {
@@ -160,7 +160,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'She is looking at the monthly cost per user. That is the number she approved in the budget.',
     },
     {
@@ -172,7 +172,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is actually interesting. Would there be a [[precedent:a past decision that becomes the standard for future situations]] set here — would I be locked into this phased structure at renewal?',
     },
     {
@@ -184,7 +184,7 @@ export const negotiatingPriceProfessionally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I can work with that — but only if the May onboarding is included in the contract at no additional cost. I do not want a separate services fee for the second phase.',
     },
     {

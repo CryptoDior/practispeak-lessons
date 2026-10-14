@@ -112,7 +112,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, it is the end of Q3 and I want to do a full review of our [[digital marketing mix:the combination of online channels and tactics a company uses to reach its audience]]. Walk me through what we have been running and how each channel has performed.",
     },
     {
@@ -124,7 +124,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Let's go channel by channel. Start with [[organic:content or traffic that is not paid for]] — how is SEO performing?",
     },
     {
@@ -136,7 +136,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. [[Paid media:any digital channel where you pay to show ads]]?",
     },
     {
@@ -148,7 +148,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "3.8% is solid — above benchmark. What about [[targeting:deciding who sees your ads]] on paid social?",
     },
     {
@@ -160,7 +160,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Excellent. How is email performing?",
     },
     {
@@ -172,7 +172,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. What is working at the top of the funnel versus the bottom?",
     },
     {
@@ -184,7 +184,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Where do we need to optimise for Q4?",
     },
     {
@@ -196,7 +196,7 @@ export const reviewDigitalMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Agreed on both. What is the [[campaign brief:a document outlining the objective, audience, channels, budget and metrics for a campaign]] for Q4?",
     },
     {

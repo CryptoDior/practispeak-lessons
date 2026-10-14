@@ -118,7 +118,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That works well — I've had a first read but I want to make sure I'm interpreting some sections correctly.",
     },
     {
@@ -130,7 +130,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The data migration piece — that's something we'd assumed was included. How significant an addition would that be?",
     },
     {
@@ -142,7 +142,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Let's flag it as a likely addition and revisit after this meeting. What's next?",
     },
     {
@@ -154,7 +154,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'The week three integration milestone seems fast. What does that depend on from our side?',
     },
     {
@@ -166,7 +166,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The CRM credentials shouldn't be a problem. The IT programme lead is something I need to confirm internally.",
     },
     {
@@ -178,7 +178,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We're on Salesforce — standard, no heavy customisation. And the user group is 42. So both assumptions hold.",
     },
     {
@@ -190,7 +190,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'The payment terms — are those negotiable? Net 30 is quite short for our finance team.',
     },
     {
@@ -202,7 +202,7 @@ export const presentingProposals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's reassuring. It gives us a safety net if our requirements evolve during implementation.",
     },
     {

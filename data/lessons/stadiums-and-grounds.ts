@@ -173,7 +173,7 @@ export const stadiumsAndGrounds: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Saturday\'s match is [[away from home:at the opposition\'s stadium, not our own]]. Their ground is a tough place to go. Have either of you been there?',
     },
     {
@@ -197,7 +197,7 @@ export const stadiumsAndGrounds: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'What about the [[pitch:the playing surface — the grass field where the match is played]]? Is it in good condition?',
     },
     {
@@ -209,7 +209,7 @@ export const stadiumsAndGrounds: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. If the pitch is soft, direct play is better. And the manager will be [[on the touchline:standing on the line at the side of the pitch]] — he is always very vocal. The [[floodlights:the large lights at each corner for evening matches]] will be on — it is a 7:45 kick-off.',
     },
     {

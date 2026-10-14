@@ -154,7 +154,7 @@ export const mediaRelationsAndPr: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We have a major product launch in ten days and the PR plan is not ready. I want to go through the media strategy from scratch. Dana — what is the current state of play?",
     },
     {
@@ -178,7 +178,7 @@ export const mediaRelationsAndPr: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[spokesperson:the person who officially represents an organisation and speaks to the media on its behalf]] preparation? Who is speaking and are they ready?",
     },
     {
@@ -196,7 +196,7 @@ export const mediaRelationsAndPr: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And are we pitching to any outlet as an exclusive?",
     },
     {
@@ -214,7 +214,7 @@ export const mediaRelationsAndPr: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Agreed. [[Earned media:coverage you did not pay for — generated because a journalist found your story newsworthy]] is worth more than any ad spend we can make this month. Let us get this right.",
     },
   ],

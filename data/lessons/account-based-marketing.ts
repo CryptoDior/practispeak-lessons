@@ -154,7 +154,7 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good morning, everyone. Today we are aligning sales and marketing on the Q4 [[ABM:Account-Based Marketing — a B2B strategy where marketing and sales target specific companies with personalised campaigns]] programme. Riley, take us through the target list.",
     },
     {
@@ -172,7 +172,7 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Intent data shows that those accounts are in active evaluation mode — which means our outreach needs to happen this week, not next month. What does the [[outreach:the process of contacting a potential customer to begin a conversation]] plan look like?",
     },
     {
@@ -190,7 +190,7 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Go ahead.",
     },
     {
@@ -208,7 +208,7 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That is the risk. What is the plan to get to the CMO?",
     },
     {
@@ -226,7 +226,7 @@ export const accountBasedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. This account matches our ideal customer profile perfectly — the only gap is stakeholder access. If we can get the CMO and CFO engaged before the end of the quarter, this is one of our strongest pipeline opportunities.",
     },
     {

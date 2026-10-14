@@ -180,7 +180,7 @@ export const mediaTraining: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Right — media training session. Ronaldo, I am the journalist. Ready? "Ronaldo — there are reports linking you with a move to City in January. Can you confirm there is interest?"',
     },
     {
@@ -192,7 +192,7 @@ export const mediaTraining: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. You [[deflected:avoided answering directly]] beautifully. You used the [[bridge:a technique of acknowledging a question before redirecting to your preferred message]] — acknowledged the question, then went to your preferred message. Sofia — your turn. "Sofia, there\'s been criticism of your performances over the last three games. How do you respond?"',
     },
     {
@@ -204,7 +204,7 @@ export const mediaTraining: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. Now the hardest one. "The referee\'s decision in the 89th minute cost you the game. Do you think it was a mistake?"',
     },
     {

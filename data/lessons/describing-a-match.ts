@@ -173,7 +173,7 @@ export const describingAMatch: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Sofia — I want you to describe the match we watched last night. What happened?',
     },
     {
@@ -191,7 +191,7 @@ export const describingAMatch: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. And what changed in the second half?',
     },
     {
@@ -209,7 +209,7 @@ export const describingAMatch: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Very good. And how did it end?',
     },
     {
@@ -221,7 +221,7 @@ export const describingAMatch: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. That is how you describe a match. Past tense — scored, attacked, defended, held on. Not "score" or "attack." The match is finished.',
     },
     {
@@ -233,7 +233,7 @@ export const describingAMatch: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: '"Fell apart" means the team completely collapsed — they stopped defending well, gave away goals, and lost control. The opposite of "held on." When a team falls apart, everything goes wrong at once.',
     },
   ],

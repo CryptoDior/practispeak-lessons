@@ -112,7 +112,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, we need to brief the creative agency on the Q4 campaign. Have you prepared the [[brief:a document that explains what you need an agency to do]]?",
     },
     {
@@ -124,7 +124,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Budget is fifty thousand for the full campaign. Timeline — we need final [[deliverable:a specific output the agency must produce]]s by the 15th of November, which means we need to brief them by the end of this week.",
     },
     {
@@ -136,7 +136,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Two revision rounds is standard. What happens if we need a third?",
     },
     {
@@ -148,7 +148,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Absolutely. How are we managing the feedback process internally?",
     },
     {
@@ -160,7 +160,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Perfect. And are we doing a [[proposal:the agency's response to your brief — their recommended approach and fees]] stage or going directly to this agency?",
     },
     {
@@ -172,7 +172,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Tell me more.",
     },
     {
@@ -184,7 +184,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What would the retainer cover?",
     },
     {
@@ -196,7 +196,7 @@ export const workingWithAgencies: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. When we get the proposal, let's align on the scope of work before we commit — I want everything clearly defined, including what is out of scope and how we handle extra requests.",
     },
     {

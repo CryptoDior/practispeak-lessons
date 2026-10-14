@@ -112,7 +112,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, before I send this email to the prospect, could you take a look? I'm not confident the [[subject line:the title of an email that determines whether the reader opens it]] is strong enough.",
     },
     {
@@ -124,7 +124,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What would you write instead?',
     },
     {
@@ -136,7 +136,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I see — it's more [[personalise:to tailor a message to a specific person or situation]]d. What about the [[greeting:the opening line of an email that sets the tone and formality]]? I wrote 'Dear Mr Chen'.",
     },
     {
@@ -148,7 +148,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good point. And my opening line is 'I hope this email finds you well'. Is that okay?",
     },
     {
@@ -160,7 +160,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's much better. What about the body — how long should it be?",
     },
     {
@@ -172,7 +172,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Speaking of which — my [[call to action:a clear instruction that tells the reader exactly what to do next]] is 'Please let me know if you have any questions.' Is that strong enough?",
     },
     {
@@ -184,7 +184,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's far more specific. And what about the [[sign-off:the closing phrase before your name]]? I used 'Best regards'.",
     },
     {
@@ -196,7 +196,7 @@ export const writingSalesEmails: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "This is genuinely useful. I'll rewrite the whole thing before I send it.",
     },
     {

@@ -118,7 +118,7 @@ export const dataDrivenDecisions: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is exactly how I want to work through it. What does the [[dashboard:a visual summary of key marketing metrics in one place]] show overall?',
     },
     {
@@ -130,7 +130,7 @@ export const dataDrivenDecisions: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Go ahead.',
     },
     {
@@ -142,7 +142,7 @@ export const dataDrivenDecisions: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is a big change. Is this a [[trend:a consistent direction in data over time]] or just one month?',
     },
     {
@@ -154,7 +154,7 @@ export const dataDrivenDecisions: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about the email campaign? I noticed the click-through rate is below target.',
     },
     {
@@ -166,7 +166,7 @@ export const dataDrivenDecisions: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What are the two decisions you need from me today?',
     },
     {

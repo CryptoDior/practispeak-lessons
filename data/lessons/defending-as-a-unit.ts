@@ -173,7 +173,7 @@ export const defendingAsAUnit: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Defending. One of the most misunderstood parts of football. Sofia — what does it mean to defend as a unit?',
     },
     {
@@ -185,7 +185,7 @@ export const defendingAsAUnit: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. And what is the difference between [[zonal marking:defending a zone — marking whoever enters your area]] and [[man marking:following a specific player wherever they go]]?',
     },
     {
@@ -197,7 +197,7 @@ export const defendingAsAUnit: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. Now — when should you use man marking and when should you use zonal?',
     },
     {
@@ -209,7 +209,7 @@ export const defendingAsAUnit: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. And the [[defensive line:the horizontal line of defenders]] — how high must it be?',
     },
     {
@@ -221,7 +221,7 @@ export const defendingAsAUnit: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Correct. The defensive line [[must:strong rule]] move as a unit — if one defender drops while the others hold, the offside trap fails and the striker is onside.',
     },
   ],

@@ -112,7 +112,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I have good news — we're ready to move this into formal evaluation. That means our procurement team will need to be involved from this point.",
     },
     {
@@ -124,7 +124,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "You'll need to complete a formal vendor questionnaire, respond to our [[RFP:Request for Proposal — a formal document inviting vendors to submit structured proposals in response to defined requirements]], and pass through a security and compliance review before we can issue a contract.",
     },
     {
@@ -136,7 +136,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We're targeting signature by end of Q3, so eight weeks is workable. The [[proposal:a formal document outlining a vendor's proposed solution, commercial terms, and value case — structured to enable systematic evaluation]] you submitted last week — does it address all the RFP requirements?",
     },
     {
@@ -148,7 +148,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Good. Now — who are the key [[stakeholder:any individual or group with significant interest in or influence over a purchasing decision]]s we should be engaging before this can go to contract?',
     },
     {
@@ -160,7 +160,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "You've missed our CFO. Any contract above £400,000 requires CFO sign-off — it's a firm policy.",
     },
     {
@@ -172,7 +172,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "High level — they won't read the full proposal. They want headline numbers and the risk summary.",
     },
     {
@@ -184,7 +184,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'We use our own template. Legal will send it once procurement has cleared you through the vendor approval process. Our standard [[SLA:Service Level Agreement — defines minimum performance standards, uptime guarantees, and the remediation terms that apply if those standards are not met]] requirements are included in the template.',
     },
     {
@@ -196,7 +196,7 @@ export const b2bSalesVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's useful — I'll let the legal team know to plan for that. Anything else I should be aware of on your side?",
     },
     {

@@ -112,7 +112,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the board has asked me to present on the future of marketing. Where do I even start?",
     },
     {
@@ -124,7 +124,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And what's our answer to that? We currently rely heavily on third-party data.",
     },
     {
@@ -136,7 +136,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about [[AI-native:built from the start with artificial intelligence at the centre]] tools? Should I address that?",
     },
     {
@@ -148,7 +148,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Purchase behaviour, email engagement, time on site. But we're not using it well.",
     },
     {
@@ -160,7 +160,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We're still in the early stages of both. I don't want to overstate them to the board.",
     },
     {
@@ -172,7 +172,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And [[disruption:a major change that forces an industry to adapt]]? How do I frame the urgency without sounding alarmist?",
     },
     {
@@ -184,7 +184,7 @@ export const theFutureOfMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[decentralised:not controlled by one central organisation]] web — where does that fit?",
     },
     {

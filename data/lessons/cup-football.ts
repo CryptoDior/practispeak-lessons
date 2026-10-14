@@ -172,7 +172,7 @@ export const cupFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Cup football — pure [[knockout:a competition format where the loser is immediately eliminated]]. If you lose, you go home. No second chances. What would be different if the cup used a league format instead?',
     },
     {
@@ -184,7 +184,7 @@ export const cupFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. Now — a two-legged tie. First leg: your team is away, loses 2-1. Second leg is at home. What is the situation? What do you need?',
     },
     {
@@ -196,7 +196,7 @@ export const cupFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. And if the first leg had been at home — if you had played at home first — how would that change your strategy?',
     },
     {
@@ -208,7 +208,7 @@ export const cupFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. Now — [[the draw:the random process of selecting which teams will play each other]]. You are the manager of a Premier League team. It\'s the third round. What would be the ideal draw?',
     },
     {

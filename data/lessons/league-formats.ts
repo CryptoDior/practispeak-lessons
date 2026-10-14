@@ -173,7 +173,7 @@ export const leagueFormats: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Right — look at the [[standings:the official ranking of all teams in a league]]. City are at the top on 77 points. United are in third, [[level on points with:exactly the same number of points as]] Liverpool, but ahead of them on [[goal difference:goals scored minus goals conceded, used as a tiebreaker]]. What is the situation?',
     },
     {
@@ -185,7 +185,7 @@ export const leagueFormats: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Correct. Now look at the bottom. Three teams are in the [[relegation zone:in one of the bottom positions that leads to relegation]] — Rovers, Town, and City B. Town are on 28 points from 34 games, three points above safety. What can they do?',
     },
     {
@@ -197,7 +197,7 @@ export const leagueFormats: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'And what about [[promotion:when a team finishes high enough to move up to a better division]] places? The top two go up automatically. The teams in third, fourth, fifth, and sixth — what happens to them?',
     },
     {
@@ -209,7 +209,7 @@ export const leagueFormats: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. Last question — what does "[[mathematically safe]]" mean?',
     },
     {

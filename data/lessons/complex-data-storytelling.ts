@@ -112,7 +112,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I have a 45-minute slot in front of the board next week to present the marketing performance data. I have 40 slides. Where do I start?",
     },
     {
@@ -124,7 +124,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I want them to approve more budget for retention activities. We are losing customers and the data shows it clearly.",
     },
     {
@@ -136,7 +136,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Should I use the [[insight pyramid:a storytelling framework that starts with the recommendation at the top supported by key insights and then data]]?",
     },
     {
@@ -148,7 +148,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "One of my insights is that NPS dropped in Q2 and churn went up in Q3. I think the satisfaction problem caused the churn.",
     },
     {
@@ -160,7 +160,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good point. I also want to show the churn rate in context against competitors.",
     },
     {
@@ -172,7 +172,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And for my [[visualisation:the way data is displayed as a chart, graph, or diagram]] — I have been using big tables. Is that okay?",
     },
     {
@@ -184,7 +184,7 @@ export const complexDataStorytelling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Okay — one chart per slide, headline first, insight pyramid structure. What else?",
     },
     {

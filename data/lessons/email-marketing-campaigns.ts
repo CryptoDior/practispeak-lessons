@@ -118,7 +118,7 @@ export const emailMarketingCampaigns: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Go ahead. What was the [[open rate:the percentage of people who opened your email]]?',
     },
     {
@@ -130,7 +130,7 @@ export const emailMarketingCampaigns: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And the [[click-through rate:the percentage who clicked a link inside the email]]?',
     },
     {
@@ -142,7 +142,7 @@ export const emailMarketingCampaigns: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about [[unsubscribe rate:the percentage of people who opted out after receiving the campaign]]? I am always nervous about that one.',
     },
     {
@@ -154,7 +154,7 @@ export const emailMarketingCampaigns: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And [[deliverability:whether emails actually reach the inbox]]? We had problems with that last quarter.',
     },
     {
@@ -166,7 +166,7 @@ export const emailMarketingCampaigns: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What is the plan for the rest of the [[drip campaign:email sequence]] this month?',
     },
     {

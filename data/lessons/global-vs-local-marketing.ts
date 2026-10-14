@@ -112,7 +112,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good morning, Riley. We have been asked to expand the campaign into four new markets — Germany, Brazil, Japan, and Saudi Arabia. Before we begin, I want to align on our approach. What is your recommendation?",
     },
     {
@@ -124,7 +124,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. [[Brand consistency:keeping the brand's core identity the same across all markets]] is non-negotiable — logo, palette, typography, core promise. What is flexible?",
     },
     {
@@ -136,7 +136,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Let's talk about each market. Germany first. What [[adaptation:the changes made to content to make it suitable for a different market]] do we need there?",
     },
     {
@@ -148,7 +148,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good insight. And the [[translation:converting text from one language to another]]?",
     },
     {
@@ -160,7 +160,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Japan next. This one concerns me from a [[cultural fit:how well a campaign suits the values and expectations of a specific culture]] perspective.",
     },
     {
@@ -172,7 +172,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Brazil?",
     },
     {
@@ -184,7 +184,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And Saudi Arabia?",
     },
     {
@@ -196,7 +196,7 @@ export const globalVsLocalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. So our [[global campaign:a campaign that runs across multiple countries with a consistent core message]] has one brief, one set of master assets, and four separate localisation projects — each led by the in-market team within our global brand guidelines.",
     },
     {

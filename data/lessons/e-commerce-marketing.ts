@@ -160,7 +160,7 @@ export const ecommerceMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Let us go through it. Where are the biggest losses?",
     },
     {
@@ -178,7 +178,7 @@ export const ecommerceMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The product page needs to answer the key questions fast. What is it, who is it for, why buy it today. In 22 seconds on mobile, you have maybe 40 words and three images to do that.",
     },
     {
@@ -196,7 +196,7 @@ export const ecommerceMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We need to show shipping costs on the product page. No surprises at the basket. Surprises kill conversion.",
     },
     {
@@ -214,7 +214,7 @@ export const ecommerceMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Now the checkout. The abandonment rate on this is — what exactly?",
     },
     {
@@ -232,7 +232,7 @@ export const ecommerceMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That is the case for conversion rate optimisation in one number. Let us prioritise the checkout fixes first — they are quickest to implement and the drop-off there is the most urgent. Then product page copy and imagery. Then the cross-sell and upsell mechanics.",
     },
     {

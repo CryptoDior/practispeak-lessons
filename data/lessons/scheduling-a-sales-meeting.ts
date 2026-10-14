@@ -118,7 +118,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'This week is quite busy. I think next week would be better — though I need to check with my IT lead as well, since she needs to be there.',
     },
     {
@@ -130,7 +130,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Let me check. Tuesday at 10am should work — let me just confirm with Sarah. Can I put it in as [[tentative:not yet confirmed — provisionally agreed but subject to change]] for now?',
     },
     {
@@ -142,7 +142,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And what is the [[duration:how long a meeting will last]]? I want to make sure I block the right amount of time.',
     },
     {
@@ -154,7 +154,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Good. Will you send an [[agenda:a list of topics to be covered in a meeting]] beforehand so the team knows what to prepare?',
     },
     {
@@ -166,7 +166,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Could you include something on data security? That's still on Sarah's mind after our last conversation.",
     },
     {
@@ -178,7 +178,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Perfect. And if something comes up on our side, is it easy to [[reschedule:to arrange a meeting for a different time]]?',
     },
     {
@@ -190,7 +190,7 @@ export const schedulingASalesMeeting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Great. Let's [[confirm:to officially agree and finalise a meeting]] it as Tuesday at 10am then. Sarah has just messaged — she's available.",
     },
     {

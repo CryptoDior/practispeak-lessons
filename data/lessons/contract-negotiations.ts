@@ -180,7 +180,7 @@ export const contractNegotiations: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Ronaldo — your agent told me this morning that you are "[[exploring options:diplomatic language for looking to leave a club]]." What does that mean, exactly?',
     },
     {
@@ -192,7 +192,7 @@ export const contractNegotiations: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'So you are [[running down your contract:getting close to the end of a contract without signing a new one]]. The board told me they would rather sell you in January with six months remaining than lose you for free in the summer. They said they were considering accepting an offer.',
     },
     {
@@ -204,7 +204,7 @@ export const contractNegotiations: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'There are reportedly two clubs interested. One would trigger his [[buyout clause:a fixed fee written into the contract that allows a player to leave]]. Another wants to negotiate a lower fee with [[add-ons:bonus payments based on performance targets]]. The board said they were hopeful of [[tying him down:to secure a player with a long contract]] — but if talks collapse, they will sell. "Sources close to the player suggest he has already decided to leave." I read that on the website this morning.',
     },
     {

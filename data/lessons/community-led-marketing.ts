@@ -112,7 +112,7 @@ export const communityLedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the CEO wants us to build a brand community. We have 80,000 forum members but almost nobody posts. How do we turn that into something real?",
     },
     {
@@ -124,7 +124,7 @@ export const communityLedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Active contributors are about 1,500 people. The rest are silent. And when we do post, it is mostly product announcements.",
     },
     {
@@ -136,7 +136,7 @@ export const communityLedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Right now, not much. What should we start with?",
     },
     {
@@ -148,7 +148,7 @@ export const communityLedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We are also thinking about a [[UGC strategy:a plan for encouraging, curating, and amplifying content created by customers and community members]]. Is that worth investing in?",
     },
     {
@@ -160,7 +160,7 @@ export const communityLedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And how does the [[forum:an online space where community members discuss topics, ask questions, and share knowledge]] fit into the growth strategy?",
     },
     {
@@ -172,7 +172,7 @@ export const communityLedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And how does community eventually become a growth engine — something that reduces our dependence on paid acquisition?",
     },
     {

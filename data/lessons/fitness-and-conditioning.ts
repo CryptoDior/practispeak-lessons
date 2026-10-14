@@ -173,7 +173,7 @@ export const fitnessAndConditioning: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'This is the toughest week of [[pre-season:the training period before the season starts — usually very intense physical work]]. Last year was hard. This year is harder. But by the end of it, you will be in better condition than you have ever been.',
     },
     {
@@ -185,7 +185,7 @@ export const fitnessAndConditioning: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'That is exactly the point. You must [[push through:to continue despite tiredness or difficulty]] the discomfort now — because on matchday, you will be faster, stronger, and sharper than any opponent. This is [[conditioning:physical training designed to improve strength, speed, and stamina]] at its most demanding.',
     },
     {
@@ -197,7 +197,7 @@ export const fitnessAndConditioning: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Both. But I would say match sharpness is harder to get back than basic fitness. You can run for weeks to build [[endurance:the ability to continue a physically demanding activity for a long time]] — but to get the [[match fitness:being physically ready to play a full competitive match — sharp and ready]] you need, you need matches.',
     },
     {
@@ -209,7 +209,7 @@ export const fitnessAndConditioning: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Yes. Physical fitness is not the same as match fitness. A player who has done the hardest pre-season in the world is still not as sharp as a player who has played ten competitive matches. That is why we manage the [[load:the amount of physical work placed on a player — managed carefully to avoid fatigue]] carefully.',
     },
     {
@@ -221,7 +221,7 @@ export const fitnessAndConditioning: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'The central midfielder — without a doubt. They cover more ground than any other position. Their [[sprint:to run at maximum speed — a burst of maximum-effort running]] data, their total distance, their work rate — it is the most physically demanding role in the team.',
     },
   ],

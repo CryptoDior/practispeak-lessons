@@ -112,7 +112,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the campaign is approved in English. We need versions in French, Spanish, German, Japanese, and Brazilian Portuguese by the end of the month. Can we just send it to a translation agency?",
     },
     {
@@ -124,7 +124,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "How do we brief the transcreation team? What do they need to know?",
     },
     {
@@ -136,7 +136,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about the product names and key terms? Should those be translated too?",
     },
     {
@@ -148,7 +148,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The agency sent a draft of the German copy. I'll read it to check it's OK.",
     },
     {
@@ -160,7 +160,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good idea. And the Japanese copy references the 'commute to the office' — but I don't know if that image works in Tokyo the same way it does in London.",
     },
     {
@@ -172,7 +172,7 @@ export const theMultilingualMarketersToolkit: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We also discovered in a recent [[language audit:a review of brand language across markets for consistency and accuracy]] that three markets are still using the old product name from before the rebrand.",
     },
     {

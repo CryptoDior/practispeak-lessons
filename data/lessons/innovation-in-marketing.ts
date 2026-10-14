@@ -154,7 +154,7 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We have been asked to present a thought leadership piece on innovation in marketing at the industry conference in April. I want us to build an honest, useful argument — not a hype piece. What are the technologies that are actually delivering commercial value right now?",
     },
     {
@@ -172,7 +172,7 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about [[personalisation:tailoring content, recommendations, and experiences to the specific individual at scale]]? Where is that actually delivering value rather than just consuming resource?",
     },
     {
@@ -190,7 +190,7 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I want to make sure we include something on [[augmented reality:technology that adds digital elements to a real-world view, usually via smartphone camera]]. What is the most compelling use case for our audience?",
     },
     {
@@ -208,7 +208,7 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the final point — how do we frame all of this for an audience that may be overwhelmed by the pace of change?",
     },
     {
@@ -226,7 +226,7 @@ export const innovationInMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That is the talk. Honest, specific, useful — and a message that respects the intelligence of a senior marketing audience. Let us build the presentation around that framework.",
     },
   ],

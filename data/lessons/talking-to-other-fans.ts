@@ -185,7 +185,7 @@ export const talkingToOtherFans: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'I am not so sure about that. To be honest, I thought the red card was [[controversial:causing strong disagreement — people have very different opinions]] — but not outrageous. He did make contact.',
     },
     {
@@ -203,7 +203,7 @@ export const talkingToOtherFans: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: '[[Credit where it\'s due:acknowledging something positive]] — the opposition were [[brilliant:excellent and impressive]] in the second half. We should have won it, but to be fair, they were the better team after half-time.',
     },
     {
@@ -215,7 +215,7 @@ export const talkingToOtherFans: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'My [[verdict:my final opinion or judgement about the match]] — a [[deserved:fair because of the performance — they earned it]] draw. We did not do enough in the first half and they were too good in the second.',
     },
   ],

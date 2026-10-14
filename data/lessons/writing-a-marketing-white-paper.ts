@@ -160,7 +160,7 @@ export const writingAMarketingWhitePaper: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The paper argues that brand trust is a stronger predictor of B2B purchase intent than price in complex sales cycles — and that most companies are systematically underinvesting in trust relative to its commercial impact, drawing on our [[primary research:original research you conduct yourself rather than quoting existing research]].",
     },
     {
@@ -178,7 +178,7 @@ export const writingAMarketingWhitePaper: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "On the [[implication:the practical consequence of a finding — the answer to 'so what?']] section — I have been thinking about how to avoid the 'this suggests companies should consider' hedging. Every finding has a direct implication and I want to name it directly.",
     },
     {
@@ -196,7 +196,7 @@ export const writingAMarketingWhitePaper: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[proprietary data:data that belongs exclusively to us and cannot be replicated]] is what gives us at least 18 months before a competitor can run a comparable study. That window is the commercial value of the investment. If the paper performs, we commission the follow-up study in month 12 so we never lose the data moat.",
     },
     {

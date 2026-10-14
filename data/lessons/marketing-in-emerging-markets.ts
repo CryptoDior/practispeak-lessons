@@ -154,7 +154,7 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We are presenting the East Africa market entry strategy to the board next week. I want us to build this properly — starting from the market reality, not from what worked in Europe. Riley, let us start with the opportunity. What is the headline?",
     },
     {
@@ -172,7 +172,7 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The market is mobile-first, which means our entire digital strategy needs to be rebuilt from the phone up. What does that mean specifically?",
     },
     {
@@ -190,7 +190,7 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "So urban-first launch, expand as infrastructure develops. What about [[affordability:whether a product is priced at a level consumers can realistically pay]]?",
     },
     {
@@ -208,7 +208,7 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. What about [[localisation:adapting a product, service, or campaign for a specific local market]]?",
     },
     {
@@ -226,7 +226,7 @@ export const marketingInEmergingMarkets: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "To succeed in this growth market, we need to commit to the localisation fully, solve the affordability challenge before launch, and build our digital presence mobile-first from day one. That is the strategy summary. Let us build the full presentation around those three pillars.",
     },
   ],

@@ -173,7 +173,7 @@ export const theOffsideRule: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Sofia — can you explain the offside rule in simple English?',
     },
     {
@@ -191,7 +191,7 @@ export const theOffsideRule: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Level means your body is at exactly the same point as the last defender. If you are level, you are [[onside:in a legal position — not offside]]. To be offside, you have to be AHEAD of that line.',
     },
     {
@@ -203,7 +203,7 @@ export const theOffsideRule: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'No — only body parts that can score. Head, body, arms cannot be used to score — so arms don\'t count. If just your shoulder is ahead of the [[line:the imaginary line drawn from the last defender]], you are still offside.',
     },
     {
@@ -215,7 +215,7 @@ export const theOffsideRule: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. Sometimes it is centimetres. Now — what is the offside [[trap:a defensive tactic where defenders step forward together to catch attackers offside]]?',
     },
     {
@@ -227,7 +227,7 @@ export const theOffsideRule: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Correct. It is called "springing the trap." The [[flag:the flag raised by the assistant referee to signal offside]] goes up — and the attack is stopped. But it is risky — if one defender doesn\'t step up, the striker is [[onside:in a legal position]] and through on goal.',
     },
     {
@@ -239,7 +239,7 @@ export const theOffsideRule: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. Offside is not luck — it is organisation. If your defenders think and move together, they can control the whole game without tackling once.',
     },
   ],

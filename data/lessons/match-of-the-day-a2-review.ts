@@ -175,7 +175,7 @@ export const matchOfTheDayA2Review: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'It is our final lesson of the series. We have covered a lot — players, transfers, squads, stadiums, fans, TV coverage, and match reports. Let\'s review. Sofia — describe a player using adjectives.',
     },
     {
@@ -187,7 +187,7 @@ export const matchOfTheDayA2Review: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Excellent. Ronaldo — compare two teams using comparatives.',
     },
     {
@@ -199,7 +199,7 @@ export const matchOfTheDayA2Review: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Great. Now — imagine the match is happening right now. What are the fans doing? Sofia?',
     },
     {
@@ -211,7 +211,7 @@ export const matchOfTheDayA2Review: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. And Ronaldo — the match is finished. Give me your verdict and write one sentence in past passive.',
     },
     {
@@ -223,7 +223,7 @@ export const matchOfTheDayA2Review: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'That is A2 football English — player descriptions, transfers, squads, stadiums, atmosphere, TV analysis, fan opinions, and match reports. You have come a long way. Well done!',
     },
   ],

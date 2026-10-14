@@ -172,7 +172,7 @@ export const grassrootsFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Today — [[grassroots:the foundation level of sport — amateur, community-based football]] football. Most people who play football are not professionals — they play in [[Sunday league:amateur football competitions played on Sunday mornings]]s, [[five-a-side:small-sided version of football with five players per team]] leagues, or youth teams. How long have you been playing football, Sofia?',
     },
     {
@@ -184,7 +184,7 @@ export const grassrootsFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'And [[futsal:the official small-sided version of football, played indoors on a hard court with a smaller ball]]? Have you tried it?',
     },
     {
@@ -196,7 +196,7 @@ export const grassrootsFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'That is true. Many of the world\'s greatest players grew up playing futsal. Now — the [[volunteer:someone who gives their time for free]]s. They are the backbone of grassroots football. Has anyone been [[give back:to contribute to the community or sport that helped you]]ing back to grassroots football?',
     },
     {
@@ -208,7 +208,7 @@ export const grassrootsFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'That is the essence of grassroots football. Tell me — has the game been changing at grassroots level over your careers?',
     },
     {

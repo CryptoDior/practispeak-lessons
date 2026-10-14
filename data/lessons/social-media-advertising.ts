@@ -112,7 +112,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, let's review the paid social campaign. Start with how it is structured.",
     },
     {
@@ -124,7 +124,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good structure. Walk me through the [[targeting:the process of choosing which people see your ads]] on LinkedIn.",
     },
     {
@@ -136,7 +136,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[CPC:cost per click — how much you pay each time someone clicks your ad]]?",
     },
     {
@@ -148,7 +148,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What is the lookalike audience based on?",
     },
     {
@@ -160,7 +160,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That is strong. What about the retargeting set — how is that performing?",
     },
     {
@@ -172,7 +172,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Ad fatigue. What is the fix?",
     },
     {
@@ -184,7 +184,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good plan. What is the overall cost per conversion across all three ad sets?",
     },
     {
@@ -196,7 +196,7 @@ export const socialMediaAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That is a strong position. What would you do if you had 20% more budget?",
     },
     {

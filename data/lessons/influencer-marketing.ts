@@ -118,7 +118,7 @@ export const influencerMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: '[[Micro-influencer:an influencer with a smaller but highly engaged, niche audience]]? I thought influencer marketing was for consumer brands — Instagram and TikTok.',
     },
     {
@@ -130,7 +130,7 @@ export const influencerMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "How do you choose the right person? What do you look at beyond [[reach:the size of the influencer's audience]]?",
     },
     {
@@ -142,7 +142,7 @@ export const influencerMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And how do you approach them? Cold outreach?',
     },
     {
@@ -154,7 +154,7 @@ export const influencerMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What does the [[partnership:a collaboration where both sides get value]] actually look like in practice?',
     },
     {
@@ -166,7 +166,7 @@ export const influencerMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And what results do we expect? Can influencer marketing generate [[UGC:User-Generated Content — content created by real users rather than the brand]]?',
     },
     {

@@ -112,7 +112,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I have a board presentation next week on our brand strategy. It's my first time presenting to C-suite. I need help.",
     },
     {
@@ -124,7 +124,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I want them to understand that we need to shift from product marketing to brand building. But I'm not sure how to say it without sounding like I'm criticising what we've done before.",
     },
     {
@@ -136,7 +136,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I like that. And how do I open? I always feel I lose [[presence:the quality of making an impact in a room through intentional communication]] at the start.",
     },
     {
@@ -148,7 +148,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And what if the CFO challenges me on ROI? That is where I usually lose [[credibility:the quality of being trusted and believed based on evidence and track record]].",
     },
     {
@@ -160,7 +160,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What if they push back harder? What if the CEO says the budget should go elsewhere?",
     },
     {
@@ -172,7 +172,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I want to be direct about this — I find it hard to disagree with the CEO in a room full of people.",
     },
     {
@@ -184,7 +184,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And how do I close? I usually say 'any questions' and then it falls flat.",
     },
     {
@@ -196,7 +196,7 @@ export const marketingLeadershipCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Stop and let the silence sit. That is going to be hard for me.",
     },
     {

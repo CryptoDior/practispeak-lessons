@@ -172,7 +172,7 @@ export const b1ReviewTheBigDebate: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'This is our final B1 lesson. We are going to have the biggest [[debate:a structured discussion where people hold opposing views]] in football — who is the greatest of all time? You will use everything you have learned across all ten B1 lessons. Sofia — make the [[argument:a reason or set of reasons to support your opinion]] for Messi. Use structured language.',
     },
     {
@@ -184,7 +184,7 @@ export const b1ReviewTheBigDebate: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Excellent structure. Ronaldo — [[make the case:to present an argument in support of something]] for Ronaldo. Do not just list facts — use the four-step model.',
     },
     {
@@ -196,7 +196,7 @@ export const b1ReviewTheBigDebate: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Brilliant. Both arguments used introduction, support, concession, and conclusion perfectly. Now — do you think there will ever be a [[consensus:general agreement among many people]] on the GOAT?',
     },
     {

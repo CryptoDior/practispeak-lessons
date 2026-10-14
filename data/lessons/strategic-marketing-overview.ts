@@ -112,7 +112,7 @@ export const strategicMarketingOverview: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley — before we look at the brief, I want to be honest. I have never fully understood what [[positioning:how your brand sits in the minds of your target audience]] actually means in practice. Can you explain it simply?',
     },
     {
@@ -124,7 +124,7 @@ export const strategicMarketingOverview: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That makes sense. So what does the brief say our [[proposition:the clear statement of what you offer and why it is valuable]] should be?',
     },
     {
@@ -136,7 +136,7 @@ export const strategicMarketingOverview: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I like it. What about our [[target market:the specific group of companies you are trying to reach]]? The brief seems quite narrow.',
     },
     {
@@ -148,7 +148,7 @@ export const strategicMarketingOverview: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And how does [[brand awareness:how well your target audience knows your brand exists]] fit in? We are not well known in that segment yet.',
     },
     {
@@ -160,7 +160,7 @@ export const strategicMarketingOverview: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And our [[portfolio:the range of past work used to show capability]]? The brief mentions using case studies early.',
     },
     {
@@ -172,7 +172,7 @@ export const strategicMarketingOverview: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'This is the clearest the strategy has ever felt. Does everything in the brief [[align with:connect to and support]] the 90-day goal?',
     },
     {

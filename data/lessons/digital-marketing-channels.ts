@@ -112,7 +112,7 @@ export const digitalMarketingChannels: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley — before we approve the budget, I want to understand why you chose these specific channels. Walk me through the logic.',
     },
     {
@@ -124,7 +124,7 @@ export const digitalMarketingChannels: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'How do you handle [[attribution:working out which channel deserves credit for a conversion]] across all three?',
     },
     {
@@ -136,7 +136,7 @@ export const digitalMarketingChannels: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about [[organic:content or traffic that reaches people without paid promotion]] — how does that fit in?',
     },
     {
@@ -148,7 +148,7 @@ export const digitalMarketingChannels: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And the [[reach:how many people see the campaign]] — how many people are we talking about?',
     },
     {
@@ -160,7 +160,7 @@ export const digitalMarketingChannels: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What if one channel is not working? How do we adjust?',
     },
     {

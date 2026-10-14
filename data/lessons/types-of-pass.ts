@@ -173,7 +173,7 @@ export const typesOfPass: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Ronaldo — watch Sofia. What is she doing right now?',
     },
     {
@@ -185,7 +185,7 @@ export const typesOfPass: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. And now? The midfielder has the ball — the right side is packed. What should he do?',
     },
     {
@@ -203,7 +203,7 @@ export const typesOfPass: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Beautiful. Now — what is the difference between a through ball and a long ball?',
     },
     {
@@ -215,7 +215,7 @@ export const typesOfPass: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. A through ball needs timing and vision. A long ball just needs power. Both are useful — but at the right moment. What about a [[chip:lifting the ball over a player with a short flick of the foot]]?',
     },
     {
@@ -227,7 +227,7 @@ export const typesOfPass: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. Now watch me. I\'m playing a [[one-two:a quick combination where you pass and immediately receive the ball back]] with the defender. I pass — I move — I get it back. Simple and deadly. You try.',
     },
     {
@@ -245,7 +245,7 @@ export const typesOfPass: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'When you can\'t go forward and you can\'t go back. Play it square — keep possession, recycle, and try again. Never panic. Play simple.',
     },
   ],

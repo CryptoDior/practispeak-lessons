@@ -112,7 +112,7 @@ export const makingAnOffer: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, I like what you have shown me, but I am not ready to commit to a twelve-month contract. It feels like a big [[commitment:an agreement to do something for a period of time]].',
     },
     {
@@ -124,7 +124,7 @@ export const makingAnOffer: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That sounds better. Is there any kind of [[promotion:a special offer available for a limited time]] running at the moment?',
     },
     {
@@ -136,7 +136,7 @@ export const makingAnOffer: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Interesting. What does the plan [[come with:to include as part of a package]]?',
     },
     {
@@ -148,7 +148,7 @@ export const makingAnOffer: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What is the [[incentive:something that motivates someone to take action]] to sign now rather than waiting?',
     },
     {
@@ -160,7 +160,7 @@ export const makingAnOffer: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is a strong [[incentive:a reward that makes an offer more attractive]]. Do you also offer any kind of [[loyalty:staying with one company over time]] discount for long-term clients?',
     },
     {
@@ -172,7 +172,7 @@ export const makingAnOffer: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Okay. Can you send me the details with the [[promotion:a special offer]] price and the [[bundle:a group of services packaged together]] included? I want to share it with my director.',
     },
     {

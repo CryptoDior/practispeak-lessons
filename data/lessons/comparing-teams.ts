@@ -173,7 +173,7 @@ export const comparingTeams: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Right. Before Sunday\'s match, let\'s compare the two teams. Ronaldo — how are they different from us?',
     },
     {
@@ -191,7 +191,7 @@ export const comparingTeams: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Correct. On paper, they look [[better than:superior to]] us. But in the last three matches we scored more goals than them.',
     },
     {
@@ -203,7 +203,7 @@ export const comparingTeams: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Yes — they are stronger in the air. So we play lower and faster. We are not as good as them in aerial battles, but we are [[more clinical than:more efficient in front of goal than]] them this season.',
     },
     {
@@ -215,7 +215,7 @@ export const comparingTeams: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. So we have advantages — we just need to use them. This match is more important than any other this month. Let\'s be ready.',
     },
   ],

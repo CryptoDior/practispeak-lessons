@@ -112,7 +112,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Look, Riley — I like what you are proposing. But we are not in a crisis. The team is managing. I do not feel a strong reason to move on this before Q1.',
     },
     {
@@ -124,7 +124,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Go ahead.',
     },
     {
@@ -136,7 +136,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Which competitor?',
     },
     {
@@ -148,7 +148,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Okay. But we have been in similar positions before and caught up. I am not sure the [[urgency:the quality of requiring prompt action]] is as real as you are making it sound.',
     },
     {
@@ -160,7 +160,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'You know about the ops lead situation?',
     },
     {
@@ -172,7 +172,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'So what are you suggesting — that we rush a decision we are not ready for?',
     },
     {
@@ -184,7 +184,7 @@ export const creatingUrgencyWithoutPressure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What would you need from me to move this into the Q1 budget conversation?',
     },
     {

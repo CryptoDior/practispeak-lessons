@@ -112,7 +112,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the CEO has asked us to double our sign-ups in six months without doubling the budget. Where do we even start?",
     },
     {
@@ -124,7 +124,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Acquisition is fine — we get about 5,000 sign-ups a month. But only 18% complete the onboarding and become active users.",
     },
     {
@@ -136,7 +136,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Our data shows users who invite a team member in the first 48 hours have a 70% retention rate at 90 days. Everyone else is around 25%.",
     },
     {
@@ -148,7 +148,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "How do we get more users to invite someone in the first 48 hours?",
     },
     {
@@ -160,7 +160,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And what about [[retention:keeping customers coming back after their first purchase or sign-up]]? Should we be working on that at the same time?",
     },
     {
@@ -172,7 +172,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Is this what [[product-led growth:a growth strategy where the product itself drives acquisition, retention, and expansion]] looks like in practice?",
     },
     {
@@ -184,7 +184,7 @@ export const growthMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And if the experiment works — what then?",
     },
     {

@@ -166,7 +166,7 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Agreed. What did the audit show?',
     },
     {
@@ -184,7 +184,7 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We're launching the new compliance feature. So the core message is: our platform makes compliance easy for marketing teams in regulated industries.",
     },
     {
@@ -202,7 +202,7 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That works. Now the [[media mix:the combination of channels and formats used to deliver a campaign]] — what are we running?',
     },
     {
@@ -220,7 +220,7 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What I want to avoid is what happened last time — the transition from the ad to the landing page. The ad said one thing and the landing page said something else. That's where the integration broke down and people bounced.",
     },
     {
@@ -244,7 +244,7 @@ export const integratedMarketingCommunications: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Good. And the customer experience needs to feel seamless — whether they find us through LinkedIn, a Google search, or a referral from a colleague. They should arrive at the same brand, the same promise, the same voice.',
     },
     {

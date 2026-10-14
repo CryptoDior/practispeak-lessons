@@ -118,7 +118,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I appreciate you asking. To be honest — in our organisation, decisions of this scale involve multiple stakeholders and a significant amount of internal consultation before any [[commitment:a formal or informal agreement to proceed — the meaning and weight of a 'commitment' varies significantly across cultural contexts]] can be made. I want to be transparent about that.",
     },
     {
@@ -130,7 +130,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Our procurement team, two divisional heads, and ultimately our regional director. This is not a decision one person makes independently.',
     },
     {
@@ -142,7 +142,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "A detailed written proposal would be most helpful. Something each stakeholder can read independently and assess in their own time. The [[tone:the overall impression conveyed by the language — warm, formal, assertive, or deferential]] needs to be formal — this will be read by people who don't know you at all.",
     },
     {
@@ -154,7 +154,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Closer to the decision. But their concerns would need to be anticipated in the materials — they cannot be addressed in the moment.',
     },
     {
@@ -166,7 +166,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Yes. They focus primarily on risk — implementation risk and what happens if the partnership does not perform as expected.',
     },
     {
@@ -178,7 +178,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I appreciate that approach very much. In our experience, many vendors make strong promises during the sales process. The concern is always about what happens after the contract is signed.',
     },
     {
@@ -196,7 +196,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is reassuring. I notice we may have different views on timeline, however — I would expect the internal review to take some weeks, perhaps longer.',
     },
     {
@@ -208,7 +208,7 @@ export const crossCulturalSalesCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'The internal approval process, primarily. We have a quarterly review in eight weeks — if the proposal is strong, that would be the natural decision point.',
     },
     {

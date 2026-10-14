@@ -118,7 +118,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Honestly, Riley — I think we're very close. The team liked the platform demo, the case study numbers were convincing, and the terms you offered were fair. I'm feeling good about it.",
     },
     {
@@ -130,7 +130,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The only remaining thing is getting sign-off from our finance team on the final budget. But honestly, I think that's a formality at this stage — I've already spoken with them and the number we agreed works.",
     },
     {
@@ -142,7 +142,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That would be very useful. Can you include the case study ROI figures? That's the most compelling piece for a finance audience.",
     },
     {
@@ -154,7 +154,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Yes — I think we can. If finance confirms by Friday, we're ready to sign.",
     },
     {
@@ -166,7 +166,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I'd expect to have an answer by Friday afternoon. I'll share your summary with them tomorrow morning.",
     },
     {
@@ -178,7 +178,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That works perfectly.',
     },
     {
@@ -190,7 +190,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Send it to me and copy our legal team. I'll introduce you by email before Friday so they know to expect it.",
     },
     {
@@ -202,7 +202,7 @@ export const closingTheSaleNaturally: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'It does. Speak on Friday.',
     }
   ],

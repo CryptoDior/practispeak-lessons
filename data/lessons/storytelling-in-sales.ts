@@ -112,7 +112,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I understand the product — but honestly, I am still not sure it solves our specific situation. We have tried workflow tools before and they never quite fit.',
     },
     {
@@ -124,7 +124,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Go ahead.',
     },
     {
@@ -136,7 +136,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That sounds familiar. We have the same three people on every new account.',
     },
     {
@@ -148,7 +148,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is our situation right now. We hired two new reps in January and the same three people are already stretched.',
     },
     {
@@ -160,7 +160,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Was the transition difficult? That is always where these things break down for us.',
     },
     {
@@ -172,7 +172,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And the outcome? What actually changed?',
     },
     {
@@ -184,7 +184,7 @@ export const storytellingInSales: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'The ops lead part is the one that gets me. Ours has been saying the same thing for a year.',
     },
     {

@@ -112,7 +112,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley — we have a serious situation. A customer has posted about a data breach on social media. It's spreading fast. The story is already on two news sites.",
     },
     {
@@ -124,7 +124,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "About 90 minutes.",
     },
     {
@@ -136,7 +136,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What do we say if we don't have all the information yet?",
     },
     {
@@ -148,7 +148,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The legal team wants to say the breach was caused by a third-party supplier.",
     },
     {
@@ -160,7 +160,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "There's a [[media storm:an intense period when many outlets are covering the same story]] building — three journalists have called. Should we take their calls?",
     },
     {
@@ -172,7 +172,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about the long-term [[reputational damage:the harm to how a company is seen after a crisis]]? We've worked so hard to build trust.",
     },
     {
@@ -184,7 +184,7 @@ export const crisisPrAtTheHighestLevel: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Should we be thinking about a [[class action:a lawsuit where many customers with the same complaint sue together]]?",
     },
     {

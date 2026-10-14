@@ -154,7 +154,7 @@ export const causeRelatedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We are reviewing the brand's [[purpose-led:guided by a clear reason for existing beyond profit]] strategy. Three areas I want to cover: whether our purpose is credible, whether our [[csr:corporate social responsibility — a company taking responsibility for its impact on society]] and [[esg:environmental, social, and governance — a framework for evaluating a company's impact and practices]] reporting is accurate, and whether the campaign we are planning will hold up under scrutiny. Riley, start.",
     },
     {
@@ -172,7 +172,7 @@ export const causeRelatedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Those are credible. Now the campaign. Dana — does the campaign risk being seen as [[greenwashing:making misleading or exaggerated environmental claims]]?",
     },
     {
@@ -190,7 +190,7 @@ export const causeRelatedMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[social impact:the measurable effect a company or campaign has on society]] claim — we need to prove the impact, not just claim it. If we say this campaign helped 50,000 people, I want to know exactly how that number was calculated and who verified it.",
     },
     {

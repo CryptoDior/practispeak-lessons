@@ -173,7 +173,7 @@ export const pressAndPressing: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Right — new unit. We are moving into tactics. Today: pressing. Ronaldo, what does it mean when we say a team "presses high"?',
     },
     {
@@ -185,7 +185,7 @@ export const pressAndPressing: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. And what is the difference between "they press high" and "they are pressing high"?',
     },
     {
@@ -197,7 +197,7 @@ export const pressAndPressing: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. Now — what is [[gegenpressing:pressing immediately after losing the ball, before the opposition can organise]]?',
     },
     {
@@ -209,7 +209,7 @@ export const pressAndPressing: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. And what is a [[press trigger:a specific moment that tells the team to start pressing]]?',
     },
     {
@@ -221,7 +221,7 @@ export const pressAndPressing: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. The press only works if the whole team [[presses from the front:starts the pressure with the forwards near the opposition goal]] together. If one player does not press, the opposition escapes. What happens to teams who do not press well?',
     },
     {

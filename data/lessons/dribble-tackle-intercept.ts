@@ -173,7 +173,7 @@ export const dribbleTackleIntercept: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Watch Ronaldo — what is he doing right now?',
     },
     {
@@ -185,7 +185,7 @@ export const dribbleTackleIntercept: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. And what is the defender doing?',
     },
     {
@@ -203,7 +203,7 @@ export const dribbleTackleIntercept: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Excellent. Now — she\'s going to [[tackle:take the ball away using her feet]]. What do you do?',
     },
     {
@@ -221,7 +221,7 @@ export const dribbleTackleIntercept: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'But look — the midfielder is [[intercepting:stopping the pass before it reaches its target]] his pass. She read the game perfectly.',
     },
     {
@@ -233,7 +233,7 @@ export const dribbleTackleIntercept: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good [[control:stopping the ball and bringing it under your command]], good dribbling, good shielding. But you need to [[control:bring the ball under your command]] it faster on your first [[touch:initial contact with the ball]]. Let\'s go again.',
     },
     {
@@ -245,7 +245,7 @@ export const dribbleTackleIntercept: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Seeing the pass before it happens and moving to intercept it. The best players aren\'t the fastest — they\'re the smartest.',
     },
   ],

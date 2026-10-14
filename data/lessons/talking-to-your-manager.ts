@@ -186,7 +186,7 @@ export const talkingToYourManager: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'I appreciate you coming to me directly. It is [[rotation:the practice of regularly changing the line-up]] — we have a lot of games and I need fresh legs. But if you want [[constructive criticism:feedback that identifies what is wrong and how to improve]]: your press triggers have been a second too late. By the time you move, the opportunity to [[win the ball back:same]] has gone.',
     },
     {
@@ -198,7 +198,7 @@ export const talkingToYourManager: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'That is fair — and I hear you. [[With respect:a phrase used before professional disagreement]], I need to make decisions based on what is best for the whole team right now. But I will [[bring you back in:to restore a player to the starting line-up]] for the cup match on Thursday. Use it.',
     },
     {

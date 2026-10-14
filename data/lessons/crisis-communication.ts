@@ -112,7 +112,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, we have a problem. A customer complaint about our product went viral on social media last night — 3,000 shares and growing. We need to move fast. First question: do we have a [[holding statement:a short temporary statement issued before you have all the facts]] ready?",
     },
     {
@@ -124,7 +124,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good — do that now. [[Response time:how quickly you respond to a crisis]] is critical here. We need to put out a statement within the hour. What do we actually know about the complaint?",
     },
     {
@@ -136,7 +136,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Important rule: do not comment until we have the facts. The holding statement buys us time. Who is our [[spokesperson:the official person who communicates on behalf of the company]]?",
     },
     {
@@ -148,7 +148,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Correct. Now — if the batch records show a product issue, this needs to be [[escalate:to move a problem to a higher level of authority]]d immediately. At what point do we consider a [[recall:when a company takes back a product because it is defective or dangerous]]?",
     },
     {
@@ -160,7 +160,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Agreed. What is our [[damage control:actions taken to limit the negative impact of a crisis]] plan for social media in the meantime?",
     },
     {
@@ -172,7 +172,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. And the [[statement:an official written or spoken response]]?",
     },
     {
@@ -184,7 +184,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "This needs to be escalated to the CEO right now — I will brief her in 30 minutes. What is the one thing I need to tell her first?",
     },
     {
@@ -196,7 +196,7 @@ export const crisisCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Perfect. Let's prepare a holding statement and reconvene in two hours with the operations findings. Remember — our first priority throughout this is customer safety, not brand protection. If we get that right, the brand protects itself.",
     },
     {

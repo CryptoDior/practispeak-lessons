@@ -180,7 +180,7 @@ export const shapeAndStructure: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'B2 level now — we are speaking the language of analysts and coaches. Look at this [[formation:the numerical arrangement of players on a pitch]]: 4-2-3-1. But the [[system:how a team actually plays — movements, roles, and principles]] inside it is positional play. What does that tell you?',
     },
     {
@@ -192,7 +192,7 @@ export const shapeAndStructure: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Excellent. Now — they go 1-0 up. They [[drop into:to move into a deeper defensive position]] a [[mid-block:a defensive structure in the middle third]]. The [[compactness:how tight and close together the defensive shape is]] is excellent. How do you break it down?',
     },
     {
@@ -204,7 +204,7 @@ export const shapeAndStructure: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect analysis. They also use a [[hybrid system:a formation that blends two systems]] — [[back three:three central defenders]] in defence, [[push up:to move the defensive line higher]] to a back four in possession with the left centre-back stepping out. How do you attack that transition moment?',
     },
     {

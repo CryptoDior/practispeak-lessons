@@ -112,7 +112,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley — the board meeting is in 48 hours. I need to present the rebrand recommendation. I'm not sure where to start.",
     },
     {
@@ -124,7 +124,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I'm recommending. The board decides. So I lead with: 'As CMO, my recommendation is to proceed with the rebrand in Q3.'",
     },
     {
@@ -136,7 +136,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "One: [[brand equity:the value a brand adds based on recognition and trust]] in the 18-35 segment has fallen 14 points. Two: the competitor is eroding our visual differentiation. Three: this creates the platform for the H1 product launch.",
     },
     {
@@ -148,7 +148,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The risk is manageable because we have a 12-week transition with dual branding. Worst case: a 6% dip in brand awareness, recoverable in two quarters. We have a 30-day measurement framework to course-correct.",
     },
     {
@@ -160,7 +160,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "UK financial product ads need FCA pre-approval for the new branding. I've built a four-week legal sign-off buffer into the UK timeline.",
     },
     {
@@ -172,7 +172,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The Tokyo and Seoul teams have reviewed the [[visual identity:the complete set of visual elements that represent a brand]]. The semiotic read in both markets is consistent with the intended [[signified:the concept or meaning created by the visual identity]] — trust, precision, forward-looking.",
     },
     {
@@ -184,7 +184,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We're targeting SOV parity with the category leader in the UK and Germany in the first 12 weeks. The [[GRP:gross rating points — a measure of total advertising exposure]] delivery is 380 against adults 25-54, with 72% reach and an average frequency of 5.2.",
     },
     {
@@ -196,7 +196,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The narrative we want to build is confident evolution — not crisis response. We're a company that has outgrown its identity and is ready for the next decade. All comms around the launch will serve that story.",
     },
     {
@@ -208,7 +208,7 @@ export const c2FinalProjectTheCmoChallengeLesson: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I am accountable for this strategy and for delivering the agreed metrics within 18 months. If we miss, I bring a revised plan to the board within 30 days. That's my commitment.",
     },
     {

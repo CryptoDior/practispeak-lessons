@@ -118,7 +118,7 @@ export const makingPersuasiveRecommendations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Please — I appreciate directness.',
     },
     {
@@ -130,7 +130,7 @@ export const makingPersuasiveRecommendations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about the automated follow-up piece — you showed us that in the demo.',
     },
     {
@@ -142,7 +142,7 @@ export const makingPersuasiveRecommendations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That makes sense. I was going to ask about the full platform — is that something you would [[tentative:not fully committed; offering something as a possibility]]ly recommend for us at this stage?',
     },
     {
@@ -154,7 +154,7 @@ export const makingPersuasiveRecommendations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is actually reassuring to hear. I was expecting you to push the biggest package.',
     },
     {
@@ -166,7 +166,7 @@ export const makingPersuasiveRecommendations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Any [[hesitation:uncertainty or reluctance to commit]] I had about moving fast has gone. What are the next steps?',
     }
   ],

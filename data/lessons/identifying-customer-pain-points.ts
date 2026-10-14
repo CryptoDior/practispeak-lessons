@@ -153,7 +153,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Please — go ahead.',
     },
     {
@@ -165,7 +165,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's exactly it. The follow-up thing is almost a [[symptom:a visible sign that a deeper problem exists]] — it is what I see, but it is not really the problem.",
     },
     {
@@ -177,7 +177,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Honestly — both. But if I had to choose, it is a process issue first. The tools just make the problem more visible.',
     },
     {
@@ -189,7 +189,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'It has always been there to some degree, but it got significantly worse when the team grew from five reps to twelve. That was eight months ago.',
     },
     {
@@ -201,7 +201,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Roughly — I think we are losing maybe two or three deals a month because of slow or missed follow-up. At our average deal size, that is significant.',
     },
     {
@@ -213,7 +213,7 @@ export const identifyingCustomerPainPoints: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'It comes up every quarter. We talk about it, we agree to do better, and then nothing really changes. So yes — it is very much a [[recurring:happening repeatedly]] [[issue:a problem or concern that needs to be addressed]].',
     },
     {

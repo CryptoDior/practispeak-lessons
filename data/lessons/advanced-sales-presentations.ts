@@ -112,7 +112,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, I need your help. I have to present the case for your solution to my CFO and CEO next Thursday. I have built a deck — I have the data, the ROI model, the implementation plan. But when I ran through it with my Head of Operations, she said it felt like a report, not an argument.',
     },
     {
@@ -124,7 +124,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I start with context: market conditions, our current growth rate, the challenge we are facing in scaling the sales team without increasing headcount.',
     },
     {
@@ -136,7 +136,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What would the hook be?',
     },
     {
@@ -148,7 +148,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is a stronger opening. But then what? My deck has six sections — competitive analysis, product overview, ROI model, implementation, risk assessment, next steps.',
     },
     {
@@ -160,7 +160,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'So I am essentially rebuilding the deck around a [[thread:a connecting idea that runs through the whole presentation]] rather than a list of topics.',
     },
     {
@@ -172,7 +172,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'The ROI model is the section I am least confident about. I have the numbers but I am worried my CFO will push back on the [[assertion:a confident claim that needs to be earned by evidence]] that the freed capacity translates directly to revenue.',
     },
     {
@@ -184,7 +184,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And the close? Right now I end with next steps and a timeline.',
     },
     {
@@ -196,7 +196,7 @@ export const advancedSalesPresentations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is a completely different presentation from the one I had. I need to go back and rebuild it.',
     },
     {

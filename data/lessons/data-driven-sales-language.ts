@@ -112,7 +112,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, before we discuss renewal, I want to understand what we've actually gotten from the platform this year. Our board is asking the same question — so I need the numbers, not the narrative.",
     },
     {
@@ -124,7 +124,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Please do.',
     },
     {
@@ -136,7 +136,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That is a significant movement. What's driving it?",
     },
     {
@@ -148,7 +148,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Good. What about [[retention:the ability to keep customers and their revenue over time — measured by renewal rate, churn rate, and net revenue retention]]? Our board is particularly focused on [[churn:the rate at which customers cancel or do not renew — the inverse of retention]] right now.',
     },
     {
@@ -160,7 +160,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What was driving the churn previously?',
     },
     {
@@ -172,7 +172,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Give me the [[ROI:return on investment — the financial benefit gained relative to cost, expressed as a ratio or percentage]] case plainly.',
     },
     {
@@ -184,7 +184,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Those are strong numbers. How confident are you in the attribution — could these improvements have occurred without the platform?',
     },
     {
@@ -196,7 +196,7 @@ export const dataDrivenSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's a rigorous approach. What do the projections look like for year two, if we renew?",
     },
     {

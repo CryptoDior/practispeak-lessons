@@ -154,7 +154,7 @@ export const advancedPresentationSkills: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We have a board presentation in three days and this group is going to be tough. I want to spend this session on Q&A preparation — specifically the hardest questions and how we handle them. Riley, give me the worst question you think we will get.",
     },
     {
@@ -166,7 +166,7 @@ export const advancedPresentationSkills: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Let us [[separate:to disentangle two different issues so each can be addressed clearly]] the two issues — the first is the two misses, and the second is whether this projection is believable. On the misses: Q2 was an external event — category contraction of 11%. Q3 was an execution failure and I am not going to defend it. On this projection: it has been reviewed by an independent commercial assessment team and the assumptions have been stress-tested against the Q3 failure specifically.",
     },
     {
@@ -184,7 +184,7 @@ export const advancedPresentationSkills: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And if a board member makes a point I actually agree with — a [[leading question:a question that embeds an assumption the questioner wants you to accept]] that has a real criticism buried in it?",
     },
     {
@@ -202,7 +202,7 @@ export const advancedPresentationSkills: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Understood. Let us run through the top ten questions. I take that point — and here is where I see it differently. Let us start.",
     },
   ],

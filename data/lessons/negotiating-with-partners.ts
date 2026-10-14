@@ -166,7 +166,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Appreciate the directness. What are the main sticking points?',
     },
     {
@@ -178,7 +178,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "On price — we've moved significantly from our original position. We're at 12% now, down from 20%. I'm not sure how much further we can go.",
     },
     {
@@ -190,7 +190,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'A 24-month commitment in exchange for holding the price at current levels?',
     },
     {
@@ -202,7 +202,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's interesting. Let me think about it. On payment terms — net-30 is non-negotiable for us. We have our own cash flow commitments to manage.",
     },
     {
@@ -214,7 +214,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'If you could include the premium reporting add-on — which is normally billed separately — as part of the base package, I think we could look at net-45.',
     },
     {
@@ -226,7 +226,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. The last one — exclusivity. We can't offer full category exclusivity. We have two other clients in financial services.",
     },
     {
@@ -238,7 +238,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Sub-category — so retail banking specifically, not all financial services?',
     },
     {
@@ -250,7 +250,7 @@ export const negotiatingWithPartners: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Sub-category exclusivity in retail banking, net-45 with the reporting add-on, 5% price increase over a 24-month contract. I can take that back to my team today. I think we're close.",
     }
   ],

@@ -166,7 +166,7 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I've been looking at the data. I think the biggest single factor was the [[framing effect:when the same information presented in different ways produces different responses]] in the email subject lines. We stopped leading with the benefit and started leading with the loss.",
     },
     {
@@ -184,7 +184,7 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "There were two other factors I want to flag. The first was the social proof strip on the landing page — we added the '3,800 companies' stat and the G2 badge two weeks into the campaign. Landing page conversion went up 14% almost immediately after.",
     },
     {
@@ -202,7 +202,7 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's anchoring — and it's one of the most reliable pricing tactics there is. The brain processes value relatively, not absolutely. By anchoring on a high price first, we change the customer's reference point.",
     },
     {
@@ -220,7 +220,7 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "For the client debrief, how do we present this? Some clients get uncomfortable when you name the psychological techniques you're using.",
     },
     {
@@ -238,7 +238,7 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Perfect. Riley — can you build the debrief deck around that framing? Customer hesitation points, what the research says about each one, and how we addressed it in the campaign.',
     },
     {
@@ -250,7 +250,7 @@ export const consumerPsychology: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Great. If they understand why these techniques work, they'll brief us better next time.",
     }
   ],

@@ -178,7 +178,7 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What would a better headline look like?',
     },
     {
@@ -196,7 +196,7 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Company history on a conversion page is a classic mistake. Nobody who lands on this page needs to know we were founded in 2019. They need to know we can solve their problem.',
     },
     {
@@ -220,7 +220,7 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about [[objection handling:copy that anticipates and addresses the reader's likely reasons for not taking action]]? I don't see anything on the page that addresses the most common hesitations.",
     },
     {
@@ -238,7 +238,7 @@ export const persuasiveMarketingWriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'The action is requesting a personalised audit of their content process. The reward is a specific, actionable report they get in 48 hours.',
     },
     {

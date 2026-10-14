@@ -166,7 +166,7 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Appreciate that. Can you start by explaining how the buying actually works? I want to understand what we're paying for.",
     },
     {
@@ -184,7 +184,7 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'How do we control who sees the ads?',
     },
     {
@@ -202,7 +202,7 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I've heard that cookies are disappearing. Should we be worried about that for this campaign?",
     },
     {
@@ -226,7 +226,7 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What was the second thing?',
     },
     {
@@ -244,7 +244,7 @@ export const programmaticAdvertising: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Good. The DSP optimises the buying automatically once all of that is set up?',
     },
     {

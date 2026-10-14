@@ -112,7 +112,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, I want to be transparent with you — we are also evaluating CompeteX. Can you help me understand the key differences?',
     },
     {
@@ -130,7 +130,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'CompeteX told us their reporting is industry-leading. That is a strong claim.',
     },
     {
@@ -142,7 +142,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That matters a lot for us — our board always asks for reports in a very specific format.',
     },
     {
@@ -154,7 +154,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about price? CompeteX is less expensive.',
     },
     {
@@ -166,7 +166,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I had not thought about the total cost that way. What about the main [[drawback:a disadvantage or negative aspect]] of your platform? Be honest.',
     },
     {
@@ -178,7 +178,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And what about performance? CompeteX claim they [[outperform:to do better than something in a measurable comparison]] everyone.',
     },
     {
@@ -190,7 +190,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'The key difference seems to be the customisation and the support. Those are our top [[criteria:the standards used to make a decision]].',
     },
     {
@@ -202,7 +202,7 @@ export const comparingProductsOrServices: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Yes please. That would be very helpful for our decision.',
     }
   ],

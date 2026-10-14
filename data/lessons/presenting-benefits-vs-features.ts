@@ -153,7 +153,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I appreciate that. I have sat through too many demos where someone just clicks through every screen.',
     },
     {
@@ -165,7 +165,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is the thing — right now if someone does not update the CRM, I have no idea what is happening.',
     },
     {
@@ -177,7 +177,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That would change things significantly. What about follow-up — you mentioned automated reminders?',
     },
     {
@@ -189,7 +189,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And how does that [[differentiate:to show how your product is meaningfully different from alternatives]] from what we could just build ourselves in the CRM?',
     },
     {
@@ -201,7 +201,7 @@ export const presentingBenefitsVsFeatures: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That [[resonate:to connect with someone in a way that feels true and meaningful]]s — honestly, the spreadsheet works until it does not, and by the time it stops working you have already lost the deals.',
     },
     {

@@ -118,7 +118,7 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Thanks for coming in, Riley. The whole team is looking forward to hearing more.',
     },
     {
@@ -130,7 +130,7 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That sounds well [[structure:the organised framework of a presentation — introduction, body, conclusion]]d. Please go ahead.',
     },
     {
@@ -160,7 +160,7 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Could you go into more detail on the Salesforce integration? That's particularly important for Sarah's team.",
     },
     {
@@ -184,7 +184,7 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Yes — this is the part I'm most interested in.",
     },
     {
@@ -202,7 +202,7 @@ export const salesPresentationBasics: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That was a very clear presentation, Riley. You've covered everything we needed to hear.",
     },
     {

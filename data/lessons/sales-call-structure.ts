@@ -153,7 +153,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good thanks. I've only got about 20 minutes, just so you know.",
     },
     {
@@ -165,7 +165,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Sure, go ahead.',
     },
     {
@@ -177,7 +177,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's right, yes. We've outgrown our current system.",
     },
     {
@@ -189,7 +189,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "A spreadsheet, if you can believe it. With 15 reps it's becoming a nightmare — my manager asks for a pipeline update and I'm pulling data manually for two hours.",
     },
     {
@@ -201,7 +201,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Both, honestly. The data quality is terrible because no one trusts the system, so no one maintains it properly.',
     },
     {
@@ -213,7 +213,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's exactly it.",
     },
     {
@@ -225,7 +225,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'No — a demo makes sense.',
     },
     {
@@ -237,7 +237,7 @@ export const salesCallStructure: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Thursday works. Let's say 2pm.",
     },
     {

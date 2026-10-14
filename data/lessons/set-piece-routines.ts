@@ -180,7 +180,7 @@ export const setPieceRoutines: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Corner routine. Here is the [[set piece:a pre-designed play from a dead ball]]. Sofia — [[near post:the goalpost closest to the delivery point]] runner. Ronaldo — [[blocking run:a run made to screen a defender, not to receive the ball]]. Then [[peel off:to break away from a blocking position and make a run]] to the [[far post:the goalpost furthest from the delivery point]]. The [[delivery:the cross or kick that the taker sends into the box]] is an [[in-swinger / out-swinger:in-swinger curves towards goal; out-swinger curves away]] — in-swinging, near post. Understood?',
     },
     {
@@ -192,7 +192,7 @@ export const setPieceRoutines: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. The [[flick-on:a subtle header that redirects the ball onwards]] creates the opportunity. Ronaldo — [[hold your run:to delay making a run until the right moment]]. Do not move until Sofia makes contact with the ball. And if the [[second ball:the ball after the initial delivery is cleared]] comes out, who attacks it?',
     },
     {
@@ -204,7 +204,7 @@ export const setPieceRoutines: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. Now — defensive corner. Do we use [[zonal vs man-marking:zonal = cover areas; man-marking = track specific opponents]] or man-to-man?',
     },
     {

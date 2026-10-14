@@ -112,7 +112,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, I am ready to pay for my order. How can I do that?',
     },
     {
@@ -124,7 +124,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What is an invoice exactly? Can you explain?',
     },
     {
@@ -136,7 +136,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And when is payment [[due:required by a specific date]]?',
     },
     {
@@ -148,7 +148,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is good. We usually pay by bank transfer.',
     },
     {
@@ -160,7 +160,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And will I receive a [[receipt:a document that proves payment has been made]] after I pay?',
     },
     {
@@ -172,7 +172,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What is my [[balance:the amount of money still owed]]? How much do I owe?',
     },
     {
@@ -184,7 +184,7 @@ export const paymentVocabulary: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Okay. I will process the bank transfer today.',
     },
     {

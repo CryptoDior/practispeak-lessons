@@ -118,7 +118,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I've looked at it. The plan delivers 320 [[GRP:a measure of how much advertising exposure a campaign delivers — 1 GRP = 1% of target audience reached once]] against adults 25-44 over eight weeks. [[Reach:the percentage of unique people who see the ad at least once]] is 72%, [[frequency:the average number of times each person sees the ad]] is 4.4.",
     },
     {
@@ -130,7 +130,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "TV is running at €24 CPT. Digital video is €8. Out-of-home is €11.",
     },
     {
@@ -142,7 +142,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We're outspent. The competitor is running at roughly 450 GRPs per quarter. We're at 320.",
     },
     {
@@ -154,7 +154,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Can we go dark for a few weeks and save the budget to increase [[flighting:a scheduling strategy where advertising runs in planned bursts with gaps]] in Q4?",
     },
     {
@@ -166,7 +166,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "If frequency drops to 2.5 or below, we might not get enough message recall.",
     },
     {
@@ -178,7 +178,7 @@ export const internationalMediaBuying: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the international markets? The plan right now is UK and Germany only.",
     },
     {

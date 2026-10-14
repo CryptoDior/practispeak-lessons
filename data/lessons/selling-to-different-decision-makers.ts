@@ -112,7 +112,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, I have to be honest — I have enjoyed our conversations, but when you talk about strategic alignment and revenue impact, it does not quite connect for me. I am a Head of Sales Operations. I care about whether my team can actually use this.',
     },
     {
@@ -124,7 +124,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Exactly. I have seen three tools bought at exec level in the last two years that my team never actually used. I am the one who has to manage the fallout from that.',
     },
     {
@@ -136,7 +136,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is exactly the question. How do I prevent another failed adoption?',
     },
     {
@@ -148,7 +148,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I like that approach. But I also need to manage upward. My CFO will ask me to justify the spend and my CEO is going to want to know what the strategic case is.',
     },
     {
@@ -160,7 +160,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'So I need three different conversations. That is a lot to manage internally.',
     },
     {
@@ -172,7 +172,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That would actually be very useful. Who else do you typically need to speak to in organisations like ours?',
     },
     {
@@ -184,7 +184,7 @@ export const sellingToDifferentDecisionMakers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Who else needs to see this — other than the CFO, CEO, and the senior users?',
     },
     {

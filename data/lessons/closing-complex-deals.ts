@@ -112,7 +112,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I'll be honest — we're close, but this is a complex internal process. I'm not confident we can meet the timeline you'd be hoping for.",
     },
     {
@@ -124,7 +124,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's a reasonable approach. Where do you want to start?",
     },
     {
@@ -136,7 +136,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'The proposal goes to procurement this week. Procurement typically takes two weeks to evaluate. Then legal review — which can vary. Then CFO sign-off. And finally, the board reviews all contracts above £500,000 at the quarterly meeting.',
     },
     {
@@ -148,7 +148,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Six weeks from today.',
     },
     {
@@ -160,7 +160,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Yes — I can submit to procurement today. That's a firm commitment.",
     },
     {
@@ -172,7 +172,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's a very structured approach. I like it — it will help my team stay aligned internally as well.",
     },
     {
@@ -184,7 +184,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Honestly — our IT security team hasn't fully reviewed the data residency requirements. That could surface as a concern during the vendor assessment.",
     },
     {
@@ -196,7 +196,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Copy Sarah — our Head of Operations. She manages the procurement relationship and has a direct line to both IT security and the CFO.',
     },
     {
@@ -208,7 +208,7 @@ export const closingComplexDeals: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I'll introduce you by email today.",
     },
     {

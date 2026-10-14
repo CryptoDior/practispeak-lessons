@@ -112,7 +112,7 @@ export const runSprintStop: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Listen carefully. On the pitch, you need to understand my instructions immediately. Ready?',
     },
     {
@@ -124,7 +124,7 @@ export const runSprintStop: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. First — [[sprint:to run as fast as you possibly can]] to the ball! Go!',
     },
     {
@@ -136,7 +136,7 @@ export const runSprintStop: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: '[[Stop:to not move, to stand still]]! Now [[turn:to change direction quickly with the ball]] and face the goal.',
     },
     {
@@ -148,7 +148,7 @@ export const runSprintStop: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Now make a run behind the defender — [[jump:to push your body up off the ground]] for the header!',
     },
     {
@@ -160,7 +160,7 @@ export const runSprintStop: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: '[[Block:to stop the ball with your body]] it! Get your body in front!',
     },
     {
@@ -172,7 +172,7 @@ export const runSprintStop: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Yes, but only when you are sure. After the tackle, [[jog:to run slowly at an easy pace]] back to your position.',
     },
     {

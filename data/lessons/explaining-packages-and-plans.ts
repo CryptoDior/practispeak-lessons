@@ -118,7 +118,7 @@ export const explainingPackagesAndPlans: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Sure — I want to understand the [[tier:a level in a structured set of options]]s before we talk numbers.',
     },
     {
@@ -130,7 +130,7 @@ export const explainingPackagesAndPlans: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is too limited for us — we have twelve reps and we need the follow-up automation.',
     },
     {
@@ -142,7 +142,7 @@ export const explainingPackagesAndPlans: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about Premium — is that something we would need?',
     },
     {
@@ -154,7 +154,7 @@ export const explainingPackagesAndPlans: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Is Standard [[scalable:able to grow with the customer's needs]] if we grow the team quickly?",
     },
     {
@@ -166,7 +166,7 @@ export const explainingPackagesAndPlans: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That makes sense. What do most teams similar to ours typically go with?',
     },
     {

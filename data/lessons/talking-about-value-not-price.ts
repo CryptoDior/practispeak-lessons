@@ -118,7 +118,7 @@ export const talkingAboutValueNotPrice: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Go ahead — I want to understand the [[return:the measurable benefit you get from an investment]] before I sign anything.',
     },
     {
@@ -130,7 +130,7 @@ export const talkingAboutValueNotPrice: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Honestly — one deal covers the cost of this tool for the month, easily.',
     },
     {
@@ -142,7 +142,7 @@ export const talkingAboutValueNotPrice: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about the time saving — is there a [[measurable:able to be expressed in numbers or tracked]] number on that?',
     },
     {
@@ -154,7 +154,7 @@ export const talkingAboutValueNotPrice: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'There is also a piece that is harder to put a number on — the stress of not knowing what is happening. That [[intangible:real but difficult to quantify]] cost is real.',
     },
     {
@@ -166,7 +166,7 @@ export const talkingAboutValueNotPrice: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'How would I [[justify:to provide clear evidence that something is worth its cost]] this to the board in simple terms?',
     },
     {

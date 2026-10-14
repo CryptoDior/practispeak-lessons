@@ -118,7 +118,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I've been looking at the [[Hofstede dimensions:a framework measuring cultural differences across countries]]. The campaign is very individualistic — 'Be the first. Lead the way.' In Japan, South Korea, and China, that message will feel off. Those markets score high on [[collectivism:a cultural value where group identity is more important than individual achievement]].",
     },
     {
@@ -130,7 +130,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "How much do we change? Do we run a completely different campaign or adapt the existing one?",
     },
     {
@@ -142,7 +142,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The creative team sent a translated version of the copy for Japan. It reads well linguistically, but something feels wrong about it.",
     },
     {
@@ -154,7 +154,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The headline in Japanese literally translates to 'Become number one'. Is that a problem?",
     },
     {
@@ -166,7 +166,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the visual — the main image shows a woman working alone at night, achieving something on her own. I assume that's also a problem?",
     },
     {
@@ -178,7 +178,7 @@ export const culturalIntelligenceInGlobalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "This is much more complex than I expected.",
     },
     {

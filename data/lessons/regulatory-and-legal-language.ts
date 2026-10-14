@@ -112,7 +112,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the creative team has sent the final copy for the financial services campaign. The headline is 'Guaranteed returns on every investment.' Can we use that?",
     },
     {
@@ -124,7 +124,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about 'Competitive returns with a proven track record'?",
     },
     {
@@ -136,7 +136,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "OK — 'Strong historical returns.' And we add a [[disclaimer:a statement that limits or qualifies a claim]] below.",
     },
     {
@@ -148,7 +148,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the body copy includes our Net Promoter Score — '92% of clients would recommend us.' Is that fine?",
     },
     {
@@ -160,7 +160,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The survey was from 2022. Is that too old?",
     },
     {
@@ -172,7 +172,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "So what do we do — remove the stat or update it?",
     },
     {
@@ -184,7 +184,7 @@ export const regulatoryAndLegalLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And [[GDPR:EU law controlling how organisations collect and use personal data]] — we're collecting form data from the landing page. Do we need to do anything?",
     },
     {

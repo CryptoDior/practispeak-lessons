@@ -147,7 +147,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, I appreciated the first meeting — but I have to be honest with you. I have three concerns and I want to put them on the table before we go any further.',
     },
     {
@@ -159,7 +159,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'First — budget. We have a [[constraint:a real limitation that restricts what a prospect can do]] in Q4. The number you gave me is not something I can approve right now. Second — timing. My team is in the middle of a product launch and they cannot take on anything new until January. Third — and this is the hard one — we have been burned before. A vendor made us very similar promises eighteen months ago and the results were not there.',
     },
     {
@@ -171,7 +171,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Honestly? Probably yes. The problem you described in the last meeting is real. We are losing selling time to workflow friction and we know it.',
     },
     {
@@ -183,7 +183,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Q1 opens in February. But I cannot [[defer:to delay a decision to a later point]] this forever — my team keeps asking me what we are doing about the workflow problem.',
     },
     {
@@ -195,7 +195,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'If the launch is done by mid-January, we would have capacity. But I also need my CFO involved in anything at this contract value — so who else needs to be part of this is really her.',
     },
     {
@@ -207,7 +207,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Her biggest concern is always [[commitment:the level of investment being asked of someone]] — she does not like twelve-month contracts with companies we have not worked with before. The [[scepticism:doubt about whether something is true or worth trusting]] runs deep after the last vendor situation.',
     },
     {
@@ -219,7 +219,7 @@ export const complexObjectionHandling: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That I could take to her. What does the pilot look like in practice?',
     },
     {

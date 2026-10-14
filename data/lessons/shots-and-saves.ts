@@ -173,7 +173,7 @@ export const shotsAndSaves: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Ronaldo — you\'re in a shooting position. The keeper is off his line. What do you do?',
     },
     {
@@ -191,7 +191,7 @@ export const shotsAndSaves: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good attempt. Now Sofia — cross it in. Ronaldo, attack the ball with your head!',
     },
     {
@@ -215,7 +215,7 @@ export const shotsAndSaves: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Brilliant! Always follow your shots. If the keeper parries or spills it, you are there to score. Now — what is the difference between a save and a parry?',
     },
     {
@@ -227,7 +227,7 @@ export const shotsAndSaves: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Correct. A parry is dangerous — the ball can fall to an attacker. A good keeper tries to hold the ball or push it away from danger. Ronaldo — one more shot. [[Volley:striking the ball while it is in the air]] it this time.',
     },
     {
@@ -239,7 +239,7 @@ export const shotsAndSaves: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Yes! That\'s on target. When your shot is on target, the keeper has to work. When it\'s off target, it means nothing. Get it on target first — then worry about power.',
     },
   ],

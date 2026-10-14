@@ -172,7 +172,7 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'My instinct is against option one. TechFlow has significant [[brand equity:the commercial value that comes from customer recognition and positive association]] in the analytics software space. If we rename it MarketBridge Analytics, we erase that equity overnight.',
     },
     {
@@ -190,7 +190,7 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "So the recommended architecture is an endorsed brand model. TechFlow keeps its name and identity, but 'a MarketBridge Company' appears in the communications. It's clear about the relationship without overriding the TechFlow brand.",
     },
     {
@@ -214,7 +214,7 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I see the logic. And there's a [[cannibalisation:when one product takes customers away from another product in the same company]] risk if we pitch enterprise and SME under the same name — the enterprise buyer might see the SME product and wonder if they're buying the same thing at a premium.",
     },
     {
@@ -232,7 +232,7 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I'm comfortable with that structure. One risk I want to flag: the moment we also had a proposal for a consumer product. Would that go under MarketBridge?",
     },
     {
@@ -250,7 +250,7 @@ export const brandArchitecture: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Let's get the recommendation paper to the board by Friday. Clear hierarchy, rationale for each model choice, and the commercial risk of the alternatives.",
     }
   ],

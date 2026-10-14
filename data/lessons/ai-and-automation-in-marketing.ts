@@ -154,7 +154,7 @@ export const aiAndAutomationInMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We are six months into our AI programme and I want to take stock. What is working, what is not, and where do we need better [[AI governance:the rules and processes that ensure AI is used responsibly and in line with legal and brand standards]]? Riley, start with what is working.",
     },
     {
@@ -172,7 +172,7 @@ export const aiAndAutomationInMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Now the problems. Dana — what are we getting wrong?",
     },
     {
@@ -190,7 +190,7 @@ export const aiAndAutomationInMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Agreed. Let us build this properly. Our AI governance framework needs to cover content review, fact-checking, and prompt standards. And when the team asks if AI is replacing them — the answer is clear. We are using AI to augment, not replace, the marketing function. The AI handles volume. The humans handle quality, strategy, and judgement.",
     },
     {

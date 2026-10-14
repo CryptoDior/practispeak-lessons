@@ -118,7 +118,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Honestly, yes — but I have a few [[concern:a worry or doubt that is preventing someone from making a decision]]s I want to raise before we go any further.',
     },
     {
@@ -130,7 +130,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'First — the price. It is higher than I was expecting for the pipeline plan.',
     },
     {
@@ -142,7 +142,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Mainly the internal justification. I would need to show the board why this makes sense.',
     },
     {
@@ -154,7 +154,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Exactly. I need to [[validate:to acknowledge that a concern is legitimate]] their concerns too, not just my own.',
     },
     {
@@ -166,7 +166,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Timing. Q4 is always chaotic — I am not sure this is the right moment to [[overcome:to successfully address an objection so it is no longer a barrier]] the internal resistance and launch something new.',
     },
     {
@@ -178,7 +178,7 @@ export const handlingBasicObjections: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'It does — when you put it that way. What would it take to get started quickly without it feeling like a big disruption?',
     },
     {

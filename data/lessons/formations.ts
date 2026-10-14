@@ -173,7 +173,7 @@ export const formations: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Sofia — how do you read a [[formation:the tactical shape of a team — shown as three numbers]]?',
     },
     {
@@ -185,7 +185,7 @@ export const formations: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. And how is a 4-3-3 different? Compare them.',
     },
     {
@@ -197,7 +197,7 @@ export const formations: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. A 4-4-2 is wider in [[midfield:the middle area of the pitch]] — more compact. A 4-3-3 has more forwards but needs the wide forwards to work hard. What about a 5-4-1?',
     },
     {
@@ -209,7 +209,7 @@ export const formations: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'And what does [[compact:when a team stays close together with few gaps]] mean for a formation?',
     },
     {
@@ -221,7 +221,7 @@ export const formations: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. And what is a [[holding:a defensive midfielder who stays back]] midfielder — how does this role work in different formations?',
     },
     {
@@ -233,7 +233,7 @@ export const formations: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. And [[shape:how a team is organised positionally]]? What happens when a team loses its shape?',
     },
     {

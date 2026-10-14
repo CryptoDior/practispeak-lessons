@@ -180,7 +180,7 @@ export const deadBallSituations: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Penalties are won before the ball is kicked. It is psychology — not technique. Sofia, describe what you had been thinking when you [[stepped up:to walk forward to take responsibility in a difficult moment]] for that [[spot kick:another word for a penalty]] in the 118th minute.',
     },
     {
@@ -192,7 +192,7 @@ export const deadBallSituations: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'You [[held your nerve:to stay calm under intense pressure]] brilliantly. Ronaldo — what had been happening at the corner routine that created the penalty in the first place?',
     },
     {
@@ -204,7 +204,7 @@ export const deadBallSituations: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'In [[sudden death:the stage where one miss ends the game immediately]], [[nerve:the mental strength to perform under extreme pressure]] matters more than anything else. The crowd was making noise, the game had been level for 118 minutes — but Sofia [[stepped up:same]] and [[sent the goalkeeper the wrong way:to trick the keeper into diving in the wrong direction]]. [[Audacious:bold and surprising]] composure. That is what wins trophies.',
     },
     {

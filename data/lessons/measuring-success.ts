@@ -118,7 +118,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Of course. What were the [[KPI:key measurable metric for evaluating success]] s for this campaign?',
     },
     {
@@ -130,7 +130,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And did you [[hit a target]] the [[target:a specific number you are trying to reach]] s?',
     },
     {
@@ -142,7 +142,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Impressive. How does that compare to the [[benchmark:a standard used to compare results]]?',
     },
     {
@@ -154,7 +154,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What was the [[conversion:when a visitor takes the desired action]] rate on the landing page?',
     },
     {
@@ -166,7 +166,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What is the most important [[insight:a useful understanding gained from data]] from this month?',
     },
     {
@@ -178,7 +178,7 @@ export const measuringSuccess: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I appreciate the clear [[report:a summary of what happened, with results and insights]]. Can you [[break down the data]] by channel? I want to know which [[metric:a measurable number used to track performance]] s are strongest on LinkedIn versus email.',
     },
     {

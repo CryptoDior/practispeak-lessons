@@ -173,7 +173,7 @@ export const buildingFromTheBack: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Today we talk about one of the most important ideas in modern football — [[build-up play:the way a team gradually passes the ball forward from deep]]. Why do teams [[play out:build attacks by passing from the back rather than kicking long]] from the back?',
     },
     {
@@ -185,7 +185,7 @@ export const buildingFromTheBack: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. They play out to keep possession. Not "for keeping possession." The infinitive of purpose — to + verb. And Ronaldo — what does the [[sweeper-keeper:a goalkeeper who comes out to join the build-up play like an extra outfield player]] do differently from a traditional goalkeeper?',
     },
     {
@@ -197,7 +197,7 @@ export const buildingFromTheBack: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. So why does the sweeper-keeper come out of goal?',
     },
     {
@@ -209,7 +209,7 @@ export const buildingFromTheBack: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Three perfect answers — all using the infinitive of purpose. And when the press is too strong — what do you do?',
     },
     {
@@ -221,7 +221,7 @@ export const buildingFromTheBack: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'You go long to bypass the press — another infinitive of purpose. The key word: TO. Every tactical decision has a reason. Find the reason. Use TO.',
     },
   ],

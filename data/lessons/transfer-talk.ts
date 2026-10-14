@@ -173,7 +173,7 @@ export const transferTalk: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Right — big news. Our star midfielder left the club last week. Did you all see the announcement?',
     },
     {
@@ -191,7 +191,7 @@ export const transferTalk: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Correct. The buying club [[triggered his release clause:paid the exact amount written in his contract to force the sale]] — so the club had no choice but to sell.',
     },
     {
@@ -203,7 +203,7 @@ export const transferTalk: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Yes — he passed his medical on Thursday morning and the deal was done before the [[transfer window:the official period when clubs can buy and sell players]] closed.',
     },
     {
@@ -215,7 +215,7 @@ export const transferTalk: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'They brought in a young midfielder on [[loan:a temporary move — the player returns to their parent club at the end]] from City. No permanent signing this window.',
     },
   ],

@@ -173,7 +173,7 @@ export const counterAttack: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Tomorrow\'s opponents push their full-backs very high. This creates a lot of space in behind for us. If they push their full-backs high, what will happen?',
     },
     {
@@ -185,7 +185,7 @@ export const counterAttack: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. Notice the grammar — "If they push high..." present simple in the if-clause. "...there WILL BE space." Will in the main clause. Never "if they WILL push." Ronaldo — what is the key to a good [[transition:the moment of switching from defending to attacking — or attacking to defending]]?',
     },
     {
@@ -197,7 +197,7 @@ export const counterAttack: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Right. And what happens to us if we push too many players forward and lose the ball?',
     },
     {
@@ -209,7 +209,7 @@ export const counterAttack: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. The [[counter-attack:a fast attack launched immediately after winning the ball while the opposition is out of position]] works both ways. If we are not disciplined, they will hurt us. So — what is our plan?',
     },
     {

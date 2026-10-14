@@ -173,7 +173,7 @@ export const postMatchInterviews: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Today — post-match interview language. Sofia — you are the manager. You have just lost 2-1. The journalist asks: "Were you the better team?" What do you say?',
     },
     {
@@ -185,7 +185,7 @@ export const postMatchInterviews: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Excellent. Notice the hedging — "I think," "I felt," "to be honest." None of that is a strong claim that could cause controversy. Ronaldo — the journalist asks: "Were you the better team?" You are now a player. Same situation.',
     },
     {
@@ -197,7 +197,7 @@ export const postMatchInterviews: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. Now — the journalist asks about a controversial refereeing decision. He says: "Do you think the penalty should have been given?" What do you say?',
     },
     {
@@ -209,7 +209,7 @@ export const postMatchInterviews: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect deflection. You acknowledged the question, you declined to answer it, and you moved on. One final question — "What now?" What do you say after a defeat?',
     },
     {

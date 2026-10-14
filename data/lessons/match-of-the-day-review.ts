@@ -173,7 +173,7 @@ export const matchOfTheDayReview: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Well — what a night. What a [[memorable:worth remembering — particularly special]] match. Before we go, let\'s do a quick [[review:a look back and assessment]]. Ronaldo — your [[verdict:a final judgement or opinion]]?',
     },
     {
@@ -191,7 +191,7 @@ export const matchOfTheDayReview: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: '[[On reflection:after thinking more carefully]], I think the [[decisive:having a final effect on the outcome]] moment was the red card in the 55th minute. Before that, it was even. After that, City were a different team.',
     },
     {
@@ -209,7 +209,7 @@ export const matchOfTheDayReview: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: '[[When all is said and done:after everything has been considered — the final conclusion]], the [[summary:a brief account of the main points]] is simple: discipline matters. One red card changed this match completely. Stay disciplined, stay focused, and you stay in the game.',
     },
     {

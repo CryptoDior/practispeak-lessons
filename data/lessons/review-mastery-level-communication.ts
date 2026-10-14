@@ -112,7 +112,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I've been looking back at all 18 C2 lessons. There's a lot of vocabulary. How do I know which words I've really internalised and which ones I just recognise?",
     },
     {
@@ -124,7 +124,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Let me try. In semiotics — the [[signifier:the physical thing you see or hear that carries a meaning]] is the image or word itself. The meaning it creates in the viewer's mind is the [[signified:the concept or meaning created by the signifier]]. Have I got that right?",
     },
     {
@@ -136,7 +136,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The dark blue colour and the geometric logo. The signified is trust, precision, and technology-forward thinking. That's what we want customers to read from it.",
     },
     {
@@ -148,7 +148,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We'll lose market share — brand awareness will erode because we're not maintaining enough presence relative to our position. We need to reach [[SOV parity:when share of voice equals share of market]] before we can start growing.",
     },
     {
@@ -160,7 +160,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Persuasion gives people accurate information and compelling reasons to choose. Manipulation bypasses the customer's rational thinking — through false urgency, emotional exploitation, or hidden information. The test is whether the customer's [[autonomy:the right to make free and informed decisions]] is respected.",
     },
     {
@@ -172,7 +172,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Localise, don't just translate. [[Transcreation:recreating a message in another language so it has the same emotional effect]] is not translation — it's recreating the emotional impact in a different language and cultural context.",
     },
     {
@@ -184,7 +184,7 @@ export const reviewMasteryLevelCommunication: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Lead with the recommendation. Use brevity and precision. Cut the [[noise:words and sections that add length but not meaning]]. Make it a [[decision document:a document written specifically to help someone choose between options]] — not a report. The board doesn't need the full story; they need the decision and the evidence.",
     },
     {

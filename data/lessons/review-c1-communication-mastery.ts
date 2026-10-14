@@ -160,7 +160,7 @@ export const reviewC1CommunicationMastery: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Looking back at what we covered in the AI and automation lesson, the key insight was that AI governance is not a constraint on AI adoption — it is what makes AI adoption credible. Without governance, the efficiency gains are real but the [[hallucination:AI output that is confidently wrong]] risk undermines trust in everything the system produces.",
     },
     {
@@ -178,7 +178,7 @@ export const reviewC1CommunicationMastery: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Recession marketing: [[value messaging:communication that emphasises practical benefit rather than aspiration]] is not the same as low-price messaging. [[Value messaging]] says 'this is worth every pound.' Low-price messaging says 'we have lowered the price.' The brand that confuses the two loses its positioning when the recession ends.",
     },
     {
@@ -196,7 +196,7 @@ export const reviewC1CommunicationMastery: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "White paper writing: the word that is easy to confuse is abstract and executive summary. The abstract is a short preview — 200 words. The executive summary is a standalone two-page version of the complete argument. Both are for readers who will not read the full document — but they serve different audiences and different purposes.",
     },
     {

@@ -112,7 +112,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the CEO wants the marketing function to be data-driven and agile within 18 months. I have been asked to lead the transformation. Where do I start?",
     },
     {
@@ -124,7 +124,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We did a [[digital maturity:the degree to which a team uses digital tools, data, and ways of working effectively]] audit last quarter. We are at stage two — we have tools but do not use them well.",
     },
     {
@@ -136,7 +136,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We have a traditional structure — campaigns are planned annually, there are four approval layers for any content, and each team works separately. No shared data.",
     },
     {
@@ -148,7 +148,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I want to introduce two-week [[sprint:a fixed, short period of focused work at the end of which the team reviews what was achieved]]s. But I am worried the team will resist the change.",
     },
     {
@@ -160,7 +160,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the leadership team — the CFO is already asking whether the transformation budget is justified.",
     },
     {
@@ -172,7 +172,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The CEO has also asked us to double headcount at the same time. Should we scale while we transform?",
     },
     {
@@ -184,7 +184,7 @@ export const marketingTransformation: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "How do I show progress to the board without waiting 18 months?",
     },
     {

@@ -112,7 +112,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I have the agency contract for review. They are proposing a 24-month retainer with exclusivity across all digital marketing. I am not sure where to push back.",
     },
     {
@@ -124,7 +124,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[retainer:a fixed monthly fee paid to an agency in exchange for an agreed scope of work]] is £30,000 per month. There is no performance element.",
     },
     {
@@ -136,7 +136,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The [[SLA:Service Level Agreement — a contract that defines the minimum level of service a vendor must deliver]] says 'best efforts on all campaign requests'. Is that acceptable?",
     },
     {
@@ -148,7 +148,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "There is also no [[exit clause:a contract section that defines how either party can end the agreement, including notice periods and penalties]]. We are locked in for the full 24 months.",
     },
     {
@@ -160,7 +160,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about the [[indemnity:a contractual agreement where one party covers the costs or liabilities of the other if something goes wrong]] clause? They want us to cover all third-party IP claims from content they create.",
     },
     {
@@ -172,7 +172,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[scope of work:a detailed description of what a vendor will deliver, including deliverables, timelines, and what is excluded]] is very vague — it just says 'ongoing marketing support'.",
     },
     {
@@ -184,7 +184,7 @@ export const negotiatingContractsAndPartnerships: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[liability cap:the maximum amount one party can be required to pay in the event of a loss or breach]] is capped at one month of fees.",
     },
     {

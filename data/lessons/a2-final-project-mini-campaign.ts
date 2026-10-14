@@ -124,7 +124,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Clear. And who is the [[target audience:the specific group of people you want to reach]]?',
     },
     {
@@ -142,7 +142,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I like it. What is the [[channel mix:the combination of channels used to reach the audience]] and the [[timeline:the schedule from first activity to final review]]?',
     },
     {
@@ -160,7 +160,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And you mentioned a webinar. Is that in the [[brief:written summary of a project with objectives, deliverables and deadlines]] we agreed?',
     },
     {
@@ -172,7 +172,7 @@ export const a2FinalProjectMiniCampaign: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I am happy with that. The [[presentation:a structured explanation of a plan or result]] is very clear. When can we [[wrap up:finish and close]] the planning phase and go live?',
     },
     {

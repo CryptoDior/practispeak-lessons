@@ -118,7 +118,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Why those three specifically?',
     },
     {
@@ -130,7 +130,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And what about [[tone of voice:the personality and style that comes through in all your content]]? I have seen agencies produce content that sounds nothing like us.',
     },
     {
@@ -142,7 +142,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'How do you keep it all organised? The [[editorial calendar:a planned schedule of what content will be published and when]] looked complex when I first saw it.',
     },
     {
@@ -154,7 +154,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about [[repurpose:adapt one piece of content for a different format or channel]]ing? You mentioned getting more from each piece.',
     },
     {
@@ -166,7 +166,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And [[thought leadership:content that positions your brand as a trusted expert]]? I want TechFlow to be seen as the authority in our space.',
     },
     {
@@ -178,7 +178,7 @@ export const contentStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'How long until we start to see results from the content?',
     },
     {

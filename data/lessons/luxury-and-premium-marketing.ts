@@ -154,7 +154,7 @@ export const luxuryAndPremiumMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We are repositioning one of our premium lines into the [[ultra-premium:the highest tier of a luxury market — rare, prestigious, and deliberately limited in availability]] segment. I want to go through what that means for the brand strategy. Dana, start with positioning.",
     },
     {
@@ -172,7 +172,7 @@ export const luxuryAndPremiumMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We are selling a feeling, not a product — the campaign should create a world, not describe a garment. [[Aspirational:describes something people want because it represents a lifestyle or status they admire]] but not unattainable. Quiet confidence, not show. And ultra-premium requires restraint in every touchpoint — from the photography to the language to how the product is presented at retail.",
     },
     {
@@ -190,7 +190,7 @@ export const luxuryAndPremiumMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "[[Connoisseur:a person with deep knowledge and refined taste, whose endorsement carries authority in a category]]s and collectors. No mass media at launch. We seed with the people whose taste the wider market follows. Their endorsement builds credibility that advertising cannot buy. The heritage story is the competitive advantage — no one can replicate 175 years of provenance, and every new entrant into this category makes our age more valuable.",
     },
     {

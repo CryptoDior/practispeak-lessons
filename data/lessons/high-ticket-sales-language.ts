@@ -112,7 +112,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I'll be direct. We've received a proposal from a competitor that's 30% cheaper. I need you to help me understand what justifies the price difference — because right now, the board is asking the same question.",
     },
     {
@@ -124,7 +124,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Broadly similar, yes.',
     },
     {
@@ -136,7 +136,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Go ahead.',
     },
     {
@@ -148,7 +148,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's useful context. But even accounting for those factors, the [[premium value:the superior worth that justifies a price point above alternatives]] still feels significant.",
     },
     {
@@ -160,7 +160,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Walk me through it.',
     },
     {
@@ -172,7 +172,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And years two and three?',
     },
     {
@@ -184,7 +184,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's a compelling reframe. But we've never worked with you before, and this is a significant commitment. What about [[trust:the earned confidence that a vendor will deliver — built through transparency, track record, and contractual accountability]]?",
     },
     {
@@ -196,7 +196,7 @@ export const highTicketSalesLanguage: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is a significant offer.',
     },
     {

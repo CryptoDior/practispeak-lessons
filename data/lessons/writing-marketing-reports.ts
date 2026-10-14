@@ -112,7 +112,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I've read the first draft of your [[performance:how well something did compared to a target or benchmark]] report for the Q3 email campaign. Let's go through it section by section. Start with the [[executive summary:a short section at the start of a report that gives the most important points]].",
     },
     {
@@ -124,7 +124,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Exactly right — three sentences is plenty. An executive summary is not a summary of everything. It is the most important message. Now, talk me through your [[findings:the facts and results you discovered from your data]].",
     },
     {
@@ -136,7 +136,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. That is a clean set of [[findings:facts and results from data]]. Now, what [[metric:a number used to measure performance]]s did you track overall?",
     },
     {
@@ -148,7 +148,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Perfect. That is how it should work — set the metrics first, report against them at the end. What does the [[trend:a pattern in data showing how something changes over time]] look like for open rates across the full campaign?",
     },
     {
@@ -160,7 +160,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That is a useful insight. What does your [[conclusion:the section where you summarise what the findings mean]] say about that?",
     },
     {
@@ -172,7 +172,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That is a strong conclusion — it links back to the objective and explains the gap. Compared to the previous quarter, how did overall performance look?",
     },
     {
@@ -184,7 +184,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good — always translate percentages into real numbers where you can. It makes the impact clear. Now the most important part — what are your [[recommendation:a suggestion for what to do next, based on findings]]s?",
     },
     {
@@ -196,7 +196,7 @@ export const writingMarketingReports: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Those are strong recommendations — specific, actionable, and directly linked to the data. That is the standard for every report in this team.",
     },
     {

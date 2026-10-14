@@ -173,7 +173,7 @@ export const cardsAndFouls: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Ronaldo — what happened in the 35th minute last night?',
     },
     {
@@ -185,7 +185,7 @@ export const cardsAndFouls: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'What did the referee do?',
     },
     {
@@ -203,7 +203,7 @@ export const cardsAndFouls: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'He [[saw:past of "see"]] red — he [[got sent off:was dismissed from the match]]. Two yellows make a red. His team played with 10 men for the rest of the match. What is the difference between a yellow and a red?',
     },
     {
@@ -215,7 +215,7 @@ export const cardsAndFouls: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'And after the match — what punishment does a red card bring?',
     },
     {
@@ -227,7 +227,7 @@ export const cardsAndFouls: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'What about [[handball:when a player touches the ball with their hand or arm]]? When is it a foul?',
     },
     {
@@ -239,7 +239,7 @@ export const cardsAndFouls: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. The most important lesson: keep your discipline. One red card can cost your team the match. Keep your head — even when you are angry.',
     },
   ],

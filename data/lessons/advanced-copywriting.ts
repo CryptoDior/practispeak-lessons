@@ -112,7 +112,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I'm rewriting our homepage. I want the copy to actually convert, not just look nice. Where do I start?",
     },
     {
@@ -124,7 +124,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Right now our [[headline:the most important line of copy that decides whether the rest gets read]] says: 'Advanced project management software for modern teams.' What is wrong with that?",
     },
     {
@@ -136,7 +136,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "It saves teams about 5 hours a week on status updates and meetings.",
     },
     {
@@ -148,7 +148,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I also want to add social proof. We have 10,000 customers and a 4.9 rating.",
     },
     {
@@ -160,7 +160,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the body copy has data — '40% reduction in meeting time, 30% improvement in on-time delivery.' Is that useful?",
     },
     {
@@ -172,7 +172,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about [[copy hierarchy:the order in which copy elements are read — headline, subheadline, body, call to action]]? My current page has the testimonials before the product description.",
     },
     {
@@ -184,7 +184,7 @@ export const advancedCopywriting: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And what about [[voice:the distinctive personality and tone that makes a brand's writing recognisable]]? We want to sound confident but not arrogant.",
     },
     {

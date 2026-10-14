@@ -154,7 +154,7 @@ export const crossCulturalNegotiation: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We have a major partnership negotiation in Tokyo next week. I want to make sure we are fully prepared for the cultural dynamics, not just the commercial ones. Riley — what do we need to know?",
     },
     {
@@ -172,7 +172,7 @@ export const crossCulturalNegotiation: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And [[protocol:the accepted rules and customs governing how formal interactions are conducted]]? What do I need to know about the meeting itself?",
     },
     {
@@ -190,7 +190,7 @@ export const crossCulturalNegotiation: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "If we hit a difficult moment in the negotiation — a sticking point, a misalignment — what is our language?",
     },
     {

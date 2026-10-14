@@ -166,7 +166,7 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Before we get into the details — what's the total ask and what's the headline [[forecast:a projection of future outcomes based on planned spend and historical data]]?",
     },
     {
@@ -190,7 +190,7 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about the events line? £40,000 feels high for two events.',
     },
     {
@@ -214,7 +214,7 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Finance is asking whether we can cut the content budget by 20%. Where would we be if we made that cut?',
     },
     {
@@ -238,7 +238,7 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What if finance still wants a cut? What's the smart place to trim?",
     },
     {
@@ -250,7 +250,7 @@ export const marketingBudgets: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's a sensible trade-off. Let's look at the numbers together one more time and I'll confirm the allocation by end of day.",
     }
   ],

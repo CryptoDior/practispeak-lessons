@@ -172,7 +172,7 @@ export const socialMediaFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Today — social media English. It has its own vocabulary, its own grammar rules, and its own register. Sofia — read me this tweet: "Absolute robbery 😤 VAR bottled it ngl. MOTM clear but ref couldn\'t see it. OG or not it was still deserved." What does it mean?',
     },
     {
@@ -184,7 +184,7 @@ export const socialMediaFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. Now — how would a journalist write the same opinion in a formal match report?',
     },
     {
@@ -196,7 +196,7 @@ export const socialMediaFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. Same ideas — completely different register. Now — the [[GOAT:Greatest of All Time — the best player ever]] debate. How would fans debate it on social media? And then — how would it be discussed in a formal article?',
     },
     {
@@ -208,7 +208,7 @@ export const socialMediaFootball: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Excellent. The vocabulary is the same — GOAT, World Cup — but the tone, the structure, and the language around it are completely different. That is register.',
     },
   ],

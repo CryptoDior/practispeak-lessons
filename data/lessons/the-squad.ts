@@ -173,7 +173,7 @@ export const theSquad: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Before we look at today\'s match, let\'s talk about squad structure. There are 25 players in the [[first team:the main squad who compete in official matches]]. How many start a match?',
     },
     {
@@ -185,7 +185,7 @@ export const theSquad: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. So there are 25 in the squad but only 18 are in the matchday squad. The others are in the [[reserves:players who are part of the club but not in the first team]].',
     },
     {
@@ -197,7 +197,7 @@ export const theSquad: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Academy players are separate. But sometimes a young player comes through the academy and gets a first-team chance. There is one academy player in the starting eleven today — she is only 18.',
     },
     {
@@ -209,7 +209,7 @@ export const theSquad: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Yes — when there are three games a week, rotation keeps players fresh and reduces injuries. There are no players who can play every game at 100%. Even the best need rest.',
     },
     {
@@ -221,7 +221,7 @@ export const theSquad: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Yes — that is good competition. When there is strong competition for places, every player pushes to be their best. There are no easy selections at a top club.',
     },
   ],

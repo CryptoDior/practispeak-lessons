@@ -154,7 +154,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "This is the final preparation session before the board presentation. I want to run through the full [[board narrative:the story a presentation tells — from current situation through strategic logic to a specific ask]] one more time. Dana, challenge every section as if you are the most sceptical board member.",
     },
     {
@@ -166,7 +166,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The case for [[transformation agenda:the defined set of changes the organisation commits to making]] rests on three things. First, the competitive position. Second, the market opportunity. Third, the evidence of [[change readiness:how prepared the organisation is to successfully implement a significant change]]. The [[status quo:the current situation — which, as an option, is increasingly untenable]] is not an option — here is why.",
     },
     {
@@ -190,7 +190,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "If this transformation delivers what we believe it can — the commercial case is a 2.8x return on the £4.2m investment by month 18. The model is in the appendix. The assumptions have been reviewed by the CFO's office. The board should expect to see evidence of progress at months three, six, and twelve — the milestones are binary and named specifically in the [[implementation roadmap:a sequenced plan showing what will happen, in what order, with what dependencies]].",
     },
     {
@@ -202,7 +202,7 @@ export const c1FinalProjectMarketingTransformationPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "This is our ask of the board today — £4.2m, approval to restructure the team, and a board-level sponsor who meets with us monthly. We are confident in the return. The [[organisational capability:the specific skills and systems needed to execute the strategy]] assessment has been completed honestly. The gaps are named. The plan for closing them is specific. We are ready.",
     },
     {

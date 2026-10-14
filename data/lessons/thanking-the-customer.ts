@@ -118,7 +118,7 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Oh, thank you for calling, Riley. That is very kind.',
     },
     {
@@ -130,7 +130,7 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Yes — we received everything yesterday. The team is very happy.',
     },
     {
@@ -142,7 +142,7 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'We are happy too. It was a very good experience.',
     },
     {
@@ -154,7 +154,7 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I will. Actually, can I give you some [[feedback:comments from a customer about their experience]]?',
     },
     {
@@ -166,7 +166,7 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'The delivery was very fast. Our team was impressed. Your [[satisfaction:the feeling of being happy with a product or service]] with getting it right really shows.',
     },
     {
@@ -178,7 +178,7 @@ export const thankingTheCustomer: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And we will definitely [[recommend:to tell others about a positive experience]] you to other companies.',
     },
     {

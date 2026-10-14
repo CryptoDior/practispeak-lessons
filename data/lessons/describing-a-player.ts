@@ -173,7 +173,7 @@ export const describingAPlayer: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Today we are going to describe players. Sofia — tell me about your favourite footballer. Use adjectives.',
     },
     {
@@ -185,7 +185,7 @@ export const describingAPlayer: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Excellent. Three adjectives. Ronaldo — what about the best striker you have seen this season?',
     },
     {
@@ -197,7 +197,7 @@ export const describingAPlayer: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. What is the difference between "quick" and "strong"?',
     },
     {
@@ -209,7 +209,7 @@ export const describingAPlayer: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. And what about [[versatile:able to play in several different positions]]? Why is a versatile player useful?',
     },
     {

@@ -112,7 +112,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the product team wants to add a countdown timer to the checkout page — 'Only 2 left in stock!' But the product never runs out of stock. Is that a problem?",
     },
     {
@@ -124,7 +124,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The conversion rate goes up 12% when we use it. Isn't that a utilitarian argument — more sales mean more customers getting the product?",
     },
     {
@@ -136,7 +136,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The competitors all do this. It's standard in our industry.",
     },
     {
@@ -148,7 +148,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about the email consent flow? Legal says it's compliant — the consent checkbox is there.",
     },
     {
@@ -160,7 +160,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That sounds like a [[dark pattern:a design choice intentionally created to trick users into doing something unintended]].",
     },
     {
@@ -172,7 +172,7 @@ export const marketingEthicsAndPhilosophy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the retargeting — we're targeting users who looked at depression medication. Is that [[exploitation:taking advantage of someone's vulnerability to influence their behaviour]]?",
     },
     {

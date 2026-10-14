@@ -112,7 +112,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, let's do a review of our search marketing — both [[organic:appearing in search results without paying for them]] and paid. Start with where we stand on SEO.",
     },
     {
@@ -124,7 +124,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. How many total [[impression:the number of times your result was shown to someone, whether they clicked or not]]s are we getting from search each month?",
     },
     {
@@ -136,7 +136,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "1.4% is low. What is causing that? Are we ranking but in position eight or nine where nobody clicks?",
     },
     {
@@ -148,7 +148,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Now [[paid search:advertising that appears in search results — you pay each time someone clicks]] — walk me through where we are.",
     },
     {
@@ -160,7 +160,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What can we do about [[bidding:the process of setting how much you are willing to pay per click]] without just increasing our spend?",
     },
     {
@@ -172,7 +172,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Speaking of landing pages — I clicked our main paid search ad yesterday and it took me to the homepage. That is not good.",
     },
     {
@@ -184,7 +184,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. The click-through rate on the main paid ad — what is it right now?",
     },
     {
@@ -196,7 +196,7 @@ export const seoAndSem: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good instinct. What is the plan for long-tail keywords?",
     },
     {

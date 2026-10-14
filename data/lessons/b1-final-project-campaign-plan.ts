@@ -118,7 +118,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Go ahead — and I will interrupt if I have questions. Start with the objective.",
     },
     {
@@ -130,7 +130,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good — specific and measurable. Who is the [[target audience:the specific group of people the campaign is designed to reach]]?",
     },
     {
@@ -142,7 +142,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Why this audience specifically?",
     },
     {
@@ -154,7 +154,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good data-backed reasoning. What is the [[key message:the single most important thing you want the audience to take away]]?",
     },
     {
@@ -166,7 +166,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Strong. Walk me through the [[channel mix:the specific combination of channels chosen for a campaign]].",
     },
     {
@@ -178,7 +178,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[budget allocation:how the campaign budget is divided between channels]]?",
     },
     {
@@ -190,7 +190,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good allocation logic. How will we measure success?",
     },
     {
@@ -202,7 +202,7 @@ export const b1FinalProjectCampaignPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "This is a well-structured plan. Clear objective, justified audience, specific message, logic-based channel mix, transparent budget, and measurable outcomes. My only question is the [[campaign timeline:a schedule showing when each stage will happen]] — what is the pre-launch preparation and when do we go live?",
     },
     {

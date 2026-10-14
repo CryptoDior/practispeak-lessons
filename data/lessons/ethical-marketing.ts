@@ -160,7 +160,7 @@ export const ethicalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Walk me through the specific concern.",
     },
     {
@@ -184,7 +184,7 @@ export const ethicalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Agreed. So what is the revised approach?",
     },
     {
@@ -202,7 +202,7 @@ export const ethicalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The campaign should reflect the diversity of our customers. Send it back to the agency with specific parameters from the demographic data.",
     },
     {
@@ -220,7 +220,7 @@ export const ethicalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Our purpose-driven positioning must be backed by evidence of what we actually do. I agree. Let us build the [[sustainability:running a business in a way that does not cause serious harm to the environment or society]] programme properly before we position around it. That means completing the supply chain audit, verifying the emissions data, and publishing the results.",
     },
     {
@@ -232,7 +232,7 @@ export const ethicalMarketing: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Agreed on all points. Actions: Dana revises the sustainability claims today using only what we can substantiate. Riley sends the casting brief back to the agency with specific diversity and inclusion requirements. I will schedule the full sustainability programme planning session for next week. Ethical marketing is not a constraint on creativity — it is a foundation for trust.",
     },
   ],

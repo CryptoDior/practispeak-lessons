@@ -112,7 +112,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the CEO asked me to present the brand strategy at the investor meeting. She wants me to talk about brand value — not just awareness. I'm not sure where to start.",
     },
     {
@@ -124,7 +124,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Can you actually put a number on brand value? The CFO always asks me to quantify it and I struggle.",
     },
     {
@@ -136,7 +136,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "There is also a proposal on the table to extend our brand into three new product categories. The sales team loves it. I am not so sure.",
     },
     {
@@ -148,7 +148,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Not really. The discussion jumped straight to product and revenue.",
     },
     {
@@ -160,7 +160,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Honestly? Our positioning needs to be sharper. Customers like us but when I ask them what makes us different, they pause.",
     },
     {
@@ -172,7 +172,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What should the audit look at?",
     },
     {
@@ -184,7 +184,7 @@ export const advancedBrandStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And what is the message to investors if the audit shows we have brand equity problems?",
     },
     {

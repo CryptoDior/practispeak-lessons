@@ -112,7 +112,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I want us to map the full customer journey this week. Start by walking me through what you think the journey looks like right now for our main [[persona:a fictional but realistic profile of a typical customer]].",
     },
     {
@@ -124,7 +124,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "So at the [[awareness:the first stage of the journey when the customer discovers your brand]] stage, we are getting people to the blog but not keeping them. What happens to the ones who do stay?",
     },
     {
@@ -136,7 +136,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[consideration:the stage where customers compare you to other options]] stage? What content do we have for people who know about us but have not decided yet?",
     },
     {
@@ -148,7 +148,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Where does the main [[drop-off:the point where people stop and do not continue to the next stage]] happen in the [[funnel:the model showing how people move from awareness to purchase]]?",
     },
     {
@@ -160,7 +160,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "18% is too low. What is happening during the trial period?",
     },
     {
@@ -172,7 +172,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And what about [[retention:keeping customers after they have bought from you]] — what does that look like once they do convert?",
     },
     {
@@ -184,7 +184,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "So we have two priority areas — consideration content and trial onboarding. What do you recommend?",
     },
     {
@@ -196,7 +196,7 @@ export const customerJourneyMapping: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good framework. If we fix those two areas, where do you think conversion and retention go?",
     },
     {

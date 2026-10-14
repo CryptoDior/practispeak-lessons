@@ -173,7 +173,7 @@ export const nutritionAndRecovery: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Before we discuss tactics — a word about [[nutrition:the food and drink a player consumes and how it affects performance]] and [[recovery:the process of the body repairing itself after exercise]]. How much sleep are people getting?',
     },
     {
@@ -185,7 +185,7 @@ export const nutritionAndRecovery: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Six hours is not enough. You need at least eight — some elite players sleep nine. And how many [[carbohydrates:foods that provide energy — pasta, rice, bread, potatoes]] are you eating the night before a match?',
     },
     {
@@ -197,7 +197,7 @@ export const nutritionAndRecovery: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. And after training — how much [[protein:a nutrient found in meat, fish, eggs, and beans — helps repair and build muscles]] do you eat to help your muscles recover?',
     },
     {
@@ -209,7 +209,7 @@ export const nutritionAndRecovery: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'That is a mistake. You need some protein within 30 minutes of finishing — your body is ready to absorb it immediately after exercise. And what about the [[ice bath:sitting in cold water and ice after exercise to reduce soreness and aid recovery]] — how many of you are using it regularly?',
     },
     {
@@ -221,7 +221,7 @@ export const nutritionAndRecovery: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'It is very cold. But after a hard training session, there is not much better for your legs. From now on — [[ice bath:same]] after every hard session. A few minutes is enough to make a significant difference.',
     },
   ],

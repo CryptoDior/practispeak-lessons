@@ -154,7 +154,7 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Let us open the Q3 retention review. We have the headline number — monthly [[churn:the rate at which customers stop buying or cancel their subscription]] is at 4.2%. That is well above our benchmark of 2.5%. Riley, what are the drivers?",
     },
     {
@@ -172,7 +172,7 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "So fixing onboarding is simultaneously a retention, NPS, and [[lifetime value:the total revenue expected from a single customer over their entire relationship]] initiative. What does the business case look like?",
     },
     {
@@ -190,7 +190,7 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What are the three main initiatives?",
     },
     {
@@ -208,7 +208,7 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[win-back:a campaign to bring back former customers who have already cancelled or stopped purchasing]] programme? We have a cohort of customers who left in the last 12 months.",
     },
     {
@@ -226,7 +226,7 @@ export const customerRetentionAndLoyalty: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Retention plan is approved. We are targeting a retention rate of 78% at 12 months, a churn reduction of 1.5 percentage points by Q4, and an NPS improvement of 10 points by end of year. Those are the three metrics we report against monthly.",
     },
     {

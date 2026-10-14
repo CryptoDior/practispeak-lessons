@@ -173,7 +173,7 @@ export const trainingSessions: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Right — today\'s session. We always start with a [[warm-up:gentle exercise to prepare the body at the start of training]] — ten minutes. Then a [[rondo:a training exercise where players keep possession while one or two try to win the ball]]. We usually do the rondo for about fifteen minutes.',
     },
     {
@@ -185,7 +185,7 @@ export const trainingSessions: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. Then we work on our [[tactical shape:a training exercise focusing on the team\'s organised positions and movements]]. Today we are specifically working on our defensive [[set piece:a planned routine from a dead ball — corner kicks, free kicks]] organisation. We train set pieces twice a week — usually on Tuesdays and Thursdays.',
     },
     {
@@ -197,7 +197,7 @@ export const trainingSessions: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. After the [[small-sided game:a practice match with fewer players on a smaller pitch — players get more touches]], we always [[cool down:gentle exercise at the end of training to bring the body back to normal]] — ten minutes. Never skip the [[cool-down:same — gentle post-session exercise to help recovery]]. Then the [[debrief:a review session at the end where the coach gives feedback on the session]].',
     },
     {
@@ -209,7 +209,7 @@ export const trainingSessions: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Before a match, we usually have a short debrief — fifteen minutes. After a match, we sometimes have a longer review — up to 45 minutes with video. But we rarely do that more than once a week.',
     },
     {
@@ -221,7 +221,7 @@ export const trainingSessions: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Sometimes — the day before a match, we sometimes have a light session with just a rondo and a quick small-sided game. No heavy drills. The body needs rest.',
     },
   ],

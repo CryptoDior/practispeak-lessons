@@ -112,7 +112,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the CEO has been invited to give a [[keynote:the main speech at a conference, usually given by a high-profile speaker]] at the Global Marketing Summit. She wants to talk about 'The Future of Marketing'. Where do we start?",
     },
     {
@@ -124,7 +124,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "She thinks the industry has made a huge mistake separating brand building from performance marketing.",
     },
     {
@@ -136,7 +136,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We have data showing that brands who separated the two functions underperformed by 28% over five years.",
     },
     {
@@ -148,7 +148,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "She also wants to publish something alongside it — maybe a long article or a [[manifesto:a written declaration of beliefs or intentions meant to inspire others]].",
     },
     {
@@ -160,7 +160,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And her [[platform:the combination of channels a person uses to consistently share their ideas]]? She's barely active on LinkedIn.",
     },
     {
@@ -172,7 +172,7 @@ export const thoughtLeadershipAtScale: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the talk itself — how does she open? She always starts with agenda slides.",
     },
     {

@@ -154,7 +154,7 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We have a major product strategy update to communicate to the company next week. This is the most significant internal [[announcement:a formal communication sharing important news or changes]] we have made in three years. I want us to get this right. Dana, walk us through the proposed comms plan.",
     },
     {
@@ -178,7 +178,7 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. No employee should read this on LinkedIn before hearing it from their manager. That is non-negotiable. Riley — what about [[buy-in:the active support of people whose cooperation is needed for something to succeed]]? Who do we need to bring on side specifically?",
     },
     {
@@ -196,7 +196,7 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Now the [[key message:the one core idea an audience should remember from a communication]]. What is the headline for employees?",
     },
     {
@@ -214,7 +214,7 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Now the town hall. What is the format?",
     },
     {
@@ -232,7 +232,7 @@ export const internalCommunications: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Agreed. Internal communications done well is one of the most powerful tools we have for building trust and moving fast. Done badly, it creates the kind of confusion and resistance that takes months to undo. Let us make this one count.",
     },
   ],

@@ -112,7 +112,7 @@ export const contentMarketingBasics: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, I keep hearing about content marketing. How is it different from normal advertising?',
     },
     {
@@ -124,7 +124,7 @@ export const contentMarketingBasics: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'So it is about giving [[value:the usefulness or benefit content gives the reader]] before selling?',
     },
     {
@@ -136,7 +136,7 @@ export const contentMarketingBasics: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What [[format:the type or structure of content]] s work best for B2B? We are not sure whether to do video or written content.',
     },
     {
@@ -148,7 +148,7 @@ export const contentMarketingBasics: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about a [[blog:a regularly updated page where articles are published]]? Should we have one?',
     },
     {
@@ -160,7 +160,7 @@ export const contentMarketingBasics: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What makes content marketing work? We tried a newsletter last year and nobody read it.',
     },
     {
@@ -172,7 +172,7 @@ export const contentMarketingBasics: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'How do we know if our content is working? How do we measure it?',
     },
     {

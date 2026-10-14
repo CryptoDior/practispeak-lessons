@@ -154,7 +154,7 @@ export const marketingInARecession: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Economic indicators are worsening and the board has asked for a recession response plan. I want to go through the key decisions. Do we cut the marketing budget? Do we change the messaging? And how do we protect market share? Riley — start with the budget.",
     },
     {
@@ -172,7 +172,7 @@ export const marketingInARecession: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the product range? Do we maintain everything or do we [[rationalisation:the process of reducing or simplifying to focus resources on what works best]]?",
     },
     {
@@ -190,7 +190,7 @@ export const marketingInARecession: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And pricing? The sales team is pushing for discounts.",
     },
     {

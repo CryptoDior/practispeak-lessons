@@ -112,7 +112,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, we want to move forward — but I need to be honest with you. The price is higher than what we budgeted for. We need to talk about the [[terms:the conditions of a deal — price, payment schedule, duration, scope]].',
     },
     {
@@ -124,7 +124,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Mainly the monthly rate per user. We budgeted for around $28 — your price is $35. That's a meaningful difference for a team our size.",
     },
     {
@@ -136,7 +136,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What would that look like?',
     },
     {
@@ -148,7 +148,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's better, but we're still above the $28 target. Could we get there?",
     },
     {
@@ -160,7 +160,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What would a one-month onboarding actually include?',
     },
     {
@@ -172,7 +172,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That could work. While we're at it — we typically pay on 60-day terms. Is that possible?",
     },
     {
@@ -184,7 +184,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: '45 days works. So to confirm — $28 per user, 12-month contract, one month of onboarding, 45-day payment terms?',
     },
     {
@@ -196,7 +196,7 @@ export const negotiatingPolitely: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Yes — if you can confirm by tomorrow, we can move to contract.',
     },
     {

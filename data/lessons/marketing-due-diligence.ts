@@ -112,7 +112,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the board has asked us to complete marketing [[due diligence:a thorough investigation before making a major decision]] on a brand we're considering acquiring. Where do we start?",
     },
     {
@@ -124,7 +124,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Their awareness is very high — around 78%. That's impressive for their category.",
     },
     {
@@ -136,7 +136,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "+12. Is that good?",
     },
     {
@@ -148,7 +148,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[competitive position:how a brand stands relative to its competitors]]? They claim to be the market leader.",
     },
     {
@@ -160,7 +160,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What's the [[valuation:how much something is worth financially]] based on?",
     },
     {
@@ -172,7 +172,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Are there [[intangible:something with value that cannot be easily measured]] assets worth noting?",
     },
     {
@@ -184,7 +184,7 @@ export const marketingDueDiligence: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "So what is the main [[risk:a possible negative outcome — something that could go wrong]]?",
     },
     {

@@ -112,7 +112,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, I need you to understand how serious this is. The system went down at 9am on Thursday, my entire team was locked out for three hours, and not a single person from your company responded to our support tickets until noon. This is completely unacceptable.',
     },
     {
@@ -124,7 +124,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'We had a client presentation at 10am. My team could not access any of their data. They had to present from memory and apologise to the client. Do you understand what that does to our credibility? I am beyond frustrated.',
     },
     {
@@ -136,7 +136,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "'Not the experience you want me to have' — I have heard that phrase from three different vendors this year. What I want is an explanation and a guarantee it will not happen again. And frankly, I want to know what you are going to do about the presentation we nearly lost.",
     },
     {
@@ -148,7 +148,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "So this was entirely your fault. I want a full month's credit. And I want a written commitment that this will not happen again.",
     },
     {
@@ -160,7 +160,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Tomorrow is not good enough. You have already kept us waiting three hours once. I want answers today, and honestly, I am not sure this relationship is worth continuing.',
     },
     {
@@ -172,7 +172,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Fine. But I also want someone to explain to my CEO why this happened. She was in the 10am presentation. This reflects on me.',
     },
     {
@@ -184,7 +184,7 @@ export const handlingDifficultCustomers: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That would actually be useful. And Riley — I appreciate that you have not been defensive about this. Most people in your position would have been.',
     },
     {

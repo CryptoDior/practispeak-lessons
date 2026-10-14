@@ -173,7 +173,7 @@ export const injuries: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'I have some news before we start today. Amara [[has picked up:has got — present perfect for a recent injury]] a [[hamstring:the muscles at the back of the upper leg — a common injury location]] injury in training. She [[has been ruled out:has been confirmed unavailable]] of the next match.',
     },
     {
@@ -185,7 +185,7 @@ export const injuries: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Yes — she [[has gone:present perfect — she went and it is recent news]] for a [[scan:a medical test — MRI or ultrasound — to show the injury inside the body]] this morning. We are waiting for the results. The [[physio:physiotherapist — the specialist who treats and helps players recover from injuries]] says it does not look like a tear — more of a strain. Hopefully, it is not as serious as first feared.',
     },
     {
@@ -197,7 +197,7 @@ export const injuries: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Yes — she has started some gentle work with the physio. The timeline depends on the scan results. If it is a grade one strain, she could [[return to training:come back and train with the squad after injury]] in two weeks. If it is worse, we might be looking at four to six.',
     },
     {
@@ -209,7 +209,7 @@ export const injuries: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'She has had a small knock on her ankle — nothing serious. The physio has cleared her to train. But we will monitor her carefully. We cannot afford a [[setback:a new problem during recovery — something that delays a return to fitness]] — especially not before the important match next week.',
     },
     {
@@ -221,7 +221,7 @@ export const injuries: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'No — she has never had surgery. But she has had two hamstring strains in the last three years. That history is why we are being very careful this time.',
     },
   ],

@@ -112,7 +112,7 @@ export const reviewTheMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, before we start working together, can you walk me through your approach? How do you build a complete marketing [[strategy:a long-term plan for achieving goals]]?',
     },
     {
@@ -124,7 +124,7 @@ export const reviewTheMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And once you have the [[positioning:how a company presents itself]] right, what comes next?',
     },
     {
@@ -136,7 +136,7 @@ export const reviewTheMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'How long does it take to fill the [[pipeline:the stages a prospect goes through from first contact to customer]]?',
     },
     {
@@ -148,7 +148,7 @@ export const reviewTheMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'How do you measure whether it is working? I want to see [[ROI:Return on Investment — financial return relative to spend]], not just reach.',
     },
     {
@@ -160,7 +160,7 @@ export const reviewTheMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What if something is not working? How do you adjust the [[strategy:long-term plan for achieving goals]]?',
     },
     {
@@ -172,7 +172,7 @@ export const reviewTheMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I appreciate that. Can you [[put together]] a proposal for us — with the [[channel mix:combination of channels]], the [[campaign:coordinated marketing activities]], and the KPIs you would recommend for TechFlow?',
     },
     {

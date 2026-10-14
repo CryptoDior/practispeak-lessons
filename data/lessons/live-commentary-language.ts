@@ -173,7 +173,7 @@ export const liveCommentaryLanguage: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Today we study something different — commentary language. Listen to a commentator describe a goal: "She cuts inside, beats one, beats two — and [[slots it home:places the ball calmly and precisely into the goal]] from the edge of the box! The keeper is [[rooted to the spot:frozen — unable to move or react]]!" What do you notice about the verbs?',
     },
     {
@@ -185,7 +185,7 @@ export const liveCommentaryLanguage: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. This is the dramatic present — present simple for live action. It sounds more immediate and exciting than present continuous. Now — Ronaldo, how would a commentator describe this: a player receives the ball, turns, and [[rifles:shoots with great power and speed — like a bullet]] it into the top corner?',
     },
     {
@@ -197,7 +197,7 @@ export const liveCommentaryLanguage: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. Notice "What a finish!" — no verb. "What a + noun" is a commentary pattern for expressing admiration. And what about a near miss — the ball [[clips:just touches the very edge of]] the bar?',
     },
     {
@@ -209,7 +209,7 @@ export const liveCommentaryLanguage: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Excellent. And a penalty scored calmly?',
     },
     {

@@ -180,7 +180,7 @@ export const speakingToYourTeammates: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Last week\'s game — we lost two goals because of communication errors. Sofia, in the first goal, nobody called [[\'man on\'|man-on:a warning that a defender is close behind the ball-carrier]]. What happened?',
     },
     {
@@ -192,7 +192,7 @@ export const speakingToYourTeammates: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. Communication is information. Ronaldo — the second goal: the defensive line broke. Someone told the line to [[step up:for the defensive line to move forward together]] but not everyone heard.',
     },
     {
@@ -204,7 +204,7 @@ export const speakingToYourTeammates: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Correct. From now — the goalkeeper calls [[\'out!\'|out:command for the defensive line to step up]] or [[\'hold!\'|hold:command to stay in position]] and the line follows that one voice. Outfield players confirm with [[\'step up!\'|step up:for the line to move forward]] or [[\'hold the line!\'|same]] but the goalkeeper\'s call is final. And when we win the ball — call [[\'switch!\'|switch:instruction to move the ball to the other side]] immediately. The other side is always open in transition.',
     },
     {

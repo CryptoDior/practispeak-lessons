@@ -118,7 +118,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Hi Riley. Yes, of course — I was actually going to reach out to you today.',
     },
     {
@@ -130,7 +130,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Yes — I sent them a summary yesterday. The response was positive overall, but they do have a couple of [[outstanding:not yet done or resolved — still waiting for an answer]] questions.',
     },
     {
@@ -142,7 +142,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'The first one is about integration — specifically whether the platform works with Salesforce, which is our current CRM.',
     },
     {
@@ -154,7 +154,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'That is exactly what they needed to hear. The second question was about data security — where the data is stored and what certifications you hold.',
     },
     {
@@ -166,7 +166,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That would be very helpful — that should address the team's [[pending:waiting to be dealt with or decided]] concerns.",
     },
     {
@@ -178,7 +178,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Yes — that all still looks good. I think we are very close to a decision, which I appreciate. It gives us [[momentum:the energy that keeps something moving forward]].',
     },
     {
@@ -190,7 +190,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'We have a budget review on Thursday. I should have a clear answer by Friday.',
     },
     {
@@ -202,7 +202,7 @@ export const followingUpAfterACall: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Will do. Thank you for taking the [[initiative:the ability to take action proactively]], Riley — it really does make a difference.',
     }
   ],

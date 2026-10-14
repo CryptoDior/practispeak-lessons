@@ -118,7 +118,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Appreciate that. And apologies for going quiet — it's been a complicated few weeks internally. The deal is still alive, if that's your first question.",
     },
     {
@@ -130,7 +130,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Two things, honestly. First, the CFO came back and said the ROI case in the proposal wasn't detailed enough — they want to see the full financial model before they'll sign off. Second, our IT team flagged a data residency concern in the vendor assessment — they're not sure our requirements are met.",
     },
     {
@@ -142,7 +142,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Please.',
     },
     {
@@ -154,7 +154,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That would actually be very helpful. The CFO won't read the full proposal — a one-pager they can interrogate is exactly the right format.",
     },
     {
@@ -166,7 +166,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I can do that. I'll introduce you by email this afternoon.",
     },
     {
@@ -178,7 +178,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I think that's a good idea. Sarah has visibility across procurement, IT, and the CFO — and frankly, having a direct line to your team would help her as well.",
     },
     {
@@ -190,7 +190,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That framing is useful. It's easy to lose sight of the 'why' when you're three weeks into vendor questionnaires and legal reviews.",
     },
     {
@@ -202,7 +202,7 @@ export const advancedFollowUpStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Let's aim for Thursday. By then, you'll have sent the CFO summary and the IT documentation, I'll have introduced you to Sarah and the IT lead, and we can have a proper conversation about where the process stands.",
     },
     {

@@ -118,7 +118,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Of course — that's a refreshing way to start a call, actually.",
     },
     {
@@ -130,7 +130,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Sure. Leads come in from a few different channels — marketing, referrals, outbound. They go into the CRM, someone picks them up, and then honestly it gets a bit inconsistent from there.',
     },
     {
@@ -142,7 +142,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Mostly the follow-up. Some reps are on it within an hour, others take a day or two. It's become a real [[bottleneck:a point in a process that slows everything else down]] for us.",
     },
     {
@@ -154,7 +154,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Both, honestly. We lose some deals, and I have no idea which ones until it's too late. The [[pain point:a specific problem or frustration a customer experiences regularly]] is really the lack of visibility.",
     },
     {
@@ -166,7 +166,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "We built a [[workaround:a temporary solution used because the proper fix is not in place]] — a shared spreadsheet that reps are supposed to update daily. But it only works if everyone actually does it, which they don't.",
     },
     {
@@ -178,7 +178,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Honestly? Visibility. I want to know, at any point, exactly where every deal is and who is responsible for the next step.',
     },
     {
@@ -190,7 +190,7 @@ export const askingNeedsBasedQuestions: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'blue',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I stop firefighting and start actually [[probe:to ask follow-up questions that go deeper]]ing into why deals are won or lost — rather than just trying to figure out where they went.',
     }
   ],

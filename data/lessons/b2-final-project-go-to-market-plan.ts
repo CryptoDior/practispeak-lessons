@@ -154,7 +154,7 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Welcome to the B2 final project. You have completed the full advanced marketing series. Today we build and defend a complete [[go-to-market strategy:the plan for how a product reaches the right customer at the right time]]. I will play the role of the board. You will present and defend your plan. Riley — you are presenting for the first time. Begin.",
     },
     {
@@ -166,7 +166,7 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Board question: how large is the market?",
     },
     {
@@ -178,7 +178,7 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Board question: why would someone choose you over the existing solutions?",
     },
     {
@@ -196,7 +196,7 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Board question: what is the plan for the first 90 days?",
     },
     {
@@ -214,7 +214,7 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Board question: how will you know if it has worked?",
     },
     {
@@ -232,7 +232,7 @@ export const b2FinalProjectGoToMarketPlan: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Strong presentation. The strategy is clear, the positioning is specific, the metrics are pre-committed. That is B2 marketing thinking. Congratulations — you have completed the advanced marketing series. Now the real work begins: using this vocabulary in the conversations and presentations that matter.",
     },
   ],

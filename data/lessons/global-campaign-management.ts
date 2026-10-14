@@ -112,7 +112,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, we are launching our biggest global campaign next quarter — 12 markets across four regions. The creative is done in English. What do we need to think about before we brief the regional teams?",
     },
     {
@@ -124,7 +124,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "The tagline uses a wordplay in English that definitely will not translate. How do we handle that?",
     },
     {
@@ -136,7 +136,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Should we have a [[global brief:a document that defines the strategy, objectives, and brand guidelines for a campaign across multiple markets]] that the regional teams adapt from?",
     },
     {
@@ -148,7 +148,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about legal? We are making some strong product claims in the campaign.",
     },
     {
@@ -160,7 +160,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And what about things like imagery, spokesperson choice, offer structure? The creative uses very direct, bold visuals.",
     },
     {
@@ -172,7 +172,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And once it is live — how do we track performance across twelve markets without drowning in data?",
     },
     {
@@ -184,7 +184,7 @@ export const globalCampaignManagement: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And [[localisation:adapting a campaign for a local market including language, imagery, currency, and cultural references]] — how far does that go? Are we talking language only or everything?",
     },
     {

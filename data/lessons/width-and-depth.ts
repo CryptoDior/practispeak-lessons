@@ -173,7 +173,7 @@ export const widthAndDepth: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Today — [[width:using the full left-to-right space of the pitch — spreading players wide]] and [[depth:having players at different distances from goal for more passing options]]. Sofia — which do you prefer — [[overlap:when the full-back runs beyond the winger on the outside]] or [[underlap:when the full-back cuts inside, between the winger and the centre]]?',
     },
     {
@@ -185,7 +185,7 @@ export const widthAndDepth: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. "Enjoy creating" — gerund after "enjoy." Now Ronaldo — what does the [[inverted winger:a winger who plays on the opposite side to their stronger foot — cutting inside to shoot]] do differently from a traditional winger?',
     },
     {
@@ -197,7 +197,7 @@ export const widthAndDepth: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: '"Prefers cutting" — gerund after "prefers." "Avoid going" — gerund after "avoid." "Wants to shoot" — infinitive after "wants." Your grammar is improving, Ronaldo. And what is the [[cutback:a pass played backward from near the byline to a player arriving in the box]]?',
     },
     {
@@ -209,7 +209,7 @@ export const widthAndDepth: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: '"Decide to play" — infinitive after "decide." "Hate defending" — gerund after "hate." So what is our principle with width?',
     },
     {

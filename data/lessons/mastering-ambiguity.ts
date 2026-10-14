@@ -112,7 +112,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the board wants a firm forecast for the next 18 months. But the market [[ambiguity:a situation where more than one outcome is possible]] is making that nearly impossible.",
     },
     {
@@ -124,7 +124,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Won't that make us look like we don't know what we're doing?",
     },
     {
@@ -136,7 +136,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Fair point. The numbers we have are still [[provisional:not yet final — this may change]]. Can I present them as is?",
     },
     {
@@ -148,7 +148,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the launch plan? The timeline is [[contingent:dependent on something else happening first]] on getting regulatory sign-off.",
     },
     {
@@ -160,7 +160,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Should I add any [[caveat:a warning or condition attached to what you are saying]]s to the revenue projections?",
     },
     {
@@ -172,7 +172,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What's the market [[outlook:how the future looks right now based on what you currently know]] according to your read?",
     },
     {
@@ -184,7 +184,7 @@ export const masteringAmbiguity: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "OK. I'll [[hedge:use careful language that avoids making a strong definite claim]] where the data is unclear and be direct where it isn't.",
     },
     {

@@ -112,7 +112,7 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Riley, I am looking at the Basic Plan and the Standard Plan. What is the difference?',
     },
     {
@@ -130,7 +130,7 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'And the Standard Plan?',
     },
     {
@@ -142,7 +142,7 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Which one is more popular?',
     },
     {
@@ -154,7 +154,7 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What is the main difference?',
     },
     {
@@ -166,7 +166,7 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'We definitely need the reporting tools. Our manager always asks for reports.',
     },
     {
@@ -178,7 +178,7 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Can we [[upgrade:to move to a better or more advanced version]] later if we start with the Basic Plan?',
     },
     {
@@ -190,7 +190,7 @@ export const simpleProductComparison: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Okay. I think the Standard Plan is the right choice. Let's go with that.",
     }
   ],

@@ -154,7 +154,7 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "This is our B2 review session. I want us to use the next hour to test our command of the advanced marketing vocabulary — not just whether we know the terms, but whether we can use them to build an argument, challenge a strategy, and recommend a course of action. Let us start with a scenario. We have a new product launching in 90 days. The board wants a clear marketing strategy. Walk me through the framework.",
     },
     {
@@ -172,7 +172,7 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Now — what should the [[channel mix:the selection of marketing channels used in a campaign]] look like for a B2B software product launching into the enterprise segment?",
     },
     {
@@ -190,7 +190,7 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Now the measurement question. How do we track performance across a full-funnel, multi-channel campaign?",
     },
     {
@@ -208,7 +208,7 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Now the brand question. The board is asking whether we should launch this new product under the main brand or as a separate entity. From a [[brand architecture:the structure of how products and brands relate to each other]] perspective, what is the right answer?",
     },
     {
@@ -226,7 +226,7 @@ export const reviewAdvancedMarketingMix: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good work. The vocabulary is there. The challenge now is to use it in writing — the final project next lesson will ask you to present a complete go-to-market plan using the full B2 marketing vocabulary. Start thinking about the product, the market, and the argument you want to make.",
     },
   ],

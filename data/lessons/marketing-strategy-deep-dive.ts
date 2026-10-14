@@ -166,7 +166,7 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. I've been wanting to have this conversation. What does the matrix show?",
     },
     {
@@ -184,7 +184,7 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Dana's right. We need to choose a primary growth vector. What does the data say about which segment has more upside?",
     },
     {
@@ -202,7 +202,7 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That's interesting. Are any of our current competitors in that space?",
     },
     {
@@ -220,7 +220,7 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I like it. But I want us to be honest about the risk. What's the downside of going narrow?",
     },
     {
@@ -238,7 +238,7 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Alright. Let's build the recommendation around the niche positioning. Riley — can you write up a one-page strategic brief before Thursday's board meeting?",
     },
     {
@@ -250,7 +250,7 @@ export const marketingStrategyDeepDive: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Perfect. That's exactly what the board needs to see — a framework-led view with a clear recommendation and an honest risk assessment.",
     }
   ],

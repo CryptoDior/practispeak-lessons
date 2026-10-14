@@ -112,7 +112,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, the acquisition has been confirmed. We now need to plan the [[announcement:an official public statement about a major decision or change]]. Where do we start?",
     },
     {
@@ -124,7 +124,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Then customers?",
     },
     {
@@ -136,7 +136,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[brand migration:the process of moving customers from one brand to another over time]]? When does the rebrand happen?",
     },
     {
@@ -148,7 +148,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "How long does the transition period last?",
     },
     {
@@ -160,7 +160,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Should we explain why we rebranded?",
     },
     {
@@ -172,7 +172,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "What about the [[consolidation:bringing two or more separate things into one]] of the two product lines? That's going to confuse customers.",
     },
     {
@@ -184,7 +184,7 @@ export const mergersAcquisitionsAndRebranding: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the [[due diligence:careful investigation before committing to a decision]]? Is there anything we missed that could affect the communication?",
     },
     {

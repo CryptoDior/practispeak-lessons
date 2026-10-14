@@ -180,7 +180,7 @@ export const theHalfSpace: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'The [[half-space:the zone between the central area and the wide area]] — the most important zone in modern football. Why? Because from the [[half-space:same]], you can shoot, cross, or play through. From wide, you can only cross. From centre, you have no angle. Sofia — where do you want the ball?',
     },
     {
@@ -192,7 +192,7 @@ export const theHalfSpace: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. And Ronaldo — what does the number nine do when Sofia is [[operating in the half-space]]?',
     },
     {
@@ -204,7 +204,7 @@ export const theHalfSpace: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'The [[underlap:when a full-back runs inside a winger, through the half-space]] from the full-back also works here — the right back joins Sofia in the half-space from depth, arriving late as a third option. Three players in one zone. One of them will be free. That is [[positional play:a system built around occupying specific positions to create superiorities]] — creating [[numerical superiority]] through intelligent occupation of the [[half-space:same]].',
     },
     {

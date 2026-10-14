@@ -166,7 +166,7 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good opening. Clear structure. Continue.",
     },
     {
@@ -190,7 +190,7 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Now the [[recommendation:the specific action or decision you are asking the audience to approve]]. Be direct.",
     },
     {
@@ -214,7 +214,7 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "(As board member, sharply) What if the LinkedIn campaign does not perform?",
     },
     {
@@ -232,7 +232,7 @@ export const presentingAMarketingStrategy: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the second thing — every major claim needs evidence. You said the competition is losing ground. The board will immediately ask: how do you know? Have the data ready even if it does not go on the slide.",
     },
     {

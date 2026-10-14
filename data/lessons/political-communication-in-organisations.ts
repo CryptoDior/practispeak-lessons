@@ -112,7 +112,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, I presented the new marketing strategy to the leadership team and it was not well received. I don't understand why — the idea is strong.",
     },
     {
@@ -124,7 +124,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "No one. I assumed the idea would speak for itself.",
     },
     {
@@ -136,7 +136,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "There was a lot of [[resistance:opposition to a change or idea]] from the Head of Finance. She seemed against it from the start.",
     },
     {
@@ -148,7 +148,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Budget and ROI timelines. She thinks the return is too slow.",
     },
     {
@@ -160,7 +160,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And the CEO? She seemed neutral — not for or against.",
     },
     {
@@ -172,7 +172,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "I didn't have [[mandate:official permission or support from someone with authority]] to involve the CEO directly.",
     },
     {
@@ -184,7 +184,7 @@ export const politicalCommunicationInOrganisations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "And then? How do I get [[alignment:when different people agree on the same goal or approach]] before the next meeting?",
     },
     {

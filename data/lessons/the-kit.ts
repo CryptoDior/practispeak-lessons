@@ -112,7 +112,7 @@ export const theKit: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Right, everyone! Put on your [[kit:the full set of clothing a player wears]] — we start in five minutes.',
     },
     {
@@ -124,7 +124,7 @@ export const theKit: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Home kit. Blue [[shirt:the top that a player wears in a match]] and white shorts. Let\'s go.',
     },
     {
@@ -136,7 +136,7 @@ export const theKit: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. Never forget your shin pads. And pull up your [[socks:long socks pulled up over the shin pads]] over them.',
     },
     {
@@ -148,7 +148,7 @@ export const theKit: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Be quick. Sofia, are the substitutes ready with their [[bibs:coloured vests worn over the shirt in training]]?',
     },
     {
@@ -160,7 +160,7 @@ export const theKit: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. And where are the goalkeeper\'s [[gloves:hand covers worn by the goalkeeper]]?',
     },
     {
@@ -178,7 +178,7 @@ export const theKit: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'A good kit gives you confidence. Now stop talking and get on the pitch!',
     },
   ],

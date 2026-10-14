@@ -112,7 +112,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Hi Riley. I looked at your website, but I am not sure which plan is right for us. We have five people on the team.',
     },
     {
@@ -124,7 +124,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Of course.',
     },
     {
@@ -136,7 +136,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Saving time, definitely. We spend too long on reports every week.',
     },
     {
@@ -148,7 +148,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'We can spend around two hundred euros a month.',
     },
     {
@@ -160,7 +160,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'What about the Basic Plan? It is cheaper.',
     },
     {
@@ -172,7 +172,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'I see. So the Standard Plan is better for our situation.',
     },
     {
@@ -184,7 +184,7 @@ export const makingSimpleRecommendations: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: 'Okay, I think you are right. The Standard Plan sounds like the right [[choice:the decision you make when you pick one thing]].',
     },
     {

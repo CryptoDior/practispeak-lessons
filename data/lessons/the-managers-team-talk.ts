@@ -173,7 +173,7 @@ export const theManagersTeamTalk: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Right. Sit down. Listen. The first half was not good enough — not for this squad, not for what we are capable of. We [[must:strong obligation]] be more aggressive from the first minute of the second half.',
     },
     {
@@ -185,7 +185,7 @@ export const theManagersTeamTalk: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'It is very real. Now — don\'t interrupt. Listen. We [[should:advice/recommendation]] be winning this match. We have the better players, the better tactics, and the better [[mentality:the attitude and mental approach — how a team responds to difficult situations]]. But [[belief:confidence and trust in yourself and the team]] requires action. Not words.',
     },
     {
@@ -197,7 +197,7 @@ export const theManagersTeamTalk: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Two. First — [[press:push forward to win the ball back high up the pitch]] higher from the first minute. Don\'t sit back and invite pressure — [[step up:to raise your performance level, to become more intense]] and win the ball earlier. Second — [[give everything:to put in maximum effort — hold nothing back]] on every second ball. We [[must not:strong prohibition]] lose headers or loose balls in midfield.',
     },
     {
@@ -209,7 +209,7 @@ export const theManagersTeamTalk: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Never. Don\'t drop your heads — not for one second. [[Dig deep:to find extra effort and determination when things are difficult]] when it is hard. [[Come out fighting:to start the second half with much more energy and aggression]] every time. And [[make it count:to use your effort effectively — make sure the hard work leads to a result]] — we [[can:ability/possibility]] win this. I believe it. Do you?',
     },
     {
@@ -221,7 +221,7 @@ export const theManagersTeamTalk: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. We have the [[momentum:the feeling of growing confidence when a team is building on success]] from the last three games. Don\'t waste it. Leave everything on that pitch. Second half — let\'s go.',
     },
   ],

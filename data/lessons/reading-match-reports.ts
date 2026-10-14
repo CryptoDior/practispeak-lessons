@@ -173,7 +173,7 @@ export const readingMatchReports: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'This morning I read the [[match report:a written account of a football match — published after the game]] in the newspaper. The [[headline:the large title at the top of a newspaper story]] was "Ten-Man United Hold On For Point." Who can tell me what happened?',
     },
     {
@@ -191,7 +191,7 @@ export const readingMatchReports: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Yes — a penalty was awarded in the 70th minute but it was not [[converted:successfully scored]]. The goalkeeper saved it. There were also three [[bookings:yellow cards]] in the match — two for the home team.',
     },
     {
@@ -203,7 +203,7 @@ export const readingMatchReports: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'The report said the match was played before 41,000 fans. And the [[journalist:the sports writer who wrote the report]] praised the goalkeeper — she was [[named:selected and announced]] player of the match.',
     },
     {
@@ -215,7 +215,7 @@ export const readingMatchReports: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good reading! The dismissal was in the 55th minute — so they played 35 minutes with ten men. The [[substitute:a player who comes on to replace another]] was [[substituted:replaced by another player]] in the 80th minute after picking up a knock. Dramatic match!',
     },
   ],

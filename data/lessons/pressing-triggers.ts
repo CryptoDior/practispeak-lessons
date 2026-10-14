@@ -180,7 +180,7 @@ export const pressingTriggers: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'There is no value in pressing randomly. Every press needs a [[pressing trigger:a specific moment that starts an organised team press]]. Ours is the back-pass. If the ball goes backwards — to a centre-back or goalkeeper — we press immediately. Sofia — what do you do the moment the ball goes back?',
     },
     {
@@ -192,7 +192,7 @@ export const pressingTriggers: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. And as soon as Sofia moves, the whole midfield [[squeezes up:for the defensive line to move forward, reducing space]]. Ronaldo — what is the second trigger we use?',
     },
     {
@@ -204,7 +204,7 @@ export const pressingTriggers: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'And the third trigger — [[gegenpressing:counter-pressing immediately after losing the ball]]. The moment we lose possession, the three nearest players [[counter-press:to press immediately after losing possession]] immediately. Three seconds. Within three seconds, if we can [[win back:to regain possession through pressing]] the ball, they have no time to organise. We attack before their shape is set.',
     },
     {

@@ -112,7 +112,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Riley, you have five minutes to present the campaign results to the board next Thursday. Let's do a practice run. Imagine I am the managing director. Go.",
     },
     {
@@ -124,7 +124,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good start. Continue.",
     },
     {
@@ -136,7 +136,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good — you gave the context before the result. Now tell me what happened.",
     },
     {
@@ -148,7 +148,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Strong numbers. But as a [[board:the senior group who make the most important decisions in an organisation]] member, my first question is: what went wrong? Nothing is perfect.",
     },
     {
@@ -160,7 +160,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good — you did not hide it. That builds trust. What is the recommendation?",
     },
     {
@@ -172,7 +172,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That is a strong recommendation — evidence-based and cost-neutral. What do you need from the [[stakeholder:a person who has an interest in the outcome]]s in this room to move forward?",
     },
     {
@@ -184,7 +184,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "Good. Now close it out.",
     },
     {
@@ -196,7 +196,7 @@ export const presentingToStakeholders: Lesson = {
     {
       speaker: 'Marcus',
       speakerColor: 'purple',
-      speakerAvatar: '/images/marcus-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/marcus-icon.png',
       text: "That was a strong five minutes. You stated the objective, gave the results with context, addressed the weakness before they asked, and made a clear recommendation. That is exactly what a board presentation should look like.",
     },
     {

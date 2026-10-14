@@ -173,7 +173,7 @@ export const matchHighlights: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Today — describing highlights. You have just watched the match. Tell me what happened. Sofia — start with the first goal.',
     },
     {
@@ -185,7 +185,7 @@ export const matchHighlights: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. "Then" = sequencing word. Past simple throughout. What happened [[after that:the next event in the sequence — linking what came next]]?',
     },
     {
@@ -197,7 +197,7 @@ export const matchHighlights: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: '"Just before the half-time whistle" — excellent time expression. And the second half?',
     },
     {
@@ -209,7 +209,7 @@ export const matchHighlights: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. Notice: first, then, after that, finally — four sequencing words, building the story clearly. And the overall description?',
     },
     {

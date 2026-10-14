@@ -173,7 +173,7 @@ export const setPieces: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Ronaldo — you\'ve been fouled just outside the box. What happens now?',
     },
     {
@@ -185,7 +185,7 @@ export const setPieces: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. What does the opposition have to do before you take it?',
     },
     {
@@ -203,7 +203,7 @@ export const setPieces: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'You don\'t have to shoot — you can pass. But from this position, you should shoot or curl it around the wall. Now — when is a [[penalty:a direct shot from the penalty spot, awarded for a foul in the box]] awarded?',
     },
     {
@@ -215,7 +215,7 @@ export const setPieces: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Correct. And what must the goalkeeper do during a penalty?',
     },
     {
@@ -227,7 +227,7 @@ export const setPieces: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Exactly. Now — what is a [[corner kick:a kick from the corner of the pitch, awarded when a defender puts the ball out over the goal line]]? When does it happen?',
     },
     {
@@ -239,7 +239,7 @@ export const setPieces: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Good. And a [[throw-in:restarting play by throwing the ball in after it crosses the sideline]]? What are the rules?',
     },
     {
@@ -251,7 +251,7 @@ export const setPieces: Lesson = {
     {
       speaker: 'Coach Diallo',
       speakerColor: 'orange',
-      speakerAvatar: '/images/coach-diallo-icon.png',
+      speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/coach-diallo-icon.png',
       text: 'Perfect. Set pieces win matches. Know the rules. Use them.',
     },
   ],
