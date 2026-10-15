@@ -29,14 +29,14 @@ export const businessHobbiesTravelCulture: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'GET AWAY', definition: 'To go somewhere for a short break or holiday.', example: 'I try to get away every few months.', imageSlug: img('get-away') },
-    { phrase: 'LOOK AROUND', definition: 'To explore a place and see what it is like.', example: 'We looked around the old city after the meeting.', imageSlug: img('look-around') },
-    { phrase: 'CATCH UP (WITH)', definition: "To talk with someone you haven't seen for a while.", example: 'We caught up over dinner last night.', imageSlug: img('catch-up') },
-    { phrase: 'WHEN IN ROME', tag: 'idiom', definition: 'When you are in another place, follow the local customs.', example: 'I always try the local food when I travel. When in Rome!', imageSlug: img('when-in-rome') },
-    { phrase: "BROADEN ONE'S HORIZONS", tag: 'idiom', definition: 'To increase your knowledge and experience.', example: 'Travelling abroad really broadened my horizons.', imageSlug: img('broaden-horizons') },
-    { phrase: 'Do you travel often for work?', tag: 'phrase', definition: 'Open a polite conversation about work and lifestyle.', example: '"Do you travel often for work, or mostly for fun?"', imageSlug: img('travel-often') },
-    { phrase: 'What do people usually do during that festival?', tag: 'phrase', definition: 'Ask about local customs and traditions.', example: '"What do people usually do during Diwali?"', inAction: 'Asking about traditions shows respect and interest. Avoid comparing ("Ours is better!").', imageSlug: img('festival-question') },
-    { phrase: 'That must have been an unforgettable experience.', tag: 'phrase', definition: 'Respond warmly when someone shares a travel story.', example: '"You saw the Northern Lights? That must have been an unforgettable experience."', imageSlug: img('unforgettable') },
+    { phrase: 'GET AWAY', definition: 'To go somewhere for a short break or holiday.', example: 'I try to get away every few months.', imageSlug: img('phrase-get-away') },
+    { phrase: 'LOOK AROUND', definition: 'To explore a place and see what it is like.', example: 'We looked around the old city after the meeting.', imageSlug: img('phrase-look-around') },
+    { phrase: 'CATCH UP (WITH)', definition: "To talk with someone you haven't seen for a while.", example: 'We caught up over dinner last night.', imageSlug: img('phrase-catch-up-with') },
+    { phrase: 'WHEN IN ROME', tag: 'idiom', definition: 'When you are in another place, follow the local customs.', example: 'I always try the local food when I travel. When in Rome!', imageSlug: img('phrase-when-in-rome') },
+    { phrase: "BROADEN ONE'S HORIZONS", tag: 'idiom', definition: 'To increase your knowledge and experience.', example: 'Travelling abroad really broadened my horizons.', imageSlug: img('phrase-broaden-ones-horizons') },
+    { phrase: 'Do you travel often for work?', tag: 'phrase', definition: 'Open a polite conversation about work and lifestyle.', example: '"Do you travel often for work, or mostly for fun?"', imageSlug: img('phrase-travel-often-for-work') },
+    { phrase: 'What do people usually do during that festival?', tag: 'phrase', definition: 'Ask about local customs and traditions.', example: '"What do people usually do during Diwali?"', inAction: 'Asking about traditions shows respect and interest. Avoid comparing ("Ours is better!").', imageSlug: img('phrase-what-do-people-do-festival') },
+    { phrase: 'That must have been an unforgettable experience.', tag: 'phrase', definition: 'Respond warmly when someone shares a travel story.', example: '"You saw the Northern Lights? That must have been an unforgettable experience."', imageSlug: img('phrase-unforgettable-experience') },
   ],
 
   videos: [],

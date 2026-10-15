@@ -31,12 +31,12 @@ export const businessHandlingInterruptions: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'Excuse me, may I ask a question?', tag: 'phrase', definition: 'A polite way to interrupt.', example: '"Excuse me, may I ask a question about the report?"', imageSlug: img('excuse-me') },
-    { phrase: 'Sorry to interrupt, but…', tag: 'phrase', definition: 'A polite way to add something important.', example: '"Sorry to interrupt, but I have the updated numbers."', inAction: 'Start with an apology ("Sorry to interrupt…") and keep it short. Then give the speaker the floor back.', imageSlug: img('sorry-to-interrupt') },
-    { phrase: "Please let me finish, then I'll answer.", tag: 'phrase', definition: 'Stop an interruption politely.', example: '"Please let me finish this point, then I\'ll answer your question."', imageSlug: img('let-me-finish') },
-    { phrase: 'Go ahead.', tag: 'phrase', definition: 'Allow someone to speak or continue.', example: '"Yes, go ahead, Maria."', imageSlug: img('go-ahead') },
-    { phrase: 'As I was saying, …', tag: 'phrase', definition: 'Return to your point after an interruption.', example: '"As I was saying, the budget for Q2 is lower."', imageSlug: img('as-i-was-saying') },
-    { phrase: "Let's continue.", tag: 'phrase', definition: 'Return to the topic after a pause.', example: '"Thanks. Let\'s continue with the next slide."', imageSlug: img('lets-continue') },
+    { phrase: 'Excuse me, may I ask a question?', tag: 'phrase', definition: 'A polite way to interrupt.', example: '"Excuse me, may I ask a question about the report?"', imageSlug: img('phrase-excuse-me-may-i-ask') },
+    { phrase: 'Sorry to interrupt, but…', tag: 'phrase', definition: 'A polite way to add something important.', example: '"Sorry to interrupt, but I have the updated numbers."', inAction: 'Start with an apology ("Sorry to interrupt…") and keep it short. Then give the speaker the floor back.', imageSlug: img('phrase-sorry-to-interrupt') },
+    { phrase: "Please let me finish, then I'll answer.", tag: 'phrase', definition: 'Stop an interruption politely.', example: '"Please let me finish this point, then I\'ll answer your question."', imageSlug: img('phrase-please-let-me-finish') },
+    { phrase: 'Go ahead.', tag: 'phrase', definition: 'Allow someone to speak or continue.', example: '"Yes, go ahead, Maria."', imageSlug: img('phrase-go-ahead') },
+    { phrase: 'As I was saying, …', tag: 'phrase', definition: 'Return to your point after an interruption.', example: '"As I was saying, the budget for Q2 is lower."', imageSlug: img('phrase-as-i-was-saying') },
+    { phrase: "Let's continue.", tag: 'phrase', definition: 'Return to the topic after a pause.', example: '"Thanks. Let\'s continue with the next slide."', imageSlug: img('phrase-lets-continue') },
   ],
 
   videos: [],

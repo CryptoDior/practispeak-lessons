@@ -30,12 +30,12 @@ export const businessGivingShortPresentations: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'Good morning. Today I will talk about…', tag: 'phrase', definition: 'A clear way to open and introduce your topic.', example: '"Good morning, everyone. Today I will talk about our sales results."', imageSlug: img('today-i-will-talk') },
-    { phrase: 'First, I will explain…', tag: 'phrase', definition: 'Introduce your first point.', example: '"First, I will explain last quarter\'s results."', inAction: 'Use signposts: First… Next… Finally… They help the audience follow you.', imageSlug: img('first-i-will-explain') },
-    { phrase: 'This slide shows…', tag: 'phrase', definition: 'Describe the information on a slide.', example: '"This slide shows our marketing budget for 2026."', imageSlug: img('this-slide-shows') },
-    { phrase: 'Next, … / Finally, …', tag: 'phrase', definition: 'Move to the next point or the last point.', example: '"Next, I\'ll look at Asia. Finally, I\'ll share our plan."', imageSlug: img('next-finally') },
-    { phrase: 'In conclusion, …', tag: 'phrase', definition: 'Start the last part and summarize.', example: '"In conclusion, sales are growing, but we need more training."', imageSlug: img('in-conclusion') },
-    { phrase: 'Thank you for listening. Any questions?', tag: 'phrase', definition: 'Finish politely and invite questions.', example: '"Thank you for listening. Do you have any questions?"', imageSlug: img('thank-you-for-listening') },
+    { phrase: 'Good morning. Today I will talk about…', tag: 'phrase', definition: 'A clear way to open and introduce your topic.', example: '"Good morning, everyone. Today I will talk about our sales results."', imageSlug: img('phrase-good-morning-today-talk-about') },
+    { phrase: 'First, I will explain…', tag: 'phrase', definition: 'Introduce your first point.', example: '"First, I will explain last quarter\'s results."', inAction: 'Use signposts: First… Next… Finally… They help the audience follow you.', imageSlug: img('phrase-first-i-will-explain') },
+    { phrase: 'This slide shows…', tag: 'phrase', definition: 'Describe the information on a slide.', example: '"This slide shows our marketing budget for 2026."', imageSlug: img('phrase-this-slide-shows') },
+    { phrase: 'Next, … / Finally, …', tag: 'phrase', definition: 'Move to the next point or the last point.', example: '"Next, I\'ll look at Asia. Finally, I\'ll share our plan."', imageSlug: img('phrase-next-finally') },
+    { phrase: 'In conclusion, …', tag: 'phrase', definition: 'Start the last part and summarize.', example: '"In conclusion, sales are growing, but we need more training."', imageSlug: img('phrase-in-conclusion') },
+    { phrase: 'Thank you for listening. Any questions?', tag: 'phrase', definition: 'Finish politely and invite questions.', example: '"Thank you for listening. Do you have any questions?"', imageSlug: img('phrase-thank-you-any-questions') },
   ],
 
   videos: [],
