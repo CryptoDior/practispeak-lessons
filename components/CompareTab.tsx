@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { VocabWord } from '@/types/lesson';
+import { resolveImageUrl } from '@/lib/images';
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -100,10 +101,10 @@ export default function CompareTab({
   irlVocabulary: VocabWord[];
 }) {
   const [gameCards] = useState(() =>
-    shuffle(vocabulary.map((w) => ({ word: w.word, src: w.imageSlug })))
+    shuffle(vocabulary.map((w) => ({ word: w.word, src: resolveImageUrl(w.imageSlug) ?? '' })))
   );
   const [irlCards] = useState(() =>
-    shuffle(irlVocabulary.map((w) => ({ word: w.word, src: w.imageSlug })))
+    shuffle(irlVocabulary.map((w) => ({ word: w.word, src: resolveImageUrl(w.imageSlug) ?? '' })))
   );
 
   const [selGame, setSelGame] = useState<number | null>(null);

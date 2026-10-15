@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import ImageLightbox from '@/components/ImageLightbox';
 import { r2Audio, exclusiveAudio } from '@/lib/audio';
+import { resolveImageUrl, svgVariant } from '@/lib/images';
 
 /**
  * Word title that never breaks mid-word: multi-word terms wrap at spaces,
@@ -181,13 +182,14 @@ export default function WordEntryCard({
   ];
   const wordSrcs = srcsFor('');
   const exampleSrcs = srcsFor('-example');
-  const [imgSrc, setImgSrc] = useState(imageSlug);
-  const [imgFailed, setImgFailed] = useState(false);
+  const resolvedSrc = resolveImageUrl(imageSlug);
+  const [imgSrc, setImgSrc] = useState(resolvedSrc ?? '');
+  const [imgFailed, setImgFailed] = useState(!resolvedSrc);
   const [expanded, setExpanded] = useState(false);
 
   const handleImgError = () => {
     if (!imgSrc.endsWith('.svg')) {
-      setImgSrc(imageSlug.replace(/\.[^.]+$/, '.svg'));
+      setImgSrc(svgVariant(imgSrc));
     } else {
       setImgFailed(true);
     }

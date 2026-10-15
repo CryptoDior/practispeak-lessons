@@ -36,6 +36,8 @@ export interface CategoryLesson {
   words: number;
   phrasals: number;
   premium: boolean;
+  /** Vocab/phrase images not uploaded yet (0 = complete) */
+  missingImages?: number;
 }
 
 export interface CategoryData {
@@ -183,6 +185,16 @@ function LevelChip({ code, band }: { code: string; band: Band }) {
   );
 }
 
+function UnderConstructionIcon({ className = 'w-3.5 h-3.5' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
+      <path d="M12 3.2L22 20.5H2L12 3.2z" fill="#F59E0B" stroke="#B45309" strokeWidth="1.4" strokeLinejoin="round" />
+      <path d="M12 9.5v4.8" stroke="#1F2937" strokeWidth="2" strokeLinecap="round" />
+      <circle cx="12" cy="17.3" r="1.15" fill="#1F2937" />
+    </svg>
+  );
+}
+
 function LessonCard({
   lesson,
   fallbacks,
@@ -218,6 +230,16 @@ function LessonCard({
           <span className="absolute top-2.5 left-2.5 inline-flex items-center gap-1 rounded-lg bg-white/95 border border-slate-200 px-2 py-1 text-[11px] font-semibold text-slate-600 shadow-sm">
             <LockIcon className="w-3.5 h-3.5" />
             Students only
+          </span>
+        )}
+        {!!lesson.missingImages && (
+          <span
+            role="img"
+            aria-label="Under construction"
+            title={`Under construction: ${lesson.missingImages} image${lesson.missingImages === 1 ? '' : 's'} still to come`}
+            className="absolute bottom-2 right-2 w-6 h-6 rounded-md bg-white/95 shadow-sm flex items-center justify-center"
+          >
+            <UnderConstructionIcon />
           </span>
         )}
       </div>

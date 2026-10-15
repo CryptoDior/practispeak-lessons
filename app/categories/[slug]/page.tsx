@@ -2,6 +2,10 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getCatalog } from '@/lib/series';
 import CategoryView from '@/components/CategoryView';
+import { getMissingImageCounts } from '@/lib/imageStatus';
+
+// Rebuilt at most hourly, so the under-construction triangles clear once images are uploaded.
+export const revalidate = 3600;
 
 interface Props {
   params: { slug: string };
@@ -20,7 +24,7 @@ export function generateMetadata({ params }: Props): Metadata {
   };
 }
 
-export default function CategoryPage({ params }: Props) {
+export default async function CategoryPage({ params }: Props) {
   const catalog = getCatalog();
   const cat = catalog.find((c) => c.id === params.slug);
   if (!cat) notFound();
@@ -38,5 +42,11 @@ export default function CategoryPage({ params }: Props) {
       count: c.lessons.length,
     }));
 
-  return <CategoryView category={cat} others={others} />;
+  const missing = await getMissingImageCounts(cat.lessons.map((l) => l.slug));
+  const category = {
+    ...cat,
+    lessons: cat.lessons.map((l) => ({ ...l, missingImages: missing.get(l.slug) ?? 0 })),
+  };
+
+  return <CategoryView category={category} others={others} />;
 }
