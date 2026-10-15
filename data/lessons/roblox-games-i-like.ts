@@ -107,7 +107,7 @@ export const robloxGamesILike: Lesson = {
       word: 'RACE',
       partOfSpeech: 'noun',
       definition: 'A competition where you run, swim, or drive as fast as you can to finish first.',
-      example: 'I ran in the school race and came second — I got a silver ribbon!',
+      example: 'I ran in the school race and came second — I got a silver medal!',
       imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-games-i-like-race-irl.png',
     },
     {

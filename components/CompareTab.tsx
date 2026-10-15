@@ -101,23 +101,24 @@ export default function CompareTab({
   irlVocabulary: VocabWord[];
 }) {
   const [gameCards] = useState(() =>
-    shuffle(vocabulary.map((w) => ({ word: w.word, src: resolveImageUrl(w.imageSlug) ?? '' })))
+    shuffle(vocabulary.map((w, i) => ({ id: i, word: w.word, src: resolveImageUrl(w.imageSlug) ?? '' })))
   );
   const [irlCards] = useState(() =>
-    shuffle(irlVocabulary.map((w) => ({ word: w.word, src: resolveImageUrl(w.imageSlug) ?? '' })))
+    shuffle(irlVocabulary.map((w, i) => ({ id: i, word: w.word, src: resolveImageUrl(w.imageSlug) ?? '' })))
   );
 
   const [selGame, setSelGame] = useState<number | null>(null);
   const [selIrl, setSelIrl] = useState<number | null>(null);
-  const [matched, setMatched] = useState<Set<string>>(new Set());
+  // Pairs are matched by position: vocabulary[i] goes with irlVocabulary[i] (e.g. RACING ↔ RACE).
+  const [matched, setMatched] = useState<Set<number>>(new Set());
   const [wrongPair, setWrongPair] = useState<[number, number] | null>(null);
   const [allDone, setAllDone] = useState(false);
 
   const attempt = (gIdx: number | null, iIdx: number | null) => {
     if (gIdx === null || iIdx === null) return;
-    if (gameCards[gIdx].word === irlCards[iIdx].word) {
+    if (gameCards[gIdx].id === irlCards[iIdx].id) {
       const next = new Set(matched);
-      next.add(gameCards[gIdx].word);
+      next.add(gameCards[gIdx].id);
       setMatched(next);
       setSelGame(null);
       setSelIrl(null);
@@ -133,25 +134,25 @@ export default function CompareTab({
   };
 
   const clickGame = (idx: number) => {
-    if (matched.has(gameCards[idx].word) || wrongPair) return;
+    if (matched.has(gameCards[idx].id) || wrongPair) return;
     const next = idx === selGame ? null : idx;
     setSelGame(next);
     if (next !== null && selIrl !== null) attempt(next, selIrl);
   };
 
   const clickIrl = (idx: number) => {
-    if (matched.has(irlCards[idx].word) || wrongPair) return;
+    if (matched.has(irlCards[idx].id) || wrongPair) return;
     const next = idx === selIrl ? null : idx;
     setSelIrl(next);
     if (selGame !== null && next !== null) attempt(selGame, next);
   };
 
   const cardState = (
-    word: string,
+    id: number,
     idx: number,
     side: 'game' | 'irl'
   ): 'idle' | 'selected' | 'matched' | 'wrong' => {
-    if (matched.has(word)) return 'matched';
+    if (matched.has(id)) return 'matched';
     if (wrongPair) {
       if (side === 'game' && wrongPair[0] === idx) return 'wrong';
       if (side === 'irl' && wrongPair[1] === idx) return 'wrong';
@@ -212,9 +213,9 @@ export default function CompareTab({
               key={`game-${card.word}`}
               src={card.src}
               label={card.word}
-              state={cardState(card.word, idx, 'game')}
+              state={cardState(card.id, idx, 'game')}
               onClick={() => clickGame(idx)}
-              disabled={matched.has(card.word) || !!wrongPair}
+              disabled={matched.has(card.id) || !!wrongPair}
             />
           ))}
         </div>
@@ -226,9 +227,9 @@ export default function CompareTab({
               key={`irl-${card.word}`}
               src={card.src}
               label={card.word}
-              state={cardState(card.word, idx, 'irl')}
+              state={cardState(card.id, idx, 'irl')}
               onClick={() => clickIrl(idx)}
-              disabled={matched.has(card.word) || !!wrongPair}
+              disabled={matched.has(card.id) || !!wrongPair}
             />
           ))}
         </div>
@@ -237,12 +238,12 @@ export default function CompareTab({
       {/* Matched words */}
       {matched.size > 0 && (
         <div className="mt-4 flex flex-wrap gap-2">
-          {Array.from(matched).map((word) => (
+          {Array.from(matched).map((id) => (
             <span
-              key={word}
+              key={id}
               className="text-xs font-extrabold text-emerald-700 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full tracking-wide"
             >
-              ✓ {word}
+              ✓ {vocabulary[id].word}{irlVocabulary[id] && irlVocabulary[id].word !== vocabulary[id].word ? ` = ${irlVocabulary[id].word}` : ''}
             </span>
           ))}
         </div>
