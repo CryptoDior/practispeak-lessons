@@ -15,6 +15,7 @@ import {
 } from '@/lib/levels';
 import LevelRangeSlider from '@/components/LevelRangeSlider';
 import FallbackImage from '@/components/FallbackImage';
+import { usePlan } from '@/lib/supabase/usePlan';
 import {
   SiteHeader,
   SiteFooter,
@@ -182,7 +183,15 @@ function LevelChip({ code, band }: { code: string; band: Band }) {
   );
 }
 
-function LessonCard({ lesson, fallbacks }: { lesson: CategoryLesson; fallbacks: string[] }) {
+function LessonCard({
+  lesson,
+  fallbacks,
+  isStudent,
+}: {
+  lesson: CategoryLesson;
+  fallbacks: string[];
+  isStudent: boolean;
+}) {
   const band = bandForLevel(lesson.level);
   const srcs = [lesson.heroImage, ...fallbacks].filter(Boolean) as string[];
   return (
@@ -205,7 +214,7 @@ function LessonCard({ lesson, fallbacks }: { lesson: CategoryLesson; fallbacks: 
           loading="lazy"
           className="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-300"
         />
-        {lesson.premium && (
+        {lesson.premium && !isStudent && (
           <span className="absolute top-2.5 left-2.5 inline-flex items-center gap-1 rounded-lg bg-white/95 border border-slate-200 px-2 py-1 text-[11px] font-semibold text-slate-600 shadow-sm">
             <LockIcon className="w-3.5 h-3.5" />
             Students only
@@ -236,12 +245,14 @@ function CourseSection({
   blurb,
   lessons,
   fallbacks,
+  isStudent,
   forceExpanded = false,
 }: {
   title: string;
   blurb: string;
   lessons: CategoryLesson[];
   fallbacks: string[];
+  isStudent: boolean;
   forceExpanded?: boolean;
 }) {
   const [expanded, setExpanded] = useState(false);
@@ -259,7 +270,7 @@ function CourseSection({
 
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {shown.map((l) => (
-          <LessonCard key={l.slug} lesson={l} fallbacks={fallbacks} />
+          <LessonCard key={l.slug} lesson={l} fallbacks={fallbacks} isStudent={isStudent} />
         ))}
       </div>
 
@@ -287,6 +298,8 @@ export default function CategoryView({
   category: CategoryData;
   others: CategoryPromo[];
 }) {
+  // Students can open every lesson, so they don't need the "Students only" tags.
+  const isStudent = usePlan() === 'pro';
   const [search, setSearch] = useState('');
   const [levelRange, setLevelRange] = useState<[number, number]>([LEVEL_MIN, LEVEL_MAX]);
 
@@ -443,6 +456,7 @@ export default function CategoryView({
             blurb={BAND_BLURBS[band.id] ?? ''}
             lessons={ls}
             fallbacks={[category.image, category.stockImage]}
+            isStudent={isStudent}
             forceExpanded={filtersActive || (returnSlug != null && ls.some((l) => l.slug === returnSlug))}
           />
         ))}
