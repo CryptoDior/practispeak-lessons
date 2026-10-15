@@ -30,14 +30,14 @@ export const businessNetworkingIntroductions: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'MEET UP (WITH)', definition: 'To meet someone for a specific reason.', example: "Let's meet up next week to discuss ideas.", imageSlug: img('meet-up') },
-    { phrase: 'FOLLOW UP (WITH / ON)', definition: 'To contact someone again after a meeting or event.', example: "I'll follow up with you next week.", imageSlug: img('follow-up') },
-    { phrase: 'REACH OUT (TO)', definition: 'To contact someone.', example: 'Feel free to reach out if you have questions.', imageSlug: img('reach-out') },
-    { phrase: 'BREAK THE ICE', tag: 'idiom', definition: 'To start a friendly conversation with someone new.', example: 'Kira used small talk about travel to break the ice.', imageSlug: img('break-the-ice') },
-    { phrase: 'HIT IT OFF', tag: 'idiom', definition: 'To quickly get along well with someone.', example: 'Tim and Maria hit it off immediately.', imageSlug: img('hit-it-off') },
-    { phrase: "I don't think we've met. I'm…", tag: 'phrase', definition: 'Start a conversation naturally and confidently.', example: '"Hi, I don\'t think we\'ve met. I\'m Kira, from Practispeak."', imageSlug: img('havent-met') },
-    { phrase: 'What brings you here today?', tag: 'phrase', definition: 'A classic small-talk question at events.', example: '"So, what brings you here today?"', inAction: 'Open questions (What…? How…?) keep the conversation going. Yes/no questions often end it.', imageSlug: img('what-brings-you') },
-    { phrase: "Let's keep in touch.", tag: 'phrase', definition: 'Show you would like to stay in contact.', example: '"Here\'s my card. Let\'s keep in touch."', imageSlug: img('keep-in-touch') },
+    { phrase: 'MEET UP (WITH)', definition: 'To meet someone for a specific reason.', example: "Let's meet up next week to discuss ideas.", imageSlug: img('phrase-meet-up') },
+    { phrase: 'FOLLOW UP (WITH / ON)', definition: 'To contact someone again after a meeting or event.', example: "I'll follow up with you next week.", imageSlug: img('phrase-follow-up') },
+    { phrase: 'REACH OUT (TO)', definition: 'To contact someone.', example: 'Feel free to reach out if you have questions.', imageSlug: img('phrase-reach-out') },
+    { phrase: 'BREAK THE ICE', tag: 'idiom', definition: 'To start a friendly conversation with someone new.', example: 'Kira used small talk about travel to break the ice.', imageSlug: img('phrase-break-the-ice') },
+    { phrase: 'HIT IT OFF', tag: 'idiom', definition: 'To quickly get along well with someone.', example: 'Tim and Maria hit it off immediately.', imageSlug: img('phrase-hit-it-off') },
+    { phrase: "I don't think we've met. I'm…", tag: 'phrase', definition: 'Start a conversation naturally and confidently.', example: '"Hi, I don\'t think we\'ve met. I\'m Kira, from Practispeak."', imageSlug: img('phrase-dont-think-met') },
+    { phrase: 'What brings you here today?', tag: 'phrase', definition: 'A classic small-talk question at events.', example: '"So, what brings you here today?"', inAction: 'Open questions (What…? How…?) keep the conversation going. Yes/no questions often end it.', imageSlug: img('phrase-what-brings-you') },
+    { phrase: "Let's keep in touch.", tag: 'phrase', definition: 'Show you would like to stay in contact.', example: '"Here\'s my card. Let\'s keep in touch."', imageSlug: img('phrase-keep-in-touch') },
   ],
 
   videos: [],

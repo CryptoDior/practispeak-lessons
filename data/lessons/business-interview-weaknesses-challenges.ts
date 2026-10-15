@@ -32,13 +32,13 @@ export const businessInterviewWeaknessesChallenges: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'WORK ON', definition: 'To try to make something better.', example: "I'm working on my time management.", imageSlug: img('work-on') },
-    { phrase: 'STAY CALM', tag: 'collocation', definition: 'To not get angry or worried.', example: 'Even when the customer was angry, she stayed calm.', imageSlug: img('stay-calm') },
-    { phrase: 'One thing I need to improve is…', tag: 'phrase', definition: 'Start your answer honestly.', example: '"One thing I need to improve is my public speaking."', imageSlug: img('need-to-improve') },
-    { phrase: "A weakness I've been working on is…", tag: 'phrase', definition: 'Name a weakness and show you are already improving it.', example: '"A weakness I\'ve been working on is saying no to extra tasks."', inAction: 'Never say "I have no weaknesses" — it sounds dishonest. Choose a real weakness that won\'t stop you from doing this job.', imageSlug: img('been-working-on') },
-    { phrase: 'I sometimes find it difficult to…', tag: 'phrase', definition: 'Describe a challenge in a soft way.', example: '"I sometimes find it difficult to delegate tasks."', imageSlug: img('find-it-difficult') },
-    { phrase: 'In the past, I struggled with…, but now…', tag: 'phrase', definition: 'Show clear progress from past to present.', example: '"In the past, I struggled with deadlines, but now I plan every week on Monday."', imageSlug: img('struggled-but-now') },
-    { phrase: "I'm taking steps to get better at it.", tag: 'phrase', definition: 'Explain that you are actively improving.', example: '"I\'m taking steps to get better at it. I joined a presentation course."', imageSlug: img('taking-steps') },
+    { phrase: 'WORK ON', definition: 'To try to make something better.', example: "I'm working on my time management.", imageSlug: img('phrase-work-on') },
+    { phrase: 'STAY CALM', tag: 'collocation', definition: 'To not get angry or worried.', example: 'Even when the customer was angry, she stayed calm.', imageSlug: img('phrase-stay-calm') },
+    { phrase: 'One thing I need to improve is…', tag: 'phrase', definition: 'Start your answer honestly.', example: '"One thing I need to improve is my public speaking."', imageSlug: img('phrase-need-to-improve') },
+    { phrase: "A weakness I've been working on is…", tag: 'phrase', definition: 'Name a weakness and show you are already improving it.', example: '"A weakness I\'ve been working on is saying no to extra tasks."', inAction: 'Never say "I have no weaknesses" — it sounds dishonest. Choose a real weakness that won\'t stop you from doing this job.', imageSlug: img('phrase-weakness-working-on') },
+    { phrase: 'I sometimes find it difficult to…', tag: 'phrase', definition: 'Describe a challenge in a soft way.', example: '"I sometimes find it difficult to delegate tasks."', imageSlug: img('phrase-find-difficult-to') },
+    { phrase: 'In the past, I struggled with…, but now…', tag: 'phrase', definition: 'Show clear progress from past to present.', example: '"In the past, I struggled with deadlines, but now I plan every week on Monday."', imageSlug: img('phrase-past-struggled-now') },
+    { phrase: "I'm taking steps to get better at it.", tag: 'phrase', definition: 'Explain that you are actively improving.', example: '"I\'m taking steps to get better at it. I joined a presentation course."', imageSlug: img('phrase-taking-steps') },
   ],
 
   videos: [],
