@@ -30,14 +30,14 @@ export const businessProposingSolutions: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'COME UP WITH', definition: 'To think of a new idea or solution.', example: 'Kira came up with an interesting idea.', imageSlug: img('come-up-with') },
-    { phrase: 'WORK OUT', definition: 'To find a solution, often together.', example: "Let's work out a plan that helps both teams.", imageSlug: img('work-out') },
-    { phrase: 'FOLLOW THROUGH (ON)', definition: 'To complete an action or promise.', example: "Let's follow through on this plan and review it next week.", imageSlug: img('follow-through') },
-    { phrase: 'One solution could be to…', tag: 'phrase', definition: 'Introduce an idea.', example: '"One solution could be to train new staff next week."', imageSlug: img('one-solution') },
-    { phrase: 'Another option is to…', tag: 'phrase', definition: 'Give a second idea.', example: '"Another option is to hire a temporary assistant."', imageSlug: img('another-option') },
-    { phrase: 'The best way might be to…', tag: 'phrase', definition: 'Give a careful recommendation.', example: '"The best way might be to update the software."', inAction: '"Might be" and "could be" make your idea sound open, not bossy. People are more likely to agree.', imageSlug: img('best-way') },
-    { phrase: 'We could try…', tag: 'phrase', definition: 'Suggest testing an idea.', example: '"We could try sending reminders earlier."', imageSlug: img('we-could-try') },
-    { phrase: 'This plan would help us…', tag: 'phrase', definition: 'Show the result or benefit of the idea.', example: '"This plan would help us avoid more delays."', imageSlug: img('would-help-us') },
+    { phrase: 'COME UP WITH', definition: 'To think of a new idea or solution.', example: 'Kira came up with an interesting idea.', imageSlug: img('phrase-come-up-with') },
+    { phrase: 'WORK OUT', definition: 'To find a solution, often together.', example: "Let's work out a plan that helps both teams.", imageSlug: img('phrase-work-out') },
+    { phrase: 'FOLLOW THROUGH (ON)', definition: 'To complete an action or promise.', example: "Let's follow through on this plan and review it next week.", imageSlug: img('phrase-follow-through') },
+    { phrase: 'One solution could be to…', tag: 'phrase', definition: 'Introduce an idea.', example: '"One solution could be to train new staff next week."', imageSlug: img('phrase-one-solution') },
+    { phrase: 'Another option is to…', tag: 'phrase', definition: 'Give a second idea.', example: '"Another option is to hire a temporary assistant."', imageSlug: img('phrase-another-option') },
+    { phrase: 'The best way might be to…', tag: 'phrase', definition: 'Give a careful recommendation.', example: '"The best way might be to update the software."', inAction: '"Might be" and "could be" make your idea sound open, not bossy. People are more likely to agree.', imageSlug: img('phrase-best-way') },
+    { phrase: 'We could try…', tag: 'phrase', definition: 'Suggest testing an idea.', example: '"We could try sending reminders earlier."', imageSlug: img('phrase-could-try') },
+    { phrase: 'This plan would help us…', tag: 'phrase', definition: 'Show the result or benefit of the idea.', example: '"This plan would help us avoid more delays."', imageSlug: img('phrase-plan-would-help') },
   ],
 
   videos: [],
