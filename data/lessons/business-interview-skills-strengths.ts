@@ -23,7 +23,7 @@ export const businessInterviewSkillsStrengths: Lesson = {
   vocabulary: [
     { word: 'CONFIDENT', partOfSpeech: 'adjective', definition: 'Sure that you can do things well.', example: 'You need to be confident when talking to customers.', imageSlug: img('confident') },
     { word: 'COMMUNICATION SKILLS', partOfSpeech: 'noun', definition: 'How well you speak, write and listen to people.', example: 'Most companies look for good communication skills.', imageSlug: img('communication-skills') },
-    { word: 'WORK UNDER PRESSURE', partOfSpeech: 'phrase', definition: 'To do your job well when things are busy or stressful.', example: 'Many jobs need people who can work under pressure.', imageSlug: img('under-pressure') },
+    { word: 'WORK UNDER PRESSURE', partOfSpeech: 'phrase', definition: 'To do your job well when things are busy or stressful.', example: 'Many jobs need people who can work under pressure.', imageSlug: img('work-under-pressure') },
     { word: 'ORGANIZED', partOfSpeech: 'adjective', definition: 'Good at planning and keeping things in order.', example: 'An organized person can handle many tasks.', imageSlug: img('organized') },
     { word: 'HARDWORKING', partOfSpeech: 'adjective', definition: 'Working a lot and trying hard.', example: 'Hardworking people often get noticed by their managers.', imageSlug: img('hardworking') },
     { word: 'FLEXIBLE', partOfSpeech: 'adjective', definition: 'Able to change or adapt easily.', example: 'Flexible workers can adjust to new schedules quickly.', imageSlug: img('flexible') },
@@ -31,12 +31,12 @@ export const businessInterviewSkillsStrengths: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'One of my strengths is…', tag: 'phrase', definition: 'Start your answer by naming a strength.', example: '"One of my strengths is staying calm under pressure."', imageSlug: img('one-of-my-strengths') },
-    { phrase: "I'm good at…", tag: 'phrase', definition: 'A simple way to name something you do well.', example: '"I\'m good at organizing tasks and setting daily goals."', imageSlug: img('im-good-at') },
-    { phrase: 'I have strong … skills.', tag: 'phrase', definition: 'Name a type of skill.', example: '"I have strong communication skills."', imageSlug: img('strong-skills') },
-    { phrase: "I'm confident in my ability to…", tag: 'phrase', definition: 'Show confidence about a skill.', example: '"I\'m confident in my ability to learn new software quickly."', imageSlug: img('confident-in-my-ability') },
-    { phrase: 'For example, in my last job I…', tag: 'phrase', definition: 'Give a real example to support your strength.', example: '"For example, in my last job I trained three new staff members."', inAction: 'Strength + example + link to the job. A strength without an example is just a word!', imageSlug: img('for-example') },
-    { phrase: 'This helps me when I work with…', tag: 'phrase', definition: 'Connect your strength to the job.', example: '"This helps me when I work with international clients."', imageSlug: img('this-helps-me') },
+    { phrase: 'One of my strengths is…', tag: 'phrase', definition: 'Start your answer by naming a strength.', example: '"One of my strengths is staying calm under pressure."', imageSlug: img('phrase-one-of-my-strengths') },
+    { phrase: "I'm good at…", tag: 'phrase', definition: 'A simple way to name something you do well.', example: '"I\'m good at organizing tasks and setting daily goals."', imageSlug: img('phrase-im-good-at') },
+    { phrase: 'I have strong … skills.', tag: 'phrase', definition: 'Name a type of skill.', example: '"I have strong communication skills."', imageSlug: img('phrase-strong-skills') },
+    { phrase: "I'm confident in my ability to…", tag: 'phrase', definition: 'Show confidence about a skill.', example: '"I\'m confident in my ability to learn new software quickly."', imageSlug: img('phrase-confident-learn-software') },
+    { phrase: 'For example, in my last job I…', tag: 'phrase', definition: 'Give a real example to support your strength.', example: '"For example, in my last job I trained three new staff members."', inAction: 'Strength + example + link to the job. A strength without an example is just a word!', imageSlug: img('phrase-for-example-last-job') },
+    { phrase: 'This helps me when I work with…', tag: 'phrase', definition: 'Connect your strength to the job.', example: '"This helps me when I work with international clients."', imageSlug: img('phrase-helps-me-work-with-v2') },
   ],
 
   videos: [],
