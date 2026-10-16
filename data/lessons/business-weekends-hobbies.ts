@@ -7,7 +7,7 @@ export const businessWeekendsHobbies: Lesson = {
   level: 'A1-A2',
   description:
     'On Monday morning, colleagues often ask "How was your weekend?". Learn how to ask and talk about weekends, free time and hobbies.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-weekends-hobbies-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-weekends-hobbies-hero.png?v=3',
 
   objectives: [
     'Ask a colleague about their weekend.',

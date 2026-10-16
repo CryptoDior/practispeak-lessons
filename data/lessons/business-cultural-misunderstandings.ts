@@ -12,7 +12,7 @@ export const businessCulturalMisunderstandings: Lesson = {
   level: 'B1-B2',
   description:
     'Different cultures have different customs at work. Learn how to talk about cultural differences respectfully, apologize if you offend someone, and find a way that works for everyone.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Talk about customs and cultural differences without judging.',

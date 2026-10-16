@@ -12,7 +12,7 @@ export const businessClarifyingPolitely: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to say you don\'t understand without sounding rude, ask about a specific word or idea, and double-check details to make sure you got them right.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Say politely that you don\'t understand.',

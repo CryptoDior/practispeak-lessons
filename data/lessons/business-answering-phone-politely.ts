@@ -7,7 +7,7 @@ export const businessAnsweringPhonePolitely: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to answer the phone at work. Say hello, give your name and company, ask how you can help, and ask the caller to wait.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-answering-phone-politely-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-answering-phone-politely-hero.png?v=3',
 
   objectives: [
     'Answer the phone with a polite greeting.',

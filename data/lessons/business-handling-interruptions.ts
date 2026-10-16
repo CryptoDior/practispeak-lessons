@@ -13,7 +13,7 @@ export const businessHandlingInterruptions: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to interrupt politely when you need to speak, how to stop an interruption when you are speaking, and how to get the meeting back on track.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Interrupt politely to ask a question or add information.',

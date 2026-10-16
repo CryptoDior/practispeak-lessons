@@ -13,7 +13,7 @@ export const businessCheckingConsensus: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to check if the group agrees, invite different perspectives and alternative ideas, and make sure everyone gets a chance to speak.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Check whether the group has reached consensus.',

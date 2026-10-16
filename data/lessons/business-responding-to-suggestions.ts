@@ -12,7 +12,7 @@ export const businessRespondingToSuggestions: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to respond to other people\'s ideas: accept them, say you are not sure yet, or say no politely, and how to change your mind.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Accept a suggestion with enthusiasm.',

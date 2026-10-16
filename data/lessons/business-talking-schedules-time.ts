@@ -7,7 +7,7 @@ export const businessTalkingSchedulesTime: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to talk about your work day: when you start, when you finish, when you have a break, and when you are free.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-schedules-time-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-schedules-time-hero.png?v=3',
 
   objectives: [
     'Ask and answer questions about work times.',

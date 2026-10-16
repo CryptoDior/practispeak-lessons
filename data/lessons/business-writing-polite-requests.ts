@@ -7,7 +7,7 @@ export const businessWritingPoliteRequests: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to ask for something in a short, polite email. Use "Could you please…" and "Would you mind…" and answer requests in a friendly way.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-writing-polite-requests-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-writing-polite-requests-hero.png?v=3',
 
   objectives: [
     'Ask for something politely in an email.',

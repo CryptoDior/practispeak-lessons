@@ -12,7 +12,7 @@ export const businessGivingShortPresentations: Lesson = {
   level: 'B1-B2',
   description:
     'Learn a simple structure for short presentations at work: introduce your topic, guide people through your slides, conclude clearly and invite questions.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Open a presentation and introduce the topic.',

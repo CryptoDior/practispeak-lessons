@@ -7,7 +7,7 @@ export const businessReplyingShortEmails: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to reply to short work emails clearly and politely. Say thank you, confirm information, and tell people when you will answer.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-replying-short-emails-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-replying-short-emails-hero.png?v=3',
 
   objectives: [
     'Reply to short emails politely and quickly.',

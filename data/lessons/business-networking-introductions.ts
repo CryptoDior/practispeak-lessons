@@ -13,7 +13,7 @@ export const businessNetworkingIntroductions: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to introduce yourself at networking events, start conversations with new people, exchange business cards and follow up afterwards.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Introduce yourself and others confidently at events.',

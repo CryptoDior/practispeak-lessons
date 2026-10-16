@@ -7,7 +7,7 @@ export const businessLeavingTakingMessages: Lesson = {
   level: 'A1-A2',
   description:
     'Sometimes the person a caller wants is not there. Learn how to take a message, write down a name and number, and pass the message on.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-leaving-taking-messages-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-leaving-taking-messages-hero.png?v=3',
 
   objectives: [
     'Say politely that someone is not available.',

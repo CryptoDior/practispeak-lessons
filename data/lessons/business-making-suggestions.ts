@@ -12,7 +12,7 @@ export const businessMakingSuggestions: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to make suggestions at work, from casual ("How about…?") to careful and formal ("One option is to…"), and how to talk about ideas and plans.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Make suggestions with different levels of formality.',

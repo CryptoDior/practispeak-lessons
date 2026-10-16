@@ -12,7 +12,7 @@ export const businessFormalVsInformal: Lesson = {
   level: 'B1-B2',
   description:
     'Learn when to use formal English (clients, managers, emails to new contacts) and when informal English is fine (close colleagues), with matching phrase pairs.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Recognise formal and informal language at work.',

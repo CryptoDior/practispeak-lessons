@@ -12,7 +12,7 @@ export const businessInterviewWeaknessesChallenges: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to answer "What are your weaknesses?" honestly but positively: name a real weakness, show you know about it, and explain how you are improving.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe a real weakness or challenge honestly.',

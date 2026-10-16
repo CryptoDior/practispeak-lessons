@@ -7,7 +7,7 @@ export const businessAskingRepeatSpell: Lesson = {
   level: 'A1-A2',
   description:
     'Phone calls can be hard to hear. Learn how to ask people to repeat, speak slowly, spell a word, and confirm a number.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-asking-repeat-spell-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-asking-repeat-spell-hero.png?v=3',
 
   objectives: [
     'Ask a caller to repeat or speak more slowly.',

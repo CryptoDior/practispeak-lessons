@@ -13,7 +13,7 @@ export const businessReachingAgreements: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to bring a discussion to a clear agreement: check that everyone agrees, sum up the decision, confirm next steps and close positively.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Confirm that the whole group agrees.',

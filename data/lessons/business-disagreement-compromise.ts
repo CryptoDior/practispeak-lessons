@@ -12,7 +12,7 @@ export const businessDisagreementCompromise: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to disagree without causing conflict, suggest a compromise where both sides give a little, and reach a fair agreement.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Disagree politely and explain why.',

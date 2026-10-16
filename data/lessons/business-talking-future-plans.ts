@@ -7,7 +7,7 @@ export const businessTalkingFuturePlans: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to talk about tomorrow and the weekend with "will". Talk about meetings, trips and plans with your colleagues.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-future-plans-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-future-plans-hero.png?v=3',
 
   objectives: [
     'Talk about plans for tomorrow or the weekend.',

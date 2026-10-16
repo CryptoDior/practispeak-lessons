@@ -13,7 +13,7 @@ export const businessStartingLeadingMeetings: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to open a meeting with confidence: state the purpose, introduce the agenda, invite comments and keep the discussion moving towards a decision.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Open a meeting and explain its purpose.',

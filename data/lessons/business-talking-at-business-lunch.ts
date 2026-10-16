@@ -12,7 +12,7 @@ export const businessTalkingAtBusinessLunch: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to host or join a business lunch: make small talk, order, move smoothly from social chat to business, and offer to pay.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Make polite small talk at a business meal.',

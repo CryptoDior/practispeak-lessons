@@ -13,7 +13,7 @@ export const businessSummarizingParaphrasing: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to summarize the key points of a discussion, paraphrase what someone said to check understanding, and confirm that everyone agrees.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Summarize the main points of a discussion.',

@@ -13,7 +13,7 @@ export const businessAskingForOpinions: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to propose ideas at work and invite others to share their opinions — from direct questions to more detailed, open requests for feedback.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Suggest and propose ideas using professional vocabulary.',

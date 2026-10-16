@@ -12,7 +12,7 @@ export const businessInterviewSkillsStrengths: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to answer "What are your strengths?" with confidence: choose 1–3 strengths, give real examples and connect them to the job.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe your strengths with useful adjectives.',

@@ -13,7 +13,7 @@ export const businessInternationalColleagues: Lesson = {
   level: 'B1-B2',
   description:
     'Working with people from different countries? Learn how to keep your English simple and clear, check understanding, and avoid misunderstandings.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Keep your English clear and simple for international teams.',

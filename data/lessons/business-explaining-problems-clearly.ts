@@ -12,7 +12,7 @@ export const businessExplainingProblemsClearly: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to report a problem at work in a clear, calm way: describe the issue, explain the cause and the impact, and say what you are doing about it.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Introduce a problem clearly and calmly.',

@@ -12,7 +12,7 @@ export const businessEndingConversationsPolitely: Lesson = {
   level: 'B1-B2',
   description:
     'Leaving a conversation can feel awkward. Learn polite, natural ways to end a conversation, show appreciation and agree to stay in touch.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Signal politely that you need to leave.',

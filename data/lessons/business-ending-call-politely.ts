@@ -7,7 +7,7 @@ export const businessEndingCallPolitely: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to finish a phone call in a friendly and professional way. Thank the caller, promise to call back, and say goodbye.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-ending-call-politely-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-ending-call-politely-hero.png?v=3',
 
   objectives: [
     'Thank the caller at the end of a call.',

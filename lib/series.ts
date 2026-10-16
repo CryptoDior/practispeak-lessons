@@ -350,7 +350,10 @@ export function getCatalog(): Category[] {
     const { match, ...plain } = series;
     return {
       ...plain,
-      image: `https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/category-${series.id}-header.png`,
+      // ?v= bumps the cache when a header is replaced (Oct 2026: new business/conversation/everyday/food/grammar/health headers)
+      image: `https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/category-${series.id}-header.png${
+        ['business', 'conversation', 'everyday', 'food', 'grammar', 'health'].includes(series.id) ? '?v=2' : ''
+      }`,
       range: [lo, hi] as [number, number],
       lessons: summaries,
     };

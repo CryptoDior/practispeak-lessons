@@ -12,7 +12,7 @@ export const businessInterviewGettingStarted: Lesson = {
   level: 'B1-B2',
   description:
     'Learn the main types of job interview questions and how to answer the first big one: "Can you tell me about yourself?"',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Recognise the main types of interview questions.',

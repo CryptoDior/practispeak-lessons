@@ -13,7 +13,7 @@ export const businessSharingOpinionsClearly: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to give your opinion clearly in meetings, support other people\'s ideas, and disagree in a respectful, professional way.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Introduce your opinion clearly.',

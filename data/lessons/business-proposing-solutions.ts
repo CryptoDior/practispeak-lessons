@@ -13,7 +13,7 @@ export const businessProposingSolutions: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to propose solutions in a meeting: introduce one or more options, suggest the best way forward, and explain how your plan will help.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Present one or more possible solutions.',

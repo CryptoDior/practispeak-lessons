@@ -13,7 +13,7 @@ export const businessWrappingUpAssigningTasks: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to end a meeting effectively: summarize decisions, agree on action points, assign tasks with clear deadlines and thank everyone.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Signal that the meeting is ending and summarize decisions.',

@@ -7,7 +7,7 @@ export const businessAskingWhosCalling: Lesson = {
   level: 'A1-A2',
   description:
     "Learn how to ask a caller's name, company and reason for calling. Ask people to spell their name and tell your colleague who is on the phone.",
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-asking-whos-calling-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-asking-whos-calling-hero.png?v=3',
 
   objectives: [
     "Ask politely for the caller's name and company.",

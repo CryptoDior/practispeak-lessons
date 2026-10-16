@@ -12,7 +12,7 @@ export const businessHobbiesTravelCulture: Lesson = {
   level: 'B1-B2',
   description:
     'Build stronger work relationships with personal small talk. Learn how to ask about hobbies, travel and culture, and respond with real interest.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask colleagues and clients about hobbies and travel.',

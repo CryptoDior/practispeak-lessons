@@ -12,7 +12,7 @@ export const businessToneAndPoliteness: Lesson = {
   level: 'B1-B2',
   description:
     'The same message can sound rude or polite depending on your tone. Learn diplomatic phrases to make requests, disagree, apologize and correct misunderstandings.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Understand how tone changes the meaning of a message.',

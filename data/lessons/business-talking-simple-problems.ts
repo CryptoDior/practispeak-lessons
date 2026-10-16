@@ -7,7 +7,7 @@ export const businessTalkingSimpleProblems: Lesson = {
   level: 'A1-A2',
   description:
     'The printer is not working! Learn how to talk about simple problems at work, ask for help, and say when everything is OK again.',
-  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-simple-problems-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/business-talking-simple-problems-hero.png?v=3',
 
   objectives: [
     'Say that a machine is not working.',
