@@ -31,12 +31,12 @@ export const businessWrappingUpAssigningTasks: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: "Let's wrap up the meeting.", tag: 'phrase', definition: 'Signal that the meeting is ending.', example: '"We\'re almost out of time. Let\'s wrap up the meeting."', imageSlug: img('lets-wrap-up') },
-    { phrase: 'To summarize, we decided to…', tag: 'phrase', definition: 'Give a short review of the decisions.', example: '"To summarize, we decided to focus on training and update the budget."', imageSlug: img('to-summarize') },
-    { phrase: 'The action points are…', tag: 'phrase', definition: 'List the tasks for after the meeting.', example: '"The action points are: Tim will update the report, Maria will call the client."', imageSlug: img('the-action-points-are') },
-    { phrase: "I'll assign this task to…", tag: 'phrase', definition: 'Give someone responsibility for a task.', example: '"I\'ll assign the budget review to Tim."', imageSlug: img('ill-assign') },
-    { phrase: 'The deadline is…', tag: 'phrase', definition: 'Set the time limit for a task.', example: '"The deadline is Friday at 5 p.m."', inAction: 'Every action point needs three things: WHO, WHAT and WHEN. Without a deadline, tasks are easy to forget.', imageSlug: img('the-deadline-is') },
-    { phrase: 'Thank you, everyone, for your time.', tag: 'phrase', definition: 'Close the meeting politely.', example: '"Thank you, everyone, for your time and ideas."', imageSlug: img('thank-you-everyone') },
+    { phrase: "Let's wrap up the meeting.", tag: 'phrase', definition: 'Signal that the meeting is ending.', example: '"We\'re almost out of time. Let\'s wrap up the meeting."', imageSlug: img('phrase-wrap-up-meeting') },
+    { phrase: 'To summarize, we decided to…', tag: 'phrase', definition: 'Give a short review of the decisions.', example: '"To summarize, we decided to focus on training and update the budget."', imageSlug: img('phrase-summarize-decisions') },
+    { phrase: 'The action points are…', tag: 'phrase', definition: 'List the tasks for after the meeting.', example: '"The action points are: Tim will update the report, Maria will call the client."', imageSlug: img('phrase-the-action-points') },
+    { phrase: "I'll assign this task to…", tag: 'phrase', definition: 'Give someone responsibility for a task.', example: '"I\'ll assign the budget review to Tim."', imageSlug: img('phrase-assign-task') },
+    { phrase: 'The deadline is…', tag: 'phrase', definition: 'Set the time limit for a task.', example: '"The deadline is Friday at 5 p.m."', inAction: 'Every action point needs three things: WHO, WHAT and WHEN. Without a deadline, tasks are easy to forget.', imageSlug: img('phrase-the-deadline') },
+    { phrase: 'Thank you, everyone, for your time.', tag: 'phrase', definition: 'Close the meeting politely.', example: '"Thank you, everyone, for your time and ideas."', imageSlug: img('phrase-thank-you-everyone') },
   ],
 
   videos: [],

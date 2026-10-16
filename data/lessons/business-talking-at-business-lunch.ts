@@ -22,22 +22,22 @@ export const businessTalkingAtBusinessLunch: Lesson = {
 
   vocabulary: [
     { word: 'RESERVATION', partOfSpeech: 'noun', definition: 'An arrangement to keep a table for you.', example: 'I made a reservation for 12:30.', imageSlug: img('reservation') },
-    { word: 'WAITER / WAITRESS', partOfSpeech: 'noun', definition: 'A person who serves food and drinks in a restaurant.', example: 'The waiter brought the menus.', imageSlug: img('waiter') },
+    { word: 'WAITER / WAITRESS', partOfSpeech: 'noun', definition: 'A person who serves food and drinks in a restaurant.', example: 'The waiter brought the menus.', imageSlug: img('waiter-waitress') },
     { word: 'DISH', partOfSpeech: 'noun', definition: 'A specific type of food served as part of a meal.', example: "The restaurant's signature dish is grilled salmon.", imageSlug: img('dish') },
     { word: 'CLIENT', partOfSpeech: 'noun', definition: 'A person or company that buys products or services from you.', example: "We're meeting a new client for lunch.", imageSlug: img('client') },
     { word: 'BILL', partOfSpeech: 'noun', definition: 'The total amount to pay for food and drinks.', example: 'Could we have the bill, please?', imageSlug: img('bill') },
   ],
 
   phrasalVerbs: [
-    { phrase: 'EAT OUT', definition: 'To have a meal at a restaurant.', example: 'We often eat out with clients.', imageSlug: img('eat-out') },
-    { phrase: 'PICK UP (THE BILL)', definition: "To pay for someone else's meal.", example: "I'll pick up the bill today.", imageSlug: img('pick-up-the-bill') },
-    { phrase: 'TALK OVER', definition: 'To discuss something, often while eating or meeting.', example: "Let's talk over the details during lunch.", imageSlug: img('talk-over') },
-    { phrase: 'SMALL TALK', tag: 'idiom', definition: 'Polite, light conversation about general topics.', example: "She's great at making small talk before meetings.", imageSlug: img('small-talk') },
-    { phrase: "PICK SOMEONE'S BRAIN", tag: 'idiom', definition: 'To ask someone for advice or knowledge.', example: 'During lunch, I picked her brain about marketing trends.', imageSlug: img('pick-brain') },
-    { phrase: 'Everything looks delicious. What do you recommend?', tag: 'phrase', definition: 'Ask for a recommendation and build friendly conversation.', example: '"Everything looks delicious. What do you recommend?"', imageSlug: img('recommend') },
-    { phrase: "Let's enjoy lunch first, then talk business.", tag: 'phrase', definition: 'Keep the tone social before discussing work.', example: '"Let\'s enjoy lunch first, then talk business over coffee."', inAction: 'In many cultures, starting with business right away can feel rude. Small talk first builds trust.', imageSlug: img('enjoy-first') },
-    { phrase: "The bill's on me today.", tag: 'phrase', definition: 'A polite way to offer to pay.', example: '"Please, put your wallet away. The bill\'s on me today."', imageSlug: img('on-me') },
-    { phrase: "It's been a pleasure having lunch with you.", tag: 'phrase', definition: 'A professional way to end the meal.', example: '"It\'s been a pleasure having lunch with you, Maria."', imageSlug: img('pleasure') },
+    { phrase: 'EAT OUT', definition: 'To have a meal at a restaurant.', example: 'We often eat out with clients.', imageSlug: img('phrase-eat-out') },
+    { phrase: 'PICK UP (THE BILL)', definition: "To pay for someone else's meal.", example: "I'll pick up the bill today.", imageSlug: img('phrase-pick-up-bill') },
+    { phrase: 'TALK OVER', definition: 'To discuss something, often while eating or meeting.', example: "Let's talk over the details during lunch.", imageSlug: img('phrase-talk-over') },
+    { phrase: 'SMALL TALK', tag: 'idiom', definition: 'Polite, light conversation about general topics.', example: "She's great at making small talk before meetings.", imageSlug: img('phrase-small-talk') },
+    { phrase: "PICK SOMEONE'S BRAIN", tag: 'idiom', definition: 'To ask someone for advice or knowledge.', example: 'During lunch, I picked her brain about marketing trends.', imageSlug: img('phrase-pick-brain') },
+    { phrase: 'Everything looks delicious. What do you recommend?', tag: 'phrase', definition: 'Ask for a recommendation and build friendly conversation.', example: '"Everything looks delicious. What do you recommend?"', imageSlug: img('phrase-recommend') },
+    { phrase: "Let's enjoy lunch first, then talk business.", tag: 'phrase', definition: 'Keep the tone social before discussing work.', example: '"Let\'s enjoy lunch first, then talk business over coffee."', inAction: 'In many cultures, starting with business right away can feel rude. Small talk first builds trust.', imageSlug: img('phrase-lunch-first') },
+    { phrase: "The bill's on me today.", tag: 'phrase', definition: 'A polite way to offer to pay.', example: '"Please, put your wallet away. The bill\'s on me today."', imageSlug: img('phrase-bill-on-me') },
+    { phrase: "It's been a pleasure having lunch with you.", tag: 'phrase', definition: 'A professional way to end the meal.', example: '"It\'s been a pleasure having lunch with you, Maria."', imageSlug: img('phrase-pleasure-lunch') },
   ],
 
   videos: [],

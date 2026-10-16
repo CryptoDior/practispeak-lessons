@@ -38,12 +38,12 @@ export const businessToneAndPoliteness: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'Would you mind if…?', tag: 'phrase', definition: 'A very polite request or suggestion.', example: '"Would you mind if I joined the call a few minutes late?"', imageSlug: img('would-you-mind-if') },
-    { phrase: "I'm afraid I don't agree.", tag: 'phrase', definition: 'A gentle, respectful way to disagree.', example: '"I\'m afraid I don\'t agree with that approach."', imageSlug: img('afraid') },
-    { phrase: 'Thanks for letting me know.', tag: 'phrase', definition: 'A polite reply when someone gives you information.', example: '"The meeting is moved to 3 p.m." → "Thanks for letting me know."', imageSlug: img('letting-me-know') },
-    { phrase: "I'm sorry for the delay.", tag: 'phrase', definition: 'A polite apology that accepts responsibility.', example: '"I\'m sorry for the delay. Here is the updated file."', imageSlug: img('sorry-for-delay') },
-    { phrase: "That's not quite what I meant.", tag: 'phrase', definition: 'Correct a misunderstanding politely.', example: '"That\'s not quite what I meant. I was talking about next month."', inAction: '"Not quite" is softer than "No, that\'s wrong". It corrects without blaming the other person.', imageSlug: img('not-quite') },
-    { phrase: "Let's see if we can find a solution.", tag: 'phrase', definition: 'Keep the tone positive and cooperative.', example: '"I understand the problem. Let\'s see if we can find a solution."', imageSlug: img('find-a-solution') },
+    { phrase: 'Would you mind if…?', tag: 'phrase', definition: 'A very polite request or suggestion.', example: '"Would you mind if I joined the call a few minutes late?"', imageSlug: img('phrase-would-you-mind') },
+    { phrase: "I'm afraid I don't agree.", tag: 'phrase', definition: 'A gentle, respectful way to disagree.', example: '"I\'m afraid I don\'t agree with that approach."', imageSlug: img('phrase-dont-agree') },
+    { phrase: 'Thanks for letting me know.', tag: 'phrase', definition: 'A polite reply when someone gives you information.', example: '"The meeting is moved to 3 p.m." → "Thanks for letting me know."', imageSlug: img('phrase-letting-me-know') },
+    { phrase: "I'm sorry for the delay.", tag: 'phrase', definition: 'A polite apology that accepts responsibility.', example: '"I\'m sorry for the delay. Here is the updated file."', imageSlug: img('phrase-sorry-delay') },
+    { phrase: "That's not quite what I meant.", tag: 'phrase', definition: 'Correct a misunderstanding politely.', example: '"That\'s not quite what I meant. I was talking about next month."', inAction: '"Not quite" is softer than "No, that\'s wrong". It corrects without blaming the other person.', imageSlug: img('phrase-what-i-meant') },
+    { phrase: "Let's see if we can find a solution.", tag: 'phrase', definition: 'Keep the tone positive and cooperative.', example: '"I understand the problem. Let\'s see if we can find a solution."', imageSlug: img('phrase-find-solution') },
   ],
 
   videos: [],
