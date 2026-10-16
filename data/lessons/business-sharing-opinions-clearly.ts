@@ -31,12 +31,12 @@ export const businessSharingOpinionsClearly: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'In my opinion, …', tag: 'phrase', definition: 'Use this to introduce your idea.', example: '"In my opinion, we should invest more in training."', imageSlug: img('in-my-opinion') },
-    { phrase: 'From my point of view, …', tag: 'phrase', definition: 'Another way to give your opinion.', example: '"From my point of view, this is the best option."', imageSlug: img('from-my-point-of-view') },
-    { phrase: 'I agree with … because…', tag: 'phrase', definition: 'Use this to support an idea and give a reason.', example: '"I agree with Tim because the deadline is realistic."', inAction: 'Always add "because…". A reason makes your agreement stronger and more useful.', imageSlug: img('i-agree-because') },
-    { phrase: 'I see your point, but I think…', tag: 'phrase', definition: 'Use this to disagree politely. First show you understand.', example: '"I see your point, but I think we need more time."', imageSlug: img('i-see-your-point') },
-    { phrase: 'I respectfully disagree.', tag: 'phrase', definition: 'A formal, professional way to disagree.', example: '"I respectfully disagree with that suggestion."', imageSlug: img('respectfully-disagree') },
-    { phrase: "That's a good point.", tag: 'phrase', definition: "Use this to respond positively to someone's idea.", example: '"That\'s a good point, Maria. I hadn\'t thought of that."', imageSlug: img('good-point') },
+    { phrase: 'In my opinion, …', tag: 'phrase', definition: 'Use this to introduce your idea.', example: '"In my opinion, we should invest more in training."', imageSlug: img('phrase-in-my-opinion') },
+    { phrase: 'From my point of view, …', tag: 'phrase', definition: 'Another way to give your opinion.', example: '"From my point of view, this is the best option."', imageSlug: img('phrase-point-of-view') },
+    { phrase: 'I agree with … because…', tag: 'phrase', definition: 'Use this to support an idea and give a reason.', example: '"I agree with Tim because the deadline is realistic."', inAction: 'Always add "because…". A reason makes your agreement stronger and more useful.', imageSlug: img('phrase-agree-because') },
+    { phrase: 'I see your point, but I think…', tag: 'phrase', definition: 'Use this to disagree politely. First show you understand.', example: '"I see your point, but I think we need more time."', imageSlug: img('phrase-see-your-point') },
+    { phrase: 'I respectfully disagree.', tag: 'phrase', definition: 'A formal, professional way to disagree.', example: '"I respectfully disagree with that suggestion."', imageSlug: img('phrase-respectfully-disagree') },
+    { phrase: "That's a good point.", tag: 'phrase', definition: "Use this to respond positively to someone's idea.", example: '"That\'s a good point, Maria. I hadn\'t thought of that."', imageSlug: img('phrase-good-point') },
   ],
 
   videos: [],

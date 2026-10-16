@@ -31,12 +31,12 @@ export const businessSummarizingParaphrasing: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: "Let me summarize what we've discussed.", tag: 'phrase', definition: 'Give a short overview of the discussion.', example: '"Let me summarize what we\'ve discussed: training, budget and deadlines."', imageSlug: img('let-me-summarize') },
-    { phrase: 'The key points are…', tag: 'phrase', definition: 'Highlight the most important ideas.', example: '"The key points are that sales are strong, but we need more training."', imageSlug: img('the-key-points-are') },
-    { phrase: 'So, if I understand correctly, you mean…', tag: 'phrase', definition: 'Paraphrase politely to check understanding.', example: '"So, if I understand correctly, you mean we need training before higher targets."', inAction: 'Paraphrasing shows you are listening, and it stops misunderstandings before they become problems.', imageSlug: img('if-i-understand') },
-    { phrase: "In other words, you're saying…", tag: 'phrase', definition: 'Another way to paraphrase and make an idea clearer.', example: '"In other words, you\'re saying the budget is too small."', imageSlug: img('in-other-words-phrase') },
-    { phrase: 'Can you clarify that point?', tag: 'phrase', definition: 'Ask for more detail or explanation.', example: '"Can you clarify that point about online training?"', imageSlug: img('can-you-clarify') },
-    { phrase: 'Just to confirm, we all agree on…', tag: 'phrase', definition: 'Check that everyone agrees.', example: '"Just to confirm, we all agree on starting in May."', imageSlug: img('just-to-confirm') },
+    { phrase: "Let me summarize what we've discussed.", tag: 'phrase', definition: 'Give a short overview of the discussion.', example: '"Let me summarize what we\'ve discussed: training, budget and deadlines."', imageSlug: img('phrase-summarize-discussion') },
+    { phrase: 'The key points are…', tag: 'phrase', definition: 'Highlight the most important ideas.', example: '"The key points are that sales are strong, but we need more training."', imageSlug: img('phrase-the-key-points') },
+    { phrase: 'So, if I understand correctly, you mean…', tag: 'phrase', definition: 'Paraphrase politely to check understanding.', example: '"So, if I understand correctly, you mean we need training before higher targets."', inAction: 'Paraphrasing shows you are listening, and it stops misunderstandings before they become problems.', imageSlug: img('phrase-understand-correctly') },
+    { phrase: "In other words, you're saying…", tag: 'phrase', definition: 'Another way to paraphrase and make an idea clearer.', example: '"In other words, you\'re saying the budget is too small."', imageSlug: img('phrase-youre-saying') },
+    { phrase: 'Can you clarify that point?', tag: 'phrase', definition: 'Ask for more detail or explanation.', example: '"Can you clarify that point about online training?"', imageSlug: img('phrase-clarify-point') },
+    { phrase: 'Just to confirm, we all agree on…', tag: 'phrase', definition: 'Check that everyone agrees.', example: '"Just to confirm, we all agree on starting in May."', imageSlug: img('phrase-confirm-agreement') },
   ],
 
   videos: [],

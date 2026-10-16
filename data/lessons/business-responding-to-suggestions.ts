@@ -29,14 +29,14 @@ export const businessRespondingToSuggestions: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'GO ALONG WITH', definition: 'To agree with an idea, even if it wasn\'t your first choice.', example: "I'll go along with your plan.", imageSlug: img('go-along-with') },
-    { phrase: 'THINK OVER', definition: 'To consider something carefully before deciding.', example: 'Let me think it over first.', imageSlug: img('think-over') },
-    { phrase: 'BRING UP', definition: 'To mention an idea or topic.', example: 'Kira brought up an interesting point.', imageSlug: img('bring-up') },
-    { phrase: 'POINT OUT', definition: 'To show or explain something, often a problem.', example: 'Tim pointed out a possible problem.', imageSlug: img('point-out') },
-    { phrase: 'COME AROUND (TO)', definition: 'To change your mind and agree later.', example: "He didn't like it at first, but he came around.", imageSlug: img('come-around') },
-    { phrase: "Yes, let's do that.", tag: 'phrase', definition: 'Accept a suggestion clearly.', example: '"A shared calendar? Yes, let\'s do that."', imageSlug: img('lets-do-that') },
-    { phrase: "I'm not sure about that.", tag: 'phrase', definition: 'Say you are unsure, without saying no.', example: '"I\'m not sure about that. Can I think it over?"', imageSlug: img('not-sure') },
-    { phrase: "I see your point, but I'm not sure it's the best option.", tag: 'phrase', definition: 'Disagree politely with a suggestion.', example: '"I see your point, but I\'m not sure it\'s the best option for us right now."', inAction: 'Soften a "no": first show you understand ("I see your point"), then give your doubt ("but I\'m not sure…").', imageSlug: img('see-your-point') },
+    { phrase: 'GO ALONG WITH', definition: 'To agree with an idea, even if it wasn\'t your first choice.', example: "I'll go along with your plan.", imageSlug: img('phrase-go-along-with') },
+    { phrase: 'THINK OVER', definition: 'To consider something carefully before deciding.', example: 'Let me think it over first.', imageSlug: img('phrase-think-over') },
+    { phrase: 'BRING UP', definition: 'To mention an idea or topic.', example: 'Kira brought up an interesting point.', imageSlug: img('phrase-bring-up') },
+    { phrase: 'POINT OUT', definition: 'To show or explain something, often a problem.', example: 'Tim pointed out a possible problem.', imageSlug: img('phrase-point-out') },
+    { phrase: 'COME AROUND (TO)', definition: 'To change your mind and agree later.', example: "He didn't like it at first, but he came around.", imageSlug: img('phrase-come-around') },
+    { phrase: "Yes, let's do that.", tag: 'phrase', definition: 'Accept a suggestion clearly.', example: '"A shared calendar? Yes, let\'s do that."', imageSlug: img('phrase-lets-do-that') },
+    { phrase: "I'm not sure about that.", tag: 'phrase', definition: 'Say you are unsure, without saying no.', example: '"I\'m not sure about that. Can I think it over?"', imageSlug: img('phrase-not-sure') },
+    { phrase: "I see your point, but I'm not sure it's the best option.", tag: 'phrase', definition: 'Disagree politely with a suggestion.', example: '"I see your point, but I\'m not sure it\'s the best option for us right now."', inAction: 'Soften a "no": first show you understand ("I see your point"), then give your doubt ("but I\'m not sure…").', imageSlug: img('phrase-see-your-point') },
   ],
 
   videos: [],

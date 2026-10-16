@@ -31,12 +31,12 @@ export const businessStartingLeadingMeetings: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: "Let's begin the meeting.", tag: 'phrase', definition: 'A clear, professional way to start.', example: '"Good morning, everyone. Let\'s begin the meeting and look at the agenda."', imageSlug: img('lets-begin') },
-    { phrase: "The purpose of today's meeting is…", tag: 'phrase', definition: 'Use this to explain why everyone is there.', example: '"The purpose of today\'s meeting is to plan our Q4 strategy."', inAction: 'Say the purpose in the first minute. It helps everyone focus and keeps the meeting short.', imageSlug: img('purpose-phrase') },
-    { phrase: 'First, we will discuss…', tag: 'phrase', definition: 'Use this to introduce the first agenda point.', example: '"First, we will discuss last month\'s results."', imageSlug: img('first-we-will-discuss') },
-    { phrase: 'Does anyone have any comments before we start?', tag: 'phrase', definition: 'Use this to invite people to speak.', example: '"Does anyone have any comments before we start the first point?"', imageSlug: img('any-comments') },
-    { phrase: "Let's move on to the next point.", tag: 'phrase', definition: 'Use this to change to the next topic.', example: '"Thanks, Tim. Let\'s move on to the next point on the agenda."', imageSlug: img('move-on') },
-    { phrase: 'We need to make a decision about…', tag: 'phrase', definition: 'Use this to focus the group on a result.', example: '"We need to make a decision about the new project timeline today."', imageSlug: img('make-a-decision') },
+    { phrase: "Let's begin the meeting.", tag: 'phrase', definition: 'A clear, professional way to start.', example: '"Good morning, everyone. Let\'s begin the meeting and look at the agenda."', imageSlug: img('phrase-begin-meeting') },
+    { phrase: "The purpose of today's meeting is…", tag: 'phrase', definition: 'Use this to explain why everyone is there.', example: '"The purpose of today\'s meeting is to plan our Q4 strategy."', inAction: 'Say the purpose in the first minute. It helps everyone focus and keeps the meeting short.', imageSlug: img('phrase-meeting-purpose') },
+    { phrase: 'First, we will discuss…', tag: 'phrase', definition: 'Use this to introduce the first agenda point.', example: '"First, we will discuss last month\'s results."', imageSlug: img('phrase-first-discuss') },
+    { phrase: 'Does anyone have any comments before we start?', tag: 'phrase', definition: 'Use this to invite people to speak.', example: '"Does anyone have any comments before we start the first point?"', imageSlug: img('phrase-any-comments') },
+    { phrase: "Let's move on to the next point.", tag: 'phrase', definition: 'Use this to change to the next topic.', example: '"Thanks, Tim. Let\'s move on to the next point on the agenda."', imageSlug: img('phrase-next-point') },
+    { phrase: 'We need to make a decision about…', tag: 'phrase', definition: 'Use this to focus the group on a result.', example: '"We need to make a decision about the new project timeline today."', imageSlug: img('phrase-make-decision') },
   ],
 
   videos: [],
