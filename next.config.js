@@ -18,6 +18,14 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // The old Vercel address forwards to our own domain (keeps old links/bookmarks working).
+      // Only this exact host — preview deployments on other *.vercel.app hosts are unaffected.
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'practispeak-lessons.vercel.app' }],
+        destination: 'https://lessons.practispeak.com/:path*',
+        permanent: true,
+      },
       // "Other" is empty now that the business lessons have their own category.
       { source: '/categories/other', destination: '/categories/business', permanent: false },
     ];

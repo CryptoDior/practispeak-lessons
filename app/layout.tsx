@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: 'Practispeak | Learn English Through Gaming',
   description:
     'ESL lessons designed for gamers. Master English vocabulary, phrasal verbs, and conversation skills through gaming contexts.',
-  metadataBase: new URL('https://practispeak.com'),
+  metadataBase: new URL('https://lessons.practispeak.com'),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
