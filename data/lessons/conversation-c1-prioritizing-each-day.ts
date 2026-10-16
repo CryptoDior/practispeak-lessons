@@ -12,7 +12,7 @@ export const conversationC1PrioritizingEachDay: Lesson = {
   level: 'C1-C2',
   description:
     'Discuss decision-making and time management at an advanced level: urgent vs important, mental bandwidth, peak performance and avoiding "busywork".',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Explain how you prioritise tasks with precise language.',

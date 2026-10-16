@@ -12,7 +12,7 @@ export const conversationC1ReflectingOnYourself: Lesson = {
   level: 'C1-C2',
   description:
     'Talk about self-reflection and personal growth: experiences that challenged your perspective, revealed patterns and led to new self-awareness.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe an experience that led to self-reflection.',

@@ -12,7 +12,7 @@ export const conversationC1AccomplishThisWeek: Lesson = {
   level: 'C1-C2',
   description:
     'Talk about weekly goals with sophistication: realistic objectives, momentum, progress over perfection and beating procrastination.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe your goals and intentions for the week.',

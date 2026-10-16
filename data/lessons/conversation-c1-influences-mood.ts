@@ -12,7 +12,7 @@ export const conversationC1InfluencesMood: Lesson = {
   level: 'C1-C2',
   description:
     'Explore what shapes your emotional state — environment, people, sleep, overstimulation — and discuss emotional triggers with nuance and self-awareness.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Discuss factors that affect your mood with precision.',

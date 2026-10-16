@@ -12,7 +12,7 @@ export const conversationC1MeaningfulYesterday: Lesson = {
   level: 'C1-C2',
   description:
     'Talk about meaning, mindfulness and gratitude: small moments with a big impact, deep conversations and feeling truly present.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe a meaningful moment with emotional nuance.',

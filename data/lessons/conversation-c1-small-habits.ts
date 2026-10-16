@@ -12,7 +12,7 @@ export const conversationC1SmallHabits: Lesson = {
   level: 'C1-C2',
   description:
     'Discuss how tiny routines create big long-term change: incremental progress, the compound effect, discipline without restriction and positive ripple effects.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe a habit and its long-term impact.',

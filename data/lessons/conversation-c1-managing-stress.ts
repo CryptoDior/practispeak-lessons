@@ -12,7 +12,7 @@ export const conversationC1ManagingStress: Lesson = {
   level: 'C1-C2',
   description:
     'Discuss stress with depth and precision: regulating emotions, setting boundaries, avoiding cognitive overload and building resilience.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe personal stress-management strategies in detail.',

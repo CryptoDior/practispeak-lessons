@@ -12,7 +12,7 @@ export const conversationC1UnexpectedProblems: Lesson = {
   level: 'C1-C2',
   description:
     'Discuss how you respond when things don\'t go to plan: staying composed, avoiding impulsive reactions, not catastrophising and treating setbacks as information.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe your approach to unexpected problems.',

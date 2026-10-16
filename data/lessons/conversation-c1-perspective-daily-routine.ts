@@ -12,7 +12,7 @@ export const conversationC1PerspectiveDailyRoutine: Lesson = {
   level: 'C1-C2',
   description:
     'Move beyond describing your routine to evaluating it. Discuss structure vs flexibility, intentional habits and what genuinely adds value to your day.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Evaluate your routine with nuanced, reflective language.',
