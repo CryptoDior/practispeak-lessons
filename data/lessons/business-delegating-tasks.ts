@@ -12,7 +12,7 @@ export const businessDelegatingTasks: Lesson = {
   level: 'C1-C2',
   description:
     'Delegate with clarity and trust: hand over responsibility, define authority and expectations, agree timelines and give people the autonomy to succeed.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Assign responsibility clearly and confidently.',

@@ -12,7 +12,7 @@ export const businessNegotiatingContracts: Lesson = {
   level: 'C1-C2',
   description:
     'Learn the language of contract negotiation: discussing clauses, proposing amendments, making concessions and reaching a mutually acceptable, binding agreement.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Discuss specific clauses and terms precisely.',

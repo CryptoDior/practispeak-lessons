@@ -12,7 +12,7 @@ export const businessLeadingChange: Lesson = {
   level: 'C1-C2',
   description:
     'Guide people through organisational change: acknowledge emotions, explain the why, handle resistance with empathy and keep communication transparent.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Acknowledge the emotional impact of change.',

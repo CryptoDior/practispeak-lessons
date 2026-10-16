@@ -12,7 +12,7 @@ export const conversationHowAreYouToday: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to ask "How are you?" and answer about your feelings. Say if you are fine, tired, happy or sad, and ask about someone\'s day.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask "How are you?" and answer politely.',

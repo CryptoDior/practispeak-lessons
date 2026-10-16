@@ -12,7 +12,7 @@ export const businessNegotiatingInternationalPartners: Lesson = {
   level: 'C1-C2',
   description:
     'Negotiate effectively across borders: justify positions with data, explore options without confrontation, break a stalemate and build a foundation for mutual benefit.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Justify your position professionally with data.',

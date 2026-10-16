@@ -12,7 +12,7 @@ export const businessStorytellingInBusiness: Lesson = {
   level: 'C1-C2',
   description:
     'Facts inform, but stories persuade. Learn how to use authentic stories in presentations and meetings to create emotion, make ideas memorable and land a clear lesson.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Introduce a story naturally in a business context.',

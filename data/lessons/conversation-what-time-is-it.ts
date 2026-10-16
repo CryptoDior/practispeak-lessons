@@ -12,7 +12,7 @@ export const conversationWhatTimeIsIt: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to ask and tell the time in English. Say "o\'clock", "half past" and "quarter to", and talk about when you wake up and go to bed.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "What time is it?".',

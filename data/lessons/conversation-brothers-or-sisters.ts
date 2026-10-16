@@ -12,7 +12,7 @@ export const conversationBrothersOrSisters: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to talk about your family. Ask "Do you have brothers or sisters?" and talk about older and younger brothers and sisters.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "Do you have brothers or sisters?".',

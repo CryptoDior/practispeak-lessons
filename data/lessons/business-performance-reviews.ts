@@ -12,7 +12,7 @@ export const businessPerformanceReviews: Lesson = {
   level: 'C1-C2',
   description:
     'Lead a balanced performance review: celebrate achievements, discuss development areas diplomatically, invite self-reflection and set clear goals for the next cycle.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Open a review positively by highlighting achievements.',

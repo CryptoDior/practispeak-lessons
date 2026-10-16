@@ -12,7 +12,7 @@ export const conversationB1HowHasYourWeekBeen: Lesson = {
   level: 'B1-B2',
   description:
     'Go beyond "fine, thanks". Learn natural ways to describe your week — busy, hectic, productive or relaxing — and keep the conversation going.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "How has your week been so far?" naturally.',

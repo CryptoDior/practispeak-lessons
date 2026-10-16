@@ -12,7 +12,7 @@ export const businessGivingConstructiveFeedback: Lesson = {
   level: 'C1-C2',
   description:
     'Deliver feedback that helps people grow. Learn to open positively, describe behaviour objectively, focus on solutions and keep the conversation two-way.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Open feedback conversations in a collaborative way.',

@@ -12,7 +12,7 @@ export const conversationHowIsTheWeather: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to talk about the weather. Say if it is sunny, cloudy, rainy, windy, hot or cold, and say if you like the weather.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "How is the weather today?".',

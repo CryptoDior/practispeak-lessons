@@ -13,7 +13,7 @@ export const businessBuildingConsensus: Lesson = {
   level: 'C1-C2',
   description:
     'Learn how to bring a group with different priorities to genuine agreement: find common ground, check alignment, build on others\' ideas and settle on a shared solution.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Identify common ground between different positions.',

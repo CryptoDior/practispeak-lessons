@@ -12,7 +12,7 @@ export const conversationWhenIsYourBirthday: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to talk about birthdays, dates and age. Ask "When is your birthday?" and "How old are you?" and say "Happy birthday!".',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "When is your birthday?".',

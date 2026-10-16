@@ -13,7 +13,7 @@ export const conversationWhereAreYouFrom: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to ask and answer "Where are you from?". Talk about your country, the city where you live, and introduce a friend.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "Where are you from?".',

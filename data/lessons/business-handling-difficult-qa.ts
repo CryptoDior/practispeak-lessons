@@ -12,7 +12,7 @@ export const businessHandlingDifficultQa: Lesson = {
   level: 'C1-C2',
   description:
     'Stay calm and credible when the questions get tough. Learn to acknowledge concerns, buy time, answer honestly when you don\'t have all the facts, and redirect diplomatically.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Acknowledge difficult questions with composure.',

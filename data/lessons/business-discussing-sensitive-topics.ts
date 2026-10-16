@@ -12,7 +12,7 @@ export const businessDiscussingSensitiveTopics: Lesson = {
   level: 'C1-C2',
   description:
     'Some conversations need extra care — salary, missed targets, personal issues, cultural tensions. Learn tactful language to raise sensitive topics constructively and keep trust intact.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Open a sensitive conversation tactfully.',

@@ -12,7 +12,7 @@ export const conversationB1AfterWork: Lesson = {
   level: 'B1-B2',
   description:
     'Talk about your plans for later today: heading home, running errands, meeting friends or going to the gym — and make plans with others.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer about plans for after work or school.',

@@ -13,7 +13,7 @@ export const businessManagingConflictMeetings: Lesson = {
   level: 'C1-C2',
   description:
     'When tempers rise, the chair must stay calm. Learn to de-escalate tension, separate people from problems and steer a heated meeting back to a constructive outcome.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Recognise and de-escalate tension in a meeting.',

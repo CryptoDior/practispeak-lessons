@@ -12,7 +12,7 @@ export const businessPersuasionTechniques: Lesson = {
   level: 'C1-C2',
   description:
     'Persuade with logic, credibility and emotion. Learn to back up claims with evidence, handle counterarguments gracefully and appeal to what your audience values.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Support arguments with evidence and examples.',

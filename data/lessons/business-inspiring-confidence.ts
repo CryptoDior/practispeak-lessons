@@ -12,7 +12,7 @@ export const businessInspiringConfidence: Lesson = {
   level: 'C1-C2',
   description:
     'Great speakers don\'t just inform — they inspire. Learn language that shows conviction, builds trust, engages emotionally and leaves people ready to act.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Express conviction and confidence in your ideas.',

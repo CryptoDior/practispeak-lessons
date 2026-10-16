@@ -12,7 +12,7 @@ export const conversationB1UpToLately: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to ask friends and colleagues what they have been doing recently, and how to answer with natural phrases about work, friends and self-care.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "What have you been up to lately?".',

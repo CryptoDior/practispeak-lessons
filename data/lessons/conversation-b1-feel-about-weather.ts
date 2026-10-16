@@ -12,7 +12,7 @@ export const conversationB1FeelAboutWeather: Lesson = {
   level: 'B1-B2',
   description:
     'Go beyond "It\'s sunny". Learn how to give opinions about the weather, describe how it changes, and say how it affects your mood.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Give your opinion about the weather and how it makes you feel.',

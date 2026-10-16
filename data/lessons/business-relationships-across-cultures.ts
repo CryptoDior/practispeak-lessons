@@ -12,7 +12,7 @@ export const businessRelationshipsAcrossCultures: Lesson = {
   level: 'C1-C2',
   description:
     'Build trust with international partners: understand hierarchy, formality and etiquette, adapt your communication style and show genuine cultural curiosity.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Discuss cultural norms with openness and respect.',

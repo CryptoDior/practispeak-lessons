@@ -12,7 +12,7 @@ export const conversationB1SpendYourMornings: Lesson = {
   level: 'B1-B2',
   description:
     'Describe your morning routine step by step with sequencing words like first, after that, while and as soon as — and talk about being (or not being) a morning person.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe your morning routine in a logical order.',

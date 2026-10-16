@@ -12,7 +12,7 @@ export const businessHandlingObjectionsC1: Lesson = {
   level: 'C1-C2',
   description:
     'Turn objections into progress. Learn to validate concerns, reframe problems, back up your position with evidence and concede strategically without losing the deal.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Validate objections so the other side feels heard.',

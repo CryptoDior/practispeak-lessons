@@ -13,7 +13,7 @@ export const businessLeadingComplexDiscussions: Lesson = {
   level: 'C1-C2',
   description:
     'Learn how to facilitate demanding discussions: manage divergent opinions, keep debates on track, mediate disagreements and steer the group to consensus.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Facilitate a discussion with many different viewpoints.',

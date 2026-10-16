@@ -12,7 +12,7 @@ export const businessMotivatingATeam: Lesson = {
   level: 'C1-C2',
   description:
     'Learn the language leaders use to boost engagement: empowering people, recognising contributions, building ownership and creating shared accountability.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Recognise individual contributions in a meaningful way.',

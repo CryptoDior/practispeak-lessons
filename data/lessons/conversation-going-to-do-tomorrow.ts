@@ -12,7 +12,7 @@ export const conversationGoingToDoTomorrow: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to talk about your plans for tomorrow with "going to". Say what you will do and when: in the morning, afternoon or evening.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "What are you going to do tomorrow?".',

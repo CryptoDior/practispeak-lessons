@@ -12,7 +12,7 @@ export const conversationWhatDidYouDoYesterday: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to talk about yesterday with simple past verbs like went, watched, cooked and studied. Say if it was fun or boring.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "What did you do yesterday?".',

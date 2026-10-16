@@ -12,7 +12,7 @@ export const businessStructuringPersuasivePresentations: Lesson = {
   level: 'C1-C2',
   description:
     'Learn how to build a persuasive presentation: a strong hook, a clear roadmap, smooth transitions, effective signposting and a compelling call to action.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Open with a hook and outline a clear structure.',

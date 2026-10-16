@@ -12,7 +12,7 @@ export const conversationB1LastWeekend: Lesson = {
   level: 'B1-B2',
   description:
     'Talk about your weekend in more detail: what you did, where you went and how it was. Practise regular and irregular past tense verbs.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "What did you do last weekend?" with detail.',

@@ -12,7 +12,7 @@ export const conversationB1SpendYourEvenings: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to talk about your evening routine: unwinding after work, catching up on shows, cooking, socialising and switching off screens.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe your typical evening routine.',

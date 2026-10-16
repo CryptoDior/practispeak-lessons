@@ -12,7 +12,7 @@ export const conversationWhatDoYouDo: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to ask about jobs and studies. Say what you do, where you work or study, and if you like your job.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "What do you do?".',

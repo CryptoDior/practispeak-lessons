@@ -12,7 +12,7 @@ export const businessPresentingDataVisuals: Lesson = {
   level: 'C1-C2',
   description:
     'Turn charts into insight. Learn precise language to introduce visuals, describe trends, highlight key figures and explain what the data really means.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Introduce and guide the audience through a visual.',

@@ -12,7 +12,7 @@ export const businessCommunicatingVisionStrategy: Lesson = {
   level: 'C1-C2',
   description:
     'Learn how leaders explain where the organisation is going and why: articulating a vision, linking strategy to outcomes and creating alignment and ownership.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Articulate a long-term vision clearly and inspiringly.',

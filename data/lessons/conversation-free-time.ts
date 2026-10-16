@@ -12,7 +12,7 @@ export const conversationFreeTime: Lesson = {
   level: 'A1-A2',
   description:
     'Learn how to talk about hobbies. Say what you like to do in your free time, like reading, cooking, music, movies and games.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "What do you do in your free time?".',

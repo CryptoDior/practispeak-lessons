@@ -12,7 +12,7 @@ export const conversationB1ToRelax: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to talk about stress and relaxation: switching off, unwinding, meditating, taking a break and clearing your mind.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask and answer "What do you do to relax?".',

@@ -12,7 +12,7 @@ export const businessWinWinOutcomes: Lesson = {
   level: 'C1-C2',
   description:
     'Move from "who wins?" to "how can we both win?". Learn collaborative negotiation language: uncovering interests, creating value, trading what matters and building long-term partnerships.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Explore the other side\'s interests, not just their position.',
