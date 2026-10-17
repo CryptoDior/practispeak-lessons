@@ -12,7 +12,7 @@ export const grammarPrefixesUnRePre: Lesson = {
   level: 'A1-A2',
   description:
     'A prefix is a small group of letters at the start of a word. Learn how un- (not / opposite), re- (again / back) and pre- (before) change the meaning of words.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Use un- to make opposites: happy → unhappy.',

@@ -12,7 +12,7 @@ export const grammarArticles: Lesson = {
   level: 'A1-A2',
   description:
     'Learn when to use "a", "an", "the" — or no article at all. Use "a/an" for any one thing, "the" for a thing you both know, and nothing for things in general.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Use "a" and "an" for one thing that is not specific.',

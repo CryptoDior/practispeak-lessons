@@ -11,7 +11,7 @@ export const diningRestaurantInquiries: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to ask questions in a restaurant: daily specials, dietary needs (vegan, vegetarian, gluten-free), allergies, changes to a dish, and practical requests.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask about specials and house specialities.',

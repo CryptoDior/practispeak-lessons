@@ -12,7 +12,7 @@ export const foodWineFoodPairing: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to match wine with food: talk about pairings that complement or contrast, and use words like acidity, tannins, texture and creamy.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Explain why a wine and a dish go well together.',

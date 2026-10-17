@@ -12,7 +12,7 @@ export const grammarConditionalsZeroFirst: Lesson = {
   level: 'B1-B2',
   description:
     'Learn the zero conditional for facts and rules ("If you heat water, it boils") and the first conditional for real possible futures ("If it rains, we\'ll stay home").',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Use the zero conditional for facts, rules and habits.',

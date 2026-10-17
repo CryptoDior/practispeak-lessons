@@ -12,7 +12,7 @@ export const grammarConditionalsSecondThird: Lesson = {
   level: 'B1-B2',
   description:
     'Learn the second conditional for imaginary present situations and dreams ("If I had a million dollars…") and the third conditional for imagining a different past and regrets.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Use the second conditional to imagine an unreal present or future.',

@@ -12,7 +12,7 @@ export const foodHowDoesWineTaste: Lesson = {
   level: 'A1-A2',
   description:
     'Learn more words to describe the taste of wine — light, strong, smooth, fresh — and how to open, pour and serve wine.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe how wine tastes with simple adjectives.',

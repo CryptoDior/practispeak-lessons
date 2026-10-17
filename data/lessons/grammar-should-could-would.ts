@@ -12,7 +12,7 @@ export const grammarShouldCouldWould: Lesson = {
   level: 'B1-B2',
   description:
     'Three small words with big jobs: SHOULD for advice, COULD for possibility and past ability, WOULD for imaginary situations and polite requests.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Give advice with "should".',

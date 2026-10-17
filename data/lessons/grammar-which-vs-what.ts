@@ -12,7 +12,7 @@ export const grammarWhichVsWhat: Lesson = {
   level: 'B1-B2',
   description:
     'Learn when to ask "what" (many or unknown options) and when to ask "which" (a few, known options) — with lots of side-by-side examples.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Use "what" for open questions with many possible answers.',

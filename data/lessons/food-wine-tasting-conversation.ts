@@ -12,7 +12,7 @@ export const foodWineTastingConversation: Lesson = {
   level: 'B1-B2',
   description:
     'Learn the language of a wine tasting: swirl, sip and describe the aroma, body and finish of a wine — and give your opinion like a sommelier.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe the smell of a wine: aroma, bouquet, notes.',

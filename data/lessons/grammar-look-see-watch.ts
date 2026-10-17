@@ -12,7 +12,7 @@ export const grammarLookSeeWatch: Lesson = {
   level: 'A1-A2',
   description:
     'Look, see and watch are all about your eyes, but they are different. Learn when to use each one, with simple rules and lots of examples.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Use "see" for things your eyes notice without trying.',

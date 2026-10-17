@@ -12,7 +12,7 @@ export const foodWineIntroduction: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the basic words for wine: red, white and rosé, bottles and glasses, and simple taste words like sweet, dry and fruity.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name the main types of wine.',

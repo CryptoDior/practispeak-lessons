@@ -11,7 +11,7 @@ export const diningOrderingFoodRestaurant: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the words and phrases you need in a restaurant: ask for a table, order drinks and food, ask for more time, and add a side dish.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask for a table and answer "Table for how many?".',

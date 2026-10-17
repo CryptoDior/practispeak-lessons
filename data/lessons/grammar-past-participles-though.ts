@@ -12,7 +12,7 @@ export const grammarPastParticiplesThough: Lesson = {
   level: 'B1-B2',
   description:
     'Master the irregular past participles you need for the present perfect and conditionals (gone, written, broken, chosen…), and learn to use "though" to show contrast naturally.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Use common irregular past participles correctly.',

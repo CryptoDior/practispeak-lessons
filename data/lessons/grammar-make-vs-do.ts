@@ -12,7 +12,7 @@ export const grammarMakeVsDo: Lesson = {
   level: 'B1-B2',
   description:
     'Make a decision or do a decision? Learn the difference: MAKE for creating, causing and cooking; DO for tasks, jobs and routines — plus the most common fixed expressions.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Use MAKE for creating, causing and preparing food.',

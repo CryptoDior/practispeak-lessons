@@ -12,7 +12,7 @@ export const foodDescribingTaste: Lesson = {
   level: 'B1-B2',
   description:
     'Go beyond "delicious". Learn precise words to describe flavour — savoury, zesty, rich, mild, subtle, pungent — and talk about food like a real foodie.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe the basic tastes: sweet, sour, bitter, salty, spicy.',

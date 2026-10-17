@@ -12,7 +12,7 @@ export const foodWineMakingOrdering: Lesson = {
   level: 'B1-B2',
   description:
     'From vineyard to glass: learn the words for how wine is made (harvest, barrel, cellar, vintage) and how to order wine confidently in a restaurant.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe how wine is made using the passive voice.',
