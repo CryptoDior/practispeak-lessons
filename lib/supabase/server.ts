@@ -1,5 +1,6 @@
 import { createServerClient } from '@supabase/ssr';
 import { cookies } from 'next/headers';
+import { effectivePlan, type Plan } from '@/lib/plan';
 
 /**
  * Supabase client for server components, route handlers and server actions.
@@ -28,15 +29,16 @@ export function createClient() {
   );
 }
 
-export type Plan = 'free' | 'pro';
+export type { Plan } from '@/lib/plan';
 
-/** The signed-in user (or null) and their plan. Missing profile = free. */
+/** The signed-in user (or null) and their plan. Missing profile = free; ended Wix packages = free. */
 export async function getUserAndPlan() {
   const supabase = createClient();
   const {
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) return { user: null, plan: 'free' as Plan };
-  const { data } = await supabase.from('profiles').select('plan').eq('id', user.id).maybeSingle();
-  return { user, plan: (data?.plan === 'pro' ? 'pro' : 'free') as Plan };
+  // select('*') so this keeps working whether or not the pro_until column exists yet.
+  const { data } = await supabase.from('profiles').select('*').eq('id', user.id).maybeSingle();
+  return { user, plan: effectivePlan(data) };
 }

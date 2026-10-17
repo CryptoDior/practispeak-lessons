@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { createClient } from '@/lib/supabase/client';
-import type { Plan } from '@/lib/supabase/server';
+import { effectivePlan, type Plan } from '@/lib/plan';
 
 /**
  * The logged-in student's plan, looked up in the browser (null while loading or logged out).
@@ -20,8 +20,8 @@ export function usePlan(): Plan | null {
         data: { user },
       } = await supabase.auth.getUser();
       if (!user || cancelled) return;
-      const { data } = await supabase.from('profiles').select('plan').eq('id', user.id).maybeSingle();
-      if (!cancelled) setPlan(data?.plan === 'pro' ? 'pro' : 'free');
+      const { data } = await supabase.from('profiles').select('*').eq('id', user.id).maybeSingle();
+      if (!cancelled) setPlan(effectivePlan(data));
     })();
     return () => {
       cancelled = true;

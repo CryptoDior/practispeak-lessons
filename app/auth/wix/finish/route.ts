@@ -1,12 +1,35 @@
 import { cookies } from 'next/headers';
 import { NextResponse, type NextRequest } from 'next/server';
-import { getWixMember } from '@/lib/wix';
+import { getWixMember, type WixPackageStatus } from '@/lib/wix';
 import { createAdminClient } from '@/lib/supabase/admin';
 import { createClient } from '@/lib/supabase/server';
 
 export const dynamic = 'force-dynamic';
 
 const fail = (reason = 'wix') => NextResponse.json({ redirect: `/login?error=${reason}` });
+
+/**
+ * Premium from a Wix lesson package: active package -> pro until it ends; package gone ->
+ * back to free. Premium you set by hand (plan_source not 'wix') is never touched.
+ */
+async function syncPlanFromWix(
+  admin: ReturnType<typeof createAdminClient>,
+  userId: string,
+  packages: WixPackageStatus
+) {
+  const { data: profile } = await admin.from('profiles').select('*').eq('id', userId).maybeSingle();
+  if (!profile) return;
+  if (profile.plan === 'pro' && profile.plan_source !== 'wix') return; // set manually — leave it
+
+  let update: Record<string, unknown> | null = null;
+  if (packages.active) update = { plan: 'pro', plan_source: 'wix', pro_until: packages.until };
+  else if (profile.plan_source === 'wix') update = { plan: 'free', pro_until: null };
+  if (!update) return;
+
+  const { error } = await admin.from('profiles').update(update).eq('id', userId);
+  if (error) console.error('[wix] plan sync failed', error.message);
+  else console.log(`[wix] plan sync: ${packages.active ? `pro until ${packages.until ?? 'open-ended'}` : 'package ended -> free'}`);
+}
 
 /**
  * Step 3: confirm the Wix login, then log the student into Supabase under the
@@ -55,6 +78,10 @@ export async function POST(request: NextRequest) {
     // has verified the email — otherwise anyone could register that email on Wix and get in.
     const madeViaWix = link.data.user?.user_metadata?.login_via === 'wix';
     if (!isNewAccount && !madeViaWix && !member.emailVerified) return fail('wix-unverified');
+
+    // Students with a current Wix lesson package are unlocked automatically.
+    const userId = link.data.user?.id;
+    if (userId && member.packages) await syncPlanFromWix(admin, userId, member.packages);
 
     const supabase = createClient();
     const { error } = await supabase.auth.verifyOtp({

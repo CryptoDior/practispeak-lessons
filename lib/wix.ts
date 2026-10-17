@@ -64,10 +64,49 @@ export async function createWixLoginUrl(opts: { redirectUri: string; challenge: 
   return session.redirectSession.fullUrl;
 }
 
+export interface WixPackageStatus {
+  /** Has a lesson package (Pricing Plans order) that's active, paused, or paid and about to start */
+  active: boolean;
+  /** When the latest such package ends; null = no end date known */
+  until: string | null;
+}
+
 export interface WixMember {
   email: string;
   emailVerified: boolean;
   name: string;
+  /** null when Wix couldn't be asked — callers then leave the student's plan unchanged */
+  packages: WixPackageStatus | null;
+}
+
+/** The logged-in member's own Pricing Plans orders ("lesson packages"). */
+async function getPackageStatus(memberToken: string): Promise<WixPackageStatus | null> {
+  try {
+    const res = await fetch(`${WIX_API}/pricing-plans/v2/member/orders?limit=100`, {
+      headers: { authorization: memberToken },
+      cache: 'no-store',
+    });
+    const json = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      console.error('[wix] member orders failed', res.status);
+      return null;
+    }
+    const orders: { status?: string; lastPaymentStatus?: string; endDate?: string }[] = json.orders ?? [];
+    const current = orders.filter(
+      (o) =>
+        o.status === 'ACTIVE' ||
+        o.status === 'PAUSED' ||
+        (o.status === 'PENDING' && o.lastPaymentStatus === 'PAID') // bought, starts later
+    );
+    if (current.length === 0) return { active: false, until: null };
+    const until = current.some((o) => !o.endDate)
+      ? null
+      : current.map((o) => o.endDate!).sort().at(-1) ?? null;
+    return { active: true, until };
+  } catch (err) {
+    console.error('[wix] member orders error', err);
+    return null;
+  }
 }
 
 /** Exchange the login code for member tokens and read who logged in. */
@@ -96,5 +135,6 @@ export async function getWixMember(opts: { code: string; verifier: string; redir
     email: String(m.loginEmail ?? '').trim().toLowerCase(),
     emailVerified: m.loginEmailVerified === true,
     name: `${first} ${last}`.trim() || m.profile?.nickname || '',
+    packages: await getPackageStatus(tokens.access_token),
   };
 }

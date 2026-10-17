@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 import { createClient } from '@/lib/supabase/client';
 import { logout } from '@/app/auth/actions';
 import { BECOME_STUDENT_URL } from '@/lib/site';
+import { effectivePlan } from '@/lib/plan';
 
 type Account = { email: string; name: string; plan: 'free' | 'pro'; marketing: boolean };
 
@@ -97,14 +98,14 @@ export default function AccountMenu() {
       if (!user) return setAccount(null);
       const { data } = await supabase
         .from('profiles')
-        .select('plan, marketing_opt_in')
+        .select('*')
         .eq('id', user.id)
         .maybeSingle();
       if (cancelled) return;
       setAccount({
         email: user.email ?? '',
         name: (user.user_metadata?.full_name as string | undefined) || '',
-        plan: data?.plan === 'pro' ? 'pro' : 'free',
+        plan: effectivePlan(data),
         marketing: data?.marketing_opt_in === true,
       });
     };
