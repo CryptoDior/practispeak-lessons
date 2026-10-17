@@ -10,10 +10,13 @@ export default function AuthForm({
   mode,
   next = '/',
   initialError,
+  secondary = false,
 }: {
   mode: 'login' | 'signup';
   next?: string;
   initialError?: string;
+  /** Another login option is the main one, so this form's button is styled as secondary */
+  secondary?: boolean;
 }) {
   const [pending, startTransition] = useTransition();
   const [error, setError] = useState<string | undefined>(initialError);
@@ -107,7 +110,11 @@ export default function AuthForm({
       <button
         type="submit"
         disabled={pending}
-        className="w-full rounded-xl bg-blue-600 px-4 py-3 text-[15px] font-semibold text-white hover:bg-blue-700 disabled:opacity-60 disabled:cursor-wait transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
+        className={`w-full rounded-xl px-4 py-3 text-[15px] font-semibold disabled:opacity-60 disabled:cursor-wait transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 ${
+          secondary
+            ? 'border border-slate-300 bg-white text-slate-700 hover:border-blue-400 hover:text-blue-600'
+            : 'bg-blue-600 text-white hover:bg-blue-700'
+        }`}
       >
         {pending ? 'Please wait…' : isLogin ? 'Log in' : 'Create account'}
       </button>
