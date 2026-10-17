@@ -12,7 +12,7 @@ export const everydayInstagram: Lesson = {
   level: 'B1-B2',
   description:
     'Learn the words, phrasal verbs and everyday expressions people use to talk about Instagram — posts, stories, hashtags, captions, followers and more.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Use common Instagram vocabulary naturally.',

@@ -11,7 +11,7 @@ export const shoppingForClothesB1: Lesson = {
   level: 'B1-B2',
   description:
     'Shop with confidence: say you are just browsing, ask for affordable options, check prices, and ask about exchange and refund policies.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Politely say you are just browsing.',

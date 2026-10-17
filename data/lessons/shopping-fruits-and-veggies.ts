@@ -11,7 +11,7 @@ export const shoppingFruitsAndVeggies: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to describe and choose fresh produce: ripe, overripe, juicy, in season, organic — and how to ask shop staff for help at the market or supermarket.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Describe the condition of fruit and vegetables.',

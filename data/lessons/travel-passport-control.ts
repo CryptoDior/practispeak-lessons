@@ -11,7 +11,7 @@ export const travelPassportControl: Lesson = {
   level: 'B1-B2',
   description:
     'Answer a passport control officer\'s questions with confidence: your nationality, the purpose and duration of your trip, where you\'re staying, and what you\'re carrying.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Answer standard immigration questions clearly.',

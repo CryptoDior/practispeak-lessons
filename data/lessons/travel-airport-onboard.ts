@@ -12,7 +12,7 @@ export const travelAirportOnboard: Lesson = {
   level: 'B1-B2',
   description:
     'From boarding to landing: understand boarding groups, cabin crew instructions, safety announcements and what to say to flight attendants.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Understand boarding announcements and groups.',

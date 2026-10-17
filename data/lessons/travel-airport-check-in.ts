@@ -11,7 +11,7 @@ export const travelAirportCheckIn: Lesson = {
   level: 'B1-B2',
   description:
     'Get through airport check-in smoothly: give your booking details, check bags, choose a seat, make special requests and understand your boarding pass.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Provide booking and passport details at check-in.',
