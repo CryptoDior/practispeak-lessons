@@ -11,7 +11,7 @@ export const beautyAtTheHairSalon: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the words you need at the hair salon: haircut, trim, dye, highlights, wash and blow-dry. Say what you want and understand the hairdresser.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name common salon services and hair products.',

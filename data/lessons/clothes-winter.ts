@@ -12,7 +12,7 @@ export const clothesWinter: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the names of winter clothes — coats, raincoats, jackets, scarves — plus adjectives like warm and waterproof, and phrasal verbs like bundle up and zip up.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name common winter coats, jackets and accessories.',

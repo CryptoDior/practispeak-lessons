@@ -11,7 +11,7 @@ export const beautyMakeupCosmetics: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the names of common makeup products — lipstick, mascara, foundation, blush — and how to shop for them in English.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name common makeup products.',

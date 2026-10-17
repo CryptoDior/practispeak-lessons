@@ -12,7 +12,7 @@ export const homeInTheKitchen2: Lesson = {
   level: 'A1-A2',
   description:
     'Learn more kitchen words: toaster, coffee machine, teapot, jug, jar, grater and cleaning things like dishcloths and paper towels.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name small kitchen machines and containers.',

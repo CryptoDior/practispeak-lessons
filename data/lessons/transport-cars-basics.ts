@@ -12,7 +12,7 @@ export const transportCarsBasics: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the main parts of a car — engine, tires, brakes, steering wheel, headlights — and simple phrasal verbs to talk about car problems.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name the main parts of a car.',

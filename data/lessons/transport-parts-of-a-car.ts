@@ -11,7 +11,7 @@ export const transportPartsOfACar: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the names of the outside parts of a car — roof, bonnet, bumper, wipers, mirrors and lights — and talk to a mechanic about simple problems.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name the main outside parts of a car.',

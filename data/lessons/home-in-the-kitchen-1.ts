@@ -12,7 +12,7 @@ export const homeInTheKitchen1: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the names of the big things in a kitchen — fridge, oven, stove, microwave, sink — and talk about what they do.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name the main kitchen appliances.',

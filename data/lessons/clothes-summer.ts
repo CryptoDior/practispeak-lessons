@@ -12,7 +12,7 @@ export const clothesSummer: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the names of summer clothes — tank tops, crop tops, floral shirts, shorts — plus useful adjectives and phrasal verbs to talk about what you wear.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name common summer tops, shirts and shorts.',

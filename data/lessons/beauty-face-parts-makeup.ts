@@ -12,7 +12,7 @@ export const beautyFacePartsMakeup: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the parts of the face — eyelids, eyelashes, eyebrows, cheeks, forehead — and say where to put each makeup product.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name the parts of the face.',

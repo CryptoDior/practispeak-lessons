@@ -11,7 +11,7 @@ export const beautyAtTheBarbershop: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the words and phrases for the barbershop: fade, clippers, razor, shave and trim. Tell the barber exactly how you want your hair and beard.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name barbershop tools and services.',

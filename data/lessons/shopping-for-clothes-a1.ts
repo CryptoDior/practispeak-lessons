@@ -11,7 +11,7 @@ export const shoppingForClothesA1: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the basic words for shopping for clothes: price, size, sale, cheap and expensive. Ask how much something costs, try clothes on and find the sale section.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Ask the price of clothes.',

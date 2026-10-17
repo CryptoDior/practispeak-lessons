@@ -12,7 +12,7 @@ export const homeLivingRoom: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the names of furniture and things in the living room — sofa, armchair, rug, lamp, curtains, bookshelf — and describe your living room.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name living room furniture and decorations.',

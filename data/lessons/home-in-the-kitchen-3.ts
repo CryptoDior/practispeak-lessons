@@ -12,7 +12,7 @@ export const homeInTheKitchen3: Lesson = {
   level: 'A1-A2',
   description:
     'Learn the names of kitchen tools — cutting board, peeler, whisk, spatula, colander, rolling pin, can opener — and use them in a simple recipe.',
-  heroImage: img('hero'),
+  heroImage: `${img('hero')}?v=3`,
 
   objectives: [
     'Name common kitchen tools.',
