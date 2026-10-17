@@ -31,13 +31,13 @@ export const businessManagingConflictMeetings: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'CALM DOWN', definition: 'To become less angry or upset.', example: "Let's all take a moment to calm down.", imageSlug: img('calm-down') },
-    { phrase: 'CUT IN', definition: 'To interrupt.', example: "Please don't cut in while others are speaking.", imageSlug: img('cut-in') },
-    { phrase: 'STEP IN', definition: 'To get involved in a situation to help.', example: 'Kira had to step in to stop the argument.', imageSlug: img('step-in') },
-    { phrase: 'TALK THROUGH', definition: 'To discuss something carefully and in detail.', example: "Let's talk through this issue calmly.", imageSlug: img('talk-through') },
-    { phrase: "I can see this is important to both of you.", tag: 'phrase', definition: 'Acknowledge emotions to lower tension.', example: '"I can see this is important to both of you, and that\'s a good thing."', imageSlug: img('important-to-both') },
-    { phrase: "Let's focus on the issue, not the person.", tag: 'phrase', definition: 'Stop a debate becoming personal.', example: '"Let\'s focus on the issue, not the person. What exactly went wrong?"', inAction: 'Use "we" and talk about the problem ("the delay", "the process") rather than "you" ("you were late"). This depersonalises the conflict.', imageSlug: img('issue-not-person') },
-    { phrase: "Let's take five and come back to this.", tag: 'phrase', definition: 'Suggest a short break when emotions are high.', example: '"Things are getting heated. Let\'s take five and come back to this."', imageSlug: img('take-five') },
+    { phrase: 'CALM DOWN', definition: 'To become less angry or upset.', example: "Let's all take a moment to calm down.", imageSlug: img('phrase-calm-down') },
+    { phrase: 'CUT IN', definition: 'To interrupt.', example: "Please don't cut in while others are speaking.", imageSlug: img('phrase-cut-in') },
+    { phrase: 'STEP IN', definition: 'To get involved in a situation to help.', example: 'Kira had to step in to stop the argument.', imageSlug: img('phrase-step-in') },
+    { phrase: 'TALK THROUGH', definition: 'To discuss something carefully and in detail.', example: "Let's talk through this issue calmly.", imageSlug: img('phrase-talk-through') },
+    { phrase: "I can see this is important to both of you.", tag: 'phrase', definition: 'Acknowledge emotions to lower tension.', example: '"I can see this is important to both of you, and that\'s a good thing."', imageSlug: img('phrase-important-both') },
+    { phrase: "Let's focus on the issue, not the person.", tag: 'phrase', definition: 'Stop a debate becoming personal.', example: '"Let\'s focus on the issue, not the person. What exactly went wrong?"', inAction: 'Use "we" and talk about the problem ("the delay", "the process") rather than "you" ("you were late"). This depersonalises the conflict.', imageSlug: img('phrase-issue-not-person') },
+    { phrase: "Let's take five and come back to this.", tag: 'phrase', definition: 'Suggest a short break when emotions are high.', example: '"Things are getting heated. Let\'s take five and come back to this."', imageSlug: img('phrase-take-five') },
   ],
 
   videos: [],

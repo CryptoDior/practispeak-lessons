@@ -30,12 +30,12 @@ export const businessCommunicatingVisionStrategy: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'Our vision is to…', tag: 'phrase', definition: 'Introduce long-term aspirations.', example: '"Our vision is to make language learning accessible to everyone."', imageSlug: img('our-vision') },
-    { phrase: 'This strategy will help us achieve…', tag: 'phrase', definition: 'Link actions to outcomes.', example: '"This strategy will help us achieve 40% growth in three years."', imageSlug: img('strategy-achieve') },
-    { phrase: 'The purpose behind this initiative is…', tag: 'phrase', definition: 'Explain the "why".', example: '"The purpose behind this initiative is to reduce our carbon footprint."', inAction: 'Start with WHY (purpose), then HOW (strategy), then WHAT (actions). People commit to reasons, not just tasks.', imageSlug: img('purpose-behind') },
-    { phrase: 'Each of us plays a vital role in making this happen.', tag: 'phrase', definition: 'Build inclusion and ownership.', example: '"From engineering to customer service, each of us plays a vital role."', imageSlug: img('vital-role') },
-    { phrase: "Let's make sure our goals are aligned.", tag: 'phrase', definition: 'Ensure shared understanding.', example: '"Before we plan Q1, let\'s make sure our goals are aligned with the roadmap."', imageSlug: img('aligned') },
-    { phrase: 'ROLL OUT', definition: 'To introduce something gradually across an organisation.', example: 'We will roll out the new system region by region.', imageSlug: img('roll-out') },
+    { phrase: 'Our vision is to…', tag: 'phrase', definition: 'Introduce long-term aspirations.', example: '"Our vision is to make language learning accessible to everyone."', imageSlug: img('phrase-our-vision') },
+    { phrase: 'This strategy will help us achieve…', tag: 'phrase', definition: 'Link actions to outcomes.', example: '"This strategy will help us achieve 40% growth in three years."', imageSlug: img('phrase-achieve-growth') },
+    { phrase: 'The purpose behind this initiative is…', tag: 'phrase', definition: 'Explain the "why".', example: '"The purpose behind this initiative is to reduce our carbon footprint."', inAction: 'Start with WHY (purpose), then HOW (strategy), then WHAT (actions). People commit to reasons, not just tasks.', imageSlug: img('phrase-purpose-initiative') },
+    { phrase: 'Each of us plays a vital role in making this happen.', tag: 'phrase', definition: 'Build inclusion and ownership.', example: '"From engineering to customer service, each of us plays a vital role."', imageSlug: img('phrase-vital-role') },
+    { phrase: "Let's make sure our goals are aligned.", tag: 'phrase', definition: 'Ensure shared understanding.', example: '"Before we plan Q1, let\'s make sure our goals are aligned with the roadmap."', imageSlug: img('phrase-aligned-goals') },
+    { phrase: 'ROLL OUT', definition: 'To introduce something gradually across an organisation.', example: 'We will roll out the new system region by region.', imageSlug: img('phrase-roll-out') },
   ],
 
   videos: [],

@@ -30,12 +30,12 @@ export const businessInspiringConfidence: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'I believe in this idea because…', tag: 'phrase', definition: 'Show conviction and personal connection.', example: '"I believe in this idea because it truly helps our customers."', imageSlug: img('believe') },
-    { phrase: "I'm confident that…", tag: 'phrase', definition: 'Express trust in a plan or outcome.', example: '"I\'m confident that our new approach will succeed."', imageSlug: img('confident-that') },
-    { phrase: "I know this change isn't easy.", tag: 'phrase', definition: 'Show empathy for the audience\'s concerns.', example: '"I know this change isn\'t easy, and I\'ve felt that uncertainty too."', imageSlug: img('not-easy') },
-    { phrase: "Let's take a moment to reflect on…", tag: 'phrase', definition: 'Engage the audience and build emotional connection.', example: '"Let\'s take a moment to reflect on what this means for us."', imageSlug: img('reflect') },
-    { phrase: 'Together, we can achieve…', tag: 'phrase', definition: 'Inspire teamwork and unity.', example: '"Together, we can achieve even greater success."', imageSlug: img('together') },
-    { phrase: 'The key message I want to leave you with is…', tag: 'phrase', definition: 'End with a memorable, inspiring message.', example: '"The key message I want to leave you with is this: our best years are ahead."', inAction: 'Confident speakers use "I" for conviction ("I believe…") and "we" for unity ("Together, we…"). Avoid weak fillers like "I just think maybe…".', imageSlug: img('key-message') },
+    { phrase: 'I believe in this idea because…', tag: 'phrase', definition: 'Show conviction and personal connection.', example: '"I believe in this idea because it truly helps our customers."', imageSlug: img('phrase-believe-idea') },
+    { phrase: "I'm confident that…", tag: 'phrase', definition: 'Express trust in a plan or outcome.', example: '"I\'m confident that our new approach will succeed."', imageSlug: img('phrase-confident-approach') },
+    { phrase: "I know this change isn't easy.", tag: 'phrase', definition: 'Show empathy for the audience\'s concerns.', example: '"I know this change isn\'t easy, and I\'ve felt that uncertainty too."', imageSlug: img('phrase-change-not-easy') },
+    { phrase: "Let's take a moment to reflect on…", tag: 'phrase', definition: 'Engage the audience and build emotional connection.', example: '"Let\'s take a moment to reflect on what this means for us."', imageSlug: img('phrase-reflect') },
+    { phrase: 'Together, we can achieve…', tag: 'phrase', definition: 'Inspire teamwork and unity.', example: '"Together, we can achieve even greater success."', imageSlug: img('phrase-together-achieve') },
+    { phrase: 'The key message I want to leave you with is…', tag: 'phrase', definition: 'End with a memorable, inspiring message.', example: '"The key message I want to leave you with is this: our best years are ahead."', inAction: 'Confident speakers use "I" for conviction ("I believe…") and "we" for unity ("Together, we…"). Avoid weak fillers like "I just think maybe…".', imageSlug: img('phrase-key-message') },
   ],
 
   videos: [],

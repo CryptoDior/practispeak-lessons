@@ -31,13 +31,13 @@ export const businessLeadingComplexDiscussions: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'BRING UP', definition: 'To introduce a new topic.', example: 'Tim brought up a valid point about deadlines.', imageSlug: img('bring-up') },
-    { phrase: 'CUT OFF', definition: 'To stop someone speaking (politely, to stay on time).', example: 'She politely cut off the debate to stay on schedule.', imageSlug: img('cut-off') },
-    { phrase: 'SUM UP', definition: 'To summarise the main points.', example: 'Let me sum up where we are.', imageSlug: img('sum-up') },
-    { phrase: "We're hearing some divergent views here.", tag: 'phrase', definition: 'Name the disagreement neutrally.', example: '"We\'re hearing some divergent views here — let\'s unpack them."', imageSlug: img('divergent-views') },
-    { phrase: "I'm conscious of time, so let's…", tag: 'phrase', definition: 'Interrupt diplomatically to manage time.', example: '"I\'m conscious of time, so let\'s hear one more view and then decide."', inAction: 'Framing an interruption around a shared constraint ("time", "our goal today") makes it impersonal and easier to accept.', imageSlug: img('conscious-of-time') },
-    { phrase: "Let's park that and come back to it.", tag: 'phrase', definition: 'Postpone a side issue.', example: '"Good point, but it\'s off-topic. Let\'s park that and come back to it."', imageSlug: img('park') },
-    { phrase: 'Can we agree on at least…?', tag: 'phrase', definition: 'Build partial consensus.', example: '"Can we agree on at least the budget, and revisit the timeline next week?"', imageSlug: img('agree-at-least') },
+    { phrase: 'BRING UP', definition: 'To introduce a new topic.', example: 'Tim brought up a valid point about deadlines.', imageSlug: img('phrase-bring-up') },
+    { phrase: 'CUT OFF', definition: 'To stop someone speaking (politely, to stay on time).', example: 'She politely cut off the debate to stay on schedule.', imageSlug: img('phrase-cut-off') },
+    { phrase: 'SUM UP', definition: 'To summarise the main points.', example: 'Let me sum up where we are.', imageSlug: img('phrase-sum-up') },
+    { phrase: "We're hearing some divergent views here.", tag: 'phrase', definition: 'Name the disagreement neutrally.', example: '"We\'re hearing some divergent views here — let\'s unpack them."', imageSlug: img('phrase-divergent-views') },
+    { phrase: "I'm conscious of time, so let's…", tag: 'phrase', definition: 'Interrupt diplomatically to manage time.', example: '"I\'m conscious of time, so let\'s hear one more view and then decide."', inAction: 'Framing an interruption around a shared constraint ("time", "our goal today") makes it impersonal and easier to accept.', imageSlug: img('phrase-conscious-of-time') },
+    { phrase: "Let's park that and come back to it.", tag: 'phrase', definition: 'Postpone a side issue.', example: '"Good point, but it\'s off-topic. Let\'s park that and come back to it."', imageSlug: img('phrase-park-return') },
+    { phrase: 'Can we agree on at least…?', tag: 'phrase', definition: 'Build partial consensus.', example: '"Can we agree on at least the budget, and revisit the timeline next week?"', imageSlug: img('phrase-agree-at-least') },
   ],
 
   videos: [],

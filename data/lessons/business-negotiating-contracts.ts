@@ -30,13 +30,13 @@ export const businessNegotiatingContracts: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'BACK OUT (OF)', definition: 'To withdraw from something you had agreed to.', example: 'The supplier backed out of the deal at the last minute.', imageSlug: img('back-out') },
-    { phrase: 'DRAW UP', definition: 'To prepare a document or contract.', example: 'Legal will draw up the final version.', imageSlug: img('draw-up') },
-    { phrase: 'GO OVER', definition: 'To review something carefully.', example: "Let's go over the new terms together.", imageSlug: img('go-over') },
-    { phrase: "We'd like to propose an amendment to clause…", tag: 'phrase', definition: 'Formally suggest a change.', example: '"We\'d like to propose an amendment to clause 7 regarding penalties."', imageSlug: img('propose-amendment') },
-    { phrase: 'We could accept that, provided that…', tag: 'phrase', definition: 'Make a conditional concession.', example: '"We could accept a longer payment term, provided that the volume increases."', inAction: '"Provided that", "on condition that" and "as long as" let you trade concessions — never give something without getting something back.', imageSlug: img('provided-that') },
-    { phrase: "That's a deal-breaker for us.", tag: 'phrase', definition: 'Say a term is completely unacceptable.', example: '"An exclusivity clause is a deal-breaker for us."', imageSlug: img('deal-breaker') },
-    { phrase: 'So, to confirm the terms we\'ve agreed…', tag: 'phrase', definition: 'Summarise agreed points before closing.', example: '"So, to confirm the terms we\'ve agreed: 60-day payment, 5% discount."', imageSlug: img('confirm-terms') },
+    { phrase: 'BACK OUT (OF)', definition: 'To withdraw from something you had agreed to.', example: 'The supplier backed out of the deal at the last minute.', imageSlug: img('phrase-back-out') },
+    { phrase: 'DRAW UP', definition: 'To prepare a document or contract.', example: 'Legal will draw up the final version.', imageSlug: img('phrase-draw-up') },
+    { phrase: 'GO OVER', definition: 'To review something carefully.', example: "Let's go over the new terms together.", imageSlug: img('phrase-go-over') },
+    { phrase: "We'd like to propose an amendment to clause…", tag: 'phrase', definition: 'Formally suggest a change.', example: '"We\'d like to propose an amendment to clause 7 regarding penalties."', imageSlug: img('phrase-propose-amendment') },
+    { phrase: 'We could accept that, provided that…', tag: 'phrase', definition: 'Make a conditional concession.', example: '"We could accept a longer payment term, provided that the volume increases."', inAction: '"Provided that", "on condition that" and "as long as" let you trade concessions — never give something without getting something back.', imageSlug: img('phrase-provided-that') },
+    { phrase: "That's a deal-breaker for us.", tag: 'phrase', definition: 'Say a term is completely unacceptable.', example: '"An exclusivity clause is a deal-breaker for us."', imageSlug: img('phrase-deal-breaker') },
+    { phrase: 'So, to confirm the terms we\'ve agreed…', tag: 'phrase', definition: 'Summarise agreed points before closing.', example: '"So, to confirm the terms we\'ve agreed: 60-day payment, 5% discount."', imageSlug: img('phrase-confirm-terms') },
   ],
 
   videos: [],

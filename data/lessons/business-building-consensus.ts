@@ -31,13 +31,13 @@ export const businessBuildingConsensus: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'BRING TOGETHER', definition: 'To unite people or ideas.', example: 'This workshop brings together all departments.', imageSlug: img('bring-together') },
-    { phrase: 'AGREE ON', definition: 'To reach the same decision.', example: 'We agreed on the next steps.', imageSlug: img('agree-on') },
-    { phrase: 'WORK TOWARDS', definition: 'To make progress towards a goal.', example: "We're working towards a shared solution.", imageSlug: img('work-towards') },
-    { phrase: 'SETTLE ON', definition: 'To choose after considering options.', example: 'We settled on the hybrid model.', imageSlug: img('settle-on') },
-    { phrase: 'It sounds like we all agree that…', tag: 'phrase', definition: 'Highlight common ground.', example: '"It sounds like we all agree that customer experience comes first."', imageSlug: img('all-agree') },
-    { phrase: "Building on what Maria said…", tag: 'phrase', definition: 'Connect your idea to someone else\'s.', example: '"Building on what Maria said, we could pilot it in one region."', inAction: 'Building on others\' ideas ("building on…", "to add to that…") creates shared ownership — people support decisions they helped shape.', imageSlug: img('building-on') },
-    { phrase: 'Is there anything that would stop you from supporting this?', tag: 'phrase', definition: 'Check for hidden objections before deciding.', example: '"Before we finalise — is there anything that would stop you from supporting this?"', imageSlug: img('stop-you-supporting') },
+    { phrase: 'BRING TOGETHER', definition: 'To unite people or ideas.', example: 'This workshop brings together all departments.', imageSlug: img('phrase-bring-together') },
+    { phrase: 'AGREE ON', definition: 'To reach the same decision.', example: 'We agreed on the next steps.', imageSlug: img('phrase-agree-on') },
+    { phrase: 'WORK TOWARDS', definition: 'To make progress towards a goal.', example: "We're working towards a shared solution.", imageSlug: img('phrase-work-towards') },
+    { phrase: 'SETTLE ON', definition: 'To choose after considering options.', example: 'We settled on the hybrid model.', imageSlug: img('phrase-settle-on') },
+    { phrase: 'It sounds like we all agree that…', tag: 'phrase', definition: 'Highlight common ground.', example: '"It sounds like we all agree that customer experience comes first."', imageSlug: img('phrase-all-agree') },
+    { phrase: "Building on what Maria said…", tag: 'phrase', definition: 'Connect your idea to someone else\'s.', example: '"Building on what Maria said, we could pilot it in one region."', inAction: 'Building on others\' ideas ("building on…", "to add to that…") creates shared ownership — people support decisions they helped shape.', imageSlug: img('phrase-building-on-maria') },
+    { phrase: 'Is there anything that would stop you from supporting this?', tag: 'phrase', definition: 'Check for hidden objections before deciding.', example: '"Before we finalise — is there anything that would stop you from supporting this?"', imageSlug: img('phrase-check-support') },
   ],
 
   videos: [],

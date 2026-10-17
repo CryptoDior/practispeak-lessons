@@ -30,12 +30,12 @@ export const businessRelationshipsAcrossCultures: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: "It's important for me to understand how things work in your culture.", tag: 'phrase', definition: 'Show openness and respect for cultural norms.', example: '"Before we plan the launch, it\'s important for me to understand how things work here."', imageSlug: img('understand-culture') },
-    { phrase: "I really value our partnership and the trust we've built.", tag: 'phrase', definition: 'Strengthen an existing relationship.', example: '"After five years, I really value the trust we\'ve built."', imageSlug: img('value-partnership') },
-    { phrase: "I'd like to learn more about how you prefer to communicate.", tag: 'phrase', definition: 'Avoid misunderstandings by asking directly.', example: '"Do you prefer email or calls? I\'d like to learn how you prefer to communicate."', imageSlug: img('prefer-to-communicate') },
-    { phrase: 'Please let me know if my approach ever feels too direct.', tag: 'phrase', definition: 'Show humility and adaptability.', example: '"I\'m used to a very direct style. Please let me know if it ever feels too direct."', inAction: 'Direct cultures (e.g. Netherlands, Germany) value explicit statements; indirect, high-context cultures (e.g. Japan, Korea) rely on tone and context. Adapt rather than judge.', imageSlug: img('too-direct') },
-    { phrase: 'Your feedback helps me see things from your perspective.', tag: 'phrase', definition: 'Show empathy and collaboration.', example: '"Thank you — your feedback helps me see things from your perspective."', imageSlug: img('your-perspective') },
-    { phrase: 'BREAK THE ICE', tag: 'idiom', definition: 'To start a relaxed conversation with someone new.', example: 'Asking about local food is a great way to break the ice.', imageSlug: img('break-the-ice') },
+    { phrase: "It's important for me to understand how things work in your culture.", tag: 'phrase', definition: 'Show openness and respect for cultural norms.', example: '"Before we plan the launch, it\'s important for me to understand how things work here."', imageSlug: img('phrase-understand-culture') },
+    { phrase: "I really value our partnership and the trust we've built.", tag: 'phrase', definition: 'Strengthen an existing relationship.', example: '"After five years, I really value the trust we\'ve built."', imageSlug: img('phrase-value-partnership') },
+    { phrase: "I'd like to learn more about how you prefer to communicate.", tag: 'phrase', definition: 'Avoid misunderstandings by asking directly.', example: '"Do you prefer email or calls? I\'d like to learn how you prefer to communicate."', imageSlug: img('phrase-communication-preferences') },
+    { phrase: 'Please let me know if my approach ever feels too direct.', tag: 'phrase', definition: 'Show humility and adaptability.', example: '"I\'m used to a very direct style. Please let me know if it ever feels too direct."', inAction: 'Direct cultures (e.g. Netherlands, Germany) value explicit statements; indirect, high-context cultures (e.g. Japan, Korea) rely on tone and context. Adapt rather than judge.', imageSlug: img('phrase-too-direct') },
+    { phrase: 'Your feedback helps me see things from your perspective.', tag: 'phrase', definition: 'Show empathy and collaboration.', example: '"Thank you — your feedback helps me see things from your perspective."', imageSlug: img('phrase-your-perspective') },
+    { phrase: 'BREAK THE ICE', tag: 'idiom', definition: 'To start a relaxed conversation with someone new.', example: 'Asking about local food is a great way to break the ice.', imageSlug: img('phrase-break-the-ice') },
   ],
 
   videos: [],

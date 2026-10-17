@@ -30,11 +30,11 @@ export const businessWinWinOutcomes: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'WORK OUT', definition: 'To find a solution together.', example: 'We can work out a plan that suits both sides.', imageSlug: img('work-out') },
-    { phrase: 'GIVE UP', definition: 'To let go of something to gain something else.', example: 'We gave up one clause to secure a better deal.', imageSlug: img('give-up') },
-    { phrase: 'COME AROUND', definition: 'To eventually agree after discussion.', example: 'The client came around after hearing our proposal.', imageSlug: img('come-around') },
-    { phrase: "What's most important to you in this deal?", tag: 'phrase', definition: "Uncover the other side's real interests.", example: '"Before we talk numbers — what\'s most important to you in this deal?"', inAction: 'POSITION = what they ask for ("a lower price"). INTEREST = why ("cash flow is tight"). Win-win deals solve interests, not positions.', imageSlug: img('most-important') },
-    { phrase: 'What if we approached it differently?', tag: 'phrase', definition: 'Introduce a creative option.', example: '"What if we approached it differently — lower price, longer contract?"', imageSlug: img('approach-differently') },
+    { phrase: 'WORK OUT', definition: 'To find a solution together.', example: 'We can work out a plan that suits both sides.', imageSlug: img('phrase-work-out') },
+    { phrase: 'GIVE UP', definition: 'To let go of something to gain something else.', example: 'We gave up one clause to secure a better deal.', imageSlug: img('phrase-give-up') },
+    { phrase: 'COME AROUND', definition: 'To eventually agree after discussion.', example: 'The client came around after hearing our proposal.', imageSlug: img('phrase-come-around') },
+    { phrase: "What's most important to you in this deal?", tag: 'phrase', definition: "Uncover the other side's real interests.", example: '"Before we talk numbers — what\'s most important to you in this deal?"', inAction: 'POSITION = what they ask for ("a lower price"). INTEREST = why ("cash flow is tight"). Win-win deals solve interests, not positions.', imageSlug: img('phrase-most-important') },
+    { phrase: 'What if we approached it differently?', tag: 'phrase', definition: 'Introduce a creative option.', example: '"What if we approached it differently — lower price, longer contract?"', imageSlug: img('phrase-different-approach') },
     { phrase: 'That way, we both…', tag: 'phrase', definition: 'Show the mutual benefit of a proposal.', example: '"That way, we both reduce risk and grow together."', imageSlug: img('that-way') },
     { phrase: "Let's build on this for the long term.", tag: 'phrase', definition: 'Frame the deal as a lasting partnership.', example: '"This is a good start. Let\'s build on this for the long term."', imageSlug: img('long-term') },
   ],

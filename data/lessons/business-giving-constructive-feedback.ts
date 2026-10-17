@@ -30,12 +30,12 @@ export const businessGivingConstructiveFeedback: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: "I'd like to share some feedback that might help us improve.", tag: 'phrase', definition: 'Open the conversation positively and collaboratively.', example: '"Have you got ten minutes? I\'d like to share some feedback that might help."', imageSlug: img('share-feedback') },
-    { phrase: "You've done a great job on X, and I'd like to talk about Y.", tag: 'phrase', definition: 'Balance recognition and development.', example: '"You\'ve done a great job on the client relationship, and I\'d like to talk about reporting."', imageSlug: img('great-job-and') },
-    { phrase: 'From my perspective, I noticed that…', tag: 'phrase', definition: 'Soften feedback with a personal viewpoint.', example: '"From my perspective, I noticed that the last two reports were late."', inAction: 'Use the SBI model: Situation ("In Tuesday\'s meeting"), Behaviour ("you interrupted Maria twice"), Impact ("she stopped contributing"). It\'s objective, not personal.', imageSlug: img('my-perspective') },
-    { phrase: 'One area we could strengthen is…', tag: 'phrase', definition: 'Focus on solutions rather than problems.', example: '"One area we could strengthen is preparation before client calls."', imageSlug: img('strengthen') },
-    { phrase: 'How do you feel about that?', tag: 'phrase', definition: 'Encourage two-way dialogue.', example: '"That\'s my view — how do you feel about that?"', imageSlug: img('how-do-you-feel') },
-    { phrase: 'What support would help you?', tag: 'phrase', definition: 'Show you are there to help, not judge.', example: '"What support would help you meet the deadlines?"', imageSlug: img('support') },
+    { phrase: "I'd like to share some feedback that might help us improve.", tag: 'phrase', definition: 'Open the conversation positively and collaboratively.', example: '"Have you got ten minutes? I\'d like to share some feedback that might help."', imageSlug: img('phrase-share-feedback') },
+    { phrase: "You've done a great job on X, and I'd like to talk about Y.", tag: 'phrase', definition: 'Balance recognition and development.', example: '"You\'ve done a great job on the client relationship, and I\'d like to talk about reporting."', imageSlug: img('phrase-recognition-development') },
+    { phrase: 'From my perspective, I noticed that…', tag: 'phrase', definition: 'Soften feedback with a personal viewpoint.', example: '"From my perspective, I noticed that the last two reports were late."', inAction: 'Use the SBI model: Situation ("In Tuesday\'s meeting"), Behaviour ("you interrupted Maria twice"), Impact ("she stopped contributing"). It\'s objective, not personal.', imageSlug: img('phrase-noticed-late-reports') },
+    { phrase: 'One area we could strengthen is…', tag: 'phrase', definition: 'Focus on solutions rather than problems.', example: '"One area we could strengthen is preparation before client calls."', imageSlug: img('phrase-strengthen-preparation') },
+    { phrase: 'How do you feel about that?', tag: 'phrase', definition: 'Encourage two-way dialogue.', example: '"That\'s my view — how do you feel about that?"', imageSlug: img('phrase-how-do-you-feel') },
+    { phrase: 'What support would help you?', tag: 'phrase', definition: 'Show you are there to help, not judge.', example: '"What support would help you meet the deadlines?"', imageSlug: img('phrase-what-support') },
   ],
 
   videos: [],

@@ -30,12 +30,12 @@ export const businessDelegatingTasks: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: "I'd like you to take the lead on this project.", tag: 'phrase', definition: 'Assign responsibility and show confidence.', example: '"Maria, I\'d like you to take the lead on the Lisbon launch."', imageSlug: img('take-the-lead') },
-    { phrase: 'I trust your judgement on this.', tag: 'phrase', definition: 'Express trust and give autonomy.', example: '"You know the market better than I do. I trust your judgement on this."', imageSlug: img('trust-judgement') },
-    { phrase: "You'll have full authority to make decisions on…", tag: 'phrase', definition: 'Delegate decision-making power clearly.', example: '"You\'ll have full authority to make decisions on suppliers under 10,000 euros."', inAction: 'Be explicit about the LIMITS of authority ("up to 10,000 euros") — vague delegation leads to either paralysis or overreach.', imageSlug: img('full-authority') },
-    { phrase: 'Please prioritize these tasks based on…', tag: 'phrase', definition: 'Give structure and clear expectations.', example: '"Please prioritize these tasks based on client impact."', imageSlug: img('prioritize') },
-    { phrase: "Let's agree on the timeline and key goals.", tag: 'phrase', definition: 'Ensure shared understanding.', example: '"Before you start, let\'s agree on the timeline and key goals."', imageSlug: img('agree-timeline') },
-    { phrase: 'HAND OVER', definition: 'To give responsibility for something to someone else.', example: "I'll hand over the client account to you on Monday.", imageSlug: img('hand-over') },
+    { phrase: "I'd like you to take the lead on this project.", tag: 'phrase', definition: 'Assign responsibility and show confidence.', example: '"Maria, I\'d like you to take the lead on the Lisbon launch."', imageSlug: img('phrase-take-lead') },
+    { phrase: 'I trust your judgement on this.', tag: 'phrase', definition: 'Express trust and give autonomy.', example: '"You know the market better than I do. I trust your judgement on this."', imageSlug: img('phrase-trust-judgement') },
+    { phrase: "You'll have full authority to make decisions on…", tag: 'phrase', definition: 'Delegate decision-making power clearly.', example: '"You\'ll have full authority to make decisions on suppliers under 10,000 euros."', inAction: 'Be explicit about the LIMITS of authority ("up to 10,000 euros") — vague delegation leads to either paralysis or overreach.', imageSlug: img('phrase-decision-authority') },
+    { phrase: 'Please prioritize these tasks based on…', tag: 'phrase', definition: 'Give structure and clear expectations.', example: '"Please prioritize these tasks based on client impact."', imageSlug: img('phrase-prioritize') },
+    { phrase: "Let's agree on the timeline and key goals.", tag: 'phrase', definition: 'Ensure shared understanding.', example: '"Before you start, let\'s agree on the timeline and key goals."', imageSlug: img('phrase-timeline-goals') },
+    { phrase: 'HAND OVER', definition: 'To give responsibility for something to someone else.', example: "I'll hand over the client account to you on Monday.", imageSlug: img('phrase-hand-over') },
   ],
 
   videos: [],

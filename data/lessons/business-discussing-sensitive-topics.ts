@@ -30,12 +30,12 @@ export const businessDiscussingSensitiveTopics: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'I understand this might be a sensitive topic.', tag: 'phrase', definition: 'Acknowledge potential discomfort and set a respectful tone.', example: '"I understand this might be a sensitive topic, so please stop me if it\'s uncomfortable."', imageSlug: img('sensitive-topic') },
-    { phrase: "I'd like to address this in a constructive way.", tag: 'phrase', definition: 'Show your intention is to help, not criticise.', example: '"There have been some complaints. I\'d like to address this in a constructive way."', imageSlug: img('constructive-way') },
-    { phrase: 'From my perspective, I see things slightly differently.', tag: 'phrase', definition: 'A polite way to disagree.', example: '"I understand your view. From my perspective, I see things slightly differently."', inAction: 'Softeners like "slightly", "a little", "perhaps" and "I wonder if…" reduce the force of disagreement — essential in sensitive discussions.', imageSlug: img('slightly-differently') },
-    { phrase: 'May I clarify something before we continue?', tag: 'phrase', definition: 'Prevent misinterpretation.', example: '"May I clarify something before we continue? I wasn\'t criticising your team."', imageSlug: img('may-i-clarify') },
-    { phrase: "That's a fair point; let's explore it further.", tag: 'phrase', definition: 'Validate a view while keeping the discussion open.', example: '"That\'s a fair point; let\'s explore it further."', imageSlug: img('fair-point') },
-    { phrase: 'TREAD CAREFULLY', tag: 'idiom', definition: 'To act or speak with great care in a delicate situation.', example: 'We need to tread carefully when discussing pay.', imageSlug: img('tread-carefully') },
+    { phrase: 'I understand this might be a sensitive topic.', tag: 'phrase', definition: 'Acknowledge potential discomfort and set a respectful tone.', example: '"I understand this might be a sensitive topic, so please stop me if it\'s uncomfortable."', imageSlug: img('phrase-sensitive-topic') },
+    { phrase: "I'd like to address this in a constructive way.", tag: 'phrase', definition: 'Show your intention is to help, not criticise.', example: '"There have been some complaints. I\'d like to address this in a constructive way."', imageSlug: img('phrase-address-constructively') },
+    { phrase: 'From my perspective, I see things slightly differently.', tag: 'phrase', definition: 'A polite way to disagree.', example: '"I understand your view. From my perspective, I see things slightly differently."', inAction: 'Softeners like "slightly", "a little", "perhaps" and "I wonder if…" reduce the force of disagreement — essential in sensitive discussions.', imageSlug: img('phrase-different-perspective') },
+    { phrase: 'May I clarify something before we continue?', tag: 'phrase', definition: 'Prevent misinterpretation.', example: '"May I clarify something before we continue? I wasn\'t criticising your team."', imageSlug: img('phrase-may-i-clarify') },
+    { phrase: "That's a fair point; let's explore it further.", tag: 'phrase', definition: 'Validate a view while keeping the discussion open.', example: '"That\'s a fair point; let\'s explore it further."', imageSlug: img('phrase-fair-point') },
+    { phrase: 'TREAD CAREFULLY', tag: 'idiom', definition: 'To act or speak with great care in a delicate situation.', example: 'We need to tread carefully when discussing pay.', imageSlug: img('phrase-tread-carefully') },
   ],
 
   videos: [],

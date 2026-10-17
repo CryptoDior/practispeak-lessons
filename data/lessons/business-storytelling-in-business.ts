@@ -23,19 +23,19 @@ export const businessStorytellingInBusiness: Lesson = {
   vocabulary: [
     { word: 'STORYTELLING', partOfSpeech: 'noun', definition: 'Sharing stories to communicate ideas or values.', example: 'Storytelling makes presentations more engaging.', imageSlug: img('storytelling') },
     { word: 'NARRATIVE', partOfSpeech: 'noun', definition: 'The sequence of events that makes up a story.', example: 'Every strong pitch has a clear narrative.', imageSlug: img('narrative') },
-    { word: 'RELATE (TO)', partOfSpeech: 'verb', definition: 'To connect something to your own experience.', example: 'The audience could relate to her struggle.', imageSlug: img('relate') },
+    { word: 'RELATE (TO)', partOfSpeech: 'verb', definition: 'To connect something to your own experience.', example: 'The audience could relate to her struggle.', imageSlug: img('relate-to') },
     { word: 'AUTHENTIC', partOfSpeech: 'adjective', definition: 'Real, true and believable.', example: 'Her story felt authentic and emotional.', imageSlug: img('authentic') },
     { word: 'TURNING POINT', partOfSpeech: 'noun', definition: 'The moment in a story when things change.', example: 'The turning point came when a customer complained publicly.', imageSlug: img('turning-point') },
     { word: 'TAKEAWAY', partOfSpeech: 'noun', definition: 'The key message people should remember.', example: 'The takeaway is simple: listen to your customers.', imageSlug: img('takeaway') },
   ],
 
   phrasalVerbs: [
-    { phrase: 'Let me share a short story.', tag: 'phrase', definition: 'Introduce a story naturally.', example: '"Let me share a short story about how we nearly lost our biggest client."', imageSlug: img('share-a-story') },
-    { phrase: 'You can probably relate to this situation.', tag: 'phrase', definition: 'Make the story personal for the audience.', example: '"If you\'ve ever missed a deadline, you can probably relate to this."', imageSlug: img('relate-phrase') },
-    { phrase: 'That was the turning point.', tag: 'phrase', definition: 'Mark the moment when everything changed.', example: '"Then the CEO called me directly. That was the turning point."', imageSlug: img('that-was-the-turning-point') },
+    { phrase: 'Let me share a short story.', tag: 'phrase', definition: 'Introduce a story naturally.', example: '"Let me share a short story about how we nearly lost our biggest client."', imageSlug: img('phrase-share-story') },
+    { phrase: 'You can probably relate to this situation.', tag: 'phrase', definition: 'Make the story personal for the audience.', example: '"If you\'ve ever missed a deadline, you can probably relate to this."', imageSlug: img('phrase-relatable-situation') },
+    { phrase: 'That was the turning point.', tag: 'phrase', definition: 'Mark the moment when everything changed.', example: '"Then the CEO called me directly. That was the turning point."', imageSlug: img('phrase-ceo-turning-point') },
     { phrase: 'This story shows that…', tag: 'phrase', definition: 'Connect the story to your message.', example: '"This story shows that small changes can make a big difference."', imageSlug: img('story-shows') },
-    { phrase: 'The lesson here is…', tag: 'phrase', definition: 'State what people should learn.', example: '"The lesson here is that speed matters more than perfection."', inAction: 'A business story needs three parts: situation → turning point → lesson. Without the lesson, it\'s just an anecdote.', imageSlug: img('lesson-here') },
-    { phrase: 'It was a real moment for me because…', tag: 'phrase', definition: 'Add authentic emotion to the story.', example: '"It was a real moment for me because I realised I\'d stopped listening."', imageSlug: img('real-moment') },
+    { phrase: 'The lesson here is…', tag: 'phrase', definition: 'State what people should learn.', example: '"The lesson here is that speed matters more than perfection."', inAction: 'A business story needs three parts: situation → turning point → lesson. Without the lesson, it\'s just an anecdote.', imageSlug: img('phrase-lesson-here') },
+    { phrase: 'It was a real moment for me because…', tag: 'phrase', definition: 'Add authentic emotion to the story.', example: '"It was a real moment for me because I realised I\'d stopped listening."', imageSlug: img('phrase-real-moment') },
   ],
 
   videos: [],

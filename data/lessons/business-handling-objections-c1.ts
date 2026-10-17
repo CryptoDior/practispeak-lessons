@@ -30,12 +30,12 @@ export const businessHandlingObjectionsC1: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'POINT OUT', definition: 'To mention something clearly.', example: 'Let me point out that this change will save costs.', imageSlug: img('point-out') },
-    { phrase: 'BACK UP', definition: 'To support a claim with proof.', example: 'We can back up this claim with data.', imageSlug: img('back-up') },
-    { phrase: 'LOOK INTO', definition: 'To investigate further.', example: "We'll look into your concern right away.", imageSlug: img('look-into') },
-    { phrase: "That's a completely valid concern.", tag: 'phrase', definition: 'Validate the objection first.', example: '"That\'s a completely valid concern, and many clients ask the same."', imageSlug: img('valid-concern') },
-    { phrase: "Let's look at it from a different angle.", tag: 'phrase', definition: 'Reframe the objection.', example: '"It\'s more expensive upfront, but let\'s look at it from a different angle: total cost over three years."', imageSlug: img('different-angle') },
-    { phrase: "You're right that…; at the same time…", tag: 'phrase', definition: 'Concede partially while keeping your position.', example: '"You\'re right that setup takes time; at the same time, the savings start in month two."', inAction: 'The "feel–felt–found" pattern also works well: "I understand how you feel. Others felt the same. What they found was…"', imageSlug: img('right-that') },
+    { phrase: 'POINT OUT', definition: 'To mention something clearly.', example: 'Let me point out that this change will save costs.', imageSlug: img('phrase-point-out') },
+    { phrase: 'BACK UP', definition: 'To support a claim with proof.', example: 'We can back up this claim with data.', imageSlug: img('phrase-back-up') },
+    { phrase: 'LOOK INTO', definition: 'To investigate further.', example: "We'll look into your concern right away.", imageSlug: img('phrase-look-into') },
+    { phrase: "That's a completely valid concern.", tag: 'phrase', definition: 'Validate the objection first.', example: '"That\'s a completely valid concern, and many clients ask the same."', imageSlug: img('phrase-valid-concern') },
+    { phrase: "Let's look at it from a different angle.", tag: 'phrase', definition: 'Reframe the objection.', example: '"It\'s more expensive upfront, but let\'s look at it from a different angle: total cost over three years."', imageSlug: img('phrase-different-angle') },
+    { phrase: "You're right that…; at the same time…", tag: 'phrase', definition: 'Concede partially while keeping your position.', example: '"You\'re right that setup takes time; at the same time, the savings start in month two."', inAction: 'The "feel–felt–found" pattern also works well: "I understand how you feel. Others felt the same. What they found was…"', imageSlug: img('phrase-right-at-same-time') },
   ],
 
   videos: [],

@@ -30,12 +30,12 @@ export const businessHandlingDifficultQa: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: "That's a great question. Let me clarify…", tag: 'phrase', definition: 'Show appreciation and explain.', example: '"That\'s a great question. Let me clarify what we plan to do next."', imageSlug: img('great-question') },
-    { phrase: 'I understand your concern.', tag: 'phrase', definition: 'Acknowledge the person politely.', example: '"I understand your concern about the timeline."', imageSlug: img('understand-concern') },
-    { phrase: "At this point, I don't have all the details, but…", tag: 'phrase', definition: 'Respond honestly while staying confident.', example: '"At this point, I don\'t have all the details, but I can share what we know."', inAction: 'Never bluff. Admitting a gap and promising a follow-up builds more credibility than a vague answer.', imageSlug: img('dont-have-details') },
-    { phrase: 'What I can say is…', tag: 'phrase', definition: 'Redirect when you cannot answer fully.', example: '"What I can say is that we\'re reviewing the policy carefully."', imageSlug: img('what-i-can-say') },
-    { phrase: "That's important; let's discuss it after the session.", tag: 'phrase', definition: 'Park an off-topic or detailed question politely.', example: '"That\'s an important question; let\'s discuss it after the session so we stay on time."', imageSlug: img('after-session') },
-    { phrase: "I'll get back to you on that by…", tag: 'phrase', definition: 'Promise a specific follow-up.', example: '"I\'ll get back to you on that by Friday."', imageSlug: img('get-back') },
+    { phrase: "That's a great question. Let me clarify…", tag: 'phrase', definition: 'Show appreciation and explain.', example: '"That\'s a great question. Let me clarify what we plan to do next."', imageSlug: img('phrase-great-question-clarify') },
+    { phrase: 'I understand your concern.', tag: 'phrase', definition: 'Acknowledge the person politely.', example: '"I understand your concern about the timeline."', imageSlug: img('phrase-understand-concern') },
+    { phrase: "At this point, I don't have all the details, but…", tag: 'phrase', definition: 'Respond honestly while staying confident.', example: '"At this point, I don\'t have all the details, but I can share what we know."', inAction: 'Never bluff. Admitting a gap and promising a follow-up builds more credibility than a vague answer.', imageSlug: img('phrase-not-all-details') },
+    { phrase: 'What I can say is…', tag: 'phrase', definition: 'Redirect when you cannot answer fully.', example: '"What I can say is that we\'re reviewing the policy carefully."', imageSlug: img('phrase-what-i-can-say') },
+    { phrase: "That's important; let's discuss it after the session.", tag: 'phrase', definition: 'Park an off-topic or detailed question politely.', example: '"That\'s an important question; let\'s discuss it after the session so we stay on time."', imageSlug: img('phrase-after-session') },
+    { phrase: "I'll get back to you on that by…", tag: 'phrase', definition: 'Promise a specific follow-up.', example: '"I\'ll get back to you on that by Friday."', imageSlug: img('phrase-get-back-by-friday') },
   ],
 
   videos: [],

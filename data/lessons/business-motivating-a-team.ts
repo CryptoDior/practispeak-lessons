@@ -30,12 +30,12 @@ export const businessMotivatingATeam: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: "Let's take ownership of this project.", tag: 'phrase', definition: 'Encourage responsibility and accountability.', example: '"This is our project now. Let\'s take ownership of it."', imageSlug: img('ownership') },
-    { phrase: 'Your effort on this really made a difference.', tag: 'phrase', definition: 'Recognise a specific contribution.', example: '"Tim, your effort on the client report really made a difference."', inAction: 'Specific recognition ("your analysis on page 4 convinced the client") motivates far more than generic praise ("good job").', imageSlug: img('made-a-difference') },
-    { phrase: 'How can we make this process even better together?', tag: 'phrase', definition: 'Invite collaboration and innovation.', example: '"Sales are up, but how can we make this process even better together?"', imageSlug: img('even-better') },
-    { phrase: 'I trust you to handle this — let me know what you need.', tag: 'phrase', definition: 'Empower and offer support.', example: '"I trust you to handle the launch — let me know what you need."', imageSlug: img('trust-you') },
-    { phrase: 'We all have a role to play in achieving our goals.', tag: 'phrase', definition: 'Promote shared responsibility.', example: '"From reception to the board, we all have a role to play."', imageSlug: img('role-to-play') },
-    { phrase: 'RALLY AROUND', definition: 'To come together to support a goal or person.', example: 'The team rallied around the new project.', imageSlug: img('rally-around') },
+    { phrase: "Let's take ownership of this project.", tag: 'phrase', definition: 'Encourage responsibility and accountability.', example: '"This is our project now. Let\'s take ownership of it."', imageSlug: img('phrase-take-ownership') },
+    { phrase: 'Your effort on this really made a difference.', tag: 'phrase', definition: 'Recognise a specific contribution.', example: '"Tim, your effort on the client report really made a difference."', inAction: 'Specific recognition ("your analysis on page 4 convinced the client") motivates far more than generic praise ("good job").', imageSlug: img('phrase-effort-difference') },
+    { phrase: 'How can we make this process even better together?', tag: 'phrase', definition: 'Invite collaboration and innovation.', example: '"Sales are up, but how can we make this process even better together?"', imageSlug: img('phrase-better-together') },
+    { phrase: 'I trust you to handle this — let me know what you need.', tag: 'phrase', definition: 'Empower and offer support.', example: '"I trust you to handle the launch — let me know what you need."', imageSlug: img('phrase-trust-launch') },
+    { phrase: 'We all have a role to play in achieving our goals.', tag: 'phrase', definition: 'Promote shared responsibility.', example: '"From reception to the board, we all have a role to play."', imageSlug: img('phrase-role-to-play') },
+    { phrase: 'RALLY AROUND', definition: 'To come together to support a goal or person.', example: 'The team rallied around the new project.', imageSlug: img('phrase-rally-around') },
   ],
 
   videos: [],

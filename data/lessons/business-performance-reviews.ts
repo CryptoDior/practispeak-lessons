@@ -30,12 +30,12 @@ export const businessPerformanceReviews: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: "Let's start by reviewing your achievements this quarter.", tag: 'phrase', definition: 'Open the discussion positively.', example: '"Thanks for coming. Let\'s start by reviewing your achievements this quarter."', imageSlug: img('achievements') },
-    { phrase: "You've shown great progress in…", tag: 'phrase', definition: 'Highlight growth and motivate.', example: '"You\'ve shown great progress in client presentations."', imageSlug: img('great-progress') },
-    { phrase: 'How do you feel about your performance this cycle?', tag: 'phrase', definition: 'Invite self-reflection.', example: '"Before I share my view — how do you feel about your performance this cycle?"', inAction: 'Ask for self-assessment BEFORE giving your view. People accept development points more easily when they raise them first.', imageSlug: img('how-do-you-feel') },
-    { phrase: 'One area we could focus on improving is…', tag: 'phrase', definition: 'Introduce development points diplomatically.', example: '"One area we could focus on improving is delegating more to junior staff."', imageSlug: img('focus-improving') },
-    { phrase: "Let's set some goals for your next review period.", tag: 'phrase', definition: 'Encourage future-oriented thinking.', example: '"Let\'s set three SMART goals for your next review period."', imageSlug: img('set-goals') },
-    { phrase: 'LIVE UP TO', definition: 'To reach the standard that was expected.', example: 'His results lived up to our expectations.', imageSlug: img('live-up-to') },
+    { phrase: "Let's start by reviewing your achievements this quarter.", tag: 'phrase', definition: 'Open the discussion positively.', example: '"Thanks for coming. Let\'s start by reviewing your achievements this quarter."', imageSlug: img('phrase-review-achievements') },
+    { phrase: "You've shown great progress in…", tag: 'phrase', definition: 'Highlight growth and motivate.', example: '"You\'ve shown great progress in client presentations."', imageSlug: img('phrase-great-progress') },
+    { phrase: 'How do you feel about your performance this cycle?', tag: 'phrase', definition: 'Invite self-reflection.', example: '"Before I share my view — how do you feel about your performance this cycle?"', inAction: 'Ask for self-assessment BEFORE giving your view. People accept development points more easily when they raise them first.', imageSlug: img('phrase-self-reflection') },
+    { phrase: 'One area we could focus on improving is…', tag: 'phrase', definition: 'Introduce development points diplomatically.', example: '"One area we could focus on improving is delegating more to junior staff."', imageSlug: img('phrase-improve-delegation') },
+    { phrase: "Let's set some goals for your next review period.", tag: 'phrase', definition: 'Encourage future-oriented thinking.', example: '"Let\'s set three SMART goals for your next review period."', imageSlug: img('phrase-next-goals') },
+    { phrase: 'LIVE UP TO', definition: 'To reach the standard that was expected.', example: 'His results lived up to our expectations.', imageSlug: img('phrase-live-up-to') },
   ],
 
   videos: [],

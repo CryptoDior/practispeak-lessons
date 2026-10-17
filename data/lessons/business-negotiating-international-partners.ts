@@ -30,12 +30,12 @@ export const businessNegotiatingInternationalPartners: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: "Let's look for a solution that works for both sides.", tag: 'phrase', definition: 'Keep the tone collaborative.', example: '"We\'re both under pressure. Let\'s look for a solution that works for both sides."', imageSlug: img('both-sides') },
-    { phrase: 'From our end, this figure reflects current market realities.', tag: 'phrase', definition: 'Justify your position with data.', example: '"From our end, this figure reflects current market realities — raw material costs rose 12%."', imageSlug: img('market-realities') },
-    { phrase: 'Would you be open to exploring other options?', tag: 'phrase', definition: 'Invite flexibility without confrontation.', example: '"If the price is fixed, would you be open to exploring other options?"', imageSlug: img('open-to-exploring') },
-    { phrase: 'We understand your concerns; perhaps we can adjust the timeline.', tag: 'phrase', definition: 'Balance empathy and negotiation.', example: '"We understand your concerns; perhaps we can adjust the timeline instead of the price."', imageSlug: img('adjust-timeline') },
-    { phrase: "If we can agree on this point, we'll have a strong foundation.", tag: 'phrase', definition: 'Secure agreement step by step to break a stalemate.', example: '"If we can agree on quality standards, we\'ll have a strong foundation to move forward."', inAction: 'When talks stall, agree on small points first. Momentum from small "yeses" often unlocks the big issues.', imageSlug: img('strong-foundation') },
-    { phrase: 'MEET (SOMEONE) HALFWAY', tag: 'idiom', definition: 'To compromise by each giving up part of what you want.', example: 'You want 60 days, we want 30 — can we meet halfway at 45?', imageSlug: img('meet-halfway') },
+    { phrase: "Let's look for a solution that works for both sides.", tag: 'phrase', definition: 'Keep the tone collaborative.', example: '"We\'re both under pressure. Let\'s look for a solution that works for both sides."', imageSlug: img('phrase-solution-both') },
+    { phrase: 'From our end, this figure reflects current market realities.', tag: 'phrase', definition: 'Justify your position with data.', example: '"From our end, this figure reflects current market realities — raw material costs rose 12%."', imageSlug: img('phrase-market-realities') },
+    { phrase: 'Would you be open to exploring other options?', tag: 'phrase', definition: 'Invite flexibility without confrontation.', example: '"If the price is fixed, would you be open to exploring other options?"', imageSlug: img('phrase-other-options') },
+    { phrase: 'We understand your concerns; perhaps we can adjust the timeline.', tag: 'phrase', definition: 'Balance empathy and negotiation.', example: '"We understand your concerns; perhaps we can adjust the timeline instead of the price."', imageSlug: img('phrase-adjust-timeline') },
+    { phrase: "If we can agree on this point, we'll have a strong foundation.", tag: 'phrase', definition: 'Secure agreement step by step to break a stalemate.', example: '"If we can agree on quality standards, we\'ll have a strong foundation to move forward."', inAction: 'When talks stall, agree on small points first. Momentum from small "yeses" often unlocks the big issues.', imageSlug: img('phrase-foundation') },
+    { phrase: 'MEET (SOMEONE) HALFWAY', tag: 'idiom', definition: 'To compromise by each giving up part of what you want.', example: 'You want 60 days, we want 30 — can we meet halfway at 45?', imageSlug: img('phrase-meet-halfway') },
   ],
 
   videos: [],
