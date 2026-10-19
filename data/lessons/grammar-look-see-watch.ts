@@ -42,7 +42,7 @@ export const grammarLookSeeWatch: Lesson = {
 
   vocabulary: [
     { word: 'SEE', partOfSpeech: 'verb', definition: 'To notice something with your eyes, without trying.', example: 'I can see the sea from my window.', imageSlug: img('see') },
-    { word: 'LOOK (AT)', partOfSpeech: 'verb', definition: 'To turn your eyes to something on purpose.', example: 'Look at this photo!', imageSlug: img('look') },
+    { word: 'LOOK (AT)', partOfSpeech: 'verb', definition: 'To turn your eyes to something on purpose.', example: 'Look at this photo!', imageSlug: img('look-at') },
     { word: 'WATCH', partOfSpeech: 'verb', definition: 'To look at something for some time, because it moves or changes.', example: 'I watch TV every evening.', imageSlug: img('watch') },
     { word: 'NOTICE', partOfSpeech: 'verb', definition: 'To see something for the first time.', example: 'I noticed a cat under the car.', imageSlug: img('notice') },
     { word: 'ON PURPOSE', partOfSpeech: 'phrase', definition: 'You decide to do it. It is not an accident.', example: 'I looked at the clock on purpose.', imageSlug: img('on-purpose') },
@@ -53,10 +53,10 @@ export const grammarLookSeeWatch: Lesson = {
     { phrase: 'LOOK AFTER', definition: 'To take care of someone or something.', example: 'Could you look after my plants while I\'m away?', imageSlug: img('look-after') },
     { phrase: 'LOOK FOR', definition: 'To try to find something.', example: "I'm looking for my keys.", imageSlug: img('look-for') },
     { phrase: 'WATCH OUT', definition: 'Be careful! There is danger.', example: 'Watch out! A car is coming!', imageSlug: img('watch-out') },
-    { phrase: 'see + it just happens', tag: 'rule', definition: 'Use "see" when your eyes notice something without trying.', example: 'I saw an old friend in the shop.', imageSlug: img('rule-see') },
-    { phrase: 'look at + something', tag: 'rule', definition: 'Use "look at" when you turn your eyes on purpose. Remember "at"!', example: 'Look at the board, please.', inAction: 'Say "look AT something": "Look at me", not "Look me".', imageSlug: img('rule-look-at') },
-    { phrase: 'watch + moving things', tag: 'rule', definition: 'Use "watch" for TV, movies, sports and things that move.', example: 'I watch the news. The kids watch cartoons.', imageSlug: img('rule-watch') },
-    { phrase: 'watch = look after', tag: 'rule', definition: '"Watch" can also mean "take care of for a short time".', example: 'Can you watch my bag for a minute?', imageSlug: img('rule-watch-bag') },
+    { phrase: 'see + it just happens', tag: 'rule', definition: 'Use "see" when your eyes notice something without trying.', example: 'I saw an old friend in the shop.', imageSlug: img('see-just-happens') },
+    { phrase: 'look at + something', tag: 'rule', definition: 'Use "look at" when you turn your eyes on purpose. Remember "at"!', example: 'Look at the board, please.', inAction: 'Say "look AT something": "Look at me", not "Look me".', imageSlug: img('look-at-board') },
+    { phrase: 'watch + moving things', tag: 'rule', definition: 'Use "watch" for TV, movies, sports and things that move.', example: 'I watch the news. The kids watch cartoons.', imageSlug: img('watch-moving-things') },
+    { phrase: 'watch = look after', tag: 'rule', definition: '"Watch" can also mean "take care of for a short time".', example: 'Can you watch my bag for a minute?', imageSlug: img('watch-bag') },
   ],
 
   videos: [],

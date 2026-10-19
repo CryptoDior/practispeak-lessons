@@ -55,10 +55,10 @@ export const grammarPrefixesUnRePre: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'UN- + adjective', tag: 'rule', definition: 'Means "not".', example: 'happy → unhappy · fair → unfair · clear → unclear', imageSlug: img('rule-un-adj') },
-    { phrase: 'UN- + verb', tag: 'rule', definition: 'Means "do the opposite action".', example: 'lock → unlock · tie → untie · do → undo', imageSlug: img('rule-un-verb') },
-    { phrase: 'RE- + verb', tag: 'rule', definition: 'Means "do again" or "go back".', example: 'write → rewrite · play → replay · turn → return', imageSlug: img('rule-re') },
-    { phrase: 'PRE- + verb / noun', tag: 'rule', definition: 'Means "before" or "early".', example: 'heat → preheat · school → preschool · view → preview', inAction: 'Tip: un- = NOT, re- = AGAIN, pre- = BEFORE. Find the small word inside: un-HAPPY, re-WRITE, pre-HEAT.', imageSlug: img('rule-pre') },
+    { phrase: 'UN- + adjective', tag: 'rule', definition: 'Means "not".', example: 'happy → unhappy · fair → unfair · clear → unclear', imageSlug: img('un-adjective') },
+    { phrase: 'UN- + verb', tag: 'rule', definition: 'Means "do the opposite action".', example: 'lock → unlock · tie → untie · do → undo', imageSlug: img('un-verb') },
+    { phrase: 'RE- + verb', tag: 'rule', definition: 'Means "do again" or "go back".', example: 'write → rewrite · play → replay · turn → return', imageSlug: img('re-verb') },
+    { phrase: 'PRE- + verb / noun', tag: 'rule', definition: 'Means "before" or "early".', example: 'heat → preheat · school → preschool · view → preview', inAction: 'Tip: un- = NOT, re- = AGAIN, pre- = BEFORE. Find the small word inside: un-HAPPY, re-WRITE, pre-HEAT.', imageSlug: img('pre-verb-noun') },
   ],
 
   videos: [],

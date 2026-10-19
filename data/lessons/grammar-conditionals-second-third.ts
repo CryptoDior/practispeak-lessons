@@ -49,11 +49,11 @@ export const grammarConditionalsSecondThird: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'If + past simple, would + verb', tag: 'rule', definition: 'Second conditional: unreal present / unlikely future.', example: 'If she won the lottery, she would travel the world.', imageSlug: img('rule-second') },
-    { phrase: 'If I were you, I would…', tag: 'rule', definition: 'A fixed second-conditional phrase for giving advice.', example: 'If I were you, I would talk to your manager.', inAction: 'With "I/he/she", formal English uses "were": If I were you… If he were here… "Was" is common in speech, but "If I were you" is the fixed advice phrase.', imageSlug: img('rule-if-i-were-you') },
-    { phrase: 'If + had + p.p., would have + p.p.', tag: 'rule', definition: 'Third conditional: imaginary past.', example: 'If they had left earlier, they would have caught the train.', imageSlug: img('rule-third') },
-    { phrase: 'Contractions: I\'d, wouldn\'t, would\'ve', tag: 'rule', definition: 'In speech, we usually contract would and had.', example: "If I'd known, I'd have helped. (= If I had known, I would have helped.)", imageSlug: img('rule-contractions') },
-    { phrase: 'Second vs Third', tag: 'rule', definition: 'Second = now/future (not real). Third = past (didn\'t happen).', example: 'If I had a car, I would drive. / If I had had a car, I would have driven.', imageSlug: img('rule-compare') },
+    { phrase: 'If + past simple, would + verb', tag: 'rule', definition: 'Second conditional: unreal present / unlikely future.', example: 'If she won the lottery, she would travel the world.', imageSlug: img('second-conditional') },
+    { phrase: 'If I were you, I would…', tag: 'rule', definition: 'A fixed second-conditional phrase for giving advice.', example: 'If I were you, I would talk to your manager.', inAction: 'With "I/he/she", formal English uses "were": If I were you… If he were here… "Was" is common in speech, but "If I were you" is the fixed advice phrase.', imageSlug: img('advice') },
+    { phrase: 'If + had + p.p., would have + p.p.', tag: 'rule', definition: 'Third conditional: imaginary past.', example: 'If they had left earlier, they would have caught the train.', imageSlug: img('third-conditional') },
+    { phrase: 'Contractions: I\'d, wouldn\'t, would\'ve', tag: 'rule', definition: 'In speech, we usually contract would and had.', example: "If I'd known, I'd have helped. (= If I had known, I would have helped.)", imageSlug: img('contractions') },
+    { phrase: 'Second vs Third', tag: 'rule', definition: 'Second = now/future (not real). Third = past (didn\'t happen).', example: 'If I had a car, I would drive. / If I had had a car, I would have driven.', imageSlug: img('second-vs-third') },
   ],
 
   videos: [],

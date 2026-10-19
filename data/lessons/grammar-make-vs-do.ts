@@ -45,7 +45,7 @@ export const grammarMakeVsDo: Lesson = {
     { word: 'MAKE A DECISION', partOfSpeech: 'phrase', definition: 'To decide something.', example: 'We need to make a decision today.', imageSlug: img('make-a-decision') },
     { word: 'MAKE A MISTAKE', partOfSpeech: 'phrase', definition: 'To do something wrong.', example: 'Everyone makes mistakes.', imageSlug: img('make-a-mistake') },
     { word: 'MAKE THE BED', partOfSpeech: 'phrase', definition: 'To tidy the sheets and covers on your bed.', example: 'Timmy forgets to make his bed.', imageSlug: img('make-the-bed') },
-    { word: 'MAKE THE MOST OF', partOfSpeech: 'phrase', definition: 'To use a situation as well as possible.', example: 'Sarah always makes the most of every situation.', imageSlug: img('make-the-most') },
+    { word: 'MAKE THE MOST OF', partOfSpeech: 'phrase', definition: 'To use a situation as well as possible.', example: 'Sarah always makes the most of every situation.', imageSlug: img('make-the-most-of') },
     { word: 'DO HOMEWORK', partOfSpeech: 'phrase', definition: 'To complete school work at home.', example: "He doesn't want to do his homework.", imageSlug: img('do-homework') },
     { word: 'DO THE DISHES', partOfSpeech: 'phrase', definition: 'To wash plates, glasses and cutlery.', example: "He doesn't like to do the dishes after dinner.", imageSlug: img('do-the-dishes') },
     { word: 'DO YOUR BEST', partOfSpeech: 'phrase', definition: 'To try as hard as you can.', example: "It's important to do your best.", imageSlug: img('do-your-best') },
@@ -53,12 +53,12 @@ export const grammarMakeVsDo: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'MAKE + creation', tag: 'rule', definition: 'Use MAKE when you create or build something.', example: 'make a cake, make a list, make a snowman, make a plan', imageSlug: img('rule-make-create') },
-    { phrase: 'MAKE + cause', tag: 'rule', definition: 'Use MAKE when something causes a result.', example: 'Music makes me happy. The game made homework fun.', imageSlug: img('rule-make-cause') },
-    { phrase: 'MAKE + food & drink', tag: 'rule', definition: 'Use MAKE for preparing food and drinks.', example: 'make breakfast, make a sandwich, make coffee', imageSlug: img('rule-make-food') },
-    { phrase: 'DO + tasks & chores', tag: 'rule', definition: 'Use DO for jobs and housework.', example: 'do the laundry, do the shopping, do the dishes', inAction: 'Exception to remember: we MAKE the bed, but DO the dishes, laundry and cleaning.', imageSlug: img('rule-do-tasks') },
-    { phrase: 'DO + work & study', tag: 'rule', definition: 'Use DO for work, study and research.', example: 'do homework, do a project, do research, do an analysis', imageSlug: img('rule-do-work') },
-    { phrase: 'DO + something / anything / nothing', tag: 'rule', definition: 'Use DO with general "-thing" words.', example: "Let's do something fun. I didn't do anything.", imageSlug: img('rule-do-something') },
+    { phrase: 'MAKE + creation', tag: 'rule', definition: 'Use MAKE when you create or build something.', example: 'make a cake, make a list, make a snowman, make a plan', imageSlug: img('make-creation') },
+    { phrase: 'MAKE + cause', tag: 'rule', definition: 'Use MAKE when something causes a result.', example: 'Music makes me happy. The game made homework fun.', imageSlug: img('make-cause') },
+    { phrase: 'MAKE + food & drink', tag: 'rule', definition: 'Use MAKE for preparing food and drinks.', example: 'make breakfast, make a sandwich, make coffee', imageSlug: img('make-food-drink') },
+    { phrase: 'DO + tasks & chores', tag: 'rule', definition: 'Use DO for jobs and housework.', example: 'do the laundry, do the shopping, do the dishes', inAction: 'Exception to remember: we MAKE the bed, but DO the dishes, laundry and cleaning.', imageSlug: img('do-tasks-chores') },
+    { phrase: 'DO + work & study', tag: 'rule', definition: 'Use DO for work, study and research.', example: 'do homework, do a project, do research, do an analysis', imageSlug: img('do-work-study') },
+    { phrase: 'DO + something / anything / nothing', tag: 'rule', definition: 'Use DO with general "-thing" words.', example: "Let's do something fun. I didn't do anything.", imageSlug: img('do-general-words') },
   ],
 
   videos: [],

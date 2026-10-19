@@ -49,11 +49,11 @@ export const grammarConditionalsZeroFirst: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'If + present, present', tag: 'rule', definition: 'Zero conditional: facts, rules, general truths.', example: 'If it rains, the ground gets wet.', imageSlug: img('rule-zero') },
-    { phrase: 'If + present, will + verb', tag: 'rule', definition: 'First conditional: real and possible future.', example: 'If you eat too much candy, you will feel sick.', imageSlug: img('rule-first') },
-    { phrase: 'No "will" after "if"', tag: 'rule', definition: 'In the IF clause, use the present simple — even for the future.', example: '✓ If it rains tomorrow… ✗ If it will rain tomorrow…', inAction: 'This is the most common mistake with conditionals. The future idea is shown by "will" in the RESULT part only.', imageSlug: img('rule-no-will') },
-    { phrase: 'Comma rule', tag: 'rule', definition: 'If the sentence starts with IF, use a comma. If IF is in the middle, no comma.', example: 'If you study, you\'ll pass. / You\'ll pass if you study.', imageSlug: img('rule-comma') },
-    { phrase: 'Unless = if not', tag: 'rule', definition: 'Use "unless" to say "if … not".', example: "We'll be late unless we leave now.", imageSlug: img('rule-unless') },
+    { phrase: 'If + present, present', tag: 'rule', definition: 'Zero conditional: facts, rules, general truths.', example: 'If it rains, the ground gets wet.', imageSlug: img('zero-conditional') },
+    { phrase: 'If + present, will + verb', tag: 'rule', definition: 'First conditional: real and possible future.', example: 'If you eat too much candy, you will feel sick.', imageSlug: img('first-conditional') },
+    { phrase: 'No "will" after "if"', tag: 'rule', definition: 'In the IF clause, use the present simple — even for the future.', example: '✓ If it rains tomorrow… ✗ If it will rain tomorrow…', inAction: 'This is the most common mistake with conditionals. The future idea is shown by "will" in the RESULT part only.', imageSlug: img('no-will-after-if') },
+    { phrase: 'Comma rule', tag: 'rule', definition: 'If the sentence starts with IF, use a comma. If IF is in the middle, no comma.', example: 'If you study, you\'ll pass. / You\'ll pass if you study.', imageSlug: img('comma-rule') },
+    { phrase: 'Unless = if not', tag: 'rule', definition: 'Use "unless" to say "if … not".', example: "We'll be late unless we leave now.", imageSlug: img('unless-if-not') },
   ],
 
   videos: [],
