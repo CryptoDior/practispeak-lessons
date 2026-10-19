@@ -56,7 +56,7 @@ export const iAmAPlayer: Lesson = {
       partOfSpeech: 'adjective',
       definition: 'Playing for fun, not to compete seriously.',
       example: 'I am a casual player. I play to relax after school.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/casual.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/i-am-a-player-casual.png',
     },
     {
       word: 'COMPETITIVE',

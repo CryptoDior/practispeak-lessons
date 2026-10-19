@@ -22,7 +22,7 @@ export const talkingStrategy: Lesson = {
       partOfSpeech: 'noun',
       definition: 'A plan for how your team will win.',
       example: 'Our strategy is to take the middle first.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/strategy.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-strategy-strategy.png',
     },
     {
       word: 'UNCOVER',

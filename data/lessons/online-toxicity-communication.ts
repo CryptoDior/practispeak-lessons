@@ -50,7 +50,7 @@ export const onlineToxicityCommunication: Lesson = {
       partOfSpeech: 'verb',
       definition: 'To tell the game\'s team about someone\'s bad behaviour.',
       example: 'Report the player and move on.',
-      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/report.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/online-toxicity-communication-report.png',
     },
     {
       word: 'SPORTSMANSHIP',

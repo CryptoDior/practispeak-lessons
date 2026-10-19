@@ -239,6 +239,15 @@ export default function WordEntryCard({
           aria-label={`Expand image for ${title}`}
           className="group/img relative w-full aspect-square lg:w-56 xl:w-60 flex-shrink-0 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 order-first lg:order-none cursor-zoom-in focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
         >
+          {/* Blurred copy fills the square, so wide (16:9) images have no grey bars */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={imgSrc}
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+            className="absolute inset-0 w-full h-full object-cover scale-110 blur-xl opacity-80"
+          />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={imgSrc}
