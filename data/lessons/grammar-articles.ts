@@ -51,12 +51,12 @@ export const grammarArticles: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'a + consonant sound', tag: 'rule', definition: 'Use "a" before words that start with a consonant sound.', example: 'a book, a cat, a university', inAction: 'Listen to the SOUND, not the letter. "University" starts with a "you" sound, so we say "a university".', imageSlug: img('rule-a') },
-    { phrase: 'an + vowel sound', tag: 'rule', definition: 'Use "an" before words that start with a vowel sound.', example: 'an apple, an egg, an hour', inAction: '"Hour" starts with a silent h, so it sounds like "our". We say "an hour".', imageSlug: img('rule-an') },
-    { phrase: 'the + specific thing', tag: 'rule', definition: 'Use "the" when the listener knows which one.', example: '"Where\'s the menu?" (the menu in this café)', imageSlug: img('rule-the') },
-    { phrase: 'the + only one', tag: 'rule', definition: 'Use "the" when there is only one.', example: 'the sun, the moon, the sky', imageSlug: img('rule-only-one') },
-    { phrase: 'no article + general', tag: 'rule', definition: 'Use no article for things in general (plural or uncountable).', example: 'Sugar is sweet. Dolphins are smart.', imageSlug: img('rule-no-article') },
-    { phrase: 'a → the', tag: 'rule', definition: 'First time: "a". Second time: "the".', example: 'I saw a dog. The dog was very big.', imageSlug: img('rule-a-then-the') },
+    { phrase: 'a + consonant sound', tag: 'rule', definition: 'Use "a" before words that start with a consonant sound.', example: 'a book, a cat, a university', inAction: 'Listen to the SOUND, not the letter. "University" starts with a "you" sound, so we say "a university".', imageSlug: img('a-consonant-sound') },
+    { phrase: 'an + vowel sound', tag: 'rule', definition: 'Use "an" before words that start with a vowel sound.', example: 'an apple, an egg, an hour', inAction: '"Hour" starts with a silent h, so it sounds like "our". We say "an hour".', imageSlug: img('an-vowel-sound') },
+    { phrase: 'the + specific thing', tag: 'rule', definition: 'Use "the" when the listener knows which one.', example: '"Where\'s the menu?" (the menu in this café)', imageSlug: img('the-specific-thing') },
+    { phrase: 'the + only one', tag: 'rule', definition: 'Use "the" when there is only one.', example: 'the sun, the moon, the sky', imageSlug: img('the-only-one') },
+    { phrase: 'no article + general', tag: 'rule', definition: 'Use no article for things in general (plural or uncountable).', example: 'Sugar is sweet. Dolphins are smart.', imageSlug: img('no-article-general') },
+    { phrase: 'a → the', tag: 'rule', definition: 'First time: "a". Second time: "the".', example: 'I saw a dog. The dog was very big.', imageSlug: img('first-second-mention') },
   ],
 
   videos: [],
