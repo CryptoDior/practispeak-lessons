@@ -57,9 +57,15 @@ export default function LessonView({
   category: LessonCategoryInfo | null;
 }) {
   // Conversation lessons don't use the In Action, Register and Videos sections.
-  const hideExtras = lesson.slug.startsWith('conversation-');
-  const vid = hideExtras ? 0 : 1;
-  const rawBase = (lesson.tabLabels ?? DEFAULT_TABS).filter((t) => !(hideExtras && t === 'Videos'));
+  // Conversation and Grammar lessons don't use the In Action, Register and Videos sections.
+  const hideExtras = lesson.slug.startsWith('conversation-') || lesson.slug.startsWith('grammar-');
+  // The 3rd tab slot is Videos (or vocab Register when registerAwareness is set). Videos only show
+  // once a lesson has real videos — placeholders don't count.
+  const realVideos = lesson.videos.filter((v) => v.youtubeId && !/^PLACEHOLDER/i.test(v.youtubeId));
+  const keepVideoSlot =
+    !hideExtras && (!!lesson.registerAwareness || realVideos.length > 0 || (!!lesson.tabLabels && lesson.tabLabels[2] !== 'Videos'));
+  const vid = keepVideoSlot ? 1 : 0;
+  const rawBase = (lesson.tabLabels ?? DEFAULT_TABS).filter((_, i) => keepVideoSlot || i !== 2);
   const baseTabs = rawBase.map((t) =>
     t === 'Videos' && lesson.registerAwareness ? 'Register' : t
   );
@@ -596,7 +602,7 @@ export default function LessonView({
             <>
               <SectionHeader title="Videos" subtitle="Watch these terms used in context" />
               <div className="grid gap-6 md:grid-cols-2">
-                {lesson.videos.map((video, i) => <VideoCard key={i} video={video} />)}
+                {realVideos.map((video, i) => <VideoCard key={i} video={video} />)}
               </div>
             </>
           )}
