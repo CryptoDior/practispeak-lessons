@@ -53,6 +53,24 @@ export const conversationHowIsTheWeather: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "It's very [[cold:a low temperature]]. It snows sometimes. And in summer it's very [[hot:a very high temperature]]." },
   ],
 
+  practiceTime: {
+    instructions: 'Teacher and student read the conversation together. The student says the missing words out loud. Use the words from the lesson.',
+    lines: [
+      { speaker: 'Teacher', text: 'Hello! How is the weather today?' },
+      { speaker: 'Student', text: 'It is a {{sunny/cloudy/rainy/windy}} day today. How is the weather in your city?' },
+      { speaker: 'Teacher', text: 'Today is a {{sunny/cloudy/rainy/windy}} day. Do you like this weather?' },
+      { speaker: 'Student', text: 'Yes, I {{like}} this weather. / No, I don’t {{like}} this weather.' },
+      { speaker: 'Teacher', text: 'Is it hot or cold today?' },
+      { speaker: 'Student', text: 'It is {{hot/cold}} today.' },
+      { speaker: 'Teacher', text: 'What is the weather like in winter where you live?' },
+      { speaker: 'Student', text: 'In winter it is very {{cold}}. Sometimes it is {{rainy/windy}}.' },
+      { speaker: 'Teacher', text: 'And in summer?' },
+      { speaker: 'Student', text: 'In summer it is very {{hot}} and {{sunny}}.' },
+      { speaker: 'Teacher', text: 'What weather do you like?' },
+      { speaker: 'Student', text: 'I like {{sunny/cloudy/rainy/windy}} weather.' },
+    ],
+  },
+
   matchingExercise: [
     { word: 'SUNNY', definition: 'The sun is out' },
     { word: 'CLOUDY', definition: 'Many clouds in the sky' },

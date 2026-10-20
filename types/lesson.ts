@@ -303,6 +303,8 @@ export interface Lesson {
   irlVocabulary?: VocabWord[];
   /** Optional picture quiz after Phrases: each vocab image with 3 word options (uses existing images). */
   pictureQuiz?: boolean;
+  /** Optional Role-play tab after Dialogue: Teacher/Student lines with {{blanks}}. */
+  practiceTime?: PracticeTime;
   phrasalVerbs: PhrasalVerb[];
   videos: LessonVideo[];
   dialogue: DialogueLine[];
@@ -325,4 +327,16 @@ export interface Lesson {
   positionsImage?: string;
   /** Optional second 16:9 diagram image shown below positionsImage in the Positions tab. */
   positionsImage2?: string;
+}
+
+/** Role-play (Teacher / Student) with blanks written as {{answer}} or {{answer1/answer2}}. */
+export interface PracticeTimeLine {
+  speaker: 'Teacher' | 'Student';
+  text: string;
+}
+export interface PracticeTime {
+  instructions?: string;
+  /** Words to show above the role-play. Defaults to the lesson's vocabulary words. */
+  wordBank?: string[];
+  lines: PracticeTimeLine[];
 }

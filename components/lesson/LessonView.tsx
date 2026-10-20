@@ -1,5 +1,6 @@
 'use client';
 import PictureQuiz from '@/components/exercises/PictureQuiz';
+import PracticeTimeSection from '@/components/PracticeTimeSection';
 import { audioSources, playFirstWorking } from '@/lib/audio';
 import { useState, useCallback } from 'react';
 import Link from 'next/link';
@@ -66,9 +67,12 @@ export default function LessonView({
     !hideExtras && (!!lesson.registerAwareness || realVideos.length > 0 || (!!lesson.tabLabels && lesson.tabLabels[2] !== 'Videos'));
   const vid = keepVideoSlot ? 1 : 0;
   const rawBase = (lesson.tabLabels ?? DEFAULT_TABS).filter((_, i) => keepVideoSlot || i !== 2);
-  const baseTabs = rawBase.map((t) =>
+  const mappedBase = rawBase.map((t) =>
     t === 'Videos' && lesson.registerAwareness ? 'Register' : t
   );
+  // Role-play tab goes right after the Dialogue tab (the 2nd-last base tab, before Exercises)
+  const rp = lesson.practiceTime ? 1 : 0;
+  const baseTabs = rp ? [...mappedBase.slice(0, -1), 'Role-play', ...mappedBase.slice(-1)] : mappedBase;
   const withWarmUp = lesson.warmUp ? ['Warm Up', ...baseTabs] : baseTabs;
   const wo = lesson.warmUp ? 1 : 0;
   // Insert 'Positions' tab right before 'Vocabulary'
@@ -626,8 +630,16 @@ export default function LessonView({
           )}
         </section>
 
+        {/* Role-play */}
+        {lesson.practiceTime && (
+          <section className={activeTab === TABS.indexOf('Role-play') ? 'block' : 'hidden'}>
+            <SectionHeader title="Role-play" subtitle="Teacher and student: read the conversation and fill in the blanks out loud" />
+            <PracticeTimeSection practice={lesson.practiceTime} wordBank={lesson.vocabulary.map((w) => w.word.toLowerCase())} />
+          </section>
+        )}
+
         {/* Exercises */}
-        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 3 + vid ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 3 + vid + rp ? 'block' : 'hidden'}>
           <SectionHeader title="Exercises" subtitle="Complete all three exercises to see your final score" />
           <div className="space-y-6">
             {lesson.pitchCorner && (
