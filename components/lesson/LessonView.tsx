@@ -98,7 +98,9 @@ export default function LessonView({
     ? (() => { const pi = withGrammarFocus.indexOf('Phrases'); return [...withGrammarFocus.slice(0, pi + 1), 'Picture Quiz', ...withGrammarFocus.slice(pi + 1)]; })()
     : [...withGrammarFocus];
 
-  const hasPhrasalDetails = !hideExtras && lesson.phrasalVerbs.some(
+  // Business lessons also skip the phrase In Action / Register tabs.
+  const hidePhrasalTabs = hideExtras || lesson.slug.startsWith('business-');
+  const hasPhrasalDetails = !hidePhrasalTabs && lesson.phrasalVerbs.some(
     (v) => v.inAction || v.register || v.inContext
   );
   let withPhrasalTabs: string[];
