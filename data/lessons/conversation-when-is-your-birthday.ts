@@ -66,8 +66,6 @@ export const conversationWhenIsYourBirthday: Lesson = {
       { speaker: 'Teacher', text: "What do you like to do on your birthday?" },
       { speaker: 'Student', text: "I like to {{eat cake/have a party/go out with my family}} on my birthday. What do you like to do on your birthday?" },
       { speaker: 'Teacher', text: "I like to {{teacher's answer}} on my birthday." },
-      { speaker: 'Teacher', text: "Imagine today is my birthday. What do you say?" },
-      { speaker: 'Student', text: "Happy {{birthday}}!" },
     ],
   },
 
