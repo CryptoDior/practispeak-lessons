@@ -81,7 +81,7 @@ export const conversationB1SpendYourMornings: Lesson = {
       { speaker: 'Student', text: "{{As soon as}} I wake up, I drink water. {{First}}, I make coffee." },
       { speaker: 'Teacher', text: "And after that?" },
       { speaker: 'Student', text: "{{After that}}, I {{get ready}} and listen to music {{while}} I eat breakfast. How do you usually spend your mornings?" },
-      { speaker: 'Teacher', text: "{{I'm not a morning person./I try to start my mornings slowly.}} I {{drink coffee to wake up/plan my day}}. Does coffee help you?" },
+      { speaker: 'Teacher', text: "I'm not a {{morning person}}. / I try to start my mornings {{slowly}}. I {{drink coffee to wake up/plan my day}}. Does coffee help you?" },
       { speaker: 'Student', text: "Yes, coffee helps me feel {{alert}}." },
       { speaker: 'Teacher', text: "Do you plan your day in the morning?" },
       { speaker: 'Student', text: "Yes, I take some time to {{plan my day}} on the bus." },

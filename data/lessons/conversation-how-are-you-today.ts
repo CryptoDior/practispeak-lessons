@@ -63,7 +63,7 @@ export const conversationHowAreYouToday: Lesson = {
       { speaker: 'Teacher', text: "My day is {{good/okay}}. I {{feel}} {{happy/tired}} today. How do you feel today?" },
       { speaker: 'Student', text: "I {{feel}} {{happy/tired/good}} today." },
       { speaker: 'Teacher', text: "Are you tired?" },
-      { speaker: 'Student', text: "{{Yes, I'm tired./No, I'm not tired.}}" },
+      { speaker: 'Student', text: "Yes, I'm {{tired}}. / No, I'm not {{tired}}." },
       { speaker: 'Teacher', text: "Why are you happy?" },
       { speaker: 'Student', text: "I'm {{happy}} because {{it's my birthday/it's the weekend}}." },
       { speaker: 'Teacher', text: "When do you feel sad?" },

@@ -62,7 +62,7 @@ export const conversationFreeTime: Lesson = {
       { speaker: 'Teacher', text: "That's cool! Do you have a hobby?" },
       { speaker: 'Student', text: "Yes. My {{hobby}} is {{cooking/reading/music}}. What do you do in your free time?" },
       { speaker: 'Teacher', text: "I {{enjoy}} {{cooking/reading/music}}. I also like to {{read/play games}}." },
-      { speaker: 'Student', text: "{{Me too!/That's cool!}}" },
+      { speaker: 'Student', text: "{{Me too/That's cool}}! I like it too." },
       { speaker: 'Teacher', text: "Do you listen to music?" },
       { speaker: 'Student', text: "Yes, I {{listen to music}} every day." },
       { speaker: 'Teacher', text: "Do you play games?" },

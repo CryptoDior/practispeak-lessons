@@ -78,7 +78,7 @@ export const conversationB1AfterWork: Lesson = {
       { speaker: 'Teacher', text: "Do you have anything else to do?" },
       { speaker: 'Student', text: "Yes, I have to run some {{errands}} first — the shop and the post office. What about you? What are you going to do after work?" },
       { speaker: 'Teacher', text: "I'm going to {{head home/meet a friend/run some errands}}. Before that, I {{might}} {{go to the gym/rest}}. Do you often exercise after work?" },
-      { speaker: 'Student', text: "{{Yes, I exercise two or three times a week./Not really, I'm usually too tired.}}" },
+      { speaker: 'Student', text: "Yes, I {{exercise}} two or three times a week. / Not really, I'm usually too {{tired}}." },
       { speaker: 'Teacher', text: "What did you do after work yesterday?" },
       { speaker: 'Student', text: "I {{rested/prepared dinner/exercised}} when I got home." },
       { speaker: 'Teacher', text: "Have you got plans for the evening?" },

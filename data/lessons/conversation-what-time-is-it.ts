@@ -68,7 +68,7 @@ export const conversationWhatTimeIsIt: Lesson = {
       { speaker: 'Teacher', text: "And now it's 8:15." },
       { speaker: 'Student', text: "It's {{quarter past eight}}." },
       { speaker: 'Teacher', text: "The class starts in five minutes!" },
-      { speaker: 'Student', text: "{{Hurry up!}}" },
+      { speaker: 'Student', text: "{{Hurry up}}! We are late." },
     ],
   },
 

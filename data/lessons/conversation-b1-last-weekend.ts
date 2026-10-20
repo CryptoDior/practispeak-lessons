@@ -79,7 +79,7 @@ export const conversationB1LastWeekend: Lesson = {
       { speaker: 'Student', text: "I {{went}} to {{a museum/the beach/the cinema}} on Saturday." },
       { speaker: 'Teacher', text: "Did you go out with friends?" },
       { speaker: 'Student', text: "Yes, I {{went out with}} my friends on Friday night. We {{tried}} a new restaurant. What did you do last weekend?" },
-      { speaker: 'Teacher', text: "{{I didn't do much./I tried something different.}} I {{stayed home/went out with friends}}. Did you visit anyone?" },
+      { speaker: 'Teacher', text: "I didn't do {{much}}. / I tried something {{different}}. I {{stayed home/went out with friends}}. Did you visit anyone?" },
       { speaker: 'Student', text: "Yes, I {{visited}} my {{cousin/parents/grandmother}} on Sunday." },
       { speaker: 'Teacher', text: "Did you try something different?" },
       { speaker: 'Student', text: "Yes, I {{tried something different}} — a {{cooking/dance/yoga}} class." },

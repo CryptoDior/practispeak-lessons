@@ -86,7 +86,7 @@ export const conversationB1HowHasYourWeekBeen: Lesson = {
       { speaker: 'Teacher', text: "Was Monday difficult?" },
       { speaker: 'Student', text: "Yes, everything felt {{chaotic}} on Monday." },
       { speaker: 'Teacher', text: "My week has been {{hectic/productive/quiet}} too." },
-      { speaker: 'Student', text: "{{Same here!}}" },
+      { speaker: 'Student', text: "Same {{here}}! How about you?" },
     ],
   },
 

@@ -61,7 +61,7 @@ export const conversationB1FeelAboutWeather: Lesson = {
       { speaker: 'Student', text: "It's {{mostly}} sunny, so it {{puts me in a good mood}}." },
       { speaker: 'Teacher', text: "Is it too hot for you?" },
       { speaker: 'Student', text: "Yes, it's {{a bit too hot for me}}, and the {{humidity}} is uncomfortable. How do you feel about the weather today?" },
-      { speaker: 'Teacher', text: "{{It's a bit too hot for me./It puts me in a good mood.}} Do you like cold weather?" },
+      { speaker: 'Teacher', text: "It's a bit too {{hot/cold}} for me. / It puts me in a good {{mood}}. Do you like cold weather?" },
       { speaker: 'Student', text: "No, I'm {{not a fan of}} cold weather." },
       { speaker: 'Teacher', text: "How does rain make you feel?" },
       { speaker: 'Student', text: "The rain makes me feel {{relaxed}}. / Rainy days feel a little {{gloomy}} to me." },

@@ -57,7 +57,7 @@ export const conversationB1UpToLately: Lesson = {
     instructions: "Read the conversation with your teacher. Fill each blank out loud with a word or phrase from the lesson \u2014 you can give your own answers too.",
     lines: [
       { speaker: 'Teacher', text: "Long time no see! What have you been up to lately?" },
-      { speaker: 'Student', text: "{{Not much, just the usual./I've been really busy with work.}}" },
+      { speaker: 'Student', text: "Not much, just the {{usual}}. / I've been really {{busy}} with work." },
       { speaker: 'Teacher', text: "Has it been a busy month?" },
       { speaker: 'Student', text: "Yes, it's been very {{eventful/overwhelming}}. / No, it's been quite {{peaceful}}. What have you been up to lately?" },
       { speaker: 'Teacher', text: "I've been {{catching up with friends/really busy with work/focusing on myself}}. Do you go out a lot on weeknights?" },
