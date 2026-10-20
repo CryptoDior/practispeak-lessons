@@ -16,6 +16,7 @@ export const mmaWaysToWin: Lesson = {
     ],
   },
 
+  pictureQuiz: true,
   vocabulary: [
     {
       word: 'KNOCKOUT',

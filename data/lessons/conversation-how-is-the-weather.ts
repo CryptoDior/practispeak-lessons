@@ -20,6 +20,7 @@ export const conversationHowIsTheWeather: Lesson = {
     'Say if you like or don\'t like the weather.',
   ],
 
+  pictureQuiz: true,
   vocabulary: [
     { word: 'SUNNY', partOfSpeech: 'adjective', definition: 'The sun is out. There are no clouds.', example: "It's sunny today.", imageSlug: img('sunny') },
     { word: 'CLOUDY', partOfSpeech: 'adjective', definition: 'There are many clouds in the sky.', example: "It's cloudy, but it's not raining.", imageSlug: img('cloudy') },

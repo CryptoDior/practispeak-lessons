@@ -16,6 +16,7 @@ export const mmaPeople: Lesson = {
     ],
   },
 
+  pictureQuiz: true,
   vocabulary: [
     {
       word: 'FIGHTER',
