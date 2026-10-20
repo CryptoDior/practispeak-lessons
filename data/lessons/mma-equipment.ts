@@ -16,6 +16,7 @@ export const mmaEquipment: Lesson = {
     ],
   },
 
+  pictureQuiz: true,
   vocabulary: [
     {
       word: 'CAGE',

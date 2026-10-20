@@ -301,6 +301,8 @@ export interface Lesson {
   vocabulary: VocabWord[];
   /** Optional second vocab set for Roblox / gaming lessons — rendered as "IRL Vocab" section */
   irlVocabulary?: VocabWord[];
+  /** Optional picture quiz after Phrases: each vocab image with 3 word options (uses existing images). */
+  pictureQuiz?: boolean;
   phrasalVerbs: PhrasalVerb[];
   videos: LessonVideo[];
   dialogue: DialogueLine[];

@@ -1,4 +1,5 @@
 'use client';
+import PictureQuiz from '@/components/exercises/PictureQuiz';
 import { audioSources, playFirstWorking } from '@/lib/audio';
 import { useState, useCallback } from 'react';
 import Link from 'next/link';
@@ -81,19 +82,25 @@ export default function LessonView({
     ? (() => { const vi = withIrlVocab.indexOf('Vocabulary'); return [...withIrlVocab.slice(0, vi + 1), 'Grammar Focus', ...withIrlVocab.slice(vi + 1)]; })()
     : [...withIrlVocab];
 
+  const hasPictureQuiz = !!lesson.pictureQuiz;
+  const pq = hasPictureQuiz ? 1 : 0;
+  const withPictureQuiz: string[] = hasPictureQuiz
+    ? (() => { const pi = withGrammarFocus.indexOf('Phrases'); return [...withGrammarFocus.slice(0, pi + 1), 'Picture Quiz', ...withGrammarFocus.slice(pi + 1)]; })()
+    : [...withGrammarFocus];
+
   const hasPhrasalDetails = !hideExtras && lesson.phrasalVerbs.some(
     (v) => v.inAction || v.register || v.inContext
   );
   let withPhrasalTabs: string[];
   if (hasPhrasalDetails) {
-    const phrasesIdx = withGrammarFocus.indexOf('Phrases');
+    const phrasesIdx = withPictureQuiz.indexOf('Phrases') + pq;
     withPhrasalTabs = [
-      ...withGrammarFocus.slice(0, phrasesIdx + 1),
+      ...withPictureQuiz.slice(0, phrasesIdx + 1),
       'In Action', 'Register',
-      ...withGrammarFocus.slice(phrasesIdx + 1),
+      ...withPictureQuiz.slice(phrasesIdx + 1),
     ];
   } else {
-    withPhrasalTabs = [...withGrammarFocus];
+    withPhrasalTabs = [...withPictureQuiz];
   }
   const po = hasPhrasalDetails ? 2 : 0;
 
@@ -455,9 +462,17 @@ export default function LessonView({
           <OrnamentDivider />
         </section>
 
+        {/* Picture Quiz — vocab images with 3 word options */}
+        {hasPictureQuiz && (
+          <section className={activeTab === TABS.indexOf('Picture Quiz') ? 'block' : 'hidden'}>
+            <SectionHeader title="Picture Quiz" subtitle="Look at the picture and choose the right word" />
+            <PictureQuiz vocabulary={lesson.vocabulary} lessonSlug={lesson.slug} />
+          </section>
+        )}
+
         {/* In Action — 3 scenario cards, each covering 2 phrasal verbs */}
         {hasPhrasalDetails && (
-          <section className={activeTab === wo + pos + irl + gf + 2 ? 'block' : 'hidden'}>
+          <section className={activeTab === wo + pos + irl + gf + pq + 2 ? 'block' : 'hidden'}>
             <SectionHeader title="In Action" subtitle="Hear how these phrases sound in real B2B situations" subtitleClass="text-gray-700 font-semibold" />
             <div className="flex flex-col gap-4">
               {[0, 1, 2].map((cardIdx) => {
@@ -510,7 +525,7 @@ export default function LessonView({
 
         {/* Register */}
         {hasPhrasalDetails && (
-          <section className={activeTab === wo + pos + irl + gf + 3 ? 'block' : 'hidden'}>
+          <section className={activeTab === wo + pos + irl + gf + pq + 3 ? 'block' : 'hidden'}>
             <SectionHeader title="Register" subtitle="Understand when and how to use each phrase — formal, neutral, or informal" subtitleClass="text-gray-600 font-semibold" />
             {/* Visual Examples */}
             {lesson.phrasalVerbs.some(v => v.visualExamples?.length) && (
@@ -571,10 +586,10 @@ export default function LessonView({
 
         {/* Videos / Register (vocab awareness) */}
         {vid === 1 && (
-        <section className={activeTab === wo + pos + irl + po + otp + gf + 2 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 2 ? 'block' : 'hidden'}>
           {lesson.registerAwareness ? (
             <>
-              <SectionHeader title={TABS[wo + pos + irl + po + otp + gf + 2]} subtitle="How these words change across different contexts" />
+              <SectionHeader title={TABS[wo + pos + irl + po + otp + gf + pq + 2]} subtitle="How these words change across different contexts" />
               <RegisterSection entries={lesson.registerAwareness} traps={lesson.registerTraps} />
             </>
           ) : (
@@ -589,10 +604,10 @@ export default function LessonView({
         )}
 
         {/* Dialogue / Reading Passage */}
-        <section className={activeTab === wo + pos + irl + po + otp + gf + 2 + vid ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 2 + vid ? 'block' : 'hidden'}>
           {lesson.readingPassage ? (
             <>
-              <SectionHeader title={TABS[wo + pos + irl + po + otp + gf + 2 + vid]} subtitle="Read the passage — highlighted words are from this lesson" />
+              <SectionHeader title={TABS[wo + pos + irl + po + otp + gf + pq + 2 + vid]} subtitle="Read the passage — highlighted words are from this lesson" />
               <ReadingPassageSection passage={lesson.readingPassage} prompts={lesson.productionPrompts} />
             </>
           ) : (
@@ -606,7 +621,7 @@ export default function LessonView({
         </section>
 
         {/* Exercises */}
-        <section className={activeTab === wo + pos + irl + po + otp + gf + 3 + vid ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 3 + vid ? 'block' : 'hidden'}>
           <SectionHeader title="Exercises" subtitle="Complete all three exercises to see your final score" />
           <div className="space-y-6">
             {lesson.pitchCorner && (
