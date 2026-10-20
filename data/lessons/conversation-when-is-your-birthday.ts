@@ -30,10 +30,10 @@ export const conversationWhenIsYourBirthday: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'When is your birthday?', tag: 'phrase', definition: 'Ask someone the date of their birthday.', example: '"When is your birthday?" → "It\'s on May 10th."', imageSlug: img('when-is-your-birthday') },
-    { phrase: 'My birthday is on…', tag: 'phrase', definition: 'Use this to give the date.', example: '"My birthday is on July 3rd."', inAction: 'Use "on" with a date (on July 3rd) and "in" with a month or year (in July, in 2001).', imageSlug: img('my-birthday-is-on') },
-    { phrase: 'I was born in…', tag: 'phrase', definition: 'Use this to say the year you were born.', example: '"I was born in 2000."', imageSlug: img('i-was-born-in') },
-    { phrase: 'How old are you?', tag: 'phrase', definition: "Ask someone's age.", example: '"How old are you?" → "I\'m 20 years old."', imageSlug: img('how-old-are-you') },
+    { phrase: 'When is your birthday?', tag: 'phrase', definition: 'Ask someone the date of their birthday.', example: '"When is your birthday?" → "It\'s on May 10th."', imageSlug: img('when-birthday') },
+    { phrase: 'My birthday is on…', tag: 'phrase', definition: 'Use this to give the date.', example: '"My birthday is on July 3rd."', inAction: 'Use "on" with a date (on July 3rd) and "in" with a month or year (in July, in 2001).', imageSlug: img('birthday-on') },
+    { phrase: 'I was born in…', tag: 'phrase', definition: 'Use this to say the year you were born.', example: '"I was born in 2000."', imageSlug: img('born-in-year') },
+    { phrase: 'How old are you?', tag: 'phrase', definition: "Ask someone's age.", example: '"How old are you?" → "I\'m 20 years old."', imageSlug: img('how-old') },
     { phrase: "I'm … years old.", tag: 'phrase', definition: 'Use this to say your age.', example: '"I\'m 25 years old."', imageSlug: img('years-old') },
     { phrase: "That's soon!", tag: 'phrase', definition: 'Say this when a birthday is close.', example: '"My birthday is next week." → "That\'s soon!"', imageSlug: img('thats-soon') },
     { phrase: 'Happy birthday!', tag: 'phrase', definition: 'What you say to someone on their birthday.', example: '"Happy birthday, Oliver!" → "Thank you!"', imageSlug: img('happy-birthday') },

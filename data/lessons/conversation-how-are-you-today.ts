@@ -32,7 +32,7 @@ export const conversationHowAreYouToday: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'How are you?', tag: 'phrase', definition: 'A common question about how someone feels.', example: '"Hi Rosie! How are you?"', imageSlug: img('how-are-you') },
-    { phrase: "I'm fine, thank you.", tag: 'phrase', definition: 'A polite, simple answer.', example: '"How are you?" → "I\'m fine, thank you."', imageSlug: img('im-fine') },
+    { phrase: "I'm fine, thank you.", tag: 'phrase', definition: 'A polite, simple answer.', example: '"How are you?" → "I\'m fine, thank you."', imageSlug: img('fine-thank-you') },
     { phrase: "I'm good.", tag: 'phrase', definition: 'A natural, friendly answer.', example: '"How are you?" → "I\'m good!"', imageSlug: img('im-good') },
     { phrase: "I'm okay.", tag: 'phrase', definition: 'You feel normal. Not good, not bad.', example: '"How are you?" → "I\'m okay."', imageSlug: img('im-okay') },
     { phrase: 'And you?', tag: 'phrase', definition: 'A polite way to ask the same question back.', example: '"I\'m fine, thank you. And you?"', inAction: 'Always ask back! After you answer, say "And you?". It is polite.', imageSlug: img('and-you') },

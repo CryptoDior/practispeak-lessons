@@ -32,11 +32,11 @@ export const conversationWhatDoYouDo: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'What do you do?', tag: 'phrase', definition: 'A question about your job or school.', example: '"What do you do?" → "I\'m a teacher."', inAction: '"What do you do?" means "What is your job?". It does not mean "What are you doing now?".', imageSlug: img('what-do-you-do') },
-    { phrase: "I'm a / an…", tag: 'phrase', definition: 'Use this to say your job.', example: '"I\'m a chef." / "I\'m an engineer."', imageSlug: img('im-a') },
-    { phrase: 'I work at…', tag: 'phrase', definition: 'Say the place where you work.', example: '"I work at a bank."', imageSlug: img('i-work-at') },
-    { phrase: 'Where do you study?', tag: 'phrase', definition: 'A question about school or university.', example: '"Where do you study?" → "At a language school."', imageSlug: img('where-do-you-study') },
-    { phrase: 'Do you like your job?', tag: 'phrase', definition: 'A simple question about someone\'s opinion of their job.', example: '"Do you like your job?" → "Yes, I do."', imageSlug: img('do-you-like-your-job') },
-    { phrase: "Yes, I do. / No, I don't.", tag: 'phrase', definition: 'Short answers for "Do you…?" questions.', example: '"Do you work here?" → "No, I don\'t."', imageSlug: img('yes-i-do') },
+    { phrase: "I'm a / an…", tag: 'phrase', definition: 'Use this to say your job.', example: '"I\'m a chef." / "I\'m an engineer."', imageSlug: img('a-an-job') },
+    { phrase: 'I work at…', tag: 'phrase', definition: 'Say the place where you work.', example: '"I work at a bank."', imageSlug: img('work-at') },
+    { phrase: 'Where do you study?', tag: 'phrase', definition: 'A question about school or university.', example: '"Where do you study?" → "At a language school."', imageSlug: img('where-study') },
+    { phrase: 'Do you like your job?', tag: 'phrase', definition: 'A simple question about someone\'s opinion of their job.', example: '"Do you like your job?" → "Yes, I do."', imageSlug: img('like-job') },
+    { phrase: "Yes, I do. / No, I don't.", tag: 'phrase', definition: 'Short answers for "Do you…?" questions.', example: '"Do you work here?" → "No, I don\'t."', imageSlug: img('yes-no') },
     { phrase: "That's interesting!", tag: 'phrase', definition: 'A friendly reaction. You want to hear more.', example: '"I\'m a pilot." → "That\'s interesting!"', imageSlug: img('thats-interesting') },
   ],
 

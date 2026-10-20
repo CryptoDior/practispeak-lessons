@@ -33,9 +33,9 @@ export const conversationWhereAreYouFrom: Lesson = {
   phrasalVerbs: [
     { phrase: 'Where are you from?', tag: 'phrase', definition: "A question about someone's country or home town.", example: '"Where are you from?" → "I\'m from Japan."', imageSlug: img('where-are-you-from') },
     { phrase: "I'm from…", tag: 'phrase', definition: 'Use this to say your country or city.', example: '"I\'m from Spain."', imageSlug: img('im-from') },
-    { phrase: 'What city do you live in?', tag: 'phrase', definition: 'A question about the city where someone lives now.', example: '"What city do you live in?" → "I live in Madrid."', imageSlug: img('what-city') },
-    { phrase: 'I was born in…', tag: 'phrase', definition: 'Use this to say the place where your life started.', example: '"I was born in Brazil, but I live in Spain."', inAction: '"I\'m from" can be where you grew up. "I was born in" is only the place where you started your life.', imageSlug: img('i-was-born-in') },
-    { phrase: "Really? That's cool!", tag: 'phrase', definition: 'A friendly way to show interest.', example: '"I live in Tokyo." → "Really? That\'s cool!"', imageSlug: img('thats-cool') },
+    { phrase: 'What city do you live in?', tag: 'phrase', definition: 'A question about the city where someone lives now.', example: '"What city do you live in?" → "I live in Madrid."', imageSlug: img('what-city-live-in') },
+    { phrase: 'I was born in…', tag: 'phrase', definition: 'Use this to say the place where your life started.', example: '"I was born in Brazil, but I live in Spain."', inAction: '"I\'m from" can be where you grew up. "I was born in" is only the place where you started your life.', imageSlug: img('born-in-live-in') },
+    { phrase: "Really? That's cool!", tag: 'phrase', definition: 'A friendly way to show interest.', example: '"I live in Tokyo." → "Really? That\'s cool!"', imageSlug: img('really-thats-cool') },
     { phrase: 'Where is that?', tag: 'phrase', definition: 'Ask this when you do not know a place.', example: '"I\'m from Durban." → "Where is that?"', imageSlug: img('where-is-that') },
     { phrase: 'This is my friend…', tag: 'phrase', definition: 'Use this to introduce someone.', example: '"This is my friend Leo."', imageSlug: img('this-is-my-friend') },
   ],

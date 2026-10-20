@@ -31,12 +31,12 @@ export const conversationWhatTimeIsIt: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'What time is it?', tag: 'phrase', definition: 'Ask the time now.', example: '"What time is it?" → "It\'s 3 o\'clock."', imageSlug: img('what-time-is-it') },
-    { phrase: "It's … o'clock.", tag: 'phrase', definition: 'Use this for full hours.', example: '"It\'s 9 o\'clock."', imageSlug: img('its-oclock') },
-    { phrase: "It's half past …", tag: 'phrase', definition: 'Use this for 30 minutes after the hour.', example: '"It\'s half past six." (6:30)', imageSlug: img('its-half-past') },
-    { phrase: "It's quarter to …", tag: 'phrase', definition: 'Use this for 15 minutes before the hour.', example: '"It\'s quarter to eight." (7:45)', inAction: 'You can also just say the numbers: "It\'s seven forty-five." Both are correct.', imageSlug: img('its-quarter-to') },
-    { phrase: 'What time do you wake up?', tag: 'phrase', definition: 'A question about your morning.', example: '"What time do you wake up?" → "I wake up at 7."', imageSlug: img('what-time-wake-up') },
-    { phrase: 'I wake up at …', tag: 'phrase', definition: 'Use "at" before a time.', example: '"I wake up at 6:30."', imageSlug: img('i-wake-up-at') },
+    { phrase: 'What time is it?', tag: 'phrase', definition: 'Ask the time now.', example: '"What time is it?" → "It\'s 3 o\'clock."', imageSlug: img('what-time') },
+    { phrase: "It's … o'clock.", tag: 'phrase', definition: 'Use this for full hours.', example: '"It\'s 9 o\'clock."', imageSlug: img('nine-oclock') },
+    { phrase: "It's half past …", tag: 'phrase', definition: 'Use this for 30 minutes after the hour.', example: '"It\'s half past six." (6:30)', imageSlug: img('half-past-phrase') },
+    { phrase: "It's quarter to …", tag: 'phrase', definition: 'Use this for 15 minutes before the hour.', example: '"It\'s quarter to eight." (7:45)', inAction: 'You can also just say the numbers: "It\'s seven forty-five." Both are correct.', imageSlug: img('quarter-to-phrase') },
+    { phrase: 'What time do you wake up?', tag: 'phrase', definition: 'A question about your morning.', example: '"What time do you wake up?" → "I wake up at 7."', imageSlug: img('wake-up-question') },
+    { phrase: 'I wake up at …', tag: 'phrase', definition: 'Use "at" before a time.', example: '"I wake up at 6:30."', imageSlug: img('wake-up-at') },
   ],
 
   videos: [],

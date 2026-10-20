@@ -31,12 +31,12 @@ export const conversationHowIsTheWeather: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'How is the weather today?', tag: 'phrase', definition: "Ask about today's weather.", example: '"How is the weather today?" → "It\'s sunny."', imageSlug: img('how-is-the-weather') },
-    { phrase: "It's sunny / cloudy / windy.", tag: 'phrase', definition: 'Use "It\'s" + a weather word.', example: '"It\'s cloudy and cold."', imageSlug: img('its-sunny') },
+    { phrase: 'How is the weather today?', tag: 'phrase', definition: "Ask about today's weather.", example: '"How is the weather today?" → "It\'s sunny."', imageSlug: img('weather-today') },
+    { phrase: "It's sunny / cloudy / windy.", tag: 'phrase', definition: 'Use "It\'s" + a weather word.', example: '"It\'s cloudy and cold."', imageSlug: img('cloudy-and-cold') },
     { phrase: "It's raining.", tag: 'phrase', definition: 'Rain is falling now.', example: '"Don\'t go out. It\'s raining."', inAction: '"It\'s rainy" and "It\'s raining" are both fine. "It\'s raining" means it is happening right now.', imageSlug: img('its-raining') },
-    { phrase: 'I like this weather.', tag: 'phrase', definition: 'You enjoy the weather today.', example: '"It\'s warm and sunny. I like this weather."', imageSlug: img('i-like-this-weather') },
-    { phrase: "I don't like this weather.", tag: 'phrase', definition: 'You do not enjoy the weather.', example: '"It\'s cold and windy. I don\'t like this weather."', imageSlug: img('i-dont-like') },
-    { phrase: "What's the weather like where you live?", tag: 'phrase', definition: "Ask about the weather in someone's city or country.", example: '"What\'s the weather like where you live?" → "It\'s hot in summer."', imageSlug: img('where-you-live') },
+    { phrase: 'I like this weather.', tag: 'phrase', definition: 'You enjoy the weather today.', example: '"It\'s warm and sunny. I like this weather."', imageSlug: img('like-weather') },
+    { phrase: "I don't like this weather.", tag: 'phrase', definition: 'You do not enjoy the weather.', example: '"It\'s cold and windy. I don\'t like this weather."', imageSlug: img('dont-like-weather') },
+    { phrase: "What's the weather like where you live?", tag: 'phrase', definition: "Ask about the weather in someone's city or country.", example: '"What\'s the weather like where you live?" → "It\'s hot in summer."', imageSlug: img('weather-where-live') },
   ],
 
   videos: [],
