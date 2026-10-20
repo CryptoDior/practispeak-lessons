@@ -6,6 +6,9 @@ import { createClient } from '@/lib/supabase/client';
 import { logout } from '@/app/auth/actions';
 import { BECOME_STUDENT_URL } from '@/lib/site';
 import { effectivePlan } from '@/lib/plan';
+import { useTranslateSettings } from '@/lib/translate';
+import TranslateMenuSection from '@/components/translate/TranslateMenuSection';
+import TranslateBrush from '@/components/translate/TranslateBrush';
 
 type Account = { email: string; name: string; plan: 'free' | 'pro'; marketing: boolean };
 
@@ -133,6 +136,8 @@ export default function AccountMenu() {
     };
   }, [open]);
 
+  const translate = useTranslateSettings();
+
   if (account === undefined) {
     return <span className="w-10 h-10 rounded-full border border-slate-200 bg-slate-50" aria-hidden="true" />;
   }
@@ -188,6 +193,8 @@ export default function AccountMenu() {
               </span>
             </div>
             <div className="my-1 h-px bg-slate-100" />
+            <TranslateMenuSection isStudent={account.plan === 'pro'} settings={translate} />
+            <div className="my-1 h-px bg-slate-100" />
             <label className="flex items-start gap-3 rounded-xl px-3 py-2.5 hover:bg-slate-50 cursor-pointer">
               <input
                 type="checkbox"
@@ -210,6 +217,8 @@ export default function AccountMenu() {
           </div>
         )}
       </div>
+      {/* Translate tool: listens for highlighted text anywhere on the page */}
+      {account.plan === 'pro' && translate.enabled && <TranslateBrush lang={translate.lang} />}
     </>
   );
 }

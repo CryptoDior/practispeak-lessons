@@ -31,12 +31,12 @@ export const conversationGoingToDoTomorrow: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'What are you going to do tomorrow?', tag: 'phrase', definition: 'A question about plans for tomorrow.', example: '"What are you going to do tomorrow?" → "I\'m going to work."', imageSlug: img('what-are-you-going-to-do') },
-    { phrase: "I'm going to…", tag: 'phrase', definition: 'Use this to talk about your plans.', example: '"I\'m going to study." / "I\'m going to meet my friend."', inAction: 'After "going to", use the normal verb: "I\'m going to study", not "I\'m going to studying".', imageSlug: img('im-going-to') },
-    { phrase: "I'm going to stay at home.", tag: 'phrase', definition: 'You will not go out tomorrow.', example: '"I\'m tired. I\'m going to stay at home."', imageSlug: img('stay-at-home') },
+    { phrase: 'What are you going to do tomorrow?', tag: 'phrase', definition: 'A question about plans for tomorrow.', example: '"What are you going to do tomorrow?" → "I\'m going to work."', imageSlug: img('tomorrow-question') },
+    { phrase: "I'm going to…", tag: 'phrase', definition: 'Use this to talk about your plans.', example: '"I\'m going to study." / "I\'m going to meet my friend."', inAction: 'After "going to", use the normal verb: "I\'m going to study", not "I\'m going to studying".', imageSlug: img('going-to') },
+    { phrase: "I'm going to stay at home.", tag: 'phrase', definition: 'You will not go out tomorrow.', example: '"I\'m tired. I\'m going to stay at home."', imageSlug: img('going-stay-home') },
     { phrase: 'What time?', tag: 'phrase', definition: 'Ask for the time of a plan.', example: '"I\'m going to meet Ana." → "What time?"', imageSlug: img('what-time') },
-    { phrase: 'In the morning / afternoon / evening.', tag: 'phrase', definition: 'Ways to say the time of day.', example: '"What time?" → "In the afternoon."', imageSlug: img('in-the-morning') },
-    { phrase: 'That sounds nice!', tag: 'phrase', definition: 'A friendly reaction to someone\'s plan.', example: '"I\'m going to the beach." → "That sounds nice!"', imageSlug: img('that-sounds-nice') },
+    { phrase: 'In the morning / afternoon / evening.', tag: 'phrase', definition: 'Ways to say the time of day.', example: '"What time?" → "In the afternoon."', imageSlug: img('in-afternoon') },
+    { phrase: 'That sounds nice!', tag: 'phrase', definition: 'A friendly reaction to someone\'s plan.', example: '"I\'m going to the beach." → "That sounds nice!"', imageSlug: img('sounds-nice') },
     { phrase: 'Have fun!', tag: 'phrase', definition: 'A good wish for someone\'s plans.', example: '"I\'m going to a party tomorrow." → "Have fun!"', imageSlug: img('have-fun') },
   ],
 

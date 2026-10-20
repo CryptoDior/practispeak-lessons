@@ -32,11 +32,11 @@ export const conversationWhatDidYouDoYesterday: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'What did you do yesterday?', tag: 'phrase', definition: 'A question about the day before today.', example: '"What did you do yesterday?" → "I stayed at home."', inAction: 'After "did", use the normal verb: "What did you DO?", not "What did you did?".', imageSlug: img('what-did-you-do') },
-    { phrase: 'I went to…', tag: 'phrase', definition: 'Use "went" to talk about places in the past.', example: '"I went to school." / "I went to the mall."', imageSlug: img('i-went-to') },
-    { phrase: 'I stayed at home.', tag: 'phrase', definition: 'You did not go out.', example: '"It was raining, so I stayed at home."', imageSlug: img('i-stayed-at-home') },
-    { phrase: 'I studied…', tag: 'phrase', definition: 'Talk about learning or homework.', example: '"I studied English for two hours."', imageSlug: img('i-studied') },
-    { phrase: 'It was fun. / It was boring.', tag: 'phrase', definition: 'A simple opinion about something in the past.', example: '"How was the party?" → "It was fun!"', imageSlug: img('it-was-fun') },
-    { phrase: 'Really? Tell me more.', tag: 'phrase', definition: 'Show interest and ask the person to say more.', example: '"I met a famous singer!" → "Really? Tell me more."', imageSlug: img('tell-me-more') },
+    { phrase: 'I went to…', tag: 'phrase', definition: 'Use "went" to talk about places in the past.', example: '"I went to school." / "I went to the mall."', imageSlug: img('went-to') },
+    { phrase: 'I stayed at home.', tag: 'phrase', definition: 'You did not go out.', example: '"It was raining, so I stayed at home."', imageSlug: img('stayed-home') },
+    { phrase: 'I studied…', tag: 'phrase', definition: 'Talk about learning or homework.', example: '"I studied English for two hours."', imageSlug: img('studied') },
+    { phrase: 'It was fun. / It was boring.', tag: 'phrase', definition: 'A simple opinion about something in the past.', example: '"How was the party?" → "It was fun!"', imageSlug: img('was-fun') },
+    { phrase: 'Really? Tell me more.', tag: 'phrase', definition: 'Show interest and ask the person to say more.', example: '"I met a famous singer!" → "Really? Tell me more."', imageSlug: img('tell-more') },
   ],
 
   videos: [],

@@ -31,11 +31,11 @@ export const conversationFreeTime: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'What do you do in your free time?', tag: 'phrase', definition: 'Ask someone about their hobbies.', example: '"What do you do in your free time?" → "I like to read."', imageSlug: img('what-do-you-do') },
-    { phrase: 'I like to…', tag: 'phrase', definition: 'Talk about things you like doing.', example: '"I like to watch movies."', imageSlug: img('i-like-to') },
-    { phrase: 'I enjoy…', tag: 'phrase', definition: 'Another way to talk about hobbies.', example: '"I enjoy cooking."', inAction: 'After "enjoy", use the -ing form: "I enjoy cooking", not "I enjoy to cook".', imageSlug: img('i-enjoy') },
-    { phrase: 'I listen to music.', tag: 'phrase', definition: 'A very common free-time activity.', example: '"I listen to music on the bus."', imageSlug: img('listen-to-music') },
-    { phrase: 'I spend time with my family.', tag: 'phrase', definition: 'Talk about time with people you love.', example: '"On Sundays I spend time with my family."', imageSlug: img('spend-time') },
+    { phrase: 'What do you do in your free time?', tag: 'phrase', definition: 'Ask someone about their hobbies.', example: '"What do you do in your free time?" → "I like to read."', imageSlug: img('free-time-question') },
+    { phrase: 'I like to…', tag: 'phrase', definition: 'Talk about things you like doing.', example: '"I like to watch movies."', imageSlug: img('like-to') },
+    { phrase: 'I enjoy…', tag: 'phrase', definition: 'Another way to talk about hobbies.', example: '"I enjoy cooking."', inAction: 'After "enjoy", use the -ing form: "I enjoy cooking", not "I enjoy to cook".', imageSlug: img('enjoy-cooking') },
+    { phrase: 'I listen to music.', tag: 'phrase', definition: 'A very common free-time activity.', example: '"I listen to music on the bus."', imageSlug: img('listen-music') },
+    { phrase: 'I spend time with my family.', tag: 'phrase', definition: 'Talk about time with people you love.', example: '"On Sundays I spend time with my family."', imageSlug: img('family-sundays') },
     { phrase: 'Me too!', tag: 'phrase', definition: 'You like the same thing.', example: '"I love pizza." → "Me too!"', imageSlug: img('me-too') },
     { phrase: "That's cool!", tag: 'phrase', definition: 'A friendly, positive reaction.', example: '"I play the guitar." → "That\'s cool!"', imageSlug: img('thats-cool') },
   ],
