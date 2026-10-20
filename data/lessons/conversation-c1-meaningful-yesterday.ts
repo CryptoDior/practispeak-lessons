@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
 const MARIA = R2 + 'professional-portrait-latina-woman-terracotta-top.png';
 const img = (s: string) => `${R2}conversation-c1-meaningful-yesterday-${s}.png`;
 
@@ -43,14 +43,14 @@ export const conversationC1MeaningfulYesterday: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "You look happy today, Kira. What made yesterday meaningful or memorable for you?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Something small had a surprisingly big impact on me. I visited my grandmother and we looked through old photos." },
+    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "You look happy today, Rosie. What made yesterday meaningful or memorable for you?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Something small had a surprisingly big impact on me. I visited my grandmother and we looked through old photos." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "That must have been [[nostalgic:warmly emotional about the past]]." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Very. But also [[insightful:showing deep understanding]]. She told me how she moved countries at my age, alone. It really [[resonated:connected with me emotionally]] with me." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Very. But also [[insightful:showing deep understanding]]. She told me how she moved countries at my age, alone. It really [[resonated:connected with me emotionally]] with me." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Because you're thinking about moving abroad too?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Exactly. Her story was so [[reassuring:comforting]]. For once, I felt present instead of rushing through the day." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Exactly. Her story was so [[reassuring:comforting]]. For once, I felt present instead of rushing through the day." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "That sounds like a [[significant:important]] moment." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "It was. [[In hindsight:looking back]], it was the best part of my week. It gave me a moment of [[gratitude:feeling thankful]] I didn't know I needed." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "It was. [[In hindsight:looking back]], it was the best part of my week. It gave me a moment of [[gratitude:feeling thankful]] I didn't know I needed." },
   ],
 
   matchingExercise: [
@@ -76,7 +76,7 @@ export const conversationC1MeaningfulYesterday: Lesson = {
     { question: 'What does "in hindsight" mean?', options: ['In the future', 'Looking back afterwards', 'Immediately', 'Without seeing'], correctIndex: 1 },
     { question: 'Which word means "comforting"?', options: ['Reassuring', 'Nostalgic', 'Subtle', 'Significant'], correctIndex: 0 },
     { question: '"A moment of gratitude I didn\'t know I needed" suggests…', options: ['She expected it', 'The meaning was a pleasant surprise', 'She was ungrateful', 'She was busy'], correctIndex: 1 },
-    { question: 'In the dialogue, who did Kira visit?', options: ['Her mother', 'Her grandmother', 'A friend', 'A colleague'], correctIndex: 1 },
-    { question: "Why was the grandmother's story reassuring?", options: ['Kira is thinking of moving abroad too', 'It was funny', 'It was about money', 'Kira was ill'], correctIndex: 0 },
+    { question: 'In the dialogue, who did Rosie visit?', options: ['Her mother', 'Her grandmother', 'A friend', 'A colleague'], correctIndex: 1 },
+    { question: "Why was the grandmother's story reassuring?", options: ['Rosie is thinking of moving abroad too', 'It was funny', 'It was about money', 'Rosie was ill'], correctIndex: 0 },
   ],
 };

@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const TIM = R2 + 'tim-professional-portrait.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}transport-parts-of-a-car-${s}.png`;
 
 export const transportPartsOfACar: Lesson = {
@@ -44,13 +44,13 @@ export const transportPartsOfACar: Lesson = {
 
   dialogue: [
     { speaker: 'Mechanic', speakerColor: 'orange', text: 'Good morning! What can I do for you?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Hi. There's a problem with my car. Someone hit it in the car park yesterday." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Hi. There's a problem with my car. Someone hit it in the car park yesterday." },
     { speaker: 'Mechanic', speakerColor: 'orange', text: 'Oh no. Where did they hit it?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "At the back. There's a dent in the [[bumper:part that protects the car]], and one [[tail light:red light at the back]] is broken." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "At the back. There's a dent in the [[bumper:part that protects the car]], and one [[tail light:red light at the back]] is broken." },
     { speaker: 'Mechanic', speakerColor: 'orange', text: "Let me see. Yes, and your [[side mirror:mirror on the side]] is broken too." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Really? I didn't see that! Can you also check the [[wipers:parts that clean rain from the window]]? They make a noise." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Really? I didn't see that! Can you also check the [[wipers:parts that clean rain from the window]]? They make a noise." },
     { speaker: 'Mechanic', speakerColor: 'orange', text: "Sure. I'll open the [[bonnet:front cover over the engine]] and check everything." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Thank you. How much will it cost to fix?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Thank you. How much will it cost to fix?' },
     { speaker: 'Mechanic', speakerColor: 'orange', text: "About 300 euros. It will be ready on Friday." },
   ],
 
@@ -76,7 +76,7 @@ export const transportPartsOfACar: Lesson = {
     { question: 'What is the US word for "bonnet"?', options: ['Trunk', 'Hood', 'Roof', 'Grill'], correctIndex: 1 },
     { question: 'What colour is a tail light?', options: ['White', 'Red', 'Blue', 'Green'], correctIndex: 1 },
     { question: 'What do you press to change gears?', options: ['The clutch', 'The wipers', 'The bumper', 'The grill'], correctIndex: 0 },
-    { question: "In the dialogue, where was Tim's car hit?", options: ['At the front', 'At the back', 'On the roof', 'On the side only'], correctIndex: 1 },
+    { question: "In the dialogue, where was Oliver's car hit?", options: ['At the front', 'At the back', 'On the roof', 'On the side only'], correctIndex: 1 },
     { question: 'When will the car be ready?', options: ['Today', 'Tomorrow', 'Friday', 'Next week'], correctIndex: 2 },
   ],
 };

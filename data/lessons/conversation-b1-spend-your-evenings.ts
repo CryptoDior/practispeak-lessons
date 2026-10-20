@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-b1-spend-your-evenings-${s}.png`;
 
 export const conversationB1SpendYourEvenings: Lesson = {
@@ -43,15 +43,15 @@ export const conversationB1SpendYourEvenings: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Kira, how do you usually spend your evenings?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I [[usually:most of the time]] [[unwind:relax after the day]] with a walk. Then I cook dinner and take it slow." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "That sounds nice. I'm terrible — I usually [[catch up on:watch what I missed]] shows until midnight." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I used to do that! Now I try to [[disconnect:take a break from screens]] after nine. I read or listen to a podcast to [[wind down:slowly relax before sleep]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Does it help you sleep?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Much better. I also [[stretch:move my muscles to relax]] for ten minutes. What else do you do?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I [[occasionally:sometimes]] meet friends — I like to [[socialize:spend time with people]] on Thursdays. And I [[organize:plan and arrange]] my things for the next day." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Very responsible! Maybe try one evening without screens this week.' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "OK, challenge accepted. Just one!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Rosie, how do you usually spend your evenings?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I [[usually:most of the time]] [[unwind:relax after the day]] with a walk. Then I cook dinner and take it slow." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "That sounds nice. I'm terrible — I usually [[catch up on:watch what I missed]] shows until midnight." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I used to do that! Now I try to [[disconnect:take a break from screens]] after nine. I read or listen to a podcast to [[wind down:slowly relax before sleep]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Does it help you sleep?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Much better. I also [[stretch:move my muscles to relax]] for ten minutes. What else do you do?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "I [[occasionally:sometimes]] meet friends — I like to [[socialize:spend time with people]] on Thursdays. And I [[organize:plan and arrange]] my things for the next day." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Very responsible! Maybe try one evening without screens this week.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "OK, challenge accepted. Just one!" },
   ],
 
   matchingExercise: [
@@ -77,7 +77,7 @@ export const conversationB1SpendYourEvenings: Lesson = {
     { question: 'What does "occasionally" mean?', options: ['Always', 'Sometimes, but not often', 'Never', 'Every day'], correctIndex: 1 },
     { question: 'Which sentence is correct?', options: ['I avoid to check emails.', 'I avoid checking emails.', 'I avoid check emails.', 'I avoiding emails.'], correctIndex: 1 },
     { question: 'What does "disconnect" mean here?', options: ['Break a cable', 'Take a break from screens and work', 'End a friendship', 'Leave a job'], correctIndex: 1 },
-    { question: 'In the dialogue, what does Kira do after nine?', options: ['Watches TV', 'Disconnects from screens and reads or listens to a podcast', 'Goes to the gym', 'Checks emails'], correctIndex: 1 },
-    { question: 'What challenge does Tim accept?', options: ['Cook every night', 'One evening without screens', 'Go to bed at nine', 'Meet friends more'], correctIndex: 1 },
+    { question: 'In the dialogue, what does Rosie do after nine?', options: ['Watches TV', 'Disconnects from screens and reads or listens to a podcast', 'Goes to the gym', 'Checks emails'], correctIndex: 1 },
+    { question: 'What challenge does Oliver accept?', options: ['Cook every night', 'One evening without screens', 'Go to bed at nine', 'Meet friends more'], correctIndex: 1 },
   ],
 };

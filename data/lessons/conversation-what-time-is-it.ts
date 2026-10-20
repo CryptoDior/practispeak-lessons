@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-what-time-is-it-${s}.png`;
 
 export const conversationWhatTimeIsIt: Lesson = {
@@ -42,16 +42,16 @@ export const conversationWhatTimeIsIt: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Tim, what time is it?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "It's 3 [[o'clock:a full hour]]." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Oh! I have a class at [[half past:30 minutes after]] three.' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Don't worry, you have 30 minutes. You don't need to [[hurry up:be fast]]." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Good. What time do you [[wake up:stop sleeping]], Tim?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'I wake up at 7 every day.' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Nice! I wake up at [[quarter past:15 minutes after]] six.' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Really? That\'s early! What time do you [[go to bed:go to sleep at night]]?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'I go to bed at 10.' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Same! Oh look, it\'s [[quarter to:15 minutes before]] four now… wait, no! It\'s 3:25. Go to your class!' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Oliver, what time is it?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "It's 3 [[o'clock:a full hour]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Oh! I have a class at [[half past:30 minutes after]] three.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Don't worry, you have 30 minutes. You don't need to [[hurry up:be fast]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Good. What time do you [[wake up:stop sleeping]], Oliver?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'I wake up at 7 every day.' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Nice! I wake up at [[quarter past:15 minutes after]] six.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Really? That\'s early! What time do you [[go to bed:go to sleep at night]]?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'I go to bed at 10.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Same! Oh look, it\'s [[quarter to:15 minutes before]] four now… wait, no! It\'s 3:25. Go to your class!' },
   ],
 
   matchingExercise: [
@@ -77,7 +77,7 @@ export const conversationWhatTimeIsIt: Lesson = {
     { question: 'It is 7:15. What do you say?', options: ["It's quarter to seven.", "It's quarter past seven.", "It's half past seven.", "It's seven o'clock."], correctIndex: 1 },
     { question: 'It is 7:45. What do you say?', options: ["It's quarter past eight.", "It's quarter to eight.", "It's half past seven.", "It's eight o'clock."], correctIndex: 1 },
     { question: 'Which sentence is correct?', options: ['I wake up in 7.', 'I wake up on 7.', 'I wake up at 7.', 'I wake up 7 at.'], correctIndex: 2 },
-    { question: 'In the dialogue, what time is Kira\'s class?', options: ['3:00', '3:30', '4:00', '6:15'], correctIndex: 1 },
-    { question: 'What time does Tim wake up?', options: ['6:15', '7:00', '10:00', '3:00'], correctIndex: 1 },
+    { question: 'In the dialogue, what time is Rosie\'s class?', options: ['3:00', '3:30', '4:00', '6:15'], correctIndex: 1 },
+    { question: 'What time does Oliver wake up?', options: ['6:15', '7:00', '10:00', '3:00'], correctIndex: 1 },
   ],
 };

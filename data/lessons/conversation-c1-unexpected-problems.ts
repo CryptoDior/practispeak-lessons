@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-c1-unexpected-problems-${s}.png`;
 
 export const conversationC1UnexpectedProblems: Lesson = {
@@ -42,14 +42,14 @@ export const conversationC1UnexpectedProblems: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Tim, I heard the venue for the conference cancelled yesterday. How did you handle it?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "My first instinct was to panic, to be honest. But I tried not to react [[impulsively:quickly without thinking]]." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That's not easy with 200 guests coming." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "No. I paused and [[assessed:evaluated carefully]] the situation first. Then I focused on what was within my control: the date, the budget, the guest list." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Very [[pragmatic:practical and realistic]]. Did you [[catastrophize:imagine the worst outcome]]?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "For about ten minutes! Then I asked our events team for input. They found a hotel with a free hall the same week." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Impressive [[composure:staying calm under stress]]. Most people would have lost it." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "It's just a temporary [[setback:problem that delays progress]]. I try to treat setbacks as information, not failure — and now we'll always book a backup venue. That's [[adaptability:adjusting to change]]!" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Oliver, I heard the venue for the conference cancelled yesterday. How did you handle it?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "My first instinct was to panic, to be honest. But I tried not to react [[impulsively:quickly without thinking]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "That's not easy with 200 guests coming." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "No. I paused and [[assessed:evaluated carefully]] the situation first. Then I focused on what was within my control: the date, the budget, the guest list." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Very [[pragmatic:practical and realistic]]. Did you [[catastrophize:imagine the worst outcome]]?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "For about ten minutes! Then I asked our events team for input. They found a hotel with a free hall the same week." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Impressive [[composure:staying calm under stress]]. Most people would have lost it." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "It's just a temporary [[setback:problem that delays progress]]. I try to treat setbacks as information, not failure — and now we'll always book a backup venue. That's [[adaptability:adjusting to change]]!" },
   ],
 
   matchingExercise: [
@@ -75,7 +75,7 @@ export const conversationC1UnexpectedProblems: Lesson = {
     { question: 'What is "composure"?', options: ['Writing music', 'The ability to stay calm under stress', 'A type of plan', 'Anger'], correctIndex: 1 },
     { question: 'Which phrase reframes a problem positively?', options: ['Everything is ruined.', 'I treat setbacks as information, not failure.', "It's not my fault.", 'I give up.'], correctIndex: 1 },
     { question: 'What does "pragmatic" mean?', options: ['Idealistic', 'Practical and realistic', 'Emotional', 'Slow'], correctIndex: 1 },
-    { question: 'In the dialogue, what problem did Tim face?', options: ['The speaker was ill', 'The conference venue cancelled', 'The budget was cut', 'Guests didn\'t come'], correctIndex: 1 },
-    { question: 'What will Tim always do in future?', options: ['Cancel conferences', 'Book a backup venue', 'Hire more staff', 'Work alone'], correctIndex: 1 },
+    { question: 'In the dialogue, what problem did Oliver face?', options: ['The speaker was ill', 'The conference venue cancelled', 'The budget was cut', 'Guests didn\'t come'], correctIndex: 1 },
+    { question: 'What will Oliver always do in future?', options: ['Cancel conferences', 'Book a backup venue', 'Hire more staff', 'Work alone'], correctIndex: 1 },
   ],
 };

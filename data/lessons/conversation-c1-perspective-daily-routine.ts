@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-c1-perspective-daily-routine-${s}.png`;
 
 export const conversationC1PerspectiveDailyRoutine: Lesson = {
@@ -43,14 +43,14 @@ export const conversationC1PerspectiveDailyRoutine: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Out of curiosity, Tim, what's your perspective on your daily routine?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Mixed, honestly. It feels structured, but sometimes limiting. Most days are a bit [[monotonous:repetitive and lacking variety]]." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I know the feeling. Last year I tried a very [[rigid:strict and unchangeable]] schedule — up at five, gym, cold showers. It was completely [[unsustainable:impossible to maintain]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Ha! What do you do now?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I keep it [[adaptive:able to adjust]]. A few anchors, like a slow coffee and a short walk, which are surprisingly [[restorative:giving back energy]]. The rest changes depending on the day." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "That makes sense. I've noticed that checking emails in bed is [[counterproductive:having the opposite effect]] — I start the day stressed." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Exactly. Small habits have an outsized impact on your mindset. I'm trying to be more [[intentional:deliberate, with purpose]] about the first hour." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Maybe I need to be more [[introspective:examining my own thoughts]] about mine. I've realised balance matters more than discipline for its own sake." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Out of curiosity, Oliver, what's your perspective on your daily routine?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Mixed, honestly. It feels structured, but sometimes limiting. Most days are a bit [[monotonous:repetitive and lacking variety]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I know the feeling. Last year I tried a very [[rigid:strict and unchangeable]] schedule — up at five, gym, cold showers. It was completely [[unsustainable:impossible to maintain]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Ha! What do you do now?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I keep it [[adaptive:able to adjust]]. A few anchors, like a slow coffee and a short walk, which are surprisingly [[restorative:giving back energy]]. The rest changes depending on the day." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "That makes sense. I've noticed that checking emails in bed is [[counterproductive:having the opposite effect]] — I start the day stressed." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Exactly. Small habits have an outsized impact on your mindset. I'm trying to be more [[intentional:deliberate, with purpose]] about the first hour." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Maybe I need to be more [[introspective:examining my own thoughts]] about mine. I've realised balance matters more than discipline for its own sake." },
   ],
 
   matchingExercise: [
@@ -76,7 +76,7 @@ export const conversationC1PerspectiveDailyRoutine: Lesson = {
     { question: 'Which word means "done deliberately, with purpose"?', options: ['Monotonous', 'Intentional', 'Automatic', 'Rigid'], correctIndex: 1 },
     { question: '"Small habits have an outsized impact" means…', options: ['Small habits have little effect', 'Small habits have a surprisingly large effect', 'Habits are too big', 'Habits are expensive'], correctIndex: 1 },
     { question: 'Which phrase sounds most reflective and nuanced?', options: ['Routines are bad.', "I've come to realise balance matters more than rigid discipline.", 'Everyone must wake at five.', 'I don\'t care.'], correctIndex: 1 },
-    { question: "In the dialogue, why did Kira's old schedule fail?", options: ['It was too flexible', 'It was rigid and unsustainable', 'She lost her job', 'It was too easy'], correctIndex: 1 },
-    { question: 'Which habit does Tim find counterproductive?', options: ['Walking', 'Checking emails in bed', 'Drinking coffee', 'Going to the gym'], correctIndex: 1 },
+    { question: "In the dialogue, why did Rosie's old schedule fail?", options: ['It was too flexible', 'It was rigid and unsustainable', 'She lost her job', 'It was too easy'], correctIndex: 1 },
+    { question: 'Which habit does Oliver find counterproductive?', options: ['Walking', 'Checking emails in bed', 'Drinking coffee', 'Going to the gym'], correctIndex: 1 },
   ],
 };

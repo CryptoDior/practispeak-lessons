@@ -55,7 +55,10 @@ export default function LessonView({
   lesson: Lesson;
   category: LessonCategoryInfo | null;
 }) {
-  const rawBase = lesson.tabLabels ?? DEFAULT_TABS;
+  // Conversation lessons don't use the In Action, Register and Videos sections.
+  const hideExtras = lesson.slug.startsWith('conversation-');
+  const vid = hideExtras ? 0 : 1;
+  const rawBase = (lesson.tabLabels ?? DEFAULT_TABS).filter((t) => !(hideExtras && t === 'Videos'));
   const baseTabs = rawBase.map((t) =>
     t === 'Videos' && lesson.registerAwareness ? 'Register' : t
   );
@@ -78,7 +81,7 @@ export default function LessonView({
     ? (() => { const vi = withIrlVocab.indexOf('Vocabulary'); return [...withIrlVocab.slice(0, vi + 1), 'Grammar Focus', ...withIrlVocab.slice(vi + 1)]; })()
     : [...withIrlVocab];
 
-  const hasPhrasalDetails = lesson.phrasalVerbs.some(
+  const hasPhrasalDetails = !hideExtras && lesson.phrasalVerbs.some(
     (v) => v.inAction || v.register || v.inContext
   );
   let withPhrasalTabs: string[];
@@ -567,6 +570,7 @@ export default function LessonView({
         )}
 
         {/* Videos / Register (vocab awareness) */}
+        {vid === 1 && (
         <section className={activeTab === wo + pos + irl + po + otp + gf + 2 ? 'block' : 'hidden'}>
           {lesson.registerAwareness ? (
             <>
@@ -582,12 +586,13 @@ export default function LessonView({
             </>
           )}
         </section>
+        )}
 
         {/* Dialogue / Reading Passage */}
-        <section className={activeTab === wo + pos + irl + po + otp + gf + 3 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + 2 + vid ? 'block' : 'hidden'}>
           {lesson.readingPassage ? (
             <>
-              <SectionHeader title={TABS[wo + pos + irl + po + otp + gf + 3]} subtitle="Read the passage — highlighted words are from this lesson" />
+              <SectionHeader title={TABS[wo + pos + irl + po + otp + gf + 2 + vid]} subtitle="Read the passage — highlighted words are from this lesson" />
               <ReadingPassageSection passage={lesson.readingPassage} prompts={lesson.productionPrompts} />
             </>
           ) : (
@@ -601,7 +606,7 @@ export default function LessonView({
         </section>
 
         {/* Exercises */}
-        <section className={activeTab === wo + pos + irl + po + otp + gf + 4 ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + 3 + vid ? 'block' : 'hidden'}>
           <SectionHeader title="Exercises" subtitle="Complete all three exercises to see your final score" />
           <div className="space-y-6">
             {lesson.pitchCorner && (

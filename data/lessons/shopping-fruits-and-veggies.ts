@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
 const img = (s: string) => `${R2}shopping-fruits-and-veggies-${s}.png`;
 
 export const shoppingFruitsAndVeggies: Lesson = {
@@ -44,13 +44,13 @@ export const shoppingFruitsAndVeggies: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Excuse me, do you know which fruits are [[in season:growing now, fresh and tasty]] at the moment?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Excuse me, do you know which fruits are [[in season:growing now, fresh and tasty]] at the moment?" },
     { speaker: 'Market seller', speakerColor: 'orange', text: "Strawberries and cherries — they're very sweet and [[juicy:full of juice]] this week." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Great, I'll take a box of strawberries. Can you help me find [[ripe:ready to eat]] avocados? I'm making guacamole tonight." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Great, I'll take a box of strawberries. Can you help me find [[ripe:ready to eat]] avocados? I'm making guacamole tonight." },
     { speaker: 'Market seller', speakerColor: 'orange', text: "These two are perfect for today. The others are a bit [[underripe:not ready yet]] — they'll be ready in two or three days." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Perfect — I'll take a mix of ripe and slightly underripe ones. Are your tomatoes [[organic:grown without chemicals]]?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Perfect — I'll take a mix of ripe and slightly underripe ones. Are your tomatoes [[organic:grown without chemicals]]?" },
     { speaker: 'Market seller', speakerColor: 'orange', text: "Yes, all our vegetables are organic. Avoid that box, though — some are a bit [[overripe:too ripe, almost bad]]." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Actually, overripe tomatoes are great for sauce. Do you have any you'd sell cheaply?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Actually, overripe tomatoes are great for sauce. Do you have any you'd sell cheaply?" },
     { speaker: 'Market seller', speakerColor: 'orange', text: "Sure, half price. Just check them — throw away any [[rotten:bad, not safe to eat]] ones." },
   ],
 
@@ -76,7 +76,7 @@ export const shoppingFruitsAndVeggies: Lesson = {
     { question: 'What does "underripe" mean?', options: ['Too soft', 'Not ready to eat yet', 'Rotten', 'Very sweet'], correctIndex: 1 },
     { question: 'Which fruit is a citrus fruit?', options: ['Banana', 'Lemon', 'Strawberry', 'Mango'], correctIndex: 1 },
     { question: 'Why buy fruit that is in season?', options: ['It is always more expensive', 'It is fresh, tasty and often cheaper', 'It lasts for years', 'It is imported'], correctIndex: 1 },
-    { question: 'In the dialogue, what is Kira making tonight?', options: ['Banana bread', 'Guacamole', 'Fruit salad', 'Soup'], correctIndex: 1 },
-    { question: 'What will Kira use the overripe tomatoes for?', options: ['Salad', 'Sauce', 'Juice', 'Nothing'], correctIndex: 1 },
+    { question: 'In the dialogue, what is Rosie making tonight?', options: ['Banana bread', 'Guacamole', 'Fruit salad', 'Soup'], correctIndex: 1 },
+    { question: 'What will Rosie use the overripe tomatoes for?', options: ['Salad', 'Sauce', 'Juice', 'Nothing'], correctIndex: 1 },
   ],
 };

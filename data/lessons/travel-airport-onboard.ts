@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}travel-airport-onboard-${s}.png`;
 
 export const travelAirportOnboard: Lesson = {
@@ -45,15 +45,15 @@ export const travelAirportOnboard: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Tim, they just called [[boarding group:passengers who board together]] four. That's us!" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Great. I've got our [[boarding passes:documents to board]]. Seats 18A and 18B." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Oliver, they just called [[boarding group:passengers who board together]] four. That's us!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Great. I've got our [[boarding passes:documents to board]]. Seats 18A and 18B." },
     { speaker: 'Flight attendant', speakerColor: 'orange', text: "Welcome aboard! Please [[stow:put away]] your bags in the [[overhead bin:storage above the seats]] and take your seats." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Excuse me, someone is in my seat. Would you mind checking?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Excuse me, someone is in my seat. Would you mind checking?" },
     { speaker: 'Flight attendant', speakerColor: 'orange', text: "Of course. … All sorted. Please [[fasten:close securely]] your seatbelt and switch your phone to [[airplane mode:no calls or data]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I hate [[takeoff:when the plane leaves the ground]]. My stomach always feels strange." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Just breathe. And listen to the safety instructions — the [[emergency exits:doors for dangerous situations]] are just behind us." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "I hate [[takeoff:when the plane leaves the ground]]. My stomach always feels strange." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Just breathe. And listen to the safety instructions — the [[emergency exits:doors for dangerous situations]] are just behind us." },
     { speaker: 'Captain', speakerColor: 'blue', text: "Good evening, this is your captain speaking. We may experience some light [[turbulence:shaking of the plane]] after takeoff. Please keep your seatbelts fastened." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Great… Excuse me, could I have some water, please?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Great… Excuse me, could I have some water, please?" },
   ],
 
   matchingExercise: [
@@ -78,7 +78,7 @@ export const travelAirportOnboard: Lesson = {
     { question: 'What does "stow" mean?', options: ['Put away carefully', 'Throw away', 'Open', 'Carry'], correctIndex: 0 },
     { question: 'What is "turbulence"?', options: ['A type of meal', 'Sudden shaking of the plane', 'A delay', 'A seat'], correctIndex: 1 },
     { question: 'Which is the noun?', options: ['take off', 'takeoff', 'took off', 'taking off'], correctIndex: 1 },
-    { question: 'In the dialogue, which boarding group are Kira and Tim?', options: ['One', 'Two', 'Four', 'Six'], correctIndex: 2 },
-    { question: 'What does Tim ask for at the end?', options: ['A blanket', 'Water', 'Coffee', 'A new seat'], correctIndex: 1 },
+    { question: 'In the dialogue, which boarding group are Rosie and Oliver?', options: ['One', 'Two', 'Four', 'Six'], correctIndex: 2 },
+    { question: 'What does Oliver ask for at the end?', options: ['A blanket', 'Water', 'Coffee', 'A new seat'], correctIndex: 1 },
   ],
 };

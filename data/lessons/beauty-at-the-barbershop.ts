@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const TIM = R2 + 'tim-professional-portrait.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}beauty-at-the-barbershop-${s}.png`;
 
 export const beautyAtTheBarbershop: Lesson = {
@@ -43,13 +43,13 @@ export const beautyAtTheBarbershop: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Hi! I'm here for a haircut. Is there a [[queue:line of people waiting]]?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Hi! I'm here for a haircut. Is there a [[queue:line of people waiting]]?" },
     { speaker: 'Barber', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/barber-icon.png', speakerColor: 'orange', text: "No, you're lucky! Take a seat. What would you like today?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I'd like to try something new. Maybe a [[fade:haircut shorter at the bottom]] with clean lines. And please don't cut too much off the top." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "I'd like to try something new. Maybe a [[fade:haircut shorter at the bottom]] with clean lines. And please don't cut too much off the top." },
     { speaker: 'Barber', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/barber-icon.png', speakerColor: 'orange', text: "Got it. I'll use the [[clippers:electric hair-cutting machine]] on the [[sides:parts next to the ears]] — a number two — and a [[razor:sharp blade]] for the edges." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Sounds perfect. Could you touch up my [[beard:hair on the chin]] too?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Sounds perfect. Could you touch up my [[beard:hair on the chin]] too?" },
     { speaker: 'Barber', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/barber-icon.png', speakerColor: 'orange', text: "Sure. Do you want me to [[shave:remove with a razor]] your neck as well?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Yes, please. I have a wedding this weekend. I need to look sharp!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Yes, please. I have a wedding this weekend. I need to look sharp!" },
     { speaker: 'Barber', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/barber-icon.png', speakerColor: 'orange', text: "No problem. You'll leave this [[barbershop:place for men's haircuts]] looking great." },
   ],
 
@@ -75,7 +75,7 @@ export const beautyAtTheBarbershop: Lesson = {
     { question: 'What is a "fade"?', options: ['A hair colour', 'A haircut shorter from top to bottom', 'A beard style', 'A shampoo'], correctIndex: 1 },
     { question: 'What does a "number one" usually mean?', options: ['Very short', 'Very long', 'No cut', 'Only the beard'], correctIndex: 0 },
     { question: 'What tool has a sharp blade?', options: ['Clippers', 'Razor', 'Shampoo', 'Comb'], correctIndex: 1 },
-    { question: 'In the dialogue, why does Tim want to look sharp?', options: ['A job interview', 'A wedding', 'A party', 'A photo'], correctIndex: 1 },
+    { question: 'In the dialogue, why does Oliver want to look sharp?', options: ['A job interview', 'A wedding', 'A party', 'A photo'], correctIndex: 1 },
     { question: 'Which clipper number does the barber use on the sides?', options: ['One', 'Two', 'Three', 'Four'], correctIndex: 1 },
   ],
 };

@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}everyday-instagram-${s}.png`;
 
 export const everydayInstagram: Lesson = {
@@ -49,18 +49,18 @@ export const everydayInstagram: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Hey, Kira! Long time no see. How's everything going?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Hi, Tim! Good, thanks. By the way, I've just started using Instagram." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Oh, cool! What's your [[username:the name of your account]]? I'll [[follow:subscribe to your updates]] you." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "It's @KiraAdventures. And I'll [[follow you back:follow you because you follow me]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Great, I'll [[click on:tap]] the follow button right now. Are you going to [[post:share]] pictures from your hiking trip?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes! I'll add [[hashtags:#words that group posts]] like #NatureLovers so more people see them." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Good idea. Hiking photos always get loads of [[likes:taps to show you enjoy a post]].' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "The hard part is the [[captions:text under a photo]]. I can never [[come up with:think of]] anything catchy." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'I just [[think of:have the idea of]] the mood of the photo. For a sunset, maybe "Chasing moments."' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Nice! Oh, and I saw Alice's photo from the barbecue in my [[feed:stream of posts]]. Can you [[tag me in:mention me in]] yours too?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Sure. I'll put it on my [[story:post that disappears after 24 hours]] as well. And remember to [[reply to:answer]] your [[comments:messages people leave on a post]]!" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Will do. Let's plan a hike soon and take some great photos. See you online!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Hey, Rosie! Long time no see. How's everything going?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Hi, Oliver! Good, thanks. By the way, I've just started using Instagram." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Oh, cool! What's your [[username:the name of your account]]? I'll [[follow:subscribe to your updates]] you." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "It's @KiraAdventures. And I'll [[follow you back:follow you because you follow me]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Great, I'll [[click on:tap]] the follow button right now. Are you going to [[post:share]] pictures from your hiking trip?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes! I'll add [[hashtags:#words that group posts]] like #NatureLovers so more people see them." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Good idea. Hiking photos always get loads of [[likes:taps to show you enjoy a post]].' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "The hard part is the [[captions:text under a photo]]. I can never [[come up with:think of]] anything catchy." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'I just [[think of:have the idea of]] the mood of the photo. For a sunset, maybe "Chasing moments."' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Nice! Oh, and I saw Alice's photo from the barbecue in my [[feed:stream of posts]]. Can you [[tag me in:mention me in]] yours too?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Sure. I'll put it on my [[story:post that disappears after 24 hours]] as well. And remember to [[reply to:answer]] your [[comments:messages people leave on a post]]!" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Will do. Let's plan a hike soon and take some great photos. See you online!" },
   ],
 
   matchingExercise: [
@@ -85,7 +85,7 @@ export const everydayInstagram: Lesson = {
     { question: 'What is a "story" on Instagram?', options: ['A long blog post', 'A post that disappears after 24 hours', 'A private message', 'A comment'], correctIndex: 1 },
     { question: 'What does "follow back" mean?', options: ['Unfollow someone', 'Follow someone who follows you', 'Go back to the feed', 'Delete a post'], correctIndex: 1 },
     { question: 'Which is correct?', options: ['Tag in me the photo.', 'Tag me in the photo.', 'Tag the photo in me.', 'In tag me the photo.'], correctIndex: 1 },
-    { question: 'In the dialogue, what does Kira find difficult?', options: ['Choosing hashtags', 'Writing captions', 'Taking photos', 'Finding followers'], correctIndex: 1 },
-    { question: 'What caption idea does Tim give for a sunset?', options: ['"Golden hour"', '"Chasing moments"', '"Sunset vibes"', '"Nature lovers"'], correctIndex: 1 },
+    { question: 'In the dialogue, what does Rosie find difficult?', options: ['Choosing hashtags', 'Writing captions', 'Taking photos', 'Finding followers'], correctIndex: 1 },
+    { question: 'What caption idea does Oliver give for a sunset?', options: ['"Golden hour"', '"Chasing moments"', '"Sunset vibes"', '"Nature lovers"'], correctIndex: 1 },
   ],
 };

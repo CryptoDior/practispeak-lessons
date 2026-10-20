@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
 const img = (s: string) => `${R2}travel-passport-control-${s}.png`;
 
 export const travelPassportControl: Lesson = {
@@ -44,15 +44,15 @@ export const travelPassportControl: Lesson = {
 
   dialogue: [
     { speaker: 'Officer', speakerColor: 'blue', text: 'Good afternoon. Passport, please.' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Good afternoon. Here you are.' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Good afternoon. Here you are.' },
     { speaker: 'Officer', speakerColor: 'blue', text: 'What is your [[nationality:the country you are a citizen of]]?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I'm South African." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I'm South African." },
     { speaker: 'Officer', speakerColor: 'blue', text: 'And what is the [[purpose:reason]] of your visit?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I'm here on holiday. I'm visiting London and Edinburgh." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I'm here on holiday. I'm visiting London and Edinburgh." },
     { speaker: 'Officer', speakerColor: 'blue', text: 'How long do you [[intend:plan]] to stay?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Two weeks. I'll be staying at a hotel in Camden, and then with a friend in Edinburgh. Here's my return ticket." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Two weeks. I'll be staying at a hotel in Camden, and then with a friend in Edinburgh. Here's my return ticket." },
     { speaker: 'Officer', speakerColor: 'blue', text: 'Thank you. Do you have any food, plants or other [[restricted items:things you cannot bring in]] to declare?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'No, nothing to declare.' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'No, nothing to declare.' },
     { speaker: 'Officer', speakerColor: 'blue', text: "Thank you. I've [[verified:checked]] your documents. Enjoy your stay. You may proceed." },
   ],
 
@@ -78,7 +78,7 @@ export const travelPassportControl: Lesson = {
     { question: '"What is the purpose of your visit?" asks…', options: ['How long you stay', 'Why you are travelling', 'Where you live', 'Your nationality'], correctIndex: 1 },
     { question: 'Which answer is best?', options: ["I'm here on business.", 'Why do you ask?', 'Maybe.', 'None of your business.'], correctIndex: 0 },
     { question: 'What does "proceed" mean here?', options: ['Wait', 'Go forward', 'Go back', 'Pay'], correctIndex: 1 },
-    { question: 'In the dialogue, how long will Kira stay?', options: ['One week', 'Ten days', 'Two weeks', 'One month'], correctIndex: 2 },
-    { question: 'Where will Kira stay in Edinburgh?', options: ['A hotel', 'With a friend', 'A hostel', 'With family'], correctIndex: 1 },
+    { question: 'In the dialogue, how long will Rosie stay?', options: ['One week', 'Ten days', 'Two weeks', 'One month'], correctIndex: 2 },
+    { question: 'Where will Rosie stay in Edinburgh?', options: ['A hotel', 'With a friend', 'A hostel', 'With family'], correctIndex: 1 },
   ],
 };

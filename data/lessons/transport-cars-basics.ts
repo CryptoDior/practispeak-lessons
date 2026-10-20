@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}transport-cars-basics-${s}.png`;
 
 export const transportCarsBasics: Lesson = {
@@ -45,16 +45,16 @@ export const transportCarsBasics: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Hi Kira! How is your car?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Not good. It's a big [[headache:problem]]. A light on the [[dashboard:area with lights in front of the driver]] keeps flashing. Maybe it's the [[engine:part that makes the car move]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Oh no. It can [[break down:stop working]]! [[Get it checked:ask a mechanic to look at it]] soon. And the [[tires:rubber parts on the wheels]]? Are they OK?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I don't know. I don't want one to [[blow out:break and lose air]]. I think I need to [[pump up:put air into]] the tires." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Yes, do that. And the [[brakes:what you use to stop]]? Last time it was hard to [[slow down:go slower]].' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "They're not great. And my [[headlights:front lights]] are [[dim:not bright]] now." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Maybe you need new [[bulbs:glass parts that make light]]. Anything else?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "The [[trunk:space at the back]] is hard to open, and there was a [[crack:small break]] in the [[windshield:big front window]]. I fixed that last week." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Wow, a lot of problems! Take it to a mechanic soon.' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I know. Better safe than sorry!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Hi Rosie! How is your car?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Not good. It's a big [[headache:problem]]. A light on the [[dashboard:area with lights in front of the driver]] keeps flashing. Maybe it's the [[engine:part that makes the car move]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Oh no. It can [[break down:stop working]]! [[Get it checked:ask a mechanic to look at it]] soon. And the [[tires:rubber parts on the wheels]]? Are they OK?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I don't know. I don't want one to [[blow out:break and lose air]]. I think I need to [[pump up:put air into]] the tires." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Yes, do that. And the [[brakes:what you use to stop]]? Last time it was hard to [[slow down:go slower]].' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "They're not great. And my [[headlights:front lights]] are [[dim:not bright]] now." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Maybe you need new [[bulbs:glass parts that make light]]. Anything else?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "The [[trunk:space at the back]] is hard to open, and there was a [[crack:small break]] in the [[windshield:big front window]]. I fixed that last week." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Wow, a lot of problems! Take it to a mechanic soon.' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I know. Better safe than sorry!" },
   ],
 
   matchingExercise: [
@@ -80,6 +80,6 @@ export const transportCarsBasics: Lesson = {
     { question: 'What does "break down" mean?', options: ['Go faster', 'Stop working', 'Turn left', 'Open the door'], correctIndex: 1 },
     { question: 'What is "dim"?', options: ['Very bright', 'Not bright', 'Broken', 'New'], correctIndex: 1 },
     { question: 'In the dialogue, what is flashing on the dashboard?', options: ['A light', 'The radio', 'A phone', 'The clock'], correctIndex: 0 },
-    { question: 'What did Kira already fix?', options: ['The brakes', 'The tires', 'A crack in the windshield', 'The trunk'], correctIndex: 2 },
+    { question: 'What did Rosie already fix?', options: ['The brakes', 'The tires', 'A crack in the windshield', 'The trunk'], correctIndex: 2 },
   ],
 };

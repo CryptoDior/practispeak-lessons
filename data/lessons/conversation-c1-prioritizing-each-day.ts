@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-c1-prioritizing-each-day-${s}.png`;
 
 export const conversationC1PrioritizingEachDay: Lesson = {
@@ -43,14 +43,14 @@ export const conversationC1PrioritizingEachDay: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "You always seem to get the important things done, Kira. How do you decide what to prioritize each day?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I start with what will have the biggest long-term impact. Then I separate what's urgent from what's actually important." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "My problem is that everything feels urgent. I end up completely [[reactive:only responding to things as they happen]]." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I used to be the same. Now I [[allocate:assign]] my [[peak:best]] hours — nine to eleven — to deep work. Notifications stay off." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "And the afternoon?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Meetings and admin, when my [[bandwidth:mental capacity]] is lower. I also try to cut [[busywork:tasks that achieve little]] — things that look productive but don't move me forward." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I definitely underestimate the [[magnitude:size or importance]] of some projects and start them too late." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "A simple [[hierarchy:ranking by importance]] helps: three must-dos, then everything else. It keeps you [[proactive:acting before problems appear]] instead of firefighting." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "You always seem to get the important things done, Rosie. How do you decide what to prioritize each day?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I start with what will have the biggest long-term impact. Then I separate what's urgent from what's actually important." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "My problem is that everything feels urgent. I end up completely [[reactive:only responding to things as they happen]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I used to be the same. Now I [[allocate:assign]] my [[peak:best]] hours — nine to eleven — to deep work. Notifications stay off." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "And the afternoon?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Meetings and admin, when my [[bandwidth:mental capacity]] is lower. I also try to cut [[busywork:tasks that achieve little]] — things that look productive but don't move me forward." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "I definitely underestimate the [[magnitude:size or importance]] of some projects and start them too late." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "A simple [[hierarchy:ranking by importance]] helps: three must-dos, then everything else. It keeps you [[proactive:acting before problems appear]] instead of firefighting." },
   ],
 
   matchingExercise: [
@@ -76,7 +76,7 @@ export const conversationC1PrioritizingEachDay: Lesson = {
     { question: 'What is "busywork"?', options: ['Very important work', 'Tasks that keep you busy but achieve little', 'Work done in a team', 'Overtime'], correctIndex: 1 },
     { question: 'What does "bandwidth" mean in this context?', options: ['Internet speed', 'Mental or emotional capacity', 'A type of schedule', 'A salary'], correctIndex: 1 },
     { question: 'What is the opposite of "proactive"?', options: ['Reactive', 'Productive', 'Active', 'Positive'], correctIndex: 0 },
-    { question: "In the dialogue, what are Kira's peak hours?", options: ['7 to 9', '9 to 11', '1 to 3', '4 to 6'], correctIndex: 1 },
-    { question: 'What does Kira do in the afternoon?', options: ['Deep work', 'Meetings and admin', 'Exercise', 'Nothing'], correctIndex: 1 },
+    { question: "In the dialogue, what are Rosie's peak hours?", options: ['7 to 9', '9 to 11', '1 to 3', '4 to 6'], correctIndex: 1 },
+    { question: 'What does Rosie do in the afternoon?', options: ['Deep work', 'Meetings and admin', 'Exercise', 'Nothing'], correctIndex: 1 },
   ],
 };

@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const TIM = R2 + 'tim-professional-portrait.png';
-const KIRA = R2 + 'kira-professional-portrait.png';
+const OLIVER = R2 + 'oliver-icon.png';
+const ROSIE = R2 + 'rosie-icon.png';
 const img = (s: string) => `${R2}clothes-summer-${s}.png`;
 
 export const clothesSummer: Lesson = {
@@ -44,14 +44,14 @@ export const clothesSummer: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Tim! Nice [[Hawaiian shirt:bright shirt with tropical prints]]. Very summery!" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Thanks! It's so hot today. I just [[threw on:put on quickly]] this shirt and my [[cargo shorts:shorts with big pockets]]." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Honestly, not everyone can [[pull off:wear and look good in]] that shirt, but you can." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Ha, thanks. I like your outfit too. Is that a [[tank top:top with no sleeves]]?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes, it's linen, so it's very [[breathable:lets air through]]. And these are my favourite [[denim shorts:shorts made of jeans material]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "They look a bit old!" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I know, I've almost [[worn out:used until old and damaged]] them. But they're [[retro:in the style of the past]] now — very fashionable!" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "True. Denim is [[timeless:always in fashion]]. Come on, let's get an ice cream." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Oliver! Nice [[Hawaiian shirt:bright shirt with tropical prints]]. Very summery!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Thanks! It's so hot today. I just [[threw on:put on quickly]] this shirt and my [[cargo shorts:shorts with big pockets]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Honestly, not everyone can [[pull off:wear and look good in]] that shirt, but you can." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Ha, thanks. I like your outfit too. Is that a [[tank top:top with no sleeves]]?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes, it's linen, so it's very [[breathable:lets air through]]. And these are my favourite [[denim shorts:shorts made of jeans material]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "They look a bit old!" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I know, I've almost [[worn out:used until old and damaged]] them. But they're [[retro:in the style of the past]] now — very fashionable!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "True. Denim is [[timeless:always in fashion]]. Come on, let's get an ice cream." },
   ],
 
   matchingExercise: [
@@ -76,7 +76,7 @@ export const clothesSummer: Lesson = {
     { question: 'What is a tank top?', options: ['A top with long sleeves', 'A top with no sleeves', 'A coat', 'A pair of shorts'], correctIndex: 1 },
     { question: 'What does "throw on" mean?', options: ['Throw clothes away', 'Put on clothes quickly', 'Wash clothes', 'Buy clothes'], correctIndex: 1 },
     { question: 'Which fabric adjective keeps you cool?', options: ['Breathable', 'Waterproof', 'Heavy', 'Warm'], correctIndex: 0 },
-    { question: 'In the dialogue, what is Kira\'s top made of?', options: ['Cotton', 'Linen', 'Denim', 'Wool'], correctIndex: 1 },
+    { question: 'In the dialogue, what is Rosie\'s top made of?', options: ['Cotton', 'Linen', 'Denim', 'Wool'], correctIndex: 1 },
     { question: 'What do they do at the end?', options: ['Go shopping', 'Get an ice cream', 'Go swimming', 'Go home'], correctIndex: 1 },
   ],
 };

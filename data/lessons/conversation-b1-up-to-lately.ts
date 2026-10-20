@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
 const MARIA = R2 + 'professional-portrait-latina-woman-terracotta-top.png';
 const img = (s: string) => `${R2}conversation-b1-up-to-lately-${s}.png`;
 
@@ -43,14 +43,14 @@ export const conversationB1UpToLately: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: 'Kira! I haven\'t seen you for ages. What have you been up to [[lately:recently]]?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Maria! It's been really [[eventful:full of things happening]]. I've been really busy with work — we opened a new office." },
+    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: 'Rosie! I haven\'t seen you for ages. What have you been up to [[lately:recently]]?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Maria! It's been really [[eventful:full of things happening]]. I've been really busy with work — we opened a new office." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: 'Wow, congratulations! That sounds a bit [[overwhelming:too much to handle]] though.' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "It was at first. Now I've been trying to relax more. I [[rarely:not often]] check emails after 7 p.m. now." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "It was at first. Now I've been trying to relax more. I [[rarely:not often]] check emails after 7 p.m. now." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Good for you! I've been focusing on myself too. I've been going to yoga three times a week." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Three times? That\'s very [[consistent:regular, always the same]]!' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Three times? That\'s very [[consistent:regular, always the same]]!' },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Ha! [[Mostly:mainly]]. Apart from that, it's been a pretty normal, [[peaceful:calm and quiet]] month." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "We should catch up properly. Dinner next week? I want a more [[social:with other people]] month!" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "We should catch up properly. Dinner next week? I want a more [[social:with other people]] month!" },
   ],
 
   matchingExercise: [
@@ -76,7 +76,7 @@ export const conversationB1UpToLately: Lesson = {
     { question: 'What does "eventful" mean?', options: ['Boring', 'Full of things happening', 'Very short', 'Very expensive'], correctIndex: 1 },
     { question: 'Which answer means nothing special happened?', options: ['Not much, just the usual.', "It's been overwhelming.", "I've been very social.", "It's been eventful."], correctIndex: 0 },
     { question: 'What does "rarely" mean?', options: ['Always', 'Often', 'Not often', 'Never'], correctIndex: 2 },
-    { question: "In the dialogue, why has Kira's month been eventful?", options: ['She moved house', 'Her company opened a new office', 'She got married', 'She started yoga'], correctIndex: 1 },
+    { question: "In the dialogue, why has Rosie's month been eventful?", options: ['She moved house', 'Her company opened a new office', 'She got married', 'She started yoga'], correctIndex: 1 },
     { question: 'How often does Maria go to yoga?', options: ['Once a week', 'Twice a week', 'Three times a week', 'Every day'], correctIndex: 2 },
   ],
 };

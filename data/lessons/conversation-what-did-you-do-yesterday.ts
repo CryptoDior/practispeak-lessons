@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-what-did-you-do-yesterday-${s}.png`;
 
 export const conversationWhatDidYouDoYesterday: Lesson = {
@@ -42,15 +42,15 @@ export const conversationWhatDidYouDoYesterday: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Hi Tim! What did you do [[yesterday:the day before today]]?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'I stayed at home. I [[watched:looked at, past of watch]] a movie.' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Was it good?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'No, it was [[boring:not interesting]]. Then I [[cooked:made food, past of cook]] dinner. What about you?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'I [[went:past of go]] to the mall with my sister.' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Really? Tell me more.' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'We bought new shoes. Then I [[met:saw and spent time with, past of meet]] my friend for coffee.' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'That sounds nice!' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Yes, it was [[fun:nice and enjoyable]]! In the evening I studied English.' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Hi Oliver! What did you do [[yesterday:the day before today]]?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'I stayed at home. I [[watched:looked at, past of watch]] a movie.' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Was it good?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'No, it was [[boring:not interesting]]. Then I [[cooked:made food, past of cook]] dinner. What about you?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'I [[went:past of go]] to the mall with my sister.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Really? Tell me more.' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'We bought new shoes. Then I [[met:saw and spent time with, past of meet]] my friend for coffee.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'That sounds nice!' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Yes, it was [[fun:nice and enjoyable]]! In the evening I studied English.' },
   ],
 
   matchingExercise: [
@@ -76,7 +76,7 @@ export const conversationWhatDidYouDoYesterday: Lesson = {
     { question: 'Which question is correct?', options: ['What did you did yesterday?', 'What you did yesterday?', 'What did you do yesterday?', 'What do you did yesterday?'], correctIndex: 2 },
     { question: 'What is the past of "meet"?', options: ['meeted', 'met', 'meat', 'meets'], correctIndex: 1 },
     { question: 'The opposite of "fun" is…', options: ['happy', 'boring', 'good', 'cool'], correctIndex: 1 },
-    { question: 'In the dialogue, what did Tim watch?', options: ['YouTube', 'A football game', 'A movie', 'The news'], correctIndex: 2 },
-    { question: 'Where did Kira go?', options: ['To school', 'To the mall', 'To the beach', 'To work'], correctIndex: 1 },
+    { question: 'In the dialogue, what did Oliver watch?', options: ['YouTube', 'A football game', 'A movie', 'The news'], correctIndex: 2 },
+    { question: 'Where did Rosie go?', options: ['To school', 'To the mall', 'To the beach', 'To work'], correctIndex: 1 },
   ],
 };

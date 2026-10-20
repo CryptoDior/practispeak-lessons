@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
 const MARIA = R2 + 'professional-portrait-latina-woman-terracotta-top.png';
 const img = (s: string) => `${R2}conversation-b1-to-relax-${s}.png`;
 
@@ -42,14 +42,14 @@ export const conversationB1ToRelax: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "You always seem so calm, Kira, even on busy days. What do you do to relax?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Ha, not always! But I try to [[switch off:stop thinking about work]] when I get home. I [[meditate:sit quietly and focus on breathing]] for ten minutes." },
+    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "You always seem so calm, Rosie, even on busy days. What do you do to relax?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Ha, not always! But I try to [[switch off:stop thinking about work]] when I get home. I [[meditate:sit quietly and focus on breathing]] for ten minutes." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "I've tried meditation, but my mind is too busy. I can't sit still!" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That's normal at first. Just [[breathe:take air in and out]] slowly and count. What helps you [[unwind:calm down after stress]]?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "That's normal at first. Just [[breathe:take air in and out]] slowly and count. What helps you [[unwind:calm down after stress]]?" },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "I go for a walk to clear my mind, usually by the river. And I listen to [[calming:relaxing]] music." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That sounds lovely. I also like to [[disconnect:take a break from screens]] on Sundays — no phone, no laptop." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "That sounds lovely. I also like to [[disconnect:take a break from screens]] on Sundays — no phone, no laptop." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "A whole day? I'd love to try that. I really need to [[recharge:get my energy back]]." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Start with one evening. Watch something light, and try not to think too much. You'll feel the difference." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Start with one evening. Watch something light, and try not to think too much. You'll feel the difference." },
   ],
 
   matchingExercise: [
@@ -75,7 +75,7 @@ export const conversationB1ToRelax: Lesson = {
     { question: 'What does "recharge" mean for a person?', options: ['Buy a new phone', 'Get your energy back', 'Pay a bill', 'Work harder'], correctIndex: 1 },
     { question: 'Which sentence is correct?', options: ['I try not think too much.', 'I try not to think too much.', 'I try to not thinking.', 'I not try to think.'], correctIndex: 1 },
     { question: 'What does "watch something light" mean?', options: ['Watch something easy and comforting', 'Watch with the lights on', 'Watch a short video', 'Watch the news'], correctIndex: 0 },
-    { question: 'In the dialogue, how long does Kira meditate?', options: ['Five minutes', 'Ten minutes', 'One hour', 'All day'], correctIndex: 1 },
+    { question: 'In the dialogue, how long does Rosie meditate?', options: ['Five minutes', 'Ten minutes', 'One hour', 'All day'], correctIndex: 1 },
     { question: 'Where does Maria walk?', options: ['In the park', 'By the river', 'In the mountains', 'At the gym'], correctIndex: 1 },
   ],
 };

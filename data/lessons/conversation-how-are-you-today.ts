@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-how-are-you-today-${s}.png`;
 
 export const conversationHowAreYouToday: Lesson = {
@@ -31,7 +31,7 @@ export const conversationHowAreYouToday: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'How are you?', tag: 'phrase', definition: 'A common question about how someone feels.', example: '"Hi Kira! How are you?"', imageSlug: img('how-are-you') },
+    { phrase: 'How are you?', tag: 'phrase', definition: 'A common question about how someone feels.', example: '"Hi Rosie! How are you?"', imageSlug: img('how-are-you') },
     { phrase: "I'm fine, thank you.", tag: 'phrase', definition: 'A polite, simple answer.', example: '"How are you?" → "I\'m fine, thank you."', imageSlug: img('im-fine') },
     { phrase: "I'm good.", tag: 'phrase', definition: 'A natural, friendly answer.', example: '"How are you?" → "I\'m good!"', imageSlug: img('im-good') },
     { phrase: "I'm okay.", tag: 'phrase', definition: 'You feel normal. Not good, not bad.', example: '"How are you?" → "I\'m okay."', imageSlug: img('im-okay') },
@@ -43,14 +43,14 @@ export const conversationHowAreYouToday: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Hi Tim! How are you today?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I'm [[good:nice, you feel well]], thank you. And you?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I'm [[fine:OK, not good and not bad]]. How is your [[day:the time from morning to night]]?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'My day is good. I [[feel:have an emotion]] [[happy:good and smiling]] today.' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That's great! Yesterday I was very [[tired:wanting to sleep]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Really? I feel a little tired now.' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Oh no! I hope you feel better later.' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Thanks, Kira. Don't be [[sad:not happy]] about yesterday. Today is a new day!" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Hi Oliver! How are you today?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "I'm [[good:nice, you feel well]], thank you. And you?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I'm [[fine:OK, not good and not bad]]. How is your [[day:the time from morning to night]]?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'My day is good. I [[feel:have an emotion]] [[happy:good and smiling]] today.' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "That's great! Yesterday I was very [[tired:wanting to sleep]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Really? I feel a little tired now.' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Oh no! I hope you feel better later.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Thanks, Rosie. Don't be [[sad:not happy]] about yesterday. Today is a new day!" },
   ],
 
   matchingExercise: [
@@ -72,11 +72,11 @@ export const conversationHowAreYouToday: Lesson = {
   ],
 
   multipleChoiceExercise: [
-    { question: '"How are you?" What is a good answer?', options: ["I'm tired.", 'Goodbye.', 'My name is Tim.', 'Nice to meet you.'], correctIndex: 0 },
+    { question: '"How are you?" What is a good answer?', options: ["I'm tired.", 'Goodbye.', 'My name is Oliver.', 'Nice to meet you.'], correctIndex: 0 },
     { question: 'What does "tired" mean?', options: ['You feel sleepy', 'You feel happy', 'You are hungry', 'You are late'], correctIndex: 0 },
     { question: 'You answer "I\'m fine, thank you." What do you say next?', options: ['Goodbye.', 'And you?', 'What time is it?', 'See you.'], correctIndex: 1 },
     { question: '"How is your day?" What is the best answer?', options: ['My day is good.', 'See you next time.', "I'm from Spain.", 'Yes, I do.'], correctIndex: 0 },
     { question: '"I\'m sad." means…', options: ["I'm unhappy.", "I'm hungry.", "I'm good.", "I'm late."], correctIndex: 0 },
-    { question: 'In the dialogue, how does Tim feel now?', options: ['Sad', 'A little tired', 'Angry', 'Hungry'], correctIndex: 1 },
+    { question: 'In the dialogue, how does Oliver feel now?', options: ['Sad', 'A little tired', 'Angry', 'Hungry'], correctIndex: 1 },
   ],
 };

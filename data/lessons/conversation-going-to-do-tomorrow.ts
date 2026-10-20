@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-going-to-do-tomorrow-${s}.png`;
 
 export const conversationGoingToDoTomorrow: Lesson = {
@@ -43,15 +43,15 @@ export const conversationGoingToDoTomorrow: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Kira, what are you going to do [[tomorrow:the day after today]]?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I'm going to stay at home. I want to [[relax:rest and not work]]. And you?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I'm going to meet my friend tomorrow." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Really? What time?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "In the [[afternoon:after 12, before evening]]. We're going to [[eat out:eat in a restaurant]] together." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'That sounds nice! Where are you going to eat?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "At a new pizza place. And in the [[evening:the end of the day]] I'm going to study English." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Good [[plan:something you decide to do]]! I'm going to study in the [[morning:before 12]]. Have fun with your friend!" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Thanks! Enjoy your day at home.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Rosie, what are you going to do [[tomorrow:the day after today]]?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I'm going to stay at home. I want to [[relax:rest and not work]]. And you?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "I'm going to meet my friend tomorrow." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Really? What time?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "In the [[afternoon:after 12, before evening]]. We're going to [[eat out:eat in a restaurant]] together." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'That sounds nice! Where are you going to eat?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "At a new pizza place. And in the [[evening:the end of the day]] I'm going to study English." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Good [[plan:something you decide to do]]! I'm going to study in the [[morning:before 12]]. Have fun with your friend!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Thanks! Enjoy your day at home.' },
   ],
 
   matchingExercise: [
@@ -77,7 +77,7 @@ export const conversationGoingToDoTomorrow: Lesson = {
     { question: 'Which is correct?', options: ["I'm going to studying.", "I'm going study.", "I'm going to study.", 'I going to study.'], correctIndex: 2 },
     { question: 'A friend says "I\'m going to the beach." What can you say?', options: ['That sounds nice!', 'What did you do?', "I'm tired.", 'Goodbye.'], correctIndex: 0 },
     { question: '"What time?" Which answer is correct?', options: ['In the morning.', 'On the morning.', 'At the morning.', 'Morning in.'], correctIndex: 0 },
-    { question: 'In the dialogue, what is Kira going to do tomorrow?', options: ['Meet a friend', 'Stay at home and relax', 'Go to work', 'Eat out'], correctIndex: 1 },
-    { question: 'When is Tim going to meet his friend?', options: ['In the morning', 'In the afternoon', 'In the evening', 'At night'], correctIndex: 1 },
+    { question: 'In the dialogue, what is Rosie going to do tomorrow?', options: ['Meet a friend', 'Stay at home and relax', 'Go to work', 'Eat out'], correctIndex: 1 },
+    { question: 'When is Oliver going to meet his friend?', options: ['In the morning', 'In the afternoon', 'In the evening', 'At night'], correctIndex: 1 },
   ],
 };

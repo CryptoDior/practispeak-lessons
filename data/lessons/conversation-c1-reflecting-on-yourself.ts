@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-c1-reflecting-on-yourself-${s}.png`;
 
 export const conversationC1ReflectingOnYourself: Lesson = {
@@ -43,14 +43,14 @@ export const conversationC1ReflectingOnYourself: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Can I ask you something deep? What recent situation made you reflect on yourself?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Funny you ask. Last month a colleague gave me some blunt feedback in a meeting, and honestly, it was quite [[triggering:causing a strong emotional reaction]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "How did you react?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Defensively, at first. But later I realised I was reacting out of habit, not intention. It brought some of my [[vulnerabilities:weak points]] to the surface." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "That takes a lot of [[self-awareness:understanding your own behaviour]] to admit." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "It was a real [[realization:moment of sudden understanding]]. I noticed [[behavioural patterns:repeated ways of reacting]] I hadn't seen before — I always take criticism as a personal attack." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Probably some [[subconscious:without conscious awareness]] fear of failure, no?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Exactly. It made me confront something I'd avoided for years. I'm still processing it, but I have more [[emotional clarity:clear understanding of my feelings]] now." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Can I ask you something deep? What recent situation made you reflect on yourself?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Funny you ask. Last month a colleague gave me some blunt feedback in a meeting, and honestly, it was quite [[triggering:causing a strong emotional reaction]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "How did you react?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Defensively, at first. But later I realised I was reacting out of habit, not intention. It brought some of my [[vulnerabilities:weak points]] to the surface." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "That takes a lot of [[self-awareness:understanding your own behaviour]] to admit." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "It was a real [[realization:moment of sudden understanding]]. I noticed [[behavioural patterns:repeated ways of reacting]] I hadn't seen before — I always take criticism as a personal attack." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Probably some [[subconscious:without conscious awareness]] fear of failure, no?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Exactly. It made me confront something I'd avoided for years. I'm still processing it, but I have more [[emotional clarity:clear understanding of my feelings]] now." },
   ],
 
   matchingExercise: [
@@ -76,7 +76,7 @@ export const conversationC1ReflectingOnYourself: Lesson = {
     { question: '"It brought my weaknesses to the surface" means…', options: ['It hid my weaknesses', 'It revealed my weaknesses', 'It removed my weaknesses', 'It made me stronger'], correctIndex: 1 },
     { question: 'Which sentence correctly uses the past perfect?', options: ["I confronted something I'd avoided for years.", 'I confront something I avoided for years.', "I'd confront something I avoid.", 'I have confronted something I avoid.'], correctIndex: 0 },
     { question: 'What does "reacting out of habit, not intention" mean?', options: ['Acting deliberately', 'Acting automatically, without thinking', 'Not reacting at all', 'Planning carefully'], correctIndex: 1 },
-    { question: 'In the dialogue, what triggered Kira?', options: ['A promotion', 'Blunt feedback in a meeting', 'A holiday', 'A new project'], correctIndex: 1 },
-    { question: 'What pattern did Kira notice?', options: ['She is always late', 'She takes criticism as a personal attack', 'She works too much', 'She avoids meetings'], correctIndex: 1 },
+    { question: 'In the dialogue, what triggered Rosie?', options: ['A promotion', 'Blunt feedback in a meeting', 'A holiday', 'A new project'], correctIndex: 1 },
+    { question: 'What pattern did Rosie notice?', options: ['She is always late', 'She takes criticism as a personal attack', 'She works too much', 'She avoids meetings'], correctIndex: 1 },
   ],
 };

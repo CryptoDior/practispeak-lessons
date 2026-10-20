@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const TIM = R2 + 'tim-professional-portrait.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}travel-airport-check-in-${s}.png`;
 
 export const travelAirportCheckIn: Lesson = {
@@ -45,13 +45,13 @@ export const travelAirportCheckIn: Lesson = {
 
   dialogue: [
     { speaker: 'Check-in agent', speakerColor: 'orange', text: 'Good morning. Where are you flying today?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Good morning. To Toronto. Here is my passport and [[booking reference:code for your reservation]].' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Good morning. To Toronto. Here is my passport and [[booking reference:code for your reservation]].' },
     { speaker: 'Check-in agent', speakerColor: 'orange', text: 'Thank you. Do you have an eTA or a [[visa:permission to enter a country]] for Canada?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Yes, I have an eTA. It\'s linked to my passport.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Yes, I have an eTA. It\'s linked to my passport.' },
     { speaker: 'Check-in agent', speakerColor: 'orange', text: 'Perfect. How many bags are you checking today?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'I have one [[checked bag:suitcase that goes in the hold]] and one [[carry-on:small bag you take on the plane]].' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'I have one [[checked bag:suitcase that goes in the hold]] and one [[carry-on:small bag you take on the plane]].' },
     { speaker: 'Check-in agent', speakerColor: 'orange', text: 'Please place it on the scale… 21 kilos, that\'s fine. Do you have a seat preference?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Could I have an [[aisle seat:seat next to the corridor]], please? And I have a special request: a vegetarian meal.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Could I have an [[aisle seat:seat next to the corridor]], please? And I have a special request: a vegetarian meal.' },
     { speaker: 'Check-in agent', speakerColor: 'orange', text: "Done. Here's your [[boarding pass:document to get on the plane]]. Seat 24C, [[gate:where you get on the plane]] B12. Boarding will commence in about an hour." },
   ],
 
@@ -77,7 +77,7 @@ export const travelAirportCheckIn: Lesson = {
     { question: 'What is a carry-on?', options: ['A big suitcase in the hold', 'A small bag you take on the plane', 'A boarding pass', 'A visa'], correctIndex: 1 },
     { question: 'What does "commence" mean?', options: ['End', 'Start', 'Delay', 'Cancel'], correctIndex: 1 },
     { question: 'Which seat is next to the corridor?', options: ['Window seat', 'Aisle seat', 'Middle seat', 'Exit seat'], correctIndex: 1 },
-    { question: 'In the dialogue, how heavy is Tim\'s bag?', options: ['18 kg', '21 kg', '23 kg', '25 kg'], correctIndex: 1 },
-    { question: 'What special request does Tim make?', options: ['A window seat', 'A vegetarian meal', 'Extra legroom', 'Wheelchair assistance'], correctIndex: 1 },
+    { question: 'In the dialogue, how heavy is Oliver\'s bag?', options: ['18 kg', '21 kg', '23 kg', '25 kg'], correctIndex: 1 },
+    { question: 'What special request does Oliver make?', options: ['A window seat', 'A vegetarian meal', 'Extra legroom', 'Wheelchair assistance'], correctIndex: 1 },
   ],
 };

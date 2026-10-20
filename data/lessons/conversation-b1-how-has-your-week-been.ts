@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-b1-how-has-your-week-been-${s}.png`;
 
 export const conversationB1HowHasYourWeekBeen: Lesson = {
@@ -62,14 +62,14 @@ export const conversationB1HowHasYourWeekBeen: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Hey Tim! How has your week been so far?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "[[Honestly:to tell the truth]], it's been a bit [[hectic:very busy]]. We had a big client visit on Tuesday." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Oh no. How did it go?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "It started off rough — the projector broke and everything felt [[chaotic:out of control]]. But it's getting better. They liked our proposal!" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That's great news. So it's been a [[productive:getting lots done]] week in the end." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Yeah, [[pretty:fairly]] productive, but [[stressful:causing pressure]]. How about you?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Mine's been [[quiet:calm, not much happening]], actually. Nothing too exciting. I've been catching up on emails and taking it easy." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Sounds [[relaxing:calm and restful]]. I need a week like that!" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Hey Oliver! How has your week been so far?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "[[Honestly:to tell the truth]], it's been a bit [[hectic:very busy]]. We had a big client visit on Tuesday." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Oh no. How did it go?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "It started off rough — the projector broke and everything felt [[chaotic:out of control]]. But it's getting better. They liked our proposal!" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "That's great news. So it's been a [[productive:getting lots done]] week in the end." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Yeah, [[pretty:fairly]] productive, but [[stressful:causing pressure]]. How about you?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Mine's been [[quiet:calm, not much happening]], actually. Nothing too exciting. I've been catching up on emails and taking it easy." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Sounds [[relaxing:calm and restful]]. I need a week like that!" },
   ],
 
   matchingExercise: [
@@ -95,7 +95,7 @@ export const conversationB1HowHasYourWeekBeen: Lesson = {
     { question: 'What does "hectic" mean?', options: ['Very relaxing', 'Very busy', 'Very boring', 'Very short'], correctIndex: 1 },
     { question: 'Which sentence is correct?', options: ["I've been catching up on work.", "I've catching up on work.", 'I been catching up work.', 'I have catch up on work.'], correctIndex: 0 },
     { question: 'What does "Nothing too exciting" mean?', options: ['Something amazing happened', 'Nothing special happened', 'You are angry', 'You are sick'], correctIndex: 1 },
-    { question: 'In the dialogue, what went wrong on Tuesday?', options: ['The client cancelled', 'The projector broke', 'Tim was late', 'The internet was down'], correctIndex: 1 },
-    { question: "How was Kira's week?", options: ['Hectic', 'Chaotic', 'Quiet', 'Stressful'], correctIndex: 2 },
+    { question: 'In the dialogue, what went wrong on Tuesday?', options: ['The client cancelled', 'The projector broke', 'Oliver was late', 'The internet was down'], correctIndex: 1 },
+    { question: "How was Rosie's week?", options: ['Hectic', 'Chaotic', 'Quiet', 'Stressful'], correctIndex: 2 },
   ],
 };

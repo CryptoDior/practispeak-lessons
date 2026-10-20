@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}home-in-the-kitchen-2-${s}.png`;
 
 export const homeInTheKitchen2: Lesson = {
@@ -44,14 +44,14 @@ export const homeInTheKitchen2: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Good morning! Would you like tea or coffee?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Coffee, please. Is the [[coffee machine:machine that makes coffee]] working now?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes, I fixed it! Can you put some bread in the [[toaster:makes bread brown and crispy]]?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Sure. Can you pass me the jam [[jar:glass container with a lid]]?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Here you are. I'm making fresh orange juice with the [[juicer:takes juice out of fruit]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Lovely. I'll put it in the [[jug:container for pouring]]. Oops! I spilled some." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "No problem. There's a [[paper towel:paper for cleaning]] next to the sink. Wipe it up." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Done. Breakfast is ready!" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Good morning! Would you like tea or coffee?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Coffee, please. Is the [[coffee machine:machine that makes coffee]] working now?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes, I fixed it! Can you put some bread in the [[toaster:makes bread brown and crispy]]?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Sure. Can you pass me the jam [[jar:glass container with a lid]]?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Here you are. I'm making fresh orange juice with the [[juicer:takes juice out of fruit]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Lovely. I'll put it in the [[jug:container for pouring]]. Oops! I spilled some." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "No problem. There's a [[paper towel:paper for cleaning]] next to the sink. Wipe it up." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Done. Breakfast is ready!" },
   ],
 
   matchingExercise: [
@@ -76,7 +76,7 @@ export const homeInTheKitchen2: Lesson = {
     { question: 'What do you use to make cheese into small pieces?', options: ['Juicer', 'Grater', 'Toaster', 'Jug'], correctIndex: 1 },
     { question: 'What is jam usually in?', options: ['A jar', 'A jug', 'A teapot', 'A pan'], correctIndex: 0 },
     { question: 'What does "wipe up" mean?', options: ['Clean a liquid with a cloth', 'Cook food', 'Make tea', 'Open a jar'], correctIndex: 0 },
-    { question: 'In the dialogue, what does Tim drink?', options: ['Tea', 'Coffee', 'Juice', 'Milk'], correctIndex: 1 },
-    { question: 'What does Tim spill?', options: ['Coffee', 'Orange juice', 'Milk', 'Water'], correctIndex: 1 },
+    { question: 'In the dialogue, what does Oliver drink?', options: ['Tea', 'Coffee', 'Juice', 'Milk'], correctIndex: 1 },
+    { question: 'What does Oliver spill?', options: ['Coffee', 'Orange juice', 'Milk', 'Water'], correctIndex: 1 },
   ],
 };

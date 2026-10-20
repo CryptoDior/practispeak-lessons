@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const TIM = R2 + 'tim-professional-portrait.png';
-const KIRA = R2 + 'kira-professional-portrait.png';
+const OLIVER = R2 + 'oliver-icon.png';
+const ROSIE = R2 + 'rosie-icon.png';
 const img = (s: string) => `${R2}clothes-winter-${s}.png`;
 
 export const clothesWinter: Lesson = {
@@ -44,14 +44,14 @@ export const clothesWinter: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Tim, it's snowing! You need more than that [[denim jacket:jacket of jeans material]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I know. I need a proper winter [[coat:long warm piece of clothing]]. Can you help me choose one?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Sure. What about this long grey one? It's [[warm:keeping you hot]] and very [[stylish:fashionable]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Nice. Is it [[waterproof:doesn't let water in]]? It rains a lot here." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "No, but you have a [[raincoat:coat for rain]] for that. For snow, wool is better. Try it on and [[button up:close with buttons]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "It's so [[comfy:comfortable]]! I'll take it. Do I need a [[scarf:cloth around the neck]] too?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Definitely. And gloves. When it's minus ten, you have to [[bundle up:put on lots of warm clothes]]!" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "OK, OK. I'll [[layer up:wear several layers]] tomorrow — T-shirt, sweater, coat, scarf and gloves!" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Oliver, it's snowing! You need more than that [[denim jacket:jacket of jeans material]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "I know. I need a proper winter [[coat:long warm piece of clothing]]. Can you help me choose one?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Sure. What about this long grey one? It's [[warm:keeping you hot]] and very [[stylish:fashionable]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Nice. Is it [[waterproof:doesn't let water in]]? It rains a lot here." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "No, but you have a [[raincoat:coat for rain]] for that. For snow, wool is better. Try it on and [[button up:close with buttons]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "It's so [[comfy:comfortable]]! I'll take it. Do I need a [[scarf:cloth around the neck]] too?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Definitely. And gloves. When it's minus ten, you have to [[bundle up:put on lots of warm clothes]]!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "OK, OK. I'll [[layer up:wear several layers]] tomorrow — T-shirt, sweater, coat, scarf and gloves!" },
   ],
 
   matchingExercise: [
@@ -76,7 +76,7 @@ export const clothesWinter: Lesson = {
     { question: 'What does "bundle up" mean?', options: ['Put on lots of warm clothes', 'Take off your coat', 'Buy clothes', 'Wash clothes'], correctIndex: 0 },
     { question: 'Which coat keeps you dry in the rain?', options: ['Leather coat', 'Raincoat', 'Denim jacket', 'Scarf'], correctIndex: 1 },
     { question: 'What is "comfy"?', options: ['Cold', 'Comfortable', 'Expensive', 'Old'], correctIndex: 1 },
-    { question: 'In the dialogue, what colour coat does Tim choose?', options: ['Black', 'Grey', 'Blue', 'Brown'], correctIndex: 1 },
+    { question: 'In the dialogue, what colour coat does Oliver choose?', options: ['Black', 'Grey', 'Blue', 'Brown'], correctIndex: 1 },
     { question: 'What is the weather like?', options: ['Sunny', 'Snowing', 'Hot', 'Windy only'], correctIndex: 1 },
   ],
 };

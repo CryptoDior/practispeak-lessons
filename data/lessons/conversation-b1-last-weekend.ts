@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-b1-last-weekend-${s}.png`;
 
 export const conversationB1LastWeekend: Lesson = {
@@ -61,15 +61,15 @@ export const conversationB1LastWeekend: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Morning, Tim! What did you do last weekend?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I tried something different. I [[went:past of go]] to a pottery class with my sister." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Pottery? That sounds fun. Did you make anything?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "A very ugly cup! But I enjoyed it. On Sunday I [[stayed:remained]] home and caught up on sleep. How about you?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I had a [[productive:getting lots done]] weekend. I cleaned my apartment and [[finished:completed]] a book I started months ago." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Nice! Did you go out at all?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes, on Saturday evening I [[met:past of meet]] some friends and we [[tried:did something new]] a new Ethiopian restaurant." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Was it good?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Amazing! Next weekend I want to [[visit:go to see]] my parents, but I'll take you to the restaurant one day." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Morning, Oliver! What did you do last weekend?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "I tried something different. I [[went:past of go]] to a pottery class with my sister." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Pottery? That sounds fun. Did you make anything?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "A very ugly cup! But I enjoyed it. On Sunday I [[stayed:remained]] home and caught up on sleep. How about you?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I had a [[productive:getting lots done]] weekend. I cleaned my apartment and [[finished:completed]] a book I started months ago." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Nice! Did you go out at all?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes, on Saturday evening I [[met:past of meet]] some friends and we [[tried:did something new]] a new Ethiopian restaurant." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Was it good?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Amazing! Next weekend I want to [[visit:go to see]] my parents, but I'll take you to the restaurant one day." },
   ],
 
   matchingExercise: [
@@ -95,7 +95,7 @@ export const conversationB1LastWeekend: Lesson = {
     { question: 'What is the past of "catch"?', options: ['catched', 'caught', 'cought', 'catch'], correctIndex: 1 },
     { question: 'Which question is correct?', options: ['What did you did?', 'What you did?', 'What did you do?', 'What do you did?'], correctIndex: 2 },
     { question: 'What does "catch up on sleep" mean?', options: ['Sleep more than usual to feel rested', 'Stay awake all night', 'Have bad dreams', 'Wake up early'], correctIndex: 0 },
-    { question: 'In the dialogue, what did Tim make at pottery class?', options: ['A plate', 'A cup', 'A vase', 'Nothing'], correctIndex: 1 },
-    { question: 'What kind of restaurant did Kira try?', options: ['Italian', 'Ethiopian', 'Japanese', 'Mexican'], correctIndex: 1 },
+    { question: 'In the dialogue, what did Oliver make at pottery class?', options: ['A plate', 'A cup', 'A vase', 'Nothing'], correctIndex: 1 },
+    { question: 'What kind of restaurant did Rosie try?', options: ['Italian', 'Ethiopian', 'Japanese', 'Mexican'], correctIndex: 1 },
   ],
 };

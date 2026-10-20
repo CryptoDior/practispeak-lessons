@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const MARIA = R2 + 'professional-portrait-latina-woman-terracotta-top.png';
 const img = (s: string) => `${R2}conversation-where-are-you-from-${s}.png`;
 
@@ -43,17 +43,17 @@ export const conversationWhereAreYouFrom: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Hi! Where are you [[from:the place where you started]]?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Hi! Where are you [[from:the place where you started]]?' },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "I'm from Brazil. And you?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I'm from Spain. What [[city:a big town]] do you [[live:have your home]] in?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I'm from Spain. What [[city:a big town]] do you [[live:have your home]] in?" },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: 'I live in Rio de Janeiro.' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Really? That's cool! I was [[born:started my life]] in Madrid." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Really? That's cool! I was [[born:started my life]] in Madrid." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: 'Nice! Where do you live now?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'I live in Cape Town.' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'I live in Cape Town.' },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: 'Oh, where is that?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "It's in South Africa, a [[country:a big place with its own flag]] in Africa. Oh, this is my [[friend:a person you like and know well]] Tim." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Hi, nice to meet you!' },
-    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: 'Nice to meet you too, Tim.' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "It's in South Africa, a [[country:a big place with its own flag]] in Africa. Oh, this is my [[friend:a person you like and know well]] Oliver." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Hi, nice to meet you!' },
+    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: 'Nice to meet you too, Oliver.' },
   ],
 
   matchingExercise: [
@@ -79,7 +79,7 @@ export const conversationWhereAreYouFrom: Lesson = {
     { question: 'Which sentence is correct?', options: ['I born in Brazil.', 'I was born in Brazil.', 'I am born Brazil.', 'I borned in Brazil.'], correctIndex: 1 },
     { question: 'You do not know a place. What do you ask?', options: ['Where is that?', 'How are you?', 'What time is it?', 'Who is that?'], correctIndex: 0 },
     { question: 'How do you introduce a friend?', options: ['This is my friend Leo.', 'He friend Leo.', 'Leo is me.', 'Friend this Leo.'], correctIndex: 0 },
-    { question: 'In the dialogue, where does Kira live now?', options: ['Madrid', 'Rio de Janeiro', 'Cape Town', 'Tokyo'], correctIndex: 2 },
-    { question: 'Where was Kira born?', options: ['Brazil', 'Madrid', 'Cape Town', 'Japan'], correctIndex: 1 },
+    { question: 'In the dialogue, where does Rosie live now?', options: ['Madrid', 'Rio de Janeiro', 'Cape Town', 'Tokyo'], correctIndex: 2 },
+    { question: 'Where was Rosie born?', options: ['Brazil', 'Madrid', 'Cape Town', 'Japan'], correctIndex: 1 },
   ],
 };

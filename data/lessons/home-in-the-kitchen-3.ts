@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}home-in-the-kitchen-3-${s}.png`;
 
 export const homeInTheKitchen3: Lesson = {
@@ -44,14 +44,14 @@ export const homeInTheKitchen3: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Let's make pancakes! First, can you [[whisk:mix fast]] the eggs?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Sure. Where's the whisk?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "In the drawer, next to the [[spatula:flat tool for turning food]]. Then add the milk and flour." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Done. Should I use the [[blender:machine that mixes food]] for the bananas?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "No, just slice them on the [[cutting board:board for cutting food]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "What do you use this for? It looks strange." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That's a [[peeler:takes skin off vegetables]]. It's for potatoes and carrots, not bananas!" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Ha! OK. The first pancake is ready. I'll turn it with the spatula and put it on a [[tray:flat thing for carrying food]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Let's make pancakes! First, can you [[whisk:mix fast]] the eggs?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Sure. Where's the whisk?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "In the drawer, next to the [[spatula:flat tool for turning food]]. Then add the milk and flour." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Done. Should I use the [[blender:machine that mixes food]] for the bananas?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "No, just slice them on the [[cutting board:board for cutting food]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "What do you use this for? It looks strange." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "That's a [[peeler:takes skin off vegetables]]. It's for potatoes and carrots, not bananas!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Ha! OK. The first pancake is ready. I'll turn it with the spatula and put it on a [[tray:flat thing for carrying food]]." },
   ],
 
   matchingExercise: [
@@ -77,6 +77,6 @@ export const homeInTheKitchen3: Lesson = {
     { question: 'What do you use to make dough flat?', options: ['Rolling pin', 'Colander', 'Tray', 'Blender'], correctIndex: 0 },
     { question: 'Which sentence is a correct recipe step?', options: ['You chops the onion.', 'Chop the onion.', 'Chopping onion.', 'To chop the onion you.'], correctIndex: 1 },
     { question: 'In the dialogue, what are they making?', options: ['Pizza', 'Pancakes', 'Pasta', 'Soup'], correctIndex: 1 },
-    { question: 'What tool surprises Tim?', options: ['The whisk', 'The peeler', 'The spatula', 'The tray'], correctIndex: 1 },
+    { question: 'What tool surprises Oliver?', options: ['The whisk', 'The peeler', 'The spatula', 'The tray'], correctIndex: 1 },
   ],
 };

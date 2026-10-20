@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}home-in-the-kitchen-1-${s}.png`;
 
 export const homeInTheKitchen1: Lesson = {
@@ -44,14 +44,14 @@ export const homeInTheKitchen1: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Kira, I'm cooking dinner. Where is the big [[pot:deep cooking container]]?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "It's in the cupboard, next to the [[sink:where you wash things]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Thanks. I'm making pasta. Can you turn on the [[stove:you cook on top of it]]?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Sure. Do you need the [[oven:box that cooks food inside]] too?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Yes, for the garlic bread. And can you get the cheese from the [[fridge:keeps food cold]]?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Here you are. Oh, and there's ice cream in the [[freezer:keeps food frozen]] for dessert!" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Perfect. Can you put the [[kettle:heats water]] on too? I want tea after dinner." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "OK. And after dinner, you put the plates in the [[dishwasher:machine that washes plates]]!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Rosie, I'm cooking dinner. Where is the big [[pot:deep cooking container]]?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "It's in the cupboard, next to the [[sink:where you wash things]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Thanks. I'm making pasta. Can you turn on the [[stove:you cook on top of it]]?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Sure. Do you need the [[oven:box that cooks food inside]] too?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Yes, for the garlic bread. And can you get the cheese from the [[fridge:keeps food cold]]?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Here you are. Oh, and there's ice cream in the [[freezer:keeps food frozen]] for dessert!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Perfect. Can you put the [[kettle:heats water]] on too? I want tea after dinner." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "OK. And after dinner, you put the plates in the [[dishwasher:machine that washes plates]]!" },
   ],
 
   matchingExercise: [
@@ -76,7 +76,7 @@ export const homeInTheKitchen1: Lesson = {
     { question: 'What keeps food very cold and frozen?', options: ['Fridge', 'Freezer', 'Oven', 'Kettle'], correctIndex: 1 },
     { question: 'What is the difference between a pot and a pan?', options: ['A pot is deep; a pan is flat', 'A pan is deep; a pot is flat', 'No difference', 'A pot is for water only'], correctIndex: 0 },
     { question: 'Where is the milk?', options: ['On the fridge', 'In the fridge', 'At the fridge', 'Under the fridge'], correctIndex: 1 },
-    { question: 'In the dialogue, what is Tim cooking?', options: ['Pizza', 'Pasta', 'Soup', 'Eggs'], correctIndex: 1 },
+    { question: 'In the dialogue, what is Oliver cooking?', options: ['Pizza', 'Pasta', 'Soup', 'Eggs'], correctIndex: 1 },
     { question: 'What is in the freezer?', options: ['Cheese', 'Ice cream', 'Milk', 'Bread'], correctIndex: 1 },
   ],
 };

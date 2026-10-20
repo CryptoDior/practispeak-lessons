@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-b1-after-work-${s}.png`;
 
 export const conversationB1AfterWork: Lesson = {
@@ -60,14 +60,14 @@ export const conversationB1AfterWork: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Finally, Friday! What are you going to do after work, Kira?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I have to run some [[errands:small jobs like shopping or the bank]] first. I need to pick up a parcel and buy groceries." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'And after that?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I'm going to [[head:go]] home and [[rest:relax]]. Maybe [[prepare:make ready]] a nice dinner. What about you?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I'm meeting my brother at seven. Before that, I might go to the gym — I haven't [[exercised:done physical activity]] all week." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Good plan. I'm not sure about tomorrow yet. I haven't [[decided:chosen]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "We're going to a street food market on Saturday. Want to join?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Maybe! I have a few things to [[take care of:deal with]] in the morning. Let me know what time you're going." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Finally, Friday! What are you going to do after work, Rosie?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I have to run some [[errands:small jobs like shopping or the bank]] first. I need to pick up a parcel and buy groceries." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'And after that?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I'm going to [[head:go]] home and [[rest:relax]]. Maybe [[prepare:make ready]] a nice dinner. What about you?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "I'm meeting my brother at seven. Before that, I might go to the gym — I haven't [[exercised:done physical activity]] all week." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Good plan. I'm not sure about tomorrow yet. I haven't [[decided:chosen]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "We're going to a street food market on Saturday. Want to join?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Maybe! I have a few things to [[take care of:deal with]] in the morning. Let me know what time you're going." },
   ],
 
   matchingExercise: [
@@ -93,7 +93,7 @@ export const conversationB1AfterWork: Lesson = {
     { question: 'What are "errands"?', options: ['Mistakes', 'Small jobs like shopping or the bank', 'Long holidays', 'Work meetings'], correctIndex: 1 },
     { question: 'Which tense is best for an arrangement with a friend at a fixed time?', options: ['Past simple', 'Present continuous', 'Present perfect', 'Past continuous'], correctIndex: 1 },
     { question: 'What does "head straight home" mean?', options: ['Go home immediately', 'Walk with your head up', 'Stay at work', 'Go home slowly'], correctIndex: 0 },
-    { question: 'In the dialogue, who is Tim meeting at seven?', options: ['His sister', 'His brother', 'Kira', 'A client'], correctIndex: 1 },
-    { question: 'Where is Tim going on Saturday?', options: ['To the gym', 'To a street food market', 'To the cinema', 'To work'], correctIndex: 1 },
+    { question: 'In the dialogue, who is Oliver meeting at seven?', options: ['His sister', 'His brother', 'Rosie', 'A client'], correctIndex: 1 },
+    { question: 'Where is Oliver going on Saturday?', options: ['To the gym', 'To a street food market', 'To the cinema', 'To work'], correctIndex: 1 },
   ],
 };

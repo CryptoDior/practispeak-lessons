@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-what-do-you-do-${s}.png`;
 
 export const conversationWhatDoYouDo: Lesson = {
@@ -43,15 +43,15 @@ export const conversationWhatDoYouDo: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'So, Kira, what do you do?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I'm a [[student:a person who studies]]. I [[study:learn at school]] English. And you?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I'm a [[chef:a person who cooks in a restaurant]]. I [[work:do a job]] at a restaurant." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That's interesting! Do you like your [[job:work you do for money]]?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Yes, I do. Where do you study?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'I study at a language school. Next year I want to go to [[university:a big school for adults]].' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Nice! Do you want to be a [[teacher:a person who teaches]]?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Maybe! What about you?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'I want to open my own restaurant one day.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'So, Rosie, what do you do?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I'm a [[student:a person who studies]]. I [[study:learn at school]] English. And you?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "I'm a [[chef:a person who cooks in a restaurant]]. I [[work:do a job]] at a restaurant." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "That's interesting! Do you like your [[job:work you do for money]]?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Yes, I do. Where do you study?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'I study at a language school. Next year I want to go to [[university:a big school for adults]].' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Nice! Do you want to be a [[teacher:a person who teaches]]?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Maybe! What about you?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'I want to open my own restaurant one day.' },
   ],
 
   matchingExercise: [
@@ -77,7 +77,7 @@ export const conversationWhatDoYouDo: Lesson = {
     { question: 'What does "What do you do?" mean?', options: ['What is your job?', 'What are you doing now?', 'How are you?', 'Where do you live?'], correctIndex: 0 },
     { question: '"Do you like your job?" Which short answer is correct?', options: ['Yes, I like.', 'Yes, I do.', 'Yes, I am.', 'Yes, do I.'], correctIndex: 1 },
     { question: 'Which is correct?', options: ["I'm a engineer.", "I'm an engineer.", "I'm engineer.", "I engineer."], correctIndex: 1 },
-    { question: 'In the dialogue, what is Tim\'s job?', options: ['Teacher', 'Student', 'Chef', 'Doctor'], correctIndex: 2 },
-    { question: 'What does Tim want to do one day?', options: ['Be a teacher', 'Open his own restaurant', 'Study English', 'Go to university'], correctIndex: 1 },
+    { question: 'In the dialogue, what is Oliver\'s job?', options: ['Teacher', 'Student', 'Chef', 'Doctor'], correctIndex: 2 },
+    { question: 'What does Oliver want to do one day?', options: ['Be a teacher', 'Open his own restaurant', 'Study English', 'Go to university'], correctIndex: 1 },
   ],
 };

@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
 const img = (s: string) => `${R2}beauty-at-the-hair-salon-${s}.png`;
 
 export const beautyAtTheHairSalon: Lesson = {
@@ -44,15 +44,15 @@ export const beautyAtTheHairSalon: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Hi, I'd like to get a [[haircut:when someone cuts your hair]] today." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Hi, I'd like to get a [[haircut:when someone cuts your hair]] today." },
     { speaker: 'Hairdresser', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/hairdresser-icon.png', speakerColor: 'orange', text: 'Of course! What would you like to do with your hair?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Something fresh. Maybe cut off about two inches and add some [[highlights:lighter parts of hair]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Something fresh. Maybe cut off about two inches and add some [[highlights:lighter parts of hair]]." },
     { speaker: 'Hairdresser', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/hairdresser-icon.png', speakerColor: 'orange', text: "Great! Would you like to touch up your [[roots:hair close to your head]] too? They're starting to show." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes, please! And I'd like to [[dye:change the colour of]] my hair a darker shade, maybe brown." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes, please! And I'd like to [[dye:change the colour of]] my hair a darker shade, maybe brown." },
     { speaker: 'Hairdresser', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/hairdresser-icon.png', speakerColor: 'orange', text: "Sure. I'll [[wash:clean with water and soap]] your hair first with a special [[shampoo:liquid soap for hair]]." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Perfect. My ends are very dry. I want to get rid of them." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Perfect. My ends are very dry. I want to get rid of them." },
     { speaker: 'Hairdresser', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/hairdresser-icon.png', speakerColor: 'orange', text: "No problem. I'll use [[conditioner:cream to make hair soft]] and [[blow-dry:dry with a hairdryer]] it at the end. Do you want [[bangs:short hair at the front]]?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Hmm, not this time. Just the colour and a nice cut, thank you!" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Hmm, not this time. Just the colour and a nice cut, thank you!" },
   ],
 
   matchingExercise: [
@@ -77,7 +77,7 @@ export const beautyAtTheHairSalon: Lesson = {
     { question: 'What does "trim" mean?', options: ['Cut a lot of hair', 'Cut a small amount of hair', 'Wash hair', 'Dye hair'], correctIndex: 1 },
     { question: 'What are "highlights"?', options: ['Lights in the salon', 'Lighter parts of hair', 'Short hair at the front', 'A hair product'], correctIndex: 1 },
     { question: 'What do you put on hair after shampoo to make it soft?', options: ['Dye', 'Conditioner', 'Bangs', 'Roots'], correctIndex: 1 },
-    { question: 'In the dialogue, what colour does Kira want?', options: ['Blonde', 'Red', 'A darker brown', 'Black'], correctIndex: 2 },
-    { question: 'Does Kira want bangs?', options: ['Yes', 'Not this time', 'Only short ones', 'She doesn\'t know'], correctIndex: 1 },
+    { question: 'In the dialogue, what colour does Rosie want?', options: ['Blonde', 'Red', 'A darker brown', 'Black'], correctIndex: 2 },
+    { question: 'Does Rosie want bangs?', options: ['Yes', 'Not this time', 'Only short ones', 'She doesn\'t know'], correctIndex: 1 },
   ],
 };

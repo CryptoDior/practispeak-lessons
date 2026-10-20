@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-b1-feel-about-weather-${s}.png`;
 
 export const conversationB1FeelAboutWeather: Lesson = {
@@ -44,14 +44,14 @@ export const conversationB1FeelAboutWeather: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Kira, how do you feel about the weather today?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Honestly, it's a bit too hot for me. And the [[humidity:water in the air]] is really uncomfortable." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Really? I like this kind of weather. Sunshine always puts me in a good mood." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I prefer it [[slightly:a little]] cooler. Yesterday was perfect — [[mostly:for the largest part]] sunny with a cool [[breeze:a light wind]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "True. But the forecast says it'll [[cool down:become less hot]] this evening. Maybe a storm." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Oh, I love storms! The rain makes me feel relaxed. What about you?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Not really. Rainy days feel a little [[gloomy:dark and sad]] to me. And I'm not a fan of cold weather either." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Don't worry, it usually [[brightens:becomes lighter]] quickly after a summer storm." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Rosie, how do you feel about the weather today?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Honestly, it's a bit too hot for me. And the [[humidity:water in the air]] is really uncomfortable." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Really? I like this kind of weather. Sunshine always puts me in a good mood." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I prefer it [[slightly:a little]] cooler. Yesterday was perfect — [[mostly:for the largest part]] sunny with a cool [[breeze:a light wind]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "True. But the forecast says it'll [[cool down:become less hot]] this evening. Maybe a storm." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Oh, I love storms! The rain makes me feel relaxed. What about you?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Not really. Rainy days feel a little [[gloomy:dark and sad]] to me. And I'm not a fan of cold weather either." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Don't worry, it usually [[brightens:becomes lighter]] quickly after a summer storm." },
   ],
 
   matchingExercise: [
@@ -77,7 +77,7 @@ export const conversationB1FeelAboutWeather: Lesson = {
     { question: 'Which sentence is correct?', options: ['The rain makes me to feel relaxed.', 'The rain makes me feel relaxed.', 'The rain makes me feeling relaxed.', 'The rain make me relaxed feel.'], correctIndex: 1 },
     { question: 'What does "cool down" mean?', options: ['Become less hot', 'Become more popular', 'Become angry', 'Become windy'], correctIndex: 0 },
     { question: 'Which adverb means "a little"?', options: ['Extremely', 'Slightly', 'Mostly', 'Really'], correctIndex: 1 },
-    { question: "In the dialogue, how does Kira feel about today's weather?", options: ['She loves it', "It's a bit too hot and humid", "It's too cold", "It's too windy"], correctIndex: 1 },
-    { question: 'How does rain make Kira feel?', options: ['Sad', 'Relaxed', 'Angry', 'Tired'], correctIndex: 1 },
+    { question: "In the dialogue, how does Rosie feel about today's weather?", options: ['She loves it', "It's a bit too hot and humid", "It's too cold", "It's too windy"], correctIndex: 1 },
+    { question: 'How does rain make Rosie feel?', options: ['Sad', 'Relaxed', 'Angry', 'Tired'], correctIndex: 1 },
   ],
 };

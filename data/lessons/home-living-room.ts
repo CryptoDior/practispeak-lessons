@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
 const MARIA = R2 + 'professional-portrait-latina-woman-terracotta-top.png';
 const img = (s: string) => `${R2}home-living-room-${s}.png`;
 
@@ -43,13 +43,13 @@ export const homeLivingRoom: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Come in, Maria! Make yourself at home. Please sit down on the [[sofa:big soft seat]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Come in, Maria! Make yourself at home. Please sit down on the [[sofa:big soft seat]]." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Thank you! Your living room is lovely. I love that [[painting:picture made with paint]] above the sofa." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Thanks! My brother painted it. Would you like a drink? You can put it on the [[coffee table:low table in front of the sofa]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Thanks! My brother painted it. Would you like a drink? You can put it on the [[coffee table:low table in front of the sofa]]." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Yes, please. Water is fine. Wow, your [[bookshelf:furniture for books]] is full!" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I love reading. I read in that [[armchair:soft chair for one person]], next to the [[lamp:light for a table or floor]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I love reading. I read in that [[armchair:soft chair for one person]], next to the [[lamp:light for a table or floor]]." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "That's very cosy. Is the [[rug:small carpet]] new?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes, from Morocco! Oh, the sun is in your eyes. Let me close the [[curtains:cloth over the window]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes, from Morocco! Oh, the sun is in your eyes. Let me close the [[curtains:cloth over the window]]." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Thanks. It's a perfect room to relax in." },
   ],
 
@@ -75,7 +75,7 @@ export const homeLivingRoom: Lesson = {
     { question: 'What is the difference between a carpet and a rug?', options: ['A carpet covers the whole floor; a rug covers part', 'A rug covers the whole floor', 'No difference', 'A rug is on the wall'], correctIndex: 0 },
     { question: 'Which is correct?', options: ['There is two sofas.', 'There are two sofas.', 'There be two sofas.', 'It are two sofas.'], correctIndex: 1 },
     { question: 'What do you say to make a guest feel comfortable?', options: ['Go away.', 'Make yourself at home.', 'Sit up.', 'Be quick.'], correctIndex: 1 },
-    { question: 'In the dialogue, who painted the painting?', options: ['Kira', "Kira's brother", 'Maria', 'A famous artist'], correctIndex: 1 },
+    { question: 'In the dialogue, who painted the painting?', options: ['Rosie', "Rosie's brother", 'Maria', 'A famous artist'], correctIndex: 1 },
     { question: 'Where is the rug from?', options: ['Spain', 'Morocco', 'India', 'Mexico'], correctIndex: 1 },
   ],
 };

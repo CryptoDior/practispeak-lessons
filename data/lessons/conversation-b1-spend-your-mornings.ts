@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-b1-spend-your-mornings-${s}.png`;
 
 export const conversationB1SpendYourMornings: Lesson = {
@@ -62,14 +62,14 @@ export const conversationB1SpendYourMornings: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'You always look so fresh in the morning, Tim. How do you usually spend your mornings?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Ha, thanks! I have a strict [[routine:things I do in the same order]]. [[As soon as:immediately after]] I wake up, I drink a big glass of water." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'And then?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "[[First:at the beginning]], I exercise for twenty minutes. [[After that:next]], I make breakfast and get ready. I listen to a podcast [[while:at the same time as]] I cook." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Impressive. I'm not a morning person at all. I need two coffees before I feel [[alert:awake and thinking clearly]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Do you plan your day in the morning?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes, on the train. I catch up on messages and take some time to plan my day. [[Finally:as the last thing]], I put on my headphones and relax." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "That's a good routine too. Slow, but organised!" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'You always look so fresh in the morning, Oliver. How do you usually spend your mornings?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Ha, thanks! I have a strict [[routine:things I do in the same order]]. [[As soon as:immediately after]] I wake up, I drink a big glass of water." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'And then?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "[[First:at the beginning]], I exercise for twenty minutes. [[After that:next]], I make breakfast and get ready. I listen to a podcast [[while:at the same time as]] I cook." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Impressive. I'm not a morning person at all. I need two coffees before I feel [[alert:awake and thinking clearly]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Do you plan your day in the morning?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes, on the train. I catch up on messages and take some time to plan my day. [[Finally:as the last thing]], I put on my headphones and relax." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "That's a good routine too. Slow, but organised!" },
   ],
 
   matchingExercise: [
@@ -95,7 +95,7 @@ export const conversationB1SpendYourMornings: Lesson = {
     { question: 'Which word shows the last action?', options: ['Finally', 'First', 'While', 'Before'], correctIndex: 0 },
     { question: 'What does "I\'m not a morning person" mean?', options: ["I don't feel energetic early in the day", 'I work at night', 'I never wake up', 'I love mornings'], correctIndex: 0 },
     { question: 'Choose the correct sentence.', options: ['As soon as I wake up, I drink water.', 'As soon I wake up, I drink water.', 'Soon as I wake, drink water.', 'As soon as wake up I.'], correctIndex: 0 },
-    { question: 'In the dialogue, what does Tim do first after drinking water?', options: ['Makes breakfast', 'Exercises for twenty minutes', 'Checks messages', 'Takes the train'], correctIndex: 1 },
-    { question: 'Where does Kira plan her day?', options: ['At home', 'On the train', 'At the gym', 'At her desk'], correctIndex: 1 },
+    { question: 'In the dialogue, what does Oliver do first after drinking water?', options: ['Makes breakfast', 'Exercises for twenty minutes', 'Checks messages', 'Takes the train'], correctIndex: 1 },
+    { question: 'Where does Rosie plan her day?', options: ['At home', 'On the train', 'At the gym', 'At her desk'], correctIndex: 1 },
   ],
 };

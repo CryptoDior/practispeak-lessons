@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-how-is-the-weather-${s}.png`;
 
 export const conversationHowIsTheWeather: Lesson = {
@@ -42,14 +42,14 @@ export const conversationHowIsTheWeather: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Hi Tim! How is the [[weather:sunny, rainy, hot or cold]] today where you are?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "It's [[sunny:the sun is out]] and warm. I like this weather." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Nice! It's [[cloudy:many clouds in the sky]] here." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Really? Do you like cloudy weather?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Not really. I like sunny days. And now it's [[windy:a lot of wind]] too!" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Same! I don't like [[rainy:a lot of rain]] weather." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "What's the weather like where you live in winter?" },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "It's very [[cold:a low temperature]]. It snows sometimes. And in summer it's very [[hot:a very high temperature]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Hi Oliver! How is the [[weather:sunny, rainy, hot or cold]] today where you are?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "It's [[sunny:the sun is out]] and warm. I like this weather." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Nice! It's [[cloudy:many clouds in the sky]] here." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Really? Do you like cloudy weather?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Not really. I like sunny days. And now it's [[windy:a lot of wind]] too!" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Same! I don't like [[rainy:a lot of rain]] weather." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "What's the weather like where you live in winter?" },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "It's very [[cold:a low temperature]]. It snows sometimes. And in summer it's very [[hot:a very high temperature]]." },
   ],
 
   matchingExercise: [
@@ -75,7 +75,7 @@ export const conversationHowIsTheWeather: Lesson = {
     { question: 'You need an umbrella. The weather is…', options: ['rainy', 'sunny', 'hot', 'windy'], correctIndex: 0 },
     { question: '"How is the weather today?" What is a good answer?', options: ["It's cloudy.", "I'm fine.", "It's 3 o'clock.", "I'm from Spain."], correctIndex: 0 },
     { question: 'Which sentence is correct?', options: ['Is sunny.', "It's sunny.", 'It sunny.', 'Sunny it is today it.'], correctIndex: 1 },
-    { question: 'In the dialogue, how is the weather where Tim is today?', options: ['Cloudy', 'Rainy', 'Sunny and warm', 'Cold'], correctIndex: 2 },
-    { question: 'What is the weather like in winter where Tim lives?', options: ['Very hot', 'Very cold, sometimes snow', 'Windy', 'Sunny'], correctIndex: 1 },
+    { question: 'In the dialogue, how is the weather where Oliver is today?', options: ['Cloudy', 'Rainy', 'Sunny and warm', 'Cold'], correctIndex: 2 },
+    { question: 'What is the weather like in winter where Oliver lives?', options: ['Very hot', 'Very cold, sometimes snow', 'Windy', 'Sunny'], correctIndex: 1 },
   ],
 };

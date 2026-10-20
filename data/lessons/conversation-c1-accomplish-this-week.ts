@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-c1-accomplish-this-week-${s}.png`;
 
 export const conversationC1AccomplishThisWeek: Lesson = {
@@ -42,14 +42,14 @@ export const conversationC1AccomplishThisWeek: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Monday again! What are you hoping to accomplish this week, Kira?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I'm trying to set realistic [[objectives:goal]] instead of overwhelming myself. Last week I planned twelve things and finished four." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Ha, been there. So what's on the list?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Three [[achievable:realistic]] goals. First, I'm aiming to finish the budget report I've been postponing. Pure [[procrastination:delaying unnecessarily]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Start with something quick to build [[momentum:forward progress]]. That's what works for me." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Good idea. I'm also focusing on progress, not perfection. And I want more [[clarity:clear understanding]] about whether the new project is really in [[alignment:consistency]] with my career goals." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "That's a big question. Are you limiting distractions?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes — no social media until Friday. I want to approach this week with real [[intentionality:deliberate purpose]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Monday again! What are you hoping to accomplish this week, Rosie?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I'm trying to set realistic [[objectives:goal]] instead of overwhelming myself. Last week I planned twelve things and finished four." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Ha, been there. So what's on the list?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Three [[achievable:realistic]] goals. First, I'm aiming to finish the budget report I've been postponing. Pure [[procrastination:delaying unnecessarily]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Start with something quick to build [[momentum:forward progress]]. That's what works for me." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Good idea. I'm also focusing on progress, not perfection. And I want more [[clarity:clear understanding]] about whether the new project is really in [[alignment:consistency]] with my career goals." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "That's a big question. Are you limiting distractions?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes — no social media until Friday. I want to approach this week with real [[intentionality:deliberate purpose]]." },
   ],
 
   matchingExercise: [
@@ -75,7 +75,7 @@ export const conversationC1AccomplishThisWeek: Lesson = {
     { question: '"Progress, not perfection" means…', options: ['Only perfect work counts', 'Steady improvement matters more than flawless results', 'Never finish anything', 'Work faster'], correctIndex: 1 },
     { question: 'Which tense emphasises a delay that has continued until now?', options: ['I postponed it.', "I've been postponing it.", 'I postpone it.', "I'll postpone it."], correctIndex: 1 },
     { question: 'What is "procrastination"?', options: ['Planning carefully', 'Delaying tasks unnecessarily', 'Working overtime', 'Taking a holiday'], correctIndex: 1 },
-    { question: 'In the dialogue, how many things did Kira finish last week?', options: ['Twelve', 'Four', 'Three', 'None'], correctIndex: 1 },
-    { question: 'What distraction is Kira avoiding until Friday?', options: ['TV', 'Social media', 'Coffee', 'Meetings'], correctIndex: 1 },
+    { question: 'In the dialogue, how many things did Rosie finish last week?', options: ['Twelve', 'Four', 'Three', 'None'], correctIndex: 1 },
+    { question: 'What distraction is Rosie avoiding until Friday?', options: ['TV', 'Social media', 'Coffee', 'Meetings'], correctIndex: 1 },
   ],
 };

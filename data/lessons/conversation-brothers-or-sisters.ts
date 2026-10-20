@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-brothers-or-sisters-${s}.png`;
 
 export const conversationBrothersOrSisters: Lesson = {
@@ -42,15 +42,15 @@ export const conversationBrothersOrSisters: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Tim, do you have [[brother:a boy with the same parents]]s or [[sister:a girl with the same parents]]s?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Yes, I do. I have one [[older:born before me]] sister.' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Really? How old is she?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "She's 30. She lives in London. And you? Do you have [[siblings:brothers and sisters]]?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Yes. I have two brothers. One older brother and one [[younger:born after me]] brother.' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "That's nice! Do you see them a lot?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'My younger brother lives with my [[parents:mother and father]], so I see him on Sundays.' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'My friend Leo is an [[only child:a person with no brothers or sisters]]. He says it\'s very quiet at home!' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Ha! My home is never quiet." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Oliver, do you have [[brother:a boy with the same parents]]s or [[sister:a girl with the same parents]]s?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Yes, I do. I have one [[older:born before me]] sister.' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Really? How old is she?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "She's 30. She lives in London. And you? Do you have [[siblings:brothers and sisters]]?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Yes. I have two brothers. One older brother and one [[younger:born after me]] brother.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "That's nice! Do you see them a lot?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'My younger brother lives with my [[parents:mother and father]], so I see him on Sundays.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'My friend Leo is an [[only child:a person with no brothers or sisters]]. He says it\'s very quiet at home!' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Ha! My home is never quiet." },
   ],
 
   matchingExercise: [
@@ -76,7 +76,7 @@ export const conversationBrothersOrSisters: Lesson = {
     { question: 'What does "only child" mean?', options: ['A very young child', 'A person with no brothers or sisters', 'A person with many siblings', 'A child who lives alone'], correctIndex: 1 },
     { question: 'Your brother is 25. You are 20. He is your…', options: ['younger brother', 'older brother', 'only child', 'parent'], correctIndex: 1 },
     { question: 'Which is correct?', options: ['I have two brother.', 'I have two brothers.', 'I has two brothers.', 'I two brothers have.'], correctIndex: 1 },
-    { question: 'In the dialogue, how many brothers does Kira have?', options: ['One', 'Two', 'Three', 'None'], correctIndex: 1 },
-    { question: 'Where does Tim\'s sister live?', options: ['Durban', 'London', 'Madrid', 'With his parents'], correctIndex: 1 },
+    { question: 'In the dialogue, how many brothers does Rosie have?', options: ['One', 'Two', 'Three', 'None'], correctIndex: 1 },
+    { question: 'Where does Oliver\'s sister live?', options: ['Durban', 'London', 'Madrid', 'With his parents'], correctIndex: 1 },
   ],
 };

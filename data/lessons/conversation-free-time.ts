@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-free-time-${s}.png`;
 
 export const conversationFreeTime: Lesson = {
@@ -43,15 +43,15 @@ export const conversationFreeTime: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Tim, what do you do in your [[free time:time when you don\'t work]]?' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'I like to watch movies. And you?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'I [[enjoy:like very much]] cooking. I cook on weekends.' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "That's cool! What do you cook?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Pasta and soup. I also like to [[read:look at words in a book]].' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'Really? I don\'t read much. I play [[games:video games for fun]] and listen to [[music:songs you listen to]].' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Me too! I listen to music every day.' },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: 'On Sundays I spend time with my [[family:parents, brothers and sisters]].' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'That sounds nice. So, movies, games and music are your [[hobby:something you like to do]]s!' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Oliver, what do you do in your [[free time:time when you don\'t work]]?' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'I like to watch movies. And you?' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'I [[enjoy:like very much]] cooking. I cook on weekends.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "That's cool! What do you cook?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Pasta and soup. I also like to [[read:look at words in a book]].' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Really? I don\'t read much. I play [[games:video games for fun]] and listen to [[music:songs you listen to]].' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Me too! I listen to music every day.' },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'On Sundays I spend time with my [[family:parents, brothers and sisters]].' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'That sounds nice. So, movies, games and music are your [[hobby:something you like to do]]s!' },
   ],
 
   matchingExercise: [
@@ -77,7 +77,7 @@ export const conversationFreeTime: Lesson = {
     { question: 'Which is correct?', options: ['I enjoy to cook.', 'I enjoy cooking.', 'I enjoy cook.', 'I enjoying cook.'], correctIndex: 1 },
     { question: 'Your friend likes pizza. You like pizza too. What do you say?', options: ['Me too!', 'Really?', 'Goodbye!', 'Have fun!'], correctIndex: 0 },
     { question: 'What is a "hobby"?', options: ['Something you like to do in your free time', 'Your job', 'A day of the week', 'A family member'], correctIndex: 0 },
-    { question: 'In the dialogue, what does Kira cook?', options: ['Pizza and salad', 'Pasta and soup', 'Rice and chicken', 'Cakes'], correctIndex: 1 },
-    { question: 'What does Tim do on Sundays?', options: ['He reads', 'He cooks', 'He spends time with his family', 'He works'], correctIndex: 2 },
+    { question: 'In the dialogue, what does Rosie cook?', options: ['Pizza and salad', 'Pasta and soup', 'Rice and chicken', 'Cakes'], correctIndex: 1 },
+    { question: 'What does Oliver do on Sundays?', options: ['He reads', 'He cooks', 'He spends time with his family', 'He works'], correctIndex: 2 },
   ],
 };

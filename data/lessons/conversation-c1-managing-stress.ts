@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
 const MARIA = R2 + 'professional-portrait-latina-woman-terracotta-top.png';
 const img = (s: string) => `${R2}conversation-c1-managing-stress-${s}.png`;
 
@@ -44,14 +44,14 @@ export const conversationC1ManagingStress: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "You've seemed remarkably calm this quarter, Kira. How do you manage stress in your everyday life?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "It's been a learning curve. Last year I was completely [[overextended:stretched beyond my limits]] — I said yes to everything." },
+    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "You've seemed remarkably calm this quarter, Rosie. How do you manage stress in your everyday life?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "It's been a learning curve. Last year I was completely [[overextended:stretched beyond my limits]] — I said yes to everything." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "I'm in that phase now. I tend to [[internalize:keep feelings inside]] it all until it explodes." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "That can be [[detrimental:harmful]] in the long run. What helped me was setting boundaries to protect my energy. No meetings before ten, no emails after seven." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "That can be [[detrimental:harmful]] in the long run. What helped me was setting boundaries to protect my energy. No meetings before ten, no emails after seven." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "And when things get chaotic? My stress feels so [[heightened:intensified]] around deadlines." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I stop multitasking — it gives me [[cognitive overload:too much for the mind to process]]. I break the task into manageable parts and take short walks to [[decompress:release tension]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I stop multitasking — it gives me [[cognitive overload:too much for the mind to process]]. I break the task into manageable parts and take short walks to [[decompress:release tension]]." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "That sounds very [[grounded:calm and stable]]. I should check in with myself more often." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "It does make you more [[resilient:able to recover quickly]]. But what works for me may not work for everyone — experiment and see." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "It does make you more [[resilient:able to recover quickly]]. But what works for me may not work for everyone — experiment and see." },
   ],
 
   matchingExercise: [
@@ -77,7 +77,7 @@ export const conversationC1ManagingStress: Lesson = {
     { question: 'Which word means "to keep feelings inside"?', options: ['Decompress', 'Internalize', 'Regulate', 'Ground'], correctIndex: 1 },
     { question: 'What is a "boundary" in this context?', options: ['A border between countries', 'A personal limit on demands on your time and energy', 'A deadline', 'A type of exercise'], correctIndex: 1 },
     { question: 'Why say "What works for me may not work for everyone"?', options: ['To sound arrogant', 'To acknowledge that coping strategies differ', 'To end the conversation', 'To disagree strongly'], correctIndex: 1 },
-    { question: 'In the dialogue, what boundary does Kira set?', options: ['No lunch at the desk', 'No meetings before ten and no emails after seven', 'Working from home', 'No phone calls'], correctIndex: 1 },
-    { question: 'Why does Kira avoid multitasking?', options: ['It is boring', 'It causes cognitive overload', 'Her manager said so', 'It is slow'], correctIndex: 1 },
+    { question: 'In the dialogue, what boundary does Rosie set?', options: ['No lunch at the desk', 'No meetings before ten and no emails after seven', 'Working from home', 'No phone calls'], correctIndex: 1 },
+    { question: 'Why does Rosie avoid multitasking?', options: ['It is boring', 'It causes cognitive overload', 'Her manager said so', 'It is slow'], correctIndex: 1 },
   ],
 };

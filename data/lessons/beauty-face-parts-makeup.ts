@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
 const MARIA = R2 + 'professional-portrait-latina-woman-terracotta-top.png';
 const img = (s: string) => `${R2}beauty-face-parts-makeup-${s}.png`;
 
@@ -44,14 +44,14 @@ export const beautyFacePartsMakeup: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Kira, can you help me with my makeup for the party tonight?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Of course! First, foundation. Does it match your [[skin tone:natural skin colour]]?" },
+    { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Rosie, can you help me with my makeup for the party tonight?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Of course! First, foundation. Does it match your [[skin tone:natural skin colour]]?" },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Yes, I think so." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Good. Put it on your [[face:front of your head]] — your [[forehead:part above your eyes]], [[nose:part you breathe through]] and [[chin:bottom of your face]] — and blend it in." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Good. Put it on your [[face:front of your head]] — your [[forehead:part above your eyes]], [[nose:part you breathe through]] and [[chin:bottom of your face]] — and blend it in." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "Now the eyes?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes. A gold eyeshadow on your [[eyelid:skin over the eye]]s, and mascara on your [[eyelashes:small hairs on the eyelid]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes. A gold eyeshadow on your [[eyelid:skin over the eye]]s, and mascara on your [[eyelashes:small hairs on the eyelid]]." },
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "And my [[eyebrows:hair above the eyes]]?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Just a little pencil. Then some blush on your [[cheeks:sides of your face]], and red lipstick on your [[lips:soft parts around the mouth]]. Done — you look beautiful!" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Just a little pencil. Then some blush on your [[cheeks:sides of your face]], and red lipstick on your [[lips:soft parts around the mouth]]. Done — you look beautiful!" },
   ],
 
   matchingExercise: [
@@ -76,7 +76,7 @@ export const beautyFacePartsMakeup: Lesson = {
     { question: 'Where do you put mascara?', options: ['On your lips', 'On your eyelashes', 'On your chin', 'On your cheeks'], correctIndex: 1 },
     { question: 'What is your "forehead"?', options: ['The part above your eyes', 'The part below your mouth', 'The side of your face', 'Your nose'], correctIndex: 0 },
     { question: 'What does "blend in" mean?', options: ['Remove makeup', 'Mix makeup into the skin', 'Buy makeup', 'Wash your face'], correctIndex: 1 },
-    { question: 'In the dialogue, what colour eyeshadow does Kira use?', options: ['Blue', 'Gold', 'Pink', 'Black'], correctIndex: 1 },
+    { question: 'In the dialogue, what colour eyeshadow does Rosie use?', options: ['Blue', 'Gold', 'Pink', 'Black'], correctIndex: 1 },
     { question: 'Why is Maria doing her makeup?', options: ['For work', 'For a party tonight', 'For a photo', 'For a wedding'], correctIndex: 1 },
   ],
 };

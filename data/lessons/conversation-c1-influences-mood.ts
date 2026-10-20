@@ -1,8 +1,8 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
-const TIM = R2 + 'tim-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
+const OLIVER = R2 + 'oliver-icon.png';
 const img = (s: string) => `${R2}conversation-c1-influences-mood-${s}.png`;
 
 export const conversationC1InfluencesMood: Lesson = {
@@ -42,14 +42,14 @@ export const conversationC1InfluencesMood: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Kira, can I ask you something? What influences your mood the most?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Good question. Sleep, definitely. Lack of rest tends to affect my [[mindset:way of thinking]] quickly — I become [[irritable:easily annoyed]]." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Same. For me, it's noise. After the trade fair I felt completely [[overstimulated:overloaded by too much input]]." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "I understand. My environment affects me more than I realise. A calm [[atmosphere:feeling of a place]] at home really helps." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "And people? I'm quite [[sensitive to:strongly affected by]] other people's moods." },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Absolutely. The people I interact with can completely shift my mood. After a difficult call, I feel [[emotionally drained:mentally exhausted]] for hours." },
-    { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Have you identified your main [[triggers:something causing a strong reaction]]?" },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "A few. Now I try to protect my mental space — short breaks, fewer notifications, and saying no more often." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Rosie, can I ask you something? What influences your mood the most?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Good question. Sleep, definitely. Lack of rest tends to affect my [[mindset:way of thinking]] quickly — I become [[irritable:easily annoyed]]." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Same. For me, it's noise. After the trade fair I felt completely [[overstimulated:overloaded by too much input]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I understand. My environment affects me more than I realise. A calm [[atmosphere:feeling of a place]] at home really helps." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "And people? I'm quite [[sensitive to:strongly affected by]] other people's moods." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Absolutely. The people I interact with can completely shift my mood. After a difficult call, I feel [[emotionally drained:mentally exhausted]] for hours." },
+    { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Have you identified your main [[triggers:something causing a strong reaction]]?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "A few. Now I try to protect my mental space — short breaks, fewer notifications, and saying no more often." },
   ],
 
   matchingExercise: [
@@ -75,7 +75,7 @@ export const conversationC1InfluencesMood: Lesson = {
     { question: 'Which preposition follows "sensitive"?', options: ['sensitive of', 'sensitive to', 'sensitive at', 'sensitive with'], correctIndex: 1 },
     { question: 'Which phrase shows careful self-observation?', options: ['I always hate noise.', "I've noticed that overstimulation drains me.", 'Noise is bad.', 'Everyone hates noise.'], correctIndex: 1 },
     { question: 'What does "emotionally drained" mean?', options: ['Full of energy', 'Mentally exhausted by emotions', 'Dehydrated', 'Very angry'], correctIndex: 1 },
-    { question: 'In the dialogue, what makes Kira irritable?', options: ['Noise', 'Lack of sleep', 'Hunger', 'Her colleagues'], correctIndex: 1 },
-    { question: 'Why did Tim feel overstimulated?', options: ['After a trade fair', 'After a holiday', 'After a meeting', 'After a run'], correctIndex: 0 },
+    { question: 'In the dialogue, what makes Rosie irritable?', options: ['Noise', 'Lack of sleep', 'Hunger', 'Her colleagues'], correctIndex: 1 },
+    { question: 'Why did Oliver feel overstimulated?', options: ['After a trade fair', 'After a holiday', 'After a meeting', 'After a run'], correctIndex: 0 },
   ],
 };

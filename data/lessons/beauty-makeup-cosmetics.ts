@@ -1,7 +1,7 @@
 import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
-const KIRA = R2 + 'kira-professional-portrait.png';
+const ROSIE = R2 + 'rosie-icon.png';
 const img = (s: string) => `${R2}beauty-makeup-cosmetics-${s}.png`;
 
 export const beautyMakeupCosmetics: Lesson = {
@@ -45,13 +45,13 @@ export const beautyMakeupCosmetics: Lesson = {
 
   dialogue: [
     { speaker: 'Clerk', speakerColor: 'orange', text: 'Hi! How can I help you today?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Hello. I'm looking for some makeup. I need a good [[powder:light dry makeup for the face]]." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Hello. I'm looking for some makeup. I need a good [[powder:light dry makeup for the face]]." },
     { speaker: 'Clerk', speakerColor: 'orange', text: 'Do you want loose powder or compact powder?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: 'Compact, please. I also need [[lipstick:colour for your lips]].' },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Compact, please. I also need [[lipstick:colour for your lips]].' },
     { speaker: 'Clerk', speakerColor: 'orange', text: 'What colour do you like? This red is very popular. Would you like to try it?' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Yes, please. Oh, I like it! Do you have [[mascara:black liquid for eyelashes]]?" },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes, please. Oh, I like it! Do you have [[mascara:black liquid for eyelashes]]?" },
     { speaker: 'Clerk', speakerColor: 'orange', text: 'Yes. Do you want waterproof mascara? It makes your lashes look longer.' },
-    { speaker: 'Kira', speakerAvatar: KIRA, speakerColor: 'purple', text: "Perfect. And some [[blush:powder for your cheeks]] — a peach colour." },
+    { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Perfect. And some [[blush:powder for your cheeks]] — a peach colour." },
     { speaker: 'Clerk', speakerColor: 'orange', text: "This peach blush is very natural. It's great for every day." },
   ],
 
@@ -77,7 +77,7 @@ export const beautyMakeupCosmetics: Lesson = {
     { question: 'What do you use on your eyelashes?', options: ['Lipstick', 'Mascara', 'Blush', 'Foundation'], correctIndex: 1 },
     { question: 'What is "concealer" for?', options: ['Lips', 'Hiding spots and dark circles', 'Eyelashes', 'Hair'], correctIndex: 1 },
     { question: 'Where do you put blush?', options: ['On your lips', 'On your cheeks', 'On your eyelids', 'On your nails'], correctIndex: 1 },
-    { question: 'In the dialogue, what colour lipstick does Kira try?', options: ['Pink', 'Red', 'Peach', 'Brown'], correctIndex: 1 },
-    { question: 'What kind of mascara does Kira buy?', options: ['Blue', 'Waterproof', 'Cheap', 'Brown'], correctIndex: 1 },
+    { question: 'In the dialogue, what colour lipstick does Rosie try?', options: ['Pink', 'Red', 'Peach', 'Brown'], correctIndex: 1 },
+    { question: 'What kind of mascara does Rosie buy?', options: ['Blue', 'Waterproof', 'Cheap', 'Brown'], correctIndex: 1 },
   ],
 };
