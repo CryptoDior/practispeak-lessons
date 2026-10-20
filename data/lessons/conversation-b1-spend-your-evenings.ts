@@ -54,6 +54,26 @@ export const conversationB1SpendYourEvenings: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "OK, challenge accepted. Just one!" },
   ],
 
+  practiceTime: {
+    instructions: "Read the conversation with your teacher. Fill each blank out loud with a word or phrase from the lesson \u2014 you can give your own answers too.",
+    lines: [
+      { speaker: 'Teacher', text: "How do you usually spend your evenings?" },
+      { speaker: 'Student', text: "I {{usually}} cook dinner and {{take it slow}}." },
+      { speaker: 'Teacher', text: "How do you relax after work?" },
+      { speaker: 'Student', text: "I {{unwind/wind down}} with a book or a walk." },
+      { speaker: 'Student', text: "How do you usually spend your evenings?" },
+      { speaker: 'Teacher', text: "I go for a walk in the evenings, and I {{catch up on}} my favourite shows." },
+      { speaker: 'Teacher', text: "Do you use your phone a lot at night?" },
+      { speaker: 'Student', text: "No, I try to {{avoid screens at night}}. I {{disconnect}} after 9 p.m." },
+      { speaker: 'Teacher', text: "Do you see friends in the evening?" },
+      { speaker: 'Student', text: "I {{occasionally}} meet friends. I like to {{socialize}} on Fridays." },
+      { speaker: 'Teacher', text: "What do you do before bed?" },
+      { speaker: 'Student', text: "I {{stretch}} for ten minutes, then I {{read or listen to something relaxing}}." },
+      { speaker: 'Teacher', text: "Do you get ready for the next day?" },
+      { speaker: 'Student', text: "Yes, I {{organize}} my bag for the next day." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'UNWIND', definition: "To relax after the day's stress" },
     { word: 'WIND DOWN', definition: 'To slowly relax before sleep' },

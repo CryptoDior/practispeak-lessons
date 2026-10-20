@@ -72,6 +72,26 @@ export const conversationB1SpendYourMornings: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "That's a good routine too. Slow, but organised!" },
   ],
 
+  practiceTime: {
+    instructions: "Read the conversation with your teacher. Fill each blank out loud with a word or phrase from the lesson \u2014 you can give your own answers too.",
+    lines: [
+      { speaker: 'Teacher', text: "How do you usually spend your mornings?" },
+      { speaker: 'Student', text: "My morning {{routine}} takes about an hour." },
+      { speaker: 'Teacher', text: "What do you do first?" },
+      { speaker: 'Student', text: "{{As soon as}} I wake up, I drink water. {{First}}, I make coffee." },
+      { speaker: 'Teacher', text: "And after that?" },
+      { speaker: 'Student', text: "{{After that}}, I {{get ready}} and listen to music {{while}} I eat breakfast." },
+      { speaker: 'Student', text: "How do you usually spend your mornings?" },
+      { speaker: 'Teacher', text: "{{I'm not a morning person.}} I drink coffee to wake up." },
+      { speaker: 'Teacher', text: "Does coffee help you?" },
+      { speaker: 'Student', text: "Yes, coffee helps me feel {{alert}}." },
+      { speaker: 'Teacher', text: "Do you plan your day in the morning?" },
+      { speaker: 'Student', text: "Yes, I take some time to {{plan my day}} on the bus." },
+      { speaker: 'Teacher', text: "What do you do last?" },
+      { speaker: 'Student', text: "{{Finally}}, I leave for work." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'ROUTINE', definition: 'Things you do regularly in the same order' },
     { word: 'AS SOON AS', definition: 'Immediately after' },

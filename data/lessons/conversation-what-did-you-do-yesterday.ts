@@ -53,6 +53,24 @@ export const conversationWhatDidYouDoYesterday: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Yes, it was [[fun:nice and enjoyable]]! In the evening I studied English.' },
   ],
 
+  practiceTime: {
+    instructions: "Teacher and student read the conversation together. The student says the missing words out loud. Use the words from the lesson.",
+    lines: [
+      { speaker: 'Teacher', text: "What did you do yesterday?" },
+      { speaker: 'Student', text: "{{Yesterday}}, I {{went to the mall/stayed at home/watched a movie}}." },
+      { speaker: 'Teacher', text: "Really? Tell me more." },
+      { speaker: 'Student', text: "I {{watched}} a movie. Then I {{cooked}} dinner." },
+      { speaker: 'Teacher', text: "Was the movie good?" },
+      { speaker: 'Student', text: "{{It was fun./It was boring.}}" },
+      { speaker: 'Student', text: "What did you do yesterday?" },
+      { speaker: 'Teacher', text: "I {{went}} to the mall. I {{met}} my friend there." },
+      { speaker: 'Student', text: "{{Really? Tell me more.}}" },
+      { speaker: 'Teacher', text: "We had coffee. It was {{fun}}!" },
+      { speaker: 'Teacher', text: "Did you study yesterday?" },
+      { speaker: 'Student', text: "Yes, I {{studied}} English for {{one hour/two hours}}." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'YESTERDAY', definition: 'The day before today' },
     { word: 'WENT', definition: 'The past of "go"' },

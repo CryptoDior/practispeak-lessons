@@ -53,6 +53,28 @@ export const conversationC1PrioritizingEachDay: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "A simple [[hierarchy:ranking by importance]] helps: three must-dos, then everything else. It keeps you [[proactive:acting before problems appear]] instead of firefighting." },
   ],
 
+  practiceTime: {
+    instructions: "Role-play this conversation with your teacher. Complete each blank out loud using the vocabulary and phrases from this lesson, then add your own detail.",
+    lines: [
+      { speaker: 'Teacher', text: "How do you decide what to prioritize each day?" },
+      { speaker: 'Student', text: "I {{separate what's urgent from what's actually important}}." },
+      { speaker: 'Teacher', text: "What do you do first?" },
+      { speaker: 'Student', text: "I start with what will have the biggest {{long-term impact}}." },
+      { speaker: 'Student', text: "How do you decide what to prioritize?" },
+      { speaker: 'Teacher', text: "I structure my day around my peak performance times." },
+      { speaker: 'Teacher', text: "When are your peak hours?" },
+      { speaker: 'Student', text: "My {{peak}} hours are between {{nine and eleven}}. I {{allocate}} them to difficult tasks." },
+      { speaker: 'Teacher', text: "What about when you're tired?" },
+      { speaker: 'Student', text: "I assess my {{bandwidth}} and plan lighter tasks." },
+      { speaker: 'Teacher', text: "Do you answer every email immediately?" },
+      { speaker: 'Student', text: "No, that makes me {{reactive}}. I prefer to be {{proactive}}." },
+      { speaker: 'Teacher', text: "What tasks do you try to avoid?" },
+      { speaker: 'Student', text: "{{Busywork}} — tasks that look productive but don't move me forward." },
+      { speaker: 'Teacher', text: "How do you organise your list?" },
+      { speaker: 'Student', text: "I create a {{hierarchy}} of tasks: three must-dos, then everything else." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'BANDWIDTH', definition: 'Mental or emotional capacity' },
     { word: 'HIERARCHY', definition: 'A ranking by importance' },

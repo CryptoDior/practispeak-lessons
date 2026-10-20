@@ -52,6 +52,28 @@ export const conversationC1UnexpectedProblems: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "It's just a temporary [[setback:problem that delays progress]]. I try to treat setbacks as information, not failure — and now we'll always book a backup venue. That's [[adaptability:adjusting to change]]!" },
   ],
 
+  practiceTime: {
+    instructions: "Role-play this conversation with your teacher. Complete each blank out loud using the vocabulary and phrases from this lesson, then add your own detail.",
+    lines: [
+      { speaker: 'Teacher', text: "How do you handle unexpected problems?" },
+      { speaker: 'Student', text: "First, I try not to react {{impulsively}}." },
+      { speaker: 'Teacher', text: "What do you do next?" },
+      { speaker: 'Student', text: "I {{assess}} the situation before taking action." },
+      { speaker: 'Student', text: "How do you handle unexpected problems?" },
+      { speaker: 'Teacher', text: "I focus on what's within my control." },
+      { speaker: 'Teacher', text: "How do you stay calm under pressure?" },
+      { speaker: 'Student', text: "Keeping my {{composure}} helps me think clearly. I try to stay {{composed}} under pressure." },
+      { speaker: 'Teacher', text: "Do you ever imagine the worst?" },
+      { speaker: 'Student', text: "Sometimes, but I try not to {{catastrophize}}." },
+      { speaker: 'Teacher', text: "Do you look for the perfect solution?" },
+      { speaker: 'Student', text: "No, I look for a {{pragmatic}} solution, not a perfect one." },
+      { speaker: 'Teacher', text: "How do you see a problem afterwards?" },
+      { speaker: 'Student', text: "It's only a temporary {{setback}}. I treat setbacks as {{information, not failure}}." },
+      { speaker: 'Teacher', text: "What skill do unexpected problems need?" },
+      { speaker: 'Student', text: "They need {{adaptability}}." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'COMPOSURE', definition: 'Staying calm under stress' },
     { word: 'IMPULSIVE', definition: 'Acting without careful thought' },

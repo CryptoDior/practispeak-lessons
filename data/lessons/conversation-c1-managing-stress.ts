@@ -54,6 +54,28 @@ export const conversationC1ManagingStress: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "It does make you more [[resilient:able to recover quickly]]. But what works for me may not work for everyone — experiment and see." },
   ],
 
+  practiceTime: {
+    instructions: "Role-play this conversation with your teacher. Complete each blank out loud using the vocabulary and phrases from this lesson, then add your own detail.",
+    lines: [
+      { speaker: 'Teacher', text: "How do you manage stress in everyday life?" },
+      { speaker: 'Student', text: "I {{set boundaries to protect my energy}}. I don't answer emails after seven." },
+      { speaker: 'Teacher', text: "When is your stress at its highest?" },
+      { speaker: 'Student', text: "My stress levels are {{heightened}} around deadlines." },
+      { speaker: 'Student', text: "How do you manage stress?" },
+      { speaker: 'Teacher', text: "I focus on what I can control and let go of what I can't." },
+      { speaker: 'Teacher', text: "What happens when you say yes to everything?" },
+      { speaker: 'Student', text: "I feel {{overextended}}." },
+      { speaker: 'Teacher', text: "Do you talk about your stress or keep it inside?" },
+      { speaker: 'Student', text: "I tend to {{internalize}} it, but that can be {{detrimental}} in the long run." },
+      { speaker: 'Teacher', text: "How do you handle a very big project?" },
+      { speaker: 'Student', text: "I {{break}} it into manageable parts. Multitasking gives me {{cognitive overload}}." },
+      { speaker: 'Teacher', text: "What helps you during the day?" },
+      { speaker: 'Student', text: "I take short breaks to {{decompress}} and deep breathing helps me stay {{grounded}}." },
+      { speaker: 'Teacher', text: "Does it work for everyone?" },
+      { speaker: 'Student', text: "Not always. {{What works for me may not work for everyone.}}" },
+    ],
+  },
+
   matchingExercise: [
     { word: 'OVEREXTENDED', definition: 'Stretched beyond your limits' },
     { word: 'RESILIENT', definition: 'Able to recover quickly' },

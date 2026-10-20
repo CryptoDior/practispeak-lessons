@@ -53,6 +53,25 @@ export const conversationBrothersOrSisters: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Ha! My home is never quiet." },
   ],
 
+  practiceTime: {
+    instructions: "Teacher and student read the conversation together. The student says the missing words out loud. Use the words from the lesson.",
+    lines: [
+      { speaker: 'Teacher', text: "Do you have brothers or sisters?" },
+      { speaker: 'Student', text: "{{Yes, I do./No, I don't.}} I have {{one brother/two sisters/one brother and one sister}}." },
+      { speaker: 'Teacher', text: "Is your brother older or younger?" },
+      { speaker: 'Student', text: "He is my {{older/younger}} brother." },
+      { speaker: 'Student', text: "And you? Do you have siblings?" },
+      { speaker: 'Teacher', text: "Yes, I do. I have one {{sister/brother}}. She is my {{older/younger}} sister." },
+      { speaker: 'Student', text: "Really? {{That's nice!}}" },
+      { speaker: 'Teacher', text: "Are you an only child?" },
+      { speaker: 'Student', text: "{{No, I'm not./Yes, I am an only child.}}" },
+      { speaker: 'Teacher', text: "Where do your parents live?" },
+      { speaker: 'Student', text: "My {{parents}} live in {{your city}}." },
+      { speaker: 'Teacher', text: "Do you see your brothers and sisters a lot?" },
+      { speaker: 'Student', text: "Yes. I see my {{siblings/brother/sister}} on {{Sundays/the weekend}}." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'BROTHER', definition: 'A boy with the same parents as you' },
     { word: 'SISTER', definition: 'A girl with the same parents as you' },

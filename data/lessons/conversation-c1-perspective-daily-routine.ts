@@ -53,6 +53,28 @@ export const conversationC1PerspectiveDailyRoutine: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Maybe I need to be more [[introspective:examining my own thoughts]] about mine. I've realised balance matters more than discipline for its own sake." },
   ],
 
+  practiceTime: {
+    instructions: "Role-play this conversation with your teacher. Complete each blank out loud using the vocabulary and phrases from this lesson, then add your own detail.",
+    lines: [
+      { speaker: 'Teacher', text: "What's your perspective on your daily routine?" },
+      { speaker: 'Student', text: "My routine feels {{structured, but sometimes limiting}}." },
+      { speaker: 'Teacher', text: "Does every day feel the same?" },
+      { speaker: 'Student', text: "Yes, sometimes it feels {{monotonous}}." },
+      { speaker: 'Student', text: "What's your perspective on your daily routine?" },
+      { speaker: 'Teacher', text: "I've realised balance matters more than rigid discipline." },
+      { speaker: 'Teacher', text: "Have you ever tried a very strict schedule?" },
+      { speaker: 'Student', text: "Yes, but it was {{unsustainable}}. A {{rigid}} schedule leaves no room for the unexpected." },
+      { speaker: 'Teacher', text: "So how do you keep your routine now?" },
+      { speaker: 'Student', text: "I keep it {{adaptive}} rather than {{rigid}}." },
+      { speaker: 'Teacher', text: "Which part of your day helps you most?" },
+      { speaker: 'Student', text: "A slow morning. It's surprisingly {{restorative}}." },
+      { speaker: 'Teacher', text: "Is there a habit you want to stop?" },
+      { speaker: 'Student', text: "Checking my phone first thing. It's {{counterproductive}}." },
+      { speaker: 'Teacher', text: "What are you trying to change?" },
+      { speaker: 'Student', text: "I'm trying to create more {{intentional}} moments in my day." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'MONOTONOUS', definition: 'Repetitive and lacking variety' },
     { word: 'INTENTIONAL', definition: 'Done deliberately, with purpose' },

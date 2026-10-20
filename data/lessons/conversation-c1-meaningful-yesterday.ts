@@ -53,6 +53,26 @@ export const conversationC1MeaningfulYesterday: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "It was. [[In hindsight:looking back]], it was the best part of my week. It gave me a moment of [[gratitude:feeling thankful]] I didn't know I needed." },
   ],
 
+  practiceTime: {
+    instructions: "Role-play this conversation with your teacher. Complete each blank out loud using the vocabulary and phrases from this lesson, then add your own detail.",
+    lines: [
+      { speaker: 'Teacher', text: "What made yesterday meaningful or memorable for you?" },
+      { speaker: 'Student', text: "Something small had a {{surprisingly big impact}} on me." },
+      { speaker: 'Teacher', text: "Really? What happened?" },
+      { speaker: 'Student', text: "I talked to {{my grandmother/an old friend}}. It was surprisingly {{insightful}}." },
+      { speaker: 'Student', text: "What made yesterday meaningful for you?" },
+      { speaker: 'Teacher', text: "I connected with someone on a deeper level." },
+      { speaker: 'Teacher', text: "Did anything make you think of the past?" },
+      { speaker: 'Student', text: "Yes, an old song made me {{nostalgic}}." },
+      { speaker: 'Teacher', text: "Did any words stay with you?" },
+      { speaker: 'Student', text: "Yes, a short conversation {{resonated}} with me all evening. Her words were very {{reassuring}}." },
+      { speaker: 'Teacher', text: "Was it a big moment?" },
+      { speaker: 'Student', text: "It was small but {{significant}}. A {{subtle}} change in my mood changed the whole day." },
+      { speaker: 'Teacher', text: "Looking back, how do you feel about it?" },
+      { speaker: 'Student', text: "{{In hindsight}}, it was the best part of the week. It gave me a moment of {{gratitude}}." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'RESONATE', definition: 'To connect with you emotionally' },
     { word: 'NOSTALGIC', definition: 'Feeling warm emotion about the past' },

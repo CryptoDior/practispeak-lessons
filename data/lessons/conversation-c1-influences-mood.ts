@@ -52,6 +52,28 @@ export const conversationC1InfluencesMood: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "A few. Now I try to protect my mental space — short breaks, fewer notifications, and saying no more often." },
   ],
 
+  practiceTime: {
+    instructions: "Role-play this conversation with your teacher. Complete each blank out loud using the vocabulary and phrases from this lesson, then add your own detail.",
+    lines: [
+      { speaker: 'Teacher', text: "What influences your mood the most?" },
+      { speaker: 'Student', text: "Sleep, definitely. Lack of rest affects my {{mindset}} quickly." },
+      { speaker: 'Teacher', text: "How do you feel when you don't sleep enough?" },
+      { speaker: 'Student', text: "I become {{irritable}}." },
+      { speaker: 'Student', text: "What influences your mood the most?" },
+      { speaker: 'Teacher', text: "My environment affects me more than I realise." },
+      { speaker: 'Teacher', text: "How do you feel after hours online?" },
+      { speaker: 'Student', text: "I feel {{overstimulated}}. I've noticed that {{overstimulation}} drains me." },
+      { speaker: 'Teacher', text: "Do other people affect your mood?" },
+      { speaker: 'Student', text: "Yes, I'm very {{sensitive to}} other people's moods." },
+      { speaker: 'Teacher', text: "How did you feel after your last difficult conversation?" },
+      { speaker: 'Student', text: "I felt {{emotionally drained}} for hours." },
+      { speaker: 'Teacher', text: "What kind of places are hard for you?" },
+      { speaker: 'Student', text: "Loud, crowded places are a {{trigger}} for me. I prefer a calm {{atmosphere}}." },
+      { speaker: 'Teacher', text: "What do you do to feel better?" },
+      { speaker: 'Student', text: "I try to {{protect my mental space}}." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'OVERSTIMULATED', definition: 'Overloaded by too much input' },
     { word: 'IRRITABLE', definition: 'Easily annoyed' },

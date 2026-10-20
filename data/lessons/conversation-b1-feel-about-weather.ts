@@ -54,6 +54,26 @@ export const conversationB1FeelAboutWeather: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Don't worry, it usually [[brightens:becomes lighter]] quickly after a summer storm." },
   ],
 
+  practiceTime: {
+    instructions: "Read the conversation with your teacher. Fill each blank out loud with a word or phrase from the lesson \u2014 you can give your own answers too.",
+    lines: [
+      { speaker: 'Teacher', text: "How do you feel about the weather today?" },
+      { speaker: 'Student', text: "It's {{mostly}} sunny, so it {{puts me in a good mood}}." },
+      { speaker: 'Teacher', text: "Is it too hot for you?" },
+      { speaker: 'Student', text: "Yes, it's {{a bit too hot for me}}, and the {{humidity}} is uncomfortable." },
+      { speaker: 'Student', text: "How do you feel about the weather today?" },
+      { speaker: 'Teacher', text: "I like it. There's a cool {{breeze}} in the afternoon." },
+      { speaker: 'Teacher', text: "Do you like cold weather?" },
+      { speaker: 'Student', text: "No, I'm {{not a fan of}} cold weather." },
+      { speaker: 'Teacher', text: "How does rain make you feel?" },
+      { speaker: 'Student', text: "The rain makes me feel {{relaxed}}. / Rainy days feel a little {{gloomy}} to me." },
+      { speaker: 'Teacher', text: "The forecast says it will be windy later." },
+      { speaker: 'Student', text: "Yes, it's {{extremely/slightly}} windy outside already." },
+      { speaker: 'Teacher', text: "Will it get warmer or cooler this evening?" },
+      { speaker: 'Student', text: "I think it will {{cool down}} in the evening, but it will {{warm up}} tomorrow." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'GLOOMY', definition: 'Dark, grey and a bit sad' },
     { word: 'HUMIDITY', definition: 'Water in the air' },

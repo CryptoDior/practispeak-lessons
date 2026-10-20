@@ -53,6 +53,26 @@ export const conversationC1SmallHabits: Lesson = {
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: "OK, I'm starting tonight. It seems simple, but I hope it has a [[lasting:long-term]] impact!" },
   ],
 
+  practiceTime: {
+    instructions: "Role-play this conversation with your teacher. Complete each blank out loud using the vocabulary and phrases from this lesson, then add your own detail.",
+    lines: [
+      { speaker: 'Teacher', text: "What small habits changed your life?" },
+      { speaker: 'Student', text: "A small habit that made a huge difference was {{drinking water before coffee/reading ten pages a day}}." },
+      { speaker: 'Teacher', text: "Did you notice the change straight away?" },
+      { speaker: 'Student', text: "No, it didn't feel significant at first, but it {{compounded}} over time." },
+      { speaker: 'Student', text: "What small habits changed your life?" },
+      { speaker: 'Teacher', text: "Walking every morning. It's more sustainable than intense exercise." },
+      { speaker: 'Teacher', text: "Why do small habits work better than big changes?" },
+      { speaker: 'Student', text: "Because {{incremental}} progress is easier to maintain. It's more {{sustainable}}." },
+      { speaker: 'Teacher', text: "Did the habit affect other parts of your life?" },
+      { speaker: 'Student', text: "Yes, it had a {{ripple effect}} — I sleep better and eat better." },
+      { speaker: 'Teacher', text: "Did you expect such a big result?" },
+      { speaker: 'Student', text: "No, I {{underestimated}} how much it would affect my mindset." },
+      { speaker: 'Teacher', text: "How has it changed you?" },
+      { speaker: 'Student', text: "It made me more {{disciplined}}. It seems simple, but it has had a {{lasting}} impact." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'INCREMENTAL', definition: 'Happening in small steps' },
     { word: 'COMPOUND EFFECT', definition: 'Big results from small repeated actions' },

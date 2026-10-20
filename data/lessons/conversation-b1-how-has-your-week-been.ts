@@ -72,6 +72,26 @@ export const conversationB1HowHasYourWeekBeen: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Sounds [[relaxing:calm and restful]]. I need a week like that!" },
   ],
 
+  practiceTime: {
+    instructions: "Read the conversation with your teacher. Fill each blank out loud with a word or phrase from the lesson \u2014 you can give your own answers too.",
+    lines: [
+      { speaker: 'Teacher', text: "How has your week been so far?" },
+      { speaker: 'Student', text: "It's been {{pretty good/a bit hectic/quiet}}, thanks." },
+      { speaker: 'Teacher', text: "Really? Why?" },
+      { speaker: 'Student', text: "{{Honestly}}, work has been {{stressful/hectic/chaotic}} — I had a lot of deadlines." },
+      { speaker: 'Student', text: "How about you? How has your week been?" },
+      { speaker: 'Teacher', text: "It started off rough, but it's getting better." },
+      { speaker: 'Teacher', text: "Have you had a productive week?" },
+      { speaker: 'Student', text: "Yes, it's been very {{productive}}. / No, {{nothing too exciting}}." },
+      { speaker: 'Teacher', text: "What have you been doing at work?" },
+      { speaker: 'Student', text: "I've been {{catching up on work}} because I was busy last week." },
+      { speaker: 'Teacher', text: "Was Monday difficult?" },
+      { speaker: 'Student', text: "Yes, everything felt {{chaotic}} on Monday." },
+      { speaker: 'Teacher', text: "My week has been very busy." },
+      { speaker: 'Student', text: "{{Same here!}}" },
+    ],
+  },
+
   matchingExercise: [
     { word: 'HECTIC', definition: 'Very busy, with little time' },
     { word: 'PRODUCTIVE', definition: 'Getting a lot of work done' },

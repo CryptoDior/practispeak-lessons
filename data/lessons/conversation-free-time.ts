@@ -54,6 +54,25 @@ export const conversationFreeTime: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'That sounds nice. So, movies, games and music are your [[hobby:something you like to do]]s!' },
   ],
 
+  practiceTime: {
+    instructions: "Teacher and student read the conversation together. The student says the missing words out loud. Use the words from the lesson.",
+    lines: [
+      { speaker: 'Teacher', text: "What do you do in your free time?" },
+      { speaker: 'Student', text: "In my {{free time}}, I like to {{read/listen to music/play games}}." },
+      { speaker: 'Teacher', text: "That's cool! Do you have a hobby?" },
+      { speaker: 'Student', text: "Yes. My {{hobby}} is {{cooking/reading/music}}." },
+      { speaker: 'Student', text: "What do you do in your free time?" },
+      { speaker: 'Teacher', text: "I {{enjoy}} cooking. I also like to {{read}}." },
+      { speaker: 'Student', text: "{{Me too!/That's cool!}}" },
+      { speaker: 'Teacher', text: "Do you listen to music?" },
+      { speaker: 'Student', text: "Yes, I {{listen to music}} every day." },
+      { speaker: 'Teacher', text: "Do you play games?" },
+      { speaker: 'Student', text: "Yes, I play {{games}} with my friends." },
+      { speaker: 'Teacher', text: "What do you do on Sundays?" },
+      { speaker: 'Student', text: "On Sundays, I {{spend time with my family}}." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'FREE TIME', definition: 'Time when you are not working' },
     { word: 'HOBBY', definition: 'Something you like to do in your free time' },

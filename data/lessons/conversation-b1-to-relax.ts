@@ -52,6 +52,26 @@ export const conversationB1ToRelax: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Start with one evening. Watch something light, and try not to think too much. You'll feel the difference." },
   ],
 
+  practiceTime: {
+    instructions: "Read the conversation with your teacher. Fill each blank out loud with a word or phrase from the lesson \u2014 you can give your own answers too.",
+    lines: [
+      { speaker: 'Teacher', text: "What do you do to relax?" },
+      { speaker: 'Student', text: "I listen to {{calming}} music, or I go for a walk to {{clear my mind}}." },
+      { speaker: 'Teacher', text: "Is it easy to relax after work?" },
+      { speaker: 'Student', text: "No, I find it hard to {{switch off}} after work." },
+      { speaker: 'Student', text: "What do you do to relax?" },
+      { speaker: 'Teacher', text: "I {{meditate}} for ten minutes every morning, and I {{breathe}} slowly." },
+      { speaker: 'Teacher', text: "Do you like to be alone sometimes?" },
+      { speaker: 'Student', text: "Yes, I {{enjoy quiet time alone}}." },
+      { speaker: 'Teacher', text: "Do you ever take a break from your phone?" },
+      { speaker: 'Student', text: "Yes, I {{disconnect}} from social media at the weekend." },
+      { speaker: 'Teacher', text: "What do you watch after a hard day?" },
+      { speaker: 'Student', text: "I usually watch {{something light}}, like a comedy." },
+      { speaker: 'Teacher', text: "How do you feel after a quiet weekend?" },
+      { speaker: 'Student', text: "I feel better. I need a quiet weekend to {{recharge}}." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'SWITCH OFF', definition: 'Stop thinking about work or problems' },
     { word: 'UNWIND', definition: 'Slowly calm down after stress' },

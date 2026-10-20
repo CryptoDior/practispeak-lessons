@@ -53,6 +53,28 @@ export const conversationC1ReflectingOnYourself: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Exactly. It made me confront something I'd avoided for years. I'm still processing it, but I have more [[emotional clarity:clear understanding of my feelings]] now." },
   ],
 
+  practiceTime: {
+    instructions: "Role-play this conversation with your teacher. Complete each blank out loud using the vocabulary and phrases from this lesson, then add your own detail.",
+    lines: [
+      { speaker: 'Teacher', text: "What recent situation made you reflect on yourself?" },
+      { speaker: 'Student', text: "A difficult conversation at work. It was quite {{triggering}}." },
+      { speaker: 'Teacher', text: "How did you react?" },
+      { speaker: 'Student', text: "Badly at first. Then I realised I was reacting out of {{habit, not intention}}." },
+      { speaker: 'Student', text: "What recent situation made you reflect on yourself?" },
+      { speaker: 'Teacher', text: "Moving to a new city. It made me confront something I'd avoided." },
+      { speaker: 'Teacher', text: "What did you learn about yourself?" },
+      { speaker: 'Student', text: "I had a {{realization}}: I avoid difficult conversations." },
+      { speaker: 'Teacher', text: "Did it show you any weaknesses?" },
+      { speaker: 'Student', text: "Yes, it brought some of my {{vulnerabilities}} to the surface." },
+      { speaker: 'Teacher', text: "Have you noticed any patterns?" },
+      { speaker: 'Student', text: "Yes, I noticed {{behavioural patterns}} I'd been ignoring. I was acting out of {{subconscious}} fear." },
+      { speaker: 'Teacher', text: "How do you feel about it now?" },
+      { speaker: 'Student', text: "I have more {{self-awareness}} and {{emotional clarity}}, but I'm still processing it." },
+      { speaker: 'Teacher', text: "Has it changed how you think?" },
+      { speaker: 'Student', text: "Yes, it made me more {{introspective}}." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'TRIGGERING', definition: 'Causing a strong emotional reaction' },
     { word: 'VULNERABILITIES', definition: 'Weak points or sensitivities' },

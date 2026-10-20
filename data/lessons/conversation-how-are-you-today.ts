@@ -53,6 +53,25 @@ export const conversationHowAreYouToday: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Thanks, Rosie. Don't be [[sad:not happy]] about yesterday. Today is a new day!" },
   ],
 
+  practiceTime: {
+    instructions: "Teacher and student read the conversation together. The student says the missing words out loud. Use the words from the lesson.",
+    lines: [
+      { speaker: 'Teacher', text: "Hi! How are you today?" },
+      { speaker: 'Student', text: "I'm {{fine/good/okay}}, thank you. {{And you?}}" },
+      { speaker: 'Teacher', text: "I'm {{good/fine}}, thanks." },
+      { speaker: 'Student', text: "How is your {{day}}?" },
+      { speaker: 'Teacher', text: "My day is {{good}}. I feel happy today." },
+      { speaker: 'Teacher', text: "How do you feel today?" },
+      { speaker: 'Student', text: "I {{feel}} {{happy/tired/good}} today." },
+      { speaker: 'Teacher', text: "Are you tired?" },
+      { speaker: 'Student', text: "{{Yes, I'm tired./No, I'm not tired.}}" },
+      { speaker: 'Teacher', text: "Why are you happy?" },
+      { speaker: 'Student', text: "I'm {{happy}} because {{it's my birthday/it's the weekend}}." },
+      { speaker: 'Teacher', text: "When do you feel sad?" },
+      { speaker: 'Student', text: "I feel {{sad}} when my friend goes home." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'FINE', definition: 'OK, not good and not bad' },
     { word: 'TIRED', definition: 'You want to sleep' },

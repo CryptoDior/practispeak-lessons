@@ -54,6 +54,26 @@ export const conversationWhatTimeIsIt: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Same! Oh look, it\'s [[quarter to:15 minutes before]] four now… wait, no! It\'s 3:25. Go to your class!' },
   ],
 
+  practiceTime: {
+    instructions: "Teacher and student read the conversation together. The student says the missing words out loud. Use the words from the lesson.",
+    lines: [
+      { speaker: 'Teacher', text: "What time is it?" },
+      { speaker: 'Student', text: "It's {{3 o'clock/half past three/quarter past three}}." },
+      { speaker: 'Teacher', text: "Thank you. What time do you wake up?" },
+      { speaker: 'Student', text: "I {{wake up}} at {{7 o'clock/half past six}}." },
+      { speaker: 'Student', text: "What time do you wake up?" },
+      { speaker: 'Teacher', text: "I wake up at {{quarter past six}}. That's early!" },
+      { speaker: 'Teacher', text: "What time do you go to bed?" },
+      { speaker: 'Student', text: "I {{go to bed}} at {{10 o'clock/half past ten}}." },
+      { speaker: 'Teacher', text: "Look at the clock. It's 7:45. What time is it?" },
+      { speaker: 'Student', text: "It's {{quarter to eight}}." },
+      { speaker: 'Teacher', text: "And now it's 8:15." },
+      { speaker: 'Student', text: "It's {{quarter past eight}}." },
+      { speaker: 'Teacher', text: "The class starts in five minutes!" },
+      { speaker: 'Student', text: "{{Hurry up!}}" },
+    ],
+  },
+
   matchingExercise: [
     { word: "O'CLOCK", definition: 'A full hour, like 3:00' },
     { word: 'HALF PAST', definition: '30 minutes after the hour' },

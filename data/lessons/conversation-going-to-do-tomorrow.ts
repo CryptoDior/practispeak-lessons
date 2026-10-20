@@ -54,6 +54,25 @@ export const conversationGoingToDoTomorrow: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Thanks! Enjoy your day at home.' },
   ],
 
+  practiceTime: {
+    instructions: "Teacher and student read the conversation together. The student says the missing words out loud. Use the words from the lesson.",
+    lines: [
+      { speaker: 'Teacher', text: "What are you going to do tomorrow?" },
+      { speaker: 'Student', text: "{{Tomorrow}}, I'm going to {{study/work/relax}}." },
+      { speaker: 'Teacher', text: "Do you have plans in the morning?" },
+      { speaker: 'Student', text: "In the {{morning}}, I'm going to {{study/work}}." },
+      { speaker: 'Student', text: "What are you going to do tomorrow?" },
+      { speaker: 'Teacher', text: "I'm going to meet my friend." },
+      { speaker: 'Student', text: "{{What time?}}" },
+      { speaker: 'Teacher', text: "In the {{afternoon}}. We're going to {{eat out}}." },
+      { speaker: 'Student', text: "{{That sounds nice!}}" },
+      { speaker: 'Teacher', text: "What are you going to do in the evening?" },
+      { speaker: 'Student', text: "In the {{evening}}, I'm going to {{stay at home/relax/cook}}." },
+      { speaker: 'Teacher', text: "I'm going to a party tomorrow." },
+      { speaker: 'Student', text: "{{Have fun!}}" },
+    ],
+  },
+
   matchingExercise: [
     { word: 'TOMORROW', definition: 'The day after today' },
     { word: 'PLAN', definition: 'Something you decide to do' },

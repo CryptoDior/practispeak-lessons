@@ -52,6 +52,26 @@ export const conversationC1AccomplishThisWeek: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes — no social media until Friday. I want to approach this week with real [[intentionality:deliberate purpose]]." },
   ],
 
+  practiceTime: {
+    instructions: "Role-play this conversation with your teacher. Complete each blank out loud using the vocabulary and phrases from this lesson, then add your own detail.",
+    lines: [
+      { speaker: 'Teacher', text: "What are you hoping to accomplish this week?" },
+      { speaker: 'Student', text: "My main {{objective}} is to {{finish the report/prepare for my exam}}." },
+      { speaker: 'Teacher', text: "How many goals have you set?" },
+      { speaker: 'Student', text: "Three {{achievable}} goals. I'm setting {{realistic objectives}} instead of overwhelming myself." },
+      { speaker: 'Student', text: "What are you hoping to accomplish this week?" },
+      { speaker: 'Teacher', text: "I'm aiming to finish tasks I've been postponing." },
+      { speaker: 'Teacher', text: "How will you get started?" },
+      { speaker: 'Student', text: "I'll complete a few small tasks first to build {{momentum}}." },
+      { speaker: 'Teacher', text: "Do you struggle with procrastination?" },
+      { speaker: 'Student', text: "Yes, I want to reduce {{procrastination}} by {{limiting distractions}}." },
+      { speaker: 'Teacher', text: "What if the work isn't perfect?" },
+      { speaker: 'Student', text: "That's fine. I'm focusing on {{progress, not perfection}}." },
+      { speaker: 'Teacher', text: "Do your goals match your long-term plans?" },
+      { speaker: 'Student', text: "Yes, they're in {{alignment}} with my plans. I'm working with more {{intentionality/clarity}}." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'MOMENTUM', definition: 'Forward progress that builds over time' },
     { word: 'CLARITY', definition: 'A clear understanding' },

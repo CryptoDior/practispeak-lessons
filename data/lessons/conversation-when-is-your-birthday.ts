@@ -54,6 +54,25 @@ export const conversationWhenIsYourBirthday: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'Thank you, Rosie!' },
   ],
 
+  practiceTime: {
+    instructions: "Teacher and student read the conversation together. The student says the missing words out loud. Use the words from the lesson.",
+    lines: [
+      { speaker: 'Teacher', text: "When is your birthday?" },
+      { speaker: 'Student', text: "My {{birthday}} is on {{your date, e.g. May 10th}}." },
+      { speaker: 'Teacher', text: "What month is that?" },
+      { speaker: 'Student', text: "It's in {{your month, e.g. May}}." },
+      { speaker: 'Student', text: "When is your birthday?" },
+      { speaker: 'Teacher', text: "My birthday is on July 3rd." },
+      { speaker: 'Student', text: "{{That's soon!}}" },
+      { speaker: 'Teacher', text: "What year were you born?" },
+      { speaker: 'Student', text: "I was born in {{your year, e.g. 2001}}." },
+      { speaker: 'Teacher', text: "How old are you?" },
+      { speaker: 'Student', text: "I'm {{your age}} years {{old}}." },
+      { speaker: 'Teacher', text: "Today is my birthday!" },
+      { speaker: 'Student', text: "{{Happy birthday!}}" },
+    ],
+  },
+
   matchingExercise: [
     { word: 'BIRTHDAY', definition: 'The day every year when you were born' },
     { word: 'MONTH', definition: 'One of 12 parts of the year' },

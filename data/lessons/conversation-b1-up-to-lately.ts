@@ -53,6 +53,26 @@ export const conversationB1UpToLately: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "We should catch up properly. Dinner next week? I want a more [[social:with other people]] month!" },
   ],
 
+  practiceTime: {
+    instructions: "Read the conversation with your teacher. Fill each blank out loud with a word or phrase from the lesson \u2014 you can give your own answers too.",
+    lines: [
+      { speaker: 'Teacher', text: "Long time no see! What have you been up to lately?" },
+      { speaker: 'Student', text: "{{Not much, just the usual./I've been really busy with work.}}" },
+      { speaker: 'Teacher', text: "Has it been a busy month?" },
+      { speaker: 'Student', text: "Yes, it's been very {{eventful/overwhelming}}. / No, it's been quite {{peaceful}}." },
+      { speaker: 'Student', text: "What have you been up to lately?" },
+      { speaker: 'Teacher', text: "I've been {{catching up with friends}} and going to the gym." },
+      { speaker: 'Teacher', text: "Do you go out a lot on weeknights?" },
+      { speaker: 'Student', text: "No, I {{rarely}} go out on weeknights." },
+      { speaker: 'Teacher', text: "What have you mostly been doing?" },
+      { speaker: 'Student', text: "I've {{mostly}} been {{working/resting/studying}}." },
+      { speaker: 'Teacher', text: "Have you been looking after yourself?" },
+      { speaker: 'Student', text: "Yes, I've been {{focusing on myself}} — more sleep and more walks." },
+      { speaker: 'Teacher', text: "Is your gym routine going well?" },
+      { speaker: 'Student', text: "Yes, it's been very {{consistent}} this month." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'EVENTFUL', definition: 'Full of things happening' },
     { word: 'PEACEFUL', definition: 'Calm and quiet' },

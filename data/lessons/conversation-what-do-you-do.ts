@@ -54,6 +54,26 @@ export const conversationWhatDoYouDo: Lesson = {
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: 'I want to open my own restaurant one day.' },
   ],
 
+  practiceTime: {
+    instructions: "Teacher and student read the conversation together. The student says the missing words out loud. Use the words from the lesson.",
+    lines: [
+      { speaker: 'Teacher', text: "What do you do?" },
+      { speaker: 'Student', text: "I'm a {{student/teacher/chef}}." },
+      { speaker: 'Teacher', text: "Where do you work or study?" },
+      { speaker: 'Student', text: "I {{work}} at a {{hospital/bank/restaurant}}. / I {{study}} at a {{university/language school}}." },
+      { speaker: 'Student', text: "What do you do?" },
+      { speaker: 'Teacher', text: "I'm a {{teacher}}. I work at a school." },
+      { speaker: 'Student', text: "{{That's interesting!}} Do you like your job?" },
+      { speaker: 'Teacher', text: "{{Yes, I do.}}" },
+      { speaker: 'Teacher', text: "Do you like your job?" },
+      { speaker: 'Student', text: "{{Yes, I do./No, I don't.}}" },
+      { speaker: 'Teacher', text: "Do you study English?" },
+      { speaker: 'Student', text: "Yes. I {{study}} English at a {{language school/university}}." },
+      { speaker: 'Teacher', text: "What job do you want one day?" },
+      { speaker: 'Student', text: "I want to be a {{chef/teacher/doctor}}." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'JOB', definition: 'The work you do to get money' },
     { word: 'STUDENT', definition: 'A person who studies' },

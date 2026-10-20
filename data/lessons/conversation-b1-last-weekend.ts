@@ -72,6 +72,26 @@ export const conversationB1LastWeekend: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Amazing! Next weekend I want to [[visit:go to see]] my parents, but I'll take you to the restaurant one day." },
   ],
 
+  practiceTime: {
+    instructions: "Read the conversation with your teacher. Fill each blank out loud with a word or phrase from the lesson \u2014 you can give your own answers too.",
+    lines: [
+      { speaker: 'Teacher', text: "What did you do last weekend?" },
+      { speaker: 'Student', text: "I {{went}} to {{a museum/the beach/the cinema}} on Saturday." },
+      { speaker: 'Teacher', text: "Did you go out with friends?" },
+      { speaker: 'Student', text: "Yes, I {{went out with}} my friends on Friday night. We {{tried}} a new restaurant." },
+      { speaker: 'Student', text: "What did you do last weekend?" },
+      { speaker: 'Teacher', text: "{{I didn't do much.}} I stayed home and rested." },
+      { speaker: 'Teacher', text: "Did you visit anyone?" },
+      { speaker: 'Student', text: "Yes, I {{visited}} my {{cousin/parents/grandmother}} on Sunday." },
+      { speaker: 'Teacher', text: "Did you try something different?" },
+      { speaker: 'Student', text: "Yes, I {{tried something different}} — a {{cooking/dance/yoga}} class." },
+      { speaker: 'Teacher', text: "Was it a productive weekend?" },
+      { speaker: 'Student', text: "Yes, it was {{productive}}. I {{finished}} a book and cleaned my flat." },
+      { speaker: 'Teacher', text: "Did you get enough sleep?" },
+      { speaker: 'Student', text: "Yes, I {{caught up on sleep}} on Sunday." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'WENT', definition: 'Past of "go"' },
     { word: 'MET', definition: 'Past of "meet"' },

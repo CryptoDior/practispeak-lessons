@@ -70,6 +70,26 @@ export const conversationB1AfterWork: Lesson = {
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Maybe! I have a few things to [[take care of:deal with]] in the morning. Let me know what time you're going." },
   ],
 
+  practiceTime: {
+    instructions: "Read the conversation with your teacher. Fill each blank out loud with a word or phrase from the lesson \u2014 you can give your own answers too.",
+    lines: [
+      { speaker: 'Teacher', text: "What are you going to do after work today?" },
+      { speaker: 'Student', text: "I'm going to {{head}} home and {{rest/prepare dinner}}." },
+      { speaker: 'Teacher', text: "Do you have anything else to do?" },
+      { speaker: 'Student', text: "Yes, I have to run some {{errands}} first — the shop and the post office." },
+      { speaker: 'Student', text: "What about you? What are you going to do after work?" },
+      { speaker: 'Teacher', text: "I'm meeting a friend later. Before that, I {{might}} go to the gym." },
+      { speaker: 'Teacher', text: "Do you often exercise after work?" },
+      { speaker: 'Student', text: "{{Yes, I exercise two or three times a week./Not really, I'm usually too tired.}}" },
+      { speaker: 'Teacher', text: "What did you do after work yesterday?" },
+      { speaker: 'Student', text: "I {{rested/prepared dinner/exercised}} when I got home." },
+      { speaker: 'Teacher', text: "Have you got plans for the evening?" },
+      { speaker: 'Student', text: "Not yet. I haven't {{decided}}. I have a few things to {{take care of}}." },
+      { speaker: 'Teacher', text: "OK. Let me know what you're doing later." },
+      { speaker: 'Student', text: "Sure, I'll {{let you know}}." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'ERRANDS', definition: 'Small jobs like shopping or the bank' },
     { word: 'HEAD', definition: 'To go in a direction' },

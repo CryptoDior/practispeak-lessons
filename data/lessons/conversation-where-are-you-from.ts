@@ -56,6 +56,27 @@ export const conversationWhereAreYouFrom: Lesson = {
     { speaker: 'Maria', speakerAvatar: MARIA, speakerColor: 'orange', text: 'Nice to meet you too, Oliver.' },
   ],
 
+  practiceTime: {
+    instructions: "Teacher and student read the conversation together. The student says the missing words out loud. Use the words from the lesson.",
+    lines: [
+      { speaker: 'Teacher', text: "Hi! Where are you from?" },
+      { speaker: 'Student', text: "I'm {{from}} {{your country}}." },
+      { speaker: 'Teacher', text: "What city do you live in?" },
+      { speaker: 'Student', text: "I {{live}} in {{your city}}." },
+      { speaker: 'Student', text: "Where are you from?" },
+      { speaker: 'Teacher', text: "I'm from South Africa. I live in Durban." },
+      { speaker: 'Student', text: "{{Where is that?}}" },
+      { speaker: 'Teacher', text: "It's a city in South Africa." },
+      { speaker: 'Student', text: "{{Really? That's cool!}}" },
+      { speaker: 'Teacher', text: "Where were you born?" },
+      { speaker: 'Student', text: "I was {{born}} in {{your city or country}}." },
+      { speaker: 'Teacher', text: "Is your city big?" },
+      { speaker: 'Student', text: "Yes, my {{city}} is big. / No, my {{city}} is small." },
+      { speaker: 'Teacher', text: "Who is that?" },
+      { speaker: 'Student', text: "{{This is my friend}} {{your friend's name}}." },
+    ],
+  },
+
   matchingExercise: [
     { word: 'COUNTRY', definition: 'A big place with its own flag' },
     { word: 'CITY', definition: 'A big town with many people' },
