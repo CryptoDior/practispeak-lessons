@@ -9,6 +9,8 @@ import { effectivePlan } from '@/lib/plan';
 import { useTranslateSettings } from '@/lib/translate';
 import TranslateMenuSection from '@/components/translate/TranslateMenuSection';
 import TranslateBrush from '@/components/translate/TranslateBrush';
+import WandIcon from '@/components/translate/WandIcon';
+import { languageName } from '@/lib/translateLanguages';
 
 type Account = { email: string; name: string; plan: 'free' | 'pro'; marketing: boolean };
 
@@ -164,6 +166,19 @@ export default function AccountMenu() {
   return (
     <>
       <PlanLabel account={account} />
+      {/* Magic wand badge while the Translate tool is on */}
+      {account.plan === 'pro' && translate.enabled && (
+        <button
+          type="button"
+          onClick={() => setOpen(true)}
+          title={`Translate tool is on (${languageName(translate.lang)}). Highlight text to translate it.`}
+          aria-label={`Translate tool is on, translating into ${languageName(translate.lang)}. Open settings`}
+          className={`flex items-center gap-1 h-9 rounded-full border border-blue-200 bg-blue-50 pl-2 pr-2.5 text-xs font-bold uppercase tracking-wide text-blue-700 hover:bg-blue-100 transition-colors ${ring}`}
+        >
+          <WandIcon className="w-5 h-5 text-blue-700" />
+          {translate.lang}
+        </button>
+      )}
       <div ref={wrapRef} className="relative">
         <button
           type="button"

@@ -2,15 +2,7 @@
 import { TRANSLATE_LANGUAGES, type TranslateLangCode } from '@/lib/translateLanguages';
 import { saveTranslateSettings, type TranslateSettings } from '@/lib/translate';
 import { BECOME_STUDENT_URL } from '@/lib/site';
-
-function TranslateIcon({ className = 'w-4 h-4' }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className={className} aria-hidden="true">
-      <path d="M4 5h9M8.5 3v2M6 5c.6 3.2 2.6 5.7 5.5 7M11 5c-.8 3.6-3.3 6.4-7 8" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M12.5 21l4-9 4 9M14 17.5h5" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
+import WandIcon from '@/components/translate/WandIcon';
 
 /** Translate tool controls in the account menu: on/off + language (students), or a locked teaser. */
 export default function TranslateMenuSection({
@@ -25,7 +17,7 @@ export default function TranslateMenuSection({
       <div className="px-3 py-2.5">
         <div className="flex items-center justify-between gap-3">
           <span className="flex items-center gap-2 text-sm font-medium text-slate-500">
-            <TranslateIcon />
+            <WandIcon className="w-4 h-4" />
             Translate tool
           </span>
           <span className="rounded-md bg-slate-100 border border-slate-200 px-1.5 py-0.5 text-[11px] font-semibold text-slate-500">
@@ -49,7 +41,7 @@ export default function TranslateMenuSection({
     <div className="px-3 py-2.5">
       <div className="flex items-center justify-between gap-3">
         <span id="translate-label" className="flex items-center gap-2 text-sm font-medium text-slate-800">
-          <TranslateIcon className="w-4 h-4 text-blue-600" />
+          <WandIcon className="w-4 h-4 text-blue-600" />
           Translate tool
         </span>
         <button

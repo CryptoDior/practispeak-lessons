@@ -129,6 +129,12 @@ export default function TranslateBrush({ lang }: { lang: TranslateLangCode }) {
   // A new language: forget the last highlight so it can be translated again.
   useEffect(() => close(), [lang, close]);
 
+  // Magic wand cursor while the tool is on (styles in globals.css).
+  useEffect(() => {
+    document.documentElement.classList.add('ps-translate-on');
+    return () => document.documentElement.classList.remove('ps-translate-on');
+  }, []);
+
   if (!bubble) return null;
   const isWord = !/\s/.test(bubble.text);
 
