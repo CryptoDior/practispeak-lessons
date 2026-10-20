@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { PracticeTime } from '@/types/lesson';
 
 /**
@@ -26,6 +26,18 @@ function renderLine(text: string, show: boolean) {
 
 export default function PracticeTimeSection({ practice, wordBank }: { practice: PracticeTime; wordBank: string[] }) {
   const [show, setShow] = useState(false);
+  // Keep the word bank visible while scrolling: stick it just below the site header + lesson tabs.
+  const [top, setTop] = useState(124);
+  useEffect(() => {
+    const measure = () => {
+      const header = document.querySelector('header')?.getBoundingClientRect().height ?? 64;
+      const tabs = document.getElementById('lesson-tabs')?.getBoundingClientRect().height ?? 56;
+      setTop(Math.round(header + tabs + 8));
+    };
+    measure();
+    window.addEventListener('resize', measure);
+    return () => window.removeEventListener('resize', measure);
+  }, []);
   const words = practice.wordBank ?? wordBank;
 
   return (
@@ -33,7 +45,7 @@ export default function PracticeTimeSection({ practice, wordBank }: { practice: 
       {practice.instructions && <p className="text-gray-600 font-semibold">{practice.instructions}</p>}
 
       {words.length > 0 && (
-        <div className="bg-white rounded-2xl border border-gray-100 p-4">
+        <div className="sticky z-20 bg-white/95 backdrop-blur rounded-2xl border border-gray-100 shadow-[0_4px_16px_rgba(6,110,245,0.08)] p-4" style={{ top }}>
           <p className="text-xs font-extrabold tracking-[0.15em] uppercase text-gray-400 mb-3">Word bank</p>
           <div className="flex flex-wrap gap-2">
             {words.map((w) => (
