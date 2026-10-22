@@ -39,22 +39,22 @@ export const conversationB1AfterWork: Lesson = {
   },
 
   vocabulary: [
-    { word: 'HEAD', partOfSpeech: 'verb', definition: 'To go in a direction (informal).', example: "I'm going to head home after work.", imageSlug: img('head') },
+    { word: 'HEAD', partOfSpeech: 'verb', definition: 'To go in a direction (informal).', example: "I'm going to head home after work.", imageSlug: img('head-home') },
     { word: 'ERRANDS', partOfSpeech: 'noun', definition: 'Small jobs outside the home, like shopping or going to the bank.', example: 'I have to run some errands after work.', imageSlug: img('errands') },
-    { word: 'REST', partOfSpeech: 'verb', definition: 'To relax and stop working.', example: 'I rested for an hour after work.', imageSlug: img('rest') },
-    { word: 'PREPARE', partOfSpeech: 'verb', definition: 'To get something ready.', example: 'I prepared dinner when I got home.', imageSlug: img('prepare') },
-    { word: 'EXERCISE', partOfSpeech: 'verb', definition: 'To do physical activity for health.', example: 'I exercised at the gym yesterday.', imageSlug: img('exercise') },
-    { word: 'DECIDE', partOfSpeech: 'verb', definition: 'To choose something after thinking.', example: 'I decided to relax instead of going out.', imageSlug: img('decide') },
+    { word: 'REST', partOfSpeech: 'verb', definition: 'To relax and stop working.', example: 'I rested for an hour after work.', imageSlug: img('rest-one-hour') },
+    { word: 'PREPARE', partOfSpeech: 'verb', definition: 'To get something ready.', example: 'I prepared dinner when I got home.', imageSlug: img('prepare-dinner') },
+    { word: 'EXERCISE', partOfSpeech: 'verb', definition: 'To do physical activity for health.', example: 'I exercised at the gym yesterday.', imageSlug: img('gym-yesterday') },
+    { word: 'DECIDE', partOfSpeech: 'verb', definition: 'To choose something after thinking.', example: 'I decided to relax instead of going out.', imageSlug: img('decide-relax') },
   ],
 
   phrasalVerbs: [
     { phrase: 'TAKE CARE OF', definition: 'To deal with tasks or responsibilities.', example: 'I have a few things to take care of.', imageSlug: img('take-care-of') },
-    { phrase: 'What are you going to do after work?', tag: 'phrase', definition: "Ask about someone's plans for later today.", example: '"Any plans? What are you going to do after work?"', imageSlug: img('after-work') },
+    { phrase: 'What are you going to do after work?', tag: 'phrase', definition: "Ask about someone's plans for later today.", example: '"Any plans? What are you going to do after work?"', imageSlug: img('after-work-question') },
     { phrase: "I'm going to head straight home.", tag: 'phrase', definition: 'You plan to go home immediately.', example: '"I\'m exhausted. I\'m going to head straight home."', imageSlug: img('straight-home') },
-    { phrase: 'I have to run some errands.', tag: 'phrase', definition: 'You need to do small tasks outside.', example: '"I have to run some errands — the post office and the pharmacy."', imageSlug: img('run-errands') },
-    { phrase: "I'm meeting a friend later.", tag: 'phrase', definition: 'You have an arrangement to see someone.', example: '"I\'m meeting a friend later for a drink."', imageSlug: img('meeting-a-friend') },
-    { phrase: 'I might go to the gym.', tag: 'phrase', definition: 'You are considering it, but not sure.', example: '"If I\'m not too tired, I might go to the gym."', imageSlug: img('might') },
-    { phrase: "Let me know what you're doing later.", tag: 'phrase', definition: 'A friendly way to keep plans open.', example: '"I\'m free after six. Let me know what you\'re doing later."', inAction: 'This phrase leaves the door open. It is a soft invitation, not a fixed plan.', imageSlug: img('let-me-know') },
+    { phrase: 'I have to run some errands.', tag: 'phrase', definition: 'You need to do small tasks outside.', example: '"I have to run some errands — the post office and the pharmacy."', imageSlug: img('post-office-pharmacy') },
+    { phrase: "I'm meeting a friend later.", tag: 'phrase', definition: 'You have an arrangement to see someone.', example: '"I\'m meeting a friend later for a drink."', imageSlug: img('meeting-friend-later') },
+    { phrase: 'I might go to the gym.', tag: 'phrase', definition: 'You are considering it, but not sure.', example: '"If I\'m not too tired, I might go to the gym."', imageSlug: img('might-gym') },
+    { phrase: "Let me know what you're doing later.", tag: 'phrase', definition: 'A friendly way to keep plans open.', example: '"I\'m free after six. Let me know what you\'re doing later."', inAction: 'This phrase leaves the door open. It is a soft invitation, not a fixed plan.', imageSlug: img('free-after-six') },
   ],
 
   videos: [],
