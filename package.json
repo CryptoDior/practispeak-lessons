@@ -11,6 +11,7 @@
     "create-lesson": "node --env-file=.env.local scripts/create-from-images.mjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.136.0",
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.117.3",
     "next": "14.2.5",

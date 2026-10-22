@@ -62,3 +62,8 @@ body {
 .animate-shake {
   animation: shake 0.55s ease-in-out;
 }
+
+/* Translate tool on: magic wand cursor over the page (links and buttons keep their pointer). */
+html.ps-translate-on body {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Cpath d='M8 8L25 25' stroke='white' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M8 8L25 25' stroke='%231E293B' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M8 8L11.5 11.5' stroke='%23F59E0B' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M5 0.5L6.2 3.8L9.5 5L6.2 6.2L5 9.5L3.8 6.2L0.5 5L3.8 3.8Z' fill='%23F59E0B' stroke='white' stroke-width='1'/%3E%3C/svg%3E") 5 5, auto;
+}
