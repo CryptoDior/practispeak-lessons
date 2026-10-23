@@ -21,6 +21,7 @@ export const homeInTheKitchen1: Lesson = {
   ],
 
   pictureQuiz: true,
+  nameThis: true,
   vocabulary: [
     { word: 'KETTLE', partOfSpeech: 'noun', definition: 'A machine that heats water.', example: 'The kettle is hot. Be careful!', imageSlug: img('hot-kettle-caution') },
     { word: 'MICROWAVE', partOfSpeech: 'noun', definition: 'A machine that heats food very quickly.', example: 'Heat the soup in the microwave.', imageSlug: img('soup-inside-microwave') },

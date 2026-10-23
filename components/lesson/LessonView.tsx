@@ -1,5 +1,6 @@
 'use client';
 import PictureQuiz from '@/components/exercises/PictureQuiz';
+import NameThis from '@/components/exercises/NameThis';
 import PracticeTimeSection from '@/components/PracticeTimeSection';
 import { audioSources, playFirstWorking } from '@/lib/audio';
 import { useState, useCallback } from 'react';
@@ -72,7 +73,14 @@ export default function LessonView({
   );
   // Role-play tab goes right after the Dialogue tab (the 2nd-last base tab, before Exercises)
   const rp = lesson.practiceTime ? 1 : 0;
-  const baseTabs = rp ? [...mappedBase.slice(0, -1), 'Role-play', ...mappedBase.slice(-1)] : mappedBase;
+  // 'Name This' goes right after Dialogue (before Role-play)
+  const nt = lesson.nameThis ? 1 : 0;
+  const baseTabs = [
+    ...mappedBase.slice(0, -1),
+    ...(nt ? ['Name This'] : []),
+    ...(rp ? ['Role-play'] : []),
+    ...mappedBase.slice(-1),
+  ];
   const withWarmUp = lesson.warmUp ? ['Warm Up', ...baseTabs] : baseTabs;
   const wo = lesson.warmUp ? 1 : 0;
   // Insert 'Positions' tab right before 'Vocabulary'
@@ -634,6 +642,14 @@ export default function LessonView({
           )}
         </section>
 
+        {/* Name This */}
+        {lesson.nameThis && (
+          <section className={activeTab === TABS.indexOf('Name This') ? 'block' : 'hidden'}>
+            <SectionHeader title="Name This" subtitle="What is it? Say the word, then reveal the answer" />
+            <NameThis vocabulary={lesson.vocabulary} skip={lesson.nameThisSkip} />
+          </section>
+        )}
+
         {/* Role-play */}
         {lesson.practiceTime && (
           <section className={activeTab === TABS.indexOf('Role-play') ? 'block' : 'hidden'}>
@@ -643,7 +659,7 @@ export default function LessonView({
         )}
 
         {/* Exercises */}
-        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 3 + vid + rp ? 'block' : 'hidden'}>
+        <section className={activeTab === wo + pos + irl + po + otp + gf + pq + 3 + vid + rp + nt ? 'block' : 'hidden'}>
           <SectionHeader title="Exercises" subtitle="Complete all three exercises to see your final score" />
           <div className="space-y-6">
             {lesson.pitchCorner && (

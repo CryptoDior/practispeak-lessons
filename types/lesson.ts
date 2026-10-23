@@ -305,6 +305,10 @@ export interface Lesson {
   pictureQuiz?: boolean;
   /** Vocabulary words to leave out of the picture quiz. */
   pictureQuizSkip?: string[];
+  /** Optional 'Name This' tab after Dialogue: vocab pictures that flip to show the word. */
+  nameThis?: boolean;
+  /** Vocabulary words to leave out of Name This. */
+  nameThisSkip?: string[];
   /** Optional Role-play tab after Dialogue: Teacher/Student lines with {{blanks}}. */
   practiceTime?: PracticeTime;
   phrasalVerbs: PhrasalVerb[];
