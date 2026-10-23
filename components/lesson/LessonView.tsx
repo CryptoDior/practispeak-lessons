@@ -480,7 +480,7 @@ export default function LessonView({
         {hasPictureQuiz && (
           <section className={activeTab === TABS.indexOf('Picture Quiz') ? 'block' : 'hidden'}>
             <SectionHeader title="Picture Quiz" subtitle="Look at the picture and choose the right word" />
-            <PictureQuiz vocabulary={lesson.vocabulary} lessonSlug={lesson.slug} />
+            <PictureQuiz vocabulary={lesson.vocabulary} lessonSlug={lesson.slug} skip={lesson.pictureQuizSkip} />
           </section>
         )}
 

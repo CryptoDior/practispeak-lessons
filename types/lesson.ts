@@ -303,6 +303,8 @@ export interface Lesson {
   irlVocabulary?: VocabWord[];
   /** Optional picture quiz after Phrases: each vocab image with 3 word options (uses existing images). */
   pictureQuiz?: boolean;
+  /** Vocabulary words to leave out of the picture quiz. */
+  pictureQuizSkip?: string[];
   /** Optional Role-play tab after Dialogue: Teacher/Student lines with {{blanks}}. */
   practiceTime?: PracticeTime;
   phrasalVerbs: PhrasalVerb[];

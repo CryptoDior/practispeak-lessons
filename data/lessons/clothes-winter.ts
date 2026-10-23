@@ -20,6 +20,8 @@ export const clothesWinter: Lesson = {
     'Use phrasal verbs like bundle up, zip up and layer up.',
   ],
 
+  pictureQuiz: true,
+  pictureQuizSkip: ['WARM', 'COMFY', 'STYLISH'],
   vocabulary: [
     { word: 'COAT', partOfSpeech: 'noun', definition: 'A long piece of clothing you wear over other clothes when it\'s cold.', example: 'Take your coat — it\'s freezing.', imageSlug: img('take-coat-freezing-outside') },
     { word: 'RAINCOAT', partOfSpeech: 'noun', definition: 'A coat that keeps you dry in the rain.', example: 'I always carry a raincoat in London.', imageSlug: img('carry-raincoat-in-london') },

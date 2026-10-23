@@ -33,16 +33,36 @@ function shuffle<T>(arr: T[], rand: () => number): T[] {
 
 const nice = (w: string) => w.charAt(0) + w.slice(1).toLowerCase();
 
-export default function PictureQuiz({ vocabulary, lessonSlug }: { vocabulary: VocabWord[]; lessonSlug: string }) {
+/** Two words are "too close" to be a fair wrong option, e.g. COAT / LEATHER COAT / RAINCOAT, or FLORAL SHIRT / POLO SHIRT. */
+function tooClose(a: string, b: string): boolean {
+  const A = a.toLowerCase(), B = b.toLowerCase();
+  if (A.includes(B) || B.includes(A)) return true;
+  const head = (s: string) => s.split(/[\s-]+/).pop() ?? s;
+  return head(A) === head(B);
+}
+
+export default function PictureQuiz({
+  vocabulary,
+  lessonSlug,
+  skip = [],
+}: {
+  vocabulary: VocabWord[];
+  lessonSlug: string;
+  /** Words to leave out of the quiz (e.g. adjectives that are hard to show in one picture). */
+  skip?: string[];
+}) {
   const questions = useMemo(() => {
-    const words = vocabulary.filter((w) => w.imageSlug);
+    const skipSet = new Set(skip.map((s) => s.toUpperCase()));
+    const words = vocabulary.filter((w) => w.imageSlug && !skipSet.has(w.word.toUpperCase()));
     return words.map((w) => {
       const rand = seeded(`${lessonSlug}-${w.word}`);
-      const others = shuffle(words.filter((o) => o.word !== w.word), rand).slice(0, 2).map((o) => o.word);
+      const pool = words.filter((o) => o.word !== w.word);
+      const fair = pool.filter((o) => !tooClose(o.word, w.word));
+      const others = shuffle(fair.length >= 2 ? fair : pool, rand).slice(0, 2).map((o) => o.word);
       const options = shuffle([w.word, ...others], rand);
       return { src: resolveImageUrl(w.imageSlug) ?? '', answer: w.word, options };
     });
-  }, [vocabulary, lessonSlug]);
+  }, [vocabulary, lessonSlug, skip]);
 
   const [picked, setPicked] = useState<Record<number, string>>({});
   const done = Object.keys(picked).length;
