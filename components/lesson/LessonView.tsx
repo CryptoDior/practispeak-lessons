@@ -98,8 +98,10 @@ export default function LessonView({
     ? (() => { const pi = withGrammarFocus.indexOf('Phrases'); return [...withGrammarFocus.slice(0, pi + 1), 'Picture Quiz', ...withGrammarFocus.slice(pi + 1)]; })()
     : [...withGrammarFocus];
 
-  // Business lessons also skip the phrase In Action / Register tabs.
-  const hidePhrasalTabs = hideExtras || lesson.slug.startsWith('business-');
+  // Business and Everyday English lessons also skip the phrase In Action / Register tabs.
+  const EVERYDAY = ['beauty-', 'shopping-', 'transport-', 'clothes-', 'home-', 'travel-', 'everyday-'];
+  const hidePhrasalTabs =
+    hideExtras || lesson.slug.startsWith('business-') || EVERYDAY.some((p) => lesson.slug.startsWith(p));
   const hasPhrasalDetails = !hidePhrasalTabs && lesson.phrasalVerbs.some(
     (v) => v.inAction || v.register || v.inContext
   );
