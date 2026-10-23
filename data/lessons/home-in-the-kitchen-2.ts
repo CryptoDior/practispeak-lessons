@@ -20,6 +20,7 @@ export const homeInTheKitchen2: Lesson = {
     'Make breakfast together in English.',
   ],
 
+  pictureQuiz: true,
   vocabulary: [
     { word: 'TOASTER', partOfSpeech: 'noun', definition: 'A small machine that makes bread brown and crispy.', example: 'Put the bread in the toaster.', imageSlug: img('bread-into-two-slot-toaster') },
     { word: 'COFFEE MACHINE', partOfSpeech: 'noun', definition: 'A machine that makes coffee.', example: 'The coffee machine is broken.', imageSlug: img('faulty-coffee-machine') },
