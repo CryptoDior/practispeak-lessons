@@ -646,7 +646,7 @@ export default function LessonView({
         {lesson.nameThis && (
           <section className={activeTab === TABS.indexOf('Name This') ? 'block' : 'hidden'}>
             <SectionHeader title="Name This" subtitle="What is it? Say the word, then reveal the answer" />
-            <NameThis vocabulary={lesson.vocabulary} skip={lesson.nameThisSkip} />
+            <NameThis vocabulary={lesson.vocabulary} lessonSlug={lesson.slug} skip={lesson.nameThisSkip} />
           </section>
         )}
 

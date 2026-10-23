@@ -2,6 +2,8 @@
 import { useState } from 'react';
 import { VocabWord } from '@/types/lesson';
 import { resolveImageUrl } from '@/lib/images';
+import { r2Audio, playFirstWorking } from '@/lib/audio';
+import { audioSlugOf } from '@/components/WordEntryCard';
 
 /**
  * Name This — each vocabulary picture is shown on its own. The student says the word,
@@ -11,10 +13,38 @@ import { resolveImageUrl } from '@/lib/images';
 
 const nice = (w: string) => w.charAt(0) + w.slice(1).toLowerCase();
 
-export default function NameThis({ vocabulary, skip = [] }: { vocabulary: VocabWord[]; skip?: string[] }) {
+/** Same files the Vocabulary card plays (lesson-specific first), so no new audio is needed. */
+function wordSources(lessonSlug: string, word: string): string[] {
+  const slug = audioSlugOf(word);
+  return [r2Audio(`${lessonSlug}-${slug}.mp3`), r2Audio(`${slug}.mp3`), `/audio/${slug}.mp3`];
+}
+
+function SpeakerIcon({ className = 'w-5 h-5' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className={className} aria-hidden="true">
+      <path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5H4z" strokeLinejoin="round" />
+      <path d="M15.5 9.2a4 4 0 010 5.6M18 6.8a7.5 7.5 0 010 10.4" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export default function NameThis({
+  vocabulary,
+  lessonSlug,
+  skip = [],
+}: {
+  vocabulary: VocabWord[];
+  lessonSlug: string;
+  skip?: string[];
+}) {
   const skipSet = new Set(skip.map((s) => s.toUpperCase()));
   const words = vocabulary.filter((w) => w.imageSlug && !skipSet.has(w.word.toUpperCase()));
   const [open, setOpen] = useState<Set<number>>(new Set());
+  const [playing, setPlaying] = useState<number | null>(null);
+  const play = (i: number) => {
+    setPlaying(i);
+    playFirstWorking(wordSources(lessonSlug, words[i].word), () => setPlaying((p) => (p === i ? null : p)));
+  };
 
   const toggle = (i: number) =>
     setOpen((prev) => {
@@ -79,15 +109,27 @@ export default function NameThis({ vocabulary, skip = [] }: { vocabulary: VocabW
                   </div>
                 </div>
               </button>
-              <button
-                type="button"
-                onClick={() => toggle(i)}
-                className={`px-5 py-2 rounded-full font-bold text-sm transition-all ${
-                  flipped ? 'bg-gray-100 text-gray-600 hover:bg-gray-200' : 'bg-[#066EF5] text-white hover:bg-blue-600'
-                }`}
-              >
-                {flipped ? 'Show picture' : 'Reveal'}
-              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => toggle(i)}
+                  className={`px-5 py-2 rounded-full font-bold text-sm transition-all ${
+                    flipped ? 'bg-gray-100 text-gray-600 hover:bg-gray-200' : 'bg-[#066EF5] text-white hover:bg-blue-600'
+                  }`}
+                >
+                  {flipped ? 'Show picture' : 'Reveal'}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => play(i)}
+                  aria-label={`Listen to word ${i + 1}`}
+                  className={`w-9 h-9 rounded-full border border-blue-100 bg-blue-50 text-[#066EF5] flex items-center justify-center hover:bg-blue-100 transition-all ${
+                    playing === i ? 'animate-pulse' : ''
+                  }`}
+                >
+                  <SpeakerIcon className="w-5 h-5" />
+                </button>
+              </div>
             </div>
           );
         })}
