@@ -21,6 +21,7 @@ export const homeInTheKitchen3: Lesson = {
   ],
 
   pictureQuiz: true,
+  nameThis: true,
   vocabulary: [
     { word: 'CUTTING BOARD', partOfSpeech: 'noun', definition: 'A board for cutting food on.', example: 'Cut the onions on the cutting board.', imageSlug: img('onion-on-cutting-board') },
     { word: 'BLENDER', partOfSpeech: 'noun', definition: 'A machine that mixes and crushes food, like for smoothies.', example: 'I make smoothies in the blender.', imageSlug: img('fruit-smoothie-in-blender') },

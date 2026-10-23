@@ -19,6 +19,7 @@ export const transportPartsOfACar: Lesson = {
     'Describe a simple problem to a mechanic.',
   ],
 
+  nameThis: true,
   vocabulary: [
     { word: 'ROOF', partOfSpeech: 'noun', definition: 'The top part of a car.', example: 'The roof keeps us dry when it rains.', imageSlug: img('car-roof-in-rain') },
     { word: 'SUNROOF', partOfSpeech: 'noun', definition: 'A window on the roof that you can open.', example: 'I love opening the sunroof on warm days.', imageSlug: img('open-sunroof-warm-day') },

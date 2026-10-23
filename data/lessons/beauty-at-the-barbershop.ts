@@ -20,6 +20,8 @@ export const beautyAtTheBarbershop: Lesson = {
   ],
 
   pictureQuiz: true,
+  nameThis: true,
+  nameThisSkip: ['SIDES'],
   vocabulary: [
     { word: 'BARBER', partOfSpeech: 'noun', definition: "A person who cuts men's hair.", example: 'The barber was friendly and fast.', imageSlug: img('friendly-efficient-barber') },
     { word: 'BARBERSHOP', partOfSpeech: 'noun', definition: 'A place where people, mostly men, get their hair cut.', example: 'There is a new barbershop near my house.', imageSlug: img('neighborhood-barbershop') },

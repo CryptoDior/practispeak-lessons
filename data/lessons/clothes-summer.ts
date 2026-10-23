@@ -22,6 +22,8 @@ export const clothesSummer: Lesson = {
 
   pictureQuiz: true,
   pictureQuizSkip: ['BREATHABLE', 'TIMELESS', 'RETRO'],
+  nameThis: true,
+  nameThisSkip: ['BREATHABLE', 'TIMELESS', 'RETRO'],
   vocabulary: [
     { word: 'TANK TOP', partOfSpeech: 'noun', definition: 'A top with no sleeves.', example: 'I wear a tank top when it\'s very hot.', imageSlug: img('tank-top-in-hot-weather') },
     { word: 'CROP TOP', partOfSpeech: 'noun', definition: 'A short top that shows your stomach.', example: 'She bought a white crop top.', imageSlug: img('white-crop-top-purchase') },

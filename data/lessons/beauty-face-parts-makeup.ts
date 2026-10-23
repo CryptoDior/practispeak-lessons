@@ -21,6 +21,8 @@ export const beautyFacePartsMakeup: Lesson = {
   ],
 
   pictureQuiz: true,
+  nameThis: true,
+  nameThisSkip: ['SKIN TONE'],
   vocabulary: [
     { word: 'FACE', partOfSpeech: 'noun', definition: 'The front part of your head.', example: 'I put foundation on my face.', imageSlug: img('foundation-on-face') },
     { word: 'FOREHEAD', partOfSpeech: 'noun', definition: 'The part of your face above your eyes.', example: 'A little powder on your forehead.', imageSlug: img('powder-above-eyebrows') },

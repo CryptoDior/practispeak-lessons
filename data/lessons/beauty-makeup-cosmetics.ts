@@ -20,6 +20,7 @@ export const beautyMakeupCosmetics: Lesson = {
   ],
 
   pictureQuiz: true,
+  nameThis: true,
   vocabulary: [
     { word: 'LIPSTICK', partOfSpeech: 'noun', definition: 'A coloured stick for your lips.', example: 'I like this red lipstick.', imageSlug: img('red-lipstick') },
     { word: 'LIP GLOSS', partOfSpeech: 'noun', definition: 'A shiny liquid for your lips.', example: 'Lip gloss makes my lips shiny.', imageSlug: img('shiny-lip-gloss') },

@@ -20,6 +20,8 @@ export const beautyAtTheHairSalon: Lesson = {
   ],
 
   pictureQuiz: true,
+  nameThis: true,
+  nameThisSkip: ['HAIRCUT'],
   vocabulary: [
     { word: 'HAIRCUT', partOfSpeech: 'noun', definition: 'When someone cuts your hair to make it shorter or a new shape.', example: "I'm going to the salon for a haircut today.", imageSlug: img('salon-haircut-today') },
     { word: 'TRIM', partOfSpeech: 'noun / verb', definition: 'To cut a small amount of hair to make it tidy.', example: 'Just a trim, please. Not too short.', imageSlug: img('tiny-end-trim') },
