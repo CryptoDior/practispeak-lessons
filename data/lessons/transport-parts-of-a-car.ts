@@ -19,6 +19,7 @@ export const transportPartsOfACar: Lesson = {
     'Describe a simple problem to a mechanic.',
   ],
 
+  pictureQuiz: true,
   nameThis: true,
   vocabulary: [
     { word: 'ROOF', partOfSpeech: 'noun', definition: 'The top part of a car.', example: 'The roof keeps us dry when it rains.', imageSlug: img('car-roof-in-rain') },
