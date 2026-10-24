@@ -26,7 +26,7 @@
  *   node scripts/generate-lesson-audio-v4.mjs mma-strikes --entries=1,3,5 --force   (remake only words 1, 3 and 5)
  *   add --no-slow to read the words without the [slow] tag (one-off fixes)
  *
- * RULE: the [slow] tag is only used for A1-A2 lessons. B1-B2 and C1-C2 are read at a natural pace.
+ * RULE: no [slow] tag at any level. Words have no tag; example sentences use [friendly].
  *
  * A local copy of every file is kept in  Downloads\\Lesson Audio\\<lesson-slug>\\
  */
@@ -53,12 +53,10 @@ const WORD_SETTINGS = { stability: 1.0, similarity_boost: 0.75 };    // steady, 
 const EXAMPLE_SETTINGS = { stability: 0.5, similarity_boost: 0.75 }; // natural
 // v4 has no speed slider, so delivery is directed with an audio tag.
 // Never use the word "clear" in tags — v4 turns it into a throat-clearing sound.
-// RULE: [slow] is ONLY for A1-A2 lessons. Higher levels are read at a natural pace.
-const SLOW_LEVELS = new Set(['A1', 'A2', 'A1-A2']);
-function tagsFor(level) {
-  return SLOW_LEVELS.has(level)
-    ? { word: '[slow]', example: '[friendly, slightly slow]' }
-    : { word: '', example: '[friendly]' };
+// RULE (Oct 2026): no [slow] tag at any level — single words are read at a normal pace with no tag.
+// Example sentences only get a light [friendly] tag. Never use [clear].
+function tagsFor(_level) {
+  return { word: '', example: '[friendly]' };
 }
 
 // Same rotation the older scripts used: alternates male / female voices per word.

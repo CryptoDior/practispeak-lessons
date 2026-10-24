@@ -563,13 +563,22 @@ async function generateEpisode(ep, ffmpegAvailable, silenceShort, forceLines = n
       fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 1));
     } catch (e) {
       console.error(`    ✗ FAILED: ${e.message.slice(0, 200)}`);
+      if (/quota_exceeded|credits remaining/i.test(e.message)) {
+        console.error(`\n⛔ Out of ElevenLabs credits on this account — stopping now. Lines already recorded are kept.`);
+        console.error(`   Re-run the same command (on an account with credits) to record only the remaining lines.`);
+        process.exit(1);
+      }
     }
     await sleep(400);
   }
 
   const missing = files.filter(f => !fs.existsSync(f) || fs.statSync(f).size === 0);
   if (missing.length) {
-    console.warn(`  ⚠ ${missing.length} segment(s) failed in "${ep.file}". Re-run the script to retry just those.`);
+    // Don't build a half-finished episode: an incomplete MP3 would also trip the missing-clip guard next run.
+    const partial = path.join(OUT_DIR, `${ep.file}.mp3`);
+    if (fs.existsSync(partial)) fs.rmSync(partial, { force: true });
+    console.warn(`  ⚠ ${missing.length} segment(s) failed in "${ep.file}" — episode NOT built. Re-run the same command to record just those lines.`);
+    return;
   }
   if (usedFallback) {
     console.warn(`  ⚠ ${usedFallback} segment(s) in "${ep.file}" used the ${FALLBACK_MODEL} fallback.`);
