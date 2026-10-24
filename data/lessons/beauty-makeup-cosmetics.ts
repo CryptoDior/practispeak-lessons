@@ -46,15 +46,15 @@ export const beautyMakeupCosmetics: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Clerk', speakerColor: 'orange', text: 'Hi! How can I help you today?' },
+    { speaker: 'Clerk', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/clerk-icon.png', speakerColor: 'orange', text: 'Hi! How can I help you today?' },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Hello. I'm looking for some makeup. I need a good [[powder:light dry makeup for the face]]." },
-    { speaker: 'Clerk', speakerColor: 'orange', text: 'Do you want loose powder or compact powder?' },
+    { speaker: 'Clerk', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/clerk-icon.png', speakerColor: 'orange', text: 'Do you want loose powder or compact powder?' },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Compact, please. I also need [[lipstick:colour for your lips]].' },
-    { speaker: 'Clerk', speakerColor: 'orange', text: 'What colour do you like? This red is very popular. Would you like to try it?' },
+    { speaker: 'Clerk', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/clerk-icon.png', speakerColor: 'orange', text: 'What colour do you like? This red is very popular. Would you like to try it?' },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes, please. Oh, I like it! Do you have [[mascara:black liquid for eyelashes]]?" },
-    { speaker: 'Clerk', speakerColor: 'orange', text: 'Yes. Do you want waterproof mascara? It makes your lashes look longer.' },
+    { speaker: 'Clerk', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/clerk-icon.png', speakerColor: 'orange', text: 'Yes. Do you want waterproof mascara? It makes your lashes look longer.' },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Perfect. And some [[blush:powder for your cheeks]] — a peach colour." },
-    { speaker: 'Clerk', speakerColor: 'orange', text: "This peach blush is very natural. It's great for every day." },
+    { speaker: 'Clerk', speakerAvatar: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/clerk-icon.png', speakerColor: 'orange', text: "This peach blush is very natural. It's great for every day." },
   ],
 
   matchingExercise: [
