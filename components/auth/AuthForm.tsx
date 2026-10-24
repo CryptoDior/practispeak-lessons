@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { useState, useTransition } from 'react';
 import { login, signup } from '@/app/auth/actions';
+import PasswordInput from '@/components/auth/PasswordInput';
 
 const inputClass =
   'w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-[15px] text-slate-900 placeholder:text-slate-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 transition';
@@ -72,16 +73,21 @@ export default function AuthForm({
       </div>
 
       <div>
-        <label htmlFor="password" className="block text-sm font-medium text-slate-700 mb-1.5">
-          Password
-        </label>
-        <input
+        <div className="flex items-baseline justify-between mb-1.5">
+          <label htmlFor="password" className="block text-sm font-medium text-slate-700">
+            Password
+          </label>
+          {isLogin && (
+            <Link href="/forgot-password" className="text-xs font-semibold text-blue-600 hover:text-blue-700">
+              Forgot password?
+            </Link>
+          )}
+        </div>
+        <PasswordInput
           id="password"
           name="password"
-          type="password"
           autoComplete={isLogin ? 'current-password' : 'new-password'}
           minLength={isLogin ? undefined : 8}
-          required
           className={inputClass}
         />
         {!isLogin && <p className="mt-1.5 text-xs text-slate-500">At least 8 characters.</p>}
