@@ -6,6 +6,7 @@ import { bandForLevel } from '@/lib/levels';
 import { getUserAndPlan } from '@/lib/supabase/server';
 import LessonView, { type LessonCategoryInfo } from '@/components/lesson/LessonView';
 import LockedLesson from '@/components/lesson/LockedLesson';
+import { DictionaryProvider } from '@/components/dictionary/DictionaryProvider';
 
 // Depends on who is logged in, so never cache one student's page for another.
 export const dynamic = 'force-dynamic';
@@ -53,5 +54,10 @@ export default async function LessonPage({ params }: { params: { slug: string } 
     }
   }
 
-  return <LessonView lesson={lesson} category={category} />;
+  return (
+    // Gives every vocab/phrase card its ☆ Save to My Dictionary button.
+    <DictionaryProvider>
+      <LessonView lesson={lesson} category={category} />
+    </DictionaryProvider>
+  );
 }

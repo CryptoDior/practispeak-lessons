@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import ImageLightbox from '@/components/ImageLightbox';
 import { r2Audio, exclusiveAudio } from '@/lib/audio';
 import { resolveImageUrl, svgVariant } from '@/lib/images';
+import SaveWordButton from '@/components/dictionary/SaveWordButton';
 
 /**
  * Word title that never breaks mid-word: multi-word terms wrap at spaces,
@@ -160,6 +161,8 @@ export interface WordEntryProps {
   listenLabel: string;
   /** lesson slug, so lesson-specific audio ({lesson}-{word}.mp3) is tried first */
   lessonSlug?: string;
+  /** "From: <lesson>" link under the card (My Dictionary page) */
+  source?: { label: string; href: string };
 }
 
 export default function WordEntryCard({
@@ -173,6 +176,7 @@ export default function WordEntryCard({
   audioSlugs,
   listenLabel,
   lessonSlug,
+  source,
 }: WordEntryProps) {
   // Try R2 first (lesson-specific, then shared names), then the old local /audio files.
   const r2Bases = [...(lessonSlug ? [`${lessonSlug}-${audioSlugOf(title)}`] : []), ...audioSlugs];
@@ -205,6 +209,20 @@ export default function WordEntryCard({
         <div className="flex items-center gap-2.5 mb-2.5">
           <FitTitle>{title}</FitTitle>
           <AudioButton srcs={wordSrcs} label={listenLabel} />
+          {/* Only shows inside a DictionaryProvider (lesson pages, My Dictionary) */}
+          <SaveWordButton
+            entry={{
+              word: title,
+              part_of_speech: tag || null,
+              definition,
+              example: example || null,
+              in_game: inGame || null,
+              in_real_life: inRealLife || null,
+              image_slug: imageSlug || null,
+              audio_slugs: audioSlugs,
+              lesson_slug: lessonSlug || null,
+            }}
+          />
         </div>
 
         {/* Part of speech */}
@@ -228,6 +246,12 @@ export default function WordEntryCard({
           </div>
         ) : (
           <QuoteBox text={example} audioSrcs={exampleSrcs} />
+        )}
+
+        {source && (
+          <a href={source.href} className="mt-4 self-start text-xs font-medium text-slate-500 hover:text-blue-600">
+            From: <span className="underline underline-offset-2">{source.label}</span>
+          </a>
         )}
       </div>
 
