@@ -13,7 +13,7 @@ export const IMAGE_CHECK_SECONDS = 3600;
  * Cached for an hour. Returns null when it can't check (no token, API error) —
  * callers then show no triangles rather than wrong ones.
  */
-async function listR2Keys(): Promise<Set<string> | null> {
+export async function listR2Keys(): Promise<Set<string> | null> {
   const token = process.env.R2_READ_TOKEN ?? process.env.CF_API_TOKEN;
   if (!token) return null;
   const keys = new Set<string>();
@@ -43,20 +43,22 @@ async function listR2Keys(): Promise<Set<string> | null> {
   }
 }
 
+/** Is this lesson image uploaded? (keys from listR2Keys) */
+export function imageExists(keys: Set<string>, imageSlug: string): boolean {
+  const url = resolveImageUrl(imageSlug);
+  if (!url) return false;
+  const key = r2KeyOf(url);
+  if (key === null) return true; // hosted somewhere else — can't check, assume fine
+  const svg = r2KeyOf(svgVariant(url));
+  return keys.has(key) || (svg !== null && keys.has(svg));
+}
+
 /** Number of missing vocab + phrase images per lesson slug (0 = complete). Empty map if unknown. */
 export async function getMissingImageCounts(slugs: string[]): Promise<Map<string, number>> {
   const result = new Map<string, number>();
   const keys = await listR2Keys();
   if (!keys) return result;
-
-  const exists = (imageSlug: string) => {
-    const url = resolveImageUrl(imageSlug);
-    if (!url) return false;
-    const key = r2KeyOf(url);
-    if (key === null) return true; // hosted somewhere else — can't check, assume fine
-    const svg = r2KeyOf(svgVariant(url));
-    return keys.has(key) || (svg !== null && keys.has(svg));
-  };
+  const exists = (imageSlug: string) => imageExists(keys, imageSlug);
 
   for (const slug of slugs) {
     const lesson = getLessonBySlug(slug);

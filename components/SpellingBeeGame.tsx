@@ -23,7 +23,17 @@ function SpeakerIcon({ className = 'w-5 h-5' }: { className?: string }) {
   );
 }
 
-function SceneImage({ image, scene, word }: { image: string; scene: string; word: string }) {
+function SceneImage({
+  image,
+  scene,
+  word,
+  fit = 'cover',
+}: {
+  image: string;
+  scene: string;
+  word: string;
+  fit?: 'cover' | 'contain';
+}) {
   const [failed, setFailed] = useState(false);
   useEffect(() => setFailed(false), [image]);
   if (failed) {
@@ -33,13 +43,52 @@ function SceneImage({ image, scene, word }: { image: string; scene: string; word
       </div>
     );
   }
+  if (fit === 'contain') {
+    // Lesson pictures: show the whole image, with a blurred copy filling the wide box.
+    return (
+      <div className="relative w-full h-full">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={image} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover scale-110 blur-xl opacity-80" />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={image} alt="" className="absolute inset-0 w-full h-full object-contain" onError={() => setFailed(true)} />
+      </div>
+    );
+  }
   // eslint-disable-next-line @next/next/no-img-element
   return <img src={image} alt="" className="w-full h-full object-cover" onError={() => setFailed(true)} />;
 }
 
 const KEY_ROWS = ['QWERTYUIOP', 'ASDFGHJKL', 'ZXCVBNM'];
 
-export default function SpellingBeeGame() {
+/** Topic button in the picker — lesson topics show a thumbnail of their first picture. */
+function TopicCard({ s, onOpen }: { s: SpellSet; onOpen: (s: SpellSet) => void }) {
+  return (
+    <button
+      type="button"
+      onClick={() => onOpen(s)}
+      className="group text-left bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)] hover:-translate-y-0.5 transition-all p-5 flex items-center gap-4 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
+    >
+      {s.lessonSlug ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={s.items[0].image} alt="" loading="lazy" className="w-12 h-12 rounded-xl object-cover flex-shrink-0 bg-slate-100" />
+      ) : (
+        <span className="w-12 h-12 rounded-xl bg-amber-50 flex items-center justify-center flex-shrink-0 text-2xl">
+          {s.items[0].scene}
+        </span>
+      )}
+      <span className="min-w-0">
+        <span className="block font-playfair text-lg font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
+          {s.label}
+        </span>
+        <span className="block text-sm text-slate-500">{s.blurb}</span>
+        <span className="block text-xs text-slate-400 mt-0.5">{s.items.length} words</span>
+      </span>
+    </button>
+  );
+}
+
+/** lessonSets: topics built on the server from lesson vocabulary (lib/gameSets.ts). */
+export default function SpellingBeeGame({ lessonSets = [] }: { lessonSets?: SpellSet[] }) {
   const [set, setSet] = useState<SpellSet | null>(null);
   const [mode, setMode] = useState<'review' | 'play' | null>(null);
   const [index, setIndex] = useState(0);
@@ -150,26 +199,27 @@ export default function SpellingBeeGame() {
             Look at the picture, then spell the word. Type on your keyboard or tap the letters below.
           </p>
         </div>
-        <p className="text-center text-sm font-semibold text-slate-500 mb-4">Choose a topic</p>
+        {/* Topics made from lessons, grouped (e.g. "Everyday Life · A1–A2") */}
+        {Array.from(new Set(lessonSets.map((s) => s.group ?? 'From your lessons'))).map((group) => (
+          <section key={group} className="mb-10">
+            <p className="text-center text-sm font-semibold text-slate-500 mb-1">From your lessons</p>
+            <h2 className="text-center font-playfair text-2xl font-semibold text-slate-900 mb-4">{group}</h2>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {lessonSets
+                .filter((s) => (s.group ?? 'From your lessons') === group)
+                .map((s) => (
+                  <TopicCard key={s.id} s={s} onOpen={openSet} />
+                ))}
+            </div>
+          </section>
+        ))}
+
+        <p className="text-center text-sm font-semibold text-slate-500 mb-4">
+          {lessonSets.length ? 'More topics' : 'Choose a topic'}
+        </p>
         <div className="grid gap-4 sm:grid-cols-2">
           {SPELL_SETS.map((s) => (
-            <button
-              key={s.id}
-              type="button"
-              onClick={() => openSet(s)}
-              className="group text-left bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)] hover:-translate-y-0.5 transition-all p-5 flex items-center gap-4 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
-            >
-              <span className="w-12 h-12 rounded-xl bg-amber-50 flex items-center justify-center flex-shrink-0 text-2xl">
-                {s.items[0].scene}
-              </span>
-              <span className="min-w-0">
-                <span className="block font-playfair text-lg font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
-                  {s.label}
-                </span>
-                <span className="block text-sm text-slate-500">{s.blurb}</span>
-                <span className="block text-xs text-slate-400 mt-0.5">{s.items.length} words</span>
-              </span>
-            </button>
+            <TopicCard key={s.id} s={s} onOpen={openSet} />
           ))}
         </div>
       </Shell>
@@ -225,7 +275,7 @@ export default function SpellingBeeGame() {
               className="flex items-center gap-4 bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-3"
             >
               <div className="w-28 sm:w-36 aspect-video rounded-xl overflow-hidden bg-slate-100 flex-shrink-0">
-                <SceneImage image={s.image} scene={s.scene} word={s.word} />
+                <SceneImage image={s.image} scene={s.scene} word={s.word} fit={s.fit} />
               </div>
               <p className="flex-1 font-playfair text-xl sm:text-2xl text-slate-900 capitalize">{s.word}</p>
               <button
@@ -314,7 +364,7 @@ export default function SpellingBeeGame() {
         {/* Scene (16:9) */}
         <div className="bg-gradient-to-br from-[#FFF7E6] to-[#FFEFC7] p-4 sm:p-6">
           <div className="w-full max-w-md mx-auto aspect-video rounded-2xl overflow-hidden bg-white border border-white shadow-sm">
-            {it && <SceneImage image={it.image} scene={it.scene} word={it.word} />}
+            {it && <SceneImage image={it.image} scene={it.scene} word={it.word} fit={it.fit} />}
           </div>
         </div>
 
