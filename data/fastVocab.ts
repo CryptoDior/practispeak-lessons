@@ -1,18 +1,8 @@
-export interface FastVocabItem {
-  /** Image; drop a file at `public/games/fast-vocab/<word>.jpg` (emoji fallback until then) */
-  image: string;
-  /** Emoji fallback shown when the image is missing */
-  scene: string;
-  /** The word to match to the picture */
-  word: string;
-}
+import type { GameItem, GameSet } from './gameTypes';
 
-export interface FastVocabSet {
-  id: string;
-  label: string;
-  blurb: string;
-  items: FastVocabItem[];
-}
+/** Images: drop a file at `public/games/fast-vocab/<word>.jpg` (emoji fallback until then). */
+export type FastVocabItem = GameItem;
+export type FastVocabSet = GameSet;
 
 const IMG = '/games/fast-vocab';
 const it = (word: string, scene: string): FastVocabItem => ({ image: `${IMG}/${word}.jpg`, scene, word });

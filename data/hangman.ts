@@ -1,18 +1,8 @@
-export interface HangmanItem {
-  /** Image; drop a file at `public/games/hangman/<word>.jpg` (emoji fallback until then) */
-  image: string;
-  /** Emoji fallback shown when the image is missing */
-  scene: string;
-  /** The word to guess (lowercase a–z, single word) */
-  word: string;
-}
+import type { GameItem, GameSet } from './gameTypes';
 
-export interface HangmanSet {
-  id: string;
-  label: string;
-  blurb: string;
-  items: HangmanItem[];
-}
+/** Images: drop a file at `public/games/hangman/<word>.jpg` (emoji fallback until then). Words: lowercase a–z. */
+export type HangmanItem = GameItem;
+export type HangmanSet = GameSet;
 
 const IMG = '/games/hangman';
 const it = (word: string, scene: string): HangmanItem => ({ image: `${IMG}/${word}.jpg`, scene, word });

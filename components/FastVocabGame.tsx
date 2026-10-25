@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { FASTVOCAB_SETS, FastVocabItem, FastVocabSet } from '@/data/fastVocab';
 import { SiteHeader, SiteFooter, ArrowLeftIcon } from '@/components/SiteChrome';
+import { SceneImage, TopicPicker } from '@/components/games/GameParts';
 
 const BATCH = 3;
 
@@ -34,21 +35,8 @@ function SpeakerIcon({ className = 'w-5 h-5' }: { className?: string }) {
   );
 }
 
-function SceneImage({ image, scene, word }: { image: string; scene: string; word: string }) {
-  const [failed, setFailed] = useState(false);
-  useEffect(() => setFailed(false), [image]);
-  if (failed) {
-    return (
-      <div className="w-full h-full flex items-center justify-center text-3xl sm:text-4xl select-none" aria-label={word}>
-        {scene}
-      </div>
-    );
-  }
-  // eslint-disable-next-line @next/next/no-img-element
-  return <img src={image} alt="" className="w-full h-full object-cover" onError={() => setFailed(true)} />;
-}
-
-export default function FastVocabGame() {
+/** lessonSets: topics built on the server from lesson vocabulary (lib/gameSets.ts). */
+export default function FastVocabGame({ lessonSets = [] }: { lessonSets?: FastVocabSet[] }) {
   const [set, setSet] = useState<FastVocabSet | null>(null);
   const [mode, setMode] = useState<'review' | 'play' | null>(null);
   const [pool, setPool] = useState<FastVocabItem[]>([]);
@@ -163,28 +151,7 @@ export default function FastVocabGame() {
             move on to the next set.
           </p>
         </div>
-        <p className="text-center text-sm font-semibold text-slate-500 mb-4">Choose a topic</p>
-        <div className="grid gap-4 sm:grid-cols-2">
-          {FASTVOCAB_SETS.map((s) => (
-            <button
-              key={s.id}
-              type="button"
-              onClick={() => openSet(s)}
-              className="group text-left bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)] hover:-translate-y-0.5 transition-all p-5 flex items-center gap-4 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
-            >
-              <span className="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center flex-shrink-0 text-2xl">
-                {s.items[0].scene}
-              </span>
-              <span className="min-w-0">
-                <span className="block font-playfair text-lg font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
-                  {s.label}
-                </span>
-                <span className="block text-sm text-slate-500">{s.blurb}</span>
-                <span className="block text-xs text-slate-400 mt-0.5">{s.items.length} words</span>
-              </span>
-            </button>
-          ))}
-        </div>
+        <TopicPicker lessonSets={lessonSets} sets={FASTVOCAB_SETS} onOpen={openSet} round emojiBg="bg-slate-100" />
       </Shell>
     );
   }
@@ -238,7 +205,7 @@ export default function FastVocabGame() {
               className="flex items-center gap-4 bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-3"
             >
               <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden bg-slate-100 border border-slate-200 flex-shrink-0">
-                <SceneImage image={s.image} scene={s.scene} word={s.word} />
+                <SceneImage image={s.image} scene={s.scene} word={s.word} fit={s.fit} emojiClass="text-3xl sm:text-4xl" />
               </div>
               <p className="flex-1 font-playfair text-xl sm:text-2xl text-slate-900 capitalize">{s.word}</p>
               <button
@@ -346,7 +313,7 @@ export default function FastVocabGame() {
                   : 'border-white shadow-[0_4px_14px_rgba(15,23,42,0.12)] cursor-pointer'
               }`}
             >
-              <SceneImage image={item.image} scene={item.scene} word={item.word} />
+              <SceneImage image={item.image} scene={item.scene} word={item.word} fit={item.fit} emojiClass="text-3xl sm:text-4xl" />
             </button>
           );
         })}

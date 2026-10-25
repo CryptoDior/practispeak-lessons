@@ -4,9 +4,13 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { HANGMAN_SETS, HangmanItem, HangmanSet } from '@/data/hangman';
 import { SiteHeader, SiteFooter, ArrowLeftIcon } from '@/components/SiteChrome';
+import { SceneImage, TopicPicker } from '@/components/games/GameParts';
 
 const MAX_WRONG = 6;
-const KEY_ROWS = ['QWERTYUIOP', 'ASDFGHJKL', 'ZXCVBNM'];
+/** Consonants only, in QWERTY order — vowels have their own column. */
+const KEY_ROWS = ['QWRTYP', 'SDFGHJKL', 'ZXCVBNM'];
+const VOWELS = ['A', 'E', 'I', 'O', 'U'];
+const isVowel = (ch: string) => 'aeiou'.includes(ch);
 
 function speak(text: string) {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
@@ -35,20 +39,6 @@ function SpeakerIcon({ className = 'w-5 h-5' }: { className?: string }) {
   );
 }
 
-function SceneImage({ image, scene, word }: { image: string; scene: string; word: string }) {
-  const [failed, setFailed] = useState(false);
-  useEffect(() => setFailed(false), [image]);
-  if (failed) {
-    return (
-      <div className="w-full h-full flex items-center justify-center text-4xl sm:text-5xl select-none" aria-label={word}>
-        {scene}
-      </div>
-    );
-  }
-  // eslint-disable-next-line @next/next/no-img-element
-  return <img src={image} alt="" className="w-full h-full object-cover" onError={() => setFailed(true)} />;
-}
-
 /* ---------- Hangman drawing ---------- */
 function Gallows({ wrong }: { wrong: number }) {
   const s = '#334155';
@@ -68,7 +58,8 @@ function Gallows({ wrong }: { wrong: number }) {
   );
 }
 
-export default function HangmanGame() {
+/** lessonSets: topics built on the server from lesson vocabulary (lib/gameSets.ts). */
+export default function HangmanGame({ lessonSets = [] }: { lessonSets?: HangmanSet[] }) {
   const [set, setSet] = useState<HangmanSet | null>(null);
   const [mode, setMode] = useState<'review' | 'play' | null>(null);
   const [items, setItems] = useState<HangmanItem[]>([]);
@@ -128,7 +119,8 @@ export default function HangmanGame() {
           setScore((s) => s + 10);
           speak(word);
         }
-      } else {
+      } else if (!isVowel(ch)) {
+        // Vowels are free tips: a missing vowel doesn't draw anything.
         const nw = wrongRef.current + 1;
         wrongRef.current = nw;
         setWrong(nw);
@@ -173,32 +165,11 @@ export default function HangmanGame() {
           <p className="text-[13px] font-semibold tracking-[0.18em] text-blue-600 uppercase mb-3">Game</p>
           <h1 className="font-playfair text-4xl sm:text-5xl font-semibold text-slate-900 mb-3">Hangman</h1>
           <p className="text-base text-slate-500 max-w-xl mx-auto leading-relaxed">
-            Guess the hidden word one letter at a time. Six wrong guesses and it&rsquo;s game over —
-            type on your keyboard or tap the letters.
+            Guess the hidden word one letter at a time. Vowels are free tips — six wrong consonants and it&rsquo;s game
+            over. Type on your keyboard or tap the letters.
           </p>
         </div>
-        <p className="text-center text-sm font-semibold text-slate-500 mb-4">Choose a topic</p>
-        <div className="grid gap-4 sm:grid-cols-2">
-          {HANGMAN_SETS.map((s) => (
-            <button
-              key={s.id}
-              type="button"
-              onClick={() => openSet(s)}
-              className="group text-left bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)] hover:-translate-y-0.5 transition-all p-5 flex items-center gap-4 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2"
-            >
-              <span className="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center flex-shrink-0 text-2xl">
-                {s.items[0].scene}
-              </span>
-              <span className="min-w-0">
-                <span className="block font-playfair text-lg font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
-                  {s.label}
-                </span>
-                <span className="block text-sm text-slate-500">{s.blurb}</span>
-                <span className="block text-xs text-slate-400 mt-0.5">{s.items.length} words</span>
-              </span>
-            </button>
-          ))}
-        </div>
+        <TopicPicker lessonSets={lessonSets} sets={HANGMAN_SETS} onOpen={openSet} emojiBg="bg-slate-100" />
       </Shell>
     );
   }
@@ -252,7 +223,7 @@ export default function HangmanGame() {
               className="flex items-center gap-4 bg-white rounded-2xl border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] p-3"
             >
               <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden bg-slate-100 border border-slate-200 flex-shrink-0">
-                <SceneImage image={s.image} scene={s.scene} word={s.word} />
+                <SceneImage image={s.image} scene={s.scene} word={s.word} fit={s.fit} emojiClass="text-4xl sm:text-5xl" />
               </div>
               <p className="flex-1 font-playfair text-xl sm:text-2xl text-slate-900 capitalize">{s.word}</p>
               <button
@@ -322,8 +293,35 @@ export default function HangmanGame() {
   /* ---------- Playing ---------- */
   const total = items.length;
   const over = status !== 'playing';
+  const vowelButtons = (
+    <>
+      {VOWELS.map((v) => {
+        const g = guessed.has(v.toLowerCase());
+        const inWord = word.includes(v.toLowerCase());
+        return (
+          <button
+            key={v}
+            type="button"
+            onClick={() => guess(v)}
+            disabled={g || over}
+            aria-label={`Vowel ${v} (free)`}
+            className={`w-12 h-12 sm:w-14 sm:h-14 rounded-2xl border-2 text-xl sm:text-2xl font-extrabold transition-all cursor-pointer active:scale-95 disabled:cursor-default shadow-[inset_0_-3px_0_rgba(15,23,42,0.08)] ${
+              g
+                ? inWord
+                  ? 'bg-emerald-50 border-emerald-200 text-emerald-600'
+                  : 'bg-slate-100 border-slate-200 text-slate-300'
+                : 'bg-white border-slate-300 text-[#8B1414] hover:border-[#8B1414]/50'
+            }`}
+          >
+            {v}
+          </button>
+        );
+      })}
+    </>
+  );
+
   return (
-    <Shell>
+    <Shell wide>
       <div className="flex items-center justify-between mb-5">
         <button
           type="button"
@@ -338,6 +336,14 @@ export default function HangmanGame() {
         <span className="text-sm font-bold text-blue-600">{score} pts</span>
       </div>
 
+      <div className="lg:flex lg:items-start lg:gap-6">
+        {/* Vowels (free tips) — left column on wide screens */}
+        <div className="hidden lg:flex flex-col items-center gap-3 pt-6 w-16 flex-shrink-0">
+          <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Free</span>
+          {vowelButtons}
+        </div>
+
+        <div className="flex-1 min-w-0">
       <div className="bg-white rounded-3xl border border-slate-200 shadow-[0_8px_30px_rgba(15,23,42,0.06)] overflow-hidden">
         {/* Drawing + lives */}
         <div className="bg-gradient-to-br from-[#EEF2FF] to-[#E0E7FF] p-5 sm:p-6">
@@ -406,6 +412,11 @@ export default function HangmanGame() {
             </div>
           ) : (
             <div className="flex flex-col items-center gap-1.5">
+              {/* Vowels as a row on small screens */}
+              <div className="lg:hidden flex items-center gap-1.5 sm:gap-2 mb-2">
+                <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mr-1">Free</span>
+                {vowelButtons}
+              </div>
               {KEY_ROWS.map((row) => (
                 <div key={row} className="flex gap-1 sm:gap-1.5 justify-center">
                   {row.split('').map((k) => {
@@ -435,15 +446,17 @@ export default function HangmanGame() {
           )}
         </div>
       </div>
+        </div>
+      </div>
     </Shell>
   );
 }
 
-function Shell({ children }: { children: React.ReactNode }) {
+function Shell({ children, wide = false }: { children: React.ReactNode; wide?: boolean }) {
   return (
     <div className="min-h-screen bg-[#F6F8FB] font-poppins text-slate-900">
       <SiteHeader active="Games" />
-      <main className="max-w-2xl mx-auto px-4 sm:px-6 pt-8 pb-16">
+      <main className={`${wide ? 'max-w-2xl lg:max-w-3xl' : 'max-w-2xl'} mx-auto px-4 sm:px-6 pt-8 pb-16`}>
         <Link
           href="/games"
           className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors mb-5"

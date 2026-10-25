@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import SpellingBeeGame from '@/components/SpellingBeeGame';
-import { spellSetsFromCategory } from '@/lib/gameSets';
+import { lessonWordSets, EVERYDAY_A1_A2, SINGLE_WORD } from '@/lib/gameSets';
 
 export const metadata: Metadata = {
   title: 'Spelling Bee | Practispeak Games',
@@ -12,6 +12,10 @@ export const metadata: Metadata = {
 export const revalidate = 3600;
 
 export default async function SpellingBeePage() {
-  const lessonSets = await spellSetsFromCategory('everyday', 'beginner', 'Everyday Life · A1–A2');
+  const lessonSets = await lessonWordSets({
+    ...EVERYDAY_A1_A2,
+    wordPattern: SINGLE_WORD,
+    blurb: (title) => `Words from the “${title}” lesson.`,
+  });
   return <SpellingBeeGame lessonSets={lessonSets} />;
 }

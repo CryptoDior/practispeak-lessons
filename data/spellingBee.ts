@@ -1,24 +1,8 @@
-export interface SpellItem {
-  /** Image prompt; drop a file at `public/games/spelling-bee/<file>` (emoji fallback until then) */
-  image: string;
-  /** Emoji fallback shown when the image is missing */
-  scene: string;
-  /** The word to spell (lowercase a–z, single word) */
-  word: string;
-  /** 'contain' shows the whole picture (lesson images come in different shapes) */
-  fit?: 'cover' | 'contain';
-}
+import type { GameItem, GameSet } from './gameTypes';
 
-export interface SpellSet {
-  id: string;
-  label: string;
-  blurb: string;
-  items: SpellItem[];
-  /** Set built from a lesson's vocabulary (its words and pictures) — see lib/gameSets.ts */
-  lessonSlug?: string;
-  /** Heading the topic is listed under, e.g. "Everyday Life · A1–A2" */
-  group?: string;
-}
+/** Images: drop a file at `public/games/spelling-bee/<word>.jpg` (emoji fallback until then). Words: lowercase a–z. */
+export type SpellItem = GameItem;
+export type SpellSet = GameSet;
 
 const IMG = '/games/spelling-bee';
 const item = (word: string, scene: string): SpellItem => ({
