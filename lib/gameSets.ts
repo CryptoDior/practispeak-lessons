@@ -5,7 +5,7 @@
 import { getLessonBySlug } from '@/data/lessons';
 import { getCatalog, bandForLevel } from '@/lib/series';
 import { resolveImageUrl } from '@/lib/images';
-import { listR2Keys, imageExists } from '@/lib/imageStatus';
+import { listR2KeysForPage, imageExists } from '@/lib/imageStatus';
 import type { GameSet } from '@/data/gameTypes';
 
 /** One word, letters only — for games where you spell or guess letters. */
@@ -30,7 +30,7 @@ export async function lessonWordSets(opts: {
   const { categoryId, bandId, group, blurb, wordPattern = SINGLE_WORD, minWords = 4 } = opts;
   const category = getCatalog().find((c) => c.id === categoryId);
   if (!category) return [];
-  const keys = await listR2Keys();
+  const keys = await listR2KeysForPage(); // keeps the previous page if Cloudflare can't be reached
 
   const sets: GameSet[] = [];
   for (const summary of category.lessons) {
