@@ -2,6 +2,7 @@ import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
 const ROSIE = R2 + 'rosie-icon.png';
+const CLERK = R2 + 'store-clerk-icon.png';
 const img = (s: string) => `${R2}shopping-for-clothes-a1-${s}.png`;
 
 export const shoppingForClothesA1: Lesson = {
@@ -42,15 +43,15 @@ export const shoppingForClothesA1: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Salesperson', speakerColor: 'orange', text: 'Hello! Can I help you?' },
+    { speaker: 'Salesperson', speakerAvatar: CLERK, speakerColor: 'orange', text: 'Hello! Can I help you?' },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Yes, please. How much is this jacket?' },
-    { speaker: 'Salesperson', speakerColor: 'orange', text: "It's 90 dollars." },
+    { speaker: 'Salesperson', speakerAvatar: CLERK, speakerColor: 'orange', text: "It's 90 dollars." },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Oh, that's too [[expensive:costs a lot]] for me. Do you have anything [[cheaper:not expensive]]? Where is the [[sale:lower prices]] section?" },
-    { speaker: 'Salesperson', speakerColor: 'orange', text: "It's over there, next to the [[fitting room:room to try on clothes]]. These jackets are 40 dollars." },
+    { speaker: 'Salesperson', speakerAvatar: CLERK, speakerColor: 'orange', text: "It's over there, next to the [[fitting room:room to try on clothes]]. These jackets are 40 dollars." },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'I like this blue one. Do you have it in a medium? This [[size:how big or small]] is small.' },
-    { speaker: 'Salesperson', speakerColor: 'orange', text: 'Yes, here you are. Would you like to try it on?' },
+    { speaker: 'Salesperson', speakerAvatar: CLERK, speakerColor: 'orange', text: 'Yes, here you are. Would you like to try it on?' },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Yes, please. … It fits perfectly! I'll take it." },
-    { speaker: 'Salesperson', speakerColor: 'orange', text: 'Great! Please pay the [[cashier:person who takes your money]] at the front.' },
+    { speaker: 'Salesperson', speakerAvatar: CLERK, speakerColor: 'orange', text: 'Great! Please pay the [[cashier:person who takes your money]] at the front.' },
   ],
 
   matchingExercise: [

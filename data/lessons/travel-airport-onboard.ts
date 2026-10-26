@@ -3,6 +3,8 @@ import { Lesson } from '@/types/lesson';
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
 const ROSIE = R2 + 'rosie-icon.png';
 const OLIVER = R2 + 'oliver-icon.png';
+const ATTENDANT = R2 + 'flight-attendant-icon.png';
+const CAPTAIN = R2 + 'captain-icon.png';
 const img = (s: string) => `${R2}travel-airport-onboard-${s}.png`;
 
 export const travelAirportOnboard: Lesson = {
@@ -47,12 +49,12 @@ export const travelAirportOnboard: Lesson = {
   dialogue: [
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Oliver, they just called [[boarding group:passengers who board together]] four. That's us!" },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Great. I've got our [[boarding passes:documents to board]]. Seats 18A and 18B." },
-    { speaker: 'Flight attendant', speakerColor: 'orange', text: "Welcome aboard! Please [[stow:put away]] your bags in the [[overhead bin:storage above the seats]] and take your seats." },
+    { speaker: 'Flight attendant', speakerAvatar: ATTENDANT, speakerColor: 'orange', text: "Welcome aboard! Please [[stow:put away]] your bags in the [[overhead bin:storage above the seats]] and take your seats." },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Excuse me, someone is in my seat. Would you mind checking?" },
-    { speaker: 'Flight attendant', speakerColor: 'orange', text: "Of course. … All sorted. Please [[fasten:close securely]] your seatbelt and switch your phone to [[airplane mode:no calls or data]]." },
+    { speaker: 'Flight attendant', speakerAvatar: ATTENDANT, speakerColor: 'orange', text: "Of course. … All sorted. Please [[fasten:close securely]] your seatbelt and switch your phone to [[airplane mode:no calls or data]]." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "I hate [[takeoff:when the plane leaves the ground]]. My stomach always feels strange." },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Just breathe. And listen to the safety instructions — the [[emergency exits:doors for dangerous situations]] are just behind us." },
-    { speaker: 'Captain', speakerColor: 'blue', text: "Good evening, this is your captain speaking. We may experience some light [[turbulence:shaking of the plane]] after takeoff. Please keep your seatbelts fastened." },
+    { speaker: 'Captain', speakerAvatar: CAPTAIN, speakerColor: 'blue', text: "Good evening, this is your captain speaking. We may experience some light [[turbulence:shaking of the plane]] after takeoff. Please keep your seatbelts fastened." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Great… Excuse me, could I have some water, please?" },
   ],
 

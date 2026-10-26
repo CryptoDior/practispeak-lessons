@@ -2,6 +2,7 @@ import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
 const OLIVER = R2 + 'oliver-icon.png';
+const CLERK = R2 + 'store-clerk-icon.png';
 const img = (s: string) => `${R2}shopping-for-clothes-b1-${s}.png`;
 
 export const shoppingForClothesB1: Lesson = {
@@ -43,15 +44,15 @@ export const shoppingForClothesB1: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Clerk', speakerColor: 'orange', text: 'Good afternoon! How can I help you today?' },
+    { speaker: 'Clerk', speakerAvatar: CLERK, speakerColor: 'orange', text: 'Good afternoon! How can I help you today?' },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Thanks, I'm just [[browseing:looking without buying yet]] for now. I'm shopping around for a winter coat." },
-    { speaker: 'Clerk', speakerColor: 'orange', text: "Sure. Let me know if you need anything." },
+    { speaker: 'Clerk', speakerAvatar: CLERK, speakerColor: 'orange', text: "Sure. Let me know if you need anything." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "Actually — I couldn't find the [[price tag:label with the price]] on this grey coat. Could you check the price?" },
-    { speaker: 'Clerk', speakerColor: 'orange', text: "It's 220 dollars. It's excellent [[quality:how good and long-lasting]] — pure wool." },
+    { speaker: 'Clerk', speakerAvatar: CLERK, speakerColor: 'orange', text: "It's 220 dollars. It's excellent [[quality:how good and long-lasting]] — pure wool." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "It's lovely, but do you have anything more [[affordable:not too expensive]] in this style? Under 150 if possible." },
-    { speaker: 'Clerk', speakerColor: 'orange', text: "This one is 140, similar style, wool blend. I'm afraid we only have a medium in [[stock:available to sell]]." },
+    { speaker: 'Clerk', speakerAvatar: CLERK, speakerColor: 'orange', text: "This one is 140, similar style, wool blend. I'm afraid we only have a medium in [[stock:available to sell]]." },
     { speaker: 'Oliver', speakerAvatar: OLIVER, speakerColor: 'green', text: "I'll take the medium. What's your [[exchange:swap for another item]] policy if it doesn't fit?" },
-    { speaker: 'Clerk', speakerColor: 'orange', text: "You can exchange within 30 days with the [[receipt:proof of payment]], or get a full [[refund:money back]] within 14 days." },
+    { speaker: 'Clerk', speakerAvatar: CLERK, speakerColor: 'orange', text: "You can exchange within 30 days with the [[receipt:proof of payment]], or get a full [[refund:money back]] within 14 days." },
   ],
 
   matchingExercise: [
