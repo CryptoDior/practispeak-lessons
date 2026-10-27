@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import AccountMenu from '@/components/auth/AccountMenu';
+import MobileNav from '@/components/MobileNav';
 
 /* ---------- shared inline icons (1.5-1.8px stroke) ---------- */
 
@@ -104,9 +105,10 @@ export function SiteHeader({ active = 'Home' }: { active?: string }) {
           ))}
         </nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2.5 sm:gap-4">
           {/* Plan label (Premium / Free) + account button */}
           <AccountMenu />
+          <MobileNav links={NAV_LINKS} active={active} />
         </div>
       </div>
     </header>
