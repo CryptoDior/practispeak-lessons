@@ -30,7 +30,7 @@ export const businessDelegatingTasks: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: "I'd like you to take the lead on this project.", tag: 'phrase', definition: 'Assign responsibility and show confidence.', example: '"Maria, I\'d like you to take the lead on the Lisbon launch."', imageSlug: img('phrase-take-lead') },
+    { phrase: "I'd like you to take the lead on this project.", tag: 'phrase', definition: 'Assign responsibility and show confidence.', example: '"Maria, I\'d like you to take the lead on this project — the Lisbon launch."', imageSlug: img('phrase-take-lead') },
     { phrase: 'I trust your judgement on this.', tag: 'phrase', definition: 'Express trust and give autonomy.', example: '"You know the market better than I do. I trust your judgement on this."', imageSlug: img('phrase-trust-judgement') },
     { phrase: "You'll have full authority to make decisions on…", tag: 'phrase', definition: 'Delegate decision-making power clearly.', example: '"You\'ll have full authority to make decisions on suppliers under 10,000 euros."', inAction: 'Be explicit about the LIMITS of authority ("up to 10,000 euros") — vague delegation leads to either paralysis or overreach.', imageSlug: img('phrase-decision-authority') },
     { phrase: 'Please prioritize these tasks based on…', tag: 'phrase', definition: 'Give structure and clear expectations.', example: '"Please prioritize these tasks based on client impact."', imageSlug: img('phrase-prioritize') },

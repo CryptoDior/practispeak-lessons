@@ -34,7 +34,7 @@ export const businessStructuringPersuasivePresentations: Lesson = {
     { phrase: "First, I'll discuss…, then we'll move on to…", tag: 'phrase', definition: 'Give the audience a roadmap.', example: '"First, I\'ll discuss our results, then we\'ll move on to future plans."', imageSlug: img('phrase-first-then') },
     { phrase: 'The main point I want to make is…', tag: 'phrase', definition: 'Highlight your central argument.', example: '"The main point I want to make is that innovation drives growth."', imageSlug: img('phrase-main-point') },
     { phrase: 'This brings me to my next point.', tag: 'phrase', definition: 'A smooth transition between sections.', example: '"Costs are rising. This brings me to my next point: efficiency."', imageSlug: img('phrase-next-point') },
-    { phrase: "To summarize, let's revisit the key points.", tag: 'phrase', definition: 'Transition to your conclusion.', example: '"To summarize, let\'s revisit the three key points."', imageSlug: img('phrase-summarize') },
+    { phrase: "To summarize, let's revisit the key points.", tag: 'phrase', definition: 'Transition to your conclusion.', example: '"To summarize, let\'s revisit the key points — all three of them."', imageSlug: img('phrase-summarize') },
     { phrase: "What I'm asking you to do today is…", tag: 'phrase', definition: 'Deliver a clear call to action.', example: '"What I\'m asking you to do today is approve a six-month pilot."', inAction: 'Persuasive talks follow the rule of three: tell them what you\'ll tell them, tell them, then tell them what you told them — and finish with a specific ask.', imageSlug: img('phrase-approve-pilot') },
   ],
 
