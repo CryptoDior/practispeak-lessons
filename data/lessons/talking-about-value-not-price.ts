@@ -72,37 +72,37 @@ export const talkingAboutValueNotPrice: Lesson = {
       phrase: 'IT IS WORTH',
       definition: 'Used to say that something has enough value to justify its price or effort.',
       example: 'It is worth paying a little more for a laptop that lasts five years.',
-      imageSlug: '/images/it-is-worth.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-value-not-price-durable-laptop-value.png',
     },
     {
       phrase: 'THIS COULD SAVE YOU',
       definition: 'Used to say how much time or money someone might not have to spend.',
       example: 'This could save you about two hours every day on paperwork.',
-      imageSlug: '/images/this-could-save-you.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-value-not-price-potential-paperwork-time-savings.png',
     },
     {
       phrase: 'OVER TIME THIS WOULD INCREASE',
       definition: 'Used to say that something will become bigger or greater as time passes.',
       example: 'Over time this would increase our sales in the new region.',
-      imageSlug: '/images/over-time-this-would-increase.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-value-not-price-projected-regional-sales-growth.png',
     },
     {
       phrase: 'THINK ABOUT WHAT YOU WOULD SAVE',
       definition: 'Used to ask someone to imagine the money or time they would not spend.',
       example: 'Think about what you would save on fuel if you worked from home.',
-      imageSlug: '/images/think-about-what-you-would-save.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-value-not-price-hypothetical-homeworking-fuel-savings.png',
     },
     {
       phrase: 'THE RETURN ON THIS IS',
       definition: 'Used to say what profit or benefit something gives back.',
       example: 'The return on this is about ten percent every year.',
-      imageSlug: '/images/the-return-on-this-is.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-value-not-price-annual-ten-percent-return.png',
     },
     {
       phrase: 'COMPARED TO THE COST OF',
       definition: 'Used to show how one price looks when you put it next to another.',
       example: 'Compared to the cost of a new car, the repair is very cheap.',
-      imageSlug: '/images/compared-to-the-cost-of.png',
+      imageSlug: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/talking-about-value-not-price-repair-versus-new-car-cost.png',
     }
   ],
 

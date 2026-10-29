@@ -40,20 +40,20 @@ export const grammarWhichVsWhat: Lesson = {
   },
 
   vocabulary: [
-    { word: 'WHAT', partOfSpeech: 'pronoun', definition: 'Asks about something from many or unknown possibilities.', example: 'What movie do you want to watch?', imageSlug: img('what') },
-    { word: 'WHICH', partOfSpeech: 'pronoun', definition: 'Asks about a choice between a few known options.', example: 'Which movie: the comedy or the action film?', imageSlug: img('which') },
-    { word: 'OPTION', partOfSpeech: 'noun', definition: 'One of the things you can choose.', example: 'There are three options on the menu.', imageSlug: img('option') },
-    { word: 'CHOICE', partOfSpeech: 'noun', definition: 'The act of choosing, or the thing you choose.', example: 'You have a choice of tea or coffee.', imageSlug: img('choice') },
-    { word: 'SPECIFIC', partOfSpeech: 'adjective', definition: 'Exact and clearly known.', example: 'Use "which" for specific choices.', imageSlug: img('specific') },
-    { word: 'GENERAL', partOfSpeech: 'adjective', definition: 'Open, not limited to certain options.', example: 'Use "what" for general questions.', imageSlug: img('general') },
+    { word: 'WHAT', partOfSpeech: 'pronoun', definition: 'Asks about something from many or unknown possibilities.', example: 'What movie do you want to watch?', imageSlug: img('open-movie-question') },
+    { word: 'WHICH', partOfSpeech: 'pronoun', definition: 'Asks about a choice between a few known options.', example: 'Which movie: the comedy or the action film?', imageSlug: img('two-movie-choice') },
+    { word: 'OPTION', partOfSpeech: 'noun', definition: 'One of the things you can choose.', example: 'There are three options on the menu.', imageSlug: img('three-menu-options') },
+    { word: 'CHOICE', partOfSpeech: 'noun', definition: 'The act of choosing, or the thing you choose.', example: 'You have a choice of tea or coffee.', imageSlug: img('tea-or-coffee-choice') },
+    { word: 'SPECIFIC', partOfSpeech: 'adjective', definition: 'Exact and clearly known.', example: 'Use "which" for specific choices.', imageSlug: img('specific-known-options') },
+    { word: 'GENERAL', partOfSpeech: 'adjective', definition: 'Open, not limited to certain options.', example: 'Use "what" for general questions.', imageSlug: img('general-open-question') },
   ],
 
   phrasalVerbs: [
-    { phrase: 'What + noun (open)', tag: 'rule', definition: 'Many possible answers.', example: 'What pizza do you want to order? (any pizza)', imageSlug: img('rule-what') },
-    { phrase: 'Which + noun (limited)', tag: 'rule', definition: 'A few known answers.', example: 'Which pizza do you want: pepperoni, BBQ or margherita?', imageSlug: img('rule-which') },
-    { phrase: 'Which one?', tag: 'rule', definition: 'Use "which one / which ones" when you point to known things.', example: '"Pass me a pen." → "Which one? The black one or the blue one?"', inAction: 'We say "Which one?", never "What one?". "One" refers to something from a known group.', imageSlug: img('rule-which-one') },
-    { phrase: 'Which of…', tag: 'rule', definition: 'Use "which of + the/my/these…" for a group.', example: 'Which of these jackets do you prefer?', imageSlug: img('rule-which-of') },
-    { phrase: 'What in statements', tag: 'rule', definition: '"What" can also mean "the thing(s) that".', example: "I know what you mean. That's what I want.", imageSlug: img('rule-what-statement') },
+    { phrase: 'What + noun (open)', tag: 'rule', definition: 'Many possible answers.', example: 'What pizza do you want to order? (any pizza)', imageSlug: img('open-pizza-order') },
+    { phrase: 'Which + noun (limited)', tag: 'rule', definition: 'A few known answers.', example: 'Which pizza do you want: pepperoni, BBQ or margherita?', imageSlug: img('three-specific-pizzas') },
+    { phrase: 'Which one?', tag: 'rule', definition: 'Use "which one / which ones" when you point to known things.', example: '"Pass me a pen." → "Which one? The black one or the blue one?"', inAction: 'We say "Which one?", never "What one?". "One" refers to something from a known group.', imageSlug: img('black-or-blue-pen') },
+    { phrase: 'Which of…', tag: 'rule', definition: 'Use "which of + the/my/these…" for a group.', example: 'Which of these jackets do you prefer?', imageSlug: img('choice-among-jackets') },
+    { phrase: 'What in statements', tag: 'rule', definition: '"What" can also mean "the thing(s) that".', example: "I know what you mean. That's what I want.", imageSlug: img('understanding-and-wanted-item') },
   ],
 
   videos: [],
