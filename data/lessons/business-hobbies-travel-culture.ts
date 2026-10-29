@@ -35,7 +35,7 @@ export const businessHobbiesTravelCulture: Lesson = {
     { phrase: 'WHEN IN ROME', tag: 'idiom', definition: 'When you are in another place, follow the local customs.', example: 'I always try the local food when I travel. When in Rome!', imageSlug: img('phrase-when-in-rome') },
     { phrase: "BROADEN ONE'S HORIZONS", tag: 'idiom', definition: 'To increase your knowledge and experience.', example: 'Travelling abroad really broadened my horizons.', imageSlug: img('phrase-broaden-ones-horizons') },
     { phrase: 'Do you travel often for work?', tag: 'phrase', definition: 'Open a polite conversation about work and lifestyle.', example: '"Do you travel often for work, or mostly for fun?"', imageSlug: img('phrase-travel-often-for-work') },
-    { phrase: 'What do people usually do during that festival?', tag: 'phrase', definition: 'Ask about local customs and traditions.', example: '"What do people usually do during Diwali?"', inAction: 'Asking about traditions shows respect and interest. Avoid comparing ("Ours is better!").', imageSlug: img('phrase-what-do-people-do-festival') },
+    { phrase: 'What do people usually do during that festival?', tag: 'phrase', definition: 'Ask about local customs and traditions.', example: '"What do people usually do during that festival — Diwali?"', inAction: 'Asking about traditions shows respect and interest. Avoid comparing ("Ours is better!").', imageSlug: img('phrase-what-do-people-do-festival') },
     { phrase: 'That must have been an unforgettable experience.', tag: 'phrase', definition: 'Respond warmly when someone shares a travel story.', example: '"You saw the Northern Lights? That must have been an unforgettable experience."', imageSlug: img('phrase-unforgettable-experience') },
   ],
 

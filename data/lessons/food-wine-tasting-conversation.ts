@@ -34,12 +34,12 @@ export const foodWineTastingConversation: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'Swirl, smell, sip.', tag: 'phrase', definition: 'The three steps of tasting: move the wine in the glass, smell it, drink a little.', example: '"First swirl the wine, then smell it, then take a small sip."', inAction: 'Swirling adds air to the wine and releases the aroma. That\'s why tasters do it before smelling.', imageSlug: img('swirl-smell-sip-sequence') },
+    { phrase: 'Swirl, smell, sip.', tag: 'phrase', definition: 'The three steps of tasting: move the wine in the glass, smell it, drink a little.', example: '"Swirl, smell, sip: first swirl the wine, then smell it, then take a small sip."', inAction: 'Swirling adds air to the wine and releases the aroma. That\'s why tasters do it before smelling.', imageSlug: img('swirl-smell-sip-sequence') },
     { phrase: 'It has a fruity aroma.', tag: 'phrase', definition: 'Describe the smell.', example: '"It has a fruity aroma, like ripe cherries."', imageSlug: img('ripe-cherry-aroma') },
     { phrase: 'I can smell notes of…', tag: 'phrase', definition: 'Name specific smells.', example: '"I can smell notes of vanilla and berries."', imageSlug: img('vanilla-berry-aroma') },
-    { phrase: "It's smooth on the palate.", tag: 'phrase', definition: 'Describe how it feels in your mouth.', example: '"It\'s full-bodied but smooth on the palate."', imageSlug: img('full-bodied-smooth-palate') },
-    { phrase: 'The finish is long and rich.', tag: 'phrase', definition: 'Describe the aftertaste.', example: '"The finish is long — I can still taste it."', imageSlug: img('lingering-rich-finish') },
-    { phrase: 'I really like the balance of this wine.', tag: 'phrase', definition: 'Give a positive opinion.', example: '"I really like the balance. It\'s not too sweet or too dry."', imageSlug: img('not-too-sweet-or-dry') },
+    { phrase: "It's smooth on the palate.", tag: 'phrase', definition: 'Describe how it feels in your mouth.', example: '"It\'s full-bodied and it\'s smooth on the palate."', imageSlug: img('full-bodied-smooth-palate') },
+    { phrase: 'The finish is long and rich.', tag: 'phrase', definition: 'Describe the aftertaste.', example: '"The finish is long and rich — I can still taste it."', imageSlug: img('lingering-rich-finish') },
+    { phrase: 'I really like the balance of this wine.', tag: 'phrase', definition: 'Give a positive opinion.', example: '"I really like the balance of this wine. It\'s not too sweet or too dry."', imageSlug: img('not-too-sweet-or-dry') },
   ],
 
   videos: [],

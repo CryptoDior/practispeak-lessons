@@ -35,7 +35,7 @@ export const businessEndingConversationsPolitely: Lesson = {
     { phrase: 'KEEP IN TOUCH', tag: 'idiom', definition: 'To stay in contact with someone.', example: "It was great meeting you. Let's keep in touch.", imageSlug: img('phrase-keep-in-touch') },
     { phrase: "I don't want to keep you. I know you're busy.", tag: 'phrase', definition: 'A polite signal that you respect the other person\'s time.', example: '"Well, I don\'t want to keep you. I know you\'re busy."', inAction: 'This phrase ends the conversation by thinking about THEIR time, not yours. It feels kind, not rude.', imageSlug: img('phrase-dont-want-to-keep-you') },
     { phrase: 'I should probably head off now.', tag: 'phrase', definition: 'A casual but polite way to say you need to leave.', example: '"It\'s nearly six. I should probably head off now."', imageSlug: img('phrase-should-head-off-now') },
-    { phrase: "Thanks for your time today. I really appreciate it.", tag: 'phrase', definition: 'Close a business conversation respectfully.', example: '"Thanks for your time today, Maria. I really appreciate it."', imageSlug: img('phrase-thanks-for-your-time') },
+    { phrase: "Thanks for your time today. I really appreciate it.", tag: 'phrase', definition: 'Close a business conversation respectfully.', example: '"Maria, thanks for your time today. I really appreciate it."', imageSlug: img('phrase-thanks-for-your-time') },
     { phrase: 'Take care, talk soon.', tag: 'phrase', definition: 'A warm, natural goodbye.', example: '"Great seeing you. Take care, talk soon!"', imageSlug: img('phrase-take-care-talk-soon') },
   ],
 

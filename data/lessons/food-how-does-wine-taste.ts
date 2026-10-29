@@ -34,8 +34,8 @@ export const foodHowDoesWineTaste: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'Can you open the bottle?', tag: 'phrase', definition: 'Ask someone to take the top off the bottle.', example: '"Can you open the bottle, please?"', imageSlug: img('asking-to-open-wine-bottle') },
-    { phrase: 'Please pour me some wine.', tag: 'phrase', definition: 'Ask someone to put wine in your glass.', example: '"Please pour me a little wine."', imageSlug: img('request-small-wine-pour') },
-    { phrase: 'We serve white wine cold.', tag: 'phrase', definition: 'Say how you give wine to people.', example: '"We serve red wine at room temperature."', imageSlug: img('serve-red-wine-at-room-temperature') },
+    { phrase: 'Please pour me some wine.', tag: 'phrase', definition: 'Ask someone to put wine in your glass.', example: '"Please pour me some wine — just a little."', imageSlug: img('request-small-wine-pour') },
+    { phrase: 'We serve white wine cold.', tag: 'phrase', definition: 'Say how you give wine to people.', example: '"We serve white wine cold, and red wine at room temperature."', imageSlug: img('serve-red-wine-at-room-temperature') },
     { phrase: 'Do you want to try this one?', tag: 'phrase', definition: 'Offer someone a wine to taste for the first time.', example: '"Do you want to try this one? It\'s new."', imageSlug: img('offering-new-wine-to-try') },
     { phrase: 'This wine tastes…', tag: 'phrase', definition: 'Say how the wine tastes to you.', example: '"This wine tastes spicy."', inAction: 'Use "tastes" + adjective: "It tastes fresh", not "It tastes freshly".', imageSlug: img('describing-spicy-wine') },
     { phrase: "It's a bit … for me.", tag: 'phrase', definition: 'A polite way to say you don\'t love the taste.', example: '"It\'s a bit sour for me."', imageSlug: img('polite-sour-wine-dislike') },

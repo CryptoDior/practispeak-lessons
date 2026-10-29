@@ -32,10 +32,10 @@ export const conversationC1UnexpectedProblems: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'How do you handle unexpected problems?', tag: 'phrase', definition: 'Ask how someone responds when things don\'t go to plan.', example: '"In interviews they often ask: how do you handle unexpected problems?"', imageSlug: img('interview-problem-question') },
-    { phrase: 'I try not to react impulsively.', tag: 'phrase', definition: 'You avoid responding too quickly without thinking.', example: '"When the client cancelled, I tried not to react impulsively."', imageSlug: img('client-cancels-calm-pause') },
+    { phrase: 'I try not to react impulsively.', tag: 'phrase', definition: 'You avoid responding too quickly without thinking.', example: '"When the client cancelled, I try not to react impulsively."', imageSlug: img('client-cancels-calm-pause') },
     { phrase: "I focus on what's within my control.", tag: 'phrase', definition: 'You concentrate on the parts you can influence.', example: '"I can\'t stop the strike, so I focus on what\'s within my control."', imageSlug: img('strike-controllable-options') },
     { phrase: 'I try to stay composed under pressure.', tag: 'phrase', definition: 'You remain calm when things become stressful.', example: '"The team looks to me, so I try to stay composed under pressure."', imageSlug: img('calm-team-under-pressure') },
-    { phrase: 'I ask for input when I need another perspective.', tag: 'phrase', definition: 'You seek advice when you need clarity.', example: '"I\'m not too proud to ask for input when I need another perspective."', imageSlug: img('ask-another-perspective') },
+    { phrase: 'I ask for input when I need another perspective.', tag: 'phrase', definition: 'You seek advice when you need clarity.', example: '"I\'m not too proud to ask: I ask for input when I need another perspective."', imageSlug: img('ask-another-perspective') },
     { phrase: 'I treat setbacks as information, not failure.', tag: 'phrase', definition: 'You learn from problems instead of seeing them as defeat.', example: '"The launch flopped, but I treat setbacks as information, not failure."', inAction: 'Reframing ("as information, not failure") is a powerful C1 technique — great for interviews and leadership conversations.', imageSlug: img('failed-launch-learn-adjust') },
   ],
 

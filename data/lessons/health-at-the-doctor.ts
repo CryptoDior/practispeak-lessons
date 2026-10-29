@@ -40,7 +40,7 @@ export const healthAtTheDoctor: Lesson = {
     { phrase: "I've had a … since…", tag: 'phrase', definition: 'Say how long you have had a symptom.', example: '"I\'ve had a fever since Tuesday."', inAction: 'Use the present perfect + "since" (a point in time) or "for" (a period): since Monday / for three days.', imageSlug: img('fever-since-tuesday') },
     { phrase: "I'm allergic to…", tag: 'phrase', definition: 'Tell the doctor about allergies before you get medicine.', example: '"Before you prescribe anything — I\'m allergic to penicillin."', imageSlug: img('allergy-before-prescribing') },
     { phrase: 'You should get some rest.', tag: 'phrase', definition: 'Advice to relax and recover.', example: '"You should get some rest and drink plenty of water."', imageSlug: img('rest-and-water-advice') },
-    { phrase: 'If it gets worse, come back to see me.', tag: 'phrase', definition: 'Return if you don\'t get better.', example: '"If your fever gets worse, come back to see me."', imageSlug: img('conditional-return-if-worse') },
+    { phrase: 'If it gets worse, come back to see me.', tag: 'phrase', definition: 'Return if you don\'t get better.', example: '"If it gets worse, come back to see me — if your fever gets worse."', imageSlug: img('conditional-return-if-worse') },
     { phrase: 'COME DOWN WITH', definition: 'To start to get an illness.', example: 'I think I\'m coming down with a cold.', imageSlug: img('starting-a-cold') },
     { phrase: 'GET OVER', definition: 'To recover from an illness.', example: 'It took me a week to get over the flu.', imageSlug: img('one-week-flu-recovery') },
   ],

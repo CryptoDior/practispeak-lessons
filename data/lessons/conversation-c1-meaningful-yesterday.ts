@@ -32,12 +32,12 @@ export const conversationC1MeaningfulYesterday: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'What made yesterday meaningful or memorable for you?', tag: 'phrase', definition: 'A deep question about what gave the day personal value.', example: '"Let\'s skip the small talk. What made yesterday meaningful for you?"', imageSlug: img('yesterday-question') },
+    { phrase: 'What made yesterday meaningful or memorable for you?', tag: 'phrase', definition: 'A deep question about what gave the day personal value.', example: '"Let\'s skip the small talk. What made yesterday meaningful or memorable for you?"', imageSlug: img('yesterday-question') },
     { phrase: 'Something small had a surprisingly big impact on me.', tag: 'phrase', definition: 'A minor moment felt important.', example: '"A stranger held the door and smiled. Something small had a surprisingly big impact on me."', imageSlug: img('kind-stranger-door') },
-    { phrase: 'I connected with someone on a deeper level.', tag: 'phrase', definition: 'You had a meaningful emotional exchange.', example: '"I finally connected with my new colleague on a deeper level."', imageSlug: img('deeper-colleague-connection') },
+    { phrase: 'I connected with someone on a deeper level.', tag: 'phrase', definition: 'You had a meaningful emotional exchange.', example: '"I connected with someone on a deeper level — my new colleague, finally."', imageSlug: img('deeper-colleague-connection') },
     { phrase: 'I felt present instead of rushing through the day.', tag: 'phrase', definition: 'Your attention was fully in the moment.', example: '"No phone at dinner — I felt present instead of rushing through the day."', imageSlug: img('present-at-dinner') },
-    { phrase: 'Something unexpected reminded me of what matters.', tag: 'phrase', definition: 'A small event gave you perspective.', example: '"My daughter\'s drawing reminded me of what really matters."', imageSlug: img('daughter-drawing-perspective') },
-    { phrase: "It gave me a moment of gratitude I didn't know I needed.", tag: 'phrase', definition: 'A reflective moment brought appreciation.', example: '"Watching the sunset gave me a moment of gratitude I didn\'t know I needed."', inAction: 'Expressions like "I didn\'t know I needed" and "more than I expected" add emotional nuance — they show the meaning was a surprise.', imageSlug: img('sunset-gratitude') },
+    { phrase: 'Something unexpected reminded me of what matters.', tag: 'phrase', definition: 'A small event gave you perspective.', example: '"Something unexpected reminded me of what matters — my daughter\'s drawing."', imageSlug: img('daughter-drawing-perspective') },
+    { phrase: "It gave me a moment of gratitude I didn't know I needed.", tag: 'phrase', definition: 'A reflective moment brought appreciation.', example: '"Watching the sunset? It gave me a moment of gratitude I didn\'t know I needed."', inAction: 'Expressions like "I didn\'t know I needed" and "more than I expected" add emotional nuance — they show the meaning was a surprise.', imageSlug: img('sunset-gratitude') },
   ],
 
   videos: [],

@@ -39,7 +39,7 @@ export const foodWineFoodPairing: Lesson = {
     { phrase: 'What would you pair with…?', tag: 'phrase', definition: 'Ask for a pairing recommendation.', example: '"What would you pair with spicy Thai food?"', imageSlug: img('thai-food-wine-question') },
     { phrase: 'This wine complements the…', tag: 'phrase', definition: 'Say a wine makes a dish better.', example: '"This light white wine complements the fish perfectly."', imageSlug: img('light-white-wine-with-fish') },
     { phrase: 'Red with red meat, white with fish.', tag: 'phrase', definition: 'A classic, simple pairing rule.', example: '"When in doubt: red with red meat, white with fish."', inAction: 'Rules can be broken! A light red like Pinot Noir can pair beautifully with salmon.', imageSlug: img('red-meat-white-fish-pairing-comparison') },
-    { phrase: 'A sweet wine to balance the spice.', tag: 'phrase', definition: 'Explain a contrasting pairing.', example: '"For curry, try a slightly sweet wine to balance the spice."', imageSlug: img('slightly-sweet-wine-curry-suggestion') },
+    { phrase: 'A sweet wine to balance the spice.', tag: 'phrase', definition: 'Explain a contrasting pairing.', example: '"For curry, try a sweet wine to balance the spice."', imageSlug: img('slightly-sweet-wine-curry-suggestion') },
   ],
 
   videos: [],

@@ -40,7 +40,7 @@ export const beautyAtTheHairSalon: Lesson = {
     { phrase: 'Just a trim, please.', tag: 'phrase', definition: 'Ask for only a little to be cut.', example: '"Just a trim, please. I want to keep it long."', imageSlug: img('keep-long-hair-trim') },
     { phrase: 'Can you cut off about two inches?', tag: 'phrase', definition: 'Say how much to cut.', example: '"Can you cut off about two inches — five centimetres?"', imageSlug: img('two-inches-five-centimetres') },
     { phrase: "I'd like to dye my hair a darker shade.", tag: 'phrase', definition: 'Ask for a new, darker colour.', example: '"I\'d like to dye my hair a darker shade of brown."', imageSlug: img('choose-darker-brown') },
-    { phrase: 'Could you touch up my roots?', tag: 'phrase', definition: 'Ask to colour the new hair growing near your head.', example: '"My roots are showing. Could you touch them up?"', inAction: '"Touch up" means to fix small parts. You can touch up roots, paint or makeup.', imageSlug: img('touch-up-new-root-growth') },
+    { phrase: 'Could you touch up my roots?', tag: 'phrase', definition: 'Ask to colour the new hair growing near your head.', example: '"My roots are showing. Could you touch up my roots?"', inAction: '"Touch up" means to fix small parts. You can touch up roots, paint or makeup.', imageSlug: img('touch-up-new-root-growth') },
     { phrase: 'GET RID OF', definition: 'To remove something you don\'t want.', example: 'I want to get rid of my dry ends.', imageSlug: img('remove-dry-hair-ends') },
   ],
 

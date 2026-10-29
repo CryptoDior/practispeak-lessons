@@ -36,7 +36,7 @@ export const shoppingForClothesA1: Lesson = {
     { phrase: 'How much is this jacket?', tag: 'phrase', definition: 'Ask the price of one thing.', example: '"Excuse me, how much is this jacket?"', inAction: 'One thing: "How much IS this shirt?" Two or more: "How much ARE these shoes?"', imageSlug: img('ask-jacket-price') },
     { phrase: 'Do you have this in a medium?', tag: 'phrase', definition: 'Ask for a different size.', example: '"It\'s too small. Do you have this in a medium?"', imageSlug: img('request-medium-size') },
     { phrase: 'Where is the sale section?', tag: 'phrase', definition: 'Find the cheaper clothes.', example: '"Excuse me, where is the sale section?"', imageSlug: img('ask-sale-section-location') },
-    { phrase: "That's too expensive. Do you have anything cheaper?", tag: 'phrase', definition: 'Ask for something that costs less.', example: '"That\'s too expensive for me. Do you have anything cheaper?"', imageSlug: img('ask-cheaper-option') },
+    { phrase: "That's too expensive. Do you have anything cheaper?", tag: 'phrase', definition: 'Ask for something that costs less.', example: '"That\'s too expensive. Do you have anything cheaper?"', imageSlug: img('ask-cheaper-option') },
     { phrase: "I'll take it.", tag: 'phrase', definition: 'Say you want to buy it.', example: '"It fits perfectly. I\'ll take it!"', imageSlug: img('choose-clothes-to-buy') },
   ],
 

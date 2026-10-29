@@ -35,7 +35,7 @@ export const businessGivingShortPresentations: Lesson = {
     { phrase: 'This slide shows…', tag: 'phrase', definition: 'Describe the information on a slide.', example: '"This slide shows our marketing budget for 2026."', imageSlug: img('phrase-this-slide-shows') },
     { phrase: 'Next, … / Finally, …', tag: 'phrase', definition: 'Move to the next point or the last point.', example: '"Next, I\'ll look at Asia. Finally, I\'ll share our plan."', imageSlug: img('phrase-next-finally') },
     { phrase: 'In conclusion, …', tag: 'phrase', definition: 'Start the last part and summarize.', example: '"In conclusion, sales are growing, but we need more training."', imageSlug: img('phrase-in-conclusion') },
-    { phrase: 'Thank you for listening. Any questions?', tag: 'phrase', definition: 'Finish politely and invite questions.', example: '"Thank you for listening. Do you have any questions?"', imageSlug: img('phrase-thank-you-any-questions') },
+    { phrase: 'Thank you for listening. Any questions?', tag: 'phrase', definition: 'Finish politely and invite questions.', example: '"Thank you for listening. Any questions? Do you have any questions?"', imageSlug: img('phrase-thank-you-any-questions') },
   ],
 
   videos: [],

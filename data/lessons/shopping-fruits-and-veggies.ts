@@ -36,9 +36,9 @@ export const shoppingFruitsAndVeggies: Lesson = {
     { phrase: 'Do you know which fruits are in season?', tag: 'phrase', definition: 'Ask what is fresh and best right now.', example: '"Do you know which fruits are in season at the moment?"', imageSlug: img('ask-seasonal-fruit') },
     { phrase: 'Can you help me find ripe avocados?', tag: 'phrase', definition: 'Ask staff for help choosing.', example: '"Can you help me find ripe avocados for guacamole?"', imageSlug: img('choose-ripe-avocados') },
     { phrase: 'Are the peaches sweet right now?', tag: 'phrase', definition: 'Ask about taste before buying.', example: '"Are the peaches sweet right now, or still a bit sour?"', imageSlug: img('ask-sweetness-of-peaches') },
-    { phrase: 'Do you have any overripe bananas? I want to bake.', tag: 'phrase', definition: 'Ask for soft fruit for cooking.', example: '"Do you have any overripe bananas? I want to make banana bread."', imageSlug: img('ask-bananas-for-baking') },
+    { phrase: 'Do you have any overripe bananas? I want to bake.', tag: 'phrase', definition: 'Ask for soft fruit for cooking.', example: '"Do you have any overripe bananas? I want to bake — banana bread."', imageSlug: img('ask-bananas-for-baking') },
     { phrase: "I'm looking for a mix of ripe and slightly underripe…", tag: 'phrase', definition: 'Buy fruit to eat now and later.', example: '"I\'m looking for a mix of ripe and slightly underripe avocados."', inAction: 'Use "slightly", "a bit" and "perfectly" to be precise: slightly underripe, a bit soft, perfectly ripe.', imageSlug: img('mix-avocado-ripeness') },
-    { phrase: 'Is this organic or conventional?', tag: 'phrase', definition: 'Ask how the produce was grown.', example: '"Are these carrots organic or conventional?"', imageSlug: img('ask-how-carrots-grown') },
+    { phrase: 'Is this organic or conventional?', tag: 'phrase', definition: 'Ask how the produce was grown.', example: '"Is this organic or conventional? Are these carrots organic?"', imageSlug: img('ask-how-carrots-grown') },
   ],
 
   videos: [],

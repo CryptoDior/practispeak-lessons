@@ -54,7 +54,7 @@ export const conversationB1SpendYourMornings: Lesson = {
     { phrase: 'How do you usually spend your mornings?', tag: 'phrase', definition: 'Ask about someone\'s morning routine.', example: '"I\'m curious — how do you usually spend your mornings?"', imageSlug: img('morning-question') },
     { phrase: 'I try to start my mornings slowly.', tag: 'phrase', definition: 'You begin the day gently, without rushing.', example: '"I try to start my mornings slowly, with tea and a book."', imageSlug: img('slow-tea-book') },
     { phrase: 'I like to catch up on messages.', tag: 'phrase', definition: 'You check your phone, emails or texts.', example: '"On the bus, I like to catch up on messages."', imageSlug: img('messages-bus') },
-    { phrase: 'I take some time to plan my day.', tag: 'phrase', definition: 'You organise your tasks before starting.', example: '"I take ten minutes to plan my day."', imageSlug: img('plan-ten-minutes') },
+    { phrase: 'I take some time to plan my day.', tag: 'phrase', definition: 'You organise your tasks before starting.', example: '"I take some time to plan my day — about ten minutes."', imageSlug: img('plan-ten-minutes') },
     { phrase: "I'm not a morning person.", tag: 'phrase', definition: "You don't feel energetic or focused early.", example: '"Don\'t talk to me before nine — I\'m not a morning person!"', inAction: 'A light joke about yourself ("I\'m not a morning person!") is a friendly way to share something personal.', imageSlug: img('before-nine') },
     { phrase: 'I drink coffee to wake up.', tag: 'phrase', definition: 'You use caffeine to feel more alert.', example: '"I can\'t function until I drink coffee to wake up."', imageSlug: img('coffee-wake-up') },
   ],

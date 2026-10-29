@@ -33,8 +33,8 @@ export const foodWineMakingOrdering: Lesson = {
   ],
 
   phrasalVerbs: [
-    { phrase: 'The grapes are harvested in autumn.', tag: 'phrase', definition: 'Describe production with the passive voice.', example: '"The grapes are harvested by hand in September."', inAction: 'We often use the passive (is/are + past participle) for processes, because the action is more important than who does it.', imageSlug: img('september-hand-harvest') },
-    { phrase: 'The wine is stored in barrels.', tag: 'phrase', definition: 'Describe how wine is aged.', example: '"The wine is stored in oak barrels for two years."', imageSlug: img('two-years-oak-storage') },
+    { phrase: 'The grapes are harvested in autumn.', tag: 'phrase', definition: 'Describe production with the passive voice.', example: '"The grapes are harvested in autumn — by hand, in September."', inAction: 'We often use the passive (is/are + past participle) for processes, because the action is more important than who does it.', imageSlug: img('september-hand-harvest') },
+    { phrase: 'The wine is stored in barrels.', tag: 'phrase', definition: 'Describe how wine is aged.', example: '"The wine is stored in barrels — oak barrels — for two years."', imageSlug: img('two-years-oak-storage') },
     { phrase: 'Can I see the wine menu, please?', tag: 'phrase', definition: 'Ask for the wine list.', example: '"Before we order food, can I see the wine menu, please?"', imageSlug: img('request-wine-menu') },
     { phrase: 'Can you recommend a red wine?', tag: 'phrase', definition: 'Ask the waiter or sommelier for advice.', example: '"Can you recommend a red wine that goes with lamb?"', imageSlug: img('red-wine-for-lamb') },
     { phrase: 'What is the price of this bottle?', tag: 'phrase', definition: 'Ask about the cost.', example: '"This one looks nice. What is the price of this bottle?"', imageSlug: img('bottle-price-inquiry') },

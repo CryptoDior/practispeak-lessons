@@ -37,8 +37,8 @@ export const conversationB1FeelAboutWeather: Lesson = {
     { phrase: 'How do you feel about the weather today?', tag: 'phrase', definition: 'Ask for someone\'s opinion or mood about the weather.', example: '"Wow, look outside! How do you feel about the weather today?"', imageSlug: img('weather-opinion-question') },
     { phrase: "It's a bit too hot for me.", tag: 'phrase', definition: 'The temperature is higher than you like.', example: '"35 degrees? It\'s a bit too hot for me."', imageSlug: img('too-hot-35') },
     { phrase: "I'm not a fan of cold weather.", tag: 'phrase', definition: "You don't enjoy cold temperatures.", example: '"I\'m not a fan of cold weather. I\'m always freezing."', imageSlug: img('dislike-cold') },
-    { phrase: 'The rain makes me feel relaxed.', tag: 'phrase', definition: 'Rainy weather helps you feel calm.', example: '"I love the sound of rain. It makes me feel relaxed."', inAction: 'Use "make + person + feel + adjective" to describe the effect on your mood: "Sun makes me feel happy."', imageSlug: img('rain-relaxed') },
-    { phrase: 'It puts me in a good mood.', tag: 'phrase', definition: 'The weather makes you feel positive.', example: '"Sunny mornings always put me in a good mood."', imageSlug: img('sunny-good-mood') },
+    { phrase: 'The rain makes me feel relaxed.', tag: 'phrase', definition: 'Rainy weather helps you feel calm.', example: '"I love the sound of rain. The rain makes me feel relaxed."', inAction: 'Use "make + person + feel + adjective" to describe the effect on your mood: "Sun makes me feel happy."', imageSlug: img('rain-relaxed') },
+    { phrase: 'It puts me in a good mood.', tag: 'phrase', definition: 'The weather makes you feel positive.', example: '"I love sunny mornings. It puts me in a good mood."', imageSlug: img('sunny-good-mood') },
   ],
 
   videos: [],

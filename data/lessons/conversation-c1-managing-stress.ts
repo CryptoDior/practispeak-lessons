@@ -34,10 +34,10 @@ export const conversationC1ManagingStress: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'I try to regulate my emotional response.', tag: 'phrase', definition: 'You work on controlling how you react to stress.', example: '"When a client is rude, I try to regulate my emotional response before replying."', imageSlug: img('pause-before-reply') },
-    { phrase: 'I break overwhelming moments into manageable parts.', tag: 'phrase', definition: 'You divide big stressors into smaller steps.', example: '"A huge project paralyses me, so I break it into manageable parts."', imageSlug: img('project-manageable-parts') },
+    { phrase: 'I break overwhelming moments into manageable parts.', tag: 'phrase', definition: 'You divide big stressors into smaller steps.', example: '"A huge project paralyses me, so I break overwhelming moments into manageable parts."', imageSlug: img('project-manageable-parts') },
     { phrase: 'I set boundaries to protect my energy.', tag: 'phrase', definition: 'You limit demands on your time and attention.', example: '"I don\'t answer emails after seven. I set boundaries to protect my energy."', imageSlug: img('no-email-after-seven') },
-    { phrase: 'I check in with myself throughout the day.', tag: 'phrase', definition: 'You monitor your mood and mental state.', example: '"I check in with myself at lunch: am I tense, tired, hungry?"', imageSlug: img('lunchtime-check-in') },
-    { phrase: "I focus on what I can control and let go of what I can't.", tag: 'phrase', definition: 'You shift attention away from what is beyond your influence.', example: '"I can\'t control the traffic, so I focus on what I can control."', imageSlug: img('traffic-control') },
+    { phrase: 'I check in with myself throughout the day.', tag: 'phrase', definition: 'You monitor your mood and mental state.', example: '"I check in with myself throughout the day — at lunch: am I tense, tired, hungry?"', imageSlug: img('lunchtime-check-in') },
+    { phrase: "I focus on what I can control and let go of what I can't.", tag: 'phrase', definition: 'You shift attention away from what is beyond your influence.', example: '"I can\'t control the traffic, so I focus on what I can control and let go of what I can\'t."', imageSlug: img('traffic-control') },
     { phrase: 'What works for me may not work for everyone.', tag: 'phrase', definition: 'Acknowledge that coping strategies differ.', example: '"Meditation helps me, but what works for me may not work for everyone."', inAction: 'This hedge makes you sound thoughtful rather than prescriptive — useful when discussing personal topics.', imageSlug: img('different-coping-fit') },
   ],
 

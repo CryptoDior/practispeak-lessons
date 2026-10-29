@@ -43,7 +43,7 @@ export const everydayInstagram: Lesson = {
     { phrase: 'TAG (someone) IN', definition: 'To mention someone in a post or photo.', example: 'Can you tag me in that photo?', inAction: 'Separable: "tag ME in the photo", "tag SARAH in it". The person goes between TAG and IN.', imageSlug: img('tag-me-photo') },
     { phrase: "What's your username? I'll follow you.", tag: 'phrase', definition: 'Ask for someone\'s account so you can follow them.', example: '"What\'s your username? I\'ll follow you." → "It\'s @AmberAdventures."', imageSlug: img('ask-username-follow') },
     { phrase: "Did you see ___'s latest post / story?", tag: 'phrase', definition: 'Ask if someone saw a recent post or story.', example: '"Did you see Jane\'s latest story? She\'s in Bali!"', imageSlug: img('jane-bali-story') },
-    { phrase: 'How many likes did your post get?', tag: 'phrase', definition: 'Ask how popular a post was.', example: '"How many likes did your picture get?" → "Over a hundred!"', imageSlug: img('over-hundred-likes') },
+    { phrase: 'How many likes did your post get?', tag: 'phrase', definition: 'Ask how popular a post was.', example: '"How many likes did your post get?" → "Over a hundred!"', imageSlug: img('over-hundred-likes') },
   ],
 
   videos: [],

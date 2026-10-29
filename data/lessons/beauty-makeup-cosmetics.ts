@@ -39,7 +39,7 @@ export const beautyMakeupCosmetics: Lesson = {
     { phrase: 'Do you have…?', tag: 'phrase', definition: 'Ask if the shop sells something.', example: '"Do you have waterproof mascara?"', imageSlug: img('waterproof-mascara-question') },
     { phrase: 'What colour do you like?', tag: 'phrase', definition: 'The assistant asks about colours.', example: '"What colour do you like?" → "I like peach."', imageSlug: img('choose-peach-colour') },
     { phrase: 'Would you like to try it?', tag: 'phrase', definition: 'The assistant offers a test.', example: '"This red is very popular. Would you like to try it?"', imageSlug: img('offer-red-lipstick-test') },
-    { phrase: "It's good for all skin types.", tag: 'phrase', definition: 'The product works for every skin: dry, oily or normal.', example: '"This powder is good for all skin types."', inAction: 'Skin types: dry, oily, normal, combination and sensitive. Ask: "Is this good for oily skin?"', imageSlug: img('powder-all-skin-types') },
+    { phrase: "It's good for all skin types.", tag: 'phrase', definition: 'The product works for every skin: dry, oily or normal.', example: '"This powder? It\'s good for all skin types."', inAction: 'Skin types: dry, oily, normal, combination and sensitive. Ask: "Is this good for oily skin?"', imageSlug: img('powder-all-skin-types') },
     { phrase: 'PUT ON', definition: 'To start wearing makeup or clothes.', example: 'I put on my lipstick before work.', imageSlug: img('lipstick-before-work') },
   ],
 

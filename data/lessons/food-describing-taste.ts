@@ -39,7 +39,7 @@ export const foodDescribingTaste: Lesson = {
     { phrase: 'There\'s a hint of…', tag: 'phrase', definition: 'Mention a small, subtle flavour.', example: '"There\'s a hint of garlic in the sauce."', imageSlug: img('subtle-garlic-in-sauce') },
     { phrase: 'It goes really well with…', tag: 'phrase', definition: 'Say two foods are good together.', example: '"The zesty dressing goes really well with the fish."', imageSlug: img('zesty-dressing-with-fish') },
     { phrase: 'It balances the…', tag: 'phrase', definition: 'One flavour makes another less strong.', example: '"The bitter chocolate balances the sweetness."', inAction: 'Chefs love the word "balance". A sweet + sour or rich + fresh combination usually tastes better than one strong flavour.', imageSlug: img('bitter-chocolate-balances-sweet-dessert') },
-    { phrase: "It's an acquired taste.", tag: 'idiom', definition: 'Something you only start to like after trying it several times.', example: '"Blue cheese is an acquired taste."', imageSlug: img('blue-cheese-growing-liking') },
+    { phrase: "It's an acquired taste.", tag: 'idiom', definition: 'Something you only start to like after trying it several times.', example: '"Blue cheese? It\'s an acquired taste."', imageSlug: img('blue-cheese-growing-liking') },
   ],
 
   videos: [],

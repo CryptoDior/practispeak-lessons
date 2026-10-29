@@ -34,11 +34,11 @@ export const shoppingForClothesB1: Lesson = {
   phrasalVerbs: [
     { phrase: 'SHOP AROUND', definition: 'To compare different shops to find the best price.', example: 'She always shops around before buying.', imageSlug: img('compare-prices-between-shops') },
     { phrase: "I'm just browsing, thank you.", tag: 'phrase', definition: 'Politely tell the assistant you don\'t need help yet.', example: '"Can I help you?" → "I\'m just browsing, thank you."', imageSlug: img('politely-just-browsing') },
-    { phrase: 'Do you have anything more affordable in this style?', tag: 'phrase', definition: 'Ask for a cheaper option.', example: '"I love this style. Do you have anything more affordable?"', imageSlug: img('request-affordable-same-style') },
+    { phrase: 'Do you have anything more affordable in this style?', tag: 'phrase', definition: 'Ask for a cheaper option.', example: '"I love this style. Do you have anything more affordable in this style?"', imageSlug: img('request-affordable-same-style') },
     { phrase: "What's your exchange policy?", tag: 'phrase', definition: 'Ask about the rules for exchanging items.', example: '"It\'s a gift. What\'s your exchange policy?"', imageSlug: img('ask-gift-exchange-policy') },
     { phrase: 'Can I get a refund if it doesn\'t fit?', tag: 'phrase', definition: 'Ask if you can get your money back.', example: '"Can I get a refund if it doesn\'t fit, or only store credit?"', inAction: 'EXCHANGE = swap for another item. REFUND = money back. STORE CREDIT = a voucher to spend in the same shop.', imageSlug: img('ask-refund-versus-credit') },
-    { phrase: "I couldn't find the price tag. Could you check the price?", tag: 'phrase', definition: 'Ask for a price when the label is missing.', example: '"I couldn\'t find the price tag on this bag. Could you check?"', imageSlug: img('check-price-untagged-bag') },
-    { phrase: 'Is this in stock in a larger size?', tag: 'phrase', definition: 'Ask about availability.', example: '"Is this in stock in a size 42?"', imageSlug: img('ask-for-size-forty-two') },
+    { phrase: "I couldn't find the price tag. Could you check the price?", tag: 'phrase', definition: 'Ask for a price when the label is missing.', example: '"I couldn\'t find the price tag. Could you check the price? It\'s on this bag."', imageSlug: img('check-price-untagged-bag') },
+    { phrase: 'Is this in stock in a larger size?', tag: 'phrase', definition: 'Ask about availability.', example: '"Is this in stock in a larger size — a size 42?"', imageSlug: img('ask-for-size-forty-two') },
   ],
 
   videos: [],

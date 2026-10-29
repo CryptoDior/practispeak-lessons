@@ -32,11 +32,11 @@ export const conversationC1AccomplishThisWeek: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'What are you hoping to accomplish this week?', tag: 'phrase', definition: 'A high-level question about goals and intention.', example: '"Monday again! What are you hoping to accomplish this week?"', imageSlug: img('weekly-goals-question') },
-    { phrase: "I'm trying to set realistic objectives instead of overwhelming myself.", tag: 'phrase', definition: 'You want achievable goals.', example: '"Last week I planned too much. Now I\'m setting realistic objectives."', imageSlug: img('realistic-objectives') },
+    { phrase: "I'm trying to set realistic objectives instead of overwhelming myself.", tag: 'phrase', definition: 'You want achievable goals.', example: '"Last week I planned too much. Now I\'m trying to set realistic objectives instead of overwhelming myself."', imageSlug: img('realistic-objectives') },
     { phrase: "I'm focusing on progress, not perfection.", tag: 'phrase', definition: 'You value consistent improvement over flawless results.', example: '"The draft won\'t be perfect, but I\'m focusing on progress, not perfection."', imageSlug: img('draft-progress') },
-    { phrase: 'I want to build momentum by completing small but important tasks.', tag: 'phrase', definition: 'Small wins create motivation.', example: '"I\'ll start with three quick wins to build momentum."', imageSlug: img('three-quick-wins') },
-    { phrase: "I'm aiming to finish tasks I've been postponing.", tag: 'phrase', definition: 'You want to reduce procrastination.', example: '"I\'m aiming to finish the tax forms I\'ve been postponing for weeks."', inAction: 'The present perfect continuous ("I\'ve been postponing") emphasises that the delay has continued over time — and still matters now.', imageSlug: img('postponed-tax-forms') },
-    { phrase: "I'm limiting distractions so I can be more mentally present.", tag: 'phrase', definition: 'You want a clearer, more focused mind.', example: '"I deleted social media from my phone. I\'m limiting distractions this week."', imageSlug: img('limiting-distractions') },
+    { phrase: 'I want to build momentum by completing small but important tasks.', tag: 'phrase', definition: 'Small wins create motivation.', example: '"I want to build momentum by completing small but important tasks — I\'ll start with three quick wins."', imageSlug: img('three-quick-wins') },
+    { phrase: "I'm aiming to finish tasks I've been postponing.", tag: 'phrase', definition: 'You want to reduce procrastination.', example: '"I\'m aiming to finish tasks I\'ve been postponing — the tax forms, for weeks."', inAction: 'The present perfect continuous ("I\'ve been postponing") emphasises that the delay has continued over time — and still matters now.', imageSlug: img('postponed-tax-forms') },
+    { phrase: "I'm limiting distractions so I can be more mentally present.", tag: 'phrase', definition: 'You want a clearer, more focused mind.', example: '"I deleted social media from my phone. I\'m limiting distractions so I can be more mentally present."', imageSlug: img('limiting-distractions') },
   ],
 
   videos: [],

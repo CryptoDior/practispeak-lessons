@@ -33,11 +33,11 @@ export const diningRestaurantInquiries: Lesson = {
 
   phrasalVerbs: [
     { phrase: 'What are the daily specials?', tag: 'phrase', definition: 'Ask about dishes available only today.', example: '"Before we order, what are the daily specials?"', imageSlug: img('daily-specials-before-ordering') },
-    { phrase: 'Could you tell me more about this dish?', tag: 'phrase', definition: 'Ask for details about a menu item.', example: '"Could you tell me more about the seafood risotto?"', imageSlug: img('asking-seafood-risotto-details') },
+    { phrase: 'Could you tell me more about this dish?', tag: 'phrase', definition: 'Ask for details about a menu item.', example: '"Could you tell me more about this dish — the seafood risotto?"', imageSlug: img('asking-seafood-risotto-details') },
     { phrase: 'Are there any vegetarian / vegan options?', tag: 'phrase', definition: 'Ask about meat-free or animal-free food.', example: '"My friend is vegan. Are there any vegan options?"', imageSlug: img('asking-vegan-options-for-friend') },
     { phrase: "I'm allergic to… Does this dish contain any?", tag: 'phrase', definition: 'Explain an allergy and check the ingredients.', example: '"I\'m allergic to nuts. Does this dish contain any?"', inAction: 'Always say "allergic TO": "I\'m allergic to shellfish." With allergies, it\'s good to be very clear and direct — politeness can come after.', imageSlug: img('nuts-ingredient-question-pending') },
-    { phrase: 'Can I customise this dish?', tag: 'phrase', definition: 'Ask to change something in a dish.', example: '"Can I customise this burger? No onions, extra cheese."', imageSlug: img('burger-no-onions-extra-cheese-request') },
-    { phrase: 'Could I have the sauce on the side?', tag: 'phrase', definition: 'Ask for the sauce in a separate small bowl.', example: '"Could I have the dressing on the side, please?"', imageSlug: img('salad-dressing-separate-request') },
+    { phrase: 'Can I customise this dish?', tag: 'phrase', definition: 'Ask to change something in a dish.', example: '"Can I customise this dish? No onions, extra cheese on this burger."', imageSlug: img('burger-no-onions-extra-cheese-request') },
+    { phrase: 'Could I have the sauce on the side?', tag: 'phrase', definition: 'Ask for the sauce in a separate small bowl.', example: '"Could I have the sauce on the side, please — the dressing?"', imageSlug: img('salad-dressing-separate-request') },
     { phrase: 'What are your house specialities?', tag: 'phrase', definition: 'Ask what the restaurant is famous for.', example: '"It\'s our first time here. What are your house specialities?"', imageSlug: img('first-visit-house-specialities') },
   ],
 
