@@ -6,7 +6,7 @@ export const robloxLetsPlay: Lesson = {
   subtitle: 'The words for what you DO in Roblox — and in real life too!',
   level: 'A1',
   description: 'Learn the action verbs you use every time you play Roblox — play, jump, run, build, chat — and discover how these same words work in real life.',
-  heroImage: '/images/roblox-lets-play-hero.png',
+  heroImage: '/images/roblox-lets-play-hero.png?v=2',
 
   vocabulary: [
     {

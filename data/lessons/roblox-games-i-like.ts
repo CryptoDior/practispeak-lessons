@@ -6,7 +6,7 @@ export const robloxGamesILike: Lesson = {
   subtitle: 'Learn the names of different game types — in Roblox and in real life!',
   level: 'A1',
   description: 'Discover the words for different types of Roblox games — obbies, tycoons, simulators, and more — and learn how the same genre words work when talking about films, books, and activities.',
-  heroImage: '/images/roblox-games-i-like-hero.png',
+  heroImage: '/images/roblox-games-i-like-hero.png?v=2',
 
   vocabulary: [
     {

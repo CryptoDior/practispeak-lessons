@@ -6,7 +6,7 @@ export const robloxMakingFriends: Lesson = {
   subtitle: 'Learn to make friends and connect with people — in Roblox and in real life!',
   level: 'A1',
   description: 'Learn the words for making friends in Roblox — sending requests, following, inviting to games — and see how the same friendly actions work in everyday life.',
-  heroImage: '/images/roblox-making-friends-hero.png',
+  heroImage: '/images/roblox-making-friends-hero.png?v=2',
 
   vocabulary: [
     {

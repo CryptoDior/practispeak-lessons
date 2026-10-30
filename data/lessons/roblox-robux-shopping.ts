@@ -6,7 +6,7 @@ export const robloxRobuxShopping: Lesson = {
   subtitle: 'Learn to talk about spending, saving, and buying — in Roblox and in real life!',
   level: 'A1',
   description: 'Discover the words for money and shopping in Roblox — Robux, the catalog, prices — and see how these same words work when you go shopping in real life.',
-  heroImage: '/images/roblox-robux-shopping-hero.png',
+  heroImage: '/images/roblox-robux-shopping-hero.png?v=2',
 
   vocabulary: [
     {
