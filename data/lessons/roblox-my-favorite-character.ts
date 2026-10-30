@@ -6,7 +6,7 @@ export const robloxMyFavoriteCharacter: Lesson = {
   subtitle: "The adjectives to describe your favourite Roblox character — and people and things in real life!",
   level: 'A1',
   description: "Learn adjectives to describe Roblox characters — tall, fast, powerful, friendly — and discover how the same words describe people, animals, and places in your everyday life.",
-  heroImage: '/images/roblox-my-favorite-character-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-favorite-character-hero.png?v=2',
 
   vocabulary: [
     {

@@ -6,7 +6,7 @@ export const robloxWhenDoYouPlay: Lesson = {
   subtitle: "The words for how often you play Roblox — and how often you do things in real life!",
   level: 'A1',
   description: "Learn how to talk about how often you play — always, sometimes, never — and the time words for weekends, after school, and tonight. These words work in games AND in real life!",
-  heroImage: '/images/roblox-when-do-you-play-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-when-do-you-play-hero.png?v=2',
 
   vocabulary: [
     {

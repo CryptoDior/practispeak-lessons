@@ -6,7 +6,7 @@ export const robloxWhatAreYouDoing: Lesson = {
   subtitle: "The -ING words for what you are doing RIGHT NOW — in Roblox and in real life!",
   level: 'A1',
   description: "Learn how to say what you are doing right now using -ING verbs. In Roblox: I am playing, I am building, I am winning! And the same words work in real life too.",
-  heroImage: '/images/roblox-what-are-you-doing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-what-are-you-doing-hero.png?v=2',
 
   vocabulary: [
     {

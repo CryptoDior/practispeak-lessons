@@ -6,7 +6,7 @@ export const robloxLetsTrade: Lesson = {
   subtitle: "The words for swapping items in Roblox — and making deals in real life!",
   level: 'A1',
   description: "Roblox lets you swap items with other players. Learn the words for trading — offer, accept, decline, deal — and discover that the same words work when you make deals in real life too.",
-  heroImage: '/images/roblox-lets-trade-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-lets-trade-hero.png?v=2',
 
   vocabulary: [
     {

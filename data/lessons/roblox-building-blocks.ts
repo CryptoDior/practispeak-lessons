@@ -6,7 +6,7 @@ export const robloxBuildingBlocks: Lesson = {
   subtitle: "The words for making your own game in Roblox Studio — and what they mean in real life!",
   level: 'A1',
   description: "Want to make your own Roblox game? Learn the basic words you need in Roblox Studio — brick, tool, object, script, and more — and see how these same words work in real life.",
-  heroImage: '/images/roblox-building-blocks-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-building-blocks-hero.png?v=2',
 
   vocabulary: [
     {

@@ -6,7 +6,7 @@ export const robloxCanYouHelpMe: Lesson = {
   subtitle: "The words for asking for help and teaching others — in Roblox and in everyday life!",
   level: 'A1',
   description: "Learn how to ask for help, show someone what to do, and explain things clearly. These useful words work when you are stuck in a Roblox game AND when you need help in real life!",
-  heroImage: '/images/roblox-can-you-help-me-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-can-you-help-me-hero.png?v=2',
 
   vocabulary: [
     {

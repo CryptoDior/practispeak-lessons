@@ -6,7 +6,7 @@ export const robloxPlacesToExplore: Lesson = {
   subtitle: "The words for all the places you visit in Roblox — and in real life!",
   level: 'A1',
   description: "Explore the Roblox world! Learn the words for maps, servers, checkpoints, and zones — then discover how the same words describe real places too.",
-  heroImage: '/images/roblox-places-to-explore-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-places-to-explore-hero.png?v=2',
 
   vocabulary: [
     {

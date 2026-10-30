@@ -6,7 +6,7 @@ export const robloxPlayingSafe: Lesson = {
   subtitle: "The words for staying safe in Roblox — and the same words help you stay safe in real life too!",
   level: 'A1',
   description: "Roblox is fun, but it is important to play safely. Learn the words for reporting, blocking, and following rules — and discover that these same safety words work in real life too.",
-  heroImage: '/images/roblox-playing-safe-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-playing-safe-hero.png?v=2',
 
   vocabulary: [
     {

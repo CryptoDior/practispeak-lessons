@@ -6,7 +6,7 @@ export const robloxTalkingInChat: Lesson = {
   subtitle: 'Learn the short words players type — and how to say them in real life too!',
   level: 'A1',
   description: 'Learn the short chat phrases every Roblox player uses — GG, BRB, LOL — and discover what they mean and how to say the same thing politely in real life.',
-  heroImage: '/images/roblox-talking-in-chat-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-in-chat-hero.png?v=2',
 
   vocabulary: [
     {

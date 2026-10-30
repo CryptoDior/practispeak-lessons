@@ -6,7 +6,7 @@ export const robloxNumbersScores: Lesson = {
   subtitle: 'Learn to talk about scores and results — in Roblox and in real life!',
   level: 'A1',
   description: 'Learn the words for scores, levels, and achievements in Roblox — points, rank, leaderboard, badge — and discover how the same words work in sports, school, and everyday life.',
-  heroImage: '/images/roblox-numbers-scores-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-numbers-scores-hero.png?v=2',
 
   vocabulary: [
     {

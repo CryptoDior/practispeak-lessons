@@ -6,7 +6,7 @@ export const robloxReviewGamesDay: Lesson = {
   subtitle: "How much do you remember? Let's play and find out!",
   level: 'A1',
   description: 'A fun review of all the words and phrases from Block 1 — avatars, lobbies, action verbs, Robux, genres, making friends, chat words, feelings, and scores. How much do you remember?',
-  heroImage: '/images/roblox-review-games-day-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-games-day-hero.png?v=2',
 
   vocabulary: [
     {

@@ -6,7 +6,7 @@ export const robloxHowDoYouFeel: Lesson = {
   subtitle: 'Describe games, moments, and feelings — in Roblox and in real life!',
   level: 'A1',
   description: 'Learn the basic adjectives Roblox players use every day — fun, easy, hard, laggy, cool — and discover how to use these same describing words in real life.',
-  heroImage: '/images/roblox-how-do-you-feel-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-how-do-you-feel-hero.png?v=2',
 
   vocabulary: [
     {
