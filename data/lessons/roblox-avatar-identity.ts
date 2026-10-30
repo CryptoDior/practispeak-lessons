@@ -7,7 +7,7 @@ export const robloxAvatarIdentity: Lesson = {
   subtitle: 'Your name, your look, your character — in Roblox and real life',
   level: 'A1',
   description: 'Learn the words for who you are in Roblox — your avatar, username, and character — and discover that the same words work in real life too.',
-  heroImage: '/images/roblox-avatar-identity-hero.png?v=2',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-avatar-identity-hero.png?v=2',
 
   // ── In Game Vocab ──────────────────────────────────────────────────────────
   vocabulary: [

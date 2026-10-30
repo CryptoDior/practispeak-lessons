@@ -6,7 +6,7 @@ export const robloxMyRobloxHome: Lesson = {
   subtitle: 'Find your way around Roblox — and around apps and websites too!',
   level: 'A1',
   description: 'Learn the words for the Roblox home screen, lobbies, and menus — then discover how the same words work on apps and websites in real life.',
-  heroImage: '/images/roblox-my-roblox-home-hero.png?v=2',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-home-hero.png?v=2',
 
   vocabulary: [
     {
