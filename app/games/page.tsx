@@ -8,6 +8,8 @@ export const metadata: Metadata = {
     'Play free English learning games. Build sentences, practise grammar, and have fun improving your English.',
 };
 
+const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
+
 interface GameCard {
   id: string;
   href: string;
@@ -98,10 +100,16 @@ export default function GamesPage() {
               href={g.href}
               className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-[0_2px_10px_rgba(15,23,42,0.05)] hover:shadow-[0_14px_40px_rgba(37,99,235,0.14)] hover:-translate-y-1 transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 focus-visible:outline-offset-2 flex flex-col"
             >
-              <div className="aspect-[16/9] bg-gradient-to-br from-[#6366F1] to-[#4F46E5] flex items-center justify-center">
-                <span className="text-6xl group-hover:scale-110 transition-transform duration-300" aria-hidden="true">
+              <div className="relative aspect-[16/9] overflow-hidden bg-gradient-to-br from-[#6366F1] to-[#4F46E5] flex items-center justify-center">
+                <span className="text-6xl" aria-hidden="true">
                   {g.emoji}
                 </span>
+                {/* Thumbnail on R2 (games-hero). If it isn't uploaded yet, the emoji above shows instead. */}
+                <div
+                  className="absolute inset-0 bg-cover bg-center group-hover:scale-[1.04] transition-transform duration-300"
+                  style={{ backgroundImage: `url(${R2}${g.id}-hero.png?v=1)` }}
+                  aria-hidden="true"
+                />
               </div>
               <div className="p-5 flex flex-col flex-1">
                 <h2 className="font-playfair text-xl font-semibold text-slate-900 mb-2 group-hover:text-blue-700 transition-colors">
