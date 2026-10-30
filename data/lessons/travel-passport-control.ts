@@ -2,6 +2,7 @@ import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
 const ROSIE = R2 + 'rosie-icon.png';
+const OFFICER = R2 + 'passport-control-officer-icon.png';
 const img = (s: string) => `${R2}travel-passport-control-${s}.png`;
 
 export const travelPassportControl: Lesson = {
@@ -43,17 +44,17 @@ export const travelPassportControl: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Officer', speakerColor: 'blue', text: 'Good afternoon. Passport, please.' },
+    { speaker: 'Officer', speakerAvatar: OFFICER, speakerColor: 'blue', text: 'Good afternoon. Passport, please.' },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'Good afternoon. Here you are.' },
-    { speaker: 'Officer', speakerColor: 'blue', text: 'What is your [[nationality:the country you are a citizen of]]?' },
+    { speaker: 'Officer', speakerAvatar: OFFICER, speakerColor: 'blue', text: 'What is your [[nationality:the country you are a citizen of]]?' },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I'm South African." },
-    { speaker: 'Officer', speakerColor: 'blue', text: 'And what is the [[purpose:reason]] of your visit?' },
+    { speaker: 'Officer', speakerAvatar: OFFICER, speakerColor: 'blue', text: 'And what is the [[purpose:reason]] of your visit?' },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "I'm here on holiday. I'm visiting London and Edinburgh." },
-    { speaker: 'Officer', speakerColor: 'blue', text: 'How long do you [[intend:plan]] to stay?' },
+    { speaker: 'Officer', speakerAvatar: OFFICER, speakerColor: 'blue', text: 'How long do you [[intend:plan]] to stay?' },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: "Two weeks. I'll be staying at a hotel in Camden, and then with a friend in Edinburgh. Here's my return ticket." },
-    { speaker: 'Officer', speakerColor: 'blue', text: 'Thank you. Do you have any food, plants or other [[restricted items:things you cannot bring in]] to declare?' },
+    { speaker: 'Officer', speakerAvatar: OFFICER, speakerColor: 'blue', text: 'Thank you. Do you have any food, plants or other [[restricted items:things you cannot bring in]] to declare?' },
     { speaker: 'Rosie', speakerAvatar: ROSIE, speakerColor: 'purple', text: 'No, nothing to declare.' },
-    { speaker: 'Officer', speakerColor: 'blue', text: "Thank you. I've [[verified:checked]] your documents. Enjoy your stay. You may proceed." },
+    { speaker: 'Officer', speakerAvatar: OFFICER, speakerColor: 'blue', text: "Thank you. I've [[verified:checked]] your documents. Enjoy your stay. You may proceed." },
   ],
 
   matchingExercise: [

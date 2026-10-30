@@ -2,6 +2,7 @@ import { Lesson } from '@/types/lesson';
 
 const R2 = 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/';
 const TIM = R2 + 'tim-professional-portrait.png';
+const DOCTOR = R2 + 'doctor-icon.png';
 const img = (s: string) => `${R2}health-at-the-doctor-${s}.png`;
 
 export const healthAtTheDoctor: Lesson = {
@@ -48,16 +49,16 @@ export const healthAtTheDoctor: Lesson = {
   videos: [],
 
   dialogue: [
-    { speaker: 'Doctor', speakerColor: 'blue', text: 'Good morning, Tim. Please sit down. What are your [[symptom:signs of illness]]s?' },
+    { speaker: 'Doctor', speakerAvatar: DOCTOR, speakerColor: 'blue', text: 'Good morning, Tim. Please sit down. What are your [[symptom:signs of illness]]s?' },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "I feel terrible. I have a [[sore throat:pain in the throat]], a [[runny nose:liquid coming from the nose]] and a bad [[cough:noisy air from the throat]]." },
-    { speaker: 'Doctor', speakerColor: 'blue', text: "How long have you been feeling this way?" },
+    { speaker: 'Doctor', speakerAvatar: DOCTOR, speakerColor: 'blue', text: "How long have you been feeling this way?" },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Since Sunday. Last night I had a [[fever:high temperature]] and the [[chills:feeling cold and shaking]]. And I can't stop [[sneezing:blowing air from the nose]]." },
-    { speaker: 'Doctor', speakerColor: 'blue', text: "Do you have a [[headache:pain in the head]] or muscle pain? Any [[fatigue:extreme tiredness]]?" },
+    { speaker: 'Doctor', speakerAvatar: DOCTOR, speakerColor: 'blue', text: "Do you have a [[headache:pain in the head]] or muscle pain? Any [[fatigue:extreme tiredness]]?" },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "Yes, I'm exhausted. I think I came down with something at work." },
-    { speaker: 'Doctor', speakerColor: 'blue', text: "It sounds like the flu. Do you have any [[allergies:bad reactions to something]] to medicine?" },
+    { speaker: 'Doctor', speakerAvatar: DOCTOR, speakerColor: 'blue', text: "It sounds like the flu. Do you have any [[allergies:bad reactions to something]] to medicine?" },
     { speaker: 'Tim', speakerAvatar: TIM, speakerColor: 'green', text: "No, none." },
-    { speaker: 'Doctor', speakerColor: 'blue', text: "OK. Here's a [[prescription:doctor's order for medicine]] for something to bring the fever down. You should get some rest and drink plenty of water. Your [[recovery:getting better]] should take about a week." },
-    { speaker: 'Doctor', speakerColor: 'blue', text: "If it gets worse, come back to see me." },
+    { speaker: 'Doctor', speakerAvatar: DOCTOR, speakerColor: 'blue', text: "OK. Here's a [[prescription:doctor's order for medicine]] for something to bring the fever down. You should get some rest and drink plenty of water. Your [[recovery:getting better]] should take about a week." },
+    { speaker: 'Doctor', speakerAvatar: DOCTOR, speakerColor: 'blue', text: "If it gets worse, come back to see me." },
   ],
 
   matchingExercise: [
