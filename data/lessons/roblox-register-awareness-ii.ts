@@ -6,7 +6,7 @@ export const robloxRegisterAwarenessIi: Lesson = {
   subtitle: "You just spent four hours on Roblox. Now your mum is asking about your day. Can you explain what you were doing — in language she actually understands?",
   level: 'B1-B2',
   description: "Code-switching is the ability to change how you speak depending on who you are talking to. You already do it in your own language. At B2, you need to do it in English too — moving smoothly between the casual language you use with friends in-game and the clear, respectful language you use with a teacher or parent. This lesson practises exactly that switch.",
-  heroImage: '/images/roblox-register-awareness-ii-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-register-awareness-ii-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Code-switching — same meaning, different language',

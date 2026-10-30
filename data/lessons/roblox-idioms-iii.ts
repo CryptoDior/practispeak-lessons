@@ -6,7 +6,7 @@ export const robloxIdiomsIii: Lesson = {
   subtitle: "Every community has unwritten rules. These idioms describe how people get along — or don't.",
   level: 'B1-B2',
   description: "Social idioms describe how people interact in groups — how they join, how they build trust, how they deal with conflict, and how they maintain relationships. These expressions are used constantly in natural English conversation because they describe complex social situations in just a few words. Understanding them makes you a much more effective communicator in any team or community setting.",
-  heroImage: '/images/roblox-idioms-iii-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-idioms-iii-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Social idioms — meaning, register, and how to use them naturally',

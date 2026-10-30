@@ -6,7 +6,7 @@ export const robloxAgreeingDisagreeing: Lesson = {
   subtitle: "Anyone can say 'I disagree.' The question is: can you say it without ending the conversation?",
   level: 'B1-B2',
   description: "Agreeing and disagreeing are not binary. At B2, you need to navigate the full range: partially agreeing, conceding a point while maintaining your position, and disagreeing diplomatically without causing offence. Whether you are debating which game is best or discussing strategy with your team, how you disagree matters as much as whether you disagree.",
-  heroImage: '/images/roblox-agreeing-disagreeing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-agreeing-disagreeing-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Agreeing and disagreeing — use softeners',

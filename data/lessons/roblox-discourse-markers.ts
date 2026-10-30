@@ -6,7 +6,7 @@ export const robloxDiscourseMarkers: Lesson = {
   subtitle: "The words that hold an argument together — signalling what comes next so your listener always knows where you are.",
   level: 'B1-B2',
   description: "Discourse markers are words and phrases that guide your listener through your message. They signal structure: FIRSTLY and SECONDLY tell the listener a list is coming. HOWEVER signals that a contrasting idea follows. FURTHERMORE adds a new point to strengthen your argument. CONSEQUENTLY shows that one thing caused another. IN CONTRAST compares two opposite ideas. TO SUM UP tells the listener you are finishing. Without discourse markers, even a great argument can sound disorganised. With them, your message becomes clear, logical, and easy to follow.",
-  heroImage: '/images/roblox-discourse-markers-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-discourse-markers-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Discourse markers by function — adding, contrasting, sequencing, concluding',

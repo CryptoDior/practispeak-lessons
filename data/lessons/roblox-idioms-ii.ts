@@ -6,7 +6,7 @@ export const robloxIdiomsIi: Lesson = {
   subtitle: "Raise the bar. Up your game. Step up. These are not just gaming phrases — they are how English speakers talk about any kind of progress or success.",
   level: 'B1-B2',
   description: "English is full of idioms about competition and achievement — and many of them fit perfectly in Roblox. Knowing phrases like 'raise the bar', 'hit your stride', and 'in a league of your own' lets you talk about performance and progress the way fluent speakers do: not with plain descriptions, but with vivid, natural expressions.",
-  heroImage: '/images/roblox-idioms-ii-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-idioms-ii-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Achievement Idioms — meaning vs literal reading',

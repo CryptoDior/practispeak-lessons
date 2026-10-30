@@ -6,7 +6,7 @@ export const robloxNarrativeTenses: Lesson = {
   subtitle: "Telling a story clearly means showing what happened first, what was already happening, and what interrupted what.",
   level: 'B1-B2',
   description: "When you tell a story in English, you use three tenses together: the SIMPLE PAST for the main events in order, the PAST CONTINUOUS for actions that were already happening when something else occurred, and the PAST PERFECT for things that had already happened before the main story moment. Using all three correctly makes your stories clear, vivid, and natural.",
-  heroImage: '/images/roblox-narrative-tenses-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-narrative-tenses-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Combining simple past, past continuous, and past perfect',

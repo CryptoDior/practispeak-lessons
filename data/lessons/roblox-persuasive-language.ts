@@ -6,7 +6,7 @@ export const robloxPersuasiveLanguage: Lesson = {
   subtitle: "Writing a game review is not describing what happened. It is making the reader feel something — and then changing their mind.",
   level: 'B1-B2',
   description: "Persuasive language is the difference between a description and an argument. When you write a game review, a recommendation, or a pitch, you are not just reporting facts — you are guiding the reader toward a specific conclusion. At B2, you need the vocabulary of persuasion: words like 'compelling', 'outstanding', and 'despite' that add force and nuance to your writing.",
-  heroImage: '/images/roblox-persuasive-language-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-persuasive-language-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Persuasive language — structure your argument',

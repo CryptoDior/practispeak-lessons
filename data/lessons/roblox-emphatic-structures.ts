@@ -6,7 +6,7 @@ export const robloxEmphaticStructures: Lesson = {
   subtitle: "When you really need to stress a point — cleft sentences let you put one idea in the spotlight.",
   level: 'B1-B2',
   description: "Normal sentences spread meaning evenly. But sometimes one part of your sentence matters more than the rest. Cleft sentences break your message in two: they put the important part at the end, after IT IS or WHAT. This makes the key idea stand out — and it tells the listener exactly where to focus. This is a powerful tool for arguments, discussions, and debates.",
-  heroImage: '/images/roblox-emphatic-structures-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-emphatic-structures-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Cleft sentences — it-clefts and wh-clefts',

@@ -6,7 +6,7 @@ export const robloxReviewB2Block1: Lesson = {
   subtitle: "Idioms. Adverbs. Conditionals. Passive. Collocations. Word families. Persuasion. Debate. One lesson to bring it all together.",
   level: 'B1-B2',
   description: "This review covers the key language from all nine lessons in B2 Block 1: gaming idioms in everyday English, adverbs of manner, second and third conditionals, extended passive voice, collocations, word formation, persuasive language, and agreeing and disagreeing. Use it to consolidate what you have learned — and identify anything you need to revisit before moving to Block 2.",
-  heroImage: '/images/roblox-review-b2-block-1-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-b2-block-1-hero.png?v=2',
 
   vocabulary: [
     {

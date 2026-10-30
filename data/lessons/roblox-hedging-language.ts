@@ -6,7 +6,7 @@ export const robloxHedgingLanguage: Lesson = {
   subtitle: "Not every statement is a fact. Hedging language lets you share an opinion or uncertain idea without sounding like you know everything.",
   level: 'B1-B2',
   description: "Hedging means softening a statement — making it less absolute. Instead of saying 'This is wrong,' you say 'This might be worth reconsidering.' Instead of 'Everyone agrees,' you say 'It tends to be the case that most players agree.' Hedging is not weakness — it is precision. It shows you understand that not everything is certain, and it protects your credibility when you might be wrong. It also makes disagreement easier to handle because the other person has room to respond.",
-  heroImage: '/images/roblox-hedging-language-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-hedging-language-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Modal verbs, adverbs, and phrases for hedging',

@@ -6,7 +6,7 @@ export const robloxWordFormation: Lesson = {
   subtitle: "Compete. Competition. Competitive. Competitively. One root, four words — and each one unlocks a different sentence.",
   level: 'B1-B2',
   description: "Word formation is one of the most powerful vocabulary skills at B2. If you know COMPETE, you can unlock COMPETITION, COMPETITIVE, and COMPETITIVELY. If you know CREATE, you have CREATION, CREATIVE, and CREATIVELY. Learning word families — noun, verb, adjective, adverb — multiplies your vocabulary with every new root you learn. This lesson builds that skill using Roblox contexts.",
-  heroImage: '/images/roblox-word-formation-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-word-formation-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Word Formation — changing a word into a different form',

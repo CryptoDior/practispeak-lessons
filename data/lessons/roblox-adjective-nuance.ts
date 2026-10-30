@@ -6,7 +6,7 @@ export const robloxAdjectiveNuance: Lesson = {
   subtitle: "GOOD, BAD, HAPPY, ANGRY — these words work. But English has many stronger, more specific options that say exactly how much you feel.",
   level: 'B1-B2',
   description: "In English, many common adjectives have stronger synonyms that carry more emotion or intensity. Instead of saying something was GOOD, you can say it was BRILLIANT, OUTSTANDING, or EXCEPTIONAL. Instead of BAD, you can say TERRIBLE, DREADFUL, or APPALLING. These stronger words do not just describe something — they show your reaction, your level of feeling, and your attitude. Choosing the right intensity word makes your English much more expressive and natural.",
-  heroImage: '/images/roblox-adjective-nuance-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adjective-nuance-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Intensity synonyms — moving up and down the scale',

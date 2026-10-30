@@ -6,7 +6,7 @@ export const robloxReportedSpeechAdvanced: Lesson = {
   subtitle: "Someone in the guild meeting said something important. How do you retell it accurately — and show exactly how they said it?",
   level: 'B1-B2',
   description: "Basic reported speech uses SAY and TELL with a tense shift. At B2, you choose your reporting verb carefully — because ARGUE, CLAIM, ADMIT, INSIST, DENY, and WARN all carry extra meaning. They do not just say what someone said. They say HOW they said it, and what kind of statement it was. Using these verbs accurately makes you a much more precise communicator.",
-  heroImage: '/images/roblox-reported-speech-advanced-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-reported-speech-advanced-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Advanced reporting verbs — how, not just what',

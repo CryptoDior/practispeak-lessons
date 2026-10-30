@@ -6,7 +6,7 @@ export const robloxReviewB2Block2: Lesson = {
   subtitle: "Idioms. Code-switching. Reporting verbs. Cleft sentences. Narrative tenses. Intensity adjectives. Hedging. Social idioms. Discourse markers. One lesson to pull it all together.",
   level: 'B1-B2',
   description: "This review covers the key language from all nine lessons in B2 Block 2: competition and achievement idioms, register awareness and code-switching, advanced reporting verbs, emphatic cleft sentences, narrative tenses for storytelling, adjective intensity synonyms, hedging language, social and community idioms, and discourse markers. Use it to consolidate what you have learned — and identify anything you need to revisit before moving on.",
-  heroImage: '/images/roblox-review-b2-block-2-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-b2-block-2-hero.png?v=2',
 
   vocabulary: [
     {
