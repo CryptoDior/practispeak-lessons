@@ -6,7 +6,7 @@ export const robloxAdverbsOfManner: Lesson = {
   subtitle: "Playing aggressively gets you kills. Playing strategically wins matches. One word changes everything.",
   level: 'B1-B2',
   description: "Adverbs of manner describe how something is done — and in Roblox, the difference between playing aggressively and playing strategically is the difference between a good run and a win. At B2, you need to move beyond basic adverbs and use them with precision: choosing the exact word that describes the quality of an action, not just whether it happened.",
-  heroImage: '/images/roblox-adverbs-of-manner-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adverbs-of-manner-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Adverbs of Manner',

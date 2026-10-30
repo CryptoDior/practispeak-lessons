@@ -6,7 +6,7 @@ export const robloxPhrasalVerbsI: Lesson = {
   subtitle: "Log in, level up, team up — the essential phrasal verbs every player uses every day!",
   level: 'B1-B2',
   description: "Phrasal verbs are two or three words that act as one verb — and Roblox players use them constantly. LOG IN, LEVEL UP, TEAM UP, DROP OUT — master these eight and you will sound natural in any gaming conversation, and in real-life English too.",
-  heroImage: '/images/roblox-phrasal-verbs-i-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-phrasal-verbs-i-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Phrasal Verbs — verb + particle together',

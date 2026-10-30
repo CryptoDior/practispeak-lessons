@@ -6,7 +6,7 @@ export const robloxRegisterAwarenessI: Lesson = {
   subtitle: "The same match. Three completely different ways to describe it. Which one is right? All of them — it depends.",
   level: 'B1-B2',
   description: "In Roblox, you talk differently in Discord chat, a guild forum post, and a gaming news article — even when you are describing the exact same event. That shift in language level is called register. At B2, you need to recognise it, control it, and switch between registers with confidence. This lesson starts that process.",
-  heroImage: '/images/roblox-register-awareness-i-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-register-awareness-i-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Register — matching your language to the situation',

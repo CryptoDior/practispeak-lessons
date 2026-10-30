@@ -6,7 +6,7 @@ export const robloxGroupVsSolo: Lesson = {
   subtitle: "Learn WITH, ALONE, TOGETHER and more — in Roblox and in real life!",
   level: 'A2',
   description: "Do you play WITH friends or ALONE? Learn how to talk about group play and solo play in Roblox — then use the same words to talk about real life too!",
-  heroImage: '/images/roblox-group-vs-solo-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-group-vs-solo-hero.png?v=2',
 
   vocabulary: [
     {

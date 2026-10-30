@@ -6,7 +6,7 @@ export const robloxIdiomsI: Lesson = {
   subtitle: "Gaming gave the world its language. Level up. Endgame. Game-changer. You already know these — now use them everywhere.",
   level: 'B1-B2',
   description: "Some of the most useful idioms in modern English came directly from gaming. Words like 'level up', 'endgame', and 'game-changer' have moved out of games and into job interviews, business meetings, and everyday conversation. At B2, you need to recognise when these idioms are being used seriously — and use them yourself with confidence.",
-  heroImage: '/images/roblox-idioms-i-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-idioms-i-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: What is an Idiom?',

@@ -6,7 +6,7 @@ export const robloxMovementAndAction: Lesson = {
   subtitle: "Master precision verbs — dodge, sprint, respawn and more — in Roblox and in real life!",
   level: 'B1-B2',
   description: "Forget 'run' and 'jump' — at B1 level, English gets precise! Learn the exact verbs players use to describe movement and action: DODGE, SPRINT, COLLIDE, LUNGE and more. Then discover how these same words bring real-life descriptions to life.",
-  heroImage: '/images/roblox-movement-and-action-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-movement-and-action-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Action verbs — use them in the simple present or past',

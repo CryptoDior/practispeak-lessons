@@ -6,7 +6,7 @@ export const robloxMyRobloxStory: Lesson = {
   subtitle: "Learn to tell a story in the past — what happened, what you did, and how it ended!",
   level: 'A2',
   description: "Something amazing happened in Roblox? Tell the story! Learn the words to say what happened first, then, after that, and finally — then use the same words to tell any story in real life.",
-  heroImage: '/images/roblox-my-roblox-story-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-roblox-story-hero.png?v=2',
 
   vocabulary: [
     {

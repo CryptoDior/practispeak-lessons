@@ -6,7 +6,7 @@ export const robloxComparativeStructures: Lesson = {
   subtitle: "Not just 'better' — far better, nowhere near as good, twice as fast. Compare like a pro!",
   level: 'B1-B2',
   description: "Basic comparatives ('bigger', 'faster') are A2. At B1-B2, you need the full toolkit — 'not as difficult as', 'far more impressive than', 'twice as long', 'the harder you push, the faster you progress'. This lesson drills the structures that make your English sound precise, not just correct.",
-  heroImage: '/images/roblox-comparative-structures-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-comparative-structures-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Comparative Structures — comparing two things',

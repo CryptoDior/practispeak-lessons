@@ -6,7 +6,7 @@ export const robloxAskingQuestions: Lesson = {
   subtitle: "Learn to ask great questions — interview a friend about their favourite Roblox game!",
   level: 'A2',
   description: "What is your favourite game? How long have you played? Why do you love it? Learn the key question words in English — then use them to interview a friend about their Roblox world and their real life!",
-  heroImage: '/images/roblox-asking-questions-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-questions-hero.png?v=2',
 
   vocabulary: [
     {

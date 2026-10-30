@@ -6,7 +6,7 @@ export const robloxGivingOpinions: Lesson = {
   subtitle: "Say what YOU think — I think, I feel, In my opinion — in Roblox and in real life!",
   level: 'A2',
   description: "Do you think the new Roblox update is great? Or terrible? Learn how to say what you think, agree with others, and politely disagree — then use the same phrases to share your opinions about anything in real life!",
-  heroImage: '/images/roblox-giving-opinions-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-giving-opinions-hero.png?v=2',
 
   vocabulary: [
     {

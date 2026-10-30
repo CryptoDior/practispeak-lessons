@@ -6,7 +6,7 @@ export const robloxCollocations: Lesson = {
   subtitle: "You earn Robux. You join a server. You hit a milestone. English is not about single words — it is about the pairs that feel right.",
   level: 'B1-B2',
   description: "Collocations are word combinations that native speakers choose instinctively — not because of grammar rules, but because they simply sound right together. You earn Robux, not win Robux. You join a server, not enter a server. You hit a milestone, not reach a target milestone. At B2, learning the right collocations is what separates accurate English from fluent English.",
-  heroImage: '/images/roblox-collocations-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-collocations-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Collocations — fixed verb + noun pairs',

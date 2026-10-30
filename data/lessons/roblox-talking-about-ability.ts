@@ -6,7 +6,7 @@ export const robloxTalkingAboutAbility: Lesson = {
   subtitle: "Say what you CAN and CAN'T do — in Roblox and in real life!",
   level: 'A2',
   description: "Are you good at PvP? Can you build a whole map? Learn how to talk about what you can do now and what you could do in the past — then use the same words to talk about your real life skills too!",
-  heroImage: '/images/roblox-talking-about-ability-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-talking-about-ability-hero.png?v=2',
 
   vocabulary: [
     {

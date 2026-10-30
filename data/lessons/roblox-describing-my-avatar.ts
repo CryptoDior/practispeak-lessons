@@ -6,7 +6,7 @@ export const robloxDescribingMyAvatar: Lesson = {
   subtitle: "Learn how to describe what your avatar looks like — and how to describe people in real life!",
   level: 'A2',
   description: "Can you describe your Roblox avatar in detail? Learn the appearance words — hair, outfit, colour, style — and how to put adjectives in the right order. The same words help you describe people in real life!",
-  heroImage: '/images/roblox-describing-my-avatar-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-describing-my-avatar-hero.png?v=2',
 
   vocabulary: [
     {

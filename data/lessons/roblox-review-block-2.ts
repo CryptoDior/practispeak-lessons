@@ -6,7 +6,7 @@ export const robloxReviewBlock2: Lesson = {
   subtitle: "Review the best words from Block 2 — let's see how much you remember!",
   level: 'A1',
   description: "You finished Block 2! Today we review the most important words from Lessons 11 to 19. Test yourself, play the matching game, and celebrate how far you have come!",
-  heroImage: '/images/roblox-review-block-2-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-block-2-hero.png?v=2',
 
   vocabulary: [
     {

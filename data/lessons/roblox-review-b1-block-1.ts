@@ -6,7 +6,7 @@ export const robloxReviewB1Block1: Lesson = {
   subtitle: "You've dodged, levelled up, and mastered conditionals — now bring it all together!",
   level: 'B1-B2',
   description: "This review lesson brings together everything from Block 1 — modal verbs, present perfect, experience adjectives, prepositions, phrasal verbs, conditionals, adverbs, and question formation. Use the dialogue, exercises, and vocab review to check how much you have mastered and spot any gaps.",
-  heroImage: '/images/roblox-review-b1-block-1-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-b1-block-1-hero.png?v=2',
 
   vocabulary: [
     {

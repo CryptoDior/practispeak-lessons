@@ -6,7 +6,7 @@ export const robloxAdjectivesOfExperience: Lesson = {
   subtitle: "Immersive, addictive, intense — the words that describe exactly how a game FEELS!",
   level: 'B1-B2',
   description: "Good reviews and bad reviews all come down to one thing: adjectives. Learn the eight words that describe how a gaming experience really feels — and how to use them in real life to describe any experience that matters to you.",
-  heroImage: '/images/roblox-adjectives-of-experience-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adjectives-of-experience-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: -ING adjectives describe the experience',

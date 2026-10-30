@@ -6,7 +6,7 @@ export const robloxRulesAndConsequences: Lesson = {
   subtitle: "Learn to say what WILL happen IF you break or follow the rules!",
   level: 'A2',
   description: "Every game has rules! Learn the First Conditional in English — 'If you break the rules, you will get banned!' — and use the same grammar to talk about real life too.",
-  heroImage: '/images/roblox-rules-and-consequences-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-rules-and-consequences-hero.png?v=2',
 
   vocabulary: [
     {

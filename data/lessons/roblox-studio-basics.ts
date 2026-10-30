@@ -6,7 +6,7 @@ export const robloxStudioBasics: Lesson = {
   subtitle: "Learn the words for building and making things — in Roblox Studio and in real life!",
   level: 'A2',
   description: "Want to make your own Roblox game? Learn the key verbs for creating things: DESIGN, ADD, PLACE, DELETE, BUILD, SAVE, TEST and SHARE. Then use these same words to talk about making things in real life!",
-  heroImage: '/images/roblox-studio-basics-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-studio-basics-hero.png?v=2',
 
   vocabulary: [
     {

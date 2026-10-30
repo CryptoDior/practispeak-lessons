@@ -6,7 +6,7 @@ export const robloxStorytellingPastTenses: Lesson = {
   subtitle: "Suddenly, meanwhile, at that point — narrate your best match like a professional commentator!",
   level: 'B1-B2',
   description: "The best Roblox stories are not just 'we won' — they are blow-by-blow accounts of the moment it all changed. Using the right past tenses and narrative time markers transforms a boring recap into a gripping story. This lesson gives you the exact language that skilled storytellers use in every language.",
-  heroImage: '/images/roblox-storytelling-past-tenses-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-storytelling-past-tenses-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Past Simple vs Past Continuous in stories',

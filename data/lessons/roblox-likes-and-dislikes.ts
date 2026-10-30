@@ -6,7 +6,7 @@ export const robloxLikesAndDislikes: Lesson = {
   subtitle: "Say what you LOVE, LIKE, HATE and PREFER — in Roblox and in real life!",
   level: 'A2',
   description: "Do you love PvP games or hate waiting in lobbies? Learn how to say what you like and do not like — from 'I love it!' all the way to 'I can't stand it!' — then use the same words to talk about real life too.",
-  heroImage: '/images/roblox-likes-and-dislikes-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-likes-and-dislikes-hero.png?v=2',
 
   vocabulary: [
     {

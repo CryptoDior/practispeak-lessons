@@ -6,7 +6,7 @@ export const robloxLightSlangExpressions: Lesson = {
   subtitle: "GG, AFK, meta, grind — the shorthand every player uses, explained and ready to use yourself!",
   level: 'B1-B2',
   description: "Gaming has its own language — and much of it has crossed over into everyday English. GG is said in offices. NPC appears in memes. The meta shapes how people talk about strategy. This lesson teaches you eight essential expressions, explains where they come from, and shows you how to use them — in the game and out of it.",
-  heroImage: '/images/roblox-light-slang-expressions-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-light-slang-expressions-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Register — know WHEN to use slang',

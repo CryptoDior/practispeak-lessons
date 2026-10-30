@@ -6,7 +6,7 @@ export const robloxQuestionFormation: Lesson = {
   subtitle: "What, which, who, when, why, how long — ask any question with precision and confidence!",
   level: 'B1-B2',
   description: "Great players ask great questions — about strategies, maps, teammates, and timing. At B1 level, knowing when to use WHAT versus WHICH, or HOW LONG versus HOW MUCH, is the difference between sounding fluent and sounding like a learner. Master these eight question words and you will never get stuck again.",
-  heroImage: '/images/roblox-question-formation-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-question-formation-hero.png?v=2',
 
   vocabulary: [
     {

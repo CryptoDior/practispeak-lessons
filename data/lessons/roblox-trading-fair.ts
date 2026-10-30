@@ -6,7 +6,7 @@ export const robloxTradingFair: Lesson = {
   subtitle: "Use negotiation phrases to get a great deal in Roblox trading — and in real life too!",
   level: 'A2',
   description: "HOW ABOUT this item for that one? WHAT IF I add more? Learn negotiation phrases for fair trading in Roblox — from making offers to reaching a final agreement — and use these powerful phrases in everyday life situations.",
-  heroImage: '/images/roblox-trading-fair-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-trading-fair-hero.png?v=2',
 
   vocabulary: [
     {

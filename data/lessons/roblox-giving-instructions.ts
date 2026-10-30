@@ -6,7 +6,7 @@ export const robloxGivingInstructions: Lesson = {
   subtitle: "Use imperatives and sequencing words to guide a friend through any Roblox challenge — and real life!",
   level: 'A2',
   description: "First press this, then click that, finally you win! Learn sequencing words and imperative verbs to give clear step-by-step instructions in Roblox — and use the same structures to explain how to do anything in real life.",
-  heroImage: '/images/roblox-giving-instructions-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-giving-instructions-hero.png?v=2',
 
   vocabulary: [
     {

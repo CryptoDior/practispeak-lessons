@@ -6,7 +6,7 @@ export const robloxPresentPerfectAchievements: Lesson = {
   subtitle: "I've unlocked it. I've never tried it. Use the present perfect to talk about what you've done!",
   level: 'B1-B2',
   description: "Roblox players love talking about what they have unlocked, earned, and completed — and this is exactly what the present perfect is for. Learn eight achievement verbs and master the grammar that brings them to life.",
-  heroImage: '/images/roblox-present-perfect-achievements-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-present-perfect-achievements-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Present Perfect — HAVE + past participle',

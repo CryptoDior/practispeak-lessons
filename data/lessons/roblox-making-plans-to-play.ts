@@ -6,7 +6,7 @@ export const robloxMakingPlansToPlay: Lesson = {
   subtitle: "Use GOING TO, WILL, and future adverbs to make plans in Roblox — and in real life!",
   level: 'A2',
   description: "Are you GOING TO play later? Will you join my squad SOON? Learn how to make plans and talk about the future using GOING TO, WILL, MAYBE, PROBABLY, and DEFINITELY — in Roblox and in your everyday life.",
-  heroImage: '/images/roblox-making-plans-to-play-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-making-plans-to-play-hero.png?v=2',
 
   vocabulary: [
     {

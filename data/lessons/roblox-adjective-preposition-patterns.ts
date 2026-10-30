@@ -6,7 +6,7 @@ export const robloxAdjectivePrepositionPatterns: Lesson = {
   subtitle: "Good AT, proud OF, excited ABOUT — the preposition is part of the phrase. Get it right every time!",
   level: 'B1-B2',
   description: "In English, adjectives come with fixed prepositions — you are good AT something, not good IN it. You are interested IN something, not interested ABOUT it. These patterns do not follow logic — you simply have to learn them. This lesson covers the eight most common ones you will use in Roblox and in real life.",
-  heroImage: '/images/roblox-adjective-preposition-patterns-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adjective-preposition-patterns-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Adjective + Preposition — fixed pairs',

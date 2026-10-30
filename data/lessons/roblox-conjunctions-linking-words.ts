@@ -6,7 +6,7 @@ export const robloxConjunctionsLinkingWords: Lesson = {
   subtitle: "Because, although, therefore — connect your ideas and explain your strategy like a pro!",
   level: 'B1-B2',
   description: "A sentence is just a fact. Two connected sentences are an argument. Conjunctions and linking words let you explain why, contrast ideas, show results, and structure thinking in a way that sounds educated and precise. Roblox strategy, guild debates, and post-match analysis all use these words constantly.",
-  heroImage: '/images/roblox-conjunctions-linking-words-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-conjunctions-linking-words-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Conjunctions connect two ideas',

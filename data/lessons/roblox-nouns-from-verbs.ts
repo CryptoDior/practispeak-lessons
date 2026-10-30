@@ -6,7 +6,7 @@ export const robloxNounsFromVerbs: Lesson = {
   subtitle: "Create → creation → creator. Build your word family and triple your vocabulary overnight!",
   level: 'B1-B2',
   description: "You already know the verbs — create, achieve, explore. This lesson shows you how to build the noun forms that Roblox content creators, reviewers, and tournament commentators use constantly. Mastering word families means you can adapt to any sentence structure the moment you need it.",
-  heroImage: '/images/roblox-nouns-from-verbs-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-nouns-from-verbs-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Nouns from Verbs — add a suffix',

@@ -6,7 +6,7 @@ export const robloxPhrasalVerbsII: Lesson = {
   subtitle: "Power up, check out, take on — a second set of essential phrasal verbs for every situation!",
   level: 'B1-B2',
   description: "This is your second set of high-frequency phrasal verbs — all used constantly in both Roblox and everyday English. You already know the basics from Phrasal Verbs I. Now you will expand your range with verbs that help you talk about challenges, preparation, problem-solving, and connecting with others.",
-  heroImage: '/images/roblox-phrasal-verbs-ii-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-phrasal-verbs-ii-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Separable vs inseparable phrasal verbs',

@@ -6,7 +6,7 @@ export const robloxPrepositionsPlaceMovement: Lesson = {
   subtitle: "Across, through, beyond — navigate any map and any conversation with precision!",
   level: 'B1-B2',
   description: "In Roblox, survival often depends on knowing exactly where you are and where you need to go. At B1 level, vague directions are not enough — ACROSS, THROUGH, BENEATH and BEYOND are the tools that make your communication precise. These prepositions work exactly the same way in everyday English too.",
-  heroImage: '/images/roblox-prepositions-place-movement-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-prepositions-place-movement-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Prepositions come BEFORE a noun',

@@ -6,7 +6,7 @@ export const robloxConditionals: Lesson = {
   subtitle: "If I win this round, I'll rank up. If I had more Robux, I'd buy it — master both conditionals!",
   level: 'B1-B2',
   description: "Conditionals let you talk about possibilities, plans, and imagined situations — and Roblox players use them constantly. Learn the key words IF, WOULD, COULD, UNLESS and more, and understand the difference between real possibilities and imagined scenarios.",
-  heroImage: '/images/roblox-conditionals-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-conditionals-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: First & Second Conditional',

@@ -6,7 +6,7 @@ export const robloxReviewA2Block1: Lesson = {
   subtitle: "Revise the key words and phrases from your first 9 A2 Roblox lessons!",
   level: 'A2',
   description: "Time to look back! Revise the key vocabulary, grammar structures, and phrases from A2 Block 1 — daily routines, past simple, comparatives, superlatives, instructions, future plans, polite requests, and negotiation. Everything in one lesson!",
-  heroImage: '/images/roblox-review-a2-block-1-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-a2-block-1-hero.png?v=2',
 
   vocabulary: [
     {

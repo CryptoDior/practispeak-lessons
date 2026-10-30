@@ -6,7 +6,7 @@ export const robloxMyGamingDay: Lesson = {
   subtitle: "Talk about your daily routine using Roblox — and see how the same words describe your real life!",
   level: 'A2',
   description: "Learn how to talk about your day — morning, sessions, breaks, logging in and off — using Roblox as the context. These time and routine words work perfectly in everyday life too.",
-  heroImage: '/images/roblox-my-gaming-day-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-my-gaming-day-hero.png?v=2',
 
   vocabulary: [
     {

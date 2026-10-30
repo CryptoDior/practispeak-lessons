@@ -6,7 +6,7 @@ export const robloxAskingForHelpInChat: Lesson = {
   subtitle: "Use polite request phrases in Roblox chat — and sound friendly and professional in real life too!",
   level: 'A2',
   description: "Could you show me how to get past this level? Would you mind helping me for a moment? Learn polite request phrases to ask for help in Roblox chat — and use the same language to sound friendly and respectful anywhere.",
-  heroImage: '/images/roblox-asking-for-help-in-chat-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-asking-for-help-in-chat-hero.png?v=2',
 
   vocabulary: [
     {

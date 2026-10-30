@@ -6,7 +6,7 @@ export const robloxReportedSpeech: Lesson = {
   subtitle: "He said, she warned, they claimed — retell any chat conversation with precision!",
   level: 'B1-B2',
   description: "Roblox drama, strategy briefings, and guild disputes all get retold using reported speech. At B1 level, mastering SAY vs TELL, WARN vs CLAIM, and tense backshift turns a vague 'someone said something' into a clear and accurate account of exactly what happened.",
-  heroImage: '/images/roblox-reported-speech-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-reported-speech-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Reported Speech — one tense back',

@@ -6,7 +6,7 @@ export const robloxReviewB1Block2: Lesson = {
   subtitle: "Reported speech, passives, comparatives, slang — everything from lessons 11 to 20 in one match!",
   level: 'B1-B2',
   description: "This is your Block 2 review — ten lessons of grammar, vocabulary, and expression all in one. From reporting what players said to narrating an epic comeback in past tenses, from adjective + preposition patterns to the current meta — if you can handle this lesson, you are ready for the next level.",
-  heroImage: '/images/roblox-review-b1-block-2-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-b1-block-2-hero.png?v=2',
 
   vocabulary: [
     {

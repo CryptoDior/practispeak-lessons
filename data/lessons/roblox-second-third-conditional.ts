@@ -6,7 +6,7 @@ export const robloxSecondThirdConditional: Lesson = {
   subtitle: "What would you do differently? What would have happened if? These two questions run through every match review.",
   level: 'B1-B2',
   description: "The second conditional talks about imaginary present or future situations — things that are not real but could be. The third conditional talks about imaginary past situations — things that did not happen and cannot be changed. Together, they are the grammar of hypothetical thinking, match analysis, professional reflection, and expressing regret. At B2, you need both with confidence.",
-  heroImage: '/images/roblox-second-third-conditional-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-second-third-conditional-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: 2nd vs 3rd Conditional',

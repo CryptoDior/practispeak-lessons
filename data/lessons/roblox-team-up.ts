@@ -6,7 +6,7 @@ export const robloxTeamUp: Lesson = {
   subtitle: "The words for playing together in Roblox — and working with others in real life!",
   level: 'A1',
   description: "Roblox is more fun with others! Learn the words for teams, leaders, squads, and working together — then discover how these same words describe groups and teamwork in real life.",
-  heroImage: '/images/roblox-team-up-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-team-up-hero.png?v=2',
 
   vocabulary: [
     {

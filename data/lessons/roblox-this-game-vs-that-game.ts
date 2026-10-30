@@ -6,7 +6,7 @@ export const robloxThisGameVsThatGame: Lesson = {
   subtitle: "Compare two Roblox games using comparative adjectives — and compare things in real life!",
   level: 'A2',
   description: "Which game is bigger, faster, or more fun? Learn comparative adjectives to compare two Roblox games — bigger, harder, better, worse — and use the same structures to compare things in your everyday life.",
-  heroImage: '/images/roblox-this-game-vs-that-game-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-this-game-vs-that-game-hero.png?v=2',
 
   vocabulary: [
     {

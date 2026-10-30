@@ -6,7 +6,7 @@ export const robloxPassiveVoice: Lesson = {
   subtitle: "The game was updated. The bug has been fixed. The exploit was patched. Say it the professional way!",
   level: 'B1-B2',
   description: "When something happens TO a person or thing — rather than being done BY them — you use the passive voice. In Roblox, you see it everywhere: patch notes, ban announcements, server updates. At B1 level, getting comfortable with passive structures makes your English sound far more natural, formal, and precise.",
-  heroImage: '/images/roblox-passive-voice-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-passive-voice-hero.png?v=2',
 
   vocabulary: [
     {

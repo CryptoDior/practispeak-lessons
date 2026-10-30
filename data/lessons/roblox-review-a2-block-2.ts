@@ -6,7 +6,7 @@ export const robloxReviewA2Block2: Lesson = {
   subtitle: "Revise the key words and phrases from your A2 Block 2 Roblox lessons!",
   level: 'A2',
   description: "Time to look back! Revise the key words and phrases from A2 Block 2 — group play, rules and consequences, telling stories, likes and dislikes, describing problems, Roblox Studio, talking about ability, asking questions, and giving opinions. Everything in one lesson!",
-  heroImage: '/images/roblox-review-a2-block-2-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-review-a2-block-2-hero.png?v=2',
 
   vocabulary: [
     {

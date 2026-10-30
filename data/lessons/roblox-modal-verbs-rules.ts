@@ -6,7 +6,7 @@ export const robloxModalVerbsRules: Lesson = {
   subtitle: "Go beyond CAN and MUST — learn the advanced modal structures that run every serious Roblox server.",
   level: 'B1-B2',
   description: "You already know CAN, MUST, and SHOULD. At B1-B2 it is time to go further. This lesson covers the modal structures that appear in real server terms, official guidelines, and formal rules — OUGHT TO, HAD BETTER, NEED NOT, BE SUPPOSED TO, BE PERMITTED TO, BE REQUIRED TO, MAY, and BE PROHIBITED FROM.",
-  heroImage: '/images/roblox-modal-verbs-rules-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-modal-verbs-rules-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Modal verbs — they come BEFORE the main verb',

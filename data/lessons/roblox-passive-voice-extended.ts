@@ -6,7 +6,7 @@ export const robloxPassiveVoiceExtended: Lesson = {
   subtitle: "It is reported. It is believed. It is said. These structures dominate news, patch notes, and professional writing.",
   level: 'B1-B2',
   description: "You already know basic passive voice — 'the game was updated', 'the player was banned'. At B2, you need the extended passive: impersonal structures like 'it is believed that', 'it is reported that', and 'it is said to be'. These are used everywhere in journalism, official communications, and professional writing — and they are essential for discussing things without assigning personal blame or opinion.",
-  heroImage: '/images/roblox-passive-voice-extended-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-passive-voice-extended-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Passive Voice — IS/WAS + past participle',

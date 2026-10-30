@@ -6,7 +6,7 @@ export const robloxAdverbsFrequencyDegree: Lesson = {
   subtitle: "Always online? Barely surviving? Incredibly skilled? Express exactly how much and how often!",
   level: 'B1-B2',
   description: "At B1 level, it is not enough to say you play 'a lot' or win 'sometimes' — you need adverbs that are precise. CONSTANTLY, BARELY, INCREDIBLY, RARELY — these words transform a basic description into one that sounds fluent and natural in any conversation.",
-  heroImage: '/images/roblox-adverbs-frequency-degree-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-adverbs-frequency-degree-hero.png?v=2',
 
   grammarFocus: {
     focusTitle: 'Focus: Two types of adverb — frequency and degree',

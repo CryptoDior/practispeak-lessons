@@ -6,7 +6,7 @@ export const robloxTheBestGameEver: Lesson = {
   subtitle: "Use superlatives to talk about the number one best and worst — in Roblox and in real life!",
   level: 'A2',
   description: "What is the BEST game you have ever played? Learn superlative adjectives — the best, the hardest, the most exciting — to talk about top experiences in Roblox and in your everyday life.",
-  heroImage: '/images/roblox-the-best-game-ever-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/roblox-the-best-game-ever-hero.png?v=2',
 
   vocabulary: [
     {
