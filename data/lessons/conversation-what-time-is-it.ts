@@ -23,12 +23,13 @@ export const conversationWhatTimeIsIt: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'What time do you wake up?',
-      'What time do you go to bed?',
+      'Are you a morning person or a night person? Why?',
+      'What do you do before you go to bed?',
       'What time do you eat breakfast, lunch and dinner?',
       'Are you often late or on time? Why?',
       'Do you like to hurry in the morning? Why or why not?',
       'What is your favorite time of the day?',
+    
     ],
   },
 

@@ -23,12 +23,13 @@ export const conversationWhatDidYouDoYesterday: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'What did you do yesterday?',
+      'Was yesterday a normal day for you? Why or why not?',
       'Did you go out yesterday? Where did you go?',
       'What did you eat yesterday?',
       'Was yesterday fun or boring? Why?',
       'Who did you meet yesterday?',
-      'What did you do last weekend?',
+      'What is something fun you did last week?',
+    
     ],
   },
 

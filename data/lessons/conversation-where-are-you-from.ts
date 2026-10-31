@@ -24,12 +24,13 @@ export const conversationWhereAreYouFrom: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'Where are you from?',
-      'What city do you live in? Do you like it?',
-      'Where were you born?',
+      'What do you like about your hometown?',
+      'Would you like to live in another city or country? Why or why not?',
+      'What food is famous in your country or city?',
       'What is special about your country or city?',
       'Where is a good place to visit in your country?',
       'Who is your best friend? Where is he or she from?',
+    
     ],
   },
 

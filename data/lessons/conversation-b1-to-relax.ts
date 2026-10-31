@@ -23,12 +23,13 @@ export const conversationB1ToRelax: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'What do you do to relax?',
+      'Which activity helps you relax the most, and how long does it take to work?',
       'Do you prefer to relax alone or with other people? Why?',
       'Have you ever tried to meditate, or to breathe deeply to calm down? How was it?',
       'How do you switch off from work or study?',
       'What helps you recharge when you feel tired?',
       'Do you think people today find it hard to disconnect? Why?',
+    
     ],
   },
 

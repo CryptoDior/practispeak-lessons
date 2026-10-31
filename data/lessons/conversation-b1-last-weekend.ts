@@ -42,12 +42,13 @@ export const conversationB1LastWeekend: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'What did you do last weekend? Was it productive or relaxing?',
+      'Is your weekend usually productive or relaxing? Why?',
       'Did you try anything new or different last weekend?',
       'Did you meet or go out with anyone? Where did you go?',
       'Do you prefer to stay home or go out on weekends? Why?',
       'Did you catch up on sleep or on any chores?',
       'What are you going to do next weekend?',
+    
     ],
   },
 

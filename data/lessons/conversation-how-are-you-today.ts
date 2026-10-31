@@ -23,12 +23,13 @@ export const conversationHowAreYouToday: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'How are you today?',
+      'Do you feel the same every day, or does it change a lot?',
       'Do you feel tired in the morning? Why or why not?',
       'What makes you happy?',
       'What do you do when you feel sad?',
       'How do you feel on Monday? How do you feel on Saturday?',
-      'How is your day so far?',
+      'What do you do to feel better when you are tired?',
+    
     ],
   },
 

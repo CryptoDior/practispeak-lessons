@@ -23,12 +23,13 @@ export const conversationWhatDoYouDo: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'What do you do? Do you work or study?',
-      'Do you like your job or your studies? Why?',
-      'Where do you work or study?',
+      'Do you like to talk about your job with new people? Why or why not?',
+      'Is your day busy or quiet? Why?',
+      'Who do you work or study with? Tell us about one person.',
       'What job do you want to have? Why?',
       'Is your job easy or difficult?',
       'What do your friends and family do?',
+    
     ],
   },
 

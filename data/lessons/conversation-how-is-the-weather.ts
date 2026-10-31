@@ -24,12 +24,13 @@ export const conversationHowIsTheWeather: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'How is the weather today?',
+      'Which weather do you like best, and which do you like least? Why?',
       'What is your favorite weather? Why?',
-      'Do you like hot weather or cold weather?',
+      'Do you check the weather before you leave home? Why?',
       'What do you do on a rainy day?',
       'What do you wear when it is cold?',
-      'How is the weather in your city in summer?',
+      'How is the weather different in summer and winter in your city?',
+    
     ],
   },
 

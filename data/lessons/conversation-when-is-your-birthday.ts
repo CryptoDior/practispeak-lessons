@@ -23,12 +23,13 @@ export const conversationWhenIsYourBirthday: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'When is your birthday?',
+      'Which birthday do you remember the most? Why?',
       'How do you celebrate your birthday?',
-      'Do you like birthday parties? Why or why not?',
+      'What is the best gift you ever got? Who gave it to you?',
       'What is a good birthday present for you?',
       'Who has a birthday soon in your family?',
       'What month is your favorite month? Why?',
+    
     ],
   },
 

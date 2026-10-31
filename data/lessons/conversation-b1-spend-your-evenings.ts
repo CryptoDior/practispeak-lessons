@@ -23,12 +23,13 @@ export const conversationB1SpendYourEvenings: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'How do you usually spend your evenings?',
+      'Is your evening routine the same every day, or does it change? Why?',
       'What helps you unwind after a long day?',
       'Do you disconnect from your phone in the evening? Why or why not?',
       'Do you prefer to socialize in the evening or stay at home? Why?',
-      'What do you usually do to wind down before bed?',
+      'What helps you fall asleep more easily at night?',
       'How are your evenings different on weekdays and on weekends?',
+    
     ],
   },
 

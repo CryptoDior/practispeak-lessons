@@ -46,7 +46,7 @@ export const conversationB1AfterWork: Lesson = {
       'What errands do you have to run this week?',
       'Do you take care of anyone or anything after work, such as children, a pet or a house?',
       'What do you do to prepare for the next day?',
-      'Do you think exercise after work is a good idea? Why or why not?',
+      'Is it better to rest or to be active when you are tired from work? Why?',
     ],
   },
 

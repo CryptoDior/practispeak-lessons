@@ -23,12 +23,13 @@ export const conversationGoingToDoTomorrow: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'What are you going to do tomorrow?',
+      'Do you like to make plans, or do you prefer to decide on the day?',
       'Are you going to work or study tomorrow?',
       'Are you going to eat out this week? Where?',
-      'What are you going to do in the evening?',
-      'Who are you going to see this weekend?',
+      'Who are you going to spend time with this weekend?',
+      'What are you going to cook or eat this weekend?',
       'What is your plan for your next holiday?',
+    
     ],
   },
 

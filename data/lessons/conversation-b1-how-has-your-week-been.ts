@@ -41,12 +41,13 @@ export const conversationB1HowHasYourWeekBeen: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'How has your week been so far? Is it hectic, quiet or somewhere in between?',
+      'Is it normal for you to have a hectic week, or is your week usually quiet?',
       'What was the most productive part of your week?',
       'Do you prefer a chaotic week with a lot happening or a quiet one? Why?',
       'What do you do when a week is stressful?',
       'What do you do to make your week more relaxing?',
       'What are you looking forward to for the rest of the week?',
+    
     ],
   },
 

@@ -23,12 +23,13 @@ export const conversationC1ReflectingOnYourself: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'What recent situation made you reflect on yourself, and what realization came from it?',
+      'Which recent experience taught you something new about yourself, and what realization came from it?',
       'How do you build self-awareness? Is it something we can practice?',
       'Do you think we are mostly driven by subconscious patterns or by conscious choices? Why?',
       'Has a triggering moment ever exposed a vulnerability of yours? How did you respond?',
       'What behavioral patterns have you noticed in yourself over time?',
       'How important is emotional clarity in making good decisions?',
+    
     ],
   },
 

@@ -23,12 +23,13 @@ export const conversationFreeTime: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'What do you do in your free time?',
-      'Do you have a hobby? What is it?',
+      'How much free time do you have each week?',
+      'Is there a hobby you would like to start? Why?',
       'Do you like to be alone or with friends in your free time?',
       'How much free time do you have each day?',
       'What do you do on Sunday?',
       'What new hobby do you want to try?',
+    
     ],
   },
 

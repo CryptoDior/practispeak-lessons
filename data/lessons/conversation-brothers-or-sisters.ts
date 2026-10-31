@@ -23,12 +23,13 @@ export const conversationBrothersOrSisters: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'Do you have brothers or sisters?',
+      'How many people are in your family? Tell us about them.',
       'Are you the older or the younger child in your family?',
       'What do you do with your brother or sister?',
       'Do you want to have a big family? Why or why not?',
       'Is it good to be an only child? Why or why not?',
       'Who is in your family? Tell us about one person.',
+    
     ],
   },
 

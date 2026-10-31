@@ -23,12 +23,13 @@ export const conversationB1UpToLately: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'What have you been up to lately?',
+      'Has anything changed in your life in the last few months? Tell us about it.',
       'Have your last few weeks been eventful or peaceful?',
       'Is there anything that feels overwhelming right now? What helps?',
       'What do you do consistently, such as a habit or a routine?',
       'How often do you see your friends these days? Do you see them often or rarely?',
       'What do you want to do more of in the next few weeks?',
+    
     ],
   },
 

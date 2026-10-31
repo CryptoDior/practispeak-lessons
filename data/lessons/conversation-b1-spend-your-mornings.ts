@@ -42,12 +42,13 @@ export const conversationB1SpendYourMornings: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'How do you usually spend your mornings? Describe your routine.',
-      'What do you do first when you wake up?',
+      'Is your morning routine the same on weekdays and weekends? Why or why not?',
+      'What is the first thing you check or do after you get out of bed?',
       'How do you get ready? Do you do it quickly or take your time?',
       'Are you more alert in the morning or at night? Why?',
       'What do you do as soon as you wake up, before anything else?',
       'Would you like to change your morning routine? How?',
+    
     ],
   },
 

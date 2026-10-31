@@ -23,12 +23,13 @@ export const conversationC1PrioritizingEachDay: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'How do you decide what to prioritize each day? Do you have a system?',
+      'Do you use a system or app to organize your priorities, or do you just go with the flow?',
       'How do you assess your bandwidth, and how do you allocate your time accordingly?',
       'Are you more proactive or reactive in your daily life? Give an example.',
       'How do you tell the difference between what is urgent and what is truly important?',
       'What counts as busywork in your life, and how do you deal with it?',
       'When is your peak performance time, and how do you use it?',
+    
     ],
   },
 

@@ -23,12 +23,13 @@ export const conversationC1InfluencesMood: Lesson = {
   // Discussion: open-ended questions with no right answer.
   discussion: {
     questions: [
-      'What influences your mood the most: your environment, the people around you or something else?',
+      'Which is stronger for you: your environment, the people around you or your own thoughts? Why?',
       'How do you recognize when you are overstimulated or emotionally drained?',
       'Is there a specific trigger that tends to make you irritable? How do you manage it?',
       'To what extent can we control our mindset, and to what extent are we shaped by circumstances?',
       "How do you protect your mental space from other people's moods?",
       'Are some people more sensitive to their surroundings than others? What do you think explains this?',
+    
     ],
   },
 
