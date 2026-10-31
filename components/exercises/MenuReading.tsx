@@ -21,6 +21,22 @@ export default function MenuReading({ menu }: { menu: MenuReadingData }) {
     window.addEventListener('resize', measure);
     return () => window.removeEventListener('resize', measure);
   }, []);
+  const wine = menu.style === 'wine';
+  const th = wine
+    ? {
+        outer: 'bg-gradient-to-br from-[#B8893A] via-[#8C6425] to-[#5C3F14] shadow-[0_10px_36px_rgba(40,10,20,0.45)]',
+        inner: 'border-[#D8B36A]/60 bg-[#2B0F1A] bg-[radial-gradient(circle_at_top,#4A1A2B,#240C16)]',
+        accent: 'text-[#D8B36A]', title: 'text-[#F6E7C8]', rule: 'bg-[#D8B36A]/70', heading: 'text-[#E9C77E]',
+        name: 'text-[#FBF1DC]', dots: 'border-[#D8B36A]/50', price: 'text-[#E9C77E]',
+        tag: 'text-[#F0DDB8] bg-[#5A1F34]/70 border-[#9B6B3C]/70',
+      }
+    : {
+        outer: 'bg-gradient-to-br from-[#7A4A22] via-[#5E3718] to-[#3F230E] shadow-[0_10px_36px_rgba(120,70,20,0.16)]',
+        inner: 'border-[#E9C98A]/70 bg-[#FBF4E4] bg-[radial-gradient(circle_at_top,#FFFDF6,#F6EBD2)]',
+        accent: 'text-[#B7791F]', title: 'text-[#3F230E]', rule: 'bg-[#C99A4B]', heading: 'text-[#8A4B16]',
+        name: 'text-[#2B1A0B]', dots: 'border-[#C9A56B]/70', price: 'text-[#8A4B16]',
+        tag: 'text-[#6B4A2A] bg-[#F1E2BF]/70 border-[#E2C88F]',
+      };
   const done = Object.keys(picked).length;
   const score = menu.questions.filter((q, i) => picked[i] === q.correctIndex).length;
 
@@ -30,40 +46,40 @@ export default function MenuReading({ menu }: { menu: MenuReadingData }) {
 
       {/* Menu on the left, questions on the right (stacked on small screens) */}
       <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
-      {/* The menu card: paper look, double border, dotted price lines, notes shown as small tags */}
+      {/* The menu card: paper look (cream) or dark wine list, with dotted price lines and small tags */}
       <div
-        className="lg:sticky rounded-[22px] p-2 shadow-[0_10px_36px_rgba(120,70,20,0.16)] bg-gradient-to-br from-[#7A4A22] via-[#5E3718] to-[#3F230E] lg:max-h-[calc(100vh-9rem)]"
+        className={`lg:sticky rounded-[22px] p-2 lg:max-h-[calc(100vh-9rem)] ${th.outer}`}
         style={{ top }}
       >
-        <div className="rounded-[16px] border border-[#E9C98A]/70 bg-[#FBF4E4] bg-[radial-gradient(circle_at_top,#FFFDF6,#F6EBD2)] px-6 py-7 md:px-9 md:py-9 lg:max-h-[calc(100vh-10.5rem)] lg:overflow-y-auto">
+        <div className={`rounded-[16px] border px-6 py-7 md:px-9 md:py-9 lg:max-h-[calc(100vh-10.5rem)] lg:overflow-y-auto ${th.inner}`}>
           <div className="text-center mb-7">
-            <p className="text-[#B7791F] tracking-[0.5em] text-xs mb-2" aria-hidden="true">✦ ✦ ✦</p>
-            <h3 className="font-playfair text-2xl md:text-[1.9rem] font-semibold text-[#3F230E] leading-tight">{menu.title}</h3>
+            <p className={`${th.accent} tracking-[0.5em] text-xs mb-2`} aria-hidden="true">{wine ? '❖ ❖ ❖' : '✦ ✦ ✦'}</p>
+            <h3 className={`font-playfair text-2xl md:text-[1.9rem] font-semibold leading-tight ${th.title}`}>{menu.title}</h3>
             <div className="mt-3 flex items-center justify-center gap-3" aria-hidden="true">
-              <span className="h-px w-12 bg-[#C99A4B]" />
-              <span className="text-[#C99A4B] text-sm">❦</span>
-              <span className="h-px w-12 bg-[#C99A4B]" />
+              <span className={`h-px w-12 ${th.rule}`} />
+              <span className={`${th.accent} text-sm`}>{wine ? '🍷' : '❦'}</span>
+              <span className={`h-px w-12 ${th.rule}`} />
             </div>
           </div>
 
           <div className="space-y-7">
             {menu.sections.map((s) => (
               <div key={s.heading}>
-                <p className="font-playfair italic text-lg text-[#8A4B16] text-center mb-3">— {s.heading} —</p>
+                <p className={`font-playfair italic text-lg text-center mb-3 ${th.heading}`}>— {s.heading} —</p>
                 <ul className="space-y-4">
                   {s.items.map((it) => {
                     const tags = it.note ? it.note.split('·').map((x) => x.trim()).filter(Boolean) : [];
                     return (
                       <li key={it.name}>
                         <div className="flex items-baseline gap-2">
-                          <span className="font-bold text-[#2B1A0B] text-[17px] leading-snug">{it.name}</span>
-                          {it.price && <span className="flex-1 border-b-2 border-dotted border-[#C9A56B]/70 translate-y-[-3px] min-w-[1rem]" aria-hidden="true" />}
-                          {it.price && <span className="font-bold text-[#8A4B16] text-[17px] whitespace-nowrap">{it.price}</span>}
+                          <span className={`font-bold text-[17px] leading-snug ${th.name}`}>{it.name}</span>
+                          {it.price && <span className={`flex-1 border-b-2 border-dotted translate-y-[-3px] min-w-[1rem] ${th.dots}`} aria-hidden="true" />}
+                          {it.price && <span className={`font-bold text-[17px] whitespace-nowrap ${th.price}`}>{it.price}</span>}
                         </div>
                         {tags.length > 0 && (
                           <div className="mt-1.5 flex flex-wrap gap-1.5">
                             {tags.map((tg) => (
-                              <span key={tg} className="text-[12.5px] italic text-[#6B4A2A] bg-[#F1E2BF]/70 border border-[#E2C88F] rounded-full px-2.5 py-0.5">
+                              <span key={tg} className={`text-[12.5px] italic border rounded-full px-2.5 py-0.5 ${th.tag}`}>
                                 {tg}
                               </span>
                             ))}
@@ -77,7 +93,7 @@ export default function MenuReading({ menu }: { menu: MenuReadingData }) {
             ))}
           </div>
 
-          <p className="mt-8 text-center text-[#C99A4B] text-xs tracking-[0.5em]" aria-hidden="true">✦ ✦ ✦</p>
+          <p className={`mt-8 text-center text-xs tracking-[0.5em] ${th.accent}`} aria-hidden="true">{wine ? '❖ ❖ ❖' : '✦ ✦ ✦'}</p>
         </div>
       </div>
 

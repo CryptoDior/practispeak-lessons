@@ -124,6 +124,8 @@ export interface ReadingPassage {
 /** A menu / list to read, followed by multiple-choice questions about it. */
 export interface MenuReading {
   title: string;                 // e.g. "Casa Verde — Wine List"
+  /** 'cream' (default) = restaurant menu on paper; 'wine' = dark burgundy wine list. */
+  style?: 'cream' | 'wine';
   intro?: string;                // short instruction or scene
   sections: {
     heading: string;             // e.g. "Red wine"

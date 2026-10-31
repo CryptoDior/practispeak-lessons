@@ -23,6 +23,7 @@ export const foodHowDoesWineTaste: Lesson = {
   // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
   menuReading: {
     title: 'Sunny Wine Shop — Taste Notes',
+    style: 'wine',
     intro: 'Read about the four wines. Then choose the right answer.',
     sections: [
       {

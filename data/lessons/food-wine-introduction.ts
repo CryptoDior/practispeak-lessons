@@ -36,6 +36,7 @@ export const foodWineIntroduction: Lesson = {
 
   menuReading: {
     title: 'Casa Rosa — Wine List',
+    style: 'wine',
     intro: 'Read the wine list. Then choose the right answer.',
     sections: [
       {

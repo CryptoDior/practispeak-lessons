@@ -23,6 +23,7 @@ export const foodWineFoodPairing: Lesson = {
   // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
   menuReading: {
     title: 'Bistro Noir — Tonight\'s Menu with Wine Pairings',
+    style: 'wine',
     intro: 'Read the menu. Each dish has a wine that goes well with it.',
     sections: [
       {

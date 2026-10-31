@@ -23,6 +23,7 @@ export const foodWineMakingOrdering: Lesson = {
   // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
   menuReading: {
     title: 'Bodega Alta — Wine List',
+    style: 'wine',
     intro: 'Read the wine list. The vintage is the year the grapes were harvested.',
     sections: [
       {

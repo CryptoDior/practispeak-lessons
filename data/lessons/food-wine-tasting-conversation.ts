@@ -23,6 +23,7 @@ export const foodWineTastingConversation: Lesson = {
   // Read the Menu: read, then answer the questions (shown beside the menu on wide screens).
   menuReading: {
     title: 'Tasting Card — Three Wines',
+    style: 'wine',
     intro: 'Read the tasting card. Then answer the questions.',
     sections: [
       {
