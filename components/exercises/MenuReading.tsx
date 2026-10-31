@@ -30,29 +30,54 @@ export default function MenuReading({ menu }: { menu: MenuReadingData }) {
 
       {/* Menu on the left, questions on the right (stacked on small screens) */}
       <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
-      {/* The menu card */}
+      {/* The menu card: paper look, double border, dotted price lines, notes shown as small tags */}
       <div
-        className="lg:sticky bg-[#FFFDF8] rounded-[20px] border border-amber-100 shadow-[0_2px_16px_rgba(120,80,20,0.08)] p-6 md:p-8 lg:max-h-[calc(100vh-9rem)] lg:overflow-y-auto"
+        className="lg:sticky rounded-[22px] p-2 shadow-[0_10px_36px_rgba(120,70,20,0.16)] bg-gradient-to-br from-[#7A4A22] via-[#5E3718] to-[#3F230E] lg:max-h-[calc(100vh-9rem)]"
         style={{ top }}
       >
-        <h3 className="font-playfair text-2xl md:text-3xl font-semibold text-center text-slate-900 mb-6">{menu.title}</h3>
-        <div className="space-y-6">
-          {menu.sections.map((s) => (
-            <div key={s.heading}>
-              <p className="text-xs font-extrabold tracking-[0.2em] uppercase text-amber-700 border-b border-amber-200 pb-1.5 mb-3">{s.heading}</p>
-              <ul className="space-y-2.5">
-                {s.items.map((it) => (
-                  <li key={it.name} className="flex items-baseline gap-3">
-                    <div className="flex-1 min-w-0">
-                      <span className="font-bold text-slate-900">{it.name}</span>
-                      {it.note && <span className="block text-sm text-slate-500 italic">{it.note}</span>}
-                    </div>
-                    <span className="flex-shrink-0 font-bold text-slate-800">{it.price}</span>
-                  </li>
-                ))}
-              </ul>
+        <div className="rounded-[16px] border border-[#E9C98A]/70 bg-[#FBF4E4] bg-[radial-gradient(circle_at_top,#FFFDF6,#F6EBD2)] px-6 py-7 md:px-9 md:py-9 lg:max-h-[calc(100vh-10.5rem)] lg:overflow-y-auto">
+          <div className="text-center mb-7">
+            <p className="text-[#B7791F] tracking-[0.5em] text-xs mb-2" aria-hidden="true">✦ ✦ ✦</p>
+            <h3 className="font-playfair text-2xl md:text-[1.9rem] font-semibold text-[#3F230E] leading-tight">{menu.title}</h3>
+            <div className="mt-3 flex items-center justify-center gap-3" aria-hidden="true">
+              <span className="h-px w-12 bg-[#C99A4B]" />
+              <span className="text-[#C99A4B] text-sm">❦</span>
+              <span className="h-px w-12 bg-[#C99A4B]" />
             </div>
-          ))}
+          </div>
+
+          <div className="space-y-7">
+            {menu.sections.map((s) => (
+              <div key={s.heading}>
+                <p className="font-playfair italic text-lg text-[#8A4B16] text-center mb-3">— {s.heading} —</p>
+                <ul className="space-y-4">
+                  {s.items.map((it) => {
+                    const tags = it.note ? it.note.split('·').map((x) => x.trim()).filter(Boolean) : [];
+                    return (
+                      <li key={it.name}>
+                        <div className="flex items-baseline gap-2">
+                          <span className="font-bold text-[#2B1A0B] text-[17px] leading-snug">{it.name}</span>
+                          {it.price && <span className="flex-1 border-b-2 border-dotted border-[#C9A56B]/70 translate-y-[-3px] min-w-[1rem]" aria-hidden="true" />}
+                          {it.price && <span className="font-bold text-[#8A4B16] text-[17px] whitespace-nowrap">{it.price}</span>}
+                        </div>
+                        {tags.length > 0 && (
+                          <div className="mt-1.5 flex flex-wrap gap-1.5">
+                            {tags.map((tg) => (
+                              <span key={tg} className="text-[12.5px] italic text-[#6B4A2A] bg-[#F1E2BF]/70 border border-[#E2C88F] rounded-full px-2.5 py-0.5">
+                                {tg}
+                              </span>
+                            ))}
+                          </div>
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-8 text-center text-[#C99A4B] text-xs tracking-[0.5em]" aria-hidden="true">✦ ✦ ✦</p>
         </div>
       </div>
 
