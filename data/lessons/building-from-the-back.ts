@@ -6,7 +6,7 @@ export const buildingFromTheBack: Lesson = {
   subtitle: 'Playing out, recycling possession, goalkeeper distribution',
   level: 'B1-B2',
   description: 'Learn the vocabulary for how teams build attacks starting from the goalkeeper — passing out from the back, keeping possession, and how the goalkeeper uses the ball to start play.',
-  heroImage: '/images/building-from-the-back-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/building-from-the-back-hero.png?v=1',
 
   grammarFocus: {
     focusTitle: 'Focus: Infinitive of purpose — explaining why you do something',

@@ -6,7 +6,7 @@ export const theFootballPitch: Lesson = {
   subtitle: 'Name the key parts of a football pitch',
   level: 'A1-A2',
   description: 'Learn the words for the key areas and lines on a football pitch — goal, net, penalty spot, centre circle, touchline, pitch, goalpost, and box.',
-  heroImage: '/images/the-football-pitch-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-football-pitch-hero.png?v=1',
 
   vocabulary: [
     {

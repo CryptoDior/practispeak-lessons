@@ -6,7 +6,7 @@ export const peopleAtTheClub: Lesson = {
   subtitle: 'Name everyone you meet at a football club',
   level: 'A1-A2',
   description: 'Learn the words for the people you find at a football club — manager, coach, referee, linesman, fan, player, supporter, and physio — and how to talk about what each person does.',
-  heroImage: '/images/people-at-the-club-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/people-at-the-club-hero.png?v=1',
 
   vocabulary: [
     {

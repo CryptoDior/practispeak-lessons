@@ -6,7 +6,7 @@ export const counterAttack: Lesson = {
   subtitle: 'Transition, on the break, pace in behind',
   level: 'B1-B2',
   description: 'Learn the vocabulary for one of football\'s most exciting tactics — the counter-attack. How teams win the ball and attack quickly before the opposition can recover.',
-  heroImage: '/images/counter-attack-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/counter-attack-hero.png?v=1',
 
   grammarFocus: {
     focusTitle: 'Focus: First conditional — "If + present simple, will + base verb"',

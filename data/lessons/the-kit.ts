@@ -6,7 +6,7 @@ export const theKit: Lesson = {
   subtitle: 'Name everything a player wears',
   level: 'A1-A2',
   description: 'Learn the words for football clothing and equipment — shirt, shorts, boots, shin pads, gloves, bib, socks, and kit — and the phrases players use when getting ready to play.',
-  heroImage: '/images/the-kit-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/the-kit-hero.png?v=1',
 
   vocabulary: [
     {

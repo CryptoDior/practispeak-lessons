@@ -6,7 +6,7 @@ export const kickPassShoot: Lesson = {
   subtitle: 'Core action verbs and body part vocabulary',
   level: 'A1-A2',
   description: 'Learn the core action verbs for playing football — kick, pass, shoot, tackle, dribble, cross, header, and volley — and how to say which body part you use.',
-  heroImage: '/images/kick-pass-shoot-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/kick-pass-shoot-hero.png?v=1',
 
   vocabulary: [
     {

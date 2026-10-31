@@ -6,7 +6,7 @@ export const widthAndDepth: Lesson = {
   subtitle: 'Stretching the play, overlaps, underlaps, fullback roles',
   level: 'B1-B2',
   description: 'Learn how teams use width and depth to create space and open up the opposition. From overlapping full-backs to underlapping runs — the vocabulary of attacking shape.',
-  heroImage: '/images/width-and-depth-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/width-and-depth-hero.png?v=1',
 
   grammarFocus: {
     focusTitle: 'Focus: Gerunds vs Infinitives — talking about football actions',

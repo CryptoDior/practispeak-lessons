@@ -6,7 +6,7 @@ export const numbersInFootball: Lesson = {
   subtitle: 'Scores, times, jersey numbers, and more',
   level: 'A1-A2',
   description: 'Learn how to use numbers in football — scores, jersey numbers, minutes played, half time, full time, injury time, and extra time.',
-  heroImage: '/images/numbers-in-football-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/numbers-in-football-hero.png?v=1',
 
   vocabulary: [
     {

@@ -6,7 +6,7 @@ export const trainingSessions: Lesson = {
   subtitle: 'Drills, rondos, small-sided games, cool-down, debrief',
   level: 'B1-B2',
   description: 'Learn the vocabulary for what happens at training — from warm-ups and drills to rondos, small-sided games, and the post-session debrief.',
-  heroImage: '/images/training-sessions-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/training-sessions-hero.png?v=1',
 
   grammarFocus: {
     focusTitle: 'Focus: Frequency adverbs and time expressions',

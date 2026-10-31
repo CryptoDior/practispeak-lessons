@@ -12,7 +12,7 @@ export const healthAtTheDoctor: Lesson = {
   level: 'B1-B2',
   description:
     'Learn how to describe your symptoms to a doctor, understand questions and advice, and talk about medicine, prescriptions and recovery.',
-  heroImage: img('hero'),
+  heroImage: img('hero') + '?v=2',
 
   objectives: [
     'Describe common cold and flu symptoms.',

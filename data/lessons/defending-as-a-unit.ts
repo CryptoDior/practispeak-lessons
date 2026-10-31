@@ -6,7 +6,7 @@ export const defendingAsAUnit: Lesson = {
   subtitle: 'Defensive line, compact shape, zonal vs man marking',
   level: 'B1-B2',
   description: 'Learn the key vocabulary for organised defending — how teams defend together, how they set up their defensive shape, and the difference between zonal marking and man marking.',
-  heroImage: '/images/defending-as-a-unit-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/defending-as-a-unit-hero.png?v=1',
 
   grammarFocus: {
     focusTitle: 'Focus: Should / must / have to — giving tactical instructions',

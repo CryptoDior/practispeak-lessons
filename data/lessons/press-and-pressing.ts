@@ -6,7 +6,7 @@ export const pressAndPressing: Lesson = {
   subtitle: 'High press, gegenpressing, press triggers — modern tactical terms',
   level: 'B1-B2',
   description: 'Learn the language of pressing — one of the most important tactics in modern football. Understand what coaches and pundits mean when they talk about the high press, press triggers, and winning the ball high up the pitch.',
-  heroImage: '/images/press-and-pressing-hero.png',
+  heroImage: 'https://pub-f624871959c1437798bb4e533e0b2adb.r2.dev/press-and-pressing-hero.png?v=1',
 
   grammarFocus: {
     focusTitle: 'Focus: Present simple vs present continuous for tactics',
